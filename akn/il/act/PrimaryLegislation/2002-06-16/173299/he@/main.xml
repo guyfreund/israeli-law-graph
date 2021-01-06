@@ -1,0 +1,1457 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion" name="publicLaw">
+    <meta>
+      <identification source="#kensset">
+        <FRBRWork>
+          <FRBRthis value="/akn/il/act/PrimaryLegislation/2002-06-16/173299/main" />
+          <FRBRuri value="/akn/il/act/PrimaryLegislation/2002-06-16/173299" />
+          <FRBRdate date="2002-06-16" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRcountry value="israel" />
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/il/act/PrimaryLegislation/2002-06-16/173299/he@/main" />
+          <FRBRuri value="/akn/il/act/PrimaryLegislation/2002-06-16/173299/he@" />
+          <FRBRdate date="2002-06-16" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRlanguage language="hebrew" />
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/il/act/PrimaryLegislation/2002-06-16/173299/he@/main.xml" />
+          <FRBRuri value="/akn/il/act/PrimaryLegislation/2002-06-16/173299/he@" />
+          <FRBRdate date="2002-06-16" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRformat value="xml" />
+        </FRBRManifestation>
+      </identification>
+      <classification source="#kensset">
+        <keyword value="{classificationValue}" showAs="{classificationValue}" dictionary="#classification_dictionary" />
+      </classification>
+      <lifecycle source="#kensset">
+        <eventRef eId="eventRef_1" date="2002-06-16" source="#kensset" type="generation" />
+      </lifecycle>
+      <references source="#kensset">
+        <TLCOrganization eId="kensset" href="/ontology/organization/akn/knesset" showAs="Kensset" type="generation" />
+        <TLCRole eId="author" href="/ontology/role/akn/author" showAs="Author of Document" />
+        <TLCProcess eId="inforce" href="/ontology/process/akn/inforce" showAs="In force" />
+        <TLCTerm eId="term_1" href="/ontology/term/הטבת_מס/173299" showAs="הטבת_מס" />
+        <TLCTerm eId="term_2" href="/ontology/term/יישוב/173299" showAs="יישוב" />
+        <TLCTerm eId="term_3" href="/ontology/term/חוק_הטבה/173299" showAs="חוק_הטבה" />
+        <TLCTerm eId="term_4" href="/ontology/term/התקופה_הקובעת/173299" showAs="התקופה_הקובעת" />
+        <TLCTerm eId="term_5" href="/ontology/term/חוק_הביטוח_הלאומי/173299" showAs="חוק_הביטוח_הלאומי" />
+        <TLCTerm eId="term_6" href="/ontology/term/העודפים/173299" showAs="העודפים" />
+        <TLCTerm eId="term_7" href="/ontology/term/הפקודה/173299" showAs="הפקודה" />
+        <TLCTerm eId="term_8" href="/ontology/term/אזור_באר_שבע_והנגב/173299" showAs="אזור_באר_שבע_והנגב" />
+        <TLCTerm eId="term_9" href="/ontology/term/אזור_עדיפות/173299" showAs="אזור_עדיפות" />
+        <TLCTerm eId="term_10" href="/ontology/term/האזור/173299" showAs="האזור" />
+        <TLCTerm eId="term_11" href="/ontology/term/הגליל/173299" showAs="הגליל" />
+        <TLCTerm eId="term_12" href="/ontology/term/המוסד/173299" showAs="המוסד" />
+        <TLCTerm eId="term_13" href="/ontology/term/הפקודה/173299" showAs="הפקודה" />
+        <TLCTerm eId="term_14" href="/ontology/term/יישוב_מועדף/173299" showAs="יישוב_מועדף" />
+        <TLCTerm eId="term_15" href="/ontology/term/מגזר_עסקי/173299" showAs="מגזר_עסקי" />
+        <TLCTerm eId="term_16" href="/ontology/term/מועד_התחילה/173299" showAs="מועד_התחילה" />
+        <TLCTerm eId="term_17" href="/ontology/term/מכסת_גידול_מינימלית/173299" showAs="מכסת_גידול_מינימלית" />
+        <TLCTerm eId="term_18" href="/ontology/term/קבלן_כוח_אדם/173299" showAs="קבלן_כוח_אדם" />
+        <TLCTerm eId="term_19" href="/ontology/term/קבלן_שמירה_או_ניקיון/173299" showAs="קבלן_שמירה_או_ניקיון" />
+        <TLCTerm eId="term_20" href="/ontology/term/עובד_מועדף/173299" showAs="עובד_מועדף" />
+        <TLCTerm eId="term_21" href="/ontology/term/עובד_קבלן/173299" showAs="עובד_קבלן" />
+        <TLCTerm eId="term_22" href="/ontology/term/מעסיק/173299" showAs="מעסיק" />
+        <TLCTerm eId="term_23" href="/ontology/term/עובד_נוסף/173299" showAs="עובד_נוסף" />
+        <TLCTerm eId="term_24" href="/ontology/term/רבעון/173299" showAs="רבעון" />
+        <TLCTerm eId="term_25" href="/ontology/term/התקופה_הקודמת/173299" showAs="התקופה_הקודמת" />
+        <TLCTerm eId="term_26" href="/ontology/term/התקופה_הקובעת/173299" showAs="התקופה_הקובעת" />
+        <TLCTerm eId="term_27" href="/ontology/term/היום_הקובע/173299" showAs="היום_הקובע" />
+        <TLCTerm eId="term_28" href="/ontology/term/הטבות/173299" showAs="הטבות" />
+        <TLCTerm eId="term_29" href="/ontology/term/היום_הקובע_השני/173299" showAs="היום_הקובע_השני" />
+        <TLCPerson eId="אריאל_שרון" href="/ontology/person/אריאל_שרון" showAs="אריאל שרון" />
+        <TLCPerson eId="סילבן_שלום" href="/ontology/person/סילבן_שלום" showAs="סילבן שלום" />
+        <TLCPerson eId="משה_קצב" href="/ontology/person/משה_קצב" showAs="משה קצב" />
+        <TLCPerson eId="אברהם_בורג" href="/ontology/person/אברהם_בורג" showAs="אברהם בורג" />
+        <TLCRole eId="ראש_הממשלה" href="ontology/role/akn/ראש_הממשלה" showAs="ראש הממשלה" />
+        <TLCRole eId="שר_האוצר" href="ontology/role/akn/שר_האוצר" showAs="שר האוצר" />
+        <TLCRole eId="נשיא_המדינה" href="ontology/role/akn/נשיא_המדינה" showAs="נשיא המדינה" />
+        <TLCRole eId="יושב_ראש_הכנסת" href="ontology/role/akn/יושב_ראש_הכנסת" showAs="יושב ראש הכנסת" />
+      </references>
+      <temporalData source="#kensset">
+        <temporalGroup eId="tmpg_1" />
+      </temporalData>
+      <Publication></Publication>
+      <proprietary wikiversion="7/22/2020 11:20:55 PM" />
+    </meta>
+    <body period="#tmpg_1">
+      <title eId="title">
+        <content>
+          <p>חוק תכנית החירום הכלכלית (תיקוני חקיקה להשגת יעדי התקציב והמדיניות הכלכלית לשנות הכספים 2002 ו־2003), התשס"ב–2002</p>
+        </content>
+      </title>
+      <chapter eId="chp_א">
+        <num>פרק א׳:</num>
+        <title>
+          <content>
+            <p>מטרת החוק</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_1">
+            <heading>
+              <authorialNote placement="side">
+                <p>מטרת החוק</p>
+              </authorialNote>
+            </heading>
+            <num>1.</num>
+            <content>
+              <p>חוק זה בא לתקן חוקים שונים, לדחות את תחילתם של חוקים ולקבוע הוראות נוספות, במטרה לאפשר השגת יעדי התקציב וצמצום הגירעון הממשלתי והחוב הלאומי, לשנות הכספים 2002 ו־2003.</p>
+            </content>
+          </point>
+        </list>
+      </chapter>
+      <chapter eId="chp_ב">
+        <num>פרק ב׳:</num>
+        <title>
+          <content>
+            <p>תיקון חוק ההסדרים לשנת הכספים 2002</p>
+          </content>
+        </title>
+        <section eId="chp_ב__sec_א">
+          <num>סימן א׳:</num>
+          <title>
+            <content>
+              <p>תיקונים שונים</p>
+            </content>
+          </title>
+          <list>
+            <point eId="point_2">
+              <heading>
+                <authorialNote placement="side">
+                  <p xml:space="preserve"> </p>
+                </authorialNote>
+              </heading>
+              <num>2.</num>
+              <content>
+                <p>
+                  <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryLegislation/2002-02-17/173933">בחוק ההסדרים במשק המדינה (תיקוני חקיקה להשגת יעדי התקציב והמדיניות הכלכלית לשנת הכספים 2002), התשס"ב–2002</ref>.</wikicomment>
+                </p>
+              </content>
+            </point>
+          </list>
+        </section>
+        <section eId="chp_ב__sec_ב">
+          <num>סימן ב׳:</num>
+          <title>
+            <content>
+              <p>הטבות מס – הוראות מיוחדות</p>
+            </content>
+          </title>
+          <list>
+            <point eId="point_3">
+              <heading>
+                <authorialNote placement="side">
+                  <p xml:space="preserve"> </p>
+                </authorialNote>
+              </heading>
+              <num>3.</num>
+              <content>
+                <p>
+                  <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryLegislation/2002-02-17/173933">בחוק ההסדרים במשק המדינה (תיקוני חקיקה להשגת יעדי התקציב והמדיניות הכלכלית לשנת הכספים 2002), התשס"ב–2002</ref>.</wikicomment>
+                </p>
+              </content>
+            </point>
+            <point eId="point_4" class="definitions">
+              <heading>
+                <authorialNote placement="side">
+                  <p>הגדרות</p>
+                </authorialNote>
+              </heading>
+              <num>4.</num>
+              <list>
+                <intro>
+                  <p>
+                    <ref href="#chp_ב_sec_ב">בסימן זה</ref> –</p>
+                </intro>
+                <point eId="point_4__point_הטבת_מס">
+                  <content>
+                    <p>
+                      <def />”הטבת מס“ – ניכוי, זיכוי ממס, הנחה ממס, מס מופחת או פטור ממס הניתנים לאדם לפי כל דין, בשל היותו תושב יישוב או בשל העובדה שהכנסתו מופקת ביישוב או שהוא מועסק ביישוב;</p>
+                  </content>
+                </point>
+                <point eId="point_4__point_יישוב">
+                  <content>
+                    <p>
+                      <def />”יישוב“ – יישוב או אזור שאדם שהוא תושב בו, מפיק בו הכנסה המזכה אותו בהטבת מס;</p>
+                  </content>
+                </point>
+                <point eId="point_4__point_חוק_הטבה">
+                  <content>
+                    <p>
+                      <def />”חוק הטבה“ – חוק הקובע הטבת מס, למעט <ref href="/akn/il/act/PrimaryLegislation/1959-09-15/148127">חוק לעידוד השקעות הון, התשי"ט–1959</ref>, <ref href="/akn/il/act/PrimaryLegislation/1980-12-31/148106">חוק לעידוד השקעות הון בחקלאות, התשמ"א–1981</ref>, <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_מס_הכנסה#point_17_13">וסעיף 17(13) לפקודת מס הכנסה</ref>.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_5">
+              <heading>
+                <authorialNote placement="side">
+                  <p>הטבות מס מופחתות</p>
+                </authorialNote>
+              </heading>
+              <num>5.</num>
+              <list>
+                <point eId="point_5__point_א">
+                  <num>(א)</num>
+                  <content>
+                    <p>אדם שהיה זכאי ערב תחילתו של חוק זה להטבת מס בשיעור מהכנסתו כמפורט להלן בטור א׳ יהיה זכאי, על אף האמור בכל דין, בשנת המס 2002 להטבת מס בשיעור המפורט להלן בטור ב׳:
+<table><tr><th>טור א׳</th><th>טור ב׳ (שנת המס 2002)</th></tr><tr><td>3%</td><td>2%</td></tr><tr><td>5%</td><td>5%</td></tr><tr><td>7%</td><td>6%</td></tr><tr><td>8%</td><td>7%</td></tr><tr><td>10%</td><td>9%</td></tr><tr><td>13%</td><td>12%</td></tr><tr><td>15%</td><td>14%</td></tr><tr><td>18%</td><td>17%</td></tr><tr><td>20%</td><td>20%</td></tr><tr><td>25%</td><td>25%</td></tr></table></p>
+                  </content>
+                </point>
+                <point eId="point_5__point_ב">
+                  <num>(ב)</num>
+                  <content>
+                    <p>על אף האמור בסעיף קטן (א), בשנת המס 2002 יהיה שיעור הטבת המס לתושב שדרות – 8%.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_6">
+              <heading>
+                <authorialNote placement="side">
+                  <p>תחילה</p>
+                </authorialNote>
+              </heading>
+              <num>6.</num>
+              <content>
+                <p>תחילתו של <ref href="#chp_ב_sec_ב">סימן זה</ref> ביום י"ז בטבת התשס"ב (1 בינואר 2002).</p>
+              </content>
+            </point>
+          </list>
+        </section>
+      </chapter>
+      <chapter eId="chp_ג">
+        <num>פרק ג׳:</num>
+        <title>
+          <content>
+            <p>ביטוח לאומי</p>
+          </content>
+        </title>
+        <section eId="chp_ג__sec_א">
+          <num>סימן א׳:</num>
+          <title>
+            <content>
+              <p>הוראות שונות</p>
+            </content>
+          </title>
+          <list>
+            <point eId="point_7">
+              <heading>
+                <authorialNote placement="side">
+                  <p xml:space="preserve"> </p>
+                </authorialNote>
+              </heading>
+              <num>7.</num>
+              <content>
+                <p>
+                  <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryLegislation/1995-05-15/158093">בחוק הביטוח הלאומי [נוסח משולב], התשנ"ה–1995</ref>.</wikicomment>
+                </p>
+              </content>
+            </point>
+          </list>
+        </section>
+        <section eId="chp_ג__sec_ב">
+          <num>סימן ב׳:</num>
+          <title>
+            <content>
+              <p>הוראות שעה</p>
+            </content>
+          </title>
+          <list>
+            <point eId="point_8" class="definitions">
+              <heading>
+                <authorialNote placement="side">
+                  <p>הגדרות</p>
+                </authorialNote>
+              </heading>
+              <num>8.</num>
+              <list>
+                <intro>
+                  <p>
+                    <ref href="#chp_ג_sec_ב">בסימן זה</ref> –</p>
+                </intro>
+                <point eId="point_8__point_התקופה_הקובעת">
+                  <content>
+                    <p>
+                      <def />”התקופה הקובעת“ – <wikicomment font-size="x-small">(נמחקה);</wikicomment></p>
+                  </content>
+                </point>
+                <point eId="point_8__point_חוק_הביטוח_הלאומי">
+                  <content>
+                    <p>
+                      <def />”חוק הביטוח הלאומי“ – <ref href="/akn/il/act/PrimaryLegislation/1995-05-15/158093">חוק הביטוח הלאומי [נוסח משולב], התשנ"ה–1995</ref>.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_9">
+              <heading>
+                <authorialNote placement="side">
+                  <p xml:space="preserve"> </p>
+                </authorialNote>
+              </heading>
+              <num>9.</num>
+              <content>
+                <p>
+                  <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryLegislation/1995-05-15/158093">בחוק הביטוח הלאומי [נוסח משולב], התשנ"ה–1995</ref> כהוראת שעה בתקופה שמיום 1.7.2002 עד יום 30.6.2003.</wikicomment>
+                </p>
+              </content>
+            </point>
+            <point eId="point_9א">
+              <heading>
+                <authorialNote placement="side">
+                  <p>חוק הביטוח הלאומי – הוראת מעבר</p>
+                </authorialNote>
+              </heading>
+              <num>9א.</num>
+              <list>
+                <point eId="point_9א__point_א">
+                  <num>(א)</num>
+                  <content>
+                    <p>על אף הוראות <ref href="#point_9">סעיף 9</ref>, לענין דמי ביטוח המשתלמים לפי הוראות <ref href="/akn/il/act/PrimaryLegislation/1995-05-15/158093#chp_טו">פרק ט"ו בחוק הביטוח הלאומי</ref>, לא יובאו בחשבון העודפים בסכום העולה על סכום השווה לחמש פעמים השכר הממוצע, בעד כל אחד מהחודשים שבשנת המס 2003.</p>
+                  </content>
+                </point>
+                <point eId="point_9א__point_ב">
+                  <num>(ב)</num>
+                  <content>
+                    <p>אירעה למבוטח, בשנת 2003, פגיעה בעבודה המזכה בגמלה המשתלמת לפי הוראות <ref href="/akn/il/act/PrimaryLegislation/1995-05-15/158093#chp_ה">פרק ה׳ בחוק הביטוח הלאומי</ref>, ולאחר מכן החל פירוק מרצון של חברה, כאמור <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_מס_הכנסה#point_93א">בסעיף 93א בפקודה</ref>, לא יובאו בחשבון לענין הגמלה האמורה סכומי העודפים ששולמו לפי הוראות <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_מס_הכנסה#point_93א">סעיף 93א(א)(6) בפקודה</ref>, ולא ישתלמו בעדם דמי ביטוח לפי הוראות <ref href="/akn/il/act/PrimaryLegislation/1995-05-15/158093#point_335">סעיף 335(ג) בחוק הביטוח הלאומי</ref>.</p>
+                  </content>
+                </point>
+                <point eId="point_9א__point_ג">
+                  <num>(ג)</num>
+                  <list>
+                    <intro>
+                      <p>בסעיף זה –</p>
+                    </intro>
+                    <point eId="point_9א__point_ג__point_העודפים">
+                      <content>
+                        <p>
+                          <def />”העודפים“ – העודפים ששולמו כאמור <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_מס_הכנסה#point_93א">בסעיף 93א(א)(6) בפקודה</ref> בתקופה שמיום א׳ בתמוז התשס"ג (1 ביולי 2003) ועד יום י׳ בטבת התשס"ד (31 בדצמבר 2003), ופקיד שומה כהגדרתו <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_מס_הכנסה#point_1">בסעיף 1 בפקודה</ref> אישר כי הם חויבו במס לפי הוראות <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_מס_הכנסה#point_93א">סעיף 93א(א)(6) האמור</ref>;</p>
+                      </content>
+                    </point>
+                    <point eId="point_9א__point_ג__point_הפקודה">
+                      <content>
+                        <p>
+                          <def />”הפקודה“ – <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_מס_הכנסה">פקודת מס הכנסה</ref>.</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+              </list>
+            </point>
+            <point eId="point_10">
+              <heading>
+                <authorialNote placement="side">
+                  <p>הפחתת תשלומים – הוראת שעה</p>
+                </authorialNote>
+              </heading>
+              <num>10.</num>
+              <list>
+                <point eId="point_10__point_א">
+                  <num>(א)</num>
+                  <content>
+                    <p>גמלה המשתלמת בעד התקופה שמיום כ"א בתמוז התשס"ב (1 ביולי 2002) עד יום כ"ב בטבת התשס"ח (31 בדצמבר 2007) (בסעיף זה – התקופה הקובעת), לפי <ref href="/akn/il/act/PrimaryLegislation/1995-05-15/158093">חוק הביטוח הלאומי</ref> או לפי <ref href="/akn/il/act/PrimaryLegislation/1980-12-01/147335">חוק הבטחת הכנסה, התשמ"א–1980</ref> (להלן – חוק הבטחת הכנסה), תשולם בניכוי 4% מסכום הגמלה המחושב לפי הוראות החוקים האמורים וההוראות שנקבעו לפיהם.</p>
+                  </content>
+                </point>
+                <point eId="point_10__point_ב">
+                  <num>(ב)</num>
+                  <list>
+                    <intro>
+                      <p>הוראות סעיף קטן (א) לא יחולו על אלה:</p>
+                    </intro>
+                    <point eId="point_10__point_ב__point_1">
+                      <num>(1)</num>
+                      <content>
+                        <p>קצבת ילדים לפי <ref href="/akn/il/act/PrimaryLegislation/1995-05-15/158093#chp_ד">פרק ד׳ לחוק הביטוח הלאומי</ref>;</p>
+                      </content>
+                    </point>
+                    <point eId="point_10__point_ב__point_2">
+                      <num>(2)</num>
+                      <content>
+                        <p>גמלה המשתלמת לפי <ref href="/akn/il/act/PrimaryLegislation/1995-05-15/158093#chp_ה_sec_ח">סימן ח׳ בפרק ה׳ בחוק הביטוח הלאומי</ref>;</p>
+                      </content>
+                    </point>
+                    <point eId="point_10__point_ב__point_3">
+                      <num>(3)</num>
+                      <content>
+                        <p>גמלה המשתלמת לפי <ref href="/akn/il/act/PrimaryLegislation/1995-05-15/158093#chp_ט">פרק ט׳ לחוק הביטוח הלאומי</ref>;</p>
+                      </content>
+                    </point>
+                    <point eId="point_10__point_ב__point_3א">
+                      <num>(3א)</num>
+                      <content>
+                        <p>קצבת זקנה לפי <ref href="/akn/il/act/PrimaryLegislation/1995-05-15/158093#chp_יא_sec_ג">סימן ג׳ בפרק י"א לחוק הביטוח הלאומי</ref>;</p>
+                      </content>
+                    </point>
+                    <point eId="point_10__point_ב__point_3ב">
+                      <num>(3ב)</num>
+                      <content>
+                        <p>גמלה המשתלמת לפי <ref href="/akn/il/act/PrimaryLegislation/1995-05-15/158093#chp_י">פרק י׳ לחוק הביטוח הלאומי</ref>;</p>
+                      </content>
+                    </point>
+                    <point eId="point_10__point_ב__point_4">
+                      <num>(4)</num>
+                      <content>
+                        <p>גמלת שאירים לפי <ref href="/akn/il/act/PrimaryLegislation/1995-05-15/158093#chp_יא_sec_ד">סימן ד׳ לפרק י"א לחוק הביטוח הלאומי</ref>;</p>
+                      </content>
+                    </point>
+                    <point eId="point_10__point_ב__point_5">
+                      <num>(5)</num>
+                      <content>
+                        <p>תגמולים למשרתים במילואים לפי <ref href="/akn/il/act/PrimaryLegislation/1995-05-15/158093#chp_יב">פרק י"ב לחוק הביטוח הלאומי</ref>;</p>
+                      </content>
+                    </point>
+                    <point eId="point_10__point_ב__point_6">
+                      <num>(6)</num>
+                      <content>
+                        <p>גמלה המשתלמת למי שזכאי לגמלה לפי <ref href="/akn/il/act/PrimaryLegislation/1980-12-01/147335#point_2">סעיף 2(א)(4) לחוק הבטחת הכנסה</ref>;</p>
+                      </content>
+                    </point>
+                    <point eId="point_10__point_ב__point_7">
+                      <num>(7)</num>
+                      <content>
+                        <p>גמלה המשתלמת לפי הסכם שנערך לפי <ref href="/akn/il/act/PrimaryLegislation/1995-05-15/158093#point_9">סעיף 9 לחוק הביטוח הלאומי</ref> במקום הגמלאות המפורטות בפסקאות (1), (2), (3), (4) ו־(6) של סעיף קטן זה;</p>
+                      </content>
+                    </point>
+                    <point eId="point_10__point_ב__point_8">
+                      <num>(8)</num>
+                      <content>
+                        <p>גמלה המשתלמת לפי הסכם בדבר תשלום גמלת ניידות שנערך לפי <ref href="/akn/il/act/PrimaryLegislation/1995-05-15/158093#point_9">סעיף 9 לחוק הביטוח הלאומי</ref>;</p>
+                      </content>
+                    </point>
+                    <point eId="point_10__point_ב__point_9">
+                      <num>(9)</num>
+                      <content>
+                        <p>מענק לנכה עבודה לפי <ref href="/akn/il/act/PrimaryLegislation/1995-05-15/158093#point_107">סעיפים 107</ref><ref href="/akn/il/act/PrimaryLegislation/1995-05-15/158093#point_113">ו־113 לחוק הביטוח הלאומי</ref>, המחושב לפי הוראות סעיפים קטנים (ה) ו־(ו);</p>
+                      </content>
+                    </point>
+                    <point eId="point_10__point_ב__point_10">
+                      <num>(10)</num>
+                      <content>
+                        <p>גמלה המשתלמת לפי <ref href="/akn/il/act/PrimaryLegislation/1980-12-01/147335">חוק הבטחת הכנסה</ref> למי שמשתלמת לו גם גמלה כמפורט בפסקאות (2) ו־(4) של סעיף קטן זה;</p>
+                      </content>
+                    </point>
+                    <point eId="point_10__point_ב__point_11">
+                      <num>(11)</num>
+                      <content>
+                        <p>מענק כמפורט <ref href="/akn/il/act/PrimaryLegislation/1995-05-15/158093#point_310">בסעיפים קטנים (ג) ו־(ד) של סעיף 310 בחוק הביטוח הלאומי</ref>, המחושב לפי הוראות סעיף קטן (ה), שסכומו עולה על סכום המענק לפי <ref href="/akn/il/act/PrimaryLegislation/1995-05-15/158093#point_310">סעיף 310(א) לחוק האמור</ref>;</p>
+                      </content>
+                    </point>
+                    <point eId="point_10__point_ב__point_12">
+                      <num>(12)</num>
+                      <content>
+                        <p>קצבה המשתלמת לפי <ref href="/akn/il/act/PrimaryLegislation/1995-05-15/158093#chp_ה">פרק ה׳ לחוק הביטוח הלאומי</ref>.</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+                <point eId="point_10__point_ב1">
+                  <num>(ב1)</num>
+                  <content>
+                    <p>
+                      <wikicomment font-size="x-small">(בוטל).</wikicomment>
+                    </p>
+                  </content>
+                </point>
+                <point eId="point_10__point_ג">
+                  <num>(ג)</num>
+                  <content>
+                    <p>על אף האמור בסעיף קטן (ב), הוראות סעיף קטן (א) יחולו על כל גמלה שאינה מנויה בסעיף קטן (ב), לרבות על גמלה המחושבת כשיעור מגמלה המנויה בסעיף קטן (ב).</p>
+                  </content>
+                </point>
+                <point eId="point_10__point_ד">
+                  <num>(ד)</num>
+                  <content>
+                    <p>הוראות סעיף קטן (א) לא יחולו על גמלה שאינה מנויה בסעיף קטן (ב), המחושבת כשיעור מגמלה שסעיף קטן (א) חל לגביה.</p>
+                  </content>
+                </point>
+                <point eId="point_10__point_ה">
+                  <num>(ה)</num>
+                  <list>
+                    <intro>
+                      <p>נוצרה זכאות למענק כאמור <ref href="/akn/il/act/PrimaryLegislation/1995-05-15/158093#point_107">בסעיף 107</ref>, וסעיפים קטנים (ג) ו־(ד) של <ref href="/akn/il/act/PrimaryLegislation/1995-05-15/158093#point_310">סעיף 310 לחוק הביטוח הלאומי</ref> בתקופה הקובעת (בסעיף זה – יום הזכאות), ישולם המענק בסכום השווה לצירופם של שני אלה:</p>
+                    </intro>
+                    <point eId="point_10__point_ה__point_1">
+                      <num>(1)</num>
+                      <content>
+                        <p>סכום הקצבה החודשית שחושבה לפי הוראות סעיף זה, כפול מספר החודשים שמיום הזכאות ועד תום התקופה הקובעת (להלן – חודשי החישוב בתקופה הקובעת);</p>
+                      </content>
+                    </point>
+                    <point eId="point_10__point_ה__point_2">
+                      <num>(2)</num>
+                      <content>
+                        <p>סכום הקצבה החודשית שחושבה לפי הוראות <ref href="/akn/il/act/PrimaryLegislation/1995-05-15/158093">חוק הביטוח הלאומי</ref> בלא הניכוי כאמור בסעיף קטן (א) (בסעיף זה – סכום הקצבה המקורי), כפול מספר החודשים שנותר לאחר הפחתת מספר החודשים האמור בפסקה (1) מארבעים ושלוש, ולענין מענק לפי <ref href="/akn/il/act/PrimaryLegislation/1995-05-15/158093#point_310">סעיפים קטנים (ג) ו־(ד) של סעיף 310 לחוק הביטוח הלאומי</ref> – משלושים ושש (להלן – יתרת חודשי החישוב);</p>
+                      </content>
+                    </point>
+                    <point eId="point_10__point_ה__point_3">
+                      <num>(3)</num>
+                      <content>
+                        <p>הוגשה תביעה לגמלה כאמור בסעיף קטן זה לפי <ref href="/akn/il/act/PrimaryLegislation/1995-05-15/158093#point_107">סעיף 107 לחוק הביטוח הלאומי</ref> לאחר תום שנים עשר חודשים מהחודש שבו נוצרו התנאים המזכים במענק, יופחת ממספרם הכולל של חודשי החישוב בתקופה הקובעת בצירוף יתרת חודשי החישוב, מספר החודשים שמתום שנים עשר החודשים האמורים ועד החודש שבו הוגשה התביעה.</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+                <point eId="point_10__point_ו">
+                  <num>(ו)</num>
+                  <content>
+                    <p>לענין היוון קצבה כאמור <ref href="/akn/il/act/PrimaryLegislation/1995-05-15/158093#point_113">בסעיפים 113</ref>, <ref href="/akn/il/act/PrimaryLegislation/1995-05-15/158093#point_333">333</ref><ref href="/akn/il/act/PrimaryLegislation/1995-05-15/158093#point_369">או 369 לחוק הביטוח הלאומי</ref>, המחושב בתקופה הקובעת, תובא בחשבון קצבה חודשית שחושבה לפי הוראות סעיף זה, בהתאמה למספר החודשים שמיום החישוב ועד לתום התקופה הקובעת, וסכום הקצבה המקורי – בעד יתרת התקופה המשמשת בסיס לחישוב ההיוון.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+          </list>
+        </section>
+      </chapter>
+      <chapter eId="chp_ד">
+        <num>פרק ד׳:</num>
+        <title>
+          <content>
+            <p>מס הכנסה</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_11">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>11.</num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_מס_הכנסה">בחוק לתיקון פקודת מס הכנסה (הוראת שעה), התשס"א–2000</ref>.</wikicomment>
+              </p>
+            </content>
+          </point>
+          <point eId="point_12">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>12.</num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">הנוסח שולב בחוק הסדרים במשק המדינה (הנחות במס הכנסה) (הוראת שעה) (תיקון), התשס"ב–2002.</wikicomment>
+              </p>
+            </content>
+          </point>
+        </list>
+      </chapter>
+      <chapter eId="chp_ה">
+        <num>פרק ה׳:</num>
+        <title>
+          <content>
+            <p>עידוד המגזר העסקי (קליטת עובדים)</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_13" class="definitions">
+            <heading>
+              <authorialNote placement="side">
+                <p>הגדרות</p>
+              </authorialNote>
+            </heading>
+            <num>13.</num>
+            <list>
+              <intro>
+                <p>
+                  <ref href="#chp_ה">בפרק זה</ref> –</p>
+              </intro>
+              <point eId="point_13__point_אזור_באר_שבע_והנגב">
+                <content>
+                  <p>
+                    <def />”אזור באר שבע והנגב“ – <wikicomment font-size="x-small">(נמחקה);</wikicomment></p>
+                </content>
+              </point>
+              <point eId="point_13__point_אזור_עדיפות">
+                <content>
+                  <p>
+                    <def />”אזור עדיפות“ – <wikicomment font-size="x-small">(נמחקה);</wikicomment></p>
+                </content>
+              </point>
+              <point eId="point_13__point_האזור">
+                <content>
+                  <p>
+                    <def />”האזור“ – כהגדרתו <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/תקנות_שעת_חירום_יהודה_והשומרון_וחבל_עזה_שיפוט_בעבירות_ועזרה_משפטית#appendix">בתוספת לחוק להארכת תוקפן של תקנות שעת חירום (יהודה והשומרון וחבל עזה – שיפוט בעבירות ועזרה משפטית), התשל"ח–1977</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_13__point_הגליל">
+                <content>
+                  <p>
+                    <def />”הגליל“ – <wikicomment font-size="x-small">(נמחקה);</wikicomment></p>
+                </content>
+              </point>
+              <point eId="point_13__point_המוסד">
+                <content>
+                  <p>
+                    <def />”המוסד“ – כהגדרתו <ref href="/akn/il/act/PrimaryLegislation/1995-05-15/158093">בחוק הביטוח הלאומי [נוסח משולב], התשנ"ה–1995</ref> (להלן – חוק הביטוח הלאומי);</p>
+                </content>
+              </point>
+              <point eId="point_13__point_הפקודה">
+                <content>
+                  <p>
+                    <def />”הפקודה“ – <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_מס_הכנסה">פקודת מס הכנסה</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_13__point_יישוב_מועדף">
+                <content>
+                  <p>
+                    <def />”יישוב מועדף“ – <wikicomment font-size="x-small">(נמחקה);</wikicomment></p>
+                </content>
+              </point>
+              <point eId="point_13__point_מגזר_עסקי">
+                <list>
+                  <intro>
+                    <p>
+                      <def />”מגזר עסקי“ – ענפי התעשיה, החקלאות, המלונאות והבניה כפי שיקבע שר האוצר בצו, למעט אלה:</p>
+                  </intro>
+                  <point eId="point_13__point_מגזר_עסקי__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>פעילויות המבוצעות על ידי המדינה, רשויות מקומיות, מוסדות וגופים כאמור <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_מס_הכנסה#point_9_2">בסעיף 9(2) לפקודה</ref>, גופים שדינם לענין מס הכנסה כדין המדינה, וכן כל גוף שהמדינה או רשות מקומית, במישרין או בעקיפין, השתתפה בתקציבו בשנת המס הקודמת בשיעור של 30% או יותר;</p>
+                    </content>
+                  </point>
+                  <point eId="point_13__point_מגזר_עסקי__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>שירותים ציבוריים ששר האוצר קבע בצו;</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_13__point_מועד_התחילה">
+                <content>
+                  <p>
+                    <def />”מועד התחילה“ – מועד התחילה כאמור <ref href="#point_19">בסעיף 19(א)</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_13__point_מכסת_גידול_מינימלית">
+                <content>
+                  <p>
+                    <def />”מכסת גידול מינימלית“ – הממוצע החודשי של מספר העובדים שהועסקו אצל אותו מעסיק בתקופה הקודמת בצירוף אחד או בתוספת שלושה אחוזים, לפי הגבוה מביניהם; לענין חישוב תוספת העובדים האחוזית כאמור יעוגל מספר העובדים כלפי מעלה;</p>
+                </content>
+              </point>
+              <point eId="point_13__point_קבלן_כוח_אדם">
+                <content>
+                  <p>
+                    <def />”קבלן כוח אדם“ ו”מעסיק בפועל“ – כהגדרתם <ref href="/akn/il/act/PrimaryLegislation/1996-03-21/159655">בחוק העסקת עובדים על ידי קבלני כוח אדם, התשנ"ו–1996</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_13__point_קבלן_שמירה_או_ניקיון">
+                <content>
+                  <p>
+                    <def />”קבלן שמירה או ניקיון“ – מעסיק שעיסוקו במתן שירותי שמירה או ניקיון אצל זולתו;</p>
+                </content>
+              </point>
+              <point eId="point_13__point_עובד_מועדף">
+                <content>
+                  <p>
+                    <def />”עובד מועדף“ – <wikicomment font-size="x-small">(נמחקה);</wikicomment></p>
+                </content>
+              </point>
+              <point eId="point_13__point_עובד_קבלן">
+                <content>
+                  <p>
+                    <def />”עובד קבלן“ – עובד של קבלן כוח אדם המועסק אצל מעסיק בפועל;</p>
+                </content>
+              </point>
+              <point eId="point_13__point_מעסיק">
+                <content>
+                  <p>
+                    <def />”מעסיק“ – מעסיק במגזר העסקי, לרבות מעסיק בפועל ולמעט קבלן כוח אדם וקבלן שמירה או ניקיון, שהעסיק עובדים בכל אחד מחודשי התקופה הקודמת, ובכל התקופה – מעל חמישה עובדים בממוצע חודשי; לענין זה, ”עובד“ – לרבות חבר באגודה שיתופית שהועסק במגזר העסקי ועובד קבלן;</p>
+                </content>
+              </point>
+              <point eId="point_13__point_עובד_נוסף">
+                <list>
+                  <intro>
+                    <p>
+                      <def />”עובד נוסף“ –</p>
+                  </intro>
+                  <point eId="point_13__point_עובד_נוסף__point_1">
+                    <num>(1)</num>
+                    <list>
+                      <intro>
+                        <p>תושב ישראל לרבות תושב ישראל באזור כהגדרתו <ref href="/akn/il/act/PrimaryLegislation/1995-05-15/158093#point_378">בסעיף 378 לחוק הביטוח הלאומי</ref>, העובד אצל מעסיק, בישראל או באזור, והתקיימו בו כל אלה:</p>
+                      </intro>
+                      <point eId="point_13__point_עובד_נוסף__point_1__point_א">
+                        <num>(א)</num>
+                        <content>
+                          <p>הוא עובד בפועל אצל מעסיק בענפי הפעילות המפורטים בהגדרה מגזר עסקי;</p>
+                        </content>
+                      </point>
+                      <point eId="point_13__point_עובד_נוסף__point_1__point_א1">
+                        <num>(א1)</num>
+                        <list>
+                          <intro>
+                            <p>השתלמה לו גמלה מן הגמלאות המפורטות להלן בעד 50 הימים שבתכוף לפני החודש שבו החלה העסקתו וכן בעד חודש יולי 2002, כולו או חלקו:</p>
+                          </intro>
+                          <point eId="point_13__point_עובד_נוסף__point_1__point_א1__point_1">
+                            <num>(1)</num>
+                            <content>
+                              <p>גמלת הבטחת הכנסה לפי <ref href="/akn/il/act/PrimaryLegislation/1980-12-01/147335">חוק הבטחת הכנסה, התשמ"א–1980</ref>, ובלבד שהכנסתו מהמקורות המנויים <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_מס_הכנסה#point_2_1">בסעיפים 2(1)</ref><ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_מס_הכנסה#point_2_2">ו־(2) לפקודה</ref> בתקופה האמורה לא עלתה על 500 שקלים חדשים בחודש;</p>
+                            </content>
+                          </point>
+                          <point eId="point_13__point_עובד_נוסף__point_1__point_א1__point_2">
+                            <num>(2)</num>
+                            <content>
+                              <p>דמי אבטלה לפי <ref href="/akn/il/act/PrimaryLegislation/1995-05-15/158093#chp_ז">פרק ז׳ בחוק הביטוח הלאומי</ref>;</p>
+                            </content>
+                          </point>
+                        </list>
+                      </point>
+                      <point eId="point_13__point_עובד_נוסף__point_1__point_ב">
+                        <num>(ב)</num>
+                        <content>
+                          <p>שכרו הוא לפחות שכר מינימום כהגדרתו <ref href="/akn/il/act/PrimaryLegislation/1987-04-09/151459">בחוק שכר מינימום, התשמ"ז–1987</ref>;</p>
+                        </content>
+                      </point>
+                      <point eId="point_13__point_עובד_נוסף__point_1__point_ג">
+                        <num>(ג)</num>
+                        <content>
+                          <p>הוא הועסק במשך חודש אחד לפחות, בכל אחד מימי העבודה בחודש, שש שעות ביום לפחות, או מאה שלושים וחמש שעות עבודה בחודש לפחות, והכל לגבי כל חודש שבעבורו מתבקש התמריץ לפי חוק זה;</p>
+                        </content>
+                      </point>
+                      <point eId="point_13__point_עובד_נוסף__point_1__point_ד">
+                        <num>(ד)</num>
+                        <content>
+                          <p>הכנסתו מתחייבת במס לפי <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_מס_הכנסה#point_2_2">סעיף 2(2) לפקודה</ref> והמעסיק ניכה מס משכרו בהתאם להוראות <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_מס_הכנסה#point_164">סעיפים 164</ref><ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_מס_הכנסה#point_166">ו־166 לפקודה</ref>;</p>
+                        </content>
+                      </point>
+                      <point eId="point_13__point_עובד_נוסף__point_1__point_ה">
+                        <num>(ה)</num>
+                        <content>
+                          <p>אם הוא עובד אצל מעסיק שהוא אגודה שיתופית – הוא נמנה עם סוגי העובדים ששר האוצר אישרם לענין זה;</p>
+                        </content>
+                      </point>
+                    </list>
+                  </point>
+                  <point eId="point_13__point_עובד_נוסף__point_2">
+                    <num>(2)</num>
+                    <list>
+                      <intro>
+                        <p>ולמעט כל אחד מאלה:</p>
+                      </intro>
+                      <point eId="point_13__point_עובד_נוסף__point_2__point_א">
+                        <num>(א)</num>
+                        <content>
+                          <p>מי שהוא קרובו של המעסיק, ובתאגיד – קרובו של המנהל או של בעל השליטה בו;</p>
+                        </content>
+                      </point>
+                      <point eId="point_13__point_עובד_נוסף__point_2__point_ב">
+                        <num>(ב)</num>
+                        <content>
+                          <p>עובד המבצע עבודה שבוצעה קודם לכן בידי קבלן עצמאי;</p>
+                        </content>
+                      </point>
+                      <point eId="point_13__point_עובד_נוסף__point_2__point_ג">
+                        <num>(ג)</num>
+                        <content>
+                          <p>חבר באגודה שיתופית או מחליף חבר באגודה שיתופית בעבודתו באגודה;</p>
+                        </content>
+                      </point>
+                      <point eId="point_13__point_עובד_נוסף__point_2__point_ד">
+                        <num>(ד)</num>
+                        <content>
+                          <p>עובד שעבד קודם לכן בעסק אחר של המעסיק או בחבר בני אדם שהמעסיק, ובשותפות, אחד מן השותפים, הוא בעל שליטה בו או בחברה הקשורה למעסיקו; לענין זה, ”חברה קשורה“ – כהגדרתה <ref href="/akn/il/act/PrimaryLegislation/1999-05-27/165159">בחוק החברות, התשנ"ט–1999</ref>;</p>
+                        </content>
+                      </point>
+                      <point eId="point_13__point_עובד_נוסף__point_2__point_ה">
+                        <num>(ה)</num>
+                        <content>
+                          <p>עובד שעבד קודם לכן אצל אדם או בחבר בני אדם (להלן – המעסיק הקודם) שעסקיו או שנכסיו או כל חלק מהם, הועברו למעסיק או מוזגו בכל דרך שהיא בעסקי המעסיק (להלן – המעסיק החדש), למעט עובד שהמעסיק הקודם היה זכאי לתמריץ בעבורו בתכוף לפני ההעברה או המיזוג, ובלבד שהמעסיק החדש זכאי אף הוא לתמריץ בעבור אותו עובד בהתחשב במספר העובדים שהוא מעסיק לאחר המיזוג לעומת מספרם הממוצע של העובדים אצל שני המעסיקים כאחד בתקופה הקודמת;</p>
+                        </content>
+                      </point>
+                    </list>
+                  </point>
+                  <wrapup eId="point_13__point_עובד_נוסף__wrapup_none">
+                    <content>
+                      <p>לענין פסקה (2), ”בעל שליטה“ ו”קרוב“ – כמשמעותם <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_מס_הכנסה#point_32">בסעיף 32(9) לפקודה</ref>;</p>
+                    </content>
+                  </wrapup>
+                </list>
+              </point>
+              <point eId="point_13__point_רבעון">
+                <content>
+                  <p>
+                    <def />”רבעון“ – תקופות בנות שלושה חודשים כל אחת, שהראשונה בהן מתחילה במועד התחילה והאחרונה בהן מסתיימת בתום שנה ממועד התחילה;</p>
+                </content>
+              </point>
+              <point eId="point_13__point_התקופה_הקודמת">
+                <content>
+                  <p>
+                    <def />”התקופה הקודמת“ – התקופה שתחילתה ביום י"ד בתשרי התשס"ב (1 באוקטובר 2001), וסיומה ביום ט"ז בטבת התשס"ב (31 בדצמבר 2001).</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_14">
+            <heading>
+              <authorialNote placement="side">
+                <p>זכות לתמריץ</p>
+              </authorialNote>
+            </heading>
+            <num>14.</num>
+            <list>
+              <point eId="point_14__point_א">
+                <num>(א)</num>
+                <list>
+                  <intro>
+                    <p>מעסיק יהיה זכאי לתשלום תמריץ מאוצר המדינה בעד כל עובד נוסף מעבר למכסת הגידול המינימלית ובלבד שלא ישולם תמריץ –</p>
+                  </intro>
+                  <point eId="point_14__point_א__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>בעד אותו עובד נוסף – לאחר תום שנים עשר חודשים מיום תחילת העסקתו של העובד הנוסף אצל המעסיק;</p>
+                    </content>
+                  </point>
+                  <point eId="point_14__point_א__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>בעד אותה תוספת עובדים – לאחר תום שנים עשר חודשים מיום תחילת העסקתו של העובד הנוסף הראשון שבעדו שולם תמריץ בשל אותה תוספת עובדים, בין אם התקיימה ברציפות בכל אחד מהחודשים ובין אם לאו; לענין זה, ”תוספת עובדים“, לגבי כל מעסיק – הגידול בהפרש שבין מכסת הגידול המינימלית לבין מספר העובדים שהוא מעסיק בכל חודש שבעבורו מתבקש התמריץ.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_14__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>במנין עובדיו של מעסיק, בתקופה הקודמת וברבעון השוטף, יימנו כל העובדים לרבות עובדי קבלן ועובדי קבלן שמירה או ניקיון שעבדו אצלו בתקופה הקודמת וברבעון השוטף, למעט עובדים זרים כהגדרתם <ref href="/akn/il/act/PrimaryLegislation/1991-03-21/174403">בחוק עובדים זרים (איסור העסקה שלא כדין והבטחת תנאים הוגנים), התשנ"א–1991</ref>.</p>
+                </content>
+              </point>
+              <point eId="point_14__point_ג">
+                <num>(ג)</num>
+                <list>
+                  <point eId="point_14__point_ג__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>על אף הוראות הרישה של סעיף קטן (א) לענין מכסת הגידול המינימלית, מעסיק יהיה זכאי לתשלום תמריץ כאמור באותו סעיף קטן בעד כל עובד נוסף שהשתלמה לו גמלת הבטחת הכנסה כאמור בפסקת משנה (א1)(1) בהגדרה ”עובד נוסף“ <ref href="#point_13">שבסעיף 13</ref>, אף אם אינו מעבר למכסת הגידול המינימלית.</p>
+                    </content>
+                  </point>
+                  <point eId="point_14__point_ג__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>שר האוצר רשאי לקבוע תנאים נוספים על התנאי האמור בפסקה (1) שרק בהתקיימם יהיה מעסיק זכאי לתשלום תמריץ לפי סעיף קטן זה.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+            </list>
+          </point>
+          <point eId="point_15">
+            <heading>
+              <authorialNote placement="side">
+                <p>התמריץ ושיעורו</p>
+              </authorialNote>
+            </heading>
+            <num>15.</num>
+            <list>
+              <point eId="point_15__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>התמריץ ישולם באמצעות המוסד אחת לרבעון, ויחושב לפי כל חודש ברבעון שבו הועסק העובד הנוסף במשך כל החודש.</p>
+                </content>
+              </point>
+              <point eId="point_15__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>התמריץ יהיה בסכום של 1,000 שקלים חדשים לחודש.</p>
+                </content>
+              </point>
+              <point eId="point_15__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>מסכום התמריץ ינוכה כל תשלום אחר המשתלם למעסיק בשל העובד מאוצר המדינה, או על פי כל דין, בשל הכשרה מקצועית או בשל סיוע לקליטה בעבודה.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_16">
+            <heading>
+              <authorialNote placement="side">
+                <p>החזר</p>
+              </authorialNote>
+            </heading>
+            <num>16.</num>
+            <list>
+              <point eId="point_16__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>ראה המוסד כי מעסיק לא היה זכאי לתמריץ, או לחלקו, יחזיר המעסיק את סכום התמריץ כאמור, ולענין זה יחולו, בשינויים המחויבים, הוראות לפי <ref href="/akn/il/act/PrimaryLegislation/1995-05-15/158093#chp_טו">פרק ט"ו לחוק הביטוח הלאומי</ref>.</p>
+                </content>
+              </point>
+              <point eId="point_16__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>בית המשפט שהרשיע אדם בשל קבלת תמריץ במרמה רשאי, נוסף על כל עונש אחר, לצוות עליו להחזיר לאוצר המדינה סכום שלא יעלה על פי ארבעה מסכום התמריץ שהתקבל שלא כדין, בתוספת הפרשי הצמדה וריבית כהגדרתם <ref href="/akn/il/act/PrimaryLegislation/1979-01-01/148271">בחוק פסיקת ריבית והצמדה, התשכ"א–1961</ref>, על סכום התמריץ שקיבל מיום קבלתו ועד יום ההחזר; על גביית החזר כאמור שלא שולם במועדו יחולו הוראות <ref href="/akn/il/act/PrimaryLegislation/1933-12-31/2001803">פקודת המסים (גביה)</ref>, כאילו היה חוב מס כמשמעותו <ref href="/akn/il/act/PrimaryLegislation/1933-12-31/2001803">באותה פקודה</ref>.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_17">
+            <heading>
+              <authorialNote placement="side">
+                <p>תשלום התמריץ</p>
+              </authorialNote>
+            </heading>
+            <num>17.</num>
+            <list>
+              <point eId="point_17__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>בקשה לתמריץ תוגש למוסד על ידי המעסיק בדרך ועל פי כללים שיקבע שר האוצר, ובלבד שבקשה כאמור תוגש לא יאוחר מתום שלושה חודשים מתום הרבעון שבשלו מוגשת הבקשה; בקשה שהוגשה באיחור לא תוכר ולא ישולם תמריץ בשלה.</p>
+                </content>
+              </point>
+              <point eId="point_17__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>סכום התמריץ יועבר למעסיק בתוך 45 ימים מיום הגשת הבקשה; הועבר הסכום לאחר המועד האמור, תיווסף עליו ריבית בשיעור שקובע החשב הכללי במשרד האוצר, מעת לעת, עד להעברתו למעסיק בפועל.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_18">
+            <heading>
+              <authorialNote placement="side">
+                <p>ביצוע ותקנות</p>
+              </authorialNote>
+            </heading>
+            <num>18.</num>
+            <list>
+              <point eId="point_18__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>שר האוצר ממונה על ביצוע <ref href="#chp_ה">פרק זה</ref> והוא רשאי, לאחר התייעצות עם שר העבודה והרווחה ובאישור ועדת הכלכלה של הכנסת, להתקין תקנות לביצועו.</p>
+                </content>
+              </point>
+              <point eId="point_18__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>אוצר המדינה יחזיר למוסד את כל הוצאותיו הנובעות מביצוע <ref href="#chp_ה">פרק זה</ref>, לפי כללים שייקבעו בהסכם בין הצדדים.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_19">
+            <heading>
+              <authorialNote placement="side">
+                <p>תחילה ותחולה</p>
+              </authorialNote>
+            </heading>
+            <num>19.</num>
+            <list>
+              <point eId="point_19__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>מועד תחילתו של <ref href="#chp_ה">פרק זה</ref> ביום כ"ז בטבת התשס"ג (1 בינואר 2003), או במועד מוקדם מזה שקבע שר האוצר, בהסכמת שר העבודה והרווחה, בצו.</p>
+                </content>
+              </point>
+              <point eId="point_19__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>
+                    <ref href="#chp_ה">פרק זה</ref> יעמוד בתוקפו עד תום עשרים וארבעה חודשים ממועד התחילה.</p>
+                </content>
+              </point>
+              <point eId="point_19__point_ג">
+                <num>(ג)</num>
+                <list>
+                  <point eId="point_19__point_ג__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>תחולתו של <ref href="#chp_ה">פרק זה</ref> למעט <ref href="#point_14">סעיף 14(ג)</ref> היא לגבי עובדים שיתקבלו לעבודה החל במועד התחילה עד תום שנה ממועד התחילה.</p>
+                    </content>
+                  </point>
+                  <point eId="point_19__point_ג__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>תחולתו של <ref href="#point_14">סעיף 14(ג)</ref> היא לגבי עובדים שהתקבלו לעבודה החל במועד התחילה עד יום כ"ז באדר ב׳ התשס"ג (31 במרס 2003) (בפסקה זו – התקופה הקובעת); שר האוצר רשאי, בצו, להאריך את התקופה הקובעת, ובלבד שמועד סיומה לא יאוחר מיום ז׳ בטבת התשס"ד (31 בדצמבר 2003).</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+            </list>
+          </point>
+          <point eId="point_20">
+            <heading>
+              <authorialNote placement="side">
+                <p>פרשנות</p>
+              </authorialNote>
+            </heading>
+            <num>20.</num>
+            <content>
+              <p>למען הסר ספק, אין בהוראות <ref href="#chp_ה">פרק זה</ref> כדי להשליך בדרך כלשהי על הזכאות לתמריץ לפי חוק לעידוד המגזר העסקי (קליטת עובדים) (הוראת שעה), התשנ"א–1991.</p>
+            </content>
+          </point>
+        </list>
+      </chapter>
+      <chapter eId="chp_ו">
+        <num>פרק ו׳:</num>
+        <title>
+          <content>
+            <p>תעריפי מים והיטלי הפקה</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_21">
+            <heading>
+              <authorialNote placement="side">
+                <p>תעריפי מים המסופקים מאת מקורות</p>
+              </authorialNote>
+            </heading>
+            <num>21.</num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">תעריפי מים שפירים המסופקים מאת מקורות עודכנו <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/תקנות_המים_תעריפי_מים_המסופקים_מאת_מקורות">בתקנות המים (תעריפי מים המסופקים מאת מקורות), התשמ"ז–1987</ref>.</wikicomment>
+              </p>
+            </content>
+          </point>
+          <point eId="point_22">
+            <heading>
+              <authorialNote placement="side">
+                <p>תעריפים למים ברשויות מקומיות</p>
+              </authorialNote>
+            </heading>
+            <num>22.</num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">תעריפי מים שפירים המסופקים על ידי רשויות מקומיות עודכנו <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/תקנות_המים_תעריפים_של_מים_ברשויות_מקומיות">בתקנות המים (תעריפים של מים ברשויות מקומיות), התשנ"ד–1994</ref>.</wikicomment>
+              </p>
+            </content>
+          </point>
+          <point eId="point_23">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>23.</num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">(בוטל).</wikicomment>
+              </p>
+            </content>
+          </point>
+          <point eId="point_24">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>24.</num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">(בוטל).</wikicomment>
+              </p>
+            </content>
+          </point>
+          <point eId="point_25">
+            <heading>
+              <authorialNote placement="side">
+                <p>שמירת דינים</p>
+              </authorialNote>
+            </heading>
+            <num>25.</num>
+            <content>
+              <p>עדכון תעריפי המים לפי <ref href="/akn/il/act/PrimaryLegislation/1959-08-13/147956#point_112א">סעיף 112א לחוק המים, התשי"ט–1959</ref>, ועדכון היטלי הפקה לפי הוראות <ref href="#point_116">סעיף 116(ג)</ref> ייעשה לפי התעריפים הנקובים <ref href="#point_21">בסעיפים 21 עד 23</ref>, לפי הענין, וזאת כל עוד התעריפים האמורים לא שונו לפי <ref href="/akn/il/act/PrimaryLegislation/1959-08-13/147956#point_112">סעיפים 112(א)</ref><ref href="/akn/il/act/PrimaryLegislation/1959-08-13/147956#point_116">או 116(א), (ב) ו־(ד) לחוק המים</ref>.</p>
+            </content>
+          </point>
+        </list>
+      </chapter>
+      <chapter eId="chp_ז">
+        <num>פרק ז׳: תגמולים –</num>
+        <title>
+          <content>
+            <p>הוראות שעה</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_26" class="definitions">
+            <heading>
+              <authorialNote placement="side">
+                <p>פרשנות</p>
+              </authorialNote>
+            </heading>
+            <num>26.</num>
+            <list>
+              <intro>
+                <p>
+                  <ref href="#chp_ז">בפרק זה</ref> –</p>
+              </intro>
+              <point eId="point_26__point_התקופה_הקובעת">
+                <content>
+                  <p>
+                    <def />”התקופה הקובעת“ – התקופה שמיום כ"ז בטבת התשס"ג (1 בינואר 2003) ועד יום א׳ בטבת התשס"ו (31 בדצמבר 2005);</p>
+                </content>
+              </point>
+              <point eId="point_26__point_היום_הקובע">
+                <content>
+                  <p>
+                    <def />”היום הקובע“ – כ"ו בטבת התשס"ג (31 בדצמבר 2002).</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_27">
+            <heading>
+              <authorialNote placement="side">
+                <p>תגמולים המשתלמים לפי חוקים שונים – הוראת שעה</p>
+              </authorialNote>
+            </heading>
+            <num>27.</num>
+            <list>
+              <intro>
+                <p>על אף האמור בחוקים המנויים להלן או לפיהם, סכומי התגמולים לפי החוקים האמורים לא יעודכנו בתקופה הקובעת, וסכומי התגמולים שישולמו לפי חוקים אלה בתקופה הקובעת יהיו סכומי התגמולים שהיו משתלמים לפי חוקים אלו ביום הקובע; ואלה החוקים:</p>
+              </intro>
+              <point eId="point_27__point_1">
+                <num>(1)</num>
+                <content>
+                  <p>
+                    <ref href="/akn/il/act/PrimaryLegislation/1959-09-23/2002247">חוק הנכים (תגמולים ושיקום), התשי"ט–1959</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_27__point_2">
+                <num>(2)</num>
+                <content>
+                  <p>
+                    <ref href="/akn/il/act/PrimaryLegislation/1950-07-21/148018">חוק משפחות חיילים שנספו במערכה (תגמולים ושיקום), התש"י–1950</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_27__point_3">
+                <num>(3)</num>
+                <content>
+                  <p>
+                    <ref href="/akn/il/act/PrimaryLegislation/1957-04-19/150221">חוק נכי רדיפות הנאצים, התשי"ז–1957</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_27__point_4">
+                <num>(4)</num>
+                <content>
+                  <p>
+                    <ref href="/akn/il/act/PrimaryLegislation/1954-03-04/150220">חוק נכי המלחמה בנאצים, התשי"ד–1954</ref>.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_27א" class="definitions">
+            <heading>
+              <authorialNote placement="side">
+                <p>הטבות נוספות הניתנות לפי חוקים שונים – הוראת שעה</p>
+              </authorialNote>
+            </heading>
+            <num>27א.</num>
+            <list>
+              <intro>
+                <p>על אף האמור בחוקים המנויים <ref href="#point_27">בסעיף 27</ref> או לפיהם, סכומי ההטבות הניתנות לפי החוקים האמורים ולפי כל הסכם לא יעודכנו בתקופה שמיום א׳ בסיון התשס"ג (1 ביוני 2003) עד תום התקופה הקובעת, וההטבות הניתנות בתקופה האמורה יהיו בסכומים שבהן ניתנו ביום הקובע השני, ואם הן ניתנות בשווה כסף – יינתנו כך ששוויין בכסף לא יעלה על שוויין ביום הקובע השני; לענין זה –</p>
+              </intro>
+              <point eId="point_27א__point_הטבות">
+                <content>
+                  <p>
+                    <def />”הטבות“ – כל הטבה שאינה תגמול הניתנת למי שמשתלם לו תגמול לפי אחד החוקים המנויים <ref href="#point_27">בסעיף 27</ref>, עקב היותו זכאי לתגמול כאמור, בין בכסף ובין בשווה כסף;</p>
+                </content>
+              </point>
+              <point eId="point_27א__point_היום_הקובע_השני">
+                <content>
+                  <p>
+                    <def />”היום הקובע השני“ – כ"ט באייר התשס"ג (31 במאי 2003).</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_28">
+            <heading>
+              <authorialNote placement="side">
+                <p>תגמולים והטבות המשתלמים לפי חוקים שונים – הוראת מעבר</p>
+              </authorialNote>
+            </heading>
+            <num>28.</num>
+            <content>
+              <p>על אף האמור בכל דין או הסכם, יראו את התגמולים לפי כל אחד מהחוקים המנויים <ref href="#point_27">בסעיף 27</ref> ואת ההטבות כאמור <ref href="#point_27א">בסעיף 27א</ref> כאילו עודכנו בתקופה הקובעת לפי הדין או ההסכם שבו נקבעה חובת עדכון של התגמולים וההטבות האמורים.</p>
+            </content>
+          </point>
+          <point eId="point_29">
+            <heading>
+              <authorialNote placement="side">
+                <p>חוק סל הקליטה – הוראת שעה והוראת מעבר</p>
+              </authorialNote>
+            </heading>
+            <num>29.</num>
+            <list>
+              <point eId="point_29__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>על אף האמור <ref href="/akn/il/act/PrimaryLegislation/1994-12-28/154548#point_3">בסעיף 3 לחוק סל הקליטה, התשנ"ה–1994</ref> (להלן – חוק סל הקליטה), לא יעודכן סל הקליטה בתקופה הקובעת.</p>
+                </content>
+              </point>
+              <point eId="point_29__point_ב">
+                <num>(ב)</num>
+                <list>
+                  <intro>
+                    <p>לענין העדכון לפי <ref href="/akn/il/act/PrimaryLegislation/1994-12-28/154548">חוק סל הקליטה</ref> ביום העדכון הראשון שלאחר התקופה הקובעת, יהיה המדד היסודי –</p>
+                  </intro>
+                  <point eId="point_29__point_ב__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>אם לא היה בשנת 2002 מועד עדכון המאוחר לחודש העדכון השנתי (בסעיף זה – מועד עדכון נוסף בשנת 2002) המדד שפורסם בחודש דצמבר 2002;</p>
+                    </content>
+                  </point>
+                  <point eId="point_29__point_ב__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>אם היה מועד עדכון נוסף בשנת 2002 – המדד שפורסם בתום שנה ממועד העדכון הנוסף בשנת 2002.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_29__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>בסעיף זה, ”חודש העדכון השנתי“, ”יום העדכון“, ”מדד“, ”המדד היסודי“, ו”סל הקליטה“ – כהגדרתם <ref href="/akn/il/act/PrimaryLegislation/1994-12-28/154548">בחוק סל הקליטה</ref>.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_29א">
+            <heading>
+              <authorialNote placement="side">
+                <p>מנגנון עדכון – הוראת שעה</p>
+              </authorialNote>
+            </heading>
+            <num>29א.</num>
+            <content>
+              <p>על אף האמור <ref href="#point_27">בסעיפים 27</ref>, <ref href="#point_27א">27א</ref><ref href="#point_29">ו־29</ref>, עלה המדד שפורסם לאחרונה לפני ה־1 בינואר של שנת 2004 או של שנת 2005 בשיעור של יותר מ־5% ביחס למדד שפורסם לאחרונה לפני ה־1 בינואר של השנה הקודמת, יעודכנו התגמולים לפי כל אחד מהחוקים המנויים <ref href="#point_27">בסעיף 27</ref> וההטבות כאמור <ref href="#point_27א">בסעיף 27א</ref> וסל הקליטה כאמור <ref href="#point_29">בסעיף 29</ref>, בשיעור עליית המדד כאמור, בניכוי חמש נקודות האחוז; לענין זה, ”המדד“ – מדד המחירים לצרכן שמפרסמת הלשכה המרכזית לסטטיסטיקה.</p>
+            </content>
+          </point>
+        </list>
+      </chapter>
+      <chapter eId="chp_ח">
+        <num>פרק ח׳:</num>
+        <title>
+          <content>
+            <p>הוראות שונות</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_30">
+            <heading>
+              <authorialNote placement="side">
+                <p>חוק רשות הנמלים והרכבות – הוראת שעה</p>
+              </authorialNote>
+            </heading>
+            <num>30.</num>
+            <list>
+              <point eId="point_30__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>נוסף על התמלוגים לפי <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/חוק_רשות_הנמלים_והרכבות#point_35א">סעיף 35א(ב) לחוק רשות הנמלים והרכבות, התשכ"א–1961</ref> (בסעיף זה – חוק רשות הנמלים והרכבות), בשנים 2002 ו־2003, עד ה־1 ביולי של כל שנה, תעביר רשות הנמלים והרכבות למדינה תמלוגים נוספים בסכום של 300 מיליון שקלים חדשים.</p>
+                </content>
+              </point>
+              <point eId="point_30__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>דין התמלוגים לפי סעיף קטן (א) ודין התמלוגים ששולמו לפי <ref href="/akn/il/act/PrimaryLegislation/2002-02-17/173933#point_46">סעיף 46 לחוק ההסדרים במשק המדינה (תיקוני חקיקה להשגת יעדי התקציב והמדיניות הכלכלית לשנת הכספים 2002), התשס"ב–2002</ref>, כדין התמלוגים לפי <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/חוק_רשות_הנמלים_והרכבות#point_35א">סעיף 35א(ב) לחוק רשות הנמלים והרכבות</ref>.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_31">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>31.</num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryLegislation/1992-01-08/153721">בחוק הפחתת הגירעון, התשנ"ב–1992</ref>.</wikicomment>
+              </p>
+            </content>
+          </point>
+          <point eId="point_32">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>32.</num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryLegislation/1992-07-09/2002165">בחוק הלוואות לדיור, התשנ"ב–1992</ref>.</wikicomment>
+              </p>
+            </content>
+          </point>
+          <point eId="point_33">
+            <heading>
+              <authorialNote placement="side">
+                <p>תחולה והוראות מעבר</p>
+              </authorialNote>
+            </heading>
+            <num>33.</num>
+            <content>
+              <p>הוראות <ref href="/akn/il/act/PrimaryLegislation/1992-07-09/2002165#point_2">סעיפים 2(א)</ref>, <ref href="/akn/il/act/PrimaryLegislation/1992-07-09/2002165#point_6ג">6ג(א)</ref><ref href="/akn/il/act/PrimaryLegislation/1992-07-09/2002165#point_6ד">ו־6ד(ב) לחוק הלוואות לדיור, התשנ"ב–1992</ref>, כנוסחם לפי <ref href="#point_32">סעיף 32 לחוק זה</ref>, יחולו על מחוסר דיור שחתם על חוזה לרכישת דירה או הגיש בקשה להלוואה למטרה של בניית דירה, לפי הענין, ביום תחילתו של חוק זה ואילך; שר הבינוי והשיכון יקבע תנאים לזכאות לתשלום ההלוואות למי שהוראת סעיף זה חלה עליו.</p>
+            </content>
+          </point>
+          <point eId="point_34">
+            <heading>
+              <authorialNote placement="side">
+                <p>שמירת דינים</p>
+              </authorialNote>
+            </heading>
+            <num>34.</num>
+            <content>
+              <p>אין בהוראות <ref href="#point_32">סעיף 32</ref> כדי לגרוע מהוראות <ref href="/akn/il/act/PrimaryLegislation/2002-02-17/173933#point_33">סעיף 33 לחוק ההסדרים במשק המדינה (תיקוני חקיקה להשגת יעדי התקציב והמדיניות הכלכלית לשנת הכספים 2002), התשס"ב–2002</ref>.</p>
+            </content>
+          </point>
+          <point eId="point_35">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>35.</num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryLegislation/1994-04-28/154135">בחוק קליטת חיילים משוחררים, התשנ"ד–1994</ref>.</wikicomment>
+              </p>
+            </content>
+          </point>
+          <point eId="point_36">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>36.</num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryLegislation/2001-04-04/170346">בחוק ההסדרים במשק המדינה (תיקוני חקיקה להשגת יעדי התקציב והמדיניות הכלכלית לשנת הכספים 2001), התשס"א–2001</ref>.</wikicomment>
+              </p>
+            </content>
+          </point>
+          <point eId="point_37">
+            <heading>
+              <authorialNote placement="side">
+                <p>חוק קליטת חיילים משוחררים – הוראת שעה</p>
+              </authorialNote>
+            </heading>
+            <num>37.</num>
+            <content>
+              <p>על אף האמור <ref href="/akn/il/act/PrimaryLegislation/1994-04-28/154135#point_9">בסעיף 9(ב) לחוק קליטת חיילים משוחררים</ref>, יתרת הפיקדון של חייל שהשתחרר אחרי יום כ"א בסיון התשס"ב (1 ביוני 2002) לא תעודכן בתקופה שמיום כ"ז בטבת התשס"ג (1 בינואר 2003) ועד יום ו׳ בטבת התשס"ד (31 בדצמבר 2003); העדכון הראשון של פיקדון כאמור לפי <ref href="/akn/il/act/PrimaryLegislation/1994-04-28/154135#point_9">הסעיף האמור</ref> לאחר התקופה הנזכרת יהיה לפי שיעור עליית המדד מן המדד שפורסם בחודש דצמבר 2003.</p>
+            </content>
+          </point>
+          <point eId="point_38">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>38.</num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryLegislation/1982-03-01/2002215">בחוק סדר הדין הפלילי (תיקון מס׳ 28), התש"ס–2000</ref>.</wikicomment>
+              </p>
+            </content>
+          </point>
+        </list>
+      </chapter>
+      <chapter eId="chp_ט">
+        <num>פרק ט׳:</num>
+        <title>
+          <content>
+            <p>תחילה ותחולה</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_39">
+            <heading>
+              <authorialNote placement="side">
+                <p>תחילה ותחולה</p>
+              </authorialNote>
+            </heading>
+            <num>39.</num>
+            <list>
+              <point eId="point_39__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>תחילתו של חוק זה ביום כ"א בתמוז התשס"ב (1 ביולי 2002) (בחוק זה – יום התחילה), אלא אם כן נקבע בו אחרת.</p>
+                </content>
+              </point>
+              <point eId="point_39__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>הוראות <ref href="/akn/il/act/PrimaryLegislation/1995-05-15/158093#point_28ב">סעיפים 28ב</ref>, <ref href="/akn/il/act/PrimaryLegislation/1995-05-15/158093#point_32">32</ref>, <ref href="/akn/il/act/PrimaryLegislation/1995-05-15/158093#point_33">33</ref>, <ref href="/akn/il/act/PrimaryLegislation/1995-05-15/158093#point_68">68</ref>, <ref href="/akn/il/act/PrimaryLegislation/1995-05-15/158093#point_337">337</ref>, <ref href="/akn/il/act/PrimaryLegislation/1995-05-15/158093#לוח_ד">לוח ד׳</ref><ref href="/akn/il/act/PrimaryLegislation/1995-05-15/158093#לוח_י">ולוח י׳ בחוק הביטוח הלאומי</ref>, כנוסחם <ref href="#point_7">בסעיף 7</ref>, יחולו על גמלאות ודמי ביטוח המשתלמים בעד יום התחילה ואילך.</p>
+                </content>
+              </point>
+              <point eId="point_39__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>
+                    <ref href="/akn/il/act/PrimaryLegislation/1995-05-15/158093#point_338">סעיפים 338</ref>
+                    <ref href="/akn/il/act/PrimaryLegislation/1995-05-15/158093#point_339">ו־339 בחוק הביטוח הלאומי</ref> יחולו על דמי ביטוח המשתלמים בעד התקופה המסתיימת ביום כ׳ בתמוז התשס"ב (30 ביוני 2002).</p>
+                </content>
+              </point>
+              <point eId="point_39__point_ד">
+                <num>(ד)</num>
+                <content>
+                  <p>הוראות <ref href="/akn/il/act/PrimaryLegislation/1995-05-15/158093#point_161">סעיפים 161</ref>, <ref href="/akn/il/act/PrimaryLegislation/1995-05-15/158093#point_162">162</ref><ref href="/akn/il/act/PrimaryLegislation/1995-05-15/158093#point_171">ו־171 בחוק הביטוח הלאומי</ref>, כנוסחם <ref href="#point_7">בסעיף 7</ref>, יחולו על מי שהתאריך הקובע, כהגדרתו <ref href="/akn/il/act/PrimaryLegislation/1995-05-15/158093#point_158">בסעיף 158 בחוק הביטוח הלאומי</ref>, חל לגביו ביום התחילה ואילך.</p>
+                </content>
+              </point>
+              <point eId="point_39__point_ה">
+                <num>(ה)</num>
+                <content>
+                  <p>הוראות <ref href="/akn/il/act/PrimaryLegislation/1995-05-15/158093#point_173">סעיף 173 בחוק הביטוח הלאומי</ref>, כנוסחו <ref href="#point_7">בסעיף 7</ref>, יחולו על מי שהחל בהכשרה מקצועית ביום התחילה ואילך.</p>
+                </content>
+              </point>
+              <point eId="point_39__point_ו">
+                <num>(ו)</num>
+                <content>
+                  <p>הוראות <ref href="#point_9">סעיף 9</ref> יחולו על גמלאות ודמי ביטוח המשתלמים בעד התקופה הקובעת, כהגדרתה <ref href="#point_8">בסעיף 8</ref>.</p>
+                </content>
+              </point>
+              <point eId="point_39__point_ז">
+                <num>(ז)</num>
+                <content>
+                  <p>הוראות <ref href="/akn/il/act/PrimaryLegislation/1992-07-09/2002165#point_2">סעיפים 2(א)</ref>, <ref href="/akn/il/act/PrimaryLegislation/1992-07-09/2002165#point_6ג">6ג(א)</ref><ref href="/akn/il/act/PrimaryLegislation/1992-07-09/2002165#point_6ד">ו־6ד(ב) בחוק הלוואות לדיור, התשנ"ב–1992</ref>, כנוסחם <ref href="#point_32">בסעיף 32</ref>, יחולו על מחוסר דיור שחתם על חוזה לרכישת דירה או הגיש בקשה להלוואה למטרה של בניית דירה ביום התחילה ואילך.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+        </list>
+      </chapter>
+    </body>
+    <conclusions eId="eId">
+      <p class="signatures">
+        <signature>
+          <p>
+            <person refersTo="אריאל_שרון">אריאל שרון</person>
+            <role refersTo="ראש_הממשלה">ראש הממשלה</role>
+          </p>
+        </signature>
+        <signature>
+          <p>
+            <person refersTo="סילבן_שלום">סילבן שלום</person>
+            <role refersTo="שר_האוצר">שר האוצר</role>
+          </p>
+        </signature>
+        <signature>
+          <p>
+            <person refersTo="משה_קצב">משה קצב</person>
+            <role refersTo="נשיא_המדינה">נשיא המדינה</role>
+          </p>
+        </signature>
+        <signature>
+          <p>
+            <person refersTo="אברהם_בורג">אברהם בורג</person>
+            <role refersTo="יושב_ראש_הכנסת">יושב ראש הכנסת</role>
+          </p>
+        </signature>
+      </p>
+    </conclusions>
+  </act>
+</akomaNtoso>

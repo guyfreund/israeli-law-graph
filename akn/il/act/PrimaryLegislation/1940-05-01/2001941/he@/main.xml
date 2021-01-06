@@ -1,0 +1,979 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion" name="publicLaw">
+    <meta>
+      <identification source="#kensset">
+        <FRBRWork>
+          <FRBRthis value="/akn/il/act/PrimaryLegislation/1940-05-01/2001941/main" />
+          <FRBRuri value="/akn/il/act/PrimaryLegislation/1940-05-01/2001941" />
+          <FRBRdate date="1940-05-01" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRcountry value="israel" />
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/il/act/PrimaryLegislation/1940-05-01/2001941/he@/main" />
+          <FRBRuri value="/akn/il/act/PrimaryLegislation/1940-05-01/2001941/he@" />
+          <FRBRdate date="1940-05-01" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRlanguage language="hebrew" />
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/il/act/PrimaryLegislation/1940-05-01/2001941/he@/main.xml" />
+          <FRBRuri value="/akn/il/act/PrimaryLegislation/1940-05-01/2001941/he@" />
+          <FRBRdate date="1940-05-01" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRformat value="xml" />
+        </FRBRManifestation>
+      </identification>
+      <classification source="#kensset">
+        <keyword value="{classificationValue}" showAs="{classificationValue}" dictionary="#classification_dictionary" />
+      </classification>
+      <lifecycle source="#kensset">
+        <eventRef eId="eventRef_1" date="1940-05-01" source="#kensset" type="generation" />
+      </lifecycle>
+      <references source="#kensset">
+        <TLCOrganization eId="kensset" href="/ontology/organization/akn/knesset" showAs="Kensset" type="generation" />
+        <TLCRole eId="author" href="/ontology/role/akn/author" showAs="Author of Document" />
+        <TLCProcess eId="inforce" href="/ontology/process/akn/inforce" showAs="In force" />
+        <TLCPerson eId="הרולד_מקמיכאל" href="/ontology/person/הרולד_מקמיכאל" showAs="הרולד מקמיכאל" />
+        <TLCRole eId="נציב_עליון" href="ontology/role/akn/נציב_עליון" showAs="נציב עליון" />
+      </references>
+      <temporalData source="#kensset">
+        <temporalGroup eId="tmpg_1" />
+      </temporalData>
+      <proprietary wikiversion="10/16/2020 9:34:09 AM" />
+    </meta>
+    <body period="#tmpg_1">
+      <title eId="title">
+        <content>
+          <p>פקודת פקידי ממשלה (שנוי תוארים)</p>
+        </content>
+      </title>
+      <subtitle eId="eId">
+        <num></num>
+        <content>
+          <p>פקודה הקובעת הוראות לשנוי תואריהם של פקידי ממשלה ידועים.</p>
+        </content>
+      </subtitle>
+      <preamble eId="eId">
+        <p>הנציב העליון לפלשתינה (א"י) מחוקק בזה בעצתה של המועצה הפלשתינאית (א"י) לאמור:–
+
+<מפריד /><wikicomment font-size="x-small">מכוח האמור <ref href="/akn/il/act/PrimaryLegislation/1948-05-21/2002291#point_14">בסעיפים 14</ref><ref href="/akn/il/act/PrimaryLegislation/1948-05-21/2002291#point_15">ו־15 לפקודת סדרי השלטון והמשפט, תש"ח–1948</ref>, כל סמכות שהיתה נתונה על פי החוק בידי הנציב העליון תהא נתונה לממשלה, וכל מקום בו נאמר בחוק ”פלשתינה (א"י)“ ייקרא מעתה ”ישראל“. פורסמה הודעה על הענקת סמכויות הנציב העליון לראש הממשלה (י"פ תשי"א, 534). לפי <ref href="/akn/il/act/PrimaryLegislation/1949-02-17/147941#point_13">סעיף 13 לחוק המעבר, תש"ט–1949</ref>, כל מקום בו נאמר בחוק ”עתון רשמי“ ייקרא מעתה ”רשומות“.</wikicomment></p>
+      </preamble>
+      <list>
+        <point eId="point_1">
+          <heading>
+            <authorialNote placement="side">
+              <p>השם הקצר</p>
+            </authorialNote>
+          </heading>
+          <num>1.</num>
+          <content>
+            <p>פקודה זו תקרא פקודת <wikicomment font-size="x-small">"</wikicomment>פקידי ממשלה (שנוי תוארים), 1940<wikicomment font-size="x-small">"</wikicomment>.</p>
+          </content>
+        </point>
+        <point eId="point_2">
+          <heading>
+            <authorialNote placement="side">
+              <p>החלפת תואריהם של פקידי ממשלה בתוארים חדשים</p>
+            </authorialNote>
+          </heading>
+          <num>2.</num>
+          <content>
+            <p>כל אימת שאחד התוארים של פקידי ממשלה המפורטים <ref href="#appendix">בטור הראשון של התוספת המצורפת לזה</ref> מופיע באחת הפקודות המפורטות מתחת לתוארו של הפקיד באותו טור, או כשאין מפורטת שם שום פקודה – אז, כל אימת שאותו תואר מופיע בכל חוק, כמשמעותו <ref href="/akn/il/act/PrimaryLegislation/1954-01-01/2001847#point_1">בפקודת הפירושים, 1945</ref>, רואין אותו תואר כאילו הוחלף בתואר המקביל לו המפורט <ref href="#appendix">בטור השני של התוספת</ref>.</p>
+          </content>
+        </point>
+        <point eId="point_3">
+          <heading>
+            <authorialNote placement="side">
+              <p>הוראה בענין שנוי תואר לעתיד</p>
+            </authorialNote>
+          </heading>
+          <num>3.</num>
+          <content>
+            <p>כל אימת שיחול בעתיד כל שנוי בתארו של פקיד ממשלה, רשאי ראש הממשלה, אם הענין ידרוש זאת, לפרסם במודעה ברשומות כל החלפת תואר <ref href="#appendix">בתוספת</ref> או כל הוספה <ref href="#appendix">בתוספת</ref> שיהא צורך בהן, והוראות <ref href="#point_2">סעיף 2</ref> תחולנה איפוא לפי זה בהתאמה לכל החלפה או הוספה כזאת.</p>
+          </content>
+        </point>
+        <point eId="point_4">
+          <heading>
+            <authorialNote placement="side">
+              <p xml:space="preserve"> </p>
+            </authorialNote>
+          </heading>
+          <num>4.</num>
+          <content>
+            <p>
+              <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryLegislation/1954-01-01/2001847">בפקודת הפירושים</ref>.</wikicomment>
+            </p>
+          </content>
+        </point>
+        <point eId="point_none">
+          <heading>
+            <authorialNote placement="side">
+              <p>תחילת התוקף</p>
+            </authorialNote>
+          </heading>
+          <num></num>
+          <content>
+            <p>פקודה זאת רואין אותה כאילו קבלה תוקף ביום הראשון באפריל, 1940.</p>
+          </content>
+        </point>
+      </list>
+      <appendix eId="appendix">
+        <num></num>
+        <title>
+          <content>
+            <p>התוספת</p>
+          </content>
+        </title>
+        <list>
+          <point eId="appendix__point_none">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num></num>
+            <content>
+              <p>
+                <table eId="" class="table table-bordered">
+                  <tr>
+                    <th></th>
+                    <th>טור א׳</th>
+                    <th>טור ב׳</th>
+                  </tr>
+                  <tr>
+                    <td></td>
+                    <td>האנליסט הממשלתי</td>
+                    <td>הכימאי הממשלתי</td>
+                  </tr>
+                  <tr>
+                    <td></td>
+                    <td>עוזר לאנליסט הממשלתי</td>
+                    <td>עוזר לכימאי הממשלתי</td>
+                  </tr>
+                  <tr>
+                    <td></td>
+                    <td>אחות שבהנהלה</td>
+                    <td>אחות מוסמכת</td>
+                  </tr>
+                  <tr>
+                    <td></td>
+                    <td>אחות בבית חולים מחוזי</td>
+                    <td>אחות מוסמכת</td>
+                  </tr>
+                  <tr>
+                    <td></td>
+                    <td>אחות לחולי עינים</td>
+                    <td>אחות מוסמכת</td>
+                  </tr>
+                  <tr>
+                    <td></td>
+                    <td>עורך הדין של הממשלה</td>
+                    <td>עורך הדין של הממשלה</td>
+                  </tr>
+                  <tr>
+                    <td rowspan="2"></td>
+                    <td>מנהל מחלקת רישום הקרקעות</td>
+                    <td>מנהל סדור עניני הקרקעות</td>
+                  </tr>
+                  <tr>
+                    <td colspan="2">
+                      <תת>פקודת חוק הקרקעות (תקון)</תת>
+                      <תת>פקודת הקרקעות (מתות)</תת>
+                      <תת>פקודת אדמות הממשלה</תת>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td rowspan="2"></td>
+                    <td>מנהל המדידות</td>
+                    <td>מנהל סדור עניני הקרקעות</td>
+                  </tr>
+                  <tr>
+                    <td colspan="2">
+                      <תת>פקודת שמאי קרקעות</תת>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td rowspan="2"></td>
+                    <td>מנהל עניני הקרקעות</td>
+                    <td>מנהל סדור עניני הקרקעות</td>
+                  </tr>
+                  <tr>
+                    <td colspan="2">
+                      <תת>
+                        <ref href="/akn/il/act/PrimaryLegislation/1969-07-27/2002285">פקודת הקרקעות (סדור זכות הקנין)</ref>
+                      </תת>
+                      <תת>
+                        <ref href="/akn/il/act/PrimaryLegislation/1961-04-06/147844">פקודת מס הרכוש העירוני</ref>
+                      </תת>
+                      <תת>
+                        <ref href="/akn/il/act/PrimaryLegislation/1961-04-06/147844">פקודת מס הרכוש החקלאי, 1935</ref>
+                      </תת>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <wikicomment font-size="x-small">[תיקון: 1947]</wikicomment>
+                    </td>
+                    <td>פקיד ויטירינארי ראשי</td>
+                    <td>מנהל שירותי הויטירינאריות</td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <wikicomment font-size="x-small">[תיקון: 1947-2]</wikicomment>
+                    </td>
+                    <td>יועץ לתיכון ערים</td>
+                    <td>מתכן־ערים ממשלתי</td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <wikicomment font-size="x-small">[תיקון: תשי"א]</wikicomment>
+                    </td>
+                    <td colspan="2">
+                      <wikicomment font-size="x-small">(פקעה)</wikicomment>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <wikicomment font-size="x-small">[תיקון: תשי"א]</wikicomment>
+                    </td>
+                    <td>שר העבודה והביטוח העממי</td>
+                    <td>שר העבודה <wikicomment font-size="x-small">⇦ שר העבודה הרווחה והשירותים החברתיים</wikicomment></td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <wikicomment font-size="x-small">[תיקון: תשי"ב]</wikicomment>
+                    </td>
+                    <td>שר החקלאות</td>
+                    <td>שר החקלאות והפיתוח <wikicomment font-size="x-small">⇦ שר החקלאות ופיתוח הכפר</wikicomment></td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <wikicomment font-size="x-small">[תיקון: תשי"ב־2]</wikicomment>
+                    </td>
+                    <td>שר החקלאות והפיתוח</td>
+                    <td>שר החקלאות <wikicomment font-size="x-small">⇦ שר החקלאות ופיתוח הכפר</wikicomment></td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <wikicomment font-size="x-small">[תיקון: תשל"א]</wikicomment>
+                    </td>
+                    <td>שר הדואר</td>
+                    <td>שר התקשורת</td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <wikicomment font-size="x-small">[תיקון: תשמ"ה]</wikicomment>
+                    </td>
+                    <td>שר הכלכלה והתיאום הבינמשרדי</td>
+                    <td>שר הכלכלה והתכנון</td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <wikicomment font-size="x-small">[תיקון: תשמ"ט]</wikicomment>
+                    </td>
+                    <td>שר המדע והפיתוח</td>
+                    <td>שר המדע והטכנולוגיה</td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <wikicomment font-size="x-small">[תיקון: תשי"ד]</wikicomment>
+                    </td>
+                    <td>משנה לרשם הראשי של בית המשפט העליון</td>
+                    <td>עוזר לרשם הראשי של בית המשפט העליון</td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <wikicomment font-size="x-small">[תיקון: תשט"ז]</wikicomment>
+                    </td>
+                    <td>מנהל מחלקת החקלאות <br space="preserve"></br> מנהל החקלאות <br space="preserve"></br> מנהל מחלקת החקלאות והיערות <br space="preserve"></br> מנהל מחלקת החקלאות והדיג</td>
+                    <td>המנהל הכללי של משרד החקלאות</td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <wikicomment font-size="x-small">[תיקון: תשי"ח]</wikicomment>
+                    </td>
+                    <td>פקיד וטרינרי</td>
+                    <td>רופא וטרינרי ממשלתי</td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <wikicomment font-size="x-small">[תיקון: תשי"ט]</wikicomment>
+                    </td>
+                    <td>עוזר מפקח מחוזי</td>
+                    <td>פקד</td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <wikicomment font-size="x-small">[תיקון: תשי"ט]</wikicomment>
+                    </td>
+                    <td>סרג׳נט</td>
+                    <td>סמל ראשון</td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <wikicomment font-size="x-small">[תיקון: תשי"ט]</wikicomment>
+                    </td>
+                    <td>קורפורל</td>
+                    <td>סמל שני</td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <wikicomment font-size="x-small">[תיקון: תשי"ט־2, תשי"ט־3]</wikicomment>
+                    </td>
+                    <td colspan="2">
+                      <wikicomment font-size="x-small">(בוטלה)</wikicomment>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <wikicomment font-size="x-small">[תיקון: תש"ך]</wikicomment>
+                    </td>
+                    <td>מנהל מחלקת הבריאות <br space="preserve"></br> מנהל השירותים הרפואיים</td>
+                    <td>המנהל הכללי של משרד הבריאות</td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <wikicomment font-size="x-small">[תיקון: תשל"ו]</wikicomment>
+                    </td>
+                    <td>מנהל שירות התעסוקה</td>
+                    <td>המנהל הכללי של שירות התעסוקה</td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <wikicomment font-size="x-small">[תיקון: תש"ך־2]</wikicomment>
+                    </td>
+                    <td>ראש ענף פלילי</td>
+                    <td>ראש ענף חקירות</td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <wikicomment font-size="x-small">[תיקון: תשכ"א]</wikicomment>
+                    </td>
+                    <td>מקבל נכסים רשמי</td>
+                    <td>כונס נכסים רשמי</td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <wikicomment font-size="x-small">[תיקון: תשכ"ג]</wikicomment>
+                    </td>
+                    <td>מפקח בעלי חיים (Stock Inspector)</td>
+                    <td>מפקח</td>
+                  </tr>
+                  <tr>
+                    <td rowspan="2">
+                      <wikicomment font-size="x-small">[תיקון: תשל"ז]</wikicomment>
+                    </td>
+                    <td>שר המסחר והתעשיה –</td>
+                    <td>שר האנרגיה והתשתית</td>
+                  </tr>
+                  <tr>
+                    <td colspan="2">
+                      <תת>
+                        <ref href="/akn/il/act/PrimaryLegislation/1989-12-31/152659">חוק רשות לאומית לאנרגיה, תשל"ז–1977</ref>
+                      </תת>
+                      <תת>
+                        <ref href="/akn/il/act/PrimaryLegislation/1961-01-02/148469">חוק הפעלת רכב (מנועים ודלק), תשכ"א–1960</ref>
+                      </תת>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <wikicomment font-size="x-small">[תיקון: תשל"ז, תשמ"א]</wikicomment>
+                    </td>
+                    <td>שר המסחר והתעשיה</td>
+                    <td>שר התעשיה והמסחר <wikicomment font-size="x-small">⇦ שר הכלכלה והתעשייה</wikicomment></td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <wikicomment font-size="x-small">[תיקון: תשל"ז, תשמ"ה]</wikicomment>
+                    </td>
+                    <td colspan="2">
+                      <wikicomment font-size="x-small">(נמחקה)</wikicomment>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <wikicomment font-size="x-small">[תיקון: תשל"ח]</wikicomment>
+                    </td>
+                    <td>שר הסעד</td>
+                    <td>שר העבודה והרווחה <wikicomment font-size="x-small">⇦ שר העבודה הרווחה והשירותים החברתיים</wikicomment></td>
+                  </tr>
+                  <tr>
+                    <td rowspan="2">
+                      <wikicomment font-size="x-small">[תיקון: תשל"ז]</wikicomment>
+                    </td>
+                    <td>שר העבודה –</td>
+                    <td>שר הבינוי והשיכון</td>
+                  </tr>
+                  <tr>
+                    <td colspan="2">
+                      <תת>
+                        <ref href="/akn/il/act/PrimaryLegislation/1987-04-05/151445">תקנות־שעת־חירום (רישום ציוד וגיוסו), תשי"ז–1956</ref>
+                      </תת>
+                      <תת>
+                        <ref href="/akn/il/act/PrimaryLegislation/1957-07-25/148460">חוק רישום ציוד הנדסי, תשי"ז–1957</ref>
+                      </תת>
+                      <תת>
+                        <ref href="/akn/il/act/PrimaryLegislation/1965-08-01/147149">חוק בינוי ופינוי של אזורי שיקום, תשכ"ה–1965</ref>
+                      </תת>
+                      <תת>
+                        <ref href="/akn/il/act/PrimaryLegislation/1965-08-12/148917">חוק התכנון והבניה, תשכ"ה–1965</ref>
+                      </תת>
+                      <תת>
+                        <ref href="/akn/il/act/PrimaryLegislation/1966-02-09/147203">חוק הדרכים (שילוט), תשכ"ו–1966</ref>
+                      </תת>
+                      <תת>
+                        <ref href="/akn/il/act/PrimaryLegislation/1969-07-25/148456">חוק רישום קבלנים לעבודות הנדסה בנאיות, תשכ"ט–1969</ref>
+                      </תת>
+                      <תת>חוק התיאום המודולרי, תשל"ג–1972</תת>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <wikicomment font-size="x-small">[תיקון: תשל"ח]</wikicomment>
+                    </td>
+                    <td>שר העבודה</td>
+                    <td>שר העבודה והרווחה <wikicomment font-size="x-small">⇦ שר העבודה הרווחה והשירותים החברתיים</wikicomment></td>
+                  </tr>
+                  <tr>
+                    <td rowspan="2">
+                      <wikicomment font-size="x-small">[תיקון: תשל"ז]</wikicomment>
+                    </td>
+                    <td>שר הפיתוח</td>
+                    <td>שר האנרגיה והתשתית</td>
+                  </tr>
+                  <tr>
+                    <td colspan="2">
+                      <תת>חוק התוספות לזכיונות החשמל (תשלומים בעד חיבור למערכת חשמל), תשכ"ד–1963</תת>
+                      <תת>חוק התוספות לזכיון החשמל (תיקון הזכיון), תש"ל–1970</תת>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td rowspan="2">
+                      <wikicomment font-size="x-small">[תיקון: תשמ"ה]</wikicomment>
+                    </td>
+                    <td>שר הפנים</td>
+                    <td>שר המשטרה</td>
+                  </tr>
+                  <tr>
+                    <td colspan="2">
+                      <תת מספר="1.">
+                        <מספר>1.</מספר>
+                        <ref href="/akn/il/act/PrimaryLegislation/1940-12-20/2001729">פקודת בריאות העם, 1940</ref> – <ref href="/akn/il/act/PrimaryLegislation/1940-12-20/2001729#point_62א">סעיף 62א(2) ו־(3)</ref>.</תת>
+                      <תת מספר="2.">
+                        <מספר>2.</מספר>
+                        <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_התעבורה">פקודת התעבורה</ref> – <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_התעבורה#point_76א">סעיף 76א(ב)</ref>.</תת>
+                      <תת מספר="3.">
+                        <מספר>3.</מספר>
+                        <ref href="/akn/il/act/PrimaryLegislation/1966-02-09/147203">חוק הדרכים (שילוט), התשכ"ו–1966</ref> – <ref href="/akn/il/act/PrimaryLegislation/1966-02-09/147203#point_4">סעיף 4(3)</ref>, לגבי מינוי קצין המשטרה.</תת>
+                      <תת מספר="4.">
+                        <מספר>4.</מספר>
+                        <ref href="/akn/il/act/PrimaryLegislation/1971-03-11/2001806">פקודת המשטרה [נוסח חדש], התשל"א–1971</ref> – <ref href="/akn/il/act/PrimaryLegislation/1971-03-11/2001806#point_91ב">סעיף 91ב(א)</ref>.</תת>
+                      <תת מספר="5.">
+                        <מספר>5.</מספר>
+                        <ref href="/akn/il/act/PrimaryLegislation/1971-10-20/2002271">פקודת בתי הסוהר [נוסח חדש], התשל"ב–1971</ref> – <ref href="/akn/il/act/PrimaryLegislation/1971-10-20/2002271#point_112">סעיף 112(א)</ref>.</תת>
+                      <תת מספר="6.">
+                        <מספר>6.</מספר>
+                        <ref href="/akn/il/act/PrimaryLegislation/1979-03-13/150272">חוק סמכויות שעת חירום (מעצרים), התשל"ט–1979</ref> – <ref href="/akn/il/act/PrimaryLegislation/1979-03-13/150272#point_3">סעיף 3</ref>.</תת>
+                      <תת מספר="7.">
+                        <מספר>7.</מספר>
+                        <ref href="/akn/il/act/PrimaryLegislation/1979-07-12/147333">חוק האזנת סתר, התשל"ט–1979</ref> – <ref href="/akn/il/act/PrimaryLegislation/1979-07-12/147333#point_6">סעיפים 6</ref><ref href="/akn/il/act/PrimaryLegislation/1979-07-12/147333#point_7">ו־7</ref>.</תת>
+                      <תת מספר="8.">
+                        <מספר>8.</מספר>
+                        <ref href="/akn/il/act/PrimaryLegislation/1980-03-25/2002300">פקודת מניעת זיהום הים בשמן [נוסח חדש], התש"ם–1980</ref> – <ref href="/akn/il/act/PrimaryLegislation/1980-03-25/2002300#point_9">סעיף 9</ref>.</תת>
+                      <תת מספר="9.">
+                        <מספר>9.</מספר>
+                        <ref href="/akn/il/act/PrimaryLegislation/1981-06-16/171484">חוק המרשם הפלילי ותקנת השבים, התשמ"א–1981</ref> – <ref href="/akn/il/act/PrimaryLegislation/1981-06-16/171484#point_2">סעיפים 2(5)</ref>, <ref href="/akn/il/act/PrimaryLegislation/1981-06-16/171484#point_25">25</ref><ref href="/akn/il/act/PrimaryLegislation/1981-06-16/171484#point_26">ו־26</ref>.</תת>
+                      <תת מספר="10.">
+                        <מספר>10.</מספר>
+                        <ref href="/akn/il/act/PrimaryLegislation/1981-04-03/147132">חוק שירות בתי הסוהר (נכים ונספים), התשמ"א–1981</ref> – <ref href="/akn/il/act/PrimaryLegislation/1981-04-03/147132#point_7">סעיף 7</ref>.</תת>
+                      <תת מספר="11.">
+                        <מספר>11.</מספר>
+                        <ref href="/akn/il/act/PrimaryLegislation/1981-04-03/149893">חוק המשטרה (נכים ונספים), התשמ"א–1981</ref> – <ref href="/akn/il/act/PrimaryLegislation/1981-04-03/149893#point_7">סעיף 7</ref>.</תת>
+                      <תת מספר="12.">
+                        <מספר>12.</מספר>
+                        <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/חוק_מחיקת_הרשעות">חוק מחיקת הרשעות, התשמ"ב–1982</ref> – <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/חוק_מחיקת_הרשעות#point_6">סעיף 6</ref>.</תת>
+                      <תת מספר="13.">
+                        <מספר>13.</מספר>
+                        <ref href="/akn/il/act/PrimaryLegislation/1982-03-01/2002215">חוק סדר הדין הפלילי [נוסח משולב], התשמ"ב–1982</ref> – <ref href="/akn/il/act/PrimaryLegislation/1982-03-01/2002215#point_12">סעיפים 12(א)(2)</ref>, <ref href="/akn/il/act/PrimaryLegislation/1982-03-01/2002215#point_12">12(ב)</ref>, <ref href="/akn/il/act/PrimaryLegislation/1982-03-01/2002215#point_222">222</ref>, <ref href="/akn/il/act/PrimaryLegislation/1982-03-01/2002215#point_228">228(א)</ref><ref href="/akn/il/act/PrimaryLegislation/1982-03-01/2002215#point_244">ו־244(ב)</ref>.</תת>
+                      <תת מספר="14.">
+                        <מספר>14.</מספר>
+                        <ref href="/akn/il/act/PrimaryLegislation/1983-06-30/149818">חוק מניעת זיהום הים (הטלת פסולת), התשמ"ג–1983</ref> – <ref href="/akn/il/act/PrimaryLegislation/1983-06-30/149818#point_5">סעיף 5(ג)</ref>.</תת>
+                      <תת מספר="15.">
+                        <מספר>15.</מספר>
+                        <ref href="/akn/il/act/PrimaryLegislation/1983-03-11/148552">חוק הרשות לשיקום האסיר, התשמ"ג–1983</ref> – <ref href="/akn/il/act/PrimaryLegislation/1983-03-11/148552#point_10">סעיפים 10(ב)(1)</ref>, <ref href="/akn/il/act/PrimaryLegislation/1983-03-11/148552#point_11">11(א)</ref>, <ref href="/akn/il/act/PrimaryLegislation/1983-03-11/148552#point_13">13</ref><ref href="/akn/il/act/PrimaryLegislation/1983-03-11/148552#point_29">ו־29(ב)</ref>.</תת>
+                      <תת מספר="16.">
+                        <מספר>16.</מספר>
+                        <ref href="/akn/il/act/PrimaryLegislation/1984-06-07/149942">חוק שמירת הנקיון, התשמ"ד–1984</ref> – <ref href="/akn/il/act/PrimaryLegislation/1984-06-07/149942#point_12">סעיף 12(א)</ref>.</תת>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <wikicomment font-size="x-small">[תיקון: תשל"ז]</wikicomment>
+                    </td>
+                    <td>שר השיכון</td>
+                    <td>שר הבינוי והשיכון</td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <wikicomment font-size="x-small">[תיקון: תשל"ז, תשמ"א]</wikicomment>
+                    </td>
+                    <td colspan="2">
+                      <wikicomment font-size="x-small">(נמחקה)</wikicomment>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <wikicomment font-size="x-small">[תיקון: תשמ"א]</wikicomment>
+                    </td>
+                    <td>שר התעשיה, המסחר והתיירות</td>
+                    <td>שר התעשיה והמסחר <wikicomment font-size="x-small">⇦ שר הכלכלה והתעשייה</wikicomment></td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <wikicomment font-size="x-small">[תיקון: תשמ"א]</wikicomment>
+                    </td>
+                    <td>שר הדתות</td>
+                    <td>שר לעניני דתות</td>
+                  </tr>
+                  <tr>
+                    <td rowspan="2">
+                      <wikicomment font-size="x-small">[תיקון: תשמ"ג]</wikicomment>
+                    </td>
+                    <td>מנהל אגף המכס</td>
+                    <td>מנהל המכס ומע"מ</td>
+                  </tr>
+                  <tr>
+                    <td colspan="2">
+                      <תת>
+                        <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_המכס">פקודת המכס</ref>.</תת>
+                      <תת>
+                        <ref href="/akn/il/act/PrimaryLegislation/1959-06-15/2001719">פקודת המשקאות המשכרים (ייצור ומכירה)</ref>.</תת>
+                      <תת>
+                        <ref href="/akn/il/act/PrimaryLegislation/1959-06-15/2002055">פקודת הכהלים המפוגלים</ref>.</תת>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td rowspan="2">
+                      <wikicomment font-size="x-small">[תיקון: תשמ"ג]</wikicomment>
+                    </td>
+                    <td>מנהל המכס והבלו</td>
+                    <td>מנהל המכס ומע"מ</td>
+                  </tr>
+                  <tr>
+                    <td colspan="2">
+                      <תת>
+                        <ref href="/akn/il/act/PrimaryLegislation/1976-06-30/147883">חוק מס קניה (טובין ושירותים), התשי"ב–1952</ref>.</תת>
+                      <תת>
+                        <ref href="/akn/il/act/PrimaryLegislation/1976-01-06/147931">חוק מס ערך מוסף, התשל"ו–1975</ref>.</תת>
+                      <תת>
+                        <ref href="/akn/il/act/PrimaryLegislation/1979-03-29/2002276">פקודת היבוא והיצוא [נוסח חדש], התשל"ט–1979</ref>.</תת>
+                      <תת>
+                        <ref href="/akn/il/act/PrimaryLegislation/1965-01-01/149880">חוק סוכני המכס, התשכ"ה–1964</ref>.</תת>
+                      <תת>
+                        <ref href="/akn/il/act/PrimaryLegislation/1933-12-31/2068632">פקודת גבול המכס</ref>.</תת>
+                      <תת>
+                        <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/חוק_מס_הבולים_על_מסמכים">חוק מס הבולים על מסמכים, התשכ"א–1961</ref>.</תת>
+                      <תת>
+                        <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_הטבק">פקודת הטבק</ref>.</תת>
+                      <תת>
+                        <ref href="/akn/il/act/PrimaryLegislation/1953-09-03/148388">פקודת המלט</ref>.</תת>
+                      <תת>
+                        <ref href="/akn/il/act/PrimaryLegislation/1958-07-24/147046">חוק הבלו על דלק, התשי"ח–1958</ref>.</תת>
+                      <תת>
+                        <ref href="/akn/il/act/PrimaryLegislation/1959-09-15/148127">חוק לעידוד השקעות הון, התשי"ט–1959</ref>.</תת>
+                      <תת>
+                        <ref href="/akn/il/act/PrimaryLegislation/2008-11-05/251402">חוק למניעת היצף, התשל"ז–1977</ref>.</תת>
+                      <תת>
+                        <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/חוק_הסדרים_בעקבות_ניוד_המטבע">חוק הסדרים בעקבות ניוד המטבע, התשל"ח–1977</ref>.</תת>
+                      <תת>
+                        <ref href="/akn/il/act/PrimaryLegislation/1952-08-31/150155">חוק הנפט, התשי"ב–1952</ref>.</תת>
+                      <תת>
+                        <ref href="/akn/il/act/PrimaryLegislation/1933-12-31/2001935">פקודת סימני סחורות</ref>.</תת>
+                      <תת>
+                        <ref href="/akn/il/act/PrimaryLegislation/1933-12-31/2001821">פקודת הסחורות הנטרפות ודמי הצלה</ref>.</תת>
+                      <תת>
+                        <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/חוק_היטל_על_נסיעות_לחוץ_לארץ">חוק היטל על נסיעות לחוץ לארץ, התשמ"ג–1983</ref>.</תת>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <wikicomment font-size="x-small">[תיקון: תשל"ז־2, תשמ"ג]</wikicomment>
+                    </td>
+                    <td>ממונה על תחנת מכס ובלו</td>
+                    <td>מנהל תחנת מכס ומע"מ</td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <wikicomment font-size="x-small">[תיקון: תשל"ז־2, תשמ"ג]</wikicomment>
+                    </td>
+                    <td>מנהל תחנת מכס ובלו</td>
+                    <td>מנהל תחנת מכס ומע"מ</td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <wikicomment font-size="x-small">[תיקון: תשל"ז־2, תשמ"ג]</wikicomment>
+                    </td>
+                    <td>סגן ממונה על תחנת מכס ובלו</td>
+                    <td>סגן מנהל תחנת מכס ומע"מ</td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <wikicomment font-size="x-small">[תיקון: תשל"ז־2, תשמ"ג]</wikicomment>
+                    </td>
+                    <td>סגן מנהל תחנת מכס ובלו</td>
+                    <td>סגן מנהל תחנת מכס ומע"מ</td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <wikicomment font-size="x-small">[תיקון: תשמ"ד]</wikicomment>
+                    </td>
+                    <td>מנהל אגף הספנות והנמלים</td>
+                    <td>מנהל מינהל הספנות והנמלים</td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <wikicomment font-size="x-small">[תיקון: תשנ"ג]</wikicomment>
+                    </td>
+                    <td>שר המדע והטכנולוגיה</td>
+                    <td>שר האמנויות והמדע <wikicomment font-size="x-small">⇦ שר המדע והטכנולוגיה</wikicomment></td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <wikicomment font-size="x-small">[תיקון: תשנ"ד]</wikicomment>
+                    </td>
+                    <td>שר החינוך והתרבות</td>
+                    <td>שר החינוך, התרבות והספורט <wikicomment font-size="x-small">⇦ שר החינוך</wikicomment></td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <wikicomment font-size="x-small">[תיקון: תשנ"ה]</wikicomment>
+                    </td>
+                    <td>שר החקלאות</td>
+                    <td>שר החקלאות ופיתוח הכפר</td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <wikicomment font-size="x-small">[תיקון: תשנ"ו]</wikicomment>
+                    </td>
+                    <td>שר המשטרה</td>
+                    <td>שר לבטחון הפנים</td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <wikicomment font-size="x-small">[תיקון: תשנ"ז]</wikicomment>
+                    </td>
+                    <td>נציב מס הכנסה</td>
+                    <td>נציב מס הכנסה ומיסוי מקרקעין</td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <wikicomment font-size="x-small">[תיקון: תשנ"ז]</wikicomment>
+                    </td>
+                    <td>מנהל מס רכוש</td>
+                    <td>נציב מס הכנסה ומיסוי מקרקעין</td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <wikicomment font-size="x-small">[תיקון: תשנ"ח]</wikicomment>
+                    </td>
+                    <td>מנהל מחלקת המדידות</td>
+                    <td>מנהל המרכז למיפוי ישראל</td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <wikicomment font-size="x-small">[תיקון: תשס"א]</wikicomment>
+                    </td>
+                    <td>שר החינוך, התרבות והספורט</td>
+                    <td>שר החינוך <wikicomment font-size="x-small">⇦ שר החינוך</wikicomment></td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <wikicomment font-size="x-small">[תיקון: תשס"א]</wikicomment>
+                    </td>
+                    <td>שר האמנויות והמדע</td>
+                    <td>שר המדע, התרבות והספורט <wikicomment font-size="x-small">⇦ שר המדע והטכנולוגיה</wikicomment></td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <wikicomment font-size="x-small">[תיקון: תשס"ג]</wikicomment>
+                    </td>
+                    <td>שר החינוך</td>
+                    <td>שר החינוך התרבות והספורט <wikicomment font-size="x-small">⇦ שר החינוך</wikicomment></td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <wikicomment font-size="x-small">[תיקון: תשס"ג]</wikicomment>
+                    </td>
+                    <td>שר המדע התרבות והספורט</td>
+                    <td>שר המדע והטכנולוגיה</td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <wikicomment font-size="x-small">[תיקון: תשס"ג־2]</wikicomment>
+                    </td>
+                    <td>שר העבודה והרווחה</td>
+                    <td>שר הרווחה <wikicomment font-size="x-small">⇦ שר העבודה הרווחה והשירותים החברתיים</wikicomment></td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <wikicomment font-size="x-small">[תיקון: תשס"ג־2]</wikicomment>
+                    </td>
+                    <td>שר התעשיה והמסחר</td>
+                    <td>שר התעשיה המסחר והתעסוקה <wikicomment font-size="x-small">⇦ שר הכלכלה והתעשייה</wikicomment></td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <wikicomment font-size="x-small">[תיקון: תשס"ה]</wikicomment>
+                    </td>
+                    <td>נציב מס הכנסה ומיסוי מקרקעין</td>
+                    <td>מנהל רשות המסים בישראל</td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <wikicomment font-size="x-small">[תיקון: תשס"ה]</wikicomment>
+                    </td>
+                    <td>מנהל המכס ומס ערך מוסף</td>
+                    <td>מנהל רשות המסים בישראל</td>
+                  </tr>
+                  <tr>
+                    <td rowspan="2">
+                      <wikicomment font-size="x-small">[תיקון: תשס"ה]</wikicomment>
+                    </td>
+                    <td>נציב</td>
+                    <td>מנהל</td>
+                  </tr>
+                  <tr>
+                    <td colspan="2">
+                      <תת>
+                        <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_מס_הכנסה">פקודת מס הכנסה</ref>
+                      </תת>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td rowspan="2">
+                      <wikicomment font-size="x-small">[תיקון: תשס"ה]</wikicomment>
+                    </td>
+                    <td>סגן נציב</td>
+                    <td>סגן מנהל</td>
+                  </tr>
+                  <tr>
+                    <td colspan="2">
+                      <תת>
+                        <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_מס_הכנסה">פקודת מס הכנסה</ref>
+                      </תת>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <wikicomment font-size="x-small">[תיקון: תשס"ו]</wikicomment>
+                    </td>
+                    <td>שר התחבורה</td>
+                    <td>שר התחבורה והבטיחות בדרכים</td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <wikicomment font-size="x-small">[תיקון: תשס"ו־2]</wikicomment>
+                    </td>
+                    <td>שר החינוך התרבות והספורט</td>
+                    <td>שר החינוך</td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <wikicomment font-size="x-small">[תיקון: תשס"ו־2]</wikicomment>
+                    </td>
+                    <td>שר המדע והטכנולוגיה</td>
+                    <td>שר המדע התרבות והספורט <wikicomment font-size="x-small">⇦ שר המדע והטכנולוגיה</wikicomment></td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <wikicomment font-size="x-small">[תיקון: תשס"ו־2]</wikicomment>
+                    </td>
+                    <td>שר לאיכות הסביבה</td>
+                    <td>שר להגנת הסביבה</td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <wikicomment font-size="x-small">[תיקון: תשס"ז]</wikicomment>
+                    </td>
+                    <td>שר הרווחה</td>
+                    <td>שר הרווחה והשירותים החברתיים <wikicomment font-size="x-small">⇦ שר העבודה הרווחה והשירותים החברתיים</wikicomment></td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <wikicomment font-size="x-small">[תיקון: תשס"ט]</wikicomment>
+                    </td>
+                    <td>מנהל מינהל האוכלוסין</td>
+                    <td>ראש רשות האוכלוסין, ההגירה ומעברי הגבול</td>
+                  </tr>
+                  <tr>
+                    <td rowspan="2">
+                      <wikicomment font-size="x-small">[תיקון: תשס"ט]</wikicomment>
+                    </td>
+                    <td>שר המדע התרבות והספורט –</td>
+                    <td>שר התרבות והספורט, ובחיקוקים המפורטים בטור א׳, שר המדע והטכנולוגיה</td>
+                  </tr>
+                  <tr>
+                    <td colspan="2">
+                      <תת>
+                        <ref href="/akn/il/act/PrimaryLegislation/2006-01-04/30331">חוק גנים בוטניים, התשס"ו–2006</ref>
+                      </תת>
+                      <תת>
+                        <ref href="/akn/il/act/PrimaryLegislation/1961-06-23/146899">חוק האקדמיה הלאומית הישראלית למדעים, התשכ"א–1961</ref>
+                      </תת>
+                      <תת>
+                        <ref href="/akn/il/act/PrimaryLegislation/2002-11-19/174316">חוק המועצה הלאומית למחקר ולפיתוח אזרחי, התשס"ג–2002</ref>
+                      </תת>
+                      <תת>
+                        <ref href="/akn/il/act/PrimaryLegislation/2008-11-12/257610">חוק הסדרת מחקרים במחוללי מחלות ביולוגיים, התשס"ט–2008</ref>
+                      </תת>
+                      <תת>
+                        <ref href="/akn/il/act/PrimaryLegislation/1997-04-13/162291">חוק הרשות הלאומית להסמכת מעבדות, התשנ"ז–1997</ref>
+                      </תת>
+                      <תת>
+                        <ref href="/akn/il/act/PrimaryLegislation/1988-07-27/152067">חוק הרשות לפיתוח ירושלים, התשמ"ח–1988</ref>
+                      </תת>
+                      <תת>
+                        <ref href="/akn/il/act/PrimaryLegislation/2000-12-25/169942">חוק מידע גנטי, התשס"א–2000</ref>
+                      </תת>
+                      <תת>
+                        <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/חוק_צער_בעלי_חיים_ניסויים_בבעלי_חיים">חוק צער בעלי חיים (ניסויים בבעלי חיים), התשנ"ד–1994</ref>
+                      </תת>
+                      <תת>
+                        <ref href="/akn/il/act/PrimaryLegislation/1994-03-25/154878">חוק קרן גרמניה–ישראל למחקר ולפיתוח מדעי, התשנ"ד–1994</ref>
+                      </תת>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <wikicomment font-size="x-small">[תיקון: תשע"א]</wikicomment>
+                    </td>
+                    <td>השר לענייני גמלאים</td>
+                    <td>השר לאזרחים ותיקים <wikicomment font-size="x-small">⇦ השר לשוויון חברתי</wikicomment></td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <wikicomment font-size="x-small">[תיקון: תשע"ג]</wikicomment>
+                    </td>
+                    <td>שר התעשייה המסחר והתעסוקה</td>
+                    <td>שר הכלכלה <wikicomment font-size="x-small">⇦ שר הכלכלה והתעשייה</wikicomment></td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <wikicomment font-size="x-small">[תיקון: תשע"ג]</wikicomment>
+                    </td>
+                    <td>שר המדע והטכנולוגיה</td>
+                    <td>שר המדע הטכנולוגיה והחלל <wikicomment font-size="x-small">⇦ שר המדע והטכנולוגיה</wikicomment></td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <wikicomment font-size="x-small">[תיקון: תשע"ג־2]</wikicomment>
+                    </td>
+                    <td>שר ההסברה והתפוצות</td>
+                    <td>השר לירושלים והתפוצות <wikicomment font-size="x-small">⇦ שר התפוצות</wikicomment></td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <wikicomment font-size="x-small">[תיקון: תשע"ד]</wikicomment>
+                    </td>
+                    <td>שר האנרגיה והמים</td>
+                    <td>שר התשתיות הלאומיות האנרגיה והמים <wikicomment font-size="x-small">⇦ שר האנרגיה</wikicomment></td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <wikicomment font-size="x-small">[תיקון: תשע"ד]</wikicomment>
+                    </td>
+                    <td>שר התחבורה התשתיות הלאומיות והבטיחות בדרכים</td>
+                    <td>שר התחבורה והבטיחות בדרכים</td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <wikicomment font-size="x-small">[תיקון: תשע"ה]</wikicomment>
+                    </td>
+                    <td>שר הבינוי והשיכון</td>
+                    <td>שר הבינוי <wikicomment font-size="x-small">⇦ שר הבינוי והשיכון</wikicomment></td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <wikicomment font-size="x-small">[תיקון: תשע"ה־2]</wikicomment>
+                    </td>
+                    <td>השר לאזרחים ותיקים</td>
+                    <td>השר לשוויון חברתי</td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <wikicomment font-size="x-small">[תיקון: תשע"ו]</wikicomment>
+                    </td>
+                    <td>שר הבינוי</td>
+                    <td>שר הבינוי והשיכון</td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <wikicomment font-size="x-small">[תיקון: תשע"ח]</wikicomment>
+                    </td>
+                    <td>השר לירושלים והתפוצות</td>
+                    <td>שר התפוצות</td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <wikicomment font-size="x-small">[תיקון: תשע"ח]</wikicomment>
+                    </td>
+                    <td>השר לפיתוח הנגב והגליל</td>
+                    <td>השר לפיתוח הפריפריה, הנגב והגליל</td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <wikicomment font-size="x-small">[תיקון: תשע"ח]</wikicomment>
+                    </td>
+                    <td>שר הכלכלה</td>
+                    <td>שר הכלכלה והתעשייה</td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <wikicomment font-size="x-small">[תיקון: תשע"ח]</wikicomment>
+                    </td>
+                    <td>שר המדע הטכנולוגיה והחלל</td>
+                    <td>שר המדע והטכנולוגיה</td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <wikicomment font-size="x-small">[תיקון: תשע"ח]</wikicomment>
+                    </td>
+                    <td>שר הרווחה והשירותים החברתיים</td>
+                    <td>שר העבודה הרווחה והשירותים החברתיים</td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <wikicomment font-size="x-small">[תיקון: תשע"ח]</wikicomment>
+                    </td>
+                    <td>שר התשתיות הלאומיות, האנרגיה והמים</td>
+                    <td>שר האנרגיה</td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <wikicomment font-size="x-small">[תיקון: תש"ף]</wikicomment>
+                    </td>
+                    <td>השרה לנושאים אסטרטגיים והסברה</td>
+                    <td>השרה לנושאים אסטרטגיים</td>
+                  </tr>
+                </table>
+              </p>
+            </content>
+          </point>
+        </list>
+      </appendix>
+    </body>
+    <conclusions eId="eId">
+      <p class="signatures">
+        <signature>
+          <p>
+            <person refersTo="הרולד_מקמיכאל">הרולד מקמיכאל</person>
+            <role refersTo="נציב_עליון">נציב עליון</role>
+          </p>
+        </signature>
+      </p>
+    </conclusions>
+  </act>
+</akomaNtoso>

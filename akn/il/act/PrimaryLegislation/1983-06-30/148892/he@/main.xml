@@ -1,0 +1,714 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion" name="publicLaw">
+    <meta>
+      <identification source="#kensset">
+        <FRBRWork>
+          <FRBRthis value="/akn/il/act/PrimaryLegislation/1983-06-30/148892/main" />
+          <FRBRuri value="/akn/il/act/PrimaryLegislation/1983-06-30/148892" />
+          <FRBRdate date="1983-06-30" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRcountry value="israel" />
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/il/act/PrimaryLegislation/1983-06-30/148892/he@/main" />
+          <FRBRuri value="/akn/il/act/PrimaryLegislation/1983-06-30/148892/he@" />
+          <FRBRdate date="1983-06-30" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRlanguage language="hebrew" />
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/il/act/PrimaryLegislation/1983-06-30/148892/he@/main.xml" />
+          <FRBRuri value="/akn/il/act/PrimaryLegislation/1983-06-30/148892/he@" />
+          <FRBRdate date="1983-06-30" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRformat value="xml" />
+        </FRBRManifestation>
+      </identification>
+      <classification source="#kensset">
+        <keyword value="{classificationValue}" showAs="{classificationValue}" dictionary="#classification_dictionary" />
+      </classification>
+      <lifecycle source="#kensset">
+        <eventRef eId="eventRef_1" date="1983-06-30" source="#kensset" type="generation" />
+      </lifecycle>
+      <references source="#kensset">
+        <TLCOrganization eId="kensset" href="/ontology/organization/akn/knesset" showAs="Kensset" type="generation" />
+        <TLCRole eId="author" href="/ontology/role/akn/author" showAs="Author of Document" />
+        <TLCProcess eId="inforce" href="/ontology/process/akn/inforce" showAs="In force" />
+        <TLCTerm eId="term_1" href="/ontology/term/השר/148892" showAs="השר" />
+        <TLCTerm eId="term_2" href="/ontology/term/המנהל/148892" showAs="המנהל" />
+        <TLCTerm eId="term_3" href="/ontology/term/המועצה/148892" showAs="המועצה" />
+        <TLCTerm eId="term_4" href="/ontology/term/מוזיאון/148892" showAs="מוזיאון" />
+        <TLCTerm eId="term_5" href="/ontology/term/הנהלת_מוזיאון/148892" showAs="הנהלת_מוזיאון" />
+        <TLCPerson eId="מנחם_בגין" href="/ontology/person/מנחם_בגין" showAs="מנחם בגין" />
+        <TLCPerson eId="זבולון_המר" href="/ontology/person/זבולון_המר" showAs="זבולון המר" />
+        <TLCPerson eId="חיים_הרצוג" href="/ontology/person/חיים_הרצוג" showAs="חיים הרצוג" />
+        <TLCRole eId="ראש_הממשלה" href="ontology/role/akn/ראש_הממשלה" showAs="ראש הממשלה" />
+        <TLCRole eId="שר_החינוך_והתרבות" href="ontology/role/akn/שר_החינוך_והתרבות" showAs="שר החינוך והתרבות" />
+        <TLCRole eId="נשיא_המדינה" href="ontology/role/akn/נשיא_המדינה" showAs="נשיא המדינה" />
+      </references>
+      <temporalData source="#kensset">
+        <temporalGroup eId="tmpg_1" />
+      </temporalData>
+      <Publication></Publication>
+      <proprietary wikiversion="7/22/2020 10:17:12 PM" />
+    </meta>
+    <body period="#tmpg_1">
+      <title eId="title">
+        <content>
+          <p>חוק המוזיאונים, התשמ"ג–1983</p>
+        </content>
+      </title>
+      <chapter eId="chp_א">
+        <num>פרק א׳:</num>
+        <title>
+          <content>
+            <p>הגדרות</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_1" class="definitions">
+            <heading>
+              <authorialNote placement="side">
+                <p>הגדרות</p>
+              </authorialNote>
+            </heading>
+            <num>1.</num>
+            <list>
+              <intro>
+                <p>בחוק זה –</p>
+              </intro>
+              <point eId="point_1__point_השר">
+                <content>
+                  <p>
+                    <def />”השר“ – שר החינוך והתרבות;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_המנהל">
+                <content>
+                  <p>
+                    <def />”המנהל“ – המנהל הכללי של משרד החינוך והתרבות או מי שהוא הסמיך לכך;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_המועצה">
+                <content>
+                  <p>
+                    <def />”המועצה“ – מועצת המוזיאונים שהוקמה לפי <ref href="#point_10">סעיף 10</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_מוזיאון">
+                <content>
+                  <p>
+                    <def />”מוזיאון“ – מוסד שלא למטרות רווח שיש בו אוסף מוצגים בעל ערך תרבותי, המציג באופן קבוע את האוסף או חלק ממנו לציבור, ומטרת התצוגה היא חינוך, לימוד או עינוג;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_הנהלת_מוזיאון">
+                <content>
+                  <p>
+                    <def />”הנהלת מוזיאון“ – מי שמוזיאון הוא בשליטתו או בניהולו.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+        </list>
+      </chapter>
+      <chapter eId="chp_ב">
+        <num>פרק ב׳:</num>
+        <title>
+          <content>
+            <p>מוזיאונים מוכרים</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_2">
+            <heading>
+              <authorialNote placement="side">
+                <p>אכרזה על מוזיאון מוכר</p>
+              </authorialNote>
+            </heading>
+            <num>2.</num>
+            <list>
+              <point eId="point_2__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>השר רשאי, לאחר התייעצות במועצה, להכריז על מוזיאון פלוני, כעל מוזיאון מוכר לענין חוק זה.</p>
+                </content>
+              </point>
+              <point eId="point_2__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>בבואו להכריז על מוזיאון כאמור ישקול השר, בין השאר, טעמים שבטובת הציבור ובצרכי שמירתם של מוצגים הנמצאים במוזיאון.</p>
+                </content>
+              </point>
+              <point eId="point_2__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>אכרזה כאמור יכול שתהיה אף לגבי מוזיאון המתנהל על פי חיקוק.</p>
+                </content>
+              </point>
+              <point eId="point_2__point_ד">
+                <num>(ד)</num>
+                <content>
+                  <p>אכרזה לפי סעיף זה תפורסם ברשומות.<br space="preserve"></br><wikicomment font-size="x-small">רשימת המוזיאונים המוכרים עפ"י חוק מפורסמת <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/http_mcs_gov_il_Culture_activities_Museums_20of_20Fine_20Arts_Pages_List_of_Museums_aspx">באתר משרד התרבות והספורט</ref>.</wikicomment></p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_3">
+            <heading>
+              <authorialNote placement="side">
+                <p>חובות והגבלות למוזיאונים מוכרים</p>
+              </authorialNote>
+            </heading>
+            <num>3.</num>
+            <list>
+              <intro>
+                <p>השר רשאי, לאחר התייעצות במועצה ובאישור ועדת החינוך והתרבות של הכנסת, להתקין תקנות בעניינים אלה, לכלל המוזיאונים המוכרים או לסוגים מהם:</p>
+              </intro>
+              <point eId="point_3__point_1">
+                <num>(1)</num>
+                <list>
+                  <intro>
+                    <p>חובתה של הנהלת המוזיאון –</p>
+                  </intro>
+                  <point eId="point_3__point_1__point_א">
+                    <num>(א)</num>
+                    <content>
+                      <p>להעסיק עובדים מקצועיים לפי תקן שייקבע;</p>
+                    </content>
+                  </point>
+                  <point eId="point_3__point_1__point_ב">
+                    <num>(ב)</num>
+                    <content>
+                      <p>לשמר את המוצגים ולדאוג להחזקתם ולהצגתם לציבור בצורה נאותה;</p>
+                    </content>
+                  </point>
+                  <point eId="point_3__point_1__point_ג">
+                    <num>(ג)</num>
+                    <content>
+                      <p>לנהל רישום ותיאור של כל המוצגים הנמצאים במוזיאון ולצלמם;</p>
+                    </content>
+                  </point>
+                  <point eId="point_3__point_1__point_ד">
+                    <num>(ד)</num>
+                    <content>
+                      <p>למסור לציבור מידע על מוצגים הנמצאים במוזיאון;</p>
+                    </content>
+                  </point>
+                  <point eId="point_3__point_1__point_ה">
+                    <num>(ה)</num>
+                    <content>
+                      <p>לפרסם קטלוגים ופרסומים אחרים;</p>
+                    </content>
+                  </point>
+                  <point eId="point_3__point_1__point_ו">
+                    <num>(ו)</num>
+                    <content>
+                      <p>לקיים פעילות חינוכית ותרבותית במוזיאון וכן התנאים לפעילות זו;</p>
+                    </content>
+                  </point>
+                  <point eId="point_3__point_1__point_ז">
+                    <num>(ז)</num>
+                    <content>
+                      <p>לקיים הוראות בענין בטחון ובטיחות;</p>
+                    </content>
+                  </point>
+                  <point eId="point_3__point_1__point_ח">
+                    <num>(ח)</num>
+                    <content>
+                      <p>להגיש דין וחשבון שנתי על פעילות המוזיאון;</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_3__point_2">
+                <num>(2)</num>
+                <list>
+                  <intro>
+                    <p>הגבלות על הנהלת המוזיאון בדבר –</p>
+                  </intro>
+                  <point eId="point_3__point_2__point_א">
+                    <num>(א)</num>
+                    <content>
+                      <p>מכירת מוצגים, הוצאתם מן הארץ, חילופי מוצגים, העברתם שלא בתמורה, השמדתם או סילוקם;</p>
+                    </content>
+                  </point>
+                  <point eId="point_3__point_2__point_ב">
+                    <num>(ב)</num>
+                    <content>
+                      <p>פעילות מסחרית ופרסומת בין כתלי המוזיאון, במישרין או בעקיפין;</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_3__point_3">
+                <num>(3)</num>
+                <content>
+                  <p>הכשרתם המקצועית של העובדים וכללי אתיקה;</p>
+                </content>
+              </point>
+              <point eId="point_3__point_4">
+                <num>(4)</num>
+                <content>
+                  <p>תשלום דמי כניסה, הנחות ופטורים.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_4">
+            <heading>
+              <authorialNote placement="side">
+                <p>חופש פעולה</p>
+              </authorialNote>
+            </heading>
+            <num>4.</num>
+            <content>
+              <p>הנהלת מוזיאון מוכר היא בת חורין לכלכל כטוב בעיניה את ענייני המוזיאון במסגרת תקנונו ותקציבו, ובכפוף להוראות חוק זה והתקנות לפיו.</p>
+            </content>
+          </point>
+          <point eId="point_5">
+            <heading>
+              <authorialNote placement="side">
+                <p>השתתפות בתקציב</p>
+              </authorialNote>
+            </heading>
+            <num>5.</num>
+            <list>
+              <point eId="point_5__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>חלוקת הסכום שנקבע בתקציב המדינה כהשתתפות בתקציבי מוזיאונים מוכרים תיעשה בידי השר לאחר התייעצות במועצה.</p>
+                </content>
+              </point>
+              <point eId="point_5__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>נראה למנהל כי הנהלת מוזיאון מוכר לא מילאה אחרי הוראה מהוראות חוק זה או התקנות לפיו, רשאי המנהל לדרוש ממנה שתמלא אחרי ההוראות תוך תקופה שלא תפחת משלושים ימים; לא נענתה הנהלת המוזיאון המוכר לדרישה, יהא המנהל רשאי, לאחר התייעצות במועצה, להורות כי סכום שלא יעלה על מחצית הסכום שהוקצה כהשתתפות המדינה בתקציבו באותה שנת כספים לא יועבר אליו.</p>
+                </content>
+              </point>
+              <point eId="point_5__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>האמור בסעיף קטן (ב) אינו גורע מאחריות פלילית לפי <ref href="#point_15">סעיף 15</ref> או לפי כל דין אחר.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_6">
+            <heading>
+              <authorialNote placement="side">
+                <p>עיקול, שעבוד ופירוק</p>
+              </authorialNote>
+            </heading>
+            <num>6.</num>
+            <list>
+              <point eId="point_6__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>מוצג שבבעלותו של מוזיאון מוכר לא יהיה ניתן לעיקול או לשעבוד.</p>
+                </content>
+              </point>
+              <point eId="point_6__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>מוזיאון מוכר שהוא תאגיד שהחליט על פירוקו מרצון או שניתן צו לפירוקו, מוצג שבבעלותו לא ייכלל בין הנכסים הניתנים לחלוקה בין נושי התאגיד, לא יימכר ולא יועבר בדרך אחרת, אלא יועבר לבעלות המדינה או לבעלות מוזיאון מוכר אחר כפי שיורה בית המשפט המחוזי שבתחום סמכותו נמצא המוזיאון המוכר ולתקופה שיקבע.</p>
+                </content>
+              </point>
+              <point eId="point_6__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>הוראות סעיף זה יחולו על אף האמור בכל חיקוק או הסכם.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_7">
+            <heading>
+              <authorialNote placement="side">
+                <p>העברת מוצגים למשמרת</p>
+              </authorialNote>
+            </heading>
+            <num>7.</num>
+            <list>
+              <point eId="point_7__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>נראה למנהל כי הנהלת מוזיאון מוכר לא מילאה אחרי הוראה מהוראות התקנות לפי <ref href="#point_3">סעיף 3(1)(ב)</ref>, ולדעת המנהל נשקפת למוצג הנמצא במוזיאון המוכר סכנת פגיעה, נזק, השמדה או אבדן, או נראה למנהל כי הנהלת מוזיאון מוכר עומדת לפעול בניגוד לתקנות לפי <ref href="#point_3">סעיף 3(2)(א)</ref>, רשאי הוא לפנות אל בית המשפט המחוזי שבתחום שיפוטו נמצא המוזיאון המוכר בבקשה להורות על העברת המוצג למשמורתה של המדינה או למשמורתו של מוזיאון מוכר שיקבע בית המשפט, והכל לתקופה ובהתאם להוראות שיקבע בית המשפט.</p>
+                </content>
+              </point>
+              <point eId="point_7__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>בית המשפט רשאי לתת צו ביניים וכל צו אחר שנראה לו דרוש לשם שמירת המוצג עד תום ההליכים בפניו.</p>
+                </content>
+              </point>
+              <point eId="point_7__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>שר המשפטים רשאי לקבוע בתקנות סדרי דין לבקשה לפי סעיף זה.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+        </list>
+      </chapter>
+      <chapter eId="chp_ג">
+        <num>פרק ג׳:</num>
+        <title>
+          <content>
+            <p>מוזיאונים פרטיים</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_8">
+            <heading>
+              <authorialNote placement="side">
+                <p>מוזיאון פרטי</p>
+              </authorialNote>
+            </heading>
+            <num>8.</num>
+            <list>
+              <point eId="point_8__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>לא ישתמש אדם בכינוי ”מוזיאון“ לגבי מוסד שאינו מוזיאון מוכר, והנמצא בשליטתו או בניהולו, אלא בציון שהוא מוזיאון פרטי.</p>
+                </content>
+              </point>
+              <point eId="point_8__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>תאגיד שמטרה ממטרותיו היא ניהול של מוזיאון שאינו מוזיאון מוכר, לא יירשם בשם הכולל את הכינוי ”מוזיאון“ אלא בתוספת המלה ”פרטי“.</p>
+                </content>
+              </point>
+              <point eId="point_8__point_ג">
+                <num>(ג)</num>
+                <list>
+                  <intro>
+                    <p>לענין סעיף זה אחת היא –</p>
+                  </intro>
+                  <point eId="point_8__point_ג__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>אם השימוש בכינוי מוזיאון הוא בלשון העברית או בשפה אחרת;</p>
+                    </content>
+                  </point>
+                  <point eId="point_8__point_ג__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>אם השימוש הוא בנפרד או בסמיכות או בצירוף לכינוי אחר.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_8__point_ד">
+                <num>(ד)</num>
+                <content>
+                  <p>הוראות סעיף זה לא יחולו לגבי מוזיאון שנוסד בחוק.<br space="preserve"></br><wikicomment font-size="x-small">מוזיאון העם היהודי בבית התפוצות הוקם לפי <ref href="/akn/il/act/PrimaryLegislation/2005-12-15/29332">חוק בית התפוצות, התשס"ו–2005</ref>.</wikicomment><br space="preserve"></br><wikicomment font-size="x-small">מוזיאון המרכז למורשת הדרוזים הוקם לפי <ref href="/akn/il/act/PrimaryLegislation/2007-06-07/145256">חוק המרכז למורשת הדרוזים בישראל, התשס"ז–2007</ref>.</wikicomment><br space="preserve"></br><wikicomment font-size="x-small">מוזיאון בית העצמאות הוקם לפי <ref href="/akn/il/act/PrimaryLegislation/2009-08-05/132203">חוק בית העצמאות, התשס"ט–2009</ref>.</wikicomment><br space="preserve"></br><wikicomment font-size="x-small">מוזיאון הכנסת הוקם לפי <ref href="/akn/il/act/PrimaryLegislation/2010-07-14/323599">חוק מוזאון הכנסת, התש"ע–2010</ref>.</wikicomment></p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_9">
+            <heading>
+              <authorialNote placement="side">
+                <p>פרסום מטעה</p>
+              </authorialNote>
+            </heading>
+            <num>9.</num>
+            <content>
+              <p>נעשה פרסום הכולל את הכינוי ”מוזיאון“ לגבי מוסד שאינו מוזיאון מוכר, ולא הוספה בו המלה ”פרטי“, רואים את האדם שהמוסד נמצא בשליטתו או בניהולו, כמשתמש בכינוי האמור, זולת אם הוכיח שלא הוא גרם לפרסום ושנקט צעדים נאותים למניעת הפרסום בידי הכפופים למרותו או הקשורים אתו בדרך אחרת בעניני יחסי ציבור; לענין זה, ”פרסום“ – פעולה שבוצעה כמתואר בהגדרת ”פרסם“ <ref href="/akn/il/act/PrimaryLegislation/1977-08-04/2002251#point_2">בסעיף 2 לחוק העונשין, התשל"ז–1977</ref>.</p>
+            </content>
+          </point>
+        </list>
+      </chapter>
+      <chapter eId="chp_ד">
+        <num>פרק ד׳:</num>
+        <title>
+          <content>
+            <p>מועצת המוזיאונים</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_10">
+            <heading>
+              <authorialNote placement="side">
+                <p>מינוי המועצה והרכבה</p>
+              </authorialNote>
+            </heading>
+            <num>10.</num>
+            <list>
+              <point eId="point_10__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>השר ימנה מועצת מוזיאונים בת עשרים ואחד חברים, מהם ששה עובדי המדינה, חמישה אנשי מקצוע בתחום המוזיאונים, חמישה אנשי ציבור, שלושה נציגים של עיריות שיקבע אותן השר, נציג אחד של מועצה מקומית שיקבע אותה השר ונציג אחד של מועצה אזורית שיקבע אותה השר.</p>
+                </content>
+              </point>
+              <point eId="point_10__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>השר ימנה את יושב ראש המועצה מבין חבריה.</p>
+                </content>
+              </point>
+              <point eId="point_10__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>הודעה על מינוי המועצה, על מינוי יושב ראש המועצה ועל כל שינוי בהרכב המועצה, תפורסם ברשומות.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_11">
+            <heading>
+              <authorialNote placement="side">
+                <p>תקופת כהונה</p>
+              </authorialNote>
+            </heading>
+            <num>11.</num>
+            <list>
+              <point eId="point_11__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>תקופת כהונתה של המועצה תהיה שלוש שנים מיום מינויה.</p>
+                </content>
+              </point>
+              <point eId="point_11__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>מועצה חדשה תכלול לפחות שליש מחברי המועצה היוצאת, ובהם לפחות שני עובדי המדינה, איש מקצוע אחד, איש ציבור אחד ונציג אחד של רשות מקומית.</p>
+                </content>
+              </point>
+              <point eId="point_11__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>השר רשאי לבטל מינויו של חבר המועצה אם נעדר מחמש ישיבות רצופות של המועצה ללא סיבה מספקת, או על פי המלצת שני שלישים של חברי המועצה.</p>
+                </content>
+              </point>
+              <point eId="point_11__point_ד">
+                <num>(ד)</num>
+                <content>
+                  <p>ניתן למנות חבר המועצה לתקופת כהונה נוספת, אולם אנשי המקצוע, נציגי הציבור ונציגי הרשויות המקומיות מבין חברי המועצה לא יכהנו יותר משתי תקופות כהונה רצופות.</p>
+                </content>
+              </point>
+              <point eId="point_11__point_ה">
+                <num>(ה)</num>
+                <content>
+                  <p>נפטר חבר המועצה, התפטר או בוטל מינויו, ימנה השר חבר אחר תחתיו והוא יכהן עד תום תקופת הכהונה של החבר שבמקומו נתמנה.</p>
+                </content>
+              </point>
+              <point eId="point_11__point_ו">
+                <num>(ו)</num>
+                <content>
+                  <p>קיום המועצה, סמכויותיה ותוקף החלטותיה לא ייפגעו מחמת שנתפנה מקומו של חבר המועצה, או מחמת ליקוי במינויו או בהמשך כהונתו.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_12">
+            <heading>
+              <authorialNote placement="side">
+                <p>ועדות וסדרי עבודה</p>
+              </authorialNote>
+            </heading>
+            <num>12.</num>
+            <list>
+              <point eId="point_12__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>המועצה רשאית למנות ועדות, מבין חבריה או שלא מביניהם, ולהעביר להן מתפקידיה, ולפקח על עבודתן.</p>
+                </content>
+              </point>
+              <point eId="point_12__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>המועצה תקבע את סדרי הדיון בישיבותיה ובישיבות הועדות שמינתה, במידה שלא נקבעו בתקנות לפי חוק זה.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_13">
+            <heading>
+              <authorialNote placement="side">
+                <p>תפקידי המועצה</p>
+              </authorialNote>
+            </heading>
+            <num>13.</num>
+            <list>
+              <intro>
+                <p>ואלה תפקידי המועצה:</p>
+              </intro>
+              <point eId="point_13__point_1">
+                <num>(1)</num>
+                <list>
+                  <intro>
+                    <p>לייעץ לשר –</p>
+                  </intro>
+                  <point eId="point_13__point_1__point_א">
+                    <num>(א)</num>
+                    <content>
+                      <p>בדבר התקנת תקנות לפי חוק זה;</p>
+                    </content>
+                  </point>
+                  <point eId="point_13__point_1__point_ב">
+                    <num>(ב)</num>
+                    <content>
+                      <p>בדבר השתתפות בתקציבי מוזיאונים מוכרים לפי <ref href="#point_5">סעיף 5(א)</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_13__point_1__point_ג">
+                    <num>(ג)</num>
+                    <content>
+                      <p>בכל ענין אחר הנוגע לביצוע חוק זה;</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_13__point_2">
+                <num>(2)</num>
+                <content>
+                  <p>לייעץ למנהל בענין אי תשלום סכום השתתפות בתקציבו של מוזיאון מוכר לפי <ref href="#point_5">סעיף 5(ב)</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_13__point_3">
+                <num>(3)</num>
+                <content>
+                  <p>להמליץ בפני הנהלת מוזיאון מוכר כל המלצה הנראית לה בענין פעילותו של אותו מוזיאון.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+        </list>
+      </chapter>
+      <chapter eId="chp_ה">
+        <num>פרק ה׳:</num>
+        <title>
+          <content>
+            <p>הוראות כלליות</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_14">
+            <heading>
+              <authorialNote placement="side">
+                <p>פיקוח</p>
+              </authorialNote>
+            </heading>
+            <num>14.</num>
+            <content>
+              <p>המנהל או מי שהוא מינה יפקח על המוזיאונים והוא רשאי להיכנס בכל עת סבירה לכל מוזיאון כדי לבדוק אם קויימו הוראות חוק זה והתקנות לפיו.</p>
+            </content>
+          </point>
+          <point eId="point_15">
+            <heading>
+              <authorialNote placement="side">
+                <p>עונשין</p>
+              </authorialNote>
+            </heading>
+            <num>15.</num>
+            <content>
+              <p>העובר על הוראה מהוראות חוק זה או התקנות שלפיו, דינו – כפל הקנס שנקבע <ref href="/akn/il/act/PrimaryLegislation/1977-08-04/2002251#point_61">בסעיף 61(א)(2) לחוק העונשין, התשל"ז–1977</ref>.</p>
+            </content>
+          </point>
+          <point eId="point_16">
+            <heading>
+              <authorialNote placement="side">
+                <p>אחריות לעבירה</p>
+              </authorialNote>
+            </heading>
+            <num>16.</num>
+            <content>
+              <p>נעברה עבירה לפי חוק זה או התקנות שלפיו בידי חבר־בני־אדם, יאשם בעבירה גם כל אדם אשר בשעת ביצוע העבירה היה מנהל פעיל או עובד בכיר האחראי לאותו תחום, אם לא הוכיח שהעבירה נעברה שלא בידיעתו ושהוא נקט בכל האמצעים הסבירים להבטחת שמירתו של חוק זה והתקנות שלפיו.</p>
+            </content>
+          </point>
+          <point eId="point_17">
+            <heading>
+              <authorialNote placement="side">
+                <p>שמירת הוראות</p>
+              </authorialNote>
+            </heading>
+            <num>17.</num>
+            <content>
+              <p>הוראות חוק זה והתקנות שלפיו אינן גורעות מחובה המוטלת על פי כל חיקוק אחר.</p>
+            </content>
+          </point>
+          <point eId="point_18">
+            <heading>
+              <authorialNote placement="side">
+                <p>דין המדינה</p>
+              </authorialNote>
+            </heading>
+            <num>18.</num>
+            <content>
+              <p>הוראות חוק זה יחולו גם על המדינה.</p>
+            </content>
+          </point>
+          <point eId="point_19">
+            <heading>
+              <authorialNote placement="side">
+                <p>ביצוע ותקנות</p>
+              </authorialNote>
+            </heading>
+            <num>19.</num>
+            <content>
+              <p>השר ממונה על ביצוע חוק זה והוא רשאי, לאחר התייעצות במועצה ובאישור ועדת החינוך והתרבות של הכנסת, להתקין תקנות בכל הנוגע לביצועו, לרבות בדבר דרכי פיקוח על מוזיאונים.</p>
+            </content>
+          </point>
+          <point eId="point_20">
+            <heading>
+              <authorialNote placement="side">
+                <p>תחילה</p>
+              </authorialNote>
+            </heading>
+            <num>20.</num>
+            <list>
+              <point eId="point_20__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>תחילתו של חוק זה, למעט <ref href="#chp_ד">פרק ד׳</ref>, ביום כ"ח באדר ב׳ התשמ"ד (1 באפריל 1984).</p>
+                </content>
+              </point>
+              <point eId="point_20__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>תחילתו של <ref href="#chp_ד">פרק ד׳</ref> ביום כ"ג באלול התשמ"ג (1 בספטמבר 1983).</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_21">
+            <heading>
+              <authorialNote placement="side">
+                <p>הוראות מעבר</p>
+              </authorialNote>
+            </heading>
+            <num>21.</num>
+            <content>
+              <p>מוסד שאינו מוזיאון מוכר ושערב תחילתו של חוק זה נכלל בשמו המונח ”מוזיאון“, מותר להמשיך ולהשתמש לגביו בשם האמור שלא בציון שהוא מוזיאון פרטי, עד תום ששה חדשים מן היום האמור <ref href="#point_20">בסעיף 20(א)</ref>.</p>
+            </content>
+          </point>
+        </list>
+      </chapter>
+    </body>
+    <conclusions eId="eId">
+      <p class="signatures">
+        <signature>
+          <p>
+            <person refersTo="מנחם_בגין">מנחם בגין</person>
+            <role refersTo="ראש_הממשלה">ראש הממשלה</role>
+          </p>
+        </signature>
+        <signature>
+          <p>
+            <person refersTo="זבולון_המר">זבולון המר</person>
+            <role refersTo="שר_החינוך_והתרבות">שר החינוך והתרבות</role>
+          </p>
+        </signature>
+        <signature>
+          <p>
+            <person refersTo="חיים_הרצוג">חיים הרצוג</person>
+            <role refersTo="נשיא_המדינה">נשיא המדינה</role>
+          </p>
+        </signature>
+      </p>
+    </conclusions>
+  </act>
+</akomaNtoso>

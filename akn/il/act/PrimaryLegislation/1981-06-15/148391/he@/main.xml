@@ -1,0 +1,769 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion" name="publicLaw">
+    <meta>
+      <identification source="#kensset">
+        <FRBRWork>
+          <FRBRthis value="/akn/il/act/PrimaryLegislation/1981-06-15/148391/main" />
+          <FRBRuri value="/akn/il/act/PrimaryLegislation/1981-06-15/148391" />
+          <FRBRdate date="1981-06-15" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRcountry value="israel" />
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/il/act/PrimaryLegislation/1981-06-15/148391/he@/main" />
+          <FRBRuri value="/akn/il/act/PrimaryLegislation/1981-06-15/148391/he@" />
+          <FRBRdate date="1981-06-15" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRlanguage language="hebrew" />
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/il/act/PrimaryLegislation/1981-06-15/148391/he@/main.xml" />
+          <FRBRuri value="/akn/il/act/PrimaryLegislation/1981-06-15/148391/he@" />
+          <FRBRdate date="1981-06-15" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRformat value="xml" />
+        </FRBRManifestation>
+      </identification>
+      <classification source="#kensset">
+        <keyword value="{classificationValue}" showAs="{classificationValue}" dictionary="#classification_dictionary" />
+      </classification>
+      <lifecycle source="#kensset">
+        <eventRef eId="eventRef_1" date="1981-06-15" source="#kensset" type="generation" />
+      </lifecycle>
+      <references source="#kensset">
+        <TLCOrganization eId="kensset" href="/ontology/organization/akn/knesset" showAs="Kensset" type="generation" />
+        <TLCRole eId="author" href="/ontology/role/akn/author" showAs="Author of Document" />
+        <TLCProcess eId="inforce" href="/ontology/process/akn/inforce" showAs="In force" />
+        <TLCTerm eId="term_1" href="/ontology/term/בכתב/148391" showAs="בכתב" />
+        <TLCTerm eId="term_2" href="/ontology/term/דין/148391" showAs="דין" />
+        <TLCTerm eId="term_3" href="/ontology/term/הוראת_מינהל/148391" showAs="הוראת_מינהל" />
+        <TLCTerm eId="term_4" href="/ontology/term/הפרה/148391" showAs="הפרה" />
+        <TLCTerm eId="term_5" href="/ontology/term/חוק/148391" showAs="חוק" />
+        <TLCTerm eId="term_6" href="/ontology/term/חטא/148391" showAs="חטא" />
+        <TLCTerm eId="term_7" href="/ontology/term/חיקוק/148391" showAs="חיקוק" />
+        <TLCTerm eId="term_8" href="/ontology/term/חלוט/148391" showAs="חלוט" />
+        <TLCTerm eId="term_9" href="/ontology/term/יום/148391" showAs="יום" />
+        <TLCTerm eId="term_10" href="/ontology/term/מחוז/148391" showAs="מחוז" />
+        <TLCTerm eId="term_11" href="/ontology/term/מיטלטלין/148391" showAs="מיטלטלין" />
+        <TLCTerm eId="term_12" href="/ontology/term/מימי_חופין/148391" showAs="מימי_חופין" />
+        <TLCTerm eId="term_13" href="/ontology/term/מקרקעין/148391" showAs="מקרקעין" />
+        <TLCTerm eId="term_14" href="/ontology/term/נציג_היועץ_המשפטי_לממשלה/148391" showAs="נציג_היועץ_המשפטי_לממשלה" />
+        <TLCTerm eId="term_15" href="/ontology/term/נקבע/148391" showAs="נקבע" />
+        <TLCTerm eId="term_16" href="/ontology/term/עוון/148391" showAs="עוון" />
+        <TLCTerm eId="term_17" href="/ontology/term/פשע/148391" showAs="פשע" />
+        <TLCTerm eId="term_18" href="/ontology/term/פקודה/148391" showAs="פקודה" />
+        <TLCTerm eId="term_19" href="/ontology/term/קונסול/148391" showAs="קונסול" />
+        <TLCTerm eId="term_20" href="/ontology/term/רשות_מקומית/148391" showAs="רשות_מקומית" />
+        <TLCTerm eId="term_21" href="/ontology/term/שנה/148391" showAs="שנה" />
+        <TLCTerm eId="term_22" href="/ontology/term/שנת_כספים/148391" showAs="שנת_כספים" />
+        <TLCTerm eId="term_23" href="/ontology/term/תאגיד/148391" showAs="תאגיד" />
+        <TLCTerm eId="term_24" href="/ontology/term/תפישה/148391" showAs="תפישה" />
+        <TLCTerm eId="term_25" href="/ontology/term/תצהיר/148391" showAs="תצהיר" />
+        <TLCTerm eId="term_26" href="/ontology/term/תקנה/148391" showAs="תקנה" />
+        <TLCPerson eId="מנחם_בגין" href="/ontology/person/מנחם_בגין" showAs="מנחם בגין" />
+        <TLCPerson eId="יצחק_נבון" href="/ontology/person/יצחק_נבון" showAs="יצחק נבון" />
+        <TLCRole eId="ראש_הממשלה" href="ontology/role/akn/ראש_הממשלה" showAs="ראש הממשלה" />
+        <TLCRole eId="נשיא_המדינה" href="ontology/role/akn/נשיא_המדינה" showAs="נשיא המדינה" />
+      </references>
+      <temporalData source="#kensset">
+        <temporalGroup eId="tmpg_1" />
+      </temporalData>
+      <Publication></Publication>
+      <proprietary wikiversion="8/3/2020 3:30:40 PM" />
+    </meta>
+    <body period="#tmpg_1">
+      <title eId="title">
+        <content>
+          <p>חוק הפרשנות, התשמ"א–1981</p>
+        </content>
+      </title>
+      <chapter eId="chp_א">
+        <num>פרק א׳:</num>
+        <title>
+          <content>
+            <p>תחולה</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_1">
+            <heading>
+              <authorialNote placement="side">
+                <p>תחולת החוק וסייגיה</p>
+              </authorialNote>
+            </heading>
+            <num>1.</num>
+            <content>
+              <p>חוק זה יחול לגבי כל חיקוק והוראת מינהל, אף אם ניתנו לפני תחילתו, אם אין הוראה אחרת לענין הנדון ואם אין בענין הנדון או בהקשרו דבר שאינו מתיישב עם חוק זה; אולם על מלים וביטויים למעט ”חטא“, ”עוון“ ו”פשע“ שבחיקוקים והוראות מינהל שניתנו לפני תחילת חוק זה לא יחול <ref href="#point_3">סעיף 3</ref> אלא יוסיפו לחול ההגדרות <ref href="/akn/il/act/PrimaryLegislation/1954-01-01/2001847#point_1">שבסעיף 1 לפקודת הפרשנות</ref>.</p>
+            </content>
+          </point>
+          <point eId="point_2">
+            <heading>
+              <authorialNote placement="side">
+                <p>תחולת הגדרות שבחיקוק</p>
+              </authorialNote>
+            </heading>
+            <num>2.</num>
+            <content>
+              <p>מונח שהוגדר בחיקוק – משמעו כהגדרתו, והגדרה זו תחול גם על תקנות שהותקנו לפי אותו חיקוק, וכל צורה דקדוקית הנגזרת מהמונח תתפרש לפי אותה משמעות, הכל אם אין הוראה אחרת לענין הנדון ואם אין בענין הנדון או בהקשרו דבר שאינו מתיישב עם אותה הגדרה.</p>
+            </content>
+          </point>
+        </list>
+      </chapter>
+      <chapter eId="chp_ב">
+        <num>פרק ב׳:</num>
+        <title>
+          <content>
+            <p>פירוש מלים וביטויים</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_3" class="definitions">
+            <heading>
+              <authorialNote placement="side">
+                <p>משמעותם של מלים וביטויים</p>
+              </authorialNote>
+            </heading>
+            <num>3.</num>
+            <list>
+              <intro>
+                <p>המלים והביטויים הבאים להלן – משמעותם כמפורש בצידם:</p>
+              </intro>
+              <point eId="point_3__point_בכתב">
+                <content>
+                  <p>
+                    <def />”בכתב“ – לרבות בכל דרך אחרת של הצגת אותיות, ספרות או סימנים בצורה הנראית לעין או הניתנת לפענוח חזותי;</p>
+                </content>
+              </point>
+              <point eId="point_3__point_דין">
+                <list>
+                  <intro>
+                    <p>
+                      <def />”דין“ – כל אחד מאלה:</p>
+                  </intro>
+                  <point eId="point_3__point_דין__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>חיקוק;</p>
+                    </content>
+                  </point>
+                  <point eId="point_3__point_דין__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>דינים דתיים – בין שבעל פה ובין שבכתב – כפי תקפם במדינה;</p>
+                    </content>
+                  </point>
+                  <point eId="point_3__point_דין__point_3">
+                    <num>(3)</num>
+                    <list>
+                      <point eId="point_3__point_דין__point_3__point_א">
+                        <num>(א)</num>
+                        <content>
+                          <p>אקט של הפרלמנט הבריטי או דבר המלך במועצתו או חלק מהם, או תקנות לפיהם, ודיני המשפט המקובל ועקרוני היושר של אנגליה, כפי תקפם במדינה;</p>
+                        </content>
+                      </point>
+                      <point eId="point_3__point_דין__point_3__point_ב">
+                        <num>(ב)</num>
+                        <content>
+                          <p>דינים עותומניים כפי תקפם במדינה;</p>
+                        </content>
+                      </point>
+                    </list>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_3__point_הוראת_מינהל">
+                <content>
+                  <p>
+                    <def />”הוראת מינהל“ – הוראה או מינוי – לרבות הודעה, מודעה, רשיון, היתר וכיוצא באלה – שניתנו בכתב מכוח חוק ואינם בני־פעל תחיקתי;</p>
+                </content>
+              </point>
+              <point eId="point_3__point_הפרה">
+                <content>
+                  <p>
+                    <def />”הפרה“, לענין דרישה או הוראה – אף אי־קיומה במשמע;</p>
+                </content>
+              </point>
+              <point eId="point_3__point_חוק">
+                <content>
+                  <p>
+                    <def />”חוק“ – חוק של הכנסת או פקודה;</p>
+                </content>
+              </point>
+              <point eId="point_3__point_חטא">
+                <content>
+                  <p>
+                    <def />”חטא“ – כהגדרתו <ref href="/akn/il/act/PrimaryLegislation/1977-08-04/2002251">בחוק העונשין, התשל"ז–1977</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_3__point_חיקוק">
+                <content>
+                  <p>
+                    <def />”חיקוק“ – חוק או תקנה;</p>
+                </content>
+              </point>
+              <point eId="point_3__point_חלוט">
+                <content>
+                  <p>
+                    <def />”חלוט“, לענין פסק דין או החלטה של בית משפט – שאין עליהם עוד ערעור או ערר או השגה כיוצא בהם;</p>
+                </content>
+              </point>
+              <point eId="point_3__point_יום">
+                <content>
+                  <p>
+                    <def />”יום“ – תקופה מחצות הלילה עד חצות הלילה שלאחריו;</p>
+                </content>
+              </point>
+              <point eId="point_3__point_מחוז">
+                <content>
+                  <p>
+                    <def />”מחוז“ – אחד המחוזות המינהליים ששטח המדינה מחולק להם בידי הממשלה על פי חוק;<br space="preserve"></br><wikicomment font-size="x-small">הממשלה פרסמה <ref href="/akn/il/act/SecondaryLegislation/1953-03-05/99991276">הודעה על חלוקת שטח המדינה למחוזות ולנפות ותיאורי גבולותיהם</ref> (י"פ תשי"ז, 761);</wikicomment></p>
+                </content>
+              </point>
+              <point eId="point_3__point_מיטלטלין">
+                <content>
+                  <p>
+                    <def />”מיטלטלין“ או ”טובין“ – נכסים מוחשיים שאינם מקרקעין;</p>
+                </content>
+              </point>
+              <point eId="point_3__point_מימי_חופין">
+                <content>
+                  <p>
+                    <def />”מימי חופין“ – רצועת ים פתוח לאורך חופי המדינה, ברוחב שנים עשר מילים מנקודת שפל המים שבחוף;<br space="preserve"></br><wikicomment font-size="x-small">(לפי <ref href="/akn/il/act/PrimaryLegislation/1956-11-02/149916#point_1">סעיף 1(ב) לחוק מימי חופין, תשי"ז–1956</ref> ההגדרה ”מימי חופין“ חלה גם על חיקוקים שניתנו לפני תחילתו של חוק זה).</wikicomment></p>
+                </content>
+              </point>
+              <point eId="point_3__point_מקרקעין">
+                <content>
+                  <p>
+                    <def />”מקרקעין“ – קרקע, כל הבנוי עליה והנטוע בה וכל דבר אחר המחובר אליה חיבור של קבע, זולת מחוברים הניתנים להפרדה;</p>
+                </content>
+              </point>
+              <point eId="point_3__point_נציג_היועץ_המשפטי_לממשלה">
+                <content>
+                  <p>
+                    <def />”נציג היועץ המשפטי לממשלה“ או ”בא כוח היועץ המשפטי לממשלה“ – פרקליט בפרקליטות המדינה על שלוחותיה או מי שהיועץ המשפטי לממשלה הסמיכו להיות נציגו או בא כוחו;</p>
+                </content>
+              </point>
+              <point eId="point_3__point_נקבע">
+                <content>
+                  <p>
+                    <def />”נקבע“ – נקבע בחיקוק שבו מצוי ביטוי זה או בתקנות שניתנו לפיו;</p>
+                </content>
+              </point>
+              <point eId="point_3__point_עוון">
+                <content>
+                  <p>
+                    <def />”עוון“ – כהגדרתו <ref href="/akn/il/act/PrimaryLegislation/1977-08-04/2002251">בחוק העונשין, התשל"ז–1977</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_3__point_פשע">
+                <content>
+                  <p>
+                    <def />”פשע“ – כהגדרתו <ref href="/akn/il/act/PrimaryLegislation/1977-08-04/2002251">בחוק העונשין, התשל"ז–1977</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_3__point_פקודה">
+                <content>
+                  <p>
+                    <def />”פקודה“ – פקודה שניתנה לפני הקמת המדינה או פקודה של מועצת המדינה הזמנית;</p>
+                </content>
+              </point>
+              <point eId="point_3__point_קונסול">
+                <content>
+                  <p>
+                    <def />”קונסול“ או ”נציג קונסולרי“ – קונסול כללי, קונסול, סגן קונסול וכל המוסמך למלא תפקידו של אחד מאלה, וכן סוכן קונסולרי;</p>
+                </content>
+              </point>
+              <point eId="point_3__point_רשות_מקומית">
+                <content>
+                  <p>
+                    <def />”רשות מקומית“ – עיריה, מועצה מקומית, ועד מקומי או איגוד ערים;</p>
+                </content>
+              </point>
+              <point eId="point_3__point_שנה">
+                <content>
+                  <p>
+                    <def />”שנה“ ו”חודש“ – לפי הלוח הגריגוריאני, ואם צויינה תחילת תקופתם או סופה לפי הלוח העברי בלבד – לפי הלוח העברי;</p>
+                </content>
+              </point>
+              <point eId="point_3__point_שנת_כספים">
+                <content>
+                  <p>
+                    <def />”שנת כספים“ – תקופה מאחד בינואר של שנה פלונית עד שלושים ואחד בדצמבר של אותה שנה; על אף האמור <ref href="#point_1">בסעיף 1</ref> תחול הגדרה זו גם על חיקוקים והוראות מינהל שניתנו לפני תחילתו של חוק זה;</p>
+                </content>
+              </point>
+              <point eId="point_3__point_תאגיד">
+                <content>
+                  <p>
+                    <def />”תאגיד“ – גוף משפטי, כשר לחיובים, לזכויות ולפעולות משפטיות;</p>
+                </content>
+              </point>
+              <point eId="point_3__point_תפישה">
+                <content>
+                  <p>
+                    <def />”תפישה“, לענין מקרקעין – לרבות השימוש, ההחזקה או ההנאה שלא כעובד או כפקיד בלבד או לשם השגחה או שמירה בלבד;</p>
+                </content>
+              </point>
+              <point eId="point_3__point_תצהיר">
+                <content>
+                  <p>
+                    <def />”תצהיר“ – הצהרה בכתב שניתנה ואומתה באחת הדרכים הקבועות לכך בחיקוק;</p>
+                </content>
+              </point>
+              <point eId="point_3__point_תקנה">
+                <content>
+                  <p>
+                    <def />”תקנה“ – הוראה שניתנה מכוח חוק והיא בת־פעל תחיקתי.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_4">
+            <heading>
+              <authorialNote placement="side">
+                <p>אדם</p>
+              </authorialNote>
+            </heading>
+            <num>4.</num>
+            <content>
+              <p>מקום שמדובר באדם – אף חבר־בני־אדם במשמע, בין שהוא תאגיד ובין שאינו תאגיד.</p>
+            </content>
+          </point>
+          <point eId="point_5">
+            <heading>
+              <authorialNote placement="side">
+                <p>יחיד ורבים</p>
+              </authorialNote>
+            </heading>
+            <num>5.</num>
+            <content>
+              <p>האמור בלשון יחיד – אף לשון רבים במשמע, וכן להיפך.</p>
+            </content>
+          </point>
+          <point eId="point_6">
+            <heading>
+              <authorialNote placement="side">
+                <p>זכר ונקבה</p>
+              </authorialNote>
+            </heading>
+            <num>6.</num>
+            <content>
+              <p>האמור בלשון זכר – אף לשון נקבה במשמע, וכן להיפך.</p>
+            </content>
+          </point>
+          <point eId="point_7">
+            <heading>
+              <authorialNote placement="side">
+                <p>הכלל אינו מעין הפרט דוקא</p>
+              </authorialNote>
+            </heading>
+            <num>7.</num>
+            <content>
+              <p>המלים ”או“, ”אחר“ או ביטוי דומה להן – להבדיל מן המפורט שלפניהן הן באות ולא להקיש לו, זולת אם יש עמן המלים ”דומה“ או ”כיוצא בזה“ או ביטוי אחר שמשמעו היקש.</p>
+            </content>
+          </point>
+          <point eId="point_8">
+            <heading>
+              <authorialNote placement="side">
+                <p>”עד...“</p>
+              </authorialNote>
+            </heading>
+            <num>8.</num>
+            <content>
+              <p>הביטוי ”עד...“ לענין זמן או לענין מובאה – משמעו עד ועד בכלל.</p>
+            </content>
+          </point>
+          <point eId="point_9">
+            <heading>
+              <authorialNote placement="side">
+                <p>”לפי“</p>
+              </authorialNote>
+            </heading>
+            <num>9.</num>
+            <content>
+              <p>הביטוי ”לפי“, לענין חיקוק פלוני, או ביטוי כיוצא בו – משמעו גם לפי תקנות שהותקנו מכוחו של החיקוק.</p>
+            </content>
+          </point>
+          <point eId="point_10">
+            <heading>
+              <authorialNote placement="side">
+                <p>תקופות</p>
+              </authorialNote>
+            </heading>
+            <num>10.</num>
+            <list>
+              <point eId="point_10__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>מקום שנקבעה תקופה קצובה במספר ימים או שבועות מיום פלוני, אותו יום לא יבוא במנין.</p>
+                </content>
+              </point>
+              <point eId="point_10__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>תקופה קצובה במספר חדשים או שנים לאחר אירוע פלוני תסתיים בחדשה האחרון ביום שמספרו בחודש כמספר יום האירוע, ואם היה החודש חסר אותו יום – ביום האחרון של החודש.</p>
+                </content>
+              </point>
+              <point eId="point_10__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>במנין ימי תקופה יבואו גם ימי מנוחה, פגרה או שבתון שעל פי חיקוק, זולת אם הם הימים האחרונים שבתקופה.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+        </list>
+      </chapter>
+      <chapter eId="chp_ג">
+        <num>פרק ג׳:</num>
+        <title>
+          <content>
+            <p>פירוש הסמָכוֹת</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_11">
+            <heading>
+              <authorialNote placement="side">
+                <p>מקום שלא נקבע זמן</p>
+              </authorialNote>
+            </heading>
+            <num>11.</num>
+            <content>
+              <p>הסמכה או חיוב לעשות דבר, בלי קביעת זמן לעשייתו – משמעם שיש סמכות או חובה לעשותו במהירות הראויה ולחזור ולעשותו מזמן לזמן ככל הנדרש לפי הנסיבות.</p>
+            </content>
+          </point>
+          <point eId="point_12">
+            <heading>
+              <authorialNote placement="side">
+                <p>סמכות לפטור</p>
+              </authorialNote>
+            </heading>
+            <num>12.</num>
+            <content>
+              <p>הסמכה ליתן פטור, הקלה, הנחה וכיוצא באלה – משמעה הסמכה ליתן אותם אף במקצת או בתנאים.</p>
+            </content>
+          </point>
+          <point eId="point_13">
+            <heading>
+              <authorialNote placement="side">
+                <p>מינוי והסמכה – כיצד</p>
+              </authorialNote>
+            </heading>
+            <num>13.</num>
+            <list>
+              <point eId="point_13__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>מקום שניתנה סמכות למנות אדם, להסמיכו או להטיל עליו חובה – מותר לעשות כן בנקיבת שמו או בנקיבת שם משרתו.</p>
+                </content>
+              </point>
+              <point eId="point_13__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>מינוי אדם, הסמכתו או הטלת חובה עליו בנקיבת שם משרתו בלבד – משמעם מינוי, הסמכה או חיוב של מי שממלא את המשרה מזמן לזמן.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_14">
+            <heading>
+              <authorialNote placement="side">
+                <p>סמכות מינוי</p>
+              </authorialNote>
+            </heading>
+            <num>14.</num>
+            <content>
+              <p>הסמכה לעשות מינוי – משמעה גם הסמכה להתלות את תקפו, לבטלו, לפטר את מי שנתמנה או להשעותו מתפקידו.</p>
+            </content>
+          </point>
+          <point eId="point_15">
+            <heading>
+              <authorialNote placement="side">
+                <p>סמכות התקנה</p>
+              </authorialNote>
+            </heading>
+            <num>15.</num>
+            <content>
+              <p>הסמכה להתקין תקנות או ליתן הוראת מינהל – משמעה גם הסמכה לתקנן, לשנותן, להתלותן או לבטלן בדרך שהותקנו התקנות או ניתנה ההוראה.</p>
+            </content>
+          </point>
+          <point eId="point_16">
+            <heading>
+              <authorialNote placement="side">
+                <p>סמכות מינוי גוף</p>
+              </authorialNote>
+            </heading>
+            <num>16.</num>
+            <content>
+              <p>הסמכה למנות גוף של מספר חברים – משמעה גם הסמכה למנות לו יושב ראש ולמנות ממלא מקום לכל חבר שלו.</p>
+            </content>
+          </point>
+          <point eId="point_17">
+            <heading>
+              <authorialNote placement="side">
+                <p>סמכויות עזר</p>
+              </authorialNote>
+            </heading>
+            <num>17.</num>
+            <list>
+              <point eId="point_17__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>הסמכה לעשות דבר או לדון בענין פלוני או להכריע בו – משמעה גם הסמכה לקבוע נוהל עבודה וסדרי דיונים ככל שאלה לא נקבעו בחיקוק.</p>
+                </content>
+              </point>
+              <point eId="point_17__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>הסמכה לעשות דבר או לכפות עשייתו – משמעה גם מתן סמכויות עזר הדרושות לכך במידה המתקבלת על הדעת.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_18">
+            <heading>
+              <authorialNote placement="side">
+                <p>סמכות בהשגה ובערר</p>
+              </authorialNote>
+            </heading>
+            <num>18.</num>
+            <content>
+              <p>הסמכה לדון ולהכריע בערר או בהשגה אחרת על החלטה של רשות – משמעה גם הסמכה לאשר את ההחלטה בשינויים או בלא שינוי, לבטלה ולהחליט החלטה אחרת במקומה או להחזיר את הענין עם הוראות לרשות שהחליטה.</p>
+            </content>
+          </point>
+          <point eId="point_19">
+            <heading>
+              <authorialNote placement="side">
+                <p>שמירת סמכויות וחובות</p>
+              </authorialNote>
+            </heading>
+            <num>19.</num>
+            <content>
+              <p>מתן סמכות או הטלת חובה לפי חיקוק אחד, אין בהם כשהם לעצמם כדי לגרוע מסמכות שניתנה או חובה שהוטלה לפי חיקוק אחר.</p>
+            </content>
+          </point>
+          <point eId="point_20">
+            <heading>
+              <authorialNote placement="side">
+                <p>פעולת מספר בני אדם</p>
+              </authorialNote>
+            </heading>
+            <num>20.</num>
+            <content>
+              <p>פעולה שהוטלה על מספר בני אדם כשרה אם נעשתה בידי רובם.</p>
+            </content>
+          </point>
+        </list>
+      </chapter>
+      <chapter eId="chp_ד">
+        <num>פרק ד׳:</num>
+        <title>
+          <content>
+            <p>דין חיקוקים</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_21">
+            <heading>
+              <authorialNote placement="side">
+                <p>שעת תחילה</p>
+              </authorialNote>
+            </heading>
+            <num>21.</num>
+            <content>
+              <p>שעת תחילת תקפו של חיקוק היא בשעה 00.01 של יום תחילתו.</p>
+            </content>
+          </point>
+          <point eId="point_22">
+            <heading>
+              <authorialNote placement="side">
+                <p>סייגים לכוחו של ביטול</p>
+              </authorialNote>
+            </heading>
+            <num>22.</num>
+            <list>
+              <intro>
+                <p>ביטולו של דין אין כוחו יפה –</p>
+              </intro>
+              <point eId="point_22__point_1">
+                <num>(1)</num>
+                <content>
+                  <p>להחיות דבר שלא היה לו תוקף בשעה שהביטול נכנס לתקפו;</p>
+                </content>
+              </point>
+              <point eId="point_22__point_2">
+                <num>(2)</num>
+                <content>
+                  <p>להשפיע על פעולה קודמת של הדין המבוטל או על מה שנעשה לפיו;</p>
+                </content>
+              </point>
+              <point eId="point_22__point_3">
+                <num>(3)</num>
+                <content>
+                  <p>להשפיע על זכות או חיוב שלפי הדין המבוטל.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_23">
+            <heading>
+              <authorialNote placement="side">
+                <p>תקנות ומינויים לפי חיקוק שבוטל</p>
+              </authorialNote>
+            </heading>
+            <num>23.</num>
+            <content>
+              <p>משבוטל חיקוק, בטלים עמו התקנות והמינויים שנעשו מכוחו; אולם מקום שהחיקוק המבטל קובע הוראות במקום המבוטלות – התקנות והמינויים שנעשו מכוח ההוראות המבוטלות יעמדו בתקפם עד שיבוטלו בתקנות ובמינויים מכוח החיקוק המבטל.</p>
+            </content>
+          </point>
+          <point eId="point_24">
+            <heading>
+              <authorialNote placement="side">
+                <p>הנוסח המחייב</p>
+              </authorialNote>
+            </heading>
+            <num>24.</num>
+            <content>
+              <p>הנוסח המחייב של כל דין הוא הנוסח שבשפה שבה הוא ניתן; אולם בדין שניתן באנגלית לפני הקמת המדינה ונקבע לו נוסח חדש לפי <ref href="/akn/il/act/PrimaryLegislation/1948-05-21/2002291#point_16">סעיף 16 לפקודת סדרי השלטון והמשפט, התש"ח–1948</ref> – הנוסח החדש מחייב.</p>
+            </content>
+          </point>
+          <point eId="point_25">
+            <heading>
+              <authorialNote placement="side">
+                <p>פירושם של אזכורים</p>
+              </authorialNote>
+            </heading>
+            <num>25.</num>
+            <content>
+              <p>אזכור של חיקוק בחיקוק אחר – כוונתו לחיקוק המאוזכר כנוסחו בשעה שנזקקים לו, לרבות הוראות שנוספו בו והוראות שבאו במקומו בחיקוק אחר.</p>
+            </content>
+          </point>
+          <point eId="point_26">
+            <heading>
+              <authorialNote placement="side">
+                <p>סטיה מטופס</p>
+              </authorialNote>
+            </heading>
+            <num>26.</num>
+            <content>
+              <p>טופס שנקבע בחיקוק – סטיה קלה ממנו, שאין בה כדי לפגוע בעיקר או להטעות, אינה פוסלת את הנעשה לפיו.</p>
+            </content>
+          </point>
+        </list>
+      </chapter>
+      <chapter eId="chp_ה">
+        <num>פרק ה׳:</num>
+        <title>
+          <content>
+            <p>שונות</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_27">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>27.</num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryLegislation/1971-04-28/2002283">בפקודת הראיות [נוסח חדש], התשל"א–1971</ref>.</wikicomment>
+              </p>
+            </content>
+          </point>
+          <point eId="point_28">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>28.</num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryLegislation/1951-02-15/150179">בחוק נכסי המדינה, התשי"א–1951</ref>.</wikicomment>
+              </p>
+            </content>
+          </point>
+          <point eId="point_29">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>29.</num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryLegislation/1973-04-19/147391">בחוק החוזים (חלק כללי), התשל"ג–1973</ref>.</wikicomment>
+              </p>
+            </content>
+          </point>
+          <point eId="point_30">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>30.</num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryLegislation/1948-05-21/2002291">בפקודת סדרי השלטון והמשפט, התש"ח–1948</ref>.</wikicomment>
+              </p>
+            </content>
+          </point>
+          <point eId="point_31">
+            <heading>
+              <authorialNote placement="side">
+                <p>ביטול</p>
+              </authorialNote>
+            </heading>
+            <num>31.</num>
+            <content>
+              <p>
+                <ref href="/akn/il/act/PrimaryLegislation/1954-01-01/2001847">פקודת הפרשנות</ref>, למעט <ref href="/akn/il/act/PrimaryLegislation/1954-01-01/2001847#point_16">סעיפים 16(2) ו־(4)</ref>, <ref href="/akn/il/act/PrimaryLegislation/1954-01-01/2001847#point_17">17</ref>, <ref href="/akn/il/act/PrimaryLegislation/1954-01-01/2001847#point_19">19</ref><ref href="/akn/il/act/PrimaryLegislation/1954-01-01/2001847#point_42">ו־42</ref> – בטלה.</p>
+            </content>
+          </point>
+          <point eId="point_32">
+            <heading>
+              <authorialNote placement="side">
+                <p>תחילה</p>
+              </authorialNote>
+            </heading>
+            <num>32.</num>
+            <content>
+              <p>תחילתו של חוק זה ביום ג׳ בתשרי התשמ"ב (1 באוקטובר 1981).</p>
+            </content>
+          </point>
+          <point eId="point_33">
+            <heading>
+              <authorialNote placement="side">
+                <p>פרסום</p>
+              </authorialNote>
+            </heading>
+            <num>33.</num>
+            <content>
+              <p>חוק זה יפורסם תוך שלושים ימים מיום קבלתו בכנסת.</p>
+            </content>
+          </point>
+        </list>
+      </chapter>
+    </body>
+    <conclusions eId="eId">
+      <p class="signatures">
+        <signature>
+          <p>
+            <person refersTo="מנחם_בגין">מנחם בגין</person>
+            <role refersTo="ראש_הממשלה">ראש הממשלה</role>
+          </p>
+        </signature>
+        <signature>
+          <p>
+            <person refersTo="יצחק_נבון">יצחק נבון</person>
+            <role refersTo="נשיא_המדינה">נשיא המדינה</role>
+          </p>
+        </signature>
+      </p>
+    </conclusions>
+  </act>
+</akomaNtoso>

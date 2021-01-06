@@ -1,0 +1,910 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion" name="publicLaw">
+    <meta>
+      <identification source="#kensset">
+        <FRBRWork>
+          <FRBRthis value="/akn/il/act/PrimaryLegislation/2017-02-08/577369/main" />
+          <FRBRuri value="/akn/il/act/PrimaryLegislation/2017-02-08/577369" />
+          <FRBRdate date="2017-02-08" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRcountry value="israel" />
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/il/act/PrimaryLegislation/2017-02-08/577369/he@/main" />
+          <FRBRuri value="/akn/il/act/PrimaryLegislation/2017-02-08/577369/he@" />
+          <FRBRdate date="2017-02-08" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRlanguage language="hebrew" />
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/il/act/PrimaryLegislation/2017-02-08/577369/he@/main.xml" />
+          <FRBRuri value="/akn/il/act/PrimaryLegislation/2017-02-08/577369/he@" />
+          <FRBRdate date="2017-02-08" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRformat value="xml" />
+        </FRBRManifestation>
+      </identification>
+      <classification source="#kensset">
+        <keyword value="{classificationValue}" showAs="{classificationValue}" dictionary="#classification_dictionary" />
+      </classification>
+      <lifecycle source="#kensset">
+        <eventRef eId="eventRef_1" date="2017-02-08" source="#kensset" type="generation" />
+      </lifecycle>
+      <references source="#kensset">
+        <TLCOrganization eId="kensset" href="/ontology/organization/akn/knesset" showAs="Kensset" type="generation" />
+        <TLCRole eId="author" href="/ontology/role/akn/author" showAs="Author of Document" />
+        <TLCProcess eId="inforce" href="/ontology/process/akn/inforce" showAs="In force" />
+        <TLCTerm eId="term_1" href="/ontology/term/אלכוהול/577369" showAs="אלכוהול" />
+        <TLCTerm eId="term_2" href="/ontology/term/הוועדה/577369" showAs="הוועדה" />
+        <TLCTerm eId="term_3" href="/ontology/term/חוק_יסודות_התקציב/577369" showAs="חוק_יסודות_התקציב" />
+        <TLCTerm eId="term_4" href="/ontology/term/חוק_שירות_המדינה_(מינויים)/577369" showAs="חוק_שירות_המדינה_(מינויים)" />
+        <TLCTerm eId="term_5" href="/ontology/term/משרד_ממשלתי/577369" showAs="משרד_ממשלתי" />
+        <TLCTerm eId="term_6" href="/ontology/term/סמים/577369" showAs="סמים" />
+        <TLCTerm eId="term_7" href="/ontology/term/הרשות/577369" showAs="הרשות" />
+        <TLCTerm eId="term_8" href="/ontology/term/שימוש_בסמים_או_באלכוהול/577369" showAs="שימוש_בסמים_או_באלכוהול" />
+        <TLCTerm eId="term_9" href="/ontology/term/השר/577369" showAs="השר" />
+        <TLCTerm eId="term_10" href="/ontology/term/בעל_עניין/577369" showAs="בעל_עניין" />
+        <TLCTerm eId="term_11" href="/ontology/term/טיפול/577369" showAs="טיפול" />
+        <TLCTerm eId="term_12" href="/ontology/term/עניין_אישי/577369" showAs="עניין_אישי" />
+        <TLCTerm eId="term_13" href="/ontology/term/קרוב/577369" showAs="קרוב" />
+        <TLCTerm eId="term_14" href="/ontology/term/יום_התחילה/577369" showAs="יום_התחילה" />
+        <TLCTerm eId="term_15" href="/ontology/term/הממונה_על_הנכסים/577369" showAs="הממונה_על_הנכסים" />
+        <TLCTerm eId="term_16" href="/ontology/term/נכס/577369" showAs="נכס" />
+        <TLCTerm eId="term_17" href="/ontology/term/הרשות_הלאומית/577369" showAs="הרשות_הלאומית" />
+        <TLCTerm eId="term_18" href="/ontology/term/תקופת_מעבר/577369" showAs="תקופת_מעבר" />
+        <TLCPerson eId="בנימין_נתניהו" href="/ontology/person/בנימין_נתניהו" showAs="בנימין נתניהו" />
+        <TLCPerson eId="גלעד_ארדן" href="/ontology/person/גלעד_ארדן" showAs="גלעד ארדן" />
+        <TLCPerson eId="ראובן_ריבלין" href="/ontology/person/ראובן_ריבלין" showAs="ראובן ריבלין" />
+        <TLCPerson eId="יולי_יואל_אדלשטיין" href="/ontology/person/יולי_יואל_אדלשטיין" showAs="יולי יואל אדלשטיין" />
+        <TLCRole eId="ראש_הממשלה" href="ontology/role/akn/ראש_הממשלה" showAs="ראש הממשלה" />
+        <TLCRole eId="השר_לביטחון_פנים" href="ontology/role/akn/השר_לביטחון_פנים" showAs="השר לביטחון פנים" />
+        <TLCRole eId="נשיא_המדינה" href="ontology/role/akn/נשיא_המדינה" showAs="נשיא המדינה" />
+        <TLCRole eId="יושב_ראש_הכנסת" href="ontology/role/akn/יושב_ראש_הכנסת" showAs="יושב ראש הכנסת" />
+      </references>
+      <temporalData source="#kensset">
+        <temporalGroup eId="tmpg_1" />
+      </temporalData>
+      <Publication></Publication>
+      <proprietary wikiversion="12/25/2020 10:05:54 PM" />
+    </meta>
+    <body period="#tmpg_1">
+      <title eId="title">
+        <content>
+          <p>חוק הרשות הלאומית לביטחון קהילתי, התשע"ז–2017</p>
+        </content>
+      </title>
+      <chapter eId="chp_א">
+        <num>פרק א׳:</num>
+        <title>
+          <content>
+            <p>הגדרות</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_1" class="definitions">
+            <heading>
+              <authorialNote placement="side">
+                <p>הגדרות</p>
+              </authorialNote>
+            </heading>
+            <num>1.</num>
+            <list>
+              <intro>
+                <p>בחוק זה –</p>
+              </intro>
+              <point eId="point_1__point_אלכוהול">
+                <content>
+                  <p>
+                    <def />”אלכוהול“ – כוהל אתילי הידוע גם בשמות אתנול ואתיל אלכוהול, לרבות משקאות משכרים כהגדרתם <ref href="/akn/il/act/PrimaryLegislation/1959-06-15/2001719">בפקודת המשקאות המשכרים (ייצור ומכירה)</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_הוועדה">
+                <content>
+                  <p>
+                    <def />”הוועדה“ – הוועדה המייעצת שמונתה לפי <ref href="#point_6">סעיף 6</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_חוק_יסודות_התקציב">
+                <content>
+                  <p>
+                    <def />”חוק יסודות התקציב“ – <ref href="/akn/il/act/PrimaryLegislation/1985-04-03/150399">חוק יסודות התקציב, התשמ"ה–1985</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_חוק_שירות_המדינה_מינויים">
+                <content>
+                  <p>
+                    <def />”חוק שירות המדינה (מינויים)“ – <ref href="/akn/il/act/PrimaryLegislation/1959-04-15/148670">חוק שירות המדינה (מינויים), התשי"ט–1959</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_משרד_ממשלתי">
+                <content>
+                  <p>
+                    <def />”משרד ממשלתי“ – כל משרד ממשרדי הממשלה או יחידת סמך של משרד כאמור;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_סמים">
+                <content>
+                  <p>
+                    <def />”סמים“ – סם מסוכן כהגדרתו <ref href="/akn/il/act/PrimaryLegislation/1973-07-10/2002282">בפקודת הסמים המסוכנים [נוסח חדש], התשל"ג–1973</ref>, וכן חומר מסכן כהגדרתו <ref href="/akn/il/act/PrimaryLegislation/2013-08-06/486507">בחוק המאבק בתופעת השימוש בחומרים מסכנים, התשע"ג–2013</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_הרשות">
+                <content>
+                  <p>
+                    <def />”הרשות“, ”הרשות הלאומית לביטחון קהילתי“ – הרשות הלאומית לביטחון קהילתי שהוקמה בחוק זה;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_שימוש_בסמים_או_באלכוהול">
+                <content>
+                  <p>
+                    <def />”שימוש בסמים או באלכוהול“ – לרבות כל עשייה הקשורה בסמים, שלא לצורך מטרות רפואיות או שלא לפי הרשאה כדין וכל שימוש לרעה באלכוהול או שימוש שנוגד את הוראות הדין;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_השר">
+                <content>
+                  <p>
+                    <def />”השר“ – השר לחיזוק ולקידום קהילתי.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+        </list>
+      </chapter>
+      <chapter eId="chp_ב">
+        <num>פרק ב׳:</num>
+        <title>
+          <content>
+            <p>הרשות הלאומית לביטחון קהילתי</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_2">
+            <heading>
+              <authorialNote placement="side">
+                <p>הקמת הרשות</p>
+              </authorialNote>
+            </heading>
+            <num>2.</num>
+            <content>
+              <p>מוקמת בזה במשרד לחיזוק ולקידום קהילתי הרשות הלאומית לביטחון קהילתי.</p>
+            </content>
+          </point>
+          <point eId="point_3">
+            <heading>
+              <authorialNote placement="side">
+                <p>תפקידי הרשות</p>
+              </authorialNote>
+            </heading>
+            <num>3.</num>
+            <list>
+              <intro>
+                <p>הרשות תפעל למניעה של אלימות והתנהגות אנטי־חברתית, וכן למאבק בשימוש בסמים או באלכוהול (בחוק זה – תחומי פעילותה) ורשאית היא, לשם כך, בין השאר –</p>
+              </intro>
+              <point eId="point_3__point_1">
+                <num>(1)</num>
+                <content>
+                  <p>להמליץ לשר על מדיניות כוללת בתחומי פעילותה;</p>
+                </content>
+              </point>
+              <point eId="point_3__point_2">
+                <num>(2)</num>
+                <content>
+                  <p>לפתח וליישם תכניות מקצועיות בתחומי פעילותה;</p>
+                </content>
+              </point>
+              <point eId="point_3__point_3">
+                <num>(3)</num>
+                <content>
+                  <p>לקדם שיתופי פעולה בין משרדים ממשלתיים, רשויות מקומיות וגופים נוספים הפועלים למניעה, לטיפול, לשיקום ולאכיפה בתחומי פעילותה;</p>
+                </content>
+              </point>
+              <point eId="point_3__point_4">
+                <num>(4)</num>
+                <content>
+                  <p>לסייע למשרדים ממשלתיים וגופים נוספים הפועלים למניעה, לטיפול, לשיקום ולאכיפה בתחומי פעילותה, בהקמה ובפיתוח שירותים, מסגרות מתאימות ותכניות פעולה בתחומים אלה;</p>
+                </content>
+              </point>
+              <point eId="point_3__point_5">
+                <num>(5)</num>
+                <content>
+                  <p>להמליץ לשר על קידום תיקוני חקיקה בתחומי פעילותה;</p>
+                </content>
+              </point>
+              <point eId="point_3__point_6">
+                <num>(6)</num>
+                <content>
+                  <p>לפתח כלים טכנולוגיים בתחומי פעילותה;</p>
+                </content>
+              </point>
+              <point eId="point_3__point_7">
+                <num>(7)</num>
+                <content>
+                  <p>לפעול להעמקת ההסברה והמודעות הציבורית בתחומי פעילותה;</p>
+                </content>
+              </point>
+              <point eId="point_3__point_8">
+                <num>(8)</num>
+                <content>
+                  <p>לרכז מידע, ביצוע מחקרים, פעולות הערכה ופיתוח ידע, בתחומי פעילותה, בכפוף להוראות כל דין;</p>
+                </content>
+              </point>
+              <point eId="point_3__point_9">
+                <num>(9)</num>
+                <content>
+                  <p>לקדם ולקיים קשרים עם גופים בין־לאומיים הפועלים בתחומי פעילותה;</p>
+                </content>
+              </point>
+              <point eId="point_3__point_10">
+                <num>(10)</num>
+                <content>
+                  <p>לעודד התנדבות בתחומי פעילותה וכן להדריך ולהנחות את המתנדבים ולפקח על פעילותם;</p>
+                </content>
+              </point>
+              <point eId="point_3__point_11">
+                <num>(11)</num>
+                <content>
+                  <p>להכשיר ולהסמיך כוח אדם מקצועי בתחומי פעילותה.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_4">
+            <heading>
+              <authorialNote placement="side">
+                <p>מינוי מנהל הרשות ותפקידיו</p>
+              </authorialNote>
+            </heading>
+            <num>4.</num>
+            <content>
+              <p>הממשלה, לפי הצעת השר, תמנה מנהל לרשות בהתאם להוראות <ref href="/akn/il/act/PrimaryLegislation/1959-04-15/148670">חוק שירות המדינה (מינויים)</ref>, שיהיה אחראי על ניהול הרשות ועל ביצוע תפקידיה לפי חוק זה.</p>
+            </content>
+          </point>
+          <point eId="point_5">
+            <heading>
+              <authorialNote placement="side">
+                <p>תקציב</p>
+              </authorialNote>
+            </heading>
+            <num>5.</num>
+            <content>
+              <p>תקציב הרשות ייקבע בחוק התקציב השנתי, במסגרת תקציב המשרד לחיזוק וקידום קהילתי; לעניין זה, ”חוק תקציב שנתי“ – כהגדרתו <ref href="/akn/il/act/PrimaryLegislation/1985-04-03/150399">בחוק יסודות התקציב</ref>.</p>
+            </content>
+          </point>
+        </list>
+      </chapter>
+      <chapter eId="chp_ג">
+        <num>פרק ג׳:</num>
+        <title>
+          <content>
+            <p>ועדה מייעצת לעניין מאבק בסמים ובאלכוהול</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_6">
+            <heading>
+              <authorialNote placement="side">
+                <p>ועדה מייעצת</p>
+              </authorialNote>
+            </heading>
+            <num>6.</num>
+            <list>
+              <point eId="point_6__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>השר ימנה ועדה מייעצת לעניין מאבק בסמים ובאלכוהול שתפקידה לייעץ לשר בהתוויית המדיניות בנושא וכן, לבקשת השר, בכל עניין אחר הנוגע לתפקידי הרשות.</p>
+                </content>
+              </point>
+              <point eId="point_6__point_ב">
+                <num>(ב)</num>
+                <list>
+                  <intro>
+                    <p>חברי הוועדה יהיו:</p>
+                  </intro>
+                  <point eId="point_6__point_ב__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>מנהל הרשות, והוא יהיה יושב ראש הוועדה;</p>
+                    </content>
+                  </point>
+                  <point eId="point_6__point_ב__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>נציג השר, מבין עובדי משרדו, והוא יהיה ממלא מקום היושב ראש;</p>
+                    </content>
+                  </point>
+                  <point eId="point_6__point_ב__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>נציג שר הבריאות, מבין עובדי משרדו;</p>
+                    </content>
+                  </point>
+                  <point eId="point_6__point_ב__point_4">
+                    <num>(4)</num>
+                    <content>
+                      <p>נציג שר העבודה הרווחה והשירותים החברתיים, מבין עובדי משרדו;</p>
+                    </content>
+                  </point>
+                  <point eId="point_6__point_ב__point_5">
+                    <num>(5)</num>
+                    <content>
+                      <p>נציג שר החינוך, מבין עובדי משרדו;</p>
+                    </content>
+                  </point>
+                  <point eId="point_6__point_ב__point_6">
+                    <num>(6)</num>
+                    <content>
+                      <p>נציג שר הפנים, מבין עובדי משרדו;</p>
+                    </content>
+                  </point>
+                  <point eId="point_6__point_ב__point_7">
+                    <num>(7)</num>
+                    <content>
+                      <p>נציג שר החוץ, מבין עובדי משרדו;</p>
+                    </content>
+                  </point>
+                  <point eId="point_6__point_ב__point_8">
+                    <num>(8)</num>
+                    <content>
+                      <p>נציג שר המשפטים, מבין עובדי משרדו;</p>
+                    </content>
+                  </point>
+                  <point eId="point_6__point_ב__point_8א">
+                    <num>(8א)</num>
+                    <content>
+                      <p>נציג השר לביטחון פנים, מבין עובדי משרדו;</p>
+                    </content>
+                  </point>
+                  <point eId="point_6__point_ב__point_9">
+                    <num>(9)</num>
+                    <content>
+                      <p>נציג משטרת ישראל, שיהיה קצין משטרה בכיר כהגדרתו <ref href="/akn/il/act/PrimaryLegislation/1971-03-11/2001806">בפקודת המשטרה [נוסח חדש], התשל"א–1971</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_6__point_ב__point_10">
+                    <num>(10)</num>
+                    <content>
+                      <p>שני נציגי ציבור.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_6__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>לא ימונה לחבר הוועדה מי שהורשע בעבירה פלילית שמפאת מהותה, חומרתה או נסיבותיה אין הוא ראוי לכהן כחבר ועדה או שהוגש נגדו כתב אישום בעבירה כאמור וטרם ניתן פסק דין סופי בעניינו.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_7">
+            <heading>
+              <authorialNote placement="side">
+                <p>תקופת כהונה</p>
+              </authorialNote>
+            </heading>
+            <num>7.</num>
+            <content>
+              <p>תקופת כהונתו של חבר הוועדה תהיה שלוש שנים ואפשר לשוב ולמנותו לתקופות כהונה נוספות.</p>
+            </content>
+          </point>
+          <point eId="point_8">
+            <heading>
+              <authorialNote placement="side">
+                <p>פקיעת כהונה</p>
+              </authorialNote>
+            </heading>
+            <num>8.</num>
+            <list>
+              <intro>
+                <p>חבר הוועדה יחדל לכהן לפני תום תקופת כהונתו, בהתקיים אחד מאלה:</p>
+              </intro>
+              <point eId="point_8__point_1">
+                <num>(1)</num>
+                <content>
+                  <p>הוא התפטר במסירת כתב התפטרות לשר;</p>
+                </content>
+              </point>
+              <point eId="point_8__point_2">
+                <num>(2)</num>
+                <content>
+                  <p>לגבי חבר הוועדה שמונה לפי <ref href="#point_6">סעיף 6(ב)(1) עד (8א)</ref> – הוא חדל להיות עובד המשרד הממשלתי או הגוף שהוא מייצג בוועדה או הושעה משירות המדינה;</p>
+                </content>
+              </point>
+              <point eId="point_8__point_3">
+                <num>(3)</num>
+                <content>
+                  <p>לגבי קצין משטרה בכיר שמונה לפי <ref href="#point_6">סעיף 6(ב)(9)</ref> – הוא חדל להיות שוטר או הושעה מהשירות;</p>
+                </content>
+              </point>
+              <point eId="point_8__point_4">
+                <num>(4)</num>
+                <content>
+                  <p>לגבי נציג הציבור שמונה לפי <ref href="#point_6">סעיף 6(ב)(10)</ref> – הוא התמנה להיות עובד המדינה.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_9">
+            <heading>
+              <authorialNote placement="side">
+                <p>הפסקת כהונה</p>
+              </authorialNote>
+            </heading>
+            <num>9.</num>
+            <list>
+              <intro>
+                <p>התקיימה נסיבה מהנסיבות כמפורט להלן, יעביר השר את חבר הוועדה מכהונתו לפני תום תקופת כהונתו ובסמוך למועד התקיימות הנסיבה, בהודעה בכתב:</p>
+              </intro>
+              <point eId="point_9__point_1">
+                <num>(1)</num>
+                <content>
+                  <p>נבצר ממנו, דרך קבע, למלא את תפקידו;</p>
+                </content>
+              </point>
+              <point eId="point_9__point_2">
+                <num>(2)</num>
+                <content>
+                  <p>הוא הורשע בעבירה פלילית שמפאת מהותה, חומרתה או נסיבותיה אין הוא ראוי לשמש כחבר ועדה, או הוגש נגדו כתב אישום בעבירה כאמור.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_10">
+            <heading>
+              <authorialNote placement="side">
+                <p>סדרי עבודת הוועדה</p>
+              </authorialNote>
+            </heading>
+            <num>10.</num>
+            <list>
+              <point eId="point_10__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>המניין החוקי בישיבות הוועדה הוא שליש מחבריה ובהם יושב ראש הוועדה או ממלא מקומו.</p>
+                </content>
+              </point>
+              <point eId="point_10__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>החלטות הוועדה יתקבלו ברוב קולות של חברי הוועדה המשתתפים בהצבעה; היו הקולות שקולים, יכריע יושב ראש הוועדה, ובהעדרו – ממלא מקומו.</p>
+                </content>
+              </point>
+              <point eId="point_10__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>הוועדה תתכנס פעמיים בשנה לפחות.</p>
+                </content>
+              </point>
+              <point eId="point_10__point_ד">
+                <num>(ד)</num>
+                <content>
+                  <p>הוועדה תקבע את דרכי עבודתה וסדרי דיוניה ככל שלא נקבעו לפי חוק זה.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_11">
+            <heading>
+              <authorialNote placement="side">
+                <p>תוקף פעולות</p>
+              </authorialNote>
+            </heading>
+            <num>11.</num>
+            <content>
+              <p>קיום הוועדה, סמכויותיה ותוקף החלטותיה לא ייפגעו מחמת שהתפנה מקומו של חבר מחבריה ובלבד שרוב חברי הוועדה מכהנים בה כדין.</p>
+            </content>
+          </point>
+          <point eId="point_12">
+            <heading>
+              <authorialNote placement="side">
+                <p>גמול והחזר הוצאות</p>
+              </authorialNote>
+            </heading>
+            <num>12.</num>
+            <content>
+              <p>חבר הוועדה שאינו עובד המדינה, עובד גוף מתוקצב או עובד גוף נתמך, יהיה זכאי לקבל מהמשרד לחיזוק וקידום קהילתי גמול בעבור השתתפותו בישיבות הוועדה, בהתאם להוראות שקבע החשב הכללי במשרד האוצר לעניין חברי ועדות ציבוריות; בסעיף זה, ”עובד המדינה“, ”עובד גוף מתוקצב“ ו”עובד גוף נתמך“ – כהגדרתם <ref href="/akn/il/act/PrimaryLegislation/1985-04-03/150399#point_32">בסעיף 32 לחוק יסודות התקציב</ref>.</p>
+            </content>
+          </point>
+          <point eId="point_13">
+            <heading>
+              <authorialNote placement="side">
+                <p>ניגוד עניינים</p>
+              </authorialNote>
+            </heading>
+            <num>13.</num>
+            <list>
+              <point eId="point_13__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>לא ימונה ולא יכהן כחבר הוועדה מי שעלול להימצא, במישרין או בעקיפין, באופן תדיר, במצב של ניגוד עניינים בין תפקידו כחבר הוועדה לבין עניין אישי שלו או תפקיד אחר שלו.</p>
+                </content>
+              </point>
+              <point eId="point_13__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>חבר הוועדה לא יטפל במסגרת תפקידו בנושא העלול לגרום לו להימצא, במישרין או בעקיפין, במצב של ניגוד עניינים בין תפקידו כחבר הוועדה לבין עניין אישי שלו או תפקיד אחר שלו.</p>
+                </content>
+              </point>
+              <point eId="point_13__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>נודע לחבר הוועדה שהוא עלול להימצא במצב של ניגוד עניינים כאמור בסעיף קטן (ב), יודיע על כך ליושב ראש הוועדה, ימסור לו את המידע הנוגע לעניין, ולא יטפל בנושא כאמור באותו סעיף קטן; נודע ליושב ראש הוועדה שהוא עלול להימצא במצב כאמור, ימסור את המידע לשר ולא יטפל בנושא.</p>
+                </content>
+              </point>
+              <point eId="point_13__point_ד">
+                <num>(ד)</num>
+                <list>
+                  <intro>
+                    <p>בסעיף זה –</p>
+                  </intro>
+                  <point eId="point_13__point_ד__point_בעל_עניין">
+                    <content>
+                      <p>
+                        <def />”בעל עניין“ – כהגדרתו <ref href="/akn/il/act/PrimaryLegislation/1968-08-22/150242">בחוק ניירות ערך, התשכ"ח–1968</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_13__point_ד__point_טיפול">
+                    <content>
+                      <p>
+                        <def />”טיפול“ – לרבות קבלת החלטה, העלאת נושא לדיון, נוכחות בדיון, השתתפות בדיון או בהצבעה, או עיסוק בנושא מחוץ לדיון;</p>
+                    </content>
+                  </point>
+                  <point eId="point_13__point_ד__point_עניין_אישי">
+                    <content>
+                      <p>
+                        <def />”עניין אישי“, של חבר הוועדה – לרבות עניין אישי של קרובו, עניין של תאגיד שהוא או קרובו הם בעלי עניין בו, או עניין של גוף שהוא או קרובו הם מנהלים או עובדים אחראים בו;</p>
+                    </content>
+                  </point>
+                  <point eId="point_13__point_ד__point_קרוב">
+                    <content>
+                      <p>
+                        <def />”קרוב“, של חבר הוועדה – בן זוג, הורה, הורה הורה, בן או בת ובני זוגם, אח או אחות וילדיהם, גיס, גיסה, דוד או דודה וילדיהם, חותן, חותנת, חם, חמות, נכד או נכדה, לרבות חורגים או כל אדם הסמוך על שולחנו.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+            </list>
+          </point>
+        </list>
+      </chapter>
+      <chapter eId="chp_ד">
+        <num>פרק ד׳:</num>
+        <title>
+          <content>
+            <p>הוראות שונות</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_14">
+            <heading>
+              <authorialNote placement="side">
+                <p>סמכות הרשות לדרוש מידע</p>
+              </authorialNote>
+            </heading>
+            <num>14.</num>
+            <list>
+              <point eId="point_14__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>בלי לגרוע מכל סמכות הנתונה לרשות, הרשות רשאית, לשם מילוי תפקידיה, לדרוש ממשרד ממשלתי או מגוף אחר העוסק בעניין הנוגע לתחומי פעילותה, בין בשכר ובין בהתנדבות, למסור כל ידיעה, מסמך, דין וחשבון או פלט כהגדרתו <ref href="/akn/il/act/PrimaryLegislation/1995-07-25/174481">בחוק המחשבים, התשנ"ה–1995</ref>, הנוגעים לתפקידיה לפי הוראות חוק זה, למעט נתונים שהם מידע כהגדרתו <ref href="/akn/il/act/PrimaryLegislation/1981-03-11/147337#point_7">בסעיף 7 לחוק הגנת הפרטיות, התשמ"א–1981</ref>, ידיעה על ענייניו הפרטיים של אדם אף שאינם בגדר מידע כאמור, חומר מודיעין כהגדרתו <ref href="/akn/il/act/PrimaryLegislation/1982-03-01/2002215">בחוק סדר הדין הפלילי [נוסח משולב], התשמ"ב–1982</ref>, או מידע שמסירתו אסורה לפי כל דין.</p>
+                </content>
+              </point>
+              <point eId="point_14__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>מי שנדרש למסור מידע כאמור בסעיף קטן (א), ימסור את המידע בתוך התקופה שנקבעה בדרישה ובאופן הקבוע בה.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_15">
+            <heading>
+              <authorialNote placement="side">
+                <p>שמירת סמכויות</p>
+              </authorialNote>
+            </heading>
+            <num>15.</num>
+            <content>
+              <p>אין בהוראות חוק זה כדי לגרוע מסמכות שניתנה על פי כל דין.</p>
+            </content>
+          </point>
+          <point eId="point_16">
+            <heading>
+              <authorialNote placement="side">
+                <p>ביצוע ותקנות</p>
+              </authorialNote>
+            </heading>
+            <num>16.</num>
+            <content>
+              <p>השר ממונה על ביצוע חוק זה, והוא רשאי להתקין תקנות בכל הנוגע לביצועו.</p>
+            </content>
+          </point>
+        </list>
+      </chapter>
+      <chapter eId="chp_ה">
+        <num>פרק ה׳:</num>
+        <title>
+          <content>
+            <p>תיקונים עקיפים</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_17">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>17.</num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_העיריות">בפקודת העיריות</ref>.</wikicomment>
+              </p>
+            </content>
+          </point>
+          <point eId="point_18">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>18.</num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryLegislation/1973-07-10/2002282">בפקודת הסמים המסוכנים [נוסח חדש], התשל"ג–1973</ref>.</wikicomment>
+              </p>
+            </content>
+          </point>
+          <point eId="point_19">
+            <heading>
+              <authorialNote placement="side">
+                <p>ביטול חוק הרשות הלאומית למלחמה בסמים ובשימוש לרעה באלכוהול</p>
+              </authorialNote>
+            </heading>
+            <num>19.</num>
+            <content>
+              <p>
+                <ref href="/akn/il/act/PrimaryLegislation/2012-08-02/431951">חוק הרשות הלאומית למלחמה בסמים ובשימוש לרעה באלכוהול, התשמ"ח–1988</ref> – בטל.</p>
+            </content>
+          </point>
+          <point eId="point_20">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>20.</num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryLegislation/1993-07-15/157610">בחוק הפיקוח על מוסדות לטיפול במשתמשים בסמים, התשנ"ג–1993</ref>.</wikicomment>
+              </p>
+            </content>
+          </point>
+          <point eId="point_21">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>21.</num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryLegislation/2013-08-06/486507">בחוק המאבק בתופעת השימוש בחומרים מסכנים, התשע"ג–2013</ref>.</wikicomment>
+              </p>
+            </content>
+          </point>
+        </list>
+      </chapter>
+      <chapter eId="chp_ו">
+        <num>פרק ו׳:</num>
+        <title>
+          <content>
+            <p>תחילה והוראות מעבר</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_22" class="definitions">
+            <heading>
+              <authorialNote placement="side">
+                <p>הגדרות – פרק ו׳</p>
+              </authorialNote>
+            </heading>
+            <num>22.</num>
+            <list>
+              <intro>
+                <p>
+                  <ref href="#chp_ו">בפרק זה</ref> –</p>
+              </intro>
+              <point eId="point_22__point_יום_התחילה">
+                <content>
+                  <p>
+                    <def />”יום התחילה“ – יום תחילתו של חוק זה לפי הוראות <ref href="#point_23">סעיף 23</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_22__point_הממונה_על_הנכסים">
+                <content>
+                  <p>
+                    <def />”הממונה על הנכסים“ – עובד משרד האוצר ששר האוצר הסמיך לעניין נכסי הרשות הלאומית;</p>
+                </content>
+              </point>
+              <point eId="point_22__point_נכס">
+                <content>
+                  <p>
+                    <def />”נכס“ – מקרקעין, מיטלטלין, זכויות וטובות הנאה, התקשרויות או חובות והתחייבויות, מכל סוג שהוא;</p>
+                </content>
+              </point>
+              <point eId="point_22__point_הרשות_הלאומית">
+                <content>
+                  <p>
+                    <def />”הרשות הלאומית“ – הרשות הלאומית למלחמה בסמים ובשימוש לרעה באלכוהול שהוקמה <ref href="/akn/il/act/PrimaryLegislation/2012-08-02/431951">בחוק הרשות הלאומית למלחמה בסמים ובשימוש לרעה באלכוהול, התשמ"ח–1988</ref>, כנוסחו ערב ביטולו <ref href="#point_19">בסעיף 19 לחוק זה</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_22__point_תקופת_מעבר">
+                <content>
+                  <p>
+                    <def />”תקופת מעבר“ – התקופה שבין יום פרסומו של חוק זה לבין יום התחילה.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_23">
+            <heading>
+              <authorialNote placement="side">
+                <p>תחילה</p>
+              </authorialNote>
+            </heading>
+            <num>23.</num>
+            <content>
+              <p>תחילתו של חוק זה, למעט <ref href="#point_4">סעיפים 4</ref>, <ref href="#point_24">24</ref><ref href="#point_30">ו־30</ref>, שישה חודשים מיום פרסומו.</p>
+            </content>
+          </point>
+          <point eId="point_24">
+            <heading>
+              <authorialNote placement="side">
+                <p>הגבלות על הרשות הלאומית בתקופת המעבר</p>
+              </authorialNote>
+            </heading>
+            <num>24.</num>
+            <list>
+              <point eId="point_24__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>בתקופת המעבר, הרשות הלאומית לא תתקשר בהתקשרות, לרבות התקשרות למימוש זכות ברירה, שתקופתה, ביצועה והזכויות והחיובים שלפיה, הם לאחר יום התחילה, אלא באישור מראש ובכתב מהמנהל הכללי של המשרד לביטחון הפנים והממונה על הנכסים; התקשרות שלא אושרה כאמור – בטלה.</p>
+                </content>
+              </point>
+              <point eId="point_24__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>בתקופת המעבר הרשות הלאומית לא תקבל עובדים חדשים אלא מטעמים מיוחדים ובאישור מראש ובכתב מהמנהל הכללי של המשרד לביטחון הפנים; הוראות סעיף קטן זה יחולו גם על קבלת עובדים והעסקתם באמצעות קבלן כוח אדם, כהגדרתו <ref href="/akn/il/act/PrimaryLegislation/1996-03-21/159655">בחוק העסקת עובדים על ידי קבלני כוח אדם, התשנ"ו–1996</ref>.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_25">
+            <heading>
+              <authorialNote placement="side">
+                <p>הפסקת פעילותה של הרשות הלאומית</p>
+              </authorialNote>
+            </heading>
+            <num>25.</num>
+            <content>
+              <p>ביום התחילה תחדל הרשות הלאומית להיות אישיות משפטית ותסתיים העסקתם של עובדי הרשות הלאומית.</p>
+            </content>
+          </point>
+          <point eId="point_26">
+            <heading>
+              <authorialNote placement="side">
+                <p>קבלת עובדים מהרשות הלאומית לעבודה ברשות</p>
+              </authorialNote>
+            </heading>
+            <num>26.</num>
+            <content>
+              <p>עובדי הרשות הלאומית ערב יום התחילה, יתמנו לעובדי המדינה בפטור ממכרז, שיינתן בהתאם <ref href="/akn/il/act/PrimaryLegislation/1959-04-15/148670">לחוק שירות המדינה (מינויים)</ref>, ובתנאים שתקבע ועדת שירות המדינה כמשמעותה <ref href="/akn/il/act/PrimaryLegislation/1959-04-15/148670">בחוק האמור</ref>; החלטה על מינוי עובדים לפי סעיף זה תינתן עד יום התחילה.</p>
+            </content>
+          </point>
+          <point eId="point_27">
+            <heading>
+              <authorialNote placement="side">
+                <p>הקניית נכסי הרשות הלאומית למדינה</p>
+              </authorialNote>
+            </heading>
+            <num>27.</num>
+            <content>
+              <p>על אף האמור בכל דין ובכל חוזה, כל הנכסים שהיו של הרשות הלאומית ערב יום התחילה, יהיו החל ביום התחילה לקניין המדינה וממועד זה היא תהיה רשאית לתפוס חזקה בהם בכפוף לזכותו של אדם אחר להחזיק בהם.</p>
+            </content>
+          </point>
+          <point eId="point_28">
+            <heading>
+              <authorialNote placement="side">
+                <p>פטור מתשלומי חובה</p>
+              </authorialNote>
+            </heading>
+            <num>28.</num>
+            <content>
+              <p>העברת נכסים לפי <ref href="#chp_ו">פרק זה</ref> למדינה לרבות רישומם, תהיה פטורה מתשלום כל מס, אגרה, היטל או תשלום חובה אחר שיש לשלמו לפי דין או הסכם, ואולם אין באמור כדי לפטור אדם מכל חבות של מס, אגרה, היטל או תשלום חובה שחלה על הבעלים או על המחזיק בנכס ערב העברתו לקניין המדינה.</p>
+            </content>
+          </point>
+          <point eId="point_29">
+            <heading>
+              <authorialNote placement="side">
+                <p>הליכים משפטיים</p>
+              </authorialNote>
+            </heading>
+            <num>29.</num>
+            <content>
+              <p>כל הליך משפטי של הרשות הלאומית או נגדה שהיה תלוי ועומד ערב יום התחילה, וכל עילה להליך משפטי כאמור שהיתה קיימת באותו מועד, יוסיפו לעמוד בתוקפם ויראו אותם כאילו הם של המדינה או נגדה, לפי העניין, ביום התחילה.</p>
+            </content>
+          </point>
+          <point eId="point_30">
+            <heading>
+              <authorialNote placement="side">
+                <p>חובת מסירת מידע וסמכות הממונה על הנכסים לדרוש מידע</p>
+              </authorialNote>
+            </heading>
+            <num>30.</num>
+            <list>
+              <point eId="point_30__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>הרשות הלאומית תמסור לממונה על הנכסים, בתוך 30 ימים מיום פרסומו של חוק זה, רשימה מפורטת של נכסיה.</p>
+                </content>
+              </point>
+              <point eId="point_30__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>הממונה על הנכסים יהיה רשאי לדרוש מהרשות הלאומית כל מידע או מסמך הדרושים לשם קיום הוראות <ref href="#chp_ו">פרק זה</ref>, לרבות בעניין עובדים, נכסים, והליכים משפטיים.</p>
+                </content>
+              </point>
+              <point eId="point_30__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>דרש הממונה על הנכסים מידע או מסמכים כאמור בסעיף קטן (ב), תעביר לו אותם הרשות הלאומית, לפי דרישתו ובתוך זמן סביר.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_31">
+            <heading>
+              <authorialNote placement="side">
+                <p>הוראות מעבר לעניין תכניות שהופעלו ערב יום התחילה</p>
+              </authorialNote>
+            </heading>
+            <num>31.</num>
+            <content>
+              <p>הרשות תמשיך להפעיל כל תכנית שהפעילה הרשות הלאומית ערב יום התחילה מכוח התקשרות עם רשויות מקומיות או עם גופים אחרים, בהתאם לתנאי ההתקשרות, כל עוד ההתקשרות בתוקף ועד תום תקופת ההתקשרות שנקבעה, אלא אם כן החליט מנהל הרשות אחרת, באישור השר; לא יחליט המנהל על הפסקת תכנית כאמור אלא מטעמים שיירשמו ולאחר שנתן לרשות המקומית או לגוף האחר שהם צד להתקשרות הזדמנות להשמיע את טענותיהם; אין בהוראות סעיף זה כדי לגרוע מהתרופות העומדות לצדדים להתקשרות לפי כל דין.</p>
+            </content>
+          </point>
+        </list>
+      </chapter>
+    </body>
+    <conclusions eId="eId">
+      <p class="signatures">
+        <signature>
+          <p>
+            <person refersTo="בנימין_נתניהו">בנימין נתניהו</person>
+            <role refersTo="ראש_הממשלה">ראש הממשלה</role>
+          </p>
+        </signature>
+        <signature>
+          <p>
+            <person refersTo="גלעד_ארדן">גלעד ארדן</person>
+            <role refersTo="השר_לביטחון_פנים">השר לביטחון פנים</role>
+          </p>
+        </signature>
+        <signature>
+          <p>
+            <person refersTo="ראובן_ריבלין">ראובן ריבלין</person>
+            <role refersTo="נשיא_המדינה">נשיא המדינה</role>
+          </p>
+        </signature>
+        <signature>
+          <p>
+            <person refersTo="יולי_יואל_אדלשטיין">יולי יואל אדלשטיין</person>
+            <role refersTo="יושב_ראש_הכנסת">יושב ראש הכנסת</role>
+          </p>
+        </signature>
+      </p>
+    </conclusions>
+  </act>
+</akomaNtoso>

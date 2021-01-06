@@ -1,0 +1,853 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion" name="publicLaw">
+    <meta>
+      <identification source="#kensset">
+        <FRBRWork>
+          <FRBRthis value="/akn/il/act/PrimaryLegislation/1982-12-07/147393/main" />
+          <FRBRuri value="/akn/il/act/PrimaryLegislation/1982-12-07/147393" />
+          <FRBRdate date="1982-12-07" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRcountry value="israel" />
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/il/act/PrimaryLegislation/1982-12-07/147393/he@/main" />
+          <FRBRuri value="/akn/il/act/PrimaryLegislation/1982-12-07/147393/he@" />
+          <FRBRdate date="1982-12-07" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRlanguage language="hebrew" />
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/il/act/PrimaryLegislation/1982-12-07/147393/he@/main.xml" />
+          <FRBRuri value="/akn/il/act/PrimaryLegislation/1982-12-07/147393/he@" />
+          <FRBRdate date="1982-12-07" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRformat value="xml" />
+        </FRBRManifestation>
+      </identification>
+      <classification source="#kensset">
+        <keyword value="{classificationValue}" showAs="{classificationValue}" dictionary="#classification_dictionary" />
+      </classification>
+      <lifecycle source="#kensset">
+        <eventRef eId="eventRef_1" date="1982-12-07" source="#kensset" type="generation" />
+      </lifecycle>
+      <references source="#kensset">
+        <TLCOrganization eId="kensset" href="/ontology/organization/akn/knesset" showAs="Kensset" type="generation" />
+        <TLCRole eId="author" href="/ontology/role/akn/author" showAs="Author of Document" />
+        <TLCProcess eId="inforce" href="/ontology/process/akn/inforce" showAs="In force" />
+        <TLCTerm eId="term_1" href="/ontology/term/חוזה_אחיד/147393" showAs="חוזה_אחיד" />
+        <TLCTerm eId="term_2" href="/ontology/term/תנאי/147393" showAs="תנאי" />
+        <TLCTerm eId="term_3" href="/ontology/term/ספק/147393" showAs="ספק" />
+        <TLCTerm eId="term_4" href="/ontology/term/לקוח/147393" showAs="לקוח" />
+        <TLCTerm eId="term_5" href="/ontology/term/בית_הדין/147393" showAs="בית_הדין" />
+        <TLCPerson eId="מנחם_בגין" href="/ontology/person/מנחם_בגין" showAs="מנחם בגין" />
+        <TLCPerson eId="משה_נסים" href="/ontology/person/משה_נסים" showAs="משה נסים" />
+        <TLCPerson eId="יצחק_נבון" href="/ontology/person/יצחק_נבון" showAs="יצחק נבון" />
+        <TLCRole eId="ראש_הממשלה" href="ontology/role/akn/ראש_הממשלה" showAs="ראש הממשלה" />
+        <TLCRole eId="שר_המשפטים" href="ontology/role/akn/שר_המשפטים" showAs="שר המשפטים" />
+        <TLCRole eId="נשיא_המדינה" href="ontology/role/akn/נשיא_המדינה" showAs="נשיא המדינה" />
+      </references>
+      <temporalData source="#kensset">
+        <temporalGroup eId="tmpg_1" />
+      </temporalData>
+      <Publication></Publication>
+      <proprietary wikiversion="7/22/2020 10:13:02 PM" />
+    </meta>
+    <body period="#tmpg_1">
+      <title eId="title">
+        <content>
+          <p>חוק החוזים האחידים, התשמ"ג–1982</p>
+        </content>
+      </title>
+      <chapter eId="chp_א">
+        <num>פרק א׳:</num>
+        <title>
+          <content>
+            <p>הוראות יסוד</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_1">
+            <heading>
+              <authorialNote placement="side">
+                <p>מטרת החוק</p>
+              </authorialNote>
+            </heading>
+            <num>1.</num>
+            <content>
+              <p>חוק זה מטרתו להגן על לקוחות מפני תנאים מקפחים בחוזים אחידים.</p>
+            </content>
+          </point>
+          <point eId="point_2" class="definitions">
+            <heading>
+              <authorialNote placement="side">
+                <p>הגדרות</p>
+              </authorialNote>
+            </heading>
+            <num>2.</num>
+            <list>
+              <intro>
+                <p>בחוק זה –</p>
+              </intro>
+              <point eId="point_2__point_חוזה_אחיד">
+                <content>
+                  <p>
+                    <def />”חוזה אחיד“ – נוסח של חוזה שתנאיו, כולם או מקצתם, נקבעו מראש בידי צד אחד כדי שישמשו תנאים לחוזים רבים בינו לבין אנשים בלתי מסויימים במספרם או בזהותם;</p>
+                </content>
+              </point>
+              <point eId="point_2__point_תנאי">
+                <content>
+                  <p>
+                    <def />”תנאי“ – תניה בחוזה אחיד, לרבות תניה המאוזכרת בו וכן כל תניה אחרת שהיא חלק מההתקשרות, ולמעט תניה שספק ולקוח הסכימו עליה במיוחד לצורך חוזה מסויים;</p>
+                </content>
+              </point>
+              <point eId="point_2__point_ספק">
+                <content>
+                  <p>
+                    <def />”ספק“ – מי שמציע שהתקשרות עמו תהיה לפי חוזה אחיד, ואחת היא אם הוא הנותן או המקבל של דבר;</p>
+                </content>
+              </point>
+              <point eId="point_2__point_לקוח">
+                <content>
+                  <p>
+                    <def />”לקוח“ – מי שספק מציע לו שהתקשרות ביניהם תהיה לפי חוזה אחיד, ואחת היא אם הוא המקבל או הנותן של דבר;</p>
+                </content>
+              </point>
+              <point eId="point_2__point_בית_הדין">
+                <content>
+                  <p>
+                    <def />”בית הדין“ – בית הדין לחוזים אחידים המוקם לפי חוק זה.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_3">
+            <heading>
+              <authorialNote placement="side">
+                <p>תנאי מקפח וביטולו</p>
+              </authorialNote>
+            </heading>
+            <num>3.</num>
+            <content>
+              <p>בית משפט ובית הדין יבטלו או ישנו, בהתאם להוראות חוק זה, תנאי בחוזה אחיד שיש בו – בשים לב למכלול תנאי החוזה ולנסיבות אחרות – משום קיפוח לקוחות או משום יתרון בלתי הוגן של הספק העלול להביא לידי קיפוח לקוחות (להלן – תנאי מקפח).</p>
+            </content>
+          </point>
+          <point eId="point_4">
+            <heading>
+              <authorialNote placement="side">
+                <p>חזקות</p>
+              </authorialNote>
+            </heading>
+            <num>4.</num>
+            <list>
+              <intro>
+                <p>חזקה על התנאים הבאים שהם מקפחים:</p>
+              </intro>
+              <point eId="point_4__point_1">
+                <num>(1)</num>
+                <content>
+                  <p>תנאי הפוטר את הספק, באופן מלא או חלקי, מאחריות שהיתה מוטלת עליו על פי דין אילולא אותו תנאי, או המסייג באופן בלתי סביר את האחריות שהיתה מוטלת עליו מכוח החוזה אילולא אותו תנאי;</p>
+                </content>
+              </point>
+              <point eId="point_4__point_2">
+                <num>(2)</num>
+                <content>
+                  <p>תנאי המקנה לספק זכות בלתי סבירה לבטל, להשעות או לדחות את ביצוע החוזה, או לשנות את חיוביו המהותיים לפי החוזה;</p>
+                </content>
+              </point>
+              <point eId="point_4__point_3">
+                <num>(3)</num>
+                <content>
+                  <p>תנאי המקנה לספק זכות להעביר את אחריותו לצד שלישי;</p>
+                </content>
+              </point>
+              <point eId="point_4__point_4">
+                <num>(4)</num>
+                <content>
+                  <p>תנאי המקנה לספק זכות לקבוע או לשנות, על דעתו בלבד, ולאחר כריתת החוזה, מחיר או חיובים מהותיים אחרים המוטלים על הלקוח, זולת אם השינוי נובע מגורמים שאינם בשליטת הספק;</p>
+                </content>
+              </point>
+              <point eId="point_4__point_5">
+                <num>(5)</num>
+                <content>
+                  <p>תנאי המחייב את הלקוח באופן בלתי סביר להיזקק לספק או לאדם אחר, או המגביל בדרך אחרת את חופש הלקוח להתקשר או לא להתקשר עם אדם אחר;</p>
+                </content>
+              </point>
+              <point eId="point_4__point_6">
+                <num>(6)</num>
+                <content>
+                  <p>תנאי השולל או המגביל זכות או תרופה העומדות ללקוח על פי דין, או המסייג באופן בלתי סביר זכות או תרופה העומדות לו מכוח החוזה, או המתנה אותן במתן הודעה בצורה או תוך זמן בלתי סבירים, או בדרישה בלתי סבירה אחרת;</p>
+                </content>
+              </point>
+              <point eId="point_4__point_6א">
+                <num>(6א)</num>
+                <content>
+                  <p>תנאי המקנה לספק באופן בלתי סביר תרופה שאינה עומדת לו על פי דין, לרבות תנאי המתיר לספק לצרף תרופות שאין לצרפן על פי דין או תנאי הקובע פיצויים מוסכמים שאינם סבירים לטובת הספק;</p>
+                </content>
+              </point>
+              <point eId="point_4__point_7">
+                <num>(7)</num>
+                <content>
+                  <p>תנאי המטיל את ההוכחה על הלקוח, ואלמלא אותו התנאי נטל זה לא היה מוטל עליו;</p>
+                </content>
+              </point>
+              <point eId="point_4__point_8">
+                <num>(8)</num>
+                <content>
+                  <p>תנאי השולל או המגביל את זכות הלקוח. להשמיע טענות מסויימות בערכאות משפטיות, או הקובע כי כל סכסוך בין הספק והלקוח יידון בבוררות;</p>
+                </content>
+              </point>
+              <point eId="point_4__point_9">
+                <num>(9)</num>
+                <content>
+                  <p>תנאי המתנה על הוראות דין בדבר מקום שיפוט או המקנה לספק זכות בלעדית לבחירת מקום השיפוט או הבוררות שבהם יתברר סכסוך;</p>
+                </content>
+              </point>
+              <point eId="point_4__point_10">
+                <num>(10)</num>
+                <content>
+                  <p>תנאי הקובע מסירת סכסוך לבוררות כאשר לספק השפעה גדולה יותר מאשר ללקוח על תנאי הבוררות, לרבות קביעת הבורר, מקום הבוררות, תנאים שעל פיהם תתנהל הבוררות, אופן ניהול הבוררות וסדרי הדין בבוררות, והכול אף אם הספק הוכיח כי מסירת הסכסוך לבוררות כשלעצמה כאמור בפסקה (8) אינה מקפחת;</p>
+                </content>
+              </point>
+              <point eId="point_4__point_11">
+                <num>(11)</num>
+                <content>
+                  <p>תנאי הקובע הצמדה של מחיר או תשלום אחר, לפי החוזה, למדד כלשהו, כך שירידה של המדד או עלייה שלו לא תזכה את הלקוח;</p>
+                </content>
+              </point>
+              <point eId="point_4__point_12">
+                <num>(12)</num>
+                <content>
+                  <p>תנאי שלפיו נדרש הלקוח לאשר או להצהיר כי קרא את החוזה, או תנאי שבו הלקוח מצהיר על מעשה שעשה, על מודעותו לעניין מסוים, או על עובדה שמתקיימת בעניינו, והכול למעט מידע שהלקוח מסר לספק בחוזה.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_5">
+            <heading>
+              <authorialNote placement="side">
+                <p>תנאים בטלים בחוזה אחיד</p>
+              </authorialNote>
+            </heading>
+            <num>5.</num>
+            <list>
+              <point eId="point_5__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>תנאי בחוזה אחיד השולל או המגביל את זכות הלקוח לפנות לערכאות משפטיות – בטל.</p>
+                </content>
+              </point>
+              <point eId="point_5__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>תנאי בחוזה אחיד הפוטר את הספק, באופן מלא או חלקי, מאחריות לנזק גוף או למעשה זדון המוטלת עליו על פי דין – בטל.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+        </list>
+      </chapter>
+      <chapter eId="chp_ב">
+        <num>פרק ב׳:</num>
+        <title>
+          <content>
+            <p>בית הדין לחוזים אחידים</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_6">
+            <heading>
+              <authorialNote placement="side">
+                <p>בית הדין וחבריו</p>
+              </authorialNote>
+            </heading>
+            <num>6.</num>
+            <list>
+              <point eId="point_6__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>מוקם בזה בית דין לחוזים אחידים.</p>
+                </content>
+              </point>
+              <point eId="point_6__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>מספר חברי בית הדין לא יעלה על שנים עשר.</p>
+                </content>
+              </point>
+              <point eId="point_6__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>אב בית הדין וממלא מקומו יהיו שופטים של בית משפט מחוזי שימנה שר המשפטים בהתייעצות עם נשיא בית המשפט העליון.</p>
+                </content>
+              </point>
+              <point eId="point_6__point_ד">
+                <num>(ד)</num>
+                <content>
+                  <p>יתר חברי בית הדין ימונו בידי שר המשפטים, ובהם יהיו לפחות שני נציגים של ארגוני צרכנים כהגדרתם <ref href="/akn/il/act/PrimaryLegislation/1981-04-26/148395#point_31">בסעיף 31(ג) לחוק הגנת הצרכן, התשמ"א–1981</ref>; חברי בית הדין שימונו לפי סעיף קטן זה יהיו בעלי השכלה משפטית או כלכלית, ואולם במותב מסוים לא יהיה חבר יותר מחבר אחד שהוא בעל השכלה כלכלית בלבד; מספר החברים שהם עובדי המדינה לא יעלה על שליש מכלל החברים שימנה השר לפי סעיף קטן זה.</p>
+                </content>
+              </point>
+              <point eId="point_6__point_ה">
+                <num>(ה)</num>
+                <content>
+                  <p>תקופת כהונתם של חברי בית הדין תהיה שלוש שנים.</p>
+                </content>
+              </point>
+              <point eId="point_6__point_ו">
+                <num>(ו)</num>
+                <content>
+                  <p>הודעה על מינוי חברי בית הדין תפורסם ברשומות.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_7">
+            <heading>
+              <authorialNote placement="side">
+                <p>מותב בית הדין</p>
+              </authorialNote>
+            </heading>
+            <num>7.</num>
+            <list>
+              <point eId="point_7__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>בית הדין ידון בשלושה; אב בית הדין – ואם נבצר ממנו – ממלא מקומו, יקבע את מותב בית הדין; כל מותב יורכב מאב בית הדין או ממלא מקומו, ומשני חברים אחרים שלפחות אחד מהם הוא נציג ארגון צרכנים.</p>
+                </content>
+              </point>
+              <point eId="point_7__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>הוראות <ref href="/akn/il/act/PrimaryLegislation/1992-02-27/153664#point_18">סעיף 18 לחוק בתי דין מינהליים, התשנ"ב–1992</ref>, יחולו בשינוי זה: במקום ”<ref href="/akn/il/act/PrimaryLegislation/1992-02-27/153664#point_33">33</ref>, <ref href="/akn/il/act/PrimaryLegislation/1992-02-27/153664#point_36">36</ref><ref href="/akn/il/act/PrimaryLegislation/1992-02-27/153664#point_46">ו־46</ref>“ יקראו ”<ref href="/akn/il/act/PrimaryLegislation/1992-02-27/153664#point_33">ו־33</ref>“.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_8">
+            <heading>
+              <authorialNote placement="side">
+                <p>ניגוד ענינים</p>
+              </authorialNote>
+            </heading>
+            <num>8.</num>
+            <content>
+              <p>מי שעיסוקיו האחרים עלולים ליצור ניגוד ענינים עם תפקידו כחבר מותב של בית הדין בהליך מסויים או שיש לו ענין אישי בהליך – לא יהיה חבר במותב שידון באותו הליך.</p>
+            </content>
+          </point>
+          <point eId="point_9">
+            <heading>
+              <authorialNote placement="side">
+                <p>ראיות וסדרי דין</p>
+              </authorialNote>
+            </heading>
+            <num>9.</num>
+            <list>
+              <point eId="point_9__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>בית הדין לא יהיה קשור בדיני הראיות, פרט לדינים בדבר חסינות עדים ובדבר ראיות חסויות כאמור <ref href="/akn/il/act/PrimaryLegislation/1971-04-28/2002283#chp_ג">בפרק ג׳ לפקודת הראיות [נוסח חדש], התשל"א–1971</ref>.</p>
+                </content>
+              </point>
+              <point eId="point_9__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>לענין הזמנת עדים וגביית ראיות יהיו לאב בית הדין ולממלא מקומו הסמכויות שיש ליושב ראש ועדת חקירה לפי <ref href="/akn/il/act/PrimaryLegislation/1969-01-08/147339#point_9">סעיפים 9 עד 11 לחוק ועדות חקירה, התשכ"ט–1968</ref>.</p>
+                </content>
+              </point>
+              <point eId="point_9__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>בית הדין ידון לפי סדרי דין שהתקין שר המשפטים; באין סדרי דין כאלה ידון בית הדין בדרך הנראית לו מועילה ביותר להכרעה צודקת ומהירה.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_10">
+            <heading>
+              <authorialNote placement="side">
+                <p>ערעור</p>
+              </authorialNote>
+            </heading>
+            <num>10.</num>
+            <content>
+              <p>בעל דין הרואה עצמו נפגע מהחלטת בית הדין, רשאי לערער עליה לפני בית המשפט העליון תוך ארבעים וחמישה ימים מיום שנודע לו עליה.</p>
+            </content>
+          </point>
+          <point eId="point_11">
+            <heading>
+              <authorialNote placement="side">
+                <p>פרסום החלטות בית הדין</p>
+              </authorialNote>
+            </heading>
+            <num>11.</num>
+            <content>
+              <p>בכפוף להוראות <ref href="/akn/il/act/PrimaryLegislation/1992-02-27/153664#point_25">סעיף 25 לחוק בתי דין מינהליים, התשנ"ב–1992</ref>, פסקי דין והחלטות אחרות של בית הדין לחוזים אחידים, לרבות נוסח חוזים אחידים שאליהם מתייחסים פסקי דין או החלטות כאמור, יפורסמו כדרך שמתפרסמים פסקי דין והחלטות אחרות של בתי המשפט המחוזיים; בית הדין רשאי לפרסם פסקי דין והחלטות שלו בדרכים נוספות שייראו לו מתאימות, לתועלת הציבור.</p>
+            </content>
+          </point>
+        </list>
+      </chapter>
+      <chapter eId="chp_ג">
+        <num>פרק ג׳:</num>
+        <title>
+          <content>
+            <p>אישור חוזה אחיד <wikicomment font-size="x-small">(בוטל)</wikicomment></p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_12">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>12.</num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">(בוטל).</wikicomment>
+              </p>
+            </content>
+          </point>
+          <point eId="point_13">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>13.</num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">(בוטל).</wikicomment>
+              </p>
+            </content>
+          </point>
+          <point eId="point_14">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>14.</num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">(בוטל).</wikicomment>
+              </p>
+            </content>
+          </point>
+          <point eId="point_15">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>15.</num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">(בוטל).</wikicomment>
+              </p>
+            </content>
+          </point>
+        </list>
+      </chapter>
+      <chapter eId="chp_ד">
+        <num>פרק ד׳:</num>
+        <title>
+          <content>
+            <p>ביטול תנאי מקפח</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_16">
+            <heading>
+              <authorialNote placement="side">
+                <p>בקשה לבית הדין לבטל תנאי מקפח</p>
+              </authorialNote>
+            </heading>
+            <num>16.</num>
+            <list>
+              <point eId="point_16__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>היועץ המשפטי לממשלה או בא כוחו, הממונה על הגנת הצרכן והסחר ההוגן לפי <ref href="/akn/il/act/PrimaryLegislation/1981-04-26/148395">חוק הגנת הצרכן, התשמ"א–1981</ref>, כל ארגון לקוחות ורשות ציבורית שנקבעו בתקנות וכן ארגון לקוחות שיאשר שר המשפטים לענין מסוים, רשאים לבקש מבית הדין לבטל או לשנות תנאי מקפח בחוזה אחיד.<br space="preserve"></br><wikicomment font-size="x-small">פורסמה הודעה לפיה איגוד המפרסמים בישראל וארגון שחקני הכדורגל בישראל אושרו כארגונים הרשאים לבקש ביטול תנאי מקפח בחוזה אחיד (י"פ תשמ"ו, 709).</wikicomment></p>
+                </content>
+              </point>
+              <point eId="point_16__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>שר המשפטים רשאי לקבוע לארגון לקוחות או לרשות ציבורית שנקבעו לפי סעיף קטן (א) תנאים להגשת בקשות לבית הדין.</p>
+                </content>
+              </point>
+              <point eId="point_16__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>המשיבים לבקשה יהיו הספק המתקשר או המתכוון להתקשר בחוזה האחיד, היועץ המשפטי לממשלה, לפי העניין, וכן מי שבית הדין מצא לנכון להזמינו כמשיב; כל ארגון יציג של ספקים או כל גורם אחר שהוא בעל עניין בבקשה כאמור רשאי להצטרף כמשיב, ובלבד שבית הדין אישר זאת.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_17">
+            <heading>
+              <authorialNote placement="side">
+                <p>ביטול ושינוי תנאי בבית הדין</p>
+              </authorialNote>
+            </heading>
+            <num>17.</num>
+            <list>
+              <point eId="point_17__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>מצא בית הדין שתנאי הוא מקפח, יבטל את התנאי או ישנה אותו במידה הנדרשת כדי לבטל את הקיפוח.</p>
+                </content>
+              </point>
+              <point eId="point_17__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>ביטל בית הדין תנאי או שינה אותו, כאמור בסעיף קטן (א), יגיש הספק לבית הדין נוסח מתוקן של החוזה האחיד הכולל את הביטול או השינוי שעליו הורה בית הדין, בתוך 21 ימים מהמועד שבו הפכה ההחלטה לחלוטה; הגיש הספק נוסח מתוקן כאמור, יקבע בית הדין אם החוזה שהוגש תוקן בהתאם להחלטתו.</p>
+                </content>
+              </point>
+              <point eId="point_17__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>ביטל בית הדין תנאי או שינה אותו, כאמור בסעיף קטן (א), רשאי הוא לתת כל צו להבטחת קיום החלטתו כאמור, ובכלל זה לחייב את הספק להשתמש בנוסח המתוקן של החוזה האחיד כאמור בסעיף קטן (ב), לתקופה שיקבע; צו לפי סעיף זה, דינו לעניין ביצוע הצו ולעניין <ref href="/akn/il/act/PrimaryLegislation/1933-12-31/2001723#point_6">סעיף 6 לפקודת ביזיון בית משפט</ref>, כדין צו שניתן בידי בית משפט בעניין אזרחי.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_18">
+            <heading>
+              <authorialNote placement="side">
+                <p>כוחם של ביטול ושינוי תנאי מקפח בבית הדין</p>
+              </authorialNote>
+            </heading>
+            <num>18.</num>
+            <list>
+              <point eId="point_18__point_א">
+                <num>(א)</num>
+                <list>
+                  <intro>
+                    <p>ביטל בית הדין תנאי או שינה אותו, כאמור <ref href="#point_17">בסעיף 17(א)</ref>, יראו את התנאי האמור כבטל או שהתנאי האמור יחול בנוסחו כפי ששונה, לפי העניין –</p>
+                  </intro>
+                  <point eId="point_18__point_א__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>בכל חוזה אחיד אחר של אותו ספק שבית הדין קבע לגביו כי הוא דומה במהותו לחוזה האחיד שלגביו ניתנה החלטת בית הדין;</p>
+                    </content>
+                  </point>
+                  <point eId="point_18__point_א__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>בכל חוזה שנכרת על פי החוזה האחיד שלגביו ניתנה החלטת בית הדין או על פי חוזה אחיד כאמור בפסקה (1), אף אם נכרת לפני מועד החלטת בית הדין.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_18__point_ב">
+                <num>(ב)</num>
+                <list>
+                  <intro>
+                    <p>על אף האמור בסעיף קטן (א) –</p>
+                  </intro>
+                  <point eId="point_18__point_ב__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>ביטול או שינוי כאמור באותו סעיף קטן לא יחולו על חיובים שקוימו על פי החוזה לפני מועד החלטת בית הדין;</p>
+                    </content>
+                  </point>
+                  <point eId="point_18__point_ב__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>בית הדין רשאי לקבוע כי הביטול או השינוי כאמור באותו סעיף קטן יחולו רק על חוזים שנכרתו לאחר מועד החלטת בית הדין או ממועד אחר שיקבע, ובלבד שלולא קביעה כאמור תיגרם לספק פגיעה חמורה.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+            </list>
+          </point>
+          <point eId="point_19">
+            <heading>
+              <authorialNote placement="side">
+                <p>ביטול ושינוי תנאי בבית משפט</p>
+              </authorialNote>
+            </heading>
+            <num>19.</num>
+            <list>
+              <point eId="point_19__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>מצא בית משפט, בהליך שבין ספק ולקוח, שתנאי הוא מקפח, יבטל את התנאי בחוזה שביניהם או ישנה אותו במידה הנדרשת כדי לבטל את הקיפוח.</p>
+                </content>
+              </point>
+              <point eId="point_19__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>בהשתמשו בסמכותו לפי סעיף קטן (א) יתחשב בית המשפט במכלול תנאי החוזה ובנסיבות האחרות, וכן בנסיבות המיוחדות של הענין הנדון לפניו.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_20">
+            <heading>
+              <authorialNote placement="side">
+                <p>הודעה על טענת תנאי מקפח</p>
+              </authorialNote>
+            </heading>
+            <num>20.</num>
+            <content>
+              <p>נטענה בבית משפט טענת תנאי מקפח בחוזה שנכרת לפי חוזה אחיד יודיע בית המשפט על כך ליועץ המשפטי לממשלה.</p>
+            </content>
+          </point>
+          <point eId="point_21">
+            <heading>
+              <authorialNote placement="side">
+                <p>דיון מקביל</p>
+              </authorialNote>
+            </heading>
+            <num>21.</num>
+            <list>
+              <point eId="point_21__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>דיון בבית הדין בחוזה אחיד, שטרם נתקבלה החלטה לגביו, לא יגרע מסמכותו של בית משפט לדון בטענת תנאי מקפח בחוזה שנכרת לפי אותו חוזה אחיד.</p>
+                </content>
+              </point>
+              <point eId="point_21__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>דיון בבית משפט בטענת תנאי מקפה בחוזה שנכרת לפי חוזה אחיד, אין בו כדי למנוע מבית הדין לדון באותו חוזה אחיד או בתנאי מתנאיו; אך בית הדין רשאי אם יראה לנכון בנסיבות הענין, לדחות את המשך הדיון בפניו עד למתן פסק דין בבית המשפט.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_21א">
+            <heading>
+              <authorialNote placement="side">
+                <p>חליפים של לקוח וספק</p>
+              </authorialNote>
+            </heading>
+            <num>21א.</num>
+            <content>
+              <p>הוראות <ref href="#point_18">סעיפים 18</ref><ref href="#point_19">ו־19</ref> יחולו גם על חליפים של לקוח או ספק מכוח העברה או המחאה של זכות.</p>
+            </content>
+          </point>
+        </list>
+      </chapter>
+      <chapter eId="chp_ה">
+        <num>פרק ה׳:</num>
+        <title>
+          <content>
+            <p>הוראות שונות</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_22">
+            <heading>
+              <authorialNote placement="side">
+                <p>דין המדינה</p>
+              </authorialNote>
+            </heading>
+            <num>22.</num>
+            <content>
+              <p>לענין חוק זה דין המדינה כדין כל אדם אחר.</p>
+            </content>
+          </point>
+          <point eId="point_23">
+            <heading>
+              <authorialNote placement="side">
+                <p>סייגים לתחולה</p>
+              </authorialNote>
+            </heading>
+            <num>23.</num>
+            <list>
+              <intro>
+                <p>הוראות חוק זה לא יחולו על –</p>
+              </intro>
+              <point eId="point_23__point_1">
+                <num>(1)</num>
+                <content>
+                  <p>תנאי הקובע את התמורה הכספית שישלם הלקוח או הספק בעד נושא העסקה, ובלבד שהוא מנוסח בלשון פשוטה וברורה;</p>
+                </content>
+              </point>
+              <point eId="point_23__point_2">
+                <num>(2)</num>
+                <content>
+                  <p>תנאי התואם תנאים שנקבעו בחיקוק, בהתאם לתכלית החיקוק;</p>
+                </content>
+              </point>
+              <point eId="point_23__point_3">
+                <num>(3)</num>
+                <content>
+                  <p>תנאי התואם תנאים שנקבעו בהסכם בין־לאומי שישראל צד לו;</p>
+                </content>
+              </point>
+              <point eId="point_23__point_4">
+                <num>(4)</num>
+                <content>
+                  <p>הסכם קיבוצי לפי <ref href="/akn/il/act/PrimaryLegislation/1957-02-28/147278">חוק הסכמים קיבוציים, התשי"ז–1957</ref>, בין שהוגש לרישום לפי <ref href="/akn/il/act/PrimaryLegislation/1957-02-28/147278">החוק האמור</ref> ובין אם לאו, לרבות הסדר קיבוצי אחר ובלבד שנעשה בכתב ונקבעו בו שיעורים לשכר עבודה.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_24">
+            <heading>
+              <authorialNote placement="side">
+                <p>שמירת דינים</p>
+              </authorialNote>
+            </heading>
+            <num>24.</num>
+            <content>
+              <p>הוראות חוק זה לא יגרעו מהוראות כל דין שעל פיו עשוי חוזה או תנאי שבחוזה להיות בטל או ניתן לביטול, ולא ימנעו טענה נגד חוזה או תנאי שבחוזה.</p>
+            </content>
+          </point>
+          <point eId="point_25">
+            <heading>
+              <authorialNote placement="side">
+                <p>ביצוע ותקנות</p>
+              </authorialNote>
+            </heading>
+            <num>25.</num>
+            <list>
+              <point eId="point_25__point_א">
+                <num>(א)</num>
+                <list>
+                  <intro>
+                    <p>שר המשפטים ממונה על ביצוע חוק זה והוא רשאי להתקין תקנות לביצועו, לרבות בדבר –</p>
+                  </intro>
+                  <point eId="point_25__point_א__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>סדרי הדין בבית הדין, הארכת המועדים להגשת ערעור, ורציפות הדיון;</p>
+                    </content>
+                  </point>
+                  <point eId="point_25__point_א__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>אנשים וארגונים שיהיו רשאים לטעון לטובת בעל דין או שיהיו רשאים להיות משיבים לפני בית הדין;</p>
+                    </content>
+                  </point>
+                  <point eId="point_25__point_א__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>
+                        <wikicomment font-size="x-small">(נמחקה);</wikicomment>
+                      </p>
+                    </content>
+                  </point>
+                  <point eId="point_25__point_א__point_4">
+                    <num>(4)</num>
+                    <content>
+                      <p>תשלום הוצאות ודמי בטלה של עדים בהליכים לפני בית הדין;</p>
+                    </content>
+                  </point>
+                  <point eId="point_25__point_א__point_5">
+                    <num>(5)</num>
+                    <content>
+                      <p>
+                        <wikicomment font-size="x-small">(נמחקה);</wikicomment>
+                      </p>
+                    </content>
+                  </point>
+                  <point eId="point_25__point_א__point_6">
+                    <num>(6)</num>
+                    <content>
+                      <p>הטלת חובה על ספק להמציא עותק מחוזה אחיד שהוא מתקשר או מתכוון להתקשר על פיו, ליועץ המשפטי לממשלה או לממונה על הגנת הצרכן והסחר ההוגן, לפי דרישתם;</p>
+                    </content>
+                  </point>
+                  <point eId="point_25__point_א__point_7">
+                    <num>(7)</num>
+                    <content>
+                      <p>נסיבות או סוגי חוזים שבהם לא תחול החזקה האמורה <ref href="#point_4">בסעיף 4(11)</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_25__point_א__point_8">
+                    <num>(8)</num>
+                    <content>
+                      <p>פרסום מסמכים הנוגעים להליך המתנהל לפני בית הדין ואופן פרסומם.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_25__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>תקנות לפי סעיף קטן (א)(7) יותקנו באישור ועדת הכלכלה של הכנסת.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_26">
+            <heading>
+              <authorialNote placement="side">
+                <p>ביטול</p>
+              </authorialNote>
+            </heading>
+            <num>26.</num>
+            <content>
+              <p>חוק החוזים האחידים, התשכ"ד–1964 (להלן – החוק הקודם) – בטל.</p>
+            </content>
+          </point>
+          <point eId="point_27">
+            <heading>
+              <authorialNote placement="side">
+                <p>תחילה, תחולה והוראות מעבר</p>
+              </authorialNote>
+            </heading>
+            <num>27.</num>
+            <list>
+              <point eId="point_27__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>תחילתו של חוק זה ששה חדשים מיום פרסומו ברשומות.</p>
+                </content>
+              </point>
+              <point eId="point_27__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>על חוזים שנכרתו לפני תחילתו של חוק זה, יוסיף לחול החוק הקודם; לענין התחולה רואים חידוש חוזה ככריתתו.</p>
+                </content>
+              </point>
+              <point eId="point_27__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>החלה המועצה להגבלים עסקיים בדיון לפי החוק הקודם לפני תחילתו של חוק זה, תסיים את הדיון לפי החוק הקודם אף לאחר תחילתו של חוק זה.</p>
+                </content>
+              </point>
+              <point eId="point_27__point_ד">
+                <num>(ד)</num>
+                <content>
+                  <p>אישור שהמועצה להגבלים עסקיים נתנה לחוזה אחיד כוחו יפה עד לתום התקופה שלה ניתן.</p>
+                </content>
+              </point>
+              <point eId="point_27__point_ה">
+                <num>(ה)</num>
+                <content>
+                  <p>על אף האמור בסעיף קטן (ב), החלטת בית הדין לפי <ref href="#point_18">סעיף 18(ב)</ref> תחול גם על חוזים שנכרתו לפני תחילתו של חוק זה.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+        </list>
+      </chapter>
+    </body>
+    <conclusions eId="eId">
+      <p class="signatures">
+        <signature>
+          <p>
+            <person refersTo="מנחם_בגין">מנחם בגין</person>
+            <role refersTo="ראש_הממשלה">ראש הממשלה</role>
+          </p>
+        </signature>
+        <signature>
+          <p>
+            <person refersTo="משה_נסים">משה נסים</person>
+            <role refersTo="שר_המשפטים">שר המשפטים</role>
+          </p>
+        </signature>
+        <signature>
+          <p>
+            <person refersTo="יצחק_נבון">יצחק נבון</person>
+            <role refersTo="נשיא_המדינה">נשיא המדינה</role>
+          </p>
+        </signature>
+      </p>
+    </conclusions>
+  </act>
+</akomaNtoso>

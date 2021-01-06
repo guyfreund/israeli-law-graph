@@ -1,0 +1,2771 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion" name="publicLaw">
+    <meta>
+      <identification source="#kensset">
+        <FRBRWork>
+          <FRBRthis value="/akn/il/act/SecondaryLegislation/2019-04-10/100042751/main" />
+          <FRBRuri value="/akn/il/act/SecondaryLegislation/2019-04-10/100042751" />
+          <FRBRdate date="2019-04-10" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRcountry value="israel" />
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/il/act/SecondaryLegislation/2019-04-10/100042751/he@/main" />
+          <FRBRuri value="/akn/il/act/SecondaryLegislation/2019-04-10/100042751/he@" />
+          <FRBRdate date="2019-04-10" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRlanguage language="hebrew" />
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/il/act/SecondaryLegislation/2019-04-10/100042751/he@/main.xml" />
+          <FRBRuri value="/akn/il/act/SecondaryLegislation/2019-04-10/100042751/he@" />
+          <FRBRdate date="2019-04-10" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRformat value="xml" />
+        </FRBRManifestation>
+      </identification>
+      <classification source="#kensset">
+        <keyword value="{classificationValue}" showAs="{classificationValue}" dictionary="#classification_dictionary" />
+      </classification>
+      <lifecycle source="#kensset">
+        <eventRef eId="eventRef_1" date="2019-04-10" source="#kensset" type="generation" />
+      </lifecycle>
+      <references source="#kensset">
+        <TLCOrganization eId="kensset" href="/ontology/organization/akn/knesset" showAs="Kensset" type="generation" />
+        <TLCRole eId="author" href="/ontology/role/akn/author" showAs="Author of Document" />
+        <TLCProcess eId="inforce" href="/ontology/process/akn/inforce" showAs="In force" />
+        <TLCTerm eId="term_1" href="/ontology/term/אזור/100042751" showAs="אזור" />
+        <TLCTerm eId="term_2" href="/ontology/term/איש_ציבור_זר/100042751" showAs="איש_ציבור_זר" />
+        <TLCTerm eId="term_3" href="/ontology/term/אמנה_לביטול_דרישת_האימות/100042751" showAs="אמנה_לביטול_דרישת_האימות" />
+        <TLCTerm eId="term_4" href="/ontology/term/ארגון_ה־FATF/100042751" showAs="ארגון_ה־FATF" />
+        <TLCTerm eId="term_5" href="/ontology/term/ארגון_ה־OECD/100042751" showAs="ארגון_ה־OECD" />
+        <TLCTerm eId="term_6" href="/ontology/term/בן_משפחה/100042751" showAs="בן_משפחה" />
+        <TLCTerm eId="term_7" href="/ontology/term/בנק_מחוץ_לישראל/100042751" showAs="בנק_מחוץ_לישראל" />
+        <TLCTerm eId="term_8" href="/ontology/term/הכרת_הלקוח/100042751" showAs="הכרת_הלקוח" />
+        <TLCTerm eId="term_9" href="/ontology/term/המינהל_האזרחי/100042751" showAs="המינהל_האזרחי" />
+        <TLCTerm eId="term_10" href="/ontology/term/הממונה/100042751" showAs="הממונה" />
+        <TLCTerm eId="term_11" href="/ontology/term/הרשימות/100042751" showAs="הרשימות" />
+        <TLCTerm eId="term_12" href="/ontology/term/חברה_מנהלת/100042751" showAs="חברה_מנהלת" />
+        <TLCTerm eId="term_13" href="/ontology/term/חוק_הבנקאות_(רישוי)/100042751" showAs="חוק_הבנקאות_(רישוי)" />
+        <TLCTerm eId="term_14" href="/ontology/term/חוק_הפיקוח_על_שירותים_פיננסיים_מוסדרים/100042751" showAs="חוק_הפיקוח_על_שירותים_פיננסיים_מוסדרים" />
+        <TLCTerm eId="term_15" href="/ontology/term/חוק_למניעת_הפצה_ומימון_של_נשק_להשמדה_המונית/100042751" showAs="חוק_למניעת_הפצה_ומימון_של_נשק_להשמדה_המונית" />
+        <TLCTerm eId="term_16" href="/ontology/term/יחיד/100042751" showAs="יחיד" />
+        <TLCTerm eId="term_17" href="/ontology/term/כרטיס_אשראי/100042751" showAs="כרטיס_אשראי" />
+        <TLCTerm eId="term_18" href="/ontology/term/כרטיס_בנק/100042751" showAs="כרטיס_בנק" />
+        <TLCTerm eId="term_19" href="/ontology/term/לווה/100042751" showAs="לווה" />
+        <TLCTerm eId="term_20" href="/ontology/term/מבטח/100042751" showAs="מבטח" />
+        <TLCTerm eId="term_21" href="/ontology/term/מוסד_פיננסי/100042751" showAs="מוסד_פיננסי" />
+        <TLCTerm eId="term_22" href="/ontology/term/מוסד_ציבורי/100042751" showAs="מוסד_ציבורי" />
+        <TLCTerm eId="term_23" href="/ontology/term/מיופה_כוח/100042751" showAs="מיופה_כוח" />
+        <TLCTerm eId="term_24" href="/ontology/term/מלווה/100042751" showAs="מלווה" />
+        <TLCTerm eId="term_25" href="/ontology/term/מלווה_בסכום_מזערי_במערכת_חברתית_לתיווך_אשראי/100042751" showAs="מלווה_בסכום_מזערי_במערכת_חברתית_לתיווך_אשראי" />
+        <TLCTerm eId="term_26" href="/ontology/term/מסמכי_העברה/100042751" showAs="מסמכי_העברה" />
+        <TLCTerm eId="term_27" href="/ontology/term/מספר_זהות/100042751" showAs="מספר_זהות" />
+        <TLCTerm eId="term_28" href="/ontology/term/מסמך_רשמי/100042751" showAs="מסמך_רשמי" />
+        <TLCTerm eId="term_29" href="/ontology/term/מען/100042751" showAs="מען" />
+        <TLCTerm eId="term_30" href="/ontology/term/מערכת_לתיווך_באשראי/100042751" showAs="מערכת_לתיווך_באשראי" />
+        <TLCTerm eId="term_31" href="/ontology/term/מפעיל/100042751" showAs="מפעיל" />
+        <TLCTerm eId="term_32" href="/ontology/term/מפעיל_מערכת_חברתית_לתיווך_אשראי/100042751" showAs="מפעיל_מערכת_חברתית_לתיווך_אשראי" />
+        <TLCTerm eId="term_33" href="/ontology/term/מקבל_שירות/100042751" showAs="מקבל_שירות" />
+        <TLCTerm eId="term_34" href="/ontology/term/מקבל_שירות_בסכום_נמוך/100042751" showAs="מקבל_שירות_בסכום_נמוך" />
+        <TLCTerm eId="term_35" href="/ontology/term/מתן_אשראי/100042751" showAs="מתן_אשראי" />
+        <TLCTerm eId="term_36" href="/ontology/term/נהנה/100042751" showAs="נהנה" />
+        <TLCTerm eId="term_37" href="/ontology/term/נושא_משרה/100042751" showAs="נושא_משרה" />
+        <TLCTerm eId="term_38" href="/ontology/term/נותן_שירותים_פיננסיים/100042751" showAs="נותן_שירותים_פיננסיים" />
+        <TLCTerm eId="term_39" href="/ontology/term/נכס_פיננסי/100042751" showAs="נכס_פיננסי" />
+        <TLCTerm eId="term_40" href="/ontology/term/עורך_דין/100042751" showAs="עורך_דין" />
+        <TLCTerm eId="term_41" href="/ontology/term/פעולה/100042751" showAs="פעולה" />
+        <TLCTerm eId="term_42" href="/ontology/term/שם/100042751" showAs="שם" />
+        <TLCTerm eId="term_43" href="/ontology/term/תאגיד/100042751" showAs="תאגיד" />
+        <TLCTerm eId="term_44" href="/ontology/term/תאגיד_קשור/100042751" showAs="תאגיד_קשור" />
+        <TLCTerm eId="term_45" href="/ontology/term/תושב/100042751" showAs="תושב" />
+        <TLCTerm eId="term_46" href="/ontology/term/תושב_אזור/100042751" showAs="תושב_אזור" />
+        <TLCTerm eId="term_47" href="/ontology/term/תושב_חוץ/100042751" showAs="תושב_חוץ" />
+        <TLCTerm eId="term_48" href="/ontology/term/תפקיד_ציבורי_בכיר/100042751" showAs="תפקיד_ציבורי_בכיר" />
+        <TLCTerm eId="term_49" href="/ontology/term/תקנות_העדות/100042751" showAs="תקנות_העדות" />
+        <TLCTerm eId="term_50" href="/ontology/term/העתק_מאושר/100042751" showAs="העתק_מאושר" />
+        <TLCTerm eId="term_51" href="/ontology/term/מקבל_שירות/100042751" showAs="מקבל_שירות" />
+        <TLCTerm eId="term_52" href="/ontology/term/העברה/100042751" showAs="העברה" />
+        <TLCTerm eId="term_53" href="/ontology/term/חשבון_אחר/100042751" showAs="חשבון_אחר" />
+        <TLCTerm eId="term_54" href="/ontology/term/חשבון_מקור/100042751" showAs="חשבון_מקור" />
+        <TLCTerm eId="term_55" href="/ontology/term/חשבון_המפעיל/100042751" showAs="חשבון_המפעיל" />
+        <TLCTerm eId="term_56" href="/ontology/term/פעולה_במערכת_סגורה/100042751" showAs="פעולה_במערכת_סגורה" />
+        <TLCTerm eId="term_57" href="/ontology/term/פעולה_במערכת_סגורה_למחצה/100042751" showAs="פעולה_במערכת_סגורה_למחצה" />
+        <TLCTerm eId="term_58" href="/ontology/term/פעולה/100042751" showAs="פעולה" />
+        <TLCTerm eId="term_59" href="/ontology/term/צד_לפעולה/100042751" showAs="צד_לפעולה" />
+        <TLCPerson eId="משה_כחלון" href="/ontology/person/משה_כחלון" showAs="משה כחלון" />
+        <TLCRole eId="שר_האוצר" href="ontology/role/akn/שר_האוצר" showAs="שר האוצר" />
+      </references>
+      <temporalData source="#kensset">
+        <temporalGroup eId="tmpg_1" />
+      </temporalData>
+      <Publication></Publication>
+      <proprietary wikiversion="12/15/2020 6:05:52 AM" />
+    </meta>
+    <body period="#tmpg_1">
+      <title eId="title">
+        <content>
+          <p>צו איסור הלבנת הון (חובות זיהוי, דיווח וניהול רישומים של מפעיל מערכת לתיווך באשראי למניעת הלבנת הון ומימון טרור), התשע"ט–2019</p>
+        </content>
+      </title>
+      <preamble eId="eId">
+        <p>בתוקף סמכותי לפי <ref href="/akn/il/act/PrimaryLegislation/2000-08-17/169027#point_7">סעיפים 7(ב) ו־(ג)</ref><ref href="/akn/il/act/PrimaryLegislation/2000-08-17/169027#point_32">ו־32(ג)</ref><ref href="/akn/il/act/PrimaryLegislation/2000-08-17/169027">לחוק איסור הלבנת הון, התש"ס–2000</ref> (להלן – החוק), <ref href="/akn/il/act/PrimaryLegislation/2016-06-23/568876#point_95">וסעיף 95(א)</ref><ref href="/akn/il/act/PrimaryLegislation/2016-06-23/568876">לחוק המאבק בטרור, התשע"ו–2016</ref> (להלן – חוק המאבק בטרור), לאחר התייעצות עם שרת המשפטים ועם השר לביטחון הפנים, ולעניין <ref href="#chp_ד">פרק ד׳</ref> – בהסכמת שרת המשפטים, ובאישור ועדת החוקה חוק ומשפט של הכנסת, אני מצווה לאמור:</p>
+      </preamble>
+      <chapter eId="chp_א">
+        <num>פרק א׳:</num>
+        <title>
+          <content>
+            <p>פרשנות</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_1" class="definitions">
+            <heading>
+              <authorialNote placement="side">
+                <p>הגדרות</p>
+              </authorialNote>
+            </heading>
+            <num>1.</num>
+            <list>
+              <intro>
+                <p>בצו זה –</p>
+              </intro>
+              <point eId="point_1__point_אזור">
+                <content>
+                  <p>
+                    <def />”אזור“ – כל אחד מאלה: יהודה והשומרון ורצועת עזה;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_איש_ציבור_זר">
+                <content>
+                  <p>
+                    <def />”איש ציבור זר“ – תושב חוץ בעל תפקיד ציבורי בכיר בחוץ לארץ בחמש השנים האחרונות, לרבות בן משפחה של תושב חוץ כאמור או תאגיד שהוא בעל שליטה בו, יועץ ומינוי אישי של איש הציבור הזר או שותף עסקי של אחד מאלה;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_אמנה_לביטול_דרישת_האימות">
+                <content>
+                  <p>
+                    <def />”אמנה לביטול דרישת האימות“ – אמנה המבטלת את דרישת האימות לתעודות חוץ ציבוריות כהגדרת האמנה <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/תקנות_לביצוע_אמנת_האג_ביטול_אימות_מסמכי_חוץ_ציבוריים">בתקנות לביצוע אמנת האג (ביטול אימות מסמכי חוץ ציבוריים), התשל"ז–1977</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_ארגון_ה־FATF">
+                <content>
+                  <p>
+                    <def />”ארגון ה־FATF“ ‏(Financial Action Task Force) – הארגון הבין־לאומי למאבק בהלבנת הון ובמימון טרור;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_ארגון_ה־OECD">
+                <content>
+                  <p>
+                    <def />”ארגון ה־OECD“ – ארגון לשיתוף פעולה ופיתוח כלכלי;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_בן_משפחה">
+                <content>
+                  <p>
+                    <def />”בן משפחה“ – כהגדרתו <ref href="/akn/il/act/PrimaryLegislation/1968-08-22/150242">בחוק ניירות ערך, התשכ"ח–1968</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_בנק_מחוץ_לישראל">
+                <content>
+                  <p>
+                    <def />”בנק מחוץ לישראל“ – תאגיד שמתקיימים לגביו התנאים <ref href="#point_8">בתקנה 8(ב)</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_הכרת_הלקוח">
+                <content>
+                  <p>
+                    <def />”הכרת הלקוח“ – הליך הכרת הלקוח לפי <ref href="#point_2">תקנה 2(ב)</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_המינהל_האזרחי">
+                <content>
+                  <p>
+                    <def />”המינהל האזרחי“ – המינהל האזרחי שהקים מפקד כוחות צה"ל באזור יהודה והשומרון;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_הממונה">
+                <content>
+                  <p>
+                    <def />”הממונה“ – כהגדרתו <ref href="/akn/il/act/PrimaryLegislation/2000-08-17/169027#point_11יג">בסעיף 11יג(א)(6) לחוק</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_הרשימות">
+                <list>
+                  <intro>
+                    <p>
+                      <def />”הרשימות“ – כל אחת מאלה:</p>
+                  </intro>
+                  <point eId="point_1__point_הרשימות__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>רשימה מרוכזת של ארגוני טרור מוכרזים ושל מי שהוכרז אדם שהוא פעיל טרור, שפורסמה בהודעה לפי <ref href="/akn/il/act/PrimaryLegislation/2016-06-23/568876#point_18">סעיף 18 לחוק המאבק בטרור</ref>; וכן ארגון או אדם כאמור, שהודעה על הכרזתו כארגון טרור או כאדם שהוא פעיל טרור הומצאה למפעיל בדרך שנקבעה לפי <ref href="/akn/il/act/PrimaryLegislation/2016-06-23/568876#point_18">סעיף 18 לחוק המאבק בטרור</ref>, והמפעיל לא קיבל הודעה על ביטולה;</p>
+                    </content>
+                  </point>
+                  <point eId="point_1__point_הרשימות__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>רשימת הגורמים שהוכרזו כמסייעים להפצה ולמימון של נשק להשמדה המונית לפי <ref href="/akn/il/act/PrimaryLegislation/2018-03-11/2063209#point_3">סעיפים 3</ref><ref href="/akn/il/act/PrimaryLegislation/2018-03-11/2063209#point_4">או 4 לחוק למניעת הפצה ומימון של נשק להשמדה המונית</ref>;</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_1__point_חברה_מנהלת">
+                <content>
+                  <p>
+                    <def />”חברה מנהלת“ ו”קופת גמל“ – כהגדרתן <ref href="/akn/il/act/PrimaryLegislation/2005-08-10/100899">בחוק הפיקוח על שירותים פיננסיים (קופות גמל), התשס"ה–2005</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_חוק_הבנקאות_רישוי">
+                <content>
+                  <p>
+                    <def />”חוק הבנקאות (רישוי)“ – <ref href="/akn/il/act/PrimaryLegislation/1981-04-26/147066">חוק הבנקאות (רישוי), התשמ"א–1981</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_חוק_הפיקוח_על_שירותים_פיננסיים_מוסדרים">
+                <content>
+                  <p>
+                    <def />”חוק הפיקוח על שירותים פיננסיים מוסדרים“ – <ref href="/akn/il/act/PrimaryLegislation/2016-08-01/571496">חוק הפיקוח על שירותים פיננסיים (שירותים פיננסיים מוסדרים), התשע"ו–2016</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_חוק_למניעת_הפצה_ומימון_של_נשק_להשמדה_המונית">
+                <content>
+                  <p>
+                    <def />”חוק למניעת הפצה ומימון של נשק להשמדה המונית“ – <ref href="/akn/il/act/PrimaryLegislation/2018-03-11/2063209">חוק למניעת הפצה ומימון של נשק להשמדה המונית, התשע"ח–2018</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_יחיד">
+                <content>
+                  <p>
+                    <def />”יחיד“ – מי שאינו תאגיד, או שאינו מוסד ציבורי או שאינו תאגיד שהוקם בחיקוק בחוץ לארץ;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_כרטיס_אשראי">
+                <content>
+                  <p>
+                    <def />”כרטיס אשראי“ – כהגדרתו <ref href="/akn/il/act/PrimaryLegislation/2016-08-01/571496#point_25י">בסעיף 25י לחוק הפיקוח על שירותים פיננסיים מוסדרים</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_כרטיס_בנק">
+                <content>
+                  <p>
+                    <def />”כרטיס בנק“ – כהגדרתו <ref href="/akn/il/act/PrimaryLegislation/2019-01-09/2073541">בחוק כרטיסי חיוב, התשמ"ו–1986</ref>, לרבות כרטיס שהנפיק בנק מחוץ לישראל;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_לווה">
+                <content>
+                  <p>
+                    <def />”לווה“ – כהגדרתו <ref href="/akn/il/act/PrimaryLegislation/2016-08-01/571496#point_25יז">בסעיף 25יז לחוק הפיקוח על שירותים פיננסיים מוסדרים</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_מבטח">
+                <content>
+                  <p>
+                    <def />”מבטח“ – כהגדרתו <ref href="/akn/il/act/PrimaryLegislation/1981-04-23/148363">בחוק הפיקוח על שירותים פיננסיים (ביטוח), התשמ"א–1981</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_מוסד_פיננסי">
+                <content>
+                  <p>
+                    <def />”מוסד פיננסי“ – גוף החייב בדיווח לפי <ref href="/akn/il/act/PrimaryLegislation/2000-08-17/169027#point_7">סעיף 7 לחוק</ref> וכן גוף שהתאגד מחוץ לישראל, שנותן שירותים מהסוג שנותנים גופים החייבים בדיווח לפי <ref href="/akn/il/act/PrimaryLegislation/2000-08-17/169027#point_7">סעיף 7 לחוק</ref> או הפועל כבנק להשקעות או כבית סליקה;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_מוסד_ציבורי">
+                <content>
+                  <p>
+                    <def />”מוסד ציבורי“ – משרדי הממשלה, הסוכנות היהודית לארץ ישראל, רשויות מקומיות וכן רשויות, תאגידים או מוסדות אחרים שהוקמו בישראל בחיקוק;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_מיופה_כוח">
+                <content>
+                  <p>
+                    <def />”מיופה כוח“ – מי שמקבל השירות ייפה את כוחו לפעול מטעמו, בין אם מקבל השירות הוא יחיד ובין אם לאו;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_מלווה">
+                <content>
+                  <p>
+                    <def />”מלווה“ – כהגדרתו <ref href="/akn/il/act/PrimaryLegislation/2016-08-01/571496#point_25יז">בסעיף 25יז לחוק הפיקוח על שירותים פיננסיים מוסדרים</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_מלווה_בסכום_מזערי_במערכת_חברתית_לתיווך_אשראי">
+                <content>
+                  <p>
+                    <def />”מלווה בסכום מזערי במערכת חברתית לתיווך אשראי“ – מלווה שהעביר כספים למפעיל מערכת חברתית לתיווך אשראי, בסכום שאינו עולה על 2,500 שקלים חדשים, בפעולה בודדת;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_מסמכי_העברה">
+                <content>
+                  <p>
+                    <def />”מסמכי העברה“ – המסמכים הפיזיים או האלקטרוניים הנדרשים לביצוע פעולה באמצעות העברה אלקטרונית;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_מספר_זהות">
+                <list>
+                  <intro>
+                    <p>
+                      <def />”מספר זהות“ –</p>
+                  </intro>
+                  <point eId="point_1__point_מספר_זהות__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>ליחיד שהוא תושב – מספר זהותו במרשם האוכלוסין;</p>
+                    </content>
+                  </point>
+                  <point eId="point_1__point_מספר_זהות__point_2">
+                    <num>(2)</num>
+                    <list>
+                      <intro>
+                        <p>ליחיד שהוא תושב חוץ – מספר דרכון או מספר תעודת מסע ושם המדינה שבה הוצא הדרכון או תעודת המסע; וליחיד שזוהה לפי מסמך כאמור <ref href="#point_4">בסעיף 4(ב)(8)</ref> – מספר הזיהוי באותו מסמך ושם המדינה שבה הוצא המסמך; אם היחיד הוא מלווה במערכת חברתית לתיווך אשראי, שהוא מקבל שירות בסכום נמוך, מספר הזהות יכול שיהיה גם מספר זיהוי שהוא ייחודי לאותו אדם במרשם רשמי של מדינה, וכן שם המרשם ושם המדינה בה מנוהל אותו מרשם; אם היחיד הוא תושב אזור, מספר הזהות יכול שיהיה גם מספר זהותו בכרטיס מגנטי שהנפיק המינהל האזרחי; על אף האמור בפסקה זו, אם היחיד הוא מלווה בסכום מזערי במערכת חברתית לתיווך אשראי, מספר הזהות יכול שיהיה:</p>
+                      </intro>
+                      <point eId="point_1__point_מספר_זהות__point_2__point_א">
+                        <num>(א)</num>
+                        <content>
+                          <p>אם הפעולה בוצעה בהעברה בנקאית – מספר המוסד הפיננסי, מספר הסניף ומספר החשבון במוסד הפיננסי שממנו התבצעה ההעברה;</p>
+                        </content>
+                      </point>
+                      <point eId="point_1__point_מספר_זהות__point_2__point_ב">
+                        <num>(ב)</num>
+                        <content>
+                          <p>אם הפעולה בוצעה בכרטיס אשראי או כרטיס בנק – סוג הכרטיס, מספר הכרטיס אם ידוע או ארבע ספרות אחרונות של הכרטיס, המדינה המנפיקה וכן מספר חשבון של בעל הכרטיס אם ידוע;</p>
+                        </content>
+                      </point>
+                    </list>
+                  </point>
+                  <point eId="point_1__point_מספר_זהות__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>לתאגיד הרשום בישראל – מספר הרישום במרשם המתאים;</p>
+                    </content>
+                  </point>
+                  <point eId="point_1__point_מספר_זהות__point_4">
+                    <num>(4)</num>
+                    <content>
+                      <p>לתאגיד שאינו רשום בישראל – מספר הרישום במדינת ההתאגדות, אם קיים, ושמה, ואם לא קיים רישום לתאגידים מסוגו – הפרטים הרשומים במסמך ההתאגדות של התאגיד או מספר הרישום שייתן לו המפעיל; ולתאגיד שזוהה לפי מסמך כאמור <ref href="#point_4">בסעיף 4(ב)(8)</ref> – מספר הזיהוי באותו מסמך ושם המדינה שבה הוצא המסמך;</p>
+                    </content>
+                  </point>
+                  <point eId="point_1__point_מספר_זהות__point_5">
+                    <num>(5)</num>
+                    <content>
+                      <p>למוסד ציבורי ובתאגיד שהוקם בחיקוק בחוץ לארץ – מספר הרישום שייתן לו המפעיל;</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_1__point_מסמך_רשמי">
+                <content>
+                  <p>
+                    <def />”מסמך רשמי“ – תדפיס או מכתב, הנושא את שם הבנק או חברת האשראי, לפי העניין;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_מען">
+                <list>
+                  <intro>
+                    <p>
+                      <def />”מען“ –</p>
+                  </intro>
+                  <point eId="point_1__point_מען__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>ליחיד – מענו הרשום במסמך כאמור <ref href="#point_4">בסעיף 4(ב)(1), (2), (7) ו־(8)</ref>, או מקום מגוריו, כפי שמסר, הכולל את שם היישוב, וכן את שם הרחוב, מספר הבית והמיקוד, אם נתונים אלה קיימים, ובתושב חוץ – גם את שם המדינה;</p>
+                    </content>
+                  </point>
+                  <point eId="point_1__point_מען__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>לתאגיד – מענו הרשום במסמך כאמור <ref href="#point_4">בסעיף 4(ב)(3), (4), (5) ו־(8)</ref> או מקום ניהול עסקיו בישראל, ואם אינו מנהל עסקים בישראל – מקום מרכז עסקיו מחוץ לישראל, וכל אלה – כפי שמסר; המען יכלול את שם היישוב, וכן את שם הרחוב, מספר הבית ומיקוד, אם נתונים אלה קיימים, ובתאגיד שאינו רשום בישראל – גם את שם המדינה;</p>
+                    </content>
+                  </point>
+                  <point eId="point_1__point_מען__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>למוסד ציבורי ולתאגיד שהוקם בחיקוק בחוץ לארץ – המען שמסרו הכולל את שם היישוב וכן את שם הרחוב, מספר הבית ומיקוד, אם נתונים אלה קיימים, ולתאגיד שהוקם בחיקוק בחוץ לארץ – גם את שם המדינה;</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_1__point_מערכת_לתיווך_באשראי">
+                <content>
+                  <p>
+                    <def />”מערכת לתיווך באשראי“ – כהגדרתה <ref href="/akn/il/act/PrimaryLegislation/2016-08-01/571496#point_25יז">בסעיף 25יז לחוק הפיקוח על שירותים פיננסיים מוסדרים</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_מפעיל">
+                <content>
+                  <p>
+                    <def />”מפעיל“ – מי שחייב ברישיון להפעלת מערכת לתיווך באשראי לפי <ref href="/akn/il/act/PrimaryLegislation/2016-08-01/571496">חוק הפיקוח על שירותים פיננסיים מוסדרים</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_מפעיל_מערכת_חברתית_לתיווך_אשראי">
+                <content>
+                  <p>
+                    <def />”מפעיל מערכת חברתית לתיווך אשראי“ – כהגדרתו <ref href="/akn/il/act/PrimaryLegislation/2016-08-01/571496#point_25יז">בסעיף 25יז לחוק הפיקוח על שירותים פיננסיים מוסדרים</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_מקבל_שירות">
+                <list>
+                  <intro>
+                    <p>
+                      <def />”מקבל שירות“ – כל אחד מאלה:</p>
+                  </intro>
+                  <point eId="point_1__point_מקבל_שירות__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>לווה או מלווה, אף אם אדם אחר ביקש את השירות בעבורו;</p>
+                    </content>
+                  </point>
+                  <point eId="point_1__point_מקבל_שירות__point_2">
+                    <num>(2)</num>
+                    <list>
+                      <intro>
+                        <p>לעניין <ref href="#point_3">סעיפים 3</ref>, <ref href="#point_12">12</ref><ref href="#point_13">ו־13</ref> לצו – נוסף על פסקה (1), כל אחד מאלה:</p>
+                      </intro>
+                      <point eId="point_1__point_מקבל_שירות__point_2__point_א">
+                        <num>(א)</num>
+                        <content>
+                          <p>מי שהתחייב להחזיר את האשראי, למעט ערב, או מי שמבקש להחזיר את האשראי שניתן והוא אינו הלווה;</p>
+                        </content>
+                      </point>
+                      <point eId="point_1__point_מקבל_שירות__point_2__point_ב">
+                        <num>(ב)</num>
+                        <content>
+                          <p>מי שהאשראי מוחזר אליו והוא אינו המלווה;</p>
+                        </content>
+                      </point>
+                    </list>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_1__point_מקבל_שירות_בסכום_נמוך">
+                <content>
+                  <p>
+                    <def />”מקבל שירות בסכום נמוך“ – מקבל שירות שבמהלך תקופה של חצי שנה ביצע פעולות אצל אותו מפעיל, בסכום אשראי מצטבר שאינו עולה על 50,000 שקלים חדשים, למעט במקרה של פעולה בסכום שעולה על 5,000 שקלים חדשים שבה מעורבת מדינה או טריטוריה המנויות <ref href="#appendix_1">בתוספת הראשונה</ref>; וכן מלווה בסכום מזערי במערכת חברתית לתיווך אשראי;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_מתן_אשראי">
+                <content>
+                  <p>
+                    <def />”מתן אשראי“ – כהגדרתו <ref href="/akn/il/act/PrimaryLegislation/2016-08-01/571496#point_11א">בסעיף 11א לחוק הפיקוח על שירותים פיננסיים מוסדרים</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_נהנה">
+                <content>
+                  <p>
+                    <def />”נהנה“ – כהגדרתו <ref href="/akn/il/act/PrimaryLegislation/2000-08-17/169027#point_7">בסעיף 7(א)(1) לחוק</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_נושא_משרה">
+                <content>
+                  <p>
+                    <def />”נושא משרה“ – כהגדרתו <ref href="/akn/il/act/PrimaryLegislation/2016-08-01/571496">בחוק הפיקוח על שירותים פיננסיים מוסדרים</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_נותן_שירותים_פיננסיים">
+                <content>
+                  <p>
+                    <def />”נותן שירותים פיננסיים“ – כהגדרתו <ref href="/akn/il/act/PrimaryLegislation/2016-08-01/571496">בחוק הפיקוח על שירותים פיננסיים מוסדרים</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_נכס_פיננסי">
+                <content>
+                  <p>
+                    <def />”נכס פיננסי“ – כהגדרתו <ref href="/akn/il/act/PrimaryLegislation/2016-08-01/571496#point_11א">בסעיף 11א לחוק הפיקוח על שירותים פיננסיים מוסדרים</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_עורך_דין">
+                <content>
+                  <p>
+                    <def />”עורך דין“ – בעל רישיון לעריכת דין בישראל ולעניין תאגיד שאינו רשום בישראל, גם עורך דין בעל רישיון לעריכת דין במדינת ההתאגדות של התאגיד, ובלבד שהמדינה או הטריטוריה שבה מאוגד התאגיד אינה מנויה <ref href="#appendix_1">בתוספת הראשונה</ref>; אם מדינת ההתאגדות היא אחת המדינות החברות בארגון ה־OECD, גם עורך דין בעל רישיון לעריכת דין באחת המדינות החברות בארגון ה־OECD;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_פעולה">
+                <content>
+                  <p>
+                    <def />”פעולה“ – פעולה בודדת של מקבל שירות;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_שם">
+                <list>
+                  <intro>
+                    <p>
+                      <def />”שם“ – כל אחד מאלה:</p>
+                  </intro>
+                  <point eId="point_1__point_שם__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>ליחיד – שם משפחה ושם פרטי, הרשומים במסמך הזיהוי כאמור <ref href="#point_4">בסעיף 4</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_1__point_שם__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>לתאגיד – שמו הרשום, ואם התאגד במדינה שלא מתקיים בה רישום של תאגידים מסוגו – שמו כפי שמסר;</p>
+                    </content>
+                  </point>
+                  <point eId="point_1__point_שם__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>לתאגיד שהוקם בחיקוק – השם שנקבע בחיקוק, בין בארץ ובין בחוץ לארץ;</p>
+                    </content>
+                  </point>
+                  <point eId="point_1__point_שם__point_4">
+                    <num>(4)</num>
+                    <content>
+                      <p>למוסד ציבורי, למעט לתאגיד שהוקם בחיקוק – שמו כפי שמסר;</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_1__point_תאגיד">
+                <list>
+                  <intro>
+                    <p>
+                      <def />”תאגיד“ – כל אחד מאלה:</p>
+                  </intro>
+                  <point eId="point_1__point_תאגיד__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>חברה, שותפות, אגודה שיתופית, אגודה עותומאנית, עמותה או מפלגה הרשומה בישראל;</p>
+                    </content>
+                  </point>
+                  <point eId="point_1__point_תאגיד__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>גוף הרשום כתאגיד מחוץ לישראל;</p>
+                    </content>
+                  </point>
+                  <point eId="point_1__point_תאגיד__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>גוף שהתאגד במדינה שלא מתקיים בה רישום של גופים מסוגו, ובלבד שהציג מסמך המעיד על היותו תאגיד;</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_1__point_תאגיד_קשור">
+                <content>
+                  <p>
+                    <def />”תאגיד קשור“ – תאגיד שהמפעיל הוא בעל שליטה בו, או שבעל השליטה במפעיל הוא בעל השליטה בו;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_תושב">
+                <content>
+                  <p>
+                    <def />”תושב“ – כהגדרתו <ref href="/akn/il/act/PrimaryLegislation/1965-08-01/147973">בחוק מרשם האוכלוסין, התשכ"ה–1965</ref>, לרבות אזרח ישראלי שאינו תושב כאמור, הרשום במרשם האוכלוסין;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_תושב_אזור">
+                <content>
+                  <p>
+                    <def />”תושב אזור“ – מי שרשום במרשם האוכלוסין של האזור;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_תושב_חוץ">
+                <content>
+                  <p>
+                    <def />”תושב חוץ“ – מי שאינו תושב;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_תפקיד_ציבורי_בכיר">
+                <content>
+                  <p>
+                    <def />”תפקיד ציבורי בכיר“ – לרבות ראש מדינה, נשיא מדינה, ראש עיר, שופט, חבר פרלמנט, חבר מפלגה בכיר, חבר ממשלה, קצין צבא או משטרה בכיר, נושא משרה בכיר בחברה ממשלתית, בעל תפקיד בכיר בארגון בין־לאומי, או כל ממלא תפקיד כאמור אף אם תוארו שונה;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_תקנות_העדות">
+                <content>
+                  <p>
+                    <def />”תקנות העדות“ – <ref href="/akn/il/act/SecondaryLegislation/1969-10-23/100003716">תקנות העדות (העתקים צילומיים), התש"ל–1969</ref>.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+        </list>
+      </chapter>
+      <chapter eId="chp_ב">
+        <num>פרק ב׳:</num>
+        <title>
+          <content>
+            <p>חובות הזיהוי</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_2">
+            <heading>
+              <authorialNote placement="side">
+                <p>הכרת הלקוח</p>
+              </authorialNote>
+            </heading>
+            <num>2.</num>
+            <list>
+              <point eId="point_2__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>מפעיל לא יאפשר ביצוע פעולה בפעם הראשונה, של מקבל שירות שאינו מקבל שירות בסכום נמוך, בלא שזיהה את מקבל השירות ובלא שביצע לגביו הליך של הכרת הלקוח, לפי מידת הסיכון שלו להלבנת הון ולמימון טרור; מפעיל יערוך רישומים של פרטי הכרת הלקוח.</p>
+                </content>
+              </point>
+              <point eId="point_2__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>הכרת לקוח כוללת, בין השאר, בירור מקור הנכסים הפיננסיים שלגביהם ניתנים השירותים, ובכלל זה מקור האשראי שניתן ומקור החזר האשראי, לפי העניין, זיקתו ללווה של מי שהתחייב להחזיר את האשראי או מי שמבקש להחזיר את האשראי והוא אינו הלווה, או זיקתו למלווה של מי שהאשראי מוחזר אליו והוא אינו המלווה, לפי העניין, עיסוקו של מקבל השירות, מטרת האשראי שניתן ואם סורב בעבר מקבלת שירות מכל גורם שהוא מסיבות הקשורות באיסור הלבנת הון ומימון טרור, לגבי תושב חוץ – גם בירור זיקתו לישראל וכן בירור אם הוא איש ציבור זר, לגבי איש ציבור זר שהמפעיל סיווג אותו ברמת סיכון גבוהה – גם מקור משאביו הפיננסיים, ולגבי מי שהוא בעל עסק – גם סוג עסקיו.</p>
+                </content>
+              </point>
+              <point eId="point_2__point_ג">
+                <num>(ג)</num>
+                <list>
+                  <intro>
+                    <p>בביצוע פעולה של מקבל שירות שאינו מקבל שירות בסכום נמוך, שהוא איש ציבור זר או במקרה שבו הנהנה הוא איש ציבור זר, יפעל המפעיל לפי הוראות אלה:</p>
+                  </intro>
+                  <point eId="point_2__point_ג__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>מפעיל לא יאפשר ביצוע פעולה בפעם הראשונה, אלא אם כן התקבל אישור לכך מנושא משרה במפעיל; מתן אישור כאמור ייבחן לפי מידת הסיכון של מקבל השירות להלבנת הון ולמימון טרור;</p>
+                    </content>
+                  </point>
+                  <point eId="point_2__point_ג__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>התברר לאחר ביצוע פעולה כי מקבל השירות או הנהנה הוא איש ציבור זר, לא יאפשר המפעיל ביצוע פעולה נוספת, למעט פעולה של החזר הלוואה, עד לקבלת אישור מנושא משרה במפעיל לפי פסקה (1).</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_2__point_ד">
+                <num>(ד)</num>
+                <content>
+                  <p>ליישום סעיף זה לעניין איש ציבור זר, רשאי המפעיל לפעול לפי הנוסח של הטופס <ref href="#appendix_2">שבתוספת השנייה</ref>.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_3">
+            <heading>
+              <authorialNote placement="side">
+                <p>רישום פרטי הזיהוי</p>
+              </authorialNote>
+            </heading>
+            <num>3.</num>
+            <list>
+              <point eId="point_3__point_א">
+                <num>(א)</num>
+                <list>
+                  <intro>
+                    <p>מפעיל לא יאפשר ביצוע פעולה בפעם הראשונה של מקבל שירות, בלא שירשום לגבי מקבל השירות ולגבי מיופה הכוח את פרטי הזיהוי המפורטים להלן, ובלא שיאמת את פרטי הזיהוי אם נדרש לכך לפי <ref href="#point_4">סעיף 4</ref>, אלא אם כן היו בידיו פרטי זיהוי מאומתים כאמור:</p>
+                  </intro>
+                  <point eId="point_3__point_א__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>שם;</p>
+                    </content>
+                  </point>
+                  <point eId="point_3__point_א__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>מספר זהות;</p>
+                    </content>
+                  </point>
+                  <point eId="point_3__point_א__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>ליחיד – תאריך לידה ומין; ולתאגיד – תאריך התאגדות;</p>
+                    </content>
+                  </point>
+                  <point eId="point_3__point_א__point_4">
+                    <num>(4)</num>
+                    <content>
+                      <p>מען;</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_3__point_ב">
+                <num>(ב)</num>
+                <list>
+                  <intro>
+                    <p>על אף האמור בסעיף קטן (א) –</p>
+                  </intro>
+                  <point eId="point_3__point_ב__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>רישום פרטי זיהוי לגבי מקבל שירות בסכום נמוך ולגבי מיופה כוח מטעמו, יכלול את הפרטים שבסעיף קטן (א)(1), (2) ו־(4) בלבד, לפי מסמך זיהוי כמפורט <ref href="#point_4">בסעיף 4</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_3__point_ב__point_2">
+                    <num>(2)</num>
+                    <list>
+                      <intro>
+                        <p>מפעיל רשאי לבצע פעולה בלי שאימת את פרטי הזיהוי של הלווה כמפורט <ref href="#point_4">בסעיף 4</ref>, ובלבד שהתקיימו תנאים אלה:</p>
+                      </intro>
+                      <point eId="point_3__point_ב__point_2__point_א">
+                        <num>(א)</num>
+                        <content>
+                          <p>ההלוואה ניתנה אגב רכישת נכס או שירות מבית עסק, והעסקה היא בסיכון נמוך בהתחשב במקבל השירות, בעסקה ובבית העסק;</p>
+                        </content>
+                      </point>
+                      <point eId="point_3__point_ב__point_2__point_ב">
+                        <num>(ב)</num>
+                        <content>
+                          <p>המפעיל קיבל לידיו, טרם ביצוע הפעולה, את פרטי הזיהוי כמפורט בסעיף זה;</p>
+                        </content>
+                      </point>
+                      <point eId="point_3__point_ב__point_2__point_ג">
+                        <num>(ג)</num>
+                        <content>
+                          <p>קבלת מסמכי הזיהוי ואימותם כמפורט <ref href="#point_4">בסעיף 4</ref> יבוצעו בתוך שני ימי עסקים לכל היותר ממועד העסקה.</p>
+                        </content>
+                      </point>
+                    </list>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_3__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>מפעיל לא יאפשר ביצוע פעולה של מקבל שירות בלא שירשום לגבי נהנה את הפרטים שבסעיף קטן (א)(1) ו־(2), לפי הפרטים שמסר מקבל השירות; על אף האמור, רישום הפרטים לגבי נהנה של מקבל שירות שאינו מקבל שירות בסכום נמוך, ייעשה לפי ההצהרה כאמור <ref href="#point_5">בסעיף 5</ref>; לא היה בידי מפעיל מספר זהותו של הנהנה, לאחר שנקט אמצעים סבירים להשגתו, ירשום במקומו, אם היו בידיו, את הפרטים שבסעיף קטן (א)(3) ו־(4) וכן את מדינת האזרחות או ההתאגדות, לפי העניין. האמור בסעיף קטן זה לא יחול אם מצא מפעיל, בעת ביצוע פעולה, שמדובר במתן שירות לטובת נהנה, שלפי הצהרת מקבל השירות לא ניתן לדעת את זהותו, ופורטה הסיבה לכך שזהות הנהנה טרם ידועה; במקרה כאמור, יפנה מפעיל את תשומת ליבו של מקבל השירות, בכתב, לחובתו למסור לו את פרטי הנהנה מיד עם היוודע זהותו; הוראות סעיף זה יחולו גם על הוספת נהנה.</p>
+                </content>
+              </point>
+              <point eId="point_3__point_ד">
+                <num>(ד)</num>
+                <content>
+                  <p>מפעיל לא יאפשר ביצוע פעולה של מקבל שירות שהוא תאגיד בלא שירשום לגבי בעל השליטה בתאגיד וכן לגבי המנהל הכללי של התאגיד או מי שמשמש בתפקיד דומה אף אם כינויו אחר, את הפרטים שבסעיף קטן (א)(1) ו־(2), לפי פרטים שמסר מקבל השירות; על אף האמור, רישום הפרטים לגבי בעל שליטה בתאגיד של מקבל שירות שאינו מקבל שירות בסכום נמוך, ייעשה לפי ההצהרה כאמור <ref href="#point_5">בסעיף 5</ref>; לא היה בידי המפעיל מספר זהות, לאחר שנקט אמצעים סבירים להשגתו, ירשום במקומו, אם היו בידיו, את הפרטים שבסעיף קטן (א)(3) ו־(4) וכן את מדינת האזרחות; האמור בסעיף קטן זה לעניין רישום פרטי הזיהוי של בעלי השליטה לא יחול על תאגיד שניירות הערך שלו נסחרים בבורסה לניירות ערך בישראל; הוראות סעיף זה יחולו גם על הוספת מקבל שירות שהוא תאגיד.</p>
+                </content>
+              </point>
+              <point eId="point_3__point_ה">
+                <num>(ה)</num>
+                <list>
+                  <intro>
+                    <p>מפעיל לא יאפשר ביצוע פעולה באמצעות העברה אלקטרונית, בסכום העולה על 5,000 שקלים חדשים, בלא שיתעד, נוסף על פרטי מקבל השירות כאמור <ref href="#point_3">בסעיף 3(א)</ref>, גם את אלה:</p>
+                  </intro>
+                  <point eId="point_3__point_ה__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>מספר החשבון של המעביר או הנעבר, לפי העניין, במוסד הפיננסי שממנו או שאליו, לפי העניין, בוצעה ההעברה, אם קיים;</p>
+                    </content>
+                  </point>
+                  <point eId="point_3__point_ה__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>פרטי המעביר או הנעבר, לפי העניין, לרבות שמו, מספר זהותו ומענו, אם אינם פרטי מקבל השירות, אם הפרטים האמורים ידועים לו;</p>
+                    </content>
+                  </point>
+                  <point eId="point_3__point_ה__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>לעניין העברה אלקטרונית כאמור אל מול מוסד פיננסי במדינה או בטריטוריה המנויה <ref href="#appendix_1">בתוספת הראשונה</ref> – שם המעביר או הנעבר, לפי העניין, מספר זהותו ומספר חשבונו במוסד הפיננסי, כפי שנמסרו.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_3__point_ו">
+                <num>(ו)</num>
+                <content>
+                  <p>בעת חתימה של ערב על ערבות לטובת לווה, ירשום המפעיל את פרטי הזיהוי של הערב, המפורטים בסעיף קטן (א)(1), (2) ו־(4), לפי מסמך זיהוי כאמור <ref href="#point_4">בסעיף 4</ref>, וישמור העתק מצולם של מסמך הזיהוי.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_4">
+            <heading>
+              <authorialNote placement="side">
+                <p>אימות פרטים ודרישת מסמכים</p>
+              </authorialNote>
+            </heading>
+            <num>4.</num>
+            <list>
+              <point eId="point_4__point_א">
+                <num>(א)</num>
+                <list>
+                  <intro>
+                    <p>בסעיף זה –</p>
+                  </intro>
+                  <point eId="point_4__point_א__point_העתק_מאושר">
+                    <list>
+                      <intro>
+                        <p>
+                          <def />”העתק מאושר“ – העתק מתאים למקור המאומת בידי אחד מאלה:</p>
+                      </intro>
+                      <point eId="point_4__point_א__point_העתק_מאושר__point_1">
+                        <num>(1)</num>
+                        <content>
+                          <p>הרשות שהנפיקה את מסמך המקור;</p>
+                        </content>
+                      </point>
+                      <point eId="point_4__point_א__point_העתק_מאושר__point_2">
+                        <num>(2)</num>
+                        <content>
+                          <p>עורך דין;</p>
+                        </content>
+                      </point>
+                      <point eId="point_4__point_א__point_העתק_מאושר__point_3">
+                        <num>(3)</num>
+                        <content>
+                          <p>המפעיל או מי מטעמו, לרבות עובד של תאגיד קשור, שלפניו הוצג המסמך המקורי;</p>
+                        </content>
+                      </point>
+                      <point eId="point_4__point_א__point_העתק_מאושר__point_4">
+                        <num>(4)</num>
+                        <content>
+                          <p>רשות כאמור <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/תקנות_לביצוע_אמנת_האג_ביטול_אימות_מסמכי_חוץ_ציבוריים">בסעיף 6 לאמנה לביטול דרישת האימות</ref>;</p>
+                        </content>
+                      </point>
+                      <point eId="point_4__point_א__point_העתק_מאושר__point_5">
+                        <num>(5)</num>
+                        <content>
+                          <p>נציג דיפלומטי או קונסולרי ישראלי בחוץ לארץ;</p>
+                        </content>
+                      </point>
+                    </list>
+                  </point>
+                  <point eId="point_4__point_א__point_מקבל_שירות">
+                    <content>
+                      <p>
+                        <def />”מקבל שירות“ – לרבות מיופה כוח.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_4__point_ב">
+                <num>(ב)</num>
+                <list>
+                  <intro>
+                    <p>מפעיל יאמת את פרטי הזיהוי של מקבל השירות, למעט מקבל שירות בסכום נמוך, המפורטים <ref href="#point_3">בסעיף 3(א)</ref> ויקבל לידיו מסמכים, כמפורט להלן:</p>
+                  </intro>
+                  <point eId="point_4__point_ב__point_1">
+                    <num>(1)</num>
+                    <list>
+                      <intro>
+                        <p>לעניין רישום פרטי הזיהוי כאמור <ref href="#point_3">בסעיף 3(א)(1) עד (3)</ref> של מקבל שירות יחיד שהוא תושב – לפי תעודה מזהה או העתק מאושר שלה, שהעתק מצולם של אחד מהם, לגבי פרטי הזיהוי, יישמר אצל המפעיל; המפעיל יאמת את פרטי הזיהוי עם מסמך נוסף הנושא תמונה ומספר זהות, ובהעדרו – עם מסמך הנושא שם או מספר זהות וכן מען או תאריך לידה, או לחלופין, לעניין פרטי הזיהוי שבתעודת זהות – רשאי המפעיל לאמתם גם עם הפרטים המופיעים במרשם האוכלוסין, ובלבד שהשווה את תאריך הנפקת תעודת הזהות המופיע בה עם תאריך הנפקת התעודה האחרונה הרשום במרשם האוכלוסין במשרד הפנים; המפעיל ישמור תיעוד של בדיקות אלה; לעניין פסקה זו, יראו כתעודה מזהה, כל אחד מאלה:</p>
+                      </intro>
+                      <point eId="point_4__point_ב__point_1__point_א">
+                        <num>(א)</num>
+                        <content>
+                          <p>תעודת זהות;</p>
+                        </content>
+                      </point>
+                      <point eId="point_4__point_ב__point_1__point_ב">
+                        <num>(ב)</num>
+                        <content>
+                          <p>תעודת עולה עד 30 ימים מיום הנפקתה;</p>
+                        </content>
+                      </point>
+                      <point eId="point_4__point_ב__point_1__point_ג">
+                        <num>(ג)</num>
+                        <content>
+                          <p>רישיון נהיגה תקף הכולל את תמונת בעל הרישיון, שניתן לפי <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_התעבורה">פקודת התעבורה</ref>;</p>
+                        </content>
+                      </point>
+                      <point eId="point_4__point_ב__point_1__point_ד">
+                        <num>(ד)</num>
+                        <content>
+                          <p>דרכון ישראלי תקף שניתן לפי <ref href="/akn/il/act/PrimaryLegislation/1952-07-17/147205">חוק הדרכונים, התשי"ב–1952</ref>;</p>
+                        </content>
+                      </point>
+                    </list>
+                  </point>
+                  <point eId="point_4__point_ב__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>לעניין רישום פרטי הזיהוי כאמור <ref href="#point_3">בסעיף 3(א)(1) עד (3)</ref> של מקבל שירות שהוא יחיד תושב חוץ – לפי דרכון חוץ או תעודת מסע, או לפי העתק מאושר של מסמך זיהוי כאמור, שהעתק מצולם שלהם, לגבי פרטי הזיהוי, יישמר אצל המפעיל; אם היחיד תושב אזור, רשאי המפעיל לרשום את פרטי הזיהוי גם לפי כרטיס מגנטי שהנפיק המינהל האזרחי, שהעתק מצולם שלו, לגבי פרטי הזיהוי, יישמר אצל המפעיל; המפעיל ישווה את פרטי הזיהוי עם מסמך נוסף הנושא תמונה ומספר זהות, ובהעדרו – עם מסמך הנושא שם וכן מספר זהות, מען או תאריך לידה;</p>
+                    </content>
+                  </point>
+                  <point eId="point_4__point_ב__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>לעניין רישום פרטי הזיהוי כאמור <ref href="#point_3">בסעיף 3(א)(1) עד (3)</ref> של מקבל שירות שהוא תאגיד הרשום בישראל – לפי תעודת הרישום או העתק מאושר שלה, נסח עדכני של פרטי התאגיד במרשם המתאים, או אישור של עורך דין על קיום התאגיד, שמו, מספר זהותו ותאריך ההתאגדות שלו; מפעיל יקבל לידיו וישמור את המסמכים האמורים או העתקים מצולמים שלהם;</p>
+                    </content>
+                  </point>
+                  <point eId="point_4__point_ב__point_4">
+                    <num>(4)</num>
+                    <content>
+                      <p>לעניין רישום פרטי הזיהוי כאמור <ref href="#point_3">בסעיף 3(א)(1) עד (4)</ref> של מקבל שירות שהוא תאגיד שאינו רשום בישראל – לפי מסמך המעיד על רישומו או העתק מאושר ממסמך כאמור, אם פרטים אלה מופיעים במסמך; חסר במסמך אחד הפרטים כאמור – לפי אישור של עורך דין; מפעיל יקבל לידיו מסמך המעיד על רישומו של התאגיד ומסמכים כמפורט בפסקה (3); בתאגיד שהתאגד במדינה שלא מתקיים בה רישום לגבי תאגידים מסוגו, יקבל לידיו המפעיל אישור של עורך דין על כך שלא קיים רישום במדינת ההתאגדות; המפעיל ישמור מסמכים אלה או העתקים מצולמים שלהם;</p>
+                    </content>
+                  </point>
+                  <point eId="point_4__point_ב__point_5">
+                    <num>(5)</num>
+                    <content>
+                      <p>לעניין רישום פרטי הזיהוי כאמור <ref href="#point_3">בסעיף 3(א)(1)</ref> של מקבל שירות שהוא מוסד ציבורי או תאגיד שהוקם בחיקוק בחוץ לארץ – לפי הצהרת מקבל השירות, ובתאגיד שהוקם בחיקוק – לפי העתק שיקבל המפעיל מן החיקוק שמכוחו הוקם התאגיד, או אישור של עורך דין על קיומו של החיקוק; מפעיל יקבל לידיו מסמכים כמפורט בפסקה (3); מפעיל ישמור מסמכים אלה או העתקים מצולמים שלהם;</p>
+                    </content>
+                  </point>
+                  <point eId="point_4__point_ב__point_6">
+                    <num>(6)</num>
+                    <content>
+                      <p>לעניין פרטי הזיהוי כאמור <ref href="#point_3">בסעיף 3(א)(1) עד (4)</ref> של מקבל שירות שנחזה בעיני המפעיל להיות מי שחייב ברישיון מכוח <ref href="/akn/il/act/PrimaryLegislation/2016-08-01/571496">חוק הפיקוח על שירותים פיננסיים מוסדרים</ref> – ידרוש המפעיל גם העתק מהרישיון שניתן למקבל השירות לפי <ref href="/akn/il/act/PrimaryLegislation/2016-08-01/571496#point_12">סעיף 12 לחוק הפיקוח על שירותים פיננסיים מוסדרים</ref>, או יאמת את פרטי מקבל השירות אל מול המרשמים של נותני שירותים פיננסיים כמשמעותם <ref href="/akn/il/act/PrimaryLegislation/2016-08-01/571496#point_5א">בסעיף 5א לחוק האמור</ref>, או ידרוש ממנו הצהרה בכתב כי איננו חייב ברישיון מכוח <ref href="/akn/il/act/PrimaryLegislation/2016-08-01/571496">חוק הפיקוח על שירותים פיננסיים מוסדרים</ref>, ולא יאפשר ביצוע פעולה בלי שעשה אחד מאלה; המפעיל ישמור מסמכים אלה או העתקים מצולמים שלהם;</p>
+                    </content>
+                  </point>
+                  <point eId="point_4__point_ב__point_7">
+                    <num>(7)</num>
+                    <content>
+                      <p>לעניין פרטי זיהוי כאמור <ref href="#point_3">בסעיף 3(א)(1) עד (4)</ref> של מקבל שירות שהוא קטין שטרם מלאו לו 16 שנים או מי שמונה לו אפוטרופוס – לפי מסמך זיהוי של אחד מאפוטרופסיו; אם האפוטרופוס תושב חוץ – לפי דרכונו של הקטין או לפי העתק מאושר שלו או לפי מסמכי הזיהוי המקובלים בשירות מן הסוג הזה באותה מדינה שנעשה בה הזיהוי, ובלבד שבמדינה זו קיימת חקיקה המחייבת זיהוי לקוחות; המפעיל ישמור מסמכים אלה או העתקים מצולמים שלהם;</p>
+                    </content>
+                  </point>
+                  <point eId="point_4__point_ב__point_8">
+                    <num>(8)</num>
+                    <content>
+                      <p>לעניין ביצוע פעולה מחוץ לישראל, רשאי מפעיל, על אף האמור בפסקאות (2) ו־(4), לרשום את פרטי הזיהוי לפי מסמכי הזיהוי המקובלים בשירות מן הסוג הזה באותה מדינה שנעשה בה הזיהוי, ובלבד שבמדינה זו קיימת חקיקה המחייבת זיהוי לקוחות; המפעיל ישמור בידיו עותקים מצולמים של מסמכי הזיהוי.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_4__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>לעניין מיופה כוח, יקבל לידיו המפעיל גם העתק של כתב ייפוי כוח, כתב נאמנות או החלטת האורגן המוסמך בתאגיד, לפי העניין, מאת מקבל השירות המסמיך את מיופה הכוח לפעול מטעמו, הכולל את כל פרטי הזיהוי של מקבל השירות; העתק כתב ייפוי הכוח, כתב הנאמנות או ההחלטה, לפי העניין, יישמר אצל המפעיל.</p>
+                </content>
+              </point>
+              <point eId="point_4__point_ד">
+                <num>(ד)</num>
+                <content>
+                  <p>מפעיל ישמור את מסמכי הזיהוי באורח נגיש לתקופה של חמש שנים לפחות ממועד סיום החזר האשראי, או לתקופה ארוכה יותר אם הממונה דרש ממנו לעשות כן במקרים מסוימים, שבהם מסמכי הזיהוי נדרשים לצורך חקירה או לשם פיקוח על ביצוע הוראות <ref href="/akn/il/act/PrimaryLegislation/2000-08-17/169027">החוק</ref>; שמירת מסמכי הזיהוי, יכול שתיעשה באמצעות סריקה ממוחשבת בתנאים המפורטים <ref href="/akn/il/act/SecondaryLegislation/1969-10-23/100003716#point_3א">בתקנה 3א לתקנות העדות</ref>; לעניין זה, ”מסמכי זיהוי“ – כל מסמך שנמסר לצורך זיהוי ואימות, לרבות הצהרה שניתנה לפי צו זה ומסמכים עיקריים ששימשו את המפעיל להכרת הלקוח לפי <ref href="#point_2">סעיף 2(א)</ref>.</p>
+                </content>
+              </point>
+              <point eId="point_4__point_ה">
+                <num>(ה)</num>
+                <content>
+                  <p>מפעיל ינקוט אמצעים סבירים, לפי רמת הסיכון להלבנת הון ולמימון טרור, לאימות פרטי הזיהוי של נהנה ובעל שליטה, לפי העניין, בהתקשרות כאמור <ref href="#point_3">בסעיף 3(ב) ו־(ג)</ref>; לעניין זה, ”נקיטת אמצעים סבירים“ – שימוש במידע הנוגע לעניין או בנתונים שהתקבלו ממקור מהימן המניחים את דעתו של המפעיל.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_5">
+            <heading>
+              <authorialNote placement="side">
+                <p>הצהרה על נהנה ועל בעל שליטה</p>
+              </authorialNote>
+            </heading>
+            <num>5.</num>
+            <list>
+              <point eId="point_5__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>בעת ביצוע פעולה בפעם הראשונה של מקבל שירות שאינו מקבל שירות בסכום נמוך, ידרוש המפעיל ממקבל השירות הצהרה בחתימת מקור, אם הוא פועל בעבור עצמו או בעבור נהנה; הצהיר מקבל השירות כי הוא פועל בעבור נהנה – תכלול ההצהרה את הפרטים כאמור <ref href="#point_3">בסעיף 3(ב)</ref> לגבי כל אחד מהנהנים.</p>
+                </content>
+              </point>
+              <point eId="point_5__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>בעת ביצוע פעולה בפעם הראשונה של מקבל שירות שאינו מקבל שירות בסכום נמוך, שהוא תאגיד, ידרוש המפעיל הצהרה מן התאגיד, בחתימת מקור או באישור של עורך דין, על פרטי הזיהוי כאמור <ref href="#point_3">בסעיף 3(ג)</ref> לגבי בעל שליטה בתאגיד.</p>
+                </content>
+              </point>
+              <point eId="point_5__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>בעת קבלת הצהרה לפי סעיפים קטנים (א) או (ב), יעדכן המפעיל את מקבל השירות על חובתו למסור הצהרה מעודכנת אם חל שינוי בפרט מהפרטים שנכללו בהצהרה שמסר לפי אותם סעיפים קטנים, וידרוש לקבל ממנו הצהרה מעודכנת אם חל שינוי בפרט מהפרטים כאמור; מפעיל יתעד את עדכון מקבל השירות כאמור.</p>
+                </content>
+              </point>
+              <point eId="point_5__point_ד">
+                <num>(ד)</num>
+                <content>
+                  <p>הצהרות כאמור בסעיפים קטנים (א) ו־(ב) יהיו ערוכות לפי הנוסח שבטופס <ref href="#appendix_3">שבתוספת השלישית</ref>.</p>
+                </content>
+              </point>
+              <point eId="point_5__point_ה">
+                <num>(ה)</num>
+                <content>
+                  <p>מפעיל יבדוק את סבירות ההצהרה כאמור בסעיפים קטנים (א) ו־(ב), על פניה.</p>
+                </content>
+              </point>
+              <point eId="point_5__point_ו">
+                <num>(ו)</num>
+                <content>
+                  <p>על אף האמור בסעיף זה, רשאי הממונה לתת הוראות חלופיות לעניין הדרישה להצהרה בחתימת מקור, בתוקף סמכותו לפי <ref href="/akn/il/act/PrimaryLegislation/2000-08-17/169027#point_11יג">סעיף 11יג לחוק</ref>.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_6">
+            <heading>
+              <authorialNote placement="side">
+                <p>פטור חלקי לרישום פרטי זיהוי והצהרה של נהנה ובעל שליטה</p>
+              </authorialNote>
+            </heading>
+            <num>6.</num>
+            <list>
+              <point eId="point_6__point_א">
+                <num>(א)</num>
+                <list>
+                  <intro>
+                    <p>האמור <ref href="#point_3">בסעיפים 3(ב)</ref><ref href="#point_5">ו־5</ref> לגבי רישום נהנה, לא יחול על מקבל שירות שהוא –</p>
+                  </intro>
+                  <point eId="point_6__point_א__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>מוסד ציבורי;</p>
+                    </content>
+                  </point>
+                  <point eId="point_6__point_א__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>תאגיד בנקאי, בנק הדואר, מבטח, חבר בורסה, חברה מנהלת, קופת גמל, הקדש ציבורי הרשום במרשם ההקדשות הציבוריים או חברה בעלת רישיון זירה;</p>
+                    </content>
+                  </point>
+                  <point eId="point_6__point_א__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>נותן שירותים פיננסיים שחל לגביו צו מכוח <ref href="/akn/il/act/PrimaryLegislation/2000-08-17/169027#point_7">סעיף 7 לחוק</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_6__point_א__point_4">
+                    <num>(4)</num>
+                    <content>
+                      <p>תאגיד מסוג אחר שעליו הורה הממונה בתוקף סמכותו לפי <ref href="/akn/il/act/PrimaryLegislation/2000-08-17/169027#point_11יג">סעיף 11יג לחוק</ref>, בהתייעצות עם הרשות המוסמכת.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_6__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>האמור <ref href="#point_3">בסעיפים 3(ג)</ref><ref href="#point_5">ו־5</ref> לגבי רישום בעל שליטה, לא יחול על מקבל שירות שהוא תאגיד בנקאי, בנק הדואר, מבטח, חבר בורסה, חברה מנהלת, קופת גמל, הקדש ציבורי הרשום במרשם ההקדשות הציבוריים או חברה שניירות הערך שלה נסחרים בבורסה לניירות ערך בתל אביב או בבורסה במדינה שהיא חברה בארגון ה־OECD.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_7">
+            <heading>
+              <authorialNote placement="side">
+                <p>זיהוי פנים אל פנים</p>
+              </authorialNote>
+            </heading>
+            <num>7.</num>
+            <list>
+              <point eId="point_7__point_א">
+                <num>(א)</num>
+                <list>
+                  <intro>
+                    <p>מפעיל לא יאפשר ביצוע פעולה של מקבל שירות, שאינו מקבל שירות בסכום נמוך, בפעם הראשונה, בלא שזיהה את מקבל השירות או את מיופה הכוח, לפי העניין, פנים אל פנים, לפי מסמכי הזיהוי כאמור <ref href="#point_4">בסעיף 4</ref>; לעניין זה, ”זיהוי פנים אל פנים“ – זיהוי על ידי אחד מאלה:</p>
+                  </intro>
+                  <point eId="point_7__point_א__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>המפעיל או מי מטעמו;</p>
+                    </content>
+                  </point>
+                  <point eId="point_7__point_א__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>עורך דין;</p>
+                    </content>
+                  </point>
+                  <point eId="point_7__point_א__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>נציג דיפלומטי או קונסולרי ישראלי בחוץ לארץ;</p>
+                    </content>
+                  </point>
+                  <point eId="point_7__point_א__point_4">
+                    <num>(4)</num>
+                    <content>
+                      <p>רשות כאמור <ref href="#point_6">בסעיף 6</ref> לאמנה לביטול דרישות האימות;</p>
+                    </content>
+                  </point>
+                  <point eId="point_7__point_א__point_5">
+                    <num>(5)</num>
+                    <content>
+                      <p>זיהוי אחר שאישר הממונה, בתוקף סמכותו לפי <ref href="/akn/il/act/PrimaryLegislation/2000-08-17/169027#point_11יג">סעיף 11יג לחוק</ref>.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_7__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>מפעיל ירשום את השם ומספר הזהות של האדם שביצע את הזיהוי כאמור בסעיף קטן (א).</p>
+                </content>
+              </point>
+              <point eId="point_7__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>על אף האמור בסעיף קטן (א), רשאי מפעיל לבצע זיהוי של מקבל שירות באמצעות טכנולוגיה המאפשרת זיהוי חזותי של מקבל השירות, באמצעים שעליהם הורה הממונה בתוקף סמכותו לפי <ref href="/akn/il/act/PrimaryLegislation/2000-08-17/169027#point_11יג">סעיף 11יג לחוק</ref>.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_8">
+            <heading>
+              <authorialNote placement="side">
+                <p>פטור חלקי והקלות בביצוע פעולות במערכת סגורה ובמערכת סגורה למחצה</p>
+              </authorialNote>
+            </heading>
+            <num>8.</num>
+            <list>
+              <point eId="point_8__point_א">
+                <num>(א)</num>
+                <list>
+                  <intro>
+                    <p>בסעיף זה –</p>
+                  </intro>
+                  <point eId="point_8__point_א__point_העברה">
+                    <list>
+                      <intro>
+                        <p>
+                          <def />”העברה“ – לרבות באחד האמצעים האלה –</p>
+                      </intro>
+                      <point eId="point_8__point_א__point_העברה__point_1">
+                        <num>(1)</num>
+                        <content>
+                          <p>העברה בנקאית;</p>
+                        </content>
+                      </point>
+                      <point eId="point_8__point_א__point_העברה__point_2">
+                        <num>(2)</num>
+                        <list>
+                          <intro>
+                            <p>תשלום בשיק שנמשך על חשבון בתאגיד בנקאי או חשבון בבנק הדואר, ובלבד שהתקיימו התנאים האלה:</p>
+                          </intro>
+                          <point eId="point_8__point_א__point_העברה__point_2__point_א">
+                            <num>(א)</num>
+                            <content>
+                              <p>המפעיל, או מחשבון המפעיל לפקודת מקבל השירות;</p>
+                            </content>
+                          </point>
+                          <point eId="point_8__point_א__point_העברה__point_2__point_ב">
+                            <num>(ב)</num>
+                            <content>
+                              <p>השיק משוך מחשבון מקבל השירות לפקודת חשבון השיק הוא למוטב בלבד ואינו ניתן להסבה או להעברה;</p>
+                            </content>
+                          </point>
+                        </list>
+                      </point>
+                      <point eId="point_8__point_א__point_העברה__point_3">
+                        <num>(3)</num>
+                        <content>
+                          <p>השיק משורטט כך שניתן לגבותו רק באמצעות הפקדתו לחשבון בנק של המוטב;</p>
+                        </content>
+                      </point>
+                    </list>
+                  </point>
+                  <point eId="point_8__point_א__point_חשבון_אחר">
+                    <content>
+                      <p>
+                        <def />”חשבון אחר“ – חשבון בתאגיד בנקאי, חשבון בבנק מחוץ לישראל או חשבון בבנק הדואר, שאין בו בעלים נוספים זולת מקבל השירות ושלפי הצהרת מקבל השירות אין בו נהנים שונים או נוספים על אלה שמקבל השירות הצהיר עליהם לפי <ref href="#point_5">סעיף 5</ref>; על אף האמור, אם חשבון הבנק הוא בבעלות משותפת של מקבל השירות ובן זוגו, יראו את הדרישה לאי־קיום בעלים נוספים בחשבון כמתקיימת;</p>
+                    </content>
+                  </point>
+                  <point eId="point_8__point_א__point_חשבון_מקור">
+                    <content>
+                      <p>
+                        <def />”חשבון מקור“ – חשבון בתאגיד בנקאי או בבנק הדואר, שאין בו בעלים נוספים זולת מקבל השירות ושלפי הצהרת מקבל השירות אין בו נהנים שונים או נוספים על אלה שמקבל השירות הצהיר עליהם לפי <ref href="#point_5">סעיף 5</ref>; על אף האמור, אם חשבון הבנק הוא בבעלות משותפת של מקבל השירות ובן זוגו, יראו את הדרישה לאי־קיום בעלים נוספים בחשבון כמתקיימת;</p>
+                    </content>
+                  </point>
+                  <point eId="point_8__point_א__point_חשבון_המפעיל">
+                    <content>
+                      <p>
+                        <def />”חשבון המפעיל“ – חשבון נאמנות המנוהל לפי <ref href="/akn/il/act/PrimaryLegislation/2016-08-01/571496#point_38ה">סעיף 38ה לחוק הפיקוח על שירותים פיננסיים מוסדרים</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_8__point_א__point_פעולה_במערכת_סגורה">
+                    <content>
+                      <p>
+                        <def />”פעולה במערכת סגורה“ – פעולה שבה כספים שמועברים מחשבון מקור מוחזרים אל אותו חשבון המקור בלבד, או להפך;</p>
+                    </content>
+                  </point>
+                  <point eId="point_8__point_א__point_פעולה_במערכת_סגורה_למחצה">
+                    <list>
+                      <intro>
+                        <p>
+                          <def />”פעולה במערכת סגורה למחצה“ – כל אחד מאלה:</p>
+                      </intro>
+                      <point eId="point_8__point_א__point_פעולה_במערכת_סגורה_למחצה__point_1">
+                        <num>(1)</num>
+                        <content>
+                          <p>פעולה שבה כספים שהועברו מחשבון אחר של מקבל שירות לחשבון המפעיל בין בדרך של חיוב כרטיס האשראי או כרטיס הבנק של מקבל השירות ובין בדרך של העברה מהחשבון האחר, מוחזרים מהמפעיל לאותו מקבל שירות, בין בדרך של זיכוי כרטיס האשראי או כרטיס הבנק שממנו הועברו כספים אלה מלכתחילה ובין בדרך של העברה לחשבון אחר;</p>
+                        </content>
+                      </point>
+                      <point eId="point_8__point_א__point_פעולה_במערכת_סגורה_למחצה__point_2">
+                        <num>(2)</num>
+                        <content>
+                          <p>פעולה שבה כספים שהועברו מחשבון המפעיל למקבל שירות, בין בדרך של זיכוי כרטיס האשראי או כרטיס הבנק של מקבל השירות ובין בדרך של העברה לחשבון האחר, מוחזרים מאותו מקבל שירות לחשבון המפעיל, בין בדרך של חיוב כרטיס האשראי או כרטיס הבנק שאליו הועברו כספים אלה מלכתחילה ובין בדרך של העברה מחשבון אחר;</p>
+                        </content>
+                      </point>
+                    </list>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_8__point_ב">
+                <num>(ב)</num>
+                <list>
+                  <intro>
+                    <p>בנק מחוץ לישראל הוא תאגיד שהתאגד באחת ממדינות ה־OECD, ושמתקיימים לגביו כל אלה:</p>
+                  </intro>
+                  <point eId="point_8__point_ב__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>הוא עוסק בפעילויות שהעיסוק בהן בישראל טעון רישיון בנק לפי <ref href="/akn/il/act/PrimaryLegislation/1981-04-26/147066">חוק הבנקאות (רישוי)</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_8__point_ב__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>הוא קיבל אישור מידי מי שרשאי לתתו לפי דין במדינת החוץ לעסוק בפעילויות כאמור בפסקה (1), והוא נתון לפיקוחו של מי שמוסמך לעניין זה באותה מדינה;</p>
+                    </content>
+                  </point>
+                  <point eId="point_8__point_ב__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>הוא נתון לפיקוח בתחום איסור הלבנת הון ומימון טרור.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_8__point_ג">
+                <num>(ג)</num>
+                <list>
+                  <intro>
+                    <p>על ביצוע פעולה במערכת סגורה יחולו הפטורים וההקלות המנויים בסעיף קטן (ה), ובלבד שהתקיימו לגביו כל אלה:</p>
+                  </intro>
+                  <point eId="point_8__point_ג__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>מקבל השירות אינו קשור למדינה או טריטוריה מן המנויות <ref href="#appendix_1">בתוספת הראשונה</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_8__point_ג__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>מקבל השירות אינו איש ציבור זר;</p>
+                    </content>
+                  </point>
+                  <point eId="point_8__point_ג__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>המפעיל קיבל ממקבל השירות לצורך זיהוי, העתק מסמך זיהוי הנושא תמונה ומספר זהות, ובהעדרו – מסמך הנושא שם ומספר זהות;</p>
+                    </content>
+                  </point>
+                  <point eId="point_8__point_ג__point_4">
+                    <num>(4)</num>
+                    <content>
+                      <p>מקבל השירות העביר לידי המפעיל פרטים מלאים של חשבון המקור שלו וכן מסמך רשמי של הבנק שבו מתנהל חשבון המקור הכולל את פרטי חשבון הבנק של מקבל השירות ובעליו, כגון תדפיס פרטי חשבון;</p>
+                    </content>
+                  </point>
+                  <point eId="point_8__point_ג__point_5">
+                    <num>(5)</num>
+                    <content>
+                      <p>בוצע אימות של זהות מקבל השירות מול מסמכי הבנק; לעניין זה, ”אימות של זהות“ – בדיקה אם פרטי זיהוי של מקבל השירות לפי <ref href="#point_3">סעיף 3(א)(1) ו־(2)</ref> הרשומים אצל המפעיל זהים לפרטי הזיהוי שבמסמך הרשמי של הבנק כאמור בפסקה (4).</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_8__point_ד">
+                <num>(ד)</num>
+                <list>
+                  <intro>
+                    <p>על ביצוע פעולה במערכת סגורה למחצה יחולו הפטורים וההקלות המנויים בסעיף קטן (ה), ובלבד שהתקיימו תנאים אלה:</p>
+                  </intro>
+                  <point eId="point_8__point_ד__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>התנאים המפורטים בסעיף קטן (ג)(1), (3) ו־(5);</p>
+                    </content>
+                  </point>
+                  <point eId="point_8__point_ד__point_2">
+                    <num>(2)</num>
+                    <list>
+                      <intro>
+                        <p>מקבל השירות העביר לידי המפעיל את פרטי החשבון האחר, ואם מדובר בשימוש בכרטיס אשראי או כרטיס בנק, גם את ארבע הספרות האחרונות של כרטיס האשראי או כרטיס הבנק שבאמצעותו מועברים הכספים, וכן אחד מאלה, לפי העניין:</p>
+                      </intro>
+                      <point eId="point_8__point_ד__point_2__point_א">
+                        <num>(א)</num>
+                        <content>
+                          <p>מסמך רשמי של הבנק שבו מתנהל החשבון האחר הכולל את פרטי החשבון ובעל החשבון, כגון תדפיס חשבון;</p>
+                        </content>
+                      </point>
+                      <point eId="point_8__point_ד__point_2__point_ב">
+                        <num>(ב)</num>
+                        <content>
+                          <p>בכרטיס אשראי המשויך לחשבון בנק או כרטיס בנק – מסמך רשמי של חברת האשראי הכולל את ארבע הספרות האחרונות של כרטיס האשראי או כרטיס הבנק ופרטי בעל הכרטיס, ובלבד שעולה ממנו, בין לבדו ובין בצירוף מסמך רשמי של הבנק, כי כרטיס האשראי או כרטיס הבנק שבאמצעותו מועברים הכספים משויך לחשבון האחר;</p>
+                        </content>
+                      </point>
+                      <point eId="point_8__point_ד__point_2__point_ג">
+                        <num>(ג)</num>
+                        <content>
+                          <p>בכרטיס אשראי שאינו משויך לחשבון בנק – אישור של הסולק או המנפיק הכולל את ארבע הספרות האחרונות של כרטיס האשראי ושמו של בעל כרטיס האשראי.</p>
+                        </content>
+                      </point>
+                    </list>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_8__point_ה">
+                <num>(ה)</num>
+                <list>
+                  <intro>
+                    <p>על פעולה שבוצעה במערכת סגורה ומערכת סגורה למחצה כאמור בסעיף קטן (ג) ו־(ד), יחולו הפטורים וההקלות האלה:</p>
+                  </intro>
+                  <point eId="point_8__point_ה__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>על אף הוראות <ref href="#point_7">סעיף 7</ref>, מפעיל יהיה פטור מחובת זיהוי פנים אל פנים;</p>
+                    </content>
+                  </point>
+                  <point eId="point_8__point_ה__point_2">
+                    <num>(2)</num>
+                    <list>
+                      <intro>
+                        <p>על אף הוראות <ref href="#point_4">סעיפים 4(א)</ref><ref href="#point_5">ו־5</ref>, מפעיל רשאי –</p>
+                      </intro>
+                      <point eId="point_8__point_ה__point_2__point_א">
+                        <num>(א)</num>
+                        <content>
+                          <p>לרשום את פרטי הזיהוי לפי העתק של מסמכי הזיהוי המפורטים <ref href="#point_4">בסעיף 4</ref>;</p>
+                        </content>
+                      </point>
+                      <point eId="point_8__point_ה__point_2__point_ב">
+                        <num>(ב)</num>
+                        <content>
+                          <p>לאמת את פרטי הזיהוי של מקבל השירות כפי שנקבע בסעיף <wikicomment font-size="x-small">קטן</wikicomment><wikicomment font-size="x-small">(</wikicomment>ג<wikicomment font-size="x-small">)</wikicomment>(5);</p>
+                        </content>
+                      </point>
+                      <point eId="point_8__point_ה__point_2__point_ג">
+                        <num>(ג)</num>
+                        <content>
+                          <p>שלא לאמת את פרטי הזיהוי של מיופה כוח;</p>
+                        </content>
+                      </point>
+                      <point eId="point_8__point_ה__point_2__point_ד">
+                        <num>(ד)</num>
+                        <content>
+                          <p>לקבל הצהרת מקבל שירות שלא בחתימת מקור.</p>
+                        </content>
+                      </point>
+                    </list>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_8__point_ו">
+                <num>(ו)</num>
+                <content>
+                  <p>בלי לגרוע מהוראות סעיף קטן (ה), על אף הוראות <ref href="#point_2">סעיף 2</ref>, מפעיל יהיה פטור מהליך הכרת הלקוח, לעניין מלווה שהוא יחיד, אם הפעולה בוצעה במערכת סגורה שאינה מאפשרת למלווה לתת אשראי ללווה מסוים, ושמתקיימים בה תנאים שאינם מאפשרים את זיהויו של הלווה; הממונה רשאי לקבוע הוראות לעניין מתן אשראי כאמור, בתוקף סמכותו לפי <ref href="/akn/il/act/PrimaryLegislation/2000-08-17/169027#point_11יג">סעיף 11יג לחוק</ref>.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_9">
+            <heading>
+              <authorialNote placement="side">
+                <p>הוראות הממונה</p>
+              </authorialNote>
+            </heading>
+            <num>9.</num>
+            <content>
+              <p>על אף האמור <ref href="#chp_ב">בפרק זה</ref>, רשאי הממונה, בהתייעצות עם ראש הרשות המוסמכת, לפי הסיכון של הלבנת הון או מימון טרור, להורות במקרה מסוים על דרכי זיהוי, דרכי אימות פרטים ודרישת מסמכים חלופיות.</p>
+            </content>
+          </point>
+          <point eId="point_10">
+            <heading>
+              <authorialNote placement="side">
+                <p>ביטול פטורים והקלות</p>
+              </authorialNote>
+            </heading>
+            <num>10.</num>
+            <list>
+              <intro>
+                <p>מפעיל יפעל לפי הערכת מידת הסיכון להלבנת הון ולמימון טרור שביצע כמפורט להלן:</p>
+              </intro>
+              <point eId="point_10__point_1">
+                <num>(1)</num>
+                <content>
+                  <p>על אף האמור <ref href="#point_8">בסעיף 8</ref>, מפעיל יבצע זיהוי פנים מול פנים של מקבל השירות לפי <ref href="#point_7">סעיף 7</ref>, וזאת אם הערכת הסיכון שביצע המפעיל לגבי מקבל השירות מעידה כי יש צורך לבצע זיהוי כאמור;</p>
+                </content>
+              </point>
+              <point eId="point_10__point_2">
+                <num>(2)</num>
+                <content>
+                  <p>בפעולה שלגביה התעורר חשש להלבנת הון או למימון טרור, לא יחולו פטורים והקלות, אם ניתנו לפי <ref href="#point_6">סעיפים 6</ref><ref href="#point_8">או 8</ref>, והמפעיל ישקול, לפי מידת הסיכון להלבנת הון ולמימון טרור את ביטול ההקלות, אם ניתנו, לפי <ref href="#point_5">סעיפים 5(ו)</ref>, <ref href="#point_7">7(ג)</ref><ref href="#point_9">או 9</ref>.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+        </list>
+      </chapter>
+      <chapter eId="chp_ג">
+        <num>פרק ג׳:</num>
+        <title>
+          <content>
+            <p>חובות בקרה ודיווח</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_11">
+            <heading>
+              <authorialNote placement="side">
+                <p>בקרה</p>
+              </authorialNote>
+            </heading>
+            <num>11.</num>
+            <list>
+              <point eId="point_11__point_א">
+                <num>(א)</num>
+                <list>
+                  <intro>
+                    <p>מפעיל יקיים בקרה אחר פעולות מקבל שירות, שאינו מקבל שירות בסכום נמוך, לצורך מילוי חובותיו בעניין זיהוי, דיווח וניהול רישומים לפי <ref href="/akn/il/act/PrimaryLegislation/2000-08-17/169027">החוק</ref> ויבדוק כי פעולות מקבל השירות תואמות את אופי הפעילות הרגילה שלו לפי היכרותו עם מקבל השירות, וזאת לפי רמת הסיכון של מקבל השירות להלבנת הון ולמימון טרור; בלי לפגוע בכלליות האמור, יקיים מפעיל –</p>
+                  </intro>
+                  <point eId="point_11__point_א__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>בקרה שוטפת על הליך של הכרת הלקוח שביצע למקבל השירות, לפי מידת הסיכון של מקבל השירות להלבנת הון ולמימון טרור, ויעדכן את רישומיו לפי זה; התעורר ספק לגבי זהות מקבל השירות או לאמיתות מסמכי הזיהוי שנמסרו למפעיל, יבצע מפעיל הליך של הכרת הלקוח פעם נוספת לפי מידת הסיכון של מקבל השירות ויעדכן את רישומיו לפי זה;</p>
+                    </content>
+                  </point>
+                  <point eId="point_11__point_א__point_2">
+                    <num>(2)</num>
+                    <list>
+                      <intro>
+                        <p>בקרה מוגברת –</p>
+                      </intro>
+                      <point eId="point_11__point_א__point_2__point_א">
+                        <num>(א)</num>
+                        <content>
+                          <p>על פעילות הנעשית מול מדינות וטריטוריות המנויות <ref href="#appendix_1">בתוספת הראשונה</ref>;</p>
+                        </content>
+                      </point>
+                      <point eId="point_11__point_א__point_2__point_ב">
+                        <num>(ב)</num>
+                        <content>
+                          <p>על פעילות של איש ציבור זר;</p>
+                        </content>
+                      </point>
+                      <point eId="point_11__point_א__point_2__point_ג">
+                        <num>(ג)</num>
+                        <content>
+                          <p>על פעילות שיש בה סיכון גבוה להלבנת הון או מימון טרור.</p>
+                        </content>
+                      </point>
+                    </list>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_11__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>לצורך מילוי חובותיו בעניין זיהוי, דיווח וניהול רישומים לפי <ref href="/akn/il/act/PrimaryLegislation/2000-08-17/169027">החוק</ref>, מפעיל יקיים בקרה מוגברת על פעילות חוזרת של מקבל שירות בסכום נמוך, לרבות פעילות המנויה בסעיף קטן (א)(2)(א) ו־(ב), המעוררת חשש להלבנת הון או מימון טרור.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_12">
+            <heading>
+              <authorialNote placement="side">
+                <p>דיווח של מפעיל</p>
+              </authorialNote>
+            </heading>
+            <num>12.</num>
+            <list>
+              <point eId="point_12__point_א">
+                <num>(א)</num>
+                <list>
+                  <intro>
+                    <p>מפעיל ידווח לרשות המוסמכת על פעולות כמפורט להלן:</p>
+                  </intro>
+                  <point eId="point_12__point_א__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>העברה של נכסים פיננסיים אל מקבל שירות או ממנו, בסכום שווה ערך ל־50,000 שקלים חדשים לפחות ולעניין אשראי שניתן אגב רכישת נכס או שירות – בסכום שווה ערך ל־150,000 שקלים חדשים לפחות; לעניין סעיף זה, ”נכס פיננסי“ – למעט נכס פיננסי שנדרש הליך משפטי, לרבות הליכי הוצאה לפועל, למימושו;</p>
+                    </content>
+                  </point>
+                  <point eId="point_12__point_א__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>העברה של נכסים פיננסיים אל מקבל שירות או ממנו, שבה מעורבת מדינה או טריטוריה מן המנויות <ref href="#appendix_1">בתוספת הראשונה</ref>, בסכום שווה ערך ל־5,000 שקלים חדשים לפחות.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_12__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>מפעיל ידווח לרשות המוסמכת על פעולה הנחזית בעיניו כבלתי רגילה; לעניין זה, ”פעולה“ – לרבות ניסיון לביצוע פעולה; בלי לפגוע בכלליות האמור, יכול שיראו פעולה מן הפעולות המפורטות <ref href="#appendix_4">בתוספת הרביעית</ref> כפעולה בלתי רגילה.</p>
+                </content>
+              </point>
+              <point eId="point_12__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>אין בדיווח על פעולה לפי הוראות סעיף קטן (א) כדי לפטור מחובות הדיווח לפי סעיף קטן (ב).</p>
+                </content>
+              </point>
+              <point eId="point_12__point_ד">
+                <num>(ד)</num>
+                <content>
+                  <p>מפעיל ידווח לרשות המוסמכת על פעילות של מקבל השירות שעליה דיווח למשטרת ישראל לפי <ref href="/akn/il/act/PrimaryLegislation/2000-08-17/169027#point_6">סעיף 6(א)(1) לחוק</ref>, לפי <ref href="/akn/il/act/PrimaryLegislation/2016-06-23/568876#point_33">סעיף 33(א) לחוק המאבק בטרור</ref> או לפי <ref href="/akn/il/act/PrimaryLegislation/2018-03-11/2063209#point_6">סעיף 6 לחוק למניעת הפצה ומימון של נשק להשמדה המונית</ref>.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_13">
+            <heading>
+              <authorialNote placement="side">
+                <p>פרטי דיווח</p>
+              </authorialNote>
+            </heading>
+            <num>13.</num>
+            <list>
+              <intro>
+                <p>דיווח לפי <ref href="#point_12">סעיף 12</ref> יכלול פרטים אלה:</p>
+              </intro>
+              <point eId="point_13__point_1">
+                <num>(1)</num>
+                <list>
+                  <intro>
+                    <p>לגבי מפעיל –</p>
+                  </intro>
+                  <point eId="point_13__point_1__point_א">
+                    <num>(א)</num>
+                    <content>
+                      <p>שם;</p>
+                    </content>
+                  </point>
+                  <point eId="point_13__point_1__point_ב">
+                    <num>(ב)</num>
+                    <content>
+                      <p>מספר זהות;</p>
+                    </content>
+                  </point>
+                  <point eId="point_13__point_1__point_ג">
+                    <num>(ג)</num>
+                    <content>
+                      <p>מען;</p>
+                    </content>
+                  </point>
+                  <point eId="point_13__point_1__point_ד">
+                    <num>(ד)</num>
+                    <content>
+                      <p>מספרי טלפון, עד שני מספרים;</p>
+                    </content>
+                  </point>
+                  <point eId="point_13__point_1__point_ה">
+                    <num>(ה)</num>
+                    <content>
+                      <p>מספר פקסימילה או כתובת דואר אלקטרוני;</p>
+                    </content>
+                  </point>
+                  <point eId="point_13__point_1__point_ו">
+                    <num>(ו)</num>
+                    <content>
+                      <p>שם ומספר זהות של מבצע אימות הפרטים;</p>
+                    </content>
+                  </point>
+                  <point eId="point_13__point_1__point_ז">
+                    <num>(ז)</num>
+                    <content>
+                      <p>סוג הרישיון ומספר הרישיון שקיבל מפעיל לפי <ref href="/akn/il/act/PrimaryLegislation/2016-08-01/571496">חוק הפיקוח על שירותים פיננסיים מוסדרים</ref>, ואם הרישיון כאמור הוא רישיון בסיסי או רישיון מורחב לפי <ref href="/akn/il/act/PrimaryLegislation/2016-08-01/571496">אותו חוק</ref>;</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_13__point_2">
+                <num>(2)</num>
+                <list>
+                  <intro>
+                    <p>לגבי הפעולה המדווחת –</p>
+                  </intro>
+                  <point eId="point_13__point_2__point_א">
+                    <num>(א)</num>
+                    <content>
+                      <p>תאריך ביצוע הפעולה כפי שנרשם אצל המפעיל;</p>
+                    </content>
+                  </point>
+                  <point eId="point_13__point_2__point_ב">
+                    <num>(ב)</num>
+                    <content>
+                      <p>סכום הפעולה במטבע ישראלי; בפעולה במטבע חוץ יחושב סכום הפעולה לפי השער היציג, שפרסם בנק ישראל, הידוע ביום ביצוע הפעולה;</p>
+                    </content>
+                  </point>
+                  <point eId="point_13__point_2__point_ג">
+                    <num>(ג)</num>
+                    <content>
+                      <p>סוגי מטבע החוץ שבהם בוצעה הפעולה והסכום באותו מטבע;</p>
+                    </content>
+                  </point>
+                  <point eId="point_13__point_2__point_ד">
+                    <num>(ד)</num>
+                    <content>
+                      <p>פרטי האשראי – ערבים, אם קיימים, והמספר הסידורי שהקצה המפעיל לאשראי;</p>
+                    </content>
+                  </point>
+                  <point eId="point_13__point_2__point_ה">
+                    <num>(ה)</num>
+                    <content>
+                      <p>סוג הנכס הפיננסי שבו נעשית הפעולה;</p>
+                    </content>
+                  </point>
+                  <point eId="point_13__point_2__point_ו">
+                    <num>(ו)</num>
+                    <content>
+                      <p>אם הפעולה נעשית באמצעות כרטיס אשראי או כרטיס בנק, גם סוג הכרטיס, מספר הכרטיס אם ידוע או ארבע ספרות אחרונות של הכרטיס, המדינה המנפיקה, וכן שם, מספר זהות ומספר חשבון של בעל הכרטיס, אם ידועים;</p>
+                    </content>
+                  </point>
+                  <point eId="point_13__point_2__point_ז">
+                    <num>(ז)</num>
+                    <content>
+                      <p>אם הפעולה נעשית באמצעות שיק – גם מספר החשבון ופרטי המוסד שעליו נמשך כל שיק, פרטי זיהויו של בעל החשבון, מענו ומספר הטלפון שלו כפי שהם מופיעים על השיק, ושם האדם שלפקודתו נמשך השיק אם קיים; לדוח יצורף עותק מצולם של השיק משני צדדיו; במקרה שהתמורה ניתנה בשיק, ייכללו בדיווח כל פרטי השיק שניתן כתמורה, לרבות שם האדם שלפקודתו נמשך השיק, אם קיים;</p>
+                    </content>
+                  </point>
+                  <point eId="point_13__point_2__point_ח">
+                    <num>(ח)</num>
+                    <content>
+                      <p>אם הפעולה נעשית באמצעות שטר חליפין או שטר חוב – גם פרטי הזהות והמען של עושה השטר והנמשך, כפי שהם מופיעים על גבי השטר; לדיווח יצורף עותק מצולם של שטר החליפין או שטר החוב משני צדדיו;</p>
+                    </content>
+                  </point>
+                  <point eId="point_13__point_2__point_ט">
+                    <num>(ט)</num>
+                    <list>
+                      <intro>
+                        <p>אם האשראי ניתן כנגד המחאת זכותו של הלווה לקבל נכס פיננסי מאחר – גם את פרטי הזיהוי של הנמחה והממחה, כמפורט להלן:</p>
+                      </intro>
+                      <point eId="point_13__point_2__point_ט__point_1">
+                        <num>(1)</num>
+                        <content>
+                          <p>פרטי הנמחה – שם, מספר זהות, מען, מספרי טלפון, מעמד מקבל השירות (תושב/תושב חוץ/תאגיד ישראלי/תאגיד חוץ), מדינת הנפקת מסמך הזיהוי, ליחיד – תאריך לידה ומין, לתאגיד – תאריך ההתאגדות;</p>
+                        </content>
+                      </point>
+                      <point eId="point_13__point_2__point_ט__point_2">
+                        <num>(2)</num>
+                        <content>
+                          <p>פרטי הממחה – שם, מספר זהות, מען, ליחיד – תאריך לידה ומין, לתאגיד – תאריך ההתאגדות;</p>
+                        </content>
+                      </point>
+                    </list>
+                  </point>
+                  <point eId="point_13__point_2__point_י">
+                    <num>(י)</num>
+                    <content>
+                      <p>בוצעה פעולה באמצעות העברה אלקטרונית – ייכללו בדיווח שם מקבל השירות, מספר זהותו ומענו, וכן שם המעביר או הנעבר, לפי העניין, מספר זהותו ומענו, אם אינו מקבל השירות, מספר המוסד הפיננסי, מספר הסניף, מספר החשבון במוסד הפיננסי שאליו מתבצעת ההעברה, אם קיים; ואולם בפעולה אל מול מוסד פיננסי במדינה או בטריטוריה המנויה <ref href="#appendix_1">בתוספת הראשונה</ref> – ייכללו בדיווח הפרטים האמורים ולגבי שם המעביר או הנעבר, לפי העניין, מספר זהותו ומספר חשבונו במוסד הפיננסי, כפי שנמסרו;</p>
+                    </content>
+                  </point>
+                  <point eId="point_13__point_2__point_יא">
+                    <num>(יא)</num>
+                    <content>
+                      <p>בדיווח לפי <ref href="#point_12">סעיף 12(ב)</ref> – תיכלל גם סיבת הדיווח, לרבות תיאור הפעולה שבשלה הוגש הדיווח על כל נסיבותיה, ויצורפו לו אסמכתאות לביצוע פעולה; דיווח לפי <ref href="#point_12">סעיף 12(ב)</ref> על פעולה שמבצעה אינו מקבל שירות יכלול את הפרטים הנדרשים בפסקה (3) גם לגבי מבצע הפעולה, אם היו מצויים בידי מפעיל;</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_13__point_3">
+                <num>(3)</num>
+                <list>
+                  <intro>
+                    <p>לגבי מקבל השירות –</p>
+                  </intro>
+                  <point eId="point_13__point_3__point_א">
+                    <num>(א)</num>
+                    <content>
+                      <p>שם;</p>
+                    </content>
+                  </point>
+                  <point eId="point_13__point_3__point_ב">
+                    <num>(ב)</num>
+                    <content>
+                      <p>מספר זהות;</p>
+                    </content>
+                  </point>
+                  <point eId="point_13__point_3__point_ג">
+                    <num>(ג)</num>
+                    <content>
+                      <p>מען;</p>
+                    </content>
+                  </point>
+                  <point eId="point_13__point_3__point_ד">
+                    <num>(ד)</num>
+                    <content>
+                      <p>מספרי טלפון, עד שני מספרים, אם ידועים;</p>
+                    </content>
+                  </point>
+                  <point eId="point_13__point_3__point_ה">
+                    <num>(ה)</num>
+                    <content>
+                      <p>ליחיד – תאריך לידה; לתאגיד – תאריך ההתאגדות;</p>
+                    </content>
+                  </point>
+                  <point eId="point_13__point_3__point_ו">
+                    <num>(ו)</num>
+                    <content>
+                      <p>ליחיד – מין;</p>
+                    </content>
+                  </point>
+                  <point eId="point_13__point_3__point_ז">
+                    <num>(ז)</num>
+                    <content>
+                      <p>מעמד מקבל השירות (תושב/תושב חוץ/תאגיד ישראלי/תאגיד חוץ);</p>
+                    </content>
+                  </point>
+                  <point eId="point_13__point_3__point_ח">
+                    <num>(ח)</num>
+                    <content>
+                      <p>מדינת הנפקת מסמך הזיהוי;</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_13__point_4">
+                <num>(4)</num>
+                <content>
+                  <p>לגבי הנהנים ובעלי השליטה, אם קיימים, הפרטים הנדרשים לפי <ref href="#point_3">סעיף 3(ב) ו־(ג)</ref>.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_14">
+            <heading>
+              <authorialNote placement="side">
+                <p>איסור גילוי ועיון</p>
+              </authorialNote>
+            </heading>
+            <num>14.</num>
+            <list>
+              <point eId="point_14__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>מפעיל לא יגלה את עובדת גיבושו, קיומו, אי־קיומו או תוכנו של דיווח לפי <ref href="#point_12">סעיף 12(ב)</ref>, וכן לא יגלה את עובדת קיומו של דיווח משלים כמשמעותו <ref href="/akn/il/act/PrimaryLegislation/2000-08-17/169027#point_31">בסעיף 31(ג) לחוק</ref>, את עובדת קיומה של בקשה לדיווח כאמור או תוכנו של אחד מאלה, וכן לא יאפשר מתן עיון במסמכים המעידים על כל אחד מאלה; על אף האמור, מפעיל יגלה מידע או יאפשר מתן עיון כאמור למי שמוסמך לכך לצורך מילוי תפקידו אצל המפעיל, לממונה או למי שהוא הסמיכו, לרשות המוסמכת או לפי צו בית משפט.</p>
+                </content>
+              </point>
+              <point eId="point_14__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>התעורר ספק לגבי זהות מקבל השירות או לאמיתות מסמכי הזיהוי כאמור <ref href="#point_11">בסעיף 11(א)</ref>, התעורר חשש להלבנת הון ולמימון טרור כאמור <ref href="#point_11">בסעיף 11(ב)</ref>, או נעשתה פעילות הנחזית להיות בלתי רגילה כאמור <ref href="#point_12">בסעיף 12(ב)</ref>, ומפעיל סבור כי ביטול פטורים או הקלות לפי <ref href="#point_10">סעיף 10</ref> או ביצוע בקרה להליך הכרת הלקוח לפי <ref href="#point_11">סעיף 11</ref>, לפי העניין, יובילו להפרת חובתו לפי סעיף קטן (א), רשאי הוא שלא לעשות כן, וידווח לרשות המוסמכת על החשש כאמור.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+        </list>
+      </chapter>
+      <chapter eId="chp_ד">
+        <num>פרק ד׳:</num>
+        <title>
+          <content>
+            <p>בדיקת פרטי זיהוי אל מול רשימות</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_15">
+            <heading>
+              <authorialNote placement="side">
+                <p>חובת בדיקה אל מול רשימות</p>
+              </authorialNote>
+            </heading>
+            <num>15.</num>
+            <list>
+              <intro>
+                <p>מפעיל יבדוק אל מול הרשימות –</p>
+              </intro>
+              <point eId="point_15__point_1">
+                <num>(1)</num>
+                <content>
+                  <p>אם מצויים בהן שם או מספר זהות של מקבל שירות, מיופה כוח, נהנה או בעל שליטה שפרטיו מצויים במאגר המידע הממוחשב שהוקם לפי <ref href="#point_17">סעיף 17(א)</ref>; בדיקה כאמור תיערך גם כל אימת שהוסף ארגון או אדם לרשימות;</p>
+                </content>
+              </point>
+              <point eId="point_15__point_2">
+                <num>(2)</num>
+                <list>
+                  <intro>
+                    <p>אם מצויים בהן שמותיהם של צדדים לפעולה, למעט אלה המנויים בפסקה (1); בפסקה זו –</p>
+                  </intro>
+                  <point eId="point_15__point_2__point_פעולה">
+                    <content>
+                      <p>
+                        <def />”פעולה“ – העברה של נכס פיננסי מישראל לחוץ לארץ או לאזור, או העברה של נכס פיננסי מחוץ לארץ או מהאזור לישראל;</p>
+                    </content>
+                  </point>
+                  <point eId="point_15__point_2__point_צד_לפעולה">
+                    <content>
+                      <p>
+                        <def />”צד לפעולה“ – מי שהוא אחד הצדדים לפעולה המבוצעת באמצעות המפעיל, ואולם לעניין פעולה הנעשית באמצעות שטר חוב או שיק – עושה השטר או מושך השיק, לפי העניין, וכן הנפרע בשטר או בשיק, לפי העניין.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+            </list>
+          </point>
+        </list>
+      </chapter>
+      <chapter eId="chp_ה">
+        <num>פרק ה׳:</num>
+        <title>
+          <content>
+            <p>שונות</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_16">
+            <heading>
+              <authorialNote placement="side">
+                <p>קביעת מדיניות</p>
+              </authorialNote>
+            </heading>
+            <num>16.</num>
+            <list>
+              <intro>
+                <p>מפעיל יקבע מדיניות, כלים וניהול סיכונים בעניין איסור הלבנת הון ומימון טרור לצורך מילוי חובותיו לעניין צו זה, לרבות בנושאים אלה:</p>
+              </intro>
+              <point eId="point_16__point_1">
+                <num>(1)</num>
+                <content>
+                  <p>הליך של הכרת הלקוח, זיהוי, דיווח וניהול רישומים;</p>
+                </content>
+              </point>
+              <point eId="point_16__point_2">
+                <num>(2)</num>
+                <content>
+                  <p>מעקב אחר איומי הלבנת הון ומימון טרור, הנובעים, בין השאר, מטכנולוגיות חדישות, בפרט אלה המאפשרות ביצוע עסקאות שלא פנים אל פנים.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_17">
+            <heading>
+              <authorialNote placement="side">
+                <p>ניהול רישומים ושמירתם</p>
+              </authorialNote>
+            </heading>
+            <num>17.</num>
+            <list>
+              <point eId="point_17__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>מפעיל יקיים מאגר מידע ממוחשב של כל הפעולות ופרטי הזיהוי והדיווח הנדרשים לפי צו זה של מקבלי שירות, מיופי כוח, נהנים ובעלי שליטה.</p>
+                </content>
+              </point>
+              <point eId="point_17__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>מפעיל ישמור באורח נגיש פרטי כל פעולה כספית שבוצעה, שיכללו בין השאר את תאריך ביצוע הפעולה, סוג הפעולה, סכום הפעולה והמטבע שבו בוצעה הפעולה, וכן את מסמך ההוראה לביצוע פעולה והתכתבות עסקית הנלווית לה בין המפעיל לבין מקבל השירות, והכול למשך חמש שנים לפחות ממועד סיום החזר האשראי; שמירת המסמכים תיעשה באופן שיאפשר גם שחזור של עסקה בודדת; לעניין סעיף זה, ”התכתבות עסקית“ – מסמכי הפעולה, הוראות שניתנות בקשר לפעולה במהלך ההתקשרות העסקית, הוראות בקשר לתנאי ההתקשרות ובירור בקשר לפעילות מקבל השירות.</p>
+                </content>
+              </point>
+              <point eId="point_17__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>מפעיל ישמור על כל מסמך הוראה בקשר לביצוע פעולה שעליה דיווח לרשות המוסמכת ואת הדיווח עצמו, לתקופה כאמור בסעיף קטן (ב).</p>
+                </content>
+              </point>
+              <point eId="point_17__point_ד">
+                <num>(ד)</num>
+                <content>
+                  <p>שמירת מסמכים כאמור בסעיפים קטנים (ב) ו־(ג), יכול שתיעשה באמצעות סריקה ממוחשבת בתנאים המפורטים <ref href="/akn/il/act/SecondaryLegislation/1969-10-23/100003716#point_3א">בתקנה 3א לתקנות העדות</ref>; בהעדר מסמך הוראה לביצוע פעולה כאמור באותם סעיפים קטנים, ישמור מפעיל את הרשומה הממוכנת המעידה על מתן הוראה לביצוע הפעולה.</p>
+                </content>
+              </point>
+              <point eId="point_17__point_ה">
+                <num>(ה)</num>
+                <content>
+                  <p>מפעיל ישמור תיעוד בכתב של הליך הבקרה כאמור <ref href="#point_11">בסעיף 11</ref> ושל ממצאיה לתקופה כאמור בסעיף קטן (ב).</p>
+                </content>
+              </point>
+              <point eId="point_17__point_ו">
+                <num>(ו)</num>
+                <content>
+                  <p>על אף האמור בסעיפים קטנים (ב) עד (ה), מפעיל ישמור את המסמכים האמורים שם אף מעבר לתקופה של חמש שנים אם הממונה דרש ממנו לעשות כן, וזאת במקרים מסוימים שבהם המסמכים האמורים נדרשים לצורך חקירה או לשם פיקוח על ביצוע הוראות <ref href="/akn/il/act/PrimaryLegislation/2000-08-17/169027">החוק</ref> או <ref href="/akn/il/act/PrimaryLegislation/2016-06-23/568876">חוק המאבק בטרור</ref>.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_18">
+            <heading>
+              <authorialNote placement="side">
+                <p>מסירת מסמכים, ידיעות והסברים</p>
+              </authorialNote>
+            </heading>
+            <num>18.</num>
+            <content>
+              <p>מפעיל ימסור, לפי דרישה, לממונה או למי שהממונה הסמיך לכך, מסמכים, ידיעות והסברים בקשר למילוי חובותיו לפי צו זה; הסמיך הממונה אדם שאינו עובד מדינה – תחול על אותו אדם חובת סודיות לגבי מסמכים, ידיעות והסברים שנמסרו לו.</p>
+            </content>
+          </point>
+          <point eId="point_19">
+            <heading>
+              <authorialNote placement="side">
+                <p>תחילה והוראות מעבר</p>
+              </authorialNote>
+            </heading>
+            <num>19.</num>
+            <list>
+              <point eId="point_19__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>תחילתו של צו זה שישה חודשים מיום פרסומו (להלן – יום התחילה).</p>
+                </content>
+              </point>
+              <point eId="point_19__point_ב">
+                <num>(ב)</num>
+                <list>
+                  <intro>
+                    <p>על אף האמור בסעיף קטן (א) –</p>
+                  </intro>
+                  <point eId="point_19__point_ב__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>
+                        <ref href="#point_7">סעיף 7</ref> והדרישה לחתימת מקור בהצהרה לפי <ref href="#point_5">סעיף 5</ref> יחלו שנה לאחר פרסום הוראות הממונה לפי <ref href="#point_5">סעיפים 5(ו)</ref><ref href="#point_7">ו־7(ג)</ref>; הממונה יפרסם הודעה על מועד תחילתם של סעיפים אלה ברשומות, לא יאוחר משלושה חודשים לאחר פרסום הוראות הממונה כאמור;</p>
+                    </content>
+                  </point>
+                  <point eId="point_19__point_ב__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>ניתן אשראי ללווה לפני יום התחילה, יבצע המפעיל פעולות לפי <ref href="#point_2">סעיפים 2 עד 5</ref> לגבי הלווה במועד מתן אשראי חדש מכוח הסכם שנחתם לאחר יום התחילה;</p>
+                    </content>
+                  </point>
+                  <point eId="point_19__point_ב__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>נתן מלווה אשראי לפני יום התחילה, יבצע המפעיל פעולות לפי <ref href="#point_2">סעיפים 2 עד 5</ref> לגבי המלווה במועד העברת כספים נוספים למפעיל, ובכל מקרה לא יאוחר משנים עשר חודשים מיום התחילה; לא ביצע המפעיל פעולות כאמור בתוך שנים עשר חודשים מיום התחילה, לא יאפשר המפעיל למלווה לבצע כל פעולה מלבד משיכת יתרה קיימת או פירעון אשראי או חוב.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+            </list>
+          </point>
+        </list>
+      </chapter>
+      <appendix eId="appendix_ראשונה">
+        <num></num>
+        <title>
+          <content>
+            <p>תוספת ראשונה</p>
+          </content>
+        </title>
+        <subtitle eId="eId">
+          <num></num>
+          <content>
+            <p>
+              <wikicomment font-size="x-small">(<ref href="#point_1">סעיפים 1</ref>, <ref href="#point_3">3(ד)(3)</ref>, <ref href="#point_8">8(ג)(1)</ref>, <ref href="#point_11">11(א)(2)</ref>, <ref href="#point_12">12(א)(2)</ref>, <ref href="#point_13">13(2)(י)</ref><ref href="#appendix_4">והתוספת הרביעית</ref>)</wikicomment>
+            </p>
+          </content>
+        </subtitle>
+        <subtitle eId="eId">
+          <num></num>
+          <content>
+            <p>רשימת המדינות והטריטוריות</p>
+          </content>
+        </subtitle>
+        <list>
+          <point eId="appendix_ראשונה__point_1">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>1.</num>
+            <content>
+              <p>מדינה או טריטוריה מתוך רשימת המדינות או הטריטוריות שארגון ה־FATF, ארגון Moneyval או ארגונים בין־לאומיים אחרים פרסמו לגביהן הסתייגות בנוגע לעמידתן בהמלצות הארגון בנושא איסור הלבנת הון ומימון טרור; <ref href="#point_12">סעיף 12(א)(2) לצו זה</ref> יחול רק לגבי המדינות והטריטוריות שברשימה לגביהן קבע הארגון שיש לנקוט צעדי מנע; רשימות כאמור יפורסמו באתר האינטרנט של הרשות המוסמכת;</p>
+            </content>
+          </point>
+          <point eId="appendix_ראשונה__point_2">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>2.</num>
+            <content>
+              <p>המדינות או הטריטוריות שלהלן: איראן, אלג׳יריה, אפגניסטאן, הממלכה של ירדן, הרשות הפלסטינית, לוב, לבנון, מועצת הנסיכויות הערביות המאוחדות, מלזיה, מצרים, טורקיה, מרוקו, סודאן, סומליה, סוריה, סעודיה, עירק, פקיסטאן, צפון קוריאה, רצועת עזה, תוניס ותימן, ובלבד שלא מדובר בפעולה אסורה לפי <ref href="/akn/il/act/PrimaryLegislation/1939-09-05/2001802">פקודת המסחר עם האויב, 1939</ref>.</p>
+            </content>
+          </point>
+        </list>
+      </appendix>
+      <appendix eId="appendix_שנייה">
+        <num></num>
+        <title>
+          <content>
+            <p>תוספת שנייה</p>
+          </content>
+        </title>
+        <subtitle eId="eId">
+          <num></num>
+          <content>
+            <p>
+              <wikicomment font-size="x-small">(<ref href="#point_2">סעיף 2(ד)</ref>)</wikicomment>
+            </p>
+          </content>
+        </subtitle>
+        <subtitle eId="eId">
+          <num></num>
+          <content>
+            <p>טופס איש ציבור זר</p>
+          </content>
+        </subtitle>
+        <list>
+          <point eId="appendix_שנייה__point_1">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>1.</num>
+            <content>
+              <p>מהי זיקתך לישראל?</p>
+            </content>
+          </point>
+          <point eId="appendix_שנייה__point_2">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>2.</num>
+            <list>
+              <intro>
+                <p>האם אתה תושב חוץ?</p>
+              </intro>
+              <point eId="appendix_שנייה__point_2__point_□">
+                <num>□</num>
+                <content>
+                  <p>כן</p>
+                </content>
+              </point>
+              <point eId="appendix_שנייה__point_2__point_□">
+                <num>□</num>
+                <content>
+                  <p>לא</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="appendix_שנייה__point_3">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>3.</num>
+            <list>
+              <intro>
+                <p>האם אתה בעל תפקיד ציבורי בכיר בחוץ לארץ כמפורט להלן (לרבות תפקיד כאמור אף אם תוארו שונה)?</p>
+              </intro>
+              <point eId="appendix_שנייה__point_3__point_□">
+                <num>□</num>
+                <content>
+                  <p>איני בעל תפקיד בכיר</p>
+                </content>
+              </point>
+              <point eId="appendix_שנייה__point_3__point_□">
+                <num>□</num>
+                <content>
+                  <p>ראש מדינה</p>
+                </content>
+              </point>
+              <point eId="appendix_שנייה__point_3__point_□">
+                <num>□</num>
+                <content>
+                  <p>נשיא מדינה</p>
+                </content>
+              </point>
+              <point eId="appendix_שנייה__point_3__point_□">
+                <num>□</num>
+                <content>
+                  <p>ראש עיר</p>
+                </content>
+              </point>
+              <point eId="appendix_שנייה__point_3__point_□">
+                <num>□</num>
+                <content>
+                  <p>שופט</p>
+                </content>
+              </point>
+              <point eId="appendix_שנייה__point_3__point_□">
+                <num>□</num>
+                <content>
+                  <p>חבר פרלמנט</p>
+                </content>
+              </point>
+              <point eId="appendix_שנייה__point_3__point_□">
+                <num>□</num>
+                <content>
+                  <p>חבר מפלגה בכיר</p>
+                </content>
+              </point>
+              <point eId="appendix_שנייה__point_3__point_□">
+                <num>□</num>
+                <content>
+                  <p>חבר ממשלה</p>
+                </content>
+              </point>
+              <point eId="appendix_שנייה__point_3__point_□">
+                <num>□</num>
+                <content>
+                  <p>קצין צבא בכיר</p>
+                </content>
+              </point>
+              <point eId="appendix_שנייה__point_3__point_□">
+                <num>□</num>
+                <content>
+                  <p>קצין משטרה בכיר</p>
+                </content>
+              </point>
+              <point eId="appendix_שנייה__point_3__point_□">
+                <num>□</num>
+                <content>
+                  <p>נושא משרה בכיר בחברה ממשלתית</p>
+                </content>
+              </point>
+              <point eId="appendix_שנייה__point_3__point_□">
+                <num>□</num>
+                <content>
+                  <p>בעל תפקיד בכיר בארגון בין־לאומי</p>
+                </content>
+              </point>
+              <point eId="appendix_שנייה__point_3__point_□">
+                <num>□</num>
+                <content>
+                  <p>תפקיד ציבורי בכיר אחר (נא לפרט)<span style="word-break: break-all;">. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .</span></p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="appendix_שנייה__point_4">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>4.</num>
+            <list>
+              <intro>
+                <p>האם יש לך בן משפחה (בן זוג וכן אח, הורה, הורה הורה, צאצא או צאצא של בן הזוג, או בן זוגו של כל אחד מאלה) שהוא בעל תפקיד ציבורי בכיר בחוץ לארץ?</p>
+              </intro>
+              <point eId="appendix_שנייה__point_4__point_□">
+                <num>□</num>
+                <content>
+                  <p>כן</p>
+                </content>
+              </point>
+              <point eId="appendix_שנייה__point_4__point_□">
+                <num>□</num>
+                <content>
+                  <p>לא</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="appendix_שנייה__point_5">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>5.</num>
+            <list>
+              <intro>
+                <p>אם התשובה <ref href="#appendix_2_פרט_4">לשאלה 4</ref> חיובית, אנא סמן את תפקידו לפי הרשימה שלהלן (לרבות תפקיד כאמור אף אם תוארו שונה):<br space="preserve"></br>
+   □  ראש מדינה</p>
+              </intro>
+              <point eId="appendix_שנייה__point_5__point_□">
+                <num>□</num>
+                <content>
+                  <p>נשיא מדינה</p>
+                </content>
+              </point>
+              <point eId="appendix_שנייה__point_5__point_□">
+                <num>□</num>
+                <content>
+                  <p>ראש עיר</p>
+                </content>
+              </point>
+              <point eId="appendix_שנייה__point_5__point_□">
+                <num>□</num>
+                <content>
+                  <p>שופט</p>
+                </content>
+              </point>
+              <point eId="appendix_שנייה__point_5__point_□">
+                <num>□</num>
+                <content>
+                  <p>חבר פרלמנט</p>
+                </content>
+              </point>
+              <point eId="appendix_שנייה__point_5__point_□">
+                <num>□</num>
+                <content>
+                  <p>חבר מפלגה בכיר</p>
+                </content>
+              </point>
+              <point eId="appendix_שנייה__point_5__point_□">
+                <num>□</num>
+                <content>
+                  <p>חבר ממשלה</p>
+                </content>
+              </point>
+              <point eId="appendix_שנייה__point_5__point_□">
+                <num>□</num>
+                <content>
+                  <p>קצין צבא בכיר</p>
+                </content>
+              </point>
+              <point eId="appendix_שנייה__point_5__point_□">
+                <num>□</num>
+                <content>
+                  <p>קצין משטרה בכיר</p>
+                </content>
+              </point>
+              <point eId="appendix_שנייה__point_5__point_□">
+                <num>□</num>
+                <content>
+                  <p>נושא משרה בכיר בחברה ממשלתית</p>
+                </content>
+              </point>
+              <point eId="appendix_שנייה__point_5__point_□">
+                <num>□</num>
+                <content>
+                  <p>בעל תפקיד בכיר בארגון בין־לאומי</p>
+                </content>
+              </point>
+              <point eId="appendix_שנייה__point_5__point_□">
+                <num>□</num>
+                <content>
+                  <p>תפקיד ציבורי בכיר אחר (נא לפרט)<span style="word-break: break-all;">. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .</span></p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="appendix_שנייה__point_6">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>6.</num>
+            <list>
+              <intro>
+                <p>האם אתה פועל בשם תאגיד?</p>
+              </intro>
+              <point eId="appendix_שנייה__point_6__point_□">
+                <num>□</num>
+                <content>
+                  <p>כן</p>
+                </content>
+              </point>
+              <point eId="appendix_שנייה__point_6__point_□">
+                <num>□</num>
+                <content>
+                  <p>לא</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="appendix_שנייה__point_7">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>7.</num>
+            <list>
+              <intro>
+                <p>אם התשובה <ref href="#appendix_2_פרט_6">לשאלה 6</ref> חיובית, האם אחד מבעלי השליטה בתאגיד הוא בעל תפקיד ציבורי בכיר בחוץ לארץ? אם כן, אנא סמן את תפקידו לפי הרשימה שלהלן (לרבות תפקיד כאמור אף אם תוארו שונה):<br space="preserve"></br>
+   □  ראש מדינה</p>
+              </intro>
+              <point eId="appendix_שנייה__point_7__point_□">
+                <num>□</num>
+                <content>
+                  <p>נשיא מדינה</p>
+                </content>
+              </point>
+              <point eId="appendix_שנייה__point_7__point_□">
+                <num>□</num>
+                <content>
+                  <p>ראש עיר</p>
+                </content>
+              </point>
+              <point eId="appendix_שנייה__point_7__point_□">
+                <num>□</num>
+                <content>
+                  <p>שופט</p>
+                </content>
+              </point>
+              <point eId="appendix_שנייה__point_7__point_□">
+                <num>□</num>
+                <content>
+                  <p>חבר פרלמנט</p>
+                </content>
+              </point>
+              <point eId="appendix_שנייה__point_7__point_□">
+                <num>□</num>
+                <content>
+                  <p>חבר מפלגה בכיר</p>
+                </content>
+              </point>
+              <point eId="appendix_שנייה__point_7__point_□">
+                <num>□</num>
+                <content>
+                  <p>חבר ממשלה</p>
+                </content>
+              </point>
+              <point eId="appendix_שנייה__point_7__point_□">
+                <num>□</num>
+                <content>
+                  <p>קצין צבא בכיר</p>
+                </content>
+              </point>
+              <point eId="appendix_שנייה__point_7__point_□">
+                <num>□</num>
+                <content>
+                  <p>קצין משטרה בכיר</p>
+                </content>
+              </point>
+              <point eId="appendix_שנייה__point_7__point_□">
+                <num>□</num>
+                <content>
+                  <p>נושא משרה בכיר בחברה ממשלתית</p>
+                </content>
+              </point>
+              <point eId="appendix_שנייה__point_7__point_□">
+                <num>□</num>
+                <content>
+                  <p>בעל תפקיד בכיר בארגון בין־לאומי</p>
+                </content>
+              </point>
+              <point eId="appendix_שנייה__point_7__point_□">
+                <num>□</num>
+                <content>
+                  <p>תפקיד ציבורי בכיר אחר (נא לפרט)<span style="word-break: break-all;">. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .</span></p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="appendix_שנייה__point_8">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>8.</num>
+            <list>
+              <intro>
+                <p>האם אתה שותף עסקי, יועץ או מינוי אישי של בעל תפקיד ציבורי בחוץ לארץ?</p>
+              </intro>
+              <point eId="appendix_שנייה__point_8__point_□">
+                <num>□</num>
+                <content>
+                  <p>כן</p>
+                </content>
+              </point>
+              <point eId="appendix_שנייה__point_8__point_□">
+                <num>□</num>
+                <content>
+                  <p>לא</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="appendix_שנייה__point_9">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>9.</num>
+            <list>
+              <intro>
+                <p>אם התשובה <ref href="#appendix_2_פרט_8">לשאלה 8</ref> חיובית, אנא סמן את תפקידו לפי הרשימה שלהלן (לרבות תפקיד כאמור אף אם תוארו שונה):<br space="preserve"></br>
+   □  ראש מדינה</p>
+              </intro>
+              <point eId="appendix_שנייה__point_9__point_□">
+                <num>□</num>
+                <content>
+                  <p>נשיא מדינה</p>
+                </content>
+              </point>
+              <point eId="appendix_שנייה__point_9__point_□">
+                <num>□</num>
+                <content>
+                  <p>ראש עיר</p>
+                </content>
+              </point>
+              <point eId="appendix_שנייה__point_9__point_□">
+                <num>□</num>
+                <content>
+                  <p>שופט</p>
+                </content>
+              </point>
+              <point eId="appendix_שנייה__point_9__point_□">
+                <num>□</num>
+                <content>
+                  <p>חבר פרלמנט</p>
+                </content>
+              </point>
+              <point eId="appendix_שנייה__point_9__point_□">
+                <num>□</num>
+                <content>
+                  <p>חבר מפלגה בכיר</p>
+                </content>
+              </point>
+              <point eId="appendix_שנייה__point_9__point_□">
+                <num>□</num>
+                <content>
+                  <p>חבר ממשלה</p>
+                </content>
+              </point>
+              <point eId="appendix_שנייה__point_9__point_□">
+                <num>□</num>
+                <content>
+                  <p>קצין צבא בכיר</p>
+                </content>
+              </point>
+              <point eId="appendix_שנייה__point_9__point_□">
+                <num>□</num>
+                <content>
+                  <p>קצין משטרה בכיר</p>
+                </content>
+              </point>
+              <point eId="appendix_שנייה__point_9__point_□">
+                <num>□</num>
+                <content>
+                  <p>נושא משרה בכיר בחברה ממשלתית</p>
+                </content>
+              </point>
+              <point eId="appendix_שנייה__point_9__point_□">
+                <num>□</num>
+                <content>
+                  <p>בעל תפקיד בכיר בארגון בין־לאומי</p>
+                </content>
+              </point>
+              <point eId="appendix_שנייה__point_9__point_□">
+                <num>□</num>
+                <content>
+                  <p>תפקיד ציבורי בכיר אחר (נא לפרט)<span style="word-break: break-all;">. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .</span></p>
+                </content>
+              </point>
+            </list>
+          </point>
+        </list>
+      </appendix>
+      <appendix eId="appendix_שלישית">
+        <num></num>
+        <title>
+          <content>
+            <p>תוספת שלישית</p>
+          </content>
+        </title>
+        <subtitle eId="eId">
+          <num></num>
+          <content>
+            <p>
+              <wikicomment font-size="x-small">(<ref href="#point_5">סעיף 5(ד)</ref>)</wikicomment>
+            </p>
+          </content>
+        </subtitle>
+        <subtitle eId="eId">
+          <num></num>
+          <content>
+            <p>נוסח הצהרת מקבל שירות</p>
+          </content>
+        </subtitle>
+        <list>
+          <point eId="appendix_שלישית__point_none">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num></num>
+            <list>
+              <intro>
+                <p>אני [שם מלא]<span style="word-break: break-all;">. . . . . . . . . . . . . . . . . . . . . . . .</span> מס׳ זהות<span style="word-break: break-all;">. . . . . . . . . . . . . . . . . . . . . . . . . . . . . .</span> מצהיר בזה כי –</p>
+              </intro>
+              <point eId="appendix_שלישית__point_none__point_1">
+                <num>(1)</num>
+                <content>
+                  <p>□ אני מבקש לבצע פעולה בעבור עצמי בלבד.</p>
+                </content>
+              </point>
+              <point eId="appendix_שלישית__point_none__point_2">
+                <num>(2)</num>
+                <content>
+                  <p>□ אני מבקש לבצע פעולה בעבור נהנה.</p>
+                </content>
+              </point>
+              <point eId="appendix_שלישית__point_none__point_3">
+                <num>(3)</num>
+                <content>
+                  <p>□ קיים נהנה ואולם פרטי הזיהוי שלו טרם ידועים; הסיבה לכך. . . . . . . . . . . . . . . . . . . . אני מתחייב למסור את פרטי הנהנה מיד עם היוודע זהותו.</p>
+                </content>
+              </point>
+              <point eId="appendix_שלישית__point_none__point_4">
+                <num>(4)</num>
+                <content>
+                  <p>□ הנהנים מהפעולה שביצעתי הם:<br space="preserve"></br><table><tr><th>שם</th><th>מס׳ זהות</th><th>תאריך לידה/התאגדות*</th><th>מין*</th><th>מען*</th></tr><tr><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td></tr></table></p>
+                </content>
+              </point>
+              <wrapup eId="appendix_שלישית__point_none__wrapup_none">
+                <list>
+                  <intro>
+                    <p>לגבי מקבל שירות שהוא תאגיד:</p>
+                  </intro>
+                  <point eId="appendix_שלישית__point_none__wrapup_none__point_5">
+                    <num>(5)</num>
+                    <content>
+                      <p>□ אין בעל שליטה בתאגיד.</p>
+                    </content>
+                  </point>
+                  <point eId="appendix_שלישית__point_none__wrapup_none__point_6">
+                    <num>(6)</num>
+                    <content>
+                      <p>□ בעלי השליטה בתאגיד הם:<br space="preserve"></br><table><tr><th>שם</th><th>מס׳ זהות</th><th>תאריך לידה/התאגדות*</th><th>מין*</th><th>מען*</th></tr><tr><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td></tr></table></p>
+                    </content>
+                  </point>
+                </list>
+              </wrapup>
+              <wrapup eId="appendix_שלישית__point_none__wrapup_none">
+                <content>
+                  <p>אני מתחייב להודיע למפעיל בכתב בהקדם האפשרי על כל שינוי בפרטים שמסרתי לעיל; ידוע לי כי מסירת מידע כוזב, לרבות אי־מסירת עדכון של פרט החייב בדיווח, במטרה שלא יהיה דיווח או כדי לגרום לדיווח בלתי נכון לפי <ref href="/akn/il/act/PrimaryLegislation/2000-08-17/169027#point_7">סעיף 7 לחוק איסור הלבנת הון, התש"ס–2000</ref>, מהווה עבירה פלילית.</p>
+                </content>
+              </wrapup>
+            </list>
+          </point>
+          <point eId="appendix_שלישית__point_none">
+            <content>
+              <p>תאריך<span style="word-break: break-all;">. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .</span> חתימה<span style="word-break: break-all;">. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .</span><br space="preserve"></br><span style="font-size: smaller">* נדרש אם אין למפעיל מספר זהות לאחר שנקט אמצעים סבירים להשגתו.</span></p>
+            </content>
+          </point>
+        </list>
+      </appendix>
+      <appendix eId="appendix_רביעית">
+        <num></num>
+        <title>
+          <content>
+            <p>תוספת רביעית</p>
+          </content>
+        </title>
+        <subtitle eId="eId">
+          <num></num>
+          <content>
+            <p>
+              <wikicomment font-size="x-small">(<ref href="#point_12">סעיף 12(ב)</ref>)</wikicomment>
+            </p>
+          </content>
+        </subtitle>
+        <subtitle eId="eId">
+          <num></num>
+          <content>
+            <p>רשימת פעולות שיכול שייראו כפעולות בלתי רגילות לפי הצו</p>
+          </content>
+        </subtitle>
+        <list>
+          <point eId="appendix_רביעית__point_1">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>1.</num>
+            <content>
+              <p>פעילות שנראה כי מטרתה לעקוף את חובת הדיווח שנקבעה <ref href="#point_12">בסעיף 12(א)</ref>;</p>
+            </content>
+          </point>
+          <point eId="appendix_רביעית__point_2">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>2.</num>
+            <content>
+              <p>פעילות שנראה שמטרתה לעקוף את חובת הזיהוי;</p>
+            </content>
+          </point>
+          <point eId="appendix_רביעית__point_3">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>3.</num>
+            <content>
+              <p>פעולה בעלת היקף כספי ומורכבות גבוהים, בלא הסבר סביר;</p>
+            </content>
+          </point>
+          <point eId="appendix_רביעית__point_4">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>4.</num>
+            <content>
+              <p>ביצוע פעולה בידי מי שאינו מקבל שירות, בלא הסבר סביר;</p>
+            </content>
+          </point>
+          <point eId="appendix_רביעית__point_5">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>5.</num>
+            <content>
+              <p>נראה כי מקבל השירות פועל בעבור נהנה, בלי שהצהיר על כך;</p>
+            </content>
+          </point>
+          <point eId="appendix_רביעית__point_6">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>6.</num>
+            <content>
+              <p>נראה כי הפעולה המבוקשת אינה אופיינית למקבל השירות;</p>
+            </content>
+          </point>
+          <point eId="appendix_רביעית__point_7">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>7.</num>
+            <content>
+              <p>נראה כי הפעולה המבוקשת חסרת היגיון עסקי או כלכלי למקבל השירות;</p>
+            </content>
+          </point>
+          <point eId="appendix_רביעית__point_8">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>8.</num>
+            <content>
+              <p>מספר בקשות אשראי לאותו יעד או החזר אשראי מאותו מקור, בלא סיבה נראית לעין;</p>
+            </content>
+          </point>
+          <point eId="appendix_רביעית__point_9">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>9.</num>
+            <content>
+              <p>מקבל השירות מגלה אדישות בנוגע לתנאי האשראי;</p>
+            </content>
+          </point>
+          <point eId="appendix_רביעית__point_10">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>10.</num>
+            <content>
+              <p>אם ניתן אשראי למי שנחזה בעיני המפעיל כעוסק במתן אשראי ולא הצהיר על כך;</p>
+            </content>
+          </point>
+          <point eId="appendix_רביעית__point_11">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>11.</num>
+            <content>
+              <p>נראה כי קיימת זיקה בין בקשות אשראי שונות, בלא הסבר סביר;</p>
+            </content>
+          </point>
+          <point eId="appendix_רביעית__point_12">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>12.</num>
+            <content>
+              <p>פעולה שמעורב בה ארגון שהוכרז התאחדות בלתי מותרת לפי <ref href="/akn/il/act/PrimaryLegislation/2016-06-23/568876#point_101">תקנה 84 לתקנות ההגנה (שעת חירום), 1945</ref>, או ארגון שהוכרז ארגון טרוריסטי לפי <ref href="/akn/il/act/PrimaryLegislation/2016-06-23/568876#point_101">פקודת מניעת טרור, התש"ח–1948</ref>, או ארגון שהוכרז כארגון טרור לפי <ref href="/akn/il/act/PrimaryLegislation/2016-06-23/568876#point_3">סעיף 3 לחוק המאבק בטרור</ref>, וכן פעולה שנראה כי נועדה לבוא במקום פעילות של ארגון כאמור;</p>
+            </content>
+          </point>
+          <point eId="appendix_רביעית__point_13">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>13.</num>
+            <content>
+              <p>פעולה שנראה כי נועדה לבוא במקום פעולה של אדם שהוכרז פעיל טרור לפי <ref href="/akn/il/act/PrimaryLegislation/2016-06-23/568876#point_3">סעיף 3 לחוק המאבק בטרור</ref>;</p>
+            </content>
+          </point>
+          <point eId="appendix_רביעית__point_14">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>14.</num>
+            <content>
+              <p>העברות שוטפות מגופים במדינה או בטריטוריה מן המנויות <ref href="#appendix_1">בתוספת הראשונה לצו</ref>, או אל גופים כאמור;</p>
+            </content>
+          </point>
+          <point eId="appendix_רביעית__point_15">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>15.</num>
+            <content>
+              <p>הצהרה שניתנה לפי הצו שנחזית להיות בלתי נכונה;</p>
+            </content>
+          </point>
+          <point eId="appendix_רביעית__point_16">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>16.</num>
+            <content>
+              <p>פעולה של ארגון שאינו למטרת רווח שלפי ידיעת המפעיל נמצא בקשר עם יחיד או גוף במדינה או בטריטוריה מן המנויות <ref href="#appendix_1">בתוספת הראשונה</ref>;</p>
+            </content>
+          </point>
+          <point eId="appendix_רביעית__point_17">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>17.</num>
+            <content>
+              <p>פעולה של ארגון שאינו למטרת רווח שאינה עולה בקנה אחד עם הפעילות המוצהרת של הארגון, אם הפעילות המוצהרת של הארגון ידועה למפעיל;</p>
+            </content>
+          </point>
+          <point eId="appendix_רביעית__point_18">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>18.</num>
+            <content>
+              <p>החזר אשראי בסכום מהותי סמוך למועד קבלתו בלא סיבה נראית לעין;</p>
+            </content>
+          </point>
+          <point eId="appendix_רביעית__point_19">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>19.</num>
+            <content>
+              <p>קבלה או החזר אשראי בסכום מהותי במזומן, בלא סיבה נראית לעין;</p>
+            </content>
+          </point>
+          <point eId="appendix_רביעית__point_20">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>20.</num>
+            <content>
+              <p>פעולה של מקבל שירות שהצהיר כי הנהנה אינו ידוע ולא עדכן את ההצהרה בתוך 60 ימים מיום הפעולה.</p>
+            </content>
+          </point>
+        </list>
+      </appendix>
+    </body>
+    <conclusions eId="eId">
+      <p class="signatures">
+        <signature>
+          <p>
+            <person refersTo="משה_כחלון">משה כחלון</person>
+            <role refersTo="שר_האוצר">שר האוצר</role>
+          </p>
+        </signature>
+      </p>
+    </conclusions>
+  </act>
+</akomaNtoso>

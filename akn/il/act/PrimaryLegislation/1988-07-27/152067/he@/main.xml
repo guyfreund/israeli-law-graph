@@ -1,0 +1,911 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion" name="publicLaw">
+    <meta>
+      <identification source="#kensset">
+        <FRBRWork>
+          <FRBRthis value="/akn/il/act/PrimaryLegislation/1988-07-27/152067/main" />
+          <FRBRuri value="/akn/il/act/PrimaryLegislation/1988-07-27/152067" />
+          <FRBRdate date="1988-07-27" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRcountry value="israel" />
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/il/act/PrimaryLegislation/1988-07-27/152067/he@/main" />
+          <FRBRuri value="/akn/il/act/PrimaryLegislation/1988-07-27/152067/he@" />
+          <FRBRdate date="1988-07-27" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRlanguage language="hebrew" />
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/il/act/PrimaryLegislation/1988-07-27/152067/he@/main.xml" />
+          <FRBRuri value="/akn/il/act/PrimaryLegislation/1988-07-27/152067/he@" />
+          <FRBRdate date="1988-07-27" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRformat value="xml" />
+        </FRBRManifestation>
+      </identification>
+      <classification source="#kensset">
+        <keyword value="{classificationValue}" showAs="{classificationValue}" dictionary="#classification_dictionary" />
+      </classification>
+      <lifecycle source="#kensset">
+        <eventRef eId="eventRef_1" date="1988-07-27" source="#kensset" type="generation" />
+      </lifecycle>
+      <references source="#kensset">
+        <TLCOrganization eId="kensset" href="/ontology/organization/akn/knesset" showAs="Kensset" type="generation" />
+        <TLCRole eId="author" href="/ontology/role/akn/author" showAs="Author of Document" />
+        <TLCProcess eId="inforce" href="/ontology/process/akn/inforce" showAs="In force" />
+        <TLCTerm eId="term_1" href="/ontology/term/הרשות/152067" showAs="הרשות" />
+        <TLCTerm eId="term_2" href="/ontology/term/המועצה/152067" showAs="המועצה" />
+        <TLCTerm eId="term_3" href="/ontology/term/המינהלה/152067" showAs="המינהלה" />
+        <TLCTerm eId="term_4" href="/ontology/term/השרים/152067" showAs="השרים" />
+        <TLCTerm eId="term_5" href="/ontology/term/בעל_ענין/152067" showAs="בעל_ענין" />
+        <TLCTerm eId="term_6" href="/ontology/term/קרוב/152067" showAs="קרוב" />
+        <TLCTerm eId="term_7" href="/ontology/term/בניין_תעשייתי/152067" showAs="בניין_תעשייתי" />
+        <TLCTerm eId="term_8" href="/ontology/term/בניין_תעשייתי_משופץ/152067" showAs="בניין_תעשייתי_משופץ" />
+        <TLCTerm eId="term_9" href="/ontology/term/חוק_לעידוד_השקעות_הון/152067" showAs="חוק_לעידוד_השקעות_הון" />
+        <TLCTerm eId="term_10" href="/ontology/term/מפעל_עתיר_ידע/152067" showAs="מפעל_עתיר_ידע" />
+        <TLCTerm eId="term_11" href="/ontology/term/מפעל_באזור_תעשייה_גדול/152067" showAs="מפעל_באזור_תעשייה_גדול" />
+        <TLCTerm eId="term_12" href="/ontology/term/אזור_סיוע/152067" showAs="אזור_סיוע" />
+        <TLCTerm eId="term_13" href="/ontology/term/חוק_קליטת_חיילים_משוחררים/152067" showAs="חוק_קליטת_חיילים_משוחררים" />
+        <TLCTerm eId="term_14" href="/ontology/term/חייל_משוחרר_זכאי/152067" showAs="חייל_משוחרר_זכאי" />
+        <TLCTerm eId="term_15" href="/ontology/term/מוסד_להשכלה_גבוהה/152067" showAs="מוסד_להשכלה_גבוהה" />
+        <TLCTerm eId="term_16" href="/ontology/term/הקרן_לעידוד_לימודי_השכלה_גבוהה/152067" showAs="הקרן_לעידוד_לימודי_השכלה_גבוהה" />
+        <TLCPerson eId="יצחק_שמיר" href="/ontology/person/יצחק_שמיר" showAs="יצחק שמיר" />
+        <TLCPerson eId="משה_נסים" href="/ontology/person/משה_נסים" showAs="משה נסים" />
+        <TLCPerson eId="שמעון_פרס" href="/ontology/person/שמעון_פרס" showAs="שמעון פרס" />
+        <TLCPerson eId="חיים_הרצוג" href="/ontology/person/חיים_הרצוג" showAs="חיים הרצוג" />
+        <TLCRole eId="ראש_הממשלה" href="ontology/role/akn/ראש_הממשלה" showAs="ראש הממשלה" />
+        <TLCRole eId="שר_האוצר" href="ontology/role/akn/שר_האוצר" showAs="שר האוצר" />
+        <TLCRole eId="ממלא_מקום_ראש_הממשלה_ושר_החוץ" href="ontology/role/akn/ממלא_מקום_ראש_הממשלה_ושר_החוץ" showAs="ממלא מקום ראש הממשלה ושר החוץ" />
+        <TLCRole eId="נשיא_המדינה" href="ontology/role/akn/נשיא_המדינה" showAs="נשיא המדינה" />
+      </references>
+      <temporalData source="#kensset">
+        <temporalGroup eId="tmpg_1" />
+      </temporalData>
+      <Publication></Publication>
+      <proprietary wikiversion="7/22/2020 10:36:46 PM" />
+    </meta>
+    <body period="#tmpg_1">
+      <title eId="title">
+        <content>
+          <p>חוק הרשות לפיתוח ירושלים, התשמ"ח–1988</p>
+        </content>
+      </title>
+      <list>
+        <point eId="point_1" class="definitions">
+          <heading>
+            <authorialNote placement="side">
+              <p>הגדרות</p>
+            </authorialNote>
+          </heading>
+          <num>1.</num>
+          <list>
+            <intro>
+              <p>בחוק זה –</p>
+            </intro>
+            <point eId="point_1__point_הרשות">
+              <content>
+                <p>
+                  <def />”הרשות“ – הרשות לפיתוח ירושלים המוקמת לפי חוק זה;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_המועצה">
+              <content>
+                <p>
+                  <def />”המועצה“ – מועצת הרשות כאמור <ref href="#point_8">בסעיף 8</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_המינהלה">
+              <content>
+                <p>
+                  <def />”המינהלה“ – מינהלת הרשות כאמור <ref href="#point_10">בסעיף 10</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_השרים">
+              <content>
+                <p>
+                  <def />”השרים“ – יושב ראש ועדת השרים לעניני ירושלים או השר שהממשלה קבעה אותו לענין חוק זה, יחד עם שר האוצר.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_2">
+          <heading>
+            <authorialNote placement="side">
+              <p>הרשות</p>
+            </authorialNote>
+          </heading>
+          <num>2.</num>
+          <content>
+            <p>מוקמת בזה הרשות לפיתוח ירושלים.</p>
+          </content>
+        </point>
+        <point eId="point_3">
+          <heading>
+            <authorialNote placement="side">
+              <p>הרשות – תאגיד</p>
+            </authorialNote>
+          </heading>
+          <num>3.</num>
+          <content>
+            <p>הרשות היא תאגיד.</p>
+          </content>
+        </point>
+        <point eId="point_4">
+          <heading>
+            <authorialNote placement="side">
+              <p>הרשות – גוף מבוקר</p>
+            </authorialNote>
+          </heading>
+          <num>4.</num>
+          <content>
+            <p>הרשות היא גוף מבוקר, כמשמעותו <ref href="/akn/il/act/PrimaryLegislation/1958-03-20/2001957#point_9">בסעיף 9(2) לחוק מבקר המדינה, התשי"ח–1958 [נוסח משולב]</ref>.</p>
+          </content>
+        </point>
+        <point eId="point_5">
+          <heading>
+            <authorialNote placement="side">
+              <p>תפקידי הרשות</p>
+            </authorialNote>
+          </heading>
+          <num>5.</num>
+          <list>
+            <point eId="point_5__point_א">
+              <num>(א)</num>
+              <list>
+                <intro>
+                  <p>ואלה תפקידי הרשות:</p>
+                </intro>
+                <point eId="point_5__point_א__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>ליזום פעולות לפיתוחה הכלכלי של ירושלים;</p>
+                  </content>
+                </point>
+                <point eId="point_5__point_א__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>להכין תכניות לפיתוחה הכלכלי של ירושלים;</p>
+                  </content>
+                </point>
+                <point eId="point_5__point_א__point_3">
+                  <num>(3)</num>
+                  <content>
+                    <p>לעודד יוזמות כלכליות לפיתוח ירושלים;</p>
+                  </content>
+                </point>
+                <point eId="point_5__point_א__point_4">
+                  <num>(4)</num>
+                  <content>
+                    <p>לתאם בין משרדי הממשלה, הרשויות והגופים העושים לפיתוח ירושלים;</p>
+                  </content>
+                </point>
+                <point eId="point_5__point_א__point_5">
+                  <num>(5)</num>
+                  <content>
+                    <p>לספק מידע בכל הקשור ליוזמות, לתכניות ולמפעלים כלכליים בירושלים;</p>
+                  </content>
+                </point>
+                <point eId="point_5__point_א__point_6">
+                  <num>(6)</num>
+                  <content>
+                    <p>לייעץ ולסייע בכל הקשור לתכנון ולהקמה של מפעלים כלכליים בירושלים, לרבות להליכים הדרושים לענין זה לפי כל דין;</p>
+                  </content>
+                </point>
+                <point eId="point_5__point_א__point_7">
+                  <num>(7)</num>
+                  <content>
+                    <p>לפעול למען ריכוז הנהלות משרדים ויחידות ממשלתיים וארגונים ארציים בירושלים.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_5__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>בביצוע תפקידיה תדאג הרשות שפעולותיה לא יעמדו בסתירה עם החלטות שקיבלה מועצת עירית ירושלים ושיהיו תואמות את מדיניותה הכלכלית של הממשלה.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_6">
+          <heading>
+            <authorialNote placement="side">
+              <p>סמכויות הרשות</p>
+            </authorialNote>
+          </heading>
+          <num>6.</num>
+          <list>
+            <intro>
+              <p>ואלה סמכויות הרשות:</p>
+            </intro>
+            <point eId="point_6__point_1">
+              <num>(1)</num>
+              <content>
+                <p>לקבוע את הגופים שיבצעו תכניות לפיתוח כלכלי שהכינה הרשות;</p>
+              </content>
+            </point>
+            <point eId="point_6__point_2">
+              <num>(2)</num>
+              <content>
+                <p>לקבוע את השימוש במשאבים שיעמדו לרשותה;</p>
+              </content>
+            </point>
+            <point eId="point_6__point_3">
+              <num>(3)</num>
+              <content>
+                <p>לגייס הון בישראל ומחוצה לה לצורך ביצוע תפקידיה;</p>
+              </content>
+            </point>
+            <point eId="point_6__point_4">
+              <num>(4)</num>
+              <content>
+                <p>להקים תאגידים, בעצמה או ביחד עם אחרים, או לרכוש זכויות בתאגידים קיימים, והכל לצורך ביצוע תפקידיה;</p>
+              </content>
+            </point>
+            <point eId="point_6__point_5">
+              <num>(5)</num>
+              <content>
+                <p>ליצור ולקיים קרנות לפיתוח כלכלי של ירושלים;</p>
+              </content>
+            </point>
+            <point eId="point_6__point_6">
+              <num>(6)</num>
+              <content>
+                <p>לקבל, בכפוף לאמור בכל חוק, מילווה לצרכי ביצוע תפקידיה ולהנפיק למטרה זו איגרות חוב; איגרות החוב, המילוות ותנאיהן טעונים אישור השרים.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_7">
+          <heading>
+            <authorialNote placement="side">
+              <p>שימוש בהכנסות</p>
+            </authorialNote>
+          </heading>
+          <num>7.</num>
+          <content>
+            <p>כל הכנסה שתקבל הרשות תשמש במסגרת תקציבה למטרות שהועידה הרשות לשם ביצוע תפקידיה.</p>
+          </content>
+        </point>
+        <point eId="point_8">
+          <heading>
+            <authorialNote placement="side">
+              <p>מועצת הרשות</p>
+            </authorialNote>
+          </heading>
+          <num>8.</num>
+          <list>
+            <point eId="point_8__point_א">
+              <num>(א)</num>
+              <list>
+                <intro>
+                  <p>לרשות תהיה מועצה, וזה הרכבה:</p>
+                </intro>
+                <point eId="point_8__point_א__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>נציגי הממשלה מקרב עובדי המדינה, שימנו אותם, אחד אחד, השרים הבאים: ראש הממשלה, יושב ראש ועדת השרים לעניני ירושלים או השר שהממשלה קבעה אותו לענין חוק זה, שר האוצר, שר האנרגיה והתשתית, שר הבטחון, שר הבינוי והשיכון, שר הבריאות, השר לעניני דתות, שר החינוך והתרבות, שר החקלאות, שר הכלכלה והתכנון, שר המשפטים, שר העבודה והרווחה, שר הפנים, השר לקליטת העליה, שר התחבורה, שר התיירות, שר התעשיה והמסחר ושר התקשורת;</p>
+                  </content>
+                </point>
+                <point eId="point_8__point_א__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>תשעה נציגי עירית ירושלים, מהם ששה שישקפו ככל האפשר את יחסי הכוחות במועצת העיריה;</p>
+                  </content>
+                </point>
+                <point eId="point_8__point_א__point_3">
+                  <num>(3)</num>
+                  <content>
+                    <p>חמישה נציגי ציבור שימנו השרים וראש עירית ירושלים, בתיאום עם לשכת התיאום של הארגונים הכלכליים בירושלים, מקרב גופים הפועלים לפיתוחה הכלכלי של ירושלים;</p>
+                  </content>
+                </point>
+                <point eId="point_8__point_א__point_4">
+                  <num>(4)</num>
+                  <content>
+                    <p>שני נציגי מוסדות להשכלה גבוהה, לרבות מוסדות תורניים, שימנו השרים וראש עירית ירושלים, בהסכמת שר המדע והפיתוח, שר החינוך והתרבות והשר לעניני דתות.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_8__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>יושב ראש המועצה יתמנה בידי המועצה מבין חבריה, באישור השרים.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_9">
+          <heading>
+            <authorialNote placement="side">
+              <p>תפקידי המועצה</p>
+            </authorialNote>
+          </heading>
+          <num>9.</num>
+          <list>
+            <intro>
+              <p>ואלה תפקידי המועצה:</p>
+            </intro>
+            <point eId="point_9__point_1">
+              <num>(1)</num>
+              <content>
+                <p>לייעץ לממשלה בכל הקשור בביצוע <ref href="/akn/il/act/PrimaryLegislation/1980-08-05/147465#point_4">סעיף 4 לחוק־יסוד: ירושלים בירת ישראל</ref>, ולייעץ לשרים בכל הקשור בביצוע חוק זה;</p>
+              </content>
+            </point>
+            <point eId="point_9__point_2">
+              <num>(2)</num>
+              <content>
+                <p>לאשר את תקציב הרשות;</p>
+              </content>
+            </point>
+            <point eId="point_9__point_3">
+              <num>(3)</num>
+              <content>
+                <p>לפקח על ביצוע תפקידי הרשות.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_10">
+          <heading>
+            <authorialNote placement="side">
+              <p>מינהלת הרשות</p>
+            </authorialNote>
+          </heading>
+          <num>10.</num>
+          <list>
+            <intro>
+              <p>עניני הרשות ינוהלו בידי מינהלה, וזה הרכבה:</p>
+            </intro>
+            <point eId="point_10__point_1">
+              <num>(1)</num>
+              <content>
+                <p>חברי המועצה שהם נציגי השרים הבאים: שר האוצר, שר הבינוי והשיכון, שר הבריאות, השר לעניני דתות, שר החקלאות, שר הכלכלה והתכנון, שר הפנים, שר התיירות ושר התעשיה והמסחר;</p>
+              </content>
+            </point>
+            <point eId="point_10__point_2">
+              <num>(2)</num>
+              <content>
+                <p>ארבעה מנציגי עירית ירושלים במועצה, שהעיריה קבעה אותם;</p>
+              </content>
+            </point>
+            <point eId="point_10__point_3">
+              <num>(3)</num>
+              <content>
+                <p>שניים מנציגי הציבור במועצה שיקבעו השרים וראש עירית ירושלים; מונה יושב ראש המועצה מקרב נציגי הציבור, יהיה הוא אחד מבין נציגי הציבור במינהלה.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_11">
+          <heading>
+            <authorialNote placement="side">
+              <p>סייגים לכהונה</p>
+            </authorialNote>
+          </heading>
+          <num>11.</num>
+          <list>
+            <point eId="point_11__point_א">
+              <num>(א)</num>
+              <list>
+                <intro>
+                  <p>לא יכהן כחבר המועצה או כחבר המינהלה –</p>
+                </intro>
+                <point eId="point_11__point_א__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>מי שאינו אזרח ישראל;</p>
+                  </content>
+                </point>
+                <point eId="point_11__point_א__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>מי שתוך עשר שנים שקדמו למינויו הורשע בפסק דין סופי, או שהיה נושא את עונשו, בשל עבירה שלדעת היועץ המשפטי לממשלה יש עמה קלון;</p>
+                  </content>
+                </point>
+                <point eId="point_11__point_א__point_3">
+                  <num>(3)</num>
+                  <content>
+                    <p>מי שקשור, במישרין או בעקיפין, בעצמו או על ידי קרובו, סוכנו או שותפו, בחוזה או בעסקה עם הרשות, או מי שהוא בעל ענין בתאגיד הקשור כאמור; אך לא יהיו פסולים עובדים או חברי הנהלה של גופים ציבוריים או של חברות ממשלתיות בשל כך בלבד שהגופים או החברות קשורים כאמור.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_11__point_ב">
+              <num>(ב)</num>
+              <list>
+                <intro>
+                  <p>לענין סעיף קטן (א)(3) ולענין <ref href="#point_16">סעיף 16</ref> –</p>
+                </intro>
+                <point eId="point_11__point_ב__point_בעל_ענין">
+                  <content>
+                    <p>
+                      <def />”בעל ענין“ – בעל חלק העולה על 5 אחוזים מהונו של התאגיד או מכוח ההצבעה בו או מהזכות לרווחיו;</p>
+                  </content>
+                </point>
+                <point eId="point_11__point_ב__point_קרוב">
+                  <content>
+                    <p>
+                      <def />”קרוב“ – בן זוג, הורה, בן, בת, אח, אחות ובני זוגם.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+          </list>
+        </point>
+        <point eId="point_12">
+          <heading>
+            <authorialNote placement="side">
+              <p>תקופת כהונה</p>
+            </authorialNote>
+          </heading>
+          <num>12.</num>
+          <content>
+            <p>חברי המועצה וחברי המינהלה יתמנו לשלוש שנים, ואפשר לחזור ולמנותם.</p>
+          </content>
+        </point>
+        <point eId="point_12א">
+          <heading>
+            <authorialNote placement="side">
+              <p>הוצאות</p>
+            </authorialNote>
+          </heading>
+          <num>12א.</num>
+          <content>
+            <p>חבר המועצה לא יקבל מהרשות שכר בעד שירותיו, אך יהא זכאי לקבל הוצאות שהוציא בקשר למילוי תפקידו כחבר המועצה בשיעורים הנהוגים לגבי עובדי המדינה.</p>
+          </content>
+        </point>
+        <point eId="point_13">
+          <heading>
+            <authorialNote placement="side">
+              <p>פקיעת כהונה</p>
+            </authorialNote>
+          </heading>
+          <num>13.</num>
+          <list>
+            <intro>
+              <p>חבר המועצה וחבר המינהלה יחדלו לכהן לפני תום תקופת כהונתם באחת מאלה:</p>
+            </intro>
+            <point eId="point_13__point_1">
+              <num>(1)</num>
+              <content>
+                <p>התפטרו במסירת כתב התפטרות לשרים;</p>
+              </content>
+            </point>
+            <point eId="point_13__point_2">
+              <num>(2)</num>
+              <content>
+                <p>אם נתמנו בהיותם עובדי המדינה או העיריה – פרשו משירותם.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_14">
+          <heading>
+            <authorialNote placement="side">
+              <p>העברה מכהונה</p>
+            </authorialNote>
+          </heading>
+          <num>14.</num>
+          <list>
+            <intro>
+              <p>השרים וראש עירית ירושלים יהיו רשאים להעביר חבר המועצה או חבר המינהלה מכהונתו לפני תום תקופת כהונתו באחת מאלה:</p>
+            </intro>
+            <point eId="point_14__point_1">
+              <num>(1)</num>
+              <content>
+                <p>נבצר ממנו דרך קבע למלא את תפקידו;</p>
+              </content>
+            </point>
+            <point eId="point_14__point_2">
+              <num>(2)</num>
+              <content>
+                <p>הורשע בעבירה שלדעת היועץ המשפטי לממשלה יש עמה קלון;</p>
+              </content>
+            </point>
+            <point eId="point_14__point_3">
+              <num>(3)</num>
+              <content>
+                <p>נתקיים בו הסייג <ref href="#point_11">שבסעיף 11(א)(3)</ref>.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_15">
+          <heading>
+            <authorialNote placement="side">
+              <p>סדרי דיון</p>
+            </authorialNote>
+          </heading>
+          <num>15.</num>
+          <content>
+            <p>המועצה והמינהלה יקבעו את דרכי עבודתן וסדרי הדיונים בהן, במידה שלא נקבעו בחוק זה או על פיו.</p>
+          </content>
+        </point>
+        <point eId="point_16">
+          <heading>
+            <authorialNote placement="side">
+              <p>חובת גילוי זיקה בעסקה</p>
+            </authorialNote>
+          </heading>
+          <num>16.</num>
+          <list>
+            <point eId="point_16__point_א">
+              <num>(א)</num>
+              <list>
+                <intro>
+                  <p>חבר המועצה או חבר המינהלה שיש לו או שעשוי להיות לו, במישרין או בעקיפין, בעצמו או על ידי קרובו, סוכנו או שותפו, או לתאגיד שהוא בעל עניין בו, כל חלק או זיקה או ענין בכל עסקה עם הרשות אשר עומדת לדיון במועצה או במינהלה –</p>
+                </intro>
+                <point eId="point_16__point_א__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>יודיע על כך ליושב ראש המועצה או המינהלה, לפי הענין, מיד לאחר שנודע לו על העסקה;</p>
+                  </content>
+                </point>
+                <point eId="point_16__point_א__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>לא יהיה נוכח בדיונים באותה עסקה ולא ישתתף בהחלטה המתייחסת אליה או הקשורה עמה.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_16__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>סעיף קטן (א) לא יחול על עסקה או ענין בשל כך בלבד שחבר המועצה או חבר המינהלה משמש כעובד בתאגיד כאמור באותו סעיף קטן או כחבר בהנהלתו.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_17">
+          <heading>
+            <authorialNote placement="side">
+              <p>תוקף פעולות</p>
+            </authorialNote>
+          </heading>
+          <num>17.</num>
+          <content>
+            <p>קיום המועצה והמינהלה, סמכויותיהן ותוקף החלטותיהן לא ייפגעו מחמת שנתפנה מקומו של חבר המועצה או חבר המינהלה, או מחמת ליקוי במינוים או בהמשך כהונתם.</p>
+          </content>
+        </point>
+        <point eId="point_18">
+          <heading>
+            <authorialNote placement="side">
+              <p>מנהל הרשות</p>
+            </authorialNote>
+          </heading>
+          <num>18.</num>
+          <list>
+            <point eId="point_18__point_א">
+              <num>(א)</num>
+              <content>
+                <p>המועצה, באישור השרים וראש עירית ירושלים, תמנה מנהל לרשות.</p>
+              </content>
+            </point>
+            <point eId="point_18__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>המנהל יהיה אחראי כלפי המועצה, המינהלה והשרים לביצוע החלטותיהם ולביצוע תפקידי הרשות.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_19">
+          <heading>
+            <authorialNote placement="side">
+              <p>כהונת המנהל ותנאי העסקתו</p>
+            </authorialNote>
+          </heading>
+          <num>19.</num>
+          <list>
+            <point eId="point_19__point_א">
+              <num>(א)</num>
+              <content>
+                <p>תקופת כהונתו של המנהל תהיה חמש שנים; המועצה, באישור השרים וראש עירית ירושלים, רשאית להאריך את המינוי לתקופה נוספת.</p>
+              </content>
+            </point>
+            <point eId="point_19__point_ב">
+              <num>(ב)</num>
+              <list>
+                <intro>
+                  <p>המנהל יחדל לכהן לפני תום תקופת כהונתו באחת מאלה:</p>
+                </intro>
+                <point eId="point_19__point_ב__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>התפטר במסירת כתב התפטרות ליושב ראש המועצה;</p>
+                  </content>
+                </point>
+                <point eId="point_19__point_ב__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>השרים וראש עירית ירושלים, לאחר התייעצות במועצה, קבעו כי נבצר מהמנהל דרך קבע למלא תפקידו.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_19__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>השרים וראש עירית ירושלים, באישור המועצה, יקבעו את שכרו ותנאי העסקתו של המנהל.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_20">
+          <heading>
+            <authorialNote placement="side">
+              <p>תנאי העסקתם של עובדי הרשות</p>
+            </authorialNote>
+          </heading>
+          <num>20.</num>
+          <content>
+            <p>תנאי עבודתם של עובדי הרשות ושכרם יהיו כשל עובדי המדינה.</p>
+          </content>
+        </point>
+        <point eId="point_21">
+          <heading>
+            <authorialNote placement="side">
+              <p>דו"חות</p>
+            </authorialNote>
+          </heading>
+          <num>21.</num>
+          <list>
+            <intro>
+              <p>הרשות תגיש לשרים, לראש עירית ירושלים ולועדת הכספים של הכנסת, בתחילת כל שנת כספים, דין וחשבון לגבי השנה שחלפה; הדין וחשבון יכלול –</p>
+            </intro>
+            <point eId="point_21__point_1">
+              <num>(1)</num>
+              <content>
+                <p>מאזן שנתי מבוקר בידי רואה חשבון;</p>
+              </content>
+            </point>
+            <point eId="point_21__point_2">
+              <num>(2)</num>
+              <content>
+                <p>דו"ח הכנסות והוצאות;</p>
+              </content>
+            </point>
+            <point eId="point_21__point_3">
+              <num>(3)</num>
+              <content>
+                <p>דו"חות בדבר המשאבים של הרשות ואופן השימוש בהם;</p>
+              </content>
+            </point>
+            <point eId="point_21__point_4">
+              <num>(4)</num>
+              <content>
+                <p>סקירה בדבר ביצוע תקציב הרשות;</p>
+              </content>
+            </point>
+            <point eId="point_21__point_5">
+              <num>(5)</num>
+              <content>
+                <p>סקירה על פעולות הרשות באותה שנה.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_22">
+          <heading>
+            <authorialNote placement="side">
+              <p>דיווח לפי דרישה</p>
+            </authorialNote>
+          </heading>
+          <num>22.</num>
+          <content>
+            <p>השרים וראש עירית ירושלים רשאים לדרוש מהרשות, בכל עת, דין וחשבון ומידע אחר על כל ענין שהוא בגדר תפקידיה וסמכויותיה.</p>
+          </content>
+        </point>
+        <point eId="point_22א">
+          <heading>
+            <authorialNote placement="side">
+              <p>דין הרשות כדין המדינה</p>
+            </authorialNote>
+          </heading>
+          <num>22א.</num>
+          <content>
+            <p>דין הרשות כדין המדינה לענין תשלום מסים, אגרות, ארנונות, היטלים ותשלומי חובה אחרים.</p>
+          </content>
+        </point>
+        <point eId="point_22ב">
+          <heading>
+            <authorialNote placement="side">
+              <p>דין מנהל הרשות, חברי המועצה ועובדיה</p>
+            </authorialNote>
+          </heading>
+          <num>22ב.</num>
+          <list>
+            <point eId="point_22ב__point_א">
+              <num>(א)</num>
+              <list>
+                <intro>
+                  <p>דין מנהל הרשות, חברי המועצה ועובדיה כדין עובדי המדינה לענין חיקוקים אלה:</p>
+                </intro>
+                <point eId="point_22ב__point_א__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>
+                      <ref href="/akn/il/act/PrimaryLegislation/1969-04-14/2002229">חוק הבחירות לכנסת [נוסח משולב], התשכ"ט–1969</ref>;</p>
+                  </content>
+                </point>
+                <point eId="point_22ב__point_א__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>
+                      <ref href="/akn/il/act/PrimaryLegislation/1959-08-14/148673">חוק שירות המדינה (סיוג פעילות מפלגתית ומגבית כספים), התשי"ט–1959</ref>;</p>
+                  </content>
+                </point>
+                <point eId="point_22ב__point_א__point_3">
+                  <num>(3)</num>
+                  <content>
+                    <p>
+                      <ref href="/akn/il/act/PrimaryLegislation/1979-11-01/148674">חוק שירות הציבור (מתנות), התש"ם–1979</ref>;</p>
+                  </content>
+                </point>
+                <point eId="point_22ב__point_א__point_4">
+                  <num>(4)</num>
+                  <content>
+                    <p>
+                      <ref href="/akn/il/act/PrimaryLegislation/1969-07-03/148676">חוק שירות הציבור (הגבלות לאחר פרישה), התשכ"ט–1969</ref>;</p>
+                  </content>
+                </point>
+                <point eId="point_22ב__point_א__point_5">
+                  <num>(5)</num>
+                  <content>
+                    <p>ההוראות הנוגעות לעובדי ציבור <ref href="/akn/il/act/PrimaryLegislation/1977-08-04/2002251">בחוק העונשין, התשל"ז–1977</ref>.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_22ב__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>בסעיף קטן (א), פסקאות (1), (2) ו־(4) לא יחולו על חברי המועצה המכהנים כחבר מועצת העיריה, ופסקה (4) לא תחול אף על חברי המועצה שהם נציגי הציבור.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_22ג">
+          <heading>
+            <authorialNote placement="side">
+              <p>הטבות למפעלים עתירי ידע, למפעלים עתירי טכנולוגיה ולמפעלים באזור תעשייה גדול</p>
+            </authorialNote>
+          </heading>
+          <num>22ג.</num>
+          <list>
+            <point eId="point_22ג__point_א">
+              <num>(א)</num>
+              <content>
+                <p>לעניין מתן הטבות לפי <ref href="/akn/il/act/PrimaryLegislation/1959-09-15/148127">חוק לעידוד השקעות הון</ref>, יראו, החל ביום כ"ה בטבת התשע"א (1 בינואר 2011), מפעל תעשייתי שהוא מפעל עתיר ידע, מפעל עתיר טכנולוגיה, מפעל שנמצא באזור תעשייה גדול, וכן בניין תעשייתי ובניין תעשייתי משופץ שהושכרו למפעל כאמור, אשר נמצאים בירושלים, כאילו הם נמצאים באזור פיתוח א׳, כמשמעותו <ref href="/akn/il/act/PrimaryLegislation/1959-09-15/148127">בחוק האמור</ref>.</p>
+              </content>
+            </point>
+            <point eId="point_22ג__point_ב">
+              <num>(ב)</num>
+              <list>
+                <intro>
+                  <p>בסעיף זה –</p>
+                </intro>
+                <point eId="point_22ג__point_ב__point_בניין_תעשייתי">
+                  <content>
+                    <p>
+                      <def />”בניין תעשייתי“ – כהגדרתו <ref href="/akn/il/act/PrimaryLegislation/1959-09-15/148127#point_40א">בסעיף 40א לחוק לעידוד השקעות הון</ref>, ויראו כאילו בפסקה (2) שבה, אחרי ”בשיעור שנקבע בכתב האישור“ – נאמר ”ושאינו פחות מ־70%“;</p>
+                  </content>
+                </point>
+                <point eId="point_22ג__point_ב__point_בניין_תעשייתי_משופץ">
+                  <content>
+                    <p>
+                      <def />”בניין תעשייתי משופץ“ – כהגדרתו <ref href="/akn/il/act/PrimaryLegislation/1959-09-15/148127#point_40א">בסעיף 40א לחוק לעידוד השקעות הון</ref>;</p>
+                  </content>
+                </point>
+                <point eId="point_22ג__point_ב__point_חוק_לעידוד_השקעות_הון">
+                  <content>
+                    <p>
+                      <def />”חוק לעידוד השקעות הון“ – <ref href="/akn/il/act/PrimaryLegislation/1959-09-15/148127">חוק לעידוד השקעות הון, התשי"ט–1959</ref>;</p>
+                  </content>
+                </point>
+                <point eId="point_22ג__point_ב__point_מפעל_עתיר_ידע">
+                  <content>
+                    <p>
+                      <def />”מפעל עתיר ידע“, ”מפעל עתיר טכנולוגיה“ – מפעל שראש הרשות הלאומית לחדשנות טכנולוגית כמשמעותו <ref href="/akn/il/act/PrimaryLegislation/2015-08-10/566989">בחוק לעידוד מחקר, פיתוח וחדשנות טכנולוגית בתעשייה, התשמ"ד–1984</ref> אישר אותו לעניין סעיף זה בהתאם לכללים שקבעו השרים בתקנות;</p>
+                  </content>
+                </point>
+                <point eId="point_22ג__point_ב__point_מפעל_באזור_תעשייה_גדול">
+                  <content>
+                    <p>
+                      <def />”מפעל באזור תעשייה גדול“ – מפעל שנמצא באזור תעשייה ששטחו, בהתאם לתכנית בניין עיר מאושרת המיועדת לתעשייה, מאה דונם לפחות.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+          </list>
+        </point>
+        <point eId="point_22ד" class="definitions">
+          <heading>
+            <authorialNote placement="side">
+              <p>עידוד לימודי השכלה גבוהה לחיילים משוחררים זכאים בירושלים</p>
+            </authorialNote>
+          </heading>
+          <num>22ד.</num>
+          <list>
+            <intro>
+              <p>הקרן לעידוד לימודי השכלה גבוהה תעודד חיילים משוחררים זכאים, לפי הוראות <ref href="/akn/il/act/PrimaryLegislation/1994-04-28/154135#point_7א">סעיף 7א(ב)(1) לחוק קליטת חיילים משוחררים</ref>, ללמוד במוסדות להשכלה גבוהה בירושלים, באמצעות מימון השתתפות בשכר הלימוד באותם מוסדות, והכל בהתאם לתנאים שנקבעו לעניין <ref href="/akn/il/act/PrimaryLegislation/1994-04-28/154135#point_7א">הסעיף האמור</ref>, ויראו לעניין [[-|סעיף 7א(ב)(1) האמור את ירושלים כאזור סיוע; בסעיף זה –</p>
+            </intro>
+            <point eId="point_22ד__point_אזור_סיוע">
+              <content>
+                <p>
+                  <def />”אזור סיוע“ – כהגדרתו <ref href="/akn/il/act/PrimaryLegislation/1994-04-28/154135#point_7א">בסעיף 7א(א) לחוק קליטת חיילים משוחררים</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_22ד__point_חוק_קליטת_חיילים_משוחררים">
+              <content>
+                <p>
+                  <def />”חוק קליטת חיילים משוחררים“ – <ref href="/akn/il/act/PrimaryLegislation/1994-04-28/154135">חוק קליטת חיילים משוחררים, התשנ"ד–1994</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_22ד__point_חייל_משוחרר_זכאי">
+              <content>
+                <p>
+                  <def />”חייל משוחרר זכאי“ – חייל משוחרר שמתקיימים בו תנאי הזכאות לפי <ref href="/akn/il/act/PrimaryLegislation/1994-04-28/154135#point_7א">סעיף 7א(ג) ו־(ד) לחוק קליטת חיילים משוחררים</ref> לעניין <ref href="/akn/il/act/PrimaryLegislation/1994-04-28/154135#point_7א">סעיף 7א(ב)(1) לחוק האמור</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_22ד__point_מוסד_להשכלה_גבוהה">
+              <content>
+                <p>
+                  <def />”מוסד להשכלה גבוהה“ – כמשמעותו בהוראות לפי <ref href="/akn/il/act/PrimaryLegislation/1994-04-28/154135#point_7א">סעיף 7א(ג) לחוק קליטת חיילים משוחררים</ref> לעניין <ref href="/akn/il/act/PrimaryLegislation/1994-04-28/154135#point_7א">סעיף 7א(ב)(1) לחוק האמור</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_22ד__point_הקרן_לעידוד_לימודי_השכלה_גבוהה">
+              <content>
+                <p>
+                  <def />”הקרן לעידוד לימודי השכלה גבוהה“ – כמשמעותה <ref href="/akn/il/act/PrimaryLegislation/1994-04-28/154135#point_7א">בסעיף 7א(ב) לחוק קליטת חיילים משוחררים</ref>.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_23">
+          <heading>
+            <authorialNote placement="side">
+              <p>ביצוע ותקנות</p>
+            </authorialNote>
+          </heading>
+          <num>23.</num>
+          <content>
+            <p>השרים ממונים על ביצוע חוק זה והם רשאים להתקין תקנות לביצועו.</p>
+          </content>
+        </point>
+      </list>
+    </body>
+    <conclusions eId="eId">
+      <p class="signatures">
+        <signature>
+          <p>
+            <person refersTo="יצחק_שמיר">יצחק שמיר</person>
+            <role refersTo="ראש_הממשלה">ראש הממשלה</role>
+          </p>
+        </signature>
+        <signature>
+          <p>
+            <person refersTo="משה_נסים">משה נסים</person>
+            <role refersTo="שר_האוצר">שר האוצר</role>
+          </p>
+        </signature>
+        <signature>
+          <p>
+            <person refersTo="שמעון_פרס">שמעון פרס</person>
+            <role refersTo="ממלא_מקום_ראש_הממשלה_ושר_החוץ">ממלא מקום ראש הממשלה ושר החוץ</role>
+          </p>
+        </signature>
+        <signature>
+          <p>
+            <person refersTo="חיים_הרצוג">חיים הרצוג</person>
+            <role refersTo="נשיא_המדינה">נשיא המדינה</role>
+          </p>
+        </signature>
+      </p>
+    </conclusions>
+  </act>
+</akomaNtoso>

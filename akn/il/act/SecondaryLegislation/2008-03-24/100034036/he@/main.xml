@@ -1,0 +1,940 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion" name="publicLaw">
+    <meta>
+      <identification source="#kensset">
+        <FRBRWork>
+          <FRBRthis value="/akn/il/act/SecondaryLegislation/2008-03-24/100034036/main" />
+          <FRBRuri value="/akn/il/act/SecondaryLegislation/2008-03-24/100034036" />
+          <FRBRdate date="2008-03-24" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRcountry value="israel" />
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/il/act/SecondaryLegislation/2008-03-24/100034036/he@/main" />
+          <FRBRuri value="/akn/il/act/SecondaryLegislation/2008-03-24/100034036/he@" />
+          <FRBRdate date="2008-03-24" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRlanguage language="hebrew" />
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/il/act/SecondaryLegislation/2008-03-24/100034036/he@/main.xml" />
+          <FRBRuri value="/akn/il/act/SecondaryLegislation/2008-03-24/100034036/he@" />
+          <FRBRdate date="2008-03-24" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRformat value="xml" />
+        </FRBRManifestation>
+      </identification>
+      <classification source="#kensset">
+        <keyword value="{classificationValue}" showAs="{classificationValue}" dictionary="#classification_dictionary" />
+      </classification>
+      <lifecycle source="#kensset">
+        <eventRef eId="eventRef_1" date="2008-03-24" source="#kensset" type="generation" />
+      </lifecycle>
+      <references source="#kensset">
+        <TLCOrganization eId="kensset" href="/ontology/organization/akn/knesset" showAs="Kensset" type="generation" />
+        <TLCRole eId="author" href="/ontology/role/akn/author" showAs="Author of Document" />
+        <TLCProcess eId="inforce" href="/ontology/process/akn/inforce" showAs="In force" />
+        <TLCTerm eId="term_1" href="/ontology/term/איגרת_חוב_מסוג_”ערד/100034036" showAs="איגרת_חוב_מסוג_”ערד" />
+        <TLCTerm eId="term_2" href="/ontology/term/ביטוח_חיים_קבוצתי/100034036" showAs="ביטוח_חיים_קבוצתי" />
+        <TLCTerm eId="term_3" href="/ontology/term/בקשה/100034036" showAs="בקשה" />
+        <TLCTerm eId="term_4" href="/ontology/term/גוף_מנהל/100034036" showAs="גוף_מנהל" />
+        <TLCTerm eId="term_5" href="/ontology/term/גיל_הפרישה_המוקדמת&quot;_/100034036" showAs="גיל_הפרישה_המוקדמת&quot;_" />
+        <TLCTerm eId="term_6" href="/ontology/term/המועד_הקובע/100034036" showAs="המועד_הקובע" />
+        <TLCTerm eId="term_7" href="/ontology/term/המנהל/100034036" showAs="המנהל" />
+        <TLCTerm eId="term_8" href="/ontology/term/חודש_קבלת_הבקשה/100034036" showAs="חודש_קבלת_הבקשה" />
+        <TLCTerm eId="term_9" href="/ontology/term/יום_עסקים/100034036" showAs="יום_עסקים" />
+        <TLCTerm eId="term_10" href="/ontology/term/יתרה_צבורה/100034036" showAs="יתרה_צבורה" />
+        <TLCTerm eId="term_11" href="/ontology/term/כיסוי_ביטוחי_לסיכוני_מוות/100034036" showAs="כיסוי_ביטוחי_לסיכוני_מוות" />
+        <TLCTerm eId="term_12" href="/ontology/term/כיסוי_ביטוחי_לסיכוני_נכות/100034036" showAs="כיסוי_ביטוחי_לסיכוני_נכות" />
+        <TLCTerm eId="term_13" href="/ontology/term/מועד_ההעברה/100034036" showAs="מועד_ההעברה" />
+        <TLCTerm eId="term_14" href="/ontology/term/מועד_קבלת_הבקשה/100034036" showAs="מועד_קבלת_הבקשה" />
+        <TLCTerm eId="term_15" href="/ontology/term/עמית_לא_פעיל/100034036" showAs="עמית_לא_פעיל" />
+        <TLCTerm eId="term_16" href="/ontology/term/עמית_עובר/100034036" showAs="עמית_עובר" />
+        <TLCTerm eId="term_17" href="/ontology/term/עמית_פעיל/100034036" showAs="עמית_פעיל" />
+        <TLCTerm eId="term_18" href="/ontology/term/קופה_מעבירה/100034036" showAs="קופה_מעבירה" />
+        <TLCTerm eId="term_19" href="/ontology/term/קופה_מקבלת/100034036" showAs="קופה_מקבלת" />
+        <TLCTerm eId="term_20" href="/ontology/term/קופת_גמל_לקצבה/100034036" showAs="קופת_גמל_לקצבה" />
+        <TLCTerm eId="term_21" href="/ontology/term/קופת_גמל_סגורה/100034036" showAs="קופת_גמל_סגורה" />
+        <TLCTerm eId="term_22" href="/ontology/term/קצבת_זקנה/100034036" showAs="קצבת_זקנה" />
+        <TLCTerm eId="term_23" href="/ontology/term/קצבת_נכות/100034036" showAs="קצבת_נכות" />
+        <TLCTerm eId="term_24" href="/ontology/term/קרן_השתלמות/100034036" showAs="קרן_השתלמות" />
+        <TLCTerm eId="term_25" href="/ontology/term/קרן_השתלמות_מיוחדת_למורים/100034036" showAs="קרן_השתלמות_מיוחדת_למורים" />
+        <TLCTerm eId="term_26" href="/ontology/term/קרן_ותיקה/100034036" showAs="קרן_ותיקה" />
+        <TLCTerm eId="term_27" href="/ontology/term/קרן_חדשה/100034036" showAs="קרן_חדשה" />
+        <TLCTerm eId="term_28" href="/ontology/term/קרן_חדשה_זכאית/100034036" showAs="קרן_חדשה_זכאית" />
+        <TLCTerm eId="term_29" href="/ontology/term/קרן_חדשה_שאינה_זכאית/100034036" showAs="קרן_חדשה_שאינה_זכאית" />
+        <TLCTerm eId="term_30" href="/ontology/term/תקנון/100034036" showAs="תקנון" />
+        <TLCTerm eId="term_31" href="/ontology/term/תקנות_קופות_גמל/100034036" showAs="תקנות_קופות_גמל" />
+        <TLCPerson eId="רוני_בר־און" href="/ontology/person/רוני_בר־און" showAs="רוני בר־און" />
+        <TLCRole eId="שר_האוצר" href="ontology/role/akn/שר_האוצר" showAs="שר האוצר" />
+      </references>
+      <temporalData source="#kensset">
+        <temporalGroup eId="tmpg_1" />
+      </temporalData>
+      <Publication></Publication>
+      <proprietary wikiversion="1/11/2021 8:36:58 AM" />
+    </meta>
+    <body period="#tmpg_1">
+      <title eId="title">
+        <content>
+          <p>תקנות הפיקוח על שירותים פיננסיים (קופות גמל) (העברת כספים בין קופות גמל), התשס"ח–2008</p>
+        </content>
+      </title>
+      <preamble eId="eId">
+        <p>בתוקף סמכותי לפי <ref href="/akn/il/act/PrimaryLegislation/2005-08-10/100899#point_23">סעיפים 23</ref><ref href="/akn/il/act/PrimaryLegislation/2005-08-10/100899#point_60">ו־60</ref><ref href="/akn/il/act/PrimaryLegislation/2005-08-10/100899">לחוק הפיקוח על שירותים פיננסיים (קופות גמל), התשס"ה–2005</ref> (להלן – החוק), ובאישור ועדת הכספים של הכנסת, אני מתקין תקנות אלה:</p>
+      </preamble>
+      <list>
+        <point eId="point_1" class="definitions">
+          <heading>
+            <authorialNote placement="side">
+              <p>הגדרות</p>
+            </authorialNote>
+          </heading>
+          <num>1.</num>
+          <list>
+            <intro>
+              <p>בתקנות אלה –</p>
+            </intro>
+            <point eId="point_1__point_איגרת_חוב_מסוג_”ערד">
+              <content>
+                <p>
+                  <def />”איגרת חוב מסוג ”ערד““ – איגרת חוב בלתי סחירה בבורסה שהוצאה לקופות גמל לקצבה בלבד, לפי <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/תקנות_מילווה_המדינה_סדרות_מסוג_quot_ערד_quot">תקנות מילווה המדינה (סדרות מסוג ”ערד“), התשנ"ה–1995</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_ביטוח_חיים_קבוצתי">
+              <content>
+                <p>
+                  <def />”ביטוח חיים קבוצתי“ – כהגדרתו <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/תקנות_הפיקוח_על_עסקי_ביטוח_ביטוח_חיים_קבוצתי">בתקנות הפיקוח על עסקי ביטוח (ביטוח חיים קבוצתי), התשנ"ג–1993</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_בקשה">
+              <content>
+                <p>
+                  <def />”בקשה“ – בקשה להעברת כספים מקופת גמל לקופת גמל אחרת;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_גוף_מנהל">
+              <content>
+                <p>
+                  <def />”גוף מנהל“ – חברה מנהלת של קופת גמל או מבטח המנהל קופת גמל שהיא קופת ביטוח, לפי העניין;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_יל_הפרישה_המוקדמת">
+              <content>
+                <p>
+                  <def />גיל הפרישה המוקדמת" – כמשמעותו <ref href="/akn/il/act/PrimaryLegislation/2004-01-18/16634#point_5">בסעיף 5 לחוק גיל פרישה, התשס"ד–2004</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_המועד_הקובע">
+              <list>
+                <intro>
+                  <p>
+                    <def />”המועד הקובע“ –</p>
+                </intro>
+                <point eId="point_1__point_המועד_הקובע__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>לגבי עמית פעיל – המועד שבו הופקדו לראשונה בשל העמית כספים בקופה המקבלת אך לא לפני מועד קבלת הבקשה, ולגבי עמית שהודיע לגוף המנהל של הקופה המקבלת כי לא יופקדו בשלו כספים בקופה המקבלת – המועד שבו הודיע כאמור;</p>
+                  </content>
+                </point>
+                <point eId="point_1__point_המועד_הקובע__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>לגבי עמית לא פעיל – מועד קבלת הבקשה;</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_1__point_המנהל">
+              <content>
+                <p>
+                  <def />”המנהל“ – כהגדרתו <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_מס_הכנסה">בפקודת מס הכנסה</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_חודש_קבלת_הבקשה">
+              <content>
+                <p>
+                  <def />”חודש קבלת הבקשה“ – החודש שבו חל מועד קבלת הבקשה;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_יום_עסקים">
+              <content>
+                <p>
+                  <def />”יום עסקים“ – כהגדרתו <ref href="/akn/il/act/PrimaryLegislation/1994-08-23/155776">בחוק השקעות משותפות בנאמנות, התשנ"ד–1994</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_יתרה_צבורה">
+              <content>
+                <p>
+                  <def />”יתרה צבורה“ – הכספים שנצברו לזכותו של העמית בחשבונו בקופת הגמל עד מועד חישוב רווחי הקופה שקדם למועד ההעברה, ולגבי קופה מעבירה שהיא קופת ביטוח שלפי תנאיה יש להפחית את סכומי החיסכון בשל משיכה או העברה של כספים מהקופה – בניכוי הסכום שיש להפחית לפי תנאי הקופה בשל משיכה או העברה, ואולם המבטח רשאי שלא לנכות את הסכום האמור, כולו או חלקו;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_כיסוי_ביטוחי_לסיכוני_מוות">
+              <content>
+                <p>
+                  <def />”כיסוי ביטוחי לסיכוני מוות“ בקופת גמל – זכאות לקבלת קצבה או תגמולי ביטוח שלא בדרך של קצבה מקופת הגמל, בשל פטירת העמית, בהתאם לתקנון הקופה;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_כיסוי_ביטוחי_לסיכוני_נכות">
+              <content>
+                <p>
+                  <def />”כיסוי ביטוחי לסיכוני נכות“ בקופת גמל – זכאות לקבלת קצבת נכות בהתאם לתקנון הקופה;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_מועד_ההעברה">
+              <content>
+                <p>
+                  <def />”מועד ההעברה“ – המועד שבו הועברה היתרה הצבורה, כולה או חלקה, מהקופה המעבירה לקופה המקבלת;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_מועד_קבלת_הבקשה">
+              <content>
+                <p>
+                  <def />”מועד קבלת הבקשה“ – המועד שבו התקבלה בקופה המקבלת בקשה חתומה ומלאה ונמסרו טופסי הצטרפות מלאים;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_עמית_לא_פעיל">
+              <content>
+                <p>
+                  <def />”עמית לא פעיל“ – עמית שאין מתקיים בו אף לא אחד מן התנאים המפורטים בהגדרת עמית פעיל;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_עמית_עובר">
+              <content>
+                <p>
+                  <def />”עמית עובר“ – עמית שבקשה שהגיש לקופה מקבלת אושרה על ידי הגוף המנהל של הקופה המקבלת וניתן להעביר את יתרתו הצבורה, כולה או חלקה, לפי הוראות תקנות אלה;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_עמית_פעיל">
+              <list>
+                <intro>
+                  <p>
+                    <def />”עמית פעיל“ – עמית–עצמאי בקופת גמל משלמת לקצבה או בקופת ביטוח אף אם אינה קופת גמל משלמת לקצבה או עמית–שכיר, שמתקיים בו אחד מאלה:</p>
+                </intro>
+                <point eId="point_1__point_עמית_פעיל__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>במועד קבלת הבקשה הוא בגדר עמית פעיל לפי תקנון הקופה המעבירה;</p>
+                  </content>
+                </point>
+                <point eId="point_1__point_עמית_פעיל__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>יש לו כיסוי ביטוחי לסיכוני נכות או מוות בקופה המעבירה בחודש קבלת הבקשה; לעניין זה לא יבוא במניין ביטוח חיים קבוצתי שנרכש אגב ההצטרפות לקופה או אגב החברות בה, שדמי הביטוח בשלו מנוכים מהכספים שנצברו לזכות העמית בחשבונו בקופה המעבירה;</p>
+                  </content>
+                </point>
+                <point eId="point_1__point_עמית_פעיל__point_3">
+                  <num>(3)</num>
+                  <content>
+                    <p>הופקדו בשלו כספים בקופה המעבירה בשל החודש שקדם לחודש קבלת הבקשה, ולגבי עמית–שכיר – לרבות כספים שרואים אותם לעניין זכויותיו כלפי הקופה המעבירה כאילו הופקדו במועדם לפי הוראות <ref href="/akn/il/act/PrimaryLegislation/1958-03-20/148747">חוק הגנת השכר, התשי"ח–1958</ref>;</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_1__point_קופה_מעבירה">
+              <content>
+                <p>
+                  <def />”קופה מעבירה“ – קופת גמל שעמית מבקש להעביר כספים שנצברו לזכותו בחשבונו בה, כולם או חלקם, לקופת גמל אחרת, ושניתן להעביר ממנה כספים כאמור לפי תקנות אלה;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_קופה_מקבלת">
+              <content>
+                <p>
+                  <def />”קופה מקבלת“ – קופת גמל שאליה מבקש עמית להעביר כספים שנצברו לזכותו בחשבונו בקופה מעבירה, כולם או חלקם, ושניתן להעביר אליה כספים כאמור בתקנות אלה;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_קופת_גמל_לקצבה">
+              <content>
+                <p>
+                  <def />”קופת גמל לקצבה“ – למעט קרן ותיקה ולמעט קופת גמל מרכזית לקצבה;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_קופת_גמל_סגורה">
+              <list>
+                <intro>
+                  <p>
+                    <def />”קופת גמל סגורה“ – כל אחת מאלה:</p>
+                </intro>
+                <point eId="point_1__point_קופת_גמל_סגורה__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>קופת ביטוח המזכה את המבטח באיגרות חוב שמנפיקה הממשלה לפי <ref href="/akn/il/act/PrimaryLegislation/1963-01-01/147725">חוק המילווה (חברות ביטוח), התשכ"ג–1962</ref>, או לפי <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/חוק_המילווה_ביטוח_חיים">חוק המילווה (ביטוח חיים), התשכ"ה–1965</ref>;</p>
+                  </content>
+                </point>
+                <point eId="point_1__point_קופת_גמל_סגורה__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>קופת גמל מבטיחת תשואה כהגדרתה <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/תקנות_הפיקוח_על_שירותים_פיננסיים_קופות_גמל_דמי_ניהול">בתקנות הפיקוח על שירותים פיננסיים (קופות גמל) (דמי ניהול), התשע"ב–2012</ref>;</p>
+                  </content>
+                </point>
+                <point eId="point_1__point_קופת_גמל_סגורה__point_3">
+                  <num>(3)</num>
+                  <content>
+                    <p>קופת גמל, למעט קופת גמל מרכזית לפיצויים, שלפי אישור קופת הגמל שניתן לה אינה רשאית לקבל עמיתים חדשים;</p>
+                  </content>
+                </point>
+                <point eId="point_1__point_קופת_גמל_סגורה__point_4">
+                  <num>(4)</num>
+                  <content>
+                    <p>קופת ביטוח שאין היתר מאת המפקח על הביטוח להמשך שיווקה;</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_1__point_קצבת_זקנה">
+              <content>
+                <p>
+                  <def />”קצבת זקנה“ – קצבה המשולמת לעמית מקופת גמל לקצבה במשך כל ימי חייו, בהתאם לתקנונה, החל בהגיעו לגיל המזכה בכך לפי תקנון הקופה;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_קצבת_נכות">
+              <content>
+                <p>
+                  <def />”קצבת נכות“ – תשלומים המשולמים מדי חודש לעמית מקופת גמל, בהתאם לתקנונה, בשל מקרה שבו איבד העמית את כושרו לעבוד, כולו או חלקו;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_קרן_השתלמות">
+              <content>
+                <p>
+                  <def />”קרן השתלמות“ – למעט קרן השתלמות מיוחדת למורים;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_קרן_השתלמות_מיוחדת_למורים">
+              <content>
+                <p>
+                  <def />”קרן השתלמות מיוחדת למורים“ – קרן השתלמות המנויה בהגדרה ”עובד הוראה“ <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_מס_הכנסה#point_3">שבסעיף 3(ה) לפקודת מס הכנסה</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_קרן_ותיקה">
+              <content>
+                <p>
+                  <def />”קרן ותיקה“ – למעט קופת ביטוח;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_קרן_חדשה">
+              <content>
+                <p>
+                  <def />”קרן חדשה“ – קרן חדשה זכאית או קרן חדשה שאינה זכאית;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_קרן_חדשה_זכאית">
+              <content>
+                <p>
+                  <def />”קרן חדשה זכאית“ – קופת גמל לקצבה שאינה קופת ביטוח שאושרה לראשונה אחרי יום כ"ט בטבת התשנ"ה (1 בינואר 1995) ושנקבע לגביה כי היא זכאית לרכוש איגרות חוב מסוג ”ערד“;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_קרן_חדשה_שאינה_זכאית">
+              <content>
+                <p>
+                  <def />”קרן חדשה שאינה זכאית“ – קופת גמל לקצבה שאינה קופת ביטוח שאושרה לראשונה אחרי יום כ"ט בטבת התשנ"ה (1 בינואר 1995) ושנקבע לגביה כי אינה זכאית לרכוש איגרות חוב מסוג ”ערד“;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_תקנון">
+              <list>
+                <intro>
+                  <p>
+                    <def />”תקנון“ קופת גמל –</p>
+                </intro>
+                <point eId="point_1__point_תקנון__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>לגבי קופת גמל שאינה קופת ביטוח – התקנון שאישר הממונה לקופת הגמל;</p>
+                  </content>
+                </point>
+                <point eId="point_1__point_תקנון__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>לגבי קופת ביטוח – פוליסת הביטוח שהוצאה על פיה;</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_1__point_תקנות_קופות_גמל">
+              <content>
+                <p>
+                  <def />”תקנות קופות גמל“ – <ref href="/akn/il/act/SecondaryLegislation/1964-05-24/99998845">תקנות מס הכנסה (כללים לאישור ולניהול קופות גמל), התשכ"ד–1964</ref>.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_2">
+          <heading>
+            <authorialNote placement="side">
+              <p>העברת כספים לקופת גמל לקצבה</p>
+            </authorialNote>
+          </heading>
+          <num>2.</num>
+          <list>
+            <point eId="point_2__point_א">
+              <num>(א)</num>
+              <list>
+                <intro>
+                  <p>לקופת גמל לקצבה ניתן להעביר כספים רק מקופת גמל שהיא אחת מאלה:</p>
+                </intro>
+                <point eId="point_2__point_א__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>קופת גמל לקצבה, ואולם לגבי עמית שהחל לקבל קצבה מקופה כאמור ולא התקיים לגביו האמור <ref href="#point_4">בתקנה 4(4)</ref>, יהיה ניתן להעביר רק את חלק היתרה הצבורה אשר בשלה אינו מקבל קצבה;</p>
+                  </content>
+                </point>
+                <point eId="point_2__point_א__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>קופת גמל לתגמולים, ובלבד שהקופה המקבלת היא קופת גמל משלמת לקצבה;</p>
+                  </content>
+                </point>
+                <point eId="point_2__point_א__point_3">
+                  <num>(3)</num>
+                  <content>
+                    <p>קופת גמל אישית לפיצויים, ובלבד שהקופה המקבלת היא קופת גמל משלמת לקצבה;</p>
+                  </content>
+                </point>
+                <point eId="point_2__point_א__point_4">
+                  <num>(4)</num>
+                  <content>
+                    <p>קרן השתלמות, ובלבד שהעמית היה זכאי למשוך את הכספים בפטור ממס לפי הוראות <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_מס_הכנסה#point_9_16א">סעיף 9(16א)</ref><ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_מס_הכנסה#point_9_16ב">או (16ב) לפקודת מס הכנסה</ref>, אילו מקורם היה בהפקדה המוטבת כהגדרתה <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_מס_הכנסה#point_9_16א">בסעיפים האמורים</ref>;</p>
+                  </content>
+                </point>
+                <point eId="point_2__point_א__point_5">
+                  <num>(5)</num>
+                  <content>
+                    <p>קרן השתלמות מיוחדת למורים, ובלבד שהעמית רשאי למשוך את הכספים בסכום חד־פעמי לפי תקנון הקרן והיה זכאי למשוך את הכספים בפטור ממס לפי הוראות <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_מס_הכנסה#point_9_16א">סעיף 9(16א) לפקודת מס הכנסה</ref>, אילו מקורם היה בהפקדה המוטבת כהגדרתה <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_מס_הכנסה#point_9_16א">בסעיף האמור</ref>;</p>
+                  </content>
+                </point>
+                <point eId="point_2__point_א__point_6">
+                  <num>(6)</num>
+                  <content>
+                    <p>קופת גמל אחרת שאישר הממונה בהסכמת המנהל – בתנאים שיורה עליהם;</p>
+                  </content>
+                </point>
+                <point eId="point_2__point_א__point_7">
+                  <num>(7)</num>
+                  <content>
+                    <p>קופת גמל להשקעה, ובלבד שהעמית הגיע לגיל הפרישה המוקדמת.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_2__point_ב">
+              <num>(ב)</num>
+              <list>
+                <intro>
+                  <p>העברת כספים כאמור בתקנת משנה (א), למעט לפי פסקה (6) שבה, תיעשה לחשבון בקופה המקבלת על שם העמית העובר, לפי מרכיבי חשבון קופת הגמל בקופה המעבירה, כמשמעותם <ref href="/akn/il/act/PrimaryLegislation/2005-08-10/100899#point_21">בסעיף 21 לחוק</ref>, ולגבי העברה כאמור בפסקה (1) שבה, יראו את כל מועדי התשלום לקופה המעבירה כמועדי התשלום לקופה המקבלת, ואולם אם הקופה המקבלת היא קופת ביטוח, יראו את מועדי התשלום לקופה המעבירה כמועדי התשלום לקופה המקבלת רק לעניין דיני המס; על אף האמור בתקנת משנה זו,</p>
+                </intro>
+                <point eId="point_2__point_ב__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>העברת כספים מקופת גמל אישית לפיצויים, לפי הוראות <ref href="/akn/il/act/SecondaryLegislation/1964-05-24/99998845#point_34א">תקנה 34א לתקנות קופות גמל</ref>, תיעשה למרכיב התגמולים בחשבון בקופה המקבלת;</p>
+                  </content>
+                </point>
+                <point eId="point_2__point_ב__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>העברת כספים מקופת גמל להשקעה, תיעשה למסלול השקעה המיועד למקבלי קצבה בקופה המקבלת, בהתאם לבחירתו של העמית, לשם קבלת קצבה בלבד.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_2__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>לעניין <ref href="/akn/il/act/PrimaryLegislation/1963-08-16/148301#point_26">סעיף 26 לחוק פיצויי פיטורים, התשכ"ג–1963</ref>, לא יראו כספים שהועברו כאמור בתקנת משנה (א) מקופת גמל אישית לפיצויים, ככספים המיועדים לביטוח קצבה.</p>
+              </content>
+            </point>
+            <point eId="point_2__point_ד">
+              <num>(ד)</num>
+              <list>
+                <intro>
+                  <p>על אף האמור בתקנת משנה (א), לא ניתן להעביר –</p>
+                </intro>
+                <point eId="point_2__point_ד__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>מקופת גמל שאינה קרן חדשה זכאית לקופת גמל לקצבה שהיא קרן חדשה זכאית, כספים בסכום העולה על הסכום המרבי החודשי שניתן להפקידו לאותה קרן במועד המעבר, לפי הוראות <ref href="/akn/il/act/SecondaryLegislation/1964-05-24/99998845">תקנות קופות גמל</ref> או תקנות לפי <ref href="/akn/il/act/PrimaryLegislation/2005-08-10/100899#point_22">סעיף 22 לחוק</ref> שיבואו במקומן, כשהוא מוכפל במספר החודשים שחלפו ממועד התשלום הראשון לקופה המעבירה; ואולם, לגבי עמית שהופקדו בשלו כספים לאותה קרן או לקרן חדשה זכאית אחרת בשל אותם חודשים, יופחת מהסכום המרבי האמור, סכום בגובה היתרה הצבורה בשל אותם כספים; לעניין זה, ”מועד התשלום הראשון“ – כהגדרתו <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_מס_הכנסה#point_9_18א">בסעיף 9(18א) לפקודת מס הכנסה</ref>;</p>
+                  </content>
+                </point>
+                <point eId="point_2__point_ד__point_2">
+                  <num>(2)</num>
+                  <list>
+                    <intro>
+                      <p>קופת גמל לקצבה, לגבי עמית שגילו מתחת ל־60, כספים ממרכיב הפיצויים בחשבון העמית העובר בקופת גמל מעבירה בשל שנה כלשהי, אם לא התקיימו שני אלה:</p>
+                    </intro>
+                    <point eId="point_2__point_ד__point_2__point_א">
+                      <num>(א)</num>
+                      <content>
+                        <p>בשל אותה שנה הופקדו כספים במרכיב תגמולי המעביד ומרכיב תגמולי העובד בקופת גמל לתגמולים או בקופת גמל לקצבה בשיעור שהיה נדרש לפי הוראות <ref href="/akn/il/act/SecondaryLegislation/1964-05-24/99998845#point_19">תקנה 19 לתקנות קופות גמל</ref> או בתקנות לפי <ref href="/akn/il/act/PrimaryLegislation/2005-08-10/100899#point_22">סעיף 22 לחוק</ref> שיבואו במקומן, אילו הופקדו כספי הפיצויים בקופת גמל לקצבה;</p>
+                      </content>
+                    </point>
+                    <point eId="point_2__point_ד__point_2__point_ב">
+                      <num>(ב)</num>
+                      <content>
+                        <p>הכספים שהופקדו בקופת הגמל לתגמולים כאמור בפסקת משנה (א) מועברים יחד עם כספי הפיצויים לקופה המקבלת או שהקופה המקבלת היא קופת הגמל לקצבה שבה הופקדו הכספים כאמור בפסקת משנה (א).</p>
+                      </content>
+                    </point>
+                    <wrapup eId="point_2__point_ד__point_2__wrapup_none">
+                      <content>
+                        <p>הוראות תקנת משנה זו לא יחולו על העברת כספים לפי הוראות <ref href="/akn/il/act/SecondaryLegislation/1964-05-24/99998845#point_34א">תקנה 34א לתקנות קופות גמל</ref>.</p>
+                      </content>
+                    </wrapup>
+                  </list>
+                </point>
+              </list>
+            </point>
+            <point eId="point_2__point_ה">
+              <num>(ה)</num>
+              <content>
+                <p>הועברו כספים שחל עליהם <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_מס_הכנסה#point_9_7א">סעיף 9(7א)(א)(4) לפקודת מס הכנסה</ref> מקופת גמל אישית לפיצויים לקופת גמל לקצבה, יחולו הוראות <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_מס_הכנסה#point_9_7א">הסעיף האמור</ref> עליהם ועל הריבית, הפרשי ההצמדה ורווחים אחרים עליהם שיצטברו בקופה המקבלת, כאילו המשיכו להתנהל בקופת גמל אישית לפיצויים.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_3">
+          <heading>
+            <authorialNote placement="side">
+              <p>העברת כספים לקופת גמל שאינה קופת גמל לקצבה</p>
+            </authorialNote>
+          </heading>
+          <num>3.</num>
+          <list>
+            <point eId="point_3__point_א">
+              <num>(א)</num>
+              <list>
+                <intro>
+                  <p>ניתן להעביר כספים מקופת גמל אחת לקופת גמל אחרת שאינה קופת גמל לקצבה רק במקרים אלה:</p>
+                </intro>
+                <point eId="point_3__point_א__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>מקופת גמל לתגמולים לקופת גמל לתגמולים אחרת;</p>
+                  </content>
+                </point>
+                <point eId="point_3__point_א__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>מקופת גמל אישית לפיצויים לקופת גמל אישית לפיצויים אחרת;</p>
+                  </content>
+                </point>
+                <point eId="point_3__point_א__point_3">
+                  <num>(3)</num>
+                  <content>
+                    <p>מקופת גמל מרכזית לפיצויים לקופת גמל מרכזית לפיצויים אחרת;</p>
+                  </content>
+                </point>
+                <point eId="point_3__point_א__point_4">
+                  <num>(4)</num>
+                  <content>
+                    <p>מקרן השתלמות לקרן השתלמות אחרת;</p>
+                  </content>
+                </point>
+                <point eId="point_3__point_א__point_5">
+                  <num>(5)</num>
+                  <content>
+                    <p>מקרן השתלמות מיוחדת למורים לקרן השתלמות מיוחדת למורים אחרת;</p>
+                  </content>
+                </point>
+                <point eId="point_3__point_א__point_6">
+                  <num>(6)</num>
+                  <content>
+                    <p>מקרן השתלמות מיוחדת למורים לקרן השתלמות אחרת – אם העמית רשאי למשוך את הכספים בסכום חד־פעמי לפי תקנון הקרן;</p>
+                  </content>
+                </point>
+                <point eId="point_3__point_א__point_7">
+                  <num>(7)</num>
+                  <content>
+                    <p>מקופת גמל מרכזית לדמי מחלה לקופת גמל מרכזית לדמי מחלה אחרת;</p>
+                  </content>
+                </point>
+                <point eId="point_3__point_א__point_8">
+                  <num>(8)</num>
+                  <content>
+                    <p>מקופת גמל מרכזית להשתתפות בפנסיה תקציבית לקופת גמל מרכזית להשתתפות בפנסיה תקציבית אחרת;</p>
+                  </content>
+                </point>
+                <point eId="point_3__point_א__point_9">
+                  <num>(9)</num>
+                  <content>
+                    <p>מקופת גמל מרכזית להשתתפות בפנסיה תקציבית לקופת גמל מרכזית לקצבה;</p>
+                  </content>
+                </point>
+                <point eId="point_3__point_א__point_10">
+                  <num>(10)</num>
+                  <content>
+                    <p>מקופת גמל אישית לפיצויים לקופת גמל לתגמולים לפי <ref href="/akn/il/act/SecondaryLegislation/1964-05-24/99998845#point_34א">תקנה 34א לתקנות קופות גמל</ref>;</p>
+                  </content>
+                </point>
+                <point eId="point_3__point_א__point_11">
+                  <num>(11)</num>
+                  <content>
+                    <p>העברת כספים שאושרה, לפי <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/כללי_מס_הכנסה_פטור_ממס_בשל_העברה_ושינוי_ייעוד_של_כספים_בקופות_גמל#point_2">סעיף 2(א)(7) לכללי מס הכנסה (פטור ממס בשל העברה ושינוי ייעוד של כספים בקופות גמל), התש"ן–1990</ref>;</p>
+                  </content>
+                </point>
+                <point eId="point_3__point_א__point_11א">
+                  <num>(11א)</num>
+                  <content>
+                    <p>מקופת גמל להשקעה לקופת גמל להשקעה אחרת;</p>
+                  </content>
+                </point>
+                <point eId="point_3__point_א__point_12">
+                  <num>(12)</num>
+                  <content>
+                    <p>העברת כספים אחרת שאישר הממונה בהסכמת המנהל בתנאים שיורה עליהם.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_3__point_ב">
+              <num>(ב)</num>
+              <list>
+                <intro>
+                  <p>העברת כספים כאמור בתקנת משנה (א), למעט לפי –</p>
+                </intro>
+                <point eId="point_3__point_ב__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>פסקאות (8) עד (12) שבה – תיעשה לחשבון על שם העמית העובר בקופה המקבלת, ויראו לעניין דיני המס, את כל מועדי התשלום לקופה המעבירה כמועדי התשלום לקופה המקבלת;</p>
+                  </content>
+                </point>
+                <point eId="point_3__point_ב__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>פסקאות (10) עד (12) שבה – תיעשה לחשבון בקופה המקבלת שבו יהיה העמית באותו מעמד שהיה בו בקופה המעבירה ולפי מרכיבי חשבון קופת הגמל בקופה המעבירה, כמשמעותם <ref href="/akn/il/act/PrimaryLegislation/2005-08-10/100899#point_21">בסעיף 21 לחוק</ref>; לעניין זה, ”מעמד“ – עמית–שכיר, עמית–עצמאי, עמית–מעביד או עמית–שיתופי.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_3__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>על אף האמור בתקנת משנה (ב), פרש עובד של עמית–מעביד בקופת גמל מרכזית לדמי מחלה (בתקנת משנה זו – המעביד הראשון) ממקום העבודה, והחל לעבוד במקום עבודה חדש שהמעביד בו הוא עמית–מעביד בקופת גמל מרכזית לדמי מחלה (בתקנת משנה זו – המעביד החדש), וחל לגבי העובד הסכם עבודה קיבוצי לפיו סכומים שהופקדו בשלו לקופת גמל מרכזית לדמי מחלה של המעביד הראשון יועברו לחשבון המעביד החדש בקופת גמל מרכזית לדמי מחלה, יחולו על העברה זו הכללים שבהסכם העבודה האמור.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_4">
+          <heading>
+            <authorialNote placement="side">
+              <p>סייג להעברה</p>
+            </authorialNote>
+          </heading>
+          <num>4.</num>
+          <list>
+            <intro>
+              <p>על אף האמור <ref href="#point_2">בתקנות 2</ref><ref href="#point_3">ו־3</ref>, לא ניתן להעביר כספים מקופה מעבירה לקופה מקבלת במקרים אלה:</p>
+            </intro>
+            <point eId="point_4__point_1">
+              <num>(1)</num>
+              <content>
+                <p>מוטל עיקול על חשבונו של העמית בקופה המעבירה בסכום מלוא היתרה הצבורה;</p>
+              </content>
+            </point>
+            <point eId="point_4__point_2">
+              <num>(2)</num>
+              <content>
+                <p>מוטל שעבוד שנעשה כדין על חשבונו של העמית בקופה המעבירה, בסכום מלוא היתרה הצבורה;</p>
+              </content>
+            </point>
+            <point eId="point_4__point_3">
+              <num>(3)</num>
+              <content>
+                <p>קיימת בחשבונו של העמית בקופה יתרת חוב בשל הלוואה שטרם נפרעה במלואה;</p>
+              </content>
+            </point>
+            <point eId="point_4__point_4">
+              <num>(4)</num>
+              <content>
+                <p>העמית החל לקבל קצבת זקנה מהקופה המעבירה, המחושבת לפי מלוא יתרתו הצבורה;</p>
+              </content>
+            </point>
+            <point eId="point_4__point_5">
+              <num>(5)</num>
+              <content>
+                <p>העמית הגיש בקשה לקבל קצבת נכות מהקופה המעבירה, וכל עוד הבקשה תלויה ועומדת או שאושרה זכאותו של עמית לקבל קצבת נכות מהקופה המעבירה וטרם פקעה זכאותו כאמור;</p>
+              </content>
+            </point>
+            <point eId="point_4__point_6">
+              <num>(6)</num>
+              <content>
+                <p>העמית נפטר לפני המועד הקובע;</p>
+              </content>
+            </point>
+            <point eId="point_4__point_7">
+              <num>(7)</num>
+              <content>
+                <p>הקופה המקבלת היא קופת גמל סגורה;</p>
+              </content>
+            </point>
+            <point eId="point_4__point_8">
+              <num>(8)</num>
+              <content>
+                <p>העמית הגיש בקשת העברה לקרן חדשה זכאית מקופת גמל שאינה קרן חדשה זכאית, והוא ממשיך להיות עמית פעיל בקופת הגמל המעבירה.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_5">
+          <heading>
+            <authorialNote placement="side">
+              <p>מועדי העברה והסכום המועבר</p>
+            </authorialNote>
+          </heading>
+          <num>5.</num>
+          <list>
+            <point eId="point_5__point_א">
+              <num>(א)</num>
+              <content>
+                <p>גוף מנהל של קופה מעבירה יעביר לקופה המקבלת את היתרה הצבורה של העמית בחשבונו בקופה המעבירה אשר ניתן להעבירה לפי הוראות תקנות אלה, או את חלקה, לפי העניין, בתוך עשרה ימי עסקים מהיום שבו הועברה לו בקשת העברה מפורטת, חתומה ומלאה, אלא אם כן בוטלה הבקשה, לרבות על ידי העמית, והכל באופן המפורט בהוראות הממונה לעניין זה, ואולם הממונה רשאי, במקרים מיוחדים, לאשר דחיה של המועד האמור לתקופה שלא תעלה על עשרים ימי עסקים נוספים.</p>
+              </content>
+            </point>
+            <point eId="point_5__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>על אף האמור בתקנת משנה (א), לא יעביר הגוף המנהל של הקופה המעבירה את חלק היתרה הצבורה של העמית שלא ניתן להעבירו בשל עיקול או שיעבוד כדין, לפי העניין.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_6">
+          <heading>
+            <authorialNote placement="side">
+              <p>איחור בהעברה</p>
+            </authorialNote>
+          </heading>
+          <num>6.</num>
+          <list>
+            <point eId="point_6__point_א">
+              <num>(א)</num>
+              <content>
+                <p>לא העביר גוף מנהל של קופה מעבירה כספים במועד שנקבע לכך לפי <ref href="#point_5">תקנה 5</ref>, ישלם לגוף המנהל של הקופה המקבלת, מתוך דמי הניהול שהוא גובה בשל ניהול הקופה, ריבית פיגורים בשיעור הריבית בשל איחור בהעברת כספים מהמערכת הבנקאית, שקובע החשב הכללי במשרד האוצר, כשיעורה מזמן לזמן, בשל התקופה המתחילה במועד שנקבע להעברת הכספים כאמור ועד מועד העברתם בפועל (בתקנה זו – תקופת האיחור), וזאת בלי לגרוע מחובתו לזקוף, בשל תקופת האיחור, את תשואת הקופה המעבירה לחשבונו של העמית.</p>
+              </content>
+            </point>
+            <point eId="point_6__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>נודע לגוף המנהל של הקופה המעבירה כי ההפרש בין תשואת הקופה המקבלת בתקופת האיחור לבין תשואת הקופה המעבירה באותה תקופה גבוה מריבית הפיגורים כאמור בתקנת משנה (א), ישלם לגוף המנהל של הקופה המקבלת, מתוך דמי הניהול שהוא גובה בשל ניהול הקופה, את ההפרש כאמור בניכוי ריבית הפיגורים ששילם, וזאת בתוך חמישה עשר ימי עסקים מהמועד שבו נודע לו כאמור, בצירוף הפרשי הצמדה וריבית כהגדרתם <ref href="/akn/il/act/PrimaryLegislation/1979-01-01/148271">בחוק פסיקת ריבית והצמדה, התשכ"א–1961</ref>, על ההפרש כאמור, מהמועד שבו נודע לו כאמור ועד יום תשלומו בפועל.</p>
+              </content>
+            </point>
+            <point eId="point_6__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>הגוף המנהל של הקופה המקבלת יזקוף לחשבונו של העמית בקופה מתוך הסכום שקיבל לפי תקנות משנה (א) ו־(ב), מיד עם קבלתו את ההפרש החיובי, ככל שישנו, בין תשואת הקופה המקבלת בתקופת האיחור לבין תשואת הקופה המעבירה באותה תקופה.</p>
+              </content>
+            </point>
+            <point eId="point_6__point_ג1">
+              <num>(ג1)</num>
+              <list>
+                <intro>
+                  <p>לא העביר גוף מנהל של קופה מקבלת בקשה לגוף מנהל של קופה מעבירה במועד שנקבע לכך לפי הוראות הממונה, או שעוכבה העברת כספים בשל דחיית בקשה על ידי גוף מנהל של קופה מעבירה והגוף המנהל של הקופה המקבלת אחראי לעיכוב האמור, יזקוף הגוף המנהל של הקופה המקבלת לחשבונו של העמית בקופה, מתוך דמי הניהול שהוא גובה בשל ניהול הקופה, את ההפרש החיובי, ככל שישנו, בין סכום היתרה הצבורה שלפי פסקה (1) לבין צירוף סכום היתרה הצבורה שלפי פסקה (2) והסכומים שלפי פסקה (3), וזאת בתוך 15 ימי עסקים ממועד קבלת הכספים מן הגוף המנהל של קופת הגמל המעבירה:</p>
+                </intro>
+                <point eId="point_6__point_ג1__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>היתרה הצבורה שהיתה עומדת לזכות העמית אילו הועברה בקשת ההעברה על ידי הגוף המנהל של הקופה המקבלת, במועד האחרון שבו היה ניתן להעביר את הבקשה כאמור לפי הוראות הממונה;</p>
+                  </content>
+                </point>
+                <point eId="point_6__point_ג1__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>היתרה הצבורה שהועמדה בפועל לזכות העמית במועד העברת הכספים;</p>
+                  </content>
+                </point>
+                <point eId="point_6__point_ג1__point_3">
+                  <num>(3)</num>
+                  <content>
+                    <p>סכומים שהעביר הגוף המנהל של הקופה המקבלת לחשבונו של העמית לפי תקנת משנה (ג).</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_6__point_ד">
+              <num>(ד)</num>
+              <content>
+                <p>הוראות תקנות משנה (א) עד (ג) יחולו, בשינויים המחויבים, על השבת כספים או העברתם שלא במועד שנקבע לכך לפי תקנת משנה (ב) <ref href="#point_10">ותקנה 10(ב) ו־(ג)</ref>.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_7">
+          <heading>
+            <authorialNote placement="side">
+              <p>אופן ההעברה</p>
+            </authorialNote>
+          </heading>
+          <num>7.</num>
+          <list>
+            <point eId="point_7__point_א">
+              <num>(א)</num>
+              <content>
+                <p>העברת כספים בין קופות תתבצע ישירות בין הגופים המנהלים של הקופות ולא באמצעות העמית.</p>
+              </content>
+            </point>
+            <point eId="point_7__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>העברת היתרה הצבורה תיעשה במזומנים, אלא אם כן הסכימו ביניהם הגוף המנהל של הקופה המעבירה והגוף המנהל של הקופה המקבלת, למעט גופים מנהלים של קופות קשורות, כי ההעברה תיעשה בנכסים אחרים.</p>
+              </content>
+            </point>
+            <point eId="point_7__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>העברת זכויות של עמית בין קופות קשורות יכול שתיעשה שלא במזומנים רק אם נעשתה לפי הוראות הממונה.</p>
+              </content>
+            </point>
+            <point eId="point_7__point_ד">
+              <num>(ד)</num>
+              <content>
+                <p>בתקנה זו, ”קופות קשורות“ – קופות גמל הנשלטות או המנוהלות בידי אותו אדם או בידי צדדים קשורים, כהגדרתם <ref href="/akn/il/act/SecondaryLegislation/1964-05-24/99998845">בתקנות קופות גמל</ref>.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_8">
+          <heading>
+            <authorialNote placement="side">
+              <p>העברת אחריות ביטוחית</p>
+            </authorialNote>
+          </heading>
+          <num>8.</num>
+          <list>
+            <point eId="point_8__point_א">
+              <num>(א)</num>
+              <content>
+                <p>גוף מנהל של קופה מעבירה שלעמית העובר היה כיסוי ביטוחי בה לסיכוני נכות או מוות, יהיה אחראי לתשלום כספים לפי הכיסויים בקופה המעבירה בשל מקרה ביטוח שאירע לפני המועד הקובע.</p>
+              </content>
+            </point>
+            <point eId="point_8__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>גוף מנהל של קופה מקבלת שהפקדות הכספים בה בשל עמית עובר מקנות לו כיסוי ביטוחי בקופה לסיכוני נכות או מוות יהיה אחראי לתשלום כספים לפי הכיסויים בקופה המקבלת בשל מקרה ביטוח שאירע במועד הקובע או לאחריו.</p>
+              </content>
+            </point>
+            <point eId="point_8__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>על אף האמור בתקנת משנה (א), אם העמית העביר חלק מהכספים בחשבונו בקופה יהיה הגוף המנהל של הקופה המעבירה אחראי לתשלום כספים לפי הכיסוי הביטוחי לסיכוני מוות שנותר בקופה גם בשל מקרה ביטוח שאירע במועד הקובע או לאחריו, ואולם גוף מנהל של קופת ביטוח רשאי להסכים להגדיל את הכיסוי הביטוחי כאמור בתנאים שייקבעו בין הצדדים; לעניין זה, ”הכיסוי הביטוחי לסיכוני מוות שנותר בקופה“ – הכיסוי הביטוחי לסיכוני מוות הכלול בקופה או נספח לה, שממשיך העמית לרכוש ממנו לאחר ההעברה, אשר יקטן בהתאם לחלק היחסי של היתרה הצבורה, בלא מרכיב הפיצויים, שנותרה בקופה לאחר העברת הכספים, בלא בחינה מחודשת של מצב רפואי קודם ובלא תקופת אכשרה; ואולם אם נקבע בתקנון הקופה מנגנון לעניין הכיסוי הביטוחי לסיכוני מוות שייוותר לאחר משיכה או העברה חלקית של כספים מהקופה, יחול המנגנון שנקבע בתקנון הקופה.</p>
+              </content>
+            </point>
+            <point eId="point_8__point_ד">
+              <num>(ד)</num>
+              <content>
+                <p>על אף האמור בתקנת משנה (א), יהיה הגוף המנהל של הקופה המעבירה אחראי לתשלום כספים לפי הכיסוי הביטוחי לסיכוני נכות הכלול בקופה או נספח לה או שנמכר אגב ההצטרפות לקופה או אגב החברות בה, שממשיך העמית לרכוש ממנו לאחר ההעברה, בלא בחינה מחודשת של מצב רפואי קודם ובלא תקופת אכשרה, גם בשל מקרה ביטוח שאירע במועד הקובע או לאחריו, ואולם דמי הביטוח יהיו דמי הביטוח הנהוגים במועד ההעברה לכלל המבוטחים אצל הגוף המנהל בפוליסה בעלת מאפיינים דומים שאינה פוליסה קבוצתית אלא אם כן הסכים הגוף המנהל לדמי ביטוח נמוכים יותר בתנאים שייקבעו בין הצדדים; ואולם אם נקבע בתקנון הקופה מנגנון לעניין הכיסוי הביטוחי לסיכוני נכות שייוותר לאחר משיכה או העברה של כספים מהקופה, יחול המנגנון שנקבע בתקנון הקופה.</p>
+              </content>
+            </point>
+            <point eId="point_8__point_ה">
+              <num>(ה)</num>
+              <content>
+                <p>ניכה הגוף המנהל של הקופה המעבירה תשלום כלשהו בשל כיסוי ביטוחי לסיכוני נכות או מוות בעד תקופה שתחילתה במועד הקובע, שלא לפי תקנות משנה (ג) או (ד), ישיב את התשלום שנוכה לחשבונו של העמית, בתוספת תשואה שהקופה המעבירה הייתה משיגה על התשלום האמור, אלמלא נוכה, במהלך התקופה שבין מועד הניכוי לבין מועד ההשבה.</p>
+              </content>
+            </point>
+            <point eId="point_8__point_ו">
+              <num>(ו)</num>
+              <content>
+                <p>על אף האמור בתקנות משנה (א) ו־(ב), אם בוטלה הבקשה באופן המפורט בהוראות הממונה לעניין זה, יהיה הגוף המנהל של הקופה המעבירה אחראי לתשלום כספים לפי הכיסויים בקופה המעבירה בשל מקרה ביטוח, ויראו לעניין זה את הכספים שהופקדו בשל העמית לקופה המקבלת כאילו הופקדו לקופה המעבירה.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_9">
+          <heading>
+            <authorialNote placement="side">
+              <p>איחוד ופיצול חשבונות</p>
+            </authorialNote>
+          </heading>
+          <num>9.</num>
+          <list>
+            <point eId="point_9__point_א">
+              <num>(א)</num>
+              <content>
+                <p>איחוד חשבונות של עמית בקופת גמל לתגמולים על ידי קבלת כספים שהועברו מחשבון העמית בקופת גמל לתגמולים אחרת או מחשבון אחר באותה קופה, לגבי תשלומים בשל עמית עצמאי שהופקדו לקופה לפני יום א׳ בטבת התשס"ו (1 בינואר 2006), יבוצע רק אם במועד האיחוד העמית היה זכאי למשוך את הכספים בפטור ממס, בכל אחד מן החשבונות שאוחדו.</p>
+              </content>
+            </point>
+            <point eId="point_9__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>איחוד חשבונות של עמית בקרן השתלמות על ידי קבלת כספים שהועברו מחשבון העמית בקרן השתלמות אחרת או מחשבון אחר באותה קרן, יבוצע רק אם במועד האיחוד העמית היה זכאי למשוך את הכספים שמקורם היה בהפקדה המוטבת כהגדרתה <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_מס_הכנסה#point_9_16א">בסעיף 9(16א)</ref><ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_מס_הכנסה#point_9_16ב">או (16ב) לפקודת מס הכנסה</ref>, בפטור ממס, בכל אחד מן החשבונות שאוחדו.</p>
+              </content>
+            </point>
+            <point eId="point_9__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>לא ניתן להעביר חלק מן הכספים שנצברו לזכותו של עמית מקופה מעבירה שהיא קרן השתלמות, בין על ידי העברת חלק מן הכספים בחשבון לחשבון אחר באותה קרן ובין על ידי העברת חלק מן הכספים בחשבונו בקרן ההשתלמות לחשבונו בקרן השתלמות אחרת; לעניין זה אין נפקא מינה אם החשבון האחר או החשבון בקרן ההשתלמות האחרת היו קיימים לפני ההעברה או שנפתחו לצורך ההעברה.</p>
+              </content>
+            </point>
+            <point eId="point_9__point_ד">
+              <num>(ד)</num>
+              <content>
+                <p>בהעברת חלק מן הכספים שנצברו לזכותו של עמית מקופה מעבירה שהיא קרן חדשה לקופה מקבלת שהיא קרן חדשה, יועברו הכספים מכל אחד ממרכיבי החשבון שפוצל, עד להשלמת הסכום המועבר, לפי סדר הפקדתם, מן המועד המאוחר ביותר עד המועד המוקדם ביותר.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_10">
+          <heading>
+            <authorialNote placement="side">
+              <p>חוב מעביד לקופה מעבירה</p>
+            </authorialNote>
+          </heading>
+          <num>10.</num>
+          <list>
+            <point eId="point_10__point_א">
+              <num>(א)</num>
+              <content>
+                <p>על אף האמור בתקנות אלה, חב מעביד של עמית–שכיר כספים לקופה מעבירה במועד ההעברה, ימשיכו לחול לגבי החוב הוראות <ref href="/akn/il/act/PrimaryLegislation/1958-03-20/148747">חוק הגנת השכר, התשי"ח–1958</ref>, ככל שהן חלות, כל עוד לא העביר הגוף המנהל של הקופה המעבירה לקופה המקבלת את מלוא החוב כאמור.</p>
+              </content>
+            </point>
+            <point eId="point_10__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>נפרע חוב המעביד, כולו או חלקו, יעביר הגוף המנהל של הקופה המעבירה לקופה המקבלת את החוב שנפרע כאמור בתוך עשרה ימי עסקים מהמועד שבו נפרע, ולעניין האחריות הביטוחית בשל החוב האמור יראו את המועד הקובע כמועד שבו נפרע החוב.</p>
+              </content>
+            </point>
+            <point eId="point_10__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>קיבלה קופה מקבלת כספים בשל פירעון חוב מעביד כאמור בתקנת משנה (ב), וטרם קבלת הכספים ביקש העמית להעביר את היתרה הצבורה מחשבונו בקופה המקבלת לקופת גמל אחרת, יעביר הגוף המנהל של הקופה המקבלת לקופה האחרת את הכספים שקיבלה כאמור בתוך עשרה ימי עסקים מהמועד שבו נתקבלו, ולעניין האחריות הביטוחית בשל הכספים האמורים יראו את המועד הקובע כמועד שבו נפרע חוב המעביד.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_11">
+          <heading>
+            <authorialNote placement="side">
+              <p>תחילה והוראות מעבר</p>
+            </authorialNote>
+          </heading>
+          <num>11.</num>
+          <list>
+            <point eId="point_11__point_א">
+              <num>(א)</num>
+              <content>
+                <p>תחילתן של תקנות אלה, למעט כאמור בתקנת משנה (ב), ביום ב׳ בתשרי התשס"ט (1 באוקטובר 2008) (להלן – יום התחילה).</p>
+              </content>
+            </point>
+            <point eId="point_11__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>תחילתן של תקנות אלה לגבי העברת כספים מקופה מעבירה שהיא קופת ביטוח או לקופה מקבלת שהיא קופת ביטוח – שלושה חודשים מיום התחילה.</p>
+              </content>
+            </point>
+            <point eId="point_11__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>לגבי קופה מעבירה שהיא קופת ביטוח או שהיא קופת גמל משלמת לקצבה שאינה קופת ביטוח – יהיה ניתן בשנתיים הראשונות מיום התחילה, להעביר את היתרה הצבורה, כאמור <ref href="#point_5">בתקנה 5(א)</ref> בתוך שלושים ימי עסקים מהיום שבו הועברה לגוף המנהל של הקופה המעבירה בקשת העברה מפורטת, חתומה ומלאה.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+      </list>
+    </body>
+    <conclusions eId="eId">
+      <p class="signatures">
+        <signature>
+          <p>
+            <person refersTo="רוני_בר־און">רוני בר־און</person>
+            <role refersTo="שר_האוצר">שר האוצר</role>
+          </p>
+        </signature>
+      </p>
+    </conclusions>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion" name="publicLaw">
+    <meta>
+      <identification source="#kensset">
+        <FRBRWork>
+          <FRBRthis value="/akn/il/act/SecondaryLegislation/2002-12-31/100030780/main" />
+          <FRBRuri value="/akn/il/act/SecondaryLegislation/2002-12-31/100030780" />
+          <FRBRdate date="2002-12-31" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRcountry value="israel" />
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/il/act/SecondaryLegislation/2002-12-31/100030780/he@/main" />
+          <FRBRuri value="/akn/il/act/SecondaryLegislation/2002-12-31/100030780/he@" />
+          <FRBRdate date="2002-12-31" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRlanguage language="hebrew" />
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/il/act/SecondaryLegislation/2002-12-31/100030780/he@/main.xml" />
+          <FRBRuri value="/akn/il/act/SecondaryLegislation/2002-12-31/100030780/he@" />
+          <FRBRdate date="2002-12-31" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRformat value="xml" />
+        </FRBRManifestation>
+      </identification>
+      <classification source="#kensset">
+        <keyword value="{classificationValue}" showAs="{classificationValue}" dictionary="#classification_dictionary" />
+      </classification>
+      <lifecycle source="#kensset">
+        <eventRef eId="eventRef_1" date="2002-12-31" source="#kensset" type="generation" />
+      </lifecycle>
+      <references source="#kensset">
+        <TLCOrganization eId="kensset" href="/ontology/organization/akn/knesset" showAs="Kensset" type="generation" />
+        <TLCRole eId="author" href="/ontology/role/akn/author" showAs="Author of Document" />
+        <TLCProcess eId="inforce" href="/ontology/process/akn/inforce" showAs="In force" />
+        <TLCTerm eId="term_1" href="/ontology/term/בקשה/100030780" showAs="בקשה" />
+        <TLCTerm eId="term_2" href="/ontology/term/בית_המשפט/100030780" showAs="בית_המשפט" />
+        <TLCPerson eId="מאיר_שטרית" href="/ontology/person/מאיר_שטרית" showAs="מאיר שטרית" />
+        <TLCRole eId="שר_המשפטים" href="ontology/role/akn/שר_המשפטים" showAs="שר המשפטים" />
+      </references>
+      <temporalData source="#kensset">
+        <temporalGroup eId="tmpg_1" />
+      </temporalData>
+      <Publication></Publication>
+      <proprietary wikiversion="9/18/2020 6:01:27 AM" />
+    </meta>
+    <body period="#tmpg_1">
+      <title eId="title">
+        <content>
+          <p>תקנות מידע גנטי (סדרי דין בהליך לאישור בדיקה גנטית בחסוי או בפסול דין), התשס"ג–2002</p>
+        </content>
+      </title>
+      <preamble eId="eId">
+        <p>בתוקף סמכותי לפי <ref href="/akn/il/act/PrimaryLegislation/2000-12-25/169942#point_27">סעיף 27(ג)</ref><ref href="/akn/il/act/PrimaryLegislation/2000-12-25/169942">לחוק מידע גנטי, התשס"א–2000</ref> (להלן – החוק), <ref href="/akn/il/act/PrimaryLegislation/1984-08-13/2002218#point_108">וסעיף 108</ref><ref href="/akn/il/act/PrimaryLegislation/1984-08-13/2002218">לחוק בתי המשפט [נוסח משולב], התשמ"ד–1984</ref>, ובאישור הועדה לעניני מחקר ופיתוח מדעי וטכנולוגי של הכנסת, אני מתקין תקנות אלה:</p>
+      </preamble>
+      <list>
+        <point eId="point_1" class="definitions">
+          <heading>
+            <authorialNote placement="side">
+              <p>הגדרות</p>
+            </authorialNote>
+          </heading>
+          <num>1.</num>
+          <list>
+            <intro>
+              <p>בתקנות אלה –</p>
+            </intro>
+            <point eId="point_1__point_בקשה">
+              <content>
+                <p>
+                  <def />”בקשה“ – בקשה לאישור של בית המשפט לעריכת בדיקה גנטית בחסוי או בפסול דין לפי <ref href="/akn/il/act/PrimaryLegislation/2000-12-25/169942#point_27">סעיף 27(ב) לחוק</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_בית_המשפט">
+              <content>
+                <p>
+                  <def />”בית המשפט“ – בית המשפט לעניני משפחה.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_2">
+          <heading>
+            <authorialNote placement="side">
+              <p>הגשת בקשה לבית המשפט</p>
+            </authorialNote>
+          </heading>
+          <num>2.</num>
+          <list>
+            <point eId="point_2__point_א">
+              <num>(א)</num>
+              <content>
+                <p>בקשה תוגש ערוכה לפי <ref href="#appendix">הטופס שבתוספת</ref> לבית המשפט שבתחום שיפוטו נמצא מקום מגוריו של החסוי או פסול הדין או מקום מגוריו של אפוטרופסו.</p>
+              </content>
+            </point>
+            <point eId="point_2__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>בענינים שלא הוסדרו בתקנות אלה יחולו על הבקשה הוראות <ref href="/akn/il/act/SecondaryLegislation/1984-08-12/100016713#chp_כ1">פרק כ׳1 לתקנות סדר הדין האזרחי, התשמ"ד–1984</ref>, ולענין זה יראו את הבקשה כתובענה בעניני משפחה שנפתחה בהגשת כתב תביעה.</p>
+              </content>
+            </point>
+            <point eId="point_2__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>המשיבים בבקשה יהיו היועץ המשפטי לממשלה וכן החסוי או פסול הדין ואפוטרופסו, אם מונה, אם הם אינם המבקשים בבקשה.</p>
+              </content>
+            </point>
+            <point eId="point_2__point_ד">
+              <num>(ד)</num>
+              <list>
+                <intro>
+                  <p>בבקשה יפרט המבקש את המטרה שלשמה דרושה הבדיקה, ויצרף אליה מסמכים אלה:</p>
+                </intro>
+                <point eId="point_2__point_ד__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>הסכמת החסוי או פסול הדין לעריכת הבדיקה הגנטית, אם ניתן לקבלה;</p>
+                  </content>
+                </point>
+                <point eId="point_2__point_ד__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>הסכמה, בכתב, של האפוטרופוס של החסוי או פסול הדין, אם מונה, לעריכת הבדיקה הגנטית;</p>
+                  </content>
+                </point>
+                <point eId="point_2__point_ד__point_3">
+                  <num>(3)</num>
+                  <content>
+                    <p>חוות דעת רפואית המפרטת את המידע הרפואי, הנוגע לעריכת הבדיקה הגנטית, מבהירה את המשמעות של עריכת בדיקה גנטית לגבי החסוי או פסול הדין ולגבי קרוביו, וקובעת כי לא יהיה בעריכת הבדיקה כדי לגרום נזק בריאותי או נפשי לחסוי או לפסול הדין; לענין זה, ”מידע רפואי“ – כהגדרתו <ref href="/akn/il/act/PrimaryLegislation/1996-05-12/174478#point_13">בסעיף 13(ב) לחוק זכויות החולה, התשנ"ו–1996</ref>;</p>
+                  </content>
+                </point>
+                <point eId="point_2__point_ד__point_4">
+                  <num>(4)</num>
+                  <content>
+                    <p>צו מינוי אפוטרופוס – אם מונה אפוטרופוס, וצו הכרזת פסול דין – אם הוכרז אדם כפסול דין.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+          </list>
+        </point>
+      </list>
+      <appendix eId="appendix">
+        <num></num>
+        <title>
+          <content>
+            <p>תוספת</p>
+          </content>
+        </title>
+        <list>
+          <point eId="appendix__point_none">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num></num>
+            <content>
+              <p>
+                <span style="font-weight: bold">בקשה לאישור עריכת בדיקה גנטית בחסוי או בפסול דין בענין החסוי/פסול הדין</span>
+                <wikicomment font-size="x-small">(<ref href="#point_2">תקנה 2(א)</ref>)</wikicomment>
+              </p>
+            </content>
+          </point>
+        </list>
+      </appendix>
+    </body>
+    <conclusions eId="eId">
+      <p class="signatures">
+        <signature>
+          <p>
+            <person refersTo="מאיר_שטרית">מאיר שטרית</person>
+            <role refersTo="שר_המשפטים">שר המשפטים</role>
+          </p>
+        </signature>
+      </p>
+    </conclusions>
+  </act>
+</akomaNtoso>

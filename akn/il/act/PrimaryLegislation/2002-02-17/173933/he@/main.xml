@@ -1,0 +1,2776 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion" name="publicLaw">
+    <meta>
+      <identification source="#kensset">
+        <FRBRWork>
+          <FRBRthis value="/akn/il/act/PrimaryLegislation/2002-02-17/173933/main" />
+          <FRBRuri value="/akn/il/act/PrimaryLegislation/2002-02-17/173933" />
+          <FRBRdate date="2002-02-17" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRcountry value="israel" />
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/il/act/PrimaryLegislation/2002-02-17/173933/he@/main" />
+          <FRBRuri value="/akn/il/act/PrimaryLegislation/2002-02-17/173933/he@" />
+          <FRBRdate date="2002-02-17" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRlanguage language="hebrew" />
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/il/act/PrimaryLegislation/2002-02-17/173933/he@/main.xml" />
+          <FRBRuri value="/akn/il/act/PrimaryLegislation/2002-02-17/173933/he@" />
+          <FRBRdate date="2002-02-17" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRformat value="xml" />
+        </FRBRManifestation>
+      </identification>
+      <classification source="#kensset">
+        <keyword value="{classificationValue}" showAs="{classificationValue}" dictionary="#classification_dictionary" />
+      </classification>
+      <lifecycle source="#kensset">
+        <eventRef eId="eventRef_1" date="2002-02-17" source="#kensset" type="generation" />
+      </lifecycle>
+      <references source="#kensset">
+        <TLCOrganization eId="kensset" href="/ontology/organization/akn/knesset" showAs="Kensset" type="generation" />
+        <TLCRole eId="author" href="/ontology/role/akn/author" showAs="Author of Document" />
+        <TLCProcess eId="inforce" href="/ontology/process/akn/inforce" showAs="In force" />
+        <TLCTerm eId="term_1" href="/ontology/term/ביצוע_במחיר_קבוע/173933" showAs="ביצוע_במחיר_קבוע" />
+        <TLCTerm eId="term_2" href="/ontology/term/בית_חולים_ציבורי_כללי/173933" showAs="בית_חולים_ציבורי_כללי" />
+        <TLCTerm eId="term_3" href="/ontology/term/חוק_ביטוח_בריאות_ממלכתי/173933" showAs="חוק_ביטוח_בריאות_ממלכתי" />
+        <TLCTerm eId="term_4" href="/ontology/term/מדד_יוקר_הבריאות/173933" showAs="מדד_יוקר_הבריאות" />
+        <TLCTerm eId="term_5" href="/ontology/term/מחיר_שירותי_בריאות/173933" showAs="מחיר_שירותי_בריאות" />
+        <TLCTerm eId="term_6" href="/ontology/term/מספר_המבוטחים_המשוקלל/173933" showAs="מספר_המבוטחים_המשוקלל" />
+        <TLCTerm eId="term_7" href="/ontology/term/הצריכה_הכוללת_של_שירותים_פסיכיאטריים/173933" showAs="הצריכה_הכוללת_של_שירותים_פסיכיאטריים" />
+        <TLCTerm eId="term_8" href="/ontology/term/צריכה_של_שירותים_פסיכיאטריים_של_קופת_חולים_בבית_חולים/173933" showAs="צריכה_של_שירותים_פסיכיאטריים_של_קופת_חולים_בבית_חולים" />
+        <TLCTerm eId="term_9" href="/ontology/term/צריכה/173933" showAs="צריכה" />
+        <TLCTerm eId="term_10" href="/ontology/term/שיעור_הקפיטציה/173933" showAs="שיעור_הקפיטציה" />
+        <TLCTerm eId="term_11" href="/ontology/term/שירותים_מיוחדים/173933" showAs="שירותים_מיוחדים" />
+        <TLCTerm eId="term_12" href="/ontology/term/השרים/173933" showAs="השרים" />
+        <TLCTerm eId="term_13" href="/ontology/term/תאגיד_בריאות/173933" showAs="תאגיד_בריאות" />
+        <TLCTerm eId="term_14" href="/ontology/term/תוספת/173933" showAs="תוספת" />
+        <TLCTerm eId="term_15" href="/ontology/term/תוספת_ריאלית/173933" showAs="תוספת_ריאלית" />
+        <TLCTerm eId="term_16" href="/ontology/term/תוספת_לתקרת_צריכה_לבית_חולים_ציבורי_כללי/173933" showAs="תוספת_לתקרת_צריכה_לבית_חולים_ציבורי_כללי" />
+        <TLCTerm eId="term_17" href="/ontology/term/תקרת_צריכה_בסיסית_כוללת_במחיר_מלא/173933" showAs="תקרת_צריכה_בסיסית_כוללת_במחיר_מלא" />
+        <TLCTerm eId="term_18" href="/ontology/term/תקרת_צריכה_בסיסית_פרטנית_במחיר_מלא/173933" showAs="תקרת_צריכה_בסיסית_פרטנית_במחיר_מלא" />
+        <TLCTerm eId="term_19" href="/ontology/term/תקרת_צריכה_כוללת_במחיר_מלא/173933" showAs="תקרת_צריכה_כוללת_במחיר_מלא" />
+        <TLCTerm eId="term_20" href="/ontology/term/תקרת_צריכה_פרטנית_במחיר_מלא/173933" showAs="תקרת_צריכה_פרטנית_במחיר_מלא" />
+        <TLCTerm eId="term_21" href="/ontology/term/תקרת_צריכה_פרטנית_מיוחדת/173933" showAs="תקרת_צריכה_פרטנית_מיוחדת" />
+        <TLCTerm eId="term_22" href="/ontology/term/תקרת_צריכה_פרטנית_רגילה/173933" showAs="תקרת_צריכה_פרטנית_רגילה" />
+        <TLCTerm eId="term_23" href="/ontology/term/תקרת_צריכה_כוללת_במחיר_מלא_לשנת_2002_לרבות_צריכה_תאורטית_של_שירותים_פסיכיאטריים/173933" showAs="תקרת_צריכה_כוללת_במחיר_מלא_לשנת_2002_לרבות_צריכה_תאורטית_של_שירותים_פסיכיאטריים" />
+        <TLCTerm eId="term_24" href="/ontology/term/נפגע_תאונת_דרכים/173933" showAs="נפגע_תאונת_דרכים" />
+        <TLCTerm eId="term_25" href="/ontology/term/שירות_אמבולטורי_שמחירו_הופחת/173933" showAs="שירות_אמבולטורי_שמחירו_הופחת" />
+        <TLCTerm eId="term_26" href="/ontology/term/שירות_מוחרג/173933" showAs="שירות_מוחרג" />
+        <TLCTerm eId="term_27" href="/ontology/term/שירות_לנפגע_תאונת_דרכים/173933" showAs="שירות_לנפגע_תאונת_דרכים" />
+        <TLCTerm eId="term_28" href="/ontology/term/גודל_בית_חולים/173933" showAs="גודל_בית_חולים" />
+        <TLCTerm eId="term_29" href="/ontology/term/יחס_החשבונות/173933" showAs="יחס_החשבונות" />
+        <TLCTerm eId="term_30" href="/ontology/term/יחס_המבוטחים_המשוקלל/173933" showAs="יחס_המבוטחים_המשוקלל" />
+        <TLCTerm eId="term_31" href="/ontology/term/מחוז/173933" showAs="מחוז" />
+        <TLCTerm eId="term_32" href="/ontology/term/מספר_מבוטחים_משוקלל/173933" showAs="מספר_מבוטחים_משוקלל" />
+        <TLCTerm eId="term_33" href="/ontology/term/תקרת_הצריכה_הכוללת_החלקית_לשנת_2008/173933" showAs="תקרת_הצריכה_הכוללת_החלקית_לשנת_2008" />
+        <TLCTerm eId="term_34" href="/ontology/term/הודעה_על_תקרת_הצריכה/173933" showAs="הודעה_על_תקרת_הצריכה" />
+        <TLCTerm eId="term_35" href="/ontology/term/יחס_החשבונות/173933" showAs="יחס_החשבונות" />
+        <TLCTerm eId="term_36" href="/ontology/term/יחס_המבוטחים_המשוקלל/173933" showAs="יחס_המבוטחים_המשוקלל" />
+        <TLCTerm eId="term_37" href="/ontology/term/יחס_הרכש_במחלקות_פנימיות/173933" showAs="יחס_הרכש_במחלקות_פנימיות" />
+        <TLCTerm eId="term_38" href="/ontology/term/תקרת_הצריכה_הכוללת_לתאונות_דרכים_לשנת_2011/173933" showAs="תקרת_הצריכה_הכוללת_לתאונות_דרכים_לשנת_2011" />
+        <TLCTerm eId="term_39" href="/ontology/term/תקרת_הצריכה_הפרטנית_לתאונות_דרכים_לשנת_2011/173933" showAs="תקרת_הצריכה_הפרטנית_לתאונות_דרכים_לשנת_2011" />
+        <TLCTerm eId="term_40" href="/ontology/term/תקרת_הצריכה_הפרטנית_החלקית/173933" showAs="תקרת_הצריכה_הפרטנית_החלקית" />
+        <TLCTerm eId="term_41" href="/ontology/term/בית_חולים_ממשלתי/173933" showAs="בית_חולים_ממשלתי" />
+        <TLCTerm eId="term_42" href="/ontology/term/הנחת_מחזור/173933" showAs="הנחת_מחזור" />
+        <TLCTerm eId="term_43" href="/ontology/term/הוראות_מינהל/173933" showAs="הוראות_מינהל" />
+        <TLCTerm eId="term_44" href="/ontology/term/מטופל_המיועד_להעברה/173933" showAs="מטופל_המיועד_להעברה" />
+        <TLCTerm eId="term_45" href="/ontology/term/סכום_הבסיס/173933" showAs="סכום_הבסיס" />
+        <TLCTerm eId="term_46" href="/ontology/term/האזור/173933" showAs="האזור" />
+        <TLCTerm eId="term_47" href="/ontology/term/הקמה_ותחזוקה_של_הגנות_חוף/173933" showAs="הקמה_ותחזוקה_של_הגנות_חוף" />
+        <TLCTerm eId="term_48" href="/ontology/term/שלב_א/2/173933" showAs="שלב_א/2" />
+        <TLCTerm eId="term_49" href="/ontology/term/בית_מלון/173933" showAs="בית_מלון" />
+        <TLCTerm eId="term_50" href="/ontology/term/היום_הקובע/173933" showAs="היום_הקובע" />
+        <TLCTerm eId="term_51" href="/ontology/term/התקופה_הקובעת_הראשונה/173933" showAs="התקופה_הקובעת_הראשונה" />
+        <TLCTerm eId="term_52" href="/ontology/term/התקופה_הקובעת_השניה/173933" showAs="התקופה_הקובעת_השניה" />
+        <TLCTerm eId="term_53" href="/ontology/term/התקופה_הקובעת_השלישית/173933" showAs="התקופה_הקובעת_השלישית" />
+        <TLCTerm eId="term_54" href="/ontology/term/הפקודה/173933" showAs="הפקודה" />
+        <TLCTerm eId="term_55" href="/ontology/term/חוק_הביטוח_הלאומי/173933" showAs="חוק_הביטוח_הלאומי" />
+        <TLCTerm eId="term_56" href="/ontology/term/המדד/173933" showAs="המדד" />
+        <TLCTerm eId="term_57" href="/ontology/term/הכנסה_חייבת/173933" showAs="הכנסה_חייבת" />
+        <TLCPerson eId="אריאל_שרון" href="/ontology/person/אריאל_שרון" showAs="אריאל שרון" />
+        <TLCPerson eId="סילבן_שלום" href="/ontology/person/סילבן_שלום" showAs="סילבן שלום" />
+        <TLCPerson eId="משה_קצב" href="/ontology/person/משה_קצב" showAs="משה קצב" />
+        <TLCPerson eId="אברהם_בורג" href="/ontology/person/אברהם_בורג" showAs="אברהם בורג" />
+        <TLCRole eId="ראש_הממשלה" href="ontology/role/akn/ראש_הממשלה" showAs="ראש הממשלה" />
+        <TLCRole eId="שר_האוצר" href="ontology/role/akn/שר_האוצר" showAs="שר האוצר" />
+        <TLCRole eId="נשיא_המדינה" href="ontology/role/akn/נשיא_המדינה" showAs="נשיא המדינה" />
+        <TLCRole eId="יושב_ראש_הכנסת" href="ontology/role/akn/יושב_ראש_הכנסת" showAs="יושב ראש הכנסת" />
+      </references>
+      <temporalData source="#kensset">
+        <temporalGroup eId="tmpg_1" />
+      </temporalData>
+      <Publication></Publication>
+      <proprietary wikiversion="11/18/2020 12:34:38 PM" />
+    </meta>
+    <body period="#tmpg_1">
+      <title eId="title">
+        <content>
+          <p>חוק ההסדרים במשק המדינה (תיקוני חקיקה להשגת יעדי התקציב והמדיניות הכלכלית לשנת הכספים 2002), התשס"ב–2002</p>
+        </content>
+      </title>
+      <chapter eId="chp_א">
+        <num>פרק א׳:</num>
+        <title>
+          <content>
+            <p>מטרת החוק</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_1">
+            <heading>
+              <authorialNote placement="side">
+                <p>מטרת החוק</p>
+              </authorialNote>
+            </heading>
+            <num>1.</num>
+            <content>
+              <p>חוק זה בא לתקן חוקים שונים, לדחות את תחילתם של חוקים ולקבוע הוראות נוספות, במטרה לאפשר הגברת הצמיחה והתעסוקה, השגת יעדי התקציב, עמידה ביעדי הגירעון לשנת הכספים 2002 והשגת יעדי המדיניות הכלכלית.</p>
+            </content>
+          </point>
+        </list>
+      </chapter>
+      <chapter eId="chp_ב">
+        <num>פרק ב׳:</num>
+        <title>
+          <content>
+            <p>תחבורה</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_2">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>2.</num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryLegislation/1995-08-24/158644">בחוק כביש אגרה (כביש ארצי לישראל), התשנ"ה–1995</ref>.</wikicomment>
+              </p>
+            </content>
+          </point>
+          <point eId="point_3">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>3.</num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryLegislation/1972-03-23/2002290">בפקודת מסילות הברזל (נוסח חדש), התשל"ב–1972</ref>.</wikicomment>
+              </p>
+            </content>
+          </point>
+          <point eId="point_4">
+            <heading>
+              <authorialNote placement="side">
+                <p>פקודת מסילות הברזל – הוראת מעבר</p>
+              </authorialNote>
+            </heading>
+            <num>4.</num>
+            <content>
+              <p>פורסם מכרז, לפני תחילתו של חוק זה, לבחירת בעל זיכיון לבנייתה, להפעלתה ולניהולה של מסילת ברזל מקומית כהגדרתה <ref href="/akn/il/act/PrimaryLegislation/1972-03-23/2002290#point_46א">בסעיף 46א לפקודת מסילות הברזל</ref>, כנוסחו <ref href="#point_3">בסעיף 3 לחוק זה</ref>, יראו את פרסום המכרז ואת ההליכים הקשורים לבחירת הזוכה שנעשו לפני יום תחילתו של חוק זה, כאילו נעשו לפי הוראות <ref href="#point_3">הסעיף האמור</ref>.</p>
+            </content>
+          </point>
+        </list>
+      </chapter>
+      <chapter eId="chp_ג">
+        <num>פרק ג׳: גמלאות לעובדי המדינה –</num>
+        <title>
+          <content>
+            <p>מעבר לפנסיה צוברת</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_5">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>5.</num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryLegislation/1970-04-17/2002310">בחוק שירות המדינה (גמלאות) [נוסח משולב], התש"ל–1970</ref>.</wikicomment>
+              </p>
+            </content>
+          </point>
+        </list>
+      </chapter>
+      <chapter eId="chp_ד">
+        <num>פרק ד׳:</num>
+        <title>
+          <content>
+            <p>הבטחת הכנסה ומזונות</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_6">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>6.</num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryLegislation/1980-12-01/147335">בחוק הבטחת הכנסה, התשמ"א–1980</ref>.</wikicomment>
+              </p>
+            </content>
+          </point>
+          <point eId="point_7">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>7.</num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryLegislation/1972-04-02/147580">בחוק המזונות (הבטחת תשלום), התשל"ב–1972</ref>.</wikicomment>
+              </p>
+            </content>
+          </point>
+          <point eId="point_8">
+            <heading>
+              <authorialNote placement="side">
+                <p>חוק המזונות (הבטחת תשלום)וחוק הבטחת הכנסה – תחולה</p>
+              </authorialNote>
+            </heading>
+            <num>8.</num>
+            <list>
+              <point eId="point_8__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>ביטול <ref href="/akn/il/act/PrimaryLegislation/1980-12-01/147335#point_5">סעיף 5(ג) לחוק הבטחת הכנסה</ref> כאמור <ref href="#point_6">בסעיף 6(2)(א) לחוק זה</ref> יחול לגבי גמלה המשתלמת לפי הוראות <ref href="/akn/il/act/PrimaryLegislation/1980-12-01/147335">חוק הבטחת הכנסה</ref> בעד חודש אפריל 2002 ואילך; ואולם מי שהיה זכאי לפי הוראות <ref href="/akn/il/act/PrimaryLegislation/1980-12-01/147335#point_5">הסעיף הקטן האמור</ref>, כנוסחו ערב תחילתו של חוק זה, לגמלה בשיעור המוגדל בעד חודש מרס 2002, יהיה זכאי לגמלה בשיעור המוגדל, כל עוד לא חדל להיות זכאי כאמור.</p>
+                </content>
+              </point>
+              <point eId="point_8__point_ב">
+                <num>(ב)</num>
+                <list>
+                  <point eId="point_8__point_ב__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>הוראות <ref href="/akn/il/act/PrimaryLegislation/1980-12-01/147335#point_5">סעיף 5(ו) לחוק הבטחת הכנסה</ref>, וכן ההגדרה ”פסק דין למזונות“ <ref href="/akn/il/act/PrimaryLegislation/1972-04-02/147580#point_1">שבסעיף 1 לחוק המזונות</ref><ref href="/akn/il/act/PrimaryLegislation/1972-04-02/147580#point_2">וסעיף 2 לחוק המזונות</ref>, כנוסחם <ref href="#point_6">בסעיפים 6(2)(ב)</ref><ref href="#point_7">ו־7 לחוק זה</ref>, יחולו לגבי מי שפסק דין למזונות ניתן לזכותו ביום י"ז באדר התשס"ב (1 במרס 2002) ולאחריו;</p>
+                    </content>
+                  </point>
+                  <point eId="point_8__point_ב__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>על מי שפסק דין למזונות ניתן לזכותו לפני יום י"ז באדר התשס"ב (1 במרס 2002) ימשיכו לחול ההגדרה ”פסק דין למזונות“ <ref href="/akn/il/act/PrimaryLegislation/1972-04-02/147580#point_1">שבסעיף 1 לחוק המזונות</ref><ref href="/akn/il/act/PrimaryLegislation/1972-04-02/147580#point_2">וסעיף 2 לחוק האמור</ref>, כנוסחם ערב תחילתו של חוק זה;</p>
+                    </content>
+                  </point>
+                  <point eId="point_8__point_ב__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>לענין סעיף קטן זה, יראו כיום מתן פסק הדין למזונות, לגבי פסק חוץ, פסק חוץ זמני וצו ביניים את היום שבו הוכרזו אכיפים לפי <ref href="/akn/il/act/PrimaryLegislation/1958-02-20/146874">חוק אכיפת פסקי חוץ, התשי"ח–1958</ref>.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_8__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>
+                    <ref href="/akn/il/act/PrimaryLegislation/1980-12-01/147335#point_12">סעיף 12(ג) לחוק הבטחת הכנסה</ref>, כנוסחו <ref href="#point_6">בסעיף 6(3) לחוק זה</ref>, יחול על גמלה המשתלמת בעד חודש מרס 2002 ואילך.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+        </list>
+      </chapter>
+      <chapter eId="chp_ה">
+        <num>פרק ה׳:</num>
+        <title>
+          <content>
+            <p>בריאות</p>
+          </content>
+        </title>
+        <section eId="chp_ה__sec_א">
+          <num>סימן א׳:</num>
+          <title>
+            <content>
+              <p>הסדרים במערכת הבריאות</p>
+            </content>
+          </title>
+          <list>
+            <point eId="point_9">
+              <heading>
+                <authorialNote placement="side">
+                  <p xml:space="preserve"> </p>
+                </authorialNote>
+              </heading>
+              <num>9.</num>
+              <content>
+                <p>
+                  <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryLegislation/1985-04-03/150399">בחוק יסודות התקציב, התשמ"ה–1985</ref>.</wikicomment>
+                </p>
+              </content>
+            </point>
+          </list>
+        </section>
+        <section eId="chp_ה__sec_ב">
+          <num>סימן ב׳:</num>
+          <title>
+            <content>
+              <p>התחשבנות בעד שירותי אשפוז בבתי חולים ציבוריים כלליים</p>
+            </content>
+          </title>
+          <list>
+            <point eId="point_10" class="definitions">
+              <heading>
+                <authorialNote placement="side">
+                  <p>הגדרות</p>
+                </authorialNote>
+              </heading>
+              <num>10.</num>
+              <list>
+                <intro>
+                  <p>
+                    <ref href="#chp_ה_sec_ב">בסימן זה</ref> –</p>
+                </intro>
+                <point eId="point_10__point_ביצוע_במחיר_קבוע">
+                  <content>
+                    <p>
+                      <def />”ביצוע במחיר קבוע“ – סכום המכפלות של כל שירות ושירות שצרכה קופת חולים בבית חולים ציבורי כללי בשנה נתונה, במחיר המלא של כל שירות כאמור, אף אם שולם בעבורו מחיר מופחת;</p>
+                  </content>
+                </point>
+                <point eId="point_10__point_בית_חולים_ציבורי_כללי">
+                  <content>
+                    <p>
+                      <def />”בית חולים ציבורי כללי“ – בית חולים ממשלתי כללי, בית חולים כללי שבבעלות קופת חולים, בית חולים כללי שבבעלות רשות מקומית וכן כל בית חולים כללי שהוא תאגיד שהוא מוסד ציבורי כמשמעותו <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_מס_הכנסה#point_9">בסעיף 9 לפקודת מס הכנסה</ref>; לענין זה, ”בית חולים ממשלתי“ – לרבות פעילות המתבצעת בו בידי תאגיד בריאות;</p>
+                  </content>
+                </point>
+                <point eId="point_10__point_חוק_ביטוח_בריאות_ממלכתי">
+                  <content>
+                    <p>
+                      <def />”חוק ביטוח בריאות ממלכתי“ – <ref href="/akn/il/act/PrimaryLegislation/1994-06-26/157723">חוק ביטוח בריאות ממלכתי, התשנ"ד–1994</ref>;</p>
+                  </content>
+                </point>
+                <point eId="point_10__point_מדד_יוקר_הבריאות">
+                  <content>
+                    <p>
+                      <def />”מדד יוקר הבריאות“ – כמשמעותו <ref href="/akn/il/act/PrimaryLegislation/1994-06-26/157723">בחוק ביטוח בריאות ממלכתי</ref>;</p>
+                  </content>
+                </point>
+                <point eId="point_10__point_מחיר_שירותי_בריאות">
+                  <content>
+                    <p>
+                      <def />”מחיר שירותי בריאות“ – מחירי יום אשפוז ושירותים אמבולטוריים ודיפרנציאליים בבתי חולים ציבוריים כלליים, כפי שנקבע מעת לעת בהיתר לפי <ref href="/akn/il/act/PrimaryLegislation/1996-03-21/159426">חוק פיקוח על מחירי מצרכים ושירותים, התשנ"ו–1996</ref> (להלן – חוק הפיקוח);</p>
+                  </content>
+                </point>
+                <point eId="point_10__point_מספר_המבוטחים_המשוקלל">
+                  <content>
+                    <p>
+                      <def />”מספר המבוטחים המשוקלל“ – כהגדרתו <ref href="/akn/il/act/PrimaryLegislation/1994-06-26/157723#point_17">בסעיף 17 לחוק ביטוח בריאות ממלכתי</ref>;</p>
+                  </content>
+                </point>
+                <point eId="point_10__point_הצריכה_הכוללת_של_שירותים_פסיכיאטריים">
+                  <content>
+                    <p>
+                      <def />”הצריכה הכוללת של שירותים פסיכיאטריים“ – סכום נומינלי של 60 מיליון שקלים חדשים;</p>
+                  </content>
+                </point>
+                <point eId="point_10__point_צריכה_של_שירותים_פסיכיאטריים_של_קופת_חולים_בבית_חולים">
+                  <content>
+                    <p>
+                      <def />”צריכה של שירותים פסיכיאטריים של קופת חולים בבית חולים“ – סך הביצוע במחיר קבוע של שירותים פסיכיאטריים של קופת חולים בבית חולים ציבורי כללי בשנת 1999;</p>
+                  </content>
+                </point>
+                <point eId="point_10__point_צריכה">
+                  <content>
+                    <p>
+                      <def />”צריכה“ או ”רכישה“ של שירותי בריאות בידי קופת חולים בבית חולים ציבורי כללי – לרבות צריכה או רכישה של שירותים כאמור בידי קופת חולים בבית חולים שהוא תאגיד שבבעלות הקופה, ולמעט צריכה או רכישה כאמור בבית חולים הפועל במסגרת אותה הקופה;</p>
+                  </content>
+                </point>
+                <point eId="point_10__point_שיעור_הקפיטציה">
+                  <content>
+                    <p>
+                      <def />”שיעור הקפיטציה“, של קופת חולים – שיעור חלקה של קופת החולים מתוך הסכום לחלוקה שקובע המוסד לביטוח לאומי לפי הוראות <ref href="/akn/il/act/PrimaryLegislation/1994-06-26/157723#point_18">סעיף 18 לחוק ביטוח בריאות ממלכתי</ref>;</p>
+                  </content>
+                </point>
+                <point eId="point_10__point_שירותים_מיוחדים">
+                  <content>
+                    <p>
+                      <def />”שירותים מיוחדים“ – שירותי אשפוז במחלקות פנימיות בבית חולים ציבורי כללי שהקוד שלהם בתעריפון משרד הבריאות הוא G00M1‏, G00M2‏, G00M3‏, G00M4‏, G00M5 ו־G00M6; לעניין זה, ”תעריפון משרד הבריאות“ – רשימת תעריפי האשפוז והשירותים האמבולטוריים, שמפרסם משרד הבריאות באתר האינטרנט שלו, המשקפת את התעריפים המעודכנים מזמן לזמן כפי שנקבעו בצווים לפי <ref href="/akn/il/act/PrimaryLegislation/1996-03-21/159426#point_12">סעיף 12 לחוק פיקוח על מחירי מצרכים ושירותים, התשנ"ו–1996</ref>;</p>
+                  </content>
+                </point>
+                <point eId="point_10__point_השרים">
+                  <content>
+                    <p>
+                      <def />”השרים“ – שר הבריאות ושר האוצר;</p>
+                  </content>
+                </point>
+                <point eId="point_10__point_תאגיד_בריאות">
+                  <content>
+                    <p>
+                      <def />”תאגיד בריאות“ – כהגדרתו <ref href="/akn/il/act/PrimaryLegislation/1985-04-03/150399#point_21">בסעיף 21 לחוק יסודות התקציב, התשמ"ה–1985</ref>;</p>
+                  </content>
+                </point>
+                <point eId="point_10__point_תוספת">
+                  <content>
+                    <p>
+                      <def />”תוספת“ – לרבות תוספת בשיעור שלילי;</p>
+                  </content>
+                </point>
+                <point eId="point_10__point_תוספת_ריאלית">
+                  <content>
+                    <p>
+                      <def />”תוספת ריאלית“ – תוספת מעבר לשיעור העדכון של מחירי שירותי הבריאות לפי <ref href="/akn/il/act/PrimaryLegislation/1996-03-21/159426">חוק הפיקוח</ref>, ואם נקבעו לפי <ref href="/akn/il/act/PrimaryLegislation/1996-03-21/159426">החוק האמור</ref> שיעורי עדכון שונים למחירים של שירותי בריאות שונים – תוספת מעבר לשיעור שיפרסמו ברשומות השרים שהוא ממוצע משוקלל של שיעור העדכון של מחירי שירותי הבריאות לפי <ref href="/akn/il/act/PrimaryLegislation/1996-03-21/159426">חוק הפיקוח</ref> בהתאם למשקלם של השירותים השונים בכלל שירותי הבריאות;</p>
+                  </content>
+                </point>
+                <point eId="point_10__point_תוספת_לתקרת_צריכה_לבית_חולים_ציבורי_כללי">
+                  <content>
+                    <p>
+                      <def />”תוספת לתקרת צריכה לבית חולים ציבורי כללי“ – שיעור הוספה לתקרת צריכה לקופה במחיר מלא, בשל מיטות אשפוז נוספות שאושרו לאותו בית חולים על פי כל דין, כפי שייקבע לפי <ref href="#point_13">סעיף 13(2)</ref>, ואשר יחול לגבי כל קופה בהתאם ליחס של שיעור התוספת לקופה, כמשמעותה <ref href="#point_13">בסעיף 13(1)</ref>;</p>
+                  </content>
+                </point>
+                <point eId="point_10__point_תקרת_צריכה_בסיסית_כוללת_במחיר_מלא">
+                  <content>
+                    <p>
+                      <def />”תקרת צריכה בסיסית כוללת במחיר מלא“ – תקרת הצריכה הבסיסית הפרטנית במחיר מלא של כל קופות החולים בכל בתי החולים הציבוריים הכלליים;</p>
+                  </content>
+                </point>
+                <point eId="point_10__point_תקרת_צריכה_בסיסית_פרטנית_במחיר_מלא">
+                  <content>
+                    <p>
+                      <def />”תקרת צריכה בסיסית פרטנית במחיר מלא“ – הסכום המרבי השנתי שנקבע לתשלום במחיר מלא שעל קופת חולים לשלם לבית חולים ציבורי כללי לשנת 2001, בהתאם <ref href="/akn/il/act/PrimaryLegislation/1999-02-15/167167">לחוק ההסדרים במשק המדינה (תיקוני חקיקה להשגת יעדי התקציב והמדיניות הכלכלית לשנת הכספים 1999), התשנ"ט–1999</ref>, או לשנים 2002 עד 2012 בהתאם <ref href="#chp_ה_sec_ב">לסימן זה</ref>;</p>
+                  </content>
+                </point>
+                <point eId="point_10__point_תקרת_צריכה_כוללת_במחיר_מלא">
+                  <list>
+                    <intro>
+                      <p>
+                        <def />”תקרת צריכה כוללת במחיר מלא“ –</p>
+                    </intro>
+                    <point eId="point_10__point_תקרת_צריכה_כוללת_במחיר_מלא__point_א">
+                      <num>(א)</num>
+                      <list>
+                        <intro>
+                          <p>בשנים 2002 עד 2010 – תקרת הצריכה הבסיסית הכוללת במחיר מלא בשנה הקודמת, בתוספת ריאלית בשיעור של –</p>
+                        </intro>
+                        <point eId="point_10__point_תקרת_צריכה_כוללת_במחיר_מלא__point_א__point_1">
+                          <num>(1)</num>
+                          <content>
+                            <p>בשנים 2002 עד 2004 – 1.25%, ובשנת 2002 בהפחתת הצריכה הכוללת של שירותים פסיכיאטריים;</p>
+                          </content>
+                        </point>
+                        <point eId="point_10__point_תקרת_צריכה_כוללת_במחיר_מלא__point_א__point_2">
+                          <num>(2)</num>
+                          <content>
+                            <p>בשנת 2005 – 1.3% ובהפחתה, שיקבעו השרים בצו, בשיעור הירידה במחירי האשפוז שבאחריות קופות החולים, שנקבעה כנגד העליה במחירי מענק האשפוז ליולדת ותוספת הפג לפי <ref href="/akn/il/act/PrimaryLegislation/2005-04-11/320854#point_2">סעיפים 2(10)</ref><ref href="/akn/il/act/PrimaryLegislation/2005-04-11/320854#point_3">ו־3(ח) לחוק המדיניות הכלכלית לשנת הכספים 2005 (תיקוני חקיקה), התשס"ה–2005</ref>;</p>
+                          </content>
+                        </point>
+                        <point eId="point_10__point_תקרת_צריכה_כוללת_במחיר_מלא__point_א__point_3">
+                          <num>(3)</num>
+                          <content>
+                            <p>בשנים 2006 ו־2007 – 0.8%, ובשנת 2007 – בהפחתת סכום השווה ל־103.6 מיליון שקלים חדשים כשהוא מעודכן משנת 2005 לפי שיעור העדכון הממוצע של מחירי שירותי הבריאות לפי <ref href="/akn/il/act/PrimaryLegislation/1996-03-21/159426">חוק הפיקוח</ref>;</p>
+                          </content>
+                        </point>
+                        <point eId="point_10__point_תקרת_צריכה_כוללת_במחיר_מלא__point_א__point_4">
+                          <num>(4)</num>
+                          <content>
+                            <p>בשנים 2008 עד 2010 – 0.6%, בהפחתה ובתוספת שיקבעו השרים לכל אחת מהשנים האמורות, לפי <ref href="#point_12ג">סעיף 12ג</ref>;</p>
+                          </content>
+                        </point>
+                      </list>
+                    </point>
+                    <point eId="point_10__point_תקרת_צריכה_כוללת_במחיר_מלא__point_ב">
+                      <num>(ב)</num>
+                      <content>
+                        <p>בשנים 2011 עד 2013 – תקרת הצריכה הכוללת במחיר מלא בשנה הקודמת בהפחתת סכום ההפחתה שנקבע לפי <ref href="#point_12ח">סעיף 12ח(א)</ref>, לכל אחת מהשנים האמורות, אם נקבע, בתוספת ריאלית בשיעור של 1.2% מהתקרה המופחתת כאמור, ובתוספת שקבעו השרים לפי <ref href="#point_12ט">סעיף 12ט</ref>, לכל אחת מהשנים האמורות, אם קבעו;</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+                <point eId="point_10__point_תקרת_צריכה_פרטנית_במחיר_מלא">
+                  <list>
+                    <intro>
+                      <p>
+                        <def />”תקרת צריכה פרטנית במחיר מלא“ – הסכום המרבי השנתי לתשלום במחיר מלא שעל קופת החולים לשלם לבית חולים ציבורי כללי, אשר תהיה לכל קופת חולים בכל בית חולים ציבורי כללי כמפורט להלן:</p>
+                    </intro>
+                    <point eId="point_10__point_תקרת_צריכה_פרטנית_במחיר_מלא__point_1">
+                      <num>(1)</num>
+                      <content>
+                        <p>בשנת 2002 – כקבוע <ref href="#point_11">בסעיף 11</ref>;</p>
+                      </content>
+                    </point>
+                    <point eId="point_10__point_תקרת_צריכה_פרטנית_במחיר_מלא__point_2">
+                      <num>(2)</num>
+                      <content>
+                        <p>בשנים 2003 ו־2004 – תקרת הצריכה הבסיסית הפרטנית לקופת החולים בכל בית חולים ציבורי כללי, בתוספת בשיעור הקבוע <ref href="#point_12">בסעיף 12</ref> או בתוספת בשיעור אחר שייקבע בצו לפי <ref href="#point_13">סעיף 13</ref>;</p>
+                      </content>
+                    </point>
+                    <point eId="point_10__point_תקרת_צריכה_פרטנית_במחיר_מלא__point_3">
+                      <num>(3)</num>
+                      <content>
+                        <p>בשנת 2005 – כקבוע <ref href="#point_12א">בסעיף 12א</ref>;</p>
+                      </content>
+                    </point>
+                    <point eId="point_10__point_תקרת_צריכה_פרטנית_במחיר_מלא__point_4">
+                      <num>(4)</num>
+                      <content>
+                        <p>בשנים 2006 ו־2007 – תקרת הצריכה הבסיסית הפרטנית לקופת החולים בכל בית חולים ציבורי כללי, בתוספת בשיעור הקבוע <ref href="#point_12ב">בסעיף 12ב</ref> או בתוספת בשיעור אחר שייקבע בצו לפי <ref href="#point_13">סעיף 13</ref>;</p>
+                      </content>
+                    </point>
+                    <point eId="point_10__point_תקרת_צריכה_פרטנית_במחיר_מלא__point_5">
+                      <num>(5)</num>
+                      <content>
+                        <p>בשנת 2008 – כקבוע <ref href="#point_12ד">בסעיף 12ד</ref>;</p>
+                      </content>
+                    </point>
+                    <point eId="point_10__point_תקרת_צריכה_פרטנית_במחיר_מלא__point_6">
+                      <num>(6)</num>
+                      <content>
+                        <p>בשנים 2009 ו־2010 – תקרת הצריכה הבסיסית הפרטנית לקופת החולים בכל בית חולים ציבורי כללי, בתוספת ריאלית בשיעור הקבוע <ref href="#point_12ה">בסעיף 12ה</ref> או בשיעור אחר שייקבע בצו לפי <ref href="#point_13">סעיף 13</ref>, ובהפחתה ובתוספות האחרות הקבועות <ref href="#point_12ה">בסעיף 12ה</ref>, לפי העניין;</p>
+                      </content>
+                    </point>
+                    <point eId="point_10__point_תקרת_צריכה_פרטנית_במחיר_מלא__point_7">
+                      <num>(7)</num>
+                      <content>
+                        <p>בשנים 2011 עד 2013 – הסכום המתקבל מחיבור תקרת הצריכה הפרטנית המיוחדת עם תקרת הצריכה הפרטנית הרגילה, לכל אחת מהשנים האמורות;</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+                <point eId="point_10__point_תקרת_צריכה_פרטנית_מיוחדת">
+                  <content>
+                    <p>
+                      <def />”תקרת צריכה פרטנית מיוחדת“ – הסכום המרבי השנתי לתשלום במחיר מלא שעל קופת החולים לשלם לבית חולים ציבורי כללי בעבור רכישת שירותים מיוחדים, שאינם ימי אשפוז שחלות לגביהם הוראות <ref href="#point_14">סעיף 14(ד)(3)</ref>, שיהיה לכל קופת חולים בכל בית חולים ציבורי כללי בשנת 2011 – כקבוע <ref href="#point_12ו">בסעיף 12ו</ref>, ובשנים 2012 ו־2013 – כקבוע <ref href="#point_12ז">בסעיף 12ז</ref>, והכל בהפחתה ובתוספת שקבעו השרים לפי <ref href="#point_12ח">סעיפים 12ח(ב)</ref><ref href="#point_12ט">ו־12ט</ref>, לכל אחת מהשנים האמורות, אם קבעו;</p>
+                  </content>
+                </point>
+                <point eId="point_10__point_תקרת_צריכה_פרטנית_רגילה">
+                  <content>
+                    <p>
+                      <def />”תקרת צריכה פרטנית רגילה“ – הסכום המרבי השנתי לתשלום במחיר מלא שעל קופת החולים לשלם לבית חולים ציבורי כללי בעבור רכישת שירותי בריאות, שאינם שירותים מיוחדים ואינם ימי אשפוז שחלות לגביהם הוראות <ref href="#point_14">סעיף 14(ד)(3)</ref>, שיהיה לכל קופת חולים בכל בית חולים ציבורי כללי בשנת 2011 – כקבוע <ref href="#point_12ו">בסעיף 12ו</ref>, ובשנים 2012 ו־2013 – כקבוע <ref href="#point_12ז">בסעיף 12ז</ref>, והכל בהפחתה ובתוספת שקבעו השרים לפי <ref href="#point_12ח">סעיפים 12ח(ב)</ref><ref href="#point_12ט">ו־12ט</ref>, לכל אחת מהשנים האמורות, אם קבעו;</p>
+                  </content>
+                </point>
+                <point eId="point_10__point_תקרת_צריכה_כוללת_במחיר_מלא_לשנת_2002_לרבות_צריכה_תאורטית_של_שירותים_פסיכיאטריים">
+                  <content>
+                    <p>
+                      <def />”תקרת צריכה כוללת במחיר מלא לשנת 2002 לרבות צריכה תאורטית של שירותים פסיכיאטריים“ – תקרת הצריכה הכוללת לשנת 2002 אילו לא הופחתה ממנה הצריכה הכוללת של שירותים פסיכיאטריים.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_11">
+              <heading>
+                <authorialNote placement="side">
+                  <p>תקרות צריכה פרטניות בשנת 2002</p>
+                </authorialNote>
+              </heading>
+              <num>11.</num>
+              <content>
+                <p>תקרת הצריכה הפרטנית במחיר מלא לשנת 2002 של כל קופת חולים בכל בית חולים ציבורי כללי תהיה ממוצע הביצוע במחיר קבוע של אותה קופה באותו בית חולים בשנים 1999 עד 2001, כשהוא מוכפל ביחס שבין תקרת הצריכה הכוללת במחיר מלא לשנת 2002 לרבות צריכה תאורטית של שירותים פסיכיאטריים, לבין ממוצע הסך הכולל של הביצוע במחיר קבוע של כל קופות החולים בכל בתי החולים הציבוריים הכלליים בשנים 1999 עד 2001; מתקרה זו תופחת המכפלה של הצריכה הכוללת של שירותים פסיכיאטריים ביחס שבין הצריכה של שירותים פסיכיאטריים של קופת החולים בבית החולים, לבין סך הצריכה של שירותים פסיכיאטריים בידי כל קופות החולים בכל בתי החולים.</p>
+              </content>
+            </point>
+            <point eId="point_12">
+              <heading>
+                <authorialNote placement="side">
+                  <p>תקרות צריכה פרטניות בשנים 2003 ו־2004</p>
+                </authorialNote>
+              </heading>
+              <num>12.</num>
+              <content>
+                <p>תקרת הצריכה הפרטנית במחיר מלא בכל אחת מהשנים 2003 ו־2004 תהיה תקרת הצריכה הבסיסית הפרטנית במחיר מלא לכל קופת חולים בכל אחד מבתי החולים הציבוריים הכלליים בשנה הקודמת בתוספת ריאלית בשיעור של 1.25% או בשיעור אחר שקבעו השרים לאותה קופה ביחס לכל בתי החולים או ביחס לבית החולים שנקבעה לו תוספת לתקרת צריכה לבית חולים ציבורי כללי, הכל בצו לפי <ref href="#point_13">סעיף 13</ref>.</p>
+              </content>
+            </point>
+            <point eId="point_12א">
+              <heading>
+                <authorialNote placement="side">
+                  <p>תקרות צריכה פרטניות בשנת 2005</p>
+                </authorialNote>
+              </heading>
+              <num>12א.</num>
+              <list>
+                <point eId="point_12א__point_א">
+                  <num>(א)</num>
+                  <content>
+                    <p>תקרת הצריכה הפרטנית במחיר מלא בשנת 2005 לכל קופת חולים בכל בית חולים ציבורי כללי תהיה ממוצע הביצוע במחיר קבוע של אותה קופה באותו בית חולים בשנים 2002 עד 2004, כשהוא מוכפל ביחס שבין תקרת הצריכה הכוללת במחיר מלא לשנת 2005, לבין ממוצע הסך הכולל של הביצוע במחיר קבוע של כל קופות החולים בכל בתי החולים הציבוריים הכלליים בשנים 2002 עד 2004, או בהתאם לצו כאמור בסעיף קטן (ב).</p>
+                  </content>
+                </point>
+                <point eId="point_12א__point_ב">
+                  <num>(ב)</num>
+                  <list>
+                    <intro>
+                      <p>השרים רשאים לקבוע עד ליום כ"ג בניסן התשס"ה (2 במאי 2005) לשנת 2005 –</p>
+                    </intro>
+                    <point eId="point_12א__point_ב__point_1">
+                      <num>(1)</num>
+                      <content>
+                        <p>שיעור התוספת לתקרת צריכה לבית חולים ציבורי כללי מתוך סך השינוי בתקרת הצריכה הכוללת לשנת 2005 לעומת תקרת הצריכה הכוללת לשנת 2004, ושיעור זה יחול לגבי כל קופה בהתאם ליחס שבין תקרת הצריכה במחיר מלא של קופת החולים באותו בית חולים, לפני העדכון לפי סעיף קטן זה, לבין סך תקרות הצריכה במחיר מלא של כל קופות החולים באותו בית חולים לפני העדכון כאמור; בקביעת השיעור האמור ישקלו השרים את מיטות האשפוז שאושרו ואת השירותים שאושרו לבית החולים ואת עיתוי הפעלתם;</p>
+                      </content>
+                    </point>
+                    <point eId="point_12א__point_ב__point_2">
+                      <num>(2)</num>
+                      <content>
+                        <p>שיעור התאמה של תקרת צריכה לבית חולים ציבורי כללי, ושיעור זה יחול לגבי כל קופה בהתאם ליחס שבין תקרת הצריכה במחיר מלא של קופת החולים באותו בית חולים, לפני העדכון לפי סעיף קטן זה, לבין סך תקרות הצריכה במחיר מלא של כל קופות החולים באותו בית חולים לפני העדכון כאמור; בקביעת השיעור האמור ישקלו השרים את השינויים היחסיים במחירי שירותי הבריאות, בהתאם לתמהיל שירותי הבריאות בכל בית חולים; ובלבד שסך כל הצריכה השנתית במחיר מלא של כל קופות החולים בכלל בתי החולים הציבוריים הכלליים לא יעלה על תקרת הצריכה הכוללת במחיר מלא לשנת 2005.</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+                <point eId="point_12א__point_ג">
+                  <num>(ג)</num>
+                  <content>
+                    <p>השרים יפרסמו ברשומות עד יום כ"ג בניסן התשס"ה (2 במאי 2005) הודעה על תקרת הצריכה הפרטנית של כל קופת חולים בכל בית חולים ציבורי כללי שנקבעה לפי הוראות סעיף זה.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_12ב">
+              <heading>
+                <authorialNote placement="side">
+                  <p>תקרות צריכה פרטניות בשנים 2006 ו־2007</p>
+                </authorialNote>
+              </heading>
+              <num>12ב.</num>
+              <list>
+                <intro>
+                  <p>תקרת הצריכה הפרטנית במחיר מלא בכל אחת מהשנים 2006 ו־2007 תהיה תקרת הצריכה הבסיסית הפרטנית במחיר מלא לכל קופת חולים בכל אחד מבתי החולים הציבוריים הכלליים בשנה הקודמת, בתוספת ריאלית כמפורט להלן:</p>
+                </intro>
+                <point eId="point_12ב__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>בשנת 2006 – בשיעור של 0.8% או בשיעור אחר שקבעו השרים לאותה קופה ביחס לכל בתי החולים או ביחס לבית החולים שנקבעה לו תוספת לתקרת צריכה לבית חולים ציבורי כללי, הכל בצו לפי <ref href="#point_13">סעיף 13</ref>;</p>
+                  </content>
+                </point>
+                <point eId="point_12ב__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>בשנת 2007 – בשיעור שנתי, בהפחתת חלק יחסי מהסכום כאמור בפסקה (3) להגדרה ”תקרת צריכה כוללת במחיר מלא“ <ref href="#point_10">שבסעיף 10</ref> כפי שיקבעו השרים בצו לפי <ref href="#point_13">סעיף 13</ref>.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_12ג">
+              <heading>
+                <authorialNote placement="side">
+                  <p>הפחתה ותוספת לתקרת הצריכה הכוללת במחיר מלא בשנים 2008 עד 2010</p>
+                </authorialNote>
+              </heading>
+              <num>12ג.</num>
+              <list>
+                <point eId="point_12ג__point_א">
+                  <num>(א)</num>
+                  <list>
+                    <intro>
+                      <p>בסעיף זה –</p>
+                    </intro>
+                    <point eId="point_12ג__point_א__point_נפגע_תאונת_דרכים">
+                      <content>
+                        <p>
+                          <def />”נפגע תאונת דרכים“ – נפגע כהגדרתו <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/חוק_פיצויים_לנפגעי_תאונות_דרכים">בחוק פיצויים לנפגעי תאונות דרכים, התשל"ה–1975</ref>, למעט תושב בתקופת המתנה לפי <ref href="/akn/il/act/PrimaryLegislation/1994-06-26/157723#point_58">סעיף 58 לחוק ביטוח בריאות ממלכתי</ref>, חייל <ref href="/akn/il/act/PrimaryLegislation/1994-06-26/157723">שחוק ביטוח בריאות ממלכתי</ref> אינו חל עליו לפי <ref href="/akn/il/act/PrimaryLegislation/1994-06-26/157723#point_55">סעיף 55 לחוק האמור</ref> ומי שזכאי בשל הפגיעה לגמלה לפי <ref href="/akn/il/act/PrimaryLegislation/1995-05-15/158093#chp_ה">פרק ה׳ לחוק הביטוח הלאומי [נוסח משולב], התשנ"ה–1995</ref>;</p>
+                      </content>
+                    </point>
+                    <point eId="point_12ג__point_א__point_שירות_אמבולטורי_שמחירו_הופחת">
+                      <content>
+                        <p>
+                          <def />”שירות אמבולטורי שמחירו הופחת“ – שירות אמבולטורי שאינו שירות מוחרג, שמחירו הופחת לפי <ref href="/akn/il/act/PrimaryLegislation/1996-03-21/159426">חוק הפיקוח</ref> מעבר לשיעור העדכון של מחיר שירותי הבריאות לפי <ref href="/akn/il/act/PrimaryLegislation/1996-03-21/159426">החוק האמור</ref>, בתקופה שמיום י"ז באלול התשס"ז (31 באוגוסט 2007) עד יום ז׳ בשבט התשס"ט (1 בפברואר 2009);</p>
+                      </content>
+                    </point>
+                    <point eId="point_12ג__point_א__point_שירות_מוחרג">
+                      <list>
+                        <intro>
+                          <p>
+                            <def />”שירות מוחרג“ – שירות שהוא אחד מאלה:</p>
+                        </intro>
+                        <point eId="point_12ג__point_א__point_שירות_מוחרג__point_1">
+                          <num>(1)</num>
+                          <content>
+                            <p>בדיקת רופא מומחה במרפאה;</p>
+                          </content>
+                        </point>
+                        <point eId="point_12ג__point_א__point_שירות_מוחרג__point_2">
+                          <num>(2)</num>
+                          <content>
+                            <p>טיפול בהקרנת שדה;</p>
+                          </content>
+                        </point>
+                        <point eId="point_12ג__point_א__point_שירות_מוחרג__point_3">
+                          <num>(3)</num>
+                          <content>
+                            <p>טיפול הפריה חוץ־גופית;</p>
+                          </content>
+                        </point>
+                        <point eId="point_12ג__point_א__point_שירות_מוחרג__point_4">
+                          <num>(4)</num>
+                          <content>
+                            <p>מיפוי שריר הלב באמצעות SPECT – Single photon emission computed tomography;</p>
+                          </content>
+                        </point>
+                        <point eId="point_12ג__point_א__point_שירות_מוחרג__point_5">
+                          <num>(5)</num>
+                          <content>
+                            <p>שירות שקבעו השרים בצו לפי <ref href="#point_17">סעיף 17(8)</ref>;</p>
+                          </content>
+                        </point>
+                      </list>
+                    </point>
+                    <point eId="point_12ג__point_א__point_שירות_לנפגע_תאונת_דרכים">
+                      <content>
+                        <p>
+                          <def />”שירות לנפגע תאונת דרכים“ – שירות הניתן לנפגע תאונת דרכים בשל פגיעתו כאמור, שאינו שירות אמבולטורי שמחירו הופחת ואינו שירות מוחרג, ובלבד שהנפגע זכאי לשירות האמור מקופת החולים לפי <ref href="/akn/il/act/PrimaryLegislation/1994-06-26/157723">חוק ביטוח בריאות ממלכתי</ref>.</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+                <point eId="point_12ג__point_ב">
+                  <num>(ב)</num>
+                  <list>
+                    <intro>
+                      <p>השרים יקבעו, בצו, לכל אחת מהשנים 2008 עד 2010, עד יום 1 במרס של כל אחת מהשנים האמורות, את סכום ההפחתה ואת סכום התוספת, לשם קביעת תקרת הצריכה הכוללת במחיר מלא לכל אחת משנים אלה, כמפורט להלן:</p>
+                    </intro>
+                    <point eId="point_12ג__point_ב__point_1">
+                      <num>(1)</num>
+                      <list>
+                        <intro>
+                          <p>לשנת 2008 –</p>
+                        </intro>
+                        <point eId="point_12ג__point_ב__point_1__point_א">
+                          <num>(א)</num>
+                          <content>
+                            <p>הפחתה בסכום השווה לסך המכפלות של כל שירות ושירות מהשירותים המוחרגים, שצרכו כל קופות החולים בכל בתי החולים הציבוריים הכלליים בשנת 2006, במחיר המלא של כל שירות כאמור ביום כ"ה בשבט התשס"ח (1 בפברואר 2008), בתוספת ריאלית של 0.6%;</p>
+                          </content>
+                        </point>
+                        <point eId="point_12ג__point_ב__point_1__point_ב">
+                          <num>(ב)</num>
+                          <list>
+                            <intro>
+                              <p>תוספת בסכום השווה לסך הכולל של שני אלה:</p>
+                            </intro>
+                            <point eId="point_12ג__point_ב__point_1__point_ב__point_1">
+                              <num>(1)</num>
+                              <content>
+                                <p>2.2% מסך תקרות הצריכה הפרטניות במחיר מלא של כל קופות החולים בכל בתי החולים הציבוריים הכלליים, שהם בתי חולים ממשלתיים;</p>
+                              </content>
+                            </point>
+                            <point eId="point_12ג__point_ב__point_1__point_ב__point_2">
+                              <num>(2)</num>
+                              <content>
+                                <p>סכום השווה לממוצע הביצוע במחיר קבוע של כל קופות החולים בבתי החולים הציבוריים הכלליים המצויים בתחום המוניציפלי של העיר נצרת בשנים 2005 ו־2007, כשהוא מוכפל ביחס שבין תקרת הצריכה הכוללת במחיר מלא לשנת 2007 לבין ממוצע הביצוע במחיר קבוע של כל קופות החולים בכל בתי החולים הציבוריים הכלליים, שאינם בתי החולים שבתחום המוניציפלי כאמור, בשנים 2005 עד 2007, ובתוספת ריאלית של 0.6%;</p>
+                              </content>
+                            </point>
+                          </list>
+                        </point>
+                      </list>
+                    </point>
+                    <point eId="point_12ג__point_ב__point_2">
+                      <num>(2)</num>
+                      <content>
+                        <p>לשנת 2009 – הפחתה בסכום השווה לסך המכפלות של כל שירות ושירות מהשירותים האמבולטוריים שמחירם הופחת, שצרכו כל קופות החולים בכל בתי החולים הציבוריים הכלליים בשנת 2007, במחיר המלא של כל שירות כאמור ביום ז׳ בשבט התשס"ט (1 בפברואר 2009), בתוספת ריאלית של 0.6%;</p>
+                      </content>
+                    </point>
+                    <point eId="point_12ג__point_ב__point_3">
+                      <num>(3)</num>
+                      <list>
+                        <intro>
+                          <p>לשנת 2010 –</p>
+                        </intro>
+                        <point eId="point_12ג__point_ב__point_3__point_א">
+                          <num>(א)</num>
+                          <list>
+                            <intro>
+                              <p>הפחתה בסכום הגבוה מבין אלה:</p>
+                            </intro>
+                            <point eId="point_12ג__point_ב__point_3__point_א__point_1">
+                              <num>(1)</num>
+                              <content>
+                                <p>סכום השווה לסך המכפלות של כל שירות ושירות מהשירותים האמבולטוריים, שאינם שירותים מוחרגים ואינם שירותים אמבולטוריים שמחירם הופחת, שצרכו כל קופות החולים בכל בתי החולים הציבוריים הכלליים בשנת 2008, במחיר המלא של כל שירות כאמור ביום י"ז בשבט התש"ע (1 בפברואר 2010), בתוספת ריאלית של 1.2%;</p>
+                              </content>
+                            </point>
+                            <point eId="point_12ג__point_ב__point_3__point_א__point_2">
+                              <num>(2)</num>
+                              <content>
+                                <p>סכום השווה ל־25% מסך החשבונות שהוציאו כל בתי החולים הציבוריים הכלליים לכל קופות החולים בשל רכישת שירותים אמבולטוריים בשנת 2006;</p>
+                              </content>
+                            </point>
+                          </list>
+                        </point>
+                        <point eId="point_12ג__point_ב__point_3__point_ב">
+                          <num>(ב)</num>
+                          <content>
+                            <p>תוספת בסכום השווה לממוצע השנתי של סך ההכנסות של בתי החולים הציבוריים הכלליים בשל מתן שירותים לנפגעי תאונות דרכים בשנים 2006 עד 2008, בתוספת ריאלית של 1.2%;</p>
+                          </content>
+                        </point>
+                      </list>
+                    </point>
+                    <wrapup eId="point_12ג__point_ב__wrapup_none">
+                      <content>
+                        <p>ואולם אם ההפחתה בסכום לפי פסקה זו, בצירוף סכומי ההפחתות לשנים 2008 ו־2009 לפי פסקאות (1)(א) ו־(2), עולה על סך החשבונות שהוציאו כל בתי החולים הציבוריים הכלליים לכל קופות החולים בשל רכישת שירותים אמבולטוריים בשנת 2006, יהיה סכום ההפחתה בשנת 2010 ההפרש שבין סך החשבונות כאמור לבין סך סכומי ההפחתות לשנים 2008 ו־2009 לפי הפסקאות האמורות.</p>
+                      </content>
+                    </wrapup>
+                  </list>
+                </point>
+                <point eId="point_12ג__point_ג">
+                  <num>(ג)</num>
+                  <content>
+                    <p>השרים יפרסמו ברשומות עד יום 1 במרס של כל אחת מהשנים 2008 עד 2010, את תקרת הצריכה הכוללת במחיר מלא לאותה שנה, ואת פירוט רכיביה.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_12ד">
+              <heading>
+                <authorialNote placement="side">
+                  <p>תקרות צריכה פרטניות בשנת 2008</p>
+                </authorialNote>
+              </heading>
+              <num>12ד.</num>
+              <list>
+                <point eId="point_12ד__point_א">
+                  <num>(א)</num>
+                  <list>
+                    <intro>
+                      <p>בסעיף זה –</p>
+                    </intro>
+                    <point eId="point_12ד__point_א__point_גודל_בית_חולים">
+                      <content>
+                        <p>
+                          <def />”גודל בית חולים“ – בהתאם לחישוב שייערך באופן שיקבעו השרים, בצו;</p>
+                      </content>
+                    </point>
+                    <point eId="point_12ד__point_א__point_יחס_החשבונות">
+                      <content>
+                        <p>
+                          <def />”יחס החשבונות“ – היחס שבין הממוצע השנתי של החשבונות שהגיש בית החולים לקופת החולים בשל שירותים שרכשה הקופה בבית החולים בשנים 2005 עד 2007, לבין הממוצע השנתי של החשבונות שהגישו כל בתי החולים הציבוריים הכלליים לכל קופות החולים בשל שירותים שרכשו הקופות בבתי החולים בשנים האמורות;</p>
+                      </content>
+                    </point>
+                    <point eId="point_12ד__point_א__point_יחס_המבוטחים_המשוקלל">
+                      <content>
+                        <p>
+                          <def />”יחס המבוטחים המשוקלל“ – היחס שבין מספר המבוטחים המשוקלל של קופת החולים, אשר מקום מגוריהם הוא במחוז שבו מצוי בית החולים, ביום כ"ג בטבת התשס"ח (1 בינואר 2008), לבין מספר המבוטחים המשוקלל של כל קופות החולים, אשר מקום מגוריהם הוא באותו מחוז, בשנה האמורה, כשהוא מוכפל ביחס שבין גודל בית החולים לבין הגודל המצטבר של כלל בתי החולים באותו מחוז; משרת בית חולים ציבורי כללי, דרך קבע, גם אוכלוסיה שמקום מגוריה אינו במחוז שבו הוא מצוי, יוגדל יחס המבוטחים המשוקלל של כל קופת חולים בבית החולים האמור בשיעור של 20%, ויחס המבוטחים המשוקלל של כל קופות החולים בכל אחד מבתי החולים הציבוריים הכלליים האחרים יופחת בהתאמה;</p>
+                      </content>
+                    </point>
+                    <point eId="point_12ד__point_א__point_מחוז">
+                      <content>
+                        <p>
+                          <def />”מחוז“ – כפי שיקבעו השרים;</p>
+                      </content>
+                    </point>
+                    <point eId="point_12ד__point_א__point_מספר_מבוטחים_משוקלל">
+                      <content>
+                        <p>
+                          <def />”מספר מבוטחים משוקלל“ – כהגדרתו <ref href="/akn/il/act/PrimaryLegislation/1994-06-26/157723#point_17">בסעיף 17 לחוק ביטוח בריאות ממלכתי</ref>;</p>
+                      </content>
+                    </point>
+                    <point eId="point_12ד__point_א__point_תקרת_הצריכה_הכוללת_החלקית_לשנת_2008">
+                      <content>
+                        <p>
+                          <def />”תקרת הצריכה הכוללת החלקית לשנת 2008“ – תקרת הצריכה הכוללת במחיר מלא לשנת 2008, לפני ההפחתה והתוספת שקבעו השרים לפי <ref href="#point_12ג">סעיף 12ג(ב)(1)</ref>.</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+                <point eId="point_12ד__point_ב">
+                  <num>(ב)</num>
+                  <list>
+                    <intro>
+                      <p>תקרת הצריכה הפרטנית במחיר מלא בשנת 2008, לכל קופת חולים בכל בית חולים ציבורי כללי, תהיה הסכום המתקבל מחיבור שני הסכומים המפורטים להלן (בסעיף זה – תקרת הצריכה הפרטנית החלקית), בהפחתה ובתוספת כמפורט בסעיף קטן (ג), ואם נקבעו התאמות לפי סעיף קטן (ד) – בכפוף להתאמות האמורות:</p>
+                    </intro>
+                    <point eId="point_12ד__point_ב__point_1">
+                      <num>(1)</num>
+                      <content>
+                        <p>סכום השווה למכפלת תקרת הצריכה הכוללת החלקית לשנת 2008 ב־90% מיחס החשבונות;</p>
+                      </content>
+                    </point>
+                    <point eId="point_12ד__point_ב__point_2">
+                      <num>(2)</num>
+                      <content>
+                        <p>סכום השווה למכפלת תקרת הצריכה הכוללת החלקית לשנת 2008 ב־10% מיחס המבוטחים המשוקלל.</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+                <point eId="point_12ד__point_ג">
+                  <num>(ג)</num>
+                  <list>
+                    <intro>
+                      <p>ההפחתה מתקרת הצריכה הפרטנית החלקית והתוספת לתקרה האמורה, בשנת 2008, יהיו כמפורט להלן:</p>
+                    </intro>
+                    <point eId="point_12ד__point_ג__point_1">
+                      <num>(1)</num>
+                      <content>
+                        <p>הפחתה בסכום השווה לסך המכפלות של כל שירות ושירות מהשירותים המוחרגים, כהגדרתם <ref href="#point_12ג">בסעיף 12ג(א)</ref>, שצרכה קופת החולים בבית החולים בשנת 2006, במחיר המלא של כל שירות כאמור ביום כ"ה בשבט התשס"ח (1 בפברואר 2008), בתוספת ריאלית של 0.6%;</p>
+                      </content>
+                    </point>
+                    <point eId="point_12ד__point_ג__point_2">
+                      <num>(2)</num>
+                      <content>
+                        <p>תוספת בבית חולים ציבורי כללי שהוא בית חולים ממשלתי, בסכום השווה ל־2.2% מתקרת הצריכה של קופת החולים בבית החולים.</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+                <point eId="point_12ד__point_ד">
+                  <num>(ד)</num>
+                  <content>
+                    <p>תקרת הצריכה הפרטנית במחיר מלא בשנת 2008, לכל קופת חולים בכל בית חולים ציבורי כללי המצוי בתחום המוניציפלי של העיר נצרת, תהיה סכום השווה לממוצע הביצוע במחיר קבוע של קופת החולים באותו בית חולים בשנים 2005 ו־2007, כשהוא מוכפל ביחס שבין תקרת הצריכה הכוללת במחיר מלא לשנת 2007 של אותה קופת חולים בכל בתי החולים הציבוריים הכלליים, למעט בתי החולים שבתחום המוניציפלי כאמור, לבין ממוצע הביצוע במחיר קבוע של קופת החולים בכל בתי החולים הציבוריים הכלליים, למעט בתי החולים שבתחום המוניציפלי כאמור, בשנים 2005 עד 2007.</p>
+                  </content>
+                </point>
+                <point eId="point_12ד__point_ה">
+                  <num>(ה)</num>
+                  <list>
+                    <intro>
+                      <p>השרים רשאים לקבוע, עד יום כ"ד באדר א׳ התשס"ח (1 במרס 2008), לשנת 2008, שיעורי התאמה של תקרות הצריכה, כמפורט להלן, ובלבד שסך כל תקרות הצריכה הפרטניות במחיר מלא של כל קופות החולים בכל בתי החולים הציבוריים הכלליים לא יעלה על תקרת הצריכה הכוללת במחיר מלא לשנת 2008:</p>
+                    </intro>
+                    <point eId="point_12ד__point_ה__point_1">
+                      <num>(1)</num>
+                      <content>
+                        <p>שיעור התאמה של תקרת הצריכה של קופת חולים בבית חולים ציבורי כללי, בשים לב לשינויים בפעילותה של הקופה בבית החולים בשל מלחמת לבנון השניה;</p>
+                      </content>
+                    </point>
+                    <point eId="point_12ד__point_ה__point_2">
+                      <num>(2)</num>
+                      <content>
+                        <p>שיעור התאמה של תקרת הצריכה של קופת חולים בבית חולים ציבורי כללי, שיקבעו השרים בשים לב לנתונים הנוגעים לרכישת שירותים מוחרגים, כהגדרתם <ref href="#point_12ג">בסעיף 12ג(א)</ref>, בידי קופת החולים בבית החולים.</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+                <point eId="point_12ד__point_ו">
+                  <num>(ו)</num>
+                  <content>
+                    <p>השרים יפרסמו ברשומות עד יום כ"ד באדר א׳ התשס"ח (1 במרס 2008), הודעה על תקרת הצריכה הפרטנית במחיר מלא של כל קופת חולים בכל בית חולים ציבורי כללי, שנקבעה לפי הוראות סעיף זה, ואת פירוט רכיביה.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_12ה">
+              <heading>
+                <authorialNote placement="side">
+                  <p>תקרות צריכה פרטניות בשנים 2009 ו־2010</p>
+                </authorialNote>
+              </heading>
+              <num>12ה.</num>
+              <list>
+                <point eId="point_12ה__point_א">
+                  <num>(א)</num>
+                  <list>
+                    <intro>
+                      <p>תקרת הצריכה הפרטנית במחיר מלא בכל אחת מהשנים 2009 ו־2010 תהיה תקרת הצריכה הבסיסית הפרטנית במחיר מלא לכל קופת חולים בכל אחד מבתי החולים הציבוריים הכלליים בשנה הקודמת, בתוספת ריאלית בשיעור של 0.6% כשהוא מוכפל ביחס שבין השיעור מהסכום לחלוקה שקובע המוסד לביטוח לאומי לפי הוראות <ref href="/akn/il/act/PrimaryLegislation/1994-06-26/157723#point_18">סעיף 18 לחוק ביטוח בריאות ממלכתי</ref> לכל קופת חולים באותה שנה, לבין השיעור האמור בשנה הקודמת (בסעיף זה – תקרת צריכה פרטנית מקודמת) וביחס שבין תקרת הצריכה הכוללת במחיר מלא באותה שנה לבין סכום כל תקרות הצריכה הפרטניות המקודמות של כל קופות החולים בכל בתי החולים, או בשיעור אחר שקבעו השרים לאותה קופה ביחס לכל בתי החולים או ביחס לבית החולים שנקבעה לו תוספת לתקרת צריכה לבית חולים ציבורי כללי, הכל בצו לפי <ref href="#point_13">סעיף 13</ref> (בסעיף זה – תקרת הצריכה הפרטנית החלקית), בהפחתה ובתוספת כמפורט להלן, לפי העניין, ואם נקבעו התאמות לפי סעיף קטן (ב) – בכפוף להתאמות האמורות:</p>
+                    </intro>
+                    <point eId="point_12ה__point_א__point_1">
+                      <num>(1)</num>
+                      <content>
+                        <p>לשנת 2009 – הפחתה בסכום השווה לסך המכפלות של כל שירות ושירות מהשירותים האמבולטוריים שמחירם הופחת, כהגדרתם <ref href="#point_12ג">בסעיף 12ג(א)</ref>, שצרכה קופת החולים בבית החולים בשנת 2007, במחיר המלא של כל שירות כאמור ביום ז׳ בשבט התשס"ט (1 בפברואר 2009), בתוספת ריאלית של 0.6%;</p>
+                      </content>
+                    </point>
+                    <point eId="point_12ה__point_א__point_2">
+                      <num>(2)</num>
+                      <list>
+                        <intro>
+                          <p>לשנת 2010 –</p>
+                        </intro>
+                        <point eId="point_12ה__point_א__point_2__point_א">
+                          <num>(א)</num>
+                          <content>
+                            <p>היתה ההפחתה מתקרת הצריכה הכוללת במחיר מלא לשנת 2010, לפי <ref href="#point_12ג">סעיף 12ג(ב)(3)</ref>, בסכום הקבוע בפסקת משנה (א) שבו – הפחתה בסכום השווה לסך המכפלות של כל שירות ושירות מהשירותים האמבולטוריים, שאינם שירותים מוחרגים ואינם שירותים אמבולטוריים שמחירם הופחת, כהגדרתם <ref href="#point_12ג">בסעיף 12ג(א)</ref>, שצרכה קופת החולים בבית החולים בשנת 2008, במחירו המלא של כל שירות כאמור ביום י"ז בשבט התש"ע (1 בפברואר 2010), בתוספת ריאלית בשיעור של 1.2%;</p>
+                          </content>
+                        </point>
+                        <point eId="point_12ה__point_א__point_2__point_ב">
+                          <num>(ב)</num>
+                          <content>
+                            <p>היתה ההפחתה מתקרת הצריכה הכוללת במחיר מלא לשנת 2010, לפי <ref href="#point_12ג">סעיף 12ג(ב)(3)</ref>, בסכום אחר מהסכום הקבוע בפסקת משנה (א) שבו – סכום ההפחתה שנקבעה לפי <ref href="#point_12ג">סעיף 12ג(ב)(3)</ref> כשהוא מוכפל ביחס שבין הצריכה של שירותים אמבולטוריים של קופת החולים בבית החולים, בשנת 2006, לבין סך הצריכה של שירותים כאמור, באותה שנה, בידי כל קופות החולים בכל בתי החולים הציבוריים הכלליים;</p>
+                          </content>
+                        </point>
+                        <point eId="point_12ה__point_א__point_2__point_ג">
+                          <num>(ג)</num>
+                          <content>
+                            <p>תוספת לכל בית חולים בסכום השווה לממוצע השנתי של סך ההכנסות של בית החולים בשל מתן שירותים לנפגעי תאונות דרכים, כהגדרתם <ref href="#point_12ג">בסעיף 12ג(א)</ref>, בשנים 2006 עד 2008, בתוספת ריאלית של 1.2%, כשהוא מחולק בין תקרות הצריכה הפרטניות של כל אחת מקופות החולים באותו בית חולים, באותן שנים, לפי יחס חלוקה אזורי או יחס חלוקה אחר, כפי שיקבעו השרים, בצו, באישור ועדת הכספים של הכנסת.</p>
+                          </content>
+                        </point>
+                      </list>
+                    </point>
+                  </list>
+                </point>
+                <point eId="point_12ה__point_ב">
+                  <num>(ב)</num>
+                  <list>
+                    <intro>
+                      <p>השרים רשאים לקבוע, לכל אחת מהשנים 2009 ו־2010, עד יום 1 במרס של כל אחת מהשנים האמורות, שיעור התאמה של תקרת הצריכה של קופת חולים בבית חולים ציבורי כללי, בשים לב לנתונים הנוגעים לרכישת השירותים המפורטים להלן, לפי העניין, בידי קופת החולים בבית החולים, ובלבד שסך כל תקרות הצריכה הפרטניות במחיר מלא של כל קופות החולים בכל בתי החולים הציבוריים הכלליים לא יעלה על תקרת הצריכה הכוללת במחיר מלא לשנת 2009 או 2010, לפי העניין:</p>
+                    </intro>
+                    <point eId="point_12ה__point_ב__point_1">
+                      <num>(1)</num>
+                      <content>
+                        <p>בשנת 2009 – שירותים אמבולטוריים שמחירם הופחת, כהגדרתם <ref href="#point_12ג">בסעיף 12ג(א)</ref>;</p>
+                      </content>
+                    </point>
+                    <point eId="point_12ה__point_ב__point_2">
+                      <num>(2)</num>
+                      <content>
+                        <p>בשנת 2010 – שירותים אמבולטוריים שאינם שירותים מוחרגים ואינם שירותים אמבולטוריים שמחירם הופחת, כהגדרתם <ref href="#point_12ג">בסעיף 12ג(א)</ref>.</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+                <point eId="point_12ה__point_ג">
+                  <num>(ג)</num>
+                  <content>
+                    <p>השרים, באישור ועדת הכספים של הכנסת, רשאים לקבוע, בצו, ביחס לשנת 2009, שיטה לחישוב תקרות הצריכה של קופות החולים בבתי החולים הציבוריים הכלליים, בשונה מהאמור בסעיף זה, בשים לב לנתונים בדבר השינויים בהיקף רכישת השירותים של קופות החולים בבתי החולים לעומת תקרות הצריכה של קופות החולים בבתי החולים, ורשאים הם לקבוע תקרות כאמור באופן שיפצה את קופות החולים או את בתי החולים גם בשל היקף הרכישה כאמור בשנת 2008, ובלבד שסך תקרות הצריכה הפרטניות במחיר מלא שייקבע לשנת 2009 לא יעלה על תקרת הצריכה הכוללת במחיר מלא לאותה שנה.</p>
+                  </content>
+                </point>
+                <point eId="point_12ה__point_ד">
+                  <num>(ד)</num>
+                  <content>
+                    <p>השרים יפרסמו ברשומות עד יום 1 במרס של כל אחת מהשנים 2009 ו־2010, הודעה על תקרת הצריכה הפרטנית במחיר מלא של כל קופת חולים בכל בית חולים ציבורי כללי, שנקבעה לפי הוראות סעיף זה, ואת פירוט רכיביה.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_12ו">
+              <heading>
+                <authorialNote placement="side">
+                  <p>תקרות צריכה פרטניות מיוחדות ורגילות בשנת 2011</p>
+                </authorialNote>
+              </heading>
+              <num>12ו.</num>
+              <list>
+                <point eId="point_12ו__point_א">
+                  <num>(א)</num>
+                  <list>
+                    <intro>
+                      <p>בסעיף זה –</p>
+                    </intro>
+                    <point eId="point_12ו__point_א__point_הודעה_על_תקרת_הצריכה">
+                      <content>
+                        <p>
+                          <def />”הודעה על תקרת הצריכה“ – הודעה על תקרת הצריכה הכוללת במחיר מלא ועל תקרת הצריכה הפרטנית במחיר מלא, לשנת 2010, שפרסמו השרים לפי הוראות <ref href="#point_12ג">סעיפים 12ג(ג)</ref><ref href="#point_12ה">ו־12ה(ד)</ref>;</p>
+                      </content>
+                    </point>
+                    <point eId="point_12ו__point_א__point_יחס_החשבונות">
+                      <content>
+                        <p>
+                          <def />”יחס החשבונות“ – היחס שבין סך הצריכה השנתית נטו של קופת חולים בבית חולים ציבורי כללי בשנים 2008 עד 2010, לבין סך הצריכה השנתית נטו של כל קופות החולים בכל בתי החולים הציבוריים הכלליים בשנים האמורות; לעניין זה, ”צריכה שנתית נטו“, בשנה מסוימת – סך החשבונות שהגיש בית חולים לקופת חולים בשל שירותי בריאות שהוראות <ref href="#chp_ה_sec_ב">סימן זה</ref> חלו עליהם בשנה המסוימת וחלות עליהם גם בשנת 2011, שרכשה קופת החולים בבית החולים בשנה המסוימת, כשהוא מוכפל בשיעור הקפיטציה של קופת החולים בשנת 2010 ומחולק בשיעור הקפיטציה של קופת החולים בשנה המסוימת;</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+                <point eId="point_12ו__point_יחס_המבוטחים_המשוקלל">
+                  <content>
+                    <p>
+                      <def />”יחס המבוטחים המשוקלל“ – היחס שבין מספר המבוטחים המשוקלל של קופת החולים אשר מקום מגוריהם הוא במחוז שבו מצוי בית החולים הציבורי הכללי, ביום כ"ה בטבת התשע"א (1 בינואר 2011), לבין מספר המבוטחים המשוקלל של כל קופות החולים באותו מועד, כשהוא מוכפל ביחס שבין גודל בית החולים לבין הגודל המצטבר של כלל בתי החולים הציבוריים הכלליים באותו מחוז; יחס המבוטחים המשוקלל של כל קופת חולים בבית החולים האמור יוגדל בשיעור של 10%, ויחס המבוטחים המשוקלל של כל קופות החולים בכל אחד מבתי החולים הציבוריים הכלליים האחרים יופחת בהתאמה, אם בית חולים ציבורי כללי משרת, דרך קבע, גם אוכלוסייה שמקום מגוריה אינו במחוז שבו הוא מצוי; לעניין זה, ”מחוז“ – כפי שיקבעו השרים, ובלבד שקביעת המחוזות ושיוך בתי חולים ציבוריים כלליים למחוז תיעשה, ככל האפשר, בהתחשב באוכלוסייה שאותם בתי חולים משרתים ובאזור מגוריה של אותה אוכלוסייה;</p>
+                  </content>
+                </point>
+                <point eId="point_12ו__point_יחס_הרכש_במחלקות_פנימיות">
+                  <content>
+                    <p>
+                      <def />”יחס הרכש במחלקות פנימיות“, בשנה מסוימת – היחס שבין סך החשבונות שהגיש בית חולים ציבורי כללי לקופת חולים בשל השירותים המיוחדים שרכשה קופת החולים בבית החולים בשנה המסוימת, לבין סך החשבונות שהגיש בית החולים לקופת החולים בעבור כלל שירותי הבריאות שהוראות <ref href="#chp_ה_sec_ב">סימן זה</ref> חלו עליהם בשנה המסוימת וחלות עליהם גם בשנת 2011, שרכשה קופת החולים בבית החולים בשנה המסוימת;</p>
+                  </content>
+                </point>
+                <point eId="point_12ו__point_תקרת_הצריכה_הכוללת_לתאונות_דרכים_לשנת_2011">
+                  <content>
+                    <p>
+                      <def />”תקרת הצריכה הכוללת לתאונות דרכים לשנת 2011“ – הסכום המופיע בפסקה (1)(ב) בהודעה על תקרת הצריכה כשהוא מוכפל ביחס שבין מדד יוקר הבריאות לשנת 2010 לבין מדד יוקר הבריאות לשנת 2008, בתוספת ריאלית בשיעור של 1.2%;</p>
+                  </content>
+                </point>
+                <point eId="point_12ו__point_תקרת_הצריכה_הפרטנית_לתאונות_דרכים_לשנת_2011">
+                  <content>
+                    <p>
+                      <def />”תקרת הצריכה הפרטנית לתאונות דרכים לשנת 2011“, לכל קופת חולים בכל בית חולים ציבורי כללי – הסכום הקבוע בטבלה שכותרתה ”תקרות 2010 (במחירי 2008)“, בפסקה (2) בהודעה על תקרת הצריכה, כשהוא מוכפל ביחס שבין מדד יוקר הבריאות לשנת 2010 לבין מדד יוקר הבריאות לשנת 2008, בתוספת ריאלית בשיעור של 1.2%;</p>
+                  </content>
+                </point>
+                <point eId="point_12ו__point_תקרת_הצריכה_הפרטנית_החלקית">
+                  <list>
+                    <intro>
+                      <p>
+                        <def />”תקרת הצריכה הפרטנית החלקית“ – סכום כאמור בפסקה (1), ואם קבעו השרים סכום לפי פסקה (2) – הסכום שקבעו כאמור:</p>
+                    </intro>
+                    <point eId="point_12ו__point_תקרת_הצריכה_הפרטנית_החלקית__point_1">
+                      <num>(1)</num>
+                      <list>
+                        <intro>
+                          <p>תקרת הצריכה הכוללת במחיר מלא בשנת 2011 בהפחתת תקרת הצריכה הכוללת לתאונות דרכים לשנת 2011, כשהיא מוכפלת בסכום שני אלה:</p>
+                        </intro>
+                        <point eId="point_12ו__point_תקרת_הצריכה_הפרטנית_החלקית__point_1__point_א">
+                          <num>(א)</num>
+                          <content>
+                            <p>90% מיחס החשבונות;</p>
+                          </content>
+                        </point>
+                        <point eId="point_12ו__point_תקרת_הצריכה_הפרטנית_החלקית__point_1__point_ב">
+                          <num>(ב)</num>
+                          <content>
+                            <p>10% מיחס המבוטחים המשוקלל;</p>
+                          </content>
+                        </point>
+                      </list>
+                    </point>
+                    <point eId="point_12ו__point_תקרת_הצריכה_הפרטנית_החלקית__point_2">
+                      <num>(2)</num>
+                      <content>
+                        <p>סכום המתקבל על פי שיטת חישוב שונה מהאמור בפסקה (1), שיקבעו השרים ואשר תתבסס גם על ביצוע במחיר קבוע של כל קופות החולים בבתי החולים הציבוריים הכלליים.</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+                <point eId="point_12ו__point_ב">
+                  <num>(ב)</num>
+                  <content>
+                    <p>תקרת הצריכה הפרטנית המיוחדת בשנת 2011, לכל קופת חולים בכל בית חולים ציבורי כללי, תהיה מכפלה של תקרת הצריכה הפרטנית החלקית, בממוצע יחס הרכש במחלקות פנימיות בשנים 2008 עד 2010.</p>
+                  </content>
+                </point>
+                <point eId="point_12ו__point_ג">
+                  <num>(ג)</num>
+                  <content>
+                    <p>תקרת הצריכה הפרטנית הרגילה בשנת 2011, לכל קופת חולים בכל בית חולים ציבורי כללי, תהיה ההפרש שבין תקרת הצריכה הפרטנית החלקית לבין תקרת הצריכה הפרטנית המיוחדת באותה שנה, בתוספת תקרת הצריכה הפרטנית לתאונות דרכים לשנת 2011.</p>
+                  </content>
+                </point>
+                <point eId="point_12ו__point_ד">
+                  <num>(ד)</num>
+                  <content>
+                    <p>השרים רשאים להגדיל או להקטין את תקרות הצריכה הפרטניות המיוחדות או את תקרות הצריכה הפרטניות הרגילות האמורות בסעיפים קטנים (ב) ו־(ג), בשיעור שלא יעלה על 1%, ובלבד שסך תקרות הצריכה הפרטניות המיוחדות והרגילות בשנת 2011 יהיה שווה לתקרת הצריכה הכוללת במחיר מלא באותה שנה.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_12ז">
+              <heading>
+                <authorialNote placement="side">
+                  <p>תקרות צריכה פרטניות מיוחדות ורגילות בשנים 2012 ו־2013</p>
+                </authorialNote>
+              </heading>
+              <num>12ז.</num>
+              <list>
+                <point eId="point_12ז__point_א">
+                  <num>(א)</num>
+                  <content>
+                    <p>בסעיף זה, ”יחס העדכון הפרטני“, בשנה מסוימת – היחס שבין שיעור הקפיטציה של קופת החולים בשנה המסוימת לבין שיעור הקפיטציה של קופת החולים בשנה הקודמת, כשהוא מוכפל ביחס שבין תקרת הצריכה הכוללת במחיר מלא בשנה המסוימת לבין סכום תקרות הצריכה הפרטניות המקודמות באותה שנה של כל קופות החולים בכל בתי החולים הציבוריים הכלליים; לעניין זה, ”תקרת צריכה פרטנית מקודמת“, בשנה מסוימת – תקרת הצריכה הפרטנית במחיר מלא של קופת חולים בבית חולים ציבורי כללי בשנה הקודמת, כשהיא מוכפלת ביחס שבין שיעור הקפיטציה של קופת החולים בשנה המסוימת לבין שיעור הקפיטציה של קופת החולים בשנה הקודמת.</p>
+                  </content>
+                </point>
+                <point eId="point_12ז__point_ב">
+                  <num>(ב)</num>
+                  <content>
+                    <p>תקרת הצריכה הפרטנית המיוחדת בכל אחת מהשנים 2012 ו־2013, לכל קופת חולים בכל בית חולים ציבורי כללי, תהיה תקרת הצריכה הפרטנית המיוחדת בשנה הקודמת כשהיא מוכפלת ביחס העדכון הפרטני של קופת החולים בשנת 2012 או 2013, לפי העניין.</p>
+                  </content>
+                </point>
+                <point eId="point_12ז__point_ג">
+                  <num>(ג)</num>
+                  <content>
+                    <p>תקרת הצריכה הפרטנית הרגילה בכל אחת מהשנים 2012 ו־2013, לכל קופת חולים בכל בית חולים ציבורי כללי, תהיה תקרת הצריכה הפרטנית הרגילה בשנה הקודמת כשהיא מוכפלת ביחס העדכון הפרטני של קופת החולים בשנת 2012 או 2013, לפי העניין.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_12ח">
+              <heading>
+                <authorialNote placement="side">
+                  <p>הפחתה לתקרת הצריכה הכוללת במחיר מלא ולתקרות הצריכה הפרטניות המיוחדות והרגילות בשנים 2011 עד 2013</p>
+                </authorialNote>
+              </heading>
+              <num>12ח.</num>
+              <list>
+                <point eId="point_12ח__point_א">
+                  <num>(א)</num>
+                  <content>
+                    <p>קבעו השרים לפי הוראות <ref href="#point_17">סעיף 17(א)(8)</ref> כי הוראות <ref href="#chp_ה_sec_ב">סימן זה</ref> לא יחולו על שירותים מסוימים (בסעיף זה – השירותים המוחרגים), לגבי שנה מהשנים 2011 עד 2013, יקבעו בצו עד יום 1 במרס באותה שנה שלגביה קבעו כאמור, את סכום ההפחתה לתקרת הצריכה הכוללת במחיר מלא, השווה לסך המכפלות של כל שירות מהשירותים המוחרגים שצרכו כל קופות החולים בכל בתי החולים הציבוריים הכלליים בשנה שקדמה לשנה שבה נקבע הצו, במחיר המלא של כל שירות כאמור ערב קביעת הצו.</p>
+                  </content>
+                </point>
+                <point eId="point_12ח__point_ב">
+                  <num>(ב)</num>
+                  <content>
+                    <p>בצו כאמור בסעיף קטן (א) רשאים השרים לקבוע הפחתות ותוספות לתקרות הצריכה הפרטניות המיוחדות ולתקרות הצריכה הפרטניות הרגילות, בשנה שלגביה חל הצו, בהתחשב בהבדלים בין בתי החולים הציבוריים הכלליים השונים בהיקף השירותים המוחרגים הניתנים בהם, ובלבד שסך תקרות הצריכה הפרטניות המיוחדות והרגילות באותה שנה יהיה שווה לתקרת הצריכה הכוללת במחיר מלא באותה שנה.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_12ט">
+              <heading>
+                <authorialNote placement="side">
+                  <p>תוספת לתקרת הצריכה הכוללת במחיר מלא ולתקרות הצריכה הפרטניות המיוחדות והרגילות בשנים 2011 עד 2013</p>
+                </authorialNote>
+              </heading>
+              <num>12ט.</num>
+              <list>
+                <point eId="point_12ט__point_א">
+                  <num>(א)</num>
+                  <list>
+                    <intro>
+                      <p>בסעיף זה –</p>
+                    </intro>
+                    <point eId="point_12ט__point_א__point_בית_חולים_ממשלתי">
+                      <content>
+                        <p>
+                          <def />”בית חולים ממשלתי“ – לרבות פעילות המתבצעת בו בידי תאגיד בריאות;</p>
+                      </content>
+                    </point>
+                    <point eId="point_12ט__point_א__point_הנחת_מחזור">
+                      <content>
+                        <p>
+                          <def />”הנחת מחזור“ – הנחה בעבור שירותי בריאות שקופות החולים רוכשות בבתי חולים הממשלתיים הכלליים, שהמנהל הכללי של משרד הבריאות קובע מזמן לזמן בהוראות מינהל.</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+                <point eId="point_12ט__point_ב">
+                  <num>(ב)</num>
+                  <content>
+                    <p>ביטל המנהל הכללי של משרד הבריאות את הנחת המחזור במהלך השנים 2011 עד 2013, רשאים השרים לקבוע תוספת לתקרות הצריכה הפרטניות המיוחדות ולתקרות הצריכה הפרטניות הרגילות של בתי החולים הממשלתיים הכלליים בשנה שבה בוטלה ההנחה כאמור, בשיעור הנחת המחזור שבוטלה; קבעו השרים תוספת כאמור, תגדל תקרת הצריכה הכוללת במחיר מלא, בהתאמה, ואולם הגדלת תקרת הצריכה הכוללת כאמור לא תובא בחשבון בחישוב תקרות הצריכה הפרטניות המיוחדות והרגילות לאותה שנה לפי הוראות <ref href="#point_12ו">סעיפים 12ו</ref><ref href="#point_12ז">ו־12ז</ref>.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_13">
+              <heading>
+                <authorialNote placement="side">
+                  <p>צו לענין תקרות צריכה</p>
+                </authorialNote>
+              </heading>
+              <num>13.</num>
+              <list>
+                <intro>
+                  <p>השרים רשאים לקבוע בצו לכל אחת מהשנים כמפורט להלן, עד 1 במרס של כל אחת מהשנים האמורות –</p>
+                </intro>
+                <point eId="point_13__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>בשנים 2003, 2004, 2006 ו־2007 – את שיעור התוספת לענין תקרת הצריכה לקופה במחיר מלא לכל קופת חולים (בסעיף זה – שיעור התוספת לקופה), ושיעור זה יחול ביחס לצריכה של שירותי בריאות בידי אותה קופה בכל אחד מבתי החולים הציבוריים הכלליים; בקביעת שיעור התוספת כאמור ישקלו השרים לענין צו לגבי השנים 2003 ו־2004 את השינויים שחלו במספר החברים המשוקלל של הקופה וכן את אפיוני הצריכה בפועל של שירותי בריאות או של שירותי בריאות מסוימים בידי הקופה בכלל בתי החולים בשנים קודמות המאוחרות לשנת 2001 ולענין צו לגבי השנים 2006 ו־2007 – את השינויים ואפיוני הצריכה כאמור בשנים קודמות המאוחרות לשנת 2004;</p>
+                  </content>
+                </point>
+                <point eId="point_13__point_2">
+                  <num>(2)</num>
+                  <list>
+                    <point eId="point_13__point_2__point_א">
+                      <num>(א)</num>
+                      <list>
+                        <intro>
+                          <p>בשנים 2003, 2004 ו־2006 עד 2010 – את שיעור התוספת לתקרת צריכה לבית חולים ציבורי כללי, ושיעור זה יחול לגבי כל קופה בהתאם ליחס שבין שיעור התוספת לקופה לבין השיעור כמפורט להלן, לפי העניין:</p>
+                        </intro>
+                        <point eId="point_13__point_2__point_א__point_1">
+                          <num>(1)</num>
+                          <content>
+                            <p>בשנים 2003 ו־2004 – 1.25%;</p>
+                          </content>
+                        </point>
+                        <point eId="point_13__point_2__point_א__point_2">
+                          <num>(2)</num>
+                          <content>
+                            <p>בשנת 2006 – 0.8%;</p>
+                          </content>
+                        </point>
+                        <point eId="point_13__point_2__point_א__point_3">
+                          <num>(3)</num>
+                          <content>
+                            <p>בשנת 2007 – 0.8%, בהפחתת סכום כאמור בפסקה (3) להגדרה ”תקרת צריכה כוללת במחיר מלא“ <ref href="#point_10">שבסעיף 10</ref>;</p>
+                          </content>
+                        </point>
+                        <point eId="point_13__point_2__point_א__point_4">
+                          <num>(4)</num>
+                          <content>
+                            <p>בשנים 2008 עד 2010 – 0.6%, בהפחתה ובתוספת שנקבעו לאותה שנה לפי <ref href="#point_12ג">סעיף 12ג</ref>;</p>
+                          </content>
+                        </point>
+                      </list>
+                    </point>
+                    <point eId="point_13__point_2__point_א1">
+                      <num>(א1)</num>
+                      <content>
+                        <p>בשנים 2011 עד 2013 – את שיעור התוספת לתקרת הצריכה הפרטנית המיוחדת או לתקרת הצריכה הפרטנית הרגילה, של בית חולים ציבורי כללי;</p>
+                      </content>
+                    </point>
+                    <point eId="point_13__point_2__point_ב">
+                      <num>(ב)</num>
+                      <content>
+                        <p>בקביעת השיעורים האמורים בפסקאות משנה (א) ו־(א1), ישקלו השרים את מספר המיטות הנוספות שאושרו ושירותי בריאות אחרים שאושרו לבית החולים ואת עיתוי הפעלתם, וכן את תמהיל שירותי הבריאות בבית החולים, בהתחשב בשינויים היחסיים במחירי שירותי הבריאות;</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+                <wrapup eId="point_13__wrapup_none">
+                  <content>
+                    <p>ובלבד שסך כל הצריכה השנתית מחיר מלא של כל קופות החולים בכלל בתי החולים הציבוריים הכלליים לא יעלה על תקרת הצריכה הכוללת במחיר מלא אותה שנה.</p>
+                  </content>
+                </wrapup>
+              </list>
+            </point>
+            <point eId="point_13א">
+              <heading>
+                <authorialNote placement="side">
+                  <p>פרסום תקרות הצריכה בשנים 2011 עד 2013</p>
+                </authorialNote>
+              </heading>
+              <num>13א.</num>
+              <content>
+                <p>השרים יפרסמו ברשומות, עד יום 1 במרס בכל שנה מהשנים 2011 עד 2013, הודעה על תקרת הצריכה הפרטנית במחיר מלא, תקרת הצריכה הפרטנית הרגילה ותקרת הצריכה הפרטנית המיוחדת, באותה שנה, של כל קופת חולים בכל בית חולים ציבורי כללי, ושל תקרת הצריכה הכוללת במחיר מלא לאותה שנה.</p>
+              </content>
+            </point>
+            <point eId="point_14">
+              <heading>
+                <authorialNote placement="side">
+                  <p>תשלום בעד שירותי בריאות</p>
+                </authorialNote>
+              </heading>
+              <num>14.</num>
+              <list>
+                <point eId="point_14__point_א">
+                  <num>(א)</num>
+                  <list>
+                    <intro>
+                      <p>קופת חולים תשלם בעבור שירותים שרכשה בבית חולים ציבורי כללי בכל אחת מהשנים 2002 עד 2004 –</p>
+                    </intro>
+                    <point eId="point_14__point_א__point_1">
+                      <num>(1)</num>
+                      <content>
+                        <p>עד לתקרת הצריכה הפרטנית במחיר מלא – לא יותר ממחירי שירותי הבריאות;</p>
+                      </content>
+                    </point>
+                    <point eId="point_14__point_א__point_2">
+                      <num>(2)</num>
+                      <content>
+                        <p>מעבר לתקרת הצריכה הפרטנית במחיר מלא – לא יותר ממחצית מחירי שירותי הבריאות.</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+                <point eId="point_14__point_ב">
+                  <num>(ב)</num>
+                  <list>
+                    <intro>
+                      <p>קופת חולים תשלם בעבור שירותים שרכשה בבית חולים ציבורי כללי בכל אחת מהשנים 2005 עד 2007 –</p>
+                    </intro>
+                    <point eId="point_14__point_ב__point_1">
+                      <num>(1)</num>
+                      <content>
+                        <p>עד לתקרת הצריכה הפרטנית במחיר מלא – לא יותר ממחירי שירותי הבריאות;</p>
+                      </content>
+                    </point>
+                    <point eId="point_14__point_ב__point_2">
+                      <num>(2)</num>
+                      <content>
+                        <p>מעבר לתקרת הצריכה הפרטנית במחיר מלא ועד לביצוע במחיר קבוע בשיעור של התקרה הפרטנית במחיר מלא בתוספת 13% – לא יותר מ־30% ממחירי שירותי הבריאות;</p>
+                      </content>
+                    </point>
+                    <point eId="point_14__point_ב__point_3">
+                      <num>(3)</num>
+                      <content>
+                        <p>מעבר לביצוע במחיר קבוע בשיעור של תקרת הצריכה הפרטנית במחיר מלא בתוספת 13% – לא יותר ממחצית מחירי שירותי הבריאות.</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+                <point eId="point_14__point_ג">
+                  <num>(ג)</num>
+                  <list>
+                    <intro>
+                      <p>קופת חולים תשלם בעבור שירותים שרכשה בבית חולים ציבורי כללי בכל אחת מהשנים 2008 עד 2010 –</p>
+                    </intro>
+                    <point eId="point_14__point_ג__point_1">
+                      <num>(1)</num>
+                      <content>
+                        <p>עד לתקרת הצריכה הפרטנית במחיר מלא – לא יותר ממחירי שירותי הבריאות;</p>
+                      </content>
+                    </point>
+                    <point eId="point_14__point_ג__point_2">
+                      <num>(2)</num>
+                      <content>
+                        <p>מעבר לתקרת הצריכה הפרטנית במחיר מלא ועד לביצוע במחיר קבוע בשיעור של התקרה הפרטנית במחיר מלא בתוספת 13%, למעט בשל אשפוז שחלות לגביו הוראות פסקה (4) – לא יותר מ־30% ממחירי שירותי הבריאות;</p>
+                      </content>
+                    </point>
+                    <point eId="point_14__point_ג__point_3">
+                      <num>(3)</num>
+                      <content>
+                        <p>מעבר לביצוע במחיר קבוע בשיעור של תקרת הצריכה הפרטנית במחיר מלא בתוספת 13%, למעט בשל אשפוז שחלות לגביו הוראות פסקה (4) – לא יותר מ־65% ממחירי שירותי הבריאות;</p>
+                      </content>
+                    </point>
+                    <point eId="point_14__point_ג__point_4">
+                      <num>(4)</num>
+                      <list>
+                        <intro>
+                          <p>בשל אשפוז בבית החולים של חבר הקופה שלגביו מסר בית החולים לקופה הודעה ולפיה החבר הוא מטופל המיועד להעברה – לא יותר ממחירי שירותי הבריאות, וזאת לאחר תום 48 שעות ממועד מסירת ההודעה כאמור, ואם נמסרה ההודעה בשבת או בחג – לאחר תום 72 שעות מהמועד האמור, אלא אם כן ערערה הקופה על ההודעה שנמסרה כאמור, לפני אותו מועד, בהתאם להוראות מינהל שהוציא לעניין זה משרד הבריאות; לעניין זה, ”מטופל המיועד להעברה“ – מי שמתקיים בו אחד מאלה:</p>
+                        </intro>
+                        <point eId="point_14__point_ג__point_4__point_1">
+                          <num>(1)</num>
+                          <content>
+                            <p>הוא בהנשמה ממושכת ומאושפז בבית חולים ציבורי כללי יותר מ־30 ימים ברציפות, וניתן להעבירו מחוץ לבית חולים כללי, בהתאם להוראות מינהל שהוציא לעניין זה משרד הבריאות;</p>
+                          </content>
+                        </point>
+                        <point eId="point_14__point_ג__point_4__point_2">
+                          <num>(2)</num>
+                          <content>
+                            <p>הוא מטופל פנימי–גריאטרי.</p>
+                          </content>
+                        </point>
+                      </list>
+                    </point>
+                  </list>
+                </point>
+                <point eId="point_14__point_ד">
+                  <num>(ד)</num>
+                  <list>
+                    <intro>
+                      <p>קופת חולים תשלם בעבור שירותים שרכשה בבית חולים ציבורי כללי בכל אחת מהשנים 2011 עד 2013 –</p>
+                    </intro>
+                    <point eId="point_14__point_ד__point_1">
+                      <num>(1)</num>
+                      <list>
+                        <intro>
+                          <p>לעניין שירותים שאינם שירותים מיוחדים, למעט ימי אשפוז שחלות לגביהם הוראות פסקה (3) –</p>
+                        </intro>
+                        <point eId="point_14__point_ד__point_1__point_א">
+                          <num>(א)</num>
+                          <content>
+                            <p>עד לתקרת הצריכה הפרטנית הרגילה – לא יותר ממחירי שירותי הבריאות;</p>
+                          </content>
+                        </point>
+                        <point eId="point_14__point_ד__point_1__point_ב">
+                          <num>(ב)</num>
+                          <content>
+                            <p>מעבר לתקרת הצריכה הפרטנית הרגילה ועד לביצוע במחיר קבוע בשיעור של תקרת הצריכה הפרטנית הרגילה בתוספת 13% – לא יותר מ־45% ממחירי שירותי הבריאות;</p>
+                          </content>
+                        </point>
+                        <point eId="point_14__point_ד__point_1__point_ג">
+                          <num>(ג)</num>
+                          <content>
+                            <p>מעבר לביצוע במחיר קבוע בשיעור של תקרת הצריכה הפרטנית הרגילה בתוספת 13% – לא יותר מ־65% ממחירי שירותי הבריאות;</p>
+                          </content>
+                        </point>
+                      </list>
+                    </point>
+                    <point eId="point_14__point_ד__point_2">
+                      <num>(2)</num>
+                      <list>
+                        <intro>
+                          <p>לעניין שירותים מיוחדים, למעט ימי אשפוז שחלות לגביהם הוראות פסקה (3) –</p>
+                        </intro>
+                        <point eId="point_14__point_ד__point_2__point_א">
+                          <num>(א)</num>
+                          <content>
+                            <p>עד לתקרת הצריכה הפרטנית המיוחדת – לא יותר ממחירי שירותי הבריאות;</p>
+                          </content>
+                        </point>
+                        <point eId="point_14__point_ד__point_2__point_ב">
+                          <num>(ב)</num>
+                          <content>
+                            <p>מעבר לתקרת הצריכה הפרטנית המיוחדת – לא יותר מ־20% ממחירי שירותי הבריאות;</p>
+                          </content>
+                        </point>
+                      </list>
+                    </point>
+                    <point eId="point_14__point_ד__point_3">
+                      <num>(3)</num>
+                      <list>
+                        <intro>
+                          <p>לעניין ימי אשפוז בבית החולים, של חבר קופת חולים שבית החולים מסר לגביו הודעה לקופה ולפיה הוא מטופל המיועד להעברה – את מחירי שירותי הבריאות בעד הימים שלאחר תום 72 שעות ממועד מסירת ההודעה, ואם נמסרה ההודעה בשבת או בחג – בעד הימים שלאחר תום 96 שעות מהמועד האמור, אלא אם כן ערערה הקופה על ההודעה שנמסרה כאמור, לפני אותו מועד, בהתאם להוראות מינהל; לעניין זה –</p>
+                        </intro>
+                        <point eId="point_14__point_ד__point_3__point_הוראות_מינהל">
+                          <content>
+                            <p>
+                              <def />”הוראות מינהל“ – הוראות מינהל שקבע המנהל הכללי של משרד הבריאות או מי שהוא הסמיך לעניין זה;</p>
+                          </content>
+                        </point>
+                        <point eId="point_14__point_ד__point_3__point_מטופל_המיועד_להעברה">
+                          <list>
+                            <intro>
+                              <p>
+                                <def />”מטופל המיועד להעברה“ – מי שנקבע לגביו כי ניתן להעבירו מחוץ לבית חולים ציבורי כללי, בהתאם להוראות מינהל ובהתחשב בצורך בשמירת הרצף הטיפולי, בלי לגרוע מהוראות <ref href="/akn/il/act/PrimaryLegislation/1994-06-26/157723">חוק ביטוח בריאות ממלכתי</ref>, לרבות הוראות <ref href="/akn/il/act/PrimaryLegislation/1994-06-26/157723#point_3">סעיף 3(ד) לחוק האמור</ref>, ומתקיים בו אחד מאלה:</p>
+                            </intro>
+                            <point eId="point_14__point_ד__point_3__point_מטופל_המיועד_להעברה__point_1">
+                              <num>(1)</num>
+                              <content>
+                                <p>הוא בהנשמה ממושכת ומאושפז בבית חולים ציבורי כללי יותר מ־30 ימים ברציפות;</p>
+                              </content>
+                            </point>
+                            <point eId="point_14__point_ד__point_3__point_מטופל_המיועד_להעברה__point_2">
+                              <num>(2)</num>
+                              <content>
+                                <p>הוא מאושפז בבית חולים ציבורי כללי ומוגדר כחולה סיעודי מורכב או כחולה שיקומי גריאטרי, בהתאם להוראות מינהל.</p>
+                              </content>
+                            </point>
+                          </list>
+                        </point>
+                      </list>
+                    </point>
+                  </list>
+                </point>
+                <point eId="point_14__point_ה">
+                  <num>(ה)</num>
+                  <content>
+                    <p>רכשה קופת חולים בשנת 2011 מבית חולים ציבורי כללי שירותים כאמור בסעיף קטן (ד)(1) ו־(2) בסכום כולל הנמוך מתקרת הצריכה הפרטנית במחיר מלא, לא יחולו ההוראות האמורות, וקופת החולים תשלם בעבור השירותים האמורים שרכשה מחיר שלא יעלה על מחירי שירותי הבריאות; השרים רשאים לקבוע בצו, לכל אחת מהשנים 2012 ו־2013, עד יום 1 במרס של כל אחת מהשנים האמורות, כי הוראות סעיף קטן זה יחולו לגבי אותה שנה.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_14א">
+              <heading>
+                <authorialNote placement="side">
+                  <p>תשלום בשל הפרש מחירים</p>
+                </authorialNote>
+              </heading>
+              <num>14א.</num>
+              <content>
+                <p>השרים רשאים לקבוע, בצו, עד יום כ"ד באדר א׳ התשס"ח (1 במרס 2008), לשנת 2008, סכום שייווסף לביצוע במחיר קבוע של קופת חולים בכל בית חולים ציבורי כללי בשנה האמורה, השווה לסכום המכפלות של כל שירות ושירות מהמנויים בפסקאות (1) עד (4) להגדרה ”שירות מוחרג“ <ref href="#point_12ג">שבסעיף 12ג(א)</ref>, שצרכה אותה קופה באותו בית חולים בשנת 2007, בהפרש המחירים של כל שירות כאמור; לעניין זה, ”הפרש המחירים“ – ההפרש שבין מחיר של כל שירות מהשירותים המנויים בפסקאות (1) עד (4) להגדרה ”שירות מוחרג“ <ref href="#point_12ג">שבסעיף 12ג(א)</ref>, ביום י"א בטבת התשס"ז (1 בינואר 2007), לבין מחירו המופחת של אותו שירות ביום כ"ה בשבט התשס"ח (1 בפברואר 2008).</p>
+              </content>
+            </point>
+            <point eId="point_14ב">
+              <heading>
+                <authorialNote placement="side">
+                  <p>תשלום הפרשים בשל צריכה בהיקף נמוך בשנים 2008 עד 2010</p>
+                </authorialNote>
+              </heading>
+              <num>14ב.</num>
+              <content>
+                <p>השרים, באישור ועדת הכספים של הכנסת, רשאים לקבוע, בצו, לכל אחת מהשנים 2008 עד 2010, עד 1 במרס של כל אחת מהשנים האמורות, שיעור מתוך הפרש התשלום, שאותו תשלם קופת חולים לבית חולים ציבורי כללי, אם סך התשלומים בעבור שירותי בריאות שרכשה קופת החולים בבית החולים באותה שנה נמוך מסכום השווה למכפלת תקרת הצריכה הפרטנית במחיר מלא של קופת החולים באותו בית חולים, בשנה שלגביה נקבע הצו, בשיעור שקבעו השרים בצו האמור (בסעיף זה – סכום הבסיס); לעניין זה, ”הפרש התשלום“ – ההפרש שבין סך התשלום בעד שירותי בריאות שצרכה קופת החולים בבית החולים בשנה שלגביה נקבע הצו, לבין סכום הבסיס.</p>
+              </content>
+            </point>
+            <point eId="point_14ג">
+              <heading>
+                <authorialNote placement="side">
+                  <p>תשלום הפרשים בשל צריכה בהיקף נמוך בשנים 2011 עד 2013</p>
+                </authorialNote>
+              </heading>
+              <num>14ג.</num>
+              <list>
+                <point eId="point_14ג__point_א">
+                  <num>(א)</num>
+                  <list>
+                    <intro>
+                      <p>בסעיף זה –</p>
+                    </intro>
+                    <point eId="point_14ג__point_א__point_סכום_הבסיס">
+                      <list>
+                        <intro>
+                          <p>
+                            <def />”סכום הבסיס“, לשנה מסוימת – הנמוך מבין שני אלה:</p>
+                        </intro>
+                        <point eId="point_14ג__point_א__point_סכום_הבסיס__point_1">
+                          <num>(1)</num>
+                          <content>
+                            <p>תקרת הצריכה הפרטנית במחיר מלא של קופת החולים באותו בית חולים בשנה המסוימת;</p>
+                          </content>
+                        </point>
+                        <point eId="point_14ג__point_א__point_סכום_הבסיס__point_2">
+                          <num>(2)</num>
+                          <content>
+                            <p>סך החשבונות שהגיש בית החולים הציבורי הכללי לקופת החולים בשל שירותים שהוראות <ref href="#chp_ה_sec_ב">סימן זה</ref> חלות עליהם, שרכשה קופת החולים בבית החולים בשנה שקדמה לשנה המסוימת, כשהוא מוכפל בשיעור הקפיטציה של קופת החולים בשנה המסוימת ומחולק בשיעור הקפיטציה של קופת החולים בשנה שקדמה לשנה המסוימת.</p>
+                          </content>
+                        </point>
+                      </list>
+                    </point>
+                  </list>
+                </point>
+                <point eId="point_14ג__point_ב">
+                  <num>(ב)</num>
+                  <content>
+                    <p>השרים רשאים לקבוע בצו, לכל אחת מהשנים 2011 עד 2013, שיעור מתוך ההפרש החיובי, אם ישנו, בין מכפלה של סכום הבסיס בשיעור שקבעו השרים בצו לבין סך התשלומים בעבור שירותי בריאות שרכשה קופת חולים בבית חולים ציבורי כללי באותה שנה, שאותו תשלם קופת החולים לבית החולים בהתקיים התנאים שקבעו השרים בצו.</p>
+                  </content>
+                </point>
+                <point eId="point_14ג__point_ג">
+                  <num>(ג)</num>
+                  <content>
+                    <p>לא קבעו השרים הוראות כאמור בסעיף קטן (ב) לגבי שנה מהשנים האמורות באותו סעיף קטן, תשלם קופת חולים לבית חולים ציבורי כללי, באותה שנה, את ההפרש החיובי, אם ישנו, בין 95% מסכום הבסיס לבין סך התשלומים בעבור שירותי בריאות שרכשה קופת החולים בבית החולים בשנה האמורה, ובלבד שבית החולים הסכים לספק לקופה, באותה שנה, שירותים בהיקף ובזמינות דומים לאלה שסיפק בשנה שקדמה לה ומתקיימים תנאים נוספים שקבעו השרים לעניין זה, אם קבעו.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_15">
+              <heading>
+                <authorialNote placement="side">
+                  <p>התחשבנות בין בית חולים לבין תאגידי בריאות</p>
+                </authorialNote>
+              </heading>
+              <num>15.</num>
+              <list>
+                <intro>
+                  <p>בבית חולים ציבורי כללי שבו פועלים תאגידי בריאות, לא יפחת היקף החשבונות שבעדם משולם סכום מופחת כאמור <ref href="#point_14">בסעיף 14(א)(2), (ב)(2) או (3), (ג)(2) או (3), או (ד)(1)(ב) או (ג) או (2)(ב)</ref>, לפי הענין שייוחס לתאגידי הבריאות מסכום כמפורט להלן, לפי העניין:</p>
+                </intro>
+                <point eId="point_15__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>בשנים 2002 עד 2007 – מסכום השווה ל־45% מכלל החשבונות שבעדם משולם סכום מופחת כאמור;</p>
+                  </content>
+                </point>
+                <point eId="point_15__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>בשנים 2008 עד 2013 – מסכום השווה ל־48.67% מכלל החשבונות שבעדם משולם סכום מופחת כאמור; השרים רשאים לקבוע, בצו, ביחס לבית חולים ולתאגיד בריאות הפועל בתחומו, לכל אחת מהשנים 2009 עד 2013, שיעור אחר מכלל החשבונות שבעדם משולם סכום מופחת כאמור, לאחר שמיעת עמדת בית החולים והתאגיד.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_16">
+              <heading>
+                <authorialNote placement="side">
+                  <p>הסכמים בין קופת חולים לבית חולים בדבר שיטת ההתחשבנות ביניהם</p>
+                </authorialNote>
+              </heading>
+              <num>16.</num>
+              <list>
+                <point eId="point_16__point_א">
+                  <num>(א)</num>
+                  <list>
+                    <intro>
+                      <p>על אף הוראות <ref href="#chp_ה_sec_ב">סימן זה</ref>, רשאים כל בית חולים ציבורי כללי וכל קופת חולים לקבוע בהסכם בכתב ביניהם הסדר אחר להתחשבנות בעד רכישת שירותים בבית החולים, ובלבד שההסדר ימלא אחר התנאים האלה:</p>
+                    </intro>
+                    <point eId="point_16__point_א__point_1">
+                      <num>(1)</num>
+                      <content>
+                        <p>בית החולים וקופת החולים יתחייבו בהסכם כי בבית החולים יינתנו לחברי הקופה שירותים ברמה נאותה ובאיכות וזמינות כמתחייב מהוראות <ref href="/akn/il/act/PrimaryLegislation/1994-06-26/157723">חוק ביטוח בריאות ממלכתי</ref>;</p>
+                      </content>
+                    </point>
+                    <point eId="point_16__point_א__point_2">
+                      <num>(2)</num>
+                      <content>
+                        <p>ההסכם יקבע כי אם יחול שינוי בסך היקף צריכת השירותים של קופת החולים בבית החולים, בכל שנה משנות ההסדר לעומת השנה שקדמה לה, מעבר לשינוי במספר המבוטחים המשוקלל של הקופה, בשיעור העולה על 6%, תהיה שיטת ההתחשבנות ביניהם לפי הוראות <ref href="#chp_ה_sec_ב">סימן זה</ref>;</p>
+                      </content>
+                    </point>
+                    <point eId="point_16__point_א__point_3">
+                      <num>(3)</num>
+                      <content>
+                        <p>ההסכם יכלול מנגנון לבירור חילוקי דעות בין הצדדים לו ביחס להתחשבנות ביניהם;</p>
+                      </content>
+                    </point>
+                    <point eId="point_16__point_א__point_4">
+                      <num>(4)</num>
+                      <content>
+                        <p>תקופת ההסכם לא תעלה על שלוש שנים או עד לתום התקופה שבה יחולו הוראות <ref href="#chp_ה_sec_ב">סימן זה</ref> כאמור <ref href="#point_39">בסעיף 39</ref>, לפי המוקדם;</p>
+                      </content>
+                    </point>
+                    <point eId="point_16__point_א__point_5">
+                      <num>(5)</num>
+                      <content>
+                        <p>ההסדר המוצע לא ייצור הפליה מצד בית החולים בין חברים שונים בקופת החולים שעמה נחתם ההסכם או בינם לבין חברים בקופת חולים אחרת;</p>
+                      </content>
+                    </point>
+                    <point eId="point_16__point_א__point_6">
+                      <num>(6)</num>
+                      <content>
+                        <p>בהסדר המוצע ייכללו הוראות <ref href="#point_14">סעיף 14(ד)(3)</ref> וההסדר לא יתנה עליהן.</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+                <point eId="point_16__point_ב">
+                  <num>(ב)</num>
+                  <content>
+                    <p>הגיעו בית חולים וקופת חולים להסדר על שיטת ההתחשבנות ביניהם, יעבירו הצדדים העתק מההסכם שנחתם לענין זה לשרים; סבר אחד השרים כי ההסכם אינו עומד בהוראות סעיף קטן (א) יודיע על כך לצדדים להסכם ולשר האחר, בתוך 60 ימים מיום שההסכם הועבר לידיו.</p>
+                  </content>
+                </point>
+                <point eId="point_16__point_ג">
+                  <num>(ג)</num>
+                  <content>
+                    <p>שר הבריאות רשאי, בהתייעצות עם שר האוצר ולאחר ששמע את הצדדים להסכם, לבטל אותו מנימוקים שיירשמו ושיימסרו לצדדים, אם ראה שהדבר נחוץ לשם שמירה על בריאות הציבור.</p>
+                  </content>
+                </point>
+                <point eId="point_16__point_ד">
+                  <num>(ד)</num>
+                  <content>
+                    <p>השרים רשאים לקבוע בצו הוראות לענין מדידת הצריכה בפועל של קופת חולים בבית חולים ציבורי כללי שבו אושר הסכם בין הקופה לבית החולים לפי סעיף זה, ובכלל זה רשאים הם לקבוע כי יראו את הצריכה כאילו נעשתה במחירים הנמוכים ממחירי שירותי הבריאות.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_17">
+              <heading>
+                <authorialNote placement="side">
+                  <p>תחולה על שירותי בריאות</p>
+                </authorialNote>
+              </heading>
+              <num>17.</num>
+              <list>
+                <point eId="point_17__point_א">
+                  <num>(א)</num>
+                  <list>
+                    <intro>
+                      <p>הוראות <ref href="#chp_ה_sec_ב">סימן זה</ref> לא יחולו על –</p>
+                    </intro>
+                    <point eId="point_17__point_א__point_1">
+                      <num>(1)</num>
+                      <content>
+                        <p>שירות הכלול בפוליסה לפי <ref href="/akn/il/act/PrimaryLegislation/1975-08-08/148291">פקודת ביטוח רכב מנועי [נוסח חדש], התש"ל–1970</ref>, הניתן לנפגע כהגדרתו <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/חוק_הפיצויים_לנפגעי_תאונות_דרכים">בחוק הפיצויים לנפגעי תאונות דרכים, התשל"ה–1975</ref>;</p>
+                      </content>
+                    </point>
+                    <point eId="point_17__point_א__point_2">
+                      <num>(2)</num>
+                      <content>
+                        <p>שירות הניתן לנפגע, כהגדרתו <ref href="/akn/il/act/PrimaryLegislation/1970-07-30/148919">בחוק התגמולים לנפגעי פעולות איבה, התש"ל–1970</ref>;</p>
+                      </content>
+                    </point>
+                    <point eId="point_17__point_א__point_3">
+                      <num>(3)</num>
+                      <content>
+                        <p>שירות הניתן לקטין שאינו תושב, לפי הסכם בין המדינה לבין קופת חולים או לפי כל הסדר משפטי אחר; לענין זה<wikicomment font-size="x-small">,</wikicomment> ”תושב“ – כהגדרתו <ref href="/akn/il/act/PrimaryLegislation/1994-06-26/157723">בחוק ביטוח בריאות ממלכתי</ref>;</p>
+                      </content>
+                    </point>
+                    <point eId="point_17__point_א__point_4">
+                      <num>(4)</num>
+                      <content>
+                        <p>שירות הניתן לעובד זר, כמשמעותו <ref href="/akn/il/act/PrimaryLegislation/1991-03-21/174403">בחוק עובדים זרים (העסקה שלא כדין והבטחת תנאים הוגנים), התשנ"א–1991</ref>, הכלול במסגרת סל השירותים שקבע שר הבריאות לפי <ref href="/akn/il/act/PrimaryLegislation/1991-03-21/174403">החוק האמור</ref>, אך למעט שירות הניתן לעובד זר השוהה בישראל לפי אשרה ורישיון לישיבת ארעי (א–1), כאמור <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/תקנות_הכניסה_לישראל#point_6">בתקנה 6(א) לתקנות הכניסה לישראל, התשל"ג–1974</ref>;</p>
+                      </content>
+                    </point>
+                    <point eId="point_17__point_א__point_5">
+                      <num>(5)</num>
+                      <content>
+                        <p>
+                          <wikicomment font-size="x-small">(נמחקה);</wikicomment>
+                        </p>
+                      </content>
+                    </point>
+                    <point eId="point_17__point_א__point_6">
+                      <num>(6)</num>
+                      <content>
+                        <p>
+                          <wikicomment font-size="x-small">(נמחקה);</wikicomment>
+                        </p>
+                      </content>
+                    </point>
+                    <point eId="point_17__point_א__point_7">
+                      <num>(7)</num>
+                      <content>
+                        <p>שירות אמבולטורי שהוצא מתחולתו של <ref href="#chp_ה_sec_ב">סימן זה</ref> בשנים 2008 עד 2010 לפי <ref href="#point_12ג">סעיף 12ג</ref>;</p>
+                      </content>
+                    </point>
+                    <point eId="point_17__point_א__point_7א">
+                      <num>(7א)</num>
+                      <content>
+                        <p>שירות הניתן לחייל לפי הסכם בין קופת חולים לבין צבא הגנה לישראל; לעניין זה, ”חייל“ – כהגדרתו <ref href="/akn/il/act/PrimaryLegislation/1955-07-20/148698">בחוק השיפוט הצבאי, התשט"ו–1955</ref>, למעט חייל בשירות חובה בתקופת שירות בלא תשלום, כמשמעותו <ref href="/akn/il/act/PrimaryLegislation/1994-06-26/157723#point_55">בסעיף 55 לחוק ביטוח בריאות ממלכתי</ref>;</p>
+                      </content>
+                    </point>
+                    <point eId="point_17__point_א__point_8">
+                      <num>(8)</num>
+                      <content>
+                        <p>שירות נוסף שקבעו השרים בצו בשנים 2008 עד 2013; צו כאמור ייקבע לא יאוחר מיום 1 במרס בשנה שבה חל יום תחילתו.</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+                <point eId="point_17__point_ב">
+                  <num>(ב)</num>
+                  <content>
+                    <p>הוראות <ref href="#chp_ה_sec_ב">סימן זה</ref> יחולו ביחס לשירותים שרכשה קופת חולים בבית חולים ציבורי כללי עד כ"ח בטבת התשע"ד (31 בדצמבר 2013).</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+          </list>
+        </section>
+      </chapter>
+      <chapter eId="chp_ו">
+        <num>פרק ו׳:</num>
+        <title>
+          <content>
+            <p>תכנון ובניה</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_18">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>18.</num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryLegislation/1965-08-12/148917">בחוק התכנון והבניה, התשכ"ה–1965</ref>.</wikicomment>
+              </p>
+            </content>
+          </point>
+          <point eId="point_19">
+            <heading>
+              <authorialNote placement="side">
+                <p>הוראת מעבר</p>
+              </authorialNote>
+            </heading>
+            <num>19.</num>
+            <content>
+              <p>הוראות <ref href="#chp_ו">פרק זה</ref> לא יחולו על תשתיות לאומיות שהוחלט להפקיד תכנית לגביהן או להעביר תכנית לגביהן להערות הועדות המחוזיות, לפני תחילתו של חוק זה.</p>
+            </content>
+          </point>
+          <point eId="point_20">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>20.</num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryLegislation/2008-02-18/262875">בחוק מיסוי מקרקעין (שבח, מכירה ורכישה), התשכ"ג–1963</ref>.</wikicomment>
+              </p>
+            </content>
+          </point>
+          <point eId="point_21">
+            <heading>
+              <authorialNote placement="side">
+                <p>תחילה</p>
+              </authorialNote>
+            </heading>
+            <num>21.</num>
+            <content>
+              <p>הוראות <ref href="/akn/il/act/PrimaryLegislation/2008-02-18/262875#point_29">סעיפים 29</ref>, <ref href="/akn/il/act/PrimaryLegislation/2008-02-18/262875#point_29א">29א</ref>, <ref href="/akn/il/act/PrimaryLegislation/2008-02-18/262875#point_37">37</ref>, <ref href="/akn/il/act/PrimaryLegislation/2008-02-18/262875#point_65">65</ref><ref href="/akn/il/act/PrimaryLegislation/2008-02-18/262875#point_67">ו־67 לחוק מיסוי מקרקעין (שבח, מכירה ורכישה), התשכ"ג–1963</ref>, כנוסחן <ref href="#point_20">בסעיף 20 לחוק זה</ref> יחולו על עסקאות שנערכו לאחר יום תחילתו של חוק זה.</p>
+            </content>
+          </point>
+        </list>
+      </chapter>
+      <chapter eId="chp_ז">
+        <num>פרק ז׳:</num>
+        <title>
+          <content>
+            <p>מימון הגנות חוף בים המלח</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_22">
+            <heading>
+              <authorialNote placement="side">
+                <p>השתתפות בהוצאות מימון הגנות חוף בים המלח</p>
+              </authorialNote>
+            </heading>
+            <num>22.</num>
+            <list>
+              <point eId="point_22__point_א">
+                <num>(א)</num>
+                <list>
+                  <intro>
+                    <p>בסעיף זה –</p>
+                  </intro>
+                  <point eId="point_22__point_א__point_האזור">
+                    <content>
+                      <p>
+                        <def />”האזור“ – מתחם עין בוקק – חמי זוהר;</p>
+                    </content>
+                  </point>
+                  <point eId="point_22__point_א__point_הקמה_ותחזוקה_של_הגנות_חוף">
+                    <content>
+                      <p>
+                        <def />”הקמה ותחזוקה של הגנות חוף“ – תכנון וביצוע של מיזם להקמת הגנות חוף מפני עליית מפלס המים באזור ותחזוקה של הגנות כאמור, בין כפתרון קצר טווח ובין כפתרון ארוך טווח;</p>
+                    </content>
+                  </point>
+                  <point eId="point_22__point_א__point_שלב_א/2">
+                    <list>
+                      <intro>
+                        <p>
+                          <def />”שלב א/2“ – כל אחד מאלה:</p>
+                      </intro>
+                      <point eId="point_22__point_א__point_שלב_א/2__point_1">
+                        <num>(1)</num>
+                        <content>
+                          <p>תכנון וביצוע של פעולות להגבהת הסוללה להגנת החוף הקיימת, ערב תחילתו של חוק זה, בחוף עין בוקק, ותחזוקת הסוללה;</p>
+                        </content>
+                      </point>
+                      <point eId="point_22__point_א__point_שלב_א/2__point_2">
+                        <num>(2)</num>
+                        <content>
+                          <p>תכנון וביצוע של פעולות להקמתה של הגנת חוף שלא היתה קיימת ביום כ׳ בטבת התשס"ה (1 בינואר 2005) במתחם בתי המלון בחמי זוהר, שנועדה להיות פתרון קצר טווח מפני עליית מפלס המים במתחם האמור, ותחזוקת ההגנה האמורה;</p>
+                        </content>
+                      </point>
+                    </list>
+                  </point>
+                  <point eId="point_22__point_א__point_בית_מלון">
+                    <content>
+                      <p>
+                        <def />”בית מלון“ – כהגדרתו <ref href="/akn/il/act/PrimaryLegislation/1976-07-07/148753">בחוק שירותי תיירות, התשל"ו–1976</ref>.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_22__point_ב">
+                <num>(ב)</num>
+                <list>
+                  <intro>
+                    <p>מימון עלותו של שלב א/2 יתחלק באופן זה:</p>
+                  </intro>
+                  <point eId="point_22__point_ב__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>אוצר המדינה יישא במחצית מהעלות;</p>
+                    </content>
+                  </point>
+                  <point eId="point_22__point_ב__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>המועצה האזורית ”תמר“ תישא בשישית מהעלות;</p>
+                    </content>
+                  </point>
+                  <point eId="point_22__point_ב__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>בתי המלון באזור יישאו בשישית מהעלות;</p>
+                    </content>
+                  </point>
+                  <point eId="point_22__point_ב__point_4">
+                    <num>(4)</num>
+                    <content>
+                      <p>חברת מפעלי ים המלח בע"מ תישא בשישית מהעלות.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_22__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>לאחר תום התכנון והביצוע שבמסגרת שלב א/2, יישאו הגופים המפורטים בסעיף קטן (ב) בעלות ההקמה והתחזוקה של הגנות חוף נוספות, כפי שיקבע שר האוצר, בהתייעצות עם שר התיירות ושר הפנים, ועל פי חלוקה שיקבע כאמור.</p>
+                </content>
+              </point>
+              <point eId="point_22__point_ד">
+                <num>(ד)</num>
+                <content>
+                  <p>חלקם של הגופים המפורטים בסעיף קטן (ב)(2) עד (4) במימון עלותו של שלב א/2 ובמימון עלות ההקמה והתחזוקה של הגנות חוף נוספות, לפי הוראות סעיף זה, ייגבה בדרך שגובים מס, <ref href="/akn/il/act/PrimaryLegislation/1933-12-31/2001803">ופקודת המסים (גביה)</ref> תחול כאילו היו סכומים אלה מס כמשמעותו <ref href="/akn/il/act/PrimaryLegislation/1933-12-31/2001803">באותה פקודה</ref>.</p>
+                </content>
+              </point>
+              <point eId="point_22__point_ה">
+                <num>(ה)</num>
+                <list>
+                  <intro>
+                    <p>שר האוצר, בהתייעצות עם שר התיירות ועם שר הפנים, יקבע כללים לענין –</p>
+                  </intro>
+                  <point eId="point_22__point_ה__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>אופן קביעת העלות של שלב א/2;</p>
+                    </content>
+                  </point>
+                  <point eId="point_22__point_ה__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>אופן חישוב חלקו היחסי של כל בית מלון באזור, במימון עלותו של שלב א/2;</p>
+                    </content>
+                  </point>
+                  <point eId="point_22__point_ה__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>הדרכים והמועדים לתשלום חלקם של הגופים המפורטים בסעיף קטן (ב) במימון עלותו של שלב א/2 ובמימון עלות ההקמה והתחזוקה של הגנות חוף נוספות לפי הוראות סעיף זה.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+            </list>
+          </point>
+        </list>
+      </chapter>
+      <chapter eId="chp_ח">
+        <num>פרק ח׳:</num>
+        <title>
+          <content>
+            <p>אגרות, תמלוגים ותשלומים</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_23">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>23.</num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryLegislation/2019-01-10/2068499">בחוק ההגבלים העסקיים, התשמ"ח–1988</ref>.</wikicomment>
+              </p>
+            </content>
+          </point>
+          <point eId="point_24">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>24.</num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryLegislation/1997-04-13/162291">בחוק הרשות הלאומית להסמכת מעבדות, התשנ"ז–1997</ref>.</wikicomment>
+              </p>
+            </content>
+          </point>
+          <point eId="point_25">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>25.</num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/חוק_רשות_הנמלים_והרכבות">בחוק רשות הנמלים והרכבות, התשכ"א–1961</ref>.</wikicomment>
+              </p>
+            </content>
+          </point>
+          <point eId="point_26">
+            <heading>
+              <authorialNote placement="side">
+                <p>תחילה</p>
+              </authorialNote>
+            </heading>
+            <num>26.</num>
+            <list>
+              <point eId="point_26__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>תחילתם של <ref href="/akn/il/act/PrimaryLegislation/2019-01-10/2068499#point_14">סעיפים 14(ה)</ref><ref href="/akn/il/act/PrimaryLegislation/2019-01-10/2068499#point_20">ו־20(ד) בחוק ההגבלים העסקיים</ref>, כנוסחם <ref href="#point_23">בסעיף 23 לחוק זה</ref>, ביום י"ז באדר תשס"ב (1 במרס 2002).</p>
+                </content>
+              </point>
+              <point eId="point_26__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>תחילתו של <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/חוק_רשות_הנמלים_והרכבות#point_35א">סעיף 35א(ב) בחוק רשות הנמלים והרכבות</ref>, כנוסחו <ref href="#point_25">בסעיף 25 לחוק זה</ref>, ביום כ"ז בטבת תשס"ג (1 בינואר 2003).</p>
+                </content>
+              </point>
+            </list>
+          </point>
+        </list>
+      </chapter>
+      <chapter eId="chp_ט">
+        <num>פרק ט׳:</num>
+        <title>
+          <content>
+            <p>מס הכנסה</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_27">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>27.</num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_מס_הכנסה">בפקודת מס הכנסה</ref>.</wikicomment>
+              </p>
+            </content>
+          </point>
+        </list>
+      </chapter>
+      <chapter eId="chp_י">
+        <num>פרק י׳:</num>
+        <title>
+          <content>
+            <p>התליית חקיקה</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_28">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>28.</num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">(בוטל).</wikicomment>
+              </p>
+            </content>
+          </point>
+          <point eId="point_29">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>29.</num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryLegislation/2000-11-26/171109">בחוק השאלת ספרי לימוד, התשס"א–2000</ref>.</wikicomment>
+              </p>
+            </content>
+          </point>
+          <point eId="point_30">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>30.</num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryLegislation/2001-01-11/169980">בחוק חינוך חינם לילדים חולים, התשס"א–2001</ref>.</wikicomment>
+              </p>
+            </content>
+          </point>
+          <point eId="point_31">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>31.</num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryLegislation/1994-06-26/157723">בחוק ביטוח בריאות ממלכתי (תיקון מס׳ 12), התשס"א–2001</ref>.</wikicomment>
+              </p>
+            </content>
+          </point>
+          <point eId="point_32">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>32.</num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryLegislation/2001-04-04/170347">בחוק ההסדרים במשק המדינה (תיקוני חקיקה להשגת יעדי התקציב לשנת 2001) (תיקון, ביטול והתליה של חקיקה שמקורה בהצעות חוק פרטיות), התשס"א–2001</ref>.</wikicomment>
+              </p>
+            </content>
+          </point>
+          <point eId="point_33">
+            <heading>
+              <authorialNote placement="side">
+                <p>חוק הלוואות לדיור – הוראת מעבר</p>
+              </authorialNote>
+            </heading>
+            <num>33.</num>
+            <content>
+              <p>שר הבינוי והשיכון יקבע תנאים לזכאות לתשלום המענק לפי <ref href="/akn/il/act/PrimaryLegislation/1992-07-09/2002165#point_6ג">סעיף 6ג לחוק הלוואות לדיור, התשנ"ב–1992</ref>, לגבי התקופה שמיום י"ז בטבת התשס"ב (1 בינואר 2002) ועד ליום פרסומו של חוק זה.</p>
+            </content>
+          </point>
+          <point eId="point_34">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>34.</num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryLegislation/2001-04-04/170346">בחוק ההסדרים במשק המדינה (תיקוני חקיקה להשגת יעדי התקציב והמדיניות הכלכלית לשנת הכספים 2001), התשס"א–2001</ref>.</wikicomment>
+              </p>
+            </content>
+          </point>
+          <point eId="point_35">
+            <heading>
+              <authorialNote placement="side">
+                <p>חוק הדיור הציבורי – אי תחולה</p>
+              </authorialNote>
+            </heading>
+            <num>35.</num>
+            <content>
+              <p>לא יהיה אדם זכאי להטבות על פי <ref href="/akn/il/act/PrimaryLegislation/1998-10-29/164457">חוק הדיור הציבורי (זכויות רכישה), התשנ"ט–1998</ref>, בתקופה שמיום י"ז בטבת התשס"ב (1 בינואר 2002) עד יום פרסומו של חוק זה.</p>
+            </content>
+          </point>
+        </list>
+      </chapter>
+      <chapter eId="chp_יא">
+        <num>פרק י"א:</num>
+        <title>
+          <content>
+            <p>הוראות שעה לשנים 2002 עד 2005</p>
+          </content>
+        </title>
+        <section eId="chp_יא__sec_א">
+          <num>סימן א׳:</num>
+          <title>
+            <content>
+              <p>הגדרות</p>
+            </content>
+          </title>
+          <list>
+            <point eId="point_36" class="definitions">
+              <heading>
+                <authorialNote placement="side">
+                  <p>הגדרות</p>
+                </authorialNote>
+              </heading>
+              <num>36.</num>
+              <list>
+                <intro>
+                  <p>
+                    <ref href="#chp_יא">בפרק זה</ref> –</p>
+                </intro>
+                <point eId="point_36__point_היום_הקובע">
+                  <content>
+                    <p>
+                      <def />”היום הקובע“ – ט"ז בטבת התשס"ב (31 בדצמבר 2001);</p>
+                  </content>
+                </point>
+                <point eId="point_36__point_התקופה_הקובעת_הראשונה">
+                  <content>
+                    <p>
+                      <def />”התקופה הקובעת הראשונה“ – התקופה שמיום י"ז באדר התשס"ב (1 במרס 2002) עד יום כ׳ בתמוז התשס"ב (30 ביוני 2002);</p>
+                  </content>
+                </point>
+                <point eId="point_36__point_התקופה_הקובעת_השניה">
+                  <content>
+                    <p>
+                      <def />”התקופה הקובעת השניה“ – התקופה שמיום כ"א בתמוז התשס"ב (1 ביולי 2002) עד יום כ"ו בטבת התשס"ג (31 בדצמבר 2002);</p>
+                  </content>
+                </point>
+                <point eId="point_36__point_התקופה_הקובעת_השלישית">
+                  <content>
+                    <p>
+                      <def />”התקופה הקובעת השלישית“ – התקופה שמיום כ"ז בטבת התשס"ג (1 בינואר 2003) עד יום א׳ בטבת התשס"ו (31 בדצמבר 2005);</p>
+                  </content>
+                </point>
+                <point eId="point_36__point_הפקודה">
+                  <content>
+                    <p>
+                      <def />”הפקודה“ – <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_מס_הכנסה">פקודת מס הכנסה</ref>;</p>
+                  </content>
+                </point>
+                <point eId="point_36__point_חוק_הביטוח_הלאומי">
+                  <content>
+                    <p>
+                      <def />”חוק הביטוח הלאומי“ – <ref href="/akn/il/act/PrimaryLegislation/1995-05-15/158093">חוק הביטוח הלאומי [נוסח משולב], התשנ"ה–1995</ref>;</p>
+                  </content>
+                </point>
+                <point eId="point_36__point_המדד">
+                  <content>
+                    <p>
+                      <def />”המדד“ – מדד המחירים לצרכן שמפרסמת הלשכה המרכזית לסטטיסטיקה.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+          </list>
+        </section>
+        <section eId="chp_יא__sec_ב">
+          <num>סימן ב׳:</num>
+          <title>
+            <content>
+              <p>ביטוח לאומי</p>
+            </content>
+          </title>
+          <list>
+            <point eId="point_37">
+              <heading>
+                <authorialNote placement="side">
+                  <p>השכר הממוצע – הוראת שעה</p>
+                </authorialNote>
+              </heading>
+              <num>37.</num>
+              <list>
+                <point eId="point_37__point_א">
+                  <num>(א)</num>
+                  <list>
+                    <intro>
+                      <p>בתקופה הקובעת הראשונה ובתקופה הקובעת השניה כאחד, על אף האמור בהגדרה ”השכר הממוצע“ <ref href="/akn/il/act/PrimaryLegislation/1995-05-15/158093#point_1">שבסעיף 1 לחוק הביטוח הלאומי</ref><ref href="/akn/il/act/PrimaryLegislation/1995-05-15/158093#point_2">ובסעיף 2 לאותו חוק</ref>, יהיה השכר הממוצע, השכר הממוצע ביום הקובע; הוראה זו לא תחול –</p>
+                    </intro>
+                    <point eId="point_37__point_א__point_1">
+                      <num>(1)</num>
+                      <content>
+                        <p>לענין גמלאות המשתלמות לפי <ref href="/akn/il/act/PrimaryLegislation/1995-05-15/158093#chp_ט">פרק ט׳ לחוק הביטוח הלאומי</ref>;</p>
+                      </content>
+                    </point>
+                    <point eId="point_37__point_א__point_2">
+                      <num>(2)</num>
+                      <content>
+                        <p>לענין מקדמות על חשבון דמי ביטוח ששולמו לפי <ref href="/akn/il/act/PrimaryLegislation/1995-05-15/158093#chp_טו">פרק ט"ו לחוק הביטוח הלאומי</ref> בתקופה שמיום י"ז בטבת התשס"ב (1 בינואר 2002) ועד יום כ"ח בניסן התשס"ב (31 במרס 2002).</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+                <point eId="point_37__point_ב">
+                  <num>(ב)</num>
+                  <list>
+                    <intro>
+                      <p>בתקופה הקובעת השלישית יחולו הוראות סעיף קטן (א), למעט האמור בפסקה (1) שבו, ואולם לענין הגמלאות המפורטות להלן, השכר הממוצע יהיה השכר הממוצע ביום י"ז בטבת התשס"ב (1 בינואר 2002):</p>
+                    </intro>
+                    <point eId="point_37__point_ב__point_1">
+                      <num>(1)</num>
+                      <content>
+                        <p>גמלאות המשתלמות לפי <ref href="/akn/il/act/PrimaryLegislation/1995-05-15/158093#chp_ט">פרק ט׳ לחוק הביטוח הלאומי</ref>;</p>
+                      </content>
+                    </point>
+                    <point eId="point_37__point_ב__point_2">
+                      <num>(2)</num>
+                      <content>
+                        <p>גמלאות שלפי הוראות <ref href="/akn/il/act/PrimaryLegislation/1995-05-15/158093">חוק הביטוח הלאומי</ref> יש לחשבן או לעדכנן לפי השכר הממוצע ב־1 בינואר של כל שנה.</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+                <point eId="point_37__point_ג">
+                  <num>(ג)</num>
+                  <list>
+                    <intro>
+                      <p>על אף הוראות סעיף קטן (ב) –</p>
+                    </intro>
+                    <point eId="point_37__point_ג__point_1">
+                      <num>(1)</num>
+                      <content>
+                        <p>עלה המדד שפורסם לאחרונה לפני ה־1 בינואר של שנת 2004 או של שנת 2005 בשיעור של יותר מ־5% ביחס למדד שפורסם לאחרונה לפני ה־1 בינואר של השנה הקודמת, יעודכן השכר הממוצע האמור בסעיפים קטנים (א) ו־(ב) בשיעור עליית המדד כאמור, בניכוי חמש נקודות האחוז;</p>
+                      </content>
+                    </point>
+                    <point eId="point_37__point_ג__point_2">
+                      <num>(2)</num>
+                      <content>
+                        <p>גמלת זקנה, שאירים או תלויים, וכן גמלה המשתלמת לפי הוראות <ref href="/akn/il/act/PrimaryLegislation/1980-12-01/147335">חוק הבטחת הכנסה, התשמ"א–1980</ref>, למי שמשתלמת לו גם גמלת זקנה, שאירים או תלויים, תעודכן ב־1 בינואר 2004 וב־1 בינואר 2005, בשיעור שבו עלה המדד שפורסם לאחרונה לפני כל אחד מן המועדים האמורים לעומת המדד שפורסם לאחרונה לפני ה־1 בינואר שקדם לאותו מועד, והוראות פסקה (1) לא יחולו לענין הגמלאות האמורות; לענין זה, ”גמלת זקנה, שאירים או תלויים“ – גמלה המשתלמת לפי הוראות <ref href="/akn/il/act/PrimaryLegislation/1995-05-15/158093#chp_ה_sec_ח">סימן ח׳ בפרק ה׳ בחוק הביטוח הלאומי</ref> או לפי הוראות <ref href="/akn/il/act/PrimaryLegislation/1995-05-15/158093#chp_יא_sec_ג">סימנים ג׳</ref><ref href="/akn/il/act/PrimaryLegislation/1995-05-15/158093#chp_יא_sec_ד">ו־ד׳ שבפרק י"א בחוק האמור</ref>.</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+              </list>
+            </point>
+            <point eId="point_38">
+              <heading>
+                <authorialNote placement="side">
+                  <p>נקודת קצבה – הוראות שעה</p>
+                </authorialNote>
+              </heading>
+              <num>38.</num>
+              <list>
+                <point eId="point_38__point_א">
+                  <num>(א)</num>
+                  <list>
+                    <intro>
+                      <p>בתקופות הקובעות כמפורט בפסקאות (1) עד (3) יחולו הוראות אלה:</p>
+                    </intro>
+                    <point eId="point_38__point_א__point_1">
+                      <num>(1)</num>
+                      <content>
+                        <p>בתקופה הקובעת הראשונה, בתקופה הקובעת השניה ובתקופה הקובעת השלישית כאחד, על אף האמור בהסכמים שנערכו לפי <ref href="/akn/il/act/PrimaryLegislation/1995-05-15/158093#point_9">סעיף 9 לחוק הביטוח הלאומי</ref>, יהיה ערך נקודת הקצבה, לענין קצבת ילדים, ערך נקודת הקצבה ביום הקובע;</p>
+                      </content>
+                    </point>
+                    <point eId="point_38__point_א__point_2">
+                      <num>(2)</num>
+                      <list>
+                        <intro>
+                          <p>
+                            <ref href="/akn/il/act/PrimaryLegislation/1995-05-15/158093#point_68">בסעיף 68(א) לחוק הביטוח הלאומי</ref> יחולו הוראות אלה:</p>
+                        </intro>
+                        <point eId="point_38__point_א__point_2__point_א">
+                          <num>(א)</num>
+                          <content>
+                            <p>בתקופה הקובעת הראשונה, בפסקה (1), במקום ”נקודת קצבה“ יבוא ”0.88 נקודות קצבה“;</p>
+                          </content>
+                        </point>
+                        <point eId="point_38__point_א__point_2__point_ב">
+                          <num>(ב)</num>
+                          <content>
+                            <p>בתקופה הקובעת הראשונה, בתקופה הקובעת השניה ובתקופה הקובעת השלישית כאחד יהיה ערך נקודת הקצבה לענין קצבת הילדים, על אף הוראות <ref href="/akn/il/act/PrimaryLegislation/1995-05-15/158093#point_68">הסעיף האמור</ref>, ערך נקודות הקצבה ביום הקובע;</p>
+                          </content>
+                        </point>
+                      </list>
+                    </point>
+                    <point eId="point_38__point_א__point_3">
+                      <num>(3)</num>
+                      <list>
+                        <intro>
+                          <p>בתקופה הקובעת הראשונה, בלוח ד׳, בטור ”1997 ואילך“ יחולו הוראות אלה:</p>
+                        </intro>
+                        <point eId="point_38__point_א__point_3__point_א">
+                          <num>(א)</num>
+                          <content>
+                            <p>בשורה הראשונה, במקום ”2.00“ יבוא ”1.76“;</p>
+                          </content>
+                        </point>
+                        <point eId="point_38__point_א__point_3__point_ב">
+                          <num>(ב)</num>
+                          <content>
+                            <p>בשורה השניה, במקום ”4.05“ יבוא ”3.56“;</p>
+                          </content>
+                        </point>
+                        <point eId="point_38__point_א__point_3__point_ג">
+                          <num>(ג)</num>
+                          <content>
+                            <p>בשורה השלישית, במקום ”5.00“ יבוא ”4.40“;</p>
+                          </content>
+                        </point>
+                        <point eId="point_38__point_א__point_3__point_ד">
+                          <num>(ד)</num>
+                          <content>
+                            <p>בשורה הרביעית, במקום ”5.00“ יבוא ”4.40“;</p>
+                          </content>
+                        </point>
+                        <point eId="point_38__point_א__point_3__point_ה">
+                          <num>(ה)</num>
+                          <content>
+                            <p>בשורה החמישית, במקום ”5.00“ יבוא ”4.40“.</p>
+                          </content>
+                        </point>
+                      </list>
+                    </point>
+                  </list>
+                </point>
+                <point eId="point_38__point_ב">
+                  <num>(ב)</num>
+                  <content>
+                    <p>על אף הוראות סעיף קטן (א)(1) ו־(2)(ב), עלה המדד שפורסם לאחרונה לפני ה־1 בינואר של שנת 2004 או של שנת 2005 בשיעור של יותר מ־5% לעומת המדד שפורסם לאחרונה לפני ה־1 בינואר של השנה הקודמת, יעודכן ערך נקודת הקצבה, לענין קצבת ילדים המשתלמת לפי הוראות הסכמים כאמור בסעיף קטן (א)(1) או לפי הוראות <ref href="/akn/il/act/PrimaryLegislation/1995-05-15/158093#point_68">סעיף 68 בחוק הביטוח הלאומי</ref>, בשיעור עליית המדד כאמור, בניכוי חמש נקודות האחוז.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+          </list>
+        </section>
+        <section eId="chp_יא__sec_ג">
+          <num>סימן ג׳:</num>
+          <title>
+            <content>
+              <p>מס הכנסה</p>
+            </content>
+          </title>
+          <list>
+            <point eId="point_39">
+              <heading>
+                <authorialNote placement="side">
+                  <p xml:space="preserve"> </p>
+                </authorialNote>
+              </heading>
+              <num>39.</num>
+              <content>
+                <p>
+                  <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_מס_הכנסה">בפקודת מס הכנסה</ref> כהוראת שעה בשנות המס 2002 ו־2003.</wikicomment>
+                </p>
+              </content>
+            </point>
+            <point eId="point_40">
+              <heading>
+                <authorialNote placement="side">
+                  <p xml:space="preserve"> </p>
+                </authorialNote>
+              </heading>
+              <num>40.</num>
+              <content>
+                <p>
+                  <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_מס_הכנסה">בפקודת מס הכנסה</ref> כהוראת שעה בשנת המס 2002.</wikicomment>
+                </p>
+              </content>
+            </point>
+          </list>
+        </section>
+        <section eId="chp_יא__sec_ד">
+          <num>סימן ד׳:</num>
+          <title>
+            <content>
+              <p>היטל על בעלי הכנסות גבוהות</p>
+            </content>
+          </title>
+          <list>
+            <point eId="point_41">
+              <heading>
+                <authorialNote placement="side">
+                  <p>פרשנות</p>
+                </authorialNote>
+              </heading>
+              <num>41.</num>
+              <list>
+                <point eId="point_41__point_א">
+                  <num>(א)</num>
+                  <content>
+                    <p>
+                      <def />
+                      <ref href="#chp_יא_sec_ד">בסימן זה</ref> –<br space="preserve"></br>”הכנסה חייבת“ – הכנסה חייבת כהגדרתה <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_מס_הכנסה">בפקודה</ref>, לרבות השבח החייב במס, כמשמעותו <ref href="/akn/il/act/PrimaryLegislation/2008-02-18/262875">בחוק מיסוי מקרקעין (שבח, מכירה ורכישה), התשכ"ג–1963</ref>;</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>לכל מונח <ref href="#chp_יא_sec_ד">בסימן זה</ref> תהיה המשמעות שיש לו <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_מס_הכנסה">בפקודה</ref>, זולת אם יש <ref href="#chp_יא_sec_ד">בסימן זה</ref> הוראה מפורשת אחרת.</p>
+              </content>
+            </point>
+            <point eId="point_42">
+              <heading>
+                <authorialNote placement="side">
+                  <p>היטל בשנת המס 2002</p>
+                </authorialNote>
+              </heading>
+              <num>42.</num>
+              <list>
+                <intro>
+                  <p>יחיד שהתקיים בו, בשנת המס 2002, לפחות אחד מאלה, ישלם היטל בשיעור של 0.5% מהכנסתו החייבת באותה שנת מס (<ref href="#chp_יא_sec_ד">בסימן זה</ref> – ההיטל):</p>
+                </intro>
+                <point eId="point_42__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>הכנסתו החייבת עלתה בשנת המס על 500,000 שקלים חדשים;</p>
+                  </content>
+                </point>
+                <point eId="point_42__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>הכנסתו החייבת לפי <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_מס_הכנסה#point_2_1">סעיף 2(1)</ref><ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_מס_הכנסה#point_2_2">ו־(2) לפקודה</ref>, עלתה בשנת המס על 360,000 שקלים חדשים.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_43">
+              <heading>
+                <authorialNote placement="side">
+                  <p>הפחתת ההיטל</p>
+                </authorialNote>
+              </heading>
+              <num>43.</num>
+              <list>
+                <intro>
+                  <p>על אף הוראות <ref href="#point_39">סעיף 39</ref> יופחת ההיטל שבו חב יחיד כאמור <ref href="#point_39">באותו סעיף</ref>, כמפורט להלן:</p>
+                </intro>
+                <point eId="point_43__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>לגבי יחיד שהכנסתו החייבת בשנת המס 2002 לא פחתה מ־500,000 שקלים חדשים ולא עלתה על 525,000 שקלים חדשים – בסכום השווה ל־10% מההפרש שבין 525,000 שקלים חדשים לבין הכנסתו החייבת;</p>
+                  </content>
+                </point>
+                <point eId="point_43__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>לגבי יחיד שהכנסתו החייבת בשנת המס 2002 לפי <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_מס_הכנסה#point_2_1">סעיף 2(1)</ref><ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_מס_הכנסה#point_2_2">ו־(2) לפקודה</ref> לא פחתה מ־360,000 שקלים חדשים ולא עלתה על 378,000 שקלים חדשים, וסך כל הכנסתו החייבת באותה שנת מס לא עלתה על 378,000 שקלים חדשים – בסכום השווה ל־10% מההפרש שבין 378,000 שקלים חדשים לבין הכנסתו החייבת.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_44">
+              <heading>
+                <authorialNote placement="side">
+                  <p>החלת הוראות פקודת מס הכנסה</p>
+                </authorialNote>
+              </heading>
+              <num>44.</num>
+              <content>
+                <p>ההוראות לפי <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_מס_הכנסה">הפקודה</ref> יחולו, בשינויים המחויבים, על ההיטל כאילו היה מס, זולת אם נקבע אחרת לענין מסוים לפי <ref href="#chp_יא_sec_ד">סימן זה</ref>, לרבות ההוראות שענינן מקדמות, ניכוי במקור, גביה ועונשין.</p>
+              </content>
+            </point>
+            <point eId="point_45">
+              <heading>
+                <authorialNote placement="side">
+                  <p>ביצוע ותקנות</p>
+                </authorialNote>
+              </heading>
+              <num>45.</num>
+              <content>
+                <p>שר האוצר ממונה על ביצוע <ref href="#chp_יא_sec_ד">סימן זה</ref> ורשאי הוא להתקין תקנות לביצועו; בתקנות כאמור רשאי שר האוצר לקבוע, בין השאר, שיעור מקדמות העולה על השיעור הקבוע לפי <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_מס_הכנסה">הפקודה</ref>.</p>
+              </content>
+            </point>
+          </list>
+        </section>
+        <section eId="chp_יא__sec_ה">
+          <num>סימן ה׳:</num>
+          <title>
+            <content>
+              <p>העברות מיוחדות</p>
+            </content>
+          </title>
+          <list>
+            <point eId="point_46">
+              <heading>
+                <authorialNote placement="side">
+                  <p>חוק רשות הנמלים והרכבות – הוראת שעה</p>
+                </authorialNote>
+              </heading>
+              <num>46.</num>
+              <content>
+                <p>נוסף על התמלוגים לפי <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/חוק_רשות_הנמלים_והרכבות#point_35א">סעיף 35א(ב) בחוק רשות הנמלים והרכבות</ref>, תעביר רשות הנמלים והרכבות למדינה, בתוך שבוע ימים מפרסומו של חוק זה, תמלוגים נוספים של 350 מיליון שקלים חדשים.</p>
+              </content>
+            </point>
+            <point eId="point_47">
+              <heading>
+                <authorialNote placement="side">
+                  <p>חוק רשות הדואר – הוראת שעה</p>
+                </authorialNote>
+              </heading>
+              <num>47.</num>
+              <content>
+                <p>נוסף על התשלומים לפי <ref href="/akn/il/act/PrimaryLegislation/1986-01-28/151356#point_44א">סעיף 44א בחוק רשות הדואר, התשמ"ו–1986</ref> (להלן – חוק הרשות), בשנת הכספים 2002, תעביר רשות הדואר למדינה תשלום נוסף בסכום של 200 מיליון שקלים חדשים, וזאת מן הכספים הצבורים בקרנות לפי <ref href="/akn/il/act/PrimaryLegislation/1986-01-28/151356#point_42">סעיף 42 בחוק הרשות</ref>; התשלום הנוסף לפי סעיף זה יועבר למדינה בארבעה סכומים שווים: ב־1 במרס, ב־1 במאי, ב־1 באוגוסט וב־1 בנובמבר לשנת 2002, והוראות סעיפים קטנים (ד) ו־(ה) של <ref href="/akn/il/act/PrimaryLegislation/1986-01-28/151356#point_44א">סעיף 44א בחוק האמור</ref> לא יחולו עליו, ואולם אם ראה שר התקשורת כי רשות הדואר, עקב מצבה הכלכלי, אינה יכולה לעמוד בתשלום הרביעי, רשאי הוא לפטור אותה ממנו.</p>
+              </content>
+            </point>
+          </list>
+        </section>
+        <section eId="chp_יא__sec_ו">
+          <num>סימן ו׳:</num>
+          <title>
+            <content>
+              <p>עידוד השקעות הון</p>
+            </content>
+          </title>
+          <list>
+            <point eId="point_48">
+              <heading>
+                <authorialNote placement="side">
+                  <p>חוק לעידוד השקעות הון – הוראת שעה</p>
+                </authorialNote>
+              </heading>
+              <num>48.</num>
+              <list>
+                <point eId="point_48__point_א">
+                  <num>(א)</num>
+                  <content>
+                    <p>
+                      <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryLegislation/1959-09-15/148127">בחוק לעידוד השקעות הון, התשי"ט–1959</ref> כהוראת שעה לשנת 2002.</wikicomment>
+                    </p>
+                  </content>
+                </point>
+                <point eId="point_48__point_ב">
+                  <num>(ב)</num>
+                  <content>
+                    <p>סעיף זה יחול על מענקי השקעה שישולמו מיום תחילתו של חוק זה ועד ליום כ"ו בטבת התשס"ג (31 בדצמבר 2002), ובלבד שמענקי ההשקעה כאמור הם בגין תכנית שאושרה על פי בקשה לאישור תכנית שהוגשה למינהלה ביום ג׳ בתשרי התשס"ב (20 בספטמבר 2001) או לאחריו, והתכנית לא אושרה לפני יום תחילתו של חוק זה.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+          </list>
+        </section>
+        <section eId="chp_יא__sec_ז">
+          <num>סימן ז׳:</num>
+          <title>
+            <content>
+              <p>תכנון ובניה</p>
+            </content>
+          </title>
+          <list>
+            <point eId="point_49">
+              <heading>
+                <authorialNote placement="side">
+                  <p>חוק התכנון והבניה – הוראת שעה</p>
+                </authorialNote>
+              </heading>
+              <num>49.</num>
+              <content>
+                <p>בתקופה הקובעת, על אף האמור <ref href="#point_32">בסעיף 32(1) לחוק זה</ref>, הוראות <ref href="/akn/il/act/PrimaryLegislation/1965-08-12/148917#point_19">סעיף 19 לחוק התכנון והבניה, התשכ"ה–1965</ref>, כנוסחו לפי <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/http_fs_knesset_gov_il_15_law_15_lsr_300281_pdf">חוק התכנון והבניה (תיקון מס׳ 53), התשס"א–2000</ref> (להלן – תיקון מס׳ 53), יחולו גם על השבחה במקרקעין שנוצרה לפני פרסומו של חוק זה, ובלבד שבעל המקרקעין קיבל היתר בניה או העביר את המקרקעין או את החכירה לדורות בהם, לפי הענין, בתקופה שמיום תחילתו של <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/http_fs_knesset_gov_il_15_law_15_lsr_300281_pdf#point_53">תיקון מס׳ 53</ref> ועד ח׳ בניסן התשס"א (1 באפריל 2001) ובתקופה שמיום י"ז בטבת התשס"ב (1 בינואר 2002) ועד יום פרסומו של חוק זה.</p>
+              </content>
+            </point>
+          </list>
+        </section>
+      </chapter>
+      <chapter eId="chp_יב">
+        <num>פרק י"ב:</num>
+        <title>
+          <content>
+            <p>שונות</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_50">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>50.</num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryLegislation/1996-03-21/159655">בחוק העסקת עובדים על ידי קבלני כוח אדם, התשנ"ו–1996</ref>.</wikicomment>
+              </p>
+            </content>
+          </point>
+          <point eId="point_50א">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>50א.</num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryLegislation/2002-07-24/173874">בחוק עסקאות גופים ציבוריים (אכיפת ניהול חשבונות ותשלום חובות מס), התשל"ו–1976</ref>.</wikicomment>
+              </p>
+            </content>
+          </point>
+          <point eId="point_51">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>51.</num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryLegislation/1992-01-08/153721">בחוק הפחתת הגירעון, התשנ"ב–1992</ref>.</wikicomment>
+              </p>
+            </content>
+          </point>
+          <point eId="point_52">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>52.</num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryLegislation/1984-02-23/149870">בחוק מילווה קצר מועד, התשמ"ד–1984</ref>.</wikicomment>
+              </p>
+            </content>
+          </point>
+          <point eId="point_53">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>53.</num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryLegislation/2001-07-31/171078">בחוק תאגידי מים וביוב, התשס"א–2001</ref>.</wikicomment>
+              </p>
+            </content>
+          </point>
+          <point eId="point_54">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>54.</num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryLegislation/1959-09-15/148127">בחוק לעידוד השקעות הון, התשי"ט–1959</ref>.</wikicomment>
+              </p>
+            </content>
+          </point>
+          <point eId="point_55">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>55.</num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryLegislation/1982-03-01/2002215">בחוק סדר הדין הפלילי (תיקון מס׳ 28), התש"ס–2000</ref>.</wikicomment>
+              </p>
+            </content>
+          </point>
+          <point eId="point_56">
+            <heading>
+              <authorialNote placement="side">
+                <p>תיקון חוק סדר הדין הפלילי (תיקון מס׳ 28) – תחילה</p>
+              </authorialNote>
+            </heading>
+            <num>56.</num>
+            <content>
+              <p>תחילתה של <ref href="#point_55">פסקה (2) של סעיף 55 לחוק זה</ref> ביום כ"ט בחשון התשס"ב (15 בנובמבר 2001).</p>
+            </content>
+          </point>
+          <point eId="point_57">
+            <heading>
+              <authorialNote placement="side">
+                <p>תחילה</p>
+              </authorialNote>
+            </heading>
+            <num>57.</num>
+            <content>
+              <p>תחילתו של חוק זה ביום י"ז בטבת התשס"ב (1 בינואר 2002), אלא אם כן נקבע בו אחרת.</p>
+            </content>
+          </point>
+        </list>
+      </chapter>
+    </body>
+    <conclusions eId="eId">
+      <p class="signatures">
+        <signature>
+          <p>
+            <person refersTo="אריאל_שרון">אריאל שרון</person>
+            <role refersTo="ראש_הממשלה">ראש הממשלה</role>
+          </p>
+        </signature>
+        <signature>
+          <p>
+            <person refersTo="סילבן_שלום">סילבן שלום</person>
+            <role refersTo="שר_האוצר">שר האוצר</role>
+          </p>
+        </signature>
+        <signature>
+          <p>
+            <person refersTo="משה_קצב">משה קצב</person>
+            <role refersTo="נשיא_המדינה">נשיא המדינה</role>
+          </p>
+        </signature>
+        <signature>
+          <p>
+            <person refersTo="אברהם_בורג">אברהם בורג</person>
+            <role refersTo="יושב_ראש_הכנסת">יושב ראש הכנסת</role>
+          </p>
+        </signature>
+      </p>
+    </conclusions>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion" name="publicLaw">
+    <meta>
+      <identification source="#kensset">
+        <FRBRWork>
+          <FRBRthis value="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/888800057/main" />
+          <FRBRuri value="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/888800057" />
+          <FRBRdate date="1000-01-01" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRcountry value="israel" />
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/888800057/he@/main" />
+          <FRBRuri value="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/888800057/he@" />
+          <FRBRdate date="1000-01-01" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRlanguage language="hebrew" />
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/888800057/he@/main.xml" />
+          <FRBRuri value="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/888800057/he@" />
+          <FRBRdate date="1000-01-01" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRformat value="xml" />
+        </FRBRManifestation>
+      </identification>
+      <classification source="#kensset">
+        <keyword value="{classificationValue}" showAs="{classificationValue}" dictionary="#classification_dictionary" />
+      </classification>
+      <lifecycle source="#kensset">
+        <eventRef eId="eventRef_1" date="1000-01-01" source="#kensset" type="generation" />
+      </lifecycle>
+      <references source="#kensset">
+        <TLCOrganization eId="kensset" href="/ontology/organization/akn/knesset" showAs="Kensset" type="generation" />
+        <TLCRole eId="author" href="/ontology/role/akn/author" showAs="Author of Document" />
+        <TLCProcess eId="inforce" href="/ontology/process/akn/inforce" showAs="In force" />
+        <TLCPerson eId="נפתלי_בנט" href="/ontology/person/נפתלי_בנט" showAs="נפתלי בנט" />
+        <TLCRole eId="שר_הבטחון" href="ontology/role/akn/שר_הבטחון" showAs="שר הבטחון" />
+      </references>
+      <temporalData source="#kensset">
+        <temporalGroup eId="tmpg_1" />
+      </temporalData>
+      <Publication></Publication>
+      <proprietary wikiversion="9/13/2020 11:00:55 PM" />
+    </meta>
+    <body period="#tmpg_1">
+      <title eId="title">
+        <content>
+          <p>תקנות השיפוט הצבאי (בתי סוהר צבאיים) (הוראת שעה), התש"ף–2020</p>
+        </content>
+      </title>
+      <preamble eId="eId">
+        <p>בתוקף סמכותי לפי <ref href="/akn/il/act/PrimaryLegislation/1955-07-20/148698#point_503">סעיף 503</ref><ref href="/akn/il/act/PrimaryLegislation/1955-07-20/148698">לחוק השיפוט הצבאי, התשט"ו–1955</ref> (להלן – החוק), אני מתקין תקנות אלה:</p>
+      </preamble>
+      <list>
+        <point eId="point_1">
+          <heading>
+            <authorialNote placement="side">
+              <p>תחולת תקנות שעת חירום לעניין ביקורים</p>
+            </authorialNote>
+          </heading>
+          <num>1.</num>
+          <content>
+            <p>על אף האמור <ref href="/akn/il/act/SecondaryLegislation/1987-01-13/100019055#point_50">בתקנה 50 לתקנות השיפוט הצבאי (בתי סוהר צבאיים), התשמ"ז–1987</ref> (להלן – התקנות העיקריות), בתקופת תוקפן של <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/תקנות_שעת_חירום_מניעת_כניסת_מבקרים_ועורכי_דין_לחדרי_משמר_ובתי_סוהר_צבאיים">תקנות שעת חירום (מניעת כניסת מבקרים ועורכי דין לחדרי משמר ובתי סוהר צבאיים), התש"ף–2020</ref>, יחולו לעניין ביקורים של מבקרים ועורכי דין <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/תקנות_שעת_החירום_האמורות#point_2">תקנות 2 עד 6 לתקנות שעת החירום האמורות</ref>; לעניין זה, ”ביקורים“ – כמשמעותם <ref href="/akn/il/act/SecondaryLegislation/1987-01-13/100019055#point_50">בתקנה 50 לתקנות העיקריות</ref>.</p>
+          </content>
+        </point>
+      </list>
+    </body>
+    <conclusions eId="eId">
+      <p class="signatures">
+        <signature>
+          <p>
+            <person refersTo="נפתלי_בנט">נפתלי בנט</person>
+            <role refersTo="שר_הבטחון">שר הבטחון</role>
+          </p>
+        </signature>
+      </p>
+    </conclusions>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion" name="publicLaw">
+    <meta>
+      <identification source="#kensset">
+        <FRBRWork>
+          <FRBRthis value="/akn/il/act/PrimaryLegislation/1950-06-08/148384/main" />
+          <FRBRuri value="/akn/il/act/PrimaryLegislation/1950-06-08/148384" />
+          <FRBRdate date="1950-06-08" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRcountry value="israel" />
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/il/act/PrimaryLegislation/1950-06-08/148384/he@/main" />
+          <FRBRuri value="/akn/il/act/PrimaryLegislation/1950-06-08/148384/he@" />
+          <FRBRdate date="1950-06-08" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRlanguage language="hebrew" />
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/il/act/PrimaryLegislation/1950-06-08/148384/he@/main.xml" />
+          <FRBRuri value="/akn/il/act/PrimaryLegislation/1950-06-08/148384/he@" />
+          <FRBRdate date="1950-06-08" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRformat value="xml" />
+        </FRBRManifestation>
+      </identification>
+      <classification source="#kensset">
+        <keyword value="{classificationValue}" showAs="{classificationValue}" dictionary="#classification_dictionary" />
+      </classification>
+      <lifecycle source="#kensset">
+        <eventRef eId="eventRef_1" date="1950-06-08" source="#kensset" type="generation" />
+      </lifecycle>
+      <references source="#kensset">
+        <TLCOrganization eId="kensset" href="/ontology/organization/akn/knesset" showAs="Kensset" type="generation" />
+        <TLCRole eId="author" href="/ontology/role/akn/author" showAs="Author of Document" />
+        <TLCProcess eId="inforce" href="/ontology/process/akn/inforce" showAs="In force" />
+        <TLCPerson eId="אליעזר_קפלן" href="/ontology/person/אליעזר_קפלן" showAs="אליעזר קפלן" />
+        <TLCPerson eId="חיים_ווייצמן" href="/ontology/person/חיים_ווייצמן" showAs="חיים ווייצמן" />
+        <TLCRole eId="שר_האוצר_|_ממלא_מקום_ראש_הממשלה" href="ontology/role/akn/שר_האוצר_|_ממלא_מקום_ראש_הממשלה" showAs="שר האוצר | ממלא מקום ראש הממשלה" />
+        <TLCRole eId="נשיא_המדינה" href="ontology/role/akn/נשיא_המדינה" showAs="נשיא המדינה" />
+      </references>
+      <temporalData source="#kensset">
+        <temporalGroup eId="tmpg_1" />
+      </temporalData>
+      <Publication></Publication>
+      <proprietary wikiversion="11/22/2020 5:35:06 PM" />
+    </meta>
+    <body period="#tmpg_1">
+      <title eId="title">
+        <content>
+          <p>חוק לקביעת משכורתם של נשיא המדינה, חברי הממשלה והרבנים הראשיים לישראל, תשי"א–1950</p>
+        </content>
+      </title>
+      <list>
+        <point eId="point_1">
+          <heading>
+            <authorialNote placement="side">
+              <p>סמכות לקבוע משכורת ותשלומים לאחר גמר כהונה</p>
+            </authorialNote>
+          </heading>
+          <num>1.</num>
+          <content>
+            <p>הכנסת היא הקובעת את משכורתם של נשיא המדינה, של חבר הממשלה ושל הרב הראשי לישראל וכן את התשלומים המגיעים לנשיא המדינה, לרב הראשי לישראל ולשאיריהם לאחר שחדלו לכהן.</p>
+          </content>
+        </point>
+        <point eId="point_2">
+          <heading>
+            <authorialNote placement="side">
+              <p xml:space="preserve"> </p>
+            </authorialNote>
+          </heading>
+          <num>2.</num>
+          <content>
+            <p>הכנסת רשאית להטיל על ועדת הכספים לקבוע כל אחת מהמשכורות והתשלומים האמורים.<br space="preserve"></br>ועדת הכספים תהיה מוסמכת להחליט סופית בשאלה זו ואף לגבי תקופה שלפני תחילתו של חוק זה.</p>
+          </content>
+        </point>
+      </list>
+    </body>
+    <conclusions eId="eId">
+      <p class="signatures">
+        <signature>
+          <p>
+            <person refersTo="אליעזר_קפלן">אליעזר קפלן</person>
+            <role refersTo="שר_האוצר_|_ממלא_מקום_ראש_הממשלה">שר האוצר | ממלא מקום ראש הממשלה</role>
+          </p>
+        </signature>
+        <signature>
+          <p>
+            <person refersTo="חיים_ווייצמן">חיים ווייצמן</person>
+            <role refersTo="נשיא_המדינה">נשיא המדינה</role>
+          </p>
+        </signature>
+      </p>
+    </conclusions>
+  </act>
+</akomaNtoso>

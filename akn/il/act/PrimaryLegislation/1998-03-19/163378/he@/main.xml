@@ -1,0 +1,767 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion" name="publicLaw">
+    <meta>
+      <identification source="#kensset">
+        <FRBRWork>
+          <FRBRthis value="/akn/il/act/PrimaryLegislation/1998-03-19/163378/main" />
+          <FRBRuri value="/akn/il/act/PrimaryLegislation/1998-03-19/163378" />
+          <FRBRdate date="1998-03-19" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRcountry value="israel" />
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/il/act/PrimaryLegislation/1998-03-19/163378/he@/main" />
+          <FRBRuri value="/akn/il/act/PrimaryLegislation/1998-03-19/163378/he@" />
+          <FRBRdate date="1998-03-19" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRlanguage language="hebrew" />
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/il/act/PrimaryLegislation/1998-03-19/163378/he@/main.xml" />
+          <FRBRuri value="/akn/il/act/PrimaryLegislation/1998-03-19/163378/he@" />
+          <FRBRdate date="1998-03-19" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRformat value="xml" />
+        </FRBRManifestation>
+      </identification>
+      <classification source="#kensset">
+        <keyword value="{classificationValue}" showAs="{classificationValue}" dictionary="#classification_dictionary" />
+      </classification>
+      <lifecycle source="#kensset">
+        <eventRef eId="eventRef_1" date="1998-03-19" source="#kensset" type="generation" />
+      </lifecycle>
+      <references source="#kensset">
+        <TLCOrganization eId="kensset" href="/ontology/organization/akn/knesset" showAs="Kensset" type="generation" />
+        <TLCRole eId="author" href="/ontology/role/akn/author" showAs="Author of Document" />
+        <TLCProcess eId="inforce" href="/ontology/process/akn/inforce" showAs="In force" />
+        <TLCTerm eId="term_1" href="/ontology/term/אדם_עם_מוגבלות/163378" showAs="אדם_עם_מוגבלות" />
+        <TLCTerm eId="term_2" href="/ontology/term/בשירות/163378" showAs="בשירות" />
+        <TLCTerm eId="term_3" href="/ontology/term/הראה/163378" showAs="הראה" />
+        <TLCTerm eId="term_4" href="/ontology/term/התייחסות/163378" showAs="התייחסות" />
+        <TLCTerm eId="term_5" href="/ontology/term/חוק_זכויות_לאנשים_עם_מוגבלות_המועסקים_כמשתקמים/163378" showAs="חוק_זכויות_לאנשים_עם_מוגבלות_המועסקים_כמשתקמים" />
+        <TLCTerm eId="term_6" href="/ontology/term/חוק_שוויון_ההזדמנויות_בעבודה/163378" showAs="חוק_שוויון_ההזדמנויות_בעבודה" />
+        <TLCTerm eId="term_7" href="/ontology/term/חוק_העונשין/163378" showAs="חוק_העונשין" />
+        <TLCTerm eId="term_8" href="/ontology/term/חסר_ישע/163378" showAs="חסר_ישע" />
+        <TLCTerm eId="term_9" href="/ontology/term/כוחות_הבטחון/163378" showAs="כוחות_הבטחון" />
+        <TLCTerm eId="term_10" href="/ontology/term/מחשב/163378" showAs="מחשב" />
+        <TLCTerm eId="term_11" href="/ontology/term/מסגרת_יחסי_עבודה/163378" showAs="מסגרת_יחסי_עבודה" />
+        <TLCTerm eId="term_12" href="/ontology/term/מפעל_מוגן/163378" showAs="מפעל_מוגן" />
+        <TLCTerm eId="term_13" href="/ontology/term/קבלן_כוח_אדם/163378" showAs="קבלן_כוח_אדם" />
+        <TLCTerm eId="term_14" href="/ontology/term/קטין/163378" showAs="קטין" />
+        <TLCTerm eId="term_15" href="/ontology/term/שירות_לאומי/163378" showAs="שירות_לאומי" />
+        <TLCTerm eId="term_16" href="/ontology/term/מדד/163378" showAs="מדד" />
+        <TLCTerm eId="term_17" href="/ontology/term/המדד_החדש/163378" showAs="המדד_החדש" />
+        <TLCTerm eId="term_18" href="/ontology/term/המדד_הבסיסי/163378" showAs="המדד_הבסיסי" />
+        <TLCTerm eId="term_19" href="/ontology/term/התנכלות/163378" showAs="התנכלות" />
+        <TLCTerm eId="term_20" href="/ontology/term/יחסי_עבודה/163378" showAs="יחסי_עבודה" />
+        <TLCTerm eId="term_21" href="/ontology/term/מעביד/163378" showAs="מעביד" />
+        <TLCTerm eId="term_22" href="/ontology/term/עובד/163378" showAs="עובד" />
+        <TLCPerson eId="בנימין_נתניהו" href="/ontology/person/בנימין_נתניהו" showAs="בנימין נתניהו" />
+        <TLCPerson eId="צחי_הנגבי" href="/ontology/person/צחי_הנגבי" showAs="צחי הנגבי" />
+        <TLCPerson eId="עזר_ויצמן" href="/ontology/person/עזר_ויצמן" showAs="עזר ויצמן" />
+        <TLCPerson eId="דן_תיכון" href="/ontology/person/דן_תיכון" showAs="דן תיכון" />
+        <TLCRole eId="ראש_הממשלה" href="ontology/role/akn/ראש_הממשלה" showAs="ראש הממשלה" />
+        <TLCRole eId="שר_המשפטים" href="ontology/role/akn/שר_המשפטים" showAs="שר המשפטים" />
+        <TLCRole eId="נשיא_המדינה" href="ontology/role/akn/נשיא_המדינה" showAs="נשיא המדינה" />
+        <TLCRole eId="יושב_ראש_הכנסת" href="ontology/role/akn/יושב_ראש_הכנסת" showAs="יושב ראש הכנסת" />
+      </references>
+      <temporalData source="#kensset">
+        <temporalGroup eId="tmpg_1" />
+      </temporalData>
+      <Publication></Publication>
+      <proprietary wikiversion="8/17/2020 6:31:03 PM" />
+    </meta>
+    <body period="#tmpg_1">
+      <title eId="title">
+        <content>
+          <p>חוק למניעת הטרדה מינית, התשנ"ח–1998</p>
+        </content>
+      </title>
+      <list>
+        <point eId="point_1">
+          <heading>
+            <authorialNote placement="side">
+              <p>מטרת החוק</p>
+            </authorialNote>
+          </heading>
+          <num>1.</num>
+          <content>
+            <p>חוק זה מטרתו לאסור הטרדה מינית כדי להגן על כבודו של אדם, על חירותו ועל פרטיותו, וכדי לקדם שוויון בין המינים.</p>
+          </content>
+        </point>
+        <point eId="point_2" class="definitions">
+          <heading>
+            <authorialNote placement="side">
+              <p>הגדרות</p>
+            </authorialNote>
+          </heading>
+          <num>2.</num>
+          <list>
+            <intro>
+              <p>בחוק זה –</p>
+            </intro>
+            <point eId="point_2__point_אדם_עם_מוגבלות">
+              <content>
+                <p>
+                  <def />”אדם עם מוגבלות“ – כהגדרתו <ref href="/akn/il/act/PrimaryLegislation/1998-03-05/165017#point_5">בסעיף 5 לחוק שוויון זכויות לאנשים עם מוגבלות, התשנ"ח–1998</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_2__point_בשירות">
+              <content>
+                <p>
+                  <def />”בשירות“ – בשירות בכוחות הבטחון, מקום שאין בינם לבין המשרת בהם יחסי עבודה או בשירות אזרחי כהגדרתו <ref href="/akn/il/act/PrimaryLegislation/2017-04-05/568470">בחוק שירות אזרחי, התשע"ז–2017</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_2__point_הראה">
+              <content>
+                <p>
+                  <def />”הראה“ – במילים או בהתנהגות, ובלבד שלא היה ספק סביר לגבי משמעות ההתנהגות;</p>
+              </content>
+            </point>
+            <point eId="point_2__point_התייחסות">
+              <content>
+                <p>
+                  <def />”התייחסות“ – בכתב, בעל פה, באמצעות מוצג חזותי או שמיעתי, לרבות באמצעות מחשב או חומר מחשב, או בהתנהגות;</p>
+              </content>
+            </point>
+            <point eId="point_2__point_חוק_זכויות_לאנשים_עם_מוגבלות_המועסקים_כמשתקמים">
+              <content>
+                <p>
+                  <def />”חוק זכויות לאנשים עם מוגבלות המועסקים כמשתקמים“ – <ref href="/akn/il/act/PrimaryLegislation/2007-08-08/132075">חוק זכויות לאנשים עם מוגבלות המועסקים כמשתקמים (הוראת שעה), התשס"ז–2007</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_2__point_חוק_שוויון_ההזדמנויות_בעבודה">
+              <content>
+                <p>
+                  <def />”חוק שוויון ההזדמנויות בעבודה“ – <ref href="/akn/il/act/PrimaryLegislation/1988-03-03/151449">חוק שוויון ההזדמנויות בעבודה, התשמ"ח–1988</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_2__point_חוק_העונשין">
+              <content>
+                <p>
+                  <def />”חוק העונשין“ – <ref href="/akn/il/act/PrimaryLegislation/1977-08-04/2002251">חוק העונשין, התשל"ז–1977</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_2__point_חסר_ישע">
+              <content>
+                <p>
+                  <def />”חסר ישע“ – כהגדרתו <ref href="/akn/il/act/PrimaryLegislation/1977-08-04/2002251#point_368א">בסעיף 368א לחוק העונשין</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_2__point_כוחות_הבטחון">
+              <content>
+                <p>
+                  <def />”כוחות הבטחון“ – צבא הגנה לישראל, משטרת ישראל, שירות בתי הסוהר וארגוני הבטחון האחרים של המדינה;</p>
+              </content>
+            </point>
+            <point eId="point_2__point_מחשב">
+              <content>
+                <p>
+                  <def />”מחשב“ ו”חומר מחשב“ – כהגדרתם <ref href="/akn/il/act/PrimaryLegislation/1995-07-25/174481">בחוק המחשבים, התשנ"ה–1995</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_2__point_מסגרת_יחסי_עבודה">
+              <content>
+                <p>
+                  <def />”מסגרת יחסי עבודה“ – מקום העבודה, מקום אחר שבו מתנהלת פעילות מטעם המעסיק, תוך כדי העבודה, או תוך ניצול מרות ביחסי העבודה בכל מקום שהוא;</p>
+              </content>
+            </point>
+            <point eId="point_2__point_מפעל_מוגן">
+              <content>
+                <p>
+                  <def />”מפעל מוגן“ – כמשמעותו <ref href="/akn/il/act/PrimaryLegislation/1987-04-09/151459#point_17">בסעיף 17 לחוק שכר מינימום, התשמ"ז–1987</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_2__point_קבלן_כוח_אדם">
+              <content>
+                <p>
+                  <def />”קבלן כוח אדם“ – כהגדרתו <ref href="/akn/il/act/PrimaryLegislation/1996-03-21/159655#point_1">בסעיף 1 לחוק העסקת עובדים על ידי קבלני כוח אדם, התשנ"ו–1996</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_2__point_קטין">
+              <content>
+                <p>
+                  <def />”קטין“ – אדם שטרם מלאו לו 18 שנים;</p>
+              </content>
+            </point>
+            <point eId="point_2__point_שירות_לאומי">
+              <content>
+                <p>
+                  <def />”שירות לאומי“ – <wikicomment font-size="x-small">(נמחקה).</wikicomment></p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_3">
+          <heading>
+            <authorialNote placement="side">
+              <p>הטרדה מינית והתנכלות</p>
+            </authorialNote>
+          </heading>
+          <num>3.</num>
+          <list>
+            <point eId="point_3__point_א">
+              <num>(א)</num>
+              <list>
+                <intro>
+                  <p>הטרדה מינית היא כל אחד ממעשים אלה:</p>
+                </intro>
+                <point eId="point_3__point_א__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>סחיטה באיומים, כמשמעותה <ref href="/akn/il/act/PrimaryLegislation/1977-08-04/2002251#point_428">בסעיף 428 לחוק העונשין</ref>, כאשר המעשה שהאדם נדרש לעשותו הוא בעל אופי מיני;</p>
+                  </content>
+                </point>
+                <point eId="point_3__point_א__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>מעשים מגונים כמשמעותם <ref href="/akn/il/act/PrimaryLegislation/1977-08-04/2002251#point_348">בסעיפים 348</ref><ref href="/akn/il/act/PrimaryLegislation/1977-08-04/2002251#point_349">ו־349 לחוק העונשין</ref>;</p>
+                  </content>
+                </point>
+                <point eId="point_3__point_א__point_3">
+                  <num>(3)</num>
+                  <content>
+                    <p>הצעות חוזרות בעלות אופי מיני, המופנות לאדם אשר הראה למטריד כי אינו מעונין בהצעות האמורות;</p>
+                  </content>
+                </point>
+                <point eId="point_3__point_א__point_4">
+                  <num>(4)</num>
+                  <content>
+                    <p>התייחסויות חוזרות המופנות לאדם, המתמקדות במיניותו, כאשר אותו אדם הראה למטריד כי אינו מעונין בהתייחסויות האמורות;</p>
+                  </content>
+                </point>
+                <point eId="point_3__point_א__point_5">
+                  <num>(5)</num>
+                  <content>
+                    <p>התייחסות מבזה או משפילה המופנית לאדם ביחס למינו או למיניותו, לרבות נטייתו המינית;</p>
+                  </content>
+                </point>
+                <point eId="point_3__point_א__point_5א">
+                  <num>(5א)</num>
+                  <list>
+                    <intro>
+                      <p>פרסום תצלום, סרט או הקלטה של אדם, המתמקד במיניותו, בנסיבות שבהן הפרסום עלול להשפיל את האדם או לבזותו, ולא ניתנה הסכמתו לפרסום, ואולם במשפט פלילי או אזרחי לפי פסקה זו תהא זו הגנה טובה למפרסם אם מתקיים אחד מאלה:</p>
+                    </intro>
+                    <point eId="point_3__point_א__point_5א__point_א">
+                      <num>(א)</num>
+                      <content>
+                        <p>הפרסום נעשה בתום לב, בשים לב לנסיבות הפרסום, תוכנו, צורתו, היקפו ומטרתו;</p>
+                      </content>
+                    </point>
+                    <point eId="point_3__point_א__point_5א__point_ב">
+                      <num>(ב)</num>
+                      <content>
+                        <p>הפרסום נעשה למטרה כשרה;</p>
+                      </content>
+                    </point>
+                    <point eId="point_3__point_א__point_5א__point_ג">
+                      <num>(ג)</num>
+                      <content>
+                        <p>יש בפרסום עניין ציבורי המצדיק אותו בנסיבות העניין, ובלבד שאינו כוזב, או שהוא הבעת דעה או ביקורת על בעל תפקיד ציבורי בקשר לתפקידו, והפרסום לא חרג מתחום הסביר לשם השגת מטרתו;</p>
+                      </content>
+                    </point>
+                    <wrapup eId="point_3__point_א__point_5א__wrapup_none">
+                      <content>
+                        <p>בפסקה זו, ”תצלום, סרט או הקלטה“ – לרבות עריכה או שילוב של כל אחד מהם, ובלבד שבנסיבות העניין ניתן לזהות את האדם;</p>
+                      </content>
+                    </wrapup>
+                  </list>
+                </point>
+                <point eId="point_3__point_א__point_6">
+                  <num>(6)</num>
+                  <list>
+                    <intro>
+                      <p>הצעות או התייחסויות כאמור בפסקאות (3) או (4), המופנות למי מהמנויים בפסקאות המשנה שלהלן, בנסיבות המפורטות בפסקאות משנה אלה, גם אם המוטרד לא הראה למטריד כי אינו מעונין בהצעות או בהתייחסויות האמורות:</p>
+                    </intro>
+                    <point eId="point_3__point_א__point_6__point_א">
+                      <num>(א)</num>
+                      <content>
+                        <p>לקטין או לחסר ישע – תוך ניצול יחסי מרות, תלות, חינוך או טיפול, ואם טרם מלאו לקטין 15 שנים – גם בלא ניצול יחסים כאמור, ובלבד שהמטריד אינו קטין;</p>
+                      </content>
+                    </point>
+                    <point eId="point_3__point_א__point_6__point_ב">
+                      <num>(ב)</num>
+                      <content>
+                        <p>למטופל, במסגרת טיפול נפשי, בריאותי, רפואי או פארה־רפואי – תוך ניצול תלות של המטופל במטפל; בפסקת משנה זו, ”טיפול נפשי“ – כהגדרתו <ref href="/akn/il/act/PrimaryLegislation/1977-08-04/2002251#point_37א">בסעיף 37א לחוק העונשין</ref>;</p>
+                      </content>
+                    </point>
+                    <point eId="point_3__point_א__point_6__point_ג">
+                      <num>(ג)</num>
+                      <content>
+                        <p>לעובד במסגרת יחסי עבודה, ולאדם בשירות במסגרת שירות – תוך ניצול מרות ביחסי עבודה או בשירות;</p>
+                      </content>
+                    </point>
+                    <point eId="point_3__point_א__point_6__point_ד">
+                      <num>(ד)</num>
+                      <content>
+                        <p>לתלמיד בכיתה י"ב, י"ג או י"ד, שאינו קטין, תוך ניצול יחסי מרות בלימודים;</p>
+                      </content>
+                    </point>
+                    <point eId="point_3__point_א__point_6__point_ה">
+                      <num>(ה)</num>
+                      <content>
+                        <p>לתלמיד או לסטודנט, הלומד במוסד המקנה השכלה עיונית, דתית או מקצועית לבוגרים (בחוק זה – מוסד להשכלה לבוגרים), תוך ניצול יחסי מרות בלימודים;</p>
+                      </content>
+                    </point>
+                    <point eId="point_3__point_א__point_6__point_ו">
+                      <num>(ו)</num>
+                      <content>
+                        <p>
+                          <wikicomment font-size="x-small">(פקע);</wikicomment>
+                        </p>
+                      </content>
+                    </point>
+                    <point eId="point_3__point_א__point_6__point_ז">
+                      <num>(ז)</num>
+                      <content>
+                        <p>לאדם – תוך ניצול יחסי מרות או תלות, במסגרת הדרכה או ייעוץ של כהן דת או של מי שמתחזה להיות כהן דת או של אדם הידוע או המציג את עצמו כבעל סגולות רוחניות מיוחדות;</p>
+                      </content>
+                    </point>
+                    <point eId="point_3__point_א__point_6__point_ח">
+                      <num>(ח)</num>
+                      <content>
+                        <p>לאדם, מצדו של עובד הציבור במילוי תפקידו או בקשר אליו ותוך שימוש לרעה בסמכותו – תוך ניצול יחסי מרות או תלות של האדם בעובד הציבור; בפסקת משנה זו, ”עובד הציבור“ – כהגדרתו <ref href="/akn/il/act/PrimaryLegislation/1977-08-04/2002251#point_34כד">בסעיף 34כד לחוק העונשין</ref>.</p>
+                      </content>
+                    </point>
+                    <point eId="point_3__point_א__point_6__point_ט">
+                      <num>(ט)</num>
+                      <content>
+                        <p>לאדם עם מוגבלות המועסק במפעל מוגן – תוך ניצול יחסי מרות או תלות.</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+              </list>
+            </point>
+            <point eId="point_3__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>התנכלות היא פגיעה מכל סוג שהוא שמקורה בהטרדה מינית, או בתלונה או בתביעה, שהוגשו על הטרדה מינית.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_4">
+          <heading>
+            <authorialNote placement="side">
+              <p>איסור הטרדה מינית והתנכלות</p>
+            </authorialNote>
+          </heading>
+          <num>4.</num>
+          <content>
+            <p>לא יטריד אדם מינית את זולתו ולא יתנכל לו.</p>
+          </content>
+        </point>
+        <point eId="point_5">
+          <heading>
+            <authorialNote placement="side">
+              <p>הטרדה מינית והתנכלות – עבירות</p>
+            </authorialNote>
+          </heading>
+          <num>5.</num>
+          <list>
+            <point eId="point_5__point_א">
+              <num>(א)</num>
+              <content>
+                <p>המטריד מינית אדם כאמור <ref href="#point_3">בסעיף 3(א)(3), (4), (5) ו־(6)</ref>, דינו – מאסר שנתיים; המטריד מינית אדם כאמור <ref href="#point_3">בסעיף 3(א)(5א)</ref>, דינו כדין הפוגע במזיד בפרטיות זולתו כאמור <ref href="/akn/il/act/PrimaryLegislation/1981-03-11/147337#point_5">בסעיף 5 לחוק הגנת הפרטיות, התשמ"א–1981</ref>.</p>
+              </content>
+            </point>
+            <point eId="point_5__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>המתנכל לאדם כאמור <ref href="#point_3">בסעיף 3(ב)</ref>, דינו – מאסר שלוש שנים.</p>
+              </content>
+            </point>
+            <point eId="point_5__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>הטריד אדם מינית אדם אחר כאמור בסעיף קטן (א) והתנכל לו כאמור בסעיף קטן (ב), דינו – מאסר ארבע שנים.</p>
+              </content>
+            </point>
+            <point eId="point_5__point_ד">
+              <num>(ד)</num>
+              <content>
+                <p>הוראות <ref href="/akn/il/act/PrimaryLegislation/1957-12-12/148335#point_2א">סעיפים 2א</ref><ref href="/akn/il/act/PrimaryLegislation/1957-12-12/148335#point_2ב">ו־2ב לחוק לתיקון סדרי הדין (חקירת עדים), התשי"ח–1957</ref>, יחולו על חקירתו של מי שנפגע בעבירה לפי סעיף זה ועל עדותו בשל עבירה כאמור.</p>
+              </content>
+            </point>
+            <point eId="point_5__point_ה">
+              <num>(ה)</num>
+              <content>
+                <p>הוראות <ref href="/akn/il/act/PrimaryLegislation/1977-08-04/2002251#point_352">סעיף 352 לחוק העונשין</ref> יחולו לענין פרסום שם של מי שנפגע בעבירה או שהתלונן כי נפגע בעבירה לפי סעיף זה.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_6">
+          <heading>
+            <authorialNote placement="side">
+              <p>הטרדה מינית והתנכלות – עוולות אזרחיות</p>
+            </authorialNote>
+          </heading>
+          <num>6.</num>
+          <list>
+            <point eId="point_6__point_א">
+              <num>(א)</num>
+              <content>
+                <p>הטרדה מינית והתנכלות הן עוולות אזרחיות, והוראות <ref href="/akn/il/act/PrimaryLegislation/1968-04-17/2002279">פקודת הנזיקין [נוסח חדש]</ref>, יחולו עליהן בכפוף להוראות חוק זה.</p>
+              </content>
+            </point>
+            <point eId="point_6__point_ב">
+              <num>(ב)</num>
+              <list>
+                <intro>
+                  <p>בית המשפט רשאי לפסוק בשל הטרדה מינית או בשל התנכלות פיצוי שלא יעלה על סך 120,000 שקלים חדשים, ללא הוכחת נזק; סכום זה יעודכן ב־1 בינואר של כל שנה (בסעיף זה – יום העדכון), בהתאם לשיעור עליית המדד החדש לעומת המדד הבסיסי והודעה על הסכום המעודכן תפורסם ברשומות; לענין סעיף קטן זה –</p>
+                </intro>
+                <point eId="point_6__point_ב__point_מדד">
+                  <content>
+                    <p>
+                      <def />”מדד“ – מדד המחירים לצרכן שמפרסמת הלשכה המרכזית לסטטיסטיקה;</p>
+                  </content>
+                </point>
+                <point eId="point_6__point_ב__point_המדד_החדש">
+                  <content>
+                    <p>
+                      <def />”המדד החדש“ – המדד שפורסם לאחרונה לפני יום העדכון;</p>
+                  </content>
+                </point>
+                <point eId="point_6__point_ב__point_המדד_הבסיסי">
+                  <content>
+                    <p>
+                      <def />”המדד הבסיסי“ – מדד חודש אוגוסט 2013.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_6__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>לא יזדקק בית המשפט או בית הדין לעבודה, לפי הענין, לתביעה בשל עוולה לפי סעיף זה או לפי <ref href="#point_7">סעיף 7</ref>, שהוגשה לאחר שחלפה התקופה הקבועה <ref href="/akn/il/act/PrimaryLegislation/1958-04-06/147307#point_5">בסעיף 5 לחוק ההתיישנות, התשי"ח–1958</ref> מיום שנוצרה העילה, והוראות <ref href="/akn/il/act/PrimaryLegislation/1958-04-06/147307#point_18א">סעיפים 18א</ref><ref href="/akn/il/act/PrimaryLegislation/1958-04-06/147307#point_18ב">ו־18ב לחוק האמור</ref>, לא יחולו על תביעה כאמור.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_6א">
+          <heading>
+            <authorialNote placement="side">
+              <p>נטל ההוכחה בתובענה במסגרת יחסי עבודה</p>
+            </authorialNote>
+          </heading>
+          <num>6א.</num>
+          <content>
+            <p>בתובענה של עובד או של דורש עבודה בשל פגיעה על רקע הטרדה מינית במסגרת יחסי עבודה, כאמור <ref href="/akn/il/act/PrimaryLegislation/1988-03-03/151449#point_7">בסעיף 7 לחוק שוויון ההזדמנויות בעבודה</ref>, תהיה חובת ההוכחה על המעסיק כי לא פגע פגיעה כאמור <ref href="/akn/il/act/PrimaryLegislation/1988-03-03/151449#point_7">באותו סעיף</ref>, אם הוכיח העובד או דורש העבודה כי התקיים האמור בפסקה <ref href="/akn/il/act/PrimaryLegislation/1988-03-03/151449#point_7">מפסקאות (1) עד (3) שבסעיף 7(א) לחוק האמור</ref>, ובלבד שטרם חלפו שלוש שנים מיום שנוצרה העילה.</p>
+          </content>
+        </point>
+        <point eId="point_7">
+          <heading>
+            <authorialNote placement="side">
+              <p>נקיטת אמצעים בידי מעסיק</p>
+            </authorialNote>
+          </heading>
+          <num>7.</num>
+          <list>
+            <point eId="point_7__point_א">
+              <num>(א)</num>
+              <list>
+                <intro>
+                  <p>מעסיק חייב לנקוט אמצעים סבירים, בנסיבות הענין, כדי למנוע הטרדה מינית או התנכלות במסגרת יחסי עבודה, על ידי עובדו, או על ידי ממונה מטעמו אף אם אינו עובדו, ולטפל בכל מקרה כאמור, ולשם כך עליו:</p>
+                </intro>
+                <point eId="point_7__point_א__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>לקבוע דרך יעילה להגשת תלונה בשל הטרדה מינית או התנכלות ולבירור התלונה;</p>
+                  </content>
+                </point>
+                <point eId="point_7__point_א__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>לטפל ביעילות במקרה של הטרדה מינית או התנכלות שידע אודותיהם, וכן לעשות כל שביכולתו כדי למנוע את הישנות המעשים האמורים וכדי לתקן את הפגיעה שנגרמה למתלונן עקב ההטרדה או ההתנכלות.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_7__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>מעסיק המעסיק יותר מ־25 עובדים חייב, בנוסף לאמור בסעיף קטן (א), לקבוע תקנון שבו יובאו עיקרי הוראות החוק בדבר הטרדה מינית והתנכלות במסגרת יחסי עבודה ויפורטו בו דרכי הגשת התלונות שענינן הטרדה מינית או התנכלות והטיפול בהן, כפי שקבע המעסיק (להלן – תקנון); המעסיק יפרסם את התקנון בין עובדיו.</p>
+              </content>
+            </point>
+            <point eId="point_7__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>מעסיק שלא מילא את חובותיו לפי סעיפים קטנים (א)(1) ו־(2) ו־(ב) יהיה אחראי לעוולה אזרחית לפי <ref href="#point_6">סעיף 6</ref>, או לעוולה אזרחית בשל פגיעה כאמור <ref href="/akn/il/act/PrimaryLegislation/1988-03-03/151449#point_7">בסעיף 7 לחוק שוויון ההזדמנויות בעבודה</ref>, שעשה עובדו, או ממונה מטעמו אף אם אינו עובדו, במסגרת יחסי העבודה.</p>
+              </content>
+            </point>
+            <point eId="point_7__point_ד">
+              <num>(ד)</num>
+              <list>
+                <intro>
+                  <p>שר המשפטים, בהסכמת שר העבודה והרווחה ובאישור הוועדה לקידום מעמד האשה של הכנסת, יקבע –</p>
+                </intro>
+                <point eId="point_7__point_ד__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>כללים לביצוע חובות המעסיק על פי סעיף זה; כללים כאמור יכול שיהיו כלליים או לפי סוגים של מקומות עבודה, ענפי עבודה או מקצועות;</p>
+                  </content>
+                </point>
+                <point eId="point_7__point_ד__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>תקנון לדוגמה שישמש דוגמה למעסיק (להלן – תקנון לדוגמה).</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_7__point_ה">
+              <num>(ה)</num>
+              <content>
+                <p>לצורך קיום חובותיו של המעסיק לפי סעיף קטן (ב), יערוך המעסיק בתקנון לדוגמה את ההתאמות הנדרשות.</p>
+              </content>
+            </point>
+            <point eId="point_7__point_ו">
+              <num>(ו)</num>
+              <list>
+                <intro>
+                  <p>לענין סעיף זה,</p>
+                </intro>
+                <point eId="point_7__point_ו__point_התנכלות">
+                  <content>
+                    <p>
+                      <def />”התנכלות“ – לרבות פגיעה כאמור <ref href="/akn/il/act/PrimaryLegislation/1988-03-03/151449#point_7">בסעיף 7 לחוק שוויון ההזדמנויות בעבודה</ref>;</p>
+                  </content>
+                </point>
+                <point eId="point_7__point_ו__point_יחסי_עבודה">
+                  <content>
+                    <p>
+                      <def />”יחסי עבודה“ – לרבות העסקה לפי <ref href="/akn/il/act/PrimaryLegislation/2007-08-08/132075">חוק זכויות לאנשים עם מוגבלות המועסקים כמשתקמים</ref>, והעסקה של אדם עם מוגבלות במפעל מוגן;</p>
+                  </content>
+                </point>
+                <point eId="point_7__point_ו__point_מעביד">
+                  <content>
+                    <p>
+                      <def />”מעביד“ – לרבות מעסיק לפי <ref href="/akn/il/act/PrimaryLegislation/2007-08-08/132075">חוק זכויות לאנשים עם מוגבלות המועסקים כמשתקמים</ref>, בעלים ומפעיל במפעל מוגן;</p>
+                  </content>
+                </point>
+                <point eId="point_7__point_ו__point_עובד">
+                  <content>
+                    <p>
+                      <def />”עובד“ – לרבות אדם עם מוגבלות המועסק לפי <ref href="/akn/il/act/PrimaryLegislation/2007-08-08/132075">חוק זכויות לאנשים עם מוגבלות המועסקים כמשתקמים</ref> או במפעל מוגן.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_7__point_ז">
+              <num>(ז)</num>
+              <content>
+                <p>הוראות סעיף זה יחולו, בשינויים המחויבים לפי הענין, גם על מוסד להשכלה לבוגרים, ולענין זה יראו את המוסד – כמעסיק, את המורה או המרצה – כעובד או כממונה מטעם המעסיק ואת התלמיד או הסטודנט – כעובד.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_8">
+          <heading>
+            <authorialNote placement="side">
+              <p>אי פרסום תקנון – עבירה</p>
+            </authorialNote>
+          </heading>
+          <num>8.</num>
+          <content>
+            <p>לא פרסם מעסיק תקנון כאמור <ref href="#point_7">בסעיף 7(ב)</ref>, דינו – קנס, וקנס נוסף לכל שבוע שבו נמשכה העבירה, בשיעור הקנס הקבוע <ref href="/akn/il/act/PrimaryLegislation/1977-08-04/2002251#point_61">בסעיף 61(ג) לחוק העונשין</ref>.</p>
+          </content>
+        </point>
+        <point eId="point_9">
+          <heading>
+            <authorialNote placement="side">
+              <p>הרחבת תחולה</p>
+            </authorialNote>
+          </heading>
+          <num>9.</num>
+          <content>
+            <p>הוראות חוק זה לענין מעסיק ועובד יחולו, בשינויים המחויבים ולפי הענין, גם על מי שמעסיק בפועל אדם באמצעות קבלן כוח אדם, ועל אדם המועסק כאמור.</p>
+          </content>
+        </point>
+        <point eId="point_10">
+          <heading>
+            <authorialNote placement="side">
+              <p>סמכות בית הדין לעבודה</p>
+            </authorialNote>
+          </heading>
+          <num>10.</num>
+          <list>
+            <point eId="point_10__point_א">
+              <num>(א)</num>
+              <list>
+                <intro>
+                  <p>לבית הדין לעבודה תהא סמכות ייחודית לדון בהליך אזרחי לפי <ref href="#point_6">סעיפים 6</ref>, <ref href="#point_7">7</ref><ref href="#point_9">ו־9</ref> שענינו אחד מאלה –</p>
+                </intro>
+                <point eId="point_10__point_א__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>הטרדה מינית שעשה מעסיק, או ממונה מטעמו, לעובדו, או שעשה עובד לעובד אחר, במסגרת יחסי עבודה;</p>
+                  </content>
+                </point>
+                <point eId="point_10__point_א__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>התנכלות של מעסיק, או של ממונה מטעמו, כלפי עובד, או של עובד כלפי עובד אחר, במסגרת יחסי עבודה;</p>
+                  </content>
+                </point>
+                <point eId="point_10__point_א__point_3">
+                  <num>(3)</num>
+                  <content>
+                    <p>אחריות מעסיק כאמור <ref href="#point_7">בסעיף 7</ref> בשל הטרדה מינית או התנכלות שעשה ממונה מטעם המעסיק לעובדו, או עובד לעובד אחר, במסגרת יחסי העבודה.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_10__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>הוראות סעיף זה לא יחולו על הליך אזרחי שענינו הטרדה מינית או התנכלות שנעשו בשירות.</p>
+              </content>
+            </point>
+            <point eId="point_10__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>הוראות <ref href="/akn/il/act/PrimaryLegislation/1988-03-03/151449#point_10">סעיפים 10</ref>, <ref href="/akn/il/act/PrimaryLegislation/1988-03-03/151449#point_10א">10א</ref>, <ref href="/akn/il/act/PrimaryLegislation/1988-03-03/151449#point_12">12</ref><ref href="/akn/il/act/PrimaryLegislation/1988-03-03/151449#point_13">ו־13 לחוק שוויון ההזדמנויות בעבודה</ref> יחולו על הליכים לפי סעיף זה.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_11">
+          <heading>
+            <authorialNote placement="side">
+              <p>דין המדינה</p>
+            </authorialNote>
+          </heading>
+          <num>11.</num>
+          <content>
+            <p>חוק זה חל על המדינה; לענין הוראות <ref href="#point_7">סעיפים 7</ref><ref href="#point_8">ו־8</ref>, יראו את כוחות הבטחון, מקום שאין בינם לבין המשרתים בהם יחסי עבודה, כמעסיק, ואת המשרת בהם כעובד.</p>
+          </content>
+        </point>
+        <point eId="point_12">
+          <heading>
+            <authorialNote placement="side">
+              <p>שמירת דינים</p>
+            </authorialNote>
+          </heading>
+          <num>12.</num>
+          <content>
+            <p>אין בהוראות חוק זה כדי לגרוע מהוראות כל דין.</p>
+          </content>
+        </point>
+        <point eId="point_13">
+          <heading>
+            <authorialNote placement="side">
+              <p>ביצוע ותקנות</p>
+            </authorialNote>
+          </heading>
+          <num>13.</num>
+          <content>
+            <p>שר המשפטים ממונה על ביצוע חוק זה והוא רשאי, באישור הוועדה לקידום מעמד האשה של הכנסת, להתקין תקנות בכל ענין הנוגע לביצועו.<br space="preserve"></br><wikicomment font-size="x-small">פורסמו <ref href="/akn/il/act/SecondaryLegislation/1998-08-20/100028010">תקנות למניעת הטרדה מינית (חובות מעסיק), התשנ"ח–1998</ref>.</wikicomment></p>
+          </content>
+        </point>
+        <point eId="point_14">
+          <heading>
+            <authorialNote placement="side">
+              <p>חובת התקנת תקנות</p>
+            </authorialNote>
+          </heading>
+          <num>14.</num>
+          <content>
+            <p>תקנות לענין <ref href="#point_7">סעיף 7</ref> יוגשו לראשונה לאישור הוועדה לקידום מעמד האשה של הכנסת, בתוך חמישה חודשים מיום פרסומו של חוק זה.</p>
+          </content>
+        </point>
+        <point eId="point_15">
+          <heading>
+            <authorialNote placement="side">
+              <p xml:space="preserve"> </p>
+            </authorialNote>
+          </heading>
+          <num>15.</num>
+          <content>
+            <p>
+              <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryLegislation/1988-03-03/151449">בחוק שוויון ההזדמנויות בעבודה, תשמ"ח–1988</ref>.</wikicomment>
+            </p>
+          </content>
+        </point>
+        <point eId="point_16">
+          <heading>
+            <authorialNote placement="side">
+              <p xml:space="preserve"> </p>
+            </authorialNote>
+          </heading>
+          <num>16.</num>
+          <content>
+            <p>
+              <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryLegislation/1969-03-27/165789">בחוק בית הדין לעבודה, תשכ"ט–1969</ref>.</wikicomment>
+            </p>
+          </content>
+        </point>
+        <point eId="point_17">
+          <heading>
+            <authorialNote placement="side">
+              <p xml:space="preserve"> </p>
+            </authorialNote>
+          </heading>
+          <num>17.</num>
+          <content>
+            <p>
+              <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryLegislation/1984-08-13/2002218">בחוק בתי המשפט [נוסח משולב], תשמ"ד–1984</ref>.</wikicomment>
+            </p>
+          </content>
+        </point>
+        <point eId="point_18">
+          <heading>
+            <authorialNote placement="side">
+              <p>תחילה</p>
+            </authorialNote>
+          </heading>
+          <num>18.</num>
+          <list>
+            <point eId="point_18__point_א">
+              <num>(א)</num>
+              <content>
+                <p>תחילתו של חוק זה בתום שישה חודשים מיום פרסומו.</p>
+              </content>
+            </point>
+            <point eId="point_18__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>על אף האמור בסעיף קטן (א), לא ייכנס לתוקף <ref href="#point_7">סעיף 7</ref>, אלא בתום חודש מיום פרסום התקנות לפיו.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+      </list>
+    </body>
+    <conclusions eId="eId">
+      <p class="signatures">
+        <signature>
+          <p>
+            <person refersTo="בנימין_נתניהו">בנימין נתניהו</person>
+            <role refersTo="ראש_הממשלה">ראש הממשלה</role>
+          </p>
+        </signature>
+        <signature>
+          <p>
+            <person refersTo="צחי_הנגבי">צחי הנגבי</person>
+            <role refersTo="שר_המשפטים">שר המשפטים</role>
+          </p>
+        </signature>
+        <signature>
+          <p>
+            <person refersTo="עזר_ויצמן">עזר ויצמן</person>
+            <role refersTo="נשיא_המדינה">נשיא המדינה</role>
+          </p>
+        </signature>
+        <signature>
+          <p>
+            <person refersTo="דן_תיכון">דן תיכון</person>
+            <role refersTo="יושב_ראש_הכנסת">יושב ראש הכנסת</role>
+          </p>
+        </signature>
+      </p>
+    </conclusions>
+  </act>
+</akomaNtoso>

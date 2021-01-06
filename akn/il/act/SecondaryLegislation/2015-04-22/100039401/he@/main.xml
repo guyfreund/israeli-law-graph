@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion" name="publicLaw">
+    <meta>
+      <identification source="#kensset">
+        <FRBRWork>
+          <FRBRthis value="/akn/il/act/SecondaryLegislation/2015-04-22/100039401/main" />
+          <FRBRuri value="/akn/il/act/SecondaryLegislation/2015-04-22/100039401" />
+          <FRBRdate date="2015-04-22" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRcountry value="israel" />
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/il/act/SecondaryLegislation/2015-04-22/100039401/he@/main" />
+          <FRBRuri value="/akn/il/act/SecondaryLegislation/2015-04-22/100039401/he@" />
+          <FRBRdate date="2015-04-22" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRlanguage language="hebrew" />
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/il/act/SecondaryLegislation/2015-04-22/100039401/he@/main.xml" />
+          <FRBRuri value="/akn/il/act/SecondaryLegislation/2015-04-22/100039401/he@" />
+          <FRBRdate date="2015-04-22" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRformat value="xml" />
+        </FRBRManifestation>
+      </identification>
+      <classification source="#kensset">
+        <keyword value="{classificationValue}" showAs="{classificationValue}" dictionary="#classification_dictionary" />
+      </classification>
+      <lifecycle source="#kensset">
+        <eventRef eId="eventRef_1" date="2015-04-22" source="#kensset" type="generation" />
+      </lifecycle>
+      <references source="#kensset">
+        <TLCOrganization eId="kensset" href="/ontology/organization/akn/knesset" showAs="Kensset" type="generation" />
+        <TLCRole eId="author" href="/ontology/role/akn/author" showAs="Author of Document" />
+        <TLCProcess eId="inforce" href="/ontology/process/akn/inforce" showAs="In force" />
+        <TLCPerson eId="נפתלי_בנט" href="/ontology/person/נפתלי_בנט" showAs="נפתלי בנט" />
+        <TLCRole eId="שר_הכלכלה" href="ontology/role/akn/שר_הכלכלה" showAs="שר הכלכלה" />
+      </references>
+      <temporalData source="#kensset">
+        <temporalGroup eId="tmpg_1" />
+      </temporalData>
+      <Publication></Publication>
+      <proprietary wikiversion="12/2/2020 5:04:33 PM" />
+    </meta>
+    <body period="#tmpg_1">
+      <title eId="title">
+        <content>
+          <p>תקנות הגנת הצרכן (חובת גילוי משקל של מוצר), התשע"ה–2015</p>
+        </content>
+      </title>
+      <preamble eId="eId">
+        <p>בתוקף סמכותי לפי <ref href="/akn/il/act/PrimaryLegislation/1981-04-26/148395#point_4">סעיפים 4(א)(3)</ref><ref href="/akn/il/act/PrimaryLegislation/1981-04-26/148395#point_37">ו־37</ref><ref href="/akn/il/act/PrimaryLegislation/1981-04-26/148395">לחוק הגנת הצרכן, התשמ"א–1981</ref>, בהתייעצות עם הממונה על הגנת הצרכן והסחר ההוגן ובאישור ועדת הכלכלה של הכנסת, אני מתקין תקנות אלה:</p>
+      </preamble>
+      <list>
+        <point eId="point_1">
+          <heading>
+            <authorialNote placement="side">
+              <p>הצגת משקל ומחירו</p>
+            </authorialNote>
+          </heading>
+          <num>1.</num>
+          <content>
+            <p>עוסק חייב לגלות לצרכן את משקלו של מוצר הנמכר על פי משקל, על ידי העמדת מכשיר השקילה באופן המאפשר לצרכן לראות על נקלה ובלא הפרעה את פעולת השקילה ואת תוצאותיה.</p>
+          </content>
+        </point>
+        <point eId="point_2">
+          <heading>
+            <authorialNote placement="side">
+              <p>תחילה</p>
+            </authorialNote>
+          </heading>
+          <num>2.</num>
+          <content>
+            <p>תחילתן של תקנות אלה חודשיים מיום פרסומן.</p>
+          </content>
+        </point>
+      </list>
+    </body>
+    <conclusions eId="eId">
+      <p class="signatures">
+        <signature>
+          <p>
+            <person refersTo="נפתלי_בנט">נפתלי בנט</person>
+            <role refersTo="שר_הכלכלה">שר הכלכלה</role>
+          </p>
+        </signature>
+      </p>
+    </conclusions>
+  </act>
+</akomaNtoso>

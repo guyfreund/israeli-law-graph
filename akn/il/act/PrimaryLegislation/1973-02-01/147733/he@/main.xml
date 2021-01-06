@@ -1,0 +1,2415 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion" name="publicLaw">
+    <meta>
+      <identification source="#kensset">
+        <FRBRWork>
+          <FRBRthis value="/akn/il/act/PrimaryLegislation/1973-02-01/147733/main" />
+          <FRBRuri value="/akn/il/act/PrimaryLegislation/1973-02-01/147733" />
+          <FRBRdate date="1973-02-01" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRcountry value="israel" />
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/il/act/PrimaryLegislation/1973-02-01/147733/he@/main" />
+          <FRBRuri value="/akn/il/act/PrimaryLegislation/1973-02-01/147733/he@" />
+          <FRBRdate date="1973-02-01" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRlanguage language="hebrew" />
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/il/act/PrimaryLegislation/1973-02-01/147733/he@/main.xml" />
+          <FRBRuri value="/akn/il/act/PrimaryLegislation/1973-02-01/147733/he@" />
+          <FRBRdate date="1973-02-01" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRformat value="xml" />
+        </FRBRManifestation>
+      </identification>
+      <classification source="#kensset">
+        <keyword value="{classificationValue}" showAs="{classificationValue}" dictionary="#classification_dictionary" />
+      </classification>
+      <lifecycle source="#kensset">
+        <eventRef eId="eventRef_1" date="1973-02-01" source="#kensset" type="generation" />
+      </lifecycle>
+      <references source="#kensset">
+        <TLCOrganization eId="kensset" href="/ontology/organization/akn/knesset" showAs="Kensset" type="generation" />
+        <TLCRole eId="author" href="/ontology/role/akn/author" showAs="Author of Document" />
+        <TLCProcess eId="inforce" href="/ontology/process/akn/inforce" showAs="In force" />
+        <TLCTerm eId="term_1" href="/ontology/term/מפלגה/147733" showAs="מפלגה" />
+        <TLCTerm eId="term_2" href="/ontology/term/סיעה/147733" showAs="סיעה" />
+        <TLCTerm eId="term_3" href="/ontology/term/סיעה_חדשה/147733" showAs="סיעה_חדשה" />
+        <TLCTerm eId="term_4" href="/ontology/term/גוף_הקשור_לסיעה/147733" showAs="גוף_הקשור_לסיעה" />
+        <TLCTerm eId="term_5" href="/ontology/term/הוצאות/147733" showAs="הוצאות" />
+        <TLCTerm eId="term_6" href="/ontology/term/הוצאות_בחירות/147733" showAs="הוצאות_בחירות" />
+        <TLCTerm eId="term_7" href="/ontology/term/הוצאות_שוטפות/147733" showAs="הוצאות_שוטפות" />
+        <TLCTerm eId="term_8" href="/ontology/term/מימון_ההוצאות_השוטפות_שסיעה_מקבלת_בחודש/147733" showAs="מימון_ההוצאות_השוטפות_שסיעה_מקבלת_בחודש" />
+        <TLCTerm eId="term_9" href="/ontology/term/הפרשי_הצמדה_וריבית/147733" showAs="הפרשי_הצמדה_וריבית" />
+        <TLCTerm eId="term_10" href="/ontology/term/צוות_פרלמנטרי/147733" showAs="צוות_פרלמנטרי" />
+        <TLCTerm eId="term_11" href="/ontology/term/היום_הקובע/147733" showAs="היום_הקובע" />
+        <TLCTerm eId="term_12" href="/ontology/term/תקופת_הבחירות/147733" showAs="תקופת_הבחירות" />
+        <TLCTerm eId="term_13" href="/ontology/term/הועדה_הציבורית/147733" showAs="הועדה_הציבורית" />
+        <TLCTerm eId="term_14" href="/ontology/term/חוק_הבחירות/147733" showAs="חוק_הבחירות" />
+        <TLCTerm eId="term_15" href="/ontology/term/חוק_הכנסת/147733" showAs="חוק_הכנסת" />
+        <TLCTerm eId="term_16" href="/ontology/term/רשימת_מועמדים/147733" showAs="רשימת_מועמדים" />
+        <TLCTerm eId="term_17" href="/ontology/term/רשימת_מועמדים_משותפת/147733" showAs="רשימת_מועמדים_משותפת" />
+        <TLCTerm eId="term_18" href="/ontology/term/הסכם_מימון_שוטף/147733" showAs="הסכם_מימון_שוטף" />
+        <TLCTerm eId="term_19" href="/ontology/term/הסכם_הוצאות_בחירות/147733" showAs="הסכם_הוצאות_בחירות" />
+        <TLCTerm eId="term_20" href="/ontology/term/תאגיד_בנקאי/147733" showAs="תאגיד_בנקאי" />
+        <TLCTerm eId="term_21" href="/ontology/term/גוף_פעיל_בבחירות/147733" showAs="גוף_פעיל_בבחירות" />
+        <TLCTerm eId="term_22" href="/ontology/term/מאגר_מידע/147733" showAs="מאגר_מידע" />
+        <TLCTerm eId="term_23" href="/ontology/term/פעילות_בחירות/147733" showAs="פעילות_בחירות" />
+        <TLCTerm eId="term_24" href="/ontology/term/קיבוץ/147733" showAs="קיבוץ" />
+        <TLCTerm eId="term_25" href="/ontology/term/אגודה_חקלאית/147733" showAs="אגודה_חקלאית" />
+        <TLCPerson eId="גולדה_מאיר" href="/ontology/person/גולדה_מאיר" showAs="גולדה מאיר" />
+        <TLCPerson eId="שניאור_זלמן_שזר" href="/ontology/person/שניאור_זלמן_שזר" showAs="שניאור זלמן שזר" />
+        <TLCRole eId="ראש_הממשלה" href="ontology/role/akn/ראש_הממשלה" showAs="ראש הממשלה" />
+        <TLCRole eId="נשיא_המדינה" href="ontology/role/akn/נשיא_המדינה" showAs="נשיא המדינה" />
+      </references>
+      <temporalData source="#kensset">
+        <temporalGroup eId="tmpg_1" />
+      </temporalData>
+      <Publication></Publication>
+      <proprietary wikiversion="12/17/2020 1:35:19 PM" />
+    </meta>
+    <body period="#tmpg_1">
+      <title eId="title">
+        <content>
+          <p>חוק מימון מפלגות, תשל"ג–1973</p>
+        </content>
+      </title>
+      <list>
+        <point eId="point_1" class="definitions">
+          <heading>
+            <authorialNote placement="side">
+              <p>הגדרות</p>
+            </authorialNote>
+          </heading>
+          <num>1.</num>
+          <list>
+            <intro>
+              <p>בחוק זה –</p>
+            </intro>
+            <point eId="point_1__point_מפלגה">
+              <content>
+                <p>
+                  <def />”מפלגה“ – כמשמעותה <ref href="/akn/il/act/PrimaryLegislation/1992-04-09/153093">בחוק המפלגות, התשנ"ב–1992</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_סיעה">
+              <list>
+                <intro>
+                  <p>
+                    <def />”סיעה“ – כל אחד מאלה:</p>
+                </intro>
+                <point eId="point_1__point_סיעה__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>מפלגה שהיתה מיוצגת על ידי סיעה בכנסת היוצאת, הגישה בבחירות לכנסת רשימת מועמדים והיא מיוצגת בכנסת על ידי חבר כנסת אחד לפחות;</p>
+                  </content>
+                </point>
+                <point eId="point_1__point_סיעה__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>מפלגה שועדת הכנסת הכירה בנציגה או בנציגיה בכנסת כסיעה;</p>
+                  </content>
+                </point>
+                <point eId="point_1__point_סיעה__point_3">
+                  <num>(3)</num>
+                  <content>
+                    <p>צירוף של שתי מפלגות או יותר המקיימות בכנסת סיעה אחת;</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_1__point_סיעה_חדשה">
+              <content>
+                <p>
+                  <def />”סיעה חדשה“ – מפלגה שלא היתה מיוצגת על ידי סיעה בכנסת היוצאת, הגישה בבחירות לכנסת רשימת מועמדים והיא מיוצגת בכנסת על ידי חבר כנסת אחד לפחות;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_גוף_הקשור_לסיעה">
+              <content>
+                <p>
+                  <def />”גוף הקשור לסיעה“ – חבר־בני־אדם, בין מואגד ובין שאינו מואגד, המשתתף בתעמולת הבחירות או בפעילות מפלגתית שוטפת, שלדעת מבקר המדינה יש לראותו כזרוע של הסיעה בהתחשב בכל האיפיונים הבאים או מקצתם: מטרותיו של חבר־בני־אדם, פעולותיו, זהות בעליו, מנהליו וחבריו, ייעוד רווחיו והמקורות לכיסוי הפסדיו; אך למעט הסתדרות עובדים ואגודה שיתופית להתיישבות לענין פעולות אשר לדעת מבקר המדינה הן עשו שלא בחזקת זרוע של סיעה;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_הוצאות">
+              <content>
+                <p>
+                  <def />”הוצאות“ – הוצאות של סיעה לארגון פעולותיה, לתעמולה ולהסברה ולקיום הקשר הארגוני והרעיוני עם הציבור, לרבות התחייבויות בשל הוצאות כאלה;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_הוצאות_בחירות">
+              <content>
+                <p>
+                  <def />”הוצאות בחירות“ – ההוצאות המיוחדות של סיעה או של רשימת מועמדים, שהוצאו בתקופת הבחירות או למען הבחירות במערכת הבחירות לכנסת;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_הוצאות_שוטפות">
+              <content>
+                <p>
+                  <def />”הוצאות שוטפות“ – הוצאות של סיעה, למעט הוצאות הבחירות;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_מימון_ההוצאות_השוטפות_שסיעה_מקבלת_בחודש">
+              <content>
+                <p>
+                  <def />”מימון ההוצאות השוטפות שסיעה מקבלת בחודש“ – המימון המגיע לסיעה לפי <ref href="#point_3">סעיפים 3(ג)</ref><ref href="#point_12">ו־12</ref>, לרבות לפי הסכם כאמור <ref href="#point_12">בסעיף 12(ד)</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_הפרשי_הצמדה_וריבית">
+              <content>
+                <p>
+                  <def />”הפרשי הצמדה וריבית“ – כהגדרתם <ref href="/akn/il/act/PrimaryLegislation/1979-01-01/148271">בחוק פסיקת ריבית והצמדה, התשכ"א–1961</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_צוות_פרלמנטרי">
+              <content>
+                <p>
+                  <def />”צוות פרלמנטרי“ – עובדים של מפלגה או של סיעה המועסקים דרך קבע במשרדי הסיעה בכנסת ועיקר עיסוקם בפעילות הפרלמנטרית של הסיעה בכנסת;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_היום_הקובע">
+              <list>
+                <intro>
+                  <p>
+                    <def />”היום הקובע“ – כל אחד מאלה, לפי הענין –</p>
+                </intro>
+                <point eId="point_1__point_היום_הקובע__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>היום ה־101 לפני יום הבחירות לכנסת לפי <ref href="/akn/il/act/PrimaryLegislation/1958-02-20/147453#point_9">סעיף 9 לחוק יסוד: הכנסת</ref>;</p>
+                  </content>
+                </point>
+                <point eId="point_1__point_היום_הקובע__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>בבחירות המתקיימות על פי חוק התפזרות הכנסת, כאמור <ref href="/akn/il/act/PrimaryLegislation/1958-02-20/147453#point_34">בסעיף 34 לחוק־יסוד: הכנסת</ref> – היום השלישי אחרי תחילת <ref href="/akn/il/act/PrimaryLegislation/1958-02-20/147453">אותו חוק</ref>;</p>
+                  </content>
+                </point>
+                <point eId="point_1__point_היום_הקובע__point_3">
+                  <num>(3)</num>
+                  <content>
+                    <p>בבחירות מוקדמות המתקיימות לפי הוראות <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/חוק_יסוד_הממשלה#point_11">סעיפים 11(ב)</ref><ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/חוק_יסוד_הממשלה#point_29">או 29(ו) לחוק־יסוד: הממשלה</ref>, או לפי הוראות <ref href="/akn/il/act/PrimaryLegislation/1958-02-20/147453#point_36א">סעיף 36א לחוק־יסוד: הכנסת</ref> – היום השלישי אחרי היום שבו נוצרה העילה לקיום הבחירות המוקדמות;</p>
+                  </content>
+                </point>
+                <point eId="point_1__point_היום_הקובע__point_4">
+                  <num>(4)</num>
+                  <content>
+                    <p>
+                      <def />
+                      <wikicomment font-size="x-small">(נמחקה);</wikicomment>
+                      <br space="preserve"></br>”תקופת הבחירות“ – התקופה שמן היום הקובע עד יום הבחירות;<br space="preserve"></br>”יחידת מימון“ – סכום שקבעה הועדה הציבורית כיחידת מימון לענין חוק זה, והודעה על קביעתו פורסמה ברשומות;<br space="preserve"></br><wikicomment font-size="x-small">פורסמה הודעה בדבר שינוי סכום יחידת מימון, לפיה סכום יחידת המימון בשנת 2020 יעמוד על 1,388,600 ש"ח (י"פ תש"ף, 2996).</wikicomment></p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_1__point_הועדה_הציבורית">
+              <content>
+                <p>
+                  <def />”הועדה הציבורית“ – הועדה שהוקמה לפי <ref href="#point_1א">סעיף 1א</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_חוק_הבחירות">
+              <content>
+                <p>
+                  <def />”חוק הבחירות“ – <ref href="/akn/il/act/PrimaryLegislation/1969-04-14/2002229">חוק הבחירות לכנסת [נוסח משולב], התשכ"ט–1969</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_חוק_הכנסת">
+              <content>
+                <p>
+                  <def />”חוק הכנסת“ – <ref href="/akn/il/act/PrimaryLegislation/1996-03-21/159642">חוק הכנסת, התשנ"ד–1994</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_רשימת_מועמדים">
+              <content>
+                <p>
+                  <def />”רשימת מועמדים“ – מפלגה שאינה מיוצגת בכנסת והגישה בבחירות לכנסת רשימת מועמדים;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_רשימת_מועמדים_משותפת">
+              <content>
+                <p>
+                  <def />”רשימת מועמדים משותפת“ – כהגדרתה <ref href="/akn/il/act/PrimaryLegislation/1969-04-14/2002229#point_57">בסעיף 57 לחוק הבחירות</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_הסכם_מימון_שוטף">
+              <content>
+                <p>
+                  <def />”הסכם מימון שוטף“ – הסכם בין מפלגות שהגישו רשימת מועמדים משותפת לעניין המימון החודשי כאמור <ref href="#point_12">בסעיף 12(ד)</ref>, שהוגש ליושב ראש ועדת הבחירות המרכזית בעת הגשת רשימת המועמדים המשותפת;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_הסכם_הוצאות_בחירות">
+              <content>
+                <p>
+                  <def />”הסכם הוצאות בחירות“ – הסכם בין מפלגות שהגישו רשימת מועמדים משותפת לעניין מימון הבחירות כאמור <ref href="#point_13ב">בסעיף 13ב(ד)</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_תאגיד_בנקאי">
+              <content>
+                <p>
+                  <def />”תאגיד בנקאי“ – כמשמעותו <ref href="/akn/il/act/PrimaryLegislation/1981-04-26/147066">בחוק הבנקאות (רישוי), התשמ"א–1981</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_גוף_פעיל_בבחירות">
+              <content>
+                <p>
+                  <def />”גוף פעיל בבחירות“ – אדם או חבר בני אדם אשר נרשם כאמור <ref href="#point_10ג">בסעיף 10ג(א)</ref> לשם ביצוע פעילות בחירות;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_מאגר_מידע">
+              <content>
+                <p>
+                  <def />”מאגר מידע“ – מאגר כאמור בפסקה (1) להגדרה ”פעילות בחירות“;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_פעילות_בחירות">
+              <list>
+                <intro>
+                  <p>
+                    <def />”פעילות בחירות“ – אחת או יותר מהפעילויות המנויות להלן שבוצעה שלא בידי מפלגה או גוף הקשור לסיעה:</p>
+                </intro>
+                <point eId="point_1__point_פעילות_בחירות__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>יצירת מאגר מידע ובו פרטים מזהים של בוחרים בבחירות לכנסת לצד מידע בדבר כוונות ההצבעה שלהם בבחירות, לשם ביצוע הפעילויות האמורות בפסקאות (2) עד (4) שלהלן, ושלא לשם מכירתו למפלגה;</p>
+                  </content>
+                </point>
+                <point eId="point_1__point_פעילות_בחירות__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>הסעת בוחרים ביום הבחירות לכנסת, שלא לפי חוק ושלא בתמורה מלאה לשם הבטחת הצבעתם בשל כוונות ההצבעה שלהם בבחירות;</p>
+                  </content>
+                </point>
+                <point eId="point_1__point_פעילות_בחירות__point_3">
+                  <num>(3)</num>
+                  <content>
+                    <p>פנייה ישירה בתקופת הבחירות לבוחרים בעלי עמדות פוליטיות מסוימות שמטרתה להשפיע עליהם להצביע בעד רשימת מועמדים מסוימת או להימנע מלהצביע בעד רשימת מועמדים מסוימת;</p>
+                  </content>
+                </point>
+                <point eId="point_1__point_פעילות_בחירות__point_4">
+                  <num>(4)</num>
+                  <content>
+                    <p>תעמולה באמצעות מודעות פרסום, שמטרתה להשפיע על בוחרים להצביע בעד רשימת מועמדים מסוימת או להימנע מלהצביע בעד רשימת מועמדים מסוימת.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+          </list>
+        </point>
+        <point eId="point_1א">
+          <heading>
+            <authorialNote placement="side">
+              <p>ועדה ציבורית</p>
+            </authorialNote>
+          </heading>
+          <num>1א.</num>
+          <list>
+            <point eId="point_1א__point_א">
+              <num>(א)</num>
+              <content>
+                <p>לצורך חוק זה תוקם ועדה ציבורית של שלושה, ובראשה שופט שמינה נשיא בית המשפט העליון; את חבריה האחרים ימנה יושב ראש הכנסת; אחד מחברי הועדה יהיה בעת מינויו חבר בסגל האקדמי של מוסד להשכלה גבוהה שהוכר לפי <ref href="/akn/il/act/PrimaryLegislation/1958-08-14/147288">חוק המועצה להשכלה גבוהה, התשי"ח–1958</ref>.</p>
+              </content>
+            </point>
+            <point eId="point_1א__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>תקופת כהונתה של הועדה הציבורית תהיה ארבע שנים מיום מינויה; הודעה על מינוי הוועדה ועל הרכבה תפורסם ברשומות מטעם הכנסת.</p>
+              </content>
+            </point>
+            <point eId="point_1א__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>חבר הוועדה הציבורית שכיהן בה שתי תקופות כהונה מלאות ברציפות לא ימונה לתקופת כהונה נוספת ברציפות.</p>
+              </content>
+            </point>
+            <point eId="point_1א__point_ד">
+              <num>(ד)</num>
+              <content>
+                <p>חדל חבר הועדה לכהן או נבצר ממנו דרך קבע למלא תפקידו, ימונה אחר במקומו כאמור בסעיף קטן (א) ליתרה של תקופת כהונתה של הועדה.</p>
+              </content>
+            </point>
+            <point eId="point_1א__point_ה">
+              <num>(ה)</num>
+              <content>
+                <p>יושב ראש הכנסת יקבע הוראות בדבר תשלום גמול לחברי הועדה הציבורית שישולם מאוצר המדינה.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_1ב">
+          <heading>
+            <authorialNote placement="side">
+              <p>תפקיד הועדה הציבורית</p>
+            </authorialNote>
+          </heading>
+          <num>1ב.</num>
+          <list>
+            <point eId="point_1ב__point_א">
+              <num>(א)</num>
+              <content>
+                <p>הועדה הציבורית תקבע את שיעור יחידת המימון כאמור <ref href="#point_3">בסעיף 3</ref>.</p>
+              </content>
+            </point>
+            <point eId="point_1ב__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>תחילתה של קביעת יחידת המימון תהיה באחד המועדים הבאים, כפי שתחליט הועדה הציבורית: 1 בינואר, 1 באפריל, 1 ביולי או 1 באוקטובר.</p>
+              </content>
+            </point>
+            <point eId="point_1ב__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>הועדה הציבורית לא תפחית סכום או יחידת מימון שקבעה אלא בהחלטה שהתקבלה פה אחד.</p>
+              </content>
+            </point>
+            <point eId="point_1ב__point_ד">
+              <num>(ד)</num>
+              <content>
+                <p>לא תיקבע יחידת מימון בתוקף למפרע.</p>
+              </content>
+            </point>
+            <point eId="point_1ב__point_ה">
+              <num>(ה)</num>
+              <content>
+                <p>
+                  <wikicomment font-size="x-small">(בוטל).</wikicomment>
+                </p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_1ג">
+          <heading>
+            <authorialNote placement="side">
+              <p>הצמדה</p>
+            </authorialNote>
+          </heading>
+          <num>1ג.</num>
+          <list>
+            <point eId="point_1ג__point_א">
+              <num>(א)</num>
+              <content>
+                <p>בסעיף זה, ”מדד“ – מדד המחירים לצרכן שמפרסמת הלשכה המרכזית לסטטיסטיקה.</p>
+              </content>
+            </point>
+            <point eId="point_1ג__point_ב">
+              <num>(ב)</num>
+              <list>
+                <intro>
+                  <p>יחידת המימון תתעדכן ב־1 בינואר של כל שנה בהתאם לשיעור עליית המדד ולענין זה יחולו הוראות אלה:</p>
+                </intro>
+                <point eId="point_1ג__point_ב__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>
+                      <wikicomment font-size="x-small">(נמחקה);</wikicomment>
+                    </p>
+                  </content>
+                </point>
+                <point eId="point_1ג__point_ב__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>הסכומים שהשתנו יעוגלו למאה שקלים חדשים הקרובים;</p>
+                  </content>
+                </point>
+                <point eId="point_1ג__point_ב__point_3">
+                  <num>(3)</num>
+                  <content>
+                    <p>הועדה תפרסם ברשומות הודעה על הסכומים שהשתנו לפי קביעתה כאמור <ref href="#point_1ב">בסעיף 1ב</ref>; הודעה על הסכומים שהתעדכנו לפי סעיף זה תפורסם ברשומות מטעם הכנסת.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_1ג__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>הסכומים הנקובים <ref href="#point_3א">בסעיפים 3א</ref>, <ref href="#point_8">8</ref>, <ref href="#point_8ג">8ג</ref>, <ref href="#point_9א">9א</ref><ref href="#point_10ג">ו־10ג</ref> יוצמדו למדד ויעוגלו כאמור בסעיף קטן (ב); הסכומים המעודכנים יפורסמו ברשומות מטעם הכנסת.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_2">
+          <heading>
+            <authorialNote placement="side">
+              <p>הזכות למימון</p>
+            </authorialNote>
+          </heading>
+          <num>2.</num>
+          <list>
+            <point eId="point_2__point_א">
+              <num>(א)</num>
+              <list>
+                <intro>
+                  <p>כל סיעה זכאית, לפי הוראות חוק זה –</p>
+                </intro>
+                <point eId="point_2__point_א__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>למימון הוצאות הבחירות בתקופת הבחירות;</p>
+                  </content>
+                </point>
+                <point eId="point_2__point_א__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>למימון הוצאותיה השוטפות בכל חודש החל בחודש שאחרי פרסום תוצאות הבחירות לכנסת ועד החודש שבו פורסמו תוצאות הבחירות לכנסת הבאה;</p>
+                  </content>
+                </point>
+                <point eId="point_2__point_א__point_3">
+                  <num>(3)</num>
+                  <content>
+                    <p>למימון התשלומים לצוות הפרלמנטרי.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_2__point_א1">
+              <num>(א1)</num>
+              <content>
+                <p>סיעה או רשימת מועמדים שקיבלה בבחירות מספר קולות כשרים העולה על 1%, אך אינה משתתפת בחלוקת המנדטים לפי <ref href="/akn/il/act/PrimaryLegislation/1969-04-14/2002229#point_81">סעיף 81(א) לחוק הבחירות</ref>, זכאית לקבל הוצאות בחירות בשיעור של יחידת מימון אחת, ובלבד שנתקיימו התנאים <ref href="#point_6">שבסעיף 6(א)</ref>, בשינויים המחויבים; 85% מהסכום ישולמו מיד לאחר פרסום תוצאות הבחירות, ו־15% מהסכום – מיד לאחר שמבקר המדינה הגיש ליושב ראש הכנסת דין וחשבון חיובי לפי <ref href="#point_10">סעיף 10(ב)</ref>, ומקדמה ששולמה לרשימת המועמדים לפי <ref href="#point_4">סעיף 4</ref> תנוכה מתשלומים אלה בדרך האמורה <ref href="#point_4">בסעיף 4(ג) או (ג1)</ref>, לפי העניין; לענין זה, ”קולות כשרים“ – כמשמעותם <ref href="/akn/il/act/PrimaryLegislation/1969-04-14/2002229">בחוק הבחירות</ref>.</p>
+              </content>
+            </point>
+            <point eId="point_2__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>כספי המימון ישולמו מאוצר המדינה באמצעות יושב־ראש הכנסת, לחשבון בנקאי של כל סיעה, כאמור <ref href="#point_6">בסעיף 6(א)(3)</ref>.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_2א">
+          <heading>
+            <authorialNote placement="side">
+              <p xml:space="preserve"> </p>
+            </authorialNote>
+          </heading>
+          <num>2א.</num>
+          <content>
+            <p>
+              <wikicomment font-size="x-small">(בוטל).</wikicomment>
+            </p>
+          </content>
+        </point>
+        <point eId="point_2ב">
+          <heading>
+            <authorialNote placement="side">
+              <p xml:space="preserve"> </p>
+            </authorialNote>
+          </heading>
+          <num>2ב.</num>
+          <content>
+            <p>
+              <wikicomment font-size="x-small">(פקע).</wikicomment>
+            </p>
+          </content>
+        </point>
+        <point eId="point_3">
+          <heading>
+            <authorialNote placement="side">
+              <p>חישוב המימון</p>
+            </authorialNote>
+          </heading>
+          <num>3.</num>
+          <list>
+            <point eId="point_3__point_א">
+              <num>(א)</num>
+              <list>
+                <point eId="point_3__point_א__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>המימון של הוצאות הבחירות של סיעה חדשה יהיה לפי יחידת מימון אחת לכל מנדט שבו זכתה בבחירות לכנסת, בתוספת סכום השווה ליחידת מימון אחת.</p>
+                  </content>
+                </point>
+                <point eId="point_3__point_א__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>המימון של הוצאות הבחירות של סיעה שנוצרה בכנסת היוצאת עקב החלטה של ועדת הכנסת על שינוי בהרכב הסיעתי של הכנסת ולא עקב בחירתה לכנסת היוצאת של המפלגה שאותה סיעה מייצגת, יהיה יחידת מימון אחת לכל מנדט שבו זכתה הסיעה בבחירות לכנסת הנכנסת, בתוספת סכום השווה ליחידת מימון אחת.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_3__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>המימון של הוצאות הבחירות של סיעה יהיה לפי מספר יחידות מימון שנתקבל ממספר המנדטים שבהם זכתה הסיעה בכנסת היוצאת בתוספת מספר המנדטים שבהם זכתה הסיעה בכנסת הנכנסת מחולק בשתיים, בתוספת סכום השווה ליחידת מימון אחת.</p>
+              </content>
+            </point>
+            <point eId="point_3__point_ב1">
+              <num>(ב1)</num>
+              <content>
+                <p>המימון של הוצאות הבחירות של מפלגות שהגישו רשימת מועמדים משותפת יחושב לכל מפלגה בנפרד על פי הוראות סעיפים קטנים (א) ו־(ב) בין שחשבון הבחירות מנוהל בנפרד ובין במשותף, לפי הוראות <ref href="#point_13ב">סעיף 13ב(א) או (ב)</ref>; ואולם תוספת הסכום השווה ליחידת מימון אחת כאמור בסעיפים קטנים (א) ו־(ב) תשולם פעם אחת לכל המפלגות כאמור, והיא תחולק ביניהן לפי שיעור חלקן בפועל בסך הכולל של מימון הוצאות הבחירות הניתן להן לפי סעיפים קטנים (א), (ב) או (ב2).</p>
+              </content>
+            </point>
+            <point eId="point_3__point_ב2">
+              <num>(ב2)</num>
+              <content>
+                <p>על אף האמור בסעיפים קטנים (א) עד (ב1), נערך הסכם מימון שוטף, יראו, לעניין המימון של הוצאות הבחירות, את מספר המנדטים שבהם זכתה כל אחת מהמפלגות שהן צד להסכם כאילו הוא המספר לפי שיעור המימון החודשי בהתאם להסכם במועד התשלום הראשון של מימון ההוצאות השוטפות לפי <ref href="#point_2">סעיף 2(א)(2)</ref>, והמספר לא יעוגל; והכול אלא אם כן נקבע בהסכם האמור כי הוראות סעיף קטן זה לא יחולו.</p>
+              </content>
+            </point>
+            <point eId="point_3__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>המימון החודשי של ההוצאות השוטפות לסיעה יהיה בסכום של 6% מיחידת מימון אחת לכל מנדט שבו זכתה הסיעה בבחירות לכנסת, בתוספת סכום של 6% מיחידת מימון אחת.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_3א">
+          <heading>
+            <authorialNote placement="side">
+              <p>מימון תשלומים לצוות הפרלמנטרי</p>
+            </authorialNote>
+          </heading>
+          <num>3א.</num>
+          <list>
+            <point eId="point_3א__point_א">
+              <num>(א)</num>
+              <content>
+                <p>הסכום השנתי הכולל המיועד למימון התשלומים לצוות הפרלמנטרי כאמור <ref href="#point_2">בסעיף 2(א)(3)</ref> לא יעלה על 6 מיליון שקלים חדשים <wikicomment font-size="x-small">(מתואם לשנת 2004; בשנת 2020, 7,449,000 ש"ח)</wikicomment>, שישולמו מתקציב הכנסת; יושב ראש הכנסת יקבע כללים לחלוקת הסכום בין סיעות המונות שני חברי הכנסת לפחות, בהתחשב, בין השאר, בגודלן.<br space="preserve"></br><wikicomment font-size="x-small">פורסמו <ref href="/akn/il/act/SecondaryLegislation/2004-10-19/100031809">כללי מימון מפלגות (מימון תשלומים לצוות הפרלמנטרי), התשס"ה–2004</ref>.</wikicomment></p>
+              </content>
+            </point>
+            <point eId="point_3א__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>
+                  <wikicomment font-size="x-small">(בוטל).</wikicomment>
+                </p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_4">
+          <heading>
+            <authorialNote placement="side">
+              <p>תשלום הוצאות הבחירות</p>
+            </authorialNote>
+          </heading>
+          <num>4.</num>
+          <list>
+            <point eId="point_4__point_א">
+              <num>(א)</num>
+              <list>
+                <point eId="point_4__point_א__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>סיעה שמסרה ליושב־ראש הכנסת אישור של יושב־ראש ועדת הבחירות המרכזית שהגישה רשימת מועמדים לכנסת הבאה, תשולם לה מיד מקדמה על חשבון המימון של הוצאות הבחירות שלה; המקדמה תהיה 70% מיחידת מימון אחת לכל חבר הכנסת שנמנה עם הסיעה ביום הקובע; לעניין זה יחולו הוראות <ref href="/akn/il/act/PrimaryLegislation/1996-03-21/159642#point_62">סעיף 62 לחוק הכנסת</ref>, ואולם חבר הכנסת שוועדת הכנסת קבעה כי פרש מהסיעה לאחר היום הקובע לא יימנה.</p>
+                  </content>
+                </point>
+                <point eId="point_4__point_א__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>לעניין סעיף זה, יראו מפלגות שהגישו רשימת מועמדים משותפת כסיעה אחת, בין שחשבון הבחירות מנוהל בנפרד ובין במשותף, לפי הוראות <ref href="#point_13ב">סעיף 13ב(א) או (ב)</ref>.</p>
+                  </content>
+                </point>
+                <point eId="point_4__point_א__point_3">
+                  <num>(3)</num>
+                  <content>
+                    <p>ניהלו מפלגות שהגישו רשימת מועמדים משותפת את חשבון הבחירות בנפרד כאמור <ref href="#point_13ב">בסעיף 13ב(א)</ref>, תחולק ביניהן המקדמה לפי מספר חברי הכנסת שנמנים עם כל אחת מהן ביום הקובע כאמור בפסקה (1).</p>
+                  </content>
+                </point>
+                <point eId="point_4__point_א__point_4">
+                  <num>(4)</num>
+                  <content>
+                    <p>על אף האמור בפסקאות (1) ו־(3), נערך הסכם מימון שוטף, יראו את מספר חברי הכנסת שנמנים עם כל אחת מהמפלגות שהן צד להסכם ביום הקובע כאילו הוא המספר לפי שיעור המימון החודשי בהתאם להסכם ביום הקובע, והמספר לא יעוגל; והכול אלא אם כן נקבע בהסכם האמור כי הוראות פסקה זו לא יחולו.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_4__point_א1">
+              <num>(א1)</num>
+              <content>
+                <p>על אף האמור בסעיף קטן (א), סיעה המונה פחות מעשרה חברי כנסת, רשאית לבקש מקדמה על חשבון המימון של הוצאות הבחירות שלה בשיעור של 70% מעשר יחידות מימון, ובלבד שהפקידה בידי יושב ראש הכנסת כתב ערבות בנקאית עצמאית, להנחת דעתו, על ההפרש שבין סכום המקדמה לפי סעיף קטן זה לבין סכום המקדמה המגיע לה לפי סעיף קטן (א); תוקפו של כתב הערבות הבנקאית יהיה לפחות עד תום שישה חודשים אחרי יום הבחירות; בכתב הערבות תיכלל התחייבות הבנק לשלם לאוצר המדינה את סכום הערבות, כולו או מקצתו, על פי דרישת יושב ראש הכנסת.</p>
+              </content>
+            </point>
+            <point eId="point_4__point_א2">
+              <num>(א2)</num>
+              <content>
+                <p>רשימת מועמדים רשאית לבקש מקדמה על חשבון מימון הוצאות הבחירות שלה בשיעור של 70% מעשר יחידות מימון, ובלבד שמסרה ליושב ראש הכנסת אישור של יושב ראש ועדת הבחירות המרכזית על הגשת רשימת מועמדים לכנסת הבאה, הפקידה כתב ערבות בנקאית כאמור בסעיף קטן (א1), וכן קיימה את התנאים המפורטים <ref href="#point_6">בסעיף 6(א)</ref>.</p>
+              </content>
+            </point>
+            <point eId="point_4__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>זכתה סיעה או סיעה חדשה בבחירות לכנסת הנכנסת במנדט אחד לפחות, ישולם לה הסכום המגיע לה לפי <ref href="#point_3">סעיף 3</ref> מיד לאחר פרסום תוצאות הבחירות.</p>
+              </content>
+            </point>
+            <point eId="point_4__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>מקדמה שסיעה או סיעה חדשה קיבלה לפי סעיף קטן (א) תנוכה מן התשלומים לפי סעיף קטן (ב); היתה המקדמה גדולה מן הסכום המגיע לסיעה למימון הוצאות הבחירות, תנוכה היתרה מן הסכום הראשון או מן הסכומים הראשונים המגיעים לה למימון הוצאותיה השוטפות.</p>
+              </content>
+            </point>
+            <point eId="point_4__point_ג1">
+              <num>(ג1)</num>
+              <content>
+                <p>היתה המקדמה ששולמה לפי סעיפים קטנים (א1) ו־(א2) גדולה מן הסכום המגיע לסיעה או לרשימת המועמדים לפי סעיף קטן (ב), יורה יושב ראש הכנסת על מימוש הערבות הבנקאית, כולה או חלקה, עד להפרש שבין סכום המקדמה ששולמה לבין הסכום המגיע כאמור.</p>
+              </content>
+            </point>
+            <point eId="point_4__point_ג2">
+              <num>(ג2)</num>
+              <content>
+                <p>שולמה למפלגה מקדמה על חשבון מימון הוצאות הבחירות בסכום גדול מהסכום המגיע לה למימון הוצאות הבחירות, ולא ניתן לנכותו או לממש לגביו ערבות בנקאית, לפי סעיף קטן (ג) או (ג1), תחזירו המפלגה בלא דיחוי, ואם לא עשתה כן – ינוכה החוב מכל סכום המגיע לה מאוצר המדינה לפי חוק זה או לפי דין אחר; יושב ראש הכנסת יודיע לשר האוצר, לשר המשפטים ולשר הפנים על חוב כאמור שלא הוחזר.</p>
+              </content>
+            </point>
+            <point eId="point_4__point_ג3">
+              <num>(ג3)</num>
+              <content>
+                <p>לעניין מפלגה שהגישה רשימת מועמדים משותפת ושולמה לה מקדמה כאמור בסעיף קטן (ג2), ולא ניתן לנכות את החוב בדרך האמורה באותו סעיף קטן, ינוכה החוב מתשלומי ההוצאות השוטפות של שאר המפלגות שהגישו איתה את רשימת המועמדים המשותפת לפי שיעור חלקן בפועל בסך הכולל של מימון ההוצאות השוטפות.</p>
+              </content>
+            </point>
+            <point eId="point_4__point_ד">
+              <num>(ד)</num>
+              <content>
+                <p>סיעה חדשה תהיה זכאית להחזר הוצאות מימון של הוצאות בחירות שנשאה בהן.</p>
+              </content>
+            </point>
+            <point eId="point_4__point_ה">
+              <num>(ה)</num>
+              <content>
+                <p>לענין סעיף זה, ”הוצאות מימון“ – הוצאות מימון ששולמו למוסד כספי בקשר לאשראי שניתן לסיעה לצרכי הוצאות בחירות שנשאה בהם הסיעה החל מ־15 ימים אחרי היום הקובע, ובלבד שלא יוחזרו הוצאות מימון לגבי אשראי שעלה על סכום מימון הוצאות בחירות שהסיעה זכאית לו לפי <ref href="#point_3">סעיף 3</ref> ושטרם שולם לה על פי סעיפים קטנים (א) או (ב).</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_4א">
+          <heading>
+            <authorialNote placement="side">
+              <p>סייג למימון</p>
+            </authorialNote>
+          </heading>
+          <num>4א.</num>
+          <content>
+            <p>לא יינתן מימון מיוחד לצורך הוצאות לבחירות חוזרות הנערכות באזור קלפי מסויימת, כאמור <ref href="/akn/il/act/PrimaryLegislation/1969-04-14/2002229#point_86">בסעיף 86(ד)(1) לחוק הבחירות</ref>.</p>
+          </content>
+        </point>
+        <point eId="point_5">
+          <heading>
+            <authorialNote placement="side">
+              <p>תשלום ההוצאות השוטפות</p>
+            </authorialNote>
+          </heading>
+          <num>5.</num>
+          <content>
+            <p>התשלומים למימון ההוצאות השוטפות של הסיעות ישולמו להן במועדים שתקבע הועדה הציבורית.</p>
+          </content>
+        </point>
+        <point eId="point_5א">
+          <heading>
+            <authorialNote placement="side">
+              <p>מינוי רואה חשבון</p>
+            </authorialNote>
+          </heading>
+          <num>5א.</num>
+          <list>
+            <point eId="point_5א__point_א">
+              <num>(א)</num>
+              <content>
+                <p>סיעה או רשימת מועמדים תמנה לה רואה חשבון לביקורת חשבונותיה ולמתן חוות דעת לפי <ref href="#point_10">סעיף 10(ד1)</ref>.</p>
+              </content>
+            </point>
+            <point eId="point_5א__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>רואה החשבון, שהודעה על מינויו נמסרה לפי <ref href="#point_6">סעיף 6(א)(4)</ref> ונתן הסכמתו לשמש בתפקיד (להלן – רואה החשבון), ימשיך לכהן כל עוד לא מונה אחר במקומו.</p>
+              </content>
+            </point>
+            <point eId="point_5א__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>התפטר רואה החשבון או נבצר ממנו למלא את תפקידו, תמנה הסיעה או רשימת המועמדים, תוך שלושים ימים מהיום שנודע לה על כך, רואה חשבון אחר במקומו.</p>
+              </content>
+            </point>
+            <point eId="point_5א__point_ד">
+              <num>(ד)</num>
+              <content>
+                <p>מבקר המדינה רשאי לקבוע קווים מנחים לרואי החשבון שנתמנו לענין חוק זה בדבר דרכים ונהלים לבדיקת החשבונות של הסיעות ושל רשימות המועמדים.<br space="preserve"></br><wikicomment font-size="x-small">פורסמו <ref href="/akn/il/act/SecondaryLegislation/1994-12-29/100025398">הנחיות מימון מפלגות (קווים מנחים לרואה חשבון), התשנ"ה–1994</ref> (ק"ת תשנ"ה, 462).</wikicomment></p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_6">
+          <heading>
+            <authorialNote placement="side">
+              <p>תנאים לתשלום</p>
+            </authorialNote>
+          </heading>
+          <num>6.</num>
+          <list>
+            <point eId="point_6__point_א">
+              <num>(א)</num>
+              <list>
+                <intro>
+                  <p>תנאי קודם לתשלום הסכומים למימון הוצאות הבחירות ולמימון ההוצאות השוטפות הוא, שהחל מהיום הקובע ובסיעה חדשה – מהיום שבו הוכרה כסיעה –</p>
+                </intro>
+                <point eId="point_6__point_א__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>הודיעה הסיעה ליושב־ראש הכנסת את שמותיהם של לא פחות משניים ולא יותר משמונה נציגים שיהיו מוסמכים לפעול בשם הסיעה לענין חוק זה (להלן – הנציגים); להודעה תצורף הסכמת הנציגים; אחד לפחות מן הנציגים יהיה חבר הכנסת ועל אחד מהם לפחות יצהירו הסיעה והוא עצמו שהוא בקיא במשק הכספים של הסיעה;</p>
+                  </content>
+                </point>
+                <point eId="point_6__point_א__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>הגישה הסיעה ליושב־ראש הכנסת הצהרה חתומה בידי נציגיה, שהסיעה עשתה את כל הדרוש כדי להבטיח ניהול נאות של חשבון הכנסותיה והוצאותיה בהתאם להנחיות מבקר המדינה לענין זה;</p>
+                  </content>
+                </point>
+                <point eId="point_6__point_א__point_3">
+                  <num>(3)</num>
+                  <content>
+                    <p>הודיעה הסיעה ליושב־ראש הכנסת את מספר חשבונה או חשבונותיה בבנק או בבנקים;</p>
+                  </content>
+                </point>
+                <point eId="point_6__point_א__point_4">
+                  <num>(4)</num>
+                  <content>
+                    <p>הודיעה הסיעה או רשימת המועמדים ליושב ראש הכנסת את שם רואה החשבון שלה ומענו ופרטים נוספים לגביו שקבע יושב ראש הכנסת, וצירפה כתב הסכמה של רואה החשבון לשמש בתפקידו.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_6__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>סיעה רשאית בכל עת להחליף נציגיה או להוסיף עליהם, ובלבד שהודיעה על כך ליושב־ראש הכנסת ושהנציגים יתאימו לדרישות האמורות בסעיף קטן (א)(1); היא גם רשאית להודיע ליושב־ראש הכנסת על החלפת חשבונותיה הבנקאיים או על הוספת חשבונות כאלה, ובלבד שהציגה לפניו מסמך מאת הבנק שלפיו אין בחשבון שהיא מבקשת להחליף יתרת חובה.<br space="preserve"></br><wikicomment font-size="x-small">פורסמו <ref href="/akn/il/act/SecondaryLegislation/2009-01-27/100034663">הנחיות מבקר המדינה לפי חוק מימון מפלגות בדבר ניהול ענייניה הכספיים של סיעה, התשס"ט–2009</ref> (ק"ת תשס"ט, 402).</wikicomment></p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_6א">
+          <heading>
+            <authorialNote placement="side">
+              <p>מורשה חתימה</p>
+            </authorialNote>
+          </heading>
+          <num>6א.</num>
+          <list>
+            <point eId="point_6א__point_א">
+              <num>(א)</num>
+              <content>
+                <p>יהיה תוקף להתחייבות ממונית של סיעה או של רשימת מועמדים רק אם ניתנה בידי מי שקבעה הסיעה ופרסמה את שמותיהם לפי הנחיות מבקר המדינה.</p>
+              </content>
+            </point>
+            <point eId="point_6א__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>אין באמור בסעיף קטן (א) כדי לגרוע מסמכות מבקר המדינה לראות בהתחייבות ממונית שניתנה בניגוד לסעיף קטן (א), הוצאות או קבלת תרומות לפי חוק זה.<br space="preserve"></br><wikicomment font-size="x-small">פורסמו <ref href="/akn/il/act/SecondaryLegislation/2009-01-27/100034663">הנחיות מבקר המדינה לפי חוק מימון מפלגות בדבר ניהול ענייניה הכספיים של סיעה, התשס"ט–2009</ref> (ק"ת תשס"ט, 402).</wikicomment></p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_7">
+          <heading>
+            <authorialNote placement="side">
+              <p>הגבלת הוצאות</p>
+            </authorialNote>
+          </heading>
+          <num>7.</num>
+          <list>
+            <point eId="point_7__point_א">
+              <num>(א)</num>
+              <content>
+                <p>
+                  <wikicomment font-size="x-small">(בוטל).</wikicomment>
+                </p>
+              </content>
+            </point>
+            <point eId="point_7__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>בכפוף להוראות סעיף קטן (ג), לא תוציא סיעה או סיעה חדשה הוצאות בחירות בסכום העולה על שבעים יחידות מימון.</p>
+              </content>
+            </point>
+            <point eId="point_7__point_ג">
+              <num>(ג)</num>
+              <list>
+                <point eId="point_7__point_ג__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>סיעה שביום הקובע מנתה לא יותר מחמישה חברי הכנסת, לא תוציא הוצאות בחירות בסכום העולה על עשר יחידות מימון;</p>
+                  </content>
+                </point>
+                <point eId="point_7__point_ג__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>סיעה שביום הקובע מנתה יותר מחמישה חברי הכנסת אך פחות מאחד עשר, לא תוציא הוצאות בחירות בסכום העולה על פי שניים מיחידת מימון אחת לכל חבר הכנסת שבאותה סיעה;</p>
+                  </content>
+                </point>
+                <point eId="point_7__point_ג__point_3">
+                  <num>(3)</num>
+                  <content>
+                    <p>סיעה שביום הקובע מנתה אחד עשר חברי הכנסת או יותר, לא תוציא הוצאות בחירות בסכום העולה על פי שניים מיחידת מימון אחת לכל אחד מעשרת חברי הכנסת הראשונים, ופי אחד וחצי מיחידת מימון אחת לכל אחד מחברי הכנסת הנותרים;</p>
+                  </content>
+                </point>
+                <point eId="point_7__point_ג__point_4">
+                  <num>(4)</num>
+                  <content>
+                    <p>רשימת מועמדים לא תוציא הוצאות בחירות בסכום העולה על עשר יחידות מימון או על הסכום לפי פסקאות (2) או (3), בהתאם למספר המנדטים שבהם זכתה, לפי הגבוה.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_7__point_ד">
+              <num>(ד)</num>
+              <content>
+                <p>לא תוציא סיעה במשך שנה הוצאות שוטפות בסכום העולה ביותר משלוש חמישיות על הסכום המגיע לה למימון הוצאותיה השוטפות, לרבות לפי הסכם מימון שוטף, או בסכום העולה ביותר משלוש חמישיות על הסכום המגיע כאמור לסיעה בעלת חמישה חברי כנסת, לפי הגדול יותר.</p>
+              </content>
+            </point>
+            <point eId="point_7__point_ה">
+              <num>(ה)</num>
+              <content>
+                <p>
+                  <wikicomment font-size="x-small">(בוטל).</wikicomment>
+                </p>
+              </content>
+            </point>
+            <point eId="point_7__point_ו">
+              <num>(ו)</num>
+              <content>
+                <p>
+                  <wikicomment font-size="x-small">(בוטל).</wikicomment>
+                </p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_7א">
+          <heading>
+            <authorialNote placement="side">
+              <p>סייג להלוואות למפלגה</p>
+            </authorialNote>
+          </heading>
+          <num>7א.</num>
+          <content>
+            <p>לא תקבל מפלגה שאינה מיוצגת בכנסת, ובכלל זה רשימת מועמדים הלוואה אלא מתאגיד בנקאי.</p>
+          </content>
+        </point>
+        <point eId="point_7ב">
+          <heading>
+            <authorialNote placement="side">
+              <p>חשבון הבנק של סיעה וסייג להלוואות</p>
+            </authorialNote>
+          </heading>
+          <num>7ב.</num>
+          <list>
+            <point eId="point_7ב__point_א">
+              <num>(א)</num>
+              <content>
+                <p>לא יסרב תאגיד בנקאי סירוב בלתי סביר לפתוח חשבון עובר ושב במטבע ישראלי למפלגה או לסיעה ולנהל חשבון כאמור כל עוד עומדת המפלגה או הסיעה בתנאי ההסכם בינה ובין התאגיד הבנקאי בקשר לניהול החשבון, ואולם אין חובה לתת שירות שיש בו משום מתן אשראי להן.</p>
+              </content>
+            </point>
+            <point eId="point_7ב__point_ב">
+              <num>(ב)</num>
+              <list>
+                <intro>
+                  <p>לא תקבל סיעה הלוואה מגורם כלשהו, למעט –</p>
+                </intro>
+                <point eId="point_7ב__point_ב__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>הלוואה מאוצר המדינה לפי <ref href="#point_7ג">סעיף 7ג</ref>;</p>
+                  </content>
+                </point>
+                <point eId="point_7ב__point_ב__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>הלוואה מתאגיד בנקאי בתנאים מקובלים לשם רכישת זכות במקרקעין בלבד.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_7ב__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>לעניין סעיף קטן (ב) לא יראו יתרת חובה בחשבון עובר ושב שבו מתקבל מימון ההוצאות השוטפות כהלוואה, ובלבד שיתרת החובה לחשבון זה אינה עולה על מחצית הסכום שהסיעה אמורה לקבל למימון הוצאותיה השוטפות בחודש.</p>
+              </content>
+            </point>
+            <point eId="point_7ב__point_ד">
+              <num>(ד)</num>
+              <content>
+                <p>מפלגה או סיעה רשאית לקבל ערבות בנקאית או אחרת בהתאם להנחיות שקבע מבקר המדינה, לרבות לעניין גובה הערבות.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_7ג">
+          <heading>
+            <authorialNote placement="side">
+              <p>הלוואה לסיעה</p>
+            </authorialNote>
+          </heading>
+          <num>7ג.</num>
+          <list>
+            <point eId="point_7ג__point_א">
+              <num>(א)</num>
+              <content>
+                <p>סיעה זכאית לקבל מאוצר המדינה, באמצעות יושב ראש הכנסת, הלוואות בתנאים כאמור בסעיף זה, לפי העניין.</p>
+              </content>
+            </point>
+            <point eId="point_7ג__point_ב">
+              <num>(ב)</num>
+              <list>
+                <point eId="point_7ג__point_ב__point_1">
+                  <num>(1)</num>
+                  <list>
+                    <intro>
+                      <p>לאחר פרסום תוצאות הבחירות ועד תום שלוש שנים מיום כינוס הכנסת או עד היום הקובע, לפי המוקדם, רשאית סיעה לקבל הלוואה בסכום שלא יעלה על מחצית מימון ההוצאות השוטפות שהיא מקבלת בחודש לכל חודש שמיום מתן ההלוואה ועד תום שלוש שנים מיום כינוס הכנסת.<br space="preserve"></br><wikicomment font-size="x-small">(הוראת שעה לעניין הלוואות שניתנו לסיעות בתקופת כהונתה של הכנסת העשרים ושתיים):</wikicomment></p>
+                    </intro>
+                    <point eId="point_7ג__point_ב__point_1__point_none">
+                      <content>
+                        <p>לאחר פרסום תוצאות הבחירות ועד תום שלוש שנים מיום כינוס הכנסת או עד היום הקובע, לפי המוקדם, רשאית סיעה לקבל הלוואה בסכום שלא יעלה על מחצית מימון ההוצאות השוטפות שהיא מקבלת בחודש לכל חודש שמיום מתן ההלוואה ועד תום ארבע שנים וחצי מיום כינוס הכנסת.<br space="preserve"></br><wikicomment font-size="x-small">(הוראת שעה לעניין הלוואות שניתנו לסיעות בתקופת כהונתה של הכנסת העשרים ושלוש):</wikicomment><br space="preserve"></br>לאחר פרסום תוצאות הבחירות ועד תום שלוש שנים מיום כינוס הכנסת או עד היום הקובע, לפי המוקדם, רשאית סיעה לקבל הלוואה בסכום שלא יעלה על מחצית מימון ההוצאות השוטפות שהיא מקבלת בחודש לכל חודש שמיום מתן ההלוואה ועד תום ארבע שנים וארבעה חודשים.</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+                <point eId="point_7ג__point_ב__point_2">
+                  <num>(2)</num>
+                  <list>
+                    <intro>
+                      <p>קרן ההלוואה לפי פסקה (1) תוחזר בתשלומים שווים באמצעות ניכוי ממימון ההוצאות השוטפות שהסיעה מקבלת בחודש, מהחודש שלאחר קבלת ההלוואה ועד תום שלוש שנים מיום כינוס הכנסת; אין באמור כדי למנוע פירעון מוקדם של ההלוואה.<br space="preserve"></br><wikicomment font-size="x-small">(הוראת שעה לעניין הלוואות שניתנו לסיעות בתקופת כהונתה של הכנסת העשרים ואחת):</wikicomment></p>
+                    </intro>
+                    <point eId="point_7ג__point_ב__point_2__point_none">
+                      <list>
+                        <intro>
+                          <p>קרן ההלוואה לפי פסקה (1) תוחזר בתשלומים שווים באמצעות ניכוי ממימון ההוצאות השוטפות שהסיעה מקבלת בחודש, מהחודש שלאחר כינונה של הכנסת העשרים ושלוש ועד תום ארבע שנים וארבעה חודשים מיום כינוס הכנסת; אין באמור כדי למנוע פירעון מוקדם של ההלוואה.<br space="preserve"></br><wikicomment font-size="x-small">(הוראת שעה לעניין הלוואות שניתנו לסיעות בתקופת כהונתה של הכנסת העשרים ושתיים):</wikicomment></p>
+                        </intro>
+                        <point eId="point_7ג__point_ב__point_2__point_none__point_none">
+                          <content>
+                            <p>קרן ההלוואה לפי פסקה (1) תוחזר בתשלומים שווים באמצעות ניכוי ממימון ההוצאות השוטפות שהסיעה מקבלת בחודש, מהחודש שלאחר כינונה של הכנסת העשרים ושלוש ועד תום ארבע שנים וארבעה חודשים מיום כינוס הכנסת; אין באמור כדי למנוע פירעון מוקדם של ההלוואה.<br space="preserve"></br><wikicomment font-size="x-small">(הוראת שעה לעניין הלוואות שניתנו לסיעות בתקופת כהונתה של הכנסת העשרים ושלוש):</wikicomment><br space="preserve"></br>קרן ההלוואה לפי פסקה (1) תוחזר בתשלומים שווים באמצעות ניכוי ממימון ההוצאות השוטפות שהסיעה מקבלת בחודש, מהחודש שלאחר קבלת ההלוואה ועד תום ארבע שנים וארבעה חודשים מיום כינוס הכנסת; אין באמור כדי למנוע פירעון מוקדם של ההלוואה.</p>
+                          </content>
+                        </point>
+                      </list>
+                    </point>
+                    <point eId="point_7ג__point_ב__point_2__point_3">
+                      <num>(3)</num>
+                      <content>
+                        <p>התבקשה הלוואה כאמור בפסקה (1) בסמוך לפני יום הבחירות לכנסת, ובכלל זה לאחר אישור הצעת חוק התפזרות הכנסת בקריאה הראשונה, לא תינתן ההלוואה אלא אם כן יושב ראש הכנסת שוכנע כי הדבר מוצדק בנסיבות העניין, על פי המלצת הוועדה הציבורית; החליט יושב ראש הכנסת כאמור, תחול החלטתו על כל הסיעות.</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+                <point eId="point_7ג__point_ב__point_ג">
+                  <num>(ג)</num>
+                  <list>
+                    <intro>
+                      <p>הסתיימה כהונתה של הכנסת לפני פירעון הלוואה כאמור בסעיף קטן (ב) והגישה הסיעה רשימת מועמדים לכנסת הבאה, תנוכה יתרת ההלוואה מהמקדמה שהיא זכאית לה לפי <ref href="#point_4">סעיף 4</ref>; לא הגישה הסיעה רשימת מועמדים לכנסת הבאה, תנוכה יתרת ההלוואה ממימון ההוצאות השוטפות שהסיעה מקבלת בחודש.<br space="preserve"></br><wikicomment font-size="x-small">(הוראת שעה לעניין הלוואות שניתנו לסיעות בתקופת כהונתה של הכנסת העשרים ואחת):</wikicomment></p>
+                    </intro>
+                    <point eId="point_7ג__point_ב__point_ג__point_none">
+                      <content>
+                        <p>הסתיימה כהונתה של הכנסת העשרים ושתיים לפני פירעון הלוואה כאמור בסעיף קטן (ב), לא תנוכה יתרת ההלוואה מהמקדמה שהיא זכאית לה לפי <ref href="#point_4">סעיף 4</ref> לקראת הבחירות לכנסת העשרים ושלוש; לא הגישה סיעה רשימת מועמדים לכנסת העשרים ושלוש, תנוכה יתרת ההלוואה ממימון ההוצאות השוטפות שהסיעה מקבלת בחודש, ולא יחולו עליה הוראות סעיף קטן (ב)(2) <wikicomment font-size="x-small">(כנוסחה בהוראת השעה)</wikicomment>.<br space="preserve"></br><wikicomment font-size="x-small">(הוראת שעה לעניין הלוואות שניתנו לסיעות בתקופת כהונתה של הכנסת העשרים ושתיים):</wikicomment><br space="preserve"></br>הסתיימה כהונתה של הכנסת העשרים ושתיים לפני פירעון הלוואה כאמור בסעיף קטן (ב), לא תנוכה יתרת ההלוואה מהמקדמה שהיא זכאית לה לפי <ref href="#point_4">סעיף 4</ref> לקראת הבחירות לכנסת העשרים ושלוש; לא הגישה סיעה רשימת מועמדים לכנסת העשרים ושלוש, תנוכה יתרת ההלוואה ממימון ההוצאות השוטפות שהסיעה מקבלת בחודש, ולא יחולו עליה הוראות סעיף קטן (ב)(2) <wikicomment font-size="x-small">(כנוסחה בהוראת השעה)</wikicomment>.</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+                <point eId="point_7ג__point_ב__point_ד">
+                  <num>(ד)</num>
+                  <list>
+                    <point eId="point_7ג__point_ב__point_ד__point_1">
+                      <num>(1)</num>
+                      <content>
+                        <p>מתחילת השנה הרביעית לכהונתה של הכנסת ועד היום הקובע רשאית סיעה לקבל הלוואה בסכום שלא יעלה על פי שלושה ממימון ההוצאות השוטפות שהיא מקבלת בחודש, ובלבד שבאותה העת אין הלוואה שקיבלה וטרם נפרעה.</p>
+                      </content>
+                    </point>
+                    <point eId="point_7ג__point_ב__point_ד__point_2">
+                      <num>(2)</num>
+                      <content>
+                        <p>קרן הלוואה לפי פסקה (1) תוחזר בתשלומים שווים באמצעות ניכוי ממימון ההוצאות השוטפות שהסיעה מקבלת בחודש, מהחודש שלאחר קבלת ההלוואה ועד לחודש האחרון שבו משתלמות הוצאות אלה בעבור הכנסת שבה התקבלה ההלוואה; אין באמור כדי למנוע פירעון מוקדם של ההלוואה.</p>
+                      </content>
+                    </point>
+                    <point eId="point_7ג__point_ב__point_ד__point_3">
+                      <num>(3)</num>
+                      <content>
+                        <p>הסתיימה כהונתה של הכנסת לפני גמר תקופת כהונתה לפי <ref href="/akn/il/act/PrimaryLegislation/1958-02-20/147453#point_9">סעיף 9 לחוק־יסוד: הכנסת</ref>, תחושב מחדש התקופה להחזר ההלוואה בהתאם.</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+                <point eId="point_7ג__point_ב__point_ה">
+                  <num>(ה)</num>
+                  <content>
+                    <p>בקשה להלוואה תוגש בידי הסיעה ליושב ראש הכנסת, ויפורטו בה סכום ההלוואה המבוקש ותקופת ההחזר.</p>
+                  </content>
+                </point>
+                <point eId="point_7ג__point_ב__point_ו">
+                  <num>(ו)</num>
+                  <content>
+                    <p>יושב ראש הכנסת לא יאשר מתן הלוואה לפי סעיף זה לסיעה חדשה שטרם פרעה הלוואה שנטלה מתאגיד בנקאי לפי <ref href="#point_7א">סעיף 7א</ref> אלא לאחר שהציגה לפניו, להנחת דעתו, תכנית בדבר פירעון ההלוואה.</p>
+                  </content>
+                </point>
+                <point eId="point_7ג__point_ב__point_ז">
+                  <num>(ז)</num>
+                  <content>
+                    <p>החזר ההלוואה לפי סעיף זה יהיה צמוד להפרשי הצמדה וריבית.</p>
+                  </content>
+                </point>
+                <point eId="point_7ג__point_ב__point_ח">
+                  <num>(ח)</num>
+                  <content>
+                    <p>חוב שנותר לסיעה או למפלגה בשל הלוואה לפי סעיף זה ולא ניתן לנכותו לפי הוראות סעיף זה, תחזירו הסיעה בלא דיחוי, ואם לא עשתה כן – ינוכה החוב מכל סכום המגיע לסיעה או למפלגה מאוצר המדינה לפי חוק זה או לפי דין אחר; אין בהוראות סעיף קטן זה כדי לגרוע מזכות לתביעה להשבת החוב לפי כל דין; יושב ראש הכנסת יודיע לשר האוצר, לשר המשפטים ולשר הפנים על חוב כאמור שלא הוחזר.</p>
+                  </content>
+                </point>
+                <point eId="point_7ג__point_ב__point_ט">
+                  <num>(ט)</num>
+                  <content>
+                    <p>ועדת הכנסת לא תאשר שינויים בהרכב הסיעתי של הכנסת או ייצוג של מפלגה חדשה בכנסת אלא לאחר שנוכחה שלא יהיה בהחלטתה כדי למנוע פירעון הלוואה לפי סעיף זה.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+          </list>
+        </point>
+        <point eId="point_8">
+          <heading>
+            <authorialNote placement="side">
+              <p>הגבלת הכנסות</p>
+            </authorialNote>
+          </heading>
+          <num>8.</num>
+          <list>
+            <point eId="point_8__point_א">
+              <num>(א)</num>
+              <content>
+                <p>לא תקבל סיעה, מפלגה או רשימת מועמדים, במישרין או בעקיפין, כל תרומה מתאגיד בין בארץ ובין בחוץ לארץ; לענין הוראה זו, ”תאגיד“ – לרבות שותפות רשומה.</p>
+              </content>
+            </point>
+            <point eId="point_8__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>לא תקבל סיעה, מפלגה או רשימת מועמדים, במישרין או בעקיפין, כל תרומה בסעיף קטן (א) בסכום או בסכומים העולים על 500 שקלים חדשים <wikicomment font-size="x-small">(מתואם לשנת 1994; בשנת 2020, 1,000 ש"ח)</wikicomment> לשנה מאת אדם ובני ביתו הסמוכים על שולחנו.</p>
+              </content>
+            </point>
+            <point eId="point_8__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>לענין שנה שמתקיימות בה בחירות לכנסת או בחירות לכלל הרשויות המקומיות יבוא סכום 1,000 שקלים חדשים <wikicomment font-size="x-small">(מתואם לשנת 1994; בשנת 2020, 2,300 ש"ח)</wikicomment> במקום הסכום האמור בסעיף קטן (ב).</p>
+              </content>
+            </point>
+            <point eId="point_8__point_ג1">
+              <num>(ג1)</num>
+              <content>
+                <p>לא תקבל מפלגה שאינה מיוצגת בכנסת תרומה כאמור בסעיפים קטנים (ב) או (ג), בסכום העולה על פי חמישה מהסכומים הנקובים באותם סעיפים קטנים.</p>
+              </content>
+            </point>
+            <point eId="point_8__point_ג2">
+              <num>(ג2)</num>
+              <content>
+                <p>על אף האמור בסעיפים קטנים (ג) ו־(ג1), מפלגה או סיעה שהגישה רשימת מועמדים ולא זכתה במנדטים רשאית לקבל תרומה כאמור בסעיף קטן (א), ב־12 החודשים שלאחר יום הבחירות, בסכום שאינו עולה על פי עשרה מהסכום הנקוב בסעיף קטן (ג), והכול לשם כיסוי חובותיה בשל הבחירות.</p>
+              </content>
+            </point>
+            <point eId="point_8__point_ד">
+              <num>(ד)</num>
+              <content>
+                <p>
+                  <wikicomment font-size="x-small">(בוטל).</wikicomment>
+                </p>
+              </content>
+            </point>
+            <point eId="point_8__point_ד1">
+              <num>(ד1)</num>
+              <content>
+                <p>לא תקבל סיעה או מפלגה, במישרין או בעקיפין, תרומות אלא מבוחר כמשמעותו <ref href="/akn/il/act/PrimaryLegislation/1969-04-14/2002229">בחוק הבחירות</ref>.</p>
+              </content>
+            </point>
+            <point eId="point_8__point_ד2">
+              <num>(ד2)</num>
+              <content>
+                <p>לא תקבל סיעה או מפלגה, במישרין או בעקיפין, תרומות שניתנו בעילום שם; לענין זה, תרומה שניתנה ממי שזהותו ומענו לא נבדקו ולא אומתו בידי הסיעה או המפלגה או מטעמן – כמוה כתרומה שניתנה בעילום שם.</p>
+              </content>
+            </point>
+            <point eId="point_8__point_ד3">
+              <num>(ד3)</num>
+              <content>
+                <p>לא תקבל סיעה או מפלגה, במישרין או בעקיפין, תרומה בשטרי כסף או במעות.</p>
+              </content>
+            </point>
+            <point eId="point_8__point_ה">
+              <num>(ה)</num>
+              <list>
+                <point eId="point_8__point_ה__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>מצא מבקר המדינה כי סיעה או מפלגה קיבלה תרומה בניגוד לאמור בסעיף זה, תעביר הסיעה או המפלגה לאוצר המדינה, במועד שיקבע מבקר המדינה, סכום ששוויו פי שניים מסכום התרומה; אולם רשאי מבקר המדינה לקבוע כי על הסיעה או המפלגה להעביר לאוצר המדינה סכום קטן יותר, אם נראה לו שמן הראוי לנהוג כן בהתחשב בנסיבות המקרה;</p>
+                  </content>
+                </point>
+                <point eId="point_8__point_ה__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>לא היתה יתרת זכות בחשבונותיה הבנקאיים של הסיעה לצורך העברת הסכום לאוצר המדינה, יודיע מבקר המדינה על כך ליושב ראש הכנסת ויושב ראש הכנסת ישלול מהסיעה את הסכום המגיע ממנה כאמור ויחזירנו לאוצר המדינה.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_8__point_ו">
+              <num>(ו)</num>
+              <content>
+                <p>סיעה או מפלגה תפרסם את שמות התורמים וסכומי התרומות, כפי שיורה מבקר המדינה.</p>
+              </content>
+            </point>
+            <point eId="point_8__point_ז">
+              <num>(ז)</num>
+              <content>
+                <p>קיבלה סיעה או מפלגה תרומה בניגוד להוראות סעיף זה או בסכום העולה על הסכום המרבי המותר על פיו, תחזיר לתורם, מיד כשנודע לה על כך, את התרומה או את חלקה שהוא מעל המותר, ואם לא ניתן לעשות כן, תעביר את הסכום שעליה להחזיר לאוצר המדינה באמצעות חשב הכנסת; פעלה סיעה או מפלגה לפי הוראות סעיף קטן זה, לא יראו את התרומה כתרומה שהתקבלה בניגוד להוראות חוק זה.<br space="preserve"></br><wikicomment font-size="x-small">פורסמו <ref href="/akn/il/act/SecondaryLegislation/2009-01-27/100034663">הנחיות מבקר המדינה לפי חוק מימון מפלגות בדבר ניהול ענייניה הכספיים של סיעה, התשס"ט–2009</ref> (ק"ת תשס"ט, 402).</wikicomment></p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_8א" class="definitions">
+          <heading>
+            <authorialNote placement="side">
+              <p>תרומה מקיבוץ או מאגודה חקלאית</p>
+            </authorialNote>
+          </heading>
+          <num>8א.</num>
+          <list>
+            <intro>
+              <p>תרומות לסיעה או למפלגה מקיבוץ או מאגודה חקלאית הבאות במקום תרומות אישיות של חבריהם, ולדעת מבקר המדינה הן בסכום סביר לפי נסיבות הענין, לא ייחשבו כתרומות מתאגיד לענין <ref href="#point_8">סעיף 8</ref>; לענין זה –</p>
+            </intro>
+            <point eId="point_8א__point_קיבוץ">
+              <content>
+                <p>
+                  <def />”קיבוץ“ – לרבות מושב שיתופי וכל אגודה שיתופית להתיישבות שהכנסותיה אינן מחולקות בעיקרן לחבריה;</p>
+              </content>
+            </point>
+            <point eId="point_8א__point_אגודה_חקלאית">
+              <content>
+                <p>
+                  <def />”אגודה חקלאית“ – אגודה שיתופית חקלאית אחרת שחבריה אישית הסמיכוה לתרום לסיעה.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_8ב">
+          <heading>
+            <authorialNote placement="side">
+              <p>מפעלי תרבות וחינוך – תרומות והוצאות</p>
+            </authorialNote>
+          </heading>
+          <num>8ב.</num>
+          <list>
+            <point eId="point_8ב__point_א">
+              <num>(א)</num>
+              <content>
+                <p>תרומה למפעל תרבות או חינוך של סיעה או של מפלגה או של גוף הקשור לסיעה (להלן – מפעל תרבות), המשמשת למטרת חינוך או תרבות לפי נסיבות הענין, לא תיחשב כתרומה לענין <ref href="#point_8">סעיף 8</ref>, בכפוף לאמור בסעיף קטן (ג).</p>
+              </content>
+            </point>
+            <point eId="point_8ב__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>קבע מבקר המדינה כי הוצאה של מפעל תרבות שימשה למימון תעמולת בחירות או לפעילות מפלגתית, תיחשב ההוצאה כהוצאה של הסיעה או של המפלגה.</p>
+              </content>
+            </point>
+            <point eId="point_8ב__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>קבע מבקר המדינה כאמור בסעיף קטן (ב), ולאחר מכן חזר וקבע כי מפעל התרבות חזר והוציא הוצאה כאמור, יראו את ההוצאה כאילו התקבלה מתרומה, ורשאי מבקר המדינה לקבוע כי התרומה היא תרומה אסורה לפי <ref href="#point_8">סעיף 8</ref> והוראות סעיף קטן (א) לא יחולו על מפעל התרבות.</p>
+              </content>
+            </point>
+            <point eId="point_8ב__point_ד">
+              <num>(ד)</num>
+              <content>
+                <p>קבע מבקר המדינה כאמור בסעיף קטן (ג), לא ייאשם בעבירה מקבל התרומה לפי סעיף זה אלא לאחר שמבקר המדינה הודיע למפעל התרבות כי לא חל עליו סעיף קטן (א).</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_8ג">
+          <heading>
+            <authorialNote placement="side">
+              <p>תרומה במקרה של ויתור על מימון</p>
+            </authorialNote>
+          </heading>
+          <num>8ג.</num>
+          <content>
+            <p>מסרו רשימת מועמדים או סיעה, לא יאוחר מיום הצגת רשימות המועמדים לפי <ref href="/akn/il/act/PrimaryLegislation/1969-04-14/2002229">חוק הבחירות</ref> או מהיום הקובע, לפי המאוחר, הודעה בכתב ליושב ראש הכנסת שאין ברצונן לקבל מימון הוצאות בחירות לפי חוק זה, יראו לגביהן כאילו <ref href="#point_8">בסעיף 8(ג)</ref> נאמר 60,000 שקלים חדשים <wikicomment font-size="x-small">(מתואם לשנת 1994; בשנת 2020, 127,400 ש"ח)</wikicomment>, והן לא תהיינה זכאיות למימון הוצאות בחירות באותה מערכת בחירות לכנסת.</p>
+          </content>
+        </point>
+        <point eId="point_8ד">
+          <heading>
+            <authorialNote placement="side">
+              <p>מפלגה חדשה המגישה רשימת מועמדים</p>
+            </authorialNote>
+          </heading>
+          <num>8ד.</num>
+          <list>
+            <point eId="point_8ד__point_א">
+              <num>(א)</num>
+              <list>
+                <intro>
+                  <p>מפלגה שאינה מיוצגת על ידי סיעה בכנסת היוצאת והגישה רשימת מועמדים, תהיה רשאית, בתוך 14 ימים מיום הגשת הרשימה, לקבל תרומה מחבר בני אדם, בין מואגד ובין שאינו מואגד, שהיה קיים לפני רישום המפלגה ואשר מרבית חבריו הם בין מייסדי המפלגה, ובלבד –</p>
+                </intro>
+                <point eId="point_8ד__point_א__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>שהמקור לתרומה הוא בכספים שנתקבלו על ידי אותו חבר בני אדם, בגבולות הקבועים <ref href="#point_8">בסעיף 8</ref> לגבי סיעה;</p>
+                  </content>
+                </point>
+                <point eId="point_8ד__point_א__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>שאותו חבר בני אדם ניהל מערכת חשבונות מיום היווסדו או במשך שנה לפני הגשת רשימת המועמדים, לפי המועד המאוחר.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_8ד__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>מערכת החשבונות כאמור בסעיף קטן (א) תימסר למבקר המדינה יחד עם חשבונות הסיעה או רשימת המועמדים לפי <ref href="#point_10">סעיף 10(א)</ref>.</p>
+              </content>
+            </point>
+            <point eId="point_8ד__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>למבקר המדינה יהיו נתונות כלפי חבר בני אדם כאמור אותן סמכויות הנתונות לו כלפי סיעה לפי <ref href="#point_9">סעיפים 9(ב) ו־(ג)</ref>.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_8ה">
+          <heading>
+            <authorialNote placement="side">
+              <p>תחולת ההגבלות בענין תרומות, הוצאות והלוואות</p>
+            </authorialNote>
+          </heading>
+          <num>8ה.</num>
+          <content>
+            <p>בלי לפגוע בכלליות האמור <ref href="#point_7">בסעיפים 7 עד 8ד</ref>, אחת היא אם התרומות או ההלוואות ניתנו לסיעה, למפלגה, לרשימת המועמדים, למועמד לכנסת, או לכל אדם אחר הפועל למענם ובזיקה אליהם, או שההוצאות הוצאו בידי סיעה, מפלגה, רשימת מועמדים, מועמד או אדם כאמור.</p>
+          </content>
+        </point>
+        <point eId="point_8ו">
+          <heading>
+            <authorialNote placement="side">
+              <p xml:space="preserve"> </p>
+            </authorialNote>
+          </heading>
+          <num>8ו.</num>
+          <content>
+            <p>
+              <wikicomment font-size="x-small">(פקע).</wikicomment>
+            </p>
+          </content>
+        </point>
+        <point eId="point_9">
+          <heading>
+            <authorialNote placement="side">
+              <p>ניהול חשבונות</p>
+            </authorialNote>
+          </heading>
+          <num>9.</num>
+          <list>
+            <point eId="point_9__point_א">
+              <num>(א)</num>
+              <list>
+                <intro>
+                  <p>החל ביום החמישה עשר אחרי היום הקובע וכל עוד מגיע לסיעה מימון להוצאותיה –</p>
+                </intro>
+                <point eId="point_9__point_א__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>תנהל הסיעה מערכת חשבונות לפי הנחיות מבקר המדינה ותרשום בהם את הכנסותיה והוצאותיה לפי אותן הנחיות;</p>
+                  </content>
+                </point>
+                <point eId="point_9__point_א__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>תחזיק הסיעה את הכספים המיועדים להוצאותיה בחשבונות הבנקאיים האמורים <ref href="#point_6">בסעיף 6(א)(3)</ref>.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_9__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>מערכת החשבונות והחשבונות הבנקאיים האמורים יעמדו לביקורת מבקר המדינה, ולענין זה יהיו למבקר המדינה כל הסמכויות שהוענקו לו לגבי גוף מבוקר <ref href="/akn/il/act/PrimaryLegislation/1988-02-24/174515">בחוק־יסוד</ref> או <ref href="/akn/il/act/PrimaryLegislation/1958-03-20/2001957">בחוק</ref> או לפיו.</p>
+              </content>
+            </point>
+            <point eId="point_9__point_ב1">
+              <num>(ב1)</num>
+              <content>
+                <p>הוראות <ref href="/akn/il/act/PrimaryLegislation/1992-04-09/153093#point_28כג">סעיף 28כג(ד) לחוק המפלגות, התשנ"ב–1992</ref>, יחולו על תרומה באמצעי תשלום כהגדרתו <ref href="/akn/il/act/PrimaryLegislation/2019-01-09/2073541">בחוק שירותי תשלום, התשע"ט–2019</ref>, שניתנה לפי חוק זה, בשינויים המחויבים.</p>
+              </content>
+            </point>
+            <point eId="point_9__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>מבקר המדינה רשאי בכל עת לדרוש מנציגיה של סיעה הצהרה, חתומה בידיהם, בדבר שלמותם או נכונותם של הרישומים במערכת החשבונות או בדבר אופיה או מהותה של הכנסה או הוצאה מסויימת; הצהרה כאמור יכול שתימסר לפי ידיעתם של המצהירים או לפי מיטב ידיעתם, והמבקר רשאי, לפי שיקול דעתו, לקבל הצהרה כזו כראיה.</p>
+              </content>
+            </point>
+            <point eId="point_9__point_ד">
+              <num>(ד)</num>
+              <content>
+                <p>לפי דרישה של לפחות שישית מחברי סיעה, תעמיד הסיעה לעיונם את מערכת החשבונות כאמור בסעיף קטן (א).</p>
+              </content>
+            </point>
+            <point eId="point_9__point_ה">
+              <num>(ה)</num>
+              <content>
+                <p>
+                  <wikicomment font-size="x-small">(בוטל).</wikicomment>
+                </p>
+              </content>
+            </point>
+            <point eId="point_9__point_ו">
+              <num>(ו)</num>
+              <content>
+                <p>
+                  <wikicomment font-size="x-small">(בוטל).</wikicomment>
+                </p>
+              </content>
+            </point>
+            <point eId="point_9__point_ז">
+              <num>(ז)</num>
+              <content>
+                <p>החל מהיום הקובע הוראות סעיף זה יחולו גם על מפלגה, בשינויים המחויבים.<br space="preserve"></br><wikicomment font-size="x-small">פורסמו <ref href="/akn/il/act/SecondaryLegislation/2009-01-27/100034663">הנחיות מבקר המדינה לפי חוק מימון מפלגות בדבר ניהול ענייניה הכספיים של סיעה, התשס"ט–2009</ref> (ק"ת תשס"ט, 402).</wikicomment></p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_9א">
+          <heading>
+            <authorialNote placement="side">
+              <p>עונשין</p>
+            </authorialNote>
+          </heading>
+          <num>9א.</num>
+          <list>
+            <point eId="point_9א__point_א">
+              <num>(א)</num>
+              <list>
+                <intro>
+                  <p>מי שעושה אחד מאלה, דינו – מאסר שנה:</p>
+                </intro>
+                <point eId="point_9א__point_א__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>נותן ביודעין התחייבות ממונית שלא לפי הרשאה שניתנה ופורסמה לפי <ref href="#point_6א">סעיף 6א</ref>;</p>
+                  </content>
+                </point>
+                <point eId="point_9א__point_א__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>לא ממלא ביודעין אחר דרישה לפי <ref href="#point_10ב">סעיף 10ב</ref>;</p>
+                  </content>
+                </point>
+                <point eId="point_9א__point_א__point_3">
+                  <num>(3)</num>
+                  <content>
+                    <p>נותן ביודעין תרומה בניגוד להוראות חוק זה;</p>
+                  </content>
+                </point>
+                <point eId="point_9א__point_א__point_4">
+                  <num>(4)</num>
+                  <content>
+                    <p>מקבל ביודעין בשם סיעה או בשם רשימת מועמדים תרומה בניגוד להוראות חוק זה;</p>
+                  </content>
+                </point>
+                <point eId="point_9א__point_א__point_5">
+                  <num>(5)</num>
+                  <content>
+                    <p>מבצע פעילות בחירות בשווי כולל של 500,000 שקלים חדשים <wikicomment font-size="x-small">(מתואם לשנת 2017; בשנת 2020, 510,000 ש"ח)</wikicomment> בלי שנרשם כגוף פעיל בחירות, בניגוד להוראות <ref href="#point_10ג">סעיף 10ג(א)</ref>, או בלי שהתאגד, בניגוד להוראות <ref href="#point_10ג">סעיף 10ג(ג)(1)</ref>, או לא מסר למבקר הנמדינה דוח על מערכת החשבונות שניהל, בניגוד להוראות <ref href="#point_10ג">סעיף 10ג(י)</ref>, במטרה לרמות.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_9א__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>המוסר ביודעין הצהרה לפי <ref href="#point_9">סעיף 9(ג)</ref> הכוזבת בפרט מהותי, דינו – מאסר שלוש שנים.</p>
+              </content>
+            </point>
+            <point eId="point_9א__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>מי שנתן הוראה להוציא הוצאה או מי שאישר להוציא הוצאה והוא רשאי לעשות כן מטעם הסיעה או רשימת המועמדים, ביודעו שההוצאה תביא לחריגה מהוראות <ref href="#point_7">סעיף 7</ref> וההוראה בוצעה, דינו – מאסר שנה או הקנס האמור <ref href="/akn/il/act/PrimaryLegislation/1977-08-04/2002251#point_61">בסעיף 61(א)(3) לחוק העונשין, התשל"ז–1977</ref>, ובלבד שהסיעה או רשימת המועמדים חרגה מההוצאות המותרות לפי <ref href="#point_7">סעיף 7</ref>.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_10">
+          <heading>
+            <authorialNote placement="side">
+              <p>דו"חות מבקר המדינה</p>
+            </authorialNote>
+          </heading>
+          <num>10.</num>
+          <list>
+            <point eId="point_10__point_א">
+              <num>(א)</num>
+              <content>
+                <p>בתוך 16 שבועות מהיום שבו פורסמו תוצאות הבחירות ימסרו נציגיה של סיעה או רשימת מועמדים למבקר המדינה את חשבונותיה לתקופת הבחירות; לא עשו כן, והודיע מבקר המדינה ליושב ראש הכנסת כי לדעתו לא היה הצדק סביר למחדלם, יורה יושב ראש הכנסת שלא ישולם לאותה סיעה או רשימת מועמדים כל תשלום לפי חוק זה עד אשר יודיע מבקר המדינה כי הוגשו לו חשבונות וכי לכאורה ניהלה הסיעה או רשימת המועמדים מערכת חשבונות לפי הנחיותיו; הודיע מבקר המדינה כי הוגשו לו חשבונות לאחר שיושב ראש הכנסת הורה כאמור, ישולם לסיעה או לרשימת המועמדים התשלום שלא שולם לה לפי סעיף קטן זה, בניכוי סכום כפי שימליץ מבקר המדינה שלא יעלה על 15% מהתשלום המגיע לה.</p>
+              </content>
+            </point>
+            <point eId="point_10__point_ב">
+              <num>(ב)</num>
+              <list>
+                <intro>
+                  <p>תוך 22 שבועות לאחר שקיבל את החשבונות האמורים בסעיף קטן (א), ימסור מבקר המדינה ליושב־ראש הכנסת דין וחשבון על תוצאות ביקורת החשבונות ויציין בו –</p>
+                </intro>
+                <point eId="point_10__point_ב__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>אם הסיעה או רשימת המועמדים ניהלה מערכת חשבונות לפי הנחיותיו;</p>
+                  </content>
+                </point>
+                <point eId="point_10__point_ב__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>אם הוצאות הסיעה או רשימת המועמדים והכנסותיה באותה שנה היו בגבולות האמורים <ref href="#point_7">בסעיף 7</ref><ref href="#point_8">ובסעיף 8</ref>.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_10__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>לא יאוחר מיום 1 במאי שלאחר תום כל שנת כספים ימסרו נציגיה של סיעה או רשימת מועמדים למבקר המדינה את חשבונותיה לאותה שנה; לא עשו כן, והודיע מבקר המדינה ליושב ראש הכנסת כי לדעתו לא היה הצדק סביר למחדלם, יורה יושב ראש הכנסת שלא ישולם לאותה סיעה כל תשלום לפי חוק זה עד אשר יודיע מבקר המדינה כי הוגשו לו חשבונות וכי לכאורה ניהלה הסיעה מערכת חשבונות לפי הנחיותיו; הודיע מבקר המדינה כי הוגשו לו חשבונות לאחר שיושב ראש הכנסת הורה כאמור, ישולם לסיעה או לרשימת המועמדים התשלום שלא שולם לה לפי סעיף קטן זה, בניכוי סכום כפי שימליץ מבקר המדינה שלא יעלה על 15% מהתשלום המגיע לה.</p>
+              </content>
+            </point>
+            <point eId="point_10__point_ג1">
+              <num>(ג1)</num>
+              <list>
+                <intro>
+                  <p>לענין סעיף זה –</p>
+                </intro>
+                <point eId="point_10__point_ג1__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>יראו שנה שבה מתקיימות הבחירות לכנסת כמסתיימת בתום החודש שבו פורסמו תוצאות הבחירות, והחשבונות לפי סעיף קטן (ג) יימסרו ביחד עם החשבונות לפי סעיף קטן (א);</p>
+                  </content>
+                </point>
+                <point eId="point_10__point_ג1__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>יראו שנה שלאחר הבחירות כמתחילה בתחילת החודש אחרי פרסום תוצאות הבחירות וכמסתיימת בתום שנת הכספים הבאה.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_10__point_ד">
+              <num>(ד)</num>
+              <list>
+                <intro>
+                  <p>לא יאוחר מיום 1 באוקטובר בכל שנה ימסור מבקר המדינה ליושב ראש הכנסת דין וחשבון על תוצאות ביקורת החשבונות האמורים בסעיף קטן (ג); ואולם הוגשו החשבונות האמורים במועד האמור בסעיף קטן (ג1)(1), ימסור מבקר המדינה דין וחשבון במועד האמור בסעיף קטן (ב); בדין וחשבון לפי סעיף קטן זה יצוין –</p>
+                </intro>
+                <point eId="point_10__point_ד__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>אם הסיעה או רשימת המועמדים ניהלה מערכת חשבונות לפי הנחיותיו;</p>
+                  </content>
+                </point>
+                <point eId="point_10__point_ד__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>אם הוצאות הסיעה או רשימת המועמדים והכנסותיה באותה שנה היו בגבולות האמורים <ref href="#point_7">בסעיף 7</ref><ref href="#point_8">ובסעיף 8</ref>.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_10__point_ד1">
+              <num>(ד1)</num>
+              <content>
+                <p>לחשבונות הנמסרים לפי סעיף זה תצורף חוות דעת של רואה החשבון של הסיעה או של רשימת המועמדים בדבר תקינותם ושלימותם ובדבר ניהול מערכת חשבונות בהתאם להנחיות מבקר המדינה.</p>
+              </content>
+            </point>
+            <point eId="point_10__point_ה">
+              <num>(ה)</num>
+              <list>
+                <point eId="point_10__point_ה__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>לא היה הדין וחשבון לפי סעיף קטן (ב) חיובי – ישלול יושב ראש הכנסת מהסיעה <wikicomment font-size="x-small">[צ"ל: או מרשימת המועמדים]</wikicomment>, בתשלומים שווים במשך שישה חודשים, מתוך מימון ההוצאות השוטפות שהסיעה מקבלת בחודש, סכום השווה ל־15% מסכום מימון הבחירות ששולם לה לפי <ref href="#point_3">סעיף 3</ref>; לא היה הדין וחשבון לפי סעיף קטן (ד) חיובי – ישלול יושב־ראש הכנסת מן הסיעה או רשימת המועמדים במשך שישה חודשים מחצית ממימון ההוצאות השוטפות שהסיעה <wikicomment font-size="x-small">[צ"ל: או רשימת המועמדים]</wikicomment> מקבלת בחודש;</p>
+                  </content>
+                </point>
+                <point eId="point_10__point_ה__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>על אף האמור בפסקה (1), אם הדין וחשבון לפי סעיף קטן (ב) או (ד) לא היה חיובי בשל חריגה מהסכומים שנקבעו על פי <ref href="#point_7">סעיף 7(א) או (ב)</ref>, ישלול יושב ראש הכנסת שליש מסכום החריגה, ובלבד שסכום השלילה לא יעלה על 20% מהסכום אשר הסיעה או רשימת המועמדים זכאית לו לפי <ref href="#point_2">סעיף 2(א)(1)</ref> או מהסכום השנתי אשר הסיעה או רשימת המועמדים זכאית לו לפי <ref href="#point_2">סעיף 2(א)(2)</ref>, לפי הענין; השלילה תיעשה מתוך התשלומים הקרובים למימון הוצאותיה השוטפות של הסיעה או רשימת המועמדים, לפי הענין, אך לא תעלה מדי חודש על מחצית מימון ההוצאות השוטפות שהסיעה <wikicomment font-size="x-small">[צ"ל: או רשימת המועמדים]</wikicomment> מקבלת בחודש;</p>
+                  </content>
+                </point>
+                <point eId="point_10__point_ה__point_3">
+                  <num>(3)</num>
+                  <content>
+                    <p>על אף האמור בפסקה (1), אם ניהלה סיעה או רשימת מועמדים מערכת חשבונות לפי הנחיות מבקר המדינה אך ללא הקפדה מלאה עליהן, ישלול יושב ראש הכנסת מהתשלומים הקרובים למימון הוצאותיה השוטפות של הסיעה או רשימת המועמדים, לפי הענין, סכומים קטנים מאלה הנקובים בפסקה (1), כפי שימליץ מבקר המדינה בהתחשב באופי החריגה ובמידתה; והוא הדין בסיעה או ברשימת מועמדים שחרגה מהסכומים שנקבעו <ref href="#point_7">בסעיף 7</ref> או שקיבלה תרומה בניגוד להוראות <ref href="#point_8">סעיף 8</ref> ומצא מבקר המדינה נסיבות שבגללן מן הראוי לנהוג לגביה כאמור בפסקה זו; השלילה לא תעלה מדי חודש על מחצית מימון ההוצאות השוטפות שהסיעה <wikicomment font-size="x-small">[צ"ל: או רשימת המועמדים]</wikicomment> מקבלת בחודש;</p>
+                  </content>
+                </point>
+                <point eId="point_10__point_ה__point_4">
+                  <num>(4)</num>
+                  <content>
+                    <p>
+                      <wikicomment font-size="x-small">(נמחקה);</wikicomment>
+                    </p>
+                  </content>
+                </point>
+                <point eId="point_10__point_ה__point_5">
+                  <num>(5)</num>
+                  <content>
+                    <p>שלילת סכומים לפי סעיף קטן זה תקדם לכל ניכוי לפי חוק זה או לפי <ref href="/akn/il/act/PrimaryLegislation/1993-07-30/165296">חוק הרשויות המקומיות (מימון בחירות), התשנ"ג–1993</ref>;</p>
+                  </content>
+                </point>
+                <point eId="point_10__point_ה__point_6">
+                  <num>(6)</num>
+                  <content>
+                    <p>מבקר המדינה רשאי להחליט, לפי בקשה של סיעה או רשימת מועמדים, כי החזר סכומים שנשללו ממנה לפי סעיף קטן זה ייפרס לתקופה שיקבע שתהיה ממושכת מהקבוע בסעיף זה, אך לא יותר מתום כהונתה של אותה הכנסת;</p>
+                  </content>
+                </point>
+                <point eId="point_10__point_ה__point_7">
+                  <num>(7)</num>
+                  <content>
+                    <p>הסתיימה כהונתה של הכנסת לפני שהסכום שנשלל לפי סעיף קטן זה נוכה במלואו, תנוכה יתרת הסכום מהמקדמה שהסיעה זכאית לה לפי <ref href="#point_4">סעיף 4</ref>;</p>
+                  </content>
+                </point>
+                <point eId="point_10__point_ה__point_8">
+                  <num>(8)</num>
+                  <content>
+                    <p>יושב ראש הכנסת יעביר לאוצר המדינה סכומים ששלל לפי סעיף זה.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_10__point_ו">
+              <num>(ו)</num>
+              <content>
+                <p>ועדת הכספים של הכנסת רשאית, בהסכמת מבקר המדינה, להאריך כל מועד מהמועדים האמורים בסעיף זה <ref href="#point_10ג">ובסעיף 10ג(י) ו־(יב)</ref>; החלטת הועדה תפורסם ברשומות.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_10א">
+          <heading>
+            <authorialNote placement="side">
+              <p>גוף הקשור לסיעה</p>
+            </authorialNote>
+          </heading>
+          <num>10א.</num>
+          <list>
+            <point eId="point_10א__point_א">
+              <num>(א)</num>
+              <content>
+                <p>לענין <ref href="#point_7">סעיף 7</ref>, הוצאות של גוף הקשור לסיעה ייחשבו כהוצאות הסיעה.</p>
+              </content>
+            </point>
+            <point eId="point_10א__point_ב">
+              <num>(ב)</num>
+              <list>
+                <intro>
+                  <p>לענין <ref href="#point_8">סעיף 8</ref> –</p>
+                </intro>
+                <point eId="point_10א__point_ב__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>תרומה שקיבל גוף הקשור לסיעה, יראו כאילו קיבלה אותה הסיעה;</p>
+                  </content>
+                </point>
+                <point eId="point_10א__point_ב__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>תרומה שקיבלה סיעה מגוף הקשור לסיעה לא תיחשב כתרומה מתאגיד.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_10א__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>האמור <ref href="#point_9">בסעיף 9</ref> בנוגע לסיעה חל גם לגבי גוף הקשור לסיעה; בעת מסירת החשבונות של סיעה לפי <ref href="#point_10">סעיף 10</ref> יימסרו גם חשבונותיו של כל גוף כאמור.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_10ב">
+          <heading>
+            <authorialNote placement="side">
+              <p>סמכויות עזר לרואה החשבון</p>
+            </authorialNote>
+          </heading>
+          <num>10ב.</num>
+          <content>
+            <p>רואה החשבון של הסיעה או של רשימת המועמדים רשאי לדרוש, בכל עת, מנציגיה שימציאו לו ידיעות, מסמכים, הסברים וכל חומר אחר הדרושים לו לצורכי ביקורת החשבונות.</p>
+          </content>
+        </point>
+        <point eId="point_10ג">
+          <heading>
+            <authorialNote placement="side">
+              <p>גוף פעיל בבחירות</p>
+            </authorialNote>
+          </heading>
+          <num>10ג.</num>
+          <list>
+            <point eId="point_10ג__point_א">
+              <num>(א)</num>
+              <content>
+                <p>לא יבצע אדם או חבר בני אדם, בין שהוא מאוגד ובין שאינו מאוגד, פעילות בחירות בשווי כולל, בכסף או בשווה כסף, העולה על 100,000 שקלים חדשים <wikicomment font-size="x-small">(מתואם לשנת 2017; בשנת 2020, 102,000 ש"ח)</wikicomment>, ולא יגייס תרומות למטרה זו בשווי כולל כאמור, אלא לאחר שנרשם אצל מבקר המדינה, כפי שיקבע המבקר, כגוף פעיל בבחירות שמטרתו ביצוע פעילות בחירות.</p>
+              </content>
+            </point>
+            <point eId="point_10ג__point_ב">
+              <num>(ב)</num>
+              <list>
+                <intro>
+                  <p>מבקר המדינה לא ירשום גוף לפי סעיף קטן (א) אלא בהתקיים כל אלה:</p>
+                </intro>
+                <point eId="point_10ג__point_ב__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>אם הוא תאגיד – הוא עמותה או חברה לתועלת הציבור;</p>
+                  </content>
+                </point>
+                <point eId="point_10ג__point_ב__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>הוא מסר למבקר המדינה פרטי אתר אינטרנט לפרסום מידע שעליו לפרסם על פי סעיף זה;</p>
+                  </content>
+                </point>
+                <point eId="point_10ג__point_ב__point_3">
+                  <num>(3)</num>
+                  <content>
+                    <p>הוא הסמיך אדם או שני בני אדם לפעול בשמו כגוף פעיל בבחירות בכל הנוגע לקשריו עם רשויות המדינה ופרסם באתר האינטרנט שלו את שמם, בצירוף כתב הסכמתם לשמש בתפקיד זה (בסעיף זה – הגורם המוסמך).</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_10ג__point_ג">
+              <num>(ג)</num>
+              <list>
+                <intro>
+                  <p>לא יבצע אדם או חבר בני אדם פעילות בחירות בשווי כולל, בכסף או בשווה כסף, העולה על פי ארבעה מהסכום האמור בסעיף קטן (א) ולא יגייס תרומות למטרה זו בשווי כולל כאמור אלא לאחר שנרשם אצל מבקר המדינה כאמור בסעיף קטן (א) והתקיימו כל אלה:</p>
+                </intro>
+                <point eId="point_10ג__point_ג__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>הוא נרשם כעמותה או כחברה לתועלת הציבור שמטרתה ביצוע פעילות בחירות, או הגיש בקשה להירשם כאמור והשלים את כל הנדרש ממנו לשם הרישום;</p>
+                  </content>
+                </point>
+                <point eId="point_10ג__point_ג__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>הוא מינה רואה חשבון לשם ביקורת החשבונות ועריכת דוח בדבר הכנסותיו והוצאותיו כגוף פעיל בבחירות, ופרסם באתר האינטרנט שלו את שם רואה החשבון, בצירוף כתב הסכמתו לשמש בתפקיד זה.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_10ג__point_ד">
+              <num>(ד)</num>
+              <content>
+                <p>לעניין חישוב הסכומים האמורים בסעיפים קטנים (א) ו־(ג), יראו כאילו פעילות הבחירות או גיוס התרומות בוצעו בידי גוף אחד אף אם בוצעו בידי כמה גופים, אם לדעת מבקר המדינה, או יושב ראש ועדת הבחירות המרכזית בקשר לעתירה לפי סעיף קטן (יז), לפי העניין, יש לראות גופים אלה כזרועות של גוף אחד, בהתחשב בכל האפיונים המפורטים להלן או מקצתם: מטרותיהם של הגופים, פעולותיהם, זהות בעליהם, מנהליהם וחבריהם, ייעוד רווחיהם והמקורות לכיסוי הפסדיהם.</p>
+              </content>
+            </point>
+            <point eId="point_10ג__point_ה">
+              <num>(ה)</num>
+              <list>
+                <point eId="point_10ג__point_ה__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>מועמד לכנסת או בעל תפקיד במוסדות מפלגה לא יהיה בעל תפקיד בכיר בגוף פעיל בבחירות ולא ישמש כגורם המוסמך מטעמו, ואם היה למועמד לכנסת או לבעל תפקיד במוסדות מפלגה כאמור – יחדל לשמש בתפקידו בגוף פעיל בבחירות או מטעמו.</p>
+                  </content>
+                </point>
+                <point eId="point_10ג__point_ה__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>הגורם המוסמך ימשיך לכהן כל עוד לא מונה אחר במקומו; התפטר הגורם המוסמך בהודעה לגוף פעיל בבחירות ולמבקר המדינה, חדל לשמש בתפקידו לפי פסקה (1) או נבצר ממנו למלא את תפקידו, והיה היחיד המשמש גורם מוסמך, ימנה גוף פעיל בבחירות, בתוך שלושה ימים מיום שנודע לו על כך, גורם מוסמך אחר במקומו, ויפרסם באתר האינטרנט שלו את שמו, בצירוף כתב הסכמתו לשמש בתפקיד זה.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_10ג__point_ו">
+              <num>(ו)</num>
+              <list>
+                <point eId="point_10ג__point_ו__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>לא יקבל גוף פעיל בבחירות, שביצע פעילות בחירות בשווי כולל העולה על הסכום האמור בסעיף קטן (א), או גייס תרומות למטרה זו בשווי כולל כאמור, במישרין או בעקיפין, בתקופה שבין בחירות לכנסת לבין הבחירות שאחריהן, כל תרומה בסכום או בסכומים העולים על כפל הסכום האמור בפסקה (2) מאת אדם ובני ביתו הסמוכים על שולחנו.</p>
+                  </content>
+                </point>
+                <point eId="point_10ג__point_ו__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>על אף האמור בפסקה (1), ביצע גוף פעיל בבחירות פעילות בחירות בשווי האמור בסעיף קטן (ג) או גייס תרומות למטרה זו בשווי האמור, לא יקבל החל באותו מועד תרומה כאמור בפסקה (1) בסכום או בסכומים העולים על 15,000 שקלים חדשים <wikicomment font-size="x-small">(מתואם לשנת 2017; בשנת 2020, 15,300 ש"ח)</wikicomment>.</p>
+                  </content>
+                </point>
+                <point eId="point_10ג__point_ו__point_3">
+                  <num>(3)</num>
+                  <content>
+                    <p>לא יקבל גוף פעיל בבחירות, במישרין או בעקיפין, תרומה בניגוד להוראות <ref href="#point_8">סעיף 8(א), (ד1), (ד2) ו־(ד3)</ref>.</p>
+                  </content>
+                </point>
+                <point eId="point_10ג__point_ו__point_4">
+                  <num>(4)</num>
+                  <content>
+                    <p>על אף האמור בפסקה (3), גוף פעיל בבחירות רשאי לקבל תרומה מתורם בחוץ לארץ בניגוד להוראות <ref href="#point_8">סעיף 8(ד1)</ref>, ובלבד שהוא בגיר; ואולם קיבל גוף פעיל בבחירות תרומה כאמור, לא יעלה סך התרומות שהוא יקבל, בארץ או בחוץ לארץ, בתקופה שבין בחירות לכנסת לבין הבחירות שאחריהן, על 600,000 שקלים חדשים <wikicomment font-size="x-small">(מתואם לשנת 2017; בשנת 2020, 612,100 ש"ח)</wikicomment>, ולא יעלה סך התרומות שהוא יקבל מתורמים בחוץ לארץ לפי פסקה זו על שליש מהסכום הכולל של התרומות שקיבל באותה תקופה.</p>
+                  </content>
+                </point>
+                <point eId="point_10ג__point_ו__point_5">
+                  <num>(5)</num>
+                  <content>
+                    <p>קיבל גוף פעיל בבחירות תרומה בניגוד להוראות סעיף קטן זה או בסכום העולה על הסכום המרבי המותר על פיו, יחזיר הגוף לתורם, מיד כשנודע לו על כך, את התרומה או את חלקה שהוא מעל למותר, ואם לא ניתן לעשות כן, יעביר את הסכום שעליו להחזיר לאוצר המדינה באמצעות חשב הכנסת; פעל הגוף לפי הוראות פסקה זו, לא יראו את התרומה כתרומה שהתקבלה בניגוד להוראות חוק זה.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_10ג__point_ז">
+              <num>(ז)</num>
+              <content>
+                <p>גוף פעיל בבחירות יפרסם באתר האינטרנט שלו או באתר אינטרנט שיקבע מבקר המדינה, ולפי הנחיות מבקר המדינה, כל תרומה שקיבל מתורם וכל תרומה שהחזיר לתורם או העביר לאוצר המדינה בתוך 14 ימים מיום שקיבל את התרומה או מיום שהחזירה או העבירה; ואולם בתקופת הבחירות יפרסם גוף פעיל בבחירות מידע כאמור בתוך שבעה ימים.</p>
+              </content>
+            </point>
+            <point eId="point_10ג__point_ח">
+              <num>(ח)</num>
+              <content>
+                <p>גוף פעיל בבחירות ינהל מערכת חשבונות לפי הנחיות מבקר המדינה וירשום את הכנסותיו והוצאותיו לפי אותן הנחיות.</p>
+              </content>
+            </point>
+            <point eId="point_10ג__point_ט">
+              <num>(ט)</num>
+              <list>
+                <point eId="point_10ג__point_ט__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>רואה החשבון של גוף פעיל בבחירות שמונה לפי סעיף קטן (ג)(2) רשאי לדרוש ממנו בכל עת שימציא לו ידיעות, מסמכים, הסברים וכל חומר אחר הדרושים לו לצורך מילוי תפקידיו לפי סעיף זה, והגוף הפעיל בבחירות ימציא את הנדרש ללא דיחוי.</p>
+                  </content>
+                </point>
+                <point eId="point_10ג__point_ט__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>רואה החשבון האמור בפסקה (1) ימשיך לכהן כל עוד לא מונה אחר במקומו; התפטר רואה החשבון או נבצר ממנו למלא את תפקידו, ימנה גוף פעיל בבחירות, בתוך עשרה ימים מיום שנודע לו על כך, רואה חשבון אחר במקומו, ויפרסם באתר האינטרנט שלו את שם רואה החשבון, בצירוף כתב הסכמתו לשמש בתפקיד זה.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_10ג__point_י">
+              <num>(י)</num>
+              <content>
+                <p>גוף פעיל בבחירות ימסור למבקר המדינה, בתוך התקופה האמורה <ref href="#point_10">בסעיף 10(א) או (ו)</ref>, דוח על מערכת החשבונות שניהל בתקופה שבה פעל כגוף כאמור ועד למועד מסירת הדוח; גוף פעיל בבחירות שביצע פעילות בחירות בשווי האמור בסעיף קטן (ג) יצרף לדוח הנמסר לפי סעיף קטן זה חוות דעת של רואה החשבון שמינה לפי סעיף קטן (ג)(2) בדבר תקינותם ושלמותם של החשבונות ובדבר ניהול מערכת חשבונות בהתאם להנחיות מבקר המדינה.</p>
+              </content>
+            </point>
+            <point eId="point_10ג__point_יא">
+              <num>(יא)</num>
+              <content>
+                <p>גוף פעיל בבחירות יודיע למבקר המדינה, בתוך התקופה האמורה בסעיף קטן (י), על מאגר מידע שיצר.</p>
+              </content>
+            </point>
+            <point eId="point_10ג__point_יב">
+              <num>(יב)</num>
+              <content>
+                <p>בתוך התקופה האמורה <ref href="#point_10">בסעיף 10(ב) או (ו)</ref> ימסור מבקר המדינה ליושב ראש הכנסת דוח על תוצאות ביקורת מערכת החשבונות של גוף פעיל בבחירות, ויציין בו אם הגוף ניהל מערכת חשבונות לפי הנחיותיו, אם התרומות שקיבל היו בגבולות שנקבעו בסעיף קטן (ו) ואם הגיש הודעות ודוחות כנדרש בסעיף זה.</p>
+              </content>
+            </point>
+            <point eId="point_10ג__point_יג">
+              <num>(יג)</num>
+              <content>
+                <p>מבקר המדינה רשאי לדרוש מגוף פעיל בבחירות ומכל אדם מידע ומסמכים הדרושים לו להכנת דוח ולבירור זיקה בין גוף פעיל בבחירות לבין גוף או אדם אחר, וכל גוף או אדם כאמור ימסרו מידע ומסמכים אלו ללא דיחוי.</p>
+              </content>
+            </point>
+            <point eId="point_10ג__point_יד">
+              <num>(יד)</num>
+              <content>
+                <p>הודעות שיש למסור למבקר המדינה לפי סעיף זה יינתנו בדרך שיקבע המבקר, ורשאי הוא, בכל עת, לקבוע שלהודעה יצורף תצהיר בהתאם <ref href="/akn/il/act/PrimaryLegislation/1971-04-28/2002283#point_15">לסעיף 15 לפקודת הראיות [נוסח חדש], התשל"א–1971</ref>, המאמת את נכונות האמור בהן ואת שלמותן.</p>
+              </content>
+            </point>
+            <point eId="point_10ג__point_טו">
+              <num>(טו)</num>
+              <list>
+                <intro>
+                  <p>מצא מבקר המדינה כי גוף פעיל בבחירות עשה אחד מאלה, יעביר הגוף לאוצר המדינה, בתוך שלושים ימים מיום שהודיע לו על כך מבקר המדינה, סכום כמפורט להלן, לפי העניין, ורשאי מבקר המדינה להפחית את הסכום אם סבר כי קיימים טעמים המצדיקים זאת:</p>
+                </intro>
+                <point eId="point_10ג__point_טו__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>ביצע פעילות בחירות בלי שנרשם כגוף פעיל בבחירות, בניגוד להוראות סעיפים קטנים (א) ו־(ב), או בלי שהתאגד, בניגוד להוראות סעיף קטן (ג)(1) – סכום שגובהו פי חמישה מסכום התרומה המרבי המותר לפי סעיף קטן (ו)(2);</p>
+                  </content>
+                </point>
+                <point eId="point_10ג__point_טו__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>קיבל תרומה בניגוד להוראות סעיף קטן (ו) או לא פרסם תרומה במועד שנקבע בסעיף קטן (ז) – סכום שגובהו פי שניים מסכום התרומה;</p>
+                  </content>
+                </point>
+                <point eId="point_10ג__point_טו__point_3">
+                  <num>(3)</num>
+                  <content>
+                    <p>לא מסר למבקר המדינה דוח על מערכת החשבונות שניהל כאמור בסעיף קטן (י) – סכום שגובהו פי חמישה מסכום התרומה המרבי המותר לפי סעיף קטן (ו)(2);</p>
+                  </content>
+                </point>
+                <point eId="point_10ג__point_טו__point_4">
+                  <num>(4)</num>
+                  <content>
+                    <p>איחר במסירת דוח למבקר המדינה על מערכת החשבונות שניהל כאמור בסעיף קטן (י), לא מסר למבקר מידע ומסמכים שדרש המבקר כאמור בסעיף קטן (יג) או לא מילא אחר ההוראות הנוגעות לניהול מערכת החשבונות כפי שנקבעו בסעיף זה או בהנחיות מבקר המדינה – סכום שגובהו פי שלושה מסכום התרומה המרבי המותר לפי סעיף קטן (ו)(2);</p>
+                  </content>
+                </point>
+                <point eId="point_10ג__point_טו__point_5">
+                  <num>(5)</num>
+                  <content>
+                    <p>לא הודיע למבקר המדינה על מאגר מידע שיצר כאמור בסעיף קטן (יא) – סכום שגובהו פי חמישה מסכום התרומה המרבי המותר לפי סעיף קטן (ו)(2);</p>
+                  </content>
+                </point>
+                <point eId="point_10ג__point_טו__point_6">
+                  <num>(6)</num>
+                  <content>
+                    <p>איחר להודיע על מאגר מידע שיצר כאמור בסעיף קטן (יא) – סכום שגובהו פי שניים מסכום התרומה המרבי המותר לפי סעיף קטן (ו)(2);</p>
+                  </content>
+                </point>
+                <point eId="point_10ג__point_טו__point_7">
+                  <num>(7)</num>
+                  <content>
+                    <p>לא מינה גורם מוסמך או רואה חשבון במקום מי שחדלו לכהן כאמור בסעיפים קטנים (ה)(2) ו־(ט)(2) – סכום שגובהו פי שלושה מסכום התרומה המרבי המותר לפי סעיף קטן (ו)(2).</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_10ג__point_טז">
+              <num>(טז)</num>
+              <content>
+                <p>על אף האמור <ref href="/akn/il/act/PrimaryLegislation/1995-04-06/174310#point_3">בסעיף 3(א) לחוק המרכז לגביית קנסות, אגרות והוצאות, התשנ"ה–1995</ref>, סכום שיש להעבירו לאוצר המדינה לפי סעיף קטן (טו), ישלמו גוף פעיל בבחירות למרכז לגביית קנסות, אגרות והוצאות עד תום המועד הקבוע באותו סעיף קטן, אף אם טרם הגיע מועד פירעונו; ואולם המרכז לגביית קנסות, אגרות והוצאות לא יפעל בהליכי גבייה לפי <ref href="/akn/il/act/PrimaryLegislation/1995-04-06/174310">החוק האמור</ref> אלא בחלוף המועד לתשלום החוב.</p>
+              </content>
+            </point>
+            <point eId="point_10ג__point_יז">
+              <num>(יז)</num>
+              <content>
+                <p>יושב ראש ועדת הבחירות המרכזית לכנסת רשאי, לבקשת מפלגה המיוצגת בכנסת או מפלגה שהגישה רשימת מועמדים בבחירות לכנסת הבאה, ולאחר שנתן לנוגע בדבר הזדמנות להביא את טענותיו לפניו, לתת צו המונע הפרת הוראה מהוראות סעיף זה או מהנחיות שנתן מבקר המדינה לפיו; על דיון בעתירה לצו ועל צו לפי סעיף קטן זה יחולו הוראות <ref href="/akn/il/act/PrimaryLegislation/1959-07-15/149815#point_17ב">סעיפים 17ב</ref><ref href="/akn/il/act/PrimaryLegislation/1959-07-15/149815#point_17ה">ו־17ה(ב) לחוק הבחירות (דרכי תעמולה), התשי"ט–1959</ref>, וסדרי הדין שנקבעו לפי <ref href="/akn/il/act/PrimaryLegislation/1959-07-15/149815#point_17ה">סעיף 17ה(א) לחוק האמור</ref>, והכול בשינויים המחויבים.</p>
+              </content>
+            </point>
+            <point eId="point_10ג__point_יח">
+              <num>(יח)</num>
+              <list>
+                <point eId="point_10ג__point_יח__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>אין בהוראות סעיף זה כדי לגרוע מחובה החלה על סיעה או מפלגה או מאיסור לפי כל דין.</p>
+                  </content>
+                </point>
+                <point eId="point_10ג__point_יח__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>אין בהוראות סעיף זה כדי לפגוע בסמכות של מבקר המדינה לפי כל דין, לרבות הסמכות לקבוע כי גוף הוא גוף קשור לסיעה אף אם הוא גוף פעיל בבחירות והסמכות לקבוע כי יש בפעילות של גוף פעיל בבחירות משום תרומה אסורה לסיעה או למפלגה.<br space="preserve"></br><wikicomment font-size="x-small">פורסמו <ref href="/akn/il/act/SecondaryLegislation/2019-03-26/100042715">הנחיות מבקר המדינה (ניהול מערכת חשבונות ודיווח של גוף פעיל בבחירות), התשע"ט–2019</ref> (ק"ת תשע"ט, 3150).</wikicomment></p>
+                  </content>
+                </point>
+              </list>
+            </point>
+          </list>
+        </point>
+        <point eId="point_11">
+          <heading>
+            <authorialNote placement="side">
+              <p>חוות דעת</p>
+            </authorialNote>
+          </heading>
+          <num>11.</num>
+          <list>
+            <point eId="point_11__point_א">
+              <num>(א)</num>
+              <content>
+                <p>סיעה רשאית בכל עת לבקש מיושב־ראש ועדת הבחירות המרכזית חוות־דעת, אם הוצאה מסויימת או סוג מסויים של הוצאות מהווים הוצאות בחירות; יושב־ראש ועדת הבחירות המרכזית יתן את חוות־הדעת לאחר התייעצות בסגניו, זולת אם ראה את הדבר כדחוף.</p>
+              </content>
+            </point>
+            <point eId="point_11__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>חוות־דעת תינתן תוך שבעה ימים ותימסר ליושב־ראש הכנסת, למבקר המדינה, לסיעה שביקשה את חוות־הדעת ולכל הסיעות האחרות.</p>
+              </content>
+            </point>
+            <point eId="point_11__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>סיעה רשאית בכל עת לבקש ממבקר המדינה חוות־דעת, אם הוצאה מסויימת או סוג מסויים של הוצאות מהווים הוצאות שוטפות; חוות־הדעת תינתן תוך עשרים ואחד יום ותימסר ליושב־ראש ועדת הבחירות המרכזית, ליושב־ראש הכנסת, לסיעה שביקשה את חוות־הדעת, ואם הדבר נראה למבקר המדינה רצוי – גם לסיעות האחרות.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_12">
+          <heading>
+            <authorialNote placement="side">
+              <p>דין מפלגות המקיימות סיעה אחת</p>
+            </authorialNote>
+          </heading>
+          <num>12.</num>
+          <list>
+            <point eId="point_12__point_א">
+              <num>(א)</num>
+              <content>
+                <p>אם סיעה היא צירוף של שתי מפלגות או יותר שהגישו רשימת מועמדים משותפת והמקיימות בכנסת סיעה אחת, יראו את אותן מפלגות כאילו היו סיעות נפרדות בכל הנוגע למימון הוצאות שוטפות, להלוואה לפי <ref href="#point_7ג">סעיף 7ג</ref> ולתרומה לפי <ref href="#point_8">סעיף 8</ref>, למעט תרומה בשנה שמתקיימות בה בחירות לכנסת.</p>
+              </content>
+            </point>
+            <point eId="point_12__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>התשלומים למימון ההוצאות השוטפות ישולמו לסיעות הנפרדות המקיימות סיעה שהיא צירוף כאמור בסעיף קטן (א) בהתאם להשתייכות המפלגתית של חבריהן כפי שנמסרה עם הגשת רשימת המועמדים המשותפת כאמור <ref href="/akn/il/act/PrimaryLegislation/1969-04-14/2002229#point_57">בסעיף 57(ב) לחוק הבחירות</ref>; השתנה מספר החברים בסיעה נפרדת כאמור בשל הפסקת כהונתו בכנסת של חבר הסיעה, ישתנה בהתאם מימון ההוצאות השוטפות לפי ההשתייכות המפלגתית של חברי הסיעה ביום תשלום מימון ההוצאות השוטפות, אלא אם כן הודיעו כל הסיעות הנפרדות הנוגעות בדבר, לפני מועד זה, כי מימון ההוצאות השוטפות לא ישתנה.</p>
+              </content>
+            </point>
+            <point eId="point_12__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>התמזגו סיעות לפי <ref href="/akn/il/act/PrimaryLegislation/1996-03-21/159642#point_60">סעיף 60 לחוק הכנסת</ref>, יחולו עליהן הוראות סעיפים קטנים (א) ו־(ב), בשינויים המחויבים.</p>
+              </content>
+            </point>
+            <point eId="point_12__point_ד">
+              <num>(ד)</num>
+              <list>
+                <point eId="point_12__point_ד__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>על אף האמור בסעיף קטן (ב), חלק מהמימון החודשי לפי <ref href="#point_3">סעיף 3(ג)</ref> המגיע לסיעה נפרדת ישולם לסיעה נפרדת אחרת באותו צירוף של מפלגות, ובלבד שהתשלום הוא על פי הסכם מימון שוטף; חלק המימון כאמור יהיה נקוב באחוזים מיחידת המימון, ולא יעלה על שיעור המימון למנדט אחד כאמור <ref href="#point_3">בסעיף 3(ג)</ref>, או על שיעור גבוה יותר אם חל שינוי במספר חברי הסיעות הנפרדות במהלך כהונתה של הכנסת, והמפלגות קבעו בהסכם כאמור שמימון ההוצאות השוטפות ימשיך להשתלם לפי ההשתייכות המפלגתית כפי שנמסרה עם הגשת רשימת המועמדים המשותפת כאמור <ref href="/akn/il/act/PrimaryLegislation/1969-04-14/2002229#point_57">בסעיף 57(ב) לחוק הבחירות</ref>;</p>
+                  </content>
+                </point>
+                <point eId="point_12__point_ד__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>לא ניתן לשנות או לבטל במהלך כהונתה של אותה כנסת הסכם מימון שוטף שהוגש ליושב ראש ועדת הבחירות המרכזית; ההסכם יעמוד בתוקפו גם במקרה של התפלגות הסיעה לפי <ref href="/akn/il/act/PrimaryLegislation/1996-03-21/159642#point_59">סעיף 59(2) לחוק הכנסת</ref>, אלא אם כן קבעו הסיעות במפורש בהסכם כאמור בפסקה (1) כי במקרה של התפלגות ישולם לכל סיעה מימון ההוצאות השוטפות המגיע לה לפי <ref href="#point_3">סעיף 3(ג)</ref>.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+          </list>
+        </point>
+        <point eId="point_13">
+          <heading>
+            <authorialNote placement="side">
+              <p>שינויים בהרכב הסיעות</p>
+            </authorialNote>
+          </heading>
+          <num>13.</num>
+          <list>
+            <point eId="point_13__point_א">
+              <num>(א)</num>
+              <content>
+                <p>התפלגה סיעה בכנסת על פי האמור <ref href="/akn/il/act/PrimaryLegislation/1996-03-21/159642#point_59">בסעיפים 59</ref><ref href="/akn/il/act/PrimaryLegislation/1996-03-21/159642#point_60">ו־60 לחוק הכנסת</ref>, יחושב מימון ההוצאות השוטפות של החלקים שהתפלגו בהתאם למספר החברים החדש, החל בחודש שלאחר שועדת הכנסת אישרה את השינוי.</p>
+              </content>
+            </point>
+            <point eId="point_13__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>בכל מקרה אחר לא יהיו חברי הכנסת שפרשו מסיעה זכאים למימון הוצאות שוטפות, ומימון ההוצאות של הסיעה שממנה פרשו לא ישתנה.</p>
+              </content>
+            </point>
+            <point eId="point_13__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>הוראות סעיף קטן (א) לא יחולו על התפלגות סיעה בכנסת לפי הוראות <ref href="/akn/il/act/PrimaryLegislation/1996-03-21/159642#point_59">סעיף 59(1) לחוק הכנסת</ref> שנעשתה בשנתיים הראשונות שלאחר תחילת כהונת הכנסת או ביום הקובע ואילך, ויחולו לענין זה הוראות סעיף קטן (ב), אלא אם כן הוגשה ההודעה על ההתפלגות לועדת הכנסת, לפי הוראות <ref href="/akn/il/act/PrimaryLegislation/1996-03-21/159642#point_60">סעיף 60 לחוק הכנסת</ref>, על ידי רוב חברי הסיעה או בהסכמתם.</p>
+              </content>
+            </point>
+            <point eId="point_13__point_ג1">
+              <num>(ג1)</num>
+              <list>
+                <intro>
+                  <p>ממימון ההוצאות השוטפות לפי <ref href="#point_3">סעיף 3(ג)</ref> של החלק שהתפלג כאמור בסעיף קטן (א) יופחת סכום השווה לשיעור מהסכום הכולל של חובות ותשלומים כמפורט להלן, בעת התשלום, כשיעור חלקו היחסי בסיעה לפני שהתפלגה, והסיעה שממנה התפלג החלק תהיה אחראית לתשלום חובות או תשלומים אלה:</p>
+                </intro>
+                <point eId="point_13__point_ג1__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>חוב בשל מקדמה שקיבלה הסיעה לפי <ref href="#point_4">סעיף 4(ג)</ref> ביתר;</p>
+                  </content>
+                </point>
+                <point eId="point_13__point_ג1__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>יתרת הלוואה שניתנה לסיעה לפי <ref href="#point_7ג">סעיף 7ג</ref> לפני ההתפלגות;</p>
+                  </content>
+                </point>
+                <point eId="point_13__point_ג1__point_3">
+                  <num>(3)</num>
+                  <content>
+                    <p>תשלומים שנשללו מהסיעה לפי <ref href="#point_10">סעיף 10</ref>;</p>
+                  </content>
+                </point>
+                <point eId="point_13__point_ג1__point_4">
+                  <num>(4)</num>
+                  <content>
+                    <p>חוב של סיעת אם לפי <ref href="/akn/il/act/PrimaryLegislation/1993-07-30/165296">חוק הרשויות המקומיות (מימון בחירות), התשנ"ג–1993</ref>.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_13__point_ג2">
+              <num>(ג2)</num>
+              <content>
+                <p>התפלגה סיעה בכנסת לפי <ref href="/akn/il/act/PrimaryLegislation/1996-03-21/159642#point_59">סעיף 59(1) או (3) לחוק הכנסת</ref>, יופחת מהמקדמה לפי <ref href="#point_4">סעיף 4</ref> של החלק שהתפלג סכום השווה לשיעור מהסכום הכולל של חובות ותשלומים כמפורט בסעיף קטן (ג1), בעת התשלום, כשיעור חלקו היחסי בסיעה לפני שהתפלגה, והסיעה שממנה התפלג החלק תהיה אחראית לתשלום חובות או תשלומים אלה.</p>
+              </content>
+            </point>
+            <point eId="point_13__point_ד">
+              <num>(ד)</num>
+              <list>
+                <point eId="point_13__point_ד__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>חלק שהתפלג מסיעה ישתתף בהחזר חובות המפלגה שאותה סיעה ייצגה בכנסת, באופן יחסי לגובה מימון ההוצאות השוטפות שבשל ההתפלגות נגרע מהסיעה שממנה התפלג; החזר החוב יהיה מתוך ההוצאות השוטפות שלהן החלק שהתפלג זכאי עד לסיום כהונתה של אותה הכנסת, למעט סכום המימון למנדט אחד כאמור <ref href="#point_3">בסעיף 3(ג)</ref>; פסקה זו תחול גם אם החלק שהתפלג התמזג עם סיעה אחרת בכנסת.</p>
+                  </content>
+                </point>
+                <point eId="point_13__point_ד__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>חובת ההשתתפות של חלק, כאמור בפסקה (1), תחל בתקופה שתחילתה ביום שבו הוא זכאי למימון הוצאות שוטפות ותסתיים ביום סיום כהונתה של אותה הכנסת.</p>
+                  </content>
+                </point>
+                <point eId="point_13__point_ד__point_3">
+                  <num>(3)</num>
+                  <content>
+                    <p>רואה החשבון של הסיעה שממנה התפלג חלק, שמונה לפי <ref href="#point_5א">סעיף 5א</ref>, יקבע, בהקדם האפשרי, את חובות המפלגה לענין סעיף קטן זה, וימסור על כך הודעה ליושב ראש הכנסת ולבא כוחו של החלק שהתפלג.</p>
+                  </content>
+                </point>
+                <point eId="point_13__point_ד__point_4">
+                  <num>(4)</num>
+                  <content>
+                    <p>רואה החשבון של הסיעה שממנה התפלג חלק יאפשר לבא כוח החלק שהתפלג או מי מטעמו לעיין במסמכים הנוגעים לחובות המפלגה; היתה מחלוקת בנוגע לסכום חובות המפלגה – תובא המחלוקת להכרעת יושב ראש הכנסת, שיכריע בענין בתוך 30 ימים.</p>
+                  </content>
+                </point>
+                <point eId="point_13__point_ד__point_5">
+                  <num>(5)</num>
+                  <content>
+                    <p>לענין סעיף קטן זה, ”חובות המפלגה“ – ההפרש שבין הוצאותיה לבין הכנסותיה, בתקופה שבה החלק שהתפלג או חלק ממנו, היה חלק מהסיעה, וכן לצורך הבחירות לכנסת שאליה נבחר חלק כאמור; ואולם לא יובאו בחשבון הוצאות שהוציאה מפלגה לשם רכישת זכויות בנכסים הנשארים בידיה לאחר ההתפלגות וכן לא יובאו בחשבון חובות או תשלומים כאמור בסעיפים קטנים (ג1) ו־(ג2).</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_13__point_ה">
+              <num>(ה)</num>
+              <content>
+                <p>
+                  <wikicomment font-size="x-small">(הוראת שעה בתקופת כהונתה של הכנסת העשרים ושלוש):</wikicomment> על אף האמור בסעיף קטן (ג), חלק שהתפלג לפי <ref href="/akn/il/act/PrimaryLegislation/1996-03-21/159642#point_59">סעיף 59(1) לחוק הכנסת</ref> לפני כינונה של הממשלה בכנסת העשרים ושלוש מסיעה שקמה עקב התפלגות כאמור <ref href="/akn/il/act/PrimaryLegislation/1996-03-21/159642#point_60">בסעיף 60 לחוק הכנסת</ref>, יהיה זכאי למימון הוצאות שוטפות לפי מספר חבריו החל מיום תחילתו של <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/http_fs_knesset_gov_il_23_law_23_lsr_570149_pdf">חוק־יסוד: הממשלה (תיקון מס׳ 8 והוראת שעה)</ref>.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_13א">
+          <heading>
+            <authorialNote placement="side">
+              <p xml:space="preserve"> </p>
+            </authorialNote>
+          </heading>
+          <num>13א.</num>
+          <content>
+            <p>
+              <wikicomment font-size="x-small">(בוטל).</wikicomment>
+            </p>
+          </content>
+        </point>
+        <point eId="point_13ב">
+          <heading>
+            <authorialNote placement="side">
+              <p>רשימת מועמדים משותפת</p>
+            </authorialNote>
+          </heading>
+          <num>13ב.</num>
+          <list>
+            <point eId="point_13ב__point_א">
+              <num>(א)</num>
+              <content>
+                <p>מפלגות שהגישו רשימת מועמדים משותפת ינהלו את חשבונותיהן לתקופת הבחירות בנפרד, ויראו אותן כאילו היו סיעות נפרדות בכל הנוגע למימון הוצאות הבחירות.</p>
+              </content>
+            </point>
+            <point eId="point_13ב__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>על אף האמור בסעיף קטן (א), מפלגות שהגישו רשימת מועמדים משותפת רשאיות להודיע, בהודעה משותפת ליושב ראש הכנסת עם מסירת ההודעה לפי <ref href="#point_6">סעיף 6(א)</ref>, כי הן ינהלו את חשבונותיהן לתקופת הבחירות במשותף, ויראו אותן כאילו היו סיעה אחת בכל הנוגע למימון הוצאות הבחירות; הודיעו מפלגות כאמור, ייכללו החשבונות שניהלו לעניין הבחירות לפני מסירת ההודעה בחשבונות שהן מוסרות למבקר המדינה לפי <ref href="#point_10">סעיף 10(א)</ref>.</p>
+              </content>
+            </point>
+            <point eId="point_13ב__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>כל אחת מהמפלגות שהגישו רשימת מועמדים משותפת וזכאיות למימון הוצאות הבחירות תשתתף בהוצאות הבחירות.</p>
+              </content>
+            </point>
+            <point eId="point_13ב__point_ד">
+              <num>(ד)</num>
+              <content>
+                <p>מפלגות שהגישו רשימת מועמדים משותפת יערכו, לפני הגשת הרשימה, הסכם הוצאות בחירות, שיתייחס בין השאר להוצאות הבחירות, לתקציב הבחירות וכן לעודף ולגירעון בתקציב הבחירות; המפלגות יגישו את ההסכם ליושב ראש ועדת הבחירות המרכזית בעת הגשת רשימת המועמדים המשותפת.</p>
+              </content>
+            </point>
+            <point eId="point_13ב__point_ה">
+              <num>(ה)</num>
+              <content>
+                <p>המגישים רשימת מועמדים משותפת יציינו בה, נוסף על בא כוח הרשימה וממלא מקומו כאמור <ref href="/akn/il/act/PrimaryLegislation/1969-04-14/2002229#point_59">בסעיף 59 לחוק הבחירות</ref>, גם את בא כוחה של כל אחת מהמפלגות שהגישו את הרשימה ואת ממלא מקומו לעניין חוק זה.</p>
+              </content>
+            </point>
+            <point eId="point_13ב__point_ו">
+              <num>(ו)</num>
+              <content>
+                <p>בשנה שמתקיימות בה בחירות לכנסת יראו מפלגות שהגישו רשימת מועמדים משותפת לאותן בחירות כסיעה אחת לעניין <ref href="#point_8">סעיף 8(ג)</ref>, ואם כל המפלגות אינן מיוצגות בכנסת – לעניין <ref href="#point_8">סעיף 8(ג1)</ref>; קיבלו מפלגות כאמור תרומה בסכום העולה על סכום התרומה המרבי לפי סעיף קטן זה, לפני שהוגשה רשימת המועמדים המשותפת, יחולו הוראות <ref href="#point_8">סעיף 8(ז)</ref>; החזר התרומה יחולק בין המפלגות בחלקים שווים או בדרך אחרת שקבעו בהסכם הוצאות הבחירות.</p>
+              </content>
+            </point>
+            <point eId="point_13ב__point_ז">
+              <num>(ז)</num>
+              <list>
+                <point eId="point_13ב__point_ז__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>לעניין הגבלת הוצאות בחירות לפי <ref href="#point_7">סעיף 7</ref>, יראו מפלגות שהגישו רשימת מועמדים משותפת כאילו היו סיעה אחת, בין שחשבון הבחירות מנוהל בנפרד ובין במשותף, לפי הוראות <ref href="#point_13ב">סעיף 13ב(א) או (ב)</ref>; ניהלו המפלגות את חשבון הבחירות בנפרד, תחושב הגבלת ההוצאות ביניהן בהתאם ליחס מספר חברי הכנסת שנמנים עם כל אחת מהן ביום הקובע כאמור <ref href="#point_4">בסעיף 4(א)(1)</ref>.</p>
+                  </content>
+                </point>
+                <point eId="point_13ב__point_ז__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>על אף האמור בפסקה (1), נערך הסכם מימון שוטף, יראו את מספר חברי הכנסת שנמנים עם כל אחת מהסיעות ביום הקובע כאילו הוא המספר לפי שיעור המימון החודשי בהתאם להסכם ביום הקובע, והמספר לא יעוגל; נקבע בהסכם האמור כי הוראות <ref href="#point_3">סעיף 3(ב2)</ref> לא יחולו, לא יחולו גם הוראות פסקה זו.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_13ב__point_ח">
+              <num>(ח)</num>
+              <content>
+                <p>ניהלו מפלגות שהגישו רשימת מועמדים משותפת את חשבונותיהן לתקופת הבחירות בנפרד, וסבר מבקר המדינה כי לא ניתן לייחס הוצאה או הכנסה הנוגעת לרשימת המועמדים המשותפת לאף אחת מהן, תיוחס ההוצאה או ההכנסה בדין וחשבון לפי <ref href="#point_10">סעיף 10</ref> לכל אחת מהמפלגות, לפי שיעור חלקה בסך הכולל של הוצאות הבחירות בפועל.</p>
+              </content>
+            </point>
+            <point eId="point_13ב__point_ט">
+              <num>(ט)</num>
+              <content>
+                <p>ניהלו מפלגות שהגישו רשימת מועמדים משותפת את חשבונותיהן לתקופת הבחירות במשותף ולא היה הדין וחשבון לפי <ref href="#point_10">סעיף 10(ב)</ref> חיובי, רשאי מבקר המדינה לקבוע כי שלילת התשלומים לפי <ref href="#point_10">סעיף 10(ה)</ref> תיוחס לאחת המפלגות או לכמה מהן, כפי שיקבע.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_13ג">
+          <heading>
+            <authorialNote placement="side">
+              <p>דיווח על סיעה שקיבלה מקדמה ולא זכתה במנדט</p>
+            </authorialNote>
+          </heading>
+          <num>13ג.</num>
+          <list>
+            <point eId="point_13ג__point_א">
+              <num>(א)</num>
+              <content>
+                <p>סיעה שקיבלה מקדמה למימון הוצאות בחירות לפי <ref href="#point_4">סעיף 4(א)</ref> ולא זכתה בבחירות במנדט, ימשיכו לחול עליה הוראות חוק זה לצורך ביקורת חשבונותיה לתקופת הבחירות לפי <ref href="#point_10">סעיף 10</ref>.</p>
+              </content>
+            </point>
+            <point eId="point_13ג__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>לא היה הדין וחשבון של מבקר המדינה לפי <ref href="#point_10">סעיף 10(ב)</ref>, על סיעה כאמור בסעיף קטן (א), חיובי – יהיו מי שהיו נציגיה של הסיעה אחראים ביחד ולחוד להחזיר לאוצר המדינה 15% מהמקדמה שהסיעה קיבלה.</p>
+              </content>
+            </point>
+            <point eId="point_13ג__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>
+                  <wikicomment font-size="x-small">(בוטל).</wikicomment>
+                </p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_13ד">
+          <heading>
+            <authorialNote placement="side">
+              <p>דיווח על סיעה שקיבלה מימון שוטף וחדלה להתקיים</p>
+            </authorialNote>
+          </heading>
+          <num>13ד.</num>
+          <list>
+            <point eId="point_13ד__point_א">
+              <num>(א)</num>
+              <content>
+                <p>סיעה שחדלה להתקיים לפני המועד למסירת חשבונותיה למבקר המדינה לפי <ref href="#point_10">סעיף 10(ג)</ref>, עקב התפלגות או מיזוג כאמור <ref href="#point_13">בסעיף 13(א)</ref> או התפטרות חבריה מחברותם בכנסת, מי שהיו נציגיה של הסיעה ימסרו למבקר המדינה, תוך עשרה שבועות מהמועד שבו חדלה הסיעה להתקיים, את חשבונות הסיעה על הכנסותיה ועל הוצאותיה השוטפות באותו חלק של שנה שבו היתה קיימת כסיעה; ואולם אם חדלה להתקיים מפני שלא זכתה מחדש למנדטים בבחירות, יימסרו חשבונותיה כאמור במועד האמור <ref href="#point_10">בסעיף 10(ג1)(1)</ref>.</p>
+              </content>
+            </point>
+            <point eId="point_13ד__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>תוך שנים עשר שבועות לאחר שקיבל חשבונות כאמור בסעיף קטן (א), ואם קיבלם במועד האמור <ref href="#point_10">בסעיף 10(ג1)(1)</ref> – עד המועד האמור <ref href="#point_10">בסעיף 10(ד)</ref>, ימסור מבקר המדינה ליושב ראש הכנסת דין וחשבון על תוצאות ביקורת החשבונות, כאמור <ref href="#point_10">בסעיף 10(ד)</ref>; לענין זה, תיחשב הגבלת ההוצאות לפי <ref href="#point_7">סעיף 7(ב)</ref> לפי היחס שבין אורך התקופה שאליה מתייחסים החשבונות לבין שנה שלמה.</p>
+              </content>
+            </point>
+            <point eId="point_13ד__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>לא היה הדין וחשבון לפי סעיף קטן (ב) חיובי – יהיו מי שהיו נציגיה של הסיעה אחראים ביחד ולחוד להחזיר לאוצר המדינה 15% מהמימון החדשי שהסיעה קיבלה לפי חוק זה בתקופה שאליה מתייחס הדין וחשבון.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_13ה">
+          <heading>
+            <authorialNote placement="side">
+              <p>החזר מסיעה שחדלה להתקיים</p>
+            </authorialNote>
+          </heading>
+          <num>13ה.</num>
+          <content>
+            <p>סיעה שחדלה להתקיים לאחר שקיבלה מימון לפי חוק זה, יחזירו מי שהיו נציגיה את יתרת הסכומים שברשותם, לאחר ששילמו את חובותיה לאוצר המדינה.</p>
+          </content>
+        </point>
+        <point eId="point_14">
+          <heading>
+            <authorialNote placement="side">
+              <p>הודעות של סיעה</p>
+            </authorialNote>
+          </heading>
+          <num>14.</num>
+          <list>
+            <point eId="point_14__point_א">
+              <num>(א)</num>
+              <content>
+                <p>הודעות והצהרות של סיעה לפי חוק זה יבואו מאת בא־כוח הסיעה או ממלא מקומו שנקבעו בהתאם <ref href="/akn/il/act/PrimaryLegislation/1969-04-14/2002229#point_25">לסעיף 25 לחוק הבחירות</ref> או, לעניין סיעות נפרדות, שנקבעו בהתאם לסעיפים קטנים (ב) או (ג).</p>
+              </content>
+            </point>
+            <point eId="point_14__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>באי כוח המפלגות שהגישו רשימת מועמדים משותפת וממלאי מקומם, כאמור <ref href="#point_13ב">בסעיף 13ב(ה)</ref>, יהיו באי כוח הסיעות הנפרדות בכנסת המקיימות סיעה אחת וממלאי מקומם.</p>
+              </content>
+            </point>
+            <point eId="point_14__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>התמזגו סיעות לפי <ref href="/akn/il/act/PrimaryLegislation/1996-03-21/159642#point_60">סעיף 60 לחוק הכנסת</ref>, יודיעו הסיעות בכתב לוועדת הכנסת, במועד המיזוג, נוסף על ההודעה לפי <ref href="/akn/il/act/PrimaryLegislation/1969-04-14/2002229#point_25">סעיף 25(א1) לחוק הבחירות</ref>, מיהם באי כוחן של הסיעות הנפרדות וממלאי מקומם לעניין חוק זה.</p>
+              </content>
+            </point>
+            <point eId="point_14__point_ד">
+              <num>(ד)</num>
+              <content>
+                <p>כל סיעה נפרדת רשאית, בכל עת, בהודעה בכתב ליושב ראש הכנסת, להחליף את באי כוחה וממלאי מקומם; ההודעה תימסר בידי בא כוח הסיעה הנפרדת או ממלא מקומו, אלא אם כן הודיעו רוב חברי הסיעה הנפרדת אחרת.</p>
+              </content>
+            </point>
+            <point eId="point_14__point_ה">
+              <num>(ה)</num>
+              <content>
+                <p>הודעה על באי כוח סיעות נפרדות וממלאי מקומם לפי סעיף זה ועל כל שינוי בהם תפורסם ברשומות מטעם הכנסת.</p>
+              </content>
+            </point>
+            <point eId="point_14__point_ו">
+              <num>(ו)</num>
+              <content>
+                <p>על סיעה או סיעה נפרדת שבה חלוקים חבריה בשאלה מי מייצג אותה יחולו הוראת <ref href="/akn/il/act/PrimaryLegislation/1996-03-21/159642#point_63">סעיף 63 לחוק הכנסת</ref>, בשינויים המחויבים.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_15">
+          <heading>
+            <authorialNote placement="side">
+              <p>מניעת שעבוד ועיקול</p>
+            </authorialNote>
+          </heading>
+          <num>15.</num>
+          <content>
+            <p>הסכומים המגיעים לסיעה לפי חוק זה אינם ניתנים לשעבוד או לעיקול.</p>
+          </content>
+        </point>
+        <point eId="point_16">
+          <heading>
+            <authorialNote placement="side">
+              <p xml:space="preserve"> </p>
+            </authorialNote>
+          </heading>
+          <num>16.</num>
+          <content>
+            <p>
+              <wikicomment font-size="x-small">(בוטל).</wikicomment>
+            </p>
+          </content>
+        </point>
+        <point eId="point_17">
+          <heading>
+            <authorialNote placement="side">
+              <p>סכומים שנתקבלו מההסתדרות והלוואה לסיעה בהסתדרות</p>
+            </authorialNote>
+          </heading>
+          <num>17.</num>
+          <list>
+            <point eId="point_17__point_א">
+              <num>(א)</num>
+              <list>
+                <point eId="point_17__point_א__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>סכומים שקיבלה סיעה בעקבות החלטת ההסתדרות הכללית של העובדים בארץ ישראל למימון מערכת הבחירות בהסתדרות זו ובאיגודים המקצועיים המאורגנים בה ולצרכי המפלגות המופיעות בה בהתאם לגודלן הייצוגי (להלן – הסכומים), לא ייחשבו כתרומה לפי <ref href="#point_8">סעיף 8</ref>, ובלבד שהסיעה לא חרגה מהאמור <ref href="#point_7">בסעיף 7(ד)</ref>.</p>
+                  </content>
+                </point>
+                <point eId="point_17__point_א__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>הוצאות שהוציאה סיעה בקשר למערכת בחירות או בקשר לפעילותה השוטפת בהסתדרות הכללית של העובדים בארץ ישראל ובאיגודים המקצועיים המאורגנים בה (להלן – הפעילות), לא ייחשבו כהוצאות שוטפות לפי <ref href="#point_7">סעיף 7(ד)</ref>, ובלבד שהסיעה שייכה את ההוצאות לפעילות, בדרך שנהגה בה, ערב תחילתו של חוק זה; לא ייעשה שינוי בשיוך כאמור אלא באישור מבקר המדינה.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_17__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>על אף האמור בסעיף קטן (א), לא תחול הוראת <ref href="#point_7">סעיף 7(ד)</ref> על הסכומים אם הסיעה הוציאה אותם לצרכי הפעילות בלבד, החזיקה אותם בנפרד ושיקפה אותם בחשבונותיה, בצורה שתאפשר למבקר המדינה, בדרכי ביקורת מקובלות, לזהותם בבירור, לאמתם ולסכמם וכן שרשמה באותה צורה את הפעולות המהוות הוצאת הסכומים; שימוש בסכומים או בחלקם שלא לצורכי הפעילות ייחשב כקבלת תרומה לפי הוראות <ref href="#point_8">סעיף 8</ref>.</p>
+              </content>
+            </point>
+            <point eId="point_17__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>סיעה או מפלגה רשאית לתת הלוואה לסיעה בהסתדרות כאמור בסעיף קטן (א) או לרשימת מועמדים המתמודדת בבחירות להסתדרות זו, לצורך מימון מערכת הבחירות שלה בהסתדרות זו, ובלבד שהסיעה בהסתדרות או רשימת המועמדים קשורה אליה ומזוהה עמה; החזר ההלוואה יהיה צמוד להפרשי הצמדה וריבית.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_17א">
+          <heading>
+            <authorialNote placement="side">
+              <p xml:space="preserve"> </p>
+            </authorialNote>
+          </heading>
+          <num>17א.</num>
+          <content>
+            <p>
+              <wikicomment font-size="x-small">(בוטל).</wikicomment>
+            </p>
+          </content>
+        </point>
+        <point eId="point_18">
+          <heading>
+            <authorialNote placement="side">
+              <p xml:space="preserve"> </p>
+            </authorialNote>
+          </heading>
+          <num>18.</num>
+          <content>
+            <p>
+              <wikicomment font-size="x-small">(בוטל).</wikicomment>
+            </p>
+          </content>
+        </point>
+        <point eId="point_19">
+          <heading>
+            <authorialNote placement="side">
+              <p xml:space="preserve"> </p>
+            </authorialNote>
+          </heading>
+          <num>19.</num>
+          <content>
+            <p>
+              <wikicomment font-size="x-small">(בוטל).</wikicomment>
+            </p>
+          </content>
+        </point>
+        <point eId="point_20">
+          <heading>
+            <authorialNote placement="side">
+              <p>ביצוע</p>
+            </authorialNote>
+          </heading>
+          <num>20.</num>
+          <content>
+            <p>יושב־ראש הכנסת ממונה על ביצוע חוק זה.</p>
+          </content>
+        </point>
+        <point eId="point_21">
+          <heading>
+            <authorialNote placement="side">
+              <p>תחילה</p>
+            </authorialNote>
+          </heading>
+          <num>21.</num>
+          <content>
+            <p>תחילתו של חוק זה מיום כ"ז בטבת תשל"ג (1 בינואר 1973).</p>
+          </content>
+        </point>
+      </list>
+    </body>
+    <conclusions eId="eId">
+      <p class="signatures">
+        <signature>
+          <p>
+            <person refersTo="גולדה_מאיר">גולדה מאיר</person>
+            <role refersTo="ראש_הממשלה">ראש הממשלה</role>
+          </p>
+        </signature>
+        <signature>
+          <p>
+            <person refersTo="שניאור_זלמן_שזר">שניאור זלמן שזר</person>
+            <role refersTo="נשיא_המדינה">נשיא המדינה</role>
+          </p>
+        </signature>
+      </p>
+    </conclusions>
+  </act>
+</akomaNtoso>

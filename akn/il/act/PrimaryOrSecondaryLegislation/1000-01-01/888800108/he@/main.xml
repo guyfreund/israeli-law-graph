@@ -1,0 +1,3018 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion" name="publicLaw">
+    <meta>
+      <identification source="#kensset">
+        <FRBRWork>
+          <FRBRthis value="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/888800108/main" />
+          <FRBRuri value="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/888800108" />
+          <FRBRdate date="1000-01-01" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRcountry value="israel" />
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/888800108/he@/main" />
+          <FRBRuri value="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/888800108/he@" />
+          <FRBRdate date="1000-01-01" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRlanguage language="hebrew" />
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/888800108/he@/main.xml" />
+          <FRBRuri value="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/888800108/he@" />
+          <FRBRdate date="1000-01-01" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRformat value="xml" />
+        </FRBRManifestation>
+      </identification>
+      <classification source="#kensset">
+        <keyword value="{classificationValue}" showAs="{classificationValue}" dictionary="#classification_dictionary" />
+      </classification>
+      <lifecycle source="#kensset">
+        <eventRef eId="eventRef_1" date="1000-01-01" source="#kensset" type="generation" />
+      </lifecycle>
+      <references source="#kensset">
+        <TLCOrganization eId="kensset" href="/ontology/organization/akn/knesset" showAs="Kensset" type="generation" />
+        <TLCRole eId="author" href="/ontology/role/akn/author" showAs="Author of Document" />
+        <TLCProcess eId="inforce" href="/ontology/process/akn/inforce" showAs="In force" />
+        <TLCTerm eId="term_1" href="/ontology/term/אנשים_הגרים_באותו_מקום/888800108" showAs="אנשים_הגרים_באותו_מקום" />
+        <TLCTerm eId="term_2" href="/ontology/term/בחינות/888800108" showAs="בחינות" />
+        <TLCTerm eId="term_3" href="/ontology/term/בחינות/888800108" showAs="בחינות" />
+        <TLCTerm eId="term_4" href="/ontology/term/בחינות_הסמכה/888800108" showAs="בחינות_הסמכה" />
+        <TLCTerm eId="term_5" href="/ontology/term/בעל_מוסד/888800108" showAs="בעל_מוסד" />
+        <TLCTerm eId="term_6" href="/ontology/term/גן_ילדים/888800108" showAs="גן_ילדים" />
+        <TLCTerm eId="term_7" href="/ontology/term/הוראות_המנהל/888800108" showAs="הוראות_המנהל" />
+        <TLCTerm eId="term_8" href="/ontology/term/התקהלות/888800108" showAs="התקהלות" />
+        <TLCTerm eId="term_9" href="/ontology/term/חולה/888800108" showAs="חולה" />
+        <TLCTerm eId="term_10" href="/ontology/term/חוק_החניכות/888800108" showAs="חוק_החניכות" />
+        <TLCTerm eId="term_11" href="/ontology/term/חוק_הפיקוח/888800108" showAs="חוק_הפיקוח" />
+        <TLCTerm eId="term_12" href="/ontology/term/חוק_השבות/888800108" showAs="חוק_השבות" />
+        <TLCTerm eId="term_13" href="/ontology/term/מדידת_חום/888800108" showAs="מדידת_חום" />
+        <TLCTerm eId="term_14" href="/ontology/term/מוסד/888800108" showAs="מוסד" />
+        <TLCTerm eId="term_15" href="/ontology/term/מוסד_חינוך_תרבותי_ייחודי/888800108" showAs="מוסד_חינוך_תרבותי_ייחודי" />
+        <TLCTerm eId="term_16" href="/ontology/term/מוסד_להשכלה_או_הכשרה_מקצועית_לבגירים/888800108" showAs="מוסד_להשכלה_או_הכשרה_מקצועית_לבגירים" />
+        <TLCTerm eId="term_17" href="/ontology/term/מסגרת_חוץ־ביתית/888800108" showAs="מסגרת_חוץ־ביתית" />
+        <TLCTerm eId="term_18" href="/ontology/term/מפעיל_חיצוני/888800108" showAs="מפעיל_חיצוני" />
+        <TLCTerm eId="term_19" href="/ontology/term/הממונה_על_החניכות/888800108" showAs="הממונה_על_החניכות" />
+        <TLCTerm eId="term_20" href="/ontology/term/המנהל/888800108" showAs="המנהל" />
+        <TLCTerm eId="term_21" href="/ontology/term/מנהל_המחוז/888800108" showAs="מנהל_המחוז" />
+        <TLCTerm eId="term_22" href="/ontology/term/מקום_הפעילות/888800108" showAs="מקום_הפעילות" />
+        <TLCTerm eId="term_23" href="/ontology/term/מפעל_למתן_שירותים_קיומיים/888800108" showAs="מפעל_למתן_שירותים_קיומיים" />
+        <TLCTerm eId="term_24" href="/ontology/term/עובד_חיוני/888800108" showAs="עובד_חיוני" />
+        <TLCTerm eId="term_25" href="/ontology/term/עובד_המוסד/888800108" showAs="עובד_המוסד" />
+        <TLCTerm eId="term_26" href="/ontology/term/עובד_משרד_החינוך/888800108" showAs="עובד_משרד_החינוך" />
+        <TLCTerm eId="term_27" href="/ontology/term/פנימייה/888800108" showAs="פנימייה" />
+        <TLCTerm eId="term_28" href="/ontology/term/פנימייה/888800108" showAs="פנימייה" />
+        <TLCTerm eId="term_29" href="/ontology/term/פקודת_בריאות_העם/888800108" showAs="פקודת_בריאות_העם" />
+        <TLCTerm eId="term_30" href="/ontology/term/צהרון/888800108" showAs="צהרון" />
+        <TLCTerm eId="term_31" href="/ontology/term/צו_בידוד_בית/888800108" showAs="צו_בידוד_בית" />
+        <TLCTerm eId="term_32" href="/ontology/term/צוות_המוסד/888800108" showAs="צוות_המוסד" />
+        <TLCTerm eId="term_33" href="/ontology/term/קבוצה_קבועה/888800108" showAs="קבוצה_קבועה" />
+        <TLCTerm eId="term_34" href="/ontology/term/תלמיד/888800108" showAs="תלמיד" />
+        <TLCTerm eId="term_35" href="/ontology/term/תלמיד_עולה/888800108" showAs="תלמיד_עולה" />
+        <TLCTerm eId="term_36" href="/ontology/term/תנועת_נוער/888800108" showAs="תנועת_נוער" />
+        <TLCTerm eId="term_37" href="/ontology/term/תסמינים/888800108" showAs="תסמינים" />
+        <TLCTerm eId="term_38" href="/ontology/term/תקנות_הגבלת_השהייה_במרחב_הציבורי_[צ''ל:_תקנות_הגבלת_פעילות]/888800108" showAs="תקנות_הגבלת_השהייה_במרחב_הציבורי_[צ''ל:_תקנות_הגבלת_פעילות]" />
+        <TLCTerm eId="term_39" href="/ontology/term/תקנות_הגבלת_פעילות/888800108" showAs="תקנות_הגבלת_פעילות" />
+        <TLCTerm eId="term_40" href="/ontology/term/תקנות_הגבלת_פעילות_במקומות_עבודה/888800108" showAs="תקנות_הגבלת_פעילות_במקומות_עבודה" />
+        <TLCPerson eId="בנימין_נתניהו" href="/ontology/person/בנימין_נתניהו" showAs="בנימין נתניהו" />
+        <TLCRole eId="ראש_הממשלה" href="ontology/role/akn/ראש_הממשלה" showAs="ראש הממשלה" />
+      </references>
+      <temporalData source="#kensset">
+        <temporalGroup eId="tmpg_1" />
+      </temporalData>
+      <Publication></Publication>
+      <proprietary wikiversion="1/14/2021 10:06:37 AM" />
+    </meta>
+    <body period="#tmpg_1">
+      <title eId="title">
+        <content>
+          <p>תקנות סמכויות מיוחדות להתמודדות עם נגיף הקורונה החדש (הוראת שעה) (הגבלת פעילות של מוסדות המקיימים פעילות חינוך), התש"ף–2020</p>
+        </content>
+      </title>
+      <preamble eId="eId">
+        <p>בתוקף סמכותה לפי <ref href="/akn/il/act/PrimaryLegislation/2020-07-23/2140584#point_4">סעיפים 4</ref><ref href="/akn/il/act/PrimaryLegislation/2020-07-23/2140584#point_10">ו־10</ref><ref href="/akn/il/act/PrimaryLegislation/2020-07-23/2140584">לחוק סמכויות מיוחדות להתמודדות עם נגיף הקורונה החדש (הוראת שעה), התש"ף–2020</ref> (להלן – החוק), ולאחר שהתקיים האמור <ref href="/akn/il/act/PrimaryLegislation/2020-07-23/2140584#point_4">בסעיף 4(ד)(2)(א) לחוק</ref>, מתקינה הממשלה תקנות אלה:
+
+<מפריד /><wikicomment font-size="x-small">בנוסח זה משולבת הוראת שעה מיום 8.1.2021 עד ליום 21.1.2021 (להלן – הוראת השעה).</wikicomment></p>
+      </preamble>
+      <chapter eId="chp_א">
+        <num>פרק א׳:</num>
+        <title>
+          <content>
+            <p>פרשנות</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_1" class="definitions">
+            <heading>
+              <authorialNote placement="side">
+                <p>הגדרות</p>
+              </authorialNote>
+            </heading>
+            <num>1.</num>
+            <list>
+              <intro>
+                <p>בתקנות אלה –</p>
+              </intro>
+              <point eId="point_1__point_אנשים_הגרים_באותו_מקום">
+                <content>
+                  <p>
+                    <def />”אנשים הגרים באותו מקום“ – בני אותו תא משפחתי או יחידים השוהים יחד במקום מגורים או במקום שהייה קבוע אחד וכן אדם עם מוגבלות ומלווהו הדרוש לו מחמת מוגבלותו או קטין ומלווהו;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_בחינות">
+                <content>
+                  <p>
+                    <def />”בחינות“ – <wikicomment font-size="x-small">(בתקופת הוראת השעה):</wikicomment> בחינות בתחום הרפואה והבריאות;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_בחינות">
+                <list>
+                  <intro>
+                    <p>
+                      <def />”בחינות“ – <wikicomment font-size="x-small">(הנוסח הקבוע):</wikicomment> אחד מאלה:</p>
+                  </intro>
+                  <point eId="point_1__point_בחינות__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>בחינות בגרות ובחינות גמר המוכרות על ידי משרד ממשלתי;</p>
+                    </content>
+                  </point>
+                  <point eId="point_1__point_בחינות__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>בחינות הסמכה להשכלה מקצועית או טכנית במוסד תיכוני או על־תיכוני;</p>
+                    </content>
+                  </point>
+                  <point eId="point_1__point_בחינות__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>בחינות גמר ממשלתיות ובחינות הגנה על פרויקט גמר;</p>
+                    </content>
+                  </point>
+                  <point eId="point_1__point_בחינות__point_4">
+                    <num>(4)</num>
+                    <content>
+                      <p>בחינות לשם קבלת ציון סופי בקורס או מסלול לימודי במוסדות שבפיקוח משרד העבודה הרווחה והשירותים החברתיים וכן במוסד על־תיכוני להשכלה מקצועית;</p>
+                    </content>
+                  </point>
+                  <point eId="point_1__point_בחינות__point_5">
+                    <num>(5)</num>
+                    <content>
+                      <p>בחינות הסמכה;</p>
+                    </content>
+                  </point>
+                  <point eId="point_1__point_בחינות__point_6">
+                    <num>(6)</num>
+                    <content>
+                      <p>במוסד להשכלה גבוהה – בחינות בשיעור שלא יעלה על 10% מכלל הבחינות האמורות להתקיים במוסד בתקופת תוקפן של תקנות אלה;</p>
+                    </content>
+                  </point>
+                  <point eId="point_1__point_בחינות__point_7">
+                    <num>(7)</num>
+                    <content>
+                      <p>בחינות מיון לקראת לימודים במוסד;</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_1__point_בחינות_הסמכה">
+                <content>
+                  <p>
+                    <def />”בחינות הסמכה“ – <wikicomment font-size="x-small">(תימחק בתקופת הוראת השעה):</wikicomment> בחינות המתקיימות על ידי גורם המקיים בחינות לצורך עיסוק הטעון רישיון, היתר, הסמכה או אישור הניתנים על פי דין, אם מתקיימות במסגרת פעילות המוסד;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_בעל_מוסד">
+                <list>
+                  <intro>
+                    <p>
+                      <def />”בעל מוסד“ – כל אלה:</p>
+                  </intro>
+                  <point eId="point_1__point_בעל_מוסד__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>במוסד חינוך רשמי, כמשמעותו <ref href="/akn/il/act/PrimaryLegislation/1949-09-18/314513">בחוק לימוד חובה</ref> – רשות החינוך המקומית;</p>
+                    </content>
+                  </point>
+                  <point eId="point_1__point_בעל_מוסד__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>במוסד חינוך מוכר כהגדרתו <ref href="/akn/il/act/PrimaryLegislation/1949-09-18/314513">בחוק לימוד חובה</ref> – הגוף בעל הרישיון מהמנהל הכללי של משרד החינוך להפעלת מוסד החינוך לפי הוראות <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/חוק_פיקוח_על_בתי_ספר">חוק הפיקוח</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_1__point_בעל_מוסד__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>במוסד חינוך תרבותי ייחודי ובמוסד חינוך במעמד פטור – מי שמפעיל את מוסד החינוך;</p>
+                    </content>
+                  </point>
+                  <point eId="point_1__point_בעל_מוסד__point_4">
+                    <num>(4)</num>
+                    <content>
+                      <p>במוסד בפיקוח האגף להכשרה מקצועית ופיתוח כוח אדם במשרד העבודה הרווחה והשירותים החברתיים – מי שמפעיל את מוסד החינוך;</p>
+                    </content>
+                  </point>
+                  <point eId="point_1__point_בעל_מוסד__point_5">
+                    <num>(5)</num>
+                    <content>
+                      <p>בפנימייה – מי שמפעיל את הפנימייה;</p>
+                    </content>
+                  </point>
+                  <point eId="point_1__point_בעל_מוסד__point_6">
+                    <num>(6)</num>
+                    <content>
+                      <p>במקום המשמש או שנועד לשמש מקום שהייה יומי לחינוך ולטיפול בפעוטות – מי שמפעיל את המוסד;</p>
+                    </content>
+                  </point>
+                  <point eId="point_1__point_בעל_מוסד__point_7">
+                    <num>(7)</num>
+                    <content>
+                      <p>במוסד תורני, למעט מוסד חינוך תרבותי ייחודי – מי שמפעיל את המוסד;</p>
+                    </content>
+                  </point>
+                  <point eId="point_1__point_בעל_מוסד__point_8">
+                    <num>(8)</num>
+                    <content>
+                      <p>במסגרות לחינוך בלתי פורמלי לילדי עובדים חיוניים עד גיל 12 וכן מקומות המשמשים או שנועדו לשמש מקום שהייה יומי לחינוך ולטיפול בפעוטות שהם ילדי עובדים חיוניים – מי שמפעיל את המסגרת;</p>
+                    </content>
+                  </point>
+                  <point eId="point_1__point_בעל_מוסד__point_9">
+                    <num>(9)</num>
+                    <content>
+                      <p>כל מוסד אחר המקיים פעילות חינוך – מי שמפעיל את המוסד;</p>
+                    </content>
+                  </point>
+                  <point eId="point_1__point_בעל_מוסד__point_10">
+                    <num>(10)</num>
+                    <content>
+                      <p>בפעילות חינוך כמפורט <ref href="/akn/il/act/PrimaryLegislation/2020-07-23/2140584#point_10">בסעיף 10(ג)(8) עד (14) לחוק</ref> – מי שמפעיל את הפעילות;</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_1__point_גן_ילדים">
+                <content>
+                  <p>
+                    <def />”גן ילדים“ – גן ילדים רשמי כמשמעותו <ref href="/akn/il/act/PrimaryLegislation/1949-09-18/314513">בחוק לימוד חובה</ref> או גן ילדים שחל עליו <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/חוק_פיקוח_על_בתי_ספר">חוק הפיקוח</ref>, לילדים בגילים 3 עד 6;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_הוראות_המנהל">
+                <content>
+                  <p>
+                    <def />”הוראות המנהל“ – לפי <ref href="/akn/il/act/PrimaryLegislation/1940-12-20/2001729#point_20">סעיף 20 לפקודת בריאות העם</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_התקהלות">
+                <content>
+                  <p>
+                    <def />”התקהלות“ – כהגדרתה <ref href="/akn/il/act/PrimaryLegislation/2020-07-23/2140584">בחוק</ref>, למעט שהייה בסמיכות של אנשים הגרים באותו מקום;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_חולה">
+                <content>
+                  <p>
+                    <def />”חולה“ ו”מגע הדוק“ – כהגדרתם <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/צו_בריאות_העם_נגיף_הקורונה_החדש_בידוד_בית_והוראות_שונות_הוראת_שעה">בצו בידוד בית</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_חוק_החניכות">
+                <content>
+                  <p>
+                    <def />”חוק החניכות“ – <ref href="/akn/il/act/PrimaryLegislation/1953-07-23/147415">חוק החניכות, התשי"ג–1953</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_חוק_הפיקוח">
+                <content>
+                  <p>
+                    <def />”חוק הפיקוח“ – <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/חוק_פיקוח_על_בתי_ספר">חוק פיקוח על בתי ספר, התשכ"ט–1969</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_חוק_השבות">
+                <content>
+                  <p>
+                    <def />”חוק השבות“ – <ref href="/akn/il/act/PrimaryLegislation/1950-07-06/148721">חוק השבות, התש"י–1950</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_מדידת_חום">
+                <content>
+                  <p>
+                    <def />”מדידת חום“ – מדידת חום לפי הוראות <ref href="#point_6">תקנה 6(9)</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_מוסד">
+                <content>
+                  <p>
+                    <def />”מוסד“ – מוסד המקיים פעילות חינוך;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_מוסד_חינוך_תרבותי_ייחודי">
+                <content>
+                  <p>
+                    <def />”מוסד חינוך תרבותי ייחודי“ – כהגדרתו <ref href="/akn/il/act/PrimaryLegislation/2008-07-30/249222">בחוק מוסדות חינוך תרבותיים ייחודיים, התשס"ח–2008</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_מוסד_להשכלה_או_הכשרה_מקצועית_לבגירים">
+                <list>
+                  <intro>
+                    <p>
+                      <def />”מוסד להשכלה או הכשרה מקצועית לבגירים“ – מוסד חינוך על־תיכוני המקיים פעילות לימודית, ובכלל זה מוסד שהוא אחד מאלה, והכול למעט פעילות חינוך בלתי פורמלי:</p>
+                  </intro>
+                  <point eId="point_1__point_מוסד_להשכלה_או_הכשרה_מקצועית_לבגירים__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>מוסד כאמור <ref href="/akn/il/act/PrimaryLegislation/2020-07-23/2140584#point_1">בפסקאות (9) או (10) להגדרת ”מוסד המקיים פעילות חינוך“ בחוק</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_1__point_מוסד_להשכלה_או_הכשרה_מקצועית_לבגירים__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>מוסד על־תיכוני להשכלה מקצועית או טכנית, ובכלל זה מכללה טכנולוגית מוכרת כהגדרתה <ref href="/akn/il/act/PrimaryLegislation/2012-11-15/335942">בחוק ההנדסאים והטכנאים המוסמכים, התשע"ג–2012</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_1__point_מוסד_להשכלה_או_הכשרה_מקצועית_לבגירים__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>אולפן ללימוד השפה העברית לעולים;</p>
+                    </content>
+                  </point>
+                  <point eId="point_1__point_מוסד_להשכלה_או_הכשרה_מקצועית_לבגירים__point_4">
+                    <num>(4)</num>
+                    <content>
+                      <p>מוסד המקיים לימודים לצורך השלמת השכלה יסודית או על־יסודית;</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_1__point_מסגרת_חוץ־ביתית">
+                <content>
+                  <p>
+                    <def />”מסגרת חוץ־ביתית“ – כהגדרתה <ref href="/akn/il/act/PrimaryLegislation/2020-07-23/2140584#point_22א">בסעיף 22א(א) לחוק</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_מפעיל_חיצוני">
+                <content>
+                  <p>
+                    <def />”מפעיל חיצוני“ – אדם המבצע פעילות חינוך או העשרה, לרבות תומך בעובדי הוראה ושאינו נמנה עם צוות המוסד;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_הממונה_על_החניכות">
+                <content>
+                  <p>
+                    <def />”הממונה על החניכות“ – כמשמעותו <ref href="/akn/il/act/PrimaryLegislation/1953-07-23/147415">בחוק החניכות</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_המנהל">
+                <content>
+                  <p>
+                    <def />”המנהל“ – כהגדרתו <ref href="/akn/il/act/PrimaryLegislation/1940-12-20/2001729#point_2">בסעיף 2 לפקודת בריאות העם</ref> ומי שהוא הסמיכו לעניין <ref href="/akn/il/act/PrimaryLegislation/1940-12-20/2001729#point_20">סעיף 20 לפקודה האמורה</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_מנהל_המחוז">
+                <content>
+                  <p>
+                    <def />”מנהל המחוז“ – כהגדרתו <ref href="/akn/il/act/SecondaryLegislation/1956-10-08/99993195">בתקנות חינוך ממלכתי (סדרי הפיקוח), התשי"ז–1956</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_מקום_הפעילות">
+                <content>
+                  <p>
+                    <def />”מקום הפעילות“ – כהגדרתו <ref href="/akn/il/act/PrimaryLegislation/2020-07-23/2140584#point_10">בסעיף 10(א) לחוק</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_מפעל_למתן_שירותים_קיומיים">
+                <content>
+                  <p>
+                    <def />”מפעל למתן שירותים קיומיים“ – כהגדרתו <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/חוק_שירות_עבודה_בשעת_חירום">בחוק שירות עבודה בשעת־חירום, התשכ"ז–1967</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_עובד_חיוני">
+                <list>
+                  <intro>
+                    <p>
+                      <def />”עובד חיוני“ – עובד המועסק במפעל למתן שירותים קיומיים ומתקיים בו אחד מאלה:</p>
+                  </intro>
+                  <point eId="point_1__point_עובד_חיוני__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>עובד שהוא ובן זוגו עובדים חיוניים שאינם יכולים לבצע את עבודתם מביתם;</p>
+                    </content>
+                  </point>
+                  <point eId="point_1__point_עובד_חיוני__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>עובד חיוני שהוא הורה עצמאי כהגדרתו <ref href="/akn/il/act/PrimaryLegislation/2014-05-22/477838">בחוק סיוע למשפחות שבראשן הורה עצמאי, התשנ"ב–1992</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_1__point_עובד_חיוני__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>עובד חיוני שבן זוגו נמצא בבידוד לפי <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/צו_בריאות_העם_נגיף_הקורונה_החדש_בידוד_בית_והוראות_שונות_הוראת_שעה">צו בידוד בית</ref> או לפי <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/צו_בריאות_העם_נגיף_הקורונה_החדש_2019_בידוד_בבית_חולים_הוראת_שעה">צו בריאות העם (נגיף הקורונה החדש 2019) (בידוד בבית חולים) (הוראת שעה), התש"ף–2020</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_1__point_עובד_חיוני__point_4">
+                    <num>(4)</num>
+                    <content>
+                      <p>עובד חיוני שהילד נמצא בטיפולו הבלעדי מחמת נכות או מחלה של בן הזוג ובן הזוג אינו מסוגל לטפל בילד בשל הנכות או המחלה כאמור;</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_1__point_עובד_המוסד">
+                <content>
+                  <p>
+                    <def />”עובד המוסד“ – עובד כהגדרתו <ref href="/akn/il/act/PrimaryLegislation/2020-07-23/2140584">בחוק</ref>, המועסק במוסד;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_עובד_משרד_החינוך">
+                <content>
+                  <p>
+                    <def />”עובד משרד החינוך“ – עובד משרד החינוך או מי מטעמו של משרד החינוך, ובכלל זה עובד אגף אכיפה ואגף בקרה במינהל רישוי בקרה ואכיפה במשרד החינוך, הנכנס למקום הפעילות לשם אכיפה, בקרה ופיקוח;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_פנימייה">
+                <content>
+                  <p>
+                    <def />”פנימייה“ – <wikicomment font-size="x-small">(בתקופת הוראת השעה):</wikicomment> מסגרת שבה מתגוררים תלמידים, המספקת והמיועדת לספק לתלמידים מגורים ומעטפת חינוכית, חברתית או טיפולית במשך כל שעות היממה כולל לינה, לרבות מוסד תורני המקיים פעילות כאמור, והכול ובלבד שהתלמידים שוהים בה לתקופה של 30 ימים רצופים לפחות, ופנימייה כאמור <ref href="/akn/il/act/PrimaryLegislation/2020-07-23/2140584#point_10">בסעיף 10(ג)(5) לחוק</ref>, ולמעט מסגרת חוץ־ביתית;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_פנימייה">
+                <content>
+                  <p>
+                    <def />”פנימייה“ – <wikicomment font-size="x-small">(הנוסח הקבוע):</wikicomment> מסגרת שבה מתגוררים תלמידים, המספקת לתלמידים מגורים ומעטפת חינוכית, חברתית או טיפולית במשך כל שעות היממה, לרבות מוסד תורני המקיים פעילות כאמור ופנימייה כאמור <ref href="/akn/il/act/PrimaryLegislation/2020-07-23/2140584#point_10">בסעיף 10(ג)(5) לחוק</ref>, ולמעט מסגרת חוץ־ביתית;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_פקודת_בריאות_העם">
+                <content>
+                  <p>
+                    <def />”פקודת בריאות העם“ – <ref href="/akn/il/act/PrimaryLegislation/1940-12-20/2001729">פקודת בריאות העם, 1940</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_צהרון">
+                <content>
+                  <p>
+                    <def />”צהרון“ – מסגרת חינוכית בלתי פורמלית המשמשת לשהות יומית של תלמידים ופועלת לאחר שעות הפעילות של גן ילדים או של מקום המשמש או שנועד לשמש מקום שהייה יומי לחינוך ולטיפול בפעוטות בגילי לידה עד 3 או של תלמידי כיתות א׳ עד ד׳;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_צו_בידוד_בית">
+                <content>
+                  <p>
+                    <def />”צו בידוד בית“ – <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/צו_בריאות_העם_נגיף_הקורונה_החדש_בידוד_בית_והוראות_שונות_הוראת_שעה">צו בריאות העם (נגיף הקורונה החדש) (בידוד בית והוראות שונות) (הוראת שעה), התש"ף–2020</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_צוות_המוסד">
+                <content>
+                  <p>
+                    <def />”צוות המוסד“ – צוות העובדים הקבוע במוסד;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_קבוצה_קבועה">
+                <content>
+                  <p>
+                    <def />”קבוצה קבועה“ – הקבוצה הקבועה לתלמיד לאותה פעילות;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_תלמיד">
+                <content>
+                  <p>
+                    <def />”תלמיד“ – לומד במוסד, לרבות חניך או מטופל במוסד;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_תלמיד_עולה">
+                <list>
+                  <intro>
+                    <p>
+                      <def />”תלמיד עולה“ – מי שהעביר את מקום מגוריו לישראל החל מ־1 בינואר 2017, והוא אחד מאלה:</p>
+                  </intro>
+                  <point eId="point_1__point_תלמיד_עולה__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>הוא נכנס לישראל מכוח <ref href="/akn/il/act/PrimaryLegislation/1950-07-06/148721">חוק השבות</ref> או מכוח החלטות ממשלה שקבעו כי הנכנס לישראל מכוחן זכאי לזכויות עולה;</p>
+                    </content>
+                  </point>
+                  <point eId="point_1__point_תלמיד_עולה__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>הוא נולד מחוץ לישראל להורה אזרח ישראל והיה זכאי למעמד עולה לפי <ref href="/akn/il/act/PrimaryLegislation/1950-07-06/148721">חוק השבות</ref> אלמלא היה אזרח ישראל;</p>
+                    </content>
+                  </point>
+                  <point eId="point_1__point_תלמיד_עולה__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>הוא תלמיד בתכנית נעל"ה;</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_1__point_תנועת_נוער">
+                <content>
+                  <p>
+                    <def />”תנועת נוער“, ”ארגון נוער“ – תנועת נוער או ארגון נוער הנתמכים לפי <ref href="/akn/il/act/PrimaryLegislation/1985-04-03/150399#point_3א">סעיף 3א לחוק יסודות התקציב, התשמ"ה–1985</ref>, או קבוצות מדריכים צעירים עירוניים וחניכיהם שבאחריות מחלקת הנוער העירונית</p>
+                </content>
+              </point>
+              <point eId="point_1__point_תסמינים">
+                <list>
+                  <intro>
+                    <p>
+                      <def />”תסמינים“ – כל אחד מאלה:</p>
+                  </intro>
+                  <point eId="point_1__point_תסמינים__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>חום גוף של 38 מעלות צלזיוס או יותר;</p>
+                    </content>
+                  </point>
+                  <point eId="point_1__point_תסמינים__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>שיעול או קושי בנשימה או תסמין נשימתי חד אחר, למעט שיעול או קושי בנשימה הנובע ממצב כרוני כגון אסתמה או אלרגיה; לעניין זה נזלת בלבד לא תיחשב תסמין;</p>
+                    </content>
+                  </point>
+                  <point eId="point_1__point_תסמינים__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>אובדן חוש טעם או חוש הריח;</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_1__point_תקנות_הגבלת_השהייה_במרחב_הציבורי_[צל_תקנות_הגבלת_פעילות]">
+                <content>
+                  <p>
+                    <def />”תקנות הגבלת השהייה במרחב הציבורי <wikicomment font-size="x-small">[צ"ל: תקנות הגבלת פעילות]</wikicomment>“ – <wikicomment font-size="x-small">(תוחלף בתקופת הוראת השעה):</wikicomment><ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/תקנות_סמכויות_מיוחדות_להתמודדות_עם_נגיף_הקורונה_החדש_הוראת_שעה_הגבלת_השהייה_במרחב_הציבורי_והגבלת_פעילות">תקנות סמכויות מיוחדות להתמודדות עם נגיף הקורונה החדש (הוראת שעה) (הגבלת השהייה במרחב הציבורי והגבלת פעילות), התש"ף–2020</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_תקנות_הגבלת_פעילות">
+                <content>
+                  <p>
+                    <def />”תקנות הגבלת פעילות“ – <wikicomment font-size="x-small">(בתקופת הוראת השעה):</wikicomment><ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/תקנות_סמכויות_מיוחדות_להתמודדות_עם_נגיף_הקורונה_החדש_הוראת_שעה_הגבלת_פעילות_והוראות_נוספות">תקנות סמכויות מיוחדות להתמודדות עם נגיף הקורונה החדש (הוראת שעה) (הגבלת פעילות והוראות נוספות), התש"ף–2020</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_תקנות_הגבלת_פעילות_במקומות_עבודה">
+                <content>
+                  <p>
+                    <def />”תקנות הגבלת פעילות במקומות עבודה“ – <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/תקנות_סמכויות_מיוחדות_להתמודדות_עם_נגיף_הקורונה_החדש_הוראת_שעה_הגבלת_פעילות_במקומות_עבודה">תקנות סמכויות מיוחדות להתמודדות עם נגיף הקורונה החדש (הוראת שעה) (הגבלת פעילות במקומות עבודה), התש"ף–2020</ref>.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+        </list>
+      </chapter>
+      <chapter eId="chp_ב">
+        <num>פרק ב׳:</num>
+        <title>
+          <content>
+            <p>איסור פתיחת מוסד המקיים פעילות חינוך והוראות לעניין הפעלת גוף או מוסד המקיים פעילות לפי <ref href="/akn/il/act/PrimaryLegislation/2020-07-23/2140584#point_10">סעיף 10(ג) לחוק</ref> ופנימיות</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_2">
+            <heading>
+              <authorialNote placement="side">
+                <p>איסור פתיחה של מוסד המקיים פעילות חינוך</p>
+              </authorialNote>
+            </heading>
+            <num>2.</num>
+            <list>
+              <point eId="point_2__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>בעל מוסד לא יפעיל מוסד בדרך של פתיחתו לתלמידים הלומדים בו, למעט לשם ביצוע בחינות.<br space="preserve"></br><wikicomment font-size="x-small">(בתקופת הוראת השעה):</wikicomment> בעל מוסד לא יפעיל מוסד בדרך של פתיחתו לתלמידים הלומדים בו ולעובדים בו, למעט לשם ביצוע בחינות.</p>
+                </content>
+              </point>
+              <point eId="point_2__point_ב">
+                <num>(ב)</num>
+                <list>
+                  <intro>
+                    <p>אין באמור בתקנת משנה (א) כדי למנוע פתיחה של מוסד כמפורט להלן או למנוע קיום פעילות של אחד מאלה:</p>
+                  </intro>
+                  <point eId="point_2__point_ב__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>גוף או מוסד המקיים פעילות כמפורט <ref href="/akn/il/act/PrimaryLegislation/2020-07-23/2140584#point_10">בסעיף 10(ג) לחוק</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_2__point_ב__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>פנימיות ומוסד חינוך שבו לומדים תלמידי הפנימייה, ובלבד שכל תלמידי המוסד הם תלמידי הפנימייה;</p>
+                    </content>
+                  </point>
+                  <point eId="point_2__point_ב__point_2א">
+                    <num>(2א)</num>
+                    <content>
+                      <p>
+                        <wikicomment font-size="x-small">(תימחק בתקופת הוראת השעה):</wikicomment> גן ילדים;</p>
+                    </content>
+                  </point>
+                  <point eId="point_2__point_ב__point_2א1">
+                    <num>(2א1)</num>
+                    <content>
+                      <p>
+                        <wikicomment font-size="x-small">(פקעה);</wikicomment>
+                      </p>
+                    </content>
+                  </point>
+                  <point eId="point_2__point_ב__point_2א2">
+                    <num>(2א2)</num>
+                    <content>
+                      <p>
+                        <wikicomment font-size="x-small">(תימחק בתקופת הוראת השעה):</wikicomment> לימודים של כיתות א׳ עד ד׳ בבית ספר יסודי;</p>
+                    </content>
+                  </point>
+                  <point eId="point_2__point_ב__point_2א3">
+                    <num>(2א3)</num>
+                    <content>
+                      <p>
+                        <wikicomment font-size="x-small">(תימחק בתקופת הוראת השעה):</wikicomment> פעילות בשטח פתוח של איש צוות העובד בבית ספר יסודי או על־יסודי או של איש צוות העובד במוסד להשכלה או להכשרה מקצועית לבגירים, עם תשעה עשר תלמידים של בית הספר או המוסד כאמור, לכל היותר, ולמעט טיול הכולל לינה;</p>
+                    </content>
+                  </point>
+                  <point eId="point_2__point_ב__point_2א4">
+                    <num>(2א4)</num>
+                    <content>
+                      <p>
+                        <wikicomment font-size="x-small">(תימחק בתקופת הוראת השעה):</wikicomment> כיתה של תלמידים עולים ללימוד השפה העברית בבית ספר יסודי או בבית ספר על־יסודי;</p>
+                    </content>
+                  </point>
+                  <point eId="point_2__point_ב__point_2א5">
+                    <num>(2א5)</num>
+                    <content>
+                      <p>
+                        <wikicomment font-size="x-small">(נמחקה);</wikicomment>
+                      </p>
+                    </content>
+                  </point>
+                  <point eId="point_2__point_ב__point_2א6">
+                    <num>(2א6)</num>
+                    <content>
+                      <p>
+                        <wikicomment font-size="x-small">(תימחק בתקופת הוראת השעה):</wikicomment> מתן גישה לתשתית או לציוד חיוני במוסד להשכלה או הכשרה מקצועית לבגירים, לתלמידים הזקוקים לכך לצורך השתתפות בלימוד מקוון, ל־10% מהתלמידים במוסד, לכל היותר;</p>
+                    </content>
+                  </point>
+                  <point eId="point_2__point_ב__point_2א7">
+                    <num>(2א7)</num>
+                    <content>
+                      <p>
+                        <wikicomment font-size="x-small">(תימחק בתקופת הוראת השעה):</wikicomment> לימודים של כיתות ה׳ עד י"ב בבית ספר הנמצא בשטחה של רשות או אזור המפורטים <ref href="#appendix_5">בתוספת החמישית</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_2__point_ב__point_2א8">
+                    <num>(2א8)</num>
+                    <content>
+                      <p>
+                        <wikicomment font-size="x-small">(נמחקה);</wikicomment>
+                      </p>
+                    </content>
+                  </point>
+                  <point eId="point_2__point_ב__point_2א9">
+                    <num>(2א9)</num>
+                    <content>
+                      <p>
+                        <wikicomment font-size="x-small">(נמחקה);</wikicomment>
+                      </p>
+                    </content>
+                  </point>
+                  <point eId="point_2__point_ב__point_2ב">
+                    <num>(2ב)</num>
+                    <content>
+                      <p>
+                        <wikicomment font-size="x-small">(תימחק בתקופת הוראת השעה):</wikicomment> צהרון;</p>
+                    </content>
+                  </point>
+                  <point eId="point_2__point_ב__point_2ב1">
+                    <num>(2ב1)</num>
+                    <content>
+                      <p>
+                        <wikicomment font-size="x-small">(נמחקה);</wikicomment>
+                      </p>
+                    </content>
+                  </point>
+                  <point eId="point_2__point_ב__point_2ג">
+                    <num>(2ג)</num>
+                    <content>
+                      <p>
+                        <wikicomment font-size="x-small">(תימחק בתקופת הוראת השעה):</wikicomment> מקום המשמש או שנועד לשמש מקום שהייה יומי לחינוך ולטיפול בפעוטות בגילי לידה עד 3;</p>
+                    </content>
+                  </point>
+                  <point eId="point_2__point_ב__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>מעונות יום שיקומיים ומעונות יום רב־תכליתיים כאמור <ref href="/akn/il/act/PrimaryLegislation/2020-07-23/2140584#point_11">בסעיף 11(ב)(21) ו־(22) לחוק</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_2__point_ב__point_4">
+                    <num>(4)</num>
+                    <content>
+                      <p>למידה מרחוק או הוראה מקוונת;</p>
+                    </content>
+                  </point>
+                  <point eId="point_2__point_ב__point_5">
+                    <num>(5)</num>
+                    <content>
+                      <p>מוסד להשכלה גבוהה לעניין פעילות ומחקר במעבדות או קיום הכשרה מעשית מחוץ לשטח המוסד.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_2__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>אין באמור בתקנת משנה (א) כדי למנוע את פתיחת המוסד לכניסת עובדי המוסד לשם ביצוע עבודה בכפוף להוראות תקנות אלה.<br space="preserve"></br><wikicomment font-size="x-small">(בתקופת הוראת השעה):</wikicomment> אין באמור בתקנת משנה (א) כדי למנוע את פתיחת המוסד לכניסת עובדי המוסד שהגעתם הכרחית לצורך קיום היכולת ללמד מרחוק ולקיים הוראה מקוונת או לשם קיום היכולת של עובדים אחרים לעבוד מהבית, לשם לקיחת ציוד, לשם תחזוקת המוסד או תיקון ליקוי הנדרשים בדחיפות לשם שמירה על שלמות המוסד, לשם שמירה על המוסד, לשם חלוקת תשלומי שכר לעובדי המוסד, או להמשך הפעילות התפקודית של המוסד, והכול בכפוף להוראות תקנות אלה.</p>
+                </content>
+              </point>
+              <point eId="point_2__point_ד">
+                <num>(ד)</num>
+                <list>
+                  <intro>
+                    <p>בעל מוסד יעשה ככל האפשר כדי להבטיח כי במוסד נשמרים כללים אלה:</p>
+                  </intro>
+                  <point eId="point_2__point_ד__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>לכל עובד יוקצה, ככל האפשר, ציוד אישי קבוע, ובכלל זה מקלדת, עכבר, טלפון קווי; אם לא ניתן להקצות ציוד אישי קבוע כאמור, ציוד בשימוש של יותר מעובד אחד יעבור חיטוי קפדני לפני כל העברה מעובד לעובד;</p>
+                    </content>
+                  </point>
+                  <point eId="point_2__point_ד__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>יוסדר ביצוע של מדידת חום באמצעי שאינו פולשני לעובדים הנכנסים למקום העבודה; לא תותר כניסת עובד עם חום גוף של 38 מעלות צלזיוס ומעלה;</p>
+                    </content>
+                  </point>
+                  <point eId="point_2__point_ד__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>בחדר שבו יושב יותר מעובד אחד, יישמר מרחק של שני מטרים בין עובד לעובד, זולת אם יש מחיצה למניעת העברת רסס מאדם לאדם, ובמבנה שבו קיימת ערכת כיבוי אוטומטי (ספרינקלרים) או מערכת גילוי אש ועשן, תותקן מחיצה מכיוון הרצפה ועד לגובה של 50 ס"מ מתחת לגובה התקרה, לכל היותר (בתקנה זו – מחיצה למניעת העברת רסס);</p>
+                    </content>
+                  </point>
+                  <point eId="point_2__point_ד__point_4">
+                    <num>(4)</num>
+                    <content>
+                      <p>אכילה או שתייה תתבצע ככל האפשר באופן מופרד;</p>
+                    </content>
+                  </point>
+                  <point eId="point_2__point_ד__point_5">
+                    <num>(5)</num>
+                    <list>
+                      <intro>
+                        <p>פגישות מקצועיות יתקיימו בהשתתפות של לא יותר מעשרה עובדים, ובלבד שהתקיימו כל אלה:</p>
+                      </intro>
+                      <point eId="point_2__point_ד__point_5__point_א">
+                        <num>(א)</num>
+                        <content>
+                          <p>בעל המוסד, ובמוסד חינוך רשמי – מנהל המוסד, קבע כי קיימים טעמים שבשלהם לא ניתן לקיים את הפגישה באמצעים דיגיטליים חלופיים;</p>
+                        </content>
+                      </point>
+                      <point eId="point_2__point_ד__point_5__point_ב">
+                        <num>(ב)</num>
+                        <content>
+                          <p>בין משתתפי הפגישה יישמר מרחק של 2 מטרים לפחות, זולת אם הותקנו מחיצות למניעת העברת רסס;</p>
+                        </content>
+                      </point>
+                      <point eId="point_2__point_ד__point_5__point_ג">
+                        <num>(ג)</num>
+                        <content>
+                          <p>במסגרת הפגישה לא יוגש אוכל למשתתפים.</p>
+                        </content>
+                      </point>
+                    </list>
+                  </point>
+                </list>
+              </point>
+            </list>
+          </point>
+          <point eId="point_3">
+            <heading>
+              <authorialNote placement="side">
+                <p>פעילות מוסד לפי תקנה 2(ג)(1) ו־(2) </p>
+              </authorialNote>
+            </heading>
+            <num>3.</num>
+            <content>
+              <p>לא יפעל מוסד המקיים פעילות כמפורט <ref href="#point_2">בתקנה 2(ב)(1) עד (2ג)</ref> אלא בכפוף לקיום הוראות תקנות אלה.<br space="preserve"></br><wikicomment font-size="x-small">(בתקופת הוראת השעה):</wikicomment> לא יפעל מוסד אלא בכפוף לקיום הוראות תקנות אלה.</p>
+            </content>
+          </point>
+          <point eId="point_4">
+            <heading>
+              <authorialNote placement="side">
+                <p>אחריות מנהל מוסד</p>
+              </authorialNote>
+            </heading>
+            <num>4.</num>
+            <content>
+              <p>מנהל מוסד המקיים פעילות כמפורט <ref href="#point_2">בתקנה 2(ב)(1) עד (2ג)</ref> יפעל לשם עמידה בחובותיו לפי תקנות אלה, לרבות בדרך של אימוץ המלצות המשרד המפקח עליו.<br space="preserve"></br><wikicomment font-size="x-small">(בתקופת הוראת השעה):</wikicomment> מנהל מוסד יפעל לשם עמידה בחובותיו לפי תקנות אלה, לרבות בדרך של אימוץ המלצות המשרד המפקח עליו.</p>
+            </content>
+          </point>
+          <point eId="point_5">
+            <heading>
+              <authorialNote placement="side">
+                <p>אחריות בעל מוסד</p>
+              </authorialNote>
+            </heading>
+            <num>5.</num>
+            <list>
+              <intro>
+                <p>בעל מוסד המקיים פעילות כמפורט <ref href="#point_2">בתקנה 2(ב)(1) עד (2ג)</ref> יהיה אחראי לביצוען של הוראות וחובות שהוטלו עליו לפי תקנות אלה וכן –<br space="preserve"></br><wikicomment font-size="x-small">(בתקופת הוראת השעה):</wikicomment> בעל מוסד המקיים פעילות כמפורט <ref href="#point_2">בתקנה 2(ב)(1) ו־(2)</ref> יהיה אחראי לביצוען של הוראות וחובות שהוטלו עליו לפי תקנות אלה וכן –</p>
+              </intro>
+              <point eId="point_5__point_1">
+                <num>(1)</num>
+                <content>
+                  <p>יספק או יבטיח כי יסופק לעובדים במוסד אמצעים הנדרשים לצורך ביצוע תפקידם, ובכלל זה אמצעי לביצוע מדידת חום וציוד מגן אישי, למעט מסכה;</p>
+                </content>
+              </point>
+              <point eId="point_5__point_2">
+                <num>(2)</num>
+                <content>
+                  <p>יספק חומרי ניקוי, חיטוי מניעתי ושמירה על היגיינה אישית לשימוש השוהים במוסד.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_6">
+            <heading>
+              <authorialNote placement="side">
+                <p>בדיקת תסמינים, תשאול והצהרת בריאות</p>
+              </authorialNote>
+            </heading>
+            <num>6.</num>
+            <list>
+              <intro>
+                <p>מנהל מוסד המקיים פעילות כמפורט <ref href="#point_2">בתקנה 2(ב)(1) עד (2ג)</ref><ref href="/akn/il/act/PrimaryLegislation/2020-07-23/2140584#point_10">ובסעיף 10(ג)(1), (3), (4), (6), (8), (13) ו־(14) לחוק</ref> יסדיר מנגנון שיבטיח את כל אלה:<br space="preserve"></br><wikicomment font-size="x-small">(בתקופת הוראת השעה):</wikicomment> מנהל מוסד המקיים פעילות כמפורט <ref href="/akn/il/act/PrimaryLegislation/2020-07-23/2140584#point_10">בסעיף 10(ג)(1), (3), (4), (6), (8), (13) ו־(14) לחוק</ref> יסדיר מנגנון שיבטיח את כל אלה:</p>
+              </intro>
+              <point eId="point_6__point_1">
+                <num>(1)</num>
+                <content>
+                  <p>לגבי תלמיד קטין שלא מלאו לו 16 שנים לפחות, תלמיד שלא סיים לימודים בכתה י׳ לפחות או מי שמלאו לו 16 שנים לפחות שמונה לו אפוטרופוס או שמצבו הבריאותי, הנפשי או השכלי אינו מאפשר לו להצהיר בעד עצמו, תתקבל בתחילת כל יום פעילות הצהרת בריאות לפי הנוסח <ref href="#appendix_1">שבתוספת הראשונה</ref>, חתומה בידי אחראי על הקטין או האפוטרופוס;</p>
+                </content>
+              </point>
+              <point eId="point_6__point_2">
+                <num>(2)</num>
+                <content>
+                  <p>לא התקבלה הצהרת בריאות כאמור בפסקה (1), צוות המוסד ייצור קשר בהקדם עם האחראי על הקטין או עם האפוטרופוס ויתשאל אותו בהתאם לנוסח ההצהרה <ref href="#appendix_1">שבתוספת הראשונה</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_6__point_3">
+                <num>(3)</num>
+                <content>
+                  <p>במקרה שבו אין אפשרות ליצירת קשר כאמור בפסקה (2), או אם האחראי על הקטין או האפוטרופוס לא ביצע מדידת חום לקטין, יבצע צוות המוסד מדידת חום או יערוך עימו תשאול, לפי הצורך, בהתאם לנוסח הצהרת הבריאות <ref href="#appendix_1">שבתוספת הראשונה</ref>, בהתאמה לרמת הבנתו ולמצבו הרגשי, ואם התלמיד או ההורה אדם עם מוגבלות – באופן נגיש ומותאם לצרכיו;</p>
+                </content>
+              </point>
+              <point eId="point_6__point_4">
+                <num>(4)</num>
+                <list>
+                  <intro>
+                    <p>לגבי תלמיד קטין שמלאו לו 16 שנים לפחות או שסיים לימודים בכיתה י׳ לפחות ושמצבו הבריאותי, הנפשי והשכלי מאפשר לו להצהיר בעד עצמו, יתקיים בתחילת כל יום פעילות אחד מאלה:</p>
+                  </intro>
+                  <point eId="point_6__point_4__point_א">
+                    <num>(א)</num>
+                    <content>
+                      <p>התלמיד יגיש את ההצהרה לפי הנוסח <ref href="#appendix_2">שבתוספת השנייה</ref> חתומה בידיו;</p>
+                    </content>
+                  </point>
+                  <point eId="point_6__point_4__point_ב">
+                    <num>(ב)</num>
+                    <content>
+                      <p>תוגש בעד תלמיד כאמור הצהרה חתומה בידי האחראי עליו כאמור בפסקה (1);</p>
+                    </content>
+                  </point>
+                  <point eId="point_6__point_4__point_ג">
+                    <num>(ג)</num>
+                    <content>
+                      <p>לא הוגשה הצהרה כאמור בפסקאות משנה (א) או (ב) בתחילת יום הפעילות, צוות המוסד יבצע מדידת חום לתלמיד כאמור ויערוך עמו תשאול, בהתאם לנוסח הצהרת הבריאות <ref href="#appendix_1">שבתוספת הראשונה</ref>, תוך התאמה לרמת הבנתו ולמצבו הרגשי, ואם התלמיד או ההורה אדם עם מוגבלות – באופן נגיש ומותאם לצרכיו;</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_6__point_5">
+                <num>(5)</num>
+                <content>
+                  <p>תלמיד בגיר שלא מתקיימות לגביו נסיבות המנויות בפסקה (1), יגיש לצוות המוסד, עם כניסתו למוסד באותו יום פעילות, את ההצהרה לפי הנוסח <ref href="#appendix_2">שבתוספת השנייה</ref>; לחלופין, יבצע צוות המוסד מדידת חום לאותו תלמיד ויערוך עמו תשאול בהתאם לנוסח ההצהרה <ref href="#appendix_2">שבתוספת השנייה</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_6__point_6">
+                <num>(6)</num>
+                <content>
+                  <p>כל מי שנמנה עם צוות המוסד יגיש בתחילת יום עבודה את ההצהרה לפי הנוסח <ref href="#appendix_2">שבתוספת השנייה</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_6__point_7">
+                <num>(7)</num>
+                <content>
+                  <p>הצהרה לפי תקנה זו יכול שתוגש באמצעים דיגיטליים ייעודיים;</p>
+                </content>
+              </point>
+              <point eId="point_6__point_8">
+                <num>(8)</num>
+                <content>
+                  <p>מנהל המוסד יוודא כי המידע שהתקבל באמצעות הצהרות בריאות יימחק לא יאוחר מתום 24 שעות ממועד קבלתו;</p>
+                </content>
+              </point>
+              <point eId="point_6__point_9">
+                <num>(9)</num>
+                <content>
+                  <p>מדידת חום תיעשה באמצעות אמצעי לא פולשני, שאינו אוגר מידע ביומטרי.</p>
+                </content>
+              </point>
+              <point eId="point_6__point_10">
+                <num>(10)</num>
+                <content>
+                  <p>בלי לגרוע מהוראות <ref href="#chp_ד">פרק ד׳ לתקנות אלה</ref>, לגבי תלמיד השוהה בפנימייה ובמסגרת חוץ־ביתית כהגדרתה <ref href="/akn/il/act/PrimaryLegislation/2020-07-23/2140584#point_22א">בסעיף 22א(א) לחוק</ref> – לא תחול החובה להגיש הצהרת בריאות לפי תקנה זו למוסד שבו הוא לומד.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_7">
+            <heading>
+              <authorialNote placement="side">
+                <p>הגבלה על כניסה למקום הפעילות</p>
+              </authorialNote>
+            </heading>
+            <num>7.</num>
+            <list>
+              <point eId="point_7__point_א">
+                <num>(א)</num>
+                <list>
+                  <intro>
+                    <p>מנהל המוסד המקיים פעילות כמפורט <ref href="#point_2">בתקנה 2(ב)(2א) עד (2ג)</ref><ref href="/akn/il/act/PrimaryLegislation/2020-07-23/2140584#point_10">ובסעיף 10(ג)(1), (3), (4), (6), (8), (13) ו־(14) לחוק</ref> לא יתיר כניסה למקום הפעילות של כל אלה:<br space="preserve"></br><wikicomment font-size="x-small">(בתקופת הוראת השעה):</wikicomment> מנהל המוסד המקיים פעילות כמפורט <ref href="#point_2">בתקנה 2(ב)(2)</ref><ref href="/akn/il/act/PrimaryLegislation/2020-07-23/2140584#point_10">ובסעיף 10(ג)(1), (3), (4), (6), (8), (13) ו־(14) לחוק</ref> לא יתיר כניסה למקום הפעילות של כל אלה:</p>
+                  </intro>
+                  <point eId="point_7__point_א__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>אדם המחויב בעטיית מסכה ושאינו עוטה מסכה בהתאם להוראות <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/צו_בריאות_העם_נגיף_הקורונה_החדש_בידוד_בית_והוראות_שונות_הוראת_שעה#point_3ה">סעיף 3ה לצו בידוד בית</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_7__point_א__point_2">
+                    <num>(2)</num>
+                    <list>
+                      <intro>
+                        <p>במקרים שבהם עולה כי מתקיימים בו אחד מאלה:</p>
+                      </intro>
+                      <point eId="point_7__point_א__point_2__point_א">
+                        <num>(א)</num>
+                        <content>
+                          <p>במהלך 48 השעות האחרונות היו לו תסמינים;</p>
+                        </content>
+                      </point>
+                      <point eId="point_7__point_א__point_2__point_ב">
+                        <num>(ב)</num>
+                        <content>
+                          <p>הוא חוזר החייב בבידוד לפי <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/צו_בריאות_העם_נגיף_הקורונה_החדש_בידוד_בית_והוראות_שונות_הוראת_שעה">צו בידוד בית</ref>;</p>
+                        </content>
+                      </point>
+                      <point eId="point_7__point_א__point_2__point_ג">
+                        <num>(ג)</num>
+                        <content>
+                          <p>היה לו מגע הדוק עם חולה במהלך השבועיים האחרונים.</p>
+                        </content>
+                      </point>
+                    </list>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_7__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>על אף האמור בתקנת משנה (א), לעניין תלמיד שמתקיימים בו התנאים בתקנת משנה (א), מנהל המוסד לא ימנע את כניסתו, ויפעל כאמור <ref href="#point_20">בתקנה 20</ref>.</p>
+                </content>
+              </point>
+              <point eId="point_7__point_ג">
+                <num>(ג)</num>
+                <list>
+                  <intro>
+                    <p>בלי לגרוע מהאמור בתקנות משנה (א) ו־(ב), לא תותר כניסה למקום הפעילות של –</p>
+                  </intro>
+                  <point eId="point_7__point_ג__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>מי שנמנה עם צוות המוסד, אם לא הציג בכניסה הצהרה כאמור <ref href="#point_6">בתקנה 6(6)</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_7__point_ג__point_2">
+                    <num>(2)</num>
+                    <list>
+                      <intro>
+                        <p>מי שאינו תלמיד במוסד או נמנה עם צוות המוסד, אלא בהתקיים כל אלה:</p>
+                      </intro>
+                      <point eId="point_7__point_ג__point_2__point_א">
+                        <num>(א)</num>
+                        <content>
+                          <p>מנהל המוסד או מי שהוא מינה לעניין זה, אישר באופן פרטני כניסה של עובד במוסד שאינו נמנה עם צוות המוסד, לצורך ביצוע תפקידו או של מי שאחראי על קטין בשל נסיבות המצדיקות זאת, ובלבד שלא יימצא בחדר עם התלמידים יותר מאחראי אחד על קטין ועובד אחד כאמור בכל זמן; לעניין פסקה זו, ”נסיבות מצדיקות“, לעניין מי שאחראי על קטין – תלמיד החווה קשיים רגשיים או נפשיים או מגבלות בריאותיות או מגבלות אחרות שבשלהן נדרש ליווי של התלמיד אל הכיתה או מחוצה לה, או נסיבות הקשורות בהליך פדגוגי שלו שותף האחראי על הקטין, שלא ניתן לקיימו מרחוק בתקופת הסתגלות למסגרת חדשה – ובלבד שלא ימצא בשטח הסגור בכיתה במוסד, יותר מאחראי אחד על תלמיד בכל זמן, וכל אחראי לא יותר מאשר 10 דקות; לעניין זה, ”תקופת הסתגלות למסגרת חדשה“ – שבעת ימיו הראשונים של תלמיד בכיתה במוסד; בלי לגרוע מהאמור לעיל, לעניין מקום שהייה יומי לחינוך ולטיפול בפעוטות מגיל לידה עד 3 – שהיית האחראי על הפעוט במקום ככל שהדבר נדרש לשם התפתחותו ושלומו של הפעוט בהצגת אישור רפואי המאשר זאת, ובלבד שלא יימצא בכיתה יותר מאחראי אחד על פעוט כאמור בכל זמן;</p>
+                        </content>
+                      </point>
+                      <point eId="point_7__point_ג__point_2__point_ב">
+                        <num>(ב)</num>
+                        <content>
+                          <p>נערך עמו תשאול כאמור <ref href="#point_6">בתקנה 6</ref> והתבצעה מדידת חום ונמצא כי חום גופו אינו עולה על 38 מעלות צלזיוס;</p>
+                        </content>
+                      </point>
+                      <point eId="point_7__point_ג__point_2__point_ג">
+                        <num>(ג)</num>
+                        <content>
+                          <p>הוסברו לו הכללים בנוגע לשמירת מרחק ועטיית מסכה לפי תקנות אלה והצורך להישמע להוראות צוות המוסד בעניין תקנות אלה.</p>
+                        </content>
+                      </point>
+                    </list>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_7__point_ד">
+                <num>(ד)</num>
+                <content>
+                  <p>אדם הנכנס למוסד במסגרת הפעלת סמכויותיו הנתונות לו לפי דין, ובכלל זה במוסד שבפיקוח משרד החינוך – עובד משרד החינוך הנכנס לצורך מילוי תפקידו, ובמוסד שבפיקוח משרד העבודה הרווחה והשירותים החברתיים – עובד המשרד הנכנס לצורך מילוי תפקידו, רשאי להיכנס למוסד, ובלבד שהודיע למעסיקו כי מתקיים לגביו האמור <ref href="#appendix_2">בתוספת השנייה</ref>.</p>
+                </content>
+              </point>
+              <point eId="point_7__point_ה">
+                <num>(ה)</num>
+                <content>
+                  <p>בוחן של האגף להכשרה מקצועית ופיתוח כוח האדם במשרד העבודה הרווחה והשירותים החברתיים לצורך בחינה מעשית של מחנכות מטפלות וכן גורם מקצועי שנדרש לצורך טיפול, תצפית, אבחון מקצועי או הדרכה חינוכית, ולעניין גן ילדים – עובד הוראה בתפקיד הדרכה להדרכת הגננות וקידומן המקצועי, רשאי להיכנס למקום המשמש או שנועד לשמש מקום שהייה יומי לחינוך ולטיפול בפעוטות, או לגן ילדים, לפי העניין, ובלבד שמתקיים האמור בתקנת משנה (ג)(2)(ב), כי אין יותר מגורם אחד כאמור בתוך הכיתה בכל זמן, וכי הטיפול, התצפית, האבחון המקצועי או ההדרכה החינוכית אינם דורשים מגע פיזי ויתבצעו במרחב נפרד ככל האפשר.</p>
+                </content>
+              </point>
+              <point eId="point_7__point_ו">
+                <num>(ו)</num>
+                <content>
+                  <p>
+                    <wikicomment font-size="x-small">(תבוטל בתקופת הוראת השעה):</wikicomment> סטודנט בהתנסות מעשית, ובלבד שכל סטודנט כאמור יפגוש קבוצה קבועה אחת בלבד.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_8">
+            <heading>
+              <authorialNote placement="side">
+                <p>חובת יידוע</p>
+              </authorialNote>
+            </heading>
+            <num>8.</num>
+            <content>
+              <p>מנהל מוסד המקיים פעילות כאמור <ref href="#point_2">בתקנה 2(ב)(1) עד (2ג)</ref> ידאג ליידוע עובדים, מבקרים, ספקים וכל השוהים במוסד, ובכלל זה התלמידים שבו, ולעניין קטין ואדם שמונה לו אפוטרופוס – לרבות האחראי על הקטין או האפוטרופוס, בדבר ההוראות שניתנו לפי תקנות אלה לשם הגנה מפני התפשטות נגיף הקורונה בקשר לשהותם במקום הפעילות; יידוע תלמיד במוסד ייעשה בהתאמה לרמת הבנתו, ואם התלמיד או האחראי על הקטין אדם עם מוגבלות – ייעשה היידוע באופן נגיש ומותאם לצרכיו.<br space="preserve"></br><wikicomment font-size="x-small">(בתקופת הוראת השעה):</wikicomment> מנהל מוסד ידאג ליידוע עובדים, מבקרים, ספקים וכל השוהים במוסד, ובכלל זה התלמידים שבו, ולעניין קטין ואדם שמונה לו אפוטרופוס – לרבות האחראי על הקטין או האפוטרופוס, בדבר ההוראות שניתנו לפי תקנות אלה לשם הגנה מפני התפשטות נגיף הקורונה בקשר לשהותם במקום הפעילות; יידוע תלמיד במוסד ייעשה בהתאמה לרמת הבנתו, ואם התלמיד או האחראי על הקטין אדם עם מוגבלות – ייעשה היידוע באופן נגיש ומותאם לצרכיו.</p>
+            </content>
+          </point>
+          <point eId="point_9">
+            <heading>
+              <authorialNote placement="side">
+                <p>עטיית מסכה ומשקף מגן לפנים</p>
+              </authorialNote>
+            </heading>
+            <num>9.</num>
+            <list>
+              <point eId="point_9__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>מנהל מוסד יעשה ככל האפשר כדי להבטיח את עמידת השוהים במוסד המחויבים בעטיית מסכה, בחובה לעטות מסכה בהתאם להוראות <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/צו_בריאות_העם_נגיף_הקורונה_החדש_בידוד_בית_והוראות_שונות_הוראת_שעה#point_3ה">סעיף 3ה לצו בידוד בית</ref>.</p>
+                </content>
+              </point>
+              <point eId="point_9__point_א1">
+                <num>(א1)</num>
+                <content>
+                  <p>על אף האמור <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/צו_בריאות_העם_נגיף_הקורונה_החדש_בידוד_בית_והוראות_שונות_הוראת_שעה#point_3ה">בסעיף 3ה(ב)(1) לצו בידוד בית</ref>, בפעילות כאמור <ref href="#point_2">בתקנה 2(ב)(2א2) עד (2א4)</ref> כל התלמידים ואנשי הצוות יעטו מסכה בכל עת, לרבות בהסעה לפעילות כאמור וממנה, למעט בעת אכילה או בפעילות גופנית.<br space="preserve"></br><wikicomment font-size="x-small">(בתקופת הוראת השעה):</wikicomment> על אף האמור <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/צו_בריאות_העם_נגיף_הקורונה_החדש_בידוד_בית_והוראות_שונות_הוראת_שעה#point_3ה">בסעיף 3ה(ב)(1) לצו בידוד בית</ref>, בפעילות כאמור <ref href="/akn/il/act/PrimaryLegislation/2020-07-23/2140584#point_10">בסעיף 10(ג)(1) לחוק</ref>, תלמידים בכיתות א׳ ומעלה ואנשי הצוות יעטו מסכה בכל עת, לרבות בהסעה לפעילות כאמור וממנה, למעט בעת אכילה או בפעילות גופנית.</p>
+                </content>
+              </point>
+              <point eId="point_9__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>עובדי מוסד המלווים תלמידים בגן ילדים יעטו מסכה או משקף מגן לפנים בכל עת.</p>
+                </content>
+              </point>
+              <point eId="point_9__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>בעל המוסד יספק לעובדים כאמור בתקנת משנה (ב) משקף מגן פנים.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_10">
+            <heading>
+              <authorialNote placement="side">
+                <p>ניקיון המוסד והיגיינה סביבתית</p>
+              </authorialNote>
+            </heading>
+            <num>10.</num>
+            <list>
+              <point eId="point_10__point_א">
+                <num>(א)</num>
+                <list>
+                  <intro>
+                    <p>בעל המוסד המקיים פעילות כאמור <ref href="#point_2">בתקנה 2(ב)(1) עד (2ג)</ref> יקבע ויפעיל תכנית ניקוי וחיטוי של מקום הפעילות, הכוללת את מועדי פעולות הניקוי והחיטוי, חומרי הניקוי והחיטוי, הפריטים שיש לנקות ולחטא, ואת אופן ביצוע פעולות הניקוי והחיטוי, ויבטיח כי –<br space="preserve"></br><wikicomment font-size="x-small">(בתקופת הוראת השעה):</wikicomment> בעל המוסד המקיים פעילות כאמור <ref href="#point_2">בתקנה 2(ב)(1) ו־(2)</ref> יקבע ויפעיל תכנית ניקוי וחיטוי של מקום הפעילות, הכוללת את מועדי פעולות הניקוי והחיטוי, חומרי הניקוי והחיטוי, הפריטים שיש לנקות ולחטא, ואת אופן ביצוע פעולות הניקוי והחיטוי, ויבטיח כי –</p>
+                  </intro>
+                  <point eId="point_10__point_א__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>יתבצע ניקוי וחיטוי מקום הפעילות לפי ההוראות <ref href="#appendix_3">שבתוספת השלישית</ref>; הפעולות לניקוי ולחיטוי מקום הפעילות יבוצעו כך שתימנע, ככל האפשר, הפרעה לשימוש בהתאמות נגישות במוסד;</p>
+                    </content>
+                  </point>
+                  <point eId="point_10__point_א__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>יונחו במקום הפעילות פחי אשפה במידה מספקת וירוקנו בטרם התמלאו;</p>
+                    </content>
+                  </point>
+                  <point eId="point_10__point_א__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>יוצבו בחדרי השירותים נייר לניגוב וסבון נוזלי במידה מספקת.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_10__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>צוות המוסד ידאג לאוורר את מקום הפעילות בדרך של פתיחת חלונות הכיתה, ככל האפשר בשני כיווני אוויר שונים, פעמיים לפחות בכל שיעור ובמשך כל זמן ההפסקה.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_11">
+            <heading>
+              <authorialNote placement="side">
+                <p>מעלית</p>
+              </authorialNote>
+            </heading>
+            <num>11.</num>
+            <content>
+              <p>אם מצויה מעלית במוסד המקיים פעילות כאמור <ref href="#point_2">בתקנה 2(ב)(1) עד (2ג)</ref>, בעל המוסד יתלה שלט בכניסה למעלית, ובו יצוין מספר הנוסעים המותר שלא יעלה על מחצית מהמספר המרבי המותר לפי הוראות יצרן המעלית, אלא אם כן הנוסעים הם אנשים הגרים באותו מקום.<br space="preserve"></br><wikicomment font-size="x-small">(בתקופת הוראת השעה):</wikicomment> אם מצויה מעלית במוסד, בעל המוסד יתלה שלט בכניסה למעלית, ובו יצוין מספר הנוסעים המותר שלא יעלה על מחצית מהמספר המרבי המותר לפי הוראות יצרן המעלית, אלא אם כן הנוסעים הם אנשים הגרים באותו מקום.</p>
+            </content>
+          </point>
+          <point eId="point_12">
+            <heading>
+              <authorialNote placement="side">
+                <p>היגיינה אישית</p>
+              </authorialNote>
+            </heading>
+            <num>12.</num>
+            <list>
+              <point eId="point_12__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>מנהל המוסד המקיים פעילות כאמור <ref href="#point_2">בתקנה 2(ב)(1) עד (2ג)</ref> ינחה את צוות המוסד להקפיד ככל האפשר על שטיפת ידיים של כלל השוהים במקום הפעילות באופן תכוף, וכן לפני ואחרי ארוחה, פעילות בחצר או עבודה עם ציוד משותף.<br space="preserve"></br><wikicomment font-size="x-small">(בתקופת הוראת השעה):</wikicomment> מנהל המוסד המקיים פעילות כאמור <ref href="#point_2">בתקנה 2(ב)(1) ו־(2)</ref> ינחה את צוות המוסד להקפיד ככל האפשר על שטיפת ידיים של כלל השוהים במקום הפעילות באופן תכוף, וכן לפני ואחרי ארוחה, פעילות בחצר או עבודה עם ציוד משותף.</p>
+                </content>
+              </point>
+              <point eId="point_12__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>צוות המוסד ימנע, ככל האפשר, העברת מזון וציוד אישי בין התלמידים, ובכלל זה כלי כתיבה, ציוד לימודי ומשחקים.</p>
+                </content>
+              </point>
+              <point eId="point_12__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>ציוד ואבזרים המשמשים לפעילות הנערכת על ידי צוות המוסד או על ידי מפעיל חיצוני, ובכלל זה ציוד להפעלה מוזיקלית, למעט ציוד שמשמש את מעביר הפעילות בלבד וציוד שהשימוש בו לא כולל מגע, יהיו נפרדים לכל קבוצה במהלך אותו יום.</p>
+                </content>
+              </point>
+              <point eId="point_12__point_ד">
+                <num>(ד)</num>
+                <content>
+                  <p>בסיום כל יום פעילות ידאג בעל המוסד או המפעיל החיצוני, לפי העניין, לניקוי ולחיטוי הציוד והאבזרים לפי ההוראות לניקוי משטחים <ref href="#appendix_3">שבתוספת השלישית</ref>.</p>
+                </content>
+              </point>
+              <point eId="point_12__point_ה">
+                <num>(ה)</num>
+                <content>
+                  <p>במקרה שבו עובד המוסד נדרש למגע עם הפרשות גוף, יעטה עובד המוסד כפפות שיסופקו בידי בעל המוסד, ישליך אותן לפח סגור בתום השימוש וישטוף או יחטא את ידיו מיד לאחר מכן.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_13">
+            <heading>
+              <authorialNote placement="side">
+                <p>הגשת מזון וצריכתו, וחדרי אוכל</p>
+              </authorialNote>
+            </heading>
+            <num>13.</num>
+            <list>
+              <point eId="point_13__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>מנהל המוסד המקיים פעילות כאמור <ref href="#point_2">בתקנה 2(ב)(1) עד (2ג)</ref> יבטיח, ככל האפשר, כי התלמידים יאכלו את ארוחותיהם בשטח פתוח ככל האפשר, וכי תלמידים האוכלים בשטח סגור במקום הפעילות יאכלו את ארוחותיהם כשהם ישובים בכיתת הלימוד הקבועה שלהם, בשולחנות נפרדים זה מזה.<br space="preserve"></br><wikicomment font-size="x-small">(בתקופת הוראת השעה):</wikicomment> מנהל המוסד המקיים פעילות כאמור <ref href="#point_2">בתקנה 2(ב)(1) ו־(2)</ref> יבטיח, ככל האפשר, כי התלמידים יאכלו את ארוחותיהם בשטח פתוח ככל האפשר, וכי תלמידים האוכלים בשטח סגור במקום הפעילות יאכלו את ארוחותיהם כשהם ישובים בכיתת הלימוד הקבועה שלהם, בשולחנות נפרדים זה מזה.</p>
+                </content>
+              </point>
+              <point eId="point_13__point_א1">
+                <num>(א1)</num>
+                <content>
+                  <p>
+                    <wikicomment font-size="x-small">(בוטלה).</wikicomment>
+                  </p>
+                </content>
+              </point>
+              <point eId="point_13__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>עובד מוסד העוסק בהכנת מזון ובהגשתו, ובכלל זה עובדי מטבח וחדר אוכל, ילבשו בגדי עבודה נקיים וציוד מגן אישי הכולל, בין השאר, מסכות וכפפות חד־פעמיות שיוחלפו לפי הצורך, וכן אחרי קבלת סחורה, חזרה מהפסקה, פינוי אשפה ועבודות ניקיון.</p>
+                </content>
+              </point>
+              <point eId="point_13__point_ג">
+                <num>(ג)</num>
+                <list>
+                  <intro>
+                    <p>במוסד המקיים פעילות כאמור <ref href="#point_2">בתקנה 2(ב)(1) עד (2ג)</ref> המפעיל חדר אוכל, מנהל המוסד ינחה את צוות המוסד להבטיח כי יתקיימו תנאים אלה:<br space="preserve"></br><wikicomment font-size="x-small">(בתקופת הוראת השעה):) במוסד המקיים פעילות כאמור <ref href="#point_2">בתקנה 2(ב)(1) ו־(2)</ref> המפעיל חדר אוכל, מנהל המוסד ינחה את צוות המוסד להבטיח כי יתקיימו תנאים אלה:</wikicomment></p>
+                  </intro>
+                  <point eId="point_13__point_ג__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>בזמן פתיחת חדר האוכל לארוחות, דלתות חדר האוכל יהיו פתוחות לכניסת תלמידים ועובדי המוסד, ויימנע מגע בידיותיהן;</p>
+                    </content>
+                  </point>
+                  <point eId="point_13__point_ג__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>באי חדר האוכל החייבים בעטיית מסיכה, יעטו מסכות לפי ההוראות החלות עליהם לפי כל דין, למעט בזמן האכילה, וישטפו את ידיהם בכניסתם לחדר האוכל, וכמו כן ישמרו מרחק בין הסועדים בחדר האוכל;</p>
+                    </content>
+                  </point>
+                  <point eId="point_13__point_ג__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>הגשת המזון, ובכלל זה שתייה, וחלוקת כלי האוכל, תבוצע בידי עובד מטבח או עובד המוסד, ובשימוש במסכה וכפפות;</p>
+                    </content>
+                  </point>
+                  <point eId="point_13__point_ג__point_4">
+                    <num>(4)</num>
+                    <content>
+                      <p>ייעשה שימוש במנות ארוזות ואישיות של רטבים, תבלינים וכיוצא באלה, ולא בכלים משותפים, ובכלל זה מלחיות ובקבוקים.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_13__point_ד">
+                <num>(ד)</num>
+                <content>
+                  <p>במוסד שבו מוגש מזון, המזון יחולק לתלמידים בידי צוות המוסד או באריזות אוכל אישיות.</p>
+                </content>
+              </point>
+              <point eId="point_13__point_ה">
+                <num>(ה)</num>
+                <content>
+                  <p>במוסדות שבהם יש צורך בשימוש בכלים רב־פעמיים, יודחו הכלים באמצעות מדיח כלים בטמפרטורה של 70 מעלות צלזיוס לפחות, עד לחיטוים; במקרה שבו אין אפשרות הדחה כאמור, ייעשה שימוש בכלים חד־פעמיים;</p>
+                </content>
+              </point>
+              <point eId="point_13__point_ו">
+                <num>(ו)</num>
+                <content>
+                  <p>צוות המוסד לא יקיים פעילות הכנת מזון משותפת עם התלמידים או עם השוהים במוסד.</p>
+                </content>
+              </point>
+              <point eId="point_13__point_ז">
+                <num>(ז)</num>
+                <content>
+                  <p>במוסדות שבהם קיים מטבחון לשימוש עובדי המוסד והתלמידים, לא ישהה יותר מאדם אחד בו־זמנית במטבחון אלא אם כן החלל מאפשר שמירה על מרחק של שני מטרים בין אדם לאדם.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_14">
+            <heading>
+              <authorialNote placement="side">
+                <p>שמירת מרחק</p>
+              </authorialNote>
+            </heading>
+            <num>14.</num>
+            <list>
+              <point eId="point_14__point_א">
+                <num>(א)</num>
+                <list>
+                  <intro>
+                    <p>מנהל המוסד או הגוף המקיים פעילות כאמור <ref href="#point_2">בתקנה 2(ב)(1) עד (2ג)</ref> יבטיח, ככל האפשר, כי במקום הפעילות –</p>
+                  </intro>
+                  <point eId="point_14__point_א__point_none">
+                    <list>
+                      <intro>
+                        <p>(((בתקופת הוראת השעה): מנהל המוסד או הגוף המקיים פעילות כאמור <ref href="#point_2">בתקנה 2(ב)(1) ו־(2)</ref> יבטיח, ככל האפשר, כי במקום הפעילות –</p>
+                      </intro>
+                      <point eId="point_14__point_א__point_none__point_1">
+                        <num>(1)</num>
+                        <content>
+                          <p>בכל זמן יישמר, ככל האפשר, מרחק של שני מטרים לפחות בין אדם לאדם, למעט אנשים הגרים באותו מקום;</p>
+                        </content>
+                      </point>
+                      <point eId="point_14__point_א__point_none__point_2">
+                        <num>(2)</num>
+                        <content>
+                          <p>הפעילות תתקיים, ככל האפשר, במקומות ובתנאים שיאפשרו שמירת מרחק של שני מטרים לפחות בין השוהים במוסד.</p>
+                        </content>
+                      </point>
+                      <point eId="point_14__point_א__point_none__point_3">
+                        <num>(3)</num>
+                        <content>
+                          <p>בזמן ביצוע פעילות המחייבת מגע, כגון במהלך ביצוע סוגים מסוימים של פעילות גופנית או טיפול רפואי, אין חובה לשמור על מרחק של 2 מטרים בין אדם לאדם, ובלבד ששטח המקום מאפשר שמירת מרחק של 2 מטרים לפחות בין אדם לאדם.</p>
+                        </content>
+                      </point>
+                    </list>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_14__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>הוראות תקנת משנה (א) לא יחולו על מרחק בין תלמיד לתלמיד או בין איש צוות לתלמיד במקום המשמש או שנועד לשמש כמקום שהייה יומי לחינוך ולטיפול בפעוטות מגיל לידה עד 3 או בגן ילדים.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_15">
+            <heading>
+              <authorialNote placement="side">
+                <p>הגבלה על התקהלות במקום הפעילות</p>
+              </authorialNote>
+            </heading>
+            <num>15.</num>
+            <content>
+              <p>מנהל המוסד או הגוף המקיים פעילות כאמור <ref href="#point_2">בתקנה 2(ב)(1) עד (2ג)</ref> יבטיח כי לא תתקיים התקהלות שלא במסגרת הקבוצות הקבועות לפי הוראות <ref href="#point_24">תקנה [צ"ל: תקנות] 24</ref>, <ref href="#point_28ג">28א</ref><ref href="#point_28ב">ו־28ב</ref>.<br space="preserve"></br><wikicomment font-size="x-small">(בתקופת הוראת השעה):</wikicomment> מנהל המוסד או הגוף המקיים פעילות כאמור <ref href="#point_2">בתקנה 2(ב)(1) ו־(2)</ref> יבטיח כי לא תתקיים התקהלות שלא במסגרת הקבוצות הקבועות לפי הוראות <ref href="#point_24">תקנה 24</ref>.</p>
+            </content>
+          </point>
+          <point eId="point_16">
+            <heading>
+              <authorialNote placement="side">
+                <p>הקצאת אזורים נפרדים</p>
+              </authorialNote>
+            </heading>
+            <num>16.</num>
+            <list>
+              <intro>
+                <p>במוסד או בגוף המקיים פעילות כאמור <ref href="#point_2">בתקנה 2(ב)(1) עד (2ג)</ref>, שבו מתקיימת הפעילות בקבוצות קבועות לפי הוראות <ref href="#point_24">תקנה [צ"ל: תקנות] 24</ref><ref href="#point_28ב">ו־28ב</ref>, מנהל המוסד יפעל כמפורט להלן ובשים לב לצרכים של אנשים עם מוגבלויות:<br space="preserve"></br><wikicomment font-size="x-small">(בתקופת הוראת השעה):</wikicomment> במוסד או בגוף המקיים פעילות כאמור <ref href="#point_2">בתקנה 2(ב)(1) ו־(2)</ref>, שבו מתקיימת הפעילות בקבוצות קבועות לפי הוראות <ref href="#point_24">תקנה [צ"ל: תקנות] 24</ref><ref href="#point_28ב">ו־28ב</ref>, מנהל המוסד יפעל כמפורט להלן ובשים לב לצרכים של אנשים עם מוגבלויות:</p>
+              </intro>
+              <point eId="point_16__point_1">
+                <num>(1)</num>
+                <content>
+                  <p>יקצה מרחבי פעילות נפרדים במקום הפעילות וידאג למנוע מעבר של תלמידים בין מרחבי הפעילות;</p>
+                </content>
+              </point>
+              <point eId="point_16__point_2">
+                <num>(2)</num>
+                <content>
+                  <p>יקצה ככל האפשר מיתקנים נפרדים לשימוש הקבוצות השונות, ובכלל זה תאי שירותים;</p>
+                </content>
+              </point>
+              <point eId="point_16__point_3">
+                <num>(3)</num>
+                <content>
+                  <p>יצמצם ככל האפשר את השימוש במרחבי פעילות משותפים לקבוצות שונות של תלמידים, ובכלל זה מעבדות, חדרי מחשבים וחדרי סטודיו;</p>
+                </content>
+              </point>
+              <point eId="point_16__point_4">
+                <num>(4)</num>
+                <content>
+                  <p>יקבע לכל קבוצה זמני הפסקה נפרדים וזמני שהייה נפרדים בחצר; במקרה שבו אין אפשרות לקבוע זמנים נפרדים, תחולק החצר למתחמי משנה מוגדרים ומופרדים לשימוש הקבוצות השונות; אם הדבר נצרך כדי לשמור על ההפרדה המתחמית, ייעשה שימוש באמצעי הפרדה פיזיים בין המתחמים.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_17">
+            <heading>
+              <authorialNote placement="side">
+                <p>מפעיל חיצוני</p>
+              </authorialNote>
+            </heading>
+            <num>17.</num>
+            <list>
+              <point eId="point_17__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>לא תתקיים פעילות מפעיל חיצוני במוסד המקיים פעילות חינוך.</p>
+                </content>
+              </point>
+              <point eId="point_17__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>מנהל מוסד לא יאפשר כניסת מפעיל חיצוני למוסד.</p>
+                </content>
+              </point>
+              <point eId="point_17__point_ג">
+                <num>(ג)</num>
+                <list>
+                  <intro>
+                    <p>
+                      <wikicomment font-size="x-small">(תבוטל בתקופת הוראת השעה):</wikicomment> על אף האמור בתקנות משנה (א) ו־(ב), ניתן לקיים פעילות של מפעיל חיצוני שמקיים פעילות במוסד אחד בלבד (להלן – מפעיל חיצוני קבוע), בבית ספר יסודי או במוסד לחינוך מיוחד, בתנאים האלה:</p>
+                  </intro>
+                  <point eId="point_17__point_ג__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>הפעילות תתקיים בקבוצות הקבועות כמפורט <ref href="#point_24">בתקנה 24</ref>, ומספר הקבוצות שהמפעיל החיצוני הקבוע יפגוש לא יעלה על המפורט <ref href="#point_24">בתקנה 24(2) ו־(3)</ref>, לפי העניין;</p>
+                    </content>
+                  </point>
+                  <point eId="point_17__point_ג__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>כל קבוצה קבועה תוכל לפגוש מפעיל חיצוני קבוע אחד בלבד.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+            </list>
+          </point>
+          <point eId="point_18">
+            <heading>
+              <authorialNote placement="side">
+                <p>הסעות</p>
+              </authorialNote>
+            </heading>
+            <num>18.</num>
+            <list>
+              <point eId="point_18__point_א">
+                <num>(א)</num>
+                <list>
+                  <intro>
+                    <p>הפעלת רכב הסעה למוסד או לגוף המקיים פעילות כאמור <ref href="#point_2">בתקנה 2(ב)(1) עד (2ג)</ref> וחזרה ממנו, או בעת קיום פעילות מחוץ לשטח המוסד או הגוף, תתקיים לפי הוראות אלה:<br space="preserve"></br><wikicomment font-size="x-small">(בתקופת הוראת השעה):</wikicomment> הפעלת רכב הסעה למוסד או לגוף המקיים פעילות כאמור <ref href="#point_2">בתקנה 2(ב)(1) ו־(2)</ref> וחזרה ממנו, או בעת קיום פעילות מחוץ לשטח המוסד או הגוף, תתקיים לפי הוראות אלה:</p>
+                  </intro>
+                  <point eId="point_18__point_א__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>הנוסעים ישבו בצמדים קבועים, במקומות קבועים, ותלמידים הגרים באותו יישוב ישבו זה ליד זה, ככל האפשר;</p>
+                    </content>
+                  </point>
+                  <point eId="point_18__point_א__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>אין לשבת בשורת המושבים שמאחורי הנהג או לצדו של הנהג; על אף האמור, ניתן לשבת בשני המושבים שמאחורי הנהג אם יש מחיצה שגובהה 180 ס"מ לפחות בין מושב הנהג לבין המושבים שמאחוריו; פסקה זו לא תחול על תלמידי החינוך המיוחד או על תלמיד שבשל נסיבות רפואיות חריגות אין באפשרותו לשבת אלא בשורת המושבים שמאחורי הנהג או לצדו של הנהג;</p>
+                    </content>
+                  </point>
+                  <point eId="point_18__point_א__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>הנוסעים המחויבים בעטיית מסכה בהתאם להוראות <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/צו_בריאות_העם_נגיף_הקורונה_החדש_בידוד_בית_והוראות_שונות_הוראת_שעה#point_3ה">סעיף 3ה לצו בידוד בית</ref> יעטו מסכות;</p>
+                    </content>
+                  </point>
+                  <point eId="point_18__point_א__point_4">
+                    <num>(4)</num>
+                    <content>
+                      <p>הנוסעים יחטאו ידיים עם כניסתם לרכב ההסעה;</p>
+                    </content>
+                  </point>
+                  <point eId="point_18__point_א__point_5">
+                    <num>(5)</num>
+                    <content>
+                      <p>ברכב שבו ניתן לפתוח חלונות, הנסיעה תהיה בחלונות פתוחים ככל האפשר;</p>
+                    </content>
+                  </point>
+                  <point eId="point_18__point_א__point_6">
+                    <num>(6)</num>
+                    <content>
+                      <p>מפעיל מערך רכבי הסעה יחזיק ברכב ההסעה חומרי חיטוי מניעתי לצורך חיטוי הידיים;</p>
+                    </content>
+                  </point>
+                  <point eId="point_18__point_א__point_7">
+                    <num>(7)</num>
+                    <content>
+                      <p>רכב ההסעה ינוקה פעם ביום לפחות;</p>
+                    </content>
+                  </point>
+                  <point eId="point_18__point_א__point_8">
+                    <num>(8)</num>
+                    <content>
+                      <p>לעניין הפעלת רכב הסעה שהוא אוטובוס תתבצע הפרדה באמצעות השארת שורת מושבים ריקה בין החלק הקדמי של ההסעה לבין חלקה האחורי.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_18__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>מפעיל מערך רכבי הסעה יבטיח את קיום התנאים הקבועים בתקנה זו.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_19">
+            <heading>
+              <authorialNote placement="side">
+                <p>בחינות</p>
+              </authorialNote>
+            </heading>
+            <num>19.</num>
+            <list>
+              <intro>
+                <p>בחינות יתקיימו לפי כללים אלה:</p>
+              </intro>
+              <point eId="point_19__point_1">
+                <num>(1)</num>
+                <content>
+                  <p>בכיתה של עד 60 מ"ר – לא ישהו יותר מ־15 נבחנים ואנשי צוות המוסד;</p>
+                </content>
+              </point>
+              <point eId="point_19__point_2">
+                <num>(2)</num>
+                <content>
+                  <p>בכיתה של מעל 60 מ"ר ועד 150 מ"ר – לא ישהו יותר מ־25 נבחנים ואנשי צוות המוסד;</p>
+                </content>
+              </point>
+              <point eId="point_19__point_3">
+                <num>(3)</num>
+                <content>
+                  <p>בכיתה של מעל 150 מ"ר – לא ישהו יותר מ־50 נבחנים ואנשי צוות המוסד;</p>
+                </content>
+              </point>
+              <point eId="point_19__point_4">
+                <num>(4)</num>
+                <content>
+                  <p>בבחינות הנערכות באמצעות מחשב, בעל המוסד אחראי לחטא את סביבת הנבחן טרם שימוש הנבחן במחשב ולאחריו;</p>
+                </content>
+              </point>
+              <point eId="point_19__point_5">
+                <num>(5)</num>
+                <content>
+                  <p>לעניין תקנה זו, ”אנשי צוות המוסד“ – לרבות משגיחים על הבחינות.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_20">
+            <heading>
+              <authorialNote placement="side">
+                <p>חשש לחולה במוסד וגילוי חולה מאומת</p>
+              </authorialNote>
+            </heading>
+            <num>20.</num>
+            <list>
+              <point eId="point_20__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>במקרה שבו תלמיד קטין או תלמיד שמונה לו אפוטרופוס או שמצבו הבריאותי, הנפשי או השכלי לא מאפשרים לו לדווח על כך בעצמו, חש בתסמינים, צוות המוסד ירחיק אותו משאר התלמידים ככל האפשר, ומנהל המוסד או מי מטעמו ידווח לאחראי על הקטין בהקדם לצורך פינויו.</p>
+                </content>
+              </point>
+              <point eId="point_20__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>במקרה שבו תלמיד בגיר, למעט תלמיד שחלה עליו תקנת משנה (א), חש בתסמינים, ידווח על כך התלמיד בהקדם לצוות המוסד;</p>
+                </content>
+              </point>
+              <point eId="point_20__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>במקרה שבו עובד מוסד חש בתסמינים, ידווח על כך למנהל המוסד בהקדם, לצורך תיאום עזיבתו.</p>
+                </content>
+              </point>
+              <point eId="point_20__point_ד">
+                <num>(ד)</num>
+                <list>
+                  <intro>
+                    <p>במקרה שבו התברר כי אדם ששהה במוסד הוא חולה מאומת, יש לפעול בהתאם להוראות המנהל ועד למתן הוראות פרטניות במסגרת החקירה האפידמיולוגית יחולו הוראות אלה:</p>
+                  </intro>
+                  <point eId="point_20__point_ד__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>מנהל המוסד יבטיח כי צוות המוסד ירחיק ממקום הפעילות את מי שהוא חולה מאומת וכן מי שחייב בבידוד בהתחשבות בגילו ובמצבו, ואם מדובר בקטין או באדם שמונה לו אפוטרופוס – בתיאום עם האחראי על הקטין או עם האפוטרופוס;</p>
+                    </content>
+                  </point>
+                  <point eId="point_20__point_ד__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>עד לפינויו של חולה מאומת או מי שחייב בבידוד, ישהה אותו אדם במקום מרוחק משאר השוהים במוסד לפי הנחיית מנהל המוסד ובהתחשבות בגילו ובמצבו;</p>
+                    </content>
+                  </point>
+                  <point eId="point_20__point_ד__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>פעילותו של גן ילדים תופסק והוא ייסגר לאחר פינוי התלמידים והעובדים במוסד ולכל המאוחר בתום אותו יום לימודים;</p>
+                    </content>
+                  </point>
+                  <point eId="point_20__point_ד__point_4">
+                    <num>(4)</num>
+                    <content>
+                      <p>התלמידים ועובדי המוסד ששהו עם חולה מאומת באותו מתחם, ישהו יחדיו ובנפרד משאר התלמידים במוסד, עד להתפנותם מהמוסד ולכל המאוחר בתום אותו יום לימודים; פינוי תלמיד שהוא קטין או אדם שמונה לו אפוטרופוס ייעשה בתיאום עם האחראי עליו;</p>
+                    </content>
+                  </point>
+                  <point eId="point_20__point_ד__point_5">
+                    <num>(5)</num>
+                    <content>
+                      <p>בלי לגרוע מסמכות ראש שירותי בריאות הציבור במשרד הבריאות או רופא מחוזי כאמור <ref href="#point_21">בתקנה 21(א)</ref>, במוסד בפיקוח משרד החינוך, המשך הפעילות תתבצע לפי הנחיות פרטניות של המנהל הכללי של משרד החינוך או מי מטעמו ובכפוף להוראות <ref href="/akn/il/act/PrimaryLegislation/2020-07-23/2140584">החוק</ref> והוראות תקנות אלה.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_20__point_ה">
+                <num>(ה)</num>
+                <content>
+                  <p>האמור בתקנה זו לא יחול על פנימיות.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_21">
+            <heading>
+              <authorialNote placement="side">
+                <p>סגירת מוסד או חלק ממנו</p>
+              </authorialNote>
+            </heading>
+            <num>21.</num>
+            <list>
+              <point eId="point_21__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>ראש שירותי בריאות הציבור במשרד הבריאות או רופא מחוזי כהגדרתו <ref href="/akn/il/act/PrimaryLegislation/1940-12-20/2001729">בפקודת בריאות העם</ref>, רשאי להורות, בהודעה בכתב, למפעיל של מוסד המקיים פעילות כמפורט <ref href="#point_2">בתקנה 2(ב)(2א) עד (2ג)</ref> או <ref href="/akn/il/act/PrimaryLegislation/2020-07-23/2140584#point_10">בסעיף 10(ג) לחוק</ref> או בפנימייה לסגור את המקום, כולו או חלקו, ובהיקף שאינו עולה על הנדרש, אם שהה בו אדם הנושא את נגיף הקורונה, לתקופה שינקוב בהודעה, הדרושה לשם מניעת הדבקה בנגיף בשל שהייה באותו מקום, או לשם עריכת חקירה אפידמיולוגית, ובלבד שסגירתו לשם עריכת חקירה כאמור לא תעלה על 72 שעות, ובמקרים מיוחדים ולפי הוראה של ראש השירות – על 120 שעות, וזאת בשים לב, בין השאר, להשלכות של סגירת המוסד על התלמידים; לעניין זה, ”ראש השירות“ ו”רופא מחוזי“ – כהגדרתם <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/צו_בריאות_העם_נגיף_הקורונה_החדש_בידוד_בית_והוראות_שונות_הוראת_שעה">בצו בידוד בית</ref>.<br space="preserve"></br><wikicomment font-size="x-small">(בתקופת הוראת השעה):</wikicomment> ראש שירותי בריאות הציבור במשרד הבריאות או רופא מחוזי כהגדרתו <ref href="/akn/il/act/PrimaryLegislation/1940-12-20/2001729">בפקודת בריאות העם</ref>, רשאי להורות, בהודעה בכתב, למפעיל של מוסד המקיים פעילות כמפורט <ref href="#point_2">בתקנה 2(ב)(1) ו־(2)</ref> לסגור את המקום, כולו או חלקו, ובהיקף שאינו עולה על הנדרש, אם שהה בו אדם הנושא את נגיף הקורונה, לתקופה שינקוב בהודעה, הדרושה לשם מניעת הדבקה בנגיף בשל שהייה באותו מקום, או לשם עריכת חקירה אפידמיולוגית, ובלבד שסגירתו לשם עריכת חקירה כאמור לא תעלה על 72 שעות, ובמקרים מיוחדים ולפי הוראה של ראש השירות – על 120 שעות, וזאת בשים לב, בין השאר, להשלכות של סגירת המוסד על התלמידים; לעניין זה, ”ראש השירות“ ו”רופא מחוזי“ – כהגדרתם <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/צו_בריאות_העם_נגיף_הקורונה_החדש_בידוד_בית_והוראות_שונות_הוראת_שעה">בצו בידוד בית</ref>.</p>
+                </content>
+              </point>
+              <point eId="point_21__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>נוסף על האמור בתקנת משנה (א), לעניין סגירת מוסד בפיקוח משרד החינוך או חלק ממנו יעדכן הרופא המחוזי את מנהל המחוז, ולעניין סגירת מוסד בפיקוח משרד העבודה הרווחה והשירותים החברתיים או חלק ממנו יעדכן הרופא המחוזי את הממונה על החניכות; לעניין סגירת פעילות במקום שהוא מעון יום שבהסכם הפעלה עם משרד העבודה הרווחה והשירותים החברתיים כמשמעותו <ref href="/akn/il/act/PrimaryLegislation/2018-10-31/2073729#point_62">בסעיף 62 לחוק הפיקוח על מעונות יום לפעוטות, התשע"ט–2018</ref> יעדכן הרופא המחוזי את מנהל המחוז באגף למעונות יום ומשפחתונים במשרד העבודה הרווחה והשירותים החברתיים.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_22">
+            <heading>
+              <authorialNote placement="side">
+                <p>פתיחת מוסד או חלק ממנו לאחר סגירתו</p>
+              </authorialNote>
+            </heading>
+            <num>22.</num>
+            <list>
+              <point eId="point_22__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>מוסד המצוי תחת פיקוח משרד החינוך שנסגר לפי <ref href="#point_21">תקנה 21</ref>, לא ייפתח גם לאחר התקופה שקבע משרד הבריאות לסגירתו, אלא באישור מנהל המחוז.</p>
+                </content>
+              </point>
+              <point eId="point_22__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>מוסד המצוי תחת פיקוח משרד העבודה הרווחה והשירותים החברתיים שנסגר לפי <ref href="#point_21">תקנה 21</ref> שאינו מקום המשמש או שנועד לשמש מקום שהייה יומי לחינוך ולטיפול בפעוטות, לא ייפתח גם לאחר התקופה שקבע משרד הבריאות לסגירתו, אלא באישור הממונה על החניכות.</p>
+                </content>
+              </point>
+              <point eId="point_22__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>אישור כאמור בתקנת משנה (א) או (ב) יינתן בתוך 48 שעות מתום התקופה שנקבעה לסגירת המוסד כאמור <ref href="#point_21">בתקנה 21</ref>, ובמקרים מיוחדים ולפי הוראה של המנהל הכללי של משרד החינוך – בתוך 96 שעות מתום התקופה האמורה וזאת בשים לב, בין השאר, להשלכות של סגירת המוסד על התלמידים.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_22א">
+            <heading>
+              <authorialNote placement="side">
+                <p>טיול</p>
+              </authorialNote>
+            </heading>
+            <num>22א.</num>
+            <content>
+              <p>במוסד המקיים פעילות כאמור <ref href="#point_2">בתקנה 2(ב)(1) עד (2ג)</ref> לא יתקיימו טיולים.<br space="preserve"></br><wikicomment font-size="x-small">(בתקופת הוראת השעה):</wikicomment> במוסד המקיים פעילות כאמור <ref href="#point_2">בתקנה 2(ב)(1) ו־(2)</ref> לא יתקיימו טיולים.</p>
+            </content>
+          </point>
+        </list>
+      </chapter>
+      <chapter eId="chp_ג">
+        <num>פרק ג׳:</num>
+        <title>
+          <content>
+            <p>הגבלת פעילות של גופים, מוסדות או פעולות</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_23">
+            <heading>
+              <authorialNote placement="side">
+                <p>הגבלת פעילות מוסדות</p>
+              </authorialNote>
+            </heading>
+            <num>23.</num>
+            <content>
+              <p>בלי לגרוע מהאמור <ref href="#chp_ב">בפרק ב׳</ref>, בעל מוסד לא יקיים פעילות, אלא בהתאם להוראות <ref href="#chp_ג">פרק זה</ref>.</p>
+            </content>
+          </point>
+          <point eId="point_24">
+            <heading>
+              <authorialNote placement="side">
+                <p>פעילות בקבוצות קבועות</p>
+              </authorialNote>
+            </heading>
+            <num>24.</num>
+            <list>
+              <intro>
+                <p>פעילות כאמור <ref href="#point_2">בתקנה 2(ב)(2א) עד (2א4) ו־(2א7) עד (2ג)</ref> וכאמור <ref href="/akn/il/act/PrimaryLegislation/2020-07-23/2140584#point_10">בסעיף 10(ג)(1), (3), (4), (6) (8), (13) ו־(14) לחוק</ref> תתקיים בתנאים אלה:<br space="preserve"></br><wikicomment font-size="x-small">(בתקופת הוראת השעה):</wikicomment> פעילות כאמור <ref href="/akn/il/act/PrimaryLegislation/2020-07-23/2140584#point_10">בסעיף 10(ג)(1), (3), (4), (6) (8), (13) ו־(14) לחוק</ref> תתקיים בתנאים אלה:</p>
+              </intro>
+              <point eId="point_24__point_1">
+                <num>(1)</num>
+                <content>
+                  <p>בקבוצות קבועות עם אנשי צוות קבועים, בלא תחלופה של תלמידים בין הקבוצות;</p>
+                </content>
+              </point>
+              <point eId="point_24__point_1א">
+                <num>(1א)</num>
+                <content>
+                  <p>
+                    <wikicomment font-size="x-small">(תימחק בתקופת הוראת השעה):</wikicomment> על אף האמור בפסקה (1), בפעילות כאמור <ref href="#point_2">בתקנה 2(ב)(2א7)</ref> לתלמידי כיתות ז׳ עד י"ב – כל תלמיד יוכל ללמוד בשתי קבוצות שונות לכל היותר;</p>
+                </content>
+              </point>
+              <point eId="point_24__point_2">
+                <num>(2)</num>
+                <content>
+                  <p>איש צוות קבוע יוכל לפגוש שלוש קבוצות קבועות שונות לכל היותר;</p>
+                </content>
+              </point>
+              <point eId="point_24__point_3">
+                <num>(3)</num>
+                <list>
+                  <intro>
+                    <p>על אף האמור בפסקה (2) –</p>
+                  </intro>
+                  <point eId="point_24__point_3__point_א">
+                    <num>(א)</num>
+                    <content>
+                      <p>
+                        <wikicomment font-size="x-small">(תימחק בתקופת הוראת השעה):</wikicomment> לעניין פעילות כאמור <ref href="#point_2">בתקנה 2(ב)(2א) ו־(2א2)</ref> בכיתות ג׳ ו־ד׳, ופעילות כאמור <ref href="#point_2">בתקנה 2(ב)(2א7)</ref> – כל איש צוות קבוע יוכל לפגוש ארבע קבוצות קבועות שונות לכל היותר;</p>
+                    </content>
+                  </point>
+                  <point eId="point_24__point_3__point_ב">
+                    <num>(ב)</num>
+                    <content>
+                      <p>לעניין פעילות כאמור <ref href="/akn/il/act/PrimaryLegislation/2020-07-23/2140584#point_10">בסעיף 10(ג)(4) ו־(6) לחוק</ref> – לא תחול הוראת פסקה (2);</p>
+                    </content>
+                  </point>
+                  <point eId="point_24__point_3__point_ג">
+                    <num>(ג)</num>
+                    <content>
+                      <p>
+                        <wikicomment font-size="x-small">(תימחק בתקופת הוראת השעה):</wikicomment> על מורה לחינוך גופני בפעילות כאמור <ref href="#point_2">בתקנה 2(ב)(2א2) ו־(2א7)</ref> לא תחול הוראת פסקה (2), ובלבד שבכל עת הוא עוטה מסכה ושנשמר מרחק של שני מטרים לפחות בינו לבין התלמידים;</p>
+                    </content>
+                  </point>
+                  <point eId="point_24__point_3__point_ד">
+                    <num>(ד)</num>
+                    <content>
+                      <p>
+                        <wikicomment font-size="x-small">(תימחק בתקופת הוראת השעה):</wikicomment> על מורה לשל"ח ואיש צוות בחווה חקלאית או במרכז לחינוך ימי לא תחול הוראת פסקה (2), ובלבד שהפעילות מתקיימת בשטח פתוח, שבכל עת הוא עוטה מסכה ושנשמר מרחק של שני מטרים לפחות בינו לבין התלמידים;</p>
+                    </content>
+                  </point>
+                  <point eId="point_24__point_3__point_ה">
+                    <num>(ה)</num>
+                    <content>
+                      <p>
+                        <wikicomment font-size="x-small">(נמחקה).</wikicomment>
+                      </p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+            </list>
+          </point>
+          <point eId="point_24א">
+            <heading>
+              <authorialNote placement="side">
+                <p>צהרון</p>
+              </authorialNote>
+            </heading>
+            <num>24א.</num>
+            <list>
+              <point eId="point_24א__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>
+                    <wikicomment font-size="x-small">(תבוטל בתקופת הוראת השעה):</wikicomment>
+                    <br space="preserve"></br> תלמידים המשתתפים בצהרון, ישהו באותה קבוצה קבועה שעמה שהו בשעות הלימודים.</p>
+                </content>
+              </point>
+              <point eId="point_24א__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>ניתן לצרף יחד תלמידים לקבוצת צהרון קבועה משתי קבוצות קבועות ככל האפשר, ולכל היותר משלוש כיתות אורגניות, ובלבד שמספר התלמידים בקבוצה זו לא יעלה על 28 תלמידים; הוראות תקנת משנה זו לא יחולו על צהרון לתלמידים בכיתות א׳ ו־ב.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_25">
+            <heading>
+              <authorialNote placement="side">
+                <p>מוסד לחינוך מיוחד</p>
+              </authorialNote>
+            </heading>
+            <num>25.</num>
+            <content>
+              <p>פעילות במוסד לחינוך מיוחד תתקיים שישה ימים בשבוע, למעט מוסד כאמור הפועל בשגרה חמישה ימים בשבוע.</p>
+            </content>
+          </point>
+          <point eId="point_26">
+            <heading>
+              <authorialNote placement="side">
+                <p>פעילות חינוך בלתי פורמלי לילדי עובדים חיוניים</p>
+              </authorialNote>
+            </heading>
+            <num>26.</num>
+            <list>
+              <point eId="point_26__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>פעילות חינוך בלתי פורמלי לילדי עובדים חיוניים מגיל 3 עד 12 תתקיים בקבוצות של עד 10 משתתפים, לרבות אנשי צוות.</p>
+                </content>
+              </point>
+              <point eId="point_26__point_ב">
+                <num>(ב)</num>
+                <list>
+                  <intro>
+                    <p>פעילויות לילדי עובדים חיוניים מגיל לידה עד גיל 3 שנים יתקיימו במקום המשמש או הנועד לשמש מקום שהייה יומי לחינוך ולטיפול בפעוטות, ובלבד שהתקיימו תנאים אלה:</p>
+                  </intro>
+                  <point eId="point_26__point_ב__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>מספר הילדים במקום כאמור לא יעלה על שמונה ואולם אם מספר הילדים עולה על חמישה תותר הפעילות בתנאי שיש במקום שני מטפלים לפחות;</p>
+                    </content>
+                  </point>
+                  <point eId="point_26__point_ב__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>
+                        <wikicomment font-size="x-small">(נמחקה);</wikicomment>
+                      </p>
+                    </content>
+                  </point>
+                  <point eId="point_26__point_ב__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>
+                        <wikicomment font-size="x-small">(נמחקה);</wikicomment>
+                      </p>
+                    </content>
+                  </point>
+                  <point eId="point_26__point_ב__point_4">
+                    <num>(4)</num>
+                    <content>
+                      <p>
+                        <wikicomment font-size="x-small">(נמחקה).</wikicomment>
+                      </p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_26__point_ב1">
+                <num>(ב1)</num>
+                <content>
+                  <p>בעל מוסד המפעיל פעילות כאמור בתקנה זו לא יקלוט ילד למסגרת, אלא אם כן העובד החיוני הציג לפני המפעיל האחראי על מקום כאמור הצהרה בכתב או אישור אחר, כי הוא עובד חיוני.</p>
+                </content>
+              </point>
+              <point eId="point_26__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>פעילות לילדי עובדים חיוניים כאמור בתקנה זו תתקיים כך שלכל קבוצה יוקצה חלל סגור ונפרד המשמש רק אותה; בחצר או באזורי המעבר לא תשהה יותר מקבוצה אחת בכל עת; ככל האפשר, יוקצו לכל קבוצה שירותים וכיור נפרדים; הצוות ימנע מעבר של ילדים בין מרחבי הפעילות המיועדים לכל קבוצה באותה עת; אין באמור כדי למנוע שהיית כמה קבוצות במבנה, כל עוד ניתן לעמוד בתנאים כאמור בסעיף זה.</p>
+                </content>
+              </point>
+              <point eId="point_26__point_ד">
+                <num>(ד)</num>
+                <content>
+                  <p>פעילות לילדי עובדים חיוניים כאמור בתקנה זו תתקיים בקבוצות קבועות עם אנשי צוות קבועים, בלא תחלופה של אנשי הצוות או של ילדים בין הקבוצות, ולא תהיה פעילות של מפעילים חיצוניים.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_27">
+            <heading>
+              <authorialNote placement="side">
+                <p>פעילות בית ספר שניתן בו חינוך על־יסודי לנוער נושר ובסיכון</p>
+              </authorialNote>
+            </heading>
+            <num>27.</num>
+            <list>
+              <intro>
+                <p>פעילות בית ספר שניתן בו חינוך על־יסודי לנוער נושר ובסיכון כאמור <ref href="/akn/il/act/PrimaryLegislation/2020-07-23/2140584#point_10">בסעיף 10(ג)(4) לחוק</ref> תתקיים שישה ימים בשבוע, למעט בית ספר כאמור הפועל בשגרה חמישה ימים בשבוע, באופן המפורט להלן:</p>
+              </intro>
+              <point eId="point_27__point_1">
+                <num>(1)</num>
+                <content>
+                  <p>יתקיימו לימודים בקבוצות קבועות של עד 18 תלמידים בכיתה;</p>
+                </content>
+              </point>
+              <point eId="point_27__point_2">
+                <num>(2)</num>
+                <content>
+                  <p>הלימודים יתקיימו בבית הספר או במבנים שיאושרו על ידי משרד החינוך או משרד העבודה הרווחה והשירותים החברתיים, לפי העניין;</p>
+                </content>
+              </point>
+              <point eId="point_27__point_3">
+                <num>(3)</num>
+                <content>
+                  <p>אם לא ניתן לקיים למידה כאמור במשך ימות השבוע שבהם מתקיימים לימודים, הלימודים יתקיימו באופן האמור יומיים בשבוע לכל הפחות, ובשאר הימים תתקיים למידה מהבית;</p>
+                </content>
+              </point>
+              <point eId="point_27__point_4">
+                <num>(4)</num>
+                <content>
+                  <p>אין באמור כדי למנוע למידה במשמרות, ובלבד שתתקיים חמישה ימים בשבוע לפחות.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_28">
+            <heading>
+              <authorialNote placement="side">
+                <p>פעילויות חינוך בלתי פורמלי לפי סעיף 10(ג)(8) או (13) לחוק</p>
+              </authorialNote>
+            </heading>
+            <num>28.</num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">(הנוסח הקבוע):</wikicomment> פעילויות חינוך בלתי פורמלי כאמור <ref href="/akn/il/act/PrimaryLegislation/2020-07-23/2140584#point_10">בסעיף 10(ג)(8) או (13) לחוק</ref> יתקיימו בקבוצות של עד 10 משתתפים, לצרכים ולמטרות שקבע המנהל הכללי של משרד להשכלה גבוהה ומשלימה ובהתאם לתנאים שקבע ובכפוף להוראות המנהל.</p>
+            </content>
+          </point>
+          <point eId="point_28">
+            <heading>
+              <authorialNote placement="side">
+                <p>פעילויות מתנדבים לפי סעיף 10(ג)(8) או (13) לחוק</p>
+              </authorialNote>
+            </heading>
+            <num>28.</num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">(בתקופת הוראת השעה):</wikicomment> מתנדבים כאמור <ref href="/akn/il/act/PrimaryLegislation/2020-07-23/2140584#point_10">בסעיף 10(ג)(8) או (13) לחוק</ref> יתקיימו בקבוצות של עד 10 משתתפים, לצרכים ולמטרות שקבע המנהל הכללי של משרד להשכלה גבוהה ומשלימה ובהתאם לתנאים שקבע ובכפוף להוראות המנהל.</p>
+            </content>
+          </point>
+          <point eId="point_28א">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>28א.</num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">(פקעה).</wikicomment>
+              </p>
+            </content>
+          </point>
+          <point eId="point_28ב">
+            <heading>
+              <authorialNote placement="side">
+                <p>פעילות בכיתות א׳ עד י"ב</p>
+              </authorialNote>
+            </heading>
+            <num>28ב.</num>
+            <list>
+              <intro>
+                <p>
+                  <wikicomment font-size="x-small">(תבוטל בתקופת הוראת השעה):</wikicomment>
+                  <br space="preserve"></br>פעילות כאמור <ref href="#point_2">בסעיף [צ"ל: בתקנה] 2(ב)(2א2) ו־(2א7)</ref> תתקיים כמפורט להלן:</p>
+              </intro>
+              <point eId="point_28ב__point_1">
+                <num>(1)</num>
+                <content>
+                  <p>בכיתות א׳ ו־ב׳ – תיחשב כל הכיתה כקבוצה קבועה ונפרדת;</p>
+                </content>
+              </point>
+              <point eId="point_28ב__point_2">
+                <num>(2)</num>
+                <content>
+                  <p>בכיתות ג׳ ומעלה – בקבוצות קבועות של עד 20 תלמידים בכיתה;</p>
+                </content>
+              </point>
+              <point eId="point_28ב__point_3">
+                <num>(3)</num>
+                <list>
+                  <intro>
+                    <p>המנהל הכללי או שר החינוך רשאי, לפי העניין, לאפשר חריגה של מספר התלמידים המרבי בקבוצה, מעבר לאמור בפסקה (2), תוך מתן עדיפות למוסדות הנמצאים באזורים בעלי שיעור תחלואה נמוך, ובלבד שהמספר הכולל של הקבוצות המוחרגות לא יעלה על 10% מהכיתות לפי חלוקתן או פעילותן לפני פרסום תקנות אלה; חריגות כאמור יאושרו באופן המפורט להלן:</p>
+                  </intro>
+                  <point eId="point_28ב__point_3__point_א">
+                    <num>(א)</num>
+                    <content>
+                      <p>חריגה מעל ל־20 תלמידים ועד ל־22 תלמידים בקבוצה תאושר בידי המנהל הכללי של משרד החינוך;</p>
+                    </content>
+                  </point>
+                  <point eId="point_28ב__point_3__point_ב">
+                    <num>(ב)</num>
+                    <content>
+                      <p>חריגה מעל ל־22 תלמידים ועד ל־24 תלמידים בקבוצה תאושר בידי שר החינוך.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+            </list>
+          </point>
+          <point eId="point_28ג">
+            <heading>
+              <authorialNote placement="side">
+                <p>פעילות בשטח פתוח</p>
+              </authorialNote>
+            </heading>
+            <num>28ג.</num>
+            <list>
+              <intro>
+                <p>
+                  <wikicomment font-size="x-small">(תבוטל בתקופת הוראת השעה):</wikicomment>
+                  <br space="preserve"></br>פעילות כאמור <ref href="#point_2">בתקנה 2(ב)(2א3)</ref> תתקיים בתנאים אלה:</p>
+              </intro>
+              <point eId="point_28ג__point_1">
+                <num>(1)</num>
+                <list>
+                  <intro>
+                    <p>כל קבוצה קבועה תיפגש עם ארבעה אנשי צוות קבועים לכל היותר בכל המפגשים; על אף האמור:</p>
+                  </intro>
+                  <point eId="point_28ג__point_1__point_א">
+                    <num>(א)</num>
+                    <content>
+                      <p>ניתן לקיים פגישה פרטנית של תלמיד אחד עם יועץ חינוכי שאינו איש הצוות הקבוע הנפגש עם הקבוצה שאליה משתייך אותו תלמיד;</p>
+                    </content>
+                  </point>
+                  <point eId="point_28ג__point_1__point_ב">
+                    <num>(ב)</num>
+                    <content>
+                      <p>אין בפסקה זו כדי למנוע השתתפות סייע של תלמיד, נוסף על איש הצוות הקבוע הנפגש עם הקבוצה, ויראו אותו כתלמיד לעניין מניין המשתתפים בפעילות כאמור בתקנה זו;</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_28ג__point_2">
+                <num>(2)</num>
+                <content>
+                  <p>כלל המשתתפים יאכלו את ארוחותיהם בנפרד;</p>
+                </content>
+              </point>
+              <point eId="point_28ג__point_3">
+                <num>(3)</num>
+                <content>
+                  <p>יישמר מרחק של שני מטרים בין משתתף אחד לאחר בכל עת, והפעילות לא תכלול מגע בין המשתתפים;</p>
+                </content>
+              </point>
+              <point eId="point_28ג__point_4">
+                <num>(4)</num>
+                <content>
+                  <p>המרחק בין קבוצה אחת לאחרת לא יפחת מ־100 מטרים.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_28ד">
+            <heading>
+              <authorialNote placement="side">
+                <p>כיתת עולים</p>
+              </authorialNote>
+            </heading>
+            <num>28ד.</num>
+            <list>
+              <intro>
+                <p>
+                  <wikicomment font-size="x-small">(תבוטל בתקופת הוראת השעה):</wikicomment>
+                  <br space="preserve"></br>פעילות כאמור <ref href="#point_2">בתקנה 2(ב)(2א4)</ref> תתקיים בתנאים אלה:</p>
+              </intro>
+              <point eId="point_28ד__point_1">
+                <num>(1)</num>
+                <content>
+                  <p>כל קבוצה תכלול עשרים תלמידים לכל היותר;</p>
+                </content>
+              </point>
+              <point eId="point_28ד__point_2">
+                <num>(2)</num>
+                <content>
+                  <p>הלימודים יתקיימו בבית הספר או במבנים שיאשר משרד החינוך.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_28ה">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>28ה.</num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">(בוטלה).</wikicomment>
+              </p>
+            </content>
+          </point>
+          <point eId="point_28ה1">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>28ה1.</num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">(בוטלה).</wikicomment>
+              </p>
+            </content>
+          </point>
+          <point eId="point_28ו">
+            <heading>
+              <authorialNote placement="side">
+                <p>גישה למוסד להשכלה או הכשרה מקצועית לבגירים לצורך קיום הוראה מקוונת</p>
+              </authorialNote>
+            </heading>
+            <num>28ו.</num>
+            <list>
+              <intro>
+                <p>
+                  <wikicomment font-size="x-small">(תבוטל בתקופת הוראת השעה):</wikicomment>
+                  <br space="preserve"></br>פעילות כאמור <ref href="#point_2">בתקנה 2(ב)(2א6)</ref> תתקיים בתנאים אלה:</p>
+              </intro>
+              <point eId="point_28ו__point_1">
+                <num>(1)</num>
+                <content>
+                  <p>לא יגיע תלמיד למוסד אלא אם כן קיבל אישור פרטני של מנהל המוסד או מי שהוא מינה מטעמו לעניין זה, כי דרושה לו גישה לתשתית או לציוד חיוני במוסד לצורך קיום לימוד מקוון;</p>
+                </content>
+              </point>
+              <point eId="point_28ו__point_2">
+                <num>(2)</num>
+                <content>
+                  <p>מנהל מוסד יבטיח כי לא יינתנו אישורים ליותר מ־10% מהתלמידים במוסד;</p>
+                </content>
+              </point>
+              <point eId="point_28ו__point_3">
+                <num>(3)</num>
+                <list>
+                  <intro>
+                    <p>מנהל המוסד יקבע ויפעיל מנגנון לוויסות מספר השוהים בכיתות או בחדרים במוסד בכל זמן לפי תקנה זו, כך שיתקיימו בהתאם לכללים האלה:</p>
+                  </intro>
+                  <point eId="point_28ו__point_3__point_א">
+                    <num>(א)</num>
+                    <content>
+                      <p>בכיתה או בחדר של עד 60 מ"ר – לא ישהו יותר מ־15 תלמידים ואנשי צוות המוסד;</p>
+                    </content>
+                  </point>
+                  <point eId="point_28ו__point_3__point_ב">
+                    <num>(ב)</num>
+                    <content>
+                      <p>בכיתה או בחדר של מעל 60 מ"ר ועד 150 מ"ר – לא ישהו יותר מ־25 תלמידים ואנשי צוות המוסד;</p>
+                    </content>
+                  </point>
+                  <point eId="point_28ו__point_3__point_ג">
+                    <num>(ג)</num>
+                    <content>
+                      <p>בכיתה או בחדר של מעל 150 מ"ר – לא ישהו יותר מ־50 תלמידים ואנשי צוות המוסד.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+            </list>
+          </point>
+          <point eId="point_28ז">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>28ז.</num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">(פקעה).</wikicomment>
+              </p>
+            </content>
+          </point>
+        </list>
+      </chapter>
+      <chapter eId="chp_ד">
+        <num>פרק ד׳:</num>
+        <title>
+          <content>
+            <p>פנימיות</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_29">
+            <heading>
+              <authorialNote placement="side">
+                <p>פנימיות</p>
+              </authorialNote>
+            </heading>
+            <num>29.</num>
+            <list>
+              <intro>
+                <p>בלי לגרוע מהאמור <ref href="#chp_ב">בפרק ב׳ לתקנות אלה</ref>, לא יפעיל בעל מוסד פנימייה בדרך של פתיחתה לתלמידים, אלא לפי תנאים אלה:</p>
+              </intro>
+              <point eId="point_29__point_1">
+                <num>(1)</num>
+                <content>
+                  <p>בעל המוסד ימנה אדם שיהיה אחראי על ביצוע הפעולות המפורטות בתקנה זו (להלן – ממונה קורונה);</p>
+                </content>
+              </point>
+              <point eId="point_29__point_2">
+                <num>(2)</num>
+                <content>
+                  <p>בעל המוסד יידע את התלמידים השוהים בפנימייה בנוגע לכללים החלים בפנימייה, לרבות האמור בפסקה (3), ובכלל זה בעניין החלוקה לקבוצות והמסלול שנקבע בידי בעל המוסד כאמור בפסקה (3)(ב);<br space="preserve"></br><wikicomment font-size="x-small">(בתקופת הוראת השעה):</wikicomment> בעל המוסד יידע את התלמידים השוהים בפנימייה בנוגע לכללים החלים בפנימייה, לרבות האמור בפסקה (3), ובכלל זה בעניין החלוקה לקבוצות כאמור בפסקה (3)(ב);</p>
+                </content>
+              </point>
+              <point eId="point_29__point_3">
+                <num>(3)</num>
+                <list>
+                  <intro>
+                    <p>בעל המוסד יקבע ויפעיל מנגנון להפרדת השוהים בפנימייה לקבוצות קבועות נפרדות, למשך כל שעות היממה, לרבות בזמן פעילות לימודית, בזמן החופשי, באכילה ובלינה, כמפורט להלן; בתקנה זו, ”יציאה מחוץ לשטח הפנימייה“ – למעט מעבר רגלי בין אזור הלימודים לאזור מגורים סמוך:</p>
+                  </intro>
+                  <point eId="point_29__point_3__point_א">
+                    <num>(א)</num>
+                    <content>
+                      <p>בפנימייה המיועדת לתלמידים עד גיל תיכון שמתקיים בה האמור <ref href="/akn/il/act/PrimaryLegislation/2020-07-23/2140584#point_10">בסעיף 10(ג)(5) לחוק</ref> – בקבוצות של עד 18 תלמידים, ויחולו לעניין כניסה ויציאה משטח הפנימייה הוראות <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/תקנות_סמכויות_מיוחדות_להתמודדות_עם_נגיף_הקורונה_החדש_הוראת_שעה_הגבלת_פעילות_והוראות_נוספות">תקנות הגבלת פעילות</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_29__point_3__point_ב">
+                    <num>(ב)</num>
+                    <list>
+                      <intro>
+                        <p>בפנימייה על־תיכונית – אחד מאלה:</p>
+                      </intro>
+                      <point eId="point_29__point_3__point_ב__point_1">
+                        <num>(1)</num>
+                        <content>
+                          <p>
+                            <wikicomment font-size="x-small">(תימחק בתקופת הוראת השעה):</wikicomment> מסלול פתוח – בקבוצות של עד 18 תלמידים, ויחולו לעניין כניסה ויציאה מחוץ לשטח הפנימייה הוראות <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/תקנות_סמכויות_מיוחדות_להתמודדות_עם_נגיף_הקורונה_החדש_הוראת_שעה_הגבלת_פעילות_והוראות_נוספות">תקנות הגבלת פעילות</ref>;</p>
+                        </content>
+                      </point>
+                      <point eId="point_29__point_3__point_ב__point_1א">
+                        <num>(1א)</num>
+                        <content>
+                          <p>אם מתקיים בה האמור <ref href="/akn/il/act/PrimaryLegislation/2020-07-23/2140584#point_10">בסעיף 10(ג)(5) לחוק</ref> והיא מיועדת לתלמידים נושרים או לתלמידים בסיכון – תקיים פעילות בהתאם לפסקת משנה 29(3)(א) או (3)(ב)(2);</p>
+                        </content>
+                      </point>
+                      <point eId="point_29__point_3__point_ב__point_2">
+                        <num>(2)</num>
+                        <list>
+                          <intro>
+                            <p>מסלול סגור – אם לא מתקיים בה האמור בפסקת משנה (1א) – בקבוצות של עד 50 תלמידים, ויחולו לעניין כניסה ויציאה מחוץ לשטח הפנימייה הוראות אלה:<br space="preserve"></br><wikicomment font-size="x-small">(בתקופת הוראת השעה):</wikicomment> אם לא מתקיים בה האמור בפסקת משנה (1א) – בקבוצות של עד 50 תלמידים, ויחולו לעניין כניסה ויציאה מחוץ לשטח הפנימייה הוראות אלה:</p>
+                          </intro>
+                          <point eId="point_29__point_3__point_ב__point_2__point_א">
+                            <num>(א)</num>
+                            <content>
+                              <p>בשבועיים הראשונים שלאחר הגעתם לפנימייה התלמידים ואנשי הצוות לא יצאו מחוץ לשטח הפנימייה, אלא כאמור בפסקת משנה (ד);</p>
+                            </content>
+                          </point>
+                          <point eId="point_29__point_3__point_ב__point_2__point_ב">
+                            <num>(ב)</num>
+                            <content>
+                              <p>לאחר התקופה האמורה בפסקת משנה (א), ואם התלמידים במוסד מתכוונים לשהות בו לתקופה של עוד 30 ימים לפחות, ניתן לאחד קבוצה קבועה עם קבוצות קבועות אחרות שקיימו את האמור בפסקת משנה (א), ובלבד שאף אחד מהתלמידים בכל אחת מהקבוצות אינו חולה;</p>
+                            </content>
+                          </point>
+                          <point eId="point_29__point_3__point_ב__point_2__point_ג">
+                            <num>(ג)</num>
+                            <content>
+                              <p>אוחדו קבוצות קבועות כאמור בפסקת משנה (ב), לא תתאפשר יציאה מחוץ לשטח הפנימייה אלא כאמור בפסקת משנה (ד);</p>
+                            </content>
+                          </point>
+                          <point eId="point_29__point_3__point_ב__point_2__point_ד">
+                            <num>(ד)</num>
+                            <content>
+                              <p>יצא תלמיד או איש צוות מחוץ לשטח הפנימייה, לא יוכל לחזור לשטח הפנימייה, אלא אם כן הצטרף לקבוצה חדשה של עד 50 תלמידים המגיעים לפנימייה, כאמור בפסקת משנה (א); אם אין אפשרות להצטרפות לקבוצה חדשה כאמור, החזרה לשטח הפנימייה תהיה בכפוף לכך שהתלמיד שהה בבידוד במקום שהוקצה לכך בפנימייה, כאמור בפסקה (9), במשך 14 ימים;</p>
+                            </content>
+                          </point>
+                          <point eId="point_29__point_3__point_ב__point_2__point_ה">
+                            <num>(ה)</num>
+                            <content>
+                              <p>הוראות פסקאות משנה (א) ו־(ד) לא יחולו על איש צוות הנמנה עם צוות המוסד אם מתקיימת הפרדה מוחלטת בין איש הצוות לבין התלמידים; לעניין זה, ”הפרדה מוחלטת“ – איש הצוות אינו שוהה עם התלמידים בחלל משותף במוסד ואינו נמצא בקרבתם כלל, לרבות בעת מעבר בתוך שטחי הפנימייה ובעת היציאה ממנה והכניסה אליה או שישנה מחיצה בגובה 250 ס"מ לפחות בכל הכיוונים, המפרידה בין איש הצוות לבין התלמידים;</p>
+                            </content>
+                          </point>
+                        </list>
+                      </point>
+                    </list>
+                  </point>
+                  <point eId="point_29__point_3__point_ג">
+                    <num>(ג)</num>
+                    <content>
+                      <p>בפנימייה המיועדת לתלמידים עד גיל תיכון שלא מתקיים בה האמור <ref href="/akn/il/act/PrimaryLegislation/2020-07-23/2140584#point_10">בסעיף 10(ג)(5) לחוק</ref> – בקבוצות כאמור בפסקת משנה (ב)(2); ואולם על אף האמור בפסקת משנה (ב)(2)(ד), יצא תלמיד פנימייה כאמור בפסקת משנה זו מחוץ לשטח הפנימייה, לא יוכל לחזור לשטח הפנימייה אלא אם כן הצטרף לקבוצה חדשה של עד 50 תלמידים, או לאחר פיזור וכינוס מחדש של כל תלמידי הפנימייה לפי הוראות תקנות אלה;</p>
+                    </content>
+                  </point>
+                  <point eId="point_29__point_3__point_ד">
+                    <num>(ד)</num>
+                    <content>
+                      <p>
+                        <wikicomment font-size="x-small">(בתקופת הוראת השעה):</wikicomment> על אף האמור בפסקאות משנה (ב)(2) ו־(ג), בעת שעומדות בתוקפן הגבלות על יציאה ממקום המגורים לפי <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/תקנות_סמכויות_מיוחדות_להתמודדות_עם_נגיף_הקורונה_החדש_הוראת_שעה_הגבלת_פעילות_והוראות_נוספות#point_2">תקנה 2 לתקנות הגבלת פעילות</ref>, אם יצא תלמיד משטח הפנימייה אל מקום מגורים אחר, הוא לא יוכל לחזור לשטחה</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_29__point_4">
+                <num>(4)</num>
+                <content>
+                  <p>בעל המוסד יקבע ויפעיל מנגנון להקצאת מרחבי פעילות ומיתקנים נפרדים לכל קבוצה כאמור בפסקה (3), ובכלל זה אזור מגורים, חצר, חדרי לימוד, שירותים, מקלחות וכיורים, ולמניעת מעבר של תלמידים בין מרחבי הפעילות והמיתקנים;</p>
+                </content>
+              </point>
+              <point eId="point_29__point_5">
+                <num>(5)</num>
+                <content>
+                  <p>בעל המוסד יצמצם, ככל האפשר, את השימוש במרחבי פעילות משותפים לקבוצות שונות של תלמידים, ובכלל זה מעבדות, חדרי מחשבים וחדרי סטודיו; בכל מקרה לא יהיה שימוש במרחבי פעילות משותפים באותו זמן;</p>
+                </content>
+              </point>
+              <point eId="point_29__point_6">
+                <num>(6)</num>
+                <list>
+                  <intro>
+                    <p>לגבי חדרי לינת תלמידים יחולו הוראות אלה:</p>
+                  </intro>
+                  <point eId="point_29__point_6__point_א">
+                    <num>(א)</num>
+                    <content>
+                      <p>בעל המוסד לא ישכן יותר מחמישה תלמידים בחדר לינה אחד;</p>
+                    </content>
+                  </point>
+                  <point eId="point_29__point_6__point_ב">
+                    <num>(ב)</num>
+                    <content>
+                      <p>כל התלמידים בחדר יהיו מאותה קבוצה קבועה;</p>
+                    </content>
+                  </point>
+                  <point eId="point_29__point_6__point_ג">
+                    <num>(ג)</num>
+                    <content>
+                      <p>המרחק בין מיטה למיטה בחדר יהיה שני מטרים לפחות, ואולם אין באמור כדי למנוע שיכון תלמידים ללינה במיטות דו־קומתיות;</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_29__point_7">
+                <num>(7)</num>
+                <content>
+                  <p>בעל המוסד ידאג לכך שיהיו אנשי צוות קבועים לכל קבוצה קבועה, בלא מעבר של אנשי צוות בין הקבוצות הקבועות;</p>
+                </content>
+              </point>
+              <point eId="point_29__point_8">
+                <num>(8)</num>
+                <list>
+                  <intro>
+                    <p>בעל המוסד אחראי לקיום ההוראות בעניין הצהרה, תשאול ובדיקת תסמינים כמפורט <ref href="#point_6">בתקנה 6</ref>, בשינויים אלה:</p>
+                  </intro>
+                  <point eId="point_29__point_8__point_א">
+                    <num>(א)</num>
+                    <content>
+                      <p>ההצהרה תוגש עם חזרת התלמיד או כל מי שנמנה עם צוות המוסד, לפנימייה, במקום בתחילת כל יום פעילות;</p>
+                    </content>
+                  </point>
+                  <point eId="point_29__point_8__point_ב">
+                    <num>(ב)</num>
+                    <content>
+                      <p>בתחילת כל יום פעילות מנהל המוסד או מי שהוא מינה לכך יבצע לכל תלמיד מדידת חום ויערוך עמו תשאול בהתאם לנוסח הצהרת הבריאות <ref href="#appendix_1">שבתוספת הראשונה</ref>, בהתאמה לרמת הבנתו ולמצבו הרגשי, ואם התלמיד או ההורה אדם עם מוגבלות – באופן נגיש ומותאם לצרכיו;</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_29__point_9">
+                <num>(9)</num>
+                <content>
+                  <p>התברר לבעל מוסד כאמור <ref href="/akn/il/act/PrimaryLegislation/2020-07-23/2140584#point_10">בסעיף 10(ג)(5) לחוק</ref> כי תלמיד בפנימייה חייב בבידוד לפי <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/צו_בריאות_העם_נגיף_הקורונה_החדש_בידוד_בית_והוראות_שונות_הוראת_שעה">צו בידוד בית</ref>, ידאג בעל המוסד למקום בידוד בעבור התלמיד, ידאג לרווחתו במהלך הבידוד, ויחול <ref href="/akn/il/act/PrimaryLegislation/2020-07-23/2140584#point_22טו">סעיף 22טו לחוק</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_29__point_10">
+                <num>(10)</num>
+                <list>
+                  <intro>
+                    <p>בעל המוסד ידאג לשמירה על כללי ההגיינה המפורטים להלן:</p>
+                  </intro>
+                  <point eId="point_29__point_10__point_א">
+                    <num>(א)</num>
+                    <content>
+                      <p>בסמוך למבנה מגורים מבודד יציב בעל המוסד פח אשפה גדול ונפרד בעבור אשפה שתיאסף מחדרי אותו מבנה בלבד;</p>
+                    </content>
+                  </point>
+                  <point eId="point_29__point_10__point_ב">
+                    <num>(ב)</num>
+                    <content>
+                      <p>מניעת שימוש בחפצים משותפים, כגון מברשת שיניים, מגבות, מצעים, בגדים וכלי אוכל;</p>
+                    </content>
+                  </point>
+                  <point eId="point_29__point_10__point_ג">
+                    <num>(ג)</num>
+                    <content>
+                      <p>תלמיד או איש צוות המצוי בבידוד יאחסן בגדים ומצעים לכיבוס בשקית ייעודית בחדרו, עד למועד הכביסה;</p>
+                    </content>
+                  </point>
+                  <point eId="point_29__point_10__point_ד">
+                    <num>(ד)</num>
+                    <content>
+                      <p>מוצרים חד־פעמיים יושלכו לשקית אשפה ייעודית בחדר הבידוד;</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_29__point_11">
+                <num>(11)</num>
+                <content>
+                  <p>בפנימייה שנקבע כי פעילותה תתקיים במסלול הסגור כאמור בפסקה 3(ב)(2), ידאג בעל המוסד כי טרם כניסת עובד למוסד, יוסברו לעובד כללי הפעלת המוסד לפי מסלול זה, לרבות לעניין כניסה, יציאה ושהייה, ולא יאפשר את כניסת העובד למוסד, אלא לאחר שחתם על טופס הסכמה לעבודה ולקיום תנאי המסלול הסגור; אין באמור בתקנה זו כדי לגרוע מזכותם של בעל מוסד ועובד המוסד להסכים על תנאים נוספים לצורך הסכמת העובד כאמור בפסקה זו, ובלבד שלא יהיה תוקף לתניה המתגברת על הוראות תקנות אלה.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+        </list>
+      </chapter>
+      <chapter eId="chp_ה">
+        <num>פרק ה׳:</num>
+        <title>
+          <content>
+            <p>שונות</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_30">
+            <heading>
+              <authorialNote placement="side">
+                <p>עונשין</p>
+              </authorialNote>
+            </heading>
+            <num>30.</num>
+            <list>
+              <intro>
+                <p>בעל מוסד העושה אחד מאלה דינו – קנס לפי <ref href="/akn/il/act/PrimaryLegislation/1977-08-04/2002251#point_61">סעיף 61(א)(1) לחוק העונשין, התשל"ז–1977</ref>:</p>
+              </intro>
+              <point eId="point_30__point_1">
+                <num>(1)</num>
+                <content>
+                  <p>מפעיל מוסד המקיים פעילות חינוך בדרך של פתיחתו לתלמידים בו, בניגוד לאמור <ref href="#point_2">בתקנה 2</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_30__point_2">
+                <num>(2)</num>
+                <content>
+                  <p>מפעיל מוסד המקיים פעילות חינוכית כאמור <ref href="#point_2">בתקנה 2(ב)(2א) עד (2ג)</ref> או <ref href="/akn/il/act/PrimaryLegislation/2020-07-23/2140584#point_10">בסעיף 10(ג) לחוק</ref>, המקיים פעילות חינוך בדרך של פתיחתו לתלמידים או למטופלים בו, בניגוד להוראת ראש שירותי בריאות הציבור במשרד הבריאות או רופא מחוזי כאמור <ref href="#point_21">בסעיף 21(א)</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_30__point_3">
+                <num>(3)</num>
+                <list>
+                  <intro>
+                    <p>בעל מוסד המפעיל פנימייה בדרך של פתיחתה לתלמידים –</p>
+                  </intro>
+                  <point eId="point_30__point_3__point_א">
+                    <num>(א)</num>
+                    <content>
+                      <p>בלי שמינה ממונה קורונה כאמור <ref href="#point_29">בתקנה 29(1)</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_30__point_3__point_ב">
+                    <num>(ב)</num>
+                    <content>
+                      <p>בלי שקבע והפעיל מנגנון להפרדת השוהים בפנימייה לקבוצות קבועות נפרדות ולהקצאת מרחבי פעילות ומיתקנים נפרדים לכל קבוצה כאמור <ref href="#point_29">בתקנה 29(3) ו־(4)</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_30__point_3__point_ג">
+                    <num>(ג)</num>
+                    <content>
+                      <p>ששיכן יותר מחמישה תלמידים בחדר כאמור <ref href="#point_29">בתקנה 29(6)(א)</ref>.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+            </list>
+          </point>
+          <point eId="point_31">
+            <heading>
+              <authorialNote placement="side">
+                <p>עבירה מינהלית</p>
+              </authorialNote>
+            </heading>
+            <num>31.</num>
+            <list>
+              <point eId="point_31__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>עבירה על הוראה מההוראות המפורטות <ref href="#appendix_4">בטור א׳ שבתוספת הרביעית</ref> היא עבירה מינהלית כמשמעותה <ref href="/akn/il/act/PrimaryLegislation/1985-10-24/151096">בחוק העבירות המינהליות, התשמ"ו–1985</ref> (להלן – חוק העבירות המינהליות), והוראות <ref href="/akn/il/act/PrimaryLegislation/1985-10-24/151096">החוק האמור</ref> יחולו עליה בשינויים המחויבים.</p>
+                </content>
+              </point>
+              <point eId="point_31__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>לעבירה מינהלית כאמור בתקנת משנה (א) יהיה קנס מינהלי קצוב, כקבוע לצדה <ref href="#appendix_4">בטור ב׳ שבתוספת הרביעית</ref>.</p>
+                </content>
+              </point>
+              <point eId="point_31__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>הקנס המינהלי הקצוב לעבירה מינהלית כאמור בתקנת משנה (ב) שהיא עבירה מינהלית חוזרת כמשמעותה <ref href="/akn/il/act/PrimaryLegislation/1985-10-24/151096#point_2">בסעיף 2(ג) לחוק העבירות המינהליות</ref>, הוא כפל הקנס המינהלי האמור בתקנת משנה (ב).</p>
+                </content>
+              </point>
+              <point eId="point_31__point_ד">
+                <num>(ד)</num>
+                <content>
+                  <p>הקנס המינהלי הקצוב לעבירה מינהלית כאמור בתקנת משנה (ב) שהיא עבירה מינהלית נמשכת יהיה בשיעור חמישית מהקנס הקבוע בתקנת משנה (ב) לכל יום שבו נמשכת העבירה לאחר המועד שנקבע בהתראה כאמור <ref href="/akn/il/act/PrimaryLegislation/1985-10-24/151096#point_8">בסעיף 8(ב1) לחוק העבירות המינהליות</ref>.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_32">
+            <heading>
+              <authorialNote placement="side">
+                <p>גורם מוסמך להטלת קנס מינהלי</p>
+              </authorialNote>
+            </heading>
+            <num>32.</num>
+            <list>
+              <point eId="point_32__point_א">
+                <num>(א)</num>
+                <list>
+                  <intro>
+                    <p>הגורם המוסמך להטיל קנס מינהלי לפי <ref href="#point_30">תקנה 30(1) ו־(2)</ref> הוא כל אחד מאלה:</p>
+                  </intro>
+                  <point eId="point_32__point_א__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>שוטר;</p>
+                    </content>
+                  </point>
+                  <point eId="point_32__point_א__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>מפקח שהוא עובד המדינה שנתונות לו סמכויות פיקוח לפי כל דין, וכן פקח שמינה מנהל רשות הטבע והגנים הלאומיים לפי <ref href="/akn/il/act/PrimaryLegislation/1998-04-05/164212#point_58">סעיף 58 לחוק גנים לאומיים, שמורות טבע, אתרים לאומיים ואתרי הנצחה, התשנ"ח–1998</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_32__point_א__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>עובד רשות מקומית שהוסמך עד יום ט"ו בסיוון התש"ף (7 ביוני 2020) לפי <ref href="/akn/il/act/PrimaryLegislation/1985-10-24/151096#point_5">סעיף 5(ב) לחוק העבירות המינהליות</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_32__point_א__point_4">
+                    <num>(4)</num>
+                    <content>
+                      <p>פקח עירוני, לרבות פקח מסייע, שהוסמך לפי <ref href="/akn/il/act/PrimaryLegislation/2011-08-15/409903">חוק לייעול האכיפה והפיקוח העירוניים ברשויות המקומיות (הוראת שעה), התשע"א–2011</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_32__point_א__point_5">
+                    <num>(5)</num>
+                    <content>
+                      <p>עובד רשות מקומית שהוסמך לפי <ref href="/akn/il/act/PrimaryLegislation/1968-08-16/148450#point_28">סעיף 28(א)(2) או (ב)(1) לחוק רישוי עסקים, התשכ"ח–1968</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_32__point_א__point_6">
+                    <num>(6)</num>
+                    <content>
+                      <p>עובד רשות מקומית שהוסמך לפי <ref href="/akn/il/act/PrimaryLegislation/2008-06-11/188181#point_3">סעיף 3(א) לחוק הרשויות המקומיות (אכיפה סביבתית – סמכויות פקחים), התשס"ח–2008</ref>.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_32__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>הגורם המוסמך להטיל קנס מינהלי לפי <ref href="#point_30">תקנה 30(3)</ref> הוא גורם מוסמך כאמור בפסקאות (1) ו־(2) לתקנת משנה (א).</p>
+                </content>
+              </point>
+              <point eId="point_32__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>גורם מוסמך כאמור בפסקאות (3) עד (6) לתקנת משנה (א) לא יפעיל את סמכויותיו כלפי מוסד חינוך בבעלות הרשות המקומית.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_33">
+            <heading>
+              <authorialNote placement="side">
+                <p>סמכויות שוטר</p>
+              </authorialNote>
+            </heading>
+            <num>33.</num>
+            <list>
+              <intro>
+                <p>לשם אכיפת ההוראות לפי <ref href="#point_2">תקנות 2</ref>, <ref href="#point_21">21(א)</ref><ref href="#point_29">ו־29</ref>, יהיו לשוטר סמכויות אלה:</p>
+              </intro>
+              <point eId="point_33__point_1">
+                <num>(1)</num>
+                <content>
+                  <p>להורות לכל אדם לפעול בהתאם לתקנות אלה או להפסיק פעילות בניגוד להן;</p>
+                </content>
+              </point>
+              <point eId="point_33__point_2">
+                <num>(2)</num>
+                <content>
+                  <p>למנוע כניסת אדם למקום אם יש בכך הפרה של התקנות.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_34">
+            <heading>
+              <authorialNote placement="side">
+                <p>אי־גריעה מהוראות המנהל</p>
+              </authorialNote>
+            </heading>
+            <num>34.</num>
+            <content>
+              <p>אין בהוראות תקנות אלה כדי לגרוע מהוראות המנהל ובכלל זה הוראות המנהל לעניין בחינות, ילדי עובדים חיוניים, הזנה והוראות המנהל לעניין עטיית מסכה לפי <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/צו_בריאות_העם_נגיף_הקורונה_החדש_בידוד_בית_והוראות_שונות_הוראת_שעה#point_3ה">סעיף 3ה(ה) לצו בידוד בית</ref> המפורסמות באתר האינטרנט של משרד הבריאות, ובלבד שהוראות המנהל לא יסתרו את הוראות תקנות אלה.</p>
+            </content>
+          </point>
+          <point eId="point_35">
+            <heading>
+              <authorialNote placement="side">
+                <p>ביטול תקנות סמכויות מיוחדות להתמודדות עם נגיף הקורונה החדש (הוראת שעה) (הגבלת פעילות של מוסדות ללימוד חובה)</p>
+              </authorialNote>
+            </heading>
+            <num>35.</num>
+            <content>
+              <p>
+                <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/תקנות_סמכויות_מיוחדות_להתמודדות_עם_נגיף_הקורונה_החדש_הוראת_שעה_הגבלת_פעילות_של_מוסדות_ללימוד_חובה">תקנות סמכויות מיוחדות להתמודדות עם נגיף הקורונה החדש (הוראת שעה) (הגבלת פעילות של מוסדות ללימוד חובה), התש"ף–2020</ref> – בטלות.</p>
+            </content>
+          </point>
+          <point eId="point_36">
+            <heading>
+              <authorialNote placement="side">
+                <p>תחילה</p>
+              </authorialNote>
+            </heading>
+            <num>36.</num>
+            <content>
+              <p>תחילתן של תקנות אלה ביום כ"ח באלול התש"ף (17 בספטמבר 2020).</p>
+            </content>
+          </point>
+          <point eId="point_37">
+            <heading>
+              <authorialNote placement="side">
+                <p>תוקף</p>
+              </authorialNote>
+            </heading>
+            <num>37.</num>
+            <content>
+              <p>תקנות אלה יעמדו בתוקף עד יום ח׳ בשבט התשפ"א (21 בינואר 2021).</p>
+            </content>
+          </point>
+        </list>
+      </chapter>
+      <appendix eId="appendix_ראשונה">
+        <num></num>
+        <title>
+          <content>
+            <p>תוספת ראשונה</p>
+          </content>
+        </title>
+        <subtitle eId="eId">
+          <num></num>
+          <content>
+            <p>
+              <wikicomment font-size="x-small">(<ref href="#point_6">תקנה 6(1), (2), (3),(4)(ג)</ref><ref href="#point_29">ותקנה 29(8)(ב)</ref>)</wikicomment>
+            </p>
+          </content>
+        </subtitle>
+        <list>
+          <point eId="appendix_ראשונה__point_none">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num></num>
+            <content>
+              <p>שם התלמיד/ה: <span style="word-break: break-all;">. . . . . . . . . . . . . . . . . . . . . . . . . . .</span></p>
+            </content>
+          </point>
+          <point eId="appendix_ראשונה__point_none">
+            <content>
+              <p>מס׳ זהות: <span style="word-break: break-all;">. . . . . . . . . . . . . . . . . . . . . . . . . . .</span></p>
+            </content>
+          </point>
+          <point eId="appendix_ראשונה__point_none">
+            <list>
+              <intro>
+                <p>אני מצהיר כלהלן:</p>
+              </intro>
+              <point eId="appendix_ראשונה__point_none__point_1">
+                <num>1.</num>
+                <content>
+                  <p>מדדתי חום לילדי/ילדתי סמוך ליציאתו למוסד או לגוף המקיים פעילות חינוך ונמצא כי חום גופו/ה מתחת ל־38 מעלות צלזיוס.</p>
+                </content>
+              </point>
+              <point eId="appendix_ראשונה__point_none__point_2">
+                <num>2.</num>
+                <content>
+                  <p>ילדי/ילדתי לא משתעל/ת ואין לו/לה קשיים בנשימה, למעט שיעול או קושי בנשימה הנובע ממצב כרוני כגון אסטמה או אלרגיה. לעניין זה נזלת בלבד לא תיחשב תסמין.</p>
+                </content>
+              </point>
+              <point eId="appendix_ראשונה__point_none__point_3">
+                <num>3.</num>
+                <content>
+                  <p>למיטב ידיעתי אין לילדי שינוי בחוש הטעם או בחוש הריח.</p>
+                </content>
+              </point>
+              <point eId="appendix_ראשונה__point_none__point_4">
+                <num>4.</num>
+                <content>
+                  <p>למיטב ידיעתי ילדי/ילדתי לא היה/הייתה במגע הדוק עם חולה קורונה בשבועיים האחרונים.</p>
+                </content>
+              </point>
+              <point eId="appendix_ראשונה__point_none__point_5">
+                <num>5.</num>
+                <content>
+                  <p>למיטב ידיעתי לילדי/ילדתי לא היה חום גוף מעל 38 מעלות צלזיוס ב־48 השעות האחרונות.</p>
+                </content>
+              </point>
+              <point eId="appendix_ראשונה__point_none__point_6">
+                <num>6.</num>
+                <content>
+                  <p>ילדי/ילדתי לא היה/הייתה ב־14 הימים האחרונים במדינה שהחוזרים ממנה מחויבים בבידוד.</p>
+                </content>
+              </point>
+              <wrapup eId="appendix_ראשונה__point_none__wrapup_none">
+                <content>
+                  <p>שם ההורה: <span style="word-break: break-all;">. . . . . . . . . . . . . . . . . . . . . . . . . . . . .</span></p>
+                </content>
+              </wrapup>
+              <wrapup eId="appendix_ראשונה__point_none__wrapup_none">
+                <content>
+                  <p>מס׳ זהות: <span style="word-break: break-all;">. . . . . . . . . . . . . . . . . . . . . . . . . . .</span></p>
+                </content>
+              </wrapup>
+              <wrapup eId="appendix_ראשונה__point_none__wrapup_none">
+                <content>
+                  <p>תאריך: <span style="word-break: break-all;">. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .</span><br space="preserve"></br>חתימה: <span style="word-break: break-all;">. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .</span></p>
+                </content>
+              </wrapup>
+            </list>
+          </point>
+        </list>
+      </appendix>
+      <appendix eId="appendix_שנייה">
+        <num></num>
+        <title>
+          <content>
+            <p>תוספת שנייה</p>
+          </content>
+        </title>
+        <subtitle eId="eId">
+          <num></num>
+          <content>
+            <p>
+              <wikicomment font-size="x-small">(<ref href="#point_6">תקנה 6(4)(א), (5) ו־(6)</ref>)</wikicomment>
+            </p>
+          </content>
+        </subtitle>
+        <list>
+          <point eId="appendix_שנייה__point_none">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num></num>
+            <content>
+              <p>שם מצהיר/ה: <span style="word-break: break-all;">. . . . . . . . . . . . . . . . . . . . . . . . . . . .</span></p>
+            </content>
+          </point>
+          <point eId="appendix_שנייה__point_none">
+            <content>
+              <p>מס׳ זהות: <span style="word-break: break-all;">. . . . . . . . . . . . . . . . . . . . . . . . . . .</span></p>
+            </content>
+          </point>
+          <point eId="appendix_שנייה__point_none">
+            <list>
+              <intro>
+                <p>אני מצהיר כלהלן:</p>
+              </intro>
+              <point eId="appendix_שנייה__point_none__point_1">
+                <num>1.</num>
+                <content>
+                  <p>מדדתי חום בסמוך ליציאתי למוסד או לגוף המקיים פעילות חינוך ונמצא כי חום גופי מתחת ל־38 מעלות צלזיוס.</p>
+                </content>
+              </point>
+              <point eId="appendix_שנייה__point_none__point_2">
+                <num>2.</num>
+                <content>
+                  <p>איני משתעל/ת ואין לי קשיים בנשימה, למעט שיעול או קושי בנשימה הנובע ממצב כרוני כגון אסטמה או אלרגיה. לעניין זה נזלת בלבד לא תיחשב תסמין.</p>
+                </content>
+              </point>
+              <point eId="appendix_שנייה__point_none__point_3">
+                <num>3.</num>
+                <content>
+                  <p>אין לי שינוי בחוש הטעם או בחוש הריח.</p>
+                </content>
+              </point>
+              <point eId="appendix_שנייה__point_none__point_4">
+                <num>4.</num>
+                <content>
+                  <p>למיטב ידיעתי לא הייתי במגע הדוק עם חולה קורונה בשבועיים האחרונים.</p>
+                </content>
+              </point>
+              <point eId="appendix_שנייה__point_none__point_5">
+                <num>5.</num>
+                <content>
+                  <p>למיטב ידיעתי חום גופי לא עלה על 38 מעלות צלזיוס ב־48 השעות האחרונות.</p>
+                </content>
+              </point>
+              <point eId="appendix_שנייה__point_none__point_6">
+                <num>6.</num>
+                <content>
+                  <p>לא הייתי ב־14 הימים האחרונים במדינה שהחוזרים ממנה מחויבים בבידוד.</p>
+                </content>
+              </point>
+              <wrapup eId="appendix_שנייה__point_none__wrapup_none">
+                <content>
+                  <p>תאריך: <span style="word-break: break-all;">. . . . . . . . . . . . . . . . . . . . . . . . . . .</span><br space="preserve"></br>חתימה: <span style="word-break: break-all;">. . . . . . . . . . . . . . . . . . . . . . . . . . .</span></p>
+                </content>
+              </wrapup>
+            </list>
+          </point>
+        </list>
+      </appendix>
+      <appendix eId="appendix_שלישית">
+        <num></num>
+        <title>
+          <content>
+            <p>תוספת שלישית</p>
+          </content>
+        </title>
+        <subtitle eId="eId">
+          <num></num>
+          <content>
+            <p>
+              <wikicomment font-size="x-small">(<ref href="#point_10">תקנות 10(א)(1)</ref><ref href="#point_12">ו־12(ד)</ref>)</wikicomment>
+            </p>
+          </content>
+        </subtitle>
+        <list>
+          <point eId="appendix_שלישית__point_1">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>1.</num>
+            <content>
+              <p>מבנה המוסד, הציוד, המיתקנים והחצר יהיו נקיים.</p>
+            </content>
+          </point>
+          <point eId="appendix_שלישית__point_2">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>2.</num>
+            <content>
+              <p>יש לבצע ניקיון יסודי וחיטוי בכל שטח מוסד בסוף כל יום פעילות.</p>
+            </content>
+          </point>
+          <point eId="appendix_שלישית__point_3">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>3.</num>
+            <content>
+              <p>בלי לגרוע מהאמור <ref href="#appendix_3_פרט_2">בפרט 2</ref>, יש לבצע ניקיון כמה פעמים במהלך היום בחדרי שירותים, בחדר המטבח, במשחקים ובמיתקני חצר ולאחר כל שימוש במקלדות ומסכי מגע.</p>
+            </content>
+          </point>
+          <point eId="appendix_שלישית__point_4">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>4.</num>
+            <list>
+              <intro>
+                <p>יש לבצע חיטוי לכל המפורטים להלן בתדירות שלצדם:</p>
+              </intro>
+              <point eId="appendix_שלישית__point_4__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>כל שטח המוסד – בסוף כל יום;</p>
+                </content>
+              </point>
+              <point eId="appendix_שלישית__point_4__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>משטחים הנמצאים במקומות סגורים (כיתות, אולמות וכיו"ב) שבהם נוגעים בתדירות גבוהה כגון: ידיות, כפתורים ומתגים, מקלדות, מסכי מגע, מעקות, שולחנות, משטחי עבודה, משחקים ומיתקני חצר (מגלשות, נדנדות, מעקות) – בתדירות גבוהה במהלך יום הפעילות.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="appendix_שלישית__point_5">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>5.</num>
+            <list>
+              <intro>
+                <p>החיטוי יתבצע לפי המפורט להלן:</p>
+              </intro>
+              <point eId="appendix_שלישית__point_5__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>חיטוי יתבצע באמצעות חומר חיטוי על בסיס אלכוהול בריכוז של 70% לפחות או באמצעות תמיסת כלור (למשל sodium hypochlorite 0.1%); ניתן להכין תמיסה המורכבת מ־40 מ"ל אקונומיקה ו־1 ליטר מים;</p>
+                </content>
+              </point>
+              <point eId="appendix_שלישית__point_5__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>לפני ביצוע החיטוי יש לנקות את המשטח המיועד לחיטוי. הניקוי יתבצע באמצעות מים וסבון על ידי ניגוב ושפשוף האזור שיש לנקות;</p>
+                </content>
+              </point>
+              <point eId="appendix_שלישית__point_5__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>החיטוי יתבצע על ידי ניגוב המשטחים בחומר החיטוי וייבוש טבעי. אין לבצע חיטוי בדרך של ערפול בחלל או שימוש במערפל ("פוגר").</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="appendix_שלישית__point_6">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>6.</num>
+            <content>
+              <p>יש להציב אמצעים לחיטוי ידיים במקומות נגישים ונראים לעין.</p>
+            </content>
+          </point>
+        </list>
+      </appendix>
+      <appendix eId="appendix_רביעית">
+        <num></num>
+        <title>
+          <content>
+            <p>תוספת רביעית</p>
+          </content>
+        </title>
+        <subtitle eId="eId">
+          <num></num>
+          <content>
+            <p>
+              <wikicomment font-size="x-small">(<ref href="#point_31">תקנה 31(א) ו־(ב)</ref>)</wikicomment>
+            </p>
+          </content>
+        </subtitle>
+        <list>
+          <point eId="appendix_רביעית__point_none">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num></num>
+            <content>
+              <p>
+                <table>
+                  <tr>
+                    <th></th>
+                    <th>
+                      <span style="font-size: smaller; display:block">טור א׳</span>
+                      <br space="preserve"></br> העבירות המינהליות</th>
+                    <th>
+                      <span style="font-size: smaller; display:block">טור ב׳</span>
+                      <br space="preserve"></br> קנס מינהלי קצוב בשקלים חדשים</th>
+                  </tr>
+                  <tr>
+                    <td>(1)</td>
+                    <td>
+                      <ref href="#point_30">30(1), (2)</ref>
+                    </td>
+                    <td>5,000</td>
+                  </tr>
+                  <tr>
+                    <td>(2)</td>
+                    <td>
+                      <ref href="#point_30">30(3)(ב)</ref>
+                    </td>
+                    <td>5,000</td>
+                  </tr>
+                  <tr>
+                    <td>(3)</td>
+                    <td>
+                      <ref href="#point_30">30(3)(ג)</ref>
+                    </td>
+                    <td>1,000</td>
+                  </tr>
+                </table>
+              </p>
+            </content>
+          </point>
+        </list>
+      </appendix>
+      <appendix eId="appendix_חמישית">
+        <num></num>
+        <title>
+          <content>
+            <p>תוספת חמישית</p>
+          </content>
+        </title>
+        <subtitle eId="eId">
+          <num></num>
+          <content>
+            <p>
+              <wikicomment font-size="x-small">(<ref href="#point_2">תקנה 2(ב)(2א7)</ref>)</wikicomment>
+            </p>
+          </content>
+        </subtitle>
+        <list>
+          <point eId="appendix_חמישית__point_none">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num></num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">(<ref href="#appendix_5">תוספת זו</ref> בטלה בתקופת הוראת השעה):</wikicomment>
+                <br space="preserve"></br>
+                <table class="table table-bordered">אבן יהודה <br space="preserve"></br> אופקים <br space="preserve"></br> אור יהודה <br space="preserve"></br> אור עקיבא <br space="preserve"></br> אילת <br space="preserve"></br> אל־קסום <br space="preserve"></br> אלונה <br space="preserve"></br> אליכין <br space="preserve"></br> אשדוד – <span style="font-size: smaller; display:block; display:block; display:block">האזורים המפורטים להלן, בהתאם לתיאור במפה מס׳ 4 המצורפת למטה: רובע י"א ורובע י"ב</span><br space="preserve"></br> אשכול <br space="preserve"></br> אשקלון <br space="preserve"></br> באר טוביה <br space="preserve"></br> באר יעקב <br space="preserve"></br> באר שבע <br space="preserve"></br> בועיינה–נוג׳ידאת <br space="preserve"></br> בית דגן <br space="preserve"></br> בני עי"ש <br space="preserve"></br> בני שמעון <br space="preserve"></br> בנימינה–גבעת עדה <br space="preserve"></br> בענה <br space="preserve"></br> ברטעה <br space="preserve"></br> ברנר <br space="preserve"></br> בת ים <br space="preserve"></br> ג׳דיידה–מכר <br space="preserve"></br> ג׳ולס <br space="preserve"></br> ג׳לג׳וליה <br space="preserve"></br> ג׳ת <br space="preserve"></br> גבעתיים <br space="preserve"></br> גדרות <br space="preserve"></br> גולן <br space="preserve"></br> גזר <br space="preserve"></br> גן רווה <br space="preserve"></br> דימונה <br space="preserve"></br> דרום השרון <br space="preserve"></br> הגלבוע <br space="preserve"></br> הגליל העליון <br space="preserve"></br> הגליל התחתון <br space="preserve"></br> הוד השרון <br space="preserve"></br> הערבה התיכונה <br space="preserve"></br> הרצליה <br space="preserve"></br> זבולון <br space="preserve"></br> זכרון יעקב <br space="preserve"></br> זמר <br space="preserve"></br> חבל אילות <br space="preserve"></br> חבל יבנה <br space="preserve"></br> חבל מודיעין <br space="preserve"></br> חדרה <br space="preserve"></br> חוף אשקלון <br space="preserve"></br> חוף הכרמל <br space="preserve"></br> חוף השרון <br space="preserve"></br> חורה <br space="preserve"></br> חיפה – <span style="font-size: smaller; display:block; display:block; display:block">האזורים המפורטים להלן, בהתאם לתיאור במפה מס׳3 המצורפת למטה: כרמל רמות כרמל</span><br space="preserve"></br> חריש <br space="preserve"></br> טירה <br space="preserve"></br> יבנאל <br space="preserve"></br> יבנה <br space="preserve"></br> יואב <br space="preserve"></br> יסוד המעלה <br space="preserve"></br> ירוחם <br space="preserve"></br> ירושלים – <span style="font-size: smaller; display:block; display:block">האזורים המפורטים להלן, בהתאם לתיאור במפות מס׳1 ו־2 המצורפות למטה: מ.פ שועפאט וענתא סילואן/עיר דוד ואבו תור צור באחר – ג׳בל מוכבר</span><br space="preserve"></br> יתיר <br space="preserve"></br> כוכב יאיר <br space="preserve"></br> כסיפה <br space="preserve"></br> כפר ברא <br space="preserve"></br> כפר ורדים <br space="preserve"></br> כפר יונה <br space="preserve"></br> כפר כמא <br space="preserve"></br> כפר סבא <br space="preserve"></br> כפר שמריהו <br space="preserve"></br> כפר תבור <br space="preserve"></br> כרמי קטיף <br space="preserve"></br> לב השרון <br space="preserve"></br> להבים <br space="preserve"></br> לכיש <br space="preserve"></br> מבואות החרמון <br space="preserve"></br> מגדל <br space="preserve"></br> מגידו <br space="preserve"></br> מזרעה <br space="preserve"></br> מחנה יתיר <br space="preserve"></br> מטה אשר <br space="preserve"></br> מטה יהודה <br space="preserve"></br> מטולה <br space="preserve"></br> מיתר <br space="preserve"></br> מנשה <br space="preserve"></br> מעיליא <br space="preserve"></br> מעלה יוסף <br space="preserve"></br> מעלות–תרשיחא <br space="preserve"></br> מצפה רמון <br space="preserve"></br> מקווה ישראל <br space="preserve"></br> מרום הגליל <br space="preserve"></br> מרחבים <br space="preserve"></br> משגב <br space="preserve"></br> נהריה <br space="preserve"></br> נווה מדבר <br space="preserve"></br> נחל שורק <br space="preserve"></br> נס ציונה <br space="preserve"></br> נתניה <br space="preserve"></br> סביון <br space="preserve"></br> ע׳ג׳ר <br space="preserve"></br> עומר <br space="preserve"></br> עילוט <br space="preserve"></br> עמק הירדן <br space="preserve"></br> עמק המעיינות <br space="preserve"></br> עמק חפר <br space="preserve"></br> עמק יזרעאל <br space="preserve"></br> פוריידיס <br space="preserve"></br> פרדס־חנה–כרכור <br space="preserve"></br> פרדסיה <br space="preserve"></br> פתח תקווה <br space="preserve"></br> קדימה–צורן <br space="preserve"></br> קלנסווה <br space="preserve"></br> קצרין <br space="preserve"></br> קריית אונו <br space="preserve"></br> קריית ביאליק <br space="preserve"></br> קריית טבעון <br space="preserve"></br> קריית ים <br space="preserve"></br> קריית מוצקין <br space="preserve"></br> ראש העין <br space="preserve"></br> ראש פינה <br space="preserve"></br> ראשון לציון <br space="preserve"></br> רחובות <br space="preserve"></br> רמלה <br space="preserve"></br> רמת גן <br space="preserve"></br> רמת השרון <br space="preserve"></br> רמת נגב <br space="preserve"></br> רעננה <br space="preserve"></br> שבלי – אום אל־גנם <br space="preserve"></br> שגב–שלום <br space="preserve"></br> שדות דן <br space="preserve"></br> שדות נגב <br space="preserve"></br> שוהם <br space="preserve"></br> שלומי <br space="preserve"></br> שני <br space="preserve"></br> שער הנגב <br space="preserve"></br> שפיר <br space="preserve"></br> תל־אביב–יפו <br space="preserve"></br> תל מונד <br space="preserve"></br> תמר</table>
+              </p>
+            </content>
+          </point>
+          <point eId="appendix_חמישית__point_none">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num></num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">(המפות הושמטו)</wikicomment>
+              </p>
+            </content>
+          </point>
+        </list>
+      </appendix>
+    </body>
+    <conclusions eId="eId">
+      <p class="signatures">
+        <signature>
+          <p>
+            <person refersTo="בנימין_נתניהו">בנימין נתניהו</person>
+            <role refersTo="ראש_הממשלה">ראש הממשלה</role>
+          </p>
+        </signature>
+      </p>
+    </conclusions>
+  </act>
+</akomaNtoso>

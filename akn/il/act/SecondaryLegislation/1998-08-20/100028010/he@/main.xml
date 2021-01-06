@@ -1,0 +1,1840 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion" name="publicLaw">
+    <meta>
+      <identification source="#kensset">
+        <FRBRWork>
+          <FRBRthis value="/akn/il/act/SecondaryLegislation/1998-08-20/100028010/main" />
+          <FRBRuri value="/akn/il/act/SecondaryLegislation/1998-08-20/100028010" />
+          <FRBRdate date="1998-08-20" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRcountry value="israel" />
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/il/act/SecondaryLegislation/1998-08-20/100028010/he@/main" />
+          <FRBRuri value="/akn/il/act/SecondaryLegislation/1998-08-20/100028010/he@" />
+          <FRBRdate date="1998-08-20" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRlanguage language="hebrew" />
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/il/act/SecondaryLegislation/1998-08-20/100028010/he@/main.xml" />
+          <FRBRuri value="/akn/il/act/SecondaryLegislation/1998-08-20/100028010/he@" />
+          <FRBRdate date="1998-08-20" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRformat value="xml" />
+        </FRBRManifestation>
+      </identification>
+      <classification source="#kensset">
+        <keyword value="{classificationValue}" showAs="{classificationValue}" dictionary="#classification_dictionary" />
+      </classification>
+      <lifecycle source="#kensset">
+        <eventRef eId="eventRef_1" date="1998-08-20" source="#kensset" type="generation" />
+      </lifecycle>
+      <references source="#kensset">
+        <TLCOrganization eId="kensset" href="/ontology/organization/akn/knesset" showAs="Kensset" type="generation" />
+        <TLCRole eId="author" href="/ontology/role/akn/author" showAs="Author of Document" />
+        <TLCProcess eId="inforce" href="/ontology/process/akn/inforce" showAs="In force" />
+        <TLCTerm eId="term_1" href="/ontology/term/אחראי/100028010" showAs="אחראי" />
+        <TLCTerm eId="term_2" href="/ontology/term/ארגון_עובדים_יציג/100028010" showAs="ארגון_עובדים_יציג" />
+        <TLCTerm eId="term_3" href="/ontology/term/גמול_אחר/100028010" showAs="גמול_אחר" />
+        <TLCTerm eId="term_4" href="/ontology/term/הסדר_משמעת/100028010" showAs="הסדר_משמעת" />
+        <TLCTerm eId="term_5" href="/ontology/term/התנכלות/100028010" showAs="התנכלות" />
+        <TLCTerm eId="term_6" href="/ontology/term/ממונה/100028010" showAs="ממונה" />
+        <TLCTerm eId="term_7" href="/ontology/term/מעסיק_קטן/100028010" showAs="מעסיק_קטן" />
+        <TLCTerm eId="term_8" href="/ontology/term/מתלונן/100028010" showAs="מתלונן" />
+        <TLCTerm eId="term_9" href="/ontology/term/נילון/100028010" showAs="נילון" />
+        <TLCTerm eId="term_10" href="/ontology/term/עובד/100028010" showAs="עובד" />
+        <TLCTerm eId="term_11" href="/ontology/term/עניני_עבודה/100028010" showAs="עניני_עבודה" />
+        <TLCTerm eId="term_12" href="/ontology/term/תלונה/100028010" showAs="תלונה" />
+        <TLCTerm eId="term_13" href="/ontology/term/תקנון_לדוגמה/100028010" showAs="תקנון_לדוגמה" />
+        <TLCTerm eId="term_14" href="/ontology/term/סוג_עובדים/100028010" showAs="סוג_עובדים" />
+        <TLCTerm eId="term_15" href="/ontology/term/סגל/100028010" showAs="סגל" />
+        <TLCTerm eId="term_16" href="/ontology/term/חוק_למניעת_הטרדה_מינית,_התשנ''ח/100028010" showAs="חוק_למניעת_הטרדה_מינית,_התשנ''ח" />
+        <TLCTerm eId="term_17" href="/ontology/term/תקנות_למניעת_הטרדה_מינית_(חובות_מעסיק),_התשנ''ח/100028010" showAs="תקנות_למניעת_הטרדה_מינית_(חובות_מעסיק),_התשנ''ח" />
+        <TLCTerm eId="term_18" href="/ontology/term/הוראות_משמעת_של_מקום_העבודה_לעניין_הטרדה_מינית_והתנכלות/100028010" showAs="הוראות_משמעת_של_מקום_העבודה_לעניין_הטרדה_מינית_והתנכלות" />
+        <TLCTerm eId="term_19" href="/ontology/term/המטריד_או_המתנכל_בעצמו/100028010" showAs="המטריד_או_המתנכל_בעצמו" />
+        <TLCTerm eId="term_20" href="/ontology/term/ואם_הוא_טוען_שהמעסיק_אחראי,_גם_המעסיק_(ראו_סעיף_7_לעניין_אחריות_המעסיק)./100028010" showAs="ואם_הוא_טוען_שהמעסיק_אחראי,_גם_המעסיק_(ראו_סעיף_7_לעניין_אחריות_המעסיק)." />
+        <TLCPerson eId="צחי_הנגבי" href="/ontology/person/צחי_הנגבי" showAs="צחי הנגבי" />
+        <TLCPerson eId="אליהו_ישי" href="/ontology/person/אליהו_ישי" showAs="אליהו ישי" />
+        <TLCRole eId="שר_המשפטים" href="ontology/role/akn/שר_המשפטים" showAs="שר המשפטים" />
+        <TLCRole eId="שר_העבודה_והרווחה" href="ontology/role/akn/שר_העבודה_והרווחה" showAs="שר העבודה והרווחה" />
+      </references>
+      <temporalData source="#kensset">
+        <temporalGroup eId="tmpg_1" />
+      </temporalData>
+      <Publication></Publication>
+      <proprietary wikiversion="8/24/2020 12:03:42 PM" />
+    </meta>
+    <body period="#tmpg_1">
+      <title eId="title">
+        <content>
+          <p>תקנות למניעת הטרדה מינית (חובות מעסיק), התשנ"ח–1998</p>
+        </content>
+      </title>
+      <preamble eId="eId">
+        <p>בתוקף סמכותי לפי <ref href="/akn/il/act/PrimaryLegislation/1998-03-19/163378#point_7">סעיפים 7(ד)</ref><ref href="/akn/il/act/PrimaryLegislation/1998-03-19/163378#point_13">ו־13</ref><ref href="/akn/il/act/PrimaryLegislation/1998-03-19/163378">לחוק למניעת הטרדה מינית, התשנ"ח–1998</ref> (להלן – החוק), בהסכמת שר העבודה והרווחה ובאישור הוועדה לקידום מעמד האישה של הכנסת, אני מתקין תקנות אלה:</p>
+      </preamble>
+      <list>
+        <point eId="point_1" class="definitions">
+          <heading>
+            <authorialNote placement="side">
+              <p>הגדרות</p>
+            </authorialNote>
+          </heading>
+          <num>1.</num>
+          <list>
+            <intro>
+              <p>בתקנות אלה –</p>
+            </intro>
+            <point eId="point_1__point_אחראי">
+              <content>
+                <p>
+                  <def />”אחראי“ – מי שמונה לפי <ref href="#point_4">תקנה 4</ref>, בין שהוא עובדו של המעסיק ובין שאינו עובדו;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_ארגון_עובדים_יציג">
+              <content>
+                <p>
+                  <def />”ארגון עובדים יציג“ – ארגון עובדים יציג כמשמעותו <ref href="/akn/il/act/PrimaryLegislation/1957-02-28/147278">בחוק הסכמים קיבוציים, התשי"ז–1957</ref>, ובאין ארגון כאמור במקום העבודה, ארגון כאמור באותו ענף;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_גמול_אחר">
+              <content>
+                <p>
+                  <def />”גמול אחר“ כהגדרתו <ref href="/akn/il/act/PrimaryLegislation/1996-03-21/159646#point_2">בסעיף 2 לחוק שכר שווה לעובדת ולעובד, התשנ"ו–1996</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_הסדר_משמעת">
+              <content>
+                <p>
+                  <def />”הסדר משמעת“ – הוראות בחיקוק, בהסכם קיבוצי או בהסדר קיבוצי, או הוראות החלות מכוח אחד מאלה, הקובעות עבירות משמעת שענישה בצדן;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_התנכלות">
+              <content>
+                <p>
+                  <def />”התנכלות“ – כהגדרתה <ref href="/akn/il/act/PrimaryLegislation/1998-03-19/163378#point_7">בסעיף 7(ו) לחוק</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_ממונה">
+              <content>
+                <p>
+                  <def />”ממונה“ – ממונה מטעם מעסיק אף אם אינו עובדו;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_מעסיק_קטן">
+              <content>
+                <p>
+                  <def />”מעסיק קטן“ – מעסיק המעסיק פחות מעשרה עובדים;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_מתלונן">
+              <content>
+                <p>
+                  <def />”מתלונן“ – אדם הטוען כי הוטרד מינית או כי התנכלו לו, במסגרת יחסי עבודה;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_נילון">
+              <content>
+                <p>
+                  <def />”נילון“ – מי שהמתלונן טוען שביצע את ההטרדה המינית או את ההתנכלות נושא התלונה;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_עובד">
+              <content>
+                <p>
+                  <def />”עובד“ – לרבות עובד של קבלן כוח אדם המועסק אצל המעסיק בפועל;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_עניני_עבודה">
+              <content>
+                <p>
+                  <def />”עניני עבודה“ – קבלה לעבודה, תנאי עבודה, לרבות התנאים הפיסיים והסביבתיים הקשורים למסגרת יחסי עבודה ולרבות שכר או גמול אחר שנותן מעסיק לעובד או עבורו בקשר לעבודתו, קידום בעבודה, הכשרה או השתלמות מקצועית, פיטורים, פיצויי פיטורים וכן הטבות ותשלומים הניתנים לעובד בקשר לפרישה מעבודה;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_תלונה">
+              <content>
+                <p>
+                  <def />”תלונה“ – תלונה בגין הטרדה מינית או התנכלות כלפי אדם במסגרת יחסי עבודה;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_תקנון_לדוגמה">
+              <content>
+                <p>
+                  <def />”תקנון לדוגמה“ – התקנון לדוגמה <ref href="#appendix">שבתוספת</ref>.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_2">
+          <heading>
+            <authorialNote placement="side">
+              <p>אמצעי מנע</p>
+            </authorialNote>
+          </heading>
+          <num>2.</num>
+          <list>
+            <point eId="point_2__point_א">
+              <num>(א)</num>
+              <list>
+                <intro>
+                  <p>מעסיק –</p>
+                </intro>
+                <point eId="point_2__point_א__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>יביא לידיעת כל ממונה ולידיעת כל עובד שלו את האיסור על הטרדה מינית והתנכלות לפי <ref href="/akn/il/act/PrimaryLegislation/1998-03-19/163378">החוק</ref>;</p>
+                  </content>
+                </point>
+                <point eId="point_2__point_א__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>יבהיר לכל ממונה ולכל עובד שלו את חובות המעסיק לפי <ref href="/akn/il/act/PrimaryLegislation/1998-03-19/163378">החוק</ref> ותקנות אלה;</p>
+                  </content>
+                </point>
+                <point eId="point_2__point_א__point_3">
+                  <num>(3)</num>
+                  <content>
+                    <p>ידרוש מכל ממונה ומכל עובד שלו להימנע מהטרדה מינית ומהתנכלות כלפי כל אדם במסגרת יחסי עבודה ולנקוט כל אמצעי למניעת מעשים כאמור.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_2__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>מעסיק המעסיק 25 עובדים או פחות יצא ידי חובת הוראות תקנת משנה (א) אם הביא את התקנון לדוגמה לידיעת כל עובד שלו וכל ממונה, בין בדרך של מסירה ובין בדרך הקבועה <ref href="#point_8">בתקנה 8(3)</ref>.</p>
+              </content>
+            </point>
+            <point eId="point_2__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>מעסיק המעסיק יותר מ־25 עובדים יצא ידי חובת הוראות תקנת משנה (א), אם פעל בהתאם להוראת <ref href="#point_8">תקנה 8(3)</ref>.</p>
+              </content>
+            </point>
+            <point eId="point_2__point_ד">
+              <num>(ד)</num>
+              <content>
+                <p>מעסיק יאפשר לעובדיו להשתתף, במשך שעות העבודה, בפעולות הדרכה והסברה שענינן מניעת הטרדה מינית והתנכלות שמארגן, בתכיפות סבירה, ארגון עובדים יציג, או ארגון כאמור <ref href="/akn/il/act/PrimaryLegislation/1988-03-03/151449#point_12">בסעיף 12(3) לחוק שוויון ההזדמנויות בעבודה, התשמ"ח–1988</ref>, ובלבד שאין בכך כדי לפגוע במהלך התקין של העבודה; תקנת משנה זו לא תחול על מעסיק המארגן פעולות הדרכה והסברה כאמור בעצמו או באמצעות ארגון כאמור.</p>
+              </content>
+            </point>
+            <point eId="point_2__point_ה">
+              <num>(ה)</num>
+              <content>
+                <p>בלי לגרוע מהאמור בתקנת משנה (א), מעסיק יעמיד לעיון ממונה וכן לעיון עובדיו, את הוראות <ref href="/akn/il/act/PrimaryLegislation/1998-03-19/163378">החוק</ref> ותקנות אלה וכן ימסור להם, על פי בקשה, עותק מהוראות אלה.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_3">
+          <heading>
+            <authorialNote placement="side">
+              <p>התאמת הדין המשמעתי</p>
+            </authorialNote>
+          </heading>
+          <num>3.</num>
+          <list>
+            <point eId="point_3__point_א">
+              <num>(א)</num>
+              <list>
+                <intro>
+                  <p>חל אצל מעסיק הסדר משמעת, למעט הסדר משמעת החל מכוח חיקוק, יעשה המעסיק אחד מאלה:</p>
+                </intro>
+                <point eId="point_3__point_א__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>יקבע בהסדר המשמעת כי הטרדה מינית והתנכלות הן עבירות משמעת חמורות ויתאים את הוראות הסדר המשמעת לקביעה כאמור וכן להוראות תקנות אלה; היה תיקון הסדר המשמעת טעון הסכמה של אחר, יפעל המעסיק לקבלת הסכמתו;</p>
+                  </content>
+                </point>
+                <point eId="point_3__point_א__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>יקבע, לענין הטרדה מינית והתנכלות, הוראות בכתב, המקבילות לאלה שבהסדר המשמעת לגבי עבירות משמעת חמורות.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_3__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>לא קיבל מעסיק את הסכמתו של אחר כאמור בתקנת משנה (א)(1) בתוך זמן סביר, יפעל לפי תקנת משנה (א)(2).</p>
+              </content>
+            </point>
+            <point eId="point_3__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>כל עוד לא הותאם הסדר המשמעת על פי הוראות תקנת משנה (א), יפעלו המעסיק והאחראי לפי ההוראות שבהסדר המשמעת שניתן ליישמן לענין הטרדה מינית והתנכלות.</p>
+              </content>
+            </point>
+            <point eId="point_3__point_ד">
+              <num>(ד)</num>
+              <content>
+                <p>חל אצל מעסיק הסדר משמעת מכוח חיקוק, ואין באותו הסדר התייחסות מפורשת להטרדה מינית והתנכלות, יפעל המעסיק לפי תקנת משנה (א)(2).</p>
+              </content>
+            </point>
+            <point eId="point_3__point_ה">
+              <num>(ה)</num>
+              <content>
+                <p>מעסיק יעמיד לעיון ממונה, לעיון עובדיו ולעיון ארגון העובדים היציג את ההוראות לענין הטרדה מינית והתנכלות שבהסדר המשמעת החלות אצלו; כן ימסור המעסיק לממונה, לעובדיו ולארגון העובדים היציג עותק מהוראות אלה, על פי בקשתם.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_4">
+          <heading>
+            <authorialNote placement="side">
+              <p>אחראי ותפקידיו</p>
+            </authorialNote>
+          </heading>
+          <num>4.</num>
+          <list>
+            <point eId="point_4__point_א">
+              <num>(א)</num>
+              <content>
+                <p>מעסיק ימנה אדם מטעמו לאחראי, וימנה יותר מאחראי אחד אם יש צורך בכך, כדי לאפשר גישה נוחה לאחראי, בהתחשב במספר מקומות העבודה ובפיזורם הגאוגרפי.</p>
+              </content>
+            </point>
+            <point eId="point_4__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>מעסיק ימנה לאחראי, ככל שניתן, אדם המתאים למילוי תפקידיו של אחראי, מבחינת כישוריו, ניסיונו ומעמדו המקצועיים, מבחינת יחסי האנוש שלו וכן מבחינת בקיאותו <ref href="/akn/il/act/PrimaryLegislation/1998-03-19/163378">בחוק</ref>, בתקנות אלה ובהוראות התקנון והסדר המשמעת החלים אצלו.</p>
+              </content>
+            </point>
+            <point eId="point_4__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>ככל שניתן, ימנה מעסיק אישה לאחראית; מינה המעסיק יותר מאחראי אחד, ימנה, ככל שניתן, אישה אחת לפחות מבין כל שני אחראים.</p>
+              </content>
+            </point>
+            <point eId="point_4__point_ד">
+              <num>(ד)</num>
+              <content>
+                <p>נבצר מאחראי למלא את תפקידו מכל סיבה שהיא, לרבות מסיבה כאמור <ref href="#point_5">בתקנות 5(ב)</ref><ref href="#point_6">או 6(ב)</ref>, ואין אחראי אחר שיכול למלא את מקומו, ימנה לו המעסיק ממלא מקום.</p>
+              </content>
+            </point>
+            <point eId="point_4__point_ה">
+              <num>(ה)</num>
+              <list>
+                <intro>
+                  <p>תפקידיו של אחראי הם:</p>
+                </intro>
+                <point eId="point_4__point_ה__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>קבלת תלונות;</p>
+                  </content>
+                </point>
+                <point eId="point_4__point_ה__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>קיום בירור לשם מתן המלצות למעסיק בדבר הטיפול במקרה של הטרדה מינית או התנכלות במסגרת יחסי עבודה;</p>
+                  </content>
+                </point>
+                <point eId="point_4__point_ה__point_3">
+                  <num>(3)</num>
+                  <content>
+                    <p>מתן ייעוץ, מידע והדרכה לעובדים הפונים אליו.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_4__point_ו">
+              <num>(ו)</num>
+              <content>
+                <p>היה אחראי עובדו של המעסיק, ייכללו תפקידיו כאחראי בתפקידו אצל המעסיק.</p>
+              </content>
+            </point>
+            <point eId="point_4__point_ז">
+              <num>(ז)</num>
+              <content>
+                <p>מעסיק יביא לידיעת כל עובד את שם האחראי ואת הפרטים הדרושים לשם פניה אליו; כן יקל המעסיק על הגישה לאחראי וייתן לו את התנאים הדרושים למילוי תפקידו.</p>
+              </content>
+            </point>
+            <point eId="point_4__point_ח">
+              <num>(ח)</num>
+              <content>
+                <p>על אף האמור בתקנה זו, רשאי מעסיק קטן לקבוע את עצמו כאחראי; קבע מעסיק כאמור, יחולו עליו הוראות תקנות אלה לענין אחראי, בשינויים המחויבים.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_5">
+          <heading>
+            <authorialNote placement="side">
+              <p>דרך הגשת תלונה</p>
+            </authorialNote>
+          </heading>
+          <num>5.</num>
+          <list>
+            <point eId="point_5__point_א">
+              <num>(א)</num>
+              <content>
+                <p>תלונה תוגש לידי אחראי, על ידי המתלונן בעצמו או על ידי אדם אחר מטעמו, ויכול שתוגש בכתב או בעל פה.</p>
+              </content>
+            </point>
+            <point eId="point_5__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>היה האחראי הנילון עצמו, או שהוא בעל נגיעה אישית לנושא התלונה או למעורבים בה, תוגש התלונה לאחראי אחר או לממלא מקומו של האחראי שהתמנה לפי <ref href="#point_4">תקנה 4(ד)</ref>, ובהעדרם – למעסיק; הוגשה התלונה למעסיק כאמור, יחולו על המעסיק הוראות תקנה זו <ref href="#point_6">ותקנה 6</ref> לענין אחראי, בשינויים המחויבים.</p>
+              </content>
+            </point>
+            <point eId="point_5__point_ג">
+              <num>(ג)</num>
+              <list>
+                <intro>
+                  <p>היה הנילון עובד של קבלן כוח אדם המועסק בפועל אצל המעסיק –</p>
+                </intro>
+                <point eId="point_5__point_ג__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>תוגש התלונה לאחראי מטעם קבלן כוח האדם או לאחראי מטעם המעסיק;</p>
+                  </content>
+                </point>
+                <point eId="point_5__point_ג__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>הוגשה תלונה לאחראי מטעם קבלן כוח האדם, רשאי אותו אחראי להעביר את הטיפול בבירור התלונה לאחראי מטעם המעסיק; עשה כן האחראי מטעם קבלן כוח האדם, יודיע על כך בכתב למתלונן.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_5__point_ד">
+              <num>(ד)</num>
+              <content>
+                <p>הוגשה תלונה בעל פה, ירשום האחראי את תוכנה, המתלונן או מי שמגיש את התלונה מטעמו יחתום על הרישום כדי לאשר את תוכנו, והאחראי ימסור לו העתק מהרישום החתום.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_6">
+          <heading>
+            <authorialNote placement="side">
+              <p>בירור תלונה או מקרה</p>
+            </authorialNote>
+          </heading>
+          <num>6.</num>
+          <list>
+            <point eId="point_6__point_א">
+              <num>(א)</num>
+              <list>
+                <intro>
+                  <p>התקבלה תלונה, האחראי –</p>
+                </intro>
+                <point eId="point_6__point_א__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>יידע את המתלונן באשר לדרכי הטיפול בהטרדה מינית או בהתנכלות לפי <ref href="/akn/il/act/PrimaryLegislation/1998-03-19/163378">החוק</ref>;</p>
+                  </content>
+                </point>
+                <point eId="point_6__point_א__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>יפעל לבירור התלונה, ולצורך כך, בין היתר, ישמע את המתלונן, את הנילון ועדים, אם ישנם, ויבדוק כל מידע שהגיע אליו בענין התלונה.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_6__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>אחראי לא יטפל בבירור תלונה אם הוא בעל נגיעה אישית לנושא התלונה או למעורבים בה.</p>
+              </content>
+            </point>
+            <point eId="point_6__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>אחראי כאמור בתקנת משנה (ב) יעביר את הבירור לאחראי אחר או לממלא מקומו שהתמנה לפי <ref href="#point_4">תקנה 4(ד)</ref> ובהיעדר אחד מאלה – למעסיק; העביר האחראי את הבירור למעסיק כאמור, יחולו הוראות תקנה זו לענין אחראי על המעסיק בשינויים המחויבים.</p>
+              </content>
+            </point>
+            <point eId="point_6__point_ד">
+              <num>(ד)</num>
+              <content>
+                <p>בירור תלונה ייעשה ביעילות ובלא דיחוי.</p>
+              </content>
+            </point>
+            <point eId="point_6__point_ה">
+              <num>(ה)</num>
+              <content>
+                <p>בירור תלונה ייעשה תוך הגנה מרבית על כבודם ופרטיותם של המתלונן, הנילון ועדים אחרים, ובין היתר, לא יגלה אחראי מידע שהגיע אליו במהלך בירור התלונה אלא אם כן הוא חייב לעשות כן לשם הבירור עצמו או על פי דין.</p>
+              </content>
+            </point>
+            <point eId="point_6__point_ו">
+              <num>(ו)</num>
+              <content>
+                <p>מעסיק יגן על המתלונן, במהלך בירור התלונה, מפני פגיעה בעניני עבודה כתוצאה מהגשת התלונה או מפני פגיעה אחרת במסגרת יחסי עבודה שיש בה כדי לשבש את בירור התלונה; בין היתר, יפעל המעסיק להרחקת הנילון מהמתלונן, ככל שניתן וככל שנראה לו נכון בנסיבות הענין.</p>
+              </content>
+            </point>
+            <point eId="point_6__point_ז">
+              <num>(ז)</num>
+              <content>
+                <p>בתום בירור התלונה יגיש האחראי למעסיק, ללא דיחוי, סיכום בכתב של בירור התלונה בליווי המלצותיו המנומקות לגבי המשך הטיפול בה, לרבות לענין כל אחד מהעניינים המפורטים <ref href="#point_7">בתקנה 7(א) ו־(ד)</ref>.</p>
+              </content>
+            </point>
+            <point eId="point_6__point_ח">
+              <num>(ח)</num>
+              <content>
+                <p>היה הנילון עובד של קבלן כוח אדם המועסק בפועל אצל המעסיק, יגיש האחראי את סיכומו לקבלן כוח האדם ולמעסיק.</p>
+              </content>
+            </point>
+            <point eId="point_6__point_ט">
+              <num>(ט)</num>
+              <content>
+                <p>נודע למעסיק על מקרה של הטרדה מינית או התנכלות במסגרת יחסי עבודה, ולא הוגשה תלונה או שהמתלונן חזר בו מתלונתו, יעביר את המקרה לבירור של אחראי; הועבר מקרה כאמור לבירור של אחראי או נודע לאחראי על מקרה כאמור, יקיים האחראי, ככל שניתן, בירור על אודות המקרה לפי תקנה זו, בשינויים המחויבים, ואם המתלונן חזר בו מתלונתו, יברר גם את סיבת החזרה מהתלונה.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_7">
+          <heading>
+            <authorialNote placement="side">
+              <p>טיפול במקרה של הטרדה או התנכלות</p>
+            </authorialNote>
+          </heading>
+          <num>7.</num>
+          <list>
+            <point eId="point_7__point_א">
+              <num>(א)</num>
+              <list>
+                <intro>
+                  <p>קיבל מעסיק את סיכומו והמלצותיו של האחראי לפי <ref href="#point_6">תקנה 6(ז)</ref>, יחליט, בלא דיחוי ובתוך תקופה שלא תעלה על 7 ימי עבודה, על הפעלת הסמכויות שבידיו לגבי כל אחד מאלה:</p>
+                </intro>
+                <point eId="point_7__point_א__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>מתן הוראות לעובדים המעורבים במקרה, לרבות בדבר כללי התנהגות ראויים במסגרת יחסי עבודה והרחקת הנילון מהמתלונן, וכן נקיטת צעדים בעניני עבודה, והכל כדי למנוע את הישנות המעשה של הטרדה מינית או התנכלות, או כדי לתקן את הפגיעה שנגרמה למתלונן עקב ההטרדה או ההתנכלות;</p>
+                  </content>
+                </point>
+                <point eId="point_7__point_א__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>פתיחה בהליכים משמעתיים לפי הוראות הסדר משמעת החלות אצל המעסיק לענין הטרדה מינית או התנכלות;</p>
+                  </content>
+                </point>
+                <point eId="point_7__point_א__point_3">
+                  <num>(3)</num>
+                  <content>
+                    <p>אי נקיטת צעד כלשהו.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_7__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>המעסיק יפעל בלא דיחוי לביצוע החלטתו לפי תקנת משנה (א) וימסור הודעה מנומקת בכתב על החלטתו למתלונן, לנילון ולאחראי; כן יאפשר המעסיק למתלונן ולנילון לעיין בסיכום האחראי ובהמלצותיו.</p>
+              </content>
+            </point>
+            <point eId="point_7__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>המעסיק רשאי, עקב שינוי בנסיבות, לשנות את החלטתו לפי תקנת משנה (א) או לעכב את ביצועה וימסור הודעה מנומקת בכתב על כך למתלונן, לנילון ולאחראי.</p>
+              </content>
+            </point>
+            <point eId="point_7__point_ד">
+              <num>(ד)</num>
+              <list>
+                <intro>
+                  <p>על אף האמור בתקנה זו, רשאי מעסיק לדחות את החלטתו, לעכב את ביצועה או לשנותה, בשל הליכים משמעתיים או משפטיים הנוגעים למקרה נושא ההחלטה; עשה כן המעסיק –</p>
+                </intro>
+                <point eId="point_7__point_ד__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>ימסור הודעה מנומקת בכתב על כך למתלונן, לנילון ולאחראי;</p>
+                  </content>
+                </point>
+                <point eId="point_7__point_ד__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>כל עוד לא הסתיימו ההליכים כאמור, יפעל המעסיק לפי הוראות <ref href="#point_6">תקנה 6(ו)</ref>;</p>
+                  </content>
+                </point>
+                <point eId="point_7__point_ד__point_3">
+                  <num>(3)</num>
+                  <content>
+                    <p>בתום ההליכים יקבל המעסיק החלטה לפי תקנת משנה (א).</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_7__point_ה">
+              <num>(ה)</num>
+              <content>
+                <p>היה הנילון עובד של קבלן כוח אדם המועסק בפועל אצל המעסיק, רשאים המעסיק וקבלן כוח האדם להסכים מי ביניהם יבצע את הוראות תקנה זו, כולן או חלקן.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_8">
+          <heading>
+            <authorialNote placement="side">
+              <p>תקנון מותאם</p>
+            </authorialNote>
+          </heading>
+          <num>8.</num>
+          <list>
+            <intro>
+              <p>מעסיק המעסיק יותר מ־25 עובדים –</p>
+            </intro>
+            <point eId="point_8__point_1">
+              <num>(1)</num>
+              <content>
+                <p>יערוך בתקנון לדוגמה את ההתאמות הנדרשות, לרבות התאמה הנובעת מהיקף פעילותו של המעסיק כמעסיק, מסוג פעילותו כאמור, ממספר עובדיו, משפתם, מהרכב כוח האדם ומכל תכונה אחרת המייחדת אותו כמעסיק;</p>
+              </content>
+            </point>
+            <point eId="point_8__point_2">
+              <num>(2)</num>
+              <content>
+                <p>חלות אצלו הוראות הסדר משמעת כאמור <ref href="#point_3">בתקנה 3</ref>, יתאים את התקנון לדוגמה על ידי פירוט בו של הוראות כאמור;</p>
+              </content>
+            </point>
+            <point eId="point_8__point_3">
+              <num>(3)</num>
+              <content>
+                <p>יפרסם את התקנון המותאם לפי פסקאות (1) או (2) (להלן – התקנון המותאם) במקום בולט לעין שבשליטתו, ובמקרה הצורך יפרסם את התקנון המותאם ביותר ממקום אחד כאמור;</p>
+              </content>
+            </point>
+            <point eId="point_8__point_4">
+              <num>(4)</num>
+              <content>
+                <p>ימסור עותק מהתקנון המותאם לממונה מטעמו שאינו עובדו ולארגון העובדים היציג, וכן לכל עובד שביקש זאת.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_9">
+          <heading>
+            <authorialNote placement="side">
+              <p>תחולה על מוסדות להשכלה עיונית או מקצועית ועל כוחות הבטחון</p>
+            </authorialNote>
+          </heading>
+          <num>9.</num>
+          <list>
+            <point eId="point_9__point_א">
+              <num>(א)</num>
+              <content>
+                <p>תקנות אלה יחולו, בשינויים המחויבים לפי הענין, על מוסדות המקנים השכלה עיונית או מקצועית לבוגרים ועל התלמידים והסטודנטים הלומדים בהם, ולענין זה יראו את תנאי הלימודים והתנאים הנלווים להם כאילו היו עניני עבודה.</p>
+              </content>
+            </point>
+            <point eId="point_9__point_א1">
+              <num>(א1)</num>
+              <list>
+                <intro>
+                  <p>על מוסד מהמוסדות האמורים בתקנת משנה (א) יחולו, נוסף על הוראות תקנות אלה, ההוראות המפורטות להלן:</p>
+                </intro>
+                <point eId="point_9__point_א1__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>המוסד יבטיח את קיומן של פעולות הדרכה והסברה שעניינן מניעת הטרדה מינית והתנכלות אחת לשנה לפחות; פעולות כאמור יכול שייעשו באמצעי טכנולוגי כגון לומדה ממוחשבת;</p>
+                  </content>
+                </point>
+                <point eId="point_9__point_א1__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>המוסד יביא לידיעת כל תלמיד, סטודנט ועובד חדשים את הוראות <ref href="/akn/il/act/PrimaryLegislation/1998-03-19/163378">החוק</ref>, התקנות והתקנון וכן מידע לגבי אופן הגשת התלונה בגין הטרדה מינית או התנכלות ושירותי סיוע לעניין הטרדה מינית והתנכלות;</p>
+                  </content>
+                </point>
+                <point eId="point_9__point_א1__point_3">
+                  <num>(3)</num>
+                  <list>
+                    <intro>
+                      <p>בלי לגרוע מהאמור <ref href="#point_4">בתקנה 4</ref>, במוסד שבו מעל אלפיים לומדים בשנת לימודים, ימונו שני אחראים לפחות שיימנו על סוג שונה של עובדים; לעניין זה –</p>
+                    </intro>
+                    <point eId="point_9__point_א1__point_3__point_סוג_עובדים">
+                      <content>
+                        <p>
+                          <def />”סוג עובדים“ – כל אחד מאלה: סגל אקדמי, סגל מינהלי, וכן תלמידים וסטודנטים מהמוסד;</p>
+                      </content>
+                    </point>
+                    <point eId="point_9__point_א1__point_3__point_סגל">
+                      <content>
+                        <p>
+                          <def />”סגל“ – לרבות סגל שפרש לגמלאות;</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+                <point eId="point_9__point_א1__point_4">
+                  <num>(4)</num>
+                  <content>
+                    <p>אחראי במוסד שמונה לפי <ref href="#point_4">תקנה 4</ref> או לפי תקנה זו, יעבור בסמוך למינויו השתלמות בהיקף שלא יפחת מ־18 שעות, שתעסוק בין השאר במהות התפקיד, הכרת <ref href="/akn/il/act/PrimaryLegislation/1998-03-19/163378">החוק למניעת הטרדה מינית</ref>, דרכי מניעה ואופן הטיפול בתלונות;</p>
+                  </content>
+                </point>
+                <point eId="point_9__point_א1__point_5">
+                  <num>(5)</num>
+                  <list>
+                    <intro>
+                      <p>מוסד כהגדרתו <ref href="/akn/il/act/PrimaryLegislation/2007-06-07/142524">בחוק זכויות הסטודנט, התשס"ז–2007</ref> (להלן – ההגדרה), יגיש אחת לשנה לרשות לקידום מעמד האישה ולוועדה לקידום מעמד האישה ולשוויון מגדרי בכנסת, דין וחשבון ובו פירוט לגבי הפעולות השונות שנקט המוסד למניעת הטרדה מינית בתחומו וכן מספר התלונות שהוגשו לאחראי במוסד ואופן הטיפול בהן; בדין וחשבון האמור לא ייכללו פרטי מידע שיאפשרו את זיהוי המתלונן, הנילון ואנשים אחרים המעורבים בתלונה; מוסד המנוי בפסקאות של ההגדרה המפורטות להלן, לרבות מכינה אקדמית הפועלת במסגרתו, יעביר העתק של הדין וחשבון גם לגוף המנוי לצדו:</p>
+                    </intro>
+                    <point eId="point_9__point_א1__point_5__point_1">
+                      <num>(1)</num>
+                      <content>
+                        <p>פסקאות (1) עד (4) – למועצה להשכלה גבוהה;</p>
+                      </content>
+                    </point>
+                    <point eId="point_9__point_א1__point_5__point_2">
+                      <num>(2)</num>
+                      <content>
+                        <p>פסקה (5) – למשרד הכלכלה;</p>
+                      </content>
+                    </point>
+                    <point eId="point_9__point_א1__point_5__point_3">
+                      <num>(3)</num>
+                      <content>
+                        <p>פסקה (6) – למשרד החינוך;</p>
+                      </content>
+                    </point>
+                    <point eId="point_9__point_א1__point_5__point_4">
+                      <num>(4)</num>
+                      <content>
+                        <p>פסקה (8) – למשרד התרבות והספורט.</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+              </list>
+            </point>
+            <point eId="point_9__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>תקנות אלה יחולו על כוחות הבטחון ועל המשרתים והעובדים בהם, בשינויים המחויבים לפי הענין, לרבות השינויים המחויבים בשל קיומם של הליכים משמעתיים ומשפטיים ייחודיים למשרתים ולעובדים בכוחות הבטחון.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_10">
+          <heading>
+            <authorialNote placement="side">
+              <p>תחילה</p>
+            </authorialNote>
+          </heading>
+          <num>10.</num>
+          <content>
+            <p>תחילתן של תקנות אלה בתום חודש מיום פרסומן.</p>
+          </content>
+        </point>
+        <point eId="point_11">
+          <heading>
+            <authorialNote placement="side">
+              <p>הוראת מעבר</p>
+            </authorialNote>
+          </heading>
+          <num>11.</num>
+          <content>
+            <p>בתקופה שמיום תחילתן של תקנות אלה עד תום מאה ועשרים ימים ממנו, יצא מעסיק ידי חובתו לפי <ref href="#point_3">תקנה 3(ד)</ref> אם פעל לפי <ref href="#point_3">תקנה 3(ג)</ref>, בשינויים המחויבים.</p>
+          </content>
+        </point>
+      </list>
+      <appendix eId="appendix">
+        <num></num>
+        <title>
+          <content>
+            <p>תוספת</p>
+          </content>
+        </title>
+        <subtitle eId="eId">
+          <num></num>
+          <content>
+            <p>
+              <wikicomment font-size="x-small">(הגדרה ”תקנון לדוגמה“ <ref href="#point_1">שבתקנה 1</ref>)</wikicomment>
+            </p>
+          </content>
+        </subtitle>
+        <subtitle eId="eId">
+          <num></num>
+          <content>
+            <p>תקנון לדוגמה לפי <ref href="/akn/il/act/PrimaryLegislation/1998-03-19/163378#point_7">סעיף 7(ד)(2) לחוק למניעת הטרדה מינית, התשנ"ח–1998</ref></p>
+          </content>
+        </subtitle>
+        <list>
+          <point eId="appendix__point_none">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num></num>
+            <content>
+              <p>הטרדה מינית והתנכלות על רקע מיני פוגעות בכבוד האדם, בחירותו, בפרטיותו, ובשוויון בין המינים; אלה גם מעשים פליליים ועילה לתביעה בנזיקין, החל בכניסתו לתוקף של <ref href="/akn/il/act/PrimaryLegislation/1998-03-19/163378">חוק למניעת הטרדה מינית, התשנ"ח–1998</ref> (להלן – החוק), ביום כ"ט באלול התשנ"ח (20 בספטמבר 1998).</p>
+            </content>
+          </point>
+          <point eId="appendix__point_none">
+            <content>
+              <p>הטרדה מינית והתנכלות פוגעות ביחסי העבודה, ועומדות בניגוד למדיניות המעסיק, והוא לא ישלים עמן.</p>
+            </content>
+          </point>
+          <point eId="appendix__point_none">
+            <content>
+              <p>תקנון זה נועד להבהיר את עיקרי הוראות <ref href="/akn/il/act/PrimaryLegislation/1998-03-19/163378">החוק</ref> ותקנות למניעת הטרדה מינית (חובות מעסיק), התשנ"ח–1998 (להלן – התקנות); במקרה של סתירה בין תקנון זה לבין <ref href="/akn/il/act/PrimaryLegislation/1998-03-19/163378">החוק</ref> והתקנות על פיו, <ref href="/akn/il/act/PrimaryLegislation/1998-03-19/163378">החוק</ref> והתקנות הם הקובעים, וניתן לעיין בהם, כאמור <ref href="#appendix_פרט_10">בסעיף 10 לתקנון זה</ref>.</p>
+            </content>
+          </point>
+          <point eId="appendix__point_none">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num></num>
+            <content>
+              <p>מה יש בתקנון זה?
+<table><tr><th>חלק</th><th>סעיפים</th><th></th></tr><tr><td><ref href="#appendix_part_א">א׳</ref></td><td><ref href="#appendix_פרט_1">1 עד 3</ref></td><td>מהן הטרדה מינית והתנכלות (ו"מסגרת יחסי עבודה")</td></tr><tr><td><ref href="#appendix_part_ב">ב׳</ref></td><td><ref href="#appendix_פרט_4">4 עד 5</ref></td><td>התוצאות של הטרדה מינית והתנכלות (עבירה פלילית, עילה לתביעה בנזיקין)</td></tr><tr><td><ref href="#appendix_part_ג">ג׳</ref></td><td><ref href="#appendix_פרט_6">6 עד 10</ref></td><td>מדיניות המעסיק ואחריותו למניעת הטרדה מינית והתנכלות</td></tr><tr><td><ref href="#appendix_part_ד">ד׳</ref></td><td><ref href="#appendix_פרט_11">11</ref></td><td>מה לעשות אם הוטרדת מינית או אם התנכלו לך</td></tr><tr><td><ref href="#appendix_part_ה">ה׳</ref></td><td><ref href="#appendix_פרט_12">12 עד 16</ref></td><td>הליך תלונה אצל מעסיק וטיפול באחריות מעסיק</td></tr><tr><td><ref href="#appendix_part_ו">ו׳</ref></td><td><ref href="#appendix_פרט_17">17 עד 20</ref></td><td>שונות: עובד קבלן כוח אדם המועסק אצל אדם אחר (<ref href="#appendix_פרט_17">סעיף 17</ref>); <br space="preserve"></br> מעסיק המעסיק 25 עובדים או פחות (<ref href="#appendix_פרט_18">סעיף 18</ref>); <br space="preserve"></br> מינוי אחראי אצל מעסיק המעסיק פחות מעשרה עובדים (<ref href="#appendix_פרט_19">סעיף 19</ref>); <br space="preserve"></br> עיקר ההוראות המשמעתיות לעניין הטרדה מינית והתנכלות (<ref href="#appendix_פרט_20">סעיף 20</ref>).</td></tr></table></p>
+            </content>
+          </point>
+        </list>
+        <part eId="part_א">
+          <num>חלק א׳:</num>
+          <title>
+            <content>
+              <p>מהן הטרדה מינית והתנכלות?</p>
+            </content>
+          </title>
+          <list>
+            <point eId="appendix__point_1">
+              <heading>
+                <authorialNote placement="side">
+                  <p xml:space="preserve"> </p>
+                </authorialNote>
+              </heading>
+              <num>1.</num>
+              <list>
+                <intro>
+                  <p>מהי הטרדה מינית?</p>
+                </intro>
+                <point eId="appendix__point_1__point_א">
+                  <num>(א)</num>
+                  <content>
+                    <p>אם כי ברוב מקרי ההטרדה המינית גבר הטריד אישה, גם גברים וגם נשים עלולים להטריד מינית וההטרדה יכולה להיות כלפי נשים או גברים; <ref href="/akn/il/act/PrimaryLegislation/1998-03-19/163378">החוק</ref> מכסה את כל האפשרויות האלה.</p>
+                  </content>
+                </point>
+                <point eId="appendix__point_1__point_ב">
+                  <num>(ב)</num>
+                  <list>
+                    <intro>
+                      <p>לפי <ref href="/akn/il/act/PrimaryLegislation/1998-03-19/163378">החוק למניעת הטרדה מינית, התשנ"ח–1998</ref>, הטרדה מינית היא אחת משש צורות התנהגות אסורות, ואלה הן<span style="bottomcomment">לפי <ref href="/akn/il/act/PrimaryLegislation/1998-03-19/163378#point_7">סעיף 7(ה) לחוק</ref>, מעסיק שחלה עליו חובת פרסום תקנון (מעסיק שמעסיק יותר מ־25 עובדים) חייב לערוך בתקנון לדוגמה את ה”התאמות הנדרשות“ <ref href="#point_8">ובתקנה 8 לתקנות</ref> קובעת את ההתאמות שמעסיק חייב לערוך בתקנון לדוגמה; יודגש כי ההגדרות ”הטרדה מינית“, ”התנכלות“ ו”מסגרת יחסי עבודה“ המופיעות בתקנון לדוגמה מובאות <ref href="/akn/il/act/PrimaryLegislation/1998-03-19/163378">מהחוק</ref>, ולכן אין מקום לערוך בהגדרות אלה ”התאמות“ כל שהן; הדוגמאות, לעומת זאת, אינן מצויות <ref href="/akn/il/act/PrimaryLegislation/1998-03-19/163378">בחוק</ref>, ולכן ניתן להתאים אותן להקשר המיוחד של כל מעסיק ועובדיו.</span>:</p>
+                    </intro>
+                    <point eId="appendix__point_1__point_ב__point_1">
+                      <num>(1)</num>
+                      <list>
+                        <point eId="appendix__point_1__point_ב__point_1__point_none">
+                          <content>
+                            <p>סחיטת אדם באיומים לביצוע מעשה בעל אופי מיני;</p>
+                          </content>
+                        </point>
+                        <point eId="appendix__point_1__point_ב__point_1__point_none">
+                          <content>
+                            <p>לדוגמה: מעסיק המאיים לפטר עובדת אם היא תסרב לקיים אתו יחסי מין;</p>
+                          </content>
+                        </point>
+                      </list>
+                    </point>
+                    <point eId="appendix__point_1__point_ב__point_2">
+                      <num>(2)</num>
+                      <list>
+                        <point eId="appendix__point_1__point_ב__point_2__point_none">
+                          <content>
+                            <p>מעשה מגונה;</p>
+                          </content>
+                        </point>
+                        <point eId="appendix__point_1__point_ב__point_2__point_none">
+                          <content>
+                            <p>לדוגמה: עובד או ממונה הנוגע בעובדת לשם גירוי מיני או החושף את עצמו לפניה, בלא הסכמתה או ממונה המבצע מעשים מעין אלה בכפופה לו תוך ניצול מרות ביחסי העבודה;</p>
+                          </content>
+                        </point>
+                      </list>
+                    </point>
+                    <point eId="appendix__point_1__point_ב__point_3">
+                      <num>(3)</num>
+                      <content>
+                        <p>הצעות חוזרות בעלות אופי מיני אף שהאדם שאליו מופנות ההצעות הראה למטריד שאינו מעוניין בהן; ואולם אין צורך להראות ”חוסר עניין“ במקרים המפורטים בסעיף קטן (ג) כדי שהתנהגות זו תיחשב הטרדה מינית;</p>
+                      </content>
+                    </point>
+                    <point eId="appendix__point_1__point_ב__point_4">
+                      <num>(4)</num>
+                      <content>
+                        <p>התייחסויות חוזרת המתמקדת במינו או במיניותו של אדם, אף שהאדם שאליו מופנית ההתנהגות הראה שאינו מעוניין בה; לדוגמה: התנהגות חוזרת הנוגעת לפן המיני במראהו של אדם, למרות הבהרותיו שהדבר מפריע לו; ואולם אין צורך להראות ”חוסר עניין“ במקרים המפורטים בסעיף קטן (ג) כדי שהתנהגות זו תיחשב הטרדה מינית;</p>
+                      </content>
+                    </point>
+                    <point eId="appendix__point_1__point_ב__point_5">
+                      <num>(5)</num>
+                      <content>
+                        <p>התייחסות מבזה או משפילה כלפי מינו או מיניותו של אדם, לרבות לנטייתו המינית של אדם, בין אם הוא הראה שהדבר מפריע לו ובין אם לאו;</p>
+                      </content>
+                    </point>
+                    <point eId="appendix__point_1__point_ב__point_6">
+                      <num>(6)</num>
+                      <list>
+                        <intro>
+                          <p>פרסום תצלום, סרט או הקלטה של אדם המתמקד במיניותו, בנסיבות שבהן הפרסום עלול להשפיל את האדם או לבזותו, ולא ניתנה הסכמתו לפרסום; ואולם בהליך פלילי או אזרחי לפי פסקה זו, תהיה זו הגנה טובה למפרסם אם הראה כי הפרסום נעשה בתום לב או למטרה כשרה או פרסום אמת שיש בו עניין ציבורי ולא חרג מתחום הסביר לשם השגת מטרתו;</p>
+                        </intro>
+                        <point eId="appendix__point_1__point_ב__point_6__point_none">
+                          <content>
+                            <p>לעניין זה יובהר כי ”תצלום, סרט או הקלטה“ – כוללים גם עריכה או שילוב של תצלום, סרט או הקלטה באופן שניתן לזהות את האדם;</p>
+                          </content>
+                        </point>
+                      </list>
+                    </point>
+                    <point eId="appendix__point_1__point_ב__point_none">
+                      <list>
+                        <intro>
+                          <p>לדוגמה:</p>
+                        </intro>
+                        <point eId="appendix__point_1__point_ב__point_none__point_א">
+                          <num>(א)</num>
+                          <content>
+                            <p>הפצת סרטון באתרים פתוחים לציבור באינטרנט המתעד קיום יחסי מין, וזאת בלא הסכמת כל המתועדים בסרטון, ובמצב שבו ההגנות שפורטו לא מתקיימות;</p>
+                          </content>
+                        </point>
+                        <point eId="appendix__point_1__point_ב__point_none__point_ב">
+                          <num>(ב)</num>
+                          <content>
+                            <p>פרסום עריכה גרפית שבה מופיע ראש של אדם מזוהה בשילוב עם תמונת עירום כלשהי בלא הסכמתו של האדם המזוהה באופן שעלול להשפילו או לבזותו, ובמצב שבו ההגנות שפורטו לא מתקיימות;</p>
+                          </content>
+                        </point>
+                      </list>
+                    </point>
+                  </list>
+                </point>
+                <point eId="appendix__point_1__point_ג">
+                  <num>(ג)</num>
+                  <list>
+                    <intro>
+                      <p>אם המעשים המנויים בסעיף קטן (ב)(3) ו־(4): הצעות חוזרות בעלות אופי מיני והתייחסויות חוזרות המתמקדות במינו או במיניותו של אדם, מופנים כלפי מי שמנוי בפסקאות שלהלן, מעשים אלה מהווים הטרדה מינית גם בלי שאותו אדם הראה שאינו מעוניין:</p>
+                    </intro>
+                    <point eId="appendix__point_1__point_ג__point_1">
+                      <num>(1)</num>
+                      <content>
+                        <p>לקטין או לחסר ישע – תוך ניצול יחסי מרות, תלות, חינוך או טיפול, ואם טרם מלאו לקטין 15 שנים – גם בלא ניצול יחסים כאמור, ובלבד שהמטריד אינו קטין;</p>
+                      </content>
+                    </point>
+                    <point eId="appendix__point_1__point_ג__point_2">
+                      <num>(2)</num>
+                      <content>
+                        <p>למטופל – במסגרת טיפול נפשי, בריאותי, רפואי או פארא–רפואי – תוך ניצול תלות של המטופל במטפל; בפסקת משנה זו, ”טיפול נפשי“ – כהגדרתו <ref href="/akn/il/act/PrimaryLegislation/1977-08-04/2002251#point_347א">בסעיף 347א לחוק העונשין</ref>;</p>
+                      </content>
+                    </point>
+                    <point eId="appendix__point_1__point_ג__point_3">
+                      <num>(3)</num>
+                      <content>
+                        <p>לעובד – במסגרת יחסי עבודה, ולאדם בשירות במסגרת שירות – תוך ניצול מרות ביחסי עבודה או בשירות;</p>
+                      </content>
+                    </point>
+                    <point eId="appendix__point_1__point_ג__point_4">
+                      <num>(4)</num>
+                      <content>
+                        <p>לתלמיד בכיתה י"ב, י"ג או י"ד, שאינו קטין – תוך ניצול יחסי מרות בלימודים;</p>
+                      </content>
+                    </point>
+                    <point eId="appendix__point_1__point_ג__point_5">
+                      <num>(5)</num>
+                      <content>
+                        <p>לתלמיד או לסטודנט, הלומד במוסד המקנה השכלה עיונית, דתית או מקצועית לבוגרים – תוך ניצול יחסי מרות בלימודים;</p>
+                      </content>
+                    </point>
+                    <point eId="appendix__point_1__point_ג__point_6">
+                      <num>(6)</num>
+                      <content>
+                        <p>למשתקם כהגדרתו <ref href="/akn/il/act/PrimaryLegislation/2007-08-08/132075">בחוק זכויות לאנשים עם מוגבלות המועסקים כמשתקמים (הוראת שעה), התשס"ז–2007</ref>, במסגרת תעסוקה – תוך ניצול יחסי מרות בתעסוקה או ניצול תלות;</p>
+                      </content>
+                    </point>
+                    <point eId="appendix__point_1__point_ג__point_7">
+                      <num>(7)</num>
+                      <content>
+                        <p>לאדם – תוך ניצול יחסי מרות או תלות, במסגרת הדרכה או ייעוץ של כהן דת או של מי שמתחזה להיות כהן דת או של אדם הידוע או המציג את עצמו כבעל סגולות רוחניות מיוחדות;</p>
+                      </content>
+                    </point>
+                    <point eId="appendix__point_1__point_ג__point_8">
+                      <num>(8)</num>
+                      <content>
+                        <p>לאדם, מצדו של עובד הציבור במילוי תפקידו או בקשר אליו ותוך שימוש לרעה בסמכותו – תוך ניצול יחסי מרות או תלות של האדם בעובד הציבור; בפסקה זו, ”עובד הציבור“ – כהגדרתו <ref href="/akn/il/act/PrimaryLegislation/1977-08-04/2002251#point_34כד">בסעיף 34כד לחוק העונשין</ref>;</p>
+                      </content>
+                    </point>
+                    <point eId="appendix__point_1__point_ג__point_9">
+                      <num>(9)</num>
+                      <content>
+                        <p>לאדם עם מוגבלות המועסק במפעל מוגן – תוך ניצול יחסי מרות או תלות;</p>
+                      </content>
+                    </point>
+                    <wrapup eId="appendix__point_1__point_ג__wrapup_none">
+                      <content>
+                        <p>חוסר עניין מראים בין במילים ובין בהתנהגות שמבהירה באופן ברור לפונה את חוסר העניין בהצעתו.</p>
+                      </content>
+                    </wrapup>
+                  </list>
+                </point>
+              </list>
+            </point>
+            <point eId="appendix__point_2">
+              <heading>
+                <authorialNote placement="side">
+                  <p xml:space="preserve"> </p>
+                </authorialNote>
+              </heading>
+              <num>2.</num>
+              <content>
+                <p>מהי התנכלות?</p>
+              </content>
+            </point>
+            <point eId="appendix__point_none">
+              <content>
+                <p>התנכלות היא פגיעה מכל סוג שהוא שמקורה בהטרדה מינית, או בתלונה או בתביעה, שהוגשו על הטרדה מינית או על התנכלות כאמור<span style="bottomcomment">נוסף על איסור על התנכלות לפי <ref href="/akn/il/act/PrimaryLegislation/1998-03-19/163378">החוק</ref>, פגיעה על רקע הטרדה מינית אסורה גם לפי <ref href="/akn/il/act/PrimaryLegislation/1988-03-03/151449">חוק שוויון ההזדמנויות בעבודה, התשמ"ח–1988</ref>.</span>.</p>
+              </content>
+            </point>
+            <point eId="appendix__point_none">
+              <list>
+                <intro>
+                  <p>דוגמאות:</p>
+                </intro>
+                <point eId="appendix__point_none__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>פגיעה שמקורה בהטרדה מינית – מעסיק המפטר או מונע את קידומה של עובדת עקב סירובה להצעות חוזרות בעלות אופי מיני של עובד;</p>
+                  </content>
+                </point>
+                <point eId="appendix__point_none__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>פגיעה שמקורה בתלונה או בתביעה על הטרדה מינית או התנכלות – מעסיק או ממונה מטעמו פוגע בתנאי העבודה של עובד – שהתלונן על התנהגות מבזה או משפילה כלפי מיניותו;</p>
+                  </content>
+                </point>
+                <point eId="appendix__point_none__point_3">
+                  <num>(3)</num>
+                  <content>
+                    <p>פגיעה שמקורה בסיוע לעובד בקשר לתלונה או תביעה על הטרדה מינית או התנכלות. לדוגמה: עובדת מסרה עדות בקשר להטרדה כלפי עובד אחר והמעסיק או הממונה פוגעים בה בשל כך.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="appendix__point_3">
+              <heading>
+                <authorialNote placement="side">
+                  <p xml:space="preserve"> </p>
+                </authorialNote>
+              </heading>
+              <num>3.</num>
+              <list>
+                <intro>
+                  <p>מהי ”מסגרת יחסי עבודה“?<br space="preserve"></br>לפי <ref href="/akn/il/act/PrimaryLegislation/1998-03-19/163378">החוק</ref>, הטרדה מינית או התנכלות ב”מסגרת יחסי עבודה“ מתקיימת בכל אחת מ־4 נסיבות אלה:</p>
+                </intro>
+                <point eId="appendix__point_3__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>במקום העבודה;</p>
+                  </content>
+                </point>
+                <point eId="appendix__point_3__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>במקום אחר שבו מתנהלת פעילות מטעם המעסיק;</p>
+                  </content>
+                </point>
+                <point eId="appendix__point_3__point_none">
+                  <list>
+                    <intro>
+                      <p>דוגמאות:</p>
+                    </intro>
+                    <point eId="appendix__point_3__point_none__point_א">
+                      <num>(א)</num>
+                      <content>
+                        <p>אולם שבו מציגים המעסיק ועובדיו תערוכה של מוצרי המעסיק;</p>
+                      </content>
+                    </point>
+                    <point eId="appendix__point_3__point_none__point_ב">
+                      <num>(ב)</num>
+                      <content>
+                        <p>מכון להכשרה או להשתלמות שבו מתקיים קורס מטעם המעסיק;</p>
+                      </content>
+                    </point>
+                    <point eId="appendix__point_3__point_none__point_ג">
+                      <num>(ג)</num>
+                      <content>
+                        <p>מסעדה שבה מתקיימת מסיבה מטעם המעסיק לעובדיו;</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+                <point eId="appendix__point_3__point_3">
+                  <num>(3)</num>
+                  <list>
+                    <point eId="appendix__point_3__point_3__point_none">
+                      <content>
+                        <p>תוך כדי עבודה;</p>
+                      </content>
+                    </point>
+                    <point eId="appendix__point_3__point_3__point_none">
+                      <content>
+                        <p>לדוגמה: נסיעה הנעשית בזמן העבודה במסגרת העבודה, ובכלל זה לשם ישיבת עבודה מחוץ למקום העבודה;</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+                <point eId="appendix__point_3__point_4">
+                  <num>(4)</num>
+                  <content>
+                    <p>תוך ניצול מרות ביחסי העבודה בכל מקום שהוא (ובכלל זה בביתו של ממונה).</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+          </list>
+        </part>
+        <part eId="part_ב">
+          <num>חלק ב׳:</num>
+          <title>
+            <content>
+              <p>התוצאות של הטרדה מינית והתנכלות</p>
+            </content>
+          </title>
+          <list>
+            <point eId="appendix__point_4">
+              <heading>
+                <authorialNote placement="side">
+                  <p xml:space="preserve"> </p>
+                </authorialNote>
+              </heading>
+              <num>4.</num>
+              <list>
+                <intro>
+                  <p>הטרדה מינית והתנכלות הן בלתי חוקיות<br space="preserve"></br>הטרדה מינית והתנכלות מהוות –</p>
+                </intro>
+                <point eId="appendix__point_4__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>עבירה פלילית שקבוע בצדה עונש מאסר או קנס, ובשלה ניתן להגיש תלונה במשטרה;</p>
+                  </content>
+                </point>
+                <point eId="appendix__point_4__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>עוולה אזרחית, שבשלה ניתן להגיש תביעה; בתביעה כזו ניתן לתבוע פיצוי כספי וסעדים אחרים, קבועים או זמניים, מהמטריד, מהמתנכל, ובמקרים מסוימים – מהמעסיק של אלה.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="appendix__point_5">
+              <heading>
+                <authorialNote placement="side">
+                  <p xml:space="preserve"> </p>
+                </authorialNote>
+              </heading>
+              <num>5.</num>
+              <content>
+                <p>הטרדה מינית והתנכלות מהוות עבירות משמעת<span style="bottomcomment">לגבי מעסיק <ref href="#point_3">שתקנה 3 לתקנות</ref> חלה עליו.</span>.<br space="preserve"></br>הטרדה מינית והתנכלות מהוות עבירות משמעת, שעליה יכול המטריד או המתנכל להתחייב בעונש משמעתי.</p>
+              </content>
+            </point>
+          </list>
+        </part>
+        <part eId="part_ג">
+          <num>חלק ג׳:</num>
+          <title>
+            <content>
+              <p>מדיניות המעסיק ואחריותו למניעת הטרדה מינית והתנכלות</p>
+            </content>
+          </title>
+          <list>
+            <point eId="appendix__point_6">
+              <heading>
+                <authorialNote placement="side">
+                  <p xml:space="preserve"> </p>
+                </authorialNote>
+              </heading>
+              <num>6.</num>
+              <content>
+                <p>הטרדה מינית והתנכלות על רקע מיני מהוות התנהגות בלתי חוקית הפוגעת בכבוד האדם, בחירותו, בפרטיותו, ובשוויון בין המינים; הטרדה מינית והתנכלות נוגדות את מדיניות המעסיק; הטרדה מינית והתנכלות פוגעות ביחסי העבודה, ועומדות בניגוד למדיניות המעסיק, והוא לא ישלים עמן.</p>
+              </content>
+            </point>
+            <point eId="appendix__point_7">
+              <heading>
+                <authorialNote placement="side">
+                  <p xml:space="preserve"> </p>
+                </authorialNote>
+              </heading>
+              <num>7.</num>
+              <list>
+                <intro>
+                  <p>אחריות המעסיק</p>
+                </intro>
+                <point eId="appendix__point_7__point_א">
+                  <num>(א)</num>
+                  <list>
+                    <intro>
+                      <p>נוסף על איסור החל על המעסיק, כעל כל אדם, להטריד ולהתנכל, <ref href="/akn/il/act/PrimaryLegislation/1998-03-19/163378">החוק</ref> מטיל עליו אחריות מיוחדת על מעשיהם של עובדיו ושל ממונים מטעמו, במסגרת יחסי עבודה; מעסיק צריך לנקוט אמצעים סבירים, כמפורט בתקנון זה, משלושה סוגים:</p>
+                    </intro>
+                    <point eId="appendix__point_7__point_א__point_1">
+                      <num>(1)</num>
+                      <content>
+                        <p>מניעת הטרדה מינית והתנכלות כמתואר <ref href="#part_ג">בחלק זה</ref>;</p>
+                      </content>
+                    </point>
+                    <point eId="appendix__point_7__point_א__point_2">
+                      <num>(2)</num>
+                      <content>
+                        <p>טיפול ביעילות בהטרדה מינית או בהתנכלות שידע עליהן (ר׳ <ref href="#appendix_part_ה">חלק ה׳</ref>).</p>
+                      </content>
+                    </point>
+                    <point eId="appendix__point_7__point_א__point_3">
+                      <num>(3)</num>
+                      <content>
+                        <p>תיקון הפגיעה עקב הטרדה מינית או התנכלות, או עקב הגשת תלונה או תביעה על אלה (ר׳ <ref href="#appendix_part_ה">חלק ה׳</ref>).</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+                <point eId="appendix__point_7__point_ב">
+                  <num>(ב)</num>
+                  <content>
+                    <p>לפי <ref href="/akn/il/act/PrimaryLegislation/1998-03-19/163378">החוק</ref>, מעסיק שלא נקט אמצעים כאמור בסעיף זה אחראי להטרדה מינית או להתנכלות שביצע עובד שלו או ממונה מטעמו במסגרת יחסי העבודה, וניתן לתבוע את המעסיק בתביעה אזרחית בשל כך.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="appendix__point_8">
+              <heading>
+                <authorialNote placement="side">
+                  <p xml:space="preserve"> </p>
+                </authorialNote>
+              </heading>
+              <num>8.</num>
+              <list>
+                <intro>
+                  <p>צעדי מנע</p>
+                </intro>
+                <point eId="appendix__point_8__point_א">
+                  <num>(א)</num>
+                  <content>
+                    <p>המעסיק דורש מכל ממונה מטעמו ומכל עובד, להימנע ממעשים של הטרדה מינית והתנכלות במסגרת יחסי עבודה ולעשות כל שביכולתו כדי למנוע מעשים כאמור, והכול כדי ליצור, יחד עם המעסיק, סביבת עבודה בלא הטרדה מינית והתנכלות.</p>
+                  </content>
+                </point>
+                <point eId="appendix__point_8__point_ב">
+                  <num>(ב)</num>
+                  <content>
+                    <p>המעסיק דורש מכל ממונה מטעמו ליטול חלק פעיל ומוביל במניעת הטרדה מינית והתנכלות במסגרת יחסי עבודה.</p>
+                  </content>
+                </point>
+                <point eId="appendix__point_8__point_ג">
+                  <num>(ג)</num>
+                  <content>
+                    <p>פעולות הסברה והדרכה: המעסיק דורש מכל ממונה ומכל עובד להשתתף בפעולות הדרכה והסברה הנעשות מטעמו בדבר איסור הטרדה מינית והתנכלות ומניעתן; לחלופין המעסיק מאפשר לעובדיו להשתתף במשך שעות העבודה בפעולות כאמור, המאורגנות, בפרקי זמן סבירים, על ידי גורמים אחרים, כמו ארגון עובדים יציג או ארגוני זכויות, ובלבד שאין בכך כדי לפגוע במהלך התקין של העבודה.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="appendix__point_9">
+              <heading>
+                <authorialNote placement="side">
+                  <p xml:space="preserve"> </p>
+                </authorialNote>
+              </heading>
+              <num>9.</num>
+              <content>
+                <p>שיתוף פעולה עם נציגות העובדים</p>
+              </content>
+            </point>
+            <point eId="appendix__point_none">
+              <content>
+                <p>המעסיק משתף פעולה עם ארגון העובדים במקום העבודה, בפעולות הסברה והדרכה בדבר איסור הטרדה מינית והתנכלות ומניעתן.</p>
+              </content>
+            </point>
+            <point eId="appendix__point_none">
+              <content>
+                <p>ארגון העובדים הנוגע לעניין במקום עבודה זה הוא:<br space="preserve"></br><span style="text-align: center"><span style="font-weight: bold">[כאן יפרט מעסיק את ארגון העובדים]</span></span></p>
+              </content>
+            </point>
+            <point eId="appendix__point_10" class="definitions">
+              <heading>
+                <authorialNote placement="side">
+                  <p xml:space="preserve"> </p>
+                </authorialNote>
+              </heading>
+              <num>10.</num>
+              <list>
+                <intro>
+                  <p>קבלת מידע, וממי</p>
+                </intro>
+                <point eId="appendix__point_10__point_א">
+                  <num>(א)</num>
+                  <list>
+                    <intro>
+                      <p>עובד זכאי –</p>
+                    </intro>
+                    <point eId="appendix__point_10__point_א__point_1">
+                      <num>(1)</num>
+                      <list>
+                        <intro>
+                          <p>לעיין בכל אחד מאלה ולקבל צילומים מהם:</p>
+                        </intro>
+                        <point eId="appendix__point_10__point_א__point_1__point_וק_למניעת_הטרדה_מינית,_התשנ">
+                          <content>
+                            <p>
+                              <def />
+                              <ref href="/akn/il/act/PrimaryLegislation/1998-03-19/163378">חוק למניעת הטרדה מינית, התשנ"ח–1998</ref>;</p>
+                          </content>
+                        </point>
+                        <point eId="appendix__point_10__point_א__point_1__point_קנות_למניעת_הטרדה_מינית_חובות_מעסיק,_התשנ">
+                          <content>
+                            <p>
+                              <def />
+                              <ref href="/akn/il/act/SecondaryLegislation/1998-08-20/100028010">תקנות למניעת הטרדה מינית (חובות מעסיק), התשנ"ח–1998</ref>;</p>
+                          </content>
+                        </point>
+                        <point eId="appendix__point_10__point_א__point_1__point_הוראות_משמעת_של_מקום_העבודה_לעניין_הטרדה_מינית_והתנכלות">
+                          <content>
+                            <p>
+                              <def />הוראות משמעת של מקום העבודה לעניין הטרדה מינית והתנכלות;</p>
+                          </content>
+                        </point>
+                      </list>
+                    </point>
+                    <point eId="appendix__point_10__point_א__point_2">
+                      <num>(2)</num>
+                      <content>
+                        <p>לקבל מידע על פעולות הסברה והדרכה של המעסיק בדבר איסור הטרדה מינית והתנכלות ומניעתן.</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+                <point eId="appendix__point_10__point_ב">
+                  <num>(ב)</num>
+                  <content>
+                    <p>עובד יוכל לדרוש קבלת חומר ומידע כאמור מהאחראי/ת לעניין זה, שהיא/הוא:<br space="preserve"></br>גב׳/מר . . . . . . . . . . . . . . . . שתפקידה/ו <span style="word-break: break-all;">. . . . . . . . . . . . . . . . . . . . . . . .</span> מספר טלפון בעבודה <span style="word-break: break-all;">. . . . . . . . . . . . . . . . . . . . . .</span></p>
+                  </content>
+                </point>
+              </list>
+            </point>
+          </list>
+        </part>
+        <part eId="part_ד">
+          <num>חלק ד׳:</num>
+          <title>
+            <content>
+              <p>מה לעשות אם הוטרדת מינית או אם התנכלו לך?</p>
+            </content>
+          </title>
+          <list>
+            <point eId="appendix__point_11">
+              <heading>
+                <authorialNote placement="side">
+                  <p xml:space="preserve"> </p>
+                </authorialNote>
+              </heading>
+              <num>11.</num>
+              <list>
+                <point eId="appendix__point_11__point_א">
+                  <num>(א)</num>
+                  <list>
+                    <intro>
+                      <p>אם אדם סבור שהטרידו אותו מינית או שהתנכלו לו, פתוחות לפניו שלוש אפשרויות לפי <ref href="/akn/il/act/PrimaryLegislation/1998-03-19/163378">החוק</ref> – האדם יכול לבחור אם לנקוט באחת או יותר מבין האפשרויות האלה:</p>
+                    </intro>
+                    <point eId="appendix__point_11__point_א__point_1">
+                      <num>(1)</num>
+                      <content>
+                        <p>טיפול באחריות המעסיק: אם ההטרדה או ההתנכלות התבצעה ”במסגרת יחסי עבודה“, הנפגע יכול להגיש תלונה במקום העבודה; ההליכים מפורטים <ref href="#appendix_part_ה">בחלק ה׳</ref>;</p>
+                      </content>
+                    </point>
+                    <point eId="appendix__point_11__point_א__point_2">
+                      <num>(2)</num>
+                      <content>
+                        <p>הליך פלילי: הנפגע יכול להגיש תלונה במשטרה;</p>
+                      </content>
+                    </point>
+                    <point eId="appendix__point_11__point_א__point_3">
+                      <num>(3)</num>
+                      <list>
+                        <intro>
+                          <p>הליך אזרחי: הנפגע יכול להגיש תביעה בבית המשפט (בדרך כלל – בבית הדין האזורי לעבודה) נגד –</p>
+                        </intro>
+                        <point eId="appendix__point_11__point_א__point_3__point_המטריד_או_המתנכל_בעצמו">
+                          <content>
+                            <p>
+                              <def />המטריד או המתנכל בעצמו;</p>
+                          </content>
+                        </point>
+                        <point eId="appendix__point_11__point_א__point_3__point_ואם_הוא_טוען_שהמעסיק_אחראי,_גם_המעסיק_ראו_סעיף_7_לעניין_אחריות_המעסיק">
+                          <content>
+                            <p>
+                              <def />ואם הוא טוען שהמעסיק אחראי, גם המעסיק (ראו <ref href="#appendix_part_ד_פרט_7">סעיף 7</ref> לעניין אחריות המעסיק).</p>
+                          </content>
+                        </point>
+                      </list>
+                    </point>
+                  </list>
+                </point>
+              </list>
+            </point>
+          </list>
+        </part>
+        <part eId="part_ה">
+          <num>חלק ה׳:</num>
+          <title>
+            <content>
+              <p>הליך תלונה אצל מעסיק וטיפול באחריות מעסיק<span style="bottomcomment">הסעיפים <ref href="#appendix_part_ה">בחלק ה׳</ref>, פרט <ref href="#appendix_part_ה_פרט_14">לסעיפים 14</ref><ref href="#appendix_part_ה_פרט_15">ו־15(ה)(2)</ref> מובאים <ref href="/akn/il/act/PrimaryLegislation/1998-03-19/163378">מהחוק</ref> ומהתקנות, וככאלה אין מקום לערוך בהם שינויים, פרט לתוספות הנובעות מההקשר המיוחד של המעסיק ועובדיו ושאין בהן כדי לגרוע מתוכן הסעיפים האמורים <ref href="#appendix_part_ו">בחלק ו׳</ref>.</span></p>
+            </content>
+          </title>
+          <list>
+            <point eId="appendix__point_12">
+              <heading>
+                <authorialNote placement="side">
+                  <p xml:space="preserve"> </p>
+                </authorialNote>
+              </heading>
+              <num>12.</num>
+              <list>
+                <intro>
+                  <p>מי יכול להגיש תלונה, ובאילו נסיבות?<br space="preserve"></br>כל אחד מאלה יכול להגיש תלונה:</p>
+                </intro>
+                <point eId="appendix__point_12__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>עובד שטוען כי מעסיק, ממונה או עובד אחר הטריד אותו מינית או התנכל לו, במסגרת יחסי עבודה;</p>
+                  </content>
+                </point>
+                <point eId="appendix__point_12__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>אדם אחר שטוען כי עובדו של המעסיק או ממונה מטעמו הטריד אותו מינית או התנכל לו, במסגרת יחסי עבודה;</p>
+                  </content>
+                </point>
+                <point eId="appendix__point_12__point_3">
+                  <num>(3)</num>
+                  <content>
+                    <p>אחר מטעמו של אדם כאמור בפסקה (1) או (2).</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="appendix__point_13">
+              <heading>
+                <authorialNote placement="side">
+                  <p xml:space="preserve"> </p>
+                </authorialNote>
+              </heading>
+              <num>13.</num>
+              <list>
+                <intro>
+                  <p>לפני מי מתלוננים?</p>
+                </intro>
+                <point eId="appendix__point_13__point_א">
+                  <num>(א)</num>
+                  <content>
+                    <p>תלונה יש להגיש לאחראי כאמור <ref href="#appendix_part_ה_פרט_10">בסעיף 10(ב)</ref>.</p>
+                  </content>
+                </point>
+                <point eId="appendix__point_13__point_ב">
+                  <num>(ב)</num>
+                  <content>
+                    <p>אם האחראי הוא האדם שמתלוננים עליו (להלן – הנילון) או שהוא בעל נגיעה אישית לנושא התלונה או למעורבים בה, תוגש התלונה לממלא מקומו של האחראי, לאחראי אחר, ובהעדרם – למעסיק (אם הגיש את התלונה למעסיק כאמור, המעסיק יפעל לפי <ref href="#part_ה">חלק זה</ref> כפי שאמור לפעול אחראי).</p>
+                  </content>
+                </point>
+                <point eId="appendix__point_13__point_ג">
+                  <num>(ג)</num>
+                  <list>
+                    <intro>
+                      <p>אם הנילון היה עובד של קבלן כוח אדם המועסק בפועל אצל המעסיק –</p>
+                    </intro>
+                    <point eId="appendix__point_13__point_ג__point_1">
+                      <num>(1)</num>
+                      <content>
+                        <p>תוגש התלונה לאחראי מטעם הקבלן או לאחראי מטעם המעסיק;</p>
+                      </content>
+                    </point>
+                    <point eId="appendix__point_13__point_ג__point_2">
+                      <num>(2)</num>
+                      <content>
+                        <p>אם הוגשה התלונה לאחראי מטעם הקבלן, אותו אחראי רשאי להעביר את הטיפול בבירור התלונה לאחראי מטעם המעסיק, ואם הועבר הטיפול כאמור – האחראי מטעם הקבלן יודיע על כך למתלונן.</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+              </list>
+            </point>
+            <point eId="appendix__point_14">
+              <heading>
+                <authorialNote placement="side">
+                  <p xml:space="preserve"> </p>
+                </authorialNote>
+              </heading>
+              <num>14.</num>
+              <list>
+                <intro>
+                  <p>אופן הגשת התלונה</p>
+                </intro>
+                <point eId="appendix__point_14__point_א">
+                  <num>(א)</num>
+                  <content>
+                    <p>ניתן להגיש תלונה בכתב או בעל פה.</p>
+                  </content>
+                </point>
+                <point eId="appendix__point_14__point_ב">
+                  <num>(ב)</num>
+                  <list>
+                    <intro>
+                      <p>הוגשה תלונה בעל פה –</p>
+                    </intro>
+                    <point eId="appendix__point_14__point_ב__point_1">
+                      <num>(1)</num>
+                      <list>
+                        <intro>
+                          <p>ירשום האחראי את תוכן התלונה, ואם אפשר יציין את הפרטים האלה:</p>
+                        </intro>
+                        <point eId="appendix__point_14__point_ב__point_1__point_א">
+                          <num>(א)</num>
+                          <content>
+                            <p>זהות המעורבים במקרה והאם מתקיימים ביניהם יחסי תלות, מרות וכדומה, וכן זהות עדים, אם ישנם;</p>
+                          </content>
+                        </point>
+                        <point eId="appendix__point_14__point_ב__point_1__point_ב">
+                          <num>(ב)</num>
+                          <content>
+                            <p>מקום האירוע;</p>
+                          </content>
+                        </point>
+                        <point eId="appendix__point_14__point_ב__point_1__point_ג">
+                          <num>(ג)</num>
+                          <content>
+                            <p>מועד האירוע;</p>
+                          </content>
+                        </point>
+                        <point eId="appendix__point_14__point_ב__point_1__point_ד">
+                          <num>(ד)</num>
+                          <content>
+                            <p>תיאור המקרה, לרבות אם המוטרד הראה למטריד שההתנהגות מפריעה לו;</p>
+                          </content>
+                        </point>
+                      </list>
+                    </point>
+                    <point eId="appendix__point_14__point_ב__point_2">
+                      <num>(2)</num>
+                      <content>
+                        <p>המתלונן או מי שמגיש את התלונה מטעמו יחתום על הרישום של האחראי כדי לאשר את תוכן הדברים;</p>
+                      </content>
+                    </point>
+                    <point eId="appendix__point_14__point_ב__point_3">
+                      <num>(3)</num>
+                      <content>
+                        <p>האחראי ימסור למתלונן עותק מהרישום החתום.</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+              </list>
+            </point>
+            <point eId="appendix__point_15">
+              <heading>
+                <authorialNote placement="side">
+                  <p xml:space="preserve"> </p>
+                </authorialNote>
+              </heading>
+              <num>15.</num>
+              <list>
+                <intro>
+                  <p>בירור התלונה</p>
+                </intro>
+                <point eId="appendix__point_15__point_א">
+                  <num>(א)</num>
+                  <list>
+                    <intro>
+                      <p>התקבלה תלונה, האחראי –</p>
+                    </intro>
+                    <point eId="appendix__point_15__point_א__point_1">
+                      <num>(1)</num>
+                      <content>
+                        <p>יידע את המתלונן באשר לדרכי הטיפול בהטרדה מינית או התנכלות לפי <ref href="/akn/il/act/PrimaryLegislation/1998-03-19/163378">החוק</ref> (<ref href="#appendix_part_ד">חלק ד׳</ref>, <ref href="#point_11">סעיף 11</ref>);</p>
+                      </content>
+                    </point>
+                    <point eId="appendix__point_15__point_א__point_2">
+                      <num>(2)</num>
+                      <content>
+                        <p>יפעל לבירור התלונה ולצורך כך, בין השאר, ישמע את המתלונן, את הנילון ואת העדים, אם ישנם, ויבדוק כל מידע שהגיע אליו בעניין התלונה.</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+                <point eId="appendix__point_15__point_ב">
+                  <num>(ב)</num>
+                  <content>
+                    <p>אחראי לא יטפל בבירור תלונה אם הוא בעל נגיעה אישית לנושא התלונה או למעורבים בה.</p>
+                  </content>
+                </point>
+                <point eId="appendix__point_15__point_ג">
+                  <num>(ג)</num>
+                  <content>
+                    <p>אחראי שהוא בעל נגיעה אישית כאמור יעביר את הבירור לאחראי אחר או למי שהמעסיק מינה לממלא מקומו, ובהעדר אחד מאלה – למעסיק; אם האחראי העביר את הטיפול למעסיק כאמור, יפעל המעסיק כפי שאמור לפעול אחראי בבירור תלונה, לפי סעיף זה.</p>
+                  </content>
+                </point>
+                <point eId="appendix__point_15__point_ד">
+                  <num>(ד)</num>
+                  <content>
+                    <p>בירור התלונה ייעשה ביעילות ובלא דיחוי.</p>
+                  </content>
+                </point>
+                <point eId="appendix__point_15__point_ה">
+                  <num>(ה)</num>
+                  <list>
+                    <intro>
+                      <p>בירור תלונה ייעשה תוך הגנה מרבית על כבודם ופרטיותם של המתלונן, הנילון ועדים אחרים, ובין השאר –</p>
+                    </intro>
+                    <point eId="appendix__point_15__point_ה__point_1">
+                      <num>(1)</num>
+                      <content>
+                        <p>לא יגלה אחראי מידע שהגיע אליו במהלך בירור התלונה אלא אם כן הוא חייב לעשות כן לשם הבירור עצמו או לפי דין;</p>
+                      </content>
+                    </point>
+                    <point eId="appendix__point_15__point_ה__point_2">
+                      <num>(2)</num>
+                      <content>
+                        <p>לא ישאל אחראי שאלות בקשר לעבר המיני של מתלונן שאינו קשור לנילון, ולא יתחשב במידע על עברו המיני של המתלונן כאמור; האמור בפסקה זו לא יחול אם האחראי סבור שאם לא ישאל שאלות או יתחשב כאמור, ייגרם עוול בלתי ניתן לתיקון לנילון;</p>
+                      </content>
+                    </point>
+                    <point eId="appendix__point_15__point_ה__point_3">
+                      <num>(3)</num>
+                      <content>
+                        <p>האחראי ינחה את כלל המעורבים בבירור התלונה לשמור על כבודם ופרטיותם של כל הצדדים ולא לגלות כל מידע שהגיע אליהם במהלך בירור התלונה, אלא על פי דין.</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+                <point eId="appendix__point_15__point_ו">
+                  <num>(ו)</num>
+                  <content>
+                    <p>מעסיק יגן על המתלונן, במהלך בירור התלונה, מפני פגיעה בענייני עבודה<span style="bottomcomment">המונח ”ענייני עבודה“ מוגדר בתקנות, ולפי ההגדרה בתקנות, כל אלה הם ”ענייני עבודה“: קבלה לעבודה, תנאי עבודה, לרבות התנאים הפיזיים והסביבתיים הקשורים למסגרת יחסי עבודה ולרבות שכר או גמול אחר שנותן מעסיק לעובד או לאחר בקשר לעבודתו, קידום בעבודה, הכשרה או השתלמות מקצועית, פיטורים, פיצויי פיטורים, הטבות ותשלומים הניתנים לעובד בקשר לפרישה מעבודה.</span>, כתוצאה מהגשת התלונה או מפני פגיעה אחרת במסגרת יחסי עבודה שיש בה כדי לשבש את בירור התלונה; בין השאר יפעל המעסיק להרחקת הנילון מהמתלונן, ככל האפשר, וככל שנראה לו נכון בנסיבות העניין.</p>
+                  </content>
+                </point>
+                <point eId="appendix__point_15__point_ז">
+                  <num>(ז)</num>
+                  <content>
+                    <p>בתום בירור התלונה יגיש האחראי למעסיק, בלא דיחוי, סיכום בכתב של בירור התלונה בליווי המלצותיו המנומקות לגבי המשך הטיפול בה, לרבות לעניין כל אחד מהעניינים המפורטים <ref href="#appendix_part_ה_פרט_16">בסעיף 16(א) ו־(ד)</ref>.</p>
+                  </content>
+                </point>
+                <point eId="appendix__point_15__point_ח">
+                  <num>(ח)</num>
+                  <content>
+                    <p>היה הנילון עובד של קבלן כוח אדם המועסק בפועל אצל המעסיק, יגיש האחראי את סיכומו לקבלן ולמעסיק.</p>
+                  </content>
+                </point>
+                <point eId="appendix__point_15__point_ט">
+                  <num>(ט)</num>
+                  <content>
+                    <p>נודע למעסיק על מקרה של הטרדה מינית או התנכלות במסגרת יחסי עבודה, ולא הוגשה תלונה או שהמתלונן חזר בו מתלונתו, יעביר את המקרה לבירור של אחראי; לעניין זה מנחה המעסיק את כלל הממונים מטעמו להעביר כל מידע על הטרדה מינית שהגיע לידיעתם לידי האחראי למניעת הטרדה מינית; הועבר מקרה כאמור לבירור של אחראי או נודע לאחראי על מקרה כאמור, יקיים האחראי, ככל האפשר, בירור על אודות המקרה לפי כל הוראות סעיף זה, בשינויים המחויבים, ואם המתלונן חזר בו מתלונתו, יברר גם את סיבת החזרה מהתלונה.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="appendix__point_16">
+              <heading>
+                <authorialNote placement="side">
+                  <p xml:space="preserve"> </p>
+                </authorialNote>
+              </heading>
+              <num>16.</num>
+              <list>
+                <intro>
+                  <p>טיפול המעסיק במקרה של הטרדה מינית או התנכלות</p>
+                </intro>
+                <point eId="appendix__point_16__point_א">
+                  <num>(א)</num>
+                  <list>
+                    <intro>
+                      <p>קיבל מעסיק את סיכומו והמלצותיו של האחראי לפי <ref href="#appendix_part_ה_פרט_15">סעיף 15(ז)</ref>, יחליט, בלא דיחוי ובתוך תקופה שלא תעלה על 7 ימי עבודה, על הפעלת הסמכויות שבידיו לגבי כל אחד מאלה:</p>
+                    </intro>
+                    <point eId="appendix__point_16__point_א__point_1">
+                      <num>(1)</num>
+                      <content>
+                        <p>מתן הוראות לעובדים המעורבים במקרה, לרבות בדבר כללי התנהגות ראויים במסגרת יחסי עבודה; הרחקת הנילון מהמתלונן; וכן נקיטת צעדים בענייני עבודה, והכול כדי למנוע את הישנות המעשה של הטרדה מינית או התנכלות, או כדי לתקן את הפגיעה שנגרמה למתלונן עקב ההטרדה או ההתנכלות;</p>
+                      </content>
+                    </point>
+                    <point eId="appendix__point_16__point_א__point_2">
+                      <num>(2)</num>
+                      <content>
+                        <p>פתיחה בהליכים משמעתיים לפי הוראות הסדר המשמעת החלות אצל המעסיק לעניין הטרדה מינית או התנכלות;</p>
+                      </content>
+                    </point>
+                    <point eId="appendix__point_16__point_א__point_3">
+                      <num>(3)</num>
+                      <content>
+                        <p>אי־נקיטת צעד כלשהו.</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+                <point eId="appendix__point_16__point_ב">
+                  <num>(ב)</num>
+                  <content>
+                    <p>המעסיק יפעל בלא דיחוי לביצוע החלטתו לפי סעיף קטן (א) וימסור הודעה מנומקת בכתב על החלטתו למתלונן, לנילון ולאחראי; כמו כן יאפשר המעסיק למתלונן ולנילון לעיין בסיכום האחראי ובהמלצותיו.</p>
+                  </content>
+                </point>
+                <point eId="appendix__point_16__point_ג">
+                  <num>(ג)</num>
+                  <content>
+                    <p>המעסיק רשאי, עקב שינוי בנסיבות, לשנות את החלטתו לפי סעיף קטן (א) או לעכב את ביצועה וימסור הודעה מנומקת על כך בכתב למתלונן, לנילון ולאחראי.</p>
+                  </content>
+                </point>
+                <point eId="appendix__point_16__point_ד">
+                  <num>(ד)</num>
+                  <list>
+                    <intro>
+                      <p>על אף האמור בסעיף זה, רשאי מעסיק לדחות את החלטתו, לעכב את ביצועה או לשנותה, בשל הליכים משמעתיים או משפטיים הנוגעים למקרה נושא ההחלטה; עשה כן המעסיק –</p>
+                    </intro>
+                    <point eId="appendix__point_16__point_ד__point_1">
+                      <num>(1)</num>
+                      <content>
+                        <p>ימסור הודעה מנומקת בכתב על כך למתלונן, לנילון ולאחראי;</p>
+                      </content>
+                    </point>
+                    <point eId="appendix__point_16__point_ד__point_2">
+                      <num>(2)</num>
+                      <content>
+                        <p>כל עוד לא הסתיימו ההליכים כאמור, יפעל המעסיק לפי הוראות <ref href="#appendix_part_ה_פרט_15">סעיף 15(ו)</ref>;</p>
+                      </content>
+                    </point>
+                    <point eId="appendix__point_16__point_ד__point_3">
+                      <num>(3)</num>
+                      <content>
+                        <p>בתום ההליכים יקבל המעסיק החלטה לפי סעיף קטן (א).</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+                <point eId="appendix__point_16__point_ה">
+                  <num>(ה)</num>
+                  <content>
+                    <p>אם הנילון עובד של קבלן כוח אדם המועסק בפועל אצל המעסיק, רשאים המעסיק והקבלן להסכים בשאלה מי מביניהם יבצע את הוראות סעיף זה, כולן או חלקן.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+          </list>
+        </part>
+        <part eId="part_ו">
+          <num>חלק ו׳:</num>
+          <title>
+            <content>
+              <p>שונות</p>
+            </content>
+          </title>
+          <list>
+            <point eId="appendix__point_17">
+              <heading>
+                <authorialNote placement="side">
+                  <p xml:space="preserve"> </p>
+                </authorialNote>
+              </heading>
+              <num>17.</num>
+              <list>
+                <intro>
+                  <p>עובד של קבלן כוח אדם המועסק בפועל אצל המעסיק</p>
+                </intro>
+                <point eId="appendix__point_17__point_א">
+                  <num>(א)</num>
+                  <list>
+                    <intro>
+                      <p>לפי <ref href="/akn/il/act/PrimaryLegislation/1998-03-19/163378">החוק</ref> והתקנות, במקרה שעובד של קבלן כוח אדם מועסק בפועל אצל המעסיק (מעסיק בפועל) –</p>
+                    </intro>
+                    <point eId="appendix__point_17__point_א__point_1">
+                      <num>(1)</num>
+                      <content>
+                        <p>כל מה שנאמר בתקנון זה לגבי ”עובד“ כולל גם את העובד של הקבלן;</p>
+                      </content>
+                    </point>
+                    <point eId="appendix__point_17__point_א__point_2">
+                      <num>(2)</num>
+                      <content>
+                        <p>כל מה שנאמר בתקנון זה לגבי ”מעסיק“ כולל גם את המעסיק בפועל;</p>
+                      </content>
+                    </point>
+                    <wrapup eId="appendix__point_17__point_א__wrapup_none">
+                      <content>
+                        <p>לכן, מעסיק בפועל נושא באותה אחריות שנושא מעסיק רגיל (ראו <ref href="#appendix_part_ו_פרט_7">סעיף 7</ref>) בשל הטרדה מינית והתנכלות שמבצע עובד קבלן כוח אדם המועסק אצלו.</p>
+                      </content>
+                    </wrapup>
+                  </list>
+                </point>
+                <point eId="appendix__point_17__point_ב">
+                  <num>(ב)</num>
+                  <content>
+                    <p>הוראות מיוחדות מצויות <ref href="#appendix_part_ו_פרט_13">בסעיפים 13(ג)</ref>, <ref href="#appendix_part_ו_פרט_15">15(ח)</ref><ref href="#appendix_part_ו_פרט_16">ו־16(ה) לתקנון זה</ref>.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="appendix__point_18">
+              <heading>
+                <authorialNote placement="side">
+                  <p xml:space="preserve"> </p>
+                </authorialNote>
+              </heading>
+              <num>18.</num>
+              <list>
+                <intro>
+                  <p>מעסיקים של 25 עובדים או פחות<br space="preserve"></br>לפי התקנות, מעסיק המעסיק 25 עובדים או פחות, המוסר עותק של התקנון לדוגמה לעובדיו ולממונים מטעמו או מפרסם אותו במקום בולט לעין שבשליטתו, יוצא ידי חובותיו –</p>
+                </intro>
+                <point eId="appendix__point_18__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>ליידע את עובדיו והממונים מטעמו באשר להוראות <ref href="/akn/il/act/PrimaryLegislation/1998-03-19/163378">החוק</ref> והתקנות;</p>
+                  </content>
+                </point>
+                <point eId="appendix__point_18__point_2">
+                  <num>(2)</num>
+                  <list>
+                    <point eId="appendix__point_18__point_2__point_none">
+                      <content>
+                        <p>לדרוש מעובדיו ומהממונים להימנע מהטרדה מינית והתנכלות ולדרוש מהם למנוע מעשים אלה;</p>
+                      </content>
+                    </point>
+                    <point eId="appendix__point_18__point_2__point_none">
+                      <content>
+                        <p>הערה: מעסיק המעסיק 25 עובדים או פחות אינו חייב למסור או לפרסם את התקנון לדוגמה כאמור – הוא יכול לבחור לבצע את חובותיו האמורות בפסקאות (1) ו־(2) בדרך אחרת.</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+              </list>
+            </point>
+            <point eId="appendix__point_19">
+              <heading>
+                <authorialNote placement="side">
+                  <p xml:space="preserve"> </p>
+                </authorialNote>
+              </heading>
+              <num>19.</num>
+              <content>
+                <p>מינוי אחראי (ראו <ref href="#appendix_part_ו_פרט_10">סעיף 10(ב)</ref><ref href="#appendix_part_ה">וחלק ה׳</ref>) אצל מעסיק המעסיק פחות מעשרה עובדים</p>
+              </content>
+            </point>
+            <point eId="appendix__point_none">
+              <content>
+                <p>לפי התקנות, מעסיק המעסיק פחות מעשרה עובדים יכול לקבוע שהוא עצמו יהיה האחראי; אם הוא קובע כאמור, כל מה שנאמר בתקנון זה לגבי אחראי יחול עליו.</p>
+              </content>
+            </point>
+            <point eId="appendix__point_20">
+              <heading>
+                <authorialNote placement="side">
+                  <p xml:space="preserve"> </p>
+                </authorialNote>
+              </heading>
+              <num>20.</num>
+              <content>
+                <p>עיקר ההוראות המשמעתיות לעניין הטרדה מינית והתנכלות<br space="preserve"></br><span style="text-align: center"><span style="font-weight: bold">[כאן יפרט מעסיק את הוראות המשמעת הנוגעות לעניין, שנוהגות אצלו].</span></span></p>
+              </content>
+            </point>
+          </list>
+        </part>
+      </appendix>
+    </body>
+    <conclusions eId="eId">
+      <p class="signatures">
+        <signature>
+          <p>
+            <person refersTo="צחי_הנגבי">צחי הנגבי</person>
+            <role refersTo="שר_המשפטים">שר המשפטים</role>
+          </p>
+        </signature>
+        <signature>
+          <p>
+            <person refersTo="אליהו_ישי">אליהו ישי</person>
+            <role refersTo="שר_העבודה_והרווחה">שר העבודה והרווחה</role>
+          </p>
+        </signature>
+      </p>
+    </conclusions>
+  </act>
+</akomaNtoso>

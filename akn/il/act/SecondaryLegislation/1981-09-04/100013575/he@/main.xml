@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion" name="publicLaw">
+    <meta>
+      <identification source="#kensset">
+        <FRBRWork>
+          <FRBRthis value="/akn/il/act/SecondaryLegislation/1981-09-04/100013575/main" />
+          <FRBRuri value="/akn/il/act/SecondaryLegislation/1981-09-04/100013575" />
+          <FRBRdate date="1981-09-04" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRcountry value="israel" />
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/il/act/SecondaryLegislation/1981-09-04/100013575/he@/main" />
+          <FRBRuri value="/akn/il/act/SecondaryLegislation/1981-09-04/100013575/he@" />
+          <FRBRdate date="1981-09-04" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRlanguage language="hebrew" />
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/il/act/SecondaryLegislation/1981-09-04/100013575/he@/main.xml" />
+          <FRBRuri value="/akn/il/act/SecondaryLegislation/1981-09-04/100013575/he@" />
+          <FRBRdate date="1981-09-04" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRformat value="xml" />
+        </FRBRManifestation>
+      </identification>
+      <classification source="#kensset">
+        <keyword value="{classificationValue}" showAs="{classificationValue}" dictionary="#classification_dictionary" />
+      </classification>
+      <lifecycle source="#kensset">
+        <eventRef eId="eventRef_1" date="1981-09-04" source="#kensset" type="generation" />
+      </lifecycle>
+      <references source="#kensset">
+        <TLCOrganization eId="kensset" href="/ontology/organization/akn/knesset" showAs="Kensset" type="generation" />
+        <TLCRole eId="author" href="/ontology/role/akn/author" showAs="Author of Document" />
+        <TLCProcess eId="inforce" href="/ontology/process/akn/inforce" showAs="In force" />
+        <TLCPerson eId="שלמה_לורינץ" href="/ontology/person/שלמה_לורינץ" showAs="שלמה לורינץ" />
+        <TLCRole eId="יושב_ראש_ועדת_הכספים_של_הכנסת" href="ontology/role/akn/יושב_ראש_ועדת_הכספים_של_הכנסת" showAs="יושב ראש ועדת הכספים של הכנסת" />
+      </references>
+      <temporalData source="#kensset">
+        <temporalGroup eId="tmpg_1" />
+      </temporalData>
+      <Publication></Publication>
+      <proprietary wikiversion="9/20/2020 5:31:13 PM" />
+    </meta>
+    <body period="#tmpg_1">
+      <title eId="title">
+        <content>
+          <p>החלטת משכורת מבקר המדינה, התשמ"א–1981</p>
+        </content>
+      </title>
+      <preamble eId="eId">
+        <p>בתוקף הסמכות לפי <ref href="/akn/il/act/PrimaryLegislation/1988-02-24/174515#point_11">סעיף 4א</ref><ref href="/akn/il/act/PrimaryLegislation/1958-03-20/2001957">לחוק מבקר המדינה, התשי"ח–1958 [נוסח משולב]</ref>, מחליטה ועדת הכספים של הכנסת לאמור:</p>
+      </preamble>
+      <list>
+        <point eId="point_1">
+          <heading>
+            <authorialNote placement="side">
+              <p>משכורת המבקר</p>
+            </authorialNote>
+          </heading>
+          <num>1.</num>
+          <content>
+            <p>למבקר המדינה ישולמו משכורת ותשלומים אחרים כפי שנקבעו לשרים <ref href="/akn/il/act/SecondaryLegislation/1982-01-17/100013901">בהחלטת שכר שרים וסגני שרים, התשמ"א–1981</ref>.<br space="preserve"></br><wikicomment font-size="x-small"><ref href="/akn/il/act/SecondaryLegislation/1982-01-17/100013901">החלטת שכר שרים וסגני שרים, התשמ"א–1981</ref> הוחלפה <ref href="/akn/il/act/SecondaryLegislation/1982-01-17/100013901">בהחלטת שכר שרים וסגני שרים, התשמ"ב–1982</ref>.</wikicomment></p>
+          </content>
+        </point>
+        <point eId="point_2">
+          <heading>
+            <authorialNote placement="side">
+              <p>ביטול</p>
+            </authorialNote>
+          </heading>
+          <num>2.</num>
+          <content>
+            <p>החלטת משכורת מבקר המדינה, התשל"ו–1976 – בטלה.</p>
+          </content>
+        </point>
+      </list>
+    </body>
+    <conclusions eId="eId">
+      <p class="signatures">
+        <signature>
+          <p>
+            <person refersTo="שלמה_לורינץ">שלמה לורינץ</person>
+            <role refersTo="יושב_ראש_ועדת_הכספים_של_הכנסת">יושב ראש ועדת הכספים של הכנסת</role>
+          </p>
+        </signature>
+      </p>
+    </conclusions>
+  </act>
+</akomaNtoso>

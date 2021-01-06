@@ -1,0 +1,2379 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion" name="publicLaw">
+    <meta>
+      <identification source="#kensset">
+        <FRBRWork>
+          <FRBRthis value="/akn/il/act/PrimaryLegislation/2001-06-20/170684/main" />
+          <FRBRuri value="/akn/il/act/PrimaryLegislation/2001-06-20/170684" />
+          <FRBRdate date="2001-06-20" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRcountry value="israel" />
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/il/act/PrimaryLegislation/2001-06-20/170684/he@/main" />
+          <FRBRuri value="/akn/il/act/PrimaryLegislation/2001-06-20/170684/he@" />
+          <FRBRdate date="2001-06-20" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRlanguage language="hebrew" />
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/il/act/PrimaryLegislation/2001-06-20/170684/he@/main.xml" />
+          <FRBRuri value="/akn/il/act/PrimaryLegislation/2001-06-20/170684/he@" />
+          <FRBRdate date="2001-06-20" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRformat value="xml" />
+        </FRBRManifestation>
+      </identification>
+      <classification source="#kensset">
+        <keyword value="{classificationValue}" showAs="{classificationValue}" dictionary="#classification_dictionary" />
+      </classification>
+      <lifecycle source="#kensset">
+        <eventRef eId="eventRef_1" date="2001-06-20" source="#kensset" type="generation" />
+      </lifecycle>
+      <references source="#kensset">
+        <TLCOrganization eId="kensset" href="/ontology/organization/akn/knesset" showAs="Kensset" type="generation" />
+        <TLCRole eId="author" href="/ontology/role/akn/author" showAs="Author of Document" />
+        <TLCProcess eId="inforce" href="/ontology/process/akn/inforce" showAs="In force" />
+        <TLCTerm eId="term_1" href="/ontology/term/מאסר/170684" showAs="מאסר" />
+        <TLCTerm eId="term_2" href="/ontology/term/מאסר_עולם/170684" showAs="מאסר_עולם" />
+        <TLCTerm eId="term_3" href="/ontology/term/אסיר_עולם/170684" showAs="אסיר_עולם" />
+        <TLCTerm eId="term_4" href="/ontology/term/הרשות_לשיקום_האסיר/170684" showAs="הרשות_לשיקום_האסיר" />
+        <TLCTerm eId="term_5" href="/ontology/term/הועדה/170684" showAs="הועדה" />
+        <TLCTerm eId="term_6" href="/ontology/term/ועדת_שחרורים/170684" showAs="ועדת_שחרורים" />
+        <TLCTerm eId="term_7" href="/ontology/term/ועדת_שחרורים_מיוחדת/170684" showAs="ועדת_שחרורים_מיוחדת" />
+        <TLCTerm eId="term_8" href="/ontology/term/חוק_העונשין/170684" showAs="חוק_העונשין" />
+        <TLCTerm eId="term_9" href="/ontology/term/היחידה_לשחרור_ממאסרים_קצרים/170684" showAs="היחידה_לשחרור_ממאסרים_קצרים" />
+        <TLCTerm eId="term_10" href="/ontology/term/פקודת_בתי_הסוהר/170684" showAs="פקודת_בתי_הסוהר" />
+        <TLCTerm eId="term_11" href="/ontology/term/פקודת_המבחן/170684" showAs="פקודת_המבחן" />
+        <TLCTerm eId="term_12" href="/ontology/term/שירות_המבחן/170684" showAs="שירות_המבחן" />
+        <TLCTerm eId="term_13" href="/ontology/term/אסיר/170684" showAs="אסיר" />
+        <TLCTerm eId="term_14" href="/ontology/term/מאסר/170684" showAs="מאסר" />
+        <TLCTerm eId="term_15" href="/ontology/term/רופא/170684" showAs="רופא" />
+        <TLCTerm eId="term_16" href="/ontology/term/מאסר_בפועל/170684" showAs="מאסר_בפועל" />
+        <TLCTerm eId="term_17" href="/ontology/term/תקופת_תנאי_חדשה/170684" showAs="תקופת_תנאי_חדשה" />
+        <TLCTerm eId="term_18" href="/ontology/term/הגשת_בקשה/170684" showAs="הגשת_בקשה" />
+        <TLCTerm eId="term_19" href="/ontology/term/גזר_דין/170684" showAs="גזר_דין" />
+        <TLCPerson eId="אריאל_שרון" href="/ontology/person/אריאל_שרון" showAs="אריאל שרון" />
+        <TLCPerson eId="מאיר_שטרית" href="/ontology/person/מאיר_שטרית" showAs="מאיר שטרית" />
+        <TLCPerson eId="משה_קצב" href="/ontology/person/משה_קצב" showAs="משה קצב" />
+        <TLCPerson eId="אברהם_בורג" href="/ontology/person/אברהם_בורג" showAs="אברהם בורג" />
+        <TLCRole eId="ראש_הממשלה" href="ontology/role/akn/ראש_הממשלה" showAs="ראש הממשלה" />
+        <TLCRole eId="שר_המשפטים" href="ontology/role/akn/שר_המשפטים" showAs="שר המשפטים" />
+        <TLCRole eId="נשיא_המדינה" href="ontology/role/akn/נשיא_המדינה" showAs="נשיא המדינה" />
+        <TLCRole eId="יושב_ראש_הכנסת" href="ontology/role/akn/יושב_ראש_הכנסת" showAs="יושב ראש הכנסת" />
+      </references>
+      <temporalData source="#kensset">
+        <temporalGroup eId="tmpg_1" />
+      </temporalData>
+      <Publication></Publication>
+      <proprietary wikiversion="11/22/2020 9:04:17 AM" />
+    </meta>
+    <body period="#tmpg_1">
+      <title eId="title">
+        <content>
+          <p>חוק שחרור על־תנאי ממאסר, התשס"א–2001</p>
+        </content>
+      </title>
+      <preamble eId="eId">
+        <p>בנוסח זה משולבת <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/http_fs_knesset_gov_il_20_law_20_lsr_504208_pdf">הוראת שעה תשע"ח</ref>, שתוקפה ל3 שנים מיום 15.10.2018; לנוסח הקבוע ראו <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/חוק_שחרור_על_תנאי_ממאסר_נוסח_קבוע">חוק שחרור על־תנאי ממאסר/נוסח קבוע</ref>.</p>
+      </preamble>
+      <chapter eId="chp_א">
+        <num>פרק א׳:</num>
+        <title>
+          <content>
+            <p>פרשנות</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_1" class="definitions">
+            <heading>
+              <authorialNote placement="side">
+                <p>הגדרות</p>
+              </authorialNote>
+            </heading>
+            <num>1.</num>
+            <list>
+              <intro>
+                <p>בחוק זה –</p>
+              </intro>
+              <point eId="point_1__point_מאסר">
+                <content>
+                  <p>
+                    <def />”מאסר“ – מאסר שנגזר במשפט פלילי, למעט מאסר בשל אי תשלום קנס;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_מאסר_עולם">
+                <content>
+                  <p>
+                    <def />”מאסר עולם“ – מאסר לתקופה בלתי קצובה;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_אסיר_עולם">
+                <content>
+                  <p>
+                    <def />”אסיר עולם“ – מי שנגזר עליו עונש מאסר עולם, בין אם עונשו נקצב ובין אם לאו;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_הרשות_לשיקום_האסיר">
+                <content>
+                  <p>
+                    <def />”הרשות לשיקום האסיר“ – כמשמעותה <ref href="/akn/il/act/PrimaryLegislation/1983-03-11/148552">בחוק הרשות לשיקום האסיר, התשמ"ג–1983</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_הועדה">
+                <content>
+                  <p>
+                    <def />”הועדה“ – ועדת שחרורים או ועדת שחרורים מיוחדת;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_ועדת_שחרורים">
+                <content>
+                  <p>
+                    <def />”ועדת שחרורים“ – ועדה שמונתה לפי הוראות <ref href="#point_32">סעיף 32</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_ועדת_שחרורים_מיוחדת">
+                <content>
+                  <p>
+                    <def />”ועדת שחרורים מיוחדת“ – ועדה שמונתה לפי הוראות <ref href="#point_33">סעיף 33</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_חוק_העונשין">
+                <content>
+                  <p>
+                    <def />”חוק העונשין“ – <ref href="/akn/il/act/PrimaryLegislation/1977-08-04/2002251">חוק העונשין, התשל"ז–1977</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_היחידה_לשחרור_ממאסרים_קצרים">
+                <content>
+                  <p>
+                    <def />”היחידה לשחרור ממאסרים קצרים“ – כמשמעותה <ref href="#point_31א">בסעיף 31א</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_פקודת_בתי_הסוהר">
+                <content>
+                  <p>
+                    <def />”פקודת בתי הסוהר“ – <ref href="/akn/il/act/PrimaryLegislation/1971-10-20/2002271">פקודת בתי הסוהר [נוסח חדש], התשל"ב–1971</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_פקודת_המבחן">
+                <content>
+                  <p>
+                    <def />”פקודת המבחן“ – <ref href="/akn/il/act/PrimaryLegislation/1969-08-01/2001784">פקודת המבחן [נוסח חדש], התשכ"ט–1969</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_שירות_המבחן">
+                <content>
+                  <p>
+                    <def />”שירות המבחן“ – כמשמעותו <ref href="/akn/il/act/PrimaryLegislation/1969-08-01/2001784#chp_ד">בפרק ד׳ לפקודת המבחן</ref>.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+        </list>
+      </chapter>
+      <chapter eId="chp_ב">
+        <num>פרק ב׳:</num>
+        <title>
+          <content>
+            <p>שחרור על־תנאי</p>
+          </content>
+        </title>
+        <section eId="chp_ב__sec_א">
+          <num>סימן א׳:</num>
+          <title>
+            <content>
+              <p>סמכות לשחרור על־תנאי</p>
+            </content>
+          </title>
+          <list>
+            <point eId="point_2">
+              <heading>
+                <authorialNote placement="side">
+                  <p>שחרור על־תנאי על ידי היחידה לשחרור ממאסרים קצרים – הוראת שעה</p>
+                </authorialNote>
+              </heading>
+              <num>2.</num>
+              <list>
+                <point eId="point_2__point_א">
+                  <num>(א)</num>
+                  <list>
+                    <intro>
+                      <p>אסיר כמפורט להלן, הנושא עונש מאסר לתקופה העולה על שלושה חודשים ואינה עולה על שנה, שנשא שני שלישים לפחות מתקופת המאסר שעליו לשאת, רשאית היחידה לשחרור ממאסרים קצרים, לבקשתו, לשחררו על־תנאי מנשיאת יתרת תקופת המאסר:</p>
+                    </intro>
+                    <point eId="point_2__point_א__point_1">
+                      <num>(1)</num>
+                      <content>
+                        <p>אסיר הנושא עונש מאסר לתקופה העולה על שלושה חודשים ואינה עולה על שישה חודשים;</p>
+                      </content>
+                    </point>
+                    <point eId="point_2__point_א__point_2">
+                      <num>(2)</num>
+                      <content>
+                        <p>אסיר, למעט אסיר כאמור <ref href="#point_11">בסעיפים 11</ref><ref href="#point_12">ו־12</ref>, הנושא עונש מאסר לתקופה העולה על שישה חודשים ואינה עולה על שנה, ובמועד תום שני שלישים מתקופת המאסר שעליו לשאת הוא בגיר.</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+                <point eId="point_2__point_ב">
+                  <num>(ב)</num>
+                  <content>
+                    <p>שירות בתי הסוהר יידע כל אסיר על זכותו להגיש בקשה כאמור בסעיף קטן (א).</p>
+                  </content>
+                </point>
+                <point eId="point_2__point_ג">
+                  <num>(ג)</num>
+                  <list>
+                    <point eId="point_2__point_ג__point_1">
+                      <num>(1)</num>
+                      <content>
+                        <p>בקשה כאמור בסעיף קטן (א) תוגש על ידי האסיר או בא כוחו.</p>
+                      </content>
+                    </point>
+                    <point eId="point_2__point_ג__point_2">
+                      <num>(2)</num>
+                      <content>
+                        <p>בקשה של אסיר כאמור בסעיף קטן (א)(1) שהוא קטין, יכול שתוגש גם בידי סוהר כהגדרתו <ref href="/akn/il/act/PrimaryLegislation/1971-10-20/2002271">בפקודת בתי הסוהר</ref> בדרגת רב–כלאי ומעלה, בבית הסוהר שבו מוחזק האסיר, שנציב בתי הסוהר מינה לכך.</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+                <point eId="point_2__point_ד">
+                  <num>(ד)</num>
+                  <content>
+                    <p>היחידה לשחרור ממאסרים קצרים לא תשחרר אסיר כאמור בסעיף קטן (א), אלא אם כן שוכנעה כי הוא ראוי לשחרור וכי שחרורו אינו מסכן את שלום הציבור.</p>
+                  </content>
+                </point>
+                <point eId="point_2__point_ה">
+                  <num>(ה)</num>
+                  <content>
+                    <p>היחידה לשחרור ממאסרים קצרים תקבל החלטה בדבר בקשת אסיר כאמור בסעיף קטן (א), בהקדם האפשרי בהתחשב בכלל נסיבות העניין, ובכלל זה במועד גזר הדין ובמועד הגשת הבקשה כאמור.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_3">
+              <heading>
+                <authorialNote placement="side">
+                  <p>שחרור על־תנאי על ידי ועדת שחרורים – הוראת שעה</p>
+                </authorialNote>
+              </heading>
+              <num>3.</num>
+              <list>
+                <point eId="point_3__point_א">
+                  <num>(א)</num>
+                  <list>
+                    <intro>
+                      <p>אסיר, למעט אסיר עולם, שהוא אחד מאלה, ושנשא שני שלישים לפחות מתקופת המאסר שעליו לשאת, רשאית ועדת השחרורים, לבקשתו, לשחררו על־תנאי מנשיאת יתרת תקופת המאסר:</p>
+                    </intro>
+                    <point eId="point_3__point_א__point_1">
+                      <num>(1)</num>
+                      <content>
+                        <p>אסיר הנושא עונש מאסר לתקופה העולה על שנה;</p>
+                      </content>
+                    </point>
+                    <point eId="point_3__point_א__point_2">
+                      <num>(2)</num>
+                      <content>
+                        <p>אסיר הנושא עונש מאסר לתקופה העולה על שישה חודשים, שהוא קטין במועד תום שני שלישים מתקופת המאסר שעליו לשאת או שהוא אסיר כאמור <ref href="#point_11">בסעיף 11</ref><ref href="#point_12">או 12</ref>.</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+                <point eId="point_3__point_ב">
+                  <num>(ב)</num>
+                  <content>
+                    <p>ועדת השחרורים לא תשחרר אסיר כאמור בסעיף קטן (א), אלא אם כן שוכנעה כי הוא ראוי לשחרור וכי שחרורו אינו מסכן את שלום הציבור.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_4">
+              <heading>
+                <authorialNote placement="side">
+                  <p>שחרור על־תנאי ממאסר ממושך על ידי ועדת שחרורים מיוחדת</p>
+                </authorialNote>
+              </heading>
+              <num>4.</num>
+              <content>
+                <p>אסיר, למעט אסיר עולם, השוהה במאסר 25 שנים לפחות, רשאית ועדת שחרורים מיוחדת לשחררו על־תנאי, גם אם טרם חלפו שני שלישים מתקופת מאסרו; ואולם לא תשחרר ועדת השחרורים המיוחדת אסיר כאמור, אלא אם כן שוכנעה כי האסיר ראוי לשחרור וכי שחרורו אינו מסכן את שלום הציבור.</p>
+              </content>
+            </point>
+            <point eId="point_5">
+              <heading>
+                <authorialNote placement="side">
+                  <p>שחרור על־תנאי ממאסר עולם על ידי ועדת שחרורים מיוחדת</p>
+                </authorialNote>
+              </heading>
+              <num>5.</num>
+              <content>
+                <p>אסיר עולם שעונשו נקצב ושנשא לפחות שני שלישים מהתקופה שנקצבה, רשאית ועדת שחרורים מיוחדת לשחררו על־תנאי מנשיאת יתרת תקופת המאסר; ואולם לא תשחרר ועדת השחרורים המיוחדת אסיר עולם כאמור אלא אם כן שוכנעה כי האסיר ראוי לשחרור וכי שחרורו אינו מסכן את שלום הציבור.</p>
+              </content>
+            </point>
+            <point eId="point_6">
+              <heading>
+                <authorialNote placement="side">
+                  <p>סייג לשחרור על־תנאי</p>
+                </authorialNote>
+              </heading>
+              <num>6.</num>
+              <content>
+                <p>לא יינתן שחרור על־תנאי מתקופת מאסר שעל אסיר לשאת בשל ביטול שחרורו על־תנאי, למעט שחרור מטעמים רפואיים לפי <ref href="#point_7">סעיף 7</ref>.</p>
+              </content>
+            </point>
+            <point eId="point_7">
+              <heading>
+                <authorialNote placement="side">
+                  <p>שחרור על־תנאי מטעמים רפואיים</p>
+                </authorialNote>
+              </heading>
+              <num>7.</num>
+              <list>
+                <point eId="point_7__point_א">
+                  <num>(א)</num>
+                  <list>
+                    <intro>
+                      <p>הועדה רשאית, בכל עת, לשחרר על־תנאי אסיר ממאסרו, לאחר ששקלה חוות דעת של רופא, בהתקיים אחד מאלה:</p>
+                    </intro>
+                    <point eId="point_7__point_א__point_1">
+                      <num>(1)</num>
+                      <content>
+                        <p>ימיו של האסיר ספורים, ובלבד שמצבו הרפואי האמור היה לכזה לאחר שפסק הדין בעניינו היה לחלוט או שהמשך שהותו במאסר יסכן את חייו באופן ממשי, בשל חולניותו;</p>
+                      </content>
+                    </point>
+                    <point eId="point_7__point_א__point_2">
+                      <num>(2)</num>
+                      <list>
+                        <intro>
+                          <p>מצבו הרפואי של האסיר הוא כמפורט בפסקת משנה (א) או (ב), ובלבד שמצבו הרפואי האמור היה לכזה לאחר שפסק הדין בעניינו היה לחלוט:</p>
+                        </intro>
+                        <point eId="point_7__point_א__point_2__point_א">
+                          <num>(א)</num>
+                          <content>
+                            <p>האסיר זקוק באופן קבוע להנשמה באמצעי מלאכותי, בשל חוסר יכולת לנשום באופן עצמוני;</p>
+                          </content>
+                        </point>
+                        <point eId="point_7__point_א__point_2__point_ב">
+                          <num>(ב)</num>
+                          <content>
+                            <p>האסיר מחוסר הכרה באופן קבוע או נמצא במצב דמנציה מתקדמת, שבשלהם הוא זקוק להשגחה רצופה במשך 24 שעות ביממה; לעניין זה, ”דמנציה מתקדמת“ – אי־התמצאות בזמן ובמקום באופן קבוע מפאת מצב גופני או בשל ירידה קוגנטיבית.</p>
+                          </content>
+                        </point>
+                      </list>
+                    </point>
+                  </list>
+                </point>
+                <point eId="point_7__point_ב">
+                  <num>(ב)</num>
+                  <list>
+                    <point eId="point_7__point_ב__point_1">
+                      <num>(1)</num>
+                      <list>
+                        <intro>
+                          <p>הוועדה רשאית, בכל עת, לשחרר על־תנאי אסיר ממאסרו, שחרור זמני לפרק זמן כאמור בפסקה (2), לאחר ששקלה חוות דעת של רופא, ובלבד שהאסיר הוא אחד מאלה:</p>
+                        </intro>
+                        <point eId="point_7__point_ב__point_1__point_א">
+                          <num>(א)</num>
+                          <content>
+                            <p>אסיר שמתקיים לגביו האמור בסעיף קטן (א)(1);</p>
+                          </content>
+                        </point>
+                        <point eId="point_7__point_ב__point_1__point_ב">
+                          <num>(ב)</num>
+                          <content>
+                            <p>אסיר החולה במחלת הסרטן או אסיר שעבר או שעומד לעבור השתלה של איבר חיוני, ואשר בשל כך עליו לקבל טיפול רפואי שיש בו כדי לסכן את חייו באופן ממשי והטיפול מלווה בירידה ניכרת בתפקוד ובסבל רב.</p>
+                          </content>
+                        </point>
+                      </list>
+                    </point>
+                    <point eId="point_7__point_ב__point_2">
+                      <num>(2)</num>
+                      <content>
+                        <p>שחרור זמני על־תנאי לפי פסקה (1) יהיה לפרק זמן שלא יעלה על חצי שנה, ורשאית הוועדה להאריך את השחרור הזמני לתקופות נוספות שלא יעלו על חצי שנה כל אחת, ובלבד ששחרור על־תנאי של אסיר כאמור בפסקה (1)(ב) יהיה לתקופת קבלת הטיפול הרפואי בלבד.</p>
+                      </content>
+                    </point>
+                    <point eId="point_7__point_ב__point_3">
+                      <num>(3)</num>
+                      <content>
+                        <p>תקופת השחרור לפי סעיף קטן זה תיחשב במניין תקופת מאסרו של האסיר, אלא אם כן קבעה הוועדה אחרת.</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+                <point eId="point_7__point_ג">
+                  <num>(ג)</num>
+                  <content>
+                    <p>בבואה להחליט על שחרור על־תנאי לפי סעיף זה, תשקול הועדה גם שיקולים של טובת הציבור, לרבות שלום משפחתו של האסיר ושלום נפגע העבירה ומשפחתו.</p>
+                  </content>
+                </point>
+                <point eId="point_7__point_ג1">
+                  <num>(ג1)</num>
+                  <content>
+                    <p>הוועדה רשאית להתנות את החלטתה לפי סעיף זה בחתימתו של האסיר או של אפוטרופסו, לפי העניין, על ויתור על סודיות רפואית בכל הנוגע למצבו הרפואי של האסיר בתקופת השחרור על־תנאי.</p>
+                  </content>
+                </point>
+                <point eId="point_7__point_ג2">
+                  <num>(ג2)</num>
+                  <content>
+                    <p>לא תורה הוועדה על שחרורו על־תנאי של אסיר לפי סעיף זה אלא בהסכמתו, ואם אין ביכולתו לתתה – בהסכמת אפוטרופסו; התקיים הדיון שלא על פי בקשת האסיר או אפוטרופסו – לא תורה הוועדה על שחרור כאמור אלא לאחר ששוכנעה כי נמצא לאסיר מקום לשהות בו לאחר שחרורו, המתאים לצרכיו הרפואיים.</p>
+                  </content>
+                </point>
+                <point eId="point_7__point_ד">
+                  <num>(ד)</num>
+                  <content>
+                    <p>החלטה לפי סעיפים קטנים (א) ו־(ב) יכולה, במקרים דחופים, להינתן בידי יושב ראש הועדה, ומשניתנה כך, יהיה תוקפה לתקופה של 30 ימים בלבד, אלא אם כן אושרה ההחלטה בידי הועדה לפני תום תקופה זו.</p>
+                  </content>
+                </point>
+                <point eId="point_7__point_ד1">
+                  <num>(ד1)</num>
+                  <content>
+                    <p>המזכיר הראשי כמשמעותו <ref href="#point_34">בסעיף 34(א)</ref>, ידווח לשר המשפטים, אחת לשנה, על היקף השימוש בסמכויות הוועדה לפי סעיף זה.</p>
+                  </content>
+                </point>
+                <point eId="point_7__point_ה">
+                  <num>(ה)</num>
+                  <list>
+                    <intro>
+                      <p>בסעיף זה –</p>
+                    </intro>
+                    <point eId="point_7__point_ה__point_אסיר">
+                      <content>
+                        <p>
+                          <def />”אסיר“ – מי שנגזר עליו עונש מאסר, לרבות מי שבית משפט החליט לגביו כי יישא את עונש המאסר בעבודת שירות, לפי הוראות <ref href="/akn/il/act/PrimaryLegislation/1977-08-04/2002251#chp_ו_sec_ב1">סימן ב׳1 בפרק ו׳ לחוק העונשין</ref>, ובלבד שהחל לשאת את עונשו;</p>
+                      </content>
+                    </point>
+                    <point eId="point_7__point_ה__point_מאסר">
+                      <content>
+                        <p>
+                          <def />”מאסר“ – לרבות בשל אי־תשלום קנס;</p>
+                      </content>
+                    </point>
+                    <point eId="point_7__point_ה__point_רופא">
+                      <content>
+                        <p>
+                          <def />”רופא“ – רופא שנכלל ברשימה שקבע לענין זה המנהל הכללי של משרד הבריאות ושפורסמה ברשומות.</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+              </list>
+            </point>
+            <point eId="point_8">
+              <heading>
+                <authorialNote placement="side">
+                  <p>חישוב תקופת המאסר</p>
+                </authorialNote>
+              </heading>
+              <num>8.</num>
+              <list>
+                <point eId="point_8__point_א">
+                  <num>(א)</num>
+                  <content>
+                    <p>תקופת המאסר לענין שחרור על־תנאי, תהיה סך כל תקופות המאסר שעל האסיר לשאת בזו אחר זו, למעט תקופת מאסר שעל האסיר לשאת בשל ביטול שחרורו על־תנאי.</p>
+                  </content>
+                </point>
+                <point eId="point_8__point_ב">
+                  <num>(ב)</num>
+                  <content>
+                    <p>בחישוב תקופת המאסר של אסיר עולם לענין <ref href="#point_5">סעיף 5</ref>, תובא בחשבון התקופה שבה היה האסיר במעצר בשל העבירה שבשלה נגזר עליו מאסר העולם, ואולם בחישוב תקופת המאסר לעניין סעיף זה, לא תובא בחשבון התקופה שבה היה האסיר במעצר בפיקוח אלקטרוני, כמשמעותו <ref href="/akn/il/act/PrimaryLegislation/1996-05-12/159712#point_22ב">בסעיף 22ב לחוק סדר הדין הפלילי (סמכויות אכיפה – מעצרים), התשנ"ו–1996</ref> (בחוק זה – חוק המעצרים).</p>
+                  </content>
+                </point>
+                <point eId="point_8__point_ג">
+                  <num>(ג)</num>
+                  <content>
+                    <p>בחישוב תקופת המאסר של מי שהועבר ממעון נעול למאסר בהתאם להוראות <ref href="/akn/il/act/PrimaryLegislation/1971-07-23/150253#point_25א">סעיפים 25א</ref><ref href="/akn/il/act/PrimaryLegislation/1971-07-23/150253#point_25ב">או 25ב(ג) לחוק הנוער (שפיטה, ענישה ודרכי טיפול), התשל"א–1971</ref>, תובא בחשבון תקופת החזקתו במעון הנעול.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+          </list>
+        </section>
+        <section eId="chp_ב__sec_ב">
+          <num>סימן ב׳:</num>
+          <title>
+            <content>
+              <p>שחרור על־תנאי על ידי ועדת שחרורים</p>
+            </content>
+          </title>
+          <list>
+            <point eId="point_9">
+              <heading>
+                <authorialNote placement="side">
+                  <p>שיקולי הועדה</p>
+                </authorialNote>
+              </heading>
+              <num>9.</num>
+              <list>
+                <intro>
+                  <p>בבואה להחליט אם ראוי אסיר לשחרור על־תנאי, תשקול הועדה את הסיכון הצפוי משחרורו של האסיר לשלום הציבור, לרבות למשפחתו, לנפגע העבירה ולביטחון המדינה, את סיכויי שיקומו של האסיר ואת התנהגותו בכלא; לשם כך תביא הועדה בחשבון, בין השאר, נתונים אלה:</p>
+                </intro>
+                <point eId="point_9__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>העבירה שבשלה נושא האסיר עונש מאסר, לרבות נסיבות ביצועה, סוגה, חומרתה, היקפה ותוצאותיה, תקופת המאסר שגזר עליו בית המשפט, קנס או פיצוי לפי <ref href="/akn/il/act/PrimaryLegislation/1977-08-04/2002251#point_77">סעיף 77 לחוק העונשין</ref>, שהוא חויב בהם בגזר הדין כאמור, האם שילמם ואם לא שילמם – הסיבות לכך וכן הקלה בעונש אם ניתנה לו בידי נשיא המדינה;</p>
+                  </content>
+                </point>
+                <point eId="point_9__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>תוכנם של כתבי אישום התלויים ועומדים נגד האסיר; סוגי העבירות שבהן הוא מואשם, נסיבות ביצוען ותוצאותיהן, על פי האישומים;</p>
+                  </content>
+                </point>
+                <point eId="point_9__point_3">
+                  <num>(3)</num>
+                  <content>
+                    <p>הרשעותיו הקודמות של האסיר, מספרן, תכיפותן, סוגי העבירות שבהן הורשע, חומרתן, נסיבות ביצוען, תוצאותיהן, היקפן ותקופות המאסר שנשא בשלהן;</p>
+                  </content>
+                </point>
+                <point eId="point_9__point_4">
+                  <num>(4)</num>
+                  <content>
+                    <p>דיונים קודמים בועדות בענינו של האסיר והחלטות בהם, לרבות בענין ביטול שחרורו על־תנאי;</p>
+                  </content>
+                </point>
+                <point eId="point_9__point_5">
+                  <num>(5)</num>
+                  <content>
+                    <p>הקלות בעונש שנתן לו נשיא המדינה בשל עונשי מאסר קודמים שהוטלו עליו;</p>
+                  </content>
+                </point>
+                <point eId="point_9__point_6">
+                  <num>(6)</num>
+                  <list>
+                    <intro>
+                      <p>התנהגות, חיובית או שלילית, של האסיר בבית הסוהר במהלך תקופת מאסרו, כמפורט להלן:</p>
+                    </intro>
+                    <point eId="point_9__point_6__point_א">
+                      <num>(א)</num>
+                      <content>
+                        <p>התנהגות טובה של האסיר במהלך תקופת המאסר;</p>
+                      </content>
+                    </point>
+                    <point eId="point_9__point_6__point_ב">
+                      <num>(ב)</num>
+                      <content>
+                        <p>גילוי יחס חיובי מצד האסיר לעבודה ולצעדים שננקטו לשם שיקומו;</p>
+                      </content>
+                    </point>
+                    <point eId="point_9__point_6__point_ג">
+                      <num>(ג)</num>
+                      <content>
+                        <p>שימוש בסם מסוכן, כהגדרתו <ref href="/akn/il/act/PrimaryLegislation/1973-07-10/2002282">בפקודת הסמים המסוכנים [נוסח חדש], התשל"ג–1973</ref> (להלן – סם מסוכן);</p>
+                      </content>
+                    </point>
+                    <point eId="point_9__point_6__point_ד">
+                      <num>(ד)</num>
+                      <content>
+                        <p>גמילה משימוש בסם מסוכן;</p>
+                      </content>
+                    </point>
+                    <point eId="point_9__point_6__point_ה">
+                      <num>(ה)</num>
+                      <content>
+                        <p>עבירה פלילית שעבר האסיר וסוג העבירה;</p>
+                      </content>
+                    </point>
+                    <point eId="point_9__point_6__point_ו">
+                      <num>(ו)</num>
+                      <content>
+                        <p>התנהגות שיש בה כדי לפגוע פגיעה של ממש באסירים אחרים או בסוהרים או לשבש את סדריו של בית הסוהר;</p>
+                      </content>
+                    </point>
+                    <point eId="point_9__point_6__point_ז">
+                      <num>(ז)</num>
+                      <content>
+                        <p>מעורבות בפעילות עבריינית, בין בתוך כותלי בית הסוהר ובין מחוץ להם;</p>
+                      </content>
+                    </point>
+                    <point eId="point_9__point_6__point_ח">
+                      <num>(ח)</num>
+                      <content>
+                        <p>בריחה מבית הסוהר או חזרה אליו שלא במועד;</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+                <point eId="point_9__point_7">
+                  <num>(7)</num>
+                  <content>
+                    <p>חוות דעת על האסיר שנתנו שירות בתי הסוהר, משטרת ישראל או רשויות הביטחון ובמקרים המתאימים גם חוות דעת מקצועיות, בין השאר בנושא גילוי עריות, אלימות במשפחה ובריאות הנפש;</p>
+                  </content>
+                </point>
+                <point eId="point_9__point_8">
+                  <num>(8)</num>
+                  <list>
+                    <intro>
+                      <p>חוות דעת של הרשות לשיקום האסיר, אם ניתנה, לענין שחרורו על־תנאי של האסיר, כמפורט להלן, שלה יינתן משקל גדול יותר ככל שהחלק מעונש המאסר שנשא האסיר קטן יותר:</p>
+                    </intro>
+                    <point eId="point_9__point_8__point_א">
+                      <num>(א)</num>
+                      <content>
+                        <p>חוות דעת הכוללת תכנית לשיקומו של האסיר, אפשרויות השתלבותו בעבודה סדירה או בתכנית טיפולית; לענין זה תובא בחשבון גם מידת הפיקוח על התכנית המוצעת על ידי הרשות לשיקום האסיר;</p>
+                      </content>
+                    </point>
+                    <point eId="point_9__point_8__point_ב">
+                      <num>(ב)</num>
+                      <content>
+                        <p>חוות דעת שלפיה אין האסיר זקוק לתכנית שיקום ושהוא אינו מגלה דפוסי התנהגות עבריינית;</p>
+                      </content>
+                    </point>
+                    <point eId="point_9__point_8__point_ג">
+                      <num>(ג)</num>
+                      <content>
+                        <p>חוות דעת שלפיה אין האסיר מתאים לשיקום;</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+                <point eId="point_9__point_9">
+                  <num>(9)</num>
+                  <content>
+                    <p>לענין אסיר שהוטל עליו בצו מבחן לפי <ref href="/akn/il/act/PrimaryLegislation/1969-08-01/2001784">פקודת המבחן</ref>, לעמוד בפיקוחו של קצין מבחן לאחר שחרורו מהמאסר – חוות דעת של שירות המבחן, אם ניתנה, לענין שחרורו על־תנאי של האסיר;</p>
+                  </content>
+                </point>
+                <point eId="point_9__point_10">
+                  <num>(10)</num>
+                  <content>
+                    <p>נתונים אישיים של האסיר, לרבות גילו ומצבו המשפחתי.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_10">
+              <heading>
+                <authorialNote placement="side">
+                  <p>שיקולים נוספים להחלטת הועדה</p>
+                </authorialNote>
+              </heading>
+              <num>10.</num>
+              <list>
+                <point eId="point_10__point_א">
+                  <num>(א)</num>
+                  <content>
+                    <p>במקרים בעלי חומרה ובנסיבות מיוחדות שבהם סברה הועדה כי שחרורו של האסיר על־תנאי יפגע במידה חמורה באמון הציבור במערכת המשפט, אכיפת החוק ובהרתעת הרבים, משנוצר יחס בלתי סביר בין חומרת העבירה, נסיבותיה והעונש שנגזר על האסיר לבין תקופת המאסר שיישא האסיר בפועל אם ישוחרר, רשאית הועדה להביא בחשבון גם נתונים אלה בהחלטתה, נוסף על הנתונים המפורטים <ref href="#point_9">בסעיף 9</ref>; משקלם של הנתונים לפי סעיף קטן זה בהחלטת הועדה יפחת ככל שיגדל החלק מעונש המאסר שהאסיר כבר נשא.</p>
+                  </content>
+                </point>
+                <point eId="point_10__point_ב">
+                  <num>(ב)</num>
+                  <content>
+                    <p>ועדת שחרורים מיוחדת, בבואה להחליט בענין שחרור על־תנאי של אסיר עולם, תשקול, נוסף על שיקולים אחרים האמורים בחוק זה, האם חל באסיר שינוי בולט וממשי מבחינת הבנת חומרת מעשיו ומבחינת מוכנותו להשתלב בחברה ולתרום לה.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_11">
+              <heading>
+                <authorialNote placement="side">
+                  <p>שחרור אסיר הנושא מאסר בשל עבירת אלימות או מין בתוך המשפחה</p>
+                </authorialNote>
+              </heading>
+              <num>11.</num>
+              <list>
+                <point eId="point_11__point_א">
+                  <num>(א)</num>
+                  <content>
+                    <p>הועדה לא תחליט על שחרורו על־תנאי של אסיר הנושא עונש מאסר בשל עבירה מן העבירות המנויות <ref href="#appendix">בתוספת</ref>, אלא לאחר שצוות מקצועי, הכולל נציגים של משרד העבודה והרווחה ושל שירות בתי הסוהר, הגיש לה חוות דעת לענין מידת הסכנה הנשקפת לציבור משחרור האסיר, לרבות הסכנה לנפגע העבירה.</p>
+                  </content>
+                </point>
+                <point eId="point_11__point_ב">
+                  <num>(ב)</num>
+                  <content>
+                    <p>שר המשפטים רשאי, בצו, באישור שר העבודה והרווחה וועדת החוקה חוק ומשפט של הכנסת, לשנות את <ref href="#appendix">התוספת</ref>.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_12">
+              <heading>
+                <authorialNote placement="side">
+                  <p>שחרור אסיר הנושא מאסר בשל עבירת מין או הלוקה בנפשו</p>
+                </authorialNote>
+              </heading>
+              <num>12.</num>
+              <list>
+                <point eId="point_12__point_א">
+                  <num>(א)</num>
+                  <content>
+                    <p>הועדה לא תחליט על שחרורו על־תנאי של אסיר הנושא עונש מאסר בשל עבירת מין או החולה במחלת נפש או הסובל מהפרעה נפשית, אלא לאחר שהוגשה לה חוות דעת שלפיה האסיר אינו מסוכן לציבור, מאדם שהוסמך לענין זה על ידי שר הבריאות; בסעיף זה, ”חוות דעת“ לענין אסיר הנושא עונש מאסר בשל עבירת מין – הערכת מסוכנות כהגדרתה <ref href="/akn/il/act/PrimaryLegislation/2011-08-17/334940">בחוק הגנה על הציבור מפני ביצוע עבירות מין, התשס"ו–2006</ref> (בחוק זה – חוק הגנה על הציבור מפני ביצוע עבירות מין).</p>
+                  </content>
+                </point>
+                <point eId="point_12__point_ב">
+                  <num>(ב)</num>
+                  <content>
+                    <p>לא הוגשה חוות דעת כאמור בסעיף קטן (א), או שהוגשה חוות דעת שקבעה כי האסיר מסוכן לציבור במידה כלשהי אך ניתן לשחררו בתנאי שיקבל טיפול או בתנאי אחר, כפי שהומלץ בה, רשאית הועדה, על אף הוראות סעיף קטן (א), לשחרר אסיר כאמור באותו סעיף קטן, אם סברה, מטעמים מיוחדים שיירשמו, כי ניתן לשחררו בלא שייגרם בכך סיכון לציבור ובכפוף לתנאי שחרור שתקבע, שיבטיחו העדר סיכון כאמור.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_13">
+              <heading>
+                <authorialNote placement="side">
+                  <p>תנאי השחרור</p>
+                </authorialNote>
+              </heading>
+              <num>13.</num>
+              <list>
+                <point eId="point_13__point_א">
+                  <num>(א)</num>
+                  <content>
+                    <p>התנאי שבו מותנה שחרורו של אסיר לפי הוראות <ref href="#chp_ב">פרק זה</ref> בידי הוועדה, הוא שהמשוחרר לא יעבור עבירת עוון או פשע נוספת (להלן – עבירה נוספת) במשך תקופת התנאי; בחוק זה, ”תקופת התנאי“ – התקופה שמיום שחרורו על־תנאי של אסיר עד לסיום תקופת המאסר שהיה נושא לפי גזר הדין אילולא שוחרר, ולענין אסיר ששוחרר כאמור <ref href="#point_30">בסעיף 30(ב)</ref> – התקופה הקבועה בסעיף האמור, לפי העניין.</p>
+                  </content>
+                </point>
+                <point eId="point_13__point_ב">
+                  <num>(ב)</num>
+                  <content>
+                    <p>הועדה רשאית להתנות שחרורו של אסיר בתנאים נוספים, לרבות מתן ערובה על ידו.</p>
+                  </content>
+                </point>
+                <point eId="point_13__point_ג">
+                  <num>(ג)</num>
+                  <content>
+                    <p>הועדה רשאית, לפי המלצת שירות המבחן או הרשות לשיקום האסיר, להתנות את שחרורו על־תנאי של האסיר בהשתתפותו, במהלך תקופת התנאי, בתכנית טיפולית בפיקוח שירות המבחן, או בתכנית לשיקומו שהוכנה בידי הרשות לשיקום האסיר; שחרור כאמור יותנה גם בקיום פרטי התכנית והועדה רשאית להתנותו בתנאים נוספים לענין זה.</p>
+                  </content>
+                </point>
+                <point eId="point_13__point_ד">
+                  <num>(ד)</num>
+                  <list>
+                    <intro>
+                      <p>בהעדר קביעה אחרת של הועדה, יותנה שחרורו של אסיר, נוסף על התנאים האמורים בסעיפים קטנים (א) עד (ג), גם באלה:</p>
+                    </intro>
+                    <point eId="point_13__point_ד__point_1">
+                      <num>(1)</num>
+                      <content>
+                        <p>האסיר יודיע למנהל בית הסוהר על המקום שבכוונתו לגור בו בתקופת התנאי;</p>
+                      </content>
+                    </point>
+                    <point eId="point_13__point_ד__point_2">
+                      <num>(2)</num>
+                      <content>
+                        <p>בתוך 48 שעות מעת שהגיע האסיר למקום מגוריו, יתייצב לפני השוטר הממונה על תחנת המשטרה הקרובה לו ביותר במחוז שבו הוא גר (להלן – השוטר הממונה);</p>
+                      </content>
+                    </point>
+                    <point eId="point_13__point_ד__point_3">
+                      <num>(3)</num>
+                      <content>
+                        <p>האסיר יתייצב אחת לחודש, במהלך תקופת התנאי, לפני השוטר הממונה, ויודיע לו ולמנהל בית הסוהר, בהקדם האפשרי, על כל שינוי שחל במקום מגוריו;</p>
+                      </content>
+                    </point>
+                    <point eId="point_13__point_ד__point_4">
+                      <num>(4)</num>
+                      <content>
+                        <p>איסור יציאתו של האסיר מהארץ.</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+                <point eId="point_13__point_ה">
+                  <num>(ה)</num>
+                  <content>
+                    <p>מגבלות על אסיר ששוחרר על־תנאי ממאסר לפי <ref href="#chp_ב">פרק זה</ref> בידי הוועדה, אשר הוטלו בצו לפי <ref href="/akn/il/act/PrimaryLegislation/2004-11-17/320687#point_3">סעיף 3 לחוק מגבלות על חזרת עבריין מין לסביבת נפגע העבירה, התשס"ה–2004</ref> (בחוק זה – חוק מגבלות על עבריין מין), או בצו לפי <ref href="/akn/il/act/PrimaryLegislation/2011-08-17/334940">חוק הגנה על הציבור מפני ביצוע עבירות מין</ref> הן חלק מתנאי השחרור.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_13א">
+              <heading>
+                <authorialNote placement="side">
+                  <p>שחרור על־תנאי ממאסר בפיקוח אלקטרוני</p>
+                </authorialNote>
+              </heading>
+              <num>13א.</num>
+              <list>
+                <point eId="point_13א__point_א">
+                  <num>(א)</num>
+                  <content>
+                    <p>בלי לגרוע מהוראות <ref href="#point_13">סעיף 13</ref>, הוועדה רשאית, מנימוקים שיירשמו, להתנות את שחרורו על־תנאי של האסיר בקיומו של פיקוח אלקטרוני, כהגדרתו <ref href="/akn/il/act/PrimaryLegislation/1996-05-12/159712#point_22א">בסעיף 22א לחוק המעצרים</ref>, על עמידתו בתנאי המגביל את יציאתו ממקום מסוים או את כניסתו למקום מסוים, בהתאם לתכנית הפיקוח שנקבעה לו (בסעיף זה – שחרור על־תנאי בפיקוח אלקטרוני), בכל תקופת התנאי או בחלק ממנה, אם סברה כי תנאי זה מתאים ונדרש בנסיבות העניין.</p>
+                  </content>
+                </point>
+                <point eId="point_13א__point_ב">
+                  <num>(ב)</num>
+                  <list>
+                    <point eId="point_13א__point_ב__point_1">
+                      <num>(1)</num>
+                      <content>
+                        <p>לא תחליט ועדת השחרורים על שחרור על־תנאי בפיקוח אלקטרוני, אלא בהסכמת האסיר, ולאחר שקיבלה חוות דעת של הרשות לשיקום האסיר, ולפיה האסיר נמצא מתאים לשחרור על־תנאי בפיקוח אלקטרוני, ומוצעת בה תכנית לשיקומו של האסיר כאמור <ref href="#point_9">בסעיף 9(8)(א)</ref>.</p>
+                      </content>
+                    </point>
+                    <point eId="point_13א__point_ב__point_2">
+                      <num>(2)</num>
+                      <list>
+                        <intro>
+                          <p>חוות הדעת של הרשות לשיקום האסיר כאמור בפסקה (1) תכלול גם התייחסות לכל אלה:</p>
+                        </intro>
+                        <point eId="point_13א__point_ב__point_2__point_א">
+                          <num>(א)</num>
+                          <content>
+                            <p>התאמת האסיר לשחרור על־תנאי בפיקוח אלקטרוני;</p>
+                          </content>
+                        </point>
+                        <point eId="point_13א__point_ב__point_2__point_ב">
+                          <num>(ב)</num>
+                          <content>
+                            <p>מקום הפיקוח המוצע;</p>
+                          </content>
+                        </point>
+                        <point eId="point_13א__point_ב__point_2__point_ג">
+                          <num>(ג)</num>
+                          <content>
+                            <p>בני משפחה או דיירים נוספים המתגוררים במקום הפיקוח המוצע.</p>
+                          </content>
+                        </point>
+                      </list>
+                    </point>
+                  </list>
+                </point>
+                <point eId="point_13א__point_ג">
+                  <num>(ג)</num>
+                  <list>
+                    <intro>
+                      <p>על שחרור על־תנאי בפיקוח אלקטרוני, יחולו הוראות <ref href="/akn/il/act/PrimaryLegislation/1996-05-12/159712#point_22א">סעיפים 22א</ref>, <ref href="/akn/il/act/PrimaryLegislation/1996-05-12/159712#point_22ב">22ב(ג)</ref>, <ref href="/akn/il/act/PrimaryLegislation/1996-05-12/159712#point_22ד">22ד(1)</ref>, <ref href="/akn/il/act/PrimaryLegislation/1996-05-12/159712#point_22ו">22ו</ref><ref href="/akn/il/act/PrimaryLegislation/1996-05-12/159712#point_22י">ו־22י לחוק המעצרים</ref>, בשינויים המחויבים ובשינויים אלה:</p>
+                    </intro>
+                    <point eId="point_13א__point_ג__point_1">
+                      <num>(1)</num>
+                      <list>
+                        <intro>
+                          <p>
+                            <ref href="/akn/il/act/PrimaryLegislation/1996-05-12/159712#point_22ד">בסעיף 22ד(1)</ref>, במקום פסקאות משנה (ג) ו־(ד) יקראו:</p>
+                        </intro>
+                        <point eId="point_13א__point_ג__point_1__point_&amp;quotג">
+                          <num>&amp;quot;(ג)</num>
+                          <content>
+                            <p>פירוט תכנית הפיקוח לעניין פרקי הזמן שבהם נדרש המפוקח לשהות במקום הפיקוח, וכן קביעת הגבלות לעניין המקומות שהוא רשאי לשהות בהם בזמנים שבהם הוא אינו חייב להיות במקום הפיקוח, ככל שמצאה ועדת השחרורים כי יש מקום לקבוע הגבלות כאמור.</p>
+                          </content>
+                        </point>
+                        <point eId="point_13א__point_ג__point_1__point_ד">
+                          <num>(ד)</num>
+                          <content>
+                            <p>תנאים ומגבלות נוספים שיחולו על המפוקח בתקופת הפיקוח, לפי הוראות <ref href="/akn/il/act/PrimaryLegislation/1996-05-12/159712#point_13">סעיף 13</ref>.";</p>
+                          </content>
+                        </point>
+                      </list>
+                    </point>
+                    <point eId="point_13א__point_ג__point_2">
+                      <num>(2)</num>
+                      <content>
+                        <p>
+                          <ref href="/akn/il/act/PrimaryLegislation/1996-05-12/159712#point_22ו">בסעיף 22ו(ג)(2)</ref>, במקום ”ולבית המשפט“ יקראו ”ולוועדה“.</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+              </list>
+            </point>
+            <point eId="point_14">
+              <heading>
+                <authorialNote placement="side">
+                  <p>רישיון למשוחרר על־תנאי</p>
+                </authorialNote>
+              </heading>
+              <num>14.</num>
+              <list>
+                <point eId="point_14__point_א">
+                  <num>(א)</num>
+                  <content>
+                    <p>ועדה שהחליטה לשחרר אסיר על־תנאי, תיתן לאסיר רישיון ובו יפורטו תנאי השחרור.</p>
+                  </content>
+                </point>
+                <point eId="point_14__point_ב">
+                  <num>(ב)</num>
+                  <content>
+                    <p>אסיר ששוחרר על־תנאי יישא עמו את רישיונו בכל תקופת התנאי, ויציגו בפני שוטר, על פי דרישתו.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_15">
+              <heading>
+                <authorialNote placement="side">
+                  <p>שינוי תנאי שחרור</p>
+                </authorialNote>
+              </heading>
+              <num>15.</num>
+              <content>
+                <p>הועדה רשאית, בכל עת, עד תום תקופת התנאי, לשנות, לפי שיקול דעתה, את תנאי השחרור שנקבעו לפי הוראות <ref href="#point_13">סעיף 13(ב) עד (ד)</ref>.</p>
+              </content>
+            </point>
+            <point eId="point_16">
+              <heading>
+                <authorialNote placement="side">
+                  <p>סדרי הדיון בבקשה לשחרור על תנאי ובדיון בשינוי תנאי שחרור</p>
+                </authorialNote>
+              </heading>
+              <num>16.</num>
+              <list>
+                <point eId="point_16__point_א">
+                  <num>(א)</num>
+                  <content>
+                    <p>דיון בועדה, למעט דיון בבקשת אסיר לקיים בענינו דיון חוזר ולמעט דיון לפי <ref href="#chp_ה">פרק ה׳</ref>, יתקיים בנוכחות האסיר ובא כוחו אם הוא מיוצג, וכן בנוכחות בא כוח היועץ המשפטי לממשלה; התקבלה הסכמת בא כוח היועץ המשפטי לממשלה לשחרורו המוקדם של האסיר ולענין אסיר ששוחרר על־תנאי – לשינוי תנאי שחרורו על פי בקשתו, ניתן לקיים את הדיון בועדה, בכפוף להוראות סעיף קטן (ג), אף בלא נוכחות האסיר או בא כוחו.</p>
+                  </content>
+                </point>
+                <point eId="point_16__point_ב">
+                  <num>(ב)</num>
+                  <content>
+                    <p>דיון הועדה בבקשה לקיים דיון חוזר בענינו של אסיר יתקיים שלא בנוכחות הצדדים.</p>
+                  </content>
+                </point>
+                <point eId="point_16__point_ג">
+                  <num>(ג)</num>
+                  <list>
+                    <intro>
+                      <p>הועדה לא תחליט על שחרורו על־תנאי של אסיר, לרבות שחרורו מטעמים רפואיים לפי <ref href="#point_7">סעיף 7</ref> או על שינוי תנאי שחרורו של אסיר ששוחרר על־תנאי, אלא לאחר שנתנה לבא כוח היועץ המשפטי לממשלה הזדמנות לטעון את טענותיו, ולא תחליט החלטה כמפורט להלן, אלא לאחר שנתנה לאסיר ולבא כוחו אם הוא מיוצג, הזדמנות לטעון את טענותיהם:</p>
+                    </intro>
+                    <point eId="point_16__point_ג__point_1">
+                      <num>(1)</num>
+                      <content>
+                        <p>החלטה שלא לשחרר אסיר על־תנאי;</p>
+                      </content>
+                    </point>
+                    <point eId="point_16__point_ג__point_2">
+                      <num>(2)</num>
+                      <content>
+                        <p>החלטה על דחיית בקשתו של אסיר ששוחרר על־תנאי לשינוי תנאי שחרורו;</p>
+                      </content>
+                    </point>
+                    <point eId="point_16__point_ג__point_3">
+                      <num>(3)</num>
+                      <content>
+                        <p>החלטה על החמרה בתנאי שחרורו של אסיר ששוחרר על־תנאי.</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+                <point eId="point_16__point_ד">
+                  <num>(ד)</num>
+                  <content>
+                    <p>הועדה או יושב ראש הועדה רשאים. למנות לאסיר סניגור לצורך הדיון בפני הועדה, ויחולו לענין זה הוראות <ref href="/akn/il/act/PrimaryLegislation/1995-11-30/159539">חוק הסניגוריה הציבורית, התשנ"ו–1995</ref>, בשינויים המחויבים.</p>
+                  </content>
+                </point>
+                <point eId="point_16__point_ד1">
+                  <num>(ד1)</num>
+                  <content>
+                    <p>בהליכים לפי <ref href="#point_7">סעיפים 7</ref><ref href="#point_21א">ו־21א</ref> וכן בהליך של ביטול שחרור על־תנאי לפי <ref href="#point_21ב">סעיף 21ב</ref> לעניין שחרור על־תנאי מטעמים רפואיים לפי <ref href="#point_7">סעיף 7</ref>, יהיה אסיר או אסיר ששוחרר על־תנאי, לפי העניין, זכאי לייצוג על ידי סניגור ציבורי שמונה לפי הוראות <ref href="/akn/il/act/PrimaryLegislation/1995-11-30/159539">חוק הסנגוריה הציבורית, התשנ"ו–1995</ref>, ויחולו לעניין זה הוראות <ref href="/akn/il/act/PrimaryLegislation/1995-11-30/159539">החוק האמור</ref>, בשינויים המחויבים.</p>
+                  </content>
+                </point>
+                <point eId="point_16__point_ה">
+                  <num>(ה)</num>
+                  <content>
+                    <p>הועדה תנהל פרוטוקול של דיוניה, שייחתם בידי יושב ראש הועדה; האסיר ובא כוחו רשאים לעיין בפרוטוקול הדיון בענינו ולקבל העתק ממנו, אלא אם כן החליטה הועדה כי הפרוטוקול או חלקו יהיה חסוי, בשל קבלת מידע חסוי בהתאם להוראות <ref href="#point_17">סעיף 17</ref>.</p>
+                  </content>
+                </point>
+                <point eId="point_16__point_ו">
+                  <num>(ו)</num>
+                  <content>
+                    <p>הועדה תביא בחשבון, לצורך החלטתה, כל מידע הנוגע לענין שהובא בפניה, לרבות מידע חסוי, כמשמעותו <ref href="#point_17">בסעיף 17(א)</ref>, אלא אם כן נתבקשה שלא להתחשב במידע לפי הוראות <ref href="#point_17">סעיף 17(ז)</ref>.</p>
+                  </content>
+                </point>
+                <point eId="point_16__point_ז">
+                  <num>(ז)</num>
+                  <content>
+                    <p>החלטת הועדה תהיה מנומקת ותיחתם בידי חברי הועדה; העתק ההחלטה יימסר לאסיר, לבא כוח היועץ המשפטי לממשלה, ואם הותנה השחרור על־תנאי בתנאים כאמור <ref href="#point_13">בסעיף 13(ג)</ref> – גם לשירות המבחן או לרשות לשיקום האסיר, לפי הענין.</p>
+                  </content>
+                </point>
+                <point eId="point_16__point_ח">
+                  <num>(ח)</num>
+                  <content>
+                    <p>שר המשפטים, באישור השר לביטחון הפנים, יקבע את סדרי הדיון בועדות, סדרי הפניה אליהן, המידע שיש להביא בפניהן ודרכי הבאתו, וכן את המידע שיש למסור לאסיר או לבא כוחו אם הוא מיוצג, לצורך דיון בועדה ודרכי מסירתו, ככל שאינם מוסדרים בחוק זה.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_17">
+              <heading>
+                <authorialNote placement="side">
+                  <p>מידע חסוי</p>
+                </authorialNote>
+              </heading>
+              <num>17.</num>
+              <list>
+                <point eId="point_17__point_א">
+                  <num>(א)</num>
+                  <content>
+                    <p>בא כוח היועץ המשפטי לממשלה רשאי להציג לפני הועדה מידע שגילויו לאסיר ולבא כוחו עלול, לדעתו, לפגוע בביטחון המדינה או בענין ציבורי חשוב אחר (להלן – מידע חסוי) אף שלא בנוכחות האסיר ובא כוחו ובלי לגלות להם את תוכנו.</p>
+                  </content>
+                </point>
+                <point eId="point_17__point_ב">
+                  <num>(ב)</num>
+                  <content>
+                    <p>ביקש בא כוח היועץ המשפטי לממשלה להציג לפני הועדה מידע חסוי כאמור בסעיף קטן (א), יודיע על כך לאסיר או לבא כוחו.</p>
+                  </content>
+                </point>
+                <point eId="point_17__point_ג">
+                  <num>(ג)</num>
+                  <content>
+                    <p>הועדה רשאית לעיין במידע שהוצג לפניה כחסוי לשם החלטה בבקשת היועץ המשפטי לממשלה כאמור בסעיף קטן (א) ולקבל ממנו פרטים נוספים לענין המידע, שלא בנוכחות האסיר ובא כוחו.</p>
+                  </content>
+                </point>
+                <point eId="point_17__point_ד">
+                  <num>(ד)</num>
+                  <content>
+                    <p>מצאה הועדה כי הענין שיש באי גילויו של מידע חסוי שהוצג לפניה כאמור בסעיף קטן (א) עדיף מהצורך לגלותו לשם עשיית צדק, רשאית היא לקיים את הדיון בענינו של האסיר אף שלא בנוכחות האסיר ובא כוחו ובלי לגלות להם את תוכנו של המידע החסוי.</p>
+                  </content>
+                </point>
+                <point eId="point_17__point_ה">
+                  <num>(ה)</num>
+                  <content>
+                    <p>הועדה תודיע לאסיר או לבא כוחו ולבא כוח היועץ המשפטי לממשלה על החלטתה בבקשה לפי סעיף זה, ורשאית היא לקבוע שנימוקי ההחלטה, כולם או מקצתם, יהיו חסויים.</p>
+                  </content>
+                </point>
+                <point eId="point_17__point_ו">
+                  <num>(ו)</num>
+                  <content>
+                    <p>החליטה הועדה שלא לגלות לאסיר ולבא כוחו תוכנו של מידע חסוי, כולו או מקצתו, תעביר הועדה לאסיר פרטים או תמצית של המידע החסוי, ככל שניתן לעשות כן בלי לפגוע בביטחון המדינה או בענין הציבורי האחר; היתה הסיבה לאי גילוי המידע הגנה על טובתו של האסיר, רשאית הועדה לגלות את המידע החסוי רק לבא כוחו של האסיר, ובלבד שהאסיר הסכים לכך.</p>
+                  </content>
+                </point>
+                <point eId="point_17__point_ז">
+                  <num>(ז)</num>
+                  <content>
+                    <p>החליטה הועדה או הורה בית המשפט, כמשמעותו <ref href="#point_25">בסעיף 25(ב)</ref>, או בית המשפט העליון, על גילויו של מידע חסוי, רשאי בא כוח היועץ המשפטי לממשלה לבקש מהועדה כי לא תביא בחשבון את המידע האמור לצורך החלטה בענינו של האסיר; ביקש בא כוח היועץ המשפטי לממשלה כאמור, לא תתחשב הועדה במידע האמור, והמידע לא יועבר לאסיר ולבא כוחו.</p>
+                  </content>
+                </point>
+                <point eId="point_17__point_ח">
+                  <num>(ח)</num>
+                  <content>
+                    <p>בסעיף זה, ”אסיר“ – לרבות משוחרר על־תנאי.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_18">
+              <heading>
+                <authorialNote placement="side">
+                  <p>סדרי דיון בענין מידע חסוי</p>
+                </authorialNote>
+              </heading>
+              <num>18.</num>
+              <content>
+                <p>שר המשפטים, בהתייעצות עם השר לביטחון הפנים ועם שר הביטחון, רשאי להתקין : תקנות לענין סדרי הדין בבקשה לפי <ref href="#point_17">סעיף 17</ref> ובעתירה לפי <ref href="#point_26">סעיף 26</ref> ככל שאינם מוסדרים בחוק זה.</p>
+              </content>
+            </point>
+            <point eId="point_19">
+              <heading>
+                <authorialNote placement="side">
+                  <p>דיון חוזר בהחלטת הוועדה שלא לשחרר אסיר על־תנאי</p>
+                </authorialNote>
+              </heading>
+              <num>19.</num>
+              <list>
+                <intro>
+                  <p>החליטה הועדה שלא לשחרר אסיר, לא תשוב לדון בענינו אלא אם כן התקיים אחד מאלה:</p>
+                </intro>
+                <point eId="point_19__point_1">
+                  <num>(1)</num>
+                  <list>
+                    <intro>
+                      <p>הועדה קבעה מראש, בהחלטתה, כי תקיים דיון חוזר בענין שחרורו על־תנאי של האסיר, במועד שקבעה, או בהתקיים תנאי שקבעה:</p>
+                    </intro>
+                    <point eId="point_19__point_1__point_2">
+                      <num>(2)</num>
+                      <content>
+                        <p>הרשות לשיקום האסיר ביקשה מהועדה לקיים דיון חוזר בענין שחרורו על־תנאי של אסיר שהותנה בהשתתפות האסיר בתכנית שיקום שהכינה לו;</p>
+                      </content>
+                    </point>
+                    <point eId="point_19__point_1__point_3">
+                      <num>(3)</num>
+                      <content>
+                        <p>שירות המבחן ביקש מהועדה לקיים דיון חוזר בענין שחרורו על־תנאי של אסיר שהותנה בהשתתפותו בתכנית טיפולית בפיקוח שירות המבחן;</p>
+                      </content>
+                    </point>
+                    <point eId="point_19__point_1__point_4">
+                      <num>(4)</num>
+                      <content>
+                        <p>היועץ המשפטי לממשלה ביקש מהועדה לקיים דיון חוזר בענין שחרורו על־תנאי של האסיר, בשל שיקולים ציבוריים המצדיקים זאת;</p>
+                      </content>
+                    </point>
+                    <point eId="point_19__point_1__point_5">
+                      <num>(5)</num>
+                      <content>
+                        <p>האסיר הגיש לועדה בקשה מנומקת לקיים דיון חוזר בענין שחרורו על־תנאי, בתום חצי שנה לפחות ממועד החלטת הועדה שלא לשחררו, ולגבי אסיר עולם – בתום שנה לפחות מהמועד האמור, והועדה סברה כי חל שינוי בנסיבות שהיוו בסיס להחלטתה שלא לשחרר את האסיר, המצדיק קיומו של דיון חוזר;</p>
+                      </content>
+                    </point>
+                    <point eId="point_19__point_1__point_6">
+                      <num>(6)</num>
+                      <content>
+                        <p>האסיר הגיש לוועדה בקשה מנומקת לקיים דיון חוזר הענין שחרורו על־תנאי, במועד מוקדם יותר מהמועדים האמורים בפסקה (5), והוצגו לפני הוועדה עובדות שלא היו ידועות ולא היו יכולות להיות ידועות לאסיר לפני ההחלטה שלא לשחררו, אשר מצדיקות קיומו של דיון חוזר.</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+              </list>
+            </point>
+            <point eId="point_19א">
+              <heading>
+                <authorialNote placement="side">
+                  <p>דיון חוזר בהחלטת הוועדה לשחרר אסיר על־תנאי</p>
+                </authorialNote>
+              </heading>
+              <num>19א.</num>
+              <list>
+                <point eId="point_19א__point_א">
+                  <num>(א)</num>
+                  <content>
+                    <p>החליטה הוועדה לשחרר אסיר על־תנאי, רשאי בא כוח היועץ המשפטי לממשלה לפנות לוועדה, לא יאוחר ממועד שחרורו על־תנאי של האסיר, בבקשה לקיים דיון חוזר בענין שחרורו כאמור, אם לאחר מתן ההחלטה התגלו עובדות חדשות באופן המעלה חשש ממשי כי האסיר אינו ראוי לשחרור או ששחרורו יסכן את שלום הציבור.</p>
+                  </content>
+                </point>
+                <point eId="point_19א__point_ב">
+                  <num>(ב)</num>
+                  <content>
+                    <p>הוגשה בקשה כאמור בסעיף קטן (א), רשאי יושב ראש הוועדה להורות על עיכוב שחרורו על־תנאי של האסיר לתקופה שלא תעלה על שבעה ימים, ולענין אסיר עולם – לתקופה שלא תעלה על 14 ימים, או עד למועד מתן ההחלטה בדיון החוזר לפי סעיף זה, לפי המוקדם מביניהם.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+          </list>
+        </section>
+        <section eId="chp_ב__sec_ג">
+          <num>סימן ג׳:</num>
+          <title>
+            <content>
+              <p>שחרור על־תנאי על ידי היחידה לשחרור ממאסרים קצרים – הוראת שעה</p>
+            </content>
+          </title>
+          <list>
+            <point eId="point_19ב">
+              <heading>
+                <authorialNote placement="side">
+                  <p>שיקולי היחידה לשחרור ממאסרים קצרים</p>
+                </authorialNote>
+              </heading>
+              <num>19ב.</num>
+              <list>
+                <point eId="point_19ב__point_א">
+                  <num>(א)</num>
+                  <list>
+                    <intro>
+                      <p>בבואה להחליט אם ראוי אסיר לשחרור על־תנאי, תשקול היחידה לשחרור ממאסרים קצרים את השיקולים האמורים <ref href="#point_9">בסעיף 9</ref> ולשם כך תביא בחשבון, בין השאר, את הנתונים המנויים <ref href="#point_9">בפסקאות (1) עד (8) ו־(10) של אותו סעיף</ref>, בשינויים אלה:</p>
+                    </intro>
+                    <point eId="point_19ב__point_א__point_1">
+                      <num>(1)</num>
+                      <content>
+                        <p>בפסקה (4), לפני ”בועדות“ יקראו ”ביחידה לשחרור ממאסרים קצרים או“;</p>
+                      </content>
+                    </point>
+                    <point eId="point_19ב__point_א__point_2">
+                      <num>(2)</num>
+                      <content>
+                        <p>במקום פסקה (7) יקראו:<br space="preserve"></br>
+   ”(7)  חוות דעת על האסיר שנתנו שירות בתי הסוהר, משטרת ישראל או רשויות הביטחון;“.</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+                <point eId="point_19ב__point_ב">
+                  <num>(ב)</num>
+                  <content>
+                    <p>ההוראות לפי <ref href="#point_11">סעיפים 11</ref><ref href="#point_12">ו־12</ref> לא יחולו לעניין החלטת היחידה לשחרור ממאסרים קצרים, ואולם לעניין החלטה על שחרור על־תנאי של אסיר כאמור <ref href="#point_12">בסעיף 12</ref>, תשקול היחידה לשחרור ממאסרים קצרים הערכת מסוכנות כאמור <ref href="/akn/il/act/PrimaryLegislation/2011-08-17/334940#point_3">בסעיף 3(ג1) לחוק הגנה על הציבור מפני ביצוע עבירות מין</ref>, אם הועברה לה.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_19ג">
+              <heading>
+                <authorialNote placement="side">
+                  <p>תנאי שחרור, רישיון למשוחרר על־תנאי ושינוי תנאי שחרור</p>
+                </authorialNote>
+              </heading>
+              <num>19ג.</num>
+              <list>
+                <point eId="point_19ג__point_א">
+                  <num>(א)</num>
+                  <content>
+                    <p>על שחרורו על־תנאי של אסיר לפי <ref href="#chp_ב">פרק זה</ref> על ידי היחידה לשחרור ממאסרים קצרים יחולו ההוראות לפי <ref href="#point_13">סעיפים 13(א) ו־(ג) עד (ה)</ref><ref href="#point_14">ו־14</ref>, בשינויים המחויבים.</p>
+                  </content>
+                </point>
+                <point eId="point_19ג__point_ב">
+                  <num>(ב)</num>
+                  <content>
+                    <p>היחידה לשחרור ממאסרים קצרים רשאית להתנות את שחרורו של אסיר בתנאים נוספים.</p>
+                  </content>
+                </point>
+                <point eId="point_19ג__point_ג">
+                  <num>(ג)</num>
+                  <content>
+                    <p>היחידה לשחרור ממאסרים קצרים רשאית, בכל עת, עד תום תקופת התנאי, לשנות לפי שיקול דעתה את תנאי השחרור שנקבעו לפי הוראות סעיף קטן (ב), ובלבד שנתנה לאסיר הזדמנות לטעון את טענותיו בכתב; היחידה לא תקבל החלטה לפי סעיף קטן זה אלא לאחר שנתנה למשטרת ישראל או לרשויות הביטחון, לפי העניין, הזדמנות להעביר לה את עמדתן בעניין.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_19ד">
+              <heading>
+                <authorialNote placement="side">
+                  <p>סדרי הדיון בבקשה לשחרור על־תנאי ובדיון בשינוי תנאי שחרור</p>
+                </authorialNote>
+              </heading>
+              <num>19ד.</num>
+              <list>
+                <point eId="point_19ד__point_א">
+                  <num>(א)</num>
+                  <content>
+                    <p>היחידה לשחרור ממאסרים קצרים תדון ותחליט בבקשה לשחרור על־תנאי על יסוד הבקשה והמסמכים שהוגשו ליחידה בקשר לאותה בקשה; דיון כאמור יתקיים שלא בנוכחות האסיר או בא כוחו, ואולם היחידה לשחרור ממאסרים קצרים רשאית, במקרים חריגים, לאפשר לאסיר לטעון את טענותיו לפניה; אפשרה היחידה כאמור, רשאית היא לאפשר גם לגורם כאמור <ref href="#point_9">בסעיף 9(7)</ref>, כנוסחו <ref href="#point_19ב">בסעיף 19ב(א)(2)</ref>, לטעון את טענותיו לפניה.</p>
+                  </content>
+                </point>
+                <point eId="point_19ד__point_ב">
+                  <num>(ב)</num>
+                  <list>
+                    <point eId="point_19ד__point_ב__point_1">
+                      <num>(1)</num>
+                      <content>
+                        <p>היחידה לשחרור ממאסרים קצרים תביא בחשבון, לשם החלטתה, כל מידע הנוגע לעניין שהובא לפניה, לרבות מידע שלדעת הגורם שמסר אותו ליחידה גילויו לאסיר עלול לפגוע בביטחון המדינה או בעניין ציבורי חשוב אחר (בסעיף זה – מידע חסוי); מידע חסוי כאמור לא יימסר לאסיר.</p>
+                      </content>
+                    </point>
+                    <point eId="point_19ד__point_ב__point_2">
+                      <num>(2)</num>
+                      <content>
+                        <p>היחידה לשחרור ממאסרים קצרים תציין בהחלטתה אם הונח לפניה מידע חסוי כאמור וכן תכלול פרטים או תמצית של המידע החסוי, בנוסח שהעביר הגורם שמסר את המידע, ככל שסבר הגורם האמור שניתן לעשות כן בלי לפגוע בביטחון המדינה או בעניין הציבורי האחר.</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+                <point eId="point_19ד__point_ג">
+                  <num>(ג)</num>
+                  <content>
+                    <p>חוות דעת של שירות בתי הסוהר, כאמור <ref href="#point_9">בסעיף 9(7)</ref> כפי שהוחל <ref href="#point_19ב">בסעיף 19ב(א)(2)</ref>, הכוללת מידע בעניין העבירה שבשלה נושא האסיר עונש מאסר, תקופת המאסר שגזר עליו בית המשפט, הרשעותיו הקודמות של האסיר ותקופות המאסר שנשא בשלהן, וכן מידע כאמור <ref href="#point_9">בסעיף 9(4), (6) ו־(10)</ref>, ולמעט מידע חסוי, תועבר לאסיר לפני קבלת החלטה בעניינו, והוא רשאי להעביר את התייחסותו בכתב בתוך 48 שעות.</p>
+                  </content>
+                </point>
+                <point eId="point_19ד__point_ד">
+                  <num>(ד)</num>
+                  <content>
+                    <p>החלטת היחידה לשחרור ממאסרים קצרים תהיה מנומקת, ותיחתם בידי חבריה, ויצוינו בה המסמכים שהונחו לפניה; העתק מההחלטה יימסר לאסיר וכן יועבר למשטרת ישראל ובמקרים המתאימים גם לרשויות הביטחון, ואם הותנה השחרור על־תנאי בתנאים כאמור <ref href="#point_13">בסעיף 13(ג)</ref> כפי שהוחל <ref href="#point_19ג">בסעיף 19ג(א)</ref> – גם לשירות המבחן או לרשות לשיקום האסיר, לפי העניין.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_19ה">
+              <heading>
+                <authorialNote placement="side">
+                  <p>תקנות לעניין סדרי עבודת היחידה לשחרור ממאסרים קצרים</p>
+                </authorialNote>
+              </heading>
+              <num>19ה.</num>
+              <content>
+                <p>שר המשפטים, בהסכמת השר לביטחון הפנים ובאישור ועדת החוקה חוק ומשפט של הכנסת, רשאי לקבוע הוראות לעניין סדרי עבודת היחידה לשחרור ממאסרים קצרים.</p>
+              </content>
+            </point>
+          </list>
+        </section>
+      </chapter>
+      <chapter eId="chp_ג">
+        <num>פרק ג׳:</num>
+        <title>
+          <content>
+            <p>ביטול שחרור על־תנאי</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_20">
+            <heading>
+              <authorialNote placement="side">
+                <p>ביטול שחרור בשל עבירה נוספת</p>
+              </authorialNote>
+            </heading>
+            <num>20.</num>
+            <list>
+              <point eId="point_20__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>אסיר ששוחרר על־תנאי לפי הוראות <ref href="#chp_ב">פרק ב׳</ref> ועבר עבירה נוספת בתקופת התנאי, תבטל הועדה את שחרורו ותחייבו לשאת מאסר שאורכו כאורך תקופת התנאי.</p>
+                </content>
+              </point>
+              <point eId="point_20__point_ב">
+                <num>(ב)</num>
+                <list>
+                  <intro>
+                    <p>על אף הוראות סעיף קטן (א), הועדה רשאית, בנסיבות מיוחדות, להחליט, מנימוקים שיירשמו, על המשך השחרור בתנאים שנקבעו על ידה או על ידי היחידה לשחרור ממאסרים קצרים, לפי העניין, או בתנאים אחרים שתקבע, ובלבד שלא הוטל על האסיר עונש מאסר בפועל בשל העבירה הנוספת שעבר בתקופת התנאי; החליטה הועדה כאמור, תחל לגבי המשוחרר תקופת תנאי חדשה; לענין זה –</p>
+                  </intro>
+                  <point eId="point_20__point_ב__point_מאסר_בפועל">
+                    <content>
+                      <p>
+                        <def />”מאסר בפועל“ – למעט מאסר בעבודות שירות לפי הוראות <ref href="/akn/il/act/PrimaryLegislation/1977-08-04/2002251#chp_ו1_sec_ב1">סימן ב׳1 בפרק ו1 לחוק העונשין</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_20__point_ב__point_תקופת_תנאי_חדשה">
+                    <content>
+                      <p>
+                        <def />”תקופת תנאי חדשה“ – תקופה שתחילתה ביום ההחלטה על המשך השחרור ואורכה כאורך תקופת התנאי; החלטת הועדה על המשך שחרורו על־תנאי של אסיר לפי הוראות סעיף קטן זה תינתן, לגבי אותו אסיר, פעם אחת בלבד.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_20__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>על אף הוראות סעיף קטן (א), הועדה רשאית, בנסיבות מיוחדות, להורות כי אסיר ששחרורו בוטל לפי הוראות סעיף קטן (א), ישוב לשאת מאסר לתקופה קצרה מאורך תקופת התנאי, אולם לא פחות ממחציתה; הורתה הועדה כאמור – תהיה תקופת המאסר שהאסיר לא נשא, לפי הוראת הועדה, תקופת תנאי, שתחל עם שחרורו של האסיר מתקופת המאסר שנשא ותצטבר לכל תקופת תנאי אחרת שלו.</p>
+                </content>
+              </point>
+              <point eId="point_20__point_ד">
+                <num>(ד)</num>
+                <content>
+                  <p>
+                    <wikicomment font-size="x-small">(בוטל).</wikicomment>
+                  </p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_21">
+            <heading>
+              <authorialNote placement="side">
+                <p>ביטול שחרור בשל הפרת תנאי אחר</p>
+              </authorialNote>
+            </heading>
+            <num>21.</num>
+            <list>
+              <point eId="point_21__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>אסיר ששוחרר על־תנאי לפי הוראות <ref href="#chp_ב_sec_ג">סימן ג׳ לפרק ב׳</ref> והפר תנאי מהתנאים האמורים <ref href="#point_13">בסעיף 13(א) ו־(ג) עד (ה)</ref>, כפי שהוחל לגביו <ref href="#point_19ג">בסעיף 19ג(א)</ref>, או תנאי כאמור <ref href="#point_19ג">בסעיף 19ג(ב)</ref>, וכן אסיר ששוחרר על־תנאי לפי הוראות <ref href="#chp_ב_sec_ב">סימן ב׳ לפרק ב׳</ref> והפר תנאי מן התנאים האמורים <ref href="#point_13">בסעיף 13(ב) עד (ה)</ref> או את תנאי תכנית הפיקוח לפי <ref href="#point_13א">סעיף 13א</ref>, רשאית הועדה לבטל את השחרור ולחייב את האסיר לשאת מאסר שאורכו כאורך תקופת התנאי או חלק ממנה; החליטה הועדה שלא לבטל את השחרור, תזהיר את המשוחרר לבל ישוב להפר את תנאי שחרורו, ורשאית היא לקבוע שתחל לגבי המשוחרר תקופת תנאי חדשה; לענין זה, ”תקופת תנאי חדשה“ – תקופה שתחילתה ביום האזהרה ואורכה כאורך תקופת התנאי.</p>
+                </content>
+              </point>
+              <point eId="point_21__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>החליטה הועדה, לפי הוראות סעיף קטן (א), שהאסיר ישוב לשאת מאסר לתקופה קצרה מאורך תקופת התנאי – תהיה תקופת המאסר שהאסיר לא נשא, לפי החלטת הועדה, תקופת תנאי, שתחל עם שחרורו של האסיר מתקופת המאסר שנשא ותצטבר לכל תקופת תנאי אחרת שלו.</p>
+                </content>
+              </point>
+              <point eId="point_21__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>לצורך החלטתה לפי סעיף קטן (א), תשקול הועדה, כשיקול עיקרי, את אינטרס הציבור בקיומם של תנאי שחרור על־תנאי וכן תביא בחשבון את חומרתה של ההפרה, טיבה, תדירותה ומידת הסכנה הנשקפת לציבור בשלה ולענין הפרה של מגבלות שהוטלו בצו לפי <ref href="/akn/il/act/PrimaryLegislation/2004-11-17/320687#point_3">סעיף 3 לחוק מגבלות על עבריין מין</ref>, תיתן הועדה משקל לענינו של נפגע העבירה.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_21א">
+            <heading>
+              <authorialNote placement="side">
+                <p>ביטול שחרור על־תנאי של אסיר ששוחרר מטעמים רפואיים</p>
+              </authorialNote>
+            </heading>
+            <num>21א.</num>
+            <content>
+              <p>הוועדה רשאית לבטל את שחרורו של אסיר ששוחרר על־תנאי לפי <ref href="#point_7">סעיף 7(א)</ref>, ולחייבו לשאת מאסר שאורכו כאורך תקופת התנאי בניכוי התקופה שבה היה משוחרר, אם מצאה, לאחר שהובאה לפניה חוות דעת של רופא כהגדרתו <ref href="#point_7">בסעיף 7(ה)</ref>, ולאחר שנתנה לאסיר הזדמנות לטעון את טענותיו לפניה, כי לא מתקיימים עוד לגבי האסיר הטעמים הרפואיים שבשלהם שוחרר.</p>
+            </content>
+          </point>
+          <point eId="point_21ב">
+            <heading>
+              <authorialNote placement="side">
+                <p>ביטול שחרור על־תנאי בשל מידע כוזב</p>
+              </authorialNote>
+            </heading>
+            <num>21ב.</num>
+            <content>
+              <p>הוועדה רשאית לבטל את שחרורו של אסיר ששוחרר על־תנאי לפי הוראות <ref href="#chp_ב">פרק ב׳</ref> ולחייבו לשאת מאסר שאורכו כאורך תקופת התנאי, או חלק ממנה, אם מצאה, לאחר שנתנה לאסיר הזדמנות לטעון את טענותיו לפניה, כי האסיר שוחרר על יסוד מידע כוזב.</p>
+            </content>
+          </point>
+          <point eId="point_22">
+            <heading>
+              <authorialNote placement="side">
+                <p>ביטול שחרור לאחר תקופת התנאי</p>
+              </authorialNote>
+            </heading>
+            <num>22.</num>
+            <list>
+              <point eId="point_22__point_א">
+                <num>(א)</num>
+                <list>
+                  <intro>
+                    <p>הועדה רשאית לבטל שחרור על־תנאי של אסיר לפי הוראות <ref href="#chp_ב">פרק ב׳</ref> אף לאחר תום תקופת התנאי, ואולם לא יבוטל שחרור כאמור –</p>
+                  </intro>
+                  <point eId="point_22__point_א__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>בשל עשיית עבירה נוספת בתקופת התנאי שבשלה הוגש כתב אישום, אם חלפו יותר משלושה חודשים מהיום שבו ניתן גזר הדין בענין העבירה הנוספת בערכאה ראשונה ועד להגשת הבקשה לביטול השחרור;</p>
+                    </content>
+                  </point>
+                  <point eId="point_22__point_א__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>בשל הפרת תנאי מהתנאים האמורים <ref href="#point_13">בסעיף 13</ref>, אם חלפו יותר משלושה חודשים מתום תקופת התנאי ועד להגשת הבקשה לביטול השחרור.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_22__point_ב">
+                <num>(ב)</num>
+                <list>
+                  <intro>
+                    <p>בסעיף זה –</p>
+                  </intro>
+                  <point eId="point_22__point_ב__point_הגשת_בקשה">
+                    <content>
+                      <p>
+                        <def />”הגשת בקשה“ – לרבות דיווח לפי הוראות <ref href="#point_23">סעיף 23(ב)</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_22__point_ב__point_גזר_דין">
+                    <content>
+                      <p>
+                        <def />”גזר דין“ – לרבות החלטה שבעקבותיה הופסקה עבודת שירות לפי <ref href="/akn/il/act/PrimaryLegislation/1977-08-04/2002251#point_51י">סעיף 51י לחוק העונשין</ref>, החלטה להפקיע מבחן לפי <ref href="/akn/il/act/PrimaryLegislation/1969-08-01/2001784#point_16">סעיף 16</ref><ref href="/akn/il/act/PrimaryLegislation/1969-08-01/2001784#point_17">או 17 לפקודת המבחן [נוסח חדש], התשכ"ט–1969</ref>, והחלטה לבטל צו שירות לפי <ref href="/akn/il/act/PrimaryLegislation/1977-08-04/2002251#point_71ד">סעיף 71ד לחוק העונשין</ref>.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+            </list>
+          </point>
+          <point eId="point_22א">
+            <heading>
+              <authorialNote placement="side">
+                <p>סדר נשיאת מאסר לאחר ביטול שחרור על־תנאי</p>
+              </authorialNote>
+            </heading>
+            <num>22א.</num>
+            <content>
+              <p>על אף הוראות <ref href="/akn/il/act/PrimaryLegislation/1977-08-04/2002251#point_45">סעיף 45 לחוק העונשין</ref>, בוטל שחרורו על־תנאי של אסיר לפי <ref href="#point_20">סעיפים 20 עד 22</ref>, יישא האסיר את יתרת תקופת המאסר שעליו לשאת בשל ביטול שחרורו לפני ובמצטבר לכל מאסר אחר שהוטל עליו, ואם עבר עבירה נוספת בתקופת התנאי – גם לפני ובמצטבר לכל מאסר שיוטל עליו בשל אותה עבירה; היה האסיר נושא מאסר בעת שבוטל שחרורו, יופסק אותו מאסר לשם נשיאת יתרת תקופת המאסר שעליו לשאת בשל ביטול השחרור וישוב ויימשך מתום אותה תקופה; לענין זה, ”מאסר“ – לרבות מאסר בשל אי־תשלום קנס.</p>
+            </content>
+          </point>
+          <point eId="point_23">
+            <heading>
+              <authorialNote placement="side">
+                <p>סדרי דיון בהפרת תנאי שחרור</p>
+              </authorialNote>
+            </heading>
+            <num>23.</num>
+            <list>
+              <point eId="point_23__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>הועדה תדון, על פי בקשת בא כוח היועץ המשפטי לממשלה, בענין אסיר ששוחרר על־תנאי לפי הוראות <ref href="#chp_ב">פרק ב׳</ref> והפר תנאי מתנאי שחרורו.</p>
+                </content>
+              </point>
+              <point eId="point_23__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>הועדה תדון בענין אסיר ששוחרר על־תנאי לפי הוראות <ref href="#chp_ב">פרק ב׳</ref> והפר תנאי מתנאי שחרורו אף שלא על פי בקשת היועץ המשפטי לממשלה, אם נקבע בהחלטת השחרור כי רשות מסוימת תדווח ליחידה לשחרור ממאסרים קצרים או לוועדה, לפי העניין, על הפרת תנאי מתנאי השחרור, והרשות דיווחה כאמור.</p>
+                </content>
+              </point>
+              <point eId="point_23__point_ב1">
+                <num>(ב1)</num>
+                <content>
+                  <p>ביקש בא כוח היועץ המשפטי לממשלה דיון לפי סעיף קטן (א), או דיווחה רשות על הפרת תנאי מתנאי השחרור לפי סעיף קטן (ב), בשל הפרת תנאי תכנית הפיקוח האלקטרוני שנקבעה לאסיר לפי <ref href="#point_13א">סעיף 13א</ref>, תקיים הוועדה את הדיון בהפרת התנאי בהקדם האפשרי ולא יאוחר מתום 15 ימים ממועד בקשת בא כוח היועץ המשפטי לממשלה או קבלת דיווח הרשות, לפי העניין.</p>
+                </content>
+              </point>
+              <point eId="point_23__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>דיון לפי סעיפים קטנים (א) או (ב) יהיה בהתאם להוראות <ref href="#point_16">סעיפים 16 עד 18</ref>, בשינויים המחויבים; ואולם אם זומן אסיר ששוחרר לדיון כאמור, לפי הכתובת שמסר בהתאם להוראות <ref href="#point_13">סעיף 13(ד)</ref>, ולא הגיע, רשאית הועדה לדון בהפרת תנאי השחרור ולבטל את השחרור אף שלא בנוכחות האסיר, והוא יהיה זכאי לבקש קיומו של דיון חוזר בנוכחותו באותו ענין.</p>
+                </content>
+              </point>
+              <point eId="point_23__point_ד">
+                <num>(ד)</num>
+                <content>
+                  <p>יושב ראש הועדה רשאי לתת צו להבאת האסיר לפני הועדה, לשם דיון בבקשה לביטול שחרור על־תנאי של אסיר, במועד שיקבע בצו; על צו כאמור יחולו, בשינויים מחויבים, הוראות <ref href="/akn/il/act/PrimaryLegislation/1984-08-13/2002218#point_73א">סעיפים 73א</ref><ref href="/akn/il/act/PrimaryLegislation/1984-08-13/2002218#point_73ב">ו־73ב לחוק בתי המשפט [נוסח משולב], התשמ"ד–1984</ref>.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_24">
+            <heading>
+              <authorialNote placement="side">
+                <p>ביטול שחרור – צו למאסר</p>
+              </authorialNote>
+            </heading>
+            <num>24.</num>
+            <content>
+              <p>החלטת הועדה בדבר ביטול שחרור על־תנאי של אסיר, דינה כדין צו למאסרו.</p>
+            </content>
+          </point>
+        </list>
+      </chapter>
+      <chapter eId="chp_ד">
+        <num>פרק ד׳:</num>
+        <title>
+          <content>
+            <p>עתירות נגד היחידה לשחרור ממאסרים קצרים, ועדת שחרורים וועדת שחרורים מיוחדת</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_25">
+            <heading>
+              <authorialNote placement="side">
+                <p>עתירה נגד היחידה לשחרור ממאסרים קצרים או הוועדה</p>
+              </authorialNote>
+            </heading>
+            <num>25.</num>
+            <list>
+              <point eId="point_25__point_א">
+                <num>(א)</num>
+                <list>
+                  <point eId="point_25__point_א__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>האסיר רשאי להגיש עתירה נגד החלטה של היחידה לשחרור ממאסרים קצרים.</p>
+                    </content>
+                  </point>
+                  <point eId="point_25__point_א__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>האסיר ובא כוח היועץ המשפטי לממשלה רשאים להגיש עתירה נגד החלטה של הוועדה, בכפוף להוראות <ref href="#point_26">סעיף 26(ד)</ref>.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_25__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>עתירה כאמור בסעיף קטן (א)(1) או (2) (להלן – עתירה) תוגש לבית המשפט המחוזי שבאזור שיפוטו נמצא בית הסוהר שבו מוחזק האסיר, ואם שוחרר – בית הסוהר שבו הוחזק ערב שחרורו (בחוק זה – בית המשפט).</p>
+                </content>
+              </point>
+              <point eId="point_25__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>בית המשפט ידון בעתירה במותב של שלושה, שיקבע נשיא בית המשפט.</p>
+                </content>
+              </point>
+              <point eId="point_25__point_ד">
+                <num>(ד)</num>
+                <content>
+                  <p>בית המשפט מוסמך לתת בקשר לעתירה צווים לרשויות המדינה ולאנשים הממלאים תפקידים על פי דין לעשות מעשה או להימנע מעשות מעשה במילוי תפקידיהם בדין.</p>
+                </content>
+              </point>
+              <point eId="point_25__point_ה">
+                <num>(ה)</num>
+                <content>
+                  <p>החלטת בית המשפט בעתירה ניתנת לערעור לפני בית המשפט העליון, אם נתקבלה רשות לכך מבית המשפט בגוף ההחלטה או מאת שופט בית המשפט העליון.</p>
+                </content>
+              </point>
+              <point eId="point_25__point_ו">
+                <num>(ו)</num>
+                <content>
+                  <p>אין האמור בסעיף זה גורע מסמכותו של בית המשפט העליון בשבתו כבית משפט גבוה לצדק, לפי <ref href="/akn/il/act/PrimaryLegislation/1984-03-08/174450#point_15">סעיף 15(ד) לחוק־יסוד: השפיטה</ref>.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_26">
+            <heading>
+              <authorialNote placement="side">
+                <p>עתירה נגד גילוי מידע חסוי</p>
+              </authorialNote>
+            </heading>
+            <num>26.</num>
+            <list>
+              <point eId="point_26__point_א">
+                <num>(א)</num>
+                <list>
+                  <point eId="point_26__point_א__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>החליטה הועדה לגלות לאסיר או לבא כוחו מידע חסוי, רשאי היועץ המשפטי לממשלה להגיש עתירה נגד גילוי המידע החסוי, כולו או מקצתו, לבית המשפט;</p>
+                    </content>
+                  </point>
+                  <point eId="point_26__point_א__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>הודיע בא כוח היועץ המשפטי לממשלה לועדה כי הוא שוקל להגיש עתירה כאמור בפסקה (1), לא תעביר הועדה את המידע לאסיר ולבא כוחו עד להכרעה סופית בעתירה, ובלבד שהעתירה תוגש בתוך 15 ימים מיום שמסר הודעה כאמור.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_26__point_ב">
+                <num>(ב)</num>
+                <list>
+                  <point eId="point_26__point_ב__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>נדחתה עתירה נגד גילוי מידע חסוי, רשאי בא כוח היועץ המשפטי לממשלה לערער על כך, בתוך 15 ימים מיום שהומצאה לו ההחלטה לדחות את עתירתו, לבית המשפט העליון שידון בערעור בשופט אחד;</p>
+                    </content>
+                  </point>
+                  <point eId="point_26__point_ב__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>הודיע בא כוח היועץ המשפטי לממשלה לבית המשפט שדחה את העתירה כי הוא שוקל להגיש ערעור כאמור בפסקה (1), לא תעביר הועדה את המידע לאסיר ולבא כוחו עד להכרעה בערעור.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_26__point_ב1">
+                <num>(ב1)</num>
+                <content>
+                  <p>מסר בא כוח היועץ המשפטי לממשלה הודעה כאמור בסעיפים קטנים (א)(2) או (ב)(2), והחליט לאחר מכן שלא להגיש עתירה או ערעור כאמור באותם סעיפים קטנים, יודיע על כך בהקדם האפשרי לוועדה.</p>
+                </content>
+              </point>
+              <point eId="point_26__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>הדיון בעתירה ובערעור על החלטה לפי סעיף זה יתקיים בדלתיים סגורות, ורשאי בית המשפט לעיין במידע החסוי לשם החלטה בעתירה ולקבל פרטים נוספים מבא כוח היועץ המשפטי לממשלה לענין המידע, שלא בנוכחות האסיר ובא כוחו.</p>
+                </content>
+              </point>
+              <point eId="point_26__point_ד">
+                <num>(ד)</num>
+                <list>
+                  <point eId="point_26__point_ד__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>עתירת אסיר נגד החלטת הועדה שלא לגלות מידע חסוי תהיה רק במסגרת עתירה נגד החלטת הועדה שלא לשחררו, החלטה על ביטול שחרורו או החלטה על שינוי תנאי שחרורו, לפי הענין.</p>
+                    </content>
+                  </point>
+                  <point eId="point_26__point_ד__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>התקבלה עתירת אסיר לגילוי מידע חסוי, רשאי בא כוח היועץ המשפטי לממשלה לערער על כך, ויחולו לענין הערעור כאמור הוראות סעיפים קטנים (ב) ו־(ג), בשינויים המחויבים.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+            </list>
+          </point>
+          <point eId="point_27">
+            <heading>
+              <authorialNote placement="side">
+                <p>עיכוב שחרור</p>
+              </authorialNote>
+            </heading>
+            <num>27.</num>
+            <list>
+              <point eId="point_27__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>החליטה הועדה לשחרר על־תנאי אסיר, והודיע בא כוח היועץ המשפטי לממשלה לועדה כי הוא שוקל להגיש עתירה נגד ההחלטה, לפי הוראות <ref href="#point_25">סעיף 25</ref>, יעוכב שחרורו של האסיר למשך 7 ימים, כדי לאפשר את הגשת העתירה והגשת בקשה לעיכוב ביצוע במסגרתה.</p>
+                </content>
+              </point>
+              <point eId="point_27__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>מסר בא כוח היועץ המשפטי לממשלה הודעה כאמור בסעיף קטן (א), והחליט לאחר מכן שלא להגיש עתירה כאמור באותו סעיף קטן, יודיע על כך בהקדם האפשרי למנהל בית הסוהר והאסיר ישוחרר אף לפני תום 7 הימים האמורים.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_28">
+            <heading>
+              <authorialNote placement="side">
+                <p>עתירה מינהלית</p>
+              </authorialNote>
+            </heading>
+            <num>28.</num>
+            <content>
+              <p>עתירה לפי <ref href="#chp_ד">פרק זה</ref> תוגש בעתירה מינהלית לפי הוראות <ref href="/akn/il/act/PrimaryLegislation/2000-06-11/169660">חוק בתי משפט לענינים מינהליים, התש"ס–2000</ref>, בכפוף להוראות <ref href="#chp_ד">פרק זה</ref>.</p>
+            </content>
+          </point>
+        </list>
+      </chapter>
+      <chapter eId="chp_ה">
+        <num>פרק ה׳:</num>
+        <title>
+          <content>
+            <p>קציבת עונש מאסר עולם והקלה בעונש בידי נשיא המדינה</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_29">
+            <heading>
+              <authorialNote placement="side">
+                <p>המלצה בענין קציבת עונש מאסר עולם</p>
+              </authorialNote>
+            </heading>
+            <num>29.</num>
+            <list>
+              <point eId="point_29__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>ועדת שחרורים מיוחדת רשאית, לבקשתו של אסיר עולם, להמליץ לפני נשיא המדינה להקל בעונשו של האסיר באמצעות המרת עונשו בעונש מאסר קצוב, בהתאם לסמכות הנתונה לו לפי <ref href="/akn/il/act/PrimaryLegislation/1964-06-25/172564#point_11">סעיף 11(ב) לחוק־יסוד: נשיא המדינה</ref> (בחוק זה – קציבת עונש) לאחר שחלפו לפחות שבע שנים מהיום שהחל לשאת את מאסרו, ובלבד שהתקופה שתמליץ לקצוב לא תפחת מ־30 שנים.</p>
+                </content>
+              </point>
+              <point eId="point_29__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>אסיר עולם הנושא עונש של שני מאסרי עולם מצטברים או יותר, רשאית ועדת שחרורים מיוחדת, לבקשתו, להמליץ לפני נשיא המדינה לקצוב את עונשו של האסיר לאחר שחלפו לפחות חמש עשרה שנים מהיום הקובע, ובלבד שהתקופה שתמליץ לקצוב לא תפחת מ־30 שנים, שתימנה החל ביום הקובע; בסעיף זה, ”היום הקובע“ – היום שבו החל אסיר עולם לשאת את מאסרי העולם שנגזרו עליו בגזר דין אחר או היום שבו נגזר עליו בערכאה ראשונה מאסר העולם האחרון, המוקדם מביניהם.</p>
+                </content>
+              </point>
+              <point eId="point_29__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>סברה ועדת שחרורים מיוחדת שאין מקום להמליץ לפני הנשיא כאמור בסעיפים קטנים (א) ו־(ב), תשוב ותדון בענינו של האסיר מדי שנתיים מהמועד שבו סברה כאמור, ואולם רשאית היא, מנימוקים מיוחדים שיירשמו, לדון בענין לפני תום השנתיים.</p>
+                </content>
+              </point>
+              <point eId="point_29__point_ד">
+                <num>(ד)</num>
+                <content>
+                  <p>לשם גיבוש המלצתה לנשיא המדינה בשאלה האם לקצוב עונש מאסר עולם של אסיר ולאיזו תקופה, תשקול ועדת שחרורים מיוחדת שיקולים עונשיים המתייחסים לטיב העבירה, לנסיבות ביצועה ולתוצאותיה, וכן לנסיבותיו האישיות של האסיר, ועדת שחרורים מיוחדת רשאית, במקרים חריגים, לאפשר לאסיר לטעון את טענותיו לפניה, לשם גיבוש המלצתה כאמור.</p>
+                </content>
+              </point>
+              <point eId="point_29__point_ה">
+                <num>(ה)</num>
+                <content>
+                  <p>קצב נשיא המדינה עונשו של אסיר עולם, רשאית ועדת שחרורים מיוחדת, לבקשתו של האסיר, להמליץ לפני הנשיא להקל בעונש פעמים נוספות, ובלבד שתקופת המאסר שיהיה על האסיר לשאת אם תתקבל המלצת הועדה לא תפחת מ־30 שנים, והוראות סעיף קטן (ד) יחולו, בשינויים המחויבים, גם על גיבוש המלצה לפי סעיף קטן זה.</p>
+                </content>
+              </point>
+              <point eId="point_29__point_ו">
+                <num>(ו)</num>
+                <content>
+                  <p>בחישוב תקופת המאסר של אסיר עולם לענין סעיף זה יחולו הוראות <ref href="#point_8">סעיף 8(ב)</ref>.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_30">
+            <heading>
+              <authorialNote placement="side">
+                <p>המלצה לפי בקשת הנשיא או שר המשפטים וקביעת תקופת התנאי על ידי ועדת שחרורים מיוחדת</p>
+              </authorialNote>
+            </heading>
+            <num>30.</num>
+            <list>
+              <point eId="point_30__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>לענין אסיר עולם, רשאית ועדת שחרורים מיוחדת, בכל עת, על פי פניה של נשיא המדינה או שר המשפטים, להמליץ בענין הפעלת סמכות הנשיא לפי <ref href="/akn/il/act/PrimaryLegislation/1964-06-25/172564#point_11">סעיף 11(ב) לחוק־יסוד: נשיא המדינה</ref>.</p>
+                </content>
+              </point>
+              <point eId="point_30__point_ב">
+                <num>(ב)</num>
+                <list>
+                  <point eId="point_30__point_ב__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>אסיר ששוחרר ממאסרו בטרם סיים לשאת את כל תקופת המאסר, לפי החלטת נשיא המדינה מכוח סמכותו לפי <ref href="/akn/il/act/PrimaryLegislation/1964-06-25/172564#point_11">סעיף 11(ב) לחוק־יסוד: נשיא המדינה</ref>, יראו אותו כאילו שוחרר על־תנאי, ויחולו עליו הוראות חוק זה החלות לגבי אסיר ששוחרר על־תנאי, ובכלל זה הוראות <ref href="#point_13">סעיפים 13(א)</ref><ref href="#point_20">ו־20</ref>, בשינויים המחויבים ובשינוי המפורט בפסקה (2), והכל אלא אם כן קבע הנשיא אחרת בהחלטתו.</p>
+                    </content>
+                  </point>
+                  <point eId="point_30__point_ב__point_2">
+                    <num>(2)</num>
+                    <list>
+                      <intro>
+                        <p>לעניין אסיר ששוחרר כאמור בפסקה (1) תהיה תקופת התנאי כמפורט להלן, לפי העניין:</p>
+                      </intro>
+                      <point eId="point_30__point_ב__point_2__point_א">
+                        <num>(א)</num>
+                        <content>
+                          <p>לגבי אסיר שאינו אסיר עולם, ולגבי אסיר עולם שעונשו נקצב בידי נשיא המדינה – יתרת המאסר שהיה עליו לשאת אלמלא שוחרר כאמור;</p>
+                        </content>
+                      </point>
+                      <point eId="point_30__point_ב__point_2__point_ב">
+                        <num>(ב)</num>
+                        <content>
+                          <p>לגבי אסיר עולם שעונשו לא נקצב בידי נשיא המדינה, למעט אסיר כאמור בפסקה (3) – יתרת המאסר שהיה עליו לשאת אילו נקצב עונשו ל־40 שנים;</p>
+                        </content>
+                      </point>
+                      <point eId="point_30__point_ב__point_2__point_ג">
+                        <num>(ג)</num>
+                        <content>
+                          <p>לגבי אסיר עולם שעונשו לא נקצב בידי נשיא המדינה, והנושא עונשי מאסר עולם מצטברים – יתרת המאסר שהיה עליו לשאת אילו נקצב עונשו ל־50 שנים.</p>
+                        </content>
+                      </point>
+                    </list>
+                  </point>
+                  <point eId="point_30__point_ב__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>הוראות סעיף קטן זה לא יחולו על אסיר עולם ששוחרר ממאסרו לאחר שסיים לשאת את מלוא תקופת המאסר שנקצבה לו בידי נשיא המדינה.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+            </list>
+          </point>
+          <point eId="point_30א">
+            <heading>
+              <authorialNote placement="side">
+                <p>המלצה לענין אסיר עולם שהורשע ברצח ראש הממשלה</p>
+              </authorialNote>
+            </heading>
+            <num>30א.</num>
+            <content>
+              <p>מצאה ועדת שחרורים מיוחדת שאסיר עולם שהורשע ברצח ראש הממשלה פעל ממניע פוליטי־אידאולוגי, יראו לענין <ref href="#point_29">סעיף 29</ref> כאילו המליצה הועדה שלא לקצוב את עונשו של האסיר, ולענין <ref href="#point_30">סעיף 30</ref> כאילו המליצה שלא להפעיל את סמכות הנשיא לפי <ref href="/akn/il/act/PrimaryLegislation/1964-06-25/172564#point_11">סעיף 11(ב) לחוק־יסוד: נשיא המדינה</ref>; הוראות <ref href="#point_29">סעיף 29(ג)</ref> לא יחולו לענין זה.</p>
+            </content>
+          </point>
+          <point eId="point_30ב">
+            <heading>
+              <authorialNote placement="side">
+                <p>המלצה לעניין אסיר עולם שהורשע ברצח חריג בחומרתו</p>
+              </authorialNote>
+            </heading>
+            <num>30ב.</num>
+            <list>
+              <point eId="point_30ב__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>בית משפט שהרשיע אדם ברצח רשאי לקבוע, לעניין המלצה לקציבת עונש מאסר עולם, שאותו אדם ביצע את המעשה בנסיבות חריגות בחומרתן.</p>
+                </content>
+              </point>
+              <point eId="point_30ב__point_ב">
+                <num>(ב)</num>
+                <list>
+                  <intro>
+                    <p>קבע בית המשפט כאמור בסעיף קטן (א), יחולו הוראות <ref href="#point_29">סעיף 29</ref> בשינויים אלה:</p>
+                  </intro>
+                  <point eId="point_30ב__point_ב__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>על אף האמור בסעיף קטן (א), ועדת שחרורים מיוחדת לא תמליץ להקל בעונשו של האסיר בטרם חלפו לפחות 15 שנים מהיום שבו החל לשאת את מאסרו, ובלבד שהתקופה שתמליץ לקצוב לא תפחת מ־40 שנים;</p>
+                    </content>
+                  </point>
+                  <point eId="point_30ב__point_ב__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>בסעיפים קטנים (ב) ו־(ה), במקום ”מ־30 שנים“ יקראו ”מ־40 שנים“.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+            </list>
+          </point>
+          <point eId="point_31">
+            <heading>
+              <authorialNote placement="side">
+                <p>הפעלת סמכות ראש המטה הכללי</p>
+              </authorialNote>
+            </heading>
+            <num>31.</num>
+            <content>
+              <p>בהפעלת סמכות ראש המטה הכללי לפי <ref href="/akn/il/act/PrimaryLegislation/1945-09-27/2002068#point_55">תקנה 55 לתקנות ההגנה (שעת־חירום), 1945</ref>, לענין אסיר עולם, יחולו הוראות <ref href="#point_30">סעיף 30</ref> בשינויים המחויבים.</p>
+            </content>
+          </point>
+        </list>
+      </chapter>
+      <chapter eId="chp_ו">
+        <num>פרק ו׳:</num>
+        <title>
+          <content>
+            <p>היחידה לשחרור ממאסרים קצרים, ועדות שחרורים וועדות שחרורים מיוחדות</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_31א">
+            <heading>
+              <authorialNote placement="side">
+                <p>היחידה לשחרור ממאסרים קצרים – הוראת שעה</p>
+              </authorialNote>
+            </heading>
+            <num>31א.</num>
+            <list>
+              <point eId="point_31א__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>בשירות בתי הסוהר תפעל יחידה שתדון ותחליט בבקשות לשחרור על־תנאי ממאסר של אסירים לפי <ref href="#point_2">סעיף 2</ref>.</p>
+                </content>
+              </point>
+              <point eId="point_31א__point_ב">
+                <num>(ב)</num>
+                <list>
+                  <intro>
+                    <p>נציב בתי הסוהר, בהסכמת השר לביטחון הפנים, ימנה לחברי היחידה האמורה בסעיף קטן (א) שלושה סוהרים כמפורט להלן:</p>
+                  </intro>
+                  <point eId="point_31א__point_ב__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>סוהר בכיר הכשיר להיות שופט שלום, והוא יעמוד בראש היחידה;</p>
+                    </content>
+                  </point>
+                  <point eId="point_31א__point_ב__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>קצין שירות בתי הסוהר בעל תואר אקדמי במשפטים וניסיון בתחום הכליאה;</p>
+                    </content>
+                  </point>
+                  <point eId="point_31א__point_ב__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>קצין שירות בתי הסוהר שלו חמש שנות ניסיון באחד מהתחומים האלה: עבודה סוציאלית, פסיכולוגיה או חינוך.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_31א__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>נציב בתי הסוהר ימנה סוהר שישמש מזכיר ליחידה האמורה בסעיף קטן (א); המזכיר יהיה אחראי לקביעת מועדי התכנסות היחידה, לסדרי עבודתה, לריכוז נתונים ומסמכים הנחוצים לה לשם עבודתה ולהעברת החלטותיה לאסיר ולמשטרת ישראל ובמקרים המתאימים גם לרשויות הביטחון, לרשות לשיקום האסיר או לשירות המבחן, לפי העניין.</p>
+                </content>
+              </point>
+              <point eId="point_31א__point_ד">
+                <num>(ד)</num>
+                <content>
+                  <p>בסעיף זה, ”סוהר“ ו”סוהר בכיר“ – כהגדרתם <ref href="/akn/il/act/PrimaryLegislation/1971-10-20/2002271">בפקודת בתי הסוהר</ref>.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_32">
+            <heading>
+              <authorialNote placement="side">
+                <p>ועדת שחרורים</p>
+              </authorialNote>
+            </heading>
+            <num>32.</num>
+            <list>
+              <point eId="point_32__point_א">
+                <num>(א)</num>
+                <list>
+                  <intro>
+                    <p>ועדת שחרורים תהיה של שלושה, והם:</p>
+                  </intro>
+                  <point eId="point_32__point_א__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>שופט שמינה שר המשפטים בהסכמת נשיא בית המשפט העליון, והוא יהיה היושב ראש;</p>
+                    </content>
+                  </point>
+                  <point eId="point_32__point_א__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>שני אנשים שמינה שר המשפטים, שלכל אחד מהם חמש שנות ניסיון בתחום שונה מבין התחומים האלה: קרימינולוגיה, עבודה סוציאלית, פסיכולוגיה, פסיכיאטריה או חינוך; ואולם ניסיון בתחום החינוך הוא ניסיון של מי שמכהן או שכיהן כאיש חינוך בכיר והוא בעל ניסיון מעשי בחינוך והשכלה אקדמית;</p>
+                    </content>
+                  </point>
+                  <point eId="point_32__point_א__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>
+                        <wikicomment font-size="x-small">(נמחקה).</wikicomment>
+                      </p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_32__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>חברי ועדת שחרורים יתמנו לתקופה של שנתיים וניתן לשוב ולמנותם לתקופות נוספות של עד שנתיים כל אחת.</p>
+                </content>
+              </point>
+              <point eId="point_32__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>הודעה על מינוים של חברי ועדת שחרורים תפורסם ברשומות.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_33">
+            <heading>
+              <authorialNote placement="side">
+                <p>ועדת שחרורים מיוחדת</p>
+              </authorialNote>
+            </heading>
+            <num>33.</num>
+            <list>
+              <point eId="point_33__point_א">
+                <num>(א)</num>
+                <list>
+                  <intro>
+                    <p>בדיון בענין קציבת עונשו של אסיר עולם, תהיה ועדת שחרורים מיוחדת של ארבעה, והם:</p>
+                  </intro>
+                  <point eId="point_33__point_א__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>שופט של בית המשפט מחוזי, שמינה שר המשפטים בהסכמת נשיא בית המשפט העליון, והוא יהיה היושב ראש;</p>
+                    </content>
+                  </point>
+                  <point eId="point_33__point_א__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>שופט בית המשפט שלום או מי שהיה שופט בית המשפט שלום ויצא לקצבה או פרש, שמינה שר המשפטים בהסכמת נשיא בית המשפט העליון;</p>
+                    </content>
+                  </point>
+                  <point eId="point_33__point_א__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>אדם שמינה שר המשפטים, שלו עשר שנות ניסיון באחד מהתחומים המפורטים <ref href="#point_32">בסעיף 32(א)(2)</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_33__point_א__point_4">
+                    <num>(4)</num>
+                    <content>
+                      <p>הממונה על מחלקת חנינות במשרד המשפטים או עורך דין, עובד מחלקת חנינות, שהוא הסמיכו לכך.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_33__point_ב">
+                <num>(ב)</num>
+                <list>
+                  <intro>
+                    <p>בדיון אחר שבסמכותה של ועדת שחרורים מיוחדת, תהיה הועדה של שלושה, והם:</p>
+                  </intro>
+                  <point eId="point_33__point_ב__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>שופט של בית המשפט מחוזי, שמינה שר המשפטים בהסכמת נשיא בית המשפט העליון, והוא יהיה היושב ראש;</p>
+                    </content>
+                  </point>
+                  <point eId="point_33__point_ב__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>שני אנשים שמינה שר המשפטים, שלכל אחד מהם עשר שנות ניסיון בתחום שונה מבין התחומים המפורטים <ref href="#point_32">בסעיף 32(א)(2)</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_33__point_ב__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>
+                        <wikicomment font-size="x-small">(נמחקה).</wikicomment>
+                      </p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_33__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>הוראות <ref href="#point_32">סעיף 32(ב) ו־(ג)</ref> יחולו, בשינויים המחויבים, על מינוי חברי ועדת שחרורים מיוחדת.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_33א">
+            <heading>
+              <authorialNote placement="side">
+                <p>נציג שירות בתי הסוהר</p>
+              </authorialNote>
+            </heading>
+            <num>33א.</num>
+            <content>
+              <p>בדיוני ועדת השחרורים <ref href="#point_32">שבסעיף 32</ref> וועדת השחרורים המיוחדת <ref href="#point_33">שבסעיף 33(ב)</ref> ישתתף נציג שירות בתי הסוהר שימנה לשם כך נציב בתי הסוהר, בלא זכות הצבעה.</p>
+            </content>
+          </point>
+          <point eId="point_34">
+            <heading>
+              <authorialNote placement="side">
+                <p>מזכירי הועדות</p>
+              </authorialNote>
+            </heading>
+            <num>34.</num>
+            <list>
+              <point eId="point_34__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>שר המשפטים ימנה, מבין עובדי הנהלת בתי המשפט, מזכיר ראשי לועדות (להלן – המזכיר הראשי), שיהיה אחראי על קביעת המותבים של ועדות השחרורים וועדות השחרורים המיוחדות, על קביעת מועדי הדיון בועדות והזמנת המותבים לדיונים, על סדרי עבודתן של הועדות ועל התיאום הנדרש עם מזכירי הועדות.</p>
+                </content>
+              </point>
+              <point eId="point_34__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>השר לביטחון הפנים ימנה, מבין קציני שירות בתי הסוהר, מזכירים לועדות שחרורים ולועדות שחרורים מיוחדות; מזכירי הועדות יהיו אחראים על העברת מידע הנחוץ למזכיר הראשי לצורך מילוי תפקידיו ועל איסוף נתונים ומסמכים הנחוצים לעבודת הועדות והעברתם למותבים ולבא כוח היועץ המשפטי לממשלה, הכל בתיאום עם המזכיר הראשי וכפי שיקבע שר המשפטים באישור השר לביטחון הפנים.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+        </list>
+      </chapter>
+      <chapter eId="chp_ז">
+        <num>פרק ז׳:</num>
+        <title>
+          <content>
+            <p>הוראות שונות ותיקוני חקיקה</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_35">
+            <heading>
+              <authorialNote placement="side">
+                <p>ייחוד סמכויות</p>
+              </authorialNote>
+            </heading>
+            <num>35.</num>
+            <content>
+              <p>הסמכויות הנתונות לועדה לגבי אסיר לפי הוראות חוק זה יהיו נתונות, לגבי אסיר עולם, רק לועדת שחרורים מיוחדת.</p>
+            </content>
+          </point>
+          <point eId="point_36">
+            <heading>
+              <authorialNote placement="side">
+                <p>אי תחולת פקודת הראיות</p>
+              </authorialNote>
+            </heading>
+            <num>36.</num>
+            <content>
+              <p>הוראות <ref href="/akn/il/act/PrimaryLegislation/1971-04-28/2002283#point_44">סעיפים 44 עד 46 לפקודת הראיות [נוסח חדש], התשל"א–1971</ref> לא יחולו על דיוני היחידה לשחרור ממאסרים קצרים והוועדה, ועל עתירה, בקשת רשות ערעור וערעור לפי חוק זה.</p>
+            </content>
+          </point>
+          <point eId="point_37">
+            <heading>
+              <authorialNote placement="side">
+                <p>סמכויות שוטר</p>
+              </authorialNote>
+            </heading>
+            <num>37.</num>
+            <list>
+              <intro>
+                <p>שוטר רשאי לעשות כל אחת מאלה:</p>
+              </intro>
+              <point eId="point_37__point_1">
+                <num>(1)</num>
+                <content>
+                  <p>לדרוש מאסיר ששוחרר על־תנאי שיציג לפניו את רישיונו;</p>
+                </content>
+              </point>
+              <point eId="point_37__point_2">
+                <num>(2)</num>
+                <content>
+                  <p>לחקור אסיר ששוחרר על־תנאי כדי לברר אם הוא מקיים את תנאי שחרורו ולחקור אדם אחר לגבי קיום תנאי השחרור בידי אסיר;</p>
+                </content>
+              </point>
+              <point eId="point_37__point_3">
+                <num>(3)</num>
+                <content>
+                  <p>להיכנס לבית או למקום שאסיר ששוחרר על־תנאי אמור להימצא בו על פי תנאי שחרורו, כדי לפקח על קיום תנאים אלה, לאחר שזיהה עצמו לפני מחזיק הבית או המקום והודיע לו לאיזו מטרה מתבקשת הכניסה, ורשאי הוא להשתמש בכוח סביר לשם כניסה כאמור;</p>
+                </content>
+              </point>
+              <point eId="point_37__point_4">
+                <num>(4)</num>
+                <content>
+                  <p>להיכנס לבית או למקום, שעל פי תנאי שחרורו של אסיר אסור לו להימצא בו, אם יש לו יסוד סביר להניח שהאסיר נמצא בו, לאחר שזיהה עצמו לפני מחזיק הבית או המקום והודיע לו לאיזו מטרה מתבקשת הכניסה, ורשאי הוא להשתמש בכוח סביר לשם כניסה כאמור.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_38">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>38.</num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryLegislation/1977-08-04/2002251">בחוק העונשין, התשל"ז–1977</ref>.</wikicomment>
+              </p>
+            </content>
+          </point>
+          <point eId="point_39">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>39.</num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryLegislation/1971-10-20/2002271">בפקודת בתי הסוהר [נוסח חדש], התשל"ב–1971</ref>.</wikicomment>
+              </p>
+            </content>
+          </point>
+          <point eId="point_40">
+            <heading>
+              <authorialNote placement="side">
+                <p>ביטול חוק לשחרור מוקדם של אסירים (תיקוני חקיקה)</p>
+              </authorialNote>
+            </heading>
+            <num>40.</num>
+            <content>
+              <p>חוק לשחרור מוקדם של אסירים (תיקוני חקיקה), התשס"א–2001 – בטל.</p>
+            </content>
+          </point>
+          <point eId="point_41">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>41.</num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryLegislation/1995-11-30/159539">בחוק הסניגוריה הציבורית, התשנ"ו–1995</ref>.</wikicomment>
+              </p>
+            </content>
+          </point>
+          <point eId="point_42">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>42.</num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/תקנות_שעת_חירום_יהודה_והשומרון_וחבל_עזה_שיפוט_בעבירות_ועזרה_משפטית">בתקנות שעת חירום (יהודה והשומרון וחבל עזה – שיפוט בעבירות ועזרה משפטית), התשכ"ח–1967</ref>.</wikicomment>
+              </p>
+            </content>
+          </point>
+          <point eId="point_43">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>43.</num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryLegislation/2000-06-11/169660">בחוק בתי משפט לענינים מינהליים, התש"ס–2000</ref>.</wikicomment>
+              </p>
+            </content>
+          </point>
+          <point eId="point_44">
+            <heading>
+              <authorialNote placement="side">
+                <p>שמירת דינים</p>
+              </authorialNote>
+            </heading>
+            <num>44.</num>
+            <content>
+              <p>אין בהוראות חוק זה כדי לגרוע מהוראות <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/חוק_יישום_הסכם_הביניים_בדבר_הגדה_המערבית_ורצועת_עזה_סמכויות_שיפוט_והוראות_אחרות_תיקוני_חקיקה">חוק יישום הסכם הביניים בדבר הגדה המערבית ורצועת עזה (סמכויות שיפוט והוראות אחרות) (תיקוני חקיקה), התשנ"ו–1996</ref>.</p>
+            </content>
+          </point>
+          <point eId="point_45">
+            <heading>
+              <authorialNote placement="side">
+                <p>ביצוע ותקנות</p>
+              </authorialNote>
+            </heading>
+            <num>45.</num>
+            <list>
+              <point eId="point_45__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>שר המשפטים ממונה על ביצוע חוק זה, והוא רשאי להתקין תקנות לביצועו באישור השר לביטחון הפנים ובאישור ועדת החוקה חוק ומשפט של הכנסת.</p>
+                </content>
+              </point>
+              <point eId="point_45__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>תקנות שהתקין השר לביטחון הפנים לפי <ref href="/akn/il/act/PrimaryLegislation/1996-05-12/159712#point_22יא">סעיף 22יא לחוק המעצרים</ref>, לעניין הפעלת הפיקוח האלקטרוני, יחולו גם לעניין פיקוח אלקטרוני על שחרור על־תנאי של אסיר לפי <ref href="#point_13א">סעיף 13א</ref>, בשינויים המחויבים.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_46">
+            <heading>
+              <authorialNote placement="side">
+                <p>תחילה</p>
+              </authorialNote>
+            </heading>
+            <num>46.</num>
+            <content>
+              <p>תחילתו של חוק זה, למעט <ref href="#point_47">סעיף 47</ref> ב־1 בחודש שלאחר תום שישה חודשים מיום פרסומו (בחוק זה – יום התחילה).</p>
+            </content>
+          </point>
+          <point eId="point_47">
+            <heading>
+              <authorialNote placement="side">
+                <p>הוראות מיוחדות לתקופת הביניים</p>
+              </authorialNote>
+            </heading>
+            <num>47.</num>
+            <list>
+              <point eId="point_47__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>בסעיף זה, ”תקופת הביניים“ – התקופה שמיום פרסומו של חוק זה עד היום שקדם ליום התחילה.</p>
+                </content>
+              </point>
+              <point eId="point_47__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>אסיר שנגזר עליו עונש מאסר בתקופת הביניים יישא, על אף הוראות <ref href="/akn/il/act/PrimaryLegislation/1977-08-04/2002251#point_49">סעיף 49(א) ו־(ב) לחוק העונשין</ref><ref href="/akn/il/act/PrimaryLegislation/1971-10-20/2002271#point_28">וסעיף 28 לפקודת בתי הסוהר</ref>, לפחות שני שלישים מתקופת המאסר שעליו לשאת בטרם ניתן יהיה לשחררו לפי אותם סעיפים.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_48">
+            <heading>
+              <authorialNote placement="side">
+                <p>הוראות מעבר</p>
+              </authorialNote>
+            </heading>
+            <num>48.</num>
+            <list>
+              <point eId="point_48__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>אסיר המשוחרר ברישיון ערב תחילתו של חוק זה, לפי הוראות <ref href="/akn/il/act/PrimaryLegislation/1971-10-20/2002271#point_28">סעיף 28 לפקודת בתי הסוהר</ref>, יראו אותו כאילו שוחרר על תנאי לפי הוראות חוק זה, בתנאים שנקבעו ברישיונו ובתנאים האמורים <ref href="#point_13">בסעיף 13(א), (ג) ו־(ד)</ref> ויראו ברישיון שניתן לו לפי <ref href="/akn/il/act/PrimaryLegislation/1971-10-20/2002271">הפקודה האמורה</ref> – כרישיון לפי <ref href="#point_14">סעיף 14</ref>.</p>
+                </content>
+              </point>
+              <point eId="point_48__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>אסיר, שנגזר עליו עונש מאסר לפני פרסומו של חוק זה, למעט אסיר שנגזר עליו עונש מאסר בשל עבירה מהעבירות המפורטות <ref href="/akn/il/act/PrimaryLegislation/1977-08-04/2002251#appendix_1">בתוספת הראשונה לחוק העונשין</ref>, כנוסחה ערב תחילתו של חוק זה, יחולו עליו הוראות חוק זה בשינוי הזה: <ref href="#point_2">בסעיפים 2</ref><ref href="#point_3">ו־3</ref>, במקום ”שני שלישים מתקופת המאסר“ יבוא ”מחצית מתקופת המאסר“.</p>
+                </content>
+              </point>
+              <point eId="point_48__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>בלי לגרוע מהוראות <ref href="#point_9">סעיפים 9</ref><ref href="#point_10">ו־10</ref>, הועדה תשקול אפשרות שיקומו של אסיר שהוראות סעיף קטן (ב) חלות עליו על סמך חוות דעת של הרשות לשיקום האסיר, אם ניתנה, על פי כללים שיקבע שר המשפטים בהתייעצות עם שר העבודה והרווחה ובאישור ועדת החוקה חוק ומשפט של הכנסת.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+        </list>
+      </chapter>
+      <appendix eId="appendix">
+        <num></num>
+        <title>
+          <content>
+            <p>תוספת</p>
+          </content>
+        </title>
+        <subtitle eId="eId">
+          <num></num>
+          <content>
+            <p>
+              <wikicomment font-size="x-small">(<ref href="#point_11">סעיף 11</ref>)</wikicomment>
+            </p>
+          </content>
+        </subtitle>
+        <list>
+          <point eId="appendix__point_1">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>1.</num>
+            <content>
+              <p>עבירות אלימות שביצע האסיר כלפי בן משפחתו, לרבות כליאת שווא של בן משפחתו או עבירה אחרת שפגעה בחירותו או בשלוות חייו של בן משפחתו, ולרבות עבירות של התעללות, הזנחה או נטישה של בן משפחתו.</p>
+            </content>
+          </point>
+          <point eId="appendix__point_2">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>2.</num>
+            <content>
+              <p>עבירות לפי <ref href="/akn/il/act/PrimaryLegislation/1977-08-04/2002251#chp_ח_sec_י">סימן י׳, בפרק ח׳ לחוק העונשין</ref>, שביצע האסיר כלפי בן משפחתו.</p>
+            </content>
+          </point>
+          <point eId="appendix__point_3">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>3.</num>
+            <content>
+              <p>עבירות מין לפי <ref href="/akn/il/act/PrimaryLegislation/1977-08-04/2002251#chp_י_sec_ה">סימן ה׳ בפרק י׳ לחוק העונשין</ref>, שביצע האסיר כלפי בן משפחתו.</p>
+            </content>
+          </point>
+          <point eId="appendix__point_none">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num></num>
+            <content>
+              <p>לענין <ref href="#appendix">תוספת זו</ref>, ”בן משפחה“ – כהגדרתו <ref href="/akn/il/act/PrimaryLegislation/1991-03-28/174545">בחוק למניעת אלימות במשפחה, התשנ"א–1991</ref>.</p>
+            </content>
+          </point>
+        </list>
+      </appendix>
+    </body>
+    <conclusions eId="eId">
+      <p class="signatures">
+        <signature>
+          <p>
+            <person refersTo="אריאל_שרון">אריאל שרון</person>
+            <role refersTo="ראש_הממשלה">ראש הממשלה</role>
+          </p>
+        </signature>
+        <signature>
+          <p>
+            <person refersTo="מאיר_שטרית">מאיר שטרית</person>
+            <role refersTo="שר_המשפטים">שר המשפטים</role>
+          </p>
+        </signature>
+        <signature>
+          <p>
+            <person refersTo="משה_קצב">משה קצב</person>
+            <role refersTo="נשיא_המדינה">נשיא המדינה</role>
+          </p>
+        </signature>
+        <signature>
+          <p>
+            <person refersTo="אברהם_בורג">אברהם בורג</person>
+            <role refersTo="יושב_ראש_הכנסת">יושב ראש הכנסת</role>
+          </p>
+        </signature>
+      </p>
+    </conclusions>
+  </act>
+</akomaNtoso>

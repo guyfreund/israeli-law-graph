@@ -1,0 +1,582 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion" name="publicLaw">
+    <meta>
+      <identification source="#kensset">
+        <FRBRWork>
+          <FRBRthis value="/akn/il/act/SecondaryLegislation/1999-05-19/100028548/main" />
+          <FRBRuri value="/akn/il/act/SecondaryLegislation/1999-05-19/100028548" />
+          <FRBRdate date="1999-05-19" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRcountry value="israel" />
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/il/act/SecondaryLegislation/1999-05-19/100028548/he@/main" />
+          <FRBRuri value="/akn/il/act/SecondaryLegislation/1999-05-19/100028548/he@" />
+          <FRBRdate date="1999-05-19" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRlanguage language="hebrew" />
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/il/act/SecondaryLegislation/1999-05-19/100028548/he@/main.xml" />
+          <FRBRuri value="/akn/il/act/SecondaryLegislation/1999-05-19/100028548/he@" />
+          <FRBRdate date="1999-05-19" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRformat value="xml" />
+        </FRBRManifestation>
+      </identification>
+      <classification source="#kensset">
+        <keyword value="{classificationValue}" showAs="{classificationValue}" dictionary="#classification_dictionary" />
+      </classification>
+      <lifecycle source="#kensset">
+        <eventRef eId="eventRef_1" date="1999-05-19" source="#kensset" type="generation" />
+      </lifecycle>
+      <references source="#kensset">
+        <TLCOrganization eId="kensset" href="/ontology/organization/akn/knesset" showAs="Kensset" type="generation" />
+        <TLCRole eId="author" href="/ontology/role/akn/author" showAs="Author of Document" />
+        <TLCProcess eId="inforce" href="/ontology/process/akn/inforce" showAs="In force" />
+        <TLCTerm eId="term_1" href="/ontology/term/בית_דין/100028548" showAs="בית_דין" />
+        <TLCTerm eId="term_2" href="/ontology/term/בקשה/100028548" showAs="בקשה" />
+        <TLCTerm eId="term_3" href="/ontology/term/מבקש/100028548" showAs="מבקש" />
+        <TLCTerm eId="term_4" href="/ontology/term/מוגן/100028548" showAs="מוגן" />
+        <TLCTerm eId="term_5" href="/ontology/term/משיב/100028548" showAs="משיב" />
+        <TLCTerm eId="term_6" href="/ontology/term/פרטי_זיהוי/100028548" showAs="פרטי_זיהוי" />
+        <TLCPerson eId="אליהו_סויסה" href="/ontology/person/אליהו_סויסה" showAs="אליהו סויסה" />
+        <TLCRole eId="השר_לעניני_דתות" href="ontology/role/akn/השר_לעניני_דתות" showAs="השר לעניני דתות" />
+      </references>
+      <temporalData source="#kensset">
+        <temporalGroup eId="tmpg_1" />
+      </temporalData>
+      <Publication></Publication>
+      <proprietary wikiversion="12/31/2020 9:35:54 AM" />
+    </meta>
+    <body period="#tmpg_1">
+      <title eId="title">
+        <content>
+          <p>תקנות למניעת אלימות במשפחה (סדרי דין בבתי דין רבניים), התשנ"ט–1999</p>
+        </content>
+      </title>
+      <preamble eId="eId">
+        <p>בתוקף סמכותי לפי <ref href="/akn/il/act/PrimaryLegislation/1991-03-28/174545#point_13">סעיף 13(ב)</ref><ref href="/akn/il/act/PrimaryLegislation/1991-03-28/174545">לחוק למניעת אלימות במשפחה, התשנ"א–1991</ref> (להלן – החוק), ובהסכמת שר המשפטים, אני מתקין תקנות אלה:</p>
+      </preamble>
+      <chapter eId="chp_א">
+        <num>פרק א׳:</num>
+        <title>
+          <content>
+            <p>פרשנות</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_1" class="definitions">
+            <heading>
+              <authorialNote placement="side">
+                <p>הגדרות</p>
+              </authorialNote>
+            </heading>
+            <num>1.</num>
+            <list>
+              <intro>
+                <p>בתקנות אלה –</p>
+              </intro>
+              <point eId="point_1__point_בית_דין">
+                <content>
+                  <p>
+                    <def />”בית דין“ – בית דין רבני;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_בקשה">
+                <content>
+                  <p>
+                    <def />”בקשה“ – בקשה למתן צו הגנה;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_מבקש">
+                <content>
+                  <p>
+                    <def />”מבקש“ – מי שרשאי לבקש צו הגנה;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_מוגן">
+                <content>
+                  <p>
+                    <def />”מוגן“ – מי שלטובתו מבוקש צו הגנה;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_משיב">
+                <content>
+                  <p>
+                    <def />”משיב“ – האדם שמפניו מתבקש צו הגנה;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_פרטי_זיהוי">
+                <list>
+                  <intro>
+                    <p>
+                      <def />”פרטי זיהוי“ –</p>
+                  </intro>
+                  <point eId="point_1__point_פרטי_זיהוי__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>שם פרטי, שם האב ושם משפחה;</p>
+                    </content>
+                  </point>
+                  <point eId="point_1__point_פרטי_זיהוי__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>מספר זיהוי וסוג התעודה שממנה נרשם המספר, אם הדבר ידוע;</p>
+                    </content>
+                  </point>
+                  <point eId="point_1__point_פרטי_זיהוי__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>המען הקבוע.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+            </list>
+          </point>
+        </list>
+      </chapter>
+      <chapter eId="chp_ב">
+        <num>פרק ב׳:</num>
+        <title>
+          <content>
+            <p>פתיחת ההליך</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_2">
+            <heading>
+              <authorialNote placement="side">
+                <p>הגשת בקשה</p>
+              </authorialNote>
+            </heading>
+            <num>2.</num>
+            <list>
+              <point eId="point_2__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>בקשה תוגש בכתב לבית הדין שבאזור שיפוטו מצוי מקום המגורים של המוגן, לפי <ref href="#appendix_טופס_1">טופס 1 שבתוספת</ref>, ויצורף לה תצהיר מטעם המבקש או מאת יודע הפרטים הקשורים לבקשה, לפי <ref href="#appendix_טופס_2">טופס 2 שבתוספת</ref>.</p>
+                </content>
+              </point>
+              <point eId="point_2__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>בית הדין רשאי, בנסיבות מיוחדות לפי שיקול דעתו, לדון בבקשה שהוגשה אף שלא באזור השיפוט שבו מקום המגורים של המוגן.</p>
+                </content>
+              </point>
+              <point eId="point_2__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>בקשה למתן צו במעמד צד אחד תוגש לפי <ref href="#appendix_טופס_3">טופס 3 שבתוספת</ref>, בצירוף תצהיר כאמור בתקנת משנה (א).</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_3">
+            <heading>
+              <authorialNote placement="side">
+                <p>מועד לדיון</p>
+              </authorialNote>
+            </heading>
+            <num>3.</num>
+            <content>
+              <p>במעמד הגשת הבקשה ייקבע המועד לדיון בה, מוקדם ככל האפשר ולא יאוחר משבעה ימים מיום הגשת הבקשה, והודעה עליו תימסר למבקש.</p>
+            </content>
+          </point>
+          <point eId="point_4">
+            <heading>
+              <authorialNote placement="side">
+                <p>הודעה למשיב</p>
+              </authorialNote>
+            </heading>
+            <num>4.</num>
+            <list>
+              <point eId="point_4__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>הוגשה בקשה ונקבע מועד לדיון במעמד שני הצדדים, תומצא למשיב הודעה ערוכה לפי <ref href="#appendix_טופס_4">טופס 4 שבתוספת</ref> ובה יפורט המועד הקבוע לדיון.</p>
+                </content>
+              </point>
+              <point eId="point_4__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>ניתן צו במעמד צד אחד בהתאם <ref href="/akn/il/act/PrimaryLegislation/1991-03-28/174545#point_4">לסעיף 4(א) לחוק</ref>, יומצא למשיב העתק הצו יחד עם הבקשה ונספחיה, בצירוף הודעה כאמור בתקנת משנה (א).</p>
+                </content>
+              </point>
+              <point eId="point_4__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>בתאריך שנקבע לדיון במעמד שני הצדדים, יתייצבו המצהירים כדי לאפשר את חקירתם על תצהיריהם.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+        </list>
+      </chapter>
+      <chapter eId="chp_ג">
+        <num>פרק ג׳:</num>
+        <title>
+          <content>
+            <p>מהלך הדיון ומתן הצו</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_5">
+            <heading>
+              <authorialNote placement="side">
+                <p>התייצבות</p>
+              </authorialNote>
+            </heading>
+            <num>5.</num>
+            <list>
+              <point eId="point_5__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>לא התייצב המבקש לאחר שנמסרה לו הודעה על מועד הדיון, רשאי בית הדין למחוק את הבקשה או לדחותה ולחייב את המבקש בהוצאות כפי שיראה לנכון, אלא אם כן נמנע מן המבקש להופיע מסיבות שאינן תלויות בו.</p>
+                </content>
+              </point>
+              <point eId="point_5__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>לא התייצב איש מבעלי הדין, רשאי בית הדין לדחות את הדיון למועד אחר או למחוק את הבקשה או לדחותה, ולפסוק הוצאות לטובת המדינה כאמור <ref href="/akn/il/act/PrimaryLegislation/1991-03-28/174545#point_11">בסעיף 11 לחוק</ref>.</p>
+                </content>
+              </point>
+              <point eId="point_5__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>לא התייצב המשיב ינהג בית הדין בהתאם לאמור <ref href="/akn/il/act/PrimaryLegislation/1991-03-28/174545#point_4">בסעיף 4(ב) לחוק</ref>.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_6">
+            <heading>
+              <authorialNote placement="side">
+                <p>צו הגנה</p>
+              </authorialNote>
+            </heading>
+            <num>6.</num>
+            <list>
+              <point eId="point_6__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>צו הגנה יהא ערוך לפי <ref href="#appendix_טופס_5">טופס 5 שבתוספת</ref>.</p>
+                </content>
+              </point>
+              <point eId="point_6__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>כלל צו ההגנה איסור לשאת או להחזיק נשק, תימסר הודעה על כך לפקיד רישוי כלי יריה במשרד הפנים, לפי <ref href="#appendix_טופס_6">טופס 6 שבתוספת</ref>; היה המשיב איש רשות ביטחון, תימסר הודעה על כך גם לרשות הביטחון הנוגעת לענין, לפי אותו טופס.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_7">
+            <heading>
+              <authorialNote placement="side">
+                <p>בקשה להארכת צו והדיון בה</p>
+              </authorialNote>
+            </heading>
+            <num>7.</num>
+            <list>
+              <point eId="point_7__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>נתן בית הדין צו הגנה לתקופה קצרה מהתקופה המרבית הכוללת הקבועה <ref href="/akn/il/act/PrimaryLegislation/1991-03-28/174545#point_5">בסעיף 5 לחוק</ref>, רשאי המבקש להגיש לבית הדין שנתן את הצו, בקשה להארכת תוקפו (להלן – בקשת הארכה) לפי <ref href="#appendix_טופס_7">טופס 7 שבתוספת</ref>, ויצורף לה תצהיר מטעם המבקש או מאת יודע הפרטים הקשורים לבקשת ההארכה, לפי <ref href="#appendix_טופס_2">טופס 2 שבתוספת</ref>.</p>
+                </content>
+              </point>
+              <point eId="point_7__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>ניתן צו הגנה במעמד שני הצדדים, שלא במקום המגורים הקבוע של המוגן, יחליט בית הדין באותו מעמד על העברת הדיון לענין בקשות הארכת הצו, לבית הדין במקום המגורים הקבוע של המוגן, אלא אם כן מצא טעמים מיוחדים שלא לעשות כן.</p>
+                </content>
+              </point>
+              <point eId="point_7__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>הוגשה בקשת ההארכה עד שבעה ימים לפני מועד פקיעת צו ההגנה, ידון בית הדין בבקשת ההארכה ויחליט בה לפני מועד פקיעתו של הצו.</p>
+                </content>
+              </point>
+              <point eId="point_7__point_ד">
+                <num>(ד)</num>
+                <content>
+                  <p>הודעה על דיון בבקשת ההארכה תישלח למשיב לפי <ref href="#appendix_טופס_4">טופס 4 שבתוספת</ref>.</p>
+                </content>
+              </point>
+              <point eId="point_7__point_ה">
+                <num>(ה)</num>
+                <content>
+                  <p>הוראות <ref href="#point_5">תקנה 5</ref> יחולו, בשינויים המחויבים, לענין התייצבות בעלי הדין לדיון בבקשת ההארכה.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_8">
+            <heading>
+              <authorialNote placement="side">
+                <p>דיון בבקשה במעמד צד אחד</p>
+              </authorialNote>
+            </heading>
+            <num>8.</num>
+            <content>
+              <p>בקשה למתן צו במעמד צד אחד, יכול שתידון בפני דיין יחיד.</p>
+            </content>
+          </point>
+        </list>
+      </chapter>
+      <chapter eId="chp_ד">
+        <num>פרק ד׳:</num>
+        <title>
+          <content>
+            <p>הפרת צו הגנה</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_9">
+            <heading>
+              <authorialNote placement="side">
+                <p>הפרת צו הגנה</p>
+              </authorialNote>
+            </heading>
+            <num>9.</num>
+            <list>
+              <point eId="point_9__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>בקשה בשל הפרת צו הגנה תוגש לפי <ref href="#appendix_טופס_8">טופס 8 שבתוספת</ref> ויצורף לה תצהיר לפי <ref href="#appendix_טופס_9">טופס 9 שבתוספת</ref> והודעה על הדיון בבקשה תומצא למשיב לפי <ref href="#appendix_טופס_10">טופס 10 שבתוספת</ref>. הבקשה תוגש לבית הדין שנתן את הצו, אלא אם כן הועבר התיק, בהתאם <ref href="#point_7">לתקנה 7(ב)</ref>.</p>
+                </content>
+              </point>
+              <point eId="point_9__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>הוראות <ref href="#point_5">תקנה 5</ref> יחולו, בשינויים המחויבים, לענין התייצבות בעלי הדין לדיון בבקשה בשל הפרת צו הגנה.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_10">
+            <heading>
+              <authorialNote placement="side">
+                <p>מועד להגשת בקשה בשל הפרת צו</p>
+              </authorialNote>
+            </heading>
+            <num>10.</num>
+            <list>
+              <point eId="point_10__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>בקשה כאמור <ref href="#point_9">בתקנה 9(א)</ref> תוגש בתוך שבעה ימים מיום הפרת צו ההגנה.</p>
+                </content>
+              </point>
+              <point eId="point_10__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>הוגשה תלונה למשטרה בשל הפרת צו הגנה הכולל איסור לפי <ref href="/akn/il/act/PrimaryLegislation/1991-03-28/174545#point_2">סעיף 2(א)(1) לחוק</ref>, תוגש הבקשה בתוך ארבעים ושמונה שעות מזמן הגשת התלונה, אלא אם כן נמנע מהמבקש להגישה בשל סיבות שאינן תלויות בו; במנין השעות לא יבואו בחשבון שבתות וחגים.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+        </list>
+      </chapter>
+      <chapter eId="chp_ה">
+        <num>פרק ה׳:</num>
+        <title>
+          <content>
+            <p>הוראות שונות</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_11">
+            <heading>
+              <authorialNote placement="side">
+                <p>הגשת בקשות</p>
+              </authorialNote>
+            </heading>
+            <num>11.</num>
+            <content>
+              <p>בקשות לפי תקנות אלה, לרבות תצהיר ונספחים אחרים, יוגשו בשלושה עותקים.</p>
+            </content>
+          </point>
+          <point eId="point_12">
+            <heading>
+              <authorialNote placement="side">
+                <p>מסירת כתבי בי־דין</p>
+              </authorialNote>
+            </heading>
+            <num>12.</num>
+            <content>
+              <p>כתבי בי־דין והודעות לענין הליכים לפי <ref href="/akn/il/act/PrimaryLegislation/1991-03-28/174545">חוק זה [צ"ל: החוק]</ref> יומצאו בהתאם <ref href="/akn/il/act/PrimaryLegislation/1991-03-28/174545#point_9">לסעיף 9 לחוק</ref>, בדרך שתבטיח את מסירתם לפי דחיפות ההליך, בהתאם לכתובת למסירת כתבי בי־דין כמפורט בתצהיר המבקש.</p>
+            </content>
+          </point>
+          <point eId="point_13">
+            <heading>
+              <authorialNote placement="side">
+                <p>החלת תקנות הדיון של בתי הדין הרבניים</p>
+              </authorialNote>
+            </heading>
+            <num>13.</num>
+            <content>
+              <p>
+                <ref href="/akn/il/act/SecondaryLegislation/1992-12-29/100023890">תקנות הדיון בבתי־דין רבניים, התשנ"ג</ref>, יחולו בשינויים המחויבים לפי הענין, בכל ענין הנוגע לצו הגנה שאינו מוסדר בתקנות אלה.</p>
+            </content>
+          </point>
+          <point eId="point_14">
+            <heading>
+              <authorialNote placement="side">
+                <p>פטור מאגרה</p>
+              </authorialNote>
+            </heading>
+            <num>14.</num>
+            <content>
+              <p>ההליכים לפי <ref href="/akn/il/act/PrimaryLegislation/1991-03-28/174545">החוק</ref> פטורים מאגרת בית דין.</p>
+            </content>
+          </point>
+        </list>
+      </chapter>
+      <appendix eId="appendix">
+        <num></num>
+        <title>
+          <content>
+            <p>
+              <wikicomment font-size="x-small">תוספת</wikicomment>
+            </p>
+          </content>
+        </title>
+        <list>
+          <point eId="appendix__point_none">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num></num>
+            <content>
+              <p>
+                <span style="font-weight: bold">טופס 1</span> – בקשה בכתב לצו הגנה <wikicomment font-size="x-small">(<ref href="#point_2">תקנה 2(א)</ref>)</wikicomment></p>
+            </content>
+          </point>
+          <point eId="appendix__point_none">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num></num>
+            <content>
+              <p>
+                <span style="font-weight: bold">טופס 2</span> – תצהיר לבקשה לצו הגנה <wikicomment font-size="x-small">(<ref href="#point_2">תקנות 2(א)</ref><ref href="#point_7">ו־7(א)</ref>)</wikicomment></p>
+            </content>
+          </point>
+          <point eId="appendix__point_none">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num></num>
+            <content>
+              <p>
+                <span style="font-weight: bold">טופס 3</span> – בקשה לצו הגנה במעמד צד אחד <wikicomment font-size="x-small">(<ref href="#point_2">תקנה 2(ג)</ref>)</wikicomment></p>
+            </content>
+          </point>
+          <point eId="appendix__point_none">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num></num>
+            <content>
+              <p>
+                <span style="font-weight: bold">טופס 4</span> – הודעה על דיון בבקשה לצו הגנה/להארכת תוקפו של צו הגנה <wikicomment font-size="x-small">(<ref href="#point_4">תקנות 4</ref><ref href="#point_7">ו־7(ד)</ref>)</wikicomment></p>
+            </content>
+          </point>
+          <point eId="appendix__point_none">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num></num>
+            <content>
+              <p>
+                <span style="font-weight: bold">טופס 5</span> – צו הגנה <wikicomment font-size="x-small">(<ref href="#point_6">תקנה 6(א)</ref>)</wikicomment></p>
+            </content>
+          </point>
+          <point eId="appendix__point_none">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num></num>
+            <content>
+              <p>
+                <span style="font-weight: bold">טופס 6</span> – הודעה לפקיד רישוי/לרשות בטחון על צו הגנה <wikicomment font-size="x-small">(<ref href="#point_6">תקנה 6(ב)</ref>)</wikicomment></p>
+            </content>
+          </point>
+          <point eId="appendix__point_none">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num></num>
+            <content>
+              <p>
+                <span style="font-weight: bold">טופס 7</span> – בקשה להארכת תוקפו של צו הגנה <wikicomment font-size="x-small">(<ref href="#point_7">תקנה 7(א)</ref>)</wikicomment></p>
+            </content>
+          </point>
+          <point eId="appendix__point_none">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num></num>
+            <content>
+              <p>
+                <span style="font-weight: bold">טופס 8</span> – בקשה בשל הפרת צו הגנה <wikicomment font-size="x-small">(<ref href="#point_9">תקנה 9(א)</ref>)</wikicomment></p>
+            </content>
+          </point>
+          <point eId="appendix__point_none">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num></num>
+            <content>
+              <p>
+                <span style="font-weight: bold">טופס 9</span> – תצהיר <wikicomment font-size="x-small">(<ref href="#point_9">תקנה 9(א)</ref>)</wikicomment></p>
+            </content>
+          </point>
+          <point eId="appendix__point_none">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num></num>
+            <content>
+              <p>
+                <span style="font-weight: bold">טופס 10</span> – הודעה על דיון בבקשה בשל הפרת צו הגנה <wikicomment font-size="x-small">(<ref href="#point_10">תקנה 10(א)</ref>)</wikicomment></p>
+            </content>
+          </point>
+        </list>
+      </appendix>
+    </body>
+    <conclusions eId="eId">
+      <p class="signatures">
+        <signature>
+          <p>
+            <person refersTo="אליהו_סויסה">אליהו סויסה</person>
+            <role refersTo="השר_לעניני_דתות">השר לעניני דתות</role>
+          </p>
+        </signature>
+      </p>
+    </conclusions>
+  </act>
+</akomaNtoso>

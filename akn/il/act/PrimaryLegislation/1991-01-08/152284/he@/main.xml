@@ -1,0 +1,2184 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion" name="publicLaw">
+    <meta>
+      <identification source="#kensset">
+        <FRBRWork>
+          <FRBRthis value="/akn/il/act/PrimaryLegislation/1991-01-08/152284/main" />
+          <FRBRuri value="/akn/il/act/PrimaryLegislation/1991-01-08/152284" />
+          <FRBRdate date="1991-01-08" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRcountry value="israel" />
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/il/act/PrimaryLegislation/1991-01-08/152284/he@/main" />
+          <FRBRuri value="/akn/il/act/PrimaryLegislation/1991-01-08/152284/he@" />
+          <FRBRdate date="1991-01-08" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRlanguage language="hebrew" />
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/il/act/PrimaryLegislation/1991-01-08/152284/he@/main.xml" />
+          <FRBRuri value="/akn/il/act/PrimaryLegislation/1991-01-08/152284/he@" />
+          <FRBRdate date="1991-01-08" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRformat value="xml" />
+        </FRBRManifestation>
+      </identification>
+      <classification source="#kensset">
+        <keyword value="{classificationValue}" showAs="{classificationValue}" dictionary="#classification_dictionary" />
+      </classification>
+      <lifecycle source="#kensset">
+        <eventRef eId="eventRef_1" date="1991-01-08" source="#kensset" type="generation" />
+      </lifecycle>
+      <references source="#kensset">
+        <TLCOrganization eId="kensset" href="/ontology/organization/akn/knesset" showAs="Kensset" type="generation" />
+        <TLCRole eId="author" href="/ontology/role/akn/author" showAs="Author of Document" />
+        <TLCProcess eId="inforce" href="/ontology/process/akn/inforce" showAs="In force" />
+        <TLCTerm eId="term_1" href="/ontology/term/בדיקה_פסיכיאטרית/152284" showAs="בדיקה_פסיכיאטרית" />
+        <TLCTerm eId="term_2" href="/ontology/term/בית_חולים/152284" showAs="בית_חולים" />
+        <TLCTerm eId="term_3" href="/ontology/term/הפקודה/152284" showAs="הפקודה" />
+        <TLCTerm eId="term_4" href="/ontology/term/ועדה_פסיכיאטרית/152284" showAs="ועדה_פסיכיאטרית" />
+        <TLCTerm eId="term_5" href="/ontology/term/ועדה_פסיכיאטרית_מחוזית_לילדים_ולנוער/152284" showAs="ועדה_פסיכיאטרית_מחוזית_לילדים_ולנוער" />
+        <TLCTerm eId="term_6" href="/ontology/term/חולה/152284" showAs="חולה" />
+        <TLCTerm eId="term_7" href="/ontology/term/מרפאה/152284" showAs="מרפאה" />
+        <TLCTerm eId="term_8" href="/ontology/term/מנהל/152284" showAs="מנהל" />
+        <TLCTerm eId="term_9" href="/ontology/term/נכס/152284" showAs="נכס" />
+        <TLCTerm eId="term_10" href="/ontology/term/פסיכיאטר/152284" showAs="פסיכיאטר" />
+        <TLCTerm eId="term_11" href="/ontology/term/פסיכיאטר_מומחה_לילדים_ולנוער/152284" showAs="פסיכיאטר_מומחה_לילדים_ולנוער" />
+        <TLCTerm eId="term_12" href="/ontology/term/פסיכיאטר_מחוזי/152284" showAs="פסיכיאטר_מחוזי" />
+        <TLCTerm eId="term_13" href="/ontology/term/פקודת_הרופאים/152284" showAs="פקודת_הרופאים" />
+        <TLCTerm eId="term_14" href="/ontology/term/קרוב/152284" showAs="קרוב" />
+        <TLCTerm eId="term_15" href="/ontology/term/ראש_שירותי_בריאות_הנפש/152284" showAs="ראש_שירותי_בריאות_הנפש" />
+        <TLCTerm eId="term_16" href="/ontology/term/רופא/152284" showAs="רופא" />
+        <TLCTerm eId="term_17" href="/ontology/term/השר/152284" showAs="השר" />
+        <TLCTerm eId="term_18" href="/ontology/term/אחראי_על_קטין/152284" showAs="אחראי_על_קטין" />
+        <TLCTerm eId="term_19" href="/ontology/term/בית_המשפט/152284" showAs="בית_המשפט" />
+        <TLCTerm eId="term_20" href="/ontology/term/חוק_זכויות_נפגעי_עבירה/152284" showAs="חוק_זכויות_נפגעי_עבירה" />
+        <TLCTerm eId="term_21" href="/ontology/term/נפגע_עבירה/152284" showAs="נפגע_עבירה" />
+        <TLCPerson eId="יצחק_שמיר" href="/ontology/person/יצחק_שמיר" showAs="יצחק שמיר" />
+        <TLCPerson eId="אהוד_אולמרט" href="/ontology/person/אהוד_אולמרט" showAs="אהוד אולמרט" />
+        <TLCPerson eId="חיים_הרצוג" href="/ontology/person/חיים_הרצוג" showAs="חיים הרצוג" />
+        <TLCPerson eId="דב_שילנסקי" href="/ontology/person/דב_שילנסקי" showAs="דב שילנסקי" />
+        <TLCRole eId="ראש_הממשלה" href="ontology/role/akn/ראש_הממשלה" showAs="ראש הממשלה" />
+        <TLCRole eId="שר_הבריאות" href="ontology/role/akn/שר_הבריאות" showAs="שר הבריאות" />
+        <TLCRole eId="נשיא_המדינה" href="ontology/role/akn/נשיא_המדינה" showAs="נשיא המדינה" />
+        <TLCRole eId="יושב_ראש_הכנסת" href="ontology/role/akn/יושב_ראש_הכנסת" showAs="יושב ראש הכנסת" />
+      </references>
+      <temporalData source="#kensset">
+        <temporalGroup eId="tmpg_1" />
+      </temporalData>
+      <Publication></Publication>
+      <proprietary wikiversion="11/17/2020 5:33:56 PM" />
+    </meta>
+    <body period="#tmpg_1">
+      <title eId="title">
+        <content>
+          <p>חוק טיפול בחולי נפש, התשנ"א–1991</p>
+        </content>
+      </title>
+      <list>
+        <point eId="point_1" class="definitions">
+          <heading>
+            <authorialNote placement="side">
+              <p>הגדרות</p>
+            </authorialNote>
+          </heading>
+          <num>1.</num>
+          <list>
+            <intro>
+              <p>בחוק זה –</p>
+            </intro>
+            <point eId="point_1__point_בדיקה_פסיכיאטרית">
+              <content>
+                <p>
+                  <def />”בדיקה פסיכיאטרית“ – בדיקה פסיכיאטרית של אדם הנעשית בידי פסיכיאטר מחוזי או בידי פסיכיאטר אחר שמינה הפסיכיאטר המחוזי;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_בית_חולים">
+              <content>
+                <p>
+                  <def />”בית חולים“ – בית חולים כמשמעותו <ref href="/akn/il/act/PrimaryLegislation/1940-12-20/2001729">בפקודה</ref> והמיועד לאשפז חולי נפש, או מחלקה פסיכיאטרית בבית חולים כאמור או בבית חולים כמשמעותו <ref href="/akn/il/act/PrimaryLegislation/1940-12-20/2001729">בפקודה</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_הפקודה">
+              <content>
+                <p>
+                  <def />”הפקודה“ – <ref href="/akn/il/act/PrimaryLegislation/1940-12-20/2001729">פקודת בריאות העם, 1940</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_ועדה_פסיכיאטרית">
+              <content>
+                <p>
+                  <def />”ועדה פסיכיאטרית“ – ועדה פסיכיאטרית מחוזית שמונתה לפי <ref href="#point_24">סעיף 24</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_ועדה_פסיכיאטרית_מחוזית_לילדים_ולנוער">
+              <content>
+                <p>
+                  <def />”ועדה פסיכיאטרית מחוזית לילדים ולנוער“ – ועדה פסיכיאטרית מחוזית שמונתה לפי <ref href="#point_24א">סעיף 24א</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_חולה">
+              <content>
+                <p>
+                  <def />”חולה“ – אדם הסובל ממחלת נפש;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_מרפאה">
+              <content>
+                <p>
+                  <def />”מרפאה“ – כהגדרתה <ref href="/akn/il/act/PrimaryLegislation/1940-12-20/2001729#point_65ג">בסעיף 65ג(3) לפקודה</ref> והמיועדת לתת שירותים רפואיים לחולי נפש;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_מנהל">
+              <content>
+                <p>
+                  <def />”מנהל“ – מנהל רפואי של בית חולים;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_נכס">
+              <content>
+                <p>
+                  <def />”נכס“ – מקרקעין, מיטלטלין, כסף וזכויות וטובות הנאה מכל סוג שהוא;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_פסיכיאטר">
+              <content>
+                <p>
+                  <def />”פסיכיאטר“ – רופא שהוא בעל תואר מומחה בפסיכיאטריה לפי תקנות שהותקנו לפי <ref href="/akn/il/act/PrimaryLegislation/1976-12-16/2002278#point_17">סעיף 17 לפקודת הרופאים</ref> (להלן – תקנות המומחים);</p>
+              </content>
+            </point>
+            <point eId="point_1__point_פסיכיאטר_מומחה_לילדים_ולנוער">
+              <content>
+                <p>
+                  <def />”פסיכיאטר מומחה לילדים ולנוער“ – רופא שהוא בעל תואר מומחה בפסיכיאטריה של הילד והמתבגר לפי <ref href="/akn/il/act/PrimaryLegislation/1976-12-16/2002278">פקודת הרופאים</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_פסיכיאטר_מחוזי">
+              <content>
+                <p>
+                  <def />”פסיכיאטר מחוזי“ – פסיכיאטר בשירות המדינה שהשר מינהו להיות פסיכיאטר מחוזי או סגן פסיכיאטר מחוזי לענין חוק זה;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_פקודת_הרופאים">
+              <content>
+                <p>
+                  <def />”פקודת הרופאים“ – <ref href="/akn/il/act/PrimaryLegislation/1976-12-16/2002278">פקודת הרופאים [נוסח חדש], התשל"ז–1976</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_קרוב">
+              <content>
+                <p>
+                  <def />”קרוב“ – בן זוג, הורה, צאצא, אח, אחות, סב, סבה, מאמץ ומאומץ;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_ראש_שירותי_בריאות_הנפש">
+              <content>
+                <p>
+                  <def />”ראש שירותי בריאות הנפש“ – פסיכיאטר שמונה לפי <ref href="#point_22">סעיף 22</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_רופא">
+              <content>
+                <p>
+                  <def />”רופא“ – רופא מורשה כמשמעותו <ref href="/akn/il/act/PrimaryLegislation/1976-12-16/2002278">בפקודת הרופאים</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_השר">
+              <content>
+                <p>
+                  <def />”השר“ – שר הבריאות.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_2">
+          <heading>
+            <authorialNote placement="side">
+              <p xml:space="preserve"> </p>
+            </authorialNote>
+          </heading>
+          <num>2.</num>
+          <content>
+            <p>
+              <wikicomment font-size="x-small">(בוטל).</wikicomment>
+            </p>
+          </content>
+        </point>
+        <point eId="point_3">
+          <heading>
+            <authorialNote placement="side">
+              <p>אשפוז על פי בדיקה</p>
+            </authorialNote>
+          </heading>
+          <num>3.</num>
+          <content>
+            <p>לא יתקבל חולה לאשפוז בבית חולים, למעט אם ניתן לגביו צו אשפוז, אלא אם כן נבדק תחילה בדיקה רפואית, נפשית וגופנית, בבית החולים ונקבע הצורך לאשפזו; היה החולה קטין, ייבדק בידי פסיכיאטר מומחה לילדים ולנוער.</p>
+          </content>
+        </point>
+        <point eId="point_4">
+          <heading>
+            <authorialNote placement="side">
+              <p>אשפוז מרצון של חולה ושחרורו</p>
+            </authorialNote>
+          </heading>
+          <num>4.</num>
+          <list>
+            <point eId="point_4__point_א">
+              <num>(א)</num>
+              <content>
+                <p>חולה המבקש להתאשפז מרצונו בבית חולים, יחתום על הסכמה לאשפוז מרצון ולקבלת טיפול; אולם לגבי קבלת טיפולים מיוחדים שיפורטו בתקנות יש צורך בהסכמה נפרדת.</p>
+              </content>
+            </point>
+            <point eId="point_4__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>חולה שהתאשפז מרצונו והוא מבקש להשתחרר מבית החולים, יחתום על טופס בקשה לשחרור, וישוחרר לפי רצונו בתוך ארבעים ושמונה שעות מחתימתו.</p>
+              </content>
+            </point>
+            <point eId="point_4__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>סירב חולה לחתום על הסכמה לאשפוז ולקבלת טיפול לפי סעיף קטן (א) או על בקשה לשחרור לפי סעיף קטן (ב), תירשם בקשתו בפרוטוקול שייערך וייחתם בידי שני רופאים או בידי רופא ואחות, והחולה יאושפז או ישוחרר, לפי הענין.</p>
+              </content>
+            </point>
+            <point eId="point_4__point_ד">
+              <num>(ד)</num>
+              <content>
+                <p>ביקש חולה להשתחרר לפי סעיף קטן (ב) ומצא המנהל כי נתמלאו בו התנאים לאשפוז כפוי כאמור <ref href="#point_9">בסעיף 9</ref>, יבקש המנהל מיד מהפסיכיאטר המחוזי לתת הוראת אשפוז; לא נתן הפסיכיאטר המחוזי הוראת אשפוז תוך ארבעים ושמונה שעות מהגשת בקשתו של החולה לשחרור, ישוחרר החולה מבית החולים.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_4א">
+          <heading>
+            <authorialNote placement="side">
+              <p>אשפוז קטין בהסכמת האחראי עליו</p>
+            </authorialNote>
+          </heading>
+          <num>4א.</num>
+          <list>
+            <point eId="point_4א__point_א">
+              <num>(א)</num>
+              <list>
+                <intro>
+                  <p>בסעיף זה <ref href="#point_4ב">ובסעיפים 4ב</ref>, <ref href="#point_5">5</ref><ref href="#point_6">ו־6</ref> –</p>
+                </intro>
+                <point eId="point_4א__point_א__point_אחראי_על_קטין">
+                  <content>
+                    <p>
+                      <def />”אחראי על קטין“ – הורה, הורה מאמץ או אפוטרופוס, למעט אם הקטין הוצא ממשמורתם על פי <ref href="/akn/il/act/PrimaryLegislation/1960-07-14/150256#point_3">סעיף 3(4) לחוק הנוער (טיפול והשגחה), התש"ך–1960</ref> (להלן – חוק הנוער);</p>
+                  </content>
+                </point>
+                <point eId="point_4א__point_א__point_בית_המשפט">
+                  <content>
+                    <p>
+                      <def />”בית המשפט“, ו”עובד סוציאלי לפי <ref href="/akn/il/act/PrimaryLegislation/1960-07-14/150256">חוק הנוער (טיפול והשגחה)</ref>“ – כהגדרתם <ref href="/akn/il/act/PrimaryLegislation/1960-07-14/150256#point_1">בסעיף 1 לחוק הנוער</ref>.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_4א__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>אחראי על קטין רשאי לבקש את אשפוזו של הקטין בבית חולים ולהסכים בשמו לאשפוזו ולטיפול בו.</p>
+              </content>
+            </point>
+            <point eId="point_4א__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>על אף הוראות סעיף קטן (ב), לא יאושפז קטין בהסכמת האחראי עליו, אם מלאו לו חמש עשרה שנים והוא אינו מסכים להתאשפז, אלא באישור בית המשפט שיינתן לפי הוראות <ref href="/akn/il/act/PrimaryLegislation/1960-07-14/150256">חוק הנוער</ref>, ועל פי העילות המנויות בו לאשפוז כפוי של קטין.</p>
+              </content>
+            </point>
+            <point eId="point_4א__point_ד">
+              <num>(ד)</num>
+              <content>
+                <p>נוכח מנהל, פסיכיאטר או אדם אחר המטפל בקטין בבית חולים, כי קטין שאושפז בהסכמת האחראי עליו אינו מסכים לאשפוז, יודיע על כך, בהקדם האפשרי, לעובד סוציאלי <wikicomment font-size="x-small">(לפי)</wikicomment><ref href="/akn/il/act/PrimaryLegislation/1960-07-14/150256">חוק הנוער (טיפול והשגחה)</ref>; מלאו לקטין חמש עשרה שנים, יביא העובד הסוציאלי האמור את ענינו להכרעת בית המשפט; לא מלאו לקטין חמש עשרה שנים, יביא את ענינו לועדה פסיכיאטרית מחוזית לילדים ולנוער, אשר תבחן אם לא ניתן לטפל בקטין אלא בדרך של אשפוז ותורה על המשך אשפוזו או על שחרורו של הקטין בהתאם לממצאיה.</p>
+              </content>
+            </point>
+            <point eId="point_4א__point_ה">
+              <num>(ה)</num>
+              <content>
+                <p>אשפוז קטין בהסכמת האחראי עליו, למעט אשפוז שאינו כולל לינה בבית חולים, יהיה לתקופה שלא תעלה על חודשיים.</p>
+              </content>
+            </point>
+            <point eId="point_4א__point_ו">
+              <num>(ו)</num>
+              <content>
+                <p>ועדה פסיכיאטרית מחוזית לילדים ולנוער רשאית, לפי בקשה מנומקת בכתב של המנהל, להאריך בהתאם לתכנית טיפול, את תקופת האשפוז לתקופות נוספות, שכל אחת מהן לא תעלה על שלושה חודשים, אם שוכנעה כי הקטין זקוק לטיפול המחייב את הארכת תקופת האשפוז.</p>
+              </content>
+            </point>
+            <point eId="point_4א__point_ז">
+              <num>(ז)</num>
+              <content>
+                <p>האחראי על קטין, עובד סוציאלי לפי <ref href="/akn/il/act/PrimaryLegislation/1960-07-14/150256">חוק הנוער (טיפול והשגחה)</ref>, או קטין שמלאו לו חמש עשרה שנים, וכן המנהל, רשאים, בכל עת, לפנות אל הועדה הפסיכיאטרית המחוזית לילדים ולנוער בבקשה לדיון נוסף בענין אשפוזו של הקטין.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_4ב">
+          <heading>
+            <authorialNote placement="side">
+              <p>אשפוז בהסכמת הקטין בלבד</p>
+            </authorialNote>
+          </heading>
+          <num>4ב.</num>
+          <content>
+            <p>קטין שמלאו לו חמש עשרה שנים רשאי לבקש להתאשפז מרצונו בבית חולים, ולתת הסכמתו לאשפוז לפי הוראות <ref href="#point_4">סעיף 4</ref>; ואולם, בהעדר הסכמת האחראי עליו, לא יאושפז הקטין אלא באישור בית המשפט לפי <ref href="/akn/il/act/PrimaryLegislation/1960-07-14/150256#point_3ז">סעיף 3ז לחוק הנוער</ref>.</p>
+          </content>
+        </point>
+        <point eId="point_5">
+          <heading>
+            <authorialNote placement="side">
+              <p>אשפוז דחוף בידי המנהל</p>
+            </authorialNote>
+          </heading>
+          <num>5.</num>
+          <list>
+            <point eId="point_5__point_א">
+              <num>(א)</num>
+              <content>
+                <p>מנהל רשאי לקבל חולה לאשפוז דחוף בניגוד לרצונו וללא הוראת אשפוז לאחר שהחולה נבדק כאמור <ref href="#point_3">בסעיף 3</ref>, ונמצא כי נתמלאו לגביו התנאים לאשפוז כאמור <ref href="#point_9">בסעיף 9(א)</ref>.</p>
+              </content>
+            </point>
+            <point eId="point_5__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>תקופת אשפוז דחוף לפי סעיף קטן (א) לא תעלה על ארבעים ושמונה שעות; בתום התקופה האמורה ישוחרר החולה, אלא אם כן ניתנה בתוך אותה תקופה הוראת אשפוז או שהחולה הסכים לאשפוזו כאמור <ref href="#point_4">בסעיף 4</ref>.</p>
+              </content>
+            </point>
+            <point eId="point_5__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>הובא קטין לבית חולים בידי עובד סוציאלי לפי <ref href="/akn/il/act/PrimaryLegislation/1960-07-14/150256">חוק הנוער (טיפול והשגחה)</ref> רשאי המנהל לקבלו לאשפוז, בניגוד לרצונו, לאחר שנבדק כאמור <ref href="#point_3">בסעיף 3</ref>, אף אם לא נתמלאו לגביו התנאים לאשפוז לפי הוראות <ref href="#point_9">סעיף 9(א)</ref>, אם נמצא בבדיקה כי קיימת אפשרות של ממש שהקטין חולה במחלת נפש או שיש לו הפרעה נפשית קשה, העלולות לסכן אותו או את זולתו סיכון פיסי מיידי.</p>
+              </content>
+            </point>
+            <point eId="point_5__point_ד">
+              <num>(ד)</num>
+              <content>
+                <p>תקופת אשפוז דחוף לפי סעיף קטן (ג) לא תעלה על ארבעים ושמונה שעות; בתום התקופה האמורה ישוחרר הקטין אלא אם כן ניתנה בתוך אותה תקופה הוראת אשפוז או שהאחראי עליו הסכים לאשפוזו לפי <ref href="#point_4א">סעיף 4א</ref> ואם מלאו לקטין 15 שנים הסכים אף הוא לאשפוזו, או שבית המשפט הורה על אשפוזו לפי הוראות <ref href="/akn/il/act/PrimaryLegislation/1960-07-14/150256">חוק הנוער</ref>.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_6">
+          <heading>
+            <authorialNote placement="side">
+              <p>בדיקה כפויה דחופה</p>
+            </authorialNote>
+          </heading>
+          <num>6.</num>
+          <list>
+            <point eId="point_6__point_א">
+              <num>(א)</num>
+              <list>
+                <intro>
+                  <p>פסיכיאטר מחוזי רשאי להורות בכתב כי אדם יובא בדחיפות לבדיקה פסיכיאטרית, אם הובאו בפניו ראיות לכאורה כי נתמלאו באדם כל התנאים האלה:</p>
+                </intro>
+                <point eId="point_6__point_א__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>הוא חולה וכתוצאה ממחלתו פגום, במידה ניכרת, כושר שיפוטו או כושרו לביקורת המציאות;</p>
+                  </content>
+                </point>
+                <point eId="point_6__point_א__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>הוא עלול לסכן את עצמו או את זולתו סיכון פיזי מיידי;</p>
+                  </content>
+                </point>
+                <point eId="point_6__point_א__point_3">
+                  <num>(3)</num>
+                  <content>
+                    <p>הוא סירב להיבדק בידי פסיכיאטר.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_6__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>פסיכיאטר מחוזי רשאי להורות בכתב, על פי בקשת עובד סוציאלי לפי <ref href="/akn/il/act/PrimaryLegislation/1960-07-14/150256">חוק הנוער (טיפול והשגחה)</ref> כי קטין יובא בדחיפות לבדיקה פסיכיאטרית, אם קיימות לדעתו ראיות לכאורה כי הקטין חולה במחלת נפש או שיש לו הפרעה נפשית, והמחלה או ההפרעה עלולות לסכן את עצמו או את זולתו סיכון פיסי.</p>
+              </content>
+            </point>
+            <point eId="point_6__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>בדיקה פסיכיאטרית של קטין לפי סעיף זה, תיערך בידי פסיכיאטר מומחה לילדים ולנוער.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_7">
+          <heading>
+            <authorialNote placement="side">
+              <p>בדיקה כפויה לא דחופה</p>
+            </authorialNote>
+          </heading>
+          <num>7.</num>
+          <list>
+            <intro>
+              <p>פסיכיאטר מחוזי רשאי להורות בכתב כי אדם יובא לבדיקה פסיכיאטרית, אם הובאו לפניו ראיות לכאורה כי נתמלאו באדם כל התנאים האלה:</p>
+            </intro>
+            <point eId="point_7__point_1">
+              <num>(1)</num>
+              <content>
+                <p>הוא חולה וכתוצאה ממחלתו פגום, במידה ניכרת, כושר שיפוטו או כושרו לביקורת המציאות;</p>
+              </content>
+            </point>
+            <point eId="point_7__point_2">
+              <num>(2)</num>
+              <list>
+                <intro>
+                  <p>נתקיים בו אחד מאלה:</p>
+                </intro>
+                <point eId="point_7__point_2__point_א">
+                  <num>(א)</num>
+                  <content>
+                    <p>הוא עלול לסכן את עצמו או את זולתו, סיכון פיזי שאינו מיידי;</p>
+                  </content>
+                </point>
+                <point eId="point_7__point_2__point_ב">
+                  <num>(ב)</num>
+                  <content>
+                    <p>יכולתו לדאוג לצרכיו הבסיסיים פגומה בצורה קשה;</p>
+                  </content>
+                </point>
+                <point eId="point_7__point_2__point_ג">
+                  <num>(ג)</num>
+                  <content>
+                    <p>הוא גורם סבל נפשי חמור לזולתו, באופן הפוגע בקיום אורח החיים התקין שלו;</p>
+                  </content>
+                </point>
+                <point eId="point_7__point_2__point_ד">
+                  <num>(ד)</num>
+                  <content>
+                    <p>הוא פוגע פגיעה חמורה ברכוש;</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_7__point_3">
+              <num>(3)</num>
+              <content>
+                <p>הוא סירב להיבדק בידי פסיכיאטר.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_8">
+          <heading>
+            <authorialNote placement="side">
+              <p>תקפה של הוראת בדיקה</p>
+            </authorialNote>
+          </heading>
+          <num>8.</num>
+          <content>
+            <p>הוראה של פסיכיאטר מחוזי לפי <ref href="#point_6">סעיפים 6</ref><ref href="#point_7">או 7</ref> תהיה בתוקף במשך עשרה ימים מיום נתינתה.</p>
+          </content>
+        </point>
+        <point eId="point_9">
+          <heading>
+            <authorialNote placement="side">
+              <p>הוראה לאשפוז כפוי ותקפה</p>
+            </authorialNote>
+          </heading>
+          <num>9.</num>
+          <list>
+            <point eId="point_9__point_א">
+              <num>(א)</num>
+              <content>
+                <p>שוכנע פסיכיאטר מחוזי על סמך בדיקה פסיכיאטרית כי נתמלאו באדם התנאים <ref href="#point_6">שבסעיף 6(1) ו־(2)</ref> וקיים קשר סיבתי בין שני התנאים האמורים, רשאי הוא להורות בכתב כי יובא לבית החולים וכי יאושפז בו בדחיפות.</p>
+              </content>
+            </point>
+            <point eId="point_9__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>שוכנע פסיכיאטר מחוזי על סמך בדיקה פסיכיאטרית כי נתמלאו באדם התנאים <ref href="#point_7">שבסעיף 7(1) ו־(2)</ref> וקיים קשר סיבתי בין שני התנאים האמורים, רשאי הוא להורות בכתב על הבאתו לבית החולים ועל אשפוזו בו.</p>
+              </content>
+            </point>
+            <point eId="point_9__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>הוראת אשפוז לפי סעיף קטן (א) או (ב) (בחוק זה – הוראת אשפוז), תהיה בתוקף במשך עשרה ימים מיום נתינתה.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_10">
+          <heading>
+            <authorialNote placement="side">
+              <p>תקופת אשפוז כפוי והארכתה</p>
+            </authorialNote>
+          </heading>
+          <num>10.</num>
+          <list>
+            <point eId="point_10__point_א">
+              <num>(א)</num>
+              <content>
+                <p>תקופת אשפוז על פי הוראת אשפוז לא תעלה על שבעה ימים מיום האשפוז אלא לפי הוראות חוק זה.</p>
+              </content>
+            </point>
+            <point eId="point_10__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>פסיכיאטר מחוזי רשאי, לפי בקשה מנומקת בכתב מאת המנהל, להאריך את תקופת האשפוז על פי הוראת אשפוז לשבעה ימים נוספים.</p>
+              </content>
+            </point>
+            <point eId="point_10__point_ג">
+              <num>(ג)</num>
+              <list>
+                <intro>
+                  <p>הוועדה הפסיכיאטרית רשאית לפי בקשה מנומקת בכתב מאת המנהל –</p>
+                </intro>
+                <point eId="point_10__point_ג__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>להאריך את תקופת האשפוז מעבר לארבעה עשר הימים האמורים, לתקופה נוספת שלא תעלה על שלושה חדשים;</p>
+                  </content>
+                </point>
+                <point eId="point_10__point_ג__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>להאריך מדי פעם את תקופת האשפוז, לתקופות נוספות שכל אחת מהן לא תעלה על ששה חדשים; האריכה הוועדה הפסיכיאטרית את תקופת האשפוז לתקופה העולה על שלושה חדשים, רשאי החולה, קרובו או אפוטרופסו, בתום שלושה חדשים מיום ההחלטה, לפנות אל הוועדה בבקשה לדיון נוסף בענין האשפוז.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_10__point_ד">
+              <num>(ד)</num>
+              <content>
+                <p>פסיכיאטר מחוזי או ועדה פסיכיאטרית, לא יאריכו את תקופת האשפוז לפי סעיף זה אלא אם כן שוכנעו, על פי הבקשה המנומקת שבפניהם, שמתקיימים בחולה התנאים למתן הוראת אשפוז כאמור <ref href="#point_9">בסעיף 9</ref>.</p>
+              </content>
+            </point>
+            <point eId="point_10__point_ה">
+              <num>(ה)</num>
+              <content>
+                <p>נסתיימה תקופת אשפוז כאמור בסעיף זה ולא הוארכה, ישוחרר החולה.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_11">
+          <heading>
+            <authorialNote placement="side">
+              <p>הוראה לטיפול מרפאתי כפוי</p>
+            </authorialNote>
+          </heading>
+          <num>11.</num>
+          <list>
+            <point eId="point_11__point_א">
+              <num>(א)</num>
+              <content>
+                <p>נוכח פסיכיאטר מחוזי על סמך בדיקה פסיכיאטרית כי נתמלאו באדם התנאים האמורים <ref href="#point_9">בסעיף 9(א) או (ב)</ref> וקיימת אפשרות לתת את הטיפול הדרוש במסגרת מרפאה – רשאי הוא, במקום לתת הוראת אשפוז, להורות בכתב כי על האדם לקבל את הטיפול הדרוש במסגרת מרפאה שיקבע, לתקופה ובתנאים שיורה (להלן – הוראה לטיפול מרפאתי), ובלבד שתקופה כאמור לא תעלה על ששה חדשים.</p>
+              </content>
+            </point>
+            <point eId="point_11__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>נוכח פסיכיאטר מחוזי, על פי פניה בכתב של המנהל, כי חולה המאושפז אשפוז כפוי זקוק להמשך טיפול מרפאתי לאחר שחרורו, רשאי הוא לתת הוראה לטיפול מרפאתי לתקופה שלא תעלה על ששה חדשים.</p>
+              </content>
+            </point>
+            <point eId="point_11__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>פסיכיאטר מחוזי רשאי, לפי בקשה מנומקת בכתב מאת מנהל המרפאה, להאריך מדי פעם את תקופת הטיפול המרפאתי לתקופות נוספות שכל אחת מהן לא תעלה על ששה חדשים.</p>
+              </content>
+            </point>
+            <point eId="point_11__point_ד">
+              <num>(ד)</num>
+              <content>
+                <p>לא מילא אדם אחר הוראה לטיפול מרפאתי כאמור בסעיף זה, רשאי הפסיכיאטר המחוזי לתת הוראת אשפוז.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_12">
+          <heading>
+            <authorialNote placement="side">
+              <p>ערר על הוראת אשפוז או טיפול מרפאתי</p>
+            </authorialNote>
+          </heading>
+          <num>12.</num>
+          <list>
+            <point eId="point_12__point_א">
+              <num>(א)</num>
+              <content>
+                <p>על הוראת אשפוז או על הוראה לטיפול מרפאתי וכן על סירוב לתת הוראת אשפוז, רשאי כל אדם להגיש ערר לוועדה הפסיכיאטרית.</p>
+              </content>
+            </point>
+            <point eId="point_12__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>הוועדה הפסיכיאטרית תדון בערר על הוראת אשפוז לא יאוחר מחמישה ימים מהגשתו ובערר על הוראה לטיפול מרפאתי – לא יאוחר מעשרה ימים מהגשתו.</p>
+              </content>
+            </point>
+            <point eId="point_12__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>הוועדה הפסיכיאטרית רשאית לאשר את ההחלטה נשוא הערר, לבטלה או לשנותה כפי שתמצא לנכון.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_13">
+          <heading>
+            <authorialNote placement="side">
+              <p>דחיית ביצועה של הוראה לאשפוז כפוי לא דחוף</p>
+            </authorialNote>
+          </heading>
+          <num>13.</num>
+          <content>
+            <p>הוראת אשפוז לפי <ref href="#point_9">סעיף 9(ב)</ref> תבוצע בתום 24 שעות ממתן ההוראה, ואם הוגש ערר בתוך זמן זה – יידחה ביצוע ההוראה עד קבלת החלטת הוועדה הפסיכיאטרית בערר.</p>
+          </content>
+        </point>
+        <point eId="point_14">
+          <heading>
+            <authorialNote placement="side">
+              <p>ביצוע הוראה לבדיקה, לאשפוז או לטיפול מרפאתי</p>
+            </authorialNote>
+          </heading>
+          <num>14.</num>
+          <list>
+            <intro>
+              <p>פסיכיאטר מחוזי שהורה על בדיקה פסיכיאטרית לפי <ref href="#point_6">סעיפים 6</ref><ref href="#point_7">או 7</ref> או על אשפוז לפי <ref href="#point_9">סעיף 9</ref> או על טיפול מרפאתי לפי <ref href="#point_11">סעיף 11</ref> רשאי –</p>
+            </intro>
+            <point eId="point_14__point_1">
+              <num>(1)</num>
+              <content>
+                <p>למנות את מבצע ההוראה;</p>
+              </content>
+            </point>
+            <point eId="point_14__point_2">
+              <num>(2)</num>
+              <content>
+                <p>להורות כי מבצע ההוראה יהיה זכאי לקבל בעת הצורך סיוע מהמשטרה;</p>
+              </content>
+            </point>
+            <point eId="point_14__point_3">
+              <num>(3)</num>
+              <content>
+                <p>להסמיך את מבצע ההוראה וכן את השוטר המסייע להיכנס לבית החולה או לכל בית חולים או לחצרים אחרים המפורטים בהוראה, כדי לבצעה, ולהשתמש בכוח סביר הן לצורך הכניסה לחצרים והן לצורך ביצוע ההוראה;</p>
+              </content>
+            </point>
+            <point eId="point_14__point_4">
+              <num>(4)</num>
+              <content>
+                <p>לקבוע את בית החולים שבו יאושפז החולה או את המרפאה שבה יקבל טיפול, או את מקום ביצוע הבדיקה ואת הפסיכיאטר הבודק;</p>
+              </content>
+            </point>
+            <point eId="point_14__point_5">
+              <num>(5)</num>
+              <content>
+                <p>לקבוע את תנאי האשפוז, הטיפול במרפאה או הבדיקה.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_15">
+          <heading>
+            <authorialNote placement="side">
+              <p>אשפוז או טיפול מרפאתי של נאשם על פי צו בית משפט</p>
+            </authorialNote>
+          </heading>
+          <num>15.</num>
+          <list>
+            <point eId="point_15__point_א">
+              <num>(א)</num>
+              <content>
+                <p>הועמד נאשם לדין פלילי ובית המשפט סבור, אם על פי ראיות שהובאו לפניו מטעם אחד מבעלי הדין ואם על פי ראיות שהובאו לפניו ביזמתו הוא, כי הנאשם אינו מסוגל לעמוד לדין מחמת היותו חולה, רשאי בית המשפט לצוות שהנאשם יאושפז בבית חולים או יקבל טיפול מרפאתי; החליט בית המשפט לברר את אשמתו של הנאשם לפי <ref href="/akn/il/act/PrimaryLegislation/1982-03-01/2002215#point_170">סעיף 170 לחוק סדר הדין הפלילי [נוסח משולב], התשמ"ב–1982</ref> (להלן – חוק סדר הדין הפלילי), יהיה הצו שניתן כאמור בר־תוקף עד תום הבירור, ומשתם או נפסק הבירור והנאשם לא זוכה – יחליט בית המשפט בשאלת האשפוז או הטיפול המרפאתי.</p>
+              </content>
+            </point>
+            <point eId="point_15__point_א1">
+              <num>(א1)</num>
+              <content>
+                <p>לא ייתן בית משפט צו לפי סעיף קטן (א) אלא אם כן נוכח כי יש ראיות לכאורה כי הנאשם עשה את מעשה העבירה שבו הואשם בכתב האישום או שעשה מעשה עבירה אחר המבוסס על אותן עובדות או על עובדות דומות לעובדות שבכתב האישום.</p>
+              </content>
+            </point>
+            <point eId="point_15__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>הועמד נאשם לדין פלילי ובית המשפט מצא כי הוא עשה את מעשה העבירה שבו הואשם, אולם החליט, אם על פי ראיות שהובאו לפניו מטעם אחד מבעלי הדין ואם על פי ראיות שהובאו לפניו ביזמתו הוא, שהנאשם היה חולה בשעת מעשה ולפיכך אין הוא בר־עונשין, ושהוא עדיין חולה, יצווה בית המשפט שהנאשם יאושפז או יקבל טיפול מרפאתי.</p>
+              </content>
+            </point>
+            <point eId="point_15__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>לא יתן בית משפט צו לפי סעיפים קטנים (א) או (ב) אלא לאחר קבלת חוות דעת פסיכיאטרית, ולצורך כך יצווה כי הנאשם יובא לבדיקה פסיכיאטרית ואם הוא קטין – לבדיקה כאמור בידי פסיכיאטר מומחה לילדים ולנוער; הודיע הפסיכיאטר המחוזי לבית המשפט כי לא ניתן לערוך את הבדיקה הפסיכיאטרית אלא בתנאי אשפוז, רשאי בית המשפט לצוות על אשפוזו של הנאשם לשם עריכת בדיקה והסתכלות, לתקופה שיקבע בצו.</p>
+              </content>
+            </point>
+            <point eId="point_15__point_ד">
+              <num>(ד)</num>
+              <content>
+                <p>בית המשפט לא יתן צו לטיפול מרפאתי אלא אם כן סבר שאין בכך כדי לסכן את שלום הציבור או את שלום הנאשם.</p>
+              </content>
+            </point>
+            <point eId="point_15__point_ד1">
+              <num>(ד1)</num>
+              <list>
+                <point eId="point_15__point_ד1__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>בית משפט לא יקבע בצו לפי סעיפים קטנים (א) או (ב) את תקופת האשפוז או הטיפול המרפאתי, ואולם יורה בצו על תקופת האשפוז או הטיפול המרפאתי המרבית לפי הוראות פסקאות (2) ו־(3) (להלן – תקופת האשפוז או הטיפול המרבית).</p>
+                  </content>
+                </point>
+                <point eId="point_15__point_ד1__point_2">
+                  <num>(2)</num>
+                  <list>
+                    <intro>
+                      <p>תקופת האשפוז או הטיפול המרבית תהיה תקופת המאסר המרבית; לעניין זה, ”תקופת המאסר המרבית“ –</p>
+                    </intro>
+                    <point eId="point_15__point_ד1__point_2__point_א">
+                      <num>(א)</num>
+                      <content>
+                        <p>תקופת המאסר הקבועה בחוק לעבירה כאמור בסעיף קטן (א1) או (ב), לפי העניין, ואם הועמד הנאשם לדין לפני בית משפט שלום לפי <ref href="/akn/il/act/PrimaryLegislation/1984-08-13/2002218#point_51">סעיף 51(א)(1)(ב) לחוק בתי המשפט [נוסח משולב], התשמ"ד–1984</ref> – שבע שנים;</p>
+                      </content>
+                    </point>
+                    <point eId="point_15__point_ד1__point_2__point_ב">
+                      <num>(ב)</num>
+                      <content>
+                        <p>היו כמה עבירות כאמור בפסקת משנה (א) – תקופת המאסר הארוכה ביותר מבין תקופות המאסר הקבועות בחוק לאותן עבירות;</p>
+                      </content>
+                    </point>
+                    <point eId="point_15__point_ד1__point_2__point_ג">
+                      <num>(ג)</num>
+                      <content>
+                        <p>היתה עבירה כאמור בפסקאות משנה (א) או (ב), עבירה שדינה מאסר עולם חובה – 25 שנים.</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+                <point eId="point_15__point_ד1__point_2א">
+                  <num>(2א)</num>
+                  <content>
+                    <p>על אף האמור בפסקה (2)(א) ו־(ב), שוכנע בית המשפט כי מעשה העבירה בוצע בנסיבות מקילות במיוחד, רשאי הוא, במקרים חריגים ומטעמים מיוחדים שיירשמו, להורות בצו כי תקופת האשפוז או הטיפול המרבית תהיה קצרה מתקופת המאסר המרבית;</p>
+                  </content>
+                </point>
+                <point eId="point_15__point_ד1__point_3">
+                  <num>(3)</num>
+                  <content>
+                    <p>תקופת האשפוז או הטיפול המרבית תימנה מתחילת האשפוז או מתחילת הטיפול המרפאתי על פי צו בית משפט, לפי העניין; בית המשפט רשאי לקבוע כי תקופות אשפוז לפי <ref href="#point_16">סעיף 16</ref> יובאו במניין התקופה האמורה.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_15__point_ד2">
+              <num>(ד2)</num>
+              <content>
+                <p>צו כאמור בסעיפים קטנים (א) או (ב) ייערך בהתאם לנוסח שבתוספת, ויצוינו בו, בין השאר, תקופת האשפוז או הטיפול המרבית והוראות <ref href="#point_15א">סעיף 15א(ב)</ref> בדבר בחינת עניינו של הנאשם לקראת סיום התקופה האמורה.</p>
+              </content>
+            </point>
+            <point eId="point_15__point_ה">
+              <num>(ה)</num>
+              <content>
+                <p>לא מילא הנאשם אחר צו בית המשפט בענין טיפול מרפאתי, או חל שינוי לרעה במצבו הנפשי ונתמלאו בו התנאים למתן הוראת אשפוז לפי <ref href="#point_9">סעיף 9</ref>, יורה הפסיכיאטר המחוזי על אשפוזו; דין הוראת אשפוז לפי סעיף קטן זה כדין צו בית משפט, לכל דבר וענין.</p>
+              </content>
+            </point>
+            <point eId="point_15__point_ו">
+              <num>(ו)</num>
+              <content>
+                <p>לענין ערעור, דינו של צו לפי סעיפים קטנים (א) או (ב) כדין הרשעה.</p>
+              </content>
+            </point>
+            <point eId="point_15__point_ז">
+              <num>(ז)</num>
+              <content>
+                <p>הפסיכיאטר המחוזי יקבע באיזה בית חולים או מרפאה יבוצעו צו או הוראת אשפוז לפי סעיף זה.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_15א">
+          <heading>
+            <authorialNote placement="side">
+              <p>בחינת עניינו של נאשם לקראת סיום תקופת האשפוז או הטיפול המרבית</p>
+            </authorialNote>
+          </heading>
+          <num>15א.</num>
+          <list>
+            <point eId="point_15א__point_א">
+              <num>(א)</num>
+              <content>
+                <p>שבועיים לפני תום תקופת האשפוז או הטיפול המרבית של נאשם, אם הנאשם לא שוחרר קודם לכן, ידווח מנהל או מנהל מרפאה, לפי העניין, לפסיכיאטר המחוזי ולשאר הגורמים המנויים <ref href="#point_28">בסעיף 28(ד)(1)</ref>, על כך שהתקופה האמורה עומדת להסתיים.</p>
+              </content>
+            </point>
+            <point eId="point_15א__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>עם קבלת הדיווח כאמור בסעיף קטן (א), ישקול הפסיכיאטר המחוזי אם יש מקום לתת לגבי הנאשם הוראה לבדיקה כפויה, הוראה לאשפוז כפוי או הוראה לטיפול מרפאתי כפוי, לפי <ref href="#point_6">סעיפים 6</ref>, <ref href="#point_7">7</ref>, <ref href="#point_9">9</ref><ref href="#point_11">או 11</ref>.</p>
+              </content>
+            </point>
+            <point eId="point_15א__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>עם תום תקופת האשפוז או הטיפול המרבית ישוחרר המטופל מהאשפוז או מהטיפול שנקבע על פי צו של בית משפט לפי <ref href="#point_15">סעיף 15</ref>.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_16">
+          <heading>
+            <authorialNote placement="side">
+              <p>אשפוז עצור</p>
+            </authorialNote>
+          </heading>
+          <num>16.</num>
+          <list>
+            <point eId="point_16__point_א">
+              <num>(א)</num>
+              <content>
+                <p>ציווה בית משפט על מעצרו של אדם, והוא סבור, אם על פי ראיות שהובאו לפניו מטעם העצור או מטעם תובע כמשמעותו <ref href="/akn/il/act/PrimaryLegislation/1982-03-01/2002215#point_12">בסעיף 12 לחוק סדר הדין הפלילי</ref> (להלן – תובע), ואם על פי ראיות שהובאו לפניו ביזמתו הוא, כי העצור חולה וכי מצבו מצריך אשפוז, רשאי בית המשפט לצוות שהמעצר יהיה בבית חולים שיקבע הפסיכיאטר המחוזי או באגף פסיכיאטרי של בית סוהר, ובלבד שאם העצור נמצא בחקירה, יבטיח בית החולים את התנאים הדרושים לביצוע החקירה.</p>
+              </content>
+            </point>
+            <point eId="point_16__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>לא יתן בית משפט צו לפי סעיף קטן (א) אלא לאחר שקיבל חוות דעת פסיכיאטרית, ולצורך כך יצווה כי העצור יובא לבדיקה פסיכיאטרית ואם הוא קטין – לבדיקה כאמור בידי פסיכיאטר מומחה לילדים ולנוער; הודיע הפסיכיאטר המחוזי לבית משפט כי לא ניתן לערוך את הבדיקה הפסיכיאטרית אלא בתנאי אשפוז, רשאי בית המשפט לצוות על אשפוזו של העצור לשם עריכת בדיקה והסתכלות בבית חולים שיקבע הפסיכיאטר המחוזי או באגף הפסיכיאטרי של בית סוהר, ובלבד שמשך האשפוז לא יעלה על תקופת תקפו של צו המעצר.</p>
+              </content>
+            </point>
+            <point eId="point_16__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>ניתן צו לפי סעיף זה, יראו את העצור בעת שהוא נתון באשפוז או בבדיקה כנמצא במשמורת כדין, ויחולו עליו הוראות <ref href="/akn/il/act/PrimaryLegislation/1971-10-20/2002271#point_18">סעיפים 18</ref><ref href="/akn/il/act/PrimaryLegislation/1971-10-20/2002271#point_19">ו־19 לפקודת בתי הסוהר [נוסח חדש], התשל"ב–1971</ref>, בשינויים המחוייבים.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_17">
+          <heading>
+            <authorialNote placement="side">
+              <p>בדיקת חשוד</p>
+            </authorialNote>
+          </heading>
+          <num>17.</num>
+          <content>
+            <p>התעורר חשש כי אדם שיש לכאורה ראיות המחשידות אותו בביצוע עבירה אך טרם הוגש נגדו כתב אישום, הוא חולה, רשאי בית המשפט, לפי בקשתו של תובע או של החשוד ואף ביזמתו הוא, לצוות כי החשוד ייבדק בדיקה פסיכיאטרית ואם הוא קטין – בדיקה כאמור בידי פסיכיאטר מומחה לילדים ולנוער, שלא בתנאי אשפוז, כדי לקבוע אם הוא חולה ואם הוא מסוגל לעמוד לדין.</p>
+          </content>
+        </point>
+        <point eId="point_18">
+          <heading>
+            <authorialNote placement="side">
+              <p>ייצוגו של החולה ונוכחותו</p>
+            </authorialNote>
+          </heading>
+          <num>18.</num>
+          <content>
+            <p>צו לפי <ref href="#point_15">סעיפים 15 עד 17</ref> לא ינתן אלא בנוכחות סניגורו של החולה, ואם אין לו, ימנה לו בית המשפט סניגור; בית המשפט רשאי לתת צו כאמור שלא בנוכחות החולה אם שוכנע, על יסוד חוות דעת של פסיכיאטר מחוזי או של פסיכיאטר אחר שמינה הפסיכיאטר המחוזי, שאי אפשר לקיים את הדיון בנוכחות החולה או שנוכחותו תזיק לבריאותו הנפשית.</p>
+          </content>
+        </point>
+        <point eId="point_19">
+          <heading>
+            <authorialNote placement="side">
+              <p>עיון חוזר וערר</p>
+            </authorialNote>
+          </heading>
+          <num>19.</num>
+          <content>
+            <p>על צו לפי <ref href="#point_16">סעיף 16(א)</ref> ניתן להגיש בקשה לעיון חוזר, וכן ניתן לערור עליו ועל צווים לפי <ref href="#point_15">סעיפים 15(ג)</ref>, <ref href="#point_16">16(ב)</ref><ref href="#point_17">ו־17</ref>, הכל כאמור <ref href="/akn/il/act/PrimaryLegislation/1982-03-01/2002215#point_37">בסעיפים 37 עד 39 לחוק סדר הדין הפלילי</ref>, בשינויים המחוייבים; הוגשה בקשה לעיון חוזר או הוגש ערר, רשאי בית המשפט לצוות על עיכוב ביצוע הצו.</p>
+          </content>
+        </point>
+        <point eId="point_20">
+          <heading>
+            <authorialNote placement="side">
+              <p>אסמכתא וחובת ביצוע</p>
+            </authorialNote>
+          </heading>
+          <num>20.</num>
+          <list>
+            <point eId="point_20__point_א">
+              <num>(א)</num>
+              <content>
+                <p>צו בית המשפט לאשפוז, לטיפול מרפאתי או לבדיקה פסיכיאטרית, ישמש אסמכתא למשטרה להביא את האדם למקום שהורה עליו הפסיכיאטר המחוזי; נמצא האדם במשמורת בבית סוהר, יובא למקום האמור בידי סוהר.</p>
+              </content>
+            </point>
+            <point eId="point_20__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>קביעתו של פסיכיאטר מחוזי לפי <ref href="#point_15">סעיפים 15</ref><ref href="#point_16">ו־16</ref> תחייב את בית החולים או את המרפאה שקבע, לפי הענין, לקבל את החולה לאשפוז, לטיפול מרפאתי או לבדיקה לצורך ביצוע צו בית המשפט.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_21">
+          <heading>
+            <authorialNote placement="side">
+              <p>העמדה לדין לאחר שחרור</p>
+            </authorialNote>
+          </heading>
+          <num>21.</num>
+          <content>
+            <p>אושפז נאשם על פי צו של בית משפט לפי <ref href="#point_15">סעיף 15(א)</ref> או נמצא בטיפול מרפאתי על פי צו של בית משפט לפי <ref href="#point_15">סעיף 15(א)</ref> או על פי החלטת ועדה פסיכיאטרית לפי <ref href="#point_28">סעיף 28(ב)</ref> והוא שוחרר לאחר מכן לפי <ref href="#point_28">סעיף 28(ד)</ref>, רשאי היועץ המשפטי לממשלה להורות כי הנאשם יועמד לדין על העבירה שבה הואשם.</p>
+          </content>
+        </point>
+        <point eId="point_21א">
+          <heading>
+            <authorialNote placement="side">
+              <p>העמדה לדין לפני שחרור מטיפול מרפאתי</p>
+            </authorialNote>
+          </heading>
+          <num>21א.</num>
+          <list>
+            <point eId="point_21א__point_א">
+              <num>(א)</num>
+              <content>
+                <p>מצא היועץ המשפטי לממשלה כי אף שנאשם נמצא בטיפול מרפאתי על פי צו של בית משפט לפי <ref href="#point_15">סעיף 15(א)</ref> או על פי החלטת ועדה פסיכיאטרית לפי <ref href="#point_28">סעיף 28(ב)</ref>, יש יסוד סביר להניח כי הוא מסוגל לעמוד לדין, וכי נסיבות העניין בכללותן מתאימות להעמדתו לדין, רשאי היועץ המשפטי לממשלה לפנות לבית המשפט בבקשה לעיון חוזר בהחלטה כי הנאשם אינו מסוגל לעמוד לדין מחמת היותו חולה.</p>
+              </content>
+            </point>
+            <point eId="point_21א__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>לא יקבע בית המשפט כי נאשם כאמור בסעיף קטן (א) מסוגל לעמוד לדין, אלא לאחר קבלת חוות דעת פסיכיאטרית, ויחולו לעניין זה הוראות <ref href="#point_15">סעיף 15(ג)</ref>, לפי העניין.</p>
+              </content>
+            </point>
+            <point eId="point_21א__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>על החלטה של בית משפט לפי סעיף קטן (א) ניתן לערור לבית משפט שלערעור ויחולו הוראות <ref href="#point_15">סעיף 15(ו)</ref>.</p>
+              </content>
+            </point>
+            <point eId="point_21א__point_ד">
+              <num>(ד)</num>
+              <content>
+                <p>הועמד נאשם לדין לפי סעיף זה, ישוחרר מהטיפול המרפאתי; על נאשם ששוחרר כאמור והוגשה לגביו בקשה לפי <ref href="/akn/il/act/PrimaryLegislation/1996-05-12/159712">חוק סדר הדין הפלילי (סמכויות אכיפה – מעצרים), התשנ"ו–1996</ref> (להלן – חוק המעצרים) יחולו הוראות <ref href="/akn/il/act/PrimaryLegislation/1996-05-12/159712#point_48">סעיף 48(א)(7א) לחוק האמור</ref>.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_22">
+          <heading>
+            <authorialNote placement="side">
+              <p>מינוי ראש שירותי בריאות הנפש ותפקידיו</p>
+            </authorialNote>
+          </heading>
+          <num>22.</num>
+          <list>
+            <point eId="point_22__point_א">
+              <num>(א)</num>
+              <content>
+                <p>השר ימנה פסיכיאטר בשירות המדינה להיות ראש שירותי בריאות הנפש.</p>
+              </content>
+            </point>
+            <point eId="point_22__point_ב">
+              <num>(ב)</num>
+              <list>
+                <intro>
+                  <p>תפקידיו של ראש שירותי בריאות הנפש הם:</p>
+                </intro>
+                <point eId="point_22__point_ב__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>לתכנן ולנהל את שירותי בריאות הנפש וכן לתאם בין כל המוסדות לבריאות הנפש;</p>
+                  </content>
+                </point>
+                <point eId="point_22__point_ב__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>לפקח על בתי חולים ומרפאות;</p>
+                  </content>
+                </point>
+                <point eId="point_22__point_ב__point_3">
+                  <num>(3)</num>
+                  <content>
+                    <p>לפקח מבחינה מינהלית על הפסיכיאטרים המחוזיים לענין ביצוע תפקידיהם לפי חוק זה;</p>
+                  </content>
+                </point>
+                <point eId="point_22__point_ב__point_4">
+                  <num>(4)</num>
+                  <content>
+                    <p>להסדיר נהלים בדבר עריכת רשומות פסיכיאטריות ולפקח על ההסדרים שנקבעו לשמירת סודיותם;</p>
+                  </content>
+                </point>
+                <point eId="point_22__point_ב__point_5">
+                  <num>(5)</num>
+                  <content>
+                    <p>להסדיר נהלים בדבר העברת מידע רפואי שמותר או שחובה לגלותו לפי חוק.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+          </list>
+        </point>
+        <point eId="point_23">
+          <heading>
+            <authorialNote placement="side">
+              <p>סמכויות לקבלת מידע</p>
+            </authorialNote>
+          </heading>
+          <num>23.</num>
+          <list>
+            <point eId="point_23__point_א">
+              <num>(א)</num>
+              <content>
+                <p>ראש שירותי בריאות הנפש או מי שהוא הסמיך לכך בכתב מבין עובדי משרד הבריאות, רשאים לדרוש מידע לגבי חולה מכל עובד של בית חולים או של מרפאה, להיכנס למקום כאמור, לבדוק בו חולים ולערוך בו כל חקירה שימצא לנכון.</p>
+              </content>
+            </point>
+            <point eId="point_23__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>פסיכיאטר מחוזי רשאי, לשם ביצוע תפקידיו, להיכנס לכל בית חולים או מרפאה שבמחוזו, וכן רשאי הוא לדרוש מידע מכל אדם ולערוך כל חקירה או בירור הדרושים לביצוע הוראות חוק זה או הוראות לפיו.</p>
+              </content>
+            </point>
+            <point eId="point_23__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>אדם, שראש שירותי בריאות הנפש או שפסיכיאטר מחוזי פנה אליו לפי סעיף זה, חייב לספק לו כל מידע שנדרש ממנו.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_23א">
+          <heading>
+            <authorialNote placement="side">
+              <p>דיווח של ראש שירותי בריאות הנפש</p>
+            </authorialNote>
+          </heading>
+          <num>23א.</num>
+          <content>
+            <p>ראש שירותי בריאות הנפש ידווח לועדת החוקה חוק ומשפט של הכנסת, לא יאוחר מ־1 באפריל בכל שנה, על הטיפול בנפגעי שואה במערכת בריאות הנפש בשנה שקדמה להגשת הדוח; הדיווח יכלול, בין השאר, את מספר ניצולי השואה ששהו בבתי החולים, את מספר ניצולי השואה שהשתחררו מבתי החולים לרבות כאלה שעברו לדיור במסגרת שיקום נכי נפש בקהילה לפי <ref href="/akn/il/act/PrimaryLegislation/2000-07-21/168993">חוק שיקום נכי נפש בקהילה, התש"ס–2000</ref>, ומספר ניצולי השואה המאושפזים שנפטרו; כן יכלול הדיווח פירוט בדבר מספר הניצולים המאושפזים שיש להם אפוטרופוס, ואם לא מונה להם אפוטרופוס, את הנימוקים לכך.</p>
+          </content>
+        </point>
+        <point eId="point_24">
+          <heading>
+            <authorialNote placement="side">
+              <p>ועדה פסיכיאטרית מחוזית</p>
+            </authorialNote>
+          </heading>
+          <num>24.</num>
+          <list>
+            <point eId="point_24__point_א">
+              <num>(א)</num>
+              <list>
+                <intro>
+                  <p>השר ימנה חברים לוועדות פסיכיאטריות מחוזיות מתוך רשימות כמפורט להלן:</p>
+                </intro>
+                <point eId="point_24__point_א__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>רשימת משפטנים הכשירים להתמנות שופטי בית משפט שלום, שערך שר המשפטים (להלן – רשימת המשפטנים);</p>
+                  </content>
+                </point>
+                <point eId="point_24__point_א__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>רשימת פסיכיאטרים בשירות המדינה, שערך השר, ושאינה כוללת פסיכיאטרים מחוזיים וסגניהם;</p>
+                  </content>
+                </point>
+                <point eId="point_24__point_א__point_3">
+                  <num>(3)</num>
+                  <content>
+                    <p>רשימת פסיכיאטרים שאינם בשירות המדינה, שהגישה ההסתדרות הרפואית בישראל.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_24__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>מתוך רשימת המשפטנים ימנה השר בכל מחוז יושב ראש תורן וממלא מקומו; יושב ראש תורן יקבע את המותבים של הוועדות באותו מחוז ואת העניינים שבהם יטפלו.</p>
+              </content>
+            </point>
+            <point eId="point_24__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>ועדה פסיכיאטרית תדון במותב של שלושה שיתמנו אחד מתוך כל אחת מן הרשימות המפורטות בסעיף קטן (א); יושב ראש המותב יהיה החבר שנתמנה מתוך רשימת המשפטנים.</p>
+              </content>
+            </point>
+            <point eId="point_24__point_ד">
+              <num>(ד)</num>
+              <content>
+                <p>ראש שירותי בריאות הנפש יהיה אחראי על הפעלת הוועדות ויקיים מעקב סדיר בנוגע לעניינים שבטיפולן.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_24א">
+          <heading>
+            <authorialNote placement="side">
+              <p>ועדה פסיכיאטרית מחוזית לילדים ולנוער</p>
+            </authorialNote>
+          </heading>
+          <num>24א.</num>
+          <list>
+            <point eId="point_24א__point_א">
+              <num>(א)</num>
+              <list>
+                <intro>
+                  <p>השר ימנה חברים לועדות פסיכיאטריות מחוזיות לילדים ולנוער מתוך רשימות כמפורט להלן:</p>
+                </intro>
+                <point eId="point_24א__point_א__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>רשימת משפטנים הכשירים לשמש שופטי בית משפט שלום שערך שר המשפטים;</p>
+                  </content>
+                </point>
+                <point eId="point_24א__point_א__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>רשימת רופאים בעלי תואר מומחה בפסיכיאטריה של הילד והמתבגר;</p>
+                  </content>
+                </point>
+                <point eId="point_24א__point_א__point_3">
+                  <num>(3)</num>
+                  <content>
+                    <p>רשימת פסיכולוגים בעלי תואר מומחה בפסיכולוגיה קלינית בעלי נסיון מקצועי בטיפול בילדים ובנוער, שערכה מועצת הפסיכולוגים כמשמעותה <ref href="/akn/il/act/PrimaryLegislation/1977-03-29/416078#point_47">בסעיף 47 לחוק הפסיכולוגים, התשל"ז–1977</ref> (בסעיף זה – המועצה);</p>
+                  </content>
+                </point>
+                <point eId="point_24א__point_א__point_4">
+                  <num>(4)</num>
+                  <content>
+                    <p>רשימת פסיכולוגים בעלי תואר מומחה בפסיכולוגיה חינוכית בעלי נסיון מקצועי, שערכה המועצה;</p>
+                  </content>
+                </point>
+                <point eId="point_24א__point_א__point_5">
+                  <num>(5)</num>
+                  <content>
+                    <p>רשימת עובדים סוציאליים בעלי נסיון מקצועי בתחום ילדים ונוער, שערך שר העבודה והרווחה.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_24א__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>ועדה פסיכיאטרית לילדים ולנוער תדון במותב של חמישה שיתמנו אחד מתוך כל אחת מן הרשימות המפורטות בסעיף קטן (א); יושב ראש המותב יהיה החבר שנתמנה מתוך רשימת המשפטנים.</p>
+              </content>
+            </point>
+            <point eId="point_24א__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>לא יתמנה חבר למותב העומד לדון בענין אשפוזו של קטין בבית החולים שבו מועסק אותו חבר.</p>
+              </content>
+            </point>
+            <point eId="point_24א__point_ד">
+              <num>(ד)</num>
+              <content>
+                <p>הוראות <ref href="#point_24">סעיף 24(ב) ו־(ד)</ref> יחולו על ועדות פסיכיאטריות מחוזיות לילדים ולנוער בשינויים המחוייבים.</p>
+              </content>
+            </point>
+            <point eId="point_24א__point_ה">
+              <num>(ה)</num>
+              <content>
+                <p>הוראות חוק זה, ככל שהן מתייחסות לועדה פסיכיאטרית, יחולו, בשינויים המחוייבים, גם על ועדה פסיכיאטרית מחוזית לילדים ולנוער, אלא אם כן נקבע במפורש אחרת.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_25">
+          <heading>
+            <authorialNote placement="side">
+              <p>סמכויות ועדה פסיכיאטרית</p>
+            </authorialNote>
+          </heading>
+          <num>25.</num>
+          <content>
+            <p>על ועדה פסיכיאטרית יחולו הוראות <ref href="/akn/il/act/PrimaryLegislation/1969-01-08/147339#point_8">סעיפים 8 עד 11</ref><ref href="/akn/il/act/PrimaryLegislation/1969-01-08/147339#point_27">ו־27(ב) לחוק ועדות חקירה, התשכ"ט–1968</ref>, בשינויים המחוייבים.</p>
+          </content>
+        </point>
+        <point eId="point_26">
+          <heading>
+            <authorialNote placement="side">
+              <p>נוכחות בדיון והשמעת טענות</p>
+            </authorialNote>
+          </heading>
+          <num>26.</num>
+          <list>
+            <point eId="point_26__point_א">
+              <num>(א)</num>
+              <content>
+                <p>הובא ענינו של חולה בפני הוועדה הפסיכיאטרית, תבדוק הוועדה את החולה; נבצר מן הוועדה לבדוק את החולה, רשאית היא לדחות את הדיון למועד אחר שתקבע ושלא יעלה על שבעה ימים, ולהאריך את תקופת האשפוז עד למועד הדיון.</p>
+              </content>
+            </point>
+            <point eId="point_26__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>מצאה הוועדה שיש צורך לבדוק את החולה בדיקה גופנית, תיערך הבדיקה בידי שני החברים הפסיכיאטרים או בידי אחד מהם בלבד, ויושב ראש הוועדה לא יהיה נוכח בה; דין בדיקה כאמור כדין בדיקת הוועדה כולה.</p>
+              </content>
+            </point>
+            <point eId="point_26__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>הוועדה תאפשר לחולה, לקרובו ולבאי כוחם, אם יש להם בא כוח, ובדיון בערר, גם לעורר ולבא כוחו ולפסיכיאטר המחוזי, להשמיע את טענותיהם בפניה; הוועדה רשאית לאפשר גם לאנשים נוספים, אם לדעתה הם נוגעים לענין, להשמיע את טענותיהם בפניה.</p>
+              </content>
+            </point>
+            <point eId="point_26__point_ד">
+              <num>(ד)</num>
+              <content>
+                <p>הדיון ייערך בדלתיים סגורות ויהיו נוכחים בו החולה ובא כוחו, אם יש לו בא כוח; הוועדה רשאית להרשות את נוכחותם של אנשים נוספים, אם לדעתה הם נוגעים לענין ונוכחותם דרושה לצורך הדיון.</p>
+              </content>
+            </point>
+            <point eId="point_26__point_ה">
+              <num>(ה)</num>
+              <content>
+                <p>סברה הוועדה כי נוכחותו של החולה בדיון, כולו או חלקו, עלולה לפגוע בשלומו הגופני או הנפשי, רשאית הוועדה, מנימוקים שיירשמו, לדון באותו חלק של הדיון שלא בנוכחותו.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_27">
+          <heading>
+            <authorialNote placement="side">
+              <p>סדר הדיון בוועדה</p>
+            </authorialNote>
+          </heading>
+          <num>27.</num>
+          <content>
+            <p>הוועדה הפסיכיאטרית תקבע את סדר הדיון בפניה במידה שלא נקבע בתקנות.</p>
+          </content>
+        </point>
+        <point eId="point_28">
+          <heading>
+            <authorialNote placement="side">
+              <p>דיון תקופתי בענין חולה שאושפז או נמצא בטיפול מרפאתי על פי צו</p>
+            </authorialNote>
+          </heading>
+          <num>28.</num>
+          <list>
+            <point eId="point_28__point_א">
+              <num>(א)</num>
+              <content>
+                <p>חולה המאושפז על פי צו בית משפט או הנמצא בטיפול מרפאתי על פי צו כאמור, תדון הוועדה הפסיכיאטרית בענינו לפחות אחת לששה חדשים, וכן רשאית היא לדון בענינו בכל עת אם ביקש זאת החולה או המנהל.</p>
+              </content>
+            </point>
+            <point eId="point_28__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>בדיון כאמור בסעיף קטן (א) מוסמכת הוועדה לאשר לחולה חופשות, בתוך תקופת הצו, בתנאים שתקבע או לשחררו ללא תנאי או להורות שיקבל טיפול מרפאתי; דינה של החלטת הוועדה להורות על קבלת טיפול מרפאתי, כדין צו בית משפט לטיפול מרפאתי.</p>
+              </content>
+            </point>
+            <point eId="point_28__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>החליטה הוועדה לאשר לחולה חופשות, רשאית היא להסמיך את המנהל לקבוע מועדיהן ובאילו תנאים יינתנו.</p>
+              </content>
+            </point>
+            <point eId="point_28__point_ד">
+              <num>(ד)</num>
+              <list>
+                <point eId="point_28__point_ד__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>החליטה הוועדה על שחרורו של החולה או שהורתה שהחולה יקבל טיפול מרפאתי, תודיע על מועד השחרור או על מתן ההוראה לקבלת טיפול מרפאתי לפסיכיאטר המחוזי, ליועץ המשפטי לממשלה, לפרקליט המחוז ולמשטרת ישראל.</p>
+                  </content>
+                </point>
+                <point eId="point_28__point_ד__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>החליטה הוועדה על מתן חופשה לחולה, תודיע על כך לפרקליט המחוז או לראש יחידת התביעות במשטרת ישראל, שבתחומם הוגש כתב האישום ולסנגוריה הציבורית.</p>
+                  </content>
+                </point>
+                <point eId="point_28__point_ד__point_3">
+                  <num>(3)</num>
+                  <content>
+                    <p>שר המשפטים, בהסכמת שר הבריאות והשר לביטחון הפנים, יקבעו נהלים לעניין מסירת הודעות כאמור בסעיף קטן זה.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_28__point_ה">
+              <num>(ה)</num>
+              <content>
+                <p>החליטה הוועדה על מתן חופשה לחולה, רשאית היא לדחות את ביצוע ההחלטה לתקופה שלא תעלה על חמישה ימים מיום המצאת ההחלטה; החליטה הוועדה על שחרורו של חולה או שהורתה שהחולה יקבל טיפול מרפאתי, רשאית היא לדחות את ביצוע ההחלטה לתקופה שלא תעלה על עשרה ימים מיום המצאת ההחלטה, והכול בתנאי שתקופת העיכוב לא תחרוג מתקופת האשפוז או הטיפול המרבית כאמור <ref href="#point_15">בסעיף 15(ד1)</ref>.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_28א">
+          <heading>
+            <authorialNote placement="side">
+              <p>ועדה פסיכיאטרית מיוחדת</p>
+            </authorialNote>
+          </heading>
+          <num>28א.</num>
+          <list>
+            <point eId="point_28א__point_א">
+              <num>(א)</num>
+              <content>
+                <p>השר ימנה ועדה פסיכיאטרית מיוחדת, אחת או יותר (בחוק זה – ועדה מיוחדת), ואלה הם חבריה:<br space="preserve"></br>
+   (1)  שופט מחוזי בדימוס שימונה מתוך רשימה שערך שר המשפטים לאחר התייעצות עם נשיא בית המשפט העליון, והוא יהיה היושב ראש;</p>
+              </content>
+            </point>
+            <point eId="point_28א__point_2">
+              <num>(2)</num>
+              <content>
+                <p>פסיכיאטר בעל ניסיון של עשר שנים לפחות בתחום הפסיכיאטריה, שאינו הפסיכיאטר המחוזי או סגנו, מתוך רשימה שערך השר לאחר התייעצות עם ראש שירותי בריאות הנפש;</p>
+              </content>
+            </point>
+            <point eId="point_28א__point_3">
+              <num>(3)</num>
+              <content>
+                <p>קרימינולוג קליני, בעל ותק של שלוש שנים ובעל ניסיון בהערכת מסוכנות ובעבודה עם נאשמים חולי נפש, מתוך רשימה שערך השר לאחר התייעצות עם ראש שירותי בריאות הנפש.</p>
+              </content>
+            </point>
+            <point eId="point_28א__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>תקופת הכהונה של חברי ועדה מיוחדת ושל יושב ראש ועדה מיוחדת תהיה שלוש שנים, וניתן לשוב ולמנותם לתקופות כהונה נוספות, בדרך שבה התמנו.</p>
+              </content>
+            </point>
+            <point eId="point_28א__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>הודעה על מינוי ועדה מיוחדת תפורסם ברשומות.</p>
+              </content>
+            </point>
+            <point eId="point_28א__point_ד">
+              <num>(ד)</num>
+              <content>
+                <p>ועדה מיוחדת תהיה מוסמכת לדון, במקום הוועדה הפסיכיאטרית, בעניינו של מי שהואשם בעבירה על <ref href="/akn/il/act/PrimaryLegislation/1977-08-04/2002251#point_300">סעיפים 300</ref><ref href="/akn/il/act/PrimaryLegislation/1977-08-04/2002251#point_305">או 305 לחוק העונשין, התשל"ז–1977</ref>, והוטל עליו צו לפי <ref href="#point_15">סעיף 15</ref>, ויחולו לעניין זה הוראות <ref href="#point_25">סעיפים 25 עד 28</ref>, <ref href="#point_29">29</ref><ref href="#point_29א">ו־29א</ref>, בשינויים המחויבים, ובשינויים כאמור <ref href="#point_28ב">בסעיפים 28ב עד 28ד</ref>.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_28ב">
+          <heading>
+            <authorialNote placement="side">
+              <p>נוכחות בדיון בוועדה מיוחדת והשמעת טענות</p>
+            </authorialNote>
+          </heading>
+          <num>28ב.</num>
+          <list>
+            <point eId="point_28ב__point_א">
+              <num>(א)</num>
+              <content>
+                <p>בא כוח היועץ המשפטי לממשלה יהיה נוכח בדיון של ועדה מיוחדת וישמיע את טענותיו לפניה.</p>
+              </content>
+            </point>
+            <point eId="point_28ב__point_ב">
+              <num>(ב)</num>
+              <list>
+                <intro>
+                  <p>נפגע עבירה שביקש שתימסר לו הודעה על מועד הדיון בוועדה מיוחדת, כאמור <ref href="/akn/il/act/PrimaryLegislation/2001-03-21/171104#appendix_4_פרט_9">בפרט 9 לתוספת הרביעית של חוק זכויות נפגעי עבירה</ref>, יהיה רשאי להביע את עמדתו בכתב לפני הוועדה, ואולם הוא לא יהיה רשאי לעיין במידע רפואי של הנאשם; לעניין זה –</p>
+                </intro>
+                <point eId="point_28ב__point_ב__point_חוק_זכויות_נפגעי_עבירה">
+                  <content>
+                    <p>
+                      <def />”חוק זכויות נפגעי עבירה“ – חוק זכויות נפגעי עבירה, התשס"א–2001;</p>
+                  </content>
+                </point>
+                <point eId="point_28ב__point_ב__point_נפגע_עבירה">
+                  <content>
+                    <p>
+                      <def />”נפגע עבירה“ – כהגדרתו <ref href="/akn/il/act/PrimaryLegislation/2001-03-21/171104#point_2">בסעיף 2 לחוק זכויות נפגעי עבירה</ref>.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+          </list>
+        </point>
+        <point eId="point_28ג">
+          <heading>
+            <authorialNote placement="side">
+              <p>סמכויות ועדה מיוחדת</p>
+            </authorialNote>
+          </heading>
+          <num>28ג.</num>
+          <list>
+            <point eId="point_28ג__point_א">
+              <num>(א)</num>
+              <content>
+                <p>בלי לגרוע מהוראות <ref href="#point_28">סעיף 28</ref>, בדיון כאמור באותו סעיף מוסמכת ועדה מיוחדת לאשר לחולה חופשות, לתקופה ובתנאים שתקבע, לשחררו מאשפוז, להורות על טיפול מרפאתי, או לשחררו מטיפול מרפאתי, והכול בתנאים שתקבע.</p>
+              </content>
+            </point>
+            <point eId="point_28ג__point_ב">
+              <num>(ב)</num>
+              <list>
+                <intro>
+                  <p>התנאים לפי סעיף קטן (א) (להלן – תנאי שחרור ופיקוח) –</p>
+                </intro>
+                <point eId="point_28ג__point_ב__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>יוטלו על החולה כדי למנוע סכנה לשלום הציבור על רקע מצבו הנפשי לרבות באמצעות הבטחת הטיפול בו, ויכול שיכללו, בין השאר, חיוב של החולה להתייצב לבדיקה פסיכיאטרית או לקבל טיפול במקום שקבעה הוועדה, או תנאים לעניין מקום מגוריו; בסעיף זה, ”תנאים לעניין מקום מגורים“ – לרבות הגבלה ממגורים במקום מסוים או בסמוך לו או מגורים במסגרת המתאימה לצרכיו הרפואיים בכל הנוגע למצבו הנפשי, כפי שתקבע הוועדה;</p>
+                  </content>
+                </point>
+                <point eId="point_28ג__point_ב__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>יעמדו בתוקפם לתקופה שתקבע הוועדה ולא תעלה על שנה, ואולם רשאית הוועדה להאריך את התקופה האמורה לתקופות נוספות שכל אחת מהן לא תעלה על שישה חודשים, ובלבד שסך כל התקופות, לרבות תקופת האשפוז או הטיפול המרפאתי, לא יעלה על תקופת האשפוז או הטיפול המרבית כאמור <ref href="#point_15">בסעיף 15(ד1)</ref>.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_28ג__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>ועדה מיוחדת תאשר לחולה חופשה לפי סעיף זה, רק אם סברה כי חל שינוי יסודי, בסיסי ורציף, לאורך זמן, במצבו הנפשי של החולה, וכי יש בו – בשים לב לתנאי השחרור והפיקוח – כדי לשלול ברמת ודאות גבוהה את מסוכנותו של הנאשם לשלום הציבור, לאנשים מסוימים או לעצמו.</p>
+              </content>
+            </point>
+            <point eId="point_28ג__point_ד">
+              <num>(ד)</num>
+              <content>
+                <p>לשם קבלת החלטה בדבר שחרור או מתן חופשה לפי סעיף זה, רשאית ועדה מיוחדת להורות למנהל להגיש לה חוות דעת או תכנית לטיפול בחולה ולשיקומו, ובהחלטה לעניין מתן חופשה – גם חוות דעת לגבי הצורך בפיקוח על החולה בתקופת היותו בחופשה ודרכי הפיקוח הנדרשות.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_28ד">
+          <heading>
+            <authorialNote placement="side">
+              <p>הפרת תנאי שחרור ופיקוח שקבעה ועדה מיוחדת</p>
+            </authorialNote>
+          </heading>
+          <num>28ד.</num>
+          <list>
+            <point eId="point_28ד__point_א">
+              <num>(א)</num>
+              <content>
+                <p>הפר נאשם תנאי מתנאי השחרור והפיקוח שקבעה לגביו ועדה מיוחדת, רשאית הוועדה לשנות או לבטל את תנאי השחרור והפיקוח ואף להורות על אשפוזו של הנאשם אם היא סבורה שלא ניתן להבטיח את הטיפול בו שלא בתנאי אשפוז ושהוא עלול לסכן את זולתו; לא תקבל הוועדה החלטה כאמור, אלא לאחר שקיימה דיון שאליו יוזמנו הנאשם ובא כוחו; לא התייצב הנאשם, רשאית הוועדה להורות על התייצבותו לדיון נוסף, ואם לא התייצב – רשאית היא לקבל החלטה בהעדרו.</p>
+              </content>
+            </point>
+            <point eId="point_28ד__point_ב">
+              <num>(ב)</num>
+              <list>
+                <intro>
+                  <p>נודע לפסיכיאטר המחוזי כי נאשם הפר תנאי מתנאי השחרור והפיקוח כאמור בסעיף קטן (א), רשאי הוא –</p>
+                </intro>
+                <point eId="point_28ד__point_ב__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>לזמן את הנאשם לבדיקה כפויה מיוחדת מטעמו, אף אם לא התמלאו בנאשם התנאים המנויים <ref href="#point_6">בסעיפים 6</ref><ref href="#point_7">או 7</ref>, ולהורות על אשפוזו של הנאשם לתקופה שלא תעלה על 48 שעות, אם הדבר דרוש לצורך עריכת הבדיקה, נוכח מצבו הנפשי והסיכון הצפוי ממנו;</p>
+                  </content>
+                </point>
+                <point eId="point_28ד__point_ב__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>לאשפזו לתקופה שלא תעלה על 48 שעות, לצורך הבטחת התייצבותו לפני ועדה מיוחדת.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_28ד__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>הפסיכיאטר המחוזי ימסור לוועדה המיוחדת עדכון לגבי פעולות שנקט לפי סעיף קטן (ב).</p>
+              </content>
+            </point>
+            <point eId="point_28ד__point_ד">
+              <num>(ד)</num>
+              <content>
+                <p>לעניין סעיף קטן (ב), לא יבואו במניין השעות, שבתות ומועדי ישראל כמשמעותם <ref href="/akn/il/act/PrimaryLegislation/1948-05-21/2002291#point_18א">בסעיף 18א(א) לפקודת סדרי השלטון והמשפט, התש"ח–1948</ref>.</p>
+              </content>
+            </point>
+            <point eId="point_28ד__point_ה">
+              <num>(ה)</num>
+              <content>
+                <p>שר המשפטים, בהסכמת השר, רשאי להתקין תקנות לעניין סעיף זה, ובכלל זה לעניין דרכי הבאת נאשם לפני ועדה מיוחדת ולעניין דרכי הדיווח לפסיכיאטר המחוזי ולוועדה על הפרה של תנאי שחרור ופיקוח.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_28ה">
+          <heading>
+            <authorialNote placement="side">
+              <p>עיון חוזר בהחלטות ועדה מיוחדת</p>
+            </authorialNote>
+          </heading>
+          <num>28ה.</num>
+          <content>
+            <p>נאשם או בא כוחו, מנהל או בא כוח היועץ המשפטי לממשלה, רשאי לפנות לוועדה מיוחדת בבקשה לעיון חוזר בהחלטת הוועדה לפי <ref href="#point_28ג">סעיפים 28ג</ref><ref href="#point_28ד">או 28ד</ref>, אם התגלו עובדות חדשות או שהשתנו הנסיבות; עיון חוזר יכול שיתקיים גם ביוזמתה של ועדה מיוחדת.</p>
+          </content>
+        </point>
+        <point eId="point_28ו">
+          <heading>
+            <authorialNote placement="side">
+              <p>נאשם ברצח או בניסיון לרצח שהועמד לדין לאחר שחרור</p>
+            </authorialNote>
+          </heading>
+          <num>28ו.</num>
+          <content>
+            <p>נאשם כאמור <ref href="#point_28א">בסעיף 28א(ד)</ref>, שהועמד לדין לאחר שחרורו לפי הוראות <ref href="#point_21">סעיף 21</ref>, לא תהיה הוועדה המיוחדת מוסמכת עוד לדון בעניינו ותנאי שחרור ופיקוח שקבעה לגביו לא יחולו עוד, ואולם בהחלטות לפי חוק המעצרים ישקול בית המשפט, בין השאר, גם את החלטות הוועדה המיוחדת שניתנו לגבי הנאשם, וכן חומר נוסף הנוגע לעניין.</p>
+          </content>
+        </point>
+        <point eId="point_29">
+          <heading>
+            <authorialNote placement="side">
+              <p>ערעור על החלטת ועדה פסיכיאטרית</p>
+            </authorialNote>
+          </heading>
+          <num>29.</num>
+          <list>
+            <point eId="point_29__point_א">
+              <num>(א)</num>
+              <content>
+                <p>החולה, קרובו וכן היועץ המשפטי לממשלה רשאים לערער על החלטה של ועדה פסיכיאטרית בפני בית המשפט המחוזי, בשבתו כדן יחיד; הערעור יוגש בתוך ארבעים וחמישה ימים מהמועד שבו נמסרה לחולה או ליועץ המשפטי לממשלה, לפי הענין, הודעה על ההחלטה.</p>
+              </content>
+            </point>
+            <point eId="point_29__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>שר המשפטים יקבע בתקנות את נוהל הגשת הערעור וסדרי הדיון בו.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_29א">
+          <heading>
+            <authorialNote placement="side">
+              <p>זכות ייצוג</p>
+            </authorialNote>
+          </heading>
+          <num>29א.</num>
+          <list>
+            <point eId="point_29א__point_א">
+              <num>(א)</num>
+              <content>
+                <p>בדיון בפני ועדה פסיכיאטרית ובדיון בערעור על החלטותיה, רשאי החולה להיות מיוצג על ידי עורך דין.</p>
+              </content>
+            </point>
+            <point eId="point_29א__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>היה החולה מאושפז על פי הוראת אשפוז או נמצא בטיפול מרפאתי על פי הוראה לטיפול מרפאתי, זכאי הוא להיות מיוצג בדיון כאמור בסעיף קטן (א) על ידי עורך דין שנתמנה לתת שירות משפטי לפי הוראות <ref href="/akn/il/act/PrimaryLegislation/1972-04-02/148055">חוק הסיוע המשפטי, התשל"ב–1972</ref>.<br space="preserve"></br><wikicomment font-size="x-small">פורסמו צווים בדבר החלת מתן ייצוג משפטי (ק"ת תשס"ו, 454; ק"ת תשס"ז, 190).</wikicomment></p>
+              </content>
+            </point>
+            <point eId="point_29א__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>היה החולה מאושפז או נמצא בטיפול מרפאתי על פי צו בית משפט, זכאי הוא להיות מיוצג בדיונים כאמור בסעיף קטן (א), על ידי סניגור ציבורי שמונה לפי הוראות <ref href="/akn/il/act/PrimaryLegislation/1995-11-30/159539">חוק הסניגוריה הציבורית, התשנ"ו–1995</ref>.<br space="preserve"></br><wikicomment font-size="x-small">פורסמו צווים בדבר החלת מתן ייצוג משפטי בידי סנגור ציבורי (ק"ת תשס"ד, 656; ק"ת תשס"ו, 2; ק"ת תשס"ו, 454).</wikicomment></p>
+              </content>
+            </point>
+            <point eId="point_29א__point_ד">
+              <num>(ד)</num>
+              <content>
+                <p>הוראות סעיפים קטנים (ב) ו־(ג) לא יחולו לענין דיון בפני ועדה פסיכיאטרית לילדים ולנוער כאמור <ref href="#point_24א">בסעיף 24א</ref> ודיון בערעור על החלטותיה.</p>
+              </content>
+            </point>
+            <point eId="point_29א__point_ה">
+              <num>(ה)</num>
+              <content>
+                <p>המנהל או מי שהוסמך על ידו לענין זה, יודיע לחולה ואם יש לו אפוטרופוס גם לאפוטרופסו, בסמוך למועד אשפוזו, על זכותו של החולה להיות מיוצג לפי הוראות סעיף זה; לא ניתן היה לברר את דעתו של החולה בענין בשל מצבו הרפואי ואין לו אפוטרופוס, תימסר הודעה כאמור לאחד מקרוביו של החולה; ביקש חולה להיות מיוצג על ידי עורך דין לפי הוראות סעיף זה, או ביקש אפוטרופסו או קרוב של חולה שלא ניתן לברר את דעתו, כי החולה יהיה מיוצג, תינתן לחולה הזדמנות להיפגש עם עורך הדין באופן שיאפשר ייצוג הולם של החולה.</p>
+              </content>
+            </point>
+            <point eId="point_29א__point_ו">
+              <num>(ו)</num>
+              <content>
+                <p>שר המשפטים, בהתייעצות עם שר הבריאות ובאישור ועדת העבודה הרווחה והבריאות של הכנסת, יקבע הוראות לביצוע סעיף זה.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_30">
+          <heading>
+            <authorialNote placement="side">
+              <p>שחרור או חופשה בידי המנהל</p>
+            </authorialNote>
+          </heading>
+          <num>30.</num>
+          <list>
+            <point eId="point_30__point_א">
+              <num>(א)</num>
+              <content>
+                <p>מנהל רשאי, לפי שיקול דעתו, לשחרר חולה המאושפז שלא על פי צו של בית המשפט או לאשר לו חופשה.</p>
+              </content>
+            </point>
+            <point eId="point_30__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>מנהל אינו רשאי לשחרר חולה מאושפז שהוא אסיר, אולם רשאי המנהל, באישור נציב בתי הסוהר, לאשר לו חופשה.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_31">
+          <heading>
+            <authorialNote placement="side">
+              <p>התנגדות לשחרור חולה</p>
+            </authorialNote>
+          </heading>
+          <num>31.</num>
+          <content>
+            <p>התנגד חולה או קרובו לשחרור החולה מבית החולים לפי <ref href="#point_30">סעיף 30(א)</ref>, אין לשחררו אלא באישור הפסיכיאטר המחוזי; על החלטת הפסיכיאטר המחוזי ניתן לערור בפני הוועדה הפסיכיאטרית.</p>
+          </content>
+        </point>
+        <point eId="point_32">
+          <heading>
+            <authorialNote placement="side">
+              <p>העברת חולה</p>
+            </authorialNote>
+          </heading>
+          <num>32.</num>
+          <list>
+            <point eId="point_32__point_א">
+              <num>(א)</num>
+              <content>
+                <p>אין להעביר חולה מבית חולים אחד למשנהו אלא בהסכמתו ובהסכמתם של המנהלים הנוגעים לענין; באין הסכמה כאמור יכריע בדבר הפסיכיאטר המחוזי של המחוז שבו נמצא בית החולים שאליו מבקשים להעביר את החולה, על החלטתו של הפסיכיאטר המחוזי ניתן לערור בפני הוועדה הפסיכיאטרית באותו מחוז.</p>
+              </content>
+            </point>
+            <point eId="point_32__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>על אף האמור בסעיף קטן (א), רשאי ראש שירותי בריאות הנפש, בנסיבות מיוחדות ובהתחשב בצרכי האשפוז, להורות על העברת חולה מבית חולים אחד למשנהו.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_33">
+          <heading>
+            <authorialNote placement="side">
+              <p>החזרת חולה לבית חולים</p>
+            </authorialNote>
+          </heading>
+          <num>33.</num>
+          <list>
+            <intro>
+              <p>עזב חולה את בית החולים ללא רשות, לא חזר אליו מחופשה או נעדר ממנו מסיבה אחרת –</p>
+            </intro>
+            <point eId="point_33__point_1">
+              <num>(1)</num>
+              <content>
+                <p>אם אושפז לפי צו של בית משפט או אם הוא אסיר, יודיע על כך המנהל למשטרת ישראל, אשר תדאג להחזרתו לבית החולים;</p>
+              </content>
+            </point>
+            <point eId="point_33__point_2">
+              <num>(2)</num>
+              <content>
+                <p>אם אושפז לפי הוראת אשפוז, יודיע על כך המנהל לפסיכיאטר המחוזי; החליט הפסיכיאטר המחוזי על החזרתו לבית החולים, רשאי הוא להשתמש בסמכויות הנתונות לו <ref href="#point_14">בסעיף 14</ref>.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_34">
+          <heading>
+            <authorialNote placement="side">
+              <p>אמצעי כפיה</p>
+            </authorialNote>
+          </heading>
+          <num>34.</num>
+          <list>
+            <point eId="point_34__point_א">
+              <num>(א)</num>
+              <content>
+                <p>בסעיף זה, ”אמצעי כפיה“ – בידוד או קשירה.</p>
+              </content>
+            </point>
+            <point eId="point_34__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>שימוש באמצעי כפיה לגבי חולה מאושפז ייעשה רק במידה הדרושה לצורך הטיפול הרפואי בו או כדי למנוע סכנה לעצמו או לזולתו.</p>
+              </content>
+            </point>
+            <point eId="point_34__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>הוראה בדבר שימוש באמצעי כפיה תינתן בכתב בידי רופא לזמן מוגבל; במקרה חירום ובהעדר רופא רשאית אחות לתת הוראה כאמור.</p>
+              </content>
+            </point>
+            <point eId="point_34__point_ד">
+              <num>(ד)</num>
+              <content>
+                <p>השר יקבע בתקנות הוראות בדבר דרכי השימוש באמצעי כפיה, לרבות בדבר רישום בפנקס מיוחד ודרכי ניהולו.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_35">
+          <heading>
+            <authorialNote placement="side">
+              <p>זכויות החולה</p>
+            </authorialNote>
+          </heading>
+          <num>35.</num>
+          <list>
+            <point eId="point_35__point_א">
+              <num>(א)</num>
+              <content>
+                <p>לא תישלל זכות מזכויותיו של חולה ולא תוגבל בדרך כלשהי, אלא על פי חוק.</p>
+              </content>
+            </point>
+            <point eId="point_35__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>המטרה העיקרית של אשפוז חולה בבית חולים הינה קבלת טיפול רפואי ואין לאשפז אדם בבית חולים לשם הגנה על הציבור או עליו בלבד, אלא לפי הוראות חוק זה.</p>
+              </content>
+            </point>
+            <point eId="point_35__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>חולה המאושפז בבית חולים זכאי לקבל טיפול בהתאם למצבו הרפואי, הן הנפשי והן הגופני, בהתאם לתנאים ולהסדרים הנהוגים במערכת הבריאות בישראל.</p>
+              </content>
+            </point>
+            <point eId="point_35__point_ד">
+              <num>(ד)</num>
+              <list>
+                <intro>
+                  <p>חולה המאושפז בבית חולים רשאי –</p>
+                </intro>
+                <point eId="point_35__point_ד__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>לשלוח ולקבל מכתבים סגורים ודברי דואר אחרים;</p>
+                  </content>
+                </point>
+                <point eId="point_35__point_ד__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>לקבל אורחים בזמנים ובתנאים שקבע המנהל;</p>
+                  </content>
+                </point>
+                <point eId="point_35__point_ד__point_3">
+                  <num>(3)</num>
+                  <content>
+                    <p>לקיים קשר עם אנשים מחוץ לבית החולים;</p>
+                  </content>
+                </point>
+                <point eId="point_35__point_ד__point_4">
+                  <num>(4)</num>
+                  <content>
+                    <p>להחזיק חפצים אישיים במידה סבירה וללבוש את בגדיו האישיים, הכל בתנאים שקבע המנהל.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_35__point_ה">
+              <num>(ה)</num>
+              <content>
+                <p>מנהל רשאי להגביל זכויותיו של חולה לפי סעיף זה במידה שהדבר דרוש מטעמים רפואיים, ובלבד שלא תוגבל זכותו של החולה לשלוח מכתבים סגורים לעורך דינו, לאפוטרופסו, לפסיכיאטר המחוזי, לוועדה הפסיכיאטרית המחוזית וליועץ המשפטי לממשלה, או לקיים קשר אחר איתם.</p>
+              </content>
+            </point>
+            <point eId="point_35__point_ו">
+              <num>(ו)</num>
+              <content>
+                <p>חולה המתקבל לאשפוז יקבל טופס המפרט את זכויותיו וחובותיו וכן הסבר בעל פה על תוכנו מהרופא המקבל; לא היה החולה מסוגל להבין את תוכן הטופס מפאת מצבו הרפואי יצויין הדבר בכתב בתיקו הרפואי, ותוכנו של הטופס יוסבר לו מיד לכשיאפשר זאת מצבו הרפואי.</p>
+              </content>
+            </point>
+            <point eId="point_35__point_ז">
+              <num>(ז)</num>
+              <content>
+                <p>עותק מטופס זכויות החולה וחובותיו יוצג בכל מחלקה פסיכיאטרית במקום בולט.</p>
+              </content>
+            </point>
+            <point eId="point_35__point_ח">
+              <num>(ח)</num>
+              <content>
+                <p>חולה המאושפז מרצונו לא יקבל טיפול רפואי, למעט טיפול חירום, אלא בהסכמתו; סירב חולה המאושפז כאמור לקבל טיפול רפואי כפי שקבע לו המנהל, רשאי המנהל לשחררו.</p>
+              </content>
+            </point>
+            <point eId="point_35__point_ט">
+              <num>(ט)</num>
+              <content>
+                <p>חולה שאושפז אשפוז כפוי או שניתנה לגביו הוראה לטיפול מרפאתי, יינתן לו טיפול לפי מצבו הרפואי אף למרות התנגדותו; טיפולים מיוחדים שיפורטו בתקנות יינתנו רק בהתאם להוראות שייקבעו בהן.</p>
+              </content>
+            </point>
+            <point eId="point_35__point_י">
+              <num>(י)</num>
+              <content>
+                <p>חולה ישותף במידת האפשר בתוכנית הטיפול בו.</p>
+              </content>
+            </point>
+            <point eId="point_35__point_יא">
+              <num>(יא)</num>
+              <content>
+                <p>חולה זכאי לקבל מידע רפואי בקשר למצבו; המידע יימסר לו לפי שיקול דעתו של הרופא.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_36">
+          <heading>
+            <authorialNote placement="side">
+              <p>תעסוקה לחולה</p>
+            </authorialNote>
+          </heading>
+          <num>36.</num>
+          <content>
+            <p>השר רשאי לקבוע בתקנות הוראות בדבר העסקתו של חולה בעיסוקים הקשורים בתוכנית ריפוי בעיסוק או בתוכנית שיקום; אין בהעסקתו של חולה כאמור משום יצירת קשר של עובד ומעביד בין החולה לבין המעסיק.</p>
+          </content>
+        </point>
+        <point eId="point_37">
+          <heading>
+            <authorialNote placement="side">
+              <p>נכסי החולה</p>
+            </authorialNote>
+          </heading>
+          <num>37.</num>
+          <content>
+            <p>אין באשפוזו של חולה כדי לפגוע בזכותו להמשיך ולנהל את נכסיו, אלא אם כן קבע המנהל בכתב שאין החולה מסוגל לדאוג לענייניו; על קביעתו של המנהל רשאי החולה לערור בפני הוועדה הפסיכיאטרית.</p>
+          </content>
+        </point>
+        <point eId="point_38">
+          <heading>
+            <authorialNote placement="side">
+              <p>דיווח של הפסיכיאטר המחוזי</p>
+            </authorialNote>
+          </heading>
+          <num>38.</num>
+          <content>
+            <p>הפסיכיאטר המחוזי יודיע ליועץ המשפטי לממשלה וליושב ראש התורן של הוועדה הפסיכיאטרית המחוזית, על מתן הוראת אשפוז והוראה לטיפול מרפאתי, וכן על הוצאת צו אשפוז וצו לטיפול מרפאתי.</p>
+          </content>
+        </point>
+        <point eId="point_39">
+          <heading>
+            <authorialNote placement="side">
+              <p>דיווח של מנהל ומנהל מרפאה</p>
+            </authorialNote>
+          </heading>
+          <num>39.</num>
+          <list>
+            <point eId="point_39__point_א">
+              <num>(א)</num>
+              <content>
+                <p>מנהל יודיע לראש שירותי בריאות הנפש על קבלתו של חולה לבית החולים; בהודעה כאמור יצויין, בין היתר, אם החולה אינו יכול לדאוג לעניניו ואם יש לו אפוטרופוס; כמו כן יודיע המנהל כאמור על שחרורו של החולה מבית החולים, על העברתו לבית חולים אחר או על פטירתו.</p>
+              </content>
+            </point>
+            <point eId="point_39__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>מנהל מרפאה יודיע לראש שירותי בריאות הנפש על קבלתו של חולה לטיפול מרפאתי כפוי, על שחרורו או על פטירתו.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_40">
+          <heading>
+            <authorialNote placement="side">
+              <p>פעולה דחופה של האפוטרופוס הכללי</p>
+            </authorialNote>
+          </heading>
+          <num>40.</num>
+          <list>
+            <point eId="point_40__point_א">
+              <num>(א)</num>
+              <content>
+                <p>קיבל ראש שירותי בריאות הנפש מידע לגבי חולה אשר אינו מסוגל לנהל את עניניו ואין לו אפוטרופוס, כי יש צורך לעשות לגבי נכסיו פעולה משפטית שאינה סובלת דיחוי, יודיע על כך לאפוטרופוס הכללי וכן יודיע לו כל אימת שחדל הצורך לעשות פעולה משפטית כאמור.</p>
+              </content>
+            </point>
+            <point eId="point_40__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>קיבל האפוטרופוס הכללי הודעה כאמור בסעיף קטן (א) רישה, רשאי הוא, אם ראה צורך בכך, לעשות לגבי נכסי החולה כל פעולה משפטית שאינה סובלת דיחוי, כולל כינוס נכסים ומילוי התחייבויות כספיות והוראות <ref href="/akn/il/act/PrimaryLegislation/1962-08-17/147488#point_72">סעיף 72 לחוק הכשרות המשפטית והאפוטרופסות, התשכ"ב–1962</ref>, יחולו, בשינויים המחוייבים, לענין שמיעת דעתם של קרובי החולה.</p>
+              </content>
+            </point>
+            <point eId="point_40__point_ג">
+              <num>(ג)</num>
+              <list>
+                <intro>
+                  <p>תפקידו של האפוטרופוס הכללי יסתיים באחת מאלה:</p>
+                </intro>
+                <point eId="point_40__point_ג__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>משקיבל הודעה לפי סעיף קטן (א) סיפה;</p>
+                  </content>
+                </point>
+                <point eId="point_40__point_ג__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>משנתמנה לחולה אפוטרופוס;</p>
+                  </content>
+                </point>
+                <point eId="point_40__point_ג__point_3">
+                  <num>(3)</num>
+                  <content>
+                    <p>משקבע בית־המשפט שאין עוד צורך במילוי תפקידו של האפוטרופוס הכללי; הוראות <ref href="/akn/il/act/PrimaryLegislation/1962-08-17/147488#point_63">סעיף 63 לחוק הכשרות המשפטית והאפוטרופסות, התשכ"ה–1962 [צ"ל: התשכ"ב–1962]</ref>, יחולו בשינויים המחוייבים לפי הענין, על סיום תפקידו של האפוטרופוס הכללי;</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_40__point_4">
+              <num>(4)</num>
+              <content>
+                <p>משנפטר החולה.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_41">
+          <heading>
+            <authorialNote placement="side">
+              <p xml:space="preserve"> </p>
+            </authorialNote>
+          </heading>
+          <num>41.</num>
+          <content>
+            <p>
+              <wikicomment font-size="x-small">(בוטל).</wikicomment>
+            </p>
+          </content>
+        </point>
+        <point eId="point_42">
+          <heading>
+            <authorialNote placement="side">
+              <p>סודיות</p>
+            </authorialNote>
+          </heading>
+          <num>42.</num>
+          <list>
+            <point eId="point_42__point_א">
+              <num>(א)</num>
+              <list>
+                <intro>
+                  <p>מי שהגיעה אליו ידיעה לגבי אדם תוך כדי ביצוע חוק זה או בקשר לביצועו, חייב לשמרה בסוד ולא לגלותה אלא באחת מנסיבות אלה:</p>
+                </intro>
+                <point eId="point_42__point_א__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>האדם שעליו המידע הסכים במודע ובכתב לגילויו, וכל עוד לא ביטל בכתב את הסכמתו האמורה;</p>
+                  </content>
+                </point>
+                <point eId="point_42__point_א__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>גילוי המידע דרוש, לדעתו של הרופא המטפל, לשם טיפול באותו אדם או לשם ביצוע חוק זה והתקנות לפיו;</p>
+                  </content>
+                </point>
+                <point eId="point_42__point_א__point_3">
+                  <num>(3)</num>
+                  <content>
+                    <p>קיימת חובה או רשות בחוק לגלות את המידע;</p>
+                  </content>
+                </point>
+                <point eId="point_42__point_א__point_4">
+                  <num>(4)</num>
+                  <content>
+                    <p>הוא הורשה לכך בידי בית משפט;</p>
+                  </content>
+                </point>
+                <point eId="point_42__point_א__point_5">
+                  <num>(5)</num>
+                  <content>
+                    <p>הוא נדרש לגלות את הידיעה, במסגרת ניהול חקירה, למי שמוסמך. לנהל חקירה על ביצוע עבירות, או לגלות את הידיעה, לצורך מניעת עבירות, לקצין משטרה בדרגת סגן ניצב ומעלה או למי ששר המשפטים הסמיכו לקבל מידע לפי סעיף זה; גילוי ידיעה כאמור בפסקה זו טעון הסכמתו של ראש שירותי בריאות הנפש או מי שהוא הסמיך לכך, או הסכמתו של מנהל או פסיכיאטר מחוזי, הכל לפי הענין.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_42__point_א1">
+              <num>(א1)</num>
+              <content>
+                <p>על אף האמור בסעיף קטן (א), רשאי בית משפט, אם סבר שהדבר נדרש לשם הגנה על שלום הציבור או על שלומו של נאשם או עצור או אם מצא הצדקה לכך בנסיבות העניין, להתיר פרסום פרטים מזהים של נאשם או עצור שברח ממסגרת אשפוז שבה הוא נמצא על פי צו אשפוז או צו אשפוז לצורך בדיקה והסתכלות שניתן לפי <ref href="#point_15">סעיפים 15</ref><ref href="#point_16">או 16</ref>, לרבות בריחה במהלך תקופת חופשה שניתנה לו לפי <ref href="#point_28">סעיפים 28</ref><ref href="#point_28ג">או 28ג</ref>; היה הנאשם או העצור מיוצג על ידי סניגור, תימסר הודעה על בקשה שהוגשה לבית המשפט בעניין כאמור לסניגורו, ככל הניתן בנסיבות העניין.</p>
+              </content>
+            </point>
+            <point eId="point_42__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>אין סעיף זה בא לאסור על רופא למסור מידע על מצבו של חולה לחולה, לאפוטרופסו או לקרובו, לפי שיקול דעת הרופא.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_43">
+          <heading>
+            <authorialNote placement="side">
+              <p>מסירת מידע לצרכי מחקר</p>
+            </authorialNote>
+          </heading>
+          <num>43.</num>
+          <content>
+            <p>על אף האמור <ref href="#point_42">בסעיף 42</ref>, מותר למסור מידע לצרכי מחקר או תכנון שירותים רפואיים, על פי כללים שיקבע השר בתקנות, באישור ועדת העבודה והרווחה של הכנסת; מי שהגיע לידיו מידע כאמור לא יפרסם בכל דרך שהיא פרטים שיש בהם כדי לזהות חולה.</p>
+          </content>
+        </point>
+        <point eId="point_44">
+          <heading>
+            <authorialNote placement="side">
+              <p>עבירות ועונשין</p>
+            </authorialNote>
+          </heading>
+          <num>44.</num>
+          <list>
+            <point eId="point_44__point_א">
+              <num>(א)</num>
+              <content>
+                <p>רופא הנותן תעודה בדבר היותו של אדם חולה כשהוא יודע שאינו חולה, או כשלא עשה את הדרוש כדי להיווכח אם הוא חולה או לא, דינו – מאסר חמש שנים.</p>
+              </content>
+            </point>
+            <point eId="point_44__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>מי שגרם ביודעין לאשפוזו של אדם בבית חולים ללא צורך או שלא כדין, דינו – מאסר חמש שנים.</p>
+              </content>
+            </point>
+            <point eId="point_44__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>המשתמש בבית חולים או במרפאה כלפי חולה באמצעי כפיה שלא על פי הוראות חוק זה, דינו – מאסר שלוש שנים.</p>
+              </content>
+            </point>
+            <point eId="point_44__point_ד">
+              <num>(ד)</num>
+              <content>
+                <p>מי שעשה מעשה או נמנע מעשות מעשה כדי לשלול מאדם זכות הניתנת לו לפי חוק זה או כדי להכביד על מימושה, וכן העובר עבירה על הוראות חוק זה שאין עונש אחר בצדה, דינו – מאסר שנה.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_45">
+          <heading>
+            <authorialNote placement="side">
+              <p>חולה שנעצר לפי חוק השיפוט הצבאי, או שהועמד לדין בבית דין צבאי</p>
+            </authorialNote>
+          </heading>
+          <num>45.</num>
+          <list>
+            <intro>
+              <p>הוראות חוק זה יחולו, בשינויים המחוייבים, על חולה שנעצר לפי <ref href="/akn/il/act/PrimaryLegislation/1955-07-20/148698">חוק השיפוט הצבאי, התשט"ו–1955</ref>, או שהועמד לדין לפני בית דין צבאי או שהואשם בהליך של חקירה מוקדמת לפי <ref href="/akn/il/act/PrimaryLegislation/1955-07-20/148698">אותו חוק</ref>, וכל מקום בחוק זה שבו מדובר בבית־משפט – לרבות בית דין צבאי או שופט חוקר במשמע; לענין זה יראו –</p>
+            </intro>
+            <point eId="point_45__point_1">
+              <num>(1)</num>
+              <content>
+                <p>
+                  <ref href="#point_19">בסעיף 19</ref> – כאילו מדובר בערעור לפי <ref href="/akn/il/act/PrimaryLegislation/1955-07-20/148698#point_240">סעיף 240(ד) לחוק השיפוט הצבאי, התשט"ו–1955</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_45__point_2">
+              <num>(2)</num>
+              <content>
+                <p>
+                  <ref href="#point_21">בסעיפים 21</ref>, <ref href="#point_21א">21א(א)</ref>, <ref href="#point_28ב">28ב(א)</ref><ref href="#point_28ה">ו־28ה</ref> – כאילו במקום ”היועץ המשפטי לממשלה“ נאמר ”הפרקליט הצבאי הראשי“;</p>
+              </content>
+            </point>
+            <point eId="point_45__point_3">
+              <num>(3)</num>
+              <content>
+                <p>
+                  <ref href="#point_28">בסעיף 28(ד)</ref> – כאילו במקום ”לפרקליט המחוז“ נאמר ”לפרקליט הצבאי הראשי“, במקום ”הציבורית“ נאמר ”הצבאית“ ובמקום ”השר לביטחון הפנים“ נאמר ”שר הביטחון“;</p>
+              </content>
+            </point>
+            <point eId="point_45__point_4">
+              <num>(4)</num>
+              <content>
+                <p>
+                  <ref href="#point_35">בסעיף 35(ה)</ref> – כאילו אחרי ”לוועדה הפסיכיאטרית המחוזית“ נאמר ”לפרקליט הצבאי הראשי“;</p>
+              </content>
+            </point>
+            <point eId="point_45__point_5">
+              <num>(5)</num>
+              <content>
+                <p>
+                  <ref href="#point_38">בסעיף 38</ref> – כאילו אחרי ”ליועץ המשפטי לממשלה“ נאמר ”לפרקליט הצבאי הראשי“;</p>
+              </content>
+            </point>
+            <point eId="point_45__point_6">
+              <num>(6)</num>
+              <content>
+                <p>
+                  <ref href="#appendix">בתוספת לחוק</ref> – כאילו במקום ”פרקליט מחוז“ נאמר ”הפרקליט הצבאי הראשי“.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_46">
+          <heading>
+            <authorialNote placement="side">
+              <p>ביצוע ותקנות</p>
+            </authorialNote>
+          </heading>
+          <num>46.</num>
+          <content>
+            <p>השר ממונה על ביצוע חוק זה והוא רשאי להתקין תקנות בכל הנוגע לביצועו, לרבות בדבר הגשת דינים וחשבונות על הטיפול בחולים בבתי חולים ובמרפאות, קביעת טפסים ונוסחם ואופן הדיווח ופרטיו לפי <ref href="#point_38">סעיפים 38 עד 40</ref>.</p>
+          </content>
+        </point>
+        <point eId="point_47">
+          <heading>
+            <authorialNote placement="side">
+              <p>ביטול</p>
+            </authorialNote>
+          </heading>
+          <num>47.</num>
+          <content>
+            <p>חוק לטיפול בחולי נפש, התשט"ו–1955 – בטל.</p>
+          </content>
+        </point>
+        <point eId="point_48">
+          <heading>
+            <authorialNote placement="side">
+              <p xml:space="preserve"> </p>
+            </authorialNote>
+          </heading>
+          <num>48.</num>
+          <content>
+            <p>
+              <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryLegislation/1971-10-20/2002271">בפקודת בתי הסוהר [נוסח חדש], התשל"ב–1971</ref>.</wikicomment>
+            </p>
+          </content>
+        </point>
+        <point eId="point_49">
+          <heading>
+            <authorialNote placement="side">
+              <p>תחילה</p>
+            </authorialNote>
+          </heading>
+          <num>49.</num>
+          <content>
+            <p>תחילתו של חוק זה תשעים ימים מיום פרסומו.</p>
+          </content>
+        </point>
+        <point eId="point_50">
+          <heading>
+            <authorialNote placement="side">
+              <p>פרסום</p>
+            </authorialNote>
+          </heading>
+          <num>50.</num>
+          <content>
+            <p>חוק זה יפורסם תוך 30 ימים מיום קבלתו.</p>
+          </content>
+        </point>
+      </list>
+      <appendix eId="appendix">
+        <num></num>
+        <title>
+          <content>
+            <p>תוספת</p>
+          </content>
+        </title>
+        <subtitle eId="eId">
+          <num></num>
+          <content>
+            <p>
+              <wikicomment font-size="x-small">(<ref href="#point_15">סעיף 15(ד2)</ref>)</wikicomment>
+            </p>
+          </content>
+        </subtitle>
+        <subtitle eId="eId">
+          <num></num>
+          <content>
+            <p>צו אשפוז / צו לטיפול מרפאתי</p>
+          </content>
+        </subtitle>
+        <list>
+          <point eId="appendix__point_none">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num></num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">(הטופס הושמט).</wikicomment>
+              </p>
+            </content>
+          </point>
+        </list>
+      </appendix>
+    </body>
+    <conclusions eId="eId">
+      <p class="signatures">
+        <signature>
+          <p>
+            <person refersTo="יצחק_שמיר">יצחק שמיר</person>
+            <role refersTo="ראש_הממשלה">ראש הממשלה</role>
+          </p>
+        </signature>
+        <signature>
+          <p>
+            <person refersTo="אהוד_אולמרט">אהוד אולמרט</person>
+            <role refersTo="שר_הבריאות">שר הבריאות</role>
+          </p>
+        </signature>
+        <signature>
+          <p>
+            <person refersTo="חיים_הרצוג">חיים הרצוג</person>
+            <role refersTo="נשיא_המדינה">נשיא המדינה</role>
+          </p>
+        </signature>
+        <signature>
+          <p>
+            <person refersTo="דב_שילנסקי">דב שילנסקי</person>
+            <role refersTo="יושב_ראש_הכנסת">יושב ראש הכנסת</role>
+          </p>
+        </signature>
+      </p>
+    </conclusions>
+  </act>
+</akomaNtoso>

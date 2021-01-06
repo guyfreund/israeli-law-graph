@@ -1,0 +1,834 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion" name="publicLaw">
+    <meta>
+      <identification source="#kensset">
+        <FRBRWork>
+          <FRBRthis value="/akn/il/act/SecondaryLegislation/2004-09-29/100031797/main" />
+          <FRBRuri value="/akn/il/act/SecondaryLegislation/2004-09-29/100031797" />
+          <FRBRdate date="2004-09-29" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRcountry value="israel" />
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/il/act/SecondaryLegislation/2004-09-29/100031797/he@/main" />
+          <FRBRuri value="/akn/il/act/SecondaryLegislation/2004-09-29/100031797/he@" />
+          <FRBRdate date="2004-09-29" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRlanguage language="hebrew" />
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/il/act/SecondaryLegislation/2004-09-29/100031797/he@/main.xml" />
+          <FRBRuri value="/akn/il/act/SecondaryLegislation/2004-09-29/100031797/he@" />
+          <FRBRdate date="2004-09-29" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRformat value="xml" />
+        </FRBRManifestation>
+      </identification>
+      <classification source="#kensset">
+        <keyword value="{classificationValue}" showAs="{classificationValue}" dictionary="#classification_dictionary" />
+      </classification>
+      <lifecycle source="#kensset">
+        <eventRef eId="eventRef_1" date="2004-09-29" source="#kensset" type="generation" />
+      </lifecycle>
+      <references source="#kensset">
+        <TLCOrganization eId="kensset" href="/ontology/organization/akn/knesset" showAs="Kensset" type="generation" />
+        <TLCRole eId="author" href="/ontology/role/akn/author" showAs="Author of Document" />
+        <TLCProcess eId="inforce" href="/ontology/process/akn/inforce" showAs="In force" />
+        <TLCTerm eId="term_1" href="/ontology/term/אזורי_נסיעה/100031797" showAs="אזורי_נסיעה" />
+        <TLCTerm eId="term_2" href="/ontology/term/אזרח_ותיק/100031797" showAs="אזרח_ותיק" />
+        <TLCTerm eId="term_3" href="/ontology/term/אמצעי_תשלום_מתקדם/100031797" showAs="אמצעי_תשלום_מתקדם" />
+        <TLCTerm eId="term_4" href="/ontology/term/חודש/100031797" showAs="חודש" />
+        <TLCTerm eId="term_5" href="/ontology/term/המנהל/100031797" showAs="המנהל" />
+        <TLCTerm eId="term_6" href="/ontology/term/השר/100031797" showAs="השר" />
+        <TLCTerm eId="term_7" href="/ontology/term/יום/100031797" showAs="יום" />
+        <TLCTerm eId="term_8" href="/ontology/term/יישומון_סלולרי/100031797" showAs="יישומון_סלולרי" />
+        <TLCTerm eId="term_9" href="/ontology/term/כרטיס/100031797" showAs="כרטיס" />
+        <TLCTerm eId="term_10" href="/ontology/term/כרטיס_תקופתי/100031797" showAs="כרטיס_תקופתי" />
+        <TLCTerm eId="term_11" href="/ontology/term/כרטיס_תקופתי_יומי/100031797" showAs="כרטיס_תקופתי_יומי" />
+        <TLCTerm eId="term_12" href="/ontology/term/כרטיס_תקופתי_חודשי־פרברי/100031797" showAs="כרטיס_תקופתי_חודשי־פרברי" />
+        <TLCTerm eId="term_13" href="/ontology/term/כרטיס_תקופתי_חודשי־בין_עירוני/100031797" showAs="כרטיס_תקופתי_חודשי־בין_עירוני" />
+        <TLCTerm eId="term_14" href="/ontology/term/כרטיס_תקופתי_ל־30_ימים/100031797" showAs="כרטיס_תקופתי_ל־30_ימים" />
+        <TLCTerm eId="term_15" href="/ontology/term/כרטיס_תקופתי_סמסטריאלי/100031797" showAs="כרטיס_תקופתי_סמסטריאלי" />
+        <TLCTerm eId="term_16" href="/ontology/term/כרטיס_תקופתי_לשבעה_ימים/100031797" showAs="כרטיס_תקופתי_לשבעה_ימים" />
+        <TLCTerm eId="term_17" href="/ontology/term/כרטיס_תקופתי_שנתי_לסטודנט/100031797" showAs="כרטיס_תקופתי_שנתי_לסטודנט" />
+        <TLCTerm eId="term_18" href="/ontology/term/לוח_זמנים/100031797" showAs="לוח_זמנים" />
+        <TLCTerm eId="term_19" href="/ontology/term/הלמ''ס/100031797" showAs="הלמ''ס" />
+        <TLCTerm eId="term_20" href="/ontology/term/מרחק_נסיעה/100031797" showAs="מרחק_נסיעה" />
+        <TLCTerm eId="term_21" href="/ontology/term/סטודנט/100031797" showAs="סטודנט" />
+        <TLCTerm eId="term_22" href="/ontology/term/ערך_צבור/100031797" showAs="ערך_צבור" />
+        <TLCTerm eId="term_23" href="/ontology/term/צו_דמי_נסיעה_ברכבת/100031797" showAs="צו_דמי_נסיעה_ברכבת" />
+        <TLCTerm eId="term_24" href="/ontology/term/צו_מחירי_נסיעה_באוטובוסים_וברכבת_מקומית/100031797" showAs="צו_מחירי_נסיעה_באוטובוסים_וברכבת_מקומית" />
+        <TLCTerm eId="term_25" href="/ontology/term/קוד/100031797" showAs="קוד" />
+        <TLCTerm eId="term_26" href="/ontology/term/קו/100031797" showAs="קו" />
+        <TLCTerm eId="term_27" href="/ontology/term/קו_עירוני/100031797" showAs="קו_עירוני" />
+        <TLCTerm eId="term_28" href="/ontology/term/קו_פרברי/100031797" showAs="קו_פרברי" />
+        <TLCTerm eId="term_29" href="/ontology/term/קווים_בין־עירוניים/100031797" showAs="קווים_בין־עירוניים" />
+        <TLCTerm eId="term_30" href="/ontology/term/קופה/100031797" showAs="קופה" />
+        <TLCTerm eId="term_31" href="/ontology/term/רכבת/100031797" showAs="רכבת" />
+        <TLCTerm eId="term_32" href="/ontology/term/רכבת_ישירה/100031797" showAs="רכבת_ישירה" />
+        <TLCTerm eId="term_33" href="/ontology/term/רכבת_מקומית/100031797" showAs="רכבת_מקומית" />
+        <TLCTerm eId="term_34" href="/ontology/term/שירות_מקום_שמור/100031797" showAs="שירות_מקום_שמור" />
+        <TLCTerm eId="term_35" href="/ontology/term/תחנות_באר־שבע/100031797" showAs="תחנות_באר־שבע" />
+        <TLCTerm eId="term_36" href="/ontology/term/תחנות_ביניים/100031797" showAs="תחנות_ביניים" />
+        <TLCTerm eId="term_37" href="/ontology/term/תחנות_בת_ים/100031797" showAs="תחנות_בת_ים" />
+        <TLCTerm eId="term_38" href="/ontology/term/תחנות_חולון/100031797" showAs="תחנות_חולון" />
+        <TLCTerm eId="term_39" href="/ontology/term/תחנות_כפר_סבא/100031797" showAs="תחנות_כפר_סבא" />
+        <TLCTerm eId="term_40" href="/ontology/term/תחנות_לוד_רמלה/100031797" showAs="תחנות_לוד_רמלה" />
+        <TLCTerm eId="term_41" href="/ontology/term/תחנות_מודיעין/100031797" showAs="תחנות_מודיעין" />
+        <TLCTerm eId="term_42" href="/ontology/term/תחנות_נתניה/100031797" showAs="תחנות_נתניה" />
+        <TLCTerm eId="term_43" href="/ontology/term/תחנות_פתח_תקוה/100031797" showAs="תחנות_פתח_תקוה" />
+        <TLCTerm eId="term_44" href="/ontology/term/תחנות_חיפה/100031797" showAs="תחנות_חיפה" />
+        <TLCTerm eId="term_45" href="/ontology/term/תחנות_ירושלים/100031797" showAs="תחנות_ירושלים" />
+        <TLCTerm eId="term_46" href="/ontology/term/תחנות_קריות/100031797" showAs="תחנות_קריות" />
+        <TLCTerm eId="term_47" href="/ontology/term/תחנות_רעננה/100031797" showAs="תחנות_רעננה" />
+        <TLCTerm eId="term_48" href="/ontology/term/תחנות_תל־אביב/100031797" showAs="תחנות_תל־אביב" />
+        <TLCTerm eId="term_49" href="/ontology/term/תיקוף_באמצעי_תשלום_מתקדם/100031797" showAs="תיקוף_באמצעי_תשלום_מתקדם" />
+        <TLCTerm eId="term_50" href="/ontology/term/תקרת_סכום_מדרגות_ההנחה_בחיוב_חודשי/100031797" showAs="תקרת_סכום_מדרגות_ההנחה_בחיוב_חודשי" />
+        <TLCTerm eId="term_51" href="/ontology/term/תקרת_חיוב_יומית/100031797" showAs="תקרת_חיוב_יומית" />
+        <TLCTerm eId="term_52" href="/ontology/term/המדד/100031797" showAs="המדד" />
+        <TLCTerm eId="term_53" href="/ontology/term/המדד_החדש/100031797" showAs="המדד_החדש" />
+        <TLCTerm eId="term_54" href="/ontology/term/המדד_היסודי/100031797" showAs="המדד_היסודי" />
+        <TLCPerson eId="מאיר_שטרית" href="/ontology/person/מאיר_שטרית" showAs="מאיר שטרית" />
+        <TLCRole eId="שר_התחבורה" href="ontology/role/akn/שר_התחבורה" showAs="שר התחבורה" />
+      </references>
+      <temporalData source="#kensset">
+        <temporalGroup eId="tmpg_1" />
+      </temporalData>
+      <Publication></Publication>
+      <proprietary wikiversion="11/15/2020 6:03:48 PM" />
+    </meta>
+    <body period="#tmpg_1">
+      <title eId="title">
+        <content>
+          <p>תקנות מסילות הברזל (דמי נסיעה), התשס"ה–2004</p>
+        </content>
+      </title>
+      <preamble eId="eId">
+        <p>בתוקף סמכותי לפי <ref href="/akn/il/act/PrimaryLegislation/1972-03-23/2002290#point_56">סעיפים 56</ref><ref href="/akn/il/act/PrimaryLegislation/1972-03-23/2002290#point_57">ו־57</ref><ref href="/akn/il/act/PrimaryLegislation/1972-03-23/2002290">לפקודת מסילות הברזל [נוסח חדש], התשל"ב–1972</ref> (להלן – הפקודה), לפי הצעת חברת רכבת ישראל בע"מ (להלן – רכבת ישראל), אני מתקין תקנות אלה:</p>
+      </preamble>
+      <list>
+        <point eId="point_1">
+          <heading>
+            <authorialNote placement="side">
+              <p>הגדרות</p>
+            </authorialNote>
+          </heading>
+          <num>1.</num>
+          <list>
+            <intro>
+              <p>בתקנות אלה –</p>
+            </intro>
+            <point eId="point_1__point_אזורי_נסיעה">
+              <list>
+                <intro>
+                  <p>
+                    <def />”אזורי נסיעה“ – כל אחד מאזורים אלה כהגדרתם <ref href="/akn/il/act/SecondaryLegislation/2019-11-24/100043478">בצו מחירי נסיעה באוטובוסים וברכבת מקומית</ref> וכן אזורים נוספים שהוגדרו <ref href="/akn/il/act/SecondaryLegislation/2019-11-24/100043478">בצו האמור</ref> ושבהם אין תחנות רכבת:</p>
+                </intro>
+                <point eId="point_1__point_אזורי_נסיעה__point_1">
+                  <num>(1)</num>
+                  <list>
+                    <intro>
+                      <p>”אזור ארצי“ – כל אחד מאלה:</p>
+                    </intro>
+                    <point eId="point_1__point_אזורי_נסיעה__point_1__point_א">
+                      <num>(א)</num>
+                      <content>
+                        <p>אזור 601 ובו תחנת עפולה;</p>
+                      </content>
+                    </point>
+                    <point eId="point_1__point_אזורי_נסיעה__point_1__point_ב">
+                      <num>(ב)</num>
+                      <content>
+                        <p>אזור 602 ובו תחנת בית שאן;</p>
+                      </content>
+                    </point>
+                    <point eId="point_1__point_אזורי_נסיעה__point_1__point_ג">
+                      <num>(ג)</num>
+                      <content>
+                        <p>אזור 702 ובו תחנות בנימינה, קיסריה, פרדס חנה וחדרה מערב;</p>
+                      </content>
+                    </point>
+                    <point eId="point_1__point_אזורי_נסיעה__point_1__point_ד">
+                      <num>(ד)</num>
+                      <content>
+                        <p>אזור 801 ובו תחנת אשקלון ותחנת קריית מלאכי–יואב;</p>
+                      </content>
+                    </point>
+                    <point eId="point_1__point_אזורי_נסיעה__point_1__point_ה">
+                      <num>(ה)</num>
+                      <content>
+                        <p>אזור 802 ובו תחנת קריית גת;</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+                <point eId="point_1__point_אזורי_נסיעה__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>”מטרופולין באר שבע“ – אזור 410 ובו תחנות באר שבע, אזור 421 ובו תחנת להבים–רהט, אזור 422 ובו תחנת אופקים, אזור 431 ובו תחנות שדרות ונתיבות ואזור 433 ובו תחנת דימונה;</p>
+                  </content>
+                </point>
+                <point eId="point_1__point_אזורי_נסיעה__point_3">
+                  <num>(3)</num>
+                  <content>
+                    <p>”מטרופולין גוש דן“ – אזור 210 ובו תחנות פתח תקווה, בני ברק, תל אביב, חולון, בת ים, ראשון לציון, לוד רמלה, באר יעקב וכפר חב"ד, אזור 221 ובו תחנות הרצליה, הוד השרון, כפר סבא ורעננה, אזור 222 ובו תחנות ראש העין־צפון ונתב"ג, אזור 223 ובו תחנות יבנה מערב, יבנה מזרח, ורחובות, אזור 231 ובו תחנות נתניה ובית יהושוע, אזור 232 ובו תחנות מודיעין, אזור 233 ובו תחנות אשדוד עד הלום ומזכרת בתיה;</p>
+                  </content>
+                </point>
+                <point eId="point_1__point_אזורי_נסיעה__point_4">
+                  <num>(4)</num>
+                  <content>
+                    <p>”מטרופולין חיפה“ – אזור 310 ובו תחנות קריות, חיפה, חוצות המפרץ ולב המפרץ, אזור 321 ובו תחנת עכו ותחנת אחיהוד, אזור 322 ובו תחנת עתלית ותחנת כפר יהושע, אזור 331 ובו תחנת נהריה, אזור 333 ובו תחנת כפר ברוך–מגדל העמק, אזור 332 ובו תחנת כרמיאל;</p>
+                  </content>
+                </point>
+                <point eId="point_1__point_אזורי_נסיעה__point_5">
+                  <num>(5)</num>
+                  <content>
+                    <p>”מטרופולין ירושלים“ – אזור 110 – ובו תחנות ירושלים, למעט זכות נסיעה ברכבת בין תחנות ירושלים לבין תחנת ירושלים–יצחק נבון, אזור 131 ובו תחנת בית שמש, אזור 232 ובו תחנת מודיעין;</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_1__point_אזרח_ותיק">
+              <content>
+                <p>
+                  <def />”אזרח ותיק“ – <wikicomment font-size="x-small">(נמחקה);</wikicomment></p>
+              </content>
+            </point>
+            <point eId="point_1__point_אמצעי_תשלום_מתקדם">
+              <content>
+                <p>
+                  <def />”אמצעי תשלום מתקדם“ – <wikicomment font-size="x-small">(החל מיום 1.2.2021):</wikicomment> יישום אלקטרוני, למעט כרטיס ”רב קו“, אשר מאפשר לאוחז בו לתקף את נסיעתו באמצעי התחבורה הציבורית השונים ולשלם בעדה באופן מאובטח, ובכלל זה ביישומון סלולרי או באמצעי סלולרי אחר, באמצעי דיגיטלי או בטכנולוגיה אחרת";</p>
+              </content>
+            </point>
+            <point eId="point_1__point_חודש">
+              <content>
+                <p>
+                  <def />”חודש“, לעניין חיוב תשלום באמצעי תשלום מתקדם – <wikicomment font-size="x-small">(החל מיום 1.2.2021):</wikicomment> תקופה שמיום 25 בחודש עד יום 24 בחודש העוקב;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_המנהל">
+              <content>
+                <p>
+                  <def />”המנהל“ – המנהל הכללי של חברת הרכבת;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_השר">
+              <content>
+                <p>
+                  <def />”השר“ – שר התחבורה;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_יום">
+              <content>
+                <p>
+                  <def />”יום“, לעניין חיוב תשלום באמצעי תשלום מתקדם – <wikicomment font-size="x-small">(החל מיום 1.2.2021):</wikicomment> פרק הזמן משעה 00:00:01 עד שעה 23:59:59;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_יישומון_סלולרי">
+              <content>
+                <p>
+                  <def />”יישומון סלולרי“ – <wikicomment font-size="x-small">(החל מיום 1.2.2021):</wikicomment> יישומון שמותקן בטלפון סלולרי חכם, ובכלל זה יישומון המאפשר גישה לחשבון של יוזם התשלום;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_כרטיס">
+              <content>
+                <p>
+                  <def />”כרטיס“ – כרטיס לנסיעה ברכבת או לנסיעה משולבת ברכבת, באוטובוסים וברכבת מקומית, כרטיס תקופתי, כרטיסייה, ערך צבור והיתר לנסיעה שניתן מאת המנהל;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_כרטיס_תקופתי">
+              <content>
+                <p>
+                  <def />”כרטיס תקופתי“ – כרטיס לביצוע מספר בלתי מוגבל של נסיעות ובתקופה הנקובים בו, שצוינו בו שם הנוסע ומספר תעודת הזהות שלו או תעודה מזהה אחרת הנושאת תמונה להנחת דעתו של המנהל;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_כרטיס_תקופתי_יומי">
+              <content>
+                <p>
+                  <def />”כרטיס תקופתי יומי“ – כרטיס תקופתי המיועד לנסיעה בין התחנות או אזורי הנסיעה הנקובים בו, שתוקפו ליום הנקוב בו, ועד השעה 4:30 בבוקר ביום שלמחרת;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_כרטיס_תקופתי_חודשי־פרברי">
+              <content>
+                <p>
+                  <def />”כרטיס תקופתי חודשי־פרברי“ – <wikicomment font-size="x-small">(נמחקה);</wikicomment></p>
+              </content>
+            </point>
+            <point eId="point_1__point_כרטיס_תקופתי_חודשי־בין_עירוני">
+              <content>
+                <p>
+                  <def />”כרטיס תקופתי חודשי־בין עירוני“ – <wikicomment font-size="x-small">(נמחקה);</wikicomment></p>
+              </content>
+            </point>
+            <point eId="point_1__point_כרטיס_תקופתי_ל־30_ימים">
+              <content>
+                <p>
+                  <def />”כרטיס תקופתי ל־30 ימים“ – כרטיס תקופתי המיועד לנסיעה בין התחנות או אזורי הנסיעה הנקובים בו, שתוקפו למשך 30 ימים רצופים בתאריכים הנקובים בו;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_כרטיס_תקופתי_סמסטריאלי">
+              <content>
+                <p>
+                  <def />”כרטיס תקופתי סמסטריאלי“ – כרטיס תקופתי לסטודנט לסמסטר א׳ בין ה־15 באוקטובר ועד ה־1 במרס של השנה העוקבת או לסמסטר ב׳ בין ה־22 בפברואר ועד ה־31 ביולי לנסיעה משולבת ברכבת, באוטובוס וברכבת מקומית או לנסיעה באוטובוס וברכבת מקומית בלבד;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_כרטיס_תקופתי_לשבעה_ימים">
+              <content>
+                <p>
+                  <def />”כרטיס תקופתי לשבעה ימים“ – כרטיס תקופתי המיועד לנסיעה בין התחנות או אזורי נסיעה הנקובים בו, שתוקפו ל־7 ימים רצופים בתאריכים הנקובים בו ועד ל־4:30 בבוקר של היום שלמחרת היום השביעי;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_כרטיס_תקופתי_שנתי_לסטודנט">
+              <content>
+                <p>
+                  <def />”כרטיס תקופתי שנתי לסטודנט“ – כרטיס תקופתי לסטודנט ל־12 חודשים רצופים בין ה־15 באוקטובר ועד ה־15 באוקטובר בשנה העוקבת לנסיעה משולבת ברכבת, באוטובוס וברכבת מקומית או לנסיעה באוטובוס וברכבת מקומית בלבד;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_לוח_זמנים">
+              <content>
+                <p>
+                  <def />”לוח זמנים“ – לוח זמנים לנסיעה ברכבת בכל אחד מהקווים שמפרסם המנהל, כפי שהוא בתוקף מזמן לזמן;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_הלמס">
+              <content>
+                <p>
+                  <def />”הלמ"ס“ – <wikicomment font-size="x-small">(החל מיום 1.2.2021):</wikicomment> ”הלשכה“ כהגדרתה <ref href="/akn/il/act/PrimaryLegislation/1972-04-09/2002281">בפקודת הסטטיסטיקה [נוסח חדש], התשל"ב–1972</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_מרחק_נסיעה">
+              <content>
+                <p>
+                  <def />”מרחק נסיעה“ – <wikicomment font-size="x-small">(החל מיום 1.2.2021):</wikicomment> מדרגת טווח מרחק אווירי בקילומטרים מנקודת המוצא אל נקודת היעד כמפורט <ref href="/akn/il/act/SecondaryLegislation/2008-01-31/100033933#appendix_פרט_6">בפרט 6 לתוספת לצו דמי נסיעה ברכבת</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_סטודנט">
+              <content>
+                <p>
+                  <def />”סטודנט“ – כהגדרתו <ref href="/akn/il/act/PrimaryLegislation/2007-06-07/142524">בחוק זכויות הסטודנט, התשס"ז–2007</ref>, אשר לו תעודת סטודנט כמשמעה <ref href="/akn/il/act/PrimaryLegislation/2007-06-07/142524">בחוק האמור</ref>, לרבות תלמיד סיעוד כהגדרתו <ref href="/akn/il/act/SecondaryLegislation/1988-12-08/100020703">בתקנות בריאות העם (עוסקים בסיעוד בבתי חולים), התשמ"ט–1988</ref> או תלמיד במוסד להכשרת הנדסאים וטכנאים שבפיקוח משרד החינוך, אשר לו תעודה המעידה על כך שתשמש לזיהויו, ועליה שמו, שם בית הספר ותוקפה;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_ערך_צבור">
+              <content>
+                <p>
+                  <def />”ערך צבור“ – סכום כספי הנטען בכרטיס והמקנה זכויות לנסיעה ברכבת לפי דמי הנסיעה הקבועים בצו דמי נסיעה ברכבת;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_צו_דמי_נסיעה_ברכבת">
+              <content>
+                <p>
+                  <def />”צו דמי נסיעה ברכבת“ – <ref href="/akn/il/act/SecondaryLegislation/2008-01-31/100033933">צו פיקוח על מחירי מצרכים ושירותים (דמי נסיעה ברכבת), התשס"ח–2008</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_צו_מחירי_נסיעה_באוטובוסים_וברכבת_מקומית">
+              <content>
+                <p>
+                  <def />”צו מחירי נסיעה באוטובוסים וברכבת מקומית“ – <ref href="/akn/il/act/SecondaryLegislation/2019-11-24/100043478">צו פיקוח על מחירי מצרכים ושירותים (מחירי נסיעה בקווי השירות באוטובוסים ומחירי נסיעה ברכבת מקומית), התשס"ג–2003</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_קוד">
+              <content>
+                <p>
+                  <def />”קוד“ – סימול מחיר כמפורט <ref href="/akn/il/act/SecondaryLegislation/2008-01-31/100033933#appendix">בתוספת לצו דמי נסיעה ברכבת</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_קו">
+              <content>
+                <p>
+                  <def />”קו“ – קו נסיעה בין תחנת יציאה לבין תחנת יעד;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_קו_עירוני">
+              <content>
+                <p>
+                  <def />”קו עירוני“ – <wikicomment font-size="x-small">(נמחקה);</wikicomment></p>
+              </content>
+            </point>
+            <point eId="point_1__point_קו_פרברי">
+              <content>
+                <p>
+                  <def />”קו פרברי“ – <wikicomment font-size="x-small">(נמחקה);</wikicomment></p>
+              </content>
+            </point>
+            <point eId="point_1__point_קווים_בין־עירוניים">
+              <content>
+                <p>
+                  <def />”קווים בין־עירוניים“ – <wikicomment font-size="x-small">(נמחקה);</wikicomment></p>
+              </content>
+            </point>
+            <point eId="point_1__point_קופה">
+              <content>
+                <p>
+                  <def />”קופה“ – לרבות מכונה אוטומטית להנפקת כרטיסים, תמורת תשלום דמי נסיעה;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_רכבת">
+              <content>
+                <p>
+                  <def />”רכבת“ – כהגדרתה <ref href="/akn/il/act/PrimaryLegislation/1972-03-23/2002290">בפקודה</ref> למעט רכבת מקומית כהגדרתה <ref href="/akn/il/act/PrimaryLegislation/1972-03-23/2002290#point_6">בסעיף 6 לפקודה</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_רכבת_ישירה">
+              <content>
+                <p>
+                  <def />”רכבת ישירה“ – <wikicomment font-size="x-small">(נמחקה);</wikicomment></p>
+              </content>
+            </point>
+            <point eId="point_1__point_רכבת_מקומית">
+              <content>
+                <p>
+                  <def />”רכבת מקומית“ – כהגדרתה <ref href="/akn/il/act/SecondaryLegislation/2019-11-24/100043478">בצו מחירי נסיעה באוטובוסים וברכבת מקומית</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_שירות_מקום_שמור">
+              <content>
+                <p>
+                  <def />”שירות מקום שמור“ – הקצאה של מקום ישיבה מסומן בקרון של רכבת, תמורת תשלום כאמור <ref href="#point_4">בתקנה 4</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_תחנות_באר־שבע">
+              <content>
+                <p>
+                  <def />”תחנות באר־שבע“ – כל אחת מאלה: תחנת באר־שבע מרכז ותחנת באר־שבע צפון;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_תחנות_ביניים">
+              <content>
+                <p>
+                  <def />”תחנות ביניים“ – כל תחנה שבין תחנת המוצא לתחנת היעד;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_תחנות_בת_ים">
+              <content>
+                <p>
+                  <def />”תחנות בת ים“ – כל אחת מאלה: תחנת יוספטל ותחנת קוממיות;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_תחנות_חולון">
+              <content>
+                <p>
+                  <def />”תחנות חולון“ – כל אחת מאלה: תחנת צומת חולון ותחנת וולפסון;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_תחנות_כפר_סבא">
+              <content>
+                <p>
+                  <def />”תחנות כפר סבא“ – כל אחת מאלה: תחנת נורדאו ותחנת סוקולוב;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_תחנות_לוד_רמלה">
+              <content>
+                <p>
+                  <def />”תחנות לוד רמלה“ – כל אחת מאלה: תחנת לוד, תחנת גני אביב ותחנת רמלה;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_תחנות_מודיעין">
+              <content>
+                <p>
+                  <def />”תחנות מודיעין“ – כל אחת מאלה: תחנת מודיעין מרכז ותחנת פאתי מודיעין;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_תחנות_נתניה">
+              <content>
+                <p>
+                  <def />”תחנות נתניה“ – כל אחת מאלה: תחנת נתניה ותחנת ספיר;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_תחנות_פתח_תקוה">
+              <content>
+                <p>
+                  <def />”תחנות פתח תקוה“ – כל אחת מאלה: תחנת סגולה ותחנת קרית אריה;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_תחנות_חיפה">
+              <content>
+                <p>
+                  <def />”תחנות חיפה“ – כל אחת מאלה: תחנת חוף הכרמל, תחנת בת גלים ותחנת חיפה מרכז;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_תחנות_ירושלים">
+              <content>
+                <p>
+                  <def />”תחנות ירושלים“ – כל אחת מאלה: תחנת ירושלים–מלחה, תחנת ירושלים–גן החיות, תחנת ירושלים–יצחק נבון;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_תחנות_קריות">
+              <content>
+                <p>
+                  <def />”תחנות קריות“ – כל אחת מאלה: תחנת קרית מוצקין, תחנת קרית חיים;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_תחנות_רעננה">
+              <content>
+                <p>
+                  <def />”תחנות רעננה“ – כל אחת מאלה: תחנת רעננה דרום ותחנת רעננה מערב;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_תחנות_תל־אביב">
+              <content>
+                <p>
+                  <def />”תחנות תל־אביב“ – כל אחת מאלה: תחנת האוניברסיטה, תחנת תל־אביב מרכז, תחנת השלום ותחנת ההגנה;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_תיקוף_באמצעי_תשלום_מתקדם">
+              <content>
+                <p>
+                  <def />”תיקוף באמצעי תשלום מתקדם“ – <wikicomment font-size="x-small">(החל מיום 1.2.2021):</wikicomment> תיאום בין אמצעי התשלום המתקדם, להתקן שמותקן או שקשור באמצעי התחבורה הציבורית השונים לשם אישור הנסיעה והתשלום בעדה ובכלל זה סריקה של ההתקן, ולעניין יישומון סלולרי – תיאום כאמור וכן סימון יעד הנסיעה ביישומון;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_תקרת_סכום_מדרגות_ההנחה_בחיוב_חודשי">
+              <content>
+                <p>
+                  <def />”תקרת סכום מדרגות ההנחה בחיוב חודשי“ – <wikicomment font-size="x-small">(החל מיום 1.2.2021):</wikicomment> גובה התשלום בעד כל הנסיעות שביצע נוסע באותו חודש וששילם בעדן באמצעי תשלום מתקדם, אשר תיקבע לפי תקרת מדרגות ההנחה לסכום החיובים היומיים באותו חודש כמפורט <ref href="/akn/il/act/SecondaryLegislation/2008-01-31/100033933#appendix_פרט_7">בפרט 7 לתוספת לצו דמי נסיעה ברכבת</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_תקרת_חיוב_יומית">
+              <content>
+                <p>
+                  <def />”תקרת חיוב יומית“ – <wikicomment font-size="x-small">(החל מיום 1.2.2021):</wikicomment> מגבלת גובה התשלום בעד כל הנסיעות שביצע נוסע באותו יום וששילם בעדן באמצעי תשלום מתקדם, אשר תיקבע לפי מדרגת מרחק הנסיעה הבודדת הרב ביותר של הנוסע באותו יום כמפורט <ref href="/akn/il/act/SecondaryLegislation/2008-01-31/100033933#appendix_פרט_6">בפרט 6 לתוספת לצו דמי נסיעה ברכבת</ref>.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_2">
+          <heading>
+            <authorialNote placement="side">
+              <p>דמי נסיעה ברכבת</p>
+            </authorialNote>
+          </heading>
+          <num>2.</num>
+          <list>
+            <point eId="point_2__point_א">
+              <num>(א)</num>
+              <content>
+                <p>דמי הנסיעה ברכבת ישולמו לפי תחנות יציאה ויעד או לפי אזורי הנסיעה הנקובים בכרטיס כמפורט <ref href="/akn/il/act/SecondaryLegislation/2008-01-31/100033933#appendix">בתוספת לצו דמי נסיעה ברכבת</ref>; כרטיס מקנה זכות נסיעה באזורי הנסיעה הנקובים בו או מתחנת היציאה אל תחנת היעד הנקובות בו, לא כולל ירידה בתחנת ביניים – אם דמי הנסיעה מתחנת המוצא אל אותה תחנת ביניים גבוהים יותר מדמי הנסיעה בעד הכרטיס שנרכש.</p>
+              </content>
+            </point>
+            <point eId="point_2__point_ב">
+              <num>(ב)</num>
+              <list>
+                <intro>
+                  <p>על אף האמור בתקנת משנה (א) –</p>
+                </intro>
+                <point eId="point_2__point_ב__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>בעד נסיעה בין תחנות באר שבע, תחנות בת ים, תחנות חולון, תחנות חיפה, תחנות כפר סבא, תחנות לוד רמלה, תחנות מודיעין, תחנות פתח תקווה, תחנות קריות ותחנות תל אביב ישולם תעריף על פי <ref href="/akn/il/act/SecondaryLegislation/2008-01-31/100033933#appendix_פרט_1א">פרט 1א בתוספת לצו דמי נסיעה ברכבת</ref>;</p>
+                  </content>
+                </point>
+                <point eId="point_2__point_ב__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>בעד נסיעה בין שתי תחנות או יותר, שדמי הנסיעה בעדה לא פורטו <ref href="/akn/il/act/SecondaryLegislation/2008-01-31/100033933#appendix">בתוספת לצו דמי נסיעה ברכבת</ref> – ישולמו דמי נסיעה לפי התחנה הקרובה כפי שמפורט <ref href="/akn/il/act/SecondaryLegislation/2008-01-31/100033933#appendix">בתוספת לצו דמי נסיעה ברכבת</ref>;</p>
+                  </content>
+                </point>
+                <point eId="point_2__point_ב__point_3">
+                  <num>(3)</num>
+                  <content>
+                    <p>
+                      <wikicomment font-size="x-small">(נמחקה).</wikicomment>
+                    </p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_2__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>
+                  <wikicomment font-size="x-small">(נמחקה).</wikicomment>
+                </p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_3">
+          <heading>
+            <authorialNote placement="side">
+              <p xml:space="preserve"> </p>
+            </authorialNote>
+          </heading>
+          <num>3.</num>
+          <content>
+            <p>
+              <wikicomment font-size="x-small">(נמחקה).</wikicomment>
+            </p>
+          </content>
+        </point>
+        <point eId="point_4">
+          <heading>
+            <authorialNote placement="side">
+              <p>תוספת שירות מקום שמור</p>
+            </authorialNote>
+          </heading>
+          <num>4.</num>
+          <content>
+            <p>בעד שירות מקום שמור ישולמו, נוסף על דמי הנסיעה לפי תקנות אלה, 5 שקלים חדשים.</p>
+          </content>
+        </point>
+        <point eId="point_5">
+          <heading>
+            <authorialNote placement="side">
+              <p>תוספת לרכישה של כרטיס ברכבת</p>
+            </authorialNote>
+          </heading>
+          <num>5.</num>
+          <list>
+            <point eId="point_5__point_א">
+              <num>(א)</num>
+              <content>
+                <p>נוסע שאין בידו כרטיס, ישלם לפקיד רכבת את דמי הנסיעה לפי תקנות אלה, בתוספת כפל דמי הנסיעה, ובלבד שהתוספת לא תעלה על הקבוע <ref href="/akn/il/act/PrimaryLegislation/1972-03-23/2002290#point_17">בסעיף 17(א) לפקודה</ref>.</p>
+              </content>
+            </point>
+            <point eId="point_5__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>לא ניתן היה לרכוש כרטיס בקופת התחנה שבה עלה הנוסע לרכבת, לא תחול עליו התוספת לפי תקנת משנה (א).</p>
+              </content>
+            </point>
+            <point eId="point_5__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>היה לפקיד רכבת ספק בדבר התחנה שבה עלה לרכבת נוסע שאין בידו כרטיס, יהיו דמי הנסיעה שישלם כאמור בתקנת משנה (א), סכום דמי הנסיעה מתחנת היציאה של אותה רכבת.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_6">
+          <heading>
+            <authorialNote placement="side">
+              <p>עדכון דמי נסיעה</p>
+            </authorialNote>
+          </heading>
+          <num>6.</num>
+          <list>
+            <point eId="point_6__point_א">
+              <num>(א)</num>
+              <content>
+                <p>דמי הנסיעה לפי <ref href="#point_2">תקנה 2</ref> והתוספת לדמי הנסיעה לפי <ref href="#point_4">תקנה 4</ref> ישתנו ב־1 בפברואר של כל שנה (להלן – יום העדכון) לפי שיעור שינוי המדד שפורסם בחודש נובמבר שקדם ליום העדכון לעומת המדד שפורסם בחודש נובמבר שקדם ליום העדכון הקודם, ובלבד ששיעור שינוי המדד כאמור הוא במצטבר 3% לפחות מיום העדכון האחרון בפועל.</p>
+              </content>
+            </point>
+            <point eId="point_6__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>סכום שעודכן כאמור בתקנת משנה (א) ומסתיים בשבר של שקל חדש, יעוגל לסכום הקרוב שהוא מכפלה של חצי שקל חדש.</p>
+              </content>
+            </point>
+            <point eId="point_6__point_ג">
+              <num>(ג)</num>
+              <list>
+                <intro>
+                  <p>בתקנה זו –</p>
+                </intro>
+                <point eId="point_6__point_ג__point_המדד">
+                  <content>
+                    <p>
+                      <def />”המדד“ – מדד המחירים לצרכן שמפרסמת הלשכה המרכזית לסטטיסטיקה;</p>
+                  </content>
+                </point>
+                <point eId="point_6__point_ג__point_המדד_החדש">
+                  <content>
+                    <p>
+                      <def />”המדד החדש“ – <wikicomment font-size="x-small">(נמחקה);</wikicomment></p>
+                  </content>
+                </point>
+                <point eId="point_6__point_ג__point_המדד_היסודי">
+                  <content>
+                    <p>
+                      <def />”המדד היסודי“ – <wikicomment font-size="x-small">(נמחקה).</wikicomment></p>
+                  </content>
+                </point>
+              </list>
+            </point>
+          </list>
+        </point>
+        <point eId="point_6">
+          <heading>
+            <authorialNote placement="side">
+              <p>עדכון דמי נסיעה</p>
+            </authorialNote>
+          </heading>
+          <num>6.</num>
+          <list>
+            <point eId="point_6__point_א">
+              <num>(א)</num>
+              <content>
+                <p>
+                  <wikicomment font-size="x-small">(החל מיום 1.2.2021):</wikicomment>
+                  <br space="preserve"></br> דמי הנסיעה לפי <ref href="#point_2">תקנה 2</ref>, התוספת לדמי הנסיעה לפי <ref href="#point_4">תקנה 4</ref>, תקרת החיוב היומית לפי <ref href="/akn/il/act/SecondaryLegislation/2008-01-31/100033933#appendix_פרט_5">פרט 5 לתוספת לצו דמי נסיעה ברכבת</ref> ותקרת סכום הנחה לפי <ref href="/akn/il/act/SecondaryLegislation/2008-01-31/100033933#appendix_פרט_6">פרט 6 לתוספת בצו האמור</ref>, יעודכנו ב־1 בפברואר (להלן – יום העדכון) של כל שנה, לפי שיעור השינוי בין נתוני העדכון שבטור ה׳ לבין נתוני הבסיס שבטור ד׳ לצדם, של כל רכיב כמפורט בטור א׳ לפי מדד הלמ"ס שבטור ב׳ ובהתאם למשקלו בסל התשומות שבטור ג׳, והכול כמפורט בטבלת הסל שלהלן:<br space="preserve"></br><table><tr><th><span style="font-size: smaller; display:block; display:block; display:block; display:block">טור א׳</span><br space="preserve"></br> רכיב</th><th><span style="font-size: smaller; display:block; display:block; display:block; display:block">טור ב׳</span><br space="preserve"></br> מדד הלמ"ס</th><th><span style="font-size: smaller; display:block; display:block; display:block">טור ג׳</span><br space="preserve"></br> משקל הסל בתקופת הבסיס – נובמבר 2019</th><th><span style="font-size: smaller; display:block; display:block">טור ד׳</span><br space="preserve"></br> נתוני הבסיס – מדדי חודש נובמבר 2019</th><th><span style="font-size: smaller; display:block">טור ה׳</span><br space="preserve"></br> נתוני העדכון</th></tr><tr><td>שכר</td><td>מדד מחירי תשומה באוטובוסים – כללי (בלא שירותי דיור) – התמורה למשרת שכיר (440080), (ינואר 2020 = 100.0) המפורסם על ידי הלמ"ס</td><td>58%</td><td>99.6</td><td>מדד מחירי תשומה באוטובוסים – כללי (בלא שירותי דיור) – התמורה למשרת שכיר (440080), (ינואר 2020 = 100.0) – הידוע ביום 31.12 שקדם ליום העדכון שפרסם הלמ"ס</td></tr><tr><td>דלק</td><td>מדד מחירי תשומה באוטובוסים – כללי (בלא שירותי דיור) – דלק, שמנים ונוזלי קירור (440140), ינואר 2020 = 100.0), המפורסם על ידי הלמ"ס</td><td>19.00%</td><td>95.8</td><td>מדד מחירי תשומה באוטובוסים – כללי (בלא שירותי דיור) – דלק, שמנים ונוזלי קירור (440140), (ינואר 2020 = 100.0), הידוע ביום 31.12 שקדם ליום העדכון שפרסם הלמ"ס</td></tr><tr><td>שכר מינימום</td><td>שכר המינימום במשק.</td><td>2.2%</td><td>5,300.00</td><td>שכר המינימום במשק הידוע ביום 31.12 שקדם ליום העדכון</td></tr><tr><td>ביטוח</td><td>מדד מחירי תשומה באוטובוסים – כללי (בלא שירותי דיור) – ביטוח (כל חברות האוטובוסים), (440360) (ינואר 2020 = 100.0) שפרסם הלמ"ס</td><td>4.2%</td><td>83.5</td><td>מדד מחירי תשומה באוטובוסים – כללי (בלא שירותי דיור) – ביטוח (כל חברות האוטובוסים), (440360) (ינואר 2020 = 100.0) הידוע ביום 31.12 שקדם ליום העדכון שפרסם הלמ"ס</td></tr><tr><td>הוצאות אחרות</td><td>מדד המחירים לצרכן – כללי (120010) (ממוצע 2018 = 100.0<wikicomment font-size="x-small">)</wikicomment> שפרסם הלמ"ס</td><td>16.6%</td><td>100.8</td><td>מדד המחירים לצרכן – כללי (120010) (ממוצע 2018 = 100.0) הידוע ביום 31.12 שפרסם הלמ"ס</td></tr><tr><td>סך הכול</td><td></td><td>100.00%</td><td></td><td></td></tr></table></p>
+              </content>
+            </point>
+            <point eId="point_6__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>בכל עדכון מחירים יעוגלו מחירי הנסיעה לחצי השקל הקרוב.</p>
+              </content>
+            </point>
+            <point eId="point_6__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>המפקח על המחירים במשרד התחבורה והבטיחות בדרכים יפרסם בהודעה ברשומות ובאתר האינטרנט של המשרד, לא יאוחר מחמישה ימי עבודה טרם עדכון המחיר לפי תקנת משנה (א), את המחירים, כפי שהשתנו לפי תקנה זו.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_7">
+          <heading>
+            <authorialNote placement="side">
+              <p>פטור</p>
+            </authorialNote>
+          </heading>
+          <num>7.</num>
+          <content>
+            <p>נוסע מן המפורטים בטור א׳ להלן, המציג תעודה תקפה כמפורט לצדו בטור ב; פטור מתשלום דמי נסיעה לפי <ref href="#point_2">תקנה 2</ref>:
+<table><tr><th>טור א׳</th><th>טור ב׳</th></tr><tr><td>ילד שגילו אינו עולה על 5 שנים – בליווי נוסע בעל כרטיס תקף, למעט קבוצת ילדים שגיל כל אחד מהם אינו עולה על 5 שנים, המלווים על ידי גננת, מורה או מדריך</td><td>תעודה להנחת דעתו של המנהל</td></tr><tr><td>מתנדב בשירות לאומי</td><td><wikicomment font-size="x-small">(נמחק);</wikicomment></td></tr><tr><td>עיוור, בין אם הוא מלווה בכלב נחייה ובין אם לאו</td><td>תעודה המאשרת את עיוורונו</td></tr><tr><td>חייל בשירות ללא תשלום כמשמעותו בפקודות הצבא וחניך במכינה קדם צבאית כמשמעותו <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/תקנות_המכינות_הקדם_צבאיות_הכרה_במכינה_הקדם_צבאית">בתקנות המכינות הקדם צבאיות (הכרה במכינה הקדם צבאית), התש"ע–2009</ref>, חניך במכינה קדם־צבאית חצי שנתית הנתמכת לפי מבחנים לחלוקת כספים לצורך תמיכה של משרד החינוך, וכן מתנדב בשירות לאומי ומתנדב בשנת שירות, כהגדרתם <ref href="/akn/il/act/PrimaryLegislation/1998-07-30/164240">בחוק שירות לאומי (תנאי שירות למתנדב בשירות לאומי), התשנ"ח–1998</ref> או משרת בשירות לאומי אזרחי כהגדרתו <ref href="/akn/il/act/PrimaryLegislation/2014-03-19/487131">בחוק שירות לאומי אזרחי, התשע"ד–2014</ref></td><td>תעודה המעידה על מעמדו כאמור בטור א׳ להנחת דעתו של המנהל</td></tr></table></p>
+          </content>
+        </point>
+        <point eId="point_8">
+          <heading>
+            <authorialNote placement="side">
+              <p>הנחות לזכאים</p>
+            </authorialNote>
+          </heading>
+          <num>8.</num>
+          <content>
+            <p>על אף האמור <ref href="#point_2">בתקנה 2(א)</ref>, ישלם נוסע מן המפורטים בטור א׳ להלן את דמי הנסיעה כאמור <ref href="/akn/il/act/SecondaryLegislation/2008-01-31/100033933#appendix">בתוספת לצו דמי נסיעה ברכבת</ref>, בניכוי האחוזים המפורטים לצדו בטור ב׳, ובלבד שבידו תעודה תקפה כמפורט בטור ג׳ ובכפוף לאמור בטור ד׳:
+<table><tr><th></th><th>טור א׳</th><th>טור ב׳</th><th>טור ג׳</th><th>טור ד׳</th></tr><tr><td>(1)</td><td><wikicomment font-size="x-small">(נמחק)</wikicomment></td><td></td><td></td><td></td></tr><tr><td>(2)</td><td>מלווה לעיוור (ניתן למלווה אחד בלבד)</td><td>50%</td><td>תעודה המאשרת את עיוורונו של העיוור שהוא מלווה</td><td></td></tr><tr><td>(3)</td><td><wikicomment font-size="x-small">(נמחק)</wikicomment></td><td></td><td></td><td></td></tr><tr><td>(4)</td><td><wikicomment font-size="x-small">(נמחק)</wikicomment></td><td></td><td></td><td></td></tr><tr><td>(5)</td><td><wikicomment font-size="x-small">(נמחק)</wikicomment></td><td></td><td></td><td></td></tr><tr><td>(6)</td><td><wikicomment font-size="x-small">(נמחק)</wikicomment></td><td></td><td></td><td></td></tr><tr><td>(7)</td><td>נוסעים בקבוצת נוסעים מאורגנת המונה 20 איש ומעלה, הנוסעים יחד מתחנת המוצא לתחנת יעד, בתיאום עם מנהל תחנת היציאה, ובלבד שהנסיעה אינה מתבצעת בין 06:30 ל־09:00 או 16:00 ל־19:00</td><td>50%</td><td></td><td></td></tr><tr><td>(8)</td><td>נוסע תושב ישראל מגיל 5 עד גיל 18, או מעל גיל 18 אך עדיין תלמיד בבית ספר תיכון עד כיתה י"ב, וכן תלמיד מוסד חינוך מיוחד לפי <ref href="/akn/il/act/PrimaryLegislation/1988-07-21/174543">חוק חינוך מיוחד, התשמ"ח–1988</ref> (להלן – חוק חינוך מיוחד), שטרם מלאו לו 21</td><td>50%</td><td>תעודה המאשרת את גילו או אישור כי הוא תלמיד בבית ספר או במוסד חינוך מיוחד</td><td>ברכישת כרטיס בערך צבור או כרטיסייה של 6 נסיעות או של 12 נסיעות</td></tr><tr><td>(9)</td><td>נכה, לרבות נכה צה"ל ונכה פעולות איבה</td><td>33%</td><td>תעודת נכה או תעודה אחרת המאשרת את נכותו שנתן המוסד לביטוח לאומי, תעודת חבר בארגון נכי צה"ל, או תעודת חבר בארגון נפגעי פעולות איבה, לפי העניין</td><td>ברכישת כרטיס בערך צבור או כרטיסייה של 6 נסיעות או של 12 נסיעות</td></tr><tr><td>(10)</td><td>מי שמלאו לו 18 שנים וטרם מלאו לו בגבר 65 שנה ובאישה 60 שנה שהמוסד לביטוח לאומי משלם להם קצבת שארים והשלמת הכנסה לפי <ref href="/akn/il/act/PrimaryLegislation/1995-05-15/158093">חוק הביטוח הלאומי [נוסח משולב], התשנ"ה–1995</ref> (להלן – חוק הביטוח הלאומי)</td><td>33%</td><td>אישור על קבלת קצבה או השלמת הכנסה לפי <ref href="/akn/il/act/PrimaryLegislation/1995-05-15/158093">חוק הביטוח הלאומי</ref></td><td>ברכישת כרטיס בערך צבור או כרטיסייה של 6 נסיעות או של 12 נסיעות</td></tr></table></p>
+          </content>
+        </point>
+        <point eId="point_9">
+          <heading>
+            <authorialNote placement="side">
+              <p>כרטיסי הנחה</p>
+            </authorialNote>
+          </heading>
+          <num>9.</num>
+          <list>
+            <point eId="point_9__point_א">
+              <num>(א)</num>
+              <content>
+                <p>כרטיסיית הנחה, או קבוצת כרטיסי הנחה באותו קו, או כרטיס תקופתי ל־30 ימים, או כרטיס תקופתי שבועי או כרטיס ערך צבור או כרטיסייה, בקווים המפורטים בטור א׳ בטבלה שלהלן, לנוסעים המפורטים בטור ב׳, יהיו כמפורט בטור ג׳:
+<table><tr><th></th><th>טור א׳</th><th>טור ב׳</th><th>טור ג׳</th></tr><tr><td>(1)</td><td colspan="3"><wikicomment font-size="x-small">(נמחקה);</wikicomment></td></tr><tr><td>(2)</td><td colspan="3"><wikicomment font-size="x-small">(נמחקה);</wikicomment></td></tr><tr><td rowspan="2">(3)</td><td rowspan="2">כל הקווים</td><td rowspan="2">נוסע רגיל</td><td>כרטיס תקופתי ל־30 ימים באותו קו, בין תחנת יציאה לתחנת יעד שצוינו על הכרטיס – דמי הנסיעה כמפורט <ref href="/akn/il/act/SecondaryLegislation/2008-01-31/100033933#appendix_פרט_1ב">בפרט 1ב לתוספת לצו דמי נסיעה ברכבת</ref>.</td></tr><tr><td>כרטיס תקופתי לשבעה ימים באותו קו, בין תחנת יציאה לתחנת יעד שצוינו על הכרטיס – דמי הנסיעה המפורטים <ref href="/akn/il/act/SecondaryLegislation/2008-01-31/100033933#appendix">בתוספת לצו דמי נסיעה ברכבת</ref> לגבי נסיעה בודדת באותו קו, כשהם מוכפלים בכפולות שלא יעלו על 8;</td></tr><tr><td>(4)</td><td colspan="3"><wikicomment font-size="x-small">(נמחקה);</wikicomment></td></tr><tr><td>(5)</td><td>כל הקווים</td><td>סטודנט שבידו כרטיס תקופתי שנתי לסטודנט או כרטיס תקופתי סמסטריאלי</td><td>כרטיס לכיוון אחד – דמי הנסיעה כמפורט <ref href="/akn/il/act/SecondaryLegislation/2008-01-31/100033933#appendix_פרט_1ה">בפרט 1ה(1) לתוספת לצו דמי נסיעה ברכבת</ref>;</td></tr><tr><td>(6)</td><td>כל הקווים</td><td>סטודנט שבידו כרטיס תקופתי שנתי לסטודנט או כרטיס תקופתי סמסטריאלי</td><td>כרטיסייה או קבוצת כרטיסים של 12 נסיעות באותו קו, בין תחנת יציאה לתחנת יעד שצויינו עליהם – דמי הנסיעה כמפורט <ref href="/akn/il/act/SecondaryLegislation/2008-01-31/100033933#appendix_פרט_1ה">בפרט 1ה(2) לתוספת לצו דמי נסיעה ברכבת</ref>;</td></tr><tr><td>(7)</td><td>כל הקווים</td><td>סטודנט</td><td>כרטיסייה או קבוצת כרטיסים של 12 נסיעות באותו קו, בין תחנת יציאה לתחנת יעד שצויינו עליהם – דמי הנסיעה כמפורט <ref href="/akn/il/act/SecondaryLegislation/2008-01-31/100033933#appendix_פרט_1ה">בפרט 1ה(3) לתוספת לצו דמי נסיעה ברכבת</ref>;</td></tr><tr><td>(8)</td><td colspan="3"><wikicomment font-size="x-small">(נמחקה);</wikicomment></td></tr><tr><td>(9)</td><td colspan="3"><wikicomment font-size="x-small">(נמחקה);</wikicomment></td></tr><tr><td>(10)</td><td>כל הקווים</td><td>כל נוסע</td><td>כרטיס בערך צבור או בכרטיסייה של 12 נסיעות – דמי הנסיעה לנסיעה בודדת כאמור <ref href="/akn/il/act/SecondaryLegislation/2008-01-31/100033933#appendix">בתוספת לצו דמי נסיעה ברכבת</ref> בניכוי 20% מחושבים כמפורט <ref href="/akn/il/act/SecondaryLegislation/2008-01-31/100033933#appendix_פרט_1ז">בפרט 1ז לתוספת האמורה</ref>.</td></tr></table></p>
+              </content>
+            </point>
+            <point eId="point_9__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>על אף האמור <ref href="#point_2">בתקנה 2(א)</ref>, בעד כרטיס לנסיעה משולבת כמפורט <ref href="/akn/il/act/SecondaryLegislation/2008-01-31/100033933#appendix_פרט_2ה">בפרט 2ה בתוספת לצו דמי נסיעה ברכבת</ref> ישולמו דמי נסיעה כאמור <קישור סוג="1" עוגן="">באותו פרט</קישור>.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_9א">
+          <heading>
+            <authorialNote placement="side">
+              <p>הנחות בתשלום באמצעי תיקוף תשלום מתקדמים</p>
+            </authorialNote>
+          </heading>
+          <num>9א.</num>
+          <list>
+            <point eId="point_9א__point_א">
+              <num>(א)</num>
+              <content>
+                <p>
+                  <wikicomment font-size="x-small">(החל מיום 1.2.2021):</wikicomment>
+                  <br space="preserve"></br> ההנחות המנויות <ref href="#point_8">בתקנה 8</ref> יחולו על נוסע המשלם באמצעות אמצעי תיקוף ותשלום מתקדמים בתשלום בעד נסיעה בודדת בלבד;</p>
+              </content>
+            </point>
+            <point eId="point_9א__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>ההנחות המנויות <ref href="#point_9">בתקנה 9</ref> לא יחולו על תשלום באמצעי תשלום מתקדמים.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_10">
+          <heading>
+            <authorialNote placement="side">
+              <p>אזרח ותיק</p>
+            </authorialNote>
+          </heading>
+          <num>10.</num>
+          <content>
+            <p>תושב ישראל שמלאו לו, בגבר – 65 שנים ובאישה – 60 שנים, זכאי להנחה בשיעור הקבוע <ref href="/akn/il/act/PrimaryLegislation/1989-12-28/174549#point_10">בסעיף 10 לחוק האזרחים הותיקים, התש"ן–1990</ref>, בתנאי שהציג תעודת זהות או כרטיס אזרח ותיק.<br space="preserve"></br><wikicomment font-size="x-small">(החל מיום 1.2.2021):</wikicomment> אזרח ותיק כהגדרתו <ref href="/akn/il/act/PrimaryLegislation/1989-12-28/174549">בחוק האזרחים הוותיקים, התש"ן–1989</ref>, זכאי להנחה בשיעור של 50% מדמי הנסיעה בתחבורה הציבורית, הן העירונית והן הבין־עירונית, והיא תינתן על כל סוגי הכרטיסים הקיימים בתחבורה הציבורית.</p>
+          </content>
+        </point>
+        <point eId="point_11">
+          <heading>
+            <authorialNote placement="side">
+              <p>אי מתן כפל הנחות</p>
+            </authorialNote>
+          </heading>
+          <num>11.</num>
+          <content>
+            <p>נוסע ברכבת יהא זכאי להנחה אחת בלבד בדמי הנסיעה מההנחות המפורטות בתקנות אלה, לפי הגבוהה שביניהן.</p>
+          </content>
+        </point>
+        <point eId="point_12">
+          <heading>
+            <authorialNote placement="side">
+              <p>עיגול דמי הנסיעה</p>
+            </authorialNote>
+          </heading>
+          <num>12.</num>
+          <content>
+            <p>דמי הנסיעה לפי תקנות אלה ישולמו כשהם מעוגלים לסכום הקרוב שהוא מכפלה של חצי שקל חדש.</p>
+          </content>
+        </point>
+        <point eId="point_13">
+          <heading>
+            <authorialNote placement="side">
+              <p>מס ערך מוסף</p>
+            </authorialNote>
+          </heading>
+          <num>13.</num>
+          <content>
+            <p>דמי הנסיעה והתוספות לפי תקנות אלה כוללים מס ערך מוסף לפי <ref href="/akn/il/act/PrimaryLegislation/1976-01-06/147931">חוק מס ערך מוסף, התשל"ו–1975</ref>.</p>
+          </content>
+        </point>
+        <point eId="point_14">
+          <heading>
+            <authorialNote placement="side">
+              <p>ביטול</p>
+            </authorialNote>
+          </heading>
+          <num>14.</num>
+          <content>
+            <p>תקנות מסילות הברזל (דמי נסיעה), התשנ"ז–1997 – בטלות.</p>
+          </content>
+        </point>
+        <point eId="point_15">
+          <heading>
+            <authorialNote placement="side">
+              <p>תחילה</p>
+            </authorialNote>
+          </heading>
+          <num>15.</num>
+          <content>
+            <p>תחילתן של תקנות אלה 14 ימים מיום פרסומן.</p>
+          </content>
+        </point>
+      </list>
+      <appendix eId="appendix">
+        <num></num>
+        <title>
+          <content>
+            <p>תוספת <wikicomment font-size="x-small">(בוטלה)</wikicomment></p>
+          </content>
+        </title>
+      </appendix>
+    </body>
+    <conclusions eId="eId">
+      <p class="signatures">
+        <signature>
+          <p>
+            <person refersTo="מאיר_שטרית">מאיר שטרית</person>
+            <role refersTo="שר_התחבורה">שר התחבורה</role>
+          </p>
+        </signature>
+      </p>
+    </conclusions>
+  </act>
+</akomaNtoso>

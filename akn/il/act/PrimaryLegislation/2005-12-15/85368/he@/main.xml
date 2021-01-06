@@ -1,0 +1,2391 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion" name="publicLaw">
+    <meta>
+      <identification source="#kensset">
+        <FRBRWork>
+          <FRBRthis value="/akn/il/act/PrimaryLegislation/2005-12-15/85368/main" />
+          <FRBRuri value="/akn/il/act/PrimaryLegislation/2005-12-15/85368" />
+          <FRBRdate date="2005-12-15" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRcountry value="israel" />
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/il/act/PrimaryLegislation/2005-12-15/85368/he@/main" />
+          <FRBRuri value="/akn/il/act/PrimaryLegislation/2005-12-15/85368/he@" />
+          <FRBRdate date="2005-12-15" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRlanguage language="hebrew" />
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/il/act/PrimaryLegislation/2005-12-15/85368/he@/main.xml" />
+          <FRBRuri value="/akn/il/act/PrimaryLegislation/2005-12-15/85368/he@" />
+          <FRBRdate date="2005-12-15" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRformat value="xml" />
+        </FRBRManifestation>
+      </identification>
+      <classification source="#kensset">
+        <keyword value="{classificationValue}" showAs="{classificationValue}" dictionary="#classification_dictionary" />
+      </classification>
+      <lifecycle source="#kensset">
+        <eventRef eId="eventRef_1" date="2005-12-15" source="#kensset" type="generation" />
+      </lifecycle>
+      <references source="#kensset">
+        <TLCOrganization eId="kensset" href="/ontology/organization/akn/knesset" showAs="Kensset" type="generation" />
+        <TLCRole eId="author" href="/ontology/role/akn/author" showAs="Author of Document" />
+        <TLCProcess eId="inforce" href="/ontology/process/akn/inforce" showAs="In force" />
+        <TLCTerm eId="term_1" href="/ontology/term/אדם_קרוב/85368" showAs="אדם_קרוב" />
+        <TLCTerm eId="term_2" href="/ontology/term/אפוטרופוס/85368" showAs="אפוטרופוס" />
+        <TLCTerm eId="term_3" href="/ontology/term/בעל_כשרות/85368" showAs="בעל_כשרות" />
+        <TLCTerm eId="term_4" href="/ontology/term/המנהל_הכללי/85368" showAs="המנהל_הכללי" />
+        <TLCTerm eId="term_5" href="/ontology/term/הנחיות_רפואיות_מקדימות/85368" showAs="הנחיות_רפואיות_מקדימות" />
+        <TLCTerm eId="term_6" href="/ontology/term/הסכמה_מדעת/85368" showAs="הסכמה_מדעת" />
+        <TLCTerm eId="term_7" href="/ontology/term/הוועדה_הארצית/85368" showAs="הוועדה_הארצית" />
+        <TLCTerm eId="term_8" href="/ontology/term/ועדה_מוסדית/85368" showAs="ועדה_מוסדית" />
+        <TLCTerm eId="term_9" href="/ontology/term/חולה_הנוטה_למות/85368" showAs="חולה_הנוטה_למות" />
+        <TLCTerm eId="term_10" href="/ontology/term/חולה_בשלב_סופי/85368" showAs="חולה_בשלב_סופי" />
+        <TLCTerm eId="term_11" href="/ontology/term/חוק_זכויות_החולה/85368" showAs="חוק_זכויות_החולה" />
+        <TLCTerm eId="term_12" href="/ontology/term/טיפול_מקל/85368" showAs="טיפול_מקל" />
+        <TLCTerm eId="term_13" href="/ontology/term/טיפול_רפואי/85368" showAs="טיפול_רפואי" />
+        <TLCTerm eId="term_14" href="/ontology/term/טיפול_רפואי_מחזורי/85368" showAs="טיפול_רפואי_מחזורי" />
+        <TLCTerm eId="term_15" href="/ontology/term/טיפול_רפואי_רציף/85368" showAs="טיפול_רפואי_רציף" />
+        <TLCTerm eId="term_16" href="/ontology/term/ייפוי_כוח/85368" showAs="ייפוי_כוח" />
+        <TLCTerm eId="term_17" href="/ontology/term/מאגר_המידע/85368" showAs="מאגר_המידע" />
+        <TLCTerm eId="term_18" href="/ontology/term/מוסד_רפואי/85368" showAs="מוסד_רפואי" />
+        <TLCTerm eId="term_19" href="/ontology/term/מטפל/85368" showAs="מטפל" />
+        <TLCTerm eId="term_20" href="/ontology/term/סבל_משמעותי/85368" showAs="סבל_משמעותי" />
+        <TLCTerm eId="term_21" href="/ontology/term/עובד_סוציאלי/85368" showAs="עובד_סוציאלי" />
+        <TLCTerm eId="term_22" href="/ontology/term/פסיכולוג/85368" showAs="פסיכולוג" />
+        <TLCTerm eId="term_23" href="/ontology/term/פקודת_הרופאים/85368" showAs="פקודת_הרופאים" />
+        <TLCTerm eId="term_24" href="/ontology/term/קטין/85368" showAs="קטין" />
+        <TLCTerm eId="term_25" href="/ontology/term/רופא/85368" showAs="רופא" />
+        <TLCTerm eId="term_26" href="/ontology/term/רופא_מומחה/85368" showAs="רופא_מומחה" />
+        <TLCTerm eId="term_27" href="/ontology/term/רופא_אחראי/85368" showAs="רופא_אחראי" />
+        <TLCTerm eId="term_28" href="/ontology/term/רופא_אישי/85368" showAs="רופא_אישי" />
+        <TLCTerm eId="term_29" href="/ontology/term/השר/85368" showAs="השר" />
+        <TLCPerson eId="אריאל_שרון" href="/ontology/person/אריאל_שרון" showAs="אריאל שרון" />
+        <TLCPerson eId="דני_נוה" href="/ontology/person/דני_נוה" showAs="דני נוה" />
+        <TLCPerson eId="משה_קצב" href="/ontology/person/משה_קצב" showAs="משה קצב" />
+        <TLCPerson eId="ראובן_ריבלין" href="/ontology/person/ראובן_ריבלין" showAs="ראובן ריבלין" />
+        <TLCRole eId="ראש_הממשלה" href="ontology/role/akn/ראש_הממשלה" showAs="ראש הממשלה" />
+        <TLCRole eId="שר_הבריאות" href="ontology/role/akn/שר_הבריאות" showAs="שר הבריאות" />
+        <TLCRole eId="נשיא_המדינה" href="ontology/role/akn/נשיא_המדינה" showAs="נשיא המדינה" />
+        <TLCRole eId="יושב_ראש_הכנסת" href="ontology/role/akn/יושב_ראש_הכנסת" showAs="יושב ראש הכנסת" />
+      </references>
+      <temporalData source="#kensset">
+        <temporalGroup eId="tmpg_1" />
+      </temporalData>
+      <Publication></Publication>
+      <proprietary wikiversion="12/20/2020 7:35:53 AM" />
+    </meta>
+    <body period="#tmpg_1">
+      <title eId="title">
+        <content>
+          <p>חוק החולה הנוטה למות, התשס"ו–2005</p>
+        </content>
+      </title>
+      <chapter eId="chp_א">
+        <num>פרק א׳:</num>
+        <title>
+          <content>
+            <p>מטרה ועיקרון יסוד</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_1">
+            <heading>
+              <authorialNote placement="side">
+                <p>מטרה</p>
+              </authorialNote>
+            </heading>
+            <num>1.</num>
+            <list>
+              <point eId="point_1__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>חוק זה בא להסדיר את הטיפול הרפואי בחולה הנוטה למות תוך איזון ראוי בין ערך קדושת החיים, לבין ערך אוטונומיית הרצון של האדם והחשיבות של איכות החיים.</p>
+                </content>
+              </point>
+              <point eId="point_1__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>חוק זה מבוסס על ערכיה של מדינת ישראל כמדינה יהודית ודמוקרטית ועל עקרונות יסוד בתחום המוסר, האתיקה והדת.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_2">
+            <heading>
+              <authorialNote placement="side">
+                <p>עקרון יסוד</p>
+              </authorialNote>
+            </heading>
+            <num>2.</num>
+            <content>
+              <p>בקביעת הטיפול הרפואי בחולה הנוטה למות, מצבו הרפואי, רצונו ומידת סבלו הם השיקולים הבלעדיים.</p>
+            </content>
+          </point>
+        </list>
+      </chapter>
+      <chapter eId="chp_ב">
+        <num>פרק ב׳:</num>
+        <title>
+          <content>
+            <p>הגדרות</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_3">
+            <heading>
+              <authorialNote placement="side">
+                <p>הגדרות</p>
+              </authorialNote>
+            </heading>
+            <num>3.</num>
+            <list>
+              <intro>
+                <p>בחוק זה –</p>
+              </intro>
+              <point eId="point_3__point_אדם_קרוב">
+                <list>
+                  <intro>
+                    <p>
+                      <def />”אדם קרוב“ – אדם, שלדעת רופא אחראי, על פי הוראות שקבע השר לפי <ref href="#point_60">סעיף 60(א)(1)</ref>, מתקיימים בו שניים אלה:</p>
+                  </intro>
+                  <point eId="point_3__point_אדם_קרוב__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>הוא בעל קרבה משפחתית או רגשית אל החולה הנוטה למות ומסור לו;</p>
+                    </content>
+                  </point>
+                  <point eId="point_3__point_אדם_קרוב__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>הוא מכיר היטב את החולה הנוטה למות, על יסוד קשר רצוף ומתמשך עמו בתקופה שלפני הטיפול הרפואי בו או במהלכו;</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_3__point_אפוטרופוס">
+                <content>
+                  <p>
+                    <def />”אפוטרופוס“ – אפוטרופוס לגוף;</p>
+                </content>
+              </point>
+              <point eId="point_3__point_בעל_כשרות">
+                <list>
+                  <intro>
+                    <p>
+                      <def />”בעל כשרות“ – מי שמתקיימים בו כל אלה:</p>
+                  </intro>
+                  <point eId="point_3__point_בעל_כשרות__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>מלאו לו 17 שנים;</p>
+                    </content>
+                  </point>
+                  <point eId="point_3__point_בעל_כשרות__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>הוא מסוגל להביע את רצונו;</p>
+                    </content>
+                  </point>
+                  <point eId="point_3__point_בעל_כשרות__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>הוא לא הוכרז פסול דין;</p>
+                    </content>
+                  </point>
+                  <point eId="point_3__point_בעל_כשרות__point_4">
+                    <num>(4)</num>
+                    <content>
+                      <p>הוא לא הוצא מחזקת הכשרות האמורה <ref href="#point_6">בסעיף 6</ref>;</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_3__point_המנהל_הכללי">
+                <content>
+                  <p>
+                    <def />”המנהל הכללי“ – המנהל הכללי של משרד הבריאות;</p>
+                </content>
+              </point>
+              <point eId="point_3__point_הנחיות_רפואיות_מקדימות">
+                <content>
+                  <p>
+                    <def />”הנחיות רפואיות מקדימות“ – הנחיות רפואיות שנתן אדם לפי הוראות <ref href="#chp_ה">פרק ה׳</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_3__point_הסכמה_מדעת">
+                <content>
+                  <p>
+                    <def />”הסכמה מדעת“ – כמשמעותה <ref href="/akn/il/act/PrimaryLegislation/1996-05-12/174478#chp_ד">בפרק ד׳ לחוק זכויות החולה</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_3__point_הוועדה_הארצית">
+                <content>
+                  <p>
+                    <def />”הוועדה הארצית“ – הוועדה שמונתה לפי הוראות <ref href="#point_50">סעיף 50</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_3__point_ועדה_מוסדית">
+                <content>
+                  <p>
+                    <def />”ועדה מוסדית“ – ועדה שמונתה לפי הוראות <ref href="#point_45">סעיף 45</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_3__point_חולה_הנוטה_למות">
+                <content>
+                  <p>
+                    <def />”חולה הנוטה למות“ – מטופל שנקבע לגביו לפי הוראות <ref href="#point_8">סעיף 8(א)</ref>, כי הוא חולה הנוטה למות;</p>
+                </content>
+              </point>
+              <point eId="point_3__point_חולה_בשלב_סופי">
+                <content>
+                  <p>
+                    <def />”חולה בשלב סופי“ – חולה הנוטה למות שנקבע לגביו לפי הוראות <ref href="#point_8">סעיף 8(ב)</ref>, כי הוא חולה בשלב סופי;</p>
+                </content>
+              </point>
+              <point eId="point_3__point_חוק_זכויות_החולה">
+                <content>
+                  <p>
+                    <def />”חוק זכויות החולה“ – <ref href="/akn/il/act/PrimaryLegislation/1996-05-12/174478">חוק זכויות החולה, התשנ"ו–1996</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_3__point_טיפול_מקל">
+                <content>
+                  <p>
+                    <def />”טיפול מקל“ – טיפול מקל (פליאטיבי – Palliative) כאמור <ref href="#chp_ד_sec_ה">בסימן ה׳ לפרק ד׳</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_3__point_טיפול_רפואי">
+                <content>
+                  <p>
+                    <def />”טיפול רפואי“, ”מטופל“, ”מידע רפואי“, ”מצב חירום רפואי“ ו”רשומה רפואית“ – כהגדרתם <ref href="/akn/il/act/PrimaryLegislation/1996-05-12/174478">בחוק זכויות החולה</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_3__point_טיפול_רפואי_מחזורי">
+                <list>
+                  <intro>
+                    <p>
+                      <def />”טיפול רפואי מחזורי“ – כל אחד מאלה:</p>
+                  </intro>
+                  <point eId="point_3__point_טיפול_רפואי_מחזורי__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>טיפול רפואי הניתן באופן מחזורי ובהפסקות, ואפשר להבחין באופן מעשי וברור בין סיום מחזור אחד של טיפול לתחילת המחזור הבא;</p>
+                    </content>
+                  </point>
+                  <point eId="point_3__point_טיפול_רפואי_מחזורי__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>טיפול שתוכנן מראש, באמצעים טכנולוגיים מתאימים, להינתן כטיפול רפואי מחזורי, למרות שעל פי טיבו הוא היה ניתן באופן מתמשך ובלא הפסקות;</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_3__point_טיפול_רפואי_רציף">
+                <content>
+                  <p>
+                    <def />”טיפול רפואי רציף“ – טיפול רפואי, שעל פי טיבו ניתן באופן מתמשך ובלא הפסקות, למעט טיפול רפואי מחזורי כאמור בפסקה 2 להגדרה טיפול רפואי מחזורי;</p>
+                </content>
+              </point>
+              <point eId="point_3__point_ייפוי_כוח">
+                <content>
+                  <p>
+                    <def />”ייפוי כוח“ ו”מיופה כוח“ – כמשמעותם <ref href="#point_37">בסעיף 37</ref>, לענין מיופה כוח, לרבות מחליף;</p>
+                </content>
+              </point>
+              <point eId="point_3__point_מאגר_המידע">
+                <content>
+                  <p>
+                    <def />”מאגר המידע“ – מאגר המידע שהוקם לפי <ref href="#chp_ה_sec_ה">סימן ה׳ לפרק ה׳</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_3__point_מוסד_רפואי">
+                <content>
+                  <p>
+                    <def />”מוסד רפואי“ – בית חולים כמשמעותו <ref href="/akn/il/act/PrimaryLegislation/1940-12-20/2001729#point_24">בסעיף 24 לפקודת בריאות העם, 1940</ref>, מרפאה כמשמעותה <ref href="/akn/il/act/PrimaryLegislation/1940-12-20/2001729#point_34">בסעיף 34 לפקודה האמורה</ref>, וכן קופת חולים, כמשמעותה <ref href="/akn/il/act/PrimaryLegislation/1994-06-26/157723">בחוק ביטוח בריאות ממלכתי, התשנ"ד–1994</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_3__point_מטפל">
+                <content>
+                  <p>
+                    <def />”מטפל“ – רופא, אח או אחות, עובד סוציאלי ופסיכולוג;</p>
+                </content>
+              </point>
+              <point eId="point_3__point_סבל_משמעותי">
+                <list>
+                  <intro>
+                    <p>
+                      <def />”סבל משמעותי“ –</p>
+                  </intro>
+                  <point eId="point_3__point_סבל_משמעותי__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>כפי שהגדיר נותן הנחיות רפואיות מקדימות בהנחיות, או נותן ייפוי כוח בייפוי הכוח;</p>
+                    </content>
+                  </point>
+                  <point eId="point_3__point_סבל_משמעותי__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>בהעדר הגדרה כאמור בפסקה (1), כאב או סבל, שאדם סביר היה מוכן לעשות מאמץ ניכר כדי להימנע ממנו או לסלקו, אף אם הדבר כרוך בפגיעה משמעותית באיכות חייו או בתוחלת חייו;</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_3__point_עובד_סוציאלי">
+                <content>
+                  <p>
+                    <def />”עובד סוציאלי“ – כמשמעותו <ref href="/akn/il/act/PrimaryLegislation/1996-03-08/174441">בחוק העובדים הסוציאליים, התשנ"ו–1996</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_3__point_פסיכולוג">
+                <content>
+                  <p>
+                    <def />”פסיכולוג“ – מי שרשום בפנקס הפסיכולוגים לפי <ref href="/akn/il/act/PrimaryLegislation/1977-03-29/416078">חוק הפסיכולוגים, התשל"ז–1977</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_3__point_פקודת_הרופאים">
+                <content>
+                  <p>
+                    <def />”פקודת הרופאים“ – <ref href="/akn/il/act/PrimaryLegislation/1976-12-16/2002278">פקודת הרופאים [נוסח חדש], התשל"ז–1976</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_3__point_קטין">
+                <content>
+                  <p>
+                    <def />”קטין“ – מי שטרם מלאו לו 17 שנים;</p>
+                </content>
+              </point>
+              <point eId="point_3__point_רופא">
+                <content>
+                  <p>
+                    <def />”רופא“ – רופא מורשה כמשמעותו <ref href="/akn/il/act/PrimaryLegislation/1976-12-16/2002278">בפקודת הרופאים</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_3__point_רופא_מומחה">
+                <content>
+                  <p>
+                    <def />”רופא מומחה“ – רופא שהוא בעל תואר מומחה לפי <ref href="/akn/il/act/PrimaryLegislation/1976-12-16/2002278">פקודת הרופאים</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_3__point_רופא_אחראי">
+                <list>
+                  <intro>
+                    <p>
+                      <def />”רופא אחראי“ – אחד מאלה:</p>
+                  </intro>
+                  <point eId="point_3__point_רופא_אחראי__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>מנהל מחלקה או מנהל יחידה, במוסד רפואי, האחראי על הטיפול הרפואי בחולה הנוטה למות, או רופא מומחה שמינה מנהל המוסד הרפואי, מנהל מחלקה או מנהל יחידה, להיות אחראי כאמור – לענין חולים המטופלים במוסד רפואי;</p>
+                    </content>
+                  </point>
+                  <point eId="point_3__point_רופא_אחראי__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>רופא מחוזי של קופת חולים, או רופא שמונה על ידו – לענין חולים המטופלים בקהילה;</p>
+                    </content>
+                  </point>
+                  <point eId="point_3__point_רופא_אחראי__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>רופא המנוי בפסקאות (1) או (2) – גם לענין חולים המטופלים שלא במוסד רפואי ושלא באמצעות קופת חולים;</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_3__point_רופא_אישי">
+                <content>
+                  <p>
+                    <def />”רופא אישי“ – רופא, שיש לו היכרות קרובה עם המטופל, רצונותיו ועמדותיו ביחס לטיפול הרפואי בו, בין אם הוא רופא משפחה של המטופל או רופא המרכז את הטיפול במטופל בקהילה או במוסד הרפואי;</p>
+                </content>
+              </point>
+              <point eId="point_3__point_השר">
+                <content>
+                  <p>
+                    <def />”השר“ – שר הבריאות.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+        </list>
+      </chapter>
+      <chapter eId="chp_ג">
+        <num>פרק ג׳: הרצון לחיות וכשרות –</num>
+        <title>
+          <content>
+            <p>חזקות</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_4">
+            <heading>
+              <authorialNote placement="side">
+                <p>חזקת הרצון לחיות</p>
+              </authorialNote>
+            </heading>
+            <num>4.</num>
+            <content>
+              <p>חזקה על אדם שהוא רוצה להוסיף לחיות, אלא אם כן הוכח אחרת; לא הוכח אחרת מעבר לכל ספק סביר – יש לנטות לטובת הרצון להוסיף לחיות.</p>
+            </content>
+          </point>
+          <point eId="point_5">
+            <heading>
+              <authorialNote placement="side">
+                <p>הוצאה מחזקת הרצון לחיות</p>
+              </authorialNote>
+            </heading>
+            <num>5.</num>
+            <list>
+              <intro>
+                <p>אין מוציאים חולה הנוטה למות מחזקת רצונו להוסיף לחיות ואין נמנעים, לפי הוראות חוק זה, מטיפול רפואי בו, אלא על פי המפורט בסעיף זה, לפי הענין:</p>
+              </intro>
+              <point eId="point_5__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>בחולה הנוטה למות שהוא בעל כשרות – על פי הבעת רצונו המפורשת;</p>
+                </content>
+              </point>
+              <point eId="point_5__point_ב">
+                <num>(ב)</num>
+                <list>
+                  <intro>
+                    <p>בחולה הנוטה למות שאינו בעל כשרות, שמלאו לו 17 שנים, על פי אחת מאלה:</p>
+                  </intro>
+                  <point eId="point_5__point_ב__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>הנחיות רפואיות מקדימות שנתן שמתקיימות בהן הוראות <ref href="#point_33">סעיפים 33</ref><ref href="#point_34">ו־34(א)</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_5__point_ב__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>החלטה של מיופה כוחו שניתנה לפי ייפוי כוח שמתקיימות בו הוראות <ref href="#point_38">סעיפים 38</ref><ref href="#point_39">ו־39(א)</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_5__point_ב__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>החלטה של ועדה מוסדית או הוועדה הארצית שניתנה לפי הוראות <ref href="#chp_ו">פרק ו׳</ref>;</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_5__point_ג">
+                <num>(ג)</num>
+                <list>
+                  <intro>
+                    <p>בהעדר הנחיות או החלטות כמפורט בסעיף קטן (ב) – על פי החלטת רופא אחראי ובתנאי שהחלטה כאמור תתקבל בהתחשב –</p>
+                  </intro>
+                  <point eId="point_5__point_ג__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>בהצהרה מפורשת של אדם קרוב ולפיה החולה הנוטה למות אינו רוצה להוסיף לחיות;</p>
+                    </content>
+                  </point>
+                  <point eId="point_5__point_ג__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>בהעדר הצהרה כאמור – בהתחשב בעמדת אפוטרופסו של החולה הנוטה למות, שהוא אדם קרוב, ככל שישנו, ולפיה רצונו של החולה הנוטה למות שלא להאריך את חייו.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+            </list>
+          </point>
+          <point eId="point_6">
+            <heading>
+              <authorialNote placement="side">
+                <p>חזקת הכשרות</p>
+              </authorialNote>
+            </heading>
+            <num>6.</num>
+            <content>
+              <p>חזקה על אדם שמלאו לו 17 שנים ושלא הוכרז פסול דין שהוא כשיר מבחינה הכרתית, שכלית ונפשית לקבל החלטות בקשר לטיפול הרפואי בו מתוך הבנה, שיקול דעת ורצון חופשי.</p>
+            </content>
+          </point>
+          <point eId="point_7">
+            <heading>
+              <authorialNote placement="side">
+                <p>הוצאה מחזקת הכשרות</p>
+              </authorialNote>
+            </heading>
+            <num>7.</num>
+            <content>
+              <p>אין מוציאים חולה הנוטה למות מחזקת היותו כשיר כאמור <ref href="#point_6">בסעיף 6</ref> לצורך חוק זה, אלא בהחלטה רפואית מנומקת ומתועדת של הרופא האחראי לאחר שקיים התייעצות עם המטפלים בחולה הנוטה למות ועם רופאים רלוונטיים או מומחים, לפי הענין, ובמידת האפשר עם רופאו האישי.</p>
+            </content>
+          </point>
+        </list>
+      </chapter>
+      <chapter eId="chp_ד">
+        <num>פרק ד׳:</num>
+        <title>
+          <content>
+            <p>הטיפול בחולה הנוטה למות</p>
+          </content>
+        </title>
+        <section eId="chp_ד__sec_א">
+          <num>סימן א׳:</num>
+          <title>
+            <content>
+              <p>כללי</p>
+            </content>
+          </title>
+          <list>
+            <point eId="point_8">
+              <heading>
+                <authorialNote placement="side">
+                  <p>קביעת מצבו הרפואי של מטופל</p>
+                </authorialNote>
+              </heading>
+              <num>8.</num>
+              <list>
+                <point eId="point_8__point_א">
+                  <num>(א)</num>
+                  <content>
+                    <p>רופא אחראי מוסמך לקבוע כי מטופל הוא חולה הנוטה למות, אם נוכח כי המטופל סובל מבעיה רפואית חשוכת מרפא ותוחלת חייו, אף אם יינתן לו טיפול רפואי, אינה עולה על שישה חודשים.</p>
+                  </content>
+                </point>
+                <point eId="point_8__point_ב">
+                  <num>(ב)</num>
+                  <content>
+                    <p>רופא אחראי מוסמך לקבוע כי חולה הנוטה למות הוא חולה בשלב סופי, אם נוכח כי הוא מצוי במצב רפואי שבו כשלו כמה מערכות חיוניות בגופו ותוחלת חייו, אף אם יינתן לו טיפול רפואי, אינה עולה על שבועיים.</p>
+                  </content>
+                </point>
+                <point eId="point_8__point_ג">
+                  <num>(ג)</num>
+                  <content>
+                    <p>קביעת רופא אחראי לפי סעיף זה תיעשה לאחר התייעצות עם הרופאים המומחים המטפלים במטופל ובמידת האפשר גם עם רופאו האישי.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_9">
+              <heading>
+                <authorialNote placement="side">
+                  <p>בירור רצון החולה</p>
+                </authorialNote>
+              </heading>
+              <num>9.</num>
+              <list>
+                <intro>
+                  <p>קבע רופא אחראי כי מטופל הוא חולה הנוטה למות והוא אינו בעל כשרות –</p>
+                </intro>
+                <point eId="point_9__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>הרופא האחראי או מי שהוסמך על ידו לענין זה, יעשה מאמץ סביר כדי לקבל את כל הנתונים והמסמכים הנוגעים בדבר, לצורך בירור רצונו של החולה הנוטה למות לפי <ref href="#point_5">סעיף 5(ב) ו־(ג)</ref> והכל בהתאם לכללים שנקבעו לענין זה בתקנות;</p>
+                  </content>
+                </point>
+                <point eId="point_9__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>הרופא האחראי או מי שהוסמך על ידו לענין זה, יברר במאגר המידע אם, על פי הרשום בו, נתן החולה הנחיות רפואיות מקדימות, או מינה מיופה כוח; מצא הרופא האחראי או מי שהוסמך על ידו לענין זה, כי החולה נתן הנחיות או מינה מיופה כוח כאמור, וזאת לאחר בירור במאגר המידע ובדרך אחרת, ככל הניתן, יצרף הרופא האחראי או מי שהוסמך על ידו לענין זה, מידע זה לרשומה הרפואית המתנהלת לגבי החולה.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_10">
+              <heading>
+                <authorialNote placement="side">
+                  <p>הודעה על כוונה לפעול ומסירת מידע</p>
+                </authorialNote>
+              </heading>
+              <num>10.</num>
+              <list>
+                <point eId="point_10__point_א">
+                  <num>(א)</num>
+                  <content>
+                    <p>קבע רופא אחראי כי מטופל הוא חולה הנוטה למות שאינו בעל כשרות, יודיע הרופא האחראי או מי שהוסמך על ידו לענין זה, למיופה הכוח, לאדם הקרוב לחולה הנוטה למות ולאפוטרופסו, ככל שישנם וניתן לאתרם במאמץ סביר, כי בכוונתו לפעול בהתאם להנחיות רפואיות מקדימות שנתן החולה הנוטה למות או לפי הוראות מיופה כוח, לפי הענין.</p>
+                  </content>
+                </point>
+                <point eId="point_10__point_ב">
+                  <num>(ב)</num>
+                  <content>
+                    <p>רופא אחראי ימסור מידע רפואי הנוגע לחולה הנוטה למות שאינו בעל כשרות ויאפשר עיון ברשומה הרפואית שלו למי שדעתו נדרשת לשם קבלת החלטה על הטיפול שיינתן לו בהתאם להוראות חוק זה.</p>
+                  </content>
+                </point>
+                <point eId="point_10__point_ג">
+                  <num>(ג)</num>
+                  <content>
+                    <p>הוראות כל דין האוסרות העברת מידע רפואי לא יחולו על מסירת מידע לפי סעיף זה.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_11">
+              <heading>
+                <authorialNote placement="side">
+                  <p>דיון ותיעוד</p>
+                </authorialNote>
+              </heading>
+              <num>11.</num>
+              <list>
+                <point eId="point_11__point_א">
+                  <num>(א)</num>
+                  <content>
+                    <p>קבע רופא אחראי, כי מטופל הוא חולה הנוטה למות, יקיים יחד עם המטפלים האחרים בו, בהקדם האפשרי, דיון מפורט על מצבו של המטופל ועל הטיפול הרפואי שיש לתת לו ויקבל החלטה בענין, והכל בהתאם להוראות חוק זה.</p>
+                  </content>
+                </point>
+                <point eId="point_11__point_ב">
+                  <num>(ב)</num>
+                  <content>
+                    <p>קיבל רופא אחראי החלטה על דרך הטיפול הרפואי בחולה הנוטה למות, יתעד ברשומה הרפואית של החולה את מהלך הדיון, את ההחלטה שקיבל ואת הנימוקים לה; הוראות סעיף זה באות להוסיף על הוראות תיעוד לפי <ref href="/akn/il/act/PrimaryLegislation/1996-05-12/174478#point_17">סעיף 17 לחוק זכויות החולה</ref>.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_12">
+              <heading>
+                <authorialNote placement="side">
+                  <p>חובת הערכה חוזרת</p>
+                </authorialNote>
+              </heading>
+              <num>12.</num>
+              <content>
+                <p>על הרופא האחראי להעריך, מדי פעם, את כשרותו, מצבו הרפואי ואת רצונותיו של החולה הנוטה למות; חל שינוי באחד מאלה – עליו לחזור ולהחליט לענין דרך הטיפול הרפואי בו.</p>
+              </content>
+            </point>
+          </list>
+        </section>
+        <section eId="chp_ד__sec_ב">
+          <num>סימן ב׳:</num>
+          <title>
+            <content>
+              <p>חולה נוטה למות המבקש טיפול חריג להארכת חייו</p>
+            </content>
+          </title>
+          <list>
+            <point eId="point_13">
+              <heading>
+                <authorialNote placement="side">
+                  <p>זכותו של חולה הנוטה למות לקבלת טיפול רפואי חריג להארכת חייו</p>
+                </authorialNote>
+              </heading>
+              <num>13.</num>
+              <content>
+                <p>חולה הנוטה למות, הרוצה שחייו יוארכו, ומבקש טיפול רפואי שלדעת הרופא האחראי, אין לו הצדקה בנסיבות הענין, יש לכבד את רצונו ולתת לו את הטיפול המבוקש בהתאם לכל דין ובהתאם לתנאים ולהסדרים הנוהגים, מעת לעת, במערכת הבריאות בישראל; הוראות סעיף זה לא יחולו לגבי טיפול רפואי שלדעת הרופא האחראי אינו צפוי להאריך את חייו, או עלול לגרום נזק משמעותי למטופל או לזולתו.</p>
+              </content>
+            </point>
+            <point eId="point_14">
+              <heading>
+                <authorialNote placement="side">
+                  <p>קביעת הרצון לקבלת טיפול חריג להארכת חיים</p>
+                </authorialNote>
+              </heading>
+              <num>14.</num>
+              <list>
+                <intro>
+                  <p>רצונו של חולה הנוטה למות לענין קבלת טיפול רפואי כאמור <ref href="#point_13">בסעיף 13</ref>, ייקבע על פי המפורט להלן, לפי הענין:</p>
+                </intro>
+                <point eId="point_14__point_א">
+                  <num>(א)</num>
+                  <content>
+                    <p>בחולה הנוטה למות שהוא בעל כשרות – על פי הבעת רצונו המפורשת;</p>
+                  </content>
+                </point>
+                <point eId="point_14__point_ב">
+                  <num>(ב)</num>
+                  <list>
+                    <intro>
+                      <p>בחולה הנוטה למות שאינו בעל כשרות, שמלאו לו 17 שנים, על פי אחת מאלה:</p>
+                    </intro>
+                    <point eId="point_14__point_ב__point_1">
+                      <num>(1)</num>
+                      <content>
+                        <p>על פי הנחיות רפואיות מקדימות שנתן שמתקיימות בהן הוראות <ref href="#point_33">סעיפים 33</ref><ref href="#point_34">ו־34(א)</ref>;</p>
+                      </content>
+                    </point>
+                    <point eId="point_14__point_ב__point_2">
+                      <num>(2)</num>
+                      <content>
+                        <p>על פי החלטה של מיופה כוחו שניתנה לפי ייפוי כוח שמתקיימות בו הוראות <ref href="#point_38">סעיפים 38</ref><ref href="#point_39">ו־39(א)</ref>;</p>
+                      </content>
+                    </point>
+                    <point eId="point_14__point_ב__point_3">
+                      <num>(3)</num>
+                      <content>
+                        <p>על פי החלטה של ועדה מוסדית או הוועדה הארצית שניתנה לפי הוראות <ref href="#chp_ו">פרק ו׳</ref>;</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+                <point eId="point_14__point_ג">
+                  <num>(ג)</num>
+                  <list>
+                    <intro>
+                      <p>בהעדר הנחיות או החלטות כמפורט בסעיף קטן (ב), על פי –</p>
+                    </intro>
+                    <point eId="point_14__point_ג__point_1">
+                      <num>(1)</num>
+                      <content>
+                        <p>הצהרה מפורשת של אדם קרוב לענין רצונו של החולה הנוטה למות;</p>
+                      </content>
+                    </point>
+                    <point eId="point_14__point_ג__point_2">
+                      <num>(2)</num>
+                      <content>
+                        <p>ובהעדר הצהרה כאמור ייקבע רצונו של החולה הנוטה למות על פי עמדת אפוטרופסו שהוא אדם קרוב, ככל שישנו;</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+                <point eId="point_14__point_ד">
+                  <num>(ד)</num>
+                  <content>
+                    <p>הוראות <ref href="#point_9">סעיף 9(1)</ref> יחולו גם לענין סעיף זה, בשינויים המחויבים.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+          </list>
+        </section>
+        <section eId="chp_ד__sec_ג">
+          <num>סימן ג׳:</num>
+          <title>
+            <content>
+              <p>חולה הנוטה למות אשר אינו רוצה שחייו יוארכו</p>
+            </content>
+          </title>
+          <list>
+            <point eId="point_15">
+              <heading>
+                <authorialNote placement="side">
+                  <p>הימנעות ממתן טיפול רפואי לחולה הנוטה למות שהוא בעל כשרות</p>
+                </authorialNote>
+              </heading>
+              <num>15.</num>
+              <list>
+                <point eId="point_15__point_א">
+                  <num>(א)</num>
+                  <content>
+                    <p>חולה הנוטה למות שהוא בעל כשרות, אשר אינו רוצה שחייו יוארכו, יש לכבד את רצונו ולהימנע מטיפול רפואי בו.</p>
+                  </content>
+                </point>
+                <point eId="point_15__point_ב">
+                  <num>(ב)</num>
+                  <content>
+                    <p>על המטפלים בחולה הנוטה למות כאמור בסעיף קטן (א) לעשות מאמץ סביר כדי לשכנעו לקבל חמצן, וכן מזון ונוזלים, אף באמצעים מלאכותיים, וכן לקבל טיפולים שגרתיים הנחוצים לטיפול במחלות בו־זמניות או במחלות רקע וטיפול מקל.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_16">
+              <heading>
+                <authorialNote placement="side">
+                  <p>הימעות ממתן טיפול רפואי לחולה הנוטה למות שאינו בעל כשרות</p>
+                </authorialNote>
+              </heading>
+              <num>16.</num>
+              <list>
+                <point eId="point_16__point_א">
+                  <num>(א)</num>
+                  <content>
+                    <p>חולה הנוטה למות שאינו בעל כשרות הסובל סבל משמעותי, שנקבע לגביו לפי הוראות <ref href="#point_5">סעיף 5(ב) או (ג)</ref> כי אינו רוצה שחייו יוארכו, יש להימנע מטיפול רפואי בו, הקשור לבעייתו הרפואית חשוכת המרפא, לרבות בדיקות, ניתוחים, החייאה, חיבור למכשיר הנשמה, טיפולים כימותרפיים, הקרנות או דיאליזה, והכל בהתאם לרצונו כפי שנקבע על פי <ref href="#point_5">סעיף 5(ב) או (ג)</ref>.</p>
+                  </content>
+                </point>
+                <point eId="point_16__point_ב">
+                  <num>(ב)</num>
+                  <list>
+                    <point eId="point_16__point_ב__point_1">
+                      <num>(1)</num>
+                      <content>
+                        <p>בסעיף קטן זה, ”טיפול נלווה“ – טיפול רפואי בחולה הנוטה למות, שאינו קשור כלל לבעייתו הרפואית חשוכת המרפא, לרבות טיפולים שגרתיים הנחוצים לטיפול במחלות בו־זמניות או במחלות רקע וטיפול מקל, וכן מתן מזון ונוזלים אפילו באמצעים מלאכותיים.</p>
+                      </content>
+                    </point>
+                    <point eId="point_16__point_ב__point_2">
+                      <num>(2)</num>
+                      <content>
+                        <p>אין להימנע מטיפול נלווה בחולה הנוטה למות כאמור בסעיף קטן (א), והכל אף אם רצונו של החולה כפי שנקבע לפי <ref href="#point_5">סעיף 5(ב) או (ג)</ref> הוא להימנע מקבלת טיפול כאמור.</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+              </list>
+            </point>
+            <point eId="point_17">
+              <heading>
+                <authorialNote placement="side">
+                  <p>חולה בשלב סופי שאינו בעל כשרות</p>
+                </authorialNote>
+              </heading>
+              <num>17.</num>
+              <content>
+                <p>על אף הוראות <ref href="#point_16">סעיף 16(ב) או (ג)</ref>, חולה בשלב סופי שאינו בעל כשרות, הסובל סבל משמעותי, שנקבע לגביו לפי הוראות <ref href="#point_5">סעיף 5(ב) או (ג)</ref> כי אינו רוצה שחייו יוארכו, יש להימנע מכל טיפול רפואי בו, לרבות טיפול רפואי נלווה כאמור <ref href="#point_16">בסעיף 16(ב)(1)</ref>, והכל בהתאם לרצונו כפי שנקבע לפי <ref href="#point_5">סעיף 5(ב) או (ג)</ref>; על אף האמור בסעיף זה, אין להימנע ממתן נוזלים לחולה כאמור, אפילו באמצעים מלאכותיים, אלא אם כן קבע הרופא האחראי שמתן הנוזלים גורם סבל או נזק לחולה כאמור.</p>
+              </content>
+            </point>
+            <point eId="point_18">
+              <heading>
+                <authorialNote placement="side">
+                  <p>מצב חירום רפואי</p>
+                </authorialNote>
+              </heading>
+              <num>18.</num>
+              <list>
+                <point eId="point_18__point_א">
+                  <num>(א)</num>
+                  <content>
+                    <p>במצב חירום רפואי של חולה הנוטה למות יחולו הוראות <ref href="/akn/il/act/PrimaryLegislation/1996-05-12/174478#point_15">סעיף 15(3) לחוק זכויות החולה</ref>, אלא אם כן נודע למטפל כי נקבע לפי הוראות <ref href="#point_5">סעיף 5</ref> כי רצונו של החולה הנוטה למות להימנע מטיפול רפואי בעת מצב כאמור.</p>
+                  </content>
+                </point>
+                <point eId="point_18__point_ב">
+                  <num>(ב)</num>
+                  <content>
+                    <p>על אף האמור בסעיף קטן (א), לענין חולה בשלב סופי הנתון במצב חירום רפואי, מותר להימנע מטיפול רפואי מציל חיים בו, אלא אם כן נודע למטפל כי נקבע לפי הוראות <ref href="#point_14">סעיף 14</ref> כי רצונו של החולה בשלב סופי לקבל טיפול רפואי בעת מצב כאמור.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+          </list>
+        </section>
+        <section eId="chp_ד__sec_ד">
+          <num>סימן ד׳:</num>
+          <title>
+            <content>
+              <p>פעולות אסורות</p>
+            </content>
+          </title>
+          <list>
+            <point eId="point_19">
+              <heading>
+                <authorialNote placement="side">
+                  <p>איסור המתה במעשה</p>
+                </authorialNote>
+              </heading>
+              <num>19.</num>
+              <content>
+                <p>אין בהוראות חוק זה כדי להתיר עשיית פעולה, אף אם היא טיפול רפואי, המכוונת להמית, או שתוצאתה, קרוב לוודאי, היא גם גרימת מוות, בין שהיא נעשית מתוך חסד וחמלה ובין שלא, ובין לבקשת החולה הנוטה למות או אדם אחר ובין שלא.</p>
+              </content>
+            </point>
+            <point eId="point_20">
+              <heading>
+                <authorialNote placement="side">
+                  <p>איסור סיוע להתאבדות</p>
+                </authorialNote>
+              </heading>
+              <num>20.</num>
+              <content>
+                <p>אין בהוראות חוק זה כדי להתיר עשיית פעולה, אף אם היא טיפול רפואי, שיש בה סיוע להתאבדות, בין שהיא נעשית מתוך חסד וחמלה ובין שלא, ובין לבקשת החולה הנוטה למות או אדם אחר ובין שלא.</p>
+              </content>
+            </point>
+            <point eId="point_21">
+              <heading>
+                <authorialNote placement="side">
+                  <p>איסור הפסקת טיפול רפואי רציף</p>
+                </authorialNote>
+              </heading>
+              <num>21.</num>
+              <content>
+                <p>אין בהוראות חוק זה כדי להתיר הפסקת טיפול רפואי רציף בחולה הנוטה למות, העלולה להביא למותו, בין שהוא בעל כשרות ובין אם לאו; ואולם מותר להימנע מחידוש טיפול רפואי רציף, שנפסק שלא במכוון או שלא בניגוד להוראות כל דין וכן מותר להימנע מחידוש טיפול רפואי מחזורי, והכל בכפוף להוראות <ref href="#chp_ד_sec_ג">סימן ג׳</ref>.</p>
+              </content>
+            </point>
+            <point eId="point_22">
+              <heading>
+                <authorialNote placement="side">
+                  <p>שמירת מצב בפנייה לוועדה מוסדית</p>
+                </authorialNote>
+              </heading>
+              <num>22.</num>
+              <content>
+                <p>נודע לרופא אחראי, כי קיימת מחלוקת בנוגע להחלטה או קביעה לגבי חולה הנוטה למות, וכי פנה אדם לוועדה מוסדית או כי בכוונת אדם לפנות לוועדה מוסדית לצורך הכרעה במחלוקת, יפעל הרופא האחראי באופן שיאפשר את המשך חייו של החולה הנוטה למות ובלבד שאם קיימת אפשרות לעשות כן באמצעות טיפול שאינו טיפול רציף, ייעשה הדבר כך.</p>
+              </content>
+            </point>
+          </list>
+        </section>
+        <section eId="chp_ד__sec_ה">
+          <num>סימן ה׳:</num>
+          <title>
+            <content>
+              <p>מתן טיפול מקל</p>
+            </content>
+          </title>
+          <list>
+            <point eId="point_23">
+              <heading>
+                <authorialNote placement="side">
+                  <p>מתן טיפול מקל</p>
+                </authorialNote>
+              </heading>
+              <num>23.</num>
+              <list>
+                <point eId="point_23__point_א">
+                  <num>(א)</num>
+                  <content>
+                    <p>על הרופא האחראי לגרום לכך שייעשה כל שניתן כדי להקל על כאבו וסבלו של חולה הנוטה למות, אף אם הדבר כרוך בסיכון סביר לחייו של החולה, לרבות באמצעות תרופות, משככי כאבים או באמצעים פסיכולוגיים, סיעודיים וסביבתיים, והכל על פי עקרונות נאותים של טיפול מקל, ובהתאם לתנאים ולהסדרים הנוהגים, מעת לעת, במערכת הבריאות בישראל, ובכפוף לרצון החולה הנוטה למות, בהתאם להוראות חוק זה ובהתאם להוראות <ref href="/akn/il/act/PrimaryLegislation/1996-05-12/174478">חוק זכויות החולה</ref>.</p>
+                  </content>
+                </point>
+                <point eId="point_23__point_ב">
+                  <num>(ב)</num>
+                  <content>
+                    <p>על הרופא האחראי לגרום לכך שייעשה, במידת האפשר, כל שניתן כדי להקל על בני משפחתו של חולה הנוטה למות ולדאוג לרווחתם בעת שהותו של החולה במוסד הרפואי, והכל על פי עקרונות נאותים של טיפול סוציאלי וטיפול מקל, ובהתאם לתנאים ולהסדרים הנוהגים, מעת לעת, במערכת הבריאות בישראל.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+          </list>
+        </section>
+        <section eId="chp_ד__sec_ו">
+          <num>סימן ו׳:</num>
+          <title>
+            <content>
+              <p>טיפול בקטין הנוטה למות</p>
+            </content>
+          </title>
+          <list>
+            <point eId="point_24">
+              <heading>
+                <authorialNote placement="side">
+                  <p>סמכות הורי קטין</p>
+                </authorialNote>
+              </heading>
+              <num>24.</num>
+              <content>
+                <p>הורה של קטין מוסמך לייצגו בענין הטיפול הרפואי בו, בין לענין הארכת חייו ובין לענין הימנעות מהארכת חייו; אפוטרופוס של קטין, שהוא אדם קרוב, רשאי להשמיע את עמדתו לענין זה והרופא האחראי רשאי לפעול על פיה; היה הקטין חסר הורים, או שנשללה אפוטרופסות ההורים ולא נקבע לקטין אפוטרופוס או שאפוטרופסו אינו אדם קרוב, תכריע בענינו הוועדה המוסדית.</p>
+              </content>
+            </point>
+            <point eId="point_25">
+              <heading>
+                <authorialNote placement="side">
+                  <p>שמיעת עמדתו של קטין</p>
+                </authorialNote>
+              </heading>
+              <num>25.</num>
+              <list>
+                <intro>
+                  <p>קטין שהוא חולה הנוטה למות, זכאי להשתתף בקבלת החלטה על הטיפול הרפואי בו, בהתקיים שניים אלה:</p>
+                </intro>
+                <point eId="point_25__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>הקטין מודע למצבו, ומבקש להשתתף בקבלת ההחלטה בענינו;</p>
+                  </content>
+                </point>
+                <point eId="point_25__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>הרופא האחראי קבע שכושרו ובשלותו השכליים והנפשיים של הקטין מאפשרים את שיתופו בקבלת ההחלטה בענינו.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_26">
+              <heading>
+                <authorialNote placement="side">
+                  <p>מסירת מידע רפואי לקטין</p>
+                </authorialNote>
+              </heading>
+              <num>26.</num>
+              <list>
+                <intro>
+                  <p>רופא אחראי ימסור לקטין מידע המתייחס באופן ישיר למצב בריאותו, או לטיפול הרפואי בו, בהתקיים שניים אלה:</p>
+                </intro>
+                <point eId="point_26__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>הרופא האחראי השתכנע כי אין במסירת המידע, או חלק ממנו, כדי לגרום נזק לבריאותו הגופנית או הנפשית של הקטין, או לסכן את חייו;</p>
+                  </content>
+                </point>
+                <point eId="point_26__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>הרופא האחראי קבע שכושרו ובשלותו השכליים והנפשיים של הקטין מאפשרים לו הבנה נאותה של המידע ומשמעותו.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_27">
+              <heading>
+                <authorialNote placement="side">
+                  <p>חובת התייעצות</p>
+                </authorialNote>
+              </heading>
+              <num>27.</num>
+              <content>
+                <p>החלטות כאמור <ref href="#point_25">בסעיפים 25(2)</ref><ref href="#point_26">ו־26</ref> יתקבלו לאחר התייעצות עם הורי הקטין, אפוטרופסו, אם מונה לו, עם המטפלים בקטין ועם רופאים רלוונטיים או מומחים הנוגעים בדבר, לפי הענין, ובמידת האפשר עם רופאו האישי.</p>
+              </content>
+            </point>
+            <point eId="point_28">
+              <heading>
+                <authorialNote placement="side">
+                  <p>הכרעה במחלוקת בענין קטין</p>
+                </authorialNote>
+              </heading>
+              <num>28.</num>
+              <list>
+                <point eId="point_28__point_א">
+                  <num>(א)</num>
+                  <content>
+                    <p>נתגלעו חילוקי דעות בין הורי קטין שהוא חולה הנוטה למות, או בינם לבין הרופא האחראי, לענין הטיפול הרפואי בו, תכריע בדבר הוועדה המוסדית.</p>
+                  </content>
+                </point>
+                <point eId="point_28__point_ב">
+                  <num>(ב)</num>
+                  <list>
+                    <intro>
+                      <p>נתגלעו חילוקי דעות בין קטין שהוא חולה הנוטה למות, לבין הוריו, או בינו לבין הרופא האחראי, לענין הטיפול הרפואי בו, יחולו הוראות אלה:</p>
+                    </intro>
+                    <point eId="point_28__point_ב__point_1">
+                      <num>(1)</num>
+                      <content>
+                        <p>הביע הקטין את רצונו שחייו יוארכו, יפעל הרופא האחראי בהתאם לרצונו של הקטין, בכפוף להוראות חוק זה;</p>
+                      </content>
+                    </point>
+                    <point eId="point_28__point_ב__point_2">
+                      <num>(2)</num>
+                      <content>
+                        <p>הביע קטין שמלאו לו 15 שנים את רצונו להימנע מהארכת חייו, תכריע בדבר ועדה מוסדית.</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+                <point eId="point_28__point_ג">
+                  <num>(ג)</num>
+                  <content>
+                    <p>דנה ועדה מוסדית בענינו של קטין שהוא חולה הנוטה למות, תישמע גם עמדתו, אם הובעה, וכן יימסר לוועדה פירוט המידע שנמסר לו.</p>
+                  </content>
+                </point>
+                <point eId="point_28__point_ד">
+                  <num>(ד)</num>
+                  <content>
+                    <p>הוועדה המוסדית תשקול בין שיקוליה את טובתו של הקטין, ותהיה רשאית לקבוע שיש להימנע מהארכת חייו של הקטין, אם שוכנעה כי אין זה לטובתו של הקטין שחייו יוארכו, בכפוף להוראות סעיף קטן (ב)(1).</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+          </list>
+        </section>
+        <section eId="chp_ד__sec_ז">
+          <num>סימן ז׳:</num>
+          <title>
+            <content>
+              <p>טיפול בחסוי נוטה למות</p>
+            </content>
+          </title>
+          <list>
+            <point eId="point_29">
+              <heading>
+                <authorialNote placement="side">
+                  <p>טיפול בחסוי נוטה למות</p>
+                </authorialNote>
+              </heading>
+              <num>29.</num>
+              <list>
+                <point eId="point_29__point_א">
+                  <num>(א)</num>
+                  <list>
+                    <intro>
+                      <p>בחוק זה, ”חסוי“ – אדם שמתקיימים בו כל אלה:</p>
+                    </intro>
+                    <point eId="point_29__point_א__point_1">
+                      <num>(1)</num>
+                      <content>
+                        <p>אינו יכול, דרך קבע, לדאוג לעניניו, בשל מוגבלות שכלית או נפשית;</p>
+                      </content>
+                    </point>
+                    <point eId="point_29__point_א__point_2">
+                      <num>(2)</num>
+                      <content>
+                        <p>מצב הדברים כאמור בפסקה (1) התקיים אצלו לפני שנקבע לגביו כי הוא חולה נוטה למות;</p>
+                      </content>
+                    </point>
+                    <point eId="point_29__point_א__point_3">
+                      <num>(3)</num>
+                      <content>
+                        <p>אין לגביו הנחיות רפואיות מקדימות בתוקף, או ייפוי כוח בתוקף.</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+                <point eId="point_29__point_ב">
+                  <num>(ב)</num>
+                  <content>
+                    <p>הביע חסוי את רצונו שחייו יוארכו, יפעל הרופא האחראי בהתאם לרצונו של החסוי, בכפוף להוראות חוק זה; הביע החסוי את רצונו להימנע מהארכת חייו, תכריע בענינו ועדה מוסדית; הוראות <ref href="#point_25">סעיפים 25</ref>, <ref href="#point_26">26</ref><ref href="#point_27">ו־27</ref> יחולו בשינויים המחויבים, לפי הענין.</p>
+                  </content>
+                </point>
+                <point eId="point_29__point_ג">
+                  <num>(ג)</num>
+                  <content>
+                    <p>לא נודע רצונו של החסוי, והסכימו הרופא האחראי והאפוטרופוס שיש להאריך את חייו – יפעל הרופא האחראי כאמור, בכפוף להוראות חוק זה; בכל מקרה אחר – תכריע הוועדה המוסדית בענינו של החסוי.</p>
+                  </content>
+                </point>
+                <point eId="point_29__point_ד">
+                  <num>(ד)</num>
+                  <content>
+                    <p>הוועדה המוסדית תשקול בין שיקוליה את טובתו של החסוי, ותהיה רשאית לקבוע שיש להימנע מהארכת חייו של החסוי, אם שוכנעה כי אין זה לטובתו של החסוי שחייו יוארכו, בכפוף להוראות סעיף קטן (ב).</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+          </list>
+        </section>
+      </chapter>
+      <chapter eId="chp_ה">
+        <num>פרק ה׳:</num>
+        <title>
+          <content>
+            <p>הבעת רצון מוקדמת</p>
+          </content>
+        </title>
+        <section eId="chp_ה__sec_א">
+          <num>סימן א׳:</num>
+          <title>
+            <content>
+              <p>הדרכים להבעת רצון מוקדמת</p>
+            </content>
+          </title>
+          <list>
+            <point eId="point_30">
+              <heading>
+                <authorialNote placement="side">
+                  <p>הבעת רצון מוקדמת</p>
+                </authorialNote>
+              </heading>
+              <num>30.</num>
+              <content>
+                <p>אדם רשאי להביע את רצונו, מראש, בשאלת הטיפול הרפואי בו אם יהיה חולה הנוטה למות שאינו בעל כשרות, במתן הנחיות רפואיות מקדימות, בייפוי כוח, או בשילוב ביניהם, הכל בכפוף להוראות <ref href="#chp_ה">פרק זה</ref> ובלבד שעשה כן מתוך רצון חופשי ועצמאי ושלא מתוך לחץ משפחתי, חברתי או אחר.</p>
+              </content>
+            </point>
+          </list>
+        </section>
+        <section eId="chp_ה__sec_ב">
+          <num>סימן ב׳:</num>
+          <title>
+            <content>
+              <p>הנחיות רפואיות מקדימות</p>
+            </content>
+          </title>
+          <list>
+            <point eId="point_31">
+              <heading>
+                <authorialNote placement="side">
+                  <p>הנחיות רפואיות מקדימות</p>
+                </authorialNote>
+              </heading>
+              <num>31.</num>
+              <content>
+                <p>אדם בעל כשרות רשאי לתת הנחיות רפואיות מקדימות שבהן יפרט את רצונו לגבי טיפול רפואי עתידי בו אם ייקבע לגביו כי הוא חולה הנוטה למות שאינו בעל כשרות, הכל לפי הוראות חוק זה.</p>
+              </content>
+            </point>
+            <point eId="point_32">
+              <heading>
+                <authorialNote placement="side">
+                  <p>מידע רפואי למתן הנחיות רפואיות מקדימות</p>
+                </authorialNote>
+              </heading>
+              <num>32.</num>
+              <list>
+                <point eId="point_32__point_א">
+                  <num>(א)</num>
+                  <content>
+                    <p>הנחיות רפואיות מקדימות יינתנו לאחר שהנותן קיבל מרופא או מאחות מוסמכת מידע רפואי הדרוש לו באופן סביר לשם מתן הנחיות רפואיות מקדימות (בחוק זה – מוסר המידע).</p>
+                  </content>
+                </point>
+                <point eId="point_32__point_ב">
+                  <num>(ב)</num>
+                  <content>
+                    <p>על אף הוראות סעיף קטן (א), נקבע בהתאם להוראות חוק זה כי אדם שהוא חולה נוטה למות, ייתן הנחיות רפואיות מקדימות לאחר שקיבל מרופא מומחה מידע בדבר מצבו הרפואי, לרבות מידע רפואי בדבר מצבו שהוא רלוונטי למתן ההנחיות וכן מידע רפואי הדרוש לו באופן סביר לשם מתן הנחיות רפואיות מקדימות.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_33">
+              <heading>
+                <authorialNote placement="side">
+                  <p>דרך מתן ההנחיות</p>
+                </authorialNote>
+              </heading>
+              <num>33.</num>
+              <list>
+                <point eId="point_33__point_א">
+                  <num>(א)</num>
+                  <content>
+                    <p>הנחיות רפואיות מקדימות יינתנו בכתב, על גבי טופס הנחיות רפואיות מקדימות שנוסחו מובא <ref href="#appendix_1">בתוספת הראשונה</ref>, בחתימת ידו של נותן ההנחיות בפני שני עדים שאין להם אינטרס כלכלי או אחר בנותן ההנחיות, ושאינם מיופה כוח, אך יכול שאחד העדים יהיה מוסר המידע; העדים יאשרו באותו מעמד בחתימת ידם על גבי טופס ההנחיות הרפואיות המקדימות שנותן ההנחיות חתם כאמור.</p>
+                  </content>
+                </point>
+                <point eId="point_33__point_ב">
+                  <num>(ב)</num>
+                  <list>
+                    <intro>
+                      <p>הנחיות רפואיות מקדימות יכול שיכללו הגדרה של נותן ההנחיות לסבל משמעותי ויכללו גם –</p>
+                    </intro>
+                    <point eId="point_33__point_ב__point_1">
+                      <num>(1)</num>
+                      <content>
+                        <p>הצהרה כי ההנחיות ניתנו מתוך רצון חופשי, על יסוד הבנה ושיקול דעת;</p>
+                      </content>
+                    </point>
+                    <point eId="point_33__point_ב__point_2">
+                      <num>(2)</num>
+                      <content>
+                        <p>תמצית המידע הרפואי שניתן לנותן ההנחיות כאמור <ref href="#point_32">בסעיף 32</ref>; התמצית תירשם בידי מוסר המידע אשר יאשר בחתימת ידו כי מסר לנותן ההנחיות מידע וכי הסביר לנותן ההנחיות את כל המונחים הרפואיים בהתאם להוראות <ref href="/akn/il/act/PrimaryLegislation/1996-05-12/174478#point_13">סעיף 13(ב) לחוק זכויות החולה</ref>.</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+                <point eId="point_33__point_ג">
+                  <num>(ג)</num>
+                  <content>
+                    <p>הנחיות רפואיות מקדימות יכול שיינתנו בדרכים אחרות שיקבע השר, באישור ועדת העבודה הרווחה והבריאות של הכנסת, ויכול שייקבעו כאמור דרך כלל או לסוגי מקרים שיקבע.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_34">
+              <heading>
+                <authorialNote placement="side">
+                  <p>תוקף הנחיות רפואיות מקדימות</p>
+                </authorialNote>
+              </heading>
+              <num>34.</num>
+              <list>
+                <point eId="point_34__point_א">
+                  <num>(א)</num>
+                  <content>
+                    <p>הנחיות רפואיות מקדימות יעמדו בתוקפן חמש שנים מיום חתימת טופס ההנחיות הרפואיות המקדימות, אלא אם כן נקבעה בו תקופה קצרה מכך וניתן להאריך את תוקפן לתקופות נוספות שכל אחת לא תעלה על חמש שנים; ההארכה תיעשה על גבי טופס ההארכה <ref href="#appendix_3">שבתוספת השלישית</ref>.</p>
+                  </content>
+                </point>
+                <point eId="point_34__point_ב">
+                  <num>(ב)</num>
+                  <content>
+                    <p>הנחיות רפואיות מקדימות שאינן מקיימות אחר כל הוראות <ref href="#chp_ה_sec_ב">סימן זה</ref> או הנחיות רפואיות מקדימות שפג תוקפן לפי סעיף קטן (א) אינן מחייבות, אך על הרופא האחראי לעיין בהן והוא רשאי להתחשב בהן לענין <ref href="#point_5">סעיפים 5(ג)</ref><ref href="#point_14">ו־14(ג)</ref>.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_35">
+              <heading>
+                <authorialNote placement="side">
+                  <p>הנחיות לא ברורות או לא מתאימות</p>
+                </authorialNote>
+              </heading>
+              <num>35.</num>
+              <content>
+                <p>לא ניתן לקבוע בבירור את רצונו של החולה הנוטה למות מההנחיות הרפואיות המקדימות שנתן, או שההנחיות הרפואיות אינן מתאימות לנסיבות המקרה, או בהעדר מיופה כוח או עדות ברורה של אדם קרוב – תכריע בדבר הוועדה המוסדית.</p>
+              </content>
+            </point>
+            <point eId="point_36">
+              <heading>
+                <authorialNote placement="side">
+                  <p>העדר הנחיות רפואיות מקדימות</p>
+                </authorialNote>
+              </heading>
+              <num>36.</num>
+              <content>
+                <p>אי־מתן הנחיות רפואיות מקדימות אין בו כשלעצמו כדי להעיד על רצונו של החולה הנוטה למות באשר לטיפול הרפואי בו או להימנעות מהטיפול הרפואי בו.</p>
+              </content>
+            </point>
+          </list>
+        </section>
+        <section eId="chp_ה__sec_ג">
+          <num>סימן ג׳:</num>
+          <title>
+            <content>
+              <p>ייפוי כוח</p>
+            </content>
+          </title>
+          <list>
+            <point eId="point_37">
+              <heading>
+                <authorialNote placement="side">
+                  <p>מיופה כוח</p>
+                </authorialNote>
+              </heading>
+              <num>37.</num>
+              <list>
+                <point eId="point_37__point_א">
+                  <num>(א)</num>
+                  <content>
+                    <p>אדם בעל כשרות רשאי למנות מיופה כוח על גבי טופס שנוסחו מובא <ref href="#appendix_2">בתוספת השניה</ref> ורשאי הוא למנות בייפוי הכוח מחליף למיופה הכוח.</p>
+                  </content>
+                </point>
+                <point eId="point_37__point_ב">
+                  <num>(ב)</num>
+                  <content>
+                    <p>מיופה הכוח יהיה מוסמך להחליט במקומו על הטיפול הרפואי שיינתן או שלא יינתן לו אם יהיה חולה הנוטה למות שאינו בעל כשרות; לא יוכל מיופה הכוח למלא במועד הנדרש את תפקידו, או יסרב לעשות כן, יהיה המחליף למיופה הכוח, מיופה הכוח.</p>
+                  </content>
+                </point>
+                <point eId="point_37__point_ג">
+                  <num>(ג)</num>
+                  <content>
+                    <p>בייפוי הכוח יפורטו הנסיבות והתנאים שבהם יהיה מוסמך מיופה הכוח לקבל החלטות כאמור.</p>
+                  </content>
+                </point>
+                <point eId="point_37__point_ד">
+                  <num>(ד)</num>
+                  <content>
+                    <p>ניתן ייפוי כוח שיש בו התייחסות למצבים רפואיים מסוימים או לטיפולים רפואיים מסוימים – יקבל נותן ייפוי הכוח מידע רפואי בהתאם להוראות <ref href="#point_32">סעיף 32</ref>, בשינויים המחויבים.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_38">
+              <heading>
+                <authorialNote placement="side">
+                  <p>דרכי המינוי ותיעודו</p>
+                </authorialNote>
+              </heading>
+              <num>38.</num>
+              <list>
+                <point eId="point_38__point_א">
+                  <num>(א)</num>
+                  <list>
+                    <intro>
+                      <p>ייפוי כוח יינתן בכתב, מתוך רצון חופשי ועצמאי, על יסוד הבנה ושיקול דעת וייחתם בחתימת ידם של מייפה הכוח ושל שני עדים שאין להם אינטרס כלכלי או אחר במייפה הכוח, ושאינם מיופה כוח, אך יכול שאחד העדים יהיה מוסר המידע כאמור <ref href="#point_37">בסעיף 37(ד)</ref>; יכול שייפוי הכוח יכלול הגדרה של נותן ייפוי הכוח לסבל משמעותי; ייפוי הכוח יכלול גם –</p>
+                    </intro>
+                    <point eId="point_38__point_א__point_1">
+                      <num>(1)</num>
+                      <content>
+                        <p>הצהרה כי ייפוי הכוח ניתן מתוך רצון חופשי, על יסוד הבנה ושיקול דעת;</p>
+                      </content>
+                    </point>
+                    <point eId="point_38__point_א__point_2">
+                      <num>(2)</num>
+                      <content>
+                        <p>ניתן ייפוי כוח כאמור <ref href="#point_37">בסעיף 37(ד)</ref>, יחולו הוראות <ref href="#point_33">סעיף 33(ב)(2)</ref> בשינויים המחויבים.</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+                <point eId="point_38__point_ב">
+                  <num>(ב)</num>
+                  <content>
+                    <p>בייפוי הכוח יציין מייפה הכוח כי מיופה כוחו יהיה מוסמך לקבל במקומו החלטות בענין הטיפול הרפואי בו אם יהיה חולה הנוטה למות שאינו בעל כשרות, ויכול הוא לפרט את הנסיבות והתנאים שבהם יהיה מוסמך מיופה הכוח להחליט במקומו על הטיפולים הרפואיים בו, כולם או חלקם.</p>
+                  </content>
+                </point>
+                <point eId="point_38__point_ג">
+                  <num>(ג)</num>
+                  <content>
+                    <p>ייפוי כוח יכול שיינתן בדרכים אחרות שיקבע השר, באישור ועדת העבודה הרווחה והבריאות של הכנסת, ויכול שיקבעו כאמור דרך כלל או לסוגי מקרים שיקבע.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_39">
+              <heading>
+                <authorialNote placement="side">
+                  <p>תוקף ייפוי כוח</p>
+                </authorialNote>
+              </heading>
+              <num>39.</num>
+              <list>
+                <point eId="point_39__point_א">
+                  <num>(א)</num>
+                  <content>
+                    <p>תוקפו של ייפוי כוח לא יעלה על חמש שנים, וניתן להאריך את תוקפו לתקופות נוספות שכל אחת לא תעלה על חמש שנים; ההארכה תיעשה על גבי טופס שנוסחו מובא <ref href="#appendix_3">בתוספת השלישית</ref>.</p>
+                  </content>
+                </point>
+                <point eId="point_39__point_ב">
+                  <num>(ב)</num>
+                  <content>
+                    <p>לא נקבעה בייפוי הכוח תקופת תוקפו, יעמוד ייפוי הכוח בתוקפו חמש שנים מיום שניתן; לא חידש אדם ייפוי כוח שנתן או שלא נקבעה בו תקופת תוקפו, ייחשב ייפוי הכוח כמסמך שאינו מחייב, אך על הרופא האחראי לעיין בו והוא רשאי להתחשב בו לענין <ref href="#point_5">סעיפים 5(ג)</ref><ref href="#point_14">ו־14(ג)</ref>.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_40">
+              <heading>
+                <authorialNote placement="side">
+                  <p>השגה על החלטת מיופה כוח</p>
+                </authorialNote>
+              </heading>
+              <num>40.</num>
+              <content>
+                <p>אדם שיש לו יסוד סביר לחשש, כי מיופה כוח פועל שלא לפי רצונו של החולה הנוטה למות או מתוך ניגוד ענינים, רשאי הוא לפנות לוועדה המוסדית; השתכנעה הוועדה המוסדית שמיופה הכוח פועל ממניעים שאינם מבטאים את רצונו של החולה הנוטה למות, או מתוך ניגוד ענינים, רשאית היא לקבוע מהו הטיפול הרפואי הראוי בחולה הנוטה למות או לבטל את ייפוי הכוח.</p>
+              </content>
+            </point>
+          </list>
+        </section>
+        <section eId="chp_ה__sec_ד">
+          <num>סימן ד׳:</num>
+          <title>
+            <content>
+              <p>הוראות כלליות</p>
+            </content>
+          </title>
+          <list>
+            <point eId="point_41">
+              <heading>
+                <authorialNote placement="side">
+                  <p>חובת יידוע</p>
+                </authorialNote>
+              </heading>
+              <num>41.</num>
+              <content>
+                <p>קבע רופא אחראי כי מטופל הוא חולה הנוטה למות, והוא בעל כשרות, יודיע לו הרופא האחראי על האפשרות לתת הנחיות רפואיות מקדימות או למנות מיופה כוח או יודיע לו על האפשרות לעדכן הנחיות רפואיות מקדימות או ייפוי כוח שנתן; לשם כך, ימסור לו רופא מומחה את המידע הרפואי הדרוש, והכל בכפוף להוראות <ref href="/akn/il/act/PrimaryLegislation/1996-05-12/174478#point_13">סעיף 13(ד) לחוק זכויות החולה</ref>.</p>
+              </content>
+            </point>
+            <point eId="point_42">
+              <heading>
+                <authorialNote placement="side">
+                  <p>אפשרות השילוב</p>
+                </authorialNote>
+              </heading>
+              <num>42.</num>
+              <list>
+                <point eId="point_42__point_א">
+                  <num>(א)</num>
+                  <content>
+                    <p>אדם רשאי לשלב מתן הנחיות רפואיות מקדימות לפי הוראות <ref href="#chp_ה_sec_ב">סימן ב׳</ref>, עם מינוי מיופה כוח מטעמו לפי הוראות <ref href="#chp_ה_sec_ג">סימן ג׳</ref>.</p>
+                  </content>
+                </point>
+                <point eId="point_42__point_ב">
+                  <num>(ב)</num>
+                  <content>
+                    <p>בהנחיות הרפואיות המקדימות ובייפוי הכוח רשאי אדם לכלול הוראות למקרה שבו ייווצר ניגוד בין הנחיה רפואית מקדימה לבין הוראה של מיופה הכוח.</p>
+                  </content>
+                </point>
+                <point eId="point_42__point_ג">
+                  <num>(ג)</num>
+                  <content>
+                    <p>בהעדר הוראה כאמור בסעיף קטן (ב) עדיפה ההנחיה המקדימה; ואולם אם ניתן ייפוי הכוח תקופה משמעותית לאחר מתן ההנחיה, יובא הנושא להכרעת הוועדה המוסדית אשר תקבע אם ייפוי הכוח עדיף על פני ההנחיה הרפואית המקדימה.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_43">
+              <heading>
+                <authorialNote placement="side">
+                  <p>שינוי וביטול</p>
+                </authorialNote>
+              </heading>
+              <num>43.</num>
+              <list>
+                <point eId="point_43__point_א">
+                  <num>(א)</num>
+                  <list>
+                    <point eId="point_43__point_א__point_1">
+                      <num>(1)</num>
+                      <content>
+                        <p>ניתנו הנחיות רפואיות מקדימות ולאחר מכן ניתנו שוב הנחיות רפואיות מקדימות, יגברו ההנחיות הרפואיות המקדימות שניתנו במועד המאוחר יותר; כן הדבר לענין מינוי מיופה כוח לפי חוק זה.</p>
+                      </content>
+                    </point>
+                    <point eId="point_43__point_א__point_2">
+                      <num>(2)</num>
+                      <content>
+                        <p>הנחיות רפואיות מקדימות או ייפוי כוח ניתנים לביטול על גבי טופס שנוסחו מובא <ref href="#appendix_4">בתוספת הרביעית</ref>, בכתב בפני שני עדים או בדרך אחרת שיקבע השר לפי <ref href="#point_33">סעיפים 33(ג)</ref><ref href="#point_38">או 38(ג)</ref>.</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+                <point eId="point_43__point_ב">
+                  <num>(ב)</num>
+                  <list>
+                    <intro>
+                      <p>שינוי או ביטול לטובת הרצון להוסיף לחיות במצב חירום רפואי, יכול שיהיה שלא בכתב ודי בעד אחד; ובלבד שההנחיה בדבר הטיפול הרפואי באותו מצב חירום והעדות יתועדו בכתב סמוך ככל האפשר לאחר מכן; בחלוף מצב החירום האמור, ימשיכו לעמוד בתוקפן הנחיות רפואיות מקדימות או ייפוי כוח שבתוקף, אלא אם כן התקיים אחד מאלה:</p>
+                    </intro>
+                    <point eId="point_43__point_ב__point_1">
+                      <num>(1)</num>
+                      <content>
+                        <p>ההנחיות או ייפוי הכוח בוטלו לפי הוראות סעיף קטן (א);</p>
+                      </content>
+                    </point>
+                    <point eId="point_43__point_ב__point_2">
+                      <num>(2)</num>
+                      <content>
+                        <p>החולה לא היה יכול, באופן סביר, לבטל או לשנות את ההנחיות או ייפוי הכוח.</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+                <point eId="point_43__point_ג">
+                  <num>(ג)</num>
+                  <content>
+                    <p>על אף הוראות סעיף קטן (א), נבצר מאדם לשנות או לבטל הנחיות רפואיות מקדימות או ייפוי כוח שנתן בדרך האמורה באותו סעיף קטן, בין לטובת הרצון לחיות ובין שלא לטובת הרצון לחיות, מחמת מחלה או מום שבשלהם אינו מסוגל לבצע את הפעולות המעשיות הנדרשות לשם כך, רשאי הוא לתת את הוראותיו באמצעות אדם אחר, בתנאים ובאופן שיקבע השר.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+          </list>
+        </section>
+        <section eId="chp_ה__sec_ה">
+          <num>סימן ה׳:</num>
+          <title>
+            <content>
+              <p>מאגר מידע</p>
+            </content>
+          </title>
+          <list>
+            <point eId="point_44">
+              <heading>
+                <authorialNote placement="side">
+                  <p>מאגר מידע</p>
+                </authorialNote>
+              </heading>
+              <num>44.</num>
+              <list>
+                <point eId="point_44__point_א">
+                  <num>(א)</num>
+                  <content>
+                    <p>השר יקים מאגר מידע, שיירשמו בו הנחיות רפואיות מקדימות וייפויי כוח, וימנה אחראי על המאגר.</p>
+                  </content>
+                </point>
+                <point eId="point_44__point_ב">
+                  <num>(ב)</num>
+                  <content>
+                    <p>כל אדם רשאי לבקש לרשום במאגר המידע הנחיות רפואיות מקדימות או ייפוי כוח, שנתן, וכן ביטול או שינוי שלהם כאמור <ref href="#point_43">בסעיף 43</ref>, בהודעה לאחראי על המאגר.</p>
+                  </content>
+                </point>
+                <point eId="point_44__point_ג">
+                  <num>(ג)</num>
+                  <content>
+                    <p>אחת לחמש שנים לפחות ישלח האחראי על המאגר הודעות תזכורת לאדם הרשום במאגר, למענו לפי מרשם האוכלוסין או למען אחר שציין בבקשת הרישום, לחידוש ההנחיות הרפואיות המקדימות או ייפויי הכוח.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+          </list>
+        </section>
+      </chapter>
+      <chapter eId="chp_ו">
+        <num>פרק ו׳:</num>
+        <title>
+          <content>
+            <p>הוועדה הארצית וועדות מוסדיות</p>
+          </content>
+        </title>
+        <section eId="chp_ו__sec_א">
+          <num>סימן א׳:</num>
+          <title>
+            <content>
+              <p>ועדה מוסדית</p>
+            </content>
+          </title>
+          <list>
+            <point eId="point_45">
+              <heading>
+                <authorialNote placement="side">
+                  <p>מינוי ועדות מוסדיות</p>
+                </authorialNote>
+              </heading>
+              <num>45.</num>
+              <list>
+                <point eId="point_45__point_א">
+                  <num>(א)</num>
+                  <list>
+                    <intro>
+                      <p>המנהל הכללי רשאי להורות למנהל מוסד רפואי למנות ועדה מוסדית; הורה המנהל הכללי כאמור, ימנה מנהל המוסד הרפואי בהתייעצות עם ראש הוועדה הארצית ובאישור המנהל הכללי, ועדה מוסדית; ואלה חבריה:</p>
+                    </intro>
+                    <point eId="point_45__point_א__point_1">
+                      <num>(1)</num>
+                      <content>
+                        <p>שלושה רופאים, שאינם מטפלים ישירות בחולה, שהם רופאים מומחים באחד מתחומים אלה: רפואה פנימית, גריאטריה, קרדיולוגיה, נוירולוגיה, אונקולוגיה, טיפול נמרץ, הרדמה, רפואת המשפחה; היה החולה יילוד, יהיה אחד מבין הרופאים כאמור רופא מומחה בנאונטולוגיה; היה החולה קטין, יהיה אחד מבין הרופאים כאמור רופא מומחה ברפואת ילדים ואחד במקומם יהיה פסיכולוג קליני או רפואי שעיסוקו בטיפול בילדים ונוער;</p>
+                      </content>
+                    </point>
+                    <point eId="point_45__point_א__point_2">
+                      <num>(2)</num>
+                      <content>
+                        <p>רופא שאינו מטפל ישירות בחולה, שהוא רופא מומחה בפסיכיאטריה;</p>
+                      </content>
+                    </point>
+                    <point eId="point_45__point_א__point_3">
+                      <num>(3)</num>
+                      <content>
+                        <p>אחות מוסמכת;</p>
+                      </content>
+                    </point>
+                    <point eId="point_45__point_א__point_4">
+                      <num>(4)</num>
+                      <content>
+                        <p>עובד סוציאלי או פסיכולוג קליני;</p>
+                      </content>
+                    </point>
+                    <point eId="point_45__point_א__point_5">
+                      <num>(5)</num>
+                      <content>
+                        <p>איש אקדמיה המומחה בתחום הפילוסופיה או האתיקה;</p>
+                      </content>
+                    </point>
+                    <point eId="point_45__point_א__point_6">
+                      <num>(6)</num>
+                      <content>
+                        <p>משפטן הכשיר להתמנות שופט בית המשפט המחוזי, מתוך רשימה שערך שר המשפטים;</p>
+                      </content>
+                    </point>
+                    <point eId="point_45__point_א__point_7">
+                      <num>(7)</num>
+                      <content>
+                        <p>איש דת לפי דתו של החולה, ככל האפשר.</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+                <point eId="point_45__point_ב">
+                  <num>(ב)</num>
+                  <content>
+                    <p>לכל חבר ועדה מוסדית ימונה ממלא מקום בעל הכשירות הנדרשת לפי סעיף זה.</p>
+                  </content>
+                </point>
+                <point eId="point_45__point_ג">
+                  <num>(ג)</num>
+                  <content>
+                    <p>ועדה מוסדית תבחר את יושב ראש הוועדה, מבין חבריה.</p>
+                  </content>
+                </point>
+                <point eId="point_45__point_ד">
+                  <num>(ד)</num>
+                  <content>
+                    <p>ועדה מוסדית תתכנס סמוך ככל האפשר למועד הפנייה אליה, ובזמן שקביעתה תהיה רלוונטית.</p>
+                  </content>
+                </point>
+                <point eId="point_45__point_ה">
+                  <num>(ה)</num>
+                  <list>
+                    <intro>
+                      <p>ועדה מוסדית רשאית להסמיך הרכב חלקי מתוכה, שידון במקרים דחופים; ההרכב החלקי יכלול לפחות חברי ועדה אלה:</p>
+                    </intro>
+                    <point eId="point_45__point_ה__point_1">
+                      <num>(1)</num>
+                      <content>
+                        <p>רופא בעל כשירות כאמור בסעיף קטן (א)(1) או (2);</p>
+                      </content>
+                    </point>
+                    <point eId="point_45__point_ה__point_2">
+                      <num>(2)</num>
+                      <content>
+                        <p>אחד מבין חברי ועדה אלה: אחות מוסמכת, עובד סוציאלי או פסיכולוג קליני;</p>
+                      </content>
+                    </point>
+                    <point eId="point_45__point_ה__point_3">
+                      <num>(3)</num>
+                      <content>
+                        <p>אחד מבין חברי ועדה אלה: איש אקדמיה כאמור בסעיף קטן (א)(5), משפטן כאמור בסעיף קטן (א)(6) או איש דת כאמור בסעיף קטן (א)(7).</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+              </list>
+            </point>
+            <point eId="point_46">
+              <heading>
+                <authorialNote placement="side">
+                  <p>פניה לוועדה</p>
+                </authorialNote>
+              </heading>
+              <num>46.</num>
+              <list>
+                <point eId="point_46__point_א">
+                  <num>(א)</num>
+                  <list>
+                    <intro>
+                      <p>הפנייה לוועדה מוסדית יכול שתיעשה בידי אחד מאלה:</p>
+                    </intro>
+                    <point eId="point_46__point_א__point_1">
+                      <num>(1)</num>
+                      <content>
+                        <p>מטופל שנקבע לגביו לפי הוראות <ref href="#point_8">סעיף 8</ref> כי אינו חולה הנוטה למות ומטופל שנקבע לגביו לפי הוראות <ref href="#point_8">הסעיף האמור</ref> כי הוא חולה הנוטה למות (<ref href="#chp_ו">בפרק זה</ref> – החולה), או מי מטעמו של חולה כאמור;</p>
+                      </content>
+                    </point>
+                    <point eId="point_46__point_א__point_2">
+                      <num>(2)</num>
+                      <content>
+                        <p>מיופה כוחו של חולה;</p>
+                      </content>
+                    </point>
+                    <point eId="point_46__point_א__point_3">
+                      <num>(3)</num>
+                      <content>
+                        <p>אדם קרוב או אפוטרופסו של חולה שאינו בעל כשרות;</p>
+                      </content>
+                    </point>
+                    <point eId="point_46__point_א__point_4">
+                      <num>(4)</num>
+                      <content>
+                        <p>מטפל מבין חברי הצוות הרפואי במוסד הרפואי שבו מטופל החולה;</p>
+                      </content>
+                    </point>
+                    <point eId="point_46__point_א__point_5">
+                      <num>(5)</num>
+                      <content>
+                        <p>רופאו האישי של החולה;</p>
+                      </content>
+                    </point>
+                    <point eId="point_46__point_א__point_6">
+                      <num>(6)</num>
+                      <content>
+                        <p>עובד סוציאלי.</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+                <point eId="point_46__point_ב">
+                  <num>(ב)</num>
+                  <content>
+                    <p>פנה לוועדה מוסדית בענינים המנויים <ref href="#point_47">בסעיף 47</ref> אדם שאינו החולה או מי מטעמו, תודיע הוועדה על הפנייה לחולה או למי מטעמו; לא היה החולה בעל כשרות תודיע הוועדה על הפנייה גם למיופה כוחו ולאפוטרופסו, אם ישנם, וכן לאדם קרוב, לפי הענין.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_47">
+              <heading>
+                <authorialNote placement="side">
+                  <p>סמכויות ועדה מוסדית והחלטותיה</p>
+                </authorialNote>
+              </heading>
+              <num>47.</num>
+              <list>
+                <point eId="point_47__point_א">
+                  <num>(א)</num>
+                  <list>
+                    <intro>
+                      <p>ועדה מוסדית מוסמכת להכריע במקרים שבהם קיימת מחלוקת בין הנוגעים בדבר או מתעורר ספק כיצד לנהוג בחולה, ובין השאר במקרים אלה:</p>
+                    </intro>
+                    <point eId="point_47__point_א__point_1">
+                      <num>(1)</num>
+                      <content>
+                        <p>השגה על החלטת רופא אחראי לענין חזקת הרצון להוסיף לחיות לפי <ref href="#point_4">סעיף 4</ref> או חזקת הכשרות לפי <ref href="#point_6">סעיף 6</ref>;</p>
+                      </content>
+                    </point>
+                    <point eId="point_47__point_א__point_2">
+                      <num>(2)</num>
+                      <content>
+                        <p>מחלוקת בין הורי קטין חולה, בינם לבין עצמם או בינם לבין הרופא האחראי, וכן מחלוקת בין קטין שהוא חולה נוטה למות לבין הוריו או בינו לבין המטפלים בו, כאמור <ref href="#point_28">בסעיף 28</ref>;</p>
+                      </content>
+                    </point>
+                    <point eId="point_47__point_א__point_3">
+                      <num>(3)</num>
+                      <content>
+                        <p>מחלוקת בין אפוטרופוס לבין קטין חולה, הוריו או הרופא האחראי, לענין <ref href="#point_24">סעיף 24</ref>;</p>
+                      </content>
+                    </point>
+                    <point eId="point_47__point_א__point_4">
+                      <num>(4)</num>
+                      <content>
+                        <p>בירור רצונו של חולה נוטה למות מתוך הנחיות רפואיות מקדימות שנתן כאמור <ref href="#point_35">בסעיף 35</ref>;</p>
+                      </content>
+                    </point>
+                    <point eId="point_47__point_א__point_5">
+                      <num>(5)</num>
+                      <content>
+                        <p>השגה על החלטת מיופה כוח כאמור <ref href="#point_40">בסעיף 40</ref>;</p>
+                      </content>
+                    </point>
+                    <point eId="point_47__point_א__point_6">
+                      <num>(6)</num>
+                      <content>
+                        <p>קביעת העדיפות בין ההנחיות הרפואיות המקדימות לבין ייפוי הכוח כאמור <ref href="#point_42">בסעיף 42(ג)</ref>;</p>
+                      </content>
+                    </point>
+                    <point eId="point_47__point_א__point_7">
+                      <num>(7)</num>
+                      <content>
+                        <p>קביעת רופא אחראי לענין היותו של מטופל חולה נוטה למות או חולה בשלב סופי, כאמור <ref href="#point_8">בסעיף 8</ref>;</p>
+                      </content>
+                    </point>
+                    <point eId="point_47__point_א__point_8">
+                      <num>(8)</num>
+                      <content>
+                        <p>קביעת רופא אחראי לענין היותו של אדם, אדם קרוב לחולה הנוטה למות.</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+                <point eId="point_47__point_ב">
+                  <num>(ב)</num>
+                  <content>
+                    <p>בבואה להכריע במחלוקת כאמור בסעיף קטן (א) תברר ועדה מוסדית את רצונו של החולה ביחס לטיפול הרפואי בו ותיתן הוראות למימוש רצונו על פי נתונים עובדתיים שיובאו לפניה ובכפוף להוראות חוק זה; בהיעדר נתונים עובדתיים בדבר רצונו של החולה בדיון לפי סעיף קטן (א)(1) עד (6) תחליט הוועדה בהתאם לאומד רצונו של החולה על פי השקפת עולמו ואורח חייו, ובמידת הצורך תוך התייעצות עם אדם קרוב לחולה הנוטה למות ועם אנשים המייצגים השקפת עולם הדומה לזו של החולה; ולענין קטין או חסוי תכריע הוועדה גם בהתאם לאמור <ref href="#point_28">בסעיף 28(ד)</ref><ref href="#point_29">או 29(ד)</ref>, לפי הענין.</p>
+                  </content>
+                </point>
+                <point eId="point_47__point_ג">
+                  <num>(ג)</num>
+                  <content>
+                    <p>המנויים <ref href="#point_46">בסעיף 46(א)</ref> וכן כל אדם שיש לו ענין במטופל, רשאים לטעון לפני הוועדה המוסדית.</p>
+                  </content>
+                </point>
+                <point eId="point_47__point_ד">
+                  <num>(ד)</num>
+                  <content>
+                    <p>החלטת ועדה מוסדית, למעט בדיון בהרכב חלקי כאמור <ref href="#point_45">בסעיף 45(ה)</ref>, תהיה תקפה רק אם השתתפו בדיון ובקבלת ההחלטה חמישה חברים לפחות, ובהם המשפטן, רופא אחד ושני חברים נוספים מבין החברים שאינם רופאים; החלטות הוועדה יתקבלו ברוב דעות; היו הדעות שקולות – תכריע דעתו של היושב ראש.</p>
+                  </content>
+                </point>
+                <point eId="point_47__point_ה">
+                  <num>(ה)</num>
+                  <content>
+                    <p>ועדה מוסדית רשאית להחליט בפנייה, להעביר את המקרה להכרעתה של הוועדה הארצית או להביא את הצדדים המעורבים להסכמה; הסכימו הצדדים – לא תחליט הוועדה בפנייה.</p>
+                  </content>
+                </point>
+                <point eId="point_47__point_ו">
+                  <num>(ו)</num>
+                  <content>
+                    <p>ועדה מוסדית במוסד רפואי תדון בענינו של חולה המטופל במוסד הרפואי שאליו היא שייכת, ובענינו של חולה שאינו מטופל במוסד רפואי, אם הרופא האחראי בענינו מועסק במוסד הרפואי; ועדה מוסדית בקופת חולים תדון בענינו של חולה המטופל בידי רופא אחראי שאינו רופא כמפורט בפסקה (1) להגדרה רופא אחראי, שהוא רופא מחוזי או מי שמונה על ידו, והוועדה תהיה הוועדה המוסדית שבקופת חולים שבה רשום החולה; כן תדון ועדה מוסדית בענינו של חולה שלגביו הורה לה המנהל הכללי לדון ולהכריע.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_48">
+              <heading>
+                <authorialNote placement="side">
+                  <p>דיון חוזר בוועדה</p>
+                </authorialNote>
+              </heading>
+              <num>48.</num>
+              <content>
+                <p>הוגשה פנייה חוזרת לוועדה לפי <ref href="#point_46">סעיף 46</ref> בענין של החולה הנוטה למות שכבר נדון והוכרע בוועדה והחליטה הוועדה לגביו ולא חל שינוי בנסיבות, רשאי יושב ראש הוועדה לקבוע כי הפנייה החוזרת לא תובא לפני הוועדה לדיון חוזר.</p>
+              </content>
+            </point>
+            <point eId="point_49">
+              <heading>
+                <authorialNote placement="side">
+                  <p>סייג לדיון חוזר</p>
+                </authorialNote>
+              </heading>
+              <num>49.</num>
+              <content>
+                <p>לא תדון הוועדה בפנייה שלגביה הוגש ערר לפי <ref href="#point_51">סעיף 51(א)(4)</ref> או הוגשה עתירה לבית המשפט הגבוה לצדק.</p>
+              </content>
+            </point>
+          </list>
+        </section>
+        <section eId="chp_ו__sec_ב">
+          <num>סימן ב׳:</num>
+          <title>
+            <content>
+              <p>הוועדה הארצית</p>
+            </content>
+          </title>
+          <list>
+            <point eId="point_50">
+              <heading>
+                <authorialNote placement="side">
+                  <p>מינוי ועדה ארצית ומותביה</p>
+                </authorialNote>
+              </heading>
+              <num>50.</num>
+              <list>
+                <point eId="point_50__point_א">
+                  <num>(א)</num>
+                  <list>
+                    <intro>
+                      <p>המנהל הכללי ימנה את הוועדה הארצית, ואלה חבריה:</p>
+                    </intro>
+                    <point eId="point_50__point_א__point_1">
+                      <num>(1)</num>
+                      <content>
+                        <p>ארבעה רופאים מומחים, בדרג של מנהל יחידה, מנהל מחלקה, או מנהל בית חולים;</p>
+                      </content>
+                    </point>
+                    <point eId="point_50__point_א__point_2">
+                      <num>(2)</num>
+                      <content>
+                        <p>ארבע אחיות מוסמכות, בדרגה בכירה;</p>
+                      </content>
+                    </point>
+                    <point eId="point_50__point_א__point_3">
+                      <num>(3)</num>
+                      <content>
+                        <p>ארבעה חברים שהם עובדים סוציאליים במוסד רפואי, בדרגת ניהול בכירה, או פסיכולוגים קליניים במוסד רפואי, בדרגת ניהול בכירה;</p>
+                      </content>
+                    </point>
+                    <point eId="point_50__point_א__point_4">
+                      <num>(4)</num>
+                      <content>
+                        <p>ארבעה אנשי אקדמיה המומחים בתחום הפילוסופיה או האתיקה, בדרגה אקדמית בכירה;</p>
+                      </content>
+                    </point>
+                    <point eId="point_50__point_א__point_5">
+                      <num>(5)</num>
+                      <content>
+                        <p>ארבעה משפטנים הכשירים להתמנות שופטי בית משפט מחוזי, או שהם בדרגה אקדמית בכירה;</p>
+                      </content>
+                    </point>
+                    <point eId="point_50__point_א__point_6">
+                      <num>(6)</num>
+                      <content>
+                        <p>ארבעה אנשי דת.</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+                <point eId="point_50__point_ב">
+                  <num>(ב)</num>
+                  <content>
+                    <p>החברים שימונו יהיו בעלי ניסיון בתחומים שחוק זה דן בהם; איש דת יהודי ימונה בהתייעצות עם הרבנים הראשיים לישראל ואיש דת לא יהודי ימונה בהתייעצות עם נשיא בית הדין לערעורים של אותה עדה דתית בישראל; המשפטן ימונה בהתייעצות עם היועץ המשפטי לממשלה.</p>
+                  </content>
+                </point>
+                <point eId="point_50__point_ג">
+                  <num>(ג)</num>
+                  <content>
+                    <p>המנהל הכללי ימנה את יושב ראש הוועדה ואת ממלא מקומו, מבין חבריה.</p>
+                  </content>
+                </point>
+                <point eId="point_50__point_ד">
+                  <num>(ד)</num>
+                  <content>
+                    <p>יושב ראש הוועדה ימנה, מבין חברי הוועדה, את מותבי הוועדה; לכל מותב ימונו שישה חברים, כל אחד מתחום עיסוק אחר כמפורט בפסקאות (1) עד (6) של סעיף קטן (א), וכן ימנה ממלא מקום לכל אחד מהם; יושב ראש הוועדה ימנה לכל מותב את היושב ראש ואת ממלא מקומו.</p>
+                  </content>
+                </point>
+                <point eId="point_50__point_ה">
+                  <num>(ה)</num>
+                  <content>
+                    <p>חבר הוועדה הארצית ימונה לתקופה של חמש שנים, וניתן לשוב ולמנותו לתקופות נוספות.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_51">
+              <heading>
+                <authorialNote placement="side">
+                  <p>סמכויות הוועדה הארצית ופנייה לוועדה הארצית</p>
+                </authorialNote>
+              </heading>
+              <num>51.</num>
+              <list>
+                <point eId="point_51__point_א">
+                  <num>(א)</num>
+                  <list>
+                    <intro>
+                      <p>הוועדה הארצית מוסמכת לדון ולהכריע באלה:</p>
+                    </intro>
+                    <point eId="point_51__point_א__point_1">
+                      <num>(1)</num>
+                      <content>
+                        <p>חילוקי דעות בין חברי הוועדה המוסדית, לפי פנייה של אחד לפחות מבין חברי הוועדה המוסדית;</p>
+                      </content>
+                    </point>
+                    <point eId="point_51__point_א__point_2">
+                      <num>(2)</num>
+                      <content>
+                        <p>מקרים חריגים בעלי חשיבות עקרונית אשר ועדה מוסדית העבירה להכרעתה;</p>
+                      </content>
+                    </point>
+                    <point eId="point_51__point_א__point_3">
+                      <num>(3)</num>
+                      <content>
+                        <p>מקרים שוועדה מוסדית העבירה להכרעתה של הוועדה הארצית, בלא שתכריע בהם;</p>
+                      </content>
+                    </point>
+                    <point eId="point_51__point_א__point_4">
+                      <num>(4)</num>
+                      <content>
+                        <p>ערר על החלטה של ועדה מוסדית שהוגש בידי מי שזכאי לפנות לוועדה מוסדית.</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+                <point eId="point_51__point_ב">
+                  <num>(ב)</num>
+                  <content>
+                    <p>בבואה להכריע במחלוקת כאמור בסעיף קטן (א) תברר הוועדה הארצית את רצונו של החולה ביחס לטיפול הרפואי בו ותיתן הוראות למימוש רצונו על פי נתונים עובדתיים שיובאו לפניה ובכפוף להוראות חוק זה; בהעדר נתונים עובדתיים בדבר רצונו של החולה תחליט הוועדה בהתאם לאומד רצונו של החולה על פי השקפת עולמו ואורח חייו, ובמידת הצורך תוך התייעצות עם אדם קרוב לחולה הנוטה למות ועם אנשים המייצגים השקפת עולם הדומה לזו של החולה; ולענין קטין או חסוי תכריע הוועדה גם בהתאם לאמור <ref href="#point_28">בסעיף 28(ד)</ref><ref href="#point_29">או 29(ד)</ref>, לפי הענין.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_52">
+              <heading>
+                <authorialNote placement="side">
+                  <p>החלטות הוועדה הארצית</p>
+                </authorialNote>
+              </heading>
+              <num>52.</num>
+              <list>
+                <point eId="point_52__point_א">
+                  <num>(א)</num>
+                  <content>
+                    <p>המנויים <ref href="#point_46">בסעיף 46(א)</ref> וכן כל אדם שיש לו ענין במטופל, רשאים לטעון לפני הוועדה הארצית.</p>
+                  </content>
+                </point>
+                <point eId="point_52__point_ב">
+                  <num>(ב)</num>
+                  <content>
+                    <p>החלטות הוועדה הארצית יתקבלו ברוב דעות חברי המותב; היו הדעות שקולות תכריע דעתו של יושב ראש המותב.</p>
+                  </content>
+                </point>
+                <point eId="point_52__point_ג">
+                  <num>(ג)</num>
+                  <content>
+                    <p>תוקף החלטות הוועדה הארצית מותנה בהשתתפות בדיון של נציג מכל אחד מתחומי העיסוק שמהם מורכבת הוועדה, המפורטים <ref href="#point_50">בפסקאות (1) עד (6) של סעיף 50(א)</ref>.</p>
+                  </content>
+                </point>
+                <point eId="point_52__point_ד">
+                  <num>(ד)</num>
+                  <content>
+                    <p>הוועדה הארצית תחליט בערר או בפנייה שהובאה לפניה.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_53">
+              <heading>
+                <authorialNote placement="side">
+                  <p>התייצבות היועץ המשפטי לממשלה</p>
+                </authorialNote>
+              </heading>
+              <num>53.</num>
+              <content>
+                <p>ראה היועץ המשפטי לממשלה כי ענין הנדון לפני הוועדה המוסדית או הוועדה הארצית מעלה שאלה שלגביה נדרשת הצגת עמדתו, רשאי הוא, לפי ראות עיניו, לפנות ולהתייצב לפני הוועדה ולהשמיע את דבריו בעצמו או באמצעות מי מטעמו.</p>
+              </content>
+            </point>
+          </list>
+        </section>
+      </chapter>
+      <chapter eId="chp_ז">
+        <num>פרק ז׳:</num>
+        <title>
+          <content>
+            <p>שונות</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_54">
+            <heading>
+              <authorialNote placement="side">
+                <p>פטור מאחריות</p>
+              </authorialNote>
+            </heading>
+            <num>54.</num>
+            <content>
+              <p>לא יישא אדם באחריות לפי כל דין על פעולתו לפי הוראות חוק זה, אלא אם כן פעל ברשלנות.</p>
+            </content>
+          </point>
+          <point eId="point_55">
+            <heading>
+              <authorialNote placement="side">
+                <p>הזכות לפעולות נוספות</p>
+              </authorialNote>
+            </heading>
+            <num>55.</num>
+            <content>
+              <p>חולה הנוטה למות זכאי, במידת האפשר, שיכובד רצונו לענין פעולות נוספות שלדעת החולה או משפחתו הוא נדרש להן, ביזמתו ובמימונו; ואולם רשאי מנהל מחלקה שלא לאפשר ביצוע פעולות כאמור בתחומי המוסד הרפואי, אם, לפי שיקול דעתו, הוא סבור שהפעולות עלולות לסכן את החולה או לגרום הפרעה למטופלים אחרים או לצוות המטפל.</p>
+            </content>
+          </point>
+          <point eId="point_56">
+            <heading>
+              <authorialNote placement="side">
+                <p>העברת הטיפול למטפל אחר</p>
+              </authorialNote>
+            </heading>
+            <num>56.</num>
+            <content>
+              <p>אין בהוראות חוק זה כדי לחייב מטפל לתת לחולה הנוטה למות טיפול רפואי מסוים, או להימנע ממתן טיפול רפואי מסוים, בניגוד לערכיו, למצפונו, או לשיקול דעתו הרפואי; מטפל שסירב או נמנע כאמור יעביר את הטיפול למטפל אחר, על פי הסדר שייקבע בתיאום מראש עם מנהל המוסד הרפואי.</p>
+            </content>
+          </point>
+          <point eId="point_57">
+            <heading>
+              <authorialNote placement="side">
+                <p>אי־תחולה</p>
+              </authorialNote>
+            </heading>
+            <num>57.</num>
+            <content>
+              <p>על אף הוראות <ref href="/akn/il/act/PrimaryLegislation/1962-08-17/147488">חוק הכשרות המשפטית והאפוטרופסות, התשכ"ב–1962</ref>, <ref href="/akn/il/act/PrimaryLegislation/1960-07-14/150256">חוק הנוער (טיפול והשגחה), התש"ך–1960</ref>, <ref href="/akn/il/act/PrimaryLegislation/1991-01-08/152284">חוק טיפול בחולי נפש, התשנ"א–1991</ref>, <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/חוק_הסעד_טיפול_באנשים_עם_מוגבלות_שכלית_התפתחותית">חוק הסעד (טיפול באנשים עם מוגבלות שכלית–התפתחותית), התשכ"ט–1969</ref>, <ref href="/akn/il/act/SecondaryLegislation/1966-08-18/100000933">וחוק ההגנה על חוסים, התשכ"ו–1966</ref>, ובכפוף להוראות <ref href="#point_5">סעיפים 5(ג)</ref><ref href="#point_14">ו־14(ג)</ref>, הוראות <ref href="#point_10">סעיף 10(א)</ref>, הוראות <ref href="#chp_ד_sec_ו">סימנים ו׳</ref><ref href="#chp_ד_sec_ז">ו־ז׳ בפרק ד׳</ref> והוראות <ref href="#chp_ו">פרק ו׳</ref>, אפוטרופוס ממונה לאדם לא יהיה מוסמך לייצגו בענינים שחוק זה חל עליהם.</p>
+            </content>
+          </point>
+          <point eId="point_58">
+            <heading>
+              <authorialNote placement="side">
+                <p>סודיות</p>
+              </authorialNote>
+            </heading>
+            <num>58.</num>
+            <content>
+              <p>לא יגלה אדם מידע מזהה על אודות מטופל שהגיע אליו תוך כדי מילוי תפקידו או במהלך עבודתו לפי חוק זה ולא יעשה בו כל שימוש, אלא לצורך ביצוע הוראות חוק זה, הוראות כל דין או לפי צו של בית משפט; אין בהוראות חוק זה כדי לגרוע מהוראות <ref href="/akn/il/act/PrimaryLegislation/1996-05-12/174478">חוק זכויות החולה</ref>, בכפוף להוראות <ref href="#point_10">סעיף 10(ג)</ref>.</p>
+            </content>
+          </point>
+          <point eId="point_59">
+            <heading>
+              <authorialNote placement="side">
+                <p>תחולה</p>
+              </authorialNote>
+            </heading>
+            <num>59.</num>
+            <content>
+              <p>חוק זה יחול גם על המדינה.</p>
+            </content>
+          </point>
+          <point eId="point_60">
+            <heading>
+              <authorialNote placement="side">
+                <p>תקנות</p>
+              </authorialNote>
+            </heading>
+            <num>60.</num>
+            <list>
+              <point eId="point_60__point_א">
+                <num>(א)</num>
+                <list>
+                  <intro>
+                    <p>השר, באישור ועדת העבודה הרווחה והבריאות של הכנסת, יקבע –</p>
+                  </intro>
+                  <point eId="point_60__point_א__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>הוראות לקביעת אדם קרוב;</p>
+                    </content>
+                  </point>
+                  <point eId="point_60__point_א__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>הוראות לענין מתן הצהרות, איסופן ותיעודן, ולענין איסוף מסמכים ונתונים, לשם בירור רצון המטופל לפי <ref href="#point_5">סעיפים 5</ref>, <ref href="#point_14">14</ref><ref href="#point_35">ו־35</ref> לרבות דרישות ראייתיות ביחס לעדויות, מסמכים ונתונים כאמור;</p>
+                    </content>
+                  </point>
+                  <point eId="point_60__point_א__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>דרכי המינוי וסדרי העבודה של הוועדה הארצית והוועדות המוסדיות;</p>
+                    </content>
+                  </point>
+                  <point eId="point_60__point_א__point_4">
+                    <num>(4)</num>
+                    <content>
+                      <p>הפרטים שיש לתעד ברשומה רפואית לפי <ref href="#point_7">סעיפים 7</ref><ref href="#point_11">ו־11(ב)</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_60__point_א__point_5">
+                    <num>(5)</num>
+                    <content>
+                      <p>הוראות בדבר שינוי וביטול הנחיות רפואיות מקדימות או ייפוי כוח, בידי אדם שמחמת מחלה או מום אינו מסוגל לבצע את הפעולות המעשיות הנדרשות לשם כך כאמור <ref href="#point_43">בסעיף 43(ג)</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_60__point_א__point_6">
+                    <num>(6)</num>
+                    <content>
+                      <p>חובות דיווח על ביצוע הוראות חוק זה למי שיסמיך השר, לצורכי בקרה ומחקר, והוראות בדבר פרסום מידע כאמור, ובלבד שלא יפורסמו פרטים מזהים של מי שדיווחו עליו;</p>
+                    </content>
+                  </point>
+                  <point eId="point_60__point_א__point_7">
+                    <num>(7)</num>
+                    <content>
+                      <p>הוראות בדבר החובה להחזיק במוסד רפואי ובכל מקום שיקבע השר כאמור אמצעים טכנולוגיים כמשמעותם בפסקה (2) להגדרה ”טיפול רפואי מחזורי“; הוראות כאמור יכול שיוחלו בהדרגה על סוגי מוסדות רפואיים ובמקום כאמור במשך תקופה שתיקבע, לפי צו שיקבע השר;</p>
+                    </content>
+                  </point>
+                  <point eId="point_60__point_א__point_8">
+                    <num>(8)</num>
+                    <content>
+                      <p>הוראות לניהול מאגר המידע, לרבות תנאים לענין מסירת מידע וקבלת מידע, וכן דרכי מינויו של האחראי על המאגר ותחומי סמכותו.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_60__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>השר יקבע הוראות כאמור בסעיף קטן (א)(7), לגבי כל אמצעי טכנולוגי, עד תום שנה מהיום שאושר שימוש באמצעי טכנולוגי על ידי המנהל הכללי.</p>
+                </content>
+              </point>
+              <point eId="point_60__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>השר, באישור ועדת העבודה הרווחה והבריאות של הכנסת, רשאי לקבוע דרכים אחרות למתן הנחיות רפואיות מקדימות, דרך כלל או לסוגי מקרים שקבע כאמור <ref href="#point_33">בסעיף 33(ג)</ref> ולמתן ייפוי כוח, דרך כלל או לסוגי מקרים שקבע כאמור <ref href="#point_38">בסעיף 38(ג)</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_60__point_ד">
+                <num>(ד)</num>
+                <content>
+                  <p>תקנות ראשונות כאמור בסעיף קטן (א) יותקנו עד תום שנה מיום פרסומו של חוק זה.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_61">
+            <heading>
+              <authorialNote placement="side">
+                <p>ביצוע</p>
+              </authorialNote>
+            </heading>
+            <num>61.</num>
+            <content>
+              <p>השר ממונה על ביצוע הוראות חוק זה והוא רשאי להתקין תקנות לביצועו.</p>
+            </content>
+          </point>
+          <point eId="point_62">
+            <heading>
+              <authorialNote placement="side">
+                <p>שינוי התוספות</p>
+              </authorialNote>
+            </heading>
+            <num>62.</num>
+            <content>
+              <p>השר, באישור ועדת העבודה הרווחה והבריאות של הכנסת, רשאי לשנות את התוספות וכן לקבוע כאמור סוגי טפסים אחרים.</p>
+            </content>
+          </point>
+          <point eId="point_63">
+            <heading>
+              <authorialNote placement="side">
+                <p>תחילה</p>
+              </authorialNote>
+            </heading>
+            <num>63.</num>
+            <content>
+              <p>תחילתו של חוק זה שנה מיום פרסומו.</p>
+            </content>
+          </point>
+        </list>
+      </chapter>
+      <appendix eId="appendix_ראשונה">
+        <num></num>
+        <title>
+          <content>
+            <p>תוספת ראשונה</p>
+          </content>
+        </title>
+        <subtitle eId="eId">
+          <num></num>
+          <content>
+            <p>הנחיות רפואיות מקדימות לטיפול רפואי עתידי בחולה הנוטה למות</p>
+          </content>
+        </subtitle>
+        <subtitle eId="eId">
+          <num></num>
+          <content>
+            <p>
+              <wikicomment font-size="x-small">(<ref href="#point_31">סעיף 31</ref>)</wikicomment>
+            </p>
+          </content>
+        </subtitle>
+        <list>
+          <point eId="appendix_ראשונה__point_none">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num></num>
+            <content>
+              <p>טופס זה מיועד למילוי בידי אדם הרוצה ליתן הנחיות רפואיות מקדימות.<br space="preserve"></br><wikicomment font-size="x-small">(הטופס הושמט)</wikicomment></p>
+            </content>
+          </point>
+        </list>
+      </appendix>
+      <appendix eId="appendix_שניה">
+        <num></num>
+        <title>
+          <content>
+            <p>תוספת שניה</p>
+          </content>
+        </title>
+        <subtitle eId="eId">
+          <num></num>
+          <content>
+            <p>ייפוי כוח למתן הנחיות רפואיות לטיפול בחולה הנוטה למות</p>
+          </content>
+        </subtitle>
+        <subtitle eId="eId">
+          <num></num>
+          <content>
+            <p>
+              <wikicomment font-size="x-small">(<ref href="#point_37">סעיפים 37</ref><ref href="#point_42">ו־42</ref>)</wikicomment>
+            </p>
+          </content>
+        </subtitle>
+        <list>
+          <point eId="appendix_שניה__point_none">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num></num>
+            <content>
+              <p>טופס זה מיועד למילוי בידי אדם המעוניין למנות מיופה כוח, כדי שיהיה מוסמך להחליט במקומו על הטיפול הרפואי שיינתן או שלא יינתן לו, אם יהיה חולה הנוטה למות שאינו בעל כשרות, או חולה הנוטה למות בשלב סופי שאינו בעל כשרות.<br space="preserve"></br><wikicomment font-size="x-small">(הטופס הושמט)</wikicomment></p>
+            </content>
+          </point>
+        </list>
+      </appendix>
+      <appendix eId="appendix_שלישית">
+        <num></num>
+        <title>
+          <content>
+            <p>תוספת שלישית</p>
+          </content>
+        </title>
+        <subtitle eId="eId">
+          <num></num>
+          <content>
+            <p>הוראה להארכת תוקפן של הוראות רפואיות מקדימות או להארכת תוקפו של ייפוי כוח</p>
+          </content>
+        </subtitle>
+        <subtitle eId="eId">
+          <num></num>
+          <content>
+            <p>
+              <wikicomment font-size="x-small">(<ref href="#point_34">סעיפים 34(א)</ref><ref href="#point_39">ו־39(א)</ref>)</wikicomment>
+            </p>
+          </content>
+        </subtitle>
+        <list>
+          <point eId="appendix_שלישית__point_none">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num></num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">(הטופס הושמט)</wikicomment>
+              </p>
+            </content>
+          </point>
+        </list>
+      </appendix>
+      <appendix eId="appendix_רביעית">
+        <num></num>
+        <title>
+          <content>
+            <p>תוספת רביעית</p>
+          </content>
+        </title>
+        <subtitle eId="eId">
+          <num></num>
+          <content>
+            <p>הוראה לביטול הנחיות רפואיות מקדימות או לביטול ייפוי כוח</p>
+          </content>
+        </subtitle>
+        <subtitle eId="eId">
+          <num></num>
+          <content>
+            <p>
+              <wikicomment font-size="x-small">(<ref href="#point_33">סעיפים 33</ref>, <ref href="#point_38">38</ref><ref href="#point_43">ו־43</ref>)</wikicomment>
+            </p>
+          </content>
+        </subtitle>
+        <list>
+          <point eId="appendix_רביעית__point_none">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num></num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">(הטופס הושמט)</wikicomment>
+              </p>
+            </content>
+          </point>
+        </list>
+      </appendix>
+    </body>
+    <conclusions eId="eId">
+      <p class="signatures">
+        <signature>
+          <p>
+            <person refersTo="אריאל_שרון">אריאל שרון</person>
+            <role refersTo="ראש_הממשלה">ראש הממשלה</role>
+          </p>
+        </signature>
+        <signature>
+          <p>
+            <person refersTo="דני_נוה">דני נוה</person>
+            <role refersTo="שר_הבריאות">שר הבריאות</role>
+          </p>
+        </signature>
+        <signature>
+          <p>
+            <person refersTo="משה_קצב">משה קצב</person>
+            <role refersTo="נשיא_המדינה">נשיא המדינה</role>
+          </p>
+        </signature>
+        <signature>
+          <p>
+            <person refersTo="ראובן_ריבלין">ראובן ריבלין</person>
+            <role refersTo="יושב_ראש_הכנסת">יושב ראש הכנסת</role>
+          </p>
+        </signature>
+      </p>
+    </conclusions>
+  </act>
+</akomaNtoso>

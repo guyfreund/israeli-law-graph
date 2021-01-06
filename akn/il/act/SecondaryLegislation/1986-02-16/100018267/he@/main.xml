@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion" name="publicLaw">
+    <meta>
+      <identification source="#kensset">
+        <FRBRWork>
+          <FRBRthis value="/akn/il/act/SecondaryLegislation/1986-02-16/100018267/main" />
+          <FRBRuri value="/akn/il/act/SecondaryLegislation/1986-02-16/100018267" />
+          <FRBRdate date="1986-02-16" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRcountry value="israel" />
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/il/act/SecondaryLegislation/1986-02-16/100018267/he@/main" />
+          <FRBRuri value="/akn/il/act/SecondaryLegislation/1986-02-16/100018267/he@" />
+          <FRBRdate date="1986-02-16" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRlanguage language="hebrew" />
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/il/act/SecondaryLegislation/1986-02-16/100018267/he@/main.xml" />
+          <FRBRuri value="/akn/il/act/SecondaryLegislation/1986-02-16/100018267/he@" />
+          <FRBRdate date="1986-02-16" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRformat value="xml" />
+        </FRBRManifestation>
+      </identification>
+      <classification source="#kensset">
+        <keyword value="{classificationValue}" showAs="{classificationValue}" dictionary="#classification_dictionary" />
+      </classification>
+      <lifecycle source="#kensset">
+        <eventRef eId="eventRef_1" date="1986-02-16" source="#kensset" type="generation" />
+      </lifecycle>
+      <references source="#kensset">
+        <TLCOrganization eId="kensset" href="/ontology/organization/akn/knesset" showAs="Kensset" type="generation" />
+        <TLCRole eId="author" href="/ontology/role/akn/author" showAs="Author of Document" />
+        <TLCProcess eId="inforce" href="/ontology/process/akn/inforce" showAs="In force" />
+        <TLCPerson eId="יצחק_מודעי" href="/ontology/person/יצחק_מודעי" showAs="יצחק מודעי" />
+        <TLCRole eId="שר_האוצר" href="ontology/role/akn/שר_האוצר" showAs="שר האוצר" />
+      </references>
+      <temporalData source="#kensset">
+        <temporalGroup eId="tmpg_1" />
+      </temporalData>
+      <Publication></Publication>
+      <proprietary wikiversion="2/18/2020 12:00:05 PM" />
+    </meta>
+    <body period="#tmpg_1">
+      <title eId="title">
+        <content>
+          <p>צו מס הכנסה (קביעת סכומים ששולמו לבעל שליטה כהכנסה), התשמ"ו–1986</p>
+        </content>
+      </title>
+      <preamble eId="eId">
+        <p>בתוקף סמכותי לפי <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_מס_הכנסה#point_164">סעיף 164</ref><ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_מס_הכנסה">לפקודת מס הכנסה</ref> (להלן – הפקודה), ובאישור ועדת הכספים של הכנסת, אני מצווה לאמור:</p>
+      </preamble>
+      <list>
+        <point eId="point_1">
+          <heading>
+            <authorialNote placement="side">
+              <p>קביעת תשלומים לבעל שליטה כהכנסה</p>
+            </authorialNote>
+          </heading>
+          <num>1.</num>
+          <content>
+            <p>תשלומים שמשלמת חברה שהיא בשליטתם של לא יותר מחמישה בני אדם כמשמעותה <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_מס_הכנסה#point_76">בסעיף 76 לפקודה</ref>, לאחד מחבריה שהוא בעל שליטה בה, בין בכסף ובין בשווה כסף, יהיו הכנסה לענין <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_מס_הכנסה#point_164">סעיף 164 לפקודה</ref>; לענין זה, ”בעל שליטה“ – כמשמעותו <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_מס_הכנסה#point_32">בסעיף 32(9) לפקודה</ref>.</p>
+          </content>
+        </point>
+      </list>
+    </body>
+    <conclusions eId="eId">
+      <p class="signatures">
+        <signature>
+          <p>
+            <person refersTo="יצחק_מודעי">יצחק מודעי</person>
+            <role refersTo="שר_האוצר">שר האוצר</role>
+          </p>
+        </signature>
+      </p>
+    </conclusions>
+  </act>
+</akomaNtoso>

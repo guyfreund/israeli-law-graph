@@ -1,0 +1,2823 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion" name="publicLaw">
+    <meta>
+      <identification source="#kensset">
+        <FRBRWork>
+          <FRBRthis value="/akn/il/act/PrimaryLegislation/2011-01-31/362527/main" />
+          <FRBRuri value="/akn/il/act/PrimaryLegislation/2011-01-31/362527" />
+          <FRBRdate date="2011-01-31" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRcountry value="israel" />
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/il/act/PrimaryLegislation/2011-01-31/362527/he@/main" />
+          <FRBRuri value="/akn/il/act/PrimaryLegislation/2011-01-31/362527/he@" />
+          <FRBRdate date="2011-01-31" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRlanguage language="hebrew" />
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/il/act/PrimaryLegislation/2011-01-31/362527/he@/main.xml" />
+          <FRBRuri value="/akn/il/act/PrimaryLegislation/2011-01-31/362527/he@" />
+          <FRBRdate date="2011-01-31" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRformat value="xml" />
+        </FRBRManifestation>
+      </identification>
+      <classification source="#kensset">
+        <keyword value="{classificationValue}" showAs="{classificationValue}" dictionary="#classification_dictionary" />
+      </classification>
+      <lifecycle source="#kensset">
+        <eventRef eId="eventRef_1" date="2011-01-31" source="#kensset" type="generation" />
+      </lifecycle>
+      <references source="#kensset">
+        <TLCOrganization eId="kensset" href="/ontology/organization/akn/knesset" showAs="Kensset" type="generation" />
+        <TLCRole eId="author" href="/ontology/role/akn/author" showAs="Author of Document" />
+        <TLCProcess eId="inforce" href="/ontology/process/akn/inforce" showAs="In force" />
+        <TLCTerm eId="term_1" href="/ontology/term/אחראי_לפינוי_פסולת/362527" showAs="אחראי_לפינוי_פסולת" />
+        <TLCTerm eId="term_2" href="/ontology/term/אמצעי_הפחתה_במקור/362527" showAs="אמצעי_הפחתה_במקור" />
+        <TLCTerm eId="term_3" href="/ontology/term/אריזה/362527" showAs="אריזה" />
+        <TLCTerm eId="term_4" href="/ontology/term/אריזה_חד־פעמית/362527" showAs="אריזה_חד־פעמית" />
+        <TLCTerm eId="term_5" href="/ontology/term/אריזה_רב־פעמית/362527" showAs="אריזה_רב־פעמית" />
+        <TLCTerm eId="term_6" href="/ontology/term/אריזת_שירות/362527" showAs="אריזת_שירות" />
+        <TLCTerm eId="term_7" href="/ontology/term/גוף_מוכר/362527" showAs="גוף_מוכר" />
+        <TLCTerm eId="term_8" href="/ontology/term/הכרה/362527" showAs="הכרה" />
+        <TLCTerm eId="term_9" href="/ontology/term/הסדרי_הפרדה,_איסוף_ופינוי/362527" showAs="הסדרי_הפרדה,_איסוף_ופינוי" />
+        <TLCTerm eId="term_10" href="/ontology/term/השבה/362527" showAs="השבה" />
+        <TLCTerm eId="term_11" href="/ontology/term/השבה_מוכרת/362527" showAs="השבה_מוכרת" />
+        <TLCTerm eId="term_12" href="/ontology/term/חומר_מסוכן/362527" showAs="חומר_מסוכן" />
+        <TLCTerm eId="term_13" href="/ontology/term/חוק_החברות/362527" showAs="חוק_החברות" />
+        <TLCTerm eId="term_14" href="/ontology/term/יבואן/362527" showAs="יבואן" />
+        <TLCTerm eId="term_15" href="/ontology/term/יבואן_של_אריזות_שירות/362527" showAs="יבואן_של_אריזות_שירות" />
+        <TLCTerm eId="term_16" href="/ontology/term/יבואן_של_מוצרים_ארוזים/362527" showAs="יבואן_של_מוצרים_ארוזים" />
+        <TLCTerm eId="term_17" href="/ontology/term/יעדי_מיחזור/362527" showAs="יעדי_מיחזור" />
+        <TLCTerm eId="term_18" href="/ontology/term/יצרן/362527" showAs="יצרן" />
+        <TLCTerm eId="term_19" href="/ontology/term/יצרן_של_אריזות_שירות/362527" showAs="יצרן_של_אריזות_שירות" />
+        <TLCTerm eId="term_20" href="/ontology/term/יצרן_של_מוצרים_ארוזים/362527" showAs="יצרן_של_מוצרים_ארוזים" />
+        <TLCTerm eId="term_21" href="/ontology/term/מוצר_ארוז/362527" showAs="מוצר_ארוז" />
+        <TLCTerm eId="term_22" href="/ontology/term/מיחזור/362527" showAs="מיחזור" />
+        <TLCTerm eId="term_23" href="/ontology/term/מיחזור_מוכר/362527" showAs="מיחזור_מוכר" />
+        <TLCTerm eId="term_24" href="/ontology/term/מכירה/362527" showAs="מכירה" />
+        <TLCTerm eId="term_25" href="/ontology/term/המנהל/362527" showAs="המנהל" />
+        <TLCTerm eId="term_26" href="/ontology/term/מערכת_הביטחון/362527" showAs="מערכת_הביטחון" />
+        <TLCTerm eId="term_27" href="/ontology/term/המשרד/362527" showAs="המשרד" />
+        <TLCTerm eId="term_28" href="/ontology/term/פסולת_אריזות/362527" showAs="פסולת_אריזות" />
+        <TLCTerm eId="term_29" href="/ontology/term/הקרן_לשמירת_הניקיון/362527" showAs="הקרן_לשמירת_הניקיון" />
+        <TLCTerm eId="term_30" href="/ontology/term/רשות_מקומית/362527" showAs="רשות_מקומית" />
+        <TLCTerm eId="term_31" href="/ontology/term/שימוש_חוזר/362527" showAs="שימוש_חוזר" />
+        <TLCTerm eId="term_32" href="/ontology/term/השר/362527" showAs="השר" />
+        <TLCTerm eId="term_33" href="/ontology/term/בית_עסק/362527" showAs="בית_עסק" />
+        <TLCTerm eId="term_34" href="/ontology/term/בעל_בית_עסק/362527" showAs="בעל_בית_עסק" />
+        <TLCPerson eId="בנימין_נתניהו" href="/ontology/person/בנימין_נתניהו" showAs="בנימין נתניהו" />
+        <TLCPerson eId="גלעד_ארדן" href="/ontology/person/גלעד_ארדן" showAs="גלעד ארדן" />
+        <TLCPerson eId="שמעון_פרס" href="/ontology/person/שמעון_פרס" showAs="שמעון פרס" />
+        <TLCPerson eId="ראובן_ריבלין" href="/ontology/person/ראובן_ריבלין" showAs="ראובן ריבלין" />
+        <TLCRole eId="ראש_הממשלה" href="ontology/role/akn/ראש_הממשלה" showAs="ראש הממשלה" />
+        <TLCRole eId="השר_להגנת_הסביבה" href="ontology/role/akn/השר_להגנת_הסביבה" showAs="השר להגנת הסביבה" />
+        <TLCRole eId="נשיא_המדינה" href="ontology/role/akn/נשיא_המדינה" showAs="נשיא המדינה" />
+        <TLCRole eId="יושב_ראש_הכנסת" href="ontology/role/akn/יושב_ראש_הכנסת" showAs="יושב ראש הכנסת" />
+      </references>
+      <temporalData source="#kensset">
+        <temporalGroup eId="tmpg_1" />
+      </temporalData>
+      <Publication></Publication>
+      <proprietary wikiversion="7/22/2020 10:52:14 PM" />
+    </meta>
+    <body period="#tmpg_1">
+      <title eId="title">
+        <content>
+          <p>חוק להסדרת הטיפול באריזות, התשע"א–2011</p>
+        </content>
+      </title>
+      <chapter eId="chp_א">
+        <num>פרק א׳:</num>
+        <title>
+          <content>
+            <p>מטרה והגדרות</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_1">
+            <heading>
+              <authorialNote placement="side">
+                <p>מטרה</p>
+              </authorialNote>
+            </heading>
+            <num>1.</num>
+            <list>
+              <intro>
+                <p>מטרת חוק זה לקבוע הסדרים לעניין ייצור אריזות וטיפול בפסולת אריזות, שנועדו לצמצם את כמות פסולת האריזות, למנוע את הטמנתה ולעודד שימוש חוזר באריזות, לשם הקטנת ההשפעה השלילית הסביבתית של אריזות ופסולת אריזות, ובכלל זה –</p>
+              </intro>
+              <point eId="point_1__point_1">
+                <num>(1)</num>
+                <content>
+                  <p>הסמכת השר לקבוע הסדרים לעניין אמצעי הפחתה במקור, שעל יצרנים של אריזות לפעול לפיהם;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_2">
+                <num>(2)</num>
+                <content>
+                  <p>הטלת אחריות מורחבת על יצרנים של מוצרים ארוזים, על יצרנים של אריזות שירות ועל יבואנים של מוצרים ואריזות כאמור, בכל הנוגע לסימון האריזות ולביצוע מיחזור מוכר של פסולת האריזות הנובעת מהן, לרבות קביעת יעדים מחייבים למיחזור כאמור, והסדרת גופים מוכרים שיפעלו בשמם של היצרנים והיבואנים האמורים;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_3">
+                <num>(3)</num>
+                <content>
+                  <p>הטלת אחריות על אחראים לפינוי פסולת לקבוע הסדרים לעניין הפרדה של פסולת אריזות ולעניין איסוף ופינוי של פסולת אריזות, וקביעת איסור על השלכת פסולת אריזות ועל איסוף או פינוי של פסולת אריזות שלא על פי ההסדרים האמורים;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_4">
+                <num>(4)</num>
+                <content>
+                  <p>קביעת איסור הטמנה של פסולת אריזות.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_2" class="definitions">
+            <heading>
+              <authorialNote placement="side">
+                <p>הגדרות</p>
+              </authorialNote>
+            </heading>
+            <num>2.</num>
+            <list>
+              <intro>
+                <p>בחוק זה –</p>
+              </intro>
+              <point eId="point_2__point_אחראי_לפינוי_פסולת">
+                <content>
+                  <p>
+                    <def />”אחראי לפינוי פסולת“ – רשות מקומית, וכן כל מי שחייב לפי כל דין, למעט חובה מכוח חוק עזר, באיסוף ובפינוי של פסולת משטח שבבעלותו או בהחזקתו;</p>
+                </content>
+              </point>
+              <point eId="point_2__point_אמצעי_הפחתה_במקור">
+                <list>
+                  <intro>
+                    <p>
+                      <def />”אמצעי הפחתה במקור“ – אמצעים שיש לנקוט בשלבי הייצור של אריזה, אשר נועדו לצמצם אחד מאלה:</p>
+                  </intro>
+                  <point eId="point_2__point_אמצעי_הפחתה_במקור__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>כמות פסולת אריזות, לרבות באמצעות התאמת החומרים שמהם עשויה האריזה לשימוש חוזר;</p>
+                    </content>
+                  </point>
+                  <point eId="point_2__point_אמצעי_הפחתה_במקור__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>ההשפעות השליליות – הסביבתיות והבריאותיות – של פסולת אריזות, לרבות התאמת החומרים שמהם עשויה האריזה למיחזור או להשבה;</p>
+                    </content>
+                  </point>
+                  <point eId="point_2__point_אמצעי_הפחתה_במקור__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>תכולת החומרים המסוכנים באריזה;</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_2__point_אריזה">
+                <list>
+                  <intro>
+                    <p>
+                      <def />”אריזה“ – חפץ וכל חומר שהוא, המשמש או שנועד לשמש עטיפה או כלי קיבול למוצר או המשמש או שנועד לשמש לנשיאת מוצר, להצגתו או להגנה עליו, ושמתקיימים לגביו תנאים אלה:</p>
+                  </intro>
+                  <point eId="point_2__point_אריזה__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>הוא אינו מהווה חלק בלתי נפרד מהמוצר ואינו חיוני לצורך השימוש במוצר;</p>
+                    </content>
+                  </point>
+                  <point eId="point_2__point_אריזה__point_2">
+                    <num>(2)</num>
+                    <list>
+                      <intro>
+                        <p>הוא אחד מאלה:</p>
+                      </intro>
+                      <point eId="point_2__point_אריזה__point_2__point_א">
+                        <num>(א)</num>
+                        <content>
+                          <p>אריזת מכירה – אריזה שנועדה לצורכי מכירה למשתמש סופי או לצרכן, בנקודת מכירה;</p>
+                        </content>
+                      </point>
+                      <point eId="point_2__point_אריזה__point_2__point_ב">
+                        <num>(ב)</num>
+                        <content>
+                          <p>אריזה קבוצתית – אריזה שנועדה לרכז בנקודת מכירה כמה מוצרים למכירה, שאפשר להפרידה מהמוצרים בלי להשפיע על תכונותיו של כל מוצר או על אריזת המכירה שלו, בין שהמוצרים נמכרים בנקודת המכירה למשתמש סופי או לצרכן יחד עם האריזה הקבוצתית ובין שהיא משמשת לחידוש מלאי המוצרים בנקודת המכירה;</p>
+                        </content>
+                      </point>
+                      <point eId="point_2__point_אריזה__point_2__point_ג">
+                        <num>(ג)</num>
+                        <content>
+                          <p>אריזת הובלה – אריזה שנועדה לאפשר נשיאה או הובלה של כמה מוצרים למכירה או של אריזות קבוצתיות, כחלופה לטיפול ידני בהם ולשם מניעת גרימת נזק כתוצאה מהובלתם, והכל למעט מכולות המיועדות להובלה ביבשה, באוויר או בים;</p>
+                        </content>
+                      </point>
+                    </list>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_2__point_אריזה_חד־פעמית">
+                <content>
+                  <p>
+                    <def />”אריזה חד־פעמית“ – אריזה שאינה אריזה רב־פעמית;</p>
+                </content>
+              </point>
+              <point eId="point_2__point_אריזה_רב־פעמית">
+                <content>
+                  <p>
+                    <def />”אריזה רב־פעמית“ – אריזה שנועדה לשימוש חוזר בידי יצרן או יבואן;</p>
+                </content>
+              </point>
+              <point eId="point_2__point_אריזת_שירות">
+                <content>
+                  <p>
+                    <def />”אריזת שירות“ – אריזה המיועדת למכירה או לשיווק בישראל, שהשימוש בה לאריזת המוצר מתבצע שלא בעת הייצור;</p>
+                </content>
+              </point>
+              <point eId="point_2__point_גוף_מוכר">
+                <content>
+                  <p>
+                    <def />”גוף מוכר“ – חברה שהמנהל הכיר בה לפי הוראות <ref href="#point_12">סעיף 12</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_2__point_הכרה">
+                <content>
+                  <p>
+                    <def />”הכרה“ – הכרה בחברה כגוף מוכר לפי הוראות <ref href="#chp_ד_sec_א">סימן א׳ בפרק ד׳</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_2__point_הסדרי_הפרדה,_איסוף_ופינוי">
+                <content>
+                  <p>
+                    <def />”הסדרי הפרדה, איסוף ופינוי“ – הסדר להפרדת פסולת אריזות והסדר לאיסוף ופינוי של פסולת אריזות מופרדת, שנקבעו לפי <ref href="#point_23">סעיף 23</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_2__point_השבה">
+                <content>
+                  <p>
+                    <def />”השבה“ – הפקת אנרגיה מפסולת אריזות או תהליך עיבוד של פסולת אריזות לחומר המשמש להפקת אנרגיה;</p>
+                </content>
+              </point>
+              <point eId="point_2__point_השבה_מוכרת">
+                <content>
+                  <p>
+                    <def />”השבה מוכרת“ – השבה במפעל השבה המורשה על פי כל דין;</p>
+                </content>
+              </point>
+              <point eId="point_2__point_חומר_מסוכן">
+                <content>
+                  <p>
+                    <def />”חומר מסוכן“ – כהגדרתו <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/חוק_החומרים_המסוכנים">בחוק החומרים המסוכנים, התשנ"ג–1993</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_2__point_חוק_החברות">
+                <content>
+                  <p>
+                    <def />”חוק החברות“ – <ref href="/akn/il/act/PrimaryLegislation/1999-05-27/165159">חוק החברות, התשנ"ט–1999</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_2__point_יבואן">
+                <content>
+                  <p>
+                    <def />”יבואן“ – יבואן של אריזות שירות או יבואן של מוצרים ארוזים;</p>
+                </content>
+              </point>
+              <point eId="point_2__point_יבואן_של_אריזות_שירות">
+                <content>
+                  <p>
+                    <def />”יבואן של אריזות שירות“ – מי שמייבא אריזות שירות;</p>
+                </content>
+              </point>
+              <point eId="point_2__point_יבואן_של_מוצרים_ארוזים">
+                <content>
+                  <p>
+                    <def />”יבואן של מוצרים ארוזים“ – מי שמייבא מוצרים ארוזים;</p>
+                </content>
+              </point>
+              <point eId="point_2__point_יעדי_מיחזור">
+                <content>
+                  <p>
+                    <def />”יעדי מיחזור“ – יעדי מיחזור לפי סוג חומר ויעד מיחזור כולל, כמשמעותם <ref href="#point_6">בסעיף 6</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_2__point_יצרן">
+                <content>
+                  <p>
+                    <def />”יצרן“ – יצרן של אריזות שירות או יצרן של מוצרים ארוזים;</p>
+                </content>
+              </point>
+              <point eId="point_2__point_יצרן_של_אריזות_שירות">
+                <content>
+                  <p>
+                    <def />”יצרן של אריזות שירות“ – מי שמייצר אריזות שירות;</p>
+                </content>
+              </point>
+              <point eId="point_2__point_יצרן_של_מוצרים_ארוזים">
+                <content>
+                  <p>
+                    <def />”יצרן של מוצרים ארוזים“ – מי שמייצר, בעצמו או באמצעות אחר, מוצרים ארוזים;</p>
+                </content>
+              </point>
+              <point eId="point_2__point_מוצר_ארוז">
+                <content>
+                  <p>
+                    <def />”מוצר ארוז“ – מוצר שארוז באריזה שאינה אריזת שירות, המיועד למכירה, לשיווק או לייצור מוצר אחר בישראל;</p>
+                </content>
+              </point>
+              <point eId="point_2__point_מיחזור">
+                <content>
+                  <p>
+                    <def />”מיחזור“ – תהליך עיבוד של פסולת אריזות למוצרים, לחומרים או לחומרי גלם, למטרה שלשמה יועדה האריזה בראשונה או למטרה אחרת, לרבות מיחזור חומר אורגני, ולמעט השבה;</p>
+                </content>
+              </point>
+              <point eId="point_2__point_מיחזור_מוכר">
+                <content>
+                  <p>
+                    <def />”מיחזור מוכר“ – מיחזור במפעל מיחזור המורשה על פי כל דין;</p>
+                </content>
+              </point>
+              <point eId="point_2__point_מכירה">
+                <content>
+                  <p>
+                    <def />”מכירה“ – לרבות העברה למשתמש סופי, בתמורה או שלא בתמורה;</p>
+                </content>
+              </point>
+              <point eId="point_2__point_המנהל">
+                <content>
+                  <p>
+                    <def />”המנהל“ – מי שמונה כאחראי על תחום האריזות במשרד, לפי <ref href="#point_47">סעיף 47</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_2__point_מערכת_הביטחון">
+                <list>
+                  <intro>
+                    <p>
+                      <def />”מערכת הביטחון“ – כל אחד מאלה:</p>
+                  </intro>
+                  <point eId="point_2__point_מערכת_הביטחון__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>משרד הביטחון ויחידות סמך של משרד הביטחון;</p>
+                    </content>
+                  </point>
+                  <point eId="point_2__point_מערכת_הביטחון__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>צבא הגנה לישראל;</p>
+                    </content>
+                  </point>
+                  <point eId="point_2__point_מערכת_הביטחון__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>שירות הביטחון הכללי והמוסד למודיעין ולתפקידים מיוחדים;</p>
+                    </content>
+                  </point>
+                  <point eId="point_2__point_מערכת_הביטחון__point_4">
+                    <num>(4)</num>
+                    <content>
+                      <p>מרכזי המחקר הגרעיני שבאחריות הוועדה לאנרגיה אטומית והמכון הביולוגי;</p>
+                    </content>
+                  </point>
+                  <point eId="point_2__point_מערכת_הביטחון__point_5">
+                    <num>(5)</num>
+                    <content>
+                      <p>ספקים ומפעלים המפתחים או המייצרים ציוד ביטחוני בעבור גוף המנוי בפסקאות (1) עד (4), ששר הביטחון הודיע עליהם למנהל; לעניין זה, ”ציוד ביטחוני“ – כהגדרתו <ref href="/akn/il/act/PrimaryLegislation/2006-01-02/78696">בחוק התאגידים הביטחוניים (הגנה על אינטרסים ביטחוניים), התשס"ו–2006</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_2__point_מערכת_הביטחון__point_6">
+                    <num>(6)</num>
+                    <content>
+                      <p>משטרת ישראל ושירות בתי הסוהר;</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_2__point_המשרד">
+                <content>
+                  <p>
+                    <def />”המשרד“ – המשרד להגנת הסביבה;</p>
+                </content>
+              </point>
+              <point eId="point_2__point_פסולת_אריזות">
+                <content>
+                  <p>
+                    <def />”פסולת אריזות“ – אריזות לאחר שימוש בהן למטרה שלשמה יועדו בראשונה, ולעניין אריזות רב־פעמיות – לאחר תום השימוש החוזר בהן;</p>
+                </content>
+              </point>
+              <point eId="point_2__point_הקרן_לשמירת_הניקיון">
+                <content>
+                  <p>
+                    <def />”הקרן לשמירת הניקיון“ – הקרן לשמירת הניקיון שהוקמה לפי <ref href="/akn/il/act/PrimaryLegislation/1984-06-07/149942#point_10">סעיף 10 לחוק שמירת הניקיון, התשמ"ד–1984</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_2__point_רשות_מקומית">
+                <content>
+                  <p>
+                    <def />”רשות מקומית“ – עירייה, מועצה מקומית או איגוד ערים שבין תפקידיו איסוף ופינוי של פסולת;</p>
+                </content>
+              </point>
+              <point eId="point_2__point_שימוש_חוזר">
+                <content>
+                  <p>
+                    <def />”שימוש חוזר“ – שימוש נוסף באריזה למטרה שלשמה יועדה בראשונה;</p>
+                </content>
+              </point>
+              <point eId="point_2__point_השר">
+                <content>
+                  <p>
+                    <def />”השר“ – השר להגנת הסביבה.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+        </list>
+      </chapter>
+      <chapter eId="chp_ב">
+        <num>פרק ב׳:</num>
+        <title>
+          <content>
+            <p>נקיטת אמצעי הפחתה במקור</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_3">
+            <heading>
+              <authorialNote placement="side">
+                <p>הוראות לעניין אמצעי הפחתה במקור</p>
+              </authorialNote>
+            </heading>
+            <num>3.</num>
+            <content>
+              <p>השר, לאחר התייעצות עם שר התעשייה המסחר והתעסוקה ובאישור ועדת הכלכלה של הכנסת, רשאי לקבוע הוראות לעניין אמצעי הפחתה במקור.</p>
+            </content>
+          </point>
+          <point eId="point_4">
+            <heading>
+              <authorialNote placement="side">
+                <p>ייצור אריזה בהתאם לאמצעי הפחתה במקור</p>
+              </authorialNote>
+            </heading>
+            <num>4.</num>
+            <content>
+              <p>קבע השר הוראות לפי <ref href="#point_3">סעיף 3</ref>, לא ייצר אדם אריזה אלא בהתאם להוראות אלה, אלא אם כן האריזה מיועדת לייצוא.</p>
+            </content>
+          </point>
+        </list>
+      </chapter>
+      <chapter eId="chp_ג">
+        <num>פרק ג׳:</num>
+        <title>
+          <content>
+            <p>חובות יצרנים ויבואנים של מוצרים ארוזים או של אריזות שירות</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_5">
+            <heading>
+              <authorialNote placement="side">
+                <p>חובת סימון אריזות</p>
+              </authorialNote>
+            </heading>
+            <num>5.</num>
+            <list>
+              <point eId="point_5__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>השר, באישור ועדת הכלכלה של הכנסת, רשאי לקבוע הוראות לעניין סימון אריזות, לרבות אופן הסימון, תוכנו, גודלו ומיקומו.</p>
+                </content>
+              </point>
+              <point eId="point_5__point_ב">
+                <num>(ב)</num>
+                <list>
+                  <intro>
+                    <p>קבע השר הוראות לפי סעיף קטן (א) –</p>
+                  </intro>
+                  <point eId="point_5__point_ב__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>לא ייצר יצרן ולא ישווק יבואן מוצר ארוז או אריזת שירות, אלא אם כן סומנו בהתאם להוראות אלה;</p>
+                    </content>
+                  </point>
+                  <point eId="point_5__point_ב__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>לא ימכור אדם שעיסוקו במכירה של אריזות, של מוצרים ארוזים או של מוצרים הנמכרים באריזת שירות, מוצר ארוז או מוצר באריזת שירות, אלא אם כן סומנו בהתאם להוראות אלה.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+            </list>
+          </point>
+          <point eId="point_6">
+            <heading>
+              <authorialNote placement="side">
+                <p>חובת מיחזור פסולת אריזות</p>
+              </authorialNote>
+            </heading>
+            <num>6.</num>
+            <list>
+              <point eId="point_6__point_א">
+                <num>(א)</num>
+                <list>
+                  <intro>
+                    <p>יצרן ויבואן יבצעו מיחזור מוכר של פסולת האריזות של המוצרים הארוזים או של אריזות השירות, לפי העניין, שייצרו או שייבאו כאמור, בשיעורים המפורטים להלן, לפחות, בהתאם לסוג חומר האריזה, מסך משקל האריזות החד־פעמיות של המוצרים מאותו סוג חומר שמכר היצרן או היבואן באותה שנה (<ref href="#chp_ג">בפרק זה</ref> – יעדי מיחזור לפי סוג חומר):</p>
+                  </intro>
+                  <point eId="point_6__point_א__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>זכוכית, נייר או קרטון – 60 אחוזים;</p>
+                    </content>
+                  </point>
+                  <point eId="point_6__point_א__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>מתכת – 50 אחוזים;</p>
+                    </content>
+                  </point>
+                  <point eId="point_6__point_א__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>פלסטיק – 22.5 אחוזים;</p>
+                    </content>
+                  </point>
+                  <point eId="point_6__point_א__point_4">
+                    <num>(4)</num>
+                    <content>
+                      <p>עץ – 15 אחוזים.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_6__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>סך פסולת האריזות שימחזר יצרן או יבואן לפי הוראות סעיף קטן (א) לא יפחת מ־60 אחוזים מסך משקל האריזות החד־פעמיות של כלל המוצרים שמכר היצרן או היבואן באותה שנה (<ref href="#chp_ג">בפרק זה</ref> – יעד מיחזור כולל).</p>
+                </content>
+              </point>
+              <point eId="point_6__point_ג">
+                <num>(ג)</num>
+                <list>
+                  <intro>
+                    <p>על אף הוראות סעיפים קטנים (א) ו־(ב), בתקופה שמיום כ"ט בסיוון התשע"א (1 ביולי 2011) ועד יום ט׳ בטבת התשע"ה (31 בדצמבר 2014) יהיו יעדי המיחזור לפי סוג חומר ויעד המיחזור הכולל, כמפורט להלן:</p>
+                  </intro>
+                  <point eId="point_6__point_ג__point_1">
+                    <num>(1)</num>
+                    <list>
+                      <intro>
+                        <p>בתקופה שמיום כ"ט בסיוון התשע"א (1 ביולי 2011) עד ליום ה׳ בטבת התשע"ב (31 בדצמבר 2011) – יהיו יעדי המיחזור לפי סוג חומר כמפורט להלן, ובלבד ששיעור יעד המיחזור הכולל לא יפחת מ־30 אחוזים:</p>
+                      </intro>
+                      <point eId="point_6__point_ג__point_1__point_א">
+                        <num>(א)</num>
+                        <content>
+                          <p>זכוכית, נייר או קרטון – 30 אחוזים;</p>
+                        </content>
+                      </point>
+                      <point eId="point_6__point_ג__point_1__point_ב">
+                        <num>(ב)</num>
+                        <content>
+                          <p>מתכת – 20 אחוזים;</p>
+                        </content>
+                      </point>
+                      <point eId="point_6__point_ג__point_1__point_ג">
+                        <num>(ג)</num>
+                        <content>
+                          <p>פלסטיק – 15 אחוזים;</p>
+                        </content>
+                      </point>
+                      <point eId="point_6__point_ג__point_1__point_ד">
+                        <num>(ד)</num>
+                        <content>
+                          <p>עץ – 15 אחוזים;</p>
+                        </content>
+                      </point>
+                    </list>
+                  </point>
+                  <point eId="point_6__point_ג__point_2">
+                    <num>(2)</num>
+                    <list>
+                      <intro>
+                        <p>בשנת 2012 – יהיו יעדי המיחזור לפי סוג חומר כמפורט להלן, ובלבד ששיעור יעד המיחזור הכולל לא יפחת מ־40 אחוזים:</p>
+                      </intro>
+                      <point eId="point_6__point_ג__point_2__point_א">
+                        <num>(א)</num>
+                        <content>
+                          <p>זכוכית, נייר או קרטון – 40 אחוזים;</p>
+                        </content>
+                      </point>
+                      <point eId="point_6__point_ג__point_2__point_ב">
+                        <num>(ב)</num>
+                        <content>
+                          <p>מתכת – 30 אחוזים;</p>
+                        </content>
+                      </point>
+                      <point eId="point_6__point_ג__point_2__point_ג">
+                        <num>(ג)</num>
+                        <content>
+                          <p>פלסטיק – 22.5 אחוזים;</p>
+                        </content>
+                      </point>
+                      <point eId="point_6__point_ג__point_2__point_ד">
+                        <num>(ד)</num>
+                        <content>
+                          <p>עץ – 15 אחוזים;</p>
+                        </content>
+                      </point>
+                    </list>
+                  </point>
+                  <point eId="point_6__point_ג__point_3">
+                    <num>(3)</num>
+                    <list>
+                      <intro>
+                        <p>בשנת 2013 – יהיו יעדי המיחזור לפי סוג חומר כמפורט להלן, ובלבד ששיעור יעד המיחזור הכולל לא יפחת מ־50 אחוזים:</p>
+                      </intro>
+                      <point eId="point_6__point_ג__point_3__point_א">
+                        <num>(א)</num>
+                        <content>
+                          <p>זכוכית, נייר או קרטון – 50 אחוזים;</p>
+                        </content>
+                      </point>
+                      <point eId="point_6__point_ג__point_3__point_ב">
+                        <num>(ב)</num>
+                        <content>
+                          <p>מתכת – 40 אחוזים;</p>
+                        </content>
+                      </point>
+                      <point eId="point_6__point_ג__point_3__point_ג">
+                        <num>(ג)</num>
+                        <content>
+                          <p>פלסטיק – 22.5 אחוזים;</p>
+                        </content>
+                      </point>
+                      <point eId="point_6__point_ג__point_3__point_ד">
+                        <num>(ד)</num>
+                        <content>
+                          <p>עץ – 15 אחוזים;</p>
+                        </content>
+                      </point>
+                    </list>
+                  </point>
+                  <point eId="point_6__point_ג__point_4">
+                    <num>(4)</num>
+                    <list>
+                      <intro>
+                        <p>בשנת 2014 – יהיו יעדי המיחזור לפי סוג חומר כמפורט להלן, ובלבד ששיעור יעד המיחזור הכולל לא יפחת מ־55 אחוזים:</p>
+                      </intro>
+                      <point eId="point_6__point_ג__point_4__point_א">
+                        <num>(א)</num>
+                        <content>
+                          <p>זכוכית, נייר או קרטון – 55 אחוזים;</p>
+                        </content>
+                      </point>
+                      <point eId="point_6__point_ג__point_4__point_ב">
+                        <num>(ב)</num>
+                        <content>
+                          <p>מתכת – 45 אחוזים;</p>
+                        </content>
+                      </point>
+                      <point eId="point_6__point_ג__point_4__point_ג">
+                        <num>(ג)</num>
+                        <content>
+                          <p>פלסטיק – 22.5 אחוזים;</p>
+                        </content>
+                      </point>
+                      <point eId="point_6__point_ג__point_4__point_ד">
+                        <num>(ד)</num>
+                        <content>
+                          <p>עץ – 15 אחוזים.</p>
+                        </content>
+                      </point>
+                    </list>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_6__point_ד">
+                <num>(ד)</num>
+                <content>
+                  <p>ביצע יצרן או יבואן השבה מוכרת של פסולת אריזות, יראו את שיעור פסולת האריזות שלגביו ביצע השבה כאמור כאילו בוצע לגביו מיחזור מוכר לפי סעיפים קטנים (ב) ו־(ג), לעניין יעד המיחזור הכולל, וזאת עד לשיעור של 10 אחוזים מסך משקל האריזות החד־פעמיות של כלל המוצרים שמכר היצרן או היבואן באותה שנה.</p>
+                </content>
+              </point>
+              <point eId="point_6__point_ה">
+                <num>(ה)</num>
+                <list>
+                  <point eId="point_6__point_ה__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>ייצא יצרן או יבואן, בהתאם להוראות לפי כל דין, פסולת אריזות למטרות מיחזור או השבה, רשאי המנהל להכיר במשקל פסולת האריזות כאמור, כולו או חלקו, כפסולת אריזות שבוצע לגביה מיחזור מוכר לפי סעיפים קטנים (א) עד (ג), עד לשיעור של 20 אחוזים מיעדי המיחזור לפי סוג חומר, לכל סוג חומר.</p>
+                    </content>
+                  </point>
+                  <point eId="point_6__point_ה__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>נוכח המנהל, בנסיבות מיוחדות, כי אין חלופות מיחזור או השבה סבירות בישראל וננקטו מאמצים סבירים ליצירת חלופות אלה, רשאי הוא להכיר בייצוא פסולת אריזות מעבר לשיעור האמור בפסקה (1).</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+            </list>
+          </point>
+          <point eId="point_7">
+            <heading>
+              <authorialNote placement="side">
+                <p>חובת דיווח למנהל של יצרן ויבואן</p>
+              </authorialNote>
+            </heading>
+            <num>7.</num>
+            <list>
+              <point eId="point_7__point_א">
+                <num>(א)</num>
+                <list>
+                  <intro>
+                    <p>יצרן ויבואן ידווחו למנהל, פעמיים בשנה (בסעיף זה – דוח חצי שנתי) ובתום כל שנה (בסעיף זה – דוח שנתי), על כל אלה:</p>
+                  </intro>
+                  <point eId="point_7__point_א__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>מספר המוצרים הארוזים או אריזות השירות שמכרו ומשקלם, סוגי החומר שממנו עשויות האריזות של המוצרים הארוזים או אריזות השירות כאמור, קיבולתן, משקלן והיותן אריזות חד־פעמיות או רב־פעמיות, ולגבי האריזות של המוצרים הארוזים – גם היותן אריזות מכירה, אריזות קבוצתיות או אריזות הובלה;</p>
+                    </content>
+                  </point>
+                  <point eId="point_7__point_א__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>משקל פסולת האריזות של המוצרים הארוזים או של אריזות השירות שאספו, בעצמם או באמצעות אחר, וכן פרטי אחראים לפינוי פסולת או גורם אחר שמהם נאספו וסוגי החומר שממנו עשויה פסולת האריזות כאמור;</p>
+                    </content>
+                  </point>
+                  <point eId="point_7__point_א__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>משקל פסולת האריזות של המוצרים הארוזים או של אריזות השירות שמכרו, אשר אותה מיחזרו או השיבו, וכן אופן מיחזורה או השבתה ופרטי מפעל המיחזור או ההשבה, וסוגי החומר שממנו עשויה פסולת האריזות כאמור.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_7__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>דוח חצי שנתי יוגש למנהל בתוך חודשיים מתום התקופה שלגביה מוגש הדוח, במתכונת שיורה עליה המנהל.</p>
+                </content>
+              </point>
+              <point eId="point_7__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>דוח שנתי יוגש למנהל לא יאוחר משישה חודשים מתום כל שנת כספים, כשהוא מבוקר בידי רואה חשבון, במתכונת שיורה עליה המנהל.</p>
+                </content>
+              </point>
+              <point eId="point_7__point_ד">
+                <num>(ד)</num>
+                <content>
+                  <p>המנהל או מי שהוא הסמיכו לכך רשאי לדרוש מיצרן או מיבואן להמציא לו כל מידע ששימש לעריכת הדוח לפי סעיף זה וכן כל מידע הנמצא ברשותו ששימש לעריכת דיווח לפי <ref href="#point_18">סעיף 18</ref> של גוף מוכר שהוא התקשר עמו בהתאם להוראות <ref href="#point_9">סעיף 9</ref>; נדרש יצרן או יבואן להמציא מידע כאמור, ימציאו במועד ובאופן שצוינו בדרישה.</p>
+                </content>
+              </point>
+              <point eId="point_7__point_ה">
+                <num>(ה)</num>
+                <content>
+                  <p>לא מסר יצרן או יבואן דוח חצי שנתי או דוח שנתי, או שמסר דוח כאמור אך למנהל יש טעמים סבירים להניח שהדוח אינו נכון, רשאי המנהל, לאחר שנתן ליצרן או ליבואן הזדמנות לטעון את טענותיו, לקבוע בהחלטה מנומקת את שיעורי פסולת האריזות שלגביה ביצע היצרן או היבואן מיחזור מוכר או השבה מוכרת במהלך תקופת הדיווח.</p>
+                </content>
+              </point>
+              <point eId="point_7__point_ו">
+                <num>(ו)</num>
+                <content>
+                  <p>לעניין סעיף זה, דוח חצי שנתי יוגש לגבי תקופה של שישה חודשים הכוללת את החודשים ינואר עד יוני, או יולי עד דצמבר, בכל שנה.</p>
+                </content>
+              </point>
+              <point eId="point_7__point_ז">
+                <num>(ז)</num>
+                <content>
+                  <p>בסעיף זה, ”סוגי חומר“ – הסוגים האמורים <ref href="#point_6">בסעיף 6</ref>.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_8">
+            <heading>
+              <authorialNote placement="side">
+                <p>חובת רישום של יצרן ויבואן</p>
+              </authorialNote>
+            </heading>
+            <num>8.</num>
+            <list>
+              <point eId="point_8__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>יצרן ויבואן ינהלו רישום מלא ומפורט של העניינים הכלולים בחובת הדיווח לפי <ref href="#point_7">סעיף 7</ref>.</p>
+                </content>
+              </point>
+              <point eId="point_8__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>המנהל או מי שהוא הסמיכו לכך רשאי לעיין ברישומים כאמור בסעיף זה ולקבל העתק נכון מהם.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_9">
+            <heading>
+              <authorialNote placement="side">
+                <p>חובת התקשרות עם גוף מוכר</p>
+              </authorialNote>
+            </heading>
+            <num>9.</num>
+            <list>
+              <point eId="point_9__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>לשם קיום חובות יצרנים או יבואנים לפי <ref href="#chp_ג">פרק זה</ref>, למעט חובת סימון אריזות לפי <ref href="#point_5">סעיף 5</ref>, על יצרן ועל יבואן להתקשר בחוזה התקשרות עם גוף מוכר; התקשר יצרן או יבואן עם גוף מוכר, יהיה הגוף המוכר אחראי לקיום חובות היצרן או היבואן כאמור, כל עוד ההתקשרות עומדת בתוקפה.</p>
+                </content>
+              </point>
+              <point eId="point_9__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>יצרן ויבואן יהיו אחראים למימון כל העלויות של הגוף המוכר שעמו התקשרו בהתאם להוראות סעיף קטן (א), בתנאים שוויוניים, ובהתחשב, בין השאר, בחלקם מתוך משקל וסוג החומר ובאפשרות מיחזור האריזות שיוצרו או שיובאו בידי כלל היצרנים והיבואנים אשר התקשרו עם אותו גוף מוכר.</p>
+                </content>
+              </point>
+              <point eId="point_9__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>בלי לגרוע מהוראות סעיף קטן (א) סיפה, יצרן או יבואן שהתקשר עם גוף מוכר, ינהל רישום מלא ומפורט של המידע האמור <ref href="#point_7">בסעיף 7(א)(1)</ref>, והמנהל או מי שהוא הסמיכו לכך יהיה רשאי לעיין ברישום כאמור ולקבל העתק נכון ממנו.</p>
+                </content>
+              </point>
+              <point eId="point_9__point_ד">
+                <num>(ד)</num>
+                <content>
+                  <p>מצא יצרן או יבואן כי גוף מוכר שעמו התקשר בהתאם להוראות סעיף קטן (א) אינו מקיים חובות יצרנים או יבואנים כאמור באותו סעיף קטן, כולן או חלקן, או סבר כי קיים חשש שהגוף המוכר לא יקיים חובות אלה, ינקוט היצרן או היבואן את כל האמצעים הסבירים העומדים לרשותו כדי להבטיח קיומן של החובות כאמור בידי הגוף המוכר.</p>
+                </content>
+              </point>
+              <point eId="point_9__point_ה">
+                <num>(ה)</num>
+                <content>
+                  <p>המנהל רשאי לפטור יצרן או יבואן מהחובות לפי סעיף זה, אם שוכנע כי אותו יצרן או יבואן יכול לקיים את חובותיו לפי <ref href="#chp_ג">פרק זה</ref> שלא באמצעות גוף מוכר, בתנאים שיקבע בהוראת הפטור; המנהל רשאי לקבוע מתכונת להגשת בקשה לפטור כאמור, ורשאי הוא להורות כי יראו מבקש פטור כמבקש הכרה לפי <ref href="#point_13">סעיף 13</ref>, בשינויים המחויבים.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_10">
+            <heading>
+              <authorialNote placement="side">
+                <p>פטור למשקל אריזות מזערי</p>
+              </authorialNote>
+            </heading>
+            <num>10.</num>
+            <content>
+              <p>הוראות לפי <ref href="#chp_ג">פרק זה</ref> לא יחולו על יצרן או על יבואן שמשקל האריזות של המוצרים הארוזים או של אריזות השירות שמכר בשנה אינו עולה על 1,000 קילוגרמים; היצרן או היבואן ימסור למנהל הודעה כי מתקיים בו התנאי האמור, ואולם רשאי הוא להודיע למנהל כי הוא מבקש שההוראות לפי <ref href="#chp_ג">פרק זה</ref> יחולו עליו.</p>
+            </content>
+          </point>
+          <point eId="point_11">
+            <heading>
+              <authorialNote placement="side">
+                <p>היטל על יצרנים או יבואנים פטורים</p>
+              </authorialNote>
+            </heading>
+            <num>11.</num>
+            <content>
+              <p>השר, בהסכמת שר האוצר, רשאי לקבוע היטל שיוטל על יצרן או על יבואן הפטור מההוראות לפי <ref href="#chp_ג">פרק זה</ref> בהתאם להוראות לפי <ref href="#point_10">סעיף 10</ref>, ורשאי הוא לקבוע שיעורי היטל שונים לסוגים של אריזות של מוצרים ארוזים, לסוגים של אריזות שירות או לסוגי חומר שממנו עשויות האריזות, וכן, בין השאר, הוראות לעניין הצמדת ההיטל, אופן תשלומו, דרכי גבייתו ודיווחים שעל יצרן או יבואן לדווח לעניין ההיטל; קביעת שיעור ההיטל והצמדתו טעונים אישור של ועדת הכלכלה של הכנסת.</p>
+            </content>
+          </point>
+        </list>
+      </chapter>
+      <chapter eId="chp_ד">
+        <num>פרק ד׳:</num>
+        <title>
+          <content>
+            <p>גוף מוכר</p>
+          </content>
+        </title>
+        <section eId="chp_ד__sec_א">
+          <num>סימן א׳:</num>
+          <title>
+            <content>
+              <p>הכרה</p>
+            </content>
+          </title>
+          <list>
+            <point eId="point_12">
+              <heading>
+                <authorialNote placement="side">
+                  <p>הכרה בחברה כגוף מוכר</p>
+                </authorialNote>
+              </heading>
+              <num>12.</num>
+              <list>
+                <point eId="point_12__point_א">
+                  <num>(א)</num>
+                  <list>
+                    <intro>
+                      <p>המנהל רשאי להכיר בחברה כגוף האחראי לקיום חובות יצרנים או יבואנים לפי חוק זה שיתקשרו עמה, אם מתקיימים בה כל אלה:</p>
+                    </intro>
+                    <point eId="point_12__point_א__point_1">
+                      <num>(1)</num>
+                      <content>
+                        <p>היא חברה כהגדרתה <ref href="/akn/il/act/PrimaryLegislation/1999-05-27/165159">בחוק החברות</ref>;</p>
+                      </content>
+                    </point>
+                    <point eId="point_12__point_א__point_2">
+                      <num>(2)</num>
+                      <content>
+                        <p>מטרתה היחידה היא קיום חובות יצרנים או יבואנים לפי חוק זה וביצוע הפעולות הנדרשות לשם כך;</p>
+                      </content>
+                    </point>
+                    <point eId="point_12__point_א__point_3">
+                      <num>(3)</num>
+                      <content>
+                        <p>אם הוקמה למטרות רווח – תקנונה מגביל את האפשרות לחלק רווחים אם לא עמדה ביעדי המיחזור של היצרנים או היבואנים שהיא אחראית לביצוע חובותיהם או אם לא התקיימו הוראות <ref href="#point_21">סעיף 21(ו)(1)</ref>; על אף הוראות פסקה זו, בתקופה של שלוש שנים מיום תחילתו של חוק זה, רשאי המנהל להכיר רק בחברה לתועלת הציבור כהגדרתה <ref href="/akn/il/act/PrimaryLegislation/1999-05-27/165159">בחוק החברות</ref>; השר רשאי, בצו, לקצר את התקופה האמורה או להאריכה בתקופות של שנה בכל פעם, ובלבד שסך תקופות ההארכה לא יעלה על שנתיים רצופות.</p>
+                      </content>
+                    </point>
+                    <point eId="point_12__point_א__point_4">
+                      <num>(4)</num>
+                      <content>
+                        <p>היא הציגה תכנית עסקית להנחת דעתו של המנהל ולפיה סמוך למועד ההכרה היא תיתן שירותים ליצרנים וליבואנים שמשקל חומר האריזות שייצרו או ייבאו לא יפחת מ־10 אחוזים מסך משקל חומר האריזות שיוצר או יובא בידי כלל היצרנים והיבואנים שהוראות <ref href="#chp_ג">פרק ג׳ לחוק</ref> חלות עליהם, ובתוך שלוש שנים ממועד ההכרה תיתן שירותים ליצרנים וליבואנים שמשקל חומר האריזות שייצרו או ייבאו לא יפחת מ־25 אחוזים מהסך האמור (להלן – שיעור היקף השירותים לעניין הכרה);</p>
+                      </content>
+                    </point>
+                    <point eId="point_12__point_א__point_5">
+                      <num>(5)</num>
+                      <content>
+                        <p>היא התחייבה לתת שירותים ליצרנים וליבואנים שיתקשרו עמה, בהתאם להוראות <ref href="#point_9">סעיפים 9(א)</ref><ref href="#point_16">ו־16(א)</ref>, לכלל פסולת האריזות של המוצרים הארוזים או של אריזות השירות, לפי העניין, שייצר או ייבא כל יצרן או יבואן שיתקשר עמה כאמור;</p>
+                      </content>
+                    </point>
+                    <point eId="point_12__point_א__point_6">
+                      <num>(6)</num>
+                      <content>
+                        <p>היא בעלת הון עצמי מספיק, להנחת דעתו של המנהל, והמציאה בטוחות לשם הבטחת עמידתה במטרה כאמור בפסקה (2);</p>
+                      </content>
+                    </point>
+                    <point eId="point_12__point_א__point_7">
+                      <num>(7)</num>
+                      <content>
+                        <p>המנהל הכללי של החברה ובעל שליטה בה לא הורשעו בעבירה שמפאת מהותה, חומרתה, או נסיבותיה, אין החברה ראויה להיות גוף מוכר; לעניין זה, ”שליטה“ – כהגדרתה <ref href="/akn/il/act/PrimaryLegislation/1968-08-22/150242">בחוק ניירות ערך, התשכ"ח–1968</ref>;</p>
+                      </content>
+                    </point>
+                    <point eId="point_12__point_א__point_8">
+                      <num>(8)</num>
+                      <content>
+                        <p>תנאים נוספים ככל שקבע השר.</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+                <point eId="point_12__point_ב">
+                  <num>(ב)</num>
+                  <list>
+                    <intro>
+                      <p>המנהל רשאי לסרב לתת למבקש הכרה, מנימוקים שימסור למבקש ולאחר שנתן לו הזדמנות לטעון את טענותיו, אף אם מתקיימים לגביו התנאים שבסעיף קטן (א), אם מצא כי קיימות נסיבות שבשלהן אין הוא ראוי לקבל הכרה, או אם נוכח כי קיים חשש ממשי שמתן ההכרה למבקש יפגע ביישום מטרות חוק זה בהתחשב, בין השאר, באלה:</p>
+                    </intro>
+                    <point eId="point_12__point_ב__point_1">
+                      <num>(1)</num>
+                      <content>
+                        <p>מספר הגופים המוכרים הפועלים בישראל;</p>
+                      </content>
+                    </point>
+                    <point eId="point_12__point_ב__point_2">
+                      <num>(2)</num>
+                      <content>
+                        <p>חלקם של היצרנים או היבואנים הקשורים עם גופים מוכרים בייצור או בייבוא של סוג חומר האריזות שיוצרו או יובאו בידי כלל היצרנים והיבואנים שהוראות <ref href="#chp_ג">פרק ג׳ לחוק</ref> חלות עליהם (בסעיף קטן זה – חלק בייצור או בייבוא סך סוג חומר האריזות);</p>
+                      </content>
+                    </point>
+                    <point eId="point_12__point_ב__point_3">
+                      <num>(3)</num>
+                      <content>
+                        <p>סוג האריזות שיצרנים או יבואנים כאמור בפסקה (2) מייצרים או מייבאים;</p>
+                      </content>
+                    </point>
+                    <point eId="point_12__point_ב__point_4">
+                      <num>(4)</num>
+                      <content>
+                        <p>מספר היצרנים או היבואנים שיתקשרו עם המבקש, חלקם בייצור או בייבוא מסך סוג חומר האריזות, או סוג האריזות שהם מייצרים או מייבאים.</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+                <point eId="point_12__point_ג">
+                  <num>(ג)</num>
+                  <content>
+                    <p>על אף האמור בסעיף קטן (א)(4) ו־(5), רשאי המנהל להכיר בחברה כגוף האחראי לקיום חובות יצרנים או יבואנים לפי חוק זה שיתקשרו עמה גם אם שיעור היקף השירותים שלה לעניין ההכרה נמוך מהשיעור האמור בסעיף קטן (א)(4), אם נוכח כי קיימות נסיבות חריגות שבשלהן ראוי שהחברה תהיה אחראית לקיום חובות יצרנים או יבואנים כאמור בכל הנוגע לפסולת אריזות מסוג מסוים או מסוגים מסוימים בלבד; הכרה כאמור תיעשה באופן שלא יפגע בכדאיותה הכלכלית של החברה ובהשגת יעדי המיחזור של כלל פסולת האריזות.</p>
+                  </content>
+                </point>
+                <point eId="point_12__point_ד">
+                  <num>(ד)</num>
+                  <content>
+                    <p>לשם הבטחת עמידתו של הגוף המוכר במטרה כאמור בסעיף קטן (א)(2), רשאי המנהל לקבוע בהכרה תנאים שיש לקיימם במהלך תקופת תוקפה של ההכרה, כולה או חלקה, ובכלל זה תנאים לעניין פעילות הסברה לקידום מטרות החוק, ורשאי הוא לשנות את התנאים כאמור, לאחר שנתן לגוף המוכר הזדמנות לטעון את טענותיו.</p>
+                  </content>
+                </point>
+                <point eId="point_12__point_ה">
+                  <num>(ה)</num>
+                  <content>
+                    <p>הכרה תינתן לתקופה של חמש שנים (<ref href="#chp_ד">בפרק זה</ref> – תקופת ההכרה).</p>
+                  </content>
+                </point>
+                <point eId="point_12__point_ו">
+                  <num>(ו)</num>
+                  <content>
+                    <p>תקנון הגוף המוכר וכל שינוי בו טעונים את אישור המנהל.</p>
+                  </content>
+                </point>
+                <point eId="point_12__point_ז">
+                  <num>(ז)</num>
+                  <content>
+                    <p>המנהל יפרסם ברשומות ובאתר האינטרנט של המשרד הודעה על הכרה בחברה כגוף מוכר ועל מועד ההכרה.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_13">
+              <heading>
+                <authorialNote placement="side">
+                  <p>בקשה להכרה</p>
+                </authorialNote>
+              </heading>
+              <num>13.</num>
+              <list>
+                <point eId="point_13__point_א">
+                  <num>(א)</num>
+                  <list>
+                    <intro>
+                      <p>חברה המבקשת לקבל הכרה תגיש למנהל בקשה שתכלול את המסמכים והפרטים האלה:</p>
+                    </intro>
+                    <point eId="point_13__point_א__point_1">
+                      <num>(1)</num>
+                      <content>
+                        <p>מסמכי ההתאגדות של החברה;</p>
+                      </content>
+                    </point>
+                    <point eId="point_13__point_א__point_2">
+                      <num>(2)</num>
+                      <content>
+                        <p>תכנית עסקית ותכנית תקציב לתקופת ההכרה, ובכלל זה הסדרים מתוכננים לעניין סימון אריזות;</p>
+                      </content>
+                    </point>
+                    <point eId="point_13__point_א__point_3">
+                      <num>(3)</num>
+                      <content>
+                        <p>פריסה גאוגרפית מתוכננת לפעילותה בתקופת ההכרה;</p>
+                      </content>
+                    </point>
+                    <point eId="point_13__point_א__point_4">
+                      <num>(4)</num>
+                      <content>
+                        <p>חוזה לדוגמה להתקשרות בין המבקש ליצרן או ליבואן;</p>
+                      </content>
+                    </point>
+                    <point eId="point_13__point_א__point_5">
+                      <num>(5)</num>
+                      <content>
+                        <p>חוזה לדוגמה להתקשרות בין המבקש לאחראי לפינוי פסולת;</p>
+                      </content>
+                    </point>
+                    <point eId="point_13__point_א__point_6">
+                      <num>(6)</num>
+                      <content>
+                        <p>פרטים ומידע נוספים ככל שקבע השר.</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+                <point eId="point_13__point_ב">
+                  <num>(ב)</num>
+                  <content>
+                    <p>המנהל רשאי לדרוש ממבקש הכרה פרטים ומסמכים נוספים ככל שיראה לנכון, לשם בדיקת הבקשה.</p>
+                  </content>
+                </point>
+                <point eId="point_13__point_ג">
+                  <num>(ג)</num>
+                  <content>
+                    <p>החלטת המנהל בבקשה לפי סעיף זה תינתן בתוך שלושה חודשים מיום שקיבל את מסמכי הבקשה, לרבות הפרטים או המסמכים שדרש לפי הוראות סעיף קטן (ב).</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_14">
+              <heading>
+                <authorialNote placement="side">
+                  <p>ביטול הכרה</p>
+                </authorialNote>
+              </heading>
+              <num>14.</num>
+              <list>
+                <point eId="point_14__point_א">
+                  <num>(א)</num>
+                  <list>
+                    <intro>
+                      <p>המנהל, באישור המנהל הכללי של המשרד, רשאי לבטל הכרה, לאחר שנתן לגוף המוכר הזדמנות לטעון את טענותיו, בהתקיים אחד מאלה:</p>
+                    </intro>
+                    <point eId="point_14__point_א__point_1">
+                      <num>(1)</num>
+                      <content>
+                        <p>ההכרה ניתנה על יסוד מידע כוזב או מטעה;</p>
+                      </content>
+                    </point>
+                    <point eId="point_14__point_א__point_2">
+                      <num>(2)</num>
+                      <content>
+                        <p>חדל להתקיים בגוף המוכר תנאי מהתנאים למתן ההכרה לפי <ref href="#point_12">סעיף 12</ref>;</p>
+                      </content>
+                    </point>
+                    <point eId="point_14__point_א__point_3">
+                      <num>(3)</num>
+                      <content>
+                        <p>הגוף המוכר הפר תנאי מתנאי ההכרה או הוראה מההוראות לפי <ref href="#chp_ד">פרק זה</ref> או שהפר הוראת חיקוק אחר בקשר עם פעילותו;</p>
+                      </content>
+                    </point>
+                    <point eId="point_14__point_א__point_4">
+                      <num>(4)</num>
+                      <content>
+                        <p>ניתן לגבי הגוף המוכר צו פירוק זמני או מונה לו כונס נכסים או שהוגשה בקשה לכל אחד מאלה, או שהוא החליט על פירוקו מרצון.</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+                <point eId="point_14__point_ב">
+                  <num>(ב)</num>
+                  <content>
+                    <p>ביטל המנהל הכרה, רשאי הוא לתת לחברה שלגביה בוטלה ההכרה וכן לכל יצרן או יבואן שהיה קשור עמה בחוזה התקשרות לפי חוק זה ערב הביטול, הוראות לשם הבטחת המשך קיום חובות היצרנים או היבואנים לפי חוק זה, לרבות המועד והאופן שבהם על היצרנים והיבואנים כאמור לבצע פעולות הנדרשות לשם כך.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+          </list>
+        </section>
+        <section eId="chp_ד__sec_ב">
+          <num>סימן ב׳:</num>
+          <title>
+            <content>
+              <p>חובות גוף מוכר</p>
+            </content>
+          </title>
+          <list>
+            <point eId="point_15">
+              <heading>
+                <authorialNote placement="side">
+                  <p>ביצוע פעולות לקיום חובות יצרנים או יבואנים</p>
+                </authorialNote>
+              </heading>
+              <num>15.</num>
+              <list>
+                <point eId="point_15__point_א">
+                  <num>(א)</num>
+                  <content>
+                    <p>גוף מוכר יבצע את כל הפעולות הנדרשות לקיום חובות יצרנים או יבואנים כאמור <ref href="#point_9">בסעיף 9</ref> שהתקשרו עמו לשם כך, ויפעל בהתאם להוראות לפי <ref href="#chp_ד_sec_ב">סימן זה</ref>.</p>
+                  </content>
+                </point>
+                <point eId="point_15__point_ב">
+                  <num>(ב)</num>
+                  <content>
+                    <p>גוף מוכר רשאי, לשם קיום חובת יצרנים או יבואנים לפי <ref href="#point_6">סעיף 6</ref>, למחזר או להשיב פסולת אריזות של מוצרים ארוזים או של אריזות שירות שמכרו יצרנים או יבואנים שלא התקשרו עמו.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_16">
+              <heading>
+                <authorialNote placement="side">
+                  <p>חובת התקשרות עם יצרנים ויבואנים וחובת דיווח להם</p>
+                </authorialNote>
+              </heading>
+              <num>16.</num>
+              <list>
+                <point eId="point_16__point_א">
+                  <num>(א)</num>
+                  <content>
+                    <p>גוף מוכר יתקשר בחוזה התקשרות עם כל יצרן או יבואן שיפנה אליו לשם קיום חובותיו, שתואמים את תנאי ההכרה של אותו גוף מוכר, בתנאים שוויוניים; ההתקשרות תיעשה בהתאם לחוזה לדוגמה שאישר המנהל בהכרה ובהתאם לתנאים שנקבעו בה.</p>
+                  </content>
+                </point>
+                <point eId="point_16__point_ב">
+                  <num>(ב)</num>
+                  <content>
+                    <p>גוף מוכר ידווח, פעמיים בשנה לפחות, במתכונת שיורה עליה המנהל, לכל יצרן ויבואן שעמם התקשר, על הפעולות שביצע לשם קיום חובותיהם, ובכלל זה על שיעור המיחזור של פסולת אריזות שביצע במהלך תקופת הדיווח, מתוך יעדי המיחזור לפי <ref href="#point_6">סעיף 6</ref>.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_17">
+              <heading>
+                <authorialNote placement="side">
+                  <p>חובת התקשרות עם אחראי לפינוי פסולת וביצוע פעולות איסוף ופינוי של פסולת אריזות</p>
+                </authorialNote>
+              </heading>
+              <num>17.</num>
+              <list>
+                <point eId="point_17__point_א">
+                  <num>(א)</num>
+                  <list>
+                    <intro>
+                      <p>בלי לגרוע מחובות גוף מוכר לפי הוראות חוק זה, גוף מוכר אחראי למימון כל העלויות הדרושות לטיפול בפסולת האריזות שהופרדה ונאספה בתחומו של כל אחראי לפינוי פסולת שעמו התקשר, למעט פסולת אריזות שנאספה מבית עסק לפי <ref href="#point_26">סעיף 26</ref>, ובכלל זה מימון של –</p>
+                    </intro>
+                    <point eId="point_17__point_א__point_1">
+                      <num>(1)</num>
+                      <content>
+                        <p>הפרדת פסולת אריזות;</p>
+                      </content>
+                    </point>
+                    <point eId="point_17__point_א__point_2">
+                      <num>(2)</num>
+                      <content>
+                        <p>איסוף ופינוי של פסולת אריזות;</p>
+                      </content>
+                    </point>
+                    <point eId="point_17__point_א__point_3">
+                      <num>(3)</num>
+                      <content>
+                        <p>מיון פסולת אריזות;</p>
+                      </content>
+                    </point>
+                    <point eId="point_17__point_א__point_4">
+                      <num>(4)</num>
+                      <content>
+                        <p>מיחזור, השבה או סילוק של פסולת אריזות, לפי הוראות כל דין.</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+                <point eId="point_17__point_ב">
+                  <num>(ב)</num>
+                  <content>
+                    <p>לא הופרדה פסולת אריזות מפסולת אחרת, יהיה גוף מוכר אחראי למימון העלויות המפורטות בסעיף קטן (א)(1) ו־(2) ביחס לפסולת האריזות בלבד.</p>
+                  </content>
+                </point>
+                <point eId="point_17__point_ג">
+                  <num>(ג)</num>
+                  <content>
+                    <p>גוף מוכר יציע לכל אחראי לפינוי פסולת להתקשר עמו בחוזה התקשרות, בעניין הפרדת פסולת אריזות ואיסוף ופינוי של פסולת אריזות בתחומו, בתנאים שוויוניים; חוזה ההתקשרות ינוסח באופן התואם את החוזה לדוגמה שאישר המנהל בהכרה ובהתאם לתנאים שנקבעו בה.</p>
+                  </content>
+                </point>
+                <point eId="point_17__point_ד">
+                  <num>(ד)</num>
+                  <content>
+                    <p>גוף מוכר יתקשר בחוזה התקשרות כאמור בסעיף קטן (ג), עם כל אחראי לפינוי פסולת שיפנה אליו, בעניין הפרדת פסולת אריזות ואיסוף ופינוי של פסולת אריזות בתחומו, התואמים את תנאי ההכרה של אותו גוף מוכר.</p>
+                  </content>
+                </point>
+                <point eId="point_17__point_ה">
+                  <num>(ה)</num>
+                  <content>
+                    <p>גוף מוכר יהיה אחראי ליישום הסדר איסוף ופינוי של פסולת אריזות בתחומם של כל האחראים לפינוי פסולת שעמם התקשר, בהתאם לתנאי ההתקשרות ולתנאי ההכרה; איסוף ופינוי כאמור ייעשו באופן שוויוני, בתדירות ובאופן שיבטיחו איסוף ופינוי סדירים וזמינים לציבור וימנעו הצטברות של פסולת אריזות, והכל בהתאם להסדרי הפרדה, איסוף ופינוי שקבעו האחראים לפינוי פסולת לפי <ref href="#point_23">סעיף 23(א)</ref> ובכפוף לכל דין.</p>
+                  </content>
+                </point>
+                <point eId="point_17__point_ו">
+                  <num>(ו)</num>
+                  <content>
+                    <p>המנהל רשאי לתת הוראות לעניין התדירות של איסוף ופינוי פסולת אריזות לפי סעיף קטן (ה) וכמויות פסולת האריזות שייאספו ויפונו כאמור, וכן לעניין פינוי פסולת אריזות מבית עסק לפי <ref href="#point_26">סעיף 26</ref>, לרבות קביעת אמות מידה לאיסוף ולפינוי; הוראות המנהל לפי סעיף זה יפורסמו ברשומות.</p>
+                  </content>
+                </point>
+                <point eId="point_17__point_ז">
+                  <num>(ז)</num>
+                  <content>
+                    <p>המנהל, באישור המנהל הכללי של המשרד, רשאי לפטור גוף מוכר שקיבל הכרה לפי הוראות <ref href="#point_12">סעיף 12(ג)</ref>, מההוראות לפי סעיף זה, כולן או חלקן, אם שוכנע כי גם לאחר מתן הפטור כאמור יתבצע איסוף ופינוי של פסולת אריזות בהיקף כלל ארצי.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_18">
+              <heading>
+                <authorialNote placement="side">
+                  <p>חובת דיווח למנהל של גוף מוכר</p>
+                </authorialNote>
+              </heading>
+              <num>18.</num>
+              <list>
+                <point eId="point_18__point_א">
+                  <num>(א)</num>
+                  <list>
+                    <intro>
+                      <p>גוף מוכר ידווח למנהל, פעמיים בשנה (בסעיף זה – דוח חצי שנתי), בתום חודשיים מתום התקופה שלגביה מוגש הדוח, במתכונת שיורה עליה המנהל, על כל אלה:</p>
+                    </intro>
+                    <point eId="point_18__point_א__point_1">
+                      <num>(1)</num>
+                      <content>
+                        <p>היצרנים והיבואנים שעמם הוא קשור בחוזה התקשרות בתקופה שלגביה מוגש הדוח;</p>
+                      </content>
+                    </point>
+                    <point eId="point_18__point_א__point_2">
+                      <num>(2)</num>
+                      <content>
+                        <p>הפרטים כאמור <ref href="#point_7">בסעיף 7(א)(1)</ref>, לגבי כל אחד מהיצרנים והיבואנים שעמם הוא קשור כאמור;</p>
+                      </content>
+                    </point>
+                    <point eId="point_18__point_א__point_3">
+                      <num>(3)</num>
+                      <content>
+                        <p>האחראים לפינוי פסולת שעמם הוא קשור בחוזה התקשרות בתקופה שלגביה מוגש הדוח;</p>
+                      </content>
+                    </point>
+                    <point eId="point_18__point_א__point_4">
+                      <num>(4)</num>
+                      <content>
+                        <p>הפרטים כאמור <ref href="#point_7">בסעיף 7(א)(2) ו־(3)</ref>, לגבי פסולת האריזות של המוצרים הארוזים או של אריזות השירות שאסף, מיחזר או השיב.</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+                <point eId="point_18__point_ב">
+                  <num>(ב)</num>
+                  <list>
+                    <intro>
+                      <p>גוף מוכר ידווח למנהל בתום כל שנה (בסעיף זה – דוח שנתי), לא יאוחר משישה חודשים מתום השנה שלגביה מוגש הדוח, כשהוא מבוקר בידי רואה חשבון, במתכונת שיורה עליה המנהל, על כל אלה:</p>
+                    </intro>
+                    <point eId="point_18__point_ב__point_1">
+                      <num>(1)</num>
+                      <content>
+                        <p>העניינים כאמור בסעיף קטן (א);</p>
+                      </content>
+                    </point>
+                    <point eId="point_18__point_ב__point_2">
+                      <num>(2)</num>
+                      <content>
+                        <p>המאזן הכספי של הגוף המוכר לשנה החולפת.</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+                <point eId="point_18__point_ג">
+                  <num>(ג)</num>
+                  <content>
+                    <p>גוף מוכר ידווח למנהל בתום כל שנה, לא יאוחר מחודשיים מתום כל שנת כספים, במתכונת שיורה עליה המנהל, על תכנית תקציב ותכנית עבודה לשנה הבאה.</p>
+                  </content>
+                </point>
+                <point eId="point_18__point_ד">
+                  <num>(ד)</num>
+                  <content>
+                    <p>המנהל או מי שהוא הסמיכו לכך רשאי לדרוש מגוף מוכר להמציא לו כל מידע ששימש לעריכת דוח לפי סעיף זה; נדרש גוף מוכר להמציא מידע כאמור, ימציאו במועד ובאופן שצוינו בדרישה.</p>
+                  </content>
+                </point>
+                <point eId="point_18__point_ה">
+                  <num>(ה)</num>
+                  <content>
+                    <p>לא מסר גוף מוכר דוח חצי שנתי או דוח שנתי, או שמסר דוח כאמור אך למנהל יש טעמים סבירים להניח שהדוח אינו נכון, רשאי המנהל, לאחר שנתן לגוף המוכר הזדמנות לטעון את טענותיו, לקבוע בהחלטה מנומקת את שיעורי פסולת האריזות שלגביהם בוצעו מיחזור מוכר או השבה מוכרת במהלך תקופת הדיווח.</p>
+                  </content>
+                </point>
+                <point eId="point_18__point_ו">
+                  <num>(ו)</num>
+                  <content>
+                    <p>לעניין סעיף זה, דוח חצי שנתי יוגש לגבי תקופה של שישה חודשים הכוללת את החודשים ינואר עד יוני, או יולי עד דצמבר, בכל שנה.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_19">
+              <heading>
+                <authorialNote placement="side">
+                  <p>חובת רישום של גוף מוכר</p>
+                </authorialNote>
+              </heading>
+              <num>19.</num>
+              <list>
+                <point eId="point_19__point_א">
+                  <num>(א)</num>
+                  <content>
+                    <p>גוף מוכר ינהל רישום מלא ומפורט של העניינים הכלולים בחובת הדיווח לפי <ref href="#point_18">סעיף 18</ref>.</p>
+                  </content>
+                </point>
+                <point eId="point_19__point_ב">
+                  <num>(ב)</num>
+                  <content>
+                    <p>המנהל או מי שהוא הסמיכו לכך רשאי לעיין ברישומים כאמור בסעיף זה ולקבל העתק נכון מהם.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_20">
+              <heading>
+                <authorialNote placement="side">
+                  <p>קביעת משקל מופחת של פסולת אריזות בשל הפרת הוראות בידי אחראי לפינוי פסולת</p>
+                </authorialNote>
+              </heading>
+              <num>20.</num>
+              <list>
+                <point eId="point_20__point_א">
+                  <num>(א)</num>
+                  <content>
+                    <p>בלי לגרוע מהוראות <ref href="#point_18">סעיף 18(ה)</ref>, הוצא צו לפי <ref href="#point_24">סעיף 24(א)</ref> כלפי אחראי לפינוי פסולת או הוטל עליו עיצום כספי בשל אי־התקשרות עם גוף מוכר אחד לפחות לעניין איסוף ופינוי של פסולת אריזות מתחומו לפי <ref href="#point_34">סעיף 34(ב)</ref>, רשאי המנהל לקבוע, לעניין פסולת אריזות בתחומו של אותו אחראי לפינוי פסולת, משקל שיופחת ממשקל פסולת האריזות שגוף מוכר חב לגביו חובת מיחזור לפי <ref href="#point_6">סעיף 6</ref>.</p>
+                  </content>
+                </point>
+                <point eId="point_20__point_ב">
+                  <num>(ב)</num>
+                  <content>
+                    <p>היו כמה גופים מוכרים, יקבע המנהל את החלק היחסי מתוך המשקל המופחת של פסולת האריזות כאמור בסעיף קטן (א), שניתן להפחית לכל גוף מוכר ביחס לסך משקל חומר האריזות אשר יוצר או יובא בידי כלל היצרנים והיבואנים שהוראות <ref href="#chp_ג">פרק ג׳</ref> חלות עליהם.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_21">
+              <heading>
+                <authorialNote placement="side">
+                  <p>אסיפת יצרנים ויבואנים</p>
+                </authorialNote>
+              </heading>
+              <num>21.</num>
+              <list>
+                <point eId="point_21__point_א">
+                  <num>(א)</num>
+                  <content>
+                    <p>גוף מוכר יכנס, אחת לשנה לפחות, אסיפה של יצרנים ויבואנים שקשורים עמו בחוזה התקשרות ואינם בעלי מניות בגוף המוכר (<ref href="#chp_ד">בפרק זה</ref> – אסיפת יצרנים ויבואנים).</p>
+                  </content>
+                </point>
+                <point eId="point_21__point_ב">
+                  <num>(ב)</num>
+                  <content>
+                    <p>אסיפת יצרנים ויבואנים תהיה אורגן של הגוף המוכר, והחלטותיה יחייבו את הגוף המוכר בעניינים המפורטים בסעיף זה.</p>
+                  </content>
+                </point>
+                <point eId="point_21__point_ג">
+                  <num>(ג)</num>
+                  <content>
+                    <p>באסיפת יצרנים ויבואנים יציג הגוף המוכר את העניינים שדווחו למנהל לפי <ref href="#point_18">סעיף 18</ref>, למעט הפרטים האמורים <ref href="#point_18">בסעיף קטן (א)(2) שבו</ref>.</p>
+                  </content>
+                </point>
+                <point eId="point_21__point_ד">
+                  <num>(ד)</num>
+                  <content>
+                    <p>מצאה אסיפת יצרנים ויבואנים, על פי דיווחים שהוצגו לפניה לפי סעיף קטן (ג), כי הגוף המוכר אינו מקיים את חובות היצרנים והיבואנים הקשורים עמו כאמור <ref href="#point_9">בסעיף 9</ref> ובחוזה ההתקשרות או חובות אחרות המוטלות עליו לפי כל דין, או כי קיים חשש שלא יקיים את החובות כאמור, רשאית היא לדרוש קיום ישיבה מיוחדת של דירקטוריון הגוף המוכר, בתוך תקופה שתקבע ושלא תפחת משבעה ימים, שבה יידונו העניינים המפורטים בדרישה; הדרישה תובא לידיעת המנהל והחלטת הדירקטוריון תובא לידיעת אסיפת היצרנים והיבואנים והמנהל.</p>
+                  </content>
+                </point>
+                <point eId="point_21__point_ה">
+                  <num>(ה)</num>
+                  <content>
+                    <p>בגוף מוכר שאינו חברה ציבורית ימונו שני דירקטורים שמתקיימים בהם תנאי <ref href="/akn/il/act/PrimaryLegislation/1999-05-27/165159#point_240">סעיף 240(ב) לחוק החברות</ref>, כאילו היו דירקטורים חיצוניים, שיכהנו בדירקטוריון הגוף המוכר, ומינוים טעון אישור של אסיפת היצרנים והיבואנים.</p>
+                  </content>
+                </point>
+                <point eId="point_21__point_ו">
+                  <num>(ו)</num>
+                  <list>
+                    <point eId="point_21__point_ו__point_1">
+                      <num>(1)</num>
+                      <content>
+                        <p>החלטת גוף מוכר על חלוקה טעונה אישור של אסיפת יצרנים ויבואנים; אסיפת יצרנים ויבואנים רשאית שלא לאשר חלוקה אם סברה כי קיים חשש ממשי שביצוע החלוקה יפגע ביכולת הגוף המוכר לקיים את חובות היצרנים והיבואנים כאמור <ref href="#point_9">בסעיף 9</ref> ובחוזה ההתקשרות בהגיע מועד קיומם.</p>
+                      </content>
+                    </point>
+                    <point eId="point_21__point_ו__point_2">
+                      <num>(2)</num>
+                      <content>
+                        <p>על החלטת אסיפת יצרנים ויבואנים לעניין חלוקה אפשר לערער לבית משפט מחוזי.</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+                <point eId="point_21__point_ז">
+                  <num>(ז)</num>
+                  <content>
+                    <p>החלטות אסיפת יצרנים ויבואנים יתקבלו ברוב קולות של חברי היצרנים והיבואנים המשתתפים בהצבעה, אלא אם כן נקבע אחרת לפי סעיף קטן (ח); גוף מוכר יעביר לידיעת המנהל את ההחלטות שהתקבלו באסיפת יצרנים ויבואנים.</p>
+                  </content>
+                </point>
+                <point eId="point_21__point_ח">
+                  <num>(ח)</num>
+                  <content>
+                    <p>השר רשאי לקבוע הוראות לעניין סעיף זה, ובכלל זה לעניין סדרי כינוסה, דיוניה ועבודתה של אסיפת יצרנים ויבואנים, מועדי התכנסותה, המניין החוקי בישיבותיה, משלוח הודעות ליצרנים וליבואנים הזכאים להשתתף בישיבותיה ואופן ההצבעה, לרבות באמצעות כתבי הצבעה.</p>
+                  </content>
+                </point>
+                <point eId="point_21__point_ט">
+                  <num>(ט)</num>
+                  <content>
+                    <p>השר רשאי לפטור גוף מוכר מהוראות סעיף זה, כולן או חלקן, אם מצא כי לפי תקנון ההתאגדות של אותו גוף מוכר, כל יצרן או יבואן הקשור עמו בחוזה התקשרות יכול להיות בעל מניות בו, בתנאים סבירים בנסיבות העניין, וכי רוב היצרנים והיבואנים שקשורים עמו בחוזה התקשרות הם בעלי מניות בו.</p>
+                  </content>
+                </point>
+                <point eId="point_21__point_י">
+                  <num>(י)</num>
+                  <content>
+                    <p>בסעיף זה, ”חברה ציבורית“, ”חלוקה“ ו”נושא משרה“ – כהגדרתם <ref href="/akn/il/act/PrimaryLegislation/1999-05-27/165159">בחוק החברות</ref>.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_22">
+              <heading>
+                <authorialNote placement="side">
+                  <p>נציג המנהל</p>
+                </authorialNote>
+              </heading>
+              <num>22.</num>
+              <list>
+                <point eId="point_22__point_א">
+                  <num>(א)</num>
+                  <content>
+                    <p>הזמנה לישיבות דירקטוריון הגוף המוכר וועדות הדירקטוריון וכן לישיבות של אסיפת יצרנים ויבואנים, תימסר למנהל, והוא רשאי לשלוח לכל ישיבה כאמור נציג מטעמו, שיהיה רשאי להשתתף בישיבה אך לא תהיה לו זכות הצבעה בה.</p>
+                  </content>
+                </point>
+                <point eId="point_22__point_ב">
+                  <num>(ב)</num>
+                  <content>
+                    <p>הנציג האמור בסעיף קטן (א) יהיה רשאי לדרוש קיום ישיבת דירקטוריון, ועדת דירקטוריון או אסיפת יצרנים ויבואנים ולבקש לכלול נושא בסדר היום של הישיבה וכן לבדוק את מסמכי הגוף המוכר, רישומיו ונכסיו, ולקבל העתקים לפי <ref href="/akn/il/act/PrimaryLegislation/1999-05-27/165159#point_98">סעיפים 98(ב)(2) ו־(ד)</ref>, <ref href="/akn/il/act/PrimaryLegislation/1999-05-27/165159#point_99">99(3)</ref><ref href="/akn/il/act/PrimaryLegislation/1999-05-27/165159#point_265">ו־265 לחוק החברות</ref>, בהתאמה.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+          </list>
+        </section>
+      </chapter>
+      <chapter eId="chp_ה">
+        <num>פרק ה׳:</num>
+        <title>
+          <content>
+            <p>הוראות לעניין הפרדה, איסוף, פינוי והטמנה של פסולת אריזות</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_23">
+            <heading>
+              <authorialNote placement="side">
+                <p>קביעת הסדרי הפרדה, איסוף ופינוי וחובת התקשרות עם גוף מוכר</p>
+              </authorialNote>
+            </heading>
+            <num>23.</num>
+            <list>
+              <point eId="point_23__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>אחראי לפינוי פסולת יקבע, בכפוף להוראות לפי סעיף קטן (ד), הסדר לעניין הפרדת פסולת אריזות מפסולת אחרת בתחומו, ורשאי הוא להתיר בהסדר כאמור עירוב של פסולת אריזות עם פסולת בעלת מאפיינים דומים למאפיינים של פסולת האריזות (בחוק זה – הסדר להפרדת פסולת אריזות), וכן הסדר לעניין איסוף ופינוי של פסולת אריזות שהופרדה כאמור (בחוק זה – הסדר לאיסוף ופינוי של פסולת אריזות מופרדת); ואולם אין בהסדרים שנקבעו לעניין עירוב פסולת, כדי להגדיל את המימון של גוף מוכר מעבר לחובת המימון לפי <ref href="#point_17">סעיף 17(א) ו־(ב)</ref>.</p>
+                </content>
+              </point>
+              <point eId="point_23__point_ב">
+                <num>(ב)</num>
+                <list>
+                  <point eId="point_23__point_ב__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>אחראי לפינוי פסולת יהיה אחראי לבצע הפרדת פסולת אריזות ואיסוף ופינוי של פסולת אריזות מתחומו, בהתאם להסדרי הפרדה, איסוף ופינוי שקבע לעניין זה לפי סעיף קטן (א) ולהוראות לפי חוק זה.</p>
+                    </content>
+                  </point>
+                  <point eId="point_23__point_ב__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>לשם קיום חובתו כאמור בפסקה (1), יתקשר אחראי לפינוי פסולת בחוזה התקשרות עם גוף מוכר אחד לפחות; ואולם אין בהוראות סעיף קטן זה כדי למנוע מאחראי לפינוי פסולת להתקשר גם עם יצרן או עם יבואן שקיבל פטור מחובת התקשרות לפי <ref href="#point_9">סעיף 9(ה)</ref>, לשם ביצוע איסוף ופינוי של פסולת האריזות של המוצרים הארוזים או של אריזות השירות שייצר או ייבא.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_23__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>אחראי לפינוי פסולת יעביר את פסולת האריזות שנאספה מתחומו בהתאם לחובותיו לפי סעיף זה לגוף מוכר שעמו התקשר, בלא תמורה נוספת מעבר לעלות המימון כאמור <ref href="#point_17">בסעיף 17(א) או (ב)</ref>, לפי העניין.</p>
+                </content>
+              </point>
+              <point eId="point_23__point_ד">
+                <num>(ד)</num>
+                <list>
+                  <point eId="point_23__point_ד__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>השר רשאי לקבוע אמות מידה לעניין הסדרי הפרדה, איסוף ופינוי, ורשאי הוא שלא להתיר בהסדרים כאמור עירוב של פסולת אריזות עם פסולת בעלת מאפיינים דומים למאפיינים של פסולת האריזות.</p>
+                    </content>
+                  </point>
+                  <point eId="point_23__point_ד__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>בקביעת הוראות לפי סעיף קטן זה, ישקול השר, בין השאר, אם עלולה להיגרם פגיעה משמעותית בכמות ובאיכות של פסולת אריזות ופסולת בעלת מאפיינים דומים למאפיינים של פסולת אריזות שמוחזרה ערב תחילתו של חוק זה.</p>
+                    </content>
+                  </point>
+                  <point eId="point_23__point_ד__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>תקנות לפי סעיף קטן זה בכל הנוגע לרשויות מקומיות ייקבעו בהסכמת שר הפנים.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_23__point_ה">
+                <num>(ה)</num>
+                <list>
+                  <point eId="point_23__point_ה__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>השר, על פי המלצת ועדת המחירים ובאישור שר האוצר, רשאי לקבוע מחירים לעניין התקשרות עם גוף מוכר לשם ביצוע הסדרי הפרדה, איסוף ופינוי לפי הוראות סעיף קטן (ב).</p>
+                    </content>
+                  </point>
+                  <point eId="point_23__point_ה__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>ועדת המחירים תהיה בת שמונה חברים, שהם ארבעה עובדי משרד האוצר שימנה המנהל הכללי של משרד האוצר, ואחד מהם יהיה היושב ראש, עובד משרד התעשייה המסחר והתעסוקה שימנה המנהל הכללי של משרד התעשייה המסחר והתעסוקה, עובד משרד הפנים שימנה המנהל הכללי של משרד הפנים ושני עובדי המשרד שימנה המנהל הכללי של המשרד.</p>
+                    </content>
+                  </point>
+                  <point eId="point_23__point_ה__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>בתוך 90 ימים מיום שהמנהל הכיר לראשונה בגוף מוכר לפי <ref href="#point_12">סעיף 12</ref>, תמסור ועדת המחירים המלצה לשר כאמור בפסקה (1).</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_23__point_ו">
+                <num>(ו)</num>
+                <content>
+                  <p>הסמכויות הנתונות לשר הפנים לגבי חוקי עזר לפי <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_העיריות#point_258">סעיף 258 לפקודת העיריות</ref>, <ref href="/akn/il/act/PrimaryLegislation/1941-12-18/2001788#point_22">סעיף 22 לפקודת המועצות המקומיות</ref>, <ref href="/akn/il/act/PrimaryLegislation/1955-03-13/146872#point_14">וסעיף 14 לחוק איגודי ערים, התשט"ו–1955</ref>, יהיו נתונות לשר לעניין חוק עזר בדבר הסדרי הפרדה, איסוף ופינוי, שקבע אחראי לפינוי פסולת שהוא רשות מקומית בהתאם להוראות לפי סעיף זה.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_24">
+            <heading>
+              <authorialNote placement="side">
+                <p>צו לעניין קביעת הסדרי הפרדה, איסוף ופינוי או התקשרות עם גוף מוכר</p>
+              </authorialNote>
+            </heading>
+            <num>24.</num>
+            <list>
+              <point eId="point_24__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>לא קבע אחראי לפינוי פסולת הסדרי הפרדה, איסוף ופינוי או לא התקשר עם גוף מוכר אחד לפחות, בהתאם להוראות לפי <ref href="#point_23">סעיף 23</ref>, רשאי המנהל, בהתייעצות עם מנהל מינהל השלטון המקומי במשרד הפנים, לצוות עליו, לקבוע הסדרים כאמור או להתקשר עם גוף מוכר, לפי העניין, בהתאם להוראות שיקבע בצו, ובכלל זה האופן, המועד והמחיר לקביעת ההסדרים או להתקשרות כאמור; הוראות הצו לפי סעיף קטן זה ייקבעו בכפוף להוראות השר לפי <ref href="#point_23">סעיף 23(ד) ו־(ה)</ref>, ככל שנקבעו; לא השיב מנהל מינהל השלטון המקומי במשרד הפנים למנהל בתוך 14 ימים מיום פנייתו אליו לפי סעיף זה, יראו את המנהל כאילו קיים את חובת ההיוועצות האמורה.</p>
+                </content>
+              </point>
+              <point eId="point_24__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>הוראות <ref href="#point_23">סעיף 23(ו)</ref> יחולו לעניין חוק עזר בדבר הסדרי הפרדה, איסוף ופינוי, שקבע אחראי לפינוי פסולת שהוא רשות מקומית בהתאם להוראות לפי סעיף זה.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_25">
+            <heading>
+              <authorialNote placement="side">
+                <p>איסור השלכה, איסוף או פינוי של פסולת אריזות שלא בהתאם להסדרי הפרדה, איסוף ופינוי</p>
+              </authorialNote>
+            </heading>
+            <num>25.</num>
+            <list>
+              <point eId="point_25__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>קבע אחראי לפינוי פסולת הסדר להפרדת פסולת אריזות, לא ישליך אדם פסולת אריזות בתחומו של האחראי לפינוי פסולת אלא בהתאם לאותו הסדר.</p>
+                </content>
+              </point>
+              <point eId="point_25__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>קבע אחראי לפינוי פסולת הסדר לאיסוף ופינוי של פסולת אריזות מופרדת, לא יאסוף אדם פסולת אריזות בתחומו של האחראי לפינוי פסולת ולא יפנה פסולת אריזות מתחומו, אלא בהתאם לאותו הסדר.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_26">
+            <heading>
+              <authorialNote placement="side">
+                <p>איסוף ופינוי פסולת אריזות מבית עסק</p>
+              </authorialNote>
+            </heading>
+            <num>26.</num>
+            <list>
+              <point eId="point_26__point_א">
+                <num>(א)</num>
+                <list>
+                  <intro>
+                    <p>בסעיף זה –</p>
+                  </intro>
+                  <point eId="point_26__point_א__point_בית_עסק">
+                    <content>
+                      <p>
+                        <def />”בית עסק“ – מקום שבמהלך העבודה או העסקים מצטברת בו פסולת אריזות;</p>
+                    </content>
+                  </point>
+                  <point eId="point_26__point_א__point_בעל_בית_עסק">
+                    <content>
+                      <p>
+                        <def />”בעל בית עסק“ – בעל היתר או רישיון הדרושים לפי כל דין להפעלת בית העסק או לניהולו או לעיסוק בעסק, או מי שמוטלת עליו חובה לקבל היתר או רישיון לשם הפעלה או ניהול כאמור.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_26__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>על אף האמור <ref href="#chp_ה">בפרק זה</ref>, רשאי בעל בית עסק להתקשר עם גוף מוכר לעניין איסוף ופינוי של פסולת אריזות המצטברת בבית העסק, כולה או חלקה, בהתאם לתנאי ההכרה של אותו גוף מוכר.</p>
+                </content>
+              </point>
+              <point eId="point_26__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>בעל בית עסק שהתקשר עם גוף מוכר כאמור בסעיף קטן (ב), ינהל רישום מלא ומפורט של משקל פסולת האריזות של המוצרים הארוזים או של אריזות השירות שהצטברה בבית העסק המיועדת לפינוי וסוגי החומר האמורים <ref href="#point_6">בסעיף 6</ref> שממנו עשויה פסולת האריזות, ויספק מידע זה לגוף המוכר, לפי דרישתו.</p>
+                </content>
+              </point>
+              <point eId="point_26__point_ד">
+                <num>(ד)</num>
+                <content>
+                  <p>המנהל או מי שהוא הסמיכו לכך רשאי לעיין ברישומים בבית העסק כאמור בסעיף קטן (ג) ולקבל העתק נכון מהם, וכן לדרוש מבעל בית עסק להמציא לו כל מידע הנוגע לעניין סעיף זה; נדרש בעל בית עסק להמציא מידע כאמור, ימציאו במועד ובאופן שצוינו בדרישה.</p>
+                </content>
+              </point>
+              <point eId="point_26__point_ה">
+                <num>(ה)</num>
+                <content>
+                  <p>איסוף ופינוי מבית עסק לפי סעיף זה ייעשו בתדירות ובאופן שיבטיחו איסוף ופינוי סדירים וימנעו הצטברות של פסולת אריזות, ובכפוף לכל דין.</p>
+                </content>
+              </point>
+              <point eId="point_26__point_ו">
+                <num>(ו)</num>
+                <content>
+                  <p>לגבי פסולת אריזות שלא נאספה על ידי גוף מוכר או בכל עת שההתקשרות עם הגוף המוכר אינה עומדת בתוקפה, יחולו על בעל בית העסק האיסורים האמורים <ref href="#point_25">בסעיף 25</ref>.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_27">
+            <heading>
+              <authorialNote placement="side">
+                <p>איסור הטמנת פסולת אריזות</p>
+              </authorialNote>
+            </heading>
+            <num>27.</num>
+            <list>
+              <point eId="point_27__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>החל ביום ד׳ בטבת התש"פ (1 בינואר 2020), לא יטמין אדם פסולת אריזות, לרבות במקום המשמש לפינוי ולסילוק של פסולת.</p>
+                </content>
+              </point>
+              <point eId="point_27__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>על אף האמור בסעיף קטן (א), רשאי המנהל, באישור השר, לאשר, בכתב, הטמנת פסולת אריזות במקום מסוים, אם נוכח, במקרים מסוימים, כי אין חלופות מיחזור או השבה סבירות; אישור כאמור יינתן לתקופה שלא תעלה על שנה.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+        </list>
+      </chapter>
+      <chapter eId="chp_ו">
+        <num>פרק ו׳:</num>
+        <title>
+          <content>
+            <p>מפקחים <wikicomment font-size="x-small">(בוטל)</wikicomment></p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_28">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>28.</num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">(בוטל).</wikicomment>
+              </p>
+            </content>
+          </point>
+          <point eId="point_29">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>29.</num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">(בוטל).</wikicomment>
+              </p>
+            </content>
+          </point>
+          <point eId="point_30">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>30.</num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">(בוטל).</wikicomment>
+              </p>
+            </content>
+          </point>
+        </list>
+      </chapter>
+      <chapter eId="chp_ז">
+        <num>פרק ז׳:</num>
+        <title>
+          <content>
+            <p>עונשין</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_31">
+            <heading>
+              <authorialNote placement="side">
+                <p>עונשין</p>
+              </authorialNote>
+            </heading>
+            <num>31.</num>
+            <list>
+              <point eId="point_31__point_א">
+                <num>(א)</num>
+                <list>
+                  <intro>
+                    <p>מי שעשה אחד מאלה, דינו – קנס כאמור <ref href="/akn/il/act/PrimaryLegislation/1977-08-04/2002251#point_61">בסעיף 61(א)(2) לחוק העונשין, התשל"ז–1977</ref> (בחוק זה – חוק העונשין), ואם הוא תאגיד – כפל הקנס האמור:</p>
+                  </intro>
+                  <point eId="point_31__point_א__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>השליך פסולת אריזות בתחומו של אחראי לפינוי פסולת שלא בהתאם להסדר להפרדת פסולת אריזות שקבע האחראי לפינוי פסולת, בניגוד להוראות לפי <ref href="#point_25">סעיף 25(א)</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_31__point_א__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>אסף או פינה פסולת אריזות בתחומו של אחראי לפינוי פסולת שלא בהתאם להסדר לאיסוף ופינוי של פסולת אריזות מופרדת שקבע האחראי לפינוי פסולת, בניגוד להוראות לפי <ref href="#point_25">סעיף 25(ב)</ref>.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_31__point_ב">
+                <num>(ב)</num>
+                <list>
+                  <intro>
+                    <p>מי שעשה אחד מאלה, דינו – קנס כאמור <ref href="/akn/il/act/PrimaryLegislation/1977-08-04/2002251#point_61">בסעיף 61(א)(3) לחוק העונשין</ref>, ואם הוא תאגיד – כפל הקנס האמור:</p>
+                  </intro>
+                  <point eId="point_31__point_ב__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>ייצר אריזה שלא בהתאם להוראות שקבע השר לעניין אמצעי הפחתה במקור, בניגוד להוראות לפי <ref href="#point_4">סעיף 4</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_31__point_ב__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>ייצר או שיווק מוצר ארוז או אריזת שירות, או מכר מוצר ארוז או מוצר באריזת שירות, בלי שסומנו בהתאם להוראות לפי <ref href="#point_5">סעיף 5</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_31__point_ב__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>לא מסר דיווח למנהל או לא המציא מידע למנהל או למי שהוא הסמיכו לכך, בניגוד להוראות לפי <ref href="#point_7">סעיפים 7</ref><ref href="#point_18">או 18</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_31__point_ב__point_4">
+                    <num>(4)</num>
+                    <content>
+                      <p>לא ניהל רישום מלא ומפורט של העניינים הכלולים בחובת הדיווח לפי <ref href="#point_7">סעיפים 7</ref><ref href="#point_18">או 18</ref> או לא נתן למנהל או למי שהוא הסמיך לכך לעיין ברישום כאמור או לקבל העתק נכון ממנו, בניגוד להוראות לפי <ref href="#point_8">סעיפים 8</ref><ref href="#point_19">או 19</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_31__point_ב__point_5">
+                    <num>(5)</num>
+                    <content>
+                      <p>לא התקשר עם גוף מוכר בניגוד להוראות לפי <ref href="#point_9">סעיף 9(א)</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_31__point_ב__point_6">
+                    <num>(6)</num>
+                    <content>
+                      <p>לא ניהל רישום מלא ומפורט של המידע האמור <ref href="#point_7">בסעיף 7(א)(1)</ref> או לא נתן למנהל או למי שהוא הסמיכו לכך לעיין ברישום כאמור או לקבל העתק נכון ממנו, בניגוד להוראות <ref href="#point_9">סעיף 9(ג)</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_31__point_ב__point_7">
+                    <num>(7)</num>
+                    <content>
+                      <p>לא שילם היטל שהיה חייב בתשלומו, בניגוד להוראות לפי <ref href="#point_11">סעיף 11</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_31__point_ב__point_8">
+                    <num>(8)</num>
+                    <content>
+                      <p>לא קיים תנאי שקבע המנהל בהכרה לפי הוראות <ref href="#point_12">סעיף 12(ד)</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_31__point_ב__point_9">
+                    <num>(9)</num>
+                    <content>
+                      <p>לא פעל ליישום הסדר איסוף ופינוי של פסולת אריזות מופרדת בתחומו של אחראי לפינוי פסולת שעמו התקשר בהתאם להוראות לפי <ref href="#point_17">סעיף 17(ה)</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_31__point_ב__point_10">
+                    <num>(10)</num>
+                    <list>
+                      <intro>
+                        <p>לא קבע הסדרי הפרדה, איסוף ופינוי בהתאם לאחד מאלה –</p>
+                      </intro>
+                      <point eId="point_31__point_ב__point_10__point_א">
+                        <num>(א)</num>
+                        <content>
+                          <p>הוראות לפי <ref href="#point_23">סעיף 23(א)</ref>;</p>
+                        </content>
+                      </point>
+                      <point eId="point_31__point_ב__point_10__point_ב">
+                        <num>(ב)</num>
+                        <content>
+                          <p>צו של המנהל לפי <ref href="#point_24">סעיף 24(א)</ref>;</p>
+                        </content>
+                      </point>
+                    </list>
+                  </point>
+                  <point eId="point_31__point_ב__point_11">
+                    <num>(11)</num>
+                    <content>
+                      <p>לא התקשר עם גוף מוכר אחד לפחות בניגוד להוראות <ref href="#point_23">סעיף 23(ב)(2)</ref>.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_31__point_ג">
+                <num>(ג)</num>
+                <list>
+                  <intro>
+                    <p>מי שעשה אחד מאלה, דינו – מאסר שישה חודשים או קנס כאמור <ref href="/akn/il/act/PrimaryLegislation/1977-08-04/2002251#point_61">בסעיף 61(א)(4) לחוק העונשין</ref>, ואם הוא תאגיד – כפל הקנס האמור:</p>
+                  </intro>
+                  <point eId="point_31__point_ג__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>לא עמד ביעדי המיחזור לפי הוראות <ref href="#point_6">סעיף 6</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_31__point_ג__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>הטמין פסולת אריזות, בניגוד להוראות <ref href="#point_27">סעיף 27</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_31__point_ג__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>גילה מידע או עשה בו שימוש, בניגוד להוראות לפי <ref href="#point_52">סעיף 52(ב)</ref>.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_31__point_ד">
+                <num>(ד)</num>
+                <list>
+                  <intro>
+                    <p>אחראי לפינוי פסולת לא יישא באחריות פלילית על עבירה לפי סעיף קטן (ג)(2), אם הוכיח כי מתקיימים התנאים המפורטים להלן וכי נקט אמצעים סבירים לשם מניעת הטמנה של פסולת אריזות, ובכלל זה קבע הסדרי הפרדה, איסוף ופינוי, ונקט אמצעי פיקוח ואכיפה לשם הבטחת יישומם:</p>
+                  </intro>
+                  <point eId="point_31__point_ד__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>פסולת האריזות הוטמנה, שלא בידיעתו, יחד עם פסולת אחרת ומהווה חלק מזערי מכלל הפסולת שהוטמנה;</p>
+                    </content>
+                  </point>
+                  <point eId="point_31__point_ד__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>פסולת האריזות הושלכה יחד עם הפסולת האחרת, לפני הטמנתה, בידי אדם שאינו עובדו ושאינו נותן לו שירותים לעניין פסולת.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+            </list>
+          </point>
+          <point eId="point_32">
+            <heading>
+              <authorialNote placement="side">
+                <p>אחריות נושא משרה בתאגיד</p>
+              </authorialNote>
+            </heading>
+            <num>32.</num>
+            <list>
+              <point eId="point_32__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>נושא משרה בתאגיד חייב לפקח ולעשות כל שניתן למניעת ביצוע עבירות לפי <ref href="#point_31">סעיף 31</ref>, בידי התאגיד או בידי עובד מעובדיו; המפר חובה זו, דינו –
+קנס כאמור <ref href="/akn/il/act/PrimaryLegislation/1977-08-04/2002251#point_61">בסעיף 61(א)(3) לחוק העונשין</ref>.</p>
+                </content>
+              </point>
+              <point eId="point_32__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>נעברה עבירה לפי חוק זה בידי תאגיד או בידי עובד מעובדיו, חזקה היא כי נושא משרה בתאגיד הפר את חובתו לפי סעיף זה, אלא אם כן הוכיח כי עשה כל שניתן כדי למלא את חובתו.</p>
+                </content>
+              </point>
+              <point eId="point_32__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>בסעיף זה, ”נושא משרה בתאגיד“ – מנהל פעיל בתאגיד, שותף, למעט שותף מוגבל, או בעל תפקיד אחר בתאגיד האחראי מטעם התאגיד על התחום שבו בוצעה העבירה, ולעניין עבירות לפי <ref href="#point_31">פסקאות (1), (3), (5), (6), (9), (10) או (11) של סעיף 31(ב)</ref> ועבירות לפי <ref href="#point_31">סעיף 31(ג)</ref> – גם דירקטור.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_33">
+            <heading>
+              <authorialNote placement="side">
+                <p>שיעורי קנסות</p>
+              </authorialNote>
+            </heading>
+            <num>33.</num>
+            <content>
+              <p>על אף הוראות <ref href="/akn/il/act/PrimaryLegislation/1982-03-01/2002215#point_221">סעיף 221(ב) לחוק סדר הדין הפלילי [נוסח משולב], התשמ"ב–1982</ref>, רשאי שר המשפטים, בהסכמת השר, לקבוע שיעור קנס העולה על סכום הקנס הקבוע <ref href="/akn/il/act/PrimaryLegislation/1982-03-01/2002215#point_221">בסעיף האמור</ref>, לעבירה לפי חוק זה שנקבעה כעבירת קנס וכן לעבירת קנס נוספת או נמשכת שעבר אותו אדם, בהתחשב בסוג העבירה ובנסיבות ביצועה, ובלבד שסכום הקנס לא יעלה על עשרה אחוזים מסכום הקנס המרבי הקבוע לאותה עבירה.</p>
+            </content>
+          </point>
+        </list>
+      </chapter>
+      <chapter eId="chp_ח">
+        <num>פרק ח׳:</num>
+        <title>
+          <content>
+            <p>עיצום כספי</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_34">
+            <heading>
+              <authorialNote placement="side">
+                <p>עיצום כספי</p>
+              </authorialNote>
+            </heading>
+            <num>34.</num>
+            <list>
+              <point eId="point_34__point_א">
+                <num>(א)</num>
+                <list>
+                  <intro>
+                    <p>הפר אדם הוראה מההוראות לפי חוק זה כמפורט להלן, רשאי המנהל להטיל עליו עיצום כספי לפי הוראות <ref href="#chp_ח">פרק זה</ref>, בסכום של 75,000 שקלים חדשים <wikicomment font-size="x-small">(מתואם לשנת 2011; בשנת 2020, 79,440 ש"ח)</wikicomment>, ואם הוא תאגיד – בסכום של 150,000 שקלים חדשים <wikicomment font-size="x-small">(מתואם לשנת 2011; בשנת 2020, 158,890 ש"ח)</wikicomment>:</p>
+                  </intro>
+                  <point eId="point_34__point_א__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>הפר את הוראות <ref href="#point_9">סעיף 9(ד)</ref>; לעניין זה חזקה היא כי יצרן או יבואן שקיים את חובותיו לפי <ref href="#point_7">סעיפים 7(ד)</ref><ref href="#point_9">ו־9(א) עד (ג)</ref>, לא הפר את הוראות <ref href="#point_9">סעיף 9(ד)</ref>, אלא אם כן הוכח אחרת;</p>
+                    </content>
+                  </point>
+                  <point eId="point_34__point_א__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>לא התקשר בחוזה התקשרות עם יצרן או יבואן שפנה אליו, בניגוד להוראות <ref href="#point_16">סעיף 16(א)</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_34__point_א__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>לא התקשר בחוזה התקשרות עם אחראי לפינוי פסולת שפנה אליו, בניגוד להוראות <ref href="#point_17">סעיף 17(ד)</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_34__point_א__point_4">
+                    <num>(4)</num>
+                    <content>
+                      <p>השליך פסולת אריזות בתחומו של אחראי לפינוי פסולת שלא בהתאם להסדר להפרדת פסולת אריזות שקבע האחראי לפינוי פסולת, בניגוד להוראות לפי <ref href="#point_25">סעיף 25(א)</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_34__point_א__point_5">
+                    <num>(5)</num>
+                    <content>
+                      <p>אסף או פינה פסולת אריזות מתחומו של אחראי לפינוי פסולת שלא בהתאם להסדר לאיסוף ופינוי של פסולת אריזות מופרדת, בניגוד להוראות לפי <ref href="#point_25">סעיף 25(ב)</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_34__point_א__point_6">
+                    <num>(6)</num>
+                    <content>
+                      <p>הפר הוראה מההוראות המפורטות <ref href="#point_31">בסעיף 31(ב)</ref>, למעט לפי <ref href="#point_31">סעיף 31(ב)(10)(ב) ו־(11)</ref>.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_34__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>לא התקשר אחראי לפינוי פסולת עם גוף מוכר אחד לפחות לעניין הפרדת פסולת אריזות ואיסוף ופינוי של פסולת אריזות מופרדת מתחומו, בניגוד להוראות <ref href="#point_23">סעיף 23(ב)(2)</ref>, או לא קבע הסדר בהתאם לצו של המנהל לפי <ref href="#point_24">סעיף 24(א)</ref>, רשאי המנהל להטיל עליו עיצום כספי לפי הוראות <ref href="#chp_ח">פרק זה</ref> בסכום של 500,000 שקלים חדשים <wikicomment font-size="x-small">(מתואם לשנת 2011; בשנת 2020, 529,620 ש"ח)</wikicomment>.</p>
+                </content>
+              </point>
+              <point eId="point_34__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>הטמין אדם פסולת אריזות, בניגוד להוראות <ref href="#point_27">סעיף 27</ref>, רשאי המנהל להטיל עליו עיצום כספי לפי הוראות <ref href="#chp_ח">פרק זה</ref> בסכום של 226,000 שקלים חדשים <wikicomment font-size="x-small">(מתואם לשנת 2011; בשנת 2020, 239,390 ש"ח)</wikicomment>, ואם הוא תאגיד – בסכום של 452,000 שקלים חדשים <wikicomment font-size="x-small">(מתואם לשנת 2011; בשנת 2020, 478,780 ש"ח)</wikicomment>.</p>
+                </content>
+              </point>
+              <point eId="point_34__point_ד">
+                <num>(ד)</num>
+                <content>
+                  <p>לא עמד יצרן, יבואן או גוף מוכר ביעדי המיחזור לפי <ref href="#point_6">סעיף 6</ref>, רשאי המנהל להטיל עליו עיצום כספי לפי הוראות <ref href="#chp_ח">פרק זה</ref> בסכום של 2,500 שקלים חדשים <wikicomment font-size="x-small">(מתואם לשנת 2011; בשנת 2020, 2,650 ש"ח)</wikicomment> בשל כל טון של פסולת אריזות שלא ביצע לגביו מיחזור מוכר בהתאם ליעדים האמורים; ואולם לא עמד אדם ביעדי המיחזור לפי סוג חומר וביעד המיחזור הכולל, יחד, יוטל עיצום כספי על הפרת יעד המיחזור הכולל בלבד.</p>
+                </content>
+              </point>
+              <point eId="point_34__point_ה">
+                <num>(ה)</num>
+                <list>
+                  <intro>
+                    <p>על אף הוראות סעיף קטן (ד), בשנים 2011 ו־2012 יהיה סכום העיצום הכספי שרשאי המנהל להטיל בשל כל טון של פסולת אריזות שלא בוצע לגביו מיחזור מוכר בהתאם ליעדי המיחזור לפי <ref href="#point_6">סעיף 6</ref>, כמפורט להלן:</p>
+                  </intro>
+                  <point eId="point_34__point_ה__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>בשנת 2011 – 1,500 שקלים חדשים;</p>
+                    </content>
+                  </point>
+                  <point eId="point_34__point_ה__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>בשנת 2012 – 2,000 שקלים חדשים.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_34__point_ו">
+                <num>(ו)</num>
+                <content>
+                  <p>בסעיפים קטנים (א)(4) ו־(5) ו־(ג), ”פסולת אריזות“ – פסולת אריזות שנוצרה עקב פעילות של תאגיד או עקב פעילות של עסק או עיסוק של יחיד, למעט עיסוק של יחיד הנעשה בדירת מגורים המשמשת את העוסק.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_35">
+            <heading>
+              <authorialNote placement="side">
+                <p>הודעה על כוונת חיוב</p>
+              </authorialNote>
+            </heading>
+            <num>35.</num>
+            <list>
+              <point eId="point_35__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>היה למנהל יסוד סביר להניח כי אדם הפר הוראה מהוראות לפי חוק זה, כאמור <ref href="#point_34">בסעיף 34</ref> (<ref href="#chp_ח">בפרק זה</ref> – מפר), ובכוונתו להטיל עליו עיצום כספי לפי <ref href="#point_34">אותו סעיף</ref>, ימסור למפר הודעה על הכוונה להטיל עליו עיצום כספי (<ref href="#chp_ח">בפרק זה</ref> – הודעה על כוונת חיוב).</p>
+                </content>
+              </point>
+              <point eId="point_35__point_ב">
+                <num>(ב)</num>
+                <list>
+                  <intro>
+                    <p>בהודעה על כוונת חיוב יציין המנהל, בין השאר, את אלה:</p>
+                  </intro>
+                  <point eId="point_35__point_ב__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>המעשה או המחדל (<ref href="#chp_ח">בפרק זה</ref> – המעשה) המהווה את ההפרה;</p>
+                    </content>
+                  </point>
+                  <point eId="point_35__point_ב__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>סכום העיצום הכספי והתקופה לתשלומו;</p>
+                    </content>
+                  </point>
+                  <point eId="point_35__point_ב__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>זכותו של המפר לטעון את טענותיו לפני המנהל לפי הוראות <ref href="#point_36">סעיף 36</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_35__point_ב__point_4">
+                    <num>(4)</num>
+                    <content>
+                      <p>שיעור <ref href="#appendix">התוספת על</ref> העיצום הכספי בהפרה נמשכת או בהפרה חוזרת לפי הוראות <ref href="#point_38">סעיף 38</ref>.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+            </list>
+          </point>
+          <point eId="point_36">
+            <heading>
+              <authorialNote placement="side">
+                <p>זכות טיעון</p>
+              </authorialNote>
+            </heading>
+            <num>36.</num>
+            <content>
+              <p>מפר שנמסרה לו הודעה על כוונת חיוב לפי הוראות <ref href="#point_35">סעיף 35</ref> רשאי לטעון את טענותיו, בכתב, לפני המנהל, לעניין הכוונה להטיל עליו עיצום כספי ולעניין סכומו, בתוך 30 ימים ממועד מסירת ההודעה.</p>
+            </content>
+          </point>
+          <point eId="point_37">
+            <heading>
+              <authorialNote placement="side">
+                <p>החלטת המנהל ודרישת תשלום</p>
+              </authorialNote>
+            </heading>
+            <num>37.</num>
+            <list>
+              <point eId="point_37__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>טען המפר את טענותיו לפני המנהל לפי הוראות <ref href="#point_36">סעיף 36</ref>, יחליט המנהל, לאחר ששקל את הטענות שנטענו, אם להטיל על המפר עיצום כספי, ורשאי הוא להפחית את סכום העיצום הכספי לפי הוראות <ref href="#point_39">סעיף 39</ref>.</p>
+                </content>
+              </point>
+              <point eId="point_37__point_ב">
+                <num>(ב)</num>
+                <list>
+                  <point eId="point_37__point_ב__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>החליט המנהל לפי הוראות סעיף קטן (א) להטיל על המפר עיצום כספי, ימסור לו דרישה לשלם את העיצום הכספי (<ref href="#chp_ח">בפרק זה</ref> – דרישת תשלום); בדרישת התשלום יציין המנהל, בין השאר, את נימוקי החלטתו, סכום העיצום הכספי המעודכן והתקופה לתשלומו.</p>
+                    </content>
+                  </point>
+                  <point eId="point_37__point_ב__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>החליט המנהל לפי הוראות סעיף קטן (א) שלא להטיל על המפר עיצום כספי, ימסור לו הודעה על כך.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_37__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>לא ביקש המפר לטעון את טענותיו לפי הוראות <ref href="#point_36">סעיף 36</ref>, בתוך 30 ימים מיום שנמסרה לו ההודעה על כוונת חיוב, יראו הודעה זו, בתום 30 הימים האמורים, כדרישת תשלום שנמסרה למפר במועד האמור.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_38">
+            <heading>
+              <authorialNote placement="side">
+                <p>הפרה נמשכת והפרה חוזרת</p>
+              </authorialNote>
+            </heading>
+            <num>38.</num>
+            <list>
+              <point eId="point_38__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>בהפרה נמשכת ייווסף על העיצום הכספי החלק החמישים שלו לכל יום שבו נמשכת ההפרה.</p>
+                </content>
+              </point>
+              <point eId="point_38__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>בהפרה חוזרת ייווסף על העיצום הכספי שהיה אפשר להטיל בשלה אילו היתה הפרה ראשונה, סכום השווה לעיצום הכספי כאמור; לעניין זה, ”הפרה חוזרת“ – הפרת הוראה מההוראות לפי חוק זה כאמור <ref href="#point_34">בסעיף 34</ref>, בתוך שנתיים מהפרה קודמת של אותה הוראה שבשלה הוטל על המפר עיצום כספי או שבשלה הורשע.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_39">
+            <heading>
+              <authorialNote placement="side">
+                <p>סכומים מופחתים</p>
+              </authorialNote>
+            </heading>
+            <num>39.</num>
+            <list>
+              <point eId="point_39__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>המנהל אינו רשאי להטיל עיצום כספי בסכום הנמוך מהסכומים הקבועים <ref href="#chp_ח">בפרק זה</ref>, אלא לפי הוראות סעיף קטן (ב).</p>
+                </content>
+              </point>
+              <point eId="point_39__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>השר, בהסכמת שר המשפטים, רשאי לקבוע מקרים, נסיבות ושיקולים שבשלהם יהיה ניתן להפחית את סכום העיצום הכספי הקבוע <ref href="#point_34">בסעיף 34</ref>, בשיעורים שיקבע.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_40">
+            <heading>
+              <authorialNote placement="side">
+                <p>סכום מעודכן של העיצום הכספי</p>
+              </authorialNote>
+            </heading>
+            <num>40.</num>
+            <list>
+              <point eId="point_40__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>העיצום הכספי יהיה לפי סכומו המעודכן ביום מסירת דרישת התשלום, ולגבי מפר שלא טען את טענותיו לפני המנהל כאמור <ref href="#point_36">בסעיף 36</ref> – ביום מסירת ההודעה על כוונת החיוב; הוגש ערעור על דרישת תשלום ועוכב תשלומו של העיצום הכספי לפי <ref href="#point_43">סעיף 43(ג)</ref>, יהיה סכום העיצום הכספי לפי סכומו המעודכן ביום ההחלטה בערעור.</p>
+                </content>
+              </point>
+              <point eId="point_40__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>סכום העיצום הכספי כאמור <ref href="#point_34">בסעיף 34</ref>, יעודכן ב־1 בינואר בכל שנה (בסעיף קטן זה – יום העדכון), בהתאם לשיעור עליית המדד הידוע ביום העדכון לעומת המדד שהיה ידוע ביום העדכון בשנה שקדמה לו, ולעניין יום העדכון הראשון – לעומת המדד שהיה ידוע ביום תחילתו של חוק זה; הסכום האמור יעוגל לסכום הקרוב שהוא מכפלה של עשרה שקלים חדשים; לעניין זה, ”מדד“ – מדד המחירים לצרכן שמפרסמת הלשכה המרכזית לסטטיסטיקה.</p>
+                </content>
+              </point>
+              <point eId="point_40__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>המנהל יפרסם ברשומות הודעה על סכום העיצום הכספי המעודכן לפי סעיף קטן (ב).</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_41">
+            <heading>
+              <authorialNote placement="side">
+                <p>המועד לתשלום העיצום הכספי</p>
+              </authorialNote>
+            </heading>
+            <num>41.</num>
+            <content>
+              <p>העיצום הכספי ישולם בתוך 30 ימים מיום מסירת דרישת התשלום כאמור <ref href="#point_37">בסעיף 37</ref>.</p>
+            </content>
+          </point>
+          <point eId="point_42">
+            <heading>
+              <authorialNote placement="side">
+                <p>הפרשי הצמדה וריבית</p>
+              </authorialNote>
+            </heading>
+            <num>42.</num>
+            <content>
+              <p>לא שולם עיצום כספי במועד, ייווספו עליו לתקופת הפיגור, הפרשי הצמדה וריבית כהגדרתם <ref href="/akn/il/act/PrimaryLegislation/1979-01-01/148271">בחוק פסיקת ריבית והצמדה, התשכ"א–1961</ref> (<ref href="#chp_ח">בפרק זה</ref> – הפרשי הצמדה וריבית), עד לתשלומו.</p>
+            </content>
+          </point>
+          <point eId="point_43">
+            <heading>
+              <authorialNote placement="side">
+                <p>ערעור לבית משפט שלום</p>
+              </authorialNote>
+            </heading>
+            <num>43.</num>
+            <list>
+              <point eId="point_43__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>על דרישת תשלום אפשר לערער לבית משפט השלום, בתוך 30 ימים מיום מסירת הדרישה למפר.</p>
+                </content>
+              </point>
+              <point eId="point_43__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>אין בהגשת ערעור לפי סעיף זה, כדי לעכב את תשלום העיצום הכספי אלא אם כן הסכים לכך המנהל או אם בית המשפט הורה אחרת.</p>
+                </content>
+              </point>
+              <point eId="point_43__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>החליט בית המשפט לקבל ערעור שהוגש לפי סעיף זה, לאחר ששולם העיצום הכספי לפי הוראות <ref href="#chp_ח">פרק זה</ref>, יוחזר העיצום הכספי או כל חלק ממנו אשר הופחת בידי בית המשפט, בתוספת הפרשי הצמדה וריבית מיום תשלומו עד יום החזרתו.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_44">
+            <heading>
+              <authorialNote placement="side">
+                <p>פרסום בדבר הטלת עיצום כספי</p>
+              </authorialNote>
+            </heading>
+            <num>44.</num>
+            <list>
+              <point eId="point_44__point_א">
+                <num>(א)</num>
+                <list>
+                  <intro>
+                    <p>הוטל עיצום כספי לפי הוראות <ref href="#chp_ח">פרק זה</ref>, יפרסם המנהל באתר המשרד פרטים כמפורט להלן, באופן שיבטיח שקיפות לגבי הפעלת שיקול דעתו בקבלת החלטה בדבר הטלת העיצום הכספי:</p>
+                  </intro>
+                  <point eId="point_44__point_א__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>דבר הטלת העיצום הכספי וסכומו, מהות ההפרה שבשלה הוטל ונסיבותיה, שיעור ההפחתה של סכום העיצום הכספי – אם הופחת לפי הוראות <ref href="#point_39">סעיף 39</ref> והנסיבות שבשלן הופחת כאמור;</p>
+                    </content>
+                  </point>
+                  <point eId="point_44__point_א__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>פרטים לגבי עיסוק המפר ושם העסק;</p>
+                    </content>
+                  </point>
+                  <point eId="point_44__point_א__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>שם המפר, למעט אם הוא יחיד, ואולם המנהל רשאי לפרסם את שמו של מפר שהוא יחיד אם סבר שהדבר נחוץ לשם אזהרת הציבור, והעיצום הכספי הוטל בשל הפרה הקשורה למתן שירות לציבור על ידי המפר.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_44__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>הוראות <ref href="/akn/il/act/PrimaryLegislation/1998-05-29/163627#point_9">סעיף 9 לחוק חופש המידע, התשנ"ח–1998</ref>, יחולו לעניין פרסום לפי סעיף זה, בשינויים המחויבים.</p>
+                </content>
+              </point>
+              <point eId="point_44__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>פרסום כאמור בסעיף קטן (א) בנוגע לעיצום כספי שהוטל על תאגיד יהיה לתקופה של ארבע שנים, ובנוגע לעיצום כספי שהוטל על יחיד – שנתיים וחצי.</p>
+                </content>
+              </point>
+              <point eId="point_44__point_ד">
+                <num>(ד)</num>
+                <content>
+                  <p>הוטל עיצום כספי לפי הוראות <ref href="#chp_ח">פרק זה</ref> והוגש עליו ערעור, יפרסם המנהל את דבר הגשת הערעור ואת תוצאותיו.</p>
+                </content>
+              </point>
+              <point eId="point_44__point_ה">
+                <num>(ה)</num>
+                <content>
+                  <p>השר רשאי לקבוע דרכים נוספות לפרסום הפרטים האמורים בפסקאות (1) עד (3) שבסעיף קטן (א).</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_45">
+            <heading>
+              <authorialNote placement="side">
+                <p>שמירת אחריות פלילית</p>
+              </authorialNote>
+            </heading>
+            <num>45.</num>
+            <list>
+              <point eId="point_45__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>תשלום עיצום כספי לא יגרע מאחריות פלילית בשל הפרת הוראה לפי חוק זה, כאמור <ref href="#point_31">בסעיף 31</ref>.</p>
+                </content>
+              </point>
+              <point eId="point_45__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>הוגש נגד מפר כתב אישום בשל הפרת הוראה לפי חוק זה, כאמור <ref href="#point_31">בסעיף 31</ref>, לא ינקוט נגדו המנהל הליכים לפי <ref href="#chp_ח">פרק זה</ref>, ואם שילם המפר עיצום כספי – יוחזר לו סכום העיצום הכספי ששולם, בתוספת הפרשי הצמדה וריבית מיום תשלומו עד יום החזרתו.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+        </list>
+      </chapter>
+      <chapter eId="chp_ט">
+        <num>פרק ט׳:</num>
+        <title>
+          <content>
+            <p>הוראות שונות</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_46">
+            <heading>
+              <authorialNote placement="side">
+                <p>אגרות</p>
+              </authorialNote>
+            </heading>
+            <num>46.</num>
+            <content>
+              <p>השר, בהסכמת שר האוצר ובאישור ועדת הכלכלה של הכנסת, רשאי לקבוע אגרה בעד הגשת בקשה לפטור מחובת התקשרות עם גוף מוכר לפי <ref href="#point_9">סעיף 9(ה)</ref> ובעד בקשה להכרה בגוף מוכר לפי <ref href="#point_13">סעיף 13</ref>, וכן אגרה שנתית שישלמו יצרן, יבואן וגוף מוכר בעד פעולות המנהל לשם יישום ההוראות לפי חוק זה.</p>
+            </content>
+          </point>
+          <point eId="point_47">
+            <heading>
+              <authorialNote placement="side">
+                <p>מינוי המנהל</p>
+              </authorialNote>
+            </heading>
+            <num>47.</num>
+            <content>
+              <p>השר ימנה, מבין עובדי משרדו, מנהל שיהיה אחראי על תחום האריזות במשרד, שתפקידיו יהיו לפי הוראות חוק זה.</p>
+            </content>
+          </point>
+          <point eId="point_48">
+            <heading>
+              <authorialNote placement="side">
+                <p>ייעוד כספים לקרן לשמירת הניקיון</p>
+              </authorialNote>
+            </heading>
+            <num>48.</num>
+            <content>
+              <p>היטל, קנס ועיצום כספי שהוטלו לפי חוק זה ישולמו לקרן לשמירת הניקיון.</p>
+            </content>
+          </point>
+          <point eId="point_49">
+            <heading>
+              <authorialNote placement="side">
+                <p>גבייה</p>
+              </authorialNote>
+            </heading>
+            <num>49.</num>
+            <list>
+              <point eId="point_49__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>על גבייה של קנס, היטל או עיצום כספי לפי חוק זה תחול <ref href="/akn/il/act/PrimaryLegislation/1933-12-31/2001803">פקודת המסים (גבייה)</ref>.</p>
+                </content>
+              </point>
+              <point eId="point_49__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>קנס או עיצום כספי שהוטלו על גוף מוכר לפי חוק זה ולא שולמו על ידו (בסעיף זה – חוב), ניתן לגבותם מכל יצרן ויבואן שהיה קשור עם הגוף המוכר בחוזה התקשרות במועד ביצוע המעשה המהווה את העבירה או ההפרה שבשלה הוטלו; הסכום שייגבה מכל יצרן ויבואן לפי סעיף קטן זה יהיה פי שניים מהסכום השווה לחלקו בחוב בהתאם לחלקו היחסי בסך משקל חומר האריזות שיוצר או יובא בידי כלל היצרנים והיבואנים שהתקשרו עם אותו גוף מוכר.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_50">
+            <heading>
+              <authorialNote placement="side">
+                <p>סייג לתחולה</p>
+              </authorialNote>
+            </heading>
+            <num>50.</num>
+            <list>
+              <intro>
+                <p>חוק זה לא יחול לעניין –</p>
+              </intro>
+              <point eId="point_50__point_1">
+                <num>(1)</num>
+                <content>
+                  <p>מכל משקה כהגדרתו <ref href="/akn/il/act/PrimaryLegislation/1999-05-12/165157">בחוק הפיקדון על מכלי משקה, התשנ"ט–1999</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_50__point_2">
+                <num>(2)</num>
+                <content>
+                  <p>אריזה של מוצר שהוא חומר מסוכן, לרבות חומר רדיואקטיבי וחומר ציטוטוקסי, אלא אם כן הוא מיועד לשימוש ביתי;</p>
+                </content>
+              </point>
+              <point eId="point_50__point_3">
+                <num>(3)</num>
+                <content>
+                  <p>אריזה של חומר נפץ כהגדרתו <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/חוק_חומרי_נפץ">בחוק חומרי נפץ, התשי"ד–1954</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_50__point_4">
+                <num>(4)</num>
+                <content>
+                  <p>אריזה שראש הממשלה או שר הביטחון, לפי העניין, בהסכמת השר, קבע, בצו, כי הוראות חוק זה, כולן או חלקן, לא יחולו לגביה מטעמים של פגיעה בביטחון המדינה או ביחסי החוץ שלה; צו כאמור אינו חייב פרסום ברשומות.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_51">
+            <heading>
+              <authorialNote placement="side">
+                <p>תחולה על המדינה</p>
+              </authorialNote>
+            </heading>
+            <num>51.</num>
+            <list>
+              <point eId="point_51__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>חוק זה יחול על המדינה.</p>
+                </content>
+              </point>
+              <point eId="point_51__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>
+                    <wikicomment font-size="x-small">(בוטל).</wikicomment>
+                  </p>
+                </content>
+              </point>
+              <point eId="point_51__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>
+                    <wikicomment font-size="x-small">(בוטל).</wikicomment>
+                  </p>
+                </content>
+              </point>
+              <point eId="point_51__point_ד">
+                <num>(ד)</num>
+                <content>
+                  <p>בקשות, מסמכים וכל מידע אחר שמערכת הביטחון חייבת במסירתו למנהל לפי הוראות חוק זה (בסעיף זה – מידע), והם מסווגים, יימסרו רק למנהל שהוא בעל התאמה ביטחונית מתאימה, ואם לא היה בעל התאמה כאמור – למנהל הכללי של המשרד, ובלבד שהוא בעל התאמה ביטחונית מתאימה.</p>
+                </content>
+              </point>
+              <point eId="point_51__point_ה">
+                <num>(ה)</num>
+                <content>
+                  <p>לא יפרסם אדם מידע אשר יש בפרסומו כדי לפגוע בביטחון המדינה.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_52">
+            <heading>
+              <authorialNote placement="side">
+                <p>איסור גילוי מידע</p>
+              </authorialNote>
+            </heading>
+            <num>52.</num>
+            <list>
+              <point eId="point_52__point_א">
+                <num>(א)</num>
+                <list>
+                  <intro>
+                    <p>המנהל או מי מטעמו לא יגלה דיווחים או ידיעות כאמור <ref href="#point_7">בסעיפים 7(א)(1)</ref><ref href="#point_18">ו־18(א)(1) ו־(2), (ב)(2) ו־(ג)</ref>, אלא כן אם התקיים אחד מאלה:</p>
+                  </intro>
+                  <point eId="point_52__point_א__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>גילוי המידע דרוש לשם ביצוע הוראות חוק זה;</p>
+                    </content>
+                  </point>
+                  <point eId="point_52__point_א__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>גילוי המידע הוא לגוף ציבורי שהמידע דרוש לו לשם ביצוע תפקידיו לפי כל דין.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_52__point_ב">
+                <num>(ב)</num>
+                <list>
+                  <intro>
+                    <p>גוף מוכר או מי מטעמו לא יגלה ולא יעשה כל שימוש בדיווחים או בידיעות שהגיעו אליו מאת יצרן או יבואן מכוח חוק זה, אלא אם כן התקיים אחד מאלה:</p>
+                  </intro>
+                  <point eId="point_52__point_ב__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>גילוי המידע או השימוש בו דרושים לשם ביצוע הוראות חוק זה;</p>
+                    </content>
+                  </point>
+                  <point eId="point_52__point_ב__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>גילוי המידע הוא לגוף ציבורי שהמידע דרוש לו לשם ביצוע תפקידיו לפי כל דין.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_52__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>לעניין סעיף זה, ”גוף ציבורי“ – משרדי הממשלה ומוסדות מדינה אחרים.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_53">
+            <heading>
+              <authorialNote placement="side">
+                <p>שמירת דינים</p>
+              </authorialNote>
+            </heading>
+            <num>53.</num>
+            <content>
+              <p>הוראות חוק זה באות להוסיף על הוראות כל דין אחר ולא לגרוע מהן, למעט מהוראות <ref href="/akn/il/act/PrimaryLegislation/1993-06-11/152945#point_7">סעיף 7 לחוק איסוף ופינוי פסולת למיחזור, התשנ"ג–1993</ref>.</p>
+            </content>
+          </point>
+          <point eId="point_54">
+            <heading>
+              <authorialNote placement="side">
+                <p>ביצוע ותקנות</p>
+              </authorialNote>
+            </heading>
+            <num>54.</num>
+            <list>
+              <intro>
+                <p>השר ממונה על ביצוע הוראות חוק זה והוא רשאי להתקין תקנות בכל עניין הנוגע לביצועו, ובין השאר בעניינים אלה:</p>
+              </intro>
+              <point eId="point_54__point_1">
+                <num>(1)</num>
+                <content>
+                  <p>בהסכמת שר האוצר ובאישור ועדת הכלכלה של הכנסת – העלאת השיעורים של יעדי המיחזור ושינוי השיעור המרבי של השבה מוכרת שיראו אותה כמיחזור מוכר לפי הוראות <ref href="#point_6">סעיף 6(א) עד (ד)</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_54__point_2">
+                <num>(2)</num>
+                <content>
+                  <p>תנאים להכרה בייצוא של פסולת אריזות למטרות מיחזור או השבה כמיחזור מוכר, לפי הוראות <ref href="#point_6">סעיף 6(ה)</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_54__point_3">
+                <num>(3)</num>
+                <list>
+                  <intro>
+                    <p>באישור ועדת הכלכלה של הכנסת, שינוי, בצו, של אלה:</p>
+                  </intro>
+                  <point eId="point_54__point_3__point_א">
+                    <num>(א)</num>
+                    <content>
+                      <p>המשקל המזערי של אריזות שלגביו יהיה יצרן או יבואן פטור מהוראות <ref href="#chp_ג">פרק ג׳</ref>, כאמור <ref href="#point_10">בסעיף 10</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_54__point_3__point_ב">
+                    <num>(ב)</num>
+                    <content>
+                      <p>שיעור היקף השירותים לעניין הכרה כאמור <ref href="#point_12">בסעיף 12(א)(4)</ref>.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+            </list>
+          </point>
+          <point eId="point_55">
+            <heading>
+              <authorialNote placement="side">
+                <p>דיווח לכנסת</p>
+              </authorialNote>
+            </heading>
+            <num>55.</num>
+            <content>
+              <p>השר ידווח לוועדת הכלכלה של הכנסת, אחת לשנה, על יישום הוראות חוק זה, לרבות על יעדי המיחזור וההשבה שהושגו בשנה שקדמה למועד הדיווח; דיווח כאמור יפורסם באתר האינטרנט של המשרד.</p>
+            </content>
+          </point>
+          <point eId="point_56">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>56.</num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryLegislation/1984-06-07/149942">בחוק שמירת הניקיון, התשמ"ד–1984</ref>.</wikicomment>
+              </p>
+            </content>
+          </point>
+          <point eId="point_57">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>57.</num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryLegislation/2000-06-11/169660">בחוק בתי משפט לעניינים מינהליים, התש"ס–2000</ref>.</wikicomment>
+              </p>
+            </content>
+          </point>
+          <point eId="point_58">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>58.</num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryLegislation/2008-06-11/188181">בחוק הרשויות המקומיות (אכיפה סביבתית – סמכויות פקחים), התשס"ח–2008</ref>.</wikicomment>
+              </p>
+            </content>
+          </point>
+          <point eId="point_59">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>59.</num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryLegislation/1999-05-12/165157">בחוק הפיקדון על מכלי משקה, התשנ"ט–1999</ref>.</wikicomment>
+              </p>
+            </content>
+          </point>
+          <point eId="point_60">
+            <heading>
+              <authorialNote placement="side">
+                <p>תחילה</p>
+              </authorialNote>
+            </heading>
+            <num>60.</num>
+            <list>
+              <point eId="point_60__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>בכפוף להוראות סעיפים קטנים (ב) עד (ד), תחילתו של חוק זה ביום כ"ה באדר א׳ התשע"א (1 במרס 2011).</p>
+                </content>
+              </point>
+              <point eId="point_60__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>תחילתם של <ref href="#point_12">סעיפים 12 עד 14</ref> ביום פרסומו של חוק זה.</p>
+                </content>
+              </point>
+              <point eId="point_60__point_ג">
+                <num>(ג)</num>
+                <list>
+                  <intro>
+                    <p>תחילתם של סעיפים אלה ביום כ"ט בסיוון התשע"א (1 ביולי 2011):</p>
+                  </intro>
+                  <point eId="point_60__point_ג__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>
+                        <ref href="#point_6">סעיפים 6</ref>
+                        <ref href="#point_7">ו־7(א)(2) ו־(3)</ref>, <ref href="#point_8">וסעיף 8</ref> לעניין רישום של העניינים הכלולים בחובת הדיווח לפי <ref href="#point_7">סעיף 7(א)(2) ו־(3)</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_60__point_ג__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>
+                        <ref href="#point_9">סעיפים 9</ref>, <ref href="#point_23">23(ב)(2)</ref>, <ref href="#point_31">31(ב)(5) ו־(11)</ref>, <ref href="#point_34">ו־34(א)(1) ו־(ב)</ref> לעניין חובת התקשרות עם גוף מוכר;</p>
+                    </content>
+                  </point>
+                  <point eId="point_60__point_ג__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>
+                        <ref href="#point_23">סעיפים 23(ג)</ref>, <ref href="#point_25">25(ב)</ref>, <ref href="#point_26">26</ref>, <ref href="#point_31">31(א)(2)</ref><ref href="#point_34">ו־34(א)(5)</ref> לעניין איסוף ופינוי של פסולת אריזות.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_60__point_ד">
+                <num>(ד)</num>
+                <content>
+                  <p>תחילתו של <ref href="#point_20">סעיף 20</ref> ביום י׳ בטבת התשע"ה (1 בינואר 2015).</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_61">
+            <heading>
+              <authorialNote placement="side">
+                <p>הוראת מעבר</p>
+              </authorialNote>
+            </heading>
+            <num>61.</num>
+            <content>
+              <p>חובות שחלו על יצרנים ויבואנים של מכלים למשקאות, לפי הוראות <ref href="/akn/il/act/PrimaryLegislation/1984-06-07/149942#point_11">סעיף 11 לחוק שמירת הניקיון</ref> כנוסחו ערב ביטולו בחוק זה, ימשיכו לחול עליהם לגבי מכלים למשקאות שנמכרו לפני תחילתו של חוק זה.</p>
+            </content>
+          </point>
+        </list>
+      </chapter>
+    </body>
+    <conclusions eId="eId">
+      <p class="signatures">
+        <signature>
+          <p>
+            <person refersTo="בנימין_נתניהו">בנימין נתניהו</person>
+            <role refersTo="ראש_הממשלה">ראש הממשלה</role>
+          </p>
+        </signature>
+        <signature>
+          <p>
+            <person refersTo="גלעד_ארדן">גלעד ארדן</person>
+            <role refersTo="השר_להגנת_הסביבה">השר להגנת הסביבה</role>
+          </p>
+        </signature>
+        <signature>
+          <p>
+            <person refersTo="שמעון_פרס">שמעון פרס</person>
+            <role refersTo="נשיא_המדינה">נשיא המדינה</role>
+          </p>
+        </signature>
+        <signature>
+          <p>
+            <person refersTo="ראובן_ריבלין">ראובן ריבלין</person>
+            <role refersTo="יושב_ראש_הכנסת">יושב ראש הכנסת</role>
+          </p>
+        </signature>
+      </p>
+    </conclusions>
+  </act>
+</akomaNtoso>

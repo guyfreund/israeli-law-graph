@@ -1,0 +1,866 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion" name="publicLaw">
+    <meta>
+      <identification source="#kensset">
+        <FRBRWork>
+          <FRBRthis value="/akn/il/act/SecondaryLegislation/2009-12-30/100035237/main" />
+          <FRBRuri value="/akn/il/act/SecondaryLegislation/2009-12-30/100035237" />
+          <FRBRdate date="2009-12-30" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRcountry value="israel" />
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/il/act/SecondaryLegislation/2009-12-30/100035237/he@/main" />
+          <FRBRuri value="/akn/il/act/SecondaryLegislation/2009-12-30/100035237/he@" />
+          <FRBRdate date="2009-12-30" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRlanguage language="hebrew" />
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/il/act/SecondaryLegislation/2009-12-30/100035237/he@/main.xml" />
+          <FRBRuri value="/akn/il/act/SecondaryLegislation/2009-12-30/100035237/he@" />
+          <FRBRdate date="2009-12-30" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRformat value="xml" />
+        </FRBRManifestation>
+      </identification>
+      <classification source="#kensset">
+        <keyword value="{classificationValue}" showAs="{classificationValue}" dictionary="#classification_dictionary" />
+      </classification>
+      <lifecycle source="#kensset">
+        <eventRef eId="eventRef_1" date="2009-12-30" source="#kensset" type="generation" />
+      </lifecycle>
+      <references source="#kensset">
+        <TLCOrganization eId="kensset" href="/ontology/organization/akn/knesset" showAs="Kensset" type="generation" />
+        <TLCRole eId="author" href="/ontology/role/akn/author" showAs="Author of Document" />
+        <TLCProcess eId="inforce" href="/ontology/process/akn/inforce" showAs="In force" />
+        <TLCTerm eId="term_1" href="/ontology/term/בז''א/100035237" showAs="בז''א" />
+        <TLCTerm eId="term_2" href="/ontology/term/בז''ן/100035237" showAs="בז''ן" />
+        <TLCTerm eId="term_3" href="/ontology/term/בית_זיקוק/100035237" showAs="בית_זיקוק" />
+        <TLCTerm eId="term_4" href="/ontology/term/גז/100035237" showAs="גז" />
+        <TLCTerm eId="term_5" href="/ontology/term/המנהל/100035237" showAs="המנהל" />
+        <TLCTerm eId="term_6" href="/ontology/term/חודש_מחסור/100035237" showAs="חודש_מחסור" />
+        <TLCTerm eId="term_7" href="/ontology/term/חוק_הגז/100035237" showAs="חוק_הגז" />
+        <TLCTerm eId="term_8" href="/ontology/term/יום_עבודה/100035237" showAs="יום_עבודה" />
+        <TLCTerm eId="term_9" href="/ontology/term/כושר_אספקה/100035237" showAs="כושר_אספקה" />
+        <TLCTerm eId="term_10" href="/ontology/term/ספק_גז/100035237" showAs="ספק_גז" />
+        <TLCTerm eId="term_11" href="/ontology/term/ספק_גז_חדש/100035237" showAs="ספק_גז_חדש" />
+        <TLCTerm eId="term_12" href="/ontology/term/ספק_גז_קטן/100035237" showAs="ספק_גז_קטן" />
+        <TLCTerm eId="term_13" href="/ontology/term/צרכן_גז_ביתי/100035237" showAs="צרכן_גז_ביתי" />
+        <TLCTerm eId="term_14" href="/ontology/term/צרכן_גדול/100035237" showAs="צרכן_גדול" />
+        <TLCTerm eId="term_15" href="/ontology/term/שלילת_רישיון/100035237" showAs="שלילת_רישיון" />
+        <TLCTerm eId="term_16" href="/ontology/term/תאגיד_קשור/100035237" showAs="תאגיד_קשור" />
+        <TLCTerm eId="term_17" href="/ontology/term/תקנות_מסירת_מידע/100035237" showAs="תקנות_מסירת_מידע" />
+        <TLCTerm eId="term_18" href="/ontology/term/התקופה_הבאה/100035237" showAs="התקופה_הבאה" />
+        <TLCTerm eId="term_19" href="/ontology/term/התקופה_הקובעת/100035237" showAs="התקופה_הקובעת" />
+        <TLCTerm eId="term_20" href="/ontology/term/סוגי_מיתקני_גז/100035237" showAs="סוגי_מיתקני_גז" />
+        <TLCTerm eId="term_21" href="/ontology/term/ממוצע_מחירי_הגז/100035237" showAs="ממוצע_מחירי_הגז" />
+        <TLCTerm eId="term_22" href="/ontology/term/ספקי_הגז_הגדולים/100035237" showAs="ספקי_הגז_הגדולים" />
+        <TLCTerm eId="term_23" href="/ontology/term/הכמות_הבסיסית/100035237" showAs="הכמות_הבסיסית" />
+        <TLCTerm eId="term_24" href="/ontology/term/כלל_הרכישות/100035237" showAs="כלל_הרכישות" />
+        <TLCTerm eId="term_25" href="/ontology/term/הכמות_החודשית_הממוצעת/100035237" showAs="הכמות_החודשית_הממוצעת" />
+        <TLCTerm eId="term_26" href="/ontology/term/כלל_הרכישות/100035237" showAs="כלל_הרכישות" />
+        <TLCPerson eId="עוזי_לנדאו" href="/ontology/person/עוזי_לנדאו" showAs="עוזי לנדאו" />
+        <TLCRole eId="שר_התשתיות_הלאומיות" href="ontology/role/akn/שר_התשתיות_הלאומיות" showAs="שר התשתיות הלאומיות" />
+      </references>
+      <temporalData source="#kensset">
+        <temporalGroup eId="tmpg_1" />
+      </temporalData>
+      <Publication></Publication>
+      <proprietary wikiversion="7/22/2020 2:29:45 PM" />
+    </meta>
+    <body period="#tmpg_1">
+      <title eId="title">
+        <content>
+          <p>תקנות הסדרים במשק המדינה (תיקוני חקיקה) (מכירת גז על ידי בתי זיקוק וספקי גז), התש"ע–2009</p>
+        </content>
+      </title>
+      <preamble eId="eId">
+        <p>בתוקף סמכותי לפי <ref href="/akn/il/act/PrimaryLegislation/1989-04-07/152319#point_16">סעיפים 16</ref><ref href="/akn/il/act/PrimaryLegislation/1989-04-07/152319#point_19">ו־19</ref><ref href="/akn/il/act/PrimaryLegislation/1989-04-07/152319">לחוק הסדרים במשק המדינה (תיקוני חקיקה), התשמ"ט–1989</ref> (להלן – החוק), ובאישור ועדת הכלכלה של הכנסת, אני מתקין תקנות אלה:</p>
+      </preamble>
+      <list>
+        <point eId="point_1" class="definitions">
+          <heading>
+            <authorialNote placement="side">
+              <p>הגדרות</p>
+            </authorialNote>
+          </heading>
+          <num>1.</num>
+          <list>
+            <intro>
+              <p>בתקנות אלה –</p>
+            </intro>
+            <point eId="point_1__point_בזא">
+              <content>
+                <p>
+                  <def />”בז"א“ – פז – בית זיקוק אשדוד בע"מ או מי שיפעיל את בית הזיקוק באשדוד;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_בזן">
+              <content>
+                <p>
+                  <def />”בז"ן“ – בתי הזיקוק לנפט בע"מ או מי שיפעיל את בית הזיקוק בחיפה;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_בית_זיקוק">
+              <content>
+                <p>
+                  <def />”בית זיקוק“ – בז"א או בז"ן;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_גז">
+              <content>
+                <p>
+                  <def />”גז“ – גז פחמימני מעובה כמשמעותו <ref href="/akn/il/act/PrimaryLegislation/1989-09-29/152583">בחוק הגז</ref> (להלן – גפ"מ), העומד בדרישות תקן ישראלי ת"י 1134;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_המנהל">
+              <content>
+                <p>
+                  <def />”המנהל“ – מנהל מינהל הדלק והגז במשרד האנרגיה;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_חודש_מחסור">
+              <content>
+                <p>
+                  <def />”חודש מחסור“ – חודש שבו אין בידי בית זיקוק לספק את מלוא הביקוש ממנו לגז;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_חוק_הגז">
+              <content>
+                <p>
+                  <def />”חוק הגז“ – <ref href="/akn/il/act/PrimaryLegislation/1989-09-29/152583">חוק הגז (בטיחות ורישוי), התשמ"ט–1989</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_יום_עבודה">
+              <content>
+                <p>
+                  <def />”יום עבודה“ – ימים א׳ עד ו׳, למעט מועד ממועדי ישראל המפורטים <ref href="/akn/il/act/PrimaryLegislation/1948-05-21/2002291#point_18א">בסעיף 18א(א) לפקודת סדרי השלטון והמשפט, התש"ח–1948</ref>, ויום העצמאות;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_כושר_אספקה">
+              <content>
+                <p>
+                  <def />”כושר אספקה“ – מלוא כושר ייצור גז של בית זיקוק בזמן נתון, למעט ייצור גז לשימוש עצמי במיתקניו;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_ספק_גז">
+              <content>
+                <p>
+                  <def />”ספק גז“ – מי שעוסק במכירה או בשיווק של גז, ובלבד שהוא בעל רישיון לפי <ref href="/akn/il/act/PrimaryLegislation/1989-09-29/152583">חוק הגז</ref>, למעט בית זיקוק;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_ספק_גז_חדש">
+              <content>
+                <p>
+                  <def />”ספק גז חדש“ – ספק גז שהמנהל הודיע עליו לבית זיקוק שהוא ספק גז הרוכש גז מבתי זיקוק שנה או פחות ואינו תאגיד קשור לספקי גז אחרים, וכן ספק גז אחר שלא רכש גז מבתי הזיקוק במהלך תשעת החודשים שקדמו לבקשתו, למעט ספק גז שלא רכש גז בתקופה כאמור בשל שלילת רישיונו;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_ספק_גז_קטן">
+              <content>
+                <p>
+                  <def />”ספק גז קטן“ – ספק גז שהמנהל הודיע עליו לבית זיקוק שהוא ספק גז למעלה משנה ואינו תאגיד קשור לספקי גז אחרים ושחלקו היחסי בגז שנופק לו בבית הזיקוק ביחס להיקף המכירות לשאר ספקי הגז בבתי הזיקוק, בשלושת החודשים שקדמו לחודש שלפני חודש המחסור, אינו עולה על 5 אחוזים;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_צרכן_גז_ביתי">
+              <content>
+                <p>
+                  <def />”צרכן גז ביתי“ – צרכן גז הרוכש גז לשימוש ביתי, אף אם מערכת אספקת הגז המשמשת אותו, משמשת גם צרכן גז הרוכש גז שלא לשימוש ביתי;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_צרכן_גדול">
+              <content>
+                <p>
+                  <def />”צרכן גדול“ – <wikicomment font-size="x-small">(נמחקה);</wikicomment></p>
+              </content>
+            </point>
+            <point eId="point_1__point_שלילת_רישיון">
+              <content>
+                <p>
+                  <def />”שלילת רישיון“ – התליית רישיון אשר ניתן לפי <ref href="/akn/il/act/PrimaryLegislation/1989-09-29/152583">חוק הגז</ref>, ביטולו או סירוב לחדשו;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_תאגיד_קשור">
+              <content>
+                <p>
+                  <def />”תאגיד קשור“ – חברה קשורה כהגדרתה <ref href="/akn/il/act/PrimaryLegislation/1968-08-22/150242">בחוק ניירות ערך, התשכ"ח–1968</ref>, וכן מספר תאגידים אשר בעל מניות אחד מחזיק ב־25 אחוזים או יותר מן הערך הנקוב של הון המניות המונפק של כל אחד מהם או מכוח ההצבעה בהם, או שהוא רשאי למנות 25 אחוזים או יותר מהדירקטורים של כל אחד מהם;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_תקנות_מסירת_מידע">
+              <content>
+                <p>
+                  <def />”תקנות מסירת מידע“ – <ref href="/akn/il/act/SecondaryLegislation/2015-02-12/100039268">תקנות הסדרים במשק המדינה (מסירת מידע בנוגע להספקת גז), התשע"ה–2015</ref>.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_2">
+          <heading>
+            <authorialNote placement="side">
+              <p>מכירת גז</p>
+            </authorialNote>
+          </heading>
+          <num>2.</num>
+          <content>
+            <p>בית זיקוק ימכור גז לספק גז בלבד.</p>
+          </content>
+        </point>
+        <point eId="point_3">
+          <heading>
+            <authorialNote placement="side">
+              <p>תחזית ייצור</p>
+            </authorialNote>
+          </heading>
+          <num>3.</num>
+          <content>
+            <p>בית זיקוק יודיע בכתב לכל ספק גז ולמנהל ביום עבודה הראשון בחודש, מהי תחזית כושר האספקה שלו הצפוי לכל אחד משלושת החודשים הרצופים הבאים לאחר חודש ההודעה, ויעשה כל שביכולתו כדי לעמוד בתחזית כאמור; בית זיקוק יודיע למנהל ולספקי הגז על כל סטייה העולה על 5 אחוזים מתחזית כאמור, מיד לאחר שנודע לו על כך, ועל משך הזמן המשוער שתיארך הסטייה; בית הזיקוק יפרט לפני המנהל את נימוקי היווצרות הסטייה כאמור.</p>
+          </content>
+        </point>
+        <point eId="point_4">
+          <heading>
+            <authorialNote placement="side">
+              <p>הזמנת גז</p>
+            </authorialNote>
+          </heading>
+          <num>4.</num>
+          <list>
+            <point eId="point_4__point_א">
+              <num>(א)</num>
+              <content>
+                <p>לגבי כל חודש שנעשית בעדו הזמנה (להלן – חודש האספקה), יקבל בית זיקוק הזמנות לגז מספקי גז, עד היום העשירי בחודש שקדם לו.</p>
+              </content>
+            </point>
+            <point eId="point_4__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>עלה הביקוש לגז על כמות הגז שבית זיקוק צפוי לייצר בחודש האספקה, יודיע בית זיקוק לכל ספק גז, עד היום השניים עשר בחודש שקדם לחודש האספקה, בשעה 12:00 בצהריים, ואם יום זה אינו יום עבודה – עד יום העבודה שקדם לו, בשעה 12:00 בצהריים, מהי כמות הגז שהוא צפוי לקבל בחודש האספקה מתוך כושר האספקה שלו באותו מועד, לפי תקנות אלה.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_5">
+          <heading>
+            <authorialNote placement="side">
+              <p>חובת מכירה</p>
+            </authorialNote>
+          </heading>
+          <num>5.</num>
+          <content>
+            <p>בחודשי מחסור יספק בית זיקוק לספקי הגז את כל כושר האספקה שלו, לרבות גז שהוזמן מבית זיקוק אך נותר במיתקניו או הוחזר אליהם לשם שיווק הגז שלא כחומר זינה.</p>
+          </content>
+        </point>
+        <point eId="point_6">
+          <heading>
+            <authorialNote placement="side">
+              <p>אספקה לספקי גז חדשים</p>
+            </authorialNote>
+          </heading>
+          <num>6.</num>
+          <list>
+            <point eId="point_6__point_א">
+              <num>(א)</num>
+              <content>
+                <p>בחודשי מחסור יפריש כל בית זיקוק 2 אחוזים מכושר האספקה שלו אשר ישמשו לאספקת גז לספקי גז חדשים.</p>
+              </content>
+            </point>
+            <point eId="point_6__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>בחודשי מחסור יקבל ספק גז חדש, המעוניין בכך, במשך שלושת החודשים הראשונים לפעילותו, גז מתוך 2 האחוזים כאמור בתקנת משנה (א), מבית זיקוק לפי בחירתו, בכמות שיבקש שלא תעלה על 15 טון לחודש, או בכמות גבוהה יותר, שיורה עליה המנהל, אם ספק הגז הוכיח למנהל כי צרכניו צורכים גז בכמות העולה על הכמות האמורה, ומן החודש הרביעי יקבל גז בכמויות שיורה עליהן המנהל, לפי צריכת צרכני הגז של ספק הגז החדש; עלתה הכמות שיש לספק לספקי גז חדשים לפי תקנה משנה זו על שני אחוזים מכושר האספקה של בית הזיקוק, יקבל כל אחד מספקי הגז החדשים את הכמות היחסית שמהווה הכמות שקיבל לפי תקנת משנה זו, מתוך הכמות שבית הזיקוק הפריש לספקי הגז החדשים לפי תקנת משנה (א).</p>
+              </content>
+            </point>
+            <point eId="point_6__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>יתרת הכמות האמורה בתקנת משנה (א), שהמנהל לא הורה לספק לספקי גז חדשים ואשר לא סופקה להם, או שספקי הגז החדשים לא צרכו אותה, תסופק לכל שאר ספקי הגז בכמות השווה לחלקם היחסי בגז שמספקים בתי הזיקוק לפי תקנות אלה.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_7">
+          <heading>
+            <authorialNote placement="side">
+              <p>אספקה לספקי גז קטנים</p>
+            </authorialNote>
+          </heading>
+          <num>7.</num>
+          <list>
+            <point eId="point_7__point_א">
+              <num>(א)</num>
+              <list>
+                <intro>
+                  <p>בחודש מחסור יספק בית זיקוק לכל ספק גז קטן, המעוניין בכך, גז בשיעור מכושר האספקה של אותו בית זיקוק, השווה לחלק היחסי בגז שקיבל ספק הגז הקטן מבית הזיקוק, ביחס לשאר ספקי הגז –</p>
+                </intro>
+                <point eId="point_7__point_א__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>בשלושת החודשים המקבילים בשנה הקודמת בממוצע; לעניין זה יראו את חודש המחסור כחודש השלישי במניין שלושת החודשים האמורים;</p>
+                  </content>
+                </point>
+                <point eId="point_7__point_א__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>בשלושת החודשים שקדמו לחודש שלפני חודש המחסור, בממוצע.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_7__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>לעניין חישוב שיעור הגז יהיה משקלן של התקופות האמורות בתקנת משנה (א)(1) ו־(2) שווה.</p>
+              </content>
+            </point>
+            <point eId="point_7__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>שיעור הגז שיקבל ספק גז קטן, יהיה כאמור בתקנות משנה (א) ו־(ב), בתוספת 10 אחוזים ממנו.</p>
+              </content>
+            </point>
+            <point eId="point_7__point_ד">
+              <num>(ד)</num>
+              <list>
+                <intro>
+                  <p>תקנת משנה (ג) תחול רק בהתקיים שני תנאים אלה:</p>
+                </intro>
+                <point eId="point_7__point_ד__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>ספק גז קטן הגיש למנהל את כל הדוחות שלפי <ref href="#point_11">תקנה 11</ref> והוכיח, להנחת דעתו של המנהל, כי כל רכישות הגז ואספקותיו נעשו לפי תקנות אלה;</p>
+                  </content>
+                </point>
+                <point eId="point_7__point_ד__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>סך כל רכישות הגז מבתי הזיקוק של כלל ספקי הגז שביום תחילתן של תקנות אלה אינם ספקי גז קטנים עולה על 75 אחוזים מסך כל מכירת הגז של בתי הזיקוק.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_7__point_ה">
+              <num>(ה)</num>
+              <list>
+                <intro>
+                  <p>הוכיח ספק גז קטן למנהל, להנחת דעתו, שבתקופה הקובעת ממוצע מחירי הגז שלו בכל אחד מסוגי מיתקני הגז שהוא מספק להם גז, במחצית מהרשויות המקומיות שבהן הוא מספק גז לפחות, נמוך ב־8 אחוזים מממוצע מחירי הגז של שלושת ספקי הגז הגדולים באותה תקופה, שיעור הגז שיקבל בתקופה הבאה ספק גז קטן כאמור שביקש זאת יהיה כאמור בתקנות משנה (א) עד (ג), בתוספת 50 אחוזים ממנו; בתקנת משנה זו –</p>
+                </intro>
+                <point eId="point_7__point_ה__point_התקופה_הבאה">
+                  <content>
+                    <p>
+                      <def />”התקופה הבאה“ – מחצית שנה הבאה לאחר התקופה הקובעת;</p>
+                  </content>
+                </point>
+                <point eId="point_7__point_ה__point_התקופה_הקובעת">
+                  <content>
+                    <p>
+                      <def />”התקופה הקובעת“ – חודשים ינואר עד אפריל או חודשים יולי עד אוקטובר, לפי העניין;</p>
+                  </content>
+                </point>
+                <point eId="point_7__point_ה__point_סוגי_מיתקני_גז">
+                  <content>
+                    <p>
+                      <def />”סוגי מיתקני גז“ – כמשמעותם <ref href="/akn/il/act/SecondaryLegislation/2015-02-12/100039268">בתקנות מסירת מידע</ref>;</p>
+                  </content>
+                </point>
+                <point eId="point_7__point_ה__point_ממוצע_מחירי_הגז">
+                  <content>
+                    <p>
+                      <def />”ממוצע מחירי הגז“ – במכל מיטלטל: המחיר הממוצע של הספקת מכל, שספק הגז דיווח עליו לפי <ref href="/akn/il/act/SecondaryLegislation/2015-02-12/100039268">תקנות מסירת מידע</ref>; במאגר גפ"מ במכלים מיטלטלים או במכל נייח: המחיר הממוצע של תשלום דו־חודשי קבוע, שספק הגז דיווח עליו כאמור, בתוספת מחיר ממוצע להספקת מ"ק גז, שהספק דיווח עליו כאמור, כשהוא מוכפל ב־3.8;</p>
+                  </content>
+                </point>
+                <point eId="point_7__point_ה__point_ספקי_הגז_הגדולים">
+                  <content>
+                    <p>
+                      <def />”ספקי הגז הגדולים“ – ספקי הגז שממוצע רכישות הגז שלהם מבתי הזיקוק בתקופה הקובעת הוא הגדול ביותר.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_7__point_ו">
+              <num>(ו)</num>
+              <list>
+                <intro>
+                  <p>תקנת משנה (ה) תחול רק בהתקיים תנאים אלה:</p>
+                </intro>
+                <point eId="point_7__point_ו__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>ספק הגז הקטן הגיש למנהל את כל הדו"חות שלפי <ref href="/akn/il/act/SecondaryLegislation/2015-02-12/100039268">תקנות מסירת מידע</ref>;</p>
+                  </content>
+                </point>
+                <point eId="point_7__point_ו__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>התקיימו התנאים המפורטים בתקנת משנה (ד).</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_7__point_ז">
+              <num>(ז)</num>
+              <content>
+                <p>בחודש מחסור שבו שני בתי הזיקוק מספקים גז בכמות שאינה עולה על 70 אחוזים מכושר האספקה החודשי הממוצע של שני בתי הזיקוק בשנה שקדמה לאותו חודש, או בחודש מחסור שבו בית זיקוק אחד מספק גז בכמות שאינה עולה על 40 אחוזים מסך כושר האספקה החודשי הממוצע של אותו בית זיקוק בשנה שקדמה לאותו חודש, שיעור הגז שיקבל ספק גז קטן שביקש זאת מכל אחד מבתי הזיקוק יהיה כאמור בתקנות משנה (א), (ב) ו־(ה), בתוספת 30 אחוזים ממנו, ובחודש מחסור כאמור שבין חודש דצמבר לחודש מרס, שיעור כאמור בתוספת 40 אחוזים ממנו; בחודש מחסור שבו בית זיקוק אחד מספק גז בכמות שאינה עולה על 40 אחוזים מכושר האספקה החודשי הממוצע של אותו בית זיקוק בשנה שקדמה לאותו חודש, ספק גז קטן שרוכש גז מאותו בית הזיקוק בלבד והתקשר בחוזה לרכישת גז מבית זיקוק האחר, יקבל גז מבית הזיקוק האחר בכמות שמתאימה לצריכת צרכניו, שלא תעלה על 30 טון.</p>
+              </content>
+            </point>
+            <point eId="point_7__point_ח">
+              <num>(ח)</num>
+              <content>
+                <p>המנהל יודיע לבית זיקוק על תוספות לפי תקנה זו.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_8">
+          <heading>
+            <authorialNote placement="side">
+              <p>אספקה לספקי גז גדולים</p>
+            </authorialNote>
+          </heading>
+          <num>8.</num>
+          <list>
+            <point eId="point_8__point_א">
+              <num>(א)</num>
+              <list>
+                <intro>
+                  <p>בחודש מחסור יספק בית זיקוק לספק גז שאינו ספק גז קטן ומעוניין בכך, גז בשיעור מן הכמות הכללית שמספק בית הזיקוק, השווה לחלק היחסי בגז שסיפק לשאר ספקי הגז שאינם ספקי גז קטנים –</p>
+                </intro>
+                <point eId="point_8__point_א__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>בשלושת החודשים המקבילים בשנה הקודמת, בממוצע; לעניין זה יראו את חודש המחסור כחודש השלישי במניין שלושת החודשים האמורים;</p>
+                  </content>
+                </point>
+                <point eId="point_8__point_א__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>בשלושת החודשים שקדמו לחודש שלפני חודש המחסור, בממוצע.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_8__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>לעניין חישוב שיעור הגז האמור יהיה משקלן של התקופות האמורות בתקנת משנה (א)(1) ו־(2) שווה; חישוב כאמור ייעשה מתוך כושר האספקה של אותו בית זיקוק, בניכוי כמות הגז שהופרשה בעבור ספקי הגז החדשים והקטנים לפי <ref href="#point_6">תקנות 6</ref><ref href="#point_7">ו־7</ref>.</p>
+              </content>
+            </point>
+            <point eId="point_8__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>
+                  <wikicomment font-size="x-small">(בוטלה).</wikicomment>
+                </p>
+              </content>
+            </point>
+            <point eId="point_8__point_ד">
+              <num>(ד)</num>
+              <content>
+                <p>
+                  <wikicomment font-size="x-small">(בוטלה).</wikicomment>
+                </p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_8א">
+          <heading>
+            <authorialNote placement="side">
+              <p>חישוב שיעור גז במקרה מיוחד</p>
+            </authorialNote>
+          </heading>
+          <num>8א.</num>
+          <list>
+            <point eId="point_8א__point_א">
+              <num>(א)</num>
+              <content>
+                <p>לצורך חישוב שיעור הגז האמור <ref href="#point_7">בתקנות 7(א)</ref><ref href="#point_8">ו־8(א)</ref>, יראו חודש שבו ספק גז לא רכש גז מבית זיקוק בשל שלילת רישיונו, כאילו סופק לו גז בכמות זהה לזו שסופקה לו בחודש האחרון שלפני שלילת הרישיון.</p>
+              </content>
+            </point>
+            <point eId="point_8א__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>בית זיקוק יודיע לספק גז מהו שיעור הגז שעליו לספק לאותו ספק גז ושחושב לפי תקנות אלה.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_8ב">
+          <heading>
+            <authorialNote placement="side">
+              <p>אספקת כמות גז נוספת בשל ייצור נוסף</p>
+            </authorialNote>
+          </heading>
+          <num>8ב.</num>
+          <list>
+            <point eId="point_8ב__point_א">
+              <num>(א)</num>
+              <content>
+                <p>נודע לבית זיקוק במהלך החודש שקדם לחודש האספקה, לאחר ששלח הודעה לפי <ref href="#point_3">תקנה 3</ref> על תחזית כושר האספקה הצפוי, כי הוא צפוי לייצר בחודש האספקה כמות גז העולה על הכמות לפי תחזית כאמור (להלן – כמות גז נוספת), יודיע על כך למנהל ולספקי הגז, מיד לאחר שנודע לו על כך.</p>
+              </content>
+            </point>
+            <point eId="point_8ב__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>ספק גז המעוניין לקבל גז מהכמות הנוספת, יודיע על כך לבית זיקוק בתוך 24 שעות ממועד הודעת בית זיקוק על כמות הגז הנוספת; עלה הביקוש לגז לפי תקנת משנה זו על כמות הגז הנוספת, יודיע בית זיקוק לספק הגז המעוניין, בתוך 48 שעות ממועד הודעתו על כמות הגז הנוספת, מהי כמות הגז שספק הגז צפוי לקבל מתוך כמות הגז הנוספת, לפי שיעור חלקו היחסי שקיבל לפי תקנות אלה.</p>
+              </content>
+            </point>
+            <point eId="point_8ב__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>הודיע בית זיקוק לאחר היום ה־15 בחודש שקדם לחודש האספקה, כי הוא צפוי לייצר כמות גז נוספת, לא יספק בחודש האספקה את כמות הגז הנוספת, או חלק ממנה, לתאגיד הקשור אליו.</p>
+              </content>
+            </point>
+            <point eId="point_8ב__point_ד">
+              <num>(ד)</num>
+              <list>
+                <intro>
+                  <p>על אף האמור בתקנת משנה (ג) –</p>
+                </intro>
+                <point eId="point_8ב__point_ד__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>אם במהלך 12 החודשים הקודמים לחודש האספקה, לא סיפק בית זיקוק לתאגיד הקשור אליו כמות גז נוספת, או חלק ממנה, שעליה הודיע לאחר היום ה־15 בחודש, רשאי בית זיקוק לספק לתאגיד הקשור אליו כמות שאינה עולה על 66 אחוזים מכמות הגז הנוספת;</p>
+                  </content>
+                </point>
+                <point eId="point_8ב__point_ד__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>אם במהלך 12 החודשים הקודמים לחודש האספקה לא סיפק בית זיקוק לתאגיד הקשור אליו יותר מפעם אחת כמות גז נוספת, או חלק ממנה, שעליה הודיע לאחר היום ה־15 בחודש, רשאי בית זיקוק לספק לתאגיד הקשור אליו כמות שאינה עולה על 33 אחוזים מכמות הגז הנוספת;</p>
+                  </content>
+                </point>
+                <point eId="point_8ב__point_ד__point_3">
+                  <num>(3)</num>
+                  <content>
+                    <p>הוכיח בית זיקוק למנהל, להנחת דעתו, כי עשה כל שביכולתו כדי לספק את מלוא כמות הגז הנוספת לספקי גז שאינם קשורים אליו, ובכלל זה הפחית את מחיר כמות הגז הנוספת בשיעור של 10 אחוזים לפחות, רשאי המנהל, בהחלטה מנומקת בכתב, לאשר לבית זיקוק לספק את כמות הגז הנוספת, או חלק ממנה, לתאגיד הקשור אליו.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_8ב__point_ה">
+              <num>(ה)</num>
+              <content>
+                <p>כמות גז נוספת שבית זיקוק סיפק לתאגיד הקשור אליו לפי תקנת משנה (ד) לא תבוא בחשבון ממוצע הרכישות לפי תקנות אלה.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_9">
+          <heading>
+            <authorialNote placement="side">
+              <p>הגבלת מכירה</p>
+            </authorialNote>
+          </heading>
+          <num>9.</num>
+          <list>
+            <point eId="point_9__point_א">
+              <num>(א)</num>
+              <content>
+                <p>ספק גז לא יספק גז בחודש מחסור בבית זיקוק לספקי גז אחרים, בכמות כוללת העולה על 5 אחוזים מכמות הגז שקיבל באותו חודש מבתי הזיקוק.</p>
+              </content>
+            </point>
+            <point eId="point_9__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>על אף האמור בתקנת משנה (א), רשאי ספק גז למכור לספקי גז כמות נוספת של גז השווה לכמות הגז שייבא או שרכש מבית זיקוק שאין בו מחסור.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_10">
+          <heading>
+            <authorialNote placement="side">
+              <p>אספקה לצרכן גדול</p>
+            </authorialNote>
+          </heading>
+          <num>10.</num>
+          <list>
+            <point eId="point_10__point_א">
+              <num>(א)</num>
+              <content>
+                <p>הוכיח ספק גז למנהל, להנחת דעתו, כי בתקופה של שלושה חודשים שקדמו להגשת הבקשה התקשר בחוזה לאספקת גז עם לא יותר משלושה צרכני גז הרוכשים גז לשימוש תעשייתי, חקלאי או מסחרי בכמות שנתית כוללת העולה על 120 טון (בתקנה זו – צרכן גדול), יורה המנהל לבתי הזיקוק להעביר לספק הגז (להלן – הספק הנכנס), את הגז נושא החוזה ולגרוע אותו ממי שסיפק גז לצרכן הגדול קודם לכן (להלן – הספק היוצא), בכפוף לאמור בתקנות משנה (ב) ו־(ג).</p>
+              </content>
+            </point>
+            <point eId="point_10__point_ב">
+              <num>(ב)</num>
+              <list>
+                <intro>
+                  <p>כמות הגז שתועבר מהספק היוצא לספק הנכנס תהיה הכמות הבסיסית כשהיא מוכפלת בחלק היחסי שמהוות הרכישות בישראל של הספק היוצא מכלל הרכישות של אותו ספק (להלן – הכמות המועברת); לעניין זה –</p>
+                </intro>
+                <point eId="point_10__point_ב__point_הכמות_הבסיסית">
+                  <content>
+                    <p>
+                      <def />”הכמות הבסיסית“ – הכמות הממוצעת שרכש הצרכן הגדול מספק הגז היוצא בשלושת החודשים שקדמו לחתימת החוזה שלו עם הספק הנכנס, ואם הוכח להנחת דעת המנהל כי הכמות הממוצעת בתקופה האמורה אינה משקפת את כמות הצריכה החודשית הממוצעת של הצרכן הגדול בשנה שקדמה להחלפת ספק הגז – הכמות הממוצעת שרכש הצרכן הגדול מהספק היוצא בשנה האמורה;</p>
+                  </content>
+                </point>
+                <point eId="point_10__point_ב__point_כלל_הרכישות">
+                  <content>
+                    <p>
+                      <def />”כלל הרכישות“ – רכישות מבתי הזיקוק בישראל ורכישות מייבוא במהלך 12 החודשים שקדמו לחתימת החוזה עם הספק הנכנס.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_10__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>רכש הספק היוצא גז בשני בתי הזיקוק תיגרע הכמות המועברת בחלקים יחסיים מרכישותיו של הספק היוצא בשני בתי הזיקוק.</p>
+              </content>
+            </point>
+            <point eId="point_10__point_ד">
+              <num>(ד)</num>
+              <content>
+                <p>הכמות המועברת תיווסף לכמות הגז הממוצעת שיספק בית זיקוק לספק הנכנס לפי <ref href="#point_7">תקנות 7(א)</ref><ref href="#point_8">או 8(א)</ref>, לפי העניין, ותיגרע מהכמות הממוצעת שיספק בית זיקוק לספק היוצא לפי <ref href="#point_7">התקנות האמורות</ref>, לפי העניין.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_10א">
+          <heading>
+            <authorialNote placement="side">
+              <p>אספקה לצבר צרכנים ביתיים</p>
+            </authorialNote>
+          </heading>
+          <num>10א.</num>
+          <list>
+            <point eId="point_10א__point_א">
+              <num>(א)</num>
+              <content>
+                <p>הוכיח ספק גז למנהל, להנחת דעתו, כי בתקופה של השנה שקדמה להגשת הבקשה התקשר בחוזים לאספקת גז עם צרכני גז ביתי שעד לאותו מועד היו קשורים בחוזה עם ספק גז אחר, אחד או יותר, וסך כל צריכת הגז של אותם צרכנים, לאחר שקוזזה ממנה כמות הצריכה של צרכני גז ביתי שהפסיקו עמו את ההתקשרות באותה תקופה, עלתה על 30 טון, יורה המנהל לבתי הזיקוק להעביר לספק הנכנס כמות גז ולגרוע אותו מהספק היוצא, בכפוף לאמור בתקנות משנה (ב) ו־(ג).</p>
+              </content>
+            </point>
+            <point eId="point_10א__point_ב">
+              <num>(ב)</num>
+              <list>
+                <intro>
+                  <p>כמות הגז שתועבר מהספק היוצא לספק הנכנס תהיה הכמות החודשית הממוצעת שרוכש צרכן גז ביתי כשהיא מוכפלת בחלק היחסי שמהוות הרכישות בישראל של הספק היוצא מכלל הרכישות של אותו ספק (להלן – הכמות המועברת); לעניין זה –</p>
+                </intro>
+                <point eId="point_10א__point_ב__point_הכמות_החודשית_הממוצעת">
+                  <content>
+                    <p>
+                      <def />”הכמות החודשית הממוצעת“ – 1.8 מטרים מעוקבים גז, וברשויות מקומיות שגובהן עולה על 600 מטרים, הכלולות ברשימה המפורסמת באתר האינטרנט של משרד האנרגיה – 5.4 מטרים מעוקבים גז;</p>
+                  </content>
+                </point>
+                <point eId="point_10א__point_ב__point_כלל_הרכישות">
+                  <content>
+                    <p>
+                      <def />”כלל הרכישות“ – רכישות מבתי הזיקוק בישראל ורכישות מייבוא במהלך השנה שקדמה להגשת הבקשה.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_10א__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>רכש הספק היוצא גז בשני בתי הזיקוק תיגרע הכמות המועברת בחלקים יחסיים מרכישותיו של הספק היוצא בשני בתי הזיקוק.</p>
+              </content>
+            </point>
+            <point eId="point_10א__point_ד">
+              <num>(ד)</num>
+              <content>
+                <p>הכמות המועברת תיווסף לכמות הגז הממוצעת שיספק בית זיקוק לספק הנכנס לפי <ref href="#point_7">תקנות 7(א)</ref><ref href="#point_8">או 8(א)</ref>, לפי העניין, ותיגרע מהכמות הממוצעת שיספק בית זיקוק לספק היוצא לפי <ref href="#point_7">התקנות האמורות</ref>, לפי העניין.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_10ב">
+          <heading>
+            <authorialNote placement="side">
+              <p>העברת כמויות גז בין בתי זיקוק</p>
+            </authorialNote>
+          </heading>
+          <num>10ב.</num>
+          <content>
+            <p>לבקשת ספק גז, המנהל רשאי להורות על העברת כמות גז שהוקצבה לספק גז לפי תקנות אלה מבית זיקוק אחד לבית זיקוק אחר, ובלבד שספק הגז התקשר בחוזה לרכישת גז מבית הזיקוק האחר ושכמות הגז שתועבר לא תעלה על 10 טון בחודש.</p>
+          </content>
+        </point>
+        <point eId="point_10ג">
+          <heading>
+            <authorialNote placement="side">
+              <p>משלוח הודעות</p>
+            </authorialNote>
+          </heading>
+          <num>10ג.</num>
+          <content>
+            <p>הודעות לפי תקנות אלה יישלחו בכתב, בדואר אלקטרוני או בפקסימילה, לפי בחירת השולח.</p>
+          </content>
+        </point>
+        <point eId="point_11">
+          <heading>
+            <authorialNote placement="side">
+              <p>דיווח למנהל</p>
+            </authorialNote>
+          </heading>
+          <num>11.</num>
+          <list>
+            <point eId="point_11__point_א">
+              <num>(א)</num>
+              <list>
+                <intro>
+                  <p>בתחילת כל רבעון, עד ליום החמישה עשר לחודש הראשון של הרבעון, יגיש בית זיקוק למנהל דוח לגבי כל אחד משלושת החודשים שחלפו לפי פרטים אלה:</p>
+                </intro>
+                <point eId="point_11__point_א__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>פירוט הזמנות גז שהגישו ספקי גז;</p>
+                  </content>
+                </point>
+                <point eId="point_11__point_א__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>אופן חלוקת הגז בין כל ספקי הגז;</p>
+                  </content>
+                </point>
+                <point eId="point_11__point_א__point_3">
+                  <num>(3)</num>
+                  <content>
+                    <p>כמויות גפ"מ שאינו עומד בדרישות תקן 1134 אשר סופקו.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_11__point_ב">
+              <num>(ב)</num>
+              <list>
+                <intro>
+                  <p>בתחילת כל רבעון, עד ליום החמישה עשר לחודש הראשון של הרבעון, יגיש ספק גז למנהל דוח שערך במתכונת שהורה עליה המנהל, ושאושר בידי רואה חשבון, ובו פרטים אלה לגבי כל אחד משלושת החודשים שחלפו:</p>
+                </intro>
+                <point eId="point_11__point_ב__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>כמות הגז אשר הזמין מכל אחד מבתי הזיקוק;</p>
+                  </content>
+                </point>
+                <point eId="point_11__point_ב__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>כמות הגז אשר קיבל מכל אחד מבתי הזיקוק;</p>
+                  </content>
+                </point>
+                <point eId="point_11__point_ב__point_3">
+                  <num>(3)</num>
+                  <content>
+                    <p>כמויות הגז שמכר לכל אחד מספקי הגז האחרים;</p>
+                  </content>
+                </point>
+                <point eId="point_11__point_ב__point_4">
+                  <num>(4)</num>
+                  <content>
+                    <p>כמויות הגז שרכש מכל אחד מספקי הגז האחרים;</p>
+                  </content>
+                </point>
+                <point eId="point_11__point_ב__point_5">
+                  <num>(5)</num>
+                  <content>
+                    <p>כמויות הגז אשר סיפק לכל צרכניו לסוגיהם, לפי דרישת המנהל.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+          </list>
+        </point>
+        <point eId="point_11א">
+          <heading>
+            <authorialNote placement="side">
+              <p>הפחתת כמות גז בשל הפרת תקנה 11</p>
+            </authorialNote>
+          </heading>
+          <num>11א.</num>
+          <list>
+            <point eId="point_11א__point_א">
+              <num>(א)</num>
+              <content>
+                <p>המנהל רשאי להורות לבית זיקוק להפחית מכמות הגז המחושבת לפי תקנות אלה לספק גז שלא הגיש דיווח למנהל לפי <ref href="#point_11">תקנה 11</ref>, או שהגיש דיווח כוזב או שגוי; הכמות שתופחת כאמור תהיה לפי כמות הגז שהצרכנים שלגביהם לא הוגש דיווח או שהוגש לגביהם דיווח כוזב או שגוי צפויים לצרוך, ולפי סוגי הצרכנים.</p>
+              </content>
+            </point>
+            <point eId="point_11א__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>החלטה על הפחתת כמות גז כאמור בתקנת משנה (א) תהיה מנומקת ובכתב, ולאחר שהמנהל נתן לספק הגז הזדמנות לטעון את טענותיו בכתב.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_12">
+          <heading>
+            <authorialNote placement="side">
+              <p>עונשין</p>
+            </authorialNote>
+          </heading>
+          <num>12.</num>
+          <list>
+            <intro>
+              <p>בית זיקוק או ספק גז, לפי העניין, העושה אחד מאלה דינו – קנס כאמור <ref href="/akn/il/act/PrimaryLegislation/1977-08-04/2002251#point_61">בסעיף 61(א)(1) לחוק העונשין, התשל"ז–1977</ref>:</p>
+            </intro>
+            <point eId="point_12__point_1">
+              <num>(1)</num>
+              <content>
+                <p>מוכר גז למי שאינו ספק גז, בניגוד <ref href="#point_2">לתקנה 2</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_12__point_2">
+              <num>(2)</num>
+              <content>
+                <p>מספק גז בניגוד <ref href="#point_9">לתקנה 9(א)</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_12__point_3">
+              <num>(3)</num>
+              <content>
+                <p>אינו מדווח למנהל לפי <ref href="#point_11">תקנה 11</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_12__point_4">
+              <num>(4)</num>
+              <content>
+                <p>מספק כמות גז נוספת לתאגיד הקשור אליו בניגוד <ref href="#point_8ב">לתקנה 8ב(ג)</ref>.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_13">
+          <heading>
+            <authorialNote placement="side">
+              <p>ביטול</p>
+            </authorialNote>
+          </heading>
+          <num>13.</num>
+          <content>
+            <p>תקנות הסדרים במשק המדינה (תיקוני חקיקה) (מכירת גז על ידי יצרני גז), התשס"ו–2006 – בטלות.</p>
+          </content>
+        </point>
+        <point eId="point_14">
+          <heading>
+            <authorialNote placement="side">
+              <p>תחילה ודוחות ראשונים</p>
+            </authorialNote>
+          </heading>
+          <num>14.</num>
+          <list>
+            <point eId="point_14__point_א">
+              <num>(א)</num>
+              <content>
+                <p>תחילתן של תקנות אלה ביום ט"ו בטבת התש"ע (1 בינואר 2010).</p>
+              </content>
+            </point>
+            <point eId="point_14__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>דוחות ראשונים לפי <ref href="#point_11">תקנה 11</ref> יוגשו למנהל עד יום כ"ט בטבת התש"ע (15 בינואר 2010).</p>
+              </content>
+            </point>
+          </list>
+        </point>
+      </list>
+    </body>
+    <conclusions eId="eId">
+      <p class="signatures">
+        <signature>
+          <p>
+            <person refersTo="עוזי_לנדאו">עוזי לנדאו</person>
+            <role refersTo="שר_התשתיות_הלאומיות">שר התשתיות הלאומיות</role>
+          </p>
+        </signature>
+      </p>
+    </conclusions>
+  </act>
+</akomaNtoso>

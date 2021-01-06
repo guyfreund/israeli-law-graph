@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion" name="publicLaw">
+    <meta>
+      <identification source="#kensset">
+        <FRBRWork>
+          <FRBRthis value="/akn/il/act/SecondaryLegislation/1948-12-03/99989002/main" />
+          <FRBRuri value="/akn/il/act/SecondaryLegislation/1948-12-03/99989002" />
+          <FRBRdate date="1948-12-03" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRcountry value="israel" />
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/il/act/SecondaryLegislation/1948-12-03/99989002/he@/main" />
+          <FRBRuri value="/akn/il/act/SecondaryLegislation/1948-12-03/99989002/he@" />
+          <FRBRdate date="1948-12-03" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRlanguage language="hebrew" />
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/il/act/SecondaryLegislation/1948-12-03/99989002/he@/main.xml" />
+          <FRBRuri value="/akn/il/act/SecondaryLegislation/1948-12-03/99989002/he@" />
+          <FRBRdate date="1948-12-03" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRformat value="xml" />
+        </FRBRManifestation>
+      </identification>
+      <classification source="#kensset">
+        <keyword value="{classificationValue}" showAs="{classificationValue}" dictionary="#classification_dictionary" />
+      </classification>
+      <lifecycle source="#kensset">
+        <eventRef eId="eventRef_1" date="1948-12-03" source="#kensset" type="generation" />
+      </lifecycle>
+      <references source="#kensset">
+        <TLCOrganization eId="kensset" href="/ontology/organization/akn/knesset" showAs="Kensset" type="generation" />
+        <TLCRole eId="author" href="/ontology/role/akn/author" showAs="Author of Document" />
+        <TLCProcess eId="inforce" href="/ontology/process/akn/inforce" showAs="In force" />
+        <TLCPerson eId="מועצת־המדינה_הזמנית__יוסף_שפרינצק" href="/ontology/person/מועצת־המדינה_הזמנית__יוסף_שפרינצק" showAs="מועצת־המדינה הזמנית  יוסף שפרינצק" />
+        <TLCRole eId="יושב_ראש" href="ontology/role/akn/יושב_ראש" showAs="יושב ראש" />
+      </references>
+      <temporalData source="#kensset">
+        <temporalGroup eId="tmpg_1" />
+      </temporalData>
+      <Publication></Publication>
+      <proprietary wikiversion="7/22/2020 9:53:23 PM" />
+    </meta>
+    <body period="#tmpg_1">
+      <title eId="title">
+        <content>
+          <p>הכרזה על סמל מדינת ישראל</p>
+        </content>
+      </title>
+      <preamble eId="eId">
+        <p>מועצת־המדינה הזמנית מכריזה ומודיעה כי סמל מדינת ישראל הוא כמצוייר בזה:
+</p>
+      </preamble>
+      <list>
+        <point eId="point_none">
+          <heading>
+            <authorialNote placement="side">
+              <p xml:space="preserve"> </p>
+            </authorialNote>
+          </heading>
+          <num></num>
+          <content>
+            <p>
+              <span style="text-align: center">
+                <img eId="eId" alt="Emblem of Israel.jpg" src="//upload.wikimedia.org/wikipedia/commons/thumb/d/db/Emblem_of_Israel.jpg/400px-Emblem_of_Israel.jpg" />
+              </span>
+            </p>
+          </content>
+        </point>
+      </list>
+    </body>
+    <conclusions eId="eId">
+      <p class="signatures">
+        <signature>
+          <p>
+            <person refersTo="מועצת־המדינה_הזמנית__יוסף_שפרינצק">מועצת־המדינה הזמנית  יוסף שפרינצק</person>
+            <role refersTo="יושב_ראש">יושב ראש</role>
+          </p>
+        </signature>
+      </p>
+    </conclusions>
+  </act>
+</akomaNtoso>

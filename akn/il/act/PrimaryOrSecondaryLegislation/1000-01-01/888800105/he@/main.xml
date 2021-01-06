@@ -1,0 +1,3028 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion" name="publicLaw">
+    <meta>
+      <identification source="#kensset">
+        <FRBRWork>
+          <FRBRthis value="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/888800105/main" />
+          <FRBRuri value="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/888800105" />
+          <FRBRdate date="1000-01-01" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRcountry value="israel" />
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/888800105/he@/main" />
+          <FRBRuri value="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/888800105/he@" />
+          <FRBRdate date="1000-01-01" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRlanguage language="hebrew" />
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/888800105/he@/main.xml" />
+          <FRBRuri value="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/888800105/he@" />
+          <FRBRdate date="1000-01-01" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRformat value="xml" />
+        </FRBRManifestation>
+      </identification>
+      <classification source="#kensset">
+        <keyword value="{classificationValue}" showAs="{classificationValue}" dictionary="#classification_dictionary" />
+      </classification>
+      <lifecycle source="#kensset">
+        <eventRef eId="eventRef_1" date="1000-01-01" source="#kensset" type="generation" />
+      </lifecycle>
+      <references source="#kensset">
+        <TLCOrganization eId="kensset" href="/ontology/organization/akn/knesset" showAs="Kensset" type="generation" />
+        <TLCRole eId="author" href="/ontology/role/akn/author" showAs="Author of Document" />
+        <TLCProcess eId="inforce" href="/ontology/process/akn/inforce" showAs="In force" />
+        <TLCTerm eId="term_1" href="/ontology/term/אדם_החייב_בבידוד/888800105" showAs="אדם_החייב_בבידוד" />
+        <TLCTerm eId="term_2" href="/ontology/term/איש_צוות/888800105" showAs="איש_צוות" />
+        <TLCTerm eId="term_3" href="/ontology/term/איש_צוות_אוויר/888800105" showAs="איש_צוות_אוויר" />
+        <TLCTerm eId="term_4" href="/ontology/term/ההנחיות_האירופיות/888800105" showAs="ההנחיות_האירופיות" />
+        <TLCTerm eId="term_5" href="/ontology/term/חולה/888800105" showAs="חולה" />
+        <TLCTerm eId="term_6" href="/ontology/term/חוק_הטיס/888800105" showAs="חוק_הטיס" />
+        <TLCTerm eId="term_7" href="/ontology/term/חוק_השוויון/888800105" showAs="חוק_השוויון" />
+        <TLCTerm eId="term_8" href="/ontology/term/טיסה_בין־לאומית/888800105" showAs="טיסה_בין־לאומית" />
+        <TLCTerm eId="term_9" href="/ontology/term/טרמינל_הנוסעים/888800105" showAs="טרמינל_הנוסעים" />
+        <TLCTerm eId="term_10" href="/ontology/term/המדריך_האירופי_לניהול_אנשי_צוות/888800105" showAs="המדריך_האירופי_לניהול_אנשי_צוות" />
+        <TLCTerm eId="term_11" href="/ontology/term/המדריך_האירופי_לניקוי_וחיטוי_כלי_טיס/888800105" showAs="המדריך_האירופי_לניקוי_וחיטוי_כלי_טיס" />
+        <TLCTerm eId="term_12" href="/ontology/term/המנהל/888800105" showAs="המנהל" />
+        <TLCTerm eId="term_13" href="/ontology/term/מנהל_רשות_התעופה_האזרחית/888800105" showAs="מנהל_רשות_התעופה_האזרחית" />
+        <TLCTerm eId="term_14" href="/ontology/term/מפעיל_אווירי/888800105" showAs="מפעיל_אווירי" />
+        <TLCTerm eId="term_15" href="/ontology/term/מפעיל_שדה_תעופה/888800105" showAs="מפעיל_שדה_תעופה" />
+        <TLCTerm eId="term_16" href="/ontology/term/נוסע_יוצא/888800105" showAs="נוסע_יוצא" />
+        <TLCTerm eId="term_17" href="/ontology/term/נוסע_נכנס/888800105" showAs="נוסע_נכנס" />
+        <TLCTerm eId="term_18" href="/ontology/term/ניהול_סיכונים/888800105" showAs="ניהול_סיכונים" />
+        <TLCTerm eId="term_19" href="/ontology/term/הפרוטוקול_האירופי_לשמירה_על_בריאות_בתעופה/888800105" showAs="הפרוטוקול_האירופי_לשמירה_על_בריאות_בתעופה" />
+        <TLCTerm eId="term_20" href="/ontology/term/צו_בידוד_בית/888800105" showAs="צו_בידוד_בית" />
+        <TLCTerm eId="term_21" href="/ontology/term/ציוד_מגן_אישי/888800105" showAs="ציוד_מגן_אישי" />
+        <TLCTerm eId="term_22" href="/ontology/term/קצין_ביקורת_גבולות/888800105" showAs="קצין_ביקורת_גבולות" />
+        <TLCTerm eId="term_23" href="/ontology/term/קרבה_מותרת/888800105" showAs="קרבה_מותרת" />
+        <TLCTerm eId="term_24" href="/ontology/term/שדה_תעופה_בין־לאומי/888800105" showAs="שדה_תעופה_בין־לאומי" />
+        <TLCTerm eId="term_25" href="/ontology/term/תושב_ישראל/888800105" showAs="תושב_ישראל" />
+        <TLCTerm eId="term_26" href="/ontology/term/תסמינים/888800105" showAs="תסמינים" />
+        <TLCTerm eId="term_27" href="/ontology/term/תקנות_הגבלת_הפעילות/888800105" showAs="תקנות_הגבלת_הפעילות" />
+        <TLCTerm eId="term_28" href="/ontology/term/תקנות_ההפעלה/888800105" showAs="תקנות_ההפעלה" />
+        <TLCTerm eId="term_29" href="/ontology/term/תקנות_מערכת_ניהול_בטיחות/888800105" showAs="תקנות_מערכת_ניהול_בטיחות" />
+        <TLCTerm eId="term_30" href="/ontology/term/מארגן/888800105" showAs="מארגן" />
+        <TLCTerm eId="term_31" href="/ontology/term/סוכן_נסיעות/888800105" showAs="סוכן_נסיעות" />
+        <TLCPerson eId="בנימין_נתניהו" href="/ontology/person/בנימין_נתניהו" showAs="בנימין נתניהו" />
+        <TLCRole eId="ראש_הממשלה" href="ontology/role/akn/ראש_הממשלה" showAs="ראש הממשלה" />
+      </references>
+      <temporalData source="#kensset">
+        <temporalGroup eId="tmpg_1" />
+      </temporalData>
+      <Publication></Publication>
+      <proprietary wikiversion="1/14/2021 12:36:37 PM" />
+    </meta>
+    <body period="#tmpg_1">
+      <title eId="title">
+        <content>
+          <p>תקנות סמכויות מיוחדות להתמודדות עם נגיף הקורונה החדש (הוראת שעה) (הגבלות על הפעלת שדות תעופה וטיסות), התש"ף–2020</p>
+        </content>
+      </title>
+      <preamble eId="eId">
+        <p>בתוקף סמכותה לפי <ref href="/akn/il/act/PrimaryLegislation/2020-07-23/2140584#point_4">סעיפים 4</ref>, <ref href="/akn/il/act/PrimaryLegislation/2020-07-23/2140584#point_8">8</ref>, <ref href="/akn/il/act/PrimaryLegislation/2020-07-23/2140584#point_12">12</ref><ref href="/akn/il/act/PrimaryLegislation/2020-07-23/2140584#point_23">ו־23 עד 25</ref><ref href="/akn/il/act/PrimaryLegislation/2020-07-23/2140584">לחוק סמכויות מיוחדות להתמודדות עם נגיף הקורונה החדש (הוראת שעה), התש"ף–2020</ref> (להלן – החוק), ובאישור ועדה של הכנסת לאחר שהתקיים האמור <ref href="/akn/il/act/PrimaryLegislation/2020-07-23/2140584#point_4">בסעיף 4(ד)(2)(א) לחוק</ref>, מתקינה הממשלה תקנות אלה:</p>
+      </preamble>
+      <chapter eId="chp_א">
+        <num>פרק א׳:</num>
+        <title>
+          <content>
+            <p>הגדרות ופרשנות</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_1">
+            <heading>
+              <authorialNote placement="side">
+                <p>הגדרות ופרשנות</p>
+              </authorialNote>
+            </heading>
+            <num>1.</num>
+            <list>
+              <point eId="point_1__point_א">
+                <num>(א)</num>
+                <list>
+                  <intro>
+                    <p>בתקנות אלה –</p>
+                  </intro>
+                  <point eId="point_1__point_א__point_אדם_החייב_בבידוד">
+                    <content>
+                      <p>
+                        <def />”אדם החייב בבידוד“ – אדם החייב בבידוד לפי <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/צו_בריאות_העם_נגיף_הקורונה_החדש_בידוד_בית_והוראות_שונות_הוראת_שעה">צו בידוד בית</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_1__point_א__point_איש_צוות">
+                    <content>
+                      <p>
+                        <def />”איש צוות“ – כהגדרתו <ref href="/akn/il/act/PrimaryLegislation/2011-04-13/336240">בחוק הטיס</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_1__point_א__point_איש_צוות_אוויר">
+                    <content>
+                      <p>
+                        <def />”איש צוות אוויר“, ”דייל טיסה מסחרית“, ”ספר עזר למבצעים“ – כהגדרתם <ref href="/akn/il/act/SecondaryLegislation/1981-10-01/100013650">בתקנות ההפעלה</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_1__point_א__point_ההנחיות_האירופיות">
+                    <list>
+                      <intro>
+                        <p>
+                          <def />”ההנחיות האירופיות“ – ההנחיות וההמלצות לשמירה על בריאות הציבור בתעופה, הכלולות במסמכים אלה:</p>
+                      </intro>
+                      <point eId="point_1__point_א__point_ההנחיות_האירופיות__point_1">
+                        <num>(1)</num>
+                        <content>
+                          <p>המדריך האירופי לניהול אנשי צוות;</p>
+                        </content>
+                      </point>
+                      <point eId="point_1__point_א__point_ההנחיות_האירופיות__point_2">
+                        <num>(2)</num>
+                        <content>
+                          <p>המדריך האירופי לניקוי וחיטוי כלי טיס;</p>
+                        </content>
+                      </point>
+                      <point eId="point_1__point_א__point_ההנחיות_האירופיות__point_3">
+                        <num>(3)</num>
+                        <content>
+                          <p>הפרוטוקול האירופי לשמירה על בריאות בתעופה;</p>
+                        </content>
+                      </point>
+                    </list>
+                  </point>
+                  <point eId="point_1__point_א__point_חולה">
+                    <content>
+                      <p>
+                        <def />”חולה“, ”מגע הדוק“ ו”מחלים“ – כהגדרתם <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/צו_בריאות_העם_נגיף_הקורונה_החדש_בידוד_בית_והוראות_שונות_הוראת_שעה">בצו בידוד בית</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_1__point_א__point_חוק_הטיס">
+                    <content>
+                      <p>
+                        <def />”חוק הטיס“ – <ref href="/akn/il/act/PrimaryLegislation/2011-04-13/336240">חוק הטיס, התשע"א–2011</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_1__point_א__point_חוק_השוויון">
+                    <content>
+                      <p>
+                        <def />”חוק השוויון“ – <ref href="/akn/il/act/PrimaryLegislation/1998-03-05/165017">חוק שוויון זכויות לאנשים עם מוגבלות, התשנ"ח–1988</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_1__point_א__point_טיסה_בין־לאומית">
+                    <content>
+                      <p>
+                        <def />”טיסה בין־לאומית“ – טיסה שנקודת המוצא, הביניים או היעד שלה, היא במדינה זרה;</p>
+                    </content>
+                  </point>
+                  <point eId="point_1__point_א__point_טרמינל_הנוסעים">
+                    <content>
+                      <p>
+                        <def />”טרמינל הנוסעים“ – מקום תחום בשדה תעופה המשמש לרישום נוסעים לטיסה, לתהליכי בידוק לנוסעים לפני טיסה ואחריה, ולהמתנת נוסעים לעלייה לכלי הטיס, כולל אזורי מסחר;</p>
+                    </content>
+                  </point>
+                  <point eId="point_1__point_א__point_המדריך_האירופי_לניהול_אנשי_צוות">
+                    <content>
+                      <p>
+                        <def />”המדריך האירופי לניהול אנשי צוות“ – <קישור סוג="4" עוגן=""> מדריך לניהול אנשי צוות בקשר למגיפת הקורונה (Guidance on Management of Crew Members in relation to the SARS-CoV-2 pandemic), מהדורה מס׳ 2 מיום ח׳ בתמוז התש"ף (30 ביוני 2020)</קישור>, שפרסמה הסוכנות האירופית לבטיחות התעופה, המצוי לעיון הציבור באתר האינטרנט של משרד הבריאות ובאתר האינטרנט של רשות התעופה האזרחית;</p>
+                    </content>
+                  </point>
+                  <point eId="point_1__point_א__point_המדריך_האירופי_לניקוי_וחיטוי_כלי_טיס">
+                    <content>
+                      <p>
+                        <def />”המדריך האירופי לניקוי וחיטוי כלי טיס“ – <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/https_www_easa_europa_eu_sites_default_files_dfu_EASA_20Guidance_20on_20aircraft_20cleaning_20and_20disinfection_issue_202_pdf">מדריך לניקוי וחיטוי כלי טיס (Interim guidance on Aircraft Cleaning and Disinfection in relation to the SARS-CoV-2 pandemics), מהדורה מס׳ 2 מיום ח׳ בתמוז התש"ף (30 ביוני 2020)</ref>, המצוי לעיון הציבור באתר האינטרנט של משרד הבריאות ובאתר האינטרנט של רשות התעופה האזרחית;</p>
+                    </content>
+                  </point>
+                  <point eId="point_1__point_א__point_המנהל">
+                    <content>
+                      <p>
+                        <def />”המנהל“ – כהגדרתו <ref href="/akn/il/act/PrimaryLegislation/1940-12-20/2001729#point_2">בסעיף 2 לפקודת בריאות העם</ref>, ומי שהוא הסמיכו לעניין <ref href="/akn/il/act/PrimaryLegislation/1940-12-20/2001729#point_20">סעיף 20 לפקודה האמורה</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_1__point_א__point_מנהל_רשות_התעופה_האזרחית">
+                    <content>
+                      <p>
+                        <def />”מנהל רשות התעופה האזרחית“ – כמשמעותו <ref href="/akn/il/act/PrimaryLegislation/2005-02-13/23024#point_6">בסעיף 6 לחוק רשות התעופה האזרחית, התשס"ה–2005</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_1__point_א__point_מפעיל_אווירי">
+                    <list>
+                      <intro>
+                        <p>
+                          <def />”מפעיל אווירי“ – אחד מאלה:</p>
+                      </intro>
+                      <point eId="point_1__point_א__point_מפעיל_אווירי__point_1">
+                        <num>(1)</num>
+                        <content>
+                          <p>בעל רישיון הפעלה אווירית לפי <ref href="/akn/il/act/PrimaryLegislation/2011-04-13/336240#chp_ב_sec_ג">סימן ג׳ לפרק ב׳ לחוק הטיס</ref>;</p>
+                        </content>
+                      </point>
+                      <point eId="point_1__point_א__point_מפעיל_אווירי__point_2">
+                        <num>(2)</num>
+                        <content>
+                          <p>בעל רישיון מקביל לרישיון הפעלה אווירית כאמור, שנתנה הרשות המוסמכת במדינה זרה;</p>
+                        </content>
+                      </point>
+                    </list>
+                  </point>
+                  <point eId="point_1__point_א__point_מפעיל_שדה_תעופה">
+                    <content>
+                      <p>
+                        <def />”מפעיל שדה תעופה“ – בעל רישיון להפעלת שדה תעופה לפי <ref href="/akn/il/act/PrimaryLegislation/2011-04-13/336240#chp_ב_sec_ו">סימן ו׳ לפרק ב׳ לחוק הטיס</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_1__point_א__point_נוסע_יוצא">
+                    <content>
+                      <p>
+                        <def />”נוסע יוצא“ – מי שהגיע לטרמינל הנוסעים בכוונה לצאת מישראל כנוסע בטיסה בין־לאומית;</p>
+                    </content>
+                  </point>
+                  <point eId="point_1__point_א__point_נוסע_נכנס">
+                    <content>
+                      <p>
+                        <def />”נוסע נכנס“ – מי שנכנס לישראל כנוסע בטיסה בין־לאומית;</p>
+                    </content>
+                  </point>
+                  <point eId="point_1__point_א__point_ניהול_סיכונים">
+                    <content>
+                      <p>
+                        <def />”ניהול סיכונים“ – ניהול סיכוני בטיחות כמשמעותו <ref href="/akn/il/act/SecondaryLegislation/2017-12-28/100041398#chp_ג">בפרק ג׳ לתקנות מערכת ניהול בטיחות</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_1__point_א__point_הפרוטוקול_האירופי_לשמירה_על_בריאות_בתעופה">
+                    <content>
+                      <p>
+                        <def />”הפרוטוקול האירופי לשמירה על בריאות בתעופה“ – <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/https_www_easa_europa_eu_sites_default_files_dfu_EASA_ECDC_COVID_19_Operational_20guidelines_20for_20management_20of_20passengers_v2_pdf">פרוטוקול לשמירה על בריאות בתעופה בשל נגיף הקורונה (COVID-19 Aviation Health Safety Protocol), מהדורה מס׳ 2 מיום ח׳ בתמוז התש"ף (30 ביוני 2020)</ref>, שפרסמו הסוכנות האירופית לבטיחות התעופה והמרכז האירופי לבקרה ומניעת מחלות (ECDC – European Center for Disease Prevention and Control), המצוי לעיון הציבור באתר האינטרנט של משרד הבריאות ובאתר האינטרנט של רשות התעופה האזרחית;</p>
+                    </content>
+                  </point>
+                  <point eId="point_1__point_א__point_צו_בידוד_בית">
+                    <content>
+                      <p>
+                        <def />”צו בידוד בית“ – <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/צו_בריאות_העם_נגיף_הקורונה_החדש_בידוד_בית_והוראות_שונות_הוראת_שעה">צו בריאות העם (נגיף הקורונה החדש) (בידוד בית והוראות שונות) (הוראת שעה), התש"ף–2020</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_1__point_א__point_ציוד_מגן_אישי">
+                    <content>
+                      <p>
+                        <def />”ציוד מגן אישי“ – פרטי לבוש וציוד להגנה מפני הידבקות בנגיף הקורונה, כגון מסכת פנים, כפפות, חליפת מגן;</p>
+                    </content>
+                  </point>
+                  <point eId="point_1__point_א__point_קצין_ביקורת_גבולות">
+                    <content>
+                      <p>
+                        <def />”קצין ביקורת גבולות“ – <wikicomment font-size="x-small">(נמחקה);</wikicomment></p>
+                    </content>
+                  </point>
+                  <point eId="point_1__point_א__point_קרבה_מותרת">
+                    <list>
+                      <intro>
+                        <p>
+                          <def />”קרבה מותרת“ – יחס בין שני בני אדם שהוא אחד מאלה:</p>
+                      </intro>
+                      <point eId="point_1__point_א__point_קרבה_מותרת__point_1">
+                        <num>(1)</num>
+                        <content>
+                          <p>הם אנשים הגרים באותו מקום, כהגדרתם <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/תקנות_סמכויות_מיוחדות_להתמודדות_עם_נגיף_הקורונה_החדש_הוראת_שעה_הגבלת_פעילות_והוראות_נוספות">בתקנות הגבלת הפעילות</ref>, ובכלל זה הם עתידים להיות אנשים כאמור במדינת היעד;</p>
+                        </content>
+                      </point>
+                      <point eId="point_1__point_א__point_קרבה_מותרת__point_2">
+                        <num>(2)</num>
+                        <content>
+                          <p>אחד מהם הוא קטין או אדם עם מוגבלות ואחד מהם מלווה את הקטין או מסייע לאדם בשל מוגבלותו, לפי העניין;</p>
+                        </content>
+                      </point>
+                    </list>
+                  </point>
+                  <point eId="point_1__point_א__point_שדה_תעופה_בין־לאומי">
+                    <content>
+                      <p>
+                        <def />”שדה תעופה בין־לאומי“ – שדה תעופה שנקבע כתחנת גבול לפי <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/צו_הכניסה_לישראל_תחנות_גבול">צו הכניסה לישראל (תחנות גבול), התשמ"ז–1987</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_1__point_א__point_תושב_ישראל">
+                    <content>
+                      <p>
+                        <def />”תושב ישראל“ – מי שרשום במרשם האוכלוסין כמשמעותו <ref href="/akn/il/act/PrimaryLegislation/1965-08-01/147973">בחוק מרשם האוכלוסין, התשכ"ה–1965</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_1__point_א__point_תסמינים">
+                    <list>
+                      <intro>
+                        <p>
+                          <def />”תסמינים“ – כל אחד מאלה:</p>
+                      </intro>
+                      <point eId="point_1__point_א__point_תסמינים__point_1">
+                        <num>(1)</num>
+                        <content>
+                          <p>חום גוף של 38 מעלות צלזיוס או יותר;</p>
+                        </content>
+                      </point>
+                      <point eId="point_1__point_א__point_תסמינים__point_2">
+                        <num>(2)</num>
+                        <content>
+                          <p>שיעול או קושי בנשימה או תסמין נשימתי חד אחר, למעט שיעול או קושי בנשימה הנובע ממצב כרוני כגון אסתמה או אלרגיה; לעניין זה נזלת בלבד לא תיחשב תסמין;</p>
+                        </content>
+                      </point>
+                      <point eId="point_1__point_א__point_תסמינים__point_3">
+                        <num>(3)</num>
+                        <content>
+                          <p>שינוי בחוש הטעם או בחוש הריח;</p>
+                        </content>
+                      </point>
+                    </list>
+                  </point>
+                  <point eId="point_1__point_א__point_תקנות_הגבלת_הפעילות">
+                    <content>
+                      <p>
+                        <def />”תקנות הגבלת הפעילות“ – <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/תקנות_סמכויות_מיוחדות_להתמודדות_עם_נגיף_הקורונה_החדש_הוראת_שעה_הגבלת_פעילות_והוראות_נוספות">תקנות סמכויות מיוחדות להתמודדות עם נגיף הקורונה החדש (הוראת שעה) (הגבלת פעילות), התש"ף–2020</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_1__point_א__point_תקנות_ההפעלה">
+                    <content>
+                      <p>
+                        <def />”תקנות ההפעלה“ – <ref href="/akn/il/act/SecondaryLegislation/1981-10-01/100013650">תקנות הטיס (הפעלת כלי טיס וכללי טיסה), התשמ"ב–1981</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_1__point_א__point_תקנות_מערכת_ניהול_בטיחות">
+                    <content>
+                      <p>
+                        <def />”תקנות מערכת ניהול בטיחות“ – <ref href="/akn/il/act/SecondaryLegislation/2017-12-28/100041398">תקנות הטיס (מערכת ניהול בטיחות), התשע"ח–2017</ref>.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_1__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>בכל מקום בתקנות אלה שהוטלה בו חובה על אדם לעטות מסכה לפי <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/צו_בריאות_העם_נגיף_הקורונה_החדש_בידוד_בית_והוראות_שונות_הוראת_שעה#point_3ה">סעיף 3ה לצו בידוד בית</ref>, אותו אדם לא יהיה חייב בעטיית מסכה אם הוא אינו חייב בכך מכוח <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/צו_בריאות_העם_נגיף_הקורונה_החדש_בידוד_בית_והוראות_שונות_הוראת_שעה#point_3ה">הסעיף האמור</ref>.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+        </list>
+      </chapter>
+      <chapter eId="chp_ב">
+        <num>פרק ב׳:</num>
+        <title>
+          <content>
+            <p>טרמינל הנוסעים</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_2">
+            <heading>
+              <authorialNote placement="side">
+                <p>אחריות מפעיל שדה תעופה – כללי</p>
+              </authorialNote>
+            </heading>
+            <num>2.</num>
+            <list>
+              <intro>
+                <p>מפעיל שדה תעופה בין־לאומי –</p>
+              </intro>
+              <point eId="point_2__point_1">
+                <num>(1)</num>
+                <content>
+                  <p>ימנה מבין עובדיו עובד שיהיה אחראי על ביצוע הפעולות המפורטות בתקנות אלה;</p>
+                </content>
+              </point>
+              <point eId="point_2__point_2">
+                <num>(2)</num>
+                <list>
+                  <intro>
+                    <p>יסדיר ויישם נוהלי עבודה ושיטות עבודה לשם עמידה בחובותיו לפי תקנות אלה; נןהלי עבודה ושיטות עבודה כאמור יהיו –</p>
+                  </intro>
+                  <point eId="point_2__point_2__point_א">
+                    <num>(א)</num>
+                    <content>
+                      <p>בשים לב לזכויות ולצרכים של אנשים עם צרכים מיוחדים, ובכלל זה אנשים עם מוגבלות, ובהתייעצות עם מורשה לנגישות השירות כמשמעותו <ref href="/akn/il/act/PrimaryLegislation/1998-03-05/165017#point_19מא1">בסעיף 19מא1 לחוק השוויון</ref>, וכן בשים לב לזכויות ולצרכים של קטינים;</p>
+                    </content>
+                  </point>
+                  <point eId="point_2__point_2__point_ב">
+                    <num>(ב)</num>
+                    <content>
+                      <p>ככל האפשר, בשים לב להנחיות האירופיות;</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_2__point_3">
+                <num>(3)</num>
+                <content>
+                  <p>יספק, או יבטיח כי יסופק, למועסקים מטעמו בבידוק בטחוני או בתפקיד אחר המחייב קרבה לנוסע, ציוד מגן אישי הנדרש לשם ביצוע תפקידיהם תוך מזעור חשיפתם להידבקות בנגיף הקורונה, וידריכם לגבי השימוש בו;</p>
+                </content>
+              </point>
+              <point eId="point_2__point_4">
+                <num>(4)</num>
+                <content>
+                  <p>ידריך את מי שהוא מעסיק מטעמו בבידוק ביטחוני, וביישום <ref href="#point_6">תקנות 6</ref><ref href="#point_9">ו־9</ref>, בדבר תקנות אלה ואופן יישומן כאמור בפסקה (2), כעדכונן מזמן לזמן; הדרכה כאמור תכלול הסבר על זכויותיהם וצורכיהם של אנשים עם מוגבלות בכל הקשור לתקנות אלה ולהוראות נוספות הנוגעות להתמודדות עם נגיף הקורונה, ובכלל זה לגבי סוגים שונים של מוגבלויות, כיצד הם עשויים לבוא לידי ביטוי בעת עריכת הבידוק הביטחוני או מתן השירות, ומה הוא המענה הנדרש לכך בעת עריכת הבידוק הביטחוני או מתן השירות;</p>
+                </content>
+              </point>
+              <point eId="point_2__point_5">
+                <num>(5)</num>
+                <content>
+                  <p>יגיש למנהל רשות התעופה האזרחית הצהרה חתומה בנוסח הערוך לפי <ref href="#appendix_1_part_א">חלק א׳ לתוספת הראשונה</ref>, ולפיה הוא מקיים את האמור <ref href="#chp_ב">בפרק זה</ref>.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_3">
+            <heading>
+              <authorialNote placement="side">
+                <p>שינויים ביישום חובות לפי תקנות הגבלת הפעילות</p>
+              </authorialNote>
+            </heading>
+            <num>3.</num>
+            <list>
+              <intro>
+                <p>לעניין הפעלת שדה תעופה בין־לאומי, יחולו על מפעיל שדה התעופה <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/תקנות_סמכויות_מיוחדות_להתמודדות_עם_נגיף_הקורונה_החדש_הוראת_שעה_הגבלת_פעילות_והוראות_נוספות">תקנות הגבלת הפעילות</ref> בשינויים אלה:</p>
+              </intro>
+              <point eId="point_3__point_1">
+                <num>(1)</num>
+                <content>
+                  <p>
+                    <wikicomment font-size="x-small">(נמחקה);</wikicomment>
+                  </p>
+                </content>
+              </point>
+              <point eId="point_3__point_2">
+                <num>(2)</num>
+                <list>
+                  <intro>
+                    <p>לעניין חובתו לפי <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/תקנות_סמכויות_מיוחדות_להתמודדות_עם_נגיף_הקורונה_החדש_הוראת_שעה_הגבלת_פעילות_והוראות_נוספות#point_8">תקנה 7(4)(ב) לתקנות הגבלת הפעילות</ref>, האמור בה יחול בשינויים אלה:</p>
+                  </intro>
+                  <point eId="point_3__point_2__point_א">
+                    <num>(א)</num>
+                    <content>
+                      <p>המלים ”ככל האפשר“ – לא ייקראו;</p>
+                    </content>
+                  </point>
+                  <point eId="point_3__point_2__point_ב">
+                    <num>(ב)</num>
+                    <content>
+                      <p>על אף האמור <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/צו_בריאות_העם_נגיף_הקורונה_החדש_בידוד_בית_והוראות_שונות_הוראת_שעה">בצו בידוד בית</ref>, נוסע יוצא שחום גופו 38 מעלות צלזיוס או יותר, רשאי לבקש כי תיערך לו מדידת חום נוספת, שתיערך בלא דיחוי בסמוך לכניסה לטרמינל הנוסעים במקום מבודד;</p>
+                    </content>
+                  </point>
+                  <point eId="point_3__point_2__point_ג">
+                    <num>(ג)</num>
+                    <content>
+                      <p>נמצא בבדיקה הנוספת כי חום גופו של הנוסע הוא 38 מעלות או יותר – לא תותר כניסתו לטרמינל הנוסעים;</p>
+                    </content>
+                  </point>
+                  <point eId="point_3__point_2__point_ד">
+                    <num>(ד)</num>
+                    <content>
+                      <p>נמדד חום גופו של נוסע נכנס ונמצא כי הוא 38 מעלות צלזיוס או יותר, יתיר לו מפעיל שדה התעופה להיכנס לטרמינל לשם קבלת טיפול רפואי או לשם יציאתו כדין מן הטרמינל בלבד; מפעיל שדה התעופה יבטיח, ככל האפשר, כי מעבר הנוסע כאמור בטרמינל הנוסעים יבוצע באופן המצמצם את הסיכון להדבקה בנגיף הקורונה;</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_3__point_3">
+                <num>(3)</num>
+                <content>
+                  <p>על אף האמור <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/תקנות_סמכויות_מיוחדות_להתמודדות_עם_נגיף_הקורונה_החדש_הוראת_שעה_הגבלת_פעילות_והוראות_נוספות#point_7">בתקנה 9(ב)(1) לתקנות הגבלת הפעילות</ref>, המנהל רשאי להתיר למפעיל שדה תעופה להציב שולחנות וכיסאות במתחם אכילה משותף בשדה תעופה, ולאפשר ישיבה לצורך אכילה בו, בתנאים שיורה עליהם לשם צמצום הסיכון להידבקות בנגיף הקורונה, לעניין מיקומם ומספרם של השולחנות והכיסאות והמרחק ביניהם, ולעניין הניקיון וההיגיינה במתחם זה.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_4">
+            <heading>
+              <authorialNote placement="side">
+                <p>מעבר נוסעים בין טרמינל הנוסעים לבין כלי הטיס</p>
+              </authorialNote>
+            </heading>
+            <num>4.</num>
+            <list>
+              <point eId="point_4__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>מפעיל שדה התעופה יארגן את מעבר הנוסעים בין טרמינל הנוסעים לכלי הטיס ובין כלי הטיס לטרמינל הנוסעים, ככל האפשר, באמצעות גשר הליכה נייד (שרוול).</p>
+                </content>
+              </point>
+              <point eId="point_4__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>בוצע מעבר הנוסעים בין טרמינל הנוסעים לכלי הטיס או בין כלי הטיס לטרמינל הנוסעים באמצעות אוטובוס, מספר הנוסעים באוטובוס לא יעלה על מחצית מקיבולת הנוסעים המרבית המותרת לפי הוראות יצרן האוטובוס.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_5">
+            <heading>
+              <authorialNote placement="side">
+                <p>חובת מפעיל שדה תעופה על יידוע הנוסעים</p>
+              </authorialNote>
+            </heading>
+            <num>5.</num>
+            <list>
+              <intro>
+                <p>מפעיל שדה התעופה יביא לידיעת ציבור הנוסעים את <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/תקנות_סמכויות_מיוחדות_להתמודדות_עם_נגיף_הקורונה_החדש_הוראת_שעה_הגבלת_פעילות_והוראות_נוספות">תקנות הגבלת הפעילות</ref> ותקנות אלה הנוגעות למגבלות הכניסה לטרמינל הנוסעים, לדרישות מהנוסע, אופן יישומן, והעונש על הפרתן, וכן פעולות מומלצות לציבור הנוסעים לשם צמצום הסיכון להידבקות בנגיף הקורונה בעת השהייה בשדה התעופה, והכול באמצעות שילוט ועלוני מידע מתאימים; שילוט ועלוני מידע כאמור –</p>
+              </intro>
+              <point eId="point_5__point_1">
+                <num>(1)</num>
+                <content>
+                  <p>יהיו בשפות עברית, ערבית ואנגלית;</p>
+                </content>
+              </point>
+              <point eId="point_5__point_2">
+                <num>(2)</num>
+                <content>
+                  <p>יהיו נגישים לאנשים עם מוגבלות לפי ת"י 1918 חלק 4;</p>
+                </content>
+              </point>
+              <point eId="point_5__point_2א">
+                <num>(2א)</num>
+                <content>
+                  <p>לעניין שילוט – הוא יוצב בכניסה לטרמינל הנוסעים וכן ברחבי הטרמינל;</p>
+                </content>
+              </point>
+              <point eId="point_5__point_3">
+                <num>(3)</num>
+                <content>
+                  <p>לעניין עלוני המידע – הם יהיו זמינים ברחבי טרמינל הנוסעים ויימסרו לבקשת אנשים עם מוגבלויות באופן שיבטיח להם נגישות למידע ולקבלת השירות, לרבות באמצעות פישוט לשוני, סמלול ועיצוב ברור, לפי אופי המידע.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_6">
+            <heading>
+              <authorialNote placement="side">
+                <p>הגבלות על כניסה לטרמינל הנוסעים</p>
+              </authorialNote>
+            </heading>
+            <num>6.</num>
+            <list>
+              <point eId="point_6__point_א">
+                <num>(א)</num>
+                <list>
+                  <intro>
+                    <p>מפעיל שדה התעופה יסדיר ויפעיל מנגנון למניעת כניסת אדם לטרמינל הנוסעים, אלא אם כן התקיים בו אחד מאלה:</p>
+                  </intro>
+                  <point eId="point_6__point_א__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>הכניסה היא למטרות עיסוקו של האדם;</p>
+                    </content>
+                  </point>
+                  <point eId="point_6__point_א__point_2">
+                    <num>(2)</num>
+                    <list>
+                      <intro>
+                        <p>הוא נוסע יוצא –</p>
+                      </intro>
+                      <point eId="point_6__point_א__point_2__point_א">
+                        <num>(א)</num>
+                        <list>
+                          <intro>
+                            <p>שהציג את שני אלה:</p>
+                          </intro>
+                          <point eId="point_6__point_א__point_2__point_א__point_1">
+                            <num>(1)</num>
+                            <list>
+                              <intro>
+                                <p>
+                                  <wikicomment font-size="x-small">(הנוסח הקבוע):</wikicomment> כרטיס טיסה לטיסה שמועד המראתה בתוך 4 שעות ממועד כניסתו לטרמינל הנוסעים כאמור;<br space="preserve"></br><wikicomment font-size="x-small">(הוראת שעה מיום 14.1.2021 עד ליום 21.1.2021):</wikicomment> כרטיס טיסה לטיסה שמועד המראתה בתוך 4 שעות ממועד כניסתו לטרמינל הנוסעים כאמור וכן אחד מאלה:</p>
+                              </intro>
+                              <point eId="point_6__point_א__point_2__point_א__point_1__point_א">
+                                <num>(א)</num>
+                                <content>
+                                  <p>אישור בכתב על רכישת כרטיס הטיסה עד יום כ"ג בטבת התשפ"א (7 בינואר 2021);</p>
+                                </content>
+                              </point>
+                              <point eId="point_6__point_א__point_2__point_א__point_1__point_ב">
+                                <num>(ב)</num>
+                                <content>
+                                  <p>אישור בכתב מאת המנהל הכללי של משרד התחבורה והבטיחות בדרכים, כאמור <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/תקנות_סמכויות_מיוחדות_להתמודדות_עם_נגיף_הקורונה_החדש_הוראת_שעה_הגבלת_פעילות_והוראות_נוספות#point_2">בתקנה 2(17)(ב) לתקנות הגבלת הפעילות</ref>, כנוסחה בתקנה 5(2) לתקנות הידוק הגבלות;</p>
+                                </content>
+                              </point>
+                              <point eId="point_6__point_א__point_2__point_א__point_1__point_ג">
+                                <num>(ג)</num>
+                                <content>
+                                  <p>הצהרה חתומה בידו, הכוללת את הפרטים כאמור <ref href="#appendix_4">בתוספת הרביעית</ref>, כי יצא ממקום המגורים או ממקום שהייה קבוע אחר לשדה התעופה למטרה או לפעולה שפורטה <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/תקנות_סמכויות_מיוחדות_להתמודדות_עם_נגיף_הקורונה_החדש_הוראת_שעה_הגבלת_פעילות_והוראות_נוספות#point_2">בתקנה 2(17)(א)(1) לתקנות הגבלת הפעילות</ref> כנוסחה בתקנה 5(2) לתקנות הידוק הגבלות; מפעיל שדה התעופה יעמיד לשימוש הנוסעים, בכניסה לטרמינל הנוסעים, טפסים למתן הצהרה כאמור;</p>
+                                </content>
+                              </point>
+                              <point eId="point_6__point_א__point_2__point_א__point_1__point_ד">
+                                <num>(ד)</num>
+                                <content>
+                                  <p>דרכון חוץ דיפלומטי, דרכון שירות חוץ, דרכון של מדינת חוץ ובו אשרה דיפלומטית או אשרת שירות, תעודת מסע של ארגון האומות המאוחדות ובה אשרה דיפלומטית או אשרת שירות, או דרכון של מדינת חוץ ותעודה מאת משרד החוץ המעידה על כך שנושא הדרכון רשום במשרד החוץ כאיש סגל דיפלומטי או קונסולרי או כבעל תפקיד בארגון בין־לאומי כהגדרתו <ref href="/akn/il/act/PrimaryLegislation/2006-11-19/127877">בחוק חסינויות וזכויות יתר (ארגונים בין־לאומיים ומשלחות מיוחדות), התשמ"ג–1983</ref>; לעניין פסקת משנה זו, ”אשרה דיפלומטית“, ”אשרת שירות חוץ“, ”דרכון חוץ דיפלומטי“ ו”דרכון שירות חוץ“ – כמשמעותם <ref href="/akn/il/act/PrimaryLegislation/1952-09-05/174477#point_17">בסעיף 17 לחוק הכניסה לישראל, התשי"ב–1952</ref>;</p>
+                                </content>
+                              </point>
+                            </list>
+                          </point>
+                          <point eId="point_6__point_א__point_2__point_א__point_2">
+                            <num>(2)</num>
+                            <content>
+                              <p>אישור כי הגיש למשרד הבריאות הצהרת בריאות כאמור <ref href="#point_30">בתקנה 30</ref>;</p>
+                            </content>
+                          </point>
+                        </list>
+                      </point>
+                      <point eId="point_6__point_א__point_2__point_ב">
+                        <num>(ב)</num>
+                        <content>
+                          <p>חום גופו בבדיקה שנערכה לפי <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/תקנות_סמכויות_מיוחדות_להתמודדות_עם_נגיף_הקורונה_החדש_הוראת_שעה_הגבלת_פעילות_והוראות_נוספות#point_8">תקנה 7(4)(ב) לתקנות הגבלת הפעילות</ref> אינו 38 מעלות צלזיוס או יותר;<br space="preserve"></br><wikicomment font-size="x-small">(הוראת שעה מיום 14.1.2021 עד ליום 21.1.2021):</wikicomment> חום גופו בבדיקה שנערכה לפי <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/תקנות_סמכויות_מיוחדות_להתמודדות_עם_נגיף_הקורונה_החדש_הוראת_שעה_הגבלת_פעילות_והוראות_נוספות#point_8">תקנה 8(4)(ב) לתקנות הגבלת הפעילות</ref> אינו 38 מעלות צלזיוס או יותר;</p>
+                        </content>
+                      </point>
+                    </list>
+                  </point>
+                  <point eId="point_6__point_א__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>הוא נוסע נכנס;</p>
+                    </content>
+                  </point>
+                  <point eId="point_6__point_א__point_4">
+                    <num>(4)</num>
+                    <content>
+                      <p>הוא נוסע בטיסה פנים־ארצית, שהציג כרטיס טיסה לטיסה שמועד המראתה בתוך שעתיים ממועד כניסתו לטרמינל הנוסעים כאמור;</p>
+                    </content>
+                  </point>
+                  <point eId="point_6__point_א__point_5">
+                    <num>(5)</num>
+                    <content>
+                      <p>הוא מלווה של נוסע שהוא קטין או של אדם עם מוגבלות או עם צרכים מיוחדים אחרים, הנזקק לליווי לשם השלמת תהליכי הבידוק והעלייה לכלי הטיס.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_6__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>לא ייכנס אדם לטרמינל הנוסעים, אלא אם כן התקיים בו תנאי מהתנאים האמורים בתקנת משנה (א), ומפעיל שדה התעופה התיר את כניסתו לטרמינל הנוסעים לפי תקנת המשנה האמורה.</p>
+                </content>
+              </point>
+              <point eId="point_6__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>מפעיל שדה התעופה רשאי לדרוש מכל נוסע או מלווה של נוסע שכניסתו לטרמינל הנוסעים הותרה לפי תקנת משנה (א), לענוד במקום גלוי על בגדיו תג המעיד על כך שכניסתו לטרמינל הנוסעים הותרה, אם הדבר נדרש לשם הבטחת קיום תקנה זו; תג כאמור לא יכלול פרטים מזהים של נוסע או מלווה כאמור.</p>
+                </content>
+              </point>
+              <point eId="point_6__point_ד">
+                <num>(ד)</num>
+                <content>
+                  <p>מפעיל שדה התעופה יקיים בכניסה לטרמינל הנוסעים עמדה לסיוע לנוסע שמסירת הצהרת בריאות אינה זמינה לו, או אינה אפשרית לו, בין השאר מחמת מוגבלותו; בעמדה לסיוע יינתן לנוסע סיוע במילוי ההצהרה המקוונת והנפקת האישור על כך.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_7">
+            <heading>
+              <authorialNote placement="side">
+                <p>חובות נוסע למסירת פרטים אישיים ופרטים הנחוצים לאיתורו</p>
+              </authorialNote>
+            </heading>
+            <num>7.</num>
+            <list>
+              <point eId="point_7__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>נוסע בטיסה בין־לאומית ימסור ב־24 השעות שלפני מועד ההמראה הנקוב בכרטיס הטיסה ולפני העלייה לכלי הטיס, פרטים אישיים ופרטים הנחוצים לאיתורו כמפורט <ref href="#appendix_2_part_א">בחלק א׳ לתוספת השנייה</ref>, באופן מקוון באתר האינטרנט של משרד הבריאות.</p>
+                </content>
+              </point>
+              <point eId="point_7__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>נוסף על האמור בתקנת משנה (א), נוסע נכנס שאינו תושב ישראל, ימסור פרטים נוספים הנחוצים לאיתורו כמפורט <ref href="#appendix_2_part_ב">בחלק ב׳ לתוספת השנייה</ref>, באופן מקוון באתר האינטרנט של משרד הבריאות.</p>
+                </content>
+              </point>
+              <point eId="point_7__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>לעניין קטין שהוא נוסע נכנס כאמור בתקנת משנה (א) או (ב) – האחראי על אותו קטין באותה טיסה רשאי למסור את המידע כאמור על אותו קטין.</p>
+                </content>
+              </point>
+              <point eId="point_7__point_ד">
+                <num>(ד)</num>
+                <list>
+                  <intro>
+                    <p>מידע שהתקבל לפי תקנות משנה (א) עד (ג) –</p>
+                  </intro>
+                  <point eId="point_7__point_ד__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>יישמר במשרד הבריאות בנפרד מכל מידע אחר, וישמש לצורך עריכת חקירה אפידמיולוגית ולמטרה זו בלבד;</p>
+                    </content>
+                  </point>
+                  <point eId="point_7__point_ד__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>יימחק כעבור 20 ימים מיום מסירתו; על אף האמור, מידע כאמור על נוסע נכנס שאינו תושב ישראל יימחק כעבור חצי שנה מיום מסירתו.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_7__point_ה">
+                <num>(ה)</num>
+                <content>
+                  <p>נוסע נכנס שאינו תושב ישראל, יציג לקצין ביקורת גבולות אישור כי מסר למשרד הבריאות פרטים כנדרש בתקנה זו וכן הצהרת בריאות כאמור <ref href="#point_30">בתקנה 30</ref>; לעניין זה, ”קצין ביקורת גבולות“ – מי שמונה לכך לפי <ref href="/akn/il/act/PrimaryLegislation/1952-09-05/174477#point_15">סעיף 15(ב) לחוק הכניסה לישראל, התשי"ב–1952</ref>.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_8">
+            <heading>
+              <authorialNote placement="side">
+                <p>חובת השוהים בטרמינל הנוסעים</p>
+              </authorialNote>
+            </heading>
+            <num>8.</num>
+            <list>
+              <intro>
+                <p>כל השוהה בטרמינל הנוסעים –</p>
+              </intro>
+              <point eId="point_8__point_1">
+                <num>(1)</num>
+                <content>
+                  <p>יענוד באופן גלוי תג המעיד כי כניסתו לטרמינל הנוסעים הותרה כאמור <ref href="#point_6">בתקנה 6(ג)</ref>, אם נדרש לכך לפי <ref href="#point_6">אותה תקנה</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_8__point_2">
+                <num>(2)</num>
+                <content>
+                  <p>יעטה מסכה לפי <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/צו_בריאות_העם_נגיף_הקורונה_החדש_בידוד_בית_והוראות_שונות_הוראת_שעה#point_3ה">סעיף 3ה לצו בידוד בית</ref>, אלא אם כן הוא נדרש להסיר את המסכה לצורך תהליכי בידוק לנוסעים;</p>
+                </content>
+              </point>
+              <point eId="point_8__point_3">
+                <num>(3)</num>
+                <content>
+                  <p>יקפיד, ככל האפשר, על שמירת מרחק של 2 מטרים לפחות בינו לבין כל אדם אחר שאין לו עמו קרבה מותרת, לרבות בתורים.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_9">
+            <heading>
+              <authorialNote placement="side">
+                <p>נוסע שחש בתסמינים בטרמינל הנוסעים</p>
+              </authorialNote>
+            </heading>
+            <num>9.</num>
+            <content>
+              <p>נוסע שחש בתסמינים בעת שהותו בטרמינל הנוסעים ולפני עלייתו לכלי הטיס יפנה לאלתר לנציג של מפעיל שדה התעופה; נציג כאמור יעניק לאותו נוסע סיוע והכוונה ככל הנדרש לשם הבטחת הגעתו המהירה לגורמי הבריאות בשדה התעופה, ויודיע על כך לאלתר למפעיל האווירי.</p>
+            </content>
+          </point>
+        </list>
+      </chapter>
+      <chapter eId="chp_ג">
+        <num>פרק ג׳:</num>
+        <title>
+          <content>
+            <p>כלי הטיס</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_10">
+            <heading>
+              <authorialNote placement="side">
+                <p>תחולה על מפעיל אווירי</p>
+              </authorialNote>
+            </heading>
+            <num>10.</num>
+            <list>
+              <point eId="point_10__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>
+                    <ref href="#chp_ג">פרק זה</ref> יחול על מפעיל אווירי המפעיל טיסה מסחרית להולכת נוסעים מישראל אליה או בשטחה, בכפוף לאמור בתקנת משנה (ב).</p>
+                </content>
+              </point>
+              <point eId="point_10__point_ב">
+                <num>(ב)</num>
+                <list>
+                  <intro>
+                    <p>על אף האמור בתקנת משנה (א), לעניין מפעיל אווירי כאמור, המפעיל כלי טיס שמספר מושבי הנוסעים בו אינו עולה על 30 –</p>
+                  </intro>
+                  <point eId="point_10__point_ב__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>
+                        <ref href="#point_18">תקנות 18</ref>, <ref href="#point_27">27(א)(3) ו־(4), ו־(ג)</ref><ref href="#point_28">ו־28(א)(2)</ref> – לא יחולו;</p>
+                    </content>
+                  </point>
+                  <point eId="point_10__point_ב__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>התדרוך הנדרש לפי <ref href="#point_24">תקנה 24(ב)</ref> יכול שייעשה בעל פה.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+            </list>
+          </point>
+          <point eId="point_11">
+            <heading>
+              <authorialNote placement="side">
+                <p>אחריות מפעיל אווירי – כללי</p>
+              </authorialNote>
+            </heading>
+            <num>11.</num>
+            <list>
+              <intro>
+                <p>מפעיל אווירי –</p>
+              </intro>
+              <point eId="point_11__point_1">
+                <num>(1)</num>
+                <content>
+                  <p>ימנה מבין עובדיו עובד שיהיה אחראי על ביצוע הפעולות המפורטות בתקנות אלה;</p>
+                </content>
+              </point>
+              <point eId="point_11__point_2">
+                <num>(2)</num>
+                <list>
+                  <intro>
+                    <p>יסדיר ויישם נוהלי עבודה ושיטות עבודה לשם עמידה בחובותיו לפי תקנות אלה; נוהלי עבודה ושיטות עבודה כאמור יהיו –</p>
+                  </intro>
+                  <point eId="point_11__point_2__point_א">
+                    <num>(א)</num>
+                    <content>
+                      <p>בשים לב לזכויות ולצרכים של אנשים עם צרכים מיוחדים, ובכלל זה אנשים עם מוגבלות, ובהתייעצות עם מורשה לנגישות השירות כמשמעותו <ref href="/akn/il/act/PrimaryLegislation/1998-03-05/165017#point_19מא1">בסעיף 19מא1 לחוק השוויון</ref>, וכן בשים לב לזכויות ולצרכים של קטינים;</p>
+                    </content>
+                  </point>
+                  <point eId="point_11__point_2__point_ב">
+                    <num>(ב)</num>
+                    <content>
+                      <p>ככל האפשר, בשים לב להנחיות האירופיות;</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_11__point_3">
+                <num>(3)</num>
+                <content>
+                  <p>יספק לאנשי הצוות ציוד מגן אישי הנדרש לשם ביצוע תפקידיהם תוך מזעור חשיפתם להידבקות בנגיף הקורונה, וידריכם לגבי השימוש בו;</p>
+                </content>
+              </point>
+              <point eId="point_11__point_4">
+                <num>(4)</num>
+                <content>
+                  <p>ידריך את מי שהוא מעסיק או שמועסק מטעמו בהפעלת הטיסות ומתן שירות לנוסע, בדבר תקנות אלה ואופן יישומן כאמור בפסקה (2), כעדכונם מזמן לזמן; הדרכה כאמור תכלול הסבר על זכויותיהם וצורכיהם של אנשים עם מוגבלות, בכל הקשור לתקנות אלה ולהוראות נוספות הנוגעות להתמודדות עם נגיף הקורונה החדש, ובכלל זה לגבי סוגים שונים של מוגבלויות, כיצד הם עשויים לבוא לידי ביטוי בעת קבלת השירות, ומה הוא המענה הנדרש לכך בעת מתן השירות;</p>
+                </content>
+              </point>
+              <point eId="point_11__point_5">
+                <num>(5)</num>
+                <content>
+                  <p>יגיש למנהל רשות התעופה האזרחית הצהרה חתומה בנוסח הערוך לפי <ref href="#appendix_1_part_ב">חלק ב׳ לתוספת הראשונה</ref>, ולפיה הוא מקיים את האמור בתקנות אלה.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_12">
+            <heading>
+              <authorialNote placement="side">
+                <p>מידע לרוכשי כרטיסי טיסה</p>
+              </authorialNote>
+            </heading>
+            <num>12.</num>
+            <content>
+              <p>בלי לגרוע מחובות גילוי לנוסע לפי כל דין, בטרם מכירת כרטיס טיסה, המפעיל האווירי יביא לידיעת רוכש כרטיס הטיסה כי הוא או כל אדם שבעבורו הוא רכש את כרטיס הטיסה לא יהיה רשאי לטוס אלא אם כן התקיימו לגביו דרישות <ref href="#point_30">תקנה 30</ref>.</p>
+            </content>
+          </point>
+          <point eId="point_13">
+            <heading>
+              <authorialNote placement="side">
+                <p>יידוע נוסעים לפני הגעתם לשדה התעופה</p>
+              </authorialNote>
+            </heading>
+            <num>13.</num>
+            <list>
+              <intro>
+                <p>מפעיל אווירי יעביר לנוסעים, בין 48 שעות ל־24 שעות לפני מועד ההמראה הנקוב בכרטיס הטיסה, מידע לגבי כל אלה:</p>
+              </intro>
+              <point eId="point_13__point_1">
+                <num>(1)</num>
+                <content>
+                  <p>כי נוסע לא יהיה רשאי לטוס אלא אם כן התקיימו לגביו דרישות <ref href="#point_30">תקנה 30</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_13__point_2">
+                <num>(2)</num>
+                <content>
+                  <p>כללי בריאות הציבור החלים בכניסה למדינת היעד וביציאה ממנה, כפי שמסר לו מפעיל שדה התעופה במדינת היעד, אם נמסר;</p>
+                </content>
+              </point>
+              <point eId="point_13__point_3">
+                <num>(3)</num>
+                <content>
+                  <p>משך תהליכי הבידוק הצפוי בשדה התעופה של ההמראה ושל הנחיתה, וכללי ההתנהגות בטרמינל הנוסעים, לרבות לגבי חובת ענידת תג מזהה אם חלה, חובת עטיית מסכות ושמירת מרחק, כפי שמסר לו מפעיל שדה התעופה, אם מסר;</p>
+                </content>
+              </point>
+              <point eId="point_13__point_4">
+                <num>(4)</num>
+                <list>
+                  <intro>
+                    <p>כללי ההתנהגות בכלי הטיס, ובכלל זה –</p>
+                  </intro>
+                  <point eId="point_13__point_4__point_א">
+                    <num>(א)</num>
+                    <content>
+                      <p>כללי העלייה לכלי הטיס והירידה ממנו שהוא הסדיר ויישם לפי <ref href="#point_20">תקנות 20</ref><ref href="#point_29">ו־29</ref> לפי העניין;</p>
+                    </content>
+                  </point>
+                  <point eId="point_13__point_4__point_ב">
+                    <num>(ב)</num>
+                    <content>
+                      <p>צמצום השירות בטיסה שהוא הסדיר ויישם לפי <ref href="#point_25">תקנה 25</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_13__point_4__point_ג">
+                    <num>(ג)</num>
+                    <content>
+                      <p>משך הזמן המרבי המומלץ לשימוש באותה מסכה במהלך הטיסה, נסיבות שבהן יש צורך להחליף מסכה, ואופן הטיפול במסכה משומשת;</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_13__point_5">
+                <num>(5)</num>
+                <content>
+                  <p>העונשים על הפרת תקנות אלה.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_14">
+            <heading>
+              <authorialNote placement="side">
+                <p>הגבלת גישה לכלי הטיס ובתוכו</p>
+              </authorialNote>
+            </heading>
+            <num>14.</num>
+            <list>
+              <intro>
+                <p>מפעיל אווירי יבטיח כי –</p>
+              </intro>
+              <point eId="point_14__point_1">
+                <num>(1)</num>
+                <content>
+                  <p>ספקי שירות לא ייכנסו לכלי הטיס, אלא אם כן כניסתם אליו חיונית לשם מתן השירות;</p>
+                </content>
+              </point>
+              <point eId="point_14__point_2">
+                <num>(2)</num>
+                <content>
+                  <p>לא תינתן גישה לתא הטייס, אלא לאיש צוות שנוכחותו בתא הטייס חיונית להפעלת כלי הטיס.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_15">
+            <heading>
+              <authorialNote placement="side">
+                <p>ניקיון וחיטוי של כלי הטיס</p>
+              </authorialNote>
+            </heading>
+            <num>15.</num>
+            <list>
+              <point eId="point_15__point_א">
+                <num>(א)</num>
+                <list>
+                  <intro>
+                    <p>מפעיל אווירי יסדיר ויישם תכנית ניקוי וחיטוי של כלי הטיס שהוא מפעיל הכוללת מועדי פעולות הניקוי והחיטוי, חומרי הניקוי והחיטוי, הפריטים שיש לנקות ולחטא, ואופן ביצוע פעולות הניקוי והחיטוי, ויבטיח כי כלי הטיס ינוקה ויחוטא –</p>
+                  </intro>
+                  <point eId="point_15__point_א__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>ניקוי וחיטוי מניעתי לפי תכנית הניקוי והחיטוי;</p>
+                    </content>
+                  </point>
+                  <point eId="point_15__point_א__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>ניקוי וחיטוי במהלך טיסה או אחרי נחיתה, בעקבות הימצאותו של חולה או אדם עם תסמינים בכלי הטיס.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_15__point_ב">
+                <num>(ב)</num>
+                <list>
+                  <intro>
+                    <p>ניקוי וחיטוי מניעתי לפי תקנת משנה (א)(1) יבוצע –</p>
+                  </intro>
+                  <point eId="point_15__point_ב__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>לפני כל טיסה ארוכת טווח, ובתום כל טיסה ארוכת טווח; לעניין זה, ”טיסה ארוכת טווח“ – טיסה של 6 שעות או יותר, כולל טיסה עם חניות ביניים, אם הנוסעים והכבודה אינם יורדים או מורדים מכלי הטיס במהלכן;</p>
+                    </content>
+                  </point>
+                  <point eId="point_15__point_ב__point_2">
+                    <num>(2)</num>
+                    <list>
+                      <intro>
+                        <p>כל 24 שעות לפחות, אלא אם כן –</p>
+                      </intro>
+                      <point eId="point_15__point_ב__point_2__point_א">
+                        <num>(א)</num>
+                        <content>
+                          <p>בהתאם לניהול סיכונים שביצע המפעיל האווירי לעניין זה, הלוקח בחשבון את מאפייני כלי הטיס והטיסה, ומשך הזמן של יעילות חומרי החיטוי, נמצא כי יש להגביר את תדירות פעולות הניקוי והחיטוי;</p>
+                        </content>
+                      </point>
+                      <point eId="point_15__point_ב__point_2__point_ב">
+                        <num>(ב)</num>
+                        <content>
+                          <p>לא נעשה שימוש בכלי הטיס להולכת נוסעים מזמן סיום פעילות הניקוי והחיטוי הקודמת.</p>
+                        </content>
+                      </point>
+                    </list>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_15__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>נוהלי המפעיל האווירי ליישום תקנה זו יהיו לפי המדריך האירופי לניקוי וחיטוי כלי טיס.</p>
+                </content>
+              </point>
+              <point eId="point_15__point_ד">
+                <num>(ד)</num>
+                <content>
+                  <p>מפעיל אווירי יתעד את פעולות הניקיון והחיטוי שבוצעו לפי תקנה זו בגיליון בנוסח הערוך לפי <ref href="#appendix_3">התוספת השלישית</ref>.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_16">
+            <heading>
+              <authorialNote placement="side">
+                <p>ציוד בכלי הטיס</p>
+              </authorialNote>
+            </heading>
+            <num>16.</num>
+            <list>
+              <intro>
+                <p>מפעיל אווירי יבטיח כי בטרם תחל טיסה כלי הטיס יהיה מצויד בכל אלה:</p>
+              </intro>
+              <point eId="point_16__point_1">
+                <num>(1)</num>
+                <content>
+                  <p>שקיות חד־פעמיות לאיסוף מסכות משומשות;</p>
+                </content>
+              </point>
+              <point eId="point_16__point_2">
+                <num>(2)</num>
+                <content>
+                  <p>מסכות שניתן לספק לנוסעים שאין להם מסכה תקינה לעשות בה שימוש במהלך הטיסה;</p>
+                </content>
+              </point>
+              <point eId="point_16__point_3">
+                <num>(3)</num>
+                <content>
+                  <p>חומרים לחיטוי ושמירה על היגיינה אישית לשימוש הנוסעים ואנשי הצוות; אין באמור כדי לגרוע מהוראות שנקבעו לפי <ref href="/akn/il/act/PrimaryLegislation/2011-04-13/336240#point_74">סעיף 74 לחוק הטיס</ref>.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_17">
+            <heading>
+              <authorialNote placement="side">
+                <p>ציוות אנשי הצוות לטיסה</p>
+              </authorialNote>
+            </heading>
+            <num>17.</num>
+            <list>
+              <point eId="point_17__point_א">
+                <num>(א)</num>
+                <list>
+                  <intro>
+                    <p>לא ישמש אדם בתפקיד איש צוות, אלא אם כן –</p>
+                  </intro>
+                  <point eId="point_17__point_א__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>הוא אינו חולה; לעניין זה מחלים לא ייחשב חולה;</p>
+                    </content>
+                  </point>
+                  <point eId="point_17__point_א__point_2">
+                    <num>(2)</num>
+                    <list>
+                      <intro>
+                        <p>ב־14 הימים שקדמו לטיסה התקיימו לגבי אותו אדם כל אלה:</p>
+                      </intro>
+                      <point eId="point_17__point_א__point_2__point_א">
+                        <num>(א)</num>
+                        <content>
+                          <p>לא היו לו תסמינים;</p>
+                        </content>
+                      </point>
+                      <point eId="point_17__point_א__point_2__point_ב">
+                        <num>(ב)</num>
+                        <content>
+                          <p>הוא לא בא במגע הדוק עם חולה;</p>
+                        </content>
+                      </point>
+                      <point eId="point_17__point_א__point_2__point_ג">
+                        <num>(ג)</num>
+                        <content>
+                          <p>הוא לא שהה באותו מקום מגורים עם אדם החייב בבידוד, ואם שהה כאמור – הוא נהג לפי המלצות משרד הבריאות לבידוד בית, שניתנו לפי <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/צו_בריאות_העם_נגיף_הקורונה_החדש_בידוד_בית_והוראות_שונות_הוראת_שעה#point_2">סעיף 2(ה) לצו בידוד בית</ref>;</p>
+                        </content>
+                      </point>
+                    </list>
+                  </point>
+                  <point eId="point_17__point_א__point_3">
+                    <num>(3)</num>
+                    <list>
+                      <intro>
+                        <p>בסמוך לפני העלייה לכלי הטיס, אותו אדם –</p>
+                      </intro>
+                      <point eId="point_17__point_א__point_3__point_א">
+                        <num>(א)</num>
+                        <content>
+                          <p>העביר למפעיל האווירי הצהרה המאשרת את קיום האמור בפסקאות (1) ו־(2);</p>
+                        </content>
+                      </point>
+                      <point eId="point_17__point_א__point_3__point_ב">
+                        <num>(ב)</num>
+                        <content>
+                          <p>נמדד חום גופו באמצעי שאינו פולשני, ונמצא כי חום גופו אינו 38 מעלות צלזיוס או יותר.</p>
+                        </content>
+                      </point>
+                    </list>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_17__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>מפעיל אווירי יסדיר ויפעיל מנגנון שיבטיח כי לא ישמש אדם בתפקיד איש צוות, אלא אם כן התקיימו הוראות תקנת משנה (א).</p>
+                </content>
+              </point>
+              <point eId="point_17__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>בכפוף למגבלות לעניין ציוות כלי הטיס שנקבעו לפי <ref href="/akn/il/act/PrimaryLegislation/2011-04-13/336240">חוק הטיס</ref>, המפעיל האווירי ייסד ויישם שיטה לציוות כלי הטיס, והיערכות מתאימה לטיפול במצב שבו איש צוות מגלה תסמינים או חולה; שיטה כאמור תהיה, ככל האפשר, בשים לב להנחיות לעניין זה במדריך האירופי לניהול אנשי צוות.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_18">
+            <heading>
+              <authorialNote placement="side">
+                <p>רישום נוסעים לטיסה</p>
+              </authorialNote>
+            </heading>
+            <num>18.</num>
+            <list>
+              <point eId="point_18__point_א">
+                <num>(א)</num>
+                <list>
+                  <intro>
+                    <p>מפעיל אווירי יפעיל בשדה התעופה דלפקים שיאפשרו לנוסעים לבצע רישום לטיסה (check-in) –</p>
+                  </intro>
+                  <point eId="point_18__point_א__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>לטיסה בין־לאומית – 4 שעות לפחות לפני מועד ההמראה המתוכנן;</p>
+                    </content>
+                  </point>
+                  <point eId="point_18__point_א__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>לטיסה פנים־ארצית – שעתיים לפחות לפני מועד ההמראה המתוכנן.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_18__point_א1">
+                <num>(א1)</num>
+                <list>
+                  <intro>
+                    <p>מספר הדלפקים כאמור בתקנת משנה (א) יהיה –</p>
+                  </intro>
+                  <point eId="point_18__point_א1__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>בטיסה בין־לאומית המתוכננת להתבצע באמצעות מטוס שמספר מושבי הנוסעים בו עד 200 מושבים – 8 דלפקים לפחות;</p>
+                    </content>
+                  </point>
+                  <point eId="point_18__point_א1__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>בטיסה בין־לאומית המתוכננת להתבצע באמצעות מטוס שמספר מושבי הנוסעים בו מעל 200 מושבים – 6 דלפקים לפחות;</p>
+                    </content>
+                  </point>
+                  <point eId="point_18__point_א1__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>בטיסה פנים־ארצית – 4 דלפקים לפחות.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_18__point_א2">
+                <num>(א2)</num>
+                <content>
+                  <p>על אף האמור בתקנות משנה (א) ו־(א1), מפעיל שדה התעופה רשאי לאשר למפעיל אווירי לפתוח דלפקים לרישום נוסעים לטיסה במועד מאוחר יותר מהאמור בתקנת משנה (א) או במספר נמוך מהאמור בתקנת משנה (א1), אם תפוסת הנוסעים בטיסה נמוכה; אישור כאמור יינתן בכתב, לא יאוחר מ־5 שעות לפני מועד ההמראה המתוכנן.</p>
+                </content>
+              </point>
+              <point eId="point_18__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>מפעיל אווירי יעודד את הנוסעים למזער את כמות הכבודה שהם נושאים עמם לתא הנוסעים.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_19">
+            <heading>
+              <authorialNote placement="side">
+                <p>הושבת הנוסעים</p>
+              </authorialNote>
+            </heading>
+            <num>19.</num>
+            <list>
+              <point eId="point_19__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>מפעיל אווירי ימסד ויישם שיטה לתכנון הושבת הנוסעים בכלי הטיס שתגדיל, ככל האפשר, את המרחק הפיזי בין נוסעים שאין ביניהם קרבה מותרת, ומנוסעים שלא חלה עליהם חובת עטיית מסכה לפי <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/צו_בריאות_העם_נגיף_הקורונה_החדש_בידוד_בית_והוראות_שונות_הוראת_שעה">צו בידוד בית</ref>, והכול בכפוף לשמירה על מגבלות מסה ואיזון ומגבלות הושבת נוסעים, לפי ספר העזר למבצעים שלו, ובהתחשב בצורכיהם של נוסעים עם מוגבלות.</p>
+                </content>
+              </point>
+              <point eId="point_19__point_ב">
+                <num>(ב)</num>
+                <list>
+                  <intro>
+                    <p>מפעיל אווירי –</p>
+                  </intro>
+                  <point eId="point_19__point_ב__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>ינהל, לגבי כל טיסה, רשימה של הנוסעים בטיסה, הכוללת את שם הנוסע, מספר הדרכון שלו והמושב שבו הושב באותה טיסה;</p>
+                    </content>
+                  </point>
+                  <point eId="point_19__point_ב__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>יעביר למנהל כל רשימה כאמור, לפי דרישתו, לשם עריכת חקירה אפידמיולוגית.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+            </list>
+          </point>
+          <point eId="point_20">
+            <heading>
+              <authorialNote placement="side">
+                <p>עליית נוסעים לכלי הטיס</p>
+              </authorialNote>
+            </heading>
+            <num>20.</num>
+            <list>
+              <point eId="point_20__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>מפעיל אווירי, בתיאום עם מפעיל שדה התעופה, יבטיח ככל האפשר, כי בתהליך עליית הנוסעים לכלי הטיס, החל מהתייצבות הנוסעים בשער היציאה (gate) מטרמינל הנוסעים לכלי הטיס עד להושבתם בו, תובטח שמירת מרחק של 2 מטרים לפחות בין נוסעים שאין ביניהם קרבה מותרת, ובין נוסעים לבין אנשי צוות; על אף האמור, הוראות אלה לא יחולו אם נעשה שימוש באוטובוס להובלת הנוסעים מטרמינל הנוסעים לכלי הטיס, ותחול <ref href="#point_4">תקנה 4</ref>.</p>
+                </content>
+              </point>
+              <point eId="point_20__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>נוסע לא יעלה לכלי הטיס אלא לפי הנחיות נציגי המפעיל האווירי שניתנו בהתאם לתקנה זו.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_21">
+            <heading>
+              <authorialNote placement="side">
+                <p>אוורור כלי טיס</p>
+              </authorialNote>
+            </heading>
+            <num>21.</num>
+            <list>
+              <point eId="point_21__point_א">
+                <num>(א)</num>
+                <list>
+                  <intro>
+                    <p>מפעיל אווירי יסדיר ויישם נהלים לאוורור מרבי של תא הנוסעים, ובכלל זה –</p>
+                  </intro>
+                  <point eId="point_21__point_א__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>שימוש מיטבי במערכת מיזוג אוויר מדוחס, במערכת לשימוש חוזר באוויר (air recirculation system) לרבות מסנני האוויר שלה, ובמערכת בקרת האקלים בכלי הטיס, לפי המלצות יצרן כלי הטיס ויצרן מערכת כאמור, לפי העניין;</p>
+                    </content>
+                  </point>
+                  <point eId="point_21__point_א__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>אוורור תא הנוסעים בטרם עליית הנוסעים לכלי הטיס, בעת עליית הנוסעים לכלי הטיס, בכל עת שנוסעים שוהים בו, ובעת ירידתם ממנו, ובכלל זה לעניין שימוש במנוע עזר (APU) או ביחידה קרקעית לאספקת אוויר ממוזג, לשם אספקת אוויר למערכות כאמור בפסקה (1);</p>
+                    </content>
+                  </point>
+                  <point eId="point_21__point_א__point_3">
+                    <num>(3)</num>
+                    <list>
+                      <intro>
+                        <p>צמצום, ככל האפשר, של מקרים שבהם כלי טיס ישוגר לטיסה בנסיבות כמפורט להלן, גם אם הדבר מותר לפי רשימת הציוד המזערי שאושרה לגבי אותו כלי הטיס:</p>
+                      </intro>
+                      <point eId="point_21__point_א__point_3__point_א">
+                        <num>(א)</num>
+                        <content>
+                          <p>עם מערכת מיזוג אוויר מדוחס לא שמישה;</p>
+                        </content>
+                      </point>
+                      <point eId="point_21__point_א__point_3__point_ב">
+                        <num>(ב)</num>
+                        <content>
+                          <p>עם מאוורר מיחזור אוויר לא שמיש – אם בכלי הטיס מותקנים מסנני חלקיקי אוויר עם יעילות גבוהה (HEPA filter);</p>
+                        </content>
+                      </point>
+                      <wrapup eId="point_21__point_א__point_3__wrapup_none">
+                        <content>
+                          <p>לעניין זה, ”רשימת ציוד מזערי“ – לעניין מפעיל אווירי ישראלי – רשימה שאישר מנהל רשות התעופה האזרחית לעניין אותו כלי טיס לפי <ref href="/akn/il/act/SecondaryLegislation/1981-10-01/100013650#point_31א">תקנה 31א לתקנות ההפעלה</ref>, ולעניין מפעיל אווירי זר – רשימה מקבילה שאישרה הרשות המוסמכת לכך במדינת המפעיל, כהגדרתה <ref href="/akn/il/act/PrimaryLegislation/2011-04-13/336240">בחוק הטיס</ref>;</p>
+                        </content>
+                      </wrapup>
+                    </list>
+                  </point>
+                  <point eId="point_21__point_א__point_4">
+                    <num>(4)</num>
+                    <content>
+                      <p>תצורה מיטבית של כלי הטיס אם מערכת מיזוג אוויר מדוחס או מאוורר לשימוש חוזר באוויר הופכים לא שמישים במהלך הטיסה;</p>
+                    </content>
+                  </point>
+                  <point eId="point_21__point_א__point_5">
+                    <num>(5)</num>
+                    <content>
+                      <p>מניעת חסימת פתחי אוורור.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_21__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>מפעיל שדה התעופה לא ימנע שימוש במנוע עזר (APU) בקרבת פתח כלי הטיס, אם הדבר נדרש להפעלת מערכת מיזוג האוויר של כלי הטיס ולא ניתן לעשות שימוש באוויר ממוזג ומסונן ממקור חיצוני אחר.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_22">
+            <heading>
+              <authorialNote placement="side">
+                <p>מדידת חום לנוסעים לפני עלייה לכלי הטיס</p>
+              </authorialNote>
+            </heading>
+            <num>22.</num>
+            <list>
+              <point eId="point_22__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>מפעיל אווירי יסדיר ביצוע של מדידת חום באמצעי שאינו פולשני לנוסעים בסמוך לפני עלייתם לכלי הטיס ולא יאפשר עלייתו של נוסע שנמצא כי חום גופו הוא 38 מעלות צלזיוס או יותר לכלי הטיס, ואולם נוסע שחום גופו 38 מעלות צלזיוס או יותר, רשאי לבקש כי תיערך לו מדידת חום נוספת, שתיערך במקום סמוך ומבודד, בלא דיחוי; נמצא גם בבדיקה הנוספת כי חום גופו של הנוסע הוא 38 מעלות או יותר, לא יאפשר המפעיל האווירי את עלייתו לכלי הטיס.</p>
+                </content>
+              </point>
+              <point eId="point_22__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>תקנת משנה (א) לא תחול אם כלי הטיס ממריא משדה תעופה שבכניסה אליו מבוצעת לנוסעים מדידת חום ונמנעת כניסתו של נוסע שחום גופו 38 מעלות צלזיוס ומעלה.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_23">
+            <heading>
+              <authorialNote placement="side">
+                <p>איסור עליה לכלי הטיס בלא מסכה</p>
+              </authorialNote>
+            </heading>
+            <num>23.</num>
+            <content>
+              <p>מפעיל אווירי לא יתיר לנוסע לעלות לכלי הטיס, אלא אם כן הנוסע עוטה מסכה לפי <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/צו_בריאות_העם_נגיף_הקורונה_החדש_בידוד_בית_והוראות_שונות_הוראת_שעה#point_3ה">סעיף 3ה לצו בידוד בית</ref>.</p>
+            </content>
+          </point>
+          <point eId="point_24">
+            <heading>
+              <authorialNote placement="side">
+                <p>תדרוך הנוסעים לפני טיסה ובמהלכה</p>
+              </authorialNote>
+            </heading>
+            <num>24.</num>
+            <list>
+              <point eId="point_24__point_א">
+                <num>(א)</num>
+                <list>
+                  <intro>
+                    <p>מפעיל אווירי יבטיח כי לפני ההמראה, וכן במהלך הטיסה, הנוסעים יתודרכו על כל אלה:</p>
+                  </intro>
+                  <point eId="point_24__point_א__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>כללים שהסדיר ויישם המפעיל האווירי, להתנהלות הנוסעים בכלי הטיס, לשם מניעת התקהלות, כאמור <ref href="#point_25">בתקנה 25(3)</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_24__point_א__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>החובה לעטות מסכה במהלך הטיסה, מקרים שבהם ניתן או נדרש להסיר את המסכה, ואופן השלכתה לפסולת;</p>
+                    </content>
+                  </point>
+                  <point eId="point_24__point_א__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>משך הזמן המרבי המומלץ לשימוש באותה מסכה, ונסיבות שבהן יש צורך להחליף מסכה.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_24__point_ב">
+                <num>(ב)</num>
+                <list>
+                  <intro>
+                    <p>תדרוך נוסעים לפי תקנה זו –</p>
+                  </intro>
+                  <point eId="point_24__point_ב__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>ייעשה באמצעות הודעות קוליות במערכת להעברת מידע לנוסעים הנדרשת לפי <ref href="/akn/il/act/SecondaryLegislation/1981-10-01/100013650">תקנות ההפעלה</ref>, אם נדרשת, וכן באמצעות מידע חזותי, או אם העברת מידע חזותי אינה ישימה – באמצעות עלון מידע לשימושו האישי של כל נוסע;</p>
+                    </content>
+                  </point>
+                  <point eId="point_24__point_ב__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>יינתן בשפה האנגלית, ובכלי טיס שמפעיל מפעיל אווירי כאמור בפסקה (1) להגדרת מפעיל אווירי – גם בעברית;</p>
+                    </content>
+                  </point>
+                  <point eId="point_24__point_ב__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>יהיה נגיש לאנשים עם מוגבלות, לרבות באמצעות פישוט לשוני, סמלול ועיצוב ברור, לפי אופי המידע.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_24__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>אין בתקנה זו כדי לגרוע מחובות לתדרוך נוסעים לפי הנהלים הישימים בספר העזר למבצעים.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_25">
+            <heading>
+              <authorialNote placement="side">
+                <p>שירות בטיסה</p>
+              </authorialNote>
+            </heading>
+            <num>25.</num>
+            <list>
+              <intro>
+                <p>מפעיל אווירי –</p>
+              </intro>
+              <point eId="point_25__point_1">
+                <num>(1)</num>
+                <content>
+                  <p>יצמצם ככל האפשר את השירות בטיסה, כולל חלוקה או מכירה של מזון ושתייה, ובלבד שתובטח נוחיות הנוסעים ורווחתם, בין השאר בהתחשב במשך הטיסה;</p>
+                </content>
+              </point>
+              <point eId="point_25__point_2">
+                <num>(2)</num>
+                <content>
+                  <p>יסדיר ויישם נהלים לביצוע תפקידי הדיילים בכלי הטיס, שיבטיחו, ככל האפשר, מזעור הסיכון להדבקה, בכפוף לשמירה על בטיחות הטיסה, ולנוהלי ספר העזר למבצעים;</p>
+                </content>
+              </point>
+              <point eId="point_25__point_3">
+                <num>(3)</num>
+                <content>
+                  <p>יסדיר כללים להתנהלות הנוסעים בכלי הטיס, לשם מניעת התקהלות באזור ציבורי בכלי הטיס; לעניין זה, ”אזור ציבורי“ – אזור תאי השירותים, המטבח והמעברים בכלי הטיס.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_26">
+            <heading>
+              <authorialNote placement="side">
+                <p>חובות דייל – שמירת היגיינה בכלי הטיס</p>
+              </authorialNote>
+            </heading>
+            <num>26.</num>
+            <list>
+              <intro>
+                <p>בעת שהיית הנוסעים בכלי הטיס, הדיילים –</p>
+              </intro>
+              <point eId="point_26__point_1">
+                <num>(1)</num>
+                <content>
+                  <p>יימנעו, ככל האפשר, ממגע עם כבודת היד של הנוסעים, אלא אם כן הדבר נדרש לשם הבטחת בטיחות הטיסה;</p>
+                </content>
+              </point>
+              <point eId="point_26__point_2">
+                <num>(2)</num>
+                <content>
+                  <p>יציידו את תאי השירותים בכלי הטיס באמצעים לחיטוי ידיים;</p>
+                </content>
+              </point>
+              <point eId="point_26__point_3">
+                <num>(3)</num>
+                <content>
+                  <p>יאספו מהנוסעים פסולת של מסכות משומשות;</p>
+                </content>
+              </point>
+              <point eId="point_26__point_4">
+                <num>(4)</num>
+                <content>
+                  <p>יזכירו לנוסעים את חובתם לעטות מסכה, לפי הצורך.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_27">
+            <heading>
+              <authorialNote placement="side">
+                <p>מקרה שבו נוסע מפתח תסמינים אחרי המראה</p>
+              </authorialNote>
+            </heading>
+            <num>27.</num>
+            <list>
+              <point eId="point_27__point_א">
+                <num>(א)</num>
+                <list>
+                  <intro>
+                    <p>מפעיל אווירי יסדיר ויישם נהלים לפעולת אנשי הצוות למקרה שבו נוסע מראה תסמינים או מתלונן על תסמינים תוך כדי טיסה, ובכלל זה –</p>
+                  </intro>
+                  <point eId="point_27__point_א__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>מתן הוראות לנוסע בעל תסמינים כאמור, לעניין עטיית מסכה או אמצעי חלופי לכך;</p>
+                    </content>
+                  </point>
+                  <point eId="point_27__point_א__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>הגשת סיוע לנוסע בעל תסמינים כאמור, ועשיית שימוש בציוד המגן שבערכת הזהירות הכללית הנישאת בכלי הטיס לפי <ref href="/akn/il/act/SecondaryLegislation/1981-10-01/100013650">תקנות ההפעלה</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_27__point_א__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>יצירת אזור מבודד בתא הנוסעים ובידוד הנוסע ונוסעים הנלווים אליו באזור זה;</p>
+                    </content>
+                  </point>
+                  <point eId="point_27__point_א__point_4">
+                    <num>(4)</num>
+                    <content>
+                      <p>מתן שירות לנוסע בעל תסמינים כאמור ולנוסעים נלווים אליו על ידי איש צוות מסוים בלבד, וככל האפשר, מניעת אותו איש צוות ממגע עם נוסעים ואנשי צוות אחרים;</p>
+                    </content>
+                  </point>
+                  <point eId="point_27__point_א__point_5">
+                    <num>(5)</num>
+                    <content>
+                      <p>מתן הודעה על האירוע לרשויות של שדה התעופה הנוגע בדבר.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_27__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>אם נוסע מראה תסמינים או מתלונן על תסמינים תוך כדי טיסה, אנשי הצוות יפעלו לפי הנהלים שהסדיר ויישם המפעיל האווירי לפי תקנת משנה (א).</p>
+                </content>
+              </point>
+              <point eId="point_27__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>נוסע ימלא אחר הוראות איש צוות שניתנו לשם יצירת אזור מבודד בכלי הטיס, ובכלל זה הוראה לעבור למושב אחר בכלי הטיס, הגבלה על שימוש בחלק ממיתקני כלי הטיס או הגבלה על מעבר באזורים ציבוריים בו.</p>
+                </content>
+              </point>
+              <point eId="point_27__point_ד">
+                <num>(ד)</num>
+                <content>
+                  <p>נוסע שפיתח תסמינים תוך כדי טיסה, וכל נוסע נלווה אליו, ירדו מכלי הטיס לאחר שכל שאר הנוסעים סיימו לרדת ממנו.</p>
+                </content>
+              </point>
+              <point eId="point_27__point_ה">
+                <num>(ה)</num>
+                <content>
+                  <p>מפעיל אווירי ידווח למנהל, בהקדם האפשרי, על כל מקרה כאמור בתקנת משנה זו ועל ביצוע תקנה זו, ובלבד שלא יעביר למנהל לפי תקנה זו מידע אישי על הנוסעים, ובכלל זה פרטים מזהים.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_28">
+            <heading>
+              <authorialNote placement="side">
+                <p>מקרה שבו איש צוות מפתח תסמינים אחרי המראה</p>
+              </authorialNote>
+            </heading>
+            <num>28.</num>
+            <list>
+              <point eId="point_28__point_א">
+                <num>(א)</num>
+                <list>
+                  <intro>
+                    <p>מפעיל אווירי יסדיר ויישם נהלים לפעולת אנשי הצוות למקרה שבו איש צוות חש בתסמינים תוך כדי טיסה, ובכלל זה –</p>
+                  </intro>
+                  <point eId="point_28__point_א__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>כללים להתנהלות של אותו איש צוות;</p>
+                    </content>
+                  </point>
+                  <point eId="point_28__point_א__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>יצירת אזור מבודד בכלי הטיס ובידוד איש הצוות באזור זה;</p>
+                    </content>
+                  </point>
+                  <point eId="point_28__point_א__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>הגשת סיוע לאיש הצוות כאמור, ועשיית שימוש בציוד המגן שבערכת הזהירות הכללית הנישאת בכלי הטיס, לפי הצורך;</p>
+                    </content>
+                  </point>
+                  <point eId="point_28__point_א__point_4">
+                    <num>(4)</num>
+                    <content>
+                      <p>מתן הודעה על האירוע לרשויות של שדה התעופה הנוגע בדבר;</p>
+                    </content>
+                  </point>
+                  <point eId="point_28__point_א__point_5">
+                    <num>(5)</num>
+                    <content>
+                      <p>עריכת ניהול סיכונים למקרה שבו איש הצוות שחש בתסמינים הוא איש צוות אוויר ליד ההגאים, ובכלל זה קביעת אמצעי אפחות סיכון כהגדרתו <ref href="/akn/il/act/SecondaryLegislation/2017-12-28/100041398">בתקנות מערכת ניהול בטיחות</ref> מתאימים לתרחישים שונים.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_28__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>חש איש צוות בתסמינים תוך כדי טיסה, אנשי הצוות יפעלו לפי הנהלים שהסדיר ויישם המפעיל האווירי לפי תקנת משנה (א).</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_29">
+            <heading>
+              <authorialNote placement="side">
+                <p>ירידת נוסעים מכלי הטיס</p>
+              </authorialNote>
+            </heading>
+            <num>29.</num>
+            <list>
+              <point eId="point_29__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>מפעיל אווירי, בתיאום עם מפעיל שדה התעופה, יבטיח, ככל האפשר, כי תהליך ירידת הנוסעים מכלי הטיס יבוצע כך שתובטח שמירת מרחק של 2 מטרים לפחות בין נוסעים שאין ביניהם קרבה מותרת, ובין נוסעים לבין אנשי צוות; על אף האמור, נעשה שימוש באוטובוס להסעת הנוסעים מכלי הטיס לטרמינל הנוסעים, תחול לעניין מספר הנוסעים המרבי באוטובוס <ref href="#point_4">תקנה 4(ב)</ref>.</p>
+                </content>
+              </point>
+              <point eId="point_29__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>נוסע לא ירד מכלי הטיס אלא לפי הנחיות אנשי הצוות שניתנו בהתאם לתקנה זו.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_30">
+            <heading>
+              <authorialNote placement="side">
+                <p>הצהרת בריאות של נוסע</p>
+              </authorialNote>
+            </heading>
+            <num>30.</num>
+            <list>
+              <point eId="point_30__point_א">
+                <num>(א)</num>
+                <list>
+                  <intro>
+                    <p>לא יעלה אדם לטיסה כנוסע אלא אם כן התקיימו לגביו כל אלה:</p>
+                  </intro>
+                  <point eId="point_30__point_א__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>הוא אינו חולה; לעניין זה מחלים לא ייחשב חולה;</p>
+                    </content>
+                  </point>
+                  <point eId="point_30__point_א__point_2">
+                    <num>(2)</num>
+                    <list>
+                      <intro>
+                        <p>ב־14 ימים שקדמו לטיסה התקיימו לגביו כל אלה –</p>
+                      </intro>
+                      <point eId="point_30__point_א__point_2__point_א">
+                        <num>(א)</num>
+                        <content>
+                          <p>לא היו לו תסמינים;</p>
+                        </content>
+                      </point>
+                      <point eId="point_30__point_א__point_2__point_ב">
+                        <num>(ב)</num>
+                        <content>
+                          <p>הוא לא בא במגע הדוק עם חולה;</p>
+                        </content>
+                      </point>
+                      <point eId="point_30__point_א__point_2__point_ג">
+                        <num>(ג)</num>
+                        <content>
+                          <p>הוא לא שהה באותו מקום מגורים עם אדם החייב בבידוד, ואם שהה כאמור – הוא נהג לפי המלצות משרד הבריאות לבידוד בית שניתנו לפי <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/צו_בריאות_העם_נגיף_הקורונה_החדש_בידוד_בית_והוראות_שונות_הוראת_שעה#point_2">סעיף 2(ה) לצו בידוד בית</ref>.</p>
+                        </content>
+                      </point>
+                    </list>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_30__point_ב">
+                <num>(ב)</num>
+                <list>
+                  <intro>
+                    <p>לא יהיה אדם נוסע בטיסה בין־לאומית אלא אם כן ב־24 שעות שקדמו למועד ההמראה הוא מסר למשרד הבריאות הצהרה, באופן מקוון באתר האינטרנט של משרד הבריאות; בהצהרה כאמור –</p>
+                  </intro>
+                  <point eId="point_30__point_ב__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>פורטו הנתונים הנדרשים כאמור <ref href="#appendix_2_part_א_פרט_1">בפרטים (1)</ref>, <ref href="#appendix_2_part_א_פרט_2">(2)</ref><ref href="#appendix_2_part_א_פרט_4">ו־(4) לחלק א׳ לתוספת השנייה</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_30__point_ב__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>הוא אישר את נכונות הפרטים שמסר לפי פסקה (1), ואת קיום האמור בתקנת משנה (א), התחייב לא להגיע לטיסה אם חל שינוי בפרט מהפרטים שעליהם הצהיר כאמור, והצהיר כי ידוע לו שהצהרת שקר עלולה לשמש ראיה נגדו בהליך פלילי, הכול כמפורט <ref href="#appendix_2_part_ג">בחלק ג׳ לתוספת השנייה</ref>.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_30__point_ב1">
+                <num>(ב1)</num>
+                <content>
+                  <p>נוסע נכנס או נוסע במעבר לא יעלה כנוסע לטיסה בין־לאומית, ומפעיל אווירי לא יתיר לאדם כאמור להיות נוסע בטיסה בין־לאומית, אלא אם כן אותו אדם הציג למפעיל האווירי אישור על מסירת הצהרה כאמור בתקנת משנה (ב); לעניין זה, ”נוסע במעבר“ – נוסע שהגיע לשדה התעופה בטיסה ועתיד לעזוב את שדה התעופה בטיסה, בלי לצאת משדה התעופה בזמן שבין הגעתו לעזיבתו כאמור.</p>
+                </content>
+              </point>
+              <point eId="point_30__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>האחראי על קטין באותה טיסה רשאי למסור הצהרה כאמור בתקנה זו לאותו קטין.</p>
+                </content>
+              </point>
+              <point eId="point_30__point_ד">
+                <num>(ד)</num>
+                <content>
+                  <p>מפעיל אווירי יקיים עמדה לסיוע לנוסע שמסירת הצהרת בריאות לפי תקנה זו או מסירת פרטים הנחוצים לאיתורו כאמור <ref href="#point_7">בתקנה 7</ref>, אינם זמינים לו, או אינם אפשריים לו, בין השאר מחמת מוגבלותו; בעמדה לסיוע יינתן לנוסע סיוע במילוי מקוון של ההצהרה או של הפרטים כאמור, והנפקת האישורים על כך.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_31">
+            <heading>
+              <authorialNote placement="side">
+                <p>חובות נוסע בכלי טיס</p>
+              </authorialNote>
+            </heading>
+            <num>31.</num>
+            <list>
+              <point eId="point_31__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>נוסע השוהה באזור ציבורי בכלי טיס כמשמעותו <ref href="#point_25">בתקנה 25(3)</ref>, ישמור, ככל האפשר, מרחק של 2 מטרים לפחות בינו לבין כל אדם שאין לו עמו קרבה מותרת.</p>
+                </content>
+              </point>
+              <point eId="point_31__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>נוסע בכלי טיס ינהג לפי הכללים שהסדיר ויישם המפעיל האווירי, לעניין התנהלות הנוסעים בכלי הטיס, לשם מניעת התקהלות כאמור <ref href="#point_24">בתקנה 24(א)(1)</ref>.</p>
+                </content>
+              </point>
+              <point eId="point_31__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>נוסע בכלי טיס יעטה מסכה לפי <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/צו_בריאות_העם_נגיף_הקורונה_החדש_בידוד_בית_והוראות_שונות_הוראת_שעה#point_3ה">סעיף 3ה לצו בידוד בית</ref>, למעט בעת אכילה ושתייה בו, וכן בנסיבות שבהן נדרש או ניתן להסירה לפי הנחיות אנשי הצוות.</p>
+                </content>
+              </point>
+              <point eId="point_31__point_ד">
+                <num>(ד)</num>
+                <content>
+                  <p>נוסע שחש בתסמינים לאחר עלייתו לכלי הטיס יודיע על כך לאלתר לאיש צוות בכלי הטיס; איש צוות שנמסרה לו הודעה כאמור יעביר את המידע לטייס המפקד, כהגדרתו <ref href="/akn/il/act/PrimaryLegislation/2011-04-13/336240">בחוק הטיס</ref>, בלא דיחוי; הטייס המפקד יעביר את המידע בלא דיחוי לרשויות שדה התעופה של ההמראה או הנחיתה, לפי העניין; נמסר לטייס המפקד כי נוסע חש בתסמינים לפני המראת כלי הטיס, יורה הטייס המפקד לאותו נוסע לרדת מהמטוס.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_32">
+            <heading>
+              <authorialNote placement="side">
+                <p>חובות סוכן נסיעות או מארגן</p>
+              </authorialNote>
+            </heading>
+            <num>32.</num>
+            <list>
+              <point eId="point_32__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>על אף האמור <ref href="#point_12">בתקנות 12</ref><ref href="#point_13">ו־13</ref>, חובות המפעיל האווירי לעניין יידוע נוסעים לפי <ref href="#point_12">התקנות האמורות</ref>, יחולו על סוכן נסיעות או מארגן, לפי העניין, בנסיבות שבהן סוכן נסיעות או מארגן ביצעו את מכירת כרטיס הטיסה לנוסע.</p>
+                </content>
+              </point>
+              <point eId="point_32__point_ב">
+                <num>(ב)</num>
+                <list>
+                  <intro>
+                    <p>בתקנה זו –</p>
+                  </intro>
+                  <point eId="point_32__point_ב__point_מארגן">
+                    <content>
+                      <p>
+                        <def />”מארגן“ – אדם השוכר קיבולת בכלי טיס, כולה או חלקה, להובלת נוסעים וכבודתם, לצורך מכירתה לאחרים;</p>
+                    </content>
+                  </point>
+                  <point eId="point_32__point_ב__point_סוכן_נסיעות">
+                    <content>
+                      <p>
+                        <def />”סוכן נסיעות“ – מי שנותן בתמורה, או שלא בתמורה אך דרך קבע, שירות משירותי סוכנות נסיעות, כהגדרתם <ref href="/akn/il/act/PrimaryLegislation/1976-07-07/148753">בחוק שירותי תיירות, התשל"ו–1976</ref>.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+            </list>
+          </point>
+        </list>
+      </chapter>
+      <chapter eId="chp_ד">
+        <num>פרק ד׳:</num>
+        <title>
+          <content>
+            <p>הוראות כלליות, חובות דיווח, ועונשין</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_33">
+            <heading>
+              <authorialNote placement="side">
+                <p>חובות דיווח של מפעיל שדה התעופה ומפעיל אווירי</p>
+              </authorialNote>
+            </heading>
+            <num>33.</num>
+            <content>
+              <p>מפעיל שדה התעופה או מפעיל אווירי, כמפורט בטור א׳ בטבלה שלהלן, יעביר למנהל, אחת לשבוע, מידע כאמור בטור ג׳ בטבלה, על האירועים המפורטים בטור ב׳ בטבלה, ובלבד שלא יעבירו למנהל מידע אישי על הנוסעים, ובכלל זה פרטים מזהים לפי תקנה זו:<br space="preserve"></br><table><tr><th>מס"ד</th><th width="33%">המדווח</th><th width="33%">האירוע</th><th width="33%">המידע הנדרש</th></tr><tr><td>(1)</td><td>מפעיל אווירי <br space="preserve"></br> מפעיל שדה תעופה</td><td>לא הותר לנוסע לעלות לכלי טיס בשל תסמינים</td><td>מספר המקרים ושיעורם מתוך כלל הנוסעים באותה תקופה</td></tr><tr><td>(2)</td><td>מפעיל אווירי <br space="preserve"></br> מפעיל שדה תעופה</td><td>לא הותר לנוסע לעלות לכלי הטיס בשל הפרת תקנות אלה</td><td>מספר המקרים ושיעורם מתוך כלל הנוסעים באותה תקופה</td></tr><tr><td>(3)</td><td>מפעיל אווירי <br space="preserve"></br> מפעיל שדה תעופה</td><td>נוסע הורד מכלי הטיס בשל תסמינים</td><td>מספר המקרים ושיעורם מתוך כלל הנוסעים באותה תקופה</td></tr><tr><td>(4)</td><td>מפעיל אווירי</td><td>נוסע הראה תסמינים או התלונן על תסמינים במהלך הטיסה</td><td>מספר המקרים ושיעורם מתוך כלל הנוסעים באותה תקופה</td></tr><tr><td>(5)</td><td>מפעיל אווירי</td><td>נוסע הפר את כללי ההתנהלות בכלי הטיס שנקבעו לפי תקנות אלה</td><td>מספר המקרים ושיעורם מתוך כלל הנוסעים באותה תקופה</td></tr><tr><td>(6)</td><td>מפעיל אווירי</td><td>הידבקות איש צוות בנגיף הקורונה</td><td>מספר המקרים ושיעורם מתוך כלל אנשי הצוות באותה תקופה, בחלוקה לאנשי צוות אוויר ודיילים</td></tr><tr><td>(7)</td><td>מפעיל שדה תעופה</td><td>אדם השוהה בטרמינל הנוסעים הפר את כללי ההתנהלות בטרמינל הנוסעים שנקבעו לפי תקנות אלה</td><td>מספר המקרים ושיעורם מתוך כלל השוהים בטרמינל הנוסעים באותה תקופה</td></tr><tr><td>(8)</td><td>מפעיל שדה התעופה</td><td>חום הגוף של נוסע נכנס היה 38 מעלות או יותר</td><td>מספר המקרים ושיעורם מתוך כלל השוהים בטרמינל הנוסעים באותה תקופה</td></tr><tr><td>(9)</td><td>מפעיל שדה התעופה</td><td>הידבקות אדם העובד בטרמינל הנוסעים בנגיף הקורונה</td><td>מספר המקרים ושיעורם מתוך כלל העובדים בטרמינל הנוסעים באותה תקופה</td></tr></table></p>
+            </content>
+          </point>
+          <point eId="point_34">
+            <heading>
+              <authorialNote placement="side">
+                <p>אמצעים חלופיים לשמירת בריאות הציבור</p>
+              </authorialNote>
+            </heading>
+            <num>34.</num>
+            <list>
+              <point eId="point_34__point_א">
+                <num>(א)</num>
+                <list>
+                  <intro>
+                    <p>מנהל רשות התעופה האזרחית, בהסכמת המנהל, רשאי להתיר למפעיל שדה תעופה או למפעיל אווירי, לבקשתו, ליישם אמצעי חלופי לדרישה שנקבעה בתקנות אלה, אם התקיימו כל אלה:</p>
+                  </intro>
+                  <point eId="point_34__point_א__point_1">
+                    <num>(1)</num>
+                    <list>
+                      <intro>
+                        <p>המבקש הוכיח לו, להנחת דעתו, כי התקיימו כל אלה:</p>
+                      </intro>
+                      <point eId="point_34__point_א__point_1__point_א">
+                        <num>(א)</num>
+                        <content>
+                          <p>קיים צורך, בנסיבות העניין, ליישם אמצעי חלופי;</p>
+                        </content>
+                      </point>
+                      <point eId="point_34__point_א__point_1__point_ב">
+                        <num>(ב)</num>
+                        <content>
+                          <p>האמצעי החלופי הוא הגבלה שהממשלה רשאית לקבוע לפי <ref href="/akn/il/act/PrimaryLegislation/2020-07-23/2140584#point_12">סעיף 12 לחוק</ref>;</p>
+                        </content>
+                      </point>
+                      <point eId="point_34__point_א__point_1__point_ג">
+                        <num>(ג)</num>
+                        <content>
+                          <p>האמצעי החלופי אינו פוגע בזכויות מעבר לפגיעה הנגרמת מיישום דרישות התקנות;</p>
+                        </content>
+                      </point>
+                    </list>
+                  </point>
+                  <point eId="point_34__point_א__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>המנהל שוכנע כי האמצעי החלופי מבטיח את שמירת בריאות הציבור ברמה שוות ערך לפחות לזו המושגת בקיום הדרישה שלגביה ביקש ליישם את האמצעי החלופי.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_34__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>מנהל רשות התעופה האזרחית ידווח לשר התחבורה והבטיחות בדרכים על כל היתר שנתן לפי תקנת משנה (א).</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_35">
+            <heading>
+              <authorialNote placement="side">
+                <p>עונשין</p>
+              </authorialNote>
+            </heading>
+            <num>35.</num>
+            <list>
+              <intro>
+                <p>העושה אחד מאלה, דינו קנס לפי <ref href="/akn/il/act/PrimaryLegislation/1977-08-04/2002251#point_61">סעיף 61(א)(1) לחוק העונשין</ref>:</p>
+              </intro>
+              <point eId="point_35__point_1">
+                <num>(1)</num>
+                <content>
+                  <p>מפעיל שדה תעופה שלא הסדיר או הפעיל מנגנון שימנע כניסת אדם לטרמינל הנוסעים אם לא התקיים בו תנאי מהתנאים לכך המפורטים <ref href="#point_6">בתקנה 6(א)</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_35__point_2">
+                <num>(2)</num>
+                <content>
+                  <p>נוסע יוצא שנכנס לטרמינל הנוסעים בלי שהתקיימו בו הוראות <ref href="#point_6">תקנה 6(א)(2)</ref>, בניגוד להוראות <ref href="#point_6">תקנה 6(ב)</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_35__point_3">
+                <num>(3)</num>
+                <content>
+                  <p>מי שנכנס לטרמינל הנוסעים ואינו נוסע יוצא, בלא שהתקיים בו תנאי מהתנאים המפורטים לכך <ref href="#point_6">בתקנה 6(א)</ref>, בניגוד להוראות <ref href="#point_6">תקנה 6(ב)</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_35__point_4">
+                <num>(4)</num>
+                <content>
+                  <p>מפעיל אווירי המפעיל טיסות בלא שהגיש הצהרה למנהל רשות התעופה האזרחית כאמור <ref href="#point_11">בתקנה 11(5)</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_35__point_5">
+                <num>(5)</num>
+                <content>
+                  <p>מפעיל אווירי שלא הבטיח כי בטרם תחל טיסה כלי הטיס יהיה מצויד בציוד נדרש כמפורט <ref href="#point_16">בתקנה 16</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_35__point_6">
+                <num>(6)</num>
+                <content>
+                  <p>מפעיל אווירי שלא הבטיח כי לא ישמש אדם בתפקיד איש צוות אלא אם כן התקיימו באותו אדם הוראות <ref href="#point_17">תקנה 17(א)(3)</ref>, בניגוד להוראות <ref href="#point_17">תקנה 17(ב)</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_35__point_6א">
+                <num>(6א)</num>
+                <list>
+                  <intro>
+                    <p>מפעיל אווירי שלא הפעיל בשדה התעופה דלפקים לרישום לטיסה –</p>
+                  </intro>
+                  <point eId="point_35__point_6א__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>מספר שעות לפני מועד ההמראה המתוכנן כנדרש <ref href="#point_18">בתקנה 18(א)</ref>, או שהתיר לו מפעיל שדה התעופה לפי <ref href="#point_18">תקנה 18(א2)</ref>, בניגוד להוראות <ref href="#point_18">תקנה 18</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_35__point_6א__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>שלא במספר כאמור <ref href="#point_18">בתקנה 18(א1)</ref>, או שהתיר לו מפעיל שדה התעופה לפי <ref href="#point_18">תקנה 18(א2)</ref>, בניגוד להוראות <ref href="#point_18">תקנה 18</ref>;</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_35__point_7">
+                <num>(7)</num>
+                <content>
+                  <p>מפעיל אווירי שלא הסדיר ביצוע מדידת חום לנוסעים בסמוך לפני עלייתם לכלי הטיס, בניגוד להוראות <ref href="#point_22">תקנה 22</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_35__point_8">
+                <num>(8)</num>
+                <content>
+                  <p>מפעיל אווירי שהתיר עליית אדם לכלי הטיס, בניגוד להוראות <ref href="#point_22">תקנה 22</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_35__point_9">
+                <num>(9)</num>
+                <content>
+                  <p>מפעיל אווירי שהתיר לנוסע לעלות לכלי הטיס בלי שאותו נוסע עוטה מסכה לפי הוראות <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/צו_בריאות_העם_נגיף_הקורונה_החדש_בידוד_בית_והוראות_שונות_הוראת_שעה">צו בידוד בית</ref>, בניגוד להוראות <ref href="#point_23">תקנה 23</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_35__point_10">
+                <num>(10)</num>
+                <content>
+                  <p>מפעיל אווירי שלא הסדיר נהלים לפעולת אנשי הצוות למקרה שבו נוסע הראה תסמינים או התלונן על תסמינים תוך כדי טיסה כמפורט <ref href="#point_27">בתקנה 27(א)</ref>, בניגוד להוראות <ref href="#point_27">אותה תקנה</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_35__point_11">
+                <num>(11)</num>
+                <content>
+                  <p>נוסע שלא מילא אחר הוראות אנשי הצוות שניתנו לפי <ref href="#point_27">תקנה 27(ג)</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_35__point_11א">
+                <num>(11א)</num>
+                <content>
+                  <p>מפעיל אווירי שלא הסדיר נהלים לפעולת אנשי הצוות למקרה שבו איש צוות חש בתסמינים תוך כדי טיסה כמפורט <ref href="#point_28">בתקנה 28(א)</ref>, בניגוד להוראות <ref href="#point_28">אותה תקנה</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_35__point_12">
+                <num>(12)</num>
+                <content>
+                  <p>העולה לטיסה כנוסע אף על פי שלא נתקיימו בו הוראות <ref href="#point_30">תקנה 30(א)</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_35__point_13">
+                <num>(13)</num>
+                <content>
+                  <p>העולה לטיסה בין־לאומית כנוסע נכנס או נוסע במעבר בלי שהציג למפעיל האווירי אישור על מסירת הצהרה כאמור <ref href="#point_30">בתקנה 30(ב1)</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_35__point_14">
+                <num>(14)</num>
+                <content>
+                  <p>מפעיל אווירי שהתיר לנוסע נכנס או נוסע במעבר לטוס בלי שאותו נוסע הציג למפעיל האווירי אישור על מסירת הצהרה כאמור <ref href="#point_30">בתקנה 30(ב1)</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_35__point_15">
+                <num>(15)</num>
+                <content>
+                  <p>מפעיל שדה תעופה או מפעיל אווירי שלא העבירו למנהל דיווח על אירועים בניגוד להוראות <ref href="#point_33">תקנה 33</ref>.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_36">
+            <heading>
+              <authorialNote placement="side">
+                <p>עבירות מינהליות</p>
+              </authorialNote>
+            </heading>
+            <num>36.</num>
+            <list>
+              <point eId="point_36__point_א">
+                <num>(א)</num>
+                <list>
+                  <intro>
+                    <p>העבירות המנויות <ref href="#point_35">בתקנה 35</ref> המפורטות בטור א׳ בטבלה שלהלן, הן עבירות מינהליות שניתן להטיל בשלהן קנס מינהלי קצוב:</p>
+                  </intro>
+                  <point eId="point_36__point_א__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>לעניין נוסע, מפעיל שדה תעופה ומפעיל אווירי שלא כאמור <ref href="#point_10">בתקנה 10(ב)</ref> – כקבוע לצדן בטור ב׳ בטבלה;</p>
+                    </content>
+                  </point>
+                  <point eId="point_36__point_א__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>לעניין מפעיל אווירי כאמור <ref href="#point_10">בתקנה 10(ב)</ref> – כקבוע לצדן בטור ג׳ בטבלה;</p>
+                    </content>
+                  </point>
+                  <wrapup eId="point_36__point_א__wrapup_none">
+                    <content>
+                      <p>
+                        <table>
+                          <tr>
+                            <th>מס"ד</th>
+                            <th>
+                              <span style="font-size: smaller; display:block; display:block">טור א׳</span>
+                              <br space="preserve"></br> העבירה</th>
+                            <th>
+                              <span style="font-size: smaller; display:block; display:block">טור ב׳</span>
+                              <br space="preserve"></br> סכום בשקלים <wikicomment font-size="x-small">חדשים</wikicomment></th>
+                            <th>
+                              <span style="font-size: smaller; display:block">טור ג׳</span>
+                              <br space="preserve"></br> סכום בשקלים <wikicomment font-size="x-small">חדשים</wikicomment></th>
+                          </tr>
+                          <tr>
+                            <td>(1)</td>
+                            <td>
+                              <ref href="#point_35">35(1)</ref>
+                            </td>
+                            <td>5,000</td>
+                            <td></td>
+                          </tr>
+                          <tr>
+                            <td>(2)</td>
+                            <td>
+                              <ref href="#point_35">35(2)</ref>
+                            </td>
+                            <td>500</td>
+                            <td></td>
+                          </tr>
+                          <tr>
+                            <td>(3)</td>
+                            <td>
+                              <ref href="#point_35">35(4)</ref>
+                            </td>
+                            <td>5,000</td>
+                            <td>2,000</td>
+                          </tr>
+                          <tr>
+                            <td>(4)</td>
+                            <td>
+                              <ref href="#point_35">35(5)</ref>
+                            </td>
+                            <td>5,000</td>
+                            <td>2,000</td>
+                          </tr>
+                          <tr>
+                            <td>(5)</td>
+                            <td>
+                              <ref href="#point_35">35(6)</ref>
+                            </td>
+                            <td>5,000</td>
+                            <td>2,000</td>
+                          </tr>
+                          <tr>
+                            <td>(5א)</td>
+                            <td>
+                              <ref href="#point_35">35(6א)(1)</ref>
+                            </td>
+                            <td>5,000</td>
+                            <td></td>
+                          </tr>
+                          <tr>
+                            <td>(5ב)</td>
+                            <td>
+                              <ref href="#point_35">35(6א)(2)</ref>
+                            </td>
+                            <td>5,000</td>
+                            <td></td>
+                          </tr>
+                          <tr>
+                            <td>(6)</td>
+                            <td>
+                              <ref href="#point_35">35(7)</ref>
+                            </td>
+                            <td>5,000</td>
+                            <td>2,000</td>
+                          </tr>
+                          <tr>
+                            <td>(7)</td>
+                            <td>
+                              <ref href="#point_35">35(8)</ref>
+                            </td>
+                            <td>5,000</td>
+                            <td>2,000</td>
+                          </tr>
+                          <tr>
+                            <td>(8)</td>
+                            <td>
+                              <ref href="#point_35">35(9)</ref>
+                            </td>
+                            <td>5,000</td>
+                            <td>2,000</td>
+                          </tr>
+                          <tr>
+                            <td>(9)</td>
+                            <td>
+                              <ref href="#point_35">35(10)</ref>
+                            </td>
+                            <td>5,000</td>
+                            <td>2,000</td>
+                          </tr>
+                          <tr>
+                            <td>(9א)</td>
+                            <td>
+                              <ref href="#point_35">35(11א)</ref>
+                            </td>
+                            <td>5,000</td>
+                            <td>2,000</td>
+                          </tr>
+                          <tr>
+                            <td>(10)</td>
+                            <td>
+                              <ref href="#point_35">35(13)</ref>
+                            </td>
+                            <td>500</td>
+                            <td></td>
+                          </tr>
+                          <tr>
+                            <td>(11)</td>
+                            <td>
+                              <ref href="#point_35">35(14)</ref>
+                            </td>
+                            <td>2,500</td>
+                            <td>1,500</td>
+                          </tr>
+                          <tr>
+                            <td>(12)</td>
+                            <td>
+                              <ref href="#point_35">35(15)</ref>
+                            </td>
+                            <td>2,500</td>
+                            <td>1,500</td>
+                          </tr>
+                        </table>
+                      </p>
+                    </content>
+                  </wrapup>
+                </list>
+              </point>
+              <point eId="point_36__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>הקנס המינהלי הקצוב לעבירה מינהלית חוזרת כמשמעותה <ref href="/akn/il/act/PrimaryLegislation/1985-10-24/151096#point_2">בסעיף 2(ג) לחוק העבירות המינהליות, התשמ"ו–1985</ref> (להלן בתקנה זו – חוק העבירות המינהליות), יהיה כפל הקנס המינהלי האמור בתקנת משנה (א), לפי העניין.</p>
+                </content>
+              </point>
+              <point eId="point_36__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>הקנס המינהלי הקצוב לעבירה מינהלית נמשכת יהיה בשיעור חמישית מהקנס הקבוע בתקנת משנה (א), לפי העניין, לכל יום שבו נמשכת העבירה לאחר המועד שנקבע בהתראה כאמור <ref href="/akn/il/act/PrimaryLegislation/1985-10-24/151096#point_8">בסעיף 8(ב1) לחוק העבירות המינהליות</ref>.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_37">
+            <heading>
+              <authorialNote placement="side">
+                <p>הגורם המוסמך להטלת קנס מינהלי</p>
+              </authorialNote>
+            </heading>
+            <num>37.</num>
+            <list>
+              <point eId="point_37__point_1">
+                <num>(1)</num>
+                <content>
+                  <p>שוטר;</p>
+                </content>
+              </point>
+              <point eId="point_37__point_2">
+                <num>(2)</num>
+                <content>
+                  <p>מפקח שמונה לפי <ref href="/akn/il/act/PrimaryLegislation/2011-04-13/336240#point_94">סעיף 94 לחוק הטיס</ref>.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_38">
+            <heading>
+              <authorialNote placement="side">
+                <p>סמכויות שוטר</p>
+              </authorialNote>
+            </heading>
+            <num>38.</num>
+            <list>
+              <intro>
+                <p>לשם אכיפת ההוראות לפי תקנות אלה, יהיו לשוטר סמכויות אלה:</p>
+              </intro>
+              <point eId="point_38__point_1">
+                <num>(1)</num>
+                <content>
+                  <p>להורות לכל אדם לפעול לפי התקנות או להפסיק פעילות בניגוד להן;</p>
+                </content>
+              </point>
+              <point eId="point_38__point_2">
+                <num>(2)</num>
+                <content>
+                  <p>למנוע כניסת אדם למקום אם יש בכך הפרה של התקנות.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_39">
+            <heading>
+              <authorialNote placement="side">
+                <p>שמירת דינים – הוראות המנהל</p>
+              </authorialNote>
+            </heading>
+            <num>39.</num>
+            <content>
+              <p>אין בהוראות תקנות אלה כדי לגרוע מהוראות המנהל שניתנו לפי <ref href="/akn/il/act/PrimaryLegislation/1940-12-20/2001729#point_20">סעיף 20 לפקודת בריאות העם</ref>, כפי שפורסמו באתר האינטרנט של משרד הבריאות.</p>
+            </content>
+          </point>
+          <point eId="point_40">
+            <heading>
+              <authorialNote placement="side">
+                <p>תחילה דחויה למפעיל אווירי כאמור בתקנה 10(ב)</p>
+              </authorialNote>
+            </heading>
+            <num>40.</num>
+            <content>
+              <p>תחילתן של תקנות אלה לעניין מפעיל אווירי כאמור <ref href="#point_10">בתקנה 10(ב)</ref>, שבוע מיום פרסומן.</p>
+            </content>
+          </point>
+          <point eId="point_41">
+            <heading>
+              <authorialNote placement="side">
+                <p>תוקף</p>
+              </authorialNote>
+            </heading>
+            <num>41.</num>
+            <content>
+              <p>תוקפן של תקנות אלה עד יום כ"א בשבט התשפ"א (3 בפברואר 2021).</p>
+            </content>
+          </point>
+        </list>
+      </chapter>
+      <appendix eId="appendix_ראשונה">
+        <num></num>
+        <title>
+          <content>
+            <p>תוספת ראשונה</p>
+          </content>
+        </title>
+        <subtitle eId="eId">
+          <num></num>
+          <content>
+            <p>
+              <wikicomment font-size="x-small">(<ref href="#point_2">תקנות 2</ref><ref href="#point_11">ו־11</ref>)</wikicomment>
+            </p>
+          </content>
+        </subtitle>
+        <part eId="part_א">
+          <num>חלק א׳:</num>
+          <title>
+            <content>
+              <p>התחייבות מפעיל שדה תעופה ליישום התקנות</p>
+            </content>
+          </title>
+          <subtitle eId="eId">
+            <num></num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">(<ref href="#point_2">תקנה 2(5)</ref>)</wikicomment>
+              </p>
+            </content>
+          </subtitle>
+          <list>
+            <point eId="appendix_ראשונה__point_none">
+              <heading>
+                <authorialNote placement="side">
+                  <p xml:space="preserve"> </p>
+                </authorialNote>
+              </heading>
+              <num></num>
+              <list>
+                <intro>
+                  <p>התחייבות בדבר יישום הפעולות הנדרשות בתקנות סמכויות מיוחדות להתמודדות עם נגיף הקורונה החדש (הוראת שעה) (הגבלות על הפעלת שדות תעופה וטיסות), התש"ף–2020, שנערכה ונחתמה ב. . . . . . . . . . . . . . . . . . . ביום . . . . . . . . . . . . . . . בחודש . . . . . . . . . . . . . . . . . . בשנת . . . . . . . . . . . . על ידי . . . . . . . . . . . . . . . . . . ת"ז . . . . . . . . . . . . . . . . . . . . המכהן כמנהל שדה התעופה <span style="word-break: break-all;; display:block">. . . . . . . . . . . . . . . . . . . . . . .</span><span style="font-size: smaller; display:block">[שם שדה התעופה]</span>.</p>
+                </intro>
+                <point eId="appendix_ראשונה__point_none__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>אני מצהיר כי הפעלת שדה התעופה . . . . . . . . . . . . . . <span style="font-size: smaller">[שם שדה התעופה]</span> עומדת בתנאים המפורטים <ref href="#point_2">בתקנות 2 עד 6</ref>, <ref href="#point_9">9</ref>, <ref href="#point_18">18</ref>, <ref href="#point_20">20</ref>, <ref href="#point_21">21(ב)</ref><ref href="#point_33">ו־33</ref>, לתקנות סמכויות מיוחדות להתמודדות עם נגיף הקורונה החדש (הוראת שעה) (הגבלות על הפעלת שדות תעופה וטיסות), התש"ף–2020, או באמצעי חלופי שאושר לפי <ref href="#point_34">תקנה 34 לתקנות האמורות</ref> (להלן – הפעולות).</p>
+                  </content>
+                </point>
+                <point eId="appendix_ראשונה__point_none__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>אני מודע לחובתי לקיום התנאים האמורים בשדה התעופה לטובת שמירה על בריאות הציבור.</p>
+                  </content>
+                </point>
+                <point eId="appendix_ראשונה__point_none__point_3">
+                  <num>(3)</num>
+                  <content>
+                    <p>שמו של ממונה הקורונה בשדה התעופה הוא: <span style="word-break: break-all;">. . . . . . . . . . . . . . . . . . . . . . . . . . . . . .</span></p>
+                  </content>
+                </point>
+                <point eId="appendix_ראשונה__point_none__point_4">
+                  <num>(4)</num>
+                  <content>
+                    <p>ולראיה באתי על החתום:<br space="preserve"></br>חתימה <span style="word-break: break-all;">. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .</span></p>
+                  </content>
+                </point>
+              </list>
+            </point>
+          </list>
+        </part>
+        <part eId="part_ב">
+          <num>חלק ב׳:</num>
+          <title>
+            <content>
+              <p>התחייבות מפעיל אווירי ליישום התקנות</p>
+            </content>
+          </title>
+          <subtitle eId="eId">
+            <num></num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">(<ref href="#point_11">תקנה 11(5)</ref>)</wikicomment>
+              </p>
+            </content>
+          </subtitle>
+          <list>
+            <point eId="appendix_ראשונה__point_none">
+              <heading>
+                <authorialNote placement="side">
+                  <p xml:space="preserve"> </p>
+                </authorialNote>
+              </heading>
+              <num></num>
+              <list>
+                <intro>
+                  <p>התחייבות בדבר יישום הפעולות הנדרשות בתקנות סמכויות מיוחדות להתמודדות עם נגיף הקורונה החדש (הוראת שעה) (הגבלות על הפעלת שדות תעופה וטיסות), התש"ף–2020, שנערכה ונחתמה ב. . . . . . . . . . . . . . . ביום <span style="word-break: break-all;; display:block">. . . . . . . . . . . . . . . . . . . . . . .</span> בחודש <span style="word-break: break-all;; display:block">. . . . . . . . . . . . . . . . . . . . . .</span> בשנת . . . . . . . . . . . . . . . על ידי . . . . . . . . . . . . . . . ת"ז . . . . . . . . . . . . . . . . . . המכהן כמנהל חברת התעופה . . . . . . . . . . . . . . . . <span style="font-size: smaller; display:block">[שם חברת התעופה]</span>.</p>
+                </intro>
+                <point eId="appendix_ראשונה__point_none__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>אני מצהיר כי הפעלת הטיסות של חברת התעופה . . . . . . . . . . . . . . . . <span style="font-size: smaller; display:block; display:block">[שם חברת התעופה]</span> בין . . . . . . . . . . . . . <span style="font-size: smaller; display:block; display:block">[שם שדה התעופה בישראל]</span> לבין . . . . . . . . . . . . . . . . . <span style="font-size: smaller; display:block">[שם שדה התעופה במדינת חוץ]</span> עומדת בתנאים המפורטים <ref href="#point_11">בתקנות 11 עד 30</ref><ref href="#point_33">ו־33</ref>, לתקנות סמכויות מיוחדות להתמודדות עם נגיף הקורונה החדש (הוראת שעה) (הגבלות על הפעלת שדות תעופה וטיסות), התש"ף–2020, או באמצעי חלופי שאושר לפי <ref href="#point_34">תקנה 34 לתקנות האמורות</ref> (להלן – הפעולות).</p>
+                  </content>
+                </point>
+                <point eId="appendix_ראשונה__point_none__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>אני מודע לחובתי לקיום התנאים האמורים בהפעלת כלי הטיס של חברת התעופה לטובת שמירה על בריאות הציבור.</p>
+                  </content>
+                </point>
+                <point eId="appendix_ראשונה__point_none__point_3">
+                  <num>(3)</num>
+                  <content>
+                    <p>שמו של ממונה הקורונה בחברת התעופה הוא: <span style="word-break: break-all;">. . . . . . . . . . . . . . . . . . . . .</span></p>
+                  </content>
+                </point>
+                <point eId="appendix_ראשונה__point_none__point_4">
+                  <num>(4)</num>
+                  <list>
+                    <intro>
+                      <p>ולראיה באתי על החתום:</p>
+                    </intro>
+                    <point eId="appendix_ראשונה__point_none__point_4__point_none">
+                      <content>
+                        <p>חתימה <span style="word-break: break-all;">. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .</span></p>
+                      </content>
+                    </point>
+                    <wrapup eId="appendix_ראשונה__point_none__point_4__wrapup_none">
+                      <content>
+                        <p>
+                          <div dir="ltr">An undertaking regarding the performance of the actions that are required in the Special Authorities Regulations for the purpose of Coping with the Novel Coronavirus (Temporary Provision) (Restrictions on the Operation of Airports and Flights)<wikicomment font-size="x-small">,</wikicomment> 5780–2020, drawn up and signed in ______________ on the ______ day in the month of _________ in the year ____________ by ______________ passport No. ______________ acting as the manager of the airline ____________________________ <span style="font-size: smaller">[insert airline name]</span>.</div>
+                        </p>
+                      </content>
+                    </wrapup>
+                    <wrapup eId="appendix_ראשונה__point_none__point_4__wrapup_none">
+                      <content>
+                        <p>
+                          <div dir="ltr">(1) I declare that the operation of the airline ____________________________ <span style="font-size: smaller; display:block; display:block">[insert airline name]</span> between ______________ <span style="font-size: smaller; display:block; display:block">[name of the airport in Israel]</span> and ______________ <span style="font-size: smaller; display:block">[name of the airport in the foreign country]</span> satisfies the conditions set out in Regulations 11 to 30 and 33 of the Special Authorities Regulations for the purpose of Coping with the Novel Coronavirus (Temporary Provision) (Restrictions on the Operation of Airports and Flights) 5780-2020 or an alternative measure mean approved pursuant to Regulation 34 of the said Regulations.</div>
+                        </p>
+                      </content>
+                    </wrapup>
+                    <wrapup eId="appendix_ראשונה__point_none__point_4__wrapup_none">
+                      <content>
+                        <p>
+                          <div dir="ltr">(2) I am aware of my duty to satisfy the said conditions in the operation of the aircrafts of the airline for the purpose of protecting public health.</div>
+                        </p>
+                      </content>
+                    </wrapup>
+                    <wrapup eId="appendix_ראשונה__point_none__point_4__wrapup_none">
+                      <content>
+                        <p>
+                          <div dir="ltr">(3) The name of the coordinator in charge of Coronavirus in the airline is ____________________________.</div>
+                        </p>
+                      </content>
+                    </wrapup>
+                    <wrapup eId="appendix_ראשונה__point_none__point_4__wrapup_none">
+                      <content>
+                        <p>
+                          <div dir="ltr">(4) And in witness hereof I am hereby undersigned:</div>
+                          <br space="preserve"></br>
+                          <div dir="ltr">Signature ______________</div>
+                        </p>
+                      </content>
+                    </wrapup>
+                  </list>
+                </point>
+              </list>
+            </point>
+          </list>
+        </part>
+      </appendix>
+      <appendix eId="appendix_שנייה">
+        <num></num>
+        <title>
+          <content>
+            <p>תוספת שנייה</p>
+          </content>
+        </title>
+        <subtitle eId="eId">
+          <num></num>
+          <content>
+            <p>הצהרת בריאות ופרטי איתור נוסע</p>
+          </content>
+        </subtitle>
+        <subtitle eId="eId">
+          <num></num>
+          <content>
+            <p>
+              <wikicomment font-size="x-small">(<ref href="#point_7">תקנות 7</ref><ref href="#point_30">ו־30</ref>)</wikicomment>
+            </p>
+          </content>
+        </subtitle>
+        <part eId="part_א">
+          <num>חלק א׳:</num>
+          <title>
+            <content>
+              <p>פרטי הנוסע והנסיעה</p>
+            </content>
+          </title>
+          <list>
+            <point eId="appendix_שנייה__point_1">
+              <heading>
+                <authorialNote placement="side">
+                  <p xml:space="preserve"> </p>
+                </authorialNote>
+              </heading>
+              <num>(1)</num>
+              <list>
+                <intro>
+                  <p>פרטים אישיים:</p>
+                </intro>
+                <point eId="appendix_שנייה__point_1__point_א">
+                  <num>(א)</num>
+                  <content>
+                    <p>שם פרטי ושם משפחה;</p>
+                  </content>
+                </point>
+                <point eId="appendix_שנייה__point_1__point_ב">
+                  <num>(ב)</num>
+                  <content>
+                    <p>אזרחות;</p>
+                  </content>
+                </point>
+                <point eId="appendix_שנייה__point_1__point_ג">
+                  <num>(ג)</num>
+                  <content>
+                    <p>תושבות ישראלית (כן/לא);</p>
+                  </content>
+                </point>
+                <point eId="appendix_שנייה__point_1__point_ד">
+                  <num>(ד)</num>
+                  <content>
+                    <p>פרטי דרכון: מספר, המדינה המנפיקה;</p>
+                  </content>
+                </point>
+                <point eId="appendix_שנייה__point_1__point_ה">
+                  <num>(ה)</num>
+                  <content>
+                    <p>מספר תעודת זהות (לתושב ישראל);</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="appendix_שנייה__point_2">
+              <heading>
+                <authorialNote placement="side">
+                  <p xml:space="preserve"> </p>
+                </authorialNote>
+              </heading>
+              <num>(2)</num>
+              <content>
+                <p>פרטי קטין שבאחריות הנוסע – כאמור <ref href="#appendix_2_part_א_פרט_1">בפרט (1)(א) עד (ה)</ref>, אם יש;</p>
+              </content>
+            </point>
+            <point eId="appendix_שנייה__point_3">
+              <heading>
+                <authorialNote placement="side">
+                  <p xml:space="preserve"> </p>
+                </authorialNote>
+              </heading>
+              <num>(3)</num>
+              <list>
+                <intro>
+                  <p>פרטי יצירת קשר:</p>
+                </intro>
+                <point eId="appendix_שנייה__point_3__point_א">
+                  <num>(א)</num>
+                  <content>
+                    <p>טלפון נייד כולל קידומת בין־לאומית;</p>
+                  </content>
+                </point>
+                <point eId="appendix_שנייה__point_3__point_ב">
+                  <num>(ב)</num>
+                  <content>
+                    <p>טלפון נייד נוסף כולל קידומת בין־לאומית, אם יש;</p>
+                  </content>
+                </point>
+                <point eId="appendix_שנייה__point_3__point_ג">
+                  <num>(ג)</num>
+                  <content>
+                    <p>כתובת דואר אלקטרוני;</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="appendix_שנייה__point_4">
+              <heading>
+                <authorialNote placement="side">
+                  <p xml:space="preserve"> </p>
+                </authorialNote>
+              </heading>
+              <num>(4)</num>
+              <list>
+                <intro>
+                  <p>פרטי הטיסה:</p>
+                </intro>
+                <point eId="appendix_שנייה__point_4__point_א">
+                  <num>(א)</num>
+                  <content>
+                    <p>שם המפעיל האווירי;</p>
+                  </content>
+                </point>
+                <point eId="appendix_שנייה__point_4__point_ב">
+                  <num>(ב)</num>
+                  <content>
+                    <p>מספר טיסה;</p>
+                  </content>
+                </point>
+                <point eId="appendix_שנייה__point_4__point_ג">
+                  <num>(ג)</num>
+                  <content>
+                    <p>מדינת ההמראה;</p>
+                  </content>
+                </point>
+                <point eId="appendix_שנייה__point_4__point_ד">
+                  <num>(ד)</num>
+                  <content>
+                    <p>תאריך המראה;</p>
+                  </content>
+                </point>
+                <point eId="appendix_שנייה__point_4__point_ה">
+                  <num>(ה)</num>
+                  <content>
+                    <p>תאריך הנחיתה.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+          </list>
+        </part>
+        <part eId="part_ב">
+          <num>חלק ב׳:</num>
+          <title>
+            <content>
+              <p>פרטי יצירת קשר לנוסע נכנס שאינו תושב ישראל</p>
+            </content>
+          </title>
+          <list>
+            <point eId="appendix_שנייה__point_1">
+              <heading>
+                <authorialNote placement="side">
+                  <p xml:space="preserve"> </p>
+                </authorialNote>
+              </heading>
+              <num>(1)</num>
+              <content>
+                <p>כתובת מגורים קבועה מחוץ לישראל: שם המדינה, שם היישוב, שם הרחוב, מספר בית, מספר דירה, מיקוד;</p>
+              </content>
+            </point>
+            <point eId="appendix_שנייה__point_2">
+              <heading>
+                <authorialNote placement="side">
+                  <p xml:space="preserve"> </p>
+                </authorialNote>
+              </heading>
+              <num>(2)</num>
+              <content>
+                <p>כתובת מגורים ראשונה בישראל: שם היישוב, שם הרחוב, מספר בית, מספר דירה, מיקוד; ואם כתובת המגורים הראשונה היא בית מלון – שם בית המלון וכתובתו;</p>
+              </content>
+            </point>
+            <point eId="appendix_שנייה__point_3">
+              <heading>
+                <authorialNote placement="side">
+                  <p xml:space="preserve"> </p>
+                </authorialNote>
+              </heading>
+              <num>(3)</num>
+              <content>
+                <p>פרטי איש קשר ליצירת קשר במצב חירום: שם פרטי ושם משפחה, מספר טלפון נייד כולל קידומת בין־לאומית;</p>
+              </content>
+            </point>
+            <point eId="appendix_שנייה__point_4">
+              <heading>
+                <authorialNote placement="side">
+                  <p xml:space="preserve"> </p>
+                </authorialNote>
+              </heading>
+              <num>(4)</num>
+              <list>
+                <intro>
+                  <p>אם הנסיעה היא כחלק מקבוצה מאורגנת –</p>
+                </intro>
+                <point eId="appendix_שנייה__point_4__point_א">
+                  <num>(א)</num>
+                  <content>
+                    <p>שם מארגן הקבוצה ומספר טלפון כולל קידומת בין־לאומית;</p>
+                  </content>
+                </point>
+                <point eId="appendix_שנייה__point_4__point_ב">
+                  <num>(ב)</num>
+                  <content>
+                    <p>פרטי ראש הקבוצה: שם, מספר טלפון כולל קידומת בין־לאומית.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+          </list>
+        </part>
+        <part eId="part_ג">
+          <num>חלק ג׳ –</num>
+          <title>
+            <content>
+              <p>הפרטים הכלולים בהצהרת בריאות של נוסע</p>
+            </content>
+          </title>
+          <list>
+            <point eId="appendix_שנייה__point_1">
+              <heading>
+                <authorialNote placement="side">
+                  <p xml:space="preserve"> </p>
+                </authorialNote>
+              </heading>
+              <num>(1)</num>
+              <content>
+                <p>הפרטים האישיים שמסר כאמור <ref href="#appendix_2_part_א">בחלק א׳</ref> נכונים ומלאים;</p>
+              </content>
+            </point>
+            <point eId="appendix_שנייה__point_2">
+              <heading>
+                <authorialNote placement="side">
+                  <p xml:space="preserve"> </p>
+                </authorialNote>
+              </heading>
+              <num>(2)</num>
+              <content>
+                <p>הוא אינו חולה (לעניין זה מחלים אינו נחשב ”חולה“);</p>
+              </content>
+            </point>
+            <point eId="appendix_שנייה__point_3">
+              <heading>
+                <authorialNote placement="side">
+                  <p xml:space="preserve"> </p>
+                </authorialNote>
+              </heading>
+              <num>(3)</num>
+              <list>
+                <intro>
+                  <p>ב־14 הימים שקדמו למתן ההצהרה –</p>
+                </intro>
+                <point eId="appendix_שנייה__point_3__point_א">
+                  <num>(א)</num>
+                  <content>
+                    <p>לא היו לו תסמינים;</p>
+                  </content>
+                </point>
+                <point eId="appendix_שנייה__point_3__point_ב">
+                  <num>(ב)</num>
+                  <content>
+                    <p>הוא לא היה במגע הדוק עם חולה;</p>
+                  </content>
+                </point>
+                <point eId="appendix_שנייה__point_3__point_ג">
+                  <num>(ג)</num>
+                  <list>
+                    <intro>
+                      <p>התקיים בו אחד מאלה:</p>
+                    </intro>
+                    <point eId="appendix_שנייה__point_3__point_ג__point_1">
+                      <num>(1)</num>
+                      <content>
+                        <p>לא שהה באותו מקום מגורים עם אדם החייב בבידוד;</p>
+                      </content>
+                    </point>
+                    <point eId="appendix_שנייה__point_3__point_ג__point_2">
+                      <num>(2)</num>
+                      <content>
+                        <p>שהה באותו מקום מגורים עם אדם החייב בבידוד ונהג לפי המלצות משרד הבריאות לבידוד בית, שניתנו לפי <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/צו_בריאות_העם_נגיף_הקורונה_החדש_בידוד_בית_והוראות_שונות_הוראת_שעה#point_2">סעיף 2(ה) לצו בידוד בית</ref>;</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+              </list>
+            </point>
+            <point eId="appendix_שנייה__point_4">
+              <heading>
+                <authorialNote placement="side">
+                  <p xml:space="preserve"> </p>
+                </authorialNote>
+              </heading>
+              <num>(4)</num>
+              <content>
+                <p>הוא מתחייב שלא להגיע לטיסה אם חל שינוי בפרט מהפרטים שעליהם הצהיר;</p>
+              </content>
+            </point>
+            <point eId="appendix_שנייה__point_5">
+              <heading>
+                <authorialNote placement="side">
+                  <p xml:space="preserve"> </p>
+                </authorialNote>
+              </heading>
+              <num>(5)</num>
+              <content>
+                <p>אם הוא אחראי על קטין שמילא את פרטיו באותו טופס – הצהרה זו נכונה גם לאותו קטין;</p>
+              </content>
+            </point>
+            <point eId="appendix_שנייה__point_6">
+              <heading>
+                <authorialNote placement="side">
+                  <p xml:space="preserve"> </p>
+                </authorialNote>
+              </heading>
+              <num>(6)</num>
+              <content>
+                <p>ידוע לו כי הצהרת שקר עלולה לשמש ראיה נגדו בהליך פלילי.</p>
+              </content>
+            </point>
+          </list>
+        </part>
+      </appendix>
+      <appendix eId="appendix_שלישית">
+        <num></num>
+        <title>
+          <content>
+            <p>תוספת שלישית</p>
+          </content>
+        </title>
+        <subtitle eId="eId">
+          <num></num>
+          <content>
+            <p>
+              <wikicomment font-size="x-small">(<ref href="#point_15">תקנה 15(ג)</ref>)</wikicomment>
+            </p>
+          </content>
+        </subtitle>
+        <subtitle eId="eId">
+          <num></num>
+          <content>
+            <p>גיליון בקרה לחיטוי כלי טיס – נגיף הקורונה</p>
+          </content>
+        </subtitle>
+        <list>
+          <point eId="appendix_שלישית__point_none">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num></num>
+            <content>
+              <p>
+                <table>
+                  <tr>
+                    <td colspan="5">
+                      <span style="font-size: larger; display:block; display:block; display:block; display:block">סימני לאומיות ורישום של כלי הטיס: <span style="word-break: break-all;; display:block; display:block; display:block; display:block">. . . . . . . . . . . . . . . . . . . . . .</span></span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th width="20%">תאריך לועזי <br space="preserve"></br><span style="font-size: smaller; display:block; display:block; display:block">(יום/חודש/שנה)</span></th>
+                    <th width="20%">זמן <br space="preserve"></br><span style="font-size: smaller; display:block; display:block">(24 שעות בזמן אוניברסלי מתואם)</span></th>
+                    <th width="20%">שדה התעופה <br space="preserve"></br><span style="font-size: smaller; display:block">(לפי קוד ICAO)</span></th>
+                    <th width="20%">הערות</th>
+                    <th width="20%">שם מבצע החיטוי</th>
+                  </tr>
+                  <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <th colspan="2">אזורים שחוטאו בכלי הטיס</th>
+                    <th>חומר החיטוי שבו נעשה שימוש</th>
+                    <th>הערות</th>
+                    <th>חתימת מבצע החיטוי</th>
+                  </tr>
+                  <tr>
+                    <td colspan="2">□ תא הטייס <br space="preserve"></br> □ תא הנוסעים <br space="preserve"></br> □ תא/י מטען <br space="preserve"></br> אחר: ____________</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                  </tr>
+                </table>
+              </p>
+            </content>
+          </point>
+        </list>
+        <subtitle eId="eId">
+          <num></num>
+          <content>
+            <p>AIRCRAFT COVID-19 DISINFECTION CONTROL SHEET</p>
+          </content>
+        </subtitle>
+        <list>
+          <point eId="appendix_שלישית__point_none">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num></num>
+            <content>
+              <p>
+                <table style="direction: ltr" width="100%">
+                  <tr>
+                    <td colspan="5">
+                      <span style="font-size: larger; display:block; display:block; display:block">Aircraft Registration and nationality: . . . . . . . . . . . . . . . . . . .</span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th width="20%">Date <br space="preserve"></br><span style="font-size: smaller; display:block; display:block; display:block">(dd/mm/yy)</span></th>
+                    <th width="20%">Time <br space="preserve"></br><span style="font-size: smaller; display:block; display:block">(24hr – UTC)</span></th>
+                    <th width="20%">Airport <br space="preserve"></br><span style="font-size: smaller; display:block">(ICAO code)</span></th>
+                    <th width="20%">Remarks</th>
+                    <th width="20%">Disinfector name</th>
+                  </tr>
+                  <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <th colspan="2">Aircraft areas treated</th>
+                    <th>Disinfectant material</th>
+                    <th>Comments</th>
+                    <th>Disinfector signature</th>
+                  </tr>
+                  <tr>
+                    <td colspan="2">□ Flight deck <br space="preserve"></br> □ Passenger cabin <br space="preserve"></br> □ Cargo compartment(s) <br space="preserve"></br> Other: . . . . . . . . . . . . . . . . .</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                  </tr>
+                </table>
+              </p>
+            </content>
+          </point>
+        </list>
+      </appendix>
+      <appendix eId="appendix_רביעית">
+        <num></num>
+        <title>
+          <content>
+            <p>תוספת רביעית</p>
+          </content>
+        </title>
+        <subtitle eId="eId">
+          <num></num>
+          <content>
+            <p>
+              <wikicomment font-size="x-small">(<ref href="#point_6">תקנה 6(א)(2)(א)(1)(ג)</ref>)</wikicomment>
+            </p>
+          </content>
+        </subtitle>
+        <list>
+          <point eId="appendix_רביעית__point_none">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num></num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">(הוראת שעה מיום 14.1.2021 עד ליום 21.1.2021):</wikicomment>
+              </p>
+            </content>
+          </point>
+          <point eId="appendix_רביעית__point_none">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num></num>
+            <content>
+              <p>פרטים שיש לכלול בטופס הצהרה על יציאה ממקום המגורים או ממקום שהייה קבוע אחר לשדה התעופה, למטרה או לפעולה שפורטה <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/תקנות_סמכויות_מיוחדות_להתמודדות_עם_נגיף_הקורונה_החדש_הוראת_שעה_הגבלת_פעילות_והוראות_נוספות#point_2">בתקנה 2(17)(א)(1) לתקנות הגבלת הפעילות</ref> כנוסחה בתקנה 5(2) לתקנות הידוק הגבלות:</p>
+            </content>
+          </point>
+          <point eId="appendix_רביעית__point_1">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>(1)</num>
+            <content>
+              <p>שמו של הנוסע ומספר הזהות או הדרכון שלו;</p>
+            </content>
+          </point>
+          <point eId="appendix_רביעית__point_2">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>(2)</num>
+            <content>
+              <p>הצהרת הנוסע ולפיה יצא ממקום מגוריו או ממקום שהייה קבוע אחר, לטיסה משדה התעופה, לשם פעולה או מטרה כאמור <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/תקנות_סמכויות_מיוחדות_להתמודדות_עם_נגיף_הקורונה_החדש_הוראת_שעה_הגבלת_פעילות_והוראות_נוספות#point_2">בתקנה 2(17)(א)(1) לתקנות הגבלת הפעילות</ref>, כנוסחה בתקנה 5(2) לתקנות הידוק הגבלות;</p>
+            </content>
+          </point>
+          <point eId="appendix_רביעית__point_3">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>(3)</num>
+            <content>
+              <p>חתימת הנוסע ותאריך החתימה;</p>
+            </content>
+          </point>
+          <point eId="appendix_רביעית__point_4">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>(4)</num>
+            <content>
+              <p>רשימת המטרות והפעולות המנויות <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/תקנות_סמכויות_מיוחדות_להתמודדות_עם_נגיף_הקורונה_החדש_הוראת_שעה_הגבלת_פעילות_והוראות_נוספות#point_2">בתקנה 2(17)(א)(1) לתקנות הגבלת הפעילות</ref>, כנוסחה בתקנה 5(2) לתקנות הידוק הגבלות, מביניהן יסמן הנוסע את המטרות או הפעולות הנוגעות לעניינו.</p>
+            </content>
+          </point>
+        </list>
+      </appendix>
+    </body>
+    <conclusions eId="eId">
+      <p class="signatures">
+        <signature>
+          <p>
+            <person refersTo="בנימין_נתניהו">בנימין נתניהו</person>
+            <role refersTo="ראש_הממשלה">ראש הממשלה</role>
+          </p>
+        </signature>
+      </p>
+    </conclusions>
+  </act>
+</akomaNtoso>

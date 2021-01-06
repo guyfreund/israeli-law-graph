@@ -1,0 +1,197 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion" name="publicLaw">
+    <meta>
+      <identification source="#kensset">
+        <FRBRWork>
+          <FRBRthis value="/akn/il/act/SecondaryLegislation/1977-09-07/100010059/main" />
+          <FRBRuri value="/akn/il/act/SecondaryLegislation/1977-09-07/100010059" />
+          <FRBRdate date="1977-09-07" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRcountry value="israel" />
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/il/act/SecondaryLegislation/1977-09-07/100010059/he@/main" />
+          <FRBRuri value="/akn/il/act/SecondaryLegislation/1977-09-07/100010059/he@" />
+          <FRBRdate date="1977-09-07" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRlanguage language="hebrew" />
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/il/act/SecondaryLegislation/1977-09-07/100010059/he@/main.xml" />
+          <FRBRuri value="/akn/il/act/SecondaryLegislation/1977-09-07/100010059/he@" />
+          <FRBRdate date="1977-09-07" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRformat value="xml" />
+        </FRBRManifestation>
+      </identification>
+      <classification source="#kensset">
+        <keyword value="{classificationValue}" showAs="{classificationValue}" dictionary="#classification_dictionary" />
+      </classification>
+      <lifecycle source="#kensset">
+        <eventRef eId="eventRef_1" date="1977-09-07" source="#kensset" type="generation" />
+      </lifecycle>
+      <references source="#kensset">
+        <TLCOrganization eId="kensset" href="/ontology/organization/akn/knesset" showAs="Kensset" type="generation" />
+        <TLCRole eId="author" href="/ontology/role/akn/author" showAs="Author of Document" />
+        <TLCProcess eId="inforce" href="/ontology/process/akn/inforce" showAs="In force" />
+        <TLCPerson eId="שמחה_ארליך" href="/ontology/person/שמחה_ארליך" showAs="שמחה ארליך" />
+        <TLCRole eId="שר_האוצר" href="ontology/role/akn/שר_האוצר" showAs="שר האוצר" />
+      </references>
+      <temporalData source="#kensset">
+        <temporalGroup eId="tmpg_1" />
+      </temporalData>
+      <proprietary wikiversion="1/14/2021 3:06:42 PM" />
+    </meta>
+    <body period="#tmpg_1">
+      <title eId="title">
+        <content>
+          <p>תקנות מס הכנסה (ניכויים בשל דמי לינה או שכירת דירה באזור פיתוח), תשל"ז–1977</p>
+        </content>
+      </title>
+      <subtitle eId="eId">
+        <num></num>
+        <content>
+          <p>תקנות בדבר ניכויים בעד דמי לינה או שכירת דירה באיזור פיתוח</p>
+        </content>
+      </subtitle>
+      <preamble eId="eId">
+        <p>בתוקף סמכותי לפי <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_מס_הכנסה#point_17_13">סעיפים 17(13)(ב)</ref><ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_מס_הכנסה#point_243">ו־243</ref><ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_מס_הכנסה">לפקודת מס הכנסה</ref> (להלן – הפקודה) אני מתקין תקנות אלה:</p>
+      </preamble>
+      <list>
+        <point eId="point_1">
+          <heading>
+            <authorialNote placement="side">
+              <p>ניכוי בעד לינה או שכירת דירה</p>
+            </authorialNote>
+          </heading>
+          <num>1.</num>
+          <list>
+            <point eId="point_1__point_א">
+              <num>(א)</num>
+              <list>
+                <intro>
+                  <p>סכומי הניכוי בעד לינה או שכירת דירה כאמור <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_מס_הכנסה#point_17_13">בסעיף 17(13)(א) לפקודה</ref> לא יעלו –</p>
+                </intro>
+                <point eId="point_1__point_א__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>בעד הוצאות לינה ללילה – על סכום שמשרד התיירות קבע למלון בעל שלושה כוכבים לרבות המסים החלים על לינה זו;</p>
+                  </content>
+                </point>
+                <point eId="point_1__point_א__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>בעד שכירת דירה – על הסכום לכל חודש בשנת המס כמפורט <ref href="#appendix">בתוספת</ref>.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_1__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>משך הניכוי לא יעלה על תקופה של שלוש שנים מיום שהחל הנישום לעבוד דרך קבע בשטח פיתוח, ובלבד שאם הפסיק את עבודתו כאמור למשך שנה לפחות והתחיל לעבוד מחדש בשטח פיתוח, יתחיל מנין תקופת הניכוי מחדש.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_2">
+          <heading>
+            <authorialNote placement="side">
+              <p>תחילה</p>
+            </authorialNote>
+          </heading>
+          <num>2.</num>
+          <content>
+            <p>תחילתן של תקנות אלה מיום י"ג בניסן תשל"ז (1 באפריל 1977).</p>
+          </content>
+        </point>
+        <point eId="point_3">
+          <heading>
+            <authorialNote placement="side">
+              <p>השם</p>
+            </authorialNote>
+          </heading>
+          <num>3.</num>
+          <content>
+            <p>לתקנות אלה ייקרא ”תקנות מס הכנסה (ניכויים בשל דמי לינה או שכירת דירה באזור פיתוח), תשל"ז–1977“.</p>
+          </content>
+        </point>
+      </list>
+      <appendix eId="appendix">
+        <num></num>
+        <title>
+          <content>
+            <p>תוספת</p>
+          </content>
+        </title>
+        <list>
+          <point eId="appendix__point_none">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num></num>
+            <content>
+              <p>
+                <table>
+                  <tr>
+                    <th>שנת המס</th>
+                    <th>הסכום בשקלים</th>
+                  </tr>
+                  <tr>
+                    <td>1981</td>
+                    <td>200</td>
+                  </tr>
+                  <tr>
+                    <td>1982</td>
+                    <td>2250</td>
+                  </tr>
+                  <tr>
+                    <td>1983</td>
+                    <td>4500</td>
+                  </tr>
+                  <tr>
+                    <td>1984</td>
+                    <td>6300</td>
+                  </tr>
+                  <tr>
+                    <td>1985</td>
+                    <td>100,000</td>
+                  </tr>
+                  <tr>
+                    <td colspan="2">
+                      <wikicomment font-size="x-small">(בשנת 2021, 1,790 ש"ח לחודש)</wikicomment>
+                    </td>
+                  </tr>
+                </table>
+              </p>
+            </content>
+          </point>
+          <point eId="appendix__point_none">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num></num>
+            <content>
+              <p>הסכום האמור יתואם בהתאם לאמור <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_מס_הכנסה#point_120ב">בסעיף 120ב לפקודה</ref> כאילו היה תקרת הכנסה ויעוגל לעשרה השקלים החדשים הקרובים.</p>
+            </content>
+          </point>
+        </list>
+      </appendix>
+    </body>
+    <conclusions eId="eId">
+      <p class="signatures">
+        <signature>
+          <p>
+            <person refersTo="שמחה_ארליך">שמחה ארליך</person>
+            <role refersTo="שר_האוצר">שר האוצר</role>
+          </p>
+        </signature>
+      </p>
+    </conclusions>
+  </act>
+</akomaNtoso>

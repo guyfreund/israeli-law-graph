@@ -1,0 +1,1405 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion" name="publicLaw">
+    <meta>
+      <identification source="#kensset">
+        <FRBRWork>
+          <FRBRthis value="/akn/il/act/PrimaryLegislation/1954-03-04/150220/main" />
+          <FRBRuri value="/akn/il/act/PrimaryLegislation/1954-03-04/150220" />
+          <FRBRdate date="1954-03-04" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRcountry value="israel" />
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/il/act/PrimaryLegislation/1954-03-04/150220/he@/main" />
+          <FRBRuri value="/akn/il/act/PrimaryLegislation/1954-03-04/150220/he@" />
+          <FRBRdate date="1954-03-04" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRlanguage language="hebrew" />
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/il/act/PrimaryLegislation/1954-03-04/150220/he@/main.xml" />
+          <FRBRuri value="/akn/il/act/PrimaryLegislation/1954-03-04/150220/he@" />
+          <FRBRdate date="1954-03-04" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRformat value="xml" />
+        </FRBRManifestation>
+      </identification>
+      <classification source="#kensset">
+        <keyword value="{classificationValue}" showAs="{classificationValue}" dictionary="#classification_dictionary" />
+      </classification>
+      <lifecycle source="#kensset">
+        <eventRef eId="eventRef_1" date="1954-03-04" source="#kensset" type="generation" />
+      </lifecycle>
+      <references source="#kensset">
+        <TLCOrganization eId="kensset" href="/ontology/organization/akn/knesset" showAs="Kensset" type="generation" />
+        <TLCRole eId="author" href="/ontology/role/akn/author" showAs="Author of Document" />
+        <TLCProcess eId="inforce" href="/ontology/process/akn/inforce" showAs="In force" />
+        <TLCTerm eId="term_1" href="/ontology/term/שירות_מלחמתי/150220" showAs="שירות_מלחמתי" />
+        <TLCTerm eId="term_2" href="/ontology/term/מעצמות_הברית/150220" showAs="מעצמות_הברית" />
+        <TLCTerm eId="term_3" href="/ontology/term/שלטון_עויין/150220" showAs="שלטון_עויין" />
+        <TLCTerm eId="term_4" href="/ontology/term/נכות/150220" showAs="נכות" />
+        <TLCTerm eId="term_5" href="/ontology/term/נכה/150220" showAs="נכה" />
+        <TLCTerm eId="term_6" href="/ontology/term/בן_משפחה_של_נכה/150220" showAs="בן_משפחה_של_נכה" />
+        <TLCTerm eId="term_7" href="/ontology/term/אח/150220" showAs="אח" />
+        <TLCTerm eId="term_8" href="/ontology/term/זכאי_לתגמול_מוגדל_לפי_הכנסה/150220" showAs="זכאי_לתגמול_מוגדל_לפי_הכנסה" />
+        <TLCTerm eId="term_9" href="/ontology/term/עומד_ברשות_עצמו/150220" showAs="עומד_ברשות_עצמו" />
+        <TLCTerm eId="term_10" href="/ontology/term/הכנסה_מספקת_למחיית_אדם/150220" showAs="הכנסה_מספקת_למחיית_אדם" />
+        <TLCTerm eId="term_11" href="/ontology/term/השכר_הקובע/150220" showAs="השכר_הקובע" />
+        <TLCTerm eId="term_12" href="/ontology/term/הכנסה_נוספת/150220" showAs="הכנסה_נוספת" />
+        <TLCTerm eId="term_13" href="/ontology/term/הדרגה_הקובעת/150220" showAs="הדרגה_הקובעת" />
+        <TLCTerm eId="term_14" href="/ontology/term/גוף_ציבורי/150220" showAs="גוף_ציבורי" />
+        <TLCTerm eId="term_15" href="/ontology/term/גמלת_הבטחת_הכנסה/150220" showAs="גמלת_הבטחת_הכנסה" />
+        <TLCTerm eId="term_16" href="/ontology/term/הטבה_נלווית/150220" showAs="הטבה_נלווית" />
+        <TLCTerm eId="term_17" href="/ontology/term/השכרה_ציבורית/150220" showAs="השכרה_ציבורית" />
+        <TLCTerm eId="term_18" href="/ontology/term/מחוסר_דיור/150220" showAs="מחוסר_דיור" />
+        <TLCPerson eId="משה_שרת" href="/ontology/person/משה_שרת" showAs="משה שרת" />
+        <TLCPerson eId="פנחס_לבון" href="/ontology/person/פנחס_לבון" showAs="פנחס לבון" />
+        <TLCPerson eId="יצחק_בן־צבי" href="/ontology/person/יצחק_בן־צבי" showAs="יצחק בן־צבי" />
+        <TLCRole eId="ראש_הממשלה" href="ontology/role/akn/ראש_הממשלה" showAs="ראש הממשלה" />
+        <TLCRole eId="שר_הבטחון" href="ontology/role/akn/שר_הבטחון" showAs="שר הבטחון" />
+        <TLCRole eId="נשיא_המדינה" href="ontology/role/akn/נשיא_המדינה" showAs="נשיא המדינה" />
+      </references>
+      <temporalData source="#kensset">
+        <temporalGroup eId="tmpg_1" />
+      </temporalData>
+      <Publication></Publication>
+      <proprietary wikiversion="12/30/2020 3:35:56 PM" />
+    </meta>
+    <body period="#tmpg_1">
+      <title eId="title">
+        <content>
+          <p>חוק נכי המלחמה בנאצים, תשי"ד–1954</p>
+        </content>
+      </title>
+      <list>
+        <point eId="point_1" class="definitions">
+          <heading>
+            <authorialNote placement="side">
+              <p>הגדרות</p>
+            </authorialNote>
+          </heading>
+          <num>1.</num>
+          <list>
+            <intro>
+              <p>בחוק זה –</p>
+            </intro>
+            <point eId="point_1__point_שירות_מלחמתי">
+              <content>
+                <p>
+                  <def />”שירות מלחמתי“ – שירות פעיל בצבא אחת ממעצמות הברית בתקופה שבין יום י"ז באלול תרצ"ט (1 בספטמבר 1939) ובין יום כ"ד באלול תש"ה (2 בספטמבר 1945), או באחת היחידות שלחמו במחתרת נגד שלטון עויין, למעט שירות צבאי שחל עליו <ref href="/akn/il/act/PrimaryLegislation/1959-09-23/2002247">חוק הנכים (תגמולים ושיקום), תש"ט–1949</ref> (להלן – חוק תש"ט);</p>
+              </content>
+            </point>
+            <point eId="point_1__point_מעצמות_הברית">
+              <content>
+                <p>
+                  <def />”מעצמות הברית“ – המדינות שחתמו על הצהרת האומות המאוחדות מיום ב׳ בטבת תש"ב (1 בינואר 1942) או הצטרפו אליה בתקופת מלחמת העולם השניה, וכן שאר המדינות אשר נלחמות אותה תקופה נגד גרמניה ובני בריתה, שעה שלחמו נגדם;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_שלטון_עויין">
+              <content>
+                <p>
+                  <def />”שלטון עויין“ ו”תקופת מלחמת העולם השניה“ – כמשמעותם <ref href="/akn/il/act/PrimaryLegislation/1950-08-09/150223">בחוק לעשיית דין בנאצים ובעוזריהם, תש"י–1950</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_נכות">
+              <content>
+                <p>
+                  <def />”נכות“ – איבוד הכושר לפעול פעולה רגילה, בין גופנית ובין שכלית, או פחיתתו של כושר זה;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_נכה">
+              <list>
+                <intro>
+                  <p>
+                    <def />”נכה“ – אדם שלקה בנכות בתקופת שירות מלחמתי עקב אותו שירות כתוצאה של אחת מאלה:</p>
+                </intro>
+                <point eId="point_1__point_נכה__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>חבלה;</p>
+                  </content>
+                </point>
+                <point eId="point_1__point_נכה__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>מחלה;</p>
+                  </content>
+                </point>
+                <point eId="point_1__point_נכה__point_3">
+                  <num>(3)</num>
+                  <content>
+                    <p>החמרת מחלה;</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_1__point_בן_משפחה_של_נכה">
+              <list>
+                <intro>
+                  <p>
+                    <def />”בן משפחה של נכה“ –</p>
+                </intro>
+                <point eId="point_1__point_בן_משפחה_של_נכה__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>אשה, ובכלל זה אשה הגרה יחד עם הנכה והיא ידועה בציבור כאשתו;</p>
+                  </content>
+                </point>
+                <point eId="point_1__point_בן_משפחה_של_נכה__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>ילד – ובכלל זה ילד חורג וילד מאומץ – שטרם מלאו לו שמונה־עשרה שנה, או בהגיעו לגיל שמונה־עשרה לא עמד ברשות עצמו מחמת מום גופני או שכלי, וכל עוד אינו עומד ברשות עצמו מסיבות אלה, אך למעט ילד חורג שאינו סמוך על שולחן הנכה ושמוחזק על־ידי קרובו מלידה שאינו בן־זוגו של הנכה;</p>
+                  </content>
+                </point>
+                <point eId="point_1__point_בן_משפחה_של_נכה__point_3">
+                  <num>(3)</num>
+                  <list>
+                    <intro>
+                      <p>הורה, ובכלל זה הורה חורג והורה מאמץ, שאין לו, זולת הנכה, יותר משני ילדים העומדים ברשות עצמם והוא אחד מאלה:</p>
+                    </intro>
+                    <point eId="point_1__point_בן_משפחה_של_נכה__point_3__point_א">
+                      <num>(א)</num>
+                      <content>
+                        <p>אב שמתקיימים לגביו התנאים שבהגדרה ”זכאי לתגמול מוגדל לפי הכנסה“ שטרם מלאו לו חמישים שנה;</p>
+                      </content>
+                    </point>
+                    <point eId="point_1__point_בן_משפחה_של_נכה__point_3__point_ב">
+                      <num>(ב)</num>
+                      <content>
+                        <p>אב שמלאו לו חמישים שנה, ואין לו הכנסה מספקת למחייתו;</p>
+                      </content>
+                    </point>
+                    <point eId="point_1__point_בן_משפחה_של_נכה__point_3__point_ג">
+                      <num>(ג)</num>
+                      <content>
+                        <p>אם שאין לה הכנסה מספקת למחייתה;</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+                <point eId="point_1__point_בן_משפחה_של_נכה__point_4">
+                  <num>(4)</num>
+                  <content>
+                    <p>אח יתום משני הוריו, אשר טרם מלאו לו שמונה־עשרה שנה, ואינו משתכר למחייתו, ואין לו, זולת הנכה, אח העומד ברשות עצמו, ומחסורו היה על הנכה סמוך לפני התגייסותו של הנכה לשירות;</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_1__point_אח">
+              <content>
+                <p>
+                  <def />”אח“ – כולל אחות;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_זכאי_לתגמול_מוגדל_לפי_הכנסה">
+              <content>
+                <p>
+                  <def />”זכאי לתגמול מוגדל לפי הכנסה“ – אדם שאינו מסוגל להשתכר למחייתו מחמת גילו או מחלתו או ליקויו הגופני או השכלי, וכן אדם שהוכר, לפי כללים שנקבעו בתקנות, כבלתי מסוגל להשתכר למחייתו;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_עומד_ברשות_עצמו">
+              <content>
+                <p>
+                  <def />”עומד ברשות עצמו“ – אדם שמלאו לו שמונה־עשרה שנה ולא מתקיימים לגביו התנאים שבהגדרה ”זכאי לתגמול מוגדל לפי הכנסה“;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_הכנסה_מספקת_למחיית_אדם">
+              <content>
+                <p>
+                  <def />”הכנסה מספקת למחיית אדם“ – הכנסה שהוכרה לפי כללים שנקבעו בתקנות כמספקת למחייתו של אדם והתלויים בו;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_השכר_הקובע">
+              <content>
+                <p>
+                  <def />”השכר הקובע“ – 170.7% מסך כל המשכורת הנהוגה אותה שעה לגבי עובד המדינה שדרגת משכורתו היא 17 של הדירוג המינהלי ושאין משתלמת לו תוספת למשכורתו בזכות בן משפחה;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_הכנסה_נוספת">
+              <content>
+                <p>
+                  <def />”הכנסה נוספת“ של נכה – הכנסתו של נכה מכל מקור שהוא חוץ מתגמולים לפי חוק זה;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_הדרגה_הקובעת">
+              <content>
+                <p>
+                  <def />”הדרגה הקובעת“ – סך המשכורת הנהוגה אותה שעה לגבי עובד המדינה שדרגת משכורתו 22 של הדירוג המינהלי ושאין משתלמת לו תוספת למשכורתו בזכות בן משפחה.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_2">
+          <heading>
+            <authorialNote placement="side">
+              <p>רשות מוסמכת</p>
+            </authorialNote>
+          </heading>
+          <num>2.</num>
+          <content>
+            <p>שר האוצר <wikicomment font-size="x-small">[במקור: שר הבטחון]</wikicomment> ימנה רשות מוסמכת לצורך חוק זה; הודעה על מינוי רשות מוסמכת ועל מענה תפורסם ברשומות.</p>
+          </content>
+        </point>
+        <point eId="point_3">
+          <heading>
+            <authorialNote placement="side">
+              <p>ועדת ערעור</p>
+            </authorialNote>
+          </heading>
+          <num>3.</num>
+          <list>
+            <point eId="point_3__point_א">
+              <num>(א)</num>
+              <content>
+                <p>שר המשפטים ימנה אנשים שמהם ירכיב השופט הראשי של בית המשפט השלום בתל־אביב ועדות ערעורים; הודעה על מינויים כאמור תפורסם ברשומות.</p>
+              </content>
+            </point>
+            <point eId="point_3__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>ועדת ערעור תהיה של שלושה; יושב־ראש הוועדה יהיה שופט, לפחות אחד מחברי הוועדה האחרים יהיה רופא מוסמך.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_4">
+          <heading>
+            <authorialNote placement="side">
+              <p xml:space="preserve"> </p>
+            </authorialNote>
+          </heading>
+          <num>4.</num>
+          <content>
+            <p>
+              <wikicomment font-size="x-small">(בוטל).</wikicomment>
+            </p>
+          </content>
+        </point>
+        <point eId="point_4א">
+          <heading>
+            <authorialNote placement="side">
+              <p>תגמולים</p>
+            </authorialNote>
+          </heading>
+          <num>4א.</num>
+          <list>
+            <point eId="point_4א__point_א">
+              <num>(א)</num>
+              <content>
+                <p>נכה שדרגת נכותו אינה פחותה מ־10% ישולמו לו, כל עוד הוא נכה כאמור, תגמולים בשיעור של אחוז משכרו הקובע לכל אחוז שבדרגת נכותו.</p>
+              </content>
+            </point>
+            <point eId="point_4א__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>סכום התגמול החודשי המשולם לפי סעיף קטן (א) לא יפחת מ־2,433 שקלים חדשים.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_4ב">
+          <heading>
+            <authorialNote placement="side">
+              <p>תגמול למחוסר פרנסה</p>
+            </authorialNote>
+          </heading>
+          <num>4ב.</num>
+          <list>
+            <point eId="point_4ב__point_א">
+              <num>(א)</num>
+              <content>
+                <p>נכה שדרגת נכותו אינה פחותה מ־10% והוא מחוסר פרנסה, ישולם לו, כל עוד הוא מחוסר פרנסה, תגמול חוסר פרנסה בשיעור המפורט בסעיף קטן (ג), במקום התשלום האמור <ref href="#point_4א">בסעיף 4א</ref>.</p>
+              </content>
+            </point>
+            <point eId="point_4ב__point_ב">
+              <num>(ב)</num>
+              <list>
+                <intro>
+                  <p>”נכה מחוסר פרנסה“ – נכה שנתמלאו בו שני אלה:</p>
+                </intro>
+                <point eId="point_4ב__point_ב__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>אין לו הכנסה נוספת;</p>
+                  </content>
+                </point>
+                <point eId="point_4ב__point_ב__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>הוכיח לרשות המוסמכת, לפי כללים שייקבעו בתקנות, כי עשה כל אשר ביכלתו כדי לקבל הכנסה נוספת או להגדילה.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_4ב__point_ג">
+              <num>(ג)</num>
+              <list>
+                <intro>
+                  <p>”תגמול חוסר פרנסה“ –</p>
+                </intro>
+                <point eId="point_4ב__point_ג__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>לנכה שדרגת נכותו מ־10% עד 18% – 67.7% מהדרגה הקובעת;</p>
+                  </content>
+                </point>
+                <point eId="point_4ב__point_ג__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>לנכה שדרגת נכותו מ־19% עד 39% – 98.9% מהדרגה הקובעת;</p>
+                  </content>
+                </point>
+                <point eId="point_4ב__point_ג__point_3">
+                  <num>(3)</num>
+                  <content>
+                    <p>לנכה שדרגת נכותו מ־40% עד 100% – 140.9% מהדרגה הקובעת.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_4ב__point_ד">
+              <num>(ד)</num>
+              <content>
+                <p>בנוסף על האמור בסעיף קטן (ג), לנכה מחוסר פרנסה שאין לו בן משפחה שהוא ילד תשולם תוספת של 10% מתגמוליו, ולנכה מחוסר פרנסה שיש לו בן משפחה שהוא ילד תשולם תוספת של 20% מתגמוליו.</p>
+              </content>
+            </point>
+            <point eId="point_4ב__point_ה">
+              <num>(ה)</num>
+              <list>
+                <intro>
+                  <p>נכה שהיה נחשב כמחוסר פרנסה אילולא הכנסתו הנוספת יחולו עליו הוראות אלה:</p>
+                </intro>
+                <point eId="point_4ב__point_ה__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>היתה הכנסתו הנוספת פחותה ממחצית שכרו הקובע, ישולם לו תגמול חוסר פרנסה לפי הוראות סעיפים קטנים (א) ו־(ב);</p>
+                  </content>
+                </point>
+                <point eId="point_4ב__point_ה__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>עלתה הכנסתו הנוספת על מחצית שכרו הקובע, ישולם לו, במקום התגמולים האמורים <ref href="#point_4א">בסעיף 4א</ref>, תגמול כאמור בסעיפים קטנים (ג) ו־(ד), בניכוי אותו חלק מהכנסתו הנוספת העולה על מחצית שכרו הקובע, ובלבד שלא יפחת התגמול מהתגמול האמור <ref href="#point_4א">בסעיף 4א</ref>.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+          </list>
+        </point>
+        <point eId="point_4ג">
+          <heading>
+            <authorialNote placement="side">
+              <p>תגמולים מיוחדים</p>
+            </authorialNote>
+          </heading>
+          <num>4ג.</num>
+          <list>
+            <point eId="point_4ג__point_א">
+              <num>(א)</num>
+              <content>
+                <p>נכה זכאי לתגמול מוגדל לפי הכנסה שדרגת נכותו אינה פחותה מ־50% ואין לו הכנסה נוספת, ישולמו לו במקום התגמולים האמורים <ref href="#point_4א">בסעיפים 4א</ref><ref href="#point_4ב">או 4ב</ref>, תגמולים בשיעור 217.6% מסך כל המשכורת המשתלמת לעובד המדינה שדרגת משכורתו היא 22 של הדירוג המינהלי ושאין משתלמת לו תוספת למשכורתו בזכות בן משפחה.</p>
+              </content>
+            </point>
+            <point eId="point_4ג__point_ב">
+              <num>(ב)</num>
+              <list>
+                <intro>
+                  <p>בנוסף על האמור בסעיף קטן (א), נכה זכאי לתגמול מוגדל לפי הכנסה שדרגת נכותו אינה פחותה מ־60%, תשולם לו תוספת לתגמוליו כמפורט להלן:</p>
+                </intro>
+                <point eId="point_4ג__point_ב__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>לנכה שדרגת נכותו מ־60 עד 69% – תוספת של 5% מן התגמולים שהיו משתלמים לו לפי <ref href="#point_4א">סעיף 4א</ref> אילו לא היה נצרך (להלן – התגמולים הרגילים);</p>
+                  </content>
+                </point>
+                <point eId="point_4ג__point_ב__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>לנכה שדרגת נכותו מ־70% עד 79% – תוספת של 10% מן התגמולים הרגילים;</p>
+                  </content>
+                </point>
+                <point eId="point_4ג__point_ב__point_3">
+                  <num>(3)</num>
+                  <content>
+                    <p>לנכה שדרגת נכותו מ־80% עד 89% – תוספת של 15% מן התגמולים הרגילים;</p>
+                  </content>
+                </point>
+                <point eId="point_4ג__point_ב__point_4">
+                  <num>(4)</num>
+                  <content>
+                    <p>לנכה שדרגת נכותו מ־90% עד 100% – תוספת של 20% מן התגמולים הרגילים.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_4ג__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>נכה זכאי לתגמול מוגדל לפי הכנסה שדרגת נכותו אינה פחותה מ־50% ויש לו הכנסה נוספת, ישולמו לו תגמולים לפי סעיפים קטנים (א) ו־(ב) בניכוי הכנסתו הנוספת, ובלבד שלא יפחת התגמול מהתגמול האמור <ref href="#point_4א">בסעיף 4א</ref>.</p>
+              </content>
+            </point>
+            <point eId="point_4ג__point_ד">
+              <num>(ד)</num>
+              <list>
+                <intro>
+                  <p>בעל דרגת נכות מיוחדת, שנקבעה לפי כללים שפורטו בתקנות, ישולמו לו, נוסף לתגמוליו, כל עוד הוא בעל דרגת נכות כזו –</p>
+                </intro>
+                <point eId="point_4ג__point_ד__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>אם איננו זכאי לתגמול מוגדל לפי הכנסה – תוספת של 30% לתגמוליו ותגמולים מיוחדים בשיעור שייקבע לפי אותם כללים;</p>
+                  </content>
+                </point>
+                <point eId="point_4ג__point_ד__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>אם הוא זכאי לתגמול מוגדל לפי הכנסה – תגמולים מיוחדים כאמור בפיסקה (1).</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+          </list>
+        </point>
+        <point eId="point_4ד">
+          <heading>
+            <authorialNote placement="side">
+              <p>תגמול לפי הכנסה</p>
+            </authorialNote>
+          </heading>
+          <num>4ד.</num>
+          <list>
+            <point eId="point_4ד__point_א">
+              <num>(א)</num>
+              <list>
+                <intro>
+                  <p>נכה זכאי לתגמול מוגדל לפי הכנסה שדרגת נכותו פחותה מ־50% אך אינה פחותה מ־10% (להלן – נכה זכאי לתגמול לפי הכנסה) ואין לו הכנסה נוספת, ישולמו לו, במקום התגמולים האמורים <ref href="#point_4א">בסעיפים 4א</ref><ref href="#point_4ב">או 4ב</ref>, התגמולים שלהלן:</p>
+                </intro>
+                <point eId="point_4ד__point_א__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>לנכה זכאי לתגמול לפי הכנסה שדרגת נכותו מ־10% עד 18% – 159.8% מן המשכורת המשתלמת לעובד המדינה שדרגת משכורתו היא 20 של הדירוג המינהלי;</p>
+                  </content>
+                </point>
+                <point eId="point_4ד__point_א__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>לנכה זכאי לתגמול לפי הכנסה שדרגת נכותו מ־19% עד 39% – 163.8% מן המשכורת כאמור;</p>
+                  </content>
+                </point>
+                <point eId="point_4ד__point_א__point_3">
+                  <num>(3)</num>
+                  <content>
+                    <p>לנכה זכאי לתגמול לפי הכנסה שדרגת נכותו מ־40% עד 49% – 178.7% מן המשכורת כאמור.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_4ד__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>נכה זכאי לתגמול לפי הכנסה שיש לו הכנסה נוספת, ישולמו לו תגמולים לפי סעיף קטן (א) בניכוי הכנסתו הנוספת, ובלבד שלא יפחת התגמול מהתגמול האמור <ref href="#point_4א">בסעיף 4א</ref>.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_4ד1" class="definitions">
+          <heading>
+            <authorialNote placement="side">
+              <p>שמירת הטבות</p>
+            </authorialNote>
+          </heading>
+          <num>4ד1.</num>
+          <list>
+            <intro>
+              <p>נכה שהפסיק לקבל גמלת הבטחת הכנסה עקב הגדלת התגמול המשולם לפי <ref href="#point_4א">סעיף 4א</ref>, יוסיף להיות זכאי להטבה נלווית שניתנה לו לפני הגדלת התגמול, אלא אם כן חדלה הזכאות להטבה הנלווית לפי ההוראות שמכוחן ניתנה; מי שזכאי להטבה נלווית, ובאותו עניין שבתחומי ההטבה הנלווית הוא זכאי להטבה מכוח דין או הסדר אחר, יהיה זכאי להטבה בשיעור הגבוה מביניהן; לעניין זה –</p>
+            </intro>
+            <point eId="point_4ד1__point_גוף_ציבורי">
+              <content>
+                <p>
+                  <def />”גוף ציבורי“ – הממשלה, וכן גוף מתוקצב או גוף נתמך כהגדרתם <ref href="/akn/il/act/PrimaryLegislation/1985-04-03/150399#point_32">בסעיף 32 לחוק יסודות התקציב, התשמ"ה–1985</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_4ד1__point_גמלת_הבטחת_הכנסה">
+              <content>
+                <p>
+                  <def />”גמלת הבטחת הכנסה“ – גמלה לפי <ref href="/akn/il/act/PrimaryLegislation/1980-12-01/147335">חוק הבטחת הכנסה, התשמ"א–1980</ref>, או גמלת השלמת הכנסה לפי סעיף 9 להסכם בדבר מתן גמלאות אזרח ותיק ושאירים מיוחדות כהגדרתו <ref href="/akn/il/act/PrimaryLegislation/1995-05-15/158093">בחוק הביטוח הלאומי [נוסח משולב], התשנ"ה–1995</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_4ד1__point_הטבה_נלווית">
+              <content>
+                <p>
+                  <def />”הטבה נלווית“ – הטבה או מענק, שאינם תשלום גמלה חודשית, הניתנים למקבל גמלת הבטחת הכנסה מכוח כל דין או הסדר או על ידי גוף ציבורי לפי הסכם או נוהג.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_4ה">
+          <heading>
+            <authorialNote placement="side">
+              <p>דרכי החישוב של הכנסה נוספת</p>
+            </authorialNote>
+          </heading>
+          <num>4ה.</num>
+          <content>
+            <p>שר האוצר רשאי לקבוע בתקנות כי לענין הזכאות של נכה לתגמול ולענין ניכוי הכנסה נוספת מתגמול לפי חוק זה תחושב הכנסתו של הנכה לפי תקופה מסויימת לפני המועד של תשלום התגמול.</p>
+          </content>
+        </point>
+        <point eId="point_4ו">
+          <heading>
+            <authorialNote placement="side">
+              <p>תיאום דרגת משכורת</p>
+            </authorialNote>
+          </heading>
+          <num>4ו.</num>
+          <content>
+            <p>חל בזמן מן הזמנים שינוי בסולם דרגות המשכורת של עובדי המדינה, יחושבו השכר הקובע והתגמולים המיוחדים לפי סולם דרגות המשכורת המחייב אותו זמן לפי הקבלה שקבעה הממשלה.</p>
+          </content>
+        </point>
+        <point eId="point_5">
+          <heading>
+            <authorialNote placement="side">
+              <p>העלאת שיעורי תגמולים</p>
+            </authorialNote>
+          </heading>
+          <num>5.</num>
+          <content>
+            <p>שר האוצר באישור ועדת הכספים של הכנסת רשאי להעלות בצו את שיעור השכר הקובע ואת שיעור הדרגה הקובעת וכן את שיעורי התגמולים המשתלמים לפי חוק זה לרבות הסכום האמור <ref href="#point_4א">בסעיף 4א(ב)</ref>.</p>
+          </content>
+        </point>
+        <point eId="point_6">
+          <heading>
+            <authorialNote placement="side">
+              <p>דרגת נכות</p>
+            </authorialNote>
+          </heading>
+          <num>6.</num>
+          <list>
+            <point eId="point_6__point_א">
+              <num>(א)</num>
+              <content>
+                <p>שר האוצר ימנה ועדה רפואית לענין חוק זה, והיא תקבע מזמן לזמן את דרגת נכותו של נכה.</p>
+              </content>
+            </point>
+            <point eId="point_6__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>דרגות נכות ותקופות תחולתן ייקבעו לפי מבחנים וכללים שיתקין שר האוצר.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_6א">
+          <heading>
+            <authorialNote placement="side">
+              <p>ליווי בוועדה רפואית</p>
+            </authorialNote>
+          </heading>
+          <num>6א.</num>
+          <list>
+            <intro>
+              <p>נכה זכאי לליווי של המנויים בפסקאות (1) עד (3), בהסכמתו ולפי בחירתו, בדיונים של ועדה רפואית שבהם הוא נוכח, ובלבד שמספר המלווים לא יעלה על שניים:</p>
+            </intro>
+            <point eId="point_6א__point_1">
+              <num>(1)</num>
+              <content>
+                <p>בא כוחו של הנכה;</p>
+              </content>
+            </point>
+            <point eId="point_6א__point_2">
+              <num>(2)</num>
+              <content>
+                <p>בן משפחה של הנכה;</p>
+              </content>
+            </point>
+            <point eId="point_6א__point_3">
+              <num>(3)</num>
+              <content>
+                <p>אדם קרוב לנכה.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_7">
+          <heading>
+            <authorialNote placement="side">
+              <p>בקשות</p>
+            </authorialNote>
+          </heading>
+          <num>7.</num>
+          <list>
+            <point eId="point_7__point_א">
+              <num>(א)</num>
+              <content>
+                <p>התובע תגמול לפי חוק זה וכל זכות אחרת יגיש בקשה לרשות המוסמכת.</p>
+              </content>
+            </point>
+            <point eId="point_7__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>הזכות להגיש בקשה כאמור תתיישן כתום שנה מיום פרסומו של חוק זה ברשומות ובנכה שהיה תושב קבוע בישראל לאחר פרסומו של חוק זה ברשומות – כתום שנה מיום שבו היה לתושב קבוע בישראל.</p>
+              </content>
+            </point>
+            <point eId="point_7__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>הרשות המוסמכת תודיע לתובע בדואר רשום את החלטתה; היתה ההחלטה שלילית – תפרש את נימוקיה.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_8">
+          <heading>
+            <authorialNote placement="side">
+              <p>תחילת התגמול</p>
+            </authorialNote>
+          </heading>
+          <num>8.</num>
+          <content>
+            <p>תגמול כאמור בחוק זה מגיע לנכה מיום הגשת הבקשה, ואם הוגשה הבקשה לפני תחילת תקפו של חוק זה – מיום תחילת תקפו, אולם ועדה רפואית רשאית לקבוע לתחילת התגמולים תאריך מאוחר יותר.</p>
+          </content>
+        </point>
+        <point eId="point_9">
+          <heading>
+            <authorialNote placement="side">
+              <p>תשלום התגמול</p>
+            </authorialNote>
+          </heading>
+          <num>9.</num>
+          <list>
+            <point eId="point_9__point_א">
+              <num>(א)</num>
+              <content>
+                <p>התגמול ישולם בסופו של כל חודש.</p>
+              </content>
+            </point>
+            <point eId="point_9__point_ב">
+              <num>(ב)</num>
+              <list>
+                <point eId="point_9__point_ב__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>זכות לתגמול אינה ניתנת להעברה או לשעבוד, אינה יכולה לשמש לערבות ואין להטיל עליה עיקול, אלא לשם הבטחת פרעונם של מילוות שניתנו לנכה מאוצר המדינה או בערבות המדינה או מקרן שהמדינה ערבה להפסדיה. אולם רשאים הרשות המוסמכת להורות שיעכבו מתגמוליו החדשיים של נכה חלק שאינו עולה על שליש מהם עד שיסולק כל המגיע לאוצר המדינה מהנכה על פי ערבות שנתנה המדינה.</p>
+                  </content>
+                </point>
+                <point eId="point_9__point_ב__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>הוראות סעיף קטן זה יחולו גם על תגמול ששולם באמצעות תאגיד בנקאי כמשמעותו <ref href="/akn/il/act/PrimaryLegislation/1981-04-26/147066">בחוק הבנקאות (רישוי), התשמ"א–1981</ref>, או באמצעות החברה, כהגדרתה <ref href="/akn/il/act/PrimaryLegislation/1986-01-28/151356">בחוק הדואר, התשמ"ו–1986</ref>, בנותנה שירותים לפי <ref href="/akn/il/act/PrimaryLegislation/1986-01-28/151356#point_88א">סעיף 88א לאותו חוק</ref> (בסעיף זה – החברה), במשך שלושים ימים מיום ששולם; ואולם רשאי התאגיד הבנקאי או החברה, לפי הענין, לנכות מהתגמול כל סכום שנתנו לזכאי לתגמול על חשבון התגמול.<br space="preserve"></br><wikicomment font-size="x-small">(החל מהיום הקובע לתחילתו של <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/http_fs_knesset_gov_il_18_law_18_lsr_301460_pdf">חוק הדואר (תיקון מס׳ 11), התשע"ב–2012</ref>, ביום 31.1.2021):</wikicomment> הוראות סעיף קטן זה יחולו גם על תגמול ששולם באמצעות תאגיד בנקאי כמשמעותו <ref href="/akn/il/act/PrimaryLegislation/1981-04-26/147066">בחוק הבנקאות (רישוי), התשמ"א–1981</ref>, או באמצעות החברה הבת, כהגדרתה <ref href="/akn/il/act/PrimaryLegislation/1986-01-28/151356">בחוק הדואר, התשמ"ו–1986</ref> (בסעיף זה – החברה הבת), במשך שלושים ימים מיום ששולם; ואולם רשאי התאגיד הבנקאי או החברה הבת, לפי הענין, לנכות מהתגמול כל סכום שנתנו לזכאי לתגמול על חשבון התגמול.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_9__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>על אף האמור בסעיף קטן (ב) רשאית הרשות המוסמכת לנכות מן התגמול דמי חברות לטובת ארגון, שהוכרז על־ידי שר האוצר כארגון יציג של נכים, ותשלומים לקרן עזרה הדדית של אותו ארגון ודמי השתתפות בביטוח חיים הדדי שסידר הארגון.</p>
+              </content>
+            </point>
+            <point eId="point_9__point_ד">
+              <num>(ד)</num>
+              <content>
+                <p>שר האוצר, באישור ועדת העבודה של הכנסת, יקבע בתקנות את הסכום המקסימלי שמותר לנכות כל חודש מתגמוליו של נכה לפי סעיף קטן (ג).</p>
+              </content>
+            </point>
+            <point eId="point_9__point_ה">
+              <num>(ה)</num>
+              <content>
+                <p>הודיע הנכה לרשות המוסמכת בכתב על התנגדותו לניכוי, יופסק הניכוי בתום חודש מיום קבלת ההודעה.</p>
+              </content>
+            </point>
+            <point eId="point_9__point_ו">
+              <num>(ו)</num>
+              <content>
+                <p>שולמו לנכה כספים למעלה מן התגמול המגיע לו, רשאית רשות מוסמכת לעכב מתגמוליו עד כדי הסכום ששולם למעלה מן המגיע.</p>
+              </content>
+            </point>
+            <point eId="point_9__point_ז">
+              <num>(ז)</num>
+              <content>
+                <p>נכה שלא גבה תגמול תוך שנה מיום שהתגמול הוצא לתשלום פקעה זכותו לקבלו, אלא אם כן הורתה הרשות המוסכמת הוראה אחרת.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_10">
+          <heading>
+            <authorialNote placement="side">
+              <p>התנהגות רעה חמורה</p>
+            </authorialNote>
+          </heading>
+          <num>10.</num>
+          <content>
+            <p>לא ישולם תגמול לפי חוק זה לנכה שהתנהגות רעה וחמורה שלו גרמה לנכותו; אך אם הנכה זכאי לתגמול מוגדל לפי הכנסה, רשאית הרשות המוסמכת לשלם לו תגמול שייראה לה, ובלבד שלא יעלה על התגמול שהנכה היה זכאי לו, אילמלא סעיף זה.</p>
+          </content>
+        </point>
+        <point eId="point_11">
+          <heading>
+            <authorialNote placement="side">
+              <p>בדיקות</p>
+            </authorialNote>
+          </heading>
+          <num>11.</num>
+          <list>
+            <point eId="point_11__point_א">
+              <num>(א)</num>
+              <content>
+                <p>התובע או מקבל תגמולים לפי חוק זה חייב, לפי דרישת הרשות המוסמכת, להתייצב לבדיקה רפואית בכל עת ובכל מקום שיידרש; לא התייצב לבדיקה כאמור, ללא צידוק מספיק, רשאית הרשות המוסמכת למנוע ממנו תגמול או להפסיק את תשלומו עד שיתייצב.</p>
+              </content>
+            </point>
+            <point eId="point_11__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>הרשות המוסמכת שנתבקשה על־ידי אדם התובע או מקבל תגמול לפי חוק זה להעמידו לבדיקת ועדה רפואית, תעשה כמבוקש ובלבד ששילם המבקש מראש את הוצאותיה אם הרשות המוסמכת דרשה זאת ממנו.</p>
+              </content>
+            </point>
+            <point eId="point_11__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>מי שנבדק לפי בקשת עצמו ישא בהוצאות הבדיקה הרפואית בסכום שתקבע הרשות המוסמכת ומותר יהיה לנכותן מתגמוליו במידה שלא שילמן מראש; אולם אם קבעה הבדיקה, שדרגת נכותו עלתה מאז בדיקתו האחרונה, לא ישא הנכה בהוצאות וכל סכום ששילם מראש יוחזר לו.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_12">
+          <heading>
+            <authorialNote placement="side">
+              <p>סירוב לקבל טיפול רפואי</p>
+            </authorialNote>
+          </heading>
+          <num>12.</num>
+          <content>
+            <p>היתה ועדה רפואית סבורה, שאילו קיבל נכה טיפול רפואי, היתה דרגת נכותו פוחתת והוא סירב, ללא צידוק מספיק, לקבל את הטיפול – רשאית הרשות המוסמכת להורות כי כל תגמול שהנכה זכאי לו, יופחת עד מחציתו.</p>
+          </content>
+        </point>
+        <point eId="point_12א">
+          <heading>
+            <authorialNote placement="side">
+              <p>ועדה רפואית עליונה</p>
+            </authorialNote>
+          </heading>
+          <num>12א.</num>
+          <list>
+            <point eId="point_12א__point_א">
+              <num>(א)</num>
+              <content>
+                <p>נכה הרואה עצמו נפגע על־ידי החלטה של ועדה רפואית רשאי, בתנאים שייקבעו בתקנות, לערער עליה בפני ועדה רפואית עליונה בתוך שישים ימים מיום שנמסרה לו ההחלטה.</p>
+              </content>
+            </point>
+            <point eId="point_12א__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>הרשות המוסמכת רשאית, בתנאים שייקבעו בתקנות, לערער בפני ועדה רפואית עליונה על כל החלטה של ועדה רפואית בתוך שישים ימים מיום שנמסרה לה ההחלטה.</p>
+              </content>
+            </point>
+            <point eId="point_12א__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>אופן הרכבת ועדה רפואית עליונה, סמכויותיה ודרכי עבודתה ייקבעו בתקנות.</p>
+              </content>
+            </point>
+            <point eId="point_12א__point_ד">
+              <num>(ד)</num>
+              <content>
+                <p>הוראות <ref href="#point_6א">סעיף 6א</ref> יחולו, בשינויים המחויבים, על הוועדה הרפואית העליונה.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_12ב">
+          <heading>
+            <authorialNote placement="side">
+              <p>ערעור לפני בית המשפט המחוזי</p>
+            </authorialNote>
+          </heading>
+          <num>12ב.</num>
+          <list>
+            <point eId="point_12ב__point_א">
+              <num>(א)</num>
+              <content>
+                <p>נכה וכן הרשות המוסמכת רשאים לערער על החלטת ועדה רפואית עליונה לפני בית המשפט המחוזי, בנקודה משפטית בלבד בתוך שישים ימים מיום שנמסרה להם ההחלטה.</p>
+              </content>
+            </point>
+            <point eId="point_12ב__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>בית המשפט הדן בערעור רשאי לאשר את החלטת הועדה הרפואית העליונה, לבטלה, לשנותה או להחזירה לועדה.</p>
+              </content>
+            </point>
+            <point eId="point_12ב__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>שר המשפטים רשאי לקבוע בתקנות את המועד להגשת הערעור לפי סעיף קטן (א), את אופן הגשתו ואת סדרי הדין בו.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_13">
+          <heading>
+            <authorialNote placement="side">
+              <p>נטילת תגמול</p>
+            </authorialNote>
+          </heading>
+          <num>13.</num>
+          <content>
+            <p>נכה המקבל תגמולים ואינו מפרנס את בני משפחתו, רשאית הרשות המוסמכת ליטול לידיה את התגמולים ולהשתמש בהם לטובת הנכה ובני משפחתו האמורים, או להורות שאדם ממונה על־ידי הרשות המוסמכת יעשה זאת או שהתגמול בעד בן משפחה ישולם למי שאותו בן משפחה נתון להשגחתו.</p>
+          </content>
+        </point>
+        <point eId="point_13א">
+          <heading>
+            <authorialNote placement="side">
+              <p>תגמולים אחרי פטירתו של נכה</p>
+            </authorialNote>
+          </heading>
+          <num>13א.</num>
+          <list>
+            <point eId="point_13א__point_א">
+              <num>(א)</num>
+              <content>
+                <p>נפטר נכה שערב פטירתו היה זכאי לתגמול לפי <ref href="#point_4א">סעיף 4א</ref><ref href="#point_4ב">או 4ב</ref> או לפי תקנות על פי <ref href="#point_24">סעיף 24(ב)(1)</ref>, יוסיפו לשלם את התגמול, בשיעור שהיה משתלם אותה שעה מתום התקופה האמורה תשולם לבן זוגו, כל עוד לא נישא, קצבה חודשית בסכום של 2,000 שקלים חדשים.</p>
+              </content>
+            </point>
+            <point eId="point_13א__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>נפטר נכה שערב פטירתו היה זכאי לתגמול לפי <ref href="#point_4ג">סעיף 4ג</ref> במשך תקופה רצופה של שלושה חדשים לפחות, ישלמו לבן־זוגו כל עוד לא נישא תגמול בשיעור של 155% מסך כל המשכורת הנהוגה אותה שעה לגבי עובד המדינה שדרגת משכורתו היא 20 של הדירוג המינהלי, בניכוי הכנסתו מכל מקור אחר.</p>
+              </content>
+            </point>
+            <point eId="point_13א__point_ב1">
+              <num>(ב1)</num>
+              <list>
+                <intro>
+                  <p>נפטר נכה שערב פטירתו היה זכאי לתגמול לפי <ref href="#point_4ד">סעיף 4ד</ref> במשך תקופה רצופה של שלושה חדשים לפחות, ישולם לבן זוגו כל עוד לא נישא תגמול בשיעורים שלהלן, בניכוי הכנסת בן הזוג מכל מקור אחר:</p>
+                </intro>
+                <point eId="point_13א__point_ב1__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>היתה לנכה דרגת נכות מ־10% עד 18% – 136.1% מן המשכורת המשתלמת לעובד המדינה שדרגת משכורתו היא 20 של הדירוג המינהלי;</p>
+                  </content>
+                </point>
+                <point eId="point_13א__point_ב1__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>היתה לנכה דרגת נכות מ־19% עד 39% – 140.2% מן המשכורת כאמור;</p>
+                  </content>
+                </point>
+                <point eId="point_13א__point_ב1__point_3">
+                  <num>(3)</num>
+                  <content>
+                    <p>היתה לנכה דרגת נכות מ־40% עד 49% – 155% מן המשכורת כאמור.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_13א__point_ב2">
+              <num>(ב2)</num>
+              <content>
+                <p>סכום התגמול המשתלם לפי סעיף זה לא יפחת מ־2,000 שקלים חדשים; סכום זה וכן סכום הקצבה החודשית המשתלם לפי סעיף קטן (א) יעודכנו בהתאם לשינויים שיחולו בתוספת היוקר בלבד.</p>
+              </content>
+            </point>
+            <point eId="point_13א__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>באין בן־זוג לנכה, יוסיפו לשלם את התגמולים לפי סעיף זה לידי בן המשפחה שהורה עליו הנכה לפי <ref href="#point_20">סעיף 20</ref>, ובאין הוראה – לידי בן המשפחה שהורתה עליו הרשות המוסמכת, עד תום שנים־עשר חדשים מסוף החודש שבו אירעה הפטירה.</p>
+              </content>
+            </point>
+            <point eId="point_13א__point_ד">
+              <num>(ד)</num>
+              <content>
+                <p>יצא הזכאי לתגמול לפי סעיף זה אל מחוץ לישראל לתקופה העולה על ששה חדשים – לא ישולם לו תגמול החל ממועד יציאתו אלא אם קבעה הרשות המוסמכת אחרת, מטעם מיוחד.</p>
+              </content>
+            </point>
+            <point eId="point_13א__point_ה">
+              <num>(ה)</num>
+              <content>
+                <p>הוראות <ref href="#point_4ה">סעיפים 4ה</ref>, <ref href="#point_9">9</ref>, <ref href="#point_14">14</ref>, <ref href="#point_20">20</ref>, <ref href="#point_23">23</ref><ref href="#point_28">ו־28</ref> יחולו על תגמול המשתלם לפי סעיף זה, בתיאומים המחוייבים.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_14">
+          <heading>
+            <authorialNote placement="side">
+              <p>ערעור</p>
+            </authorialNote>
+          </heading>
+          <num>14.</num>
+          <list>
+            <point eId="point_14__point_א">
+              <num>(א)</num>
+              <content>
+                <p>הרואה עצמו נפגע על־ידי החלטת הרשות המוסמכת רשאי לערער עליה לפני ועדת ערעור בתוך שישים ימים מיום שבו הגיעה אליו ההודעה על החלטת הרשות המוסמכת; אולם רשאית הוועדה להאריך לו את מועד הערעור לתקופה נוספת שלא תעלה על שלושים יום.</p>
+              </content>
+            </point>
+            <point eId="point_14__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>הערעור יוגש לוועדה בכתב בשני טפסים; אחד מהם תישלח הוועדה לרשות או לוועדה שעל החלטתן מערערים.</p>
+              </content>
+            </point>
+            <point eId="point_14__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>ועדת הערעור רשאית לאשר את ההחלטה שמערערים עליה או לשנותה.</p>
+              </content>
+            </point>
+            <point eId="point_14__point_ד">
+              <num>(ד)</num>
+              <content>
+                <p>תובע שהגיש ערעור רשאי, הוא או בא־כוחו, להופיע לפניה, ולטעון את טענותיו.</p>
+              </content>
+            </point>
+            <point eId="point_14__point_ה">
+              <num>(ה)</num>
+              <content>
+                <p>אדם הבא לפני ועדת ערעור כבא־כוחו של תובע, לא יהיה זכאי לשכר טרחה אלא באישור ועדת הערעור על פי בקשתו, ובשיעור שתקבע הוועדה.</p>
+              </content>
+            </point>
+            <point eId="point_14__point_ו">
+              <num>(ו)</num>
+              <content>
+                <p>ועדת ערעור תתן נימוקים להחלטתה.</p>
+              </content>
+            </point>
+            <point eId="point_14__point_ז">
+              <num>(ז)</num>
+              <content>
+                <p>יושב־ראש ועדת הערעור ישלח מיד בדואר רשום, העתק החלטת הוועדה לתובע ולמי שנתן את ההחלטה.</p>
+              </content>
+            </point>
+            <point eId="point_14__point_ח">
+              <num>(ח)</num>
+              <content>
+                <p>התובע והרשות המוסמכת רשאים לערער על החלטת ועדת ערעור לפני בית־המשפט המחוזי אך אין לערער אלא בנקודה משפטית בלבד בתוך שישים ימים מיום שנמסרה להם ההחלטה.</p>
+              </content>
+            </point>
+            <point eId="point_14__point_ט">
+              <num>(ט)</num>
+              <content>
+                <p>בית המשפט המחוזי ידון בשלושה ורשאי לאשר את החלטת ועדת הערעור, לשנותה או לבטלה או להחזיר את הענין, עם הוראות, לועדה.</p>
+              </content>
+            </point>
+            <point eId="point_14__point_י">
+              <num>(י)</num>
+              <content>
+                <p>על פסק דין של בית המשפט המחוזי בערעור ניתן לערער לפני בית המשפט העליון אם נתקבלה רשות לכך מאת שופט של בית המשפט העליון.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_14א">
+          <heading>
+            <authorialNote placement="side">
+              <p>תקנות סדרי דין</p>
+            </authorialNote>
+          </heading>
+          <num>14א.</num>
+          <content>
+            <p>שר המשפטים רשאי לקבוע בתקנות את המועד להגשת ערעורים ובקשות רשות לערער לפי <ref href="#point_14">סעיף 14(ח) ו־(י)</ref>, את אופן הגשתם ואת סדרי הדין בהם.</p>
+          </content>
+        </point>
+        <point eId="point_15">
+          <heading>
+            <authorialNote placement="side">
+              <p>החלטות חדשות</p>
+            </authorialNote>
+          </heading>
+          <num>15.</num>
+          <content>
+            <p>רשות מוסמכת רשאית לחזור ולהחליט בכל ענין החלטה שונה מן הקודמת, אף אם היתה ההחלטה הקודמת סופית לפי <ref href="#point_14">סעיף 14</ref>, אם הוכח, שההחלטה הקודמת הושגה על־ידי מעשה או מחדל המהווים עבירה פלילית, או אם נתגלה על סמך ראיות חדשות כי יסודה בטעות.</p>
+          </content>
+        </point>
+        <point eId="point_16">
+          <heading>
+            <authorialNote placement="side">
+              <p>המרת תגמול</p>
+            </authorialNote>
+          </heading>
+          <num>16.</num>
+          <content>
+            <p>הרשות המוסמכת רשאית, בהסכמת הנכה, אם היא סבורה שהדבר יעזור לשיקומו, להמיר לו את תגמוליו בסכום חד־פעמי שלא יעלה על סך התגמולים שנכה בדרגת נכותו בזמן ההמרה זכאי לקבלם תוך שלוש שנים. מיום ההמרה ואילך לא יהיה הנכה זכאי לתגמול לפי חוק זה.</p>
+          </content>
+        </point>
+        <point eId="point_17">
+          <heading>
+            <authorialNote placement="side">
+              <p>הפחתה עקב תשלום בחוץ־לארץ</p>
+            </authorialNote>
+          </heading>
+          <num>17.</num>
+          <list>
+            <point eId="point_17__point_א">
+              <num>(א)</num>
+              <content>
+                <p>נכה שמדינה זרה או אחד ממוסדותיה משלמים לו או לזכותו תשלומים תקופתיים קצובים עקב נכות שלקה בה אגב שירות מלחמתי, יופחתו תשלומים אלה מן התגמולים או מדמי הנכות שנכה זכאי להם לאותה תקופה שבעדה משתלמים לו אותם תשלומים.</p>
+              </content>
+            </point>
+            <point eId="point_17__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>שר האוצר רשאי, בתקנות, לקבוע כללים בדבר חישוב ההפחתה האמורה ודרכי ביצועה.</p>
+              </content>
+            </point>
+            <point eId="point_17__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>נכה כאמור בסעיף קטן (א) חייב להודיע לרשות המוסמכת על התשלומים המשתלמים לו, שיעוריהם ומועדיהם ולמסור לה כל פרט נוסף שתדרוש ממנו בענין זה הרשות המוסמכת.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_18">
+          <heading>
+            <authorialNote placement="side">
+              <p>החזרת תגמולים ששולמו שלא כדין</p>
+            </authorialNote>
+          </heading>
+          <num>18.</num>
+          <list>
+            <point eId="point_18__point_א">
+              <num>(א)</num>
+              <content>
+                <p>ביטלה או שינתה הרשות המוסמכת החלטה מכוח <ref href="#point_15">סעיף 15</ref>, רשאית היא לחייב בהחלטת הביטול או השינוי את הנכה בהחזרת כל סכום המגיע ממנו עקב אותה החלטה.</p>
+              </content>
+            </point>
+            <point eId="point_18__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>לא ערער הנכה על החיוב כאמור, או ערער וערעורו נדחה – יהא דינו של החיוב, לענין הוצאה לפועל, כפסק־דין סופי של בית המשפט.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_19">
+          <heading>
+            <authorialNote placement="side">
+              <p>עיכוב זמני של התגמולים</p>
+            </authorialNote>
+          </heading>
+          <num>19.</num>
+          <content>
+            <p>היה לרשות המוסמכת יסוד סביר להניח שיש מקום לבטל או לשנות החלטה מכוח <ref href="#point_15">סעיף 15</ref>, לחייב נכה בהחזרת כספים ששולמו לו, רשאית היא לעכב את תשלום התגמולים לנכה, כולם או מקצתם, לתקופה שלא תעלה על ששה חדשים.</p>
+          </content>
+        </point>
+        <point eId="point_20">
+          <heading>
+            <authorialNote placement="side">
+              <p>יתרות תגמולים</p>
+            </authorialNote>
+          </heading>
+          <num>20.</num>
+          <content>
+            <p>נפטר נכה ובשעת מותו הגיעו לו תשלומים מכוח החוק, ישולמו הסכומים, על אף האמור בדיני הירושה, לידי מי שהנכה הורה בכתב לרשות המוסמכת; לא הורה – ישולמו לבן־זוגו, ובאין בן־זוג – ליורשיו.</p>
+          </content>
+        </point>
+        <point eId="point_21">
+          <heading>
+            <authorialNote placement="side">
+              <p>הארכת מועדים</p>
+            </authorialNote>
+          </heading>
+          <num>21.</num>
+          <content>
+            <p>הרשות המוסמכת רשאית, מטעם מיוחד, שתציין, להאריך כל מועד שנקבע בחוק זה או בתקנות שהותקנו על פיו לעשות דבר, למעט הגשת ערעור.</p>
+          </content>
+        </point>
+        <point eId="point_22">
+          <heading>
+            <authorialNote placement="side">
+              <p>סמכויות עזר</p>
+            </authorialNote>
+          </heading>
+          <num>22.</num>
+          <list>
+            <point eId="point_22__point_א">
+              <num>(א)</num>
+              <content>
+                <p>לרשות המוסמכת, לועדה הרפואית העליונה ולועדת ערעור יהיו כל הסמכויות שאפשר להעניק לועדת חקירה לפי <ref href="/akn/il/act/PrimaryLegislation/1969-01-08/147339#point_9">סעיף 5 לפקודת ועדות החקירה</ref>.</p>
+              </content>
+            </point>
+            <point eId="point_22__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>הרשות המוסמכת, ועדה רפואית, ועדה רפואית עליונה וועדת ערעור לא יהיו קשורים בסדרי הדין ובדיני הראיות, אלא יפעלו בדרך שייראה מועיל ביותר לבירור השאלות העומדות להכרעתן.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_23">
+          <heading>
+            <authorialNote placement="side">
+              <p>דין נכה במאסר</p>
+            </authorialNote>
+          </heading>
+          <num>23.</num>
+          <content>
+            <p>נכה המרצה עונש מאסר – לא ישולם לו תגמול בעד תקופת מאסרו; אך הרשות המוסמכת רשאית להורות שהתגמול או חלק ממנו ישולם לאדם שהנכה חייב במזונותיו.</p>
+          </content>
+        </point>
+        <point eId="point_24">
+          <heading>
+            <authorialNote placement="side">
+              <p>טיפול רפואי</p>
+            </authorialNote>
+          </heading>
+          <num>24.</num>
+          <list>
+            <point eId="point_24__point_א">
+              <num>(א)</num>
+              <content>
+                <p>כל נכה יקבל על חשבון המדינה בתנאים ולפי כללים שייקבעו בתקנות טיפול רפואי, כמשמעותו <ref href="/akn/il/act/PrimaryLegislation/1959-09-23/2002247#point_43">בסעיף 27 לחוק תש"ט</ref> בנכות שבגללה הוכר כנכה בכל עת שיתגלה צורך בו.</p>
+              </content>
+            </point>
+            <point eId="point_24__point_ב">
+              <num>(ב)</num>
+              <list>
+                <intro>
+                  <p>שר האוצר יקבע בתקנות ענינים אלה:</p>
+                </intro>
+                <point eId="point_24__point_ב__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>תגמולים או תגמולים נוספים שישולמו לנכים המקבלים טיפול כאמור ועקב הטיפול אינם מסוגלים לעבוד;</p>
+                  </content>
+                </point>
+                <point eId="point_24__point_ב__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>הפחתות מתגמולים של נכים המקבלים טיפול כאמור ושכלכלתם אגב הטיפול היא על חשבון המדינה.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+          </list>
+        </point>
+        <point eId="point_24א">
+          <heading>
+            <authorialNote placement="side">
+              <p>ביטוח למקרה מוות</p>
+            </authorialNote>
+          </heading>
+          <num>24א.</num>
+          <content>
+            <p>נכה הזכאי לתגמולים ושנערך לזכותו ביטוח למקרה מוות בדרך האמורה <ref href="#point_9">בסעיף 9(ג)</ref>, זכאי להשתתפות בדמי הביטוח מאוצר המדינה בשיעור שנקבע בתקנות.</p>
+          </content>
+        </point>
+        <point eId="point_24ב">
+          <heading>
+            <authorialNote placement="side">
+              <p>רכישת תרופות</p>
+            </authorialNote>
+          </heading>
+          <num>24ב.</num>
+          <list>
+            <point eId="point_24ב__point_א">
+              <num>(א)</num>
+              <content>
+                <p>לענין סעיף זה <ref href="#point_24ג">וסעיפים 24ג</ref><ref href="#point_24ד">ו־24ד</ref>, ”נכה נתמך“ – נכה הזכאי לתגמול לפי <ref href="#point_4ד">סעיף 4ד</ref> בשיעור העולה על התגמול האמור <ref href="#point_4א">בסעיף 4א</ref>.</p>
+              </content>
+            </point>
+            <point eId="point_24ב__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>נכה נתמך זכאי להנחה בעד תרופות הכלולות בסל שירותי הבריאות כאמור <ref href="/akn/il/act/PrimaryLegislation/1994-06-26/157723#point_8">בסעיף 8(ז)(5) לחוק ביטוח בריאות ממלכתי, התשנ"ד–1994</ref>.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_24ג">
+          <heading>
+            <authorialNote placement="side">
+              <p>דיור ציבורי</p>
+            </authorialNote>
+          </heading>
+          <num>24ג.</num>
+          <list>
+            <point eId="point_24ג__point_א">
+              <num>(א)</num>
+              <content>
+                <p>נכה נתמך הזכאי ממשרד הבינוי והשיכון לסיוע בתשלום שכר דירה, זכאי לתוספת בשיעור של 10% מסכום הסיוע שהוא זכאי לו.</p>
+              </content>
+            </point>
+            <point eId="point_24ג__point_ב">
+              <num>(ב)</num>
+              <list>
+                <intro>
+                  <p>השר לקליטת העליה ושר הבינוי והשיכון, בהסכמת שר האוצר, יקבעו הוראות בדבר מתן עדיפות לדיור בהשכרה ציבורית לנכה נתמך כאמור בסעיף קטן (א) שהוא מחוסר דיור; בסעיף קטן זה –</p>
+                </intro>
+                <point eId="point_24ג__point_ב__point_השכרה_ציבורית">
+                  <content>
+                    <p>
+                      <def />”השכרה ציבורית“ – כהגדרתה <ref href="/akn/il/act/PrimaryLegislation/1998-10-29/164457">בחוק הדיור הציבורי (זכויות רכישה), התשנ"ט–1998</ref>;</p>
+                  </content>
+                </point>
+                <point eId="point_24ג__point_ב__point_מחוסר_דיור">
+                  <content>
+                    <p>
+                      <def />”מחוסר דיור“ – מי שאין ולא היתה בבעלותו או בבעלות בן זוגו דירה או חלק בדירה והוא אינו מתגורר בדיור ציבורי.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+          </list>
+        </point>
+        <point eId="point_24ד">
+          <heading>
+            <authorialNote placement="side">
+              <p>מניעת כפל הטבות</p>
+            </authorialNote>
+          </heading>
+          <num>24ד.</num>
+          <content>
+            <p>נכה נתמך הזכאי להטבה לפי <ref href="#point_24ב">סעיפים 24ב</ref><ref href="#point_24ג">או 24ג</ref>, ובאותו ענין שבתחומי ההטבה זכאי להטבה גם לפי כל דין אחר, זכאי להטבה אחת בלבד בשיעור הגבוה מביניהן.</p>
+          </content>
+        </point>
+        <point eId="point_25">
+          <heading>
+            <authorialNote placement="side">
+              <p>סמל</p>
+            </authorialNote>
+          </heading>
+          <num>25.</num>
+          <content>
+            <p>שר האוצר יקבע בתקנות הוראות בדבר סמל שיוענק לנכים, לרבות הוראות בדבר דרגת הנכות המזכה בסמל, דרכי הענקתו, ייצורו, המסחר בו והאופן שבו יחזיר את הסמל מי שפקעה זכותו לענדו.</p>
+          </content>
+        </point>
+        <point eId="point_25א">
+          <heading>
+            <authorialNote placement="side">
+              <p>תקנות בדבר הכנסה</p>
+            </authorialNote>
+          </heading>
+          <num>25א.</num>
+          <list>
+            <point eId="point_25א__point_א">
+              <num>(א)</num>
+              <content>
+                <p>שר האוצר רשאי לקבוע בתקנות מה היא הכנסה לענין חוק זה, כולו או חלק ממנו, ורשאי הוא לקבוע זאת לכלל הנכים או בני המשפחה של הנכים, או לסוגים מסויימים שבהם.</p>
+              </content>
+            </point>
+            <point eId="point_25א__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>שר האוצר רשאי לקבוע את דרכי ההוכחה של הכנסה לענין חוק זה.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_26">
+          <heading>
+            <authorialNote placement="side">
+              <p>עבירות</p>
+            </authorialNote>
+          </heading>
+          <num>26.</num>
+          <list>
+            <point eId="point_26__point_א">
+              <num>(א)</num>
+              <content>
+                <p>אדם שמסר במזיד לרשות מוסמכת, לועדה רפואית או לועדת ערעור ידיעה כוזבת, דינו – מאסר ששה חדשים או קנס מאה וחמישים לירות, או שני הענשים כאחד.</p>
+              </content>
+            </point>
+            <point eId="point_26__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>אדם שהשיג במרמה תגמול לעצמו או לזולתו, דינו – מאסר שתי שנים.</p>
+              </content>
+            </point>
+            <point eId="point_26__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>סעיף זה בא להוסיף על כל דין אחר ולא לגרוע ממנו.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_27">
+          <heading>
+            <authorialNote placement="side">
+              <p>ביצוע ותקנות</p>
+            </authorialNote>
+          </heading>
+          <num>27.</num>
+          <list>
+            <intro>
+              <p>שר האוצר ממונה על ביצוע חוק זה והוא רשאי להתקין תקנות בכל ענין הנוגע לביצועו ובכלל זה תקנות שיקום בענינים אלה:</p>
+            </intro>
+            <point eId="point_27__point_1">
+              <num>(1)</num>
+              <content>
+                <p>הקניית מקצוע לנכים, הכשרתם לעבודה והענקת תשלום או מתן מילוות לשם כך ואופן פרעונם של המילוות;</p>
+              </content>
+            </point>
+            <point eId="point_27__point_2">
+              <num>(2)</num>
+              <content>
+                <p>מתן מילוות וערבויות לנכים לשם יצירת מקורות פרנסה או ביסוסם, ואופן פרעונם של המילוות;</p>
+              </content>
+            </point>
+            <point eId="point_27__point_3">
+              <num>(3)</num>
+              <content>
+                <p>מתן מילוות וערבויות לנכים לצרכי דיור ושיכון ואופן סילוק המילוות;</p>
+              </content>
+            </point>
+            <point eId="point_27__point_4">
+              <num>(4)</num>
+              <content>
+                <p>כל ענין אחר אשר, לדעת שר האוצר, עשוי להקל על נכים את קליטתם במערכת חייה הכלכליים של המדינה ואת היאחזותם בה;</p>
+              </content>
+            </point>
+            <point eId="point_27__point_5">
+              <num>(5)</num>
+              <content>
+                <p>מינוי רשויות לביצוע התקנות האמורות, סמכויותיהן וסדרי עבודתן.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_28">
+          <heading>
+            <authorialNote placement="side">
+              <p>תחולה</p>
+            </authorialNote>
+          </heading>
+          <num>28.</num>
+          <content>
+            <p>חוק זה לא יחול אלא על נכה תושב קבוע בישראל, כל עוד הוא תושב כאמור.</p>
+          </content>
+        </point>
+        <point eId="point_29">
+          <heading>
+            <authorialNote placement="side">
+              <p>תחילת תוקף</p>
+            </authorialNote>
+          </heading>
+          <num>29.</num>
+          <content>
+            <p>תקפו של חוק זה הוא מיום כ"ז באדר ב׳ תשי"ד (1 באפריל 1954).</p>
+          </content>
+        </point>
+      </list>
+    </body>
+    <conclusions eId="eId">
+      <p class="signatures">
+        <signature>
+          <p>
+            <person refersTo="משה_שרת">משה שרת</person>
+            <role refersTo="ראש_הממשלה">ראש הממשלה</role>
+          </p>
+        </signature>
+        <signature>
+          <p>
+            <person refersTo="פנחס_לבון">פנחס לבון</person>
+            <role refersTo="שר_הבטחון">שר הבטחון</role>
+          </p>
+        </signature>
+        <signature>
+          <p>
+            <person refersTo="יצחק_בן־צבי">יצחק בן־צבי</person>
+            <role refersTo="נשיא_המדינה">נשיא המדינה</role>
+          </p>
+        </signature>
+      </p>
+    </conclusions>
+  </act>
+</akomaNtoso>

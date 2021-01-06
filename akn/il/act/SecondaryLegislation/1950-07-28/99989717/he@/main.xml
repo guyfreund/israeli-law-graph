@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion" name="publicLaw">
+    <meta>
+      <identification source="#kensset">
+        <FRBRWork>
+          <FRBRthis value="/akn/il/act/SecondaryLegislation/1950-07-28/99989717/main" />
+          <FRBRuri value="/akn/il/act/SecondaryLegislation/1950-07-28/99989717" />
+          <FRBRdate date="1950-07-28" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRcountry value="israel" />
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/il/act/SecondaryLegislation/1950-07-28/99989717/he@/main" />
+          <FRBRuri value="/akn/il/act/SecondaryLegislation/1950-07-28/99989717/he@" />
+          <FRBRdate date="1950-07-28" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRlanguage language="hebrew" />
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/il/act/SecondaryLegislation/1950-07-28/99989717/he@/main.xml" />
+          <FRBRuri value="/akn/il/act/SecondaryLegislation/1950-07-28/99989717/he@" />
+          <FRBRdate date="1950-07-28" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRformat value="xml" />
+        </FRBRManifestation>
+      </identification>
+      <classification source="#kensset">
+        <keyword value="{classificationValue}" showAs="{classificationValue}" dictionary="#classification_dictionary" />
+      </classification>
+      <lifecycle source="#kensset">
+        <eventRef eId="eventRef_1" date="1950-07-28" source="#kensset" type="generation" />
+      </lifecycle>
+      <references source="#kensset">
+        <TLCOrganization eId="kensset" href="/ontology/organization/akn/knesset" showAs="Kensset" type="generation" />
+        <TLCRole eId="author" href="/ontology/role/akn/author" showAs="Author of Document" />
+        <TLCProcess eId="inforce" href="/ontology/process/akn/inforce" showAs="In force" />
+        <TLCPerson eId="אלי_כהן" href="/ontology/person/אלי_כהן" showAs="אלי כהן" />
+        <TLCRole eId="שר_הכלכלה_והתעשייה" href="ontology/role/akn/שר_הכלכלה_והתעשייה" showAs="שר הכלכלה והתעשייה" />
+      </references>
+      <temporalData source="#kensset">
+        <temporalGroup eId="tmpg_1" />
+      </temporalData>
+      <proprietary wikiversion="2/26/2020 10:26:42 PM" />
+    </meta>
+    <body period="#tmpg_1">
+      <title eId="title">
+        <content>
+          <p>הודעה בדבר המקומות להפקדת תקנים רשמיים</p>
+        </content>
+      </title>
+      <subtitle eId="eId">
+        <num></num>
+        <content>
+          <p>לפי <ref href="/akn/il/act/PrimaryLegislation/1953-01-29/148964">חוק התקנים, התשי"ג–1953</ref></p>
+        </content>
+      </subtitle>
+      <list>
+        <point eId="point_none">
+          <heading>
+            <authorialNote placement="side">
+              <p xml:space="preserve"> </p>
+            </authorialNote>
+          </heading>
+          <num></num>
+          <content>
+            <p>בתוקף סמכותי לפי <ref href="/akn/il/act/PrimaryLegislation/1953-01-29/148964#point_8">סעיף 8 לחוק התקנים, התשי"ג–1953</ref>, אני מתקן את ההודעה בדבר המקומות להפקדת תקנים רשמיים, ומודיע כי כל תקן רשמי יופקד במכון התקנים הישראלי, רח׳ חיים לבנון 42, תל אביב, בלבד.<br space="preserve"></br>כל אדם זכאי לעיין לעיין בהם בלא תשלום בכתובת האמורה ובאתר האינטרנט של מכון התקנים, שכתובתו:<br space="preserve"></br><ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/http_ibr_sii_org_il_IBRSystemWEBClient_index_html">http://ibr.sii.org.il/IBRSystemWEBClient/index.html</ref>.</p>
+          </content>
+        </point>
+      </list>
+    </body>
+    <conclusions eId="eId">
+      <p class="signatures">
+        <signature>
+          <p>
+            <person refersTo="אלי_כהן">אלי כהן</person>
+            <role refersTo="שר_הכלכלה_והתעשייה">שר הכלכלה והתעשייה</role>
+          </p>
+        </signature>
+      </p>
+    </conclusions>
+  </act>
+</akomaNtoso>

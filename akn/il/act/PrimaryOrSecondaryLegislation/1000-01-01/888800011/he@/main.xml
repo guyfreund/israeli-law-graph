@@ -1,0 +1,1410 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion" name="publicLaw">
+    <meta>
+      <identification source="#kensset">
+        <FRBRWork>
+          <FRBRthis value="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/888800011/main" />
+          <FRBRuri value="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/888800011" />
+          <FRBRdate date="1000-01-01" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRcountry value="israel" />
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/888800011/he@/main" />
+          <FRBRuri value="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/888800011/he@" />
+          <FRBRdate date="1000-01-01" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRlanguage language="hebrew" />
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/888800011/he@/main.xml" />
+          <FRBRuri value="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/888800011/he@" />
+          <FRBRdate date="1000-01-01" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRformat value="xml" />
+        </FRBRManifestation>
+      </identification>
+      <classification source="#kensset">
+        <keyword value="{classificationValue}" showAs="{classificationValue}" dictionary="#classification_dictionary" />
+      </classification>
+      <lifecycle source="#kensset">
+        <eventRef eId="eventRef_1" date="1000-01-01" source="#kensset" type="generation" />
+      </lifecycle>
+      <references source="#kensset">
+        <TLCOrganization eId="kensset" href="/ontology/organization/akn/knesset" showAs="Kensset" type="generation" />
+        <TLCRole eId="author" href="/ontology/role/akn/author" showAs="Author of Document" />
+        <TLCProcess eId="inforce" href="/ontology/process/akn/inforce" showAs="In force" />
+        <TLCTerm eId="term_1" href="/ontology/term/בן_משפחה/888800011" showAs="בן_משפחה" />
+        <TLCTerm eId="term_2" href="/ontology/term/בעל_עניין/888800011" showAs="בעל_עניין" />
+        <TLCTerm eId="term_3" href="/ontology/term/הזמנה_להגיש_מועמדות/888800011" showAs="הזמנה_להגיש_מועמדות" />
+        <TLCTerm eId="term_4" href="/ontology/term/הליך_גיבוש_מרכזי/888800011" showAs="הליך_גיבוש_מרכזי" />
+        <TLCTerm eId="term_5" href="/ontology/term/הליך_גיבוש_משני/888800011" showAs="הליך_גיבוש_משני" />
+        <TLCTerm eId="term_6" href="/ontology/term/הליך_הפעלה/888800011" showAs="הליך_הפעלה" />
+        <TLCTerm eId="term_7" href="/ontology/term/הליך_מורכב/888800011" showAs="הליך_מורכב" />
+        <TLCTerm eId="term_8" href="/ontology/term/המועד_הקובע_להגשת_מועמדות/888800011" showAs="המועד_הקובע_להגשת_מועמדות" />
+        <TLCTerm eId="term_9" href="/ontology/term/ועדה_ציבורית/888800011" showAs="ועדה_ציבורית" />
+        <TLCTerm eId="term_10" href="/ontology/term/ועדה_ציבורית_ליחידים/888800011" showAs="ועדה_ציבורית_ליחידים" />
+        <TLCTerm eId="term_11" href="/ontology/term/ועדה_ציבורית_לתאגידים/888800011" showAs="ועדה_ציבורית_לתאגידים" />
+        <TLCTerm eId="term_12" href="/ontology/term/חוק_ניירות_ערך/888800011" showAs="חוק_ניירות_ערך" />
+        <TLCTerm eId="term_13" href="/ontology/term/כהונה_בתפקיד/888800011" showAs="כהונה_בתפקיד" />
+        <TLCTerm eId="term_14" href="/ontology/term/מחוז/888800011" showAs="מחוז" />
+        <TLCTerm eId="term_15" href="/ontology/term/ניסיון_בהליכי_חדלות_פירעון/888800011" showAs="ניסיון_בהליכי_חדלות_פירעון" />
+        <TLCTerm eId="term_16" href="/ontology/term/קרוב/888800011" showAs="קרוב" />
+        <TLCTerm eId="term_17" href="/ontology/term/רשימת_נאמנים/888800011" showAs="רשימת_נאמנים" />
+        <TLCTerm eId="term_18" href="/ontology/term/רשימת_נאמנים_להליכים_מורכבים/888800011" showAs="רשימת_נאמנים_להליכים_מורכבים" />
+        <TLCTerm eId="term_19" href="/ontology/term/רשימת_נאמנים_מפעילים/888800011" showAs="רשימת_נאמנים_מפעילים" />
+        <TLCTerm eId="term_20" href="/ontology/term/רשימת_נאמנים_מפעילים_במשותף/888800011" showAs="רשימת_נאמנים_מפעילים_במשותף" />
+        <TLCTerm eId="term_21" href="/ontology/term/רשימת_נאמנים_מחוזית_לתאגידים/888800011" showAs="רשימת_נאמנים_מחוזית_לתאגידים" />
+        <TLCTerm eId="term_22" href="/ontology/term/רשימת_נאמנים_מחוזית_ליחידים/888800011" showAs="רשימת_נאמנים_מחוזית_ליחידים" />
+        <TLCTerm eId="term_23" href="/ontology/term/תקופת_תוקפה_של_רשימת_נאמנים/888800011" showAs="תקופת_תוקפה_של_רשימת_נאמנים" />
+        <TLCPerson eId="אבי_ניסנקורן" href="/ontology/person/אבי_ניסנקורן" showAs="אבי ניסנקורן" />
+        <TLCRole eId="שר_המשפטים" href="ontology/role/akn/שר_המשפטים" showAs="שר המשפטים" />
+      </references>
+      <temporalData source="#kensset">
+        <temporalGroup eId="tmpg_1" />
+      </temporalData>
+      <Publication></Publication>
+      <proprietary wikiversion="1/4/2021 10:08:18 PM" />
+    </meta>
+    <body period="#tmpg_1">
+      <title eId="title">
+        <content>
+          <p>תקנות חדלות פירעון ושיקום כלכלי (כללים לעניין גיבוש רשימת נאמנים), התשפ"א–2021</p>
+        </content>
+      </title>
+      <preamble eId="eId">
+        <p>בתוקף סמכותי לפי <ref href="/akn/il/act/PrimaryLegislation/2018-03-15/577400#point_37">סעיפים 37(ג)</ref><ref href="/akn/il/act/PrimaryLegislation/2018-03-15/577400#point_126">ו־126(ג)</ref><ref href="/akn/il/act/PrimaryLegislation/2018-03-15/577400">לחוק חדלות פירעון ושיקום כלכלי, התשע"ח–2018</ref> (להלן – החוק), בהמלצת הממונה על הליכי חדלות פירעון ושיקום כלכלי (להלן – הממונה) ובאישור ועדת החוקה חוק ומשפט של הכנסת, אני מתקין תקנות אלה:</p>
+      </preamble>
+      <chapter eId="chp_א">
+        <num>פרק א׳:</num>
+        <title>
+          <content>
+            <p>הגדרות</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_1" class="definitions">
+            <heading>
+              <authorialNote placement="side">
+                <p>הגדרות</p>
+              </authorialNote>
+            </heading>
+            <num>1.</num>
+            <list>
+              <intro>
+                <p>בתקנות אלה –</p>
+              </intro>
+              <point eId="point_1__point_בן_משפחה">
+                <content>
+                  <p>
+                    <def />”בן משפחה“ – בן זוג, הורה, הורה הורה, בן או בת ובני זוגם, אח או אחות וילדיהם, גיס, גיסה, דוד או דודה וילדיהם, חם, חמות, נכד או נכדה, לרבות קרוב כאמור שהוא שלוב;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_בעל_עניין">
+                <content>
+                  <p>
+                    <def />”בעל עניין“ – כהגדרתו <ref href="/akn/il/act/PrimaryLegislation/1968-08-22/150242">בחוק ניירות ערך</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_הזמנה_להגיש_מועמדות">
+                <content>
+                  <p>
+                    <def />”הזמנה להגיש מועמדות“ – הודעה שתפרסם ועדה ציבורית באתר האינטרנט של הממונה שעניינה הזמנה להגיש מועמדות לרשימת נאמנים;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_הליך_גיבוש_מרכזי">
+                <content>
+                  <p>
+                    <def />”הליך גיבוש מרכזי“ – הליך לגיבוש רשימת נאמנים חדשה;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_הליך_גיבוש_משני">
+                <content>
+                  <p>
+                    <def />”הליך גיבוש משני“ – הליך לגיבוש עתודת נאמנים במהלך תקופת תוקפה של רשימת נאמנים, שנתיים לאחר הליך גיבוש מרכזי ושלא לקראת גיבוש רשימת נאמנים חדשה;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_הליך_הפעלה">
+                <content>
+                  <p>
+                    <def />”הליך הפעלה“ – הליך חדלות פירעון שבו ניתן צו המורה על הפעלת התאגיד לשם שיקומו הכלכלי לפי <ref href="/akn/il/act/PrimaryLegislation/2018-03-15/577400#point_23">סעיף 23(א)(2) לחוק</ref>, או הליך חדלות פירעון אחר שכלל הפעלת התאגיד;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_הליך_מורכב">
+                <list>
+                  <intro>
+                    <p>
+                      <def />”הליך מורכב“ – הליך שהוא אחד מאלה:</p>
+                  </intro>
+                  <point eId="point_1__point_הליך_מורכב__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>הליך לפי <ref href="/akn/il/act/PrimaryLegislation/2018-03-15/577400">החוק</ref> של תאגיד שהוא תאגיד מדווח כהגדרתו <ref href="/akn/il/act/PrimaryLegislation/2018-03-15/577400#point_337">בסעיף 337 לחוק</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_1__point_הליך_מורכב__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>הליך חדלות פירעון שעם מתן הצו לפתיחת הליכים הממונה מצא כי הוא בעל מורכבות מיוחדת בהתחשב בגובה החובות, במספר העובדים, בכך שההליך מחייב ניהול נכסים בהיקף משמעותי, מעלה סיכונים מיוחדים, מתנהל בפריסה גאוגרפית רחבה או מערב היבטים בין־לאומיים;</p>
+                    </content>
+                  </point>
+                  <point eId="point_1__point_הליך_מורכב__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>הסדר חוב של תאגיד לפי <ref href="/akn/il/act/PrimaryLegislation/2018-03-15/577400#part_י">חלק י׳ לחוק</ref> שמתקיים לגביו האמור בפסקה (1) או (2);</p>
+                    </content>
+                  </point>
+                  <point eId="point_1__point_הליך_מורכב__point_4">
+                    <num>(4)</num>
+                    <content>
+                      <p>הליך שחל עליו <ref href="/akn/il/act/PrimaryLegislation/1983-08-19/2002274#point_194">סעיף 194(ב) לפקודת החברות</ref>, שמתקיים לגביו האמור בפסקה (1) או (2);</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_1__point_המועד_הקובע_להגשת_מועמדות">
+                <content>
+                  <p>
+                    <def />”המועד הקובע להגשת מועמדות“ – המועד שעד אליו ניתן להגיש מועמדות לרשימת נאמנים ולא מוקדם מ־30 ימים ממועד פרסום ההזמנה להגיש מועמדות;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_ועדה_ציבורית">
+                <content>
+                  <p>
+                    <def />”ועדה ציבורית“ – ועדה ציבורית ליחידים, או ועדה ציבורית לתאגידים;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_ועדה_ציבורית_ליחידים">
+                <content>
+                  <p>
+                    <def />”ועדה ציבורית ליחידים“ – ועדה ציבורית שמונתה לפי <ref href="/akn/il/act/PrimaryLegislation/2018-03-15/577400#point_126">סעיף 126(א) לחוק</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_ועדה_ציבורית_לתאגידים">
+                <content>
+                  <p>
+                    <def />”ועדה ציבורית לתאגידים“ – ועדה ציבורית שמונתה לפי <ref href="/akn/il/act/PrimaryLegislation/2018-03-15/577400#point_37">סעיף 37(א) לחוק</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_חוק_ניירות_ערך">
+                <content>
+                  <p>
+                    <def />”חוק ניירות ערך“ – <ref href="/akn/il/act/PrimaryLegislation/1968-08-22/150242">חוק ניירות ערך, התשכ"ח–1968</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_כהונה_בתפקיד">
+                <content>
+                  <p>
+                    <def />”כהונה בתפקיד“ – מי שכיהן כנאמן בהליכים שהתנהלו לפי <ref href="/akn/il/act/PrimaryLegislation/2018-03-15/577400">החוק</ref>, מי שכיהן כמנהל מיוחד או כנאמן בהליכים שהתנהלו לפי <ref href="/akn/il/act/PrimaryLegislation/1980-09-09/2002294">פקודת פשיטת הרגל</ref>, מי שכיהן כמפרק או ככונס נכסים בהליכים שהתנהלו לפי <ref href="/akn/il/act/PrimaryLegislation/1983-08-19/2002274">פקודת החברות</ref>, מי שכיהן כבעל תפקיד בהליכים שהתנהלו לפי <ref href="/akn/il/act/PrimaryLegislation/1999-05-27/165159">חוק החברות</ref>, מי שכיהן כמפרק בהליכים שהתנהלו לפי <ref href="/akn/il/act/PrimaryLegislation/1980-08-12/148260">חוק העמותות, התש"ם–1980</ref>, ומי שכיהן כמפרק בהליכים שהתנהלו לפי <ref href="/akn/il/act/PrimaryLegislation/1933-12-31/2001743">פקודת האגודות השיתופיות</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_מחוז">
+                <content>
+                  <p>
+                    <def />”מחוז“ – לפי אזורי השיפוט של בתי המשפט המחוזיים שקבע שר המשפטים לפי <ref href="/akn/il/act/PrimaryLegislation/1984-08-13/2002218#point_33">סעיף 33 לחוק בתי המשפט [נוסח משולב], התשמ"ד–1984</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_ניסיון_בהליכי_חדלות_פירעון">
+                <list>
+                  <intro>
+                    <p>
+                      <def />”ניסיון בהליכי חדלות פירעון“ –</p>
+                  </intro>
+                  <point eId="point_1__point_ניסיון_בהליכי_חדלות_פירעון__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>לעניין עורך דין – מי שכיהן בתפקיד, מי שייצג את מי שכיהן בתפקיד או מי שביצע תפקיד מהותי בהליכי חדלות פירעון שהתנהלו לפי <ref href="/akn/il/act/PrimaryLegislation/2018-03-15/577400">החוק</ref>, <ref href="/akn/il/act/PrimaryLegislation/1980-09-09/2002294">פקודת פשיטת הרגל</ref>, <ref href="/akn/il/act/PrimaryLegislation/1983-08-19/2002274">פקודת החברות</ref> או <ref href="/akn/il/act/PrimaryLegislation/1999-05-27/165159">חוק החברות</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_1__point_ניסיון_בהליכי_חדלות_פירעון__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>לעניין רואה חשבון – מי שכיהן בתפקיד או ביצע תפקיד מהותי בהליכי חדלות פירעון שהתנהלו לפי <ref href="/akn/il/act/PrimaryLegislation/2018-03-15/577400">החוק</ref>, <ref href="/akn/il/act/PrimaryLegislation/1980-09-09/2002294">פקודת פשיטת הרגל</ref>, <ref href="/akn/il/act/PrimaryLegislation/1983-08-19/2002274">פקודת החברות</ref> או <ref href="/akn/il/act/PrimaryLegislation/1999-05-27/165159">חוק החברות</ref>;</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_1__point_קרוב">
+                <list>
+                  <intro>
+                    <p>
+                      <def />”קרוב“ – כל אחד מאלה:</p>
+                  </intro>
+                  <point eId="point_1__point_קרוב__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>בן משפחה של מועמד;</p>
+                    </content>
+                  </point>
+                  <point eId="point_1__point_קרוב__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>אדם שלמועמד יש עניין במצבו הכלכלי;</p>
+                    </content>
+                  </point>
+                  <point eId="point_1__point_קרוב__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>תאגיד שמועמד, בן משפחתו או אדם כאמור בפסקה (2) הם בעלי עניין בו;</p>
+                    </content>
+                  </point>
+                  <point eId="point_1__point_קרוב__point_4">
+                    <num>(4)</num>
+                    <content>
+                      <p>גוף שמועמד, בן משפחתו או אדם כאמור בפסקה (2) הם מנהלים או עובדים אחראים בו;</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_1__point_רשימת_נאמנים">
+                <list>
+                  <intro>
+                    <p>
+                      <def />”רשימת נאמנים“ – כל אחת מהרשימות להלן:</p>
+                  </intro>
+                  <point eId="point_1__point_רשימת_נאמנים__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>רשימת נאמנים מחוזית ליחידים;</p>
+                    </content>
+                  </point>
+                  <point eId="point_1__point_רשימת_נאמנים__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>רשימת נאמנים מחוזית לתאגידים;</p>
+                    </content>
+                  </point>
+                  <point eId="point_1__point_רשימת_נאמנים__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>רשימת נאמנים מפעילים;</p>
+                    </content>
+                  </point>
+                  <point eId="point_1__point_רשימת_נאמנים__point_4">
+                    <num>(4)</num>
+                    <content>
+                      <p>רשימת נאמנים מפעילים במשותף;</p>
+                    </content>
+                  </point>
+                  <point eId="point_1__point_רשימת_נאמנים__point_5">
+                    <num>(5)</num>
+                    <content>
+                      <p>רשימת נאמנים להליכים מורכבים;</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_1__point_רשימת_נאמנים_להליכים_מורכבים">
+                <content>
+                  <p>
+                    <def />”רשימת נאמנים להליכים מורכבים“ – רשימת נאמנים שמתוכה ימונו נאמנים בהליכים מורכבים כאמור <ref href="#point_16">בתקנה 16</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_רשימת_נאמנים_מפעילים">
+                <list>
+                  <intro>
+                    <p>
+                      <def />”רשימת נאמנים מפעילים“ – רשימת נאמנים שמתוכה ימונו נאמנים, מנהלי הסדר וכן כונסים בהליכים אלה:</p>
+                  </intro>
+                  <point eId="point_1__point_רשימת_נאמנים_מפעילים__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>הליכי חדלות פירעון של תאגיד שבהם ניתן צו המורה על הפעלת התאגיד לשם שיקומו הכלכלי לפי <ref href="/akn/il/act/PrimaryLegislation/2018-03-15/577400#point_23">סעיף 23(א)(1) לחוק</ref> או על הפעלה זמנית של התאגיד לפי <ref href="/akn/il/act/PrimaryLegislation/2018-03-15/577400#point_24">סעיף 24 לחוק</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_1__point_רשימת_נאמנים_מפעילים__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>הליכי חדלות פירעון של תאגיד שבהם ניתן צו המורה על פירוק התאגיד, ובמסגרתם בית המשפט הורה על הפעלת התאגיד לפי <ref href="/akn/il/act/PrimaryLegislation/2018-03-15/577400#point_97">סעיף 97 לחוק</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_1__point_רשימת_נאמנים_מפעילים__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>מנהלי הסדר בהליכים לפי <ref href="/akn/il/act/PrimaryLegislation/2018-03-15/577400#point_326">סעיף 326 לחוק</ref>, בעניינו של תאגיד;</p>
+                    </content>
+                  </point>
+                  <point eId="point_1__point_רשימת_נאמנים_מפעילים__point_4">
+                    <num>(4)</num>
+                    <content>
+                      <p>כונסים בהליכים לפי <ref href="/akn/il/act/PrimaryLegislation/1983-08-19/2002274#point_194">סעיף 194(ב) לפקודת החברות</ref>;</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_1__point_רשימת_נאמנים_מפעילים_במשותף">
+                <content>
+                  <p>
+                    <def />”רשימת נאמנים מפעילים במשותף“ – רשימת נאמנים שמתוכה ימונו נאמנים בהליכים המנויים בהגדרה רשימת נאמנים מפעילים ובלבד שימונו רק עם נאמן נוסף שהוא עורך דין הנמנה עם רשימת נאמנים מפעילים, והכול לפי <ref href="/akn/il/act/PrimaryLegislation/2018-03-15/577400#point_33">סעיף 33(ה) לחוק</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_רשימת_נאמנים_מחוזית_לתאגידים">
+                <content>
+                  <p>
+                    <def />”רשימת נאמנים מחוזית לתאגידים“ – רשימת נאמנים למחוז מסוים שמתוכה ימונו נאמנים בהליכי חדלות פירעון של תאגיד שבהם ניתן צו המורה על פירוק התאגיד לפי <ref href="/akn/il/act/PrimaryLegislation/2018-03-15/577400#point_23">סעיף 23(א)(2) לחוק</ref>, למעט בהליכים שבהם בית המשפט הורה על הפעלת התאגיד לפי <ref href="/akn/il/act/PrimaryLegislation/2018-03-15/577400#point_97">סעיף 97 לחוק</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_רשימת_נאמנים_מחוזית_ליחידים">
+                <content>
+                  <p>
+                    <def />”רשימת נאמנים מחוזית ליחידים“ – רשימת נאמנים למחוז מסוים שמתוכה ימונו נאמנים בהליכים לפי <ref href="/akn/il/act/PrimaryLegislation/2018-03-15/577400#part_ג">חלק ג׳ לחוק</ref> ומנהלי הסדר לפי <ref href="/akn/il/act/PrimaryLegislation/2018-03-15/577400#point_326">סעיף 326 לחוק</ref> בעניינו של יחיד, או בהליכים מורכבים של יחידים כאמור <ref href="#point_16">בתקנה 16</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_תקופת_תוקפה_של_רשימת_נאמנים">
+                <content>
+                  <p>
+                    <def />”תקופת תוקפה של רשימת נאמנים“ – כמפורט <ref href="#point_12">בתקנה 12(א)</ref>.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+        </list>
+      </chapter>
+      <chapter eId="chp_ב">
+        <num>פרק ב׳:</num>
+        <title>
+          <content>
+            <p>ועדות ציבוריות לגיבוש רשימת נאמנים</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_2">
+            <heading>
+              <authorialNote placement="side">
+                <p>גיבוש רשימת נאמנים</p>
+              </authorialNote>
+            </heading>
+            <num>2.</num>
+            <list>
+              <point eId="point_2__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>ועדה ציבורית לתאגידים תגבש רשימת נאמנים מחוזית לתאגידים, לכל מחוז, רשימת נאמנים מפעילים, רשימת נאמנים מפעילים במשותף ורשימת נאמנים להליכים מורכבים.</p>
+                </content>
+              </point>
+              <point eId="point_2__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>ועדה ציבורית ליחידים תגבש רשימת נאמנים מחוזית ליחידים, לכל מחוז.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_3">
+            <heading>
+              <authorialNote placement="side">
+                <p>מניעת ניגודי עניינים</p>
+              </authorialNote>
+            </heading>
+            <num>3.</num>
+            <list>
+              <point eId="point_3__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>לא ימונה לחבר ועדה ציבורית ולא יכהן חבר כאמור מי שבשל כהונתו יימצא, באופן תדיר, במצב של ניגוד עניינים שימנע ממנו למלא את עיקר תפקידו בוועדה ציבורית.</p>
+                </content>
+              </point>
+              <point eId="point_3__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>חבר ועדה ציבורית לא יטפל במסגרת תפקידו בנושא שהטיפול בו יגרום לו להימצא במצב של ניגוד עניינים.</p>
+                </content>
+              </point>
+              <point eId="point_3__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>נודע לחבר ועדה ציבורית כי הוא עלול להימצא במצב של ניגוד עניינים כאמור בסעיפים קטנים (א) או (ב), יודיע על כך בהקדם האפשרי ליושב ראש הוועדה הציבורית; אם חבר הוועדה הציבורית האמור הוא היושב ראש – יודיע על כך לשר.</p>
+                </content>
+              </point>
+              <point eId="point_3__point_ד">
+                <num>(ד)</num>
+                <content>
+                  <p>על אף האמור בסעיף זה, רשאי חבר ועדה ציבורית שמונה לפי <ref href="/akn/il/act/PrimaryLegislation/2018-03-15/577400#point_37">סעיפים 37(א)(3) או (4)</ref> וכן <ref href="/akn/il/act/PrimaryLegislation/2018-03-15/577400#point_126">126(א)(4) לחוק</ref> להביא בחשבון גם את ענייניו של הגוף שהוא נציגו, אם הם קשורים לתפקידי הוועדה ציבורית, ולא יראו אותו כמצוי במצב של ניגוד עניינים בשל כך בלבד.</p>
+                </content>
+              </point>
+              <point eId="point_3__point_ה">
+                <num>(ה)</num>
+                <content>
+                  <p>בסעיף זה, ”טיפול“ – לרבות קבלת החלטה, העלאת נושא לדיון, נוכחות בדיון, השתתפות בדיון או בהצבעה, או עיסוק בנושא מחוץ לדיון.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_4">
+            <heading>
+              <authorialNote placement="side">
+                <p>פקיעת כהונה</p>
+              </authorialNote>
+            </heading>
+            <num>4.</num>
+            <list>
+              <intro>
+                <p>כהונתו של חבר ועדה ציבורית תפקע באחת מאלה:</p>
+              </intro>
+              <point eId="point_4__point_1">
+                <num>(1)</num>
+                <content>
+                  <p>הוא התפטר במסירת כתב התפטרות לשר;</p>
+                </content>
+              </point>
+              <point eId="point_4__point_2">
+                <num>(2)</num>
+                <content>
+                  <p>הוא נעדר מארבע ישיבות רצופות או משש ישיבות בתוך שנה, זולת אם השר החליט כי הייתה סיבה מוצדקת להיעדרות;</p>
+                </content>
+              </point>
+              <point eId="point_4__point_3">
+                <num>(3)</num>
+                <content>
+                  <p>השר נוכח לדעת כי נבצר מאותו חבר למלא את תפקידו דרך קבע;</p>
+                </content>
+              </point>
+              <point eId="point_4__point_4">
+                <num>(4)</num>
+                <content>
+                  <p>התקיימה בו אחת הנסיבות הפוסלות אדם מהיות חבר ועדה ציבורית לפי <ref href="#point_3">תקנה 3</ref> או שחדל להתקיים בו תנאי מהתנאים למינויו.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_5">
+            <heading>
+              <authorialNote placement="side">
+                <p>תוקף פעולות ועדה ציבורית</p>
+              </authorialNote>
+            </heading>
+            <num>5.</num>
+            <content>
+              <p>פעולות ועדה ציבורית, סמכויותיה ותוקף החלטותיה לא ייפגעו מחמת שהתפנה מקומו של חבר ועדה ציבורית או מחמת ליקוי במינויו או בהמשך כהונתו, ובלבד שיושב ראש הוועדה הציבורית ושני חברי ועדה ציבורית נוספים מכהנים כדין.</p>
+            </content>
+          </point>
+          <point eId="point_6">
+            <heading>
+              <authorialNote placement="side">
+                <p>גמול חברי ועדה ציבורית</p>
+              </authorialNote>
+            </heading>
+            <num>6.</num>
+            <content>
+              <p>חבר ועדה ציבורית שאינו עובד גוף מתוקצב או עובד גוף נתמך, זכאי לתשלום ממשרד המשפטים בעד השתתפות בישיבות הוועדה הציבורית, לפי הוראת תקנון כספים ומשק 13.9.0.3 ”תעריפי תשלום ליושב ראש ולחבר ועדה ציבורית“ של החשב הכללי במשרד האוצר או כל הוראה אחרת שתבוא במקומה; בסעיף זה, ”עובד גוף מתוקצב“ ו”עובד גוף נתמך“ – כהגדרתם <ref href="/akn/il/act/PrimaryLegislation/1985-04-03/150399#point_32">בסעיף 32 לחוק יסודות התקציב, התשמ"ה–1985</ref>.</p>
+            </content>
+          </point>
+          <point eId="point_7">
+            <heading>
+              <authorialNote placement="side">
+                <p>מניין חוקי ורוב נדרש לקבלת החלטות</p>
+              </authorialNote>
+            </heading>
+            <num>7.</num>
+            <list>
+              <point eId="point_7__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>המניין החוקי בישיבות ועדה ציבורית הוא שלושה חברים ובהם יושב ראש הוועדה הציבורית, לפחות.</p>
+                </content>
+              </point>
+              <point eId="point_7__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>החלטות ועדה ציבורית יתקבלו ברוב קולות חברי הוועדה הציבורית המשתתפים בישיבה; אם הקולות שקולים, קולו של יושב ראש הוועדה הציבורית יכריע.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_8">
+            <heading>
+              <authorialNote placement="side">
+                <p>פרסום</p>
+              </authorialNote>
+            </heading>
+            <num>8.</num>
+            <content>
+              <p>עם מינויה של ועדה ציבורית, ועם שינוי בהרכבה, יפרסם השר ברשומות הודעה על המינוי, ובה יפורט הרכב הוועדה הציבורית; כמו כן יפרסם הממונה הודעה כאמור באתר האינטרנט שלו.</p>
+            </content>
+          </point>
+          <point eId="point_9">
+            <heading>
+              <authorialNote placement="side">
+                <p>סדרי הדיון</p>
+              </authorialNote>
+            </heading>
+            <num>9.</num>
+            <content>
+              <p>הוועדה הציבורית תחליט על דרכי עבודתה ועל נוהל דיוניה, אם הם נחוצים ולא נקבעו <ref href="/akn/il/act/PrimaryLegislation/2018-03-15/577400">בחוק</ref> או בתקנות אלה; יושב ראש הוועדה יפרסם את דרכי עבודתה וסדרי דיוניה באתר האינטרנט של הממונה.</p>
+            </content>
+          </point>
+          <point eId="point_10">
+            <heading>
+              <authorialNote placement="side">
+                <p>אי־תלות</p>
+              </authorialNote>
+            </heading>
+            <num>10.</num>
+            <content>
+              <p>הוועדה הציבורית תפעל מתוך עצמאות ואי־תלות בגיבוש רשימת הנאמנים, וחבריה יפעילו את שיקול דעתם על בסיס אמות מידה מקצועיות ובלתי תלויות.</p>
+            </content>
+          </point>
+          <point eId="point_11">
+            <heading>
+              <authorialNote placement="side">
+                <p>פרוטוקולים</p>
+              </authorialNote>
+            </heading>
+            <num>11.</num>
+            <content>
+              <p>הוועדה הציבורית תנהל פרוטוקול שישקף בתמצית את מהלך דיוניה ותוכן החלטותיה, ויפרט, בין השאר, את שמות כל הנוכחים בדיון.</p>
+            </content>
+          </point>
+        </list>
+      </chapter>
+      <chapter eId="chp_ג">
+        <num>פרק ג׳:</num>
+        <title>
+          <content>
+            <p>רשימות הנאמנים</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_12">
+            <heading>
+              <authorialNote placement="side">
+                <p>תוקף רשימת הנאמנים</p>
+              </authorialNote>
+            </heading>
+            <num>12.</num>
+            <list>
+              <point eId="point_12__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>רשימת נאמנים תקפה ממועד פרסומה באתר האינטרנט של הממונה, לאחר קיום ריאיונות לכל הנמנים עמה ועד 31 בדצמבר בשנה הרביעית שלאחר אותו מועד, ורשאית הוועדה הציבורית, בנסיבות מיוחדות, להאריך את תוקפה בשתי תקופות נוספות בנות שישה חודשים כל אחת, באישור שר המשפטים.</p>
+                </content>
+              </point>
+              <point eId="point_12__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>נוספו נאמנים לרשימת נאמנים או לעתודת נאמנים בתקופת תוקפה של רשימת נאמנים, הם ייכללו בה עד תום תקופת תוקפה בלבד.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_13">
+            <heading>
+              <authorialNote placement="side">
+                <p>מספר הנאמנים ברשימת נאמנים מחוזית</p>
+              </authorialNote>
+            </heading>
+            <num>13.</num>
+            <content>
+              <p>הממונה יודיע לוועדה ציבורית, לפני פתיחה בהליך לגיבוש רשימת נאמנים, בדבר החלטתו בעניין מספר הנאמנים שיש לכלול ברשימת הנאמנים המחוזית ליחידים וברשימת הנאמנים המחוזית לתאגידים ובעניין מספר הנאמנים שיש לכלול בעתודות לאותן רשימות, בפילוח לפי מחוזות, והכול בהתחשב בנתונים שבידיו ובנתונים שיביא לפניו מנהל מערכת ההוצאה לפועל לגבי הליכי חדלות פירעון ושיקום כלכלי ובשים לב לצורך להבטיח היקף פעילות מתאים לנאמנים לשם שמירה על רמה מקצועית ראויה.</p>
+            </content>
+          </point>
+          <point eId="point_14">
+            <heading>
+              <authorialNote placement="side">
+                <p>עתודת הנאמנים – רשימות מחוזיות</p>
+              </authorialNote>
+            </heading>
+            <num>14.</num>
+            <list>
+              <point eId="point_14__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>המועמדים בעלי הציון המשוקלל הגבוה ביותר שהשלימו את הליך הגיבוש ולא נכללו ברשימת הנאמנים המחוזית ליחידים או ברשימת הנאמנים המחוזית לתאגידים, לפי העניין, ייכללו בעתודת הנאמנים לאותה רשימה ומיקומם בה יהיה לפי ציונם המשוקלל.</p>
+                </content>
+              </point>
+              <point eId="point_14__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>עתודת נאמנים תהיה תקפה למשך תוקפה של רשימת הנאמנים.</p>
+                </content>
+              </point>
+              <point eId="point_14__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>נגרע נאמן, אחד או יותר, מרשימת נאמנים מחוזית ליחידים או מרשימת נאמנים מחוזית לתאגידים, ייווסף במקומו המועמד המדורג במיקום הגבוה ביותר בעתודת הנאמנים לאותה רשימה.</p>
+                </content>
+              </point>
+              <point eId="point_14__point_ד">
+                <num>(ד)</num>
+                <content>
+                  <p>החליטה ועדה ציבורית להשעות לתקופה נאמן מרשימת נאמנים לפי <ref href="#point_32">תקנות 32(ג)</ref><ref href="#point_32">או 32(ד)</ref>, או הוקפאה לתקופה הכללה של נאמן ברשימת נאמנים לפי <ref href="#point_32">תקנה 32(ה)</ref>, רשאית הוועדה הציבורית להוסיף במקומו את המועמד המדורג במקום הגבוה ביותר בעתודת הנאמנים.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_15">
+            <heading>
+              <authorialNote placement="side">
+                <p>הרחבת רשימת נאמנים בנסיבות חריגות</p>
+              </authorialNote>
+            </heading>
+            <num>15.</num>
+            <content>
+              <p>המליץ הממונה להרחיב את אחת מרשימות הנאמנים באופן מיידי בשל עלייה בהיקף הליכי חדלות הפירעון המצדיקה זאת בהתחשב בנתונים שבידיו ובנתונים שהביא לפניו מנהל מערכת ההוצאה לפועל, רשאית ועדה ציבורית לעשות כן בדרך של קיום הליך גיבוש רשימת נאמנים נוסף או מתוך העתודה; אם החליטה להרחיב רשימת נאמנים מחוזית על ידי הוספת נאמנים מעתודת הנאמנים, ייווספו לרשימה המועמדים המדורגים במיקום הגבוה ביותר בעתודת הנאמנים ותחול <ref href="#point_12">תקנה 12(ב)</ref>.</p>
+            </content>
+          </point>
+          <point eId="point_16">
+            <heading>
+              <authorialNote placement="side">
+                <p>סיווג הליכים מורכבים</p>
+              </authorialNote>
+            </heading>
+            <num>16.</num>
+            <content>
+              <p>הממונה יחליט לעניין הליך אם מתקיימים בו המאפיינים של הליך מורכב, בסמוך לאחר הגשת הבקשה לפתיחה בהליך.</p>
+            </content>
+          </point>
+        </list>
+      </chapter>
+      <chapter eId="chp_ד">
+        <num>פרק ד׳:</num>
+        <title>
+          <content>
+            <p>תנאי סף ובחינה מקצועית</p>
+          </content>
+        </title>
+        <section eId="chp_ד__sec_א">
+          <num>סימן א׳:</num>
+          <title>
+            <content>
+              <p>תנאי סף לרשימות הנאמנים</p>
+            </content>
+          </title>
+          <list>
+            <point eId="point_17">
+              <heading>
+                <authorialNote placement="side">
+                  <p>תנאי סף לרשימות נאמנים</p>
+                </authorialNote>
+              </heading>
+              <num>17.</num>
+              <list>
+                <point eId="point_17__point_א">
+                  <num>(א)</num>
+                  <list>
+                    <intro>
+                      <p>כשיר להיכלל ברשימת הנאמנים מי שמתקיימות בו דרישות <ref href="/akn/il/act/PrimaryLegislation/2018-03-15/577400#point_37">סעיף 37(ב)</ref><ref href="/akn/il/act/PrimaryLegislation/2018-03-15/577400#point_126">או 126(ב) לחוק</ref> לפי העניין, וכן –</p>
+                    </intro>
+                    <point eId="point_17__point_א__point_1">
+                      <num>(1)</num>
+                      <content>
+                        <p>לעניין רשימת נאמנים מחוזית ליחידים – מועמד שצבר ניסיון בהליכי חדלות פירעון של יחידים של 3 שנים לפחות, ובחמישה הליכים לפחות של יחידים וכן עורך דין שייצג יחידים בהליכי חדלות פירעון במשך 3 שנים לפחות ובחמישה הליכים לפחות, וכן עמד בבחינה מקצועית כאמור <ref href="#chp_ד_sec_ב">בסימן ב׳</ref>;</p>
+                      </content>
+                    </point>
+                    <point eId="point_17__point_א__point_2">
+                      <num>(2)</num>
+                      <content>
+                        <p>לעניין רשימת נאמנים מחוזית לתאגידים – מועמד שצבר ניסיון בהליכי חדלות פירעון של תאגידים של 3 שנים לפחות ובשלושה הליכי חדלות פירעון של תאגידים לפחות וכן עמד בבחינה מקצועית כאמור <ref href="#chp_ד_sec_ב">בסימן ב׳</ref>;</p>
+                      </content>
+                    </point>
+                    <point eId="point_17__point_א__point_3">
+                      <num>(3)</num>
+                      <list>
+                        <intro>
+                          <p>לעניין רשימת נאמנים מפעילים – מועמד שמתקיים לגביו אחד או יותר מאלה:</p>
+                        </intro>
+                        <point eId="point_17__point_א__point_3__point_א">
+                          <num>(א)</num>
+                          <content>
+                            <p>במהלך שבע השנים שקדמו להגשת מועמדותו כיהן בתפקיד בעשרים הליכי חדלות פירעון לפחות שבהם ניתן צו המורה על פירוק התאגיד;</p>
+                          </content>
+                        </point>
+                        <point eId="point_17__point_א__point_3__point_ב">
+                          <num>(ב)</num>
+                          <content>
+                            <p>במהלך עשר השנים שקדמו להגשת מועמדותו כיהן בתפקיד בשלושה הליכי הפעלה; בפסקה זו, ”כהונה בתפקיד“ – לעניין עורך דין, לרבות ייצוג של מי שכיהן בתפקיד בשלושה הליכי הפעלה, ולעניין רואה חשבון, לרבות ניסיון בשלושה הליכי הפעלה;</p>
+                          </content>
+                        </point>
+                        <point eId="point_17__point_א__point_3__point_ג">
+                          <num>(ג)</num>
+                          <content>
+                            <p>כיהן בתפקיד בהליך חדלות פירעון אחד לפחות, של תאגיד שהכנסותיו השנתיות בזמן ההליך עולות על 24 מיליון שקלים, שארך כשלושה חודשים לפחות;</p>
+                          </content>
+                        </point>
+                        <point eId="point_17__point_א__point_3__point_ד">
+                          <num>(ד)</num>
+                          <content>
+                            <p>לעניין עורך דין – ייצג את מי שכיהן בתפקיד בשלושה הליכים מורכבים לפחות או בתשעה הליכי הפעלה; לעניין רואה חשבון – בעל ניסיון בתשעה הליכי הפעלה;</p>
+                          </content>
+                        </point>
+                      </list>
+                    </point>
+                    <point eId="point_17__point_א__point_4">
+                      <num>(4)</num>
+                      <list>
+                        <intro>
+                          <p>לעניין רשימת נאמנים מפעילים במשותף – רואה חשבון שהתקיימו לגביו שני אלה:</p>
+                        </intro>
+                        <point eId="point_17__point_א__point_4__point_א">
+                          <num>(א)</num>
+                          <content>
+                            <p>מי שכיהן כנושא משרה כהגדרתו <ref href="/akn/il/act/PrimaryLegislation/1999-05-27/165159">בחוק החברות</ref> או מי שהוא בעל ניסיון מוכח בליווי תאגידים בקשיים;</p>
+                          </content>
+                        </point>
+                        <point eId="point_17__point_א__point_4__point_ב">
+                          <num>(ב)</num>
+                          <content>
+                            <p>עבר הכשרה של הממונה בהליכי חדלות פירעון בהיקף של 60 שעות לפחות;</p>
+                          </content>
+                        </point>
+                      </list>
+                    </point>
+                    <point eId="point_17__point_א__point_5">
+                      <num>(5)</num>
+                      <list>
+                        <intro>
+                          <p>לעניין רשימת נאמנים להליכים מורכבים – מועמד שמתקיימים לגביו אחד או יותר מאלה:</p>
+                        </intro>
+                        <point eId="point_17__point_א__point_5__point_א">
+                          <num>(א)</num>
+                          <content>
+                            <p>מי שכיהן בתפקיד בחמישה עשר הליכי הפעלה;</p>
+                          </content>
+                        </point>
+                        <point eId="point_17__point_א__point_5__point_ב">
+                          <num>(ב)</num>
+                          <content>
+                            <p>מי שכיהן בתפקיד בהליך חדלות פירעון אחד לפחות של תאגיד שהיקף נכסיו בזמן ההליך עולה על 20 מיליון שקלים;</p>
+                          </content>
+                        </point>
+                        <point eId="point_17__point_א__point_5__point_ג">
+                          <num>(ג)</num>
+                          <content>
+                            <p>מי שכיהן בתפקיד בהליך חדלות פירעון אחד לפחות של תאגיד שהכנסותיו השנתיות בזמן ההליך עולות על 50 מיליון שקלים חדשים, וההליך ארך שישה חודשים לפחות.</p>
+                          </content>
+                        </point>
+                      </list>
+                    </point>
+                  </list>
+                </point>
+                <point eId="point_17__point_ב">
+                  <num>(ב)</num>
+                  <content>
+                    <p>יראו מי שהוועדה הציבורית התרשמה כי הוא בעל מיומנות מיוחדת או ניסיון מוכח בניהול הליכי חדלות פירעון כאמור <ref href="/akn/il/act/PrimaryLegislation/2018-03-15/577400#point_37">בסעיפים 37</ref><ref href="/akn/il/act/PrimaryLegislation/2018-03-15/577400#point_126">או 126 לחוק</ref>, לפי העניין, כמי שעומד בדרישת תקנת משנה (א), ובלבד שעמד בבחינה מקצועית, אם ביקש להיכלל ברשימת נאמנים מחוזית.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_18">
+              <heading>
+                <authorialNote placement="side">
+                  <p>סייגים להכללת נאמן ברשימת נאמנים</p>
+                </authorialNote>
+              </heading>
+              <num>18.</num>
+              <list>
+                <intro>
+                  <p>לא יירשם ברשימת נאמנים –</p>
+                </intro>
+                <point eId="point_18__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>מי שוועדת האכיפה המינהלית לפי <ref href="/akn/il/act/PrimaryLegislation/1968-08-22/150242#point_52נו">סעיף 52נו לחוק ניירות ערך</ref> הטילה עליו אמצעי אכיפה האוסר עליו להיות נושא משרה בכירה בגוף מפוקח;</p>
+                  </content>
+                </point>
+                <point eId="point_18__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>מי שניתן לגביו צו לפתיחת הליכים וטרם הסתיימו ההליכים בעניינו;</p>
+                  </content>
+                </point>
+                <point eId="point_18__point_3">
+                  <num>(3)</num>
+                  <content>
+                    <p>מי שבית משפט הורה על הגבלת עיסוקיו לפי <ref href="/akn/il/act/PrimaryLegislation/1999-05-27/165159#point_7">סעיף 7 לחוק החברות</ref>;</p>
+                  </content>
+                </point>
+                <point eId="point_18__point_4">
+                  <num>(4)</num>
+                  <content>
+                    <p>מי שנגרע מרשימת נאמנים בשנתיים שקדמו לבקשתו הנוכחית להיכלל בה, בנסיבות המנויות <ref href="#point_32">בתקנה 32(ג)</ref>;</p>
+                  </content>
+                </point>
+                <point eId="point_18__point_5">
+                  <num>(5)</num>
+                  <content>
+                    <p>מי שעלול להימצא, במישרין או בעקיפין, באופן תדיר, במצב של ניגוד עניינים בין מילוי תפקיד נאמן לבין עניין אישי או תפקיד אחר, שלו או של קרובו.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+          </list>
+        </section>
+        <section eId="chp_ד__sec_ב">
+          <num>סימן ב׳:</num>
+          <title>
+            <content>
+              <p>בחינה מקצועית</p>
+            </content>
+          </title>
+          <list>
+            <point eId="point_19">
+              <heading>
+                <authorialNote placement="side">
+                  <p>בחינה מקצועית</p>
+                </authorialNote>
+              </heading>
+              <num>19.</num>
+              <list>
+                <point eId="point_19__point_א">
+                  <num>(א)</num>
+                  <content>
+                    <p>אחת לשנתיים, 45 ימים לפחות אחרי פרסום ההזמנה להגיש מועמדות לרשימת נאמנים מחוזית ליחידים או לרשימת נאמנים מחוזית לתאגידים לפי <ref href="#point_22">תקנה 22</ref>, תערוך ועדה ציבורית בחינה מקצועית בנושאים האלה: חקיקה ופסיקה הנוגעות להליכי חדלות פירעון, נוהלי הממונה, תפקיד הנאמן, עבודתו והתנהלותו; הבחינה תיערך בכתב וציון המעבר בה יהיה 70; הוועדה הציבורית תפרסם, באתר האינטרנט של הממונה, פרטים בדבר הבחינה, ובכלל זה מיקום ומועד עריכתה ואופן הרישום לבחינה, 45 ימים לפחות לפני הבחינה.</p>
+                  </content>
+                </point>
+                <point eId="point_19__point_ב">
+                  <num>(ב)</num>
+                  <content>
+                    <p>רשאי להיבחן כל מי שהגיש הצהרה על כך שהוא עומד בתנאי הכשירות הקבועים <ref href="/akn/il/act/PrimaryLegislation/2018-03-15/577400#point_37">בסעיפים 37(ב)</ref><ref href="/akn/il/act/PrimaryLegislation/2018-03-15/577400#point_126">ו־126(ב) לחוק</ref> או שצפוי כי יעמוד בהם בתוך שנתיים ממועד הבחינה.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_20">
+              <heading>
+                <authorialNote placement="side">
+                  <p>השגה</p>
+                </authorialNote>
+              </heading>
+              <num>20.</num>
+              <list>
+                <point eId="point_20__point_א">
+                  <num>(א)</num>
+                  <content>
+                    <p>נבחן רשאי להשיג על ציון שקיבל בבחינה; ההשגה תוגש לוועדה הציבורית בכתב, כשהיא מנומקת.</p>
+                  </content>
+                </point>
+                <point eId="point_20__point_ב">
+                  <num>(ב)</num>
+                  <content>
+                    <p>נבחן המבקש להשיג על ציון שקיבל, רשאי לבקש לעיין במחברת הבחינה שהיא נושא ההשגה בתוך 7 ימים מיום פרסום הציונים, ויעיין בה בדרך שיורה לו הממונה; ביקש נבחן לעיין במחברת כאמור, הוא רשאי להשיג על הציון בתוך 14 ימים מיום פרסום הציונים או בתוך 7 ימים מיום שניתנה לו אפשרות העיון – המאוחר מביניהם.</p>
+                  </content>
+                </point>
+                <point eId="point_20__point_ג">
+                  <num>(ג)</num>
+                  <content>
+                    <p>הוועדה הציבורית תמסור למשיג החלטה בהשגה בתוך 30 ימים מן היום האחרון להגשתה.</p>
+                  </content>
+                </point>
+                <point eId="point_20__point_ד">
+                  <num>(ד)</num>
+                  <content>
+                    <p>החליטה הוועדה הציבורית, במסגרת ההשגה שהוגשה, על שינוי בפתרון הבחינה, תשנה הוועדה הציבורית לפי ההחלטה האמורה גם את הציון של שאר הנבחנים אף אם לא הגישו השגה.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+          </list>
+        </section>
+      </chapter>
+      <chapter eId="chp_ה">
+        <num>פרק ה׳:</num>
+        <title>
+          <content>
+            <p>הליך גיבוש רשימת נאמנים ועתודת נאמנים</p>
+          </content>
+        </title>
+        <section eId="chp_ה__sec_א">
+          <num>סימן א׳:</num>
+          <title>
+            <content>
+              <p>הגשת מועמדות להיכלל ברשימת נאמנים</p>
+            </content>
+          </title>
+          <list>
+            <point eId="point_21">
+              <heading>
+                <authorialNote placement="side">
+                  <p>מועד גיבוש רשימת נאמנים מרכזית</p>
+                </authorialNote>
+              </heading>
+              <num>21.</num>
+              <content>
+                <p>ועדה ציבורית תתחיל בהליך גיבוש מרכזי ברבעון השני של השנה שבה יפקע תוקפה של רשימת הנאמנים כאמור <ref href="#point_12">בתקנה 12</ref>.</p>
+              </content>
+            </point>
+            <point eId="point_22">
+              <heading>
+                <authorialNote placement="side">
+                  <p>פרסום הזמנה להגשת מועמדות</p>
+                </authorialNote>
+              </heading>
+              <num>22.</num>
+              <list>
+                <point eId="point_22__point_א">
+                  <num>(א)</num>
+                  <content>
+                    <p>אחת לשנתיים, ברבעון השני של השנה שבה מתקיים הליך גיבוש מרכזי וברבעון השלישי בשנה שבה מתקיים הליך גיבוש משני, תפרסם ועדה ציבורית הזמנה להגשת מועמדות; ההזמנה תפורסם באתר האינטרנט של הממונה.</p>
+                  </content>
+                </point>
+                <point eId="point_22__point_ב">
+                  <num>(ב)</num>
+                  <list>
+                    <intro>
+                      <p>הזמנה להגיש מועמדות תכלול את הפרטים שלהלן לגבי כל רשימת נאמנים בנפרד:</p>
+                    </intro>
+                    <point eId="point_22__point_ב__point_1">
+                      <num>(1)</num>
+                      <content>
+                        <p>רשימת הנאמנים שאליה נוגעת ההזמנה לנאמנים, ואם מדובר בהליך גיבוש מרכזי או הליך גיבוש משני;</p>
+                      </content>
+                    </point>
+                    <point eId="point_22__point_ב__point_2">
+                      <num>(2)</num>
+                      <content>
+                        <p>לגבי רשימת נאמנים מחוזית ליחידים או רשימת נאמנים מחוזית לתאגידים – מספר הנאמנים שייכללו ברשימת הנאמנים ומספר המועמדים שיזומנו לריאיון אישי שלא נמנו עם רשימת הנאמנים שקדמה לרשימה המתגבשת;</p>
+                      </content>
+                    </point>
+                    <point eId="point_22__point_ב__point_3">
+                      <num>(3)</num>
+                      <content>
+                        <p>המועד הקובע להגשת מועמדות;</p>
+                      </content>
+                    </point>
+                    <point eId="point_22__point_ב__point_4">
+                      <num>(4)</num>
+                      <content>
+                        <p>המידע שיש לכלול בבקשה לפי <ref href="#point_23">תקנה 23</ref>;</p>
+                      </content>
+                    </point>
+                    <point eId="point_22__point_ב__point_5">
+                      <num>(5)</num>
+                      <content>
+                        <p>פרטי הבחינה הקרובה וכן הבהרה כי מי שכבר עבר את הבחינה אינו חייב לגשת אליה שוב.</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+              </list>
+            </point>
+            <point eId="point_23">
+              <heading>
+                <authorialNote placement="side">
+                  <p>הגשת מועמדות</p>
+                </authorialNote>
+              </heading>
+              <num>23.</num>
+              <list>
+                <intro>
+                  <p>המבקש להגיש את מועמדותו להיכלל ברשימת נאמנים יגיש בקשה על כך לוועדה ציבורית, באמצעות אתר האינטרנט של הממונה, עד המועד הקובע להגשת מועמדות שפורסם בהזמנה להגשת מועמדות לפי <ref href="#point_22">תקנה 22</ref>; בקשה כאמור תכלול את הפרטים שלהלן:</p>
+                </intro>
+                <point eId="point_23__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>פרטים אישיים של המועמד;</p>
+                  </content>
+                </point>
+                <point eId="point_23__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>פירוט לגבי התשתית המשרדית ומיקום המשרד של המועמד;</p>
+                  </content>
+                </point>
+                <point eId="point_23__point_3">
+                  <num>(3)</num>
+                  <content>
+                    <p>פרטים בדבר השכלה והכשרה מקצועית של המועמד והשתתפות בהשתלמויות;</p>
+                  </content>
+                </point>
+                <point eId="point_23__point_4">
+                  <num>(4)</num>
+                  <content>
+                    <p>פרטים בדבר ותק וניסיון מקצועי של המועמד בתחום חדלות הפירעון והליכי חדלות פירעון שבהם טיפל;</p>
+                  </content>
+                </point>
+                <point eId="point_23__point_5">
+                  <num>(5)</num>
+                  <content>
+                    <p>מסמכים, אסמכתאות, המלצות ותצהירים המעידים על המידע שהובא כאמור בפסקאות (1) עד (4) ובכלל זה כתבי בי־דין שהגיש וכיוצא באלה;</p>
+                  </content>
+                </point>
+                <point eId="point_23__point_6">
+                  <num>(6)</num>
+                  <content>
+                    <p>לגבי הגשת מועמדות לרשימת נאמנים מחוזית ליחידים או לרשימת נאמנים מחוזית לתאגידים למי שחייב בבחינה מקצועית – אישור כי עמד בבחינה מקצועית, בפירוט מועד הבחינה והציון או אישור הרשמה לבחינה המקצועית הקרובה לפי המועד שפורסם בהזמנה להגשת מועמדות.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+          </list>
+        </section>
+        <section eId="chp_ה__sec_ב">
+          <num>סימן ב׳:</num>
+          <title>
+            <content>
+              <p>הערכת מועמדים</p>
+            </content>
+          </title>
+          <list>
+            <point eId="point_24">
+              <heading>
+                <authorialNote placement="side">
+                  <p>זימון לריאיון אישי</p>
+                </authorialNote>
+              </heading>
+              <num>24.</num>
+              <list>
+                <point eId="point_24__point_א">
+                  <num>(א)</num>
+                  <list>
+                    <intro>
+                      <p>בסמוך לאחר המועד הקובע להגשת מועמדות, תבחן ועדה ציבורית אם המועמד עומד בתנאי הכשירות המנויים <ref href="/akn/il/act/PrimaryLegislation/2018-03-15/577400#point_37">בסעיפים 37(ב)</ref><ref href="/akn/il/act/PrimaryLegislation/2018-03-15/577400#point_126">ו־126(ב) לחוק</ref><ref href="#chp_ד_sec_א">ובסימן א׳ לפרק ד׳ לתקנות אלה</ref>; כן תבחן הוועדה הציבורית כי לא מתקיים בעניינו סייג כאמור <ref href="#point_18">בתקנה 18</ref>; מצאה הוועדה הציבורית כי התקיימו לגבי מועמד תנאי הכשירות וכי לא מתקיים בעניינו סייג, תפעל כמפורט להלן:</p>
+                    </intro>
+                    <point eId="point_24__point_א__point_1">
+                      <num>(1)</num>
+                      <content>
+                        <p>לגבי רשימת נאמנים מחוזית ליחידים או רשימת נאמנים מחוזית לתאגידים – הוועדה הציבורית תזמן לריאיון אישי את כל הנאמנים שנמנים על אותה רשימת נאמנים מחוזית במועד הקובע להגשת המועמדות וכן מספר מועמדים כאמור <ref href="#point_22">בתקנה 22(ב)(2)</ref>, שעברו את הבחינה בציון הגבוה ביותר;</p>
+                      </content>
+                    </point>
+                    <point eId="point_24__point_א__point_2">
+                      <num>(2)</num>
+                      <content>
+                        <p>לגבי רשימת נאמנים מפעילים, רשימת נאמנים מפעילים במשותף ורשימת נאמנים להליכים מורכבים – הוועדה הציבורית תזמן לריאיון אישי את כל הנאמנים שנמנים על אותה רשימת נאמנים במועד הקובע להגשת המועמדות וכן כל מועמד העומד בתנאי הסף;</p>
+                      </content>
+                    </point>
+                    <point eId="point_24__point_א__point_3">
+                      <num>(3)</num>
+                      <content>
+                        <p>הוועדה הציבורית תשלח הודעה לכל מועמד שנמצא כי אינו זכאי להיות מזומן לריאיון אישי, והטעם לאי־זימונו.</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+                <point eId="point_24__point_ב">
+                  <num>(ב)</num>
+                  <content>
+                    <p>על אף האמור בתקנת משנה (א)(1), קיבלו כמה מועמדים ציון זהה בבחינה, והציון זהה לציון הנמוך ביותר שהמחזיק בו זומן לריאיון אישי – יזומנו גם הם לריאיון אישי, אף אם זימונם יביא לחריגה ממספר המזומנים שעליו הוחלט מראש כאמור.</p>
+                  </content>
+                </point>
+                <point eId="point_24__point_ג">
+                  <num>(ג)</num>
+                  <content>
+                    <p>הוועדה הציבורית תצרף לזימון לריאיון אישי העתק מחוות הדעת שגובשה לפי <ref href="#point_25">תקנה 25</ref>, אם גובשה.</p>
+                  </content>
+                </point>
+                <point eId="point_24__point_ד">
+                  <num>(ד)</num>
+                  <content>
+                    <p>על אף האמור בתקנת משנה (א) רישה ובפסקה (1) לאותה תקנת משנה, המועד לבחינת עמידה בבחינה מקצועית לגבי מועמד שהגיש אישור על הרשמה לבחינה המקצועית שנערכת במהלך אותו הליך גיבוש רשימת נאמנים, יהיה לאחר מסירת תוצאות הבחינה או מסירת ההחלטה בהשגות לגבי אותה בחינה, אם הוגשו.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_25">
+              <heading>
+                <authorialNote placement="side">
+                  <p>חוות דעת הממונה ומנהל מערכת ההוצאה לפועל</p>
+                </authorialNote>
+              </heading>
+              <num>25.</num>
+              <list>
+                <point eId="point_25__point_א">
+                  <num>(א)</num>
+                  <content>
+                    <p>היה המועמד מנוי ברשימת נאמנים בעבר, יפרט הממונה מידע זה לפני הוועדה הציבורית ויצרף חוות דעת ממונה שגובשה לפי תקנה זו, וכן חוות דעת מנהל מערכת ההוצאה לפועל, לפי העניין.</p>
+                  </content>
+                </point>
+                <point eId="point_25__point_ב">
+                  <num>(ב)</num>
+                  <list>
+                    <intro>
+                      <p>בחוות דעתו ייתן הממונה או מנהל מערכת ההוצאה לפועל, לפי העניין, ביטוי לעניינים אלה, ורשאי הוא לצרף מסמכים ואסמכתאות אם יראה לנכון:</p>
+                    </intro>
+                    <point eId="point_25__point_ב__point_1">
+                      <num>(1)</num>
+                      <content>
+                        <p>עמדתו לעניין דיווח המועמד בעניין ותק וניסיון מקצועי שהציג המועמד, במסגרת בקשתו לפי <ref href="#point_23">תקנה 23(4)</ref>;</p>
+                      </content>
+                    </point>
+                    <point eId="point_25__point_ב__point_2">
+                      <num>(2)</num>
+                      <content>
+                        <p>רמת התפקוד המקצועי של המועמד לאורך התקופה שבה נכלל ברשימת נאמנים, ובכלל זה היקף ומורכבות ההליכים שניהל; שיתוף הפעולה עם הממונה, לרבות דיווחים ועמידה במועדים, וכן השתתפות בהכשרות הממונה; התשתית המשרדית העומדת לרשותו לניהול הליכי חדלות פירעון ותרומתו להצלחת ההליכים שניהל;</p>
+                      </content>
+                    </point>
+                    <point eId="point_25__point_ב__point_3">
+                      <num>(3)</num>
+                      <content>
+                        <p>לגבי מועמד לרשימת נאמנים מחוזית ליחידים – נגישות וקרבה גאוגרפית למחוז שאליו הגיש מועמדות;</p>
+                      </content>
+                    </point>
+                    <point eId="point_25__point_ב__point_4">
+                      <num>(4)</num>
+                      <content>
+                        <p>לגבי מועמד לרשימת נאמנים בהליכים מורכבים – יכולתו של המועמד לנהל הליך מורכב.</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+              </list>
+            </point>
+            <point eId="point_26">
+              <heading>
+                <authorialNote placement="side">
+                  <p>ריאיון אישי</p>
+                </authorialNote>
+              </heading>
+              <num>26.</num>
+              <list>
+                <point eId="point_26__point_א">
+                  <num>(א)</num>
+                  <content>
+                    <p>הריאיון האישי ייערך לפני חברי הוועדה הציבורית, ובלבד שמניין חברי הוועדה שלפניהם נערך הריאיון לא יפחת משלושה, שאחד מהם לפחות הוא הממונה או נציגו.</p>
+                  </content>
+                </point>
+                <point eId="point_26__point_ב">
+                  <num>(ב)</num>
+                  <content>
+                    <p>במהלך הריאיון האישי יעמדו חברי הוועדה הציבורית המראיינים על התאמתו של המועמד לרשימת הנאמנים שאליה הגיש את מועמדותו; במסגרת זו ייתנו את דעתם, בין השאר, לעניינים אלה: רמה מקצועית; אופן התנהלותו, אמינות ומהימנות; חוות הדעת שהוגשה לפי <ref href="#point_25">תקנה 25</ref>; התשתית המשרדית העומדת לרשותו לצורכי ניהול הליכי חדלות פירעון; והצורך במתן מענה המותאם לקבוצות שונות באוכלוסייה, לרבות מענה בשפות שונות; לגבי מועמד לרשימת נאמנים בהליכי חדלות פירעון מורכבים, תשקול הוועדה הציבורית, בין השאר, את יכולתו לנהל הליך מורכב.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_27">
+              <heading>
+                <authorialNote placement="side">
+                  <p>חישוב הציון המשוקלל</p>
+                </authorialNote>
+              </heading>
+              <num>27.</num>
+              <list>
+                <point eId="point_27__point_א">
+                  <num>(א)</num>
+                  <list>
+                    <intro>
+                      <p>הוועדה הציבורית תיחשב את הציון המשוקלל לכלל המועמדים לרשימת נאמנים מחוזית ליחידים ולרשימת נאמנים מחוזית לתאגידים; הציון המשוקלל יורכב מרכיבי הציון המפורטים להלן:</p>
+                    </intro>
+                    <point eId="point_27__point_א__point_1">
+                      <num>(1)</num>
+                      <content>
+                        <p>ציון הבחינה המקצועית, אם יש;</p>
+                      </content>
+                    </point>
+                    <point eId="point_27__point_א__point_2">
+                      <num>(2)</num>
+                      <content>
+                        <p>התרשמות הוועדה הציבורית מהריאיון האישי;</p>
+                      </content>
+                    </point>
+                    <point eId="point_27__point_א__point_3">
+                      <num>(3)</num>
+                      <content>
+                        <p>המידע העולה מבקשת המועמדות ומידע נוסף הנוגע לעניין, אם הממונה הציג אותו לוועדה הציבורית.</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+                <point eId="point_27__point_ב">
+                  <num>(ב)</num>
+                  <content>
+                    <p>הוועדה הציבורית תגלה את דעתה לגבי אופן חישוב הציון המשוקלל לפי תקנה זו, באתר האינטרנט של הממונה.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_28">
+              <heading>
+                <authorialNote placement="side">
+                  <p>דירוג מועמדים</p>
+                </authorialNote>
+              </heading>
+              <num>28.</num>
+              <list>
+                <point eId="point_28__point_א">
+                  <num>(א)</num>
+                  <content>
+                    <p>הסתיימו הריאיונות האישיים, תיחשב ועדה ציבורית את הציון המשוקלל לכל אחד מן המועמדים לרשימת נאמנים מחוזית ליחידים ולרשימת נאמנים מחוזית לתאגידים שהופיעו לפניה; בהליך גיבוש מרכזי, המועמדים בעלי הציון המשוקלל הגבוה ביותר ייכללו ברשימת נאמנים בכל מחוז, ובלבד ששיעור הנאמנים ברשימה שלא נמנו עם רשימת הנאמנים שקדמה לרשימה המתגבשת לא יפחת מ־15% מהרשימה (להלן – נאמנים חדשים), ובהליך גיבוש משני, ייכללו בעתודת הנאמנים לרשימה, ומיקומם בה יהיה לפי ציונם המשוקלל לעומת כל המנויים בה.</p>
+                  </content>
+                </point>
+                <point eId="point_28__point_ב">
+                  <num>(ב)</num>
+                  <content>
+                    <p>על אף האמור בתקנת משנה (א), מועמדים שנכללו ברשימת נאמנים מפעילים ושהוועדה דירגה אותם בציונים הגבוהים ביותר בהסתמך על הריאיון האישי, רשאים להיכלל ברשימה מחוזית לתאגידים׳ ובלבד ששיעור נאמנים כאמור לא יעלה על 25% ממספר הנאמנים שיהיו מנויים עם אותה רשימה מחוזית, ולא ייחשבו לנאמנים חדשים.</p>
+                  </content>
+                </point>
+                <point eId="point_28__point_ג">
+                  <num>(ג)</num>
+                  <content>
+                    <p>המועמדים שהוועדה הציבורית החליטה שעברו בהצלחה את הריאיון האישי לרשימת נאמנים מפעילים או לרשימת נאמנים מפעילים במשותף ייכללו ברשימת נאמנים מפעילים או ברשימת נאמנים מפעילים במשותף, לפי העניין; ביקש נאמן להיכלל גם ברשימה מחוזית לתאגידים, תדרג אותו הוועדה לצורך כך; המועמדים שהוועדה הציבורית החליטה שעברו בהצלחה את הריאיון האישי לרשימת הנאמנים להליכים מורכבים, ייכללו ברשימת הנאמנים להליכים מורכבים וגם ברשימת נאמנים מפעילים.</p>
+                  </content>
+                </point>
+                <point eId="point_28__point_ד">
+                  <num>(ד)</num>
+                  <content>
+                    <p>ועדה ציבורית תשלח למועמדים הודעה על הכללתם ברשימת נאמנים או בעתודת נאמנים וכן תשלח הודעה מתאימה למועמדים שלא נכללו ברשימת נאמנים או בעתודת נאמנים.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_29">
+              <heading>
+                <authorialNote placement="side">
+                  <p>פרסום רשימת נאמנים</p>
+                </authorialNote>
+              </heading>
+              <num>29.</num>
+              <list>
+                <point eId="point_29__point_א">
+                  <num>(א)</num>
+                  <content>
+                    <p>ועדה ציבורית תפרסם את רשימת הנאמנים ועתודת הנאמנים וכל שינוי שחל בה באתר האינטרנט של הממונה.</p>
+                  </content>
+                </point>
+                <point eId="point_29__point_ב">
+                  <num>(ב)</num>
+                  <content>
+                    <p>ועדה ציבורית תעדכן את רשימת הנאמנים וכל שינוי שחל בה בסמוך ככל האפשר לקבלת ההחלטה.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+          </list>
+        </section>
+      </chapter>
+      <chapter eId="chp_ו">
+        <num>פרק ו׳:</num>
+        <title>
+          <content>
+            <p>עיון מחדש, גריעה מרשימת נאמנים ומעברים בין רשימות</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_30">
+            <heading>
+              <authorialNote placement="side">
+                <p>מעבר בין רשימות מחוזיות</p>
+              </authorialNote>
+            </heading>
+            <num>30.</num>
+            <content>
+              <p>נאמן שנכלל ברשימת נאמנים מחוזית ליחידים או ברשימת נאמנים מחוזית לתאגידים, ובמהלך תקופת תוקפה של רשימת נאמנים חל שינוי נסיבות המצדיק את הכללתו ברשימת נאמנים מחוזית ליחידים או רשימת נאמנים מחוזית לתאגידים מאותו סוג במחוז אחר, רשאי להגיש בקשה בעניין זה לוועדה ציבורית; הוועדה הציבורית רשאית לכלול את הנאמן, לפי בקשתו, ברשימת נאמנים מחוזית ליחידים או רשימת נאמנים מחוזית לתאגידים מאותו סוג במחוז אחר לפי צורכי המערכת.</p>
+            </content>
+          </point>
+          <point eId="point_31">
+            <heading>
+              <authorialNote placement="side">
+                <p>זימון נאמן לריאיון</p>
+              </authorialNote>
+            </heading>
+            <num>31.</num>
+            <content>
+              <p>בתקופה שבין פרסום ההזמנה להגשת מועמדות ועד 30 ימים לאחר המועד הקובע להגשת מועמדות שבמהלך הליך גיבוש משני, רשאית הוועדה הציבורית לזמן נאמן לריאיון אישי, לפי שיקול דעתה, לנוכח תפקודו בתקופת הימנותו עם הרשימה, לשם קבלת החלטה בעניין המשך הכללתו ברשימת הנאמנים עד סיום תקופת תוקפה; הוועדה הציבורית תודיע לנאמן זמן סביר לפני זימונו לריאיון כאמור.</p>
+            </content>
+          </point>
+          <point eId="point_32">
+            <heading>
+              <authorialNote placement="side">
+                <p>גריעה מרשימת נאמנים, השעיה לתקופה והקפאה</p>
+              </authorialNote>
+            </heading>
+            <num>32.</num>
+            <list>
+              <point eId="point_32__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>מי שנכלל ברשימת הנאמנים וחדל להתקיים בו אחד מתנאי הכשירות או תנאי הסף הדרושים להכללתו ברשימת הנאמנים יודיע על כך מיידית לממונה, בכתב; עשה כן, יגרע הממונה את שמו מרשימת נאמנים ויודיע על כך בכתב לוועדה ציבורית.</p>
+                </content>
+              </point>
+              <point eId="point_32__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>סבר חבר ועדה ציבורית כי קיים חשש שנאמן חדל לעמוד בתנאי מתנאי הכשירות או שמתקיים בו סייג מן הסייגים להכללתו ברשימת הנאמנים, יפנה לוועדה ציבורית בבקשה לגריעתו מרשימת נאמנים.</p>
+                </content>
+              </point>
+              <point eId="point_32__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>סבר הממונה כי נאמן אינו ממלא את תפקידו כראוי, רשאי הוא, או מי שהוא הסמיכו לכך, לפנות לוועדה ציבורית בבקשה לדון באפשרות גריעתו או השעייתו לתקופה מרשימת הנאמנים; סבר מנהל מערכת ההוצאה לפועל כי נאמן אינו ממלא את תפקידו כראוי בכל הנוגע להליכי חדלות פירעון המתנהלים בהוצאה לפועל, רשאי הוא, או מי שהוא הסמיכו לכך, לפנות לוועדה ציבורית בבקשה לדון באפשרות גריעתו או השעייתו לתקופה מרשימת הנאמנים; סבר חבר ועדה ציבורית כי נאמן אינו ממלא את תפקידו כראוי, רשאי הוא לפנות לממונה בבקשה כי יבחן את תפקוד הנאמן.</p>
+                </content>
+              </point>
+              <point eId="point_32__point_ד">
+                <num>(ד)</num>
+                <content>
+                  <p>סירב נאמן להתמנות בהליכי חדלות פירעון ארבע פעמים במשך שנה, רשאי הממונה או מנהל מערכת ההוצאה לפועל להביא עניין זה לפני ועדה ציבורית בבקשה לדון באפשרות גריעתו או השעייתו לתקופה מרשימת הנאמנים.</p>
+                </content>
+              </point>
+              <point eId="point_32__point_ה">
+                <num>(ה)</num>
+                <content>
+                  <p>פנה נאמן לממונה בבקשה להקפיא זמנית את הכללתו ברשימת נאמנים, יקפיא הממונה את הכללתו ברשימה לתקופה שביקש הנאמן; סבר הממונה שיש להקפיא את הכללתו ברשימה של נאמן לתקופה שונה מהתקופה שהתבקשה, יעביר את בקשת הנאמן לוועדה בצירוף המלצתו לתקופת ההקפאה; הוועדה רשאית להקפיא זמנית את הכללת אותו נאמן ברשימה לתקופה שתחליט, ובלבד שבטרם קבלת ההחלטה תיתן לנאמן הזדמנות לטעון את טענותיו.</p>
+                </content>
+              </point>
+              <point eId="point_32__point_ו">
+                <num>(ו)</num>
+                <content>
+                  <p>בטרם קבלת החלטה לפי תקנות משנה (ב) עד (ד), תיתן הוועדה הציבורית לנאמן הזדמנות לטעון את טענותיו.</p>
+                </content>
+              </point>
+              <point eId="point_32__point_ז">
+                <num>(ז)</num>
+                <content>
+                  <p>נגרע נאמן מרשימת נאמנים או הושעה ממנה לתקופה לפי תקנה זו, יודיע הממונה על כך לבית המשפט שלפניו מתנהל הליך שבו מונה הנאמן, ויודיע מנהל מערכת ההוצאה לפועל על כך לרשם הוצאה לפועל שלפניו מתנהל ההליך שבו מונה הנאמן.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_33">
+            <heading>
+              <authorialNote placement="side">
+                <p>עיון מחדש</p>
+              </authorialNote>
+            </heading>
+            <num>33.</num>
+            <content>
+              <p>לבקשת מועמד, רשאית הוועדה הציבורית לעיין מחדש בהחלטתה לגרוע מועמד מרשימת נאמנים אם השתנו הנסיבות או התגלו עובדות חדשות שיש בהן כדי להשפיע על קבלת ההחלטה.</p>
+            </content>
+          </point>
+        </list>
+      </chapter>
+      <chapter eId="chp_ז">
+        <num>פרק ז׳:</num>
+        <title>
+          <content>
+            <p>הוראות מעבר</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_34">
+            <heading>
+              <authorialNote placement="side">
+                <p>הוראות מעבר</p>
+              </authorialNote>
+            </heading>
+            <num>34.</num>
+            <list>
+              <point eId="point_34__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>בגיבוש רשימת הנאמנים לראשונה לאחר פרסומן של תקנות אלה, הממונה ומנהל מערכת ההוצאה לפועל רשאים שלא להגיש חוות דעת כאמור <ref href="#point_25">בתקנה 25</ref>.</p>
+                </content>
+              </point>
+              <point eId="point_34__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>בגיבוש רשימת הנאמנים לראשונה לאחר פרסומן של תקנות אלה, ייחשבו מועמדים שבחמש השנים שקדמו להגשת המועמדות כיהנו בתפקיד ב־50 הליכי חדלות פירעון של יחידים לפחות או בעשרה הליכי חדלות פירעון של תאגידים לפחות, כאילו הם נמנים עם רשימת נאמנים מחוזית ליחידים או עם רשימת נאמנים מחוזית לתאגידים, לפי העניין, לצורך קבלת זימון לריאיון אישי בלא צורך בבחינה מקצועית.</p>
+                </content>
+              </point>
+              <point eId="point_34__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>בגיבוש רשימת נאמנים להליכים מורכבים לראשונה לאחר פרסומן של תקנות אלה, ייחשבו מועמדים שהם רואי חשבון שמתקיימים לגביהם התנאים <ref href="#point_17">שבתקנה 17(א)(4)</ref> לעניין רשימת נאמנים מפעילים במשותף, כמי שמתקיימים בהם תנאי הסף <ref href="#point_17">שבתקנה 17(א)(5)</ref> לצורך הכללתם ברשימת נאמנים להליכים מורכבים, ובלבד שבית המשפט יורה על מינויו של נאמן מתוך רשימה זו רק עם נאמן נוסף הנמנה עם רשימת נאמנים בהליכים מורכבים שהוא עורך דין, לפי <ref href="/akn/il/act/PrimaryLegislation/2018-03-15/577400#point_33">סעיף 33(ה) לחוק</ref>.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+        </list>
+      </chapter>
+    </body>
+    <conclusions eId="eId">
+      <p class="signatures">
+        <signature>
+          <p>
+            <person refersTo="אבי_ניסנקורן">אבי ניסנקורן</person>
+            <role refersTo="שר_המשפטים">שר המשפטים</role>
+          </p>
+        </signature>
+      </p>
+    </conclusions>
+  </act>
+</akomaNtoso>

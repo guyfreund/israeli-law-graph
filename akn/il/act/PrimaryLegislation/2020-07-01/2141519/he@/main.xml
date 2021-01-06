@@ -1,0 +1,1276 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion" name="publicLaw">
+    <meta>
+      <identification source="#kensset">
+        <FRBRWork>
+          <FRBRthis value="/akn/il/act/PrimaryLegislation/2020-07-01/2141519/main" />
+          <FRBRuri value="/akn/il/act/PrimaryLegislation/2020-07-01/2141519" />
+          <FRBRdate date="2020-07-01" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRcountry value="israel" />
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/il/act/PrimaryLegislation/2020-07-01/2141519/he@/main" />
+          <FRBRuri value="/akn/il/act/PrimaryLegislation/2020-07-01/2141519/he@" />
+          <FRBRdate date="2020-07-01" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRlanguage language="hebrew" />
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/il/act/PrimaryLegislation/2020-07-01/2141519/he@/main.xml" />
+          <FRBRuri value="/akn/il/act/PrimaryLegislation/2020-07-01/2141519/he@" />
+          <FRBRdate date="2020-07-01" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRformat value="xml" />
+        </FRBRManifestation>
+      </identification>
+      <classification source="#kensset">
+        <keyword value="{classificationValue}" showAs="{classificationValue}" dictionary="#classification_dictionary" />
+      </classification>
+      <lifecycle source="#kensset">
+        <eventRef eId="eventRef_1" date="2020-07-01" source="#kensset" type="generation" />
+      </lifecycle>
+      <references source="#kensset">
+        <TLCOrganization eId="kensset" href="/ontology/organization/akn/knesset" showAs="Kensset" type="generation" />
+        <TLCRole eId="author" href="/ontology/role/akn/author" showAs="Author of Document" />
+        <TLCProcess eId="inforce" href="/ontology/process/akn/inforce" showAs="In force" />
+        <TLCTerm eId="term_1" href="/ontology/term/גורם_מוסמך_במשרד_הבריאות/2141519" showAs="גורם_מוסמך_במשרד_הבריאות" />
+        <TLCTerm eId="term_2" href="/ontology/term/גורם_מוסמך_בשירות/2141519" showAs="גורם_מוסמך_בשירות" />
+        <TLCTerm eId="term_3" href="/ontology/term/ועדת_החוץ_והביטחון/2141519" showAs="ועדת_החוץ_והביטחון" />
+        <TLCTerm eId="term_4" href="/ontology/term/ועדת_הכנסת_לענייני_השירות/2141519" showAs="ועדת_הכנסת_לענייני_השירות" />
+        <TLCTerm eId="term_5" href="/ontology/term/חולה/2141519" showAs="חולה" />
+        <TLCTerm eId="term_6" href="/ontology/term/חוק_שירות_הביטחון_הכללי/2141519" showAs="חוק_שירות_הביטחון_הכללי" />
+        <TLCTerm eId="term_7" href="/ontology/term/מגע_קרוב_עם_חולה/2141519" showAs="מגע_קרוב_עם_חולה" />
+        <TLCTerm eId="term_8" href="/ontology/term/מחלה/2141519" showAs="מחלה" />
+        <TLCTerm eId="term_9" href="/ontology/term/מידע_טכנולוגי/2141519" showAs="מידע_טכנולוגי" />
+        <TLCTerm eId="term_10" href="/ontology/term/מכשיר_טלפון_נייד/2141519" showAs="מכשיר_טלפון_נייד" />
+        <TLCTerm eId="term_11" href="/ontology/term/נגיף_הקורונה_החדש/2141519" showAs="נגיף_הקורונה_החדש" />
+        <TLCTerm eId="term_12" href="/ontology/term/נוהל_משרד_הבריאות/2141519" showAs="נוהל_משרד_הבריאות" />
+        <TLCTerm eId="term_13" href="/ontology/term/נוהל_השירות/2141519" showAs="נוהל_השירות" />
+        <TLCTerm eId="term_14" href="/ontology/term/נציג_משרד_הבריאות/2141519" showAs="נציג_משרד_הבריאות" />
+        <TLCTerm eId="term_15" href="/ontology/term/נתוני_התקשרויות/2141519" showAs="נתוני_התקשרויות" />
+        <TLCTerm eId="term_16" href="/ontology/term/נתוני_זיהוי/2141519" showAs="נתוני_זיהוי" />
+        <TLCTerm eId="term_17" href="/ontology/term/נתוני_מיקום/2141519" showAs="נתוני_מיקום" />
+        <TLCTerm eId="term_18" href="/ontology/term/פרטי_בקשה_לקבלת_סיוע/2141519" showAs="פרטי_בקשה_לקבלת_סיוע" />
+        <TLCTerm eId="term_19" href="/ontology/term/צווי_הבידוד/2141519" showAs="צווי_הבידוד" />
+        <TLCTerm eId="term_20" href="/ontology/term/השירות/2141519" showAs="השירות" />
+        <TLCPerson eId="בנימין_נתניהו" href="/ontology/person/בנימין_נתניהו" showAs="בנימין נתניהו" />
+        <TLCPerson eId="ראובן_ריבלין" href="/ontology/person/ראובן_ריבלין" showAs="ראובן ריבלין" />
+        <TLCPerson eId="יריב_לוין" href="/ontology/person/יריב_לוין" showAs="יריב לוין" />
+        <TLCRole eId="ראש_הממשלה" href="ontology/role/akn/ראש_הממשלה" showAs="ראש הממשלה" />
+        <TLCRole eId="נשיא_המדינה" href="ontology/role/akn/נשיא_המדינה" showAs="נשיא המדינה" />
+        <TLCRole eId="יושב_ראש_הכנסת" href="ontology/role/akn/יושב_ראש_הכנסת" showAs="יושב ראש הכנסת" />
+      </references>
+      <temporalData source="#kensset">
+        <temporalGroup eId="tmpg_1" />
+      </temporalData>
+      <Publication></Publication>
+      <proprietary wikiversion="1/12/2021 6:06:30 PM" />
+    </meta>
+    <body period="#tmpg_1">
+      <title eId="title">
+        <content>
+          <p>חוק הסמכת שירות הביטחון הכללי לסייע במאמץ הלאומי לצמצום התפשטות נגיף הקורונה החדש וקידום השימוש בטכנולוגיה אזרחית לאיתור מי שהיו במגע קרוב עם חולים (הוראת שעה), התש"ף–2020</p>
+        </content>
+      </title>
+      <chapter eId="chp_א">
+        <num>פרק א׳:</num>
+        <title>
+          <content>
+            <p>מטרה והגדרות</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_1">
+            <heading>
+              <authorialNote placement="side">
+                <p>מטרה</p>
+              </authorialNote>
+            </heading>
+            <num>1.</num>
+            <content>
+              <p>מטרתו של חוק זה היא מתן אפשרות להסמיך את שירות הביטחון הכללי לסייע למשרד הבריאות בביצוע חקירה אפידמיולוגית לשם צמצום התפשטות נגיף הקורונה החדש, כדי להגן על שלומו ובריאותו של הציבור, כחלק ממאמצי מדינת ישראל להתמודד עם ההתפשטות המהירה של הנגיף ולנוכח הדחיפות הנובעת מהעלייה בשיעורי התחלואה המהווה סכנה חמורה ומיידית לאזרחי ישראל ותושביה והמחייבת שימוש באמצעים חריגים, והכול לתקופה מוגבלת, ובד בבד קידום והטמעה של השימוש בקרב הציבור בטכנולוגיה אזרחית לאיתור מי שהיו במגע קרוב עם חולים.</p>
+            </content>
+          </point>
+          <point eId="point_2" class="definitions">
+            <heading>
+              <authorialNote placement="side">
+                <p>הגדרות</p>
+              </authorialNote>
+            </heading>
+            <num>2.</num>
+            <list>
+              <intro>
+                <p>בחוק זה –</p>
+              </intro>
+              <point eId="point_2__point_גורם_מוסמך_במשרד_הבריאות">
+                <content>
+                  <p>
+                    <def />”גורם מוסמך במשרד הבריאות“ – מי שהוסמך לפי <ref href="#point_16">סעיף 16(א)</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_2__point_גורם_מוסמך_בשירות">
+                <content>
+                  <p>
+                    <def />”גורם מוסמך בשירות“ – מי שהוסמך לפי <ref href="#point_14">סעיף 14(ב)</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_2__point_ועדת_החוץ_והביטחון">
+                <content>
+                  <p>
+                    <def />”ועדת החוץ והביטחון“ – ועדת החוץ והביטחון של הכנסת;</p>
+                </content>
+              </point>
+              <point eId="point_2__point_ועדת_הכנסת_לענייני_השירות">
+                <content>
+                  <p>
+                    <def />”ועדת הכנסת לענייני השירות“ – ועדת המשנה למודיעין ולשירותים חשאיים של ועדת החוץ והביטחון;</p>
+                </content>
+              </point>
+              <point eId="point_2__point_חולה">
+                <content>
+                  <p>
+                    <def />”חולה“ – חולה עם ממצא מעבדתי חיובי לנגיף הקורונה החדש;</p>
+                </content>
+              </point>
+              <point eId="point_2__point_חוק_שירות_הביטחון_הכללי">
+                <content>
+                  <p>
+                    <def />”חוק שירות הביטחון הכללי“ – <ref href="/akn/il/act/PrimaryLegislation/2002-02-21/172333">חוק שירות הביטחון הכללי, התשס"ב–2002</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_2__point_מגע_קרוב_עם_חולה">
+                <content>
+                  <p>
+                    <def />”מגע קרוב עם חולה“ – מגע עם חולה העלול להביא להדבקה במחלה, בהתייחס למרחק מהחולה ולזמן החשיפה אליו, בהלימה, ככל האפשר, להנחיות הקליניות של נציג משרד הבריאות, כפי שפורטו בנוהל משרד הבריאות;</p>
+                </content>
+              </point>
+              <point eId="point_2__point_מחלה">
+                <content>
+                  <p>
+                    <def />”מחלה“ – המחלה הנגרמת על ידי נגיף הקורונה החדש;</p>
+                </content>
+              </point>
+              <point eId="point_2__point_מידע_טכנולוגי">
+                <content>
+                  <p>
+                    <def />”מידע טכנולוגי“ – נתוני זיהוי, נתוני מיקום ונתוני התקשרויות, למעט תוכן שיחה כהגדרתה <ref href="/akn/il/act/PrimaryLegislation/1979-07-12/147333">בחוק האזנת סתר, התשל"ט–1979</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_2__point_מכשיר_טלפון_נייד">
+                <content>
+                  <p>
+                    <def />”מכשיר טלפון נייד“ – ציוד רדיו טלפון נייד כמשמעותו <ref href="/akn/il/act/PrimaryLegislation/2001-08-09/171095">בחוק התקשורת (בזק ושידורים), התשמ"ב–1982</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_2__point_נגיף_הקורונה_החדש">
+                <content>
+                  <p>
+                    <def />”נגיף הקורונה החדש“ – Novel Coronavirus 2019-nCov;</p>
+                </content>
+              </point>
+              <point eId="point_2__point_נוהל_משרד_הבריאות">
+                <content>
+                  <p>
+                    <def />”נוהל משרד הבריאות“ – הנוהל שנקבע לפי <ref href="#point_10">סעיף 10</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_2__point_נוהל_השירות">
+                <content>
+                  <p>
+                    <def />”נוהל השירות“ – הנוהל שנקבע לפי <ref href="#point_9">סעיף 9</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_2__point_נציג_משרד_הבריאות">
+                <list>
+                  <intro>
+                    <p>
+                      <def />”נציג משרד הבריאות“ – כל אחד מאלה:</p>
+                  </intro>
+                  <point eId="point_2__point_נציג_משרד_הבריאות__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>המנהל הכללי של משרד הבריאות;</p>
+                    </content>
+                  </point>
+                  <point eId="point_2__point_נציג_משרד_הבריאות__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>ראש שירותי בריאות הציבור במשרד הבריאות או סגנו;</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_2__point_נתוני_התקשרויות">
+                <content>
+                  <p>
+                    <def />”נתוני התקשרויות“ – מספר הטלפון של המתקשר, מספר הטלפון של יעד ההתקשרות ומועד ההתקשרות;</p>
+                </content>
+              </point>
+              <point eId="point_2__point_נתוני_זיהוי">
+                <content>
+                  <p>
+                    <def />”נתוני זיהוי“ – שם, מספר זהות, מספר טלפון ותאריך לידה;</p>
+                </content>
+              </point>
+              <point eId="point_2__point_נתוני_מיקום">
+                <content>
+                  <p>
+                    <def />”נתוני מיקום“ – נתוני איכון של מכשיר טלפון נייד;</p>
+                </content>
+              </point>
+              <point eId="point_2__point_פרטי_בקשה_לקבלת_סיוע">
+                <list>
+                  <intro>
+                    <p>
+                      <def />”פרטי בקשה לקבלת סיוע“ – הפרטים כמפורט להלן, לגבי חולה שהבקשה נוגעת אליו:</p>
+                  </intro>
+                  <point eId="point_2__point_פרטי_בקשה_לקבלת_סיוע__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>שם החולה;</p>
+                    </content>
+                  </point>
+                  <point eId="point_2__point_פרטי_בקשה_לקבלת_סיוע__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>מספר הזהות של החולה;</p>
+                    </content>
+                  </point>
+                  <point eId="point_2__point_פרטי_בקשה_לקבלת_סיוע__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>מספר הטלפון של החולה;</p>
+                    </content>
+                  </point>
+                  <point eId="point_2__point_פרטי_בקשה_לקבלת_סיוע__point_4">
+                    <num>(4)</num>
+                    <content>
+                      <p>המספר הסידורי של החולה ברשימת החולים שמנהל משרד הבריאות;</p>
+                    </content>
+                  </point>
+                  <point eId="point_2__point_פרטי_בקשה_לקבלת_סיוע__point_5">
+                    <num>(5)</num>
+                    <content>
+                      <p>תאריך אבחונו כחולה;</p>
+                    </content>
+                  </point>
+                  <point eId="point_2__point_פרטי_בקשה_לקבלת_סיוע__point_6">
+                    <num>(6)</num>
+                    <content>
+                      <p>התאריך שממנו נדרשת הבדיקה שחל עד 14 ימים לפני תאריך אבחונו כחולה ולפי ההנחיות המקצועיות של נציג משרד הבריאות;</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_2__point_צווי_הבידוד">
+                <list>
+                  <intro>
+                    <p>
+                      <def />”צווי הבידוד“ – שניים אלה:</p>
+                  </intro>
+                  <point eId="point_2__point_צווי_הבידוד__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>
+                        <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/צו_בריאות_העם_נגיף_הקורונה_החדש_בידוד_בית_והוראות_שונות_הוראת_שעה">צו בריאות העם (נגיף הקורונה החדש) (בידוד בית והוראות שונות) (הוראת שעה), התש"ף–2020</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_2__point_צווי_הבידוד__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>
+                        <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/צו_בריאות_העם_נגיף_הקורונה_החדש_2019_בידוד_בבית_חולים_הוראת_שעה">צו בריאות העם (נגיף הקורונה החדש 2019) (בידוד בבית חולים) (הוראת שעה), התש"ף–2020</ref>;</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_2__point_השירות">
+                <content>
+                  <p>
+                    <def />”השירות“ – שירות הביטחון הכללי.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+        </list>
+      </chapter>
+      <chapter eId="chp_ב">
+        <num>פרק ב׳:</num>
+        <title>
+          <content>
+            <p>הסמכת שירות הביטחון הכללי לביצוע פעולות סיוע</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_3">
+            <heading>
+              <authorialNote placement="side">
+                <p>הכרזה על הסמכת השירות</p>
+              </authorialNote>
+            </heading>
+            <num>3.</num>
+            <list>
+              <point eId="point_3__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>שוכנעה הממשלה כי בשל חשש להתפשטות רחבת היקף של המחלה יש צורך מיידי וממשי בהסתייעות בשירות, רשאית היא להכריז על הסמכת השירות לבצע פעולות סיוע כאמור <ref href="#point_5">בסעיף 5</ref>, לשם איתור מי שהיו עלולים להידבק מחולים, לצורך סיוע למשרד הבריאות בביצוע חקירות אפידמיולוגיות למטרת זיהוי נתוני מיקומם של חולים בתקופה של עד 14 ימים ולפי ההנחיות המקצועיות של נציג משרד הבריאות, לפני תאריך אבחונם במחלה וזיהוי האנשים שבאו במגע קרוב עם החולים בתקופה האמורה (בחוק זה – הכרזה).<br space="preserve"></br><wikicomment font-size="x-small">לפי <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/http_fs_knesset_gov_il_23_law_23_lsr_577453_pdf#point_15">סעיף 15 לחוק הסמכת שירות הביטחון הכללי לסייע במאמץ הלאומי לצמצום התפשטות נגיף הקורונה החדש (הוראת שעה) (תיקון), התש"ף–2020</ref>, ביום 21.7.2020 יראו כאילו ניתנה הכרזה שתוקפה 21 ימים וכאילו אושרה על ידי ועדת החוץ והביטחון של הכנסת לפי <ref href="#point_3">סעיפים 3</ref><ref href="#point_3א">ו־3א</ref>; ההכרזה הוארכה עד יום 20.1.2021 (י"פ תשפ"א, 2954).</wikicomment></p>
+                </content>
+              </point>
+              <point eId="point_3__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>הממשלה לא תכריז כאמור בסעיף קטן (א) אלא אם כן שוכנעה כי אין חלופה מתאימה להסתייעות בשירות, בשים לב לסיכון הנשקף לציבור מהמחלה ולאחר שהונחו לפניה המלצותיו של צוות השרים כאמור <ref href="#point_12">בסעיף 12</ref>; הצעה להכרזה תובא לממשלה על ידי ראש הממשלה וראש הממשלה החלופי.</p>
+                </content>
+              </point>
+              <point eId="point_3__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>בתקופת תוקפה של ההכרזה יהיה משרד הבריאות רשאי להעביר לשירות בקשה לקבלת סיוע, ובלבד שמספר החולים החדשים באותו יום או ביום שקדם לו עלה על 200.</p>
+                </content>
+              </point>
+              <point eId="point_3__point_ד">
+                <num>(ד)</num>
+                <content>
+                  <p>ההכרזה תעמוד בתוקפה לתקופה שתיקבע בה, בהתחשב בהתפשטות הצפויה של נגיף הקורונה החדש בישראל ושלא תעלה על 21 ימים.</p>
+                </content>
+              </point>
+              <point eId="point_3__point_ה">
+                <num>(ה)</num>
+                <content>
+                  <p>ההכרזה תפורסם ברשומות ובאתר האינטרנט של משרד הבריאות ותיכנס לתוקף עם פרסומה ברשומות.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_3א">
+            <heading>
+              <authorialNote placement="side">
+                <p>הבאת ההכרזה לאישור ועדת החוץ והביטחון</p>
+              </authorialNote>
+            </heading>
+            <num>3א.</num>
+            <list>
+              <point eId="point_3א__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>הכרזה לפי <ref href="#point_3">סעיף 3</ref> תובא לאישור ועדת החוץ והביטחון של הכנסת.</p>
+                </content>
+              </point>
+              <point eId="point_3א__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>הוועדה רשאית לאשר את ההכרזה, לא לאשרה או לאשרה לתקופה קצרה יותר; החליטה הוועדה שלא לאשר את ההכרזה, יפקע תוקפה בתום 24 שעות ממועד מתן ההחלטה.</p>
+                </content>
+              </point>
+              <point eId="point_3א__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>לא דנה הוועדה בהכרזה שהובאה לאישורה, יראו את ההכרזה כאילו אושרה; ואולם ההכרזה שתוכרז אחרי אותה הכרזה תהיה טעונה את אישור ועדת החוץ והביטחון בתוך חמישה ימים מיום פרסומה ברשומות ויחולו הוראות סעיף קטן (ב).</p>
+                </content>
+              </point>
+              <point eId="point_3א__point_ד">
+                <num>(ד)</num>
+                <content>
+                  <p>החלטת ועדת החוץ והביטחון תפורסם ברשומות מטעם הכנסת.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_4">
+            <heading>
+              <authorialNote placement="side">
+                <p>תוקף ההכרזה וביטולה על ידי הממשלה</p>
+              </authorialNote>
+            </heading>
+            <num>4.</num>
+            <list>
+              <point eId="point_4__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>
+                    <wikicomment font-size="x-small">(בוטל).</wikicomment>
+                  </p>
+                </content>
+              </point>
+              <point eId="point_4__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>חדלו להתקיים הנסיבות כאמור <ref href="#point_3">בסעיף 3</ref> המצדיקות את ההכרזה, תבטל הממשלה את ההכרזה.</p>
+                </content>
+              </point>
+              <point eId="point_4__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>
+                    <wikicomment font-size="x-small">(בוטל).</wikicomment>
+                  </p>
+                </content>
+              </point>
+              <point eId="point_4__point_ד">
+                <num>(ד)</num>
+                <content>
+                  <p>ביטול ההכרזה ייכנס לתוקף עם ההחלטה עליו, והודעה על הביטול תפורסם ברשומות ובאתר האינטרנט של משרד הבריאות בהקדם האפשרי.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_5">
+            <heading>
+              <authorialNote placement="side">
+                <p>סמכויות השירות בתקופת ההכרזה</p>
+              </authorialNote>
+            </heading>
+            <num>5.</num>
+            <list>
+              <point eId="point_5__point_א">
+                <num>(א)</num>
+                <list>
+                  <intro>
+                    <p>בתקופת תוקפה של ההכרזה מוסמך השירות, על פי בקשה לקבלת סיוע כאמור <ref href="#point_6">בסעיף 6</ref>, לבצע את הפעולות האלה (בחוק זה – פעולות סיוע):</p>
+                  </intro>
+                  <point eId="point_5__point_א__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>לעבד מידע טכנולוגי לגבי החולה שהבקשה נוגעת אליו ולגבי האנשים שבאו במגע קרוב עם החולה, בנוגע לתקופה שחל עד 14 ימים לפני תאריך אבחונו כחולה ולפי ההנחיות המקצועיות של נציג משרד הבריאות;</p>
+                    </content>
+                  </point>
+                  <point eId="point_5__point_א__point_2">
+                    <num>(2)</num>
+                    <list>
+                      <intro>
+                        <p>להעביר למשרד הבריאות את פרטי המידע כמפורט להלן, או חלק מהם, ככל שהדבר דרוש ואפשרי (בחוק זה – פרטי המידע הדרושים):</p>
+                      </intro>
+                      <point eId="point_5__point_א__point_2__point_א">
+                        <num>(א)</num>
+                        <content>
+                          <p>לגבי החולה – נתוני מיקום בתקופה שחל עד 14 ימים לפני תאריך אבחונו כחולה ולפי ההנחיות המקצועיות של נציג משרד הבריאות;</p>
+                        </content>
+                      </point>
+                      <point eId="point_5__point_א__point_2__point_ב">
+                        <num>(ב)</num>
+                        <content>
+                          <p>לגבי אנשים שבאו במגע קרוב עם החולה – נתוני זיהוי, התאריך והשעה שבהם היו במגע קרוב אחרון עם החולה והמיקום שבו התקיים אותו מגע.</p>
+                        </content>
+                      </point>
+                    </list>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_5__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>
+                    <wikicomment font-size="x-small">(בוטל).</wikicomment>
+                  </p>
+                </content>
+              </point>
+              <point eId="point_5__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>פעולות הסיוע יתבצעו על בסיס מידע טכנולוגי בלבד המוחזק בידי השירות לפי כל דין, ובכפוף להגבלות המפורטות <ref href="#chp_ג">בפרק ג׳</ref>.</p>
+                </content>
+              </point>
+              <point eId="point_5__point_ד">
+                <num>(ד)</num>
+                <content>
+                  <p>פעולות הסיוע יתבצעו באופן ממוכן ככל האפשר ובשמירה על פרטיותם וכבודם של החולה ושל האנשים שבאו במגע קרוב עם החולה.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_6">
+            <heading>
+              <authorialNote placement="side">
+                <p>בקשה לקבלת סיוע והודעה לחולה</p>
+              </authorialNote>
+            </heading>
+            <num>6.</num>
+            <list>
+              <point eId="point_6__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>בקשה לקבלת סיוע תוגש בידי נציג משרד הבריאות, באמצעות גורם מוסמך במשרד הבריאות, לגורם מוסמך בשירות (בחוק זה – בקשה לקבלת סיוע).</p>
+                </content>
+              </point>
+              <point eId="point_6__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>בקשה לקבלת סיוע תכלול את כל פרטי הבקשה לקבלת סיוע לגבי החולה שהבקשה נוגעת אליו, המצויים בידי משרד הבריאות.</p>
+                </content>
+              </point>
+              <point eId="point_6__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>משרד הבריאות יודיע לחולה שהבקשה לקבלת סיוע נוגעת אליו על כך שעקב אבחונו כחולה הועברו פרטיו לבדיקה באמצעים טכנולוגיים בשירות; הודעה כאמור תישלח בסמוך להעברת הבקשה לקבלת סיוע ותכלול גם מידע על מטרת הבדיקה ועל הדרך שבה יוכל החולה לברר פרטים נוספים בעניין זה.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_7">
+            <heading>
+              <authorialNote placement="side">
+                <p>העברת פרטי המידע הדרושים</p>
+              </authorialNote>
+            </heading>
+            <num>7.</num>
+            <content>
+              <p>הוגשה בקשה לקבלת סיוע, יעביר גורם מוסמך בשירות לגורם מוסמך במשרד הבריאות, את פרטי המידע הדרושים לגבי החולה שהבקשה נוגעת אליו ולגבי מי שבא במגע קרוב עם החולה; גורם מוסמך בשירות לא יעביר כל מידע אחר.</p>
+            </content>
+          </point>
+          <point eId="point_8">
+            <heading>
+              <authorialNote placement="side">
+                <p>הודעה לאדם שבא במגע קרוב עם חולה והשגה עליה</p>
+              </authorialNote>
+            </heading>
+            <num>8.</num>
+            <list>
+              <point eId="point_8__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>משרד הבריאות יודיע לאדם שנמצא כי היה במגע קרוב עם חולה במועד מסוים על הממצא האמור ועל החובה החלה עליו לפי דין בשל כך; הודעה כאמור תכלול גם מידע על הדרך שבה יוכל אותו אדם לברר פרטים נוספים בעניין זה ולפנות בהשגה לפי סעיף קטן (ג), ולא תכלול פרטים מזהים לגבי החולה.</p>
+                </content>
+              </point>
+              <point eId="point_8__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>משרד הבריאות רשאי לשלוח לאדם שנשלחה לו הודעה כאמור בסעיף קטן (א), הודעות תזכורת לגבי החובה החלה עליו לפי דין כפי שנמסר לו בהודעה.</p>
+                </content>
+              </point>
+              <point eId="point_8__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>אדם שקיבל הודעה לפי סעיף קטן (א), רשאי לפנות למשרד הבריאות בבקשה לבחינה חוזרת של הנתונים שעל בסיסם התקבלה ההודעה (בחוק זה – השגה).</p>
+                </content>
+              </point>
+              <point eId="point_8__point_ד">
+                <num>(ד)</num>
+                <content>
+                  <p>פנה אדם בהשגה, יתחשב משרד הבריאות בהחלטתו בה, בין היתר, בהצהרתו של המשיג לעניין מיקומו במועד הנקוב בהודעה והיותו במגע קרוב עם חולה במועד מסוים.</p>
+                </content>
+              </point>
+              <point eId="point_8__point_ה">
+                <num>(ה)</num>
+                <content>
+                  <p>פנה אדם בהשגה, רשאי משרד הבריאות להעביר לשירות בקשה נוספת לביצוע פעולות הסיוע לגבי החולה שאותו אדם היה במגע קרוב עמו ואת פרטי ההשגה, ככל הנדרש, והשירות יהיה רשאי לבצע פעולות סיוע לגבי אותו חולה פעם נוספת, אם הדבר נדרש.</p>
+                </content>
+              </point>
+              <point eId="point_8__point_ו">
+                <num>(ו)</num>
+                <content>
+                  <p>ההחלטה על דחיית ההשגה לפי סעיף זה תהיה מנומקת ותימסר לפונה בהקדם האפשרי בנסיבות העניין, ולא יאוחר מ־24 שעות ממועד הפנייה בהשגה.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_9">
+            <heading>
+              <authorialNote placement="side">
+                <p>נוהל השירות</p>
+              </authorialNote>
+            </heading>
+            <num>9.</num>
+            <list>
+              <point eId="point_9__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>ראש השירות יקבע נוהל שיכלול הוראות לעניין דרכי הפעולה של השירות במסגרת פעולות הסיוע, יאושר על ידי היועץ המשפטי לממשלה, ויובא לידיעת ועדת הכנסת לענייני השירות.</p>
+                </content>
+              </point>
+              <point eId="point_9__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>נוהל השירות הוא חסוי וגילויו או פרסומו אסור, ויחולו לעניין זה הוראות <ref href="/akn/il/act/PrimaryLegislation/2002-02-21/172333#point_22">סעיף 22(א) ו־(ב) לחוק שירות הביטחון הכללי</ref>.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_10">
+            <heading>
+              <authorialNote placement="side">
+                <p>נוהל משרד הבריאות</p>
+              </authorialNote>
+            </heading>
+            <num>10.</num>
+            <list>
+              <point eId="point_10__point_א">
+                <num>(א)</num>
+                <list>
+                  <intro>
+                    <p>המנהל הכללי של משרד הבריאות יקבע נוהל שיכלול את כל המפורט להלן, ויאושר על ידי היועץ המשפטי לממשלה:</p>
+                  </intro>
+                  <point eId="point_10__point_א__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>הוראות לעניין הגשת בקשה לקבלת סיוע;</p>
+                    </content>
+                  </point>
+                  <point eId="point_10__point_א__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>אופן השימוש בפרטי המידע הדרושים, החזקתם, שמירתם ומחיקתם;</p>
+                    </content>
+                  </point>
+                  <point eId="point_10__point_א__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>ההנחיות הקליניות של נציג משרד הבריאות לעניין מגע קרוב עם חולה, כפי שהן בתוקף מזמן לזמן;</p>
+                    </content>
+                  </point>
+                  <point eId="point_10__point_א__point_4">
+                    <num>(4)</num>
+                    <content>
+                      <p>אמות מידה לקביעת מקרים פרטניים וייחודיים לפי <ref href="#point_3">סעיף 3(1)</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_10__point_א__point_5">
+                    <num>(5)</num>
+                    <content>
+                      <p>הוראות לעניין טיפול בהשגות לפי <ref href="#point_8">סעיף 8(ג)</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_10__point_א__point_6">
+                    <num>(6)</num>
+                    <content>
+                      <p>הוראות לעניין החרגת העברתם של פרטי בקשה לקבלת סיוע של חולה שהוא עיתונאי.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_10__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>
+                    <wikicomment font-size="x-small">(בוטל).</wikicomment>
+                  </p>
+                </content>
+              </point>
+              <point eId="point_10__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>נוהל משרד הבריאות או כל שינוי בו יפורסם בהקדם האפשרי באתר האינטרנט של משרד הבריאות.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_11">
+            <heading>
+              <authorialNote placement="side">
+                <p>סייגים בהפעלת סמכויות השירות</p>
+              </authorialNote>
+            </heading>
+            <num>11.</num>
+            <list>
+              <point eId="point_11__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>בהפעלת סמכויות השירות לפי חוק זה, לא יעמוד השירות בקשר כלשהו עם חולה או עם אנשים שבאו במגע קרוב עם חולה.</p>
+                </content>
+              </point>
+              <point eId="point_11__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>השירות לא יעסוק בפעילות פיקוח ואכיפה על הפרת חובת בידוד לפי צווי הבידוד, ולא יסייע לפעילות כאמור.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_12">
+            <heading>
+              <authorialNote placement="side">
+                <p>מינוי צוות שרים לבחינת הצורך בהסתייעות בשירות</p>
+              </authorialNote>
+            </heading>
+            <num>12.</num>
+            <list>
+              <point eId="point_12__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>הממשלה תמנה צוות שרים שיכלול את ראש הממשלה, ראש הממשלה החלופי, שר הבריאות, שר המשפטים, שר המודיעין ושרים נוספים כפי שתחליט (בחוק זה – צוות השרים), לבחינת הצורך בהמשך ההסתייעות בשירות לפי חוק זה, בהתחשב במצב התחלואה בישראל בשל נגיף הקורונה החדש, בתרומת תוצאות פעולות הסיוע לצמצום התפשטות המחלה ובקיומן של חלופות להסתייעות כאמור, והכול בהתחשב, בין השאר, בפגיעה בזכות לפרטיות; לפני הצוות תונח חוות דעתה של הרשות להגנת הפרטיות במשרד המשפטים בעניין זה.</p>
+                </content>
+              </point>
+              <point eId="point_12__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>צוות השרים ידווח לממשלה על ממצאיו והמלצותיו לגבי הנושאים שבחן לפי סעיף קטן (א), כדי שהממשלה תבחן את הצורך בהמשך ההסתייעות בשירות לפי חוק זה.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_12א">
+            <heading>
+              <authorialNote placement="side">
+                <p>קידום ועידוד של שימוש בטכנולוגיה אזרחית לאיתור מי שהיו במגע קרוב עם חולים</p>
+              </authorialNote>
+            </heading>
+            <num>12א.</num>
+            <list>
+              <point eId="point_12א__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>משרד הבריאות יעמיד לשימוש הציבור טכנולוגיה לאיתור מי שהיו במגע קרוב עם חולים לשם צמצום התפשטות נגיף הקורונה החדש (בסעיף זה – טכנולוגיה אזרחית), וכן יפיץ את הטכנולוגיה האזרחית ויקדם את השימוש בה בקרב הציבור הרחב בישראל.</p>
+                </content>
+              </point>
+              <point eId="point_12א__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>התקנת טכנולוגיה אזרחית והשימוש בה ייעשו רק בהסכמתו מדעת של המשתמש ומתוך רצונו החופשי; השימוש בטכנולוגיה יהיה ללא תשלום.</p>
+                </content>
+              </point>
+              <point eId="point_12א__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>שר הבריאות יגבש תכנית לאומית לעידוד הציבור להשתמש בטכנולוגיה האזרחית ויבטיח את התקציב הדרוש למימושה.</p>
+                </content>
+              </point>
+              <point eId="point_12א__point_ד">
+                <num>(ד)</num>
+                <content>
+                  <p>שר הבריאות רשאי להתקין תקנות לעניין ביצועו של סעיף זה.</p>
+                </content>
+              </point>
+              <point eId="point_12א__point_ה">
+                <num>(ה)</num>
+                <content>
+                  <p>טכנולוגיית האיתור תועמד לשימוש הציבור בתוך שבעה ימים מיום פרסומו של <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/http_fs_knesset_gov_il_23_law_23_lsr_577453_pdf">חוק הסמכת שירות הביטחון הכללי לסייע במאמץ הלאומי לצמצום התפשטות נגיף הקורונה החדש (הוראת שעה) (תיקון), התש"ף–2020</ref> (בסעיף זה – יום הפרסום); גיבוש התכנית הלאומית לעידוד השימוש בטכנולוגיה והקצאת התקציב למימושה יושלמו בתוך 14 ימים מיום הפרסום.<br space="preserve"></br><wikicomment font-size="x-small"><ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/http_fs_knesset_gov_il_23_law_23_lsr_577453_pdf">חוק הסמכת שירות הביטחון הכללי לסייע במאמץ הלאומי לצמצום התפשטות נגיף הקורונה החדש (הוראת שעה) (תיקון), התש"ף–2020</ref> פורסם ביום 21.7.2020.</wikicomment></p>
+                </content>
+              </point>
+            </list>
+          </point>
+        </list>
+      </chapter>
+      <chapter eId="chp_ג">
+        <num>פרק ג׳:</num>
+        <title>
+          <content>
+            <p>שמירת מידע, שימוש בו, העברתו ומחיקתו</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_13">
+            <heading>
+              <authorialNote placement="side">
+                <p>שמירת מידע בשירות ומחיקתו</p>
+              </authorialNote>
+            </heading>
+            <num>13.</num>
+            <list>
+              <point eId="point_13__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>השירות ישמור את פרטי הבקשה לקבלת סיוע ואת פרטי המידע הדרושים, במחשבי השירות בלבד, ובנפרד מכל מידע אחר המוחזק בידי השירות לפי כל דין.</p>
+                </content>
+              </point>
+              <point eId="point_13__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>מידע כאמור בסעיף קטן (א) יישמר לתקופה של 14 ימים מיום העברת פרטי המידע הדרושים לגורם מוסמך במשרד הבריאות לפי <ref href="#point_7">סעיף 7</ref> או עד תום תקופת תוקפו של חוק זה, לפי המוקדם, ובתום התקופה – יימחק; כל מידע אחר שנוצר בעת עיבוד המידע הטכנולוגי כאמור <ref href="#point_5">בסעיף 5(א)(1)</ref> – יימחק מיד.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_14">
+            <heading>
+              <authorialNote placement="side">
+                <p>הגבלות לעניין שימוש במידע בשירות, והסמכת בעלי תפקידים</p>
+              </authorialNote>
+            </heading>
+            <num>14.</num>
+            <list>
+              <point eId="point_14__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>השירות יעשה שימוש בפרטי בקשה לקבלת סיוע ובפרטי המידע הדרושים לצורך ביצוע פעולות הסיוע בלבד.</p>
+                </content>
+              </point>
+              <point eId="point_14__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>ראש השירות או מי שהוא הסמיך לכך יסמיך בעלי תפקידים בשירות לצורך ביצוע פעולות סיוע (בחוק זה – גורמים מוסמכים בשירות); הגורמים המוסמכים בשירות, והם בלבד, יהיו רשאים לבצע את פעולות הסיוע ויהיו מורשי גישה לפרטי בקשות לקבלת סיוע ולפרטי המידע הדרושים.</p>
+                </content>
+              </point>
+              <point eId="point_14__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>בעל תפקיד יוסמך לפי סעיף קטן (ב) לאחר שחתם על טופס התחייבות לשמירה על סודיות שבו הובהרה לו המשמעות הפלילית של שימוש במידע בניגוד להוראות חוק זה.</p>
+                </content>
+              </point>
+              <point eId="point_14__point_ד">
+                <num>(ד)</num>
+                <content>
+                  <p>מידע לגבי פעולות שביצעו גורמים מוסמכים בשירות לפי הוראות חוק זה יתועד באופן ממוחשב בשירות.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_15">
+            <heading>
+              <authorialNote placement="side">
+                <p>שמירת מידע במשרד הבריאות ומחיקתו</p>
+              </authorialNote>
+            </heading>
+            <num>15.</num>
+            <list>
+              <point eId="point_15__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>פרטי המידע הדרושים יישמרו במשרד הבריאות בדרך שתבטיח את אבטחת המידע, את סודיותו ואת חיסיון נתוני הזיהוי של החולים או של האנשים שבאו במגע קרוב עם חולה.</p>
+                </content>
+              </point>
+              <point eId="point_15__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>בתום תקופת תוקפו של חוק זה ימחק משרד הבריאות את פרטי המידע הדרושים שהועברו אליו על פי בקשות לקבלת סיוע.</p>
+                </content>
+              </point>
+              <point eId="point_15__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>על אף האמור בסעיף קטן (ב), משרד הבריאות רשאי לשמור פרטי מידע כאמור באותו סעיף קטן לתקופה שלא תעלה על 60 ימים לאחר תום תקופת תוקפו של חוק זה, לצורך תחקיר פנימי של הפעולות שביצע לצמצום התפשטות המחלה.</p>
+                </content>
+              </point>
+              <point eId="point_15__point_ד">
+                <num>(ד)</num>
+                <content>
+                  <p>נציג משרד הבריאות יוודא את ביצוע מחיקת פרטי המידע כאמור בסעיף זה.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_16">
+            <heading>
+              <authorialNote placement="side">
+                <p>הגבלות לעניין גישה למידע במשרד הבריאות ועיון בו, והסמכת בעלי תפקידים</p>
+              </authorialNote>
+            </heading>
+            <num>16.</num>
+            <list>
+              <point eId="point_16__point_א">
+                <num>(א)</num>
+                <list>
+                  <intro>
+                    <p>המנהל הכללי של משרד הבריאות יסמיך בעלי תפקידים במשרד הבריאות לעיין בפרטי המידע הדרושים, כולם או חלקם (בחוק זה – גורמים מוסמכים במשרד הבריאות), בהתאם לנדרש לשם מילוי תפקידיהם לפי חוק זה, כמפורט להלן:</p>
+                  </intro>
+                  <point eId="point_16__point_א__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>טיפול בבקשות לקבלת סיוע;</p>
+                    </content>
+                  </point>
+                  <point eId="point_16__point_א__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>קבלת פרטי המידע הדרושים;</p>
+                    </content>
+                  </point>
+                  <point eId="point_16__point_א__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>ביצוע הפעולות הדרושות לשם משלוח הודעות לחולים לפי <ref href="#point_6">סעיף 6(ג)</ref> או משלוח הודעות לאנשים שבאו במגע קרוב עם חולים לפי <ref href="#point_8">סעיף 8(א) או (ב)</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_16__point_א__point_4">
+                    <num>(4)</num>
+                    <content>
+                      <p>טיפול בהשגות לפי <ref href="#point_8">סעיף 8(ג)</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_16__point_א__point_5">
+                    <num>(5)</num>
+                    <content>
+                      <p>אבטחת המידע כאמור <ref href="#point_15">בסעיף 15(א)</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_16__point_א__point_6">
+                    <num>(6)</num>
+                    <content>
+                      <p>בקרה, פיקוח או דיווח על ביצוע הוראות חוק זה.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_16__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>בעל תפקיד יוסמך לפי סעיף קטן (א) לאחר שחתם על טופס התחייבות לשמירה על סודיות שבו הובהרה לו המשמעות הפלילית של שימוש במידע בניגוד להוראות חוק זה.</p>
+                </content>
+              </point>
+              <point eId="point_16__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>לנציג משרד הבריאות ולגורמים המוסמכים במשרד הבריאות, ולהם בלבד, תהיה גישה לפרטי המידע הדרושים.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_17">
+            <heading>
+              <authorialNote placement="side">
+                <p>הגבלות לעניין העברת מידע מהשירות וממשרד הבריאות</p>
+              </authorialNote>
+            </heading>
+            <num>17.</num>
+            <list>
+              <point eId="point_17__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>השירות לא יעביר כל מידע שהתקבל לפי חוק זה, למעט העברת פרטי המידע הדרושים למשרד הבריאות לפי <ref href="#point_6">סעיף 6</ref>.</p>
+                </content>
+              </point>
+              <point eId="point_17__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>משרד הבריאות לא יעביר מידע שקיבל מהשירות לפי חוק זה, למעט העברת מידע לפי כל דין על כך שאדם נכלל ברשימת החייבים בבידוד כאמור <ref href="#point_18">בסעיף 18(ג)</ref>.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_18">
+            <heading>
+              <authorialNote placement="side">
+                <p>סודיות, הגבלת שימוש וחיסיון</p>
+              </authorialNote>
+            </heading>
+            <num>18.</num>
+            <list>
+              <point eId="point_18__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>אדם שהגיע אליו מידע לפי חוק זה, למעט מידע על כך שאדם נכלל ברשימת החייבים בבידוד, ישמרנו בסוד, לא יגלה אותו לאחר ולא יעשה בו כל שימוש, אלא לצורך ביצוע הוראות חוק זה.</p>
+                </content>
+              </point>
+              <point eId="point_18__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>מידע כאמור בסעיף קטן (א) יהיה חסוי בפני כל אדם, לא ייעשה בו שימוש לצורך הליך משפטי, לרבות חקירה על פי דין, ולא יתקבל כראיה במשפט.</p>
+                </content>
+              </point>
+              <point eId="point_18__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>בסעיף זה, ”רשימת החייבים בבידוד“ – רשימה שמנהל משרד הבריאות, הכוללת את פרטיהם של אנשים החבים בבידוד מכוח צווי הבידוד.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+        </list>
+      </chapter>
+      <chapter eId="chp_ד">
+        <num>פרק ד׳:</num>
+        <title>
+          <content>
+            <p>דיווחים</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_19">
+            <heading>
+              <authorialNote placement="side">
+                <p>דיווח לכנסת וליועץ המשפטי לממשלה</p>
+              </authorialNote>
+            </heading>
+            <num>19.</num>
+            <list>
+              <point eId="point_19__point_א">
+                <num>(א)</num>
+                <list>
+                  <intro>
+                    <p>ראש השירות ידווח בכתב לוועדת החוץ והביטחון, אחת לשבוע, על כל אלה:</p>
+                  </intro>
+                  <point eId="point_19__point_א__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>מספר החולים שלגביהם התבקש השירות לעבד מידע טכנולוגי על פי בקשה לקבלת סיוע;</p>
+                    </content>
+                  </point>
+                  <point eId="point_19__point_א__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>מספר האנשים שאת פרטי המידע הדרושים לגביהם העביר השירות למשרד הבריאות בשל הימצאם במגע קרוב עם חולה, על פי בקשה לקבלת סיוע;</p>
+                    </content>
+                  </point>
+                  <point eId="point_19__point_א__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>אירועים מיוחדים ותקלות בהפעלת סמכויות השירות לפי חוק זה, ודרך הטיפול בהם; היה המידע כאמור מסווג – יועבר הדיווח לוועדת הכנסת לענייני השירות;</p>
+                    </content>
+                  </point>
+                  <point eId="point_19__point_א__point_4">
+                    <num>(4)</num>
+                    <content>
+                      <p>סטטוס מחיקת המידע לפי <ref href="#point_13">סעיף 13(ב)</ref>.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_19__point_ב">
+                <num>(ב)</num>
+                <list>
+                  <intro>
+                    <p>נציג משרד הבריאות או מי מטעמו ידווח בכתב לוועדת החוץ והביטחון, אחת לשבוע, על כל אלה:</p>
+                  </intro>
+                  <point eId="point_19__point_ב__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>מספר החולים שלגביהם התבקש השירות לעבד מידע טכנולוגי על פי בקשה לקבלת סיוע;</p>
+                    </content>
+                  </point>
+                  <point eId="point_19__point_ב__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>מספר האנשים שלהם הודיע משרד הבריאות כי היו במגע קרוב עם חולה לפי הוראות <ref href="#point_8">סעיף 8</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_19__point_ב__point_3">
+                    <num>(3)</num>
+                    <list>
+                      <intro>
+                        <p>מספר האנשים שנמצא כי היו במגע קרוב עם חולה, ומתוכם –</p>
+                      </intro>
+                      <point eId="point_19__point_ב__point_3__point_א">
+                        <num>(א)</num>
+                        <content>
+                          <p>מספר האנשים שנמצא כי היו במגע קרוב עם חולה על בסיס פעולות הסיוע בלבד;</p>
+                        </content>
+                      </point>
+                      <point eId="point_19__point_ב__point_3__point_ב">
+                        <num>(ב)</num>
+                        <content>
+                          <p>מספר האנשים שנמצא כי היו במגע קרוב עם חולה הן על בסיס פעולות הסיוע והן על בסיס חקירה אפידמיולוגית;</p>
+                        </content>
+                      </point>
+                      <point eId="point_19__point_ב__point_3__point_ג">
+                        <num>(ג)</num>
+                        <content>
+                          <p>מספר האנשים שנמצא כי היו במגע קרוב עם חולה על בסיס חקירה אפידמיולוגית בלבד;</p>
+                        </content>
+                      </point>
+                      <point eId="point_19__point_ב__point_3__point_ד">
+                        <num>(ד)</num>
+                        <content>
+                          <p>מספר האנשים שנמצא כי היו במגע קרוב עם חולה על בסיס מידע שהגיע ממקור אחר;</p>
+                        </content>
+                      </point>
+                    </list>
+                  </point>
+                  <point eId="point_19__point_ב__point_4">
+                    <num>(4)</num>
+                    <list>
+                      <intro>
+                        <p>מספר החולים החדשים שאובחנו באותו שבוע וכן מספר החולים מתוכם –</p>
+                      </intro>
+                      <point eId="point_19__point_ב__point_4__point_א">
+                        <num>(א)</num>
+                        <content>
+                          <p>שאותרו על בסיס פעולות הסיוע בלבד;</p>
+                        </content>
+                      </point>
+                      <point eId="point_19__point_ב__point_4__point_ב">
+                        <num>(ב)</num>
+                        <content>
+                          <p>שאותרו הן על בסיס פעולות הסיוע והן על בסיס חקירה אפידמיולוגית;</p>
+                        </content>
+                      </point>
+                      <point eId="point_19__point_ב__point_4__point_ג">
+                        <num>(ג)</num>
+                        <content>
+                          <p>שאותרו על בסיס חקירה אפידמיולוגית בלבד;</p>
+                        </content>
+                      </point>
+                      <point eId="point_19__point_ב__point_4__point_ד">
+                        <num>(ד)</num>
+                        <content>
+                          <p>שאובחנו כחולים ולא אותרו על בסיס פעולות סיוע או חקירה אפידמיולוגית;</p>
+                        </content>
+                      </point>
+                    </list>
+                  </point>
+                  <point eId="point_19__point_ב__point_5">
+                    <num>(5)</num>
+                    <content>
+                      <p>הפעולות שביצע משרד הבריאות בהתבסס על פרטי המידע הדרושים שהועברו אליו מהשירות;</p>
+                    </content>
+                  </point>
+                  <point eId="point_19__point_ב__point_6">
+                    <num>(6)</num>
+                    <content>
+                      <p>אירועים מיוחדים ותקלות בפעולות משרד הבריאות לפי חוק זה, ודרך הטיפול בהם;</p>
+                    </content>
+                  </point>
+                  <point eId="point_19__point_ב__point_7">
+                    <num>(7)</num>
+                    <content>
+                      <p>מספר ההשגות שהוגשו למשרד הבריאות לפי <ref href="#point_8">סעיף 8(ג)</ref>, אופן הטיפול בהשגות כאמור, וכן מספר ההשגות שלאחר בחינה חוזרת של הנתונים נמצא כי מידע שנכלל בבקשה לקבלת סיוע היה שגוי או לא מדויק;</p>
+                    </content>
+                  </point>
+                  <point eId="point_19__point_ב__point_8">
+                    <num>(8)</num>
+                    <content>
+                      <p>מספר האנשים שהתקינו טכנולוגיה אזרחית כאמור <ref href="#point_12א">בסעיף 12א</ref>, מספר האנשים השוהים בבידוד בעקבות התראה שקיבלו באמצעות הטכנולוגיה והתקציב שהוקצה לקידום השימוש בטכנולוגיה.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_19__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>ראש אגף בשירות ונציג משרד הבריאות או מי מטעמו ידווחו בכתב, כאמור בסעיפים קטנים (א) ו־(ב), אחת לשבוע, גם ליועץ המשפטי לממשלה.</p>
+                </content>
+              </point>
+              <point eId="point_19__point_ד">
+                <num>(ד)</num>
+                <content>
+                  <p>נציג משרד הבריאות ידווח בכתב לוועדת החוץ והביטחון וליועץ המשפטי לממשלה על סטטוס מחיקת המידע לפי <ref href="#point_15">סעיף 15(ב) ו־(ג)</ref>, בתוך שבוע מהמועד שנקבע <ref href="#point_15">באותו סעיף</ref>.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+        </list>
+      </chapter>
+      <chapter eId="chp_ה">
+        <num>פרק ה׳:</num>
+        <title>
+          <content>
+            <p>הוראות שונות</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_20">
+            <heading>
+              <authorialNote placement="side">
+                <p>עונשין</p>
+              </authorialNote>
+            </heading>
+            <num>20.</num>
+            <content>
+              <p>אדם שגילה מידע שהגיע אליו לפי חוק זה, או עשה בו שימוש, בניגוד להוראות <ref href="#point_18">סעיף 18(א)</ref>, דינו – מאסר שלוש שנים.</p>
+            </content>
+          </point>
+          <point eId="point_21">
+            <heading>
+              <authorialNote placement="side">
+                <p>תחולת הוראות חוק שירות הביטחון הכללי ושמירת סמכויות</p>
+              </authorialNote>
+            </heading>
+            <num>21.</num>
+            <list>
+              <point eId="point_21__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>במילוי הוראות חוק זה יחולו על השירות ועל עובדיו הוראות <ref href="/akn/il/act/PrimaryLegislation/2002-02-21/172333">חוק שירות הביטחון הכללי</ref>.</p>
+                </content>
+              </point>
+              <point eId="point_21__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>אין בחוק זה כדי לגרוע מאחריותו או מסמכותו של כל גוף אחר לפי כל דין.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_22">
+            <heading>
+              <authorialNote placement="side">
+                <p>ביצוע ותקנות</p>
+              </authorialNote>
+            </heading>
+            <num>22.</num>
+            <list>
+              <point eId="point_22__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>ראש הממשלה ממונה על ביצוע חוק זה.</p>
+                </content>
+              </point>
+              <point eId="point_22__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>
+                    <wikicomment font-size="x-small">(בוטל).</wikicomment>
+                  </p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_23">
+            <heading>
+              <authorialNote placement="side">
+                <p>הוראות מעבר</p>
+              </authorialNote>
+            </heading>
+            <num>23.</num>
+            <list>
+              <point eId="point_23__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>ביום תחילתו של חוק זה יראו כאילו ניתנה הכרזה לפי <ref href="#point_3">סעיף 3</ref> שתוקפה 21 ימים.</p>
+                </content>
+              </point>
+              <point eId="point_23__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>הוראות <ref href="#point_15">סעיף 15</ref> לעניין שמירה ומחיקה של פרטי בקשה לקבלת סיוע ופרטי המידע הדרושים יחולו גם על פרטי בקשה לקבלת סיוע ופרטי המידע הדרושים שהתקבלו, נאספו, עובדו או נשמרו לפני תחילתו של חוק זה לפי החלטת הממשלה מס׳ 4950 מיום ו׳ בניסן התש"ף (31 במרס 2020), כפי שהוארכה בהחלטת הממשלה מס׳ 5029 מיום ו׳ באייר התש"ף (30 באפריל 2020), בהחלטת הממשלה מס׳ 5051 מיום י"א באייר התש"ף (5 במאי 2020) ובהחלטת הממשלה מס׳ 23 מיום ג׳ בסיוון התש"ף (26 במאי 2020).</p>
+                </content>
+              </point>
+              <point eId="point_23__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>בעלי תפקידים בשירות או בעלי תפקידים במשרד הבריאות שהוסמכו לפי החלטת הממשלה מס׳ 4950 מיום ו׳ בניסן התש"ף (31 במרס 2020), והסמכתם לא בוטלה עד יום תחילתו של חוק זה, יראו אותם כגורמים מוסמכים בשירות או כגורמים מוסמכים במשרד הבריאות, לפי העניין.</p>
+                </content>
+              </point>
+              <point eId="point_23__point_ד">
+                <num>(ד)</num>
+                <content>
+                  <p>עד לאישור היועץ המשפטי לממשלה לנוהל השירות לפי <ref href="#point_9">סעיף 9(א)</ref> ולנוהל משרד הבריאות לפי <ref href="#point_10">סעיף 10(א)</ref>, יחולו הנהלים בעניין זה שאישר היועץ המשפטי לממשלה לפי החלטת ממשלה מס׳ 4950 מיום ו׳ בניסן התש"ף (31 במרס 2020), בשינויים המחוייבים.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_24">
+            <heading>
+              <authorialNote placement="side">
+                <p>תוקף</p>
+              </authorialNote>
+            </heading>
+            <num>24.</num>
+            <content>
+              <p>חוק זה, למעט <ref href="#chp_ג">פרק ג׳</ref><ref href="#point_12א">וסעיפים 12א</ref>, <ref href="#point_20">20</ref><ref href="#point_21">ו־21</ref>, יעמוד בתוקפו עד יום ז׳ בשבט התשפ"א (20 בינואר 2021).<br space="preserve"></br><wikicomment font-size="x-small">עקב פיזור הכנסת ה־23 ועל פי <ref href="/akn/il/act/PrimaryLegislation/1958-02-20/147453#point_38">סעיף 38 לחוק־יסוד: הכנסת</ref> תוקף החוק הוארך עד יום 5.7.2021.</wikicomment></p>
+            </content>
+          </point>
+        </list>
+      </chapter>
+      <appendix eId="appendix">
+        <num></num>
+        <title>
+          <content>
+            <p>תוספת <wikicomment font-size="x-small">(בוטלה)</wikicomment></p>
+          </content>
+        </title>
+      </appendix>
+    </body>
+    <conclusions eId="eId">
+      <p class="signatures">
+        <signature>
+          <p>
+            <person refersTo="בנימין_נתניהו">בנימין נתניהו</person>
+            <role refersTo="ראש_הממשלה">ראש הממשלה</role>
+          </p>
+        </signature>
+        <signature>
+          <p>
+            <person refersTo="ראובן_ריבלין">ראובן ריבלין</person>
+            <role refersTo="נשיא_המדינה">נשיא המדינה</role>
+          </p>
+        </signature>
+        <signature>
+          <p>
+            <person refersTo="יריב_לוין">יריב לוין</person>
+            <role refersTo="יושב_ראש_הכנסת">יושב ראש הכנסת</role>
+          </p>
+        </signature>
+      </p>
+    </conclusions>
+  </act>
+</akomaNtoso>

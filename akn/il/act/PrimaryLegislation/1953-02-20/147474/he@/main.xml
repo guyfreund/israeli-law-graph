@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion" name="publicLaw">
+    <meta>
+      <identification source="#kensset">
+        <FRBRWork>
+          <FRBRthis value="/akn/il/act/PrimaryLegislation/1953-02-20/147474/main" />
+          <FRBRuri value="/akn/il/act/PrimaryLegislation/1953-02-20/147474" />
+          <FRBRdate date="1953-02-20" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRcountry value="israel" />
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/il/act/PrimaryLegislation/1953-02-20/147474/he@/main" />
+          <FRBRuri value="/akn/il/act/PrimaryLegislation/1953-02-20/147474/he@" />
+          <FRBRdate date="1953-02-20" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRlanguage language="hebrew" />
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/il/act/PrimaryLegislation/1953-02-20/147474/he@/main.xml" />
+          <FRBRuri value="/akn/il/act/PrimaryLegislation/1953-02-20/147474/he@" />
+          <FRBRdate date="1953-02-20" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRformat value="xml" />
+        </FRBRManifestation>
+      </identification>
+      <classification source="#kensset">
+        <keyword value="{classificationValue}" showAs="{classificationValue}" dictionary="#classification_dictionary" />
+      </classification>
+      <lifecycle source="#kensset">
+        <eventRef eId="eventRef_1" date="1953-02-20" source="#kensset" type="generation" />
+      </lifecycle>
+      <references source="#kensset">
+        <TLCOrganization eId="kensset" href="/ontology/organization/akn/knesset" showAs="Kensset" type="generation" />
+        <TLCRole eId="author" href="/ontology/role/akn/author" showAs="Author of Document" />
+        <TLCProcess eId="inforce" href="/ontology/process/akn/inforce" showAs="In force" />
+        <TLCPerson eId="דוד_בן־גוריון" href="/ontology/person/דוד_בן־גוריון" showAs="דוד בן־גוריון" />
+        <TLCPerson eId="יצחק_בן־צבי" href="/ontology/person/יצחק_בן־צבי" showAs="יצחק בן־צבי" />
+        <TLCRole eId="ראש_הממשלה" href="ontology/role/akn/ראש_הממשלה" showAs="ראש הממשלה" />
+        <TLCRole eId="נשיא_המדינה" href="ontology/role/akn/נשיא_המדינה" showAs="נשיא המדינה" />
+      </references>
+      <temporalData source="#kensset">
+        <temporalGroup eId="tmpg_1" />
+      </temporalData>
+      <Publication></Publication>
+      <proprietary wikiversion="7/22/2020 10:37:14 PM" />
+    </meta>
+    <body period="#tmpg_1">
+      <title eId="title">
+        <content>
+          <p>חוק השטחים התת־ימיים, תשי"ג–1953</p>
+        </content>
+      </title>
+      <list>
+        <point eId="point_1">
+          <heading>
+            <authorialNote placement="side">
+              <p>שטחים תת־ימיים בשטח מדינת ישראל</p>
+            </authorialNote>
+          </heading>
+          <num>1.</num>
+          <list>
+            <point eId="point_1__point_א">
+              <num>(א)</num>
+              <content>
+                <p>שטח מדינת ישראל יכלול את קרקע הים והתת־קרקע של השטחים התת־ימיים הסמוכים לחופי ישראל, והם מחוצה למים הטריטוריאליים, עד היכן שעומק המים שמעליהם מאפשר את ניצול אוצרות הטבע שבשטחים אלה.</p>
+              </content>
+            </point>
+            <point eId="point_1__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>שום דבר האמור בסעיף קטן (א) לא יפגע באפיים של המים שמעל לשטחים התת־ימיים הללו, ושמחוץ למים הטריטוריאליים של ישראל, כמימי לב ים.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+      </list>
+    </body>
+    <conclusions eId="eId">
+      <p class="signatures">
+        <signature>
+          <p>
+            <person refersTo="דוד_בן־גוריון">דוד בן־גוריון</person>
+            <role refersTo="ראש_הממשלה">ראש הממשלה</role>
+          </p>
+        </signature>
+        <signature>
+          <p>
+            <person refersTo="יצחק_בן־צבי">יצחק בן־צבי</person>
+            <role refersTo="נשיא_המדינה">נשיא המדינה</role>
+          </p>
+        </signature>
+      </p>
+    </conclusions>
+  </act>
+</akomaNtoso>

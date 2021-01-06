@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion" name="publicLaw">
+    <meta>
+      <identification source="#kensset">
+        <FRBRWork>
+          <FRBRthis value="/akn/il/act/PrimaryLegislation/1968-04-21/2002058/main" />
+          <FRBRuri value="/akn/il/act/PrimaryLegislation/1968-04-21/2002058" />
+          <FRBRdate date="1968-04-21" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRcountry value="israel" />
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/il/act/PrimaryLegislation/1968-04-21/2002058/he@/main" />
+          <FRBRuri value="/akn/il/act/PrimaryLegislation/1968-04-21/2002058/he@" />
+          <FRBRdate date="1968-04-21" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRlanguage language="hebrew" />
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/il/act/PrimaryLegislation/1968-04-21/2002058/he@/main.xml" />
+          <FRBRuri value="/akn/il/act/PrimaryLegislation/1968-04-21/2002058/he@" />
+          <FRBRdate date="1968-04-21" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRformat value="xml" />
+        </FRBRManifestation>
+      </identification>
+      <classification source="#kensset">
+        <keyword value="{classificationValue}" showAs="{classificationValue}" dictionary="#classification_dictionary" />
+      </classification>
+      <lifecycle source="#kensset">
+        <eventRef eId="eventRef_1" date="1968-04-21" source="#kensset" type="generation" />
+      </lifecycle>
+      <references source="#kensset">
+        <TLCOrganization eId="kensset" href="/ontology/organization/akn/knesset" showAs="Kensset" type="generation" />
+        <TLCRole eId="author" href="/ontology/role/akn/author" showAs="Author of Document" />
+        <TLCProcess eId="inforce" href="/ontology/process/akn/inforce" showAs="In force" />
+        <TLCPerson eId="יעקב_ש׳_שפירא" href="/ontology/person/יעקב_ש׳_שפירא" showAs="יעקב ש׳ שפירא" />
+        <TLCRole eId="שר_המשפטים" href="ontology/role/akn/שר_המשפטים" showAs="שר המשפטים" />
+      </references>
+      <temporalData source="#kensset">
+        <temporalGroup eId="tmpg_1" />
+      </temporalData>
+      <Publication></Publication>
+      <proprietary wikiversion="7/22/2020 11:39:48 PM" />
+    </meta>
+    <body period="#tmpg_1">
+      <title eId="title">
+        <content>
+          <p>פקודת סדרי הדין (התייצבות היועץ המשפטי לממשלה) [נוסח חדש]</p>
+        </content>
+      </title>
+      <list>
+        <point eId="point_1">
+          <heading>
+            <authorialNote placement="side">
+              <p>ייצוג המדינה בהליכים מסויימים</p>
+            </authorialNote>
+          </heading>
+          <num>1.</num>
+          <content>
+            <p>ראה היועץ המשפטי לממשלה, כי זכות של מדינת ישראל או זכות ציבורית או ענין ציבורי מושפעים או כרוכים, או עלולים להיות מושפעים או כרוכים, בהליך פלוני שלפני בית משפט או לפני פקיד מסדר כמשמעותו <ref href="/akn/il/act/PrimaryLegislation/1969-07-27/2002285">בפקודת הקרקעות (סידור זכות הקנין)</ref>, רשאי הוא, לפי ראות עיניו, להתייצב באותו הליך ולהשמיע דברו, או להסמיך במיוחד את נציגו לעשות זאת מטעמו.</p>
+          </content>
+        </point>
+        <point eId="point_2">
+          <heading>
+            <authorialNote placement="side">
+              <p>ייצוג עובד ציבורי או מוסד ציבורי</p>
+            </authorialNote>
+          </heading>
+          <num>2.</num>
+          <content>
+            <p>מקום שעובד ציבורי או מועצה, ועדה, ועד, בית דין או כל חבר־בני־אדם כיוצא באלה, שהוקמו או נתכוננו על פי דין, הם צד בהליך שלפני בית משפט מכוח תפקידם, יכול שיהיו מיוצגים באותו הליך על ידי היועץ המשפטי לממשלה או נציגו.</p>
+          </content>
+        </point>
+      </list>
+    </body>
+    <conclusions eId="eId">
+      <p class="signatures">
+        <signature>
+          <p>
+            <person refersTo="יעקב_ש׳_שפירא">יעקב ש׳ שפירא</person>
+            <role refersTo="שר_המשפטים">שר המשפטים</role>
+          </p>
+        </signature>
+      </p>
+    </conclusions>
+  </act>
+</akomaNtoso>

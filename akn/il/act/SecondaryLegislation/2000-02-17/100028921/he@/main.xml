@@ -1,0 +1,1362 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion" name="publicLaw">
+    <meta>
+      <identification source="#kensset">
+        <FRBRWork>
+          <FRBRthis value="/akn/il/act/SecondaryLegislation/2000-02-17/100028921/main" />
+          <FRBRuri value="/akn/il/act/SecondaryLegislation/2000-02-17/100028921" />
+          <FRBRdate date="2000-02-17" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRcountry value="israel" />
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/il/act/SecondaryLegislation/2000-02-17/100028921/he@/main" />
+          <FRBRuri value="/akn/il/act/SecondaryLegislation/2000-02-17/100028921/he@" />
+          <FRBRdate date="2000-02-17" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRlanguage language="hebrew" />
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/il/act/SecondaryLegislation/2000-02-17/100028921/he@/main.xml" />
+          <FRBRuri value="/akn/il/act/SecondaryLegislation/2000-02-17/100028921/he@" />
+          <FRBRdate date="2000-02-17" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRformat value="xml" />
+        </FRBRManifestation>
+      </identification>
+      <classification source="#kensset">
+        <keyword value="{classificationValue}" showAs="{classificationValue}" dictionary="#classification_dictionary" />
+      </classification>
+      <lifecycle source="#kensset">
+        <eventRef eId="eventRef_1" date="2000-02-17" source="#kensset" type="generation" />
+      </lifecycle>
+      <references source="#kensset">
+        <TLCOrganization eId="kensset" href="/ontology/organization/akn/knesset" showAs="Kensset" type="generation" />
+        <TLCRole eId="author" href="/ontology/role/akn/author" showAs="Author of Document" />
+        <TLCProcess eId="inforce" href="/ontology/process/akn/inforce" showAs="In force" />
+        <TLCTerm eId="term_1" href="/ontology/term/בורסה_בישראל/100028921" showAs="בורסה_בישראל" />
+        <TLCTerm eId="term_2" href="/ontology/term/דוח_מיידי/100028921" showAs="דוח_מיידי" />
+        <TLCTerm eId="term_3" href="/ontology/term/הודעת_קיבול/100028921" showAs="הודעת_קיבול" />
+        <TLCTerm eId="term_4" href="/ontology/term/הצעת_רכש/100028921" showAs="הצעת_רכש" />
+        <TLCTerm eId="term_5" href="/ontology/term/הצעת_רכש_חליפין/100028921" showAs="הצעת_רכש_חליפין" />
+        <TLCTerm eId="term_6" href="/ontology/term/הצעת_רכש_מיוחדת/100028921" showAs="הצעת_רכש_מיוחדת" />
+        <TLCTerm eId="term_7" href="/ontology/term/הצעת_רכש_מלאה/100028921" showAs="הצעת_רכש_מלאה" />
+        <TLCTerm eId="term_8" href="/ontology/term/הצעת_רכש_רגילה/100028921" showAs="הצעת_רכש_רגילה" />
+        <TLCTerm eId="term_9" href="/ontology/term/חבר_בורסה/100028921" showAs="חבר_בורסה" />
+        <TLCTerm eId="term_10" href="/ontology/term/חברה_רשומה/100028921" showAs="חברה_רשומה" />
+        <TLCTerm eId="term_11" href="/ontology/term/חברת_מטרה/100028921" showAs="חברת_מטרה" />
+        <TLCTerm eId="term_12" href="/ontology/term/חוק_החברות/100028921" showAs="חוק_החברות" />
+        <TLCTerm eId="term_13" href="/ontology/term/יום_מסחר/100028921" showAs="יום_מסחר" />
+        <TLCTerm eId="term_14" href="/ontology/term/יום_עסקים/100028921" showAs="יום_עסקים" />
+        <TLCTerm eId="term_15" href="/ontology/term/מדד/100028921" showAs="מדד" />
+        <TLCTerm eId="term_16" href="/ontology/term/מועד_הקיבול_האחרון/100028921" showAs="מועד_הקיבול_האחרון" />
+        <TLCTerm eId="term_17" href="/ontology/term/מחיר_נייר_ערך/100028921" showAs="מחיר_נייר_ערך" />
+        <TLCTerm eId="term_18" href="/ontology/term/מניות_הטבה/100028921" showAs="מניות_הטבה" />
+        <TLCTerm eId="term_19" href="/ontology/term/מציע/100028921" showAs="מציע" />
+        <TLCTerm eId="term_20" href="/ontology/term/נושא_משרה_בכירה/100028921" showAs="נושא_משרה_בכירה" />
+        <TLCTerm eId="term_21" href="/ontology/term/ניירות_ערך/100028921" showAs="ניירות_ערך" />
+        <TLCTerm eId="term_22" href="/ontology/term/ניצע/100028921" showAs="ניצע" />
+        <TLCTerm eId="term_23" href="/ontology/term/עבירה/100028921" showAs="עבירה" />
+        <TLCTerm eId="term_24" href="/ontology/term/תאריך_המיפרט/100028921" showAs="תאריך_המיפרט" />
+        <TLCTerm eId="term_25" href="/ontology/term/תקופת_הקיבול/100028921" showAs="תקופת_הקיבול" />
+        <TLCPerson eId="אברהם_(בייגה)_שוחט" href="/ontology/person/אברהם_(בייגה)_שוחט" showAs="אברהם (בייגה) שוחט" />
+        <TLCRole eId="שר_האוצר" href="ontology/role/akn/שר_האוצר" showAs="שר האוצר" />
+      </references>
+      <temporalData source="#kensset">
+        <temporalGroup eId="tmpg_1" />
+      </temporalData>
+      <Publication></Publication>
+      <proprietary wikiversion="9/16/2020 8:32:37 PM" />
+    </meta>
+    <body period="#tmpg_1">
+      <title eId="title">
+        <content>
+          <p>תקנות ניירות ערך (הצעת רכש), התש"ס–2000</p>
+        </content>
+      </title>
+      <preamble eId="eId">
+        <p>בתוקף סמכותי לפי <ref href="/akn/il/act/PrimaryLegislation/1968-08-22/150242#point_56">סעיף 56(ד)(1)</ref><ref href="/akn/il/act/PrimaryLegislation/1968-08-22/150242">לחוק ניירות ערך, התשכ"ח–1968</ref> (להלן – החוק), לפי הצעת הרשות, בהתייעצות עם שר המשפטים ובאישור ועדת הכספים של הכנסת, אני מתקין תקנות אלה:</p>
+      </preamble>
+      <chapter eId="chp_א">
+        <num>פרק א׳:</num>
+        <title>
+          <content>
+            <p>הוראות כלליות</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_1" class="definitions">
+            <heading>
+              <authorialNote placement="side">
+                <p>הגדרות</p>
+              </authorialNote>
+            </heading>
+            <num>1.</num>
+            <list>
+              <intro>
+                <p>בתקנות אלה –</p>
+              </intro>
+              <point eId="point_1__point_בורסה_בישראל">
+                <content>
+                  <p>
+                    <def />”בורסה בישראל“, ”בורסה מחוץ לישראל“ ו”הרשם“ – כהגדרתם <ref href="/akn/il/act/PrimaryLegislation/1999-05-27/165159">בחוק החברות</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_דוח_מיידי">
+                <content>
+                  <p>
+                    <def />”דוח מיידי“ – כמשמעו <ref href="/akn/il/act/PrimaryLegislation/1968-08-22/150242#point_36">בסעיף 36 לחוק</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_הודעת_קיבול">
+                <content>
+                  <p>
+                    <def />”הודעת קיבול“ – לרבות הודעה על הסכמה בהצעת רכש מיוחדת;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_הצעת_רכש">
+                <content>
+                  <p>
+                    <def />”הצעת רכש“ – כל אחת מאלה: הצעת רכש מיוחדת, הצעת רכש מלאה, הצעת רכש רגילה;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_הצעת_רכש_חליפין">
+                <content>
+                  <p>
+                    <def />”הצעת רכש חליפין“ – הצעת רכש אשר התמורה המוצעת בה, כולה או מקצתה, היא בניירות ערך, בתעודות התחייבות או שטרי הון אשר להצעתם נדרש תשקיף;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_הצעת_רכש_מיוחדת">
+                <content>
+                  <p>
+                    <def />”הצעת רכש מיוחדת“ – כמשמעותה <ref href="/akn/il/act/PrimaryLegislation/1999-05-27/165159#point_328">בסעיף 328 לחוק החברות</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_הצעת_רכש_מלאה">
+                <content>
+                  <p>
+                    <def />”הצעת רכש מלאה“ – כמשמעותה <ref href="/akn/il/act/PrimaryLegislation/1999-05-27/165159#point_336">בסעיף 336 לחוק החברות</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_הצעת_רכש_רגילה">
+                <content>
+                  <p>
+                    <def />”הצעת רכש רגילה“ – כהגדרתה <ref href="#point_3">בתקנה 3</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_חבר_בורסה">
+                <content>
+                  <p>
+                    <def />”חבר בורסה“ – חבר בורסה בישראל;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_חברה_רשומה">
+                <content>
+                  <p>
+                    <def />”חברה רשומה“ – חברה שניירות ערך שלה רשומים למסחר בבורסה בישראל;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_חברת_מטרה">
+                <content>
+                  <p>
+                    <def />”חברת מטרה“ – חברה רשומה שהצעת רכש מופנית למחזיקים בניירות ערך שלה;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_חוק_החברות">
+                <content>
+                  <p>
+                    <def />”חוק החברות“ – <ref href="/akn/il/act/PrimaryLegislation/1999-05-27/165159">חוק החברות, התשנ"ט–1999</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_יום_מסחר">
+                <content>
+                  <p>
+                    <def />”יום מסחר“ – כל יום שבו מתקיים מסחר בבורסה בישראל;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_יום_עסקים">
+                <content>
+                  <p>
+                    <def />”יום עסקים“ – יום שבו פתוחים רוב התאגידים הבנקאיים;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_מדד">
+                <content>
+                  <p>
+                    <def />”מדד“ – מדד שמפרסמת הלשכה המרכזית לסטטיסטיקה או כל גוף אחר אשר יבוא במקומה וכן מדד שמפרסמת בורסה בישראל;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_מועד_הקיבול_האחרון">
+                <content>
+                  <p>
+                    <def />”מועד הקיבול האחרון“ – היום והשעה האחרונים שבהם ניתן להגיש הודעת קיבול;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_מחיר_נייר_ערך">
+                <content>
+                  <p>
+                    <def />”מחיר נייר ערך“ – שער הנעילה של נייר ערך, כפי שפרסמה הבורסה בישראל;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_מניות_הטבה">
+                <content>
+                  <p>
+                    <def />”מניות הטבה“ – כמשמעותם <ref href="/akn/il/act/PrimaryLegislation/1968-08-22/150242#point_43">בסעיף 43 לחוק</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_מציע">
+                <content>
+                  <p>
+                    <def />”מציע“ – המציע בהצעת רכש;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_נושא_משרה_בכירה">
+                <content>
+                  <p>
+                    <def />”נושא משרה בכירה“ – דירקטור, מנהל כללי, משנה למנהל כללי, חשב, מבקר פנימי וכל ממלא תפקיד כאמור גם אם תואר משרתו שונה, וכן יחיד המועסק במציע בתפקיד אחר והמחזיק בחמישה אחוזים או יותר מן הערך הנקוב של הון המניות המוצא או מכוח ההצבעה;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_ניירות_ערך">
+                <content>
+                  <p>
+                    <def />”ניירות ערך“ – מניות וכן ניירות ערך הניתנים להמרה או למימוש במניות לרבות זכויות לאלה, ולמעט ניירות ערך המונפקים בידי הממשלה או על פי חוק מיוחד;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_ניצע">
+                <content>
+                  <p>
+                    <def />”ניצע“ – בעל נייר ערך שמוצע לרכשו בהצעת רכש;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_עבירה">
+                <list>
+                  <intro>
+                    <p>
+                      <def />”עבירה“ – עבירה לפי <ref href="/akn/il/act/PrimaryLegislation/1968-08-22/150242">החוק</ref> או לפי המפורט להלן, למעט עבירה שדינה קנס בלבד ולרבות עבירות דומות שבגינן הורשע אדם בבית משפט מחוץ לישראל:</p>
+                  </intro>
+                  <point eId="point_1__point_עבירה__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>עבירה על <ref href="/akn/il/act/PrimaryLegislation/1983-08-19/2002274">פקודת החברות [נוסח חדש], התשמ"ג–1983</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_1__point_עבירה__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>עבירה על <ref href="/akn/il/act/PrimaryLegislation/1977-08-04/2002251#point_415">סעיפים 415</ref>, <ref href="/akn/il/act/PrimaryLegislation/1977-08-04/2002251#point_416">416</ref>, <ref href="/akn/il/act/PrimaryLegislation/1977-08-04/2002251#point_418">418 עד 432</ref>, <ref href="/akn/il/act/PrimaryLegislation/1977-08-04/2002251">לחוק העונשין, התשל"ז–1977</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_1__point_עבירה__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>עבירה כלכלית אחרת, לרבות עבירה על דיני המס, אשר מפאת מהותה, חומרתה או נסיבותיה מחייבת ציון ההרשעה במיפרט;</p>
+                    </content>
+                  </point>
+                  <point eId="point_1__point_עבירה__point_4">
+                    <num>(4)</num>
+                    <content>
+                      <p>כל עבירה אחרת שבגינה הוטל עונש מאסר בפועל של חמש שנים ומעלה;</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_1__point_תאריך_המיפרט">
+                <content>
+                  <p>
+                    <def />”תאריך המיפרט“ – היום שבו הוגש מיפרט לרשות כאמור <ref href="#point_20">בתקנה 20</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_תקופת_הקיבול">
+                <content>
+                  <p>
+                    <def />”תקופת הקיבול“ – התקופה שבין תאריך המיפרט למועד הקיבול האחרון.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_2">
+            <heading>
+              <authorialNote placement="side">
+                <p>תחולה</p>
+              </authorialNote>
+            </heading>
+            <num>2.</num>
+            <content>
+              <p>תקנות אלה יחולו על הצעת רכש בחברה רשומה.</p>
+            </content>
+          </point>
+          <point eId="point_3">
+            <heading>
+              <authorialNote placement="side">
+                <p>הצעת רכש רגילה</p>
+              </authorialNote>
+            </heading>
+            <num>3.</num>
+            <list>
+              <point eId="point_3__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>הצעת רכש רגילה היא פעולה של מציע או מי מטעמו, שאינה בגדר הצעת רכש מיוחדת או הצעת רכש מלאה, המכוונת להניע ציבור בעלי ניירות ערך של חברה רשומה למכור למציע נייר ערך, למעט רכישת ניירות ערך במהלך המסחר בבורסה.</p>
+                </content>
+              </point>
+              <point eId="point_3__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>על אף האמור בתקנת משנה (א), לא יראו בהצעה לרכישה של עד 5% מהכמות הרשומה למסחר של נייר ערך נושא ההצעה במהלך שישה חודשים לפחות, הצעת רכש רגילה.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_4">
+            <heading>
+              <authorialNote placement="side">
+                <p>הצעה בלתי הדירה</p>
+              </authorialNote>
+            </heading>
+            <num>4.</num>
+            <list>
+              <point eId="point_4__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>הצעת רכש לא תהיה הדירה ולא תותנה בתנאים זולת בהתאם לתקנות אלה.</p>
+                </content>
+              </point>
+              <point eId="point_4__point_ב">
+                <num>(ב)</num>
+                <list>
+                  <intro>
+                    <p>על אף האמור בתקנת משנה (א), המציע רשאי –</p>
+                  </intro>
+                  <point eId="point_4__point_ב__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>להתנות את התחייבותו לרכוש ניירות ערך על פי הצעת הרכש בכך שאישור, רשיון, היתר או הסכמה מאת רשות מוסמכת או אישור אחר על פי דין, הנדרש לצורך רכישת ניירות הערך על פי הצעת הרכש, יתקבל עד יום עסקים אחד לפני מועד הקיבול האחרון; לא התקבל אישור כאמור, לא תיכנס הצעת הרכש לתוקף והמציע ימסור על כך מיד הודעה כאמור <ref href="#point_25">בתקנה 25(א)(1)</ref> ויפרסמה כאמור <ref href="#point_25">בתקנה 25(א)(2)</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_4__point_ב__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>להתנות את התחייבותו לרכוש ניירות ערך על פי הצעת הרכש בשיעור מזערי של היענות להצעה;</p>
+                    </content>
+                  </point>
+                  <point eId="point_4__point_ב__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>לחזור בו מהצעת הרכש בתקופת הקיבול, אם, אירעו נסיבות שהמציע לא ידע ולא היה עליו לדעת עליהן, או שלא ראה ולא היה עליו לראותן מראש, ותנאי הצעת הרכש באותן נסיבות נעשו שונים מהותית מתנאים שמציע סביר היה מציע אילו ידע את אותן נסיבות בתאריך המיפרט, והכל בכפוף לכך שהודעה על חזרה מהצעת הרכש תימסר לחבר הבורסה, רכז ההצעה, לפני מועד הקיבול האחרון; חזר בו המציע כאמור, ימסור על כך מיד הודעה כאמור <ref href="#point_25">בתקנה 25(א)(1)</ref> ויפרסמה כאמור <ref href="#point_25">בתקנה 25(א)(2)</ref>; ההודעה תכלול פירוט הנסיבות המיוחדות שבשלהן חזר בו המציע מהצעת הרכש.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+            </list>
+          </point>
+          <point eId="point_5">
+            <heading>
+              <authorialNote placement="side">
+                <p>דרכי הצעת רכש</p>
+              </authorialNote>
+            </heading>
+            <num>5.</num>
+            <list>
+              <point eId="point_5__point_א">
+                <num>(א)</num>
+                <list>
+                  <intro>
+                    <p>הצעת רכש –</p>
+                  </intro>
+                  <point eId="point_5__point_א__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>תופנה לכלל בעלי ניירות הערך מהסוג שאותו מוצע לרכוש;</p>
+                    </content>
+                  </point>
+                  <point eId="point_5__point_א__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>תהיה על פי מיפרט בכתב.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_5__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>הצעת רכש והקיבול לה יהיו בתנאים שווים לכל הניצעים המחזיקים בנייר ערך מאותו סוג.</p>
+                </content>
+              </point>
+              <point eId="point_5__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>קיבול הצעת רכש יתבצע באמצעות חבר בורסה.</p>
+                </content>
+              </point>
+              <point eId="point_5__point_ד">
+                <num>(ד)</num>
+                <content>
+                  <p>המציע יבטיח את תשלום התמורה הנקובה בהצעת הרכש בערובה שימציא לחבר הבורסה שבאמצעותו מבוצעת הצעת הרכש, להנחת דעתו של חבר הבורסה.</p>
+                </content>
+              </point>
+              <point eId="point_5__point_ה">
+                <num>(ה)</num>
+                <content>
+                  <p>חבר הבורסה יבטיח את ביצוע התחייבותו של המציע.</p>
+                </content>
+              </point>
+              <point eId="point_5__point_ו">
+                <num>(ו)</num>
+                <content>
+                  <p>לא יאוחר מיום העסקים הראשון לאחר מועד הקיבול האחרון יגיש המציע לרשות, לבורסה ולחברת המטרה דוח על תוצאות הצעת הרכש; בהצעת רכש מלאה, יציין המציע, גם, אם נתקיים התנאי האמור <ref href="/akn/il/act/PrimaryLegislation/1999-05-27/165159#point_337">בסעיף 337(א) לחוק החברות</ref>, ואת האופן והמועד לביצוע הרכישה מאותם ניצעים שלא נענו להצעה.</p>
+                </content>
+              </point>
+              <point eId="point_5__point_ז">
+                <num>(ז)</num>
+                <content>
+                  <p>התקבלה הצעת רכש, תיעשה העברת ניירות הערך שבשלהם ניתנו הודעות קיבול, במועד שנקבע במיפרט ושיהיה סמוך לאחר מועד הקיבול האחרון, ובהצעת רכש מיוחדת – סמוך לאחר תום תקופת ההיענות המאוחרת כהגדרתה בתקנת משנה (ט)(1), והכל כנגד תשלום התמורה לניצעים.</p>
+                </content>
+              </point>
+              <point eId="point_5__point_ח">
+                <num>(ח)</num>
+                <list>
+                  <intro>
+                    <p>התקבלה הצעת רכש מלאה והתקיים התנאי האמור <ref href="/akn/il/act/PrimaryLegislation/1999-05-27/165159#point_337">בסעיף 337(א) לחוק החברות</ref> –</p>
+                  </intro>
+                  <point eId="point_5__point_ח__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>יעביר המציע לכל הניצעים, לרבות אלה שלא נענו להצעה, את התמורה כקבוע בהצעת הרכש;</p>
+                    </content>
+                  </point>
+                  <point eId="point_5__point_ח__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>כפוף להעברת התמורה כאמור בפסקה (1), יעביר חבר הבורסה לבעלות המציע את כל ניירות הערך שביקש המציע לרכוש בהצעה.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_5__point_ט">
+                <num>(ט)</num>
+                <list>
+                  <intro>
+                    <p>התקבלה הצעת רכש מיוחדת –</p>
+                  </intro>
+                  <point eId="point_5__point_ט__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>יודיע המציע לניצעים, לא יאוחר משעה 10:00 ביום העסקים שלאחר מועד הקיבול האחרון, על תוצאות ההצעה, וכי בתוך ארבעה ימים ממועד הקיבול האחרון (להלן – תקופת ההיענות המאוחרת), ניצעים שלא הביעו את עמדתם לגבי ההצעה או שהתנגדו לה, רשאים להיענות להצעה באופן ובתנאים שבהם נעשתה ההיענות להצעת הרכש; ההודעה תימסר כקבוע <ref href="#point_25">בתקנה 25</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_5__point_ט__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>לא יאוחר מיום עסקים אחד לאחר תום תקופת ההיענות המאוחרת, יגיש המציע לרשות, לבורסה ולחברת המטרה, דוח על תוצאות הצעת הרכש לאחר שהובאו בחשבון הודעות קיבול שניתנו בתקופת ההיענות המאוחרת (להלן – דוח סופי על תוצאות ההצעה);</p>
+                    </content>
+                  </point>
+                  <point eId="point_5__point_ט__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>רכישת ניירות הערך תיעשה כאמור <ref href="#point_7">בתקנה 7(ג)</ref>, על פי נתוני הדוח הסופי על תוצאות ההצעה;</p>
+                    </content>
+                  </point>
+                  <point eId="point_5__point_ט__point_4">
+                    <num>(4)</num>
+                    <content>
+                      <p>בתקופת ההיענות המאוחרת ועד להעברתם, יוחזקו ניירות הערך שניתנו בשלהם הודעות קיבול והתמורה המגיעה בעדם, בידי חבר הבורסה.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+            </list>
+          </point>
+          <point eId="point_6">
+            <heading>
+              <authorialNote placement="side">
+                <p>מועד הקיבול האחרון</p>
+              </authorialNote>
+            </heading>
+            <num>6.</num>
+            <list>
+              <point eId="point_6__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>מועד הקיבול האחרון ייקבע ביום מסחר, לא מוקדם מארבעה עשר ימים מתאריך המיפרט ובהצעת רכש מיוחדת – לא מוקדם מעשרים ואחד ימים ממנו, ולא יאוחר משישים ימים ממנו.</p>
+                </content>
+              </point>
+              <point eId="point_6__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>בתקופת הקיבול, רשאי מציע לדחות את מועד הקיבול האחרון, בהודעה שתימסר כאמור <ref href="#point_25">בתקנה 25(א)</ref>, ובלבד שההודעה נמסרה עד יום עסקים אחד לפני מועד הקיבול האחרון, ומועד הקיבול האחרון הנדחה ייקבע ליום מסחר, לא יאוחר משישים ימים מתאריך המיפרט.</p>
+                </content>
+              </point>
+              <point eId="point_6__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>על אף האמור בתקנת משנה (ב), הגיש בתקופת הקיבול מציע אחר הצעת רכש לגבי ניירות ערך של חברת המטרה, רשאי המציע לדחות את מועד הקיבול האחרון עד מועד הקיבול האחרון בהצעת הרכש האחרת; דחיית מועד הקיבול תיעשה בהודעה שתימסר כאמור <ref href="#point_25">בתקנה 25(א)</ref>.</p>
+                </content>
+              </point>
+              <point eId="point_6__point_ד">
+                <num>(ד)</num>
+                <content>
+                  <p>על אף האמור בתקנות משנה (ב) ו־(ג), מציע לא יהיה רשאי לדחות את מועד הקיבול האחרון, אלא אם כן אישר חבר הבורסה כי התחייבותו בהתאם <ref href="#point_5">לתקנה 5(ה)</ref> תקפה גם בתנאים החדשים או אם המציע קיבל התחייבות מחבר בורסה אחר.</p>
+                </content>
+              </point>
+              <point eId="point_6__point_ה">
+                <num>(ה)</num>
+                <content>
+                  <p>על אף האמור בתקנת משנה (א), בהצעת רכש מיוחדת של מציע (להלן – הצעה נוספת) אשר הצעה קודמת שלו, שפורסמה במהלך שלושת החודשים האחרונים, לא נתקבלה, ובהצעה הנוספת אין שינוי מהותי בתנאי ההצעה זולת מחיר ההצעה, יהא מועד הקיבול האחרון לא מוקדם מעשרה ימים מתאריך המיפרט, ולא יאוחר משישים ימים ממנו.</p>
+                </content>
+              </point>
+              <point eId="point_6__point_ו">
+                <num>(ו)</num>
+                <content>
+                  <p>על אף האמור בתקנה זו, בהצעת רכש מיוחדת לא יהיה רשאי מציע לקבוע מועד קיבול אחרון אשר יחול במהלך תקופה שראשיתה יום עסקים לפני מועד קיבול אחרון שקבע מציע אחר ביחס לאותה חברת מטרה, וסופה יום עסקים לאחר מועד קיבול כאמור.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_7">
+            <heading>
+              <authorialNote placement="side">
+                <p>היענות להצעת הרכש</p>
+              </authorialNote>
+            </heading>
+            <num>7.</num>
+            <list>
+              <point eId="point_7__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>היענות להצעת רכש מלאה או רגילה תיעשה בהודעת קיבול ערוכה לפי טופס שיצורף למיפרט; היענות להצעת רכש מיוחדת, תיעשה בהודעה בדבר הסכמה או התנגדות להצעת הרכש, ערוכה לפי טופס שיצורף למיפרט.</p>
+                </content>
+              </point>
+              <point eId="point_7__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>ניצע יהיה רשאי לחזור בו מהודעה לפי תקנת משנה (א), עד למועד הקיבול האחרון.</p>
+                </content>
+              </point>
+              <point eId="point_7__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>עלתה כמות ניירות הערך שלגביה ניתנו הודעות קיבול על כמות ניירות הערך שהמציע התחייב לרכוש, ירכוש המציע מכל ניצע שנתן הודעת קיבול, את סך כל ניירות הערך שלגביו נתן אותו ניצע הודעה כאמור, מוכפל ביחס שבין כמות ניירות הערך שהמציע התחייב לרכוש לבין סך כל ניירות הערך שניתנו לגביהם הודעות קיבול.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+        </list>
+      </chapter>
+      <chapter eId="chp_ב">
+        <num>פרק ב׳:</num>
+        <title>
+          <content>
+            <p>תוכן המיפרט</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_8">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>8.</num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">(בוטלה).</wikicomment>
+              </p>
+            </content>
+          </point>
+          <point eId="point_9">
+            <heading>
+              <authorialNote placement="side">
+                <p>פרטי המיפרט</p>
+              </authorialNote>
+            </heading>
+            <num>9.</num>
+            <list>
+              <intro>
+                <p>המיפרט יכלול כל פרט המצוי בידיעת המציע, העשוי להיות חשוב למחזיק סביר השוקל היענות להצעה על פיו ולא יהיה במיפרט פרט מטעה; בלי לגרוע מכלליות האמור, יכלול המיפרט פרטים אלה:</p>
+              </intro>
+              <point eId="point_9__point_1">
+                <num>(1)</num>
+                <content>
+                  <p>בהצעת רכש מלאה שתוקפה מותנה בכך שלאחריה יחזיק המציע בכלל המניות שלגביהן הוצעה הצעת הרכש, כאמור <ref href="/akn/il/act/PrimaryLegislation/1999-05-27/165159#point_337">בסעיף 337(א) לחוק החברות</ref> – הפרטים האמורים <ref href="#point_10">בתקנות 10</ref>, <ref href="#point_11">11</ref>, <ref href="#point_12">12</ref>, <ref href="#point_13">13(א)(1) ו־(ג)</ref>, <ref href="#point_14">14</ref>, <ref href="#point_17">17</ref><ref href="#point_18">ו־18</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_9__point_2">
+                <num>(2)</num>
+                <content>
+                  <p>בהצעת רכש מלאה שתוקפה אינו מותנה כאמור בפסקה (1) – הפרטים האמורים <ref href="#point_10">בתקנות 10</ref>, <ref href="#point_11">11</ref>, <ref href="#point_12">12</ref>, <ref href="#point_13">13(א) ו־(ג)</ref>, <ref href="#point_14">14</ref>, <ref href="#point_15">15</ref>, <ref href="#point_16">16(ב) ו־(ג)</ref>, <ref href="#point_17">17</ref><ref href="#point_18">ו־18</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_9__point_3">
+                <num>(3)</num>
+                <content>
+                  <p>בהצעת רכש מיוחדת – הפרטים האמורים <ref href="#point_10">בתקנות 10 עד 15</ref>, <ref href="#point_16">16(א) ו־(ג)</ref>, <ref href="#point_17">17</ref><ref href="#point_18">ו־18</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_9__point_4">
+                <num>(4)</num>
+                <content>
+                  <p>בהצעת רכש רגילה – הפרטים האמורים <ref href="#point_10">בתקנות 10</ref>, <ref href="#point_11">11</ref>, <ref href="#point_12">12</ref>, <ref href="#point_13">13(א) ו־(ג)</ref>, <ref href="#point_14">14</ref>, <ref href="#point_15">15(א) ו־(ב)(1), (3) ו־(4)</ref>, <ref href="#point_16">16(ג)</ref>, <ref href="#point_17">17(1), (2), (4) ו־(5)</ref><ref href="#point_18">ו־18</ref>.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_10">
+            <heading>
+              <authorialNote placement="side">
+                <p>פרטים על אודות ניירות הערך שמוצע לרכשם</p>
+              </authorialNote>
+            </heading>
+            <num>10.</num>
+            <list>
+              <point eId="point_10__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>במיפרט יפורטו הסוג וכן הכמות של ניירות הערך שאותם התחייב המציע לרכוש והשיעור באחוזים של הכמות, מזכויות ההצבעה ומההון המונפק והנפרע של חברת המטרה.</p>
+                </content>
+              </point>
+              <point eId="point_10__point_ב">
+                <num>(ב)</num>
+                <list>
+                  <intro>
+                    <p>בהצעה לרכישת מניות יפורטו:</p>
+                  </intro>
+                  <point eId="point_10__point_ב__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>מחיר המניה הגבוה ביותר ומחיר המניה הנמוך ביותר בכל אחד משנים עשר החודשים שקדמו לתאריך המיפרט, בהתחשב בכל חלוקת דיבידנד או מניות הטבה, פיצול, איחוד הון או הצעה בדרך של זכויות לבעלי ניירות הערך של חברת המטרה;</p>
+                    </content>
+                  </point>
+                  <point eId="point_10__point_ב__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>ממוצע מחירי המניה בששת החודשים שקדמו לתאריך המיפרט, בהתחשב בכל חלוקת דיבידנד או מניות הטבה, פיצול, איחוד הון או הצעה בדרך של זכויות לבעלי ניירות הערך של חברת המטרה; כמו כן יפורט היחס באחוזים בין ממוצע מחירי המניה כאמור לבין התמורה המוצעת למניה;</p>
+                    </content>
+                  </point>
+                  <point eId="point_10__point_ב__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>מחיר המניה סמוך לפני תאריך המיפרט והיחס באחוזים בין מחיר זה לבין התמורה המוצעת למניה;</p>
+                    </content>
+                  </point>
+                  <point eId="point_10__point_ב__point_4">
+                    <num>(4)</num>
+                    <content>
+                      <p>ההון העצמי וההון העצמי למניה של חברת המטרה בהתאם לדוחות הכספיים האחרונים שפרסמה.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_10__point_ג">
+                <num>(ג)</num>
+                <list>
+                  <intro>
+                    <p>בהצעה לרכישת כתבי אופציה, ואופציות רכישה (להלן – אופציות) יפורטו:</p>
+                  </intro>
+                  <point eId="point_10__point_ג__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>התנאים העיקריים של האופציות ומחיר המימוש המתואם סמוך לפני תאריך המיפרט;</p>
+                    </content>
+                  </point>
+                  <point eId="point_10__point_ג__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>מחיר האופציות ומחיר המניה סמוך לפני תאריך המיפרט והיחס באחוזים בין מחיר האופציות לבין התמורה המוצעת לאופציה.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_10__point_ד">
+                <num>(ד)</num>
+                <list>
+                  <intro>
+                    <p>בהצעה לרכישת תעודות התחייבות המירות למניות החברה יפורטו:</p>
+                  </intro>
+                  <point eId="point_10__point_ד__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>התנאים העיקריים של תעודות ההתחייבות;</p>
+                    </content>
+                  </point>
+                  <point eId="point_10__point_ד__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>מחיר תעודת ההתחייבות הגבוה ביותר ומחיר תעודת ההתחייבות הנמוך ביותר בכל אחד מששת החודשים אשר קדמו לתאריך המיפרט;</p>
+                    </content>
+                  </point>
+                  <point eId="point_10__point_ד__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>ממוצע המחירים בשלושת החודשים שקדמו לתאריך המיפרט והיחס באחוזים בין ממוצע זה לבין התמורה המוצעת לתעודת התחייבות;</p>
+                    </content>
+                  </point>
+                  <point eId="point_10__point_ד__point_4">
+                    <num>(4)</num>
+                    <content>
+                      <p>שווי מתואם של תעודות ההתחייבות סמוך לפני תאריך המיפרט;</p>
+                    </content>
+                  </point>
+                  <point eId="point_10__point_ד__point_5">
+                    <num>(5)</num>
+                    <content>
+                      <p>מחיר תעודת ההתחייבות ומחיר המניה סמוך לפני תאריך המיפרט, והיחס באחוזים בין מחיר תעודת ההתחייבות כאמור לבין התמורה המוצעת לתעודת התחייבות.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+            </list>
+          </point>
+          <point eId="point_11">
+            <heading>
+              <authorialNote placement="side">
+                <p>פרטים על אודות התמורה</p>
+              </authorialNote>
+            </heading>
+            <num>11.</num>
+            <list>
+              <point eId="point_11__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>במיפרט יפורטו התמורה המוצעת ומועד ואופן תשלומה.</p>
+                </content>
+              </point>
+              <point eId="point_11__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>היתה התמורה המוצעת, בנכס אשר אינו מזומן ואינו נייר ערך או תעודת התחייבות אשר בגין הצעתם נדרש תשקיף, יתואר הנכס, לרבות הזכויות וההתחייבויות הנלוות לו או הכרוכות בהעברתו וכן יתוארו, למיטב ידיעת המציע, פרטי עסקאות שנעשו בנכס בשלוש השנים שקדמו לתאריך המיפרט.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_12">
+            <heading>
+              <authorialNote placement="side">
+                <p>תנאים שבהם מותנית התחייבות המציע בהצעת הרכש</p>
+              </authorialNote>
+            </heading>
+            <num>12.</num>
+            <content>
+              <p>במיפרט יצוינו תנאים שבהם מותנית התחייבות המציע לרכוש ניירות ערך בהצעת הרכש כאמור <ref href="#point_4">בתקנה 4(ב)</ref>.</p>
+            </content>
+          </point>
+          <point eId="point_13">
+            <heading>
+              <authorialNote placement="side">
+                <p>פרטים על אודות המציע</p>
+              </authorialNote>
+            </heading>
+            <num>13.</num>
+            <list>
+              <point eId="point_13__point_א">
+                <num>(א)</num>
+                <list>
+                  <intro>
+                    <p>במיפרט יצוינו פרטי המציע כלהלן:</p>
+                  </intro>
+                  <point eId="point_13__point_א__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>שם המציע ומענו: היה המציע תאגיד, יפורטו צורת התאגדותו, החוק שלפיו הוא הואגד, תאריך ההתאגדות, ומען משרדו הראשי;</p>
+                    </content>
+                  </point>
+                  <point eId="point_13__point_א__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>לגבי מציע שאינו תאגיד – תחומי העיסוק שבהם פעל המציע בחמש השנים שקדמו לתאריך המיפרט;</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_13__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>הורשעו המציע או בעל השליטה בו בעבירה, וטרם חלפה לגבי ההרשעה תקופת ההתיישנות לפי <ref href="/akn/il/act/PrimaryLegislation/1981-06-16/171484">חוק המרשם הפלילי ותקנת השבים, התשמ"א–1981</ref>, יובאו פרטי ההרשעה, לרבות מועדה והעונש שהוטל.</p>
+                </content>
+              </point>
+              <point eId="point_13__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>במיפרט יובאו, לפי מיטב ידיעת המציע, שמות בעלי הענין במציע ואחזקותיהם בו בתאריך המיפרט ובהנחה של דילול מלא ופירוט קשרים עסקיים או משפחתיים, שאינם זניחים, בין המציע ובעלי ענין בו לבין בעלי ניירות ערך בחברת המטרה.</p>
+                </content>
+              </point>
+              <point eId="point_13__point_ד">
+                <num>(ד)</num>
+                <list>
+                  <intro>
+                    <p>לגבי כל אחד מן הדירקטורים, הדירקטורים החליפיים ונושאי המשרה הבכירה במציע, יובאו פרטים אלה:</p>
+                  </intro>
+                  <point eId="point_13__point_ד__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>שמו;</p>
+                    </content>
+                  </point>
+                  <point eId="point_13__point_ד__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>גילו;</p>
+                    </content>
+                  </point>
+                  <point eId="point_13__point_ד__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>התפקיד שהוא ממלא במציע, בחברה בת של המציע או בבעל ענין בו;</p>
+                    </content>
+                  </point>
+                  <point eId="point_13__point_ד__point_4">
+                    <num>(4)</num>
+                    <content>
+                      <p>אם הוא בן משפחה של נושא משרה בכירה אחר או של בעל ענין במציע;</p>
+                    </content>
+                  </point>
+                  <point eId="point_13__point_ד__point_5">
+                    <num>(5)</num>
+                    <content>
+                      <p>ניסיונו העסקי בחמש השנים האחרונות.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+            </list>
+          </point>
+          <point eId="point_14">
+            <heading>
+              <authorialNote placement="side">
+                <p>פרטים על אודות הקיבול</p>
+              </authorialNote>
+            </heading>
+            <num>14.</num>
+            <content>
+              <p>במיפרט יצוינו מועד הקיבול האחרון וכן האופן והמקומות שבהם ניתן להגיש הודעות קיבול.</p>
+            </content>
+          </point>
+          <point eId="point_15">
+            <heading>
+              <authorialNote placement="side">
+                <p>פרטים על אודות הסכמים של המציע ומקורות מימון הצעת הרכש</p>
+              </authorialNote>
+            </heading>
+            <num>15.</num>
+            <list>
+              <point eId="point_15__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>
+                    <ref href="#point_15">בתקנות 15</ref>
+                    <ref href="#point_16">ו־16</ref>, ”מציע“ – לרבות בעל השליטה בו או תאגיד בשליטת כל אחד מהם.</p>
+                </content>
+              </point>
+              <point eId="point_15__point_ב">
+                <num>(ב)</num>
+                <list>
+                  <intro>
+                    <p>במיפרט יפורטו כל הסכם, הסדר או הבנה שיש למציע עם אחר, הנוגעים לניירות הערך בחברת המטרה, לרבות זהות הצד האחר ואחזקותיו במניות חברת המטרה; בלי לגרוע מכלליות האמור, יפורטו פרטי כל הסכם, הסדר או הבנה שיש למציע עם אחר, הנוגעים לענינים אלה:</p>
+                  </intro>
+                  <point eId="point_15__point_ב__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>העברת המניות הנרכשות או זכויות בהן, כולן או מקצתן; לענין פסקה זו תהיה זו ראיה לכאורה על קיומו של הסכם, הסדר או הבנה כאמור, אם הועברו ניירות הערך לאחר בתוך 90 ימים ממועד הקיבול האחרון;</p>
+                    </content>
+                  </point>
+                  <point eId="point_15__point_ב__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>הלוואה שקיבל המציע לשם מימון ההצעה ובכלל זה זהות המלווה, תקופת ההלוואה ותנאיה, הריבית האפקטיבית, בטוחות שנתן המציע למלווה בנכסי חברת המטרה או בניירות ערך שלה, אמות מידה פיננסיות שעל המציע לעמוד בהן בהתאם לתנאי ההלוואה, וכן תכניות המציע למימון החזר ההלוואה, ואם אין כאלה יצהיר על כך;</p>
+                    </content>
+                  </point>
+                  <point eId="point_15__point_ב__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>אופציות לרכישה או למכירה שנתן המציע ביחס לניירות ערך של חברת המטרה;</p>
+                    </content>
+                  </point>
+                  <point eId="point_15__point_ב__point_4">
+                    <num>(4)</num>
+                    <content>
+                      <p>התחייבות של המציע לשעבד את המניות הנרכשות, כולן או מקצתן.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_15__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>במיפרט יפורטו מקורות המימון הייחודיים שבאמצעותם מתכוון המציע לממן את רכישת מניות חברת המטרה; בלי לגרוע מכלליות האמור, יפורטו מגעים למכירת נכסים של המציע, תוך פירוט אותם מגעים, לרבות התייחסות למועדי המימוש הצפויים והתמורה הצפויה, וכן כוונה לבצע גיוס הון על ידי המציע, תוך פירוט המועד המתוכנן וסכום הגיוס הצפוי.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_16">
+            <heading>
+              <authorialNote placement="side">
+                <p>פרטים על אודות התחייבויות המציע וכוונותיו</p>
+              </authorialNote>
+            </heading>
+            <num>16.</num>
+            <list>
+              <point eId="point_16__point_א">
+                <num>(א)</num>
+                <list>
+                  <intro>
+                    <p>התחייב המציע –</p>
+                  </intro>
+                  <point eId="point_16__point_א__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>לרכוש מניות נוספות בחברת המטרה באמצעות הצעת רכש נוספת, שתתבצע בתוך שנה מתאריך המיפרט, יציין במיפרט את הסוג והכמות של המניות שבכוונתו לרכוש בהצעת הרכש הנוספת ואת התמורה שבכוונתו להציע; המציע רשאי לקבוע כי התמורה בהצעת הרכש הנוספת תהיה צמודה למדד או לשער מטבע.</p>
+                    </content>
+                  </point>
+                  <point eId="point_16__point_א__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>לבצע מיזוג של חברת המטרה בתוך שנה מתאריך המיפרט, יפרט את תנאי המיזוג לרבות יחס ההחלפה.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_16__point_ב">
+                <num>(ב)</num>
+                <list>
+                  <intro>
+                    <p>מתכוון המציע –</p>
+                  </intro>
+                  <point eId="point_16__point_ב__point_1">
+                    <num>(1)</num>
+                    <list>
+                      <intro>
+                        <p>לרכוש ניירות ערך נוספים בחברת המטרה באמצעות הצעת רכש נוספת, שתתבצע בתוך שישה חודשים מתאריך המיפרט, יודיע על כוונתו וכן יציין את הסוג והכמות של ניירות הערך שבכוונתו לרכוש בהצעת הרכש הנוספת ואת התמורה שבכוונתו להציע; המציע רשאי לקבוע כי התמורה בהצעת הרכש הנוספת תהיה צמודה למדד או לשער מטבע לפיֽהענין; לענין זה, תהיה זו ראיה לכאורה כי היתה למציע כוונה לבצע הצעת רכש נוספת, אם הוצעה הצעה כאמור, בתוך שישה חודשים מתאריך המיפרט; ואולם ניתן יהיה לבצע הצעת רכש נוספת בתוך שישה חודשים מתאריך המיפרט גם אם המציע לא הודיע על כוונתו, ובלבד שהתקיימו שני אלה:</p>
+                      </intro>
+                      <point eId="point_16__point_ב__point_1__point_א">
+                        <num>(א)</num>
+                        <content>
+                          <p>מחיר הצעת הרכש הנוספת שווה או גבוה מהמחיר בהצעת הרכש הראשונה;</p>
+                        </content>
+                      </point>
+                      <point eId="point_16__point_ב__point_1__point_ב">
+                        <num>(ב)</num>
+                        <content>
+                          <p>המציע התחייב לשלם לניצעים שנענו להצעת הרכש הראשונה את ההפרש בין מחיר ההצעה הנוספת לבין מחיר ההצעה הראשונה.</p>
+                        </content>
+                      </point>
+                    </list>
+                  </point>
+                  <point eId="point_16__point_ב__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>למזג את חברת המטרה בתוך שישה חודשים מתאריך המיפרט, יודיע על כוונתו ויפרט את תנאי המיזוג לרבות יחס ההחלפה; לענין זה, תהיה זו ראיה לכאורה כי היתה למציע כוונה למזג, אם נתקבלה החלטה על מיזוג כאמור, בתוך שישה חודשים מתאריך המיפרט.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_16__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>היו למציע תכניות ביחס לחברת המטרה בכל תחום שעשוי להיות חשוב למחזיק סביר, ובכלל זה כוונות למחיקת ניירות ערך של חברת המטרה מהמסחר, התקשרות לפי <ref href="/akn/il/act/PrimaryLegislation/1999-05-27/165159#point_275">סעיף 275 לחוק החברות</ref>, מדיניות עסקית, הרכב הדירקטוריון וההנהלה המוצעים, מבנה ההון והרכב הנכסים, תכניות פירוק או מימוש נכסים ומדיניות חלוקת רווחים, יובאו במיפרט תכניות אלה.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_16א">
+            <heading>
+              <authorialNote placement="side">
+                <p>הערכות שווי</p>
+              </authorialNote>
+            </heading>
+            <num>16א.</num>
+            <content>
+              <p>צורף המציע למפרט הערכת שווי, תיערך הערכת השווי לפי <ref href="/akn/il/act/SecondaryLegislation/2019-11-24/100043425#point_8ב">תקנה 8ב לתקנות ניירות ערך (דוחות תקופתיים ומיידיים), התש"ל–1970</ref>, בשינויים המחוייבים.</p>
+            </content>
+          </point>
+          <point eId="point_17">
+            <heading>
+              <authorialNote placement="side">
+                <p>פרטים נוספים</p>
+              </authorialNote>
+            </heading>
+            <num>17.</num>
+            <list>
+              <intro>
+                <p>במיפרט יפורטו נוסף על האמור לעיל –</p>
+              </intro>
+              <point eId="point_17__point_1">
+                <num>(1)</num>
+                <content>
+                  <p>הודעות שהודיעו בעלי ניירות ערך בחברת המטרה למציע, על כוונתם להיענות או שלא להיענות להצעת הרכש – אם ניתנו הודעות כאמור;</p>
+                </content>
+              </point>
+              <point eId="point_17__point_2">
+                <num>(2)</num>
+                <content>
+                  <p>ההתחייבות של חבר הבורסה לפי <ref href="#point_5">תקנה 5(ה)</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_17__point_3">
+                <num>(3)</num>
+                <content>
+                  <p>בהצעת רכש מיוחדת או הצעת רכש מלאה – הוראות <ref href="/akn/il/act/PrimaryLegislation/1999-05-27/165159#point_331">סעיפים 331</ref>, <ref href="/akn/il/act/PrimaryLegislation/1999-05-27/165159#point_337">337</ref><ref href="/akn/il/act/PrimaryLegislation/1999-05-27/165159#point_338">ו־338 לחוק החברות</ref>, לפי הענין;</p>
+                </content>
+              </point>
+              <point eId="point_17__point_4">
+                <num>(4)</num>
+                <content>
+                  <p>היתה תוצאה מסתברת של הצעת הרכש, מחיקה מהמסחר של ניירות הערך שמוצע לרכשם – הוראות תקנון הבורסה והנחיותיה לענין זה, והשלכות המחיקה מהמסחר על ניירות הערך של החברה, אם ישנן;</p>
+                </content>
+              </point>
+              <point eId="point_17__point_5">
+                <num>(5)</num>
+                <content>
+                  <p>פרטים על נציגו של המציע לענין הטיפול במיפרט, לרבות מען משרדו ומספרי הטלפון והפקסימילה שלו.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_18">
+            <heading>
+              <authorialNote placement="side">
+                <p>חתימה על המיפרט</p>
+              </authorialNote>
+            </heading>
+            <num>18.</num>
+            <content>
+              <p>על המיפרט יחתום המציע ויציין את תאריך החתימה; היה המציע תאגיד, ייחתם המיפרט בידי המורשים לחתום בשם התאגיד ולצד כל חתימה יצוין שם החותם ותפקידו בתאגיד.</p>
+            </content>
+          </point>
+        </list>
+      </chapter>
+      <chapter eId="chp_ג">
+        <num>פרק ג׳:</num>
+        <title>
+          <content>
+            <p>הצעת רכש חליפין והצעת רכש עצמית</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_19">
+            <heading>
+              <authorialNote placement="side">
+                <p>הצעת רכש חליפין</p>
+              </authorialNote>
+            </heading>
+            <num>19.</num>
+            <list>
+              <point eId="point_19__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>הצעת רכש חליפין תיעשה על פי מיפרט אשר יכלול תשקיף שהרשות התירה את פרסומו לצורך הצעת ניירות הערך לציבור במסגרת הצעת הרכש (להלן – תשקיף הצעת רכש).</p>
+                </content>
+              </point>
+              <point eId="point_19__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>דין תשקיף הצעת רכש כדין כל תשקיף ויחולו עליו, נוסף על הוראות תקנות אלה, גם הוראות <ref href="/akn/il/act/PrimaryLegislation/1968-08-22/150242">החוק</ref> והתקנות לפיו, הנוגעות לתשקיף, בשינויים המחויבים.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_19א">
+            <heading>
+              <authorialNote placement="side">
+                <p>הצעת רכש עצמית</p>
+              </authorialNote>
+            </heading>
+            <num>19א.</num>
+            <list>
+              <intro>
+                <p>היה המציע בהצעת הרכש חברת המטרה או תאגיד בשליטתה יפורטו במיפרט גם אלה:</p>
+              </intro>
+              <point eId="point_19א__point_1">
+                <num>(1)</num>
+                <content>
+                  <p>מקורות המימון לביצוע הצעת הרכש ותנאיהם לרבות הצמדה, ריבית ותנאי תשלום; אם המימון אינו ספציפי, יפורטו תנאי מקורות המימון היקרים ביותר של החברה;</p>
+                </content>
+              </point>
+              <point eId="point_19א__point_2">
+                <num>(2)</num>
+                <content>
+                  <p>יתרת העודפים הראויים לחלוקה הקיימת בחברה, היקף החלוקה המתבצעת במסגרת הצעת הרכש ומועד אישורה בידי הדירקטוריון;</p>
+                </content>
+              </point>
+              <point eId="point_19א__point_3">
+                <num>(3)</num>
+                <content>
+                  <p>נימוקי הדירקטוריון לביצוע הצעת הרכש.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+        </list>
+      </chapter>
+      <chapter eId="chp_ד">
+        <num>פרק ד׳:</num>
+        <title>
+          <content>
+            <p>שונות</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_20">
+            <heading>
+              <authorialNote placement="side">
+                <p>הגשה ופרסום</p>
+              </authorialNote>
+            </heading>
+            <num>20.</num>
+            <list>
+              <point eId="point_20__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>המציע יגיש את המיפרט לרשות, לבורסה ולחברת המטרה.</p>
+                </content>
+              </point>
+              <point eId="point_20__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>לא יאוחר מיום העסקים הראשון לאחר תאריך המיפרט, יפרסם המציע הודעה על הגשת המיפרט, בעיתונים כאמור <ref href="/akn/il/act/SecondaryLegislation/2008-06-15/100034177">בתקנות ניירות ערך (פרסום מודעות בעיתונים), התשס"ח–2008</ref> (להלן – תקנות הפרסום).</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_21">
+            <heading>
+              <authorialNote placement="side">
+                <p>חוות דעת הדירקטוריון בהצעת רכש מיוחדת</p>
+              </authorialNote>
+            </heading>
+            <num>21.</num>
+            <list>
+              <point eId="point_21__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>חוות דעת הדירקטוריון בהצעת רכש מיוחדת או הודעתו על הימנעות ממתן חוות דעת לרבות חוות דעת דירקטוריון הניתנת לאחר פרסום תיקון למיפרט, אם נכללו בו שינויים העלולים להשפיע על כדאיות ההיענות להצעה, תינתן חמישה ימי עסקים לפחות לפני מועד הקיבול האחרון; חוות הדעת תפורסם על ידי חברת המטרה כדוח מיידי, מיד עם קבלת ההחלטה על ידי הדירקטוריון.</p>
+                </content>
+              </point>
+              <point eId="point_21__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>העתקים מחוות דעת הדירקטוריון או מהודעתו על הימנעות ממתן חוות דעת, יעמדו במשרד הראשי של חברת המטרה, לעיונו של כל מחזיק בניירות ערך של חברת המטרה, אשר יהיה רשאי להעתיקה, והודעה על כך תיכלל בדוח המיידי.</p>
+                </content>
+              </point>
+              <point eId="point_21__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>בתקנה זו, ”חוות דעת הדירקטוריון“ – כמשמעותה <ref href="/akn/il/act/PrimaryLegislation/1999-05-27/165159#point_329">בסעיף 329 לחוק החברות</ref>.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_22">
+            <heading>
+              <authorialNote placement="side">
+                <p>תיקון מיפרט ביוזמת המציע</p>
+              </authorialNote>
+            </heading>
+            <num>22.</num>
+            <list>
+              <point eId="point_22__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>עד יום עסקים אחד לפני מועד הקיבול האחרון רשאי המציע לתקן את ההצעה באופן המיטיב את תנאיה, ובלבד שיתקן את המפרט בהתאם לכך ויגיש עותק מן התיקון לרשות, לבורסה ולחברת המטרה, ויפרסם את התיקון, כאמור <ref href="#point_25">בתקנה 25(א)(2)</ref> (להלן – הודעת התיקון); תיקן המציע את ההצעה כאמור, במהלך שלושת ימי העסקים שקדמו למועד הקיבול האחרון, יידחה מועד הקיבול האחרון, על אף האמור <ref href="#point_6">בתקנה 6(ב)</ref>, כך שמועד הקיבול האחרון החדש יחול לא מוקדם משלושה ימי עסקים ולא יאוחר מחמישה ימי עסקים ממועד התיקון או משישים ימים מתאריך המיפרט, המאוחר שבהם; ההודעה על דחיית מועד הקיבול האחרון תיכלל בהודעת התיקון.</p>
+                </content>
+              </point>
+              <point eId="point_22__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>על אף האמור <ref href="#point_6">בתקנה 6(ב)</ref> ובתקנת משנה (א), בהצעת רכש מיוחדת, שדירקטוריון חברת המטרה לא המליץ לניצעים בחוות דעתו, להיענות לה, יידחה מועד הקיבול האחרון בעקבות הטבת תנאי ההצעה כך שמועד הקיבול האחרון החדש יחול לא מוקדם מעשרה ימים ולא יאוחר משנים עשר ימים ממועד התיקון או משישים ימים מתאריך המיפרט, המאוחר שבהם; ההודעה על דחיית מועד הקיבול תיכלל בהודעת התיקון.</p>
+                </content>
+              </point>
+              <point eId="point_22__point_ב1">
+                <num>(ב1)</num>
+                <content>
+                  <p>חל מועד הקיבול האחרון החדש כאמור בתקנת משנה (א) או (ב), בסמיכות למועד קיבול אחרון שנקבע על ידי מציע אחר כאמור <ref href="#point_6">בתקנה 6(ו)</ref>, יידחה מועד הקיבול האחרון החדש ליום העסקים הראשון לאחר התקופה הקבועה <ref href="#point_6">בתקנה 6(ו)</ref>.</p>
+                </content>
+              </point>
+              <point eId="point_22__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>עד יום עסקים אחד לפני מועד הקיבול האחרון, רשאי מציע לתקן במיפרט כל תיקון אשר אין בו כדי להשפיע על שיקולי הניצעים לענין כדאיות ההצעה, ויודיע על כך כאמור <ref href="#point_25">בתקנה 25</ref>.</p>
+                </content>
+              </point>
+              <point eId="point_22__point_ד">
+                <num>(ד)</num>
+                <content>
+                  <p>על אף האמור בתקנות משנה (א) ו־(ג), לא יהיה המציע רשאי לתקן מיפרט, אם לא קיבל המציע או אם לא אישר חבר הבורסה כי התחייבותו תקפה גם בתנאים המתוקנים התחייבות מחבר בורסה אחר.</p>
+                </content>
+              </point>
+              <point eId="point_22__point_ה">
+                <num>(ה)</num>
+                <content>
+                  <p>דין תיקון למיפרט כדין מיפרט.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_23">
+            <heading>
+              <authorialNote placement="side">
+                <p>תיקון מיפרט ביוזמת הרשות</p>
+              </authorialNote>
+            </heading>
+            <num>23.</num>
+            <list>
+              <point eId="point_23__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>מציע ימסור לרשות בכתב, לפי דרישתה, הסבר, פירוט, ידיעות ומסמכים בקשר לפרטים הכלולים במיפרט ולכל דבר אחר שהרשות סבורה שיש לכללו במיפרט על פי תקנות אלה.</p>
+                </content>
+              </point>
+              <point eId="point_23__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>ראתה הרשות כי אין במיפרט כל הפרטים שלדעתה חשובים לניצע סביר או כי אין מתקיימות במיפרט הוראות תקנות אלה, רשאית היא להורות בתקופת הקיבול, על דחיית מועד הקיבול וכן רשאית היא להורות, אחרי שניתנה למציע הזדמנות מתאימה להביא את טענותיו לפניה, לפרסם בתוך יום עסקים אחד – אלא אם כן קצבה מועד אחר – תיקון למיפרט או מיפרט מתוקן בצורה ובדרך שהורתה; דין תיקון למיפרט ומיפרט מתוקן כדין מיפרט.</p>
+                </content>
+              </point>
+              <point eId="point_23__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>הרשות רשאית להורות על דחיית מועד הקיבול האחרון, אם ראתה לעשות כן לשם הגנת ענינם של ניצעים; הורתה הרשות כאמור, יחולו הוראות תקנת משנה (ב).</p>
+                </content>
+              </point>
+              <point eId="point_23__point_ד">
+                <num>(ד)</num>
+                <content>
+                  <p>הורתה הרשות על דחיית מועד הקיבול האחרון, יראו את התחייבות חבר הבורסה כחלה על המיפרט המתוקן, אלא אם כן הודיע אחרת בהודעה מיידית למציע; קיבל המציע הודעה כאמור, יודיע על כך, מיד, כאמור <ref href="#point_25">בתקנה 25(א)</ref>.</p>
+                </content>
+              </point>
+              <point eId="point_23__point_ה">
+                <num>(ה)</num>
+                <content>
+                  <p>בתקנה זו, ”הרשות“ – לרבות עובד שהיא הסמיכה לכך.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_24">
+            <heading>
+              <authorialNote placement="side">
+                <p>פעולות אסורות למציע בתקופת הקיבול</p>
+              </authorialNote>
+            </heading>
+            <num>24.</num>
+            <content>
+              <p>בתקופת הקיבול אסור למציע, לתאגיד שבשליטתו או לבעל השליטה בו, למכור, להתחייב למכור, לרכוש או להתחייב לרכוש את ניירות הערך נושא הצעת הרכש, בין בבורסה ובין מחוץ לה, שלא בהתאם להצעת הרכש, למעט מימוש למניות של ניירות ערך המירים שנרכשו קודם למועד פרסום המיפרט.</p>
+            </content>
+          </point>
+          <point eId="point_25">
+            <heading>
+              <authorialNote placement="side">
+                <p>משלוח ופרסום הודעות</p>
+              </authorialNote>
+            </heading>
+            <num>25.</num>
+            <list>
+              <point eId="point_25__point_א">
+                <num>(א)</num>
+                <list>
+                  <intro>
+                    <p>הודעה על פי תקנות אלה שחייב המציע למסור –</p>
+                  </intro>
+                  <point eId="point_25__point_א__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>ישלח המציע לרשות, לבורסה ולחברת המטרה;</p>
+                    </content>
+                  </point>
+                  <point eId="point_25__point_א__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>יפרסם המציע, בתוך יום עסקים אחד ממועד משלוח ההודעה כאמור בפסקה (1), מודעה בעיתונים כאמור <ref href="/akn/il/act/SecondaryLegislation/2008-06-15/100034177">בתקנות הפרסום</ref>.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_25__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>חברת המטרה תשלח הודעה שקיבלה כאמור בתקנת משנה (א)(1), בתוך שני ימי עסקים, לכל ניצע הרשום במרשם בעלי המניות.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_25א">
+            <heading>
+              <authorialNote placement="side">
+                <p>דיווח אלקטרוני</p>
+              </authorialNote>
+            </heading>
+            <num>25א.</num>
+            <content>
+              <p>מפרט, דוח, הודעה וכל מסמך אחר שיש להגישו לרשות או לבורסה לפי תקנות אלה, יוגש בהתאם <ref href="/akn/il/act/SecondaryLegislation/2003-04-07/100031000">לתקנות ניירות ערך (חתימה ודיווח אלקטרוני), התשס"ג–2003</ref>.</p>
+            </content>
+          </point>
+          <point eId="point_26">
+            <heading>
+              <authorialNote placement="side">
+                <p>חובת הצעת רכש לניירות ערך המירים</p>
+              </authorialNote>
+            </heading>
+            <num>26.</num>
+            <list>
+              <point eId="point_26__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>נתקבלה הצעת רכש מלאה (להלן – ההצעה המקורית), חייב המציע, בתוך שלושים ימים ממועד הקיבול האחרון בהצעת הרכש המקורית, להציע לרכוש בהצעת רכש את כל ניירות הערך ההמירים לאותן מניות, הרשומים למסחר בבורסה בישראל; הצעה כאמור, תיעשה במחיר שלא יפחת מהמחיר הממוצע של ניירות הערך ההמירים בשני החודשים שקדמו לתאריך מיפרט ההצעה המקורית בהתחשב בכל חלוקת דיבידנד או מניות הטבה, פיצול, איחוד או הצעה בדרך של זכויות, או מהמחיר סמוך לפני תאריך מיפרט ההצעה המקורית, לפי הגבוה.</p>
+                </content>
+              </point>
+              <point eId="point_26__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>פורסם בשלושת החודשים שקרמו לתאריך מיפרט ההצעה המקורית, דוח מיידי על כוונת המציע להציע הצעת רכש, לא יפחת מחיר ההצעה מהמחיר הממוצע של ניירות הערך ההמירים בשני החודשים שקדמו למועד ההודעה, בהתחשב בכל חלוקת דיבידנד או מניות הטבה, פיצול, איחוד או הצעה בדרך של זכויות לבעלי ניירות הערך של חברת המטרה, או מהמחיר סמוך לפני מועד הדוח, לפי הגבוה.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_27">
+            <heading>
+              <authorialNote placement="side">
+                <p>סמכות לענין הצעת רכש מקבילה</p>
+              </authorialNote>
+            </heading>
+            <num>27.</num>
+            <content>
+              <p>בהצעת רכש אשר חל עליה נוסף על הוראות תקנות אלה דין מדינת חוץ לענין הצעות רכש (להלן – הצעת רכש מקבילה), יהיה המציע פטור מקיום הוראה מהוראות תקנות אלה, אם מצא יושב ראש הרשות כי יהיה בקיום ההוראה כדי לפגוע בביצוע הצעת הרכש המקבילה, וכי באי קיומה לא יהיה כדי לפגוע בניצע סביר; לענין זה, ”דין מדינת חוץ“ – לרבות כללים והנחיות הנהוגים בבורסה מחוץ לישראל, שבה רשומים ניירות הערך למסחר.</p>
+            </content>
+          </point>
+          <point eId="point_28">
+            <heading>
+              <authorialNote placement="side">
+                <p>עונשין</p>
+              </authorialNote>
+            </heading>
+            <num>28.</num>
+            <content>
+              <p>העובר על הוראה מהוראות תקנות אלה, דינו – מאסר שישה חודשים או קנס כאמור <ref href="/akn/il/act/PrimaryLegislation/1977-08-04/2002251#point_61">בסעיף 61(א)(1) לחוק העונשין, התשל"ז–1977</ref>.</p>
+            </content>
+          </point>
+          <point eId="point_29">
+            <heading>
+              <authorialNote placement="side">
+                <p>ביטול</p>
+              </authorialNote>
+            </heading>
+            <num>29.</num>
+            <content>
+              <p>תקנות ניירות ערך (הצעת רכש), התשנ"ד–1994 – בטלות, זולת לגבי מיפרט שפורסם על פי התקנות האמורות קודם לביטולן.</p>
+            </content>
+          </point>
+        </list>
+      </chapter>
+    </body>
+    <conclusions eId="eId">
+      <p class="signatures">
+        <signature>
+          <p>
+            <person refersTo="אברהם_(בייגה)_שוחט">אברהם (בייגה) שוחט</person>
+            <role refersTo="שר_האוצר">שר האוצר</role>
+          </p>
+        </signature>
+      </p>
+    </conclusions>
+  </act>
+</akomaNtoso>

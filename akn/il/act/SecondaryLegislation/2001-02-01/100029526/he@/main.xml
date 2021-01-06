@@ -1,0 +1,713 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion" name="publicLaw">
+    <meta>
+      <identification source="#kensset">
+        <FRBRWork>
+          <FRBRthis value="/akn/il/act/SecondaryLegislation/2001-02-01/100029526/main" />
+          <FRBRuri value="/akn/il/act/SecondaryLegislation/2001-02-01/100029526" />
+          <FRBRdate date="2001-02-01" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRcountry value="israel" />
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/il/act/SecondaryLegislation/2001-02-01/100029526/he@/main" />
+          <FRBRuri value="/akn/il/act/SecondaryLegislation/2001-02-01/100029526/he@" />
+          <FRBRdate date="2001-02-01" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRlanguage language="hebrew" />
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/il/act/SecondaryLegislation/2001-02-01/100029526/he@/main.xml" />
+          <FRBRuri value="/akn/il/act/SecondaryLegislation/2001-02-01/100029526/he@" />
+          <FRBRdate date="2001-02-01" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRformat value="xml" />
+        </FRBRManifestation>
+      </identification>
+      <classification source="#kensset">
+        <keyword value="{classificationValue}" showAs="{classificationValue}" dictionary="#classification_dictionary" />
+      </classification>
+      <lifecycle source="#kensset">
+        <eventRef eId="eventRef_1" date="2001-02-01" source="#kensset" type="generation" />
+      </lifecycle>
+      <references source="#kensset">
+        <TLCOrganization eId="kensset" href="/ontology/organization/akn/knesset" showAs="Kensset" type="generation" />
+        <TLCRole eId="author" href="/ontology/role/akn/author" showAs="Author of Document" />
+        <TLCProcess eId="inforce" href="/ontology/process/akn/inforce" showAs="In force" />
+        <TLCTerm eId="term_1" href="/ontology/term/אופציה/100029526" showAs="אופציה" />
+        <TLCTerm eId="term_2" href="/ontology/term/אופציית_אירו_1/100029526" showAs="אופציית_אירו_1" />
+        <TLCTerm eId="term_3" href="/ontology/term/אופציית_דולר_1/100029526" showAs="אופציית_דולר_1" />
+        <TLCTerm eId="term_4" href="/ontology/term/אופציית_מכר/100029526" showAs="אופציית_מכר" />
+        <TLCTerm eId="term_5" href="/ontology/term/אופציית_רכישה/100029526" showAs="אופציית_רכישה" />
+        <TLCTerm eId="term_6" href="/ontology/term/אופציית_רכש/100029526" showAs="אופציית_רכש" />
+        <TLCTerm eId="term_7" href="/ontology/term/אופציית_תיק_מדד_ישראלי/100029526" showAs="אופציית_תיק_מדד_ישראלי" />
+        <TLCTerm eId="term_8" href="/ontology/term/בטוחות_נדרשות/100029526" showAs="בטוחות_נדרשות" />
+        <TLCTerm eId="term_9" href="/ontology/term/ועדת_השקעות/100029526" showAs="ועדת_השקעות" />
+        <TLCTerm eId="term_10" href="/ontology/term/חוזה_אקדמה/100029526" showAs="חוזה_אקדמה" />
+        <TLCTerm eId="term_11" href="/ontology/term/יום_מסחר/100029526" showAs="יום_מסחר" />
+        <TLCTerm eId="term_12" href="/ontology/term/כתב_אופציה/100029526" showAs="כתב_אופציה" />
+        <TLCTerm eId="term_13" href="/ontology/term/מדד_ת''א_25/100029526" showAs="מדד_ת''א_25" />
+        <TLCTerm eId="term_14" href="/ontology/term/מידת_חשיפה/100029526" showAs="מידת_חשיפה" />
+        <TLCTerm eId="term_15" href="/ontology/term/נכס_בסיס_של_כתב_אופציה/100029526" showAs="נכס_בסיס_של_כתב_אופציה" />
+        <TLCTerm eId="term_16" href="/ontology/term/נכס_מעקב/100029526" showAs="נכס_מעקב" />
+        <TLCTerm eId="term_17" href="/ontology/term/עסקת_מכר_חוזר/100029526" showAs="עסקת_מכר_חוזר" />
+        <TLCTerm eId="term_18" href="/ontology/term/פעילות_בנגזרים/100029526" showAs="פעילות_בנגזרים" />
+        <TLCTerm eId="term_19" href="/ontology/term/קרן_מחקה_בחסר/100029526" showAs="קרן_מחקה_בחסר" />
+        <TLCTerm eId="term_20" href="/ontology/term/קרן_ממונפת/100029526" showAs="קרן_ממונפת" />
+        <TLCTerm eId="term_21" href="/ontology/term/שווי_אופציה/100029526" showAs="שווי_אופציה" />
+        <TLCTerm eId="term_22" href="/ontology/term/שיעור_חשיפה/100029526" showAs="שיעור_חשיפה" />
+        <TLCTerm eId="term_23" href="/ontology/term/שיעור_חשיפה_כולל/100029526" showAs="שיעור_חשיפה_כולל" />
+        <TLCTerm eId="term_24" href="/ontology/term/תקנון_הבורסה/100029526" showAs="תקנון_הבורסה" />
+        <TLCTerm eId="term_25" href="/ontology/term/תקנות_הנכסים/100029526" showAs="תקנות_הנכסים" />
+        <TLCTerm eId="term_26" href="/ontology/term/תקנות_קרנות_מחקות/100029526" showAs="תקנות_קרנות_מחקות" />
+        <TLCTerm eId="term_27" href="/ontology/term/תקופת_המסחר_האחרונה/100029526" showAs="תקופת_המסחר_האחרונה" />
+        <TLCTerm eId="term_28" href="/ontology/term/משקל_תאגיד_בנכס_המעקב/100029526" showAs="משקל_תאגיד_בנכס_המעקב" />
+        <TLCTerm eId="term_29" href="/ontology/term/נקודת_אחוז/100029526" showAs="נקודת_אחוז" />
+        <TLCPerson eId="ברהם_(בייגה)_שוחט" href="/ontology/person/ברהם_(בייגה)_שוחט" showAs="ברהם (בייגה) שוחט" />
+        <TLCRole eId="שר_האוצר" href="ontology/role/akn/שר_האוצר" showAs="שר האוצר" />
+      </references>
+      <temporalData source="#kensset">
+        <temporalGroup eId="tmpg_1" />
+      </temporalData>
+      <Publication></Publication>
+      <proprietary wikiversion="9/16/2020 9:03:01 PM" />
+    </meta>
+    <body period="#tmpg_1">
+      <title eId="title">
+        <content>
+          <p>תקנות השקעות משותפות בנאמנות (אופציות, חוזים עתידיים ומכירות בחסר), התשס"א–2001</p>
+        </content>
+      </title>
+      <preamble eId="eId">
+        <p>בתוקף סמכותי לפי <ref href="/akn/il/act/PrimaryLegislation/1994-08-23/155776#point_59">סעיפים 59</ref>, <ref href="/akn/il/act/PrimaryLegislation/1994-08-23/155776#point_62">62</ref>, <ref href="/akn/il/act/PrimaryLegislation/1994-08-23/155776#point_63">63</ref>, <ref href="/akn/il/act/PrimaryLegislation/1994-08-23/155776#point_64">64</ref>, <ref href="/akn/il/act/PrimaryLegislation/1994-08-23/155776#point_79">79</ref><ref href="/akn/il/act/PrimaryLegislation/1994-08-23/155776#point_131">ו־131(א)</ref><ref href="/akn/il/act/PrimaryLegislation/1994-08-23/155776">לחוק השקעות משותפות בנאמנות, התשנ"ד–1994</ref> (להלן – החוק), לפי הצעת הרשות ובאישור ועדת הכספים של הכנסת, אני מתקין תקנות אלה:</p>
+      </preamble>
+      <list>
+        <point eId="point_1" class="definitions">
+          <heading>
+            <authorialNote placement="side">
+              <p>הגדרות</p>
+            </authorialNote>
+          </heading>
+          <num>1.</num>
+          <list>
+            <intro>
+              <p>בתקנות אלה –</p>
+            </intro>
+            <point eId="point_1__point_אופציה">
+              <content>
+                <p>
+                  <def />”אופציה“, ”חוזה עתידי“, ”מחיר מימוש“, ”נכס בסיס“ – כמשמעותם <ref href="/akn/il/act/PrimaryLegislation/1994-08-23/155776#point_64">בסעיף 64(ב) לחוק</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_אופציית_אירו_1">
+              <content>
+                <p>
+                  <def />”אופציית אירו 1“ – אופציית רכש שנכס הבסיס שלה הוא שער האירו בשקלים חדשים ומחיר המימוש שלה הוא שקל חדש אחד;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_אופציית_דולר_1">
+              <content>
+                <p>
+                  <def />”אופציית דולר 1“ – אופציית רכש שנכס הבסיס שלה הוא שער הדולר של ארצות הברית בשקלים חדשים ומחיר המימוש שלה הוא שקל חדש אחד;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_אופציית_מכר">
+              <content>
+                <p>
+                  <def />”אופציית מכר“ – התחייבות המקנה למחזיק בה זכות למכור את נכס הבסיס במחיר המימוש, או לקבל את ההפרש בין שווי נכס הבסיס לבין מחיר המימוש, בתנאים ובמועדים שנקבעו בתנאי האופציה;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_אופציית_רכישה">
+              <content>
+                <p>
+                  <def />”אופציית רכישה“ – נייר ערך המקנה למחזיק בו זכות לקנות מאת המציע ניירות ערך במחיר המימוש, במועד ובתנאים שנקבעו בעת הוצאתו;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_אופציית_רכש">
+              <content>
+                <p>
+                  <def />”אופציית רכש“ – התחייבות המקנה למחזיק בה זכות לקנות את נכס הבסיס במחיר המימוש, או לקבל את ההפרש בין שווי נכס הבסיס לבין מחיר המימוש, בתנאים ובמועדים שנקבעו בתנאי האופציה;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_אופציית_תיק_מדד_ישראלי">
+              <content>
+                <p>
+                  <def />”אופציית תיק מדד ישראלי“ – אופציית רכש שנכס הבסיס שלה הוא מדד ישראלי ומחיר המימוש שלה הוא שקל חדש אחד;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_בטוחות_נדרשות">
+              <content>
+                <p>
+                  <def />”בטוחות נדרשות“ – סכום במזומנים הנדרש על ידי מסלקת בורסה מחבר בורסה בשל פעילות בנגזרים הזהה לפעילות בנגזרים של מנהל הקרן באותה הבורסה או סכום כאמור שנועד להבטיח את עמידת מנהל הקרן בהתחייבותו לרכוש איגרת חוב במסגרת עסקת מכר חוזר;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_ועדת_השקעות">
+              <content>
+                <p>
+                  <def />”ועדת השקעות“ – כמשמעותה <ref href="/akn/il/act/PrimaryLegislation/1994-08-23/155776#point_20">בסעיף 20 לחוק</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_חוזה_אקדמה">
+              <content>
+                <p>
+                  <def />”חוזה אקדמה“, ”עסקת החלף מדדית שאינה במימון“ – כהגדרתם <ref href="/akn/il/act/SecondaryLegislation/1994-11-10/100025287">בתקנות הנכסים</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_יום_מסחר">
+              <list>
+                <intro>
+                  <p>
+                    <def />”יום מסחר“ –</p>
+                </intro>
+                <point eId="point_1__point_יום_מסחר__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>לגבי קרן שעל פי מדיניות ההשקעות שלה לא יעלה שווי ניירות ערך חוץ המוחזקים בה, ובכללם אופציות הנסחרות מחוץ לישראל (להלן – ניירות ערך חוץ), על עשרה אחוזים מהשווי הנקי של נכסיה – יום שבו מתקיים מסחר בבורסה בישראל;</p>
+                  </content>
+                </point>
+                <point eId="point_1__point_יום_מסחר__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>לגבי קרן אחרת – כל אחד מהימים שני עד חמישי שמתקיים בו מסחר בבורסה בישראל ובבורסות ובשווקים מוסדרים מחוץ לישראל שניירות ערך חוץ המוחזקים בקרן נרכשו בהם, לרבות יום מהימים האמורים שבו לא התקיים מסחר בבורסה מחוץ לישראל או בשוק מוסדר מחוץ לישראל, אם שווי ניירות ערך חוץ שנרכשו בהם והמוחזקים בקרן, אינו עולה על עשרה אחוזים מהשווי הנקי של נכסי הקרן;</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_1__point_כתב_אופציה">
+              <content>
+                <p>
+                  <def />”כתב אופציה“ – נייר ערך המקנה למחזיק בו זכות לרכוש ניירות ערך שהוצאו בידי המציע, תמורת סכום שיש לשלם בעת הרכישה, במועד ובתנאים שנקבעו בתשקיף;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_מדד_תא_25">
+              <content>
+                <p>
+                  <def />”מדד ת"א 25“, ”מדד ת"א 100“ – <wikicomment font-size="x-small">(נמחקו);</wikicomment></p>
+              </content>
+            </point>
+            <point eId="point_1__point_מידת_חשיפה">
+              <list>
+                <intro>
+                  <p>
+                    <def />”מידת חשיפה“ – כל אחד מאלה:</p>
+                </intro>
+                <point eId="point_1__point_מידת_חשיפה__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>לאיגרת חוב – שווי איגרת חוב שאינן יוצרות חשיפה למניות, המוחזקות בקרן, בצירוף שווי הנכסים וההתחייבויות שהפעילות בנגזרים של איגרת חוב ושל שערי ריבית שקולה להם, הנקבע בדרך המקובלת למדידתו;</p>
+                  </content>
+                </point>
+                <point eId="point_1__point_מידת_חשיפה__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>למניות או למטבע חוץ – שווי מניות או מטבע חוץ, לפי העניין, המוחזקים בקרן, בצירוף שווי הנכסים וההתחייבויות שהפעילות בנגזריהם שקולה להם, הנקבע בדרך המקובלת למדידתו;</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_1__point_נכס_בסיס_של_כתב_אופציה">
+              <content>
+                <p>
+                  <def />”נכס בסיס של כתב אופציה“, ”נכס בסיס של אופציית רכישה“ – ניירות ערך שהזכות לרכשם מוקנית בכתב האופציה או באופציית הרכישה, לפי הענין, בכמות הקבועה בתנאי הוצאתם;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_נכס_מעקב">
+              <content>
+                <p>
+                  <def />”נכס מעקב“ – כהגדרתו <ref href="/akn/il/act/SecondaryLegislation/2018-07-12/100041920">בתקנות קרנות מחקות</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_עסקת_מכר_חוזר">
+              <content>
+                <p>
+                  <def />”עסקת מכר חוזר“ – עסקת מכר חוזר בניירות ערך כהגדרתה <ref href="/akn/il/act/PrimaryLegislation/2006-03-12/126993">בחוק הסכמים בנכסים פיננסיים, התשס"ו–2006</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_פעילות_בנגזרים">
+              <content>
+                <p>
+                  <def />”פעילות בנגזרים“ – קניה ויצירה של אופציות, של חוזים עתידיים, של חוזי אקדמה ושל עסקאות החלף שאינן במימון, לרבות התחייבות למכור או לרכוש נכס במסגרת עסקת מכר חוזר, ומכירת ניירות ערך בחסר;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_קרן_מחקה_בחסר">
+              <content>
+                <p>
+                  <def />”קרן מחקה בחסר“ – כהגדרתה <ref href="/akn/il/act/SecondaryLegislation/2018-07-12/100041920">בתקנות קרנות מחקות</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_קרן_ממונפת">
+              <content>
+                <p>
+                  <def />”קרן ממונפת“ – קרן שבהסכם הקרן נקבע כי היא קרן ממונפת;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_שווי_אופציה">
+              <content>
+                <p>
+                  <def />”שווי אופציה“, ”שווי נייר ערך“ – כמשמעותם <ref href="/akn/il/act/SecondaryLegislation/1994-11-10/100025290">בתקנות השקעות משותפות בנאמנות (מחירי קניה ומכירה של נכסי קרן ושווי נכסי קרן), התשנ"ה–1994</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_שיעור_חשיפה">
+              <list>
+                <intro>
+                  <p>
+                    <def />”שיעור חשיפה“ – כל אחד מאלה:</p>
+                </intro>
+                <point eId="point_1__point_שיעור_חשיפה__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>לאיגרות חוב – מידת החשיפה לאיגרות חוב מהשווי הנקי של נכסי הקרן;</p>
+                  </content>
+                </point>
+                <point eId="point_1__point_שיעור_חשיפה__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>למניות או למטבע חוץ – מידת החשיפה למניות או למטבע חוץ, לפי העניין, מהשווי הנקי של נכסי הקרן;</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_1__point_שיעור_חשיפה_כולל">
+              <content>
+                <p>
+                  <def />”שיעור חשיפה כולל“ – סך כל אלה: שיעור החשיפה למניות בערכו המוחלט, שיעור החשיפה למטבע חוץ בערכו המוחלט ושיעור החשיפה לאיגרות חוב בערכו המוחלט;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_תקנון_הבורסה">
+              <content>
+                <p>
+                  <def />”תקנון הבורסה“ – תקנון כאמור <ref href="/akn/il/act/PrimaryLegislation/1968-08-22/150242#point_46">בסעיף 46 לחוק ניירות ערך, התשכ"ח–1968</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_תקנות_הנכסים">
+              <content>
+                <p>
+                  <def />”תקנות הנכסים“ – <ref href="/akn/il/act/SecondaryLegislation/1994-11-10/100025287">תקנות השקעות משותפות בנאמנות (נכסים שמותר לקנות ולהחזיק בקרן ושיעוריהם המרביים), התשנ"ה–1994</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_תקנות_קרנות_מחקות">
+              <content>
+                <p>
+                  <def />”תקנות קרנות מחקות“ – <ref href="/akn/il/act/SecondaryLegislation/2018-07-12/100041920">תקנות השקעות משותפות בנאמנות (קרנות מחקות), התשע"ח–2018</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_תקופת_המסחר_האחרונה">
+              <content>
+                <p>
+                  <def />”תקופת המסחר האחרונה“ – שלושת החודשים האחרונים שקדמו למועד הרכישה, היצירה, ההשאלה או המכירה בחסר, לפי הענין, של נייר הערך או נייר ערך חוץ, האופציה או החוזה העתידי, או תקופה שהחלה, לגבי כל אחד מהם, ביום שהחל להיסחר, לפי התקופה הקצרה מביניהם.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_2">
+          <heading>
+            <authorialNote placement="side">
+              <p>אופציה וחוזה עתידי שמותר לקנות וליצור</p>
+            </authorialNote>
+          </heading>
+          <num>2.</num>
+          <list>
+            <intro>
+              <p>מנהל קרן רשאי לקנות וליצור בעד קרן שבניהולו אופציה וחוזה עתידי, ובלבד שמתקיימים שני אלה:</p>
+            </intro>
+            <point eId="point_2__point_1">
+              <num>(1)</num>
+              <content>
+                <p>האופציה והחוזה העתידי נסחרים בבורסה בישראל או בבורסה מחוץ לישראל;</p>
+              </content>
+            </point>
+            <point eId="point_2__point_2">
+              <num>(2)</num>
+              <list>
+                <intro>
+                  <p>אם האופציה או החוזה העתידי נסחרים מחוץ לישראל – ועדת ההשקעות שוכנעה כי מתקיימת בהם סחירות מספקת, לאחר שנתנה את דעתה לעניין היכולת לממשם ובין השאר לאלה:</p>
+                </intro>
+                <point eId="point_2__point_2__point_א">
+                  <num>(א)</num>
+                  <content>
+                    <p>העלויות הכרוכות במימוש;</p>
+                  </content>
+                </point>
+                <point eId="point_2__point_2__point_ב">
+                  <num>(ב)</num>
+                  <content>
+                    <p>מחזור מסחר יומי ממוצע בכל אחד מהם;</p>
+                  </content>
+                </point>
+                <point eId="point_2__point_2__point_ג">
+                  <num>(ג)</num>
+                  <content>
+                    <p>מספר החוזים העתידיים בעלי אותו נכס בסיס הנסחרים באותה עת באותה בורסה מחוץ לישראל הניתנים לקנייה;</p>
+                  </content>
+                </point>
+                <point eId="point_2__point_2__point_ד">
+                  <num>(ד)</num>
+                  <content>
+                    <p>היחס בין מחיר מימוש האופציה לבין מחיר נכס הבסיס;</p>
+                  </content>
+                </point>
+                <point eId="point_2__point_2__point_ה">
+                  <num>(ה)</num>
+                  <content>
+                    <p>קיומם של מספר עושי שוק פעילים בחוזה העתידי או באופציה; לעניין זה, ”עושה שוק“ – אדם שהתחייב לפרסם במהלך כל יום שבו מתקיים מסחר בבורסה או בשוק המוסדר שבהם נסחרים החוזה העתידי או האופציה, על פי כללים שנקבעו בידי מי שרשאי לקבעם לפי דין במדינה שבה הוא נסחר, מחיר שבו הוא מתחייב לקנות את החוזה העתידי או האופציה ומחיר שבו הוא מתחייב למכרם.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+          </list>
+        </point>
+        <point eId="point_2א">
+          <heading>
+            <authorialNote placement="side">
+              <p>עסקת מכר חוזר</p>
+            </authorialNote>
+          </heading>
+          <num>2א.</num>
+          <list>
+            <intro>
+              <p>מנהל קרן רשאי ליצור בעד קרן שבניהולו התחייבות לרכוש או למכור בעתיד איגרת חוב הנסחרת בבורסה שאינה איגרת חוב הניתנת להמרה, במסגרת עסקת מכר חוזר, בכמות, במועד ובתנאים הנקובים בהתחייבות ובלבד שמתקיימים תנאים אלה:</p>
+            </intro>
+            <point eId="point_2א__point_1">
+              <num>(1)</num>
+              <content>
+                <p>המועד שנקבע לביצוע ההתחייבות לא מאוחר משלושים ימים מהיום שבו בוצעה עסקת המכר החוזר;</p>
+              </content>
+            </point>
+            <point eId="point_2א__point_2">
+              <num>(2)</num>
+              <content>
+                <p>איגרות החוב יסלקו באמצעות מסלקת הבורסה;</p>
+              </content>
+            </point>
+            <point eId="point_2א__point_3">
+              <num>(3)</num>
+              <content>
+                <p>שווי איגרות החוב שמנהל הקרן התחייב למכור לא יעלה, בעת עשיית עסקת המכר החוזר, על עשרה אחוזים משווי נכסי הקרן.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_3">
+          <heading>
+            <authorialNote placement="side">
+              <p>שווי מרבי לאופציות על נייר ערך שהוציא תאגיד</p>
+            </authorialNote>
+          </heading>
+          <num>3.</num>
+          <list>
+            <intro>
+              <p>סך כל שוויים של הנכסים המפורטים בפסקה (1) או (2) להלן, שנכס הבסיס שלהם הוא נייר ערך שהוציא תאגיד מסוים, לא יעלה על שלושה אחוזים מהשווי הנקי של נכסי הקרן:</p>
+            </intro>
+            <point eId="point_3__point_1">
+              <num>(1)</num>
+              <content>
+                <p>אופציות רכש, כתבי אופציה ואופציות רכישה המוחזקים בקרן ואופציות מכר שמנהל הקרן יצר בעד הקרן;</p>
+              </content>
+            </point>
+            <point eId="point_3__point_2">
+              <num>(2)</num>
+              <content>
+                <p>אופציות מכר המוחזקות בקרן ואופציות רכש שמנהל הקרן יצר בעד הקרן.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_4">
+          <heading>
+            <authorialNote placement="side">
+              <p>שווי מרבי לאופציות</p>
+            </authorialNote>
+          </heading>
+          <num>4.</num>
+          <content>
+            <p>שווי אופציות המוחזקות בקרן לא יעלה על עשרה אחוזים מהשווי הנקי של נכסי הקרן, ובקרן ממונפת – על שלושים אחוזים מהשווי האמור; שווי אופציות, יחד עם שווי כתבי אופציה ושווי אופציות רכישה, המוחזקים בקרן, לא יעלה על עשרים אחוזים מהשווי הנקי של נכסי הקרן, ובקרן ממונפת – על ארבעים אחוזים מהשווי האמור; לענין הוראות תקנה זו, לא יבואו בחשבון אופציית תיק מדד ישראלי, אופציות אירו 1 ואופציות דולר 1 וכן אופציות המוחזקות בקרן מחקה שהן חלק מחוזה סינטטי; לעניין זה, ”חוזה סינטטי“ – רכישה או כתיבה של אופציית רכב על נכס בסיס ובמקביל כתיבה או רכישה של אופציית מכר על הנכס האמור, בהתאמה, במחיר מימוש ובמועד פירעון זהים.</p>
+          </content>
+        </point>
+        <point eId="point_5">
+          <heading>
+            <authorialNote placement="side">
+              <p>מכירת ניירות ערך בחסר</p>
+            </authorialNote>
+          </heading>
+          <num>5.</num>
+          <list>
+            <point eId="point_5__point_א">
+              <num>(א)</num>
+              <content>
+                <p>מנהל קרן רשאי למכור בחסר, בעד קרן שבניהולו, נייר ערך או נייר ערך חוץ הנסחר בבורסה או בשוק מוסדר, ובלבד שאם אינו נייר ערך בעל סחירות מתאימה ואינו מילווה קצר מועד או איגרת חוב שהוציאה המדינה, נעשתה בו עסקה בבורסה או בשוק המוסדר בתשעים אחוזים לפחות מהימים בתקופת המסחר האחרונה שבהם התקיים בבורסה או בשוק המוסדר מסחר בניירות ערך. הרשות רשאית לקבוע רשימת ניירות ערך או מדדים אשר ניירות הערך הנכללים בהם ייחשבו לעניין תקנות אלה כניירות ערך בעלי סחירות מתאימה.</p>
+              </content>
+            </point>
+            <point eId="point_5__point_ב">
+              <num>(ב)</num>
+              <list>
+                <intro>
+                  <p>שווי נייר ערך או נייר ערך חוץ שהוציא תאגיד מסוים שמנהל קרן מכר בחסר בעד הקרן, לא יעלה, בכל עת, על אחוז אחד מהשווי הרשום למסחר של נייר הערך; שווי כל ניירות הערך וניירות ערך חוץ שהוציא תאגיד מסוים שמנהל קרן מכר בחסר בעד הקרן, לא יעלה, בכל עת, על חמישה אחוזים מהשווי הנקי של נכסי הקרן, ובקרן מחקה בחסר – לא יעלה על משקל התאגיד בנכס המעקב של הקרן, בתוספת שתי נקודות אחוז, ולא יעלה על 25 אחוזים; לעניין זה –</p>
+                </intro>
+                <point eId="point_5__point_ב__point_משקל_תאגיד_בנכס_המעקב">
+                  <content>
+                    <p>
+                      <def />”משקל תאגיד בנכס המעקב“ – המשקל המיוחס לתאגיד לעניין חישוב השינויים בנכס המעקב;</p>
+                  </content>
+                </point>
+                <point eId="point_5__point_ב__point_נקודת_אחוז">
+                  <content>
+                    <p>
+                      <def />”נקודת אחוז“ – אחוז מהשווי הנקי של נכסי הקרן.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+          </list>
+        </point>
+        <point eId="point_5א">
+          <heading>
+            <authorialNote placement="side">
+              <p>שיעור חשיפה מרבי</p>
+            </authorialNote>
+          </heading>
+          <num>5א.</num>
+          <list>
+            <point eId="point_5א__point_א">
+              <num>(א)</num>
+              <content>
+                <p>שיעור החשיפה של קרן שאינה קרן ממונפת למניות, למטבע חוץ או לאיגרת חוב לא יעלה, בערכו המוחלט, בכל עת על 200%.</p>
+              </content>
+            </point>
+            <point eId="point_5א__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>שיעור החשיפה הכולל של קרן שאינה קרן ממונפת, לא יעלה בכל עת על 400%.</p>
+              </content>
+            </point>
+            <point eId="point_5א__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>שיעור החשיפה של קרן לניירות ערך שהוציא תאגיד מסוים לא יעלה בערכו המוחלט, בכל עת, על שיעור שווי אותם ניירות הערך שמותר להחזיק בקרן לפי <ref href="/akn/il/act/SecondaryLegislation/1994-11-10/100025287#point_5">תקנה 5 לתקנות השקעות משותפות בנאמנות (נכסים שמותר לקנות ולהחזיק בקרן ושיעוריהם המרביים), התשנ"ה–1994</ref>, משווי נכסי הקרן.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_6">
+          <heading>
+            <authorialNote placement="side">
+              <p>שעבוד נכס מנכסי הקרן</p>
+            </authorialNote>
+          </heading>
+          <num>6.</num>
+          <content>
+            <p>מנהל קרן רשאי לשעבד נכס מנכסי הקרן לצורך פעילות בנגזרים.</p>
+          </content>
+        </point>
+        <point eId="point_7">
+          <heading>
+            <authorialNote placement="side">
+              <p>הגבלה על שיעור הבטוחות</p>
+            </authorialNote>
+          </heading>
+          <num>7.</num>
+          <list>
+            <point eId="point_7__point_א">
+              <num>(א)</num>
+              <content>
+                <p>פעילות בנגזרים תיעשה בידי מנהל הקרן באופן ששווי סך כל הבטוחות הנדרשות בשל אותה פעילות לא יעלה, בכל עת, על עשרים אחוזים מהשווי הנקי של נכסי הקרן, ובקרן ממונפת – על ארבעים אחוזים מהשווי האמור (להלן – השיעור המותר).</p>
+              </content>
+            </point>
+            <point eId="point_7__point_ב">
+              <num>(ב)</num>
+              <list>
+                <intro>
+                  <p>עלה שווי הבטוחות על השיעור המותר, לא יראו בכך הפרת הוראות תקנת משנה (א), ובלבד שנתקיימו שני אלה:</p>
+                </intro>
+                <point eId="point_7__point_ב__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>שווי הבטוחות הנדרשות פחת עד כדי השיעור המותר עד תום יום חישוב המחירים השני שלאחר היום שבו עלה השווי על השיעור המותר;</p>
+                  </content>
+                </point>
+                <point eId="point_7__point_ב__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>שווי הבטוחות הנדרשות לא עלה על השיעור המותר יותר מחמש פעמים בתקופה של שנים עשר חודשים.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_7__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>תקנות משנה (א) ו־(ב) לא יחולו על מכירה בחסר בעד קרן מחקה בחסר אם לא ניתן להשיג את ייעודה של הקרן באמצעות פעילות בנגזרים מסוג אחר.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_8">
+          <heading>
+            <authorialNote placement="side">
+              <p>השאלת נייר ערך ונייר ערך חוץ</p>
+            </authorialNote>
+          </heading>
+          <num>8.</num>
+          <list>
+            <intro>
+              <p>מנהל קרן רשאי להשאיל נייר ערך או נייר ערך חוץ מנכסי קרן שבניהולו, ובלבד שמתקיימים תנאים אלה:</p>
+            </intro>
+            <point eId="point_8__point_1">
+              <num>(1)</num>
+              <content>
+                <p>אם נייר הערך או נייר הערך חוץ הנסחר בבורסה או בשוק מוסדר, אינו נייר ערך בעל סחירות מתאימה ואינו מלווה קצר מועד או איגרת חוב שהוציאה המדינה – נעשתה בו בתקופת המסחר האחרונה עסקה בבורסה שבה הוא נסחר או בשוק מוסדר שבו הוא נסחר בתשעים אחוזים לפחות מהימים שבהם התקיים בהם מסחר בניירות ערך;</p>
+              </content>
+            </point>
+            <point eId="point_8__point_2">
+              <num>(2)</num>
+              <content>
+                <p>אם נייר הערך נסחר בישראל – הוא הושאל לחבר הבורסה לניירות ערך בתל אביב, ואם הוא נייר ערך חוץ – הוא הושאל באמצעות אדם שאצלו מוחזקים ניירות ערך החוץ שבנכסי הקרן;</p>
+              </content>
+            </point>
+            <point eId="point_8__point_3">
+              <num>(3)</num>
+              <list>
+                <intro>
+                  <p>בידי מנהל הקרן התחייבות חבר הבורסה שלו הושאל נייר הערך, או התחייבות האדם שבאמצעותו הושאל נייר ערך החוץ, לפעול כדלהלן:</p>
+                </intro>
+                <point eId="point_8__point_3__point_א">
+                  <num>(א)</num>
+                  <content>
+                    <p>להחזיר לקרן את נייר הערך או נייר ערך החוץ שהושאל, בכמות שהושאלה, בתום תקופת ההשאלה או, אם הוסכם כך בין הצדדים – להחזירו לקרן על פי דרישתו של מנהל הקרן לפני תום תקופת ההשאלה;</p>
+                  </content>
+                </point>
+                <point eId="point_8__point_3__point_ב">
+                  <num>(ב)</num>
+                  <content>
+                    <p>לתת לקרן כל זכות או הטבה שהקרן היתה זכאית להן לולא הושאל נייר הערך או נייר ערך החוץ למעט זכות הצבעה באסיפה הכללית, במועד שבו היתה זכאית להן;</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_8__point_4">
+              <num>(4)</num>
+              <content>
+                <p>מנהל קרן יעביר לקרן כל תמורה ששולמה בשל השאלת נייר ערך או נייר ערך חוץ.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_9">
+          <heading>
+            <authorialNote placement="side">
+              <p>תקופת השאלה מרבית</p>
+            </authorialNote>
+          </heading>
+          <num>9.</num>
+          <content>
+            <p>תקופת ההשאלה של ניירות ערך וניירות ערך חוץ שהושאלו, שאין בידי מנהל הקרן לגביהם התחייבות להחזירם לקרן לפני תום תקופת ההשאלה, מיד לאחר שהתקבלה דרישת מנהל הקרן להחזירם, לא תעלה על שלושים ימי עסקים; לעניין זה, ”מיד“ – לא יאוחר מהיום הראשון שלאחר יום הסליקה של הוראת הקנייה של נייר הערך או נייר ערך החוץ שהושאל, אילו בוצעה יום מסחר אחד לאחר דרישת מנהל הקרן להחזירם.</p>
+          </content>
+        </point>
+        <point eId="point_10">
+          <heading>
+            <authorialNote placement="side">
+              <p>הנחיות ועדת ההשקעות</p>
+            </authorialNote>
+          </heading>
+          <num>10.</num>
+          <list>
+            <point eId="point_10__point_א">
+              <num>(א)</num>
+              <list>
+                <intro>
+                  <p>מנהל קרן לא יקנה ולא ייצור אופציות או חוזים עתידיים ולא ימכור ניירות ערך בחסר בעד קרן שבניהולו ולא ישאיל ניירות ערך מנכסי קרן שבניהולו, אלא על פי הנחיות ועדת ההשקעות שיינתנו בכתב למנהל הכללי של מנהל הקרן בענינים אלה:</p>
+                </intro>
+                <point eId="point_10__point_א__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>השיעור המרבי של אופציות שיוחזקו בקרן;</p>
+                  </content>
+                </point>
+                <point eId="point_10__point_א__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>נכסי הבסיס של אופציות וחוזים עתידיים שמנהל הקרן יקנה או ייצור בעד הקרן;</p>
+                  </content>
+                </point>
+                <point eId="point_10__point_א__point_3">
+                  <num>(3)</num>
+                  <content>
+                    <p>השיעור המרבי של בטוחות שיהיה מנהל הקרן רשאי להעמיד בשל אופציות שייצור, חוזים עתידיים שיקנה או ייצור וניירות ערך שימכור בחסר בעד הקרן;</p>
+                  </content>
+                </point>
+                <point eId="point_10__point_א__point_4">
+                  <num>(4)</num>
+                  <content>
+                    <p>סוגי ניירות הערר שמנהל הקרן רשאי להשאיל מנכסי הקרן, שיעוריהם המרביים והתמורה בשל ההשאלה;</p>
+                  </content>
+                </point>
+                <point eId="point_10__point_א__point_5">
+                  <num>(5)</num>
+                  <content>
+                    <p>סוגי ניירות הערך שמנהל הקרן רשאי למכור בחסר, ושיעוריהם המרביים.</p>
+                  </content>
+                </point>
+                <point eId="point_10__point_א__point_6">
+                  <num>(6)</num>
+                  <content>
+                    <p>שיעור החשיפה המרבי של הקרן לכל אחד מאלה: מניות, מטבע חוץ ואיגרת חוב, שיעור החשיפה המרבי לנכס בסיס באמצעות חוזה עתידי או אופציה מסוימים וכן שיעור החשיפה הכולל של הקרן.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_10__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>לענין תקנה זו, ”שיעור מרבי“ – שווי אופציות, שווי בטוחות או שווי ניירות הערך, לפי הענין, מהשווי הנקי של נכסי הקרן.</p>
+              </content>
+            </point>
+            <point eId="point_10__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>ועדת ההשקעות תעקוב, בכל אחת מישיבותיה, אחר אופן ביצוע הנחיותיה על ידי המנהל הכללי של מנהל הקרן, ותדון בהשפעות האפשריות של אופציות וחוזים עתידיים שמנהל הקרן יקנה וייצור ושל ניירות ערך שימכור בחסר, על התשואה של הקרן ועל התנודות במחירי היחידה והפדיון.</p>
+              </content>
+            </point>
+            <point eId="point_10__point_ד">
+              <num>(ד)</num>
+              <content>
+                <p>ועדת ההשקעות תקבע, בכתב, אילו נתונים על מנהל הקרן להמציא לה בקשר לאופציות שהוחזקו בקרן, חוזים עתידיים שמנהל הקרן קנה או יצר בעד הקרן, ניירות ערך שנמכרו בחסר וניירות ערך מנכסי הקרן שהושאלו, והמנהל הכללי ימציא לה אותם לכל אחת מישיבותיה.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_11">
+          <heading>
+            <authorialNote placement="side">
+              <p>ביטול</p>
+            </authorialNote>
+          </heading>
+          <num>11.</num>
+          <content>
+            <p>תקנות השקעות משותפות בנאמנות (אופציות, כתבי אופציה, חוזים עתידיים, ומכירות בחסר), התשנ"ה–1995 – בטלות.</p>
+          </content>
+        </point>
+        <point eId="point_12">
+          <heading>
+            <authorialNote placement="side">
+              <p>תחילה</p>
+            </authorialNote>
+          </heading>
+          <num>12.</num>
+          <content>
+            <p>תחילתן של תקנות אלה שלושים ימים מיום פרסומן.</p>
+          </content>
+        </point>
+      </list>
+    </body>
+    <conclusions eId="eId">
+      <p class="signatures">
+        <signature>
+          <p>
+            <person refersTo="ברהם_(בייגה)_שוחט">ברהם (בייגה) שוחט</person>
+            <role refersTo="שר_האוצר">שר האוצר</role>
+          </p>
+        </signature>
+      </p>
+    </conclusions>
+  </act>
+</akomaNtoso>

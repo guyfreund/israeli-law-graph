@@ -1,0 +1,3863 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion" name="publicLaw">
+    <meta>
+      <identification source="#kensset">
+        <FRBRWork>
+          <FRBRthis value="/akn/il/act/PrimaryLegislation/1996-03-21/159654/main" />
+          <FRBRuri value="/akn/il/act/PrimaryLegislation/1996-03-21/159654" />
+          <FRBRdate date="1996-03-21" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRcountry value="israel" />
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/il/act/PrimaryLegislation/1996-03-21/159654/he@/main" />
+          <FRBRuri value="/akn/il/act/PrimaryLegislation/1996-03-21/159654/he@" />
+          <FRBRdate date="1996-03-21" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRlanguage language="hebrew" />
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/il/act/PrimaryLegislation/1996-03-21/159654/he@/main.xml" />
+          <FRBRuri value="/akn/il/act/PrimaryLegislation/1996-03-21/159654/he@" />
+          <FRBRdate date="1996-03-21" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRformat value="xml" />
+        </FRBRManifestation>
+      </identification>
+      <classification source="#kensset">
+        <keyword value="{classificationValue}" showAs="{classificationValue}" dictionary="#classification_dictionary" />
+      </classification>
+      <lifecycle source="#kensset">
+        <eventRef eId="eventRef_1" date="1996-03-21" source="#kensset" type="generation" />
+      </lifecycle>
+      <references source="#kensset">
+        <TLCOrganization eId="kensset" href="/ontology/organization/akn/knesset" showAs="Kensset" type="generation" />
+        <TLCRole eId="author" href="/ontology/role/akn/author" showAs="Author of Document" />
+        <TLCProcess eId="inforce" href="/ontology/process/akn/inforce" showAs="In force" />
+        <TLCTerm eId="term_1" href="/ontology/term/אזרח_ישראלי/159654" showAs="אזרח_ישראלי" />
+        <TLCTerm eId="term_2" href="/ontology/term/אמצעי_שליטה/159654" showAs="אמצעי_שליטה" />
+        <TLCTerm eId="term_3" href="/ontology/term/בעל_ענין/159654" showAs="בעל_ענין" />
+        <TLCTerm eId="term_4" href="/ontology/term/בעל_מקרקעין/159654" showAs="בעל_מקרקעין" />
+        <TLCTerm eId="term_5" href="/ontology/term/בעל_רשיון/159654" showAs="בעל_רשיון" />
+        <TLCTerm eId="term_6" href="/ontology/term/דרך_ציבורית/159654" showAs="דרך_ציבורית" />
+        <TLCTerm eId="term_7" href="/ontology/term/המנהל/159654" showAs="המנהל" />
+        <TLCTerm eId="term_8" href="/ontology/term/המשרד/159654" showAs="המשרד" />
+        <TLCTerm eId="term_9" href="/ontology/term/הרשות/159654" showAs="הרשות" />
+        <TLCTerm eId="term_10" href="/ontology/term/חברה/159654" showAs="חברה" />
+        <TLCTerm eId="term_11" href="/ontology/term/חברה_ממשלתית/159654" showAs="חברה_ממשלתית" />
+        <TLCTerm eId="term_12" href="/ontology/term/חוק_התכנון/159654" showAs="חוק_התכנון" />
+        <TLCTerm eId="term_13" href="/ontology/term/חטיבת_קרקע/159654" showAs="חטיבת_קרקע" />
+        <TLCTerm eId="term_14" href="/ontology/term/יושב_ראש_הרשות/159654" showAs="יושב_ראש_הרשות" />
+        <TLCTerm eId="term_15" href="/ontology/term/יחידת_ייצור/159654" showAs="יחידת_ייצור" />
+        <TLCTerm eId="term_16" href="/ontology/term/יצרן_חשמל/159654" showAs="יצרן_חשמל" />
+        <TLCTerm eId="term_17" href="/ontology/term/יצרן_חשמל_פרטי/159654" showAs="יצרן_חשמל_פרטי" />
+        <TLCTerm eId="term_18" href="/ontology/term/מדיניות_השר/159654" showAs="מדיניות_השר" />
+        <TLCTerm eId="term_19" href="/ontology/term/מוסד_תכנון/159654" showAs="מוסד_תכנון" />
+        <TLCTerm eId="term_20" href="/ontology/term/מחזיק_אמצעי_שליטה/159654" showAs="מחזיק_אמצעי_שליטה" />
+        <TLCTerm eId="term_21" href="/ontology/term/מיתקן_חשמל/159654" showAs="מיתקן_חשמל" />
+        <TLCTerm eId="term_22" href="/ontology/term/מערכת_חשמל/159654" showAs="מערכת_חשמל" />
+        <TLCTerm eId="term_23" href="/ontology/term/מקרקעין_ציבוריים/159654" showAs="מקרקעין_ציבוריים" />
+        <TLCTerm eId="term_24" href="/ontology/term/מקרקעין_פרטיים/159654" showAs="מקרקעין_פרטיים" />
+        <TLCTerm eId="term_25" href="/ontology/term/נושא_משרה/159654" showAs="נושא_משרה" />
+        <TLCTerm eId="term_26" href="/ontology/term/פעילות/159654" showAs="פעילות" />
+        <TLCTerm eId="term_27" href="/ontology/term/פקודת_זכיונות_החשמל/159654" showAs="פקודת_זכיונות_החשמל" />
+        <TLCTerm eId="term_28" href="/ontology/term/צרכן/159654" showAs="צרכן" />
+        <TLCTerm eId="term_29" href="/ontology/term/רישיון_אגירה/159654" showAs="רישיון_אגירה" />
+        <TLCTerm eId="term_30" href="/ontology/term/רשיון_אחר/159654" showAs="רשיון_אחר" />
+        <TLCTerm eId="term_31" href="/ontology/term/רשיון_הולכה/159654" showAs="רשיון_הולכה" />
+        <TLCTerm eId="term_32" href="/ontology/term/רישיון_הספקה/159654" showAs="רישיון_הספקה" />
+        <TLCTerm eId="term_33" href="/ontology/term/רשיון_חלוקה/159654" showAs="רשיון_חלוקה" />
+        <TLCTerm eId="term_34" href="/ontology/term/רשיון_ייצור/159654" showAs="רשיון_ייצור" />
+        <TLCTerm eId="term_35" href="/ontology/term/רשיון_ייצור_עצמי/159654" showAs="רשיון_ייצור_עצמי" />
+        <TLCTerm eId="term_36" href="/ontology/term/רישיון_לניהול_המערכת/159654" showAs="רישיון_לניהול_המערכת" />
+        <TLCTerm eId="term_37" href="/ontology/term/רשיון_ספק_שירות_חיוני/159654" showAs="רשיון_ספק_שירות_חיוני" />
+        <TLCTerm eId="term_38" href="/ontology/term/רשת_חשמל/159654" showAs="רשת_חשמל" />
+        <TLCTerm eId="term_39" href="/ontology/term/שותפות/159654" showAs="שותפות" />
+        <TLCTerm eId="term_40" href="/ontology/term/שירותי_גיבוי/159654" showAs="שירותי_גיבוי" />
+        <TLCTerm eId="term_41" href="/ontology/term/שירותי_תשתית/159654" showAs="שירותי_תשתית" />
+        <TLCTerm eId="term_42" href="/ontology/term/תחנת_כוח/159654" showAs="תחנת_כוח" />
+        <TLCTerm eId="term_43" href="/ontology/term/תחנת_משנה/159654" showAs="תחנת_משנה" />
+        <TLCTerm eId="term_44" href="/ontology/term/תיקון_מס׳_16/159654" showAs="תיקון_מס׳_16" />
+        <TLCTerm eId="term_45" href="/ontology/term/תעריפים/159654" showAs="תעריפים" />
+        <TLCTerm eId="term_46" href="/ontology/term/השר/159654" showAs="השר" />
+        <TLCTerm eId="term_47" href="/ontology/term/השרים/159654" showAs="השרים" />
+        <TLCTerm eId="term_48" href="/ontology/term/אנרגיה_מתחדשת/159654" showAs="אנרגיה_מתחדשת" />
+        <TLCTerm eId="term_49" href="/ontology/term/ביומסה/159654" showAs="ביומסה" />
+        <TLCTerm eId="term_50" href="/ontology/term/דלק_מאובן/159654" showAs="דלק_מאובן" />
+        <TLCTerm eId="term_51" href="/ontology/term/החלטת_הממשלה/159654" showAs="החלטת_הממשלה" />
+        <TLCTerm eId="term_52" href="/ontology/term/חברת_ניהול_המערכת_בע''מ/159654" showAs="חברת_ניהול_המערכת_בע''מ" />
+        <TLCTerm eId="term_53" href="/ontology/term/רישיונות/159654" showAs="רישיונות" />
+        <TLCPerson eId="שמעון_פרס" href="/ontology/person/שמעון_פרס" showAs="שמעון פרס" />
+        <TLCPerson eId="גונן_שגב" href="/ontology/person/גונן_שגב" showAs="גונן שגב" />
+        <TLCPerson eId="עזר_ויצמן" href="/ontology/person/עזר_ויצמן" showAs="עזר ויצמן" />
+        <TLCPerson eId="שבח_וייס" href="/ontology/person/שבח_וייס" showAs="שבח וייס" />
+        <TLCRole eId="ראש_הממשלה" href="ontology/role/akn/ראש_הממשלה" showAs="ראש הממשלה" />
+        <TLCRole eId="שר_האנרגיה_והתשתית" href="ontology/role/akn/שר_האנרגיה_והתשתית" showAs="שר האנרגיה והתשתית" />
+        <TLCRole eId="נשיא_המדינה" href="ontology/role/akn/נשיא_המדינה" showAs="נשיא המדינה" />
+        <TLCRole eId="יושב_ראש_הכנסת" href="ontology/role/akn/יושב_ראש_הכנסת" showAs="יושב ראש הכנסת" />
+      </references>
+      <temporalData source="#kensset">
+        <temporalGroup eId="tmpg_1" />
+      </temporalData>
+      <Publication></Publication>
+      <proprietary wikiversion="11/17/2020 10:03:56 AM" />
+    </meta>
+    <body period="#tmpg_1">
+      <title eId="title">
+        <content>
+          <p>חוק משק החשמל, התשנ"ו–1996</p>
+        </content>
+      </title>
+      <chapter eId="chp_א">
+        <num>פרק א׳ –</num>
+        <title>
+          <content>
+            <p>פרשנות</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_1">
+            <heading>
+              <authorialNote placement="side">
+                <p>מטרת החוק</p>
+              </authorialNote>
+            </heading>
+            <num>1.</num>
+            <content>
+              <p>מטרתו של חוק זה היא להסדיר את הפעילות במשק החשמל לטובת הציבור, וזאת תוך הבטחת אמינות, זמינות, איכות, יעילות והתייעלות אנרגטית, והכל תוך יצירת תנאים לתחרות ומיזעור עלויות.</p>
+            </content>
+          </point>
+          <point eId="point_2" class="definitions">
+            <heading>
+              <authorialNote placement="side">
+                <p>הגדרות</p>
+              </authorialNote>
+            </heading>
+            <num>2.</num>
+            <list>
+              <intro>
+                <p>בחוק זה –</p>
+              </intro>
+              <point eId="point_2__point_אזרח_ישראלי">
+                <content>
+                  <p>
+                    <def />”אזרח ישראלי“ – כמשמעותו <ref href="/akn/il/act/PrimaryLegislation/1952-04-08/174505">בחוק האזרחות, התשי"ב–1952</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_2__point_אמצעי_שליטה">
+                <list>
+                  <intro>
+                    <p>
+                      <def />”אמצעי שליטה“ – כל אחד מאלה:</p>
+                  </intro>
+                  <point eId="point_2__point_אמצעי_שליטה__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>זכות הצבעה באסיפה כללית של חברה או גוף מקביל של תאגיד אחר;</p>
+                    </content>
+                  </point>
+                  <point eId="point_2__point_אמצעי_שליטה__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>זכות למנות דירקטורים או מנהל כללי של חברה, ובתאגיד שאינו חברה – בעלי תפקידים דומים;</p>
+                    </content>
+                  </point>
+                  <point eId="point_2__point_אמצעי_שליטה__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>זכות להשתתף ברווחי תאגיד;</p>
+                    </content>
+                  </point>
+                  <point eId="point_2__point_אמצעי_שליטה__point_4">
+                    <num>(4)</num>
+                    <content>
+                      <p>זכות לחלק ביתרת נכסי תאגיד, לאחר סילוק חובותיו בעת פירוקו;</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_2__point_בעל_ענין">
+                <content>
+                  <p>
+                    <def />”בעל ענין“, ”בן משפחה“, ”החזקה“, ”חברה בת“, ”שליטה“ – כמשמעותם <ref href="/akn/il/act/PrimaryLegislation/1968-08-22/150242">בחוק ניירות ערך, התשכ"ח–1968</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_2__point_בעל_מקרקעין">
+                <content>
+                  <p>
+                    <def />”בעל מקרקעין“ – לרבות המחזיק במקרקעין;</p>
+                </content>
+              </point>
+              <point eId="point_2__point_בעל_רשיון">
+                <content>
+                  <p>
+                    <def />”בעל רשיון“ – מי שקיבל רשיון לפי חוק זה;</p>
+                </content>
+              </point>
+              <point eId="point_2__point_דרך_ציבורית">
+                <content>
+                  <p>
+                    <def />”דרך ציבורית“ – מקרקעי ישראל כמשמעותם <ref href="/akn/il/act/PrimaryLegislation/1960-07-29/147462">בחוק־יסוד: מקרקעי ישראל</ref>, או מקרקעין של רשות מקומית, שייעודם דרך כהגדרתה <ref href="/akn/il/act/PrimaryLegislation/1965-08-12/148917">בחוק התכנון</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_2__point_המנהל">
+                <content>
+                  <p>
+                    <def />”המנהל“ – מנהל מינהל החשמל ברשות, כמשמעותו <ref href="#point_57">בסעיף 57 לחוק</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_2__point_המשרד">
+                <content>
+                  <p>
+                    <def />”המשרד“ – משרד האנרגיה;</p>
+                </content>
+              </point>
+              <point eId="point_2__point_הרשות">
+                <content>
+                  <p>
+                    <def />”הרשות“ – רשות החשמל, שהוקמה לפי <ref href="#point_21">סעיף 21</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_2__point_חברה">
+                <content>
+                  <p>
+                    <def />”חברה“ – חברה שנרשמה בישראל לפי <ref href="/akn/il/act/PrimaryLegislation/1999-05-27/165159">פקודת החברות [נוסח חדש], התשמ"ג–1983</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_2__point_חברה_ממשלתית">
+                <content>
+                  <p>
+                    <def />”חברה ממשלתית“, ”חברת בת ממשלתית“ – כהגדרתן <ref href="/akn/il/act/PrimaryLegislation/1975-07-04/169605">בחוק החברות הממשלתיות, התשל"ה–1975</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_2__point_חוק_התכנון">
+                <content>
+                  <p>
+                    <def />”חוק התכנון“ – <ref href="/akn/il/act/PrimaryLegislation/1965-08-12/148917">חוק התכנון והבניה, התשכ"ה–1965</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_2__point_חטיבת_קרקע">
+                <content>
+                  <p>
+                    <def />”חטיבת קרקע“ – מקרקעין שלא עוברת בהם דרך ציבורית, שנמצאים בבעלות אחת, לרבות בעלות משותפת, ומתקיימות לגביהם אמות מידה שקבעה הרשות לעניין זה; לעניין זה, ”בעלות“ – לרבות חכירה לדורות או החזקה וכן זכות להירשם כבעלים או כחוכר לדורות;</p>
+                </content>
+              </point>
+              <point eId="point_2__point_יושב_ראש_הרשות">
+                <content>
+                  <p>
+                    <def />”יושב ראש הרשות“ – מי שמונה כיושב ראש הרשות לפי <ref href="#point_22">סעיף 22(ב)(1)</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_2__point_יחידת_ייצור">
+                <content>
+                  <p>
+                    <def />”יחידת ייצור“ – מערכת טכנית הכוללת מחולל (גנרטור) אחד, שמיועדת להמרת אנרגיה ממקור מסוים לאנרגיה חשמלית או לאנרגיה חשמלית ותרמית שימושית או לאנרגיה חשמלית ומכנית שימושית, ואם מערכות הנעת המחוללים קשורות בקשר טכנולוגי לשם ניצול מרבי של אותו מקור אנרגיה – מערכת טכנית כאמור הכוללת יותר ממחולל אחד;</p>
+                </content>
+              </point>
+              <point eId="point_2__point_יצרן_חשמל">
+                <content>
+                  <p>
+                    <def />”יצרן חשמל“ – בעל רשיון או רשיונות ייצור, אשר השר קבע לגביו שהוא מרכז בידיו חלק מהותי מהייצור במשק החשמל, לפי הוראות <ref href="#point_18">סעיף 18(ב)</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_2__point_יצרן_חשמל_פרטי">
+                <content>
+                  <p>
+                    <def />”יצרן חשמל פרטי“ – בעל רשיון או רשיונות ייצור, אשר השר לא קבע לגביו, לפי הוראות <ref href="#point_18">סעיף 18(ב)</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_2__point_מדיניות_השר">
+                <content>
+                  <p>
+                    <def />”מדיניות השר“ – מדיניות שעליה החליט השר לפי <ref href="#point_57א">סעיף 57א</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_2__point_מוסד_תכנון">
+                <content>
+                  <p>
+                    <def />”מוסד תכנון“ – כמשמעותו <ref href="/akn/il/act/PrimaryLegislation/1965-08-12/148917">בחוק התכנון</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_2__point_מחזיק_אמצעי_שליטה">
+                <content>
+                  <p>
+                    <def />”מחזיק אמצעי שליטה“ – <wikicomment font-size="x-small">(נמחקה);</wikicomment></p>
+                </content>
+              </point>
+              <point eId="point_2__point_מיתקן_חשמל">
+                <content>
+                  <p>
+                    <def />”מיתקן חשמל“ – מיתקן המשמש להולכה, אגירה, הספקה, חלוקה, מכירה, מסירה, צבירה, שינוי או השנאה של חשמל, לרבות מבנים, מכונות, מכשירים, מצברים, מוליכים, עמודים, אבזרים וציוד חשמלי קבוע או מיטלטל, הקשורים במיתקן, לרבות מיתקן המשמש לייצור חשמל בהספק שאינו עולה על 5 מגוואט;</p>
+                </content>
+              </point>
+              <point eId="point_2__point_מערכת_חשמל">
+                <content>
+                  <p>
+                    <def />”מערכת חשמל“ – רשת החשמל וכן תחנות כוח;</p>
+                </content>
+              </point>
+              <point eId="point_2__point_מקרקעין_ציבוריים">
+                <content>
+                  <p>
+                    <def />”מקרקעין ציבוריים“ – מקרקעי ישראל כמשמעותם <ref href="/akn/il/act/PrimaryLegislation/1960-07-29/147462">בחוק־יסוד: מקרקעי ישראל</ref>, או מקרקעין בבעלות רשות מקומית או בבעלות תאגיד שהוקם על פי חוק ושהחזקה בהם היא בידי אחד מהם;</p>
+                </content>
+              </point>
+              <point eId="point_2__point_מקרקעין_פרטיים">
+                <content>
+                  <p>
+                    <def />”מקרקעין פרטיים“ – מקרקעין שאינם ציבוריים;</p>
+                </content>
+              </point>
+              <point eId="point_2__point_נושא_משרה">
+                <content>
+                  <p>
+                    <def />”נושא משרה“ – כהגדרתו <ref href="/akn/il/act/PrimaryLegislation/1999-05-27/165159#point_1">בפרק ד1 לפקודת החברות [נוסח חדש], התשמ"ג–1983</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_2__point_פעילות">
+                <content>
+                  <p>
+                    <def />”פעילות“ – כל אחד מאלה: ייצור, ניהול המערכת, הולכה, אגירה, חלוקה, הספקה, או סחר בחשמל;</p>
+                </content>
+              </point>
+              <point eId="point_2__point_פקודת_זכיונות_החשמל">
+                <content>
+                  <p>
+                    <def />”פקודת זכיונות החשמל“ – פקודת זכיונות החשמל, כפי שתוקנה <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/http_fs_knesset_gov_il_5_law_5_lsr_208395_pdf">בחוק התוספות לזכיונות החשמל (תשלומים בעד חיבור למערכת החשמל), התשכ"ד–1963</ref>, <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/http_fs_knesset_gov_il_7_law_7_lsr_208396_pdf">חוק התוספת לזכיון החשמל (תיקון הזכיון), התש"ל–1970</ref>, <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/http_fs_knesset_gov_il_13_law_13_lsr_211027_pdf">חוק לתיקון פקודת זכיונות החשמל (מס׳ 3), התשנ"ד–1994</ref>, <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/http_fs_knesset_gov_il_11_law_11_lsr_210615_pdf#appendix">ובתוספת לחוק הספקת חשמל (הוראות מיוחדות), התשמ"ח–1987</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_2__point_צרכן">
+                <content>
+                  <p>
+                    <def />”צרכן“ – מי שרוכש חשמל או שירותים מבעל רישיון, או מבקש חיבור לרשת החשמל;</p>
+                </content>
+              </point>
+              <point eId="point_2__point_רישיון_אגירה">
+                <content>
+                  <p>
+                    <def />”רישיון אגירה“ – רישיון לכל אלה: המרת אנרגיה חשמלית לאנרגיה הניתנת לאחסון, אחסון האנרגיה והמרתה בחזרה לאנרגיה חשמלית;</p>
+                </content>
+              </point>
+              <point eId="point_2__point_רשיון_אחר">
+                <content>
+                  <p>
+                    <def />”רשיון אחר“ – <wikicomment font-size="x-small">(נמחקה);</wikicomment></p>
+                </content>
+              </point>
+              <point eId="point_2__point_רשיון_הולכה">
+                <content>
+                  <p>
+                    <def />”רשיון הולכה“ – רשיון להעברת חשמל ממקור ייצור או ממיתקן חשמל המשמש לאגירה במתח עליון ועל־עליון אל תחנת משנה;</p>
+                </content>
+              </point>
+              <point eId="point_2__point_רישיון_הספקה">
+                <content>
+                  <p>
+                    <def />”רישיון הספקה“ – רישיון למכירת חשמל;</p>
+                </content>
+              </point>
+              <point eId="point_2__point_רשיון_חלוקה">
+                <content>
+                  <p>
+                    <def />”רשיון חלוקה“ – רשיון להעברת חשמל אל צרכן, דרך קווי מתח גבוה או נמוך;</p>
+                </content>
+              </point>
+              <point eId="point_2__point_רשיון_ייצור">
+                <content>
+                  <p>
+                    <def />”רשיון ייצור“ – רשיון לייצר חשמל;</p>
+                </content>
+              </point>
+              <point eId="point_2__point_רשיון_ייצור_עצמי">
+                <content>
+                  <p>
+                    <def />”רשיון ייצור עצמי“ – רשיון ליצר חשמל לשימוש עצמי בלי למוכרו לאחר, למעט מכירה לפי הוראות <ref href="#point_20">סעיף 20(ג)</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_2__point_רישיון_לניהול_המערכת">
+                <content>
+                  <p>
+                    <def />”רישיון לניהול המערכת“ – רישיון לניהול של מערכת החשמל במקטעי הייצור וההולכה, ובכלל זה איזון תמידי בין ההיצע של החשמל והביקוש לו, הבטחת השרידות של מערך הייצור וההולכה של החשמל, רכישה ואחסון של סוגי דלק שמשמשים את משק החשמל, הקצאתם ומכירתם לבעלי רישיונות ייצור או לאדם המייצר חשמל הפטור מחובת רישיון לפי <ref href="#point_3">סעיף 3(ב)(1)(א)</ref>, ניהול של העברת האנרגיה מתחנות כוח דרך רשתות החשמל אל תחנות משנה באמינות ובאיכות נדרשות, תזמון ביצוע של עבודות תחזוקה ביחידות הייצור ובמערכת ההולכה וההשנאה, ניהול פעילותם של מיתקני חשמל המשמשים לאגירה, ניהול הסחר בחשמל בתנאים תחרותיים, שוויוניים ומיטביים לרבות ביצוע הסכמים לרכישה ולמכירה של יכולת זמינה ואנרגיה ותכנון הפיתוח של מערכת ההולכה וההשנאה;</p>
+                </content>
+              </point>
+              <point eId="point_2__point_רשיון_ספק_שירות_חיוני">
+                <content>
+                  <p>
+                    <def />”רשיון ספק שירות חיוני“ – רשיון לניהול המערכת, להולכה או לחלוקה של חשמל;</p>
+                </content>
+              </point>
+              <point eId="point_2__point_רשת_חשמל">
+                <content>
+                  <p>
+                    <def />”רשת חשמל“ – מיתקנים ומערכות להולכה, להספקה, להשנאה, לחלוקה, למכירה ולמניה של חשמל, במתח כלשהו, לרבות עמודי חשמל ומוליכים תת־קרקעיים או עיליים, צנרת המשמשת להולכת מוליכים תת־קרקעיים או עיליים וכן אבזרים וציוד המותקנים עליהם או המחוברים אליהם, תילי חשמל, תחנות השנאה, ארגזי חלוקת חשמל לסוגיהם, וכל החיבורים אליהם, וכן חיבורים עיליים ותת קרקעיים לבתים ולמיתקני צריכה אחרים;</p>
+                </content>
+              </point>
+              <point eId="point_2__point_שותפות">
+                <content>
+                  <p>
+                    <def />”שותפות“ – שותפות שנרשמה לפי <ref href="/akn/il/act/PrimaryLegislation/1975-07-07/2002288">פקודת השותפויות [נוסח חדש], התשל"ה–1975</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_2__point_שירותי_גיבוי">
+                <content>
+                  <p>
+                    <def />”שירותי גיבוי“ – הסדר חלוף להספקת חשמל מבעל רשיון ספק שירות חיוני למי שמקבל חשמל מאחר;</p>
+                </content>
+              </point>
+              <point eId="point_2__point_שירותי_תשתית">
+                <content>
+                  <p>
+                    <def />”שירותי תשתית“ – מתן אפשרות לבעל רשיון להשתמש ברשת חשמל שאין לו בה זכויות לצורך הולכה וחלוקה של חשמל לאחר;</p>
+                </content>
+              </point>
+              <point eId="point_2__point_תחנת_כוח">
+                <content>
+                  <p>
+                    <def />”תחנת כוח“ – מיתקן המשמש לייצור חשמל בהספק העולה על 5 מגוואט, לרבות המבנים, המכונות, המצברים, המוליכים, מיתקני ההשנאה, מיתקני הקירור והמערכות, המשמשים למטרה זו;</p>
+                </content>
+              </point>
+              <point eId="point_2__point_תחנת_משנה">
+                <content>
+                  <p>
+                    <def />”תחנת משנה“ – תחנת השנאה, המקשרת בין רשתות חשמל לסוגיהן, שיש בה שנאים מורידי מתח או מעלי מתח;</p>
+                </content>
+              </point>
+              <point eId="point_2__point_תיקון_מס_16">
+                <content>
+                  <p>
+                    <def />”תיקון מס׳ 16“ – <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/http_fs_knesset_gov_il_20_law_20_lsr_504275_pdf">חוק משק החשמל (תיקון מס׳ 16 והוראת שעה), התשע"ח–2018</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_2__point_תעריפים">
+                <content>
+                  <p>
+                    <def />”תעריפים“ – כל סוגי התשלומים שמשלם צרכן או בעל רישיון לבעל רשיון ספק שירות חיוני, לרבות תשלומים עבור מתן שירותי תשתית ושירותי גיבוי וכן כל סוגי התשלומים שמשלם בעל רישיון ספק שירות חיוני לבעל רישיון או לאדם המייצר חשמל או מבצע אגירה הפטור מחובת רישיון לפי <ref href="#point_3">סעיף 3(ב)(1)(א) ו־(ב)</ref>, למעט תשלום שנקבע במכרז שפורסם בידי המדינה, וכל סוגי התשלומים שמשלם בעל רישיון ספק שירות חיוני לצרכן בעבור ייצור או בעבור הסדרים לניהול הצריכה; לעניין זה, ”בעל רישיון“ – לרבות אם התשלומים נגבים בעבורו על ידי אחר;</p>
+                </content>
+              </point>
+              <point eId="point_2__point_השר">
+                <content>
+                  <p>
+                    <def />”השר“ – שר האנרגיה;</p>
+                </content>
+              </point>
+              <point eId="point_2__point_השרים">
+                <content>
+                  <p>
+                    <def />”השרים“ – השר ושר האוצר.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+        </list>
+      </chapter>
+      <chapter eId="chp_ב">
+        <num>פרק ב׳:</num>
+        <title>
+          <content>
+            <p>רישוי</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_3">
+            <heading>
+              <authorialNote placement="side">
+                <p>הסדרת פעילות</p>
+              </authorialNote>
+            </heading>
+            <num>3.</num>
+            <list>
+              <point eId="point_3__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>לא יעשה אדם פעילות אלא על פי רשיון לפי חוק זה.</p>
+                </content>
+              </point>
+              <point eId="point_3__point_ב">
+                <num>(ב)</num>
+                <list>
+                  <point eId="point_3__point_ב__point_1">
+                    <num>(1)</num>
+                    <list>
+                      <intro>
+                        <p>הוראות סעיף קטן (א) לא יחולו על כל אחד מאלה:</p>
+                      </intro>
+                      <point eId="point_3__point_ב__point_1__point_א">
+                        <num>(א)</num>
+                        <content>
+                          <p>אדם המייצר חשמל בהספק שאינו עולה על 16 מגוואט או בהספק גבוה יותר שקבעה הרשות בכללים באישור השר, ואינו מוכרו לאחר למעט מכירה כאמור בפסקת משנה (ג) או (ד); לעניין זה, ”אחר“ – מי שאינו בעל רישיון ספק שירות חיוני;</p>
+                        </content>
+                      </point>
+                      <point eId="point_3__point_ב__point_1__point_ב">
+                        <num>(ב)</num>
+                        <content>
+                          <p>אדם המבצע אגירה בכמות שאינה עולה על כמות שקבעה הרשות בכללים (בפסקת משנה זו – כמות מרבית), למעט אגירה כאמור לתכלית שקבעה; הרשות רשאית לקבוע כמויות מרביות שונות בשים לב לתכלית האגירה;</p>
+                        </content>
+                      </point>
+                      <point eId="point_3__point_ב__point_1__point_ג">
+                        <num>(ג)</num>
+                        <content>
+                          <p>צרכן בחטיבת קרקע שמוכר חשמל לאדם אחר שיש לו זכות במקרקעין הנכללים בחטיבת הקרקע או זכות לגבי מקרקעין כאמור ובכלל זה זכות שימוש במקרקעין, וכן מעביר חשמל לאותו אדם; פטור מרישיון הספקה לפי פסקת משנה זו לא יינתן לצרכן בחטיבת קרקע שהשימוש העיקרי שהוא עושה בחטיבת הקרקע הוא מכירת חשמל; בפסקת משנה זו, ”חטיבת קרקע“ – לרבות דרך ציבורית;</p>
+                        </content>
+                      </point>
+                      <point eId="point_3__point_ב__point_1__point_ד">
+                        <num>(ד)</num>
+                        <list>
+                          <point eId="point_3__point_ב__point_1__point_ד__point_1">
+                            <num>(1)</num>
+                            <content>
+                              <p>אדם המעביר חשמל לצרכן בחטיבת קרקע, ובלבד שייצר את החשמל ביחידת ייצור הנמצאת באותה חטיבת קרקע, או אדם המעביר חשמל לצרכן ממיתקן חשמל המשמש לאגירה שנמצא באותה חטיבת קרקע שבה נמצא הצרכן;</p>
+                            </content>
+                          </point>
+                          <point eId="point_3__point_ב__point_1__point_ד__point_2">
+                            <num>(2)</num>
+                            <content>
+                              <p>אדם המעביר חשמל שיוצר ביחידת ייצור לצרכן הרוכש אנרגיה תרמית שנוצרה אגב ייצור החשמל באותה יחידת ייצור, ובלבד שרשת החשמל נמצאת בתוואי שבו מונחת התשתית המשמשת להעברת האנרגיה התרמית, ובצמוד לתשתית האמורה;</p>
+                            </content>
+                          </point>
+                          <point eId="point_3__point_ב__point_1__point_ד__point_3">
+                            <num>(3)</num>
+                            <content>
+                              <p>פטור מרישיון לפי פסקת משנה זו יינתן רק לעניין חלוקה, ואם היה הייצור פטור מרישיון לפי פסקת משנה (א), או היתה האגירה פטורה מרישיון לפי פסקת משנה (ב) – גם לעניין הספקה;</p>
+                            </content>
+                          </point>
+                        </list>
+                      </point>
+                      <point eId="point_3__point_ב__point_1__point_ה">
+                        <num>(ה)</num>
+                        <content>
+                          <p>מי שערב יום תחילתו של <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/http_fs_knesset_gov_il_20_law_20_lsr_504275_pdf#point_16">תיקון מס׳ 16</ref> העביר חשמל במתח נמוך בלבד בתחומי ועד מקומי כמשמעותו <ref href="/akn/il/act/PrimaryLegislation/1941-12-18/2001788#point_3">בסעיף 3 לפקודת המועצות המקומיות</ref>.</p>
+                        </content>
+                      </point>
+                    </list>
+                  </point>
+                  <point eId="point_3__point_ב__point_2">
+                    <num>(2)</num>
+                    <list>
+                      <intro>
+                        <p>לעניין פסקה (1)(ג) ו־(ד), יראו כצרכן בחטיבת קרקע רק מחזיק, בעלים, חוכר לדורות או מי שזכאי להירשם כבעלים או כחוכר לדורות בחטיבת הקרקע (בפסקה זו – בעל זכות), ואולם –</p>
+                      </intro>
+                      <point eId="point_3__point_ב__point_2__point_א">
+                        <num>(א)</num>
+                        <content>
+                          <p>לעניין פסקה (1)(ג), היה בחטיבת קרקע יותר מבעל זכות אחד, תקבע הרשות אמות מידה לעניין בעל הזכות שייחשב לצרכן באותה חטיבת קרקע;</p>
+                        </content>
+                      </point>
+                      <point eId="point_3__point_ב__point_2__point_ב">
+                        <num>(ב)</num>
+                        <list>
+                          <intro>
+                            <p>לעניין פסקה (1)(ד)(1), יראו כצרכן בחטיבת קרקע גם חברה שאינה בעלת זכות בחטיבת הקרקע, ובלבד שמתקיימים שני אלה:</p>
+                          </intro>
+                          <point eId="point_3__point_ב__point_2__point_ב__point_1">
+                            <num>(1)</num>
+                            <content>
+                              <p>החברה היא חלק מתשלובת חברות כמשמעותה <ref href="/akn/il/act/PrimaryLegislation/1968-08-22/150242">בחוק ניירות ערך, התשכ"ח–1968</ref>, וחברה הנמנית עם אותה תשלובת היא בעלת זכות בחטיבת הקרקע;</p>
+                            </content>
+                          </point>
+                          <point eId="point_3__point_ב__point_2__point_ב__point_2">
+                            <num>(2)</num>
+                            <content>
+                              <p>לשם ההעברה כאמור בפסקה (1)(ד)(1) אין צורך להעביר חשמל דרך מקרקעין שאין בהם זכויות למי שאינו נמנה עם אותה תשלובת.</p>
+                            </content>
+                          </point>
+                        </list>
+                      </point>
+                    </list>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_3__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>ניתן רשיון, יפעל בעל הרשיון בהתאם לתנאי רשיונו.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_4">
+            <heading>
+              <authorialNote placement="side">
+                <p>מתן רשיון</p>
+              </authorialNote>
+            </heading>
+            <num>4.</num>
+            <list>
+              <point eId="point_4__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>הרשות רשאית לתת רשיון לפעילות, לקבוע בו תנאים וכן להגביל או שלא להגביל את תקופת תוקפו.</p>
+                </content>
+              </point>
+              <point eId="point_4__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>רשיון יינתן לפעילות אחת, למקום או לאזור מוגדר, ויכול שיינתנו ביחס לתחנת כוח אחת רשיונות ייצור מסוגים שונים; לא יינתן לגבי אזור מוגדר או חלק ממנו יותר מרישיון חלוקה אחד.</p>
+                </content>
+              </point>
+              <point eId="point_4__point_ב1">
+                <num>(ב1)</num>
+                <list>
+                  <intro>
+                    <p>לא יינתן לאדם רישיון ליותר מפעילות אחת, ואולם –</p>
+                  </intro>
+                  <point eId="point_4__point_ב1__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>ניתן לתת לאדם רישיון ייצור יחד עם רישיון הספקה וזאת, בשים לב, בין השאר, להתפתחות התחרות במשק החשמל;</p>
+                    </content>
+                  </point>
+                  <point eId="point_4__point_ב1__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>ניתן לתת לחברה ממשלתית, יחד עם רישיון חלוקה ורישיון הספקה, גם רישיון הולכה;</p>
+                    </content>
+                  </point>
+                  <point eId="point_4__point_ב1__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>ניתן לתת לאדם רישיון אגירה יחד עם רישיון מסוג אחר, בשים לב, בין השאר, לסוג הרישיון האחר.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_4__point_ב1א">
+                <num>(ב1א)</num>
+                <content>
+                  <p>על אף האמור בסעיף קטן (ב1), רישיון חלוקה יכול שיינתן רק יחד עם רישיון הספקה.</p>
+                </content>
+              </point>
+              <point eId="point_4__point_ב1ב">
+                <num>(ב1ב)</num>
+                <list>
+                  <intro>
+                    <p>רישיון חלוקה יינתן רק לחברה שמתקיים לגביה אחד מאלה:</p>
+                  </intro>
+                  <point eId="point_4__point_ב1ב__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>היא היתה ערב יום תחילתו של <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/http_fs_knesset_gov_il_20_law_20_lsr_504275_pdf#point_16">תיקון מס׳ 16</ref> בעלת רישיון חלוקה;</p>
+                    </content>
+                  </point>
+                  <point eId="point_4__point_ב1ב__point_2">
+                    <num>(2)</num>
+                    <list>
+                      <intro>
+                        <p>היא הוקמה בידי רשות מקומית לרבות כפר, קיבוץ, מושב, יישוב קהילתי או כל יישוב אחר, או תאגיד שהוקם לשם הקמת גוף כאמור (בסעיף זה – גוף מקומי) או שגוף מקומי התקשר אתה לקבלת שירותי חלוקה, ומתקיימים שני אלה:</p>
+                      </intro>
+                      <point eId="point_4__point_ב1ב__point_2__point_א">
+                        <num>(א)</num>
+                        <content>
+                          <p>החברה או הגוף המקומי ביצעו, ערב יום תחילתו של <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/http_fs_knesset_gov_il_20_law_20_lsr_504275_pdf#point_16">תיקון מס׳ 16</ref>, חלוקה והספקה בתחומו של הגוף המקומי;</p>
+                        </content>
+                      </point>
+                      <point eId="point_4__point_ב1ב__point_2__point_ב">
+                        <num>(ב)</num>
+                        <content>
+                          <p>החברה או הגוף המקומי מחזיקים ברשת חשמל המשמשת אותם לחלוקה כאמור בפסקת משנה (א);</p>
+                        </content>
+                      </point>
+                    </list>
+                  </point>
+                  <point eId="point_4__point_ב1ב__point_3">
+                    <num>(3)</num>
+                    <list>
+                      <intro>
+                        <p>היא הוקמה בידי גורם שביצע חלוקה באזור תעשייה או שגורם כאמור התקשר אתה לקבלת שירותי חלוקה, ומתקיימים שני אלה:</p>
+                      </intro>
+                      <point eId="point_4__point_ב1ב__point_3__point_א">
+                        <num>(א)</num>
+                        <content>
+                          <p>הגורם שביצע חלוקה כאמור ברישה (בפסקה זו – הגורם המחלק) או החברה הגישו, עד יום כ"ו בתמוז התשע"ח (9 ביולי 2018), בקשה לקבלת רישיון חלוקה לגבי אזור התעשייה (בפסקה זו – בקשה);</p>
+                        </content>
+                      </point>
+                      <point eId="point_4__point_ב1ב__point_3__point_ב">
+                        <num>(ב)</num>
+                        <content>
+                          <p>הגורם המחלק או החברה ביצעו, ערב מתן רישיון חלוקה בהתאם לבקשה, חלוקה והספקה באזור התעשייה; בפסקה זו, ”אזור תעשייה“ – קרקע שניתן לעשות בה שימוש לתעשייה לפי תכנית כמשמעותה <ref href="/akn/il/act/PrimaryLegislation/1965-08-12/148917">בחוק התכנון</ref>, ומשמשת בפועל לתעשייה.</p>
+                        </content>
+                      </point>
+                    </list>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_4__point_ב1ג">
+                <num>(ב1ג)</num>
+                <content>
+                  <p>היקף רישיונות החלוקה שיינתנו לפי סעיף קטן (ב1ב)(2) ו־(3) לכל מי שאינם חברה ממשלתית, לא יעלה על 10% מהיקף הצריכה השנתי במשק, ואולם לא תובא בחשבון לעניין זה עלייה טבעית בהיקף הצריכה באזור החלוקה שנקבע ברישיון לעומת היקף הצריכה כאמור בעת מתן הרישיון; לעניין זה, ”עלייה טבעית בהיקף הצריכה באזור החלוקה“ – לרבות בשל גידול במספר הצרכנים בתחום הגוף המקומי או אזור התעשייה או בשל הגדלת תחום הגוף המקומי או אזור התעשייה, ובלבד שלעניין אזור תעשייה – השטח שנוסף לו צמוד לאזור התעשייה הקיים.</p>
+                </content>
+              </point>
+              <point eId="point_4__point_ב1ד">
+                <num>(ב1ד)</num>
+                <content>
+                  <p>רישיון לניהול המערכת ורישיון הולכה יינתנו רק לחברה ממשלתית ובכל עת יהיה בתוקף רק רישיון אחד לכל אחת מהפעילויות כאמור, למעט לעניין <ref href="#point_5">סעיף 5(ג)(5)</ref>.</p>
+                </content>
+              </point>
+              <point eId="point_4__point_ב1ה">
+                <num>(ב1ה)</num>
+                <content>
+                  <p>על אף האמור בסעיף קטן (ב1ב), בוטל או הותלה רישיון או חלק ממנו לפי <ref href="#point_9">סעיף 9</ref><ref href="#point_17א">או 17א</ref>, של חברה המנויה בסעיף הקטן האמור, יכול שיינתן רישיון חלוקה גם לחברה שאינה מנויה בסעיף הקטן האמור; אין בהוראות סעיף קטן זה כדי לגרוע מהוראות <ref href="#point_3">סעיף 3(ב)(1)(ג)</ref>.</p>
+                </content>
+              </point>
+              <point eId="point_4__point_ב2">
+                <num>(ב2)</num>
+                <list>
+                  <point eId="point_4__point_ב2__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>רישיון ייצור בהיקף העולה על 100 מגוואט, רישיון הספקה בהיקף העולה על 100 מגוואט, רישיון חלוקה בהיקף העולה על 5% מהיקף הצריכה השנתי, רישיון הולכה או רישיון לניהול המערכת, ייכנס לתוקפו לאחר אישורו בידי השר;</p>
+                    </content>
+                  </point>
+                  <point eId="point_4__point_ב2__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>
+                        <wikicomment font-size="x-small">(נמחקה);</wikicomment>
+                      </p>
+                    </content>
+                  </point>
+                  <point eId="point_4__point_ב2__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>השר יחליט בעניין מתן אישור כאמור בפסקה (1) בתוך 45 ימים מהמועד שבו פנתה אליו הרשות לשם קבלת אישורו.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_4__point_ב3">
+                <num>(ב3)</num>
+                <content>
+                  <p>
+                    <wikicomment font-size="x-small">(בוטל).</wikicomment>
+                  </p>
+                </content>
+              </point>
+              <point eId="point_4__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>הודעה על מתן רשיון תפורסם ברשומות ובאתר האינטרנט של הרשות.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_5">
+            <heading>
+              <authorialNote placement="side">
+                <p>הוראות הרשיון</p>
+              </authorialNote>
+            </heading>
+            <num>5.</num>
+            <list>
+              <point eId="point_5__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>רשיון יכלול, בין היתר, את הפעילות שלגביה ניתן, תקופת תוקפו אם הוגבלה התקופה, המקום או האזור שלגביהם הוא ניתן, וכן הכללים והחובות החלים על בעל הרשיון לפי חוק זה.</p>
+                </content>
+              </point>
+              <point eId="point_5__point_א1">
+                <num>(א1)</num>
+                <list>
+                  <intro>
+                    <p>רישיון הולכה ורישיון חלוקה יכללו, נוסף על הוראות סעיף קטן (א) –</p>
+                  </intro>
+                  <point eId="point_5__point_א1__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>הוראות בדבר חובה להתקנת מונים; בסעיף זה, ”מונה“ – ציוד למדידה ולחישוב של כמות אנרגיה חשמלית, ובכלל זה מנייה חכמה כפי שהרשות תגדיר באמות מידה לפי <ref href="#point_30">סעיף 30(2)</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_5__point_א1__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>חובה של בעל רישיון הולכה ובעל רישיון חלוקה להעביר את כל המידע הנמצא ברשותם שהתקבל ממונים שהתקינו, לשם ביצוע פעילות בהתאם לתנאי רישיונו של בעל רישיון לניהול המערכת, לבעל רישיון כאמור, בהתאם לאמות מידה שקבעה הרשות לפי <ref href="#point_30">סעיף 30(2)</ref>.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_5__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>רשיון ספק שירות חיוני, יכלול, בנוסף להוראות סעיפים קטנים (א) ו־(א1), הוראות בדבר חובת רכישת חשמל מבעלי רישיון ייצור, מבעלי רישיון אגירה או ממי שמייצרים חשמל או מבצעים אגירה של חשמל, הפטורים מחובת רישיון לפי <ref href="#point_3">סעיף 3(ב)(1)(א) ו־(ב)</ref>, כולם או חלקם, כפי שקבעה הרשות, וכן הוראות בדבר חובת מתן שירותי תשתית ושירותי גיבוי, הכל לפי הענין.</p>
+                </content>
+              </point>
+              <point eId="point_5__point_ג">
+                <num>(ג)</num>
+                <list>
+                  <intro>
+                    <p>רישיון לניהול המערכת יכלול, נוסף על הוראות סעיפים קטנים (א) ו־(ב), הוראות בענינים אלה:</p>
+                  </intro>
+                  <point eId="point_5__point_ג__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>מתן אפשרות לבעל הרישיון, במסגרת מילוי חובותיו על פי הרישיון, לתת הוראות לבעלי רישיונות לפי חוק זה; לענין זה ניתן לכלול ברישיון תנאים למתן הוראות כאמור;</p>
+                    </content>
+                  </point>
+                  <point eId="point_5__point_ג__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>חובה לערוך תחזיות לביקוש החשמל במשק בכללותו, ואופן פרסומן;</p>
+                    </content>
+                  </point>
+                  <point eId="point_5__point_ג__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>חובת דיווח לשר על מחסור צפוי בהיצע החשמל;</p>
+                    </content>
+                  </point>
+                  <point eId="point_5__point_ג__point_4">
+                    <num>(4)</num>
+                    <content>
+                      <p>אחריות בעל הרישיון לתכנון ולפיתוח של מערכת ההולכה וההשנאה, בהתאם לצורכי משק החשמל;</p>
+                    </content>
+                  </point>
+                  <point eId="point_5__point_ג__point_5">
+                    <num>(5)</num>
+                    <content>
+                      <p>חובה לרכוש ולאחסן סוגי דלק שמשמשים את משק החשמל, לשם הקצאתם ומכירתם לבעלי רישיונות ייצור או לאדם המייצר חשמל הפטור מחובת רישיון לפי <ref href="#point_3">סעיף 3(ב)(1)(א)</ref>; חובה לפי פסקה זו תיכנס לתוקף במועד שקבעה הרשות באישור השר.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_5__point_ד">
+                <num>(ד)</num>
+                <list>
+                  <intro>
+                    <p>רישיון חלוקה יכלול, נוסף על הוראות סעיפים קטנים (א) ו־(א1), הוראות בעניינים אלה:</p>
+                  </intro>
+                  <point eId="point_5__point_ד__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>איסור לבצע חלוקה בחטיבת קרקע, אלא בהתאם לאמות מידה שקבעה הרשות לפי <ref href="#point_30">סעיף 30(2)</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_5__point_ד__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>חובה למכור חשמל לכל צרכן באזור החלוקה שהוגדר ברישיון, לבקשתו.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_5__point_ה">
+                <num>(ה)</num>
+                <content>
+                  <p>לעניין רישיון חלוקה הניתן לפי <ref href="#point_4">סעיף 4(ב1ב)(2) או (3)</ref>, בהגדרת האזור שלגביו ניתן הרישיון, כאמור בסעיף קטן (א), תיקבע אפשרות להרחבת האזור כאמור בשל הגדלת תחום הגוף המקומי או אזור התעשייה כאמור <ref href="#point_4">בסעיף 4(ב1ג)</ref>.</p>
+                </content>
+              </point>
+              <point eId="point_5__point_ו">
+                <num>(ו)</num>
+                <content>
+                  <p>בעל רישיון חלוקה לא יבצע חלוקה באזור שנקבע ברישיונו של בעל רישיון חלוקה אחר; פעילות חלוקה באזור שנקבע ברישיון תבוצע רק בידי בעל הרישיון לאותו אזור, למעט פעילות חלוקה שמבוצעת בידי מי שפטור מרישיון חלוקה.</p>
+                </content>
+              </point>
+              <point eId="point_5__point_ז">
+                <num>(ז)</num>
+                <content>
+                  <p>רישיון אגירה יכלול, נוסף על הוראות סעיף קטן (א), את תכלית האגירה.</p>
+                </content>
+              </point>
+              <point eId="point_5__point_ח">
+                <num>(ח)</num>
+                <content>
+                  <p>רישיון לניהול המערכת, רישיון הולכה ורישיון חלוקה יכללו גם הוראות בדבר חובת בעל הרישיון להעביר מידע הנמצא ברשותו שהתקבל ממונה, לבעלי רישיון הספקה, בהסכמת הצרכן שהמונה מדד את צריכתו ובהתאם לאמות מידה שקבעה הרשות לפי <ref href="#point_30">סעיף 30(2)</ref>.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_6">
+            <heading>
+              <authorialNote placement="side">
+                <p>סייגים וכשירויות למתן רשיון</p>
+              </authorialNote>
+            </heading>
+            <num>6.</num>
+            <list>
+              <point eId="point_6__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>רשיון לפי חוק זה, למעט רשיון ספק שירות חיוני, יינתן ליחיד שהוא אזרח ישראלי, לחברה או לשותפות; רשיון ספק שירות חיוני יינתן לחברה בלבד.</p>
+                </content>
+              </point>
+              <point eId="point_6__point_ב">
+                <num>(ב)</num>
+                <list>
+                  <intro>
+                    <p>לא יינתן רשיון לפי חוק זה –</p>
+                  </intro>
+                  <point eId="point_6__point_ב__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>ליחיד שהוכרז פושט רגל, זולת אם הופטר, ולתאגיד אם מונה לו כונס נכסים או מפרק, או שהחליט על פירוק מרצון;</p>
+                    </content>
+                  </point>
+                  <point eId="point_6__point_ב__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>ליחיד שהורשע בעבירה שיש עמה, לדעת היועץ המשפטי לממשלה, קלון, לחברה, גם אם נושא משרה או בעל שליטה בה הורשע כאמור, ולשותפות, גם אם אחד מהשותפים בה הורשע כאמור.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_6__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>לא יינתן רשיון ספק שירות חיוני אלא לחברה שהתחייבה כי היא תעסוק רק בפעילויות, לפי הרשיונות שניתנו לה לפי חוק זה ובפעולות נילוות להן.</p>
+                </content>
+              </point>
+              <point eId="point_6__point_ד">
+                <num>(ד)</num>
+                <content>
+                  <p>על אף הוראות סעיף קטן (ג) בעל רשיון ספק שירות חיוני רשאי לעסוק בפעולות אחרות שאישרו לו השרים בהתייעצות עם הרשות שאין בעיסוק בהן כדי לפגוע בפעילויותיו או בפיקוח על מילוי חובותיו, הכל לפי הוראות חוק זה.</p>
+                </content>
+              </point>
+              <point eId="point_6__point_ד1">
+                <num>(ד1)</num>
+                <content>
+                  <p>לא יינתן רישיון לפי חוק זה אם לאחר קבלת הרישיון יהיה אדם, למעט המדינה, בעל רישיון לניהול המערכת או יחזיק אמצעי שליטה בבעל רישיון כאמור, וכן יהיה בעל רישיון הולכה, חלוקה, ייצור או הספקה או יחזיק אמצעי שליטה בבעל רישיון כאמור.</p>
+                </content>
+              </point>
+              <point eId="point_6__point_ה">
+                <num>(ה)</num>
+                <content>
+                  <p>לא יינתן רישיון ייצור או רישיון חלוקה למי שמחזיק אמצעי שליטה בבעל רישיון הולכה.</p>
+                </content>
+              </point>
+              <point eId="point_6__point_ו">
+                <num>(ו)</num>
+                <content>
+                  <p>
+                    <wikicomment font-size="x-small">(בוטל).</wikicomment>
+                  </p>
+                </content>
+              </point>
+              <point eId="point_6__point_ז">
+                <num>(ז)</num>
+                <list>
+                  <intro>
+                    <p>לא יינתן רישיון ייצור אם מתקיים אחד מאלה:</p>
+                  </intro>
+                  <point eId="point_6__point_ז__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>מבקש הרישיון מחזיק אמצעי שליטה בבעל רישיון חלוקה אשר מחזיק 10% או יותר מהיקף החלוקה במשק החשמל;</p>
+                    </content>
+                  </point>
+                  <point eId="point_6__point_ז__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>
+                        <wikicomment font-size="x-small">נמחקה);</wikicomment>
+                      </p>
+                    </content>
+                  </point>
+                  <point eId="point_6__point_ז__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>
+                        <wikicomment font-size="x-small">(נמחקה);</wikicomment>
+                      </p>
+                    </content>
+                  </point>
+                  <point eId="point_6__point_ז__point_4">
+                    <num>(4)</num>
+                    <content>
+                      <p>מבקש הרישיון הוא בעל רישיון הולכה.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_6__point_ח">
+                <num>(ח)</num>
+                <list>
+                  <intro>
+                    <p>לא יינתן רישיון חלוקה אם מתקיים אחד מאלה:</p>
+                  </intro>
+                  <point eId="point_6__point_ח__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>מבקש הרישיון מחזיק אמצעי שליטה בבעל רישיון ייצור אשר מחזיק 10% או יותר מהיקף כושר הייצור במשק החשמל;</p>
+                    </content>
+                  </point>
+                  <point eId="point_6__point_ח__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>מבקש הרישיון מחזיק אמצעי שליטה בבעל רישיון ייצור, ולאחר קבלת הרישיון המבוקש יחזיק 10% או יותר מהיקף החלוקה במשק החשמל;</p>
+                    </content>
+                  </point>
+                  <point eId="point_6__point_ח__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>אדם יחזיק לאחר קבלת הרישיון המבוקש 25% או יותר מהיקף החלוקה במשק החשמל.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_6__point_ט">
+                <num>(ט)</num>
+                <content>
+                  <p>
+                    <wikicomment font-size="x-small">(בוטל).</wikicomment>
+                  </p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_6א">
+            <heading>
+              <authorialNote placement="side">
+                <p>הוראות מיוחדות לעניין חברה ממשלתית</p>
+              </authorialNote>
+            </heading>
+            <num>6א.</num>
+            <list>
+              <intro>
+                <p>על חברה ממשלתית שקיבלה רישיון חלוקה, רישיון הספקה ורישיון הולכה, לפי הוראות <ref href="#point_4">סעיף 4(ב1)(2)</ref>, או חברה־בת של חברה כאמור, לא יחולו הוראות <ref href="#point_3">סעיף 3(ב)(1)(ב)</ref>, לא יינתן לה רישיון ייצור, והיא לא תעסוק בפעילות, לרבות בפעולות כמפורט להלן, בין בעבור עצמה ובין בעבור אחר שעוסק או מעוניין לעסוק בפעילות:</p>
+              </intro>
+              <point eId="point_6א__point_1">
+                <num>(1)</num>
+                <content>
+                  <p>ייצור, לרבות תכנון הנדסי, פעולות תכנון לפי <ref href="/akn/il/act/PrimaryLegislation/1965-08-12/148917">חוק התכנון</ref>, הקמה, תפעול, תחזוקה או שחלוף, והכול לגבי יחידות ייצור שמשמשות או צפוי שישמשו את משק החשמל;</p>
+                </content>
+              </point>
+              <point eId="point_6א__point_2">
+                <num>(2)</num>
+                <content>
+                  <p>ייעוץ בנוגע לפעולות האמורות בפסקה (1).</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_7">
+            <heading>
+              <authorialNote placement="side">
+                <p>תקנות וכללים לענין רשיון</p>
+              </authorialNote>
+            </heading>
+            <num>7.</num>
+            <list>
+              <point eId="point_7__point_א">
+                <num>(א)</num>
+                <list>
+                  <intro>
+                    <p>השר, בהתייעצות עם הרשות או לפי הצעתה, רשאי לקבוע –</p>
+                  </intro>
+                  <point eId="point_7__point_א__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>תנאים למתן רשיון;</p>
+                    </content>
+                  </point>
+                  <point eId="point_7__point_א__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>דרכי בחירה בין מבקשי רשיון, לפעילות מסוימת במקום או באזור מסוים, אם הוגבל מספרם של אלה, ובבואו לקבוע דרכי בחירה כאמור, ישקול השר בין השאר את תרומת מתן הרישיון לרמת השירותים לציבור, את טובת הצרכנים ואת תרומת מתן הרישיון לתחרות במשק החשמל;</p>
+                    </content>
+                  </point>
+                  <point eId="point_7__point_א__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>נהלים להגשת בקשה לרשיון;</p>
+                    </content>
+                  </point>
+                  <point eId="point_7__point_א__point_4">
+                    <num>(4)</num>
+                    <content>
+                      <p>כללים להפעלת רשיון, החובות שיחולו על בעל הרשיון, לרבות מתן ערבויות וביטוח.</p>
+                    </content>
+                  </point>
+                  <point eId="point_7__point_א__point_5">
+                    <num>(5)</num>
+                    <content>
+                      <p>לענין רישיון הולכה – אחריות של בעל רישיון ההולכה לפיתוח מערכת ההולכה וההשנאה, בהתאם לתכנית פיתוח כאמור <ref href="#point_19">בסעיף 19</ref>, ובהתאם לתכנון מערכת ההולכה וההשנאה בידי בעל רישיון לניהול המערכת;</p>
+                    </content>
+                  </point>
+                  <point eId="point_7__point_א__point_6">
+                    <num>(6)</num>
+                    <content>
+                      <p>לענין רישיון לניהול המערכת – הוראות בדבר חובתו של בעל הרישיון לבצע פעולות שיקבע השר, לשם הבטחה של רמת הפיתוח הנדרשת במערכת ייצור החשמל.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_7__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>תקנות לפי סעיף קטן (א) יותקנו, בין היתר, גם בהתחשב בסוג הרשיון, בפעילות, בתקופת תוקפו, במקום או באזור, ולענין ייצור – גם בהספק הייצור.</p>
+                </content>
+              </point>
+              <point eId="point_7__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>קבע השר תקנות לפי סעיף קטן (א)(1) או (4), רשאית הרשות, לקבוע כללים בעניינים המנויים בפסקאות האמורות, בכפוף למדיניות השר ולתקנות שקבע.</p>
+                </content>
+              </point>
+              <point eId="point_7__point_ד">
+                <num>(ד)</num>
+                <content>
+                  <p>לא קבע השר תקנות לפי סעיף קטן (א)(1) או (4), רשאית הרשות לקבוע כללים בעניינים המנויים בפסקאות האמורות, בכפוף למדיניות השר; ביקשה הרשות לקבוע כללים כאמור, תפנה לשר כדי שיבחן אם ברצונו לקבוע תקנות בעניין; לא השיב השר לפניית הרשות בתוך שישים ימים ממועד פנייתה, רשאית הרשות לקבוע כללים כאמור.</p>
+                </content>
+              </point>
+              <point eId="point_7__point_ה">
+                <num>(ה)</num>
+                <content>
+                  <p>גיבשה הרשות הצעה לתקנות בהתאם לסעיף קטן (א), רשאית היא להעמידם לעיון הציבור לשם התייעצות, ובלבד שתביא את התקנות המוצעות לעיון השר טרם ההתייעצות.</p>
+                </content>
+              </point>
+              <point eId="point_7__point_ו">
+                <num>(ו)</num>
+                <content>
+                  <p>הרשות תפרסם ברשומות ובאתר האינטרנט של הרשות את הכללים שקבעה לפי סעיפים קטנים (ג) ו־(ד).</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_7א">
+            <heading>
+              <authorialNote placement="side">
+                <p>שיקולים של הגנת הסביבה ובריאות הציבור</p>
+              </authorialNote>
+            </heading>
+            <num>7א.</num>
+            <content>
+              <p>במסגרת הפעלת סמכויותיו לפי חוק זה ולשם קידום מטרות החוק, מוסמך השר לשקול בין השאר שיקולים של הגנת הסביבה ובריאות הציבור.</p>
+            </content>
+          </point>
+          <point eId="point_8">
+            <heading>
+              <authorialNote placement="side">
+                <p>שיקולים למתן רשיון</p>
+              </authorialNote>
+            </heading>
+            <num>8.</num>
+            <list>
+              <intro>
+                <p>הרשות בבואה להחליט אם לתת רישיון לפי <ref href="#point_4">סעיף 4</ref> או לקבוע בו תנאים, ובבואה להחליט אם לתת אישור לפי <ref href="#point_11">סעיפים 11 עד 13</ref>, תפעל בהתאם למדיניות הממשלה או למדיניות השר בתחום משק החשמל, ותשקול בין השאר את אלה:</p>
+              </intro>
+              <point eId="point_8__point_1">
+                <num>(1)</num>
+                <content>
+                  <p>
+                    <wikicomment font-size="x-small">(נמחקה);</wikicomment>
+                  </p>
+                </content>
+              </point>
+              <point eId="point_8__point_2">
+                <num>(2)</num>
+                <content>
+                  <p>תרומת מתן הרשיון לרמת השירותים לציבור;</p>
+                </content>
+              </point>
+              <point eId="point_8__point_3">
+                <num>(3)</num>
+                <content>
+                  <p>טובת הצרכנים;</p>
+                </content>
+              </point>
+              <point eId="point_8__point_4">
+                <num>(4)</num>
+                <content>
+                  <p>תרומת מתן הרשיון לתחרות במשק החשמל.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_9">
+            <heading>
+              <authorialNote placement="side">
+                <p>ביטול רשיון התלייתו או שינויו</p>
+              </authorialNote>
+            </heading>
+            <num>9.</num>
+            <list>
+              <point eId="point_9__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>הרשות רשאית בכל עת לבטל רשיון או להתלותו וכן רשאית היא להוסיף בו תנאים, כללים וחובות או לשנותם, אם מצאה שהופר תנאי מתנאי הרשיון, ובכלל זה חובה לגלות מידע כנדרש לפי <ref href="#point_5">סעיף 5(א1)(2)</ref><ref href="#point_5">או 5(ח)</ref>, שנתקיים סייג מן הסייגים לקבלתו או שחדלה להתקיים הכשירות הנדרשת לפי חוק זה.</p>
+                </content>
+              </point>
+              <point eId="point_9__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>הרשות רשאית לפעול כאמור בסעיף קטן (א) גם שלא מאחת הסיבות המנויות בו, מהשיקולים המנויים <ref href="#point_8">בסעיף 8</ref>.</p>
+                </content>
+              </point>
+              <point eId="point_9__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>הרשות לא תעשה שימוש בסמכויותיה לפי סעיפים קטנים (א) ו־(ב) אלא אם כן נתנה לבעל הרשיון הזדמנות להשמיע טענותיו.</p>
+                </content>
+              </point>
+              <point eId="point_9__point_ג1">
+                <num>(ג1)</num>
+                <content>
+                  <p>הרשות לא תעשה שימוש בסמכויותיה לפי סעיפים קטנים (א) או (ב), בנוגע לרישיונות הטעונים אישור של השר כאמור <ref href="#point_4">בסעיף 4(ב2)</ref>, אלא באישור השר; האמור בסעיף קטן זה לא יחול לעניין סמכותה של הרשות לבטל רישיון או להתלותו לפי סעיף קטן (א).</p>
+                </content>
+              </point>
+              <point eId="point_9__point_ד">
+                <num>(ד)</num>
+                <content>
+                  <p>השרים רשאים לקבוע כללים למתן פיצוי בשל פעולות לפי סעיף קטן (ב) ויכול שעל פי כללים כאמור, יהיה שיעור הפיצוי אפס.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_10">
+            <heading>
+              <authorialNote placement="side">
+                <p>ביצוע פעולות בידי יושב ראש הרשות</p>
+              </authorialNote>
+            </heading>
+            <num>10.</num>
+            <list>
+              <point eId="point_10__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>לא קיים בעל רשיון הוראה לפי חוק זה, או הוראה שברשיון, ויושב ראש הרשות שוכנע כי אי קיום ההוראה מהווה סכנה ממשית ומיידית לאדם או לרכוש, רשאי הוא לבצע את כל הדרוש לשם מניעת הסכנה האמורה במקום בעל הרשיון או למנות אדם שיופקד על הביצוע (להלן – הממונה), ולגבות מבעל הרשיון את כל ההוצאות שהוציא לשם כך; על גביית ההוצאות כאמור תחול <ref href="/akn/il/act/PrimaryLegislation/1933-12-31/2001803">פקודת המסים (גביה)</ref>, כאילו היו ההוצאות מס כהגדרתו <ref href="/akn/il/act/PrimaryLegislation/1933-12-31/2001803">באותה פקודה</ref>.</p>
+                </content>
+              </point>
+              <point eId="point_10__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>יושב ראש הרשות לא יפעל כאמור בסעיף קטן (א), אלא לאחר שדרש בכתב מבעל הרשיון לבצע את כל הדרוש למניעת הסכנה, תוך זמן שנקבע בהודעה, ובעל הרשיון לא ביצע את הנדרש, ובלבד שבנסיבות הענין היתה שהות למתן הדרישה.</p>
+                </content>
+              </point>
+              <point eId="point_10__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>במילוי תפקידיו לפי סעיף זה, יפעל הממונה לפי הוראות יושב ראש הרשות ויהיו לו כל הסמכויות הדרושות לשם כך.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_11">
+            <heading>
+              <authorialNote placement="side">
+                <p>הגבלות על העברת רשיון שיעבוד עיקול או שינוי מבנה</p>
+              </authorialNote>
+            </heading>
+            <num>11.</num>
+            <list>
+              <point eId="point_11__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>רשיון או כל חלק ממנו אינם ניתנים להעברה, לשיעבוד או לעיקול, במישרין או בעקיפין, אלא באישור הרשות.</p>
+                </content>
+              </point>
+              <point eId="point_11__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>הרשות רשאית לקבוע ברשיון, כי נכסים מסוימים של בעל הרשיון, הדרושים לדעת הרשות לביצוע הפעילות לפי הוראות הרשיון, אינם ניתנים להעברה, לשיעבוד או לעיקול, במישרין או בעקיפין, אלא באישור הרשות.</p>
+                </content>
+              </point>
+              <point eId="point_11__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>ערבויות שהמציא בעל הרשיון, וכספים שנתקבלו ממימושן, אינם ניתנים לעיקול או לשיעבוד.</p>
+                </content>
+              </point>
+              <point eId="point_11__point_ד">
+                <num>(ד)</num>
+                <content>
+                  <p>הרשות רשאית לקבוע ברשיון כי שינוי או ארגון מחדש בבעל רשיון לרבות מיזוג, פיצול, פשרה, הסדר או פירוק מרצון, טעונים אישור הרשות.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_12">
+            <heading>
+              <authorialNote placement="side">
+                <p>העברת שליטה</p>
+              </authorialNote>
+            </heading>
+            <num>12.</num>
+            <list>
+              <point eId="point_12__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>לא יעביר ולא ירכוש אדם שליטה בבעל רשיון או זכויות בשותפות שהיא בעל רשיון, במישרין או בעקיפין, אלא באישור הרשות.</p>
+                </content>
+              </point>
+              <point eId="point_12__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>הרשות רשאית לאשר העברת שליטה או העברת זכויות בשותפות, ובלבד שנתקיימו במקבל ההעברה התנאים הנדרשים למתן הרשיון לפי חוק זה.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_13">
+            <heading>
+              <authorialNote placement="side">
+                <p>החזקת אמצעי שליטה</p>
+              </authorialNote>
+            </heading>
+            <num>13.</num>
+            <list>
+              <point eId="point_13__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>בעל רשיון או המחזיק אמצעי שליטה בבעל רשיון, לא ירכוש ולא יחזיק אמצעי שליטה בבעל רשיון נוסף, אלא באישור הרשות.</p>
+                </content>
+              </point>
+              <point eId="point_13__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>בנוסף להוראות <ref href="#point_12">סעיף 12</ref>, לא יהיה אדם מחזיק אמצעי שליטה בבעל רשיון ספק שירות חיוני, אלא באישור הרשות.</p>
+                </content>
+              </point>
+              <point eId="point_13__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>החזיק אדם אמצעי שליטה בניגוד להוראות לפי חוק זה או לרישיונות שניתנו לו, לא יופעלו מכוח אמצעי השליטה המוחזקים כאמור, זכויות הצבעה למינוי דירקטורים, זכויות לקבלת דיבידנדים או כל זכות אחרת.</p>
+                </content>
+              </point>
+              <point eId="point_13__point_ד">
+                <num>(ד)</num>
+                <content>
+                  <p>הוראות סעיף זה לא יחולו על המדינה.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_14">
+            <heading>
+              <authorialNote placement="side">
+                <p>הגבלות על ספק שירות חיוני</p>
+              </authorialNote>
+            </heading>
+            <num>14.</num>
+            <list>
+              <point eId="point_14__point_א">
+                <num>(א)</num>
+                <list>
+                  <intro>
+                    <p>השר, בהתייעצות עם שר האוצר ובאישור הממשלה, רשאי בכל עת לקבוע בצו כי על בעל רשיון ספק שירות חיוני מסוים או דרך כלל, יחולו ההוראות הבאות, כולן או מקצתן:</p>
+                  </intro>
+                  <point eId="point_14__point_א__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>קביעה שלפיה תובטח השליטה בו בידי אזרח ישראלי ותושב ישראל, לרבות קביעת שיעור מרבי של אמצעי שליטה שיוחזקו, במישרין או בעקיפין, בידי מי שאינו אזרח או תושב כאמור;</p>
+                    </content>
+                  </point>
+                  <point eId="point_14__point_א__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>דרישה מטעמים של בטחון המדינה, כי נושאי משרה ובעלי תפקידים מסוימים בו כפי שיקבע, כולם או מקצתם, יהיו אזרחי ישראל ותושביה, וכי כולם או מקצתם יהיו בעלי סיווג בטחוני כפי שייקבע.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_14__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>השר לא יתן צו כאמור בסעיף קטן (א), אלא לאחר שנתן למי שחל עליו הצו הזדמנות להשמיע טענותיו.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_15">
+            <heading>
+              <authorialNote placement="side">
+                <p>פעולות אסורות ואכיפה</p>
+              </authorialNote>
+            </heading>
+            <num>15.</num>
+            <list>
+              <point eId="point_15__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>פעולה שנעשתה בניגוד להוראות <ref href="#point_11">סעיפים 11 עד 14</ref> או בניגוד להוראות שנקבעו לפיהם – בטלה.</p>
+                </content>
+              </point>
+              <point eId="point_15__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>מבלי לגרוע מהוראות סעיף קטן (א), אדם אינו רשאי לממש את זכויותיו כתוצאה מפעולה שנעשתה בניגוד להוראות <ref href="#point_11">סעיפים 11 עד 14</ref>, במישרין או בעקיפין, למעט מכירתן של הזכויות או השתתפות ברווחי תאגיד.</p>
+                </content>
+              </point>
+              <point eId="point_15__point_ב1">
+                <num>(ב1)</num>
+                <content>
+                  <p>להבטחת אכיפתם של <ref href="#point_11">סעיפים 11 עד 13</ref> וסעיף זה, וכן לצורכי פיקוח, רשאית הרשות לקבוע בכללים שתפרסם ברשומות ובאתר האינטרנט של הרשות תנאים, הוראות, הגבלות וחובות דיווח, לרבות הוראות לעניין ניהול ורישום מיוחד של המחזיקים בניירות ערך של בעל הרישיון, במישרין או בעקיפין.</p>
+                </content>
+              </point>
+              <point eId="point_15__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>להבטחת אכיפתם של <ref href="#point_14">סעיף 14</ref> וסעיף זה, וכן לצורכי פיקוח, רשאי השר לקבוע תנאים, הוראות, הגבלות וחובות דיווח, לרבות הוראות לענין ניהול ורישום מיוחד של המחזיקים בניירות ערך של בעל רישיון ספק שירות חיוני, במישרין או בעקיפין.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_16">
+            <heading>
+              <authorialNote placement="side">
+                <p>אגרות</p>
+              </authorialNote>
+            </heading>
+            <num>16.</num>
+            <content>
+              <p>השרים רשאים לקבוע, דרך כלל או לסוגים, באישור ועדת הכספים של הכנסת, אגרות שעל מבקש רשיון או בעל רשיון, לשלם.</p>
+            </content>
+          </point>
+        </list>
+      </chapter>
+      <chapter eId="chp_ג">
+        <num>פרק ג׳ –</num>
+        <title>
+          <content>
+            <p>בעל רשיון ספק שירות חיוני</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_17">
+            <heading>
+              <authorialNote placement="side">
+                <p>חובות בעל רשיון ספק שירות חיוני</p>
+              </authorialNote>
+            </heading>
+            <num>17.</num>
+            <list>
+              <point eId="point_17__point_א">
+                <num>(א)</num>
+                <list>
+                  <intro>
+                    <p>בעל רשיון ספק שירות חיוני –</p>
+                  </intro>
+                  <point eId="point_17__point_א__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>יתן שירות לכלל הציבור בלא הפליה, בהתאם לאמות המידה שקבעה הרשות, באמינות וביעילות, והכל לפי תנאי רשיונו ולפי כל דין;</p>
+                    </content>
+                  </point>
+                  <point eId="point_17__point_א__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>ירכוש חשמל מבעלי רישיון ייצור, מבעלי רישיון אגירה או ממי שמייצרים או מבצעים אגירה של חשמל הפטורים מחובת רישיון לפי <ref href="#point_3">סעיף 3(ב)(1)(א) או (ב)</ref>, כולם או חלקם, ויתן שירותי תשתית ושירותי גיבוי, הכל בהתאם לתנאי רשיונו ולפי כל דין;</p>
+                    </content>
+                  </point>
+                  <point eId="point_17__point_א__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>יתן שירותי גיבוי לבעל רשיון ייצור עצמי, לפי בקשתו, הכל בהתאם לתנאי רשיונו ולפי כל דין;</p>
+                    </content>
+                  </point>
+                  <point eId="point_17__point_א__point_4">
+                    <num>(4)</num>
+                    <content>
+                      <p>יפעל להבטחת מתן מלוא שירותיו במשך כל תקופת רשיונו, לרבות מתן שירותים לפי תכנית הפיתוח שאושרה לפי <ref href="#point_19">סעיף 19</ref>, תוך עשיית כל הפעולות הדרושות למתן השירותים כאמור.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_17__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>בעל רשיון ספק שירות חיוני יערוך דו"חות כספיים כפי שקבעו השרים, בהתייעצות עם שר המשפטים לענין מידת הפירוט בהם, העקרונות החשבונאיים לעריכתם, ההצהרות והביאורים שיצורפו אליהם.</p>
+                </content>
+              </point>
+              <point eId="point_17__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>בעל רשיון ספק שירות חיוני יגבה תשלומים בהתאם לתעריפים שקבעה הרשות.</p>
+                </content>
+              </point>
+              <point eId="point_17__point_ג1">
+                <num>(ג1)</num>
+                <content>
+                  <p>בעל רישיון ספק שירות חיוני ישלם תשלומים לבעל רישיון או לצרכן, והכל בהתאם לתעריפים שקבעה הרשות.</p>
+                </content>
+              </point>
+              <point eId="point_17__point_ד">
+                <num>(ד)</num>
+                <content>
+                  <p>הרשות תקבע אמות מידה שלפיהן יהיה רשאי בעל רשיון ספק שירות חיוני שלא לתת את השירות או שלא לבצע את הרכישה שבהם הוא חייב לפי חוק זה, להפסיקם, לעכבם או להגבילם, אם לא שולמו לבעל הרשיון התשלומים בעדם לפי כל דין או לא נתקיימו התנאים למתן השירות או לביצוע הרכישה כדין.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_17א">
+            <heading>
+              <authorialNote placement="side">
+                <p>ביטול רישיון ספק שירות חיוני בשל אי־ביצוע תשלום</p>
+              </authorialNote>
+            </heading>
+            <num>17א.</num>
+            <content>
+              <p>נוכחה הרשות כי בעל רישיון ספק שירות חיוני לא ביצע תשלום המגיע ממנו לבעל רישיון אחר, תבטל הרשות את רישיונו של אותו בעל רישיון ספק שירות חיוני, לאחר שהתרתה בו; בסעיף זה, ”תשלום“ – תשלום הנדרש מבעל רישיון ספק שירות חיוני לפי חוק זה או לפי תנאי רישיונו.</p>
+            </content>
+          </point>
+          <point eId="point_18">
+            <heading>
+              <authorialNote placement="side">
+                <p>תחולת החוק על פעולות ספק שירות חיוני</p>
+              </authorialNote>
+            </heading>
+            <num>18.</num>
+            <list>
+              <point eId="point_18__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>הוראות חוק זה, לענין בעל רשיון ספק שירות חיוני, יחולו עליו בין אם הוא בעל רשיון לפעילות נוספת לפי חוק זה ובין אם לאו, והן יחולו גם על כל הפעילויות הנוספות כאמור, שלגביהן הוא בעל רשיון.</p>
+                </content>
+              </point>
+              <point eId="point_18__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>השר רשאי, בהתאם למצב העובדתי במשק החשמל, לקבוע מעת לעת, כי בעל רשיון או רשיונות ייצור מרכז בידיו חלק מהותי מהייצור במשק החשמל, ומשקבע כאמור יחולו עליו הוראות חוק זה לענין בעל רשיון ספק שירות חיוני.</p>
+                </content>
+              </point>
+              <point eId="point_18__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>על יצרן חשמל ועל בעל רשיון שבידיו שליטה, במישרין או בעקיפין, ביצרן חשמל, יחולו הוראות חוק זה לענין בעל רשיון ספק שירות חיוני, למעט הוראות <ref href="#point_17">סעיף 17(א)(2)</ref>.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_19">
+            <heading>
+              <authorialNote placement="side">
+                <p>תכנית פיתוח</p>
+              </authorialNote>
+            </heading>
+            <num>19.</num>
+            <list>
+              <point eId="point_19__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>השר בהתייעצות עם הרשות ובהסכמת שר האוצר רשאי לדרוש מבעל רישיון לניהול המערכת ומבעל רישיון חלוקה להגיש לאישורו, באופן ובמועד שיידרש, תכנית פיתוח, שלמה או בחלקים, לצורך פעילויותיו לפי הוראות הרשיון; אישר השר בהתייעצות עם הרשות ובהסכמת שר האוצר את התכנית, לא יפעל בעל רשיון ספק שירות חיוני אלא בהתאם לתכנית שאושרה, לרבות שינויים שאושרו בה כאמור בסעיף קטן (א4), ולחובות החלות עליו לפי כל דין ובכלל זה לפי הוראות <ref href="#point_17">סעיף 17</ref>.</p>
+                </content>
+              </point>
+              <point eId="point_19__point_א1">
+                <num>(א1)</num>
+                <content>
+                  <p>בעל רישיון לניהול מערכת יכלול בתכנית הפיתוח למערכת ההולכה וההשנאה שהוא מגיש לפי סעיף קטן (א), לוחות זמנים לביצוע הפעולות הכלולות בתכנית.</p>
+                </content>
+              </point>
+              <point eId="point_19__point_א2">
+                <num>(א2)</num>
+                <list>
+                  <intro>
+                    <p>לפני הגשת תכנית פיתוח למערכת ההולכה וההשנאה לאישור לפי סעיף קטן (א), יתייעץ בעל רישיון לניהול המערכת עם בעל רישיון הולכה בנוגע ללוחות הזמנים לביצוע הפעולות הכלולות בתכנית ולחלופות לפעולות אלה; התגלעו חילוקי דעות בין בעלי הרישיונות האמורים לגבי ההיתכנות לביצוע הפעולות, ובכלל זה ההיתכנות לביצוען בלוחות הזמנים כאמור (בסעיף קטן זה – מחלוקת) –</p>
+                  </intro>
+                  <point eId="point_19__point_א2__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>יגיש בעל רישיון לניהול המערכת לשר, נוסף על תכנית הפיתוח כאמור שערך, גם את עמדת בעל רישיון ההולכה במחלוקת;</p>
+                    </content>
+                  </point>
+                  <point eId="point_19__point_א2__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>יציין השר, בפנייתו לרשות ולשר האוצר לפי סעיף קטן (א), את המחלוקת, ויעביר להם את העמדות כפי שהוגשו לו.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_19__point_א3">
+                <num>(א3)</num>
+                <content>
+                  <p>בעל רישיון חלוקה יערוך את תכנית הפיתוח לרשת החשמל המשמשת לחלוקה שהוא מגיש לפי סעיף קטן (א) בהתאם להנחיות בעל רישיון לניהול המערכת לעניין נקודות החיבור והשפעות הגומלין בין מערכת ההולכה למערכת החלוקה;</p>
+                </content>
+              </point>
+              <point eId="point_19__point_א4">
+                <num>(א4)</num>
+                <content>
+                  <p>תכנית פיתוח שאושרה כאמור בסעיף קטן (א) יכול שתכלול הוראות לעניין אישור שינויים בתכנית, ובכלל זה הגורם המוסמך לאשרם.</p>
+                </content>
+              </point>
+              <point eId="point_19__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>לא הגיש בעל רישיון לניהול מערכת או בעל רישיון חלוקה תכנית פיתוח לפי הוראות סעיפים קטנים (א) עד (א3), לפי העניין, רשאי השר, בהתייעצות עם הרשות ובהסכמת שר האוצר לקבוע לו תכנית פיתוח; קבע השר תכנית פיתוח כאמור, יהיה על בעל רישיון ספק שירות חיוני לפעול לפיה ולפי החובות החלות עליו לפי כל דין ובכלל זה לפי הוראות <ref href="#point_17">סעיף 17</ref>; לפני שהשר יקבע תכנית פיתוח לרשת חשמל המשמשת לחלוקה לפי הוראות סעיף קטן זה, הוא ישמע את עמדתו של בעל רישיון לניהול המערכת לעניין נקודות החיבור והשפעות הגומלין בין מערכת ההולכה למערכת החלוקה, ויחולו לעניין אישור שינויים בתכנית כאמור בסעיף קטן זה הוראות סעיפים קטנים (א) ו־(א4).</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_20">
+            <heading>
+              <authorialNote placement="side">
+                <p>עסקאות בעל רשיון ספק חיוני או שירות לאחר</p>
+              </authorialNote>
+            </heading>
+            <num>20.</num>
+            <list>
+              <point eId="point_20__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>
+                    <wikicomment font-size="x-small">(בוטל).</wikicomment>
+                  </p>
+                </content>
+              </point>
+              <point eId="point_20__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>עסקאות עם בעל רשיון ספק שירות חיוני כאמור <ref href="#point_17">בסעיף 17(א)(2) ו־(3)</ref> ייערכו בהתאם לכללים שקבעה הרשות ושיפורסמו ברשומות ובאתר האינטרנט של הרשות; בכללים כאמור ייקבעו המקרים שבהם תהיה הרשות רשאית לתת הוראות אחרות לענין עסקה מסוימת.</p>
+                </content>
+              </point>
+              <point eId="point_20__point_ג">
+                <num>(ג)</num>
+                <list>
+                  <intro>
+                    <p>בעל רשיון ייצור עצמי רשאי למכור חשמל, כפי שיוסכם בין הצדדים, בהתקיים אחד מאלה:</p>
+                  </intro>
+                  <point eId="point_20__point_ג__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>המכירה היא לבעל רשיון ספק שירות חיוני;</p>
+                    </content>
+                  </point>
+                  <point eId="point_20__point_ג__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>המכירה היא לתאגיד הנמנה עם תשלובת חברות שעמה נמנה בעל הרשיון ולשם כך אין צורך להוליך חשמל דרך מקרקעין שאין בהם זכויות למי שאינו נמנה עם אותה תשלובת; לענין זה ”תשלובת“ – כמשמעותה <ref href="/akn/il/act/PrimaryLegislation/1968-08-22/150242">בחוק ניירות ערך, התשכ"ח–1968</ref>.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+            </list>
+          </point>
+        </list>
+      </chapter>
+      <chapter eId="chp_ד">
+        <num>פרק ד׳ –</num>
+        <title>
+          <content>
+            <p>רשות החשמל</p>
+          </content>
+        </title>
+        <section eId="chp_ד__sec_א">
+          <num>סימן א׳ –</num>
+          <title>
+            <content>
+              <p>הרכב הרשות, סמכויותיה ותפקידיה</p>
+            </content>
+          </title>
+          <list>
+            <point eId="point_21">
+              <heading>
+                <authorialNote placement="side">
+                  <p>הקמת הרשות</p>
+                </authorialNote>
+              </heading>
+              <num>21.</num>
+              <content>
+                <p>מוקמת בזה רשות החשמל במשרד שתפעל בהתאם למטרותיו של חוק זה ובהתאם למדיניות השר ולמדיניות הממשלה בהתאם לסמכויותיהם לפי כל דין, בתחום משק החשמל, תיישם את מדיניותם בהתאם להוראות חוק זה וכן תפקח על מילוי ההוראות לפי חוק זה ולפי הרישיונות ותמלא את התפקידים שנקבעו לה בחוק זה ושהוטלו עליה לפי כל דין אחר.</p>
+              </content>
+            </point>
+            <point eId="point_21א">
+              <heading>
+                <authorialNote placement="side">
+                  <p>ייעוץ טרם קביעת מדיניות</p>
+                </authorialNote>
+              </heading>
+              <num>21א.</num>
+              <list>
+                <point eId="point_21א__point_א">
+                  <num>(א)</num>
+                  <content>
+                    <p>הרשות תהיה הגורם המקצועי במשרד בתחום משק החשמל, המסייע לשר בגיבוש מדיניותו כאמור <ref href="#point_57א">בסעיף 57א</ref>.</p>
+                  </content>
+                </point>
+                <point eId="point_21א__point_ב">
+                  <num>(ב)</num>
+                  <content>
+                    <p>בגיבוש עקרונות המדיניות יתייעץ השר עם הרשות כגורם המקצועי במשרד בתחום משק החשמל, לרבות בעניין עלויות הנובעות מיישום המדיניות; עמדת הרשות תפורסם באתר האינטרנט שלה, לאחר שעקרונות המדיניות פורסמו באתר האינרטנט של המשרד בהתאם להוראות <ref href="#point_57א">סעיף 57א(ב)</ref>.</p>
+                  </content>
+                </point>
+                <point eId="point_21א__point_ג">
+                  <num>(ג)</num>
+                  <content>
+                    <p>הרשות תייעץ לממשלה בקביעת מדיניות בתחום משק החשמל, אם התבקשה לכך על ידי השר.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_22">
+              <heading>
+                <authorialNote placement="side">
+                  <p>מינוי הרשות והרכבה</p>
+                </authorialNote>
+              </heading>
+              <num>22.</num>
+              <list>
+                <point eId="point_22__point_א">
+                  <num>(א)</num>
+                  <content>
+                    <p>הרשות תהיה מורכבת מחמישה חברים; חברי הרשות יהיו אזרחי ישראל ותושביה.</p>
+                  </content>
+                </point>
+                <point eId="point_22__point_ב">
+                  <num>(ב)</num>
+                  <list>
+                    <intro>
+                      <p>הרכב הרשות הוא:</p>
+                    </intro>
+                    <point eId="point_22__point_ב__point_1">
+                      <num>(1)</num>
+                      <content>
+                        <p>יושב ראש הרשות, שתמנה הממשלה לפי הצעת השר בהתייעצות עם שר האוצר;</p>
+                      </content>
+                    </point>
+                    <point eId="point_22__point_ב__point_2">
+                      <num>(2)</num>
+                      <content>
+                        <p>המנהל הכללי של המשרד שיכהן מתוקף תפקידו, או נציג השר שתמנה הממשלה לפי הצעת השר מקרב עובדי משרדו;</p>
+                      </content>
+                    </point>
+                    <point eId="point_22__point_ב__point_3">
+                      <num>(3)</num>
+                      <content>
+                        <p>הממונה על התקציבים במשרד האוצר שיכהן מתוקף תפקידו, או נציג שר האוצר שתמנה הממשלה לפי הצעת שר האוצר מקרב עובדי משרדו;</p>
+                      </content>
+                    </point>
+                    <point eId="point_22__point_ב__point_4">
+                      <num>(4)</num>
+                      <content>
+                        <p>נציג מקרב הציבור שתמנה הממשלה לפי הצעת השר, שהוא בעל תואר אקדמי באחד ממקצועות אלה: כלכלה, ראיית חשבון, מינהל עסקים, הנדסה או מקצוע אחר בתחום משק החשמל, ולו ניסיון מצטבר של חמש שנים לפחות בתחומים האמורים;</p>
+                      </content>
+                    </point>
+                    <point eId="point_22__point_ב__point_5">
+                      <num>(5)</num>
+                      <content>
+                        <p>נציג מקרב הציבור שתמנה הממשלה לפי הצעת שר האוצר, שהוא בעל תואר אקדמי באחד ממקצועות אלה: כלכלה, ראיית חשבון, מינהל עסקים, הנדסה או מקצוע אחר בתחום משק החשמל, ולו נייסון מצטבר של חמש שנים לפחות בתחומים האמורים.</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+                <point eId="point_22__point_ג">
+                  <num>(ג)</num>
+                  <content>
+                    <p>חברי הרשות כאמור בסעיף קטן (ב)(2) עד (5) ימונו לתקופה של שלוש שנים וניתן לחזור ולמנותם, ובלבד שלא יכהנו יותר משתי תקופות כהונה רצופות.</p>
+                  </content>
+                </point>
+                <point eId="point_22__point_ד">
+                  <num>(ד)</num>
+                  <content>
+                    <p>הודעה על מינוי חברי הרשות תפורסם ברשומות.</p>
+                  </content>
+                </point>
+                <point eId="point_22__point_ה">
+                  <num>(ה)</num>
+                  <content>
+                    <p>לישיבות הרשות יוזמן משקיף מקרב עובדי המשרד להגנת הסביבה, שתמנה הממשלה לפי הצעת השר להגנת הסביבה, ויחולו עליו הוראות סעיפים קטנים (ג) ו־(ד), <ref href="#point_23">וסעיפים 23</ref><ref href="#point_29">ו־29</ref>, בשינויים המחויבים.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_23">
+              <heading>
+                <authorialNote placement="side">
+                  <p>חובת גילוי ואיסור התקשרות</p>
+                </authorialNote>
+              </heading>
+              <num>23.</num>
+              <list>
+                <point eId="point_23__point_א">
+                  <num>(א)</num>
+                  <content>
+                    <p>לא יתמנה ולא יכהן כחבר הרשות מי שעלול להימצא, במישרין או בעקיפין, במצב של ניגוד ענינים בין תפקידו כחבר הרשות לבין ענין אחר שלו או של בן משפחתו או של תאגיד שהוא או בן משפחתו הינם בעלי ענין בהם.</p>
+                  </content>
+                </point>
+                <point eId="point_23__point_ב">
+                  <num>(ב)</num>
+                  <content>
+                    <p>חבר רשות שעשוי להיות לו ענין, במישרין או בעקיפין, בנושא העומד לדיון ברשות, יודיע על כך בכתב ליושב ראש הרשות, מיד לאחר שנודע לו כי הנושא האמור עומד לדיון, ולא יהיה נוכח בדיוני הרשות באותו נושא.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_24">
+              <heading>
+                <authorialNote placement="side">
+                  <p>ישיבות הרשות</p>
+                </authorialNote>
+              </heading>
+              <num>24.</num>
+              <content>
+                <p>ישיבות הרשות יתקיימו לפחות אחת לחודש; הרשות תקיים ישיבה מיוחדת אם דרשו זאת לפחות שניים מחבריה; הישיבה תתקיים תוך שבעה ימים מיום הדרישה, זולת אם בנסיבות הענין נדרש לקיימה תוך זמן קצר יותר; בישיבה תדון הרשות בנושאים המפורטים בדרישה.</p>
+              </content>
+            </point>
+            <point eId="point_25">
+              <heading>
+                <authorialNote placement="side">
+                  <p>סדרי עבודת הרשות</p>
+                </authorialNote>
+              </heading>
+              <num>25.</num>
+              <list>
+                <point eId="point_25__point_א">
+                  <num>(א)</num>
+                  <content>
+                    <p>המנין החוקי בישיבת הרשות הוא רוב חבריה.</p>
+                  </content>
+                </point>
+                <point eId="point_25__point_ב">
+                  <num>(ב)</num>
+                  <content>
+                    <p>החלטות הרשות יתקבלו ברוב דעות של החברים הנוכחים המצביעים באותה ישיבה, ובמקרה של קולות שקולים יהיה ליושב ראש הרשות קול נוסף.</p>
+                  </content>
+                </point>
+                <point eId="point_25__point_ג">
+                  <num>(ג)</num>
+                  <content>
+                    <p>הרשות תקבע לעצמה את דרכי עבודתה ונוהלי דיוניה, ככל שאלה לא נקבעו בחוק זה או על פיו.</p>
+                  </content>
+                </point>
+                <point eId="point_25__point_ד">
+                  <num>(ד)</num>
+                  <list>
+                    <point eId="point_25__point_ד__point_1">
+                      <num>(1)</num>
+                      <content>
+                        <p>סבר השר כי החלטה שקיבלה הרשות אינה תואמת את מדיניותו או את מדיניות הממשלה בתחום משק החשמל, או את מטרות החוק, רשאי הוא, בתוך 30 ימים מהמועד שבו הביאה הרשות את ההחלטה לידיעתו, להצביע לפני הרשות על ההיבטים שבהם חרגה ההחלטה לדעתו מהמדיניות כאמור או ממטרות החוק, ולהורות לרשות על קיום דיון נוסף בעניין;</p>
+                      </content>
+                    </point>
+                    <point eId="point_25__point_ד__point_2">
+                      <num>(2)</num>
+                      <content>
+                        <p>הורה השר כאמור בפסקה (1), תושהה החלטת הרשות עד לעריכת דיון נוסף בנושא, לשם בחינת ההתאמות, אם הן נדרשות לדעת הרשות; דיון נוסף כאמור יתקיים בתוך חודשיים מהמועד שבו הורה השר לרשות לקיימו; מצאה הרשות שהחלטתה תואמת את המדיניות כאמור או את מטרות החוק, ואין צורך בשינויה, תפרט את נימוקי החלטתה והשהיית ההחלטה תבוטל;</p>
+                      </content>
+                    </point>
+                    <point eId="point_25__point_ד__point_3">
+                      <num>(3)</num>
+                      <content>
+                        <p>הוראות סעיף קטן זה לא יחולו על החלטות הרשות בעניין תעריפים, שלגביהן יישמר שיקול דעתה המקצועי הבלעדי כאמור <ref href="#point_30">בסעיף 30(1)</ref> ועל החלטות הרשות בדיון נוסף כאמור בסעיף קטן זה.</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+              </list>
+            </point>
+            <point eId="point_26">
+              <heading>
+                <authorialNote placement="side">
+                  <p>תוקף</p>
+                </authorialNote>
+              </heading>
+              <num>26.</num>
+              <content>
+                <p>קיום הרשות, סמכויותיה ותוקף החלטותיה, לא ייפגעו מחמת שנתפנה מקומו של חבר הרשות.</p>
+              </content>
+            </point>
+            <point eId="point_27">
+              <heading>
+                <authorialNote placement="side">
+                  <p>הוצאות וגמול</p>
+                </authorialNote>
+              </heading>
+              <num>27.</num>
+              <content>
+                <p>חברי הרשות מקרב הציבור יקבלו גמול והחזר הוצאות בעד שירותם ברשות בהתאם <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/תקנות_החברות_הממשלתיות_כללים_בדבר_גמול_והוצאות_לדירקטור_מקרב_הציבור_בחברות_ממשלתיות">לתקנות החברות הממשלתיות (כללים בדבר גמול והוצאות לדירקטור מקרב הציבור בחברות ממשלתיות), התשנ"ד–1994</ref>, ולשם כך תיחשב הרשות לחברה בסיווג הגבוה ביותר.</p>
+              </content>
+            </point>
+            <point eId="point_28">
+              <heading>
+                <authorialNote placement="side">
+                  <p>החלת דינים על הרשות</p>
+                </authorialNote>
+              </heading>
+              <num>28.</num>
+              <list>
+                <intro>
+                  <p>חברי הרשות, שאינם עובדי המדינה, דינם כדין עובדי המדינה לענין חיקוקים אלה:</p>
+                </intro>
+                <point eId="point_28__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>
+                      <ref href="/akn/il/act/PrimaryLegislation/1969-04-14/2002229">חוק הבחירות לכנסת ולראש הממשלה [נוסח משולב], התשכ"ט–1969</ref>;</p>
+                  </content>
+                </point>
+                <point eId="point_28__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>
+                      <ref href="/akn/il/act/PrimaryLegislation/1959-08-14/148673">חוק שירות המדינה (סיוג פעילות מפלגתית ומגבית כספים), התשי"ט–1959</ref>;</p>
+                  </content>
+                </point>
+                <point eId="point_28__point_3">
+                  <num>(3)</num>
+                  <content>
+                    <p>
+                      <ref href="/akn/il/act/PrimaryLegislation/1979-11-01/148674">חוק שירות הציבור (מתנות), התש"ם–1979</ref>;</p>
+                  </content>
+                </point>
+                <point eId="point_28__point_4">
+                  <num>(4)</num>
+                  <content>
+                    <p>
+                      <ref href="/akn/il/act/PrimaryLegislation/1977-08-04/2002251">חוק העונשין, התשל"ז–1977</ref> – ההוראות הנוגעות לעובדי הציבור;</p>
+                  </content>
+                </point>
+                <point eId="point_28__point_5">
+                  <num>(5)</num>
+                  <content>
+                    <p>
+                      <ref href="/akn/il/act/PrimaryLegislation/1971-04-28/2002283">פקודת הראיות [נוסח חדש], התשל"א–1971</ref>;</p>
+                  </content>
+                </point>
+                <point eId="point_28__point_6">
+                  <num>(6)</num>
+                  <content>
+                    <p>
+                      <ref href="/akn/il/act/PrimaryLegislation/1968-04-17/2002279">פקודת הנזיקין [נוסח חדש]</ref>;</p>
+                  </content>
+                </point>
+                <point eId="point_28__point_5">
+                  <num>(5)</num>
+                  <content>
+                    <p>
+                      <ref href="/akn/il/act/PrimaryLegislation/1969-07-03/148676">חוק שירות הציבור (הגבלות לאחר פרישה), התשכ"ט–1969</ref>.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_29">
+              <heading>
+                <authorialNote placement="side">
+                  <p>פקיעת כהונה</p>
+                </authorialNote>
+              </heading>
+              <num>29.</num>
+              <list>
+                <point eId="point_29__point_א">
+                  <num>(א)</num>
+                  <list>
+                    <intro>
+                      <p>חבר הרשות יחדל לכהן בה לפני תום תקופת כהונתו, אם נתקיים אחד מאלה:</p>
+                    </intro>
+                    <point eId="point_29__point_א__point_1">
+                      <num>(1)</num>
+                      <content>
+                        <p>התפטר במסירת כתב התפטרות לממשלה;</p>
+                      </content>
+                    </point>
+                    <point eId="point_29__point_א__point_2">
+                      <num>(2)</num>
+                      <content>
+                        <p>נבצר ממנו דרך קבע למלא תפקידו, והממשלה, על פי הצעת השר שלפי הצעתו נתמנה אותו חבר, העבירה אותו מכהונתו בהודעה בכתב;</p>
+                      </content>
+                    </point>
+                    <point eId="point_29__point_א__point_3">
+                      <num>(3)</num>
+                      <content>
+                        <p>הורשע בעבירה שלדעת היועץ המשפטי לממשלה יש עמה קלון;</p>
+                      </content>
+                    </point>
+                    <point eId="point_29__point_א__point_4">
+                      <num>(4)</num>
+                      <content>
+                        <p>אם נתמנה כחבר מקרב הציבור – נתמנה עובד מדינה, ואם נתמנה כעובד המשרד או משרד האוצר – חדל להיות עובד המשרד או משרד האוצר בהתאמה;</p>
+                      </content>
+                    </point>
+                    <point eId="point_29__point_א__point_5">
+                      <num>(5)</num>
+                      <content>
+                        <p>אם הממשלה קבעה, לפי הצעת השרים ועל דעת הרשות, כי אינו ממלא את תפקידו כראוי.</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+                <point eId="point_29__point_ב">
+                  <num>(ב)</num>
+                  <content>
+                    <p>נעדר חבר הרשות, ללא סיבה מוצדקת, משלוש ישיבות רצופות של הרשות או מחמש ישיבות בשנה אחת, רשאית הממשלה, על פי הצעת השר שלפי הצעתו נתמנה אותו חבר, לבטל את מינויו.</p>
+                  </content>
+                </point>
+                <point eId="point_29__point_ג">
+                  <num>(ג)</num>
+                  <content>
+                    <p>הוגש כתב אישום נגד חבר הרשות בעבירה שיש עמה, לדעת היועץ המשפטי לממשלה, קלון, רשאית הממשלה, על פי הצעת השרים, להשעות את החבר מכהונתו עד למתן פסק־דין סופי בענינו.</p>
+                  </content>
+                </point>
+                <point eId="point_29__point_ד">
+                  <num>(ד)</num>
+                  <content>
+                    <p>לא יושעה חבר רשות לפי סעיף קטן (ג), אלא לאחר שניתנה לו הזדמנות להביא בפני השרים את טענותיו לענין ההשעיה, תוך תקופה שיקבעו השרים.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_30">
+              <heading>
+                <authorialNote placement="side">
+                  <p>תפקידי הרשות</p>
+                </authorialNote>
+              </heading>
+              <num>30.</num>
+              <list>
+                <intro>
+                  <p>ואלה תפקידי הרשות:</p>
+                </intro>
+                <point eId="point_30__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>קביעת תעריפים ודרכי עדכונם וביצוע בקרת עלויות לשם כך, לפי שיקול דעתה המקצועי הבלעדי ובהתאם להוראות <ref href="#point_31">סעיפים 31</ref><ref href="#point_32">ו־32</ref>;</p>
+                  </content>
+                </point>
+                <point eId="point_30__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>קביעת אמות מידה לרמה, לטיב ולאיכות השירות שנותן בעל רשיון ספק שירות חיוני לצרכן, לבעל רישיון הספקה, ליצרן חשמל, ליצרן חשמל פרטי, לבעל רישיון אגירה או לבעל רישיון ספק שירות חיוני אחר (להלן – אמות מידה) ופיקוח על מילוי חובותיו על פי אמות המידה;</p>
+                  </content>
+                </point>
+                <point eId="point_30__point_3">
+                  <num>(3)</num>
+                  <content>
+                    <p>מתן רישיונות ופיקוח על מילוי תנאים שנקבעו ברישיונות וכן, ככל שלא קבע השר תקנות לפי <ref href="#point_7">פסקאות (1) או (4) של סעיף 7(א)</ref> – קביעת כללים בעניינים המנויים בפסקאות האמורות, בכפוף למדיניות השר;</p>
+                  </content>
+                </point>
+                <point eId="point_30__point_3א">
+                  <num>(3א)</num>
+                  <content>
+                    <p>קביעת אמות מידה לעניין המקרקעין שייחשבו לחטיבת קרקע, ולעניין הגורם שייחשב לצרכן בחטיבת קרקע אם יש יותר מגורם אחד שיכול להיחשב לצרכן כאמור;</p>
+                  </content>
+                </point>
+                <point eId="point_30__point_4">
+                  <num>(4)</num>
+                  <content>
+                    <p>קביעת כללים לעריכת עסקאות בין בעל רישיון ספק שירות חיוני לבין בעל רישיון;</p>
+                  </content>
+                </point>
+                <point eId="point_30__point_5">
+                  <num>(5)</num>
+                  <content>
+                    <p>פיקוח על מילוי הוראות לפי חוק זה על ידי בעל רישיון ואכיפתן.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_31">
+              <heading>
+                <authorialNote placement="side">
+                  <p>קביעת תעריפים</p>
+                </authorialNote>
+              </heading>
+              <num>31.</num>
+              <list>
+                <point eId="point_31__point_א">
+                  <num>(א)</num>
+                  <content>
+                    <p>הרשות תקבע את התעריפים על בסיס עקרון העלות בהתחשב, בין היתר, בסוג השירותים וברמתם; כל מחיר ישקף את עלות השירות המסוים, בלא שתהיה הפחתת מחיר אחד על חשבון העלאתו של מחיר אחר; נקבעה בתקציב המדינה תמיכה לצורך הפחתת מחיר שירות, יופחת סכום התמיכה מן העלות של אותו שירות.</p>
+                  </content>
+                </point>
+                <point eId="point_31__point_ב">
+                  <num>(ב)</num>
+                  <list>
+                    <intro>
+                      <p>לצורך קביעת התעריפים, תבצע הרשות פעולות של בקרת העלויות של בעל רשיון ספק שירות חיוני; הרשות רשאית שלא להביא בחשבון, לענין קביעת תעריפים, הוצאות, כולן או חלקן, אשר לדעתה אינן דרושות למילוי חובותיו של בעל רשיון ספק שירות חיוני; ביישום עקרון העלות לצורך קביעת התעריפים, תכיר הרשות בעלויות הנובעות מכל אלה:</p>
+                    </intro>
+                    <point eId="point_31__point_ב__point_1">
+                      <num>(1)</num>
+                      <content>
+                        <p>עקרונות המדיניות שקבע השר כאמור <ref href="#point_57א">בסעיף 57א</ref>;</p>
+                      </content>
+                    </point>
+                    <point eId="point_31__point_ב__point_2">
+                      <num>(2)</num>
+                      <content>
+                        <p>הוראות השר לעניין הפעלת משק החשמל בשעת חירום שניתנו לפי <ref href="#point_58">סעיף 58(ב)</ref>;</p>
+                      </content>
+                    </point>
+                    <point eId="point_31__point_ב__point_3">
+                      <num>(3)</num>
+                      <content>
+                        <p>הוראות השר לעניין הפעלת משק הגז בשעת חירום שניתנו לפי <ref href="/akn/il/act/PrimaryLegislation/2002-01-03/171866#point_91">סעיף 91(ב) לחוק משק הגז הטבעי, התשס"ב–2002</ref>;</p>
+                      </content>
+                    </point>
+                    <point eId="point_31__point_ב__point_4">
+                      <num>(4)</num>
+                      <content>
+                        <p>הוראות השר שעניינן מענה לצרכים הנובעים ממצב חירום, הנדרשות לביצוע בזמן חירום, שניתנו בכתב לבעל רישיון ספק שירות חיוני בזמן חירום, לפי כל דין או בהתאם לתנאי רישיונו; השר יפרסם הוראות כאמור באתר האינטרנט של המשרד, בהקדם האפשרי, למעט הוראות שאין לפרסמן מטעמים של ביטחון המדינה או יחסי החוץ שלה.</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+                <point eId="point_31__point_ג">
+                  <num>(ג)</num>
+                  <content>
+                    <p>לענין העלות כאמור בסעיף קטן (א), תביא הרשות בחשבון שיעור תשואה נאות על ההון, בהתחשב בזכויותיו ובחובותיו של בעל רשיון ספק שירות חיוני.</p>
+                  </content>
+                </point>
+                <point eId="point_31__point_ד">
+                  <num>(ד)</num>
+                  <content>
+                    <p>על אף האמור בסעיף קטן (א), בקביעת התעריפים המשולמים על ידי כלל הצרכנים תביא הרשות בחשבון את העלויות שלא הובאו בחשבון כתוצאה מהתשלומים המופחתים לפי <ref href="#point_31א">סעיף 31א</ref>.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_31א">
+              <heading>
+                <authorialNote placement="side">
+                  <p>תשלומים מופחתים</p>
+                </authorialNote>
+              </heading>
+              <num>31א.</num>
+              <list>
+                <point eId="point_31א__point_א">
+                  <num>(א)</num>
+                  <content>
+                    <p>צרכן הזכאי לגמלה לפי <ref href="/akn/il/act/PrimaryLegislation/1980-12-01/147335#point_2">סעיף 2(א)(4) לחוק הבטחת הכנסה, התשמ"א–1980</ref>, ישלם תשלום מופחת בשיעור של 50% מהתעריף הביתי, בעד 400 הקוט"ש הראשונים שצרך מדי חודש בשימוש ביתי בלבד; בסעיף זה, ”תעריף ביתי“ – התעריף לתשלום בעבור צריכת חשמל המיועדת לבתים המשמשים למגורים בלבד.</p>
+                  </content>
+                </point>
+                <point eId="point_31א__point_ב">
+                  <num>(ב)</num>
+                  <list>
+                    <point eId="point_31א__point_ב__point_1">
+                      <num>(1)</num>
+                      <content>
+                        <p>השר, בהתייעצות עם שר הרווחה ובהסכמת שר האוצר, רשאי לקבוע אוכלוסיות נזקקות נוספות, שמי שנמנה עמן ישלם תשלום מופחת, בשיעור שיקבע מהתעריף הביתי, כמות החשמל שבעדה יהיה זכאי לתשלום מופחת, וכן שיעורי הנחה וכמויות שונים לקבוצות אוכלוסיה, ולשם כך רשאי הוא להביא בחשבון את מספר הנפשות המתגוררות בבית הצרכן ואזור המגורים, את הכנסותיהן, גילן ומצבן הרפואי, והכל ביחס לצריכת החשמל הממוצעת של צרכנים שבביתם אותו מספר נפשות.</p>
+                      </content>
+                    </point>
+                    <point eId="point_31א__point_ב__point_2">
+                      <num>(2)</num>
+                      <content>
+                        <p>זכאות לתשלומים מופחתים לפי סעיף קטן זה תיקבע כך, שסך ההפחתה מהתשלומים בעבור צריכת חשמל לפי סעיף זה לא יעלה על סכום השווה ל־1.5% מסך התשלומים המשולמים על ידי כלל הצרכנים בעבור צריכת חשמל.</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+                <point eId="point_31א__point_ג">
+                  <num>(ג)</num>
+                  <content>
+                    <p>השר, בהתייעצות עם שר הרווחה, יקבע הוראות בדבר דרכים להוכחת הזכאות לתשלום מופחת בהתאם להוראות סעיף זה, וכן רשאי הוא לקבוע הוראות לענין אופן מסירת מידע לשם הוכחת זכאות כאמור.</p>
+                  </content>
+                </point>
+                <point eId="point_31א__point_ד">
+                  <num>(ד)</num>
+                  <content>
+                    <p>
+                      <wikicomment font-size="x-small">(פקע).</wikicomment>
+                    </p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_32">
+              <heading>
+                <authorialNote placement="side">
+                  <p>עדכון התעריפים</p>
+                </authorialNote>
+              </heading>
+              <num>32.</num>
+              <list>
+                <point eId="point_32__point_א">
+                  <num>(א)</num>
+                  <content>
+                    <p>הרשות תקבע את התעריפים מעת לעת לפי שיקול דעתה המקצועי הבלעדי ובהתאם להוראות <ref href="#point_30">סעיף 30(1)</ref><ref href="#point_31">וסעיף 31</ref> והם יעודכנו לפי נוסחת עדכון שתקבע הרשות.</p>
+                  </content>
+                </point>
+                <point eId="point_32__point_ב">
+                  <num>(ב)</num>
+                  <content>
+                    <p>נוסחת העדכון לפי סעיף קטן (א) יכול שתביא בחשבון מקדם התייעלות; לענין זה, ”מקדם התייעלות“ – שיעור ההפחתה מן העדכון, אשר הרשות, בהתייעצות עם השרים, תחליט להביא בחשבון, לשם התייעלותו של בעל רשיון ספק שירות חיוני.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_33">
+              <heading>
+                <authorialNote placement="side">
+                  <p>קביעת אמות מידה</p>
+                </authorialNote>
+              </heading>
+              <num>33.</num>
+              <list>
+                <point eId="point_33__point_א">
+                  <num>(א)</num>
+                  <content>
+                    <p>הרשות תקבע אמות מידה, בכפוף לתכנית הפיתוח שאישר השר לפי <ref href="#point_19">סעיף 19</ref>; אמות המידה יועמדו לעיון הציבור ויפורסמו ברשומות, באתר האינטרנט של הרשות ובדרך אחרת שיקבע השר.</p>
+                  </content>
+                </point>
+                <point eId="point_33__point_ב">
+                  <num>(ב)</num>
+                  <content>
+                    <p>הרשות תקבע הוראות לענין תשלומים שישלם בעל רישיון ספק שירות חיוני לצרכנים בשל הפרת אמות המידה שנקבעו לפי סעיף קטן (א).</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_34">
+              <heading>
+                <authorialNote placement="side">
+                  <p>חובות רישום חשבונאי</p>
+                </authorialNote>
+              </heading>
+              <num>34.</num>
+              <content>
+                <p>הרשות רשאית לקב וע חובות בדבר רישום חשבונאי ודיווח לציבור שיחולו על בעל רשיון ספק שירות חיוני, בנוסף לחובות המוטלות עליו לפי כל דין; החובות יכול שיכללו הוראות בדבר פירוט הדינים והחשבונות שיפרסם בעל רשיון ספק שירות חיוני, ומועדי פרסומם.</p>
+              </content>
+            </point>
+            <point eId="point_35">
+              <heading>
+                <authorialNote placement="side">
+                  <p>דיווח לרשות</p>
+                </authorialNote>
+              </heading>
+              <num>35.</num>
+              <content>
+                <p>לצורך מילוי תפקידיה לפי חוק זה, רשאית הרשות לחייב בעל רשיון ספק שירות חיוני, להגיש לה דינים וחשבונות וכל מידע, בהתאם לדרישותיה.</p>
+              </content>
+            </point>
+            <point eId="point_36">
+              <heading>
+                <authorialNote placement="side">
+                  <p>פרסום החלטות</p>
+                </authorialNote>
+              </heading>
+              <num>36.</num>
+              <content>
+                <p>החלטות הרשות לפי חוק זה, לרבות ביאורים בדבר אופן קביעת התעריפים ונתונים סטטיסטיים, יפורסמו באתר האינטרנט של הרשות, זולת אם קבעה הרשות אחרת, בנסיבות מיוחדות שינומקו.</p>
+              </content>
+            </point>
+            <point eId="point_37">
+              <heading>
+                <authorialNote placement="side">
+                  <p>שמיעת עמדות ארגוני הצרכנים</p>
+                </authorialNote>
+              </heading>
+              <num>37.</num>
+              <list>
+                <intro>
+                  <p>לצורך מילוי תפקידיה לפי חוק זה –</p>
+                </intro>
+                <point eId="point_37__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>הרשות תאפשר לנציגי ארגוני צרכנים להביא בפניה הצעות ועמדות, לענין קביעת התעריפים ואמות המידה, בדרך שיקבע השר, בהתייעצות עם שר האוצר, לפי הצעת הרשות;</p>
+                  </content>
+                </point>
+                <point eId="point_37__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>הרשות תבדוק תלונות של צרכנים ותחליט בהן.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_37א">
+              <heading>
+                <authorialNote placement="side">
+                  <p>דיווח לשר</p>
+                </authorialNote>
+              </heading>
+              <num>37א.</num>
+              <list>
+                <point eId="point_37א__point_א">
+                  <num>(א)</num>
+                  <content>
+                    <p>הרשות תגיש לשר, בתחילת כל שנה, תכנית עבודה לאותה שנה, ובסיומה – דיווח על פעילותה באותה שנה; כמו כן תמסור הרשות לשר, לפי דרישתו, בתוך זמן סביר, דיווחים נוספים על פעילותה, וכן נתונים ומידע הנוגעים לפעילותה, בין בכלל ובין בנושא מסוים, הכל כפי שיפורט בדרישה.</p>
+                  </content>
+                </point>
+                <point eId="point_37א__point_ב">
+                  <num>(ב)</num>
+                  <content>
+                    <p>השר או שר האוצר רשאים לדרוש מהרשות לגבש עמדה בענין מסוים, שיפורט בדרישה; דרשו כאמור, תדון הרשות באותו ענין ותגבש את עמדתה בתוך 60 ימים או בתוך מועד סביר אחר שנקבע בדרישה; לא דנה הרשות באותו ענין בתוך התקופה האמורה, למעט מסיבות שאינן תלויות בה, רשאים השר או שר האוצר, במסגרת סמכותם לפי כל דין, לפעול באותו נושא שלא באמצעות הרשות.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_37ב">
+              <heading>
+                <authorialNote placement="side">
+                  <p>מינוי רשות חדשה</p>
+                </authorialNote>
+              </heading>
+              <num>37ב.</num>
+              <list>
+                <point eId="point_37ב__point_א">
+                  <num>(א)</num>
+                  <content>
+                    <p>ראה השר כי הרשות אינה פועלת כראוי בהתאם להוראות חוק זה, יודיע לרשות, בהודעה מנומקת בכתב שישלח ליושב ראש הרשות, כי אם בתוך זמן סביר שיקבע לא תמלא הרשות את המוטל עליה כפי שיפרט בדרישתו, יורה על פיזורה; לא מילאה הרשות את שהוטל עליה בתוך המועד שקבע השר בהודעתו, רשאי השר, בהתייעצות עם שר האוצר ובאישור הממשלה, להורות על פיזור הרשות, והוראות <ref href="#point_40">סעיף 40</ref> לא יחולו לענין זה.</p>
+                  </content>
+                </point>
+                <point eId="point_37ב__point_ב">
+                  <num>(ב)</num>
+                  <content>
+                    <p>בתוך 30 ימים מיום פיזור הרשות לפי סעיף קטן (א), תמונה רשות חדשה לפי הוראות <ref href="#point_22">סעיף 22</ref>; השר רשאי, בהסכמת שר האוצר, להאריך את התקופה האמורה ב־30 ימים נוספים.</p>
+                  </content>
+                </point>
+                <point eId="point_37ב__point_ג">
+                  <num>(ג)</num>
+                  <content>
+                    <p>עד למינוי רשות חדשה כאמור בסעיף קטן (ב), תמשיך הרשות לפעול בהרכבה הקודם.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+          </list>
+        </section>
+        <section eId="chp_ד__sec_ב">
+          <num>סימן ב׳:</num>
+          <title>
+            <content>
+              <p>יושב ראש הרשות</p>
+            </content>
+          </title>
+          <list>
+            <point eId="point_38">
+              <heading>
+                <authorialNote placement="side">
+                  <p>סמכויות ותקופת כהונה</p>
+                </authorialNote>
+              </heading>
+              <num>38.</num>
+              <list>
+                <point eId="point_38__point_א">
+                  <num>(א)</num>
+                  <content>
+                    <p>יושב ראש הרשות, שמונה לפי <ref href="#point_22">סעיף 22(ב)(1)</ref>, ישמש גם כמנהל הרשות ויהיה ממונה על ביצוע תפקידי הרשות לפי חוק זה; יושב ראש הרשות יהיה כפוף במישרין לשר.</p>
+                  </content>
+                </point>
+                <point eId="point_38__point_ב">
+                  <num>(ב)</num>
+                  <content>
+                    <p>יושב ראש הרשות יהיה עובד מדינה, ותקופת כהונתו – חמש שנים, וניתן לחזור ולמנותו לתקופת כהונה נוספת אחת.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_39">
+              <heading>
+                <authorialNote placement="side">
+                  <p>כשירות לכהונה</p>
+                </authorialNote>
+              </heading>
+              <num>39.</num>
+              <list>
+                <intro>
+                  <p>כשיר לכהן כיושב ראש הרשות, אזרח ישראלי ותושב בה שנתקיימו בו שניים מאלה:</p>
+                </intro>
+                <point eId="point_39__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>הוא בעל תואר אקדמי באחד המקצועות הבאים: כלכלה, מינהל עסקים, ראיית חשבון, הנדסה או מקצוע אחר שבתחום התפקידים של הרשות לפי חוק זה;</p>
+                  </content>
+                </point>
+                <point eId="point_39__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>הוא בעל נסיון מצטבר של חמש שנים לפחות בתפקיד בכיר בתחום הניהול של תאגיד בעל היקף עסקים משמעותי, או בתפקיד בכיר בשירות הציבור בנושאים כלכליים או הנדסיים.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_40">
+              <heading>
+                <authorialNote placement="side">
+                  <p>הפסקת כהונתו של יושב ראש הרשות</p>
+                </authorialNote>
+              </heading>
+              <num>40.</num>
+              <content>
+                <p>הממשלה לא תפסיק את כהונתו של יושב ראש הרשות לפי <ref href="#point_29">סעיף 29(א)(5)</ref>, אלא לאחר שנתנה לו הזדמנות לערור על החלטתה לפני ועדת השירות לפי <ref href="/akn/il/act/PrimaryLegislation/1959-04-15/148670#point_7">סעיף 7 לחוק שירות המדינה (מינויים), התשי"ט–1959</ref>; ועדת השירות תדון בערר לאחר קבלת חוות דעת מנציב שירות המדינה.</p>
+              </content>
+            </point>
+            <point eId="point_41">
+              <heading>
+                <authorialNote placement="side">
+                  <p>השעיית יושב ראש הרשות</p>
+                </authorialNote>
+              </heading>
+              <num>41.</num>
+              <content>
+                <p>השעתה הממשלה את יושב ראש הרשות לפי <ref href="#point_29">סעיף 29(ג)</ref>, תמנה לפי הצעת השרים, ממלא מקום שיתקיימו בו תנאי הכשירות לפי <ref href="#point_39">סעיף 39</ref>; לממלא המקום יהיו כל הסמכויות של יושב ראש הרשות לפי חוק זה.</p>
+              </content>
+            </point>
+          </list>
+        </section>
+        <section eId="chp_ד__sec_ג">
+          <num>סימן ג׳:</num>
+          <title>
+            <content>
+              <p>מבנה הרשות</p>
+            </content>
+          </title>
+          <list>
+            <point eId="point_42">
+              <heading>
+                <authorialNote placement="side">
+                  <p>תקציב הרשות</p>
+                </authorialNote>
+              </heading>
+              <num>42.</num>
+              <content>
+                <p>תקציב הרשות ייקבע בחוק תקציב שנתי, בסעיף תקציב נפרד; הממונה על סעיף תקציב זה, לענין <ref href="/akn/il/act/PrimaryLegislation/1985-04-03/150399">חוק יסודות התקציב, התשמ"ה–1985</ref>, יהיה יושב ראש הרשות.</p>
+              </content>
+            </point>
+            <point eId="point_43">
+              <heading>
+                <authorialNote placement="side">
+                  <p>עובדי הרשות – עובדי מדינה</p>
+                </authorialNote>
+              </heading>
+              <num>43.</num>
+              <list>
+                <point eId="point_43__point_א">
+                  <num>(א)</num>
+                  <content>
+                    <p>עובדי הרשות יהיו עובדי מדינה ויחולו עליהם הוראות <ref href="/akn/il/act/PrimaryLegislation/1959-04-15/148670">חוק שירות המדינה (מינויים), התשי"ט–1959</ref>, ובלבד שיושב ראש הרשות יהיה מורשה, באישור השר, ביחד עם חשב הרשות, לייצג את המדינה בעשיית חוזים מיוחדים עם עובדים.</p>
+                  </content>
+                </point>
+                <point eId="point_43__point_ב">
+                  <num>(ב)</num>
+                  <content>
+                    <p>עובדי הרשות יפעלו לפי הוראות יושב ראש הרשות ובפיקוחו.</p>
+                  </content>
+                </point>
+                <point eId="point_43__point_ג">
+                  <num>(ג)</num>
+                  <content>
+                    <p>לא יופסק שירותו של עובד הרשות אלא בהסכמתו של יושב ראש הרשות או על פי הוראת בית המשפט או בית דין מוסמך.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_44">
+              <heading>
+                <authorialNote placement="side">
+                  <p>עסקאות הרשות</p>
+                </authorialNote>
+              </heading>
+              <num>44.</num>
+              <content>
+                <p>לצורך ביצוע הוראות חוק זה מורשה יושב ראש הרשות, ביחד עם חשב הרשות, לייצג את הממשלה בעסקאות כאמור <ref href="/akn/il/act/PrimaryLegislation/1951-02-15/150179#point_4">בסעיפים 4</ref><ref href="/akn/il/act/PrimaryLegislation/1951-02-15/150179#point_5">ו־5 לחוק נכסי המדינה, התשי"א–1951</ref>, למעט עסקאות במקרקעין, ולחתום בשם המדינה על מסמכים הנוגעים לעסקאות כאמור.</p>
+              </content>
+            </point>
+          </list>
+        </section>
+      </chapter>
+      <chapter eId="chp_ה">
+        <num>פרק ה׳ –</num>
+        <title>
+          <content>
+            <p>סמכות להיכנס למקרקעין לביצוע עבודות</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_45">
+            <heading>
+              <authorialNote placement="side">
+                <p>הרשאה לביצוע עבודות והקמת מיתקני חשמל</p>
+              </authorialNote>
+            </heading>
+            <num>45.</num>
+            <content>
+              <p>בנוסף להוראות כל דין, ביצוע עבודות והקמת מיתקנים כאמור <ref href="/akn/il/act/PrimaryLegislation/1965-08-12/148917#point_145">בסעיף 145(ו) לחוק התכנון</ref> והתקנות לפיו, על ידי בעל רשיון, טעונים הרשאה מאת המנהל.</p>
+            </content>
+          </point>
+          <point eId="point_46">
+            <heading>
+              <authorialNote placement="side">
+                <p>סמכות כניסה למקרקעין וביצוע עבודות בהם</p>
+              </authorialNote>
+            </heading>
+            <num>46.</num>
+            <list>
+              <point eId="point_46__point_א">
+                <num>(א)</num>
+                <list>
+                  <intro>
+                    <p>לצורך מילוי תנאי רשיונו, רשאי בעל רשיון, אם קיבל לכך את הסכמת בעל המקרקעין, להיכנס למקרקעין, בין מקרקעין ציבוריים ובין מקרקעין פרטיים ולבצע בהם פעולות אלה:</p>
+                  </intro>
+                  <point eId="point_46__point_א__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>לערוך מדידות ובדיקות כנדרש;</p>
+                    </content>
+                  </point>
+                  <point eId="point_46__point_א__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>להקים ולהעביר רשתות חשמל במקרקעין ולהקים בהם עמודים;</p>
+                    </content>
+                  </point>
+                  <point eId="point_46__point_א__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>להתקין, לבנות או להציב מיתקן חשמל במקרקעין;</p>
+                    </content>
+                  </point>
+                  <point eId="point_46__point_א__point_4">
+                    <num>(4)</num>
+                    <content>
+                      <p>לחפור, להסיר אבן, אדמה ועץ ולבצע פעולות נילוות אחרות הדרושות להפעלת הסמכויות האמורות בפסקאות (2) ו־(3);</p>
+                    </content>
+                  </point>
+                  <point eId="point_46__point_א__point_5">
+                    <num>(5)</num>
+                    <content>
+                      <p>להסיר או לגזום, מסביב לכל מיתקן חשמל או רשת חשמל קיימים או מתוכננים, כל צמח המפריע לבנייתו, לקיומו או לפעילותו התקינה של מיתקן חשמל או של רשת חשמל;</p>
+                    </content>
+                  </point>
+                  <point eId="point_46__point_א__point_6">
+                    <num>(6)</num>
+                    <content>
+                      <p>לבצע בדיקה, תיקון, או הסרה של מיתקן חשמל הנמצא במקרקעין וכן לבצע בו שינוי שאין בו משום פגיעה בהיקף השימוש באותם מקרקעין;</p>
+                    </content>
+                  </point>
+                  <point eId="point_46__point_א__point_7">
+                    <num>(7)</num>
+                    <content>
+                      <p>לחפור תעלות, מנהרות ומעברים על־קרקעיים ותת־קרקעיים;</p>
+                    </content>
+                  </point>
+                  <point eId="point_46__point_א__point_8">
+                    <num>(8)</num>
+                    <content>
+                      <p>להניח כבלים ולהעביר צינורות במקרקעין;</p>
+                    </content>
+                  </point>
+                  <point eId="point_46__point_א__point_9">
+                    <num>(9)</num>
+                    <list>
+                      <point eId="point_46__point_א__point_9__point_א">
+                        <num>(א)</num>
+                        <content>
+                          <p>לפתוח ולהכשיר כל דרך לשם ביצוע עבודות חשמל במקרקעין ובלבד שמיד עם השלמת העבודה יחזיר את הדרך למצב הקודם;</p>
+                        </content>
+                      </point>
+                      <point eId="point_46__point_א__point_9__point_ב">
+                        <num>(ב)</num>
+                        <content>
+                          <p>בפסקה זו, ”דרך“ – לרבות מסילה, כביש, רחוב, סמטה, כיכר, מעבר, גשר או מקום פתוח שיש לציבור זכות מעבר בהם;</p>
+                        </content>
+                      </point>
+                    </list>
+                  </point>
+                  <point eId="point_46__point_א__point_10">
+                    <num>(10)</num>
+                    <content>
+                      <p>להסיר כל מיתקן המפריע שלא כדין לפעילות תקינה של בעל הרשיון למילוי תנאי הרשיון ולהסיר כל מכשול המפריע לפעילות כאמור;</p>
+                    </content>
+                  </point>
+                  <point eId="point_46__point_א__point_11">
+                    <num>(11)</num>
+                    <content>
+                      <p>להתקין ולבנות תאים, שוחות, תחנות השנאה, ארגזי חלוקה, הסתעפות, חיבורים וכל מיתקן חשמלי נוסף או אחר שיידרש לשם הקמת הרשת, תפעולה, שיפורה, הרחבתה ותיקונה;</p>
+                    </content>
+                  </point>
+                  <point eId="point_46__point_א__point_12">
+                    <num>(12)</num>
+                    <content>
+                      <p>בכפוף לאמור בכל דין, להקים רשתות תקשורת במקרקעין;</p>
+                    </content>
+                  </point>
+                  <point eId="point_46__point_א__point_13">
+                    <num>(13)</num>
+                    <content>
+                      <p>לעבור ברכב במקרקעין, הנמצאים בסמוך למקום שבו נדרש לבצע פעולות המפורטות בפסקאות (1) עד (12).</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_46__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>לא נתן בעל המקרקעין הסכמתו לביצוע הפעולות לפי סעיף קטן (א), יהיה בעל הרשיון רשאי להיכנס למקרקעין לצורך מילוי תנאי רשיונו ולבצע בהם את הפעולות האמורות, אם קיבל הרשאה לכך מאת המנהל כאמור <ref href="#point_47">בסעיף 47</ref>.</p>
+                </content>
+              </point>
+              <point eId="point_46__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>בבואו ליתן הרשאה לפי סעיף קטן (א) להיכנס למקרקעין פרטיים לביצוע עבודות שאינן לצורך אותם מקרקעין, ישקול המנהל, בין היתר, קיומה של אפשרות חלופית לביצוע אותן עבודות.</p>
+                </content>
+              </point>
+              <point eId="point_46__point_ד">
+                <num>(ד)</num>
+                <content>
+                  <p>כניסה על פי סעיף זה למיתקן בטחוני, טעונה אישור מראש של הגוף המוסמך לכך על פי דין, לגבי אותו מיתקן.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_47">
+            <heading>
+              <authorialNote placement="side">
+                <p>הודעה על כוונה להיכנס למקרקעין</p>
+              </authorialNote>
+            </heading>
+            <num>47.</num>
+            <list>
+              <point eId="point_47__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>ביקש בעל רשיון מהמנהל לתת הרשאה לפי <ref href="#point_46">סעיף 46(ב)</ref>, יודיע על כך המנהל לבעל המקרקעין ויתן לו הזדמנות להשמיע טענותיו.</p>
+                </content>
+              </point>
+              <point eId="point_47__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>נתן המנהל הרשאה לפי <ref href="#point_46">סעיף 46(ב)</ref>, יודיע על כך לבעל המקרקעין בצירוף נימוקים, ויפרסם את ההודעה בשני עיתונים יומיים כאמור <ref href="/akn/il/act/PrimaryLegislation/1965-08-12/148917#point_1א">בסעיף 1א בחוק התכנון</ref>; בהודעה יצוין המועד שבו רשאי בעל הרשיון להיכנס למקרקעין.</p>
+                </content>
+              </point>
+              <point eId="point_47__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>לא ייכנס בעל רשיון למקרקעין כל עוד לא חלפו 25 ימים מהיום שבו נמסרה ההודעה על ההרשאה לבעל המקרקעין, אלא אם כן קבע המנהל תקופה קצרה מזו, מטעמים מיוחדים שיירשמו.</p>
+                </content>
+              </point>
+              <point eId="point_47__point_ד">
+                <num>(ד)</num>
+                <content>
+                  <p>בעל רשיון המתכוון לבצע עבודות לפי <ref href="#chp_ה">פרק זה</ref> במקרקעין ציבוריים יודיע על כך לבעל המקרקעין ולמוסד התכנון שבתחומו נמצאים המקרקעין.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_48">
+            <heading>
+              <authorialNote placement="side">
+                <p>ערעור</p>
+              </authorialNote>
+            </heading>
+            <num>48.</num>
+            <list>
+              <point eId="point_48__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>בעל מקרקעין הרואה עצמו נפגע ממתן הרשאה לפי <ref href="#chp_ה">פרק זה</ref>, רשאי לערער על כך לבית משפט השלום שבתחום שיפוטו נמצאים המקרקעין, בתוך 21 ימים מהיום שנמסרה לו ההודעה.</p>
+                </content>
+              </point>
+              <point eId="point_48__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>בית המשפט הדן בערעור רשאי לאשר את החלטת המנהל כאמור, או לבטלה, והוא רשאי לתת כל סעד שבית משפט הדן בענין אזרחי מוסמך לתיתו.</p>
+                </content>
+              </point>
+              <point eId="point_48__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>הגשת ערעור לבית המשפט לא תעכב את השימוש במקרקעין לפי ההרשאה של בעל הרשיון, אלא אם כן החליט על כך בית המשפט, בהחלטה מנומקת מחמת טעם מיוחד שראה.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_49">
+            <heading>
+              <authorialNote placement="side">
+                <p>סדרי הדין בערעור</p>
+              </authorialNote>
+            </heading>
+            <num>49.</num>
+            <list>
+              <point eId="point_49__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>שר המשפטים רשאי לקבוע סדרי דין בערעור; באין סדרי דין – ידון בית המשפט בדרך הנראית לו מועילה ביותר להכרעה צודקת ומהירה.</p>
+                </content>
+              </point>
+              <point eId="point_49__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>בית המשפט הדן בערעור לא יהיה קשור בדיני ראיות למעט דיני חסינות עדים וראיות חסויות כאמור <ref href="/akn/il/act/PrimaryLegislation/1971-04-28/2002283#chp_ג">בפרק ג׳ לפקודת הראיות [נוסח חדש], התשל"א–1971</ref>.</p>
+                </content>
+              </point>
+              <point eId="point_49__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>בית המשפט הדן בערעור רשאי למנות לו יועץ מקצועי אשר יסייע לו בשאלות מקצועיות אך לא יטול חלק במתן פסק הדין.</p>
+                </content>
+              </point>
+              <point eId="point_49__point_ד">
+                <num>(ד)</num>
+                <content>
+                  <p>היועץ המקצועי יהיה זכאי לשכר ולהחזר הוצאות מאת בעל הרשיון מבקש ההרשאה, בסכומים שיקבע בית המשפט.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_49א">
+            <heading>
+              <authorialNote placement="side">
+                <p>סמכות כניסה למקרקעין לביצוע פעולה דחופה</p>
+              </authorialNote>
+            </heading>
+            <num>49א.</num>
+            <list>
+              <point eId="point_49א__point_א">
+                <num>(א)</num>
+                <list>
+                  <intro>
+                    <p>על אף הוראות <ref href="#point_46">סעיף 46</ref>, לצורך מילוי תנאי רישיונו רשאי בעל רישיון להיכנס למקרקעין לשם ביצוע פעולה גם בלא קבלת הסכמה או הרשאה כאמור <ref href="#point_46">בסעיף 46(א) או (ב)</ref>, בהתקיים אחד מאלה (בסעיף זה – פעולה דחופה) ובכפוף להוראות סעיף קטן (ב):</p>
+                  </intro>
+                  <point eId="point_49א__point_א__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>הפעולה דחופה וחיונית למניעת סכנה מיידית לאדם או לסביבה, ובלבד שבעל הרישיון דיווח לבעל המקרקעין ולמנהל על כניסתו למקרקעין בהקדם האפשרי בנסיבות העניין;</p>
+                    </content>
+                  </point>
+                  <point eId="point_49א__point_א__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>הפעולה נדרשת לשם מניעת נזק משמעותי לסביבה או לרכוש לרבות למיתקן חשמל, ולא ניתן להמתין עד תום התקופה כאמור <ref href="#point_47">בסעיף 47(ג)</ref>, ובלבד שבעל הרישיון נתן הודעה לבעל המקרקעין ולמנהל בהקדם האפשרי ולא יאוחר מ־48 שעות לפני ביצוע הפעולה.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_49א__point_ב">
+                <num>(ב)</num>
+                <list>
+                  <point eId="point_49א__point_ב__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>לא תבוצע פעולה דחופה לפרק זמן העולה על 96 שעות, אלא באישור המנהל.</p>
+                    </content>
+                  </point>
+                  <point eId="point_49א__point_ב__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>על כניסה לפי סעיף זה למיתקן ביטחוני, יחולו הוראות <ref href="#point_46">סעיף 46(ד)</ref>.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_49א__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>המנהל רשאי, ביוזמתו או לפי פניית בעל מקרקעין, להורות בכל עת על הפסקה של פעולה דחופה לפי סעיף זה או להתנות את המשך ביצועה בתנאים שיורה, או להגביל את פרק הזמן לביצוע פעולה כאמור.</p>
+                </content>
+              </point>
+              <point eId="point_49א__point_ד">
+                <num>(ד)</num>
+                <content>
+                  <p>המנהל ייתן לבעל המקרקעין הזדמנות לטעון את טענותיו, בכתב או בעל פה, בהקדם האפשרי לאחר הכניסה למקרקעין, ולא יאוחר מ־72 שעות מתחילת ביצוע הפעולה הדחופה.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_50">
+            <heading>
+              <authorialNote placement="side">
+                <p>מניעת נזק, תיקונו ותשלום פיצויים</p>
+              </authorialNote>
+            </heading>
+            <num>50.</num>
+            <list>
+              <point eId="point_50__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>בעל רישיון שנכנס למקרקעין לשם ביצוע עבודות לפי <ref href="#chp_ה">פרק זה</ref>, יימנע, ככל האפשר, מגרימת נזק ויחזיר את המקרקעין, בהקדם האפשרי לאחר סיום ביצוע העבודות, למצב שהיו בו אילולא בוצעו בהם העבודות כאמור.</p>
+                </content>
+              </point>
+              <point eId="point_50__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>נגרם נזק כתוצאה מביצוע עבודות כאמור בסעיף קטן (א), יתקן בעל הרישיון, על חשבונו, את הנזק או ישלם למי שנגרם לו הנזק (בסעיף זה – ניזוק) פיצויים בשל הנזק שנגרם, והכול בהקדם האפשרי.</p>
+                </content>
+              </point>
+              <point eId="point_50__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>דרש ניזוק מבעל רישיון פיצויים בשל נזק כאמור בסעיף זה, והחליט בעל הרישיון לדחות דרישה זו, כולה או חלקה, ימסור לניזוק הודעה מנומקת על כך בכתב, בתוך 60 ימים מיום שקיבל מהניזוק את כל המידע הנדרש לשם קבלת החלטה לגבי דרישת הפיצוי, וישלם לו, בתוך 30 ימים ממועד ההחלטה, את הסכום שאינו שנוי במחלוקת.</p>
+                </content>
+              </point>
+              <point eId="point_50__point_ד">
+                <num>(ד)</num>
+                <content>
+                  <p>דרישה לפיצויים לפי סעיף זה, מחלוקת לגבי סכום הפיצויים המגיעים לניזוק או הגשת תובענה בעניין זה לא יהוו עילה לעיכוב הכניסה למקרקעין או לביצוע פעולות בהם, אלא אם כן הורה בית המשפט אחרת.</p>
+                </content>
+              </point>
+              <point eId="point_50__point_ה">
+                <num>(ה)</num>
+                <content>
+                  <p>אין בהוראות סעיף זה כדי לגרוע מזכויותיו של הניזוק על פי כל דין.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_51">
+            <heading>
+              <authorialNote placement="side">
+                <p>מיתקנים המחוברים למקרקעין</p>
+              </authorialNote>
+            </heading>
+            <num>51.</num>
+            <content>
+              <p>על אף הוראות <ref href="/akn/il/act/PrimaryLegislation/1969-07-27/148008#point_12">סעיף 12 לחוק המקרקעין, התשכ"ט–1969</ref>, מיתקן חשמל או רשת חשמל שחוברו למקרקעין של אחר, יהיו בבעלותו של מי שהתקין אותם כדין.</p>
+            </content>
+          </point>
+        </list>
+      </chapter>
+      <chapter eId="chp_ו">
+        <num>פרק ו׳ –</num>
+        <title>
+          <content>
+            <p>עבירות ועונשין</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_52">
+            <heading>
+              <authorialNote placement="side">
+                <p>עבירות ועונשין</p>
+              </authorialNote>
+            </heading>
+            <num>52.</num>
+            <list>
+              <point eId="point_52__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>העובר על הוראות <ref href="#point_17">סעיפים 17(ב) ו־(ג)</ref>, <ref href="#point_34">34</ref><ref href="#point_35">או 35</ref> או בעל רשיון המפר תנאי מתנאי הרשיון, לענין פעילות נושא הרשיון, דינו – מאסר שנה אחת או קנס פי שלושה משיעור הקנס האמור <ref href="/akn/il/act/PrimaryLegislation/1977-08-04/2002251#point_61">בסעיף 61(א)(2) לחוק העונשין, התשל"ז–1977</ref> (להלן – חוק העונשין), וקנס נוסף לכל יום שבו נמשכה העבירה, פי שלושה משיעור הקנס האמור <ref href="/akn/il/act/PrimaryLegislation/1977-08-04/2002251#point_61">בסעיף 61(ג) לחוק העונשין</ref>.</p>
+                </content>
+              </point>
+              <point eId="point_52__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>עבירה לפי סעיף קטן (א) אינה טעונה הוכחת מחשבה פלילית או רשלנות.</p>
+                </content>
+              </point>
+              <point eId="point_52__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>המבצע אחת מן הפעולות המנויות <ref href="#point_3">בסעיף 3</ref> ללא רשיון, או העובר על הוראות <ref href="#point_17">סעיף 17(א)</ref>, דינו – מאסר שלוש שנים או קנס פי ארבעה משיעור הקנס האמור <ref href="/akn/il/act/PrimaryLegislation/1977-08-04/2002251#point_61">בסעיף 61(א)(3) לחוק העונשין</ref> וקנס נוסף לכל יום שבו נמשכה העבירה, פי ארבעה מן הקנס האמור <ref href="/akn/il/act/PrimaryLegislation/1977-08-04/2002251#point_61">בסעיף 61(ג) לחוק העונשין</ref>.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_53">
+            <heading>
+              <authorialNote placement="side">
+                <p>השחתת מיתקן חשמל</p>
+              </authorialNote>
+            </heading>
+            <num>53.</num>
+            <content>
+              <p>המשחית מיתקן חשמל, למעט מיתקן לשימוש פרטי, או כל חלק מרשת חשמל, הגורם לו נזק או המסלק אותו ממקומו או הפוגע בתחנת כוח שלא כדין, דינו – מאסר חמש שנים.</p>
+            </content>
+          </point>
+          <point eId="point_54">
+            <heading>
+              <authorialNote placement="side">
+                <p>הפרעה לבעל רשיון</p>
+              </authorialNote>
+            </heading>
+            <num>54.</num>
+            <list>
+              <intro>
+                <p>העושה אחת מאלה, דינו – מאסר שלוש שנים:</p>
+              </intro>
+              <point eId="point_54__point_1">
+                <num>(1)</num>
+                <content>
+                  <p>מפריע, מונע או מעכב הולכה, חלוקה או אספקת חשמל;</p>
+                </content>
+              </point>
+              <point eId="point_54__point_2">
+                <num>(2)</num>
+                <content>
+                  <p>מפריע לבעל רשיון או לשלוחו, בעצמו או על ידי שלוחיו או קבלניו, בהקמתה, בהפעלתה, בקיומה, בשינויה, בבדיקתה או בתיקונה של רשת חשמל;</p>
+                </content>
+              </point>
+              <point eId="point_54__point_3">
+                <num>(3)</num>
+                <content>
+                  <p>מתחבר לרשת חשמל של בעל רשיון ספק שירות חיוני.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_55">
+            <heading>
+              <authorialNote placement="side">
+                <p>אחריות נושא משרה ושותף בתאגיד</p>
+              </authorialNote>
+            </heading>
+            <num>55.</num>
+            <list>
+              <point eId="point_55__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>נושא משרה וכן שותף, למעט שותף מוגבל, חייב לפקח ולעשות כל שניתן למניעת עבירות לפי <ref href="#chp_ו">פרק זה</ref> בידי התאגיד או בידי עובד מעובדיו; המפר חובתו האמורה, דינו – מאסר שנה וקנס כאמור <ref href="/akn/il/act/PrimaryLegislation/1977-08-04/2002251#point_61">בסעיף 61(א)(3) לחוק העונשין</ref>.</p>
+                </content>
+              </point>
+              <point eId="point_55__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>נעברה עבירה מן העבירות שלפי <ref href="#chp_ו">פרק זה</ref> בידי תאגיד או עובד מעובדיו, חזקה היא כי נושא משרה וכן שותף, למעט שותף מוגבל – הפר חובתו האמורה בסעיף זה, אלא אם כן הוכיח כי נהג ללא מחשבה פלילית וללא רשלנות ועשה כל שניתן כדי למלא את חובתו.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_56">
+            <heading>
+              <authorialNote placement="side">
+                <p>סמכויות לדרוש ידיעות ומסמכים</p>
+              </authorialNote>
+            </heading>
+            <num>56.</num>
+            <list>
+              <point eId="point_56__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>התעורר חשד לעבירה על הוראה מהוראות חוק זה, רשאי יושב ראש הרשות, באישור השר או מי שהוא הסמיך לכך בכתב, לדרוש מבעל רשיון כל מסמך הנוגע לענין, לרבות דינים וחשבונות, פנקסים ותעודות או מסמכים אחרים (להלן – מסמכים), שיש בהם כדי להבטיח או להקל את ביצוע הוראות החוק או הרשיון, או כדי להוכיח את ביצוע העבירה.</p>
+                </content>
+              </point>
+              <point eId="point_56__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>המסמכים יוחזרו למי שממנו נלקחו, לא יאוחר מתום ששה חודשים מיום שנלקחו, אלא אם כן הוגש כתב אישום במשפט שבו המסמכים עשויים לשמש ראיה; שופט של בית משפט שלום רשאי, לבקשת יושב ראש הרשות או לבקשת בא כוח היועץ המשפטי לממשלה, ולאחר שניתנה למי שממנו נלקחו המסמכים הזדמנות נאותה להשמיע את טענותיו, להאריך תקופה זו בתנאים שיקבע.</p>
+                </content>
+              </point>
+              <point eId="point_56__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>יושב ראש הרשות ימסור לבעל הרשיון העתק צילומי מהמסמכים שנלקחו ממנו תוך שבעה ימים מהיום שבו נלקחו, אלא אם כן ויתר בעל הרשיון על כך.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+        </list>
+      </chapter>
+      <chapter eId="chp_ז">
+        <num>פרק ז׳ –</num>
+        <title>
+          <content>
+            <p>הוראות שונות</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_57">
+            <heading>
+              <authorialNote placement="side">
+                <p>הוראות לעניין מנהל מינהל החשמל</p>
+              </authorialNote>
+            </heading>
+            <num>57.</num>
+            <content>
+              <p>חוק שירות המדינה (מינויים), התשי"ט–1959</p>
+            </content>
+          </point>
+          <point eId="point_57א">
+            <heading>
+              <authorialNote placement="side">
+                <p>מדיניות השר</p>
+              </authorialNote>
+            </heading>
+            <num>57א.</num>
+            <list>
+              <point eId="point_57א__point_א">
+                <num>(א)</num>
+                <list>
+                  <intro>
+                    <p>השר רשאי להחליט על מדיניות בתחום משק החשמל, בין השאר בעניינים אלה:</p>
+                  </intro>
+                  <point eId="point_57א__point_א__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>תכנית אב ארוכת טווח למשק החשמל;</p>
+                    </content>
+                  </point>
+                  <point eId="point_57א__point_א__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>תכנית פיתוח רב־שנתית למשק החשמל, בהסכמת שר אוצר;</p>
+                    </content>
+                  </point>
+                  <point eId="point_57א__point_א__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>מדיניות למתן רישיונות;</p>
+                    </content>
+                  </point>
+                  <point eId="point_57א__point_א__point_4">
+                    <num>(4)</num>
+                    <content>
+                      <p>הקטנת הסיכון לשיבוש בהספקת החשמל;</p>
+                    </content>
+                  </point>
+                  <point eId="point_57א__point_א__point_5">
+                    <num>(5)</num>
+                    <content>
+                      <p>פעילות משק החשמל במצבי חירום ובמצבים מיוחדים אחרים;</p>
+                    </content>
+                  </point>
+                  <point eId="point_57א__point_א__point_6">
+                    <num>(6)</num>
+                    <content>
+                      <p>קידום התחרות וצמצום הריכוזיות במשק החשמל, בהתייעצות עם שר האוצר;</p>
+                    </content>
+                  </point>
+                  <point eId="point_57א__point_א__point_7">
+                    <num>(7)</num>
+                    <content>
+                      <p>תמהיל מקורות האנרגיה אשר ישמשו לייצור חשמל, לאחר ששקל שיקולים הנוגעים לביטחון אנרגטי, להגנת סביבה ולבריאות הציבור, בין השאר לשם קידום השימוש באנרגיה מתחדשת וצמצום השימוש בסוגי דלק מזהמים;</p>
+                    </content>
+                  </point>
+                  <point eId="point_57א__point_א__point_8">
+                    <num>(8)</num>
+                    <content>
+                      <p>תמהיל הטכנולוגיות לייצור חשמל;</p>
+                    </content>
+                  </point>
+                  <point eId="point_57א__point_א__point_9">
+                    <num>(9)</num>
+                    <content>
+                      <p>העתודה הנדרשת לייצור חשמל.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_57א__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>מדיניות השר וכן עקרונות מדיניות השר יפורסמו באתר האינטרנט של המשרד ויהיו פתוחים לעיון הציבור באופן שיאפשר מעקב אחר שינויים ותיעודם לאורך זמן.</p>
+                </content>
+              </point>
+              <point eId="point_57א__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>מדיניות השר וכן עקרונות מדיניות השר ייכנסו לתוקף במועד פרסומם באתר המשרד כאמור בסעיף קטן (ב) או ממועד מאוחר יותר שקבע השר; מועדי תחילת התוקף של מדיניות השר ושל עקרונות מדיניותו יצוינו בגוף הפרסום.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_58">
+            <heading>
+              <authorialNote placement="side">
+                <p>שעת חירום</p>
+              </authorialNote>
+            </heading>
+            <num>58.</num>
+            <list>
+              <point eId="point_58__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>השר רשאי להכריז, באישור הממשלה על שעת חירום במשק החשמל, לתקופה מוגבלת; לענין זה, ”שעת חירום“ – לרבות הפסקה מכוונת במילוי חובותיו של בעל רשיון ספק שירות חיוני לפי חוק זה או אי יכולת לקיים חובות כאמור.</p>
+                </content>
+              </point>
+              <point eId="point_58__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>השר, בהתייעצות עם שר האוצר ובאישור הממשלה, רשאי לקבוע הוראות שיחולו על הפעלת משק החשמל בשעת חירום, דרך כלל או לסוגים.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+        </list>
+      </chapter>
+      <chapter eId="chp_ז1">
+        <num>פרק ז׳1 – תכנית רב־שנתית וועדה בין־משרדית לעניין ייצור חשמל מאנרגיה מתחדשת –</num>
+        <title>
+          <content>
+            <p>הוראת שעה</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_58א">
+            <heading>
+              <authorialNote placement="side">
+                <p>פרק ז׳1 – תחולה</p>
+              </authorialNote>
+            </heading>
+            <num>58א.</num>
+            <content>
+              <p>הוראות <ref href="#chp_ז1">פרק זה</ref> יחולו בתקופה שמיום פרסומו של <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/http_fs_knesset_gov_il_20_law_20_lsr_390360_pdf">חוק משק החשמל (תיקון מס׳ 14 – הוראת שעה), התשע"ז–2017</ref>, ועד יום ה׳ בטבת התשצ"א (31 בדצמבר 2030).</p>
+            </content>
+          </point>
+          <point eId="point_58ב" class="definitions">
+            <heading>
+              <authorialNote placement="side">
+                <p>פרק ז׳1 – הגדרות</p>
+              </authorialNote>
+            </heading>
+            <num>58ב.</num>
+            <list>
+              <intro>
+                <p>
+                  <ref href="#chp_ז1">בפרק זה</ref> –</p>
+              </intro>
+              <point eId="point_58ב__point_אנרגיה_מתחדשת">
+                <content>
+                  <p>
+                    <def />”אנרגיה מתחדשת“ – אנרגיה שמקורה בניצול קרינת השמש, רוח, מים, פסולת או ביומסה, או בניצול מקור אנרגיה אחר שאינו דלק מאובן או דלק גרעיני;</p>
+                </content>
+              </point>
+              <point eId="point_58ב__point_ביומסה">
+                <content>
+                  <p>
+                    <def />”ביומסה“ – מסת חומר אורגני לא מאובן;</p>
+                </content>
+              </point>
+              <point eId="point_58ב__point_דלק_מאובן">
+                <content>
+                  <p>
+                    <def />”דלק מאובן“ – דלק הנוצר מהתאבנות חומר אורגני בסביבה מחוסרת חמצן;</p>
+                </content>
+              </point>
+              <point eId="point_58ב__point_החלטת_הממשלה">
+                <content>
+                  <p>
+                    <def />”החלטת הממשלה“ – <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/http_www_pmo_gov_il_Secretary_GovDecisions_2015_Pages_dec542_aspx">החלטת הממשלה מס׳ 542 מיום ז׳ בתשרי התשע"ו (20 בספטמבר 2015)</ref>.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_58ג">
+            <heading>
+              <authorialNote placement="side">
+                <p>תכנית רב־שנתית לעניין ייצור חשמל מאנרגיה מתחדשת</p>
+              </authorialNote>
+            </heading>
+            <num>58ג.</num>
+            <content>
+              <p>השר יגבש תכנית עבודה רב־שנתית לעניין ייצור חשמל מאנרגיה מתחדשת, שתכלול פעולות לביצוע בכל שנה לשם עמידה ביעדים לייצור חשמל מאנרגיה מתחדשת שנקבעו בהחלטת הממשלה; אין בהוראות סעיף קטן זה כדי לגרוע מסמכות השר לפי <ref href="#point_57א">סעיף 57א</ref>.</p>
+            </content>
+          </point>
+          <point eId="point_58ד">
+            <heading>
+              <authorialNote placement="side">
+                <p>ועדה בין־משרדית לעניין ייצור חשמל מאנרגיה מתחדשת</p>
+              </authorialNote>
+            </heading>
+            <num>58ד.</num>
+            <list>
+              <point eId="point_58ד__point_א">
+                <num>(א)</num>
+                <list>
+                  <intro>
+                    <p>תוקם ועדה בין־משרדית שתפקידה להגיש המלצות לשר בנוגע לקידום ייצור חשמל מאנרגיה מתחדשת בהתאם ליעדים לייצור חשמל כאמור שנקבעו בהחלטת הממשלה (בסעיף זה – הוועדה), ובין השאר המלצות בעניינים אלה:</p>
+                  </intro>
+                  <point eId="point_58ד__point_א__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>דרכים לצמצום או להסרה של חסמים לייצור חשמל מאנרגיה מתחדשת לשם עמידה באותם יעדים, ובכלל זה חסמי תכנון ומימון;</p>
+                    </content>
+                  </point>
+                  <point eId="point_58ד__point_א__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>דרכים לצמצום או להסרה של חסמים להקמת מיתקנים לייצור חשמל מאנרגיה מתחדשת.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_58ד__point_ב">
+                <num>(ב)</num>
+                <list>
+                  <intro>
+                    <p>אלה חברי הוועדה:</p>
+                  </intro>
+                  <point eId="point_58ד__point_ב__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>המנהל הכללי של המשרד שימנה השר, והוא יהיה היושב ראש;</p>
+                    </content>
+                  </point>
+                  <point eId="point_58ד__point_ב__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>נציג אגף התקציבים במשרד האוצר שימנה שר האוצר מבין עובדי האגף;</p>
+                    </content>
+                  </point>
+                  <point eId="point_58ד__point_ב__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>נציג מינהל התכנון כהגדרתו <ref href="/akn/il/act/PrimaryLegislation/1965-08-12/148917">בחוק התכנון</ref>, שימנה השר הממונה על מינהל התכנון מבין עובדי המינהל;</p>
+                    </content>
+                  </point>
+                  <point eId="point_58ד__point_ב__point_4">
+                    <num>(4)</num>
+                    <content>
+                      <p>נציג רשות מקרקעי ישראל שימנה השר הממונה על אותה רשות מבין עובדיה;</p>
+                    </content>
+                  </point>
+                  <point eId="point_58ד__point_ב__point_5">
+                    <num>(5)</num>
+                    <content>
+                      <p>נציג משרד הפנים שימנה שר הפנים מבין עובדי משרדו;</p>
+                    </content>
+                  </point>
+                  <point eId="point_58ד__point_ב__point_6">
+                    <num>(6)</num>
+                    <content>
+                      <p>נציג המשרד להגנת הסביבה שימנה השר להגנת הסביבה מבין עובדי משרדו;</p>
+                    </content>
+                  </point>
+                  <point eId="point_58ד__point_ב__point_7">
+                    <num>(7)</num>
+                    <content>
+                      <p>נציג משרד החקלאות ופיתוח הכפר שימנה שר החקלאות ופיתוח הכפר מבין עובדי משרדו;</p>
+                    </content>
+                  </point>
+                  <point eId="point_58ד__point_ב__point_8">
+                    <num>(8)</num>
+                    <content>
+                      <p>נציג משרד הכלכלה והתעשייה שימנה שר הכלכלה והתעשייה מבין עובדי משרדו;</p>
+                    </content>
+                  </point>
+                  <point eId="point_58ד__point_ב__point_9">
+                    <num>(9)</num>
+                    <content>
+                      <p>נציג משרד הביטחון שימנה שר הביטחון מבין עובדי משרדו;</p>
+                    </content>
+                  </point>
+                  <point eId="point_58ד__point_ב__point_10">
+                    <num>(10)</num>
+                    <content>
+                      <p>נציג הרשות שימנה יושב ראש הרשות מבין עובדי הרשות.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_58ד__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>יושב ראש הוועדה ימנה את אחד מחברי הוועדה לממלא מקומו.</p>
+                </content>
+              </point>
+              <point eId="point_58ד__point_ד">
+                <num>(ד)</num>
+                <content>
+                  <p>הוועדה תקבע את סדרי עבודתה ודיוניה, ככל שלא נקבעו בחוק זה.</p>
+                </content>
+              </point>
+              <point eId="point_58ד__point_ה">
+                <num>(ה)</num>
+                <content>
+                  <p>המלצות הוועדה יפורסמו באתר האינטרנט של המשרד.</p>
+                </content>
+              </point>
+              <point eId="point_58ד__point_ו">
+                <num>(ו)</num>
+                <content>
+                  <p>אין בהוראות סעיף זה כדי לגרוע מסמכויות הרשות לפי חוק זה.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_58ה">
+            <heading>
+              <authorialNote placement="side">
+                <p>דיווח לוועדת הכלכלה של הכנסת בעניין ייצור חשמל מאנרגיה מתחדשת</p>
+              </authorialNote>
+            </heading>
+            <num>58ה.</num>
+            <content>
+              <p>המנהל הכללי של המשרד ידווח לוועדת הכלכלה של הכנסת, אחת לשנה, בדיון שתקיים הוועדה בהשתתפותו, על עמידה ביעדים לייצור חשמל מאנרגיה מתחדשת שנקבעו בהחלטת הממשלה, וכן על יישום תכנית העבודה הרב־שנתית שגיבש השר ועל המלצות הוועדה הבין־משרדית שהוגשו לשר לפי הוראות <ref href="#chp_ז1">פרק זה</ref>, בין אם החליט לקבלן ובין אם לאו.</p>
+            </content>
+          </point>
+        </list>
+      </chapter>
+      <chapter eId="chp_ח">
+        <num>פרק ח׳ –</num>
+        <title>
+          <content>
+            <p>שמירת דינים והוראות אחרות</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_59">
+            <heading>
+              <authorialNote placement="side">
+                <p>שמירת דינים</p>
+              </authorialNote>
+            </heading>
+            <num>59.</num>
+            <list>
+              <point eId="point_59__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>פקודת זכיונות החשמל – בטלה.</p>
+                </content>
+              </point>
+              <point eId="point_59__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>פקודת זכיונות החשמל (ירושלים) – בטלה.</p>
+                </content>
+              </point>
+              <point eId="point_59__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>חוק הספקת חשמל (הוראות מיוחדות), התשמ"ח–1987 – בטל.</p>
+                </content>
+              </point>
+              <point eId="point_59__point_ד">
+                <num>(ד)</num>
+                <content>
+                  <p>
+                    <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryLegislation/1954-09-03/147403">בחוק החשמל, התשי"ד–1954</ref>.</wikicomment>
+                  </p>
+                </content>
+              </point>
+              <point eId="point_59__point_ה">
+                <num>(ה)</num>
+                <content>
+                  <p>תקנות, צווים או כללים שהותקנו מכוח פקודת זכיונות החשמל, יהיו בתוקף, כל עוד לא בוטלו במפורש בחוק זה או פקע תוקפם, עד תום שנתיים מיום תחילתו של חוק זה.</p>
+                </content>
+              </point>
+              <point eId="point_59__point_ו">
+                <num>(ו)</num>
+                <content>
+                  <p>התעריפים הקיימים בעת תחילתו של חוק זה, לרבות עדכונם, יהיו בתוקף כל עוד לא שונו על פי הוראות חוק זה.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_60">
+            <heading>
+              <authorialNote placement="side">
+                <p>הוראות מעבר עד חוק משק החשמל (תיקון מס׳ 15), התשע"ח–2017</p>
+              </authorialNote>
+            </heading>
+            <num>60.</num>
+            <list>
+              <point eId="point_60__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>חברת החשמל לישראל בע"מ (להלן – חברת החשמל) תמשיך את פעילויותיה ומתן השירותים שנתנה ערב פקיעת זכיונות החשמל, לפי פקודת זכיונות החשמל ולפי הוראות חוק הספקת חשמל (הוראות מיוחדות), התשמ"ח–1987, והצווים על פיו, עד שיינתנו רשיונות לפי חוק זה ולא יאוחר מיום ב׳ באלול התשנ"ז (4 בספטמבר 1997); לשם כך יהיו בידיה כל הזכויות, הסמכויות והחובות שהיו לה ערב תחילתו של חוק זה, למעט הזכויות והסמכויות לפי סעיפים 3 ו־25 לתוספת לפקודת זכיונות החשמל.</p>
+                </content>
+              </point>
+              <point eId="point_60__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>חברת החשמל למזרח ירושלים בע"מ, תמשיך את פעילויותיה ומתן השירותים שנתנה ערב תחילתו של חוק זה לפי הוראות חוק הספקת חשמל (הוראות מיוחדות), התשמ"ח–1987, והצווים על פיו, עד שיינתנו רשיונות לפי חוק זה ולא יאוחר מיום ב׳ באלול התשנ"ז (4 בספטמבר 1997); לשם כך יהיו בידיה כל הזכויות, הסמכויות והחובות שהיו לה ערב תחילתו של חוק זה.</p>
+                </content>
+              </point>
+              <point eId="point_60__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>מי שערב תחילתו של חוק זה היה בעל רשיון לביצוע פעילות, יהיה רשאי להמשיך בביצוע אותה פעילות עד יום ב׳ באלול התשנ"ז (4 בספטמבר 1997), ומי שהיה בידיו רשיון ייצור, יהיה רשאי גם למכור חשמל למי שהוא קשור עמו למכירת חשמל בחוזה שהיה בתוקף ביום התחילה, בהתאם לתנאי אותו חוזה.</p>
+                </content>
+              </point>
+              <point eId="point_60__point_ד">
+                <num>(ד)</num>
+                <content>
+                  <p>על אף הוראות <ref href="#point_4">סעיפים 4(ב)</ref><ref href="#point_9">ו־9(ב)</ref>, יינתן רשיון ראשון להולכה, לחלוקה, להספקה, למכירה של חשמל ולסחר בו, לחברת החשמל לתקופה של עשר שנים מיום תחילתו של חוק זה (להלן – תקופת המעבר).</p>
+                </content>
+              </point>
+              <point eId="point_60__point_ד1">
+                <num>(ד1)</num>
+                <content>
+                  <p>
+                    <wikicomment font-size="x-small">(בוטל).</wikicomment>
+                  </p>
+                </content>
+              </point>
+              <point eId="point_60__point_ד2">
+                <num>(ד2)</num>
+                <content>
+                  <p>
+                    <wikicomment font-size="x-small">(בוטל).</wikicomment>
+                  </p>
+                </content>
+              </point>
+              <point eId="point_60__point_ד3">
+                <num>(ד3)</num>
+                <content>
+                  <p>
+                    <wikicomment font-size="x-small">(בוטל).</wikicomment>
+                  </p>
+                </content>
+              </point>
+              <point eId="point_60__point_ד4">
+                <num>(ד4)</num>
+                <list>
+                  <point eId="point_60__point_ד4__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>בסעיף קטן זה, ”הרישיונות“ – הרישיונות שניתנו לפי חוק זה לחברת החשמל, שהיו בתוקף ערב תום תקופת המעבר;</p>
+                    </content>
+                  </point>
+                  <point eId="point_60__point_ד4__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>על אף הוראות חוק זה והוראות הרישיונות, יעמדו הרישיונות בתוקפם לגבי כלל הפעילויות שבוצעו לפי הרישיונות, עד יום ז׳ בכסלו התשע"ט (15 בנובמבר 2018), ובלבד שחברת החשמל תפעל בהתאם להוראותיהם, להוראות לפי חוק זה ולהוראות לפי כל דין אחר;</p>
+                    </content>
+                  </point>
+                  <point eId="point_60__point_ד4__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>ההוראות לפי חוק זה יחולו לגבי הרישיונות בתקופת הארכת תוקף הרישיונות לפי סעיף קטן זה;</p>
+                    </content>
+                  </point>
+                  <point eId="point_60__point_ד4__point_4">
+                    <num>(4)</num>
+                    <content>
+                      <p>על אף הוראות פסקה (2), רשאית הרשות, באישור השר, לתת רישיונות לכלל הפעילויות המתבצעות במסגרת הרישיונות לפי הפסקה האמורה, או לחלק מהן (בפסקה זו – רישיונות חליפיים), אף בלי שמתקיימות הוראות <ref href="#point_4">סעיפים 4(ב1)</ref><ref href="#point_6">ו־6</ref>, ובלבד שרישיונות חליפיים שלא מתקיימים לגביהם הוראות הסעיפים כאמור יעמדו בתוקפם עד יום ז׳ בכסלו התשע"ט (15 בנובמבר 2018) לכל המאוחר; ניתנו רישיונות חליפיים לפי פסקה זו, יחולו הרישיונות כאמור בפסקה (2) רק על הפעילויות שלגביהן לא ניתנו הרישיונות החליפיים.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_60__point_ד5">
+                <num>(ד5)</num>
+                <content>
+                  <p>הרשות, באישור השר, רשאית לתת רישיונות ייצור אף בלי שמתקיימות הוראות <ref href="#point_4">סעיפים 4</ref><ref href="#point_6">ו־6</ref> או הוראות שנקבעו בתקנות לפי חוק זה, לענין תחנות כוח הכלולות בתכנית הפיתוח שאושרה לפי <ref href="#point_19">סעיף 19</ref> עד יום ה׳ בטבת התשס"ט (1 בינואר 2009), וזאת לתקופה שבה הרישיונות כהגדרתם בסעיף קטן (ד4) עומדים בתוקפם, לפי הוראות סעיף זה.</p>
+                </content>
+              </point>
+              <point eId="point_60__point_ד6">
+                <num>(ד6)</num>
+                <content>
+                  <p>
+                    <wikicomment font-size="x-small">(בוטל).</wikicomment>
+                  </p>
+                </content>
+              </point>
+              <point eId="point_60__point_ד7">
+                <num>(ד7)</num>
+                <content>
+                  <p>
+                    <wikicomment font-size="x-small">(בוטל).</wikicomment>
+                  </p>
+                </content>
+              </point>
+              <point eId="point_60__point_ד8">
+                <num>(ד8)</num>
+                <content>
+                  <p>
+                    <wikicomment font-size="x-small">(בוטל).</wikicomment>
+                  </p>
+                </content>
+              </point>
+              <point eId="point_60__point_ד9">
+                <num>(ד9)</num>
+                <content>
+                  <p>החל ביום ה׳ בטבת התשס"ט (1 בינואר 2009) חברה ממשלתית או חברת בת ממשלתית, המחזיקה אמצעי שליטה בבעל רישיון לפי סעיף זה, לא תעסוק בתחום התכנון ההנדסי של תחנות כוח, בהקמת תחנות כוח, בלוגיסטיקה, בטכנולוגיות מידע וברכישת דלק לסוגיו, וחברה ממשלתית או חברת בת ממשלתית, בעלת רישיון לפי סעיף זה, לא תעסוק בעיסוקים כאמור בעבור תאגיד אחר בעל רישיון לפי חוק זה; ואולם אם הוקמו תאגידים הרשאים לעסוק בעיסוקים כאמור, יקבעו השרים, בצו, כי חברה כאמור תוכל להמשיך ולעסוק בעיסוקים אלה עד יום ט"ו בטבת התש"ע (1 בינואר 2010), ורשאים השרים לקבוע, בצו, כי על אף ההוראות לפי <ref href="/akn/il/act/PrimaryLegislation/1992-03-12/174451">חוק חובת המכרזים, התשנ"ב–1992</ref>, תיתן חברה ממשלתית או חברת בת ממשלתית, בעלת הרישיון לפי סעיף זה, עדיפות לתאגידים אלה, והכל בתקופה ובתנאים שיקבעו.</p>
+                </content>
+              </point>
+              <point eId="point_60__point_ד10">
+                <num>(ד10)</num>
+                <content>
+                  <p>
+                    <wikicomment font-size="x-small">(בוטל).</wikicomment>
+                  </p>
+                </content>
+              </point>
+              <point eId="point_60__point_ד11">
+                <num>(ד11)</num>
+                <content>
+                  <p>
+                    <wikicomment font-size="x-small">(בוטל).</wikicomment>
+                  </p>
+                </content>
+              </point>
+              <point eId="point_60__point_ד12">
+                <num>(ד12)</num>
+                <content>
+                  <p>
+                    <wikicomment font-size="x-small">(בוטל).</wikicomment>
+                  </p>
+                </content>
+              </point>
+              <point eId="point_60__point_ה">
+                <num>(ה)</num>
+                <content>
+                  <p>אין בהוראות חוק זה כדי לפגוע בפעולות המנהל לפי סעיפים 6 ו־15 לפקודת זכיונות החשמל, שהוחל בהן לפני תחילתו של חוק זה.</p>
+                </content>
+              </point>
+              <point eId="point_60__point_ו">
+                <num>(ו)</num>
+                <content>
+                  <p>מינוים הראשון של חברי הרשות, לפי <ref href="#point_22">סעיף 22</ref>, ייעשה תוך 60 ימים מיום תחילתו של חוק זה.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_60א">
+            <heading>
+              <authorialNote placement="side">
+                <p>הוראות מעבר – תיקון מס׳ 16</p>
+              </authorialNote>
+            </heading>
+            <num>60א.</num>
+            <list>
+              <point eId="point_60א__point_א">
+                <num>(א)</num>
+                <list>
+                  <intro>
+                    <p>בסעיף זה –</p>
+                  </intro>
+                  <point eId="point_60א__point_א__point_חברת_ניהול_המערכת_בעמ">
+                    <content>
+                      <p>
+                        <def />”חברת ניהול המערכת בע"מ“ – החברה הממשלתית שהוקמה מכוח החלטת הממשלה מס׳ 3704 מיום כ"ז בסיוון התשס"ח (30 ביוני 2008);</p>
+                    </content>
+                  </point>
+                  <point eId="point_60א__point_א__point_רישיונות">
+                    <list>
+                      <intro>
+                        <p>
+                          <def />”רישיונות“ – כל אלה, ובלבד שהיו בתוקף ביום תחילתו של <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/http_fs_knesset_gov_il_20_law_20_lsr_504275_pdf#point_16">תיקון מס׳ 16</ref>:</p>
+                      </intro>
+                      <point eId="point_60א__point_א__point_רישיונות__point_1">
+                        <num>(1)</num>
+                        <content>
+                          <p>הרישיונות כהגדרתם <ref href="#point_60">בסעיף 60(ד4)(1)</ref>;</p>
+                        </content>
+                      </point>
+                      <point eId="point_60א__point_א__point_רישיונות__point_2">
+                        <num>(2)</num>
+                        <content>
+                          <p>הרישיונות שניתנו לחברת החשמל לפי הוראות <ref href="#point_60">סעיף 60(ד5)</ref>.</p>
+                        </content>
+                      </point>
+                    </list>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_60א__point_ב">
+                <num>(ב)</num>
+                <list>
+                  <intro>
+                    <p>על אף הוראות חוק זה והוראות הרישיונות, יעמדו הרישיונות בתוקפם לגבי כלל הפעילויות שבוצעו לפי הרישיונות, עד למועדים המפורטים לגביהם להלן, לפי העניין, והכול בהתאם לתנאים המנויים בהם, ובלבד שחברת החשמל תפעל בהתאם להוראותיהם, להוראות לפי חוק זה ולהוראות לפי כל דין אחר:</p>
+                  </intro>
+                  <point eId="point_60א__point_ב__point_1">
+                    <num>(1)</num>
+                    <list>
+                      <intro>
+                        <p>רישיון לפעילויות המנויות <ref href="#point_60">בסעיף 60(ד)</ref> (להלן – הרישיון האחוד) – עד למועד המאוחר מבין אלה, ובלבד שאם ניתן רישיון חדש לגבי אחת מהפעילויות או חלק ממנה, לא יחול עוד הרישיון האחוד לגבי אותה פעילות או חלק ממנה:</p>
+                      </intro>
+                      <point eId="point_60א__point_ב__point_1__point_א">
+                        <num>(א)</num>
+                        <content>
+                          <p>המועד שבו ניתן רישיון לניהול המערכת לחברת ניהול המערכת בע"מ, שיהיה לא יאוחר מיום ה׳ בכסלו התש"ף (3 בדצמבר 2019); השרים, בהתייעצות עם הרשות ועם רשות החברות הממשלתיות, כמשמעותה <ref href="/akn/il/act/PrimaryLegislation/1975-07-04/169605">בחוק החברות הממשלתיות, התשל"ה–1975</ref>, רשאים, בצו, לדחות מועד זה בשתי תקופות שלא יעלו על שישה חודשים כל אחת, ובתקופות נוספות כאמור גם באישור ועדת הכלכלה;<br space="preserve"></br><wikicomment font-size="x-small">המועד למתן רישיון לניהול המערכת לחברת ניהול המערכת בע"מ נדחה, כך שיהיה לא יאוחר מיום י"א בסיוון התש"ף (3 ביוני 2020) (ק"ת תש"ף, 132).</wikicomment></p>
+                        </content>
+                      </point>
+                      <point eId="point_60א__point_ב__point_1__point_ב">
+                        <num>(ב)</num>
+                        <content>
+                          <p>המועד שנקבע לפי <ref href="#point_5">סעיף 5(ג)(5)</ref>;</p>
+                        </content>
+                      </point>
+                      <point eId="point_60א__point_ב__point_1__point_ג">
+                        <num>(ג)</num>
+                        <content>
+                          <p>המועד שבו ניתנו לחברת החשמל רישיונות חדשים להולכה, לחלוקה ולהספקה, לפי המאוחר;</p>
+                        </content>
+                      </point>
+                    </list>
+                  </point>
+                  <point eId="point_60א__point_ב__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>רישיון ייצור לגבי יחידות הייצור שבאתר אלון תבור – עד יום ה׳ בכסלו התש"ף (3 בדצמבר 2019);</p>
+                    </content>
+                  </point>
+                  <point eId="point_60א__point_ב__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>רישיון ייצור לגבי יחידות הייצור שבאתר רמת חובב – עד יום י"ז בכסלו התשפ"א (3 בדצמבר 2020);</p>
+                    </content>
+                  </point>
+                  <point eId="point_60א__point_ב__point_4">
+                    <num>(4)</num>
+                    <content>
+                      <p>רישיון ייצור לגבי יחידות הייצור שבאתר רידינג – עד יום כ"ג בסיוון התשפ"א (3 ביוני 2021);</p>
+                    </content>
+                  </point>
+                  <point eId="point_60א__point_ב__point_5">
+                    <num>(5)</num>
+                    <content>
+                      <p>רישיון ייצור לגבי יחידות הייצור שבחלק המזרחי של אתר חגית – עד יום ד׳ בסיוון התשפ"ב (3 ביוני 2022);</p>
+                    </content>
+                  </point>
+                  <point eId="point_60א__point_ב__point_6">
+                    <num>(6)</num>
+                    <content>
+                      <p>רישיון ייצור לגבי יחידות הייצור שבאתר אשכול – עד יום י"ד בסיוון התשפ"ג (3 ביוני 2023);</p>
+                    </content>
+                  </point>
+                  <point eId="point_60א__point_ב__point_7">
+                    <num>(7)</num>
+                    <content>
+                      <p>רישיון לגבי יחידת ייצור שאינו מנוי בפסקאות (2) עד (6) – עד תום משך החיים ההנדסי של יחידת הייצור שלגביה ניתן; הרשות תקבע את משך החיים ההנדסי של יחידת ייצור כאמור.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_60א__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>על אף הוראות סעיף קטן (ב)(2) עד (6), הרשות, באישור השר, רשאית לדחות מועד הנקוב בו, בשתי תקופות נוספות שלא יעלו על שישה חודשים כל אחת, ובתקופה שלישית כאמור באישור ועדת הכלכלה של הכנסת; ואולם בנסיבות מיוחדות וחריגות רשאי השר, באישור ועדת הכלכלה, לדחות את המועד הנקוב לגבי אחת בלבד מהפסקאות (2) עד (6) שבסעיף קטן (ב), בתקופה רביעית שלא תעלה על שישה חודשים (בסעיף זה – תקופות הארכה).</p>
+                </content>
+              </point>
+              <point eId="point_60א__point_ד">
+                <num>(ד)</num>
+                <content>
+                  <p>נמסרה חזקה ביחידות הייצור המנויות בסעיף קטן (ב)(2) עד (6) לפני מועד תום תוקף הרישיון החל לגביהן כאמור באותו סעיף קטן, לרבות תקופות ההארכה, יפקע תוקף הרישיון לגבי אותן יחידות.</p>
+                </content>
+              </point>
+              <point eId="point_60א__point_ה">
+                <num>(ה)</num>
+                <content>
+                  <p>ההוראות לפי חוק זה יחולו לגבי הרישיונות בתקופת הארכת תוקף הרישיונות לפי סעיפים קטנים (ב) ו־(ג).</p>
+                </content>
+              </point>
+              <point eId="point_60א__point_ו">
+                <num>(ו)</num>
+                <list>
+                  <intro>
+                    <p>על אף הוראות <ref href="#point_6א">סעיף 6א</ref> –</p>
+                  </intro>
+                  <point eId="point_60א__point_ו__point_1">
+                    <num>(1)</num>
+                    <list>
+                      <intro>
+                        <p>חברת החשמל רשאית לעסוק באלה:</p>
+                      </intro>
+                      <point eId="point_60א__point_ו__point_1__point_א">
+                        <num>(א)</num>
+                        <content>
+                          <p>תפעול ותחזוקה של יחידות הייצור המנויות בסעיף קטן (ב)(2) עד (6), עד תום תקופת תוקף הרישיון החלה לגביהן לפי אותו סעיף קטן וסעיפים קטנים (ג) ו־(ד), וכן השאלת עובדים לבעל רישיון ייצור שרכש מחברת החשמל יחידות ייצור כאמור, לחמש שנים ממועד מסירת החזקה ביחידות הייצור לבעל הרישיון;</p>
+                        </content>
+                      </point>
+                      <point eId="point_60א__point_ו__point_1__point_ב">
+                        <num>(ב)</num>
+                        <content>
+                          <p>תפעול ותחזוקה של יחידות הייצור כאמור בסעיף קטן (ב)(7) וכן, באישור הרשות ובהתאם להנחיות המשרד, פעולות תכנון לפי <ref href="/akn/il/act/PrimaryLegislation/1965-08-12/148917">חוק התכנון</ref> וביצוען, ותכנון הנדסי הדרוש לכך, לגבי יחידות אלה, למעט פעולות תכנון ותכנון הנדסי כאמור שמטרתן הקמה או שחלוף של יחידות הייצור, וכן תותר הקמת סולקנים ביחידות ייצור המופעלות בפחם באתר רוטנברג, ופעולות תכנון לפי <ref href="/akn/il/act/PrimaryLegislation/1965-08-12/148917">חוק התכנון</ref> וביצוען, ותכנון הנדסי הדרושים לכך, והכול עד למועד הנקוב באותו סעיף קטן;</p>
+                        </content>
+                      </point>
+                      <point eId="point_60א__point_ו__point_1__point_ג">
+                        <num>(ג)</num>
+                        <content>
+                          <p>ביצוע פעולות המנויות בפסקה (2) בדרך של מתן שירותים לחברה־בת כאמור באותה פסקה, ולפני הקמתה של חברה־בת כאמור – ביצוע תכנון הנדסי ופעולות תכנון לפי <ref href="/akn/il/act/PrimaryLegislation/1965-08-12/148917">חוק התכנון</ref> לגבי שתי יחידות הייצור האמורות באותה פסקה אף שלא בדרך של מתן שירותים;</p>
+                        </content>
+                      </point>
+                      <point eId="point_60א__point_ו__point_1__point_ד">
+                        <num>(ד)</num>
+                        <content>
+                          <p>פעולות תכנון לפי <ref href="/akn/il/act/PrimaryLegislation/1965-08-12/148917">חוק התכנון</ref> ותכנון הנדסי הדרוש לכך, לגבי האתרים המנויים בסעיף קטן (ב)(2) עד (6), והכול בכפוף לתכנית פיתוח לייצור והשנאה שאושרה לפי <ref href="#point_19">סעיף 19</ref> או תכנית פיתוח למערכת ההולכה וההשנאה שאושרה לפי <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/http_fs_knesset_gov_il_20_law_20_lsr_504275_pdf#point_29">סעיף 29 לתיקון מס׳ 16</ref>, ולהנחיות המשרד;</p>
+                        </content>
+                      </point>
+                    </list>
+                  </point>
+                  <point eId="point_60א__point_ו__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>חברה־בת של חברת החשמל שהוקמה לשם תכנון הנדסי ופעולות תכנון לפי <ref href="/akn/il/act/PrimaryLegislation/1965-08-12/148917">חוק התכנון</ref> לגבי שתי יחידות ייצור באתר אורות רבין וביצועם, וכן לשם הקמה, תפעול ותחזוקה של יחידות הייצור האמורות, רשאית לעסוק בפעולות שלשמן הוקמה.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_60א__point_ז">
+                <num>(ז)</num>
+                <content>
+                  <p>על אף האמור <ref href="#point_6">בסעיפים 6(ז)(3)</ref><ref href="#point_13">ו־13(א)</ref>, רשאית הרשות, באישור השר, לתת רישיונות ייצור לחברה־בת כאמור בסעיף קטן (ו)(2) לגבי שתי יחידות הייצור האמורות באותו סעיף קטן.</p>
+                </content>
+              </point>
+              <point eId="point_60א__point_ח">
+                <num>(ח)</num>
+                <list>
+                  <intro>
+                    <p>השר ידווח לוועדת הכלכלה של הכנסת, עד יום 31 בינואר בכל שנה, על התקדמות ביישום הוראות <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/http_fs_knesset_gov_il_20_law_20_lsr_504275_pdf#point_16">תיקון מס׳ 16</ref>, בשנה שקדמה למועד הדיווח, ובכלל זה על עניינים אלה:</p>
+                  </intro>
+                  <point eId="point_60א__point_ח__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>מספר הבקשות לקבלת רישיונות ייצור ורישיונות הספקה שהוגשו, ומספר הרישיונות שניתנו;</p>
+                    </content>
+                  </point>
+                  <point eId="point_60א__point_ח__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>מכירת יחידות הייצור האמורות בסעיף קטן (ב)(2) עד (6) על ידי חברת החשמל;</p>
+                    </content>
+                  </point>
+                  <point eId="point_60א__point_ח__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>השינויים שחלו בשיעור הצרכנים של חברת החשמל מתוך כלל הצרכנים, בחלוקה לצרכני מתח גבוה, מתח עליון ומתח על־עליון ולצרכני מתח נמוך, לעומת השיעור בדיווח הקודם, ולעניין הדיווח הראשון – לעומת השיעור ערב תחילתו של <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/http_fs_knesset_gov_il_20_law_20_lsr_504275_pdf#point_16">תיקון מס׳ 16</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_60א__point_ח__point_4">
+                    <num>(4)</num>
+                    <content>
+                      <p>החלטות הרשות לעניין סעיף זה.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+            </list>
+          </point>
+          <point eId="point_61">
+            <heading>
+              <authorialNote placement="side">
+                <p>שמירת התחייבויות וזכויות</p>
+              </authorialNote>
+            </heading>
+            <num>61.</num>
+            <content>
+              <p>אין בהוראות חוק זה כדי לפגוע בהתחייבויותיה וזכויותיה של חברת החשמל על פי חוזה, אלא אם כן בוטלו או שונו במפורש בחוק זה.</p>
+            </content>
+          </point>
+          <point eId="point_62">
+            <heading>
+              <authorialNote placement="side">
+                <p>העברת זכויות ונכסים</p>
+              </authorialNote>
+            </heading>
+            <num>62.</num>
+            <list>
+              <point eId="point_62__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>על אף הוראות סעיף 46 לתוספת לפקודת זכיונות החשמל, התחייבויות חברת החשמל וכן הזכויות והנכסים שלה, שהיו בידיה בעת פקיעת הזכיון ושהיא זכאית לפיצוי מן המדינה בעדם לפי הסעיף האמור, יישארו בידי חברת החשמל ולא ישולם פיצוי בעדם.</p>
+                </content>
+              </point>
+              <point eId="point_62__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>הזכויות והנכסים שבעדם חברת החשמל אינה זכאית לפיצוי, כאמור בסעיף קטן (א) ואשר משמשים או נועדו לשמש, בין במישרין ובין בעקיפין, לפעילותה לפי חוק זה, יירכשו בידי החברה לפי ערכם ביום הקניית הזכויות והנכסים, בהתאם להסדר שייחתם בין המדינה לחברת החשמל; בסעיף זה, ”משמשים“, ”נועדו לשמש“ – כפי שיקבעו השרים.</p>
+                </content>
+              </point>
+              <point eId="point_62__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>עד לעריכת ההסדר כאמור בסעיף קטן (ב), יישארו הזכויות והנכסים שלגביהם אמור להיערך ההסדר, בידי חברת החשמל, כפי שהיו בעת פקיעת הזכיון; לא הגיעו הצדדים להסדר כאמור תוך שנה אחת ממועד פקיעת הזכיון, יקבעו השרים הוראות לענין רכישת הזכויות והנכסים כאמור.</p>
+                </content>
+              </point>
+              <point eId="point_62__point_ד">
+                <num>(ד)</num>
+                <content>
+                  <p>נדרשה המדינה לשלם תשלום כלשהו בשל התחייבות מהתחייבויות חברת החשמל אשר היו בתוקף בעת פקיעת הזכיון, עקב פקיעתו או כתוצאה מביצוע הוראות סעיפים קטנים (א) או (ב), תשפה אותה חברת החשמל על כל תשלום כאמור.</p>
+                </content>
+              </point>
+              <point eId="point_62__point_ה">
+                <num>(ה)</num>
+                <content>
+                  <p>לצורך קביעת התעריפים, יובאו בחשבון במלואן העלויות שיחולו על חברת החשמל, לפי הסדר שיקבעו השרים בקשר להסכם שנחתם בין המדינה לבין חברת החשמל ביום כ׳ בתשרי התשל"ה (25 בספטמבר 1975).</p>
+                </content>
+              </point>
+              <point eId="point_62__point_ו">
+                <num>(ו)</num>
+                <list>
+                  <point eId="point_62__point_ו__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>על אף הוראות סעיפים קטנים (א) עד (ג), השרים רשאים לאשר הסכם בין המדינה וחברת החשמל לעניין הזכויות והנכסים האמורים בסעיפים קטנים (א) ו־(ב), כולם או חלקם, שיחול על אף הוראות סעיפים קטנים (א) ו־(ב) וסעיף 46 לתוספת לפקודת זכיונות החשמל, אם ראו כי יש באישור הסכם כאמור תועלת משקית, ויחולו לעניין זה הוראות סעיף קטן (ג) רישה, בשינויים המחויבים.</p>
+                    </content>
+                  </point>
+                  <point eId="point_62__point_ו__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>אישרו השרים הסכם כאמור בפסקה (1), לא תחויב חלוקת הנכסים והזכויות בין המדינה לחברת החשמל בהתאם לאמור בהסכם, ובכלל זה רישומם בהתאם לחלוקה כאמור על שם המדינה או החברה, לפי העניין, במרשם המתנהל לפי כל דין, במס, אגרה, היטל או כל תשלום חובה אחר, לפי כל דין, ולא יראו אותה כמכירה לעניין כל דין שעניינו מס, אגרה, היטל או תשלום חובה אחר כאמור.</p>
+                    </content>
+                  </point>
+                  <point eId="point_62__point_ו__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>יראו לעניין <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_מס_הכנסה">פקודת מס הכנסה</ref>, <ref href="/akn/il/act/PrimaryLegislation/2008-02-18/262875">וחוק מיסוי מקרקעין (שבח ורכישה), התשכ"ג–1963</ref>, את המחיר המקורי, יתרת המחיר המקורי, שווי הרכישה ויום הרכישה של כל אחד מהנכסים והזכויות, כפי שהיו אלמלא בוצעה החלוקה כאמור בפסקה (2); לעניין זה, ”מחיר מקורי“, ”יתרת המחיר המקורי“ ו”יום רכישה“ – כהגדרתם <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_מס_הכנסה#point_88">בסעיף 88 לפקודת מס הכנסה</ref>.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+            </list>
+          </point>
+          <point eId="point_63">
+            <heading>
+              <authorialNote placement="side">
+                <p>ביצוע תקנות וכללים</p>
+              </authorialNote>
+            </heading>
+            <num>63.</num>
+            <content>
+              <p>השר ממונה על ביצוע חוק זה והוא רשאי להתקין תקנות וכללים לביצועו.</p>
+            </content>
+          </point>
+          <point eId="point_64">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>64.</num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryLegislation/1975-07-04/169605">בחוק החברות הממשלתיות, התשל"ה–1975</ref>.</wikicomment>
+              </p>
+            </content>
+          </point>
+          <point eId="point_65">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>65.</num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryLegislation/1985-10-24/151096">בחוק העבירות המינהליות, התשמ"ו–1985</ref>.</wikicomment>
+              </p>
+            </content>
+          </point>
+          <point eId="point_66">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>66.</num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryLegislation/1959-04-15/148670">בחוק שירות המדינה (מינויים), התשי"ט–1959</ref>.</wikicomment>
+              </p>
+            </content>
+          </point>
+          <point eId="point_67">
+            <heading>
+              <authorialNote placement="side">
+                <p>תחילה</p>
+              </authorialNote>
+            </heading>
+            <num>67.</num>
+            <list>
+              <point eId="point_67__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>תחילתו של חוק זה למעט <ref href="#point_52">סעיפים 52 עד 55</ref> ביום י"ג באדר התשנ"ו (4 במרס 1996).</p>
+                </content>
+              </point>
+              <point eId="point_67__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>תחילתם של <ref href="#point_52">סעיפים 52 עד 55</ref> ביום פרסומו של חוק זה.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+        </list>
+      </chapter>
+      <appendix eId="appendix">
+        <num></num>
+        <title>
+          <content>
+            <p>תוספת <wikicomment font-size="x-small">(פקעה)</wikicomment></p>
+          </content>
+        </title>
+      </appendix>
+    </body>
+    <conclusions eId="eId">
+      <p class="signatures">
+        <signature>
+          <p>
+            <person refersTo="שמעון_פרס">שמעון פרס</person>
+            <role refersTo="ראש_הממשלה">ראש הממשלה</role>
+          </p>
+        </signature>
+        <signature>
+          <p>
+            <person refersTo="גונן_שגב">גונן שגב</person>
+            <role refersTo="שר_האנרגיה_והתשתית">שר האנרגיה והתשתית</role>
+          </p>
+        </signature>
+        <signature>
+          <p>
+            <person refersTo="עזר_ויצמן">עזר ויצמן</person>
+            <role refersTo="נשיא_המדינה">נשיא המדינה</role>
+          </p>
+        </signature>
+        <signature>
+          <p>
+            <person refersTo="שבח_וייס">שבח וייס</person>
+            <role refersTo="יושב_ראש_הכנסת">יושב ראש הכנסת</role>
+          </p>
+        </signature>
+      </p>
+    </conclusions>
+  </act>
+</akomaNtoso>

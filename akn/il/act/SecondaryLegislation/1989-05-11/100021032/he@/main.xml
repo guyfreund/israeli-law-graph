@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion" name="publicLaw">
+    <meta>
+      <identification source="#kensset">
+        <FRBRWork>
+          <FRBRthis value="/akn/il/act/SecondaryLegislation/1989-05-11/100021032/main" />
+          <FRBRuri value="/akn/il/act/SecondaryLegislation/1989-05-11/100021032" />
+          <FRBRdate date="1989-05-11" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRcountry value="israel" />
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/il/act/SecondaryLegislation/1989-05-11/100021032/he@/main" />
+          <FRBRuri value="/akn/il/act/SecondaryLegislation/1989-05-11/100021032/he@" />
+          <FRBRdate date="1989-05-11" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRlanguage language="hebrew" />
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/il/act/SecondaryLegislation/1989-05-11/100021032/he@/main.xml" />
+          <FRBRuri value="/akn/il/act/SecondaryLegislation/1989-05-11/100021032/he@" />
+          <FRBRdate date="1989-05-11" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRformat value="xml" />
+        </FRBRManifestation>
+      </identification>
+      <classification source="#kensset">
+        <keyword value="{classificationValue}" showAs="{classificationValue}" dictionary="#classification_dictionary" />
+      </classification>
+      <lifecycle source="#kensset">
+        <eventRef eId="eventRef_1" date="1989-05-11" source="#kensset" type="generation" />
+      </lifecycle>
+      <references source="#kensset">
+        <TLCOrganization eId="kensset" href="/ontology/organization/akn/knesset" showAs="Kensset" type="generation" />
+        <TLCRole eId="author" href="/ontology/role/akn/author" showAs="Author of Document" />
+        <TLCProcess eId="inforce" href="/ontology/process/akn/inforce" showAs="In force" />
+        <TLCPerson eId="יצחק_רבין" href="/ontology/person/יצחק_רבין" showAs="יצחק רבין" />
+        <TLCRole eId="שר_הבטחון" href="ontology/role/akn/שר_הבטחון" showAs="שר הבטחון" />
+      </references>
+      <temporalData source="#kensset">
+        <temporalGroup eId="tmpg_1" />
+      </temporalData>
+      <Publication></Publication>
+      <proprietary wikiversion="12/9/2019 9:30:03 PM" />
+    </meta>
+    <body period="#tmpg_1">
+      <title eId="title">
+        <content>
+          <p>תקנות שירות בטחון (אמצעי זיהוי), התשמ"ט–1989</p>
+        </content>
+      </title>
+      <preamble eId="eId">
+        <p>בתוקף סמכותי לפי <ref href="/akn/il/act/PrimaryLegislation/1986-01-30/2002309#point_11">סעיף 11</ref><ref href="/akn/il/act/PrimaryLegislation/1986-01-30/2002309">לחוק שירות בטחון [נוסח משולב], התשמ"ו–1986</ref> (להלן – החוק), אני מתקין תקנות אלה:</p>
+      </preamble>
+      <list>
+        <point eId="point_1">
+          <heading>
+            <authorialNote placement="side">
+              <p>אמצעי זיהוי</p>
+            </authorialNote>
+          </heading>
+          <num>1.</num>
+          <list>
+            <intro>
+              <p>אלה אמצעי זיהוי לענין <ref href="/akn/il/act/PrimaryLegislation/1986-01-30/2002309#point_11">סעיף 11 לחוק</ref>:</p>
+            </intro>
+            <point eId="point_1__point_1">
+              <num>(1)</num>
+              <content>
+                <p>טביעת אצבעות;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_2">
+              <num>(2)</num>
+              <content>
+                <p>צילומי שיניים.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_2">
+          <heading>
+            <authorialNote placement="side">
+              <p>ביטול</p>
+            </authorialNote>
+          </heading>
+          <num>2.</num>
+          <content>
+            <p>תקנות שירות בטחון (טביעת אצבעות), התשל"ד–1974 – בטלות.</p>
+          </content>
+        </point>
+      </list>
+    </body>
+    <conclusions eId="eId">
+      <p class="signatures">
+        <signature>
+          <p>
+            <person refersTo="יצחק_רבין">יצחק רבין</person>
+            <role refersTo="שר_הבטחון">שר הבטחון</role>
+          </p>
+        </signature>
+      </p>
+    </conclusions>
+  </act>
+</akomaNtoso>

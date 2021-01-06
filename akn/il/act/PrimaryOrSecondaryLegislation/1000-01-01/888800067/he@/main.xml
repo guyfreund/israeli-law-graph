@@ -1,0 +1,1855 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion" name="publicLaw">
+    <meta>
+      <identification source="#kensset">
+        <FRBRWork>
+          <FRBRthis value="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/888800067/main" />
+          <FRBRuri value="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/888800067" />
+          <FRBRdate date="1000-01-01" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRcountry value="israel" />
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/888800067/he@/main" />
+          <FRBRuri value="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/888800067/he@" />
+          <FRBRdate date="1000-01-01" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRlanguage language="hebrew" />
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/888800067/he@/main.xml" />
+          <FRBRuri value="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/888800067/he@" />
+          <FRBRdate date="1000-01-01" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRformat value="xml" />
+        </FRBRManifestation>
+      </identification>
+      <classification source="#kensset">
+        <keyword value="{classificationValue}" showAs="{classificationValue}" dictionary="#classification_dictionary" />
+      </classification>
+      <lifecycle source="#kensset">
+        <eventRef eId="eventRef_1" date="1000-01-01" source="#kensset" type="generation" />
+      </lifecycle>
+      <references source="#kensset">
+        <TLCOrganization eId="kensset" href="/ontology/organization/akn/knesset" showAs="Kensset" type="generation" />
+        <TLCRole eId="author" href="/ontology/role/akn/author" showAs="Author of Document" />
+        <TLCProcess eId="inforce" href="/ontology/process/akn/inforce" showAs="In force" />
+        <TLCTerm eId="term_1" href="/ontology/term/אמצעים_טכנולוגיים/888800067" showAs="אמצעים_טכנולוגיים" />
+        <TLCTerm eId="term_2" href="/ontology/term/גורם_מפעיל_פרטי/888800067" showAs="גורם_מפעיל_פרטי" />
+        <TLCTerm eId="term_3" href="/ontology/term/רישיון_לשידור/888800067" showAs="רישיון_לשידור" />
+        <TLCTerm eId="term_4" href="/ontology/term/בעל_רישיון_מפ''א_תשתית/888800067" showAs="בעל_רישיון_מפ''א_תשתית" />
+        <TLCTerm eId="term_5" href="/ontology/term/בעל_רישיון_כללי_ייחודי/888800067" showAs="בעל_רישיון_כללי_ייחודי" />
+        <TLCTerm eId="term_6" href="/ontology/term/בעל_רישיון_חלוקה/888800067" showAs="בעל_רישיון_חלוקה" />
+        <TLCTerm eId="term_7" href="/ontology/term/בעל_תשתית/888800067" showAs="בעל_תשתית" />
+        <TLCTerm eId="term_8" href="/ontology/term/בעל_תשתית_תקשורת/888800067" showAs="בעל_תשתית_תקשורת" />
+        <TLCTerm eId="term_9" href="/ontology/term/גוף_תשתית_שאינו_ציבורי/888800067" showAs="גוף_תשתית_שאינו_ציבורי" />
+        <TLCTerm eId="term_10" href="/ontology/term/גורם_מפעיל/888800067" showAs="גורם_מפעיל" />
+        <TLCTerm eId="term_11" href="/ontology/term/חוק_משק_הגז_הטבעי/888800067" showAs="חוק_משק_הגז_הטבעי" />
+        <TLCTerm eId="term_12" href="/ontology/term/מיזם_תשתית_לאומית/888800067" showAs="מיזם_תשתית_לאומית" />
+        <TLCTerm eId="term_13" href="/ontology/term/מקים_מיזם_תשתית_לאומית/888800067" showAs="מקים_מיזם_תשתית_לאומית" />
+        <TLCTerm eId="term_14" href="/ontology/term/מקים_מסילת_ברזל/888800067" showAs="מקים_מסילת_ברזל" />
+        <TLCTerm eId="term_15" href="/ontology/term/מקים_תשתית/888800067" showAs="מקים_תשתית" />
+        <TLCTerm eId="term_16" href="/ontology/term/שליטה/888800067" showAs="שליטה" />
+        <TLCPerson eId="בנימין_נתניהו" href="/ontology/person/בנימין_נתניהו" showAs="בנימין נתניהו" />
+        <TLCPerson eId="משה_כחלון" href="/ontology/person/משה_כחלון" showAs="משה כחלון" />
+        <TLCPerson eId="ראובן_ריבלין" href="/ontology/person/ראובן_ריבלין" showAs="ראובן ריבלין" />
+        <TLCPerson eId="יולי_יואל_אדלשטיין" href="/ontology/person/יולי_יואל_אדלשטיין" showAs="יולי יואל אדלשטיין" />
+        <TLCRole eId="ראש_הממשלה" href="ontology/role/akn/ראש_הממשלה" showAs="ראש הממשלה" />
+        <TLCRole eId="שר_האוצר" href="ontology/role/akn/שר_האוצר" showAs="שר האוצר" />
+        <TLCRole eId="נשיא_המדינה" href="ontology/role/akn/נשיא_המדינה" showAs="נשיא המדינה" />
+        <TLCRole eId="יושב_ראש_הכנסת" href="ontology/role/akn/יושב_ראש_הכנסת" showAs="יושב ראש הכנסת" />
+      </references>
+      <temporalData source="#kensset">
+        <temporalGroup eId="tmpg_1" />
+      </temporalData>
+      <Publication></Publication>
+      <proprietary wikiversion="12/28/2020 8:06:01 AM" />
+    </meta>
+    <body period="#tmpg_1">
+      <title eId="title">
+        <content>
+          <p>חוק התכנית הכלכלית (תיקוני חקיקה ליישום המדיניות הכלכלית לשנות התקציב 2017 ו־2018), התשע"ז–2016</p>
+        </content>
+      </title>
+      <chapter eId="chp_א">
+        <num>פרק א׳:</num>
+        <title>
+          <content>
+            <p>מטרת החוק</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_1">
+            <heading>
+              <authorialNote placement="side">
+                <p>מטרה</p>
+              </authorialNote>
+            </heading>
+            <num>1.</num>
+            <content>
+              <p>חוק זה בא לתקן חוקים שונים במטרה לחזק את הצמיחה במשק, להגדיל את רמת התחרות בו, להוזיל את יוקר המחיה בישראל ולצמצם את אי השוויון הכלכלי הקיים במשק, והכול בהתאם ליעדי התקציב והמדיניות הכלכלית לשנים 2017 ו־2018.</p>
+            </content>
+          </point>
+        </list>
+      </chapter>
+      <chapter eId="chp_ב">
+        <num>פרק ב׳:</num>
+        <title>
+          <content>
+            <p>אסדרת ענף התמרוקים</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_2">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>2.</num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryLegislation/1991-11-13/152091">בפקודת הרוקחים [נוסח חדש], התשמ"א–1981</ref>.</wikicomment>
+              </p>
+            </content>
+          </point>
+          <point eId="point_3">
+            <heading>
+              <authorialNote placement="side">
+                <p>פרק ב׳ – תחילה תקנות ראשונות, תחולה והוראת שעה</p>
+              </authorialNote>
+            </heading>
+            <num>3.</num>
+            <list>
+              <point eId="point_3__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>תחילתו של <ref href="#chp_ב">פרק זה</ref> שישה חודשים מיום תחילתו של חוק זה; שר הבריאות, בהסכמת שר האוצר ובאישור ועדת העבודה, הרווחה והבריאות של הכנסת, רשאי, בצו, לדחות את יום התחילה בתקופה אחת נוספת שלא תעלה על שלושה חודשים.</p>
+                </content>
+              </point>
+              <point eId="point_3__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>תקנות ראשונות לפי <ref href="/akn/il/act/PrimaryLegislation/1991-11-13/152091#point_55א1">סעיפים 55א1(ב)(7)</ref>, <ref href="/akn/il/act/PrimaryLegislation/1991-11-13/152091#point_55א5">55א5(ב)(6)</ref>, <ref href="/akn/il/act/PrimaryLegislation/1991-11-13/152091#point_55א6">55א6(ז)</ref>, <ref href="/akn/il/act/PrimaryLegislation/1991-11-13/152091#point_55א10">55א10</ref>, <ref href="/akn/il/act/PrimaryLegislation/1991-11-13/152091#point_55א11">55א11</ref><ref href="/akn/il/act/PrimaryLegislation/1991-11-13/152091#point_55ב">ו־55ב לפקודת הרוקחים</ref>, כנוסחם <ref href="#point_2">בסעיף 2(2) לחוק זה</ref>, ולפי <ref href="/akn/il/act/PrimaryLegislation/1991-11-13/152091#point_55ג1">סעיף 55ג1(ז) לפקודת הרוקחים</ref>, כנוסחו <ref href="#point_2">בסעיף 2(4) לחוק זה</ref>, יובאו לאישור ועדת העבודה, הרווחה והבריאות של הכנסת, בתוך שלושה חודשים מיום תחילתו של חוק זה.</p>
+                </content>
+              </point>
+              <point eId="point_3__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>הוראות <ref href="/akn/il/act/PrimaryLegislation/1991-11-13/152091#point_55א5">סעיפים 55א5</ref>, <ref href="/akn/il/act/PrimaryLegislation/1991-11-13/152091#point_55א10">55א10</ref><ref href="/akn/il/act/PrimaryLegislation/1991-11-13/152091#point_55א11">ו־55א11 לפקודת הרוקחים</ref>, כנוסחם <ref href="#point_2">בסעיף 2(2) לחוק זה</ref>, והוראות <ref href="/akn/il/act/PrimaryLegislation/1991-11-13/152091#point_55ג1">סעיף 55ג1 לפקודה</ref> כנוסחו <ref href="#point_2">בסעיף 2(4) לחוק זה</ref>, לא יחולו על תמרוק שערב יום תחילתו של <ref href="#chp_ב">פרק זה</ref> היה לגביו רישיון לתמרוק פלוני לפי <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/צו_הפיקוח_על_מצרכים_ושירותים_תמרוקים">צו הפיקוח על מצרכים ושירותים (תמרוקים), התשל"ג–1973</ref> (בסעיף זה – צו הפיקוח), וזאת עד תום תקופת תוקפו של הרישיון האמור.</p>
+                </content>
+              </point>
+              <point eId="point_3__point_ד">
+                <num>(ד)</num>
+                <content>
+                  <p>הוראות <ref href="/akn/il/act/PrimaryLegislation/1991-11-13/152091#point_55א1">סעיף 55א1 לפקודת הרוקחים</ref>, כנוסחו <ref href="#point_2">בסעיף 2(2) לחוק זה</ref>, לא יחולו על מי שמייצר, מייבא, מייצא, עוסק באחסון סיטונאי של תמרוק או מפיצו, שערב יום תחילתו של <ref href="#chp_ב">פרק זה</ref> היה לו רישיון תמרוקים כללי לפי <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/צו_הפיקוח_על_מצרכים_ושירותים_תמרוקים">צו הפיקוח</ref>, וזאת עד תום תקופת תוקפו של הרישיון האמור.</p>
+                </content>
+              </point>
+              <point eId="point_3__point_ה">
+                <num>(ה)</num>
+                <content>
+                  <p>בתקופה של שנתיים מיום תחילתו של <ref href="#chp_ב">פרק זה</ref> הוראות <ref href="/akn/il/act/PrimaryLegislation/1991-11-13/152091#point_66">סעיף 66(א1) לפקודת הרוקחים</ref>, כנוסחו <ref href="#point_2">בסעיף 2(10) לחוק זה</ref>, לא יחולו על תמרוקים מסוג בושם וסבון מוצק.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_4">
+            <heading>
+              <authorialNote placement="side">
+                <p>דיווח לכנסת – הוראת שעה</p>
+              </authorialNote>
+            </heading>
+            <num>4.</num>
+            <content>
+              <p>בתום שנה מיום תחילתו של <ref href="#chp_ב">פרק זה</ref> ימסור שר הבריאות לוועדת העבודה, הרווחה והבריאות של הכנסת, דיווח על יישום הוראות <ref href="#chp_ב">פרק זה</ref>.</p>
+            </content>
+          </point>
+        </list>
+      </chapter>
+      <chapter eId="chp_ג">
+        <num>פרק ג׳:</num>
+        <title>
+          <content>
+            <p>רשויות מקומיות</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_5">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>5.</num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryLegislation/1955-03-13/146872">בחוק איגודי ערים, התשט"ו–1955</ref>.</wikicomment>
+              </p>
+            </content>
+          </point>
+        </list>
+      </chapter>
+      <chapter eId="chp_ד">
+        <num>פרק ד׳:</num>
+        <title>
+          <content>
+            <p>שירות נסיעות שיתופיות</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_6">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>6.</num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_התעבורה">בפקודת התעבורה</ref>.</wikicomment>
+              </p>
+            </content>
+          </point>
+          <point eId="point_7">
+            <heading>
+              <authorialNote placement="side">
+                <p>פרק ד׳ – תחילה</p>
+              </authorialNote>
+            </heading>
+            <num>7.</num>
+            <content>
+              <p>תחילתו של <ref href="#chp_ד">פרק זה</ref> ביום ג׳ באדר התשע"ז (1 במרס 2017).</p>
+            </content>
+          </point>
+          <point eId="point_8">
+            <heading>
+              <authorialNote placement="side">
+                <p>דיווח לכנסת – הוראת שעה</p>
+              </authorialNote>
+            </heading>
+            <num>8.</num>
+            <content>
+              <p>בתום שנה מיום תחילתו של <ref href="#chp_ד">פרק זה</ref>, שר התחבורה והבטיחות בדרכים ידווח לוועדת הכלכלה של הכנסת בדבר יישומו של <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_התעבורה#chp_2_sec_ג2">סימן ג׳2 לפרק השני לפקודת התעבורה</ref>, כנוסחו <ref href="#point_6">בסעיף 6 לחוק זה</ref>.</p>
+            </content>
+          </point>
+        </list>
+      </chapter>
+      <chapter eId="chp_ה">
+        <num>פרק ה׳:</num>
+        <title>
+          <content>
+            <p>אנרגיה</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_9">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>9.</num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryLegislation/1989-09-29/152583">בחוק הגז (בטיחות ורישוי), התשמ"ט–1989</ref>.</wikicomment>
+              </p>
+            </content>
+          </point>
+          <point eId="point_10">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>10.</num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryLegislation/1989-04-07/152319">בחוק הסדרים במשק המדינה (תיקוני חקיקה), התשמ"ט–1989</ref>.</wikicomment>
+              </p>
+            </content>
+          </point>
+          <point eId="point_11">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>11.</num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryLegislation/2016-12-29/2007975">בחוק המקרקעין (החלפת ספק גז בבית משותף), התשנ"א–1991</ref>.</wikicomment>
+              </p>
+            </content>
+          </point>
+          <point eId="point_12">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>12.</num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryLegislation/1969-07-27/148008">בחוק המקרקעין, התשכ"ט–1969</ref>.</wikicomment>
+              </p>
+            </content>
+          </point>
+          <point eId="point_13">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>13.</num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryLegislation/2000-06-11/169660">בחוק בתי משפט לעניינים מינהליים</ref>.</wikicomment>
+              </p>
+            </content>
+          </point>
+        </list>
+      </chapter>
+      <chapter eId="chp_ו">
+        <num>פרק ו׳:</num>
+        <title>
+          <content>
+            <p>רישוי עסקים</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_14">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>14.</num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryLegislation/1968-08-16/148450">בחוק רישוי עסקים, התשכ"ח–1968</ref>.</wikicomment>
+              </p>
+            </content>
+          </point>
+          <point eId="point_15">
+            <heading>
+              <authorialNote placement="side">
+                <p>חוק רישוי עסקים – הוראת מעבר</p>
+              </authorialNote>
+            </heading>
+            <num>15.</num>
+            <list>
+              <intro>
+                <p>בחמש השנים שמיום תחילתו של חוק זה –</p>
+              </intro>
+              <point eId="point_15__point_1">
+                <num>(1)</num>
+                <content>
+                  <p>הוראות <ref href="/akn/il/act/PrimaryLegislation/1968-08-16/148450#point_6א2">פסקה (1) שבסעיף 6א2(א) לחוק רישוי עסקים</ref>, כפי שהוחלו על אישור על יסוד תצהיר <ref href="/akn/il/act/PrimaryLegislation/1968-08-16/148450#point_6">בסעיף 6(ג)(3)(א) לחוק רישוי עסקים</ref>, כנוסחו בחוק זה, לא יחולו.</p>
+                </content>
+              </point>
+              <point eId="point_15__point_2">
+                <num>(2)</num>
+                <content>
+                  <p>הוראות <ref href="/akn/il/act/PrimaryLegislation/1968-08-16/148450#point_6א2">פסקה (4) שבסעיף 6א2(א) לחוק רישוי עסקים</ref>, כפי שהוחלו על אישור על יסוד תצהיר <ref href="/akn/il/act/PrimaryLegislation/1968-08-16/148450#point_6">בסעיף 6(ג)(3)(א) לחוק רישוי עסקים</ref>, כנוסחו בחוק זה, יחולו רק על הרשעה בשל עיסוק בלא רישיון או היתר זמני בעסק טעון רישוי.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_16">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>16.</num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryLegislation/1965-08-12/148917">בחוק התכנון והבנייה, התשכ"ה–1965</ref>.</wikicomment>
+              </p>
+            </content>
+          </point>
+          <point eId="point_17">
+            <heading>
+              <authorialNote placement="side">
+                <p>חוק התכנון והבנייה – תחילה ותקנות ראשונות</p>
+              </authorialNote>
+            </heading>
+            <num>17.</num>
+            <list>
+              <point eId="point_17__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>תחילתו של <ref href="/akn/il/act/PrimaryLegislation/1965-08-12/148917#point_145ה">סעיף 145ה לחוק התכנון והבנייה</ref>, כנוסחו <ref href="#point_16">בסעיף 16(1) לחוק זה</ref>, ארבעה חודשים מיום תחילתו של חוק זה.</p>
+                </content>
+              </point>
+              <point eId="point_17__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>תקנות ראשונות לפי <ref href="/akn/il/act/PrimaryLegislation/1965-08-12/148917#point_145ה">סעיף 145ה(ה) לחוק התכנון והבנייה</ref>, כנוסחו <ref href="#point_16">בסעיף 16(1) לחוק זה</ref>, יותקנו בתוך ארבעה חודשים מיום תחילתו של חוק זה.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_18">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>18.</num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryLegislation/1965-08-12/148917">בחוק התכנון והבנייה, התשכ"ה–1965</ref> כהוראת שעה עד 31 בדצמבר 2025.</wikicomment>
+              </p>
+            </content>
+          </point>
+        </list>
+      </chapter>
+      <chapter eId="chp_ז">
+        <num>פרק ז׳:</num>
+        <title>
+          <content>
+            <p>מים וביוב</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_19">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>19.</num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryLegislation/2001-07-31/171078">בחוק תאגידי מים וביוב, התשס"א–2001</ref>.</wikicomment>
+              </p>
+            </content>
+          </point>
+          <point eId="point_20">
+            <heading>
+              <authorialNote placement="side">
+                <p>תיקון חוק תאגידי מים וביוב – תחילה, תקנות ראשונות וכללים ראשונים</p>
+              </authorialNote>
+            </heading>
+            <num>20.</num>
+            <list>
+              <point eId="point_20__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>תחילתם של <ref href="/akn/il/act/PrimaryLegislation/2001-07-31/171078#point_14">סעיפים 14(ב)</ref>, <ref href="/akn/il/act/PrimaryLegislation/2001-07-31/171078#point_15">15(א)</ref>, <ref href="/akn/il/act/PrimaryLegislation/2001-07-31/171078#point_21א">21א(ג)</ref><ref href="/akn/il/act/PrimaryLegislation/2001-07-31/171078#point_149ב">ו־149ב לחוק תאגיד מים וביוב</ref> כנוסחם <ref href="#point_19">בסעיף 19(4), (5)(א), (10)(ב) ו־(37) לחוק זה</ref>, לעניין ספק שירותי ביוב שאינו חברת ביוב, ביום כ"ד בטבת התשע"ט (1 בינואר 2019) (להלן – יום התחילה המאוחר).</p>
+                </content>
+              </point>
+              <point eId="point_20__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>תקנות ראשונות לפי <ref href="/akn/il/act/PrimaryLegislation/2001-07-31/171078#point_13ט">סעיף 13ט(ה)(2) לחוק תאגידי מים וביוב</ref> כנוסחו <ref href="#point_19">בסעיף 19(3) לחוק זה</ref>, יובאו לאישור ועדת הכלכלה של הכנסת עד יום ו׳ בתמוז התשע"ז (30 ביוני 2017).</p>
+                </content>
+              </point>
+              <point eId="point_20__point_ג">
+                <num>(ג)</num>
+                <list>
+                  <intro>
+                    <p>מועצת הרשות כהגדרתה <ref href="/akn/il/act/PrimaryLegislation/2001-07-31/171078">בחוק תאגידי מים וביוב</ref> תקבע כללים ראשונים –</p>
+                  </intro>
+                  <point eId="point_20__point_ג__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>לפי <ref href="/akn/il/act/PrimaryLegislation/2001-07-31/171078#point_21א">סעיף 21א(ב) לחוק תאגידי מים וביוב</ref> כנוסחו <ref href="#point_19">בסעיף 19(10)(ב) לחוק זה</ref> – עד יום ד׳ בניסן התשע"ז (31 במרס 2017);</p>
+                    </content>
+                  </point>
+                  <point eId="point_20__point_ג__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>לפי <ref href="/akn/il/act/PrimaryLegislation/2001-07-31/171078#point_13ז">סעיפים 13ז(ב)(1)</ref>, <ref href="/akn/il/act/PrimaryLegislation/2001-07-31/171078#point_13ט">13ט(א) ו־(ה)(1)</ref>, <ref href="/akn/il/act/PrimaryLegislation/2001-07-31/171078#point_21א">ו־21א(ג) לחוק תאגידי מים וביוב</ref> כנוסחם <ref href="#point_19">בסעיפים 19(3), ו־(10)(ב) לחוק זה</ref> – עד יום ו׳ בתמוז התשע"ז (30 ביוני 2017).</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+            </list>
+          </point>
+          <point eId="point_21">
+            <heading>
+              <authorialNote placement="side">
+                <p>תיקון חוק תאגידי מים וביוב – הוראת מעבר</p>
+              </authorialNote>
+            </heading>
+            <num>21.</num>
+            <list>
+              <point eId="point_21__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>הנחיות, הוראות וכללים שנקבעו לפי <ref href="/akn/il/act/PrimaryLegislation/2001-07-31/171078">חוק תאגידי מים וביוב</ref> ושהיו בתוקף ערב תחילתו של חוק זה, לא יחולו על ספק שירותי ביוב, לעניין מתן שירותי הולכה וטיפול, אלא אם כן שונו לאחר יום תחילתו של חוק זה ונקבע בהם אחרת.</p>
+                </content>
+              </point>
+              <point eId="point_21__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>הממונה ייתן רישיון הולכה וטיפול למי שסיפק שירותי הולכה וטיפול ערב יום התחילה המאוחר והוא חייב ברישיון כאמור לפי <ref href="/akn/il/act/PrimaryLegislation/2001-07-31/171078#point_14">סעיף 14(ב) לחוק תאגידי מים וביוב</ref> כנוסחו <ref href="#point_14">בסעיף 14(4) לחוק זה</ref>; רישיון כאמור יינתן לא יאוחר מיום התחילה המאוחר.</p>
+                </content>
+              </point>
+              <point eId="point_21__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>בסעיף זה, ”ספק שירותי ביוב“, ”רישיון הולכה וטיפול“ ו”שירותי הולכה וטיפול“ – כהגדרתם <ref href="/akn/il/act/PrimaryLegislation/2001-07-31/171078">בחוק תאגידי מים וביוב</ref> כנוסחו בחוק זה.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_22">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>22.</num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryLegislation/2013-08-05/484923">בחוק לשינוי סדרי עדיפויות לאומיים (תיקוני חקיקה להשגת יעדי התקציב לשנים 2013 ו־2014), התשע"ג–2013</ref>.</wikicomment>
+              </p>
+            </content>
+          </point>
+        </list>
+      </chapter>
+      <chapter eId="chp_ח">
+        <num>פרק ח׳:</num>
+        <title>
+          <content>
+            <p>תקשורת</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_23">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>23.</num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryLegislation/2012-04-01/419715">בחוק הפצת שידורים באמצעות תחנות שידור ספרתיות, התשע"ב–2012</ref>.</wikicomment>
+              </p>
+            </content>
+          </point>
+          <point eId="point_24">
+            <heading>
+              <authorialNote placement="side">
+                <p>חוק הפצת שידורים – תחילה</p>
+              </authorialNote>
+            </heading>
+            <num>24.</num>
+            <list>
+              <intro>
+                <p>על אף האמור <ref href="#point_55">בסעיף 55</ref> –</p>
+              </intro>
+              <point eId="point_24__point_1">
+                <num>(1)</num>
+                <content>
+                  <p>לא הותקנו תקנות לפי <ref href="/akn/il/act/PrimaryLegislation/2012-04-01/419715#point_13כ">סעיף 13כ(ב) לחוק הפצת שידורים</ref>, כנוסחו <ref href="#point_23">בסעיף 23(16) לחוק זה</ref>, תידחה תחילתו של <ref href="/akn/il/act/PrimaryLegislation/2012-04-01/419715#chp_ד4">פרק ד׳4 לחוק הפצת שידורים</ref>, כנוסחו <ref href="#point_23">בסעיף 23(16) לחוק זה</ref>, לעניין הטלת עיצומים כספיים על גורם מפעיל, עד להתקנת תקנות כאמור;</p>
+                </content>
+              </point>
+              <point eId="point_24__point_2">
+                <num>(2)</num>
+                <content>
+                  <p>לא הותקנו תקנות לפי <ref href="/akn/il/act/PrimaryLegislation/2012-04-01/419715#point_13כ">סעיף 13כ(ג) לחוק הפצת שידורים</ref>, כנוסחו <ref href="#point_23">בסעיף 23(16) לחוק זה</ref>, תידחה תחילתו של <ref href="/akn/il/act/PrimaryLegislation/2012-04-01/419715#chp_ד4">פרק ד׳4 לחוק הפצת שידורים</ref>, כנוסחו <ref href="#point_23">בסעיף 23(16) לחוק זה</ref>, לעניין הטלת עיצומים כספיים על משדר בלא רישיון, בעל רישיון לשידורים באמצעות תחנות השידור הספרתיות וערוץ נושאי, עד להתקנת תקנות כאמור.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_25">
+            <heading>
+              <authorialNote placement="side">
+                <p>חוק הפצת שידורים – הוראות מעבר</p>
+              </authorialNote>
+            </heading>
+            <num>25.</num>
+            <list>
+              <point eId="point_25__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>נחתם הסכם ערב יום תחילתו של חוק זה בין בעל זכות יוצרים או בעל זכות מבצעים בשידורים הפתוחים וביצירות הכלולות בהם לבין גוף מהגופים ששידוריהם מופצים לפי <ref href="/akn/il/act/PrimaryLegislation/2012-04-01/419715#point_6">סעיף 6(א)(1) עד (6) ו־(8) לחוק הפצת שידורים</ref>, לעניין שימוש בזכות כאמור, אין בהוראות ההסכם כדי לגרוע מזכותו של בעל זכות היוצרים או בעל זכות המבצעים לקבל תשלום מהגוף האמור, לפי כל דין, בעד הפצת השידורים הפתוחים בידי ספק תכנים רשום לפי <ref href="/akn/il/act/PrimaryLegislation/2012-04-01/419715#point_13ג">סעיף 13ג לחוק הפצת שידורים</ref>, כנוסחו <ref href="#point_23">בסעיף 23(16) לחוק זה</ref>, אלא אם כן נקבע במפורש אחרת באותו הסכם.</p>
+                </content>
+              </point>
+              <point eId="point_25__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>מפקח שמונה לפי <ref href="/akn/il/act/PrimaryLegislation/2001-08-09/171095#point_37יא">סעיף 37יא לחוק התקשורת</ref>, יראו אותו כמי שהוסמך לפי <ref href="/akn/il/act/PrimaryLegislation/2012-04-01/419715#point_13ו">סעיף 13ו לחוק הפצת שידורים</ref>, כנוסחו <ref href="#point_23">בסעיף 23(16) לחוק זה</ref>, עד תום שנה מהיום שבו מונה גורם מפעיל פרטי לפי <ref href="/akn/il/act/PrimaryLegislation/2012-04-01/419715#point_2">סעיף 2 לחוק הפצת שידורים</ref>, כנוסחו <ref href="#point_23">בסעיף 23(3) לחוק זה</ref>.</p>
+                </content>
+              </point>
+              <point eId="point_25__point_ג">
+                <num>(ג)</num>
+                <list>
+                  <intro>
+                    <p>על אף האמור בסעיף קטן (א) <ref href="/akn/il/act/PrimaryLegislation/2012-04-01/419715#point_13ג">ובסעיף 13ג לחוק הפצת שידורים</ref>, כנוסחו <ref href="#point_23">בסעיף 23(16) לחוק זה</ref>, בתקופה שמיום תחילתו של חוק זה עד תום חמש שנים מהיום האמור, לא יחולו הוראות <ref href="/akn/il/act/PrimaryLegislation/2012-04-01/419715#point_13ג">סעיף 13ג האמור</ref> על הפצה ברשת האינטרנט של שידורי גוף המנוי <ref href="/akn/il/act/PrimaryLegislation/2012-04-01/419715#point_6">בסעיף 6(א)(1), (2) או (4) לחוק הפצת שידורים</ref> (בסעיף קטן זה – הגוף המשדר) או מתן גישה לשידורים כאמור, בידי ספק תכנים, אם הגוף המשדר נתן רישיון לשידור של שידוריו ברשת האינטרנט לפני תחילתו של חוק זה, ויחולו בתקופה האמורה הוראות אלה:</p>
+                  </intro>
+                  <point eId="point_25__point_ג__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>הגוף המשדר ייתן רישיון לשידור של שידוריו ברשת האינטרנט לכל ספק תכנים רשום שביקש זאת, במחיר ובתנאים המיטיבים ביותר שנתן לספק תכנים אחר על פי רישיון לשידור אחר שעומד בתוקפו במועד מתן הרישיון;</p>
+                    </content>
+                  </point>
+                  <point eId="point_25__point_ג__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>באין הסכמה בין הגוף המשדר לבין ספק התכנים הרשום בעניין המחיר או התנאים לפי פסקה (1), תכריע המועצה בעניין; יושב ראש המועצה רשאי לדרוש מהגוף המשדר ומספקי תכנים שקיבלו רישיונות לשידור מהגוף המשדר, למסור לו במועד, במתכונת ובאופן שיורה, את המידע הנחוץ למועצה לצורך הכרעה לפי פסקה זו;</p>
+                    </content>
+                  </point>
+                  <point eId="point_25__point_ג__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>ספק תכנים רשום שרכש רישיון לשידור לפי סעיף קטן זה, ינקוט אמצעים טכנולוגיים נאותים ומתקדמים למניעת ההפצה של שידורי הגוף המשדר שלגביהם נרכש הרישיון, ולמניעת הגישה אליהם מחוץ לישראל, אלא אם כן הגוף המשדר נותן הרישיון וספק התכנים הרשום, הסכימו אחרת;</p>
+                    </content>
+                  </point>
+                  <point eId="point_25__point_ג__point_4">
+                    <num>(4)</num>
+                    <content>
+                      <p>אין בהוראות סעיף קטן זה כדי לגרוע מזכות בעלי זכויות היוצרים והמבצעים בשידורי הגוף המשדר וביצירות הכלולות בהם לפי כל דין;</p>
+                    </content>
+                  </point>
+                  <point eId="point_25__point_ג__point_5">
+                    <num>(5)</num>
+                    <list>
+                      <intro>
+                        <p>בסעיף זה –</p>
+                      </intro>
+                      <point eId="point_25__point_ג__point_5__point_אמצעים_טכנולוגיים">
+                        <content>
+                          <p>
+                            <def />”אמצעים טכנולוגיים“, ”המועצה“, ”ספק תכנים“, ”ספק תכנים רשום“ ו”השידורים הפתוחים“ – כהגדרתם <ref href="/akn/il/act/PrimaryLegislation/2012-04-01/419715#point_13ב">בסעיף 13ב לחוק הפצת שידורים</ref>, כנוסחו <ref href="#point_23">בסעיף 23(16) לחוק זה</ref>;</p>
+                        </content>
+                      </point>
+                      <point eId="point_25__point_ג__point_5__point_גורם_מפעיל_פרטי">
+                        <content>
+                          <p>
+                            <def />”גורם מפעיל פרטי“ ו”חוק זכות יוצרים“ – כהגדרתם <ref href="/akn/il/act/PrimaryLegislation/2012-04-01/419715#point_1">בסעיף 1 לחוק הפצת שידורים</ref>, כנוסחו <ref href="#point_23">בסעיף 23(1) לחוק זה</ref>;</p>
+                        </content>
+                      </point>
+                      <point eId="point_25__point_ג__point_5__point_רישיון_לשידור">
+                        <content>
+                          <p>
+                            <def />”רישיון לשידור“ – רישיון לפי <ref href="/akn/il/act/PrimaryLegislation/2007-11-25/113653#point_37">סעיף 37 לחוק זכות יוצרים</ref>, לגבי זכות היוצרים לשידור כמשמעותה <ref href="/akn/il/act/PrimaryLegislation/2007-11-25/113653#point_11">בסעיף 11(4) לחוק האמור</ref>, לרבות רישיון משנה.</p>
+                        </content>
+                      </point>
+                    </list>
+                  </point>
+                </list>
+              </point>
+            </list>
+          </point>
+          <point eId="point_26">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>26.</num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/חוק_הרשות_השנייה_לטלוויזיה_ורדיו">בחוק הרשות השנייה לטלוויזיה ורדיו, התש"ן–1990</ref>.</wikicomment>
+              </p>
+            </content>
+          </point>
+          <point eId="point_27">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>27.</num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryLegislation/2000-06-11/169660">בחוק בתי משפט לעניינים מינהליים, התש"ס–2000</ref>.</wikicomment>
+              </p>
+            </content>
+          </point>
+          <point eId="point_28">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>28.</num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryLegislation/2002-02-12/172284">בחוק סיווג, סימון ואיסור שידורים מזיקים, התשס"א–2001</ref>.</wikicomment>
+              </p>
+            </content>
+          </point>
+          <point eId="point_29">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>29.</num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryLegislation/2016-08-11/2004964">בחוק שידורי ערוץ הכנסת, התשס"ד–2003</ref>.</wikicomment>
+              </p>
+            </content>
+          </point>
+          <point eId="point_30">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>30.</num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryLegislation/2005-08-10/78081">בחוק שידורי טלוויזיה (כתוביות ושפת סימנים), התשס"ה–2005</ref>.</wikicomment>
+              </p>
+            </content>
+          </point>
+          <point eId="point_31">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>31.</num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryLegislation/2012-01-30/330691">בחוק הגבלת הפרסומת והשיווק של משקאות אלכוהוליים, התשע"ב–2012</ref>.</wikicomment>
+              </p>
+            </content>
+          </point>
+          <point eId="point_32">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>32.</num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryLegislation/2013-12-11/473244">בחוק לקידום התחרות ולצמצום הריכוזיות, התשע"ד–2013</ref>.</wikicomment>
+              </p>
+            </content>
+          </point>
+          <point eId="point_33">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>33.</num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryLegislation/2001-08-09/171095">בחוק התקשורת (בזק ושידורים), התשמ"ב–1982</ref>.</wikicomment>
+              </p>
+            </content>
+          </point>
+          <point eId="point_34">
+            <heading>
+              <authorialNote placement="side">
+                <p>חוק התקשורת – הוראת שעה ותקנות ראשונות</p>
+              </authorialNote>
+            </heading>
+            <num>34.</num>
+            <list>
+              <point eId="point_34__point_א">
+                <num>(א)</num>
+                <list>
+                  <intro>
+                    <p>על אף האמור <ref href="/akn/il/act/PrimaryLegislation/2001-08-09/171095#point_5">בסעיף 5(י)(1) לחוק התקשורת</ref>, כנוסחו <ref href="#point_33">בסעיף 33(1) לחוק זה</ref>, עד יום י"א בתשרי התשע"ח (1 באוקטובר 2017) –</p>
+                  </intro>
+                  <point eId="point_34__point_א__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>לא תהיה למפעיל פנים־ארצי שאינו בעל רישיון כללי ייחודי ואינו בעל רישיון מפ"א תשתית זכות שימוש בתשתית פסיבית של מפעיל פנים־ארצי אחר;</p>
+                    </content>
+                  </point>
+                  <point eId="point_34__point_א__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>לא תהיה לבעל רישיון כללי ייחודי זכות שימוש בתשתית הפסיבית של בעל רישיון כללי ייחודי אחר ושל בעל רישיון מפ"א תשתית;</p>
+                    </content>
+                  </point>
+                  <point eId="point_34__point_א__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>לא תהיה לבעל רישיון מפ"א תשתית זכות שימוש בתשתית הפסיבית של בעל רישיון כללי ייחודי.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_34__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>תקנות ראשונות לפי <ref href="/akn/il/act/PrimaryLegislation/2001-08-09/171095#point_5">סעיף 5(י)(2) לחוק התקשורת</ref>, כנוסחו <ref href="#point_33">בסעיף 33(1) לחוק זה</ref>, יותקנו עד יום ט"ז בניסן התשע"ח (1 באפריל 2018); לא הותקנו תקנות עד המועד האמור, ידווחו שר התקשורת ושר האוצר, מידי ארבעה חודשים החל מאותו המועד, בדיון שיתקיים בפני ועדת הכלכלה של הכנסת בהשתתפותם, על ההתקדמות בהליכי התקנת התקנות והסיבה לאי התקנתן במועד שנקבע.</p>
+                </content>
+              </point>
+              <point eId="point_34__point_ג">
+                <num>(ג)</num>
+                <list>
+                  <intro>
+                    <p>בסעיף זה –</p>
+                  </intro>
+                  <point eId="point_34__point_ג__point_בעל_רישיון_מפא_תשתית">
+                    <content>
+                      <p>
+                        <def />”בעל רישיון מפ"א תשתית“, ”מפעיל פנים ארצי“ ו”תשתית פסיבית“ – כהגדרתם <ref href="/akn/il/act/PrimaryLegislation/2001-08-09/171095#point_5">בסעיף 5(י)(7) לחוק התקשורת</ref>, כנוסחו <ref href="#point_33">בסעיף 33(1) לחוק זה</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_34__point_ג__point_בעל_רישיון_כללי_ייחודי">
+                    <content>
+                      <p>
+                        <def />”בעל רישיון כללי ייחודי“ – מי שקיבל רישיון כללי ייחודי, כהגדרתו <ref href="/akn/il/act/PrimaryLegislation/2001-08-09/171095#point_1">בסעיף 1 לחוק התקשורת</ref>.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+            </list>
+          </point>
+          <point eId="point_35">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>35.</num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryLegislation/1965-08-12/148917">בחוק התכנון והבנייה, התשכ"ה–1965</ref>.</wikicomment>
+              </p>
+            </content>
+          </point>
+        </list>
+      </chapter>
+      <chapter eId="chp_ט">
+        <num>פרק ט׳:</num>
+        <title>
+          <content>
+            <p>הגברת התחרות באשראי קמעונאי</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_36">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>36.</num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryLegislation/2016-08-01/571496">בחוק הפיקוח על שירותים פיננסיים (שירותים פיננסיים מוסדרים), התשע"ו–2016</ref>.</wikicomment>
+              </p>
+            </content>
+          </point>
+        </list>
+      </chapter>
+      <chapter eId="chp_י">
+        <num>פרק י׳:</num>
+        <title>
+          <content>
+            <p>הסרת חסמים לביצוע מיזמי תשתית לאומית</p>
+          </content>
+        </title>
+        <section eId="chp_י__sec_א">
+          <num>סימן א׳:</num>
+          <title>
+            <content>
+              <p>תיקון חוק התכנון והבנייה</p>
+            </content>
+          </title>
+          <list>
+            <point eId="point_37">
+              <heading>
+                <authorialNote placement="side">
+                  <p xml:space="preserve"> </p>
+                </authorialNote>
+              </heading>
+              <num>37.</num>
+              <content>
+                <p>
+                  <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryLegislation/1965-08-12/148917">בחוק התכנון והבנייה, התשכ"ה–1965</ref>.</wikicomment>
+                </p>
+              </content>
+            </point>
+          </list>
+        </section>
+        <section eId="chp_י__sec_ב">
+          <num>סימן ב׳:</num>
+          <title>
+            <content>
+              <p>הרחבת סמכויות הוועדה לתיאום תשתיות</p>
+            </content>
+          </title>
+          <list>
+            <point eId="point_38" class="definitions">
+              <heading>
+                <authorialNote placement="side">
+                  <p>הגדרות – סימן ב׳</p>
+                </authorialNote>
+              </heading>
+              <num>38.</num>
+              <list>
+                <intro>
+                  <p>
+                    <ref href="#chp_י_sec_ב">בסימן זה</ref> –</p>
+                </intro>
+                <point eId="point_38__point_בעל_רישיון_חלוקה">
+                  <content>
+                    <p>
+                      <def />”בעל רישיון חלוקה“ – כמשמעותו <ref href="/akn/il/act/PrimaryLegislation/2002-01-03/171866">בחוק משק הגז הטבעי</ref>;</p>
+                  </content>
+                </point>
+                <point eId="point_38__point_בעל_תשתית">
+                  <list>
+                    <intro>
+                      <p>
+                        <def />”בעל תשתית“ – כל אחד מאלה:</p>
+                    </intro>
+                    <point eId="point_38__point_בעל_תשתית__point_1">
+                      <num>(1)</num>
+                      <content>
+                        <p>בעל תשתית כהגדרתו <ref href="/akn/il/act/PrimaryLegislation/2002-01-03/171866#point_55א">בסעיף 55א לחוק משק הגז הטבעי</ref>;</p>
+                      </content>
+                    </point>
+                    <point eId="point_38__point_בעל_תשתית__point_2">
+                      <num>(2)</num>
+                      <content>
+                        <p>בעל רישיון חלוקה;</p>
+                      </content>
+                    </point>
+                    <point eId="point_38__point_בעל_תשתית__point_3">
+                      <num>(3)</num>
+                      <content>
+                        <p>בעל תשתית תקשורת;</p>
+                      </content>
+                    </point>
+                    <point eId="point_38__point_בעל_תשתית__point_4">
+                      <num>(4)</num>
+                      <content>
+                        <p>גורם מפעיל;</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+                <point eId="point_38__point_בעל_תשתית_תקשורת">
+                  <content>
+                    <p>
+                      <def />”בעל תשתית תקשורת“ – מי שנותן שירותי בזק פנים־ארציים נייחים או שירותי רדיו טלפון נייד בשיטה התאית (רט"ן) מכוח רישיון כללי לפי <ref href="/akn/il/act/PrimaryLegislation/2001-08-09/171095">חוק התקשורת (בזק ושידורים), התשמ"ב–1982</ref>, למעט רישיון רדיו טלפון נייד ברשת אחרת לפי <ref href="/akn/il/act/PrimaryLegislation/2001-08-09/171095#point_4">סעיף 4(א2) לחוק האמור</ref>;</p>
+                  </content>
+                </point>
+                <point eId="point_38__point_גוף_תשתית_שאינו_ציבורי">
+                  <list>
+                    <intro>
+                      <p>
+                        <def />”גוף תשתית שאינו ציבורי“ –</p>
+                    </intro>
+                    <point eId="point_38__point_גוף_תשתית_שאינו_ציבורי__point_א">
+                      <num>(א)</num>
+                      <list>
+                        <intro>
+                          <p>כל אחד מאלה, שאינו חברה ממשלתית:</p>
+                        </intro>
+                        <point eId="point_38__point_גוף_תשתית_שאינו_ציבורי__point_א__point_1">
+                          <num>(1)</num>
+                          <content>
+                            <p>מקים תשתית, למעט מקים מיזם תשתית לאומית כהגדרתו בפסקה (2) להגדרה ”מקים מיזם תשתית לאומית“;</p>
+                          </content>
+                        </point>
+                        <point eId="point_38__point_גוף_תשתית_שאינו_ציבורי__point_א__point_2">
+                          <num>(2)</num>
+                          <content>
+                            <p>בעל תשתית תקשורת;</p>
+                          </content>
+                        </point>
+                        <point eId="point_38__point_גוף_תשתית_שאינו_ציבורי__point_א__point_3">
+                          <num>(3)</num>
+                          <content>
+                            <p>בעל רישיון חלוקה;</p>
+                          </content>
+                        </point>
+                      </list>
+                    </point>
+                    <point eId="point_38__point_גוף_תשתית_שאינו_ציבורי__point_ב">
+                      <num>(ב)</num>
+                      <content>
+                        <p>גורם מפעיל שאינו חברה בשליטת המדינה;</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+                <point eId="point_38__point_גורם_מפעיל">
+                  <content>
+                    <p>
+                      <def />”גורם מפעיל“ – כהגדרתו <ref href="/akn/il/act/PrimaryLegislation/2017-03-20/2008601">בחוק תשתיות להולכה ולאחסון של נפט על ידי גורם מפעיל, התשע"ז–2017</ref>;</p>
+                  </content>
+                </point>
+                <point eId="point_38__point_חוק_משק_הגז_הטבעי">
+                  <content>
+                    <p>
+                      <def />”חוק משק הגז הטבעי“ – <ref href="/akn/il/act/PrimaryLegislation/2002-01-03/171866">חוק משק הגז הטבעי, התשס"ב–2002</ref>;</p>
+                  </content>
+                </point>
+                <point eId="point_38__point_מיזם_תשתית_לאומית">
+                  <content>
+                    <p>
+                      <def />”מיזם תשתית לאומית“ – מיזם שהממשלה החליטה כי הוא מיזם תשתית לאומית ובלבד שאומדן עלות המיזם עולה על 2 מיליארד שקלים חדשים;</p>
+                  </content>
+                </point>
+                <point eId="point_38__point_מקים_מיזם_תשתית_לאומית">
+                  <list>
+                    <intro>
+                      <p>
+                        <def />”מקים מיזם תשתית לאומית“ – כל אחד מאלה:</p>
+                    </intro>
+                    <point eId="point_38__point_מקים_מיזם_תשתית_לאומית__point_1">
+                      <num>(1)</num>
+                      <content>
+                        <p>בעל זיכיון לבניית מיזם תשתית לאומית;</p>
+                      </content>
+                    </point>
+                    <point eId="point_38__point_מקים_מיזם_תשתית_לאומית__point_2">
+                      <num>(2)</num>
+                      <content>
+                        <p>רשות שהוקמה בחוק, חברה ממשלתית או חברה עירונית, שהממשלה התקשרה עמה לשם בניית מיזם תשתית לאומית;</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+                <point eId="point_38__point_מקים_מסילת_ברזל">
+                  <content>
+                    <p>
+                      <def />”מקים מסילת ברזל“ – כהגדרתו <ref href="/akn/il/act/PrimaryLegislation/1972-03-23/2002290#point_14א">בסעיף 14א לפקודת מסילות הברזל [נוסח חדש], התשל"ב–1972</ref>;</p>
+                  </content>
+                </point>
+                <point eId="point_38__point_מקים_תשתית">
+                  <list>
+                    <intro>
+                      <p>
+                        <def />”מקים תשתית“ – כל אחד מאלה:</p>
+                    </intro>
+                    <point eId="point_38__point_מקים_תשתית__point_1">
+                      <num>(1)</num>
+                      <content>
+                        <p>מקים מסילת ברזל;</p>
+                      </content>
+                    </point>
+                    <point eId="point_38__point_מקים_תשתית__point_2">
+                      <num>(2)</num>
+                      <content>
+                        <p>מקים מיזם תשתית לאומית;</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+                <point eId="point_38__point_שליטה">
+                  <content>
+                    <p>
+                      <def />”שליטה“ – כהגדרתה <ref href="/akn/il/act/PrimaryLegislation/2002-01-03/171866">בחוק משק הגז הטבעי</ref>.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_39">
+              <heading>
+                <authorialNote placement="side">
+                  <p>הרחבת סמכויות הוועדה לתיאום תשתיות</p>
+                </authorialNote>
+              </heading>
+              <num>39.</num>
+              <list>
+                <point eId="point_39__point_א">
+                  <num>(א)</num>
+                  <content>
+                    <p>הוועדה לתיאום תשתיות שהוקמה לפי <ref href="/akn/il/act/PrimaryLegislation/2002-01-03/171866#point_55ב">סעיף 55ב לחוק משק הגז הטבעי</ref> (בסעיף זה – הוועדה), תהיה מוסמכת, נוסף על סמכותה לפי <ref href="/akn/il/act/PrimaryLegislation/2002-01-03/171866#chp_ה_sec_ד">סימן ד׳ בפרק ה׳ לחוק משק הגז הטבעי</ref>, לפסוק בסכסוכים בין מקים תשתית לבין בעל תשתית וכן בסכסוכים בין מקימי תשתית או בסכסוכים בין בעלי תשתית, והכל בעניינים המפורטים <ref href="/akn/il/act/PrimaryLegislation/1975-07-04/169605#point_59כב">בסעיף 59כב(א) לחוק החברות הממשלתיות, התשל"ה–1975</ref>, בהתאם להוראות לפי <ref href="#chp_י_sec_ב">סימן זה</ref>, ובלבד שאם צד לסכסוך הוא גוף תשתית שאינו ציבורי, ניתנה הסכמתו בכתב להבאת הסכסוך להכרעת הוועדה.</p>
+                  </content>
+                </point>
+                <point eId="point_39__point_ב">
+                  <num>(ב)</num>
+                  <list>
+                    <intro>
+                      <p>על אף האמור בסעיף קטן (א) –</p>
+                    </intro>
+                    <point eId="point_39__point_ב__point_1">
+                      <num>(1)</num>
+                      <content>
+                        <p>סמכויות הוועדה כאמור באותו סעיף קטן לעניין סכסוך בין מקים מיזם תשתית לאומית כהגדרתו בפסקה (1) להגדרה ”מקים מיזם תשתית לאומית“, לבין בעל תשתית או מקים תשתית אחר, יהיו רק ככל שהסכסוך נוגע למיזם התשתית הלאומית;</p>
+                      </content>
+                    </point>
+                    <point eId="point_39__point_ב__point_2">
+                      <num>(2)</num>
+                      <content>
+                        <p>סמכויות הוועדה כאמור באותו סעיף קטן לעניין סכסוך בין מקים מסילת ברזל שהוא גוף תשתית שאינו ציבורי לבין בעל תשתית או מקים תשתית אחר, יהיו רק ככל שהסכסוך נוגע למסילת הברזל;</p>
+                      </content>
+                    </point>
+                    <point eId="point_39__point_ב__point_3">
+                      <num>(3)</num>
+                      <content>
+                        <p>סמכויות הוועדה כאמור באותו סעיף קטן לעניין סכסוך בין גורם מפעיל לבין בעל תשתית אחר או מקים תשתית יהיו רק ככל שהסכסוך נוגע לפעילותו של הגורם המפעיל; לעניין זה, ””פעילות“, של גורם מפעיל“ – כהגדרתה <ref href="/akn/il/act/PrimaryLegislation/2017-03-20/2008601">בחוק תשתיות להולכה ולאחסון של נפט על ידי גורם מפעיל, התשע"ז–2017</ref>.</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+                <point eId="point_39__point_ג">
+                  <num>(ג)</num>
+                  <list>
+                    <intro>
+                      <p>הוראות <ref href="/akn/il/act/PrimaryLegislation/2002-01-03/171866#point_55ב">סעיפים 55ב(ב) עד (ד)</ref><ref href="/akn/il/act/PrimaryLegislation/2002-01-03/171866#point_55ג">ו־55ג עד 55ו לחוק משק הגז הטבעי</ref> יחולו על הוועדה בהפעלת סמכויותיה בקשר לסכסוכים כאמור בסעיף קטן (א), על הסכסוכים כאמור ועל הצדדים לסכסוך, לפי העניין, בשינויים המחויבים ובשינויים אלה:</p>
+                    </intro>
+                    <point eId="point_39__point_ג__point_1">
+                      <num>(1)</num>
+                      <list>
+                        <intro>
+                          <p>
+                            <ref href="/akn/il/act/PrimaryLegislation/2002-01-03/171866#point_55ב">בסעיף 55ב</ref> –</p>
+                        </intro>
+                        <point eId="point_39__point_ג__point_1__point_א">
+                          <num>(א)</num>
+                          <list>
+                            <intro>
+                              <p>בסעיף קטן (ג) –</p>
+                            </intro>
+                            <point eId="point_39__point_ג__point_1__point_א__point_1">
+                              <num>(1)</num>
+                              <content>
+                                <p>ברישה, במקום ”בעל רישיון חלוקה שאינו חברה ממשלתית“ יקראו ”גוף תשתית שאינו ציבורי“, ובמקום ”לצדדים שאינם חברות ממשלתיות“ יקראו ”לגופי התשתית שאינם ציבוריים“;</p>
+                              </content>
+                            </point>
+                            <point eId="point_39__point_ג__point_1__point_א__point_2">
+                              <num>(2)</num>
+                              <content>
+                                <p>בפסקה (2), במקום ”הצד שאינו חברה ממשלתית“ יקראו ”גוף התשתית שאינו ציבורי“;</p>
+                              </content>
+                            </point>
+                          </list>
+                        </point>
+                        <point eId="point_39__point_ג__point_1__point_ב">
+                          <num>(ב)</num>
+                          <content>
+                            <p>בסעיף קטן (ד), במקום ”בעל רישיון חלוקה שאינו חברה ממשלתית“ יקראו ”גוף תשתית שאינו ציבורי“, במקום ”שבעל רישיון חלוקה“ יקראו ”שגוף תשתית שאינו ציבורי“, במקום ”בעל תשתית כאמור בסעיף קטן (א)“ יקראו ”בעל תשתית“ ובכל מקום, במקום ”בעל רישיון החלוקה“ יקראו ”גוף התשתית שאינו ציבורי“;</p>
+                          </content>
+                        </point>
+                      </list>
+                    </point>
+                    <point eId="point_39__point_ג__point_2">
+                      <num>(2)</num>
+                      <list>
+                        <intro>
+                          <p>
+                            <ref href="/akn/il/act/PrimaryLegislation/2002-01-03/171866#point_55ג">בסעיף 55ג</ref> –</p>
+                        </intro>
+                        <point eId="point_39__point_ג__point_2__point_א">
+                          <num>(א)</num>
+                          <list>
+                            <intro>
+                              <p>בסעיף קטן (א) –</p>
+                            </intro>
+                            <point eId="point_39__point_ג__point_2__point_א__point_1">
+                              <num>(1)</num>
+                              <content>
+                                <p>במקום פסקה (3) יקראו:<br space="preserve"></br>
+   ”(3)  עובד המדינה שיקבע שר האוצר מבין עובדי המדינה שמינה לפי סעיף קטן (א1), ואם מונה לפי הסעיף הקטן האמור יותר מעובד מדינה אחד – עובד המדינה מבין עובדי המדינה שמונו כאמור שתחום מומחיותו הוא בתחום הסכסוך.“;</p>
+                              </content>
+                            </point>
+                            <point eId="point_39__point_ג__point_2__point_א__point_2">
+                              <num>(2)</num>
+                              <content>
+                                <p>פסקאות (4) ו־(5) – לא ייקראו;</p>
+                              </content>
+                            </point>
+                            <point eId="point_39__point_ג__point_2__point_א__point_3">
+                              <num>(3)</num>
+                              <list>
+                                <intro>
+                                  <p>בפסקה (7), אחרי פסקת משנה (ד) יקראו:</p>
+                                </intro>
+                                <point eId="point_39__point_ג__point_2__point_א__point_3__point_&amp;quotה">
+                                  <num>&amp;quot;(ה)</num>
+                                  <content>
+                                    <p>עובד משרד התקשורת שימנה שר התקשורת;</p>
+                                  </content>
+                                </point>
+                                <point eId="point_39__point_ג__point_2__point_א__point_3__point_ו">
+                                  <num>(ו)</num>
+                                  <content>
+                                    <p>עובד רשות הגז הטבעי שימנה מנהל רשות הגז הטבעי;</p>
+                                  </content>
+                                </point>
+                                <point eId="point_39__point_ג__point_2__point_א__point_3__point_ז">
+                                  <num>(ז)</num>
+                                  <content>
+                                    <p>עובד המשרד לתשתיות לאומיות אנרגיה ומים שימנה שר התשתיות הלאומיות האנרגיה והמים;</p>
+                                  </content>
+                                </point>
+                                <point eId="point_39__point_ג__point_2__point_א__point_3__point_ח">
+                                  <num>(ח)</num>
+                                  <content>
+                                    <p>עובד משרד האוצר שימנה שר האוצר.";</p>
+                                  </content>
+                                </point>
+                              </list>
+                            </point>
+                          </list>
+                        </point>
+                        <point eId="point_39__point_ג__point_2__point_ב">
+                          <num>(ב)</num>
+                          <list>
+                            <intro>
+                              <p>אחרי סעיף קטן (א) יקראו:</p>
+                            </intro>
+                            <point eId="point_39__point_ג__point_2__point_ב__point_&amp;quotא1">
+                              <num>&amp;quot;(א1)</num>
+                              <list>
+                                <intro>
+                                  <p>ימונה עובד מדינה אחד או יותר, שהוא מהנדס או בעל הכשרה מקצועית בענייני תכנון ובנייה ובעל ניסיון של 5 שנים לפחות באחד מתחומי התשתיות המפורטים להלן, שישמש חבר הוועדה לפי סעיף קטן (א)(3) בהתאם למפורט להלן:</p>
+                                </intro>
+                                <point eId="point_39__point_ג__point_2__point_ב__point_&amp;quotא1__point_1">
+                                  <num>(1)</num>
+                                  <content>
+                                    <p>תחבורה – על ידי שר התחבורה והבטיחות בדרכים;</p>
+                                  </content>
+                                </point>
+                                <point eId="point_39__point_ג__point_2__point_ב__point_&amp;quotא1__point_2">
+                                  <num>(2)</num>
+                                  <content>
+                                    <p>אנרגיה – על ידי שר התשתיות הלאומיות, האנרגיה והמים;</p>
+                                  </content>
+                                </point>
+                                <point eId="point_39__point_ג__point_2__point_ב__point_&amp;quotא1__point_3">
+                                  <num>(3)</num>
+                                  <content>
+                                    <p>מים – על ידי שר התשתיות הלאומיות, האנרגיה והמים;</p>
+                                  </content>
+                                </point>
+                                <point eId="point_39__point_ג__point_2__point_ב__point_&amp;quotא1__point_4">
+                                  <num>(4)</num>
+                                  <content>
+                                    <p>תקשורת – על ידי שר התקשורת;</p>
+                                  </content>
+                                </point>
+                                <wrapup eId="point_39__point_ג__point_2__point_ב__point_&amp;quotא1__wrapup_none">
+                                  <content>
+                                    <p>לא מונה עובד המדינה לפי פסקה זו על ידי השר המפורט בצד תחום התשתית המפורט בפסקה (1) עד (4) בתוך 30 ימים מיום התחילה, ימונה עובד המדינה כאמור על ידי שר האוצר.";</p>
+                                  </content>
+                                </wrapup>
+                              </list>
+                            </point>
+                          </list>
+                        </point>
+                        <point eId="point_39__point_ג__point_2__point_ג">
+                          <num>(ג)</num>
+                          <list>
+                            <intro>
+                              <p>בסעיף קטן (ב) –</p>
+                            </intro>
+                            <point eId="point_39__point_ג__point_2__point_ג__point_1">
+                              <num>(1)</num>
+                              <content>
+                                <p>ברישה, במקום ”עד (ד)“ יקראו ”עד (ח)“ והקטע החל במילים ”ובלבד שלא ישתתף“ עד המילים ”של אותו משרד או רשות“ – לא ייקרא;</p>
+                              </content>
+                            </point>
+                            <point eId="point_39__point_ג__point_2__point_ג__point_2">
+                              <num>(2)</num>
+                              <list>
+                                <intro>
+                                  <p>אחרי פסקה (4) יקראו:</p>
+                                </intro>
+                                <point eId="point_39__point_ג__point_2__point_ג__point_2__point_&amp;quot5">
+                                  <num>&amp;quot;(5)</num>
+                                  <content>
+                                    <p>בעל תשתית תקשורת – חבר המנוי בפסקת משנה (ה);</p>
+                                  </content>
+                                </point>
+                                <point eId="point_39__point_ג__point_2__point_ג__point_2__point_6">
+                                  <num>(6)</num>
+                                  <content>
+                                    <p>בעל רישיון לפי <ref href="/akn/il/act/PrimaryLegislation/2002-01-03/171866">חוק משק הגז הטבעי</ref> – חבר המנוי בפסקת משנה (ו);</p>
+                                  </content>
+                                </point>
+                                <point eId="point_39__point_ג__point_2__point_ג__point_2__point_7">
+                                  <num>(7)</num>
+                                  <content>
+                                    <p>גוף תשתית שאינו ציבורי כהגדרתו בפסקה (1) להגדרה ”גוף תשתית שאינו ציבורי“ – חבר המנוי בפסקאות משנה (ב), (ד) או (ז), בהתאם למשרד שתחום פעילות הגוף הוא בתחום אחריותו;</p>
+                                  </content>
+                                </point>
+                                <point eId="point_39__point_ג__point_2__point_ג__point_2__point_8">
+                                  <num>(8)</num>
+                                  <content>
+                                    <p>גורם מפעיל – חבר המנוי בפסקת משנה (ח).";</p>
+                                  </content>
+                                </point>
+                              </list>
+                            </point>
+                          </list>
+                        </point>
+                        <point eId="point_39__point_ג__point_2__point_ד">
+                          <num>(ד)</num>
+                          <content>
+                            <p>בסעיף קטן (ג), אחרי פסקה (2) יבוא:<br space="preserve"></br>
+   ”(3)  היה גורם מפעיל צד לסכסוך – נציג שר התשתיות הלאומיות, האנרגיה והמים.“.</p>
+                          </content>
+                        </point>
+                      </list>
+                    </point>
+                    <point eId="point_39__point_ג__point_3">
+                      <num>(3)</num>
+                      <list>
+                        <intro>
+                          <p>
+                            <ref href="/akn/il/act/PrimaryLegislation/2002-01-03/171866#point_55ה">בסעיף 55ה</ref> –</p>
+                        </intro>
+                        <point eId="point_39__point_ג__point_3__point_א">
+                          <num>(א)</num>
+                          <list>
+                            <intro>
+                              <p>בפסקה (1), במקום פסקת משנה (ב) יקראו:</p>
+                            </intro>
+                            <point eId="point_39__point_ג__point_3__point_א__point_”ב">
+                              <num>”(ב)</num>
+                              <content>
+                                <p>”חברת תשתית“ – בעל תשתית כהגדרתו <ref href="#point_38">בסעיף 38 לחוק התכנית הכלכלית (תיקוני חקיקה ליישום המדיניות הכלכלית לשנות התקציב 2017 ו־2018), התשע"ז–2016</ref>, או מקים תשתית כהגדרתו <קישור סוג="1" עוגן="">בסעיף האמור</קישור>, לפי העניין;“;</p>
+                              </content>
+                            </point>
+                            <point eId="point_39__point_ג__point_3__point_א__point_ב">
+                              <num>(ב)</num>
+                              <content>
+                                <p>בפסקה (3), במקום ””או של בעל רישיון חלוקה““ יקראו ””או של מקים תשתית שהוא צד לסכסוך““;</p>
+                              </content>
+                            </point>
+                            <point eId="point_39__point_ג__point_3__point_א__point_ג">
+                              <num>(ג)</num>
+                              <content>
+                                <p>בפסקה (4), במקום ””או על בעל רישיון חלוקה שהוא צד לסכסוך““ יקראו ””או על מקים תשתית שהוא צד לסכסוך““;</p>
+                              </content>
+                            </point>
+                            <point eId="point_39__point_ג__point_3__point_א__point_ד">
+                              <num>(ד)</num>
+                              <list>
+                                <intro>
+                                  <p>במקום פסקה (5) יקראו:</p>
+                                </intro>
+                                <point eId="point_39__point_ג__point_3__point_א__point_ד__point_&amp;quot5">
+                                  <num>&amp;quot;(5)</num>
+                                  <list>
+                                    <intro>
+                                      <p>
+                                        <ref href="/akn/il/act/PrimaryLegislation/1975-07-04/169605#point_59ל">בסעיף 59ל</ref> –</p>
+                                    </intro>
+                                    <point eId="point_39__point_ג__point_3__point_א__point_ד__point_&amp;quot5__point_א">
+                                      <num>(א)</num>
+                                      <content>
+                                        <p>בסעיף קטן (ג), במקום ”החברים בה“ יקראו ”הנוכחים בישיבה“;</p>
+                                      </content>
+                                    </point>
+                                  </list>
+                                </point>
+                              </list>
+                            </point>
+                          </list>
+                        </point>
+                      </list>
+                    </point>
+                    <point eId="point_39__point_ג__point_4">
+                      <num>(4)</num>
+                      <list>
+                        <intro>
+                          <p>
+                            <ref href="/akn/il/act/PrimaryLegislation/2002-01-03/171866#point_55ו">בסעיף 55ו</ref> –</p>
+                        </intro>
+                        <point eId="point_39__point_ג__point_4__point_א">
+                          <num>(א)</num>
+                          <content>
+                            <p>בסעיף קטן (א), במקום ”השר רשאי“ יקראו ”שר האוצר רשאי“ ובמקום ”רשאי השר“ יקראו ”רשאי שר האוצר“;</p>
+                          </content>
+                        </point>
+                        <point eId="point_39__point_ג__point_4__point_ב">
+                          <num>(ב)</num>
+                          <content>
+                            <p>בסעיף קטן (ב), המילים ”בהסכמת שר האוצר“ – לא ייקראו ובמקום ”מיום שפנה אליו השר“ יקראו ”מיום שפנה אליו שר האוצר“.</p>
+                          </content>
+                        </point>
+                      </list>
+                    </point>
+                  </list>
+                </point>
+              </list>
+            </point>
+            <point eId="point_40">
+              <heading>
+                <authorialNote placement="side">
+                  <p>שמירת דינים</p>
+                </authorialNote>
+              </heading>
+              <num>40.</num>
+              <list>
+                <intro>
+                  <p>אין בהוראות <ref href="#chp_י_sec_ב">סימן זה</ref> כדי לגרוע מהוראות כל דין; סכסוכים שבתחום סמכותה של הוועדה לפי הוראות <ref href="/akn/il/act/PrimaryLegislation/2002-01-03/171866#chp_ה_sec_ד">סימן ד׳ שבפרק ה׳ לחוק משק הגז הטבעי</ref> לא יידונו לפי הוראות חוק זה אלא לפי הוראות <ref href="/akn/il/act/PrimaryLegislation/2002-01-03/171866#chp_ה_sec_ד">הסימן האמור</ref>; ואולם אם צד לסכסוך הוא חברת תשתית כהגדרתה <ref href="/akn/il/act/PrimaryLegislation/2002-01-03/171866">בחוק משק הגז הטבעי</ref>, שהיא גם גורם מפעיל, יחולו על הסכסוך הוראות אלה:</p>
+                </intro>
+                <point eId="point_40__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>סמכויות הוועדה יהיו רק אם הסכסוך נוגע לפעילותו של הגורם המפעיל; לעניין זה, ””פעילות“, של גורם מפעיל“ – כהגדרתה <ref href="/akn/il/act/PrimaryLegislation/2017-03-20/2008601">בחוק תשתיות להולכה ולאחסון של נפט על ידי גורם מפעיל, התשע"ז–2017</ref>;</p>
+                  </content>
+                </point>
+                <point eId="point_40__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>לחברי הוועדה ייווסף חבר שהוא עובד משרד האוצר שימנה שר האוצר, ומשקיף שהוא נציג שר התשתיות הלאומיות, האנרגיה והמים;</p>
+                  </content>
+                </point>
+                <point eId="point_40__point_3">
+                  <num>(3)</num>
+                  <content>
+                    <p>יקראו את <ref href="/akn/il/act/PrimaryLegislation/2002-01-03/171866#point_55ה">סעיף 55ה(5) לחוק משק הגז הטבעי</ref> בהתאם להוראות <ref href="#point_39">סעיף 39(ג)(3)(ד)</ref>, כנוסחו <ref href="/akn/il/act/PrimaryLegislation/2017-03-20/2008601#point_27">בסעיף 27 לחוק תשתיות להולכה ולאחסון של נפט על ידי גורם מפעיל, התשע"ז–2017</ref>.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_41">
+              <heading>
+                <authorialNote placement="side">
+                  <p>פרק י׳ – הוראת מעבר</p>
+                </authorialNote>
+              </heading>
+              <num>41.</num>
+              <content>
+                <p>על אף הוראות <ref href="/akn/il/act/PrimaryLegislation/2002-01-03/171866#point_55ב">סעיף 55ב(ד) לחוק משק הגז הטבעי</ref> כפי שהוא מוחל <ref href="#point_39">בסעיף 39(ג)(1)(ב) לחוק זה</ref>, בעל רישיון חלוקה שאינו חברה ממשלתית שערב יום תחילתו של חוק זה פנה לוועדה לגבי סכסוך שהוא צד לו לשם הכרעה במחלוקת עם בעל תשתית שהוועדה מוסמכת לפסוק בה לפי <ref href="/akn/il/act/PrimaryLegislation/2002-01-03/171866">חוק משק הגז הטבעי</ref> או הסכים להביא כל סכסוך עם בעל תשתית להכרעת הוועדה, ימשיכו לחול לגבי פנייתו לוועדה או הסכמתו האמורה, לפי העניין, הוראות <ref href="/akn/il/act/PrimaryLegislation/2002-01-03/171866#point_55ב">סעיף 55ב(ד) לחוק משק הגז הטבעי</ref> ולא יראו אותו כמי שהסכים להביא כל סכסוך עם בעל תשתית או מקים תשתית לוועדה בהתאם לסמכותה לפי <ref href="#chp_י_sec_ב">סימן זה</ref>.</p>
+              </content>
+            </point>
+            <point eId="point_42">
+              <heading>
+                <authorialNote placement="side">
+                  <p>חוק התכנון והבנייה – הוראת שעה</p>
+                </authorialNote>
+              </heading>
+              <num>42.</num>
+              <list>
+                <point eId="point_42__point_א">
+                  <num>(א)</num>
+                  <list>
+                    <intro>
+                      <p>בתקופה של שנתיים מיום תחילתו של חוק זה, יקראו את ההגדרה ”מיתקני דרך“ <ref href="/akn/il/act/PrimaryLegislation/1965-08-12/148917#point_1">שבסעיף 1 לחוק התכנון והבנייה, התשכ"ה–1965</ref>, כך שבסופה יבוא ”ומבנה המיועד לשליטה ובקרה במיזם שמטרתו החלפת איתות בתוואי מסילת הברזל בין נהריה לשפיים, בתחום מסילת ברזל ארצית כהגדרתה <ref href="/akn/il/act/PrimaryLegislation/1972-03-23/2002290">בפקודת מסילות הברזל [נוסח חדש], התשל"ב–1972</ref> (בסעיף זה – המבנה החדש)“, ובלבד שיחולו הוראות אלה:</p>
+                    </intro>
+                    <point eId="point_42__point_א__point_1">
+                      <num>(1)</num>
+                      <content>
+                        <p>המבנה החדש ייבנה במקום מבנה קיים המשמש לשליטה ובקרה (בסעיף זה – המבנה הקיים) ובסמוך למיקומו של המבנה הקיים;</p>
+                      </content>
+                    </point>
+                    <point eId="point_42__point_א__point_2">
+                      <num>(2)</num>
+                      <content>
+                        <p>המבנה הקיים ייהרס ושטחו ישוקם, בהקדם האפשרי לאחר השלמת המבנה החדש;</p>
+                      </content>
+                    </point>
+                    <point eId="point_42__point_א__point_3">
+                      <num>(3)</num>
+                      <content>
+                        <p>השטח הכולל המותר לבנייה של המבנה החדש לא יעלה על 200 מטרים רבועים וגובהו לא יעלה על 4.2 מטרים;</p>
+                      </content>
+                    </point>
+                    <point eId="point_42__point_א__point_4">
+                      <num>(4)</num>
+                      <content>
+                        <p>המבנה החדש לא יהיה בתחום הסביבה החופית כהגדרתה <ref href="/akn/il/act/PrimaryLegislation/2004-08-15/320264">בחוק שמירת הסביבה החופית, התשס"ד–2004</ref>.</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+                <point eId="point_42__point_ב">
+                  <num>(ב)</num>
+                  <content>
+                    <p>מפעיל מסילת ברזל ארצית כמשמעותו <ref href="/akn/il/act/PrimaryLegislation/1972-03-23/2002290">בפקודת מסילות הברזל [נוסח חדש], התשל"ב–1972</ref>, ימסור לוועדת הכלכלה של הכנסת, בתקופה הקבועה בסעיף קטן (א), מדי שישה חודשים, דיווח בדבר מיקומם, גודלם וגובהם של כל המבנים החדשים שהוקמו והמבנים הקיימים שנהרסו בתקופת הדיווח לפי הוראות <ref href="/akn/il/act/PrimaryLegislation/1965-08-12/148917">חוק התכנון והבנייה, התשכ"ה–1965</ref>, כנוסחן בסעיף הקטן האמור; דיווח ראשון לוועדת הכלכלה של הכנסת יימסר בתום שישה חודשים מיום תחילתו של חוק זה.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+          </list>
+        </section>
+      </chapter>
+      <chapter eId="chp_יא">
+        <num>פרק י"א:</num>
+        <title>
+          <content>
+            <p>תכנון ובנייה</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_43">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>43.</num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryLegislation/1965-08-12/148917">בחוק התכנון והבנייה, התשכ"ה–1965</ref>.</wikicomment>
+              </p>
+            </content>
+          </point>
+        </list>
+      </chapter>
+      <chapter eId="chp_יב">
+        <num>פרק י"ב:</num>
+        <title>
+          <content>
+            <p>תקינה</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_44">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>44.</num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryLegislation/1953-01-29/148964">בחוק התקנים, התשי"ג–1953</ref>.</wikicomment>
+              </p>
+            </content>
+          </point>
+          <point eId="point_45">
+            <heading>
+              <authorialNote placement="side">
+                <p>תיקון חוק התקנים – הוראות מעבר</p>
+              </authorialNote>
+            </heading>
+            <num>45.</num>
+            <list>
+              <point eId="point_45__point_א">
+                <num>(א)</num>
+                <list>
+                  <point eId="point_45__point_א__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>יושב ראש המכון והמנהל הכללי של מכון התקנים הישראלי (בסעיף זה – המכון) שכיהנו ערב תחילתו של חוק זה (בסעיף זה – יום התחילה), יהיו רשאים להמשיך לכהן בתפקידם לאחר יום התחילה, ויחולו בעניינם ההוראות הנוגעות לעניין כהונתם בהתאם להוראות <ref href="/akn/il/act/PrimaryLegislation/1953-01-29/148964">חוק התקנים</ref>, כנוסחו <ref href="#point_44">בסעיף 44 לחוק זה</ref>, למשך יתרת תקופת כהונתם, ואולם, במניין תקופת הכהונה תובא בחשבון התקופה שבה כיהנו בתפקידיהם עד ליום התחילה.</p>
+                    </content>
+                  </point>
+                  <point eId="point_45__point_א__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>בתוך שבעה ימים מיום התחילה ישלח המכון הודעה לגורמים הממנים חברים לוועד הפועל לפי <ref href="/akn/il/act/PrimaryLegislation/1953-01-29/148964#point_3ו">סעיף 3ו לחוק התקנים</ref> כנוסחו <ref href="#point_44">בסעיף 44(5) לחוק זה</ref>, כי עליהם למנות נציג או נציגים לוועד הפועל; בהודעה כאמור יצוין כי הוועד הפועל החדש יחל לכהן בתוך 45 ימים מיום משלוח ההודעה, בכפוף להוראות פסקה (3)(א).</p>
+                    </content>
+                  </point>
+                  <point eId="point_45__point_א__point_3">
+                    <num>(3)</num>
+                    <list>
+                      <intro>
+                        <p>בתום התקופה האמורה בפסקת משנה (2) –</p>
+                      </intro>
+                      <point eId="point_45__point_א__point_3__point_א">
+                        <num>(א)</num>
+                        <content>
+                          <p>יחל הוועד הפועל החדש לכהן, ובלבד שמונו רוב חבריו;</p>
+                        </content>
+                      </point>
+                      <point eId="point_45__point_א__point_3__point_ב">
+                        <num>(ב)</num>
+                        <content>
+                          <p>יפרסם המכון באתר האינטרנט של המכון את הרכב הוועד הפועל החדש.</p>
+                        </content>
+                      </point>
+                    </list>
+                  </point>
+                  <point eId="point_45__point_א__point_4">
+                    <num>(4)</num>
+                    <content>
+                      <p>כהונתם של חברי הוועד הפועל שכיהנו ערב תחילתו של חוק זה תסתיים עם תחילת כהונתו של הוועד הפועל החדש כאמור בפסקת משנה (3).</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_45__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>הוועד הפועל יפעל להתאמת הרכב ועדות התקינה וועדת התיאום שכיהנו ערב תחילתו של חוק זה, בהתאם להוראות <ref href="/akn/il/act/PrimaryLegislation/1953-01-29/148964#point_3יג">סעיפים 3יג</ref>, <ref href="/akn/il/act/PrimaryLegislation/1953-01-29/148964#point_3טז">3טז</ref><ref href="/akn/il/act/PrimaryLegislation/1953-01-29/148964#point_3יח">ו־3יח לחוק התקנים</ref> כנוסחם <ref href="#point_44">בסעיף 44(5) לחוק זה</ref>, בהקדם האפשרי, ולא יאוחר משישה חודשים מיום תחילתו של חוק זה; שר האוצר ושר הכלכלה והתעשייה רשאים להאריך את המועד האמור בשתי תקופות של שלושה חודשים כל אחת.</p>
+                </content>
+              </point>
+              <point eId="point_45__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>כהונתו של נציג מכון התקנים כחבר ועדת האימוץ לפי <ref href="/akn/il/act/PrimaryLegislation/1953-01-29/148964#point_8ב">סעיף 8ב(ב)(2) לחוק התקנים</ref> כנוסחו ערב תחילתו של חוק זה, תסתיים בתום 45 ימים מיום תחילתו של חוק זה, ועד תום התקופה האמורה יפעל שר הכלכלה והתעשייה למינוי שני חברי ועדת האימוץ המנויים <ref href="/akn/il/act/PrimaryLegislation/1953-01-29/148964#point_8ב">בסעיף 8ב(ב)(2) ו־(3א) לחוק התקנים</ref> כנוסחו <ref href="#point_44">בסעיף 44(13) לחוק זה</ref>.</p>
+                </content>
+              </point>
+              <point eId="point_45__point_ד">
+                <num>(ד)</num>
+                <list>
+                  <intro>
+                    <p>אין בהוראות סעיפים קטנים (א) עד (ג) כדי לפגוע בפעולה –</p>
+                  </intro>
+                  <point eId="point_45__point_ד__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>שביצע הוועד הפועל שכיהן ערב תחילתו של חוק זה, לפני שהסתיימה כהונתו כאמור בסעיף קטן (א);</p>
+                    </content>
+                  </point>
+                  <point eId="point_45__point_ד__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>שביצעו ועדת התיאום, ועדת תקינה או ועדת האימוץ שכיהנו ערב תחילתו של חוק זה, לפני השינוי בהרכבם כאמור בסעיפים קטנים (ב) או (ג), לפי העניין.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_45__point_ה">
+                <num>(ה)</num>
+                <list>
+                  <intro>
+                    <p>על אף הוראות <ref href="/akn/il/act/PrimaryLegislation/1953-01-29/148964">חוק התקנים</ref> כנוסחו <ref href="#point_44">בסעיף 44 לחוק זה</ref> –</p>
+                  </intro>
+                  <point eId="point_45__point_ה__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>בתקופה שמיום תחילתו של חוק זה עד תום שישה חודשים מהמועד האמור (בסעיף קטן זה – תקופת המעבר), רשאי הממונה על התקינה כמשמעותו <ref href="/akn/il/act/PrimaryLegislation/1953-01-29/148964#point_5">בסעיף 5 לחוק התקנים</ref> (בסעיף קטן זה – הממונה) לתת אישור למעבדות לשמש מעבדות מאושרות בהתאם להוראות לפי <ref href="/akn/il/act/PrimaryLegislation/1953-01-29/148964#point_12">סעיף 12 לחוק התקנים</ref>, לרבות הנחיות הממונה שהיו בתוקף ערב יום התחילה;</p>
+                    </content>
+                  </point>
+                  <point eId="point_45__point_ה__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>מעבדות שהממונה נתן להן אישור לפי <ref href="/akn/il/act/PrimaryLegislation/1953-01-29/148964#point_12">סעיף 12 לחוק התקנים</ref> לפני יום התחילה או בהתאם להוראות פסקה (1), יחולו לגביהן ההוראות לפי <ref href="/akn/il/act/PrimaryLegislation/1953-01-29/148964">חוק התקנים</ref>, לרבות הנחיות הממונה, שחלו על מעבדות מאושרות יום התחילה, וזאת עד תום תקופת המעבר, אלא אם כן קבע הממונה הנחיות אחרות שיחולו עליהן בתקופת המעבר; הממונה יפרסם את ההנחיות האמורות באתר האינטרנט של משרד הכלכלה והתעשייה.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+            </list>
+          </point>
+          <point eId="point_46">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>46.</num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryLegislation/1979-03-29/2002276">בפקודת היבוא והיצוא [נוסח חדש], התשל"ט–1979</ref>.</wikicomment>
+              </p>
+            </content>
+          </point>
+          <point eId="point_47">
+            <heading>
+              <authorialNote placement="side">
+                <p>תיקון פקודת היבוא והיצוא – תחילה ותחולה</p>
+              </authorialNote>
+            </heading>
+            <num>47.</num>
+            <list>
+              <point eId="point_47__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>תחילתו של <ref href="#point_46">סעיף 46</ref> בתום תשעה חודשים מיום תחילתו של חוק זה (בסעיף זה – יום התחילה), ואולם רשאי שר הכלכלה והתעשייה, בהסכמת שר האוצר ובאישור ועדת הכלכלה של הכנסת, לדחות, בצו, את מועד התחילה האמור בשתי תקופות נוספות שלא יעלו על שלושה חודשים כל אחת.<br space="preserve"></br><wikicomment font-size="x-small">השר דחה את מועד התחילה ליום 1.4.2018 (ק"ת תשע"ח, 90, 848).</wikicomment></p>
+                </content>
+              </point>
+              <point eId="point_47__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>על אף האמור בסעיף קטן (א), תחילתם של <ref href="/akn/il/act/PrimaryLegislation/1979-03-29/2002276#point_14א">סעיפים 14א עד 14יז לפקודת היבוא והיצוא</ref>, כנוסחם <ref href="#point_46">בסעיף 46(6) לחוק זה</ref>, יהיה ביום התחילה, ובלבד שעד לאותו מועד הותקנו תקנות לפי <ref href="/akn/il/act/PrimaryLegislation/1979-03-29/2002276#point_14ו">סעיף 14ו לפקודת היבוא והיצוא</ref>, כנוסחו <ref href="#point_46">בסעיף 46(6) לחוק זה</ref>; לא הותקנו תקנות כאמור עד יום התחילה, ידחה שר הכלכלה והתעשייה בצו, באישור ועדת הכלכלה של הכנסת, את מועד התחילה של <ref href="#point_46">הסעיפים האמורים</ref> לתקופות נוספות, שלא יעלו על שישה חודשים בכל פעם.<br space="preserve"></br><wikicomment font-size="x-small">השר דחה את מועד התחילה ליום 15.5.2018 (ק"ת תשע"ח, 1870).</wikicomment></p>
+                </content>
+              </point>
+              <point eId="point_47__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>שר הכלכלה והתעשייה ושר האוצר, לאחר התייעצות עם הממונה על התקינה, יפרסמו בהודעה ברשומות את המועד שבו הושלמו הפעולות המתחייבות לשם תחילת ההכרה במעבדות בהתאם לסמכותו של הממונה על התקינה לפי <ref href="/akn/il/act/PrimaryLegislation/1979-03-29/2002276#point_2י">סעיף 2י לפקודת היבוא והיצוא</ref>, כנוסחו <ref href="#point_46">בסעיף 46(4) לחוק זה</ref>.<br space="preserve"></br><wikicomment font-size="x-small">השרים פרסמו הודעה על מועד השלמת הפעולות המתחייבות לשם תחילת ההכרה במעבדות (י"פ תשע"ח, 6638), לפיה ביום י"א בניסן התשע"ח (27 במרס 2018) הושלמו הפעולות המתחייבות לשם תחילת ההכרה במעבדות, בהתאם לסמכותו של הממונה על התקינה, לפי <ref href="/akn/il/act/PrimaryLegislation/1979-03-29/2002276#point_2י">סעיף 2י לפקודת הייבוא והייצוא [נוסח חדש], התשל"ט–1979</ref>.</wikicomment></p>
+                </content>
+              </point>
+              <point eId="point_47__point_ד">
+                <num>(ד)</num>
+                <list>
+                  <intro>
+                    <p>בלי לגרוע מהאמור בסעיף קטן (א), הוראות <ref href="#point_46">סעיף 46</ref> יוחלו באופן הדרגתי, לגבי סוגים מסוימים של טובין, ובלבד שעד יום ט"ז באדר התשפ"א (28 בפברואר 2021), יחולו הוראות <ref href="#point_46">אותו סעיף</ref> על כל סוגי הטובין המיובאים שחל עליהם תקן רשמי ונקבעו בצו פיקוח לפי <ref href="/akn/il/act/PrimaryLegislation/1979-03-29/2002276#point_2">סעיף 2 לפקודת היבוא והיצוא</ref>, וטעונים אישור בדיקת מעבדה לשם קבלת אישור עמידה בדרישות הממונה בהתאם להוראות <ref href="/akn/il/act/PrimaryLegislation/1979-03-29/2002276#point_2ז">סעיף 2ז לפקודה האמורה</ref> כנוסחו <ref href="#point_46">בסעיף 46(4) לחוק זה</ref>; החלה הדרגתית כאמור תיעשה לפי סוגי הטובין ובהתאם למועדים המפורטים להלן, והכול בהתאם לקביעת השרים לפי סעיף קטן (ה):</p>
+                  </intro>
+                  <point eId="point_47__point_ד__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>המועד שפורסם לפי סעיף קטן (ג);</p>
+                    </content>
+                  </point>
+                  <point eId="point_47__point_ד__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>ט"ו באייר התשע"ח (30 באפריל 2018);</p>
+                    </content>
+                  </point>
+                  <point eId="point_47__point_ד__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>ג׳ בכסלו התש"פ (1 בדצמבר 2019);</p>
+                    </content>
+                  </point>
+                  <point eId="point_47__point_ד__point_4">
+                    <num>(4)</num>
+                    <content>
+                      <p>י"ז באדר התשפ"א (1 במרס 2021).</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_47__point_ה">
+                <num>(ה)</num>
+                <content>
+                  <p>עד יום התחילה, יקבעו שר הכלכלה והתעשייה ושר האוצר, בצו, את סוגי הטובין השונים ואת מועדי ההחלה ההדרגתית לגביהם כאמור בסעיף קטן (ד).<br space="preserve"></br><wikicomment font-size="x-small">פורסם <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/צו_התכנית_הכלכלית_תיקוני_חקיקה_ליישום_המדיניות_הכלכלית_לשנות_התקציב_2017_ו_2018_החלה_הדרגתית_של_סעיף_46_לחוק">צו התכנית הכלכלית (תיקוני חקיקה ליישום המדיניות הכלכלית לשנות התקציב 2017 ו־2018) (החלה הדרגתית של סעיף 46 לחוק), התשע"ח–2018</ref>.</wikicomment></p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_48">
+            <heading>
+              <authorialNote placement="side">
+                <p>תיקון פקודת היבוא והיצוא – הוראות מעבר</p>
+              </authorialNote>
+            </heading>
+            <num>48.</num>
+            <content>
+              <p>הוראות נוהל מת"י מספר: 401 בנושא: בדיקת טובין מיובאים (מתן אישור ת"ר), שפורסם ביום כ"ט בתשרי התשע"ג (15 באוקטובר 2012) באתר האינטרנט של מכון התקנים הישראלי, וכן תנאים מיוחדים לבדיקת טובין מיובאים שנקבעו על ידי מכון התקנים הישראלי בהתאם לנוהל האמור, כנוסחם ערב יום התחילה, יראו אותם כהנחיות שקבע הממונה על התקינה לפי <ref href="/akn/il/act/PrimaryLegislation/1979-03-29/2002276#point_2ז">סעיף 2ז לפקודת היבוא והיצוא</ref> כנוסחו <ref href="#point_46">בסעיף 46(4) לחוק זה</ref>, כל עוד לא שונו או בוטלו על ידי הממונה על התקינה; הוראות הנוהל והתנאים המיוחדים לבדיקת טובין מיובאים שנקבעו על ידי מכון התקנים הישראלי כאמור, יפורסמו באתר האינטרנט של משרד הכלכלה והתעשייה.</p>
+            </content>
+          </point>
+        </list>
+      </chapter>
+      <chapter eId="chp_יג">
+        <num>פרק י"ג:</num>
+        <title>
+          <content>
+            <p>שונות</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_49">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>49.</num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryLegislation/2014-03-27/484925">בחוק קידום התחרות בענף המזון, התשע"ד–2014</ref>.</wikicomment>
+              </p>
+            </content>
+          </point>
+          <point eId="point_50">
+            <heading>
+              <authorialNote placement="side">
+                <p>חוק קידום התחרות בענף המזון – תחילה</p>
+              </authorialNote>
+            </heading>
+            <num>50.</num>
+            <content>
+              <p>תחילתם של <ref href="/akn/il/act/PrimaryLegislation/2014-03-27/484925#point_29">סעיפים 29</ref><ref href="/akn/il/act/PrimaryLegislation/2014-03-27/484925#point_30א">ו־30א לחוק קידום התחרות בענף המזון</ref>, כנוסחם <ref href="#point_49">בסעיף 49 לחוק זה</ref>, שישה חודשים מיום תחילתו של חוק זה.</p>
+            </content>
+          </point>
+          <point eId="point_51">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>51.</num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryLegislation/2008-02-18/262875">בחוק מיסוי מקרקעין (שבח ורכישה), התשכ"ג–1963</ref>.</wikicomment>
+              </p>
+            </content>
+          </point>
+          <point eId="point_52">
+            <heading>
+              <authorialNote placement="side">
+                <p>חוק מיסוי מקרקעין (שבח ורכישה) – תחילה ותחולה</p>
+              </authorialNote>
+            </heading>
+            <num>52.</num>
+            <list>
+              <point eId="point_52__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>תחילתו של <ref href="/akn/il/act/PrimaryLegislation/2008-02-18/262875#point_15">סעיף 15(ט)(1) לחוק מיסוי מקרקעין</ref>, כנוסחו <ref href="#point_51">בסעיף 51(1) לחוק זה</ref>, ביום ו׳ באייר התש"ף (30 באפריל 2020), והוא יחול על מכירת זכות במקרקעין שנעשתה ביום זה ואילך.</p>
+                </content>
+              </point>
+              <point eId="point_52__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>תחילתו של <ref href="/akn/il/act/PrimaryLegislation/2008-02-18/262875#point_16">סעיף 16(א)(2א) לחוק מיסוי מקרקעין</ref>, כנוסחו <ref href="#point_51">בסעיף 51(2) לחוק זה</ref>, 180 ימים מיום תחילתן של תקנות לפי <ref href="/akn/il/act/PrimaryLegislation/2008-02-18/262875#point_76א">סעיף 76א לחוק מיסוי מקרקעין</ref> (בסעיף זה <ref href="#point_53">ובסעיף 53</ref> – היום הקובע), והוא יחול על מכירת זכות במקרקעין שנעשתה ביום זה ואילך.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_53">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>53.</num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">הנוסח שולב כהוראת שעה <ref href="/akn/il/act/PrimaryLegislation/2008-02-18/262875">חוק מיסוי מקרקעין (שבח ורכישה), התשכ"ג–1963</ref>.</wikicomment>
+              </p>
+            </content>
+          </point>
+          <point eId="point_54">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>54.</num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryLegislation/1967-08-14/147254">בחוק ההוצאה לפועל, התשכ"ז–1967</ref>.</wikicomment>
+              </p>
+            </content>
+          </point>
+        </list>
+      </chapter>
+      <chapter eId="chp_יד">
+        <num>פרק י"ד:</num>
+        <title>
+          <content>
+            <p>תחילה</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_55">
+            <heading>
+              <authorialNote placement="side">
+                <p>תחילה</p>
+              </authorialNote>
+            </heading>
+            <num>55.</num>
+            <content>
+              <p>תחילתו של חוק זה ביום ג׳ בטבת התשע"ז (1 בינואר 2017) אלא אם כן נקבע בו אחרת.</p>
+            </content>
+          </point>
+        </list>
+      </chapter>
+    </body>
+    <conclusions eId="eId">
+      <p class="signatures">
+        <signature>
+          <p>
+            <person refersTo="בנימין_נתניהו">בנימין נתניהו</person>
+            <role refersTo="ראש_הממשלה">ראש הממשלה</role>
+          </p>
+        </signature>
+        <signature>
+          <p>
+            <person refersTo="משה_כחלון">משה כחלון</person>
+            <role refersTo="שר_האוצר">שר האוצר</role>
+          </p>
+        </signature>
+        <signature>
+          <p>
+            <person refersTo="ראובן_ריבלין">ראובן ריבלין</person>
+            <role refersTo="נשיא_המדינה">נשיא המדינה</role>
+          </p>
+        </signature>
+        <signature>
+          <p>
+            <person refersTo="יולי_יואל_אדלשטיין">יולי יואל אדלשטיין</person>
+            <role refersTo="יושב_ראש_הכנסת">יושב ראש הכנסת</role>
+          </p>
+        </signature>
+      </p>
+    </conclusions>
+  </act>
+</akomaNtoso>

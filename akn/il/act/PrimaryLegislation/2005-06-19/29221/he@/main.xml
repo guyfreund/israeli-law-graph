@@ -1,0 +1,3616 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion" name="publicLaw">
+    <meta>
+      <identification source="#kensset">
+        <FRBRWork>
+          <FRBRthis value="/akn/il/act/PrimaryLegislation/2005-06-19/29221/main" />
+          <FRBRuri value="/akn/il/act/PrimaryLegislation/2005-06-19/29221" />
+          <FRBRdate date="2005-06-19" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRcountry value="israel" />
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/il/act/PrimaryLegislation/2005-06-19/29221/he@/main" />
+          <FRBRuri value="/akn/il/act/PrimaryLegislation/2005-06-19/29221/he@" />
+          <FRBRdate date="2005-06-19" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRlanguage language="hebrew" />
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/il/act/PrimaryLegislation/2005-06-19/29221/he@/main.xml" />
+          <FRBRuri value="/akn/il/act/PrimaryLegislation/2005-06-19/29221/he@" />
+          <FRBRdate date="2005-06-19" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRformat value="xml" />
+        </FRBRManifestation>
+      </identification>
+      <classification source="#kensset">
+        <keyword value="{classificationValue}" showAs="{classificationValue}" dictionary="#classification_dictionary" />
+      </classification>
+      <lifecycle source="#kensset">
+        <eventRef eId="eventRef_1" date="2005-06-19" source="#kensset" type="generation" />
+      </lifecycle>
+      <references source="#kensset">
+        <TLCOrganization eId="kensset" href="/ontology/organization/akn/knesset" showAs="Kensset" type="generation" />
+        <TLCRole eId="author" href="/ontology/role/akn/author" showAs="Author of Document" />
+        <TLCProcess eId="inforce" href="/ontology/process/akn/inforce" showAs="In force" />
+        <TLCTerm eId="term_1" href="/ontology/term/אח/29221" showAs="אח" />
+        <TLCTerm eId="term_2" href="/ontology/term/אמצעי_זיהוי/29221" showAs="אמצעי_זיהוי" />
+        <TLCTerm eId="term_3" href="/ontology/term/בית_משפט/29221" showAs="בית_משפט" />
+        <TLCTerm eId="term_4" href="/ontology/term/בעל_מקצוע_רפואי/29221" showAs="בעל_מקצוע_רפואי" />
+        <TLCTerm eId="term_5" href="/ontology/term/גוף_ציבורי/29221" showAs="גוף_ציבורי" />
+        <TLCTerm eId="term_6" href="/ontology/term/דגימת_דם_מזערית/29221" showAs="דגימת_דם_מזערית" />
+        <TLCTerm eId="term_7" href="/ontology/term/דגימת_שיער/29221" showAs="דגימת_שיער" />
+        <TLCTerm eId="term_8" href="/ontology/term/דגימת_תאי_לחי/29221" showAs="דגימת_תאי_לחי" />
+        <TLCTerm eId="term_9" href="/ontology/term/הוועדה_המאשרת/29221" showAs="הוועדה_המאשרת" />
+        <TLCTerm eId="term_10" href="/ontology/term/המאגר/29221" showAs="המאגר" />
+        <TLCTerm eId="term_11" href="/ontology/term/מאגר_נעדרים_ואלמונים/29221" showAs="מאגר_נעדרים_ואלמונים" />
+        <TLCTerm eId="term_12" href="/ontology/term/המפקח_הכללי/29221" showAs="המפקח_הכללי" />
+        <TLCTerm eId="term_13" href="/ontology/term/חובש/29221" showAs="חובש" />
+        <TLCTerm eId="term_14" href="/ontology/term/חיפוש_חיצוני/29221" showAs="חיפוש_חיצוני" />
+        <TLCTerm eId="term_15" href="/ontology/term/חיפוש_פנימי/29221" showAs="חיפוש_פנימי" />
+        <TLCTerm eId="term_16" href="/ontology/term/חשוד/29221" showAs="חשוד" />
+        <TLCTerm eId="term_17" href="/ontology/term/טביעת_אצבעות/29221" showAs="טביעת_אצבעות" />
+        <TLCTerm eId="term_18" href="/ontology/term/מקום_משמורת_מיוחד/29221" showAs="מקום_משמורת_מיוחד" />
+        <TLCTerm eId="term_19" href="/ontology/term/מקום_משמורת_מיוחד/29221" showAs="מקום_משמורת_מיוחד" />
+        <TLCTerm eId="term_20" href="/ontology/term/נטילה/29221" showAs="נטילה" />
+        <TLCTerm eId="term_21" href="/ontology/term/נתוני_זיהוי/29221" showAs="נתוני_זיהוי" />
+        <TLCTerm eId="term_22" href="/ontology/term/עבירה/29221" showAs="עבירה" />
+        <TLCTerm eId="term_23" href="/ontology/term/קטין/29221" showAs="קטין" />
+        <TLCTerm eId="term_24" href="/ontology/term/קצין_משטרה/29221" showAs="קצין_משטרה" />
+        <TLCTerm eId="term_25" href="/ontology/term/קצין_משטרה_בכיר/29221" showAs="קצין_משטרה_בכיר" />
+        <TLCTerm eId="term_26" href="/ontology/term/רופא/29221" showAs="רופא" />
+        <TLCTerm eId="term_27" href="/ontology/term/רופא_שיניים/29221" showAs="רופא_שיניים" />
+        <TLCTerm eId="term_28" href="/ontology/term/תצלום/29221" showAs="תצלום" />
+        <TLCTerm eId="term_29" href="/ontology/term/אמצעי_זיהוי/29221" showAs="אמצעי_זיהוי" />
+        <TLCTerm eId="term_30" href="/ontology/term/הסתיים_הליך_פלילי_בלא_הרשעה/29221" showAs="הסתיים_הליך_פלילי_בלא_הרשעה" />
+        <TLCTerm eId="term_31" href="/ontology/term/חשוד/29221" showAs="חשוד" />
+        <TLCTerm eId="term_32" href="/ontology/term/מורשע/29221" showAs="מורשע" />
+        <TLCTerm eId="term_33" href="/ontology/term/בן_משפחה/29221" showAs="בן_משפחה" />
+        <TLCTerm eId="term_34" href="/ontology/term/חוק_הגנת_ילדים/29221" showAs="חוק_הגנת_ילדים" />
+        <TLCTerm eId="term_35" href="/ontology/term/חוקר_ילדים/29221" showAs="חוקר_ילדים" />
+        <TLCTerm eId="term_36" href="/ontology/term/חוקר_נוער/29221" showAs="חוקר_נוער" />
+        <TLCTerm eId="term_37" href="/ontology/term/עובד_סוציאלי_שמונה_לפי_חוק/29221" showAs="עובד_סוציאלי_שמונה_לפי_חוק" />
+        <TLCPerson eId="שמעון_פרס" href="/ontology/person/שמעון_פרס" showAs="שמעון פרס" />
+        <TLCPerson eId="דוד_ליבאי" href="/ontology/person/דוד_ליבאי" showAs="דוד ליבאי" />
+        <TLCPerson eId="עזר_ויצמן" href="/ontology/person/עזר_ויצמן" showAs="עזר ויצמן" />
+        <TLCPerson eId="שבח_וייס" href="/ontology/person/שבח_וייס" showAs="שבח וייס" />
+        <TLCRole eId="ראש_הממשלה" href="ontology/role/akn/ראש_הממשלה" showAs="ראש הממשלה" />
+        <TLCRole eId="שר_המשפטים" href="ontology/role/akn/שר_המשפטים" showAs="שר המשפטים" />
+        <TLCRole eId="נשיא_המדינה" href="ontology/role/akn/נשיא_המדינה" showAs="נשיא המדינה" />
+        <TLCRole eId="יושב_ראש_הכנסת" href="ontology/role/akn/יושב_ראש_הכנסת" showAs="יושב ראש הכנסת" />
+      </references>
+      <temporalData source="#kensset">
+        <temporalGroup eId="tmpg_1" />
+      </temporalData>
+      <Publication></Publication>
+      <proprietary wikiversion="9/30/2020 7:02:10 PM" />
+    </meta>
+    <body period="#tmpg_1">
+      <title eId="title">
+        <content>
+          <p>חוק סדר הדין הפלילי (סמכויות אכיפה – חיפוש בגוף ונטילת אמצעי זיהוי), התשנ"ו–1996</p>
+        </content>
+      </title>
+      <chapter eId="chp_א">
+        <num>פרק א׳:</num>
+        <title>
+          <content>
+            <p>הגדרות</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_1" class="definitions">
+            <heading>
+              <authorialNote placement="side">
+                <p>הגדרות</p>
+              </authorialNote>
+            </heading>
+            <num>1.</num>
+            <list>
+              <intro>
+                <p>בחוק זה –</p>
+              </intro>
+              <point eId="point_1__point_אח">
+                <content>
+                  <p>
+                    <def />”אח“ – מי שמוסמך על פי דין לעבוד כאח בבית חולים או במרפאה;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_אמצעי_זיהוי">
+                <list>
+                  <intro>
+                    <p>
+                      <def />”אמצעי זיהוי“, של אדם – כל אחד מאלה:</p>
+                  </intro>
+                  <point eId="point_1__point_אמצעי_זיהוי__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>טביעת אצבעות;</p>
+                    </content>
+                  </point>
+                  <point eId="point_1__point_אמצעי_זיהוי__point_2">
+                    <num>(2)</num>
+                    <list>
+                      <intro>
+                        <p>דגימה ביולוגית שהיא אחת מאלה:</p>
+                      </intro>
+                      <point eId="point_1__point_אמצעי_זיהוי__point_2__point_א">
+                        <num>(א)</num>
+                        <content>
+                          <p>דגימת תאי לחי;</p>
+                        </content>
+                      </point>
+                      <point eId="point_1__point_אמצעי_זיהוי__point_2__point_ב">
+                        <num>(ב)</num>
+                        <content>
+                          <p>דגימת שיער;</p>
+                        </content>
+                      </point>
+                      <point eId="point_1__point_אמצעי_זיהוי__point_2__point_ג">
+                        <num>(ג)</num>
+                        <content>
+                          <p>דגימת דם מזערית;</p>
+                        </content>
+                      </point>
+                    </list>
+                  </point>
+                  <point eId="point_1__point_אמצעי_זיהוי__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>תצלום;</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_1__point_בית_משפט">
+                <content>
+                  <p>
+                    <def />”בית משפט“ – בית משפט השלום;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_בעל_מקצוע_רפואי">
+                <content>
+                  <p>
+                    <def />”בעל מקצוע רפואי“ – רופא, רופא שיניים, אח, חובש או טכנאי המוסמך כדין לערוך בדיקה באמצעות מכשיר גלים על־קוליים, מכשיר רנטגן או סורק;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_גוף_ציבורי">
+                <content>
+                  <p>
+                    <def />”גוף ציבורי“ – רשויות התביעה, המרכז הלאומי לרפואה משפטית, צבא הגנה לישראל, שירות הביטחון הכללי, וכל גוף ציבורי אחר שקבע שר המשפטים בצו באישור ועדת החוקה חוק ומשפט של הכנסת;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_דגימת_דם_מזערית">
+                <content>
+                  <p>
+                    <def />”דגימת דם מזערית“ – דגימת דם של עד 0.5 מ"ל, מאצבע היד;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_דגימת_שיער">
+                <content>
+                  <p>
+                    <def />”דגימת שיער“ – דגימת שיער, לרבות שורשיו, ולמעט שיער מחלקים מוצנעים של הגוף;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_דגימת_תאי_לחי">
+                <content>
+                  <p>
+                    <def />”דגימת תאי לחי“ – דגימת תאים מחלקה הפנימי של הלחי;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_הוועדה_המאשרת">
+                <content>
+                  <p>
+                    <def />”הוועדה המאשרת“ – הועדה שמונתה כאמור <ref href="#point_14ה">בסעיף 14ה</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_המאגר">
+                <content>
+                  <p>
+                    <def />”המאגר“ – מאגר נתוני הזיהוי כמשמעותו <ref href="#chp_ד_sec_א">בסימן א׳ בפרק ד׳</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_מאגר_נעדרים_ואלמונים">
+                <content>
+                  <p>
+                    <def />”מאגר נעדרים ואלמונים“ – מאגר לאיתור נעדרים ולזיהוי אלמונים כמשמעותו <ref href="#chp_ד_sec_ה">בסימן ה׳ בפרק ד׳</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_המפקח_הכללי">
+                <content>
+                  <p>
+                    <def />”המפקח הכללי“ ו”פקודות משטרת ישראל“ – כהגדרתם <ref href="/akn/il/act/PrimaryLegislation/1971-03-11/2001806">בפקודת המשטרה [נוסח חדש], התשל"א–1971</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_חובש">
+                <content>
+                  <p>
+                    <def />”חובש“ – מי שקצין רפואה ראשי של משטרת ישראל, קצין רפואה ראשי של שירות בתי הסוהר או קצין רפואה ראשי של צבא הגנה לישראל, לפי הענין, הסמיכוהו, בשל הכשרתו, לערוך חיפוש בגוף האדם לפי חוק זה;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_חיפוש_חיצוני">
+                <list>
+                  <intro>
+                    <p>
+                      <def />”חיפוש חיצוני“ – אחד מאלה:</p>
+                  </intro>
+                  <point eId="point_1__point_חיפוש_חיצוני__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>בחינה חזותית של גופו העירום של אדם, לרבות צילומו;</p>
+                    </content>
+                  </point>
+                  <point eId="point_1__point_חיפוש_חיצוני__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>נטילת טביעה של כל חלק מהגוף;</p>
+                    </content>
+                  </point>
+                  <point eId="point_1__point_חיפוש_חיצוני__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>לקיחת חומר שמתחת לציפורניים;</p>
+                    </content>
+                  </point>
+                  <point eId="point_1__point_חיפוש_חיצוני__point_4">
+                    <num>(4)</num>
+                    <content>
+                      <p>גזירת ציפורניים;</p>
+                    </content>
+                  </point>
+                  <point eId="point_1__point_חיפוש_חיצוני__point_5">
+                    <num>(5)</num>
+                    <content>
+                      <p>לקיחת חומר מתוך הנחיריים;</p>
+                    </content>
+                  </point>
+                  <point eId="point_1__point_חיפוש_חיצוני__point_6">
+                    <num>(6)</num>
+                    <content>
+                      <p>לקיחת שיער, לרבות שורשיו;</p>
+                    </content>
+                  </point>
+                  <point eId="point_1__point_חיפוש_חיצוני__point_7">
+                    <num>(7)</num>
+                    <content>
+                      <p>לקיחת חומר מעל הגוף;</p>
+                    </content>
+                  </point>
+                  <point eId="point_1__point_חיפוש_חיצוני__point_8">
+                    <num>(8)</num>
+                    <content>
+                      <p>בדיקה על העור;</p>
+                    </content>
+                  </point>
+                  <point eId="point_1__point_חיפוש_חיצוני__point_9">
+                    <num>(9)</num>
+                    <content>
+                      <p>מתן דגימת שתן;</p>
+                    </content>
+                  </point>
+                  <point eId="point_1__point_חיפוש_חיצוני__point_10">
+                    <num>(10)</num>
+                    <content>
+                      <p>מתן דגימת רוק;</p>
+                    </content>
+                  </point>
+                  <point eId="point_1__point_חיפוש_חיצוני__point_11">
+                    <num>(11)</num>
+                    <content>
+                      <p>מתן דגימה של אוויר באמצעות בדיקת נשיפה;</p>
+                    </content>
+                  </point>
+                  <point eId="point_1__point_חיפוש_חיצוני__point_12">
+                    <num>(12)</num>
+                    <content>
+                      <p>נטילה של דגימת תאי לחי;</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_1__point_חיפוש_פנימי">
+                <list>
+                  <intro>
+                    <p>
+                      <def />”חיפוש פנימי“ – אחד מאלה:</p>
+                  </intro>
+                  <point eId="point_1__point_חיפוש_פנימי__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>בדיקת דם;</p>
+                    </content>
+                  </point>
+                  <point eId="point_1__point_חיפוש_פנימי__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>הדמיית פנים הגוף באמצעות מכשיר גלים על־קוליים;</p>
+                    </content>
+                  </point>
+                  <point eId="point_1__point_חיפוש_פנימי__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>שיקוף פנים הגוף באמצעות מכשיר רנטגן;</p>
+                    </content>
+                  </point>
+                  <point eId="point_1__point_חיפוש_פנימי__point_4">
+                    <num>(4)</num>
+                    <content>
+                      <p>הדמיית פנים הגוף באמצעות סורק מסוג כלשהו;</p>
+                    </content>
+                  </point>
+                  <point eId="point_1__point_חיפוש_פנימי__point_5">
+                    <num>(5)</num>
+                    <content>
+                      <p>בדיקה גינקולוגית, לרבות לקיחת חומר;</p>
+                    </content>
+                  </point>
+                  <point eId="point_1__point_חיפוש_פנימי__point_6">
+                    <num>(6)</num>
+                    <content>
+                      <p>נטילת דגימת דם מזערית;</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_1__point_חשוד">
+                <content>
+                  <p>
+                    <def />”חשוד“ – מי שיש לגביו חשד סביר שעבר עבירה;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_טביעת_אצבעות">
+                <content>
+                  <p>
+                    <def />”טביעת אצבעות“ – לרבות טביעת כף יד;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_מקום_משמורת_מיוחד">
+                <content>
+                  <p>
+                    <def />”מקום משמורת מיוחד“ ו”מוחזק במשמורת“ – כמשמעותם <ref href="/akn/il/act/PrimaryLegislation/1952-09-05/174477#chp_4">בפרק רביעי בחוק הכניסה לישראל, התשי"ב–1952</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_מקום_משמורת_מיוחד">
+                <list>
+                  <intro>
+                    <p>
+                      <def />”מקום משמורת מיוחד“ ו”מוחזק במשמורת“ – <wikicomment font-size="x-small">(הוראת שעה עד יום 13.12.2020):</wikicomment> – כמשמעותם <ref href="/akn/il/act/PrimaryLegislation/1952-09-05/174477#chp_4">בפרק רביעי בחוק הכניסה לישראל, התשי"ב–1952</ref>, לרבות –</p>
+                  </intro>
+                  <point eId="point_1__point_מקום_משמורת_מיוחד__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>מקום משמורת כאמור בפסקה (2) להגדרה ”מקום משמורת“ <ref href="/akn/il/act/PrimaryLegislation/1954-08-26/147317#point_30ב">שבסעיף 30ב(א) לחוק למניעת הסתננות (עבירות ושיפוט), התשי"ד–1954</ref> (בהגדרה זאת – חוק למניעת הסתננות), ומוחזק במקום משמורת כאמור;</p>
+                    </content>
+                  </point>
+                  <point eId="point_1__point_מקום_משמורת_מיוחד__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>
+                        <def />
+                        <wikicomment font-size="x-small">(פקעה);</wikicomment>
+                        <br space="preserve"></br>”נטילה“, לענין אמצעי זיהוי שהוא טביעת אצבעות – לרבות סריקה של טביעת אצבעות;</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_1__point_נתוני_זיהוי">
+                <list>
+                  <intro>
+                    <p>
+                      <def />”נתוני זיהוי“ לענין זיהוי אדם – אחד מאלה:</p>
+                  </intro>
+                  <point eId="point_1__point_נתוני_זיהוי__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>נתונים שהופקו מטביעת אצבעות;</p>
+                    </content>
+                  </point>
+                  <point eId="point_1__point_נתוני_זיהוי__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>נתונים שהופקו מ־DNA אשר הופק מדגימה ביולוגית (בחוק זה – נתונים לזיהוי גנטי);</p>
+                    </content>
+                  </point>
+                  <point eId="point_1__point_נתוני_זיהוי__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>תצלום;</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_1__point_עבירה">
+                <content>
+                  <p>
+                    <def />”עבירה“ – עבירה מסוג עוון או פשע;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_קטין">
+                <content>
+                  <p>
+                    <def />”קטין“ – מי שטרם מלאו לו שמונה עשרה שנים, למעט חייל כהגדרתו <ref href="/akn/il/act/PrimaryLegislation/1955-07-20/148698#point_1">בסעיף 1 לחוק השיפוט הצבאי, תשט"ו–1955</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_קצין_משטרה">
+                <content>
+                  <p>
+                    <def />”קצין משטרה“ – קצין משטרה בדרגת רב פקד ומעלה ובהעדרו פקד הממונה על יחידת חקירות;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_קצין_משטרה_בכיר">
+                <content>
+                  <p>
+                    <def />”קצין משטרה בכיר“ – קצין משטרה בדרגת סגן־ניצב ומעלה;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_רופא">
+                <content>
+                  <p>
+                    <def />”רופא“ – רופא מורשה לפי <ref href="/akn/il/act/PrimaryLegislation/1976-12-16/2002278">פקודת הרופאים [נוסח חדש], תשל"ז–1976</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_רופא_שיניים">
+                <content>
+                  <p>
+                    <def />”רופא שיניים“ – רופא שיניים מורשה לפי <ref href="/akn/il/act/PrimaryLegislation/1979-03-29/2002295">פקודת רופאי שיניים [נוסח חדש], תשל"ט–1979</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_תצלום">
+                <content>
+                  <p>
+                    <def />”תצלום“ – תצלום פניו ומראה גופו של אדם, שאינו חושף את חלקי גופו המוצנעים.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+        </list>
+      </chapter>
+      <chapter eId="chp_ב">
+        <num>פרק ב׳:</num>
+        <title>
+          <content>
+            <p>חיפוש בגוף החשוד</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_2">
+            <heading>
+              <authorialNote placement="side">
+                <p>חיפוש בגופו של חשוד – עקרונות</p>
+              </authorialNote>
+            </heading>
+            <num>2.</num>
+            <list>
+              <point eId="point_2__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>אין עורכים חיפוש בגופו של חשוד, אלא לפי חוק זה.</p>
+                </content>
+              </point>
+              <point eId="point_2__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>נקבע בחוק אחר הסדר שונה, באשר לחיפוש בגופו של חשוד, יחול חוק זה בכפוף להסדר השונה שנקבע. לענין סעיף קטן זה, ”הסדר“ – לרבות עילות החיפוש, תנאיו והתוצאות המשפטיות לסירוב לחיפוש.</p>
+                </content>
+              </point>
+              <point eId="point_2__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>אין עורכים חיפוש בגופו של חשוד אלא לאחר שנתבקשה הסכמתו לכך ולאחר שנמסר לו כי ניתן לעשות שימוש בנתוני הזיהוי שיופקו ממה שניטל בחיפוש גם לצורך הכללתם במאגר בכפוף להוראות חוק זה, או לצורך השוואתם לנתוני הזיהוי שבמאגר כאמור <ref href="#point_11יד">בסעיף 11יד</ref>.</p>
+                </content>
+              </point>
+              <point eId="point_2__point_ד">
+                <num>(ד)</num>
+                <content>
+                  <p>חיפוש בגופו של חשוד ייערך בדרך ובמקום שיבטיחו שמירה מרבית על כבוד האדם, על פרטיותו ועל בריאותו, ובמידה המועטה האפשרית של פגיעה, אי נוחות וכאב.</p>
+                </content>
+              </point>
+              <point eId="point_2__point_ה">
+                <num>(ה)</num>
+                <list>
+                  <intro>
+                    <p>חיפוש בגופו של חשוד ייערך בידי בן מינו של החשוד אלא אם כן התקיים אחד מאלה –</p>
+                  </intro>
+                  <point eId="point_2__point_ה__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>בנסיבות העניין לא ניתן לעשות כן ויש בדחיית החיפוש סיכון בלתי סביר לשלום הציבור;</p>
+                    </content>
+                  </point>
+                  <point eId="point_2__point_ה__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>החיפוש נערך בידי בעל מקצוע רפואי, אלא אם כן ביקש החשוד שהחיפוש ייערך בידי בן מינו ומילוי בקשתו אינו מטיל נטל בלתי סביר על הרשות החוקרת;</p>
+                    </content>
+                  </point>
+                  <point eId="point_2__point_ה__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>החיפוש הוא נטילת טביעת אצבעות.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_2__point_ו">
+                <num>(ו)</num>
+                <content>
+                  <p>נתוני זיהוי שהופקו ממה שניטל בחיפוש לפי <ref href="#chp_ב">פרק זה</ref>, רשאית משטרת ישראל להכלילם במאגר, ובלבד שמתקיים האמור <ref href="#point_11יג">בסעיף 11יג(ב)(2)</ref>.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_3">
+            <heading>
+              <authorialNote placement="side">
+                <p>חיפוש חיצוני</p>
+              </authorialNote>
+            </heading>
+            <num>3.</num>
+            <list>
+              <point eId="point_3__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>היה לשוטר יסוד סביר לחשוד שבגופו של חשוד נמצאת ראיה להוכחת ביצועה של עבירה או להוכחת הקשר שבין החשוד לבין ביצוע העבירה, רשאי הוא לערוך בו חיפוש חיצוני, להורות שייערך בו חיפוש כאמור בידי מי שנקבע לכך <ref href="#point_5">בסעיף 5</ref>, או לבקש מהחשוד מתן דגימה, כאמור <ref href="#point_1">בסעיף 1</ref>, והכל אם החשוד נתן את הסכמתו לכך.</p>
+                </content>
+              </point>
+              <point eId="point_3__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>על אף הוראות סעיף קטן (א), רשאי שוטר או מי שנקבע לכך <ref href="#point_5">בסעיף 5</ref>, לפי הענין, לערוך חיפוש חיצוני כהגדרתו בפסקאות (1) עד (3) ו־(6) עד (8), למעט טביעת שיניים, מנשך שיניים, או לקיחת שיער מחלקים מוצנעים של הגוף, תוך שימוש בכוח סביר, כאשר החשוד לא נתן את הסכמתו, ולאחר שניתן אישור לכך כאמור בסעיפים קטנים (ג) ו־(ד).</p>
+                </content>
+              </point>
+              <point eId="point_3__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>לא נתן החשוד את הסכמתו לחיפוש החיצוני, יובא החשוד בפני קצין משטרה לצורך קבלת אישור בכתב לעריכת החיפוש, לרבות לשימוש בכוח סביר הנדרש לעריכתו.</p>
+                </content>
+              </point>
+              <point eId="point_3__point_ד">
+                <num>(ד)</num>
+                <content>
+                  <p>בטרם יתן קצין המשטרה את אישורו כאמור בסעיף קטן (ג), יתן הזדמנות לחשוד להשמיע את טעמי סירובו, ויסביר לו שניתן להשתמש בכוח סביר לעריכת החיפוש ואת המשמעות המשפטית של סירובו כאמור <ref href="#point_11">בסעיף 11</ref>.</p>
+                </content>
+              </point>
+              <point eId="point_3__point_ה">
+                <num>(ה)</num>
+                <content>
+                  <p>אין לערוך בפרהסיה חיפוש חיצוני שמחייב חשיפת חלקי גוף שבדרך כלל הינם מוסתרים, אלא כדי למנוע סכנה קרובה לוודאי לשלום הציבור.</p>
+                </content>
+              </point>
+              <point eId="point_3__point_ו">
+                <num>(ו)</num>
+                <content>
+                  <p>חיפוש חיצוני כהגדרתו בפסקאות (2), אם הטביעה היא של שיניים או מנשך שיניים, (4), (5) ו־(6), אם לקיחת השיער היא מהחלקים המוצנעים של הגוף – ייערך בתנאי מרפאה.</p>
+                </content>
+              </point>
+              <point eId="point_3__point_ז">
+                <num>(ז)</num>
+                <content>
+                  <p>עורר חשוד חשש סביר שעריכת החיפוש עלולה לפגוע בבריאותו פגיעה שאינה נובעת ממהותו של החיפוש, לא ייערך חיפוש בגופו אלא באישור של רופא כאמור <ref href="#point_4">בסעיף 4(ד)</ref>.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_4">
+            <heading>
+              <authorialNote placement="side">
+                <p>חיפוש פנימי</p>
+              </authorialNote>
+            </heading>
+            <num>4.</num>
+            <list>
+              <point eId="point_4__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>היה לקצין משטרה יסוד סביר לחשוד שבגופו של חשוד נמצאת ראיה להוכחת ביצועה של עבירה מסוג פשע או להוכחת הקשר שבין החשוד לבין ביצוע עבירה כאמור, רשאי הוא להורות שייערך בחשוד חיפוש פנימי אם החשוד נתן את הסכמתו לכך כאמור בסעיף קטן (ה).</p>
+                </content>
+              </point>
+              <point eId="point_4__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>על אף הוראות סעיף קטן (א), ניתן לערוך חיפוש פנימי כהגדרתו בפסקה (1) גם בשל עבירה מסוג עוון.</p>
+                </content>
+              </point>
+              <point eId="point_4__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>קצין משטרה יסביר לחשוד בלשון המובנת לו את מטרת החיפוש הפנימי, סוגו ודרכי עריכתו, וכן יסביר לו את זכותו שלא להסכים לחיפוש, את האפשרות למתן היתר לעריכת החיפוש על ידי בית המשפט ואת המשמעות המשפטית של סירובו כאמור <ref href="#point_11">בסעיף 11</ref>.</p>
+                </content>
+              </point>
+              <point eId="point_4__point_ד">
+                <num>(ד)</num>
+                <content>
+                  <p>לא ייערך חיפוש, ולא תוגש בקשה להיתר לעריכת חיפוש לפי סעיף זה, אלא אם כן נתן רופא אישור שאין מניעה בריאותית לערוך את החיפוש; לא יינתן אישור אלא לאחר שהרופא בירר עם החשוד את מצב בריאותו ככל שהדבר נוגע לחיפוש; סירב החשוד להיפגש עם הרופא לקבלת אישור, יסביר לו קצין המשטרה את המשמעות המשפטית של סירובו כאמור <ref href="#point_11">בסעיף 11</ref>.</p>
+                </content>
+              </point>
+              <point eId="point_4__point_ה">
+                <num>(ה)</num>
+                <content>
+                  <p>מצא הרופא שאין מניעה בריאותית לעריכת החיפוש הפנימי, יסביר זאת לחשוד וישאל אותו אם הוא מסכים לחיפוש.</p>
+                </content>
+              </point>
+              <point eId="point_4__point_ו">
+                <num>(ו)</num>
+                <content>
+                  <p>אישור הרופא, שאין מניעה בריאותית לערוך את החיפוש בחשוד, והסכמת החשוד לחיפוש, שניתנו בחתימתם, יהיו אסמכתה לעורך החיפוש לערוך את החיפוש על פי הפירוט שיקבע הרופא באישורו; אולם לא ייערך חיפוש פנימי כהגדרתו בפסקה (5) אלא בהיתר של בית משפט.</p>
+                </content>
+              </point>
+              <point eId="point_4__point_ז">
+                <num>(ז)</num>
+                <content>
+                  <p>פגישת החשוד עם הרופא לפי סעיף זה תהיה שלא בנוכחות שוטר; אין בהוראה זו כדי למנוע נקיטת אמצעים נאותים, לרבות נוכחות שוטר, לסיכול בריחתו של החשוד או פגיעה ברופא.</p>
+                </content>
+              </point>
+              <point eId="point_4__point_ח">
+                <num>(ח)</num>
+                <content>
+                  <p>לא נתן החשוד את הסכמתו לחיפוש פנימי, או שיש צורך לערוך חיפוש פנימי כהגדרתו בפסקה (5) – רשאי קצין משטרה להגיש בקשה לבית המשפט כאמור <ref href="#point_7">בסעיף 7</ref> לקבלת היתר לעריכת חיפוש כאמור; החליט קצין משטרה שלא לפנות לבית המשפט משום ששוכנע כי ההשהיה הכרוכה בקבלת ההיתר עלולה לפגוע בראיה, שלשמה מבקשים את החיפוש, יסביר זאת קצין המשטרה לחשוד וכן יסביר לו את המשמעות המשפטית של סירובו כאמור <ref href="#point_11">בסעיף 11</ref>.</p>
+                </content>
+              </point>
+              <point eId="point_4__point_ט">
+                <num>(ט)</num>
+                <content>
+                  <p>חיפוש פנימי ייערך במקום שרגילים לעשות בו בדיקה מאותו סוג ובאופן שבו היא נעשית.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_4א">
+            <heading>
+              <authorialNote placement="side">
+                <p>חיפוש פנימי שהוא דגימת דם מזערית</p>
+              </authorialNote>
+            </heading>
+            <num>4א.</num>
+            <list>
+              <point eId="point_4א__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>הוראה כאמור <ref href="#point_4">בסעיף 4(א)</ref> בדבר עריכת חיפוש פנימי כהגדרתו <ref href="#point_1">בסעיף 1 בפסקה (6)</ref> לגבי עבירה מסוג פשע או עוון, יכול שתינתן בידי שוטר, ובלבד שהחשוד נתן את הסכמתו לכך לפי הוראות סעיף זה.</p>
+                </content>
+              </point>
+              <point eId="point_4א__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>לא נתן החשוד את הסכמתו לחיפוש פנימי כאמור בסעיף קטן (א), תתבקש הסכמתו לחיפוש חיצוני כהגדרתו <ref href="#point_1">בסעיף 1 בפסקה (6) או בפסקה (12)</ref> ויראו אותו לענין <ref href="#point_11">סעיפים 11</ref><ref href="#point_12">ו־12(א)(1)</ref>, כמי שסירב לחיפוש רק אם סירב גם לחיפוש החיצוני כאמור.</p>
+                </content>
+              </point>
+              <point eId="point_4א__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>עורר חשוד כאמור בסעיף זה חשש סביר שעריכת החיפוש עלולה לפגוע בבריאותו פגיעה שאינה נובעת ממהותו של החיפוש, לא ייערך חיפוש בגופו אלא אם כן נתן רופא אישור שאין מניעה בריאותית לערוך את החיפוש והוראות <ref href="#point_4">סעיף 4(ד)</ref> לענין אופן מתן האישור וסירוב החשוד להיפגש עם הרופא יחולו לענין זה.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_5">
+            <heading>
+              <authorialNote placement="side">
+                <p>עורך החיפוש</p>
+              </authorialNote>
+            </heading>
+            <num>5.</num>
+            <list>
+              <point eId="point_5__point_א">
+                <num>(א)</num>
+                <list>
+                  <intro>
+                    <p>חיפוש בגופו של חשוד כמפורט בסעיף זה לא ייערך בידי שוטר אלא בידי אלה:</p>
+                  </intro>
+                  <point eId="point_5__point_א__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>חיפוש חיצוני כהגדרתו בפסקה (2) שהוא טביעת שיניים או מנשך שינים – רופא שיניים;</p>
+                    </content>
+                  </point>
+                  <point eId="point_5__point_א__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>חיפוש חיצוני כהגדרתו בפסקאות (4), (5) וכן (6), אם לקיחת השיער היא מהחלקים המוצנעים של הגוף, וחיפוש פנימי כהגדרתו בפסקאות (1) וכן (6) – חובש;</p>
+                    </content>
+                  </point>
+                  <point eId="point_5__point_א__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>חיפוש פנימי כהגדרתו בפסקאות (2) עד (4) – טכנאי המוסמך כדין לערוך בדיקה באמצעות מכשיר גלים על־קוליים, מכשיר רנטגן או סורק;</p>
+                    </content>
+                  </point>
+                  <point eId="point_5__point_א__point_4">
+                    <num>(4)</num>
+                    <content>
+                      <p>חיפוש פנימי כהגדרתו בפסקה (5) – רופא שהוא מומחה או מתמחה בגינקולוגיה או מיילדות.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_5__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>אין באמור בסעיף קטן (א) כדי למנוע עשיית הפעולות המנויות בו בידי בעל מקצוע רפואי אחר המוסמך כדין לעשותן.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_6">
+            <heading>
+              <authorialNote placement="side">
+                <p>הסכמות מיוחדות</p>
+              </authorialNote>
+            </heading>
+            <num>6.</num>
+            <list>
+              <point eId="point_6__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>הסכמה לחיפוש פנימי בחשוד שהוא קטין או בחשוד שקיים חשש לגביו שהוא מוגבל בכושרו השכלי, טעונה גם הסכמת אפוטרופסו בכתב; לא היה לאדם כאמור אפוטרופוס רשאי בית המשפט למנות לו אפוטרופוס־לדין.</p>
+                </content>
+              </point>
+              <point eId="point_6__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>סירוב חשוד שהוא קטין לחיפוש פנימי בגופו אינו טעון אישור אפוטרופסו.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_7">
+            <heading>
+              <authorialNote placement="side">
+                <p>בקשה להיתר לחיפוש פנימי</p>
+              </authorialNote>
+            </heading>
+            <num>7.</num>
+            <list>
+              <point eId="point_7__point_א">
+                <num>(א)</num>
+                <list>
+                  <intro>
+                    <p>בקשה להיתר לחיפוש פנימי תוגש בכתב על ידי קצין משטרה ותיחתם על ידיו; הבקשה תיתמך בהצהרתו שניתנה לאחר אזהרה או בתצהיר, המאשרים כי התמלאו התנאים האמורים בחוק לעריכת החיפוש וכי לא ניתנה הסכמה לחיפוש הפנימי לאחר שנתבקשה; הבקשה תכלול את אלה:</p>
+                  </intro>
+                  <point eId="point_7__point_א__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>שם המבקש, דרגתו ותפקידו;</p>
+                    </content>
+                  </point>
+                  <point eId="point_7__point_א__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>התאריך והמקום שבו נערכה הבקשה;</p>
+                    </content>
+                  </point>
+                  <point eId="point_7__point_א__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>פירוט העבירה נושא החקירה;</p>
+                    </content>
+                  </point>
+                  <point eId="point_7__point_א__point_4">
+                    <num>(4)</num>
+                    <content>
+                      <p>פרטי זהותו, לרבות גילו, של החשוד ומענו;</p>
+                    </content>
+                  </point>
+                  <point eId="point_7__point_א__point_5">
+                    <num>(5)</num>
+                    <content>
+                      <p>פירוט הפעולה המבוקשת בחיפוש הפנימי;</p>
+                    </content>
+                  </point>
+                  <point eId="point_7__point_א__point_6">
+                    <num>(6)</num>
+                    <content>
+                      <p>פירוט הנסיבות המקיימות את התנאים לפי החוק;</p>
+                    </content>
+                  </point>
+                  <point eId="point_7__point_א__point_7">
+                    <num>(7)</num>
+                    <content>
+                      <p>פרטים בקשר לבקשות אחרות שהוגשו בעבר לגבי אותו חשוד בקשר לאותה חקירה, לרבות החלטות בית המשפט לגביהן;</p>
+                    </content>
+                  </point>
+                  <point eId="point_7__point_א__point_8">
+                    <num>(8)</num>
+                    <content>
+                      <p>משך הזמן המתבקש לתוקפו של ההיתר;</p>
+                    </content>
+                  </point>
+                  <point eId="point_7__point_א__point_9">
+                    <num>(9)</num>
+                    <content>
+                      <p>אישור רופא לפי <ref href="#point_4">סעיף 4(ד)</ref>.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_7__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>העתק מהבקשה יימסר לחשוד זמן סביר לפני הדיון.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_8">
+            <heading>
+              <authorialNote placement="side">
+                <p>דיון בבקשה והחלטת שופט</p>
+              </authorialNote>
+            </heading>
+            <num>8.</num>
+            <list>
+              <point eId="point_8__point_א">
+                <num>(א)</num>
+                <list>
+                  <intro>
+                    <p>הוגשה בקשה לפי <ref href="#point_7">סעיף 7</ref> (להלן – הבקשה), רשאי בית המשפט, לאחר שמיעת החשוד ובא כוחו, אם יש לו, להתיר בצו עריכת חיפוש פנימי אם שוכנע שהתקיימו כל אלה:</p>
+                  </intro>
+                  <point eId="point_8__point_א__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>התנאים הקבועים בחוק לעריכת החיפוש;</p>
+                    </content>
+                  </point>
+                  <point eId="point_8__point_א__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>הצורך בהשגת הראיה או בהוכחת הקשר שבין החשוד לבין ביצוע העבירה, גובר על הפגיעה בחשוד הכרוכה בביצוע הפעולה המבוקשת;</p>
+                    </content>
+                  </point>
+                  <point eId="point_8__point_א__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>אין דרך סבירה אחרת, בנסיבות הענין, שפגיעתה בחשוד פחותה, להשגת הראיה או להוכחת הקשר שבין החשוד לבין ביצוע העבירה.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_8__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>היה החשוד קטין או אדם שקיים חשש לגביו שהוא מוגבל בכושרו השכלי, ישמע בית המשפט גם את אפוטרופסו או את אפוטרופסו־לדין, כאמור <ref href="#point_6">בסעיף 6</ref>.</p>
+                </content>
+              </point>
+              <point eId="point_8__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>הדיון בבקשה יהיה בדלתיים סגורות; בטרם יתחיל הדיון, ישאל בית המשפט את החשוד אם רצונו שהדיון יהיה פומבי; ביקש החשוד שהדיון יהיה פומבי, יתקיים הדיון בפומבי.</p>
+                </content>
+              </point>
+              <point eId="point_8__point_ד">
+                <num>(ד)</num>
+                <content>
+                  <p>שוכנע בית המשפט שגילוי מידע הקשור לבקשה עלול לפגוע בחקירה או לחשוף שיטת חקירה או מקורות מידע שיש אינטרס ציבורי שלא לגלותם, רשאי הוא לעיין במידע ולהסתמך עליו מבלי להעמידו לרשות החשוד או בא כוחו, ובלבד שיבהיר לחשוד את מטרת החיפוש בגופו.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_9">
+            <heading>
+              <authorialNote placement="side">
+                <p>היתר</p>
+              </authorialNote>
+            </heading>
+            <num>9.</num>
+            <list>
+              <point eId="point_9__point_א">
+                <num>(א)</num>
+                <list>
+                  <intro>
+                    <p>היתר לחיפוש פנימי יכלול את אלה:</p>
+                  </intro>
+                  <point eId="point_9__point_א__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>שם מבקש ההיתר, דרגתו ותפקידו;</p>
+                    </content>
+                  </point>
+                  <point eId="point_9__point_א__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>פירוט העבירה שבקשר עמה מבקשים לערוך את החיפוש הפנימי;</p>
+                    </content>
+                  </point>
+                  <point eId="point_9__point_א__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>שמו של החשוד שלגביו ניתן ההיתר;</p>
+                    </content>
+                  </point>
+                  <point eId="point_9__point_א__point_4">
+                    <num>(4)</num>
+                    <content>
+                      <p>פירוט הפעולה שיש לבצע, התנאים לעריכתה ומקום ביצועה או סוג המקום;</p>
+                    </content>
+                  </point>
+                  <point eId="point_9__point_א__point_5">
+                    <num>(5)</num>
+                    <content>
+                      <p>כשירותו של מבצע הפעולה;</p>
+                    </content>
+                  </point>
+                  <point eId="point_9__point_א__point_6">
+                    <num>(6)</num>
+                    <content>
+                      <p>כל הוראה אחרת שבית המשפט רואה לתיתה לענין החיפוש הפנימי;</p>
+                    </content>
+                  </point>
+                  <point eId="point_9__point_א__point_7">
+                    <num>(7)</num>
+                    <content>
+                      <p>משך תוקפו של ההיתר;</p>
+                    </content>
+                  </point>
+                  <point eId="point_9__point_א__point_8">
+                    <num>(8)</num>
+                    <content>
+                      <p>תאריך ומקום מתן ההיתר;</p>
+                    </content>
+                  </point>
+                  <point eId="point_9__point_א__point_9">
+                    <num>(9)</num>
+                    <content>
+                      <p>שמו וחתימתו של השופט שנתן את ההיתר.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_9__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>תוקפו של היתר לפי סעיף זה יהיה כפי שיקבע בית המשפט ובלבד שלא יעלה על שלושה ימים, כשבמניינם לא יבואו בחשבון שבתות וחגים; בית המשפט רשאי, מנימוקים מיוחדים שיירשמו, להאריך את תוקפו של ההיתר לתקופות נוספות שלא יעלו על שלושה ימים בכל פעם.</p>
+                </content>
+              </point>
+              <point eId="point_9__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>היתר בית המשפט ואישור הרופא כאמור <ref href="#point_4">בסעיף 4(ד)</ref> יהיו אסמכתה לעורך החיפוש לעשותו על פי הפירוט שיקבע הרופא באישורו; אולם אין במתן היתר כאמור כדי לחייב בעל מקצוע רפואי לעשות פעולה שהחשוד מסרב לתת בפניו הסכמה לעשייתה.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_10">
+            <heading>
+              <authorialNote placement="side">
+                <p>דו"ח על חיפוש בגוף והחזקת דברים שנתפסו</p>
+              </authorialNote>
+            </heading>
+            <num>10.</num>
+            <list>
+              <point eId="point_10__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>עורך החיפוש בגוף ירשום בתום החיפוש בהקדם האפשרי, לפי הענין, דין וחשבון על מהלכו של החיפוש, ויחתום עליו.</p>
+                </content>
+              </point>
+              <point eId="point_10__point_ב">
+                <num>(ב)</num>
+                <list>
+                  <intro>
+                    <p>דין וחשבון כאמור בסעיף קטן (א) יכלול את שנתפסו אלה:</p>
+                  </intro>
+                  <point eId="point_10__point_ב__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>שמו ופרטי זהותו של החשוד;</p>
+                    </content>
+                  </point>
+                  <point eId="point_10__point_ב__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>פירוט פעולת החיפוש שנערכה לרבות שימוש בכוח, אם נעשה, ותוצאות פעולת החיפוש;</p>
+                    </content>
+                  </point>
+                  <point eId="point_10__point_ב__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>פירוט הדברים שנתפסו;</p>
+                    </content>
+                  </point>
+                  <point eId="point_10__point_ב__point_4">
+                    <num>(4)</num>
+                    <content>
+                      <p>התאריך, לרבות השעה, והמקום שבו נערכה פעולת החיפוש;</p>
+                    </content>
+                  </point>
+                  <point eId="point_10__point_ב__point_5">
+                    <num>(5)</num>
+                    <content>
+                      <p>שמו וכשירותו או דרגתו של האדם שערך את החיפוש, לרבות פירוט מקום עבודתו הקבוע;</p>
+                    </content>
+                  </point>
+                  <point eId="point_10__point_ב__point_6">
+                    <num>(6)</num>
+                    <content>
+                      <p>שמו ומענו של מי שנכח בעת החיפוש, אם נכח.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_10__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>העתק ההיתר ודו"ח החיפוש יימסרו לחשוד.</p>
+                </content>
+              </point>
+              <point eId="point_10__point_ד">
+                <num>(ד)</num>
+                <content>
+                  <p>הדברים שנתפסו בחיפוש יוחזקו במשמורת המשטרה.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_11">
+            <heading>
+              <authorialNote placement="side">
+                <p>סירוב החשוד</p>
+              </authorialNote>
+            </heading>
+            <num>11.</num>
+            <list>
+              <point eId="point_11__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>סירב החשוד שייערך חיפוש בגופו, בין באמירה ובין בהתנהגות המונעת את החיפוש, ולא נערך החיפוש בשל סירובו, עשוי סירובו לשמש חיזוק למשקל הראיות של התביעה; לענין זה, ”סירוב לחיפוש“ – לרבות סירוב לענין האישור הנדרש לפי <ref href="#point_4">סעיף 4(ד)</ref>.</p>
+                </content>
+              </point>
+              <point eId="point_11__point_ב">
+                <num>(ב)</num>
+                <list>
+                  <intro>
+                    <p>הוראות סעיף קטן (א) לא יחולו באחד מאלה:</p>
+                  </intro>
+                  <point eId="point_11__point_ב__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>הסירוב לחיפוש הפנימי היה של אפוטרופסו של החשוד;</p>
+                    </content>
+                  </point>
+                  <point eId="point_11__point_ב__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>לא הוגשה בקשה לבית המשפט לקבלת היתר לחיפוש פנימי, למעט בנסיבות האמורות <ref href="#point_4">בסעיף 4(ח) סיפה</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_11__point_ב__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>בית המשפט לא נתן היתר לחיפוש פנימי לאחר שהתבקש לכך;</p>
+                    </content>
+                  </point>
+                  <point eId="point_11__point_ב__point_4">
+                    <num>(4)</num>
+                    <content>
+                      <p>לא ניתן אישור של רופא לערוך חיפוש בגופו של החשוד כשאישור כזה דרוש על פי החוק.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+            </list>
+          </point>
+        </list>
+      </chapter>
+      <chapter eId="chp_ג">
+        <num>פרק ג׳:</num>
+        <title>
+          <content>
+            <p>נטילת אמצעי זיהוי</p>
+          </content>
+        </title>
+        <section eId="chp_ג__sec_א">
+          <num>סימן א׳:</num>
+          <title>
+            <content>
+              <p>אופן נטילת אמצעי זיהוי</p>
+            </content>
+          </title>
+          <list>
+            <point eId="point_11א">
+              <heading>
+                <authorialNote placement="side">
+                  <p>אופן נטילת אמצעי זיהוי</p>
+                </authorialNote>
+              </heading>
+              <num>11א.</num>
+              <content>
+                <p>נטילת אמצעי זיהוי לפי הוראות <ref href="#chp_ג">פרק זה</ref> תבוצע בדרך ובמקום שיבטיחו שמירה מרבית על כבוד האדם, על פרטיותו ועל בריאותו ובמידה המועטה האפשרית של פגיעה, אי נוחות או כאב.</p>
+              </content>
+            </point>
+          </list>
+        </section>
+        <section eId="chp_ג__sec_ב">
+          <num>סימן ב׳:</num>
+          <title>
+            <content>
+              <p>נטילת אמצעי זיהוי מחשוד, מנאשם או ממורשע</p>
+            </content>
+          </title>
+          <list>
+            <point eId="point_11ב">
+              <heading>
+                <authorialNote placement="side">
+                  <p>תנאים לנטילת אמצעי זיהוי לצורך המאגר</p>
+                </authorialNote>
+              </heading>
+              <num>11ב.</num>
+              <list>
+                <point eId="point_11ב__point_א">
+                  <num>(א)</num>
+                  <list>
+                    <intro>
+                      <p>שוטר מוסמך ליטול מאדם אמצעי זיהוי, אחד או יותר, או להורות על נטילה כאמור בידי בעל מקצוע רפואי, לשם שימוש באמצעי הזיהוי ובנתוני הזיהוי שיופקו מהם כאמור <ref href="#point_11ד">בסעיף 11ד</ref>, ובלבד שהתקיים באותו אדם אחד מאלה:</p>
+                    </intro>
+                    <point eId="point_11ב__point_א__point_1">
+                      <num>(1)</num>
+                      <content>
+                        <p>הוא חשוד בעבירה ונחקר בקשר לחשד האמור לאחר שהוזהר לפי דין;</p>
+                      </content>
+                    </point>
+                    <point eId="point_11ב__point_א__point_2">
+                      <num>(2)</num>
+                      <content>
+                        <p>הוא נאשם בביצוע עבירה;</p>
+                      </content>
+                    </point>
+                    <point eId="point_11ב__point_א__point_3">
+                      <num>(3)</num>
+                      <content>
+                        <p>הוא הורשע בעבירה; לענין זה, ”הורשע“ – לרבות קביעה של בית משפט או של בית דין צבאי, שהאדם ביצע עבירה בלא הרשעה;</p>
+                      </content>
+                    </point>
+                    <point eId="point_11ב__point_א__point_4">
+                      <num>(4)</num>
+                      <content>
+                        <p>הוא הורשע מחוץ לישראל ונושא את עונשו בישראל.</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+                <point eId="point_11ב__point_ב">
+                  <num>(ב)</num>
+                  <content>
+                    <p>על אף הוראות סעיף קטן (א), שוטר לא ייטול ולא יורה ליטול אמצעי זיהוי שהוא דגימת תאי לחי, דגימת שיער או דגימת דם מזערית, אלא בעבירה מהעבירות המנויות <ref href="#appendix_1">בתוספת הראשונה</ref>, ולעניין נטילה כאמור ממי שהורשע מחוץ לישראל ונושא את עונשו בישראל כאמור בסעיף קטן (א)(4) – אלא בעבירה לפי דין זר המקבילה לעבירה המנויה <ref href="#appendix_1">בתוספת הראשונה</ref>, לפי החלטת קצין משטרה בכיר שהמפקח הכללי, באישור היועץ המשפטי לממשלה, הסמיכו לעניין זה.</p>
+                  </content>
+                </point>
+                <point eId="point_11ב__point_ג">
+                  <num>(ג)</num>
+                  <content>
+                    <p>המפקח הכללי רשאי לקבוע בפקודות משטרת ישראל, סוגי עבירות, שלבים בחקירה או בהליך הפלילי, או נסיבות אחרות, שבהם לא יינטלו אמצעי זיהוי, כולם או חלקם, לפי הוראות סעיף זה.</p>
+                  </content>
+                </point>
+                <point eId="point_11ב__point_ד">
+                  <num>(ד)</num>
+                  <list>
+                    <intro>
+                      <p>הסמכות ליטול אמצעי זיהוי לפי הוראות סעיף זה תהיה עד המועד כמפורט להלן:</p>
+                    </intro>
+                    <point eId="point_11ב__point_ד__point_1">
+                      <num>(1)</num>
+                      <content>
+                        <p>לענין חשוד כאמור בסעיף קטן (א)(1) – במועד חקירתו באזהרה כאמור באותו סעיף קטן, ואם היה עצור – עד תום תקופת מעצרו;</p>
+                      </content>
+                    </point>
+                    <point eId="point_11ב__point_ד__point_2">
+                      <num>(2)</num>
+                      <content>
+                        <p>לענין נאשם כאמור בסעיף קטן (א)(2) – עד יום מתן פסק הדין בענינו;</p>
+                      </content>
+                    </point>
+                    <point eId="point_11ב__point_ד__point_3">
+                      <num>(3)</num>
+                      <content>
+                        <p>לענין מורשע כאמור בסעיף קטן (א)(3) או (4) – עד 30 ימים מיום הרשעתו בפסק דין סופי, ואם הוטל עליו עונש מאסר – עד תום תקופת מאסרו.</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+                <point eId="point_11ב__point_ה">
+                  <num>(ה)</num>
+                  <content>
+                    <p>אמצעי זיהוי יינטלו מאדם לפי הוראות סעיף זה בתחנת משטרה, במקום מעצר או בבית סוהר, לפי הענין.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_11ג">
+              <heading>
+                <authorialNote placement="side">
+                  <p>נחקר באזהרה – בקשה לעיון חוזר</p>
+                </authorialNote>
+              </heading>
+              <num>11ג.</num>
+              <list>
+                <point eId="point_11ג__point_א">
+                  <num>(א)</num>
+                  <content>
+                    <p>ניטל מאדם שנחקר באזהרה בחשד לביצוע עבירה אמצעי זיהוי שהוא דגימה ביולוגית בהתאם להוראות <ref href="#point_11ב">סעיף 11ב(א)(1)</ref>, וטרם הוגש נגדו כתב אישום, רשאי הוא להגיש בקשה לעיון חוזר אם סבר שלא היה כל בסיס סביר מלכתחילה לחקור אותו באזהרה (בסעיף זה – הבקשה); הבקשה תוגש לקצין משטרה בכיר שהמפקח הכללי של משטרת ישראל הסמיך לענין זה (בסעיף זה – קצין המשטרה).</p>
+                  </content>
+                </point>
+                <point eId="point_11ג__point_ב">
+                  <num>(ב)</num>
+                  <content>
+                    <p>מצא קצין המשטרה, או עורך דין שהוא הסמיכו לכך, כי לא היה בסיס סביר מלכתחילה לחקור אדם באזהרה כאמור בסעיף קטן (א), יורה על אי הכללת נתוני הזיהוי הגנטי שהופקו מאותו אמצעי זיהוי במאגר נתוני הזיהוי; הוכללו נתוני הזיהוי כאמור במאגר – יורה על מחיקתם מן המאגר, והוראת <ref href="#point_11כג">סעיף 11כג(ב)</ref> תחול על אמצעי הזיהוי שניטל כאמור.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_11ד">
+              <heading>
+                <authorialNote placement="side">
+                  <p>שימוש מותר באמצעי זיהוי ובנתוני זיהוי</p>
+                </authorialNote>
+              </heading>
+              <num>11ד.</num>
+              <list>
+                <point eId="point_11ד__point_א">
+                  <num>(א)</num>
+                  <content>
+                    <p>אמצעי זיהוי שניטל מאדם לפי הוראות <ref href="#point_11ב">סעיף 11ב</ref>, ישמש רק לשם הפקת נתוני זיהוי.</p>
+                  </content>
+                </point>
+                <point eId="point_11ד__point_ב">
+                  <num>(ב)</num>
+                  <list>
+                    <intro>
+                      <p>נתוני הזיהוי שהופקו כאמור בסעיף קטן (א), ישמשו למטרות אלה בלבד:</p>
+                    </intro>
+                    <point eId="point_11ד__point_ב__point_1">
+                      <num>(1)</num>
+                      <content>
+                        <p>הכללתם במאגר;</p>
+                      </content>
+                    </point>
+                    <point eId="point_11ד__point_ב__point_2">
+                      <num>(2)</num>
+                      <content>
+                        <p>השוואתם לנתוני הזיהוי שבמאגר כאמור <ref href="#point_11יד">בסעיף 11יד</ref>;</p>
+                      </content>
+                    </point>
+                    <point eId="point_11ד__point_ב__point_3">
+                      <num>(3)</num>
+                      <content>
+                        <p>אימות או עדכון הנתונים שבמאגר.</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+              </list>
+            </point>
+            <point eId="point_11ה">
+              <heading>
+                <authorialNote placement="side">
+                  <p>נטילה חוזרת של אמצעי זיהוי</p>
+                </authorialNote>
+              </heading>
+              <num>11ה.</num>
+              <list>
+                <intro>
+                  <p>ניטל מאדם אמצעי זיהוי לפי הוראות <ref href="#point_11ב">סעיף 11ב</ref>, לא ייטול שוטר ולא יורה ליטול לפי הוראות <ref href="#point_11ב">הסעיף האמור</ref>, מאותו אדם את אותו אמצעי זיהוי פעם נוספת, אלא בהתקיים אחד מאלה:</p>
+                </intro>
+                <point eId="point_11ה__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>נתוני הזיהוי של האדם, המופקים מאותו אמצעי זיהוי, אינם כלולים במאגר או שהם כלולים במאגר אך אינם מלאים, ולא ניתן להפיק מאמצעי הזיהוי שניטל בעבר נתוני זיהוי מלאים;</p>
+                  </content>
+                </point>
+                <point eId="point_11ה__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>אמצעי הזיהוי הוא טביעת אצבעות והוא נדרש לשם בירור או אימות זהותו של אותו אדם;</p>
+                  </content>
+                </point>
+                <point eId="point_11ה__point_3">
+                  <num>(3)</num>
+                  <content>
+                    <p>אמצעי הזיהוי הוא תצלום, והתצלום שניטל בעבר אינו עדכני.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_11ו">
+              <heading>
+                <authorialNote placement="side">
+                  <p>זימון לשם נטילת אמצעי זיהוי וסמכות עיכוב</p>
+                </authorialNote>
+              </heading>
+              <num>11ו.</num>
+              <list>
+                <point eId="point_11ו__point_א">
+                  <num>(א)</num>
+                  <content>
+                    <p>שוטר רשאי לזמן לתחנת משטרה אדם שמתקיימים לגביו התנאים לנטילת אמצעי זיהוי לפי הוראות <ref href="#point_11ב">סעיף 11ב</ref>, לשם נטילת אמצעי זיהוי ממנו לפי הוראות <ref href="#point_11ב">אותו סעיף</ref>.</p>
+                  </content>
+                </point>
+                <point eId="point_11ו__point_ב">
+                  <num>(ב)</num>
+                  <content>
+                    <p>לא התייצב אדם בתחנת המשטרה במועד שאליו זומן לפי הוראות סעיף קטן (א), רשאי שוטא לעכבו ולדרוש ממנו להילוות עמו לתחנת משטרה לצורך נטילת אמצעי הזיהוי; הוראות <ref href="/akn/il/act/PrimaryLegislation/1996-05-12/159712#point_23">סעיף 23(ב) לחוק סדר הדין הפלילי (סמכויות אכיפה – מעצרים), התשנ"ו–1996</ref> (בחוק זה – חוק המעצרים), יחולו על אי ציות להוראה כאמור.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_11ז">
+              <heading>
+                <authorialNote placement="side">
+                  <p>בקשת הסכמה וסמכות שימוש בכוח</p>
+                </authorialNote>
+              </heading>
+              <num>11ז.</num>
+              <list>
+                <point eId="point_11ז__point_א">
+                  <num>(א)</num>
+                  <content>
+                    <p>אמצעי זיהוי יינטל מאדם לפי הוראות <ref href="#chp_ג_sec_ב">סימן זה</ref> רק לאחר שהתבקשה הסכמתו לכך, ולאחר שנמסר לו כי ניתן לעשות בנתוני הזיהוי שהופקו מאמצעי הזיהוי לצורך הכללתם במאגר, לצורך אימות או עדכון הנתונים שבמאגר, או לצורך השוואתם לנתוני הזיהוי שבמאגר כאמור <ref href="#point_11יד">בסעיף 11יד</ref>; ולענין נטילת דגימת דם מזערית, יימסר לאדם גם על החלופות לנטילה זו אם יסרב לה, כמפורט בסעיף קטן (ב), וכן תוסבר לו המשמעות המשפטית של סירובו כאמור <ref href="#point_12">בסעיף 12(ב)</ref>.</p>
+                  </content>
+                </point>
+                <point eId="point_11ז__point_ב">
+                  <num>(ב)</num>
+                  <content>
+                    <p>התבקשה הסכמתו של אדם לנטילת דגימת דם מזערית, ולא נתן האדם את הסכמתו לכך, תתבקש הסכמתו לנטילת דגימת תאי לחי או דגימת שיער, ויראו אותו לענין <ref href="#point_12">סעיף 12(ב)</ref>, כמי שסירב לנטילת אמצעי זיהוי רק אם סירב גם לכך.</p>
+                  </content>
+                </point>
+                <point eId="point_11ז__point_ג">
+                  <num>(ג)</num>
+                  <content>
+                    <p>על אף הוראות סעיף קטן (א) רשאי שוטר ליטול מאדם אמצעי זיהוי שהוא טביעת אצבעות, דגימת שיער או תצלום, תוך שימוש בכוח סביר כאשר האדם לא נתן את הסכמתו לנטילה, ובלבד שהזהירו בדבר הכוונה לעשות שימוש בכוח כאמור; ואולם לא ייטול שוטר מאדם דגימת שיער תוך שימוש בכוח לפי הוראות סעיף קטן זה אלא לאחר שניתן לכך אישור מאת קצין משטרה; הוראות <ref href="#point_3">סעיף 3(ג) ו־(ד)</ref>, יחולו, בשינויים המחויבים, לענין אישור קצין משטרה לפי הוראות סעיף קטן זה.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_11ח">
+              <heading>
+                <authorialNote placement="side">
+                  <p>נטילת אמצעי זיהוי – תנאי הנטילה</p>
+                </authorialNote>
+              </heading>
+              <num>11ח.</num>
+              <list>
+                <point eId="point_11ח__point_א">
+                  <num>(א)</num>
+                  <content>
+                    <p>נטילת דגימת תאי לחי או דגימת שיער, מאדם, לפי הוראות <ref href="#chp_ג_sec_ב">סימן זה</ref>, תיעשה בידי שוטר, ואם ביקש זאת האדם – בידי שוטר שהוא בן מינו.</p>
+                  </content>
+                </point>
+                <point eId="point_11ח__point_ב">
+                  <num>(ב)</num>
+                  <content>
+                    <p>מטילת דגימת דם מזערית מאדם לפי הוראות <ref href="#chp_ג_sec_ב">סימן זה</ref> תיעשה בידי בעל מקצוע רפואי, ואם ביקש זאת האדם – בידי בעל מקצוע רפואי שהוא בן מינו.</p>
+                  </content>
+                </point>
+                <point eId="point_11ח__point_ג">
+                  <num>(ג)</num>
+                  <content>
+                    <p>עורר האדם חשש סביר שנטילת אמצעי הזיהוי עלולה לפגוע בבריאותו, פגיעה שאינה נובעת ממהותה של הנטילה, לא יינטל ממנו אמצעי הזיהוי אלא באישור רופא כאמור <ref href="#point_4">בסעיף 4(ד)</ref><ref href="#point_4א">או 4א(ג)</ref>.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_11ט">
+              <heading>
+                <authorialNote placement="side">
+                  <p>דוח בדבר נטילת אמצעי זיהוי</p>
+                </authorialNote>
+              </heading>
+              <num>11ט.</num>
+              <list>
+                <point eId="point_11ט__point_א">
+                  <num>(א)</num>
+                  <content>
+                    <p>הנוטל אמצעי זיהוי לפי <ref href="#chp_ג_sec_ב">סימן זה</ref> ירשום בתום הנטילה, בהקדם האפשרי, דין וחשבון על מהלך הנטילה, ויחתום עליו.</p>
+                  </content>
+                </point>
+                <point eId="point_11ט__point_ב">
+                  <num>(ב)</num>
+                  <list>
+                    <intro>
+                      <p>דין וחשבון כאמור בסעיף קטן (א) יכלול את אלה:</p>
+                    </intro>
+                    <point eId="point_11ט__point_ב__point_1">
+                      <num>(1)</num>
+                      <content>
+                        <p>שמו ופרטי זהותו של האדם שממנו ניטל אמצעי הזיהוי והעבירה שבה הוא חשוד, נאשם או מורשע;</p>
+                      </content>
+                    </point>
+                    <point eId="point_11ט__point_ב__point_2">
+                      <num>(2)</num>
+                      <content>
+                        <p>פירוט פעולת הנטילה שבוצעה, לרבות שימוש בכוח, אם נעשה;</p>
+                      </content>
+                    </point>
+                    <point eId="point_11ט__point_ב__point_3">
+                      <num>(3)</num>
+                      <content>
+                        <p>התאריך, לרבות השעה והמקום שבו בוצעה פעולת הנטילה;</p>
+                      </content>
+                    </point>
+                    <point eId="point_11ט__point_ב__point_4">
+                      <num>(4)</num>
+                      <content>
+                        <p>שמו וכשירותו או דרגתו של האדם שביצע את הנטילה, לרבות פירוט מקום עבודתו הקבוע;</p>
+                      </content>
+                    </point>
+                    <point eId="point_11ט__point_ב__point_5">
+                      <num>(5)</num>
+                      <content>
+                        <p>שמו ופרטי זהותו של מי שנכח בעת הנטילה, אם נכח.</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+                <point eId="point_11ט__point_ג">
+                  <num>(ג)</num>
+                  <content>
+                    <p>העתק דוח הנטילה יימסר לאדם שממנו ניטל אמצעי הזיהוי.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+          </list>
+        </section>
+        <section eId="chp_ג__sec_ג">
+          <num>סימן ג׳:</num>
+          <title>
+            <content>
+              <p>נטילת טביעת אצבעות ותצלום, לצורך זיהוי עצורים, אסירים ומוחזקים במשמורת</p>
+            </content>
+          </title>
+          <list>
+            <point eId="point_11י">
+              <heading>
+                <authorialNote placement="side">
+                  <p>נטילת אמצעי זיהוי לצורך זיהוים של עצורים, אסירים ומוחזקים במשמורת</p>
+                </authorialNote>
+              </heading>
+              <num>11י.</num>
+              <list>
+                <point eId="point_11י__point_א">
+                  <num>(א)</num>
+                  <content>
+                    <p>שוטר או סוהר, רשאי ליטול מעצור, מאסיר או ממוחזק במשמורת, המתקבל למשמורת במקום מעצר, בבית סוהר, או במקום משמורת מיוחד, לפי הענין, טביעת אצבעות ותצלום לשם זיהויו.</p>
+                  </content>
+                </point>
+                <point eId="point_11י__point_ב">
+                  <num>(ב)</num>
+                  <content>
+                    <p>אמצעי זיהוי יינטל מעצור, מאסיר או ממוחזק במשמורת לפי הוראות סעיף קטן (א) לאחר שהתבקשה הסכמתו לכך, ולאחר שנמסר לו כי ניתן לעשות שימוש בנתוני הזיהוי שיופקו מאמצעי הזיהוי לצורך הכללתם במאגרים כאמור <ref href="#point_11יא">בסעיף 11יא</ref> או במאגר, בכפוף להוראות חוק זה, או לצורך השוואתם לנתוני הזיהוי שבמאגר כאמור <ref href="#point_11יד">בסעיף 11יד</ref>.</p>
+                  </content>
+                </point>
+                <point eId="point_11י__point_ג">
+                  <num>(ג)</num>
+                  <content>
+                    <p>לא נתן העצור, האסיר או המוחזק במשמורת את הסכמתו לנטילת אמצעי זיהוי לפי הוראות סעיף קטן (ב), רשאי שוטר או סוהר ליטול ממנו אמצעי זיהוי כאמור תוך שימוש בכוח סביר, ובלבד שהזהירו בדבר הכוונה לעשות שימוש בכוח כאמור.</p>
+                  </content>
+                </point>
+                <point eId="point_11י__point_ד">
+                  <num>(ד)</num>
+                  <content>
+                    <p>הוראות לענין נטילת אמצעי זיהוי תוך שימוש בכוח סביר, כאמור בסעיף קטן (ג), ייקבעו בפקודות משטרת ישראל, בפקודות השירות, כמשמעותן <ref href="/akn/il/act/PrimaryLegislation/1971-10-20/2002271">בפקודת בתי הסוהר [נוסח חדש], התשל"ב–1971</ref>, ובפקודות הצבא כמשמעותן <ref href="/akn/il/act/PrimaryLegislation/1955-07-20/148698">בחוק השיפוט הצבאי, התשט"ו–1955</ref> (בחוק זה – פקודת הצבא).</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_11יא">
+              <heading>
+                <authorialNote placement="side">
+                  <p>השימוש בנתוני הזיהוי</p>
+                </authorialNote>
+              </heading>
+              <num>11יא.</num>
+              <list>
+                <point eId="point_11יא__point_א">
+                  <num>(א)</num>
+                  <content>
+                    <p>משטרת ישראל ושירות בתי הסוהר רשאים לנהל מאגרים של נתוני זיהוי של עצורים, אסירים או מוחזקים במשמורת, שהופקו מאמצעי זיהוי שניטלו לפי <ref href="#chp_ג_sec_ג">סימן זה</ref>, לצורך ניהולם התקין של מקומות המעצר, בתי הסוהר או מקומות המשמורת המיוחדים, ולמטרה זו בלבד; מאגרי נתוני זיהוי כאמור בסעיף קטן זה ינוהלו בנפרד מהמאגר.</p>
+                  </content>
+                </point>
+                <point eId="point_11יא__point_ב">
+                  <num>(ב)</num>
+                  <content>
+                    <p>ההוראות לפי <ref href="#point_11כ">סעיפים 11כ</ref><ref href="#point_11כא">ו־11כא(ב)</ref>, יחולו, בשינויים המחויבים, גם לגבי אמצעי זיהוי שניטל לפי <ref href="#chp_ג_sec_ג">סימן זה</ref>, וכן לגבי נתוני זיהוי שהופקו מאמצעי זיהוי כאמור, הכלולים במאגרים האמורים בסעיף קטן (א).</p>
+                  </content>
+                </point>
+                <point eId="point_11יא__point_ג">
+                  <num>(ג)</num>
+                  <content>
+                    <p>נתוני זיהוי שהופקו מאמצעי זיהוי שניטל לפי הוראות <ref href="#chp_ג_sec_ג">סימן זה</ref>, רשאית משטרת ישראל להכלילם במאגר, ובלבד שמתקיים האמור <ref href="#point_11יג">בסעיף 11יג(ב)(2)</ref>.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+          </list>
+        </section>
+        <section eId="chp_ג__sec_ד">
+          <num>סימן ד׳:</num>
+          <title>
+            <content>
+              <p>סריקת טביעת אצבעות לשם זיהוי מעוכב</p>
+            </content>
+          </title>
+          <list>
+            <point eId="point_11יב">
+              <heading>
+                <authorialNote placement="side">
+                  <p>סריקת טביעת אצבעות לשם זיהוי מעוכב</p>
+                </authorialNote>
+              </heading>
+              <num>11יב.</num>
+              <list>
+                <point eId="point_11יב__point_א">
+                  <num>(א)</num>
+                  <content>
+                    <p>עיכב שוטר אדם, לפי הוראות <ref href="/akn/il/act/PrimaryLegislation/1996-05-12/159712#point_67">סעיפים 67</ref><ref href="/akn/il/act/PrimaryLegislation/1996-05-12/159712#point_68">או 68 לחוק המעצרים</ref>, והיה ספק בדבר זהותו, רשאי השוטר לבצע סריקה של טביעת האצבעות של המעוכב, במקום הימצאו, לשם בירור או אימות זהותו, לרבות על ידי השוואת הסריקה לנתוני זיהוי שבמאגר.</p>
+                  </content>
+                </point>
+                <point eId="point_11יב__point_ב">
+                  <num>(ב)</num>
+                  <content>
+                    <p>סריקה של טביעת אצבעות של מעוכב לפי הוראות סעיף קטן (א) תבוצע לאחר שהתבקשה הסכמתו לכך, ולאחר שנמסר לו כי ניתן לעשות שימוש בסריקה לצורך השוואתה לנתוני זיהוי שבמאגר; לא נתן המעוכב את הסכמתו לביצוע הסריקה, רשאי השוטר לדרוש מהאדם להילוות עמו לתחנת המשטרה או לזמנו לתחנת המשטרה למועד אחר שיקבע לשם ביצוע הסריקה.</p>
+                  </content>
+                </point>
+                <point eId="point_11יב__point_ג">
+                  <num>(ג)</num>
+                  <content>
+                    <p>דין מעוכב שסירב לביצוע הסריקה לפי הוראות סעיף קטן (ב), ולא נערכה הסריקה בשל סירובו, כדין אדם שאינו מציית להוראות שניתנו על פי סמכויות עיכוב, ויחולו לענין זה הוראות <ref href="/akn/il/act/PrimaryLegislation/1996-05-12/159712#point_23">סעיף 23(ב) לחוק המעצרים</ref>.</p>
+                  </content>
+                </point>
+                <point eId="point_11יב__point_ד">
+                  <num>(ד)</num>
+                  <content>
+                    <p>נלווה אדם עם שוטר לתחנת המשטרה כאמור בסעיף קטן (ב), יבקש שוטר את הסכמתו לסריקה של טביעת אצבעותיו; לא נתן האדם את הסכמתו לביצוע הסריקה, רשאי שוטר לבצע את הסריקה תוך שימוש בכוח סביר, ובלבד שהזהיר את האדם בדבר הכוונה לעשות שימוש בכוח כאמור; המפקח הכללי יקבע הוראות בפקודות המשטרה לענין השימוש בכוח לפי סעיף קטן זה.</p>
+                  </content>
+                </point>
+                <point eId="point_11יב__point_ה">
+                  <num>(ה)</num>
+                  <content>
+                    <p>נתוני זיהוי שהופקו מסריקה של טביעת אצבעות שניטלה לפי הוראות סעיף זה לא ייכללו במאגר.</p>
+                  </content>
+                </point>
+                <point eId="point_11יב__point_ו">
+                  <num>(ו)</num>
+                  <content>
+                    <p>ביצע שוטר סריקה של טביעת אצבעות של מעוכב לפי הוראות סעיף זה, יערוך השוטר דוח לפי הוראות <ref href="/akn/il/act/PrimaryLegislation/1996-05-12/159712#point_74">סעיף 74 לחוק המעצרים</ref>, אף אם לא התקיימו התנאים האמורים <ref href="/akn/il/act/PrimaryLegislation/1996-05-12/159712#point_74">באותו סעיף</ref> לעריכת הדוח; בדוח כאמור יכלול השוטר, נוסף על הפרטים האמורים <ref href="/akn/il/act/PrimaryLegislation/1996-05-12/159712#point_74">בסעיף 74 לחוק המעצרים</ref>, גם פרטים בדבר ביצוע הסריקה, לרבות שימוש בכוח, אם נעשה, ותוצאות הסריקה.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+          </list>
+        </section>
+      </chapter>
+      <chapter eId="chp_ד">
+        <num>פרק ד׳:</num>
+        <title>
+          <content>
+            <p>מאגר נתוני זיהוי</p>
+          </content>
+        </title>
+        <section eId="chp_ד__sec_א">
+          <num>סימן א׳:</num>
+          <title>
+            <content>
+              <p>ניהול מאגר נתוני זיהוי</p>
+            </content>
+          </title>
+          <list>
+            <point eId="point_11יג">
+              <heading>
+                <authorialNote placement="side">
+                  <p>מאגר נתוני זיהוי</p>
+                </authorialNote>
+              </heading>
+              <num>11יג.</num>
+              <list>
+                <point eId="point_11יג__point_א">
+                  <num>(א)</num>
+                  <content>
+                    <p>משטרת ישראל רשאית לנהל מאגר של נתוני זיהוי; המאגר יהיה חסוי ולא יימסר ממנו מידע אלא לפי הוראות חוק זה.</p>
+                  </content>
+                </point>
+                <point eId="point_11יג__point_ב">
+                  <num>(ב)</num>
+                  <list>
+                    <intro>
+                      <p>משטרת ישראל רשאית לכלול במאגר, נתוני זיהוי שהופקו מאמצעי זיהוי או מדגימה ביולוגית שאינה אמצעי זיהוי שמתקיים בהם אחד מאלה:</p>
+                    </intro>
+                    <point eId="point_11יג__point_ב__point_1">
+                      <num>(1)</num>
+                      <content>
+                        <p>הם ניטלו מחשוד, מנאשם או ממורשע לפי הוראות <ref href="#chp_ג_sec_ב">סימן ב׳ לפרק ג׳</ref>, או לפי הוראות <ref href="/akn/il/act/PrimaryLegislation/1955-07-20/148698#point_245א1">סעיף 245א1 לחוק השיפוט הצבאי, התשט"ו–1955</ref> (בחוק זה – חוק השיפוט הצבאי);</p>
+                      </content>
+                    </point>
+                    <point eId="point_11יג__point_ב__point_2">
+                      <num>(2)</num>
+                      <list>
+                        <intro>
+                          <p>הם ניטלו מאדם לפי הוראות <ref href="#chp_ב">פרק ב׳</ref>, <ref href="#chp_ג_sec_ג">סימן ג׳ לפרק ג׳</ref>, <ref href="#chp_ו">או פרק ו׳</ref>, או מכוח <ref href="/akn/il/act/PrimaryLegislation/1955-07-20/148698">חוק השיפוט הצבאי</ref>, ובלבד שבעת הכללת נתוני הזיהוי במאגר מתקיים אחד מאלה:</p>
+                        </intro>
+                        <point eId="point_11יג__point_ב__point_2__point_א">
+                          <num>(א)</num>
+                          <content>
+                            <p>לענין נתוני זיהוי המזהים את האדם שממנו ניטלו אמצעי הזיהוי או הדגימה הביולוגית שאינה אמצעי זיהוי – מתקיימים לגבי אותו אדם התנאים לנטילת אמצעי זיהוי לפי הוראות <ref href="#point_11ב">סעיף 11ב(א) עד (ג)</ref>;</p>
+                          </content>
+                        </point>
+                        <point eId="point_11יג__point_ב__point_2__point_ב">
+                          <num>(ב)</num>
+                          <content>
+                            <p>לענין נתוני זיהוי המזהים אדם שלא ממנו ניטלו אמצעי הזיהוי או הדגימה הביולוגית שאינה אמצעי זיהוי – זהות האדם אינה ידועה, או שזהותו ידועה ולא נשללה אפשרות לקשר בינו לבין ביצוע העבירה הנחקרת;</p>
+                          </content>
+                        </point>
+                      </list>
+                    </point>
+                    <point eId="point_11יג__point_ב__point_3">
+                      <num>(3)</num>
+                      <content>
+                        <p>הם ניטלו ממקום, מחפץ או מגופה שקשורים לעבירה הנחקרת, ובלבד שבעת הכללת נתוני הזיהוי במאגר, זהות האדם שאותו הם מזהים אינה ידועה, או שזהותו ידועה ולא נשללה אפשרות לקשר בינו לבין ביצוע העבירה הנחקרת.</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+                <point eId="point_11יג__point_ג">
+                  <num>(ג)</num>
+                  <content>
+                    <p>נוסף על נתוני הזיהוי המנויים בסעיף קטן (ב), רשאית משטרת ישראל לכלול במאגר, נתוני זיהוי שהופקו מאמצעי זיהוי שניטל בהסכמה משוטר, בעת גיוסו למשטרה או במהלך שירותו, וזאת לצורך זיהויו כשוטר.</p>
+                  </content>
+                </point>
+                <point eId="point_11יג__point_ד">
+                  <num>(ד)</num>
+                  <list>
+                    <intro>
+                      <p>נוסף על נתוני הזיהוי המנויים בסעיף קטן (ב), רשאית משטרת ישראל לכלול במאגר נתוני זיהוי שהופקו מאמצעי זיהוי או מדגימה ביולוגית שאינה אמצעי זיהוי, שנמסרו למשטרת ישראל מידי מדינה אחרת או מידי גוף משטרתי או גוף מקביל לו מחוץ לישראל במסגרת מילוי תפקידו, ובלבד שהתקיימו כל אלה:</p>
+                    </intro>
+                    <point eId="point_11יג__point_ד__point_1">
+                      <num>(1)</num>
+                      <content>
+                        <p>מוסר המידע ביקש להכלילם במאגר או שהודע לו על אפשרות ההכללה כאמור והוא לא הביע את התנגדותו לכך;</p>
+                      </content>
+                    </point>
+                    <point eId="point_11יג__point_ד__point_2">
+                      <num>(2)</num>
+                      <content>
+                        <p>המידע נשמר במאגר למטרות המנויות <ref href="#point_11טז">בסעיף 11טז(א)</ref>;</p>
+                      </content>
+                    </point>
+                    <point eId="point_11יג__point_ד__point_3">
+                      <num>(3)</num>
+                      <content>
+                        <p>הם ניטלו מחשוד, מנאשם או ממורשע בהתאם <ref href="#point_11ב">לסעיף 11ב(א) ו־(ב)</ref>, בשינויים המחויבים.</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+                <point eId="point_11יג__point_ה">
+                  <num>(ה)</num>
+                  <list>
+                    <intro>
+                      <p>נוסף על נתוני הזיהוי המנויים בסעיף קטן (ב), רשאית משטרת ישראל לכלול במאגר נתוני זיהוי שהופקו באמצעי זיהוי שניטלו מכוח הדין החל באזור, מחשודים, מעצורים או מנאשמים; לעניין זה, ”האזור“ – כהגדרתו <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/תקנות_שעת_חירום_יהודה_והשומרון_שיפוט_בעבירות_ועזרה_משפטית">בחוק לתיקון ולהארכת תוקפן של תקנות שעת חירום (יהודה והשומרון – שיפוט בעבירות ועזרה משפטית), התשס"ז–2007</ref>, ובלבד שהתקיימו כל אלה:</p>
+                    </intro>
+                    <point eId="point_11יג__point_ה__point_1">
+                      <num>(1)</num>
+                      <content>
+                        <p>אמצעי הזיהוי ניטלו על ידי משטרת ישראל, ואם נתוני הזיהוי נמסרו לה על ידי גוף אחר – מוסר המידע ביקש להכלילם במאגר או שהודע לו על אפשרות ההכללה כאמור והוא לא הביע את התנגדותו לכך;</p>
+                      </content>
+                    </point>
+                    <point eId="point_11יג__point_ה__point_2">
+                      <num>(2)</num>
+                      <content>
+                        <p>המידע נשמר במאגר למטרות המנויות <ref href="#point_11טז">בסעיף 11טז(א)</ref>;</p>
+                      </content>
+                    </point>
+                    <point eId="point_11יג__point_ה__point_3">
+                      <num>(3)</num>
+                      <content>
+                        <p>הם ניטלו מחשוד, מנאשם או ממורשע בהתאם <ref href="#point_11ב">לסעיף 11ב(א) ו־(ב)</ref>, בשינויים המחויבים.</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+              </list>
+            </point>
+            <point eId="point_11יד">
+              <heading>
+                <authorialNote placement="side">
+                  <p>השוואה לנתוני הזיהוי שבמאגר</p>
+                </authorialNote>
+              </heading>
+              <num>11יד.</num>
+              <list>
+                <point eId="point_11יד__point_א">
+                  <num>(א)</num>
+                  <content>
+                    <p>משטרת ישראל רשאית לערוך השוואה בין נתוני הזיהוי שהופקו מאמצעי זיהוי או מדגימה ביולוגית שאינה אמצעי זיהוי, שניטלו לפי הוראת חוק זה או לפי <ref href="/akn/il/act/PrimaryLegislation/1955-07-20/148698">חוק השיפוט הצבאי</ref>, לבין נתוני הזיהוי שבמאגר, והכל למטרות האמורות <ref href="#point_11טז">בסעיף 11טז(א)</ref>; ובלבד שהשוואה כאמור של נתוני זיהוי שלא מתקיימים לגביהם התנאים להכללה במאגר לפי הוראות <ref href="#point_11יג">סעיף 11יג</ref> תהיה השוואה חד־פעמית.</p>
+                  </content>
+                </point>
+                <point eId="point_11יד__point_א1">
+                  <num>(א1)</num>
+                  <list>
+                    <point eId="point_11יד__point_א1__point_1">
+                      <num>(1)</num>
+                      <content>
+                        <p>קיבלה משטרת ישראל נתוני זיהוי מגוף משטרתי או מגוף מקביל לו מחוץ לישראל למטרות האמורות <ref href="#point_11טז">בסעיף 11טז(א)</ref>, ואין היא רשאית לכלול אותם במאגר, רשאית היא לערוך השוורה חד־פעמית בין נתוני הזיהוי שהתקבלו לבין נתוני הזיהוי שבמאגר, והכל למטרות האמורות;</p>
+                      </content>
+                    </point>
+                    <point eId="point_11יד__point_א1__point_2">
+                      <num>(2)</num>
+                      <content>
+                        <p>קיבלה משטרת ישראל נתוני זיהוי שהופקו כדין מטביעת אצבעות ותצלומים מרשות אחרת, רשאית היא לערוך השוואה חד־פעמית בין נתוני הזיהוי שהתקבלו לבין נתוני הזיהוי שבמאגר, לצורך אישור כניסה לישראל;</p>
+                      </content>
+                    </point>
+                    <point eId="point_11יד__point_א1__point_3">
+                      <num>(3)</num>
+                      <content>
+                        <p>שר המשפטים רשאי, בצו, באישור ועדת החוקה חוק ומשפט של הכנסת, לקבוע כי משטרת ישראל רשאית לערוך השוואה חד־פעמית בין נתוני זיהוי שהופקו מאמצעי זיהוי שניטלו לפי חיקוק אחר אשר ייקבע בצו, לבין נתוני הזיהוי שבמאגר.</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+                <point eId="point_11יד__point_ב">
+                  <num>(ב)</num>
+                  <content>
+                    <p>על אף הוראות סעיף קטן (א) לא תיערך השוואה כאמור באותו סעיף קטן, בין נתוני זיהוי שהופקו מאמצעי זיהוי או מדגימה ביולוגית שאינה אמצעי זיהוי, שניטלו מאדם והמזהים אדם אחר, או שניטלו ממקום, מחפץ או מגופה בקשר לעבירה הנחקרת, לבין נתוני זיהוי שבמאגר, אם זהותו של האדם שאותו נתוני הזיהוי מזהים – ידועה, ונשללה אפשרות לקשר בינו לבין ביצוע עבירה.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_11טו">
+              <heading>
+                <authorialNote placement="side">
+                  <p>ניהול המאגר</p>
+                </authorialNote>
+              </heading>
+              <num>11טו.</num>
+              <content>
+                <p>המאגר ינוהל במשטרת ישראל בידי שוטרים מהמחלקה לזיהוי פלילי, שהמפקח הכללי הסמיכם לכך.</p>
+              </content>
+            </point>
+          </list>
+        </section>
+        <section eId="chp_ד__sec_ב">
+          <num>סימן ב׳:</num>
+          <title>
+            <content>
+              <p>שימוש במאגר נתוני הזיהוי</p>
+            </content>
+          </title>
+          <list>
+            <point eId="point_11טז">
+              <heading>
+                <authorialNote placement="side">
+                  <p>מטרות השימוש במאגר</p>
+                </authorialNote>
+              </heading>
+              <num>11טז.</num>
+              <list>
+                <point eId="point_11טז__point_א">
+                  <num>(א)</num>
+                  <list>
+                    <intro>
+                      <p>משטרת ישראל רשאית לעשות שימוש במידע שבמאגר למטרות אלה בלבד:</p>
+                    </intro>
+                    <point eId="point_11טז__point_א__point_1">
+                      <num>(1)</num>
+                      <content>
+                        <p>לצורך חקירת עבירה, לרבות חקירה לצורכי חילוט רכוש, ולצורך הליך פלילי;</p>
+                      </content>
+                    </point>
+                    <point eId="point_11טז__point_א__point_2">
+                      <num>(2)</num>
+                      <content>
+                        <p>לצורך מניעת ביצוע עבירות או סיכולן;</p>
+                      </content>
+                    </point>
+                    <point eId="point_11טז__point_א__point_3">
+                      <num>(3)</num>
+                      <content>
+                        <p>לצורך אימות או בירור זהותם של אדם או של גופה, שזהותם אינה ידועה או מוטלת בספק, ולצורך איתור נעדרים או שבויים;</p>
+                      </content>
+                    </point>
+                    <point eId="point_11טז__point_א__point_4">
+                      <num>(4)</num>
+                      <content>
+                        <p>לענין <ref href="#point_11יח">סעיף 11יח</ref> – לרבות לצורך איתור אדם;</p>
+                      </content>
+                    </point>
+                    <point eId="point_11טז__point_א__point_5">
+                      <num>(5)</num>
+                      <content>
+                        <p>לצורך מחקר בקשר למטרות האמורות בפסקאות (1) עד (4), ובלבד שהמידע מהמאגר המועבר לצורך המחקר אינו כולל פרטים מזהים; מחקר כאמור יאושר בידי קצין משטרה בכיר שהמפקח הכללי הסמיכו לעניין זה, ובמידע הכולל נתונים לזיהוי גנטי – בידי הוועדה המאשרת.</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+                <point eId="point_11טז__point_ב">
+                  <num>(ב)</num>
+                  <content>
+                    <p>
+                      <wikicomment font-size="x-small">(בוטל).</wikicomment>
+                    </p>
+                  </content>
+                </point>
+                <point eId="point_11טז__point_ג">
+                  <num>(ג)</num>
+                  <content>
+                    <p>
+                      <wikicomment font-size="x-small">(בוטל).</wikicomment>
+                    </p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_11טז1">
+              <heading>
+                <authorialNote placement="side">
+                  <p>מסירת מידע מהמאגר לגוף ציבורי</p>
+                </authorialNote>
+              </heading>
+              <num>11טז1.</num>
+              <list>
+                <point eId="point_11טז1__point_א">
+                  <num>(א)</num>
+                  <content>
+                    <p>משטרת ישראל רשאית למסור מידע מהמאגר לידי גוף ציבורי, לפי דרישתו, לשימושו למטרות המנויות <ref href="#point_11טז">בסעיף 11טז(א)(1) עד (4) בלבד</ref>, לצורך מילוי תפקידו.</p>
+                  </content>
+                </point>
+                <point eId="point_11טז1__point_ב">
+                  <num>(ב)</num>
+                  <content>
+                    <p>גוף ציבורי שקיבל מידע לפי הוראות סעיף קטן (א) לא יעשה בו שימוש אלא למטרה שלשמה נמסר לו המידע; משטרת ישראל תודיע לגוף הציבורי על ההגבלה כאמור.</p>
+                  </content>
+                </point>
+                <point eId="point_11טז1__point_ג">
+                  <num>(ג)</num>
+                  <content>
+                    <p>משטרת ישראל רשאית למסור תצלום מהמאגר לידי הרשות להגנה על עדים, לצורך מילוי תפקידה.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_11טז2">
+              <heading>
+                <authorialNote placement="side">
+                  <p>מסירת מידע מהמאגר למדינה אחרת או לגוף מחוץ לישראל</p>
+                </authorialNote>
+              </heading>
+              <num>11טז2.</num>
+              <list>
+                <point eId="point_11טז2__point_א">
+                  <num>(א)</num>
+                  <list>
+                    <intro>
+                      <p>משטרת ישראל רשאית למסור מידע מהמאגר לידי מדינה אחרת או לידי גוף מחוץ לישראל המנוי <ref href="#appendix_2">בתוספת השנייה</ref> שאושר לעניין זה בידי קצין משטרה בכיר, לצורך מילוי תפקידיו, בין ביוזמתה ובין לפי בקשה מנומקת מאת המדינה או הגוף, באחת מאלה:</p>
+                    </intro>
+                    <point eId="point_11טז2__point_א__point_1">
+                      <num>(1)</num>
+                      <content>
+                        <p>לפי הוראות <ref href="/akn/il/act/PrimaryLegislation/1998-08-07/164295#point_32">סעיף 32 לחוק עזרה משפטית בין מדינות, התשנ"ח–1998</ref> (בחוק זה – חוק עזרה משפטית), לשימושם של המדינה או הגוף למטרות המנויות <ref href="#point_11טז">בסעיף 11טז(א)(1) עד (4), בלבד</ref>; על מסירת מידע לפי פסקה זו יחולו הוראות החוק האמור;</p>
+                      </content>
+                    </point>
+                    <point eId="point_11טז2__point_א__point_2">
+                      <num>(2)</num>
+                      <content>
+                        <p>לצורך אימות או בירור זהותם של אדם או של גופה ולצורך איתור אדם, במסגרת חקירה, הליך פלילי, מניעה או סיכול של עבירות כאמור <ref href="#point_11טז">בסעיף 11טז(א)(1) ו־(2)</ref>, או בהתאם <ref href="#point_11טז">לסעיף 11טז(א)(3) או (4)</ref>.</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+                <point eId="point_11טז2__point_ב">
+                  <num>(ב)</num>
+                  <list>
+                    <intro>
+                      <p>העברת מידע לפי סעיף קטן (א) תותנה בידי משטרת ישראל בקיום תנאים אלה:</p>
+                    </intro>
+                    <point eId="point_11טז2__point_ב__point_1">
+                      <num>(1)</num>
+                      <content>
+                        <p>השימוש במידע יהיה רק למטרה שלשמה נמסר, אלא אם כן אישר קצין משטרה בכיר שימוש אחר;</p>
+                      </content>
+                    </point>
+                    <point eId="point_11טז2__point_ב__point_2">
+                      <num>(2)</num>
+                      <content>
+                        <p>המידע לא ייאגר, אלא אם כן אישר קצין משטרה בכיר אחרת;</p>
+                      </content>
+                    </point>
+                    <point eId="point_11טז2__point_ב__point_3">
+                      <num>(3)</num>
+                      <content>
+                        <p>המידע לא יועבר לאחר, אלא אם כן אישר קצין משטרה בכיר את העברתו לגוף מהגופים המנויים <ref href="#appendix_2">בתוספת השנייה</ref>.</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+                <point eId="point_11טז2__point_ג">
+                  <num>(ג)</num>
+                  <list>
+                    <intro>
+                      <p>לגוף המנוי <ref href="#appendix_2">בתוספת השנייה</ref> יינתן מידע כמפורט להלן:</p>
+                    </intro>
+                    <point eId="point_11טז2__point_ג__point_1">
+                      <num>(1)</num>
+                      <content>
+                        <p>לגוף המנוי <ref href="#appendix_2_part_א">בחלק א׳ לתוספת</ref> – כל מידע המופק באמצעי זיהוי;</p>
+                      </content>
+                    </point>
+                    <point eId="point_11טז2__point_ג__point_2">
+                      <num>(2)</num>
+                      <content>
+                        <p>לגוף המנוי <ref href="#appendix_2_part_ב">בחלק ב׳ לתוספת</ref> – מידע המופק מטביעת אצבעות ותצלומים בלבד;</p>
+                      </content>
+                    </point>
+                    <point eId="point_11טז2__point_ג__point_3">
+                      <num>(3)</num>
+                      <content>
+                        <p>לגוף המנוי <ref href="#appendix_2_part_ג">בחלק ג׳ לתוספת</ref> – תצלומים בלבד.</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+                <point eId="point_11טז2__point_ד">
+                  <num>(ד)</num>
+                  <content>
+                    <p>נחתם הסכם בין מדינת ישראל או משטרת ישראל לבין מדינה אחרת או גוף באותה מדינה, לעניין העברת נתוני זיהוי שהופקו מטביעת אצבעות, לצורך חקירה, מניעה או סיכול של עבירה שהיא מעשה טרור כהגדרתו <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/חוק_איסור_מימון_טרור">בחוק איסור מימון טרור, התשס"ה–2005</ref>, וההסכם אושר בידי השר לביטחון הפנים, שר המשפטים והיועץ המשפטי לממשלה, תעביר משטרת ישראל לידי המדינה או הגוף האמורים, לפי העניין, בהתאם לאמור בהסכם, כל מידע מהמאגר הנדרש לצורך חקירה, מניעה או סיכול של עבירה כאמור; בהסכם כאמור יובהר כי מקבל המידע לא יעשה שימוש במידע אלא למטרה שלשמה הועבר, וכן אם מקבל המידע רשאי לאגור אותו או להעבירו לאחר, ואם כן – למי ובאילו תנאים.</p>
+                  </content>
+                </point>
+                <point eId="point_11טז2__point_ה">
+                  <num>(ה)</num>
+                  <content>
+                    <p>לעניין הוראות לפי <ref href="/akn/il/act/PrimaryLegislation/1981-03-11/147337">חוק הגנת הפרטיות, התשמ"א–1981</ref>, דין מידע המועבר לפי סעיף זה כדין מידע המועבר עקב בקשה לפי <ref href="/akn/il/act/PrimaryLegislation/1998-08-07/164295">חוק עזרה משפטית בין מדינות</ref>.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_11יז">
+              <heading>
+                <authorialNote placement="side">
+                  <p>הצגת תצלומים מהמאגר לאדם</p>
+                </authorialNote>
+              </heading>
+              <num>11יז.</num>
+              <list>
+                <point eId="point_11יז__point_א">
+                  <num>(א)</num>
+                  <list>
+                    <intro>
+                      <p>שוטר רשאי להציג לפני אדם תצלום הכלול במאגר, למטרות האמורות <ref href="#point_11טז">בסעיף 11טז(א)</ref>, בהתקיים אחד מאלה:</p>
+                    </intro>
+                    <point eId="point_11יז__point_א__point_1">
+                      <num>(1)</num>
+                      <content>
+                        <p>התצלום הוא של אדם שיש לגביו חשד כי הוא קשור לעבירה שלצורך חקירתה, מניעתה או סיכולה נדרשת הצגת התצלום;</p>
+                      </content>
+                    </point>
+                    <point eId="point_11יז__point_א__point_2">
+                      <num>(2)</num>
+                      <content>
+                        <p>התצלום הוא של אדם או של גופה, שלשם זיהויים או איתורם נדרשת הצגת התצלום;</p>
+                      </content>
+                    </point>
+                    <point eId="point_11יז__point_א__point_3">
+                      <num>(3)</num>
+                      <content>
+                        <p>הצגת התצלום נדרשת לשם בירור קשר אפשרי בין האדם המופיע בתצלום לבין עבירה נחקרת או עבירה שאותה מבקשים למנוע או לסכל, אף שאין לגבי האדם המופיע בתצלום חשד כאמור בפסקה (1), ובלבד שמתקיימים התנאים הנדרשים להצגת התצלום, שנקבעו לפי הוראות סעיף קטן (ב);</p>
+                      </content>
+                    </point>
+                    <point eId="point_11יז__point_א__point_4">
+                      <num>(4)</num>
+                      <content>
+                        <p>הצגת התצלום נדרשת לשם מסדר זיהוי תמונות, ובלבד שמתקיימים התנאים הנדרשים להצגת התצלום, שנקבעו לפי הוראות סעיף קטן (ב).</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+                <point eId="point_11יז__point_ב">
+                  <num>(ב)</num>
+                  <content>
+                    <p>בפקודות משטרת ישראל, יקבע המפקח הכללי, פקודות לענין דרכי הצגתו של תצלום הכלול במאגר, באופן שיבטיח כי הפגיעה בפרטיות לא תעלה על הנדרש, לרבות פקודות לענין התנאים הנדרשים להצגת תצלום לפי הוראות סעיף קטן (א)(3) ו־(4).</p>
+                  </content>
+                </point>
+                <point eId="point_11יז__point_ג">
+                  <num>(ג)</num>
+                  <content>
+                    <p>גוף ציבורי שנמסר לו תצלום הכלול במאגר, לפי הוראות <ref href="#point_11טז1">סעיף 11טז1</ref>, רשאי, לצורך מילוי תפקידו, להציגו לפני אדם, ובלבד שהתקיימו כל התנאים להצגת התצלום לפי סעיף זה.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_11יח">
+              <heading>
+                <authorialNote placement="side">
+                  <p>הצגת תצלום ברבים</p>
+                </authorialNote>
+              </heading>
+              <num>11יח.</num>
+              <list>
+                <point eId="point_11יח__point_א">
+                  <num>(א)</num>
+                  <list>
+                    <intro>
+                      <p>משטרת ישראל רשאית לפרסם ברבים תצלום הכלול במאגר, במטרה להסתייע בציבור כדי לאתר אדם או למנוע ביצוע עבירה, לפי הענין, ובלבד שהתקיים לגביו אחד מאלה:</p>
+                    </intro>
+                    <point eId="point_11יח__point_א__point_1">
+                      <num>(1)</num>
+                      <content>
+                        <p>התצלום הוא של אדם החשוד בביצוע עבירה או של אדם שהוגש נגדו כתב אישום בשל ביצוע עבירה, ובית המשפט התיר בצו את פרסום התצלום כאמור בסעיף קטן (ב);</p>
+                      </content>
+                    </point>
+                    <point eId="point_11יח__point_א__point_2">
+                      <num>(2)</num>
+                      <content>
+                        <p>התצלום הוא של עצור או אסיר שנמלט ממשמורת חוקית;</p>
+                      </content>
+                    </point>
+                    <point eId="point_11יח__point_א__point_3">
+                      <num>(3)</num>
+                      <content>
+                        <p>התצלום הוא של נעדר.</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+                <point eId="point_11יח__point_ב">
+                  <num>(ב)</num>
+                  <content>
+                    <p>בית משפט רשאי, לבקשת שוטר בדרגה ובתפקיד כפי שייקבעו בפקודות משטרת ישראל, ולאחר ששקל את מידת הפגיעה בפרטיות, להתיר פרסום תצלום כאמור בסעיף קטן (א)(1), אם השתכנע כי התמלאו התנאים האמורים בסעיף הקטן האמור, וכי קיים אינטרס ציבורי בפרסום התצלום לציבור.</p>
+                  </content>
+                </point>
+                <point eId="point_11יח__point_ג">
+                  <num>(ג)</num>
+                  <content>
+                    <p>המשטרה רשאית, לצורך המטרות האמורות <ref href="#point_11טז">בסעיף 11טז(א)(1) עד (4)</ref>, להציג באופן גלוי בתחנת משטרה, תצלום הכלול במאגר של אדם החשוד בביצוע עבירה או של אדם שהוגש נגדו כתב אישום בשל ביצוע עבירה – בלא צו בית משפט.</p>
+                  </content>
+                </point>
+                <point eId="point_11יח__point_ד">
+                  <num>(ד)</num>
+                  <content>
+                    <p>גוף ציבורי שנמסר לו תצלום הכלול במאגר, לא יפרסמו ברבים אלא אם כן התקיימו התנאים האמורים בסעיף זה.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_11יט">
+              <heading>
+                <authorialNote placement="side">
+                  <p>הפקה חוזרת</p>
+                </authorialNote>
+              </heading>
+              <num>11יט.</num>
+              <content>
+                <p>משטרת ישראל לא תעשה שימוש בדגימות ביולוגיות שניטלו לפי <ref href="#chp_ג_sec_ב">סימן ב׳ לפרק ג׳</ref> ושמהן הופקו נתונים לזיהוי גנטי שנכללו במאגר, אלא לשם הפקה חוזרת של נתונים כאמור לצרכים האמורים <ref href="#point_11ד">בסעיף 11ד(ב)</ref>, ובכפוף לתקנות שיותקנו לפי <ref href="#point_15">סעיף 15(ב)(4)</ref>.</p>
+              </content>
+            </point>
+          </list>
+        </section>
+        <section eId="chp_ד__sec_ג">
+          <num>סימן ג׳:</num>
+          <title>
+            <content>
+              <p>שמירת סודיות ואבטחה</p>
+            </content>
+          </title>
+          <list>
+            <point eId="point_11כ">
+              <heading>
+                <authorialNote placement="side">
+                  <p>שמירת סודיות והגבלת שימוש</p>
+                </authorialNote>
+              </heading>
+              <num>11כ.</num>
+              <content>
+                <p>אדם שהגיעו לידיו, תוך כדי מילוי תפקידו או במהלך עבודתו, מידע מן המאגר, או אמצעי זיהוי או דגימה ביולוגית שאינה אמצעי זיהוי, שמהם הופקו נתוני זיהוי הכלולים במאגר או המיועדים להפקה כאמור, לא ימסור ולא יגלה אותם לאחר ולא יעשה בהם כל שימוש, אלא לפי חוק זה ולצורך ביצוע תפקידו.</p>
+              </content>
+            </point>
+            <point eId="point_11כא">
+              <heading>
+                <authorialNote placement="side">
+                  <p>שמירת אמצעי זיהוי ונתוני זיהוי ואבטחתם</p>
+                </authorialNote>
+              </heading>
+              <num>11כא.</num>
+              <list>
+                <point eId="point_11כא__point_א">
+                  <num>(א)</num>
+                  <content>
+                    <p>נתוני הזיהוי הכלולים במאגר וכן אמצעי הזיהוי והדגימות הביולוגיות שאינן אמצעי זיהוי, שמהם הופקו נתוני זיהוי הכלולים במאגר או המיועדים להפקה כאמור, יישמרו במאגר לפי הוראות סעיף זה ובכפוף להוראות <ref href="#chp_ד_sec_ד">סימן ד׳ לפרק ד׳</ref>.</p>
+                  </content>
+                </point>
+                <point eId="point_11כא__point_ב">
+                  <num>(ב)</num>
+                  <list>
+                    <intro>
+                      <p>נתוני הזיהוי הכלולים במאגר וכן אמצעי הזיהוי והדגימות הביולוגיות שאינן אמצעי זיהוי, כאמור בסעיף קטן (א), יישמרו בהתאם להוראות האלה:</p>
+                    </intro>
+                    <point eId="point_11כא__point_ב__point_1">
+                      <num>(1)</num>
+                      <content>
+                        <p>בדרך שתבטיח הגנה מפני חשיפה, שימוש או העתקה בלא רשות כדין;</p>
+                      </content>
+                    </point>
+                    <point eId="point_11כא__point_ב__point_2">
+                      <num>(2)</num>
+                      <content>
+                        <p>בדרך שתמנע שימוש בהם בניגוד להוראות חוק זה;</p>
+                      </content>
+                    </point>
+                    <point eId="point_11כא__point_ב__point_3">
+                      <num>(3)</num>
+                      <content>
+                        <p>לענין אמצעי זיהוי שניטלו מאדם לפי הוראות <ref href="#point_11ב">סעיף 11ב</ref> – במקום ובדרך שיבטיחו כי השימוש בהם יהיה רק לצרכים האמורים <ref href="#point_11ד">בסעיף 11ד</ref>.</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+                <point eId="point_11כא__point_ג">
+                  <num>(ג)</num>
+                  <content>
+                    <p>הגישה לנתונים לזיהוי גנטי הכלולים במאגר, וכן לדגימות הביולוגיות שמהן הופקו הנתונים האמורים או המיועדות להפקה כאמור, תותר רק לשוטרים שהמפקח הכללי הסמיכם לכך לפי הוראות <ref href="#point_11טו">סעיף 11טו</ref>.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_11כא1">
+              <heading>
+                <authorialNote placement="side">
+                  <p>שמירת סודיות ואבטחה במאגר נעדרים ואלמונים</p>
+                </authorialNote>
+              </heading>
+              <num>11כא1.</num>
+              <content>
+                <p>הוראות לפי <ref href="#chp_ד_sec_ג">סימן זה</ref>, למעט הוראות <ref href="#point_11כא">סעיף 11כא(ג)</ref>, יחולו גם לעניין מאגר נעדרים ואלמונים.</p>
+              </content>
+            </point>
+          </list>
+        </section>
+        <section eId="chp_ד__sec_ד">
+          <num>סימן ד׳:</num>
+          <title>
+            <content>
+              <p>מחיקת נתוני זיהוי</p>
+            </content>
+          </title>
+          <list>
+            <point eId="point_11כב" class="definitions">
+              <heading>
+                <authorialNote placement="side">
+                  <p>הגדרות</p>
+                </authorialNote>
+              </heading>
+              <num>11כב.</num>
+              <list>
+                <intro>
+                  <p>
+                    <ref href="#chp_ד_sec_ד">בסימן זה</ref> –</p>
+                </intro>
+                <point eId="point_11כב__point_אמצעי_זיהוי">
+                  <content>
+                    <p>
+                      <def />”אמצעי זיהוי“ – אמצעי זיהוי שניטל מאדם לפי הוראות <ref href="#chp_ב">פרק ב׳</ref> או לפי הוראות <ref href="#chp_ג_sec_ב">סימן ב׳ לפרק ג׳</ref> או לפי הוראות <ref href="/akn/il/act/PrimaryLegislation/1955-07-20/148698#point_245א1">סעיף 245א1 לחוק השיפוט הצבאי</ref>;</p>
+                  </content>
+                </point>
+                <point eId="point_11כב__point_הסתיים_הליך_פלילי_בלא_הרשעה">
+                  <list>
+                    <intro>
+                      <p>
+                        <def />”הסתיים הליך פלילי בלא הרשעה“ – אחד מאלה:</p>
+                    </intro>
+                    <point eId="point_11כב__point_הסתיים_הליך_פלילי_בלא_הרשעה__point_1">
+                      <num>(1)</num>
+                      <content>
+                        <p>התקבלה החלטה שלא להעמיד אדם לדין בשל העבירה שבקשר אליה ניטל ממנו אמצעי הזיהוי;</p>
+                      </content>
+                    </point>
+                    <point eId="point_11כב__point_הסתיים_הליך_פלילי_בלא_הרשעה__point_2">
+                      <num>(2)</num>
+                      <content>
+                        <p>בית משפט זיכה אדם מן העבירה שבקשר אליה ניטל ממנו אמצעי הזיהוי ופסק הדין נעשה חלוט;</p>
+                      </content>
+                    </point>
+                    <point eId="point_11כב__point_הסתיים_הליך_פלילי_בלא_הרשעה__point_3">
+                      <num>(3)</num>
+                      <content>
+                        <p>תובע חזר בו מכתב האישום לפי <ref href="/akn/il/act/PrimaryLegislation/1982-03-01/2002215#point_93">סעיף 93 בחוק סדר הדין הפלילי [נוסח משולב], התשמ"ב–1982</ref> (בסעיף זה – חוק סדר הדין הפלילי);</p>
+                      </content>
+                    </point>
+                    <point eId="point_11כב__point_הסתיים_הליך_פלילי_בלא_הרשעה__point_4">
+                      <num>(4)</num>
+                      <content>
+                        <p>עוכבו ההליכים נגד אדם לפי <ref href="/akn/il/act/PrimaryLegislation/1982-03-01/2002215#point_231">סעיף 231 בחוק סדר הדין הפלילי</ref> ולא ניתן לחדשם עוד כאמור <ref href="/akn/il/act/PrimaryLegislation/1982-03-01/2002215#point_232">בסעיף 232 באותו חוק</ref>;</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+                <point eId="point_11כב__point_חשוד">
+                  <content>
+                    <p>
+                      <def />”חשוד“ – מי שחשוד בביצוע עבירה המנויה <ref href="#appendix_1">בתוספת הראשונה</ref>;</p>
+                  </content>
+                </point>
+                <point eId="point_11כב__point_מורשע">
+                  <content>
+                    <p>
+                      <def />”מורשע“ – לרבות מי שבית משפט או בית דין צבאי קבע שהוא ביצע עבירה בלא הרשעה.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_11כג">
+              <heading>
+                <authorialNote placement="side">
+                  <p>מחיקת נתונים לזיהוי גנטי</p>
+                </authorialNote>
+              </heading>
+              <num>11כג.</num>
+              <list>
+                <point eId="point_11כג__point_א">
+                  <num>(א)</num>
+                  <list>
+                    <intro>
+                      <p>נתונים לזיהוי גנטי יימחקו מן המאגר בהתקיים אחד מאלה ובהתאם לתקנות שיקבע השר לביטחון הפנים לפי <ref href="#point_15">סעיף 15(ב)(6)</ref>:</p>
+                    </intro>
+                    <point eId="point_11כג__point_א__point_1">
+                      <num>(1)</num>
+                      <content>
+                        <p>לגבי חשוד – בתום שבע שנים מיום שניטל ממנו אמצעי הזיהוי המזהה אותו, או בתום 60 ימים מיום שהסתיים ההליך הפלילי בענינו בלא הרשעה, לפי המאוחר;</p>
+                      </content>
+                    </point>
+                    <point eId="point_11כג__point_א__point_2">
+                      <num>(2)</num>
+                      <content>
+                        <p>לגבי מורשע – בתום עשרים שנה מיום שנפטר.</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+                <point eId="point_11כג__point_ב">
+                  <num>(ב)</num>
+                  <content>
+                    <p>נמחקו הנתונים לזיהוי גנטי כאמור בסעיף קטן (א), יבוער גם אמצעי הזיהוי ששימש להפקתם.</p>
+                  </content>
+                </point>
+                <point eId="point_11כג__point_ג">
+                  <num>(ג)</num>
+                  <content>
+                    <p>על אף האמור בסעיף קטן (ב), אמצעי זיהוי שהוא חומר חקירה בתיק החקירה המשטרתי – לא יבוער.</p>
+                  </content>
+                </point>
+                <point eId="point_11כג__point_ד">
+                  <num>(ד)</num>
+                  <content>
+                    <p>קמה עילה חדשה לנטילת אמצעי זיהוי בטרם חלפו התקופות האמורות בסעיף קטן (א), לפי הענין, לא יימחקו הנתונים לזיהוי גנטי ויחל מנין התקופה כאמור בסעיף קטן (א) במועד שבו קמה העילה החדשה.</p>
+                  </content>
+                </point>
+                <point eId="point_11כג__point_ה">
+                  <num>(ה)</num>
+                  <content>
+                    <p>הוראות סעיף זה יחולו גם על נתונים לזיהוי גנטי שנמסרו לפי <ref href="#point_11יג">סעיף 11יג(ד) ו־(ה)</ref>.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_11כד">
+              <heading>
+                <authorialNote placement="side">
+                  <p>בירור בדבר מחיקת נתונים לזיהוי גנטי מן המאגר</p>
+                </authorialNote>
+              </heading>
+              <num>11כד.</num>
+              <list>
+                <point eId="point_11כד__point_א">
+                  <num>(א)</num>
+                  <content>
+                    <p>מי שהתקיימו לגביו הוראות <ref href="#point_11כג">סעיף 11כג(א)</ref>, רשאי להתייצב אישית בתחנת משטרה אם שילם את האגרה שנקבעה לפי <ref href="#point_15">סעיף 15(ב)(7)</ref>, כדי לברר, בעצמו או על ידי אפוטרופסו, האם נמחקו הנתונים לזיהוי גנטי שהופקו מאמצעי זיהוי שניטל ממנו, ואולם לא יימסר לאותו אדם תדפיס, עותק, פלט מחשב, צילום או כל תיעוד אחר.</p>
+                  </content>
+                </point>
+                <point eId="point_11כד__point_ב">
+                  <num>(ב)</num>
+                  <content>
+                    <p>שוכנע קצין משטרה כי נבצר ממי שהתקיימו לגביו הוראות סעיף קטן (א) להתייצב בתחנת המשטרה בעצמו או באמצעות אפוטרופסו, יאפשר לעורך דינו או לקרובו של האדם אשר קיבל ייפוי כוח ממנו, להתייצב ולברר כאמור באותו סעיף קטן, ובהתאם לתקנות שיקבע השר לביטחון הפנים לפי <ref href="#point_15">סעיף 15(ב)(7)</ref>.</p>
+                  </content>
+                </point>
+                <point eId="point_11כד__point_ג">
+                  <num>(ג)</num>
+                  <content>
+                    <p>מי שקיבל מידע כאמור בסעיף זה, לא ימסור את המידע אלא למי שהמידע אודותיו, ויחולו עליו הוראות <ref href="#point_11כ">סעיף 11כ</ref>.</p>
+                  </content>
+                </point>
+                <point eId="point_11כד__point_ד">
+                  <num>(ד)</num>
+                  <content>
+                    <p>בסעיף זה, ”עורך דין“ – לרבות מתמחה המועסק על ידי עורך הדין.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_11כה">
+              <heading>
+                <authorialNote placement="side">
+                  <p>מחיקת נתוני זיהוי שניטלו לצורך איתור נעדרים או זיהוי אלמונים</p>
+                </authorialNote>
+              </heading>
+              <num>11כה.</num>
+              <list>
+                <point eId="point_11כה__point_א">
+                  <num>(א)</num>
+                  <content>
+                    <p>ניטלו אמצעי זיהוי לפי <ref href="#point_11כז">סעיף 11כז</ref> והובררה זהותם של האדם או הגופה או אותרו האדם או הגופה שלשם זיהוים או איתורם ניטלו אמצעי הזיהוי כאמור, יימחקו נתוני הזיהוי ממאגר הנעדרים והאלמונים.</p>
+                  </content>
+                </point>
+                <point eId="point_11כה__point_ב">
+                  <num>(ב)</num>
+                  <content>
+                    <p>נמחקו נתוני הזיהוי כאמור בסעיף קטן (א), יבוערו גם אמצעי הזיהוי שניטלו לפי <ref href="#point_11כז">סעיף 11כז</ref> ושימשו להפקתם.</p>
+                  </content>
+                </point>
+                <point eId="point_11כה__point_ג">
+                  <num>(ג)</num>
+                  <content>
+                    <p>לעניין בירור בדבר מחיקת נתונים לזיהוי גנטי ממאגר הנעדרים והאלמונים לפי סעיף זה, יחולו ההוראות לפי <ref href="#point_11כד">סעיף 11כד</ref>, בשינויים המחויבים.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+          </list>
+        </section>
+        <section eId="chp_ד__sec_ה">
+          <num>סימן ה׳:</num>
+          <title>
+            <content>
+              <p>מאגר לאיתור נעדרים ולזיהוי אלמונים</p>
+            </content>
+          </title>
+          <list>
+            <point eId="point_11כו">
+              <heading>
+                <authorialNote placement="side">
+                  <p>מאגר לאיתור נעדרים ולזיהוי אלמונים</p>
+                </authorialNote>
+              </heading>
+              <num>11כו.</num>
+              <list>
+                <point eId="point_11כו__point_א">
+                  <num>(א)</num>
+                  <content>
+                    <p>נוסף על המאגר לנתוני זיהוי לפי <ref href="#chp_ד_sec_א">סימן א׳</ref>, משטרת ישראל רשאית לנהל מאגר נעדרים ואלמונים ולכלול בו נתוני זיהוי שהופקו מאמצעי זיהוי או מדגימה ביולוגית שאינה אמצעי זיהוי, לצורך בירור זהותם של אדם או של גופה או לצורך איתורם.</p>
+                  </content>
+                </point>
+                <point eId="point_11כו__point_ב">
+                  <num>(ב)</num>
+                  <content>
+                    <p>משטרת ישראל רשאית להעביר למרכז הלאומי לרפואה משפטית במשרד הבריאות (בחוק זה – המרכז הלאומי לרפואה משפטית) עותק של הנתונים לזיהוי גנטי הכלולים במאגר הנעדרים והאלמונים, לשם בירור זהותם של אדם או של גופה או לצורך איתורם.</p>
+                  </content>
+                </point>
+                <point eId="point_11כו__point_ג">
+                  <num>(ג)</num>
+                  <content>
+                    <p>משטרת ישראל רשאית להעביר אמצעי זיהוי שניטלו לפי <ref href="#point_11כז">סעיף 11כז</ref> למרכז הלאומי לרפואה משפטית לשם הפקת נתוני זיהוי.</p>
+                  </content>
+                </point>
+                <point eId="point_11כו__point_ד">
+                  <num>(ד)</num>
+                  <content>
+                    <p>מאגר הנעדרים והאלמונים יהיה חסוי ולא יימסר ממנו מידע אלא לפי הוראות חוק זה.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_11כז">
+              <heading>
+                <authorialNote placement="side">
+                  <p>נטילת אמצעי זיהוי לצורך איתור נעדרים או זיהוי אלמונים והשימוש בהם</p>
+                </authorialNote>
+              </heading>
+              <num>11כז.</num>
+              <list>
+                <point eId="point_11כז__point_א">
+                  <num>(א)</num>
+                  <list>
+                    <intro>
+                      <p>שוטר, עובד המרכז הלאומי לרפואה משפטית או גורם אחר שראש המחלקה לזיהוי פלילי במשטרת ישראל הסמיכו לעניין זה, מוסמך ליטול אמצעי זיהוי מהמפורטים להלן, בהתאם להוראות סעיפים קטנים (ב) ו־(ג), לפי העניין:</p>
+                    </intro>
+                    <point eId="point_11כז__point_א__point_1">
+                      <num>(1)</num>
+                      <content>
+                        <p>מגופה – לצורך בירור זהותה;</p>
+                      </content>
+                    </point>
+                    <point eId="point_11כז__point_א__point_2">
+                      <num>(2)</num>
+                      <content>
+                        <p>מבן משפחה של נעדר – לצורך איתור הנעדר;</p>
+                      </content>
+                    </point>
+                    <point eId="point_11כז__point_א__point_3">
+                      <num>(3)</num>
+                      <content>
+                        <p>מחפץ או ממקום שבו יש יסוד סביר להניח כי מצויים אמצעי זיהוי של נעדר – לצורך איתור הנעדר;</p>
+                      </content>
+                    </point>
+                    <point eId="point_11כז__point_א__point_4">
+                      <num>(4)</num>
+                      <content>
+                        <p>מאדם, אם בשל מצבו הרפואי לא ניתן לברר את זהותו – לצורך בירור זהותו.</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+                <point eId="point_11כז__point_ב">
+                  <num>(ב)</num>
+                  <list>
+                    <point eId="point_11כז__point_ב__point_1">
+                      <num>(1)</num>
+                      <content>
+                        <p>נטילת אמצעי זיהוי מבן משפחה של נעדר לפי סעיף קטן (א)(2) תיעשה לאחר שהוסברו לבן המשפחה, בלשון המובנת לו, מטרת הנטילה והשימוש שניתן לעשות באמצעי הזיהוי ובנתוני הזיהוי שיופקו מהם, ואותו אדם נתן את הסכמתו בכתב לנטילה; ואולם לא יינטל אמצעי זיהוי כאמור מקטין או מאדם עם מוגבלות שכלית כמשמעותו <ref href="#point_14ג">בסעיף 14ג(א)</ref>, אלא אם כן נוסף על ההסכמה בכתב של הקטין או האדם עם המוגבלות, נתן גם האפוטרופוס את הסכמתו בכתב; לא היה לקטין או לאדם עם מוגבלות שכלית אפוטרופוס, רשאי בית המשפט, לבקשת שוטר, למנות לו אפוטרופוס לדין לצורך קבלת הסכמה לפי פסקה זו, ויחולו הוראות <ref href="#point_14ג">סעיף 14ג(ב)</ref> בשינויים המחויבים;</p>
+                      </content>
+                    </point>
+                    <point eId="point_11כז__point_ב__point_2">
+                      <num>(2)</num>
+                      <content>
+                        <p>נטילה של דגימה ביולוגית כאמור בסעיף קטן (א) תיעשה לאחר שקצין משטרה או רופא משפטי אישר כי זו הדרך היעילה ביותר לבירור זהותם של אדם או של גופה או לאיתורם; הוראות פסקה זו לא יחולו באירוע חירום אזרחי, לפי <ref href="/akn/il/act/PrimaryLegislation/1971-03-11/2001806#point_90א">סעיף 90א לפקודת המשטרה [נוסח חדש], התשל"א–1971</ref>;</p>
+                      </content>
+                    </point>
+                    <point eId="point_11כז__point_ב__point_3">
+                      <num>(3)</num>
+                      <content>
+                        <p>הוראות <ref href="/akn/il/act/PrimaryLegislation/1969-02-16/2001931">פקודת סדר הדין הפלילי (מעצר וחיפוש) [נוסח חדש], התשכ"ט–1969</ref>, לעניין כניסה למקום, יחולו על כניסה למקום לשם נטילה לפי הוראות סעיף זה.</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+                <point eId="point_11כז__point_ג">
+                  <num>(ג)</num>
+                  <list>
+                    <point eId="point_11כז__point_ג__point_1">
+                      <num>(1)</num>
+                      <content>
+                        <p>נתונים שהופקו מאמצעי זיהוי שניטלו מגופה לפי סעיף קטן (א)(1) יישמרו במאגר הנעדרים והאלמונים בלבד, ולא ייכללו במאגר לנתוני זיהוי לפי <ref href="#chp_ד_sec_א">סימן א׳</ref>, ואולם משטרת ישראל רשאית להשוות בין נתוני הזיהוי כאמור לבין המאגר לנתוני זיהוי לפי <ref href="#chp_ד_sec_א">סימן א׳</ref>, לצורך בירור זהות הגופה;</p>
+                      </content>
+                    </point>
+                    <point eId="point_11כז__point_ג__point_2">
+                      <num>(2)</num>
+                      <content>
+                        <p>נתונים שהופקו מאמצעי זיהוי שניטלו מבן משפחה של נעדר לפי סעיף קטן (א)(2), יישמרו במאגר הנעדרים והאלמונים בלבד, ולא ייכללו במאגר לנתוני זיהוי לפי <ref href="#chp_ד_sec_א">סימן א׳</ref> ולא יושוו לנתוני זיהוי במאגר האמור;</p>
+                      </content>
+                    </point>
+                    <point eId="point_11כז__point_ג__point_3">
+                      <num>(3)</num>
+                      <content>
+                        <p>נתונים שהופקו מאמצעי זיהוי שניטלו מחפץ או ממקום שבו יש יסוד סביר להניח כי מצויים אמצעי זיהוי של נעדר לפי סעיף קטן (א)(3), יישמרו במאגר הנעדרים והאלמונים בלבד, ולא ייכללו במאגר לנתוני זיהוי לפי <ref href="#chp_ד_sec_א">סימן א׳</ref>, ואולם משטרת ישראל רשאית לערוך השוואה בין נתוני הזיהוי כאמור לבין המאגר לנתוני זיהוי לפי <ref href="#chp_ד_sec_א">סימן א׳</ref>, לצורך איתור הנעדר;</p>
+                      </content>
+                    </point>
+                    <point eId="point_11כז__point_ג__point_4">
+                      <num>(4)</num>
+                      <content>
+                        <p>נתונים שהופקו מאמצעי זיהוי שניטלו מאדם שבשל מצבו הרפואי לא ניתן לברר את זהותו, לפי הוראות סעיף קטן (א)(4), יישמרו במאגר הנעדרים והאלמונים בלבד, ולא ייכללו במאגר לנתוני זיהוי לפי <ref href="#chp_ד_sec_א">סימן א׳</ref>, ואולם משטרת ישראל רשאית לערוך השוואה בין נתוני הזיהוי כאמור לבין נתוני זיהוי של חשודים, נאשמים, מורשעים או אסירים במאגר לנתוני זיהוי לפי <ref href="#chp_ד_sec_א">סימן א׳</ref>, לצורך בירור זהותו של אותו אדם.</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+              </list>
+            </point>
+          </list>
+        </section>
+      </chapter>
+      <chapter eId="chp_ה">
+        <num>פרק ה׳:</num>
+        <title>
+          <content>
+            <p>עונשין</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_12">
+            <heading>
+              <authorialNote placement="side">
+                <p>עונשין</p>
+              </authorialNote>
+            </heading>
+            <num>12.</num>
+            <list>
+              <point eId="point_12__point_א">
+                <num>(א)</num>
+                <list>
+                  <intro>
+                    <p>חשוד בעבירה לפי <ref href="/akn/il/act/PrimaryLegislation/1977-08-04/2002251#point_300">סעיפים 300</ref><ref href="/akn/il/act/PrimaryLegislation/1977-08-04/2002251#point_301א">או 301א לחוק העונשין, התשל"ז–1977</ref> (להלן – חוק העונשין), או בעבירה על <ref href="/akn/il/act/PrimaryLegislation/1973-07-10/2002282">פקודת הסמים המסוכנים [נוסח חדש], התשל"ג–1973</ref> (בחוק זה – פקודת הסמים המסוכנים), או על <ref href="/akn/il/act/PrimaryLegislation/1977-08-04/2002251#chp_י_sec_ה">סימן ה׳ לפרק י׳ לחוק העונשין</ref>, שדינן עשר שנות מאסר או יותר –</p>
+                  </intro>
+                  <point eId="point_12__point_א__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>המסרב לחיפוש חיצוני ולא ניתן היה לערוך באופן סביר את החיפוש בשל סירובו; או</p>
+                    </content>
+                  </point>
+                  <point eId="point_12__point_א__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>המסרב לחיפוש פנימי, שבית המשפט נתן היתר לעריכתו,</p>
+                    </content>
+                  </point>
+                  <wrapup eId="point_12__point_א__wrapup_none">
+                    <content>
+                      <p>דינו – מאסר שנתיים.</p>
+                    </content>
+                  </wrapup>
+                </list>
+              </point>
+              <point eId="point_12__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>סירב אדם לנטילת אמצעי זיהוי לפי הוראות <ref href="#chp_ג">פרק ג׳</ref>, ולא ניתן היה לערוך באופן סביר את הנטילה בשל סירובו, דינו – מאסר שישה חודשים.</p>
+                </content>
+              </point>
+              <point eId="point_12__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>המוסר או המגלה מידע, אמצעי זיהוי או דגימה ביולוגית, או העושה בהם שימוש, בניגוד להוראות <ref href="#point_11יא">סעיפים 11יא(ב)</ref><ref href="#point_11כ">או 11כ</ref>, דינו – מאסר שלוש שנים.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_13">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>13.</num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">(בוטל).</wikicomment>
+              </p>
+            </content>
+          </point>
+        </list>
+      </chapter>
+      <chapter eId="chp_ו">
+        <num>פרק ו׳:</num>
+        <title>
+          <content>
+            <p>חיפוש בהסכמה בגוף אדם שאינו חשוד</p>
+          </content>
+        </title>
+        <section eId="chp_ו__sec_א">
+          <num>סימן א׳:</num>
+          <title>
+            <content>
+              <p>הוראות כלליות</p>
+            </content>
+          </title>
+          <list>
+            <point eId="point_14">
+              <heading>
+                <authorialNote placement="side">
+                  <p>חיפוש בהסכמה בגוף אדם שאינו חשוד</p>
+                </authorialNote>
+              </heading>
+              <num>14.</num>
+              <list>
+                <point eId="point_14__point_א">
+                  <num>(א)</num>
+                  <list>
+                    <intro>
+                      <p>שוטר רשאי, לצורך חקירת עבירה, לערוך חיפוש כאמור בחוק זה בגופו של אדם שאינו חשוד, ולענין עריכת חיפוש כאמור לפי <ref href="#point_5">סעיף 5</ref> להורות על עריכת חיפוש כאמור <ref href="#point_5">באותו סעיף</ref>, ובלבד שמתקיים אחד מאלה:</p>
+                    </intro>
+                    <point eId="point_14__point_א__point_1">
+                      <num>(1)</num>
+                      <content>
+                        <p>האדם הוא נפגע עבירה, עד וכל מי שאינו חשוד, והיה לשוטר יסוד סביר להניח שבגופו של אותו אדם נמצאת ראיה הנדרשת לצורך חקירת העבירה;</p>
+                      </content>
+                    </point>
+                    <point eId="point_14__point_א__point_2">
+                      <num>(2)</num>
+                      <content>
+                        <p>החיפוש נדרש לשם בדיקת קשר אפשרי של אותו אדם לעבירה הנחקרת.</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+                <point eId="point_14__point_ב">
+                  <num>(ב)</num>
+                  <content>
+                    <p>לא יערוך שוטר חיפוש לפי הוראות <ref href="#chp_ו">פרק זה</ref> אלא לאחר שהסביר לאדם, בלשון המובנת לו, את מטרת החיפוש ואת השימוש שניתן לעשות במה שייתפס בחיפוש, וכן הסביר לו את זכותו שלא להסכים לחיפוש, ואותו אדם נתן את הסכמתו בכתב, לביצוע החיפוש.</p>
+                  </content>
+                </point>
+                <point eId="point_14__point_ג">
+                  <num>(ג)</num>
+                  <content>
+                    <p>על אף האמור בסעיף זה, לא ייערך חיפוש פנימי כאמור בסעיף קטן (א)(2) שהוא בדיקה גינקולוגית, אלא בהיתר של בית משפט; הוראות <ref href="#point_7">סעיפים 7</ref><ref href="#point_8">ו־8</ref> יחולו, בשינויים המחויבים, לפי הענין.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_14א">
+              <heading>
+                <authorialNote placement="side">
+                  <p>הגבלת השימוש במה שנתפס בחיפוש</p>
+                </authorialNote>
+              </heading>
+              <num>14א.</num>
+              <list>
+                <point eId="point_14א__point_א">
+                  <num>(א)</num>
+                  <content>
+                    <p>לא תיערך השוואה לפי הוראות <ref href="#point_11יד">סעיף 11יד</ref>, בין נתוני הזיהוי שהופקו ממה שנתפס בחיפוש לפי <ref href="#chp_ו">פרק זה</ref> והמזהים את האדם שבו נערך החיפוש, לבין נתוני הזיהוי שבמאגר, אלא לצורך חקירת העבירה שלשמה נערך החיפוש, או לצורך חקירת עבירה בתיק חקירה משטרתי אחר ולאחר שאותו אדם הסכים לכך, בכתב, על גבי טופס שקבע השר, ובהתאם להסכמה שנתן; ההסכמה יכול שתינתן לגבי כל תיק חקירה בנפרד, לגבי סוגי עבירות או לגבי השוואה לכלל תיקי החקירה.</p>
+                  </content>
+                </point>
+                <point eId="point_14א__point_ב">
+                  <num>(ב)</num>
+                  <content>
+                    <p>נתוני זיהוי שהופקו ממה שנתפס בחיפוש לפי <ref href="#chp_ו">פרק זה</ref> והמזהים את האדם שבו נערך החיפוש, לא ייכללו במאגר, אלא אם כן יתקיים, לאחר הנטילה ובמהלך חקירת העבירה שלשמה נערך החיפוש, האמור <ref href="#point_11יג">בסעיף 11יג(ב)(2)(א)</ref>.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+          </list>
+        </section>
+        <section eId="chp_ו__sec_ב">
+          <num>סימן ב׳:</num>
+          <title>
+            <content>
+              <p>הוראות לענין קטינים ואנשים עם מוגבלות שכלית</p>
+            </content>
+          </title>
+          <list>
+            <point eId="point_14ב" class="definitions">
+              <heading>
+                <authorialNote placement="side">
+                  <p xml:space="preserve"> </p>
+                </authorialNote>
+              </heading>
+              <num>14ב.</num>
+              <list>
+                <intro>
+                  <p>
+                    <ref href="#chp_ו_sec_ב">בסימן זה</ref> –</p>
+                </intro>
+                <point eId="point_14ב__point_בן_משפחה">
+                  <content>
+                    <p>
+                      <def />”בן משפחה“ – הורה, הורה של הורה, בן זוגו של כל אחד מאלה, אף אם אינו נשוי לו, אח או אחות, לרבות אח או אחות חורגים, וצאצאיהם של כל אחד מאלה, דוד או דודה וצאצאיהם, גיס או גיסה;</p>
+                  </content>
+                </point>
+                <point eId="point_14ב__point_חוק_הגנת_ילדים">
+                  <content>
+                    <p>
+                      <def />”חוק הגנת ילדים“ – <ref href="/akn/il/act/PrimaryLegislation/1955-06-16/148415">חוק לתיקון דיני הראיות (הגנת ילדים), התשט"ו–1955</ref>;</p>
+                  </content>
+                </point>
+                <point eId="point_14ב__point_חוקר_ילדים">
+                  <content>
+                    <p>
+                      <def />”חוקר ילדים“ – חוקר ילדים שמונה לפי <ref href="/akn/il/act/PrimaryLegislation/1955-06-16/148415">חוק הגנת ילדים</ref>;</p>
+                  </content>
+                </point>
+                <point eId="point_14ב__point_חוקר_נוער">
+                  <content>
+                    <p>
+                      <def />”חוקר נוער“ – חוקר נוער שמונה לפי <ref href="/akn/il/act/PrimaryLegislation/1971-07-23/150253">חוק הנוער (שפיטה, ענישה ודרכי טיפול), התשל"א–1971</ref>;</p>
+                  </content>
+                </point>
+                <point eId="point_14ב__point_עובד_סוציאלי_שמונה_לפי_חוק">
+                  <content>
+                    <p>
+                      <def />”עובד סוציאלי שמונה לפי חוק“ – עובד סוציאלי שמונה לפי <ref href="/akn/il/act/PrimaryLegislation/1955-07-06/148049">חוק הסעד (סדרי דין בענייני קטינים, חולי נפש ונעדרים), התשט"ו–1955</ref>, לפי <ref href="/akn/il/act/PrimaryLegislation/1960-07-14/150256">חוק הנוער (טיפול והשגחה), התש"ך–1960</ref>, או לפי <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/חוק_הסעד_טיפול_באנשים_עם_מוגבלות_שכלית_התפתחותית">חוק הסעד (טיפול באנשים עם מוגבלות שכלית–התפתחותית), התשכ"ט–1969</ref>, לפי העניין.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_14ג">
+              <heading>
+                <authorialNote placement="side">
+                  <p xml:space="preserve"> </p>
+                </authorialNote>
+              </heading>
+              <num>14ג.</num>
+              <list>
+                <point eId="point_14ג__point_א">
+                  <num>(א)</num>
+                  <content>
+                    <p>מצא שוטר כי קיים צורך לערוך חיפוש לפי <ref href="#chp_ו">פרק זה</ref> בקטין, או באדם עם מוגבלות שכלית או באדם שקיים חשש לגביו כי הוא אדם עם מוגבלות שכלית (<ref href="#chp_ו">בפרק זה</ref> – אדם עם מוגבלות שכלית), לא יערוך את החיפוש אלא אם כן נוסף על ההסכמה בכתב של הקטין או של האדם עם המוגבלות השכלית, נתן גם האפוטרופוס את הסכמתו בכתב; לא היה לקטין או לאדם עם מוגבלות שכלית אפוטרופוס, רשאי בית המשפט, לבקשת שוטר, למנותלו אפוטרופוס לדין לצורך קבלת הסכמה לפי סעיף זה.</p>
+                  </content>
+                </point>
+                <point eId="point_14ג__point_ב">
+                  <num>(ב)</num>
+                  <content>
+                    <p>על אף הוראות סעיף קטן (א), ניתן לערוך חיפוש לפי הוראות <ref href="#chp_ו">פרק זה</ref> בקטין אף אם אינו מסוגל לתת הסכמה בכתב מחמת גילו, ובאדם עם מוגבלות שכלית אף אם אינו מסוגל לתת הסכמה בכתב או בדרך אחרת, לפי הענין, מחמת מוגבלותו, ובלבד שהחיפוש לא ייערך בניגוד לרצונו; אין בהוראת סעיף קטן זה כדי לגרוע מהוראת סעיף קטן (ג).</p>
+                  </content>
+                </point>
+                <point eId="point_14ג__point_ג">
+                  <num>(ג)</num>
+                  <list>
+                    <intro>
+                      <p>על אף הוראות סעיף קטן (א), לא תידרש הסכמת אפוטרופסו של קטין או של אדם עם מוגבלות שכלית, כאמור באותו סעיף קטן, בהתקיים אחד מאלה:</p>
+                    </intro>
+                    <point eId="point_14ג__point_ג__point_1">
+                      <num>(1)</num>
+                      <list>
+                        <point eId="point_14ג__point_ג__point_1__point_א">
+                          <num>(א)</num>
+                          <list>
+                            <intro>
+                              <p>קטין שטרם מלאו לו 14 שנים ביקש כי לא תידרש הסכמת אפוטרופסו, והתקיים אחד מאלה, לפי הענין:</p>
+                            </intro>
+                            <point eId="point_14ג__point_ג__point_1__point_א__point_1">
+                              <num>(1)</num>
+                              <content>
+                                <p>לגבי חיפוש בקטין שחקירתו היא בסמכות חוקר ילדים – מצא הממונה על החקירה לאחר שהתייעץ בחוקר ילדים, כי אין בדבר כדי לפגוע בטובת הקטין;</p>
+                              </content>
+                            </point>
+                            <point eId="point_14ג__point_ג__point_1__point_א__point_2">
+                              <num>(2)</num>
+                              <content>
+                                <p>לגבי חיפוש שלא כאמור בפסקת משנה (1) – מצא הממונה על החקירה לאחר שהתייעץ עם עובד סוציאלי שמונה לפי חוק, כי אין בדבר כדי לפגוע בטובת הקטין;</p>
+                              </content>
+                            </point>
+                          </list>
+                        </point>
+                        <point eId="point_14ג__point_ג__point_1__point_ב">
+                          <num>(ב)</num>
+                          <content>
+                            <p>קטין שמלאו לו 14 שנים וטרם מלאו לו 18 שנים ביקש זאת;</p>
+                          </content>
+                        </point>
+                      </list>
+                    </point>
+                    <point eId="point_14ג__point_ג__point_2">
+                      <num>(2)</num>
+                      <content>
+                        <p>לדעת הממונה על החקירה לאחר שהתייעץ עם עובד סוציאלי שמונה לפי חוק, נכון לעשות כן על יסוד טעמים של טובת הקטין או של האדם עם המוגבלות השכלית, או טעמים של טובת החקירה שאין בהם פגיעה בטובת הקטין או האדם עם המוגבלות השכלית, מחמת היות החשוד בביצוע העבירה אפוטרופסו, בן משפחתו של אפוטרופסו, או בן משפחתו של הקטין או של האדם עם המוגבלות השכלית;</p>
+                      </content>
+                    </point>
+                    <point eId="point_14ג__point_ג__point_3">
+                      <num>(3)</num>
+                      <list>
+                        <intro>
+                          <p>לדעת הממונה על החקירה, נכון לעשות כן בשל כך שקיים חשש לפגיעה בשלומו הגופני או הנפשי של הקטין או של האדם עם המוגבלות השכלית, כאמור בפסקאות משנה (א) עד (ג):</p>
+                        </intro>
+                        <point eId="point_14ג__point_ג__point_3__point_א">
+                          <num>(א)</num>
+                          <content>
+                            <p>לענין חיפוש באדם עם מוגבלות שכלית, או בקטין שהוא נפגע עבירה המפורטת <ref href="/akn/il/act/PrimaryLegislation/1955-06-16/148415#appendix">בתוספת לחוק הגנת ילדים</ref> – לאחר שהתייעץ עם עובד סוציאלי שמונה לפי חוק וכן לפי הענין גם בתיאום עם חוקר ילדים, הכל לפי הענין;</p>
+                          </content>
+                        </point>
+                        <point eId="point_14ג__point_ג__point_3__point_ב">
+                          <num>(ב)</num>
+                          <content>
+                            <p>לענין חיפוש בקטין שחקירתו היא בסמכות חוקר ילדים – לאחר שהתייעץ בחוקר ילדים;</p>
+                          </content>
+                        </point>
+                        <point eId="point_14ג__point_ג__point_3__point_ג">
+                          <num>(ג)</num>
+                          <content>
+                            <p>לענין חיפוש בקטין שלא כאמור בפסקאות משנה (א) או (ב) – לאחר שהתייעץ בקצין הנוער בתחנה ובהעדרו בקצין הנוער המרחבי או המחוזי;</p>
+                          </content>
+                        </point>
+                      </list>
+                    </point>
+                    <point eId="point_14ג__point_ג__point_4">
+                      <num>(4)</num>
+                      <list>
+                        <point eId="point_14ג__point_ג__point_4__point_א">
+                          <num>(א)</num>
+                          <list>
+                            <intro>
+                              <p>לדעת הממונה על החקירה, דרישה לקבלת הסכמת האפוטרופוס תעכב את חקירת העבירה בשל קושי להשיג את הסכמתו של האפוטרופוס במאמץ סביר, וקיים יסוד סביר להניח שהעיכוב יסכל את חקירת העבירה או יסכל מניעה של פשע, ובלבד שלדעת הממונה על החקירה לאחר שהתייעץ כאמור בפסקאות משנה (1) עד (3), אין בויתור על הסכמת האפוטרופוס, בנסיבות הענין, כדי לפגוע בשלומו הגופני או הנפשי של הקטין או של האדם עם המוגבלות השכלית:</p>
+                            </intro>
+                            <point eId="point_14ג__point_ג__point_4__point_א__point_1">
+                              <num>(1)</num>
+                              <content>
+                                <p>לענין חיפוש באדם עם מוגבלות שכלית, או בקטין שהוא נפגע עבירה המפורטת <ref href="/akn/il/act/PrimaryLegislation/1955-06-16/148415#appendix">בתוספת לחוק הגנת ילדים</ref> – לאחר שהתייעץ עם עובד סוציאלי שמונה לפי חוק וכן לפי הענין גם בתיאום עם חוקר ילדים, הכל לפי הענין;</p>
+                              </content>
+                            </point>
+                            <point eId="point_14ג__point_ג__point_4__point_א__point_2">
+                              <num>(2)</num>
+                              <content>
+                                <p>לענין חיפוש בקטין שחקירתו היא בסמכות חוקר ילדים – לאחר שהתייעץ בחוקר ילדים;</p>
+                              </content>
+                            </point>
+                            <point eId="point_14ג__point_ג__point_4__point_א__point_3">
+                              <num>(3)</num>
+                              <content>
+                                <p>לענין חיפוש בקטין שלא כאמור בפסקאות משנה (1) או (2) – לאחר שהתייעץ בקצין הנוער בתחנה ובהעדרו בקצין הנוער המרחבי או המחוזי;</p>
+                              </content>
+                            </point>
+                          </list>
+                        </point>
+                        <point eId="point_14ג__point_ג__point_4__point_ב">
+                          <num>(ב)</num>
+                          <content>
+                            <p>הודעה על החיפוש לפי פסקה זו תימסר לאפוטרופסו של הקטין או האדם עם המוגבלות השכלית, מוקדם ככל האפשר.</p>
+                          </content>
+                        </point>
+                      </list>
+                    </point>
+                  </list>
+                </point>
+              </list>
+            </point>
+            <point eId="point_14ד">
+              <heading>
+                <authorialNote placement="side">
+                  <p>החלת הוראות פרק ב׳</p>
+                </authorialNote>
+              </heading>
+              <num>14ד.</num>
+              <content>
+                <p>הוראות <ref href="#point_2">סעיפים 2(ד)</ref>, <ref href="#point_3">3(ו)</ref>, <ref href="#point_4">4(ט)</ref>, <ref href="#point_5">5</ref><ref href="#point_10">ו־10</ref>, יחולו, בשינויים המחויבים, על חיפוש לפי <ref href="#chp_ו">פרק זה</ref>.</p>
+              </content>
+            </point>
+          </list>
+        </section>
+      </chapter>
+      <chapter eId="chp_ז">
+        <num>פרק ז׳:</num>
+        <title>
+          <content>
+            <p>הוראות כלליות</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_14ה">
+            <heading>
+              <authorialNote placement="side">
+                <p>ועדה לאישור שיטות ההפקה של נתונים לזיהוי גנטי</p>
+              </authorialNote>
+            </heading>
+            <num>14ה.</num>
+            <list>
+              <point eId="point_14ה__point_א">
+                <num>(א)</num>
+                <list>
+                  <intro>
+                    <p>שר המשפטים והשר לביטחון הפנים ימנו ועדה בת שלושה חברים שתפקידיה הם:</p>
+                  </intro>
+                  <point eId="point_14ה__point_א__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>לאשר את האתרים ב־DNA שמהם ניתן להפיק נתונים לזיהוי גנטי לענין חוק זה או שיטה אחרת להפקת נתונים כאמור;</p>
+                    </content>
+                  </point>
+                  <point eId="point_14ה__point_א__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>לאשר למשטרת ישראל לעשות שימוש במידע שבמאגר לצורך מחקר כאמור <ref href="#point_11טז">בסעיף 11טז(א)(5)</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_14ה__point_א__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>לאשר את הגופים הנוספים שלהם תהא רשאית משטרת ישראל למסור דגימות ביולוגיות כאמור <ref href="#point_14ח">בסעיף 14ח(ב)(2)</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_14ה__point_א__point_4">
+                    <num>(4)</num>
+                    <content>
+                      <p>לייעץ לשר לביטחון הפנים כאמור <ref href="#point_15">בסעיף 15(ב)(4) ו־(5)</ref>.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_14ה__point_ב">
+                <num>(ב)</num>
+                <list>
+                  <intro>
+                    <p>ואלה חברי הוועדה:</p>
+                  </intro>
+                  <point eId="point_14ה__point_ב__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>שופט בית משפט מחוזי או שופט בית משפט מחוזי בדימוס, לפי הצעת שר המשפטים, והוא יהיה היושב ראש;</p>
+                    </content>
+                  </point>
+                  <point eId="point_14ה__point_ב__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>קצין משטרה בכיר מהמחלקה לזיהוי פלילי במשטרת ישראל, לפי הצעת השר לביטחון הפנים;</p>
+                    </content>
+                  </point>
+                  <point eId="point_14ה__point_ב__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>רופא גנטיקאי או גנטיקאי קליני, כמשמעותם <ref href="/akn/il/act/PrimaryLegislation/2000-12-25/169942#point_9">בסעיף 9 לחוק מידע גנטי, התשס"א–2000</ref>, לפי הצעת שר הבריאות.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_14ה__point_ג">
+                <num>(ג)</num>
+                <list>
+                  <intro>
+                    <p>הוועדה המאשרת רשאית לאשר, לענין מסוים, להפיק נתונים לזיהוי גנטי לפי חוק זה, מאתרים נוספים ב־DNA או בשיטה אחרת, על אלה שאושרו לפי הוראות סעיף קטן (א) אם שוכנעה כי קיימים טעמים מיוחדים המצדיקים לעשות כן, ובלבד שמתקיימים, לגבי הדגימה הביולוגית שלגביה מתבקש האישור כאמור, שניים אלה:</p>
+                  </intro>
+                  <point eId="point_14ה__point_ג__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>היא ניטלה מאדם ומזהה אדם אחר, או שניטלה ממקום, מחפץ או מגופה;</p>
+                    </content>
+                  </point>
+                  <point eId="point_14ה__point_ג__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>הנתונים לזיהוי גנטי שהופקו ממנה, או מהאתרים או בשיטה שאושרו לפי הוראת סעיף קטן (א), אין די בהם לצורך זיהויו של האדם.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_14ה__point_ד">
+                <num>(ד)</num>
+                <content>
+                  <p>החלטות הוועדה המאשרת לפי סעיף זה יתקבלו פה אחד.</p>
+                </content>
+              </point>
+              <point eId="point_14ה__point_ה">
+                <num>(ה)</num>
+                <content>
+                  <p>בטרם תיתן הוועדה המאשרת את אישורה לפי הוראות סעיף זה, תשקול, בין השאר, את מידת הפגיעה בפרטיות העלולה להיגרם בשל מתן האישור.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_14ו">
+            <heading>
+              <authorialNote placement="side">
+                <p>הגבלת אופן ההפקה של נתונים לזיהוי גנטי</p>
+              </authorialNote>
+            </heading>
+            <num>14ו.</num>
+            <content>
+              <p>הפקת נתונים לזיהוי גנטי, לענין חוק זה, תיעשה רק בהתאם לאישור הוועדה המאשרת שניתן לפי הוראות <ref href="#point_14ה">סעיף 14ה</ref>.</p>
+            </content>
+          </point>
+          <point eId="point_14ז">
+            <heading>
+              <authorialNote placement="side">
+                <p>שימוש מותר בדגימות ביולוגיות ובנתונים לזיהוי גנטי שאינם כלולים במאגר</p>
+              </authorialNote>
+            </heading>
+            <num>14ז.</num>
+            <list>
+              <point eId="point_14ז__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>משטרת ישראל תעשה שימוש בדגימה ביולוגית הנמצאת בידה, שנמסרה לה לשם הפקת נתונים לזיהוי גנטי או שניטלה לשם כך, שלא לפי הוראות <ref href="#chp_ג_sec_ב">סימן ב׳ לפרק ג׳</ref>, וכן בנתונים לזיהוי גנטי שהופקו מדגימה כאמור ושאינם כלולים במאגר, רק למטרות האמורות <ref href="#point_11טז">בסעיף 11טז(א)</ref>, ובכפוף להוראות חוק זה.</p>
+                </content>
+              </point>
+              <point eId="point_14ז__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>משטרת ישראל לא תמסור נתונים לזיהוי גנטי כאמור בסעיף קטן (א), אלא בהתאם להוראות <ref href="#point_11טז1">סעיפים 11טז1</ref><ref href="#point_11טז2">או 11טז2</ref>.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_14ח">
+            <heading>
+              <authorialNote placement="side">
+                <p>הגבלת מסירה של דגימות ביולוגיות</p>
+              </authorialNote>
+            </heading>
+            <num>14ח.</num>
+            <list>
+              <point eId="point_14ח__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>על אף האמור בכל דין, משטרת ישראל לא תמסור לאחר דגימה ביולוגית הנמצאת בידה, שניטלה או נמסרה לה לשם הפקת נתונים לזיהוי גנטי, וזאת אף אם רשאית היא למסור את הנתונים לזיהוי גנטי לפי הוראות <ref href="#point_11טז1">סעיפים 11טז1</ref>, <ref href="#point_11טז2">11טז2</ref><ref href="#point_14ז">או 14ז</ref>.</p>
+                </content>
+              </point>
+              <point eId="point_14ח__point_ב">
+                <num>(ב)</num>
+                <list>
+                  <point eId="point_14ח__point_ב__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>על אף הוראות סעיף קטן (א) רשאית משטרת ישראל למסור למרכז הלאומי לרפואה משפטית, דגימה ביולוגית כאמור באותו סעיף קטן, לשם הפקת נתונים לזיהוי גנטי מדגימה כאמור, בעבור משטרת ישראל לצורך מילוי תפקידיה על פי חוק זה, ולמטרות האמורות בו בלבד.</p>
+                    </content>
+                  </point>
+                  <point eId="point_14ח__point_ב__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>השר לביטחון הפנים באישור הוועדה המאשרת, רשאי בצו לקבוע גופים נוספים העוסקים בהפקת נתונים לזיהוי גנטי, שלהם תהא רשאית משטרת ישראל למסור דגימות ביולוגיות לפי הוראות פסקה (1).</p>
+                    </content>
+                  </point>
+                  <point eId="point_14ח__point_ב__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>על המרכז הלאומי לרפואה משפטית ועל כל גוף אחר כאמור בפסקה (2) שנמסרו להם דגימות ביולוגיות לפי הוראות סעיף קטן זה, יחולו כל ההגבלות החלות על משטרת ישראל, לפי חוק זה, לענין דגימות כאמור.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+            </list>
+          </point>
+          <point eId="point_14ט">
+            <heading>
+              <authorialNote placement="side">
+                <p>שמירת דינים לענין חומר חקירה וראיות בהליך פלילי</p>
+              </authorialNote>
+            </heading>
+            <num>14ט.</num>
+            <content>
+              <p>אין בהוראות <ref href="#chp_ג">פרקים ג׳</ref><ref href="#chp_ד">ו־ד׳</ref><ref href="#point_14ז">וסעיפים 14ז</ref><ref href="#point_14ח">ו־14ח</ref>, כדי לגרוע מהוראות לפי כל דין לרבות פקודות משטרת ישראל ופקודות הצבא, לענין החזקה, שמירה, העמדה לעיון או כל שימוש אחר, בחומר חקירה כמשמעותו <ref href="/akn/il/act/PrimaryLegislation/1982-03-01/2002215#point_74">בסעיף 74 לחוק סדר הדין הפלילי [נוסח משולב], התשמ"ב–1982</ref>, או בראיות המוגשות, במסגרת ההליך הפלילי, לבית משפט או לבית דין צבאי.</p>
+            </content>
+          </point>
+          <point eId="point_14י">
+            <heading>
+              <authorialNote placement="side">
+                <p>דיווח לכנסת</p>
+              </authorialNote>
+            </heading>
+            <num>14י.</num>
+            <list>
+              <intro>
+                <p>השר לביטחון הפנים ידווח לועדת החוקה חוקה ומשפט של הכנסת אחת בשנה על כל אלה:</p>
+              </intro>
+              <point eId="point_14י__point_1">
+                <num>(1)</num>
+                <list>
+                  <intro>
+                    <p>מספר הנתונים לזיהוי גנטי הכלולים במאגר לפי <ref href="#point_11יג">סעיף 11יג</ref> (בסעיף זה – הנתונים), לפי הסיווגים המפורטים בפסקאות משנה (א) עד (ד):</p>
+                  </intro>
+                  <point eId="point_14י__point_1__point_א">
+                    <num>(א)</num>
+                    <content>
+                      <p>הנתונים שהופקו מאמצעי זיהוי שניטלו מחשודים לפי <ref href="#point_11ב">סעיף 11ב(א)(1)</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_14י__point_1__point_ב">
+                    <num>(ב)</num>
+                    <content>
+                      <p>הנתונים שהופקו מאמצעי זיהוי שניטלו מנאשמים לפי <ref href="#point_11ב">סעיף 11ב(א)(2)</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_14י__point_1__point_ג">
+                    <num>(ג)</num>
+                    <content>
+                      <p>הנתונים שהופקו מאמצעי זיהוי שניטלו ממורשע לפי <ref href="#point_11ב">סעיף 11ב(א)(3) או (4)</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_14י__point_1__point_ד">
+                    <num>(ד)</num>
+                    <content>
+                      <p>הנתונים שהופקו מאמצעי זיהוי או מדגימות ביולוגיות שאינן אמצעי זיהוי שניטלו ממקום, מחפץ או מגופה כאמור <ref href="#point_11יג">בסעיף 11יג(ב)(3)</ref>;</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_14י__point_2">
+                <num>(2)</num>
+                <content>
+                  <p>מספר בקשות מידע ומספר העברות מידע מן המאגר למרכז הלאומי לרפואה משפטית, לצבא הגנה לישראל, ולשירות הביטחון הכללי;</p>
+                </content>
+              </point>
+              <point eId="point_14י__point_3">
+                <num>(3)</num>
+                <content>
+                  <p>מספר הנתונים שנמחקו מן המאגר לפי <ref href="#chp_ד_sec_ד">סימן ד׳ לפרק ד׳</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_14י__point_4">
+                <num>(4)</num>
+                <content>
+                  <p>מספר הבקשות שהוגשו לועדה המאשרת לביצוע מחקר כאמור <ref href="#point_11טז">בסעיף 11טז(א)(5)</ref> ומספר האישורים שניתנו לביצוע המחקר כאמור <ref href="#point_14ה">בסעיף 14ה(א)(2)</ref>.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_15">
+            <heading>
+              <authorialNote placement="side">
+                <p>ביצוע ותקנות</p>
+              </authorialNote>
+            </heading>
+            <num>15.</num>
+            <list>
+              <point eId="point_15__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>שר המשפטים ממונה על ביצוע חוק זה והוא רשאי, בהסכמת השר לבטחון הפנים ובאישור ועדת החוקה, חוק ומשפט של הכנסת, להתקין תקנות לביצועו.</p>
+                </content>
+              </point>
+              <point eId="point_15__point_ב">
+                <num>(ב)</num>
+                <list>
+                  <intro>
+                    <p>על אף האמור בסעיף קטן (א), השר לביטחון הפנים ממונה על ביצוע <ref href="#chp_ג">פרקים ג׳</ref><ref href="#chp_ד">ו־ד׳</ref>, והוא רשאי, בהסכמת שר המשפטים, ובאישור ועדת החוקה חוק ומשפט של הכנסת, להתקין תקנות לביצועם לרבות בעניינים אלה:</p>
+                  </intro>
+                  <point eId="point_15__point_ב__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>דרכי הפנייה בבקשה לעיון חוזר על פי <ref href="#point_11ג">סעיף 11ג</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_15__point_ב__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>פרטי מידע נוספים המתייחסים לנתוני הזיהוי הכלולים במאגר והנדרשים לצורך השימוש בו, שמשטרת ישראל רשאית לכלול במאגר לפי <ref href="#point_11יג">סעיף 11יג</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_15__point_ב__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>ניהול המאגר ודרכי השימוש בו כאמור <ref href="#point_11טו">בסעיף 11טו</ref>, ורשאי הוא לקבוע בתקנות כאמור הוראות בדבר חלוקת המאגר למדורים שונים, לפי סוגים של נתוני זיהוי;</p>
+                    </content>
+                  </point>
+                  <point eId="point_15__point_ב__point_4">
+                    <num>(4)</num>
+                    <content>
+                      <p>נסיבות שבהתקיימן יהיה ניתן לבצע הפקה חוזרת של נתונים לזיהוי גנטי כאמור <ref href="#point_11יט">בסעיף 11יט</ref>; תקנות כאמור ייקבעו בהתייעצות עם הוועדה המאשרת;</p>
+                    </content>
+                  </point>
+                  <point eId="point_15__point_ב__point_5">
+                    <num>(5)</num>
+                    <content>
+                      <p>שמירת אמצעי זיהוי ונתוני זיהוי, ואבטחתם, כאמור <ref href="#point_11כא">בסעיף 11כא</ref>; תקנות כאמור לעניין שמירתם של נתונים לזיהוי גנטי ודגימות ביולוגיות, ייקבעו בהתייעצות עם הוועדה המאשרת;</p>
+                    </content>
+                  </point>
+                  <point eId="point_15__point_ב__point_6">
+                    <num>(6)</num>
+                    <content>
+                      <p>דרכי המחיקה של נתוני זיהוי ודרכי הביעור של אמצעי הזיהוי, כאמור <ref href="#chp_ד_sec_ד">בסימן ד׳ לפרק ד׳</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_15__point_ב__point_7">
+                    <num>(7)</num>
+                    <content>
+                      <p>האגרות שעל מבקש מידע כאמור <ref href="#point_11כד">בסעיף 11כד(א)</ref> לשלם, הקרבה הנדרשת לצורך מתן ייפוי כוח לאדם כאמור <ref href="#point_11כד">בסעיף 11כד(ב)</ref>, ודרכי ההוכחה לפני קצין המשטרה כי נבצר מאדם להתייצב בתחנת המשטרה באופן אישי כאמור באותו סעיף קטן.<br space="preserve"></br><wikicomment font-size="x-small">פורסמו <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/תקנות_סדר_הדין_הפלילי_סמכויות_אכיפה_חיפוש_בגוף_ונטילת_אמצעי_זיהוי_המאגר_ואבטחתו_עיון_בו_מחיקה_ביעור_והפקה_חוזרת">תקנות סדר הדין הפלילי (סמכויות אכיפה – חיפוש בגוף ונטילת אמצעי זיהוי) (המאגר ואבטחתו, עיון בו, מחיקה, ביעור והפקה חוזרת), התשס"ז–2007</ref>.</wikicomment></p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+            </list>
+          </point>
+          <point eId="point_15א">
+            <heading>
+              <authorialNote placement="side">
+                <p>שינוי התוספת הראשונהוהתוספת השנייה</p>
+              </authorialNote>
+            </heading>
+            <num>15א.</num>
+            <content>
+              <p>השר לביטחון הפנים, בהסכמת שר המשפטים ובאישור ועדת החוקה חוק ומשפט של הכנסת, רשאי, בצו, לשנות את <ref href="#appendix_1">התוספת הראשונה</ref> ואת <ref href="#appendix_2">התוספת השנייה</ref>.</p>
+            </content>
+          </point>
+          <point eId="point_15ב">
+            <heading>
+              <authorialNote placement="side">
+                <p>תחולה</p>
+              </authorialNote>
+            </heading>
+            <num>15ב.</num>
+            <list>
+              <point eId="point_15ב__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>הוראות <ref href="#chp_ג_sec_ב">סימן ב׳ לפרק ג׳</ref> יחולו גם לגבי אדם שהיה לחשוד, לנאשם או שהורשע בעבירה, כמשמעותם <ref href="#point_11ב">בסעיף 11ב</ref>, לפני תחילתו של <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/http_fs_knesset_gov_il_16_law_16_lsr_299677_pdf">חוק סדר הדין הפלילי (סמכויות אכיפה – חיפוש בגוף החשוד) (תיקון), התשס"ה–2005</ref>, ובלבד שלא יינטלו מאדם כאמור אמצעי זיהוי, לפי הוראות <ref href="#chp_ג_sec_ב">אותו סימן</ref>, לאחר המועד כאמור <ref href="#point_11ב">בסעיף 11ב(ד)</ref>, לפי הענין, אלא כאמור בסעיף קטן (ב).</p>
+                </content>
+              </point>
+              <point eId="point_15ב__point_ב">
+                <num>(ב)</num>
+                <list>
+                  <intro>
+                    <p>על אף הוראות סעיף קטן (א) ניתן ליטול אמצעי זיהוי לפי הוראות <ref href="#chp_ג_sec_ב">סימן ב׳ לפרק ג׳</ref> מאדם שהורשע לפני תחילתו של <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/http_fs_knesset_gov_il_16_law_16_lsr_299677_pdf">התיקון האמור</ref> בסעיף קטן (א) גם לאחר המועד האמור <ref href="#point_11ב">בסעיף 11ב(ד)(3)</ref>, ויהיו נתונות לשוטר, לשם נטילת אמצעי הזיהוי כאמור, הסמכויות האמורות <ref href="#point_11ו">בסעיף 11ו</ref> ובלבד שהתקיימו באותו אדם שניים אלה:</p>
+                  </intro>
+                  <point eId="point_15ב__point_ב__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>האדם הורשע בעבירה לפי <ref href="#appendix_1_פרט_1">פרט 1(ד) בתוספת הראשונה</ref>, למעט עבירות כאמור <ref href="/akn/il/act/PrimaryLegislation/1977-08-04/2002251#point_348">בסעיף 348(ד) ו־(ה) בחוק העונשין</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_15ב__point_ב__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>לא חלפו יותר מעשר שנים מיום שהורשע בעבירה כאמור בפסקה (1), או מיום שבו שוחרר ממאסר, לפי המאוחר.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_15ב__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>הוראות <ref href="#chp_ג_sec_ב">סימן ב׳ לפרק ג׳</ref> יחולו גם לגבי אדם שהורשע מחוץ לישראל ונושא את עונשו בישראל, כאמור <ref href="#point_11ב">בסעיף 11ב(א)(4)</ref>, לפני תחילתו של <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/http_fs_knesset_gov_il_18_law_18_lsr_301200_pdf">חוק סדר הדין הפלילי (סמכויות אכיפה – חיפוש בגוף ונטילת אמצעי זיהוי) (תיקון מס׳ 3), התשע"א–2011</ref>, ובלבד שלא יינטלו מאדם כאמור אמצעי זיהוי, לפי הוראות <ref href="#chp_ג_sec_ב">אותו סימן</ref>, לאחר המועד כאמור <ref href="#point_11ב">בסעיף 11ב(ד)</ref>, אלא כאמור בסעיף קטן (ד).</p>
+                </content>
+              </point>
+              <point eId="point_15ב__point_ד">
+                <num>(ד)</num>
+                <list>
+                  <intro>
+                    <p>על אף הוראות סעיף קטן (ג), ניתן ליטול אמצעי זיהוי לפי הוראות <ref href="#chp_ג_sec_ב">סימן ב׳ לפרק ג׳</ref> מאדם שהורשע לפני תחילתו של התיקון האמור בסעיף קטן (ג) גם לאחר המועד האמור <ref href="#point_11ב">בסעיף 11ב(ד)(3)</ref>, ויהיו נתונות לשוטר, לשם נטילת אמצעי הזיהוי כאמור, הסמכויות האמורות <ref href="#point_11ו">בסעיף 11ו</ref>, ובלבד שהתקיימו באותו אדם שניים אלה:</p>
+                  </intro>
+                  <point eId="point_15ב__point_ד__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>האדם הורשע בעבירה לפי הדין הזר המקבילה לעבירה לפי <ref href="#appendix_1_פרט_1">פרט 1(ד) בתוספת הראשונה</ref>, למעט עבירות כאמור <ref href="/akn/il/act/PrimaryLegislation/1977-08-04/2002251#point_348">בסעיף 348(ד) ו־(ה) בחוק העונשין</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_15ב__point_ד__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>לא חלפו יותר מעשר שנים מיום שהורשע בעבירה כאמור בפסקה (1), או מיום שבו שוחרר ממאסר, לפי המאוחר.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+            </list>
+          </point>
+          <point eId="point_16">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>16.</num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryLegislation/1969-02-16/2001931">בפקודת סדר הדין הפלילי (מעצר וחיפוש) [נוסח חדש], תשכ"ט–1969</ref>.</wikicomment>
+              </p>
+            </content>
+          </point>
+          <point eId="point_17">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>17.</num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryLegislation/1971-10-20/2002271">בפקודת בתי הסוהר [נוסח חדש], תשל"ב–1971</ref>.</wikicomment>
+              </p>
+            </content>
+          </point>
+          <point eId="point_18">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>18.</num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_המכס">בפקודת המכס [נוסח חדש]</ref>.</wikicomment>
+              </p>
+            </content>
+          </point>
+          <point eId="point_19">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>19.</num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryLegislation/1973-07-10/2002282">בפקודת הסמים המסוכנים [נוסח חדש], תשל"ג–1973</ref>.</wikicomment>
+              </p>
+            </content>
+          </point>
+          <point eId="point_20">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>20.</num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryLegislation/2005-08-08/78361">בחוק סמכויות חיפוש בשעת חירום (הוראת שעה), תשכ"ט–1969</ref>.</wikicomment>
+              </p>
+            </content>
+          </point>
+          <point eId="point_21">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>21.</num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryLegislation/1977-03-21/147434">בחוק הטיס (בטחון בתעופה האזרחית), תשל"ז–1977</ref>.</wikicomment>
+              </p>
+            </content>
+          </point>
+          <point eId="point_22">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>22.</num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryLegislation/1955-07-20/148698">בחוק השיפוט הצבאי, תשט"ו–1955</ref>.</wikicomment>
+              </p>
+            </content>
+          </point>
+          <point eId="point_23">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>23.</num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryLegislation/1986-01-30/2002309">בחוק שירות בטחון [נוסח משולב], תשמ"ו–1986</ref>.</wikicomment>
+              </p>
+            </content>
+          </point>
+        </list>
+      </chapter>
+      <appendix eId="appendix_ראשונה">
+        <num></num>
+        <title>
+          <content>
+            <p>תוספת ראשונה</p>
+          </content>
+        </title>
+        <subtitle eId="eId">
+          <num></num>
+          <content>
+            <p>
+              <wikicomment font-size="x-small">(<ref href="#point_11ב">סעיף 11ב(ב)</ref>)</wikicomment>
+            </p>
+          </content>
+        </subtitle>
+        <list>
+          <point eId="appendix_ראשונה__point_1">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>(1)</num>
+            <list>
+              <intro>
+                <p>עבירות לפי <ref href="/akn/il/act/PrimaryLegislation/1977-08-04/2002251">חוק העונשין</ref>:</p>
+              </intro>
+              <point eId="appendix_ראשונה__point_1__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>
+                    <wikicomment font-size="x-small">(נמחקה).</wikicomment>
+                  </p>
+                </content>
+              </point>
+              <point eId="appendix_ראשונה__point_1__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>עבירות של גרימת מוות לפי <ref href="/akn/il/act/PrimaryLegislation/1977-08-04/2002251#point_300">סעיפים 300 עד 301ג</ref>, <ref href="/akn/il/act/PrimaryLegislation/1977-08-04/2002251#point_305">305</ref>.</p>
+                </content>
+              </point>
+              <point eId="appendix_ראשונה__point_1__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>עבירות של סיכון החיים והבריאות לפי <ref href="/akn/il/act/PrimaryLegislation/1977-08-04/2002251#point_329">סעיפים 329</ref>, <ref href="/akn/il/act/PrimaryLegislation/1977-08-04/2002251#point_330">330</ref>, <ref href="/akn/il/act/PrimaryLegislation/1977-08-04/2002251#point_333">333 עד 336</ref>.</p>
+                </content>
+              </point>
+              <point eId="appendix_ראשונה__point_1__point_ד">
+                <num>(ד)</num>
+                <content>
+                  <p>עבירות מין לפי <ref href="/akn/il/act/PrimaryLegislation/1977-08-04/2002251#chp_י_sec_ה">סימן ה׳ לפרק י׳</ref>, למעט לפי <ref href="/akn/il/act/PrimaryLegislation/1977-08-04/2002251#point_352">סעיף 352</ref> וכן עבירות לפי <ref href="/akn/il/act/PrimaryLegislation/1977-08-04/2002251#point_214">סעיף 214(ב) עד (ב3)</ref>.</p>
+                </content>
+              </point>
+              <point eId="appendix_ראשונה__point_1__point_ה">
+                <num>(ה)</num>
+                <content>
+                  <p>עבירות של פגיעה בקטינים ובחסרי ישע לפי <ref href="/akn/il/act/PrimaryLegislation/1977-08-04/2002251#point_368ב">סעיפים 368ב</ref><ref href="/akn/il/act/PrimaryLegislation/1977-08-04/2002251#point_368ג">ו־368ג</ref>.</p>
+                </content>
+              </point>
+              <point eId="appendix_ראשונה__point_1__point_ו">
+                <num>(ו)</num>
+                <content>
+                  <p>עבירות של פגיעה בחירות לפי <ref href="/akn/il/act/PrimaryLegislation/1977-08-04/2002251#point_369">סעיפים 369 עד 374</ref>, <ref href="/akn/il/act/PrimaryLegislation/1977-08-04/2002251#point_374א">374א</ref>, <ref href="/akn/il/act/PrimaryLegislation/1977-08-04/2002251#point_375א">375א</ref>, <ref href="/akn/il/act/PrimaryLegislation/1977-08-04/2002251#point_376ב">376ב</ref><ref href="/akn/il/act/PrimaryLegislation/1977-08-04/2002251#point_377א">ו־377א</ref>.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="appendix_ראשונה__point_2">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>(2)</num>
+            <content>
+              <p>עבירות לפי <ref href="/akn/il/act/PrimaryLegislation/1973-07-10/2002282">פקודת הסמים המסוכנים</ref>, למעט עבירות הנוגעות לשימוש בסם או להחזקת סם לשימוש עצמי.</p>
+            </content>
+          </point>
+          <point eId="appendix_ראשונה__point_3">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>(3)</num>
+            <content>
+              <p>עבירות לפי <ref href="/akn/il/act/PrimaryLegislation/1955-07-20/148698">חוק השיפוט הצבאי, התשט"ו–1955</ref>:<br space="preserve"></br>הוצאת נשק מרשות הצבא לפי <ref href="/akn/il/act/PrimaryLegislation/1955-07-20/148698#point_78">סעיף 78</ref>.</p>
+            </content>
+          </point>
+          <point eId="appendix_ראשונה__point_4">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>(4)</num>
+            <content>
+              <p>עבירה המנויה בהגדרה ”חשוד בעבירת בטחון“ <ref href="/akn/il/act/PrimaryLegislation/1996-05-12/159712#point_35">שבסעיף 35(ב) בחוק המעצרים</ref>.</p>
+            </content>
+          </point>
+          <point eId="appendix_ראשונה__point_5">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>(5)</num>
+            <content>
+              <p>ניסיון, שידול, נייסון לשידול או סיוע לעבירה מהעבירות המפורטות <ref href="#appendix_1">בתוספת זו</ref>.</p>
+            </content>
+          </point>
+        </list>
+      </appendix>
+      <appendix eId="appendix_שנייה">
+        <num></num>
+        <title>
+          <content>
+            <p>תוספת שנייה</p>
+          </content>
+        </title>
+        <subtitle eId="eId">
+          <num></num>
+          <content>
+            <p>
+              <wikicomment font-size="x-small">(<ref href="#point_11טז2">סעיף 11טז2</ref>)</wikicomment>
+            </p>
+          </content>
+        </subtitle>
+        <part eId="part_א">
+          <num>חלק א׳</num>
+          <title>
+            <content>
+              <p />
+            </content>
+          </title>
+          <list>
+            <point eId="appendix_שנייה__point_1">
+              <heading>
+                <authorialNote placement="side">
+                  <p xml:space="preserve"> </p>
+                </authorialNote>
+              </heading>
+              <num>(1)</num>
+              <content>
+                <p>אינטרפול (Interpol – International Criminal Police Organization) והמשטרות המסונפות אליו;</p>
+              </content>
+            </point>
+            <point eId="appendix_שנייה__point_2">
+              <heading>
+                <authorialNote placement="side">
+                  <p xml:space="preserve"> </p>
+                </authorialNote>
+              </heading>
+              <num>(2)</num>
+              <content>
+                <p>אירופול (Europol – European Criminal Police Organiztion) והמשטרות המסונפות אליו;</p>
+              </content>
+            </point>
+            <point eId="appendix_שנייה__point_3">
+              <heading>
+                <authorialNote placement="side">
+                  <p xml:space="preserve"> </p>
+                </authorialNote>
+              </heading>
+              <num>(3)</num>
+              <content>
+                <p>משטרה פדרלית או מדינתית, וכן משטרה מחוזית או עירונית הפועלת מכוח דין;</p>
+              </content>
+            </point>
+            <point eId="appendix_שנייה__point_4">
+              <heading>
+                <authorialNote placement="side">
+                  <p xml:space="preserve"> </p>
+                </authorialNote>
+              </heading>
+              <num>(4)</num>
+              <content>
+                <p>רשות תביעה של מדינה או של גוף המנוי <ref href="#appendix_2">בתוספת זו</ref>;</p>
+              </content>
+            </point>
+            <point eId="appendix_שנייה__point_5">
+              <heading>
+                <authorialNote placement="side">
+                  <p xml:space="preserve"> </p>
+                </authorialNote>
+              </heading>
+              <num>(5)</num>
+              <content>
+                <p>רשות או סוכנות מדינתית לאכיפת חוק פלילית.</p>
+              </content>
+            </point>
+          </list>
+        </part>
+        <part eId="part_ב">
+          <num>חלק ב׳</num>
+          <title>
+            <content>
+              <p />
+            </content>
+          </title>
+          <list>
+            <point eId="appendix_שנייה__point_1">
+              <heading>
+                <authorialNote placement="side">
+                  <p xml:space="preserve"> </p>
+                </authorialNote>
+              </heading>
+              <num>(1)</num>
+              <content>
+                <p>משטרת גבולות ורשות הגירה;</p>
+              </content>
+            </point>
+            <point eId="appendix_שנייה__point_2">
+              <heading>
+                <authorialNote placement="side">
+                  <p xml:space="preserve"> </p>
+                </authorialNote>
+              </heading>
+              <num>(2)</num>
+              <content>
+                <p>רשות או סוכנות מדינתית לאכיפת חוק שאינה פלילית.</p>
+              </content>
+            </point>
+          </list>
+        </part>
+        <part eId="part_ג">
+          <num>חלק ג׳</num>
+          <title>
+            <content>
+              <p />
+            </content>
+          </title>
+          <list>
+            <point eId="appendix_שנייה__point_1">
+              <heading>
+                <authorialNote placement="side">
+                  <p xml:space="preserve"> </p>
+                </authorialNote>
+              </heading>
+              <num>(1)</num>
+              <content>
+                <p>רשות להגנה על עדים.</p>
+              </content>
+            </point>
+          </list>
+        </part>
+      </appendix>
+    </body>
+    <conclusions eId="eId">
+      <p class="signatures">
+        <signature>
+          <p>
+            <person refersTo="שמעון_פרס">שמעון פרס</person>
+            <role refersTo="ראש_הממשלה">ראש הממשלה</role>
+          </p>
+        </signature>
+        <signature>
+          <p>
+            <person refersTo="דוד_ליבאי">דוד ליבאי</person>
+            <role refersTo="שר_המשפטים">שר המשפטים</role>
+          </p>
+        </signature>
+        <signature>
+          <p>
+            <person refersTo="עזר_ויצמן">עזר ויצמן</person>
+            <role refersTo="נשיא_המדינה">נשיא המדינה</role>
+          </p>
+        </signature>
+        <signature>
+          <p>
+            <person refersTo="שבח_וייס">שבח וייס</person>
+            <role refersTo="יושב_ראש_הכנסת">יושב ראש הכנסת</role>
+          </p>
+        </signature>
+      </p>
+    </conclusions>
+  </act>
+</akomaNtoso>

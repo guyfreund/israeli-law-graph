@@ -1,0 +1,560 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion" name="publicLaw">
+    <meta>
+      <identification source="#kensset">
+        <FRBRWork>
+          <FRBRthis value="/akn/il/act/SecondaryLegislation/2019-11-04/100043074/main" />
+          <FRBRuri value="/akn/il/act/SecondaryLegislation/2019-11-04/100043074" />
+          <FRBRdate date="2019-11-04" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRcountry value="israel" />
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/il/act/SecondaryLegislation/2019-11-04/100043074/he@/main" />
+          <FRBRuri value="/akn/il/act/SecondaryLegislation/2019-11-04/100043074/he@" />
+          <FRBRdate date="2019-11-04" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRlanguage language="hebrew" />
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/il/act/SecondaryLegislation/2019-11-04/100043074/he@/main.xml" />
+          <FRBRuri value="/akn/il/act/SecondaryLegislation/2019-11-04/100043074/he@" />
+          <FRBRdate date="2019-11-04" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRformat value="xml" />
+        </FRBRManifestation>
+      </identification>
+      <classification source="#kensset">
+        <keyword value="{classificationValue}" showAs="{classificationValue}" dictionary="#classification_dictionary" />
+      </classification>
+      <lifecycle source="#kensset">
+        <eventRef eId="eventRef_1" date="2019-11-04" source="#kensset" type="generation" />
+      </lifecycle>
+      <references source="#kensset">
+        <TLCOrganization eId="kensset" href="/ontology/organization/akn/knesset" showAs="Kensset" type="generation" />
+        <TLCRole eId="author" href="/ontology/role/akn/author" showAs="Author of Document" />
+        <TLCProcess eId="inforce" href="/ontology/process/akn/inforce" showAs="In force" />
+        <TLCTerm eId="term_1" href="/ontology/term/דירת_מגורים/100043074" showAs="דירת_מגורים" />
+        <TLCTerm eId="term_2" href="/ontology/term/זמן_הדהוד/100043074" showAs="זמן_הדהוד" />
+        <TLCTerm eId="term_3" href="/ontology/term/חוק_המועצה_להשכלה_גבוהה/100043074" showAs="חוק_המועצה_להשכלה_גבוהה" />
+        <TLCTerm eId="term_4" href="/ontology/term/מבנה_חינוך/100043074" showAs="מבנה_חינוך" />
+        <TLCTerm eId="term_5" href="/ontology/term/מוסד_על־תיכוני/100043074" showAs="מוסד_על־תיכוני" />
+        <TLCTerm eId="term_6" href="/ontology/term/מפלס_לחץ_הקול/100043074" showAs="מפלס_לחץ_הקול" />
+        <TLCTerm eId="term_7" href="/ontology/term/מיתקן_תברואה/100043074" showAs="מיתקן_תברואה" />
+        <TLCTerm eId="term_8" href="/ontology/term/מערכות_הבניין/100043074" showAs="מערכות_הבניין" />
+        <TLCTerm eId="term_9" href="/ontology/term/מצנחת_פסולת/100043074" showAs="מצנחת_פסולת" />
+        <TLCTerm eId="term_10" href="/ontology/term/מרחב_לימוד/100043074" showAs="מרחב_לימוד" />
+        <TLCTerm eId="term_11" href="/ontology/term/עקום_תיקון_A/100043074" showAs="עקום_תיקון_A" />
+        <TLCTerm eId="term_12" href="/ontology/term/קול_הולם/100043074" showAs="קול_הולם" />
+        <TLCTerm eId="term_13" href="/ontology/term/ת''י/100043074" showAs="ת''י" />
+        <TLCTerm eId="term_14" href="/ontology/term/ת''י_985_חלק_1/100043074" showAs="ת''י_985_חלק_1" />
+        <TLCTerm eId="term_15" href="/ontology/term/ת''י_1004_חלק_1/100043074" showAs="ת''י_1004_חלק_1" />
+        <TLCTerm eId="term_16" href="/ontology/term/ת''י_1004_חלק_2/100043074" showAs="ת''י_1004_חלק_2" />
+        <TLCTerm eId="term_17" href="/ontology/term/ת''י_1004_חלק_3/100043074" showAs="ת''י_1004_חלק_3" />
+        <TLCTerm eId="term_18" href="/ontology/term/ת''י_1004_חלק_4/100043074" showAs="ת''י_1004_חלק_4" />
+        <TLCTerm eId="term_19" href="/ontology/term/ת''י_1099/100043074" showAs="ת''י_1099" />
+        <TLCTerm eId="term_20" href="/ontology/term/ת''י_2004_חלק_1/100043074" showAs="ת''י_2004_חלק_1" />
+        <TLCTerm eId="term_21" href="/ontology/term/ת''י_4068/100043074" showAs="ת''י_4068" />
+        <TLCTerm eId="term_22" href="/ontology/term/ת''י_6245/100043074" showAs="ת''י_6245" />
+        <TLCTerm eId="term_23" href="/ontology/term/תקנות_למניעת_מפגעים_(רעש_בלתי_סביר)/100043074" showAs="תקנות_למניעת_מפגעים_(רעש_בלתי_סביר)" />
+        <TLCTerm eId="term_24" href="/ontology/term/C/100043074" showAs="C" />
+        <TLCTerm eId="term_25" href="/ontology/term/LAeq/100043074" showAs="LAeq" />
+        <TLCTerm eId="term_26" href="/ontology/term/Rw/100043074" showAs="Rw" />
+        <TLCPerson eId="משה_כחלון" href="/ontology/person/משה_כחלון" showAs="משה כחלון" />
+        <TLCRole eId="שר_האוצר" href="ontology/role/akn/שר_האוצר" showAs="שר האוצר" />
+      </references>
+      <temporalData source="#kensset">
+        <temporalGroup eId="tmpg_1" />
+      </temporalData>
+      <Publication></Publication>
+      <proprietary wikiversion="11/25/2019 2:00:17 PM" />
+    </meta>
+    <body period="#tmpg_1">
+      <title eId="title">
+        <content>
+          <p>תקנות התכנון והבנייה (תכן הבנייה) (אקוסטיקה), התש"ף–2019</p>
+        </content>
+      </title>
+      <preamble eId="eId">
+        <p>בתוקף סמכותי לפי <ref href="/akn/il/act/PrimaryLegislation/1965-08-12/148917#point_265">סעיף 265</ref><ref href="/akn/il/act/PrimaryLegislation/1965-08-12/148917">לחוק התכנון והבנייה, התשכ"ה–1965</ref> (להלן – החוק), ולאחר התייעצות עם המועצה הארצית לתכנון ולבנייה, אני מתקין תקנות אלה:</p>
+      </preamble>
+      <chapter eId="chp_none">
+        <num></num>
+        <title>
+          <content>
+            <p>חלק א׳: כללי ופרשנות</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_1" class="definitions">
+            <heading>
+              <authorialNote placement="side">
+                <p>הגדרות</p>
+              </authorialNote>
+            </heading>
+            <num>1.</num>
+            <list>
+              <intro>
+                <p>בתקנות אלה –</p>
+              </intro>
+              <point eId="point_1__point_דירת_מגורים">
+                <content>
+                  <p>
+                    <def />”דירת מגורים“ – מערכת חדרים או תאים שנועדה לשמש יחידה שלמה ונפרדת למגורים בלבד;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_זמן_הדהוד">
+                <content>
+                  <p>
+                    <def />”זמן הדהוד“ – משך הזמן החולף מרגע קטיעת מקור הרעש עד לדעיכתו בשיעור של 60 דציבל;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_חוק_המועצה_להשכלה_גבוהה">
+                <content>
+                  <p>
+                    <def />”חוק המועצה להשכלה גבוהה“ – <ref href="/akn/il/act/PrimaryLegislation/1958-08-14/147288">חוק המועצה להשכלה גבוהה, התשי"ח–1958</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_מבנה_חינוך">
+                <content>
+                  <p>
+                    <def />”מבנה חינוך“ – לרבות מוסד על־תיכוני;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_מוסד_על־תיכוני">
+                <list>
+                  <intro>
+                    <p>
+                      <def />”מוסד על־תיכוני“ – כל אחד מאלה:</p>
+                  </intro>
+                  <point eId="point_1__point_מוסד_על־תיכוני__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>מוסד שהמועצה להשכלה גבוהה הכירה בו כמוסד להשכלה גבוהה, לפי <ref href="/akn/il/act/PrimaryLegislation/1958-08-14/147288#point_9">סעיף 9 לחוק המועצה להשכלה גבוהה</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_1__point_מוסד_על־תיכוני__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>מוסד שהמועצה להשכלה גבוהה נתנה לו היתר לפי <ref href="/akn/il/act/PrimaryLegislation/1958-08-14/147288#point_21א">סעיף 21א לחוק המועצה להשכלה גבוהה</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_1__point_מוסד_על־תיכוני__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>שלוחה או סניף של מוסד להשכלה גבוהה הפועל בארץ אחרת, שהמועצה להשכלה גבוהה נתנה לו רישיון לפי <ref href="/akn/il/act/PrimaryLegislation/1958-08-14/147288#point_25ג">סעיפים 25ג</ref><ref href="/akn/il/act/PrimaryLegislation/1958-08-14/147288#point_25ד">ו־25ד לחוק המועצה להשכלה גבוהה</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_1__point_מוסד_על־תיכוני__point_4">
+                    <num>(4)</num>
+                    <content>
+                      <p>מוסד שהמועצה להשכלה גבוהה מכירה בתואר שהוא מעניק לפי <ref href="/akn/il/act/PrimaryLegislation/1958-08-14/147288#point_28א">סעיף 28א לחוק המועצה להשכלה גבוהה</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_1__point_מוסד_על־תיכוני__point_5">
+                    <num>(5)</num>
+                    <content>
+                      <p>מוסד על־תיכוני להשכלה מקצועית, טכנית, תורנית או דתית;</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_1__point_מפלס_לחץ_הקול">
+                <content>
+                  <p>
+                    <def />”מפלס לחץ הקול“ – ערך חד־מספרי, שמציין את מפלס הקול המסונן והמשוקלל של מפלסי הרעש שנמדדו בתדרים השונים, לפי עקום תיקון A;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_מיתקן_תברואה">
+                <content>
+                  <p>
+                    <def />”מיתקן תברואה“ – מערכת לאספקת מים קרים וחמים, לרבות צינורות לאספקת מים ולחלוקתם, קבועות שרברבות ומחסומים, מערכת נקזים לצואים, לדלוחים ולאיוור, ביב, תא בקרה, מערכת ניקוז מי גשם, ציוד לטיפול במים ולאגירת מים, ציוד צורך מים לרבות בריכת שחייה, מערכת חימום במים, מערכת מים לכיבוי אש, כולל חיבוריהם ומכשיריהם, הכול בתוך גבולות הנכס;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_מערכות_הבניין">
+                <content>
+                  <p>
+                    <def />”מערכות הבניין“ – ובכלל זה מערכות מיזוג, חימום, מים ותברואה, חשמל ומעליות;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_מצנחת_פסולת">
+                <content>
+                  <p>
+                    <def />”מצנחת פסולת“ – צינור אנכי המותקן בתוך בניין והמשמש להעברת פסולת באמצעות כוח הכובד להתקן המחובר לכלי אצירה של פסולת או ישירות לכלי האצירה;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_מרחב_לימוד">
+                <content>
+                  <p>
+                    <def />”מרחב לימוד“ – מרחב הממוקם בתוך מבנה חינוך, שבו מתאספים תלמידים למטרות חינוך או למטרות למידה;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_עקום_תיקון_A">
+                <content>
+                  <p>
+                    <def />”עקום תיקון A“ – סינון ושקלול התדרים השונים לפי רגישות האוזן האנושית;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_קול_הולם">
+                <content>
+                  <p>
+                    <def />”קול הולם“ – גל קול הנובע ממגע ישיר של מקור קול עם מסת המבנה;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_תי">
+                <content>
+                  <p>
+                    <def />”ת"י“ – תקן ישראלי, כמשמעו <ref href="/akn/il/act/PrimaryLegislation/1953-01-29/148964">בחוק התקנים, התשי"ג–1953</ref>, כפי נוסחו מזמן לזמן, העומד לעיון הציבור בנוסחו המעודכן באתר האינטרנט של מכון התקנים הישראלי;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_תי_985_חלק_1">
+                <content>
+                  <p>
+                    <def />”ת"י 985 חלק 1“ – ת"י 985 חלק 1: אקוסטיקה: דירוג של בידוד קול בבניינים ושל אלמנטי בניין – בידוד מפני קול נישא באוויר;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_תי_1004_חלק_1">
+                <content>
+                  <p>
+                    <def />”ת"י 1004 חלק 1“ – ת"י 1004 חלק 1: אקוסטיקה בבנייני מגורים: בידוד אקוסטי של קירות ותקרות (רצפות) שבין חללי דירה לשאר חללי הבניין דרישות ושיטות חישוב;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_תי_1004_חלק_2">
+                <content>
+                  <p>
+                    <def />”ת"י 1004 חלק 2“ – ת"י 1004 חלק 2: אקוסטיקה בבנייני מגורים: בידוד אקוסטי של מכללי דלתות כניסה – דרישות ושיטות בדיקה;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_תי_1004_חלק_3">
+                <content>
+                  <p>
+                    <def />”ת"י 1004 חלק 3“ – ת"י 1004 חלק 3: אקוסטיקה בבנייני מגורים: מפלס לחץ הקול הנגרם ממעליות – דרישות ושיטות בדיקה;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_תי_1004_חלק_4">
+                <content>
+                  <p>
+                    <def />”ת"י 1004 חלק 4“ – ת"י 1004 חלק 4: אקוסטיקה בבנייני מגורים: מפלס לחץ הקול הנגרם ממיתקני תברואה – דרישות שיטות בדיקה;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_תי_1099">
+                <list>
+                  <intro>
+                    <p>
+                      <def />”ת"י 1099“ – אחד מאלה, לפי העניין:</p>
+                  </intro>
+                  <point eId="point_1__point_תי_1099__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>ת"י 1099 חלק 1.1: זיגוג בבניינים: תכן השמשה – קביעת מין הזכוכית ועובי השמשה;</p>
+                    </content>
+                  </point>
+                  <point eId="point_1__point_תי_1099__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>ת"י 1099 חלק 2.1 – זיגוג בבניינים: תכן השמשה – קביעת עמידות השמשה בעומס;</p>
+                    </content>
+                  </point>
+                  <point eId="point_1__point_תי_1099__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>ת"י 1099 חלק 2 – זיגוג בבניינים: תכן הזיגוג – שמשות ממוסגרות בכל היקפן;</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_1__point_תי_2004_חלק_1">
+                <content>
+                  <p>
+                    <def />”ת"י 2004 חלק 1“ – ת"י 2004: אקוסטיקה במבנים שאינם למגורים: מרחבי למידה במבני קבע – קריטריונים, דרישות תכן וקווים מנחים 4;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_תי_4068">
+                <list>
+                  <intro>
+                    <p>
+                      <def />”ת"י 4068“ – אחד מאלה, לפי העניין:</p>
+                  </intro>
+                  <point eId="point_1__point_תי_4068__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>ת"י 4068 חלק 1: חלונות ותריסים המותקנים באתר: חלונות ותריסים מאלומיניום;</p>
+                    </content>
+                  </point>
+                  <point eId="point_1__point_תי_4068__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>ת"י 4068 חלק 2: חלונות ותריסים המותקנים באתר: חלונות ביטחון פנימיים במבנים מוגנים;</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_1__point_תי_6245">
+                <content>
+                  <p>
+                    <def />”ת"י 6245“ – ת"י 6245: מצנחות פסולת בבנייני מגורים;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_תקנות_למניעת_מפגעים_רעש_בלתי_סביר">
+                <content>
+                  <p>
+                    <def />”תקנות למניעת מפגעים (רעש בלתי סביר)“ – <ref href="/akn/il/act/SecondaryLegislation/1990-08-23/100022131">תקנות למניעת מפגעים (רעש בלתי סביר), התש"ן–1990</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_C">
+                <content>
+                  <p>
+                    <def />”C“ – ערך ההתאמה לספקטרום הרעש הסביבתי, לפי תקן ת"י 985 חלק 1;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_LAeq">
+                <content>
+                  <p>
+                    <def />”LAeq“ – מפלס רעש שווה ערך, כהגדרתו <ref href="/akn/il/act/SecondaryLegislation/1990-08-23/100022131">בתקנות למניעת מפגעים (רעש בלתי סביר)</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_Rw">
+                <content>
+                  <p>
+                    <def />”Rw“ – מדד משוקלל להפחתת קול הנישא באוויר, הנמדד בתנאי מעבדה, לפי ת"י 985 חלק 1.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_2">
+            <heading>
+              <authorialNote placement="side">
+                <p>מטרות</p>
+              </authorialNote>
+            </heading>
+            <num>2.</num>
+            <list>
+              <intro>
+                <p>מטרות תקנות אלה –</p>
+              </intro>
+              <point eId="point_2__point_1">
+                <num>(1)</num>
+                <content>
+                  <p>למזער מקורות רעש בדירת מגורים ובמבנה חינוך, הנובעים ממערכות הבניין;</p>
+                </content>
+              </point>
+              <point eId="point_2__point_2">
+                <num>(2)</num>
+                <content>
+                  <p>למזער מקורות רעש בדירת מגורים ובמבנה חינוך, הנובעים ממקורות חיצוניים לבניין.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_3">
+            <heading>
+              <authorialNote placement="side">
+                <p>תחולה</p>
+              </authorialNote>
+            </heading>
+            <num>3.</num>
+            <content>
+              <p>תקנות אלה יחולו על בניין המיועד, כולו או חלקו, לדירת מגורים או למבנה חינוך.</p>
+            </content>
+          </point>
+        </list>
+      </chapter>
+      <chapter eId="chp_none">
+        <num></num>
+        <title>
+          <content>
+            <p>חלק ב׳: אקוסטיקה בבניין מגורים</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_4">
+            <heading>
+              <authorialNote placement="side">
+                <p>בידוד בין דירות בבניין מגורים</p>
+              </authorialNote>
+            </heading>
+            <num>4.</num>
+            <content>
+              <p>בקיר הפרדה בין דירות מגורים צמודות, בתווך החוצץ בין הקומות (מערכת תקרה–רצפה) בין דירות מגורים, וכן בין דירת מגורים לבין חלקי מבנה שאינם דירה, יתקיימו ערכי הבידוד האקוסטי מפני קול נישא באוויר ומפני קול הולם, הנדרשים לפי ת"י 1004 חלק 1.</p>
+            </content>
+          </point>
+          <point eId="point_5">
+            <heading>
+              <authorialNote placement="side">
+                <p>דלת כניסה לדירת מגורים</p>
+              </authorialNote>
+            </heading>
+            <num>5.</num>
+            <content>
+              <p>בדלת כניסה לדירת מגורים יהיה בידוד אקוסטי מפני קול נישא באוויר, לפי מיקומה בבניין, לפי ת"י 1004 חלק 2.</p>
+            </content>
+          </point>
+          <point eId="point_6">
+            <heading>
+              <authorialNote placement="side">
+                <p>בידוד חזית</p>
+              </authorialNote>
+            </heading>
+            <num>6.</num>
+            <list>
+              <point eId="point_6__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>ערך הבידוד האקוסטי של חלון בבניין מגורים לא יפחת מ-<br space="preserve"></br><span style="text-align: center">1=Rw + C &amp;gt;= 28 dB</span></p>
+                </content>
+              </point>
+              <point eId="point_6__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>חלון בבניין מגורים העומד בת"י 1099 ובת"י 4068 ייחשב כעומד בתקנת משנה (א).</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_7">
+            <heading>
+              <authorialNote placement="side">
+                <p>מעלית</p>
+              </authorialNote>
+            </heading>
+            <num>7.</num>
+            <content>
+              <p>מעלית בבניין מגורים, לרבות פיר המעלית, תעמוד במפלס לחץ הקול המרבי המותר לפי ת"י 1004 חלק 3.</p>
+            </content>
+          </point>
+          <point eId="point_8">
+            <heading>
+              <authorialNote placement="side">
+                <p>מיתקן תברוא מחוץ לדירת מגורים</p>
+              </authorialNote>
+            </heading>
+            <num>8.</num>
+            <content>
+              <p>מפלס לחץ הקול המרבי בחדר מגורים, הנובע מפעולת מיתקן תברואה מחוץ לדירת המגורים, לא יעלה על מפלס לחץ הקול המרבי המותר לפי ת"י 1004 חלק 4.</p>
+            </content>
+          </point>
+          <point eId="point_9">
+            <heading>
+              <authorialNote placement="side">
+                <p>מצנחת פסולת</p>
+              </authorialNote>
+            </heading>
+            <num>9.</num>
+            <content>
+              <p>מפלס לחץ הקול המרבי בחדר שנועד למגורים, הנובע מהשלכת פסולת במצנחת פסולת, לא יעלה על מפלס לחץ הקול המרבי המותר לפי ת"י 6245.</p>
+            </content>
+          </point>
+          <point eId="point_10">
+            <heading>
+              <authorialNote placement="side">
+                <p>מפוח אוויר</p>
+              </authorialNote>
+            </heading>
+            <num>10.</num>
+            <list>
+              <point eId="point_10__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>מפלס לחץ הקול בתוך חניון, הנובע מפעולת מפוחי האוויר והנמדד במרחק 3 מטרים מהמפוח, לא יעלה על LAeq = 70 dB.</p>
+                </content>
+              </point>
+              <point eId="point_10__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>מפלס לחץ הקול מחוץ לחניון, הנובע מפעולת מפוחי האוויר והנמדד במרחק 1 מטר מתריסי האוורור של החניון, לא יעלה על LAeq = 65 dB.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+        </list>
+      </chapter>
+      <chapter eId="chp_none">
+        <num></num>
+        <title>
+          <content>
+            <p>חלק ג׳: אקוסטיקה במבנה חינוך</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_11">
+            <heading>
+              <authorialNote placement="side">
+                <p>הפרדה אקוסטית במבנה חינוך</p>
+              </authorialNote>
+            </heading>
+            <num>11.</num>
+            <list>
+              <point eId="point_11__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>בקיר הפרדה בין מרחב לימוד לבין החלל הגובל בו, וכן בין מרחב לימוד לבין הסביבה החיצונית, יתקיימו ערכי הבידוד מפני קול נישא באוויר, לפי ייעודו של מרחב הלימוד, לפי ת"י 2004 חלק 1.</p>
+                </content>
+              </point>
+              <point eId="point_11__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>במערכת תקרה – רצפה בין מרחבי לימוד, וכן בין מרחב לימוד לבין חלק מבנה שאינו מרחב לימוד, יתקיימו ערכי הבידוד מפני קול הולם, לפי ת"י 2004 חלק 1.</p>
+                </content>
+              </point>
+              <point eId="point_11__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>רמת הרעש המופקת ממערכת מיזוג האוויר בתוך מבנה, תהיה לפי ת"י 2004 חלק 1, לפי מטרת השימוש בחלל המבנה הנמדד.</p>
+                </content>
+              </point>
+              <point eId="point_11__point_ד">
+                <num>(ד)</num>
+                <content>
+                  <p>על זמן ההדהוד בחלל במבנה חינוך יחולו ת"י 2004 חלק 1, לפי נפחו ומטרת השימוש בו.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+        </list>
+      </chapter>
+      <chapter eId="chp_none">
+        <num></num>
+        <title>
+          <content>
+            <p>חלק ד׳: הוראות שונות</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_12">
+            <heading>
+              <authorialNote placement="side">
+                <p>תחילה והוראות מעבר</p>
+              </authorialNote>
+            </heading>
+            <num>12.</num>
+            <list>
+              <point eId="point_12__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>תחילתן של תקנות אלה 90 ימים מיום פרסומן (להלן – יום התחילה), והן יחולו על בקשה להיתר שהוגשה ביום התחילה או לאחריו.</p>
+                </content>
+              </point>
+              <point eId="point_12__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>על אף האמור בתקנת משנה (א), לבקשת מבקש ההיתר, מותר לפעול לפי תקנות אלה מיום פרסומן.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+        </list>
+      </chapter>
+    </body>
+    <conclusions eId="eId">
+      <p class="signatures">
+        <signature>
+          <p>
+            <person refersTo="משה_כחלון">משה כחלון</person>
+            <role refersTo="שר_האוצר">שר האוצר</role>
+          </p>
+        </signature>
+      </p>
+    </conclusions>
+  </act>
+</akomaNtoso>

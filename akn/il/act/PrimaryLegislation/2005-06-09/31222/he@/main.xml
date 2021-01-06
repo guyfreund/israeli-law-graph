@@ -1,0 +1,822 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion" name="publicLaw">
+    <meta>
+      <identification source="#kensset">
+        <FRBRWork>
+          <FRBRthis value="/akn/il/act/PrimaryLegislation/2005-06-09/31222/main" />
+          <FRBRuri value="/akn/il/act/PrimaryLegislation/2005-06-09/31222" />
+          <FRBRdate date="2005-06-09" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRcountry value="israel" />
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/il/act/PrimaryLegislation/2005-06-09/31222/he@/main" />
+          <FRBRuri value="/akn/il/act/PrimaryLegislation/2005-06-09/31222/he@" />
+          <FRBRdate date="2005-06-09" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRlanguage language="hebrew" />
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/il/act/PrimaryLegislation/2005-06-09/31222/he@/main.xml" />
+          <FRBRuri value="/akn/il/act/PrimaryLegislation/2005-06-09/31222/he@" />
+          <FRBRdate date="2005-06-09" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRformat value="xml" />
+        </FRBRManifestation>
+      </identification>
+      <classification source="#kensset">
+        <keyword value="{classificationValue}" showAs="{classificationValue}" dictionary="#classification_dictionary" />
+      </classification>
+      <lifecycle source="#kensset">
+        <eventRef eId="eventRef_1" date="2005-06-09" source="#kensset" type="generation" />
+      </lifecycle>
+      <references source="#kensset">
+        <TLCOrganization eId="kensset" href="/ontology/organization/akn/knesset" showAs="Kensset" type="generation" />
+        <TLCRole eId="author" href="/ontology/role/akn/author" showAs="Author of Document" />
+        <TLCProcess eId="inforce" href="/ontology/process/akn/inforce" showAs="In force" />
+        <TLCTerm eId="term_1" href="/ontology/term/ארגון_יציג/31222" showAs="ארגון_יציג" />
+        <TLCTerm eId="term_2" href="/ontology/term/גוף_אישור_ובקרה/31222" showAs="גוף_אישור_ובקרה" />
+        <TLCTerm eId="term_3" href="/ontology/term/המנהל/31222" showAs="המנהל" />
+        <TLCTerm eId="term_4" href="/ontology/term/היתר/31222" showAs="היתר" />
+        <TLCTerm eId="term_5" href="/ontology/term/יצרן/31222" showAs="יצרן" />
+        <TLCTerm eId="term_6" href="/ontology/term/מכירה/31222" showAs="מכירה" />
+        <TLCTerm eId="term_7" href="/ontology/term/מפקח/31222" showAs="מפקח" />
+        <TLCTerm eId="term_8" href="/ontology/term/נוהל_אורגני/31222" showAs="נוהל_אורגני" />
+        <TLCTerm eId="term_9" href="/ontology/term/סמל_אורגני_אחיד/31222" showAs="סמל_אורגני_אחיד" />
+        <TLCTerm eId="term_10" href="/ontology/term/סמל_בקרה/31222" showAs="סמל_בקרה" />
+        <TLCTerm eId="term_11" href="/ontology/term/סמלים/31222" showAs="סמלים" />
+        <TLCTerm eId="term_12" href="/ontology/term/צמח/31222" showAs="צמח" />
+        <TLCTerm eId="term_13" href="/ontology/term/תוצרת_אורגנית/31222" showAs="תוצרת_אורגנית" />
+        <TLCTerm eId="term_14" href="/ontology/term/תוצרת_מן_החי/31222" showAs="תוצרת_מן_החי" />
+        <TLCTerm eId="term_15" href="/ontology/term/תוצרת_מן_הצומח/31222" showAs="תוצרת_מן_הצומח" />
+        <TLCTerm eId="term_16" href="/ontology/term/תוצרת_חקלאית/31222" showAs="תוצרת_חקלאית" />
+        <TLCTerm eId="term_17" href="/ontology/term/תכשיר/31222" showAs="תכשיר" />
+        <TLCTerm eId="term_18" href="/ontology/term/תכנית_אורגנית_מאושרת/31222" showAs="תכנית_אורגנית_מאושרת" />
+        <TLCTerm eId="term_19" href="/ontology/term/השר/31222" showAs="השר" />
+        <TLCPerson eId="אריאל_שרון" href="/ontology/person/אריאל_שרון" showAs="אריאל שרון" />
+        <TLCPerson eId="ישראל_כ''ץ" href="/ontology/person/ישראל_כ''ץ" showAs="ישראל כ''ץ" />
+        <TLCPerson eId="משה_קצב" href="/ontology/person/משה_קצב" showAs="משה קצב" />
+        <TLCPerson eId="ראובן_ריבלין" href="/ontology/person/ראובן_ריבלין" showAs="ראובן ריבלין" />
+        <TLCRole eId="ראש_הממשלה" href="ontology/role/akn/ראש_הממשלה" showAs="ראש הממשלה" />
+        <TLCRole eId="שר_החקלאות_ופיתוח_הכפר" href="ontology/role/akn/שר_החקלאות_ופיתוח_הכפר" showAs="שר החקלאות ופיתוח הכפר" />
+        <TLCRole eId="נשיא_המדינה" href="ontology/role/akn/נשיא_המדינה" showAs="נשיא המדינה" />
+        <TLCRole eId="יושב_ראש_הכנסת" href="ontology/role/akn/יושב_ראש_הכנסת" showAs="יושב ראש הכנסת" />
+      </references>
+      <temporalData source="#kensset">
+        <temporalGroup eId="tmpg_1" />
+      </temporalData>
+      <Publication></Publication>
+      <proprietary wikiversion="7/22/2020 10:52:46 PM" />
+    </meta>
+    <body period="#tmpg_1">
+      <title eId="title">
+        <content>
+          <p>חוק להסדרת תוצרת אורגנית, התשס"ה–2005</p>
+        </content>
+      </title>
+      <list>
+        <point eId="point_1" class="definitions">
+          <heading>
+            <authorialNote placement="side">
+              <p>הגדרות</p>
+            </authorialNote>
+          </heading>
+          <num>1.</num>
+          <list>
+            <intro>
+              <p>בחוק זה –</p>
+            </intro>
+            <point eId="point_1__point_ארגון_יציג">
+              <content>
+                <p>
+                  <def />”ארגון יציג“ – הארגון שעמו נמנה המספר הגדול ביותר של יצרני תוצרת אורגנית, אשר התאגד לצורך קידום ענף החקלאות האורגנית;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_גוף_אישור_ובקרה">
+              <list>
+                <intro>
+                  <p>
+                    <def />”גוף אישור ובקרה“ – גוף שאישר המנהל לפי חוק זה אשר תפקידיו –</p>
+                </intro>
+                <point eId="point_1__point_גוף_אישור_ובקרה__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>לבדוק אם מתקיים נוהל אורגני בתוצרת חקלאית של יצרן;</p>
+                  </content>
+                </point>
+                <point eId="point_1__point_גוף_אישור_ובקרה__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>לתת היתר ליצרן הפועל בהתאם לנוהל אורגני;</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_1__point_המנהל">
+              <content>
+                <p>
+                  <def />”המנהל“ – עובד משרד החקלאות ופיתוח הכפר שהשר מינה כמנהל לענין חוק זה;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_היתר">
+              <content>
+                <p>
+                  <def />”היתר“ – היתר שנתן גוף אישור ובקרה לסמן תוצרת חקלאית כתוצרת אורגנית בהתאם להוראות חוק זה;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_יצרן">
+              <content>
+                <p>
+                  <def />”יצרן“ – לרבות יבואן ומשווק;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_מכירה">
+              <content>
+                <p>
+                  <def />”מכירה“ – לרבות שיווק, ייבוא, ייצוא, משלוח, הובלה, אריזה, פרסום או סימון המכוונים למכירה;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_מפקח">
+              <content>
+                <p>
+                  <def />”מפקח“ – עובד משרד החקלאות ופיתוח הכפר שהשר מינה כמפקח לפי <ref href="#point_11">סעיף 11</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_נוהל_אורגני">
+              <content>
+                <p>
+                  <def />”נוהל אורגני“ – התנאים להבטחת ייצור תוצרת אורגנית והטיפול בה, לרבות מכירתה, שנקבעו לפי <ref href="#point_15">סעיף 15</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_סמל_אורגני_אחיד">
+              <content>
+                <p>
+                  <def />”סמל אורגני אחיד“ – הסמל הישראלי הקבוע <ref href="#appendix">בתוספת</ref>, המסמל כי התוצרת המסומנת בו היא תוצרת אורגנית;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_סמל_בקרה">
+              <content>
+                <p>
+                  <def />”סמל בקרה“ – סמל של גוף אישור ובקרה, המאשר כי בתוצרת האורגנית המסומנת בו מתקיימות הוראות <ref href="#point_6">סעיף 6</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_סמלים">
+              <content>
+                <p>
+                  <def />”סמלים“ – סמל אורגני אחיד וסמל בקרה;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_צמח">
+              <content>
+                <p>
+                  <def />”צמח“ – <wikicomment font-size="x-small">(נמחקה);</wikicomment></p>
+              </content>
+            </point>
+            <point eId="point_1__point_תוצרת_אורגנית">
+              <content>
+                <p>
+                  <def />”תוצרת אורגנית“ – תוצרת חקלאית שיוצרה וטופלה לפי הוראות חוק זה;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_תוצרת_מן_החי">
+              <content>
+                <p>
+                  <def />”תוצרת מן החי“ – בעלי חיים ומוצרים המופקים מהם;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_תוצרת_מן_הצומח">
+              <content>
+                <p>
+                  <def />”תוצרת מן הצומח“ – צמח, לרבות פריו וכל חלק של הצמח המשמש לריבוי וכן מוצרים המופקים מהם;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_תוצרת_חקלאית">
+              <content>
+                <p>
+                  <def />”תוצרת חקלאית“ – תוצרת מן הצומח או תוצרת מן החי המשמשים למאכל אדם או למאכל בעלי חיים, או לשימושם;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_תכשיר">
+              <content>
+                <p>
+                  <def />”תכשיר“ – תכשיר המשמש לטיוב הקרקע, או להזנה או להגנה מפני נגעים בצמחים, או תכשיר לריפוי בעלי חיים, להזנתם או להגנתם מפני מזיקים, טפילים ומחלות;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_תכנית_אורגנית_מאושרת">
+              <content>
+                <p>
+                  <def />”תכנית אורגנית מאושרת“ – תכנית בכתב לייצור תוצרת אורגנית ולטיפול בה, שאישר גוף אישור ובקרה, העומדת בתנאים שאינם נופלים מהתנאים שנקבעו בנוהל אורגני, כאשר מתקיים נוהל בקרה על יישומה;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_השר">
+              <content>
+                <p>
+                  <def />”השר“ – שר החקלאות ופיתוח הכפר.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_2">
+          <heading>
+            <authorialNote placement="side">
+              <p>איסור הטעיה ואיסור שימוש בסמלים</p>
+            </authorialNote>
+          </heading>
+          <num>2.</num>
+          <list>
+            <point eId="point_2__point_א">
+              <num>(א)</num>
+              <content>
+                <p>לא יציג אדם ולא יציע למכירה תוצרת חקלאית שנקבע לגביה נוהל אורגני כתוצרת אורגנית, ובכלל זה לא ישתמש במילה ”אורגני“ או בכל מילה הנגזרת ממנה ביחס לתוצרת החקלאית כאמור, ולעניין תוצרת חקלאית מיובאת – לא ישתמש גם במילה שבארץ המקור משמשת לסימון תוצרת אורגנית, אלא אם כן היא נושאת את הסמל האורגני האחיד ואת סמל הבקרה.</p>
+              </content>
+            </point>
+            <point eId="point_2__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>לא יסמן אדם תוצרת חקלאית בסמלים, אלא אם כן הוא בעל היתר לשימוש בסמל בקרה בהתאם להוראות <ref href="#point_6">סעיף 6</ref>, ובהתאם לתנאי ההיתר.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_3">
+          <heading>
+            <authorialNote placement="side">
+              <p>אישור גוף אישור ובקרה וסמלו</p>
+            </authorialNote>
+          </heading>
+          <num>3.</num>
+          <list>
+            <point eId="point_3__point_א">
+              <num>(א)</num>
+              <content>
+                <p>גוף המבקש להיות גוף אישור ובקרה ולקבל אישור לסמל הבקרה שלו, יגיש למנהל בקשה על גבי טופס שקבע השר; התקיימו במבקש התנאים שנקבעו לפי <ref href="#point_15">סעיף 15(4)</ref> יאשר המנהל את הגוף כגוף אישור ובקרה ואת הסמל, ורשאי הוא להתנות את האישור בתנאים.</p>
+              </content>
+            </point>
+            <point eId="point_3__point_ב">
+              <num>(ב)</num>
+              <list>
+                <point eId="point_3__point_ב__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>לענין תוצרת המיוצרת במדינה מחוץ לישראל והמוכרת בה כתוצרת אורגנית על ידי גוף הממלא באותה מדינת חוץ תפקיד של גוף אישור ובקרה של תוצרת אורגנית, רשאי המנהל להכיר בגוף האמור ובסמלו של אותו הגוף, לצורך סימונה, הצגתה ומכירתה בישראל, אם נוכח שאותה מדינה נוהגת הדדיות בענין זה כלפי ישראל.</p>
+                  </content>
+                </point>
+                <point eId="point_3__point_ב__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>יבואן המיבא תוצרת חקלאית המסומנת בסמל שהמנהל הכיר בו לפי פסקה (1), יסמן את התוצרת האמורה גם בסמל האחיד.</p>
+                  </content>
+                </point>
+                <point eId="point_3__point_ב__point_3">
+                  <num>(3)</num>
+                  <content>
+                    <p>על יבואן ועל תוצרת אורגנית המסומנת בסמלים כאמור בסעיף קטן זה יחולו הוראות חוק זה, בשינויים המחויבים.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_3__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>
+                  <wikicomment font-size="x-small">(בוטל).</wikicomment>
+                </p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_4">
+          <heading>
+            <authorialNote placement="side">
+              <p>סמלים על תוצרת אורגנית</p>
+            </authorialNote>
+          </heading>
+          <num>4.</num>
+          <list>
+            <point eId="point_4__point_א">
+              <num>(א)</num>
+              <content>
+                <p>יצרן שקבל היתר להשתמש בסמל בקרה יסמן את התוצרת האורגנית שייצר בסמל האורגני האחיד ובסמל הבקרה של גוף האישור והבקרה שנתן לו את ההיתר לסמן את התוצרת החקלאית כתוצרת אורגנית.</p>
+              </content>
+            </point>
+            <point eId="point_4__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>השר רשאי, בצו, לשנות את הסמל האורגני האחיד <ref href="#appendix">שבתוספת</ref>.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_5">
+          <heading>
+            <authorialNote placement="side">
+              <p>הגשת בקשה לשימוש בסמל בקרה</p>
+            </authorialNote>
+          </heading>
+          <num>5.</num>
+          <content>
+            <p>בקשה למתן היתר לשימוש בסמל בקרה או לחידושו תוגש לגוף אישור ובקרה על גבי טופס שהורה המנהל ותצורף אליה רשימת התוצרת החקלאית שאותה מבקשים לסמן בסמל בקרה.</p>
+          </content>
+        </point>
+        <point eId="point_6">
+          <heading>
+            <authorialNote placement="side">
+              <p>מתן היתר, חידושו וביטולו</p>
+            </authorialNote>
+          </heading>
+          <num>6.</num>
+          <list>
+            <point eId="point_6__point_א">
+              <num>(א)</num>
+              <list>
+                <intro>
+                  <p>גוף אישור ובקרה יתן או יחדש היתר לשימוש בסמל בקרה בהתקיים תנאים אלה:</p>
+                </intro>
+                <point eId="point_6__point_א__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>גוף האישור והבקרה קבע כי התוצרת מיוצרת ומטופלת בהתאם לתכנית האורגנית שאושרה למבקש;</p>
+                  </content>
+                </point>
+                <point eId="point_6__point_א__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>המבקש ותוצרתו עומדים בביקורת שוטפת בידי גוף האישור והבקרה.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_6__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>היתר יינתן לתקופה שלא תעלה על שנתיים.</p>
+              </content>
+            </point>
+            <point eId="point_6__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>החליט גוף האישור והבקרה כי אין לתת למבקש היתר לשימוש בסמל בקרה, יודיע על כך בכתב למבקש וינמק את החלטתו.</p>
+              </content>
+            </point>
+            <point eId="point_6__point_ד">
+              <num>(ד)</num>
+              <content>
+                <p>גוף אישור ובקרה רשאי לבטל היתר שנתן ליצרן, אם נוכח כי קבלת ההיתר היתה שלא כדין, התנאים למתן ההיתר אינם מתקיימים או שבעל ההיתר אינו ממלא אחריהם.</p>
+              </content>
+            </point>
+            <point eId="point_6__point_ה">
+              <num>(ה)</num>
+              <content>
+                <p>גוף אישור ובקרה יעביר למנהל העתק מהיתר שנתן לפי סעיף קטן (א), מהודעה על החלטה לסרב ליתן היתר לפי סעיף קטן (ג) ומהודעה על ביטול היתר לפי סעיף קטן (ד).</p>
+              </content>
+            </point>
+            <point eId="point_6__point_ו">
+              <num>(ו)</num>
+              <content>
+                <p>פנה מבקש לגוף אישור ובקרה לצורך קבלת היתר לשימוש בסמל בקרה והחליט הגוף לסרב ליתן לו היתר, או החליט גוף אישור ובקרה לבטל היתר שנתן, לא יתן גוף אישור ובקרה אחר היתר לאותו יצרן אם נודע לו על הסירוב או הביטול כאמור, אלא באישור המנהל.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_7">
+          <heading>
+            <authorialNote placement="side">
+              <p>ביטול אישור גוף אישור ובקרה וביטול היתר</p>
+            </authorialNote>
+          </heading>
+          <num>7.</num>
+          <content>
+            <p>המנהל רשאי לבטל אישור שנתן לפי <ref href="#point_3">סעיף 3</ref>, או היתר שנתן גוף אישור ובקרה לפי <ref href="#point_6">סעיף 6</ref>, אם נוכח כי בעל האישור או ההיתר, לפי הענין, קיבל את האישור או ההיתר שלא כדין, התנאים לקבלת האישור או ההיתר אינם מתקיימים או שבעל האישור או ההיתר אינו ממלא אחריהם.</p>
+          </content>
+        </point>
+        <point eId="point_8">
+          <heading>
+            <authorialNote placement="side">
+              <p>תוצאות ביטול אישור של גוף אישור ובקרה</p>
+            </authorialNote>
+          </heading>
+          <num>8.</num>
+          <content>
+            <p>בוטל, או הסתיים ולא חודש, אישורו של גוף אישור ובקרה, אין בכך כדי לפגוע בתוקפו של סימון של תוצרת חקלאית כתוצרת אורגנית שנעשה כדין טרם הביטול או הסיום.</p>
+          </content>
+        </point>
+        <point eId="point_9">
+          <heading>
+            <authorialNote placement="side">
+              <p>ערר</p>
+            </authorialNote>
+          </heading>
+          <num>9.</num>
+          <list>
+            <point eId="point_9__point_א">
+              <num>(א)</num>
+              <content>
+                <p>הרואה עצמו נפגע מהחלטת גוף אישור ובקרה או מהחלטת המנהל, רשאי לערור עליה לפני ועדת ערר בתוך ארבעה עשר ימים מיום שנמסרה לו ההחלטה.</p>
+              </content>
+            </point>
+            <point eId="point_9__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>מוקמת בזה ועדת ערר שהרכבה נציג שר המשפטים, שהוא שופט או שופט בדימוס או מי שכשיר להתמנות לשופט בית משפט שלום, והוא יהיה יושב ראש הוועדה, ושני נציגים שימנה השר, האחד מבין עובדי משרדו והשני מתוך רשימה שיגיש לו הארגון היציג.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_10">
+          <heading>
+            <authorialNote placement="side">
+              <p>ערעור</p>
+            </authorialNote>
+          </heading>
+          <num>10.</num>
+          <content>
+            <p>החלטת ועדת הערר ניתנת לערעור לפני בית משפט לענינים מינהליים.</p>
+          </content>
+        </point>
+        <point eId="point_10א">
+          <heading>
+            <authorialNote placement="side">
+              <p>פרסום</p>
+            </authorialNote>
+          </heading>
+          <num>10א.</num>
+          <list>
+            <point eId="point_10א__point_א">
+              <num>(א)</num>
+              <list>
+                <intro>
+                  <p>המנהל יפרסם הודעה באתר האינטרנט של משרד החקלאות ופיתוח הכפר בדבר –</p>
+                </intro>
+                <point eId="point_10א__point_א__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>שמות גופי האישור והבקרה וסמלי הבקרה שלהם שאישר לפי <ref href="#point_3">סעיף 3</ref>;</p>
+                  </content>
+                </point>
+                <point eId="point_10א__point_א__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>רשימת היתרים לשימוש בסמל בקרה והודעות על פקיעת תוקפם או על ביטולם לפי <ref href="#point_6">סעיף 6</ref>;</p>
+                  </content>
+                </point>
+                <point eId="point_10א__point_א__point_3">
+                  <num>(3)</num>
+                  <content>
+                    <p>ביטול אישור שניתן לגוף אישור ובקרה או לסמל הבקרה שלו או פקיעת תוקפו של אישור כאמור, אם לא חודש, לפי <ref href="#point_8">סעיף 8</ref>.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_10א__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>הודעות כאמור בסעיף קטן (א)(1) ו־(3) יפורסמו גם ברשומות.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_11">
+          <heading>
+            <authorialNote placement="side">
+              <p>מינוי מפקחים</p>
+            </authorialNote>
+          </heading>
+          <num>11.</num>
+          <list>
+            <point eId="point_11__point_א">
+              <num>(א)</num>
+              <content>
+                <p>השר רשאי למנות מפקחים מבין עובדי משרדו לשם פיקוח על ביצוע הוראות חוק זה.</p>
+              </content>
+            </point>
+            <point eId="point_11__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>לא ימונה מפקח אלא אם כן הוא קבל הכשרה מתאימה כפי שהורה השר בתיאום עם השר לבטחון הפנים.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_12">
+          <heading>
+            <authorialNote placement="side">
+              <p>סמכויות מפקח</p>
+            </authorialNote>
+          </heading>
+          <num>12.</num>
+          <list>
+            <point eId="point_12__point_א">
+              <num>(א)</num>
+              <list>
+                <intro>
+                  <p>לשם פיקוח על ביצוע הוראות חוק זה רשאי מפקח:</p>
+                </intro>
+                <point eId="point_12__point_א__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>להיכנס, לאחר שהזדהה, למקום שבו מייצרים, מסמנים או מציעים למכירה תוצרת אורגנית או תכשירים, כדי לבדוק אותם ואת תהליכי ייצורם; ואולם לא ייכנס מפקח למקום המשמש למגורים בלבד אלא על פי צו של בית משפט;</p>
+                  </content>
+                </point>
+                <point eId="point_12__point_א__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>לדרוש מאדם הנוגע בדבר למסור לו מידע ומסמכים הנוגעים לתוצרת אורגנית ותכשירים;</p>
+                  </content>
+                </point>
+                <point eId="point_12__point_א__point_3">
+                  <num>(3)</num>
+                  <content>
+                    <p>ליטול דוגמאות של התוצרת האורגנית והתכשירים לשם מסירתן לבדיקה במעבדות שאישר המנהל לענין זה, ולנהוג בהן בכל דרך אחרת; הדוגמאות יימסרו למפקח בלא תשלום.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_12__point_ב">
+              <num>(ב)</num>
+              <list>
+                <intro>
+                  <p>התעורר חשד לביצוע עבירה על הוראות חוק זה, רשאי המפקח:</p>
+                </intro>
+                <point eId="point_12__point_ב__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>לחקור אדם הנוגע בדבר; על חקירה כאמור יחולו הוראות <ref href="/akn/il/act/PrimaryLegislation/1933-12-31/2001433#point_2">סעיפים 2</ref><ref href="/akn/il/act/PrimaryLegislation/1933-12-31/2001433#point_3">ו־3 לפקודת הפרוצדורה הפלילית (עדות)</ref>;</p>
+                  </content>
+                </point>
+                <point eId="point_12__point_ב__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>לתפוס חפץ הקשור לביצוע העבירה; על חפץ שנתפס לפי פסקה זו יחולו הוראות <ref href="/akn/il/act/PrimaryLegislation/1969-02-16/2001931#chp_4">הפרק הרביעי לפקודת סדר הדין הפלילי (מעצר וחיפוש) [נוסח חדש], התשכ"ט–1969</ref>, בשינויים המחויבים; לענין זה, ”חפץ“ – לרבות תוצרת חקלאית, חומרי אריזה ותכשירים;</p>
+                  </content>
+                </point>
+                <point eId="point_12__point_ב__point_3">
+                  <num>(3)</num>
+                  <content>
+                    <p>לעכב רכב כדי לערוך בו חיפוש אם יש חשד כי יש בו תוצרת חקלאית המסומנת או המוצעת למכירה כתוצרת אורגנית בניגוד להוראות חוק זה; על עיכוב לפי פסקה זו יחולו הוראות <ref href="/akn/il/act/PrimaryLegislation/1996-05-12/159712#point_72">סעיפים 72</ref>, <ref href="/akn/il/act/PrimaryLegislation/1996-05-12/159712#point_73">73</ref><ref href="/akn/il/act/PrimaryLegislation/1996-05-12/159712#point_74">ו־74 לחוק סדר הדין הפלילי (סמכויות אכיפה – מעצרים), התשנ"ו–1996</ref>, בשינויים המחויבים.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+          </list>
+        </point>
+        <point eId="point_13">
+          <heading>
+            <authorialNote placement="side">
+              <p>טיפול בחפץ</p>
+            </authorialNote>
+          </heading>
+          <num>13.</num>
+          <content>
+            <p>על אף האמור <ref href="#point_12">בסעיף 12(ב)(2)</ref>, נתפס חפץ העלול להתקלקל אם לא יימכר מיד, בין בשל טיבו המיוחד ובין מסיבה אחרת, רשאי המפקח למכרו; דמי המכר יופקדו במשרד החקלאות ופיתוח הכפר ויחולו עליהם הוראות <ref href="#point_12">סעיף 12(ב)(2)</ref> כאילו היו חפץ שנתפס.</p>
+          </content>
+        </point>
+        <point eId="point_14">
+          <heading>
+            <authorialNote placement="side">
+              <p>עונשין</p>
+            </authorialNote>
+          </heading>
+          <num>14.</num>
+          <list>
+            <point eId="point_14__point_א">
+              <num>(א)</num>
+              <content>
+                <p>המציג או המציע תוצרת חקלאית למכירה באופן העלול להטעות בניגוד להוראות <ref href="#point_2">סעיף 2(א)</ref> או המסמן תוצרת חקלאית בסמל בניגוד להוראות <ref href="#point_2">סעיף 2(ב)</ref>, דינו – קנס כאמור <ref href="/akn/il/act/PrimaryLegislation/1977-08-04/2002251#point_61">בסעיף 61(א)(2) לחוק העונשין, התשל"ז–1977</ref> (בחוק זה – חוק העונשין).</p>
+              </content>
+            </point>
+            <point eId="point_14__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>נעברה העבירה בידי תאגיד, דינו – כפל הקנס האמור בסעיף קטן (א).</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_15">
+          <heading>
+            <authorialNote placement="side">
+              <p>ביצוע ותקנות</p>
+            </authorialNote>
+          </heading>
+          <num>15.</num>
+          <list>
+            <point eId="point_15__point_א">
+              <num>(א)</num>
+              <list>
+                <intro>
+                  <p>השר ממונה על ביצוע חוק זה והוא רשאי להתקין תקנות בכל ענין הנוגע לביצועו, לרבות –</p>
+                </intro>
+                <point eId="point_15__point_א__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>קביעת הנוהל האורגני שיכול שייעשה בדרך של אימוץ תקנים בין־לאומיים לייצור תוצרת אורגנית המיועדת למכירה או בדרך של קביעת אמות מידה;</p>
+                  </content>
+                </point>
+                <point eId="point_15__point_א__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>הסדרת עיבודה, חיטויה, שימורה ומכירתה של תוצרת אורגנית;</p>
+                  </content>
+                </point>
+                <point eId="point_15__point_א__point_3">
+                  <num>(3)</num>
+                  <content>
+                    <p>הסדרת מכירתם של תכשירים שנועדו לייצור, אריזה ומכירה של תוצרת אורגנית;</p>
+                  </content>
+                </point>
+                <point eId="point_15__point_א__point_4">
+                  <num>(4)</num>
+                  <content>
+                    <p>קביעת תנאים לאישור גוף אישור ובקרה, נוהלי עבודתו וביטול אישורו, לרבות לענין מניעת ניגוד ענינים;</p>
+                  </content>
+                </point>
+                <point eId="point_15__point_א__point_5">
+                  <num>(5)</num>
+                  <content>
+                    <p>הסדרת בדיקתה של תוצרת אורגנית במעבדות שאישר המנהל לענין זה;</p>
+                  </content>
+                </point>
+                <point eId="point_15__point_א__point_6">
+                  <num>(6)</num>
+                  <content>
+                    <p>קביעת הטפסים למתן אישורים והיתרים על ידי גוף האישור והבקרה;</p>
+                  </content>
+                </point>
+                <point eId="point_15__point_א__point_7">
+                  <num>(7)</num>
+                  <content>
+                    <p>קביעת אגרות בעד שירות שנותנת המדינה לפי חוק זה, לרבות בעד בקשה למתן אישור, וכן הסדרת תשלום וגביית הוצאות שהוציאה המדינה לפי חוק זה;</p>
+                  </content>
+                </point>
+                <point eId="point_15__point_א__point_8">
+                  <num>(8)</num>
+                  <content>
+                    <p>קביעת תשלומים מרביים שגוף אישור ובקרה רשאי לגבות בעד פעולות שהוא עושה לפי הוראות חוק זה.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_15__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>תקנות לפי פסקאות (1) עד (6) יהיו בהתייעצות עם שר הבריאות, השר לאיכות הסביבה ועם הארגון היציג, ולפי פסקה (7) – בהתייעצות עם שר הבריאות ועם הארגון היציג.</p>
+              </content>
+            </point>
+            <point eId="point_15__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>תקנות לפי פסקאות (1), (4), (7) ו־(8) יהיו באישור ועדת הכלכלה של הכנסת.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_16">
+          <heading>
+            <authorialNote placement="side">
+              <p>שמירת דינים</p>
+            </authorialNote>
+          </heading>
+          <num>16.</num>
+          <content>
+            <p>הוראות חוק זה באות להוסיף על הוראות כל דין אחר ולא לגרוע מהן.</p>
+          </content>
+        </point>
+        <point eId="point_17">
+          <heading>
+            <authorialNote placement="side">
+              <p xml:space="preserve"> </p>
+            </authorialNote>
+          </heading>
+          <num>17.</num>
+          <content>
+            <p>
+              <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryLegislation/1985-10-24/151096">בחוק העבירות המינהליות, התשמ"ו–1985</ref>.</wikicomment>
+            </p>
+          </content>
+        </point>
+        <point eId="point_18">
+          <heading>
+            <authorialNote placement="side">
+              <p xml:space="preserve"> </p>
+            </authorialNote>
+          </heading>
+          <num>18.</num>
+          <content>
+            <p>
+              <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryLegislation/2000-06-11/169660">בחוק בתי משפט לענינים מינהליים, התש"ס–2000</ref>.</wikicomment>
+            </p>
+          </content>
+        </point>
+        <point eId="point_19">
+          <heading>
+            <authorialNote placement="side">
+              <p xml:space="preserve"> </p>
+            </authorialNote>
+          </heading>
+          <num>19.</num>
+          <content>
+            <p>
+              <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryLegislation/1992-02-27/153664">בחוק בתי דין מינהליים, התשנ"ב–1992</ref>.</wikicomment>
+            </p>
+          </content>
+        </point>
+        <point eId="point_20">
+          <heading>
+            <authorialNote placement="side">
+              <p>חובת התקנת תקנות</p>
+            </authorialNote>
+          </heading>
+          <num>20.</num>
+          <list>
+            <intro>
+              <p>תקנות ראשונות לפי <ref href="#point_15">סעיף 15(ג)</ref> יובאו לאישור ועדת הכלכלה של הכנסת לא יאוחר מהמועדים המפורטים להלן:</p>
+            </intro>
+            <point eId="point_20__point_1">
+              <num>(1)</num>
+              <content>
+                <p>לעניין תוצרת מן הצומח – כ"ד באדר א׳ התשס"ח (1 במרס 2008);</p>
+              </content>
+            </point>
+            <point eId="point_20__point_2">
+              <num>(2)</num>
+              <content>
+                <p>לעניין תוצרת מן החי – ה׳ באדר התשס"ט (1 במרס 2009).</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_21">
+          <heading>
+            <authorialNote placement="side">
+              <p>תחילה</p>
+            </authorialNote>
+          </heading>
+          <num>21.</num>
+          <content>
+            <p>תחילתו של חוק זה, למעט <ref href="#point_20">סעיף 20</ref>, ביום א׳ באלול התשס"ח (1 בספטמבר 2008); השר, באישור ועדת הכלכלה של הכנסת, רשאי, בצו, לדחות את המועד האמור בתקופה שלא תעלה על שישה חודשים.</p>
+          </content>
+        </point>
+      </list>
+      <appendix eId="appendix_הסמל_האורגני_האחיד">
+        <num></num>
+        <title>
+          <content>
+            <p>תוספת: הסמל האורגני האחיד</p>
+          </content>
+        </title>
+        <subtitle eId="eId">
+          <num></num>
+          <content>
+            <p>
+              <wikicomment font-size="x-small">(<ref href="#point_1">סעיף 1</ref>)</wikicomment>
+            </p>
+          </content>
+        </subtitle>
+        <list>
+          <point eId="appendix_הסמל_האורגני_האחיד__point_none">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num></num>
+            <content>
+              <p>
+                <img eId="eId" alt="תמונה" src="src" />
+              </p>
+            </content>
+          </point>
+        </list>
+      </appendix>
+    </body>
+    <conclusions eId="eId">
+      <p class="signatures">
+        <signature>
+          <p>
+            <person refersTo="אריאל_שרון">אריאל שרון</person>
+            <role refersTo="ראש_הממשלה">ראש הממשלה</role>
+          </p>
+        </signature>
+        <signature>
+          <p>
+            <person refersTo="ישראל_כ''ץ">ישראל כ״ץ</person>
+            <role refersTo="שר_החקלאות_ופיתוח_הכפר">שר החקלאות ופיתוח הכפר</role>
+          </p>
+        </signature>
+        <signature>
+          <p>
+            <person refersTo="משה_קצב">משה קצב</person>
+            <role refersTo="נשיא_המדינה">נשיא המדינה</role>
+          </p>
+        </signature>
+        <signature>
+          <p>
+            <person refersTo="ראובן_ריבלין">ראובן ריבלין</person>
+            <role refersTo="יושב_ראש_הכנסת">יושב ראש הכנסת</role>
+          </p>
+        </signature>
+      </p>
+    </conclusions>
+  </act>
+</akomaNtoso>

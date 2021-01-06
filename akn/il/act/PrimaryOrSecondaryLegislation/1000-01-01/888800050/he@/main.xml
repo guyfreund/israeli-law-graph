@@ -1,0 +1,1161 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion" name="publicLaw">
+    <meta>
+      <identification source="#kensset">
+        <FRBRWork>
+          <FRBRthis value="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/888800050/main" />
+          <FRBRuri value="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/888800050" />
+          <FRBRdate date="1000-01-01" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRcountry value="israel" />
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/888800050/he@/main" />
+          <FRBRuri value="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/888800050/he@" />
+          <FRBRdate date="1000-01-01" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRlanguage language="hebrew" />
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/888800050/he@/main.xml" />
+          <FRBRuri value="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/888800050/he@" />
+          <FRBRdate date="1000-01-01" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRformat value="xml" />
+        </FRBRManifestation>
+      </identification>
+      <classification source="#kensset">
+        <keyword value="{classificationValue}" showAs="{classificationValue}" dictionary="#classification_dictionary" />
+      </classification>
+      <lifecycle source="#kensset">
+        <eventRef eId="eventRef_1" date="1000-01-01" source="#kensset" type="generation" />
+      </lifecycle>
+      <references source="#kensset">
+        <TLCOrganization eId="kensset" href="/ontology/organization/akn/knesset" showAs="Kensset" type="generation" />
+        <TLCRole eId="author" href="/ontology/role/akn/author" showAs="Author of Document" />
+        <TLCProcess eId="inforce" href="/ontology/process/akn/inforce" showAs="In force" />
+        <TLCTerm eId="term_1" href="/ontology/term/ארגון_למען_בעלי_חיים/888800050" showAs="ארגון_למען_בעלי_חיים" />
+        <TLCTerm eId="term_2" href="/ontology/term/בית_גידול/888800050" showAs="בית_גידול" />
+        <TLCTerm eId="term_3" href="/ontology/term/בית_חיות/888800050" showAs="בית_חיות" />
+        <TLCTerm eId="term_4" href="/ontology/term/בעל_חיים/888800050" showAs="בעל_חיים" />
+        <TLCTerm eId="term_5" href="/ontology/term/המתה/888800050" showAs="המתה" />
+        <TLCTerm eId="term_6" href="/ontology/term/המנהל/888800050" showAs="המנהל" />
+        <TLCTerm eId="term_7" href="/ontology/term/וטרינר_מפקח/888800050" showAs="וטרינר_מפקח" />
+        <TLCTerm eId="term_8" href="/ontology/term/חוקר_מוסמך/888800050" showAs="חוקר_מוסמך" />
+        <TLCTerm eId="term_9" href="/ontology/term/מוסד_חינוכי/888800050" showAs="מוסד_חינוכי" />
+        <TLCTerm eId="term_10" href="/ontology/term/מוסד_להשכלה_גבוהה/888800050" showAs="מוסד_להשכלה_גבוהה" />
+        <TLCTerm eId="term_11" href="/ontology/term/מוסד/888800050" showAs="מוסד" />
+        <TLCTerm eId="term_12" href="/ontology/term/מערכת_הבטחון/888800050" showAs="מערכת_הבטחון" />
+        <TLCTerm eId="term_13" href="/ontology/term/ניסוי_בבעלי_חיים/888800050" showAs="ניסוי_בבעלי_חיים" />
+        <TLCTerm eId="term_14" href="/ontology/term/רופא_וטרינר/888800050" showAs="רופא_וטרינר" />
+        <TLCTerm eId="term_15" href="/ontology/term/עובד_ציבור/888800050" showAs="עובד_ציבור" />
+        <TLCTerm eId="term_16" href="/ontology/term/השר/888800050" showAs="השר" />
+        <TLCPerson eId="יצחק_רבין" href="/ontology/person/יצחק_רבין" showAs="יצחק רבין" />
+        <TLCPerson eId="אפרים_סנה" href="/ontology/person/אפרים_סנה" showAs="אפרים סנה" />
+        <TLCPerson eId="עזר_ויצמן" href="/ontology/person/עזר_ויצמן" showAs="עזר ויצמן" />
+        <TLCPerson eId="שבח_וייס" href="/ontology/person/שבח_וייס" showAs="שבח וייס" />
+        <TLCRole eId="ראש_הממשלה" href="ontology/role/akn/ראש_הממשלה" showAs="ראש הממשלה" />
+        <TLCRole eId="שר_הבריאות" href="ontology/role/akn/שר_הבריאות" showAs="שר הבריאות" />
+        <TLCRole eId="נשיא_המדינה" href="ontology/role/akn/נשיא_המדינה" showAs="נשיא המדינה" />
+        <TLCRole eId="יושב_ראש_הכנסת" href="ontology/role/akn/יושב_ראש_הכנסת" showAs="יושב ראש הכנסת" />
+      </references>
+      <temporalData source="#kensset">
+        <temporalGroup eId="tmpg_1" />
+      </temporalData>
+      <Publication></Publication>
+      <proprietary wikiversion="1/14/2021 10:36:35 AM" />
+    </meta>
+    <body period="#tmpg_1">
+      <title eId="title">
+        <content>
+          <p>חוק צער בעלי חיים (ניסויים בבעלי חיים), התשנ"ד–1994</p>
+        </content>
+      </title>
+      <chapter eId="chp_ראשון">
+        <num>פרק ראשון:</num>
+        <title>
+          <content>
+            <p>מבוא</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_1" class="definitions">
+            <heading>
+              <authorialNote placement="side">
+                <p>הגדרות</p>
+              </authorialNote>
+            </heading>
+            <num>1.</num>
+            <list>
+              <intro>
+                <p>בחוק זה –</p>
+              </intro>
+              <point eId="point_1__point_ארגון_למען_בעלי_חיים">
+                <content>
+                  <p>
+                    <def />”ארגון למען בעלי חיים“ – תאגיד רשום שמטרתו ועיסוקו הגנה על בעלי חיים, מניעת סבל מהם ודאגה לרווחתם;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_בית_גידול">
+                <content>
+                  <p>
+                    <def />”בית גידול“ – מקום שבו מגדלים בעלי חיים למטרות ניסויים;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_בית_חיות">
+                <content>
+                  <p>
+                    <def />”בית חיות“ – המקום והמיתקנים שבהם מחזיקים בעלי חיים לפני, בעת ואחרי ביצוע ניסויים;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_בעל_חיים">
+                <content>
+                  <p>
+                    <def />”בעל חיים“ – בעל חוליות למעט אדם;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_המתה">
+                <content>
+                  <p>
+                    <def />”המתה“ – המתת בעל חיים תוך מניעת סבל מיותר;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_המנהל">
+                <content>
+                  <p>
+                    <def />”המנהל“ – מנהל השירותים הוטרינריים במשרד החקלאות;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_וטרינר_מפקח">
+                <content>
+                  <p>
+                    <def />”וטרינר מפקח“ – מי שנתמנה להיות אחראי על הפיקוח לפי <ref href="#point_5">סעיף 5(ב)</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_חוקר_מוסמך">
+                <content>
+                  <p>
+                    <def />”חוקר מוסמך“ – עובד מוסד שמנהל המוסד הסמיכו לערוך ניסויים בבעלי חיים ועבר הכשרה בתחום מזעור הסבל לחיות מעבדה כפי שקבעה המועצה בכללים;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_מוסד_חינוכי">
+                <content>
+                  <p>
+                    <def />”מוסד חינוכי“ – מוסד חינוך כמשמעו <ref href="/akn/il/act/PrimaryLegislation/1949-09-18/314513">בחוק לימוד חובה, התש"ט–1949</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_מוסד_להשכלה_גבוהה">
+                <content>
+                  <p>
+                    <def />”מוסד להשכלה גבוהה“ – מוסד שהוכר כמוסד להשכלה גבוהה לפי <ref href="/akn/il/act/PrimaryLegislation/1958-08-14/147288#point_13">סעיף 13 לחוק המועצה להשכלה גבוהה, התשי"ח–1958</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_מוסד">
+                <content>
+                  <p>
+                    <def />”מוסד“ – מוסד מדעי, מחקרי, רפואי, תעשייתי, חינוכי או להשכלה גבוהה שנערכים בו ניסויים בבעלי חיים, לרבות בית חיות;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_מערכת_הבטחון">
+                <content>
+                  <p>
+                    <def />”מערכת הבטחון“ – משרד הבטחון ויחידות סמך שלו, צבא הגנה לישראל או מוסד אחר הפועל למטרות בטחוניות ואשר אושר לצורך חוק זה על ידי שר הבטחון;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_ניסוי_בבעלי_חיים">
+                <list>
+                  <intro>
+                    <p>
+                      <def />”ניסוי בבעלי חיים“ – ניסוי בבעלי חיים, שנועד לאחד מאלה:</p>
+                  </intro>
+                  <point eId="point_1__point_ניסוי_בבעלי_חיים__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>קידום הבריאות, הרפואה ומניעת סבל;</p>
+                    </content>
+                  </point>
+                  <point eId="point_1__point_ניסוי_בבעלי_חיים__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>קידום המחקר המדעי;</p>
+                    </content>
+                  </point>
+                  <point eId="point_1__point_ניסוי_בבעלי_חיים__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>בדיקה או ייצור של חומרים או חפצים;</p>
+                    </content>
+                  </point>
+                  <point eId="point_1__point_ניסוי_בבעלי_חיים__point_4">
+                    <num>(4)</num>
+                    <content>
+                      <p>חינוך והוראה;</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_1__point_רופא_וטרינר">
+                <content>
+                  <p>
+                    <def />”רופא וטרינר“ – רופא וטרינר בעל תואר מומחה לרפואת חיות מעבדה או רופא וטרינר שהמנהל הסמיכו לענין חוק זה;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_עובד_ציבור">
+                <content>
+                  <p>
+                    <def />”עובד ציבור“ – עובד מדינה או רשות מקומית;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_השר">
+                <content>
+                  <p>
+                    <def />”השר“ – שר הבריאות.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+        </list>
+      </chapter>
+      <chapter eId="chp_שני">
+        <num>פרק שני:</num>
+        <title>
+          <content>
+            <p>המועצה</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_2">
+            <heading>
+              <authorialNote placement="side">
+                <p>מועצה לניסויים בבעלי חיים</p>
+              </authorialNote>
+            </heading>
+            <num>2.</num>
+            <list>
+              <point eId="point_2__point_א">
+                <num>(א)</num>
+                <list>
+                  <intro>
+                    <p>מוקמת בזה מועצה לניסויים בבעלי חיים (להלן – המועצה); המועצה תהיה בת 23 חברים שימונו על ידי השר ואלה הם –</p>
+                  </intro>
+                  <point eId="point_2__point_א__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>ששה נציגי האקדמיה הלאומית למדעים, מהם שניים מתחום מדעי החיים או הרפואה וארבעה מתחום מדעי החברה, הרוח, המדעים המדויקים והמשפטים, אחד מכל תחום;</p>
+                    </content>
+                  </point>
+                  <point eId="point_2__point_א__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>מנהל בית ספר לרפואה וטרינרית;</p>
+                    </content>
+                  </point>
+                  <point eId="point_2__point_א__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>שני דיקאנים של בית ספר לרפואה או סגניהם;</p>
+                    </content>
+                  </point>
+                  <point eId="point_2__point_א__point_4">
+                    <num>(4)</num>
+                    <content>
+                      <p>נציג המועצה המדעית של ההסתדרות הרפואית בישראל;</p>
+                    </content>
+                  </point>
+                  <point eId="point_2__point_א__point_5">
+                    <num>(5)</num>
+                    <content>
+                      <p>נציג המועצה המדעית של הסתדרות הרופאים הוטרינרים שהוא רופא וטרינר;</p>
+                    </content>
+                  </point>
+                  <point eId="point_2__point_א__point_6">
+                    <num>(6)</num>
+                    <content>
+                      <p>נציג התאחדות התעשיינים;</p>
+                    </content>
+                  </point>
+                  <point eId="point_2__point_א__point_7">
+                    <num>(7)</num>
+                    <content>
+                      <p>נציג שר הבריאות;</p>
+                    </content>
+                  </point>
+                  <point eId="point_2__point_א__point_8">
+                    <num>(8)</num>
+                    <content>
+                      <p>נציג שר החינוך, התרבות והספורט;</p>
+                    </content>
+                  </point>
+                  <point eId="point_2__point_א__point_9">
+                    <num>(9)</num>
+                    <content>
+                      <p>נציג שר המדע, האומנויות והטכנולוגיה;</p>
+                    </content>
+                  </point>
+                  <point eId="point_2__point_א__point_10">
+                    <num>(10)</num>
+                    <content>
+                      <p>נציג שר המשפטים;</p>
+                    </content>
+                  </point>
+                  <point eId="point_2__point_א__point_11">
+                    <num>(11)</num>
+                    <content>
+                      <p>נציג השר לענייני דתות;</p>
+                    </content>
+                  </point>
+                  <point eId="point_2__point_א__point_12">
+                    <num>(12)</num>
+                    <content>
+                      <p>נציג השר לאיכות הסביבה;</p>
+                    </content>
+                  </point>
+                  <point eId="point_2__point_א__point_13">
+                    <num>(13)</num>
+                    <content>
+                      <p>יושב ראש הועדה לניסויים בבעלי חיים במערכת הבטחון;</p>
+                    </content>
+                  </point>
+                  <point eId="point_2__point_א__point_14">
+                    <num>(14)</num>
+                    <content>
+                      <p>המנהל או מי שהוא הסמיך לכך;</p>
+                    </content>
+                  </point>
+                  <point eId="point_2__point_א__point_15">
+                    <num>(15)</num>
+                    <content>
+                      <p>שלושה נציגים שהומלצו על ידי ארגון הגג של הארגונים למען בעלי חיים, ואם לא קיים ארגון גג – מקרב מומלצי ארגונים למען בעלי חיים.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_2__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>השר רשאי לפסול מועמדותו של נציג, למעט נציגים לפי פסקאות (2) ו־(13), אם השתכנע כי יש במינוי משום חשש לפגיעה של ממש בתפקוד המועצה.</p>
+                </content>
+              </point>
+              <point eId="point_2__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>נפסלה מועמדותו של נציג, ימנה השר אחר במקומו אשר יומלץ על ידי אותו גוף שייצג הנציג שמועמדותו נפסלה.</p>
+                </content>
+              </point>
+              <point eId="point_2__point_ד">
+                <num>(ד)</num>
+                <content>
+                  <p>תקופת כהונתו של חבר המועצה היא ארבע שנים; חבר המועצה יכול לשוב ולהתמנות כחבר בה.</p>
+                </content>
+              </point>
+              <point eId="point_2__point_ה">
+                <num>(ה)</num>
+                <content>
+                  <p>השר ימנה אחד מחברי המועצה שמונו לפי סעיף קטן (א)(1) ליושב ראש המועצה.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_3">
+            <heading>
+              <authorialNote placement="side">
+                <p>פקיעת כהונה של חבר המועצה</p>
+              </authorialNote>
+            </heading>
+            <num>3.</num>
+            <list>
+              <point eId="point_3__point_א">
+                <num>(א)</num>
+                <list>
+                  <intro>
+                    <p>חבר המועצה יחדל לכהן לפני תום תקופת כהונתו באחד מאלה:</p>
+                  </intro>
+                  <point eId="point_3__point_א__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>התפטר במסירת כתב התפטרות לשר;</p>
+                    </content>
+                  </point>
+                  <point eId="point_3__point_א__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>נבצר ממנו דרך קבע למלא תפקידו או יש בהמשך חברותו משום פגיעה של ממש בתפקוד המועצה והשר, לאחר התייעצות ביושב ראש המועצה, העבירו מכהונתו בהודעה בכתב;</p>
+                    </content>
+                  </point>
+                  <point eId="point_3__point_א__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>מי שהורשע בעבירה שלדעת היועץ המשפטי לממשלה יש עמה קלון;</p>
+                    </content>
+                  </point>
+                  <point eId="point_3__point_א__point_4">
+                    <num>(4)</num>
+                    <content>
+                      <p>אינו מכהן עוד בתפקיד בגוף שמטעמו התמנה.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_3__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>הוגש כתב אישום נגד חבר המועצה, בעבירה שלכאורה יש עמה קלון, רשאי השר, בהתייעצות עם היועץ המשפטי לממשלה, להשעותו מכהונתו עד מתן פסק דין סופי בענינו.</p>
+                </content>
+              </point>
+              <point eId="point_3__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>חבר מועצה שנעדר משלוש ישיבות רצופות יחדל להיות חבר המועצה, מלבד אם נעדר בגלל מחלה או בגלל שירות בצבא הגנה לישראל או ברשות יושב ראש המועצה שניתנה מראש בכתב.</p>
+                </content>
+              </point>
+              <point eId="point_3__point_ד">
+                <num>(ד)</num>
+                <content>
+                  <p>נפסקה כהונתו של חבר המועצה, ימנה השר אחר במקומו מטעם אותו גוף שייצג החבר שכהונתו הופסקה.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_4">
+            <heading>
+              <authorialNote placement="side">
+                <p>תפקידי המועצה</p>
+              </authorialNote>
+            </heading>
+            <num>4.</num>
+            <list>
+              <intro>
+                <p>המועצה ממונה על נושא הניסויים בבעלי חיים; ומבלי לגרוע משאר תפקידיה –</p>
+              </intro>
+              <point eId="point_4__point_1">
+                <num>(1)</num>
+                <content>
+                  <p>תקבע כללים, באישור השר, למתן היתרים לעריכת ניסויים בבעלי חיים, ודרכי עריכת הניסויים, והכל כדי להבטיח מזעור הסבל הנגרם לבעל החיים ומניעת עריכת ניסויים מיותרים;</p>
+                </content>
+              </point>
+              <point eId="point_4__point_2">
+                <num>(2)</num>
+                <content>
+                  <p>תקבע כללים, באישור השר, בדבר ההכשרה בתחום מזעור הסבל לחיות מעבדה;</p>
+                </content>
+              </point>
+              <point eId="point_4__point_3">
+                <num>(3)</num>
+                <content>
+                  <p>תיזום תכניות הסברה בנושאים שבתחום פעילותה ותכניות השתלמות והדרכה לחוקרים בנושאים הקשורים בניסויים בבעלי חיים;</p>
+                </content>
+              </point>
+              <point eId="point_4__point_4">
+                <num>(4)</num>
+                <content>
+                  <p>תקבע כללים, באישור השר, לענין מספר מרבי של ניסויים שייערכו בבעל חיים אחד;</p>
+                </content>
+              </point>
+              <point eId="point_4__point_5">
+                <num>(5)</num>
+                <content>
+                  <p>תהיה רשאית לקבוע, באישור השר וועדת הכספים של הכנסת, אגרות לבקשות ולהיתרים הניתנים על פי חוק זה; סכומי האגרות ישמשו לפעולות המועצה ולפעולות אחרות לפי חוק זה, ויוצאו לפי החלטת המועצה.<br space="preserve"></br><wikicomment font-size="x-small">פורסמו <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/כללי_צער_בעלי_חיים_ניסויים_בבעלי_חיים">כללי צער בעלי חיים (ניסויים בבעלי חיים), התשס"א–2001</ref>.</wikicomment></p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_5">
+            <heading>
+              <authorialNote placement="side">
+                <p>מינוי בעלי תפקידים</p>
+              </authorialNote>
+            </heading>
+            <num>5.</num>
+            <list>
+              <point eId="point_5__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>השר ימנה, לאחר התייעצות עם יושב ראש המועצה, מזכיר, שהוא עובד משרד הבריאות, שיהיה אחראי לעבודתה המינהלית של המועצה.</p>
+                </content>
+              </point>
+              <point eId="point_5__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>השר ימנה, לאחר התייעצות עם המועצה, רופא וטרינר שיהיה האחראי על הפיקוח במוסדות.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_6">
+            <heading>
+              <authorialNote placement="side">
+                <p>ביקורים של חברי המועצה</p>
+              </authorialNote>
+            </heading>
+            <num>6.</num>
+            <content>
+              <p>חברי המועצה רשאים, באישור יושב ראש המועצה או לפי הסדרים שיקבע, לבקר בכל מקום שבו נערכים ניסויים בבעלי חיים ובלבד שחברי המועצה ינקטו את האמצעים המקובלים, הדרושים כדי למנוע פגיעה בניסוי.</p>
+            </content>
+          </point>
+          <point eId="point_7">
+            <heading>
+              <authorialNote placement="side">
+                <p>התכנסות וסדרי עבודה</p>
+              </authorialNote>
+            </heading>
+            <num>7.</num>
+            <list>
+              <point eId="point_7__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>המועצה תתכנס שלוש פעמים בשנה לפחות, וכן לפי דרישת שליש מחברי המועצה.</p>
+                </content>
+              </point>
+              <point eId="point_7__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>רוב חברי המועצה יהוו מנין חוקי לאישור כללים.</p>
+                </content>
+              </point>
+              <point eId="point_7__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>המועצה תקבע את סדרי עבודתה ככל שלא נקבעו בחוק זה.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+        </list>
+      </chapter>
+      <chapter eId="chp_שלישי">
+        <num>פרק שלישי:</num>
+        <title>
+          <content>
+            <p>ניסויים בבעלי חיים</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_8">
+            <heading>
+              <authorialNote placement="side">
+                <p>ניסויים בבעלי חיים</p>
+              </authorialNote>
+            </heading>
+            <num>8.</num>
+            <list>
+              <point eId="point_8__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>לא ייערכו ניסויים בבעלי חיים אלא על פי חוק זה.</p>
+                </content>
+              </point>
+              <point eId="point_8__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>מספר בעלי החיים בניסוי יוגבל למספר הקטן ביותר הדרוש לביצוע הניסוי.</p>
+                </content>
+              </point>
+              <point eId="point_8__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>ניסויים בבעלי חיים ייערכו תוך הקפדה על מזעור הכאב והסבל שייגרמו להם.</p>
+                </content>
+              </point>
+              <point eId="point_8__point_ד">
+                <num>(ד)</num>
+                <content>
+                  <p>ניסויים בבעלי חיים ייערכו כאמור <ref href="#appendix">בתוספת</ref>.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_9">
+            <heading>
+              <authorialNote placement="side">
+                <p>איסור ניסויים בבעלי חיים אם קיימות דרכים חלופיות</p>
+              </authorialNote>
+            </heading>
+            <num>9.</num>
+            <content>
+              <p>לא יינתן היתר לעריכת ניסויים בבעל חיים אם ניתן להשיג את מטרת הניסוי בדרכים חלופיות סבירות.</p>
+            </content>
+          </point>
+          <point eId="point_10">
+            <heading>
+              <authorialNote placement="side">
+                <p>ניסויים לבדיקת מוצרי קוסמטיקה וחומרי ניקוי</p>
+              </authorialNote>
+            </heading>
+            <num>10.</num>
+            <content>
+              <p>לא ייערך ניסוי לבדיקת מוצרי קוסמטיקה, שאינם לצורכי בריאות, ולחומרי ניקוי.</p>
+            </content>
+          </point>
+          <point eId="point_11">
+            <heading>
+              <authorialNote placement="side">
+                <p>חוקר מוסמך</p>
+              </authorialNote>
+            </heading>
+            <num>11.</num>
+            <list>
+              <point eId="point_11__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>ניסויים בבעלי חיים ייערכו רק על ידי חוקר מוסמך במוסד שאושר על ידי המועצה ובהתאם לכללים שהיא קבעה.</p>
+                </content>
+              </point>
+              <point eId="point_11__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>חוקר, העורך ניסוי שתכליתו אינה להוראה בלבד, ינהל רישומים על פי נוהל שתקבע הוועדה שהוקמה לפי <ref href="#point_13">סעיף 13</ref>, ובסיום הניסוי ידווח לה על תוצאות הניסוי.</p>
+                </content>
+              </point>
+              <point eId="point_11__point_ג">
+                <num>(ג)</num>
+                <list>
+                  <point eId="point_11__point_ג__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>על אף האמור בסעיף קטן (א) רשאים תלמידים במוסד חינוכי או במוסד להשכלה גבוהה לערוך ניסויים בנוכחותו ובפיקוחו של חוקר מוסמך;</p>
+                    </content>
+                  </point>
+                  <point eId="point_11__point_ג__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>לענין חוק זה – יראו את כל המוסדות החינוכיים כמוסד אחד שמנהלו הוא המנהל הכללי של משרד החינוך, התרבות והספורט.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+            </list>
+          </point>
+          <point eId="point_12">
+            <heading>
+              <authorialNote placement="side">
+                <p>היתר למוסד</p>
+              </authorialNote>
+            </heading>
+            <num>12.</num>
+            <list>
+              <intro>
+                <p>המועצה תהיה מוסמכת להתיר עריכת ניסויים למוסד שהתקיימו בו כל אלה:</p>
+              </intro>
+              <point eId="point_12__point_1">
+                <num>(1)</num>
+                <content>
+                  <p>המוסד הכין קובץ הנחיות כתובות, המחייבות את העובדים, אשר אושרו על ידי המועצה, בדבר החזקת בעלי חיים, סדרי העבודה במוסד, נהלי בטיחות, שיטות הרדמה, הטיפול בבעלי חיים, המתתם, סילוקם על פי כל דין, תוך שימת לב למניעת פגיעה באיכות הסביבה, והדרכה לעובדים;</p>
+                </content>
+              </point>
+              <point eId="point_12__point_2">
+                <num>(2)</num>
+                <content>
+                  <p>במוסד מועסק רופא וטרינר אשר מפקח על בריאות בעלי החיים ורווחתם, נותן להם טיפול רפואי, מופקד על מניעת מחלות, על הקטנת סבלם של בעלי חיים לפני, בעת ולאחר גמר הניסויים, על המתתם במידת הצורך, ואשר מדריך את סגל העובדים בנושאים אלה.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_13">
+            <heading>
+              <authorialNote placement="side">
+                <p>ועדה למתן היתרים לעריכת ניסויים בבעלי חיים</p>
+              </authorialNote>
+            </heading>
+            <num>13.</num>
+            <list>
+              <point eId="point_13__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>המועצה תמנה מבין חבריה ועדה, המוסמכת להתיר ניסויים בבעלי חיים, בת שלושה חברים לפחות ובהם רופא וטרינר אשר יכהן כיושב ראש, חוקר מתחום מדעי החיים או הרפואה וחבר אחד שלא מתחום מדעי החיים או הרפואה.</p>
+                </content>
+              </point>
+              <point eId="point_13__point_ב">
+                <num>(ב)</num>
+                <list>
+                  <intro>
+                    <p>פנייה לועדה בבקשה לאישור ניסוי תכלול בין היתר –</p>
+                  </intro>
+                  <point eId="point_13__point_ב__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>מידע כללי על מטרת הניסוי ומהלכו המתוכנן;</p>
+                    </content>
+                  </point>
+                  <point eId="point_13__point_ב__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>הצעה מפורטת של תכנית הניסוי;</p>
+                    </content>
+                  </point>
+                  <point eId="point_13__point_ב__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>טעמים לצורך בביצוע הניסוי וחלופות אפשריות, אם קיימות כאלה.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_13__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>על אף האמור בסעיף קטן (ב) בניסויים שתכליתם הוראה בלבד ההיתר יכול שיינתן לשיטת הניסוי ועקרונותיה, ולכל שינוי בהם.</p>
+                </content>
+              </point>
+              <point eId="point_13__point_ד">
+                <num>(ד)</num>
+                <content>
+                  <p>הועדה תהיה מוסמכת להתיר ניסוי בבעלי חיים לאחר ששקלה ומצאה כי הניסוי עומד בדרישות <ref href="#point_8">סעיפים 8</ref>, <ref href="#point_9">9</ref><ref href="#point_11">ו־11</ref> ובכללי המועצה.</p>
+                </content>
+              </point>
+              <point eId="point_13__point_ה">
+                <num>(ה)</num>
+                <content>
+                  <p>היתר הועדה יכול שיינתן לתכנית ניסויים הכוללת יותר מניסוי אחד.</p>
+                </content>
+              </point>
+              <point eId="point_13__point_ו">
+                <num>(ו)</num>
+                <content>
+                  <p>היתר הועדה יהיה כפוף להוראות חוק זה ולכללי המועצה שנקבעו לפיו.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_14">
+            <heading>
+              <authorialNote placement="side">
+                <p>ועדה פנימית</p>
+              </authorialNote>
+            </heading>
+            <num>14.</num>
+            <list>
+              <point eId="point_14__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>על אף האמור <ref href="#point_13">בסעיף 13</ref>, משרד ממשלתי, מוסד להשכלה גבוהה, מוסד חינוכי או מוסד שאישרה המועצה לענין זה, רשאים להקים ועדה פנימית אשר אחד מחבריה רופא וטרינר והיא תמלא, לענין אותו מוסד את תפקידי הועדה שהוקמה לפי <ref href="#point_13">סעיף 13</ref>.</p>
+                </content>
+              </point>
+              <point eId="point_14__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>הועדה תפעל לפי כללי המועצה או לפי כללים פנימיים, שקבע לעצמו המוסד ואשר אושרו על ידי המועצה.</p>
+                </content>
+              </point>
+              <point eId="point_14__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>אחת לשישה חודשים תדווח הועדה למועצה על הניסויים שהתירה.</p>
+                </content>
+              </point>
+              <point eId="point_14__point_ד">
+                <num>(ד)</num>
+                <content>
+                  <p>ראה יושב ראש ועדה פנימית במשרד ממשלתי או במוסד להשכלה גבוהה, כי יש סכנה מיידית לבריאות הציבור או לבריאות בעלי חיים אם לא ייערך הניסוי וכי לא ניתן לכנס את הועדה בדחיפות, רשאי הוא להתיר את הניסוי.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_15">
+            <heading>
+              <authorialNote placement="side">
+                <p>פיקוח במוסדות</p>
+              </authorialNote>
+            </heading>
+            <num>15.</num>
+            <content>
+              <p>הוטרינר המפקח או עובד ציבור שהוא מינה לכך, לאחר שהודיע על כך למועצה, רשאי להיכנס בכל עת לכל מוסד ולכל בית גידול ובלבד שינקוט את הצעדים הדרושים למניעת פגיעה בניסוי, ולעיין בכל מסמך, על מנת לבדוק אם מתקיימות הוראות חוק זה.</p>
+            </content>
+          </point>
+          <point eId="point_16">
+            <heading>
+              <authorialNote placement="side">
+                <p>ועדת ביקורת</p>
+              </authorialNote>
+            </heading>
+            <num>16.</num>
+            <list>
+              <point eId="point_16__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>המועצה תמנה ועדת ביקורת שבראשה נציג שר המשפטים, וחבריה יהיו המנהל או נציגו וחוקר מתחום הרפואה או מדעי החיים.</p>
+                </content>
+              </point>
+              <point eId="point_16__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>נוכח הוטרינר המפקח או עובד הציבור שמונה לכך כי ניסוי נערך בחריגה מהיתר שניתן לפי חוק זה, ימסור לועדה המלצתו לבטל או להשעות את ההיתר שניתן למוסד או לניסויים.</p>
+                </content>
+              </point>
+              <point eId="point_16__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>הועדה, לאחר ששמעה את טענות המוסד, רשאית לבטל או לשנות את ההיתר שניתן למוסד וכן להתנות את המשך הניסויים בכל תנאי שתמצא לנכון.</p>
+                </content>
+              </point>
+              <point eId="point_16__point_ד">
+                <num>(ד)</num>
+                <content>
+                  <p>מצאה הועדה כי בנסיבות המקרה נעשתה הפרה חמורה של הוראות חוק זה, רשאית היא להורות זמנית על הפסקת הניסויים אף מבלי ששמעה את טענות המוסד.</p>
+                </content>
+              </point>
+              <point eId="point_16__point_ה">
+                <num>(ה)</num>
+                <content>
+                  <p>התקבלה החלטה כאמור בסעיף קטן (ד) יתקיים הדיון בנוכחות נציג המוסד, בהקדם האפשרי, ולא יאוחר משבעה ימים מיום קבלת ההחלטה הזמנית.</p>
+                </content>
+              </point>
+              <point eId="point_16__point_ו">
+                <num>(ו)</num>
+                <content>
+                  <p>לאחר ששמעה את הטענות רשאית הועדה לקבל החלטה סופית בענין.</p>
+                </content>
+              </point>
+              <point eId="point_16__point_ז">
+                <num>(ז)</num>
+                <content>
+                  <p>לא התייצב נציג המוסד, למרות שהוזמן כדין, רשאית הועדה להחליט בענין בהעדרו.</p>
+                </content>
+              </point>
+              <point eId="point_16__point_ח">
+                <num>(ח)</num>
+                <content>
+                  <p>מי שנפגע מהחלטת הועדה רשאי לערור על כך לפני המועצה.</p>
+                </content>
+              </point>
+              <point eId="point_16__point_ט">
+                <num>(ט)</num>
+                <content>
+                  <p>הועדה תדווח למועצה על ההמלצות לפי סעיף קטן (ב) ועל החלטותיה.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_17">
+            <heading>
+              <authorialNote placement="side">
+                <p>דיווח למועצה</p>
+              </authorialNote>
+            </heading>
+            <num>17.</num>
+            <list>
+              <point eId="point_17__point_א">
+                <num>(א)</num>
+                <list>
+                  <intro>
+                    <p>מוסד ידווח למועצה, בכתב, אחת לשנה, ולא יאוחר מיום ה־28 בפברואר בדבר –</p>
+                  </intro>
+                  <point eId="point_17__point_א__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>פירוט הניסויים שעסק בהם במהלך השנה שקדמה;</p>
+                    </content>
+                  </point>
+                  <point eId="point_17__point_א__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>שם הרופא הוטרינר המועסק במוסד לפי <ref href="#point_12">סעיף 12(2)</ref>.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_17__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>מוסד ידווח למועצה, בכתב, על כל בעיה או תקלה מיוחדת שהתעוררה, סמוך ככל הניתן למועד האירוע.</p>
+                </content>
+              </point>
+              <point eId="point_17__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>על אף האמור בסעיף קטן (א)(1), מי שמדווח למועצה על ניסויים הנערכים לפי <ref href="#point_13">סעיף 13(ג)</ref> ידווח רק על שיטת הניסויים שבוצעו, עקרונותיהם והיקפם.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+        </list>
+      </chapter>
+      <chapter eId="chp_רביעי">
+        <num>פרק רביעי:</num>
+        <title>
+          <content>
+            <p>ניסויים בבעלי חיים במערכת הבטחון</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_18">
+            <heading>
+              <authorialNote placement="side">
+                <p>ועדה לניסויים בבעלי חיים במערכת הבטחון</p>
+              </authorialNote>
+            </heading>
+            <num>18.</num>
+            <content>
+              <p>שר הבטחון ימנה ועדה לניסויים בבעלי חיים במערכת הבטחון (<ref href="#chp_4">בפרק זה</ref> – הועדה) שבראשה יעמוד רופא וטרינר וחברים בה יהיו חוקר מתחום מדעי החיים, רופא מורשה כמשמעותו <ref href="/akn/il/act/PrimaryLegislation/1976-12-16/2002278">בפקודת הרופאים [נוסח חדש], התשל"ז–1976</ref>, משפטן, בעל תואר אקדמי במדעי החברה או הרוח ונציג ציבור שאינו עובד מדינה ואינו עוסק בניסויים בבעלי חיים, אשר ימונה לאחר התייעצות במועצה.</p>
+            </content>
+          </point>
+          <point eId="point_19">
+            <heading>
+              <authorialNote placement="side">
+                <p>סמכויות הועדה</p>
+              </authorialNote>
+            </heading>
+            <num>19.</num>
+            <content>
+              <p>התפקידים והסמכויות של המועצה והועדות שהוקמו לפי <ref href="#point_13">סעיפים 13</ref><ref href="#point_16">ו־16</ref> בכל הנוגע לניסויים בבעלי חיים במערכת הבטחון מוקנית לועדה.</p>
+            </content>
+          </point>
+          <point eId="point_20">
+            <heading>
+              <authorialNote placement="side">
+                <p>כללי המועצה</p>
+              </authorialNote>
+            </heading>
+            <num>20.</num>
+            <content>
+              <p>הועדה תונחה, ככל האפשר, על ידי הכללים שקבעה המועצה ואולם היא תהיה רשאית לסטות מהכללים האמורים ומתקנות שהותקנו מכוח חוק זה, אם השתכנעה, מנימוקים שיירשמו, כי הסטיה הכרחית מטעמים של בטחון המדינה.</p>
+            </content>
+          </point>
+          <point eId="point_21">
+            <heading>
+              <authorialNote placement="side">
+                <p>מפקח על הניסויים במערכת הבטחון</p>
+              </authorialNote>
+            </heading>
+            <num>21.</num>
+            <list>
+              <point eId="point_21__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>מבקר מערכת הבטחון ימנה רופא וטרינר כמפקח על הניסויים בבעלי חיים במערכת הבטחון.</p>
+                </content>
+              </point>
+              <point eId="point_21__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>הסמכויות לפי <ref href="#point_15">סעיף 15</ref> בכל הנוגע לניסויים בבעלי חיים במערכת הבטחון מוקנות למפקח שמונה על פי סעיף קטן (א) או למי שהוא מינה לכך.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+        </list>
+      </chapter>
+      <chapter eId="chp_חמישי">
+        <num>פרק חמישי:</num>
+        <title>
+          <content>
+            <p>עונשין והוראות שונות</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_22">
+            <heading>
+              <authorialNote placement="side">
+                <p>שמירת סודיות</p>
+              </authorialNote>
+            </heading>
+            <num>22.</num>
+            <content>
+              <p>מי שממלא תפקיד מכוח חוק זה, לא יגלה ידיעה או תוכנו של מסמך שהגיעו לידיו מכוח תפקידו אלא על פי היתר בכתב מאת יושב ראש המועצה; אין בהוראה זו כדי למנוע גילוי לפי דרישת היועץ המשפטי לממשלה לצורך משפט פלילי או לפי דרישת בית המשפט.</p>
+            </content>
+          </point>
+          <point eId="point_23">
+            <heading>
+              <authorialNote placement="side">
+                <p>עונשין</p>
+              </authorialNote>
+            </heading>
+            <num>23.</num>
+            <list>
+              <intro>
+                <p>העושה אחת מאלה, דינו – מאסר שנה, ובעבירה נמשכת – קנס נוסף בשיעור מחצית הסכום הנקוב <ref href="/akn/il/act/PrimaryLegislation/1977-08-04/2002251#point_61">בסעיף 61(ג) לחוק העונשין, התשל"ז–1977</ref>, לכל יום שבו נמשכה העבירה:</p>
+              </intro>
+              <point eId="point_23__point_1">
+                <num>(1)</num>
+                <content>
+                  <p>ערך ניסויים בבעלי חיים ללא היתר או חרג מהיתר שניתן לו;</p>
+                </content>
+              </point>
+              <point eId="point_23__point_2">
+                <num>(2)</num>
+                <content>
+                  <p>גילה ידיעה או תוכנו של מסמך בניגוד <ref href="#point_22">לסעיף 22</ref>.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_24">
+            <heading>
+              <authorialNote placement="side">
+                <p>הוראת מעבר</p>
+              </authorialNote>
+            </heading>
+            <num>24.</num>
+            <list>
+              <point eId="point_24__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>השר ימנה את המועצה הראשונה תוך 90 ימים מיום קבלתו של חוק זה בכנסת.</p>
+                </content>
+              </point>
+              <point eId="point_24__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>המועצה תקבע כללים תוך שישה חודשים מיום מינויה; לא קבעה המועצה כללים עד למועד זה, יקבע יושב ראש המועצה, בהסכמת השר ובאישור ועדת החינוך והתרבות של הכנסת, כללים במקומה.</p>
+                </content>
+              </point>
+              <point eId="point_24__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>חוק זה לא יחול על ניסויים בבעלי חיים שהוחל בהם לפני תחילתו או על ניסויים בבעלי חיים שהוחל בהם לפני שנקבעו כללי המועצה לפי <ref href="#point_4">סעיף 4</ref>.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_25">
+            <heading>
+              <authorialNote placement="side">
+                <p>ביצוע ותקנות</p>
+              </authorialNote>
+            </heading>
+            <num>25.</num>
+            <list>
+              <point eId="point_25__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>השר ממונה על ביצוע חוק זה ובאישור ועדת החינוך והתרבות של הכנסת יקבע תקנות בכל הנוגע לביצועו לרבות קביעת סדרי דיון בערעורים לפי <ref href="#point_16">סעיף 16(ח)</ref>.</p>
+                </content>
+              </point>
+              <point eId="point_25__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>שר החקלאות, בהתייעצות עם שר הבריאות, יתקין תקנות בענין דרך ההחזקה והטיפול בבעלי חיים בבתי גידול.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_26">
+            <heading>
+              <authorialNote placement="side">
+                <p>דין המדינה</p>
+              </authorialNote>
+            </heading>
+            <num>26.</num>
+            <content>
+              <p>לענין חוק זה דין המדינה כדין כל אדם.</p>
+            </content>
+          </point>
+          <point eId="point_27">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>27.</num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryLegislation/1994-08-15/157612">בחוק צער בעלי חיים, התשנ"ד–1994</ref>.</wikicomment>
+              </p>
+            </content>
+          </point>
+          <point eId="point_28">
+            <heading>
+              <authorialNote placement="side">
+                <p>תחילה</p>
+              </authorialNote>
+            </heading>
+            <num>28.</num>
+            <content>
+              <p>תחילתו של חוק זה, למעט <ref href="#point_24">סעיפים 24(א) ו־(ב)</ref><ref href="#point_27">ו־27</ref>, בתום שנה מיום קבלתו.</p>
+            </content>
+          </point>
+          <point eId="point_29">
+            <heading>
+              <authorialNote placement="side">
+                <p>פרסום</p>
+              </authorialNote>
+            </heading>
+            <num>29.</num>
+            <content>
+              <p>חוק זה יפורסם ברשומות תוך 30 יום מקבלתו.</p>
+            </content>
+          </point>
+        </list>
+      </chapter>
+      <appendix eId="appendix">
+        <num></num>
+        <title>
+          <content>
+            <p>תוספת</p>
+          </content>
+        </title>
+        <subtitle eId="eId">
+          <num></num>
+          <content>
+            <p>
+              <wikicomment font-size="x-small">(<ref href="#point_8">סעיף 8(ד)</ref>)</wikicomment>
+            </p>
+          </content>
+        </subtitle>
+        <list>
+          <point eId="appendix__point_1">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>1.</num>
+            <content>
+              <p>לא יבוצעו ניסויים שיש עמם גרימת כאב או סבל, אלא בהרדמה כללית או מקומית או באלחוש (Analgesia). ביצוע ניסוי תוך הרפיית שרירים היקפית אסור אלא בליווי הרדמה כללית, אלא אם כן השימוש בחומרי ההרדמה נוגד את עצם הניסוי, או כאשר ההרדמה תגרום לסבל גדול מהצפוי בניסוי; במקרים כאמור יינקטו אמצעים חלופיים למזעור הכאב והסבל.</p>
+            </content>
+          </point>
+          <point eId="appendix__point_2">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>2.</num>
+            <content>
+              <p>סוג בעלי החיים בניסוי יוגבל לנמוך ביותר בסולם הפילוגנטי המאפשר את הניסוי בלי לפגום במטרותיו.</p>
+            </content>
+          </point>
+          <point eId="appendix__point_3">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>3.</num>
+            <content>
+              <p>נתחייבה המתת בעל חיים לאחר ניסוי, תיעשה ההמתה, ככל הניתן, בטרם שובו להכרה; בעלי חיים הצפויים או החשופים לכאב עז או לסבל ממושך לאחר הניסוי, יומתו גם אם לא הושגו מטרות הניסוי.</p>
+            </content>
+          </point>
+        </list>
+      </appendix>
+    </body>
+    <conclusions eId="eId">
+      <p class="signatures">
+        <signature>
+          <p>
+            <person refersTo="יצחק_רבין">יצחק רבין</person>
+            <role refersTo="ראש_הממשלה">ראש הממשלה</role>
+          </p>
+        </signature>
+        <signature>
+          <p>
+            <person refersTo="אפרים_סנה">אפרים סנה</person>
+            <role refersTo="שר_הבריאות">שר הבריאות</role>
+          </p>
+        </signature>
+        <signature>
+          <p>
+            <person refersTo="עזר_ויצמן">עזר ויצמן</person>
+            <role refersTo="נשיא_המדינה">נשיא המדינה</role>
+          </p>
+        </signature>
+        <signature>
+          <p>
+            <person refersTo="שבח_וייס">שבח וייס</person>
+            <role refersTo="יושב_ראש_הכנסת">יושב ראש הכנסת</role>
+          </p>
+        </signature>
+      </p>
+    </conclusions>
+  </act>
+</akomaNtoso>

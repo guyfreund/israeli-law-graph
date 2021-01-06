@@ -1,0 +1,1258 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion" name="publicLaw">
+    <meta>
+      <identification source="#kensset">
+        <FRBRWork>
+          <FRBRthis value="/akn/il/act/PrimaryLegislation/1951-07-11/147376/main" />
+          <FRBRuri value="/akn/il/act/PrimaryLegislation/1951-07-11/147376" />
+          <FRBRdate date="1951-07-11" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRcountry value="israel" />
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/il/act/PrimaryLegislation/1951-07-11/147376/he@/main" />
+          <FRBRuri value="/akn/il/act/PrimaryLegislation/1951-07-11/147376/he@" />
+          <FRBRdate date="1951-07-11" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRlanguage language="hebrew" />
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/il/act/PrimaryLegislation/1951-07-11/147376/he@/main.xml" />
+          <FRBRuri value="/akn/il/act/PrimaryLegislation/1951-07-11/147376/he@" />
+          <FRBRdate date="1951-07-11" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRformat value="xml" />
+        </FRBRManifestation>
+      </identification>
+      <classification source="#kensset">
+        <keyword value="{classificationValue}" showAs="{classificationValue}" dictionary="#classification_dictionary" />
+      </classification>
+      <lifecycle source="#kensset">
+        <eventRef eId="eventRef_1" date="1951-07-11" source="#kensset" type="generation" />
+      </lifecycle>
+      <references source="#kensset">
+        <TLCOrganization eId="kensset" href="/ontology/organization/akn/knesset" showAs="Kensset" type="generation" />
+        <TLCRole eId="author" href="/ontology/role/akn/author" showAs="Author of Document" />
+        <TLCProcess eId="inforce" href="/ontology/process/akn/inforce" showAs="In force" />
+        <TLCTerm eId="term_1" href="/ontology/term/החופשה/147376" showAs="החופשה" />
+        <TLCTerm eId="term_2" href="/ontology/term/מפקח_עבודה/147376" showAs="מפקח_עבודה" />
+        <TLCTerm eId="term_3" href="/ontology/term/עובד_בשכר/147376" showAs="עובד_בשכר" />
+        <TLCTerm eId="term_4" href="/ontology/term/קרן_חופשה/147376" showAs="קרן_חופשה" />
+        <TLCTerm eId="term_5" href="/ontology/term/שנת_עבודה/147376" showAs="שנת_עבודה" />
+        <TLCPerson eId="דוד_בן_גוריון" href="/ontology/person/דוד_בן_גוריון" showAs="דוד בן גוריון" />
+        <TLCPerson eId="גולדה_מאירסון" href="/ontology/person/גולדה_מאירסון" showAs="גולדה מאירסון" />
+        <TLCPerson eId="חיים_ווייצמן" href="/ontology/person/חיים_ווייצמן" showAs="חיים ווייצמן" />
+        <TLCRole eId="ראש_הממשלה" href="ontology/role/akn/ראש_הממשלה" showAs="ראש הממשלה" />
+        <TLCRole eId="שרת_העבודה" href="ontology/role/akn/שרת_העבודה" showAs="שרת העבודה" />
+        <TLCRole eId="נשיא_המדינה" href="ontology/role/akn/נשיא_המדינה" showAs="נשיא המדינה" />
+      </references>
+      <temporalData source="#kensset">
+        <temporalGroup eId="tmpg_1" />
+      </temporalData>
+      <Publication></Publication>
+      <proprietary wikiversion="9/13/2020 8:00:55 AM" />
+    </meta>
+    <body period="#tmpg_1">
+      <title eId="title">
+        <content>
+          <p>חוק חופשה שנתית, תשי"א–1951</p>
+        </content>
+      </title>
+      <chapter eId="chp_ראשון">
+        <num>פרק ראשון:</num>
+        <title>
+          <content>
+            <p>מבוא</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_1" class="definitions">
+            <heading>
+              <authorialNote placement="side">
+                <p>פירושים</p>
+              </authorialNote>
+            </heading>
+            <num>1.</num>
+            <list>
+              <intro>
+                <p>בחוק זה –</p>
+              </intro>
+              <point eId="point_1__point_החופשה">
+                <content>
+                  <p>
+                    <def />”החופשה“ פירושו – חופשה שנתית המגיעה לעובד על פי חוק זה;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_מפקח_עבודה">
+                <content>
+                  <p>
+                    <def />”מפקח עבודה“ פירושו – מפקח, כמשמעותו <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_מחלקת_העבודה">בפקודת מחלקת העבודה, 1943</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_עובד_בשכר">
+                <content>
+                  <p>
+                    <def />”עובד בשכר“ פירושו – עובד שגמול עבודתו, כולו או חלקו, משתלם שלא על בסיס של חודש או תקופה ארוכה מזו;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_קרן_חופשה">
+                <content>
+                  <p>
+                    <def />”קרן חופשה“ פירושה – קרן חופשה ששר העבודה הקימה או הסמיכה על פי <ref href="#point_18">סעיף 18</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_שנת_עבודה">
+                <content>
+                  <p>
+                    <def />”שנת עבודה“ פירושו – פרק זמן של שנים עשר חודש, שתחילתו אחד בינואר של כל שנה.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+        </list>
+      </chapter>
+      <chapter eId="chp_שני">
+        <num>פרק שני:</num>
+        <title>
+          <content>
+            <p>החופשה</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_2">
+            <heading>
+              <authorialNote placement="side">
+                <p>הזכות לחופשה</p>
+              </authorialNote>
+            </heading>
+            <num>2.</num>
+            <content>
+              <p>כל עובד זכאי לחופשה שתינתן לפי הוראות חוק זה.</p>
+            </content>
+          </point>
+          <point eId="point_3">
+            <heading>
+              <authorialNote placement="side">
+                <p>אורך החופשה</p>
+              </authorialNote>
+            </heading>
+            <num>3.</num>
+            <list>
+              <point eId="point_3__point_א">
+                <num>(א)</num>
+                <list>
+                  <intro>
+                    <p>אורך החופשה לכל שנת עבודה אצל מעסיק אחד או במקום עבודה אחד הוא:</p>
+                  </intro>
+                  <point eId="point_3__point_א__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>בעד כל אחת מ־5 השנים הראשונות – 16 יום;</p>
+                    </content>
+                  </point>
+                  <point eId="point_3__point_א__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>
+                        <wikicomment font-size="x-small">(נמחקה);</wikicomment>
+                      </p>
+                    </content>
+                  </point>
+                  <point eId="point_3__point_א__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>בעד השנה השישית – 18 יום;</p>
+                    </content>
+                  </point>
+                  <point eId="point_3__point_א__point_4">
+                    <num>(4)</num>
+                    <content>
+                      <p>בעד השנה השביעית – 21 יום;</p>
+                    </content>
+                  </point>
+                  <point eId="point_3__point_א__point_5">
+                    <num>(5)</num>
+                    <content>
+                      <p>בעד השנה השמינית ואילך – יום נוסף לכל שנת עבודה עד לחופשה של 28 יום;</p>
+                    </content>
+                  </point>
+                  <wrapup eId="point_3__point_א__wrapup_none">
+                    <content>
+                      <p>אך שר העבודה רשאי לקבוע, בתקנות, לעבודה מסויימת חופשה ארוכה מזו, אם ראה צורך בכך מטעמים שבבריאות העובד או שבנסיבות העבודה; בימי החופשה לא ייכלל אלא מנוחה שבועית אחת לכל שבעה ימי חופשה.</p>
+                    </content>
+                  </wrapup>
+                </list>
+              </point>
+              <point eId="point_3__point_ב">
+                <num>(ב)</num>
+                <list>
+                  <intro>
+                    <p>היה הקשר המשפטי שבין העובד ובין המעסיק קיים כל שנת העבודה, והעובד עבד באותה שנה –</p>
+                  </intro>
+                  <point eId="point_3__point_ב__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>לפחות 200 ימים – יהיה מספר ימי החופשה כאמור בסעיף קטן (א);</p>
+                    </content>
+                  </point>
+                  <point eId="point_3__point_ב__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>פחות מ־200 ימים – יהיה מספר ימי החופשה חלק יחסי ממספר הימים שלפי סעיף קטן (א), כיחס מספר ימי העבודה בפועל אל המספר 200; חלק של יום חופשה לא יובא במנין.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_3__point_ג">
+                <num>(ג)</num>
+                <list>
+                  <intro>
+                    <p>היה הקשר המשפטי שבין העובד ובין המעסיק קיים בחלק משנת העבודה, והעובד עבד בתוך אותו חלק שנה –</p>
+                  </intro>
+                  <point eId="point_3__point_ג__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>לפחות 240 ימים – יהיה מספר ימי החופשה כאמור בסעיף קטן (א);</p>
+                    </content>
+                  </point>
+                  <point eId="point_3__point_ג__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>פחות מ־240 ימים – יהיה מספר ימי החופשה חלק יחסי ממספר הימים שלפי סעיף קטן (א), כיחס מספר ימי העבודה בפועל אל המספר 240; חלק של יום חופשה לא יובא במנין.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+            </list>
+          </point>
+          <point eId="point_4">
+            <heading>
+              <authorialNote placement="side">
+                <p>עובד זמני בשכר</p>
+              </authorialNote>
+            </heading>
+            <num>4.</num>
+            <list>
+              <point eId="point_4__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>
+                    <ref href="#point_3">סעיף 3</ref> אינו חל על עובד בשכר שעבד פחות מ־75 ימים רצופים, אצל מעסיק אחד או במקום עבודה אחד, בין בשנת עבודה אחת ובין בשתי שנות עבודה רצופות. לעובד כאמור תשולם תמורת חופשה, כמפורש <ref href="#chp_3">בפרק השלישי</ref>.</p>
+                </content>
+              </point>
+              <point eId="point_4__point_ב">
+                <num>(ב)</num>
+                <list>
+                  <intro>
+                    <p>לענין סעיף קטן (א) רואים ימי עבודה כרצופים, אפילו חלה הפסקה בעבודה מחמת –</p>
+                  </intro>
+                  <point eId="point_4__point_ב__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>שירות מילואים לפי <ref href="/akn/il/act/PrimaryLegislation/2008-04-16/245332">חוק שירות המילואים, התשס"ח–2008</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_4__point_ב__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>יום המנוחה השבועית או חג שאין עובדים בהם, אם על פי חוק ואם על פי הסכם או נוהג, וכן אחד במאי;</p>
+                    </content>
+                  </point>
+                  <point eId="point_4__point_ב__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>חופשה על פי חוק זה וכל חופשה או פגרה שניתנה לעובד על פי חוק או בהסכמת המעסיק, בין בשכר ובין שלא בשכר;</p>
+                    </content>
+                  </point>
+                  <point eId="point_4__point_ב__point_4">
+                    <num>(4)</num>
+                    <content>
+                      <p>שביתה או השבתה;</p>
+                    </content>
+                  </point>
+                  <point eId="point_4__point_ב__point_5">
+                    <num>(5)</num>
+                    <content>
+                      <p>תאונה או מחלה;</p>
+                    </content>
+                  </point>
+                  <point eId="point_4__point_ב__point_6">
+                    <num>(6)</num>
+                    <content>
+                      <p>ימי אבל במשפחה שמטעמי דת או נוהג לא עבד בהם העובד;</p>
+                    </content>
+                  </point>
+                  <point eId="point_4__point_ב__point_7">
+                    <num>(7)</num>
+                    <content>
+                      <p>הפסקה ארעית ללא הפסקת יחסי עבודה;</p>
+                    </content>
+                  </point>
+                  <point eId="point_4__point_ב__point_8">
+                    <num>(8)</num>
+                    <content>
+                      <p>אימון לשירות עבודה לפי <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/חוק_שירות_עבודה_בשעת_חירום">חוק שירות עבודה בשעת חירום, תשכ"ז–1967</ref>.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+            </list>
+          </point>
+          <point eId="point_5">
+            <heading>
+              <authorialNote placement="side">
+                <p>חישוב ימי החופשה</p>
+              </authorialNote>
+            </heading>
+            <num>5.</num>
+            <list>
+              <point eId="point_5__point_א">
+                <num>(א)</num>
+                <list>
+                  <intro>
+                    <p>ואלה הימים שלא יובאו במנין ימי החופשה;</p>
+                  </intro>
+                  <point eId="point_5__point_א__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>הימים בהם שירת העובד שירות מילואים לפי <ref href="/akn/il/act/PrimaryLegislation/2008-04-16/245332">חוק שירות המילואים, התשס"ח–2008</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_5__point_א__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>ימי חג שאין עובדים בהם, אם על פי חוק ואם על פי הסכם או נוהג – להוציא ימי המנוחה השבועית;</p>
+                    </content>
+                  </point>
+                  <point eId="point_5__point_א__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>ימי תקופת לידה והורות;</p>
+                    </content>
+                  </point>
+                  <point eId="point_5__point_א__point_4">
+                    <num>(4)</num>
+                    <content>
+                      <p>הימים שבהם אין העובד מסוגל לעבוד מחמת תאונה או מחלה;</p>
+                    </content>
+                  </point>
+                  <point eId="point_5__point_א__point_5">
+                    <num>(5)</num>
+                    <content>
+                      <p>ימי אבל במשפחה, שמטעמי דת או נוהג אין העובד עובד בהם;</p>
+                    </content>
+                  </point>
+                  <point eId="point_5__point_א__point_6">
+                    <num>(6)</num>
+                    <content>
+                      <p>ימי שביתה או השבתה;</p>
+                    </content>
+                  </point>
+                  <point eId="point_5__point_א__point_7">
+                    <num>(7)</num>
+                    <content>
+                      <p>ימי הודעה מוקדמת לפיטורים, אלא אם עלו על ארבעה עשר ובמידה שעלו.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_5__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>חלו ימים מן האמורים בסעיף קטן (א) בימי החופשה, יראו את החופשה כנפסקת לאותם הימים, ויש להשלימה ככל האפשר תוך אותה שנת עבודה.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_6">
+            <heading>
+              <authorialNote placement="side">
+                <p>מועד החופשה</p>
+              </authorialNote>
+            </heading>
+            <num>6.</num>
+            <list>
+              <point eId="point_6__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>החופשה תינתן בחודש האחרון של שנת העבודה שבעדה היא ניתנת, או במשך שנת העבודה שלאחריה.</p>
+                </content>
+              </point>
+              <point eId="point_6__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>על אף הוראות סעיף קטן (א), רשאי עובד לקחת יום אחד מן החופשה במהלך שנת העבודה שבעדה היא ניתנת במועד שיבחר ויום אחד נוסף באחד מהימים המנויים <ref href="#appendix">בתוספת</ref>, ואולם אין ברשימת הימים כאמור כדי לפגוע בהוראות <ref href="#point_5">סעיף 5</ref>, ובלבד שהודיע על כך למעסיקו 30 ימים מראש לפחות.</p>
+                </content>
+              </point>
+              <point eId="point_6__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>שר התעשייה המסחר והתעסוקה רשאי, בצו, להוסיף על רשימת הימים המנויים <ref href="#appendix">בתוספת</ref>.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_7">
+            <heading>
+              <authorialNote placement="side">
+                <p>צבירת החופשה</p>
+              </authorialNote>
+            </heading>
+            <num>7.</num>
+            <list>
+              <point eId="point_7__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>אין החופשה ניתנת לצבירה; ואולם רשאי העובד בהסכמת המעסיק, לקחת רק שבעה ימי חופשה לפחות ולצרף את היתרה לחופשה שתינתן בשתי שנות העבודה הבאות.</p>
+                </content>
+              </point>
+              <point eId="point_7__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>שר העבודה רשאי, בתקנות, לאסור צבירת חופשה אם, לדעתו, בריאות העובד או הנסיבות בהן העבודה נעשית מחייבים כי כל החופשה תינתן לעובד מדי שנה בשנה.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_8">
+            <heading>
+              <authorialNote placement="side">
+                <p>רציפות החופשה</p>
+              </authorialNote>
+            </heading>
+            <num>8.</num>
+            <content>
+              <p>החופשה תהיה רצופה, אלא שבהסכמת העובד והמעסיק ובאישור ועד העובדים במקום, אם ישנו, אפשר לחלקה, ובלבד, שפרק אחד ממנה יהיה לפחות שבעה ימים.</p>
+            </content>
+          </point>
+          <point eId="point_9">
+            <heading>
+              <authorialNote placement="side">
+                <p>תחילת החופשה</p>
+              </authorialNote>
+            </heading>
+            <num>9.</num>
+            <list>
+              <point eId="point_9__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>תאריך תחילת החופשה ייקבע לפחות ארבעה עשר יום מראש, ומשנקבע התאריך, ירשום אותו המעסיק בפנקס המתנהל על פי <ref href="#point_26">סעיף 26</ref>, אם הוא חייב לנהל פנקס כזה.</p>
+                </content>
+              </point>
+              <point eId="point_9__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>סעיף זה אינו חל על חלקי חופשה של פחות משבעה ימים.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+        </list>
+      </chapter>
+      <chapter eId="chp_שלישי">
+        <num>פרק שלישי:</num>
+        <title>
+          <content>
+            <p>תשלומים</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_10">
+            <heading>
+              <authorialNote placement="side">
+                <p>דמי החופשה</p>
+              </authorialNote>
+            </heading>
+            <num>10.</num>
+            <list>
+              <point eId="point_10__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>המעסיק חייב לשלם לעובד בעד ימי החופשה דמי חופשה בסכום השווה לשכרו הרגיל.</p>
+                </content>
+              </point>
+              <point eId="point_10__point_ב">
+                <num>(ב)</num>
+                <list>
+                  <intro>
+                    <p>השכר הרגיל לענין סעיף זה הוא –</p>
+                  </intro>
+                  <point eId="point_10__point_ב__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>לגבי עובד שגמול עבודתו, כולו או חלקו, משתלם על בסיס של חודש או תקופה ארוכה מזו – שכר העבודה שהעובד היה מקבל בעד אותו פרק זמן אילו לא יצא לחופשה והוסיף לעבוד;</p>
+                    </content>
+                  </point>
+                  <point eId="point_10__point_ב__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>לגבי עובד בשכר – שכר העבודה היומי הממוצע כפול במספר ימי החופשה; שכר העבודה היומי הממוצע הוא הסכום היוצא מחילוק שכר רבע השנה שקדמה לחופשה למספר תשעים; היו ברבע השנה כאמור חדשי עבודה לא־מלאה, יחושב השכר היומי הממוצע לפי רבע השנה של העבודה המלאה ביותר שבשנים עשר החדשים שקדמו לחופשה, הכל לפי בחירת העובד.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_10__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>שכר עבודה לענין סעיף (ב) הוא כל תמורה, בכסף או בשווה כסף, המשתלמת לעובד על ידי המעסיק בעד שעות העבודה הרגילות, זולת אם נקבע אחרת בהסכם קיבוצי שאושר לענין זה על ידי שר העבודה. סכום המשתלם לעובד לכיסוי הוצאות מיוחדות שאינן קיימות בעת החופשה, אין רואים אותו כחלק משכר העבודה.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_11">
+            <heading>
+              <authorialNote placement="side">
+                <p>המועד לתשלום דמי החופשה</p>
+              </authorialNote>
+            </heading>
+            <num>11.</num>
+            <content>
+              <p>דמי החופשה ישולמו לכל המאוחר ביום שבו היו משלמים לעובד את שכרו, אילו לא יצא לחופשה והוסיף לעבוד; אך אם העובד יצא לחופשה של שבעה ימים לפחות, ודרש להקדים את תשלום דמי החופשה – ישולמו לכל המאוחר שני ימים לפני תחילת החופשה.</p>
+            </content>
+          </point>
+          <point eId="point_12">
+            <heading>
+              <authorialNote placement="side">
+                <p>איבוד הזכות לדמי חופשה</p>
+              </authorialNote>
+            </heading>
+            <num>12.</num>
+            <content>
+              <p>עובד לא יעבוד בשכר בימי חופשתו, ואם עבד עבודה סדירה בשכר, איבד את זכותו לדמי חופשה; ואם כבר שולמו, רשאי המעסיק לנכותם משכר העבודה שישולם לעובד, או לגבותם בכל דרך בה גובים חוב אזרחי.</p>
+            </content>
+          </point>
+          <point eId="point_13">
+            <heading>
+              <authorialNote placement="side">
+                <p>פדיון חופשה</p>
+              </authorialNote>
+            </heading>
+            <num>13.</num>
+            <content>
+              <p>חדל עובד לעבוד לפני שניתנה לו החופשה המגיעה לו עד ליום שבו חדל לעבוד, ישלם המעסיק פדיון חופשה בסכום השווה לדמי החופשה שהיו משתלמים לעובד אילו יצא לחופשה ביום שבו חדל לעבוד.</p>
+            </content>
+          </point>
+          <point eId="point_14">
+            <heading>
+              <authorialNote placement="side">
+                <p>חישוב השכר הרגיל, חילוקי דעות בדבר תשלומים</p>
+              </authorialNote>
+            </heading>
+            <num>14.</num>
+            <list>
+              <point eId="point_14__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>שר העבודה רשאי לקבוע, בתקנות, הוראות משלימות בדבר חישוב השכר הרגיל לענין <ref href="#point_10">סעיף 10</ref>.</p>
+                </content>
+              </point>
+              <point eId="point_14__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>התעוררו חילוקי דעות בדבר דרך חישובם של דמי החופשה, או של פדיון החופשה, או בקשר <ref href="#point_12">לסעיף 12</ref>, יכריע בית דין אזורי כמשמעותו <ref href="/akn/il/act/PrimaryLegislation/1969-03-27/165789">בחוק בית הדין לעבודה, תשכ"ט–1969</ref>.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_15">
+            <heading>
+              <authorialNote placement="side">
+                <p>תשלום תמורת חופשה</p>
+              </authorialNote>
+            </heading>
+            <num>15.</num>
+            <list>
+              <point eId="point_15__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>עובד בשכר העובד אצל מעסיק אחד או במקום עבודה אחד לפחות יום אחד אך פחות מ־75 ימים רצופים כאמור <ref href="#point_4">בסעיף 4</ref>, בין בשנת עבודה אחת ובין בשתי שנות עבודה רצופות, ואין ביניהם חוזה עבודה בכתב לתקופת עבודה רצופה העולה על 74 ימים – ישלם בעדו המעסיק תמורת חופשה 4% לפחות משכר העבודה.</p>
+                </content>
+              </point>
+              <point eId="point_15__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>תמורת החופשה תשולם לקרן החופשה של ענף העבודה שבו עבד העובד או בכל דרך אחרת שנקבעה בתקנות.</p>
+                </content>
+              </point>
+              <point eId="point_15__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>היתה תמורת החופשה משתלמת לקרן החופשה, חייב המעסיק לשלמה בתחילת החודש שלאחר חודש העבודה, לפי שכר העבודה המשתלם בחודש שלפניו לעובדים כאמור בסעיף קטן (א); המשיך העובד לעבוד אצל אותו מעסיק או באותו מקום עבודה מעל ל־74 ימים רצופים, ישלם לו המעסיק את דמי החופשה, או פדיון חופשה, הכל לפי הענין, וקרן החופשה תחזיר למעסיק, לפי בקשתו, את הסכומים שהעביר לה בשל אותו עובד; שר העבודה רשאי לקבוע בתקנות את המועדים והסדרים להחזרת הסכומים על ידי קרן החופשה, כאמור.</p>
+                </content>
+              </point>
+              <point eId="point_15__point_ד">
+                <num>(ד)</num>
+                <content>
+                  <p>תמורת החופשה ששולמה לקרן חופשה תימסר לעובד לפי הוראות תקנון הקרן, ותמורת החופשה ששולמה בדרך אחרת תימסר לעובד בדרך שתיקבע בתקנות.</p>
+                </content>
+              </point>
+              <point eId="point_15__point_ה">
+                <num>(ה)</num>
+                <content>
+                  <p>קרן החופשה רשאית – בהסכמת העובדים שתינתן בהסכם קיבוצי, בחוזה עבודה או בדרך אחרת שתיקבע – לבוא לידי הסכם עם המעסיק בדבר תשלום דמי החופשה לקרן גם בעד עובדים שעבדו אצלו מעל ל־75 ימים.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_16">
+            <heading>
+              <authorialNote placement="side">
+                <p>זכות לתבוע תמורת חופשה</p>
+              </authorialNote>
+            </heading>
+            <num>16.</num>
+            <content>
+              <p>תמורת חופשה שמעסיק חייב לשלמה, יראוה כחוב המגיע ממנו לקרן החופשה או למי שיש לשלמה בהתאם לתקנות.</p>
+            </content>
+          </point>
+          <point eId="point_17">
+            <heading>
+              <authorialNote placement="side">
+                <p>דין התשלומים</p>
+              </authorialNote>
+            </heading>
+            <num>17.</num>
+            <content>
+              <p>דמי חופשה, פדיון חופשה ותמורת חופשה, דינם לכל דבר כדין שכר עבודה.</p>
+            </content>
+          </point>
+        </list>
+      </chapter>
+      <chapter eId="chp_רביעי">
+        <num>פרק רביעי:</num>
+        <title>
+          <content>
+            <p>קרנות חופשה</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_18">
+            <heading>
+              <authorialNote placement="side">
+                <p>הקמה או הסמכה</p>
+              </authorialNote>
+            </heading>
+            <num>18.</num>
+            <list>
+              <point eId="point_18__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>שר העבודה רשאי להקים קרן חופשה, וכן רשאי הוא להסמיך קרן חופשה בתנאים שימצא לנכון, אם נוכח כי יש בה ערובה מספקת לשימוש יעיל בתמורת החופשה לנופש ולהבראה.</p>
+                </content>
+              </point>
+              <point eId="point_18__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>לא יקים ולא יסמיך שר העבודה יותר מקרן חופשה אחת לענף עבודה אחד.</p>
+                </content>
+              </point>
+              <point eId="point_18__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>קרן החופשה תתנהל על ידי העובדים כפי שייקבע בתקנות.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_19">
+            <heading>
+              <authorialNote placement="side">
+                <p>פיקוח</p>
+              </authorialNote>
+            </heading>
+            <num>19.</num>
+            <content>
+              <p>קרן חופשה תהיה נתונה לפיקוח שר העבודה, בהתאם לתקנות.</p>
+            </content>
+          </point>
+          <point eId="point_20">
+            <heading>
+              <authorialNote placement="side">
+                <p>גוף מאוגד</p>
+              </authorialNote>
+            </heading>
+            <num>20.</num>
+            <content>
+              <p>קרן חופשה היא גוף מאוגד, ורשאית היא להתקשר בחוזים ולהיות צד בכל הליך משפטי ובכל משא ומתן אחר.</p>
+            </content>
+          </point>
+          <point eId="point_21">
+            <heading>
+              <authorialNote placement="side">
+                <p>התקנון</p>
+              </authorialNote>
+            </heading>
+            <num>21.</num>
+            <content>
+              <p>שר העבודה יקבע תקנון לדוגמה לקרנות חופשה ואותו תקנון, בשינויים שיאושרו על ידיו, יהיה לתקנון של קרן חופשה, והקרן תפעל לפיו; התקנון לדוגמה יפורסם ברשומות.</p>
+            </content>
+          </point>
+          <point eId="point_22">
+            <heading>
+              <authorialNote placement="side">
+                <p>דרכי הפעולה</p>
+              </authorialNote>
+            </heading>
+            <num>22.</num>
+            <content>
+              <p>שר העבודה רשאי לקבוע בתקנות הוראות בדבר דרך יסודה של קרן חופשה, דרך פעולתה, הנהלת חשבונותיה, הגשת דינים וחשבונות ופרסומם, דרכי הפיקוח עליה, ואופן השקעת כספים והשימוש בעודפים לשם נופש והבראה, וכן בדבר הקמתן של ועדות בקורת, הרכבן ודרכי פעולתן.</p>
+            </content>
+          </point>
+          <point eId="point_23">
+            <heading>
+              <authorialNote placement="side">
+                <p>ביטול הסמכה או פירוק</p>
+              </authorialNote>
+            </heading>
+            <num>23.</num>
+            <list>
+              <point eId="point_23__point_א">
+                <num>(א)</num>
+                <list>
+                  <intro>
+                    <p>שר העבודה רשאי לבטל את הסמכתה של קרן חופשה, או לפרק קרן חופשה שהוקמה על ידיו, בכל אחד משלושה אלה:</p>
+                  </intro>
+                  <point eId="point_23__point_א__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>אין הקרן מקיימת את התנאים שנקבעו להסמכתה;</p>
+                    </content>
+                  </point>
+                  <point eId="point_23__point_א__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>אין הקרן ממלאה אחרי תקנות שהותקנו לפי חוק זה;</p>
+                    </content>
+                  </point>
+                  <point eId="point_23__point_א__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>הביטול או הפירוק רצוי, לדעת שר העבודה, לטובת האנשים שלהם משתלמת תמורת חופשה.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_23__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>ביטל שר העבודה את הסמכתה של קרן חופשה, או פירק קרן חופשה, יודיע בצו, למי ובאיזה תנאים יעברו כספי הקרן. ניתן הצו, יוקנו כספי הקרן למי שהועברו אליו לפי הצו, ולאיש זולתו לא תהיה שליטה עליהם.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_24">
+            <heading>
+              <authorialNote placement="side">
+                <p>פרסום הודעות</p>
+              </authorialNote>
+            </heading>
+            <num>24.</num>
+            <content>
+              <p>הודעה על הקמת קרן חופשה או הסמכתה, וכן הודעה על פירוק קרן חופשה או על ביטול הסמכה, תפורסם ברשומות.</p>
+            </content>
+          </point>
+          <point eId="point_25">
+            <heading>
+              <authorialNote placement="side">
+                <p>רושם קרנות חופשה</p>
+              </authorialNote>
+            </heading>
+            <num>25.</num>
+            <list>
+              <point eId="point_25__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>שר העבודה ימנה אדם להיות רושם קרנות חופשה; הודעה על המינוי תפורסם ברשומות.</p>
+                </content>
+              </point>
+              <point eId="point_25__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>שר העבודה רשאי להעביר לרושם קרנות החופשה את הסמכויות הנתונות לו על פי <ref href="#chp_4">פרק זה</ref>, חוץ מהסמכויות להתקין תקנות, לפרק קרן חופשה או לבטל את הסמכתה; הודעה על העברת סמכויות תפורסם ברשומות.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+        </list>
+      </chapter>
+      <chapter eId="chp_חמישי">
+        <num>פרק חמישי:</num>
+        <title>
+          <content>
+            <p>ביצוע וענשים</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_26">
+            <heading>
+              <authorialNote placement="side">
+                <p>פנקס חופשה</p>
+              </authorialNote>
+            </heading>
+            <num>26.</num>
+            <list>
+              <point eId="point_26__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>מעסיק חייב לנהל פנקס חופשה שבו יירשמו ביחס לכל עובד הפרטים שייקבעו בתקנות.</p>
+                </content>
+              </point>
+              <point eId="point_26__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>שר העבודה יקבע, בהודעה שתפורסם ברשומות, את סוגי המעסיקים שעליהם יחול סעיף זה.</p>
+                </content>
+              </point>
+              <point eId="point_26__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>בהודעה על פי סעיף קטן (ב) רשאי שר העבודה לקבוע שפנקס החופשה יהיה חלק מפנקס אחר שהמעסיק חייב לנהלו על פי חוק ששר העבודה ממונה על ביצועו.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_27">
+            <heading>
+              <authorialNote placement="side">
+                <p>סמכויות מפקח עבודה</p>
+              </authorialNote>
+            </heading>
+            <num>27.</num>
+            <list>
+              <point eId="point_27__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>סמכויותיו של מפקח עבודה, ביחס לכל מקום שיש לו יסוד להניח כי עובד בו עובד, הן כסמכויותיו של מפקח לפי <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_מחלקת_העבודה#point_4">סעיף 4(1) לפקודת מחלקת העבודה, 1943</ref>.</p>
+                </content>
+              </point>
+              <point eId="point_27__point_ב">
+                <num>(ב)</num>
+                <list>
+                  <point eId="point_27__point_ב__point_none">
+                    <content>
+                      <p>מפקח עבודה רשאי לחקור, בכל ענין הנוגע לחוק זה, כל אדם הנמצא במקום שאליו בא מפקח העבודה בתוקף סמכויותיו לפי סעיף קטן (א); אך לא יידרש אדם ליתן תשובה או עדות העלולה לגלגל עליו אשמה פלילית.</p>
+                    </content>
+                  </point>
+                  <point eId="point_27__point_ב__point_none">
+                    <content>
+                      <p>מפקח עבודה רשאי לרשום בפרוטוקול את תשובותיו והודעותיו של הנחקר.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_27__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>דין פרוטוקול שנרשם בהתאם לסעיף קטן (ב) כדין הודעה שנרשמה בהתאם <ref href="/akn/il/act/PrimaryLegislation/1933-12-31/2001433#point_2">לסעיף 2 לפקודת הפרוצדורה הפלילית (עדות)</ref>, <ref href="/akn/il/act/PrimaryLegislation/1933-12-31/2001433#point_3">והסעיפים 3</ref><ref href="/akn/il/act/PrimaryLegislation/1933-12-31/2001433#point_4">ו־4 לאותה פקודה</ref> חלים עליו.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_28">
+            <heading>
+              <authorialNote placement="side">
+                <p>עבירות ועונשים</p>
+              </authorialNote>
+            </heading>
+            <num>28.</num>
+            <list>
+              <point eId="point_28__point_א">
+                <num>(א)</num>
+                <list>
+                  <intro>
+                    <p>מעסיק שעבר אחת העבירות האלה –</p>
+                  </intro>
+                  <point eId="point_28__point_א__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>לא נתן לעובדו חופשה לפי חוק זה;</p>
+                    </content>
+                  </point>
+                  <point eId="point_28__point_א__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>לא שילם, בלי צידוק מספיק ותוך זמן המתקבל על הדעת, דמי חופשה, פדיון חופשה או תמורת חופשה לפי חוק זה,</p>
+                    </content>
+                  </point>
+                  <wrapup eId="point_28__point_א__wrapup_none">
+                    <content>
+                      <p>דינו – קנס חמישים לירות ביחס לכל עובד שלגביו נעברה העבירה.</p>
+                    </content>
+                  </wrapup>
+                </list>
+              </point>
+              <point eId="point_28__point_ב">
+                <num>(ב)</num>
+                <list>
+                  <intro>
+                    <p>אדם שעבר אחת העבירות האלה –</p>
+                  </intro>
+                  <point eId="point_28__point_ב__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>הפריע למפקח עבודה להשתמש בסמכויותיו;</p>
+                    </content>
+                  </point>
+                  <point eId="point_28__point_ב__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>סירב להשיב למפקח עבודה על שאלה שהוא חייב להשיב עליה;</p>
+                    </content>
+                  </point>
+                  <point eId="point_28__point_ב__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>לא ניהל פנקס חופשה לפי <ref href="#point_26">סעיף 26</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_28__point_ב__point_4">
+                    <num>(4)</num>
+                    <content>
+                      <p>לא רשם את הפרטים שיש לרשמם בפנקס חופשה או רשם פרטים לא נכונים או לא מלאים;</p>
+                    </content>
+                  </point>
+                  <point eId="point_28__point_ב__point_5">
+                    <num>(5)</num>
+                    <content>
+                      <p>עבר על תקנות שהתקין שר העבודה על פי חוק זה,</p>
+                    </content>
+                  </point>
+                  <wrapup eId="point_28__point_ב__wrapup_none">
+                    <content>
+                      <p>דינו – קנס עד חמישים לירות.</p>
+                    </content>
+                  </wrapup>
+                </list>
+              </point>
+            </list>
+          </point>
+          <point eId="point_29">
+            <heading>
+              <authorialNote placement="side">
+                <p>אחריות של חבר הנהלה ושל מנהלים</p>
+              </authorialNote>
+            </heading>
+            <num>29.</num>
+            <list>
+              <intro>
+                <p>חברה, אגודה שיתופית או כל חבר אנשים אחר שלא נתן לעובד חופשה לפי חוק זה או שלא שילם, בלי צידוק מספיק ותוך זמן המתקבל על הדעת, דמי חופשה, פדיון חופשה או תמורת חופשה, רואים כאשם לעבירה גם כל חבר הנהלה, מנהל או פקיד של אותו חבר אנשים, ואפשר להביאו לדין ולהענישו כאילו עבר הוא את העבירה, אם לא הוכיח אחד משני אלה:</p>
+              </intro>
+              <point eId="point_29__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>שהעבירה נעברה שלא בידיעתו;</p>
+                </content>
+              </point>
+              <point eId="point_29__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>שנקט כל האמצעים הנאותים כדי להבטיח שהוראות חוק זה בקשר לעבירה הנידונה יקוימו.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_30">
+            <heading>
+              <authorialNote placement="side">
+                <p>חיוב תשלום</p>
+              </authorialNote>
+            </heading>
+            <num>30.</num>
+            <list>
+              <point eId="point_30__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>במשפט שבו נאשם אדם בעבירה על פי <ref href="#point_28">סעיף 28(א)(1)</ref>, הזכות בידי העובד לטעון ולחקור עדים, ורשאי בית המשפט או בית דין לעבודה, לפי בקשת העובד, לחייב את הנאשם לשלם לעובד סכום השווה לדמי חופשה שהיו משתלמים לו אילו ניתנה החופשה בסוף שנת העבודה שאחרי שנת העבודה שבעדה הגיעה החופשה.</p>
+                </content>
+              </point>
+              <point eId="point_30__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>במשפט שבו נאשם אדם בעבירה על פי <ref href="#point_28">סעיף 28(א)(2)</ref>, הזכות בידי העובד או בידי מי שיש לשלם לו את תמורת החופשה, הכל לפי הענין, לטעון ולחקור עדים, ורשאי בית המשפט או בית דין לעבודה, לפי בקשת העובד או לפי בקשת מי שיש לשלם לו את תמורת החופשה, לחייב את הנאשם לשלם את דמי החופשה, פדיון החופשה או את תמורת החופשה, שהנאשם היה חייב לשלם ולא עשה כן.</p>
+                </content>
+              </point>
+              <point eId="point_30__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>החלטת בית המשפט או בית דין לעבודה המחייבת את הנאשם בתשלום, כאמור בסעיף קטן (א) או בסעיף קטן (ב), דינה, בכל הנוגע להוצאה לפועל, כדין פסק דין סופי של בית משפט מוסמך, לטובת העובד או לטובת מי שיש לשלם לו את תמורת החופשה, הכל לפי הענין.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_31">
+            <heading>
+              <authorialNote placement="side">
+                <p>התישנות</p>
+              </authorialNote>
+            </heading>
+            <num>31.</num>
+            <content>
+              <p>תקופת ההתישנות לכל תביעה על פי חוק זה, בין אזרחית ובין פלילית, היא שלוש שנים.</p>
+            </content>
+          </point>
+          <point eId="point_32">
+            <heading>
+              <authorialNote placement="side">
+                <p>חופשה בשעת חירום</p>
+              </authorialNote>
+            </heading>
+            <num>32.</num>
+            <content>
+              <p>בשעה שלדעת שר העבודה צרכי ההספקה במדינה מחייבים זאת, רשאי שר העבודה, בצו כללי או מיוחד, לדחות את מועד החופשה, לגבי כל העובדים או לגבי סוג מסויים של עובדים; נתן שר העבודה צו כאמור, יקבע הוא מתוך איזה מועד תינתן החופשה או באיזו דרך יפצו את העובד על החופשה.</p>
+            </content>
+          </point>
+          <point eId="point_33">
+            <heading>
+              <authorialNote placement="side">
+                <p>דין עובדי המדינה</p>
+              </authorialNote>
+            </heading>
+            <num>33.</num>
+            <content>
+              <p>לענין חוק זה דין עובד המדינה כדין כל עובד אחר.</p>
+            </content>
+          </point>
+          <point eId="point_34">
+            <heading>
+              <authorialNote placement="side">
+                <p>חבורת עובדים</p>
+              </authorialNote>
+            </heading>
+            <num>34.</num>
+            <content>
+              <p>בחבורת עובדים, בין שהיא גוף מאוגד ובין שאינה גוף מאוגד, רואים את כל אחד מבני החבורה כעובדו של האדם שמסר לחבורה את העבודה, אם היו רואים אותו כך אילו היה קיים קשר ישיר בינו ובין כל אחד מבני החבורה; ואת כל אחד מבני החבורה כאמור רואים כעובד בשכר שעבד פחות מ־75 ימים רצופים ושבעדו יש לשלם תמורת חופשה לפי <ref href="#point_15">סעיף 15</ref>.</p>
+            </content>
+          </point>
+          <point eId="point_35">
+            <heading>
+              <authorialNote placement="side">
+                <p>אי־חלות</p>
+              </authorialNote>
+            </heading>
+            <num>35.</num>
+            <list>
+              <point eId="point_35__point_א">
+                <num>(א)</num>
+                <list>
+                  <intro>
+                    <p>חוק זה אינו חל על –</p>
+                  </intro>
+                  <point eId="point_35__point_א__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>עובד בחקלאות המקבל את כל גמול עבודתו בחלק מהיבול, בשירותים או בשווה כסף;</p>
+                    </content>
+                  </point>
+                  <point eId="point_35__point_א__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>
+                        <wikicomment font-size="x-small">(בוטלה);</wikicomment>
+                      </p>
+                    </content>
+                  </point>
+                  <point eId="point_35__point_א__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>עובד ארעי בעבודה שאינה לצורך עסקי המעסיק או מקצועו.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_35__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>שר העבודה רשאי להתקין תקנות המפרשות מה הן עבודות ארעיות לצורך סעיף קטן (א)(3).</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_36">
+            <heading>
+              <authorialNote placement="side">
+                <p>ביצוע ותקנות</p>
+              </authorialNote>
+            </heading>
+            <num>36.</num>
+            <content>
+              <p>שר העבודה ממונה על ביצוע חוק זה, והוא רשאי להתקין תקנות בכל ענין הנוגע לביצועו.</p>
+            </content>
+          </point>
+          <point eId="point_37">
+            <heading>
+              <authorialNote placement="side">
+                <p>חובת התיעצות</p>
+              </authorialNote>
+            </heading>
+            <num>37.</num>
+            <content>
+              <p>שר העבודה לא יתקין תקנות, להוציא תקנות על פי <ref href="#point_26">סעיף 26(א)</ref>, ולא ישתמש בסמכויותיו לפי <ref href="#point_18">הסעיפים 18(א)</ref>, <ref href="#point_21">21</ref>, <ref href="#point_23">23(א)</ref>, <ref href="#point_26">26(ב)</ref><ref href="#point_32">ו־32</ref>, אלא לאחר התייעצות עם ארגון העובדים הארצי המייצג את המספר הגדול ביותר של העובדים וכן עם ארגונים ארציים של מעבידים שלדעת שר העבודה הם רפרזנטטיביים ונוגעים בדבר.</p>
+            </content>
+          </point>
+          <point eId="point_38">
+            <heading>
+              <authorialNote placement="side">
+                <p>שמירת זכויות</p>
+              </authorialNote>
+            </heading>
+            <num>38.</num>
+            <content>
+              <p>חוק זה אינו בא למעט מכל זכות הנתונה לעובד לפי חוק, הסכם קולקטיבי, חוזה עבודה או נוהג.</p>
+            </content>
+          </point>
+          <point eId="point_39">
+            <heading>
+              <authorialNote placement="side">
+                <p>תחילת תוקף</p>
+              </authorialNote>
+            </heading>
+            <num>39.</num>
+            <content>
+              <p>תקפו של חוק זה הוא מיום א׳ בתשרי תשי"ב (1 באוקטובר 1951).</p>
+            </content>
+          </point>
+        </list>
+      </chapter>
+      <appendix eId="appendix">
+        <num></num>
+        <title>
+          <content>
+            <p>תוספת</p>
+          </content>
+        </title>
+        <subtitle eId="eId">
+          <num></num>
+          <content>
+            <p>
+              <wikicomment font-size="x-small">(<ref href="#point_6">סעיף 6</ref>)</wikicomment>
+            </p>
+          </content>
+        </subtitle>
+        <list>
+          <point eId="appendix__point_1">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>1.</num>
+            <content>
+              <p>צום גדליה; ערב יום הכיפורים; ערב חג הסוכות; הושענא רבה; צום עשרה בטבת (יום הקדיש הכללי); תענית אסתר; פורים; שושן פורים; ערב חג הפסח; ערב שביעי של פסח; חג המימונה; ל"ג בעומר; ערב חג השבועות; צום י"ז בתמוז; צום תשעה באב; ערב ראש השנה.</p>
+            </content>
+          </point>
+          <point eId="appendix__point_1א">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>1א.</num>
+            <content>
+              <p>יום קורבן זבח פסח; חג הפסח; שביעי של פסח (חג המצות); חג השבועות; מועד החודש השביעי; יום הכיפורים; חג הסוכות; שמיני עצרת – כל אלה, במועדים שבהם הם נחגגים על ידי בני העדה השומרונית.</p>
+            </content>
+          </point>
+          <point eId="appendix__point_2">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>2.</num>
+            <content>
+              <p>ערב חג המולד; ערב ראשית השנה; ערב חג ההתגלות; ערב חג הפסחא; יום הבשורה; ערב עליית ישו השמיימה; ערב חג השבועות.</p>
+            </content>
+          </point>
+          <point eId="appendix__point_3">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>3.</num>
+            <content>
+              <p>ערב ראש השנה ההג׳רית; ערב יום הולדת הנביא; עליית הנביא השמיימה (לילת אלאסרא ואלמעראג׳); ערב חג הפסקת הצום (ערב עיד אלפיטר); ערב חג הקורבן (ערב עיד אלאדחא).</p>
+            </content>
+          </point>
+          <point eId="appendix__point_4">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>4.</num>
+            <content>
+              <p>ערב חג אלח׳דר (אליהו הנביא); ערב חג הנביא שועייב (יתרו); ערב חג הנביא סבלאן; ערב חג הקורבן (ערב עיד אלאדחא).</p>
+            </content>
+          </point>
+          <point eId="appendix__point_5">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>5.</num>
+            <content>
+              <p>יום הזיכרון לעדה הצ׳רקסית.</p>
+            </content>
+          </point>
+          <point eId="appendix__point_6">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>6.</num>
+            <content>
+              <p>חג הסיגד.</p>
+            </content>
+          </point>
+          <point eId="appendix__point_7">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>7.</num>
+            <content>
+              <p>יום האישה הבין־לאומי; יום הזיכרון לשואה ולגבורה; יום הזיכרון לחללי מערכות ישראל ולחללי פעולות איבה וטרור (ערב יום העצמאות); יום ירושלים; אחד במאי; יום הניצחון על גרמניה הנאצית; יום פטירת הרצל; ראש השנה האזרחית.</p>
+            </content>
+          </point>
+          <point eId="appendix__point_8">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>8.</num>
+            <content>
+              <p>יום האזכרה הפרטית של חלל מערכות ישראל או של מי שנפטר כתוצאה מפגיעת איבה – לגבי קרוב משפחתו של מי מהם; לעניין זה, ”קרוב משפחה“ – כמשמעותו <ref href="/akn/il/act/PrimaryLegislation/1980-11-04/149834#point_4א">בסעיף 4א לחוק יום הזיכרון לחללי מערכות ישראל, התשכ"ג–1963</ref>, או <ref href="/akn/il/act/PrimaryLegislation/1970-07-30/148919#point_7ה">בסעיף 7ה לחוק התגמולים לנפגעי פעולות איבה, התש"ל–1970</ref>, לפי העניין.</p>
+            </content>
+          </point>
+        </list>
+      </appendix>
+    </body>
+    <conclusions eId="eId">
+      <p class="signatures">
+        <signature>
+          <p>
+            <person refersTo="דוד_בן_גוריון">דוד בן גוריון</person>
+            <role refersTo="ראש_הממשלה">ראש הממשלה</role>
+          </p>
+        </signature>
+        <signature>
+          <p>
+            <person refersTo="גולדה_מאירסון">גולדה מאירסון</person>
+            <role refersTo="שרת_העבודה">שרת העבודה</role>
+          </p>
+        </signature>
+        <signature>
+          <p>
+            <person refersTo="חיים_ווייצמן">חיים ווייצמן</person>
+            <role refersTo="נשיא_המדינה">נשיא המדינה</role>
+          </p>
+        </signature>
+      </p>
+    </conclusions>
+  </act>
+</akomaNtoso>

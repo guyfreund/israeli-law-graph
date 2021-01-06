@@ -1,0 +1,1827 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion" name="publicLaw">
+    <meta>
+      <identification source="#kensset">
+        <FRBRWork>
+          <FRBRthis value="/akn/il/act/PrimaryLegislation/2011-08-11/414549/main" />
+          <FRBRuri value="/akn/il/act/PrimaryLegislation/2011-08-11/414549" />
+          <FRBRdate date="2011-08-11" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRcountry value="israel" />
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/il/act/PrimaryLegislation/2011-08-11/414549/he@/main" />
+          <FRBRuri value="/akn/il/act/PrimaryLegislation/2011-08-11/414549/he@" />
+          <FRBRdate date="2011-08-11" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRlanguage language="hebrew" />
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/il/act/PrimaryLegislation/2011-08-11/414549/he@/main.xml" />
+          <FRBRuri value="/akn/il/act/PrimaryLegislation/2011-08-11/414549/he@" />
+          <FRBRdate date="2011-08-11" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRformat value="xml" />
+        </FRBRManifestation>
+      </identification>
+      <classification source="#kensset">
+        <keyword value="{classificationValue}" showAs="{classificationValue}" dictionary="#classification_dictionary" />
+      </classification>
+      <lifecycle source="#kensset">
+        <eventRef eId="eventRef_1" date="2011-08-11" source="#kensset" type="generation" />
+      </lifecycle>
+      <references source="#kensset">
+        <TLCOrganization eId="kensset" href="/ontology/organization/akn/knesset" showAs="Kensset" type="generation" />
+        <TLCRole eId="author" href="/ontology/role/akn/author" showAs="Author of Document" />
+        <TLCProcess eId="inforce" href="/ontology/process/akn/inforce" showAs="In force" />
+        <TLCTerm eId="term_1" href="/ontology/term/הארגונים_המקצועיים_בתחומי_התכנון_והבנייה/414549" showAs="הארגונים_המקצועיים_בתחומי_התכנון_והבנייה" />
+        <TLCTerm eId="term_2" href="/ontology/term/הגופים_הציבוריים_שעניינם_בשמירת_איכות_הסביבה/414549" showAs="הגופים_הציבוריים_שעניינם_בשמירת_איכות_הסביבה" />
+        <TLCTerm eId="term_3" href="/ontology/term/דירות_קטנות/414549" showAs="דירות_קטנות" />
+        <TLCTerm eId="term_4" href="/ontology/term/הפרשי_הצמדה_וריבית/414549" showAs="הפרשי_הצמדה_וריבית" />
+        <TLCTerm eId="term_5" href="/ontology/term/הוועדה/414549" showAs="הוועדה" />
+        <TLCTerm eId="term_6" href="/ontology/term/חוק_התכנון/414549" showAs="חוק_התכנון" />
+        <TLCTerm eId="term_7" href="/ontology/term/חוק_מיסוי_מקרקעין/414549" showAs="חוק_מיסוי_מקרקעין" />
+        <TLCTerm eId="term_8" href="/ontology/term/חוקר/414549" showAs="חוקר" />
+        <TLCTerm eId="term_9" href="/ontology/term/יישוב_מיעוטים/414549" showAs="יישוב_מיעוטים" />
+        <TLCTerm eId="term_10" href="/ontology/term/מבנה_ציבור/414549" showAs="מבנה_ציבור" />
+        <TLCTerm eId="term_11" href="/ontology/term/המועצה_הארצית/414549" showAs="המועצה_הארצית" />
+        <TLCTerm eId="term_12" href="/ontology/term/מינהל_התכנון/414549" showAs="מינהל_התכנון" />
+        <TLCTerm eId="term_13" href="/ontology/term/מקרקעי_ישראל/414549" showAs="מקרקעי_ישראל" />
+        <TLCTerm eId="term_14" href="/ontology/term/מתחם_פינוי_ובינוי/414549" showAs="מתחם_פינוי_ובינוי" />
+        <TLCTerm eId="term_15" href="/ontology/term/מתכנן_המחוז/414549" showAs="מתכנן_המחוז" />
+        <TLCTerm eId="term_16" href="/ontology/term/עבודות_תשתית/414549" showAs="עבודות_תשתית" />
+        <TLCTerm eId="term_17" href="/ontology/term/קרקע_עירונית/414549" showAs="קרקע_עירונית" />
+        <TLCTerm eId="term_18" href="/ontology/term/קרקע_שעיקרה_מקרקעי_ישראל/414549" showAs="קרקע_שעיקרה_מקרקעי_ישראל" />
+        <TLCTerm eId="term_19" href="/ontology/term/תכנית_לדיור_לאומי/414549" showAs="תכנית_לדיור_לאומי" />
+        <TLCTerm eId="term_20" href="/ontology/term/תכנית_לדיור_לאומי_ביישוב_מיעוטים/414549" showAs="תכנית_לדיור_לאומי_ביישוב_מיעוטים" />
+        <TLCTerm eId="term_21" href="/ontology/term/תכנית_לדיור_לאומי_במתחם_פינוי_ובינוי/414549" showAs="תכנית_לדיור_לאומי_במתחם_פינוי_ובינוי" />
+        <TLCTerm eId="term_22" href="/ontology/term/תכנית_הכוללת_הוראות_מפורטות/414549" showAs="תכנית_הכוללת_הוראות_מפורטות" />
+        <TLCTerm eId="term_23" href="/ontology/term/תשריט_לצורכי_רישום/414549" showAs="תשריט_לצורכי_רישום" />
+        <TLCPerson eId="בנימין_נתניהו" href="/ontology/person/בנימין_נתניהו" showAs="בנימין נתניהו" />
+        <TLCPerson eId="אליהו_ישי" href="/ontology/person/אליהו_ישי" showAs="אליהו ישי" />
+        <TLCPerson eId="שמעון_פרס" href="/ontology/person/שמעון_פרס" showAs="שמעון פרס" />
+        <TLCPerson eId="ראובן_ריבלין" href="/ontology/person/ראובן_ריבלין" showAs="ראובן ריבלין" />
+        <TLCRole eId="ראש_הממשלה" href="ontology/role/akn/ראש_הממשלה" showAs="ראש הממשלה" />
+        <TLCRole eId="שר_הפנים" href="ontology/role/akn/שר_הפנים" showAs="שר הפנים" />
+        <TLCRole eId="נשיא_המדינה" href="ontology/role/akn/נשיא_המדינה" showAs="נשיא המדינה" />
+        <TLCRole eId="יושב_ראש_הכנסת" href="ontology/role/akn/יושב_ראש_הכנסת" showAs="יושב ראש הכנסת" />
+      </references>
+      <temporalData source="#kensset">
+        <temporalGroup eId="tmpg_1" />
+      </temporalData>
+      <Publication></Publication>
+      <proprietary wikiversion="7/22/2020 10:16:13 PM" />
+    </meta>
+    <body period="#tmpg_1">
+      <title eId="title">
+        <content>
+          <p>חוק הליכי תכנון ובנייה להאצת הבנייה למגורים (הוראת שעה), התשע"א–2011</p>
+        </content>
+      </title>
+      <list>
+        <point eId="point_1">
+          <heading>
+            <authorialNote placement="side">
+              <p>מטרת החוק</p>
+            </authorialNote>
+          </heading>
+          <num>1.</num>
+          <content>
+            <p>חוק זה בא לקבוע, כהוראת שעה, הסדרים מיוחדים לאישור תכניות בנייה למגורים, שיאפשרו מתן פתרון לצורכי הדיור באמצעות היצע דירות מגורים בגדלים שונים ומסוגים שונים, לרבות באמצעות ייעוד קרקע לדיור להשכרה.</p>
+          </content>
+        </point>
+        <point eId="point_2">
+          <heading>
+            <authorialNote placement="side">
+              <p>הגדרות ופרשנות</p>
+            </authorialNote>
+          </heading>
+          <num>2.</num>
+          <list>
+            <point eId="point_2__point_א">
+              <num>(א)</num>
+              <list>
+                <intro>
+                  <p>בחוק זה –</p>
+                </intro>
+                <point eId="point_2__point_א__point_הארגונים_המקצועיים_בתחומי_התכנון_והבנייה">
+                  <content>
+                    <p>
+                      <def />”הארגונים המקצועיים בתחומי התכנון והבנייה“ – הארגונים המייצגים את המהנדסים במקצועות הבנייה, האדריכלים ובעלי התואר האקדמי בתכנון ערים ואזורים, המפורטים <ref href="#appendix">בתוספת</ref>;</p>
+                  </content>
+                </point>
+                <point eId="point_2__point_א__point_הגופים_הציבוריים_שעניינם_בשמירת_איכות_הסביבה">
+                  <content>
+                    <p>
+                      <def />”הגופים הציבוריים שעניינם בשמירת איכות הסביבה“ – הגופים המנויים <ref href="/akn/il/act/PrimaryLegislation/2002-11-25/174376#appendix_part_א">בחלק א׳ לתוספת לחוק ייצוג גופים ציבוריים שעניינם בשמירת איכות הסביבה (תיקוני חקיקה), התשס"ג–2002</ref>‏‏;</p>
+                  </content>
+                </point>
+                <point eId="point_2__point_א__point_דירות_קטנות">
+                  <content>
+                    <p>
+                      <def />”דירות קטנות“ – דירות ששטחן הכולל המותר לבנייה הוא 63 מ"ר, בתוספת שטח של מרחב מוגן דירתי, ובתכנית החלה בתחום הנמצא בנפת באר שבע או במחוז הצפון – דירות ששטחן הכולל המותר לבנייה הוא 88 מ"ר, בתוספת שטח של מרחב מוגן דירתי; לעניין זה, ”מרחב מוגן דירתי“ – כמשמעותו לפי <ref href="/akn/il/act/PrimaryLegislation/1951-03-21/147300">חוק ההתגוננות האזרחית, התשי"א–1951</ref>, בשטח שלא יעלה על השטח שקבע שר הביטחון לפי <ref href="/akn/il/act/PrimaryLegislation/1951-03-21/147300">החוק האמור</ref>;</p>
+                  </content>
+                </point>
+                <point eId="point_2__point_א__point_הפרשי_הצמדה_וריבית">
+                  <content>
+                    <p>
+                      <def />”הפרשי הצמדה וריבית“ – כהגדרתם <ref href="/akn/il/act/PrimaryLegislation/1979-01-01/148271">בחוק פסיקת ריבית והצמדה, התשכ"א–1961</ref>‏;</p>
+                  </content>
+                </point>
+                <point eId="point_2__point_א__point_הוועדה">
+                  <content>
+                    <p>
+                      <def />”הוועדה“ – ועדה לדיור לאומי שהוקמה לפי <ref href="#point_6">סעיף 6</ref>;</p>
+                  </content>
+                </point>
+                <point eId="point_2__point_א__point_חוק_התכנון">
+                  <content>
+                    <p>
+                      <def />”חוק התכנון“ – <ref href="/akn/il/act/PrimaryLegislation/1965-08-12/148917">חוק התכנון והבנייה, התשכ"ה–1965</ref>‏;</p>
+                  </content>
+                </point>
+                <point eId="point_2__point_א__point_חוק_מיסוי_מקרקעין">
+                  <content>
+                    <p>
+                      <def />”חוק מיסוי מקרקעין“ – <ref href="/akn/il/act/PrimaryLegislation/2008-02-18/262875">חוק מיסוי מקרקעין (שבח ורכישה), התשכ"ג–1963</ref>;</p>
+                  </content>
+                </point>
+                <point eId="point_2__point_א__point_חוקר">
+                  <content>
+                    <p>
+                      <def />”חוקר“ – כהגדרתו <ref href="/akn/il/act/PrimaryLegislation/1965-08-12/148917#point_107א">בסעיף 107א(א) לחוק התכנון</ref>;</p>
+                  </content>
+                </point>
+                <point eId="point_2__point_א__point_יישוב_מיעוטים">
+                  <content>
+                    <p>
+                      <def />”יישוב מיעוטים“ – כהגדרתו <ref href="/akn/il/act/PrimaryLegislation/1959-09-15/148127#appendix_2">בתוספת השנייה לחוק לעידוד השקעות הון, התשי"ט–1959</ref>;</p>
+                  </content>
+                </point>
+                <point eId="point_2__point_א__point_מבנה_ציבור">
+                  <content>
+                    <p>
+                      <def />”מבנה ציבור“ – מבנה לשימושים ציבוריים לצורכי חינוך, תרבות, דת, רווחה ושירותים חברתיים, בריאות, ספורט, מקלט ומחסה ציבורי, תחנת משטרה ותחנה לכיבוי אש, וכן מבנה של המדינה, רשות שהוקמה על פי חוק, רשות מקומית או ועדה מקומית, המשמש כל אחת מאלה במילוי תפקידיה;</p>
+                  </content>
+                </point>
+                <point eId="point_2__point_א__point_המועצה_הארצית">
+                  <content>
+                    <p>
+                      <def />”המועצה הארצית“ – כמשמעותה <ref href="/akn/il/act/PrimaryLegislation/1965-08-12/148917#point_2">בסעיף 2(א) לחוק התכנון</ref>;</p>
+                  </content>
+                </point>
+                <point eId="point_2__point_א__point_מינהל_התכנון">
+                  <content>
+                    <p>
+                      <def />”מינהל התכנון“ – מינהל התכנון במשרד האוצר;</p>
+                  </content>
+                </point>
+                <point eId="point_2__point_א__point_מקרקעי_ישראל">
+                  <content>
+                    <p>
+                      <def />”מקרקעי ישראל“ – כמשמעותם <ref href="/akn/il/act/PrimaryLegislation/1960-07-29/147462">בחוק־יסוד: מקרקעי ישראל</ref>, למעט קרקע עירונית המוחכרת לדורות; לעניין זה, ”חכירה לדורות“ – לרבות התחייבות לחכירה לדורות שטרם נרשמה בפנקסי המקרקעין;</p>
+                  </content>
+                </point>
+                <point eId="point_2__point_א__point_מתחם_פינוי_ובינוי">
+                  <content>
+                    <p>
+                      <def />”מתחם פינוי ובינוי“ – מתחם פינוי ובינוי כמשמעותו <ref href="/akn/il/act/PrimaryLegislation/1965-08-12/148917#point_33א">בסעיף 33א לחוק התכנון</ref>, מתחם פינוי ובינוי במסלול מיסוי כהגדרתו <ref href="/akn/il/act/PrimaryLegislation/2008-02-18/262875#point_49יט">בסעיף 49יט לחוק מיסוי מקרקעין</ref>, או מתחם שהוועדה כהגדרתה <ref href="/akn/il/act/PrimaryLegislation/2008-02-18/262875#point_49כח">בסעיף 49כח לחוק מיסוי מקרקעין</ref> נתנה לגביו החלטה מקדמית לפי <ref href="/akn/il/act/PrimaryLegislation/2008-02-18/262875#point_49כח">הסעיף האמור</ref> ולפיה בהתקיים התנאים לפי <ref href="/akn/il/act/PrimaryLegislation/2008-02-18/262875#point_49כח">אותו סעיף</ref> בכוונתה להמליץ לממשלה להכריז עליו כעל מתחם פינוי ובינוי במסלול מיסוי;</p>
+                  </content>
+                </point>
+                <point eId="point_2__point_א__point_מתכנן_המחוז">
+                  <content>
+                    <p>
+                      <def />”מתכנן המחוז“ – כמשמעותו <ref href="/akn/il/act/PrimaryLegislation/1965-08-12/148917#point_8">בסעיף 8(א) לחוק התכנון</ref>;</p>
+                  </content>
+                </point>
+                <point eId="point_2__point_א__point_עבודות_תשתית">
+                  <content>
+                    <p>
+                      <def />”עבודות תשתית“ – עבודות לפיתוח הקרקע לצורך התאמתה לבנייה למגורים, לרבות יישור פני הקרקע, סימון וסלילה של כבישים ומדרכות, הנחת צנרת וקווי מים, ביוב, ניקוז, חשמל ותקשורת, וכל עבודה נוספת הדרושה כדי שיהיה ניתן להתחיל בפיתוח מגרשי המגורים ובהקמת בנייני המגורים;</p>
+                  </content>
+                </point>
+                <point eId="point_2__point_א__point_קרקע_עירונית">
+                  <content>
+                    <p>
+                      <def />”קרקע עירונית“ – כהגדרתה <ref href="/akn/il/act/PrimaryLegislation/1960-07-29/148005">בחוק מקרקעי ישראל, התש"ך–1960</ref>;</p>
+                  </content>
+                </point>
+                <point eId="point_2__point_א__point_קרקע_שעיקרה_מקרקעי_ישראל">
+                  <content>
+                    <p>
+                      <def />”קרקע שעיקרה מקרקעי ישראל“ – קרקע אשר 80% או יותר ממנה הם מקרקעי ישראל;</p>
+                  </content>
+                </point>
+                <point eId="point_2__point_א__point_תכנית_לדיור_לאומי">
+                  <content>
+                    <p>
+                      <def />”תכנית לדיור לאומי“ – תכנית שהוכנה והוגשה לפי הוראות <ref href="#point_9">סעיף 9(א) או (א1)(1)</ref> הכוללת הוראות מפורטות להקמת 200 יחידות דיור לפחות, בקרקע ש־40% או יותר ממנה הם מקרקעי ישראל, תכנית לדיור לאומי ביישוב מיעוטים ותכנית לדיור לאומי במתחם פינוי ובינוי;</p>
+                  </content>
+                </point>
+                <point eId="point_2__point_א__point_תכנית_לדיור_לאומי_ביישוב_מיעוטים">
+                  <content>
+                    <p>
+                      <def />”תכנית לדיור לאומי ביישוב מיעוטים“ – תכנית שהוכנה והוגשה לפי <ref href="#point_9">סעיף 9(א) או (א1)(1)</ref> והכוללת הוראות מפורטות להקמת 100 יחידות דיור לפחות בתחומו של יישוב מיעוטים, ואם חלה התכנית בקרקע שאינה קרקע שעיקרה מקרקעי ישראל – בעלי הקרקע המחזיקים ב־80% לפחות מהקרקע בתחום התכנית נתנו את הסכמתם לתכנית;</p>
+                  </content>
+                </point>
+                <point eId="point_2__point_א__point_תכנית_לדיור_לאומי_במתחם_פינוי_ובינוי">
+                  <content>
+                    <p>
+                      <def />”תכנית לדיור לאומי במתחם פינוי ובינוי“ – תכנית שהוכנה והוגשה לפי <ref href="#point_9">סעיף 9(א1)(2)</ref> לפינוי לשם בינוי או לעיבוי בנייה במתחם פינוי ובינוי, הכוללת הוראות להקמת 70 יחידות דיור לפחות; ואולם ככל שנדרשת תכנית נוספת לשם הוצאת היתר בתחום התכנית האמורה, לא תכלול התכנית הנוספת אלא אחד או יותר מהנושאים המפורטים <ref href="/akn/il/act/PrimaryLegislation/1965-08-12/148917#point_62א">בסעיף 62א(א) לחוק התכנון</ref>, בלבד;</p>
+                  </content>
+                </point>
+                <point eId="point_2__point_א__point_תכנית_הכוללת_הוראות_מפורטות">
+                  <content>
+                    <p>
+                      <def />”תכנית הכוללת הוראות מפורטות“ – תכנית שניתן להוציא מכוחה היתר לבנייה או לשימוש בלא צורך באישורה של תכנית נוספת;</p>
+                  </content>
+                </point>
+                <point eId="point_2__point_א__point_תשריט_לצורכי_רישום">
+                  <content>
+                    <p>
+                      <def />”תשריט לצורכי רישום“ – תכנית לצורכי רישום בפנקסי המקרקעין, כמשמעותה לפי <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_המדידות">פקודת המדידות‏</ref>.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_2__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>לכל מונח אחר בחוק זה תהא המשמעות הנודעת לו <ref href="/akn/il/act/PrimaryLegislation/1965-08-12/148917">בחוק התכנון</ref>, זולת אם משתמע אחרת.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_3">
+          <heading>
+            <authorialNote placement="side">
+              <p>תכנית לדיור לאומי</p>
+            </authorialNote>
+          </heading>
+          <num>3.</num>
+          <list>
+            <point eId="point_3__point_א">
+              <num>(א)</num>
+              <list>
+                <intro>
+                  <p>תכנית לדיור לאומי תכלול הוראות לעניין –</p>
+                </intro>
+                <point eId="point_3__point_א__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>הסדרת מבני הציבור, השטחים הציבוריים הפתוחים, החניה, התשתיות ושימושים נוספים, לרבות לתעסוקה או למסחר, הנדרשים לשמש את יחידות הדיור הכלולות בתכנית ובסביבתה;</p>
+                  </content>
+                </point>
+                <point eId="point_3__point_א__point_2">
+                  <num>(2)</num>
+                  <list>
+                    <point eId="point_3__point_א__point_2__point_א">
+                      <num>(א)</num>
+                      <content>
+                        <p>ייעוד בשיעור של 25% לפחות מיחידות הדיור בתכנית, לאחד או יותר מאלה, במצטבר: דירות קטנות, דיור המיועד להשכרה לתקופה שלא תפחת מעשר שנים או דיור בהישג יד להשכרה;</p>
+                      </content>
+                    </point>
+                    <point eId="point_3__point_א__point_2__point_ב">
+                      <num>(ב)</num>
+                      <content>
+                        <p>על אף האמור בפסקת משנה (א), בתכנית לדיור לאומי במתחם פינוי ובינוי יהיה השיעור האמור באותה פסקת משנה 10% מיחידות הדיור החדשות הנוספות על מספר היחידות שהיו בתחום התכנית לפני אישורה.</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+              </list>
+            </point>
+            <point eId="point_3__point_א1">
+              <num>(א1)</num>
+              <list>
+                <intro>
+                  <p>הוועדה רשאית לקבוע כי –</p>
+                </intro>
+                <point eId="point_3__point_א1__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>הוראות סעיף קטן (א)(2)(א) לא יחולו במקרים חריגים אם השתכנעה כי נוכח מאפייני היישוב או היצע הדירות הקטנות ברשות המקומית אין הצדקה להכללת הוראות כאמור;</p>
+                  </content>
+                </point>
+                <point eId="point_3__point_א1__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>לעניין תכנית לדיור לאומי במתחם פינוי ובינוי – הוראות סעיף קטן (א)(2) לא יחולו.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_3__point_א2">
+              <num>(א2)</num>
+              <content>
+                <p>לא תאושר תכנית כאמור בסעיף קטן (א1) אלא באישור שר האוצר או המנהל הכללי של משרד האוצר, בלבד, אם השר הסמיכו לכך;</p>
+              </content>
+            </point>
+            <point eId="point_3__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>יועדה קרקע בתכנית לדיור לאומי לדיור בהישג יד להשכרה, יושכרו יחידות הדיור שייבנו על פיה בהתאם להוראות שייקבעו, בין היתר, לעניין תנאי ההשכרה של יחידות הדיור, ובכלל זה מחיר ההשכרה, הגבלות על העברת הזכויות ביחידות הדיור והזכאים לשכור את יחידות הדיור.</p>
+              </content>
+            </point>
+            <point eId="point_3__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>על אף האמור <ref href="/akn/il/act/PrimaryLegislation/1965-08-12/148917">בחוק התכנון</ref>, כוחה של תכנית לדיור לאומי שאישרה הוועדה לדיור לאומי לפי חוק זה יפה מכל תכנית אחרת שאושרה לפי <ref href="/akn/il/act/PrimaryLegislation/1965-08-12/148917">חוק התכנון</ref>, למעט תכנית מתאר ארצית.</p>
+              </content>
+            </point>
+            <point eId="point_3__point_ד">
+              <num>(ד)</num>
+              <list>
+                <point eId="point_3__point_ד__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>על אף האמור בסעיף קטן (ג), לא תאושר תכנית לדיור לאומי, בקרקע שעיקרה מקרקעי ישראל או תכנית לדיור לאומי ביישוב מיעוטים שהוגשה על ידי גוף המנוי <ref href="#point_9">בסעיף 9(א)</ref>, בסטייה מתכנית מתאר מחוזית אלא באישורה של ועדת המשנה לדיור לאומי, אם אישור כאמור נדרש על ידי שני חברי הוועדה; דרישה לפי פסקה זו תימסר בכתב למזכיר וועדת המשנה לדיור לאומי בתוך שבעה ימים ממועד ההחלטה על ההפקדה.</p>
+                  </content>
+                </point>
+                <point eId="point_3__point_ד__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>הועברה תכנית דיור לאומי כאמור בפסקה (1) לאישורה של ועדת המשנה לדיור לאומי, יחולו הוראות <ref href="#point_5">סעיף 5</ref>, ואולם, לא נתנה ועדת המשנה לדיור לאומי את החלטתה בתוך 15 ימי עבודה, יראו את התכנית כאילו אושרה בידי ועדת המשנה לדיור לאומי; אישרה ועדת המשנה לדיור לאומי את התכנית, יחולו הוראות <ref href="#point_17">סעיפים 17</ref><ref href="#point_18">ו־18</ref>, בשינויים המחויבים, ממועד החלטתה זו.</p>
+                  </content>
+                </point>
+                <point eId="point_3__point_ד__point_3">
+                  <num>(3)</num>
+                  <content>
+                    <p>אישרה ועדת המשנה לדיור לאומי תכנית כאמור בפסקה (2), תתייחס גם לצורך בשמירה על קרקע חקלאית או על שטחים פתוחים, ככל שהתכנית חלה עליהם, ולא יידרש אישורה של הוועדה לשמירה על קרקע חקלאית ושטחים פתוחים לתכנית זו.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_3__point_ה">
+              <num>(ה)</num>
+              <list>
+                <intro>
+                  <p>על אף האמור בסעיף קטן (ג), לא תאושר תכנית לדיור לאומי שאינה כאמור בסעיף קטן (ד)(1) בסטייה מתכנית מתאר מחוזית אלא באישורה של המועצה הארצית, ואם התכנית טעונה, לפי <ref href="/akn/il/act/PrimaryLegislation/1965-08-12/148917#appendix_1">התוספת הראשונה לחוק התכנון</ref>, גם את אישורה של הוועדה לשמירה על קרקע חקלאית ושטחים פתוחים – גם באישורה של הוועדה האמורה.</p>
+                </intro>
+                <point eId="point_3__point_ה__point_ו">
+                  <num>(ו)</num>
+                  <content>
+                    <p>על אף האמור בסעיפים קטנים (ג) עד (ה), לא תאושר תכנית לדיור לאומי במתחם פינוי ובינוי בסטייה מתכנית מתאר מחוזית.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+          </list>
+        </point>
+        <point eId="point_4">
+          <heading>
+            <authorialNote placement="side">
+              <p>ועדת המשנה לדיור לאומי של המועצה הארצית</p>
+            </authorialNote>
+          </heading>
+          <num>4.</num>
+          <list>
+            <point eId="point_4__point_א">
+              <num>(א)</num>
+              <list>
+                <intro>
+                  <p>למועצה הארצית תהיה ועדת משנה לדיור לאומי (בחוק זה – ועדת המשנה לדיור לאומי), וזה הרכבה:</p>
+                </intro>
+                <point eId="point_4__point_א__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>יושב ראש המועצה הארצית והוא יהיה היושב ראש, ובהעדרו – מנהל מינהל התכנון;</p>
+                  </content>
+                </point>
+                <point eId="point_4__point_א__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>נציג ראש הממשלה, מקרב עובדי משרדו;</p>
+                  </content>
+                </point>
+                <point eId="point_4__point_א__point_3">
+                  <num>(3)</num>
+                  <content>
+                    <p>נציג שר המשפטים, מקרב עובדי משרדו;</p>
+                  </content>
+                </point>
+                <point eId="point_4__point_א__point_4">
+                  <num>(4)</num>
+                  <content>
+                    <p>נציג שר הבינוי והשיכון, מקרב עובדי משרדו;</p>
+                  </content>
+                </point>
+                <point eId="point_4__point_א__point_5">
+                  <num>(5)</num>
+                  <content>
+                    <p>נציג שר האוצר, מקרב עובדי משרדו;</p>
+                  </content>
+                </point>
+                <point eId="point_4__point_א__point_6">
+                  <num>(6)</num>
+                  <content>
+                    <p>נציג השר להגנת הסביבה, מקרב עובדי משרדו;</p>
+                  </content>
+                </point>
+                <point eId="point_4__point_א__point_6א">
+                  <num>(6א)</num>
+                  <content>
+                    <p>נציג שר הפנים, מקרב עובדי משרדו;</p>
+                  </content>
+                </point>
+                <point eId="point_4__point_א__point_7">
+                  <num>(7)</num>
+                  <content>
+                    <p>שני חברים שתבחר המועצה הארצית מבין חבריה המנויים <ref href="/akn/il/act/PrimaryLegislation/1965-08-12/148917#point_2">בסעיף 2(ב)(6) ו־(7) לחוק התכנון</ref>;</p>
+                  </content>
+                </point>
+                <point eId="point_4__point_א__point_8">
+                  <num>(8)</num>
+                  <content>
+                    <p>שני חברים שתבחר המועצה הארצית מבין חבריה המנויים <ref href="/akn/il/act/PrimaryLegislation/1965-08-12/148917#point_2">בסעיף 2(ב)(8) עד (14) לחוק התכנון</ref>.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_4__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>נציג שר החקלאות ופיתוח הכפר במועצה הארצית יהיה משקיף בוועדת המשנה לדיור לאומי.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_5">
+          <heading>
+            <authorialNote placement="side">
+              <p>סמכויות ועדת המשנה לדיור לאומי</p>
+            </authorialNote>
+          </heading>
+          <num>5.</num>
+          <list>
+            <point eId="point_5__point_א">
+              <num>(א)</num>
+              <content>
+                <p>היתה תכנית לדיור לאומי טעונה אישור של המועצה הארצית לפי כל דין, יהיו כל סמכויות המועצה הארצית לעניין אישור כאמור, נתונות לוועדת המשנה לדיור לאומי, ולה בלבד; הוראות סעיף קטן זה לא יחולו לעניין תכנית לדיור לאומי שהוראות <ref href="#point_3">סעיף 3(ה)</ref> חלות עליה.</p>
+              </content>
+            </point>
+            <point eId="point_5__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>הסמכות לדון ולהכריע בעררים על החלטות של הוועדה לשמירה על קרקע חקלאית ושטחים פתוחים ושל הוועדה לשמירת הסביבה החופית, בנוגע לתכנית לדיור לאומי, תהיה נתונה לוועדת המשנה לדיור לאומי, ולה בלבד; ואולם הסמכות לדון ולהכריע בעררים כאמור בנוגע לתכנית לדיור לאומי שהוראות <ref href="#point_3">סעיף 3(ה)</ref> חלות עליה תהיה נתונה למועצה הארצית.</p>
+              </content>
+            </point>
+            <point eId="point_5__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>ועדת המשנה לדיור לאומי תיתן את החלטתה בתוך 15 ימי עבודה מיום שהוגשה התכנית לאישורה כאמור בסעיף קטן (א) או מיום שמיעת הערר לפי סעיף קטן (ב), לפי העניין, אלא אם כן הודיע יושב ראש ועדת המשנה לדיור לאומי לוועדה על הארכת המועד בחמישה ימי עבודה נוספים.</p>
+              </content>
+            </point>
+            <point eId="point_5__point_ד">
+              <num>(ד)</num>
+              <content>
+                <p>לא נתנה ועדת המשנה לדיור לאומי את החלטתה במועד האמור בסעיף קטן (ג), יהיה נציג ראש הממשלה בוועדת המשנה רשאי להתריע כי אם לא תינתן החלטה בתוך חמישה ימי עבודה, יפעל לכינוס ישיבה שלא מן המניין לצורך כך, והוא יהיה רשאי לשמש כיושב ראש ועדת המשנה לדיור לאומי לעניין אותה ישיבה.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_6">
+          <heading>
+            <authorialNote placement="side">
+              <p>ועדה לדיור לאומי</p>
+            </authorialNote>
+          </heading>
+          <num>6.</num>
+          <list>
+            <point eId="point_6__point_א">
+              <num>(א)</num>
+              <list>
+                <intro>
+                  <p>בכל מחוז תוקם ועדה לדיור לאומי, וזה הרכבה:</p>
+                </intro>
+                <point eId="point_6__point_א__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>יושב ראש הוועדה המחוזית, או עובד משרד האוצר שימנה שר האוצר, והוא יהיה היושב ראש;</p>
+                  </content>
+                </point>
+                <point eId="point_6__point_א__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>מתכנן המחוז;</p>
+                  </content>
+                </point>
+                <point eId="point_6__point_א__point_3">
+                  <num>(3)</num>
+                  <content>
+                    <p>נציג שר הבינוי והשיכון, מקרב עובדי משרדו;</p>
+                  </content>
+                </point>
+                <point eId="point_6__point_א__point_4">
+                  <num>(4)</num>
+                  <content>
+                    <p>נציג השר להגנת הסביבה, מקרב עובדי משרדו;</p>
+                  </content>
+                </point>
+                <point eId="point_6__point_א__point_5">
+                  <num>(5)</num>
+                  <content>
+                    <p>נציג שר התחבורה והבטיחות בדרכים, מקרב עובדי משרדו;</p>
+                  </content>
+                </point>
+                <point eId="point_6__point_א__point_6">
+                  <num>(6)</num>
+                  <content>
+                    <p>נציג שר התשתיות הלאומיות, מקרב עובדי משרדו;</p>
+                  </content>
+                </point>
+                <point eId="point_6__point_א__point_6א">
+                  <num>(6א)</num>
+                  <content>
+                    <p>נציג שר הפנים, מקרב עובדי משרדו;</p>
+                  </content>
+                </point>
+                <point eId="point_6__point_א__point_7">
+                  <num>(7)</num>
+                  <content>
+                    <p>נציג הרשות המקומית שבשטח השיפוט שלה נכלל רוב שטחה של התכנית הנדונה;</p>
+                  </content>
+                </point>
+                <point eId="point_6__point_א__point_8">
+                  <num>(8)</num>
+                  <content>
+                    <p>נציג הגופים הציבוריים שעניינם בשמירת איכות הסביבה;</p>
+                  </content>
+                </point>
+                <point eId="point_6__point_א__point_9">
+                  <num>(9)</num>
+                  <content>
+                    <p>נציג הארגונים המקצועיים בתחומי התכנון והבנייה.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_6__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>ראש הממשלה רשאי למנות נציג לוועדה לעניין תכנית אחת או יותר.</p>
+              </content>
+            </point>
+            <point eId="point_6__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>עובד רשות מקרקעי ישראל, שימנה מנהל רשות מקרקעי ישראל, יהיה ממלא מקומו של עובד משרד הבינוי והשיכון בהעדרו.</p>
+              </content>
+            </point>
+            <point eId="point_6__point_ד">
+              <num>(ד)</num>
+              <content>
+                <p>היועץ המשפטי לוועדה יבחן אם מי מהנציגים המנויים בפסקאות (7) עד (9) שבסעיף קטן (א) עלול להימצא במצב תדיר של ניגוד עניינים.</p>
+              </content>
+            </point>
+            <point eId="point_6__point_ה">
+              <num>(ה)</num>
+              <content>
+                <p>לא ימונה לחבר הוועדה מי שתלוי ועומד נגדו כתב אישום בשל עבירה שמפאת מהותה, חומרתה או נסיבותיה אין הוא ראוי לכהן כחבר הוועדה.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_7">
+          <heading>
+            <authorialNote placement="side">
+              <p>ממלאי תפקידים בוועדה לדיור לאומי</p>
+            </authorialNote>
+          </heading>
+          <num>7.</num>
+          <list>
+            <intro>
+              <p>לוועדה לדיור לאומי יהיו –</p>
+            </intro>
+            <point eId="point_7__point_1">
+              <num>(1)</num>
+              <content>
+                <p>מזכיר;</p>
+              </content>
+            </point>
+            <point eId="point_7__point_2">
+              <num>(2)</num>
+              <content>
+                <p>יועץ משפטי, אחד או יותר, ויכול שיהיה היועץ המשפטי לוועדה המחוזית;</p>
+              </content>
+            </point>
+            <point eId="point_7__point_3">
+              <num>(3)</num>
+              <content>
+                <p>יועץ תחבורתי, אחד או יותר, שאינו עובד המדינה;</p>
+              </content>
+            </point>
+            <point eId="point_7__point_4">
+              <num>(4)</num>
+              <content>
+                <p>יועץ סביבתי, אחד או יותר, שאינו עובד המדינה;</p>
+              </content>
+            </point>
+            <point eId="point_7__point_5">
+              <num>(5)</num>
+              <content>
+                <p>יועץ שמאי, אחד או יותר, שאינו עובד המדינה;</p>
+              </content>
+            </point>
+            <point eId="point_7__point_6">
+              <num>(6)</num>
+              <content>
+                <p>יועץ כלכלי, אחד או יותר, שאינו עובד המדינה;</p>
+              </content>
+            </point>
+            <point eId="point_7__point_7">
+              <num>(7)</num>
+              <content>
+                <p>יועצים נוספים כפי שיקבע יושב ראש הוועדה.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_8">
+          <heading>
+            <authorialNote placement="side">
+              <p>תפקידי הוועדה לדיור לאומי וסמכויותיה</p>
+            </authorialNote>
+          </heading>
+          <num>8.</num>
+          <list>
+            <point eId="point_8__point_א">
+              <num>(א)</num>
+              <content>
+                <p>הוועדה מוסמכת לדון ולהחליט בדבר אישור תכניות לדיור לאומי ובדבר אישור תשריט לצורכי רישום כאמור <ref href="#point_29">בסעיף 29</ref>.</p>
+              </content>
+            </point>
+            <point eId="point_8__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>הוועדה מוסמכת לדון ולהחליט בנושאים כאמור בסעיף קטן (א) במקום כל מוסד תכנון אחר, למעט המועצה הארצית, הוועדה לשמירה על קרקע חקלאית ושטחים פתוחים והוועדה לשמירת הסביבה החופית.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_9">
+          <heading>
+            <authorialNote placement="side">
+              <p>הגשת תכנית לדיור לאומי לוועדה</p>
+            </authorialNote>
+          </heading>
+          <num>9.</num>
+          <list>
+            <point eId="point_9__point_א">
+              <num>(א)</num>
+              <list>
+                <intro>
+                  <p>אלה רשאים להכין תכנית לדיור לאומי ולהגישה לוועדה:</p>
+                </intro>
+                <point eId="point_9__point_א__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>משרד ממשלתי;</p>
+                  </content>
+                </point>
+                <point eId="point_9__point_א__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>רשות מקרקעי ישראל;</p>
+                  </content>
+                </point>
+                <point eId="point_9__point_א__point_3">
+                  <num>(3)</num>
+                  <content>
+                    <p>ועדה מחוזית – לגבי תכניות בתחום מרחב התכנון שלה;</p>
+                  </content>
+                </point>
+                <point eId="point_9__point_א__point_4">
+                  <num>(4)</num>
+                  <content>
+                    <p>ועדה מקומית – לגבי תכניות בתחום מרחב התכנון שלה;</p>
+                  </content>
+                </point>
+                <point eId="point_9__point_א__point_5">
+                  <num>(5)</num>
+                  <content>
+                    <p>רשות מקומית – לגבי תכניות בתחום שיפוטה.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_9__point_א1">
+              <num>(א1)</num>
+              <list>
+                <intro>
+                  <p>על אף הוראות סעיף קטן (א) –</p>
+                </intro>
+                <point eId="point_9__point_א1__point_1">
+                  <num>(1)</num>
+                  <list>
+                    <intro>
+                      <p>בתכנית לדיור לאומי שאינה בקרקע שעיקרה מקרקעי ישראל, לרבות בתכנית לדיור לאומי ביישוב מיעוטים בקרקע ש־40% או יותר ממנה אך פחות מ־80% הם מקרקעי ישראל, רשאים להכין את התכנית ולהגישה לוועדה, נוסף על הגופים המנויים בסעיף קטן (א), גם בעלי הקרקע שאינה מקרקעי ישראל, ובלבד שמתקיים המפורט להלן:</p>
+                    </intro>
+                    <point eId="point_9__point_א1__point_1__point_א">
+                      <num>(א)</num>
+                      <content>
+                        <p>בעלי הקרקע המחזיקים ב־80% לפחות מהקרקע שאינה מקרקעי ישראל נתנו את הסכמתם לתכנית לאחר שנמסרה לכל בעלי הקרקע הודעה בדבר הכנת התכנית; הודעה כאמור תימסר לפי מענם הידוע של הבעלים;</p>
+                      </content>
+                    </point>
+                    <point eId="point_9__point_א1__point_1__point_ב">
+                      <num>(ב)</num>
+                      <content>
+                        <p>רשות מקרקעי ישראל נתנה את הסכמתה העקרונית לתכנית; לא השיבה רשות מקרקעי ישראל לבקשה לקבלת הסכמתה בתוך 30 ימים מיום שנמסרה לה, לא תידרש הסכמתה כתנאי להגשת התכנית, בכפוף להוראות <ref href="#point_13">סעיף 13(ה)</ref>;</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+                <point eId="point_9__point_א1__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>בתכנית לדיור לאומי במתחם פינוי ובינוי, רשאי להכין את התכנית ולהגישה לוועדה מי שרשאי להגישה לפי <ref href="/akn/il/act/PrimaryLegislation/1965-08-12/148917">חוק התכנון</ref>.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_9__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>מגיש תכנית לדיור לאומי יצרף לה חוות דעת הערוכה בהתאם לדרישות הוועדה והסוקרת את העניינים המנויים <ref href="#point_12">בסעיף 12(א)</ref>.</p>
+              </content>
+            </point>
+            <point eId="point_9__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>הוגשה תכנית לדיור לאומי לוועדה כאמור בסעיף קטן (א), יעביר מגיש התכנית העתק ממנה לוועדה המקומית שבתחום מרחב התכנון שלה נכלל רוב שטחה של התכנית.</p>
+              </content>
+            </point>
+            <point eId="point_9__point_ד">
+              <num>(ד)</num>
+              <content>
+                <p>כללה תכנית לדיור לאומי גם קרקע שאינה מקרקעי ישראל, יאשר מתכנן המחוז, כתנאי להגשתה, כי הקרקע שאינה מקרקעי ישראל נחוצה לתכנית מבחינה תכנונית וראויה להיכלל בה.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_10">
+          <heading>
+            <authorialNote placement="side">
+              <p>בדיקה מוקדמת של תכנית לדיור לאומי</p>
+            </authorialNote>
+          </heading>
+          <num>10.</num>
+          <list>
+            <point eId="point_10__point_א">
+              <num>(א)</num>
+              <content>
+                <p>הוגשה תכנית לדיור לאומי לוועדה, יבדוק מתכנן המחוז בתוך 14 ימי עבודה אם היא ערוכה בהתאם להוראות לפי <ref href="/akn/il/act/PrimaryLegislation/1965-08-12/148917">חוק התכנון</ref> ואם היא מקיימת את דרישות הוועדה והדרישות לפי <ref href="/akn/il/act/PrimaryLegislation/1965-08-12/148917">חוק התכנון</ref> ולפי חוק זה.</p>
+              </content>
+            </point>
+            <point eId="point_10__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>מצא מתכנן המחוז כי מתקיימים בתכנית לדיור לאומי התנאים כאמור בסעיף קטן (א), תיקלט התכנית בוועדה, ומזכיר הוועדה ישלח הודעה על כך, בצירוף מסמכי התכנית, בתוך שלושה ימי עבודה, למגיש התכנית, לחברי הוועדה, לחברי הוועדה המחוזית, לנציג משרד הרווחה והשירותים החברתיים שימנה שר הרווחה והשירותים החברתיים (להלן – נציג משרד הרווחה), ליועצים המקצועיים של הוועדה המנויים <ref href="#point_7">בסעיף 7</ref> (בחוק זה – היועצים המקצועיים של הוועדה) ולמינהל התכנון.</p>
+              </content>
+            </point>
+            <point eId="point_10__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>מצא מתכנן המחוז כי לא מתקיימים בתכנית לדיור לאומי התנאים כאמור בסעיף קטן (א), ישלח מזכיר הוועדה למגיש התכנית הודעה על כך; בהודעה יפורטו התנאים שלא מתקיימים בתכנית כאמור.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_11">
+          <heading>
+            <authorialNote placement="side">
+              <p>הגשת חוות דעת של היועצים המקצועיים של הוועדה</p>
+            </authorialNote>
+          </heading>
+          <num>11.</num>
+          <content>
+            <p>היועצים המקצועיים של הוועדה כאמור <ref href="#point_7">בפסקאות (3) עד (7) שבסעיף 7</ref>, יגישו למתכנן המחוז, בתוך 21 ימי עבודה מיום קבלת ההודעה על קליטתה של התכנית, חוות דעת שתכלול התייחסות להיבטי התכנית שבתחום מומחיותם; מתכנן המחוז רשאי להאריך את המועד להגשת חוות דעת, מטעמים מיוחדים שיירשמו, בשבעה ימים נוספים.</p>
+          </content>
+        </point>
+        <point eId="point_12">
+          <heading>
+            <authorialNote placement="side">
+              <p>הגשת חוות דעת של מתכנן המחוז</p>
+            </authorialNote>
+          </heading>
+          <num>12.</num>
+          <list>
+            <point eId="point_12__point_א">
+              <num>(א)</num>
+              <list>
+                <intro>
+                  <p>מתכנן המחוז יגיש לחברי הוועדה, לא יאוחר מחמישה ימי עבודה לפני מועד הדיון בתכנית, חוות דעת תכנונית בכתב הסוקרת את כל אלה:</p>
+                </intro>
+                <point eId="point_12__point_א__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>עיקרי התכנית, הוראותיה והתאמתה להוראות חוק זה;</p>
+                  </content>
+                </point>
+                <point eId="point_12__point_א__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>עיקרי השינויים המוצעים בה בהתייחס למצב התכנוני הקיים;</p>
+                  </content>
+                </point>
+                <point eId="point_12__point_א__point_3">
+                  <num>(3)</num>
+                  <content>
+                    <p>הוראותיהן של התכניות הגבוהות ממנה בסולם העדיפות של תכניות ומידת התאמתה של התכנית אליהן;</p>
+                  </content>
+                </point>
+                <point eId="point_12__point_א__point_4">
+                  <num>(4)</num>
+                  <content>
+                    <p>השפעותיה של התכנית המוצעת על ההיבטים התכנוניים השונים הנוגעים לתכנית ולסביבתה;</p>
+                  </content>
+                </point>
+                <point eId="point_12__point_א__point_5">
+                  <num>(5)</num>
+                  <content>
+                    <p>השטחים המיועדים למבני ציבור, לשטחים ציבוריים פתוחים, לתשתיות, לתחבורה ולחניה הנדרשים לצורך התכנית המוצעת, וקיומם בתחומה של התכנית ובסביבתה הקרובה באופן ובכמות הנותנים פתרון לצרכים הנובעים מהתכנית;</p>
+                  </content>
+                </point>
+                <point eId="point_12__point_א__point_6">
+                  <num>(6)</num>
+                  <content>
+                    <p>לעניין תכנית לדיור לאומי החלה על אתר המיועד לשימור בתכנית אחרת – שימור האתר;</p>
+                  </content>
+                </point>
+                <point eId="point_12__point_א__point_7">
+                  <num>(7)</num>
+                  <content>
+                    <p>הצורך בהגנה על היבטים סביבתיים הנוגעים לתכנית ולסביבתה, לרבות ערכי טבע, נוף ומורשת;</p>
+                  </content>
+                </point>
+                <point eId="point_12__point_א__point_8">
+                  <num>(8)</num>
+                  <content>
+                    <p>המלצותיו ביחס לתכנית, לרבות התייחסות לחוות הדעת של היועצים המקצועיים של הוועדה כאמור בסעיף קטן (ג).</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_12__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>המליץ מתכנן המחוז להפקיד את התכנית לדיור לאומי בשינויים, יפרט את עיקרי השינויים המוצעים על ידו.</p>
+              </content>
+            </point>
+            <point eId="point_12__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>לחוות דעת מתכנן המחוז יצורפו חוות הדעת של היועצים המקצועיים של הוועדה כאמור <ref href="#point_11">בסעיף 11</ref>; ראה מתכנן המחוז שיש צורך בחוות דעת מקצועיות נוספות, יצרפן לחוות דעתו.</p>
+              </content>
+            </point>
+            <point eId="point_12__point_ד">
+              <num>(ד)</num>
+              <content>
+                <p>התקבלו הערות מינהל התכנון לתכנית לדיור לאומי, או הועברה חוות דעת על ידי מי מחברי הוועדה המחוזית או נציג משרד הרווחה, יצרפן מתכנן המחוז לחוות דעתו.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_12א">
+          <heading>
+            <authorialNote placement="side">
+              <p>עמדה לגבי תכנית לדיור לאומי שאינה בקרקע שעיקרה מקרקעי ישראל</p>
+            </authorialNote>
+          </heading>
+          <num>12א.</num>
+          <list>
+            <point eId="point_12א__point_א">
+              <num>(א)</num>
+              <content>
+                <p>הוגשה תכנית לדיור לאומי לפי <ref href="#point_9">סעיף 9(א1)(1)</ref>, ולא צורפה לה הסכמת רשות מקרקעי ישראל כאמור <ref href="#point_9">בסעיף 9(א1)(1)(ב)</ref>, תמסור הרשות, בתוך 15 ימי עבודה מיום קבלת ההודעה על קליטת התכנית, אם היא נותנת את הסכמתה לתכנית או מתנגדת לה.</p>
+              </content>
+            </point>
+            <point eId="point_12א__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>הודיעה רשות מקרקעי ישראל בתוך התקופה האמורה בסעיף קטן (א) כי היא מתנגדת לתכנית, יראו את התכנית כבטלה.</p>
+              </content>
+            </point>
+            <point eId="point_12א__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>לא הודיעה רשות מקרקעי ישראל כאמור בסעיף קטן (ב), רשאי מגיש התכנית לבקש כי תינתן עמדת ועדה לתכנית; ואלה חברי הוועדה: מנהל מינהל התכנון, והוא יהיה היושב ראש, המנהל הכללי של משרד הבינוי והשיכון ומנהל רשות מקרקעי ישראל (בסעיף זה – הוועדה).</p>
+              </content>
+            </point>
+            <point eId="point_12א__point_ד">
+              <num>(ד)</num>
+              <content>
+                <p>הוועדה תודיע בתוך שבעה ימים לפני מועד הדיון אם היא נותנת את הסכמתה לתכנית או מתנגדת לה.</p>
+              </content>
+            </point>
+            <point eId="point_12א__point_ה">
+              <num>(ה)</num>
+              <content>
+                <p>הודיעה הוועדה כי היא נותנת את הסכמתה לתכנית, יראו את עמדתה, על אף האמור בכל דין, כעמדת רשות מקרקעי ישראל בקשר לתכנית.</p>
+              </content>
+            </point>
+            <point eId="point_12א__point_ו">
+              <num>(ו)</num>
+              <content>
+                <p>הודיעה הוועדה כי היא מתנגדת לתכנית, יראו את התכנית כבטלה.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_13">
+          <heading>
+            <authorialNote placement="side">
+              <p>דיון על הפקדת תכנית לדיור לאומי</p>
+            </authorialNote>
+          </heading>
+          <num>13.</num>
+          <list>
+            <point eId="point_13__point_א">
+              <num>(א)</num>
+              <content>
+                <p>הוועדה תקיים דיון בתכנית לדיור לאומי, בתוך 45 ימי עבודה מיום משלוח ההודעה על קליטתה כאמור <ref href="#point_10">בסעיף 10(ב)</ref>; בתום הדיון תחליט הוועדה להפקיד את התכנית, לדחותה, להתנות תנאים להפקדתה או להעבירה לוועדה המחוזית שבתחום מרחב התכנון שלה כלול שטחה של התכנית; הועברה תכנית לוועדה המחוזית, יחולו עליה הוראות <ref href="/akn/il/act/PrimaryLegislation/1965-08-12/148917">חוק התכנון</ref> בלבד.</p>
+              </content>
+            </point>
+            <point eId="point_13__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>על אף האמור בסעיף קטן (א), רשאית הוועדה, בנסיבות מיוחדות שיירשמו, להחליט להמשיך את הדיון בתכנית לדיור לאומי בישיבה נוספת, אם ראתה שלצורך קבלת החלטה לגבי התכנית נדרשים מידע נוסף או חוות דעת מקצועית נוספת, או שנדרשת בדיקתו של מידע או עניין שהועלה בדיון שקיימה בתכנית.</p>
+              </content>
+            </point>
+            <point eId="point_13__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>החליטה הוועדה להמשיך את הדיון בתכנית לדיור לאומי כאמור בסעיף קטן (ב), תקיים בה דיונים נוספים בתוך 14 ימי עבודה ממועד הדיון הראשון בה; בדיונים אלה תחליט הוועדה אחד מאלה: להפקיד את התכנית, להפקידה בתנאים שתקבע, לדחותה או להעבירה לדיון בוועדה המחוזית שבתחום מרחב התכנון שלה כלול שטחה של התכנית.</p>
+              </content>
+            </point>
+            <point eId="point_13__point_ד">
+              <num>(ד)</num>
+              <content>
+                <p>לא דנה הוועדה בתכנית לדיור לאומי או שלא קיבלה החלטה לעניין התכנית במועדים הקבועים לכך לפי סעיף זה, יהיה נציג ראש הממשלה בוועדה רשאי להתריע כי אם לא תינתן החלטה בתוך חמישה ימי עבודה, יפעל לכינוס ישיבה שלא מן המניין לצורך כך, והוא יהיה רשאי לשמש כיושב ראש הוועדה לעניין אותה ישיבה.</p>
+              </content>
+            </point>
+            <point eId="point_13__point_ה">
+              <num>(ה)</num>
+              <content>
+                <p>על אף הוראות סעיף זה, לא יוחלט על הפקדת תכנית לדיור לאומי שהוגשה לפי <ref href="#point_9">סעיף 9(א1)(1)</ref>, שלא צורפה לה הסכמת רשות מקרקעי ישראל כאמור <ref href="#point_9">בסעיף 9(א1)(1)(ב)</ref>, אלא אם כן הסכמת הרשות או הסכמת הוועדה האמורה <ref href="#point_12א">בסעיף 12א</ref> ניתנה עד למועד ההחלטה.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_14">
+          <heading>
+            <authorialNote placement="side">
+              <p>תנאים להפקדת תכנית לדיור לאומי</p>
+            </authorialNote>
+          </heading>
+          <num>14.</num>
+          <list>
+            <point eId="point_14__point_א">
+              <num>(א)</num>
+              <content>
+                <p>תנאים להפקדת תכנית לדיור לאומי יכול שיתייחסו לתיקונים שיש להכניס במסמכי התכנית כדי שיהיה ניתן להפקידה, או לתנאים שהוועדה סברה שהם חיוניים כדי לאפשר את אישורה של התכנית או את מימושה, ואולם לא תתנה הוועדה את הפקדתה של תכנית, אלא באישור, בתיאום או בחוות דעת של מי שאישורו, תיאום עמו או חוות דעתו נדרשים לפי הוראות <ref href="/akn/il/act/PrimaryLegislation/1965-08-12/148917">חוק התכנון</ref> או חוק אחר.</p>
+              </content>
+            </point>
+            <point eId="point_14__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>לא תתנה הוועדה את הפקדתה של תכנית לדיור לאומי בתנאי, אלא אם כן סברה שניתן לקיימו או שהוא צפוי להתקיים בתוך 60 ימים; ולעניין תכנית לדיור לאומי במתחם פינוי ובינוי – בתוך 90 ימים, מיום פרסום ההחלטה באתר האינטרנט של מינהל התכנון כאמור <ref href="#point_30">בסעיף 30</ref> או מיום שההחלטה הומצאה למגיש התכנית, לפי המוקדם; יושב ראש הוועדה רשאי להאריך את התקופה האמורה לתקופה נוספת שלא תעלה על 30 ימים, ולעניין תכנית לדיור לאומי במתחם פינוי ובינוי – לתקופה שלא תעלה על 45 ימים.</p>
+              </content>
+            </point>
+            <point eId="point_14__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>חלפו התקופות כאמור בסעיף קטן (ב) ולא התקיים תנאי שקבעה הוועדה כאמור בסעיף קטן (א), רשאית היא לקיים דיון נוסף בתכנית בתוך 14 ימי עבודה, ולקבל החלטה לעניין התכנית.</p>
+              </content>
+            </point>
+            <point eId="point_14__point_ד">
+              <num>(ד)</num>
+              <content>
+                <p>סברה הוועדה שקיומו של תנאי הכרחי כדי לאפשר את אישורה של התכנית לדיור לאומי או את מימושה, והתנאי אינו ניתן למילוי בתוך התקופה הקבועה בסעיף קטן (ב), תדחה את התכנית; ואולם, הוועדה רשאית לאשר את הפקדת התכנית ולקבוע שאישורה יותנה בקיומו של אותו תנאי אם מצאה שיש סיכוי סביר שיהיה ניתן להשלימו בתוך התקופה הכוללת הקבועה בחוק לאישורה של תכנית לדיור לאומי.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_15">
+          <heading>
+            <authorialNote placement="side">
+              <p>מילוי תנאים להפקדת תכנית לדיור לאומי</p>
+            </authorialNote>
+          </heading>
+          <num>15.</num>
+          <list>
+            <point eId="point_15__point_א">
+              <num>(א)</num>
+              <content>
+                <p>הורתה הוועדה על הכנסת שינויים במסמכי התכנית שהוגשה, כתנאי להפקדתה, יתקן מגיש התכנית את מסמכי התכנית ויגישה למתכנן המחוז כשהיא מתוקנת בהתאם להחלטת הוועדה, בצירוף דוח המפרט את כל השינויים שנערכו במסמכי התכנית, בתוך התקופות כאמור <ref href="#point_14">בסעיף 14(ב)</ref>.</p>
+              </content>
+            </point>
+            <point eId="point_15__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>הוגשו לוועדה מסמכים מתוקנים כאמור בסעיף קטן (א), יבדוק אותם מתכנן המחוז; קבע מתכנן המחוז שהמסמכים תוקנו בהתאם להחלטת הוועדה, יודיע על כך למגיש התכנית ויצרף את נוסח ההודעה על הפקדת התכנית שיש לפרסם לפי חוק זה.</p>
+              </content>
+            </point>
+            <point eId="point_15__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>ראה מתכנן המחוז שהמסמכים לא תוקנו בהתאם להחלטת הוועדה, יודיע על כך למגיש התכנית בתוך שבעה ימי עבודה מיום שהוגשו לו המסמכים ויפרט את התיקונים הנדרשים בהם; הודיע מתכנן המחוז כאמור, יוגשו המסמכים המתוקנים בתוך שבעה ימי עבודה מיום קבלת ההודעה.</p>
+              </content>
+            </point>
+            <point eId="point_15__point_ד">
+              <num>(ד)</num>
+              <content>
+                <p>לא הוגשו לוועדה מסמכים מתוקנים במועדים הקבועים בסעיפים קטנים (א) או (ג), או שקבע מתכנן המחוז כי המסמכים שהוגשו בעקבות הודעתו לא תוקנו על פי הוראותיו, יחולו הוראות <ref href="#point_16">סעיף 16(1)</ref>.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_16">
+          <heading>
+            <authorialNote placement="side">
+              <p>ביטול החלטה על הפקדה</p>
+            </authorialNote>
+          </heading>
+          <num>16.</num>
+          <list>
+            <intro>
+              <p>החלטת הוועדה להפקיד תכנית לדיור לאומי תהא בטלה בהתקיים אחד מאלה:</p>
+            </intro>
+            <point eId="point_16__point_1">
+              <num>(1)</num>
+              <content>
+                <p>לא הוגשו לוועדה מסמכים מתוקנים במועד;</p>
+              </content>
+            </point>
+            <point eId="point_16__point_2">
+              <num>(2)</num>
+              <content>
+                <p>לא התקיימו התנאים האחרים שקבעה הוועדה להפקדת התכנית לדיור לאומי, בתוך התקופה האמורה <ref href="#point_14">בסעיף 14</ref>.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_17">
+          <heading>
+            <authorialNote placement="side">
+              <p>פרסום הודעה על הפקדה</p>
+            </authorialNote>
+          </heading>
+          <num>17.</num>
+          <list>
+            <point eId="point_17__point_א">
+              <num>(א)</num>
+              <list>
+                <intro>
+                  <p>הודעה על הפקדת תכנית לדיור לאומי תפורסם בתוך עשרה ימים מיום שקיבל מגיש התכנית את הודעת מתכנן המחוז כאמור <ref href="#point_15">בסעיף 15(ב)</ref> –</p>
+                </intro>
+                <point eId="point_17__point_א__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>על גבי שני שלטים במקום בולט לעין בתחום התכנית, בהתאם להוראות לפי <ref href="/akn/il/act/PrimaryLegislation/1965-08-12/148917#point_89א">סעיפים 89א(א) עד (ג)</ref><ref href="/akn/il/act/PrimaryLegislation/1965-08-12/148917#point_265">ו־265(22ב) לחוק התכנון</ref>;</p>
+                  </content>
+                </point>
+                <point eId="point_17__point_א__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>בעיתון, בהתאם להוראות <ref href="/akn/il/act/PrimaryLegislation/1965-08-12/148917#point_1א">סעיף 1א לחוק התכנון</ref>, בשינויים אלה: במקום ”בשני עיתונים“ יקראו ”בחמישה עיתונים“, ובמקום ”שלפחות אחד מהם הוא עיתון נפוץ“ יקראו ”שלפחות שניים מהם הם עיתונים נפוצים“;</p>
+                  </content>
+                </point>
+                <point eId="point_17__point_א__point_3">
+                  <num>(3)</num>
+                  <content>
+                    <p>באתר האינטרנט של מינהל התכנון.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_17__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>פרסום הודעה כאמור בסעיף קטן (א)(1) ו־(2) ייעשה על ידי מגיש התכנית ועל חשבונו, בנוסח שאישר מזכיר הוועדה.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_18">
+          <heading>
+            <authorialNote placement="side">
+              <p>משלוח הודעה על הפקדה</p>
+            </authorialNote>
+          </heading>
+          <num>18.</num>
+          <list>
+            <point eId="point_18__point_א">
+              <num>(א)</num>
+              <list>
+                <intro>
+                  <p>בלי לגרוע מחובת הפרסום על פי <ref href="/akn/il/act/PrimaryLegislation/1965-08-12/148917">חוק התכנון</ref>, הוועדה תשלח הודעה על הפקדת תכנית לדיור לאומי, בתוך התקופה האמורה <ref href="#point_17">בסעיף 17(א)</ref>, לכל אחד מאלה:</p>
+                </intro>
+                <point eId="point_18__point_א__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>למהנדסי הוועדות המקומיות שבתחום מרחב התכנון שלהן כלול שטחה של התכנית ולמנהלים הכלליים או למזכירים של הרשויות המקומיות שבתחום שיפוטן כלול שטחה של התכנית;</p>
+                  </content>
+                </point>
+                <point eId="point_18__point_א__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>למהנדסי הוועדות המקומיות שמרחב התכנון שלהן גובל בשטחה של התכנית;</p>
+                  </content>
+                </point>
+                <point eId="point_18__point_א__point_3">
+                  <num>(3)</num>
+                  <content>
+                    <p>אם שטח התכנית גובל בתחום מחוז אחר – למתכנן המחוז הגובל;</p>
+                  </content>
+                </point>
+                <point eId="point_18__point_א__point_4">
+                  <num>(4)</num>
+                  <content>
+                    <p>לתאגידים המנויים <ref href="/akn/il/act/PrimaryLegislation/1965-08-12/148917#point_119ב">בסעיף 119ב(9)(א) לחוק התכנון</ref>.</p>
+                  </content>
+                </point>
+                <point eId="point_18__point_א__point_5">
+                  <num>(5)</num>
+                  <content>
+                    <p>לחברי הוועדה המחוזית ולנציג משרד הרווחה.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_18__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>הומצאה הודעה למנהל הכללי או למזכיר של רשות מקומית, יעבירה לחברי מועצת הרשות.</p>
+              </content>
+            </point>
+            <point eId="point_18__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>כללה תכנית לדיור לאומי הוראות בדבר איחוד וחלוקה בלא הסכמה, יחולו ההוראות לפי <ref href="/akn/il/act/PrimaryLegislation/1965-08-12/148917">חוק התכנון</ref> לעניין משלוח הודעות על הפקדה, נוסף על הוראות סעיף זה.</p>
+              </content>
+            </point>
+            <point eId="point_18__point_ד">
+              <num>(ד)</num>
+              <content>
+                <p>לא תישמע טענה כי הודעה על הפקדת תכנית לפי סעיף זה לא נמסרה למי שחלה חובה למסור לו הודעה לפי סעיף זה, אלא ממי שחלה כלפיו החובה כאמור.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_19">
+          <heading>
+            <authorialNote placement="side">
+              <p>העמדת מסמכי תכנית לדיור לאומי לעיון הציבור</p>
+            </authorialNote>
+          </heading>
+          <num>19.</num>
+          <content>
+            <p>כל מסמכי תכנית לדיור לאומי שהוועדה החליטה להפקידה וכן חוות דעת היועצים המקצועיים של הוועדה וחוות דעת מתכנן המחוז כאמור <ref href="#point_11">בסעיפים 11</ref><ref href="#point_12">ו־12</ref>, יהיו פתוחים לעיון הציבור במשרדי הוועדה המחוזית ובמשרדי הוועדה המקומית שבתחום מרחב התכנון שלהן כלול שטחה של התכנית, וכן באתר האינטרנט של מינהל התכנון ואם מגיש התכנית הוא גוף המנוי <ref href="#point_9">בסעיף 9(א)</ref> – גם באתר האינטרנט שלו.</p>
+          </content>
+        </point>
+        <point eId="point_20">
+          <heading>
+            <authorialNote placement="side">
+              <p>הגשת התנגדות</p>
+            </authorialNote>
+          </heading>
+          <num>20.</num>
+          <list>
+            <point eId="point_20__point_א">
+              <num>(א)</num>
+              <content>
+                <p>כל אדם רשאי להגיש התנגדות לתכנית לדיור לאומי שהופקדה.</p>
+              </content>
+            </point>
+            <point eId="point_20__point_ב">
+              <num>(ב)</num>
+              <list>
+                <intro>
+                  <p>התנגדות תוגש לוועדה בתוך 60 ימים מהמועד שבו פורסמה הודעה על הפקדת התכנית לפי <ref href="#point_17">סעיף 17</ref>, ולגבי מי שיש לשלוח לו הודעה על הפקדת התכנית לפי <ref href="#point_18">סעיף 18</ref> – בתוך 60 ימים מיום קבלת ההודעה; לעניין זה, מועד פרסום ההודעה על הפקדת התכנית יהיה המועד המאוחר מבין אלה:</p>
+                </intro>
+                <point eId="point_20__point_ב__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>מועד הפרסום על גבי השלט האחרון שהוצב בתחום התכנית לפי <ref href="#point_17">סעיף 17</ref>;</p>
+                  </content>
+                </point>
+                <point eId="point_20__point_ב__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>מועד הפרסום האחרון מבין הפרסומים בעיתון לפי <ref href="#point_17">סעיף 17</ref>;</p>
+                  </content>
+                </point>
+                <point eId="point_20__point_ב__point_3">
+                  <num>(3)</num>
+                  <content>
+                    <p>מועד הפרסום באתר האינטרנט של מינהל התכנון לפי <ref href="#point_17">סעיף 17</ref>.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+          </list>
+        </point>
+        <point eId="point_21">
+          <heading>
+            <authorialNote placement="side">
+              <p>שמיעת התנגדויות והחלטת הוועדה</p>
+            </authorialNote>
+          </heading>
+          <num>21.</num>
+          <list>
+            <point eId="point_21__point_א">
+              <num>(א)</num>
+              <content>
+                <p>הוועדה תשמע את ההתנגדויות לתכנית לדיור לאומי בעצמה או באמצעות חוקר, בתוך 30 ימי עבודה מהמועד האחרון להגשת התנגדויות לפי <ref href="#point_20">סעיף 20(ב)</ref> (בחוק זה – התקופה לשמיעת התנגדויות); יושב ראש הוועדה רשאי, מטעמים מיוחדים שיירשמו, להאריך את התקופה לשמיעת התנגדויות לתקופה נוספת שלא תעלה על 30 ימי עבודה.</p>
+              </content>
+            </point>
+            <point eId="point_21__point_ב">
+              <num>(ב)</num>
+              <list>
+                <intro>
+                  <p>שמעה הוועדה את ההתנגדויות בעצמה, תחליט בתוך 21 ימי עבודה מתום התקופה לשמיעת התנגדויות –</p>
+                </intro>
+                <point eId="point_21__point_ב__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>לקבל או לדחות את ההתנגדויות, כולן או חלקן;</p>
+                  </content>
+                </point>
+                <point eId="point_21__point_ב__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>לאשר את התכנית, עם או בלי שינויים או בתנאים שתקבע, או לדחותה.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_21__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>מונה חוקר כאמור בסעיף קטן (א), ישמע את ההתנגדויות ויגיש לוועדה את המלצותיו בתוך 30 ימי עבודה מתום התקופה להגשת התנגדויות, ורשאי מתכנן המחוז להגיש את עמדתו בקשר להמלצות החוקר עד למועד הדיון בוועדה בהמלצות אלה.</p>
+              </content>
+            </point>
+            <point eId="point_21__point_ד">
+              <num>(ד)</num>
+              <list>
+                <intro>
+                  <p>הוגשו לוועדה המלצות החוקר, תחליט הוועדה, בתוך 21 ימי עבודה ממועד הגשת המלצות החוקר –</p>
+                </intro>
+                <point eId="point_21__point_ד__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>לקבל או לדחות את ההמלצות, כולן או חלקן;</p>
+                  </content>
+                </point>
+                <point eId="point_21__point_ד__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>לאשר את התכנית, עם או בלי שינויים או בתנאים שתקבע, או לדחותה.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_21__point_ה">
+              <num>(ה)</num>
+              <content>
+                <p>הופקדה תכנית לדיור לאומי ולא הוגשו התנגדויות עד המועד האחרון להגשת התנגדויות לפי <ref href="#point_20">סעיף 20(ב)</ref>, יראו את התכנית כאילו הוועדה אישרה אותה בתום 30 ימים מהמועד האמור, זולת אם החליטה הוועדה אחרת במהלך 30 הימים האמורים.</p>
+              </content>
+            </point>
+            <point eId="point_21__point_ו">
+              <num>(ו)</num>
+              <content>
+                <p>מתכנן המחוז יהיה רשאי את להאריך המועדים האמורים בסעיפים קטנים (ג) ו־(ד), מטעמים מיוחדים שיירשמו, בתקופה שלא תעלה על שבעה ימים.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_22">
+          <heading>
+            <authorialNote placement="side">
+              <p>תנאים לאישור תכנית לדיור לאומי</p>
+            </authorialNote>
+          </heading>
+          <num>22.</num>
+          <list>
+            <point eId="point_22__point_א">
+              <num>(א)</num>
+              <content>
+                <p>לא תקבע הוועדה תנאים לאישור תכנית לדיור לאומי אלא אם כן סברה שניתן לקיימם או שהם צפויים להתמלא בתוך 60 ימים, ולעניין תכנית לדיור לאומי במתחם פינוי ובינוי – בתוך 90 ימים מיום פרסום ההחלטה באתר האינטרנט של מינהל התכנון כאמור <ref href="#point_30">בסעיף 30</ref> או מיום שההחלטה הומצאה למגיש התכנית, לפי המוקדם; יושב ראש הוועדה רשאי להאריך את התקופה האמורה לתקופה נוספת שלא תעלה על 30 ימים, ולעניין תכנית לדיור לאומי במתחם פינוי ובינוי – לתקופה שלא תעלה על 45 ימים מיום קבלת ההחלטה.</p>
+              </content>
+            </point>
+            <point eId="point_22__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>הורתה הוועדה על הכנסת שינויים במסמכי תכנית, יחולו על תיקונם של מסמכים כאמור הוראות <ref href="#point_15">סעיף 15</ref>, בשינויים המחויבים.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_23">
+          <heading>
+            <authorialNote placement="side">
+              <p>ביטול החלטה לאשר תכנית לדיור לאומי</p>
+            </authorialNote>
+          </heading>
+          <num>23.</num>
+          <list>
+            <intro>
+              <p>החלטת הוועדה לאשר תכנית תהא בטלה ויראו את התכנית כתכנית שנדחתה, בהתקיים אחד מאלה:</p>
+            </intro>
+            <point eId="point_23__point_1">
+              <num>(1)</num>
+              <content>
+                <p>לא הוגשו לוועדה מסמכים מתוקנים במועד הקבוע לכך לפי <ref href="#point_22">סעיף 22(ב)</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_23__point_2">
+              <num>(2)</num>
+              <content>
+                <p>לא מולאו התנאים שקבעה הוועדה לאישור התכנית לפי <ref href="#point_21">סעיף 21(ב)(2) או (ד)(2)</ref>, בתוך התקופה כאמור <ref href="#point_22">בסעיף 22(א)</ref>.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_24">
+          <heading>
+            <authorialNote placement="side">
+              <p>פרסום הודעה על אישור תכנית לדיור לאומי</p>
+            </authorialNote>
+          </heading>
+          <num>24.</num>
+          <list>
+            <point eId="point_24__point_א">
+              <num>(א)</num>
+              <content>
+                <p>החליטה הוועדה לאשר תכנית לדיור לאומי וקבע מתכנן המחוז כי מולאו התנאים שנקבעו לאישורה, לפי <ref href="#point_21">סעיף 21(ב)(2) או (ד)(2)</ref>, אם נקבעו כאלה, יודיע למגיש התכנית על אישור התכנית ויצרף את נוסח ההודעה על האישור שיש לפרסם לפי חוק זה.</p>
+              </content>
+            </point>
+            <point eId="point_24__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>הודעה על אישור תכנית לדיור לאומי תפורסם על ידי מגיש התכנית, על חשבונו, בעיתון כאמור <ref href="#point_17">בסעיף 17(א)(2)</ref>, בתוך 16 ימים מיום שנמסרה לו ההודעה על ידי מתכנן המחוז, ובלבד שלגבי תכנית ששר האוצר החליט כי היא טעונה את אישורו לפי <ref href="/akn/il/act/PrimaryLegislation/1965-08-12/148917#point_109">סעיף 109(א) לחוק התכנון</ref> – שר האוצר אישר את התכנית או שחלפו 30 ימים מיום שמסמכי התכנית הועברו לאישור שר האוצר והוא לא הודיע שאינו מאשרה.</p>
+              </content>
+            </point>
+            <point eId="point_24__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>הודעה על אישורה של תכנית לדיור לאומי תפורסם באתר האינטרנט של מינהל התכנון.</p>
+              </content>
+            </point>
+            <point eId="point_24__point_ד">
+              <num>(ד)</num>
+              <content>
+                <p>העתק ההודעה על אישור התכנית יישלח למי שיש לשלוח לו הודעה על הפקדתה כאמור <ref href="#point_18">בסעיף 18(א)</ref>.</p>
+              </content>
+            </point>
+            <point eId="point_24__point_ה">
+              <num>(ה)</num>
+              <content>
+                <p>מזכיר הוועדה יפרסם הודעה ברשומות על אישור תכנית לדיור לאומי.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_25">
+          <heading>
+            <authorialNote placement="side">
+              <p>תחילתה של תכנית לדיור לאומי</p>
+            </authorialNote>
+          </heading>
+          <num>25.</num>
+          <content>
+            <p>תחילתה של תכנית לדיור לאומי, לעניין כל דין, ביום פרסום הודעה על אישורה בעיתון נפוץ או באתר האינטרנט של מינהל התכנון כאמור <ref href="#point_24">בסעיף 24(ג)</ref>, לפי המאוחר.</p>
+          </content>
+        </point>
+        <point eId="point_26">
+          <heading>
+            <authorialNote placement="side">
+              <p>פרסום הודעה על דחיית תכנית לדיור לאומי</p>
+            </authorialNote>
+          </heading>
+          <num>26.</num>
+          <content>
+            <p>נדחתה תכנית לדיור לאומי בידי הוועדה, יפרסם מזכיר הוועדה הודעה על דחייתה בעיתון כאמור <ref href="#point_17">בסעיף 17(א)(2)</ref> ובאתר האינטרנט של מינהל התכנון, בתוך 21 ימים מהיום שנדחתה.</p>
+          </content>
+        </point>
+        <point eId="point_27">
+          <heading>
+            <authorialNote placement="side">
+              <p>המועד לתחילת ביצוע תכנית לדיור לאומי והשלכות אי־ביצועה במועד</p>
+            </authorialNote>
+          </heading>
+          <num>27.</num>
+          <list>
+            <point eId="point_27__point_א">
+              <num>(א)</num>
+              <content>
+                <p>ביצועה של תכנית לדיור לאומי יחל בתוך שנתיים וחצי מיום שאושרה; לעניין סעיף זה יראו כתחילת ביצועה של תכנית, ביצוע בפועל של 25 אחוזים מכלל עבודות התשתית המתוכננות בשטח התכנית; ראש הממשלה ושר האוצר רשאים לקבוע כללים בדבר אופן חישוב שיעור עבודות התשתית כאמור.</p>
+              </content>
+            </point>
+            <point eId="point_27__point_א1">
+              <num>(א1)</num>
+              <content>
+                <p>על אף האמור בסעיף קטן (א), ביצועה של תכנית לדיור לאומי במתחם פינוי ובינוי יחל בתוך ארבע שנים מיום שאושרה; לעניין סעיף זה יראו כתחילת ביצועה של תכנית קבלת היתר לבניית בניין אחד לפחות בתחום התכנית.</p>
+              </content>
+            </point>
+            <point eId="point_27__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>חלף המועד האמור בסעיף קטן (א), ימסור מתכנן המחוז הודעה על מצב ביצוע התכנית לוועדה המחוזית שבתחום מרחב התכנון שלה כלול שטחה של התכנית.</p>
+              </content>
+            </point>
+            <point eId="point_27__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>לא הוחל בביצוע תכנית בתוך התקופה האמורה בסעיף קטן (א) או (א1), לא יפקע תוקפה, ואולם הוועדה המחוזית תהיה רשאית לשנות את התכנית, להתלותה או לבטלה.</p>
+              </content>
+            </point>
+            <point eId="point_27__point_ד">
+              <num>(ד)</num>
+              <content>
+                <p>בעל קרקע או בעל זכות בקרקע שבתחום תכנית לדיור לאומי, לא יהיה זכאי לתבוע פיצויים כלשהם בשל שינוי התכנית, התלייתה או ביטולה כאמור בסעיף קטן (ג).</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_28">
+          <heading>
+            <authorialNote placement="side">
+              <p>תוצאות ביטול, התליה או שינוי של תכנית לדיור לאומי</p>
+            </authorialNote>
+          </heading>
+          <num>28.</num>
+          <list>
+            <point eId="point_28__point_א">
+              <num>(א)</num>
+              <list>
+                <intro>
+                  <p>בוטלה או הותלתה תכנית כאמור <ref href="#point_27">בסעיף 27(ג)</ref>, יחולו הוראות אלה:</p>
+                </intro>
+                <point eId="point_28__point_א__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>מי שקיבל פיצויים לפי <ref href="/akn/il/act/PrimaryLegislation/1965-08-12/148917#point_197">סעיף 197 לחוק התכנון</ref> בשל פגיעת התכנית, יחזיר למשלם הפיצויים את סכום הפיצויים ששולם לו, בתוספת הפרשי הצמדה וריבית מיום התשלום עד למועד ההשבה;</p>
+                  </content>
+                </point>
+                <point eId="point_28__point_א__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>הוועדה המקומית תחזיר למי שגבתה ממנו היטל השבחה בשל התכנית, את סכום היטל ההשבחה שגבתה ממנו, בתוספת הפרשי הצמדה וריבית מיום התשלום עד למועד ההשבה.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_28__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>שונתה תכנית כאמור <ref href="#point_27">בסעיף 27(ג)</ref>, יחולו הוראות סעיף קטן (א), בשינויים המתחייבים ממהות השינוי שהוכנס בתכנית, ופיצויים ששולמו או היטל השבחה שנגבה, יוחזרו באופן יחסי לשינוי; היתה מחלוקת בדבר הזכאות להחזר תשלום כאמור או בדבר הסכום שיש להחזיר, יחולו הוראות <ref href="/akn/il/act/PrimaryLegislation/1965-08-12/148917#point_198">סעיף 198(ד) עד (ח) לחוק התכנון</ref>, בשינויים המחויבים.</p>
+              </content>
+            </point>
+            <point eId="point_28__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>בוטלה או הותלתה תכנית כאמור <ref href="#point_27">בסעיף 27(ג)</ref>, תבוטל כל הפקעה שנעשתה על פי התכנית, ועל ביטול ההפקעה יחולו הוראות <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_הקרקעות_רכישה_לצורכי_ציבור#point_14">סעיף 14 לפקודת הקרקעות (רכישה לצורכי ציבור), 1943</ref>‏, בשינויים המחויבים; מי שקיבל פיצויים בשל ביצוע הפקעה שבוטלה כאמור, יחזיר למשלם הפיצויים את סכום הפיצויים ששולם לו, בתוספת הפרשי הצמדה וריבית מיום התשלום עד למועד ההשבה.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_29">
+          <heading>
+            <authorialNote placement="side">
+              <p>תשריט לצורכי רישום</p>
+            </authorialNote>
+          </heading>
+          <num>29.</num>
+          <list>
+            <point eId="point_29__point_א">
+              <num>(א)</num>
+              <content>
+                <p>בתוך 60 ימים ממועד תחילתה של תכנית לדיור לאומי, יגיש מגיש התכנית לוועדה תשריט לצורכי רישום.</p>
+              </content>
+            </point>
+            <point eId="point_29__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>מתכנן המחוז יאשר תשריט לצורכי רישום שהוגש לו בתוך 21 ימי עבודה ממועד הגשתו, ובלבד שהתשריט תואם את התכנית לדיור לאומי.</p>
+              </content>
+            </point>
+            <point eId="point_29__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>ראה מתכנן המחוז כי תשריט לצורכי רישום שהוגש לו אינו תואם את התכנית לדיור לאומי, יביא את התשריט לדיון בוועדה בתוך שבעה ימי עבודה ממועד הגשתו.</p>
+              </content>
+            </point>
+            <point eId="point_29__point_ד">
+              <num>(ד)</num>
+              <content>
+                <p>הוועדה תחליט בדבר אישור התשריט או דחייתו בתוך 14 ימי עבודה מהמועד שהובא לפניה, ורשאית היא להחליט על עריכת תכנית לשינוי תכנית לדיור לאומי; החליטה הוועדה על עריכת תכנית לשינוי כאמור, יחולו על עריכת התכנית החדשה, הגשתה והליכי אישורה, הוראות <ref href="#point_9">סעיפים 9 עד 29</ref>.</p>
+              </content>
+            </point>
+            <point eId="point_29__point_ה">
+              <num>(ה)</num>
+              <content>
+                <p>לא יינתן היתר בנייה במגרש שנקבע בתכנית לדיור לאומי ולא נרשם כחלקה, אלא אם כן מתכנן המחוז אישר תשריט לצורכי רישום לאותו מגרש, והתשריט הוגש למנהל מחלקת המדידות.</p>
+              </content>
+            </point>
+            <point eId="point_29__point_ו">
+              <num>(ו)</num>
+              <content>
+                <p>הוראות סעיף זה לא יחולו לגבי שטח בתחום תכנית לדיור לאומי במתחם פינוי ובינוי שהוצאת היתרי בנייה בו טעונה את אישורה של תכנית נוספת.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_30">
+          <heading>
+            <authorialNote placement="side">
+              <p>פרסום החלטות הוועדה ומסמכים שהוגשו לה</p>
+            </authorialNote>
+          </heading>
+          <num>30.</num>
+          <list>
+            <point eId="point_30__point_א">
+              <num>(א)</num>
+              <content>
+                <p>החלטות הוועדה לפי חוק זה יפורסמו באתר האינטרנט של מינהל התכנון, בתוך שבעה ימי עבודה מיום קבלתם.</p>
+              </content>
+            </point>
+            <point eId="point_30__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>תכנית שהוגשה לוועדה תפורסם באתר האינטרנט של מינהל התכנון, בצירוף נספחיה, בתוך שבעה ימי עבודה ממועד קליטתה.</p>
+              </content>
+            </point>
+            <point eId="point_30__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>חוות דעת מתכנן המחוז, לרבות חוות הדעת שצורפו אליה, יפורסמו באתר האינטרנט של מינהל התכנון בתוך שבעה ימי עבודה ממועד קבלת ההחלטה בדבר ההפקדה כאמור <ref href="#point_13">בסעיף 13</ref>.</p>
+              </content>
+            </point>
+            <point eId="point_30__point_ד">
+              <num>(ד)</num>
+              <content>
+                <p>דוח החוקר בהתנגדויות שנשמעו בפניו יפורסם באתר האינטרנט של מינהל התכנון בתוך שבעה ימי עבודה ממועד החלטת הוועדה כאמור <ref href="#point_21">בסעיף 21(ג)</ref>.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_31">
+          <heading>
+            <authorialNote placement="side">
+              <p>החלטה בבקשה להיתר לפי תכנית לדיור לאומי</p>
+            </authorialNote>
+          </heading>
+          <num>31.</num>
+          <content>
+            <p>על בקשה להיתר לפי תכנית לדיור לאומי יחולו הוראות <ref href="/akn/il/act/PrimaryLegislation/1965-08-12/148917">חוק התכנון</ref>.</p>
+          </content>
+        </point>
+        <point eId="point_32">
+          <heading>
+            <authorialNote placement="side">
+              <p>הגשת ערר וסמכויות ועדת הערר</p>
+            </authorialNote>
+          </heading>
+          <num>32.</num>
+          <list>
+            <point eId="point_32__point_א">
+              <num>(א)</num>
+              <content>
+                <p>על הגשת ערר לוועדת הערר לפי <ref href="/akn/il/act/PrimaryLegislation/1965-08-12/148917#point_12א">סעיף 12א לחוק התכנון</ref> (בסעיף זה – ועדת הערר), יחולו הוראות <ref href="/akn/il/act/PrimaryLegislation/1965-08-12/148917">חוק התכנון</ref>.</p>
+              </content>
+            </point>
+            <point eId="point_32__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>על אף האמור בסעיף קטן (א), החליטה ועדת הערר לקבל ערר שהוגש לה כך שיינתן היתר לפי תכנית לדיור לאומי, תהיה ועדת הערר רשאית ליתן את ההיתר בעצמה או להורות לרשות הרישוי המקומית ליתן את ההיתר בתוך תקופה שתקבע.</p>
+              </content>
+            </point>
+            <point eId="point_32__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>החליטה ועדת הערר ליתן את ההיתר בעצמה, יהיו נתונות ליושב ראש ועדת הערר ולנציג מתכנן המחוז בוועדת הערר כל הסמכויות של רשות הרישוי המקומית לפי <ref href="/akn/il/act/PrimaryLegislation/1965-08-12/148917">חוק התכנון</ref>, לעניין זה.</p>
+              </content>
+            </point>
+            <point eId="point_32__point_ד">
+              <num>(ד)</num>
+              <content>
+                <p>הורתה ועדת הערר לרשות הרישוי המקומית ליתן היתר וזו לא נתנה את ההיתר בתוך התקופה האמורה בסעיף קטן (ב), יחולו הוראות סעיף קטן (ג).</p>
+              </content>
+            </point>
+            <point eId="point_32__point_ה">
+              <num>(ה)</num>
+              <content>
+                <p>החליטה ועדת הערר ליתן היתר, תשולם האגרה למתן היתר לפי <ref href="/akn/il/act/PrimaryLegislation/1965-08-12/148917">חוק התכנון</ref> לאוצר המדינה, ועל יתר התשלומים שתשלומם מהווה תנאי למתן היתר לפי <ref href="/akn/il/act/PrimaryLegislation/1965-08-12/148917">חוק התכנון</ref>, יחולו הוראות <ref href="/akn/il/act/PrimaryLegislation/1965-08-12/148917">חוק התכנון</ref>.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_33">
+          <heading>
+            <authorialNote placement="side">
+              <p>ביצוע ותקנות ודיווח לכנסת</p>
+            </authorialNote>
+          </heading>
+          <num>33.</num>
+          <list>
+            <point eId="point_33__point_א">
+              <num>(א)</num>
+              <content>
+                <p>ראש הממשלה ושר האוצר ממונים על ביצוע חוק זה והם רשאים להתקין תקנות בכל הנוגע לביצועו.</p>
+              </content>
+            </point>
+            <point eId="point_33__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>ראש הממשלה ושר האוצר ידווחו לוועדת הפנים והגנת הסביבה של הכנסת אחת לארבעה חודשים, החל ביום תחילתו של חוק זה, על ההתקדמות ביישומו.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_34">
+          <heading>
+            <authorialNote placement="side">
+              <p>תחולת הוראות חוק התכנון</p>
+            </authorialNote>
+          </heading>
+          <num>34.</num>
+          <list>
+            <point eId="point_34__point_א">
+              <num>(א)</num>
+              <content>
+                <p>הוראות <ref href="/akn/il/act/PrimaryLegislation/1965-08-12/148917">חוק התכנון</ref> יחולו בכל עניין מהעניינים המוסדרים בחוק זה, אלא אם כן נקבעה בחוק זה הוראה אחרת באותו עניין.</p>
+              </content>
+            </point>
+            <point eId="point_34__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>על אף האמור בסעיף קטן (א), הוראות <ref href="/akn/il/act/PrimaryLegislation/1965-08-12/148917#point_6">סעיפים 6(ב)</ref>, <ref href="/akn/il/act/PrimaryLegislation/1965-08-12/148917#point_11ג">11ג</ref>, <ref href="/akn/il/act/PrimaryLegislation/1965-08-12/148917#point_11ד">11ד</ref><ref href="/akn/il/act/PrimaryLegislation/1965-08-12/148917#point_110">ו־110 לחוק התכנון</ref> לא יחולו לעניין חוק זה.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_35">
+          <heading>
+            <authorialNote placement="side">
+              <p>הוראת שעה</p>
+            </authorialNote>
+          </heading>
+          <num>35.</num>
+          <list>
+            <point eId="point_35__point_א">
+              <num>(א)</num>
+              <content>
+                <p>חוק זה יחול על תכנית לדיור לאומי המוגשת לוועדה לדיור לאומי ואשר התקיים בה דיון לפני הוועדה והוחלט על הפקדתה בתקופה שמיום תחילתו של חוק זה ועד יום כ"ו באב התשע"ה (11 באוגוסט 2015).</p>
+              </content>
+            </point>
+            <point eId="point_35__point_ב">
+              <num>(ב)</num>
+              <list>
+                <intro>
+                  <p>על אף הוראות סעיף קטן (א), חוק זה יחול גם על תכנית לדיור לאומי שהוגשה למוסד תכנון לפני תחילתו של חוק זה, או תחילתו של <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/http_fs_knesset_gov_il_19_law_19_lsr_301606_pdf">חוק הליכי תכנון ובנייה להאצת הבנייה למגורים (הוראת שעה) (תיקון), התשע"ד–2013</ref>, ובלבד שהועברה לוועדה לדיור לאומי בתוך התקופה האמורה בסעיף קטן (א); הועברה תכנית כאמור, תמשיך הוועדה לדון בה לפי הוראות חוק זה מהשלב שאליו הגיע מוסד התכנון שאליו הוגשה, ואולם –</p>
+                </intro>
+                <point eId="point_35__point_ב__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>לא החליט מוסד התכנון על הפקדת התכנית לפני שהועברה לוועדה, לא תדון הוועדה בתכנית אלא אם כן צורפו לה חוות הדעת כאמור <ref href="#point_9">בסעיפים 9(ב)</ref>, <ref href="#point_11">11</ref><ref href="#point_12">ו־12</ref>;</p>
+                  </content>
+                </point>
+                <point eId="point_35__point_ב__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>החל מוסד התכנון בשמיעת התנגדויות לתכנית לדיור לאומי לפני שהועברה לוועדה, רשאית הוועדה להמשיך ולדון בתכנית, ובלבד שתשמע את כל המתנגדים בעצמה או באמצעות חוקר, ורשאית היא לשמוע את המתנגדים באמצעות חוקר ששמע את המתנגדים טרם העברת התכנית אליה.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_35__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>
+                  <wikicomment font-size="x-small">(בוטל).</wikicomment>
+                </p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_36">
+          <heading>
+            <authorialNote placement="side">
+              <p xml:space="preserve"> </p>
+            </authorialNote>
+          </heading>
+          <num>36.</num>
+          <content>
+            <p>
+              <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryLegislation/2000-06-11/169660">בחוק בתי משפט לעניינים מינהליים, התש"ס–2000</ref>.</wikicomment>
+            </p>
+          </content>
+        </point>
+      </list>
+      <appendix eId="appendix">
+        <num></num>
+        <title>
+          <content>
+            <p>תוספת</p>
+          </content>
+        </title>
+        <subtitle eId="eId">
+          <num></num>
+          <content>
+            <p>
+              <wikicomment font-size="x-small">(<ref href="#point_1">סעיף 1</ref> – ההגדרה ”ארגונים מקצועיים בתחומי התכנון והבנייה“)</wikicomment>
+            </p>
+          </content>
+        </subtitle>
+        <list>
+          <point eId="appendix__point_1">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>1.</num>
+            <content>
+              <p>איגוד המתכננים בישראל;</p>
+            </content>
+          </point>
+          <point eId="appendix__point_2">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>2.</num>
+            <content>
+              <p>איגוד מהנדסי ערים בישראל;</p>
+            </content>
+          </point>
+          <point eId="appendix__point_3">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>3.</num>
+            <content>
+              <p>איגוד המהנדסים לבנייה ותשתיות בישראל;</p>
+            </content>
+          </point>
+          <point eId="appendix__point_4">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>4.</num>
+            <content>
+              <p>עמותת אדריכלים מאוחדים בישראל;</p>
+            </content>
+          </point>
+          <point eId="appendix__point_5">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>5.</num>
+            <content>
+              <p>האיגוד הישראלי של אדריכלי הנוף.</p>
+            </content>
+          </point>
+        </list>
+      </appendix>
+    </body>
+    <conclusions eId="eId">
+      <p class="signatures">
+        <signature>
+          <p>
+            <person refersTo="בנימין_נתניהו">בנימין נתניהו</person>
+            <role refersTo="ראש_הממשלה">ראש הממשלה</role>
+          </p>
+        </signature>
+        <signature>
+          <p>
+            <person refersTo="אליהו_ישי">אליהו ישי</person>
+            <role refersTo="שר_הפנים">שר הפנים</role>
+          </p>
+        </signature>
+        <signature>
+          <p>
+            <person refersTo="שמעון_פרס">שמעון פרס</person>
+            <role refersTo="נשיא_המדינה">נשיא המדינה</role>
+          </p>
+        </signature>
+        <signature>
+          <p>
+            <person refersTo="ראובן_ריבלין">ראובן ריבלין</person>
+            <role refersTo="יושב_ראש_הכנסת">יושב ראש הכנסת</role>
+          </p>
+        </signature>
+      </p>
+    </conclusions>
+  </act>
+</akomaNtoso>

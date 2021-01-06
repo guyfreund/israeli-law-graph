@@ -1,0 +1,2667 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion" name="publicLaw">
+    <meta>
+      <identification source="#kensset">
+        <FRBRWork>
+          <FRBRthis value="/akn/il/act/PrimaryLegislation/2013-08-05/484923/main" />
+          <FRBRuri value="/akn/il/act/PrimaryLegislation/2013-08-05/484923" />
+          <FRBRdate date="2013-08-05" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRcountry value="israel" />
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/il/act/PrimaryLegislation/2013-08-05/484923/he@/main" />
+          <FRBRuri value="/akn/il/act/PrimaryLegislation/2013-08-05/484923/he@" />
+          <FRBRdate date="2013-08-05" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRlanguage language="hebrew" />
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/il/act/PrimaryLegislation/2013-08-05/484923/he@/main.xml" />
+          <FRBRuri value="/akn/il/act/PrimaryLegislation/2013-08-05/484923/he@" />
+          <FRBRdate date="2013-08-05" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRformat value="xml" />
+        </FRBRManifestation>
+      </identification>
+      <classification source="#kensset">
+        <keyword value="{classificationValue}" showAs="{classificationValue}" dictionary="#classification_dictionary" />
+      </classification>
+      <lifecycle source="#kensset">
+        <eventRef eId="eventRef_1" date="2013-08-05" source="#kensset" type="generation" />
+      </lifecycle>
+      <references source="#kensset">
+        <TLCOrganization eId="kensset" href="/ontology/organization/akn/knesset" showAs="Kensset" type="generation" />
+        <TLCRole eId="author" href="/ontology/role/akn/author" showAs="Author of Document" />
+        <TLCProcess eId="inforce" href="/ontology/process/akn/inforce" showAs="In force" />
+        <TLCTerm eId="term_1" href="/ontology/term/הסכום_המזערי/484923" showAs="הסכום_המזערי" />
+        <TLCTerm eId="term_2" href="/ontology/term/השיעור_הנוסף/484923" showAs="השיעור_הנוסף" />
+        <TLCTerm eId="term_3" href="/ontology/term/חוק_ההסדרים_1992/484923" showAs="חוק_ההסדרים_1992" />
+        <TLCTerm eId="term_4" href="/ontology/term/המועד_הקובע/484923" showAs="המועד_הקובע" />
+        <TLCTerm eId="term_5" href="/ontology/term/סך_כל_חיוב_הארנונה/484923" showAs="סך_כל_חיוב_הארנונה" />
+        <TLCTerm eId="term_6" href="/ontology/term/נכסים/484923" showAs="נכסים" />
+        <TLCTerm eId="term_7" href="/ontology/term/סכום_ההעברה/484923" showAs="סכום_ההעברה" />
+        <TLCTerm eId="term_8" href="/ontology/term/רשות_עצמאית/484923" showAs="רשות_עצמאית" />
+        <TLCTerm eId="term_9" href="/ontology/term/השר/484923" showAs="השר" />
+        <TLCTerm eId="term_10" href="/ontology/term/ביצוע_במחיר_קבוע_לשנת_2012/484923" showAs="ביצוע_במחיר_קבוע_לשנת_2012" />
+        <TLCTerm eId="term_11" href="/ontology/term/בית_חולים_ממשלתי_כללי/484923" showAs="בית_חולים_ממשלתי_כללי" />
+        <TLCTerm eId="term_12" href="/ontology/term/בית_חולים_ציבורי_כללי/484923" showAs="בית_חולים_ציבורי_כללי" />
+        <TLCTerm eId="term_13" href="/ontology/term/הוראת_מינהל/484923" showAs="הוראת_מינהל" />
+        <TLCTerm eId="term_14" href="/ontology/term/הנחת_מחזור/484923" showAs="הנחת_מחזור" />
+        <TLCTerm eId="term_15" href="/ontology/term/הנחת_תעריף/484923" showAs="הנחת_תעריף" />
+        <TLCTerm eId="term_16" href="/ontology/term/חוק_ביטוח_בריאות_ממלכתי/484923" showAs="חוק_ביטוח_בריאות_ממלכתי" />
+        <TLCTerm eId="term_17" href="/ontology/term/חוק_ההתחשבנות/484923" showAs="חוק_ההתחשבנות" />
+        <TLCTerm eId="term_18" href="/ontology/term/חוק_הפיקוח/484923" showAs="חוק_הפיקוח" />
+        <TLCTerm eId="term_19" href="/ontology/term/מחיר_ברוטו/484923" showAs="מחיר_ברוטו" />
+        <TLCTerm eId="term_20" href="/ontology/term/מחיר_מלא/484923" showAs="מחיר_מלא" />
+        <TLCTerm eId="term_21" href="/ontology/term/מטופל_המיועד_להעברה/484923" showAs="מטופל_המיועד_להעברה" />
+        <TLCTerm eId="term_22" href="/ontology/term/מספר_המבוטחים_המשוקלל/484923" showAs="מספר_המבוטחים_המשוקלל" />
+        <TLCTerm eId="term_23" href="/ontology/term/ערך_השירותים_המוחרגים/484923" showAs="ערך_השירותים_המוחרגים" />
+        <TLCTerm eId="term_24" href="/ontology/term/צריכה/484923" showAs="צריכה" />
+        <TLCTerm eId="term_25" href="/ontology/term/רצפת_צריכה_פרטנית_ברוטו/484923" showAs="רצפת_צריכה_פרטנית_ברוטו" />
+        <TLCTerm eId="term_26" href="/ontology/term/רצפת_צריכה_פרטנית_נטו/484923" showAs="רצפת_צריכה_פרטנית_נטו" />
+        <TLCTerm eId="term_27" href="/ontology/term/שיעור_העדכון/484923" showAs="שיעור_העדכון" />
+        <TLCTerm eId="term_28" href="/ontology/term/שיעור_הקפיטציה/484923" showAs="שיעור_הקפיטציה" />
+        <TLCTerm eId="term_29" href="/ontology/term/תאגיד_בריאות/484923" showAs="תאגיד_בריאות" />
+        <TLCTerm eId="term_30" href="/ontology/term/תוספת/484923" showAs="תוספת" />
+        <TLCTerm eId="term_31" href="/ontology/term/תוספת_ריאלית/484923" showAs="תוספת_ריאלית" />
+        <TLCTerm eId="term_32" href="/ontology/term/תקרת_צריכה_פרטנית_ברוטו/484923" showAs="תקרת_צריכה_פרטנית_ברוטו" />
+        <TLCTerm eId="term_33" href="/ontology/term/תקרת_צריכה_פרטנית_נטו/484923" showAs="תקרת_צריכה_פרטנית_נטו" />
+        <TLCTerm eId="term_34" href="/ontology/term/השרים/484923" showAs="השרים" />
+        <TLCTerm eId="term_35" href="/ontology/term/תקרת_צריכה_פרטנית_בסיסית_ברוטו/484923" showAs="תקרת_צריכה_פרטנית_בסיסית_ברוטו" />
+        <TLCTerm eId="term_36" href="/ontology/term/תקרת_צריכה_פרטנית_בסיסית_נטו/484923" showAs="תקרת_צריכה_פרטנית_בסיסית_נטו" />
+        <TLCTerm eId="term_37" href="/ontology/term/ביצוע_במחיר_קבוע/484923" showAs="ביצוע_במחיר_קבוע" />
+        <TLCTerm eId="term_38" href="/ontology/term/בית_חולים_פסיכיאטרי/484923" showAs="בית_חולים_פסיכיאטרי" />
+        <TLCTerm eId="term_39" href="/ontology/term/חוק_ביטוח_בריאות_ממלכתי/484923" showAs="חוק_ביטוח_בריאות_ממלכתי" />
+        <TLCTerm eId="term_40" href="/ontology/term/מחיר_מלא/484923" showAs="מחיר_מלא" />
+        <TLCTerm eId="term_41" href="/ontology/term/מספר_המיטות_המתוקנן/484923" showAs="מספר_המיטות_המתוקנן" />
+        <TLCTerm eId="term_42" href="/ontology/term/צריכה/484923" showAs="צריכה" />
+        <TLCTerm eId="term_43" href="/ontology/term/תקרת_הצריכה_הבסיסית_לשירותי_אשפוז_בבית_חולים_פסיכיאטרי/484923" showAs="תקרת_הצריכה_הבסיסית_לשירותי_אשפוז_בבית_חולים_פסיכיאטרי" />
+        <TLCTerm eId="term_44" href="/ontology/term/דירת_מגורים_מזכה/484923" showAs="דירת_מגורים_מזכה" />
+        <TLCTerm eId="term_45" href="/ontology/term/יום_המעבר/484923" showAs="יום_המעבר" />
+        <TLCTerm eId="term_46" href="/ontology/term/תקופת_המעבר/484923" showAs="תקופת_המעבר" />
+        <TLCPerson eId="בנימין_נתניהו" href="/ontology/person/בנימין_נתניהו" showAs="בנימין נתניהו" />
+        <TLCPerson eId="יאיר_לפיד" href="/ontology/person/יאיר_לפיד" showAs="יאיר לפיד" />
+        <TLCPerson eId="שמעון_פרס" href="/ontology/person/שמעון_פרס" showAs="שמעון פרס" />
+        <TLCPerson eId="יולי_יואל_אדלשטיין" href="/ontology/person/יולי_יואל_אדלשטיין" showAs="יולי יואל אדלשטיין" />
+        <TLCRole eId="ראש_הממשלה" href="ontology/role/akn/ראש_הממשלה" showAs="ראש הממשלה" />
+        <TLCRole eId="שר_האוצר" href="ontology/role/akn/שר_האוצר" showAs="שר האוצר" />
+        <TLCRole eId="נשיא_המדינה" href="ontology/role/akn/נשיא_המדינה" showAs="נשיא המדינה" />
+        <TLCRole eId="יושב_ראש_הכנסת" href="ontology/role/akn/יושב_ראש_הכנסת" showAs="יושב ראש הכנסת" />
+      </references>
+      <temporalData source="#kensset">
+        <temporalGroup eId="tmpg_1" />
+      </temporalData>
+      <Publication></Publication>
+      <proprietary wikiversion="12/9/2020 2:37:36 PM" />
+    </meta>
+    <body period="#tmpg_1">
+      <title eId="title">
+        <content>
+          <p>חוק לשינוי סדרי עדיפויות לאומיים (תיקוני חקיקה להשגת יעדי התקציב לשנים 2013 ו־2014), התשע"ג–2013</p>
+        </content>
+      </title>
+      <chapter eId="chp_א">
+        <num>פרק א׳:</num>
+        <title>
+          <content>
+            <p>מטרת החוק</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_1">
+            <heading>
+              <authorialNote placement="side">
+                <p>מטרה</p>
+              </authorialNote>
+            </heading>
+            <num>1.</num>
+            <content>
+              <p>חוק זה בא לתקן חוקים שונים ולקבוע הוראות נוספות במטרה להביא להסדרת המצב הפיסקלי במשק הישראלי ולחיזוק הצמיחה הכלכלית, תוך שינוי סדרי העדיפויות הלאומיים, צמצום פערים, הגדלת רמת התעסוקה ורמת הפריון במשק, הגברת התחרות והפחתת יוקר המחיה, ייעול המגזר הציבורי והעמקת גביית המסים, ובמטרה לעמוד בתקרת הגירעון ובמגבלת ההוצאה הממשלתית בכל אחת מהשנים 2013 ו־2014, והכול בהתאם ליעדי התקציב והמדיניות הכלכלית לשנות התקציב האמורות.</p>
+            </content>
+          </point>
+        </list>
+      </chapter>
+      <chapter eId="chp_ב">
+        <num>פרק ב׳:</num>
+        <title>
+          <content>
+            <p>חינוך ותרבות</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_2">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>2.</num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryLegislation/1953-08-20/147360">בחוק חינוך ממלכתי, התשי"ג–1953</ref>.</wikicomment>
+              </p>
+            </content>
+          </point>
+          <point eId="point_3">
+            <heading>
+              <authorialNote placement="side">
+                <p>חוק חינוך ממלכתי – הוראת שעה</p>
+              </authorialNote>
+            </heading>
+            <num>3.</num>
+            <content>
+              <p>על אף האמור <ref href="/akn/il/act/PrimaryLegislation/1953-08-20/147360#point_11א">בסעיף 11א לחוק חינוך ממלכתי</ref>, כנוסחו <ref href="#point_2">בסעיף 2 לחוק זה</ref>, בשנת הלימודים התשע"ד, תשתתף רשות חינוך מקומית בתקציבי מוסדות חינוך מוכרים לא רשמיים שפעלו בתחומה בשנת הלימודים התשע"ג והרשות כאמור השתתפה בתקציבם לפי <ref href="/akn/il/act/PrimaryLegislation/1953-08-20/147360#point_11א">סעיף 11א</ref> כנוסחו ערב יום התחילה; השתתפות הרשות תהיה בהתאם לעמידתם של מוסדות החינוך כאמור בתנאים לתקצובם כפי שיחולו בשנת הלימודים התשע"ד ובשיעור שלא יפחת מ־70% מסכום השתתפותה בתקציבם בשנת הלימודים התשע"ג.</p>
+            </content>
+          </point>
+          <point eId="point_4">
+            <heading>
+              <authorialNote placement="side">
+                <p>תיקון חוק לימוד חובה, תחילה ותחולה</p>
+              </authorialNote>
+            </heading>
+            <num>4.</num>
+            <list>
+              <point eId="point_4__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>
+                    <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryLegislation/1949-09-18/314513">בחוק לימוד חובה, התש"ט–1949</ref>.</wikicomment>
+                  </p>
+                </content>
+              </point>
+              <point eId="point_4__point_ב">
+                <num>(ב)</num>
+                <list>
+                  <point eId="point_4__point_ב__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>תחילתו של <ref href="/akn/il/act/PrimaryLegislation/1949-09-18/314513#point_10א">סעיף 10א לחוק לימוד חובה</ref>, כנוסחו בסעיף קטן (א)(2), ביום כ"ט בטבת התשע"ד (1 בינואר 2014).</p>
+                    </content>
+                  </point>
+                  <point eId="point_4__point_ב__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>על אף האמור <ref href="/akn/il/act/PrimaryLegislation/1949-09-18/314513#point_12ד">בסעיף 12ד(א) לחוק לימוד חובה</ref>, כנוסחו בסעיף קטן (א)(3), בשנת הלימודים התשע"ד, בלימודים בכיתה א׳ במוסד חינוך רשמי, יילמדו לפחות עשר מסך כל שעות הלימוד השבועיות של מיומנויות היסוד במסגרת לימודים שבה מספר התלמידים למורה אינו עולה על עשרים תלמידים.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+            </list>
+          </point>
+          <point eId="point_5">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>5.</num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryLegislation/1975-08-08/148053">בחוק הספריות הציבוריות, תשל"ה–1975</ref>.</wikicomment>
+              </p>
+            </content>
+          </point>
+        </list>
+      </chapter>
+      <chapter eId="chp_ג">
+        <num>פרק ג׳:</num>
+        <title>
+          <content>
+            <p>רשויות מקומיות</p>
+          </content>
+        </title>
+        <section eId="chp_ג__sec_א">
+          <num>סימן א׳:</num>
+          <title>
+            <content>
+              <p>הסדר רשויות מקומיות עצמאיות – הוראת שעה</p>
+            </content>
+          </title>
+          <list>
+            <point eId="point_6">
+              <heading>
+                <authorialNote placement="side">
+                  <p>מטרה</p>
+                </authorialNote>
+              </heading>
+              <num>6.</num>
+              <content>
+                <p>מטרת <ref href="#chp_ג_sec_א">סימן זה</ref> לעגן את מלוא ההיבטים הנוגעים לתשלום סכום מידי הרשויות העצמאיות, העלאת שיעור הארנונה בתחומן בשיעור הנוסף, וכל הוראה נוספת הכרוכה בעניינים אלה, והכול לשם תשלום מענקים שמטרתם איזון תקציב שוטף או פיתוח ברשויות מקומיות בשנת 2014.</p>
+              </content>
+            </point>
+            <point eId="point_7" class="definitions">
+              <heading>
+                <authorialNote placement="side">
+                  <p>הגדרות</p>
+                </authorialNote>
+              </heading>
+              <num>7.</num>
+              <list>
+                <intro>
+                  <p>
+                    <ref href="#chp_ג_sec_א">בסימן זה</ref> –</p>
+                </intro>
+                <point eId="point_7__point_הסכום_המזערי">
+                  <content>
+                    <p>
+                      <def />”הסכום המזערי“ ו”הסכום המרבי“ – כמשמעותם <ref href="/akn/il/act/PrimaryLegislation/1993-01-07/174396#point_9">בסעיף 9(א) לחוק ההסדרים 1992</ref>;</p>
+                  </content>
+                </point>
+                <point eId="point_7__point_השיעור_הנוסף">
+                  <content>
+                    <p>
+                      <def />”השיעור הנוסף“ – 0.3%;</p>
+                  </content>
+                </point>
+                <point eId="point_7__point_חוק_ההסדרים_1992">
+                  <content>
+                    <p>
+                      <def />”חוק ההסדרים 1992“ – <ref href="/akn/il/act/PrimaryLegislation/1993-01-07/174396">חוק הסדרים במשק המדינה (תיקוני חקיקה להשגת יעדי התקציב), התשנ"ג–1992</ref>;</p>
+                  </content>
+                </point>
+                <point eId="point_7__point_המועד_הקובע">
+                  <content>
+                    <p>
+                      <def />”המועד הקובע“ – ל׳ בניסן התשע"ד (30 באפריל 2014);</p>
+                  </content>
+                </point>
+                <point eId="point_7__point_סך_כל_חיוב_הארנונה">
+                  <content>
+                    <p>
+                      <def />”סך כל חיוב הארנונה“ – סך כל חיוב הארנונה בעד כלל הנכסים, לפני כל הנחה או פטור, אם ניתנו, כפי שפורטו בעמודה ”חיוב ארנונה סך הכל (באלפי שקלים חדשים) 2011“ בטבלת ”הרשויות המקומיות 2011“ שפרסמה הלשכה המרכזית לסטטיסטיקה;</p>
+                  </content>
+                </point>
+                <point eId="point_7__point_נכסים">
+                  <content>
+                    <p>
+                      <def />”נכסים“ ו”שיעור העדכון“ – כהגדרתם <ref href="/akn/il/act/PrimaryLegislation/1993-01-07/174396#point_7">בסעיף 7 לחוק ההסדרים 1992</ref>;</p>
+                  </content>
+                </point>
+                <point eId="point_7__point_סכום_ההעברה">
+                  <content>
+                    <p>
+                      <def />”סכום ההעברה“ – סכום שעל רשות עצמאית להעביר לאוצר המדינה לפי <ref href="#point_8">סעיף 8</ref>;</p>
+                  </content>
+                </point>
+                <point eId="point_7__point_רשות_עצמאית">
+                  <content>
+                    <p>
+                      <def />”רשות עצמאית“ – רשות עצמאית כמפורט <ref href="#point_14">בסעיף 14</ref>;</p>
+                  </content>
+                </point>
+                <point eId="point_7__point_השר">
+                  <content>
+                    <p>
+                      <def />”השר“ – שר האוצר.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_8">
+              <heading>
+                <authorialNote placement="side">
+                  <p>סכום שתעביר רשות עצמאית</p>
+                </authorialNote>
+              </heading>
+              <num>8.</num>
+              <list>
+                <point eId="point_8__point_א">
+                  <num>(א)</num>
+                  <content>
+                    <p>על רשות עצמאית להעביר לאוצר המדינה סכום העברה בגובה סך כל חיוב הארנונה של אותה רשות, חלקי סך כל חיוב הארנונה של כלל הרשויות העצמאיות, כפול 450, במיליוני שקלים חדשים.</p>
+                  </content>
+                </point>
+                <point eId="point_8__point_ב">
+                  <num>(ב)</num>
+                  <content>
+                    <p>רשות עצמאית תעביר את סכום ההעברה עד המועד הקובע.</p>
+                  </content>
+                </point>
+                <point eId="point_8__point_ג">
+                  <num>(ג)</num>
+                  <content>
+                    <p>בתוך 30 ימים מיום התחילה יפרסם השר צו המפרט את סכום ההעברה שעל כל רשות עצמאית להעביר לאוצר המדינה לפי סעיף קטן (א).</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_9">
+              <heading>
+                <authorialNote placement="side">
+                  <p>תשלום מענקים</p>
+                </authorialNote>
+              </heading>
+              <num>9.</num>
+              <content>
+                <p>המדינה תקצה סכום השווה לסך כל הסכומים שהועברו לה לפי <ref href="#point_8">סעיף 8</ref>, או שקיזזה לפי <ref href="#point_12">סעיף 12</ref>, או שהועברו אליה לפי חוק זה בכל דרך אחרת, לשם תשלום מענקים, באמצעות משרד הפנים, שמטרתם איזון תקציב שוטף או פיתוח ברשויות מקומיות, בשנת 2014, בהתאם לאמות המידה שנקבעו בהחלטות הממשלה ובהוראות מינהל שלפיהן מועברים מענקים מהסוג האמור.</p>
+              </content>
+            </point>
+            <point eId="point_10">
+              <heading>
+                <authorialNote placement="side">
+                  <p>שיעור העדכון בשנת 2014</p>
+                </authorialNote>
+              </heading>
+              <num>10.</num>
+              <list>
+                <intro>
+                  <p>על אף האמור <ref href="/akn/il/act/PrimaryLegislation/1993-01-07/174396#point_9">בסעיף 9 לחוק ההסדרים 1992</ref> או <ref href="/akn/il/act/SecondaryLegislation/2007-01-01/100033215">בתקנות הסדרים במשק המדינה (ארנונה כללית ברשויות מקומיות), התשס"ז–2007</ref> –</p>
+                </intro>
+                <point eId="point_10__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>שיעור העדכון לעניין הארנונה שתוטל על כל אחד מסוגי הנכסים ברשות עצמאית בשנת 2014, יהיה שיעור העדכון, בתוספת השיעור הנוסף, וסכום הארנונה הכללית שיוטל על נכס לפי פסקה זו יהיה סכום הארנונה הכללית שהגיע כדין בשנת 2014;</p>
+                  </content>
+                </point>
+                <point eId="point_10__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>הסכום המזערי והסכום המרבי הקבועים לסוג נכס ברשות עצמאית יעודכנו בשנת 2014 לפי שיעור העדכון, בתוספת השיעור הנוסף.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_11">
+              <heading>
+                <authorialNote placement="side">
+                  <p>גיוס אשראי</p>
+                </authorialNote>
+              </heading>
+              <num>11.</num>
+              <content>
+                <p>על אף האמור <ref href="/akn/il/act/PrimaryLegislation/1985-04-03/150399#point_45ב">בסעיף 45ב לחוק יסודות התקציב, התשמ"ה–1985</ref>, <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_העיריות#point_201">ובסעיף 201(א) לפקודת העיריות</ref> או בצו לפיו או לפי <ref href="/akn/il/act/PrimaryLegislation/1941-12-18/2001788#point_13">סעיף 13 לפקודת המועצות המקומיות</ref>, מיום התחילה עד תום שנת 2014, רשות עצמאית רשאית לקבל אשראי מתאגיד בנקאי, או מאדם אחר שעיסוקו, כולו או מקצתו, במתן אשראי, בגובה סכום שהעבירה לאוצר המדינה לפי <ref href="#point_8">סעיף 8</ref>, שלא לפי היתר מכוח <ref href="/akn/il/act/PrimaryLegislation/1985-04-03/150399#point_46">סעיף 46(ב) לחוק האמור</ref>; קיבלה הרשות אשראי כאמור, לא ייחשב הסכום שקיבלה לפי סעיף זה חלק מיתרת האשראי של אותה רשות, כמשמעותו <ref href="/akn/il/act/PrimaryLegislation/1985-04-03/150399#point_45ב">בסעיף 45ב האמור</ref>.</p>
+              </content>
+            </point>
+            <point eId="point_12">
+              <heading>
+                <authorialNote placement="side">
+                  <p>קיזוז</p>
+                </authorialNote>
+              </heading>
+              <num>12.</num>
+              <content>
+                <p>לא העבירה רשות עצמאית כלשהי את הסכום שהיה עליה להעביר לאוצר המדינה עד המועד הקובע, תקזז המדינה סכום בשווי הסכום האמור מהשתתפות המדינה בתקציב הרשות; לעניין סעיף זה, ”השתתפות המדינה“ – תמיכה, מענק או השתתפות אחרת מתקציב המדינה.</p>
+              </content>
+            </point>
+            <point eId="point_13">
+              <heading>
+                <authorialNote placement="side">
+                  <p>תקנות – סימן א׳</p>
+                </authorialNote>
+              </heading>
+              <num>13.</num>
+              <content>
+                <p>השר ממונה על ביצוע <ref href="#chp_ג_sec_א">סימן זה</ref>, והוא רשאי להתקין תקנות בכל הנוגע לביצועו, לרבות כללים לעניין אופן העברת הסכומים לאוצר המדינה לפי <ref href="#point_8">סעיף 8</ref>.</p>
+              </content>
+            </point>
+            <point eId="point_14">
+              <heading>
+                <authorialNote placement="side">
+                  <p>רשות עצמאית</p>
+                </authorialNote>
+              </heading>
+              <num>14.</num>
+              <list>
+                <intro>
+                  <p>רשות מהרשויות המקומיות המפורטות להלן היא רשות עצמאית לעניין <ref href="#chp_ג_sec_א">סימן זה</ref>:</p>
+                </intro>
+                <point eId="point_14__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>אבן יהודה;</p>
+                  </content>
+                </point>
+                <point eId="point_14__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>אזור;</p>
+                  </content>
+                </point>
+                <point eId="point_14__point_3">
+                  <num>(3)</num>
+                  <content>
+                    <p>אשדוד;</p>
+                  </content>
+                </point>
+                <point eId="point_14__point_4">
+                  <num>(4)</num>
+                  <content>
+                    <p>אשקלון;</p>
+                  </content>
+                </point>
+                <point eId="point_14__point_5">
+                  <num>(5)</num>
+                  <content>
+                    <p>באר טוביה;</p>
+                  </content>
+                </point>
+                <point eId="point_14__point_6">
+                  <num>(6)</num>
+                  <content>
+                    <p>באר יעקב;</p>
+                  </content>
+                </point>
+                <point eId="point_14__point_7">
+                  <num>(7)</num>
+                  <content>
+                    <p>באר שבע;</p>
+                  </content>
+                </point>
+                <point eId="point_14__point_8">
+                  <num>(8)</num>
+                  <content>
+                    <p>בני שמעון;</p>
+                  </content>
+                </point>
+                <point eId="point_14__point_9">
+                  <num>(9)</num>
+                  <content>
+                    <p>ברנר;</p>
+                  </content>
+                </point>
+                <point eId="point_14__point_10">
+                  <num>(10)</num>
+                  <content>
+                    <p>גבעתיים;</p>
+                  </content>
+                </point>
+                <point eId="point_14__point_11">
+                  <num>(11)</num>
+                  <content>
+                    <p>גזר;</p>
+                  </content>
+                </point>
+                <point eId="point_14__point_12">
+                  <num>(12)</num>
+                  <content>
+                    <p>גן רוה;</p>
+                  </content>
+                </point>
+                <point eId="point_14__point_13">
+                  <num>(13)</num>
+                  <content>
+                    <p>דרום השרון;</p>
+                  </content>
+                </point>
+                <point eId="point_14__point_14">
+                  <num>(14)</num>
+                  <content>
+                    <p>הוד השרון;</p>
+                  </content>
+                </point>
+                <point eId="point_14__point_15">
+                  <num>(15)</num>
+                  <content>
+                    <p>הרצליה;</p>
+                  </content>
+                </point>
+                <point eId="point_14__point_16">
+                  <num>(16)</num>
+                  <content>
+                    <p>זכרון יעקב;</p>
+                  </content>
+                </point>
+                <point eId="point_14__point_17">
+                  <num>(17)</num>
+                  <content>
+                    <p>חבל אילות;</p>
+                  </content>
+                </point>
+                <point eId="point_14__point_18">
+                  <num>(18)</num>
+                  <content>
+                    <p>חבל מודיעין;</p>
+                  </content>
+                </point>
+                <point eId="point_14__point_19">
+                  <num>(19)</num>
+                  <content>
+                    <p>חדרה;</p>
+                  </content>
+                </point>
+                <point eId="point_14__point_20">
+                  <num>(20)</num>
+                  <content>
+                    <p>חולון;</p>
+                  </content>
+                </point>
+                <point eId="point_14__point_21">
+                  <num>(21)</num>
+                  <content>
+                    <p>חוף הכרמל;</p>
+                  </content>
+                </point>
+                <point eId="point_14__point_22">
+                  <num>(22)</num>
+                  <content>
+                    <p>חוף השרון;</p>
+                  </content>
+                </point>
+                <point eId="point_14__point_23">
+                  <num>(23)</num>
+                  <content>
+                    <p>חיפה;</p>
+                  </content>
+                </point>
+                <point eId="point_14__point_24">
+                  <num>(24)</num>
+                  <content>
+                    <p>יבנה;</p>
+                  </content>
+                </point>
+                <point eId="point_14__point_25">
+                  <num>(25)</num>
+                  <content>
+                    <p>יהוד־מונוסון;</p>
+                  </content>
+                </point>
+                <point eId="point_14__point_26">
+                  <num>(26)</num>
+                  <content>
+                    <p>יואב;</p>
+                  </content>
+                </point>
+                <point eId="point_14__point_27">
+                  <num>(27)</num>
+                  <content>
+                    <p>כוכב יאיר;</p>
+                  </content>
+                </point>
+                <point eId="point_14__point_28">
+                  <num>(28)</num>
+                  <content>
+                    <p>כפר ורדים;</p>
+                  </content>
+                </point>
+                <point eId="point_14__point_29">
+                  <num>(29)</num>
+                  <content>
+                    <p>כפר סבא;</p>
+                  </content>
+                </point>
+                <point eId="point_14__point_30">
+                  <num>(30)</num>
+                  <content>
+                    <p>כפר שמריהו;</p>
+                  </content>
+                </point>
+                <point eId="point_14__point_31">
+                  <num>(31)</num>
+                  <content>
+                    <p>לב השרון;</p>
+                  </content>
+                </point>
+                <point eId="point_14__point_32">
+                  <num>(32)</num>
+                  <content>
+                    <p>להבים;</p>
+                  </content>
+                </point>
+                <point eId="point_14__point_33">
+                  <num>(33)</num>
+                  <content>
+                    <p>מגידו;</p>
+                  </content>
+                </point>
+                <point eId="point_14__point_34">
+                  <num>(34)</num>
+                  <content>
+                    <p>מודיעין–מכבים–רעות;</p>
+                  </content>
+                </point>
+                <point eId="point_14__point_35">
+                  <num>(35)</num>
+                  <content>
+                    <p>נס ציונה;</p>
+                  </content>
+                </point>
+                <point eId="point_14__point_36">
+                  <num>(36)</num>
+                  <content>
+                    <p>נשר;</p>
+                  </content>
+                </point>
+                <point eId="point_14__point_37">
+                  <num>(37)</num>
+                  <content>
+                    <p>נתניה;</p>
+                  </content>
+                </point>
+                <point eId="point_14__point_38">
+                  <num>(38)</num>
+                  <content>
+                    <p>סביון;</p>
+                  </content>
+                </point>
+                <point eId="point_14__point_39">
+                  <num>(39)</num>
+                  <content>
+                    <p>עומר;</p>
+                  </content>
+                </point>
+                <point eId="point_14__point_40">
+                  <num>(40)</num>
+                  <content>
+                    <p>עמק חפר;</p>
+                  </content>
+                </point>
+                <point eId="point_14__point_41">
+                  <num>(41)</num>
+                  <content>
+                    <p>עמק יזרעאל;</p>
+                  </content>
+                </point>
+                <point eId="point_14__point_42">
+                  <num>(42)</num>
+                  <content>
+                    <p>עמק לוד;</p>
+                  </content>
+                </point>
+                <point eId="point_14__point_43">
+                  <num>(43)</num>
+                  <content>
+                    <p>פתח תקוה;</p>
+                  </content>
+                </point>
+                <point eId="point_14__point_44">
+                  <num>(44)</num>
+                  <content>
+                    <p>קרית אונו;</p>
+                  </content>
+                </point>
+                <point eId="point_14__point_45">
+                  <num>(45)</num>
+                  <content>
+                    <p>קרית ביאליק;</p>
+                  </content>
+                </point>
+                <point eId="point_14__point_46">
+                  <num>(46)</num>
+                  <content>
+                    <p>קרית טבעון;</p>
+                  </content>
+                </point>
+                <point eId="point_14__point_47">
+                  <num>(47)</num>
+                  <content>
+                    <p>ראש העין;</p>
+                  </content>
+                </point>
+                <point eId="point_14__point_48">
+                  <num>(48)</num>
+                  <content>
+                    <p>ראש פינה;</p>
+                  </content>
+                </point>
+                <point eId="point_14__point_49">
+                  <num>(49)</num>
+                  <content>
+                    <p>ראשון לציון;</p>
+                  </content>
+                </point>
+                <point eId="point_14__point_50">
+                  <num>(50)</num>
+                  <content>
+                    <p>רחובות;</p>
+                  </content>
+                </point>
+                <point eId="point_14__point_51">
+                  <num>(51)</num>
+                  <content>
+                    <p>רמת גן;</p>
+                  </content>
+                </point>
+                <point eId="point_14__point_52">
+                  <num>(52)</num>
+                  <content>
+                    <p>רמת השרון;</p>
+                  </content>
+                </point>
+                <point eId="point_14__point_53">
+                  <num>(53)</num>
+                  <content>
+                    <p>רמת ישי;</p>
+                  </content>
+                </point>
+                <point eId="point_14__point_54">
+                  <num>(54)</num>
+                  <content>
+                    <p>רמת נגב;</p>
+                  </content>
+                </point>
+                <point eId="point_14__point_55">
+                  <num>(55)</num>
+                  <content>
+                    <p>רעננה;</p>
+                  </content>
+                </point>
+                <point eId="point_14__point_56">
+                  <num>(56)</num>
+                  <content>
+                    <p>תל־אביב–יפו;</p>
+                  </content>
+                </point>
+                <point eId="point_14__point_57">
+                  <num>(57)</num>
+                  <content>
+                    <p>תמר.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_15">
+              <heading>
+                <authorialNote placement="side">
+                  <p>עדיפות</p>
+                </authorialNote>
+              </heading>
+              <num>15.</num>
+              <content>
+                <p>הוראות <ref href="#chp_ג_sec_א">סימן זה</ref> יחולו על אף הוראות כל דין.</p>
+              </content>
+            </point>
+          </list>
+        </section>
+        <section eId="chp_ג__sec_ב">
+          <num>סימן ב׳:</num>
+          <title>
+            <content>
+              <p>ארנונה</p>
+            </content>
+          </title>
+          <list>
+            <point eId="point_16">
+              <heading>
+                <authorialNote placement="side">
+                  <p xml:space="preserve"> </p>
+                </authorialNote>
+              </heading>
+              <num>16.</num>
+              <content>
+                <p>
+                  <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryLegislation/1993-01-07/174396">בחוק הסדרים במשק המדינה (תיקוני חקיקה להשגת יעדי התקציב), התשנ"ג–1992</ref>.</wikicomment>
+                </p>
+              </content>
+            </point>
+          </list>
+        </section>
+      </chapter>
+      <chapter eId="chp_ד">
+        <num>פרק ד׳:</num>
+        <title>
+          <content>
+            <p>האפוטרופוס הכללי</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_17">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>17.</num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryLegislation/1978-01-18/146879">בחוק האפוטרופוס הכללי, התשל"ח–1978</ref>.</wikicomment>
+              </p>
+            </content>
+          </point>
+          <point eId="point_18">
+            <heading>
+              <authorialNote placement="side">
+                <p>חוק האפוטרופוס הכללי – תחילה ותקנות ראשונות</p>
+              </authorialNote>
+            </heading>
+            <num>18.</num>
+            <content>
+              <p>תחילתו של <ref href="/akn/il/act/PrimaryLegislation/1978-01-18/146879#point_10">סעיף 10(ג) לחוק האפוטרופוס הכללי</ref>, כנוסחו <ref href="#point_17">בסעיף 17(3) לחוק זה</ref>, ביום כ"ח בכסלו התשע"ד (1 בדצמבר 2013); תקנות ראשונות לפי <ref href="/akn/il/act/PrimaryLegislation/1978-01-18/146879#point_23">סעיף 23(א)(3) לחוק האפוטרופוס הכללי</ref>, כנוסחו <ref href="#point_17">בסעיף 17(4) לחוק זה</ref>, יובאו לאישור ועדת הכלכלה של הכנסת עד אותו מועד.</p>
+            </content>
+          </point>
+        </list>
+      </chapter>
+      <chapter eId="chp_ה">
+        <num>פרק ה׳:</num>
+        <title>
+          <content>
+            <p>בריאות</p>
+          </content>
+        </title>
+        <section eId="chp_ה__sec_א">
+          <num>סימן א׳:</num>
+          <title>
+            <content>
+              <p>התחשבנות בעד שירותי בריאות בבתי חולים ציבוריים כלליים</p>
+            </content>
+          </title>
+          <list>
+            <point eId="point_19" class="definitions">
+              <heading>
+                <authorialNote placement="side">
+                  <p>הגדרות</p>
+                </authorialNote>
+              </heading>
+              <num>19.</num>
+              <list>
+                <intro>
+                  <p>
+                    <ref href="#chp_ה_sec_א">בסימן זה</ref> –</p>
+                </intro>
+                <point eId="point_19__point_ביצוע_במחיר_קבוע_לשנת_2012">
+                  <content>
+                    <p>
+                      <def />”ביצוע במחיר קבוע לשנת 2012“ – סכום המכפלות של כל שירות ושירות שצרכו חברי קופת חולים בבית חולים ציבורי כללי בשנת 2012, במחיר ברוטו של כל שירות כאמור בשנת 2012;</p>
+                  </content>
+                </point>
+                <point eId="point_19__point_בית_חולים_ממשלתי_כללי">
+                  <content>
+                    <p>
+                      <def />”בית חולים ממשלתי כללי“ – לרבות פעילות המתבצעת בו בידי תאגיד בריאות;</p>
+                  </content>
+                </point>
+                <point eId="point_19__point_בית_חולים_ציבורי_כללי">
+                  <list>
+                    <intro>
+                      <p>
+                        <def />”בית חולים ציבורי כללי“ – כל אחד מאלה:</p>
+                    </intro>
+                    <point eId="point_19__point_בית_חולים_ציבורי_כללי__point_1">
+                      <num>(1)</num>
+                      <content>
+                        <p>בית חולים ממשלתי כללי;</p>
+                      </content>
+                    </point>
+                    <point eId="point_19__point_בית_חולים_ציבורי_כללי__point_2">
+                      <num>(2)</num>
+                      <content>
+                        <p>בית חולים כללי שבבעלות קופת חולים;</p>
+                      </content>
+                    </point>
+                    <point eId="point_19__point_בית_חולים_ציבורי_כללי__point_3">
+                      <num>(3)</num>
+                      <content>
+                        <p>בית חולים כללי שבבעלות רשות מקומית;</p>
+                      </content>
+                    </point>
+                    <point eId="point_19__point_בית_חולים_ציבורי_כללי__point_4">
+                      <num>(4)</num>
+                      <content>
+                        <p>בית חולים כללי שהוא תאגיד שהוא מוסד ציבורי כהגדרתו <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_מס_הכנסה#point_9">בסעיף 9 לפקודת מס הכנסה</ref>;</p>
+                      </content>
+                    </point>
+                    <point eId="point_19__point_בית_חולים_ציבורי_כללי__point_5">
+                      <num>(5)</num>
+                      <content>
+                        <p>בית חולים כללי שאינו בית חולים כאמור בפסקאות (1) עד (4), שבתעודת רישומו לפי <ref href="/akn/il/act/PrimaryLegislation/1940-12-20/2001729">פקודת בריאות העם, 1940</ref>, כלולות עמדות לרפואה דחופה (מיון);</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+                <point eId="point_19__point_הוראת_מינהל">
+                  <content>
+                    <p>
+                      <def />”הוראת מינהל“ – הוראת מינהל שקבע המנהל הכללי של משרד הבריאות או מי שהוא הסמיך לעניין זה;</p>
+                  </content>
+                </point>
+                <point eId="point_19__point_הנחת_מחזור">
+                  <content>
+                    <p>
+                      <def />”הנחת מחזור“ – הנחה בעבור שירותי בריאות שקופות החולים רוכשות בבתי החולים הממשלתיים הכלליים, שנקבעה בהוראת מינהל;</p>
+                  </content>
+                </point>
+                <point eId="point_19__point_הנחת_תעריף">
+                  <content>
+                    <p>
+                      <def />”הנחת תעריף“ – הנחה בעבור שירות בריאות מסוים שקופת חולים רוכשת בבית חולים ציבורי כללי;</p>
+                  </content>
+                </point>
+                <point eId="point_19__point_חוק_ביטוח_בריאות_ממלכתי">
+                  <content>
+                    <p>
+                      <def />”חוק ביטוח בריאות ממלכתי“ – <ref href="/akn/il/act/PrimaryLegislation/1994-06-26/157723">חוק ביטוח בריאות ממלכתי, התשנ"ד–1994</ref>;</p>
+                  </content>
+                </point>
+                <point eId="point_19__point_חוק_ההתחשבנות">
+                  <content>
+                    <p>
+                      <def />”חוק ההתחשבנות“ – <ref href="/akn/il/act/PrimaryLegislation/2002-02-17/173933#chp_ה_sec_ב">סימן ב׳ בפרק ה׳ בחוק ההסדרים במשק המדינה (תיקוני חקיקה להשגת יעדי התקציב והמדיניות הכלכלית לשנת הכספים 2002), התשס"ב–2002</ref>;</p>
+                  </content>
+                </point>
+                <point eId="point_19__point_חוק_הפיקוח">
+                  <content>
+                    <p>
+                      <def />”חוק הפיקוח“ – <ref href="/akn/il/act/PrimaryLegislation/1996-03-21/159426">חוק פיקוח על מחירי מצרכים ושירותים, התשנ"ו–1996</ref>;</p>
+                  </content>
+                </point>
+                <point eId="point_19__point_מחיר_ברוטו">
+                  <content>
+                    <p>
+                      <def />”מחיר ברוטו“ – המחיר המלא שממנו מנוכים שיעור הנחת המחזור וכן הנחת התעריף שניתנו בעבור אותו שירות בשנת 2012;</p>
+                  </content>
+                </point>
+                <point eId="point_19__point_מחיר_מלא">
+                  <content>
+                    <p>
+                      <def />”מחיר מלא“ – מחירו המרבי של יום אשפוז ושל שירות אמבולטורי ודיפרנציאלי בבתי חולים ציבוריים כלליים, כפי שנקבע בצו לפי <ref href="/akn/il/act/PrimaryLegislation/1996-03-21/159426">חוק הפיקוח</ref>;</p>
+                  </content>
+                </point>
+                <point eId="point_19__point_מטופל_המיועד_להעברה">
+                  <list>
+                    <intro>
+                      <p>
+                        <def />”מטופל המיועד להעברה“ – מי שהוחלט לגביו כי ניתן להעבירו מחוץ לבית חולים ציבורי כללי, בהתאם להוראת מינהל ובהתחשב בצורך בשמירת הרצף הטיפולי, וזאת בלי לגרוע מהוראות <ref href="/akn/il/act/PrimaryLegislation/1994-06-26/157723">חוק ביטוח בריאות ממלכתי</ref>, ובכלל זה מהוראות <ref href="/akn/il/act/PrimaryLegislation/1994-06-26/157723#point_3">סעיף 3(ד) לחוק האמור</ref>, ומתקיים בו אחד מאלה:</p>
+                    </intro>
+                    <point eId="point_19__point_מטופל_המיועד_להעברה__point_1">
+                      <num>(1)</num>
+                      <content>
+                        <p>הוא בהנשמה ממושכת ומאושפז בבית חולים ציבורי כללי יותר מ־30 ימים ברציפות;</p>
+                      </content>
+                    </point>
+                    <point eId="point_19__point_מטופל_המיועד_להעברה__point_2">
+                      <num>(2)</num>
+                      <content>
+                        <p>הוא מאושפז בבית חולים ציבורי כללי ומוגדר כחולה סיעודי מורכב או כחולה שיקומי גריאטרי, בהתאם להוראת מינהל;</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+                <point eId="point_19__point_מספר_המבוטחים_המשוקלל">
+                  <content>
+                    <p>
+                      <def />”מספר המבוטחים המשוקלל“ – כהגדרתו <ref href="/akn/il/act/PrimaryLegislation/1994-06-26/157723#point_17">בסעיף 17 לחוק ביטוח בריאות ממלכתי</ref>;</p>
+                  </content>
+                </point>
+                <point eId="point_19__point_ערך_השירותים_המוחרגים">
+                  <content>
+                    <p>
+                      <def />”ערך השירותים המוחרגים“ – סכום ההפחתה, במחירי 2012, לתקרת הצריכה הפרטנית הרגילה כהגדרתה <ref href="/akn/il/act/PrimaryLegislation/2002-02-17/173933#point_10">בסעיף 10 לחוק ההתחשבנות</ref>, שקבעו השרים בצו לפי <ref href="/akn/il/act/PrimaryLegislation/2002-02-17/173933#point_12ח">סעיפים 12ח(ב)</ref><ref href="/akn/il/act/PrimaryLegislation/2002-02-17/173933#point_17">ו־17(א)(8) לחוק האמור</ref>, בשנת 2013;</p>
+                  </content>
+                </point>
+                <point eId="point_19__point_צריכה">
+                  <content>
+                    <p>
+                      <def />”צריכה“ או ”רכישה“, של שירותי בריאות בידי קופת חולים בבית חולים ציבורי כללי – לרבות צריכה או רכישה של שירותים כאמור בידי קופת חולים בבית חולים ציבורי כללי שהוא תאגיד שבבעלות הקופה, ולמעט צריכה או רכישה כאמור בבית חולים ציבורי כללי הפועל במסגרת אותה קופה;</p>
+                  </content>
+                </point>
+                <point eId="point_19__point_רצפת_צריכה_פרטנית_ברוטו">
+                  <content>
+                    <p>
+                      <def />”רצפת צריכה פרטנית ברוטו“, לשנה מסוימת – 95% מתקרת הצריכה הפרטנית ברוטו לאותה שנה;</p>
+                  </content>
+                </point>
+                <point eId="point_19__point_רצפת_צריכה_פרטנית_נטו">
+                  <content>
+                    <p>
+                      <def />”רצפת צריכה פרטנית נטו“, לשנה מסוימת – 95% מתקרת הצריכה הפרטנית נטו לאותה שנה;</p>
+                  </content>
+                </point>
+                <point eId="point_19__point_שיעור_העדכון">
+                  <content>
+                    <p>
+                      <def />”שיעור העדכון“ – שיעור העדכון של מחיר יום אשפוז שקבעו השרים בצו לפי <ref href="/akn/il/act/PrimaryLegislation/1996-03-21/159426">חוק הפיקוח</ref>;</p>
+                  </content>
+                </point>
+                <point eId="point_19__point_שיעור_הקפיטציה">
+                  <content>
+                    <p>
+                      <def />”שיעור הקפיטציה“, של קופת חולים – שיעור חלקה של קופת החולים מתוך הסכום לחלוקה שקובע המוסד לביטוח לאומי לפי הוראות <ref href="/akn/il/act/PrimaryLegislation/1994-06-26/157723#point_18">סעיף 18 לחוק ביטוח בריאות ממלכתי</ref>;</p>
+                  </content>
+                </point>
+                <point eId="point_19__point_תאגיד_בריאות">
+                  <content>
+                    <p>
+                      <def />”תאגיד בריאות“ – כהגדרתו <ref href="/akn/il/act/PrimaryLegislation/1985-04-03/150399#point_21">בסעיף 21 לחוק יסודות התקציב, התשמ"ה–1985</ref>;</p>
+                  </content>
+                </point>
+                <point eId="point_19__point_תוספת">
+                  <content>
+                    <p>
+                      <def />”תוספת“ – לרבות תוספת בשיעור שלילי;</p>
+                  </content>
+                </point>
+                <point eId="point_19__point_תוספת_ריאלית">
+                  <content>
+                    <p>
+                      <def />”תוספת ריאלית“ – תוספת מעבר לשיעור העדכון של המחיר המלא, ואם נקבעו לפי <ref href="/akn/il/act/PrimaryLegislation/1996-03-21/159426">חוק הפיקוח</ref> שיעורי עדכון שונים למחירים של שירותי בריאות שונים – תוספת מעבר לשיעור, שיפרסמו ברשומות השרים, שהוא ממוצע משוקלל של שיעור העדכון של המחיר המלא בהתאם למשקלם של השירותים השונים בכלל שירותי הבריאות;</p>
+                  </content>
+                </point>
+                <point eId="point_19__point_תקרת_צריכה_פרטנית_ברוטו">
+                  <content>
+                    <p>
+                      <def />”תקרת צריכה פרטנית ברוטו“ – הסכום המרבי השנתי לתשלום במחיר ברוטו, שעל קופת חולים כלשהי לשלם לבית חולים ציבורי כללי, כקבוע <ref href="#point_20">בסעיף 20</ref>;</p>
+                  </content>
+                </point>
+                <point eId="point_19__point_תקרת_צריכה_פרטנית_נטו">
+                  <content>
+                    <p>
+                      <def />”תקרת צריכה פרטנית נטו“ – הסכום המרבי השנתי לתשלום שעל קופת חולים כלשהי לשלם לבית חולים ציבורי כללי בעד רכישת שירותים עד גובה תקרת הצריכה הפרטנית ברוטו, כקבוע <ref href="#point_21">בסעיף 21</ref>;</p>
+                  </content>
+                </point>
+                <point eId="point_19__point_השרים">
+                  <content>
+                    <p>
+                      <def />”השרים“ – שר הבריאות ושר האוצר.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_20">
+              <heading>
+                <authorialNote placement="side">
+                  <p>תקרת צריכה פרטנית ברוטו</p>
+                </authorialNote>
+              </heading>
+              <num>20.</num>
+              <list>
+                <intro>
+                  <p>תקרת הצריכה הפרטנית ברוטו, לכל אחת מקופות החולים בכל בית חולים ציבורי כללי בכל אחת מהשנים האלה, תהיה כמפורט להלן:</p>
+                </intro>
+                <point eId="point_20__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>בשנת 2014 – הביצוע במחיר קבוע לשנת 2012 בהפחתת ערך השירותים המוחרגים, בתוספת ריאלית בשיעור 3.428% ובתוספת שיעור העדכון לשנים 2013 ו־2014;</p>
+                  </content>
+                </point>
+                <point eId="point_20__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>בכל אחת מהשנים 2015 ו־2016 – תקרת הצריכה הפרטנית ברוטו בשנה הקודמת, בתוספת ריאלית בשיעור 1.4% ובתוספת שיעור העדכון לאותה שנה.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_21">
+              <heading>
+                <authorialNote placement="side">
+                  <p>תקרת צריכה פרטנית נטו</p>
+                </authorialNote>
+              </heading>
+              <num>21.</num>
+              <list>
+                <intro>
+                  <p>תקרת הצריכה הפרטנית נטו, לכל אחת מקופות החולים בכל בית חולים ציבורי כללי בכל אחת מהשנים האלה, תהיה כמפורט להלן:</p>
+                </intro>
+                <point eId="point_21__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>בשנת 2014 – הסכום המתקבל מסך התשלום שכל קופת חולים שילמה לכל בית חולים בעד רכש שירותים בשנת 2012 בניכוי ערך השירותים המוחרגים, ובניכוי ההפרש שבין התשלום ששילמה הקופה בעבור מטופלים המיועדים להעברה בשנת 2012 לבין התשלום שהיה עליה לשלם אלמלא הוראות <ref href="/akn/il/act/PrimaryLegislation/2002-02-17/173933#point_14">סעיפים 14(ד)(3)</ref><ref href="/akn/il/act/PrimaryLegislation/2002-02-17/173933#point_16">ו־16(א)(6) לחוק ההתחשבנות</ref> באותה שנה, בתוספת ריאלית בשיעור 3.428% ובתוספת שיעור העדכון לשנים 2013 ו־2014;</p>
+                  </content>
+                </point>
+                <point eId="point_21__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>בכל אחת מהשנים 2015 ו־2016 – תקרת הצריכה הפרטנית נטו בשנה הקודמת בתוספת ריאלית בשיעור 1.4% ובתוספת שיעור העדכון לאותה שנה.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_22">
+              <heading>
+                <authorialNote placement="side">
+                  <p>הודעה על תקרות ורצפות צריכה</p>
+                </authorialNote>
+              </heading>
+              <num>22.</num>
+              <list>
+                <point eId="point_22__point_א">
+                  <num>(א)</num>
+                  <content>
+                    <p>השרים יודיעו לכל בית חולים ולכל קופת חולים, עד יום 1 במרס של כל שנה מהשנים 2014 עד 2016, מהן תקרת הצריכה הפרטנית ברוטו ותקרת הצריכה הפרטנית נטו שלהם לאותה שנה, לפי <ref href="#point_20">סעיפים 20</ref><ref href="#point_21">ו־21</ref> וכן מהן רצפת הצריכה הפרטנית ברוטו ורצפת הצריכה הפרטנית נטו כפי שנגזרה מכל אחת מהתקרות כאמור.</p>
+                  </content>
+                </point>
+                <point eId="point_22__point_ב">
+                  <num>(ב)</num>
+                  <list>
+                    <intro>
+                      <p>על אף האמור <ref href="#point_20">בסעיפים 20</ref><ref href="#point_21">ו־21</ref>, השרים רשאים לחשב, לגבי קופת חולים ובית חולים מסוימים, תוספת ריאלית לתקרות הצריכה הפרטניות ברוטו ונטו, השונה משיעור 3.428% לשנת 2014 ומ־1.4% לשנים 2015 ו־2016, בהתאמה, בהתחשב, בין השאר, בשינוי בשיעור הקפיטציה של קופת החולים, ובמיטות אשפוז נוספות שאושרו לבית החולים על פי כל דין ובעיתוי הקצאתן או הפעלתן, ובלבד שיתקיימו תנאים אלה:</p>
+                    </intro>
+                    <point eId="point_22__point_ב__point_1">
+                      <num>(1)</num>
+                      <content>
+                        <p>לגבי שנת 2014 – היחס בין סך תקרות הצריכה הפרטניות ברוטו ונטו, בהתאמה, לשנת 2014, בניכוי שיעור העדכון לשנים 2013 ו־2014, לבין סך תקרות הצריכה הפרטניות הבסיסיות ברוטו ונטו, בהתאמה, לא יעלה על 3.428%;</p>
+                      </content>
+                    </point>
+                    <point eId="point_22__point_ב__point_2">
+                      <num>(2)</num>
+                      <content>
+                        <p>לגבי כל אחת מהשנים 2015 ו־2016 – היחס בין סך תקרות הצריכה הפרטניות ברוטו ונטו, בהתאמה, לכל אחת מהשנים האמורות, בניכוי שיעור העדכון לכל אחת מהשנים האמורות, לבין סך תקרות הצריכה הפרטניות ברוטו ונטו, בהתאמה, לשנה הקודמת – לא יעלה על 1.4%.</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+                <point eId="point_22__point_ג">
+                  <num>(ג)</num>
+                  <content>
+                    <p>שיעור התוספת הריאלית שיחושב כאמור בסעיף קטן (ב) לגבי קופת חולים ובית חולים מסוימים, יחול באופן אחיד על תקרת הצריכה הפרטנית ברוטו ועל תקרת הצריכה הפרטנית נטו.</p>
+                  </content>
+                </point>
+                <point eId="point_22__point_ד">
+                  <num>(ד)</num>
+                  <list>
+                    <intro>
+                      <p>בסעיף זה –</p>
+                    </intro>
+                    <point eId="point_22__point_ד__point_תקרת_צריכה_פרטנית_בסיסית_ברוטו">
+                      <content>
+                        <p>
+                          <def />”תקרת צריכה פרטנית בסיסית ברוטו“ – הביצוע במחיר קבוע לשנת 2012 שצרכה כל קופת חולים בכל בית חולים ציבורי כללי בהפחתת ערך השירותים המוחרגים;</p>
+                      </content>
+                    </point>
+                    <point eId="point_22__point_ד__point_תקרת_צריכה_פרטנית_בסיסית_נטו">
+                      <content>
+                        <p>
+                          <def />”תקרת צריכה פרטנית בסיסית נטו“ – הסכום המתקבל מסך התשלום שכל קופת חולים שילמה לכל בית חולים בעד רכש שירותים בשנת 2012 בניכוי ערך השירותים המוחרגים, ובניכוי ההפרש שבין התשלום ששילמה הקופה בעבור מטופלים המיועדים להעברה בשנת 2012 לבין התשלום שהיה עליה לשלם אלמלא הוראות <ref href="/akn/il/act/PrimaryLegislation/2002-02-17/173933#point_14">סעיפים 14(ד)(3)</ref><ref href="/akn/il/act/PrimaryLegislation/2002-02-17/173933#point_16">ו־16(א)(6) לחוק ההתחשבנות</ref>, באותה שנה.</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+              </list>
+            </point>
+            <point eId="point_23">
+              <heading>
+                <authorialNote placement="side">
+                  <p>תשלום בעד שירותי בריאות</p>
+                </authorialNote>
+              </heading>
+              <num>23.</num>
+              <list>
+                <point eId="point_23__point_א">
+                  <num>(א)</num>
+                  <list>
+                    <intro>
+                      <p>בכל אחת מהשנים 2014 עד 2016, תשלם כל קופת חולים בעבור שירותים שרכשה בכל בית חולים ציבורי כללי, סכומים כמפורט להלן:</p>
+                    </intro>
+                    <point eId="point_23__point_א__point_1">
+                      <num>(1)</num>
+                      <content>
+                        <p>אם קופת החולים רכשה שירותים עד לרצפת הצריכה הפרטנית ברוטו – רצפת הצריכה הפרטנית נטו באותה שנה;</p>
+                      </content>
+                    </point>
+                    <point eId="point_23__point_א__point_2">
+                      <num>(2)</num>
+                      <content>
+                        <p>אם קופת החולים רכשה שירותים מעבר לרצפת הצריכה הפרטנית ברוטו ועד לתקרת הצריכה הפרטנית ברוטו – תקרת הצריכה הפרטנית נטו בניכוי ההפרש שבין תקרת הצריכה הפרטנית ברוטו לבין מחיר הברוטו של השירותים שרכשה כאמור, כשהוא מוכפל ב־70%, אך לא פחות מרצפת הצריכה הפרטנית נטו באותה שנה;</p>
+                      </content>
+                    </point>
+                    <point eId="point_23__point_א__point_3">
+                      <num>(3)</num>
+                      <list>
+                        <intro>
+                          <p>אם קופת החולים רכשה שירותים מעבר לתקרת הצריכה הפרטנית ברוטו – תקרת הצריכה הפרטנית נטו באותה שנה בתוספת –</p>
+                        </intro>
+                        <point eId="point_23__point_א__point_3__point_א">
+                          <num>(א)</num>
+                          <content>
+                            <p>בעבור שירותים מעבר לתקרת הצריכה הפרטנית ברוטו ועד ל־102% מתקרת הצריכה הפרטנית ברוטו – לא יותר מ־70% ממחיר הברוטו של השירותים;</p>
+                          </content>
+                        </point>
+                        <point eId="point_23__point_א__point_3__point_ב">
+                          <num>(ב)</num>
+                          <content>
+                            <p>בעבור שירותים מעבר ל־102% מתקרת הצריכה הפרטנית ברוטו ועד ל־112% מתקרת הצריכה הפרטנית ברוטו – לא יותר מ־33% ממחיר הברוטו של השירותים;</p>
+                          </content>
+                        </point>
+                        <point eId="point_23__point_א__point_3__point_ג">
+                          <num>(ג)</num>
+                          <content>
+                            <p>בעבור שירותים מעבר ל־112% מתקרת הצריכה הפרטנית ברוטו – לא יותר מ־65% ממחיר הברוטו של השירותים.</p>
+                          </content>
+                        </point>
+                      </list>
+                    </point>
+                  </list>
+                </point>
+                <point eId="point_23__point_ב">
+                  <num>(ב)</num>
+                  <content>
+                    <p>לעניין סעיף זה השירותים שרכשה קופת חולים בבית חולים ציבורי כללי יחושבו לפי מחיר ברוטו.</p>
+                  </content>
+                </point>
+                <point eId="point_23__point_ג">
+                  <num>(ג)</num>
+                  <content>
+                    <p>הוראות סעיף קטן (א)(1) יחולו רק אם בית החולים הסכים לספק לקופה, באותה שנה, שירותים בהיקף ובזמינות דומים לאלה שסיפק בשנה שקדמה לה בשווי הממצה את סכום הרצפה הפרטנית ברוטו, ומתקיימים תנאים נוספים שקבעו השרים לעניין זה, ככל שקבעו.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_24">
+              <heading>
+                <authorialNote placement="side">
+                  <p>מטופל המיועד להעברה</p>
+                </authorialNote>
+              </heading>
+              <num>24.</num>
+              <list>
+                <point eId="point_24__point_א">
+                  <num>(א)</num>
+                  <content>
+                    <p>השרים רשאים לקבוע בצו, עד ליום כ"ט בטבת התשע"ד (1 בינואר 2014), כי קופת חולים תשלם תשלום מוגדל בגובה המחיר המלא בעבור שירותי אשפוז בבית חולים ציבורי כללי של מטופל המיועד להעברה, החל מהמועד שיקבעו השרים לעניין זה ובהתאם לתנאים ולכללים שיקבעו.</p>
+                  </content>
+                </point>
+                <point eId="point_24__point_ב">
+                  <num>(ב)</num>
+                  <list>
+                    <intro>
+                      <p>קבעו השרים כי יחול תשלום מוגדל כאמור בסעיף קטן (א), יחולו הוראות אלה:</p>
+                    </intro>
+                    <point eId="point_24__point_ב__point_1">
+                      <num>(1)</num>
+                      <list>
+                        <intro>
+                          <p>על אף האמור <ref href="#point_20">בסעיפים 20</ref><ref href="#point_21">ו־21</ref>, יפחיתו השרים מתקרת הצריכה הפרטנית את הסכום כמפורט להלן:</p>
+                        </intro>
+                        <point eId="point_24__point_ב__point_1__point_א">
+                          <num>(א)</num>
+                          <content>
+                            <p>לגבי תקרת צריכה פרטנית ברוטו לשנת 2014 – הסכום שעל קופת החולים היה לשלם במחיר ברוטו בשל מטופל מיועד להעברה בשנת 2012 בתוספת ריאלית בשיעור 3.428% ובתוספת שיעור העדכון לשנים 2013 ו־2014;</p>
+                          </content>
+                        </point>
+                        <point eId="point_24__point_ב__point_1__point_ב">
+                          <num>(ב)</num>
+                          <content>
+                            <p>לגבי תקרת צריכה פרטנית נטו לשנת 2014 – הסכום שעל קופת החולים היה לשלם אלמלא הוראות <ref href="/akn/il/act/PrimaryLegislation/2002-02-17/173933#point_14">סעיפים 14(ד)(3)</ref><ref href="/akn/il/act/PrimaryLegislation/2002-02-17/173933#point_16">ו־16(א)(6) לחוק ההתחשבנות</ref> בשנת 2012 בתוספת ריאלית בשיעור 3.428% ובתוספת שיעור העדכון לשנים 2013 ו־2014;</p>
+                          </content>
+                        </point>
+                      </list>
+                    </point>
+                    <point eId="point_24__point_ב__point_2">
+                      <num>(2)</num>
+                      <content>
+                        <p>בהסכם בכתב לפי <ref href="#point_26">סעיף 26</ref> הקובע הסדר אחר להתחשבנות בעד רכישת שירותים בבית החולים, ייכללו הוראות לפי סעיף זה, וההסכם לא יתנה עליהן.</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+              </list>
+            </point>
+            <point eId="point_25">
+              <heading>
+                <authorialNote placement="side">
+                  <p>התחשבנות בין בית חולים לבין תאגידי בריאות</p>
+                </authorialNote>
+              </heading>
+              <num>25.</num>
+              <content>
+                <p>בבית חולים ממשלתי כללי שבו פועל תאגיד בריאות, לא יפחת היקף החשבונות שבעדם משולם סכום מופחת כאמור <ref href="#point_23">בסעיף 23(א)(2) ו־(3)</ref> שיוחס לתאגיד הבריאות מסכום השווה ל־48.67% מכלל החשבונות שבעדם משולם סכום מופחת כאמור; השרים רשאים לקבוע, בצו, ביחס לבית חולים ולתאגיד בריאות הפועל בתחומו, לכל אחת מהשנים 2014 עד 2016, שיעור אחר מכלל החשבונות שבעדם משולם סכום מופחת כאמור, לאחר שמיעת עמדת בית החולים והתאגיד.</p>
+              </content>
+            </point>
+            <point eId="point_26">
+              <heading>
+                <authorialNote placement="side">
+                  <p>הסכמים בין קופת חולים לבית חולים בדבר שיטת ההתחשבנות ביניהם</p>
+                </authorialNote>
+              </heading>
+              <num>26.</num>
+              <list>
+                <point eId="point_26__point_א">
+                  <num>(א)</num>
+                  <list>
+                    <intro>
+                      <p>על אף הוראות <ref href="#chp_ה_sec_א">סימן זה</ref>, רשאים כל בית חולים ציבורי כללי וכל קופת חולים לקבוע בהסכם בכתב ביניהם הסדר אחר להתחשבנות בעד רכישת שירותים בבית החולים, ובלבד שההסדר ימלא אחר תנאים אלה:</p>
+                    </intro>
+                    <point eId="point_26__point_א__point_1">
+                      <num>(1)</num>
+                      <content>
+                        <p>בית החולים וקופת החולים יתחייבו בהסכם כי בבית החולים יינתנו לחברי הקופה שירותים ברמה נאותה ובאיכות וזמינות כמתחייב מהוראות <ref href="/akn/il/act/PrimaryLegislation/1994-06-26/157723">חוק ביטוח בריאות ממלכתי</ref>;</p>
+                      </content>
+                    </point>
+                    <point eId="point_26__point_א__point_2">
+                      <num>(2)</num>
+                      <content>
+                        <p>ההסכם יקבע כי אם יחול שינוי בסך היקף צריכת השירותים של קופת החולים בבית החולים, בשנה משנות ההסדר לעומת השנה שקדמה לה, מעבר לשינוי במספר המבוטחים המשוקלל של הקופה ולשיעור העדכון, בשיעור העולה על 6%, תהיה שיטת ההתחשבנות ביניהם לפי הוראות <ref href="#chp_ה_sec_א">סימן זה</ref>;</p>
+                      </content>
+                    </point>
+                    <point eId="point_26__point_א__point_3">
+                      <num>(3)</num>
+                      <content>
+                        <p>ההסכם יכלול מנגנון לבירור חילוקי דעות בין הצדדים ביחס להתחשבנות ביניהם;</p>
+                      </content>
+                    </point>
+                    <point eId="point_26__point_א__point_4">
+                      <num>(4)</num>
+                      <content>
+                        <p>תקופת ההסכם לא תעלה על שלוש שנים או תהיה עד תום התקופה שבה יחולו הוראות <ref href="#chp_ה_sec_א">סימן זה</ref> כאמור <ref href="#point_27">בסעיף 27(ג)</ref>, לפי המוקדם;</p>
+                      </content>
+                    </point>
+                    <point eId="point_26__point_א__point_5">
+                      <num>(5)</num>
+                      <content>
+                        <p>ההסדר המוצע לא ייצור הפליה מצד בית החולים בין חברים שונים בקופת החולים שעמה נחתם ההסכם או בינם לבין חברים בקופת חולים אחרת.</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+                <point eId="point_26__point_ב">
+                  <num>(ב)</num>
+                  <content>
+                    <p>הגיעו בית חולים וקופת חולים להסדר על שיטת ההתחשבנות ביניהם, יעבירו הצדדים העתק מההסכם שנחתם לעניין זה לשרים; סבר אחד השרים כי ההסכם אינו עומד בהוראות סעיף קטן (א), יודיע על כך לצדדים להסכם ולשר האחר, בתוך 60 ימים מיום שההסכם הועבר לידיו.</p>
+                  </content>
+                </point>
+                <point eId="point_26__point_ג">
+                  <num>(ג)</num>
+                  <content>
+                    <p>שר הבריאות רשאי, בהתייעצות עם שר האוצר ולאחר ששמע את הצדדים להסכם, לבטלו אם ראה שהדבר נחוץ לשם שמירה על בריאות הציבור, והכול מנימוקים שיירשמו; החליט שר הבריאות לבטל את ההסכם כאמור, ימסור לצדדים את החלטתו בצירוף הנימוקים לה.</p>
+                  </content>
+                </point>
+                <point eId="point_26__point_ד">
+                  <num>(ד)</num>
+                  <content>
+                    <p>השרים רשאים לקבוע בצו הוראות לעניין מדידת הצריכה בפועל של קופת חולים בבית חולים ציבורי כללי שלגביו נחתם הסכם בין הקופה לבית החולים לפי סעיף זה, ובכלל זה הם רשאים לקבוע כי יראו את הצריכה כאילו נעשתה במחירים הנמוכים מהמחיר המלא או מהמחיר ברוטו.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_27">
+              <heading>
+                <authorialNote placement="side">
+                  <p>אי־תחולה על שירותי בריאות</p>
+                </authorialNote>
+              </heading>
+              <num>27.</num>
+              <list>
+                <point eId="point_27__point_א">
+                  <num>(א)</num>
+                  <list>
+                    <intro>
+                      <p>הוראות <ref href="#chp_ה_sec_א">סימן זה</ref> לא יחולו על –</p>
+                    </intro>
+                    <point eId="point_27__point_א__point_1">
+                      <num>(1)</num>
+                      <content>
+                        <p>שירות הניתן לנפגע, כהגדרתו <ref href="/akn/il/act/PrimaryLegislation/1970-07-30/148919">בחוק התגמולים לנפגעי פעולות איבה, התש"ל–1970</ref>;</p>
+                      </content>
+                    </point>
+                    <point eId="point_27__point_א__point_2">
+                      <num>(2)</num>
+                      <content>
+                        <p>שירות הניתן לקטין שאינו תושב, לפי הסכם בין המדינה לבין קופת חולים או לפי כל הסדר משפטי אחר; לעניין זה, ”תושב“ – כהגדרתו <ref href="/akn/il/act/PrimaryLegislation/1994-06-26/157723">בחוק ביטוח בריאות ממלכתי</ref>;</p>
+                      </content>
+                    </point>
+                    <point eId="point_27__point_א__point_3">
+                      <num>(3)</num>
+                      <content>
+                        <p>שירות הניתן לעובד זר, כמשמעותו <ref href="/akn/il/act/PrimaryLegislation/1991-03-21/174403">בחוק עובדים זרים, התשנ"א–1991</ref>, הכלול במסגרת סל השירותים שקבע שר הבריאות לפי <ref href="/akn/il/act/PrimaryLegislation/1991-03-21/174403">החוק האמור</ref>, אך למעט שירות הניתן לעובד זר השוהה בישראל לפי אשרה ורישיון לישיבת ארעי (א/1), כאמור <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/תקנות_הכניסה_לישראל#point_6">בתקנה 6(א) לתקנות הכניסה לישראל, התשל"ד–1974</ref>;</p>
+                      </content>
+                    </point>
+                    <point eId="point_27__point_א__point_4">
+                      <num>(4)</num>
+                      <content>
+                        <p>שירות הניתן לחייל לפי הסכם בין קופת חולים לבין צבא הגנה לישראל; לעניין זה, ”חייל“ – כהגדרתו <ref href="/akn/il/act/PrimaryLegislation/1955-07-20/148698">בחוק השיפוט הצבאי, התשט"ו–1955</ref>, למעט חייל בשירות חובה בתקופת שירות בלא תשלום, כאמור <ref href="/akn/il/act/PrimaryLegislation/1994-06-26/157723#point_55">בסעיף 55 לחוק ביטוח בריאות ממלכתי</ref>;</p>
+                      </content>
+                    </point>
+                    <point eId="point_27__point_א__point_5">
+                      <num>(5)</num>
+                      <content>
+                        <p>שירות הניתן למטופל לפי הסכם בין קופת חולים לבין גוף אחר האחראי למתן השירות למטופל, על פי חוק, הסכם או חוזה ביטוח;</p>
+                      </content>
+                    </point>
+                    <point eId="point_27__point_א__point_6">
+                      <num>(6)</num>
+                      <content>
+                        <p>שירות בתחום בריאות הנפש שחלות לגביו הוראות <ref href="#chp_ה_sec_ב">סימן ב׳</ref>;</p>
+                      </content>
+                    </point>
+                    <point eId="point_27__point_א__point_7">
+                      <num>(7)</num>
+                      <content>
+                        <p>שירות נוסף שקבעו השרים בצו בשנים 2011 עד 2013 לפי הוראות <ref href="/akn/il/act/PrimaryLegislation/2002-02-17/173933#point_17">סעיף 17(א)(8) לחוק ההתחשבנות</ref>;</p>
+                      </content>
+                    </point>
+                    <point eId="point_27__point_א__point_8">
+                      <num>(8)</num>
+                      <content>
+                        <p>שירות נוסף שקבעו השרים בצו בשנים 2014 עד 2016; צו כאמור ייקבע לא יאוחר מיום 1 במרס בשנה שבה חל יום תחילתו.</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+                <point eId="point_27__point_ב">
+                  <num>(ב)</num>
+                  <content>
+                    <p>קבעו השרים לפי הוראות סעיף קטן (א)(8) כי הוראות <ref href="#chp_ה_sec_א">סימן זה</ref> לא יחולו על שירותים מסוימים (בסעיף קטן זה – השירותים המוחרגים), לגבי שנה מהשנים 2014 עד 2016, יקבעו בצו עד יום 1 במרס באותה שנה שלגביה קבעו כאמור, את סכום ההפחתה לתקרות הצריכה הפרטניות ברוטו ונטו לכל קופת חולים בבית חולים ציבורי כללי, שיתבסס, בין השאר, על מספר השירותים המוחרגים שצרכה קופת החולים בבית החולים הציבורי הכללי בשנה שקדמה לשנה שבה נקבע הצו ועל המחיר המלא של שירותים כאמור ערב קביעת הצו.</p>
+                  </content>
+                </point>
+                <point eId="point_27__point_ג">
+                  <num>(ג)</num>
+                  <content>
+                    <p>הוראות <ref href="#chp_ה_sec_א">סימן זה</ref> יחולו על שירותים שרכשה קופת חולים בבית חולים ציבורי כללי עד ב׳ בטבת התשע"ז (31 בדצמבר 2016).</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+          </list>
+        </section>
+        <section eId="chp_ה__sec_ב">
+          <num>סימן ב׳:</num>
+          <title>
+            <content>
+              <p>התחשבנות בעד שירותי אשפוז פסיכיאטריים</p>
+            </content>
+          </title>
+          <list>
+            <point eId="point_28" class="definitions">
+              <heading>
+                <authorialNote placement="side">
+                  <p>הגדרות</p>
+                </authorialNote>
+              </heading>
+              <num>28.</num>
+              <list>
+                <intro>
+                  <p>
+                    <ref href="#chp_ה_sec_ב">בסימן זה</ref> –</p>
+                </intro>
+                <point eId="point_28__point_ביצוע_במחיר_קבוע">
+                  <content>
+                    <p>
+                      <def />”ביצוע במחיר קבוע“ – סכום המכפלות של כל שירותי האשפוז הפסיכיאטרי שצרכו חברי קופת חולים בבית חולים פסיכיאטרי במחיר המלא של כל שירות כאמור, אף אם שולם בעבורו סכום מופחת;</p>
+                  </content>
+                </point>
+                <point eId="point_28__point_בית_חולים_פסיכיאטרי">
+                  <list>
+                    <intro>
+                      <p>
+                        <def />”בית חולים פסיכיאטרי“ – בית חולים פסיכיאטרי או מחלקה פסיכיאטרית בבית חולים ציבורי כללי, שכל אחד מהם הוא אחד מאלה:</p>
+                    </intro>
+                    <point eId="point_28__point_בית_חולים_פסיכיאטרי__point_1">
+                      <num>(1)</num>
+                      <content>
+                        <p>בית חולים ממשלתי, לרבות תאגיד בריאות הפועל במסגרתו;</p>
+                      </content>
+                    </point>
+                    <point eId="point_28__point_בית_חולים_פסיכיאטרי__point_2">
+                      <num>(2)</num>
+                      <content>
+                        <p>בית חולים בבעלות קופת חולים;</p>
+                      </content>
+                    </point>
+                    <point eId="point_28__point_בית_חולים_פסיכיאטרי__point_3">
+                      <num>(3)</num>
+                      <content>
+                        <p>בית חולים בבעלות רשות מקומית;</p>
+                      </content>
+                    </point>
+                    <point eId="point_28__point_בית_חולים_פסיכיאטרי__point_4">
+                      <num>(4)</num>
+                      <content>
+                        <p>בית חולים שהוא תאגיד שהוא מוסד ציבורי כהגדרתו <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_מס_הכנסה#point_9">בסעיף 9 לפקודת מס הכנסה</ref>;</p>
+                      </content>
+                    </point>
+                    <point eId="point_28__point_בית_חולים_פסיכיאטרי__point_5">
+                      <num>(5)</num>
+                      <content>
+                        <p>בית חולים שאינו בית חולים כאמור בפסקאות (1) עד (4), שבתעודת רישומו לפי <ref href="/akn/il/act/PrimaryLegislation/1940-12-20/2001729">פקודת בריאות העם, 1940</ref>, כלולות עמדות לרפואה דחופה (מיון);</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+                <point eId="point_28__point_חוק_ביטוח_בריאות_ממלכתי">
+                  <content>
+                    <p>
+                      <def />”חוק ביטוח בריאות ממלכתי“, ”חוק ההתחשבנות“, ”חוק הפיקוח“, ”מספר המבוטחים המשוקלל“, ”תאגיד בריאות“ ו”השרים“ – כהגדרתם <ref href="#chp_ה_sec_א">בסימן א׳</ref>;</p>
+                  </content>
+                </point>
+                <point eId="point_28__point_מחיר_מלא">
+                  <content>
+                    <p>
+                      <def />”מחיר מלא“ – מחירו המרבי של שירות אשפוז פסיכיאטרי, כפי שנקבע בצו לפי <ref href="/akn/il/act/PrimaryLegislation/1996-03-21/159426">חוק הפיקוח</ref>;</p>
+                  </content>
+                </point>
+                <point eId="point_28__point_מספר_המיטות_המתוקנן">
+                  <list>
+                    <intro>
+                      <p>
+                        <def />”מספר המיטות המתוקנן“, בבית חולים פסיכיאטרי – הסכום של שני אלה מחולק ב־365:</p>
+                    </intro>
+                    <point eId="point_28__point_מספר_המיטות_המתוקנן__point_1">
+                      <num>(1)</num>
+                      <content>
+                        <p>מספר מיטות האשפוז או מיטות אשפוז היום הרשומות בתעודת הרישום של בית החולים הפסיכיאטרי בתחילת השנה מוכפל ב־365;</p>
+                      </content>
+                    </point>
+                    <point eId="point_28__point_מספר_המיטות_המתוקנן__point_2">
+                      <num>(2)</num>
+                      <content>
+                        <p>מספר מיטות האשפוז או מיטות אשפוז היום המתוכננות להיווסף לתעודת הרישום של בית החולים הפסיכיאטרי באותה שנה מוכפל במספר הימים שנותרו באותה שנה מהמועד המתוכנן להוספתן;</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+                <point eId="point_28__point_צריכה">
+                  <content>
+                    <p>
+                      <def />”צריכה“ או ”רכישה“, של שירותי אשפוז פסיכיאטריים בידי קופת חולים בבית חולים פסיכיאטרי – לרבות צריכה או רכישה של שירותים כאמור בידי קופת חולים בבית חולים פסיכיאטרי שהוא תאגיד שבבעלות הקופה, ולמעט צריכה או רכישה כאמור בבית חולים פסיכיאטרי הפועל במסגרת אותה קופה;</p>
+                  </content>
+                </point>
+                <point eId="point_28__point_תקרת_הצריכה_הבסיסית_לשירותי_אשפוז_בבית_חולים_פסיכיאטרי">
+                  <list>
+                    <intro>
+                      <p>
+                        <def />”תקרת הצריכה הבסיסית לשירותי אשפוז בבית חולים פסיכיאטרי“, בשנה מסוימת – הסכום של שני אלה:</p>
+                    </intro>
+                    <point eId="point_28__point_תקרת_הצריכה_הבסיסית_לשירותי_אשפוז_בבית_חולים_פסיכיאטרי__point_1">
+                      <num>(1)</num>
+                      <content>
+                        <p>הסכום הכולל שהתקבל מחישוב המחיר המלא באותה שנה של יום אשפוז פסיכיאטרי, מוכפל ב־365 וב־95% ממספר המיטות המתוקנן של מיטות האשפוז;</p>
+                      </content>
+                    </point>
+                    <point eId="point_28__point_תקרת_הצריכה_הבסיסית_לשירותי_אשפוז_בבית_חולים_פסיכיאטרי__point_2">
+                      <num>(2)</num>
+                      <content>
+                        <p>הסכום הכולל שהתקבל מחישוב המחיר המלא באותה שנה של אשפוז יום פסיכיאטרי, מוכפל ב־252 ובמספר המיטות המתוקנן של מיטות אשפוז היום;</p>
+                      </content>
+                    </point>
+                    <wrapup eId="point_28__point_תקרת_הצריכה_הבסיסית_לשירותי_אשפוז_בבית_חולים_פסיכיאטרי__wrapup_none">
+                      <content>
+                        <p>לעניין הגדרה זו, יחושב המחיר המלא של יום אשפוז פסיכיאטרי ושל אשפוז יום פסיכיאטרי, לפי סוג המיטה שלה הוא מיוחס.</p>
+                      </content>
+                    </wrapup>
+                  </list>
+                </point>
+              </list>
+            </point>
+            <point eId="point_29">
+              <heading>
+                <authorialNote placement="side">
+                  <p>תקרת הצריכה הפרטנית לשירותי אשפוז פסיכיאטריים לשנים 2015 ו־2016</p>
+                </authorialNote>
+              </heading>
+              <num>29.</num>
+              <content>
+                <p>תקרת הצריכה הפרטנית לשירותי אשפוז של קופת חולים בבית חולים פסיכיאטרי, בכל אחת מהשנים 2015 ו־2016, תהיה הסכום המתקבל מהכפלת תקרת הצריכה הבסיסית לשירותי אשפוז בבית חולים פסיכיאטרי, בביצוע במחיר קבוע של חברי אותה קופה באותו בית חולים בשנת 2014, מחולק בביצוע במחיר קבוע של כלל חברי קופות החולים באותו בית חולים בשנת 2014 (<ref href="#chp_ה_sec_ב">בסימן זה</ref> – תקרת הצריכה הפרטנית לשירותי אשפוז); השרים יפרסמו בהודעה ברשומות את תקרת הצריכה הפרטנית לשירותי אשפוז של כל קופת חולים בכל בית חולים פסיכיאטרי; הודעה כאמור תפורסם עד יום 1 במרס של כל אחת מהשנים 2015 ו־2016, ולעניין שנת תחילתו של <ref href="#chp_ה_sec_ב">סימן זה</ref> – עד למועד תחילתו, לפי המאוחר.</p>
+              </content>
+            </point>
+            <point eId="point_30">
+              <heading>
+                <authorialNote placement="side">
+                  <p>תשלום בעד שירותי אשפוז פסיכיאטריים</p>
+                </authorialNote>
+              </heading>
+              <num>30.</num>
+              <list>
+                <point eId="point_30__point_א">
+                  <num>(א)</num>
+                  <list>
+                    <intro>
+                      <p>בכל אחת מהשנים 2015 ו־2016, תשלם כל קופת חולים בעבור שירותי אשפוז פסיכיאטריים שרכשה בכל בית חולים פסיכיאטרי, סכומים כמפורט להלן:</p>
+                    </intro>
+                    <point eId="point_30__point_א__point_1">
+                      <num>(1)</num>
+                      <content>
+                        <p>עד לתקרת הצריכה הפרטנית לשירותי אשפוז – לא יותר ממחירם המלא של שירותי האשפוז הפסיכיאטריים;</p>
+                      </content>
+                    </point>
+                    <point eId="point_30__point_א__point_2">
+                      <num>(2)</num>
+                      <content>
+                        <p>מעבר לתקרת הצריכה הפרטנית לשירותי אשפוז ועד לביצוע במחיר קבוע בשיעור של 113% מהתקרה האמורה – סכום אפס;</p>
+                      </content>
+                    </point>
+                    <point eId="point_30__point_א__point_3">
+                      <num>(3)</num>
+                      <content>
+                        <p>מעבר לביצוע במחיר קבוע בשיעור של 113% מתקרת הצריכה הפרטנית לשירותי אשפוז – לא יותר מ־30% ממחירם המלא של שירותי האשפוז הפסיכיאטריים.</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+                <point eId="point_30__point_ב">
+                  <num>(ב)</num>
+                  <content>
+                    <p>לעניין סעיף זה יחושבו שירותי האשפוז שרכשה קופת חולים בבית חולים פסיכיאטרי לפי מחירם המלא.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_31">
+              <heading>
+                <authorialNote placement="side">
+                  <p>התחשבנות בין בית חולים ממשלתי כללי לבין תאגידי בריאות</p>
+                </authorialNote>
+              </heading>
+              <num>31.</num>
+              <content>
+                <p>בבית חולים ממשלתי כללי שבו פועל תאגיד בריאות ויש בו מחלקה פסיכיאטרית לא יפחת היקף החשבונות שבעדם משולם סכום אפס או סכום מופחת, כאמור <ref href="#point_30">בסעיף 30(א)(2) או (3)</ref>, שיוחס לתאגיד הבריאות, מסכום השווה ל־95% מכלל החשבונות שבעדם משולם סכום אפס או סכום מופחת כאמור.</p>
+              </content>
+            </point>
+            <point eId="point_32">
+              <heading>
+                <authorialNote placement="side">
+                  <p>הסכמים בדבר שיטת התחשבנות</p>
+                </authorialNote>
+              </heading>
+              <num>32.</num>
+              <list>
+                <point eId="point_32__point_א">
+                  <num>(א)</num>
+                  <list>
+                    <intro>
+                      <p>על אף הוראות <ref href="#chp_ה_sec_ב">סימן זה</ref>, רשאים כל בית חולים פסיכיאטרי וכל קופת חולים לקבוע בהסכם בכתב ביניהם הסדר אחר להתחשבנות בעד רכישת שירותי אשפוז פסיכיאטריים, ובלבד שההסדר ימלא אחר תנאים אלה:</p>
+                    </intro>
+                    <point eId="point_32__point_א__point_1">
+                      <num>(1)</num>
+                      <content>
+                        <p>בית החולים וקופת החולים יתחייבו בהסכם כי בבית החולים יינתנו לחברי הקופה שירותים ברמה נאותה ובאיכות ובזמינות כמתחייב מהוראות <ref href="/akn/il/act/PrimaryLegislation/1994-06-26/157723">חוק ביטוח בריאות ממלכתי</ref>;</p>
+                      </content>
+                    </point>
+                    <point eId="point_32__point_א__point_2">
+                      <num>(2)</num>
+                      <content>
+                        <p>ההסכם יקבע כי אם יחול שינוי בסך היקף צריכת השירותים של קופת החולים בבית החולים, בכל שנה משנות ההסדר לעומת השנה שקדמה לה, מעבר לשינוי במספר המבוטחים המשוקלל של הקופה ולשיעור השינוי במחיר המלא של השירותים, בשיעור העולה על 6%, תהיה שיטת ההתחשבנות ביניהם לפי הוראות <ref href="#chp_ה_sec_ב">סימן זה</ref>;</p>
+                      </content>
+                    </point>
+                    <point eId="point_32__point_א__point_3">
+                      <num>(3)</num>
+                      <content>
+                        <p>ההסכם יכלול מנגנון לבירור חילוקי דעות בין הצדדים ביחס להתחשבנות ביניהם;</p>
+                      </content>
+                    </point>
+                    <point eId="point_32__point_א__point_4">
+                      <num>(4)</num>
+                      <content>
+                        <p>תקופת ההסכם לא תעלה על שנה וחצי או תהיה עד תום התקופה שבה יחולו הוראת <ref href="#chp_ה_sec_ב">סימן זה</ref> כאמור <ref href="#point_34">בסעיף 34(א)</ref>, לפי המוקדם;</p>
+                      </content>
+                    </point>
+                    <point eId="point_32__point_א__point_5">
+                      <num>(5)</num>
+                      <content>
+                        <p>ההסדר שבהסכם לא ייצור הפליה מצד בית החולים בין חברים שונים בקופת החולים שעמה נחתם ההסכם או בינם לבין חברים בקופת חולים אחרת.</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+                <point eId="point_32__point_ב">
+                  <num>(ב)</num>
+                  <content>
+                    <p>הגיעו בית חולים פסיכיאטרי וקופת חולים להסדר על שיטת ההתחשבנות ביניהם, יעבירו הצדדים העתק מההסכם שנחתם לעניין זה לשרים; סבר אחד השרים כי ההסכם אינו עומד בהוראות סעיף קטן (א), יודיע על כך לצדדים להסכם ולשר האחר, בתוך 60 ימים מיום שההסכם הועבר לידיו.</p>
+                  </content>
+                </point>
+                <point eId="point_32__point_ג">
+                  <num>(ג)</num>
+                  <content>
+                    <p>שר הבריאות רשאי, בהתייעצות עם שר האוצר ולאחר ששמע את הצדדים להסכם, לבטלו אם ראה שהדבר נחוץ לשם שמירה על בריאות הציבור, והכול מנימוקים שיירשמו; החליט שר הבריאות לבטל את ההסכם כאמור, ימסור לצדדים את החלטתו בצירוף הנימוקים לה.</p>
+                  </content>
+                </point>
+                <point eId="point_32__point_ד">
+                  <num>(ד)</num>
+                  <content>
+                    <p>השרים רשאים לקבוע בצו הוראות לעניין מדידת הצריכה בפועל של קופת חולים בבית חולים פסיכיאטרי, שלגביו נחתם הסכם בין הקופה לבית החולים לפי סעיף זה, ובכלל זה הם רשאים לקבוע כי יראו את הצריכה כאילו נעשתה במחירים הנמוכים ממחירם המלא של השירותים שנצרכו.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_33">
+              <heading>
+                <authorialNote placement="side">
+                  <p>אי־תחולה על שירותי אשפוז פסיכיאטרי</p>
+                </authorialNote>
+              </heading>
+              <num>33.</num>
+              <content>
+                <p>הוראות <ref href="#chp_ה_sec_ב">סימן זה</ref> לא יחולו על שירותים המנויים <ref href="#point_27">בפסקאות (1) עד (5) שבסעיף 27(א)</ref>.</p>
+              </content>
+            </point>
+            <point eId="point_34">
+              <heading>
+                <authorialNote placement="side">
+                  <p>תחילה והוראות מעבר</p>
+                </authorialNote>
+              </heading>
+              <num>34.</num>
+              <list>
+                <point eId="point_34__point_א">
+                  <num>(א)</num>
+                  <content>
+                    <p>תחילתן של הוראות <ref href="#chp_ה_sec_ב">סימן זה</ref> ביום תחילתו של צו ביטוח בריאות ממלכתי (שינוי התוספות השנייה והשלישית לחוק), התשע"ב–2012, או ביום תחילתו של צו אחר שיבוא במקומו, והן יחולו לגבי שירותי אשפוז פסיכיאטריים שרכשה קופת חולים בבית חולים פסיכיאטרי מיום תחילתן ועד יום ב׳ בטבת התשע"ז (31 בדצמבר 2016).</p>
+                  </content>
+                </point>
+                <point eId="point_34__point_ב">
+                  <num>(ב)</num>
+                  <content>
+                    <p>בשנה שבה חל מועד תחילתו של <ref href="#chp_ה_sec_ב">סימן זה</ref> כאמור בסעיף קטן (א), לעניין חישוב מספר המיטות המתוקנן ייספרו בפסקאות (1) ו־(2) להגדרה ”מספר המיטות המתוקנן“, רק ימים שלאחר מועד תחילתו של <ref href="#chp_ה_sec_ב">סימן זה</ref> ועד סוף השנה.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+          </list>
+        </section>
+      </chapter>
+      <chapter eId="chp_ו">
+        <num>פרק ו׳:</num>
+        <title>
+          <content>
+            <p>תקשורת</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_35">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>35.</num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryLegislation/2001-08-09/171095">בחוק התקשורת (בזק ושידורים), התשמ"ב–1982</ref>.</wikicomment>
+              </p>
+            </content>
+          </point>
+          <point eId="point_36">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>36.</num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryLegislation/2001-08-09/171095">בחוק התקשורת (בזק ושידורים), התשמ"ב–1982</ref>.</wikicomment>
+              </p>
+            </content>
+          </point>
+          <point eId="point_37">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>37.</num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryLegislation/2012-04-01/419715">בחוק הפצת שידורים באמצעות תחנות שידור ספרתיות, התשע"ב–2012</ref>.</wikicomment>
+              </p>
+            </content>
+          </point>
+          <point eId="point_38">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>38.</num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryLegislation/2001-08-09/171095">בחוק התקשורת (בזק ושידורים), התשמ"ב–1982</ref>.</wikicomment>
+              </p>
+            </content>
+          </point>
+          <point eId="point_39">
+            <heading>
+              <authorialNote placement="side">
+                <p>חוק התקשורת (בזק ושידורים) – תחילה</p>
+              </authorialNote>
+            </heading>
+            <num>39.</num>
+            <content>
+              <p>תחילתו של <ref href="/akn/il/act/PrimaryLegislation/2001-08-09/171095#point_6ח2">סעיף 6ח2 לחוק התקשורת</ref>, כנוסחו <ref href="#point_38">בסעיף 38(4 לחוק זה</ref>, ביום תחילתן של תקנות לעניין שיעור ההחזקה באמצעי שליטה כאמור <ref href="#point_38">באותו סעיף</ref>, שיותקנו לפי <ref href="/akn/il/act/PrimaryLegislation/2001-08-09/171095#point_6ט">סעיף 6ט(א)(5) לחוק התקשורת</ref>.</p>
+            </content>
+          </point>
+        </list>
+      </chapter>
+      <chapter eId="chp_ז">
+        <num>פרק ז׳:</num>
+        <title>
+          <content>
+            <p>מסים</p>
+          </content>
+        </title>
+        <section eId="chp_ז__sec_א">
+          <num>סימן א׳:</num>
+          <title>
+            <content>
+              <p>מס הכנסה</p>
+            </content>
+          </title>
+          <list>
+            <point eId="point_40">
+              <heading>
+                <authorialNote placement="side">
+                  <p xml:space="preserve"> </p>
+                </authorialNote>
+              </heading>
+              <num>40.</num>
+              <content>
+                <p>
+                  <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_מס_הכנסה">בפקודת מס הכנסה</ref>.</wikicomment>
+                </p>
+              </content>
+            </point>
+            <point eId="point_41">
+              <heading>
+                <authorialNote placement="side">
+                  <p>מס הכנסה – הוראת שעה</p>
+                </authorialNote>
+              </heading>
+              <num>41.</num>
+              <content>
+                <p>לעניין <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_מס_הכנסה#point_120ב">סעיף 120ב</ref> על אף הוראות <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_מס_הכנסה#point_120ב">סעיף 120ב(א) לפקודה</ref>, ב־1 בינואר של שנת המס 2014 לא יתואמו תקרות ההכנסה וסכומי נקודת הזיכוי; ב־1 בינואר של שנת 2015, יתואמו לפי הוראות <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_מס_הכנסה#point_120ב">הסעיף האמור</ref> תקרות ההכנסה וסכומי נקודת הזיכוי כפי שהיו ב־1 בינואר של שנת 2014, לפי שיעור עליית המדד בשנת המס 2014.</p>
+              </content>
+            </point>
+            <point eId="point_42">
+              <heading>
+                <authorialNote placement="side">
+                  <p>מס הכנסה – תחילה, תחולה והוראות מעבר</p>
+                </authorialNote>
+              </heading>
+              <num>42.</num>
+              <list>
+                <point eId="point_42__point_א">
+                  <num>(א)</num>
+                  <content>
+                    <p>הוראות <ref href="#chp_ז_sec_א">סימן זה</ref> יחולו על הכנסה שהופקה או נצמחה ביום התחילה ואילך, אלא אם כן נקבע אחרת בסעיף זה.</p>
+                  </content>
+                </point>
+                <point eId="point_42__point_ב">
+                  <num>(ב)</num>
+                  <list>
+                    <intro>
+                      <p>תחילתן של ההוראות כמפורט להלן, ביום כ"ט בטבת התשע"ד (1 בינואר 2014), והן יחולו על הכנסה שהופקה או נצמחה ביום האמור ואילך:</p>
+                    </intro>
+                    <point eId="point_42__point_ב__point_1">
+                      <num>(1)</num>
+                      <content>
+                        <p>
+                          <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_מס_הכנסה#point_3">סעיף 3(ג)(1) לפקודה</ref>, כנוסחו <ref href="#point_40">בסעיף 40(1) לחוק זה</ref>;</p>
+                      </content>
+                    </point>
+                    <point eId="point_42__point_ב__point_2">
+                      <num>(2)</num>
+                      <content>
+                        <p>
+                          <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_מס_הכנסה#point_64א5">סעיף 64א5(א)(4)(ג) לפקודה</ref>, כנוסחו <ref href="#point_40">בסעיף 40(4) לחוק זה</ref>;</p>
+                      </content>
+                    </point>
+                    <point eId="point_42__point_ב__point_3">
+                      <num>(3)</num>
+                      <content>
+                        <p>
+                          <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_מס_הכנסה#point_75ג">סעיפים 75ג עד 75יח לפקודה</ref>, כנוסחם <ref href="#point_40">בסעיף 40(5) עד (18) לחוק זה</ref>;</p>
+                      </content>
+                    </point>
+                    <point eId="point_42__point_ב__point_4">
+                      <num>(4)</num>
+                      <content>
+                        <p>
+                          <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_מס_הכנסה#point_92">סעיף 92(א)(4)(ב) לפקודה</ref>, כנוסחו <ref href="#point_40">בסעיף 40(19) לחוק זה</ref>;</p>
+                      </content>
+                    </point>
+                    <point eId="point_42__point_ב__point_5">
+                      <num>(5)</num>
+                      <content>
+                        <p>
+                          <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_מס_הכנסה#point_124ב">סעיפים 124ב</ref>
+                          <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_מס_הכנסה#point_126">ו־126(א) לפקודה</ref>, כנוסחם <ref href="#point_40">בסעיף 40(24) ו־(25) לחוק זה</ref>.</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+                <point eId="point_42__point_ג">
+                  <num>(ג)</num>
+                  <list>
+                    <intro>
+                      <p>על אף הוראות הרישה של <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_מס_הכנסה#point_64א">סעיף 64א(א) לפקודה</ref>, כנוסחו <ref href="#point_40">בסעיף 40(3) לחוק זה</ref>, חברה שערב יום התחילה חבריה היו בני משפחה שלפי <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_מס_הכנסה#point_76">סעיף 76(ד)(1) לפקודה</ref> רואים אותם כאדם אחד (בסעיף קטן זה – חברה משפחתית), אך לא הגישה עד המועד האמור בקשה לפקיד השומה לפי אותה רישה כנוסחה ערב יום התחילה, רשאית להגישה לפקיד השומה בתוך ארבעה חודשים מיום התחילה, ובלבד שמתקיימים בה התנאים <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_מס_הכנסה#point_64א">שבסעיף 64א(א) לפקודה</ref>, כנוסחו <ref href="#point_40">בסעיף 40(3) לחוק זה</ref>; הגישה חברה משפחתית בקשה כאמור יחולו לגביה הוראות אלה:</p>
+                    </intro>
+                    <point eId="point_42__point_ג__point_1">
+                      <num>(1)</num>
+                      <content>
+                        <p>יראו את החברה המשפחתית כחברה משפחתית זכאית, החל בשנת המס שלאחר הגשת הבקשה;</p>
+                      </content>
+                    </point>
+                    <point eId="point_42__point_ג__point_2">
+                      <num>(2)</num>
+                      <content>
+                        <p>יראו את כל העודפים שאילו היו מחולקים כדיבידנד היו חייבים במס לפי <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_מס_הכנסה#point_125ב">סעיף 125ב</ref> שנצברו בחברה עד יום כ"ח בטבת התשע"ד (31 בדצמבר 2013) (בסעיף קטן זה – יום הסיום) כאילו חולקו כדיבידנד לבעלי המניות;</p>
+                      </content>
+                    </point>
+                    <point eId="point_42__point_ג__point_3">
+                      <num>(3)</num>
+                      <list>
+                        <intro>
+                          <p>המועד לתשלום המס יהיה עד ליום י"ג בטבת התשע"ח (31 בדצמבר 2017) (בסעיף קטן זה – תקופת הדחייה), ולא יחולו עליו הפרשי הצמדה וריבית לתקופה זו; לא שולם המס עד תום תקופת הדחייה, יחולו עליו הפרשי הצמדה וריבית כמשמעותם <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_מס_הכנסה#point_159א">בסעיף 159א(א) לפקודה</ref> לתקופה שתחילתה לאחר תום תקופת הדחייה עד למועד התשלום בפועל; ואולם הוראות פסקה זו לא יחולו בהתקיים אחד מאלה, וחבר החברה יחויב במס כמפורט להלן:</p>
+                        </intro>
+                        <point eId="point_42__point_ג__point_3__point_א">
+                          <num>(א)</num>
+                          <content>
+                            <p>ניתנה הלוואה לחבר החברה בתקופת הדחייה, והוא לא החזירה בתוך שנה מיום שקיבלה – יחויב החבר במס בגין חלקו בדיבידנד כאמור בפסקה (2), בתוספת הפרשי הצמדה וריבית מיום הסיום;</p>
+                          </content>
+                        </point>
+                        <point eId="point_42__point_ג__point_3__point_ב">
+                          <num>(ב)</num>
+                          <content>
+                            <p>שולמו הכנסת עבודה, דמי ניהול, דמי ייעוץ, הפרשי הצמדה, ריבית או דיבידנד לחבר החברה, שאינם מרווחים שנצברו החל מיום כ"ט בטבת התשע"ד (1 בינואר 2014) (בפסקה זו – חלוקה), ולא שולם מס בגינם בעת החלוקה – יחויב החבר במס בגין חלקו בדיבידנד כאמור בפסקה (2);</p>
+                          </content>
+                        </point>
+                      </list>
+                    </point>
+                    <point eId="point_42__point_ג__point_4">
+                      <num>(4)</num>
+                      <list>
+                        <intro>
+                          <p>מכרה החברה המשפחתית נכסים שהיו בבעלות החברה ביום הסיום, יחויב הנישום במס בשיעור כמפורט להלן:</p>
+                        </intro>
+                        <point eId="point_42__point_ג__point_4__point_א">
+                          <num>(א)</num>
+                          <content>
+                            <p>על רווח ההון הריאלי כשהוא מוכפל ביחס שבין התקופה שמיום הרכישה עד יום הסיום לבין התקופה שמיום הרכישה ועד יום המכירה (בפסקה זו – רווח הון ריאלי עד יום הסיום) – מס בשיעור הגבוה ביותר הקבוע <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_מס_הכנסה#point_121">בסעיף 121 לפקודה</ref>;</p>
+                          </content>
+                        </point>
+                        <point eId="point_42__point_ג__point_4__point_ב">
+                          <num>(ב)</num>
+                          <content>
+                            <p>על ההפרש שבין רווח ההון הריאלי לבין רווח ההון הריאלי עד יום הסיום – מס בשיעור הקבוע <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_מס_הכנסה#point_91">בסעיף 91(ב)(1) או (2)</ref>, לפי העניין.</p>
+                          </content>
+                        </point>
+                      </list>
+                    </point>
+                  </list>
+                </point>
+                <point eId="point_42__point_ד">
+                  <num>(ד)</num>
+                  <content>
+                    <p>הוראות <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_מס_הכנסה#point_64א">סעיף 64א(א)(1) לפקודה</ref>, כנוסחו <ref href="#point_40">בסעיף 40(3) לחוק זה</ref>, יחולו על רווחים שיחולקו מהכנסות החברה המשפחתית החל מיום כ"ט בטבת התשע"ד (1 בינואר 2014) ואילך.</p>
+                  </content>
+                </point>
+                <point eId="point_42__point_ה">
+                  <num>(ה)</num>
+                  <list>
+                    <intro>
+                      <p>הוראות <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_מס_הכנסה#point_64א">סעיף 64א לפקודה</ref>, כנוסחו <ref href="#point_40">בסעיף 40(3) לחוק זה</ref>, יחולו גם על מי שהיתה חברה משפחתית זכאית כמשמעותה <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_מס_הכנסה#point_64א">באותו סעיף</ref> ערב יום התחילה (בסעיף קטן זה – חברה זכאית קיימת), בשינויים אלה:</p>
+                    </intro>
+                    <point eId="point_42__point_ה__point_1">
+                      <num>(1)</num>
+                      <content>
+                        <p>
+                          <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_מס_הכנסה#point_64א">סעיף 64א(א)(8) לפקודה</ref>, כנוסחו <ref href="#point_40">בסעיף 40(3) לחוק זה</ref>, יחול על תושב חוץ לגבי רווחים שנצברו החל מיום כ"ט בטבת התשע"ד (1 בינואר 2014), ולגבי נישום שהיה לתושב ישראל לראשונה או תושב חוזר ותיק, כאמור <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_מס_הכנסה#point_14">בסעיף 14(א) או (ג) לפקודה</ref>, החל מאותו מועד ואילך או שהוא תושב ישראל לראשונה או תושב חוזר ותיק שהפך לנישום החל מאותו מועד ואילך;</p>
+                      </content>
+                    </point>
+                    <point eId="point_42__point_ה__point_2">
+                      <num>(2)</num>
+                      <content>
+                        <p>חברה זכאית קיימת שלפני יום התחילה חדל להתקיים בנישום תנאי כאמור <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_מס_הכנסה#point_64א">בסעיף 64א(א1) לפקודה</ref> כנוסחו ערב יום התחילה, וטרם הודיעה על כך לפקיד השומה לפי <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_מס_הכנסה#point_64א">הסעיף האמור</ref>, רשאית למסור הודעה לפי <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_מס_הכנסה#point_64א">סעיף 64א(א1) לפקודה</ref>, כנוסחו <ref href="#point_40">בסעיף 40(3) לחוק זה</ref>, בתוך 120 ימים מיום התחילה;</p>
+                      </content>
+                    </point>
+                    <point eId="point_42__point_ה__point_3">
+                      <num>(3)</num>
+                      <content>
+                        <p>חברה זכאית קיימת רשאית להודיע לפקיד השומה שהיא חוזרת בה מבקשתה להיחשב כחברה משפחתית זכאית, לפי <ref href="#point_64א">סעיף 64א(ב)(1)</ref>, כנוסחו <ref href="#point_40">בסעיף 40(3) לחוק זה</ref>, בתוך 120 ימים מיום התחילה; הודיעה כאמור יחולו לגביה הוראות <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_מס_הכנסה#point_64א">הסעיף האמור</ref> כנוסחו ערב יום התחילה.</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+                <point eId="point_42__point_ו">
+                  <num>(ו)</num>
+                  <list>
+                    <point eId="point_42__point_ו__point_1">
+                      <num>(1)</num>
+                      <content>
+                        <p>הוראות <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_מס_הכנסה#chp_4_2">פרק רביעי 2 לפקודה</ref>, כנוסחו <ref href="#point_40">בסעיף 40(5) עד (18) לחוק זה</ref>, יחולו גם על נאמנות שהוקמה לפני יום כ"ט בטבת התשע"ד (1 בינואר 2014), לגבי הכנסות הנאמן שהופקו או שנצמחו ביום כ"ט בטבת התשע"ד (1 בינואר 2014) ואילך; ואולם התקופה למתן הודעה לפי <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_מס_הכנסה#point_75ח1">סעיף 75ח1(ד) לפקודה</ref>, כנוסחו <ref href="#point_40">בסעיף 40(11) לחוק זה</ref>, לעניין נאמנות כאמור, תהיה 180 ימים מיום התחילה.</p>
+                      </content>
+                    </point>
+                    <point eId="point_42__point_ו__point_2">
+                      <num>(2)</num>
+                      <content>
+                        <p>על אף האמור בפסקה (1), <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_מס_הכנסה#point_75ז">סעיף 75ז(ה) לפקודה</ref>, כנוסחו ערב יום כ"ט בטבת התשע"ד (1 בינואר 2014), יחול לגבי נאמנות שהיתה לנאמנות תושבי ישראל לאחר שיוצר אחד בה היה לתושב ישראל לראשונה, לתושב חוזר ותיק או לתושב חוזר, כאמור <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_מס_הכנסה#point_14">בסעיף 14(א) או (ג)</ref>, לפני יום התחילה; נפטר היוצר לפני תום התקופה לפי <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_מס_הכנסה#point_14">סעיפים 14(א), (ג), או (ד)</ref>, <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_מס_הכנסה#point_16">16</ref><ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_מס_הכנסה#point_97">או 97(ב) או (ב3)</ref>, לפי העניין, יחולו על הכנסת הנאמן ההוראות לפי סעיפים אלה, ובלבד שכל הנהנים הם תושבים זכאים שההוראות האמורות חלות עליהם או תושבי חוץ.</p>
+                      </content>
+                    </point>
+                    <point eId="point_42__point_ו__point_3">
+                      <num>(3)</num>
+                      <content>
+                        <p>לגבי נאמנות שהוקמה לפני יום התחילה, על אף האמור בפסקה (2) להגדרה ”חברה להחזקת נכסי נאמנות“ <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_מס_הכנסה#point_75ג">בסעיף 75ג לפקודה</ref>, כנוסחו <ref href="#point_40">בסעיף 40(5) לחוק זה</ref>, <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_מס_הכנסה#point_75ח1">ובסעיף 75ח1(ד)(3) לפקודה</ref> כנוסחו <ref href="#point_40">בסעיף 40(11) לחוק זה</ref>, המועד למסירת הודעה לפקיד השומה כאמור באותן הוראות הוא במועד הגשת הדוח לפי <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_מס_הכנסה#point_131">סעיף 131 לפקודה</ref> לשנת המס הראשונה החל מיום פרסומו של חוק זה.</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+                <point eId="point_42__point_ז">
+                  <num>(ז)</num>
+                  <content>
+                    <p>הוראות <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_מס_הכנסה#point_100א1">סעיף 100א1 לפקודה</ref>, כנוסחו <ref href="#point_40">בסעיף 40(22) לחוק זה</ref>, יחולו על נכסים מחוץ לישראל ביום כניסתן לתוקף של תקנות שיותקנו על ידי שר האוצר, באישור ועדת הכספים של הכנסת, ויקבעו הוראות למניעת מסי כפל כמשמעותם <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_מס_הכנסה#point_200">בסעיף 200 לפקודה</ref>; לעניין זה, ”ישראל“ – לרבות האזור.</p>
+                  </content>
+                </point>
+                <point eId="point_42__point_ח">
+                  <num>(ח)</num>
+                  <content>
+                    <p>
+                      <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_מס_הכנסה#point_191">סעיף 191 לפקודה</ref>, כנוסחו <ref href="#point_40">בסעיף 40(29) לחוק זה</ref>, יחול לגבי גירעון שנקבע בשל דוח שהוגש לפי <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_מס_הכנסה#point_131">סעיף 131 לפקודה</ref>, לשנת המס 2013 ואילך.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+          </list>
+        </section>
+        <section eId="chp_ז__sec_ב">
+          <num>סימן ב׳:</num>
+          <title>
+            <content>
+              <p>מיסוי מקרקעין</p>
+            </content>
+          </title>
+          <list>
+            <point eId="point_43">
+              <heading>
+                <authorialNote placement="side">
+                  <p xml:space="preserve"> </p>
+                </authorialNote>
+              </heading>
+              <num>43.</num>
+              <content>
+                <p>
+                  <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryLegislation/2008-02-18/262875">בחוק מיסוי מקרקעין (שבח ורכישה), התשכ"ג–1963</ref>.</wikicomment>
+                </p>
+              </content>
+            </point>
+            <point eId="point_44">
+              <heading>
+                <authorialNote placement="side">
+                  <p>מיסוי מקרקעין – תחילה, תחולה והוראות מעבר</p>
+                </authorialNote>
+              </heading>
+              <num>44.</num>
+              <list>
+                <point eId="point_44__point_א">
+                  <num>(א)</num>
+                  <list>
+                    <point eId="point_44__point_א__point_1">
+                      <num>(1)</num>
+                      <list>
+                        <intro>
+                          <p>בסעיף זה –</p>
+                        </intro>
+                        <point eId="point_44__point_א__point_1__point_דירת_מגורים_מזכה">
+                          <content>
+                            <p>
+                              <def />”דירת מגורים מזכה“ – כהגדרתה <ref href="/akn/il/act/PrimaryLegislation/2008-02-18/262875#point_49">בסעיף 49(א) לחוק מיסוי מקרקעין</ref>;</p>
+                          </content>
+                        </point>
+                        <point eId="point_44__point_א__point_1__point_יום_המעבר">
+                          <content>
+                            <p>
+                              <def />”יום המעבר“ – כ"ט בטבת התשע"ד (1 בינואר 2014);</p>
+                          </content>
+                        </point>
+                        <point eId="point_44__point_א__point_1__point_תקופת_המעבר">
+                          <content>
+                            <p>
+                              <def />”תקופת המעבר“ – התקופה שמיום המעבר ועד יום י"ג בטבת התשע"ח (31 בדצמבר 2017).</p>
+                          </content>
+                        </point>
+                      </list>
+                    </point>
+                    <point eId="point_44__point_א__point_2">
+                      <num>(2)</num>
+                      <content>
+                        <p>לעניין סעיף זה יחולו הוראות <ref href="/akn/il/act/PrimaryLegislation/2008-02-18/262875#point_49">סעיף 49(ב) לחוק מיסוי מקרקעין</ref>.</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+                <point eId="point_44__point_ב">
+                  <num>(ב)</num>
+                  <content>
+                    <p>הוראות <ref href="#chp_ז_sec_ב">סימן זה</ref> יחולו על מכירת זכות במקרקעין או פעולה באיגוד מקרקעין שנעשו ביום התחילה ואילך, אלא אם כן נקבע אחרת בסעיף זה.</p>
+                  </content>
+                </point>
+                <point eId="point_44__point_ג">
+                  <num>(ג)</num>
+                  <content>
+                    <p>תחילתם של <ref href="/akn/il/act/PrimaryLegislation/2008-02-18/262875#point_47">סעיפים 47</ref>, <ref href="/akn/il/act/PrimaryLegislation/2008-02-18/262875#point_48א">48א</ref>, <ref href="/akn/il/act/PrimaryLegislation/2008-02-18/262875#point_49א">49א(א) ו־(א1)</ref><ref href="/akn/il/act/PrimaryLegislation/2008-02-18/262875#point_49ב">ו־49ב עד 49ו לחוק מיסוי מקרקעין</ref>, כנוסחם <ref href="#point_43">בסעיף 43(5) עד (12) לחוק זה</ref>, ביום המעבר, והם יחולו על מכירת זכות במקרקעין ביום האמור ואילך.</p>
+                  </content>
+                </point>
+                <point eId="point_44__point_ד">
+                  <num>(ד)</num>
+                  <list>
+                    <intro>
+                      <p>על אף הוראות סעיף קטן (ג), במכירת דירת מגורים מזכה בתקופת המעבר יחולו הוראות אלה:</p>
+                    </intro>
+                    <point eId="point_44__point_ד__point_1">
+                      <num>(1)</num>
+                      <list>
+                        <intro>
+                          <p>
+                            <ref href="/akn/il/act/PrimaryLegislation/2008-02-18/262875#point_48א">סעיף 48א(ב2) לחוק מיסוי מקרקעין</ref>, כנוסחו <ref href="#point_43">בסעיף 43(6)(ב) לחוק זה</ref>, יחול על מוכר אחד לגבי מכירת שתי דירות מגורים מזכות, בלבד, ובלבד שמתקיימים כל אלה:</p>
+                        </intro>
+                        <point eId="point_44__point_ד__point_1__point_א">
+                          <num>(א)</num>
+                          <content>
+                            <p>במכירה של לפחות אחת משתי דירות המגורים בתקופת המעבר, המוכר היה זכאי לפטור ממס לפי <ref href="/akn/il/act/PrimaryLegislation/2008-02-18/262875#point_49ב">סעיף 49ב(1) לחוק מיסוי מקרקעין</ref>, כנוסחו ערב יום המעבר, אילו <ref href="/akn/il/act/PrimaryLegislation/2008-02-18/262875#point_49ב">הסעיף האמור</ref> היה עומד בתוקפו במועד המכירה כאמור;</p>
+                          </content>
+                        </point>
+                        <point eId="point_44__point_ד__point_1__point_ב">
+                          <num>(ב)</num>
+                          <content>
+                            <p>במכירה של דירת מגורים שנתקבלה במתנה לפני יום המעבר, מתקיימים התנאים הקבועים <ref href="/akn/il/act/PrimaryLegislation/2008-02-18/262875#point_49ו">בסעיף 49ו לחוק מיסוי מקרקעין</ref>, כנוסחו ערב יום המעבר;</p>
+                          </content>
+                        </point>
+                        <point eId="point_44__point_ד__point_1__point_ג">
+                          <num>(ג)</num>
+                          <content>
+                            <p>המכירות אינן לקרוב כהגדרתו <ref href="/akn/il/act/PrimaryLegislation/2008-02-18/262875#point_1">בסעיף 1 לחוק מיסוי מקרקעין</ref>, בין בתמורה ובין שלא בתמורה, למעט חלוקת נכסי עיזבון בין יורשים, כמשמעותה <ref href="/akn/il/act/PrimaryLegislation/2008-02-18/262875#point_5">בסעיף 5(ג)(4) לחוק מיסוי מקרקעין</ref>, שבמסגרתה ניתנה תמורה בכסף, או בשווה כסף שאינו נכס הנמנה עם נכסי העיזבון;</p>
+                          </content>
+                        </point>
+                      </list>
+                    </point>
+                    <point eId="point_44__point_ד__point_2">
+                      <num>(2)</num>
+                      <content>
+                        <p>על מכירת דירת מגורים מזכה בתקופת המעבר שהוראות פסקה (1) לא חלות לגביה, יחולו הוראות <ref href="/akn/il/act/PrimaryLegislation/2008-02-18/262875#point_48א">סעיף 48א לחוק מיסוי מקרקעין</ref>, כנוסחו ערב יום המעבר;</p>
+                      </content>
+                    </point>
+                    <point eId="point_44__point_ד__point_3">
+                      <num>(3)</num>
+                      <content>
+                        <p>במכירת דירת מגורים מזכה בתקופת המעבר על ידי מוכר שקיבל את הדירה כמתנה פטורה ממס לפי <ref href="/akn/il/act/PrimaryLegislation/2008-02-18/262875#point_62">סעיף 62 לחוק מיסוי מקרקעין</ref> בתקופה שמיום התחילה עד תום תקופת המעבר, יראו את נותן המתנה, לעניין פסקאות (1) ו־(2) כאילו הוא המוכר;</p>
+                      </content>
+                    </point>
+                    <point eId="point_44__point_ד__point_4">
+                      <num>(4)</num>
+                      <content>
+                        <p>במכירת דירת מגורים מזכה בתקופת המעבר, לא יחול <ref href="/akn/il/act/PrimaryLegislation/2008-02-18/262875#point_49ב">סעיף 49ב(2) לחוק מיסוי מקרקעין</ref>, כנוסחו <ref href="#point_43">בסעיף 43(8)(ב) לחוק זה</ref>, על מי שביום המעבר היתה לו יותר מדירת מגורים אחת בישראל ובאזור כהגדרתו <ref href="/akn/il/act/PrimaryLegislation/2008-02-18/262875#point_16א">בסעיף 16א לחוק מיסוי מקרקעין</ref>; לעניין מניין הדירות כאמור תחול החזקה <ref href="/akn/il/act/PrimaryLegislation/2008-02-18/262875#point_49ג">שבסעיף 49ג לחוק מיסוי מקרקעין</ref>.</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+                <point eId="point_44__point_ה">
+                  <num>(ה)</num>
+                  <content>
+                    <p>
+                      <ref href="/akn/il/act/PrimaryLegislation/2008-02-18/262875#point_95">סעיף 95 לחוק מיסוי מקרקעין</ref>, כנוסחו <ref href="#point_43">בסעיף 43(18) לחוק זה</ref>, יחול לגבי גירעון שנקבע בשל הצהרה שהוגשה לפי <ref href="/akn/il/act/PrimaryLegislation/2008-02-18/262875#chp_7">הפרק השביעי</ref>, לשנת המס 2013 ואילך.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+          </list>
+        </section>
+        <section eId="chp_ז__sec_ג">
+          <num>סימן ג׳:</num>
+          <title>
+            <content>
+              <p>מס ערך מוסף</p>
+            </content>
+          </title>
+          <list>
+            <point eId="point_45">
+              <heading>
+                <authorialNote placement="side">
+                  <p xml:space="preserve"> </p>
+                </authorialNote>
+              </heading>
+              <num>45.</num>
+              <content>
+                <p>
+                  <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryLegislation/1976-01-06/147931">בחוק מס ערך מוסף, התשל"ו–1975</ref>.</wikicomment>
+                </p>
+              </content>
+            </point>
+            <point eId="point_46">
+              <heading>
+                <authorialNote placement="side">
+                  <p>מס ערך מוסף – תחילה ותחולה</p>
+                </authorialNote>
+              </heading>
+              <num>46.</num>
+              <list>
+                <point eId="point_46__point_א">
+                  <num>(א)</num>
+                  <content>
+                    <p>תחילתם של <ref href="/akn/il/act/PrimaryLegislation/1976-01-06/147931#point_67א">סעיפים 67א</ref><ref href="/akn/il/act/PrimaryLegislation/1976-01-06/147931#point_129">ו־129(ב) לחוק מס ערך מוסף</ref>, כנוסחם <ref href="#point_45">בסעיף 45(2) ו־(6) לחוק זה</ref>, ביום כ"ט בטבת התשע"ד (1 בינואר 2014).</p>
+                  </content>
+                </point>
+                <point eId="point_46__point_ב">
+                  <num>(ב)</num>
+                  <content>
+                    <p>
+                      <ref href="/akn/il/act/PrimaryLegislation/1976-01-06/147931#point_96ב">סעיף 96ב לחוק מס ערך מוסף</ref>, כנוסחו <ref href="#point_45">בסעיף 45(4) לחוק זה</ref>, יחול לגבי גירעון שנקבע בשל דוח שהוגש לפי <ref href="/akn/il/act/PrimaryLegislation/1976-01-06/147931#point_67">סעיפים 67</ref><ref href="/akn/il/act/PrimaryLegislation/1976-01-06/147931#point_67א">ו־67א לחוק מס ערך מוסף</ref>, לשנת המס 2013 ואילך.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+          </list>
+        </section>
+        <section eId="chp_ז__sec_ד">
+          <num>סימן ד׳:</num>
+          <title>
+            <content>
+              <p>בלו</p>
+            </content>
+          </title>
+          <list>
+            <point eId="point_47">
+              <heading>
+                <authorialNote placement="side">
+                  <p xml:space="preserve"> </p>
+                </authorialNote>
+              </heading>
+              <num>47.</num>
+              <content>
+                <p>
+                  <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryLegislation/1958-07-24/147046">בחוק הבלו על דלק, התשי"ח–1958</ref>.</wikicomment>
+                </p>
+              </content>
+            </point>
+          </list>
+        </section>
+        <section eId="chp_ז__sec_ה">
+          <num>סימן ה׳:</num>
+          <title>
+            <content>
+              <p>חלפני כספים</p>
+            </content>
+          </title>
+          <list>
+            <point eId="point_48">
+              <heading>
+                <authorialNote placement="side">
+                  <p xml:space="preserve"> </p>
+                </authorialNote>
+              </heading>
+              <num>48.</num>
+              <content>
+                <p>
+                  <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_מס_הכנסה">בפקודת מס הכנסה</ref> כהוראת שעה.</wikicomment>
+                </p>
+              </content>
+            </point>
+          </list>
+        </section>
+        <section eId="chp_ז__sec_ו">
+          <num>סימן ו׳:</num>
+          <title>
+            <content>
+              <p>חוקים נוספים</p>
+            </content>
+          </title>
+          <list>
+            <point eId="point_49">
+              <heading>
+                <authorialNote placement="side">
+                  <p xml:space="preserve"> </p>
+                </authorialNote>
+              </heading>
+              <num>49.</num>
+              <content>
+                <p>
+                  <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_מס_הכנסה">בפקודת מס הכנסה</ref>.</wikicomment>
+                </p>
+              </content>
+            </point>
+            <point eId="point_50">
+              <heading>
+                <authorialNote placement="side">
+                  <p xml:space="preserve"> </p>
+                </authorialNote>
+              </heading>
+              <num>50.</num>
+              <content>
+                <p>
+                  <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryLegislation/2011-01-06/391215">בחוק המדיניות הכלכלית לשנים 2011 ו־2012 (תיקוני חקיקה), התשע"א–2011</ref>.</wikicomment>
+                </p>
+              </content>
+            </point>
+            <point eId="point_51">
+              <heading>
+                <authorialNote placement="side">
+                  <p xml:space="preserve"> </p>
+                </authorialNote>
+              </heading>
+              <num>51.</num>
+              <content>
+                <p>
+                  <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryLegislation/1959-09-15/148127">בחוק לעידוד השקעות הון, התשי"ט–1959</ref>.</wikicomment>
+                </p>
+              </content>
+            </point>
+            <point eId="point_52">
+              <heading>
+                <authorialNote placement="side">
+                  <p>חוק לעידוד השקעות הון – תחילה ותחולה</p>
+                </authorialNote>
+              </heading>
+              <num>52.</num>
+              <list>
+                <point eId="point_52__point_א">
+                  <num>(א)</num>
+                  <content>
+                    <p>תחילתם של <ref href="/akn/il/act/PrimaryLegislation/1959-09-15/148127#point_47">סעיפים 47(ב)(2)(א)</ref>, <ref href="/akn/il/act/PrimaryLegislation/1959-09-15/148127#point_51ב">51ב(ג)(1)</ref>, <ref href="/akn/il/act/PrimaryLegislation/1959-09-15/148127#point_51טז">51טז</ref><ref href="/akn/il/act/PrimaryLegislation/1959-09-15/148127#point_51יח">ו־51יח</ref>, <ref href="/akn/il/act/PrimaryLegislation/1959-09-15/148127">לחוק לעידוד השקעות הון</ref>, כנוסחם <ref href="#point_51">בסעיף 51(1) עד (4) לחוק זה</ref>, ביום כ"ט בטבת התשע"ד (1 בינואר 2014).</p>
+                  </content>
+                </point>
+                <point eId="point_52__point_ב">
+                  <num>(ב)</num>
+                  <list>
+                    <intro>
+                      <p>
+                        <ref href="/akn/il/act/PrimaryLegislation/1959-09-15/148127#point_47">סעיף 47(ב)(2)(א) לחוק לעידוד השקעות הון</ref>, כנוסחו <ref href="#point_51">בסעיף 51(1) לחוק זה</ref>, יחול לגבי דיבידנד שיחולק ביום כ"ט בטבת התשע"ד (1 בינואר 2014) ואילך, מהכנסה של חברה כמפורט להלן:</p>
+                    </intro>
+                    <point eId="point_52__point_ב__point_1">
+                      <num>(1)</num>
+                      <content>
+                        <p>חברה שהיא בעלת מפעל מאושר שהוא מפעל תיירותי כהגדרתו <ref href="/akn/il/act/PrimaryLegislation/1959-09-15/148127#point_40א">בסעיף 40א לחוק לעידוד השקעות הון</ref>, שקיבלה מענק בשל הקמת מפעל לראשונה או בשל הרחבה קודמת שלו, והתכנית להקמת המפעל או התכנית להרחבה הקודמת שלו אושרה בידי המנהלה ביום כ"ט בטבת התשע"ד (1 בינואר 2014) ואילך;</p>
+                      </content>
+                    </point>
+                    <point eId="point_52__point_ב__point_2">
+                      <num>(2)</num>
+                      <content>
+                        <p>חברה שהיא בעלת מפעל חקלאי מאושר, כהגדרתו <ref href="/akn/il/act/PrimaryLegislation/1980-12-31/148106">בחוק לעידוד השקעות הון בחקלאות, התשמ"א–1980</ref> – לגבי הכנסתה שהושגה בתקופת ההטבות כמשמעותה <ref href="/akn/il/act/PrimaryLegislation/1980-12-31/148106#point_34">בסעיפים 34</ref><ref href="/akn/il/act/PrimaryLegislation/1980-12-31/148106#point_35א">או 35א לחוק האמור</ref> שתחילתה בתכנית שאושרה, כאמור <ref href="/akn/il/act/PrimaryLegislation/1980-12-31/148106#point_18">בסעיף 18 לאותו חוק</ref>, ביום כ"ט בטבת התשע"ד (1 בינואר 2014) ואילך.</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+                <point eId="point_52__point_ג">
+                  <num>(ג)</num>
+                  <content>
+                    <p>
+                      <ref href="/akn/il/act/PrimaryLegislation/1959-09-15/148127#point_51ב">סעיף 51ב(ג)(1) לחוק לעידוד השקעות הון</ref>, כנוסחו <ref href="#point_51">בסעיף 51(2) לחוק זה</ref>, יחול לגבי דיבידנד שיחולק החל ביום כ"ט בטבת התשע"ד (1 בינואר 2014), מהכנסה של חברה מוטבת שהיא בעלת מפעל מוטב כהגדרתם <ref href="/akn/il/act/PrimaryLegislation/1959-09-15/148127#point_51">בסעיף 51 לחוק האמור</ref>, שהושגה בתקופת ההטבות שתחילתה בשנת בחירה, כמשמעותה <ref href="/akn/il/act/PrimaryLegislation/1959-09-15/148127#point_51ד">בסעיף 51ד לאותו חוק</ref>, שהיא שנת המס 2014 ואילך.</p>
+                  </content>
+                </point>
+                <point eId="point_52__point_ד">
+                  <num>(ד)</num>
+                  <content>
+                    <p>
+                      <ref href="/akn/il/act/PrimaryLegislation/1959-09-15/148127#point_51טז">סעיפים 51טז</ref>
+                      <ref href="/akn/il/act/PrimaryLegislation/1959-09-15/148127#point_51יח">ו־51יח לחוק עידוד השקעות הון</ref>, כנוסחם <ref href="#point_51">בסעיף 51(3) ו־(4) לחוק זה</ref>, יחולו לגבי הכנסה שהופקה או נצמחה, ודיבידנד שיחולק, לפי העניין, ביום כ"ט בטבת התשע"ד (1 בינואר 2014) ואילך.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_53">
+              <heading>
+                <authorialNote placement="side">
+                  <p xml:space="preserve"> </p>
+                </authorialNote>
+              </heading>
+              <num>53.</num>
+              <content>
+                <p>
+                  <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryLegislation/1969-07-25/148141">בחוק עידוד התעשייה (מסים), התשכ"ט–1969</ref>.</wikicomment>
+                </p>
+              </content>
+            </point>
+            <point eId="point_54">
+              <heading>
+                <authorialNote placement="side">
+                  <p xml:space="preserve"> </p>
+                </authorialNote>
+              </heading>
+              <num>54.</num>
+              <content>
+                <p>
+                  <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryLegislation/1985-08-07/150632">בחוק אזור סחר חופשי באילת (פטורים והנחות ממסים), התשמ"ה–1985</ref>.</wikicomment>
+                </p>
+              </content>
+            </point>
+            <point eId="point_55">
+              <heading>
+                <authorialNote placement="side">
+                  <p xml:space="preserve"> </p>
+                </authorialNote>
+              </heading>
+              <num>55.</num>
+              <content>
+                <p>
+                  <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryLegislation/1980-01-17/147935">בחוק קיזוז מסים, התש"ם–1980</ref>.</wikicomment>
+                </p>
+              </content>
+            </point>
+          </list>
+        </section>
+      </chapter>
+      <chapter eId="chp_ח">
+        <num>פרק ח׳:</num>
+        <title>
+          <content>
+            <p>ביטוח לאומי</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_56">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>56.</num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryLegislation/1995-05-15/158093">בחוק הביטוח הלאומי [נוסח משולב], התשנ"ה–1995</ref>.</wikicomment>
+              </p>
+            </content>
+          </point>
+          <point eId="point_57">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>57.</num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryLegislation/1995-05-15/158093">בחוק הביטוח הלאומי [נוסח משולב], התשנ"ה–1995</ref> כהוראת שעה.</wikicomment>
+              </p>
+            </content>
+          </point>
+          <point eId="point_58">
+            <heading>
+              <authorialNote placement="side">
+                <p>חוק הביטוח הלאומי – תחילה ותחולה</p>
+              </authorialNote>
+            </heading>
+            <num>58.</num>
+            <list>
+              <point eId="point_58__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>
+                    <ref href="/akn/il/act/PrimaryLegislation/1995-05-15/158093#point_1">סעיף 1 לחוק הביטוח הלאומי</ref>, כנוסחו <ref href="#point_56">בסעיף 56(1) לחוק זה</ref>, יחול לעניין קצבת ילדים המשתלמת בעד יום התחילה ואילך.</p>
+                </content>
+              </point>
+              <point eId="point_58__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>תחילתו של <ref href="/akn/il/act/PrimaryLegislation/1995-05-15/158093#point_66">סעיף 66 לחוק הביטוח הלאומי</ref> כנוסחו <ref href="#point_56">בסעיף 56(2) לחוק זה</ref>, ביום כ"ט בטבת התשע"ד (1 בינואר 2014), והוא יחול על הורה מבוטח הזכאי לקצבת ילדים המשתלמת בעד היום האמור ואילך.</p>
+                </content>
+              </point>
+              <point eId="point_58__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>
+                    <ref href="/akn/il/act/PrimaryLegislation/1995-05-15/158093#point_68">סעיף 68 לחוק הביטוח הלאומי</ref> כנוסחו <ref href="#point_56">בסעיף 56(3) לחוק זה</ref>, יחול על קצבת ילדים המשתלמת בעד יום התחילה ואילך.</p>
+                </content>
+              </point>
+              <point eId="point_58__point_ד">
+                <num>(ד)</num>
+                <content>
+                  <p>תחילתו של <ref href="/akn/il/act/PrimaryLegislation/1995-05-15/158093#point_328">סעיף 328(א1) לחוק הביטוח הלאומי</ref> כנוסחו <ref href="#point_56">בסעיף 56(4) לחוק זה</ref>, ביום כ"ט בטבת התשע"ד (1 בינואר 2014), והוא יחול על ביצוע ניכוי, או על ניכוי שמבטח או צד שלישי מבוטח היו רשאים לנכות כאמור <ref href="#point_56">באותו סעיף</ref>, מאותו מועד ואילך.</p>
+                </content>
+              </point>
+              <point eId="point_58__point_ה">
+                <num>(ה)</num>
+                <content>
+                  <p>תחילתו של <ref href="/akn/il/act/PrimaryLegislation/1995-05-15/158093#לוח_ב">לוח ב׳ לחוק הביטוח הלאומי</ref> כנוסחו <ref href="#point_56">בסעיף 56(6) לחוק זה</ref>, ביום כ"ט בטבת התשע"ד (1 בינואר 2014) והוא יחול על הקצבות אוצר המדינה המשתלמות בעד היום האמור ואילך.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+        </list>
+      </chapter>
+      <chapter eId="chp_ט">
+        <num>פרק ט׳:</num>
+        <title>
+          <content>
+            <p>מים</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_59">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>59.</num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryLegislation/2001-07-31/171078">בחוק תאגידי מים וביוב, התשס"א–2001</ref>.</wikicomment>
+              </p>
+            </content>
+          </point>
+          <point eId="point_60">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>60.</num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryLegislation/2000-06-11/169660">בחוק בתי משפט לעניינים מינהליים, התש"ס–2000</ref>.</wikicomment>
+              </p>
+            </content>
+          </point>
+          <point eId="point_61">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>61.</num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryLegislation/1992-03-12/174451">בחוק חובת המכרזים, התשנ"ב–1992</ref>.</wikicomment>
+              </p>
+            </content>
+          </point>
+          <point eId="point_62">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>62.</num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryLegislation/2009-07-23/325830">בחוק ההתייעלות הכלכלית (תיקוני חקיקה ליישום התכנית הכלכלית לשנים 2009 ו־2010), התשס"ט–2009</ref>.</wikicomment>
+              </p>
+            </content>
+          </point>
+          <point eId="point_63">
+            <heading>
+              <authorialNote placement="side">
+                <p>פרק ט׳ – תחילה, הוראות מעבר ותקנות וכללים ראשונים</p>
+              </authorialNote>
+            </heading>
+            <num>63.</num>
+            <list>
+              <point eId="point_63__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>תחילתם של <ref href="/akn/il/act/PrimaryLegislation/2001-07-31/171078#point_130">סעיפים 130 עד 133א</ref><ref href="/akn/il/act/PrimaryLegislation/2001-07-31/171078#point_137">ו־137 לחוק תאגידי מים וביוב</ref>, כנוסחם <ref href="#point_59">בסעיף 59(26) עד (33) לחוק זה</ref>, ביום ג׳ בטבת התשע"ז (1 בינואר 2017) ואולם תחילתם של <ref href="/akn/il/act/PrimaryLegislation/2001-07-31/171078#point_130">סעיפים 130(ב)(3א) ו־(ג) לחוק תאגידי מים וביוב</ref> כנוסחם <ref href="#point_59">בסעיף 59(26)(ב) ו־(ג)</ref>, ביום שבו הותקנו כללים לפי <ref href="/akn/il/act/PrimaryLegislation/2001-07-31/171078#point_131א">סעיף 131א לחוק תאגידי מים וביוב</ref>, כנוסחו <ref href="#point_59">בסעיף 59(29) לחוק זה</ref>; על דרישות תשלום לפי <ref href="/akn/il/act/PrimaryLegislation/2001-07-31/171078#point_133">סעיף 133 לחוק תאגידי מים וביוב</ref> שהוצאו לפני המועד האמור יחולו הוראות <ref href="/akn/il/act/PrimaryLegislation/2001-07-31/171078#point_130">סעיפים 130 עד 137 לחוק האמור</ref>, כנוסחם ערב אותו מועד.</p>
+                </content>
+              </point>
+              <point eId="point_63__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>תחילתו של <ref href="/akn/il/act/PrimaryLegislation/2001-07-31/171078#point_6ג">סעיף 6ג(ד) לחוק תאגידי מים וביוב</ref>, כנוסחו <ref href="#point_59">בסעיף 59(3) לחוק זה</ref>, ביום י׳ בטבת התשע"ה (1 בינואר 2015).</p>
+                </content>
+              </point>
+              <point eId="point_63__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>
+                    <wikicomment font-size="x-small">(בוטל).</wikicomment>
+                  </p>
+                </content>
+              </point>
+              <point eId="point_63__point_ד">
+                <num>(ד)</num>
+                <content>
+                  <p>על אף האמור <ref href="/akn/il/act/PrimaryLegislation/2001-07-31/171078#point_26">בסעיף 26(ג)(2) ו־(3) ו־(ד) לחוק תאגידי מים וביוב</ref>, כנוסחו <ref href="#point_59">בסעיף 59(9) לחוק זה</ref>, חברה רשאית להמשיך את שאילת העובדים שהושאלו כאמור באותו סעיף עד ליום א׳ באדר א׳ התשע"ד (1 בפברואר 2014), או עד למועד שאישר הממונה כאמור <ref href="/akn/il/act/PrimaryLegislation/2001-07-31/171078#point_26">באותו סעיף</ref> לשאילת העובדים, לפי המאוחר, ובלבד שהגישה את בקשתה לפי <ref href="/akn/il/act/PrimaryLegislation/2001-07-31/171078#point_26">סעיף 26(ד) האמור</ref> עד יום כ"ח בחשוון התשע"ד (1 בנובמבר 2013).</p>
+                </content>
+              </point>
+              <point eId="point_63__point_ה">
+                <num>(ה)</num>
+                <content>
+                  <p>הוראות <ref href="/akn/il/act/PrimaryLegislation/2001-07-31/171078#point_63">סעיף 63(א) לחוק תאגידי מים וביוב</ref>, כנוסחו ערב יום תחילתו של חוק זה, בדבר הרכב הדירקטוריון, ימשיכו לחול על חברה שערב יום התחילה כיהנו בה תשעה חברי דירקטוריון, עד למועד שבו לראשונה לאחר תחילתו של חוק זה תסתיים תקופת כהונתו של דירקטור שהוא חבר מועצה או עובד של רשות מקומית.</p>
+                </content>
+              </point>
+              <point eId="point_63__point_ו">
+                <num>(ו)</num>
+                <content>
+                  <p>כללים ראשונים לפי <ref href="/akn/il/act/PrimaryLegislation/2001-07-31/171078#point_6ג">סעיפים 6ג(ג)(1)</ref><ref href="/akn/il/act/PrimaryLegislation/2001-07-31/171078#point_73">ו־73(ב) לחוק תאגידי מים וביוב</ref>, כנוסחם <ref href="#point_59">בסעיף 59(3) ו־(22) לחוק זה</ref>, ייקבעו עד יום כ"ח בטבת התשע"ד (31 בדצמבר 2013).</p>
+                </content>
+              </point>
+              <point eId="point_63__point_ז">
+                <num>(ז)</num>
+                <content>
+                  <p>תקנות ראשונות לפי <ref href="/akn/il/act/PrimaryLegislation/2001-07-31/171078#point_6ט">סעיף 6ט(ב) לחוק תאגידי מים וביוב</ref>, כנוסחו <ref href="#point_59">בסעיף 59(3) לחוק זה</ref>, יובאו לאישור ועדת הכלכלה של הכנסת עד יום ט׳ בטבת התשע"ה (31 בדצמבר 2014).</p>
+                </content>
+              </point>
+              <point eId="point_63__point_ח">
+                <num>(ח)</num>
+                <content>
+                  <p>כללים ראשונים לפי <ref href="/akn/il/act/PrimaryLegislation/1992-03-12/174451#point_5">סעיף 5(ב1) לחוק חובת המכרזים, התשנ"ב–1992</ref>, כנוסחו <ref href="#point_61">בסעיף 61 לחוק זה</ref>, ייקבעו עד ליום ט׳ בטבת התשע"ה (31 בדצמבר 2014); עד לקביעת כללים כאמור רשאית חברה להתקשר, לצורך רכישת טובין, לביצוע עבודה או לרכישת שירות, עם מי שזכה במכרז שפרסם גוף ציבורי שמאגד את רוב הרשויות המקומיות והמוסמך לפעול מטעמן, והכול לפי הוראות הממונה באישור מועצת הרשות.</p>
+                </content>
+              </point>
+              <point eId="point_63__point_ט">
+                <num>(ט)</num>
+                <content>
+                  <p>בסעיף זה, ”הממונה“, ”חברה“, ”חברה אזורית“ ו”מועצת הרשות“ – כהגדרתם <ref href="/akn/il/act/PrimaryLegislation/2001-07-31/171078">בחוק תאגידי מים וביוב</ref>.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+        </list>
+      </chapter>
+      <chapter eId="chp_י">
+        <num>פרק י׳:</num>
+        <title>
+          <content>
+            <p>תחילה</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_64">
+            <heading>
+              <authorialNote placement="side">
+                <p>תחילה</p>
+              </authorialNote>
+            </heading>
+            <num>64.</num>
+            <content>
+              <p>תחילתו של חוק זה ביום כ"ה באב התשע"ג (1 באוגוסט 2013) (בחוק זה – יום התחילה), אלא אם כן נקבע בו אחרת.</p>
+            </content>
+          </point>
+        </list>
+      </chapter>
+    </body>
+    <conclusions eId="eId">
+      <p class="signatures">
+        <signature>
+          <p>
+            <person refersTo="בנימין_נתניהו">בנימין נתניהו</person>
+            <role refersTo="ראש_הממשלה">ראש הממשלה</role>
+          </p>
+        </signature>
+        <signature>
+          <p>
+            <person refersTo="יאיר_לפיד">יאיר לפיד</person>
+            <role refersTo="שר_האוצר">שר האוצר</role>
+          </p>
+        </signature>
+        <signature>
+          <p>
+            <person refersTo="שמעון_פרס">שמעון פרס</person>
+            <role refersTo="נשיא_המדינה">נשיא המדינה</role>
+          </p>
+        </signature>
+        <signature>
+          <p>
+            <person refersTo="יולי_יואל_אדלשטיין">יולי יואל אדלשטיין</person>
+            <role refersTo="יושב_ראש_הכנסת">יושב ראש הכנסת</role>
+          </p>
+        </signature>
+      </p>
+    </conclusions>
+  </act>
+</akomaNtoso>

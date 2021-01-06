@@ -1,0 +1,3731 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion" name="publicLaw">
+    <meta>
+      <identification source="#kensset">
+        <FRBRWork>
+          <FRBRthis value="/akn/il/act/PrimaryLegislation/2016-03-06/482355/main" />
+          <FRBRuri value="/akn/il/act/PrimaryLegislation/2016-03-06/482355" />
+          <FRBRdate date="2016-03-06" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRcountry value="israel" />
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/il/act/PrimaryLegislation/2016-03-06/482355/he@/main" />
+          <FRBRuri value="/akn/il/act/PrimaryLegislation/2016-03-06/482355/he@" />
+          <FRBRdate date="2016-03-06" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRlanguage language="hebrew" />
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/il/act/PrimaryLegislation/2016-03-06/482355/he@/main.xml" />
+          <FRBRuri value="/akn/il/act/PrimaryLegislation/2016-03-06/482355/he@" />
+          <FRBRdate date="2016-03-06" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRformat value="xml" />
+        </FRBRManifestation>
+      </identification>
+      <classification source="#kensset">
+        <keyword value="{classificationValue}" showAs="{classificationValue}" dictionary="#classification_dictionary" />
+      </classification>
+      <lifecycle source="#kensset">
+        <eventRef eId="eventRef_1" date="2016-03-06" source="#kensset" type="generation" />
+      </lifecycle>
+      <references source="#kensset">
+        <TLCOrganization eId="kensset" href="/ontology/organization/akn/knesset" showAs="Kensset" type="generation" />
+        <TLCRole eId="author" href="/ontology/role/akn/author" showAs="Author of Document" />
+        <TLCProcess eId="inforce" href="/ontology/process/akn/inforce" showAs="In force" />
+        <TLCTerm eId="term_1" href="/ontology/term/אומן/482355" showAs="אומן" />
+        <TLCTerm eId="term_2" href="/ontology/term/אומנה/482355" showAs="אומנה" />
+        <TLCTerm eId="term_3" href="/ontology/term/בית_משפט/482355" showAs="בית_משפט" />
+        <TLCTerm eId="term_4" href="/ontology/term/גוף_מפעיל/482355" showAs="גוף_מפעיל" />
+        <TLCTerm eId="term_5" href="/ontology/term/הגורם_המוסמך/482355" showAs="הגורם_המוסמך" />
+        <TLCTerm eId="term_6" href="/ontology/term/השמה/482355" showAs="השמה" />
+        <TLCTerm eId="term_7" href="/ontology/term/ועדת_אבחון/482355" showAs="ועדת_אבחון" />
+        <TLCTerm eId="term_8" href="/ontology/term/ועדת_ערר/482355" showAs="ועדת_ערר" />
+        <TLCTerm eId="term_9" href="/ontology/term/ועדת_תכנון_טיפול_והערכה/482355" showAs="ועדת_תכנון_טיפול_והערכה" />
+        <TLCTerm eId="term_10" href="/ontology/term/חוק_אימוץ_ילדים/482355" showAs="חוק_אימוץ_ילדים" />
+        <TLCTerm eId="term_11" href="/ontology/term/חוק_הביטוח_הלאומי/482355" showAs="חוק_הביטוח_הלאומי" />
+        <TLCTerm eId="term_12" href="/ontology/term/חוק_זכויות_החולה/482355" showAs="חוק_זכויות_החולה" />
+        <TLCTerm eId="term_13" href="/ontology/term/חוק_הנוער/482355" showAs="חוק_הנוער" />
+        <TLCTerm eId="term_14" href="/ontology/term/חוק_הסעד_(טיפול_באנשים_עם_מוגבלות_שכלית–התפתחותית)/482355" showAs="חוק_הסעד_(טיפול_באנשים_עם_מוגבלות_שכלית–התפתחותית)" />
+        <TLCTerm eId="term_15" href="/ontology/term/חוק_הגנת_הפרטיות/482355" showAs="חוק_הגנת_הפרטיות" />
+        <TLCTerm eId="term_16" href="/ontology/term/ילד/482355" showAs="ילד" />
+        <TLCTerm eId="term_17" href="/ontology/term/ילד_עם_מוגבלות/482355" showAs="ילד_עם_מוגבלות" />
+        <TLCTerm eId="term_18" href="/ontology/term/ממונה_על_רישוי_אומנה/482355" showAs="ממונה_על_רישוי_אומנה" />
+        <TLCTerm eId="term_19" href="/ontology/term/מנחה_אומנה/482355" showAs="מנחה_אומנה" />
+        <TLCTerm eId="term_20" href="/ontology/term/מסגרת_השמה_חוץ־ביתית/482355" showAs="מסגרת_השמה_חוץ־ביתית" />
+        <TLCTerm eId="term_21" href="/ontology/term/מעון_משפחתי/482355" showAs="מעון_משפחתי" />
+        <TLCTerm eId="term_22" href="/ontology/term/מפקח/482355" showAs="מפקח" />
+        <TLCTerm eId="term_23" href="/ontology/term/המפקח_הארצי_על_האומנה/482355" showAs="המפקח_הארצי_על_האומנה" />
+        <TLCTerm eId="term_24" href="/ontology/term/משפחת_אומנה/482355" showAs="משפחת_אומנה" />
+        <TLCTerm eId="term_25" href="/ontology/term/המשרד/482355" showAs="המשרד" />
+        <TLCTerm eId="term_26" href="/ontology/term/עובד_סוציאלי_לפי_חוק_הנוער_(טיפול_והשגחה)/482355" showAs="עובד_סוציאלי_לפי_חוק_הנוער_(טיפול_והשגחה)" />
+        <TLCTerm eId="term_27" href="/ontology/term/עובד_סוציאלי_לפי_חוק_הסעד_(טיפול_באנשים_עם_מוגבלות_שכלית–התפתחותית)/482355" showAs="עובד_סוציאלי_לפי_חוק_הסעד_(טיפול_באנשים_עם_מוגבלות_שכלית–התפתחותית)" />
+        <TLCTerm eId="term_28" href="/ontology/term/תושב_ישראל/482355" showAs="תושב_ישראל" />
+        <TLCTerm eId="term_29" href="/ontology/term/תכנית_טיפול/482355" showAs="תכנית_טיפול" />
+        <TLCTerm eId="term_30" href="/ontology/term/תע''ס/482355" showAs="תע''ס" />
+        <TLCTerm eId="term_31" href="/ontology/term/השר/482355" showAs="השר" />
+        <TLCPerson eId="בנימין_נתניהו" href="/ontology/person/בנימין_נתניהו" showAs="בנימין נתניהו" />
+        <TLCPerson eId="חיים_כץ" href="/ontology/person/חיים_כץ" showAs="חיים כץ" />
+        <TLCPerson eId="ראובן_ריבלין" href="/ontology/person/ראובן_ריבלין" showAs="ראובן ריבלין" />
+        <TLCPerson eId="יולי_יואל_אדלשטיין" href="/ontology/person/יולי_יואל_אדלשטיין" showAs="יולי יואל אדלשטיין" />
+        <TLCRole eId="ראש_הממשלה" href="ontology/role/akn/ראש_הממשלה" showAs="ראש הממשלה" />
+        <TLCRole eId="שר_הרווחה_והשירותים_החברתיים" href="ontology/role/akn/שר_הרווחה_והשירותים_החברתיים" showAs="שר הרווחה והשירותים החברתיים" />
+        <TLCRole eId="נשיא_המדינה" href="ontology/role/akn/נשיא_המדינה" showAs="נשיא המדינה" />
+        <TLCRole eId="יושב_ראש_הכנסת" href="ontology/role/akn/יושב_ראש_הכנסת" showAs="יושב ראש הכנסת" />
+      </references>
+      <temporalData source="#kensset">
+        <temporalGroup eId="tmpg_1" />
+      </temporalData>
+      <Publication></Publication>
+      <proprietary wikiversion="11/15/2020 11:04:26 PM" />
+    </meta>
+    <body period="#tmpg_1">
+      <title eId="title">
+        <content>
+          <p>חוק אומנה לילדים, התשע"ו–2016</p>
+        </content>
+      </title>
+      <chapter eId="chp_א">
+        <num>פרק א׳:</num>
+        <title>
+          <content>
+            <p>מטרה, פרשנות ועקרונות יסוד</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_1">
+            <heading>
+              <authorialNote placement="side">
+                <p>מטרת החוק</p>
+              </authorialNote>
+            </heading>
+            <num>1.</num>
+            <content>
+              <p>חוק זה מטרתו לעגן את זכויותיהם של ילדים באומנה, ואת חובת המדינה להבטיח את טובתם ואת זכויותיהם, בהתאם לאמנה בדבר זכויות הילד, ומתוך הכרה בפגיעותם הייחודית ובזכותם להגנה ולעזרה מיוחדות, ובלי לגרוע מאחריות הוריהם, מחובתם ומזכותם להבטיח את טובת ילדיהם ואת זכויותיהם.</p>
+            </content>
+          </point>
+          <point eId="point_2" class="definitions">
+            <heading>
+              <authorialNote placement="side">
+                <p>הגדרות</p>
+              </authorialNote>
+            </heading>
+            <num>2.</num>
+            <list>
+              <intro>
+                <p>בחוק זה –</p>
+              </intro>
+              <point eId="point_2__point_אומן">
+                <content>
+                  <p>
+                    <def />”אומן“ – אדם שבידו רישיון אומנה, ושקיבל כדין ילד לטיפולו למטרת אומנה;</p>
+                </content>
+              </point>
+              <point eId="point_2__point_אומנה">
+                <content>
+                  <p>
+                    <def />”אומנה“ – מגורים של ילד במשפחה שאינה בית הוריו, לפי החלטה שקיבל הגורם המוסמך שלא לפי <ref href="/akn/il/act/PrimaryLegislation/1981-05-28/146875">חוק אימוץ ילדים</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_2__point_בית_משפט">
+                <content>
+                  <p>
+                    <def />”בית משפט“ – כהגדרתו <ref href="/akn/il/act/PrimaryLegislation/1960-07-14/150256">בחוק הנוער</ref>, לרבות בית משפט לענייני משפחה;</p>
+                </content>
+              </point>
+              <point eId="point_2__point_גוף_מפעיל">
+                <content>
+                  <p>
+                    <def />”גוף מפעיל“ – תאגיד שהמשרד התקשר עמו למתן שירותי אומנה לפי <ref href="#point_49">סעיף 49(ב)</ref> בפיקוח המשרד;</p>
+                </content>
+              </point>
+              <point eId="point_2__point_הגורם_המוסמך">
+                <content>
+                  <p>
+                    <def />”הגורם המוסמך“ – בית משפט, ועדת תכנון טיפול והערכה, ועדת אבחון, וכל גורם אחר המוסמך לפי דין להחליט על השמה;</p>
+                </content>
+              </point>
+              <point eId="point_2__point_השמה">
+                <content>
+                  <p>
+                    <def />”השמה“ – השמת ילד במשפחת אומנה;</p>
+                </content>
+              </point>
+              <point eId="point_2__point_ועדת_אבחון">
+                <content>
+                  <p>
+                    <def />”ועדת אבחון“ – כמשמעותה <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/חוק_הסעד_טיפול_באנשים_עם_מוגבלות_שכלית_התפתחותית">בחוק הסעד (טיפול באנשים עם מוגבלות שכלית–התפתחותית)</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_2__point_ועדת_ערר">
+                <content>
+                  <p>
+                    <def />”ועדת ערר“ – כמשמעותה <ref href="/akn/il/act/PrimaryLegislation/1981-05-28/146875#point_36א">בסעיף 36א לחוק אימוץ ילדים</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_2__point_ועדת_תכנון_טיפול_והערכה">
+                <content>
+                  <p>
+                    <def />”ועדת תכנון טיפול והערכה“ – הוועדה כהגדרתה <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/תקנות_הפיקוח_על_מעונות_אחזקת_ילדים_במעון_רגיל">בתקנות הפיקוח על מעונות (אחזקת ילדים במעון רגיל), התשכ"ו–1965</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_2__point_חוק_אימוץ_ילדים">
+                <content>
+                  <p>
+                    <def />”חוק אימוץ ילדים“ – <ref href="/akn/il/act/PrimaryLegislation/1981-05-28/146875">חוק אימוץ ילדים, התשמ"א–1981</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_2__point_חוק_הביטוח_הלאומי">
+                <content>
+                  <p>
+                    <def />”חוק הביטוח הלאומי“ – <ref href="/akn/il/act/PrimaryLegislation/1995-05-15/158093">חוק הביטוח הלאומי [נוסח משולב], התשנ"ה–1995</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_2__point_חוק_זכויות_החולה">
+                <content>
+                  <p>
+                    <def />”חוק זכויות החולה“ – <ref href="/akn/il/act/PrimaryLegislation/1996-05-12/174478">חוק זכויות החולה, התשנ"ו–1996</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_2__point_חוק_הנוער">
+                <content>
+                  <p>
+                    <def />”חוק הנוער“ – <ref href="/akn/il/act/PrimaryLegislation/1960-07-14/150256">חוק הנוער (טיפול והשגחה), התש"ך–1960</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_2__point_חוק_הסעד_טיפול_באנשים_עם_מוגבלות_שכלית–התפתחותית">
+                <content>
+                  <p>
+                    <def />”חוק הסעד (טיפול באנשים עם מוגבלות שכלית–התפתחותית)“ – <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/חוק_הסעד_טיפול_באנשים_עם_מוגבלות_שכלית_התפתחותית">חוק הסעד (טיפול באנשים עם מוגבלות שכלית–התפתחותית), התשכ"ט–1969</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_2__point_חוק_הגנת_הפרטיות">
+                <content>
+                  <p>
+                    <def />”חוק הגנת הפרטיות“ – <ref href="/akn/il/act/PrimaryLegislation/1981-03-11/147337">חוק הגנת הפרטיות, התשמ"א–1981</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_2__point_ילד">
+                <list>
+                  <intro>
+                    <p>
+                      <def />”ילד“ – כל אחד מאלה:</p>
+                  </intro>
+                  <point eId="point_2__point_ילד__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>מי שטרם מלאו לו 18 שנים;</p>
+                    </content>
+                  </point>
+                  <point eId="point_2__point_ילד__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>מי שטרם מלאו לו 20 שנים והוא לומד במוסד חינוכי כהגדרתו <ref href="/akn/il/act/PrimaryLegislation/1995-05-15/158093#point_252">בסעיף 252(ג1) לחוק הביטוח הלאומי</ref>, בתכנית לימודים בהיקף של 20 שעות לפחות;</p>
+                    </content>
+                  </point>
+                  <point eId="point_2__point_ילד__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>ילד עם מוגבלות, או מי שטרם מלאו לו 21 שנים והוא שוהה באומנה לאחר אשפוז או כתחליף לאשפוז או זקוק לטיפול תרופתי מיוחד או למעקב רפואי מיוחד;</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_2__point_ילד_עם_מוגבלות">
+                <content>
+                  <p>
+                    <def />”ילד עם מוגבלות“ – מי שטרם מלאו לו 21 שנים והוא אדם עם מוגבלות כהגדרתו <ref href="/akn/il/act/PrimaryLegislation/1998-03-05/165017">בחוק שוויון זכויות לאנשים עם מוגבלות, התשנ"ח–1998</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_2__point_ממונה_על_רישוי_אומנה">
+                <content>
+                  <p>
+                    <def />”ממונה על רישוי אומנה“ – מי שהשר מינה לפי <ref href="#point_21">סעיף 21</ref> לאחראי למערך רישוי האומנה;</p>
+                </content>
+              </point>
+              <point eId="point_2__point_מנחה_אומנה">
+                <content>
+                  <p>
+                    <def />”מנחה אומנה“ – עובד סוציאלי שמינה מנהל גוף מפעיל ותפקידו העיקרי הוא לשמש מלווה אישי לילד לפי <ref href="#point_39">סעיף 39</ref> או לתת חוות דעת לעניין כשירות של מבקשי בקשות לרישיון אומנה לפי <ref href="#point_26">סעיף 26</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_2__point_מסגרת_השמה_חוץ־ביתית">
+                <content>
+                  <p>
+                    <def />”מסגרת השמה חוץ־ביתית“ – חלופת בית בעבור ילד שנתקבלה החלטה כדין להשמתו במסגרת שנועדה לספק לו את כל צרכיו בכל שעות היממה, לרבות מעון משפחתי או פנימייה;</p>
+                </content>
+              </point>
+              <point eId="point_2__point_מעון_משפחתי">
+                <content>
+                  <p>
+                    <def />”מעון משפחתי“ – כמשמעותו בתע"ס;</p>
+                </content>
+              </point>
+              <point eId="point_2__point_מפקח">
+                <content>
+                  <p>
+                    <def />”מפקח“ – מפקח שהוסמך לפי <ref href="#point_51">סעיף 51</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_2__point_המפקח_הארצי_על_האומנה">
+                <content>
+                  <p>
+                    <def />”המפקח הארצי על האומנה“ – מפקח שמינה השר לפי <ref href="#point_52">סעיף 52</ref> לעמוד בראש מערך הפיקוח על יישום הוראות חוק זה ויעדיו;</p>
+                </content>
+              </point>
+              <point eId="point_2__point_משפחת_אומנה">
+                <content>
+                  <p>
+                    <def />”משפחת אומנה“ – מסגרת משפחתית שילד מתגורר בה באומנה, למעט מעון משפחתי;</p>
+                </content>
+              </point>
+              <point eId="point_2__point_המשרד">
+                <content>
+                  <p>
+                    <def />”המשרד“ – משרד הרווחה והשירותים החברתיים;</p>
+                </content>
+              </point>
+              <point eId="point_2__point_עובד_סוציאלי_לפי_חוק_הנוער_טיפול_והשגחה">
+                <content>
+                  <p>
+                    <def />”עובד סוציאלי לפי <ref href="/akn/il/act/PrimaryLegislation/1960-07-14/150256">חוק הנוער (טיפול והשגחה)</ref>“ – עובד סוציאלי שמונה לפי <ref href="/akn/il/act/PrimaryLegislation/1960-07-14/150256">חוק הנוער</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_2__point_עובד_סוציאלי_לפי_חוק_הסעד_טיפול_באנשים_עם_מוגבלות_שכלית–התפתחותית">
+                <content>
+                  <p>
+                    <def />”עובד סוציאלי לפי <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/חוק_הסעד_טיפול_באנשים_עם_מוגבלות_שכלית_התפתחותית">חוק הסעד (טיפול באנשים עם מוגבלות שכלית–התפתחותית)</ref>“ – עובד סוציאלי שמונה לפי <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/חוק_הסעד_טיפול_באנשים_עם_מוגבלות_שכלית_התפתחותית">חוק הסעד (טיפול באנשים עם מוגבלות שכלית–התפתחותית)</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_2__point_תושב_ישראל">
+                <list>
+                  <intro>
+                    <p>
+                      <def />”תושב ישראל“ – מי שמתגורר בישראל או ביישובים באזור כהגדרתם <ref href="/akn/il/act/PrimaryLegislation/1995-05-15/158093#point_378">בסעיף 378(א) לחוק הביטוח הלאומי</ref>, ומתקיים בו אחד מאלה:</p>
+                  </intro>
+                  <point eId="point_2__point_תושב_ישראל__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>הוא אזרח ישראלי;</p>
+                    </content>
+                  </point>
+                  <point eId="point_2__point_תושב_ישראל__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>ניתנו לו אשרת עולה, תעודת עולה, רישיון לישיבת קבע, או ששר הפנים או מי שהוא הסמיכו לכך מצא כי הוא זכאי לאשרת עולה, והתגורר בישראל או ביישובים כאמור שלוש שנים לפחות מתוך חמש השנים שקדמו להגשת הבקשה או 12 חודשים לפחות מתוך 18 החודשים שקדמו להגשת הבקשה;</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_2__point_תכנית_טיפול">
+                <content>
+                  <p>
+                    <def />”תכנית טיפול“ – תכנית לטיפול בילד שקבע גורם מוסמך או גוף מפעיל ובהתאם להוראות התע"ס;</p>
+                </content>
+              </point>
+              <point eId="point_2__point_תעס">
+                <content>
+                  <p>
+                    <def />”תע"ס“ – הנחיות והוראות המנהל הכללי של המשרד (תקנון לעבודה סוציאלית – תע"ס), כתוקפן מזמן לזמן, העומדות לעיון הציבור במחלקות לשירותים חברתיים ברשויות המקומיות ובלשכות המחוזיות של המשרד, ומפורסמות <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/http_www_molsa_gov_il_CommunityInfo_Regulations_SocialRegulations_Pages_Open_Tass_aspx">באתר האינטרנט של המשרד</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_2__point_השר">
+                <content>
+                  <p>
+                    <def />”השר“ – שר הרווחה והשירותים החברתיים.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_3">
+            <heading>
+              <authorialNote placement="side">
+                <p>זכויות הילד</p>
+              </authorialNote>
+            </heading>
+            <num>3.</num>
+            <list>
+              <point eId="point_3__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>זכותו הטבעית של ילד לגדול בבית הוריו, ואם הוצא ממנו – לחזור אליו, אלא במקרים שבהם טובת הילד מחייבת את גידולו מחוץ לבית הוריו, ובכפוף לכל דין.</p>
+                </content>
+              </point>
+              <point eId="point_3__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>ילד שנמצא באומנה או בתהליך השמה באומנה זכאי לכל הזכויות שזכאי להן כל ילד בישראל; בלי לגרוע מהוראות כל דין, כל פעולה או החלטה בעניינו של ילד הנוגעת להשמתו באומנה, תיעשה תוך הבטחת כל זכויותיו.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_4">
+            <heading>
+              <authorialNote placement="side">
+                <p>טובת הילד</p>
+              </authorialNote>
+            </heading>
+            <num>4.</num>
+            <list>
+              <point eId="point_4__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>בכל פעולה המתבצעת לגבי ילד לפי חוק זה או החלטה המתקבלת בעניינו תהיה טובת הילד שיקול מכריע; בהתנגשות בין טובתו של ילד מסוים שעניינו נדון ובין טובתם של ילדים אחרים יינתן משקל ראוי לטובתו של הילד שעניינו נדון.</p>
+                </content>
+              </point>
+              <point eId="point_4__point_ב">
+                <num>(ב)</num>
+                <list>
+                  <intro>
+                    <p>בקביעת טובת הילד לפי חוק זה יישקלו מכלול האינטרסים, הצרכים והזכויות של הילד, ובין השאר השיקולים המפורטים להלן:</p>
+                  </intro>
+                  <point eId="point_4__point_ב__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>שלומו הגופני והנפשי;</p>
+                    </content>
+                  </point>
+                  <point eId="point_4__point_ב__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>גילו וכשריו המתפתחים;</p>
+                    </content>
+                  </point>
+                  <point eId="point_4__point_ב__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>רצונו, רגשותיו, דעותיו ועמדתו בעניין הנדון;</p>
+                    </content>
+                  </point>
+                  <point eId="point_4__point_ב__point_4">
+                    <num>(4)</num>
+                    <content>
+                      <p>ממד הזמן בחיי הילד;</p>
+                    </content>
+                  </point>
+                  <point eId="point_4__point_ב__point_5">
+                    <num>(5)</num>
+                    <content>
+                      <p>מין הילד, מאפייניו ותכונותיו וכן הרקע האתני, הדתי, התרבותי והלשוני שלו;</p>
+                    </content>
+                  </point>
+                  <point eId="point_4__point_ב__point_6">
+                    <num>(6)</num>
+                    <content>
+                      <p>ההשפעה הצפויה של החלטה או פעולה לפי חוק זה על חייו בטווח הקצר ובטווח הארוך;</p>
+                    </content>
+                  </point>
+                  <point eId="point_4__point_ב__point_7">
+                    <num>(7)</num>
+                    <content>
+                      <p>קשריו ויחסיו עם הוריו ועם אנשים משמעותיים אחרים בחייו, ושמירה על רציפות קשרים אלה;</p>
+                    </content>
+                  </point>
+                  <point eId="point_4__point_ב__point_8">
+                    <num>(8)</num>
+                    <content>
+                      <p>עמדת הוריו או אפוטרופסו ואנשים משמעותיים אחרים בחייו בעניין הנדון;</p>
+                    </content>
+                  </point>
+                  <point eId="point_4__point_ב__point_9">
+                    <num>(9)</num>
+                    <content>
+                      <p>יכולת הוריו וכל אדם או מסגרת אחרים הנוגעים לעניין לספק את צורכי הילד;</p>
+                    </content>
+                  </point>
+                  <point eId="point_4__point_ב__point_10">
+                    <num>(10)</num>
+                    <content>
+                      <p>הידע המקצועי הנוגע לעניין הנדון;</p>
+                    </content>
+                  </point>
+                  <point eId="point_4__point_ב__point_11">
+                    <num>(11)</num>
+                    <content>
+                      <p>כל שיקול אחר הנוגע לקביעת טובת הילד.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_4__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>בלי לגרוע מהוראות סעיף קטן (א), החלטה של גורם מוסמך בעניינו של ילד לפי חוק זה, תהיה מנומקת ובכתב, ותתייחס ליישום עקרון טובת הילד לאור השיקולים המפורטים בסעיף קטן (ב).</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_5">
+            <heading>
+              <authorialNote placement="side">
+                <p>עקרונות במימוש זכויות ובמתן שירותים</p>
+              </authorialNote>
+            </heading>
+            <num>5.</num>
+            <list>
+              <intro>
+                <p>מימוש זכויות ומתן שירותים לילד לפי חוק זה ייעשו בהתאם לעקרונות אלה:</p>
+              </intro>
+              <point eId="point_5__point_1">
+                <num>(1)</num>
+                <content>
+                  <p>שמירה על כבוד הילד והגנה על פרטיותו;</p>
+                </content>
+              </point>
+              <point eId="point_5__point_2">
+                <num>(2)</num>
+                <content>
+                  <p>שמירה על שוויון בין ילד לילד בכפוף לצרכיו הייחודיים של כל ילד;</p>
+                </content>
+              </point>
+              <point eId="point_5__point_3">
+                <num>(3)</num>
+                <content>
+                  <p>הקפדה על יישום לוחות זמנים שנקבעו וצמצום עיכובים במתן שירותים, בקבלת החלטות או בביצוע פעולות בנוגע לילד.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+        </list>
+      </chapter>
+      <chapter eId="chp_ב">
+        <num>פרק ב׳:</num>
+        <title>
+          <content>
+            <p>זכויות ילדים באומנה</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_6">
+            <heading>
+              <authorialNote placement="side">
+                <p>זכויות באומנה ובבחירת משפחת אומנה</p>
+              </authorialNote>
+            </heading>
+            <num>6.</num>
+            <list>
+              <point eId="point_6__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>ילד הנמצא בתהליך השמה באומנה או באומנה זכאי, בין השאר, לזכויות לפי <ref href="#chp_ב">פרק זה</ref> לשם הבטחת יכולתו לחיות במסגרת משפחתית חלופית לבית הוריו, המספקת לו את מכלול צרכיו, פועלת לשמירת טובתו ומיישמת את זכויותיו לפי חוק זה; בחירת משפחת האומנה בעבור הילד תיעשה מתוך חתירה למימוש זכויות אלה.</p>
+                </content>
+              </point>
+              <point eId="point_6__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>משפחת אומנה ומנחה אומנה שמונה לילד יפעלו לקידום מיצוי זכויותיו של הילד על פי כל דין, בתחומי חייו השונים.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_7">
+            <heading>
+              <authorialNote placement="side">
+                <p>הזכות להתפתחות אישית</p>
+              </authorialNote>
+            </heading>
+            <num>7.</num>
+            <content>
+              <p>זכותו של ילד לחיות בתנאים ובסביבה שיאפשרו לו, ככל האפשר, התפתחות אישית ואת מימוש יכולותיו והפוטנציאל שלו, לרבות התפתחות גופנית, נפשית, רגשית, שכלית וחברתית.</p>
+            </content>
+          </point>
+          <point eId="point_8">
+            <heading>
+              <authorialNote placement="side">
+                <p>הזכות להגנה מפני ניצול, פגיעה, טיפול אכזרי וענישה</p>
+              </authorialNote>
+            </heading>
+            <num>8.</num>
+            <content>
+              <p>זכותו של ילד להיות מוגן מפני כל צורה של ניצול ופגיעה, לרבות פגיעה פיזית, נפשית או מינית, הזנחה והתעללות, ומפני כל צורה של טיפול אכזרי, בלתי אנושי או משפיל, ושל ענישה גופנית, נפשית או משפילה.</p>
+            </content>
+          </point>
+          <point eId="point_9">
+            <heading>
+              <authorialNote placement="side">
+                <p>הזכות לקשר עם הורים ובני משפחה</p>
+              </authorialNote>
+            </heading>
+            <num>9.</num>
+            <content>
+              <p>זכותו של ילד לדעת מיהם הוריו, להכיר את הוריו ואת בני משפחתו, ולשמור על קשר אישי עמם.</p>
+            </content>
+          </point>
+          <point eId="point_10">
+            <heading>
+              <authorialNote placement="side">
+                <p>הזכות ליציבות</p>
+              </authorialNote>
+            </heading>
+            <num>10.</num>
+            <content>
+              <p>זכותו של ילד שייעשה מאמץ מרבי למניעת העברתו ממשפחת אומנה אחת לאחרת או למסגרת השמה חוץ־ביתית אחרת.</p>
+            </content>
+          </point>
+          <point eId="point_11">
+            <heading>
+              <authorialNote placement="side">
+                <p>זכות הילד להשתתפות בכל עניין הנוגע לו</p>
+              </authorialNote>
+            </heading>
+            <num>11.</num>
+            <list>
+              <point eId="point_11__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>זכותו של ילד להביע את רצונו, רגשותיו, דעותיו ועמדתו ולהישמע בחופשיות, בכל עניין הנוגע לו לפי חוק זה, לאחר שניתן לו מידע כאמור <ref href="#point_13">בסעיף 13</ref>, והכול בהתחשב בגילו, בכשריו המתפתחים ובצרכיו המיוחדים.</p>
+                </content>
+              </point>
+              <point eId="point_11__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>זכותו של ילד שלרצונו, לרגשותיו, לדעותיו ולעמדה שגיבש בעניין הנדון יינתן משקל ראוי בהתחשב בגילו ובכשריו המתפתחים.</p>
+                </content>
+              </point>
+              <point eId="point_11__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>גורם מוסמך הדן בעניינו של ילד לפי חוק זה ישמע את הילד בהתאם להוראות סעיף זה; ואולם הגורם המוסמך רשאי שלא לשמוע את הילד, מנימוקים מיוחדים שיירשמו, אם שוכנע כי תיגרם לילד פגיעה ממשית מהבאת הנושא לפניו, העולה על הפגיעה שתיגרם מאי־הבאתה.</p>
+                </content>
+              </point>
+              <point eId="point_11__point_ד">
+                <num>(ד)</num>
+                <content>
+                  <p>נדרש גורם מוסמך להחליט בעניינו של ילד, רשאי העומד בראש הגורם המוסמך שלא להביא לפני מי מהצדדים או המוזמנים לדיון דברים שהביע הילד לגבי רצונו, רגשותיו, דעותיו ועמדתו, כפי שהביעם, כולם או חלקם, מנימוקים מיוחדים שיירשמו, אם שוכנע כי הפגיעה שתיגרם לילד אם יובאו הדברים עולה על הפגיעה מאי־הבאתם.</p>
+                </content>
+              </point>
+              <point eId="point_11__point_ה">
+                <num>(ה)</num>
+                <content>
+                  <p>בלי לגרוע מהאמור בסעיף קטן (א), זכותו של ילד להביע את רצונו, רגשותיו, דעותיו ועמדתו לפני גורם מוסמך גם באמצעות אפוטרופוס לדין או עורך דין, שמינה בית משפט.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_12">
+            <heading>
+              <authorialNote placement="side">
+                <p>הזכות לרציפות תרבותית ולזהות אישית ותרבותית</p>
+              </authorialNote>
+            </heading>
+            <num>12.</num>
+            <list>
+              <point eId="point_12__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>זכותו של ילד כי בחירת משפחת האומנה שבה יושם תיעשה תוך חתירה לשמירת רציפות ויציבות של קשריו הרגשיים, חינוכו, הרקע האתני, הדתי, התרבותי והלשוני שלו ומאפייניו הייחודיים האחרים.</p>
+                </content>
+              </point>
+              <point eId="point_12__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>זכותו של ילד שתישמר זהותו האישית והתרבותית בהשמתו, ובכלל זה שמו, שפתו, דתו ותרבותו.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_13">
+            <heading>
+              <authorialNote placement="side">
+                <p>הזכות למידע</p>
+              </authorialNote>
+            </heading>
+            <num>13.</num>
+            <list>
+              <point eId="point_13__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>זכותו של ילד לקבל, בעת ההשמה ובכל שלב של ההשמה והמגורים במשפחת אומנה, מידע על מצבו, צרכיו, הליכים שמתקיימים בעניינו, תכניות הנוגעות אליו, החלטות שהתקבלו לגביו, משפחת האומנה שבה הוא מושם, וכן על מנגנון בירור תלונות שהוא יכול לפנות אליו, על דרכים נוספות לבירור תלונות ועל זכויותיו לפי חוק זה, והכול בהתחשב ביכולתו להבין מידע זה.</p>
+                </content>
+              </point>
+              <point eId="point_13__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>מנחה אומנה שמונה לילד יהיה אחראי למסירת המידע לילד ויסביר לילד את המידע, בשפה המובנת לו ובהתחשב בגילו, בכשריו המתפתחים ובצרכיו המיוחדים.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_14">
+            <heading>
+              <authorialNote placement="side">
+                <p>הזכות לפרטיות</p>
+              </authorialNote>
+            </heading>
+            <num>14.</num>
+            <content>
+              <p>זכותו של ילד כי פרטיותו וצנעת חייו יישמרו, לרבות בכל הנוגע למידע על אודותיו, בכפוף למגבלות הדרושות לשם שמירה על טובתו או על טובתם של ילדים אחרים הנמצאים במשפחת האומנה ובמידה הנדרשת לשם כך.</p>
+            </content>
+          </point>
+          <point eId="point_15">
+            <heading>
+              <authorialNote placement="side">
+                <p>הזכות לחינוך</p>
+              </authorialNote>
+            </heading>
+            <num>15.</num>
+            <list>
+              <point eId="point_15__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>זכותו של ילד כי בבחירת משפחת האומנה המתאימה בעבורו יינתן משקל ראוי לאפשרות להגשים באותה משפחה את זכותו לחינוך על פי כל דין, לרבות במסגרת חינוכית המתאימה לצרכיו.</p>
+                </content>
+              </point>
+              <point eId="point_15__point_ב">
+                <num>(ב)</num>
+                <list>
+                  <intro>
+                    <p>זכותו של ילד שלא להיות מופלה במימוש זכותו לחינוך לפי כל דין, בשל השמתו במשפחת אומנה, ובכלל זה לא להיות מופלה במוסד חינוך או ברשות מקומית בשל השמתו כאמור, לרבות בכל הנוגע לכל אחד מאלה:</p>
+                  </intro>
+                  <point eId="point_15__point_ב__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>רישומו למוסד חינוך, קבלתו למוסד חינוך או הרחקתו ממנו;</p>
+                    </content>
+                  </point>
+                  <point eId="point_15__point_ב__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>תכנית לימודים;</p>
+                    </content>
+                  </point>
+                  <point eId="point_15__point_ב__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>זכויות וחובות של התלמידים במוסד חינוך, לרבות כללי המשמעת במוסד והפעלתם.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_15__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>לעניין סעיף זה, ”מוסד חינוך“ – כהגדרתו <ref href="/akn/il/act/PrimaryLegislation/1949-09-18/314513">בחוק לימוד חובה, התש"ט–1949</ref>.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_16">
+            <heading>
+              <authorialNote placement="side">
+                <p>הזכות לפנאי</p>
+              </authorialNote>
+            </heading>
+            <num>16.</num>
+            <content>
+              <p>זכותו של ילד לפנאי ולמנוחה, בין השאר וככל האפשר, באמצעות יצירת מגוון אפשרויות לילד להשתתף בפעילויות תרבות, ספורט ואמנות.</p>
+            </content>
+          </point>
+          <point eId="point_17">
+            <heading>
+              <authorialNote placement="side">
+                <p>הזכות להגיש תלונה</p>
+              </authorialNote>
+            </heading>
+            <num>17.</num>
+            <content>
+              <p>זכותו של ילד להגיש תלונה באופן חופשי בכל עניין הנוגע לו לפי חוק זה, בדרך התואמת את גילו, את כשריו המתפתחים ואת צרכיו המיוחדים, ותוך הגנה על פרטיותו.</p>
+            </content>
+          </point>
+          <point eId="point_18">
+            <heading>
+              <authorialNote placement="side">
+                <p>זכויות ילד עם מוגבלות</p>
+              </authorialNote>
+            </heading>
+            <num>18.</num>
+            <content>
+              <p>זכותו של ילד עם מוגבלות שנקבע כי טובתו מחייבת את השמתו באומנה, שמשפחת האומנה תספק לו את מכלול צרכיו ותדאג למימוש זכויותיו בהתחשב במוגבלותו ובהתאמות, אם יידרשו; השמה באומנה של ילד כאמור תיעשה תוך חתירה לבחירת משפחת אומנה שתאפשר לו נגישות לשירותים התואמים את מוגבלותו, והכול ברוח עקרונות <ref href="/akn/il/act/PrimaryLegislation/1998-03-05/165017">חוק שוויון זכויות לאנשים עם מוגבלות, התשנ"ח–1998</ref>.</p>
+            </content>
+          </point>
+          <point eId="point_19">
+            <heading>
+              <authorialNote placement="side">
+                <p>זכות לשירותים ולהטבות</p>
+              </authorialNote>
+            </heading>
+            <num>19.</num>
+            <content>
+              <p>ילד במשפחת אומנה זכאי לכל הזכויות, השירותים וההטבות שזכאי להם ילד שהוא תושב הרשות המקומית שבה מתגוררת משפחת האומנה שבה הושם, לרבות בכל הנוגע לשיוכו למוסדות חינוכיים ברשות המקומית האמורה ולפעילויות העשרה, פנאי ונופש בה ולשירותי בריאות, והכול בלי לגרוע מזכותו כאמור כלפי הרשות המקומית שבה מתגוררים הוריו בעת שהוא שוהה אצלם.</p>
+            </content>
+          </point>
+        </list>
+      </chapter>
+      <chapter eId="chp_ג">
+        <num>פרק ג׳:</num>
+        <title>
+          <content>
+            <p>רישוי אומנה</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_20">
+            <heading>
+              <authorialNote placement="side">
+                <p>איתור אומנים והכשרתם</p>
+              </authorialNote>
+            </heading>
+            <num>20.</num>
+            <content>
+              <p>המשרד או מי מטעמו יפעל לאיתור, לגיוס, לבדיקה ולהכשרה של אומנים.</p>
+            </content>
+          </point>
+          <point eId="point_21">
+            <heading>
+              <authorialNote placement="side">
+                <p>ממונה על רישוי אומנה</p>
+              </authorialNote>
+            </heading>
+            <num>21.</num>
+            <content>
+              <p>השר ימנה, מבין עובדי משרדו, עובד שיהיה אחראי למערך רישוי האומנה ועל כל עניין אחר לפי חוק זה כפי שיורה השר.</p>
+            </content>
+          </point>
+          <point eId="point_22">
+            <heading>
+              <authorialNote placement="side">
+                <p>מאגר המידע</p>
+              </authorialNote>
+            </heading>
+            <num>22.</num>
+            <list>
+              <point eId="point_22__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>לשם מילוי תפקידו של הממונה על רישוי אומנה ופיקוח על הוראות חוק זה יקים השר מאגר מידע שיכלול מידע בדבר בקשות למתן רישיון אומנה והחלטות בהן, הגוף המפעיל ומנחה האומנה שטיפל בכל בקשה, ולגבי מי שקיבל רישיון אומנה – רישיון האומנה שניתן, סוגו, תנאיו ותוקפו.</p>
+                </content>
+              </point>
+              <point eId="point_22__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>הממונה על רישוי אומנה ייתן הרשאה למפקח שהוסמך לפי <ref href="#point_51">סעיף 51</ref> לעיין במאגר המידע לשם מילוי תפקידו ובמידה הנדרשת לשם כך.</p>
+                </content>
+              </point>
+              <point eId="point_22__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>המערכת הטכנולוגית שתשמש את מאגר המידע תעוצב בדרך שתמזער את הסיכון לפגיעה באנשים שמידע לגביהם נמצא במאגר, בשים לב לחלופות טכנולוגיות מקובלות ובהתייעצות עם הרשם כהגדרתו <ref href="/akn/il/act/PrimaryLegislation/1981-03-11/147337#point_7">בסעיף 7 לחוק הגנת הפרטיות</ref>.</p>
+                </content>
+              </point>
+              <point eId="point_22__point_ד">
+                <num>(ד)</num>
+                <content>
+                  <p>השר, בהתייעצות עם שר המשפטים ובאישור ועדת העבודה הרווחה והבריאות של הכנסת, רשאי לקבוע הוראות לעניין ניהול מאגר המידע ואבטחת המידע.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_23">
+            <heading>
+              <authorialNote placement="side">
+                <p>בקשה לשמש אומן</p>
+              </authorialNote>
+            </heading>
+            <num>23.</num>
+            <list>
+              <point eId="point_23__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>אדם המעוניין לשמש אומן (<ref href="#chp_ג">בפרק זה</ref> – המבקש), יגיש לממונה על רישוי אומנה בקשה לקבלת רישיון אומנה לפי הוראות חוק זה.</p>
+                </content>
+              </point>
+              <point eId="point_23__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>השר, באישור ועדת העבודה הרווחה והבריאות של הכנסת, רשאי לקבוע הוראות לעניין בקשות לרישיון אומנה ולחידושו, לרבות הפרטים שייכללו והמסמכים והאישורים שיצורפו אליהן, וכן הוראות לעניין שינוי רישיון אומנה או ביטולו.</p>
+                </content>
+              </point>
+              <point eId="point_23__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>היה למבקש בן זוג המתגורר עמו, לא תידון בקשתו אלא אם כן הוגשה הבקשה גם על ידי בן זוגו.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_24">
+            <heading>
+              <authorialNote placement="side">
+                <p>תנאים לקבלת רישיון אומנה</p>
+              </authorialNote>
+            </heading>
+            <num>24.</num>
+            <list>
+              <point eId="point_24__point_א">
+                <num>(א)</num>
+                <list>
+                  <intro>
+                    <p>רישיון אומנה יינתן למבקש שהתקבלה בעניינו חוות דעת בדבר הערכת כשירות המעידה על התאמתו לתפקיד, ולאחר שעבר הכנה והכשרה, ובלבד שמתקיימים בו תנאים אלה:</p>
+                  </intro>
+                  <point eId="point_24__point_א__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>הוא תושב ישראל;</p>
+                    </content>
+                  </point>
+                  <point eId="point_24__point_א__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>מלאו לו 25 שנים וטרם מלאו לו 56 שנים;</p>
+                    </content>
+                  </point>
+                  <point eId="point_24__point_א__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>הוא יודע קרוא וכתוב ובעל השכלה של 10 שנות לימוד לפחות;</p>
+                    </content>
+                  </point>
+                  <point eId="point_24__point_א__point_4">
+                    <num>(4)</num>
+                    <content>
+                      <p>אין לו, או לכל אדם המתגורר עמו, לקות נפשית, מגבלה או מחלה שיש בהן כדי לפגוע ביכולתו לשמש אומן או לפגוע בילד בצורה כלשהי;</p>
+                    </content>
+                  </point>
+                  <point eId="point_24__point_א__point_5">
+                    <num>(5)</num>
+                    <content>
+                      <p>הוא וכל אדם המתגורר עמו אינם מכורים לסמים או לאלכוהול;</p>
+                    </content>
+                  </point>
+                  <point eId="point_24__point_א__point_6">
+                    <num>(6)</num>
+                    <content>
+                      <p>הוא בעל הכנסה קבועה, ואם מדובר בבני זוג – אחד מהם לפחות בעל הכנסה כאמור;</p>
+                    </content>
+                  </point>
+                  <point eId="point_24__point_א__point_7">
+                    <num>(7)</num>
+                    <content>
+                      <p>יש בביתו מקום הולם שיש בו כדי לאפשר את התפתחותו התקינה של ילד ואת מימוש זכויותיו לפי חוק זה;</p>
+                    </content>
+                  </point>
+                  <point eId="point_24__point_א__point_8">
+                    <num>(8)</num>
+                    <content>
+                      <p>ילדו לא הוכרז קטין נזקק כמשמעותו <ref href="/akn/il/act/PrimaryLegislation/1960-07-14/150256#point_2">בסעיף 2 לחוק הנוער</ref> או שבמועד הגשת בקשתו לרישיון אומנה חלפו שבע שנים לפחות מתום הכרזה כאמור;</p>
+                    </content>
+                  </point>
+                  <point eId="point_24__point_א__point_9">
+                    <num>(9)</num>
+                    <content>
+                      <p>אין לו אפוטרופוס.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_24__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>נוסף על האמור בסעיף קטן (א), לא יינתן רישיון אומנה למבקש שהוא או כל אדם המתגורר עמו הורשעו בעבירת מין או אלימות נגד קטין או בעבירה אחרת שמפאת מהותה, חומרתה או נסיבותיה אין הם ראויים לדעת הממונה על רישוי אומנה לקבל רישיון אומנה, או שתלויים ועומדים נגדם הליכים בשל חשד לביצוע עבירה כאמור.</p>
+                </content>
+              </point>
+              <point eId="point_24__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>נוסף על האמור בסעיף קטן (א), לא יינתן רישיון אומנה למבקש שיש לו בן זוג המתגורר עמו, אלא אם כן מתקיימים גם בבן הזוג התנאים למתן רישיון אומנה, ורישיון אומנה יינתן לשני בני הזוג, וחבותם לפי חוק זה תהיה יחד ולחוד.</p>
+                </content>
+              </point>
+              <point eId="point_24__point_ד">
+                <num>(ד)</num>
+                <content>
+                  <p>הממונה על רישוי אומנה רשאי לסרב לתת רישיון אומנה, מנימוקים שימסור למבקש ולאחר שנתן לו הזדמנות לטעון את טענותיו, אף אם מתקיימים בו התנאים המפורטים בסעיף קטן (א), אם מצא כי מתקיימות נסיבות שבשלהן אין הוא ראוי לשמש אומן.</p>
+                </content>
+              </point>
+              <point eId="point_24__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>המערכת הטכנולוגית שתשמש את מאגר המידע תעוצב בדרך שתמזער את הסיכון לפגיעה באנשים שמידע לגביהם נמצא במאגר, בשים לב לחלופות טכנולוגיות מקובלות ובהתייעצות עם הרשם כהגדרתו <ref href="/akn/il/act/PrimaryLegislation/1981-03-11/147337#point_7">בסעיף 7 לחוק הגנת הפרטיות</ref>.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_25">
+            <heading>
+              <authorialNote placement="side">
+                <p>רישיון אומנה חריג</p>
+              </authorialNote>
+            </heading>
+            <num>25.</num>
+            <list>
+              <point eId="point_25__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>בכפוף להוראות סעיף קטן (ג), התקיימו נסיבות מיוחדות הקשורות בטובת הילד המצדיקות מתן רישיון אומנה למבקש שלא מתקיים בו תנאי מהתנאים לקבלת רישיון אומנה <ref href="#point_24">שבסעיף 24</ref>, או שלא התקיימה לגביו הוראה אחרת מהוראות חוק זה, רשאי הממונה על רישוי אומנה, בהמלצת המפקח הארצי על האומנה, לתת למבקש רישיון אומנה חריג, ורשאי הוא לקבוע בו תנאים, לרבות לעניין תוקפו.</p>
+                </content>
+              </point>
+              <point eId="point_25__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>לבקשה לרישיון אומנה חריג כאמור בסעיף קטן (א) תצורף חוות דעת לפי <ref href="#point_26">סעיף 26</ref> של מנחה אומנה בדבר התאמתו של המבקש לשמש אומן לילד מסוים בהתחשב בנסיבות המיוחדות.</p>
+                </content>
+              </point>
+              <point eId="point_25__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>לא יינתן רישיון אומנה חריג למבקש שלא מתקיים בו תנאי מהתנאים <ref href="#point_24">שבסעיף קטן (א)(1), (4), (5), (6), (8) ו־(9) שבסעיף 24</ref>, והוראות <ref href="#point_24">סעיפים קטנים (ב) ו־(ג) של הסעיף האמור</ref> יחולו גם לעניין רישיון אומנה חריג; ואולם בנסיבות מיוחדות רשאי הממונה על רישוי אומנה, באישור המפקח הארצי על האומנה ובהסכמת ראש רשות האוכלוסין וההגירה או מי שהוא הסמיכו לכך, לתת למבקש רישיון אומנה חריג לפי סעיף זה, אף אם לא התקיים בו התנאי <ref href="#point_24">שבסעיף 24(א)(1)</ref>.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_26">
+            <heading>
+              <authorialNote placement="side">
+                <p>הערכת כשירות לשמש אומן</p>
+              </authorialNote>
+            </heading>
+            <num>26.</num>
+            <list>
+              <point eId="point_26__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>מנחה אומנה יעריך את כשירותו של המבקש לשמש אומן.</p>
+                </content>
+              </point>
+              <point eId="point_26__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>מנחה אומנה ייתן חוות דעת בכתב, על פי ממצאי הערכת הכשירות, שבה יקבע את התאמת המבקש לשמש אומן, בכלל או לילד מסוים, ואת סוג האומנה שבה הוא מתאים לשמש אומן.</p>
+                </content>
+              </point>
+              <point eId="point_26__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>חוות הדעת תועבר למפקח לשם בדיקתה ומתן המלצה לממונה על רישוי אומנה בדבר מתן הרישיון.</p>
+                </content>
+              </point>
+              <point eId="point_26__point_ד">
+                <num>(ד)</num>
+                <content>
+                  <p>המלצת המפקח תועבר לממונה על רישוי אומנה, והוא יחליט בדבר מתן רישיון האומנה, תנאיו ותוקפו ויודיע על החלטתו למבקש בתוך 30 ימים מיום שקיבל את המלצת המפקח.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_27">
+            <heading>
+              <authorialNote placement="side">
+                <p>הודעה על שינוי</p>
+              </authorialNote>
+            </heading>
+            <num>27.</num>
+            <list>
+              <point eId="point_27__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>מי שבידו רישיון אומנה יודיע לממונה על רישוי אומנה על כל שינוי שחל בנסיבות חייו או על כל פרט אחר שיש בו כדי להשפיע על רישיון האומנה שניתן לו, לרבות פרטים המהווים תנאי לקבלת רישיון או לחידושו לפי חוק זה.</p>
+                </content>
+              </point>
+              <point eId="point_27__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>נמסרה הודעה כאמור בסעיף קטן (א), יבדוק הממונה על רישוי האומנה את המידע ואת הצורך לערוך עיון מחודש ברישיון, בהתאם לחוות דעתו של מנחה האומנה.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_28">
+            <heading>
+              <authorialNote placement="side">
+                <p>תוקף רישיון אומנה, בקשה לחידושו ורישיון אומנה זמני</p>
+              </authorialNote>
+            </heading>
+            <num>28.</num>
+            <list>
+              <point eId="point_28__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>רישיון אומנה תקף לשלוש שנים, אלא אם כן נקבע בו פרק זמן קצר יותר.</p>
+                </content>
+              </point>
+              <point eId="point_28__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>הממונה על רישוי אומנה יפנה למי שבידו רישיון אומנה שישה חודשים לפחות לפני תום תקופת רישיון האומנה, לבירור רצונו בחידוש רישיון האומנה; מי שבידו רישיון אומנה המעוניין בכך יגיש בקשה לחידוש הרישיון לא יאוחר משישה חודשים לפני תום תוקפו; לבקשה תצורף חוות דעת של מנחה אומנה לעניין קיום התנאים לחידוש רישיון האומנה כאמור <ref href="#point_29">בסעיף 29</ref>.</p>
+                </content>
+              </point>
+              <point eId="point_28__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>לא הסתיימו הליכי חידוש רישיון האומנה לפני תום תקופת הרישיון, ומנחה האומנה תמך בחוות דעתו בחידוש הרישיון כאמור, יינתן למבקש חידוש הרישיון רישיון אומנה זמני שתוקפו לא יעלה על שישה חודשים.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_29">
+            <heading>
+              <authorialNote placement="side">
+                <p>תנאים לחידוש רישיון אומנה</p>
+              </authorialNote>
+            </heading>
+            <num>29.</num>
+            <list>
+              <intro>
+                <p>הוגשה בקשה לחידוש רישיון אומנה כאמור <ref href="#point_28">בסעיף 28(ב)</ref>, יחודש רישיון האומנה בדרך שבה ניתן, בהתאם להמלצה בחוות דעת של מנחה האומנה, אם התקיימו כל אלה:</p>
+              </intro>
+              <point eId="point_29__point_1">
+                <num>(1)</num>
+                <content>
+                  <p>לא התקיימו נסיבות שהיו שוללות, לפי <ref href="#point_24">סעיף 24</ref>, מתן רישיון אומנה במועד חידושו; ואולם המפקח הארצי על האומנה רשאי לחדש את רישיון האומנה של מי שבידם רישיון אומנה והם בני זוג ובאחד מהם לא מתקיים התנאי <ref href="#point_24">שבסעיף 24(א)(9)</ref>, אם סבר כי הדבר עולה בקנה אחד עם טובת הילד;</p>
+                </content>
+              </point>
+              <point eId="point_29__point_2">
+                <num>(2)</num>
+                <list>
+                  <intro>
+                    <p>אם הושם אצל המבקש ילד, התקיימו כל אלה:</p>
+                  </intro>
+                  <point eId="point_29__point_2__point_א">
+                    <num>(א)</num>
+                    <content>
+                      <p>הוכח כי המבקש פועל דרך קבע להבטיח את שלום הילד שהושם אצלו, את רווחתו ואת התפתחותו;</p>
+                    </content>
+                  </point>
+                  <point eId="point_29__point_2__point_ב">
+                    <num>(ב)</num>
+                    <content>
+                      <p>המבקש הביע את רצונו להמשיך ולשמש אומן לילד שהושם אצלו ונתן את התחייבותו לכך;</p>
+                    </content>
+                  </point>
+                  <point eId="point_29__point_2__point_ג">
+                    <num>(ג)</num>
+                    <content>
+                      <p>מנחה האומנה שמונה לילד שמע את הילד שהושם אצל האומן, לעניין השמתו במשפחת האומנה;</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_29__point_3">
+                <num>(3)</num>
+                <content>
+                  <p>המבקש עמד בהכשרות ובהדרכות שנקבעו לו כאמור <ref href="#point_47">בסעיף 47(ג)</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_29__point_4">
+                <num>(4)</num>
+                <content>
+                  <p>המבקש שיתף פעולה עם המשרד והגוף המפעיל או עם מי מטעמם בכל תקופת הרישיון.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_30">
+            <heading>
+              <authorialNote placement="side">
+                <p>ביטול רישיון אומנה, התלייתו או סיוגו</p>
+              </authorialNote>
+            </heading>
+            <num>30.</num>
+            <list>
+              <point eId="point_30__point_א">
+                <num>(א)</num>
+                <list>
+                  <intro>
+                    <p>הממונה על רישוי האומנה רשאי, לאחר שנתן למי שבידו רישיון אומנה הזדמנות להשמיע את טענותיו ובכפוף להוראות סעיף קטן (ב), לבטל את הרישיון או להתלותו, בהתקיים אחד מאלה:</p>
+                  </intro>
+                  <point eId="point_30__point_א__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>הרישיון ניתן על יסוד מידע כוזב או שגוי;</p>
+                    </content>
+                  </point>
+                  <point eId="point_30__point_א__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>חדל להתקיים תנאי מהתנאים למתן הרישיון או לחידושו;</p>
+                    </content>
+                  </point>
+                  <point eId="point_30__point_א__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>הופרו תנאי מתנאי הרישיון או הוראה מההוראות לפי חוק זה.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_30__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>בלי לגרוע מהוראות סעיף קטן (א), נודע לממונה על רישוי האומנה מידע שיש בו כדי להשפיע על מתן רישיון אומנה, רשאי הוא, משיקולים של שמירה על טובת הילד ולאחר שנתן למי שבידו רישיון האומנה הזדמנות להשמיע את טענותיו, לסייג את רישיון האומנה או להתנותו בתנאים, לרבות בדרישה להערכת כשירות מחודשת על ידי מנחה אומנה; החלטה בעניין תינתן בתוך 30 ימים מיום שמידע כאמור נודע לממונה על רישוי האומנה.</p>
+                </content>
+              </point>
+              <point eId="point_30__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>אין בהוראות סעיף זה כדי לגרוע מכל סמכות אחרת לפי חוק זה, לרבות סמכות להוצאת ילד בדחיפות ממשפחת האומנה.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+        </list>
+      </chapter>
+      <chapter eId="chp_ד">
+        <num>פרק ד׳:</num>
+        <title>
+          <content>
+            <p>השמה וסיום אומנה</p>
+          </content>
+        </title>
+        <section eId="chp_ד__sec_א">
+          <num>סימן א׳:</num>
+          <title>
+            <content>
+              <p>תהליך ההשמה</p>
+            </content>
+          </title>
+          <list>
+            <point eId="point_31">
+              <heading>
+                <authorialNote placement="side">
+                  <p>תהליך ההשמה</p>
+                </authorialNote>
+              </heading>
+              <num>31.</num>
+              <list>
+                <point eId="point_31__point_א">
+                  <num>(א)</num>
+                  <content>
+                    <p>השמת ילד תיעשה בהחלטה של הגורם המוסמך; החלטה כאמור של גורם מוסמך שאינו בית משפט או ועדת אבחון טעונה אישור של בית משפט או את הסכמת הורי הילד.</p>
+                  </content>
+                </point>
+                <point eId="point_31__point_ב">
+                  <num>(ב)</num>
+                  <list>
+                    <intro>
+                      <p>תהליך ההשמה יימשך כל עוד הילד הוא בגדר ילד כהגדרתו בחוק זה ונמצא במשפחת אומנה, וטרם ניתן לגביו אחד מאלה:</p>
+                    </intro>
+                    <point eId="point_31__point_ב__point_1">
+                      <num>(1)</num>
+                      <content>
+                        <p>החלטת הגורם המוסמך על החזרתו לבית הוריו;</p>
+                      </content>
+                    </point>
+                    <point eId="point_31__point_ב__point_2">
+                      <num>(2)</num>
+                      <content>
+                        <p>החלטת הגורם המוסמך על העברתו למסגרת השמה חוץ־ביתית אחרת שאינה אומנה;</p>
+                      </content>
+                    </point>
+                    <point eId="point_31__point_ב__point_3">
+                      <num>(3)</num>
+                      <content>
+                        <p>צו לפי <ref href="/akn/il/act/PrimaryLegislation/1981-05-28/146875">חוק אימוץ ילדים</ref>.</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+                <point eId="point_31__point_ג">
+                  <num>(ג)</num>
+                  <content>
+                    <p>בית משפט או ועדת תכנון טיפול והערכה ישקלו את האפשרות להמליץ על פתיחה בהליכי אימוץ לפי <ref href="/akn/il/act/PrimaryLegislation/1981-05-28/146875">חוק אימוץ ילדים</ref>, אם לאחר שקילת זכותו של ילד לפי <ref href="#point_3">סעיף 3(א)</ref> לגדול בבית הוריו או לחזור אליו, נראה כי לא ניתן להחזירו לביתו למרות מאמצים סבירים שנעשו לשם כך.</p>
+                  </content>
+                </point>
+                <point eId="point_31__point_ד">
+                  <num>(ד)</num>
+                  <list>
+                    <point eId="point_31__point_ד__point_1">
+                      <num>(1)</num>
+                      <content>
+                        <p>הסכמת הורי ילד להשמתו, אם ניתנה, תינתן בכתב.</p>
+                      </content>
+                    </point>
+                    <point eId="point_31__point_ד__point_2">
+                      <num>(2)</num>
+                      <content>
+                        <p>ניתנה הסכמת הורי ילד להשמתו והודיעו ההורים בכתב על חזרה מהסכמתם, תעמוד השמתו של הילד בתוקפה למשך 30 ימים לכל המאוחר ממועד ההודעה, ועניינו של הילד יובא להחלטת הגורם המוסמך בתוך התקופה האמורה.</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+              </list>
+            </point>
+            <point eId="point_32">
+              <heading>
+                <authorialNote placement="side">
+                  <p>התאמת משפחת אומנה לילד</p>
+                </authorialNote>
+              </heading>
+              <num>32.</num>
+              <list>
+                <intro>
+                  <p>בחירת משפחת אומנה בעבור ילד תיעשה תוך חתירה למציאת מסגרת האומנה המתאימה ביותר לצרכיו המיוחדים, ותוך שמירה על זכויותיו לפי <ref href="#chp_ב">פרק ב׳</ref> ועל העקרונות שלהלן, ובלבד שהדבר עולה בקנה אחד עם טובתו:</p>
+                </intro>
+                <point eId="point_32__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>ההשמה תהיה ככל האפשר בקרב קרובי משפחתו של הילד;</p>
+                  </content>
+                </point>
+                <point eId="point_32__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>אם מתקיים צורך בהשמה של ילד ושל אחיו, תיבחר ככל האפשר משפחת אומנה שתוכל לקלוט את כל האחים יחדיו, ותמנע את הצורך בהפרדתם;</p>
+                  </content>
+                </point>
+                <point eId="point_32__point_3">
+                  <num>(3)</num>
+                  <content>
+                    <p>מקום מגורי משפחת האומנה יהיה ככל האפשר בקרבת הורי הילד או בני משפחה שיש לו עמם קשרים משמעותיים;</p>
+                  </content>
+                </point>
+                <point eId="point_32__point_4">
+                  <num>(4)</num>
+                  <content>
+                    <p>במשפחת האומנה יתגוררו בו־זמנית לכל היותר חמישה ילדים באומנה.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_33">
+              <heading>
+                <authorialNote placement="side">
+                  <p>מעמד ההורים, השתתפות וקבלת מידע</p>
+                </authorialNote>
+              </heading>
+              <num>33.</num>
+              <list>
+                <point eId="point_33__point_א">
+                  <num>(א)</num>
+                  <content>
+                    <p>אחריותו, חובתו וזכותו של הורה שילדו הושם באומנה, לקיים קשר אישי עמו, בכפוף לתכנית הטיפול שנקבעה לילד ולהחלטת בית המשפט.</p>
+                  </content>
+                </point>
+                <point eId="point_33__point_ב">
+                  <num>(ב)</num>
+                  <content>
+                    <p>כל פעולה או החלטה בנוגע להשמת ילד ובנוגע לילד באומנה ייעשו מתוך הכרה באחריותם, בחובותיהם ובזכויותיהם של ההורים כלפי ילדם ובשותפות עמם, ככל האפשר; להוריו של הילד זכות להביע את דעתם בתהליכי תכנון טיפול והחלטה לגבי ילדם, ויינתן משקל ראוי לדעתם.</p>
+                  </content>
+                </point>
+                <point eId="point_33__point_ג">
+                  <num>(ג)</num>
+                  <list>
+                    <point eId="point_33__point_ג__point_1">
+                      <num>(1)</num>
+                      <list>
+                        <intro>
+                          <p>להוריו של ילד שהושם באומנה הזכות לקבל מידע לגבי ילדם בנוגע לכל אלה:</p>
+                        </intro>
+                        <point eId="point_33__point_ג__point_1__point_א">
+                          <num>(א)</num>
+                          <content>
+                            <p>תהליכי תכנון הטיפול וההחלטה הנוגעים להשמת ילדם באומנה, ובכלל זה השיקולים שביסודם וזכויותיהם הנוגעות להליכים אלה;</p>
+                          </content>
+                        </point>
+                        <point eId="point_33__point_ג__point_1__point_ב">
+                          <num>(ב)</num>
+                          <content>
+                            <p>פרטים על אודות משפחת האומנה שבה הושם ילדם;</p>
+                          </content>
+                        </point>
+                        <point eId="point_33__point_ג__point_1__point_ג">
+                          <num>(ג)</num>
+                          <content>
+                            <p>מצבו של ילדם באומנה, ובכלל זה מידע הנוגע למצבו הנפשי והגופני, הישגיו בלימודים, תפקודו, התנהגותו והתפתחותו;</p>
+                          </content>
+                        </point>
+                        <point eId="point_33__point_ג__point_1__point_ד">
+                          <num>(ד)</num>
+                          <content>
+                            <p>מידע בכתב כאמור בסעיף קטן (ה)(1)(ג) עד (ה);</p>
+                          </content>
+                        </point>
+                        <point eId="point_33__point_ג__point_1__point_ה">
+                          <num>(ה)</num>
+                          <content>
+                            <p>סיום אומנה או שינוי מהותי בה.</p>
+                          </content>
+                        </point>
+                      </list>
+                    </point>
+                    <point eId="point_33__point_ג__point_2">
+                      <num>(2)</num>
+                      <content>
+                        <p>מידע כאמור בפסקה (1) יימסר להורים בשפתם ובצורה המובנת להם, על ידי הגורם המוסמך או מנחה אומנה שמונה לילד, לפי העניין.</p>
+                      </content>
+                    </point>
+                    <point eId="point_33__point_ג__point_3">
+                      <num>(3)</num>
+                      <content>
+                        <p>לא יועבר מידע כאמור בסעיף קטן זה להורים אם יש חשש ממשי שמסירת המידע עלולה לגרום לילד פגיעה נפשית, רגשית או גופנית, או אם נקבע סייג להעברת המידע בהוראות כל דין או בהחלטת בית משפט, לרבות לעניין אומנה חסויה כאמור <ref href="#point_34">בסעיף 34</ref>.</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+                <point eId="point_33__point_ד">
+                  <num>(ד)</num>
+                  <content>
+                    <p>השמת ילד תיעשה תוך חתירה, ככל האפשר, להשגת ההסכמה של הוריו בתוך זמן סביר להוצאתו מהבית, להשמתו במשפחת האומנה ולתכנית הטיפול שהוכנה בעבורו.</p>
+                  </content>
+                </point>
+                <point eId="point_33__point_ה">
+                  <num>(ה)</num>
+                  <list>
+                    <point eId="point_33__point_ה__point_1">
+                      <num>(1)</num>
+                      <list>
+                        <intro>
+                          <p>התקבלה החלטת גורם מוסמך על השמת ילד במשפחת אומנה, בהסכמת הוריו, ייערך, ככל האפשר ובתוך זמן סביר, הסכם בין ההורים למחלקה לשירותים חברתיים ברשות המקומית שבה מתגוררים ההורים, ובו יפורטו, בין השאר, כל אלה:</p>
+                        </intro>
+                        <point eId="point_33__point_ה__point_1__point_א">
+                          <num>(א)</num>
+                          <content>
+                            <p>עיקרי תכנית הטיפול;</p>
+                          </content>
+                        </point>
+                        <point eId="point_33__point_ה__point_1__point_ב">
+                          <num>(ב)</num>
+                          <content>
+                            <p>הסכמת ההורים למסירת מידע על אודות הילד שנדרש לשם הטיפול בילד, למשפחת האומנה, לגוף המפעיל, למנחה אומנה ולמפקח;</p>
+                          </content>
+                        </point>
+                        <point eId="point_33__point_ה__point_1__point_ג">
+                          <num>(ג)</num>
+                          <content>
+                            <p>מידע בדבר האחריות, החובות והסמכויות של משפחת האומנה, הגוף המפעיל, מנחה אומנה ומפקח הנוגעות לילד;</p>
+                          </content>
+                        </point>
+                        <point eId="point_33__point_ה__point_1__point_ד">
+                          <num>(ד)</num>
+                          <content>
+                            <p>הגבלות שחלות לפי הוראות בית המשפט על סמכויות ההורים בעת שהילד שוהה אצלם;</p>
+                          </content>
+                        </point>
+                        <point eId="point_33__point_ה__point_1__point_ה">
+                          <num>(ה)</num>
+                          <content>
+                            <p>פירוט החובות והזכויות של ההורים כלפי המחלקה לשירותים חברתיים ברשות המקומית שבה הם מתגוררים וכלפי הגוף המפעיל, ובכלל זה לעניין התשלומים בעבור שהותו של הילד במשפחת האומנה והטיפול בו;</p>
+                          </content>
+                        </point>
+                        <point eId="point_33__point_ה__point_1__point_ו">
+                          <num>(ו)</num>
+                          <content>
+                            <p>התאמות הנדרשות לצרכים המיוחדים של הילד, שיוסכמו בין הצדדים להסכם.</p>
+                          </content>
+                        </point>
+                      </list>
+                    </point>
+                    <point eId="point_33__point_ה__point_2">
+                      <num>(2)</num>
+                      <content>
+                        <p>הוארכה בהסכמת ההורים תקופת ההשמה לפי תכנית טיפול, יוארך תוקף ההסכם; חלו שינויים מהותיים במשפחת האומנה או בתכנית הטיפול, יותאם ההסכם לשינויים האמורים בחתימת הצדדים להסכם.</p>
+                      </content>
+                    </point>
+                    <point eId="point_33__point_ה__point_3">
+                      <num>(3)</num>
+                      <content>
+                        <p>ההסכם ייערך, ככל האפשר, גם אם ההחלטה על השמת הילד היתה באישור בית המשפט או ועדת אבחון ובלא הסכמת הוריו.</p>
+                      </content>
+                    </point>
+                    <point eId="point_33__point_ה__point_4">
+                      <num>(4)</num>
+                      <content>
+                        <p>עותק מההסכם, ובכלל זה הארכותיו והתאמות בו, יימסר להורים.</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+              </list>
+            </point>
+            <point eId="point_34">
+              <heading>
+                <authorialNote placement="side">
+                  <p>אומנה חסויה</p>
+                </authorialNote>
+              </heading>
+              <num>34.</num>
+              <list>
+                <point eId="point_34__point_א">
+                  <num>(א)</num>
+                  <content>
+                    <p>אומנה חסויה היא אומנה שפרטים מזהים הנוגעים למקום המגורים או לעניינים אחרים הקשורים לה חסויים מפני הורי הילד המושם בה או מפני גורמים אחרים, לפי קביעת גורם כאמור בסעיף קטן (ב), בשל סכנה הנשקפת לילד או למשפחת האומנה מחשיפת פרטים מזהים או בשל טעמים מיוחדים שיירשמו ובשים לב להשלכות קביעת חסיון האומנה על הקשר שבין ההורים לילדם ועל הסיכויים לחזרת הילד לבית הוריו.</p>
+                  </content>
+                </point>
+                <point eId="point_34__point_ב">
+                  <num>(ב)</num>
+                  <content>
+                    <p>קביעת חסיון משפחת האומנה והאנשים שמפניהם תהיה חסויה תיעשה על ידי בית משפט או ועדת אבחון, או בהסכמת הורי הילד.</p>
+                  </content>
+                </point>
+                <point eId="point_34__point_ג">
+                  <num>(ג)</num>
+                  <content>
+                    <p>על השמה באומנה חסויה יחולו הוראות חוק זה, בשינויים המחויבים מתוקף היותה חסויה ולפי הוראות בית המשפט.</p>
+                  </content>
+                </point>
+                <point eId="point_34__point_ד">
+                  <num>(ד)</num>
+                  <content>
+                    <p>גורם המפעיל סמכות לפי חוק זה ומשפחת האומנה ייתנו את דעתם להיות ההשמה חסויה בפעולותיהם ובהחלטותיהם, וינקטו את כל הפעולות הנדרשות לשם שמירת חסיון האומנה, לרבות יידוע גורמים נוספים על החיסיון, אם הדבר נדרש.</p>
+                  </content>
+                </point>
+                <point eId="point_34__point_ה">
+                  <num>(ה)</num>
+                  <content>
+                    <p>הוראות <ref href="#point_43">סעיף 43(ד) ו־(ה)</ref> לא יחולו על אומנה חסויה, אם לדעת מנחה האומנה שמונה לילד יש חשש שהפעולות שיש לנקוט לפי הסעיף האמור עלולות לפגוע בחסיונה של משפחת האומנה.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_35">
+              <heading>
+                <authorialNote placement="side">
+                  <p>הורה שנשללה או הוגבלה אפוטרופסותו</p>
+                </authorialNote>
+              </heading>
+              <num>35.</num>
+              <content>
+                <p>הוראות <ref href="#point_31">סעיפים 31</ref><ref href="#point_33">ו־33</ref> לא יחולו לגבי הורה שאפוטרופסותו נשללה, ולגבי הורה שאפוטרופסותו הוגבלה – יחולו לגביו בהתאם למידה שבה הוגבלה אפוטרופסותו, והכול אם לא נקבע אחרת בתכנית טיפול או בהחלטת בית משפט.</p>
+              </content>
+            </point>
+          </list>
+        </section>
+        <section eId="chp_ד__sec_ב">
+          <num>סימן ב׳:</num>
+          <title>
+            <content>
+              <p>תכנית טיפול, איתור משפחת אומנה וליווי אישי</p>
+            </content>
+          </title>
+          <list>
+            <point eId="point_36">
+              <heading>
+                <authorialNote placement="side">
+                  <p>תכנית טיפול</p>
+                </authorialNote>
+              </heading>
+              <num>36.</num>
+              <list>
+                <point eId="point_36__point_א">
+                  <num>(א)</num>
+                  <list>
+                    <intro>
+                      <p>קבע גורם מוסמך כי ילד יושם במשפחת אומנה, יכין בעבורו גורם מוסמך תכנית טיפול כללית ובה פירוט בכתב לגבי כל אלה:</p>
+                    </intro>
+                    <point eId="point_36__point_א__point_1">
+                      <num>(1)</num>
+                      <content>
+                        <p>מטרות תכנית הטיפול;</p>
+                      </content>
+                    </point>
+                    <point eId="point_36__point_א__point_2">
+                      <num>(2)</num>
+                      <content>
+                        <p>סוג האומנה המתאימה לילד ומאפייניה, לרבות הצורך באומנה חסויה;</p>
+                      </content>
+                    </point>
+                    <point eId="point_36__point_א__point_3">
+                      <num>(3)</num>
+                      <content>
+                        <p>הצורך לשקול מתן חינוך מיוחד לילד או התאמות מיוחדות לילד עם מוגבלות;</p>
+                      </content>
+                    </point>
+                    <point eId="point_36__point_א__point_4">
+                      <num>(4)</num>
+                      <content>
+                        <p>משכה הצפוי של האומנה;</p>
+                      </content>
+                    </point>
+                    <point eId="point_36__point_א__point_5">
+                      <num>(5)</num>
+                      <content>
+                        <p>מאפייני הקשר של הילד עם הוריו ומשפחתו, דרכיו ותדירותו, לרבות האמצעים שיש לנקוט כדי לסייע להורים ביצירת תנאים שיאפשרו את שמירת הקשר הרציף עם ילדם ואת חזרת הילד לביתם, והכול בהתאם למטרות תכניות הטיפול;</p>
+                      </content>
+                    </point>
+                    <point eId="point_36__point_א__point_6">
+                      <num>(6)</num>
+                      <content>
+                        <p>אופן ההכנה והליווי של הילד והוריו לקראת ההשמה במשפחת האומנה, לרבות דרכים לביצועם;</p>
+                      </content>
+                    </point>
+                    <point eId="point_36__point_א__point_7">
+                      <num>(7)</num>
+                      <content>
+                        <p>הצורך לשקול מינוי אפוטרופוס לילד במקום ההורה או נוסף עליו, או בשלילה או הגבלה של אפוטרופסות;</p>
+                      </content>
+                    </point>
+                    <point eId="point_36__point_א__point_8">
+                      <num>(8)</num>
+                      <content>
+                        <p>קביעת הגורמים האחראים לביצוע כל אחת מהפעולות שיש לבצע כחלק מתכניות הטיפול בילד ובהוריו ודרכי התיאום ביניהם;</p>
+                      </content>
+                    </point>
+                    <point eId="point_36__point_א__point_9">
+                      <num>(9)</num>
+                      <content>
+                        <p>מועדים לביצוע מעקב תקופתי.</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+                <point eId="point_36__point_ב">
+                  <num>(ב)</num>
+                  <content>
+                    <p>בקביעת תכנית טיפול יובאו בחשבון מצבו הסוציאלי, החינוכי, הרפואי, הפסיכולוגי, ההתפתחותי־תפקודי והקוגניטיבי של הילד ולעניין סעיף קטן (א)(5) – גם של הוריו, וכן רצון הילד בנוגע לתכנית הטיפול בעניינו בתחומים השונים, בהתאם להוראות <ref href="#point_11">סעיף 11</ref>.</p>
+                  </content>
+                </point>
+                <point eId="point_36__point_ג">
+                  <num>(ג)</num>
+                  <list>
+                    <point eId="point_36__point_ג__point_1">
+                      <num>(1)</num>
+                      <content>
+                        <p>בתוך שלושה חודשים מיום הגעת הילד למשפחת האומנה, על מנחה האומנה שמונה לילד לבצע הערכה ראשונית של מצב הילד, יכולותיו וצרכיו המיוחדים ולקבוע תכנית טיפול מפורטת לילד, בהתבסס על עיקרי תכנית הטיפול הכללית.</p>
+                      </content>
+                    </point>
+                    <point eId="point_36__point_ג__point_2">
+                      <num>(2)</num>
+                      <content>
+                        <p>תכנית הטיפול המפורטת תכלול את השירותים והפעולות שיש לנקוט בנוגע לילד או לתת לו, בין השאר בשים לב לשינויים בצרכיו, ולהיכרות של משפחת האומנה עם הילד.</p>
+                      </content>
+                    </point>
+                    <point eId="point_36__point_ג__point_3">
+                      <num>(3)</num>
+                      <content>
+                        <p>תכנית טיפול מפורטת, לרבות פירוט דרכי יישומה כאמור בפסקה (2), תימסר על ידי הגוף המפעיל למפקח ולמנהל המחלקה לשירותים חברתיים ברשות המקומית שבה מתגוררים הורי הילד לא יאוחר משישה חודשים מיום הגעת הילד למשפחת האומנה.</p>
+                      </content>
+                    </point>
+                    <point eId="point_36__point_ג__point_4">
+                      <num>(4)</num>
+                      <content>
+                        <p>הגוף המפעיל יבדוק את תכנית הטיפול המפורטת, ידון בה ויבחן עדכונים הנדרשים בה אחת לשנה לפחות ממועד ההשמה במשפחת האומנה, ולגבי ילד שטרם מלאו לו שש שנים – אחת לשישה חודשים לפחות, וכן במצבי משבר; הגוף המפעיל ימסור במסגרת המעקב כאמור דיווחים לגורם המוסמך על ביצוע תכנית הטיפול והצעות לעדכונים בה.</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+              </list>
+            </point>
+            <point eId="point_37">
+              <heading>
+                <authorialNote placement="side">
+                  <p>איתור משפחת אומנה מתאימה מקרב בעלי רישיון אומנה</p>
+                </authorialNote>
+              </heading>
+              <num>37.</num>
+              <list>
+                <point eId="point_37__point_א">
+                  <num>(א)</num>
+                  <content>
+                    <p>עם העברת תכנית טיפול כללית לגוף המפעיל ימנה מנהל הגוף המפעיל מנחה אומנה לילד ויעביר למחלקה לשירותים חברתיים ברשות המקומית שבה מתגוררים הורי הילד הודעה על מינוי מנחה האומנה, זהותו ופרטי ההתקשרות עמו.</p>
+                  </content>
+                </point>
+                <point eId="point_37__point_ב">
+                  <num>(ב)</num>
+                  <content>
+                    <p>מנהל הגוף המפעיל יגיש למפקח את המלצתו לעניין משפחות האומנה המתאימות ביותר לצרכיו המיוחדים של הילד, בהתחשב במכלול התנאים והזכויות הקבועים בחוק זה, שהביעו את נכונותן לשמש משפחת אומנה לילד.</p>
+                  </content>
+                </point>
+                <point eId="point_37__point_ג">
+                  <num>(ג)</num>
+                  <content>
+                    <p>לאחר קבלת ההמלצה של הגוף המפעיל, יחליט מפקח על משפחת האומנה שבה יושם הילד, והגוף המפעיל יפעל לביצוע ההשמה.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_38">
+              <heading>
+                <authorialNote placement="side">
+                  <p>עדיפות להשמה באומנת קרובים</p>
+                </authorialNote>
+              </heading>
+              <num>38.</num>
+              <list>
+                <point eId="point_38__point_א">
+                  <num>(א)</num>
+                  <content>
+                    <p>קבע הגורם המוסמך כי טובתו של הילד מחייבת את השמתו במשפחת אומנה לפי חוק זה, יש לנקוט מאמצים ככל האפשר לאיתור קרובי משפחה בגירים שבאפשרותם לשמש אומנים בעבורו; לעניין זה, ”קרוב משפחה“ – אח, אחות, סב, סבתא, דוד או דודה.</p>
+                  </content>
+                </point>
+                <point eId="point_38__point_ב">
+                  <num>(ב)</num>
+                  <content>
+                    <p>נמצא קרוב משפחה כאמור בסעיף קטן (א) שמבקש לגדל את הילד בביתו, ומתאים לשמש אומן לפי הוראות <ref href="#point_23">סעיפים 23 עד 26</ref>, בשינויים האמורים בסעיף קטן (ג), והגורם המוסמך קבע כי אומנה כאמור היא לטובת הילד, ישמש קרוב המשפחה אומן לילד, ומשפחתו משפחת אומנה (בחוק זה – אומנת קרובים).</p>
+                  </content>
+                </point>
+                <point eId="point_38__point_ג">
+                  <num>(ג)</num>
+                  <list>
+                    <intro>
+                      <p>על קרוב המשפחה ועל אומנת הקרובים יחולו כל ההוראות החלות על אומן ועל משפחת אומנה לפי חוק זה, ואולם –</p>
+                    </intro>
+                    <point eId="point_38__point_ג__point_1">
+                      <num>(1)</num>
+                      <content>
+                        <p>המפקח הארצי על האומנה רשאי לאשר השמת ילד באומנת קרובים, אף אם מספר הילדים שיהיו באומנה אצל האומן לאחר ההשמה יעלה על חמישה;</p>
+                      </content>
+                    </point>
+                    <point eId="point_38__point_ג__point_2">
+                      <num>(2)</num>
+                      <content>
+                        <p>הממונה על רישוי אומנה רשאי, לפי המלצת המפקח הארצי על האומנה, לאשר השמת ילד באומנת קרובים גם אם לא התקיימו התנאים <ref href="#point_24">שבסעיף 24(א)(2), (3), (6) ו־(7)</ref>;</p>
+                      </content>
+                    </point>
+                    <point eId="point_38__point_ג__point_3">
+                      <num>(3)</num>
+                      <content>
+                        <p>הממונה על רישוי אומנה רשאי, לפי המלצת מפקח ועל פי חוות דעת של מנחה אומנה לתת רישיון אומנה זמני, שתוקפו לא יעלה על שישה חודשים, לקרוב משפחה של ילד המתגורר אצלו והגיש בקשה לרישיון אומנה, ובלבד שמתקיימים בו התנאים <ref href="#point_24">שבסעיף 24(א)(4) ו־(5)</ref>, לא מתקיים בו התנאי <ref href="#point_24">שבסעיף 24(ב)</ref>, וילדו לא הוכרז קטין נזקק כמשמעותו <ref href="/akn/il/act/PrimaryLegislation/1960-07-14/150256#point_2">בסעיף 2 לחוק הנוער</ref>, או שבמועד הגשת בקשתו למתן רישיון אומנה חלפו שלוש שנים לפחות מתום הכרזה כאמור.</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+              </list>
+            </point>
+            <point eId="point_39">
+              <heading>
+                <authorialNote placement="side">
+                  <p>מנחה אומנה</p>
+                </authorialNote>
+              </heading>
+              <num>39.</num>
+              <list>
+                <point eId="point_39__point_א">
+                  <num>(א)</num>
+                  <content>
+                    <p>מנחה האומנה שמונה לילד ישמש המלווה האישי של הילד ואיש הקשר הקבוע שלו בתקופת השמתו באומנה, לרבות בעת מעבר בין משפחות אומנה; ככל האפשר יתקיים רצף טיפולי בליווי האישי.</p>
+                  </content>
+                </point>
+                <point eId="point_39__point_ב">
+                  <num>(ב)</num>
+                  <list>
+                    <intro>
+                      <p>מנחה אומנה שמונה לילד –</p>
+                    </intro>
+                    <point eId="point_39__point_ב__point_1">
+                      <num>(1)</num>
+                      <content>
+                        <p>ייפגש עם הילד סמוך ככל האפשר למועד מינויו, יסביר לו את תפקידיו כמנחה אומנה ויידע אותו בדבר הדרכים שבהן יוכל הילד ליצור עמו קשר, וכן מיהם הגורמים הנוספים שאליהם יוכל הילד לפנות אם מתעוררת בעיה בהשמתו או במהלכה, לרבות זכותו להתלונן בכל עת ודרכי הגשת תלונה; המידע כאמור יימסר לילד בעל פה ובכתב, בשפה ובאופן המובנים לו, ובדרך המתאימה לגילו, לכשריו המתפתחים ולצרכיו המיוחדים;</p>
+                      </content>
+                    </point>
+                    <point eId="point_39__point_ב__point_2">
+                      <num>(2)</num>
+                      <content>
+                        <p>יקיים קשר אישי ורציף עם הילד ויעקוב אחר מצבו בכל תקופת השמתו באומנה, ובין השאר, יקיים מפגשים אישיים עם הילד בהתאם לתכנית הטיפול של הילד ולמצבו, אחת לחודש לפחות; מנחה האומנה יתעד את תוכן המפגשים בכתב;</p>
+                      </content>
+                    </point>
+                    <point eId="point_39__point_ב__point_3">
+                      <num>(3)</num>
+                      <content>
+                        <p>יהיה אחראי ליישום תכנית הטיפול של הילד, ישמע את הילד בכל שלב של החלטה לעניין תכנית הטיפול או לשם הליך הערכת כשירות או חוות דעת לעניין האומן ויכין דיווח במסגרת המעקב התקופתי בעניינו של הילד;</p>
+                      </content>
+                    </point>
+                    <point eId="point_39__point_ב__point_4">
+                      <num>(4)</num>
+                      <content>
+                        <p>יקיים קשר עם המחלקה לשירותים חברתיים ברשות המקומית שבה מתגוררים הורי הילד, לרבות עם העובד הסוציאלי המטפל בהוריו של הילד, בין השאר לשם הבטחת הקשר בין הילד להוריו, וכן יקיים קשר עם עובד סוציאלי לפי <ref href="/akn/il/act/PrimaryLegislation/1960-07-14/150256">חוק הנוער (טיפול והשגחה)</ref> או עם עובד סוציאלי לפי <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/חוק_הסעד_טיפול_באנשים_עם_מוגבלות_שכלית_התפתחותית">חוק הסעד (טיפול באנשים עם מוגבלות שכלית–התפתחותית)</ref> שטיפל בעניינו של הילד;</p>
+                      </content>
+                    </point>
+                    <point eId="point_39__point_ב__point_5">
+                      <num>(5)</num>
+                      <content>
+                        <p>ילווה את משפחת האומנה וידריך אותה;</p>
+                      </content>
+                    </point>
+                    <point eId="point_39__point_ב__point_6">
+                      <num>(6)</num>
+                      <content>
+                        <p>יקיים קשר עם מוסד החינוך שבו לומד הילד, עם גורמי חינוך נוספים, גורמי בריאות וגורמי רווחה ועם כל גורם אחר הנוגע בדבר;</p>
+                      </content>
+                    </point>
+                    <point eId="point_39__point_ב__point_7">
+                      <num>(7)</num>
+                      <content>
+                        <p>ידווח לממונה על רישוי אומנה על כל שינוי שנודע לו עליו, שיש בו כדי להשפיע על רישיון האומנה שניתן לאומן של הילד;</p>
+                      </content>
+                    </point>
+                    <point eId="point_39__point_ב__point_8">
+                      <num>(8)</num>
+                      <content>
+                        <p>ידווח על אירועים משמעותיים הנוגעים לילד, בהתאם להנחיות ולנהלים שנקבעו לעניין זה;</p>
+                      </content>
+                    </point>
+                    <point eId="point_39__point_ב__point_9">
+                      <num>(9)</num>
+                      <content>
+                        <p>יקיים קשר עם המוסד לביטוח לאומי לעניין זכויות המגיעות לילד או בעדו ולעניין התקיימות התנאים לקבלתן.</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+                <point eId="point_39__point_ג">
+                  <num>(ג)</num>
+                  <list>
+                    <point eId="point_39__point_ג__point_1">
+                      <num>(1)</num>
+                      <content>
+                        <p>מנחה אומנה שמונה לילד רשאי לקבל מכל אדם הנוגע בדבר מידע הנוגע לאותו ילד, במידה שהמידע נדרש לשם מילוי תפקידו.</p>
+                      </content>
+                    </point>
+                    <point eId="point_39__point_ג__point_2">
+                      <num>(2)</num>
+                      <content>
+                        <p>על אף האמור בכל דין, הושם ילד באומנה לפי צו בית משפט לפי <ref href="/akn/il/act/PrimaryLegislation/1960-07-14/150256#point_3">סעיף 3(4) לחוק הנוער</ref>, או לפי החלטת גורם מוסמך בהסכמת הוריו כאמור <ref href="#point_33">בסעיף 33(ה)</ref>, ימסור כל אדם העוסק בתחומי בריאות, חינוך או רווחה, למנחה האומנה שמונה לילד, לפי דרישתו, מידע הנוגע לילד הנדרש לו לשם מילוי תפקידו.</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+                <point eId="point_39__point_ד">
+                  <num>(ד)</num>
+                  <content>
+                    <p>נודע למנחה האומנה כי הילד מעוניין לסיים את השמתו במשפחת האומנה שבה הושם או סבר כי יש מקום לבחון מחדש את תכנית הטיפול של הילד נוסף על הבחינה הנעשית במעקב התקופתי כאמור <ref href="#point_36">בסעיף 36</ref>, יודיע על כך בהקדם האפשרי למפקח הארצי על האומנה ולמחלקה לשירותים חברתיים ברשות המקומית שבה מתגוררים הורי הילד כדי להביא את העניין לפני הגורם המוסמך.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+          </list>
+        </section>
+        <section eId="chp_ד__sec_ג">
+          <num>סימן ג׳:</num>
+          <title>
+            <content>
+              <p>סיום אומנה</p>
+            </content>
+          </title>
+          <list>
+            <point eId="point_40">
+              <heading>
+                <authorialNote placement="side">
+                  <p>סיום אומנה לבקשת משפחת האומנה</p>
+                </authorialNote>
+              </heading>
+              <num>40.</num>
+              <content>
+                <p>אומן המעוניין לסיים אומנה לילד שהושם אצלו ימסור למנחה האומנה שמונה לילד הודעה בכתב על רצונו בכך ועל הנימוקים לכך, בהקדם האפשרי ולפחות שלושה חודשים לפני סיום האומנה; מנחה האומנה יידע את המחלקה לשירותים חברתיים ברשות המקומית שבה מתגוררים הורי הילד, שתחויב להודיע להוריו כאמור, ועניינו של הילד יובא לדיון לפני הגורם המוסמך.</p>
+              </content>
+            </point>
+            <point eId="point_41">
+              <heading>
+                <authorialNote placement="side">
+                  <p>הוצאת ילד בדחיפות ממשפחת האומנה</p>
+                </authorialNote>
+              </heading>
+              <num>41.</num>
+              <list>
+                <point eId="point_41__point_א">
+                  <num>(א)</num>
+                  <content>
+                    <p>התקיימו נסיבות המחייבות את הוצאת הילד בדחיפות ממשפחת האומנה, יביא מנהל הגוף המפעיל את העניין לפני מפקח ויידע את המחלקה לשירותים חברתיים ברשות המקומית שבה מתגוררים הורי הילד, שתחויב להודיע להורי הילד בתוך זמן סביר, ואם הילד הוצא בצו מבית הוריו – גם את העובד הסוציאלי לפי <ref href="/akn/il/act/PrimaryLegislation/1960-07-14/150256">חוק הנוער (טיפול והשגחה)</ref> או העובד הסוציאלי לפי <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/חוק_הסעד_טיפול_באנשים_עם_מוגבלות_שכלית_התפתחותית">חוק הסעד (טיפול באנשים עם מוגבלות שכלית–התפתחותית)</ref>, לפי העניין, ויפעל, בשיתוף עם מנחה האומנה שמונה לילד והמחלקה לשירותים חברתיים כאמור, למציאת מסגרת השמה חוץ־ביתית זמנית או קבועה לילד, ההולמת ככל האפשר את תכנית הטיפול בעניינו; המחלקה לשירותים חברתיים תדאג להביא את עניינו של הילד לפני הגורם המוסמך בלא דיחוי.</p>
+                  </content>
+                </point>
+                <point eId="point_41__point_ב">
+                  <num>(ב)</num>
+                  <content>
+                    <p>אין בהוראות <ref href="#chp_ד">פרק זה</ref> כדי לגרוע מהסמכויות הנתונות בידי עובד סוציאלי לפי <ref href="/akn/il/act/PrimaryLegislation/1960-07-14/150256">חוק הנוער (טיפול והשגחה)</ref> הפועל לפי <ref href="/akn/il/act/PrimaryLegislation/1960-07-14/150256#point_11">סעיף 11 לחוק הנוער</ref>, בידי עובד סוציאלי לפי <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/חוק_הסעד_טיפול_באנשים_עם_מוגבלות_שכלית_התפתחותית">חוק הסעד (טיפול באנשים עם מוגבלות שכלית–התפתחותית)</ref> הפועל לפי <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/חוק_הסעד_טיפול_באנשים_עם_מוגבלות_שכלית_התפתחותית#point_16">סעיף 16 לחוק הסעד (טיפול באנשים עם מוגבלות שכלית–התפתחותית)</ref> או בידי עובד סוציאלי לפי חוק האימוץ הפועל לפי <ref href="/akn/il/act/PrimaryLegislation/1981-05-28/146875#point_12">סעיף 12(ג) לחוק אימוץ ילדים</ref>.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+          </list>
+        </section>
+      </chapter>
+      <chapter eId="chp_ה">
+        <num>פרק ה׳:</num>
+        <title>
+          <content>
+            <p>מעמד האומן</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_42">
+            <heading>
+              <authorialNote placement="side">
+                <p>אחריות האומן</p>
+              </authorialNote>
+            </heading>
+            <num>42.</num>
+            <list>
+              <point eId="point_42__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>לאומן תהיה אחריות לטפל בילד, להשגיח עליו ולדאוג לצרכיו ולהתפתחותו, בדרך שהורה מסור היה נוהג בנסיבות העניין, בהתאם להוראות חוק זה ולהסכם כאמור <ref href="#point_47">בסעיף 47</ref>, ובהתאם לתכנית הטיפול של הילד.</p>
+                </content>
+              </point>
+              <point eId="point_42__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>בכל עניין ינהג האומן לטובת הילד.</p>
+                </content>
+              </point>
+              <point eId="point_42__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>אומן לילד לא ימסור את הילד לאחר באופן שיש בו משום התנערות מאחריותו או מחובותיו כלפי הילד; לעניין זה לא יראו מסירת ילד לאחר באישור מנחה אומנה שמונה לילד כהפרת סעיף זה.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_43">
+            <heading>
+              <authorialNote placement="side">
+                <p>סמכויות האומן</p>
+              </authorialNote>
+            </heading>
+            <num>43.</num>
+            <list>
+              <point eId="point_43__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>בכל עניין הקשור בחיי היום־יום של הילד, ובכלל זה בעניינים המנויים <ref href="#appendix_1">בתוספת הראשונה</ref>, תהיה לאומן סמכות בלעדית לתת הסכמה ולאשר פעולות של הילד ולייצגו, ככל הנדרש, לרבות בהליכים משפטיים למיצוי זכויותיו של הילד בעניינים האמורים, ולמעט הליכים נגד הורי הילד, והכול אלא אם כן הוגבלה סמכותו של האומן כאמור בסעיף קטן (ב).</p>
+                </content>
+              </point>
+              <point eId="point_43__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>סמכויותיו של אומן יכול שיוגבלו בהוראות ההסכם עם האומן כאמור <ref href="#point_47">בסעיף 47</ref>, בצו שיפוטי שניתן בעניין זה או בהחלטת הגורם המוסמך; הגבלת סמכות כאמור יכול שתוטל על אומן בכל שלב, לרבות טרם חתימת ההסכם בינו ובין המשרד, או לאחר תחילת האומנה.</p>
+                </content>
+              </point>
+              <point eId="point_43__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>על אף האמור בסעיף קטן (א), בעת שהותו של ילד שהושם באומנה, אצל הוריו, יהיו הוריו מוסמכים לתת הסכמה ולאשר פעולות של הילד ולייצגו בעניינים הכרוכים בטיפול היום־יומי השוטף שלהם בו, ככל הנדרש בעת שהותו עמם.</p>
+                </content>
+              </point>
+              <point eId="point_43__point_ד">
+                <num>(ד)</num>
+                <content>
+                  <p>בעניינים המנויים <ref href="#appendix_1_פרט_2">בפרטים 2 עד 5 בתוספת הראשונה</ref>, בייצוג בהליכים משפטיים כאמור בסעיף קטן (א), ובכל עניין אחר שפורט בהסכם עם האומן כאמור <ref href="#point_47">בסעיף 47</ref>, תחול על האומן החובה ליידע את הורי הילד, ישירות או באמצעות מנחה האומנה שמונה לילד, זמן סביר מראש על תכניותיו בקשר לילד ועל כוונתו לתת הסכמה, לאשר פעולה של הילד או לייצגו.</p>
+                </content>
+              </point>
+              <point eId="point_43__point_ה">
+                <num>(ה)</num>
+                <list>
+                  <point eId="point_43__point_ה__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>הודיע הורה לאומן על התנגדותו להפעלת סמכות בעניינים המנויים <ref href="#appendix_1">בתוספת הראשונה</ref> בידי האומן או על התנגדותו להפעלתה באופן מסוים, והם לא הגיעו לידי הסכמה, יודיע על כך האומן למנחה האומנה שמונה לילד וזה יפעל בהקדם האפשרי להבאת הצדדים לידי הסכמה; לא הגיעו הצדדים לידי הסכמה, יחליט מנחה האומנה בעניין; לא קיבל מי מהצדדים את הכרעת מנחה האומנה, רשאי הוא לבקש להביא את המחלוקת ואת עמדות הצדדים להכרעה לפני מפקח.</p>
+                    </content>
+                  </point>
+                  <point eId="point_43__point_ה__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>הודיע הורה לאומן על התנגדותו לייצוג הילד בהליכים משפטיים למיצוי זכויותיו של הילד כאמור בסעיף קטן (א), לא ינקוט האומן הליכים כאמור, אלא אם כן מינה אותו בית המשפט כאפוטרופוס לדין לאותו עניין.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_43__point_ו">
+                <num>(ו)</num>
+                <content>
+                  <p>אומן לא יהיה מוסמך לתת הסכמה, לאשר פעולות של הילד או לייצגו בעניינים המנויים <ref href="#appendix_2">בתוספת השנייה</ref>, בענייני מעמד אישי לרבות אימוץ, ובעניינים נוספים שנקבעו על ידי הגורם המוסמך; אין בהוראת סעיף קטן זה כדי לגרוע מהוראות כל דין הנוגעות לעניינים המנויים <ref href="#appendix_2">בתוספת השנייה</ref>.</p>
+                </content>
+              </point>
+              <point eId="point_43__point_ז">
+                <num>(ז)</num>
+                <content>
+                  <p>מצא מנחה אומנה, על סמך חוות דעת רפואית, כי ילד זקוק בהקדם לטיפול בעניין כאמור <ref href="#appendix_2_פרט_4">בפרט 4 או 5 בתוספת השנייה</ref>, ולא התקבלה הסכמת הורה הילד על אף מאמצים סבירים שנקט מנחה האומנה, בתוך זמן סביר ולא יאוחר מ־45 ימים ממועד חוות הדעת הרפואית, וסבר מנחה האומנה כי דחיית הטיפול עד לקבלת הסכמת ההורה אינה לטובת הילד, יפעל בהקדם האפשרי להבאת העניין לפני המחלקה לשירותים חברתיים ברשות המקומית שבה מתגוררים הורי הילד, כדי שתשקול פנייה לקבלת החלטת בית המשפט בעניין.</p>
+                </content>
+              </point>
+              <point eId="point_43__point_ח">
+                <num>(ח)</num>
+                <content>
+                  <p>על אף האמור <ref href="#chp_ה">בפרק זה</ref>, לאומן שמונה כאפוטרופוס לילד יהיו האחריות, החובות והזכויות ככל אפוטרופוס, בכפוף לעניינים ולהגבלות שנקבעו בצו המינוי או בהחלטת בית משפט, אם נקבעו.</p>
+                </content>
+              </point>
+              <point eId="point_43__point_ט">
+                <num>(ט)</num>
+                <content>
+                  <p>השר, באישור ועדת העבודה הרווחה והבריאות של הכנסת, רשאי לשנות בצו את <ref href="#appendix_1">התוספת הראשונה</ref> ואת <ref href="#appendix_2">התוספת השנייה</ref>.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_44">
+            <heading>
+              <authorialNote placement="side">
+                <p>שמיעת האומנים בדיונים</p>
+              </authorialNote>
+            </heading>
+            <num>44.</num>
+            <content>
+              <p>בתקופת שהותו של ילד אצל אומן, רשאי האומן להשמיע את דעתו בהליך המתנהל לפני הגורם המוסמך, בכל עניין הקשור לשלומו ולרווחתו של הילד ויינתן משקל ראוי לדעתו ולמידע הנמסר על ידו, והכול בשים לב לזכותם של הילד והוריו לפרטיות; ראש הגורם המוסמך רשאי שלא להביא לפני מי מהצדדים או המוזמנים לדיון דברים שהביע האומן, וכן רשאי הוא שלא לשמוע את האומן מנימוקים מיוחדים שיירשמו, ובלבד שדעתו בעניין כבר נשמעה.</p>
+            </content>
+          </point>
+          <point eId="point_45">
+            <heading>
+              <authorialNote placement="side">
+                <p>שיתוף בין אומנים</p>
+              </authorialNote>
+            </heading>
+            <num>45.</num>
+            <content>
+              <p>היו בני זוג אומנים, חובתם לפעול מתוך הסכמה בכל עניין שבתחום אחריותם וסמכותם כאומנים; הסכמתו של אחד מהם לפעולתו של רעהו יכולה להינתן מראש או למפרע, בפירוש או מכללא, לעניין מסוים או באופן כללי וחזקה על אומן שהסכים לפעולת רעהו כל עוד לא הוכח היפוכו של דבר; בעניין שאינו סובל דיחוי רשאי כל אחד מהאומנים לפעול על דעת עצמו.</p>
+            </content>
+          </point>
+          <point eId="point_46">
+            <heading>
+              <authorialNote placement="side">
+                <p>תשלומים לאומן ואפוטרופוסות על רכוש הילד</p>
+              </authorialNote>
+            </heading>
+            <num>46.</num>
+            <list>
+              <point eId="point_46__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>אומן יקבל מהמשרד, במישרין או באמצעות הגוף המפעיל, תשלומים בעבור הוצאות שיאפשרו לו לספק את צורכי הילד, לרבות צרכיו המיוחדים, בהתאם לתכנית הטיפול.</p>
+                </content>
+              </point>
+              <point eId="point_46__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>השר, באישור ועדת העבודה הרווחה והבריאות של הכנסת, יקבע את סוגי ההוצאות ותנאים וכללים לתשלום, את גובה התשלומים ומנגנון לעדכון סכומיהם, וכן כללים ומועדים לעניין ביצוע התשלומים.</p>
+                </content>
+              </point>
+              <point eId="point_46__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>לא יקבל אומן כספים מכל מקור אחר פרט לאמור בסעיפים קטנים (א) ו־(ז) לשם מימון החזקתו של הילד.</p>
+                </content>
+              </point>
+              <point eId="point_46__point_ד">
+                <num>(ד)</num>
+                <content>
+                  <p>האומן אינו זכאי לקבל כספים המגיעים לילד או בעדו, למעט כספים המשתלמים לילדים ברשות המקומית שבה מתגורר האומן או המשתלמים מכוח מוסד החינוך שבו לומד הילד, ולמעט כספים שהמפקח הארצי על האומנה אישר את קבלתם בידי האומן, בין דרך כלל ובין לעניין מסוים.</p>
+                </content>
+              </point>
+              <point eId="point_46__point_ה">
+                <num>(ה)</num>
+                <content>
+                  <p>לא יהיה אומן אפוטרופוס על רכושו של הילד; היו מגיעים לילד כספים, הטבות, תגמולים או גמלאות, מכל מקור שלא מכוח חוק זה, יפנה מנחה האומנה שמונה לילד למחלקה לשירותים חברתיים ברשות המקומית שבה מתגוררים הורי הילד כדי שתבחן את הצורך לנקוט הליכים למינוי אפוטרופוס על רכוש הילד.</p>
+                </content>
+              </point>
+              <point eId="point_46__point_ו">
+                <num>(ו)</num>
+                <list>
+                  <point eId="point_46__point_ו__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>הטבות ותגמולים המגיעים לילד לפי כל דין, וגמלאות שהילד זכאי להן מהמוסד לביטוח לאומי, למעט קצבת שאירים לפי <ref href="/akn/il/act/PrimaryLegislation/1995-05-15/158093#point_252">סעיף 252 לחוק הביטוח הלאומי</ref> ולמעט הטבות וזכויות כאמור בסעיף קטן (ז), ישולמו לאפוטרופוס על רכוש הילד.</p>
+                    </content>
+                  </point>
+                  <point eId="point_46__point_ו__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>מונה אפוטרופוס על רכוש הילד, לא יעשה האפוטרופוס שימוש בהטבות או בכספים שקיבל לפי פסקה (1), אלא למילוי צורכי הילד שאינם ממומנים בידי גורם אחר ולהבטחת עתידו בהגיעו לגיל בגרות, ובכפוף להוראות סעיף קטן (ד) לעניין אישור המפקח הארצי על האומנה.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_46__point_ז">
+                <num>(ז)</num>
+                <list>
+                  <intro>
+                    <p>על אף האמור בסעיף זה, ילד עם מוגבלות שהמשרד הכיר בו לעניין סעיף קטן זה כבעל צרכים מיוחדים עקב המוגבלות, זכאי במשפחת האומנה להטבות כמפורט להלן שהיו משולמות בעדו כילד נכה שזכאי לגמלה לפי <ref href="/akn/il/act/PrimaryLegislation/1995-05-15/158093#chp_ט_sec_ו">סימן ו׳ לפרק ט׳ לחוק הביטוח הלאומי</ref> (בסעיף קטן זה – גמלת ילד נכה) אילולא היה מושם באומנה, ובלבד שהטבה הניתנת לעניין שבעדו זכאי אומן לתשלום לפי סעיף קטן (א) לא תינתן אלא במידה שבה עולה ההטבה על התשלום האמור:</p>
+                  </intro>
+                  <point eId="point_46__point_ז__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>הטבות וזכויות לפי כל דין הניתנות בעד ילד שבעדו משולמת גמלת ילד נכה, למעט אותה גמלה;</p>
+                    </content>
+                  </point>
+                  <point eId="point_46__point_ז__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>הטבות הניתנות על ידי גוף ציבורי לפי הסכם או נוהג, בעד ילד שבעדו משולמת גמלת ילד נכה.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_46__point_ח">
+                <num>(ח)</num>
+                <list>
+                  <point eId="point_46__point_ח__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>תשלומים המשולמים לאומן בעבור הוצאות שיאפשרו לו לספק את צורכי הילד לפי סעיף קטן (א), אינם ניתנים להעברה, לשעבוד או לעיקול בכל דרך שהיא אף לשם תשלום מזונות.</p>
+                    </content>
+                  </point>
+                  <point eId="point_46__point_ח__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>הוראות פסקה (1) יחולו גם על תשלומים ששולמו באמצעות בנק או החברה הבת, כהגדרתה <ref href="/akn/il/act/PrimaryLegislation/1986-01-28/151356">בחוק הדואר, התשמ"ו–1986</ref>, בנותנה שירותים לפי <ref href="/akn/il/act/PrimaryLegislation/1986-01-28/151356#point_88א">סעיף 88א לאותו חוק</ref>, במשך 30 ימים מיום ששולמו.</p>
+                    </content>
+                  </point>
+                  <point eId="point_46__point_ח__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>לעניין חישוב הרכב המשפחה כאמור <ref href="/akn/il/act/PrimaryLegislation/1958-03-20/148747#point_8">בסעיף 8 לחוק הגנת השכר, התשי"ח–1958</ref>, יבוא ילד שהושם באומנה במניין הילדים במשפחת האומנה.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+            </list>
+          </point>
+          <point eId="point_47">
+            <heading>
+              <authorialNote placement="side">
+                <p>הסכם עם האומן</p>
+              </authorialNote>
+            </heading>
+            <num>47.</num>
+            <list>
+              <point eId="point_47__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>אומן שקיבל רישיון אומנה והוחלט לפי הוראות חוק זה כי הוא ישמש אומן לילד מסוים, יחתום עם המשרד או עם מי מטעמו על הסכם אומנה לעניין אותו ילד (<ref href="#chp_ה">בפרק זה</ref> – ההסכם).</p>
+                </content>
+              </point>
+              <point eId="point_47__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>לא יושם ילד באומנה בטרם ייחתם הסכם עם האומן המיועד, למעט לתקופה שלא תעלה על 14 ימים.</p>
+                </content>
+              </point>
+              <point eId="point_47__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>בהסכם תיקבע אחריות האומן בהתאם לתכנית הטיפול ולהוראות חוק זה, ויכול שתיקבע הגבלה על סמכויותיו, ככל שהיא נדרשת; ההסכם יכלול בין השאר את התחייבות האומן להשתתף בהכשרות ובהדרכות בתקופת האומנה, להישמע לפיקוח, לדווח למנחה האומנה ולשתף פעולה עמו ועם הגוף המפעיל.</p>
+                </content>
+              </point>
+              <point eId="point_47__point_ד">
+                <num>(ד)</num>
+                <content>
+                  <p>ההסכם יהיה לתקופת ההשמה, ויבוטל או יחודש לפי הצורך, והכול בהתאם לתכנית הטיפול של הילד.</p>
+                </content>
+              </point>
+              <point eId="point_47__point_ה">
+                <num>(ה)</num>
+                <content>
+                  <p>הסכם עם בני זוג אומנים ייחתם עם שני בני הזוג, וחבותם לפי ההסכם תהיה יחד ולחוד.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_48">
+            <heading>
+              <authorialNote placement="side">
+                <p>מידע וסודיות לאומן ולבני משפחתו</p>
+              </authorialNote>
+            </heading>
+            <num>48.</num>
+            <list>
+              <point eId="point_48__point_א">
+                <num>(א)</num>
+                <list>
+                  <intro>
+                    <p>אומן יקבל ממנחה האומנה שמונה לילד, בטרם השמת ילד אצלו באומנה ובתקופת האומנה, מידע כמפורט להלן:</p>
+                  </intro>
+                  <point eId="point_48__point_א__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>מידע על הנדרש לשם קיום אחריותו וחובתו לטפל בילד ולשמור על טובתו;</p>
+                    </content>
+                  </point>
+                  <point eId="point_48__point_א__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>מידע על אודות הילד במידה הנדרשת לשם שמירת שלומם וביטחונם של האומן ובני משפחתו, או מי שמתגורר עמו;</p>
+                    </content>
+                  </point>
+                  <point eId="point_48__point_א__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>מידע אודות המשפחה הביולוגית של הילד, במידה הנדרשת לשם שמירת שלומם וביטחונם של האומן ובני משפחתו ולשם קיום אחריותו וחובתו כאמור בפסקה (1);</p>
+                    </content>
+                  </point>
+                  <point eId="point_48__point_א__point_4">
+                    <num>(4)</num>
+                    <content>
+                      <p>מידע בדבר חובותיו, זכויותיו ואחריותו של האומן.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_48__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>בלי לגרוע מזכות הורי הילד לפי כל דין לקבלת מידע, אומן זכאי לקבל ממטפל בילד כהגדרתו <ref href="/akn/il/act/PrimaryLegislation/1996-05-12/174478">בחוק זכויות החולה</ref> או מהמוסד החינוכי שבו לומד הילד, בתקופת האומנה, כל מידע על הילד שהורהו של הילד זכאי לקבלו, לרבות מידע חינוכי ורפואי, ובכלל זה מידע פסיכולוגי ופסיכיאטרי, ככל שהמידע נדרש לשם קיום אחריותו וחובתו לטפל בילד ולשמור על טובתו, ובשים לב לצורך בהגנה על פרטיות הורה הילד ככל שהמידע נוגע אליו; אין בהוראות סעיף קטן זה כדי לגרוע מהוראות <ref href="#point_43">סעיף 43(א)</ref>.</p>
+                </content>
+              </point>
+              <point eId="point_48__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>בלי לגרוע מהוראות <ref href="#point_65">סעיף 65</ref>, אומן ובני משפחתו ישמרו בסוד מידע על הילד או על בני משפחתו, שהגיע אליהם לפי חוק זה, לא יגלו אותו לאחר, ולא יעשו בו כל שימוש אלא לפי צו של בית משפט או אם חלה עליהם חובה לפי דין לגלותו או אם הגילוי או השימוש נדרשים לשם ביצוע הוראות חוק זה, ובכלל זה לשם מילוי אחריותם וחובותיהם כלפי הילד, והכול במידה הנדרשת לכך.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+        </list>
+      </chapter>
+      <chapter eId="chp_ו">
+        <num>פרק ו׳:</num>
+        <title>
+          <content>
+            <p>גוף מפעיל</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_49">
+            <heading>
+              <authorialNote placement="side">
+                <p>תפקידי הגוף המפעיל ותנאים להתקשרות עמו</p>
+              </authorialNote>
+            </heading>
+            <num>49.</num>
+            <list>
+              <point eId="point_49__point_א">
+                <num>(א)</num>
+                <list>
+                  <intro>
+                    <p>לא יתקשר המשרד עם תאגיד למתן שירותים כאמור בסעיף קטן (ב), אלא אם כן מצא כי מתקיימים בו כל אלה:</p>
+                  </intro>
+                  <point eId="point_49__point_א__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>מנהל התאגיד או בעל שליטה בו לא הורשעו בעבירת מין או אלימות נגד קטין, או בעבירה פלילית אחרת או בעבירת משמעת שמפאת מהותן, חומרתן או נסיבותיהן אין הם ראויים לדעת הממונה על רישוי אומנה לשמש מנהל או בעל שליטה, לפי העניין, של גוף מפעיל;</p>
+                    </content>
+                  </point>
+                  <point eId="point_49__point_א__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>התאגיד לא החליט על פירוקו מרצון ובית המשפט לא נתן צו לפירוקו, צו כינוס נכסים או צו פירוק זמני בעניינו;</p>
+                    </content>
+                  </point>
+                  <point eId="point_49__point_א__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>לא מתקיים חשש לניגוד עניינים בין תפקידי הגוף המפעיל לפי חוק זה לפעילות אחרת שהוא מבצע, או ניגוד עניינים בין תפקידי הגוף המפעיל לעניין אישי או תפקיד אחר של מנהל התאגיד או בעל שליטה בו;</p>
+                    </content>
+                  </point>
+                  <point eId="point_49__point_א__point_4">
+                    <num>(4)</num>
+                    <list>
+                      <intro>
+                        <p>כוח האדם שעומד לרשות התאגיד מאפשר את מילוי תפקידי הגוף המפעיל לפי חוק זה בהתאם לדרישות שקבע השר, ובכלל זה מנחי אומנה, ראשי צוותים ייעודיים להדרכת מנחי האומנה והנחייתם וגורמי מינהלה, ובלבד שלגבי מי מהם שבא בקשר ישיר ומתמשך עם הילדים, הוריהם ומשפחות האומנה, מתקיימים גם כל אלה:</p>
+                      </intro>
+                      <point eId="point_49__point_א__point_4__point_א">
+                        <num>(א)</num>
+                        <content>
+                          <p>הוא בעל הכשרה מקצועית ורמה אישית ומקצועית הולמת לביצוע תפקידיו;</p>
+                        </content>
+                      </point>
+                      <point eId="point_49__point_א__point_4__point_ב">
+                        <num>(ב)</num>
+                        <content>
+                          <p>הוא לא הורשע בעבירת מין או אלימות נגד קטין, או בעבירה פלילית אחרת או בעבירת משמעת שמפאת מהותן, חומרתן או נסיבותיהן אין הוא ראוי לדעת הממונה על רישוי אומנה להיות מועסק בתפקידיו בגוף המפעיל;</p>
+                        </content>
+                      </point>
+                      <point eId="point_49__point_א__point_4__point_ג">
+                        <num>(ג)</num>
+                        <content>
+                          <p>לא מתקיים חשש שיימצא בניגוד עניינים באופן תדיר בין מילוי תפקידיו בגוף המפעיל לפי חוק זה ובין עניין אישי או עיסוק או תפקיד אחר שלו ולא קיימות נסיבות אחרות שבשלהן העסקתו תהיה מנוגדת לטובת הציבור או לטובת הילדים באומנה, הוריהם ומשפחות האומנה;</p>
+                        </content>
+                      </point>
+                    </list>
+                  </point>
+                  <point eId="point_49__point_א__point_5">
+                    <num>(5)</num>
+                    <content>
+                      <p>אם יש אפשרות שבתקופת ההתקשרות ישמור התאגיד מידע שהגיע לידיו לפי חוק זה במאגר מידע כמשמעותו <ref href="/akn/il/act/PrimaryLegislation/1981-03-11/147337">בחוק הגנת הפרטיות</ref> – יציג התאגיד חוות דעת של מומחה לאבטחת מידע המאשרת כי מערכות החומרה והתוכנה שישמשו את מאגר המידע מהימנות ועומדות בהוראות הדין בעניין אבטחת מידע, ובכלל זה הגנה על שלמות המידע והגנה על המידע מפני חשיפה, שימוש או העתקה, והכול בלא רשות כדין, מקנות רמה סבירה של זמינות ואמינות ומעניקות הגנה נאותה מפני חדירה, שיבוש, הפרעה או גרימת נזק למחשב או לחומר מחשב כהגדרתם <ref href="/akn/il/act/PrimaryLegislation/1995-07-25/174481">בחוק המחשבים, התשנ"ה–1995</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_49__point_א__point_6">
+                    <num>(6)</num>
+                    <content>
+                      <p>התקשרות המשרד עם התאגיד אינה נוגדת את טובת הציבור או את טובת הילדים באומנה, הוריהם ומשפחות האומנה;</p>
+                    </content>
+                  </point>
+                  <point eId="point_49__point_א__point_7">
+                    <num>(7)</num>
+                    <content>
+                      <p>בחמש השנים שקדמו למועד ההתקשרות לא הופסקה התקשרות של התאגיד, בעל שליטה בו או מנהלו עם משרד ממשלתי או גוף ציבורי אחר, בנסיבות שמפאת מהותן או חומרתן אין זה ראוי לדעת המפקח הארצי על האומנה כי התאגיד ישמש גוף מפעיל.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_49__point_ב">
+                <num>(ב)</num>
+                <list>
+                  <intro>
+                    <p>תפקידי גוף מפעיל יכללו, בין השאר, את כל אלה:</p>
+                  </intro>
+                  <point eId="point_49__point_ב__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>איתור מועמדים לאומנה, הערכת כשירותם וסיוע בבדיקת התקיימותם של תנאים למתן רישיון אומנה או לחידושו;</p>
+                    </content>
+                  </point>
+                  <point eId="point_49__point_ב__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>הכשרת מועמדים לשמש אומנים;</p>
+                    </content>
+                  </point>
+                  <point eId="point_49__point_ב__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>ליווי מקצועי והדרכה לאומנים ולילדיהם הקטינים, לפי הוראות המפקח הארצי על האומנה;</p>
+                    </content>
+                  </point>
+                  <point eId="point_49__point_ב__point_4">
+                    <num>(4)</num>
+                    <content>
+                      <p>מינוי מנחי אומנה והדרכת אנשי הצוות המקצועי, לרבות מנחי האומנה, לפי הוראות המפקח הארצי על האומנה, ובקרה על פעולתם;</p>
+                    </content>
+                  </point>
+                  <point eId="point_49__point_ב__point_5">
+                    <num>(5)</num>
+                    <content>
+                      <p>התאמת משפחת אומנה לילד לפי הוראות <ref href="#point_32">סעיף 32</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_49__point_ב__point_6">
+                    <num>(6)</num>
+                    <content>
+                      <p>בניית תכנית טיפולית מפורטת, הצעות לעדכונים בה ומסירתה למפקח ולמנהל המחלקה לשירותים חברתיים ברשות המקומית שבה מתגוררים הורי הילד לפי <ref href="#point_36">סעיף 36(ג)</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_49__point_ב__point_7">
+                    <num>(7)</num>
+                    <content>
+                      <p>יישום התכנית הטיפולית, הכללית והמפורטת, לרבות מעקב אחר ביצועה והצעות לעדכונים ולשינויים בה, לפי הצורך;</p>
+                    </content>
+                  </point>
+                  <point eId="point_49__point_ב__point_8">
+                    <num>(8)</num>
+                    <content>
+                      <p>ליווי הילד בכל תקופת האומנה, לרבות בעת מעברים בין משפחות אומנה;</p>
+                    </content>
+                  </point>
+                  <point eId="point_49__point_ב__point_9">
+                    <num>(9)</num>
+                    <content>
+                      <p>קיום ביקורות מעקב תקופתיות בעניינו של ילד והכנת הערכה תקופתית לגביו;</p>
+                    </content>
+                  </point>
+                  <point eId="point_49__point_ב__point_10">
+                    <num>(10)</num>
+                    <content>
+                      <p>דיווח למשרד ולמפקח ופעולה לפי הוראות המשרד והמפקחים והנחיותיהם.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_49__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>הגוף המפעיל ימלא את תפקידיו בתום לב, בהגינות, בלא משוא פנים ובלא הפליה.</p>
+                </content>
+              </point>
+              <point eId="point_49__point_ד">
+                <num>(ד)</num>
+                <list>
+                  <intro>
+                    <p>הגוף המפעיל ימסור למשרד דיווחים בעניינים המפורטים להלן במועדים ובהתאם להוראות שייתן המשרד, ודיווחים למפקח לפי דרישתו בכתב, וכן לממונה על התלונות לפי דרישתו:</p>
+                  </intro>
+                  <point eId="point_49__point_ד__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>פעילותו והיקפה;</p>
+                    </content>
+                  </point>
+                  <point eId="point_49__point_ד__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>כוח האדם העומד לרשותו, לרבות ניסיונו והכשרתו;</p>
+                    </content>
+                  </point>
+                  <point eId="point_49__point_ד__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>היחס בין כוח האדם העומד לרשותו למספר הילדים המטופלים על ידו ולמספר משפחות האומנה המטופלות על ידו;</p>
+                    </content>
+                  </point>
+                  <point eId="point_49__point_ד__point_4">
+                    <num>(4)</num>
+                    <content>
+                      <p>הסברים על דרך פעולתו ככלל ובמקרים פרטניים;</p>
+                    </content>
+                  </point>
+                  <point eId="point_49__point_ד__point_5">
+                    <num>(5)</num>
+                    <content>
+                      <p>ניהולו הכספי;</p>
+                    </content>
+                  </point>
+                  <point eId="point_49__point_ד__point_6">
+                    <num>(6)</num>
+                    <content>
+                      <p>אופן שמירת המידע בידיו כאמור בסעיף קטן (ה), ובכלל זה מאפייניהם ופעילותם של אמצעי אבטחת המידע, ככל שנשמר בידי הגוף המפעיל מידע במאגר מידע כמשמעותו <ref href="/akn/il/act/PrimaryLegislation/1981-03-11/147337">בחוק הגנת הפרטיות</ref>.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_49__point_ה">
+                <num>(ה)</num>
+                <content>
+                  <p>הגוף המפעיל ישמור את המידע שברשותו באופן המבטיח סודיות והגנה על פרטיותם של מי שמידע על אודותיהם שמור ברשותו, לרבות כאמור בסעיף קטן (א)(5); השר, בהתייעצות עם שר המשפטים ובאישור ועדת העבודה הרווחה והבריאות של הכנסת, יקבע הוראות לעניין החזקת מידע בידי הגוף המפעיל, לרבות בעניין אבטחתו, שמירתו ומחיקתו.</p>
+                </content>
+              </point>
+              <point eId="point_49__point_ו">
+                <num>(ו)</num>
+                <content>
+                  <p>המפקח הארצי על האומנה יפרסם ברשומות ובאתר האינטרנט של המשרד את שמות הגופים המפעילים שעמם התקשר המשרד, את תקופת ההתקשרות עמם ואת האזורים שבהם רשאי כל גוף מפעיל לפעול.</p>
+                </content>
+              </point>
+              <point eId="point_49__point_ז">
+                <num>(ז)</num>
+                <content>
+                  <p>תקופת התקשרות המשרד עם גוף מפעיל לא תעלה על חמש שנים, והמשרד רשאי לחדש את ההתקשרות לתקופות נוספות כאמור.</p>
+                </content>
+              </point>
+              <point eId="point_49__point_ח">
+                <num>(ח)</num>
+                <content>
+                  <p>גוף מפעיל יודיע למשרד, בכתב, על כל שינוי בפרט מהפרטים שמסר לפי חוק זה, בתוך 30 ימים מיום שנודע לו על השינוי ויצרף את המסמכים הנוגעים לעניין.</p>
+                </content>
+              </point>
+              <point eId="point_49__point_ט">
+                <num>(ט)</num>
+                <content>
+                  <p>על אף האמור <ref href="/akn/il/act/PrimaryLegislation/1992-03-12/174451">בחוק חובת המכרזים, התשנ"ב–1992</ref>, פורסם מכרז לפי <ref href="/akn/il/act/PrimaryLegislation/1992-03-12/174451">אותו חוק</ref> להתקשרות עם גוף מפעיל לפי הוראות <ref href="#chp_ו">פרק זה</ref>, ולאחר שקלול התוצאות קיבלו שתי הצעות או יותר תוצאה משוקללת זהה שהיא התוצאה הגבוהה ביותר, ואחת מן ההצעות היא של תאגיד שהוא מוסד ללא כוונת רווח כהגדרתו <ref href="/akn/il/act/PrimaryLegislation/1976-01-06/147931">בחוק מס ערך מוסף, התשל"ו–1975</ref>, תיבחר ההצעה האמורה כזוכה במכרז.</p>
+                </content>
+              </point>
+              <point eId="point_49__point_י">
+                <num>(י)</num>
+                <list>
+                  <point eId="point_49__point_י__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>גוף מפעיל יודיע בכתב על כוונתו להפסיק התקשרות עם המשרד או לא לחדשה שישה חודשים לפחות לפני המועד שבו יפסיק את מתן השירותים לפי ההתקשרות.</p>
+                    </content>
+                  </point>
+                  <point eId="point_49__point_י__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>גוף מפעיל אינו רשאי להעביר את פעילותו או להמחות את זכויותיו או חובותיו לפי חוק זה לאחר אלא בהסכמת המשרד ועד להתקשרות המשרד עם גוף מפעיל אחר, ובלבד שהעברה או המחאה כאמור תהיה לתקופה שלא תעלה על 12 חודשים.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_49__point_יא">
+                <num>(יא)</num>
+                <content>
+                  <p>אין בהוראות סעיף זה כדי לגרוע מזכות הנתונה למשרד לפי דין או הסכם להפסיק את ההתקשרות, לבטלה, לסייגה או להתנותה.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+        </list>
+      </chapter>
+      <chapter eId="chp_ז">
+        <num>פרק ז׳:</num>
+        <title>
+          <content>
+            <p>פיקוח, בקרה וטיפול בתלונות</p>
+          </content>
+        </title>
+        <section eId="chp_ז__sec_א">
+          <num>סימן א׳:</num>
+          <title>
+            <content>
+              <p>פיקוח</p>
+            </content>
+          </title>
+          <list>
+            <point eId="point_50">
+              <heading>
+                <authorialNote placement="side">
+                  <p>הפיקוח על האומנה ויעדיו</p>
+                </authorialNote>
+              </heading>
+              <num>50.</num>
+              <list>
+                <intro>
+                  <p>במטרה להבטיח את שלומם וטובתם של ילדים שהושמו באומנה ואת זכויותיהם, יקיים המשרד פיקוח על הגופים המפעילים, על מנחי האומנה ועל משפחות האומנה ויבקר את פעולותיהם, ובין השאר את אלה:</p>
+                </intro>
+                <point eId="point_50__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>תהליכי איתור, גיוס, בדיקה והכשרה של משפחות אומנה;</p>
+                  </content>
+                </point>
+                <point eId="point_50__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>תהליכי ההתאמה של משפחת האומנה לצורכי הילד המיוחדים;</p>
+                  </content>
+                </point>
+                <point eId="point_50__point_3">
+                  <num>(3)</num>
+                  <content>
+                    <p>תהליכי התכנון והטיפול בילדים באומנה;</p>
+                  </content>
+                </point>
+                <point eId="point_50__point_4">
+                  <num>(4)</num>
+                  <content>
+                    <p>כוח האדם בגוף המפעיל, לרבות מנחי האומנה, והכשרתו;</p>
+                  </content>
+                </point>
+                <point eId="point_50__point_5">
+                  <num>(5)</num>
+                  <content>
+                    <p>פעולות מנחי האומנה ותהליכי ליווי של הילד ומשפחת האומנה.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_51">
+              <heading>
+                <authorialNote placement="side">
+                  <p>הסמכת מפקחים</p>
+                </authorialNote>
+              </heading>
+              <num>51.</num>
+              <list>
+                <point eId="point_51__point_א">
+                  <num>(א)</num>
+                  <content>
+                    <p>לשם הגשמת מטרות הפיקוח ויעדיו, יסמיך השר, מבין עובדי משרדו, מפקחים שיהיו נתונות להם הסמכויות לפי <ref href="#point_54">סעיף 54</ref>; הודעה על ההסמכה תפורסם ברשומות.</p>
+                  </content>
+                </point>
+                <point eId="point_51__point_ב">
+                  <num>(ב)</num>
+                  <list>
+                    <intro>
+                      <p>הסמכת מפקחים תפקידי מפקח שהוסמך כאמור בסעיף קטן (א) יכללו, בין השאר, את אלה:</p>
+                    </intro>
+                    <point eId="point_51__point_ב__point_1">
+                      <num>(1)</num>
+                      <content>
+                        <p>פיקוח על ביצוע תכניות טיפול של ילדים באומנה;</p>
+                      </content>
+                    </point>
+                    <point eId="point_51__point_ב__point_2">
+                      <num>(2)</num>
+                      <content>
+                        <p>המלצה לממונה על רישוי אומנה בדבר התאמת אדם לשמש אומן, בין השאר בהתבסס על חוות הדעת של מנחה אומנה;</p>
+                      </content>
+                    </point>
+                    <point eId="point_51__point_ב__point_3">
+                      <num>(3)</num>
+                      <content>
+                        <p>פיקוח על הגוף המפעיל ובקרה על פעולותיו, לרבות לעניין הדרכה של כוח האדם, ובכלל זה מנחי האומנה, והכשרת משפחות אומנה;</p>
+                      </content>
+                    </point>
+                    <point eId="point_51__point_ב__point_4">
+                      <num>(4)</num>
+                      <content>
+                        <p>פיקוח על משפחות אומנה, ובכלל זה פיקוח על קיום רישיון אומנה ועמידה בתנאיו, לרבות בדרך של ביקור במשפחת האומנה על פי הוראות <ref href="#point_54">סעיף 54(3)</ref> ושיחה עם הילד ועם משפחת האומנה;</p>
+                      </content>
+                    </point>
+                    <point eId="point_51__point_ב__point_5">
+                      <num>(5)</num>
+                      <content>
+                        <p>בקרה אחר העמדת מצאי הולם של משפחות אומנה, בהתאמה לצורכי הילדים המופנים להשמה במשפחות אומנה;</p>
+                      </content>
+                    </point>
+                    <point eId="point_51__point_ב__point_6">
+                      <num>(6)</num>
+                      <content>
+                        <p>מתן הנחיות לתיקון ליקויים שנמצאו בעקבות תלונות הורי הילדים או משפחות האומנה לעניין הפרת ההוראות לפי חוק זה או בעקבות תלונות שהתקבלו ממנגנון בירור התלונות, ופיקוח ובקרה על תיקון הליקויים שנמצאו;</p>
+                      </content>
+                    </point>
+                    <point eId="point_51__point_ב__point_7">
+                      <num>(7)</num>
+                      <content>
+                        <p>פיקוח ובקרה, לרבות בדרך של קבלת דיווח על טיפול הולם באירועים חריגים;</p>
+                      </content>
+                    </point>
+                    <point eId="point_51__point_ב__point_8">
+                      <num>(8)</num>
+                      <content>
+                        <p>בקרה אחר קיום תיעוד מנומק והולם לגבי הילדים באומנה ולגבי משפחות האומנה, בהתאם להוראות חוק זה, ואחר איסוף המידע ושמירתו בהתאם להוראות חוק זה;</p>
+                      </content>
+                    </point>
+                    <point eId="point_51__point_ב__point_9">
+                      <num>(9)</num>
+                      <content>
+                        <p>בדיקה עתית ובקרה אחר העברת התשלומים המיועדים לילדים באומנה ליעדם.</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+              </list>
+            </point>
+            <point eId="point_52">
+              <heading>
+                <authorialNote placement="side">
+                  <p>המפקח הארצי על האומנה</p>
+                </authorialNote>
+              </heading>
+              <num>52.</num>
+              <list>
+                <intro>
+                  <p>השר ימנה, מבין המפקחים, מפקח ארצי על האומנה; הודעה על המינוי תפורסם ברשומות; נוסף על תפקידי הפיקוח כאמור <ref href="#point_51">בסעיף 51</ref>, יהיו תפקידי המפקח הארצי על האומנה כמפורט להלן:</p>
+                </intro>
+                <point eId="point_52__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>הבניית הפיקוח, לרבות הבניה מפורטת של נהליו, דרכי ביצועו ובחינה תקופתית של מידת התאמתו והצלחתו במטרותיו;</p>
+                  </content>
+                </point>
+                <point eId="point_52__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>ייעוץ, הנחיה, הדרכה והכשרה של כוח האדם במערך הפיקוח על האומנה;</p>
+                  </content>
+                </point>
+                <point eId="point_52__point_3">
+                  <num>(3)</num>
+                  <content>
+                    <p>קביעת תוכן ההכשרה של כוח האדם המיועד לעבודה בגופים המפעילים, והתנאים לביצוע ההכשרה;</p>
+                  </content>
+                </point>
+                <point eId="point_52__point_4">
+                  <num>(4)</num>
+                  <content>
+                    <p>יידוע הגופים המפעילים בדבר מדיניות המשרד ומעקב אחר יישומה.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_53">
+              <heading>
+                <authorialNote placement="side">
+                  <p>תנאים להסמכה</p>
+                </authorialNote>
+              </heading>
+              <num>53.</num>
+              <list>
+                <intro>
+                  <p>לא יוסמך מפקח לפי הוראות <ref href="#point_51">סעיף 51(א)</ref> אלא אם כן מתקיימים בו כל אלה:</p>
+                </intro>
+                <point eId="point_53__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>הוא לא הורשע בעבירה שמפאת מהותה, חומרתה או נסיבותיה אין הוא ראוי לדעת השר לשמש מפקח;</p>
+                  </content>
+                </point>
+                <point eId="point_53__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>הוא קיבל הכשרה מתאימה בתחום הסמכויות שיהיו נתונות לו לפי חוק זה, כפי שיקבע השר;</p>
+                  </content>
+                </point>
+                <point eId="point_53__point_3">
+                  <num>(3)</num>
+                  <content>
+                    <p>הוא עומד בתנאי כשירות נוספים, כפי שיורה השר.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_54">
+              <heading>
+                <authorialNote placement="side">
+                  <p>סמכויות פיקוח</p>
+                </authorialNote>
+              </heading>
+              <num>54.</num>
+              <list>
+                <intro>
+                  <p>לשם פיקוח על ביצוע הוראות חוק זה רשאי המפקח –</p>
+                </intro>
+                <point eId="point_54__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>לדרוש מכל אדם למסור לו את שמו ומענו ולהציג לפניו תעודת זהות או תעודה רשמית אחרת המזהה אותו;</p>
+                  </content>
+                </point>
+                <point eId="point_54__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>לדרוש מכל אדם הנוגע בדבר למסור לו כל מידע או מסמך הדרושים לו לשם מילוי תפקידיו, לרבות כל מידע הנוגע לילד באומנה ובכלל זה תיקו האישי; בפסקה זו, ”מסמך“ – לרבות פלט, כהגדרתו <ref href="/akn/il/act/PrimaryLegislation/1995-07-25/174481">בחוק המחשבים, התשנ"ה–1995</ref>;</p>
+                  </content>
+                </point>
+                <point eId="point_54__point_3">
+                  <num>(3)</num>
+                  <content>
+                    <p>להיכנס בכל עת סבירה למקום שהכניסה אליו דרושה לשם מילוי תפקידיו לפי חוק זה, ובלבד שלא ייכנס למקום המשמש למגורים, אלא על פי צו של בית משפט, או בשעה סבירה ובתיאום מראש, אם ניתנה לכך הסכמה בכתב של בגיר המחזיק בנכס; ואולם מפקח רשאי לבקר בבית משפחת אומנה אף אם לא מתקיימים התנאים האמורים, אם קיים חשד לפגיעה בשלומו של ילד המושם במשפחת האומנה;</p>
+                  </content>
+                </point>
+                <point eId="point_54__point_4">
+                  <num>(4)</num>
+                  <content>
+                    <p>למסור לגוף מפעיל, למנחה אומנה או למשפחת אומנה, בכתב, פירוט של ההוראות שלא קוימו, ולדרוש מהם לתקן את הליקויים בלא דיחוי או בתוך פרק זמן שיקבע; מי שנדרש לכך יתקן את הליקויים לא יאוחר מהמועד הנקוב בדרישה לתיקון ליקויים, ידווח למפקח וימציא אישורים כפי שידרוש המפקח על תיקון הליקויים.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_55">
+              <heading>
+                <authorialNote placement="side">
+                  <p>תנאים להפעלת הסמכות</p>
+                </authorialNote>
+              </heading>
+              <num>55.</num>
+              <list>
+                <intro>
+                  <p>מפקח לא יפעיל את הסמכויות הנתונות לו לפי <ref href="#chp_ז">פרק זה</ref>, אלא בעת מילוי תפקידו ובהתקיים שניים אלה:</p>
+                </intro>
+                <point eId="point_55__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>הוא עונד באופן גלוי תג המזהה אותו ואת תפקידו;</p>
+                  </content>
+                </point>
+                <point eId="point_55__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>יש בידו תעודה החתומה בידי השר, המעידה על תפקידו ועל סמכויותיו, שאותה יציג על פי דרישה.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+          </list>
+        </section>
+        <section eId="chp_ז__sec_ב">
+          <num>סימן ב׳:</num>
+          <title>
+            <content>
+              <p>מנגנון בירור תלונות של ילדים במסגרות השמה חוץ־ביתית</p>
+            </content>
+          </title>
+          <list>
+            <point eId="point_56">
+              <heading>
+                <authorialNote placement="side">
+                  <p>מנגנון בירור תלונות</p>
+                </authorialNote>
+              </heading>
+              <num>56.</num>
+              <list>
+                <point eId="point_56__point_א">
+                  <num>(א)</num>
+                  <content>
+                    <p>השר יקים מנגנון לבירור תלונות של ילדים המושמים באומנה בכל הנוגע לחיי היום־יום שלהם באומנה ולילדים במסגרת השמה חוץ־ביתית אחרת בכל הנוגע לשהותם באותה מסגרת (בחוק זה – מנגנון בירור תלונות).</p>
+                  </content>
+                </point>
+                <point eId="point_56__point_ב">
+                  <num>(ב)</num>
+                  <content>
+                    <p>השר ימנה ממונה על תלונות ילדים כאמור בסעיף קטן (א) שיהיה אחראי לקבלת התלונות ולבירורן לפי <ref href="#chp_ז">פרק זה</ref> (בחוק זה – הממונה על התלונות); הממונה על התלונות יהיה עובד המדינה והודעה על מינויו תפורסם ברשומות.</p>
+                  </content>
+                </point>
+                <point eId="point_56__point_ג">
+                  <num>(ג)</num>
+                  <list>
+                    <intro>
+                      <p>כשיר לכהן כממונה על התלונות כל אחד מהמנויים להלן:</p>
+                    </intro>
+                    <point eId="point_56__point_ג__point_1">
+                      <num>(1)</num>
+                      <content>
+                        <p>שופט בדימוס שכיהן כשופט נוער כהגדרתו <ref href="/akn/il/act/PrimaryLegislation/1971-07-23/150253">בחוק הנוער (שפיטה ענישה ודרכי טיפול), התשל"א–1971</ref>;</p>
+                      </content>
+                    </point>
+                    <point eId="point_56__point_ג__point_2">
+                      <num>(2)</num>
+                      <content>
+                        <p>רופא מומחה בפסיכיאטריה של הילד;</p>
+                      </content>
+                    </point>
+                    <point eId="point_56__point_ג__point_3">
+                      <num>(3)</num>
+                      <content>
+                        <p>עובד סוציאלי בעל תואר שני לפחות בעבודה סוציאלית;</p>
+                      </content>
+                    </point>
+                    <point eId="point_56__point_ג__point_4">
+                      <num>(4)</num>
+                      <content>
+                        <p>פסיכולוג בעל תואר שני לפחות בפסיכולוגיה;</p>
+                      </content>
+                    </point>
+                    <wrapup eId="point_56__point_ג__wrapup_none">
+                      <content>
+                        <p>ובלבד שלא הורשע בעבירת מין או אלימות נגד קטין, או בעבירה פלילית אחרת או עבירת משמעת שמפאת מהותן, חומרתן או נסיבותיהן, אין הוא ראוי לדעת השר לשמש כממונה על התלונות, והוא עומד בתנאי כשירות נוספים ככל שנקבעו לעניין זה לפי <ref href="/akn/il/act/PrimaryLegislation/1959-04-15/148670">חוק שירות המדינה (מינויים), התשי"ט–1959</ref>, ולעניין המנויים בפסקאות (2) עד (4) – הוא גם בעל ניסיון מקצועי של שבע שנים לפחות בעבודה עם ילדים.</p>
+                      </content>
+                    </wrapup>
+                  </list>
+                </point>
+                <point eId="point_56__point_ד">
+                  <num>(ד)</num>
+                  <content>
+                    <p>המנגנון לבירור תלונות יוקם באופן שמאפשר לילדים המושמים באומנה או במסגרת השמה חוץ־ביתית אחרת להגיש את תלונותיהם באופן עצמאי ומוצנע ובחופשיות, ובלא חשש מפגיעה עקב הגשת התלונה; מנגנון התלונה יהיה נגיש לילדים, והוא יכלול התאמות הנדרשות להגשת תלונה בהתחשב בשפה המובנת לילד, בגיל הילד ובמידת בגרותו, ולעניין ילד עם מוגבלות – גם בהתחשב במוגבלותו.</p>
+                  </content>
+                </point>
+                <point eId="point_56__point_ה">
+                  <num>(ה)</num>
+                  <content>
+                    <p>תלונה יכול שתוגש על ידי הילד או ידיד קרוב שלו, וכן על ידי אפוטרופוס לדין או עורך דין שמינה בית משפט לקטין.</p>
+                  </content>
+                </point>
+                <point eId="point_56__point_ו">
+                  <num>(ו)</num>
+                  <content>
+                    <p>לא יפריע אדם לילד או למי מטעמו להגיש תלונה לפי <ref href="#chp_ז_sec_ב">סימן זה</ref>, לא ימנע ממנו להגיש תלונה, ולא יגרום לו לבטל תלונה שהוגשה כאמור, בכל אמצעי שהוא, לרבות באמצעות שכנוע או מתן תמורה.</p>
+                  </content>
+                </point>
+                <point eId="point_56__point_ז">
+                  <num>(ז)</num>
+                  <list>
+                    <point eId="point_56__point_ז__point_1">
+                      <num>(1)</num>
+                      <content>
+                        <p>הסמכויות הנתונות לנציב תלונות הציבור <ref href="/akn/il/act/PrimaryLegislation/1958-03-20/2001957#point_41">בסעיפים 41</ref><ref href="/akn/il/act/PrimaryLegislation/1958-03-20/2001957#point_43">ו־43 לחוק מבקר המדינה, התשי"ח–1958 [נוסח משולב]</ref>, יהיו נתונות, בשינויים המחויבים ובהתאמות הנדרשות לשמירה על פרטיות הילד ומניעת פגיעה בו, לממונה על התלונות, והוראות <ref href="/akn/il/act/PrimaryLegislation/1958-03-20/2001957#point_45">סעיף 45 לאותו חוק</ref> יחולו לעניין החלטותיו.</p>
+                      </content>
+                    </point>
+                    <point eId="point_56__point_ז__point_2">
+                      <num>(2)</num>
+                      <content>
+                        <p>הממונה על התלונות רשאי להמליץ למנהל הכללי של המשרד, לממונה על רישוי אומנה או למפקח הארצי על האומנה, ולעניין ילד במסגרת השמה חוץ־ביתית שאינה אומנה – למנהל המסגרת ולמפקח על המסגרות, לנקוט אמצעים מתאימים נגד נילון, אמצעים הנדרשים למניעת פגיעה בילד או בילדים אחרים, או אמצעים לתיקון הליקויים שעלו מבירור התלונה, ומועדים לנקיטתם.</p>
+                      </content>
+                    </point>
+                    <point eId="point_56__point_ז__point_3">
+                      <num>(3)</num>
+                      <content>
+                        <p>אין על הממונה על התלונות מרות בענייני מילוי תפקידו לפי <ref href="#chp_ז_sec_ב">סימן זה</ref> זולת מרותו של הדין.</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+                <point eId="point_56__point_ח">
+                  <num>(ח)</num>
+                  <content>
+                    <p>תוצאות בירור התלונה יימסרו למתלונן, והעתקן יימסר למפקח לשם מעקב אחר תיקון הליקויים.</p>
+                  </content>
+                </point>
+                <point eId="point_56__point_ט">
+                  <num>(ט)</num>
+                  <content>
+                    <p>השר, באישור ועדת העבודה הרווחה והבריאות של הכנסת, יקבע הוראות לעניין מנגנון התלונה, דרכי הגשת התלונות ויידוע ילדים לגבי דרכים אלה, הליך בירורן, וכן את ההתאמות שבהן יפעל המנגנון גם לגבי ילדים השוהים במסגרת השמה חוץ־ביתית שאינה אומנה.</p>
+                  </content>
+                </point>
+                <point eId="point_56__point_י">
+                  <num>(י)</num>
+                  <content>
+                    <p>הממונה על התלונות ידווח לוועדת העבודה הרווחה והבריאות של הכנסת, אחת לשנה, על התלונות שהתקבלו ותוצאות הליך בירורן, באופן השומר על פרטיות הילדים, הוריהם ומשפחות האומנה, ומונע את זיהוים.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+          </list>
+        </section>
+        <section eId="chp_ז__sec_ג">
+          <num>סימן ג׳:</num>
+          <title>
+            <content>
+              <p>תיעוד מידע והנמקת החלטות בנוגע לילד שהושם באומנה</p>
+            </content>
+          </title>
+          <list>
+            <point eId="point_57">
+              <heading>
+                <authorialNote placement="side">
+                  <p>תיק אישי</p>
+                </authorialNote>
+              </heading>
+              <num>57.</num>
+              <list>
+                <point eId="point_57__point_א">
+                  <num>(א)</num>
+                  <content>
+                    <p>הגוף המפעיל ינהל לגבי כל ילד שהושם באומנה תיק אישי ובו כל המידע הנוגע לילד, לרבות החלטות הגורם המוסמך בתקופת ההשמה באומנה, ההסכם עם ההורים, מידע שהתקבל מהמחלקה לשירותים חברתיים ברשות המקומית שבה מתגוררים הורי הילד, תכניות הטיפול של הילד, אבחונים פסיכולוגיים וסיכומי טיפול, מידע רפואי ומידע ממסגרות השמה חוץ־ביתית קודמות, אם ישנו, וכן תיעוד תלונות שטופלו במנגנון בירור התלונות בעניינו של הילד, אם הממונה על התלונות החליט להעבירן לתיקו האישי של הילד לאחר שמצא כי יש צורך בתיעוד כאמור.</p>
+                  </content>
+                </point>
+                <point eId="point_57__point_ב">
+                  <num>(ב)</num>
+                  <content>
+                    <p>בכל מקרה של הפסקת פעילות של גוף מפעיל או הפסקת ההתקשרות עמו, יעביר הגוף המפעיל את התיקים האישיים שניהל למשרד או למי שיורה המשרד, ובהתאם להוראות המשרד.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_58">
+              <heading>
+                <authorialNote placement="side">
+                  <p>תיעוד והנמקה</p>
+                </authorialNote>
+              </heading>
+              <num>58.</num>
+              <list>
+                <point eId="point_58__point_א">
+                  <num>(א)</num>
+                  <content>
+                    <p>כל החלטה עקרונית או מיוחדת שהתקבלה לגבי ילד באומנה, תנומק בכתב, תוך פירוט השיקולים שביסודה ותתויק בתיקו האישי של הילד; היו להחלטה השלכות על תכנית הטיפול, יועבר דיווח על ההחלטה בצירוף הנימוקים שביסודה למחלקה לשירותים חברתיים ברשות המקומית שבה מתגוררים הורי הילד.</p>
+                  </content>
+                </point>
+                <point eId="point_58__point_ב">
+                  <num>(ב)</num>
+                  <content>
+                    <p>השר, באישור ועדת העבודה הרווחה והבריאות של הכנסת, יקבע הוראות לעניין שמירת תיקו האישי של הילד, ובכלל זה לעניין תקופת השמירה והפרטים שיישמרו.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+          </list>
+        </section>
+      </chapter>
+      <chapter eId="chp_ח">
+        <num>פרק ח׳:</num>
+        <title>
+          <content>
+            <p>אומנת חירום</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_59">
+            <heading>
+              <authorialNote placement="side">
+                <p>אומנת חירום</p>
+              </authorialNote>
+            </heading>
+            <num>59.</num>
+            <list>
+              <point eId="point_59__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>
+                    <ref href="#chp_ח">בפרק זה</ref>, ”אומנת חירום“ – אומנה לילדים הנתונים בשעת משבר ונדרש להם סידור מגורים חלופי מיידי, בהתראה קצרה ולתקופה קצובה, בשל חשש לשלומם.</p>
+                </content>
+              </point>
+              <point eId="point_59__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>ברישיון האומנה של אומנים באומנת חירום יצוין כי אושרו לשמש אומנים באומנת חירום.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_60">
+            <heading>
+              <authorialNote placement="side">
+                <p>השמה באומנת חירום</p>
+              </authorialNote>
+            </heading>
+            <num>60.</num>
+            <content>
+              <p>הוצא ילד מבית הוריו או ממסגרת אחרת שבה שהה, ונקבע על ידי מי שהוסמך כדין לקבוע את מקום הימצאו כי יושם באומנת חירום עד לקבלת החלטת גורם מוסמך בדבר מקום ההשמה המתאים לו והכנת תכנית טיפול בעבורו, יבקר מנחה אומנה את הילד בתוך 24 שעות ממועד השמתו באומנת החירום.</p>
+            </content>
+          </point>
+          <point eId="point_61">
+            <heading>
+              <authorialNote placement="side">
+                <p>הסכם אומנת חירום</p>
+              </authorialNote>
+            </heading>
+            <num>61.</num>
+            <list>
+              <point eId="point_61__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>אומן באומנת חירום יחתום מראש על הסכם בהתאם להוראות <ref href="#point_47">סעיף 47</ref>, המתייחס באופן כללי לכל ילד שעתיד להיות מושם אצלו; בעת השמת ילד באומנת חירום, יוודא עובד סוציאלי לפי <ref href="/akn/il/act/PrimaryLegislation/1960-07-14/150256">חוק הנוער (טיפול והשגחה)</ref> או עובד סוציאלי לפי <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/חוק_הסעד_טיפול_באנשים_עם_מוגבלות_שכלית_התפתחותית">חוק הסעד (טיפול באנשים עם מוגבלות שכלית–התפתחותית)</ref>, לפי העניין, כי השמת הילד באומנת החירום עומדת בתנאי רישיון האומנה וההסכם.</p>
+                </content>
+              </point>
+              <point eId="point_61__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>המפקח הארצי על האומנה רשאי לאשר השמת ילד באומנת חירום, גם אם מספר הילדים שיהיו באומנה אצל האומן לאחר ההשמה יעלה על חמישה.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_62">
+            <heading>
+              <authorialNote placement="side">
+                <p>תקופת שהייה באומנת חירום</p>
+              </authorialNote>
+            </heading>
+            <num>62.</num>
+            <content>
+              <p>תקופת שהייתו של ילד באומנת חירום לא תעלה על שלושה חודשים; המפקח הארצי על האומנה, בהתייעצות עם עובד סוציאלי לפי <ref href="/akn/il/act/PrimaryLegislation/1960-07-14/150256">חוק הנוער (טיפול והשגחה)</ref> או עובד סוציאלי לפי <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/חוק_הסעד_טיפול_באנשים_עם_מוגבלות_שכלית_התפתחותית">חוק הסעד (טיפול באנשים עם מוגבלות שכלית–התפתחותית)</ref>, לפי העניין, רשאי, מטעמים מיוחדים שיירשמו, להאריך תקופה זו לתקופה שלא תעלה על שלושה חודשים נוספים.</p>
+            </content>
+          </point>
+          <point eId="point_63">
+            <heading>
+              <authorialNote placement="side">
+                <p>סייגים לתחולה על אומנת חירום</p>
+              </authorialNote>
+            </heading>
+            <num>63.</num>
+            <list>
+              <point eId="point_63__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>על אומנת חירום לא יחולו הוראות <ref href="#point_44">סעיף 44</ref>.</p>
+                </content>
+              </point>
+              <point eId="point_63__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>על אומנת חירום לא יחולו הוראות <ref href="#point_43">סעיף 43(א) ו־(ג) עד (ה)</ref>, אלא אם כן החליט הגורם המוסמך אחרת.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+        </list>
+      </chapter>
+      <chapter eId="chp_ט">
+        <num>פרק ט׳:</num>
+        <title>
+          <content>
+            <p>הוראות שונות</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_64">
+            <heading>
+              <authorialNote placement="side">
+                <p>אומנה בדיעבד</p>
+              </authorialNote>
+            </heading>
+            <num>64.</num>
+            <list>
+              <point eId="point_64__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>לא יחזיק אדם ילד בביתו אם אינו הורהו לתקופה העולה על שלושה חודשים, ואם מלאו לילד 14 שנים – לתקופה העולה על שישה חודשים, ולעניין ילד עם מוגבלות – לתקופה העולה על 14 ימים, אלא אם כן התקבלה החלטת הגורם המוסמך על השמת הילד אצלו, או אם סבר עובד סוציאלי כאמור בסעיף קטן (ד) כי לא נדרש להביא את העניין לפני הגורם המוסמך.</p>
+                </content>
+              </point>
+              <point eId="point_64__point_ב">
+                <num>(ב)</num>
+                <list>
+                  <intro>
+                    <p>המחזיק בביתו ילד והוא אינו הורהו, יודיע על כך לעובד סוציאלי לפי <ref href="/akn/il/act/PrimaryLegislation/1960-07-14/150256">חוק הנוער (טיפול והשגחה)</ref> או לעובד סוציאלי לפי <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/חוק_הסעד_טיפול_באנשים_עם_מוגבלות_שכלית_התפתחותית">חוק הסעד (טיפול באנשים עם מוגבלות שכלית–התפתחותית)</ref>, לפי העניין, בתוך תקופה כלהלן מהמועד שבו הגיע הילד לביתו:</p>
+                  </intro>
+                  <point eId="point_64__point_ב__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>לעניין ילד שטרם מלאו לו 6 שנים – בתוך חודש;</p>
+                    </content>
+                  </point>
+                  <point eId="point_64__point_ב__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>לעניין ילד שמלאו לו 6 שנים וטרם מלאו לו 14 שנים – בתוך חודשיים;</p>
+                    </content>
+                  </point>
+                  <point eId="point_64__point_ב__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>לעניין ילד שמלאו לו 14 שנים – בתוך שלושה חודשים;</p>
+                    </content>
+                  </point>
+                  <point eId="point_64__point_ב__point_4">
+                    <num>(4)</num>
+                    <content>
+                      <p>לעניין ילד עם מוגבלות – בתוך שבעה ימים.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_64__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>הובא לידיעת עובד סוציאלי לפי <ref href="/akn/il/act/PrimaryLegislation/1960-07-14/150256">חוק הנוער (טיפול והשגחה)</ref> או עובד סוציאלי לפי <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/חוק_הסעד_טיפול_באנשים_עם_מוגבלות_שכלית_התפתחותית">חוק הסעד (טיפול באנשים עם מוגבלות שכלית–התפתחותית)</ref> כי ילד שוהה בבית אדם שאינו הורהו כאמור בסעיף קטן (א), יבדוק, בהקדם האפשרי בנסיבות העניין, את המידע שהגיע לידיו, את טיבו ואופיו של המקום שבו מתגורר הילד ואם שהייתו של הילד בבית אותו אדם היא לטובת הילד.</p>
+                </content>
+              </point>
+              <point eId="point_64__point_ד">
+                <num>(ד)</num>
+                <list>
+                  <intro>
+                    <p>מצא עובד סוציאלי לפי <ref href="/akn/il/act/PrimaryLegislation/1960-07-14/150256">חוק הנוער (טיפול והשגחה)</ref> או עובד סוציאלי לפי <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/חוק_הסעד_טיפול_באנשים_עם_מוגבלות_שכלית_התפתחותית">חוק הסעד (טיפול באנשים עם מוגבלות שכלית–התפתחותית)</ref> כי נוכח המידע שהובא לידיעתו והבדיקות שערך כאמור בסעיף קטן (ג), המשך שהייתו של הילד בבית אותו אדם היא לטובת הילד, יביא את העניין להחלטת הגורם המוסמך, בהקדם האפשרי בנסיבות העניין; ואולם סבר העובד הסוציאלי כי בנסיבות העניין אין צורך בהחלטת גורם מוסמך על השמה באומנה לעניין המשך שהייתו של הילד בבית אותו אדם, ומתקיימים שני אלה, רשאי הוא שלא להביא את העניין להחלטת הגורם המוסמך:</p>
+                  </intro>
+                  <point eId="point_64__point_ד__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>מלאו לילד 14 שנים ותקופת שהייתו בבית אותו אדם לא צפויה לעלות על שישה חודשים, או שמלאו לילד 16 שנים ותקופת שהייתו בבית אותו אדם לא צפויה לעלות על שנה;</p>
+                    </content>
+                  </point>
+                  <point eId="point_64__point_ד__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>לא מתקיימות בילד נסיבות המעידות על נזקקות לפי <ref href="/akn/il/act/PrimaryLegislation/1960-07-14/150256">חוק הנוער</ref>.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_64__point_ה">
+                <num>(ה)</num>
+                <content>
+                  <p>קבע הגורם המוסמך כי על הילד להיות מושם מחוץ לביתו, וכי טובת הילד היא להמשיך ולשהות בבית האדם שעמו התגורר כאמור בסעיף קטן (א), יגיש אותו אדם בקשה לקבלת רישיון אומנה על פי חוק זה; לא יינתן רישיון אומנה לאדם כאמור שלא מסר הודעה לפי סעיף קטן (ב), אלא אם כן שוכנע הממונה על רישוי האומנה כי טובת הילד להמשיך ולשהות בבית אותו אדם.</p>
+                </content>
+              </point>
+              <point eId="point_64__point_ו">
+                <num>(ו)</num>
+                <content>
+                  <p>ניתן למי שהגיש בקשה לפי סעיף קטן (ה) רישיון אומנה לפי <ref href="#point_24">סעיפים 24</ref><ref href="#point_25">או 25</ref>, תהיה השמה זו בבחינת אומנה לכל דבר ועניין, ויחולו עליה כל ההוראות לפי חוק זה החלות על אומנה.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_65">
+            <heading>
+              <authorialNote placement="side">
+                <p>סודיות</p>
+              </authorialNote>
+            </heading>
+            <num>65.</num>
+            <content>
+              <p>אדם שהגיע אליו מידע לפי חוק זה על ילד באומנה במסגרת תפקידו, חובה עליו לשומרו בסוד והוא אינו רשאי לגלותו אלא לשם מילוי תפקידו ובהתאם להוראות כל דין.</p>
+            </content>
+          </point>
+          <point eId="point_66">
+            <heading>
+              <authorialNote placement="side">
+                <p>עונשין</p>
+              </authorialNote>
+            </heading>
+            <num>66.</num>
+            <list>
+              <point eId="point_66__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>מי שבידו רישיון אומנה ולא הודיע לממונה על רישוי אומנה על שינוי בתנאים המנויים <ref href="#point_24">בסעיף 24(א)(5), (6), (8) או (9)</ref>, בניגוד להוראות <ref href="#point_27">סעיף 27(א)</ref>, דינו – מאסר שישה חודשים.</p>
+                </content>
+              </point>
+              <point eId="point_66__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>אומן שמוסר ילד בניגוד להוראות <ref href="#point_42">סעיף 42(ג)</ref>, דינו – מאסר שנתיים.</p>
+                </content>
+              </point>
+              <point eId="point_66__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>המפריע לילד להגיש תלונה, מונע ממנו להגיש תלונה או גורם לו לבטל תלונה שהוגשה, בניגוד להוראות <ref href="#point_56">סעיף 56(ו)</ref>, דינו – מאסר שנה.</p>
+                </content>
+              </point>
+              <point eId="point_66__point_ד">
+                <num>(ד)</num>
+                <content>
+                  <p>המגלה מידע בניגוד להוראות <ref href="#point_65">סעיף 65</ref>, דינו – מאסר שלוש שנים.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_67">
+            <heading>
+              <authorialNote placement="side">
+                <p>ערר</p>
+              </authorialNote>
+            </heading>
+            <num>67.</num>
+            <content>
+              <p>על החלטות לפי חוק זה לעניין מתן רישיון אומנה, חידושו, ביטולו, התלייתו או סיוגו, וכן לעניין הגבלת סמכויותיו של אומן בהסכם, ניתן לערור לפני ועדת ערר.</p>
+            </content>
+          </point>
+          <point eId="point_68">
+            <heading>
+              <authorialNote placement="side">
+                <p>ביצוע ותקנות</p>
+              </authorialNote>
+            </heading>
+            <num>68.</num>
+            <content>
+              <p>השר ממונה על ביצועו של חוק זה, והוא רשאי להתקין תקנות בכל עניין הנוגע לביצועו.</p>
+            </content>
+          </point>
+          <point eId="point_69">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>69.</num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_מס_הכנסה">בפקודת מס הכנסה</ref>.</wikicomment>
+              </p>
+            </content>
+          </point>
+          <point eId="point_70">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>70.</num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryLegislation/1954-08-12/148069">בחוק עבודת נשים, התשי"ד–1954</ref>.</wikicomment>
+              </p>
+            </content>
+          </point>
+          <point eId="point_71">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>71.</num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryLegislation/1958-04-06/147307">בחוק ההתיישנות, התשי"ח–1958</ref>.</wikicomment>
+              </p>
+            </content>
+          </point>
+          <point eId="point_72">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>72.</num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryLegislation/1963-08-16/148301">בחוק פיצויי פיטורים, התשכ"ג–1963</ref>.</wikicomment>
+              </p>
+            </content>
+          </point>
+          <point eId="point_73">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>73.</num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryLegislation/1965-01-21/148360">בחוק הפיקוח על מעונות, התשכ"ה–1965</ref>.</wikicomment>
+              </p>
+            </content>
+          </point>
+          <point eId="point_74">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>74.</num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/חוק_הסעד_טיפול_באנשים_עם_מוגבלות_שכלית_התפתחותית">בחוק הסעד (טיפול באנשים עם מוגבלות שכלית–התפתחותית), התשכ"ט–1969</ref>.</wikicomment>
+              </p>
+            </content>
+          </point>
+          <point eId="point_75">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>75.</num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryLegislation/1971-07-23/150253">בחוק הנוער (שפיטה, ענישה ודרכי טיפול), התשל"א–1971</ref>.</wikicomment>
+              </p>
+            </content>
+          </point>
+          <point eId="point_76">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>76.</num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryLegislation/1977-08-04/2002251">בחוק העונשין, התשל"ז–1977</ref>.</wikicomment>
+              </p>
+            </content>
+          </point>
+          <point eId="point_77">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>77.</num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryLegislation/1981-05-28/146875">בחוק אימוץ ילדים, התשמ"א–1981</ref>.</wikicomment>
+              </p>
+            </content>
+          </point>
+          <point eId="point_78">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>78.</num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryLegislation/1980-12-01/147335">בחוק הבטחת הכנסה, התשמ"א–1980</ref>.</wikicomment>
+              </p>
+            </content>
+          </point>
+          <point eId="point_79">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>79.</num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryLegislation/1981-04-26/148395">בחוק הגנת הצרכן, התשמ"א–1981</ref>.</wikicomment>
+              </p>
+            </content>
+          </point>
+          <point eId="point_80">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>80.</num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryLegislation/1981-06-16/171484">בחוק המרשם הפלילי ותקנת השבים, התשמ"א–1981</ref>.</wikicomment>
+              </p>
+            </content>
+          </point>
+          <point eId="point_81">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>81.</num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryLegislation/1993-01-07/174396">בחוק הסדרים במשק המדינה (תיקוני חקיקה להשגת יעדי התקציב), התשנ"ג–1992</ref>.</wikicomment>
+              </p>
+            </content>
+          </point>
+          <point eId="point_82">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>82.</num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryLegislation/1993-07-22/154025">בחוק דמי מחלה (היעדרות בשל מחלת ילד), התשנ"ג–1993</ref>.</wikicomment>
+              </p>
+            </content>
+          </point>
+          <point eId="point_83">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>83.</num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryLegislation/1995-05-15/158093">בחוק הביטוח הלאומי [נוסח משולב], התשנ"ה–1995</ref>.</wikicomment>
+              </p>
+            </content>
+          </point>
+          <point eId="point_84">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>84.</num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryLegislation/2007-06-07/142524">בחוק זכויות הסטודנט, התשס"ז–2007</ref>.</wikicomment>
+              </p>
+            </content>
+          </point>
+          <point eId="point_85">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>85.</num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryLegislation/2011-04-04/331569">בחוק למניעת מפגעי אסבסט ואבק מזיק, התשע"א–2011</ref>.</wikicomment>
+              </p>
+            </content>
+          </point>
+          <point eId="point_86">
+            <heading>
+              <authorialNote placement="side">
+                <p>שמירת דינים</p>
+              </authorialNote>
+            </heading>
+            <num>86.</num>
+            <list>
+              <point eId="point_86__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>אין בהוראות חוק זה כדי לפגוע בהוראות <ref href="/akn/il/act/PrimaryLegislation/1960-07-14/150256">חוק הנוער</ref> ובסמכויות עובד סוציאלי לפי <ref href="/akn/il/act/PrimaryLegislation/1960-07-14/150256">חוק הנוער (טיפול והשגחה)</ref>, לרבות לעניין טיפול נפשי בקטין, או בהוראות <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/חוק_הסעד_טיפול_באנשים_עם_מוגבלות_שכלית_התפתחותית">חוק הסעד (טיפול באנשים עם מוגבלות שכלית–התפתחותית)</ref> ובסמכויות עובד סוציאלי לפי <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/חוק_הסעד_טיפול_באנשים_עם_מוגבלות_שכלית_התפתחותית">חוק הסעד (טיפול באנשים עם מוגבלות שכלית–התפתחותית)</ref>.</p>
+                </content>
+              </point>
+              <point eId="point_86__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>אין בהוראות חוק זה כדי לגרוע מאחריות ההורים, מחובותיהם, מזכויותיהם ומסמכויותיהם כלפי ילדם לפי הוראות כל דין, ובכלל זה מחובות ההורים לתשלום מזונות לילדיהם הקטינים, לפי הוראות <ref href="/akn/il/act/PrimaryLegislation/1959-03-12/147579">חוק לתיקון דיני המשפחה (מזונות), התשי"ט–1959</ref>, או מחובות השתתפות אחרות החלות על האחראי על קטין.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_87">
+            <heading>
+              <authorialNote placement="side">
+                <p>שמירת זכויות</p>
+              </authorialNote>
+            </heading>
+            <num>87.</num>
+            <list>
+              <point eId="point_87__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>אין בהוראות חוק זה כדי לגרוע מזכויותיו לפי כל דין של ילד שחוק זה חל עליו.</p>
+                </content>
+              </point>
+              <point eId="point_87__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>אין בהוראות חוק זה כדי לגרוע מהסדרים החלים לעניין אומנה לבגירים.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_88">
+            <heading>
+              <authorialNote placement="side">
+                <p>תחולה לעניין יתום משני הוריו שנפטרו כתוצאה מפגיעת איבה</p>
+              </authorialNote>
+            </heading>
+            <num>88.</num>
+            <content>
+              <p>הוראות חוק זה לא יחולו על אומנה של יתום משני הוריו, שנפטרו כתוצאה מפגיעת איבה כהגדרתה <ref href="/akn/il/act/PrimaryLegislation/1970-07-30/148919">בחוק התגמולים לנפגעי פעולות איבה, התש"ל–1970</ref>; ואולם על אומנה כאמור שהחלה מיום התחילה ואילך יחולו הוראות <ref href="#chp_א">פרקים א׳</ref>, <ref href="#chp_ב">ב׳</ref><ref href="#chp_ז">ו־ז׳</ref><ref href="#point_36">וסעיפים 36</ref>, <ref href="#point_39">39</ref>, <ref href="#point_40">40</ref>, <ref href="#point_41">41</ref>, <ref href="#point_43">43(ב)</ref>, <ref href="#point_44">44</ref>, <ref href="#point_45">45</ref>, <ref href="#point_48">48</ref>, <ref href="#point_49">49</ref><ref href="#point_65">ו־65</ref>, ודיווח לגורם המוסמך לפי הוראות אלה יימסר גם לאגף השיקום במוסד לביטוח לאומי.</p>
+            </content>
+          </point>
+          <point eId="point_89">
+            <heading>
+              <authorialNote placement="side">
+                <p>אי־תחולה</p>
+              </authorialNote>
+            </heading>
+            <num>89.</num>
+            <content>
+              <p>הוראות חוק זה לא יחולו על השמת ילד עם הורהו במסגרת משפחתית למטרת הקניית כישורי הורות או הערכתם.</p>
+            </content>
+          </point>
+          <point eId="point_90">
+            <heading>
+              <authorialNote placement="side">
+                <p>תחילה ותקנות ראשונות</p>
+              </authorialNote>
+            </heading>
+            <num>90.</num>
+            <list>
+              <point eId="point_90__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>תחילתו של חוק זה תשעה חודשים מיום פרסומו (להלן – יום התחילה).<br space="preserve"></br><wikicomment font-size="x-small">יום התחילה הוא 6.12.2016.</wikicomment></p>
+                </content>
+              </point>
+              <point eId="point_90__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>תקנות ראשונות לפי <ref href="#point_46">סעיפים 46(ב)</ref>, <ref href="#point_49">49(ה)</ref>, <ref href="#point_56">56(ט)</ref><ref href="#point_58">ו־58(ב)</ref> יובאו לאישור ועדת העבודה הרווחה והבריאות של הכנסת עד ליום התחילה.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_91">
+            <heading>
+              <authorialNote placement="side">
+                <p>דיווח לכנסת</p>
+              </authorialNote>
+            </heading>
+            <num>91.</num>
+            <content>
+              <p>בתום שישה חודשים מיום פרסומו של חוק זה, ימסור המשרד לוועדת העבודה הרווחה והבריאות של הכנסת דיווח על ההיערכות ליישומו.</p>
+            </content>
+          </point>
+          <point eId="point_92">
+            <heading>
+              <authorialNote placement="side">
+                <p>הוראות מעבר</p>
+              </authorialNote>
+            </heading>
+            <num>92.</num>
+            <list>
+              <point eId="point_92__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>הממונה על רישוי אומנה, בהתייעצות עם המפקח הארצי על האומנה, רשאי, לבקשת קרוב משפחה שהחזיק ילד בביתו ולא הוכר כמשפחה אומנת ערב פרסומו של חוק זה, לתת לקרוב המשפחה כאמור רישיון אומנה לתקופה שלא תעלה על 18 חודשים מיום התחילה (בסעיף זה – תקופת המעבר), גם אם לא עמד בכל התנאים המנויים בחוק זה, ובלבד שהבקשה הוגשה בתוך שישה חודשים מיום התחילה, ולא מתקיים במבקש התנאי <ref href="#point_24">שבסעיף 24(ב)</ref>; תמה תקופת המעבר, יהיה רשאי הממונה על רישוי אומנה להאריך, בדרך האמורה, רישיון לקרוב משפחה כאמור רק לגבי ילד שמלאו לו 14 שנים ושהה בבית קרוב המשפחה כאמור במשך 30 חודשים לפחות, אם מצא כי הדבר נדרש לטובת הילד ומחמת נסיבות הקשורות בילד.</p>
+                </content>
+              </point>
+              <point eId="point_92__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>מי שאושר בידי מי שהשר הסמיכו לכך לשמש משפחה אומנת והיה עמו ילד באומנה ערב פרסומו של חוק זה, יראו אותו כאילו קיבל רישיון אומנה לעניין אותו ילד גם אם לא עמד בכל התנאים המנויים בחוק זה, לתקופה של שלוש שנים מיום התחילה, ובלבד שלא מתקיים בו התנאי <ref href="#point_24">שבסעיף 24(ב)</ref>; רישיון אומנה לאדם כאמור לעניין ילדים אחרים יינתן בהתאם להוראות חוק זה.</p>
+                </content>
+              </point>
+              <point eId="point_92__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>מי שאושר בידי מי שהשר הסמיכו לכך לשמש משפחה אומנת, מיום פרסומו של חוק זה ועד ערב יום התחילה יראו אותו כאילו ניתן לו רישיון אומנה לפי חוק זה, והוראות <ref href="#point_30">סעיף 30</ref> יחולו לעניין רישיון כאמור בתקופה האמורה.</p>
+                </content>
+              </point>
+              <point eId="point_92__point_ד">
+                <num>(ד)</num>
+                <content>
+                  <p>מי שהגיש בקשה לשמש משפחה אומנת ערב יום התחילה, יראו אותו כאילו הגיש בקשה לרישיון אומנה לפי חוק זה.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+        </list>
+      </chapter>
+      <appendix eId="appendix_ראשונה">
+        <num></num>
+        <title>
+          <content>
+            <p>תוספת ראשונה</p>
+          </content>
+        </title>
+        <subtitle eId="eId">
+          <num></num>
+          <content>
+            <p>
+              <wikicomment font-size="x-small">(<ref href="#point_43">סעיף 43</ref>)</wikicomment>
+            </p>
+          </content>
+        </subtitle>
+        <list>
+          <point eId="appendix_ראשונה__point_1">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>1.</num>
+            <content>
+              <p>מתן הסכמה לבדיקה רפואית ולטיפול רפואי, לרבות נטילת תרופות, ביצוע בדיקות דם וקבלת חיסונים הניתנים לכלל ילדי ישראל, ולמעט טיפול רפואי המנוי <ref href="/akn/il/act/PrimaryLegislation/1996-05-12/174478#appendix">בתוספת לחוק זכויות החולה</ref>;</p>
+            </content>
+          </point>
+          <point eId="appendix_ראשונה__point_2">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>2.</num>
+            <content>
+              <p>מתן הסכמה לאבחון התפתחותי ולטיפול מקובל בליקויים, ובכלל זה בליקוי התפתחותי, בליקויי למידה, שמיעה או דיבור או במוגבלות פיזית או חושית אחרת;</p>
+            </content>
+          </point>
+          <point eId="appendix_ראשונה__point_3">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>3.</num>
+            <content>
+              <p>מתן הסכמה לבדיקות פסיכולוגיות ופסיכיאטריות ולטיפול פסיכולוגי, בהתאם לתכנית הטיפול ולפי הנחיית מנחה האומנה שמונה לילד, בכפוף להוראות <ref href="/akn/il/act/PrimaryLegislation/1960-07-14/150256">חוק הנוער</ref><ref href="/akn/il/act/PrimaryLegislation/1991-01-08/152284">וחוק טיפול בחולי נפש, התשנ"א–1991</ref>;</p>
+            </content>
+          </point>
+          <point eId="appendix_ראשונה__point_4">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>4.</num>
+            <content>
+              <p>הפניה לוועדת השמה לפי <ref href="/akn/il/act/PrimaryLegislation/1988-07-21/174543">חוק חינוך מיוחד, תשמ"ח–1988</ref>, בהתאם לתכנית הטיפול, ולפי הנחיית מנחה האומנה שמונה לילד;</p>
+            </content>
+          </point>
+          <point eId="appendix_ראשונה__point_5">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>5.</num>
+            <content>
+              <p>בחירת בית הספר, גן הילדים, מעון יום, מעון יום שיקומי או מסגרת חינוכית אחרת, שבהם ילמד הילד, ואולם בחירת בית הספר או גן הילדים תהיה כפופה, ככל האפשר, לבחירת הורה הילד בהתחשב באורח חייו ודרכו החינוכית, בסוג מוסדות החינוך כלהלן: ממלכתי, ממלכתי–דתי, מוכר שאינו רשמי, מוסד במעמד פטור או מוסד חינוך תרבותי–ייחודי; לא בחר הורה הילד בסוג מוסד חינוך, תיעשה הבחירה בידי האומן באישור מנחה האומנה שמונה לילד, בהתחשב באורח החיים ובדרך החינוכית שבהם גדל הילד עד השמתו;</p>
+            </content>
+          </point>
+          <point eId="appendix_ראשונה__point_6">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>6.</num>
+            <content>
+              <p>בחירת חוגים שבהם ישתתף הילד בעת שהייתו בבית הספר או בשעות הפנאי שלו, לרבות השתתפות בפעילות תנועת נוער;</p>
+            </content>
+          </point>
+          <point eId="appendix_ראשונה__point_7">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>7.</num>
+            <content>
+              <p>אישור להשתתפות בטיולים, במחנות ובפעילויות בארץ, וכן בכפוף לפרט 11 – בחוץ לארץ;</p>
+            </content>
+          </point>
+          <point eId="appendix_ראשונה__point_8">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>8.</num>
+            <content>
+              <p>תספורת לילד;</p>
+            </content>
+          </point>
+          <point eId="appendix_ראשונה__point_9">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>9.</num>
+            <content>
+              <p>רישום בקופת חולים;</p>
+            </content>
+          </point>
+          <point eId="appendix_ראשונה__point_10">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>10.</num>
+            <content>
+              <p>לימוד נהיגה ומתן הסכמה לקבלת רישיון נהיגה;</p>
+            </content>
+          </point>
+          <point eId="appendix_ראשונה__point_11">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>11.</num>
+            <content>
+              <p>הוצאת דרכון וחידושו ויציאת הילד מישראל לתקופה שאינה עולה על שבועיים, באישור מנחה האומנה שמונה לילד.</p>
+            </content>
+          </point>
+        </list>
+      </appendix>
+      <appendix eId="appendix_שנייה">
+        <num></num>
+        <title>
+          <content>
+            <p>תוספת שנייה</p>
+          </content>
+        </title>
+        <subtitle eId="eId">
+          <num></num>
+          <content>
+            <p>
+              <wikicomment font-size="x-small">(<ref href="#point_43">סעיף 43</ref>)</wikicomment>
+            </p>
+          </content>
+        </subtitle>
+        <list>
+          <point eId="appendix_שנייה__point_1">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>1.</num>
+            <content>
+              <p>שינוי שם לפי <ref href="/akn/il/act/PrimaryLegislation/1956-08-03/148758#point_13">סעיפים 13</ref><ref href="/akn/il/act/PrimaryLegislation/1956-08-03/148758#point_14">ו־14 לחוק השמות, תשט"ז–1956</ref>;</p>
+            </content>
+          </point>
+          <point eId="appendix_שנייה__point_2">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>2.</num>
+            <content>
+              <p>ברית מילה;</p>
+            </content>
+          </point>
+          <point eId="appendix_שנייה__point_3">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>3.</num>
+            <content>
+              <p>בחירת סוג מוסד החינוך: ממלכתי, ממלכתי–דתי, מוכר שאינו רשמי, מוסד במעמד פטור או מוסד חינוך תרבותי–ייחודי;</p>
+            </content>
+          </point>
+          <point eId="appendix_שנייה__point_4">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>4.</num>
+            <content>
+              <p>מתן הסכמה לטיפול רפואי המנוי <ref href="/akn/il/act/PrimaryLegislation/1996-05-12/174478#appendix">בתוספת לחוק זכויות החולה</ref>;</p>
+            </content>
+          </point>
+          <point eId="appendix_שנייה__point_5">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>5.</num>
+            <content>
+              <p>מתן הסכמה לטיפול פסיכיאטרי או לאשפוז פסיכיאטרי, ובכלל זה לטיפול באמצעות תרופות פסיכיאטריות;</p>
+            </content>
+          </point>
+          <point eId="appendix_שנייה__point_6">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>6.</num>
+            <content>
+              <p>יציאת הילד מהארץ לתקופה העולה על שבועיים, באישור מנחה האומנה שמונה לילד.</p>
+            </content>
+          </point>
+        </list>
+      </appendix>
+    </body>
+    <conclusions eId="eId">
+      <p class="signatures">
+        <signature>
+          <p>
+            <person refersTo="בנימין_נתניהו">בנימין נתניהו</person>
+            <role refersTo="ראש_הממשלה">ראש הממשלה</role>
+          </p>
+        </signature>
+        <signature>
+          <p>
+            <person refersTo="חיים_כץ">חיים כץ</person>
+            <role refersTo="שר_הרווחה_והשירותים_החברתיים">שר הרווחה והשירותים החברתיים</role>
+          </p>
+        </signature>
+        <signature>
+          <p>
+            <person refersTo="ראובן_ריבלין">ראובן ריבלין</person>
+            <role refersTo="נשיא_המדינה">נשיא המדינה</role>
+          </p>
+        </signature>
+        <signature>
+          <p>
+            <person refersTo="יולי_יואל_אדלשטיין">יולי יואל אדלשטיין</person>
+            <role refersTo="יושב_ראש_הכנסת">יושב ראש הכנסת</role>
+          </p>
+        </signature>
+      </p>
+    </conclusions>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,1051 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion" name="publicLaw">
+    <meta>
+      <identification source="#kensset">
+        <FRBRWork>
+          <FRBRthis value="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/888800071/main" />
+          <FRBRuri value="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/888800071" />
+          <FRBRdate date="1000-01-01" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRcountry value="israel" />
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/888800071/he@/main" />
+          <FRBRuri value="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/888800071/he@" />
+          <FRBRdate date="1000-01-01" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRlanguage language="hebrew" />
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/888800071/he@/main.xml" />
+          <FRBRuri value="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/888800071/he@" />
+          <FRBRdate date="1000-01-01" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRformat value="xml" />
+        </FRBRManifestation>
+      </identification>
+      <classification source="#kensset">
+        <keyword value="{classificationValue}" showAs="{classificationValue}" dictionary="#classification_dictionary" />
+      </classification>
+      <lifecycle source="#kensset">
+        <eventRef eId="eventRef_1" date="1000-01-01" source="#kensset" type="generation" />
+      </lifecycle>
+      <references source="#kensset">
+        <TLCOrganization eId="kensset" href="/ontology/organization/akn/knesset" showAs="Kensset" type="generation" />
+        <TLCRole eId="author" href="/ontology/role/akn/author" showAs="Author of Document" />
+        <TLCProcess eId="inforce" href="/ontology/process/akn/inforce" showAs="In force" />
+        <TLCTerm eId="term_1" href="/ontology/term/אורח/888800071" showAs="אורח" />
+        <TLCTerm eId="term_2" href="/ontology/term/אנשים_הגרים_באותו_מקום/888800071" showAs="אנשים_הגרים_באותו_מקום" />
+        <TLCTerm eId="term_3" href="/ontology/term/חוזר/888800071" showAs="חוזר" />
+        <TLCTerm eId="term_4" href="/ontology/term/חולה/888800071" showAs="חולה" />
+        <TLCTerm eId="term_5" href="/ontology/term/מחלים/888800071" showAs="מחלים" />
+        <TLCTerm eId="term_6" href="/ontology/term/אדם_המצוי_בבידוד/888800071" showAs="אדם_המצוי_בבידוד" />
+        <TLCTerm eId="term_7" href="/ontology/term/בחירות/888800071" showAs="בחירות" />
+        <TLCTerm eId="term_8" href="/ontology/term/הוראות_המנהל/888800071" showAs="הוראות_המנהל" />
+        <TLCTerm eId="term_9" href="/ontology/term/היעדים/888800071" showAs="היעדים" />
+        <TLCTerm eId="term_10" href="/ontology/term/התכנסות_בין־לאומית/888800071" showAs="התכנסות_בין־לאומית" />
+        <TLCTerm eId="term_11" href="/ontology/term/התקהלות_מאורגנת/888800071" showAs="התקהלות_מאורגנת" />
+        <TLCTerm eId="term_12" href="/ontology/term/מגע_הדוק/888800071" showAs="מגע_הדוק" />
+        <TLCTerm eId="term_13" href="/ontology/term/מוסד_בריאות/888800071" showAs="מוסד_בריאות" />
+        <TLCTerm eId="term_14" href="/ontology/term/מוסד_רווחה/888800071" showAs="מוסד_רווחה" />
+        <TLCTerm eId="term_15" href="/ontology/term/מקצוע_בריאות/888800071" showAs="מקצוע_בריאות" />
+        <TLCTerm eId="term_16" href="/ontology/term/מקום_למכירת_מזון/888800071" showAs="מקום_למכירת_מזון" />
+        <TLCTerm eId="term_17" href="/ontology/term/עובד/888800071" showAs="עובד" />
+        <TLCTerm eId="term_18" href="/ontology/term/עובד_מערכת_הבריאות/888800071" showAs="עובד_מערכת_הבריאות" />
+        <TLCTerm eId="term_19" href="/ontology/term/עטיית_מסכה/888800071" showAs="עטיית_מסכה" />
+        <TLCTerm eId="term_20" href="/ontology/term/צו_בידוד_בבית_חולים/888800071" showAs="צו_בידוד_בבית_חולים" />
+        <TLCTerm eId="term_21" href="/ontology/term/קופת_חולים/888800071" showAs="קופת_חולים" />
+        <TLCTerm eId="term_22" href="/ontology/term/ראש_השירות/888800071" showAs="ראש_השירות" />
+        <TLCTerm eId="term_23" href="/ontology/term/רופא_קופת_חולים/888800071" showAs="רופא_קופת_חולים" />
+        <TLCTerm eId="term_24" href="/ontology/term/רופא_מחוזי/888800071" showAs="רופא_מחוזי" />
+        <TLCTerm eId="term_25" href="/ontology/term/תסמינים/888800071" showAs="תסמינים" />
+        <TLCTerm eId="term_26" href="/ontology/term/איש_צוות_רפואי/888800071" showAs="איש_צוות_רפואי" />
+        <TLCTerm eId="term_27" href="/ontology/term/מטפל_ישיר/888800071" showAs="מטפל_ישיר" />
+        <TLCTerm eId="term_28" href="/ontology/term/מסגרת_חוץ־ביתית/888800071" showAs="מסגרת_חוץ־ביתית" />
+        <TLCTerm eId="term_29" href="/ontology/term/אדם_השוהה_במקום_סגור_או_מופרד/888800071" showAs="אדם_השוהה_במקום_סגור_או_מופרד" />
+        <TLCTerm eId="term_30" href="/ontology/term/אנשים_הגרים_באותו_מקום/888800071" showAs="אנשים_הגרים_באותו_מקום" />
+        <TLCPerson eId="משה_בר־סימן_טוב" href="/ontology/person/משה_בר־סימן_טוב" showAs="משה בר־סימן טוב" />
+        <TLCRole eId="המנהל_הכללי_של_משרד_הבריאות" href="ontology/role/akn/המנהל_הכללי_של_משרד_הבריאות" showAs="המנהל הכללי של משרד הבריאות" />
+      </references>
+      <temporalData source="#kensset">
+        <temporalGroup eId="tmpg_1" />
+      </temporalData>
+      <Publication></Publication>
+      <proprietary wikiversion="1/13/2021 9:36:56 AM" />
+    </meta>
+    <body period="#tmpg_1">
+      <title eId="title">
+        <content>
+          <p>צו בריאות העם (נגיף הקורונה החדש) (בידוד בית והוראות שונות) (הוראת שעה), התש"ף–2020</p>
+        </content>
+      </title>
+      <preamble eId="eId">
+        <p>בתוקף סמכותי לפי <ref href="/akn/il/act/PrimaryLegislation/1940-12-20/2001729#point_20">סעיף 20(1)(ב) ו־(ג) ו־(2)(א)</ref><ref href="/akn/il/act/PrimaryLegislation/1940-12-20/2001729">לפקודת בריאות העם, 1940</ref> (להלן – הפקודה), אני מצווה לאמור:</p>
+      </preamble>
+      <list>
+        <point eId="point_1" class="definitions">
+          <heading>
+            <authorialNote placement="side">
+              <p>הגדרות</p>
+            </authorialNote>
+          </heading>
+          <num>1.</num>
+          <list>
+            <intro>
+              <p>בצו זה –</p>
+            </intro>
+            <point eId="point_1__point_אורח">
+              <content>
+                <p>
+                  <def />”אורח“ – מי שאינו דייר או שוהה קבוע במוסד רווחה או בריאות, שאינו עובד המוסד, שאינו עובד זר המתגורר בדיור מוגן יחד עם דייר, שאינו מפקח מטעם משרד העבודה הרווחה והשירותים החברתיים או מטעם משרד הבריאות ושאינו נותן שירותים סדירים ומתוכננים למוסד;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_אנשים_הגרים_באותו_מקום">
+              <content>
+                <p>
+                  <def />”אנשים הגרים באותו מקום“ – בני אותו תא משפחתי או יחידים השוהים יחד במקום מגורים אחד;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_חוזר">
+              <content>
+                <p>
+                  <def />”חוזר“ – מי שהגיע לישראל מחוצה לה, למעט מי שהגיע מיהודה והשומרון או מחבל עזה ולא היה במדינה אחרת במהלך 14 הימים האחרונים שלפני הגעתו לישראל;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_חולה">
+              <content>
+                <p>
+                  <def />”חולה“ – חולה עם ממצא מעבדתי חיובי ל־<ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/w_SARS_CoV_2">nCoV</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_מחלים">
+              <content>
+                <p>
+                  <def />”מחלים“ – מי שרופא קבע לגביו כי הוא מחלים לפי הוראות המנהל;<br space="preserve"></br><wikicomment font-size="x-small">פורסמו <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/https_www_health_gov_il_Subjects_disease_corona_Documents_bz_259818720_pdf">הוראות המנהל לעניין מחלים</ref>.</wikicomment></p>
+              </content>
+            </point>
+            <point eId="point_1__point_אדם_המצוי_בבידוד">
+              <list>
+                <intro>
+                  <p>
+                    <def />”אדם המצוי בבידוד“ – אחד מאלה:</p>
+                </intro>
+                <point eId="point_1__point_אדם_המצוי_בבידוד__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>חוזר;</p>
+                  </content>
+                </point>
+                <point eId="point_1__point_אדם_המצוי_בבידוד__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>מי שהיה במגע הדוק עם חולה;</p>
+                  </content>
+                </point>
+                <point eId="point_1__point_אדם_המצוי_בבידוד__point_3">
+                  <num>(3)</num>
+                  <content>
+                    <p>מי שרופא קבע לגביו כי היה במגע הדוק עם חולה ב־14 הימים האחרונים;</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_1__point_בחירות">
+              <content>
+                <p>
+                  <def />”בחירות“ – הבחירות לכנסת ה־23;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_הוראות_המנהל">
+              <content>
+                <p>
+                  <def />”הוראות המנהל“ – הוראות המנהל לפי <ref href="/akn/il/act/PrimaryLegislation/1940-12-20/2001729">הפקודה</ref>;<br space="preserve"></br><wikicomment font-size="x-small">פורסמו <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/https_www_health_gov_il_Subjects_disease_corona_Documents_coronavirus_med_guidelines_pdf">הנחיות להתמודדות עם תחלואה מנגיף הקורונה החדש (עדכון מס׳ 15 – מעודכן ליום 14.4.2020)</ref>.</wikicomment></p>
+              </content>
+            </point>
+            <point eId="point_1__point_היעדים">
+              <content>
+                <p>
+                  <def />”היעדים“ – <wikicomment font-size="x-small">(נמחקה);</wikicomment></p>
+              </content>
+            </point>
+            <point eId="point_1__point_התכנסות_בין־לאומית">
+              <content>
+                <p>
+                  <def />”התכנסות בין־לאומית“ – התקהלות מאורגנת בהשתתפות אנשים המגיעים ממדינה אחת או יותר, שאינה ישראל;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_התקהלות_מאורגנת">
+              <content>
+                <p>
+                  <def />”התקהלות מאורגנת“ – התקהלות מאורגנת לרבות במסגרת של אירוע ספורט, כנס, הצגה, מופע;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_מגע_הדוק">
+              <list>
+                <intro>
+                  <p>
+                    <def />”מגע הדוק“ – כל אחד מאלה:</p>
+                </intro>
+                <point eId="point_1__point_מגע_הדוק__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>חשיפה במוסד רפואי לחולה, ובכלל זה כל אלה: טיפול ישיר בחולה, עבודה יחד עם עובדי בריאות שחלו, ביקור חולה או שהייה בחדר עם חולה; והכול אם בוצעו בלא מיגון לפי הנחיות משרד הבריאות;</p>
+                  </content>
+                </point>
+                <point eId="point_1__point_מגע_הדוק__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>עבודה בסמוך לחולה או שהייה בכיתה עם חולה;</p>
+                  </content>
+                </point>
+                <point eId="point_1__point_מגע_הדוק__point_3">
+                  <num>(3)</num>
+                  <content>
+                    <p>נסיעה עם חולה בכל אמצעי תחבורה ובמרחק של עד שני מושבים ממקום מושב החולה;</p>
+                  </content>
+                </point>
+                <point eId="point_1__point_מגע_הדוק__point_4">
+                  <num>(4)</num>
+                  <content>
+                    <p>בני ביתו של חולה.</p>
+                  </content>
+                </point>
+                <point eId="point_1__point_מגע_הדוק__point_5">
+                  <num>(5)</num>
+                  <content>
+                    <p>כל מגע קרוב עם חולה שמעלה חשש להידבקות;</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_1__point_מוסד_בריאות">
+              <list>
+                <intro>
+                  <p>
+                    <def />”מוסד בריאות“ – כל אחד מאלה:</p>
+                </intro>
+                <point eId="point_1__point_מוסד_בריאות__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>בית חולים או מחלקה בבית חולים, המיועדים לאשפוז ממושך של חולים סיעודיים, תשושי נפש, סיעודיים מורכבים, מונשמים או מטופלים בגריאטריה פעילה, מחלקות פסיכו–גריאטריות, וכן הוסטל לניצולי שואה;</p>
+                  </content>
+                </point>
+                <point eId="point_1__point_מוסד_בריאות__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>מסגרת דיור בקהילה המשמשת לשיקום נכי נפש;</p>
+                  </content>
+                </point>
+                <point eId="point_1__point_מוסד_בריאות__point_3">
+                  <num>(3)</num>
+                  <content>
+                    <p>מוסד לגמילה מסמים או מאלכוהול הכולל מגורים במקום;</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_1__point_מוסד_רווחה">
+              <content>
+                <p>
+                  <def />”מוסד רווחה“ – מעון לזקנים או מעון לבעלי מום גופני או ללוקים בשכלם, כמשמעותם <ref href="/akn/il/act/PrimaryLegislation/1965-01-21/148360">בחוק הפיקוח על מעונות, התשכ"ה–1965</ref>, המשמש כמקום למגורים, וכן בית דיור מוגן כהגדרתו <ref href="/akn/il/act/PrimaryLegislation/2012-06-03/370951">בחוק הדיור המוגן, התשע"ב–2012</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_מקצוע_בריאות">
+              <content>
+                <p>
+                  <def />”מקצוע בריאות“ – מקצוע המנוי <ref href="/akn/il/act/PrimaryLegislation/1996-05-12/174478#point_2">בהגדרת ”מטפל“ בחוק זכויות החולה, התשנ"ו–1996</ref>, וכן עוזר כהגדרתו <ref href="/akn/il/act/SecondaryLegislation/2001-08-23/100029855">בתקנות הרופאים (כשירויות לביצוע פעולות חריגות), התשס"א–2001</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_מקום_למכירת_מזון">
+              <content>
+                <p>
+                  <def />”מקום למכירת מזון“ – חנות שעיקר עיסוקה מכירת מזון, קיוסק, מרכול, בית אוכל שלא לצריכה במקום, דוכן למכירת מזון שלא לצריכה במקום לרבות דוכן כאמור בשווקים;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_עובד">
+              <content>
+                <p>
+                  <def />”עובד“ – לרבות מתנדב, מי שמועסק ומי שנותן שירות בחצריו של מעסיק, בין אם מתקיימים עם המעסיק יחסי עבודה ובין אם לאו;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_עובד_מערכת_הבריאות">
+              <content>
+                <p>
+                  <def />”עובד מערכת הבריאות“ – אדם העובד במוסד רפואי, בקופת חולים, בארגון הנותן שירותי רפואת חירום או במעון כהגדרתו <ref href="/akn/il/act/PrimaryLegislation/1965-01-21/148360#point_1">בחוק הפיקוח על מעונות, התשכ"ה–1965</ref>, וכן תלמיד, סטז׳ר, מתלמד או אדם המשלים הכשרה מעשית למקצוע בריאות, ולרבות עובד חברת כוח אדם או ספק שירותים המבצע את עבודתו באחד מאלה;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_עטיית_מסכה">
+              <content>
+                <p>
+                  <def />”עטיית מסכה“ – כיסוי הפה והאף בבד, במסכה המיועדת לכך, או במסכה ביתית, הצמודים לפנים (בצו זה – מסכה), בהתאם להוראות המנהל;<br space="preserve"></br><wikicomment font-size="x-small">פורסמו <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/https_govextra_gov_il_media_16154_mmk_204453920_pdf">הוראות המנהל לפי סעיף 20 לפקודה</ref> לעניין חובת עטיית מסכה.</wikicomment></p>
+              </content>
+            </point>
+            <point eId="point_1__point_צו_בידוד_בבית_חולים">
+              <content>
+                <p>
+                  <def />”צו בידוד בבית חולים“ – <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/צו_בריאות_העם_נגיף_קורונה_החדש_בידוד_בבית_חולים_הוראת_שעה">צו בריאות העם (נגיף קורונה החדש) (בידוד בבית חולים) (הוראת שעה), התש"ף–2020</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_קופת_חולים">
+              <content>
+                <p>
+                  <def />”קופת חולים“ – כהגדרתה <ref href="/akn/il/act/PrimaryLegislation/1994-06-26/157723">בחוק ביטוח בריאות ממלכתי, התשנ"ד–1994</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_ראש_השירות">
+              <content>
+                <p>
+                  <def />”ראש השירות“ – ראש שירותי בריאות הציבור במשרד הבריאות או סגנו;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_רופא_קופת_חולים">
+              <content>
+                <p>
+                  <def />”רופא קופת חולים“ – רופא בשירות קופת חולים, ולעניין חייל בשירות סדיר בצבא ההגנה לישראל – רופא בשירות חיל הרפואה;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_רופא_מחוזי">
+              <content>
+                <p>
+                  <def />”רופא מחוזי“ – לרבות סגנו;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_תסמינים">
+              <content>
+                <p>
+                  <def />”תסמינים“ – חום גוף העולה על 38 מעלות צלזיוס, שיעול או קושי בנשימה.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_2">
+          <heading>
+            <authorialNote placement="side">
+              <p>חובת בידוד בית ותנאי בידוד לאדם המצוי בבידוד</p>
+            </authorialNote>
+          </heading>
+          <num>2.</num>
+          <list>
+            <point eId="point_2__point_א">
+              <num>(א)</num>
+              <content>
+                <p>אדם המצוי בבידוד ישהה בבידוד בבית מגורים או במקום אחר שניתן לקיים בו את תנאי הבידוד (להלן – מקום הבידוד).</p>
+              </content>
+            </point>
+            <point eId="point_2__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>היה לאדם ספק אם הוא היה במגע הדוק עם חולה, ישהה בבידוד ויפנה למשרד הבריאות לבירור הספק.</p>
+              </content>
+            </point>
+            <point eId="point_2__point_ב1">
+              <num>(ב1)</num>
+              <content>
+                <p>אדם שנבדק אם הוא נושא את נגיף הקורונה בעקבות הפניה של רופא בשל חשד להדבקה בקורונה, ישהה בבידוד במקום בידוד לפי סעיף קטן (א) עד לחזרת תוצאות הבדיקה עם ממצא שלילי ל־nCov, או עד קבלת אישור רופא לסיום תקופת הבידוד לפי סעיף קטן זה אשר יינתן לפי הוראות המנהל, ואולם אם עדיין חלה עליו חובת בידוד אחרת לפי צו זה ישהה בבידוד עד להשלמת התקופה של הבידוד לפי אותה חובת בידוד; על בידוד לפי סעיף קטן זה יחולו הוראות סעיפים קטנים (ה) עד (ח), בשינויים המחויבים.</p>
+              </content>
+            </point>
+            <point eId="point_2__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>הבידוד יהיה לתקופה של 14 ימים ממועד ההגעה, או 14 ימים מיום המגע האחרון עם חולה (להלן – תקופת הבידוד).</p>
+              </content>
+            </point>
+            <point eId="point_2__point_ג1">
+              <num>(ג1)</num>
+              <content>
+                <p>חוזר או אדם שנודע לו כי מתקיים בו האמור <ref href="#point_1">בפסקה (2) או (3) בהגדרה ”אדם המצוי בבידוד“</ref> (להלן – אדם שנודע לו כי הוא אדם המצוי בבידוד), יגיע למקום הבידוד בדרך המהירה ביותר, ולא יעשה שימוש בתחבורה ציבורית כדי להגיע למקום הבידוד; אדם לא יעשה שימוש בתחבורה ציבורית כדי להגיע לבדיקה כאמור בסעיף קטן (ב1) או למקום הבידוד לפי אותו סעיף קטן; בסעיף קטן זה, ”תחבורה ציבורית“ – למעט מונית, ובתנאי שבמונית לא ישב נוסע נוסף, למעט אם הם אנשים הגרים באותו מקום, ובתנאי שהנוסע ישב במושב האחורי וחלונות המונית יהיו פתוחים.</p>
+              </content>
+            </point>
+            <point eId="point_2__point_ג2">
+              <num>(ג2)</num>
+              <list>
+                <intro>
+                  <p>על אף האמור בסעיף קטן (ג), אדם המצוי בבידוד שהוא עובד מערכת הבריאות, יוכל לסיים את תקופת הבידוד לאחר שקיבל תוצאות של שתי בדיקות עם ממצא שלילי ל־nCov; בדיקות אלה יבוצעו במועדים שהורה המנהל ולאחר קבלת אישור המעסיק לקיום התנאים כאמור בהוראות המנהל; לעניין סעיף קטן זה, ”עובד מערכת הבריאות“ – אחד מאלה:</p>
+                </intro>
+                <point eId="point_2__point_ג2__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>עובד לשכת בריאות מחוזית שהוגדר עובד חיוני על ידי רופא המחוז או על ידי המנהל;</p>
+                  </content>
+                </point>
+                <point eId="point_2__point_ג2__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>אדם העובד במוסד רפואי, בקופת חולים או בארגון הנותן שירותי רפואת חירום (בפסקה זאת – מוסד), וכן תלמיד, סטז׳ר, מתלמד או אדם המשלים הכשרה מעשית למקצוע בריאות במוסד, ולרבות עובד חברת כוח אדם או ספק שירותים המבצע את עבודתו בשביל המוסד, ולמעט עובד מינהלה או תחזוקה, זולת אם הוא הוגדר עובד חיוני על ידי מנהל המוסד או על ידי המנהל כמפורט בהוראות המנהל; מנהל מוסד יחזיק ברשותו את רשימת העובדים שהוגדרו עובדים חיוניים ושאושר להם לסיים בידוד מכוח סעיף קטן זה ויעבירה למנהל לפי דרישה;</p>
+                  </content>
+                </point>
+                <point eId="point_2__point_ג2__point_3">
+                  <num>(3)</num>
+                  <list>
+                    <intro>
+                      <p>איש צוות רפואי העובד או המועסק במסגרת חוץ־ביתית או אדם המועסק כמטפל ישיר במסגרת חוץ־ביתית אשר הוגדר כעובד חיוני על ידי הרופא הראשי מנהל מערך שירותי הבריאות של משרד העבודה הרווחה והשירותים החברתיים; לעניין זה –</p>
+                    </intro>
+                    <point eId="point_2__point_ג2__point_3__point_איש_צוות_רפואי">
+                      <content>
+                        <p>
+                          <def />”איש צוות רפואי“ – רופא, אחות או אדם המועסק ככוח עזר רפואי;</p>
+                      </content>
+                    </point>
+                    <point eId="point_2__point_ג2__point_3__point_מטפל_ישיר">
+                      <content>
+                        <p>
+                          <def />”מטפל ישיר“ – עובד המעניק טיפול פיזי בענייני היום־יום של אדם עם מוגבלות או מסייע במתן טיפול כאמור;</p>
+                      </content>
+                    </point>
+                    <point eId="point_2__point_ג2__point_3__point_מסגרת_חוץ־ביתית">
+                      <content>
+                        <p>
+                          <def />”מסגרת חוץ־ביתית“ – מסגרת המשמשת חלופת בית בפיקוחו של משרד העבודה הרווחה והשירותים החברתיים או מופעלת על ידו או מטעמו או המופעלת על ידי המחלקה לשירותים חברתיים או מטעמה.</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+              </list>
+            </point>
+            <point eId="point_2__point_ג3">
+              <num>(ג3)</num>
+              <list>
+                <intro>
+                  <p>
+                    <wikicomment font-size="x-small">(הוראת שעה מיום 12.11.2020 עד ליום 28.1.2021):</wikicomment>
+                    <br space="preserve"></br>על אף האמור בסעיף קטן (ג), אדם המצוי בבידוד יוכל לסיים את תקופת הבידוד 10 ימים ממועד ההגעה או מיום המגע האחרון עם חולה, לפי ההוראות שלהלן; אין באמור בסעיף קטן זה כדי לגרוע מחובת בידוד אחרת שהאדם חב בה לפי צו זה:</p>
+                </intro>
+                <point eId="point_2__point_ג3__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>אם לא היו לו תסמינים בכל 10 הימים;</p>
+                  </content>
+                </point>
+                <point eId="point_2__point_ג3__point_2">
+                  <num>(2)</num>
+                  <list>
+                    <intro>
+                      <p>לאחר שקיבל שתי בדיקות עם תוצאות של ממצא שלילי ל־nCov, מסוג הבדיקות שיורה המנהל בהוראות המנהל, שבוצעו במועדים אלה:</p>
+                    </intro>
+                    <point eId="point_2__point_ג3__point_2__point_א">
+                      <num>(א)</num>
+                      <content>
+                        <p>בדיקה ראשונה – בסמוך ככל האפשר למועד הכניסה לבידוד;</p>
+                      </content>
+                    </point>
+                    <point eId="point_2__point_ג3__point_2__point_ב">
+                      <num>(ב)</num>
+                      <content>
+                        <p>בדיקה שנייה – לכל המוקדם במהלך היום התשיעי לתקופת הבידוד, ולאחר שחלפו 24 שעות לפחות ממועד ביצוע הבדיקה הראשונה.</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+              </list>
+            </point>
+            <point eId="point_2__point_ד">
+              <num>(ד)</num>
+              <content>
+                <p>אדם שנודע לו כי הוא אדם המצוי בבידוד או אדם שחלה עליו חובת בידוד לפי צו זה יגיע למקום הבידוד ללא שימוש בתחבורה ציבורית כמשמעותה בסעיף קטן (ג1), ואדם המצוי בבידוד או אדם שחלה עליו חובת בידוד לפי צו זה לא יפר את חובת הבידוד, ישהה בבידוד ולא יצא ממקום הבידוד אלא באישור של רופא מחוזי, ראש השירות או המנהל ובהתאם לתנאי האישור; לעניין זה – יראו כהפרת חובת הבידוד גם ניסיון להפרת חובת הבידוד של אדם שנכנס לישראל לאחר שבתקופה של 14 הימים שלפני כניסתו לישראל היה במדינה שאינה מפורטת <ref href="#appendix">בתוספת</ref> והצהיר כי במהלך התקופה האמורה היה רק במדינות המפורטות <ref href="#appendix">בתוספת</ref>.</p>
+              </content>
+            </point>
+            <point eId="point_2__point_ד1">
+              <num>(ד1)</num>
+              <list>
+                <point eId="point_2__point_ד1__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>חוזר המגיע לישראל לצורך אימון, משחק או תחרות ספורט המוכרים על ידי גוף בין־לאומי רשמי של אותו ענף ספורט או לצורך אימון, משחק או תחרות מטעם גוף ספורט, וניתן על כך אישור לאותו חוזר מטעם משרד התרבות והספורט ואישור זה הועבר למשרד הבריאות, יהיה רשאי לצאת מבידוד בהתאם להוראות המנהל;</p>
+                  </content>
+                </point>
+                <point eId="point_2__point_ד1__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>על אף האמור בסעיף קטן (א), חוזר שיצא מישראל מטעם גוף ספורט, לצורך אימון, משחק או תחרות ספורט המוכרים על ידי גוף בין־לאומי רשמי, וניתן על כך אישור לאותו חוזר מטעם משרד התרבות והספורט, ואישור זה הועבר למשרד הבריאות, פטור מבידוד בתנאים שעליהם יורה המנהל, ובלבד שהצהיר עד כניסתו לישראל, שבעת שהותו מחוץ לישראל פעל לפי הנחיות המנהל שניתנו לצורך נסיעה כאמור;</p>
+                  </content>
+                </point>
+                <point eId="point_2__point_ד1__point_3">
+                  <num>(3)</num>
+                  <content>
+                    <p>בסעיף קטן זה, ”גוף ספורט“ – אגודת ספורט או התאחדות ואיגוד, לעניין ספורט, כהגדרתם <ref href="/akn/il/act/PrimaryLegislation/1988-07-21/151582">בחוק הספורט, התשמ"ח–1988</ref>.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_2__point_ד2">
+              <num>(ד2)</num>
+              <content>
+                <p>חוזר המגיע לישראל לתקופה שלא תעלה על ארבעה ימים, לצורך כלכלי דחוף שיש בו תועלת משקית החורגת מעבר לאינטרס שמייצג מגיש הבקשה, וניתנה חוות דעת לאותו חוזר מטעם משרד הכלכלה ולפיה מתקיים הצורך הכלכלי הדחוף כאמור בהגעת אותו חוזר, וחוות דעת זו הועברה למשרד הבריאות, רשאי לצאת מבידוד, בהתאם להוראות המנהל ובכפוף לכך שהוא ביצע בדיקות נשאות לנגיף הקורונה במהלך 48 השעות שלפני הנחיתה בישראל וקיבל ממצא שלילי ל־nCov, בתנאים שיורה המנהל.</p>
+              </content>
+            </point>
+            <point eId="point_2__point_ד3">
+              <num>(ד3)</num>
+              <content>
+                <p>חוזר שהוא בעל מומחיות ייחודית המגיע לישראל לתקופה שלא תעלה על שבעה ימים, לצורך ביצוע עבודות דחופות, וניתנה חוות דעת לאותו חוזר מהמשרד הממשלתי האמון על התחום שבו נדרש ביצוע העבודות, לעניין הצורך בהגעת החוזר בעל המומחיות הייחודית לביצוע עבודות דחופות כאמור, וחוות דעת זו הועברה למשרד הבריאות, רשאי לצאת מבידוד, בהתאם להוראות המנהל.</p>
+              </content>
+            </point>
+            <point eId="point_2__point_ד4">
+              <num>(ד4)</num>
+              <content>
+                <p>המנהל רשאי לקצר את תקופת הבידוד האמורה בסעיף 2(ג) לחוזר שהוא נציג רשמי של מדינת ישראל שיצא מחוץ לישראל בשליחות המדינה לצורך ביטחוני או מדיני, לאחר שפורטו לפני המנהל פרטי הנסיעה והמנהל הורה על תנאים לעניין נסיעה כאמור באופן שיצמצם את הסיכון לחשיפה לנגיף הקורונה, ובלבד שהחוזר הצהיר כי קיים את התנאים שעליהם הורה המנהל כאמור; בהחלטה על קיצור תקופת הבידוד כאמור, ישקול המנהל, בין השאר, את קיומו של אינטרס ביטחוני או מדיני בקיצור תקופת הבידוד.</p>
+              </content>
+            </point>
+            <point eId="point_2__point_ה">
+              <num>(ה)</num>
+              <content>
+                <p>תנאי הבידוד לרבות כללי היגיינה ומגע עם המבודד, יהיו בהתאם להמלצות משרד הבריאות לבידוד בית כפי שיתפרסמו מזמן לזמן.</p>
+              </content>
+            </point>
+            <point eId="point_2__point_ו">
+              <num>(ו)</num>
+              <content>
+                <p>מי שאין לו מקום בידוד לשהות בו מנסיבות מיוחדות, ישהה בבידוד במקום כפי שיוסדר בידי המדינה.</p>
+              </content>
+            </point>
+            <point eId="point_2__point_ו1">
+              <num>(ו1)</num>
+              <content>
+                <p>אדם המצוי בבידוד שפיתח תסמינים יפעל לפי הוראות המנהל.</p>
+              </content>
+            </point>
+            <point eId="point_2__point_ז">
+              <num>(ז)</num>
+              <content>
+                <p>במקרה של מצב חירום רפואי, אדם המצוי בבידוד יפנה לקבלת טיפול רפואי דחוף, תוך עדכון מראש של הצוות הרפואי בדבר היותו בבידוד בשל חשד להידבקות בנגיף הקורונה.</p>
+              </content>
+            </point>
+            <point eId="point_2__point_ז1">
+              <num>(ז1)</num>
+              <content>
+                <p>
+                  <wikicomment font-size="x-small">(הוראת שעה מיום 12.11.2020 עד ליום 28.1.2021):</wikicomment> אדם המצוי בבידוד יכול לצאת ממקום הבידוד לצורך ביצוע בדיקה ל־nCov; ההגעה לבדיקה והחזרה ממנה תהיה בדרך המהירה ביותר בלא שימוש בתחבורה ציבורית כמשמעותה בסעיף <wikicomment font-size="x-small">קטן</wikicomment> (ג1).</p>
+              </content>
+            </point>
+            <point eId="point_2__point_ז2">
+              <num>(ז2)</num>
+              <content>
+                <p>
+                  <wikicomment font-size="x-small">(הוראת שעה מיום 12.11.2020 עד ליום 28.1.2021):</wikicomment> תנאי יציאת אדם לבדיקה כאמור בסעיף קטן (ז1) ומיקומה ואופן ביצועה יהיו בהתאם להוראות המנהל לעניין זה.</p>
+              </content>
+            </point>
+            <point eId="point_2__point_ז3">
+              <num>(ז3)</num>
+              <content>
+                <p>
+                  <wikicomment font-size="x-small">(הוראת שעה מיום 12.11.2020 עד ליום 28.1.2021):</wikicomment> אדם שחל עליו סעיף קטן (ב1), (ג2) או (ז1) ונוסע לבדיקה ל־nCov או חוזר ממנה במונית או שחל עליו סעיף קטן (ג1) ונוסע למקום הבידוד במונית, יעדכן על כך את הנהג לפני כניסתו למונית.</p>
+              </content>
+            </point>
+            <point eId="point_2__point_ח">
+              <num>(ח)</num>
+              <content>
+                <p>חובת בידוד לפי צו זה לא תחול לגבי אדם שרופא או גורם מוסמך אחר קבע כי בידודו יבוצע בבית חולים.</p>
+              </content>
+            </point>
+            <point eId="point_2__point_ט">
+              <num>(ט)</num>
+              <content>
+                <p>חובת בידוד לפי סעיף זה לא תחול לגבי מחלים.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_2א">
+          <heading>
+            <authorialNote placement="side">
+              <p>הצבעה בבחירות</p>
+            </authorialNote>
+          </heading>
+          <num>2א.</num>
+          <content>
+            <p>על אף האמור <ref href="#point_2">בסעיף 2(ד)</ref>, אדם המצוי בבידוד במקום בידוד לפי <ref href="#point_2">סעיף 2(א)</ref> ובלא תסמינים רשאי לצאת ממקום הבידוד לצורך הצבעה בבחירות באחת מהקלפיות שקבע יושב ראש ועדת הבחירות המרכזית לעניין הצבעה של אדם כאמור לפי <ref href="/akn/il/act/PrimaryLegislation/1969-04-14/2002229">חוק הבחירות לכנסת [נוסח משולב], התשכ"ט–1969</ref>, ובהתאם להוראות המנהל לעניין אמצעים למניעת הדבקה; אדם כאמור יגיע לקלפי ויחזור ממנה ישירות למקום הבידוד ברכב שאינו רכב ציבורי; לעניין זה, ”רכב ציבורי“ – רכב המשמש או המיועד לשמש להסעת נוסעים בשכר ובכלל זה מונית.<br space="preserve"></br><wikicomment font-size="x-small">פורסמו <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/הוראות_הבחירות_לכנסת_סדרי_הצבעה_והוראות_בדבר_הצבעה_בבתי_חולים_קלפיות_מותאמות_לבוחרים_בבידוד_בית_בשל_נגיף_הקורונה_החדש_הוראת_שעה">הוראות הבחירות לכנסת (סדרי הצבעה והוראות בדבר הצבעה בבתי חולים) (קלפיות מותאמות לבוחרים בבידוד בית בשל נגיף הקורונה החדש) (הוראת שעה), התש"ף–2020</ref>. פורסמו <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/https_bechirot23_bechirot_gov_il_election_Kneset20_Documents_כנסת_2023_ministry_of_health_instructions_pdf">הוראות המנהל בדבר אמצעים למניעת הדבקה בקלפי לאדם המצוי בבידוד</ref>.</wikicomment></p>
+          </content>
+        </point>
+        <point eId="point_2א1">
+          <heading>
+            <authorialNote placement="side">
+              <p>חובת בידוד לאדם עם מחלת חום</p>
+            </authorialNote>
+          </heading>
+          <num>2א1.</num>
+          <list>
+            <point eId="point_2א1__point_א">
+              <num>(א)</num>
+              <content>
+                <p>אדם עם חום גוף העולה על 38 מעלות צלזיוס, ישהה בבידוד במקום בידוד לפי <ref href="#point_2">סעיף 2(א)</ref>.</p>
+              </content>
+            </point>
+            <point eId="point_2א1__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>
+                  <ref href="#point_2">סעיף 2(ד), (ה) ו־(ז)</ref>, יחול על חובת בידוד לפי סעיף זה.</p>
+              </content>
+            </point>
+            <point eId="point_2א1__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>בלי לגרוע מהאמור בסעיף קטן (ב), במהלך הבידוד יש למדוד את חום הגוף פעמיים ביום ולרשום את מדידת החום; חובת הבידוד תסתיים לאחר מדידת חום גוף שאינו עולה על 37.5 מעלות צלזיוס, במשך 48 שעות ברציפות לפחות או עד קבלת תוצאת בדיקה עם ממצא שלילי ל־nCov.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_2א2">
+          <heading>
+            <authorialNote placement="side">
+              <p xml:space="preserve"> </p>
+            </authorialNote>
+          </heading>
+          <num>2א2.</num>
+          <content>
+            <p>
+              <wikicomment font-size="x-small">(פקע).</wikicomment>
+            </p>
+          </content>
+        </point>
+        <point eId="point_2ב">
+          <heading>
+            <authorialNote placement="side">
+              <p>חובת בידוד בית ותנאי בידוד לחולה</p>
+            </authorialNote>
+          </heading>
+          <num>2ב.</num>
+          <list>
+            <point eId="point_2ב__point_א">
+              <num>(א)</num>
+              <list>
+                <intro>
+                  <p>חולה ישהה במקום הבידוד בהתקיים אחד מהתנאים האלה:</p>
+                </intro>
+                <point eId="point_2ב__point_א__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>היה החולה מאושפז בבית חולים – רופא מומחה בבית חולים קבע כי המשך הבידוד יבוצע בבית, לפי <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/צו_בריאות_העם_נגיף_קורונה_החדש_בידוד_בבית_חולים_הוראת_שעה#point_2">סעיף 2(ג) לצו בידוד בבית חולים</ref>;</p>
+                  </content>
+                </point>
+                <point eId="point_2ב__point_א__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>היה החולה בבית – רופא קופת חולים הורה כי ישהה בבידוד בית, לפי הוראות המנהל;</p>
+                  </content>
+                </point>
+                <point eId="point_2ב__point_א__point_3">
+                  <num>(3)</num>
+                  <content>
+                    <p>לא היה החולה רשום בקופת חולים – רופא מחוזי, ראש השירות או המנהל הורה כי ישהה בבידוד בית, לפי הוראות המנהל.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_2ב__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>תנאי הבידוד, לרבות כללי היגיינה, מגע עם החולה, דיווח וקשר עם רופא קופת חולים, יהיו לפי הוראות המנהל.</p>
+              </content>
+            </point>
+            <point eId="point_2ב__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>הבידוד יהיה עד קבלת אישור רופא או אחות מוסמכת לסיום תקופת הבידוד; אישור כאמור יינתן לפי הוראות המנהל.</p>
+              </content>
+            </point>
+            <point eId="point_2ב__point_ד">
+              <num>(ד)</num>
+              <list>
+                <intro>
+                  <p>חולה בבידוד לא יצא ממקום הבידוד אלא באחד מהמקרים האלה:</p>
+                </intro>
+                <point eId="point_2ב__point_ד__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>במקרה של מצב חירום רפואי, החולה יפנה לקבלת טיפול רפואי דחוף, תוך עדכון מראש של הצוות הרפואי בדבר היותו חולה בבידוד;</p>
+                  </content>
+                </point>
+                <point eId="point_2ב__point_ד__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>רופא הורה על העברת החולה להמשך טיפול בבית חולים ובתנאים כפי שהורה לעניין מקום בית החולים ואופן ההעברה.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_2ב__point_ה">
+              <num>(ה)</num>
+              <list>
+                <intro>
+                  <p>על רופא או רופא מומחה בבית חולים המקבל החלטה לפי סעיפים קטנים (א), (ג) או (ד), לפי העניין, לדווח למשרד הבריאות באמצעי אלקטרוני כפי שהורה המנהל על כל אלה:</p>
+                </intro>
+                <point eId="point_2ב__point_ה__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>קבלת ממצא חיובי ל־nCoV;</p>
+                  </content>
+                </point>
+                <point eId="point_2ב__point_ה__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>החלטה בדבר מקום הבידוד;</p>
+                  </content>
+                </point>
+                <point eId="point_2ב__point_ה__point_3">
+                  <num>(3)</num>
+                  <content>
+                    <p>החלטה על העברת חולה ממקום הבידוד למקום בידוד אחר או לבית חולים;</p>
+                  </content>
+                </point>
+                <point eId="point_2ב__point_ה__point_4">
+                  <num>(4)</num>
+                  <content>
+                    <p>יציאת החולה מבידוד והחלמתו או פטירתו.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+          </list>
+        </point>
+        <point eId="point_3">
+          <heading>
+            <authorialNote placement="side">
+              <p>דיווח</p>
+            </authorialNote>
+          </heading>
+          <num>3.</num>
+          <list>
+            <point eId="point_3__point_א">
+              <num>(א)</num>
+              <content>
+                <p>על אדם המצוי בבידוד לדווח למשרד הבריאות על קיום הוראות צו זה, ובכלל זה מקום מגוריו, מועד הגעתו לישראל כאמור <ref href="#point_2">בסעיף 2(ג)</ref>, או מועד המגע האחרון עם חולה, לפי העניין, ותקופת הבידוד.</p>
+              </content>
+            </point>
+            <point eId="point_3__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>חוזר שאין לו מקום מגורים קבוע בישראל, ידווח למשרד הבריאות עם הגעתו לישראל או עם פרסום צו זה, לפי המוקדם מביניהם, על מקום שהייתו בתקופת הבידוד.</p>
+              </content>
+            </point>
+            <point eId="point_3__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>דיווח או פנייה למשרד הבריאות לפי צו זה יהיה באופן שיפרסם המשרד מזמן לזמן.<br space="preserve"></br><wikicomment font-size="x-small">משרד הבריאות פרסם <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/https_govforms_gov_il_mw_forms_HouseIsolation_40health_gov_il">טופס דיווח על בידוד בית לחוזרים מחו"ל</ref> ו<ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/https_govforms_gov_il_mw_forms_QuarantineForExposees_40health_gov_il">טופס בידוד בית לבאים במגע</ref>.</wikicomment></p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_3א">
+          <heading>
+            <authorialNote placement="side">
+              <p>איסור התכנסות בין־לאומית והתקהלות</p>
+            </authorialNote>
+          </heading>
+          <num>3א.</num>
+          <list>
+            <point eId="point_3א__point_א">
+              <num>(א)</num>
+              <content>
+                <p>
+                  <wikicomment font-size="x-small">(נמחק).</wikicomment>
+                </p>
+              </content>
+            </point>
+            <point eId="point_3א__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>
+                  <wikicomment font-size="x-small">(נמחק).</wikicomment>
+                </p>
+              </content>
+            </point>
+            <point eId="point_3א__point_ב1">
+              <num>(ב1)</num>
+              <content>
+                <p>
+                  <wikicomment font-size="x-small">(נמחק).</wikicomment>
+                </p>
+              </content>
+            </point>
+            <point eId="point_3א__point_ב2">
+              <num>(ב2)</num>
+              <content>
+                <p>
+                  <wikicomment font-size="x-small">(פקע).</wikicomment>
+                </p>
+              </content>
+            </point>
+            <point eId="point_3א__point_ב3">
+              <num>(ב3)</num>
+              <content>
+                <p>
+                  <wikicomment font-size="x-small">(נמחק).</wikicomment>
+                </p>
+              </content>
+            </point>
+            <point eId="point_3א__point_ב4">
+              <num>(ב4)</num>
+              <content>
+                <p>
+                  <wikicomment font-size="x-small">(פקע).</wikicomment>
+                </p>
+              </content>
+            </point>
+            <point eId="point_3א__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>
+                  <wikicomment font-size="x-small">(נמחק).</wikicomment>
+                </p>
+              </content>
+            </point>
+            <point eId="point_3א__point_ג1">
+              <num>(ג1)</num>
+              <content>
+                <p>
+                  <wikicomment font-size="x-small">(נמחק).</wikicomment>
+                </p>
+              </content>
+            </point>
+            <point eId="point_3א__point_ד">
+              <num>(ד)</num>
+              <content>
+                <p>אדם עם חום גוף העולה על 38 מעלות צלזיוס, או עם שיעול או קושי בנשימה, למעט שיעול או קושי בנשימה הנובע ממצב כרוני כגון אסתמה או אלרגיה אחרת, לא ישתתף בהתקהלות, ולא יגיע למקום עבודתו ולמקום שבו הוא נותן שירות.</p>
+              </content>
+            </point>
+            <point eId="point_3א__point_ה">
+              <num>(ה)</num>
+              <content>
+                <p>
+                  <wikicomment font-size="x-small">(נמחק).</wikicomment>
+                </p>
+              </content>
+            </point>
+            <point eId="point_3א__point_ו">
+              <num>(ו)</num>
+              <content>
+                <p>
+                  <wikicomment font-size="x-small">(נמחק).</wikicomment>
+                </p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_3ב">
+          <heading>
+            <authorialNote placement="side">
+              <p>איסור יציאה לחו"ל של עובד מערכת הבריאות</p>
+            </authorialNote>
+          </heading>
+          <num>3ב.</num>
+          <list>
+            <point eId="point_3ב__point_א">
+              <num>(א)</num>
+              <content>
+                <p>עובד מערכת הבריאות לא ייסע אל מחוץ לישראל למעט המדינות המנויות <ref href="#appendix">בתוספת</ref>, ומעסיק במערכת הבריאות לא יאשר לעובד מערכת הבריאות חופשה לשם נסיעה אל מחוץ לישראל למעט המדינות המנויות <ref href="#appendix">בתוספת</ref>.</p>
+              </content>
+            </point>
+            <point eId="point_3ב__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>על אף האמור בסעיף זה, ראש השירות או המנהל רשאי לאשר נסיעה של עובד מערכת הבריאות או של קבוצת עובדים כאמור אל מחוץ לישראל בנסיבות מיוחדות ובתנאים שיורה עליהם.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_3ג">
+          <heading>
+            <authorialNote placement="side">
+              <p xml:space="preserve"> </p>
+            </authorialNote>
+          </heading>
+          <num>3ג.</num>
+          <content>
+            <p>
+              <wikicomment font-size="x-small">(בוטל).</wikicomment>
+            </p>
+          </content>
+        </point>
+        <point eId="point_3ד">
+          <heading>
+            <authorialNote placement="side">
+              <p>הגנה על שוהים במוסדות בריאות ורווחה</p>
+            </authorialNote>
+          </heading>
+          <num>3ד.</num>
+          <list>
+            <point eId="point_3ד__point_א">
+              <num>(א)</num>
+              <content>
+                <p>לא יבקר אורח במבנה של מוסד בריאות או מוסד רווחה, ומנהל של מוסד כאמור לא יאפשר ביקורים של אורח במוסד, למעט אורח אחד לכל דייר או שוהה קבוע.</p>
+              </content>
+            </point>
+            <point eId="point_3ד__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>מנהל מוסד כאמור לא יאפשר ביקור של אורח שיש לו תסמינים, או שידוע לו שחלה עליו חובת בידוד לפי <ref href="#point_2">סעיפים 2</ref><ref href="#point_2ב">או 2ב</ref>.</p>
+              </content>
+            </point>
+            <point eId="point_3ד__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>על אף האמור בסעיף זה, ראש השירות או המנהל רשאי לאשר ביקור של אורח או סוג של אורחים כאמור בסעיף קטן (א), בנסיבות מיוחדות ובתנאים שיורה עליהם.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_3ה">
+          <heading>
+            <authorialNote placement="side">
+              <p>חובת עטיית מסכה</p>
+            </authorialNote>
+          </heading>
+          <num>3ה.</num>
+          <list>
+            <point eId="point_3ה__point_א">
+              <num>(א)</num>
+              <content>
+                <p>לא ישהה אדם במקום שאינו מקום מגוריו מבלי שהוא עוטה מסכה.</p>
+              </content>
+            </point>
+            <point eId="point_3ה__point_ב">
+              <num>(ב)</num>
+              <list>
+                <intro>
+                  <p>סעיף קטן (א) לא יחול על כל אלה:</p>
+                </intro>
+                <point eId="point_3ה__point_ב__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>קטין מתחת לגיל 7;</p>
+                  </content>
+                </point>
+                <point eId="point_3ה__point_ב__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>אדם שמחמת מוגבלות נפשית, שכלית או רפואית מתקשה באופן משמעותי או שנמנעת ממנו עקב מוגבלותו האמורה, לכסות את הפה ואת האף כאמור בסעיף קטן (א);</p>
+                  </content>
+                </point>
+                <point eId="point_3ה__point_ב__point_3">
+                  <num>(3)</num>
+                  <list>
+                    <intro>
+                      <p>אדם השוהה במקום סגור או מופרד, בלא אדם נוסף, או אדם השוהה במקום כאמור עם אנשים הגרים באותו מקום אתו; לעניין זה –</p>
+                    </intro>
+                    <point eId="point_3ה__point_ב__point_3__point_אדם_השוהה_במקום_סגור_או_מופרד">
+                      <content>
+                        <p>
+                          <def />”אדם השוהה במקום סגור או מופרד“ – אדם השוהה בכלי רכב, במבנה, בחדר במבנה, בחלק ממבנה הכולל מחיצה בגובה של שני מטרים לפחות אשר מפרידה בין האדם לבין אנשים אחרים הנמצאים באותו מבנה, או בתא עבודה בחלל פתוח, אם גובה המחיצה אשר מפרידה בין האדם לבין אנשים אחרים באותו חלל הוא מטר ועשרים סנטימטרים לפחות, ובלבד שהאדם שלא עוטה מסיכה יושב;</p>
+                      </content>
+                    </point>
+                    <point eId="point_3ה__point_ב__point_3__point_אנשים_הגרים_באותו_מקום">
+                      <content>
+                        <p>
+                          <def />”אנשים הגרים באותו מקום“ – בני אותו תא משפחתי או יחידים השוהים יחד במקום מגורים אחד;</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+                <point eId="point_3ה__point_ב__point_4">
+                  <num>(4)</num>
+                  <content>
+                    <p>משתתף בשידור באמצעי תקשורת שנדרש לדבר בשידור, ובלבד שהוא נמצא, ככל האפשר, במרחק של 2 מטרים לפחות מאדם אחר;</p>
+                  </content>
+                </point>
+                <point eId="point_3ה__point_ב__point_5">
+                  <num>(5)</num>
+                  <content>
+                    <p>שני עובדים העובדים בקביעות בחדר אחד במקום עבודה ובלבד שיישמר ביניהם מרחק של 2 מטרים לפחות;</p>
+                  </content>
+                </point>
+                <point eId="point_3ה__point_ב__point_6">
+                  <num>(6)</num>
+                  <content>
+                    <p>אדם המבצע פעילות ספורט.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_3ה__point_ב1">
+              <num>(ב1)</num>
+              <content>
+                <p>
+                  <wikicomment font-size="x-small">(בוטל).</wikicomment>
+                </p>
+              </content>
+            </point>
+            <point eId="point_3ה__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>מעסיק במקום עבודה אחראי לכך שהעובדים במקום העבודה יקיימו את החובה לחבוש מסכה כאמור בסעיף קטן (א).</p>
+              </content>
+            </point>
+            <point eId="point_3ה__point_ג1">
+              <num>(ג1)</num>
+              <content>
+                <p>
+                  <wikicomment font-size="x-small">(נמחק).</wikicomment>
+                </p>
+              </content>
+            </point>
+            <point eId="point_3ה__point_ד">
+              <num>(ד)</num>
+              <content>
+                <p>על אף האמור <ref href="#point_2">בסעיף 2</ref>, נותן שירות חיוני שהיה במגע הדוק עם חולה במקום עבודתו בעת שעטה מסכה לפי סעיף קטן (א), לא חייב בידוד, בכפוף להצהרה ולפיה העובד קיים את הוראות <ref href="#point_2">הסעיף האמור</ref>; לעניין זה, ”נותן שירות חיוני“ – מי שעוסק במתן שירות לציבור במקום עבודה חיוני, ובכלל זה עובד במקום למכירת מזון או בבית מרקחת;</p>
+              </content>
+            </point>
+            <point eId="point_3ה__point_ה">
+              <num>(ה)</num>
+              <content>
+                <p>על אף האמור בסעיף זה, המנהל או ראש השירות רשאי לקבוע תנאים או נסיבות שבהם לא תחול חובת עטיית מסכה כאמור בסעיף קטן (א) וכן מקרים או נסיבות שבהם מי שעטה מסכה לא חייב בידוד כאמור בסעיף קטן (ד).</p>
+              </content>
+            </point>
+            <point eId="point_3ה__point_ה1">
+              <num>(ה1)</num>
+              <content>
+                <p>רשת חנויות הכוללת בתי מרקחת או רשת מרכולים, הכוללת 10 סניפים לפחות, ימכרו לציבור, ככל האפשר, מסיכות המיועדות לכיסוי הפה והאף; אין באמור בסעיף קטן זה כדי למנוע מחנות או ממרכול כאמור לספק ללקוחותיהם מסכות כאמור בלא תשלום.</p>
+              </content>
+            </point>
+            <point eId="point_3ה__point_ו">
+              <num>(ו)</num>
+              <content>
+                <p>הוראות סעיף זה לא יחולו על כנסת ישראל, בתי המשפט, בתי הדין לעבודה ובתי דין דתיים.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_4">
+          <heading>
+            <authorialNote placement="side">
+              <p>תוקף</p>
+            </authorialNote>
+          </heading>
+          <num>4.</num>
+          <content>
+            <p>תוקפו של צו זה עד יום כ"ח בשבט התשפ"א (10 בפברואר 2021).</p>
+          </content>
+        </point>
+        <point eId="point_5">
+          <heading>
+            <authorialNote placement="side">
+              <p>תחולה</p>
+            </authorialNote>
+          </heading>
+          <num>5.</num>
+          <content>
+            <p>צו זה יחול גם על מי שחזר לישראל מסין לפני יום תחילתו.</p>
+          </content>
+        </point>
+      </list>
+      <appendix eId="appendix">
+        <num></num>
+        <title>
+          <content>
+            <p>תוספת <wikicomment font-size="x-small">(פקעה)</wikicomment></p>
+          </content>
+        </title>
+      </appendix>
+    </body>
+    <conclusions eId="eId">
+      <p class="signatures">
+        <signature>
+          <p>
+            <person refersTo="משה_בר־סימן_טוב">משה בר־סימן טוב</person>
+            <role refersTo="המנהל_הכללי_של_משרד_הבריאות">המנהל הכללי של משרד הבריאות</role>
+          </p>
+        </signature>
+      </p>
+    </conclusions>
+  </act>
+</akomaNtoso>

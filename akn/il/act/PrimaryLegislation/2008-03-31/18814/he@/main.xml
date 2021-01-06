@@ -1,0 +1,1718 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion" name="publicLaw">
+    <meta>
+      <identification source="#kensset">
+        <FRBRWork>
+          <FRBRthis value="/akn/il/act/PrimaryLegislation/2008-03-31/18814/main" />
+          <FRBRuri value="/akn/il/act/PrimaryLegislation/2008-03-31/18814" />
+          <FRBRdate date="2008-03-31" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRcountry value="israel" />
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/il/act/PrimaryLegislation/2008-03-31/18814/he@/main" />
+          <FRBRuri value="/akn/il/act/PrimaryLegislation/2008-03-31/18814/he@" />
+          <FRBRdate date="2008-03-31" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRlanguage language="hebrew" />
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/il/act/PrimaryLegislation/2008-03-31/18814/he@/main.xml" />
+          <FRBRuri value="/akn/il/act/PrimaryLegislation/2008-03-31/18814/he@" />
+          <FRBRdate date="2008-03-31" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRformat value="xml" />
+        </FRBRManifestation>
+      </identification>
+      <classification source="#kensset">
+        <keyword value="{classificationValue}" showAs="{classificationValue}" dictionary="#classification_dictionary" />
+      </classification>
+      <lifecycle source="#kensset">
+        <eventRef eId="eventRef_1" date="2008-03-31" source="#kensset" type="generation" />
+      </lifecycle>
+      <references source="#kensset">
+        <TLCOrganization eId="kensset" href="/ontology/organization/akn/knesset" showAs="Kensset" type="generation" />
+        <TLCRole eId="author" href="/ontology/role/akn/author" showAs="Author of Document" />
+        <TLCProcess eId="inforce" href="/ontology/process/akn/inforce" showAs="In force" />
+        <TLCTerm eId="term_1" href="/ontology/term/אבר/18814" showAs="אבר" />
+        <TLCTerm eId="term_2" href="/ontology/term/בית_חולים/18814" showAs="בית_חולים" />
+        <TLCTerm eId="term_3" href="/ontology/term/המרכז_הלאומי_לרפואה_משפטית/18814" showAs="המרכז_הלאומי_לרפואה_משפטית" />
+        <TLCTerm eId="term_4" href="/ontology/term/המנהל/18814" showAs="המנהל" />
+        <TLCTerm eId="term_5" href="/ontology/term/המרכז_להשתלות/18814" showAs="המרכז_להשתלות" />
+        <TLCTerm eId="term_6" href="/ontology/term/השתלת_אבר/18814" showAs="השתלת_אבר" />
+        <TLCTerm eId="term_7" href="/ontology/term/ועדת_בקרה_ואיכות/18814" showAs="ועדת_בקרה_ואיכות" />
+        <TLCTerm eId="term_8" href="/ontology/term/ועדת_הערכה/18814" showAs="ועדת_הערכה" />
+        <TLCTerm eId="term_9" href="/ontology/term/ועדת_הערכה_מקומית/18814" showAs="ועדת_הערכה_מקומית" />
+        <TLCTerm eId="term_10" href="/ontology/term/ועדת_ההערכה_המרכזית/18814" showAs="ועדת_ההערכה_המרכזית" />
+        <TLCTerm eId="term_11" href="/ontology/term/חוק_האנטומיה_והפתולוגיה/18814" showAs="חוק_האנטומיה_והפתולוגיה" />
+        <TLCTerm eId="term_12" href="/ontology/term/חוק_זכויות_החולה/18814" showAs="חוק_זכויות_החולה" />
+        <TLCTerm eId="term_13" href="/ontology/term/חסוי/18814" showAs="חסוי" />
+        <TLCTerm eId="term_14" href="/ontology/term/מאגר_המידע/18814" showAs="מאגר_המידע" />
+        <TLCTerm eId="term_15" href="/ontology/term/מטופל/18814" showAs="מטופל" />
+        <TLCTerm eId="term_16" href="/ontology/term/מרכז_רפואי_מורשה/18814" showAs="מרכז_רפואי_מורשה" />
+        <TLCTerm eId="term_17" href="/ontology/term/נטילת_אבר/18814" showAs="נטילת_אבר" />
+        <TLCTerm eId="term_18" href="/ontology/term/נתרם/18814" showAs="נתרם" />
+        <TLCTerm eId="term_19" href="/ontology/term/פקודת_בריאות_העם/18814" showAs="פקודת_בריאות_העם" />
+        <TLCTerm eId="term_20" href="/ontology/term/פקודת_הרופאים/18814" showAs="פקודת_הרופאים" />
+        <TLCTerm eId="term_21" href="/ontology/term/קרוב/18814" showAs="קרוב" />
+        <TLCTerm eId="term_22" href="/ontology/term/רופא/18814" showAs="רופא" />
+        <TLCTerm eId="term_23" href="/ontology/term/רופא_אחראי/18814" showAs="רופא_אחראי" />
+        <TLCTerm eId="term_24" href="/ontology/term/רופא_מומחה/18814" showAs="רופא_מומחה" />
+        <TLCTerm eId="term_25" href="/ontology/term/תורם/18814" showAs="תורם" />
+        <TLCTerm eId="term_26" href="/ontology/term/תמורה/18814" showAs="תמורה" />
+        <TLCTerm eId="term_27" href="/ontology/term/השר/18814" showAs="השר" />
+        <TLCPerson eId="אהוד_אולמרט" href="/ontology/person/אהוד_אולמרט" showAs="אהוד אולמרט" />
+        <TLCPerson eId="יעקב_בן־יזרי" href="/ontology/person/יעקב_בן־יזרי" showAs="יעקב בן־יזרי" />
+        <TLCPerson eId="שמעון_פרס" href="/ontology/person/שמעון_פרס" showAs="שמעון פרס" />
+        <TLCPerson eId="דליה_איציק" href="/ontology/person/דליה_איציק" showAs="דליה איציק" />
+        <TLCRole eId="ראש_הממשלה" href="ontology/role/akn/ראש_הממשלה" showAs="ראש הממשלה" />
+        <TLCRole eId="שר_הבריאות" href="ontology/role/akn/שר_הבריאות" showAs="שר הבריאות" />
+        <TLCRole eId="נשיא_המדינה" href="ontology/role/akn/נשיא_המדינה" showAs="נשיא המדינה" />
+        <TLCRole eId="יושבת_ראש_הכנסת" href="ontology/role/akn/יושבת_ראש_הכנסת" showAs="יושבת ראש הכנסת" />
+      </references>
+      <temporalData source="#kensset">
+        <temporalGroup eId="tmpg_1" />
+      </temporalData>
+      <Publication></Publication>
+      <proprietary wikiversion="7/22/2020 10:39:10 PM" />
+    </meta>
+    <body period="#tmpg_1">
+      <title eId="title">
+        <content>
+          <p>חוק השתלת אברים, התשס"ח–2008</p>
+        </content>
+      </title>
+      <chapter eId="chp_א">
+        <num>פרק א׳:</num>
+        <title>
+          <content>
+            <p>הגדרות</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_1" class="definitions">
+            <heading>
+              <authorialNote placement="side">
+                <p>הגדרות</p>
+              </authorialNote>
+            </heading>
+            <num>1.</num>
+            <list>
+              <intro>
+                <p>בחוק זה –</p>
+              </intro>
+              <point eId="point_1__point_אבר">
+                <content>
+                  <p>
+                    <def />”אבר“ – אבר או חלק מאבר של אדם, וכן רקמה, הניתנים להשתלה, למעט דם, מוח עצם, ביצית ותא זרע;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_בית_חולים">
+                <content>
+                  <p>
+                    <def />”בית חולים“ – כמשמעותו <ref href="/akn/il/act/PrimaryLegislation/1940-12-20/2001729#point_24">בסעיף 24 לפקודת בריאות העם</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_המרכז_הלאומי_לרפואה_משפטית">
+                <content>
+                  <p>
+                    <def />”המרכז הלאומי לרפואה משפטית“ – המרכז הלאומי לרפואה משפטית שליד משרד הבריאות;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_המנהל">
+                <content>
+                  <p>
+                    <def />”המנהל“ – המנהל הכללי של משרד הבריאות או מי שהוא הסמיך לעניין חוק זה;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_המרכז_להשתלות">
+                <content>
+                  <p>
+                    <def />”המרכז להשתלות“ – המרכז להשתלות שהוקם לפי הוראות <ref href="#chp_ג">פרק ג׳</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_השתלת_אבר">
+                <content>
+                  <p>
+                    <def />”השתלת אבר“ – פעולה של השתלת אבר שניטל מתורם או שניטל לפי <ref href="/akn/il/act/PrimaryLegislation/1953-09-04/146905">חוק האנטומיה והפתולוגיה</ref>, בגופו של נתרם;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_ועדת_בקרה_ואיכות">
+                <content>
+                  <p>
+                    <def />”ועדת בקרה ואיכות“ – ועדה כאמור <ref href="/akn/il/act/PrimaryLegislation/1996-05-12/174478#point_22">בסעיף 22 לחוק זכויות החולה</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_ועדת_הערכה">
+                <content>
+                  <p>
+                    <def />”ועדת הערכה“ – ועדת הערכה מקומית וועדת ההערכה המרכזית;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_ועדת_הערכה_מקומית">
+                <content>
+                  <p>
+                    <def />”ועדת הערכה מקומית“ – ועדה שמונתה לפי הוראות <ref href="#point_14">סעיף 14(א)</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_ועדת_ההערכה_המרכזית">
+                <content>
+                  <p>
+                    <def />”ועדת ההערכה המרכזית“ – הוועדה שמונתה לפי הוראות <ref href="#point_14">סעיף 14(ב)</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_חוק_האנטומיה_והפתולוגיה">
+                <content>
+                  <p>
+                    <def />”חוק האנטומיה והפתולוגיה“ – <ref href="/akn/il/act/PrimaryLegislation/1953-09-04/146905">חוק האנטומיה והפתולוגיה, התשי"ג–1953</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_חוק_זכויות_החולה">
+                <content>
+                  <p>
+                    <def />”חוק זכויות החולה“ – <ref href="/akn/il/act/PrimaryLegislation/1996-05-12/174478">חוק זכויות החולה, התשנ"ו–1996</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_חסוי">
+                <content>
+                  <p>
+                    <def />”חסוי“ – <wikicomment font-size="x-small">(נמחקה);</wikicomment></p>
+                </content>
+              </point>
+              <point eId="point_1__point_מאגר_המידע">
+                <content>
+                  <p>
+                    <def />”מאגר המידע“ – מאגר המידע שהוקם לפי הוראות <ref href="#chp_ז">פרק ז׳</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_מטופל">
+                <content>
+                  <p>
+                    <def />”מטופל“ – כהגדרתו <ref href="/akn/il/act/PrimaryLegislation/1996-05-12/174478">בחוק זכויות החולה</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_מרכז_רפואי_מורשה">
+                <content>
+                  <p>
+                    <def />”מרכז רפואי מורשה“ – בית חולים שתנאי רישומו לפי <ref href="/akn/il/act/PrimaryLegislation/1940-12-20/2001729">פקודת בריאות העם</ref> מתירים לו לבצע נטילת אברים או השתלת אברים, ולעניין נטילת אברים לפי <ref href="/akn/il/act/PrimaryLegislation/1953-09-04/146905">חוק האנטומיה והפתולוגיה</ref> – גם המרכז הלאומי לרפואה משפטית;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_נטילת_אבר">
+                <content>
+                  <p>
+                    <def />”נטילת אבר“ – פעולה של נטילת אבר מתורם או של נטילת אבר לפי <ref href="/akn/il/act/PrimaryLegislation/1953-09-04/146905">חוק האנטומיה והפתולוגיה</ref>, לשם השתלתו בגופו של נתרם;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_נתרם">
+                <content>
+                  <p>
+                    <def />”נתרם“ – אדם הזקוק להשתלת אבר בגופו מסיבות רפואיות;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_פקודת_בריאות_העם">
+                <content>
+                  <p>
+                    <def />”פקודת בריאות העם“ – <ref href="/akn/il/act/PrimaryLegislation/1940-12-20/2001729">פקודת בריאות העם, 1940</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_פקודת_הרופאים">
+                <content>
+                  <p>
+                    <def />”פקודת הרופאים“ – <ref href="/akn/il/act/PrimaryLegislation/1976-12-16/2002278">פקודת הרופאים [נוסח חדש], התשל"ז–1976</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_קרוב">
+                <content>
+                  <p>
+                    <def />”קרוב“ – בן זוג, לרבות ידוע בציבור, הורה, בן או בת, אח או אחות, סבא או סבתא, נכד או נכדה, דוד או דודה, דודן או דודנית, אחיין או אחיינית;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_רופא">
+                <content>
+                  <p>
+                    <def />”רופא“ – רופא מורשה לפי <ref href="/akn/il/act/PrimaryLegislation/1976-12-16/2002278">פקודת הרופאים</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_רופא_אחראי">
+                <content>
+                  <p>
+                    <def />”רופא אחראי“ – רופא האחראי מטעם מרכז רפואי מורשה על מתן ייעוץ והנחיות רפואיות לטיפול בנתרמים, בתיאום עם מתאם השתלת אברים כמשמעותו <ref href="#point_12">בסעיף 12</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_רופא_מומחה">
+                <content>
+                  <p>
+                    <def />”רופא מומחה“ – רופא בעל תואר מומחה לפי <ref href="/akn/il/act/PrimaryLegislation/1976-12-16/2002278">פקודת הרופאים</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_תורם">
+                <content>
+                  <p>
+                    <def />”תורם“ – אדם המוכן לתרום אבר מאבריו, בחייו, לצורך השתלה בגופו של נתרם;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_תמורה">
+                <content>
+                  <p>
+                    <def />”תמורה“ – כסף, שווה כסף, שירות או טובת הנאה אחרת;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_השר">
+                <content>
+                  <p>
+                    <def />”השר“ – שר הבריאות.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+        </list>
+      </chapter>
+      <chapter eId="chp_ב">
+        <num>פרק ב׳:</num>
+        <title>
+          <content>
+            <p>איסור פעולות</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_2">
+            <heading>
+              <authorialNote placement="side">
+                <p>ייחוד הוראות החוק ושמירת דינים</p>
+              </authorialNote>
+            </heading>
+            <num>2.</num>
+            <list>
+              <point eId="point_2__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>נטילת אבר או השתלת אבר לא תיעשה אלא לפי הוראות חוק זה.</p>
+                </content>
+              </point>
+              <point eId="point_2__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>אין בהוראות חוק זה כדי לגרוע מהוראות <ref href="/akn/il/act/PrimaryLegislation/1953-09-04/146905">חוק האנטומיה והפתולוגיה</ref>.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_3">
+            <heading>
+              <authorialNote placement="side">
+                <p>איסור סחר באברים</p>
+              </authorialNote>
+            </heading>
+            <num>3.</num>
+            <list>
+              <point eId="point_3__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>לא יקבל אדם תמורה בעבור אבר שניטל מגופו או מגופו של אדם אחר, או המיועד לנטילה כאמור, והכל בין שהנטילה נעשית בחייו של אדם ובין שהיא נעשית לאחר מותו.</p>
+                </content>
+              </point>
+              <point eId="point_3__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>לא ייתן אדם תמורה בעבור אבר שהושתל בגופו או בגופו של אדם אחר, או המיועד להשתלה כאמור.</p>
+                </content>
+              </point>
+              <point eId="point_3__point_ג">
+                <num>(ג)</num>
+                <list>
+                  <intro>
+                    <p>לעניין סעיף זה, לא יראו כתמורה כל אחד מאלה:</p>
+                  </intro>
+                  <point eId="point_3__point_ג__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>הסכמת אדם אחד לתרום, בחייו, אבר לאדם אחר, כנגד הסכמתו של קרובו או מכרו של אותו אדם אחר כי יתרום אבר לקרובו או למכרו של האדם;</p>
+                    </content>
+                  </point>
+                  <point eId="point_3__point_ג__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>תשלום והחזר כספי בעד הוצאות, ששולמו לתורם בהתאם להוראות לפי <ref href="#point_22">סעיף 22</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_3__point_ג__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>תמורה שנתן תאגיד מוכר בהתאם להוראות לפי <ref href="#point_29">סעיף 29</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_3__point_ג__point_4">
+                    <num>(4)</num>
+                    <content>
+                      <p>מימון הוצאות קבורה והוצאות הסעה והטסה של גופת אדם שאבריו ניטלו לאחר מותו לשם השתלה, בהתאם להוראות לפי <ref href="#point_30">סעיף 30</ref>.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+            </list>
+          </point>
+          <point eId="point_4">
+            <heading>
+              <authorialNote placement="side">
+                <p>איסור תיווך</p>
+              </authorialNote>
+            </heading>
+            <num>4.</num>
+            <content>
+              <p>לא יתווך אדם בין תורם לנתרם, במישרין או בעקיפין, לשם נטילת אבר או השתלת אבר, אם הובטחה לאדם אחר תמורה שנתינתה אסורה לפי הוראות <ref href="#point_3">סעיף 3</ref> בעבור נטילת האבר, ולא יקבל אדם תמורה בעד תיווך בנסיבות כאמור.</p>
+            </content>
+          </point>
+          <point eId="point_5">
+            <heading>
+              <authorialNote placement="side">
+                <p>סייגים לאיסורים</p>
+              </authorialNote>
+            </heading>
+            <num>5.</num>
+            <list>
+              <intro>
+                <p>אין בהוראות <ref href="#chp_ב">פרק זה</ref> כדי לאסור השתלת אבר שנעשית מחוץ לישראל, לרבות לעניין השתתפות גוף בישראל במימון השתלת אברים שנעשית במדינת חוץ, בהתקיים כל אלה:</p>
+              </intro>
+              <point eId="point_5__point_1">
+                <num>(1)</num>
+                <content>
+                  <p>נטילת האבר והשתלת האבר נעשות על פי הדין החל באותה מדינה;</p>
+                </content>
+              </point>
+              <point eId="point_5__point_2">
+                <num>(2)</num>
+                <content>
+                  <p>מתקיימות הוראות חוק זה לעניין איסור סחר באברים.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_6">
+            <heading>
+              <authorialNote placement="side">
+                <p>הבאת אבר שניטל מן המת לישראל או הוצאתו מישראל</p>
+              </authorialNote>
+            </heading>
+            <num>6.</num>
+            <content>
+              <p>לא יביא אדם אבר לישראל ולא יוציא אדם אבר מישראל, לשם השתלתו בגופו של אדם, אלא לפי הוראות שקבע השר, לאחר התייעצות עם שר החוץ ובאישור ועדת העבודה הרווחה והבריאות של הכנסת, ובלבד שהאבר ניטל מאדם לאחר מותו על פי הדין החל באותה מדינה שבה נעשתה נטילת האבר, ואם נעשתה בישראל – לפי <ref href="/akn/il/act/PrimaryLegislation/1953-09-04/146905">חוק האנטומיה והפתולוגיה</ref>.</p>
+            </content>
+          </point>
+        </list>
+      </chapter>
+      <chapter eId="chp_ג">
+        <num>פרק ג׳:</num>
+        <title>
+          <content>
+            <p>המרכז להשתלות</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_7">
+            <heading>
+              <authorialNote placement="side">
+                <p>המרכז להשתלות</p>
+              </authorialNote>
+            </heading>
+            <num>7.</num>
+            <list>
+              <point eId="point_7__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>יוקם מרכז לאומי לנושא ההשתלות במשרד הבריאות; המרכז יפעל למיצוי האפשרויות להגדלת ההיקף של תרומת אברים ושל השתלת אברים בישראל.</p>
+                </content>
+              </point>
+              <point eId="point_7__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>תקציב המרכז להשתלות ייקבע בחוק התקציב השנתי, בתכנית נפרדת, במסגרת תקציב משרד הבריאות; בסעיף קטן זה, ”תכנית“ ו”חוק התקציב“ – כהגדרתם בחוק תקציב שנתי כמשמעותו <ref href="/akn/il/act/PrimaryLegislation/1985-04-03/150399">בחוק יסודות התקציב, התשמ"ה–1985</ref> (בחוק זה – חוק יסודות התקציב).</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_8">
+            <heading>
+              <authorialNote placement="side">
+                <p>תפקידי המרכז להשתלות</p>
+              </authorialNote>
+            </heading>
+            <num>8.</num>
+            <list>
+              <intro>
+                <p>המרכז להשתלות ירכז את הפיקוח והבקרה על נטילת אברים ועל השתלת אברים, ובכלל זה:</p>
+              </intro>
+              <point eId="point_8__point_1">
+                <num>(1)</num>
+                <content>
+                  <p>ינהל את מאגר המידע;</p>
+                </content>
+              </point>
+              <point eId="point_8__point_2">
+                <num>(2)</num>
+                <content>
+                  <p>יקבל בקשות של נתרמים להירשם במאגר המידע ויטפל בהן;</p>
+                </content>
+              </point>
+              <point eId="point_8__point_3">
+                <num>(3)</num>
+                <content>
+                  <p>יאתר נתרם מתאים לצורך הקצאה של אבר שניטל לפי <ref href="/akn/il/act/PrimaryLegislation/1953-09-04/146905">חוק האנטומיה והפתולוגיה</ref> או של אבר שהובא לישראל לפי הוראות <ref href="#point_6">סעיף 6</ref>, בהתאם להנחיות ועדת ההיגוי כאמור <ref href="#point_9">בסעיף 9(ב)(4)</ref>, ויאשר השתלת אבר כאמור, והכל לפי הוראות <ref href="#point_26">סעיף 26(ב)</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_8__point_4">
+                <num>(4)</num>
+                <content>
+                  <p>ישתף פעולה עם מדינות זרות ועם ארגונים זרים בעניין נטילת אברים והשתלת אברים;</p>
+                </content>
+              </point>
+              <point eId="point_8__point_5">
+                <num>(5)</num>
+                <content>
+                  <p>יערוך פעולות הסברה לעידוד תרומת אברים לפי כל דין;</p>
+                </content>
+              </point>
+              <point eId="point_8__point_6">
+                <num>(6)</num>
+                <content>
+                  <p>יבצע בקרת איכות במרכזים רפואיים מורשים בתחום נטילת אברים והשתלת אברים;</p>
+                </content>
+              </point>
+              <point eId="point_8__point_7">
+                <num>(7)</num>
+                <content>
+                  <p>יעודד מחקרים והכשרה מקצועית בתחום נטילת אברים והשתלת אברים;</p>
+                </content>
+              </point>
+              <point eId="point_8__point_8">
+                <num>(8)</num>
+                <content>
+                  <p>יתאם בין מרכזים רפואיים מורשים, לרבות עם הרופא האחראי, ובכלל זה פעולות לשימור אברים המיועדים להשתלה עד לנטילתם והעמדת כל האמצעים והשירותים הנדרשים לביצוע נטילת האבר על ידי המרכז הרפואי המורשה שבו אמורה להתבצע השתלת האבר;</p>
+                </content>
+              </point>
+              <point eId="point_8__point_9">
+                <num>(9)</num>
+                <content>
+                  <p>יבצע כל פעולה אחרת הקשורה לתחום נטילת אברים והשתלת אברים שהטיל המנהל על המרכז להשתלות.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_9">
+            <heading>
+              <authorialNote placement="side">
+                <p>ועדת היגוי</p>
+              </authorialNote>
+            </heading>
+            <num>9.</num>
+            <list>
+              <point eId="point_9__point_א">
+                <num>(א)</num>
+                <list>
+                  <intro>
+                    <p>השר ימנה ועדת היגוי למרכז להשתלות, שמספר חבריה לא יפחת מעשרה ולא יעלה על 17, כמפורט להלן:</p>
+                  </intro>
+                  <point eId="point_9__point_א__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>רופא מומחה, בעל ניסיון של עשר שנים לפחות כרופא, והוא יהיה היושב ראש;</p>
+                    </content>
+                  </point>
+                  <point eId="point_9__point_א__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>מנהל המרכז להשתלות, שמונה לפי הוראות <ref href="#point_10">סעיף 10</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_9__point_א__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>שני רופאים מומחים, לפחות, בעלי ניסיון בביצוע השתלות אברים או במחקר בתחום האמור, ובהם רופא אחד לפחות שאינו מועסק בבית חולים ממשלתי;</p>
+                    </content>
+                  </point>
+                  <point eId="point_9__point_א__point_4">
+                    <num>(4)</num>
+                    <content>
+                      <p>אח או אחות, אחד לפחות, מוסמכים בתחום הסיעוד, שהם עובדי משרד הבריאות, העובדים במרכז להשתלות ושעיסוקם בתיאום השתלת אברים;</p>
+                    </content>
+                  </point>
+                  <point eId="point_9__point_א__point_5">
+                    <num>(5)</num>
+                    <content>
+                      <p>איש דת, שימונה לאחר התייעצות עם הרבנים הראשיים לישראל;</p>
+                    </content>
+                  </point>
+                  <point eId="point_9__point_א__point_6">
+                    <num>(6)</num>
+                    <content>
+                      <p>עורך דין שאינו עובד המדינה, הכשיר להתמנות שופט בית משפט מחוזי;</p>
+                    </content>
+                  </point>
+                  <point eId="point_9__point_א__point_7">
+                    <num>(7)</num>
+                    <content>
+                      <p>שני חברים לפחות מתחומי עיסוק אלה: פסיכולוגיה, עבודה סוציאלית ואתיקה רפואית;</p>
+                    </content>
+                  </point>
+                  <point eId="point_9__point_א__point_8">
+                    <num>(8)</num>
+                    <content>
+                      <p>נציג שימונה מקרב מועמדים שיציעו ארגוני החולים.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_9__point_ב">
+                <num>(ב)</num>
+                <list>
+                  <intro>
+                    <p>תפקידי ועדת ההיגוי הם:</p>
+                  </intro>
+                  <point eId="point_9__point_ב__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>לייעץ לשר בכל הקשור בהתוויית מדיניות ארצית בתחום נטילת אברים והשתלת אברים;</p>
+                    </content>
+                  </point>
+                  <point eId="point_9__point_ב__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>לגבש תכנית פעולה שנתית של המרכז להשתלות, ולהביאה לאישור השר;</p>
+                    </content>
+                  </point>
+                  <point eId="point_9__point_ב__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>לקבל דוחות ממנהל המרכז להשתלות, על ביצוע תכנית הפעולה השנתית המאושרת ועל פעולות ועדות ההערכה וכן לדווח לשר על ביצוע התכנית כאמור; השר יעביר לוועדת העבודה הרווחה והבריאות של הכנסת העתק מהדיווח שקיבל כאמור;</p>
+                    </content>
+                  </point>
+                  <point eId="point_9__point_ב__point_4">
+                    <num>(4)</num>
+                    <list>
+                      <intro>
+                        <p>לקבוע הנחיות לעניין הקצאה של אברים שניטלו לפי <ref href="/akn/il/act/PrimaryLegislation/1953-09-04/146905">חוק האנטומיה והפתולוגיה</ref> או שהובאו לישראל בהתאם להוראות לפי <ref href="#point_6">סעיף 6</ref>, ובלבד שבעת הקצאת אברים כאמור יובאו בחשבון, בין השאר, שיקולים אלה:</p>
+                      </intro>
+                      <point eId="point_9__point_ב__point_4__point_א">
+                        <num>(א)</num>
+                        <content>
+                          <p>הסכמת אדם, בחייו, לנטילת אבר לאחר מותו כאמור <ref href="#point_28">בסעיף 28</ref>, אם הוא או בן משפחתו מדרגה ראשונה זקוקים להשתלת אבר;</p>
+                        </content>
+                      </point>
+                      <point eId="point_9__point_ב__point_4__point_ב">
+                        <num>(ב)</num>
+                        <content>
+                          <p>תרומת אבר שניטל מאדם לפי <ref href="/akn/il/act/PrimaryLegislation/1953-09-04/146905">חוק האנטומיה והפתולוגיה</ref>, אם בן משפחתו מדרגה ראשונה זקוק להשתלת אבר; לרבות אם ניתנה לפני יום תחילתו של חוק זה;</p>
+                        </content>
+                      </point>
+                      <point eId="point_9__point_ב__point_4__point_ג">
+                        <num>(ג)</num>
+                        <content>
+                          <p>תרומת אבר שניטל מאדם בחייו, אם אותו אדם או בן משפחתו מדרגה ראשונה זקוקים להשתלת אבר; לרבות אם ניתנה לפני יום תחילתו של חוק זה;</p>
+                        </content>
+                      </point>
+                    </list>
+                  </point>
+                  <point eId="point_9__point_ב__point_5">
+                    <num>(5)</num>
+                    <content>
+                      <p>לדון בדוחות שהגיש לה רופא מבקר שהוסמך לפי הוראות <ref href="#point_12">סעיף 12(א)(2)</ref>, ולתת המלצות למנהל בהתאם לדוחות האמורים;</p>
+                    </content>
+                  </point>
+                  <point eId="point_9__point_ב__point_6">
+                    <num>(6)</num>
+                    <content>
+                      <p>לייעץ לשר ולמנהל בכל עניין הנוגע לנטילת אברים ולהשתלת אברים, ככל שתידרש.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_9__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>יושב ראש ועדת ההיגוי יכנס את ועדת ההיגוי, אחת לשלושה חודשים לפחות, וכן לפי הצורך או כל אימת שנדרש לכך על ידי המנהל או על ידי שלושה מחברי הוועדה.</p>
+                </content>
+              </point>
+              <point eId="point_9__point_ד">
+                <num>(ד)</num>
+                <content>
+                  <p>החלטות ועדת ההיגוי יתקבלו ברוב קולות החברים הנוכחים.</p>
+                </content>
+              </point>
+              <point eId="point_9__point_ה">
+                <num>(ה)</num>
+                <content>
+                  <p>ועדת ההיגוי תקבע סדרי דיון לעצמה, לרבות לעניין המניין החוקי של חבריה, ככל שאלה לא נקבעו על ידי המנהל.</p>
+                </content>
+              </point>
+              <point eId="point_9__point_ו">
+                <num>(ו)</num>
+                <content>
+                  <p>חברי ועדת ההיגוי, למעט מנהל המרכז להשתלות, ימונו לתקופת כהונה של ארבע שנים; השר רשאי למנותם לתקופת כהונה נוספת, ובלבד שאחרי שתי תקופות כהונה רצופות לא ימונה חבר ועדה כאמור לתקופת כהונה נוספת אלא לאחר הפסקה של ארבע שנים.</p>
+                </content>
+              </point>
+              <point eId="point_9__point_ז">
+                <num>(ז)</num>
+                <content>
+                  <p>הנחיות כאמור בסעיף קטן (ב)(4) יפורסמו ברשומות לאחר שיאושרו בידי המנהל.</p>
+                </content>
+              </point>
+              <point eId="point_9__point_ח">
+                <num>(ח)</num>
+                <content>
+                  <p>המנהל ימנה ועדת בקרה ואיכות שתורכב מיושב ראש ועדת ההיגוי והוא יהיה היושב ראש ומחברי ועדת ההיגוי שהם רופאים, שמונו לפי סעיף קטן (א)(3); הוועדה תבחן את איכות פעילותם הרפואית של מרכזים רפואיים מורשים, בתחום נטילת אברים והשתלת אברים ותגיש דוח שנתי למנהל.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_10">
+            <heading>
+              <authorialNote placement="side">
+                <p>מנהל המרכז להשתלות</p>
+              </authorialNote>
+            </heading>
+            <num>10.</num>
+            <list>
+              <point eId="point_10__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>השר ימנה מנהל למרכז להשתלות; הוראות <ref href="/akn/il/act/PrimaryLegislation/1959-04-15/148670">חוק שירות המדינה (מינויים), התשי"ט–1959</ref>, יחולו על מינוי כאמור (בחוק זה – מנהל המרכז להשתלות).</p>
+                </content>
+              </point>
+              <point eId="point_10__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>מנהל המרכז להשתלות יבצע את התפקידים המוטלים עליו לפי הוראות חוק זה ויהיה אחראי לניהול המרכז להשתלות ולביצועם השוטף של תפקידי המרכז; בביצוע תפקידיו יפעל מנהל המרכז להשתלות לפי תכנית הפעולה השנתית של המרכז להשתלות, כפי שאושרה בידי השר, ויהיה כפוף, בכל ענייני הארגון והמינהל של המרכז להשתלות, להוראות שנתן המנהל, ובכל עניין מקצועי – להחלטות ועדת ההיגוי.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_11">
+            <heading>
+              <authorialNote placement="side">
+                <p>עיון ברישומים</p>
+              </authorialNote>
+            </heading>
+            <num>11.</num>
+            <list>
+              <point eId="point_11__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>לצורך ביצוע תפקידיהם, רשאים המנהל, מנהל המרכז להשתלות וחברי ועדת ההיגוי, לעיין בפרוטוקול של ועדת הערכה ובכל מסמך אחר שהוגש לה, וכן לעיין ברישומים וברשומות הרפואיות המתנהלים בכל מרכז רפואי מורשה והקשורים לתחום נטילת אברים והשתלת אברים.</p>
+                </content>
+              </point>
+              <point eId="point_11__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>מנהל מרכז רפואי מורשה ועובדיו ישתפו פעולה עם המנהל, מנהל המרכז להשתלות וחברי ועדת ההיגוי, לפי העניין, ויקלו על ביצוע הסמכויות כאמור בסעיף קטן (א).</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_12">
+            <heading>
+              <authorialNote placement="side">
+                <p>מתאם השתלת אברים ורופא מבקר</p>
+              </authorialNote>
+            </heading>
+            <num>12.</num>
+            <list>
+              <point eId="point_12__point_א">
+                <num>(א)</num>
+                <list>
+                  <intro>
+                    <p>מנהל המרכז להשתלות יסמיך, מבין עובדי המרכז להשתלות –</p>
+                  </intro>
+                  <point eId="point_12__point_א__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>אחים או אחיות מוסמכים שישמשו מתאמי השתלת אברים בכל מרכז רפואי מורשה, ויתאמו בין המרכז להשתלות, המרכז הרפואי המורשה ומרכזים רפואיים מורשים אחרים, בתחום נטילת אברים והשתלת אברים, וזאת בהתאם להיקף הפעילות ולסיכויי איתור אברים להשתלה במרכזים הרפואיים (בחוק זה – מתאם השתלת אברים); מנהל המרכז להשתלות יודיע לכל מרכז רפואי מורשה על זהות מתאם השתלת אברים, המופקד על אותו מרכז;</p>
+                    </content>
+                  </point>
+                  <point eId="point_12__point_א__point_2">
+                    <num>(2)</num>
+                    <list>
+                      <intro>
+                        <p>רופא מומחה שישמש רופא מבקר (בחוק זה – הרופא המבקר), ואלה תפקידיו:</p>
+                      </intro>
+                      <point eId="point_12__point_א__point_2__point_א">
+                        <num>(א)</num>
+                        <content>
+                          <p>לבצע בקרת תהליכים, החל משלב איתור הנפטרים שאבריהם עשויים להתאים לצורך השתלה ועד לסיום הליך נטילת האבר והשתלתו;</p>
+                        </content>
+                      </point>
+                      <point eId="point_12__point_א__point_2__point_ב">
+                        <num>(ב)</num>
+                        <content>
+                          <p>להגיש דוחות למנהל המרכז להשתלות ולוועדת ההיגוי, לעניין מיצוי אפשרויות לתרומות אברים במרכזים רפואיים מורשים.</p>
+                        </content>
+                      </point>
+                    </list>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_12__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>לשם ביצוע תפקידיהם, רשאים מתאם השתלת אברים, הרופא המבקר וכן ועדת בקרה ואיכות, לעיין ברישומים וברשומות הרפואיות המתנהלים במרכז רפואי מורשה והקשורים לתחום נטילת אברים או השתלת אברים, לרבות לעניין מצבו הרפואי של אדם שהושתל בו אבר, וכן לקבל לידיהם כל מידע אחר הדרוש להם והנוגע לעניין; ועדת בקרה ואיכות רשאית לקבל לידיה גם את המידע שהועבר למנהל המרכז להשתלות בהתאם <ref href="#point_31">לסעיף 31</ref>.</p>
+                </content>
+              </point>
+              <point eId="point_12__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>מנהל מרכז רפואי מורשה ועובדיו ישתפו פעולה עם מתאם השתלת האברים, עם הרופא המבקר, עם ועדת בקרה ואיכות ועם הרופא האחראי, ויקלו על ביצוע עבודתם במרכז הרפואי המורשה.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+        </list>
+      </chapter>
+      <chapter eId="chp_ד">
+        <num>פרק ד׳:</num>
+        <title>
+          <content>
+            <p>השתלת אבר שניטל מתורם חי</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_13">
+            <heading>
+              <authorialNote placement="side">
+                <p>בקשת תורם</p>
+              </authorialNote>
+            </heading>
+            <num>13.</num>
+            <list>
+              <point eId="point_13__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>תורם המעוניין לתרום אבר מגופו לשם השתלתו בנתרם מסוים ומרכז רפואי מורשה מצא אותו מתאים, מבחינה רפואית, למתן תרומת האבר לאותו נתרם, יגיש בקשה לאישור נטילת אבר לפי הוראות סעיף זה.</p>
+                </content>
+              </point>
+              <point eId="point_13__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>בקשה לאישור נטילת אבר מגופו של תורם, לשם השתלתו בקרובו, תוגש לוועדת ההערכה המקומית שבמרכז הרפואי המורשה שבו מיועדות להתבצע נטילת האבר והשתלת האבר.</p>
+                </content>
+              </point>
+              <point eId="point_13__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>בקשה לאישור נטילת אבר מגופו של תורם, לשם השתלתו באדם שאינו קרובו וכן בקשה כאמור של תורם שאינו תושב ישראל, יוגשו לוועדת ההערכה המרכזית.</p>
+                </content>
+              </point>
+              <point eId="point_13__point_ד">
+                <num>(ד)</num>
+                <content>
+                  <p>בקשה לפי סעיף זה תוגש בטופס שקבע השר.</p>
+                </content>
+              </point>
+              <point eId="point_13__point_ה">
+                <num>(ה)</num>
+                <content>
+                  <p>
+                    <ref href="#chp_ד">בפרק זה</ref>, ”קרוב“ – קרוב, וכן גיס או גיסה.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_14">
+            <heading>
+              <authorialNote placement="side">
+                <p>ועדות הערכה</p>
+              </authorialNote>
+            </heading>
+            <num>14.</num>
+            <list>
+              <point eId="point_14__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>מנהל מרכז רפואי מורשה ימנה, באישור מנהל המרכז להשתלות, ועדת הערכה מקומית בת חמישה חברים שתדון בבקשות לנטילת אבר מגופו של תורם שהוא תושב ישראל לשם השתלתו בקרובו, ותקבל החלטה לגביהן.</p>
+                </content>
+              </point>
+              <point eId="point_14__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>מנהל המרכז להשתלות, באישור המנהל, ימנה ועדת הערכה מרכזית בת חמישה חברים, שתדון בבקשות לנטילת אבר מגופו של תורם לשם השתלתו באדם שאינו קרובו, או בבקשות לנטילת אבר מגופו של אדם שאינו תושב ישראל, ותקבל החלטה לגביהן; המנהל ימנה ממלאי מקום קבועים לחברי ועדת ההערכה המרכזית.</p>
+                </content>
+              </point>
+              <point eId="point_14__point_ג">
+                <num>(ג)</num>
+                <list>
+                  <intro>
+                    <p>ואלה חברי ועדת הערכה:</p>
+                  </intro>
+                  <point eId="point_14__point_ג__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>רופא מומחה שהוא מנהל מחלקה או יחידה בבית חולים שאינה עוסקת בהשתלת אברים, והוא יהיה היושב ראש;</p>
+                    </content>
+                  </point>
+                  <point eId="point_14__point_ג__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>רופא מומחה בפסיכיאטריה או פסיכולוג קליני בעל תואר מומחה לפי <ref href="/akn/il/act/PrimaryLegislation/1977-03-29/416078">חוק הפסיכולוגים, התשל"ז–1977</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_14__point_ג__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>עובד סוציאלי כהגדרתו <ref href="/akn/il/act/PrimaryLegislation/1996-03-08/174441">בחוק העובדים הסוציאליים, התשנ"ו–1996</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_14__point_ג__point_4">
+                    <num>(4)</num>
+                    <content>
+                      <p>נציג ציבור; לבקשתו של התורם, נציג הציבור שישב בדיון בעניינו יהיה, ככל הניתן, בן אותה קבוצה דתית, חברתית או תרבותית, שאליה משתייך התורם;</p>
+                    </content>
+                  </point>
+                  <point eId="point_14__point_ג__point_5">
+                    <num>(5)</num>
+                    <content>
+                      <p>עורך דין, הכשיר להתמנות שופט בית משפט מחוזי.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_14__point_ד">
+                <num>(ד)</num>
+                <content>
+                  <p>תקופת כהונתם של חברי ועדת הערכה תהיה ארבע שנים מיום מינוים, ובלבד שלא יכהנו בתפקידם יותר משלוש תקופות כהונה.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_15">
+            <heading>
+              <authorialNote placement="side">
+                <p>תנאים לאישור בקשת תורם</p>
+              </authorialNote>
+            </heading>
+            <num>15.</num>
+            <list>
+              <intro>
+                <p>ועדת הערכה לא תאשר בקשה לנטילת אבר מגופו של תורם, אלא אם כן שוכנעה כי התקיימו כל אלה:</p>
+              </intro>
+              <point eId="point_15__point_1">
+                <num>(1)</num>
+                <content>
+                  <p>התורם מתאים מבחינה רפואית ונפשית למתן התרומה, ואין במצבו הרפואי והנפשי משום חשש לסיכון בריאותו או לפגיעה בתפקודו, עקב התרומה, החורגים מן הסיכון הרגיל בפעולות מסוג זה;</p>
+                </content>
+              </point>
+              <point eId="point_15__point_2">
+                <num>(2)</num>
+                <content>
+                  <p>התורם נתן את הסכמתו לתרומה מרצון חופשי ומתוך דעה צלולה, ושלא מתוך לחץ משפחתי, חברתי, כלכלי או אחר;</p>
+                </content>
+              </point>
+              <point eId="point_15__point_3">
+                <num>(3)</num>
+                <content>
+                  <p>התורם והנתרם נתנו את הסכמתם מדעת לפעולות הרפואיות הקשורות בביצוע נטילת האבר והשתלת האבר, כנדרש לפי הוראות <ref href="/akn/il/act/PrimaryLegislation/1996-05-12/174478#point_13">סעיף 13 לחוק זכויות החולה</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_15__point_4">
+                <num>(4)</num>
+                <content>
+                  <p>התורם לא נתן את הסכמתו כנגד תמורה או הבטחה לתמורה, שקבלתה או נתינתה אסורות לפי הוראות <ref href="#point_3">סעיף 3</ref>, או לצורך קבלת התשלום וההחזר הכספי בעד הוצאות לפי הוראות <ref href="#point_22">סעיף 22</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_15__point_5">
+                <num>(5)</num>
+                <content>
+                  <p>התורם מבין שיש באפשרותו לחזור בו מהסכמתו בכל עת עד לנטילת האבר, וכי הוא לא יישא באחריות אזרחית או פלילית בשל חזרתו כאמור;</p>
+                </content>
+              </point>
+              <point eId="point_15__point_6">
+                <num>(6)</num>
+                <content>
+                  <p>הנתרם נמצא מתאים מבחינה רפואית ונפשית להשתלה;</p>
+                </content>
+              </point>
+              <point eId="point_15__point_7">
+                <num>(7)</num>
+                <content>
+                  <p>אין מניעה אחרת לאישור הבקשה, לרבות לעניין מצבו המשפחתי של התורם.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_16">
+            <heading>
+              <authorialNote placement="side">
+                <p>סמכויות ועדת הערכה</p>
+              </authorialNote>
+            </heading>
+            <num>16.</num>
+            <list>
+              <point eId="point_16__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>ועדת הערכה תבקש מהתורם ומהנתרם, לשם בדיקת התקיימותם של התנאים המפורטים <ref href="#point_15">בסעיף 15</ref>, לעבור בדיקה רפואית ופסיכולוגית.</p>
+                </content>
+              </point>
+              <point eId="point_16__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>בלי לגרוע מהוראות סעיף קטן (א), רשאית ועדת הערכה לבקש מהתורם ומהנתרם לעבור בדיקה סוציאלית, לעיין בכל חומר רפואי, פסיכולוגי וסוציאלי הנוגע לתורם ולנתרם ובכל חומר נוסף שהועבר אליה מכל אדם אחר, והכל ככל שהמידע נוגע לביצוע תפקידיה, וכן לזמן כל אדם, כפי שתמצא לנכון, וככל שהדבר דרוש לה לשם ביצוע תפקידיה.</p>
+                </content>
+              </point>
+              <point eId="point_16__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>טרם מתן החלטתה, תזמן ועדת הערכה את התורם והנתרם להופיע לפניה, ורשאית היא לזמן כל אחד מהם להופיע לפניה בנפרד.</p>
+                </content>
+              </point>
+              <point eId="point_16__point_ד">
+                <num>(ד)</num>
+                <content>
+                  <p>החלטות ועדת ההערכה יתקבלו ברוב קולות החברים הנוכחים.</p>
+                </content>
+              </point>
+              <point eId="point_16__point_ה">
+                <num>(ה)</num>
+                <content>
+                  <p>ועדת ההערכה תיתן את החלטתה בתוך שישים ימים לכל היותר ממועד הגשתה של בקשת התורם לפי <ref href="#point_13">סעיף 13</ref>.</p>
+                </content>
+              </point>
+              <point eId="point_16__point_ו">
+                <num>(ו)</num>
+                <content>
+                  <p>ועדת ההערכה תקבע את סדרי דיוניה, לרבות לעניין מניין חוקי של חבריה, ככל שלא נקבעו בידי המנהל.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_17">
+            <heading>
+              <authorialNote placement="side">
+                <p>החלטות ועדת הערכה</p>
+              </authorialNote>
+            </heading>
+            <num>17.</num>
+            <list>
+              <point eId="point_17__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>לא שוכנעה ועדת הערכה כי התקיימו התנאים המפורטים <ref href="#point_15">בסעיף 15</ref>, כולם או חלקם, תדחה את הבקשה לנטילת האבר ותמסור הודעה על כך לתורם ולנתרם.</p>
+                </content>
+              </point>
+              <point eId="point_17__point_ב">
+                <num>(ב)</num>
+                <list>
+                  <point eId="point_17__point_ב__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>שוכנעה ועדת הערכה כי התקיימו התנאים המפורטים <ref href="#point_15">בסעיף 15</ref>, תאשר את הבקשה לנטילת האבר ותעבירה לאישור המנהל בצירוף נימוקיה וכל חומר אחר ששימש אותה לצורך קבלת ההחלטה.</p>
+                    </content>
+                  </point>
+                  <point eId="point_17__point_ב__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>החליט המנהל לאשר את החלטת הוועדה, יודיע על כך למנהל המרכז להשתלות; לא שוכנע המנהל כי התקיימו התנאים המפורטים <ref href="#point_15">בסעיף 15</ref>, כולם או חלקם, ידחה את הבקשה לנטילת האבר וימסור הודעה על כך לתורם ולנתרם; החלטת המנהל תהיה מנומקת ותינתן בתוך שבעה ימים מהמועד שבו אישרה ועדת ההערכה את הבקשה.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_17__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>קיבלה ועדת הערכה מקומית החלטה בבקשת תורם בניגוד לדעתו של אחד מחבריה, רשאי אותו חבר להביא את ההחלטה להכרעת ועדת ההערכה המרכזית; הובאה החלטה כאמור, לא יהיה תוקף להחלטת ועדת ההערכה המקומית.</p>
+                </content>
+              </point>
+              <point eId="point_17__point_ד">
+                <num>(ד)</num>
+                <content>
+                  <p>קיבל מנהל המרכז להשתלות הודעה מהמנהל לפי הוראות סעיף קטן (ב)(2) על אישור החלטת ועדת הערכה מקומית, ייתן, הוא או מי שהוא הסמיך לכך, אישור למרכז הרפואי המורשה שאליו משתייכת ועדת ההערכה המקומית לבצע את נטילת האבר ואת השתלת האבר, בתוך 24 שעות מהמועד שבו נמסרה החלטת המנהל למנהל המרכז להשתלות; לא ניתן לבצע את נטילת האבר או את השתלת האבר באותו מרכז רפואי מורשה, יקבע מנהל המרכז להשתלות או מי שהוא הסמיך לכך, את המרכז הרפואי המורשה שבו תבוצע נטילת האבר או השתלת האבר.</p>
+                </content>
+              </point>
+              <point eId="point_17__point_ה">
+                <num>(ה)</num>
+                <content>
+                  <p>קיבל מנהל המרכז להשתלות הודעה מהמנהל לפי הוראות סעיף קטן (ב)(2) על אישור החלטת ועדת ההערכה המרכזית, ייתן, הוא או מי שהוא הסמיך לכך, אישור למרכז רפואי מורשה לבצע את נטילת האבר ואת השתלת האבר, בתוך 24 שעות מהמועד שבו נמסרה החלטת המנהל למנהל המרכז להשתלות; בסעיף קטן זה, ”מרכז רפואי מורשה“ – המרכז הרפואי שביצע את נטילת האבר והמרכז הרפואי שיבצע את השתלת האבר.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_18">
+            <heading>
+              <authorialNote placement="side">
+                <p>הזכות לקבלת העתק ההחלטה</p>
+              </authorialNote>
+            </heading>
+            <num>18.</num>
+            <list>
+              <point eId="point_18__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>התורם והנתרם רשאים, לפי בקשתם, לקבל העתק מממצאי בדיקות שנערכו להם לפי הוראות <ref href="#point_16">סעיף 16(א) ו־(ב)</ref> וכן העתק מההחלטה של ועדת ההערכה והעתק מההחלטה המנומקת של המנהל, כאמור <ref href="#point_17">בסעיף 17(ב)</ref>.</p>
+                </content>
+              </point>
+              <point eId="point_18__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>על אף הוראות סעיף קטן (א), רשאית ועדת הערכה שלא למסור את נימוקיה או את ממצאי הבדיקות שנערכו לתורם או לנתרם, כולם או חלקם, אם קבעה כי טעמים של טובת התורם או הנתרם מחייבים זאת; החליטה הוועדה שלא למסור את נימוקיה או את ממצאי הבדיקות האמורים, תמסור על כך הודעה למבקש.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_19">
+            <heading>
+              <authorialNote placement="side">
+                <p>עתירה מינהלית</p>
+              </authorialNote>
+            </heading>
+            <num>19.</num>
+            <content>
+              <p>על החלטת ועדת הערכה ועל החלטת המנהל לפי <ref href="#chp_ד">פרק זה</ref> ניתן לעתור לבית משפט לעניינים מינהליים.</p>
+            </content>
+          </point>
+          <point eId="point_20">
+            <heading>
+              <authorialNote placement="side">
+                <p>הוראות לעניין נטילת אבר מקטין או מאדם שמונה לו אפוטרופוס</p>
+              </authorialNote>
+            </heading>
+            <num>20.</num>
+            <list>
+              <point eId="point_20__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>הוראות <ref href="#chp_ד">פרק זה</ref> לא יחולו על תורם שהוא קטין או אדם שמונה לו אפוטרופוס.</p>
+                </content>
+              </point>
+              <point eId="point_20__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>נטילת אבר מגופו של קטין או של אדם שמונה לו אפוטרופוס, בחייו, לשם השתלתו באחר, תיעשה בהתאם להוראות <ref href="/akn/il/act/PrimaryLegislation/1962-08-17/147488">חוק הכשרות המשפטית והאפוטרופסות, התשכ"ב–1962</ref>, בבקשה שתוגש לבית משפט לענייני משפחה; בית המשפט לענייני משפחה לא יחליט בעניין כאמור, אלא לאחר שקיבל את חוות דעתה של ועדת ההערכה המרכזית.</p>
+                </content>
+              </point>
+              <point eId="point_20__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>לעניין סעיף זה, ”אדם שמונה לו אפוטרופוס“ – לרבות אדם שבית המשפט רשאי למנות לו אפוטרופוס, והוא אף אם עדיין לא הוברר אם התקיימו התנאים למינוי.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_21">
+            <heading>
+              <authorialNote placement="side">
+                <p>תרומה שלא לנתרם מסוים</p>
+              </authorialNote>
+            </heading>
+            <num>21.</num>
+            <list>
+              <intro>
+                <p>הוראות <ref href="#chp_ד">פרק זה</ref> יחולו גם לגבי תורם המוכן לתרום אבר מאבריו, בחייו, לשם השתלתו שלא בנתרם מסוים, בשינויים המחויבים ובשינויים אלה:</p>
+              </intro>
+              <point eId="point_21__point_1">
+                <num>(1)</num>
+                <content>
+                  <p>הבקשה לאישור נטילת האבר תוגש לוועדת ההערכה המרכזית;</p>
+                </content>
+              </point>
+              <point eId="point_21__point_2">
+                <num>(2)</num>
+                <content>
+                  <p>ועדת ההערכה המרכזית לא תאשר את הבקשה לנטילת האבר אלא אם כן ניתן לה אישור מאת המרכז להשתלות כי קיים נתרם המתאים מבחינה רפואית להשתלת האבר; המרכז להשתלות יאתר נתרם כאמור מתוך מאגר המידע, ויחולו לעניין זה הוראות <ref href="#point_26">סעיף 26(ב)</ref>, בשינויים המחויבים.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_22">
+            <heading>
+              <authorialNote placement="side">
+                <p>תשלום והחזר כספי בעד הוצאות</p>
+              </authorialNote>
+            </heading>
+            <num>22.</num>
+            <list>
+              <point eId="point_22__point_א">
+                <num>(א)</num>
+                <list>
+                  <intro>
+                    <p>השר, בהסכמת שר האוצר ובאישור ועדת העבודה הרווחה והבריאות של הכנסת, יקבע תשלום אחיד שתשלם המדינה לכל תורם כפיצוי בשל ההפסד הכספי הנובע באופן סביר מהפעולות הכרוכות בנטילת אבר, וכן כללים ותנאים לעניין החזר כספי בעד הוצאות שהוציא התורם בעבור אלה:</p>
+                  </intro>
+                  <point eId="point_22__point_א__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>רכישת ביטוח רפואי פרטי, או תכנית לשירותי בריאות נוספים לפי הוראות <ref href="/akn/il/act/PrimaryLegislation/1994-06-26/157723#point_10">סעיף 10 לחוק ביטוח בריאות ממלכתי, התשנ"ד–1994</ref> (בחוק זה – חוק ביטוח בריאות ממלכתי), רכישת ביטוח מפני פגיעה בכושר עבודה או מפני אבדן כושר השתכרות, וכן רכישת ביטוח חיים, והכל לתקופה ובסכום שיקבע בדרך האמורה;</p>
+                    </content>
+                  </point>
+                  <point eId="point_22__point_א__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>טיפול פסיכולוגי, בתנאים, לתקופה ובסכום שיקבע בדרך האמורה;</p>
+                    </content>
+                  </point>
+                  <point eId="point_22__point_א__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>חופשת החלמה, סמוך לאחר נטילת האבר, בתנאים, לתקופה ובסכום שיקבע בדרך האמורה.<br space="preserve"></br><wikicomment font-size="x-small">פורסמו <ref href="/akn/il/act/SecondaryLegislation/2010-08-05/100035750">תקנות השתלת אברים (תשלום פיצוי והחזר כספי בעד הוצאות לתורם), התש"ע–2010</ref>.</wikicomment></p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_22__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>תשלום והחזר כספי בעד הוצאות לפי סעיף זה ישולמו לתורם באמצעות המרכז להשתלות, לאחר נטילת האבר, ובלבד שהנתרם הוא תושב ישראל, ויש בידי התורם תעודה מאת המרכז להשתלות המעידה כי תרם מאבריו לשם ריפויו של אחר.</p>
+                </content>
+              </point>
+              <point eId="point_22__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>על אף הוראות סעיף קטן (א), רשאי השר, בהסכמת שר האוצר ובאישור ועדת העבודה הרווחה והבריאות של הכנסת, לקבוע החזר כספי בעד אבדן השתכרות, שאינו אחיד לכל התורמים.</p>
+                </content>
+              </point>
+              <point eId="point_22__point_ד">
+                <num>(ד)</num>
+                <content>
+                  <p>בלי לגרוע מהוראות סעיפים קטנים (א) עד (ג), לעניין <ref href="/akn/il/act/PrimaryLegislation/1994-06-26/157723#point_8">סעיף 8(א1)(2)(ג)(6) לחוק ביטוח בריאות ממלכתי</ref>, יראו תורם כחולה במחלה כרונית.</p>
+                </content>
+              </point>
+              <point eId="point_22__point_ה">
+                <num>(ה)</num>
+                <content>
+                  <p>תשלום והחזר כספי בעד הוצאות לפי סעיף זה אינם ניתנים להעברה, לשעבוד או לעיקול.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_23">
+            <heading>
+              <authorialNote placement="side">
+                <p>הוקרה לתורם</p>
+              </authorialNote>
+            </heading>
+            <num>23.</num>
+            <list>
+              <point eId="point_23__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>השר יעניק לתורם תעודת הוקרה בנוסח שיקבע.</p>
+                </content>
+              </point>
+              <point eId="point_23__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>תורם יהיה פטור מתשלום דמי כניסה לגנים לאומיים ולשמורות טבע כהגדרתם <ref href="/akn/il/act/PrimaryLegislation/1998-04-05/164212">בחוק גנים לאומיים, שמורות טבע, אתרים לאומיים ואתרי הנצחה, התשנ"ח–1998</ref>, ולמקום מוסדר כהגדרתו <ref href="/akn/il/act/PrimaryLegislation/1978-02-10/148262#point_42">בסעיף 42 לחוק העתיקות, התשל"ח–1978</ref>.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+        </list>
+      </chapter>
+      <chapter eId="chp_ה">
+        <num>פרק ה׳:</num>
+        <title>
+          <content>
+            <p>השתלת אבר שניטל מן המת</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_24">
+            <heading>
+              <authorialNote placement="side">
+                <p>בקשה לנטילת אבר מן המת</p>
+              </authorialNote>
+            </heading>
+            <num>24.</num>
+            <list>
+              <point eId="point_24__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>מצא רופא כי מטופל זקוק להשתלת אבר, יודיע לו הרופא כי באפשרותו להירשם במאגר המידע לצורך איתור אבר מתאים להשתלה שניטל מן המת; ביקש מטופל להירשם במאגר המידע, יחתום על בקשה שתוגש בטופס שקבע השר; בטופס כאמור יצוין אם המטופל נתן הסכמתו לנטילת אבר לאחר מותו כאמור <ref href="#point_28">בסעיף 28</ref>, אם קרוב משפחתו מדרגה ראשונה תרם אבר לאחר מותו או אם המטופל או בן משפחתו מדרגה ראשונה תרם אבר מאבריו, בחייו, שלא לנתרם מסוים.</p>
+                </content>
+              </point>
+              <point eId="point_24__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>הרופא יעביר את הטופס, כשהוא חתום כדין, למרכז להשתלות.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_25">
+            <heading>
+              <authorialNote placement="side">
+                <p>נתרם שהוא קטין או אדם שמונה לו אפוטרופוס</p>
+              </authorialNote>
+            </heading>
+            <num>25.</num>
+            <list>
+              <point eId="point_25__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>מצא רופא כי מטופל שהוא קטין או אדם שמונה לו אפוטרופוס זקוק להשתלת אבר, יודיע על כך לקטין או לאדם כאמור, ככל שניתן, ולאפוטרופסו; לא היה לקטין או לאדם כאמור אפוטרופוס, יודיע על כך הרופא למי שהקטין או האדם כאמור נמצא בהשגחתו או במשמורתו החוקית, ולמי שהקטין או האדם כאמור ביקש שיודיעו לו על כך.</p>
+                </content>
+              </point>
+              <point eId="point_25__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>בקשה להירשם במאגר המידע לצורך איתור אבר מתאים להשתלה תיחתם בידי אפוטרופסו של הקטין או האדם כאמור, ובאין אפוטרופוס – בידי מי שהקטין או האדם כאמור נמצא בהשגחתו או במשמורתו החוקית, שקיבל הודעה לפי הוראות סעיף קטן (א); בקשה לפי סעיף קטן זה תוגש בטופס שקבע השר.</p>
+                </content>
+              </point>
+              <point eId="point_25__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>הרופא יעביר את הטופס, כשהוא חתום כדין, למרכז להשתלות.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_26">
+            <heading>
+              <authorialNote placement="side">
+                <p>השתלת אבר שניטל מן המת</p>
+              </authorialNote>
+            </heading>
+            <num>26.</num>
+            <list>
+              <point eId="point_26__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>נתמלאו תנאי <ref href="/akn/il/act/PrimaryLegislation/1953-09-04/146905">חוק האנטומיה והפתולוגיה</ref> לעניין נתיחת גופתו של אדם ונטילת אבר מאבריו לשם השתלה בגופו של נתרם, ימסור מנהל בית החולים שבו נפטר האדם, נקבע מותו או שאליו הובאה גופתו, או המרכז הלאומי לרפואה משפטית שבו מצויה גופתו של אדם, לפי העניין, הודעה למרכז להשתלות.</p>
+                </content>
+              </point>
+              <point eId="point_26__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>קיבל המרכז להשתלות הודעה לפי סעיף קטן (א), יאתר מנהל המרכז להשתלות או מי שהוא הסמיך לכך, נתרם מתאים מתוך מאגר המידע, בהתאם להנחיות ועדת ההיגוי כאמור <ref href="#point_9">בסעיף 9(ב)(4)</ref>, וייתן אישור למרכז רפואי מורשה שיקבע, לבצע את השתלת האבר באותו נתרם.</p>
+                </content>
+              </point>
+              <point eId="point_26__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>הוראות סעיף קטן (ב) יחולו גם לגבי אבר שניטל מחוץ לישראל ושהובא לישראל בהתאם להוראות לפי <ref href="#point_6">סעיף 6</ref>, בשינויים המחויבים.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_27">
+            <heading>
+              <authorialNote placement="side">
+                <p>אבר שניתן לשמרו מחוץ לגוף האדם</p>
+              </authorialNote>
+            </heading>
+            <num>27.</num>
+            <list>
+              <point eId="point_27__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>אבר שניטל לפי <ref href="/akn/il/act/PrimaryLegislation/1953-09-04/146905">חוק האנטומיה והפתולוגיה</ref> וניתן לשמרו מחוץ לגוף האדם, שהשר קבעו בצו, יישמר בבנק אברים שהמנהל אישר את ניהולו בבית חולים, בהתאם לתנאים שקבע המנהל באישור כאמור (בסעיף זה – אבר שמור).</p>
+                </content>
+              </point>
+              <point eId="point_27__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>הוראות <ref href="#point_24">סעיפים 24 עד 26</ref> לא יחולו לעניין השתלת אברים שמורים, אלא אם כן קבע השר אחרת בתקנות לפי סעיף קטן (ג).</p>
+                </content>
+              </point>
+              <point eId="point_27__point_ג">
+                <num>(ג)</num>
+                <list>
+                  <intro>
+                    <p>השר יקבע הוראות לעניין השתלת אברים שמורים, לרבות הוראות לעניין –</p>
+                  </intro>
+                  <point eId="point_27__point_ג__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>אופן הגשת הבקשה על ידי הרופא המטפל בנתרם או על ידי הנתרם לצורך איתור אבר שמור לשם השתלתו בגופו של הנתרם;</p>
+                    </content>
+                  </point>
+                  <point eId="point_27__point_ג__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>אופן הקצאתם של אברים שמורים;</p>
+                    </content>
+                  </point>
+                  <point eId="point_27__point_ג__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>תשלום שישלם מרכז רפואי מורשה המבצע השתלה של אבר שמור למרכז הרפואי המורשה המנהל את בנק האברים שבו נשמר האבר, בעבור הוצאות שהוצאו לשם שמירתו.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+            </list>
+          </point>
+          <point eId="point_28">
+            <heading>
+              <authorialNote placement="side">
+                <p>הסכמת אדם לנטילת אבר לאחר מותו</p>
+              </authorialNote>
+            </heading>
+            <num>28.</num>
+            <list>
+              <point eId="point_28__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>המרכז להשתלות רשאי, בעצמו או באמצעות גוף שהשר הכיר בו לעניין סעיף זה, לקבל את הסכמתו של אדם, בחייו, ליטול אבר מגופו לאחר מותו, לשם השתלתו באחר, וכן לקבל את הסכמתו של אדם למתן תמורה לקרובו לפי <ref href="#point_29">סעיף 29(א)</ref>; המנהל, לאחר התייעצות עם ועדת ההיגוי, יקבע את הדרכים למתן הסכמה, לתיעודה, לבקרה על אמיתותה, וכן את פרטי ההסכמה, פרטים נוספים שנותן ההסכמה יידרש למסור ואופן החזרה מהסכמה.</p>
+                </content>
+              </point>
+              <point eId="point_28__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>לעניין קבלת הסכמה כאמור בסעיף קטן (א), יראו קטין שמלאו לו 17 שנים והוא מסוגל להביע את רצונו ולא הוכרז כפסול דין, כבעל כשרות לתת את הסכמתו, ובלבד שאם נפטר טרם הפך לבגיר, יחולו הוראות <ref href="/akn/il/act/PrimaryLegislation/1953-09-04/146905">חוק האנטומיה והפתולוגיה</ref> כאילו לא ניתנה הסכמה.</p>
+                </content>
+              </point>
+              <point eId="point_28__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>הודעה על גוף שהשר הכיר בו לפי סעיף זה תפורסם ברשומות.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_29">
+            <heading>
+              <authorialNote placement="side">
+                <p>סייג לאיסור תמורה</p>
+              </authorialNote>
+            </heading>
+            <num>29.</num>
+            <list>
+              <point eId="point_29__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>תאגיד שהשר הכיר בו לעניין סעיף זה (בחוק זה – תאגיד מוכר) רשאי לתת תמורה לאדם בחייו, או לקרובו – בין בחייו של אותו אדם ובין לאחר מותו, בעד הסכמתו של אותו אדם בחייו לנטילת אבר מגופו לאחר מותו או בעד הסכמת קרובו של אדם לנטילת אבר מגופו של אותו אדם לאחר מותו, והכל במסגרת התנאים שקבע השר להכרה בתאגיד המוכר; ואולם, לגבי סוגי תמורה מסוימים, השר רשאי להורות במסגרת תנאי ההכרה כאמור, שלא תינתן תמורה לקרוביו של אדם אלא בהסכמת אותו אדם.</p>
+                </content>
+              </point>
+              <point eId="point_29__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>הודעה על תאגיד מוכר לפי סעיף זה תפורסם ברשומות.</p>
+                </content>
+              </point>
+              <point eId="point_29__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>בסעיף זה, ”תאגיד“ – למעט תאגיד שהוקם בחוק ולמעט גוף מתוקצב כהגדרתו <ref href="/akn/il/act/PrimaryLegislation/1985-04-03/150399#point_21">בסעיף 21 לחוק יסודות התקציב</ref>.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_30">
+            <heading>
+              <authorialNote placement="side">
+                <p>מימון הוצאות קבורתו של תורם והובלת גופתו</p>
+              </authorialNote>
+            </heading>
+            <num>30.</num>
+            <content>
+              <p>המרכז להשתלות יישא בהוצאות קבורה, בישראל או מחוץ לישראל, של אדם שאבריו ניטלו לפי <ref href="/akn/il/act/PrimaryLegislation/1953-09-04/146905">חוק האנטומיה והפתולוגיה</ref>, לשם השתלה בגופו של נתרם, וכן יישא בהוצאות הסעה והטסה של גופתו, והכל אם אין גוף אחר הנושא בהוצאות כאמור על פי כל דין או הסכם, ובהתאם לכללים שיקבע המנהל בנוהלי משרד הבריאות.</p>
+            </content>
+          </point>
+        </list>
+      </chapter>
+      <chapter eId="chp_ו">
+        <num>פרק ו׳:</num>
+        <title>
+          <content>
+            <p>חובת דיווח</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_31">
+            <heading>
+              <authorialNote placement="side">
+                <p>חובת דיווח על נטילת אבר והשתלת אבר</p>
+              </authorialNote>
+            </heading>
+            <num>31.</num>
+            <list>
+              <point eId="point_31__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>מרכז רפואי מורשה שביצע נטילת אבר או השתלת אבר, ידווח למרכז להשתלות, בתום ביצוע הנטילה או ההשתלה, על פרטי נטילת האבר או השתלת האבר שביצע ותוצאותיה; מנהל המרכז להשתלות רשאי לדרוש מהמרכז הרפואי המורשה לדווח לו על פרטים נוספים הקשורים לביצוע הנטילה או ההשתלה, וכן רשאי הוא לדרוש, מאותו מרכז רפואי מורשה או ממרכזים רפואיים מורשים אחרים, כל מידע נוסף הדרוש לשם מעקב אחר מצבו הרפואי של מי שהושתל בו אבר, או של מי שניטל ממנו אבר.</p>
+                </content>
+              </point>
+              <point eId="point_31__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>השר יקבע הוראות לעניין סעיף זה, לרבות לעניין טפסים, נהלים ומועדים לדיווח.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+        </list>
+      </chapter>
+      <chapter eId="chp_ז">
+        <num>פרק ז׳:</num>
+        <title>
+          <content>
+            <p>מאגר המידע</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_32">
+            <heading>
+              <authorialNote placement="side">
+                <p>מאגר המידע</p>
+              </authorialNote>
+            </heading>
+            <num>32.</num>
+            <list>
+              <intro>
+                <p>במרכז להשתלות יוקם מאגר מידע; המאגר יכלול נתונים אלה:</p>
+              </intro>
+              <point eId="point_32__point_1">
+                <num>(1)</num>
+                <content>
+                  <p>נתוני הבקשות שהגישו נתרמים למרכז להשתלות לפי הוראות <ref href="#chp_ה">פרק ה׳</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_32__point_2">
+                <num>(2)</num>
+                <content>
+                  <p>נתונים על מי שנתנו הסכמה לפי הוראות <ref href="#point_28">סעיף 28</ref>.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_33">
+            <heading>
+              <authorialNote placement="side">
+                <p>זכות העיון</p>
+              </authorialNote>
+            </heading>
+            <num>33.</num>
+            <content>
+              <p>לשם ביצוע תפקידיהם לפי חוק זה, רשאים המנהל, מנהל המרכז להשתלות, חברי ועדת ההיגוי שמונתה לפי הוראות <ref href="#point_9">סעיף 9</ref>, הרופא האחראי וכן עובד המרכז להשתלות שמנהל המרכז להשתלות הסמיך לכך, לעיין בנתונים הכלולים במאגר המידע.</p>
+            </content>
+          </point>
+        </list>
+      </chapter>
+      <chapter eId="chp_ח">
+        <num>פרק ח׳:</num>
+        <title>
+          <content>
+            <p>הוראות שונות</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_34">
+            <heading>
+              <authorialNote placement="side">
+                <p>חזרה מהסכמה</p>
+              </authorialNote>
+            </heading>
+            <num>34.</num>
+            <content>
+              <p>תורם רשאי לחזור בו מהסכמתו לתרומת אבר בכל עת לפני ביצוע נטילת האבר, והוא לא יישא באחריות אזרחית או פלילית בשל חזרתו כאמור.</p>
+            </content>
+          </point>
+          <point eId="point_35">
+            <heading>
+              <authorialNote placement="side">
+                <p>שמירת סודיות</p>
+              </authorialNote>
+            </heading>
+            <num>35.</num>
+            <content>
+              <p>אדם שהגיע אליו מידע לפי הוראות חוק זה תוך כדי מילוי תפקידו או במהלך עבודתו, ישמרנו בסוד ולא יגלה אותו לאחר אלא במידה הנדרשת לצורך ביצוע הוראות חוק זה, ובכפוף להוראות כל דין, לרבות <ref href="/akn/il/act/PrimaryLegislation/1996-05-12/174478">חוק זכויות החולה</ref>.</p>
+            </content>
+          </point>
+          <point eId="point_36">
+            <heading>
+              <authorialNote placement="side">
+                <p>עונשין</p>
+              </authorialNote>
+            </heading>
+            <num>36.</num>
+            <list>
+              <point eId="point_36__point_א">
+                <num>(א)</num>
+                <list>
+                  <intro>
+                    <p>העושה אחד מאלה, דינו – מאסר שלוש שנים או הקנס הקבוע <ref href="/akn/il/act/PrimaryLegislation/1977-08-04/2002251#point_61">בסעיף 61(א)(4) לחוק העונשין, התשל"ז–1977</ref> (בסעיף זה – חוק העונשין):</p>
+                  </intro>
+                  <point eId="point_36__point_א__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>מקבל תמורה בעבור אבר שניטל מגופו של אדם אחר שאינו קרובו מדרגה ראשונה, בחייו, או המיועד לנטילה כאמור, בניגוד להוראות <ref href="#point_3">סעיף 3</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_36__point_א__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>נותן תמורה בעבור אבר שהושתל בגופו של אדם אחר שאינו קרובו מדרגה ראשונה, או המיועד להשתלה כאמור, ושניטל מאדם בחייו, בניגוד להוראות <ref href="#point_3">סעיף 3</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_36__point_א__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>מתווך בין תורם לנתרם, במישרין או בעקיפין, לשם נטילת אבר אסורה או השתלת אבר אסורה או מקבל תמורה בעד תיווך בנסיבות אלה, בניגוד להוראות <ref href="#point_4">סעיף 4</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_36__point_א__point_4">
+                    <num>(4)</num>
+                    <content>
+                      <p>מבצע נטילת אבר או השתלת אבר בלי שקיבל אישור מאת מנהל המרכז להשתלות או מי שהוא הסמיך לכך, לפי הוראות <ref href="#point_17">סעיף 17(ד) או (ה)</ref>, <ref href="#point_26">או 26(ב)</ref>, לפי העניין;</p>
+                    </content>
+                  </point>
+                  <point eId="point_36__point_א__point_5">
+                    <num>(5)</num>
+                    <content>
+                      <p>נוטל אבר מגופו של קטין או אדם שמונה לו אפוטרופוס, בניגוד להוראות <ref href="#point_20">סעיף 20</ref>.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_36__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>הוראות סעיף קטן (א)(1) עד (3) יחולו בין אם נטילת האבר או השתלת האבר מיועדות להתבצע בישראל ובין אם מחוץ לישראל.</p>
+                </content>
+              </point>
+              <point eId="point_36__point_ג">
+                <num>(ג)</num>
+                <list>
+                  <intro>
+                    <p>העושה אחד מאלה, דינו – מאסר שישה חודשים או הקנס הקבוע <ref href="/akn/il/act/PrimaryLegislation/1977-08-04/2002251#point_61">בסעיף 61(א)(3) לחוק העונשין</ref>:</p>
+                  </intro>
+                  <point eId="point_36__point_ג__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>מביא אבר לישראל או מוציא אבר מישראל, בניגוד להוראות לפי <ref href="#point_6">סעיף 6</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_36__point_ג__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>נותן תמורה בעד הסכמתו של אדם לנטילת אבר מגופו לאחר מותו, בניגוד להוראות לפי <ref href="#point_29">סעיף 29</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_36__point_ג__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>מממן הוצאות קבורה של תורם או הוצאות הסעה והטסה של גופתו, בניגוד להוראות לפי <ref href="#point_30">סעיף 30</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_36__point_ג__point_4">
+                    <num>(4)</num>
+                    <content>
+                      <p>מגלה מידע שהגיע אליו לפי הוראות חוק זה, בניגוד להוראות <ref href="#point_35">סעיף 35</ref>.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+            </list>
+          </point>
+          <point eId="point_37">
+            <heading>
+              <authorialNote placement="side">
+                <p>תחולה על המדינה</p>
+              </authorialNote>
+            </heading>
+            <num>37.</num>
+            <content>
+              <p>חוק זה יחול גם על המדינה.</p>
+            </content>
+          </point>
+          <point eId="point_38">
+            <heading>
+              <authorialNote placement="side">
+                <p>ביצוע ותקנות</p>
+              </authorialNote>
+            </heading>
+            <num>38.</num>
+            <content>
+              <p>השר ממונה על ביצוע חוק זה.</p>
+            </content>
+          </point>
+          <point eId="point_39">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>39.</num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryLegislation/1940-12-20/2001729">בפקודת בריאות העם, 1940</ref>.</wikicomment>
+              </p>
+            </content>
+          </point>
+          <point eId="point_40">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>40.</num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryLegislation/1994-06-26/157723">בחוק ביטוח בריאות ממלכתי, התשנ"ד–1994</ref>.</wikicomment>
+              </p>
+            </content>
+          </point>
+          <point eId="point_41">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>41.</num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryLegislation/2000-06-11/169660">בחוק בתי משפט לעניינים מינהליים, התש"ס–2000</ref>.</wikicomment>
+              </p>
+            </content>
+          </point>
+          <point eId="point_42">
+            <heading>
+              <authorialNote placement="side">
+                <p>תחילה</p>
+              </authorialNote>
+            </heading>
+            <num>42.</num>
+            <content>
+              <p>תחילתו של חוק זה ביום כ"ו בניסן התשס"ח (1 במאי 2008) (להלן – יום התחילה).</p>
+            </content>
+          </point>
+          <point eId="point_43">
+            <heading>
+              <authorialNote placement="side">
+                <p>הוראת מעבר</p>
+              </authorialNote>
+            </heading>
+            <num>43.</num>
+            <content>
+              <p>מי שערב יום התחילה, נתן הסכמה, בחייו, לנטילת אבר לאחר מותו, שפרטיה מתועדים במאגר שמנהל משרד הבריאות לצורך זה, יראו את הסכמתו כאילו ניתנה לפי הוראות חוק זה.</p>
+            </content>
+          </point>
+        </list>
+      </chapter>
+    </body>
+    <conclusions eId="eId">
+      <p class="signatures">
+        <signature>
+          <p>
+            <person refersTo="אהוד_אולמרט">אהוד אולמרט</person>
+            <role refersTo="ראש_הממשלה">ראש הממשלה</role>
+          </p>
+        </signature>
+        <signature>
+          <p>
+            <person refersTo="יעקב_בן־יזרי">יעקב בן־יזרי</person>
+            <role refersTo="שר_הבריאות">שר הבריאות</role>
+          </p>
+        </signature>
+        <signature>
+          <p>
+            <person refersTo="שמעון_פרס">שמעון פרס</person>
+            <role refersTo="נשיא_המדינה">נשיא המדינה</role>
+          </p>
+        </signature>
+        <signature>
+          <p>
+            <person refersTo="דליה_איציק">דליה איציק</person>
+            <role refersTo="יושבת_ראש_הכנסת">יושבת ראש הכנסת</role>
+          </p>
+        </signature>
+      </p>
+    </conclusions>
+  </act>
+</akomaNtoso>

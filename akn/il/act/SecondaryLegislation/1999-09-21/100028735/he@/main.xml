@@ -1,0 +1,859 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion" name="publicLaw">
+    <meta>
+      <identification source="#kensset">
+        <FRBRWork>
+          <FRBRthis value="/akn/il/act/SecondaryLegislation/1999-09-21/100028735/main" />
+          <FRBRuri value="/akn/il/act/SecondaryLegislation/1999-09-21/100028735" />
+          <FRBRdate date="1999-09-21" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRcountry value="israel" />
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/il/act/SecondaryLegislation/1999-09-21/100028735/he@/main" />
+          <FRBRuri value="/akn/il/act/SecondaryLegislation/1999-09-21/100028735/he@" />
+          <FRBRdate date="1999-09-21" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRlanguage language="hebrew" />
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/il/act/SecondaryLegislation/1999-09-21/100028735/he@/main.xml" />
+          <FRBRuri value="/akn/il/act/SecondaryLegislation/1999-09-21/100028735/he@" />
+          <FRBRdate date="1999-09-21" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRformat value="xml" />
+        </FRBRManifestation>
+      </identification>
+      <classification source="#kensset">
+        <keyword value="{classificationValue}" showAs="{classificationValue}" dictionary="#classification_dictionary" />
+      </classification>
+      <lifecycle source="#kensset">
+        <eventRef eId="eventRef_1" date="1999-09-21" source="#kensset" type="generation" />
+      </lifecycle>
+      <references source="#kensset">
+        <TLCOrganization eId="kensset" href="/ontology/organization/akn/knesset" showAs="Kensset" type="generation" />
+        <TLCRole eId="author" href="/ontology/role/akn/author" showAs="Author of Document" />
+        <TLCProcess eId="inforce" href="/ontology/process/akn/inforce" showAs="In force" />
+        <TLCTerm eId="term_1" href="/ontology/term/המועצה/100028735" showAs="המועצה" />
+        <TLCTerm eId="term_2" href="/ontology/term/הפנקס/100028735" showAs="הפנקס" />
+        <TLCTerm eId="term_3" href="/ontology/term/השר/100028735" showAs="השר" />
+        <TLCPerson eId="אליהו_ישי" href="/ontology/person/אליהו_ישי" showAs="אליהו ישי" />
+        <TLCRole eId="שר_העבודה_והרווחה" href="ontology/role/akn/שר_העבודה_והרווחה" showAs="שר העבודה והרווחה" />
+      </references>
+      <temporalData source="#kensset">
+        <temporalGroup eId="tmpg_1" />
+      </temporalData>
+      <Publication></Publication>
+      <proprietary wikiversion="11/11/2019 8:30:08 AM" />
+    </meta>
+    <body period="#tmpg_1">
+      <title eId="title">
+        <content>
+          <p>תקנות המהנדסים והאדריכלים (סדרי דין בדיון לפני ועדת אתיקה), התש"ס–1999</p>
+        </content>
+      </title>
+      <preamble eId="eId">
+        <p>בתוקף סמכותי לפי <ref href="/akn/il/act/PrimaryLegislation/1958-04-03/147544#point_16">סעיפים 16</ref><ref href="/akn/il/act/PrimaryLegislation/1958-04-03/147544#point_23">ו־23</ref><ref href="/akn/il/act/PrimaryLegislation/1958-04-03/147544">לחוק המהנדסים והאדריכלים, התשי"ח–1958</ref> (להלן – החוק), ולאחר התייעצות עם שר המשפטים, אני מתקין תקנות אלה:</p>
+      </preamble>
+      <list>
+        <point eId="point_1" class="definitions">
+          <heading>
+            <authorialNote placement="side">
+              <p>הגדרות</p>
+            </authorialNote>
+          </heading>
+          <num>1.</num>
+          <list>
+            <intro>
+              <p>בתקנות אלה –</p>
+            </intro>
+            <point eId="point_1__point_המועצה">
+              <content>
+                <p>
+                  <def />”המועצה“ – כהגדרתה <ref href="/akn/il/act/PrimaryLegislation/1958-04-03/147544">בחוק</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_הפנקס">
+              <content>
+                <p>
+                  <def />”הפנקס“ – פנקס המהנדסים והאדריכלים כהגדרתו <ref href="/akn/il/act/PrimaryLegislation/1958-04-03/147544">בחוק</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_השר">
+              <content>
+                <p>
+                  <def />”השר“ – שר העבודה והרווחה.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_2">
+          <heading>
+            <authorialNote placement="side">
+              <p>קובל וועדת תלונות</p>
+            </authorialNote>
+          </heading>
+          <num>2.</num>
+          <list>
+            <point eId="point_2__point_א">
+              <num>(א)</num>
+              <content>
+                <p>תלונה נגד מי שרשום בפנקס (להלן – נאשם) תובא בפני עורך דין עובד משרד העבודה והרווחה, שהיועץ המשפטי של אותו משרד הסמיכו, או בפני עורך דין אחר שהיועץ המשפטי הסמיכו לענין מסוים (להלן – קובל).</p>
+              </content>
+            </point>
+            <point eId="point_2__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>הקובל יברר את התלונה ויחליט לפי תוצאות הבירור אם יש מקום כי יגיש נגד הנאשם קובלנה לועדת אתיקה כמשמעותה <ref href="#point_5">בתקנה 5</ref>, הכל כמפורט בתקנות אלה.</p>
+              </content>
+            </point>
+            <point eId="point_2__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>השר, לאחר התייעצות עם המועצה, רשאי למנות ועדת תלונות בת חמישה חברים, אדריכלים ומהנדסים, הרשומים בפנקס, שתסייע לקובל בענינים המקצועיים הכרוכים בתלונה.</p>
+              </content>
+            </point>
+            <point eId="point_2__point_ד">
+              <num>(ד)</num>
+              <content>
+                <p>הוראות <ref href="/akn/il/act/PrimaryLegislation/1958-04-03/147544#point_18">סעיף 18 לחוק</ref> יחולו בנסיבות האמורות <ref href="/akn/il/act/PrimaryLegislation/1958-04-03/147544#point_18">באותו סעיף</ref> ובשינויים המחויבים לענין קובל וועדת תלונות.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_3">
+          <heading>
+            <authorialNote placement="side">
+              <p>תגובת נאשם</p>
+            </authorialNote>
+          </heading>
+          <num>3.</num>
+          <list>
+            <point eId="point_3__point_א">
+              <num>(א)</num>
+              <content>
+                <p>ראה הקובל כי יש לכאורה ממש בתלונה, ימציא לנאשם העתק מהתלונה, וייתן לו הזדמנות להשיב עליה בכתב.</p>
+              </content>
+            </point>
+            <point eId="point_3__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>הומצא לנאשם העתק תלונה כאמור בתקנת משנה (א), רשאי הוא להשיב עליה בתוך 14 ימים מיום שהומצאה לו או בתוך תקופה ארוכה ממנה שקבע הקובל; משעברה תקופה זו רשאי הקובל להגיש קובלנה לועדת אתיקה אף אם לא השיב הנאשם על התלונה.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_4">
+          <heading>
+            <authorialNote placement="side">
+              <p>פרטים נוספים</p>
+            </authorialNote>
+          </heading>
+          <num>4.</num>
+          <content>
+            <p>קובל רשאי, במועדים שיקבע, לדרוש מהמתלונן או מהנאשם פרטים נוספים לתלונה או לתשובה, לפי הענין, אם ראה צורך בדבר להבהרת ענין המתעורר בהן, וכן רשאי הוא לדרוש מהמתלונן או מהנאשם ראיות לאימות פרטי התלונה או התשובה.</p>
+          </content>
+        </point>
+        <point eId="point_5">
+          <heading>
+            <authorialNote placement="side">
+              <p>הגשת קובלנה</p>
+            </authorialNote>
+          </heading>
+          <num>5.</num>
+          <content>
+            <p>ראה הקובל כי יש מקום להגיש קובלנה נגד הנאשם על פי התלונה, יגישה לועדת אתיקה, שמינתה המועצה על פי <ref href="/akn/il/act/PrimaryLegislation/1958-04-03/147544#point_16">סעיף 16(א) לחוק</ref>, בת שלושה חברים ומורכבת רובה מהנדסים או אדריכלים מאותו ענף ההנדסה או האדריכלות אשר רשום בו הנאשם כאמור <ref href="/akn/il/act/PrimaryLegislation/1958-04-03/147544#point_16">בסעיף 16(ב) לחוק</ref> (להלן – ועדת אתיקה).</p>
+          </content>
+        </point>
+        <point eId="point_6">
+          <heading>
+            <authorialNote placement="side">
+              <p>אי־הגשת קובלנה</p>
+            </authorialNote>
+          </heading>
+          <num>6.</num>
+          <list>
+            <point eId="point_6__point_א">
+              <num>(א)</num>
+              <content>
+                <p>ראה הקובל כי אין לכאורה ממש בתלונה או כי אין מקום להגיש קובלנה, לא יינקטו הליכים על פי תקנות אלה אלא אם כן הורתה ועדת אתיקה על נקיטת הליכים כאמור בתוך 14 ימים מיום שהובאה בפניה החלטת הקובל.</p>
+              </content>
+            </point>
+            <point eId="point_6__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>החלטת הקובל תובא בפני ועדת אתיקה בתוך 7 ימים ממועד נתינתה.</p>
+              </content>
+            </point>
+            <point eId="point_6__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>נמצא כי אין לכאורה ממש בתלונה או כי אין מקום להגיש קובלנה, ימציא הקובל הודעה מנומקת על כך למתלונן ולנאשם.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_7">
+          <heading>
+            <authorialNote placement="side">
+              <p>קובלנה במספר עותקים</p>
+            </authorialNote>
+          </heading>
+          <num>7.</num>
+          <content>
+            <p>קובלנה תוגש לועדת אתיקה בארבעה עותקים ובמספר עותקים נוספים כמספר הנאשמים בה.</p>
+          </content>
+        </point>
+        <point eId="point_8">
+          <heading>
+            <authorialNote placement="side">
+              <p>המצאה לנאשם</p>
+            </authorialNote>
+          </heading>
+          <num>8.</num>
+          <content>
+            <p>עותק מהקובלנה יומצא לנאשם בהקדם האפשרי ולא יאוחר מחמישה עשר ימים לפני תחילת הדיון.</p>
+          </content>
+        </point>
+        <point eId="point_9">
+          <heading>
+            <authorialNote placement="side">
+              <p>עריכת קובלנה</p>
+            </authorialNote>
+          </heading>
+          <num>9.</num>
+          <list>
+            <point eId="point_9__point_א">
+              <num>(א)</num>
+              <list>
+                <intro>
+                  <p>קובלנה תיערך בכתב ותכיל פרטים אלה:</p>
+                </intro>
+                <point eId="point_9__point_א__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>שם הנאשם, מקום עבודתו, מענו, המדור בפנקס שבו הוא רשום ומספר רישומו בפנקס;</p>
+                  </content>
+                </point>
+                <point eId="point_9__point_א__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>שם המתלונן, מקום עבודתו ומענו;</p>
+                  </content>
+                </point>
+                <point eId="point_9__point_א__point_3">
+                  <num>(3)</num>
+                  <content>
+                    <p>העובדות המשמשות בסיס לקובלנה;</p>
+                  </content>
+                </point>
+                <point eId="point_9__point_א__point_4">
+                  <num>(4)</num>
+                  <content>
+                    <p>פירוט העבירות המיוחסות לנאשם;</p>
+                  </content>
+                </point>
+                <point eId="point_9__point_א__point_5">
+                  <num>(5)</num>
+                  <content>
+                    <p>ציון שמות העדים וראיות אחרות – אם ישנן.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_9__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>לקובלנה יצורפו התלונה, תשובת הנאשם ופרטים נוספים אם היו.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_10">
+          <heading>
+            <authorialNote placement="side">
+              <p>זכות עיון</p>
+            </authorialNote>
+          </heading>
+          <num>10.</num>
+          <list>
+            <point eId="point_10__point_א">
+              <num>(א)</num>
+              <content>
+                <p>הוגשה קובלנה, רשאי הנאשם לעיין, בכל זמן סביר, בחומר הבירור שנאסף בידי הקובל והנוגע לקובלנה נגדו.</p>
+              </content>
+            </point>
+            <point eId="point_10__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>אין בהוראות תקנה זו כדי לפגוע בהוראות <ref href="/akn/il/act/PrimaryLegislation/1971-04-28/2002283#chp_ג">פרק ג׳ לפקודת הראיות [נוסח חדש], התשל"א–1971</ref>, ואין בהן כדי לאפשר עיון בחומר כאמור בתקנת משנה (א), שאי־גילויו מותר או שגילויו אסור לפי כל דין.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_11">
+          <heading>
+            <authorialNote placement="side">
+              <p>צירוף אישומים</p>
+            </authorialNote>
+          </heading>
+          <num>11.</num>
+          <content>
+            <p>מותר לצרף בקובלנה אחת תלונות אחדות המתייחסות לאותו נאשם, אם הן מבוססות על אותן עובדות או על עובדות דומות או על סדרת מעשים הקשורים זה לזה באופן שהם מהווים מאורע אחד.</p>
+          </content>
+        </point>
+        <point eId="point_12">
+          <heading>
+            <authorialNote placement="side">
+              <p>צירוף נאשמים</p>
+            </authorialNote>
+          </heading>
+          <num>12.</num>
+          <content>
+            <p>מותר להאשים בקובלנה אחת כמה נאשמים מאותו ענף ההנדסה או האדריכלות, אם כל אחד מהם היה צד לאחת מהעבירות שבקובלנה או אם האישום הוא בשל סדרת מעשים המיוחסים לנאשמים והקשורים זה לזה באופן שהם מהווים מאורע אחד.</p>
+          </content>
+        </point>
+        <point eId="point_13">
+          <heading>
+            <authorialNote placement="side">
+              <p>הפרדת הדיון</p>
+            </authorialNote>
+          </heading>
+          <num>13.</num>
+          <list>
+            <point eId="point_13__point_א">
+              <num>(א)</num>
+              <content>
+                <p>ועדת אתיקה רשאית, בכל שלב שלפני מתן פסק הדין, לצוות על הפרדת הדיון באישום פלוני שנכלל בקובלנה או על הפרדת דיונו של נאשם פלוני שהואשם עם אחרים.</p>
+              </content>
+            </point>
+            <point eId="point_13__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>הופרד הדיון, תוגש קובלנה נפרדת בשל אישום שהדיון בו הופרד או נגד נאשם שדיונו הופרד.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_14">
+          <heading>
+            <authorialNote placement="side">
+              <p>חזרה מקובלנה או תיקונה</p>
+            </authorialNote>
+          </heading>
+          <num>14.</num>
+          <list>
+            <point eId="point_14__point_א">
+              <num>(א)</num>
+              <content>
+                <p>הקובל, ברשות ועדת אתיקה, רשאי לחזור בו מהקובלנה, כולה או מקצתה, או לתקנה.</p>
+              </content>
+            </point>
+            <point eId="point_14__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>חזר בו הקובל מהקובלנה כאמור בתקנת משנה (א), תזכה ועדת אתיקה את הנאשם מן הקובלנה, כולה או מקצתה, לפי הענין.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_15">
+          <heading>
+            <authorialNote placement="side">
+              <p>הודעה לנאשם על תיקון קובלנה או חזרה ממנה</p>
+            </authorialNote>
+          </heading>
+          <num>15.</num>
+          <content>
+            <p>הודעה על חזרה מהקובלנה או על תיקון הקובלנה תומצא לנאשם.</p>
+          </content>
+        </point>
+        <point eId="point_16">
+          <heading>
+            <authorialNote placement="side">
+              <p>הזמנה לדיון</p>
+            </authorialNote>
+          </heading>
+          <num>16.</num>
+          <content>
+            <p>יושב ראש ועדת אתיקה יקבע את מועד הדיון; הקובל והנאשם יוזמנו בכתב לדיון באותו מועד; ואולם אם נקבעה ישיבה נדחית בנוכחות הקובל, הנאשם או בא כוחו, לא תהא חובה להזמינם כאמור.</p>
+          </content>
+        </point>
+        <point eId="point_17">
+          <heading>
+            <authorialNote placement="side">
+              <p>הזמנת עדים</p>
+            </authorialNote>
+          </heading>
+          <num>17.</num>
+          <list>
+            <point eId="point_17__point_א">
+              <num>(א)</num>
+              <content>
+                <p>יושב ראש ועדת אתיקה יזמין לדיון את העדים אשר ועדת אתיקה תראה לנכון להזמינם לשם מסירת מידע או לשם הגשת מסמכים שברשותם, בין על פי בקשת הקובל או הנאשם, ובין מיוזמתה.</p>
+              </content>
+            </point>
+            <point eId="point_17__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>הזמנת עד תהיה בהמצאת הזמנה בכתב לעד או בהודעה בעל פה לעד על ידי ועדת אתיקה בשעת דיון.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_18">
+          <heading>
+            <authorialNote placement="side">
+              <p>צורת הזמנה ותוכנה</p>
+            </authorialNote>
+          </heading>
+          <num>18.</num>
+          <list>
+            <intro>
+              <p>הזמנת עד בכתב תהיה חתומה ביד מי שמינה לכך יושב ראש ועדת אתיקה ותכיל פרטים אלה:</p>
+            </intro>
+            <point eId="point_18__point_1">
+              <num>(1)</num>
+              <content>
+                <p>שם הקובל;</p>
+              </content>
+            </point>
+            <point eId="point_18__point_2">
+              <num>(2)</num>
+              <content>
+                <p>שם הנאשם;</p>
+              </content>
+            </point>
+            <point eId="point_18__point_3">
+              <num>(3)</num>
+              <content>
+                <p>המקום והמועד שבהם יש להתייצב או להגיש את המסמכים שיפורטו בהזמנה.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_19">
+          <heading>
+            <authorialNote placement="side">
+              <p>ניהול הדיון</p>
+            </authorialNote>
+          </heading>
+          <num>19.</num>
+          <content>
+            <p>יושב ראש ועדת אתיקה ינהל את הדיון.</p>
+          </content>
+        </point>
+        <point eId="point_20">
+          <heading>
+            <authorialNote placement="side">
+              <p>פרוטוקול</p>
+            </authorialNote>
+          </heading>
+          <num>20.</num>
+          <list>
+            <point eId="point_20__point_א">
+              <num>(א)</num>
+              <content>
+                <p>יושב ראש ועדת אתיקה ינהל פרוטוקול של הדיון, אולם רשאי הוא להורות שהפרוטוקול יירשם בידי אחר או שינוהל בדרך אחרת.</p>
+              </content>
+            </point>
+            <point eId="point_20__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>התלונה וכל המסמכים שהוגשו לועדת אתיקה בנוגע לאותו דיון יתויקו בתיק הדיון.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_21">
+          <heading>
+            <authorialNote placement="side">
+              <p>נוכחות נאשם וקובל</p>
+            </authorialNote>
+          </heading>
+          <num>21.</num>
+          <list>
+            <point eId="point_21__point_א">
+              <num>(א)</num>
+              <list>
+                <intro>
+                  <p>הדיון בבירור האשמה יתנהל בנוכחות הקובל והנאשם, אך רשאית ועדת אתיקה לנהל דיון שלא בנוכחות הנאשם באחד מאלה:</p>
+                </intro>
+                <point eId="point_21__point_א__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>הנאשם ביקש שהדיון יתנהל שלא בפניו והוא מיוצג על ידי בא כוח;</p>
+                  </content>
+                </point>
+                <point eId="point_21__point_א__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>הנאשם נעדר מהישיבה בלי סיבה מספקת, לאחר שהוזהר שאם ייעדר בלי סיבה מספקת תהיה ועדת אתיקה רשאית לדון בענינו שלא בפניו.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_21__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>הוזמן הקובל לדיון ולא התייצב, רשאית ועדת אתיקה לדחות את מועד הדיון או אם לא ראתה לנכון לדחותו – לזכות את הנאשם.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_22">
+          <heading>
+            <authorialNote placement="side">
+              <p>העדר אפשרות להשתתף בדיון או לסיימו</p>
+            </authorialNote>
+          </heading>
+          <num>22.</num>
+          <list>
+            <point eId="point_22__point_א">
+              <num>(א)</num>
+              <content>
+                <p>נבצר מחבר ועדת אתיקה להשתתף בדיון או לסיים את הדיון, רשאית ועדת אתיקה לקיים את הדיון או לסיימו בהשתתפות ממלא מקום אותו חבר.</p>
+              </content>
+            </point>
+            <point eId="point_22__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>בנסיבות האמורות בתקנת משנה (א), רשאית ועדת אתיקה להמשיך בדיון מן השלב שאליו הגיעה בהרכבה הקודם, אם סברה, לאחר שנתנה לבעלי הדין הזדמנות לטעון את טענותיהם, שלא ייגרם עיוות דין; החליטה ועדת אתיקה להמשיך בדיון רשאית היא לנהוג בראיות שגבתה בהרכבה הקודם כאילו היא גבתה אותן או לחזור ולגבותן, כולן או חלקן.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_23">
+          <heading>
+            <authorialNote placement="side">
+              <p>פסילת חבר ועדת אתיקה</p>
+            </authorialNote>
+          </heading>
+          <num>23.</num>
+          <list>
+            <point eId="point_23__point_א">
+              <num>(א)</num>
+              <content>
+                <p>קובל או נאשם רשאים לבקש שחבר ועדת אתיקה יפסול את עצמו מלישב בדין אם קיימות נסיבות שיש בהן כדי ליצור חשש ממשי למשוא פנים בבירור הקובלנה.</p>
+              </content>
+            </point>
+            <point eId="point_23__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>לא תישמע בקשה כאמור בתקנת משנה (א) אלא בתחילת הדיון או מיד לאחר שנודעו לקובל או לנאשם הנסיבות שיש בהן כדי ליצור חשש ממשי כאמור.</p>
+              </content>
+            </point>
+            <point eId="point_23__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>נטענה טענת פסלות נגד חבר ועדת אתיקה, תחליט בה ועדת אתיקה לאלתר ולפני שתיתן כל החלטה אחרת.</p>
+              </content>
+            </point>
+            <point eId="point_23__point_ד">
+              <num>(ד)</num>
+              <content>
+                <p>נמנע מחבר ועדת אתיקה לפי תקנה זו להשתתף בדיון או לסיים את הדיון יחולו הוראות <ref href="#point_22">תקנה 22</ref>.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_24">
+          <heading>
+            <authorialNote placement="side">
+              <p>תשובת הנאשם לקובלנה</p>
+            </authorialNote>
+          </heading>
+          <num>24.</num>
+          <list>
+            <point eId="point_24__point_א">
+              <num>(א)</num>
+              <content>
+                <p>בתחילת הדיון יזהה יושב ראש ועדת אתיקה את הנאשם, יקרא לפניו את הקובלנה וישאל אותו מה תשובתו לקובלנה.</p>
+              </content>
+            </point>
+            <point eId="point_24__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>הנאשם רשאי להודות בעובדות הנטענות בכתב הקובלנה, כולן או מקצתן, או לכפור בהן וכן לטעון עובדות נוספות, בין אם הודה כאמור ובין אם לאו.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_25">
+          <heading>
+            <authorialNote placement="side">
+              <p>ראיות מטעם הקובל והנאשם</p>
+            </authorialNote>
+          </heading>
+          <num>25.</num>
+          <content>
+            <p>כפר הנאשם בפני ועדת אתיקה בעובדות הנטענות בקובלנה, כולן או מקצתן, או טען עובדות נוספות, רשאים הקובל ואחריו הנאשם להביא עדים מטעמם ולהגיש ראיות אחרות.</p>
+          </content>
+        </point>
+        <point eId="point_26">
+          <heading>
+            <authorialNote placement="side">
+              <p>ראיות מטעם ועדת אתיקה וראיות נוספות</p>
+            </authorialNote>
+          </heading>
+          <num>26.</num>
+          <content>
+            <p>סיימו הקובל והנאשם הבאת ראיותיהם, רשאית ועדת אתיקה להזמין עד מטעמה, אפילו כבר נשמעה עדותו, ולהורות על הגשת כל ראיה אחרת, ורשאית היא להרשות לקובל ולנאשם, על פי בקשתם, להביא ראיות נוספות, והכל אם ראתה צורך בכך.</p>
+          </content>
+        </point>
+        <point eId="point_27">
+          <heading>
+            <authorialNote placement="side">
+              <p>סדר חקירת עדים והגשת ראיות אחרות</p>
+            </authorialNote>
+          </heading>
+          <num>27.</num>
+          <content>
+            <p>סדר חקירת העדים והגשת ראיות אחרות יהיה, ככל האפשר, כסדר הנהוג במשפט פלילי.</p>
+          </content>
+        </point>
+        <point eId="point_28">
+          <heading>
+            <authorialNote placement="side">
+              <p>סיכומים</p>
+            </authorialNote>
+          </heading>
+          <num>28.</num>
+          <list>
+            <point eId="point_28__point_א">
+              <num>(א)</num>
+              <content>
+                <p>בתום הבאת הראיות או אם לא הובאו ראיות עקב הודאת הנאשם בעובדות או מטעם אחר, רשאים הקובל ואחריו הנאשם להשמיע את סיכומיהם לענין האשמה.</p>
+              </content>
+            </point>
+            <point eId="point_28__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>בהסכמת הקובל והנאשם רשאית ועדת אתיקה להרשות שהסיכומים, כולם או מקצתם, יוגשו לה בכתב, במועדים שתקבע.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_29">
+          <heading>
+            <authorialNote placement="side">
+              <p>הכרעת הדין</p>
+            </authorialNote>
+          </heading>
+          <num>29.</num>
+          <content>
+            <p>לאחר בירור האשמה ולא יאוחר מ־60 ימים מיום סיום הדיון, ואם נסתיים הדיון בסיכומים בכתב – מיום קבלת סיכומי הקובל והנאשם, תכריע ועדת אתיקה את דינו של הנאשם לזיכוי או להרשעה; הכרעת הדין תהיה בכתב, תנומק, תיחתם בידי חברי ועדת אתיקה ותיקרא בפני הנאשם והקובל או שיומצא להם העתק ממנה, כפי שתקבע ועדת אתיקה.</p>
+          </content>
+        </point>
+        <point eId="point_30">
+          <heading>
+            <authorialNote placement="side">
+              <p>הרשעה בעבירות אחדות</p>
+            </authorialNote>
+          </heading>
+          <num>30.</num>
+          <content>
+            <p>ועדת אתיקה רשאית להרשיע נאשם בשל כל אחת מן העבירות שנתגלו מן העובדות שהוכחו בפניה אך לא תטיל עליו אלא עונש אחד בשל אותו מעשה.</p>
+          </content>
+        </point>
+        <point eId="point_31">
+          <heading>
+            <authorialNote placement="side">
+              <p>טענות וראיות לעונש</p>
+            </authorialNote>
+          </heading>
+          <num>31.</num>
+          <content>
+            <p>הרשיעה ועדת אתיקה את הנאשם, רשאים הקובל ואחריו הנאשם לטעון את טענותיהם ולהביא את ראיותיהם לענין העונש.</p>
+          </content>
+        </point>
+        <point eId="point_32">
+          <heading>
+            <authorialNote placement="side">
+              <p>הטלת העונש</p>
+            </authorialNote>
+          </heading>
+          <num>32.</num>
+          <list>
+            <point eId="point_32__point_א">
+              <num>(א)</num>
+              <content>
+                <p>לאחר הטענות והראיות לענין העונש כאמור <ref href="#point_31">בתקנה 31</ref>, ולא יאוחר מ־21 ימים מיום סיום הדיון, תקבע ועדת אתיקה את החלטתה לענין העונש; ההחלטה תיחתם בידי חברי ועדת אתיקה ותיקרא בפני הקובל והנאשם או תומצא להם, כפי שתקבע ועדת אתיקה.</p>
+              </content>
+            </point>
+            <point eId="point_32__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>העתק מהכרעת דין והחלטה על עונש שהוקראו, יומצא לקובל ולנאשם.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_33">
+          <heading>
+            <authorialNote placement="side">
+              <p>חריגה מהמועד</p>
+            </authorialNote>
+          </heading>
+          <num>33.</num>
+          <content>
+            <p>הכרעת דין והחלטה לענין עונש שניתנו שלא במועדים שנקבעו בתקנות אלה, לא ייפסלו בשל כך בלבד.</p>
+          </content>
+        </point>
+        <point eId="point_34">
+          <heading>
+            <authorialNote placement="side">
+              <p>דיון בהעדר הנאשם</p>
+            </authorialNote>
+          </heading>
+          <num>34.</num>
+          <list>
+            <point eId="point_34__point_א">
+              <num>(א)</num>
+              <content>
+                <p>הסתיימו ההליכים לפי תקנות אלה, רשאית ועדת אתיקה, לבקשת נאשם, לבטל את הכרעת הדין וההחלטה על עונש, שניתנו בעקבות דיון שהתקיים בהעדרו, אם ראתה שהיתה סיבה מוצדקת לאי התייצבותו או אם ראתה שהדבר דרוש כדי למנוע עיוות דין; בקשה לפי תקנה זו תוגש בתוך שלושים ימים מהיום שהומצאה לנאשם ההחלטה על עונש ואולם רשאית ועדת אתיקה, מטעמים מיוחדים שיירשמו, לדון בבקשה שהוגשה לאחר מועד זה.</p>
+              </content>
+            </point>
+            <point eId="point_34__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>אין בהוראות תקנה זו כדי לגרוע מסמכותה של ועדת אתיקה לבטל דיון, שהתקיים בהעדר הנאשם, אף אם לא הסתיימו ההליכים לפי תקנות אלה, אם ראתה שהיתה סיבה מוצדקת לאי־התייצבותו או אם ראתה שהדבר דרוש כדי למנוע עיוות דין.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_35">
+          <heading>
+            <authorialNote placement="side">
+              <p>הודעה למתלונן</p>
+            </authorialNote>
+          </heading>
+          <num>35.</num>
+          <content>
+            <p>הקובל יודיע למתלונן על החלטות ועדת אתיקה לענין הכרעת הדין והעונש.</p>
+          </content>
+        </point>
+        <point eId="point_36">
+          <heading>
+            <authorialNote placement="side">
+              <p>המצאת מסמכים</p>
+            </authorialNote>
+          </heading>
+          <num>36.</num>
+          <list>
+            <point eId="point_36__point_א">
+              <num>(א)</num>
+              <content>
+                <p>מסמך שיש להמציאו לאדם לפי תקנות אלה, תהיה המצאתו במסירה לידיו או במשלוח מכתב בדואר רשום לפי מען מגוריו או מען עבודתו עם אישור מסירה, ובאין למצאו במקום מגוריו או במקום עבודתו – לידי בן משפחתו הגר עמו ונראה שמלאו לו שמונה עשרה שנים.</p>
+              </content>
+            </point>
+            <point eId="point_36__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>היתה ההמצאה במשלוח מכתב כאמור בתקנת משנה (א), יראו את התאריך שבאישור המסירה כתאריך ההמצאה.</p>
+              </content>
+            </point>
+            <point eId="point_36__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>מסירת מסמך לידי בא כוחו של הנאשם או מסירתו לידי פקיד במשרדו או משלוח מכתב רשום עם אישור מסירה לפי מען משרדו, יראו כהמצאה לנאשם, זולת אם הודיע בא כוחו של הנאשם לועדת אתיקה, בתוך חמישה ימים מקבלת המסמך, כי אין ביכולתו להביא את המסמך לידיעת הנאשם.</p>
+              </content>
+            </point>
+            <point eId="point_36__point_ד">
+              <num>(ד)</num>
+              <content>
+                <p>לא בוצעה המצאת מסמך לפי תקנה זו עקב סירוב לקבל את המסמך או לחתום על אישור מסירה, יראו את המסמך כאילו הומצא כדין.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_37">
+          <heading>
+            <authorialNote placement="side">
+              <p>תחליף המצאה</p>
+            </authorialNote>
+          </heading>
+          <num>37.</num>
+          <list>
+            <intro>
+              <p>ראתה ועדת אתיקה שאי אפשר להמציא את המסמך כאמור <ref href="#point_36">בתקנה 36</ref>, רשאית היא להורות על המצאתו באחת מדרכים אלה:</p>
+            </intro>
+            <point eId="point_37__point_1">
+              <num>(1)</num>
+              <content>
+                <p>בהדבקת עותק המסמך על דלת הבית שבו רגיל האדם לגור או לעבוד;</p>
+              </content>
+            </point>
+            <point eId="point_37__point_2">
+              <num>(2)</num>
+              <content>
+                <p>בפרסום מודעה בעיתון יומי;</p>
+              </content>
+            </point>
+            <point eId="point_37__point_3">
+              <num>(3)</num>
+              <content>
+                <p>בכל דרך סבירה אחרת שתיראה לה.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_38">
+          <heading>
+            <authorialNote placement="side">
+              <p>פגמים שאינם פוגמים בדיון</p>
+            </authorialNote>
+          </heading>
+          <num>38.</num>
+          <content>
+            <p>ליקוי טכני בעריכתו של מסמך לפי תקנות אלה אין בו כדי לפגום בתוקפם של ההליכים על פיו; אולם אם נראה לועדת אתיקה, כי יש בדבר חשש לעיוות דינו של הנאשם, תורה כל הוראה הדרושה כדי להסיר את החשש.</p>
+          </content>
+        </point>
+        <point eId="point_39">
+          <heading>
+            <authorialNote placement="side">
+              <p>סדרי דין באין הוראות</p>
+            </authorialNote>
+          </heading>
+          <num>39.</num>
+          <content>
+            <p>בכל ענין של סדרי דין שאין עליו הוראה <ref href="/akn/il/act/PrimaryLegislation/1958-04-03/147544">בחוק</ref>, בתקנות אלה או בחיקוק אחר, תנהג ועדת אתיקה בדרך הנראית לה טובה ביותר לעשיית צדק.</p>
+          </content>
+        </point>
+        <point eId="point_40">
+          <heading>
+            <authorialNote placement="side">
+              <p>תחילה</p>
+            </authorialNote>
+          </heading>
+          <num>40.</num>
+          <content>
+            <p>תחילתן של תקנות אלה 45 ימים מיום פרסומן.</p>
+          </content>
+        </point>
+        <point eId="point_41">
+          <heading>
+            <authorialNote placement="side">
+              <p>הוראת מעבר</p>
+            </authorialNote>
+          </heading>
+          <num>41.</num>
+          <content>
+            <p>דיון לפני ועדת אתיקה, שהוחל בו ערב תחילתן של תקנות אלה, ימשיך להתנהל כאילו לא הותקנו.</p>
+          </content>
+        </point>
+      </list>
+    </body>
+    <conclusions eId="eId">
+      <p class="signatures">
+        <signature>
+          <p>
+            <person refersTo="אליהו_ישי">אליהו ישי</person>
+            <role refersTo="שר_העבודה_והרווחה">שר העבודה והרווחה</role>
+          </p>
+        </signature>
+      </p>
+    </conclusions>
+  </act>
+</akomaNtoso>

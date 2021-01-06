@@ -1,0 +1,675 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion" name="publicLaw">
+    <meta>
+      <identification source="#kensset">
+        <FRBRWork>
+          <FRBRthis value="/akn/il/act/SecondaryLegislation/2013-01-01/100037632/main" />
+          <FRBRuri value="/akn/il/act/SecondaryLegislation/2013-01-01/100037632" />
+          <FRBRdate date="2013-01-01" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRcountry value="israel" />
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/il/act/SecondaryLegislation/2013-01-01/100037632/he@/main" />
+          <FRBRuri value="/akn/il/act/SecondaryLegislation/2013-01-01/100037632/he@" />
+          <FRBRdate date="2013-01-01" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRlanguage language="hebrew" />
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/il/act/SecondaryLegislation/2013-01-01/100037632/he@/main.xml" />
+          <FRBRuri value="/akn/il/act/SecondaryLegislation/2013-01-01/100037632/he@" />
+          <FRBRdate date="2013-01-01" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRformat value="xml" />
+        </FRBRManifestation>
+      </identification>
+      <classification source="#kensset">
+        <keyword value="{classificationValue}" showAs="{classificationValue}" dictionary="#classification_dictionary" />
+      </classification>
+      <lifecycle source="#kensset">
+        <eventRef eId="eventRef_1" date="2013-01-01" source="#kensset" type="generation" />
+      </lifecycle>
+      <references source="#kensset">
+        <TLCOrganization eId="kensset" href="/ontology/organization/akn/knesset" showAs="Kensset" type="generation" />
+        <TLCRole eId="author" href="/ontology/role/akn/author" showAs="Author of Document" />
+        <TLCProcess eId="inforce" href="/ontology/process/akn/inforce" showAs="In force" />
+        <TLCTerm eId="term_1" href="/ontology/term/ביטוח_אבדן_כושר_עבודה_קבוצתי/100037632" showAs="ביטוח_אבדן_כושר_עבודה_קבוצתי" />
+        <TLCTerm eId="term_2" href="/ontology/term/ביטוח_חיים_קבוצתי/100037632" showAs="ביטוח_חיים_קבוצתי" />
+        <TLCTerm eId="term_3" href="/ontology/term/גיל_פרישה/100037632" showAs="גיל_פרישה" />
+        <TLCTerm eId="term_4" href="/ontology/term/המדד/100037632" showAs="המדד" />
+        <TLCTerm eId="term_5" href="/ontology/term/הסדר_ביטוחי/100037632" showAs="הסדר_ביטוחי" />
+        <TLCTerm eId="term_6" href="/ontology/term/חוק_גיל_פרישה/100037632" showAs="חוק_גיל_פרישה" />
+        <TLCTerm eId="term_7" href="/ontology/term/יתרה_צבורה/100037632" showAs="יתרה_צבורה" />
+        <TLCTerm eId="term_8" href="/ontology/term/כיסוי_ביטוחי/100037632" showAs="כיסוי_ביטוחי" />
+        <TLCTerm eId="term_9" href="/ontology/term/כיסוי_ביטוחי_לאריכות_ימים/100037632" showAs="כיסוי_ביטוחי_לאריכות_ימים" />
+        <TLCTerm eId="term_10" href="/ontology/term/כיסוי_ביטוחי_לסיכוני_מוות/100037632" showAs="כיסוי_ביטוחי_לסיכוני_מוות" />
+        <TLCTerm eId="term_11" href="/ontology/term/כיסוי_ביטוחי_לסיכוני_נכות/100037632" showAs="כיסוי_ביטוחי_לסיכוני_נכות" />
+        <TLCTerm eId="term_12" href="/ontology/term/כיסוי_ביטוחי_לשחרור_מתשלום/100037632" showAs="כיסוי_ביטוחי_לשחרור_מתשלום" />
+        <TLCTerm eId="term_13" href="/ontology/term/מרכיב_תגמולים/100037632" showAs="מרכיב_תגמולים" />
+        <TLCTerm eId="term_14" href="/ontology/term/עמית_פעיל/100037632" showAs="עמית_פעיל" />
+        <TLCTerm eId="term_15" href="/ontology/term/צד_קשור/100037632" showAs="צד_קשור" />
+        <TLCTerm eId="term_16" href="/ontology/term/קופת_גמל_לקצבה/100037632" showAs="קופת_גמל_לקצבה" />
+        <TLCTerm eId="term_17" href="/ontology/term/קצבת_זקנה/100037632" showAs="קצבת_זקנה" />
+        <TLCTerm eId="term_18" href="/ontology/term/קצבת_נכות/100037632" showAs="קצבת_נכות" />
+        <TLCTerm eId="term_19" href="/ontology/term/שחרור_מתשלום/100037632" showAs="שחרור_מתשלום" />
+        <TLCTerm eId="term_20" href="/ontology/term/שיעור_ההפקדות_למרכיב_התגמולים/100037632" showAs="שיעור_ההפקדות_למרכיב_התגמולים" />
+        <TLCTerm eId="term_21" href="/ontology/term/שכר_מבוטח_בקופת_גמל/100037632" showAs="שכר_מבוטח_בקופת_גמל" />
+        <TLCTerm eId="term_22" href="/ontology/term/עמית_שהופחת_שכרו_המבוטח/100037632" showAs="עמית_שהופחת_שכרו_המבוטח" />
+        <TLCTerm eId="term_23" href="/ontology/term/פוליסה_קלאסית/100037632" showAs="פוליסה_קלאסית" />
+        <TLCPerson eId="יובל_שטייניץ" href="/ontology/person/יובל_שטייניץ" showAs="יובל שטייניץ" />
+        <TLCRole eId="שר_האוצר" href="ontology/role/akn/שר_האוצר" showAs="שר האוצר" />
+      </references>
+      <temporalData source="#kensset">
+        <temporalGroup eId="tmpg_1" />
+      </temporalData>
+      <Publication></Publication>
+      <proprietary wikiversion="9/30/2020 8:02:29 PM" />
+    </meta>
+    <body period="#tmpg_1">
+      <title eId="title">
+        <content>
+          <p>תקנות הפיקוח על שירותים פיננסיים (קופות גמל) (כיסויים ביטוחיים בקופות גמל), התשע"ג–2013</p>
+        </content>
+      </title>
+      <preamble eId="eId">
+        <p>בתוקף סמכותי לפי <ref href="/akn/il/act/PrimaryLegislation/2005-08-10/100899#point_16">סעיפים 16(ד)(6)</ref><ref href="/akn/il/act/PrimaryLegislation/2005-08-10/100899#point_60">ו־60</ref><ref href="/akn/il/act/PrimaryLegislation/2005-08-10/100899">לחוק הפיקוח על שירותים פיננסיים (קופות גמל), התשס"ה–2005</ref> (להלן – החוק), ולפי <ref href="/akn/il/act/PrimaryLegislation/1981-04-23/148363#point_112">סעיף 112</ref><ref href="/akn/il/act/PrimaryLegislation/1981-04-23/148363">לחוק הפיקוח על שירותים פיננסיים (ביטוח), התשמ"א–1981</ref>, אני מתקין תקנות אלה:
+
+<מפריד /><wikicomment font-size="x-small">בנוסח זה משולבת הוראת שעה לעניין הסדר ביטוחי הממומן מדמי ביטוח הנגבים מנכסי קופת גמל או מתשלומים לקופת גמל, שיתחילו לפני יום 31.12.2020, ולמעט שמירת כיסוי ביטוחי בהתאם <ref href="#point_4">לתקנה 4</ref> שפג תוקפו לפני יום 11.6.2020.</wikicomment></p>
+      </preamble>
+      <list>
+        <point eId="point_1" class="definitions">
+          <heading>
+            <authorialNote placement="side">
+              <p>הגדרות</p>
+            </authorialNote>
+          </heading>
+          <num>1.</num>
+          <list>
+            <intro>
+              <p>בתקנות אלה –</p>
+            </intro>
+            <point eId="point_1__point_ביטוח_אבדן_כושר_עבודה_קבוצתי">
+              <content>
+                <p>
+                  <def />”ביטוח אבדן כושר עבודה קבוצתי“ – כהגדרתו <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/תקנות_הפיקוח_על_שירותים_פיננסיים_ביטוח_ביטוח_אבדן_כושר_עבודה_קבוצתי">בתקנות הפיקוח על שירותים פיננסיים (ביטוח) (ביטוח אבדן כושר עבודה קבוצתי), התשס"ז–2006</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_ביטוח_חיים_קבוצתי">
+              <content>
+                <p>
+                  <def />”ביטוח חיים קבוצתי“ – כהגדרתו <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/תקנות_הפיקוח_על_עסקי_ביטוח_ביטוח_חיים_קבוצתי">בתקנות הפיקוח על עסקי ביטוח (ביטוח חיים קבוצתי), התשנ"ג–1993</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_גיל_פרישה">
+              <content>
+                <p>
+                  <def />”גיל פרישה“ – כפי שנקבע בהסדר הביטוחי ובלבד שלא יפחת מגיל פרישה מוקדמת, כמשמעותו <ref href="/akn/il/act/PrimaryLegislation/2004-01-18/16634">בחוק גיל פרישה</ref>, ולא יעלה על גיל פרישת חובה, כמשמעותו <ref href="/akn/il/act/PrimaryLegislation/2004-01-18/16634">בחוק האמור</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_המדד">
+              <content>
+                <p>
+                  <def />”המדד“ – מדד המחירים לצרכן שמפרסמת הלשכה המרכזית לסטטיסטיקה;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_הסדר_ביטוחי">
+              <content>
+                <p>
+                  <def />”הסדר ביטוחי“ – תקנון קופת גמל או פוליסת ביטוח, לפי העניין;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_חוק_גיל_פרישה">
+              <content>
+                <p>
+                  <def />”חוק גיל פרישה“ – <ref href="/akn/il/act/PrimaryLegislation/2004-01-18/16634">חוק גיל פרישה, התשס"ד–2004</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_יתרה_צבורה">
+              <content>
+                <p>
+                  <def />”יתרה צבורה“ במועד מסוים – הכספים שנצברו לזכותו של עמית בחשבונו בקופת הגמל עד יום חישוב רווחי הקופה שקדם לאותו מועד;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_כיסוי_ביטוחי">
+              <content>
+                <p>
+                  <def />”כיסוי ביטוחי“ – כיסוי ביטוחי מסוג כמפורט <ref href="#point_2">בתקנה 2</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_כיסוי_ביטוחי_לאריכות_ימים">
+              <content>
+                <p>
+                  <def />”כיסוי ביטוחי לאריכות ימים“ – זכאות לקבלת קצבת זקנה מקופת גמל לקצבה או ממבטח;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_כיסוי_ביטוחי_לסיכוני_מוות">
+              <content>
+                <p>
+                  <def />”כיסוי ביטוחי לסיכוני מוות“ – זכאות לקבלת קצבה או תגמולי ביטוח שלא בדרך של קצבה מקופת גמל לקצבה או ממבטח, בשל פטירת עמית ובלבד ששולמו דמי ביטוח בעד הזכאות האמורה, והכל לפי ההסדר הביטוחי;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_כיסוי_ביטוחי_לסיכוני_נכות">
+              <content>
+                <p>
+                  <def />”כיסוי ביטוחי לסיכוני נכות“ – זכאות לקבלת קצבת נכות לפי ההסדר הביטוחי;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_כיסוי_ביטוחי_לשחרור_מתשלום">
+              <content>
+                <p>
+                  <def />”כיסוי ביטוחי לשחרור מתשלום“ – זכאות לשחרור מתשלום למי שאירע לו אירוע נכות גם אם אין לו כיסוי ביטוחי לסיכוני נכות, והכל לפי ההסדר הביטוחי;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_מרכיב_תגמולים">
+              <content>
+                <p>
+                  <def />”מרכיב תגמולים“ – כהגדרתו <ref href="/akn/il/act/PrimaryLegislation/2005-08-10/100899#point_23">בסעיף 23(ה) לחוק</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_עמית_פעיל">
+              <content>
+                <p>
+                  <def />”עמית פעיל“ – עמית שמופקדים בשלו כספים לקופת הגמל לקצבה;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_צד_קשור">
+              <content>
+                <p>
+                  <def />”צד קשור“ – כהגדרת ”צדדים קשורים“ <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/תקנות_הפיקוח_על_שירותים_פיננסיים_קופות_גמל_כללי_השקעה_החלים_על_גופים_מוסדיים">בתקנות הפיקוח על שירותים פיננסיים (קופות גמל) (כללי השקעה החלים על גופים מוסדיים), התשע"ב–2012</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_קופת_גמל_לקצבה">
+              <content>
+                <p>
+                  <def />”קופת גמל לקצבה“ – למעט קרן ותיקה וקופת גמל מרכזית לקצבה;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_קצבת_זקנה">
+              <content>
+                <p>
+                  <def />”קצבת זקנה“ – קצבה המשולמת לעמית מקופת גמל לקצבה או ממבטח במשך כל ימי חייו לפי ההסדר הביטוחי, החל במועד הגיעו לגיל המזכה בקצבה לפי ההסדר הביטוחי;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_קצבת_נכות">
+              <content>
+                <p>
+                  <def />”קצבת נכות“ – תשלומים מקופת גמל לקצבה או ממבטח המשולמים לעמית מדי חודש לפי ההסדר הביטוחי, בשל מקרה שבו איבד עמית את כושרו לעבוד, כולו או חלקו, כל עוד נמשך מצב אבדן כושר העבודה או עד הגיעו לגיל פרישה, לפי המוקדם מביניהם;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_שחרור_מתשלום">
+              <content>
+                <p>
+                  <def />”שחרור מתשלום“ – הגדלת היתרה הצבורה והמשך כיסוי ביטוחי בשל מקרה שבו איבד עמית את כושרו לעבוד, כולו או חלקו, כל עוד נמשך מצב אבדן כושר העבודה או עד הגיעו לגיל פרישה, לפי המוקדם מביניהם;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_שיעור_ההפקדות_למרכיב_התגמולים">
+              <list>
+                <intro>
+                  <p>
+                    <def />”שיעור ההפקדות למרכיב התגמולים“ –</p>
+                </intro>
+                <point eId="point_1__point_שיעור_ההפקדות_למרכיב_התגמולים__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>לעניין עמית שכיר – לפי שיעור ההפקדות למרכיב התגמולים לקופת הגמל לקצבה;</p>
+                  </content>
+                </point>
+                <point eId="point_1__point_שיעור_ההפקדות_למרכיב_התגמולים__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>לעניין עמית עצמאי – לפי שיעור ההפקדות לקופת הגמל לקצבה, ובלבד שלא יפחת מ־10% ולא יעלה על 16%;</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_1__point_שכר_מבוטח_בקופת_גמל">
+              <list>
+                <intro>
+                  <p>
+                    <def />”שכר מבוטח בקופת גמל“ –</p>
+                </intro>
+                <point eId="point_1__point_שכר_מבוטח_בקופת_גמל__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>לגבי קופת גמל משלמת לקצבה או קופת ביטוח – השכר המבוטח לפי ההסדר הביטוחי;</p>
+                  </content>
+                </point>
+                <point eId="point_1__point_שכר_מבוטח_בקופת_גמל__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>לגבי קופת גמל לא משלמת לקצבה שאינה קופת ביטוח – תוצאת החלוקה של סכום ההפקדה החודשי למרכיב התגמולים בשיעור ההפקדות למרכיב התגמולים בקופת הגמל.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+          </list>
+        </point>
+        <point eId="point_2">
+          <heading>
+            <authorialNote placement="side">
+              <p>סוגי כיסוי ביטוחי</p>
+            </authorialNote>
+          </heading>
+          <num>2.</num>
+          <list>
+            <intro>
+              <p>חברה מנהלת רשאית לרכוש בעבור עמיתים בקופת גמל לקצבה שבניהולה, וקופת גמל כאמור רשאית לקבוע בתקנונה, כיסויים ביטוחיים אלה בלבד:</p>
+            </intro>
+            <point eId="point_2__point_1">
+              <num>(1)</num>
+              <content>
+                <p>כיסוי ביטוחי לאריכות ימים;</p>
+              </content>
+            </point>
+            <point eId="point_2__point_2">
+              <num>(2)</num>
+              <content>
+                <p>כיסוי ביטוחי לסיכוני מוות;</p>
+              </content>
+            </point>
+            <point eId="point_2__point_3">
+              <num>(3)</num>
+              <content>
+                <p>כיסוי ביטוחי לסיכוני נכות;</p>
+              </content>
+            </point>
+            <point eId="point_2__point_4">
+              <num>(4)</num>
+              <content>
+                <p>כיסוי ביטוחי לשחרור מתשלום.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_3">
+          <heading>
+            <authorialNote placement="side">
+              <p>תנאים לכיסוי ביטוחי</p>
+            </authorialNote>
+          </heading>
+          <num>3.</num>
+          <list>
+            <intro>
+              <p>על כיסויים ביטוחיים לפי <ref href="#point_2">תקנה 2</ref>, יחולו תנאים אלה:</p>
+            </intro>
+            <point eId="point_3__point_1">
+              <num>(1)</num>
+              <content>
+                <p>בכיסוי ביטוי לסיכוני מוות, בכיסוי ביטוחי לסיכוני נכות ובכיסוי ביטוחי לשחרור מתשלום יבוטח עמית פעיל בלבד;</p>
+              </content>
+            </point>
+            <point eId="point_3__point_2">
+              <num>(2)</num>
+              <content>
+                <p>כיסוי ביטוחי לסיכוני נכות יכלול כיסוי ביטוחי לשחרור מתשלום;</p>
+              </content>
+            </point>
+            <point eId="point_3__point_3">
+              <num>(3)</num>
+              <content>
+                <p>סכום השחרור מתשלום לא יעלה על הגדלת היתרת הצבורה או על המשך הכיסוי הביטוחי, שהיו צפויים לאותו עמית לולא איבד את כושרו לעבוד ובהתאם לשיעור הנכות שנקבע לו;</p>
+              </content>
+            </point>
+            <point eId="point_3__point_4">
+              <num>(4)</num>
+              <content>
+                <p>סכום קצבת הנכות לא יעלה על 75% מן השכר המבוטח בקופת הגמל, אלא אם כן נקבע בהסדר הביטוחי שיעור העולה על השיעור האמור למי שהיה זכאי לקבל תשלומים בשל ביטוח סיעודי, ובלבד שהשיעור האמור אינו עולה על 100% מן השכר המבוטח בקופת הגמל; לעניין זה, ”תשלומים בשל ביטוח סיעודי“ – תשלומים שהיו משולמים בידי מבטח בשל מקרה ביטוח אילו היה העמית מבוטח בפוליסת ביטוח סיעודי שהתיר הממונה;</p>
+              </content>
+            </point>
+            <point eId="point_3__point_5">
+              <num>(5)</num>
+              <content>
+                <p>כיסוי ביטוחי לסיכוני נכות, כיסוי ביטוחי לשחרור מתשלום וכל אחד ממרכיביהם, הנרכש באמצעות חברה מנהלת, לא יהיה חופף, במועד הרכישה, לכיסוי ביטוחי כאמור או לאחד ממרכיביו, הנרכש באמצעות החברה המנהלת או הקיים בתקנון קופת הגמל;</p>
+              </content>
+            </point>
+            <point eId="point_3__point_6">
+              <num>(6)</num>
+              <content>
+                <p>כיסויים ביטוחיים ייקבעו כך שהעלות המצטברת בשל סך כול הכיסויים האמורים, בעד תקופת הביטוח של עמית עד לכל אחד ממועדי תשלום דמי הביטוח, לא תעלה על 35% מסך כל ההפקדות למרכיב התגמולים עד לאותו מועד, והכל לפי שיעור ההפקדות למרכיב התגמולים.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_4">
+          <heading>
+            <authorialNote placement="side">
+              <p>שמירת כיסוי ביטוחי</p>
+            </authorialNote>
+          </heading>
+          <num>4.</num>
+          <list>
+            <point eId="point_4__point_א">
+              <num>(א)</num>
+              <list>
+                <intro>
+                  <p>על אף האמור <ref href="#point_3">בתקנה 3(1)</ref> –</p>
+                </intro>
+                <point eId="point_4__point_א__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>חברה מנהלת תנכה את עלות כיסוי ביטוחי מיתרתו הצבורה של עמית לשם שמירת אותו כיסוי ביטוחי, זולת אם הורה העמית אחרת, וזאת למשך תקופה שאינה עולה על חמישה חודשים מן החודש שבו הסתיימה תקופת ההפקדות כאמור;<br space="preserve"></br><wikicomment font-size="x-small">(בתקופת הוראת השעה):</wikicomment> חברה מנהלת תנכה את עלות כיסוי ביטוחי מיתרתו הצבורה של עמית לשם שמירת אותו כיסוי ביטוחי, זולת אם הורה העמית אחרת, וזאת למשך תקופה של שנים עשר חודשים מן החודש שבו הסתיימה תקופת ההפקדות כאמור;</p>
+                  </content>
+                </point>
+                <point eId="point_4__point_א__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>עמית יהיה רשאי להפקיד סכום בגובה עלות כיסוי ביטוחי בקופת הגמל או להורות לחברה המנהלת לנכות את עלות אותו כיסוי ביטוחי מיתרתו הצבורה לצורך המשך שמירת הכיסוי האמור, למשך תקופה שאורכה כתקופת ההפקדות הרצופה האחרונה של העמית להגדלת יתרתו הצבורה בקופת הגמל, ובלבד שאינה עולה על 24 חודשים מן החודש שבו הסתיימה תקופת ההפקדות כאמור;</p>
+                  </content>
+                </point>
+                <point eId="point_4__point_א__point_3">
+                  <num>(3)</num>
+                  <content>
+                    <p>
+                      <wikicomment font-size="x-small">(בתקופת הוראת השעה):</wikicomment> אם יתרתו הצבורה של עמית נמוכה מעלות הכיסוי הביטוחי הצפויה לאורך התקופה הקבועה בפסקה (1), תשלח החברה המנהלת לעמית הודעה בכתב בדבר התקופה שבה יישמר הכיסוי הביטוחי בתוקף ובדבר זכותו להפקיד סכום הגובה עלות הכיסוי בקופת גמל לצורך המשך שמירת הכיסוי האמור.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_4__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>משך העמית כספים ממרכיב התגמולים בקופת הגמל, כולם או חלקם, או העביר את יתרתו הצבורה או חלק ממנה לקופת גמל אחרת, לא יחול האמור בתקנה משנה (א)(2).</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_4א">
+          <heading>
+            <authorialNote placement="side">
+              <p>שמירת כיסוי ביטוחי בהפחתת שכר</p>
+            </authorialNote>
+          </heading>
+          <num>4א.</num>
+          <list>
+            <point eId="point_4א__point_א">
+              <num>(א)</num>
+              <content>
+                <p>
+                  <wikicomment font-size="x-small">(בתקופת הוראת השעה):</wikicomment>
+                  <br space="preserve"></br> עמית שהופחת שכרו המבוטח, רשאי, בתקופה שתחילתה במועד הפחתת שכרו ולמשך שלושה חודשים, להורות לחברה המנהלת לנכות מיתרתו הצבורה או להפקיד בקופת גמל סכום בגובה עלות כיסוי ביטוחי בעד כיסוי ביטוחי לסיכוני מוות, כיסוי ביטוחי לסיכוי נכות וכיסוי ביטוחי לשחרור מתשלום, לשם שמירת אותו כיסוי ביטוחי שלו היה זכאי אלמלא הופחת שכרו המבוטח, וזאת למשך שנים עשר חודשים או לתקופה שבה הופחת שכרו המבוטח כאמור, המוקדם מבין השניים.</p>
+              </content>
+            </point>
+            <point eId="point_4א__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>חברה מנהלת תשלח לעמיתיה הודעה בכתב בדבר זכותם להפקיד סכום בגובה עלות הכיסוי הביטוחי או להורות על ניכוי הסכום מיתרתם הצבורה לצורך שמירה על כיסוי ביטוחי במקרה של הפחתת שכר כאמור בתקנת משנה (א).</p>
+              </content>
+            </point>
+            <point eId="point_4א__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>חברה מנהלת תאפשר לעמית שהופחת שכרו המובטח, לשוב ולרכוש את אותו כיסוי ביטוחי שלו היה זכאי אלמלא הופחת שכרו המבוטח ולהגדיל את שכרו המבוטח לפי ההסדר הביטוחי החל עליו ערב הפחתת השכר, תוך מתן רצף ביטוחי בלא בחינה מחודשת של מצב רפואי קודם ובלא תקופת אכשרה, וזאת במהלך תקופה של שנים עשר חודשים מהמועד שבו הופחת שכרו של העמית כאמור.</p>
+              </content>
+            </point>
+            <point eId="point_4א__point_ד">
+              <num>(ד)</num>
+              <content>
+                <p>לעניין תקנה זו, ”עמית שהופחת שכרו המבוטח“ – עמית שהופחת שכרו בעשרים אחוזים לפחות ביחס לשכרו המבוטח, החל משכרו המבוטח בעד חודש פברואר 2020 או לאחריו.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_5">
+          <heading>
+            <authorialNote placement="side">
+              <p>תנאים לביטוח חיים קבוצתי של קופת גמל לא משלמת לקצבה שאינה קופת ביטוח</p>
+            </authorialNote>
+          </heading>
+          <num>5.</num>
+          <list>
+            <intro>
+              <p>חברה מנהלת של קופת גמל לא משלמת לקצבה שאינה קופת ביטוח רשאית לרכוש בעבור עמיתי הקופה כיסויים ביטוחיים לפי <ref href="#point_2">תקנה 2</ref>, במסגרת ביטוח חיים קבוצתי או ביטוח אבדן כושר עבודה קבוצתי ובהתקיים תנאים אלה:</p>
+            </intro>
+            <point eId="point_5__point_1">
+              <num>(1)</num>
+              <content>
+                <p>המבטח ייבחר בהליך תחרותי שאישר דירקטוריון של החברה המנהלת, הנותן לכל המשתתפים בהליך הזדמנות שווה; חברה מנהלת רשאית לבחור מבטח שהוא צד קשור, אם ראתה כי הציע את התנאים המיטיבים ביותר;</p>
+              </content>
+            </point>
+            <point eId="point_5__point_2">
+              <num>(2)</num>
+              <content>
+                <p>דמי הביטוח בשל מבוטח מסוים יחושבו, בין השאר, לפי הסכום המבוטח, גיל המבוטח ומינו;</p>
+              </content>
+            </point>
+            <point eId="point_5__point_3">
+              <num>(3)</num>
+              <content>
+                <p>בביטוח חיים קבוצתי תהיה החברה המנהלת בעלת הפוליסה, העמית יהיה המבוטח וקופת הגמל תהיה הנהנית;</p>
+              </content>
+            </point>
+            <point eId="point_5__point_4">
+              <num>(4)</num>
+              <content>
+                <p>בביטוח אבדן כושר עבודה קבוצתי, תהיה החברה המנהלת בעלת הפוליסה והמבוטח והנהנה יהיה העמית, למעט לעניין שחרור מתשלום שלעניינו תהיה קופת הגמל הנהנית; ואולם סכום השחרור מתשלום יופקד או ייזקף, לפי העניין, בחשבונו של העמית בקופת הגמל;</p>
+              </content>
+            </point>
+            <point eId="point_5__point_5">
+              <num>(5)</num>
+              <content>
+                <p>סכומי הביטוח שקופת הגמל זכאית להם לפי פוליסת ביטוח חיים קבוצתית, יופקדו בחשבונו של העמית בקופה, וישולמו בהתאם להוראות לפי <ref href="/akn/il/act/PrimaryLegislation/2005-08-10/100899#point_23">סעיף 23 לחוק</ref>, לזכאים לכך לאחר מותו.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_6">
+          <heading>
+            <authorialNote placement="side">
+              <p>תנאים לביטוח חיים קבוצתי של קרן השתלמות</p>
+            </authorialNote>
+          </heading>
+          <num>6.</num>
+          <list>
+            <intro>
+              <p>חברה מנהלת של קרן השתלמות רשאית לרכוש מכספי קרן ההשתלמות ביטוח חיים קבוצתי בעבור עמיתי הקרן, בתנאים אלה:</p>
+            </intro>
+            <point eId="point_6__point_1">
+              <num>(1)</num>
+              <content>
+                <p>קיום האמור <ref href="#point_5">בתקנה 5(1)</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_6__point_2">
+              <num>(2)</num>
+              <content>
+                <p>הסכום המבוטח לא יהיה גבוה מפי ארבעה מן היתרה הצבורה לזכותו של העמית בקרן ההשתלמות או מסכום של 179,000 שקלים חדשים, לפי הגבוה מביניהם; הסכום הנקוב בפסקה זו יעודכן ב־1 בינואר של כל שנה (להלן – יום השינוי), לפי שיעור השינוי שחל במדד, מן המדד שפורסם לאחרונה לפני יום השינוי לעומת המדד שפורסם לחודש ינואר 2012;</p>
+              </content>
+            </point>
+            <point eId="point_6__point_3">
+              <num>(3)</num>
+              <content>
+                <p>החברה המנהלת תהיה בעלת הפוליסה, קרן ההשתלמות תהיה הנהנית והמבוטח יהיה העמית;</p>
+              </content>
+            </point>
+            <point eId="point_6__point_4">
+              <num>(4)</num>
+              <content>
+                <p>סכומי הביטוח שקרן ההשתלמות זכאית להם לפי פוליסת ביטוח חיים קבוצתית, יופקדו בחשבונו של העמית בקרן, וישולמו בהתאם להוראות לפי <ref href="/akn/il/act/PrimaryLegislation/2005-08-10/100899#point_23">סעיף 23 לחוק</ref> לזכאים לכך לאחר מותו.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_7">
+          <heading>
+            <authorialNote placement="side">
+              <p>דמי ביטוח</p>
+            </authorialNote>
+          </heading>
+          <num>7.</num>
+          <list>
+            <point eId="point_7__point_א">
+              <num>(א)</num>
+              <content>
+                <p>כיסוי ביטוחי לפי <ref href="#point_2">תקנה 2(2) עד (4)</ref> לא יינתן בלא תשלום של דמי ביטוח.</p>
+              </content>
+            </point>
+            <point eId="point_7__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>דמי ביטוח בעד כיסוי ביטוחי לפי <ref href="#point_2">תקנה 2(2) עד (4)</ref> ישולמו מההפקדות בעד העמית לקופת הגמל, למעט שמירת כיסוי ביטוחי לפי <ref href="#point_4">תקנה 4(א)</ref>; לעניין זה לא יהיה ניתן לגבות דמי ביטוח ממרכיב הפיצויים או מדמי הניהול שגובה החברה המנהלת.</p>
+              </content>
+            </point>
+            <point eId="point_7__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>דמי ביטוח של מבטח שהוא צד קשור לחברה המנהלת, יהיו בגובה דמי הביטוח הנהוגים אצל המבטח בפוליסה דומה למבוטחים בעלי מאפיינים דומים.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_8">
+          <heading>
+            <authorialNote placement="side">
+              <p>תחילה, תחולה וסייגים לתחולה</p>
+            </authorialNote>
+          </heading>
+          <num>8.</num>
+          <list>
+            <point eId="point_8__point_א">
+              <num>(א)</num>
+              <list>
+                <intro>
+                  <p>תחילתן של תקנות אלה לגבי –</p>
+                </intro>
+                <point eId="point_8__point_א__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>קופת גמל לא משלמת לקצבה שאינה קופת ביטוח וקרן השתלמות – ביום י"ט בטבת התשע"ג (1 בינואר 2013);</p>
+                  </content>
+                </point>
+                <point eId="point_8__point_א__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>לגבי קופת גמל אחרת – ביום כ"ג בתמוז התשע"ג (1 ביולי 2013), והן יחולו על הסדר ביטוחי הממומן מדמי ביטוח הנגבים מנכסי קופת גמל או מתשלומים לקופת גמל, למן יום התחילה הנקוב בפסקה (1) או (2), לפי העניין.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_8__point_ב">
+              <num>(ב)</num>
+              <list>
+                <intro>
+                  <p>על אף האמור בתקנת משנה (א), תקנות אלה לא יחולו על פוליסות ביטוח –</p>
+                </intro>
+                <point eId="point_8__point_ב__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>ששווקו עד מועד התחילה כאמור בתקנת משנה (א) (להלן – יום התחילה), ושמתקיימים בהן התנאים שנקבעו לפי <ref href="/akn/il/act/SecondaryLegislation/1964-05-24/99998845#point_45">תקנה 45 לתקנות מס הכנסה (כללים לאישור ולניהול קופות גמל), התשכ"ד–1964</ref> (להלן – תקנות מס הכנסה), לפני ביטולה;</p>
+                  </content>
+                </point>
+                <point eId="point_8__point_ב__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>שמתקיימים בהן התנאים שנקבעו לפי <ref href="/akn/il/act/SecondaryLegislation/1964-05-24/99998845#point_31">תקנה 31 לתקנות מס הכנסה</ref>, לפני ביטולה, ולגבי עמיתים שהיו מבוטחים בפוליסות כאמור ביום התחילה, בין שהפוליסות האמורות שווקו להם לפני יום התחילה ובין לאחריו;</p>
+                  </content>
+                </point>
+                <point eId="point_8__point_ב__point_3">
+                  <num>(3)</num>
+                  <content>
+                    <p>שלא מתקיימים בהן התנאים שבפסקה (1) או (2), ואשר שווקו במסגרת הסכם לביטוח משלים שנחתם לפני יום י"ז בכסלו התשע"ג (1 בדצמבר 2012) – עד תום תקופת הביטוח כאמור בפוליסת הביטוח; לעניין זה יראו את מועד חידוש פוליסת הביטוח כתום תקופת הביטוח ואת מועד חידוש הסכם לביטוח משלים כמועד חתימתו.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_8__point_ב1">
+              <num>(ב1)</num>
+              <list>
+                <intro>
+                  <p>
+                    <wikicomment font-size="x-small">(בתקופת הוראת השעה):</wikicomment>
+                    <br space="preserve"></br>על אף האמור בתקנה משנה (ב)(1), לגבי קופות ביטוח ששווקו עד יום כ"ג בתמוז התשע"ג (1 ביולי 2013), למעט פוליסות קלאסיות, ועל אף האמור בתנאי ההסדר הביטוחי, יחולו הוראות אלה:</p>
+                </intro>
+                <point eId="point_8__point_ב1__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>חברה מנהלת תנכה את עלות כיסוי ביטוחי בעד כיסוי ביטוחי לסיכוני מוות, כיסוי ביטוחי לסיכוי נכות וכיסוי ביטוחי לשחרור מתשלום מיתרתו הצבורה של עמית לא פעיל לשם שמירת אותו כיסוי ביטוחי, זולת אם הורה העמית אחרת, וזאת למשך תקופה של שנים עשר חודשים מהחודש שבו הסתיימה תקופת ההפקדות כאמור;</p>
+                  </content>
+                </point>
+                <point eId="point_8__point_ב1__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>עמית לא פעיל רשאי להפקיד סכום בגובה עלות כיסוי ביטוחי בקופת הגמל או להורות לחברה המנהלת לנכות את עלות אותו כיסוי ביטוחי מיתרתו הצבורה, בעד כיסוי ביטוחי לסיכוי מוות, כיסוי ביטוחי לסיכוי נכות וכיסוי ביטוחי לשחרור מתשלום, לצורך המשך שמירת הכיסוי האמור, למשך תקופה שאורכה כתקופת ההפקדות הרצופה האחרונה של העמית להגדלת יתרתו הצבורה בקופת הגמל, ובלבד שאינה עולה על עשרים וארבעה חודשים מן החודש שבו הסתיימה תקופת ההפקדות כאמור;</p>
+                  </content>
+                </point>
+                <point eId="point_8__point_ב1__point_3">
+                  <num>(3)</num>
+                  <content>
+                    <p>חברה מנהלת תשלח לעמית לא פעיל, כאמור בפסקה (1), הודעה בכתב בדבר הגבייה הצפויה לשם שמירת הכיסוי הביטוחי ועל האפשרות לבטל כיסוי זה;</p>
+                  </content>
+                </point>
+                <point eId="point_8__point_ב1__point_4">
+                  <num>(4)</num>
+                  <content>
+                    <p>אם יתרתו הצבורה של עמית נמוכה מעלות הכיסוי הביטוחי הצפויה לאורך התקופה הקבועה בפסקה (1), תשלח החברה המנהלת לעמית הודעה בכתב בדבר התקופה שבה יישמר הכיסוי הביטוחי בתוקף ובדבר זכותו להפקיד סכום בגובה עלות הכיסוי בקופת גמל לצורך המשך שמירת הכיסוי האמור;</p>
+                  </content>
+                </point>
+                <point eId="point_8__point_ב1__point_5">
+                  <num>(5)</num>
+                  <content>
+                    <p>משך העמית כספים ממרכיב התגמולים בקופת הגמל, כולם או חלקם, או העביר את יתרתו הצבורה או חלק ממנה לקופת גמל אחרת, לא יחול האמור בפסקה (2);</p>
+                  </content>
+                </point>
+                <point eId="point_8__point_ב1__point_6">
+                  <num>(6)</num>
+                  <content>
+                    <p>עמית שהופחת שכרו המבוטח, רשאי, בתקופה שתחילתה במועד הפחתת שכרו ולמשך שלושה חודשים, להורות לחברה המנהלת לנכות מיתרתו הצבורה או להפקיד בקופת גמל סכום בגובה עלות כיסוי ביטוחי בעד כיסוי ביטוחי לסיכוני מוות, כיסוי ביטוחי לסיכוי נכות וכיסוי ביטוחי לשחרור מתשלום, לשם שמירת אותו כיסוי ביטוחי שלו היה זכאי אלמלא הופחת שכרו המבוטח, וזאת למשך שנים עשר חודשים או לתקופה שבה הופחת שכרו המבוטח כאמור, המוקדם מבין השניים;</p>
+                  </content>
+                </point>
+                <point eId="point_8__point_ב1__point_7">
+                  <num>(7)</num>
+                  <content>
+                    <p>חברה מנהלת תשלח לעמיתיה הודעה בכתב בדבר זכותם להפקיד סכום בגובה עלות הכיסוי הביטוחי או להורות על ניכוי הסכום מיתרתם הצבורה, לצורך שמירה על כיסוי ביטוחי במקרה של הפחתת שכר כאמור בפסקה (א);</p>
+                  </content>
+                </point>
+                <point eId="point_8__point_ב1__point_8">
+                  <num>(8)</num>
+                  <content>
+                    <p>חברה מנהלת תאפשר לעמית שהופחת שכרו המבוטח, לשוב ולרכוש את אותו כיסוי ביטוחי שלו היה זכאי אלמלא הופחת שכרו המבוטח ולהגדיל את שכרו המבוטח לפי ההסדר הביטוחי החל עליו ערב הפחתת השכר, תוך מתן רצף ביטוחי בלא בחינה מחודשת של מצב רפואי קודם ובלא תקופת אכשרה, וזאת במהלך תקופה של שנים עשר חודשים מהמועד שבו הופחת שכרו של העמית כאמור;</p>
+                  </content>
+                </point>
+                <point eId="point_8__point_ב1__point_9">
+                  <num>(9)</num>
+                  <list>
+                    <intro>
+                      <p>לעניין תקנה זו –</p>
+                    </intro>
+                    <point eId="point_8__point_ב1__point_9__point_עמית_שהופחת_שכרו_המבוטח">
+                      <content>
+                        <p>
+                          <def />”עמית שהופחת שכרו המבוטח“ – עמית שהופחת שכרו בעשרים אחוזים לפחות ביחס לשכרו המבוטח החל משכרו המבוטח בעד חודש פברואר 2020 או לאחריו;</p>
+                      </content>
+                    </point>
+                    <point eId="point_8__point_ב1__point_9__point_פוליסה_קלאסית">
+                      <content>
+                        <p>
+                          <def />”פוליסה קלאסית“ – הסדר ביטוחי ששווק עד יום ו׳ בטבת התשס"ד (31 בדצמבר 2003) וההפקדה, סכום הביטוח וסכום החיסכון לתום תקופה הקבועים באותו הסדר, צמודים למדד וקבועים מראש במועד ההצטרפות לביטוח, בלא אפשרות לזיכוי נפרד של כל אחד ממרכיבי ההפקדה.</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+              </list>
+            </point>
+            <point eId="point_8__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>בתקנה זו, ”הסכם לביטוח משלים“ – הסכם למתן כיסויים ביטוחיים נוספים על אלה הניתנים במסגרת תקנון קופת הגמל.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+      </list>
+    </body>
+    <conclusions eId="eId">
+      <p class="signatures">
+        <signature>
+          <p>
+            <person refersTo="יובל_שטייניץ">יובל שטייניץ</person>
+            <role refersTo="שר_האוצר">שר האוצר</role>
+          </p>
+        </signature>
+      </p>
+    </conclusions>
+  </act>
+</akomaNtoso>

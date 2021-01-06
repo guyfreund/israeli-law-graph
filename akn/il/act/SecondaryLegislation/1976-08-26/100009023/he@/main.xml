@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion" name="publicLaw">
+    <meta>
+      <identification source="#kensset">
+        <FRBRWork>
+          <FRBRthis value="/akn/il/act/SecondaryLegislation/1976-08-26/100009023/main" />
+          <FRBRuri value="/akn/il/act/SecondaryLegislation/1976-08-26/100009023" />
+          <FRBRdate date="1976-08-26" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRcountry value="israel" />
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/il/act/SecondaryLegislation/1976-08-26/100009023/he@/main" />
+          <FRBRuri value="/akn/il/act/SecondaryLegislation/1976-08-26/100009023/he@" />
+          <FRBRdate date="1976-08-26" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRlanguage language="hebrew" />
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/il/act/SecondaryLegislation/1976-08-26/100009023/he@/main.xml" />
+          <FRBRuri value="/akn/il/act/SecondaryLegislation/1976-08-26/100009023/he@" />
+          <FRBRdate date="1976-08-26" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRformat value="xml" />
+        </FRBRManifestation>
+      </identification>
+      <classification source="#kensset">
+        <keyword value="{classificationValue}" showAs="{classificationValue}" dictionary="#classification_dictionary" />
+      </classification>
+      <lifecycle source="#kensset">
+        <eventRef eId="eventRef_1" date="1976-08-26" source="#kensset" type="generation" />
+      </lifecycle>
+      <references source="#kensset">
+        <TLCOrganization eId="kensset" href="/ontology/organization/akn/knesset" showAs="Kensset" type="generation" />
+        <TLCRole eId="author" href="/ontology/role/akn/author" showAs="Author of Document" />
+        <TLCProcess eId="inforce" href="/ontology/process/akn/inforce" showAs="In force" />
+        <TLCPerson eId="ויקטור_שם־טוב" href="/ontology/person/ויקטור_שם־טוב" showAs="ויקטור שם־טוב" />
+        <TLCRole eId="שר_הבריאות" href="ontology/role/akn/שר_הבריאות" showAs="שר הבריאות" />
+      </references>
+      <temporalData source="#kensset">
+        <temporalGroup eId="tmpg_1" />
+      </temporalData>
+      <proprietary wikiversion="10/7/2020 10:03:37 AM" />
+    </meta>
+    <body period="#tmpg_1">
+      <title eId="title">
+        <content>
+          <p>צו הרוקחים (אגרת תעודת היתר למכירת רעל), תשל"ז–1976</p>
+        </content>
+      </title>
+      <subtitle eId="eId">
+        <num></num>
+        <content>
+          <p>צו בדבר תעודת היתר למכירת רעל</p>
+        </content>
+      </subtitle>
+      <preamble eId="eId">
+        <p>בתוקף סמכותי לפי <ref href="/akn/il/act/PrimaryLegislation/1991-11-13/152091#point_66">סעיף 36(5)</ref><ref href="/akn/il/act/PrimaryLegislation/1991-11-13/152091">לפקודת הרוקחים</ref>, ובאישור ועדת השירותים הציבוריים של הכנסת, אני מצווה לאמור:</p>
+      </preamble>
+      <list>
+        <point eId="point_1">
+          <heading>
+            <authorialNote placement="side">
+              <p>אגרה</p>
+            </authorialNote>
+          </heading>
+          <num>1.</num>
+          <content>
+            <p>בעד תעודת היתר למכירת רעל או חידושה תשולם אגרה כמפורט <ref href="/akn/il/act/SecondaryLegislation/1989-05-04/100021019#appendix_2_פרט_3">בסעיף 3 בתוספת השניה לתקנות אגרות בריאות, התשמ"ט–1989</ref>.</p>
+          </content>
+        </point>
+        <point eId="point_1א">
+          <heading>
+            <authorialNote placement="side">
+              <p xml:space="preserve"> </p>
+            </authorialNote>
+          </heading>
+          <num>1א.</num>
+          <content>
+            <p>
+              <wikicomment font-size="x-small">(בוטל).</wikicomment>
+            </p>
+          </content>
+        </point>
+        <point eId="point_2">
+          <heading>
+            <authorialNote placement="side">
+              <p>השם</p>
+            </authorialNote>
+          </heading>
+          <num>2.</num>
+          <content>
+            <p>לצו זה ייקרא ”צו הרוקחים (אגרת תעודת היתר למכירת רעל), תשל"ז–1976“.</p>
+          </content>
+        </point>
+      </list>
+    </body>
+    <conclusions eId="eId">
+      <p class="signatures">
+        <signature>
+          <p>
+            <person refersTo="ויקטור_שם־טוב">ויקטור שם־טוב</person>
+            <role refersTo="שר_הבריאות">שר הבריאות</role>
+          </p>
+        </signature>
+      </p>
+    </conclusions>
+  </act>
+</akomaNtoso>

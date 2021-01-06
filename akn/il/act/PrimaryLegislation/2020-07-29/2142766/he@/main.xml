@@ -1,0 +1,2732 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion" name="publicLaw">
+    <meta>
+      <identification source="#kensset">
+        <FRBRWork>
+          <FRBRthis value="/akn/il/act/PrimaryLegislation/2020-07-29/2142766/main" />
+          <FRBRuri value="/akn/il/act/PrimaryLegislation/2020-07-29/2142766" />
+          <FRBRdate date="2020-07-29" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRcountry value="israel" />
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/il/act/PrimaryLegislation/2020-07-29/2142766/he@/main" />
+          <FRBRuri value="/akn/il/act/PrimaryLegislation/2020-07-29/2142766/he@" />
+          <FRBRdate date="2020-07-29" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRlanguage language="hebrew" />
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/il/act/PrimaryLegislation/2020-07-29/2142766/he@/main.xml" />
+          <FRBRuri value="/akn/il/act/PrimaryLegislation/2020-07-29/2142766/he@" />
+          <FRBRdate date="2020-07-29" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRformat value="xml" />
+        </FRBRManifestation>
+      </identification>
+      <classification source="#kensset">
+        <keyword value="{classificationValue}" showAs="{classificationValue}" dictionary="#classification_dictionary" />
+      </classification>
+      <lifecycle source="#kensset">
+        <eventRef eId="eventRef_1" date="2020-07-29" source="#kensset" type="generation" />
+      </lifecycle>
+      <references source="#kensset">
+        <TLCOrganization eId="kensset" href="/ontology/organization/akn/knesset" showAs="Kensset" type="generation" />
+        <TLCRole eId="author" href="/ontology/role/akn/author" showAs="Author of Document" />
+        <TLCProcess eId="inforce" href="/ontology/process/akn/inforce" showAs="In force" />
+        <TLCTerm eId="term_1" href="/ontology/term/חוק_יסודות_התקציב/2142766" showAs="חוק_יסודות_התקציב" />
+        <TLCTerm eId="term_2" href="/ontology/term/חוק_מס_ערך_מוסף/2142766" showAs="חוק_מס_ערך_מוסף" />
+        <TLCTerm eId="term_3" href="/ontology/term/טובין/2142766" showAs="טובין" />
+        <TLCTerm eId="term_4" href="/ontology/term/מוסד_ציבורי_זכאי/2142766" showAs="מוסד_ציבורי_זכאי" />
+        <TLCTerm eId="term_5" href="/ontology/term/מחזור_עסקאות/2142766" showAs="מחזור_עסקאות" />
+        <TLCTerm eId="term_6" href="/ontology/term/מחזור_עסקאות_בשנת_2019/2142766" showAs="מחזור_עסקאות_בשנת_2019" />
+        <TLCTerm eId="term_7" href="/ontology/term/מחזור_עסקאות_בשנת_2020/2142766" showAs="מחזור_עסקאות_בשנת_2020" />
+        <TLCTerm eId="term_8" href="/ontology/term/המנהל/2142766" showAs="המנהל" />
+        <TLCTerm eId="term_9" href="/ontology/term/מקדם_הוצאות_קבועות/2142766" showAs="מקדם_הוצאות_קבועות" />
+        <TLCTerm eId="term_10" href="/ontology/term/מקדם_השתתפות_בהוצאות_קבועות/2142766" showAs="מקדם_השתתפות_בהוצאות_קבועות" />
+        <TLCTerm eId="term_11" href="/ontology/term/סכום_הוצאות_השכר_הנחסכות/2142766" showAs="סכום_הוצאות_השכר_הנחסכות" />
+        <TLCTerm eId="term_12" href="/ontology/term/סכום_השכר_הקובע_לתקופת_הזכאות/2142766" showAs="סכום_השכר_הקובע_לתקופת_הזכאות" />
+        <TLCTerm eId="term_13" href="/ontology/term/עוסק/2142766" showAs="עוסק" />
+        <TLCTerm eId="term_14" href="/ontology/term/הפקודה/2142766" showAs="הפקודה" />
+        <TLCTerm eId="term_15" href="/ontology/term/תמיכות_ותרומות/2142766" showAs="תמיכות_ותרומות" />
+        <TLCTerm eId="term_16" href="/ontology/term/תקופת_הבסיס/2142766" showAs="תקופת_הבסיס" />
+        <TLCTerm eId="term_17" href="/ontology/term/תקופת_הזכאות/2142766" showAs="תקופת_הזכאות" />
+        <TLCTerm eId="term_18" href="/ontology/term/תשומות_שוטפות/2142766" showAs="תשומות_שוטפות" />
+        <TLCTerm eId="term_19" href="/ontology/term/מענק_פגיעה_ממושכת/2142766" showAs="מענק_פגיעה_ממושכת" />
+        <TLCTerm eId="term_20" href="/ontology/term/עוסק_מורשה/2142766" showAs="עוסק_מורשה" />
+        <TLCTerm eId="term_21" href="/ontology/term/מענקי_השתתפות_בהוצאות_קבועות/2142766" showAs="מענקי_השתתפות_בהוצאות_קבועות" />
+        <TLCTerm eId="term_22" href="/ontology/term/תקופת_הבסיס_למענק_פגיעה_ממושכת/2142766" showAs="תקופת_הבסיס_למענק_פגיעה_ממושכת" />
+        <TLCTerm eId="term_23" href="/ontology/term/תקופת_הזכאות_למענק_פגיעה_ממושכת/2142766" showAs="תקופת_הזכאות_למענק_פגיעה_ממושכת" />
+        <TLCTerm eId="term_24" href="/ontology/term/בידוד/2142766" showAs="בידוד" />
+        <TLCTerm eId="term_25" href="/ontology/term/דיווח/2142766" showAs="דיווח" />
+        <TLCTerm eId="term_26" href="/ontology/term/דמי_בידוד/2142766" showAs="דמי_בידוד" />
+        <TLCTerm eId="term_27" href="/ontology/term/הסכם_קיבוצי/2142766" showAs="הסכם_קיבוצי" />
+        <TLCTerm eId="term_28" href="/ontology/term/חובת_בידוד/2142766" showAs="חובת_בידוד" />
+        <TLCTerm eId="term_29" href="/ontology/term/חוק_דמי_מחלה/2142766" showAs="חוק_דמי_מחלה" />
+        <TLCTerm eId="term_30" href="/ontology/term/חוק_יסודות_התקציב/2142766" showAs="חוק_יסודות_התקציב" />
+        <TLCTerm eId="term_31" href="/ontology/term/ילד/2142766" showAs="ילד" />
+        <TLCTerm eId="term_32" href="/ontology/term/ימי_עבודה/2142766" showAs="ימי_עבודה" />
+        <TLCTerm eId="term_33" href="/ontology/term/המוסד/2142766" showAs="המוסד" />
+        <TLCTerm eId="term_34" href="/ontology/term/עובד_השוהה_בבידוד/2142766" showAs="עובד_השוהה_בבידוד" />
+        <TLCTerm eId="term_35" href="/ontology/term/צו_בידוד_בית/2142766" showAs="צו_בידוד_בית" />
+        <TLCTerm eId="term_36" href="/ontology/term/תקופת_בידוד/2142766" showAs="תקופת_בידוד" />
+        <TLCTerm eId="term_37" href="/ontology/term/תקופת_המחלה_הצבורה/2142766" showAs="תקופת_המחלה_הצבורה" />
+        <TLCTerm eId="term_38" href="/ontology/term/הסדר_דמי_מחלה_מיטיב/2142766" showAs="הסדר_דמי_מחלה_מיטיב" />
+        <TLCTerm eId="term_39" href="/ontology/term/הסדר_דמי_בידוד_מיטיב/2142766" showAs="הסדר_דמי_בידוד_מיטיב" />
+        <TLCTerm eId="term_40" href="/ontology/term/יום_הפרסום/2142766" showAs="יום_הפרסום" />
+        <TLCTerm eId="term_41" href="/ontology/term/יום_התחילה/2142766" showAs="יום_התחילה" />
+        <TLCTerm eId="term_42" href="/ontology/term/התקופה_הקובעת/2142766" showAs="התקופה_הקובעת" />
+        <TLCTerm eId="term_43" href="/ontology/term/תקופת_הוראת_השעה/2142766" showAs="תקופת_הוראת_השעה" />
+        <TLCPerson eId="בנימין_נתניהו" href="/ontology/person/בנימין_נתניהו" showAs="בנימין נתניהו" />
+        <TLCPerson eId="ישראל_כץ" href="/ontology/person/ישראל_כץ" showAs="ישראל כץ" />
+        <TLCPerson eId="ראובן_ריבלין" href="/ontology/person/ראובן_ריבלין" showAs="ראובן ריבלין" />
+        <TLCPerson eId="יריב_לוין" href="/ontology/person/יריב_לוין" showAs="יריב לוין" />
+        <TLCRole eId="ראש_הממשלה" href="ontology/role/akn/ראש_הממשלה" showAs="ראש הממשלה" />
+        <TLCRole eId="שר_האוצר" href="ontology/role/akn/שר_האוצר" showAs="שר האוצר" />
+        <TLCRole eId="נשיא_המדינה" href="ontology/role/akn/נשיא_המדינה" showAs="נשיא המדינה" />
+        <TLCRole eId="יושב_ראש_הכנסת" href="ontology/role/akn/יושב_ראש_הכנסת" showAs="יושב ראש הכנסת" />
+      </references>
+      <temporalData source="#kensset">
+        <temporalGroup eId="tmpg_1" />
+      </temporalData>
+      <Publication></Publication>
+      <proprietary wikiversion="1/12/2021 5:06:48 PM" />
+    </meta>
+    <body period="#tmpg_1">
+      <title eId="title">
+        <content>
+          <p>חוק התכנית לסיוע כלכלי (נגיף הקורונה החדש) (הוראת שעה), התש"ף–2020</p>
+        </content>
+      </title>
+      <chapter eId="chp_א">
+        <num>פרק א׳:</num>
+        <title>
+          <content>
+            <p>הגדלת סכום ההוצאה הממשלתית</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_1">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>1.</num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryLegislation/1992-01-08/153721">בחוק הפחתת הגירעון והגבלת ההוצאה התקציבית, התשנ"ב–1992</ref>.</wikicomment>
+              </p>
+            </content>
+          </point>
+        </list>
+      </chapter>
+      <chapter eId="chp_ב">
+        <num>פרק ב׳:</num>
+        <title>
+          <content>
+            <p>ביטוח אבטלה</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_2">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>2.</num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryLegislation/1995-05-15/158093">בחוק הביטוח הלאומי (נגיף הקורונה החדש – הוראת שעה – תיקון מס׳ 216) (הוראות מיוחדות לעניין ביטוח אבטלה), התש"ף–2020</ref>.</wikicomment>
+              </p>
+            </content>
+          </point>
+        </list>
+      </chapter>
+      <chapter eId="chp_ג">
+        <num>פרק ג׳:</num>
+        <title>
+          <content>
+            <p>מענק לבני 67 ומעלה</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_3">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>3.</num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryLegislation/2020-06-30/2141251">בחוק מענק הסתגלות מיוחד לבני 67 ומעלה (הוראת שעה – נגיף הקורונה החדש), התש"ף–2020</ref>.</wikicomment>
+              </p>
+            </content>
+          </point>
+        </list>
+      </chapter>
+      <chapter eId="chp_ד">
+        <num>פרק ד׳:</num>
+        <title>
+          <content>
+            <p>פיקדון חיילים משוחררים</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_4">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>4.</num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryLegislation/1994-04-28/154135">בחוק קליטת חיילים משוחררים, התשנ"ד–1994</ref>.</wikicomment>
+              </p>
+            </content>
+          </point>
+          <point eId="point_5">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>5.</num>
+            <content>
+              <p>
+                <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/http_fs_knesset_gov_il_23_law_23_lsr_575832_pdf">חוק קליטת חיילים משוחררים (נגיף הקורונה החדש – הוראת שעה – תיקון מס׳ 20) (מימוש חלק מהפיקדון לכל מטרה), התש"ף–2020</ref> – בטל.</p>
+            </content>
+          </point>
+        </list>
+      </chapter>
+      <chapter eId="chp_ה">
+        <num>פרק ה׳:</num>
+        <title>
+          <content>
+            <p>מענקי סיוע לעצמאי ולשכיר בעל שליטה בחברת מעטים</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_6">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>6.</num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryLegislation/2007-12-27/267270">בחוק להגדלת שיעור ההשתתפות בכוח העבודה ולצמצום פערים חברתיים (מענק עבודה), התשס"ח–2007</ref> כהוראת שעה לתקופה של שנתיים מיום 29.7.2020.</wikicomment>
+              </p>
+            </content>
+          </point>
+        </list>
+      </chapter>
+      <chapter eId="chp_ו">
+        <num>פרק ו׳:</num>
+        <title>
+          <content>
+            <p>מענק סיוע לעסקים בעד השתתפות בהוצאות קבועות ומענק סיוע בשל פגיעה ממושכת</p>
+          </content>
+        </title>
+        <section eId="chp_ו__sec_א">
+          <num>סימן א׳:</num>
+          <title>
+            <content>
+              <p>מענק סיוע לעסקים בעד השתתפות בהוצאות קבועות</p>
+            </content>
+          </title>
+          <list>
+            <point eId="point_7" class="definitions">
+              <heading>
+                <authorialNote placement="side">
+                  <p>הגדרות</p>
+                </authorialNote>
+              </heading>
+              <num>7.</num>
+              <list>
+                <intro>
+                  <p>
+                    <ref href="#chp_ו">בפרק זה</ref> –</p>
+                </intro>
+                <point eId="point_7__point_חוק_יסודות_התקציב">
+                  <content>
+                    <p>
+                      <def />”חוק יסודות התקציב“ – <ref href="/akn/il/act/PrimaryLegislation/1985-04-03/150399">חוק יסודות התקציב, התשמ"ה–1985</ref>;</p>
+                  </content>
+                </point>
+                <point eId="point_7__point_חוק_מס_ערך_מוסף">
+                  <content>
+                    <p>
+                      <def />”חוק מס ערך מוסף“ – <ref href="/akn/il/act/PrimaryLegislation/1976-01-06/147931">חוק מס ערך מוסף, התשל"ו–1976</ref>;</p>
+                  </content>
+                </point>
+                <point eId="point_7__point_טובין">
+                  <content>
+                    <p>
+                      <def />”טובין“, ”המס“, ”עסק“, ”עסקה“, ”שירות“ ו”שנת המס“ – כהגדרתם <ref href="/akn/il/act/PrimaryLegislation/1976-01-06/147931">בחוק מס ערך מוסף</ref>;</p>
+                  </content>
+                </point>
+                <point eId="point_7__point_מוסד_ציבורי_זכאי">
+                  <list>
+                    <intro>
+                      <p>
+                        <def />”מוסד ציבורי זכאי“ – מוסד ציבורי כהגדרתו <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_מס_הכנסה#point_9_2">בסעיף 9(2)(ב) לפקודה</ref>, שמתקיימים בו שני אלה:</p>
+                    </intro>
+                    <point eId="point_7__point_מוסד_ציבורי_זכאי__point_1">
+                      <num>(1)</num>
+                      <content>
+                        <p>שליש לפחות מהכנסתו בשנת המס 2018, כפי שדווחה בדוח שהגיש לפי <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_מס_הכנסה#point_131">סעיף 131 לפקודה</ref>, ואם הגיש דוח כאמור לגבי ההכנסה לשנת המס 2019 לפני יום הגשת התביעה לקבלת מענק לפי <ref href="#chp_ו">פרק זה</ref> – שליש מהכנסתו בשנת המס 2019 כפי שדווחה באותו דוח, לא היה מתמיכות ותרומות;</p>
+                      </content>
+                    </point>
+                    <point eId="point_7__point_מוסד_ציבורי_זכאי__point_2">
+                      <num>(2)</num>
+                      <content>
+                        <p>עיקר הכנסתו בשנת המס 2018, כפי שדווחה בדוח שהגיש לפי <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_מס_הכנסה#point_131">סעיף 131 לפקודה</ref>, ואם הגיש דוח כאמור לגבי שנת המס 2019 לפני יום הגשת התביעה לקבלת מענק לפי <ref href="#chp_ו">פרק זה</ref> – עיקר הכנסתו בשנת המס 2019, שאינה הכנסה מתמיכות ותרומות, התקבלה ממכירת שירותים או מוצרים שהתמורה בשלהם מתקבלת באופן שוטף ובמהלך רוב חודשי השנה;</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+                <point eId="point_7__point_מחזור_עסקאות">
+                  <list>
+                    <intro>
+                      <p>
+                        <def />”מחזור עסקאות“ –</p>
+                    </intro>
+                    <point eId="point_7__point_מחזור_עסקאות__point_1">
+                      <num>(1)</num>
+                      <content>
+                        <p>לגבי מי שאינו מוסד ציבורי זכאי – מחזור עסקאות של עוסק, כהגדרתו <ref href="/akn/il/act/PrimaryLegislation/1976-01-06/147931">בחוק מס ערך מוסף</ref>, למעט מכירות הוניות ועסקאות שדווחו בידי הקונה לפי <ref href="/akn/il/act/PrimaryLegislation/1976-01-06/147931#point_20">סעיפים 20</ref><ref href="/akn/il/act/PrimaryLegislation/1976-01-06/147931#point_21">או 21 לחוק מס ערך מוסף</ref>;</p>
+                      </content>
+                    </point>
+                    <point eId="point_7__point_מחזור_עסקאות__point_2">
+                      <num>(2)</num>
+                      <content>
+                        <p>לגבי מוסד ציבורי זכאי – הכנסה כהגדרתה <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_מס_הכנסה">בפקודה</ref>;</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+                <point eId="point_7__point_מחזור_עסקאות_בשנת_2019">
+                  <list>
+                    <intro>
+                      <p>
+                        <def />”מחזור עסקאות בשנת 2019“ – מחזור עסקאות כפי שדווח לרשות המסים בישראל על פי דין לגבי שנת 2019, ולעניין כל אחד מאלה, מחזור העסקאות כמפורט לצדו:</p>
+                    </intro>
+                    <point eId="point_7__point_מחזור_עסקאות_בשנת_2019__point_1">
+                      <num>(1)</num>
+                      <content>
+                        <p>לעניין עוסק שפעילותו החלה אחרי יום כ"ד בטבת התשע"ט (1 בינואר 2019) – מחזור העסקאות שלו מיום 1 בחודש שלאחר יום תחילת הפעילות עד יום ג׳ בטבת התש"ף (31 בדצמבר 2019), מחולק במספר חודשי הפעילות בשנת 2019 ומוכפל ב־12;</p>
+                      </content>
+                    </point>
+                    <point eId="point_7__point_מחזור_עסקאות_בשנת_2019__point_2">
+                      <num>(2)</num>
+                      <content>
+                        <p>לעניין עוסק הרשום כשותפות לפי <ref href="/akn/il/act/PrimaryLegislation/1976-01-06/147931">חוק מס ערך מוסף</ref> או עוסק הרשום כעוסק אחד עם עוסק אחר לפי <ref href="/akn/il/act/PrimaryLegislation/1976-01-06/147931#point_56">סעיף 56 לחוק האמור</ref> – לפי מחזור העסקאות המאוחד של השותפות או של העוסקים הרשומים יחד, לפי העניין;</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+                <point eId="point_7__point_מחזור_עסקאות_בשנת_2020">
+                  <content>
+                    <p>
+                      <def />”מחזור עסקאות בשנת 2020“ – מחזור עסקאות כפי שדווח לרשות המסים בישראל על פי דין, מיום תחילת הפעילות ועד היום שלפני תקופת הזכאות, מחולק במספר חודשי הפעילות ומוכפל ב־12;</p>
+                  </content>
+                </point>
+                <point eId="point_7__point_המנהל">
+                  <content>
+                    <p>
+                      <def />”המנהל“ – מנהל רשות המסים בישראל או מי שהמנהל הסמיכו לעניין <ref href="#chp_ו">פרק זה</ref>;</p>
+                  </content>
+                </point>
+                <point eId="point_7__point_מקדם_הוצאות_קבועות">
+                  <list>
+                    <intro>
+                      <p>
+                        <def />”מקדם הוצאות קבועות“ – אחד מאלה:</p>
+                    </intro>
+                    <point eId="point_7__point_מקדם_הוצאות_קבועות__point_1">
+                      <num>(1)</num>
+                      <list>
+                        <intro>
+                          <p>לגבי עוסק – הסכום המתקבל מצירוף של שני אלה:</p>
+                        </intro>
+                        <point eId="point_7__point_מקדם_הוצאות_קבועות__point_1__point_א">
+                          <num>(א)</num>
+                          <list>
+                            <intro>
+                              <p>התוצאה המתקבלת מהכפלת 0.9 ביחס שבין שני אלה:</p>
+                            </intro>
+                            <point eId="point_7__point_מקדם_הוצאות_קבועות__point_1__point_א__point_1">
+                              <num>(1)</num>
+                              <content>
+                                <p>סך כל התשומות השוטפות, למעט תשומות ציוד כהגדרתו <ref href="/akn/il/act/PrimaryLegislation/1976-01-06/147931">בחוק מס ערך מוסף</ref> (<ref href="#chp_ו">בפרק זה</ref> – תשומות ציוד), כפי שדווח לרשות המסים בישראל לפי דין בשל שנת המס 2019;</p>
+                              </content>
+                            </point>
+                            <point eId="point_7__point_מקדם_הוצאות_קבועות__point_1__point_א__point_2">
+                              <num>(2)</num>
+                              <content>
+                                <p>מחזור העסקאות לשנת 2019;</p>
+                              </content>
+                            </point>
+                          </list>
+                        </point>
+                        <point eId="point_7__point_מקדם_הוצאות_קבועות__point_1__point_ב">
+                          <num>(ב)</num>
+                          <content>
+                            <p>סכום הוצאות השכר הנחסכות מחולק במחזור העסקאות לשנת 2019;</p>
+                          </content>
+                        </point>
+                      </list>
+                    </point>
+                    <point eId="point_7__point_מקדם_הוצאות_קבועות__point_2">
+                      <num>(2)</num>
+                      <list>
+                        <intro>
+                          <p>לגבי עוסק שהוא מוסד ציבורי זכאי – הסכום המתקבל מצירוף של שני אלה:</p>
+                        </intro>
+                        <point eId="point_7__point_מקדם_הוצאות_קבועות__point_2__point_א">
+                          <num>(א)</num>
+                          <content>
+                            <p>סך כל ההוצאות הקשורות למכירת שירותים או מוצרים המסופקים באופן שוטף ובמהלך רוב חודשי השנה, בשל שנת המס 2018, ואם הוגש לפני יום הגשת התביעה לקבלת מענק לפי <ref href="#chp_ו">פרק זה</ref> דוח לשנת המס 2019 – סך כל ההוצאות האמורות בשל שנת המס 2019, מחולק בסך הכנסתו בשנת המס 2018 או 2019, לפי העניין;</p>
+                          </content>
+                        </point>
+                        <point eId="point_7__point_מקדם_הוצאות_קבועות__point_2__point_ב">
+                          <num>(ב)</num>
+                          <content>
+                            <p>סכום הוצאות השכר הנחסכות מחולק במחזור העסקאות לשנת 2018, ואם הוגש לפני יום הגשת התביעה לקבלת מענק לפי <ref href="#chp_ו">פרק זה</ref> דוח לשנת המס 2019 – במחזור העסקאות לשנת 2019;</p>
+                          </content>
+                        </point>
+                      </list>
+                    </point>
+                    <point eId="point_7__point_מקדם_הוצאות_קבועות__point_3">
+                      <num>(3)</num>
+                      <list>
+                        <intro>
+                          <p>לגבי עוסק הרשום כעוסק אחד עם עוסק אחר לפי הוראות <ref href="/akn/il/act/PrimaryLegislation/1976-01-06/147931#point_56">סעיף 56 לחוק מס ערך מוסף</ref> – הסכום שהיה מתקבל מצירוף של שני אלה, והכול אילולא היה העוסק רשום כעוסק אחד עם עוסק אחר:</p>
+                        </intro>
+                        <point eId="point_7__point_מקדם_הוצאות_קבועות__point_3__point_א">
+                          <num>(א)</num>
+                          <list>
+                            <intro>
+                              <p>התוצאה המתקבלת מהכפלת 0.9 ביחס שבין שני אלה:</p>
+                            </intro>
+                            <point eId="point_7__point_מקדם_הוצאות_קבועות__point_3__point_א__point_1">
+                              <num>(1)</num>
+                              <content>
+                                <p>סך כל התשומות השוטפות, למעט תשומות ציוד, כפי שדווח לרשות המסים בישראל לפי דין בשל שנת המס 2019;</p>
+                              </content>
+                            </point>
+                            <point eId="point_7__point_מקדם_הוצאות_קבועות__point_3__point_א__point_2">
+                              <num>(2)</num>
+                              <content>
+                                <p>סכום מחזור עסקאותיו בשנת המס 2019;</p>
+                              </content>
+                            </point>
+                          </list>
+                        </point>
+                        <point eId="point_7__point_מקדם_הוצאות_קבועות__point_3__point_ב">
+                          <num>(ב)</num>
+                          <content>
+                            <p>סכום הוצאות השכר הנחסכות מחולק בסכום הכנסתו לשנת המס 2019;</p>
+                          </content>
+                        </point>
+                      </list>
+                    </point>
+                  </list>
+                </point>
+                <point eId="point_7__point_מקדם_השתתפות_בהוצאות_קבועות">
+                  <list>
+                    <intro>
+                      <p>
+                        <def />”מקדם השתתפות בהוצאות קבועות“ –</p>
+                    </intro>
+                    <point eId="point_7__point_מקדם_השתתפות_בהוצאות_קבועות__point_1">
+                      <num>(1)</num>
+                      <content>
+                        <p>לגבי עוסק שמחזור עסקאותיו לשנת 2019 עולה על 300 אלף שקלים חדשים ואינו עולה על 1.5 מיליון שקלים חדשים – 0.3;</p>
+                      </content>
+                    </point>
+                    <point eId="point_7__point_מקדם_השתתפות_בהוצאות_קבועות__point_2">
+                      <num>(2)</num>
+                      <content>
+                        <p>לגבי עוסק שמחזור עסקאותיו לשנת 2019 עולה על 1.5 מיליון שקלים חדשים – ההפרש שבין 1 לבין מקדם הוצאות קבועות, ולא יותר מ־0.3; המנהל רשאי לקבוע מקדם אחר לגבי עוסק כאמור בפסקה זו, אם שוכנע כי המקדם לפי פסקה זו אינו משקף את ההוצאות הקבועות של העסק במקרה של אי־הפעלת עסק מסוג עיסוקו של העוסק, ובלבד שהמקדם שיקבע לא יעלה על 0.3;</p>
+                      </content>
+                    </point>
+                    <point eId="point_7__point_מקדם_השתתפות_בהוצאות_קבועות__point_3">
+                      <num>(3)</num>
+                      <content>
+                        <p>לגבי עוסק במסחר סיטונאי או קמעונאי בדלק – ההפרש שבין 1 לבין מקדם הוצאות קבועות, ולא יותר מ־0.075;</p>
+                      </content>
+                    </point>
+                    <point eId="point_7__point_מקדם_השתתפות_בהוצאות_קבועות__point_4">
+                      <num>(4)</num>
+                      <content>
+                        <p>לגבי עוסק שבשנות המס 2019 ו־2020 חל עליו הפטור לפי <ref href="/akn/il/act/PrimaryLegislation/1976-01-06/147931#point_33">סעיף 33 לחוק מס ערך מוסף</ref> – ההפרש שבין 1 לבין מקדם הוצאות קבועות, ולא יותר מ־0.04;</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+                <point eId="point_7__point_סכום_הוצאות_השכר_הנחסכות">
+                  <content>
+                    <p>
+                      <def />”סכום הוצאות השכר הנחסכות“ – סכום השכר הקובע לתקופת הזכאות בעבור כלל העובדים שהוצאו לחופשה ללא תשלום, שפוטרו או שעבודתם הופסקה בדרך אחרת, מוכפל ב־6;</p>
+                  </content>
+                </point>
+                <point eId="point_7__point_סכום_השכר_הקובע_לתקופת_הזכאות">
+                  <list>
+                    <intro>
+                      <p>
+                        <def />”סכום השכר הקובע לתקופת הזכאות“ – סכום השווה למכפלת 1.25 בשני אלה:</p>
+                    </intro>
+                    <point eId="point_7__point_סכום_השכר_הקובע_לתקופת_הזכאות__point_1">
+                      <num>(1)</num>
+                      <content>
+                        <p>שכר העבודה החודשי הממוצע של עובד שהוצא לחופשה ללא תשלום, שפוטר או שעבודתו הופסקה בדרך אחרת, החייב בדמי ביטוח לאומי, ומחושב לפי שלושת החודשים האחרונים שאותו עובד עבד בהם לפני תקופת הזכאות;</p>
+                      </content>
+                    </point>
+                    <point eId="point_7__point_סכום_השכר_הקובע_לתקופת_הזכאות__point_2">
+                      <num>(2)</num>
+                      <content>
+                        <p>היחס שבין מספר ימי העבודה בתקופת הזכאות שבהם לא עבד העובד בשל הוצאתו לחופשה בלא תשלום, בשל פיטוריו או בשל הפסקת עבודתו, לבין סך ימי העבודה בתקופת הזכאות;</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+                <point eId="point_7__point_עוסק">
+                  <list>
+                    <intro>
+                      <p>
+                        <def />”עוסק“ – חייב במס כהגדרתו <ref href="/akn/il/act/PrimaryLegislation/1976-01-06/147931">בחוק מס ערך מוסף</ref>, למעט כל אלה:</p>
+                    </intro>
+                    <point eId="point_7__point_עוסק__point_1">
+                      <num>(1)</num>
+                      <content>
+                        <p>גוף מתוקצב כהגדרתו <ref href="/akn/il/act/PrimaryLegislation/1985-04-03/150399#point_21">בסעיף 21 לחוק יסודות התקציב</ref>;</p>
+                      </content>
+                    </point>
+                    <point eId="point_7__point_עוסק__point_2">
+                      <num>(2)</num>
+                      <content>
+                        <p>קופת חולים;</p>
+                      </content>
+                    </point>
+                    <point eId="point_7__point_עוסק__point_3">
+                      <num>(3)</num>
+                      <content>
+                        <p>תאגיד בריאות כהגדרתו <ref href="/akn/il/act/PrimaryLegislation/1985-04-03/150399#point_21">בסעיף 21 לחוק יסודות התקציב</ref>;</p>
+                      </content>
+                    </point>
+                    <point eId="point_7__point_עוסק__point_4">
+                      <num>(4)</num>
+                      <content>
+                        <p>מוסד ציבורי כהגדרתו <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_מס_הכנסה#point_9_2">בסעיף 9(2)(ב) לפקודה</ref>, למעט מוסד כאמור שהוא מוסד ציבורי זכאי;</p>
+                      </content>
+                    </point>
+                    <point eId="point_7__point_עוסק__point_5">
+                      <num>(5)</num>
+                      <content>
+                        <p>מי שעיסוקו במכירת זכות במקרקעין המהווה מלאי עסקי בידו או מי שבשנות המס 2019 ו־2020 חל בחישוב הכנסתו <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_מס_הכנסה#point_8א">סעיף 8א לפקודה</ref>, בשל עבודה ממושכת שמשך ביצועה עולה על שנה;</p>
+                      </content>
+                    </point>
+                    <point eId="point_7__point_עוסק__point_6">
+                      <num>(6)</num>
+                      <list>
+                        <intro>
+                          <p>מוסד פיננסי כמפורט להלן:</p>
+                        </intro>
+                        <point eId="point_7__point_עוסק__point_6__point_א">
+                          <num>(א)</num>
+                          <content>
+                            <p>תאגיד בנקאי כהגדרתו <ref href="/akn/il/act/PrimaryLegislation/1981-04-26/147066">בחוק הבנקאות (רישוי), התשמ"א–1981</ref>, לרבות תאגיד עזר כהגדרתו בחוק האמור;</p>
+                          </content>
+                        </point>
+                        <point eId="point_7__point_עוסק__point_6__point_ב">
+                          <num>(ב)</num>
+                          <content>
+                            <p>מבטח כהגדרתו <ref href="/akn/il/act/PrimaryLegislation/1981-04-23/148363">בחוק הפיקוח על שירותים פיננסיים (ביטוח), התשמ"א–1981</ref>;</p>
+                          </content>
+                        </point>
+                        <point eId="point_7__point_עוסק__point_6__point_ג">
+                          <num>(ג)</num>
+                          <content>
+                            <p>חבר בורסה כהגדרתו <ref href="/akn/il/act/PrimaryLegislation/1968-08-22/150242">בחוק ניירות ערך, התשכ"ח–1968</ref>;</p>
+                          </content>
+                        </point>
+                        <point eId="point_7__point_עוסק__point_6__point_ד">
+                          <num>(ד)</num>
+                          <content>
+                            <p>חברה מנהלת כהגדרתה <ref href="/akn/il/act/PrimaryLegislation/2005-08-10/100899">בחוק הפיקוח על שירותים פיננסיים (קופות גמל), התשס"ה–2005</ref>;</p>
+                          </content>
+                        </point>
+                        <point eId="point_7__point_עוסק__point_6__point_ה">
+                          <num>(ה)</num>
+                          <content>
+                            <p>מנהל קרן כמשמעותו <ref href="/akn/il/act/PrimaryLegislation/1994-08-23/155776">בחוק השקעות משותפות בנאמנות, התשנ"ד–1994</ref>;</p>
+                          </content>
+                        </point>
+                      </list>
+                    </point>
+                    <point eId="point_7__point_עוסק__point_7">
+                      <num>(7)</num>
+                      <content>
+                        <p>תאגיד שהוקם בחוק או לפיו;</p>
+                      </content>
+                    </point>
+                    <point eId="point_7__point_עוסק__point_8">
+                      <num>(8)</num>
+                      <content>
+                        <p>עוסק שדיווח לרשות המסים בישראל על סגירת עסקו לפני תקופת הזכאות; לעניין זה, יראו גם עוסק שחלה ירידה ניכרת בהוצאות שהוציא לצורך ייצור הכנסה בעסקו בשל הפסקת פעילות העסק, ודיווח על מחזור עסקאות בשיעור אפס לגבי תקופת הזכאות כמי שדיווח על סגירת עסקו;</p>
+                      </content>
+                    </point>
+                    <point eId="point_7__point_עוסק__point_9">
+                      <num>(9)</num>
+                      <content>
+                        <p>עוסק שדיווח לגבי שלושת החודשים שלפני חודש מרס 2020 על מחזור עסקאות בשיעור אפס;</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+                <point eId="point_7__point_הפקודה">
+                  <content>
+                    <p>
+                      <def />”הפקודה“ – <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_מס_הכנסה">פקודת מס הכנסה</ref>;</p>
+                  </content>
+                </point>
+                <point eId="point_7__point_תמיכות_ותרומות">
+                  <content>
+                    <p>
+                      <def />”תמיכות ותרומות“ – תמיכה לפי <ref href="/akn/il/act/PrimaryLegislation/1985-04-03/150399#point_3א">סעיף 3א לחוק יסודות התקציב</ref>, תמיכה מאת רשות מקומית או תרומות;</p>
+                  </content>
+                </point>
+                <point eId="point_7__point_תקופת_הבסיס">
+                  <content>
+                    <p>
+                      <def />”תקופת הבסיס“ – התקופה המקבילה בשנת 2019 לתקופת הזכאות;</p>
+                  </content>
+                </point>
+                <point eId="point_7__point_תקופת_הזכאות">
+                  <list>
+                    <intro>
+                      <p>
+                        <def />”תקופת הזכאות“ – התקופות כמפורט בפסקאות (1) עד (3) ובפסקה (5) אלא אם כן קבע שר האוצר בצו, באישור ועדת הכספים של הכנסת, כי לא יינתן לגבי תקופה מסוימת מענק לפי <ref href="#chp_ו">פרק זה</ref>, וכן כל אחת מהתקופות המפורטות בפסקאות (4), (6) ו־(7) ששר האוצר קבע בצו, באישור ועדת הכספים של הכנסת, כי יינתן לגביה מענק לפי <ref href="#chp_ו">פרק זה</ref>:</p>
+                    </intro>
+                    <point eId="point_7__point_תקופת_הזכאות__point_1">
+                      <num>(1)</num>
+                      <content>
+                        <p>התקופה שמיום ז׳ באייר התש"ף (1 במאי 2020) עד יום ח׳ בתמוז התש"ף (30 ביוני 2020);</p>
+                      </content>
+                    </point>
+                    <point eId="point_7__point_תקופת_הזכאות__point_2">
+                      <num>(2)</num>
+                      <content>
+                        <p>התקופה שמיום ט׳ בתמוז התש"ף (1 ביולי 2020) עד יום י"א באלול התש"ף (31 באוגוסט 2020);</p>
+                      </content>
+                    </point>
+                    <point eId="point_7__point_תקופת_הזכאות__point_3">
+                      <num>(3)</num>
+                      <content>
+                        <p>התקופה שמיום י"ב באלול התש"ף (1 בספטמבר 2020) עד יום י"ג בחשוון התשפ"א (31 באוקטובר 2020);</p>
+                      </content>
+                    </point>
+                    <point eId="point_7__point_תקופת_הזכאות__point_4">
+                      <num>(4)</num>
+                      <content>
+                        <p>התקופה שמיום י"ז בחשוון התשפ"א (1 בנובמבר 2020) עד יום ט"ז בטבת התשפ"א (31 בדצמבר 2020);</p>
+                      </content>
+                    </point>
+                    <point eId="point_7__point_תקופת_הזכאות__point_5">
+                      <num>(5)</num>
+                      <content>
+                        <p>התקופה שמיום י"ז בטבת התשפ"א (1 בינואר 2021) עד יום ט"ז באדר התשפ"א (28 בפברואר 2021);</p>
+                      </content>
+                    </point>
+                    <point eId="point_7__point_תקופת_הזכאות__point_6">
+                      <num>(6)</num>
+                      <content>
+                        <p>התקופה שמיום י"ז באדר התשפ"א (1 במרס 2021) עד יום י"ח באייר התשפ"א (30 באפריל 2021);</p>
+                      </content>
+                    </point>
+                    <point eId="point_7__point_תקופת_הזכאות__point_7">
+                      <num>(7)</num>
+                      <content>
+                        <p>התקופה שמיום י"ט באייר התשפ"א (1 במאי 2021) עד יום כ׳ בתמוז התשפ"א (30 ביוני 2021);<br space="preserve"></br><wikicomment font-size="x-small">פורסם צו התכנית לסיוע כלכלי (נגיף הקורונה החדש) (הוראת שעה) (הארכת תקופת הזכאות למענק סיוע לעסקים בעד השתתפות בהוצאות קבועות), התשפ"א–2020 (ק"ת תשפ"א, 518), לפיו יינתן מענק לתקופה שמיום י"ז בחשוון התשפ"א (1 בנובמבר 2020) עד יום ט"ז בטבת התשפ"א (31 בדצמבר 2020), כאמור בפסקה (4) להגדרה ”תקופת הזכאות“.</wikicomment></p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+                <point eId="point_7__point_תשומות_שוטפות">
+                  <list>
+                    <intro>
+                      <p>
+                        <def />”תשומות שוטפות“ – אחת מאלה, לפי העניין, למעט תשומות של חברה או שותפות בשל רכישת טובין או קבלת שירות מבעל מניות באותה חברה או שותף באותה שותפות, לפי העניין:</p>
+                    </intro>
+                    <point eId="point_7__point_תשומות_שוטפות__point_1">
+                      <num>(1)</num>
+                      <content>
+                        <p>סך כל התשומות, למעט תשומות ציוד שנרכש לצורכי העסק ושנוכה בשלהן מס תשומות בהתאם <ref href="/akn/il/act/PrimaryLegislation/1976-01-06/147931">לחוק מס ערך מוסף</ref>, כפי שדווח לרשות המסים בישראל באמצעות דוח תקופתי לפי <ref href="/akn/il/act/PrimaryLegislation/1976-01-06/147931#point_67">סעיפים 67</ref><ref href="/akn/il/act/PrimaryLegislation/1976-01-06/147931#point_67א">או 67א לחוק מס ערך מוסף</ref>, לפי העניין, לרבות תשומות החייבות בשיעור מס ערך מוסף אפס ולרבות הוצאות שדווחו בדוח לפי <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_מס_הכנסה#point_131">סעיף 131 לפקודה</ref> שאינן תשומות;</p>
+                      </content>
+                    </point>
+                    <point eId="point_7__point_תשומות_שוטפות__point_2">
+                      <num>(2)</num>
+                      <content>
+                        <p>לגבי עסק שמקום רישומו בעיר אילת – סך התשומות כפי שדווח בדוח השנתי שהוגש לפקיד השומה לגבי שנת 2018, ואם הוגש דוח כאמור לגבי שנת 2019 – כפי שדווח בדוח כאמור;</p>
+                      </content>
+                    </point>
+                    <point eId="point_7__point_תשומות_שוטפות__point_3">
+                      <num>(3)</num>
+                      <content>
+                        <p>לגבי עסק שפעילותו החלה בתקופה שמיום כ"ד בטבת התשע"ט (1 בינואר 2019) עד יום ג׳ בטבת התש"ף (31 בדצמבר 2019) – סך התשומות, למעט תשומות ציוד שנרכש לצורכי העסק ונוכה בשלהן מס תשומות לפי <ref href="/akn/il/act/PrimaryLegislation/1976-01-06/147931">חוק מס ערך מוסף</ref>, כפי שדווח לרשות המסים לפי דין, מה־1 בחודש שלאחר תחילת הפעילות עד יום ג׳ בטבת התש"ף (31 בדצמבר 2019), מחולק במספר חודשי הפעילות בשנת 2019 ומוכפל ב־12.</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+              </list>
+            </point>
+            <point eId="point_8">
+              <heading>
+                <authorialNote placement="side">
+                  <p>מענק סיוע בעד השתתפות בהוצאות קבועות</p>
+                </authorialNote>
+              </heading>
+              <num>8.</num>
+              <list>
+                <intro>
+                  <p>עוסק זכאי למענק בעד השתתפות בהוצאות קבועות בשל ההשפעה הכלכלית של התפשטות נגיף הקורונה החדש, בסכום כאמור <ref href="#point_9">בסעיף 9</ref> ובהתאם להוראות <ref href="#chp_ו">פרק זה</ref> (<ref href="#chp_ו">בפרק זה</ref> – מענק סיוע בעד השתתפות בהוצאות קבועות), אם מתקיימים לגביו כל אלה:</p>
+                </intro>
+                <point eId="point_8__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>מחזור עסקאותיו בשנת 2019 עולה על 18 אלף שקלים חדשים ואינו עולה על 400 מיליון שקלים חדשים;</p>
+                  </content>
+                </point>
+                <point eId="point_8__point_2">
+                  <num>(2)</num>
+                  <list>
+                    <point eId="point_8__point_2__point_א">
+                      <num>(א)</num>
+                      <content>
+                        <p>מחזור עסקאותיו בתקופת הזכאות נמוך ממחזור עסקאותיו בתקופת הבסיס בסכום העולה על 40% ממחזור העסקאות בתקופת הבסיס; לגבי עוסק שפעילותו החלה לאחר תחילת תקופת הבסיס, יראו את מחזור העסקאות בתקופת הבסיס כמחזור עסקאותיו בתקופה שמה־1 בחודש שאחרי תחילת פעילותו עד יום ד׳ באדר התש"ף (29 בפברואר 2020), מחולק במספר חודשי הפעילות בתקופה האמורה ומוכפל ב־2; בפסקת משנה זו, ”עסקה“ – למעט מכר טובין או מתן שירות מאת בעל מניות בחברה או שותף בשותפות לחברה שהוא בעל מניות בה או לשותפות שהוא שותף בה, לפי העניין;</p>
+                      </content>
+                    </point>
+                    <point eId="point_8__point_2__point_ב">
+                      <num>(ב)</num>
+                      <list>
+                        <intro>
+                          <p>על אף האמור בפסקת משנה (א), לעניין תקופת הזכאות הקובעת, יקראו את אותה פסקת משנה כך שבמקום ”40%“ יקראו ”25%“; לעניין פסקת משנה זו –</p>
+                        </intro>
+                        <point eId="point_8__point_2__point_ב__point_1">
+                          <num>(1)</num>
+                          <list>
+                            <intro>
+                              <p>”תקופת הזכאות הקובעת“ – התקופות האמורות <ref href="#point_7">בפסקאות (3) ו־(5) להגדרה ”תקופת הזכאות“ שבסעיף 7</ref>, ולעניין עוסק שמתקיימים לגביו שני אלה – התקופות האמורות <ref href="#point_7">בפסקאות (4) ו־(6) לאותה הגדרה</ref>:</p>
+                            </intro>
+                            <point eId="point_8__point_2__point_ב__point_1__point_א">
+                              <num>(א)</num>
+                              <content>
+                                <p>בתקופת פעילותו שמיום כ"ד בטבת התשע"ט (1 בינואר 2019) ואילך, חל החיוב במס על עיקר עסקאותיו עם קבלת התמורה, והתמורה התקבלה בחלוף יותר מ־30 ימים מיום מסירת הטובין או מתן השירות, לפי העניין; לעניין זה, ”חיוב במס“ – כמשמעותו <ref href="/akn/il/act/PrimaryLegislation/1976-01-06/147931#chp_ו">בפרק ו׳ לחוק מס ערך מוסף</ref>;</p>
+                              </content>
+                            </point>
+                            <point eId="point_8__point_2__point_ב__point_1__point_ב">
+                              <num>(ב)</num>
+                              <content>
+                                <p>לעניין תקופת הזכאות האמורה <ref href="#point_7">בפסקה (4) להגדרה ”תקופת הזכאות“ שבסעיף 7</ref> – הוא אינו זכאי למענק בעד תקופת הזכאות האמורה <ref href="#point_7">בפסקה (3) להגדרה האמורה</ref>;</p>
+                              </content>
+                            </point>
+                          </list>
+                        </point>
+                        <point eId="point_8__point_2__point_ב__point_2">
+                          <num>(2)</num>
+                          <content>
+                            <p>על אף האמור בפסקת משנה (1), שר האוצר רשאי לקבוע, בצו, כי ”תקופת הזכאות הקובעת“ כאמור באותה פסקת משנה תכלול גם את אחת או יותר מהתקופות האמורות <ref href="#point_7">בפסקאות (4), (6) ו־(7) להגדרה ”תקופת הזכאות“ שבסעיף 7</ref>, ולעניין עוסק שמתקיים לגביו האמור בפסקאות משנה (א) ו־(ב) של פסקת משנה (1) – גם את התקופות האמורות <ref href="#point_7">בפסקאות (5) ו־(7) לאותה הגדרה</ref>, לפי העניין, ובלבד ששר האוצר קבע כי יינתן לגבי <ref href="#point_7">אחת או יותר מהתקופות האמורות בפסקאות (4), (6) ו־(7) להגדרה האמורה</ref> מענק לפי <ref href="#chp_ו">פרק זה</ref>, כאמור ברישה לאותה הגדרה; שר האוצר ידווח לוועדת הכספים של הכנסת לא יאוחר מיום י"ב בחשוון התשפ"א (30 באוקטובר 2020) אם החליט שלא לכלול תקופות נוספות על תקופת הזכאות הקובעת לפי פסקת משנה זו;<br space="preserve"></br><wikicomment font-size="x-small">פורסם צו התכנית לסיוע כלכלי (נגיף הקורונה החדש) (הוראת שעה) (שיעור ירידת מחזור העסקאות בתקופת הזכאות הקובעת), התשפ"א–2020 (ק"ת תשפ"א, 519), לפיו ”תקופת הזכאות הקובעת“ תכלול גם את התקופה שמיום י"ז בחשוון התשפ"א (1 בנובמבר 2020) עד יום ט"ז בטבת התשפ"א (31 בדצמבר 2020), כאמור <ref href="#point_7">בפסקה (4) להגדרה ”תקופת הזכאות“ שבסעיף 7</ref>.</wikicomment></p>
+                          </content>
+                        </point>
+                      </list>
+                    </point>
+                    <point eId="point_8__point_2__point_ג">
+                      <num>(ג)</num>
+                      <content>
+                        <p>על אף האמור בפסקת משנה (א), לגבי עוסק שמחזור עסקאותיו לשנת 2019 אינו עולה על 300 אלף שקלים חדשים, יקראו את אותה פסקת משנה, לעניין תקופת הזכאות האמורה <ref href="#point_7">בפסקה (1) להגדרה ”תקופת הזכאות“ שבסעיף 7</ref>, כך שבמקום ”40%“ יבוא ”25%“;</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+                <point eId="point_8__point_3">
+                  <num>(3)</num>
+                  <content>
+                    <p>הירידה במחזורי העסקאות כאמור בפסקה (2) נגרמה מההשפעה הכלכלית של התפשטות נגיף הקורונה החדש;</p>
+                  </content>
+                </point>
+                <point eId="point_8__point_4">
+                  <num>(4)</num>
+                  <content>
+                    <p>
+                      <wikicomment font-size="x-small">(נמחקה);</wikicomment>
+                    </p>
+                  </content>
+                </point>
+                <point eId="point_8__point_5">
+                  <num>(5)</num>
+                  <content>
+                    <p>הוא הגיש דוח תקופתי לפי <ref href="/akn/il/act/PrimaryLegislation/1976-01-06/147931#point_67">סעיפים 67</ref>, <ref href="/akn/il/act/PrimaryLegislation/1976-01-06/147931#point_67א">67א</ref><ref href="/akn/il/act/PrimaryLegislation/1976-01-06/147931#point_71א">או 71א לחוק מס ערך מוסף</ref>, לתקופת הבסיס ולתקופת הזכאות, או הצהרה לפי <ref href="/akn/il/act/SecondaryLegislation/1976-02-09/100008536#point_15">תקנה 15 לתקנות מס ערך מוסף (רישום), התשל"ו–1976</ref>, לשנת 2020, לפי העניין, אם היה חייב בהגשתם לפי <ref href="/akn/il/act/PrimaryLegislation/1976-01-06/147931">חוק מס ערך מוסף</ref>, ולגבי עוסק שבשנות המס 2019 ו־2020 חל עליו הפטור לפי <ref href="/akn/il/act/PrimaryLegislation/1976-01-06/147931#point_33">סעיף 33 לחוק מס ערך מוסף</ref> – הוא הגיש דוח שנתי לשנת המס 2018 בהתאם <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_מס_הכנסה#point_131">לסעיף 131 לפקודת מס הכנסה</ref>, אם היה חייב בהגשתו, עד יום הגשת תביעה לקבלת מענק לפי <ref href="#point_11">סעיף 11</ref>;</p>
+                  </content>
+                </point>
+                <point eId="point_8__point_6">
+                  <num>(6)</num>
+                  <content>
+                    <p>העוסק החל בפעילותו לפני יום ד׳ בטבת התש"ף (1 בינואר 2020).</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_9">
+              <heading>
+                <authorialNote placement="side">
+                  <p>סכום מענק הסיוע בעד השתתפות בהוצאות קבועות</p>
+                </authorialNote>
+              </heading>
+              <num>9.</num>
+              <list>
+                <point eId="point_9__point_א">
+                  <num>(א)</num>
+                  <list>
+                    <intro>
+                      <p>מענק הסיוע בעד השתתפות בהוצאות קבועות יהיה בסכומים המפורטים להלן:</p>
+                    </intro>
+                    <point eId="point_9__point_א__point_1">
+                      <num>(1)</num>
+                      <content>
+                        <p>לעוסק שמחזור עסקאותיו לשנת 2019 אינו עולה על 100 אלף שקלים חדשים – 3,000 שקלים חדשים;</p>
+                      </content>
+                    </point>
+                    <point eId="point_9__point_א__point_2">
+                      <num>(2)</num>
+                      <content>
+                        <p>לעוסק שמחזור עסקאותיו לשנת 2019 עולה על 100 אלף שקלים חדשים אך אינו עולה על 200 אלף שקלים חדשים – 4,000 שקלים חדשים;</p>
+                      </content>
+                    </point>
+                    <point eId="point_9__point_א__point_3">
+                      <num>(3)</num>
+                      <content>
+                        <p>לעוסק שמחזור עסקאותיו לשנת 2019 עולה על 200 אלף שקלים חדשים אך אינו עולה על 300 אלף שקלים חדשים – 6,000 שקלים חדשים;</p>
+                      </content>
+                    </point>
+                    <point eId="point_9__point_א__point_4">
+                      <num>(4)</num>
+                      <list>
+                        <intro>
+                          <p>לעוסק שמחזור עסקאותיו לשנת 2019 עולה על 300 אלף שקלים חדשים – הסכומים המפורטים להלן, לפי העניין, ובלבד שלא יפחתו מ־6,000 שקלים חדשים ולא יעלו על 500 אלף שקלים חדשים:</p>
+                        </intro>
+                        <point eId="point_9__point_א__point_4__point_א">
+                          <num>(א)</num>
+                          <content>
+                            <p>לעוסק שמחזור עסקאותיו לשנת 2019 אינו עולה על 100 מיליון שקלים חדשים ושיעור הירידה במחזור העסקאות שלו כאמור <ref href="#point_8">בסעיף 8(2)</ref>, עולה על 40% ואינו עולה על 60% – סכום השווה למכפלה של 0.2 במקדם ההשתתפות בהוצאות הקבועות ובמחזור העסקאות בתקופת הבסיס;</p>
+                          </content>
+                        </point>
+                        <point eId="point_9__point_א__point_4__point_ב">
+                          <num>(ב)</num>
+                          <content>
+                            <p>לעוסק שמחזור עסקאותיו לשנת 2019 אינו עולה על 200 מיליון שקלים חדשים ושיעור הירידה במחזור העסקאות שלו כאמור <ref href="#point_8">בסעיף 8(2)</ref>, עולה על 60% אך אינו עולה על 80% – סכום השווה למכפלה של 0.35 במקדם ההשתתפות בהוצאות הקבועות ובמחזור העסקאות בתקופת הבסיס;</p>
+                          </content>
+                        </point>
+                        <point eId="point_9__point_א__point_4__point_ג">
+                          <num>(ג)</num>
+                          <content>
+                            <p>לעוסק ששיעור הירידה במחזור העסקאות שלו כאמור <ref href="#point_8">בסעיף 8(2)</ref>, עולה על 80% – סכום השווה למכפלה של 0.5 במקדם ההשתתפות בהוצאות הקבועות ובמחזור העסקאות בתקופת הבסיס.</p>
+                          </content>
+                        </point>
+                      </list>
+                    </point>
+                  </list>
+                </point>
+                <point eId="point_9__point_ב">
+                  <num>(ב)</num>
+                  <list>
+                    <intro>
+                      <p>על אף האמור בסעיף קטן (א)(4) –</p>
+                    </intro>
+                    <point eId="point_9__point_ב__point_1">
+                      <num>(1)</num>
+                      <list>
+                        <intro>
+                          <p>לעניין סכום המענק בעד תקופת הזכאות האמורה <ref href="#point_7">בפסקה (3) להגדרה ”תקופת הזכאות“ שבסעיף 7</ref>, ולעוסק שהתקיים בו האמור <ref href="#point_8">בפסקאות משנה (א) ו־(ב) של סעיף 8(2)(ב)(1)</ref> – תקופת הזכאות האמורה <ref href="#point_7">בפסקה (4) לאותה הגדרה</ref> יקראו את פסקאות משנה (א) עד (ג) של סעיף קטן (א)(4) כך:</p>
+                        </intro>
+                        <point eId="point_9__point_ב__point_1__point_&amp;quotא">
+                          <num>&amp;quot;(א)</num>
+                          <content>
+                            <p>לעוסק ששיעור הירידה במחזור העסקאות שלו כאמור <ref href="#point_8">בסעיף 8(2)</ref> עולה על 25% אך אינו עולה על 40% – סכום השווה למכפלה של 0.1 במקדם ההשתתפות בהוצאות הקבועות ובמחזור העסקאות בתקופת הבסיס;</p>
+                          </content>
+                        </point>
+                        <point eId="point_9__point_ב__point_1__point_ב">
+                          <num>(ב)</num>
+                          <content>
+                            <p>לעוסק ששיעור הירידה במחזור העסקאות שלו כאמור <ref href="#point_8">בסעיף 8(2)</ref> עולה על 40% אך אינו עולה על 60% – סכום השווה למכפלה של 0.2 במקדם ההשתתפות בהוצאות הקבועות ובמחזור העסקאות בתקופת הבסיס;</p>
+                          </content>
+                        </point>
+                        <point eId="point_9__point_ב__point_1__point_ג">
+                          <num>(ג)</num>
+                          <content>
+                            <p>לעוסק ששיעור הירידה במחזור העסקאות שלו כאמור <ref href="#point_8">בסעיף 8(2)</ref> עולה על 60% אך אינו עולה על 80% – סכום השווה למכפלה של 0.35 במקדם ההשתתפות בהוצאות הקבועות ובמחזור העסקאות בתקופת הבסיס;</p>
+                          </content>
+                        </point>
+                        <point eId="point_9__point_ב__point_1__point_ד">
+                          <num>(ד)</num>
+                          <content>
+                            <p>לעוסק ששיעור הירידה במחזור העסקאות שלו כאמור <ref href="#point_8">בסעיף 8(2)</ref> עולה על 80% – סכום השווה למכפלה של 0.5 במקדם ההשתתפות בהוצאות הקבועות ובמחזור העסקאות בתקופת הבסיס.";</p>
+                          </content>
+                        </point>
+                      </list>
+                    </point>
+                    <point eId="point_9__point_ב__point_2">
+                      <num>(2)</num>
+                      <list>
+                        <intro>
+                          <p>לעניין תקופת זכאות קובעת כהגדרתה <ref href="#point_8">בסעיף 8(2)(ב)(1)</ref> שלא התקיים לגביה האמור בפסקה (1), יקראו את פסקאות משנה (א) עד (ג) של סעיף קטן (א)(4), לעניין סכום המענק בעד התקופות הנוספות כאמור, כך:</p>
+                        </intro>
+                        <point eId="point_9__point_ב__point_2__point_&amp;quotא">
+                          <num>&amp;quot;(א)</num>
+                          <content>
+                            <p>לעוסק שמחזור עסקאותיו לשנת 2019 אינו עולה על 100 מיליון שקלים חדשים ושיעור הירידה במחזור העסקאות שלו כאמור <ref href="#point_8">בסעיף 8(2)</ref> עולה על 25% אך אינו עולה על 40% – סכום השווה למכפלה של 0.1 במקדם ההשתתפות בהוצאות הקבועות ובמחזור העסקאות בתקופת הבסיס;</p>
+                          </content>
+                        </point>
+                        <point eId="point_9__point_ב__point_2__point_ב">
+                          <num>(ב)</num>
+                          <content>
+                            <p>לעוסק שמחזור עסקאותיו לשנת 2019 אינו עולה על 200 מיליון שקלים חדשים ושיעור הירידה במחזור העסקאות שלו כאמור <ref href="#point_8">בסעיף 8(2)</ref> עולה על 40% אך אינו עולה על 60% – סכום השווה למכפלה של 0.2 במקדם ההשתתפות בהוצאות הקבועות ובמחזור העסקאות בתקופת הבסיס;</p>
+                          </content>
+                        </point>
+                        <point eId="point_9__point_ב__point_2__point_ג">
+                          <num>(ג)</num>
+                          <content>
+                            <p>לעוסק ששיעור הירידה במחזור העסקאות שלו כאמור <ref href="#point_8">בסעיף 8(2)</ref> עולה על 60% אך אינו עולה על 80% – סכום השווה למכפלה של 0.35 במקדם ההשתתפות בהוצאות הקבועות ובמחזור העסקאות בתקופת הבסיס;</p>
+                          </content>
+                        </point>
+                        <point eId="point_9__point_ב__point_2__point_ד">
+                          <num>(ד)</num>
+                          <content>
+                            <p>לעוסק ששיעור הירידה במחזור העסקאות שלו כאמור <ref href="#point_8">בסעיף 8(2)</ref> עולה על 80% – סכום השווה למכפלה של 0.5 במקדם ההשתתפות בהוצאות הקבועות ובמחזור העסקאות בתקופת הבסיס."</p>
+                          </content>
+                        </point>
+                      </list>
+                    </point>
+                  </list>
+                </point>
+                <point eId="point_9__point_ג">
+                  <num>(ג)</num>
+                  <content>
+                    <p>על אף האמור בסעיפים קטנים (א) ו־(ב), סכומי המענק לתקופה האמורה <ref href="#point_7">בפסקה (7) להגדרה ”תקופת הזכאות“ שבסעיף 7</ref> יהיו מחצית הסכומים המפורטים בסעיף זה.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_10">
+              <heading>
+                <authorialNote placement="side">
+                  <p>מענק לעוסק שהחל את פעילותו בשנת 2020 וסכומו</p>
+                </authorialNote>
+              </heading>
+              <num>10.</num>
+              <list>
+                <point eId="point_10__point_א">
+                  <num>(א)</num>
+                  <list>
+                    <intro>
+                      <p>עוסק שהחל את פעילותו בתקופה שמיום ד׳ בטבת התש"ף (1 בינואר 2020) עד יום ד׳ באדר התש"ף (29 בפברואר 2020), זכאי למענק בעבור תקופת הזכאות בסכום כמפורט בסעיף קטן (ב), אם מתקיימים לגביו כל אלה:</p>
+                    </intro>
+                    <point eId="point_10__point_א__point_1">
+                      <num>(1)</num>
+                      <content>
+                        <p>מחזור עסקאותיו בשנת 2020 עולה על 18 אלף שקלים חדשים ואינו עולה על 100 מיליון שקלים חדשים;</p>
+                      </content>
+                    </point>
+                    <point eId="point_10__point_א__point_2">
+                      <num>(2)</num>
+                      <content>
+                        <p>מחזור עסקאותיו בחודשים ינואר ופברואר 2020 עולה על 1,500 שקלים חדשים;</p>
+                      </content>
+                    </point>
+                    <point eId="point_10__point_א__point_3">
+                      <num>(3)</num>
+                      <content>
+                        <p>מחזור עסקאותיו בתקופת הזכאות נמוך ממחזור עסקאותיו בחודשים ינואר ופברואר 2020, בשל ההשפעה הכלכלית של התפשטות נגיף הקורונה החדש; לגבי עוסק שפעילותו החלה מיום ד׳ בטבת התש"ף (1 בינואר 2020) ואילך, יראו לעניין פסקה זו את מחזור העסקאות בחודשים ינואר ופברואר 2020 כמחזור עסקאותיו בתקופה שמיום תחילת הפעילות ועד יום ד׳ באדר התש"ף (29 בפברואר 2020), כשהוא מחולק במספר חודשי הפעילות בחודשים ינואר ופברואר 2020 ומוכפל ב־2;</p>
+                      </content>
+                    </point>
+                    <point eId="point_10__point_א__point_4">
+                      <num>(4)</num>
+                      <content>
+                        <p>הוא הגיש דוח תקופתי לפי <ref href="/akn/il/act/PrimaryLegislation/1976-01-06/147931#point_67">סעיפים 67</ref>, <ref href="/akn/il/act/PrimaryLegislation/1976-01-06/147931#point_67א">67א</ref><ref href="/akn/il/act/PrimaryLegislation/1976-01-06/147931#point_71א">או 71א לחוק מס ערך מוסף</ref>, לגבי תקופת הזכאות, או הצהרה לפי <ref href="/akn/il/act/SecondaryLegislation/1976-02-09/100008536#point_15">תקנה 15 לתקנות מס ערך מוסף (רישום), התשל"ו–1976</ref>, לשנת המס שתקופת הזכאות חלה בה, לפי העניין, אם היה חייב בהגשתם לפי <ref href="/akn/il/act/PrimaryLegislation/1976-01-06/147931">חוק מס ערך מוסף</ref>.</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+                <point eId="point_10__point_ב">
+                  <num>(ב)</num>
+                  <content>
+                    <p>בכפוף להוראות סעיף קטן (א), סכום המענק לעוסק שהחל את פעילותו בשנת 2020, יהיה 4,000 שקלים חדשים לעניין עוסק מורשה ו־3,000 שקלים חדשים לעניין עוסק פטור; בסעיף קטן זה, ”עוסק מורשה“ ו”עוסק פטור“ – כהגדרתם <ref href="/akn/il/act/PrimaryLegislation/1976-01-06/147931">בחוק מס ערך מוסף</ref>.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_11">
+              <heading>
+                <authorialNote placement="side">
+                  <p>תביעה לקבלת מענק</p>
+                </authorialNote>
+              </heading>
+              <num>11.</num>
+              <list>
+                <point eId="point_11__point_א">
+                  <num>(א)</num>
+                  <content>
+                    <p>המועד להגשת תביעה לקבלת מענק הוא החל ביום כ"ו באב התש"ף (16 באוגוסט 2020), לעניין פסקה (1) להגדרה ”תקופת הזכאות“ והחל מה־15 בחודש העוקב לתום תקופת הזכאות הרלוונטית, לעניין יתר הפסקאות באותה הגדרה; המנהל רשאי לדחות את מועד התחילה להגשת תביעה לתקופה אחת שלא תעלה על 30 ימים אם מתקיימות סיבות שבשלהן לא ניתן להגיש את התביעה בטופס מקוון החל מאחד המועדים האמורים.</p>
+                  </content>
+                </point>
+                <point eId="point_11__point_ב">
+                  <num>(ב)</num>
+                  <content>
+                    <p>עוסק רשאי להגיש למנהל תביעה למענק בתוך 90 ימים מהמועד שקבע המנהל לפי סעיף קטן (א).</p>
+                  </content>
+                </point>
+                <point eId="point_11__point_ג">
+                  <num>(ג)</num>
+                  <content>
+                    <p>המנהל רשאי להאריך את התקופה המרבית להגשת תביעה כאמור בסעיף קטן (א) בתקופה נוספת, אחת או יותר, ובלבד שסך כל תקופות ההארכה לא יעלה על 180 ימים; קביעת המנהל על הארכה כאמור תפורסם גם באתר האינטרנט של רשות המסים.<br space="preserve"></br><wikicomment font-size="x-small">פורסמו הוראות התכנית לסיוע כלכלי (נגיף הקורונה החדש) (הוראת שעה) (הארכת התקופה המרבית להגשת תביעה למענק השתתפות בהוצאות קבועות בעד תקופת הזכאות הראשונה), התשפ"א–2020 (ק"ת תשפ"א, 793), לפיהן התקופה המרבית להגשת תביעה למענק השתתפות בהוצאות קבועות בעד תקופת הזכאות שמיום ז׳ באייר התש"ף (1 במאי 2020) עד יום ח׳ בתמוז התש"ף (30 ביוני 2020) כאמור <ref href="#point_7">בפסקה (1) להגדרת ”תקופת הזכאות“ בסעיף 7</ref>, תוארך בשלושים ואחד ימים מיום כ"ח בחשוון התשפ"א (15 בנובמבר 2020) עד יום כ"ט בכסלו התשפ"א (15 בדצמבר 2020).</wikicomment></p>
+                  </content>
+                </point>
+                <point eId="point_11__point_ד">
+                  <num>(ד)</num>
+                  <content>
+                    <p>תביעה לפי סעיף זה תוגש בטופס מקוון שקבע המנהל ותכלול את הפרטים הדרושים לשם בחינת עמידתו של העוסק בתנאים לקבלת המענק ולשם תשלום המענק לפי הוראות <ref href="#chp_ו">פרק זה</ref>.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_12">
+              <heading>
+                <authorialNote placement="side">
+                  <p>קביעת זכאות למענק</p>
+                </authorialNote>
+              </heading>
+              <num>12.</num>
+              <list>
+                <point eId="point_12__point_א">
+                  <num>(א)</num>
+                  <list>
+                    <intro>
+                      <p>הגיש עוסק למנהל תביעה לקבלת מענק לפי הוראות <ref href="#point_11">סעיף 11</ref>, יחולו הוראות אלה:</p>
+                    </intro>
+                    <point eId="point_12__point_א__point_1">
+                      <num>(1)</num>
+                      <content>
+                        <p>לעוסק שמחזור עסקאותיו לשנת 2019 או לשנת 2020 אינו עולה על 300 אלף שקלים חדשים – המנהל יקבע בהחלטה מנומקת את זכאותו של העוסק למענק וכן את סכום המענק, וישלם את סכום המענק בתוך 14 ימים ממועד הגשת התביעה;</p>
+                      </content>
+                    </point>
+                    <point eId="point_12__point_א__point_2">
+                      <num>(2)</num>
+                      <content>
+                        <p>לעוסק שמחזור עסקאותיו לשנת 2019 או לשנת 2020 עולה על 300 אלף שקלים חדשים – המנהל יקבע בהחלטה מנומקת את זכאותו של העוסק למענק ואת סכום המענק בתוך 100 ימים ממועד הגשת התביעה, ואם ביקש מהעוסק פרטים נוספים – רשאי הוא להאריך את המועד האמור בתקופה נוספת אחת בלבד של 20 ימים.</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+                <point eId="point_12__point_ב">
+                  <num>(ב)</num>
+                  <content>
+                    <p>המנהל רשאי, ביוזמתו או לפי דרישת העוסק, לתקן את קביעתו כאמור בסעיף קטן (א), אם התגלו עובדות חדשות או אם מצא כי נפלה טעות בקביעה זו.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_13">
+              <heading>
+                <authorialNote placement="side">
+                  <p>תשלום המענק והמקדמות</p>
+                </authorialNote>
+              </heading>
+              <num>13.</num>
+              <list>
+                <point eId="point_13__point_א">
+                  <num>(א)</num>
+                  <content>
+                    <p>עוסק שמחזור עסקאותיו עולה על 300 אלף שקלים חדשים ונקבעה זכאותו למענק לפי הוראות <ref href="#point_12">סעיף 12</ref>, ישולם לו המענק בהקדם ולא יאוחר מתום 5 ימים ממועד קביעת הזכאות כאמור.</p>
+                  </content>
+                </point>
+                <point eId="point_13__point_ב">
+                  <num>(ב)</num>
+                  <content>
+                    <p>לא הודיע המנהל לעוסק על החלטתו לפי הוראות <ref href="#point_12">סעיף 12(א)</ref> בתוך 21 ימים מיום הגשת התביעה, ולעניין עסק שמחזור עסקאותיו אינו עולה על 1.5 מיליון שקלים חדשים בתוך 14 ימים מיום הגשת התביעה – ישלם לעוסק מקדמה בשיעור של 40% מסכום המענק המגיע לעוסק להנחת דעתו של המנהל.</p>
+                  </content>
+                </point>
+                <point eId="point_13__point_ג">
+                  <num>(ג)</num>
+                  <content>
+                    <p>לא הודיע המנהל לעוסק על החלטתו לפי <ref href="#point_12">סעיף 12(א)</ref> בתוך 28 ימים מיום הגשת התביעה, ולעניין עסק שמחזור עסקאותיו אינו עולה על 1.5 מיליון שקלים חדשים בתוך 21 ימים מיום הגשת התביעה – ישלם, נוסף על המקדמה האמורה בסעיף קטן (ב), מקדמה בשיעור של 20% מסכום המענק המגיע לעוסק להנחת דעתו של המנהל.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_13א">
+              <heading>
+                <authorialNote placement="side">
+                  <p>מקדמה על חשבון המענק בעד תקופת הזכאות הקובעת</p>
+                </authorialNote>
+              </heading>
+              <num>13א.</num>
+              <list>
+                <point eId="point_13א__point_א">
+                  <num>(א)</num>
+                  <content>
+                    <p>עוסק שיש לו יסוד סביר להניח כי הוא יהיה זכאי למענק בעד תקופת הזכאות הקובעת, כאמור <ref href="#point_8">בסעיף 8(2)(ב)(1)</ref>, החלה לגביו, רשאי להגיש בקשה לקבלת מקדמה על חשבון המענק בעד אותה תקופה.</p>
+                  </content>
+                </point>
+                <point eId="point_13א__point_ב">
+                  <num>(ב)</num>
+                  <list>
+                    <intro>
+                      <p>עוסק שהגיש בקשה כאמור בסעיף קטן (א), תשולם לו מקדמה לפני תום תקופת הזכאות הקובעת כאמור באותו סעיף קטן (בסעיף זה – מקדמה מיוחדת), אם מתקיימים שני אלה:</p>
+                    </intro>
+                    <point eId="point_13א__point_ב__point_1">
+                      <num>(1)</num>
+                      <list>
+                        <intro>
+                          <p>נקבעה זכאותו של העוסק לאחד או לשני המענקים שלהלן:</p>
+                        </intro>
+                        <point eId="point_13א__point_ב__point_1__point_א">
+                          <num>(א)</num>
+                          <content>
+                            <p>מענק לפי <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/https_www_gov_il_he_departments_policies_dec5015_2020">החלטת הממשלה מס׳ 5015 מיום ל׳ בניסן התש"ף (24 באפריל 2020)</ref> (להלן – החלטת הממשלה מס׳ 5015);</p>
+                          </content>
+                        </point>
+                        <point eId="point_13א__point_ב__point_1__point_ב">
+                          <num>(ב)</num>
+                          <content>
+                            <p>מענק בעד תקופת הזכאות האמורה <ref href="#point_7">בפסקה (1) להגדרה ”תקופת הזכאות“ שבסעיף 7</ref>;</p>
+                          </content>
+                        </point>
+                      </list>
+                    </point>
+                    <point eId="point_13א__point_ב__point_2">
+                      <num>(2)</num>
+                      <content>
+                        <p>העוסק הצהיר, בבקשה כאמור בסעיף קטן (א), כי יש יסוד סביר להניח כי הוא יהיה זכאי למענק בעד תקופת הזכאות הקובעת.</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+                <point eId="point_13א__point_ג">
+                  <num>(ג)</num>
+                  <content>
+                    <p>מקדמה מיוחדת תהיה בשיעור של 50% מסכום המענק שהעוסק זכאי לו כאמור בסעיף קטן (ב)(1)(א) או (ב), לפי העניין, ואם היה העוסק זכאי לשני המענקים כאמור, תהיה המקדמה כאמור בשיעור של 50% מאחד מהמענקים, לפי בחירת העוסק.</p>
+                  </content>
+                </point>
+                <point eId="point_13א__point_ד">
+                  <num>(ד)</num>
+                  <content>
+                    <p>בקשה לקבלת מקדמה מיוחדת תוגש בתוך 30 ימים מיום י"ב בתשרי התשפ"א (30 בספטמבר 2020), ויחולו עליה הוראות <ref href="#point_11">סעיף 11(ד)</ref>, בשינויים המחויבים; רשות המסים בישראל תעביר תשלום של מקדמה מיוחדת בתוך 4 ימים ממועד הגשת הבקשה, וימי שבת וחג לא יבואו במניין הימים.</p>
+                  </content>
+                </point>
+                <point eId="point_13א__point_ה">
+                  <num>(ה)</num>
+                  <list>
+                    <intro>
+                      <p>שולמה לעוסק מקדמה מיוחדת לפי הוראות סעיף זה –</p>
+                    </intro>
+                    <point eId="point_13א__point_ה__point_1">
+                      <num>(1)</num>
+                      <content>
+                        <p>לא תשולם לאותו עוסק, לפי הוראות <ref href="#point_13">סעיף 13</ref>, מקדמה נוספת על חשבון המענק שהוא זכאי לו בעד תקופת הזכאות הקובעת;</p>
+                      </content>
+                    </point>
+                    <point eId="point_13א__point_ה__point_2">
+                      <num>(2)</num>
+                      <content>
+                        <p>יופחת סכום המקדמה המיוחדת מסכום המענק שהעוסק זכאי לו בעד תקופת הזכאות הקובעת.</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+                <point eId="point_13א__point_ו">
+                  <num>(ו)</num>
+                  <content>
+                    <p>הוראות <ref href="#point_19">סעיף 19</ref> יחולו על מקדמה לפי סעיף זה.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_14">
+              <heading>
+                <authorialNote placement="side">
+                  <p>דין מענק ומקדמה</p>
+                </authorialNote>
+              </heading>
+              <num>14.</num>
+              <content>
+                <p>זכות למענק ולמקדמה לפי <ref href="#chp_ו">פרק זה</ref> לעוסק שמחזור עסקאותיו אינו עולה על 300 אלף שקלים חדשים אינה ניתנת להעברה, לשעבוד ולעיקול, בכל דרך שהיא, אלא לשם תשלום מזונות המגיעים מעוסק הזכאי למענק או למקדמה לפי פסק דין של בית משפט או של בית דין מוסמך; הוראות סעיף זה יחולו גם על מענק או מקדמה ששולמו לחשבון הבנק של העוסק, במשך 90 ימים מיום ששולמו כאמור.</p>
+              </content>
+            </point>
+          </list>
+        </section>
+        <section eId="chp_ו__sec_ב">
+          <num>סימן ב׳:</num>
+          <title>
+            <content>
+              <p>מענק סיוע בשל פגיעה ממושכת בעקבות ההשפעה הכלכלית של התפשטות נגיף הקורונה החדש</p>
+            </content>
+          </title>
+          <list>
+            <point eId="point_14א">
+              <heading>
+                <authorialNote placement="side">
+                  <p>זכאות למענק פגיעה ממושכת</p>
+                </authorialNote>
+              </heading>
+              <num>14א.</num>
+              <list>
+                <point eId="point_14א__point_א">
+                  <num>(א)</num>
+                  <list>
+                    <intro>
+                      <p>
+                        <ref href="#chp_ו_sec_ב">בסימן זה</ref> –</p>
+                    </intro>
+                    <point eId="point_14א__point_א__point_מענק_פגיעה_ממושכת">
+                      <content>
+                        <p>
+                          <def />”מענק פגיעה ממושכת“ – מענק בשל פגיעה ממושכת בעקבות ההשפעה הכלכלית של התפשטות נגיף הקורונה החדש;</p>
+                      </content>
+                    </point>
+                    <point eId="point_14א__point_א__point_עוסק_מורשה">
+                      <content>
+                        <p>
+                          <def />”עוסק מורשה“ ו”עוסק פטור“ – כהגדרתם <ref href="/akn/il/act/PrimaryLegislation/1976-01-06/147931">בחוק מס ערך מוסף</ref>;</p>
+                      </content>
+                    </point>
+                    <point eId="point_14א__point_א__point_מענקי_השתתפות_בהוצאות_קבועות">
+                      <content>
+                        <p>
+                          <def />”מענקי השתתפות בהוצאות קבועות“ – מענקי סיוע לעסקים בעד השתתפות בהוצאות קבועות לפי החלטת הממשלה מס׳ 5015 מיום ל׳ בניסן התש"ף (24 באפריל 2020) וכן מענקים לפי <ref href="#chp_ו_sec_א">סימן א׳ לפרק זה</ref>, ששולמו בעד התקופות המפורטות <ref href="#point_7">בפסקאות (1) עד (4) להגדרה ”תקופת הזכאות“ שבסעיף 7</ref>;</p>
+                      </content>
+                    </point>
+                    <point eId="point_14א__point_א__point_תקופת_הבסיס_למענק_פגיעה_ממושכת">
+                      <content>
+                        <p>
+                          <def />”תקופת הבסיס למענק פגיעה ממושכת“ – התקופה שמיום כ"ד באדר א׳ התשע"ט (1 במרס 2019), עד יום ג׳ בטבת התש"ף (31 בדצמבר 2019), ולעוסק שהחל בעיסוקו מיום כ"ד באדר א׳ התשע"ט (1 במרס 2019) – התקופה שתחילתה ביום הראשון של תקופת הדיווח המלאה הראשונה שלו לפי <ref href="/akn/il/act/PrimaryLegislation/1976-01-06/147931#point_67">סעיף 67 לחוק מס ערך מוסף</ref> וסופה ביום ג׳ בטבת התש"ף (31 בדצמבר 2019);</p>
+                      </content>
+                    </point>
+                    <point eId="point_14א__point_א__point_תקופת_הזכאות_למענק_פגיעה_ממושכת">
+                      <content>
+                        <p>
+                          <def />”תקופת הזכאות למענק פגיעה ממושכת“ – התקופה שתחילתה בתום 12 חודשים מהיום הראשון של תקופת הבסיס למענק פגיעה ממושכת וסופה ביום ט"ז בטבת התשפ"א (31 בדצמבר 2020).</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+                <point eId="point_14א__point_ב">
+                  <num>(ב)</num>
+                  <list>
+                    <intro>
+                      <p>עוסק זכאי למענק פגיעה ממושכת, בסכום כאמור <ref href="#point_14ב">בסעיף 14ב</ref> ובהתאם להוראות <ref href="#chp_ו">פרק זה</ref>, אם התקיימו לגביו התנאים כאמור <ref href="#point_8">בסעיף 8(1) ו־(3)</ref>, בשינויים המחויבים, וכן התנאים המפורטים להלן, לפי העניין:</p>
+                    </intro>
+                    <point eId="point_14א__point_ב__point_1">
+                      <num>(1)</num>
+                      <list>
+                        <intro>
+                          <p>לגבי עוסק מורשה – מחזור עסקאותיו בתקופת הזכאות למענק פגיעה ממושכת בתוספת סך סכומי מענקי ההשתתפות בהוצאות קבועות ששולמו לו אינו עולה על מחזור עסקאותיו בתקופת הבסיס למענק פגיעה ממושכת והוא הצהיר על כך בתביעה לקבלת מענק פגיעה ממושכת שהגיש לפי <ref href="#point_14ג">סעיף 14ג</ref>, ואם מחזור עסקאותיו בשנת המס 2019 אינו עולה על 300 אלף שקלים חדשים – אם התקיימו לגביו גם כל אלה:</p>
+                        </intro>
+                        <point eId="point_14א__point_ב__point_1__point_א">
+                          <num>(א)</num>
+                          <content>
+                            <p>מחזור עסקאותיו בתקופת הזכאות למענק פגיעה ממושכת נמוך ממחזור עסקאותיו בתקופת הבסיס למענק פגיעה ממושכת בסכום העולה על 25% ממחזור עסקאותיו בתקופת הבסיס למענק פגיעה ממושכת;</p>
+                          </content>
+                        </point>
+                        <point eId="point_14א__point_ב__point_1__point_ב">
+                          <num>(ב)</num>
+                          <content>
+                            <p>הוא הגיש דוח תקופתי לפי <ref href="/akn/il/act/PrimaryLegislation/1976-01-06/147931#point_67">סעיפים 67</ref>, <ref href="/akn/il/act/PrimaryLegislation/1976-01-06/147931#point_67א">67א</ref><ref href="/akn/il/act/PrimaryLegislation/1976-01-06/147931#point_71א">או 71א לחוק מס ערך מוסף</ref> לתקופת הבסיס למענק פגיעה ממושכת ולתקופת הזכאות למענק פגיעה ממושכת;</p>
+                          </content>
+                        </point>
+                      </list>
+                    </point>
+                    <point eId="point_14א__point_ב__point_2">
+                      <num>(2)</num>
+                      <list>
+                        <intro>
+                          <p>לגבי עוסק פטור – אם התקיימו לגביו כל אלה:</p>
+                        </intro>
+                        <point eId="point_14א__point_ב__point_2__point_א">
+                          <num>(א)</num>
+                          <content>
+                            <p>הוא הגיש הצהרות לפי <ref href="/akn/il/act/SecondaryLegislation/1976-02-09/100008536#point_15">תקנה 15 לתקנות מס ערך מוסף (רישום), התשל"ו–1976</ref>, לגבי שנות המס 2019 ו־2020;</p>
+                          </content>
+                        </point>
+                        <point eId="point_14א__point_ב__point_2__point_ב">
+                          <num>(ב)</num>
+                          <content>
+                            <p>מחזור עסקאותיו לשנת המס 2020 נמוך ממחזור עסקאותיו לשנת המס 2019 בסכום העולה על 25% ממחזור העסקאות לשנת המס 2019;</p>
+                          </content>
+                        </point>
+                        <point eId="point_14א__point_ב__point_2__point_ג">
+                          <num>(ג)</num>
+                          <content>
+                            <p>מחזור עסקאותיו בשנת 2020, בתוספת סך סכומי מענקי ההשתתפות בהוצאות קבועות ששולמו לו אינו עולה על סכום מחזור עסקאותיו בשנת 2019 והוא הצהיר על כך בתביעה לקבלת מענק פגיעה ממושכת שהגיש לפי <ref href="#point_14ג">סעיף 14ג</ref>;</p>
+                          </content>
+                        </point>
+                      </list>
+                    </point>
+                    <point eId="point_14א__point_ב__point_3">
+                      <num>(3)</num>
+                      <content>
+                        <p>לגבי עוסק שהחל בפעילות בתקופה שמיום כ"ד באדר א׳ התשע"ט (1 במרס 2019) עד יום ג׳ בטבת התש"ף (31 בדצמבר 2019) יחולו התנאי הקבוע ברישה של פסקה (1) או בפסקה (2)(ג), לפי העניין, וההגדרה ”עוסק שזכאי למענק חלקי“ <ref href="#point_14ב">שבסעיף 14ב</ref>, בתיאומים שיקבע המנהל, אם שוכנע שהדבר נדרש בנסיבות העניין;</p>
+                      </content>
+                    </point>
+                    <point eId="point_14א__point_ב__point_4">
+                      <num>(4)</num>
+                      <content>
+                        <p>לגבי עוסק שמחזור עסקאותיו בשנת המס 2019 עולה על 300 אלף שקלים – אם העוסק היה זכאי לשלושה או יותר ממענקי ההשתתפות בהוצאות קבועות, ובלבד שהתקיים בו האמור ברישה של פסקה (1);</p>
+                      </content>
+                    </point>
+                    <point eId="point_14א__point_ב__point_5">
+                      <num>(5)</num>
+                      <content>
+                        <p>לגבי עוסק שהתקיים לגביו האמור <ref href="#point_10">בסעיף 10(א)</ref> – אם העוסק היה זכאי לשניים או יותר ממענקי ההשתתפות בהוצאות קבועות.</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+              </list>
+            </point>
+            <point eId="point_14ב">
+              <heading>
+                <authorialNote placement="side">
+                  <p>סכום מענק פגיעה ממושכת</p>
+                </authorialNote>
+              </heading>
+              <num>14ב.</num>
+              <list>
+                <point eId="point_14ב__point_א">
+                  <num>(א)</num>
+                  <list>
+                    <intro>
+                      <p>בסעיף זה, ”עוסק שזכאי למענק חלקי“ – עוסק שהתקיים לגביו אחד מאלה, לפי העניין, ולמעט עוסק שהתקיים לגביו האמור <ref href="#point_10">בסעיף 10(א)</ref>:</p>
+                    </intro>
+                    <point eId="point_14ב__point_א__point_1">
+                      <num>(1)</num>
+                      <content>
+                        <p>עוסק מורשה שהסכום השווה למחזור עסקאותיו בתקופת הזכאות למענק פגיעה ממושכת, בתוספת סך סכומי מענקי ההשתתפות בהוצאות קבועות ששולמו לו בעד שנת 2020 שווה ל־90% או יותר ממחזור עסקאותיו בתקופת הבסיס למענק פגיעה ממושכת;</p>
+                      </content>
+                    </point>
+                    <point eId="point_14ב__point_א__point_2">
+                      <num>(2)</num>
+                      <content>
+                        <p>עוסק פטור שהסכום השווה למחזור עסקאותיו בשנת 2020, בתוספת סך סכומי מענקי ההשתתפות בהוצאות קבועות ששולמו לו בעד שנת 2020 שווה ל־90% או יותר ממחזור עסקאותיו בשנת 2019.</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+                <point eId="point_14ב__point_ב">
+                  <num>(ב)</num>
+                  <list>
+                    <intro>
+                      <p>מענק פגיעה ממושכת יהיה בסכומים המפורטים להלן, ולעוסק שזכאי למענק חלקי – 65% מהסכומים המפורטים להלן:</p>
+                    </intro>
+                    <point eId="point_14ב__point_ב__point_1">
+                      <num>(1)</num>
+                      <list>
+                        <intro>
+                          <p>לעוסק שמחזור עסקאותיו לשנת המס 2019 עולה על 18 אלף שקלים חדשים ואינו עולה על 300 אלף שקלים חדשים – בסכומים המפורטים להלן, לפי העניין:</p>
+                        </intro>
+                        <point eId="point_14ב__point_ב__point_1__point_א">
+                          <num>(א)</num>
+                          <list>
+                            <intro>
+                              <p>מענק פגיעה ממושכת בסכום של 3,000 שקלים חדשים –</p>
+                            </intro>
+                            <point eId="point_14ב__point_ב__point_1__point_א__point_1">
+                              <num>(1)</num>
+                              <content>
+                                <p>אם הוא עוסק מורשה שמחזור עסקאותיו בתקופת הזכאות למענק פגיעה ממושכת נמוך ממחזור עסקאותיו בתקופת הבסיס למענק פגיעה ממושכת בסכום שאינו עולה על 40% ממחזור עסקאותיו בתקופת הבסיס למענק פגיעה ממושכת;</p>
+                              </content>
+                            </point>
+                            <point eId="point_14ב__point_ב__point_1__point_א__point_2">
+                              <num>(2)</num>
+                              <content>
+                                <p>אם הוא עוסק פטור שמחזור עסקאותיו בשנת 2020 נמוך ממחזור עסקאותיו בשנת 2019 בסכום שאינו עולה על 40% ממחזור עסקאותיו בשנת 2019;</p>
+                              </content>
+                            </point>
+                          </list>
+                        </point>
+                        <point eId="point_14ב__point_ב__point_1__point_ב">
+                          <num>(ב)</num>
+                          <list>
+                            <intro>
+                              <p>מענק פגיעה ממושכת בסכום של 5,000 שקלים חדשים –</p>
+                            </intro>
+                            <point eId="point_14ב__point_ב__point_1__point_ב__point_1">
+                              <num>(1)</num>
+                              <content>
+                                <p>אם הוא עוסק מורשה שמחזור עסקאותיו בתקופת הזכאות למענק פגיעה ממושכת נמוך ממחזור עסקאותיו בתקופת הבסיס למענק פגיעה ממושכת בסכום שעולה על 40% ואינו עולה על 60% ממחזור עסקאותיו בתקופת הבסיס למענק פגיעה ממושכת;</p>
+                              </content>
+                            </point>
+                            <point eId="point_14ב__point_ב__point_1__point_ב__point_2">
+                              <num>(2)</num>
+                              <content>
+                                <p>אם הוא עוסק פטור שמחזור עסקאותיו בשנת 2020 נמוך ממחזור עסקאותיו בשנת 2019 בסכום שעולה על 40% ואינו עולה על 60% ממחזור עסקאותיו בשנת 2019;</p>
+                              </content>
+                            </point>
+                          </list>
+                        </point>
+                        <point eId="point_14ב__point_ב__point_1__point_ג">
+                          <num>(ג)</num>
+                          <list>
+                            <intro>
+                              <p>מענק פגיעה ממושכת בסכום של 9,000 שקלים חדשים –</p>
+                            </intro>
+                            <point eId="point_14ב__point_ב__point_1__point_ג__point_1">
+                              <num>(1)</num>
+                              <content>
+                                <p>אם הוא עוסק מורשה שמחזור עסקאותיו בתקופת הזכאות למענק פגיעה ממושכת נמוך ממחזור עסקאותיו בתקופת הבסיס למענק פגיעה ממושכת בסכום שעולה על 60% ממחזור עסקאותיו בתקופת הבסיס למענק פגיעה ממושכת;</p>
+                              </content>
+                            </point>
+                            <point eId="point_14ב__point_ב__point_1__point_ג__point_2">
+                              <num>(2)</num>
+                              <content>
+                                <p>אם הוא עוסק פטור שמחזור עסקאותיו בשנת 2020 נמוך ממחזור עסקאותיו בשנת 2019 בסכום שעולה על 60% ממחזור עסקאותיו בשנת 2019;</p>
+                              </content>
+                            </point>
+                          </list>
+                        </point>
+                      </list>
+                    </point>
+                    <point eId="point_14ב__point_ב__point_2">
+                      <num>(2)</num>
+                      <list>
+                        <intro>
+                          <p>לעוסק שמחזור עסקאותיו לשנת המס 2019 עולה על 300 אלף שקלים חדשים – הגבוה מבין אלה:</p>
+                        </intro>
+                        <point eId="point_14ב__point_ב__point_2__point_א">
+                          <num>(א)</num>
+                          <content>
+                            <p>9,000 שקלים חדשים;</p>
+                          </content>
+                        </point>
+                        <point eId="point_14ב__point_ב__point_2__point_ב">
+                          <num>(ב)</num>
+                          <content>
+                            <p>60% מסך מענקי ההשתתפות בהוצאות קבועות שקיבל, מחולקים בחמש, ואם מחזור עסקאותיו לשנת המס 2019 עלה על 20 מיליון שקלים חדשים – מחולקים בארבע, ובלבד שסכום כאמור לא יעלה על 50 אלף שקלים חדשים;</p>
+                          </content>
+                        </point>
+                      </list>
+                    </point>
+                    <point eId="point_14ב__point_ב__point_3">
+                      <num>(3)</num>
+                      <list>
+                        <intro>
+                          <p>לעוסק שהתקיים לגביו האמור <ref href="#point_10">בסעיף 10(א)</ref> –</p>
+                        </intro>
+                        <point eId="point_14ב__point_ב__point_3__point_א">
+                          <num>(א)</num>
+                          <content>
+                            <p>אם הוא עוסק מורשה – 4,000 שקלים חדשים;</p>
+                          </content>
+                        </point>
+                        <point eId="point_14ב__point_ב__point_3__point_ב">
+                          <num>(ב)</num>
+                          <content>
+                            <p>אם הוא עוסק פטור – 3,000 שקלים חדשים.</p>
+                          </content>
+                        </point>
+                      </list>
+                    </point>
+                  </list>
+                </point>
+              </list>
+            </point>
+            <point eId="point_14ג">
+              <heading>
+                <authorialNote placement="side">
+                  <p>תביעה לקבלת מענק פגיעה ממושכת</p>
+                </authorialNote>
+              </heading>
+              <num>14ג.</num>
+              <list>
+                <point eId="point_14ג__point_א">
+                  <num>(א)</num>
+                  <content>
+                    <p>תביעה לקבלת מענק פגיעה ממושכת תוגש בתוך שלושה חודשים מיום כ"ח בשבט התשפ"א (10 בפברואר 2021); המנהל רשאי לדחות את מועד התחילה להגשת תביעה לתקופה אחת שלא תעלה על חודש אם מתקיימות סיבות שבשלהן לא ניתן להגיש את התביעה בטופס מקוון החל ממועד זה.</p>
+                  </content>
+                </point>
+                <point eId="point_14ג__point_ב">
+                  <num>(ב)</num>
+                  <content>
+                    <p>המנהל רשאי להאריך את התקופה להגשת תביעה כאמור בסעיף קטן (א) בתקופה נוספת, אחת או יותר, ובלבד שכלל תקופות ההארכה לא יעלו על שישה חודשים; קביעת המנהל בדבר הארכה כאמור תפורסם גם באתר האינטרנט של רשות המסים.</p>
+                  </content>
+                </point>
+                <point eId="point_14ג__point_ג">
+                  <num>(ג)</num>
+                  <content>
+                    <p>תביעה לפי סעיף זה תוגש בטופס מקוון שקבע המנהל ותכלול את הפרטים הדרושים לשם בחינת עמידתו של העוסק בתנאים לקבלת המענק ולשם תשלום המענק לפי הוראות <ref href="#chp_ו_sec_ב">סימן זה</ref>.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_14ד">
+              <heading>
+                <authorialNote placement="side">
+                  <p>תשלום מענק פגיעה ממושכת</p>
+                </authorialNote>
+              </heading>
+              <num>14ד.</num>
+              <list>
+                <point eId="point_14ד__point_א">
+                  <num>(א)</num>
+                  <content>
+                    <p>המנהל יקבע את זכאותו של העוסק למענק פגיעה ממושכת וכן את סכום המענק וישלם את סכום המענק בתוך 14 ימים ממועד הגשת התביעה כאמור <ref href="#point_14ג">בסעיף 14ג</ref> או ביום ג׳ באדר התשפ"א (15 בפברואר 2021), לפי המאוחר.</p>
+                  </content>
+                </point>
+                <point eId="point_14ד__point_ב">
+                  <num>(ב)</num>
+                  <content>
+                    <p>המנהל רשאי, ביוזמתו או לפי דרישת העוסק, לתקן את קביעתו כאמור בסעיף קטן (א), אם התגלו עובדות חדשות או אם מצא כי נפלה טעות בקביעה זו.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+          </list>
+        </section>
+        <section eId="chp_ו__sec_ג">
+          <num>סימן ג׳:</num>
+          <title>
+            <content>
+              <p>כללי</p>
+            </content>
+          </title>
+          <list>
+            <point eId="point_15">
+              <heading>
+                <authorialNote placement="side">
+                  <p>אופן תשלום מענק ומקדמות</p>
+                </authorialNote>
+              </heading>
+              <num>15.</num>
+              <content>
+                <p>המענק והמקדמות לפי <ref href="#chp_ו">פרק זה</ref> ישולמו באמצעות רשות המסים בישראל על ידי זיכוי חשבון הבנק של העוסק שפרטיו היו בידי המנהל.</p>
+              </content>
+            </point>
+            <point eId="point_16">
+              <heading>
+                <authorialNote placement="side">
+                  <p>תשלום ביתר</p>
+                </authorialNote>
+              </heading>
+              <num>16.</num>
+              <list>
+                <point eId="point_16__point_א">
+                  <num>(א)</num>
+                  <content>
+                    <p>שולם לעוסק מענק, לרבות מקדמה, בסכום העולה על סכום המענק שהוא זכאי לו לפי <ref href="#chp_ו">פרק זה</ref>, יחזיר העוסק את ההפרש שבין סכומים אלה (בסעיף זה – סכום היתר) באמצעות רשות המסים בישראל בתוך תשעים ימים מהיום שהמציא לו המנהל דרישה להחזר, בתוספת הפרשי הצמדה על סכום היתר, מיום ששולם סכום היתר עד יום ההחזר.</p>
+                  </content>
+                </point>
+                <point eId="point_16__point_ב">
+                  <num>(ב)</num>
+                  <content>
+                    <p>על סכום היתר ועל הפרשי ההצמדה כאמור בסעיף קטן (א) יחולו הוראות <ref href="/akn/il/act/PrimaryLegislation/1933-12-31/2001803">פקודת המסים (גבייה)</ref>, כאילו היו מס וכן יחולו עליהם הוראות <ref href="/akn/il/act/PrimaryLegislation/1980-01-17/147935">חוק קיזוז מסים, התש"ם–1980</ref>, כאילו היו חוב מס.</p>
+                  </content>
+                </point>
+                <point eId="point_16__point_ג">
+                  <num>(ג)</num>
+                  <content>
+                    <p>סכום היתר יקוזז מכל סכום המגיע לעוסק לפי הוראות <ref href="#chp_ו">פרק זה</ref>.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_17">
+              <heading>
+                <authorialNote placement="side">
+                  <p>תשלום בחסר</p>
+                </authorialNote>
+              </heading>
+              <num>17.</num>
+              <content>
+                <p>שולם לעוסק מענק בסכום הנמוך מסכום המענק שהוא זכאי לו לפי <ref href="#chp_ו">פרק זה</ref>, ישולם לעוסק ההפרש שבין סכומים אלה (בסעיף זה – סכום החסר), באמצעות רשות המסים בישראל, בתוספת הפרשי הצמדה וריבית על סכום החסר, החל בתום 30 ימים מיום הגשת התביעה עד יום תשלום סכום החסר.</p>
+              </content>
+            </point>
+            <point eId="point_18">
+              <heading>
+                <authorialNote placement="side">
+                  <p>קנס בשל הגשת תביעה ביתר</p>
+                </authorialNote>
+              </heading>
+              <num>18.</num>
+              <list>
+                <point eId="point_18__point_א">
+                  <num>(א)</num>
+                  <content>
+                    <p>בסעיף זה, ”סכום ההפרש“ – ההפרש שבין סכום המענק שכלל עוסק בתביעה שהגיש לפי <ref href="#point_11">סעיף 11</ref> ובין סכום המענק שהמנהל קבע שהוא זכאי לו לפי הוראות <ref href="#point_12">סעיף 12</ref>.</p>
+                  </content>
+                </point>
+                <point eId="point_18__point_ב">
+                  <num>(ב)</num>
+                  <content>
+                    <p>עוסק שסכום ההפרש לגביו עולה על 50% מסכום המענק שכלל בתביעה שהגיש לפי <ref href="#point_11">סעיף 11</ref> ולא הוכיח להנחת דעתו של המנהל שלא התרשל בעריכת התביעה שהגיש, יהיה חייב בקנס בשיעור שלא יעלה על 25% מסכום ההפרש.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_19">
+              <heading>
+                <authorialNote placement="side">
+                  <p>פטור מס ערך מוסף</p>
+                </authorialNote>
+              </heading>
+              <num>19.</num>
+              <content>
+                <p>מענק לפי <ref href="#chp_ו">פרק זה</ref> לא ייחשב לחלק ממחיר עסקאותיו של עוסק לפי <ref href="/akn/il/act/PrimaryLegislation/1976-01-06/147931#point_12">סעיף 12 לחוק מס ערך מוסף</ref>.</p>
+              </content>
+            </point>
+            <point eId="point_20">
+              <heading>
+                <authorialNote placement="side">
+                  <p>השגה וערר</p>
+                </authorialNote>
+              </heading>
+              <num>20.</num>
+              <list>
+                <point eId="point_20__point_א">
+                  <num>(א)</num>
+                  <list>
+                    <point eId="point_20__point_א__point_1">
+                      <num>(1)</num>
+                      <content>
+                        <p>הרואה את עצמו נפגע מהחלטת המנהל בנוגע למענק הניתן לפי <ref href="#chp_ו">פרק זה</ref>, לרבות בנוגע להטלת קנס בשל הגשת תביעה ביתר, רשאי להגיש השגה לעובד רשות המסים בישראל שהמנהל הסמיכו לשם כך, בתוך 45 ימים מיום קבלת ההחלטה; החלטה בהשגה תהיה מנומקת ותינתן בכתב בתוך 120 ימים.</p>
+                      </content>
+                    </point>
+                    <point eId="point_20__point_א__point_2">
+                      <num>(2)</num>
+                      <content>
+                        <p>ההשגות יוגשו בטופס מקוון שיקבע המנהל ויכללו את הפרטים הדרושים לשם בחינת טענותיו של מבקש המענק ועמידתו בתנאי הזכאות למענק.</p>
+                      </content>
+                    </point>
+                    <point eId="point_20__point_א__point_3">
+                      <num>(3)</num>
+                      <content>
+                        <p>העובד המוסמך להחליט בהשגה רשאי לדון ולהכריע בה על פי טענות וראיות שיוגשו בכתב.</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+                <point eId="point_20__point_ב">
+                  <num>(ב)</num>
+                  <content>
+                    <p>על החלטה בהשגה לפי סעיף קטן (א) ניתן לערור לפני ועדת ערר כאמור <ref href="#point_21">בסעיף 21</ref>, בתוך 45 ימים מיום שנמסרה לעורר ההחלטה בצירוף הודעה על זכות הערר ועל המועד להגשתו.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_21">
+              <heading>
+                <authorialNote placement="side">
+                  <p>ועדת ערר</p>
+                </authorialNote>
+              </heading>
+              <num>21.</num>
+              <list>
+                <point eId="point_21__point_א">
+                  <num>(א)</num>
+                  <list>
+                    <intro>
+                      <p>שר המשפטים יקים ועדת ערר בת שני חברים, אחת או יותר, שתפקידה לדון בעררים כאמור <ref href="#point_20">בסעיף 20</ref> (בסעיף זה – ועדת ערר); ואלה חברי ועדת הערר:</p>
+                    </intro>
+                    <point eId="point_21__point_א__point_1">
+                      <num>(1)</num>
+                      <content>
+                        <p>עובד המדינה הכשיר להתמנות לשופט בית משפט שלום, שיהיה יושב הראש;</p>
+                      </content>
+                    </point>
+                    <point eId="point_21__point_א__point_2">
+                      <num>(2)</num>
+                      <content>
+                        <p>נציג ציבור בעל ידע ומומחיות בתחום ראיית חשבון או כלכלה או בתחום מקצועי אחר הנוגע לעניין, שימנה שר האוצר.</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+                <point eId="point_21__point_ב">
+                  <num>(ב)</num>
+                  <content>
+                    <p>ועדת הערר מוסמכת לאשר את ההחלטה שעליה עוררים, לבטלה ולקבל החלטה אחרת במקומה או להחזיר את העניין עם הוראות למנהל.</p>
+                  </content>
+                </point>
+                <point eId="point_21__point_ג">
+                  <num>(ג)</num>
+                  <content>
+                    <p>במקרה של מחלוקת בין חברי ועדת הערר, תכריע עמדת יושב הראש.</p>
+                  </content>
+                </point>
+                <point eId="point_21__point_ד">
+                  <num>(ד)</num>
+                  <list>
+                    <intro>
+                      <p>דינו של חבר ועדת הערר שאינו עובד המדינה, כדין עובד המדינה, לעניין חיקוקים אלה:</p>
+                    </intro>
+                    <point eId="point_21__point_ד__point_1">
+                      <num>(1)</num>
+                      <content>
+                        <p>
+                          <ref href="/akn/il/act/PrimaryLegislation/1979-11-01/148674">חוק שירות הציבור (מתנות), התש"ם–1979</ref>;</p>
+                      </content>
+                    </point>
+                    <point eId="point_21__point_ד__point_2">
+                      <num>(2)</num>
+                      <content>
+                        <p>
+                          <ref href="/akn/il/act/PrimaryLegislation/1969-07-03/148676">חוק שירות הציבור (הגבלות לאחר פרישה), התשכ"ט–1968</ref>;</p>
+                      </content>
+                    </point>
+                    <point eId="point_21__point_ד__point_3">
+                      <num>(3)</num>
+                      <content>
+                        <p>
+                          <ref href="/akn/il/act/PrimaryLegislation/1959-08-14/148673">חוק שירות המדינה (סיוג פעילות מפלגתית ומגבית כספים), התשי"ט–1959</ref> – ההוראות הנוגעות לכלל עובדי המדינה;</p>
+                      </content>
+                    </point>
+                    <point eId="point_21__point_ד__point_4">
+                      <num>(4)</num>
+                      <content>
+                        <p>
+                          <ref href="/akn/il/act/PrimaryLegislation/1969-04-14/2002229">חוק הבחירות לכנסת [נוסח משולב], התשכ"ט–1969</ref> – הוראת <ref href="/akn/il/act/PrimaryLegislation/1969-04-14/2002229#point_56">סעיף 56(ב) לחוק</ref>.</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+                <point eId="point_21__point_ה">
+                  <num>(ה)</num>
+                  <list>
+                    <intro>
+                      <p>ההוראות לפי <ref href="/akn/il/act/PrimaryLegislation/1992-02-27/153664">חוק בתי דין מינהליים, התשנ"ב–1992</ref>, למעט <ref href="/akn/il/act/PrimaryLegislation/1992-02-27/153664#point_22">סעיפים 22(א)</ref>, <ref href="/akn/il/act/PrimaryLegislation/1992-02-27/153664#point_37">37</ref><ref href="/akn/il/act/PrimaryLegislation/1992-02-27/153664#point_45">ו־45 לחוק האמור</ref>, יחולו על ערר ועל ועדת ערר לפי <ref href="#chp_ו">פרק זה</ref>, בשינויים המחויבים ובשינויים אלה:</p>
+                    </intro>
+                    <point eId="point_21__point_ה__point_1">
+                      <num>(1)</num>
+                      <content>
+                        <p>הסמכויות הנתונות לבית משפט מחוזי לפי <ref href="/akn/il/act/PrimaryLegislation/1992-02-27/153664#point_28">סעיף 28(ד) ו־(ה) לחוק האמור</ref> יהיו נתונות לבית משפט לעניינים מינהליים;</p>
+                      </content>
+                    </point>
+                    <point eId="point_21__point_ה__point_2">
+                      <num>(2)</num>
+                      <content>
+                        <p>החלטה סופית של ועדת הערר ניתנת לערעור לפני בית משפט לעניינים מינהליים;</p>
+                      </content>
+                    </point>
+                    <point eId="point_21__point_ה__point_3">
+                      <num>(3)</num>
+                      <content>
+                        <p>על אף האמור <ref href="/akn/il/act/PrimaryLegislation/1992-02-27/153664#point_26">בסעיף 26(ג) לחוק האמור</ref>, ועדת הערר רשאית לדון ולהחליט בערר על פי טענות וראיות שהוגשו בכתב בלבד, אם מצאה שאין בכך כדי לפגוע בעשיית צדק בעניינו של העורר;</p>
+                      </content>
+                    </point>
+                    <point eId="point_21__point_ה__point_4">
+                      <num>(4)</num>
+                      <content>
+                        <p>החליטה ועדת הערר לקיים דיון בהשתתפות הצדדים, רשאית היא לקיים את הדיון באמצעים טכנולוגיים אם קבע שר המשפטים לפי סעיף קטן (ו) סדרי דין לעניין קיום דיון כאמור; לעניין זה, ”אמצעים טכנולוגיים“ – דיון באמצעים המאפשרים העברת תמונה וקול בזמן אמת, שבהם ניתן לשמוע ולראות את המשתתפים בדיון וכן להישמע במהלכו;</p>
+                      </content>
+                    </point>
+                    <point eId="point_21__point_ה__point_5">
+                      <num>(5)</num>
+                      <content>
+                        <p>ועדת הערר רשאית לחייב בעל דין בהוצאות, לרבות שכר טרחת עורך דין, הוצאות נסיעה ושכר בטלה של עדים.</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+                <point eId="point_21__point_ו">
+                  <num>(ו)</num>
+                  <content>
+                    <p>שר המשפטים רשאי להתקין תקנות לעניין סדרי דין ודיני הראיות ולעניין סדרי המינהל בוועדת הערר לרבות בענייני אגרות.<br space="preserve"></br><wikicomment font-size="x-small">פורסמו <ref href="/akn/il/act/PrimaryLegislation/2020-11-19/2147317">תקנות התכנית לסיוע כלכלי (נגיף הקורונה החדש) (הוראת שעה) (סדרי הדין והמינהל בוועדת הערר), התשפ"א–2020</ref>.</wikicomment></p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_22">
+              <heading>
+                <authorialNote placement="side">
+                  <p>עונשין וסמכויות אכיפה</p>
+                </authorialNote>
+              </heading>
+              <num>22.</num>
+              <list>
+                <point eId="point_22__point_א">
+                  <num>(א)</num>
+                  <content>
+                    <p>עוסק שהגיש תביעה למענק בטופס לפי <ref href="#point_11">סעיף 11</ref> ומסר בה פרטים לא נכונים לגבי תנאי הזכאות הקבועים <ref href="#point_8">בסעיף 8(1), (2), (5) ו־(6)</ref>, דינו – מאסר שנה.</p>
+                  </content>
+                </point>
+                <point eId="point_22__point_ב">
+                  <num>(ב)</num>
+                  <content>
+                    <p>התעורר חשד לביצוע עבירה לפי <ref href="#chp_ו">פרק זה</ref>, רשאי מי שהוסמך לפי <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_מס_הכנסה#point_227">סעיף 227 לפקודה</ref> לעשות שימוש בסמכויות הנתונות לו <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_מס_הכנסה#point_227">בסעיף 227(1) ו־(2) לפקודה</ref> לשם מניעת עבירות לפי <ref href="#chp_ו">פרק זה</ref> או לשם גילוין.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_23">
+              <heading>
+                <authorialNote placement="side">
+                  <p>רשות לייצג</p>
+                </authorialNote>
+              </heading>
+              <num>23.</num>
+              <content>
+                <p>
+                  <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_מס_הכנסה#point_236">סעיף 236 לפקודה</ref> יחול על ייצוג עוסק לעניין <ref href="#chp_ו">פרק זה</ref>, בשינויים המחויבים.</p>
+              </content>
+            </point>
+            <point eId="point_24">
+              <heading>
+                <authorialNote placement="side">
+                  <p>המצאת הודעות</p>
+                </authorialNote>
+              </heading>
+              <num>24.</num>
+              <content>
+                <p>על המצאת הודעות לפי <ref href="#chp_ו">פרק זה</ref> יחולו הוראות <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_מס_הכנסה#point_238">סעיף 238 לפקודה</ref>.</p>
+              </content>
+            </point>
+            <point eId="point_24א">
+              <heading>
+                <authorialNote placement="side">
+                  <p>תנאי לקביעת תקופת זכאות</p>
+                </authorialNote>
+              </heading>
+              <num>24א.</num>
+              <content>
+                <p>השר לא יקבע בצו את התקופה המפורטת <ref href="#point_7">בפסקה (7) להגדרה ”תקופת הזכאות“ שבסעיף 7</ref> כתקופה שיינתן לגביה מענק לפי <ref href="#chp_ו">פרק זה</ref> אלא אם כן ההוצאה הכרוכה בקביעת התקופה כאמור נכללת במסגרת מימון ההוצאות הדרושות להתמודדות עם המשבר שנוצר בשל התפשטות נגיף הקורונה, בשנת 2021, לפי <ref href="/akn/il/act/PrimaryLegislation/1975-07-31/147446#chp_ה">פסקת משנה (ה)(1) של סעיף 3ב(א)(1) לחוק־יסוד: משק המדינה</ref>, כנוסחה <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/http_fs_knesset_gov_il_23_law_23_lsr_593948_pdf#point_2">בסעיף 2 לחוק־יסוד: משק המדינה (תיקון מס׳ 11 והוראת שעה לשנת 2021)</ref>, ואם התקבל חוק תקציב שנתי לשנת 2021 – ההוצאה האמורה נכללת במסגרת חוק התקציב השנתי האמור.</p>
+              </content>
+            </point>
+            <point eId="point_25">
+              <heading>
+                <authorialNote placement="side">
+                  <p xml:space="preserve"> </p>
+                </authorialNote>
+              </heading>
+              <num>25.</num>
+              <content>
+                <p>
+                  <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryLegislation/2000-06-11/169660">בחוק בתי משפט לעניינים מינהליים, התש"ס–2000</ref>.</wikicomment>
+                </p>
+              </content>
+            </point>
+            <point eId="point_26">
+              <heading>
+                <authorialNote placement="side">
+                  <p>הוראת מעבר</p>
+                </authorialNote>
+              </heading>
+              <num>26.</num>
+              <list>
+                <intro>
+                  <p>לעניין ערר על החלטה בעניין מענק לפי <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/https_www_gov_il_he_departments_policies_dec5015_2020">החלטת הממשלה 5015 מיום ל׳ בניסן התש"ף (24 באפריל 2020)</ref> (בסעיף זה – החלטת הממשלה) יחולו הוראות אלה:</p>
+                </intro>
+                <point eId="point_26__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>על החלטת רשות המסים בישראל בעניין זכאות למענק ניתן להגיש בקשה לתיקון טעות כאמור <ref href="#point_12">בסעיף 12(ב)</ref> או להגיש השגה לפי <ref href="#point_20">סעיף 20(א)</ref>, לפי העניין;</p>
+                  </content>
+                </point>
+                <point eId="point_26__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>על החלטה בהשגה שניתנה לפי <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/https_www_gov_il_he_departments_policies_dec5015_2020">סעיף 4 להחלטת הממשלה</ref> ניתן לערור לפני ועדת ערר לפי <ref href="#point_21">סעיף 21</ref>;</p>
+                  </content>
+                </point>
+                <point eId="point_26__point_3">
+                  <num>(3)</num>
+                  <content>
+                    <p>הליכים לפי פסקאות (1) ו־(2) יוגשו בתוך 45 ימים מיום תחילתו של חוק זה או מיום שנמסרה לעורר ההחלטה בצירוף הודעה על זכות הערר או ההשגה ועל המועד להגשתם, לפי המאוחר.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+          </list>
+        </section>
+      </chapter>
+      <chapter eId="chp_ו1">
+        <num>פרק ו׳1:</num>
+        <title>
+          <content>
+            <p>דמי בידוד</p>
+          </content>
+        </title>
+        <section eId="chp_ו1__sec_א">
+          <num>סימן א׳:</num>
+          <title>
+            <content>
+              <p>הגדרות</p>
+            </content>
+          </title>
+          <list>
+            <point eId="point_26א" class="definitions">
+              <heading>
+                <authorialNote placement="side">
+                  <p>הגדרות – פרק ו׳1</p>
+                </authorialNote>
+              </heading>
+              <num>26א.</num>
+              <list>
+                <intro>
+                  <p>בחוק זה –</p>
+                </intro>
+                <point eId="point_26א__point_בידוד">
+                  <content>
+                    <p>
+                      <def />”בידוד“ – כמשמעותו <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/צו_בריאות_העם_נגיף_הקורונה_החדש_בידוד_בית_והוראות_שונות_הוראת_שעה">בצו בידוד בית</ref>;</p>
+                  </content>
+                </point>
+                <point eId="point_26א__point_דיווח">
+                  <content>
+                    <p>
+                      <def />”דיווח“ – דיווח למשרד הבריאות על קיום הוראות צו בידוד בית כאמור <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/צו_בריאות_העם_נגיף_הקורונה_החדש_בידוד_בית_והוראות_שונות_הוראת_שעה#point_3">בסעיף 3 לאותו צו</ref>;</p>
+                  </content>
+                </point>
+                <point eId="point_26א__point_דמי_בידוד">
+                  <content>
+                    <p>
+                      <def />”דמי בידוד“ – תשלום לעובד לפי <ref href="#chp_ו1">פרק זה</ref>, השווה לדמי מחלה לפי <ref href="/akn/il/act/PrimaryLegislation/1976-06-24/147219#point_5">סעיפים 5</ref><ref href="/akn/il/act/PrimaryLegislation/1976-06-24/147219#point_6">ו־6 לחוק דמי מחלה</ref>;</p>
+                  </content>
+                </point>
+                <point eId="point_26א__point_הסכם_קיבוצי">
+                  <content>
+                    <p>
+                      <def />”הסכם קיבוצי“ – כהגדרתו <ref href="/akn/il/act/PrimaryLegislation/1976-06-24/147219">בחוק דמי מחלה</ref>;</p>
+                  </content>
+                </point>
+                <point eId="point_26א__point_חובת_בידוד">
+                  <content>
+                    <p>
+                      <def />”חובת בידוד“ – חובת בידוד לפי <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/צו_בריאות_העם_נגיף_הקורונה_החדש_בידוד_בית_והוראות_שונות_הוראת_שעה">צו בידוד בית</ref>;</p>
+                  </content>
+                </point>
+                <point eId="point_26א__point_חוק_דמי_מחלה">
+                  <content>
+                    <p>
+                      <def />”חוק דמי מחלה“ – <ref href="/akn/il/act/PrimaryLegislation/1976-06-24/147219">חוק דמי מחלה, התשל"ו–1976</ref>;</p>
+                  </content>
+                </point>
+                <point eId="point_26א__point_חוק_יסודות_התקציב">
+                  <content>
+                    <p>
+                      <def />”חוק יסודות התקציב“ – <ref href="/akn/il/act/PrimaryLegislation/1985-04-03/150399">חוק יסודות התקציב, התשמ"ה–1985</ref>;</p>
+                  </content>
+                </point>
+                <point eId="point_26א__point_ילד">
+                  <list>
+                    <intro>
+                      <p>
+                        <def />”ילד“, של עובד – ובלבד שהתקיים בו אחד מאלה:</p>
+                    </intro>
+                    <point eId="point_26א__point_ילד__point_1">
+                      <num>(1)</num>
+                      <content>
+                        <p>טרם מלאו לו 16 שנים;</p>
+                      </content>
+                    </point>
+                    <point eId="point_26א__point_ילד__point_2">
+                      <num>(2)</num>
+                      <content>
+                        <p>הוא אדם עם מוגבלות הנזקק לסיוע אישי כאמור <ref href="/akn/il/act/PrimaryLegislation/1993-07-22/154025#point_1ב">בסעיף 1ב לחוק דמי מחלה (היעדרות בשל מחלת ילד), התשנ"ג–1993</ref>;</p>
+                      </content>
+                    </point>
+                    <point eId="point_26א__point_ילד__point_3">
+                      <num>(3)</num>
+                      <content>
+                        <p>הוא מנוי בפסקאות (1) או (2) ושוהה אצל עובד שהוא הורה במשפחת אומנה;</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+                <point eId="point_26א__point_ימי_עבודה">
+                  <content>
+                    <p>
+                      <def />”ימי עבודה“ – ימים בשבוע שהעובד נוהג לעבוד בהם במשרתו הרגילה, ולא יותר מחמישה ימי עבודה בכל שבעה ימים בתקופת הבידוד, ואם נהוג במקום העבודה שבוע עבודה בן שישה ימים – שישה ימי עבודה בכל שבעה ימים בתקופת הבידוד;</p>
+                  </content>
+                </point>
+                <point eId="point_26א__point_המוסד">
+                  <content>
+                    <p>
+                      <def />”המוסד“ – המוסד לביטוח לאומי;</p>
+                  </content>
+                </point>
+                <point eId="point_26א__point_עובד_השוהה_בבידוד">
+                  <list>
+                    <intro>
+                      <p>
+                        <def />”עובד השוהה בבידוד“ – עובד שמתקיימים לגביו כל התנאים בפסקאות (1) עד (3) שלהלן, למעט מי שחלה עליו חובת בידוד בשל הגעתו לישראל ממדינה אחרת או שהוא חולה כהגדרתו <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/צו_בריאות_העם_נגיף_הקורונה_החדש_בידוד_בית_והוראות_שונות_הוראת_שעה">בצו בידוד בית</ref>:</p>
+                    </intro>
+                    <point eId="point_26א__point_עובד_השוהה_בבידוד__point_1">
+                      <num>(1)</num>
+                      <content>
+                        <p>הוא נעדר מעבודתו משום שחלה עליו חובת בידוד או משום שהוא שוהה בבידוד בשל חובת בידוד שחלה על ילדו;</p>
+                      </content>
+                    </point>
+                    <point eId="point_26א__point_עובד_השוהה_בבידוד__point_2">
+                      <num>(2)</num>
+                      <content>
+                        <p>הוא מסר דיווח על הבידוד לפי <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/צו_בריאות_העם_נגיף_הקורונה_החדש_בידוד_בית_והוראות_שונות_הוראת_שעה">צו בידוד בית</ref> והמציא למעסיקו העתק מהדיווח האמור;</p>
+                      </content>
+                    </point>
+                    <point eId="point_26א__point_עובד_השוהה_בבידוד__point_3">
+                      <num>(3)</num>
+                      <content>
+                        <p>הוא שהה בבידוד לפי <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/צו_בריאות_העם_נגיף_הקורונה_החדש_בידוד_בית_והוראות_שונות_הוראת_שעה">צו בידוד בית</ref>;</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+                <point eId="point_26א__point_צו_בידוד_בית">
+                  <content>
+                    <p>
+                      <def />”צו בידוד בית“ – <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/צו_בריאות_העם_נגיף_הקורונה_החדש_בידוד_בית_והוראות_שונות_הוראת_שעה">צו בריאות העם (נגיף הקורונה החדש) (בידוד בית והוראות שונות) (הוראת שעה), התש"ף–2020</ref>;</p>
+                  </content>
+                </point>
+                <point eId="point_26א__point_תקופת_בידוד">
+                  <content>
+                    <p>
+                      <def />”תקופת בידוד“ – תקופה רצופה שתחילתה ביום הראשון שבו נודע לעובד שחלה עליו חובת בידוד או שהוא נדרש לשהות בבידוד בשל חובת בידוד של ילדו (בהגדרה זו – דרישת בידוד) וסיומה ביום האחרון שבו חלה עליו חובת בידוד או דרישת בידוד, אף אם במהלך אותה תקופה השתנתה העילה שבשלה חלה על העובד חובת הבידוד או דרישת הבידוד; לעניין עובד שדיווח למשרד הבריאות לפי צו בידוד בית על חובת בידוד או דרישת בידוד החלה עליו ארבעה ימים או יותר אחרי שנודע לו האמור – יחל מניין התקופה ארבעה ימים לפני המועד שבו דיווח כאמור;</p>
+                  </content>
+                </point>
+                <point eId="point_26א__point_תקופת_המחלה_הצבורה">
+                  <content>
+                    <p>
+                      <def />”תקופת המחלה הצבורה“ – תקופת הזכאות שחושבה לפי <ref href="/akn/il/act/PrimaryLegislation/1976-06-24/147219">חוק דמי מחלה</ref> או לפי הסכם קיבוצי שמסדיר לגבי העובד את עניין התשלום לתקופת מחלה.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+          </list>
+        </section>
+        <section eId="chp_ו1__sec_ב">
+          <num>סימן ב׳:</num>
+          <title>
+            <content>
+              <p>תשלום דמי בידוד לעובד</p>
+            </content>
+          </title>
+          <list>
+            <point eId="point_26ב">
+              <heading>
+                <authorialNote placement="side">
+                  <p>זכאות עובד השוהה בבידוד לדמי בידוד</p>
+                </authorialNote>
+              </heading>
+              <num>26ב.</num>
+              <list>
+                <point eId="point_26ב__point_א">
+                  <num>(א)</num>
+                  <content>
+                    <p>עובד השוהה בבידוד זכאי ממעסיקו לתשלום דמי בידוד בעד ימי העבודה שבהם נעדר מעבודתו בתקופת הבידוד, למעט תשלום בעד יום עבודה אחד בתקופת הבידוד, אולם העובד זכאי לבחור לקבל תשלום גם בעד היום האמור על חשבון יום חופשה המגיע לו.</p>
+                  </content>
+                </point>
+                <point eId="point_26ב__point_ב">
+                  <num>(ב)</num>
+                  <list>
+                    <intro>
+                      <p>על אף האמור בסעיף קטן (א), עובד שלפי דין, הסכם קיבוצי או חוזה אישי חל לגביו הסדר דמי מחלה מיטיב או הסדר דמי בידוד מיטיב זכאי לתשלום גם בעד יום העבודה האמור בסעיף קטן (א); ואולם, מעסיק, למעט המדינה או גוף מתוקצב כהגדרתו <ref href="/akn/il/act/PrimaryLegislation/1985-04-03/150399#point_21">בסעיף 21 לחוק יסודות התקציב</ref>, שהוא צד להסדר דמי מחלה מיטיב לפי הסכם קיבוצי או חוזה אישי רשאי להודיע לעובד שהוראות סעיף קטן זה לא יחולו על העובד לעניין ההסדר האמור; בסעיף קטן זה –</p>
+                    </intro>
+                    <point eId="point_26ב__point_ב__point_הסדר_דמי_מחלה_מיטיב">
+                      <content>
+                        <p>
+                          <def />”הסדר דמי מחלה מיטיב“ – הסדר הקובע זכאות של עובד לדמי מחלה מהיום הראשון להיעדרותו;</p>
+                      </content>
+                    </point>
+                    <point eId="point_26ב__point_ב__point_הסדר_דמי_בידוד_מיטיב">
+                      <content>
+                        <p>
+                          <def />”הסדר דמי בידוד מיטיב“ – הסדר הקובע זכאות של עובד לדמי בידוד מהיום הראשון להיעדרותו.</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+                <point eId="point_26ב__point_ג">
+                  <num>(ג)</num>
+                  <list>
+                    <point eId="point_26ב__point_ג__point_1">
+                      <num>(1)</num>
+                      <content>
+                        <p>מתקופת המחלה הצבורה של עובד השוהה בבידוד ושולמו לו דמי בידוד לפי הוראות סעיף קטן (א), יופחת מספר ימי העבודה שבהם נעדר מעבודתו בשל הבידוד, ובלבד שלא יופחתו יותר מארבעה ימי עבודה בתקופת הבידוד.</p>
+                      </content>
+                    </point>
+                    <point eId="point_26ב__point_ג__point_2">
+                      <num>(2)</num>
+                      <content>
+                        <p>לא עמד לרשות העובד בתקופת המחלה הצבורה שלו מספר הימים שיש להפחיתם כאמור, יופחתו הימים העומדים לרשותו, אם ישנם, וההפרש שבין הימים שיש להפחיתם ובין הימים העומדים לרשותו ייזקף על חשבון ימי המחלה שהעובד יהיה זכאי להם בעתיד (בסעיף קטן זה – ימי מחלה מחויבים).</p>
+                      </content>
+                    </point>
+                    <point eId="point_26ב__point_ג__point_3">
+                      <num>(3)</num>
+                      <content>
+                        <p>הסתיימו יחסי העבודה והעובד לא צבר תקופת מחלה שקוזזה כנגד ימי המחלה המחויבים, יקוזזו ימי המחלה המחויבים הנותרים שנזקפו עקב הבידוד כנגד ימי חופשה שטרם ניצל, ואם לא נותרה לעובד יתרת ימי חופשה מספקת – לא יהיה לעובד חוב בעד ימי המחלה המחויבים הנותרים.</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+                <point eId="point_26ב__point_ד">
+                  <num>(ד)</num>
+                  <content>
+                    <p>מעסיק ישלם לעובדו דמי בידוד במועד שהיה משלם לו שכר עבודה אילו עבד, ובלבד שהעובד מסר למעסיק את העתק הדיווח לפחות שבעה ימים לפני המועד האמור, ואם העתק הדיווח לא נמסר למעסיק לפני המועד האמור – במועד הקרוב לתשלום שכר העבודה שלאחר מסירת העתק הדיווח.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_26ג">
+              <heading>
+                <authorialNote placement="side">
+                  <p>זכאות לדמי בידוד לעובד שנסע למדינה אחרת מטעם המעסיק</p>
+                </authorialNote>
+              </heading>
+              <num>26ג.</num>
+              <content>
+                <p>עובד שנעדר מעבודתו משום שחלה עליו חובת בידוד בשל הגעתו לישראל ממדינה אחרת שאליה נסע מטעם המעסיק ומתקיימות לגביו הוראות פסקאות (1) עד (3) להגדרה ”עובד השוהה בבידוד“, למעט חולה כהגדרתו <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/צו_בריאות_העם_נגיף_הקורונה_החדש_בידוד_בית_והוראות_שונות_הוראת_שעה">בצו בידוד בית</ref>, יהיה זכאי ממעסיקו לתשלום דמי בידוד בעד כל ימי העבודה שבהם נעדר מעבודתו בתקופת הבידוד.</p>
+              </content>
+            </point>
+            <point eId="point_26ד">
+              <heading>
+                <authorialNote placement="side">
+                  <p>דין היעדרות בתקופת בידוד ודמי בידוד</p>
+                </authorialNote>
+              </heading>
+              <num>26ד.</num>
+              <content>
+                <p>דין היעדרות עובד בתקופת הבידוד כדין היעדרותו בתקופת מחלה ודין דמי בידוד כדין דמי מחלה, לרבות לעניין איסור פיטורים, ביצוע הפרשות לקופת גמל וצבירת ותק.</p>
+              </content>
+            </point>
+            <point eId="point_26ה">
+              <heading>
+                <authorialNote placement="side">
+                  <p>דין עבודה בתקופת בידוד לעניין דמי בידוד</p>
+                </authorialNote>
+              </heading>
+              <num>26ה.</num>
+              <content>
+                <p>עובד השוהה בבידוד ועבד למעשה אצל מעסיקו בשכר בתקופת הבידוד לא יהיה זכאי לדמי בידוד מאותו מעסיק ולא יופחתו לו ימי מחלה בעד פרק הזמן בתקופת הבידוד שבו עבד כאמור.</p>
+              </content>
+            </point>
+            <point eId="point_26ו">
+              <heading>
+                <authorialNote placement="side">
+                  <p>רציפות תקופות</p>
+                </authorialNote>
+              </heading>
+              <num>26ו.</num>
+              <content>
+                <p>עובד שחדל להיות עובד השוהה בבידוד בשל היותו חולה כהגדרתו <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/צו_בריאות_העם_נגיף_הקורונה_החדש_בידוד_בית_והוראות_שונות_הוראת_שעה">בצו בידוד בית</ref>, יימנו לעניין חישוב דמי המחלה המגיעים לו בעד תקופת מחלתו ימי הבידוד שבעדם הופחתו ימי המחלה שעמדו לרשותו כאילו חושבו כחלק מתקופת המחלה.</p>
+              </content>
+            </point>
+            <point eId="point_26ז">
+              <heading>
+                <authorialNote placement="side">
+                  <p>שמירת זכויות</p>
+                </authorialNote>
+              </heading>
+              <num>26ז.</num>
+              <list>
+                <point eId="point_26ז__point_א">
+                  <num>(א)</num>
+                  <content>
+                    <p>בכפוף להוראות <ref href="#point_26ב">סעיף 26ב(ג)</ref>, הוראות <ref href="#chp_ו1_sec_ב">סימן זה</ref> באות להוסיף על זכותו של עובד מכוח דין או הסכם ולא לגרוע ממנה.</p>
+                  </content>
+                </point>
+                <point eId="point_26ז__point_ב">
+                  <num>(ב)</num>
+                  <content>
+                    <p>עובד הזכאי לדמי בידוד בשל אותה תקופת בידוד, הן מכוח הוראות <ref href="#chp_ו1_sec_ב">סימן זה</ref> והן מכוח הסכם קיבוצי לעניין ימי בידוד החל לגביו אצל מעסיקו או חוזה אישי, יחול לגביו ההסדר המיטיב מהם.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+          </list>
+        </section>
+        <section eId="chp_ו1__sec_ג">
+          <num>סימן ג׳:</num>
+          <title>
+            <content>
+              <p>שיפוי למעסיק</p>
+            </content>
+          </title>
+          <list>
+            <point eId="point_26ח">
+              <heading>
+                <authorialNote placement="side">
+                  <p>הגדרת ”מעסיק“</p>
+                </authorialNote>
+              </heading>
+              <num>26ח.</num>
+              <list>
+                <intro>
+                  <p>
+                    <ref href="#chp_ו1_sec_ג">בסימן זה</ref>, ”מעסיק“ – למעט אחד מאלה:</p>
+                </intro>
+                <point eId="point_26ח__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>המדינה;</p>
+                  </content>
+                </point>
+                <point eId="point_26ח__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>גוף מתוקצב כהגדרתו <ref href="/akn/il/act/PrimaryLegislation/1985-04-03/150399#point_21">בסעיף 21 לחוק יסודות התקציב</ref>, למעט חברה ממשלתית כהגדרתה <ref href="/akn/il/act/PrimaryLegislation/1985-04-03/150399#point_21">באותו סעיף</ref>;</p>
+                  </content>
+                </point>
+                <point eId="point_26ח__point_3">
+                  <num>(3)</num>
+                  <content>
+                    <p>גוף נתמך כהגדרתו <ref href="/akn/il/act/PrimaryLegislation/1985-04-03/150399#point_32">בסעיף 32 לחוק יסודות התקציב</ref> שסכום השתתפות הממשלה בתקציבו בשנת 2019 היה 25% לפחות מתקציבו;</p>
+                  </content>
+                </point>
+                <point eId="point_26ח__point_4">
+                  <num>(4)</num>
+                  <content>
+                    <p>קופת חולים;</p>
+                  </content>
+                </point>
+                <point eId="point_26ח__point_5">
+                  <num>(5)</num>
+                  <content>
+                    <p>תאגיד בריאות כהגדרתו <ref href="/akn/il/act/PrimaryLegislation/1985-04-03/150399#point_21">בסעיף 21 לחוק יסודות התקציב</ref>;</p>
+                  </content>
+                </point>
+                <point eId="point_26ח__point_6">
+                  <num>(6)</num>
+                  <content>
+                    <p>מוסד חינוך שהממשלה משתתפת בתקציבו, במישרין או בעקיפין, וסכום השתתפות הממשלה בתקציבו בשנת 2019 היה 40% לפחות מתקציבו;</p>
+                  </content>
+                </point>
+                <point eId="point_26ח__point_7">
+                  <num>(7)</num>
+                  <content>
+                    <p>מוסד מוכר כמשמעותו <ref href="/akn/il/act/PrimaryLegislation/1958-08-14/147288#point_9">בסעיף 9 לחוק המועצה להשכלה גבוהה, התשי"ח–1958</ref>, או מוסד שניתנה לו תעודת היתר מאת המועצה להשכלה גבוהה לפי <ref href="/akn/il/act/PrimaryLegislation/1958-08-14/147288#point_21א">סעיף 21א לחוק האמור</ref>, שהממשלה משתתפת בתקציבו, במישרין או בעקיפין, וסכום השתתפות הממשלה בתקציבו בשנת 2019 היה 40% לפחות מתקציבו;</p>
+                  </content>
+                </point>
+                <point eId="point_26ח__point_8">
+                  <num>(8)</num>
+                  <content>
+                    <p>מעסיק של מסתנן, לעניין העסקה של מסתנן כהגדרתו <ref href="/akn/il/act/PrimaryLegislation/1954-08-26/147317">בחוק למניעת הסתננות (עבירות ושיפוט), התשי"ד–1954</ref>.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_26ט">
+              <heading>
+                <authorialNote placement="side">
+                  <p>שיפוי</p>
+                </authorialNote>
+              </heading>
+              <num>26ט.</num>
+              <list>
+                <point eId="point_26ט__point_א">
+                  <num>(א)</num>
+                  <list>
+                    <intro>
+                      <p>שילם מעסיק לעובד דמי בידוד לפי הוראות <ref href="#chp_ו1">פרק זה</ref>, יעביר המוסד למעסיק תשלום בשיעורים כלהלן מהעלות שבה נשא המעסיק הנובעת מזכאות העובד לדמי בידוד לפי פרק זה:</p>
+                    </intro>
+                    <point eId="point_26ט__point_א__point_1">
+                      <num>(1)</num>
+                      <content>
+                        <p>בעד יום עבודה אחד בתקופת הבידוד שהמעסיק שילם בעדו דמי בידוד לעובדו לפי <ref href="#chp_ו1">פרק זה</ref> – 100%;</p>
+                      </content>
+                    </point>
+                    <point eId="point_26ט__point_א__point_2">
+                      <num>(2)</num>
+                      <list>
+                        <intro>
+                          <p>בעד שאר ימי העבודה בתקופת הבידוד שהמעסיק שילם בעדם דמי בידוד לעובדו לפי <ref href="#chp_ו1">פרק זה</ref> –</p>
+                        </intro>
+                        <point eId="point_26ט__point_א__point_2__point_א">
+                          <num>(א)</num>
+                          <content>
+                            <p>למי שביום י"א באב התש"ף (1 באוגוסט 2020) העסיק לכל היותר עשרים עובדים – 75%;</p>
+                          </content>
+                        </point>
+                        <point eId="point_26ט__point_א__point_2__point_ב">
+                          <num>(ב)</num>
+                          <content>
+                            <p>למי שביום י"א באב התש"ף (1 באוגוסט 2020) העסיק יותר מעשרים עובדים – 50%.</p>
+                          </content>
+                        </point>
+                      </list>
+                    </point>
+                  </list>
+                </point>
+                <point eId="point_26ט__point_ב">
+                  <num>(ב)</num>
+                  <content>
+                    <p>על אף האמור בסעיף קטן (א), מעסיק ששילם לעובד דמי בידוד לפי <ref href="#point_26ג">סעיף 26ג</ref> לא יהיה זכאי לתשלום כאמור בסעיף קטן (א) בעד העלות שבה נשא בשל יום אחד בתקופת הבידוד; הוראות סעיף קטן זה יחולו גם לעניין מעסיק ששילם לעובד דמי בידוד לפי <ref href="#point_26ב">סעיף 26ב(ב)</ref>, מכוח הסדר דמי מחלה מיטיב לפי הסכם קיבוצי או חוזה אישי או מכוח הסדר דמי בידוד מיטיב.</p>
+                  </content>
+                </point>
+                <point eId="point_26ט__point_ג">
+                  <num>(ג)</num>
+                  <content>
+                    <p>תשלום לפי סעיף זה יבוצע רק בעד ימים בתקופת הבידוד שלגביהם משרד הבריאות הודיע למנהל המוסד, בהתאם להוראות <ref href="#point_26יב">סעיף 26יב</ref>, כי העובד דיווח לגביהם על שהייתו בבידוד, ובעד לא יותר מחמישה ימים בכל שבעה ימים בתקופת בידוד, ואם נהוג במקום העבודה שבוע עבודה בן שישה ימים – שישה ימים בכל שבעה ימים בתקופת הבידוד.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_26י">
+              <heading>
+                <authorialNote placement="side">
+                  <p>דין עבודה בתקופת בידוד לעניין שיפוי</p>
+                </authorialNote>
+              </heading>
+              <num>26י.</num>
+              <content>
+                <p>עובד השוהה בבידוד, שעבד למעשה אצל מעסיקו בשכר ושולמו לו דמי בידוד על אף האמור <ref href="#point_26ה">בסעיף 26ה</ref>, לא יהיה המעסיק זכאי לתשלום מהמוסד בעד דמי בידוד ששילם לעובד בשל פרק הזמן שבו עבד העובד כאמור.</p>
+              </content>
+            </point>
+            <point eId="point_26יא">
+              <heading>
+                <authorialNote placement="side">
+                  <p>בקשה לשיפוי</p>
+                </authorialNote>
+              </heading>
+              <num>26יא.</num>
+              <list>
+                <point eId="point_26יא__point_א">
+                  <num>(א)</num>
+                  <content>
+                    <p>מעסיק יגיש למוסד בקשה לתשלום בעד דמי הבידוד ששילם לעובד לפי הוראות <ref href="#chp_ו1_sec_ב">סימן ב׳</ref> (<ref href="#chp_ו1_sec_ג">בסימן זה</ref> – בקשה לשיפוי).</p>
+                  </content>
+                </point>
+                <point eId="point_26יא__point_ב">
+                  <num>(ב)</num>
+                  <content>
+                    <p>בקשה לשיפוי תוגש למוסד באופן מקוון כפי שיורה המוסד בהודעה שיפרסם באתר האינטרנט שלו, לא יאוחר מ־60 ימים מתום החודש שבו הסתיימה תקופת הבידוד של העובד.</p>
+                  </content>
+                </point>
+                <point eId="point_26יא__point_ג">
+                  <num>(ג)</num>
+                  <list>
+                    <intro>
+                      <p>בקשה לשיפוי תכלול הצהרה של המעסיק על תשלום דמי בידוד לעובד ואת פרטי המידע שלהלן:</p>
+                    </intro>
+                    <point eId="point_26יא__point_ג__point_1">
+                      <num>(1)</num>
+                      <content>
+                        <p>שם המעסיק ומספר מזהה, מספר טלפון, כתובת דואר אלקטרוני, מספר חשבון בנק ומספר תיק ניכויים של המעסיק;</p>
+                      </content>
+                    </point>
+                    <point eId="point_26יא__point_ג__point_2">
+                      <num>(2)</num>
+                      <content>
+                        <p>שם, שם משפחה ומספר זהות, מספר דרכון או מספר מזהה אחר שניתן על ידי רשות שלטונית (להלן – מספר מזהה) של העובד שבאמצעותו דיווח העובד למשרד הבריאות על שהייתו בבידוד, מספר טלפון של העובד וכן כתובת דואר אלקטרוני שלו, אם ישנה;</p>
+                      </content>
+                    </point>
+                    <point eId="point_26יא__point_ג__point_3">
+                      <num>(3)</num>
+                      <content>
+                        <p>היקף המשרה שבה הועסק העובד אצל המעסיק בשלושת החודשים שקדמו לתקופת הבידוד;</p>
+                      </content>
+                    </point>
+                    <point eId="point_26יא__point_ג__point_4">
+                      <num>(4)</num>
+                      <content>
+                        <p>מועד תחילת תקופת הבידוד של העובד, מועד סיומה ומספר הימים בתקופת הבידוד שבשלהם שילם לעובד דמי בידוד לפי הוראות <ref href="#point_26ב">סעיפים 26ב</ref><ref href="#point_26ג">או 26ג</ref> בציון ההוראה שבשלה זכאי העובד לדמי בידוד, ולעניין הסדר דמי מחלה מיטיב לפי דין כאמור <ref href="#point_26ב">בסעיף 26ב(ב)</ref> – הדין שבו נקבע ההסדר;</p>
+                      </content>
+                    </point>
+                    <point eId="point_26יא__point_ג__point_5">
+                      <num>(5)</num>
+                      <content>
+                        <p>גובה דמי הבידוד לפי שווים ביום העבודה הראשון לתקופת הבידוד של העובד, השכר הממוצע של העובד ברבעון האחרון שלפיו חושב שווי דמי הבידוד, והעלות שבה נשא המעסיק הנובעת מזכאות העובד לדמי בידוד לפי <ref href="#chp_ו1">פרק זה</ref>.</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+              </list>
+            </point>
+            <point eId="point_26יב">
+              <heading>
+                <authorialNote placement="side">
+                  <p>העברת מידע</p>
+                </authorialNote>
+              </heading>
+              <num>26יב.</num>
+              <list>
+                <point eId="point_26יב__point_א">
+                  <num>(א)</num>
+                  <content>
+                    <p>מנהל המוסד או מי שהוא הסמיכו לעניין זה מקרב עובדי המוסד (בסעיף זה – המנהל) יעביר למשרד הבריאות את רשימת שמות העובדים שהוגשה בשלהם בקשה לשיפוי, את מספרם המזהה ואת תקופות הבידוד של אותם עובדים שעליהן דיווח המעסיק למוסד כאמור <ref href="#point_26יא">בסעיף 26יא(ג)(4)</ref>.</p>
+                  </content>
+                </point>
+                <point eId="point_26יב__point_ב">
+                  <num>(ב)</num>
+                  <content>
+                    <p>משרד הבריאות יודיע למנהל, לגבי כל עובד ששמו נכלל ברשימה כאמור בסעיף קטן (א), אם העובד דיווח על שהייה בבידוד לפי <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/צו_בריאות_העם_נגיף_הקורונה_החדש_בידוד_בית_והוראות_שונות_הוראת_שעה">צו בידוד בית</ref> בתקופות האמורות, המועד שבו דיווח כאמור, אם היה לחולה כהגדרתו <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/צו_בריאות_העם_נגיף_הקורונה_החדש_בידוד_בית_והוראות_שונות_הוראת_שעה">בצו בידוד בית</ref> ברציפות לתקופת הבידוד, ואם כן – באיזה תאריך היה לחולה.</p>
+                  </content>
+                </point>
+                <point eId="point_26יב__point_ג">
+                  <num>(ג)</num>
+                  <content>
+                    <p>המוסד יודיע למעסיק, לגבי כל עובד שבשלו הוגשה בקשה, על ימים שלגביהם העובד לא דיווח למשרד הבריאות על שהייתו בבידוד ועל כך שהעובד אינו זכאי לתשלום דמי בידוד בעד אותם ימים.</p>
+                  </content>
+                </point>
+                <point eId="point_26יב__point_ד">
+                  <num>(ד)</num>
+                  <list>
+                    <intro>
+                      <p>המוסד ישמור מידע שהתקבל לפי סעיף קטן (ב) בהתאם להוראות אלה:</p>
+                    </intro>
+                    <point eId="point_26יב__point_ד__point_1">
+                      <num>(1)</num>
+                      <content>
+                        <p>המידע יישמר במחשבי המוסד בנפרד מכל מידע אחר, ולא יועבר או יחובר לכל מאגר מידע אחר;</p>
+                      </content>
+                    </point>
+                    <point eId="point_26יב__point_ד__point_2">
+                      <num>(2)</num>
+                      <content>
+                        <p>המידע יישמר לפרק הזמן המזערי הדרוש, ולכל היותר לתקופה שלא תעלה על 18 חודשים, ובתום התקופה – ימחק המוסד את המידע אלא אם כן המידע דרוש לשם ניהול הליך משפטי הנוגע לביצוע <ref href="#chp_ו1">פרק זה</ref> או הנובע ממנו;</p>
+                      </content>
+                    </point>
+                    <point eId="point_26יב__point_ד__point_3">
+                      <num>(3)</num>
+                      <content>
+                        <p>המוסד יעשה שימוש במידע שהתקבל לפי סעיף קטן (ב) לשם ביצוע <ref href="#chp_ו1_sec_ג">סימן זה</ref> ובמידה הנדרשת, בלבד;</p>
+                      </content>
+                    </point>
+                    <point eId="point_26יב__point_ד__point_4">
+                      <num>(4)</num>
+                      <content>
+                        <p>לא יתאפשרו עיבוד, שימוש או צפייה בפרטי המידע שהתקבלו לפי סעיף זה אלא בידי בעלי תפקידים במוסד שהמנהל נתן להם אישור פרטני לכך וחתמו על התחייבות לשמירה על סודיות המידע;</p>
+                      </content>
+                    </point>
+                    <point eId="point_26יב__point_ד__point_5">
+                      <num>(5)</num>
+                      <content>
+                        <p>לבעלי התפקידים במוסד כאמור בפסקה (4), ולהם בלבד, תהיה גישה לפרטי המידע האמורים באותה פסקה;</p>
+                      </content>
+                    </point>
+                    <point eId="point_26יב__point_ד__point_6">
+                      <num>(6)</num>
+                      <content>
+                        <p>פרטי המידע יישמרו בדרך שתבטיח את אבטחת המידע ואת סודיותו;</p>
+                      </content>
+                    </point>
+                    <point eId="point_26יב__point_ד__point_7">
+                      <num>(7)</num>
+                      <content>
+                        <p>על אף האמור בכל דין, למעט <ref href="/akn/il/act/PrimaryLegislation/1972-04-09/2002281">פקודת הסטטיסטיקה [נוסח חדש], התשל"ב–1972</ref>, לא יעביר המוסד כל מידע שהתקבל או שנוצר לפי סעיף זה אלא לשם ביצוע <ref href="#chp_ו1_sec_ג">סימן זה</ref> ובמידה הנדרשת.</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+                <point eId="point_26יב__point_ה">
+                  <num>(ה)</num>
+                  <content>
+                    <p>אדם שהגיע אליו מידע לפי <ref href="#chp_ו1">פרק זה</ref> ישמור אותו בסוד, לא יגלה אותו לאחר ולא יעשה בו כל שימוש אלא לשם ביצוע <ref href="#chp_ו1_sec_ג">סימן זה</ref>.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_26יג">
+              <heading>
+                <authorialNote placement="side">
+                  <p>שווי דמי בידוד לעניין שיפוי</p>
+                </authorialNote>
+              </heading>
+              <num>26יג.</num>
+              <content>
+                <p>לעניין שיפוי מהמוסד למעסיק לפי <ref href="#point_26ט">סעיף 26ט</ref>, יראו שווי דמי בידוד בעד יום בידוד של עובד, לעניין כל תקופת הבידוד של אותו עובד, כפי שחושבו ביום הראשון של התקופה האמורה וכפי שצוין בבקשה לשיפוי שהגיש המעסיק, גם אם שווי דמי הבידוד בעד יום בידוד של העובד השתנה לאחר מועד הגשת הבקשה.</p>
+              </content>
+            </point>
+            <point eId="point_26יד">
+              <heading>
+                <authorialNote placement="side">
+                  <p>תחולת הוראות מחוק הביטוח הלאומי על תשלום שיפוי למעסיק</p>
+                </authorialNote>
+              </heading>
+              <num>26יד.</num>
+              <content>
+                <p>על תשלום שיפוי לפי <ref href="#chp_ו1_sec_ג">סימן זה</ref> יחולו הוראות לפי <ref href="/akn/il/act/PrimaryLegislation/1995-05-15/158093#point_281">סעיף 281</ref>, <ref href="/akn/il/act/PrimaryLegislation/1995-05-15/158093#chp_יד">פרק י"ד</ref> למעט <ref href="/akn/il/act/PrimaryLegislation/1995-05-15/158093#point_296">סעיף 296</ref>, <ref href="/akn/il/act/PrimaryLegislation/1995-05-15/158093#point_396">וסעיף 396 לחוק הביטוח הלאומי [נוסח משולב], התשנ"ה–1995</ref>, בשינויים המחויבים.</p>
+              </content>
+            </point>
+            <point eId="point_26טו">
+              <heading>
+                <authorialNote placement="side">
+                  <p>שיפוי המוסד</p>
+                </authorialNote>
+              </heading>
+              <num>26טו.</num>
+              <content>
+                <p>אוצר המדינה ישפה את המוסד בשל כל הוצאה שהוציא לשם ביצוע <ref href="#chp_ו1_sec_ג">סימן זה</ref><ref href="#chp_ו1_sec_ד">וסימן ד׳</ref>.</p>
+              </content>
+            </point>
+          </list>
+        </section>
+        <section eId="chp_ו1__sec_ד">
+          <num>סימן ד׳:</num>
+          <title>
+            <content>
+              <p>הוראות שונות</p>
+            </content>
+          </title>
+          <list>
+            <point eId="point_26טז">
+              <heading>
+                <authorialNote placement="side">
+                  <p>סמכות שיפוט</p>
+                </authorialNote>
+              </heading>
+              <num>26טז.</num>
+              <content>
+                <p>לבית דין אזורי לעבודה תהיה סמכות ייחודית לדון בכל תביעה של עובד לתשלום ממעסיק לפי הוראות <ref href="#chp_ו1_sec_ב">סימן ב׳</ref> או תביעה של מעסיק לשיפוי מהמוסד לפי הוראות <ref href="#chp_ו1_sec_ג">סימן ג׳</ref><ref href="#chp_ו1_sec_ד">וסימן זה</ref>.</p>
+              </content>
+            </point>
+            <point eId="point_26יז">
+              <heading>
+                <authorialNote placement="side">
+                  <p>פרק ו׳1 – תחילה ותוקף, תחולה והוראות מעבר</p>
+                </authorialNote>
+              </heading>
+              <num>26יז.</num>
+              <list>
+                <point eId="point_26יז__point_א">
+                  <num>(א)</num>
+                  <list>
+                    <intro>
+                      <p>
+                        <ref href="#chp_ו1">בפרק זה</ref> –</p>
+                    </intro>
+                    <point eId="point_26יז__point_א__point_יום_הפרסום">
+                      <content>
+                        <p>
+                          <def />”יום הפרסום“ – יום פרסומו של <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/http_fs_knesset_gov_il_23_law_23_lsr_589930_pdf">חוק התכנית לסיוע כלכלי (נגיף הקורונה החדש) (הוראת שעה) (תיקון מס׳ 3), התשפ"א–2020</ref>;<br space="preserve"></br><wikicomment font-size="x-small">יום הפרסום הינו 19 בנובמבר 2020.</wikicomment></p>
+                      </content>
+                    </point>
+                    <point eId="point_26יז__point_א__point_יום_התחילה">
+                      <content>
+                        <p>
+                          <def />”יום התחילה“ – י"א בחשוון התשפ"א (29 באוקטובר 2020);</p>
+                      </content>
+                    </point>
+                    <point eId="point_26יז__point_א__point_התקופה_הקובעת">
+                      <content>
+                        <p>
+                          <def />”התקופה הקובעת“ – התקופה שמיום י"ג בתשרי התשפ"א (1 באוקטובר 2020) עד ערב יום התחילה;</p>
+                      </content>
+                    </point>
+                    <point eId="point_26יז__point_א__point_תקופת_הוראת_השעה">
+                      <content>
+                        <p>
+                          <def />”תקופת הוראת השעה“ – התקופה שמיום התחילה ועד יום י"ח בניסן התשפ"א (31 במרס 2021).</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+                <point eId="point_26יז__point_ב">
+                  <num>(ב)</num>
+                  <content>
+                    <p>
+                      <ref href="#chp_ו1">פרק זה</ref> יעמוד בתוקפו בתקופת הוראת השעה, והוא יחול לעניין תקופת בידוד שחלה בתקופת הוראת השעה.</p>
+                  </content>
+                </point>
+                <point eId="point_26יז__point_ג">
+                  <num>(ג)</num>
+                  <content>
+                    <p>שר האוצר, באישור ועדת העבודה, הרווחה והבריאות של הכנסת, רשאי להאריך בצו את תקופת הוראת השעה בתקופות נוספות שלא יעלו על שישה חודשים כל אחת.</p>
+                  </content>
+                </point>
+                <point eId="point_26יז__point_ד">
+                  <num>(ד)</num>
+                  <content>
+                    <p>על אף האמור בסעיף קטן (ב), מעסיק ששילם לעובד דמי מחלה בשל שהייתו בבידוד לפי <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/צו_בריאות_העם_נגיף_הקורונה_החדש_בידוד_בית_והוראות_שונות_הוראת_שעה">צו בידוד בית</ref> בתקופה הקובעת, למעט אם היה בבידוד כאמור בשל היותו חולה כהגדרתו <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/צו_בריאות_העם_נגיף_הקורונה_החדש_בידוד_בית_והוראות_שונות_הוראת_שעה">באותו צו</ref>, זכאי לשיפוי בשיעורים האמורים <ref href="#point_26ט">בסעיף 26ט(א)</ref>, לפי העניין, בעד הימים שבעדם שילם דמי מחלה, כאילו היו דמי המחלה ששילם המעסיק לאותו עובד דמי בידוד ששולמו לפי <ref href="#chp_ו1">פרק זה</ref>, ויחולו לעניין זה הוראות <ref href="#point_26ט">סעיפים 26ט(ג)</ref>, <ref href="#point_26י">ו־26י עד 26טו</ref>.</p>
+                  </content>
+                </point>
+                <point eId="point_26יז__point_ה">
+                  <num>(ה)</num>
+                  <content>
+                    <p>הוראות <ref href="#chp_ו1">פרק זה</ref> יחולו גם על עובד ששהה בבידוד ביום התחילה, אף אם תקופת הבידוד החלה לפני יום התחילה.</p>
+                  </content>
+                </point>
+                <point eId="point_26יז__point_ו">
+                  <num>(ו)</num>
+                  <content>
+                    <p>יראו עובד שחייב בבידוד בתקופה שמיום התחילה ועד יום הפרסום כאילו הוא עובד השוהה בבידוד אף אם לא התקיים בו האמור בפסקה (2) להגדרה ”עובד השוהה בבידוד“ ויראו את התקופה ששהה בבידוד כאילו היא תקופת בידוד.</p>
+                  </content>
+                </point>
+                <point eId="point_26יז__point_ז">
+                  <num>(ז)</num>
+                  <content>
+                    <p>לעניין הוראות <ref href="#chp_ו1">פרק זה</ref>, יראו דיווח על שהיית ילד בבידוד שמסר עובד ששהה בבידוד עם ילדו שחייב בבידוד בתקופה שמיום התחילה ועד יום הפרסום כדיווח על שהיית העובד בבידוד, ולעניין הוראות <ref href="#point_26יא">סעיפים 26יא(ג)(2)</ref><ref href="#point_26יב">ו־26יב</ref> יימסרו וייבחנו גם פרטיו של הילד שלגביו נמסר הדיווח.</p>
+                  </content>
+                </point>
+                <point eId="point_26יז__point_ח">
+                  <num>(ח)</num>
+                  <content>
+                    <p>בקשה לשיפוי לפי <ref href="#point_26יא">סעיף 26יא(א)</ref> תוגש החל מיום י"ט בשבט התשפ"א (1 בפברואר 2021).</p>
+                  </content>
+                </point>
+                <point eId="point_26יז__point_ט">
+                  <num>(ט)</num>
+                  <content>
+                    <p>יראו עובד זר שיצא מישראל לארץ מוצאו בששת החודשים שקדמו ליום התחילה וחזר לישראל מארץ מוצאו לשם עבודה אצל מעסיק שאצלו הועסק לפני יציאתו מישראל כעובד השוהה בבידוד לעניין <ref href="#chp_ו1">פרק זה</ref>, גם אם חובת הבידוד חלה עליו בשל הגעתו לישראל ממדינה אחרת; בסעיף זה, ”עובד זר“ – כהגדרתו <ref href="/akn/il/act/PrimaryLegislation/1991-03-21/174403">בחוק עובדים זרים, התשנ"א–1991</ref>.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+          </list>
+        </section>
+      </chapter>
+      <chapter eId="chp_ז">
+        <num>פרק ז׳:</num>
+        <title>
+          <content>
+            <p>קרנות השתלמות</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_27">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>27.</num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_מס_הכנסה">בפקודת מס הכנסה</ref> כהוראת שעה בתקופה שמיום 10.8.2020 עד יום 9.2.2021.</wikicomment>
+              </p>
+            </content>
+          </point>
+          <point eId="point_28">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>28.</num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryLegislation/2005-08-10/100899">בחוק הפיקוח על שירותים פיננסיים (קופות גמל), התשס"ה–2005</ref> כהוראת שעה בתקופה שמיום 10.8.2020 עד יום 9.2.2021.</wikicomment>
+              </p>
+            </content>
+          </point>
+        </list>
+      </chapter>
+      <chapter eId="chp_ח">
+        <num>פרק ח׳:</num>
+        <title>
+          <content>
+            <p>הוראות שונות</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_29">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>29.</num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_מס_הכנסה">בפקודת מס הכנסה</ref> כהוראת שעה בתקופה שמיום 29.7.2020 עד יום 31.12.2020.</wikicomment>
+              </p>
+            </content>
+          </point>
+          <point eId="point_30">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>30.</num>
+            <list>
+              <point eId="point_30__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>
+                    <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryLegislation/1995-05-15/158093">בחוק הביטוח הלאומי [נוסח משולב], התשנ"ה–1995</ref> כהוראת שעה בתקופה שמיום 1.8.2020 ועד יום 30.6.2021.</wikicomment>
+                  </p>
+                </content>
+              </point>
+              <point eId="point_30__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>הוראות סעיף זה יחולו לעניין קצבה המשולמת בעד חודש יולי 2020 ואילך.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_31">
+            <heading>
+              <authorialNote placement="side">
+                <p>תקציב לתמיכה במוסד ציבור שהכנסותיו פחתו</p>
+              </authorialNote>
+            </heading>
+            <num>31.</num>
+            <list>
+              <point eId="point_31__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>יוקצה תקציב של 100 מיליון שקלים חדשים לחלוקה לפי הוראות <ref href="/akn/il/act/PrimaryLegislation/1985-04-03/150399#point_3א">סעיף 3א לחוק יסודות התקציב, התשמ"ה–1985</ref> (בסעיף זה – חוק יסודות התקציב), לצורך תמיכה במוסד ציבור כהגדרתו <ref href="/akn/il/act/PrimaryLegislation/1985-04-03/150399#point_3א">באותו סעיף</ref>, שהכנסותיו, לרבות מתרומות, פחתו בשל התפשטות נגיף הקורונה החדש והוא אינו זכאי למענק לפי <ref href="#chp_ו">פרק ו׳</ref>; לא יראו בקבלת תמיכה כאמור משום כפל תמיכה, ובלבד שסך התמיכות במוסד הציבור בשנת 2020 לא יעלה על 90% מכלל עלות הפעולות של אותו מוסד בשנת 2020.</p>
+                </content>
+              </point>
+              <point eId="point_31__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>משרד האוצר יפרסם מבחנים לחלוקת הסכום כאמור בסעיף קטן (א) לפי <ref href="/akn/il/act/PrimaryLegislation/1985-04-03/150399#point_3א">סעיף 3א לחוק יסודות התקציב</ref>, בתוך 30 ימים מיום תחילתו של חוק זה.</p>
+                </content>
+              </point>
+              <point eId="point_31__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>שר האוצר, או מי מטעמו, ידווח לוועדת הכספים של הכנסת על יישום הוראות סעיף זה בתוך 60 ימים מיום תחילתו של חוק זה.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_32">
+            <heading>
+              <authorialNote placement="side">
+                <p>ביצוע ותקנות</p>
+              </authorialNote>
+            </heading>
+            <num>32.</num>
+            <content>
+              <p>שר האוצר ממונה על ביצוע חוק זה, והוא רשאי, באישור ועדת הכספים של הכנסת, להתקין תקנות לביצועו.<br space="preserve"></br><wikicomment font-size="x-small">פורסמו <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/תקנות_התכנית_לסיוע_כלכלי_נגיף_הקורונה_החדש_הוראת_שעה_בקשה_למענק_לפי_מחזור_עסקאות_חליפי">תקנות התכנית לסיוע כלכלי (נגיף הקורונה החדש) (הוראת שעה) (בקשה למענק לפי מחזור עסקאות חליפי), התשפ"א–2020</ref>.</wikicomment></p>
+            </content>
+          </point>
+        </list>
+      </chapter>
+    </body>
+    <conclusions eId="eId">
+      <p class="signatures">
+        <signature>
+          <p>
+            <person refersTo="בנימין_נתניהו">בנימין נתניהו</person>
+            <role refersTo="ראש_הממשלה">ראש הממשלה</role>
+          </p>
+        </signature>
+        <signature>
+          <p>
+            <person refersTo="ישראל_כץ">ישראל כץ</person>
+            <role refersTo="שר_האוצר">שר האוצר</role>
+          </p>
+        </signature>
+        <signature>
+          <p>
+            <person refersTo="ראובן_ריבלין">ראובן ריבלין</person>
+            <role refersTo="נשיא_המדינה">נשיא המדינה</role>
+          </p>
+        </signature>
+        <signature>
+          <p>
+            <person refersTo="יריב_לוין">יריב לוין</person>
+            <role refersTo="יושב_ראש_הכנסת">יושב ראש הכנסת</role>
+          </p>
+        </signature>
+      </p>
+    </conclusions>
+  </act>
+</akomaNtoso>

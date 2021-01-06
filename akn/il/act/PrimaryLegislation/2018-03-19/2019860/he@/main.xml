@@ -1,0 +1,513 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion" name="publicLaw">
+    <meta>
+      <identification source="#kensset">
+        <FRBRWork>
+          <FRBRthis value="/akn/il/act/PrimaryLegislation/2018-03-19/2019860/main" />
+          <FRBRuri value="/akn/il/act/PrimaryLegislation/2018-03-19/2019860" />
+          <FRBRdate date="2018-03-19" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRcountry value="israel" />
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/il/act/PrimaryLegislation/2018-03-19/2019860/he@/main" />
+          <FRBRuri value="/akn/il/act/PrimaryLegislation/2018-03-19/2019860/he@" />
+          <FRBRdate date="2018-03-19" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRlanguage language="hebrew" />
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/il/act/PrimaryLegislation/2018-03-19/2019860/he@/main.xml" />
+          <FRBRuri value="/akn/il/act/PrimaryLegislation/2018-03-19/2019860/he@" />
+          <FRBRdate date="2018-03-19" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRformat value="xml" />
+        </FRBRManifestation>
+      </identification>
+      <classification source="#kensset">
+        <keyword value="{classificationValue}" showAs="{classificationValue}" dictionary="#classification_dictionary" />
+      </classification>
+      <lifecycle source="#kensset">
+        <eventRef eId="eventRef_1" date="2018-03-19" source="#kensset" type="generation" />
+      </lifecycle>
+      <references source="#kensset">
+        <TLCOrganization eId="kensset" href="/ontology/organization/akn/knesset" showAs="Kensset" type="generation" />
+        <TLCRole eId="author" href="/ontology/role/akn/author" showAs="Author of Document" />
+        <TLCProcess eId="inforce" href="/ontology/process/akn/inforce" showAs="In force" />
+        <TLCTerm eId="term_1" href="/ontology/term/הסכם_התקשרות/2019860" showAs="הסכם_התקשרות" />
+        <TLCTerm eId="term_2" href="/ontology/term/ועדת_החוקה/2019860" showAs="ועדת_החוקה" />
+        <TLCTerm eId="term_3" href="/ontology/term/חוק_המעצרים/2019860" showAs="חוק_המעצרים" />
+        <TLCTerm eId="term_4" href="/ontology/term/חוק_התקשורת/2019860" showAs="חוק_התקשורת" />
+        <TLCTerm eId="term_5" href="/ontology/term/חסימת_מספר_טלפון/2019860" showAs="חסימת_מספר_טלפון" />
+        <TLCTerm eId="term_6" href="/ontology/term/מאגר_נתוני_זיהוי_(תקשורת)/2019860" showAs="מאגר_נתוני_זיהוי_(תקשורת)" />
+        <TLCTerm eId="term_7" href="/ontology/term/מחזיק/2019860" showAs="מחזיק" />
+        <TLCTerm eId="term_8" href="/ontology/term/מנוי/2019860" showAs="מנוי" />
+        <TLCTerm eId="term_9" href="/ontology/term/מספר_טלפון/2019860" showAs="מספר_טלפון" />
+        <TLCTerm eId="term_10" href="/ontology/term/מסרון/2019860" showAs="מסרון" />
+        <TLCTerm eId="term_11" href="/ontology/term/מפעיל_סלולרי/2019860" showAs="מפעיל_סלולרי" />
+        <TLCTerm eId="term_12" href="/ontology/term/עבירה/2019860" showAs="עבירה" />
+        <TLCTerm eId="term_13" href="/ontology/term/צו_חסימה_מינהלי/2019860" showAs="צו_חסימה_מינהלי" />
+        <TLCTerm eId="term_14" href="/ontology/term/צו_חסימה_שיפוטי/2019860" showAs="צו_חסימה_שיפוטי" />
+        <TLCTerm eId="term_15" href="/ontology/term/קצין_משטרה_מוסמך/2019860" showAs="קצין_משטרה_מוסמך" />
+        <TLCTerm eId="term_16" href="/ontology/term/שירותי_בזק/2019860" showAs="שירותי_בזק" />
+        <TLCTerm eId="term_17" href="/ontology/term/תובע/2019860" showAs="תובע" />
+        <TLCPerson eId="בנימין_נתניהו" href="/ontology/person/בנימין_נתניהו" showAs="בנימין נתניהו" />
+        <TLCPerson eId="גלעד_ארדן" href="/ontology/person/גלעד_ארדן" showAs="גלעד ארדן" />
+        <TLCPerson eId="ראובן_ריבלין" href="/ontology/person/ראובן_ריבלין" showAs="ראובן ריבלין" />
+        <TLCPerson eId="יולי_יואל_אדלשטיין" href="/ontology/person/יולי_יואל_אדלשטיין" showAs="יולי יואל אדלשטיין" />
+        <TLCRole eId="ראש_הממשלה" href="ontology/role/akn/ראש_הממשלה" showAs="ראש הממשלה" />
+        <TLCRole eId="השר_לביטחון_הפנים" href="ontology/role/akn/השר_לביטחון_הפנים" showAs="השר לביטחון הפנים" />
+        <TLCRole eId="נשיא_המדינה" href="ontology/role/akn/נשיא_המדינה" showAs="נשיא המדינה" />
+        <TLCRole eId="יושב_ראש_הכנסת" href="ontology/role/akn/יושב_ראש_הכנסת" showAs="יושב ראש הכנסת" />
+      </references>
+      <temporalData source="#kensset">
+        <temporalGroup eId="tmpg_1" />
+      </temporalData>
+      <Publication></Publication>
+      <proprietary wikiversion="7/22/2020 10:47:17 PM" />
+    </meta>
+    <body period="#tmpg_1">
+      <title eId="title">
+        <content>
+          <p>חוק חסימת מספר טלפון לשם מניעת ביצוע עבירות, התשע"ח–2018</p>
+        </content>
+      </title>
+      <list>
+        <point eId="point_1" class="definitions">
+          <heading>
+            <authorialNote placement="side">
+              <p>הגדרות</p>
+            </authorialNote>
+          </heading>
+          <num>1.</num>
+          <list>
+            <intro>
+              <p>בחוק זה –</p>
+            </intro>
+            <point eId="point_1__point_הסכם_התקשרות">
+              <content>
+                <p>
+                  <def />”הסכם התקשרות“ – הסכם למתן שירותי בזק;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_ועדת_החוקה">
+              <content>
+                <p>
+                  <def />”ועדת החוקה“ – ועדת החוקה חוק ומשפט של הכנסת;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_חוק_המעצרים">
+              <content>
+                <p>
+                  <def />”חוק המעצרים“ – <ref href="/akn/il/act/PrimaryLegislation/1996-05-12/159712">חוק סדר הדין הפלילי (סמכויות אכיפה – מעצרים), התשנ"ו–1996</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_חוק_התקשורת">
+              <content>
+                <p>
+                  <def />”חוק התקשורת“ – <ref href="/akn/il/act/PrimaryLegislation/2001-08-09/171095">חוק התקשורת (בזק ושידורים), התשמ"ב–1982</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_חסימת_מספר_טלפון">
+              <list>
+                <intro>
+                  <p>
+                    <def />”חסימת מספר טלפון“ – כל אחד מאלה:</p>
+                </intro>
+                <point eId="point_1__point_חסימת_מספר_טלפון__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>חסימת הגישה של מספר טלפון לרשת התקשורת של מפעיל סלולרי;</p>
+                  </content>
+                </point>
+                <point eId="point_1__point_חסימת_מספר_טלפון__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>חיוב מפעיל סלולרי להימנע מלהתקשר בהסכם התקשרות למתן גישה לרשת התקשורת של אותו מפעיל, לגבי מספר טלפון;</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_1__point_מאגר_נתוני_זיהוי_תקשורת">
+              <content>
+                <p>
+                  <def />”מאגר נתוני זיהוי (תקשורת)“ – כמשמעותו <ref href="/akn/il/act/PrimaryLegislation/2007-12-27/144395#point_7">בסעיף 7(א) לחוק סדר הדין הפלילי (סמכויות אכיפה – נתוני תקשורת), התשס"ח–2007</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_מחזיק">
+              <content>
+                <p>
+                  <def />”מחזיק“ – המשתמש במספר טלפון לצורך קבלת שירותי בזק, אף אם אינו מנוי;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_מנוי">
+              <content>
+                <p>
+                  <def />”מנוי“ – מי שהתקשר עם מפעיל סלולרי בהסכם התקשרות;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_מספר_טלפון">
+              <content>
+                <p>
+                  <def />”מספר טלפון“ – כהגדרתו <ref href="/akn/il/act/PrimaryLegislation/2001-08-09/171095#point_5א">בסעיף 5א לחוק התקשורת</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_מסרון">
+              <content>
+                <p>
+                  <def />”מסרון“ (SMS) – כהגדרתו <ref href="/akn/il/act/PrimaryLegislation/2001-08-09/171095#point_5ב">בסעיף 5ב(ו) לחוק התקשורת</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_מפעיל_סלולרי">
+              <content>
+                <p>
+                  <def />”מפעיל סלולרי“ – מי שנותן שירותי רדיו טלפון נייד מכוח רישיון כללי לפי <ref href="/akn/il/act/PrimaryLegislation/2001-08-09/171095">חוק התקשורת</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_עבירה">
+              <list>
+                <intro>
+                  <p>
+                    <def />”עבירה“ – כל אחת מאלה:</p>
+                </intro>
+                <point eId="point_1__point_עבירה__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>עבירה לפי <ref href="/akn/il/act/PrimaryLegislation/1977-08-04/2002251#point_205א">סעיף 205א</ref>, <ref href="/akn/il/act/PrimaryLegislation/1977-08-04/2002251#point_205ג">205ג</ref><ref href="/akn/il/act/PrimaryLegislation/1977-08-04/2002251#point_205ד">או 205ד לחוק העונשין, התשל"ז–1977</ref>;</p>
+                  </content>
+                </point>
+                <point eId="point_1__point_עבירה__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>עבירה לפי <ref href="/akn/il/act/PrimaryLegislation/1973-07-10/2002282#point_13">סעיף 13</ref>, <ref href="/akn/il/act/PrimaryLegislation/1973-07-10/2002282#point_14">14</ref><ref href="/akn/il/act/PrimaryLegislation/1973-07-10/2002282#point_21">או 21 לפקודת הסמים המסוכנים [נוסח חדש], התשל"ג–1973</ref>;</p>
+                  </content>
+                </point>
+                <point eId="point_1__point_עבירה__point_3">
+                  <num>(3)</num>
+                  <content>
+                    <p>עבירה לפי <ref href="/akn/il/act/PrimaryLegislation/2013-08-06/486507#point_7">סעיף 7</ref><ref href="/akn/il/act/PrimaryLegislation/2013-08-06/486507#point_8">או 8 לחוק המאבק בתופעת השימוש בחומרים מסכנים, התשע"ג–2013</ref>;</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_1__point_צו_חסימה_מינהלי">
+              <content>
+                <p>
+                  <def />”צו חסימה מינהלי“ – צו לחסימת מספר טלפון שניתן לפי <ref href="#point_2">סעיף 2</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_צו_חסימה_שיפוטי">
+              <content>
+                <p>
+                  <def />”צו חסימה שיפוטי“ – צו לחסימת מספר טלפון שניתן לפי <ref href="#point_3">סעיף 3</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_קצין_משטרה_מוסמך">
+              <content>
+                <p>
+                  <def />”קצין משטרה מוסמך“ – קצין משטרה בדרגת ניצב משנה ומעלה;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_שירותי_בזק">
+              <content>
+                <p>
+                  <def />”שירותי בזק“ – כמשמעותם <ref href="/akn/il/act/PrimaryLegislation/2001-08-09/171095">בחוק התקשורת</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_תובע">
+              <content>
+                <p>
+                  <def />”תובע“ – כמשמעותו <ref href="/akn/il/act/PrimaryLegislation/1982-03-01/2002215#point_12">בסעיף 12 לחוק סדר הדין הפלילי [נוסח מושלב], התשמ"ב–1982</ref>, וכן קצין משטרה בדרגת פקד ומעלה שהסמיך לעניין זה המפקח הכללי של משטרת ישראל.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_2">
+          <heading>
+            <authorialNote placement="side">
+              <p>צו חסימה מינהלי</p>
+            </authorialNote>
+          </heading>
+          <num>2.</num>
+          <list>
+            <point eId="point_2__point_א">
+              <num>(א)</num>
+              <content>
+                <p>היה לקצין משטרה מוסמך יסוד סביר להניח כי מספר טלפון מפורסם ברבים לשם ביצוע עבירה, לרבות באמצעות האינטרנט ויישומים טכנולוגיים (בחוק זה – פרסום ברבים), וכי יש יסוד סביר לחשש שימשיך לשמש לפרסום כאמור אם לא ייחסם באופן מיידי, רשאי הוא לתת צו למפעיל הסלולרי שעמו התקשר המנוי בהסכם התקשרות ולמפעילים נוספים, המורה על חסימת מספר הטלפון, לתקופה שיקבע בצו אשר לא תעלה על 30 ימים; בצו לא תצוין העבירה שבשלה נחסם מספר הטלפון.</p>
+              </content>
+            </point>
+            <point eId="point_2__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>לא יינתן צו חסימה מינהלי אלא לאחר שנמסרה למחזיק או למנוי הודעה על הכוונה למתן הצו שבה תצוין העילה לנתינתו (בחוק זה – הודעה) וניתנה לו הזדמנות לטעון את טענותיו בתוך 24 שעות ממועד מסירת ההודעה, באופן שיפורט בה; בהודעה יצוין גם מספר טלפון לשם יצירת קשר שיהיה זמין 12 שעות ביממה לפחות; לעניין סעיף קטן זה יראו הודעה שנמסרה באמצעות שיחה, הודעה קולית או מסרון למספר הטלפון, כאילו נמסרה למחזיק או למנוי.</p>
+              </content>
+            </point>
+            <point eId="point_2__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>מנוי או מחזיק רשאי לטעון את טענותיו גם לאחר שהורה קצין משטרה מוסמך על החסימה כאמור, ואולם אין בכך כדי לעכב את החסימה.</p>
+              </content>
+            </point>
+            <point eId="point_2__point_ד">
+              <num>(ד)</num>
+              <content>
+                <p>בצו חסימה מינהלי יפורטו מספר הטלפון שלגביו ניתן הצו ופרטי המנוי ככל שהם רשומים במאגר נתוני זיהוי (תקשורת), וכן תקופת תוקפו של הצו.</p>
+              </content>
+            </point>
+            <point eId="point_2__point_ה">
+              <num>(ה)</num>
+              <content>
+                <p>על החלטת קצין משטרה מוסמך בעניין צו חסימה מינהלי ניתן לערער, בתוך תקופת תוקפו של הצו, לבית משפט השלום שבו יושב נשיא בית משפט השלום ובית המשפט ידון בערעור בהקדם האפשרי.</p>
+              </content>
+            </point>
+            <point eId="point_2__point_ו">
+              <num>(ו)</num>
+              <content>
+                <p>ניתן צו חסימה מינהלי לפי הוראות סעיף זה, רשאי קצין משטרה מוסמך לתת צו חסימה מינהלי נוסף אחד בלבד לגבי אותו מספר טלפון בתקופה של שנתיים מיום מתן הצו הראשון; ואולם אין באמור כדי למנוע מקצין משטרה מוסמך לפנות לבית המשפט בבקשה לצו חסימה שיפוטי לפי <ref href="#point_3">סעיף 3</ref>.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_3">
+          <heading>
+            <authorialNote placement="side">
+              <p>צו חסימה שיפוטי</p>
+            </authorialNote>
+          </heading>
+          <num>3.</num>
+          <list>
+            <point eId="point_3__point_א">
+              <num>(א)</num>
+              <list>
+                <intro>
+                  <p>בית משפט השלום שבו יושב נשיא בית משפט השלום רשאי לצוות כמפורט להלן, אם שוכנע כי חסימת מספר הטלפון חיונית למניעת המשך פרסום ברבים לשם ביצוע העבירה שבשלה ניתן צו חסימה מינהלי, ורשאי הוא לחזור ולצוות על הארכת תוקפו של הצו לתקופה נוספת שלא תעלה על 60 ימים מזמן לזמן:</p>
+                </intro>
+                <point eId="point_3__point_א__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>על פי בקשה בכתב של תובע – לתת צו המורה על הארכת תוקפו של צו חסימה מינהלי לתקופה נוספת שלא תעלה על 60 ימים;</p>
+                  </content>
+                </point>
+                <point eId="point_3__point_א__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>על פי בקשה בכתב של תובע, שהוגשה לבקשת קצין משטרה מוסמך – לתת צו המורה על חסימת מספר טלפון שניתנו לגביו שני צווי חסימה מינהליים כאמור <ref href="#point_2">בסעיף 2(ו)</ref> לתקופה שלא תעלה על 30 ימים.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_3__point_ב">
+              <num>(ב)</num>
+              <list>
+                <intro>
+                  <p>הוגש כתב אישום בעבירה, רשאי בית המשפט הדן בכתב האישום, על פי בקשת תובע, לצוות כמפורט להלן, אם שוכנע כי חסימת מספר הטלפון חיונית למניעת המשך הפרסום ברבים לשם ביצוע העבירה; בית המשפט רשאי לצוות כאמור עד תום ההליכים או עד למועד מוקדם יותר שיקבע, ולחזור ולצוות על הארכת תוקפו של הצו לתקופה נוספת מזמן לזמן, ואם הסתיים ההליך בהרשעה – עד למועד אחר שיקבע ושלא יעלה על חמש שנים נוספות מתום ההליכים:</p>
+                </intro>
+                <point eId="point_3__point_ב__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>לצוות על מפעילים סלולריים כאמור <ref href="#point_2">בסעיף 2(א)</ref> לחסום את מספר הטלפון המפורסם ברבים לשם ביצוע העבירה כאמור <ref href="#point_2">באותו סעיף</ref>;</p>
+                  </content>
+                </point>
+                <point eId="point_3__point_ב__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>לצוות על הארכת תוקפו של צו חסימה מינהלי או צו חסימה שיפוטי.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_3__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>הוגשה לבית המשפט בקשה להארכת תוקפו של צו חסימה לפי סעיף קטן (א) או (ב) יתקיים הדיון בבקשת ההארכה בהקדם האפשרי והצו המקורי יישאר בתוקפו לתקופה נוספת של 30 ימים מתום התקופה שעליה הורה קצין המשטרה המוסמך, אלא אם כן קבע בית המשפט אחרת.</p>
+              </content>
+            </point>
+            <point eId="point_3__point_ד">
+              <num>(ד)</num>
+              <content>
+                <p>בית המשפט רשאי לדון מחדש בצו חסימה שיפוטי אם ראה כי הדבר מוצדק בשל נסיבות שהשתנו או עובדות שהתגלו לאחר מתן הצו.</p>
+              </content>
+            </point>
+            <point eId="point_3__point_ה">
+              <num>(ה)</num>
+              <content>
+                <p>על החלטת בית המשפט לפי סעיף זה ניתן לערער לבית המשפט שלערעור, בתוך 30 ימים ממועד מתן ההחלטה.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_4">
+          <heading>
+            <authorialNote placement="side">
+              <p>סדרי דין בבקשה למתן צו חסימה שיפוטי</p>
+            </authorialNote>
+          </heading>
+          <num>4.</num>
+          <list>
+            <intro>
+              <p>לעניין בקשה למתן צו חסימה שיפוטי, יחולו הוראות אלה:</p>
+            </intro>
+            <point eId="point_4__point_1">
+              <num>(1)</num>
+              <content>
+                <p>הבקשה תוגש בכתב ותיתמך בהצהרה של קצין משטרה מוסמך, וככל הניתן גם בעותק מפרסום המספר ברבים;</p>
+              </content>
+            </point>
+            <point eId="point_4__point_2">
+              <num>(2)</num>
+              <content>
+                <p>המשיבים בבקשה יהיו המנוי והמחזיק ככל שזהותם ידועה או ככל שניתן לאתרם בשקידה סבירה;</p>
+              </content>
+            </point>
+            <point eId="point_4__point_3">
+              <num>(3)</num>
+              <content>
+                <p>הדיון בבקשה יתקיים במעמד המשיבים, ואולם בית משפט רשאי לתת צו חסימה שיפוטי במעמד צד אחד, אם הוא סבור שהמשיבים שלא התייצבו לדיון הוזמנו לדיון כדין;</p>
+              </content>
+            </point>
+            <point eId="point_4__point_4">
+              <num>(4)</num>
+              <content>
+                <p>לשם החלטתו בבקשה רשאי השופט להיזקק לראיות אף אם אינן קבילות במשפט.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_5">
+          <heading>
+            <authorialNote placement="side">
+              <p>חומר חסוי</p>
+            </authorialNote>
+          </heading>
+          <num>5.</num>
+          <list>
+            <point eId="point_5__point_א">
+              <num>(א)</num>
+              <content>
+                <p>בדיון בבקשה למתן צו חסימה שיפוטי וכן בערעור על החלטת בית המשפט לתת צו כאמור, רשאי תובע לבקש לפרט או להציג לפני בית המשפט בלבד עובדות או מידע שעליהם הוא מבסס את טענותיו (בסעיף זה – חומר חסוי); בקשה לפי סעיף זה (בסעיף זה – בקשה לאי־גילוי חומר חסוי) תוגש בכתב בצירוף נימוקים.</p>
+              </content>
+            </point>
+            <point eId="point_5__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>בית המשפט רשאי להיענות לבקשה לאי־גילוי חומר חסוי ולהסתמך על החומר החסוי, אם מצא כי גילויו בנוכחות המשיבים עלול לפגוע בחקירה או באינטרס ציבורי חשוב אחר; החומר החסוי יסומן, יוחזר למבקש לאחר העיון והדבר יירשם בפרוטוקול.</p>
+              </content>
+            </point>
+            <point eId="point_5__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>בית המשפט יודיע למבקש ולמשיבים על החלטתו בבקשה לאי־גילוי חומר חסוי ורשאי הוא לקבוע שנימוקי ההחלטה, כולם או חלקם, יהיו חסויים.</p>
+              </content>
+            </point>
+            <point eId="point_5__point_ד">
+              <num>(ד)</num>
+              <content>
+                <p>החליט בית המשפט שלא להיעתר לבקשה לאי־גילוי חומר חסוי, רשאי המבקש להודיע כי הוא חוזר בו מהגשת החומר החסוי, ומשעשה כן לא יועמד החומר לעיון המשיבים והשופט יתעלם ממנו לצורך החלטותיו.</p>
+              </content>
+            </point>
+            <point eId="point_5__point_ה">
+              <num>(ה)</num>
+              <content>
+                <p>אם במועד הדיון בבקשה לאי־גילוי חומר חסוי היה תלוי ועומד גם הליך לפי <ref href="/akn/il/act/PrimaryLegislation/1996-05-12/159712#chp_ב_sec_ג">סימן ג׳ בפרק ב׳ לחוק המעצרים</ref> בעניינו של חשוד בעבירה שבקשר אליה הוגשה הבקשה, לא יחולו הוראות סעיפים קטנים (א) עד (ד) ויחולו על הדיון בבקשה הוראות <ref href="/akn/il/act/PrimaryLegislation/1996-05-12/159712#point_15">סעיף 15(ג) עד (ה) לחוק המעצרים</ref>.</p>
+              </content>
+            </point>
+            <point eId="point_5__point_ו">
+              <num>(ו)</num>
+              <content>
+                <p>החליט בית המשפט שלא להיעתר לבקשה לאי־גילוי חומר חסוי, רשאי תובע לערער על החלטת בית המשפט בעניין זה בתוך 15 ימים ממועד מתן ההחלטה, לפני בית משפט שלערעור אשר ידון בערעור בשופט אחד.</p>
+              </content>
+            </point>
+            <point eId="point_5__point_ז">
+              <num>(ז)</num>
+              <content>
+                <p>הודיע תובע לבית משפט שהחליט כאמור בסעיף קטן (ו) כי הוא שוקל להגיש ערעור כאמור באותו סעיף קטן, לא יעביר בית המשפט את החומר החסוי למשיבים עד להכרעה בערעור.</p>
+              </content>
+            </point>
+            <point eId="point_5__point_ח">
+              <num>(ח)</num>
+              <content>
+                <p>בדיון בערעור לפי סעיף קטן (ו) רשאי בית המשפט לעיין בחומר החסוי ולקבל פרטים נוספים מהתובע בלי לגלותם למשיבים.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_6">
+          <heading>
+            <authorialNote placement="side">
+              <p>מימוש הוראה לפי הצו</p>
+            </authorialNote>
+          </heading>
+          <num>6.</num>
+          <content>
+            <p>מפעיל סלולרי יפעל למימושה של הוראה שניתנה בצו חסימה מינהלי או בצו חסימה שיפוטי, באופן מיידי ולא יאוחר מ־24 שעות ממועד קבלתו; במניין התקופה האמורה לא יובאו בחשבון שעות החלות ביום שאינו יום עסקים.</p>
+          </content>
+        </point>
+        <point eId="point_7">
+          <heading>
+            <authorialNote placement="side">
+              <p>ביצוע ותקנות</p>
+            </authorialNote>
+          </heading>
+          <num>7.</num>
+          <content>
+            <p>השר לביטחון הפנים ממונה על ביצוע חוק זה והוא רשאי, באישור ועדת החוקה, להתקין תקנות לביצועו.</p>
+          </content>
+        </point>
+        <point eId="point_8">
+          <heading>
+            <authorialNote placement="side">
+              <p>דיווח לכנסת – הוראת שעה</p>
+            </authorialNote>
+          </heading>
+          <num>8.</num>
+          <list>
+            <intro>
+              <p>בתקופה של שלוש שנים מיום פרסומו של חוק זה, ידווח השר לביטחון הפנים, בכתב, לוועדת החוקה, ב־1 במרס מדי שנה, על כל אלה, בחלוקה לעבירות:</p>
+            </intro>
+            <point eId="point_8__point_1">
+              <num>(1)</num>
+              <content>
+                <p>מספר צווי החסימה שניתנו לפי <ref href="#point_2">סעיפים 2</ref><ref href="#point_3">ו־3</ref>, ובכלל זה מספר הצווים שניתנו להארכת צווים כאמור ומספר הצווים שניתנו לפי <ref href="#point_2">סעיף 2(ו)</ref> ומשך הזמן שחלף בין מתן הצווים לפי <ref href="#point_2">סעיף 2(ו)</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_8__point_2">
+              <num>(2)</num>
+              <content>
+                <p>מספר צווי החסימה שבוטלו לפני סיום התקופה הקבועה בצו או שלא הוארכו, בחלוקה לצווים שבוטלו על ידי קצין מוסמך ולצווים שלא הוארכו או שבוטלו על ידי בית המשפט.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+      </list>
+    </body>
+    <conclusions eId="eId">
+      <p class="signatures">
+        <signature>
+          <p>
+            <person refersTo="בנימין_נתניהו">בנימין נתניהו</person>
+            <role refersTo="ראש_הממשלה">ראש הממשלה</role>
+          </p>
+        </signature>
+        <signature>
+          <p>
+            <person refersTo="גלעד_ארדן">גלעד ארדן</person>
+            <role refersTo="השר_לביטחון_הפנים">השר לביטחון הפנים</role>
+          </p>
+        </signature>
+        <signature>
+          <p>
+            <person refersTo="ראובן_ריבלין">ראובן ריבלין</person>
+            <role refersTo="נשיא_המדינה">נשיא המדינה</role>
+          </p>
+        </signature>
+        <signature>
+          <p>
+            <person refersTo="יולי_יואל_אדלשטיין">יולי יואל אדלשטיין</person>
+            <role refersTo="יושב_ראש_הכנסת">יושב ראש הכנסת</role>
+          </p>
+        </signature>
+      </p>
+    </conclusions>
+  </act>
+</akomaNtoso>

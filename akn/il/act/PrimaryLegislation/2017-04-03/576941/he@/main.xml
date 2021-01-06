@@ -1,0 +1,907 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion" name="publicLaw">
+    <meta>
+      <identification source="#kensset">
+        <FRBRWork>
+          <FRBRthis value="/akn/il/act/PrimaryLegislation/2017-04-03/576941/main" />
+          <FRBRuri value="/akn/il/act/PrimaryLegislation/2017-04-03/576941" />
+          <FRBRdate date="2017-04-03" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRcountry value="israel" />
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/il/act/PrimaryLegislation/2017-04-03/576941/he@/main" />
+          <FRBRuri value="/akn/il/act/PrimaryLegislation/2017-04-03/576941/he@" />
+          <FRBRdate date="2017-04-03" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRlanguage language="hebrew" />
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/il/act/PrimaryLegislation/2017-04-03/576941/he@/main.xml" />
+          <FRBRuri value="/akn/il/act/PrimaryLegislation/2017-04-03/576941/he@" />
+          <FRBRdate date="2017-04-03" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRformat value="xml" />
+        </FRBRManifestation>
+      </identification>
+      <classification source="#kensset">
+        <keyword value="{classificationValue}" showAs="{classificationValue}" dictionary="#classification_dictionary" />
+      </classification>
+      <lifecycle source="#kensset">
+        <eventRef eId="eventRef_1" date="2017-04-03" source="#kensset" type="generation" />
+      </lifecycle>
+      <references source="#kensset">
+        <TLCOrganization eId="kensset" href="/ontology/organization/akn/knesset" showAs="Kensset" type="generation" />
+        <TLCRole eId="author" href="/ontology/role/akn/author" showAs="Author of Document" />
+        <TLCProcess eId="inforce" href="/ontology/process/akn/inforce" showAs="In force" />
+        <TLCTerm eId="term_1" href="/ontology/term/בית_משותף/576941" showAs="בית_משותף" />
+        <TLCTerm eId="term_2" href="/ontology/term/היתר_בנייה/576941" showAs="היתר_בנייה" />
+        <TLCTerm eId="term_3" href="/ontology/term/הסכם_לארגון_עסקת_התחדשות_עירונית/576941" showAs="הסכם_לארגון_עסקת_התחדשות_עירונית" />
+        <TLCTerm eId="term_4" href="/ontology/term/הסכם_לארגון_עסקת_פינוי_ובינוי/576941" showAs="הסכם_לארגון_עסקת_פינוי_ובינוי" />
+        <TLCTerm eId="term_5" href="/ontology/term/הסכם_לארגון_עסקה_לפי_תכנית_החיזוק/576941" showAs="הסכם_לארגון_עסקה_לפי_תכנית_החיזוק" />
+        <TLCTerm eId="term_6" href="/ontology/term/חוק_המקרקעין/576941" showAs="חוק_המקרקעין" />
+        <TLCTerm eId="term_7" href="/ontology/term/חוק_המקרקעין_(חיזוק_בתים_משותפים_מפני_רעידות_אדמה)/576941" showAs="חוק_המקרקעין_(חיזוק_בתים_משותפים_מפני_רעידות_אדמה)" />
+        <TLCTerm eId="term_8" href="/ontology/term/חוק_פינוי_ובינוי_(עידוד_מיזמי_פינוי_ובינוי)/576941" showAs="חוק_פינוי_ובינוי_(עידוד_מיזמי_פינוי_ובינוי)" />
+        <TLCTerm eId="term_9" href="/ontology/term/חוק_הרשות_הממשלתית_להתחדשות_עירונית/576941" showAs="חוק_הרשות_הממשלתית_להתחדשות_עירונית" />
+        <TLCTerm eId="term_10" href="/ontology/term/חוק_התכנון_והבנייה/576941" showAs="חוק_התכנון_והבנייה" />
+        <TLCTerm eId="term_11" href="/ontology/term/יזם/576941" showAs="יזם" />
+        <TLCTerm eId="term_12" href="/ontology/term/מארגן/576941" showAs="מארגן" />
+        <TLCTerm eId="term_13" href="/ontology/term/מוסד_תכנון/576941" showAs="מוסד_תכנון" />
+        <TLCTerm eId="term_14" href="/ontology/term/המועד_הקובע/576941" showAs="המועד_הקובע" />
+        <TLCTerm eId="term_15" href="/ontology/term/המינהלת_העירונית/576941" showAs="המינהלת_העירונית" />
+        <TLCTerm eId="term_16" href="/ontology/term/הממונה_לעניין_פניות_דיירים_בהתחדשות_עירונית/576941" showAs="הממונה_לעניין_פניות_דיירים_בהתחדשות_עירונית" />
+        <TLCTerm eId="term_17" href="/ontology/term/עסקה_לפי_תכנית_החיזוק/576941" showAs="עסקה_לפי_תכנית_החיזוק" />
+        <TLCTerm eId="term_18" href="/ontology/term/עסקת_פינוי_ובינוי/576941" showAs="עסקת_פינוי_ובינוי" />
+        <TLCTerm eId="term_19" href="/ontology/term/תכנית_החיזוק/576941" showAs="תכנית_החיזוק" />
+        <TLCTerm eId="term_20" href="/ontology/term/דירה_ציבורית/576941" showAs="דירה_ציבורית" />
+        <TLCTerm eId="term_21" href="/ontology/term/חברה_לדיור_ציבורי/576941" showAs="חברה_לדיור_ציבורי" />
+        <TLCTerm eId="term_22" href="/ontology/term/עניין_אישי/576941" showAs="עניין_אישי" />
+        <TLCTerm eId="term_23" href="/ontology/term/קרוב/576941" showAs="קרוב" />
+        <TLCTerm eId="term_24" href="/ontology/term/בעל_שליטה/576941" showAs="בעל_שליטה" />
+        <TLCPerson eId="בנימין_נתניהו" href="/ontology/person/בנימין_נתניהו" showAs="בנימין נתניהו" />
+        <TLCPerson eId="איילת_שקד" href="/ontology/person/איילת_שקד" showAs="איילת שקד" />
+        <TLCPerson eId="ראובן_ריבלין" href="/ontology/person/ראובן_ריבלין" showAs="ראובן ריבלין" />
+        <TLCPerson eId="יולי_יואל_אדלשטיין" href="/ontology/person/יולי_יואל_אדלשטיין" showAs="יולי יואל אדלשטיין" />
+        <TLCRole eId="ראש_הממשלה" href="ontology/role/akn/ראש_הממשלה" showAs="ראש הממשלה" />
+        <TLCRole eId="שרת_המשפטים" href="ontology/role/akn/שרת_המשפטים" showAs="שרת המשפטים" />
+        <TLCRole eId="נשיא_המדינה" href="ontology/role/akn/נשיא_המדינה" showAs="נשיא המדינה" />
+        <TLCRole eId="יושב_ראש_הכנסת" href="ontology/role/akn/יושב_ראש_הכנסת" showAs="יושב ראש הכנסת" />
+      </references>
+      <temporalData source="#kensset">
+        <temporalGroup eId="tmpg_1" />
+      </temporalData>
+      <Publication></Publication>
+      <proprietary wikiversion="7/22/2020 10:39:45 PM" />
+    </meta>
+    <body period="#tmpg_1">
+      <title eId="title">
+        <content>
+          <p>חוק התחדשות עירונית (הסכמים לארגון עסקאות), התשע"ז–2017</p>
+        </content>
+      </title>
+      <list>
+        <point eId="point_1" class="definitions">
+          <heading>
+            <authorialNote placement="side">
+              <p>הגדרות</p>
+            </authorialNote>
+          </heading>
+          <num>1.</num>
+          <list>
+            <intro>
+              <p>בחוק זה –</p>
+            </intro>
+            <point eId="point_1__point_בית_משותף">
+              <content>
+                <p>
+                  <def />”בית משותף“, ”בעל דירה“, ”דירה“ ו”רכוש משותף“ – כהגדרתם <ref href="/akn/il/act/PrimaryLegislation/2018-07-29/576823">בחוק פינוי ובינוי (עידוד מיזמי פינוי ובינוי)</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_היתר_בנייה">
+              <content>
+                <p>
+                  <def />”היתר בנייה“ – היתר כהגדרתו <ref href="/akn/il/act/PrimaryLegislation/1965-08-12/148917">בחוק התכנון והבנייה</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_הסכם_לארגון_עסקת_התחדשות_עירונית">
+              <content>
+                <p>
+                  <def />”הסכם לארגון עסקת התחדשות עירונית“ – הסכם לארגון עסקת פינוי ובינוי או הסכם לארגון עסקה לפי תכנית החיזוק;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_הסכם_לארגון_עסקת_פינוי_ובינוי">
+              <list>
+                <intro>
+                  <p>
+                    <def />”הסכם לארגון עסקת פינוי ובינוי“ – הסכם או מסמך אחר, שעניינו ארגון בעלי הדירות בבית משותף לשם קידום עסקת פינוי ובינוי לגבי הבית המשותף, ושמתקיימים לגביו שני אלה:</p>
+                </intro>
+                <point eId="point_1__point_הסכם_לארגון_עסקת_פינוי_ובינוי__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>הוא אינו עסקת פינוי ובינוי;</p>
+                  </content>
+                </point>
+                <point eId="point_1__point_הסכם_לארגון_עסקת_פינוי_ובינוי__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>הוא כולל, בין השאר, התחייבות של בעל הדירה שלא לנהל משא ומתן או שלא להתקשר בכל הסכם אחר בעניין ארגון בעלי הדירות באותו בית משותף או קידום עסקת פינוי ובינוי בדרך אחרת, לגבי אותו בית משותף, אלא בהסכמת הצד השני להסכם;</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_1__point_הסכם_לארגון_עסקה_לפי_תכנית_החיזוק">
+              <list>
+                <intro>
+                  <p>
+                    <def />”הסכם לארגון עסקה לפי תכנית החיזוק“ – הסכם או מסמך אחר, שעניינו ארגון בעלי הדירות בבית משותף לשם קידום עסקה לפי תכנית החיזוק לגבי הבית המשותף, ושמתקיימים לגביו שני אלה:</p>
+                </intro>
+                <point eId="point_1__point_הסכם_לארגון_עסקה_לפי_תכנית_החיזוק__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>הוא אינו עסקה לפי תכנית החיזוק;</p>
+                  </content>
+                </point>
+                <point eId="point_1__point_הסכם_לארגון_עסקה_לפי_תכנית_החיזוק__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>הוא כולל, בין השאר, התחייבות של בעל הדירה שלא לנהל משא ומתן או שלא להתקשר בכל הסכם אחר בעניין ארגון בעלי הדירות באותו בית משותף או קידום עסקה לפי תכנית החיזוק בדרך אחרת, לגבי אותו בית משותף, אלא בהסכמת הצד השני להסכם;</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_1__point_חוק_המקרקעין">
+              <content>
+                <p>
+                  <def />”חוק המקרקעין“ – <ref href="/akn/il/act/PrimaryLegislation/1969-07-27/148008">חוק המקרקעין, התשכ"ט–1969</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_חוק_המקרקעין_חיזוק_בתים_משותפים_מפני_רעידות_אדמה">
+              <content>
+                <p>
+                  <def />”חוק המקרקעין (חיזוק בתים משותפים מפני רעידות אדמה)“ – <ref href="/akn/il/act/PrimaryLegislation/2008-01-24/251929">חוק המקרקעין (חיזוק בתים משותפים מפני רעידות אדמה), התשס"ח–2008</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_חוק_פינוי_ובינוי_עידוד_מיזמי_פינוי_ובינוי">
+              <content>
+                <p>
+                  <def />”חוק פינוי ובינוי (עידוד מיזמי פינוי ובינוי)“ – <ref href="/akn/il/act/PrimaryLegislation/2018-07-29/576823">חוק פינוי ובינוי (עידוד מיזמי פינוי ובינוי), התשס"ו–2006</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_חוק_הרשות_הממשלתית_להתחדשות_עירונית">
+              <content>
+                <p>
+                  <def />”חוק הרשות הממשלתית להתחדשות עירונית“ – <ref href="/akn/il/act/PrimaryLegislation/2016-08-21/567289">חוק הרשות הממשלתית להתחדשות עירונית, התשע"ו–2016</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_חוק_התכנון_והבנייה">
+              <content>
+                <p>
+                  <def />”חוק התכנון והבנייה“ – <ref href="/akn/il/act/PrimaryLegislation/1965-08-12/148917">חוק התכנון והבנייה, התשכ"ה–1965</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_יזם">
+              <content>
+                <p>
+                  <def />”יזם“ – מי שמתקשר עם בעל דירה בעסקת פינוי ובינוי או בעסקה לפי תכנית החיזוק, לפי העניין;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_מארגן">
+              <content>
+                <p>
+                  <def />”מארגן“ – מי שמתקשר עם בעל דירה בהסכם לארגון עסקת התחדשות עירונית, או מבצע פעולות לקראת התקשרות עם בעל דירה בהסכם כאמור;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_מוסד_תכנון">
+              <content>
+                <p>
+                  <def />”מוסד תכנון“ ו”תכנית“ – כהגדרתם <ref href="/akn/il/act/PrimaryLegislation/1965-08-12/148917">בחוק התכנון והבנייה</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_המועד_הקובע">
+              <content>
+                <p>
+                  <def />”המועד הקובע“ – המועד שבו נחתם ההסכם הראשון לארגון עסקת התחדשות עירונית בין המארגן ובין בעל דירה בבית המשותף;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_המינהלת_העירונית">
+              <content>
+                <p>
+                  <def />”המינהלת העירונית“ ו”הרשות להתחדשות עירונית“ – כהגדרתן <ref href="/akn/il/act/PrimaryLegislation/2016-08-21/567289">בחוק הרשות הממשלתית להתחדשות עירונית</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_הממונה_לעניין_פניות_דיירים_בהתחדשות_עירונית">
+              <content>
+                <p>
+                  <def />”הממונה לעניין פניות דיירים בהתחדשות עירונית“ – כמשמעותו <ref href="/akn/il/act/PrimaryLegislation/2016-08-21/567289">בחוק הרשות הממשלתית להתחדשות עירונית</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_עסקה_לפי_תכנית_החיזוק">
+              <list>
+                <intro>
+                  <p>
+                    <def />”עסקה לפי תכנית החיזוק“ – חוזה בין יזם לבין בעל דירה בבית משותף, אשר על פיו מתחייב בעל הדירה בבית המשותף למכור את זכויותיו בו, כולן או מקצתן, לצורך ביצוע עבודה ברכוש המשותף כאמור <ref href="/akn/il/act/PrimaryLegislation/2008-01-24/251929#point_4">בסעיף 4</ref>, <ref href="/akn/il/act/PrimaryLegislation/2008-01-24/251929#point_5">5</ref><ref href="/akn/il/act/PrimaryLegislation/2008-01-24/251929#point_5א">או 5א לחוק המקרקעין (חיזוק בתים משותפים מפני רעידות אדמה)</ref>, שמצורף לו ייפוי כוח מבעל הדירה ליזם או לעורך דין מטעמו לביצוע הפעולות הנדרשות למימוש החוזה, ושכולל, בין השאר, את כל אלה:</p>
+                </intro>
+                <point eId="point_1__point_עסקה_לפי_תכנית_החיזוק__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>העקרונות לקביעת התמורה שיקבל כל בעל דירה לפי החוזה;</p>
+                  </content>
+                </point>
+                <point eId="point_1__point_עסקה_לפי_תכנית_החיזוק__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>המועדים המרביים לקבלת היתר בנייה ולמסירת הדירה החדשה לבעל הדירה או לסיום ביצוע העבודות בהתאם לחוזה;</p>
+                  </content>
+                </point>
+                <point eId="point_1__point_עסקה_לפי_תכנית_החיזוק__point_3">
+                  <num>(3)</num>
+                  <content>
+                    <p>פרטים בדבר הגורם שיבצע את עבודות הבנייה בהתאם לחוזה או תנאים לבחירתו של הגורם כאמור, לרבות לעניין ניסיונו בתחום;</p>
+                  </content>
+                </point>
+                <point eId="point_1__point_עסקה_לפי_תכנית_החיזוק__point_4">
+                  <num>(4)</num>
+                  <content>
+                    <p>התחייבות מטעם היזם להעמיד ערבויות לטובת בעל הדירה לשם הבטחת התחייבויותיו של היזם לפי החוזה;</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_1__point_עסקת_פינוי_ובינוי">
+              <content>
+                <p>
+                  <def />”עסקת פינוי ובינוי“ – כהגדרתה <ref href="/akn/il/act/PrimaryLegislation/2018-07-29/576823">בחוק פינוי ובינוי (עידוד מיזמי פינוי ובינוי)</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_תכנית_החיזוק">
+              <content>
+                <p>
+                  <def />”תכנית החיזוק“ – כהגדרתה <ref href="/akn/il/act/PrimaryLegislation/2008-01-24/251929">בחוק המקרקעין (חיזוק בתים משותפים מפני רעידות אדמה)</ref>.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_2">
+          <heading>
+            <authorialNote placement="side">
+              <p>כינוס בעלי הדירות בבית המשותף</p>
+            </authorialNote>
+          </heading>
+          <num>2.</num>
+          <list>
+            <point eId="point_2__point_א">
+              <num>(א)</num>
+              <list>
+                <intro>
+                  <p>טרם חתימה על ההסכם הראשון לארגון עסקת התחדשות עירונית עם בעל דירה בבית משותף, יכנס המארגן את בעלי הדירות בבית המשותף לשם הסבר על הסכם הארגון לעסקת התחדשות עירונית; בכינוס כאמור יפרט המארגן בפני בעלי הדירות את כל אלה:</p>
+                </intro>
+                <point eId="point_2__point_א__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>מהות ההסכם ועיקריו ועיקרי חוק זה;</p>
+                  </content>
+                </point>
+                <point eId="point_2__point_א__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>אם הוא פועל מטעמו של יזם המעוניין בביצוע עסקת פינוי ובינוי או עסקה לפי תכנית החיזוק, לפי העניין;</p>
+                  </content>
+                </point>
+                <point eId="point_2__point_א__point_3">
+                  <num>(3)</num>
+                  <content>
+                    <p>שכר הטרחה שישולם לו בעבור קידום עסקת פינוי ובינוי או עסקה לפי תכנית החיזוק, לפי העניין, ככל שהוא ידוע באותו מועד;</p>
+                  </content>
+                </point>
+                <point eId="point_2__point_א__point_4">
+                  <num>(4)</num>
+                  <content>
+                    <p>אם יש לו עניין אישי הנוגע לעסקה כאמור <ref href="#point_12">בסעיף 12</ref>;</p>
+                  </content>
+                </point>
+                <point eId="point_2__point_א__point_5">
+                  <num>(5)</num>
+                  <content>
+                    <p>אם בעל דירה בבית המשותף פועל מטעמו לשם קידום ההסכם עם שאר בעלי הדירות;</p>
+                  </content>
+                </point>
+                <point eId="point_2__point_א__point_6">
+                  <num>(6)</num>
+                  <content>
+                    <p>מידע בדבר הרשות להתחדשות עירונית והממונה לעניין פניות דיירים בהתחדשות עירונית, לרבות דרכי הפנייה אליהם, וכן בדבר המינהלת העירונית הפועלת באזור שבו נמצא הבית המשותף, ככל שישנה;</p>
+                  </content>
+                </point>
+                <point eId="point_2__point_א__point_7">
+                  <num>(7)</num>
+                  <content>
+                    <p>מידע בדבר האפשרות לדרוש את תרגום ההסכם לערבית, רוסית או אמהרית, כאמור בסעיף קטן (ה).</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_2__point_ב">
+              <num>(ב)</num>
+              <list>
+                <intro>
+                  <p>המארגן ייחשב כמי שמילא אחר חובת כינוס בעלי הדירות בבית משותף בהתקיים כל אלה:</p>
+                </intro>
+                <point eId="point_2__point_ב__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>הוא הודיע לבעלי הדירות על דבר הכינוס ומועדו שבעה ימים לפחות בטרם המועד שנקבע;</p>
+                  </content>
+                </point>
+                <point eId="point_2__point_ב__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>הודעה על מועד הכינוס הוצגה במקום בולט על גבי הבית המשותף או בתוכו;</p>
+                  </content>
+                </point>
+                <point eId="point_2__point_ב__point_3">
+                  <num>(3)</num>
+                  <content>
+                    <p>בכינוס השתתפו לפחות 40% מבעלי הדירות בבית המשותף; לעניין זה לא יובאו במניין הדירות בבית משותף דירות ציבוריות כהגדרתן <ref href="#point_9">בסעיף 9</ref>;</p>
+                  </content>
+                </point>
+                <point eId="point_2__point_ב__point_4">
+                  <num>(4)</num>
+                  <content>
+                    <p>נערך פרוטוקול לכינוס, הכולל את ציון מועד הכינוס, אשר נמסר לבעלי הדירות בבית המשותף.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_2__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>על אף האמור בסעיף קטן (ב)(3), לעניין בית משותף שיש בו לפחות 17 דירות, ייחשב מארגן כמי שמילא אחר חובת כינוס בעלי הדירות, אף אם 40% מבעלי הדירות השתתפו בשני כינוסים כאמור במצטבר, ובלבד שבכינוס הראשון השתתפו לפחות 30% מבעלי הדירות ובכינוס השני השתתפו לפחות 20% מבעלי הדירות.</p>
+              </content>
+            </point>
+            <point eId="point_2__point_ד">
+              <num>(ד)</num>
+              <content>
+                <p>הודעה כאמור בסעיף קטן (ב)(1) ופרוטוקול כאמור בסעיף קטן (ב)(4) יישלחו לבעלי הדירות לפי מענם הידוע של בעלי הדירות.</p>
+              </content>
+            </point>
+            <point eId="point_2__point_ה">
+              <num>(ה)</num>
+              <content>
+                <p>בלי לגרוע מהוראות כל דין, דרשו זאת בכינוס לפחות 20% מבעלי הדירות בבית המשותף – יתורגם ההסכם לארגון עסקת התחדשות עירונית לערבית, רוסית או אמהרית, לפי העניין.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_3">
+          <heading>
+            <authorialNote placement="side">
+              <p>צורתו ותוכנו של הסכם לארגון עסקת התחדשות עירונית</p>
+            </authorialNote>
+          </heading>
+          <num>3.</num>
+          <list>
+            <point eId="point_3__point_א">
+              <num>(א)</num>
+              <list>
+                <intro>
+                  <p>הסכם לארגון עסקת התחדשות עירונית יהיה בכתב ויפורטו בו, בין היתר, כל אלה:</p>
+                </intro>
+                <point eId="point_3__point_א__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>פרטי המארגן, ובכלל זה שמו ומספר הזהות שלו, כתובת מקום משרדו או מקום מגוריו ודרכי יצירת קשר עמו, ואם הוא תאגיד – אף את הפרטים כאמור של המנהל הכללי של התאגיד;</p>
+                  </content>
+                </point>
+                <point eId="point_3__point_א__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>מועד חתימתו של ההסכם והמועד הקובע;</p>
+                  </content>
+                </point>
+                <point eId="point_3__point_א__point_3">
+                  <num>(3)</num>
+                  <content>
+                    <p>הבהרה כי התמורה שיקבל בעל דירה תיקבע במסגרת עסקת הפינוי ובינוי או העסקה לפי תכנית החיזוק ולא במסגרת ההסכם לארגון עסקת התחדשות עירונית;</p>
+                  </content>
+                </point>
+                <point eId="point_3__point_א__point_4">
+                  <num>(4)</num>
+                  <content>
+                    <p>התחייבויותיו של המארגן כלפי בעלי הדירות, ובכלל זה התחייבות המארגן לביצוע פעולות לשם איתור יזם שיוכל לבצע את העסקה כאמור בפסקה (3), וכן לביצוע פעולות לשם התקשרות בהסכם לארגון עסקת התחדשות עירונית עם יתר בעלי הדירות בבית המשותף;</p>
+                  </content>
+                </point>
+                <point eId="point_3__point_א__point_5">
+                  <num>(5)</num>
+                  <content>
+                    <p>התחייבות לפעול לטובת בעלי הדירות בנאמנות, בהגינות ובדרך מקובלת כאמור <ref href="#point_11">בסעיף 11</ref>;</p>
+                  </content>
+                </point>
+                <point eId="point_3__point_א__point_6">
+                  <num>(6)</num>
+                  <content>
+                    <p>אם המארגן פועל מטעמו של יזם המעוניין בביצוע עסקת פינוי ובינוי או עסקה לפי תכנית החיזוק, לפי העניין;</p>
+                  </content>
+                </point>
+                <point eId="point_3__point_א__point_7">
+                  <num>(7)</num>
+                  <content>
+                    <p>אם יש לו עניין אישי הנוגע לעסקה כאמור <ref href="#point_12">בסעיף 12</ref>;</p>
+                  </content>
+                </point>
+                <point eId="point_3__point_א__point_8">
+                  <num>(8)</num>
+                  <content>
+                    <p>הוראות <ref href="#point_5">סעיף 5</ref><ref href="#point_6">או 6</ref>, לפי העניין, בדבר תוקפו של ההסכם לארגון עסקת התחדשות עירונית;</p>
+                  </content>
+                </point>
+                <point eId="point_3__point_א__point_9">
+                  <num>(9)</num>
+                  <content>
+                    <p>דרכי הפנייה לממונה לעניין פניות דיירים בהתחדשות עירונית.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_3__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>הסכם לארגון עסקת התחדשות עירונית שאינו בכתב או שאינו מכיל פירוט בדבר מועד חתימתו או המועד הקובע כאמור בסעיף קטן (א) – בטל.</p>
+              </content>
+            </point>
+            <point eId="point_3__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>בלי לגרוע מהוראות סעיפים קטנים (א) ו־(ב), שר המשפטים, לאחר התייעצות עם שר הבינוי והשיכון, רשאי לקבוע הוראות לעניין תוכנו וצורתו של הסכם לארגון עסקת התחדשות עירונית או חלקים ממנו, לרבות לעניין מסמך לגילוי פרטים מהותיים בהסכם.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_4">
+          <heading>
+            <authorialNote placement="side">
+              <p>הוראות נוספות לעניין הסכם לארגון עסקת התחדשות עירונית</p>
+            </authorialNote>
+          </heading>
+          <num>4.</num>
+          <list>
+            <point eId="point_4__point_א">
+              <num>(א)</num>
+              <content>
+                <p>טרם חתימה על הסכם לארגון עסקת התחדשות עירונית, יסביר המארגן לבעל הדירה את מהות ההסכם ועיקריו, ואת התוצאות המשפטיות הנובעות ממנו.</p>
+              </content>
+            </point>
+            <point eId="point_4__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>עותק מן ההסכם יימסר לבעל הדירה, בצירוף פרוטוקול כינוס בעלי הדירות.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_5">
+          <heading>
+            <authorialNote placement="side">
+              <p>תוקפו של הסכם לארגון עסקת פינוי ובינוי</p>
+            </authorialNote>
+          </heading>
+          <num>5.</num>
+          <list>
+            <point eId="point_5__point_א">
+              <num>(א)</num>
+              <list>
+                <intro>
+                  <p>הסכם לארגון עסקת פינוי ובינוי יעמוד בתוקפו שישה חודשים מהמועד הקובע, אולם בהתקיים אחד מאלה בתוך שישה חודשים מהמועד הקובע, יעמוד ההסכם בתוקפו 18 חודשים מהמועד הקובע:</p>
+                </intro>
+                <point eId="point_5__point_א__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>המארגן התקשר בהסכם לארגון עסקת פינוי ובינוי עם לפחות 50% מבעלי הדירות בבית משותף שיש בו 16 דירות לכל היותר;</p>
+                  </content>
+                </point>
+                <point eId="point_5__point_א__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>המארגן התקשר בהסכם לארגון עסקת פינוי ובינוי עם לפחות 40% מבעלי הדירות או עם לפחות 8 מבעלי הדירות, לפי הגבוה, בבית משותף שיש בו 17 דירות או יותר;</p>
+                  </content>
+                </point>
+                <point eId="point_5__point_א__point_3">
+                  <num>(3)</num>
+                  <content>
+                    <p>המארגן התקשר בהסכם לארגון עסקת פינוי ובינוי עם לפחות 35% מבעלי הדירות בבית משותף שיש בו 36 דירות או יותר.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_5__point_ב">
+              <num>(ב)</num>
+              <list>
+                <intro>
+                  <p>עמד ההסכם לארגון עסקת פינוי ובינוי בתוקפו 18 חודשים מהמועד הקובע כאמור בסעיף קטן (א) והתקיים אחד מאלה בתוך התקופה האמורה, יעמוד ההסכם בתוקפו שנתיים מהמועד הקובע:</p>
+                </intro>
+                <point eId="point_5__point_ב__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>המארגן התקשר בהסכם לארגון עסקת פינוי ובינוי עם שני שליש לפחות מבעלי הדירות בבית המשותף;</p>
+                  </content>
+                </point>
+                <point eId="point_5__point_ב__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>היזם עמו התקשר המארגן, התקשר בעסקת פינוי ובינוי עם בעלי הדירות בבית המשותף אשר לגביו נחתמו ההסכמים לארגון עסקת פינוי ובינוי, בשיעורים הנדרשים בסעיף קטן (א).</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_5__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>עמד ההסכם לארגון עסקת פינוי ובינוי בתוקפו שנתיים מהמועד הקובע כאמור בסעיף קטן (ב) ונקלטה במוסד תכנון, בתוך שנתיים מהמועד הקובע, תכנית שמטרתה הריסת הבית המשותף והקמת בית משותף חדש במקומו, שהוגשה על ידי המארגן או מי מטעמו, יעמוד ההסכם בתוקפו עד תום ארבע שנים ממועד קליטת התכנית כאמור; הוראות סעיף קטן זה יחולו רק לגבי תכנית כאמור הכוללת הוראות המאפשרות מתן היתר בנייה או היתר לשימוש לפיה בלא צורך באישור תכנית נוספת טרם מתן ההיתר או תכנית שתנאי להוצאת היתר בתחומה הוא אישורה של תכנית נוספת כאמור <ref href="/akn/il/act/PrimaryLegislation/1965-08-12/148917#point_62א">בסעיף 62א(א)(1) לחוק התכנון והבנייה</ref> בלבד.</p>
+              </content>
+            </point>
+            <point eId="point_5__point_ד">
+              <num>(ד)</num>
+              <content>
+                <p>עמד ההסכם בתוקפו ארבע שנים ממועד קליטת התכנית כאמור בסעיף קטן (ג) והופקדה תכנית כאמור באותו סעיף קטן בתוך ארבע שנים ממועד קליטתה כאמור באותו סעיף קטן – יעמוד ההסכם בתוקפו עד תום חמש שנים ממועד קליטת התכנית.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_6">
+          <heading>
+            <authorialNote placement="side">
+              <p>תוקפו של הסכם לארגון עסקה לפי תכנית החיזוק</p>
+            </authorialNote>
+          </heading>
+          <num>6.</num>
+          <list>
+            <point eId="point_6__point_א">
+              <num>(א)</num>
+              <list>
+                <intro>
+                  <p>הסכם לארגון עסקה לפי תכנית החיזוק יעמוד בתוקפו שישה חודשים מהמועד הקובע, אולם בהתקיים אחד מאלה בתוך שישה חודשים מהמועד הקובע, יעמוד ההסכם בתוקפו 12 חודשים מהמועד הקובע:</p>
+                </intro>
+                <point eId="point_6__point_א__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>המארגן התקשר בהסכם עם לפחות 50% מבעלי הדירות בבית משותף שיש בו 16 דירות לכל היותר;</p>
+                  </content>
+                </point>
+                <point eId="point_6__point_א__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>המארגן התקשר עם לפחות 40% מבעלי הדירות או עם לפחות 8 מבעלי הדירות, לפי הגבוה, בבית משותף שיש בו 17 דירות או יותר.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_6__point_ב">
+              <num>(ב)</num>
+              <list>
+                <intro>
+                  <p>עמד ההסכם בתוקפו 12 חודשים מהמועד הקובע כאמור בסעיף קטן (א) והתקיים אחד מאלה בתוך התקופה האמורה, יעמוד ההסכם בתוקפו 18 חודשים מהמועד הקובע:</p>
+                </intro>
+                <point eId="point_6__point_ב__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>המארגן התקשר בהסכם עם לפחות ארבע חמישיות מבעלי הדירות בבית המשותף;</p>
+                  </content>
+                </point>
+                <point eId="point_6__point_ב__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>היזם עמו התקשר המארגן התקשר בעסקה לפי תכנית החיזוק עם לפחות שליש מבעלי הדירות בבית המשותף אשר לגביו נחתמו ההסכמים לארגון עסקה לפי תכנית החיזוק.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_6__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>עמד ההסכם בתוקפו 18 חודשים מהמועד הקובע כאמור בסעיף קטן (ב) ונקלטה בוועדה המקומית בקשה להיתר בנייה שהוגשה על ידי המארגן או מי מטעמו בתוך התקופה האמורה – יעמוד ההסכם בתוקפו 36 חודשים מהמועד הקובע.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_7">
+          <heading>
+            <authorialNote placement="side">
+              <p>חובת הודעה על עמידה בשלבים</p>
+            </authorialNote>
+          </heading>
+          <num>7.</num>
+          <content>
+            <p>מארגן יודיע לבעלי הדירות בבית המשותף בתום כל אחד מן המועדים המפורטים <ref href="#point_5">בסעיף 5</ref><ref href="#point_6">או 6</ref>, לפי העניין, אם עמד בתנאים המפורטים באותו סעיף.</p>
+          </content>
+        </point>
+        <point eId="point_8">
+          <heading>
+            <authorialNote placement="side">
+              <p>תוקפה של עסקת התחדשות עירונית</p>
+            </authorialNote>
+          </heading>
+          <num>8.</num>
+          <list>
+            <point eId="point_8__point_א">
+              <num>(א)</num>
+              <list>
+                <intro>
+                  <p>נחתמה עסקה ראשונה לפי תכנית החיזוק או עסקת פינוי ובינוי ראשונה עם בעל דירה בבית המשותף ולא התקשר היזם עם הרוב הנדרש מבין בעלי הדירות בעסקה כאמור בתוך שלוש שנים – לעניין עסקה לפי תכנית החיזוק, או חמש שנים – לעניין עסקת פינוי ובינוי, רשאים רוב בעלי הדירות בבית המשותף, אף אם אינם צד לעסקה, להודיע ליזם בכתב כי הם אינם מעוניינים בעסקה, ומשהודיעו כאמור, רשאים בעלי הדירות שהתקשרו בעסקה לבטלה בלי שיראו אותם כמי שהפרו את ההתקשרות עם היזם, והיזם יהיה זכאי לתשלום בהתאם להוראות שנקבעו לפי סעיף קטן (ב) בלבד; היתה העסקה מותנית בתנאי מתלה לעניין התקשרות עם הרוב הנדרש מבין בעלי הדירות, יראו את התנאי כאילו לא התקיים במועדים האמורים; לעניין זה, ”הרוב הנדרש מבין בעלי הדירות“ – כל אחד מאלה:</p>
+                </intro>
+                <point eId="point_8__point_א__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>לעניין עסקת פינוי ובינוי – רוב של שני שלישים מבין בעלי הדירות בבית המשותף;</p>
+                  </content>
+                </point>
+                <point eId="point_8__point_א__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>לעניין עסקה לפי תכנית החיזוק – השיעור הנדרש לפי <ref href="/akn/il/act/PrimaryLegislation/2008-01-24/251929#point_4">סעיף 4 לחוק המקרקעין (חיזוק בתים משותפים מפני רעידות אדמה)</ref>, או הרוב המאפשר פנייה למפקח לפי הוראות <ref href="/akn/il/act/PrimaryLegislation/2008-01-24/251929#point_5">סעיף 5</ref><ref href="/akn/il/act/PrimaryLegislation/2008-01-24/251929#point_5א">או 5א לחוק האמור</ref>, והכל לפי העניין.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_8__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>שר המשפטים, בהסכמת שר הבינוי והשיכון, יקבע הוראות לעניין תשלום ליזם שעסקה עמו בוטלה לפי הוראות סעיף קטן (א), בהתאם לשלבי התקדמותו בעסקה עד מועד ביטולה.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_9" class="definitions">
+          <heading>
+            <authorialNote placement="side">
+              <p>דירות ציבוריות</p>
+            </authorialNote>
+          </heading>
+          <num>9.</num>
+          <list>
+            <intro>
+              <p>היו לכל היותר 40% מהדירות בבית המשותף דירות ציבוריות, יימנו השיעורים האמורים <ref href="#point_5">בסעיף 5</ref>, <ref href="#point_6">6</ref><ref href="#point_8">או 8</ref>, לפי העניין, מתוך הדירות שאינן דירות ציבוריות בלבד; בסעיף זה –</p>
+            </intro>
+            <point eId="point_9__point_דירה_ציבורית">
+              <content>
+                <p>
+                  <def />”דירה ציבורית“ – דירה שהיא בבעלות, בחכירה לדורות או בניהולה של חברה לדיור ציבורי, לרבות דירה כאמור שהבעלות או החכירה בה משותפת לכמה חברות לדיור ציבורי;</p>
+              </content>
+            </point>
+            <point eId="point_9__point_חברה_לדיור_ציבורי">
+              <content>
+                <p>
+                  <def />”חברה לדיור ציבורי“ – כהגדרתה <ref href="/akn/il/act/PrimaryLegislation/1998-10-29/164457">בחוק הדיור הציבורי (זכויות רכישה), התשנ"ט–1998</ref>.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_10">
+          <heading>
+            <authorialNote placement="side">
+              <p>פיצוי בשל פקיעת ההסכם</p>
+            </authorialNote>
+          </heading>
+          <num>10.</num>
+          <content>
+            <p>פקע הסכם לארגון עסקת התחדשות עירונית בשל הוראות <ref href="#point_5">סעיף 5</ref><ref href="#point_6">או 6</ref>, לא יהיה המארגן זכאי לפיצוי בשל פקיעת ההסכם מסיבה זו בלבד.</p>
+          </content>
+        </point>
+        <point eId="point_11">
+          <heading>
+            <authorialNote placement="side">
+              <p>חובת הגינות וזהירות</p>
+            </authorialNote>
+          </heading>
+          <num>11.</num>
+          <list>
+            <point eId="point_11__point_א">
+              <num>(א)</num>
+              <content>
+                <p>מארגן יפעל לטובת בעלי הדירות בנאמנות, בהגינות ובדרך מקובלת, וימסור לבעל דירה כל מידע שיש בידו בעניין מהותי הנוגע לעסקת הפינוי ובינוי או לעסקה לפי תכנית החיזוק, לפי העניין, שלשם ארגונה נועד ההסכם, לרבות אם הוא פועל מטעמו של יזם המעוניין בביצוע עסקה כאמור, ואם התבקש לכך ועל אף האמור <ref href="#point_13">בסעיף 13</ref> – מידע בנוגע להתקשרות בעלי דירות אחרים בהסכם לארגון עסקת התחדשות עירונית; מידע שהתבקש כאמור יימסר לבעל דירה במועד המוקדם ביותר האפשרי ולא יאוחר משבעה ימים ממועד הבקשה.</p>
+              </content>
+            </point>
+            <point eId="point_11__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>מארגן יפעל במיומנות ובסבירות במילוי התחייבויותיו על פי הסכם לארגון עסקת התחדשות עירונית.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_12" class="definitions">
+          <heading>
+            <authorialNote placement="side">
+              <p>עניין אישי</p>
+            </authorialNote>
+          </heading>
+          <num>12.</num>
+          <list>
+            <intro>
+              <p>מארגן לא יתקשר עם בעל דירה בהסכם לארגון עסקת התחדשות עירונית, הנוגע לעסקה כאמור שיש לו עניין אישי בה, אלא אם כן גילה לבעל הדירה את עניינו האישי כאמור וקיבל את הסכמתו לכך בכתב; בסעיף זה –</p>
+            </intro>
+            <point eId="point_12__point_עניין_אישי">
+              <content>
+                <p>
+                  <def />”עניין אישי“, של מארגן – לרבות עניין אישי של קרובו או של גוף שהמארגן או קרובו הם בעלי שליטה בו;</p>
+              </content>
+            </point>
+            <point eId="point_12__point_קרוב">
+              <content>
+                <p>
+                  <def />”קרוב“ – בן זוג, הורה, הורה הורה, בן או בת ובני זוגם, אח או אחות וילדיהם, גיס, גיסה, דוד או דודה וילדיהם, חותן, חותנת, חם, חמות, חתן, כלה, נכד או נכדה וכל אדם אחר הסמוך על שולחנו של מארגן, וכן שותף, מעביד או עובד של מארגן כאמור;</p>
+              </content>
+            </point>
+            <point eId="point_12__point_בעל_שליטה">
+              <content>
+                <p>
+                  <def />”בעל שליטה“ – אחד מאלה: מנהל או עובד אחראי בגוף, וכל מי שיש לו חלק העולה על 5% בהון או בזכות לקבל רווחים של אותו גוף.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_13">
+          <heading>
+            <authorialNote placement="side">
+              <p>שמירת סודיות</p>
+            </authorialNote>
+          </heading>
+          <num>13.</num>
+          <content>
+            <p>מארגן שהגיע אליו מידע מבעל דירה או אדם מטעמו, לא יגלה אותו לאחר ולא יעשה בו כל שימוש אלא בהסכמת בעל הדירה, אלא אם כן הוא חייב לגלותו לפי הוראות חוק זה או כל חיקוק אחר או לפי צו של בית משפט.</p>
+          </content>
+        </point>
+        <point eId="point_14">
+          <heading>
+            <authorialNote placement="side">
+              <p>סייג לתחולת חוק המתווכים במקרקעין</p>
+            </authorialNote>
+          </heading>
+          <num>14.</num>
+          <content>
+            <p>על אף האמור בכל דין, ארגון עסקת פינוי ובינוי או ארגון עסקה לפי תכנית החיזוק, ובכלל זה התקשרות עם בעל דירה בהסכם לארגון עסקת התחדשות עירונית, בתמורה, לא ייחשבו לתיווך במקרקעין כהגדרתו <ref href="/akn/il/act/PrimaryLegislation/1996-02-08/159522">בחוק המתווכים במקרקעין, התשנ"ו–1996</ref>, והוראות <ref href="/akn/il/act/PrimaryLegislation/1996-02-08/159522">החוק האמור</ref> לא יחולו על מארגן בביצוע הפעולות האמורות.</p>
+          </content>
+        </point>
+        <point eId="point_15">
+          <heading>
+            <authorialNote placement="side">
+              <p>התניה – לטובת בעל דירה</p>
+            </authorialNote>
+          </heading>
+          <num>15.</num>
+          <content>
+            <p>התניה על ההוראות לפי חוק זה שאינה לטובת בעל דירה – בטלה.</p>
+          </content>
+        </point>
+        <point eId="point_16">
+          <heading>
+            <authorialNote placement="side">
+              <p>פנייה לממונה לעניין פניות דיירים בהתחדשות עירונית</p>
+            </authorialNote>
+          </heading>
+          <num>16.</num>
+          <list>
+            <point eId="point_16__point_א">
+              <num>(א)</num>
+              <content>
+                <p>לא מילא מארגן אחר הוראות חוק זה, ובכלל זה הוראות <ref href="#point_2">סעיפים 2</ref><ref href="#point_3">ו־3</ref>, <ref href="#point_11">ו־11 עד 13</ref>, רשאי מי שנפגע מאי קיום הוראות החוק האמורות לפנות לממונה לעניין פניות דיירים בהתחדשות עירונית, לצורך בירור הפנייה.</p>
+              </content>
+            </point>
+            <point eId="point_16__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>על בירור כאמור בסעיף קטן (א) יחולו הוראות <ref href="/akn/il/act/PrimaryLegislation/2016-08-21/567289#point_7">סעיף 7 לחוק הרשות הממשלתית להתחדשות עירונית</ref>.</p>
+              </content>
+            </point>
+            <point eId="point_16__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>הממונה יהיה רשאי ליתן אישור לבעל דירה כי הסכם לארגון עסקת התחדשות עירונית פקע בשל אי עמידה בתנאים הקבועים <ref href="#point_5">בסעיף 5</ref><ref href="#point_6">או 6</ref>, לפי העניין.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_17">
+          <heading>
+            <authorialNote placement="side">
+              <p>ביצוע ותקנות</p>
+            </authorialNote>
+          </heading>
+          <num>17.</num>
+          <content>
+            <p>שר המשפטים ממונה על ביצוע חוק זה והוא רשאי, בהסכמת שר הבינוי והשיכון, להתקין תקנות בכל עניין הנוגע לביצועו, וכן רשאי הוא, יחד עם שר הבינוי והשיכון, לקבוע בתקנות הוראות לעניין תקרת הפיצויים המוסכמים שישלם בעל דירה המבטל את ההסכם לפני תום תקופת תוקפו כאמור <ref href="#point_5">בסעיף 5</ref><ref href="#point_6">או 6</ref>, לפי העניין.</p>
+          </content>
+        </point>
+        <point eId="point_18">
+          <heading>
+            <authorialNote placement="side">
+              <p xml:space="preserve"> </p>
+            </authorialNote>
+          </heading>
+          <num>18.</num>
+          <content>
+            <p>
+              <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryLegislation/2018-07-29/576823">בחוק פינוי ובינוי (פיצויים), התשס"ו–2006</ref>.</wikicomment>
+            </p>
+          </content>
+        </point>
+        <point eId="point_19">
+          <heading>
+            <authorialNote placement="side">
+              <p>תקנות ראשונות</p>
+            </authorialNote>
+          </heading>
+          <num>19.</num>
+          <content>
+            <p>תקנות ראשונות לפי <ref href="#point_8">סעיף 8(ב)</ref> יותקנו בתוך שישה חודשים מיום פרסומו של חוק זה.</p>
+          </content>
+        </point>
+        <point eId="point_20">
+          <heading>
+            <authorialNote placement="side">
+              <p>תחולה</p>
+            </authorialNote>
+          </heading>
+          <num>20.</num>
+          <list>
+            <point eId="point_20__point_א">
+              <num>(א)</num>
+              <content>
+                <p>הוראות חוק זה יחולו על הסכם לארגון עסקת התחדשות עירונית, עסקה לפי תכנית החיזוק ועסקת פינוי ובינוי שנחתמו מתום שלושה חודשים מיום פרסומו של חוק זה ואילך (להלן – יום התחילה) <wikicomment font-size="x-small">(החוק פורסם ביום 3.4.2017)</wikicomment>.</p>
+              </content>
+            </point>
+            <point eId="point_20__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>על אף האמור בסעיף קטן (א), הוראות חוק זה, למעט <ref href="#point_2">סעיפים 2</ref>, <ref href="#point_3">3</ref>, <ref href="#point_4">4</ref><ref href="#point_12">ו־12</ref>, יחולו גם על הסכם לארגון עסקת התחדשות עירונית שנחתם לפני יום פרסומו של חוק זה, אולם לעניין הסכם כאמור יהיה המועד הקובע תשעה חודשים מיום התחילה.</p>
+              </content>
+            </point>
+            <point eId="point_20__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>על אף האמור בסעיף קטן (א), הוראות חוק זה יחולו גם על הסכם לארגון עסקת התחדשות עירונית שנחתם מיום פרסומו של חוק זה ועד יום התחילה, אולם לעניין הסכם כאמור יהיה המועד הקובע שישה חודשים מיום התחילה.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_21">
+          <heading>
+            <authorialNote placement="side">
+              <p>הוראת מעבר</p>
+            </authorialNote>
+          </heading>
+          <num>21.</num>
+          <content>
+            <p>עד להתקנת תקנות כאמור <ref href="#point_8">בסעיף 8(ב)</ref>, יהיה יזם שעסקה עמו בוטלה לפי הוראות <ref href="#point_8">סעיף 8(א)</ref>, זכאי לתשלום עבור הוצאות סבירות שהוציא לשם קידום עסקת פינוי ובינוי או עסקה לפי תכנית החיזוק, לפי העניין, בהתאם לשלבי התקדמותו בעסקה עד מועד ביטולה.</p>
+          </content>
+        </point>
+      </list>
+    </body>
+    <conclusions eId="eId">
+      <p class="signatures">
+        <signature>
+          <p>
+            <person refersTo="בנימין_נתניהו">בנימין נתניהו</person>
+            <role refersTo="ראש_הממשלה">ראש הממשלה</role>
+          </p>
+        </signature>
+        <signature>
+          <p>
+            <person refersTo="איילת_שקד">איילת שקד</person>
+            <role refersTo="שרת_המשפטים">שרת המשפטים</role>
+          </p>
+        </signature>
+        <signature>
+          <p>
+            <person refersTo="ראובן_ריבלין">ראובן ריבלין</person>
+            <role refersTo="נשיא_המדינה">נשיא המדינה</role>
+          </p>
+        </signature>
+        <signature>
+          <p>
+            <person refersTo="יולי_יואל_אדלשטיין">יולי יואל אדלשטיין</person>
+            <role refersTo="יושב_ראש_הכנסת">יושב ראש הכנסת</role>
+          </p>
+        </signature>
+      </p>
+    </conclusions>
+  </act>
+</akomaNtoso>

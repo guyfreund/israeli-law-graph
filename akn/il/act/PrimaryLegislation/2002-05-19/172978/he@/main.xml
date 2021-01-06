@@ -1,0 +1,1038 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion" name="publicLaw">
+    <meta>
+      <identification source="#kensset">
+        <FRBRWork>
+          <FRBRthis value="/akn/il/act/PrimaryLegislation/2002-05-19/172978/main" />
+          <FRBRuri value="/akn/il/act/PrimaryLegislation/2002-05-19/172978" />
+          <FRBRdate date="2002-05-19" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRcountry value="israel" />
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/il/act/PrimaryLegislation/2002-05-19/172978/he@/main" />
+          <FRBRuri value="/akn/il/act/PrimaryLegislation/2002-05-19/172978/he@" />
+          <FRBRdate date="2002-05-19" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRlanguage language="hebrew" />
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/il/act/PrimaryLegislation/2002-05-19/172978/he@/main.xml" />
+          <FRBRuri value="/akn/il/act/PrimaryLegislation/2002-05-19/172978/he@" />
+          <FRBRdate date="2002-05-19" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRformat value="xml" />
+        </FRBRManifestation>
+      </identification>
+      <classification source="#kensset">
+        <keyword value="{classificationValue}" showAs="{classificationValue}" dictionary="#classification_dictionary" />
+      </classification>
+      <lifecycle source="#kensset">
+        <eventRef eId="eventRef_1" date="2002-05-19" source="#kensset" type="generation" />
+      </lifecycle>
+      <references source="#kensset">
+        <TLCOrganization eId="kensset" href="/ontology/organization/akn/knesset" showAs="Kensset" type="generation" />
+        <TLCRole eId="author" href="/ontology/role/akn/author" showAs="Author of Document" />
+        <TLCProcess eId="inforce" href="/ontology/process/akn/inforce" showAs="In force" />
+        <TLCTerm eId="term_1" href="/ontology/term/דרגת_נכות/172978" showAs="דרגת_נכות" />
+        <TLCTerm eId="term_2" href="/ontology/term/דרגת_נכות_תפקודית/172978" showAs="דרגת_נכות_תפקודית" />
+        <TLCTerm eId="term_3" href="/ontology/term/חוק_הביטוח_הלאומי/172978" showAs="חוק_הביטוח_הלאומי" />
+        <TLCTerm eId="term_4" href="/ontology/term/חוק_הנכים/172978" showAs="חוק_הנכים" />
+        <TLCTerm eId="term_5" href="/ontology/term/חוק_הפיקוח_על_קופות_גמל/172978" showAs="חוק_הפיקוח_על_קופות_גמל" />
+        <TLCTerm eId="term_6" href="/ontology/term/חוק_משפחות_החיילים/172978" showAs="חוק_משפחות_החיילים" />
+        <TLCTerm eId="term_7" href="/ontology/term/חוק_שירות_ביטחון/172978" showAs="חוק_שירות_ביטחון" />
+        <TLCTerm eId="term_8" href="/ontology/term/חוק_שירות_הקבע/172978" showAs="חוק_שירות_הקבע" />
+        <TLCTerm eId="term_9" href="/ontology/term/חייל_מילואים/172978" showAs="חייל_מילואים" />
+        <TLCTerm eId="term_10" href="/ontology/term/חייל_מילואים_נכה/172978" showAs="חייל_מילואים_נכה" />
+        <TLCTerm eId="term_11" href="/ontology/term/חייל_מילואים_שנספה/172978" showAs="חייל_מילואים_שנספה" />
+        <TLCTerm eId="term_12" href="/ontology/term/חייל_מילואים_זכאי/172978" showAs="חייל_מילואים_זכאי" />
+        <TLCTerm eId="term_13" href="/ontology/term/ממונה/172978" showAs="ממונה" />
+        <TLCTerm eId="term_14" href="/ontology/term/קופת_ביטוח/172978" showAs="קופת_ביטוח" />
+        <TLCTerm eId="term_15" href="/ontology/term/קופת_גמל/172978" showAs="קופת_גמל" />
+        <TLCTerm eId="term_16" href="/ontology/term/קופת_גמל_לקצבה/172978" showAs="קופת_גמל_לקצבה" />
+        <TLCTerm eId="term_17" href="/ontology/term/קופת_גמל_לתגמולים/172978" showAs="קופת_גמל_לתגמולים" />
+        <TLCTerm eId="term_18" href="/ontology/term/קצבה_מקופת_גמל/172978" showAs="קצבה_מקופת_גמל" />
+        <TLCTerm eId="term_19" href="/ontology/term/קצבה_משלימה/172978" showAs="קצבה_משלימה" />
+        <TLCTerm eId="term_20" href="/ontology/term/שאירים/172978" showAs="שאירים" />
+        <TLCTerm eId="term_21" href="/ontology/term/שאירים_זכאים/172978" showAs="שאירים_זכאים" />
+        <TLCTerm eId="term_22" href="/ontology/term/שירות_מילואים/172978" showAs="שירות_מילואים" />
+        <TLCTerm eId="term_23" href="/ontology/term/תקנות_קופות_גמל/172978" showAs="תקנות_קופות_גמל" />
+        <TLCTerm eId="term_24" href="/ontology/term/תקנות_שירות_הקבע/172978" showAs="תקנות_שירות_הקבע" />
+        <TLCTerm eId="term_25" href="/ontology/term/בן_משפחה/172978" showAs="בן_משפחה" />
+        <TLCTerm eId="term_26" href="/ontology/term/המועד_הקובע/172978" showAs="המועד_הקובע" />
+        <TLCTerm eId="term_27" href="/ontology/term/התקופה_המזכה/172978" showAs="התקופה_המזכה" />
+        <TLCTerm eId="term_28" href="/ontology/term/זכויות_כספיות/172978" showAs="זכויות_כספיות" />
+        <TLCTerm eId="term_29" href="/ontology/term/זכאי_לפי_פוליסה/172978" showAs="זכאי_לפי_פוליסה" />
+        <TLCTerm eId="term_30" href="/ontology/term/חברת_הביטוח/172978" showAs="חברת_הביטוח" />
+        <TLCPerson eId="אריאל_שרון" href="/ontology/person/אריאל_שרון" showAs="אריאל שרון" />
+        <TLCPerson eId="בנימין_בן_אליעזר" href="/ontology/person/בנימין_בן_אליעזר" showAs="בנימין בן אליעזר" />
+        <TLCPerson eId="משה_קצב" href="/ontology/person/משה_קצב" showAs="משה קצב" />
+        <TLCPerson eId="אברהם_בורג" href="/ontology/person/אברהם_בורג" showAs="אברהם בורג" />
+        <TLCRole eId="ראש_הממשלה" href="ontology/role/akn/ראש_הממשלה" showAs="ראש הממשלה" />
+        <TLCRole eId="שר_הביטחון" href="ontology/role/akn/שר_הביטחון" showAs="שר הביטחון" />
+        <TLCRole eId="נשיא_המדינה" href="ontology/role/akn/נשיא_המדינה" showAs="נשיא המדינה" />
+        <TLCRole eId="יושב_ראש_הכנסת" href="ontology/role/akn/יושב_ראש_הכנסת" showAs="יושב ראש הכנסת" />
+      </references>
+      <temporalData source="#kensset">
+        <temporalGroup eId="tmpg_1" />
+      </temporalData>
+      <Publication></Publication>
+      <proprietary wikiversion="12/1/2020 10:35:03 AM" />
+    </meta>
+    <body period="#tmpg_1">
+      <title eId="title">
+        <content>
+          <p>חוק תשלום קצבאות לחיילי מילואים ולבני משפחותיהם, התשס"ב–2002</p>
+        </content>
+      </title>
+      <list>
+        <point eId="point_1">
+          <heading>
+            <authorialNote placement="side">
+              <p>מטרת החוק</p>
+            </authorialNote>
+          </heading>
+          <num>1.</num>
+          <content>
+            <p>חוק זה מטרתו להבטיח תשלום קצבאות לחיילי מילואים שנפגעו בתקופת שירותם עקב שירותם ולבני משפחותיהם של חיילי מילואים שנספו עקב שירותם, במקרים שחיילי המילואים או בני משפחותיהם אינם זכאים לקצבה מקופת גמל, או שזכאותם לקצבה מקופת גמל פחותה מזכויותיהם לפי חוק זה, והכל בהתאם להוראות חוק זה.</p>
+          </content>
+        </point>
+        <point eId="point_2" class="definitions">
+          <heading>
+            <authorialNote placement="side">
+              <p>הגדרות</p>
+            </authorialNote>
+          </heading>
+          <num>2.</num>
+          <list>
+            <intro>
+              <p>בחוק זה –</p>
+            </intro>
+            <point eId="point_2__point_דרגת_נכות">
+              <content>
+                <p>
+                  <def />”דרגת נכות“ – דרגת נכות שנקבעה לפי <ref href="/akn/il/act/PrimaryLegislation/1959-09-23/2002247">חוק הנכים</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_2__point_דרגת_נכות_תפקודית">
+              <content>
+                <p>
+                  <def />”דרגת נכות תפקודית“ – דרגת נכות שקבעה ועדת רפואית לפי הוראות <ref href="#point_6">סעיף 6(ג)</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_2__point_חוק_הביטוח_הלאומי">
+              <content>
+                <p>
+                  <def />”חוק הביטוח הלאומי“ – <ref href="/akn/il/act/PrimaryLegislation/1995-05-15/158093">חוק הביטוח הלאומי [נוסח משולב], התשנ"ה–1995</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_2__point_חוק_הנכים">
+              <content>
+                <p>
+                  <def />”חוק הנכים“ – <ref href="/akn/il/act/PrimaryLegislation/1959-09-23/2002247">חוק הנכים (תגמולים ושיקום), התשי"ט–1959 [נוסח משולב]</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_2__point_חוק_הפיקוח_על_קופות_גמל">
+              <content>
+                <p>
+                  <def />”חוק הפיקוח על קופות גמל“ – <ref href="/akn/il/act/PrimaryLegislation/2005-08-10/100899">חוק הפיקוח על שירותים פיננסיים (קופות גמל), התשס"ה–2005</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_2__point_חוק_משפחות_החיילים">
+              <content>
+                <p>
+                  <def />”חוק משפחות החיילים“ – <ref href="/akn/il/act/PrimaryLegislation/1950-07-21/148018">חוק משפחות חיילים שנספו במערכה (תגמולים ושיקום), התש"י–1950</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_2__point_חוק_שירות_ביטחון">
+              <content>
+                <p>
+                  <def />”חוק שירות ביטחון“ – <ref href="/akn/il/act/PrimaryLegislation/1986-01-30/2002309">חוק שירות ביטחון [נוסח משולב], התשמ"ו–1986</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_2__point_חוק_שירות_הקבע">
+              <content>
+                <p>
+                  <def />”חוק שירות הקבע“ – <ref href="/akn/il/act/PrimaryLegislation/1985-07-10/2002312">חוק שירות הקבע בצבא הגנה לישראל (גמלאות) [נוסח משולב], התשמ"ה–1985</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_2__point_חייל_מילואים">
+              <content>
+                <p>
+                  <def />”חייל מילואים“ – מי ששירת בשירות מילואים;</p>
+              </content>
+            </point>
+            <point eId="point_2__point_חייל_מילואים_נכה">
+              <content>
+                <p>
+                  <def />”חייל מילואים נכה“ – חייל מילואים שנקבעה לו דרגת נכות בהתאם להוראות לפי <ref href="/akn/il/act/PrimaryLegislation/1959-09-23/2002247">חוק הנכים</ref>, ובלבד שהשירות כאמור בהגדרה ”נכות“ <ref href="/akn/il/act/PrimaryLegislation/1959-09-23/2002247">בחוק האמור</ref> היה שירות מילואים;</p>
+              </content>
+            </point>
+            <point eId="point_2__point_חייל_מילואים_שנספה">
+              <content>
+                <p>
+                  <def />”חייל מילואים שנספה“ – חייל שנספה במערכה כהגדרתו <ref href="/akn/il/act/PrimaryLegislation/1950-07-21/148018">בחוק משפחות החיילים</ref>, ובלבד שהשירות כאמור באותה ההגדרה היה שירות מילואים;</p>
+              </content>
+            </point>
+            <point eId="point_2__point_חייל_מילואים_זכאי">
+              <content>
+                <p>
+                  <def />”חייל מילואים זכאי“ – חייל מילואים שהתקיימו בו הוראות <ref href="#point_3">סעיף 3</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_2__point_ממונה">
+              <content>
+                <p>
+                  <def />”ממונה“ – כהגדרתו <ref href="/akn/il/act/PrimaryLegislation/1985-07-10/2002312#point_1">בסעיף 1 לחוק שירות הקבע</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_2__point_קופת_ביטוח">
+              <content>
+                <p>
+                  <def />”קופת ביטוח“ – לענין עמית שכיר – כהגדרתה <ref href="/akn/il/act/PrimaryLegislation/2005-08-10/100899">בחוק הפיקוח על קופות גמל</ref> לרבות פוליסת ביטוח עתי בשל אבדן כושר עבודה הנרכש כהשלמה לקופת ביטוח, ולענין עמית עצמאי – כהגדרתה <ref href="/akn/il/act/PrimaryLegislation/2005-08-10/100899">בחוק האמור</ref> לענין הזכויות הנובעות מתשלומים לקופת הביטוח אשר בעבורם היה העמית העצמאי זכאי לניכוי לפי <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_מס_הכנסה">פקודת מס הכנסה [נוסח חדש]</ref>, לרבות פוליסת ביטוח עתי כאמור;</p>
+              </content>
+            </point>
+            <point eId="point_2__point_קופת_גמל">
+              <content>
+                <p>
+                  <def />”קופת גמל“ – קופת גמל לקצבה, קופת גמל לתגמולים או קופת ביטוח וכן גמלאות פרישה המשולמות על פי חוק או על פי הסכם עבודה קיבוצי;</p>
+              </content>
+            </point>
+            <point eId="point_2__point_קופת_גמל_לקצבה">
+              <content>
+                <p>
+                  <def />”קופת גמל לקצבה“ – כהגדרתה <ref href="/akn/il/act/PrimaryLegislation/2005-08-10/100899">בחוק הפיקוח על קופות גמל</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_2__point_קופת_גמל_לתגמולים">
+              <content>
+                <p>
+                  <def />”קופת גמל לתגמולים“ – לענין עמית שכיר – כהגדרתה <ref href="/akn/il/act/PrimaryLegislation/2005-08-10/100899">בחוק הפיקוח על קופות גמל</ref> ולענין עמית עצמאי – כהגדרתה <ref href="/akn/il/act/PrimaryLegislation/2005-08-10/100899">בחוק האמור</ref> לענין הזכויות הנובעות מתשלומים לקופת הגמל אשר בעבורם היה העמית העצמאי זכאי לניכוי לפי <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_מס_הכנסה">פקודת מס הכנסה [נוסח חדש]</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_2__point_קצבה_מקופת_גמל">
+              <content>
+                <p>
+                  <def />”קצבה מקופת גמל“ – כל תשלום חודשי, המשתלם באופן שוטף בידי קופת גמל לחייל מילואים זכאי או לשאירים זכאים לפי חוק זה, לרבות קצבה חודשית שהוונה וסכום הוני, קיים או עתידי, לפי ערכו החודשי בהתאם לכללי היוון שיקבע הממונה;</p>
+              </content>
+            </point>
+            <point eId="point_2__point_קצבה_משלימה">
+              <content>
+                <p>
+                  <def />”קצבה משלימה“ – כמשמעותה <ref href="#point_8">בסעיף 8</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_2__point_שאירים">
+              <content>
+                <p>
+                  <def />”שאירים“ – כמשמעותם <ref href="/akn/il/act/PrimaryLegislation/1985-07-10/2002312#point_21">בסעיף 21 לחוק שירות הקבע</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_2__point_שאירים_זכאים">
+              <content>
+                <p>
+                  <def />”שאירים זכאים“ – שאירים שהתקיימו בהם הוראות <ref href="#point_4">סעיף 4</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_2__point_שירות_מילואים">
+              <content>
+                <p>
+                  <def />”שירות מילואים“ – כהגדרתו <ref href="/akn/il/act/PrimaryLegislation/1986-01-30/2002309">בחוק שירות ביטחון</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_2__point_תקנות_קופות_גמל">
+              <content>
+                <p>
+                  <def />”תקנות קופות גמל“ – <wikicomment font-size="x-small">(נמחקה);</wikicomment></p>
+              </content>
+            </point>
+            <point eId="point_2__point_תקנות_שירות_הקבע">
+              <content>
+                <p>
+                  <def />”תקנות שירות הקבע“ – <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/תקנות_שירות_הקבע_בצבא_הגנה_לישראל_גמלאות_כללים_ומבחנים_לקביעת_דרגת_נכות">תקנות שירות הקבע בצבא הגנה לישראל (גמלאות) (כללים ומבחנים לקביעת דרגת נכות), התשנ"א–1990</ref>.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_3">
+          <heading>
+            <authorialNote placement="side">
+              <p>חייל מילואים</p>
+            </authorialNote>
+          </heading>
+          <num>3.</num>
+          <list>
+            <point eId="point_3__point_א">
+              <num>(א)</num>
+              <list>
+                <intro>
+                  <p>חייל מילואים נכה, שהתקיימו לגביו כל הוראות סעיף קטן זה, זכאי לקצבה:</p>
+                </intro>
+                <point eId="point_3__point_א__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>דרגת הנכות שנקבעה לו לפי <ref href="/akn/il/act/PrimaryLegislation/1959-09-23/2002247">חוק הנכים</ref> עולה על 19 אחוזים וועדה רפואית קבעה לו דרגת נכות תפקודית העולה על 19 אחוזים, וכל עוד דרגות הנכות שנקבעו לו עולות על 19 אחוזים;</p>
+                  </content>
+                </point>
+                <point eId="point_3__point_א__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>הוא לא היה עמית בקופת גמל במועד קרות האירוע שבשלו הוכר כנכה לפי <ref href="/akn/il/act/PrimaryLegislation/1959-09-23/2002247">חוק הנכים</ref>, או שאינו זכאי לקצבה מקופת גמל, שבה היה עמית כאמור.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_3__point_ב">
+              <num>(ב)</num>
+              <list>
+                <intro>
+                  <p>נוסף על חייל מילואים נכה כמשמעותו בסעיף קטן (א), זכאי לקצבה חייל מילואים נכה, שהתקיימו לגביו כל הוראות סעיף קטן זה:</p>
+                </intro>
+                <point eId="point_3__point_ב__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>דרגת הנכות שנקבעה לו לפי <ref href="/akn/il/act/PrimaryLegislation/1959-09-23/2002247">חוק הנכים</ref> אינה עולה על 19 אחוזים, אולם ועדת חריגים קבעה כי קיימים טעמים הקשורים באבדן כושר השתכרותו המצדיקים הפנייתו לועדה רפואית לשם קביעת דרגת נכותו התפקודית לפי חוק זה; קבעה ועדת חריגים כאמור, יראו אותו, לענין חוק זה, כאילו דרגת הנכות שלו לפי <ref href="/akn/il/act/PrimaryLegislation/1959-09-23/2002247">חוק הנכים</ref> היא 20 אחוזים, וכל עוד מתקיימים בו הטעמים האמורים;</p>
+                  </content>
+                </point>
+                <point eId="point_3__point_ב__point_2">
+                  <num>(2)</num>
+                  <list>
+                    <intro>
+                      <p>הועדה הרפואית קבעה לחייל המילואים הנכה כמשמעותו בפסקה (1) דרגת נכות תפקודית העולה על 19 אחוזים וכל עוד קיימים הטעמים האמורים בפסקה (1) ודרגת הנכות התפקודית שנקבעה לו עולה על 19 אחוזים:</p>
+                    </intro>
+                    <point eId="point_3__point_ב__point_2__point_3">
+                      <num>(3)</num>
+                      <content>
+                        <p>הוא לא היה עמית בקופת גמל במועד קרות האירוע שבשלו הוכר כנכה לפי <ref href="/akn/il/act/PrimaryLegislation/1959-09-23/2002247">חוק הנכים</ref>, או שאינו זכאי לקצבה מקופת גמל, שבה היה עמית כאמור;</p>
+                      </content>
+                    </point>
+                    <point eId="point_3__point_ב__point_2__point_4">
+                      <num>(4)</num>
+                      <list>
+                        <intro>
+                          <p>בסעיף קטן זה, ”ועדת חריגים“ – ועדה בת שלושה חברים וזה הרכבה:</p>
+                        </intro>
+                        <point eId="point_3__point_ב__point_2__point_4__point_א">
+                          <num>(א)</num>
+                          <content>
+                            <p>רופא מומחה ברפואה תעסוקתית או רופא מומחה ברפואה פיסיקלית ושיקום שימנה שר הביטחון והוא יהיה היושב ראש;</p>
+                          </content>
+                        </point>
+                        <point eId="point_3__point_ב__point_2__point_4__point_ב">
+                          <num>(ב)</num>
+                          <content>
+                            <p>רופא שימנה שר הבריאות והוא מומחה בתחום נכותו של חייל המילואים הנכה;</p>
+                          </content>
+                        </point>
+                        <point eId="point_3__point_ב__point_2__point_4__point_ג">
+                          <num>(ג)</num>
+                          <content>
+                            <p>רופא מומחה כאמור בפסקת משנה (ב) שתמנה ההסתדרות הרפואית.</p>
+                          </content>
+                        </point>
+                      </list>
+                    </point>
+                  </list>
+                </point>
+              </list>
+            </point>
+          </list>
+        </point>
+        <point eId="point_4">
+          <heading>
+            <authorialNote placement="side">
+              <p>שאירים</p>
+            </authorialNote>
+          </heading>
+          <num>4.</num>
+          <list>
+            <intro>
+              <p>שאירים של חייל מילואים שנספה, שהתקיימו לגביהם כל הוראות סעיף זה, זכאים לקצבה:</p>
+            </intro>
+            <point eId="point_4__point_1">
+              <num>(1)</num>
+              <content>
+                <p>הם שאירים שהוכרו כדין כזכאים לתגמולים לפי <ref href="/akn/il/act/PrimaryLegislation/1950-07-21/148018">חוק משפחות החיילים</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_4__point_2">
+              <num>(2)</num>
+              <content>
+                <p>חייל המילואים שנספה לא היה עמית בקופת גמל ערב מותו; או שהשאירים אינם זכאים לקצבה מקופת גמל.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_5">
+          <heading>
+            <authorialNote placement="side">
+              <p>המשכורת הקובעת – מהי</p>
+            </authorialNote>
+          </heading>
+          <num>5.</num>
+          <list>
+            <point eId="point_5__point_א">
+              <num>(א)</num>
+              <list>
+                <intro>
+                  <p>”המשכורת הקובעת“, לגבי חייל מילואים זכאי או לגבי שאירים זכאים – הגבוה מבין אלה:</p>
+                </intro>
+                <point eId="point_5__point_א__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>שכר העבודה הרגיל של עובד או ההכנסה הממוצעת של עובד עצמאי לפי <ref href="/akn/il/act/PrimaryLegislation/1995-05-15/158093#point_273">סעיף 273 לחוק הביטוח הלאומי</ref>, לפי העניין, שהגיעו לחייל המילואים הנכה או לחייל המילואים הנספה במועד האירוע שבשלו הוכר כנכה לפי <ref href="/akn/il/act/PrimaryLegislation/1959-09-23/2002247">חוק הנכים</ref>, או ערב מותו, לפי הענין, כשהוא מוכפל בשלושים;</p>
+                  </content>
+                </point>
+                <point eId="point_5__point_א__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>השכר הממוצע, כהגדרתו <ref href="/akn/il/act/PrimaryLegislation/1995-05-15/158093">בחוק הביטוח הלאומי</ref>, במועד האירוע שבשלו הוכר חייל המילואים כנכה לפי <ref href="/akn/il/act/PrimaryLegislation/1959-09-23/2002247">חוק הנכים</ref>, או ערב מותו של חייל מילואים נספה, לפי הענין.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_5__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>המשכורת הקובעת תעודכן לפי מדד המחירים לצרכן שמפרסמת הלשכה המרכזית לסטטיסטיקה.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_6">
+          <heading>
+            <authorialNote placement="side">
+              <p>שיעור הקצבה</p>
+            </authorialNote>
+          </heading>
+          <num>6.</num>
+          <list>
+            <point eId="point_6__point_א">
+              <num>(א)</num>
+              <content>
+                <p>הקצבה שתשולם לחייל מילואים זכאי תהיה בשיעור של עשרים אחוזים ממשכורתו הקובעת, בצירוף שלושה פרומיל ממנה לכל אחוז מדרגת נכותו התפקודית.</p>
+              </content>
+            </point>
+            <point eId="point_6__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>הקצבה שתשולם לשאירים זכאים תהיה כאמור <ref href="/akn/il/act/PrimaryLegislation/1985-07-10/2002312#point_22">בסעיפים 22</ref>, <ref href="/akn/il/act/PrimaryLegislation/1985-07-10/2002312#point_25">25</ref><ref href="/akn/il/act/PrimaryLegislation/1985-07-10/2002312#point_26">ו־26 עד 30 לחוק שירות הקבע</ref>, בשינויים המחויבים מהוראות חוק זה.</p>
+              </content>
+            </point>
+            <point eId="point_6__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>ועדה רפואית תקבע את דרגת נכותו התפקודית של חייל מילואים שנקבעה לו דרגת נכות לפי הוראות <ref href="#point_3">סעיף 3</ref>.</p>
+              </content>
+            </point>
+            <point eId="point_6__point_ד">
+              <num>(ד)</num>
+              <list>
+                <intro>
+                  <p>הכללים והמבחנים לקביעת דרגת נכות, החלים על ועדה רפואית לפי <ref href="/akn/il/act/PrimaryLegislation/1985-07-10/2002312">חוק שירות הקבע</ref><ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/תקנות_שירות_הקבע_בצבא_הגנה_לישראל_גמלאות_כללים_ומבחנים_לקביעת_דרגת_נכות">ותקנות שירות הקבע</ref>, יחולו על הועדה הרפואית בקביעת דרגת נכות תפקודית
+לפי חוק זה, בכפוף לשינויים האלה:</p>
+                </intro>
+                <point eId="point_6__point_ד__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>ההגדרה ”פוסק רפואי“, תהיה: ”פוסק רפואי“ – רופא מורשה כמשמעותו <ref href="/akn/il/act/PrimaryLegislation/1976-12-16/2002278">בפקודת הרופאים [נוסח חדש], התשל"ה–1976</ref>, ששמו כלול ברשימת פוסקים רפואיים שקבע שר הביטחון או מי שהוא הסמיכו לכך, בהתאם להוראות <ref href="#appendix">שבתוספת</ref>;</p>
+                  </content>
+                </point>
+                <point eId="point_6__point_ד__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>דרגת הנכות תהיה כהגדרתה לפי חוק זה.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_6__point_ה">
+              <num>(ה)</num>
+              <content>
+                <p>ועדה רפואית רשאית, מנימוקים שיירשמו על ידה, לגבי מקרה חריג שתקבע ומטעמים של אבדן השתכרות בפועל של חייל מילואים זכאי, לסטות מהוראות סעיף קטן (ד) בדרך של קביעת דרגת נכות תפקודית גדולה ביותר ממחצית מדרגת הנכות שנקבעה לאותו חייל מילואים לפי <ref href="/akn/il/act/PrimaryLegislation/1959-09-23/2002247">חוק הנכים</ref>; קביעה כאמור תהיה לתקופה שתקבע הועדה הרפואית ושלא תעלה על שנה; הועדה הרפואית רשאית להאריך את התקופה האמורה ובלבד שכל הארכה לא תעלה על שנה, והיא רשאית, בכל עת, לשנות דרגת נכות תפקודית חריגה שנקבעה לפי הוראות סעיף קטן זה.</p>
+              </content>
+            </point>
+            <point eId="point_6__point_ו">
+              <num>(ו)</num>
+              <list>
+                <point eId="point_6__point_ו__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>נגרמה לחייל המילואים הזכאי נכות המזכה אותו בזכויות לפי חוק זה ובשל כך נפגעה משכורתו הקובעת לפי <ref href="#point_5">סעיף 5</ref> ומצא הממונה, כי השתכרותו בפועל לאחר הפגיעה והתגמולים המשתלמים לו לפי <ref href="/akn/il/act/PrimaryLegislation/1959-09-23/2002247">חוק הנכים</ref> בצירוף הקצבה המשולמת לו לפי חוק זה או הקצבה המשלימה בצירוף הקצבה מקופת גמל, פחותים באופן משמעותי לגביו ממשכורתו הקובעת לפי <ref href="#point_5">סעיף 5</ref>, רשאי הממונה, לאחר שנועץ בועדה הרפואית ומנימוקים שיירשמו, לקבוע לו שיעור קצבה העולה על האמור בסעיף קטן (א) ובלבד, שבכל מקרה השיעור הכולל המרבי לענין סעיף זה, לא יעלה על 70 אחוזים ממשכורתו הקובעת.</p>
+                  </content>
+                </point>
+                <point eId="point_6__point_ו__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>קביעת הממונה לפי סעיף קטן זה תהיה לתקופה שיקבע ובלבד שלא תעלה על שנה, ורשאי הוא לשנות את קביעתו אם התגלו עובדות חדשות או עובדות שלא היו ידועות לו בעת קבלת ההחלטה, או להאריך את התקופה האמורה לתקופות נוספות, ובלבד שכל תקופה לא תעלה על שנה.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+          </list>
+        </point>
+        <point eId="point_7">
+          <heading>
+            <authorialNote placement="side">
+              <p>ניכויים</p>
+            </authorialNote>
+          </heading>
+          <num>7.</num>
+          <content>
+            <p>על אף הוראות <ref href="#point_6">סעיף 6</ref> על קצבה המשולמת לפי חוק זה יחולו הוראות <ref href="/akn/il/act/PrimaryLegislation/1985-07-10/2002312#point_14">סעיפים 14(ד)</ref>, <ref href="/akn/il/act/PrimaryLegislation/1985-07-10/2002312#point_31">31</ref>, <ref href="/akn/il/act/PrimaryLegislation/1985-07-10/2002312#point_32">32</ref><ref href="/akn/il/act/PrimaryLegislation/1985-07-10/2002312#point_33">ו־33 לחוק שירות הקבע</ref>, בשינויים המחויבים מהוראות חוק זה.</p>
+          </content>
+        </point>
+        <point eId="point_8">
+          <heading>
+            <authorialNote placement="side">
+              <p>קצבה משלימה לחייל מילואים נכה ולשאירי חייל מילואים שנספה שאינם זכאים לקצבה</p>
+            </authorialNote>
+          </heading>
+          <num>8.</num>
+          <list>
+            <point eId="point_8__point_א">
+              <num>(א)</num>
+              <content>
+                <p>על אף הוראות <ref href="#point_3">סעיפים 3</ref>, <ref href="#point_4">4</ref><ref href="#point_6">ו־6</ref> קיבלו חייל המילואים הנכה או שאיריו של חייל המילואים הנספה קצבה מקופת גמל, במלואה או בחלקה, עקב הנכות או עקב הפטירה של חייל המילואים, ומצא הממונה כי התקיימו התנאים הקבועים <ref href="#point_3">בסעיף 3(א)(1)</ref><ref href="#point_3">או 3(ב)(1) ו־(2)</ref>, <ref href="#point_4">או בסעיף 4(1)</ref> – לפי הענין, וכי גובה הקצבה מקופת הגמל נמוך מגובה הקצבה, שהיתה משולמת לפי הוראות חוק זה אם חייל המילואים או שאיריו לא היו זכאים לקצבה מקופת גמל – תשולם לחייל המילואים או לשאיריו קצבה משלימה, בשיעור ההפרש שבין הקצבה שלה היו זכאים החייל או השאירים לפי חוק זה לבין הקצבה מקופת הגמל.</p>
+              </content>
+            </point>
+            <point eId="point_8__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>תביעה לפי סעיף זה תוגש לפי הוראות <ref href="#point_10">סעיף 10</ref>, בשינויים המחויבים לפי הענין.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_8א">
+          <heading>
+            <authorialNote placement="side">
+              <p>תקרת הקצבה</p>
+            </authorialNote>
+          </heading>
+          <num>8א.</num>
+          <list>
+            <point eId="point_8א__point_א">
+              <num>(א)</num>
+              <content>
+                <p>גובה הקצבה המשולמת לחייל מילואים נכה לפי <ref href="#point_3">סעיפים 3</ref><ref href="#point_6">ו־6(א)</ref> או הקצבה המשלימה המשולמת לפי <ref href="#point_8">סעיף 8(א)</ref>, לא יעלה על שיעור התגמול ליום לפי <ref href="/akn/il/act/PrimaryLegislation/1995-05-15/158093#chp_יב">פרק י"ב לחוק הביטוח הלאומי</ref>, שהגיע לחייל המילואים הנכה במועד האירוע שבשלו הוכר כנכה לפי <ref href="/akn/il/act/PrimaryLegislation/1959-09-23/2002247">חוק הנכים</ref>, כשהוא מוכפל בשלושים, כפול שיעור הקצבה בהתאם <ref href="#point_6">לסעיף 6(א)</ref> אשר לו זכאי חייל מילואים נכה.</p>
+              </content>
+            </point>
+            <point eId="point_8א__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>גובה הקצבה המשולמת לשאיריו של חייל מילואים שנספה, לפי <ref href="#point_4">סעיפים 4</ref><ref href="#point_6">ו־6(ב)</ref> או הקצבה המשלימה המשולמת לפי <ref href="#point_8">סעיף 8(א)</ref>, לא יעלה על שיעור התגמול ליום לפי <ref href="/akn/il/act/PrimaryLegislation/1995-05-15/158093#chp_יב">פרק י"ב לחוק הביטוח הלאומי</ref>, שהגיע לחייל המילואים הנספה ערב מותו, כשהוא מוכפל בשלושים, כפול שיעור הקצבה בהתאם <ref href="/akn/il/act/PrimaryLegislation/1985-07-10/2002312#point_22">לסעיף 22 לחוק שירות הקבע</ref>.</p>
+              </content>
+            </point>
+            <point eId="point_8א__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>ניכויים והפחתות מקצבת הנכות או מקצבת השאירים כאמור <ref href="#point_6">בסעיפים 6(ב)</ref><ref href="#point_7">ו־7</ref>, יבוצעו לאחר שהוחלה על הקצבאות התקרה לפי סעיף קטן (א) או (ב), לפי העניין.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_9">
+          <heading>
+            <authorialNote placement="side">
+              <p>מקדמות</p>
+            </authorialNote>
+          </heading>
+          <num>9.</num>
+          <list>
+            <point eId="point_9__point_א">
+              <num>(א)</num>
+              <content>
+                <p>מצא הממונה כי חייל מילואים נכה שהיה עמית בקופת גמל או שאירים של חייל מילואים שנספה שהיה עמית בקופת גמל, מקיימים את התנאים המפורטים <ref href="#point_3">בסעיף 3(א)(1)</ref><ref href="#point_3">או 3(ב)(1) ו־(2)</ref><ref href="#point_4">או בסעיף 4(1)</ref> – לפי הענין, אך אינם זכאים לקצבה בשל הוראות <ref href="#point_3">סעיף 3(א)(2)</ref><ref href="#point_3">או 3(ב)(3)</ref>, או <ref href="#point_4">סעיף 4(2)</ref> – לפי הענין, או שהם זכאים לקצבה מקופת גמל בהתאם <ref href="#point_8">לסעיף 8</ref> אך טרם קיבלו תשלומים מקופת הגמל, ישולמו, לחייל המילואים או לשאיריו, מקדמות; בפקודות הצבא ייקבעו הוראות, לרבות כללים ומבחנים בדבר תשלום המקדמות, לרבות שיעורן, על חשבון תשלומים המגיעים להם מקופת הגמל.</p>
+              </content>
+            </point>
+            <point eId="point_9__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>תנאי לתשלום מקדמות על ידי הממונה הוא, שחייל המילואים הנכה או השאירים של חייל מילואים שנספה הגישו לקופת הגמל שבה היה חייל המילואים עמית, תביעה לקצבה מקופת גמל בשל הנכות או הפטירה, לפי הענין.</p>
+              </content>
+            </point>
+            <point eId="point_9__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>המקדמות ישולמו עד לקבלת החלטה בדבר תשלום קצבה מקופת הגמל או עד למועד תשלום קצבה לפי חוק זה, לפי המוקדם, ובלבד שלא ישולמו מקדמות בעד תקופה העולה על שישה חודשים ממועד תחילת תשלומם, אלא אם כן האריך הממונה את התקופה מטעמים מיוחדים שיפרט.</p>
+              </content>
+            </point>
+            <point eId="point_9__point_ד">
+              <num>(ד)</num>
+              <content>
+                <p>גובה המקדמות לא יעלה על גובה הקצבה שהיתה מגיעה לחייל המילואים או לשאירים, אילו חייל המילואים לא היה עמית בקופת גמל.</p>
+              </content>
+            </point>
+            <point eId="point_9__point_ה">
+              <num>(ה)</num>
+              <content>
+                <p>תביעה לתשלום מקדמות תוגש לפי הוראות <ref href="#point_10">סעיף 10</ref> בשינויים המחויבים.</p>
+              </content>
+            </point>
+            <point eId="point_9__point_ו">
+              <num>(ו)</num>
+              <list>
+                <point eId="point_9__point_ו__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>המקבל לפי סעיף זה תשלומים ששולמו ביתר, חייב להחזירם, לפי דרישת הממונה, ואם לא החזירם בתקופה שקבע הממונה רשאי הוא לקזזם כנגד קצבה המשולמת לפי חוק זה לרבות קצבה משלימה, כנגד תגמולים לפי <ref href="/akn/il/act/PrimaryLegislation/1959-09-23/2002247">חוק הנכים</ref> או כנגד תגמולים לפי <ref href="/akn/il/act/PrimaryLegislation/1950-07-21/148018">חוק משפחות החיילים</ref>, או לגבותם מסכומים העומדים לזכות המקבל, לרבות מקופת גמל, וזאת, על אף האמור בכל דין ובכל חוזה.</p>
+                  </content>
+                </point>
+                <point eId="point_9__point_ו__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>הוראות, לרבות כללים ומבחנים, בענין גביית תשלומים ששולמו ביתר לפי סעיף זה ייקבעו בפקודות הצבא.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_9__point_ז">
+              <num>(ז)</num>
+              <content>
+                <p>בסעיף זה, ”תשלומים ששולמו ביתר“ – תשלומים ששולמו כמקדמות על חשבון התשלומים מקופת גמל, לרבות תשלומי מקדמות העודפים על התשלומים המשולמים לפי <ref href="#point_8">סעיף 8</ref> לחייל מילואים או לשאירים של חייל מילואים הזכאים לתשלומים לפיו, הכל לפי הענין וכפי שייקבע בפקודות הצבא.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_10">
+          <heading>
+            <authorialNote placement="side">
+              <p>סדרי תביעה</p>
+            </authorialNote>
+          </heading>
+          <num>10.</num>
+          <list>
+            <point eId="point_10__point_א">
+              <num>(א)</num>
+              <content>
+                <p>שר הביטחון ימנה את הממונה כממונה על תשלום הקצבאות לפי חוק זה; הודעה על מינוי הממונה ועל מענו תפורסם ברשומות.</p>
+              </content>
+            </point>
+            <point eId="point_10__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>הוראות <ref href="/akn/il/act/PrimaryLegislation/1985-07-10/2002312#point_44">סעיפים 44 עד 52 לחוק שירות הקבע</ref> יחולו לענין חוק זה, בשינויים המחויבים לפי הענין.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_11">
+          <heading>
+            <authorialNote placement="side">
+              <p>סדרי תשלום</p>
+            </authorialNote>
+          </heading>
+          <num>11.</num>
+          <content>
+            <p>הוראות <ref href="/akn/il/act/PrimaryLegislation/1985-07-10/2002312#point_53">סעיפים 53 עד 67 לחוק שירות הקבע</ref> יחולו לענין חוק זה בשינויים המחויבים, ואולם <ref href="/akn/il/act/PrimaryLegislation/1985-07-10/2002312#point_55">בסעיף 55</ref>, במקום הסיפה החל במילים ”ארבעה חודשים“ יקראו את המילה ”שנתיים“.</p>
+          </content>
+        </point>
+        <point eId="point_11א">
+          <heading>
+            <authorialNote placement="side">
+              <p>מועד תשלום קצבת שאירים</p>
+            </authorialNote>
+          </heading>
+          <num>11א.</num>
+          <content>
+            <p>על אף האמור <ref href="#point_11">בסעיף 11</ref>, קצבת שאירים תשולם ביום הראשון של כל חודש, החל בחודש הראשון שאחרי החודש שבו נולדה העילה לקצבה, והתשלום הראשון יהיה בעד החודש שבו נולדה העילה לקצבה.</p>
+          </content>
+        </point>
+        <point eId="point_12">
+          <heading>
+            <authorialNote placement="side">
+              <p>חובת סיוע</p>
+            </authorialNote>
+          </heading>
+          <num>12.</num>
+          <list>
+            <point eId="point_12__point_א">
+              <num>(א)</num>
+              <content>
+                <p>הזכאי לקצבה, לרבות לקצבה משלימה או למקדמה, לפי חוק זה, חייב להושיט כל עזרה ולנקוט כל פעולה כדי לסייע לממונה, ולמנהל התביעות כמשמעותו <ref href="#point_14">בסעיף 14</ref> (בחוק זה – מנהל התביעות), בהפעלת סמכויותיהם לפי חוק זה ולא לעשות כל פעולה העלולה לפגוע בהפעלה התקינה של סמכויות הממונה ומנהל התביעות או למנוע את מימושן.</p>
+              </content>
+            </point>
+            <point eId="point_12__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>עבר הזכאי לקצבה לרבות לקצבה משלימה או למקדמה, לפי חוק זה, על איסור לפי סעיף קטן (א), או לא עשה את המוטל עליו לפיו, רשאי הממונה לשלול ממנו את הזכות לקצבה, לקצבה משלימה או למקדמה – כולה או מקצתה.</p>
+              </content>
+            </point>
+            <point eId="point_12__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>שילמה המדינה תשלומים לפי חוק זה בשל אירוע המשמש עילה גם לתשלום קצבה מקופת גמל, רשאי הממונה או מנהל התביעות, לתבוע מקופת הגמל פיצוי על גמלה ששילם או שהוא עתיד לשלמה, עד לגובה הקצבה שחייבת בה קופת הגמל.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_13">
+          <heading>
+            <authorialNote placement="side">
+              <p>קיזוז</p>
+            </authorialNote>
+          </heading>
+          <num>13.</num>
+          <list>
+            <point eId="point_13__point_א">
+              <num>(א)</num>
+              <content>
+                <p>בכפוף להוראות <ref href="#point_9">סעיף 9(ו)</ref>, תשלומים לפי חוק זה אינם ניתנים לקיזוז לפי כל דין ולפי כל חוזה, לרבות חוזה שנחתם טרם כניסתו של חוק זה לתוקף, ולרבות תקנון קופת גמל כאמור.</p>
+              </content>
+            </point>
+            <point eId="point_13__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>הזכות לקצבה, לקצבה משלימה, למקדמה או למענק הוני למקרה מוות לפי חוק זה לא תהווה עילה להפחתתם, להקטנתם או לשלילתם של קצבה מקופת גמל או של כל תשלום אחר מקופת גמל, לרבות מקופת גמל שהוקמה טרם כניסתו של חוק זה לתוקף.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_14">
+          <heading>
+            <authorialNote placement="side">
+              <p>מימון</p>
+            </authorialNote>
+          </heading>
+          <num>14.</num>
+          <list>
+            <point eId="point_14__point_א">
+              <num>(א)</num>
+              <content>
+                <p>המדינה תהיה רשאית לרכוש כיסוי ביטוחי לכיסוי תשלומי קצבאות לחיילי מילואים זכאים ולשאירים זכאים, וכן לכיסוי תשלומי קצבאות משלימות ומקדמות ומענק הוני למקרה המוות.</p>
+              </content>
+            </point>
+            <point eId="point_14__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>רכשה המדינה כיסוי ביטוחי כאמור, ימנה שר הביטחון מנהל תביעות אשר יפעל לקבלת תגמולי הביטוח בשל תביעות שהגישו לממונה חייל מילואים זכאי, שאירים זכאים, חייל מילואים נכה הזכאי לקצבה משלימה, שאירי חייל מילואים שנספה הזכאים לקצבה משלימה או הזכאים למענק הוני למקרה מוות.</p>
+              </content>
+            </point>
+            <point eId="point_14__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>הממונה יודיע על התביעות שהוגשו כאמור בסעיף קטן (ב) למנהל התביעות; דרכי ההודעה ייקבעו על ידי שר הביטחון.</p>
+              </content>
+            </point>
+            <point eId="point_14__point_ד">
+              <num>(ד)</num>
+              <content>
+                <p>הכיסוי הביטוחי יכול שיכלול לענין תשלומי הקצבאות, לרבות לפרקי זמן, תנאי קצבאות שונים מאלה המפורטים בחוק זה (בסעיף זה – תנאי הקצבאות השונים); גרעו תנאי הקצבאות השונים מהזכויות לפי חוק זה, יחולו הוראות <ref href="#point_8">סעיף 8</ref>, בשינויים המחויבים לפי הענין; הוסיפו תנאי הקצבאות השונים על ההוראות הקבועות בענין זה בחוק זה, לא יהיה בכך כדי לחייב את המדינה לפי חוק זה.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_15">
+          <heading>
+            <authorialNote placement="side">
+              <p>מענק הוני למקרה מוות</p>
+            </authorialNote>
+          </heading>
+          <num>15.</num>
+          <list>
+            <point eId="point_15__point_א">
+              <num>(א)</num>
+              <list>
+                <intro>
+                  <p>נוסף על התשלומים לפי חוק זה, ישלם הממונה לבני משפחתו של חייל מילואים שנספה מענק הוני בהתאם לכללים ובשיעורים שיקבע שר הביטחון (בחוק זה – מענק הוני למקרה מוות); לענין זה, ”בן משפחה“ – כל אחד מאלה:</p>
+                </intro>
+                <point eId="point_15__point_א__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>בן זוג, כמשמעותו <ref href="/akn/il/act/PrimaryLegislation/1985-07-10/2002312#point_21">בסעיף 21(1) לחוק שירות הקבע</ref>;</p>
+                  </content>
+                </point>
+                <point eId="point_15__point_א__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>הורה;</p>
+                  </content>
+                </point>
+                <point eId="point_15__point_א__point_3">
+                  <num>(3)</num>
+                  <content>
+                    <p>ילד, לרבות ילד חורג וילד מאומץ;</p>
+                  </content>
+                </point>
+                <point eId="point_15__point_א__point_4">
+                  <num>(4)</num>
+                  <content>
+                    <p>אדם אחר שהממונה מצא, על פי הכללים שנקבעו לפי הוראות סעיף זה, כי קיימים טעמים מיוחדים המצדיקים תשלום מענק הוני למקרה מוות לאותו אדם.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_15__point_ב">
+              <num>(ב)</num>
+              <list>
+                <point eId="point_15__point_ב__point_1">
+                  <num>(1)</num>
+                  <list>
+                    <intro>
+                      <p>בסעיף קטן זה –</p>
+                    </intro>
+                    <point eId="point_15__point_ב__point_1__point_בן_משפחה">
+                      <content>
+                        <p>
+                          <def />”בן משפחה“ – בן זוג, הורה, או ילד כמשמעותו בסעיף קטן (א)(3), של חייל מילואים שנספה;</p>
+                      </content>
+                    </point>
+                    <point eId="point_15__point_ב__point_1__point_המועד_הקובע">
+                      <content>
+                        <p>
+                          <def />”המועד הקובע“ – מועד פרסומו של <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/http_fs_knesset_gov_il_18_law_18_lsr_301420_pdf">חוק תשלום קצבאות לחיילי מילואים ולבני משפחותיהם (תיקון מס׳ 4), התשע"ב–2011</ref>;</p>
+                      </content>
+                    </point>
+                    <point eId="point_15__point_ב__point_1__point_התקופה_המזכה">
+                      <content>
+                        <p>
+                          <def />”התקופה המזכה“ – התקופה שמיום ה׳ באייר התש"ח (14 במאי 1948) עד יום י"ב בטבת התשנ"ט (31 בדצמבר 1998).</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+                <point eId="point_15__point_ב__point_2">
+                  <num>(2)</num>
+                  <list>
+                    <intro>
+                      <p>הותיר אחריו חייל מילואים שנספה, שמתקיים לגביו אחד מאלה, בן משפחה במועד פטירתו, ישלם הממונה לבן המשפחה של החייל, על פי בקשה בכתב שיגיש לממונה, מענק בסכום של 100,000 שקלים חדשים (בסעיף קטן זה – מענק הוני), בהתאם להוראות סעיף קטן זה:</p>
+                    </intro>
+                    <point eId="point_15__point_ב__point_2__point_א">
+                      <num>(א)</num>
+                      <content>
+                        <p>הוא נספה בתקופה המזכה;</p>
+                      </content>
+                    </point>
+                    <point eId="point_15__point_ב__point_2__point_ב">
+                      <num>(ב)</num>
+                      <content>
+                        <p>הוא חייל מילואים נכה שנפגע בתקופה המזכה ונפטר לאחריה.</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+                <point eId="point_15__point_ב__point_3">
+                  <num>(3)</num>
+                  <content>
+                    <p>בקשה לקבלת מענק הוני תוגש לממונה לא יאוחר מתום שנתיים מיום ט׳ בניסן התשע"ב (1 באפריל 2012) או ממועד פטירתו של החייל, לפי המאוחר; הממונה רשאי, במקרים חריגים ומטעמים שיירשמו, להאריך את התקופה להגשת הבקשה בתקופה שיקבע; לא יזדקק הממונה לבקשה לקבלת מענק הוני שהוגשה לאחר שחלפה התקופה כאמור.</p>
+                  </content>
+                </point>
+                <point eId="point_15__point_ב__point_4">
+                  <num>(4)</num>
+                  <list>
+                    <intro>
+                      <p>מענק הוני ישולם לבן המשפחה של חייל המילואים שנספה, כמפורט להלן, לפי העניין:</p>
+                    </intro>
+                    <point eId="point_15__point_ב__point_4__point_א">
+                      <num>(א)</num>
+                      <content>
+                        <p>הותיר אחריו החייל, במועד פטירתו, בן זוג – ישולם המענק לבן הזוג בלבד; לא הותיר אחריו החייל בן זוג, או שבן הזוג נפטר לפני המועד לתשלום המענק, כולו או חלקו – ישולם המענק או חלקו שטרם שולם, לפי העניין, להורי החייל בלבד; לא הותיר אחריו החייל, במועד פטירתו, הורים, או שההורים נפטרו לפני המועד לתשלום המענק, כולו או חלקו – ישולם המענק או חלקו שטרם שולם, לפי העניין, לילדו של החייל; לא הותיר אחריו החייל, במועד פטירתו, ילד או שהילד נפטר לפני המועד לתשלום המענק, כולו או חלקו – לא ישולם המענק או חלקו שטרם שולם, לפי העניין;</p>
+                      </content>
+                    </point>
+                    <point eId="point_15__point_ב__point_4__point_ב">
+                      <num>(ב)</num>
+                      <content>
+                        <p>הותיר אחריו החייל יותר מהורה אחד, יותר מבן זוג אחד או יותר מילד אחד – יחלקו ביניהם ההורים, בני הזוג או הילדים, בהתאמה, את המענק בשווה.</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+                <point eId="point_15__point_ב__point_5">
+                  <num>(5)</num>
+                  <list>
+                    <intro>
+                      <p>המענק ההוני ישולם לבן המשפחה של חייל המילואים שנספה, כאמור בפסקה (4), באופן הזה:</p>
+                    </intro>
+                    <point eId="point_15__point_ב__point_5__point_א">
+                      <num>(א)</num>
+                      <content>
+                        <p>נפטר החייל במועד הקובע או אחריו – ישולם המענק ההוני בתשלום אחד;</p>
+                      </content>
+                    </point>
+                    <point eId="point_15__point_ב__point_5__point_ב">
+                      <num>(ב)</num>
+                      <content>
+                        <p>נפטר החייל לפני המועד הקובע – ישולם המענק ההוני בשני תשלומים שווים: התשלום הראשון ישולם בתוך 45 ימים מהיום שבו הוגשה הבקשה כנדרש, והתשלום השני ישולם בתוך שנה מיום הגשת הבקשה כאמור, ואולם לגבי בקשות שהוגשו לממונה כנדרש עד ליום ז׳ בשבט התשע"ב (31 בינואר 2012), ישולם התשלום השני עד ליום י"ח בטבת התשע"ג (31 בדצמבר 2012); הממונה רשאי במקרים חריגים ומטעמים שיירשמו, לדחות את מועד תשלום המענק לפי פסקה זו.</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+                <point eId="point_15__point_ב__point_6">
+                  <num>(6)</num>
+                  <content>
+                    <p>המענק ההוני ישולם לפי סכומו המעודכן ביום התשלום; סכום המענק ההוני כאמור בפסקה (2), יתעדכן ב־1 בכל חודש (בסעיף קטן זה – יום העדכון), החל ביום כ"א בשבט התשע"ג (1 בפברואר 2013), בהתאם לשיעור שינוי המדד הידוע ביום העדכון לעומת המדד שהיה ידוע ביום י"ט בטבת התשע"ג (1 בינואר 2013); לעניין זה, ”מדד“ – מדד המחירים לצרכן שמפרסמת הלשכה המרכזית לסטטיסטיקה.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_15__point_7">
+              <num>(7)</num>
+              <content>
+                <p>שולם מענק בשל פטירת חייל מילואים, מכוח ההסדר שהורה עליו שר הביטחון לתשלום מענק למשפחות חיילי מילואים אנשי צוות אוויר שנספו, לא ישולם מענק לפי הוראות סעיף קטן זה בשל פטירת אותו חייל.</p>
+              </content>
+            </point>
+            <point eId="point_15__point_8">
+              <num>(8)</num>
+              <content>
+                <p>הזכות לקבלת מענק הוני לפי סעיף קטן זה היא אישית ואינה ניתנת להעברה, לשעבוד, לעיקול או להורשה, בכל דרך שהיא.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_16">
+          <heading>
+            <authorialNote placement="side">
+              <p>ביצוע ותקנות</p>
+            </authorialNote>
+          </heading>
+          <num>16.</num>
+          <content>
+            <p>שר הביטחון ממונה על ביצועו של חוק זה והוא רשאי, בהתייעצות עם שר האוצר ובאישור ועדת החוץ והביטחון של הכנסת, להתקין תקנות ולהוציא צווים בכל ענין הנוגע לביצועו.</p>
+          </content>
+        </point>
+        <point eId="point_17">
+          <heading>
+            <authorialNote placement="side">
+              <p xml:space="preserve"> </p>
+            </authorialNote>
+          </heading>
+          <num>17.</num>
+          <content>
+            <p>
+              <wikicomment font-size="x-small">(בוטל).</wikicomment>
+            </p>
+          </content>
+        </point>
+        <point eId="point_18">
+          <heading>
+            <authorialNote placement="side">
+              <p>הוראות מעבר</p>
+            </authorialNote>
+          </heading>
+          <num>18.</num>
+          <list>
+            <point eId="point_18__point_א">
+              <num>(א)</num>
+              <list>
+                <intro>
+                  <p>בסעיף זה –</p>
+                </intro>
+                <point eId="point_18__point_א__point_זכויות_כספיות">
+                  <content>
+                    <p>
+                      <def />”זכויות כספיות“ – תגמולי ביטוח חיים (סיכון) בסכום הוני ותגמולי ביטוח קצבת שאירים בשל מקרה מוות שאירע בשירות מילואים עקב אותו שירות, או תגמולי ביטוח אבדן כושר עבודה בשל מקרה ביטוח שאירע בשירות מילואים עקב אותו שירות, והכל לענין פוליסות ביטוח שרכשה המדינה;</p>
+                  </content>
+                </point>
+                <point eId="point_18__point_א__point_זכאי_לפי_פוליסה">
+                  <content>
+                    <p>
+                      <def />”זכאי לפי פוליסה“ – חייל מילואים זכאי או שאיר זכאי שהוכרו ככאלה לאחר פרסומו של חוק זה אשר התחילו לקבל זכויות כספיות ערב תחילתו של חוק זה וכל עוד הם מקבלים זכויות כספיות.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_18__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>לא תשולם קצבה לפי חוק זה לזכאי לפי פוליסה אשר הזכויות הכספיות המוענקות לו שוות או עולות על הקצבה או המענק שהיה מקבל לפי הוראות חוק זה, אילו לא היה מקבל זכויות כספיות; קיבל זכאי לפי הפוליסה זכויות כספיות בשיעור נמוך מהמגיע לו לפי הוראות חוק זה תשולם לו קצבה משלימה לפי הוראות <ref href="#point_8">סעיף 8</ref>.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_19">
+          <heading>
+            <authorialNote placement="side">
+              <p>תחולה</p>
+            </authorialNote>
+          </heading>
+          <num>19.</num>
+          <content>
+            <p>חוק זה, למעט <ref href="#point_15">סעיף 15(ב)</ref>, יחול, בכפוף להוראות <ref href="#point_18">סעיף 18</ref>, על חייל מילואים זכאי ושאיר זכאי, שהוכרו לפי הוראות חוק זה, לפי הענין, בשל נכות או פטירה, שאירעה ביום י"ג בטבת התשנ"ט (1 בינואר 1999) או לאחריו.</p>
+          </content>
+        </point>
+      </list>
+      <appendix eId="appendix">
+        <num></num>
+        <title>
+          <content>
+            <p>תוספת</p>
+          </content>
+        </title>
+        <subtitle eId="eId">
+          <num></num>
+          <content>
+            <p>
+              <wikicomment font-size="x-small">(<ref href="#point_6">סעיף 6(ד)(1)</ref>)</wikicomment>
+            </p>
+          </content>
+        </subtitle>
+        <list>
+          <point eId="appendix__point_1" class="definitions">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>1.</num>
+            <content>
+              <p>
+                <def />ברשימת הפוסקים הרפואיים לא ייכלל רופא שעלול להימצא בניגוד ענינים בשל קשר מיוחד עם חברת הביטוח; לענין זה יראו, בין השאר, רופא שהוא עובד של חברת הביטוח או רופא שלמעלה מ־15 אחוזים מסך כל הכנסותיו הם מחברת הביטוח, כמי שעלול להימצא בניגוד ענינים כאמור.<br space="preserve"></br>לענין <ref href="#appendix">תוספת זו</ref> –<br space="preserve"></br>”חברת הביטוח“ – חברת ביטוח שנתנה כיסוי ביטוחי לכיסוי תשלומי קצבאות לחיילי מילואים זכאים לרבות חברת ביטוח אם וחברה אחות שלה, כמשמעותן <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/תקנות_הפיקוח_על_עסקי_ביטוח_דרכי_השקעת_ההון_והקרנות_של_מבטח_וניהול_התחייבויותיו">בתקנות הפיקוח על עסקי ביטוח (דרכי השקעת ההון והקרנות של מבטח וניהול התחייבויותיו), התשס"א–2001</ref>, ולרבות כל חברה בת וחברה מסונפת שלה כמשמעותן <ref href="/akn/il/act/PrimaryLegislation/1968-08-22/150242">בחוק ניירות ערך, התשכ"ח–1968</ref>.</p>
+            </content>
+          </point>
+          <point eId="appendix__point_2">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>2.</num>
+            <content>
+              <p>רופא הכלול ברשימת הפוסקים הרפואיים כאמור <ref href="#point_6">בסעיף 6(ד)(1)</ref> ושאינו פוסק רפואי כהגדרתו <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/תקנות_שירות_הקבע_בצבא_הגנה_לישראל_גמלאות_כללים_ומבחנים_לקביעת_דרגת_נכות#point_1">בסעיף 1 לתקנות שירות הקבע</ref>, ימסור בדרך שתיקבע בתקנות אישור רואה חשבון המעיד כי סך כל הכנסותיו מכל סוג שהוא מחברת הביטוח, בכל אחת משתי שנות העסקים הקודמות, לא עלה על 15 אחוזים מסך כל הכנסותיו כאמור באותה שנה.</p>
+            </content>
+          </point>
+          <point eId="appendix__point_3">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>3.</num>
+            <content>
+              <p>השר יעדכן את רשימת הפוסקים הרפואיים אחת לשנה.</p>
+            </content>
+          </point>
+        </list>
+      </appendix>
+    </body>
+    <conclusions eId="eId">
+      <p class="signatures">
+        <signature>
+          <p>
+            <person refersTo="אריאל_שרון">אריאל שרון</person>
+            <role refersTo="ראש_הממשלה">ראש הממשלה</role>
+          </p>
+        </signature>
+        <signature>
+          <p>
+            <person refersTo="בנימין_בן_אליעזר">בנימין בן אליעזר</person>
+            <role refersTo="שר_הביטחון">שר הביטחון</role>
+          </p>
+        </signature>
+        <signature>
+          <p>
+            <person refersTo="משה_קצב">משה קצב</person>
+            <role refersTo="נשיא_המדינה">נשיא המדינה</role>
+          </p>
+        </signature>
+        <signature>
+          <p>
+            <person refersTo="אברהם_בורג">אברהם בורג</person>
+            <role refersTo="יושב_ראש_הכנסת">יושב ראש הכנסת</role>
+          </p>
+        </signature>
+      </p>
+    </conclusions>
+  </act>
+</akomaNtoso>

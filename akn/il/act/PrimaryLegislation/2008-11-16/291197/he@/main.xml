@@ -1,0 +1,2414 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion" name="publicLaw">
+    <meta>
+      <identification source="#kensset">
+        <FRBRWork>
+          <FRBRthis value="/akn/il/act/PrimaryLegislation/2008-11-16/291197/main" />
+          <FRBRuri value="/akn/il/act/PrimaryLegislation/2008-11-16/291197" />
+          <FRBRdate date="2008-11-16" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRcountry value="israel" />
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/il/act/PrimaryLegislation/2008-11-16/291197/he@/main" />
+          <FRBRuri value="/akn/il/act/PrimaryLegislation/2008-11-16/291197/he@" />
+          <FRBRdate date="2008-11-16" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRlanguage language="hebrew" />
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/il/act/PrimaryLegislation/2008-11-16/291197/he@/main.xml" />
+          <FRBRuri value="/akn/il/act/PrimaryLegislation/2008-11-16/291197/he@" />
+          <FRBRdate date="2008-11-16" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRformat value="xml" />
+        </FRBRManifestation>
+      </identification>
+      <classification source="#kensset">
+        <keyword value="{classificationValue}" showAs="{classificationValue}" dictionary="#classification_dictionary" />
+      </classification>
+      <lifecycle source="#kensset">
+        <eventRef eId="eventRef_1" date="2008-11-16" source="#kensset" type="generation" />
+      </lifecycle>
+      <references source="#kensset">
+        <TLCOrganization eId="kensset" href="/ontology/organization/akn/knesset" showAs="Kensset" type="generation" />
+        <TLCRole eId="author" href="/ontology/role/akn/author" showAs="Author of Document" />
+        <TLCProcess eId="inforce" href="/ontology/process/akn/inforce" showAs="In force" />
+        <TLCTerm eId="term_1" href="/ontology/term/בן_משפחה/291197" showAs="בן_משפחה" />
+        <TLCTerm eId="term_2" href="/ontology/term/ועדת_ההיגוי/291197" showAs="ועדת_ההיגוי" />
+        <TLCTerm eId="term_3" href="/ontology/term/חוק_העונשין/291197" showAs="חוק_העונשין" />
+        <TLCTerm eId="term_4" href="/ontology/term/חוק_כלי_היריה/291197" showAs="חוק_כלי_היריה" />
+        <TLCTerm eId="term_5" href="/ontology/term/חוק_מרשם_האוכלוסין/291197" showAs="חוק_מרשם_האוכלוסין" />
+        <TLCTerm eId="term_6" href="/ontology/term/חוק_סמכויות_לשם_שמירה_על_ביטחון_הציבור/291197" showAs="חוק_סמכויות_לשם_שמירה_על_ביטחון_הציבור" />
+        <TLCTerm eId="term_7" href="/ontology/term/חוק_שירות_המדינה_(מינויים)/291197" showAs="חוק_שירות_המדינה_(מינויים)" />
+        <TLCTerm eId="term_8" href="/ontology/term/חוק_שירות_המדינה_(משמעת)/291197" showAs="חוק_שירות_המדינה_(משמעת)" />
+        <TLCTerm eId="term_9" href="/ontology/term/המנהל/291197" showAs="המנהל" />
+        <TLCTerm eId="term_10" href="/ontology/term/סיווג_ביטחוני/291197" showAs="סיווג_ביטחוני" />
+        <TLCTerm eId="term_11" href="/ontology/term/עד/291197" showAs="עד" />
+        <TLCTerm eId="term_12" href="/ontology/term/עד_מאוים/291197" showAs="עד_מאוים" />
+        <TLCTerm eId="term_13" href="/ontology/term/עד_מוגן/291197" showAs="עד_מוגן" />
+        <TLCTerm eId="term_14" href="/ontology/term/פקודת_הראיות/291197" showAs="פקודת_הראיות" />
+        <TLCTerm eId="term_15" href="/ontology/term/הפרקליט_הממונה/291197" showAs="הפרקליט_הממונה" />
+        <TLCTerm eId="term_16" href="/ontology/term/קצין_המשטרה/291197" showAs="קצין_המשטרה" />
+        <TLCTerm eId="term_17" href="/ontology/term/הרשות/291197" showAs="הרשות" />
+        <TLCTerm eId="term_18" href="/ontology/term/השר/291197" showAs="השר" />
+        <TLCTerm eId="term_19" href="/ontology/term/תכנית_הגנה/291197" showAs="תכנית_הגנה" />
+        <TLCTerm eId="term_20" href="/ontology/term/חיפוש_על_גופו_של_אדם/291197" showAs="חיפוש_על_גופו_של_אדם" />
+        <TLCTerm eId="term_21" href="/ontology/term/נשק/291197" showAs="נשק" />
+        <TLCTerm eId="term_22" href="/ontology/term/תחקיר/291197" showAs="תחקיר" />
+        <TLCPerson eId="אהוד_אולמרט" href="/ontology/person/אהוד_אולמרט" showAs="אהוד אולמרט" />
+        <TLCPerson eId="אבי_דיכטר" href="/ontology/person/אבי_דיכטר" showAs="אבי דיכטר" />
+        <TLCPerson eId="שמעון_פרס" href="/ontology/person/שמעון_פרס" showAs="שמעון פרס" />
+        <TLCPerson eId="דליה_איציק" href="/ontology/person/דליה_איציק" showAs="דליה איציק" />
+        <TLCRole eId="ראש_הממשלה" href="ontology/role/akn/ראש_הממשלה" showAs="ראש הממשלה" />
+        <TLCRole eId="השר_לביטחון_הפנים" href="ontology/role/akn/השר_לביטחון_הפנים" showAs="השר לביטחון הפנים" />
+        <TLCRole eId="נשיא_המדינה" href="ontology/role/akn/נשיא_המדינה" showAs="נשיא המדינה" />
+        <TLCRole eId="יושבת_ראש_הכנסת" href="ontology/role/akn/יושבת_ראש_הכנסת" showAs="יושבת ראש הכנסת" />
+      </references>
+      <temporalData source="#kensset">
+        <temporalGroup eId="tmpg_1" />
+      </temporalData>
+      <Publication></Publication>
+      <proprietary wikiversion="8/27/2020 12:01:04 PM" />
+    </meta>
+    <body period="#tmpg_1">
+      <title eId="title">
+        <content>
+          <p>חוק להגנה על עדים, התשס"ט–2008</p>
+        </content>
+      </title>
+      <chapter eId="chp_א">
+        <num>פרק א׳:</num>
+        <title>
+          <content>
+            <p>פרשנות</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_1" class="definitions">
+            <heading>
+              <authorialNote placement="side">
+                <p>הגדרות</p>
+              </authorialNote>
+            </heading>
+            <num>1.</num>
+            <list>
+              <intro>
+                <p>בחוק זה –</p>
+              </intro>
+              <point eId="point_1__point_בן_משפחה">
+                <content>
+                  <p>
+                    <def />”בן משפחה“ – בן זוגו של עד אף אם אינו נשוי לו, ילדו, ילדו של בן הזוג, הורה, הורה של הורה, אח או אחות, אח או אחות חורגים, ילדיהם של כל אחד מאלה ובן זוגו של כל אחד מאלה, אף אם אינו נשוי לו; לעניין זה, ”ילד“ – לרבות ילד חורג;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_ועדת_ההיגוי">
+                <content>
+                  <p>
+                    <def />”ועדת ההיגוי“ – ועדת ההיגוי שהוקמה לפי <ref href="#point_9">סעיף 9</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_חוק_העונשין">
+                <content>
+                  <p>
+                    <def />”חוק העונשין“ – <ref href="/akn/il/act/PrimaryLegislation/1977-08-04/2002251">חוק העונשין, התשל"ז–1977</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_חוק_כלי_היריה">
+                <content>
+                  <p>
+                    <def />”חוק כלי היריה“ – <ref href="/akn/il/act/PrimaryLegislation/1949-08-07/147483">חוק כלי היריה, התש"ט–1949</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_חוק_מרשם_האוכלוסין">
+                <content>
+                  <p>
+                    <def />”חוק מרשם האוכלוסין“ – <ref href="/akn/il/act/PrimaryLegislation/1965-08-01/147973">חוק מרשם האוכלוסין, התשכ"ה–1965</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_חוק_סמכויות_לשם_שמירה_על_ביטחון_הציבור">
+                <content>
+                  <p>
+                    <def />”חוק סמכויות לשם שמירה על ביטחון הציבור“ – <ref href="/akn/il/act/PrimaryLegislation/2005-08-08/78361">חוק סמכויות לשם שמירה על ביטחון הציבור, התשס"ה–2005</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_חוק_שירות_המדינה_מינויים">
+                <content>
+                  <p>
+                    <def />”חוק שירות המדינה (מינויים)“ – <ref href="/akn/il/act/PrimaryLegislation/1959-04-15/148670">חוק שירות המדינה (מינויים), התשי"ט–1959</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_חוק_שירות_המדינה_משמעת">
+                <content>
+                  <p>
+                    <def />”חוק שירות המדינה (משמעת)“ – <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/חוק_שירות_המדינה_משמעת">חוק שירות המדינה (משמעת), התשכ"ג–1963</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_המנהל">
+                <content>
+                  <p>
+                    <def />”המנהל“ – מנהל הרשות שמונה לפי הוראות <ref href="#point_5">סעיף 5</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_סיווג_ביטחוני">
+                <content>
+                  <p>
+                    <def />”סיווג ביטחוני“, ”התאמה ביטחונית“ – כמשמעותם לפי <ref href="/akn/il/act/PrimaryLegislation/2002-02-21/172333">חוק שירות הביטחון הכללי, התשס"ב–2002</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_עד">
+                <content>
+                  <p>
+                    <def />”עד“ – מי שמסר מידע לרשות המוסמכת לחקור עבירות על פי דין, וכל אדם ששיתף פעולה או הסכים לשתף פעולה עם רשות כאמור או עם רשויות התביעה, במסגרת חקירת עבירה או הבאה לדין של חשוד בביצוע עבירה;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_עד_מאוים">
+                <content>
+                  <p>
+                    <def />”עד מאוים“ – עד אשר על פי הערכה מקצועית של משטרת ישראל (להלן – המשטרה), נתון או עלול להיות נתון לאיום על חייו, שלומו או בריאותו, שלו או של בן משפחתו, בקשר עם היותו עד;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_עד_מוגן">
+                <content>
+                  <p>
+                    <def />”עד מוגן“ – עד מאוים שנכלל בתכנית הגנה, לרבות בן משפחה של עד כאמור שנקבע כי ייכלל בתכנית הגנה;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_פקודת_הראיות">
+                <content>
+                  <p>
+                    <def />”פקודת הראיות“ – <ref href="/akn/il/act/PrimaryLegislation/1971-04-28/2002283">פקודת הראיות [נוסח חדש], התשל"א–1971</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_הפרקליט_הממונה">
+                <content>
+                  <p>
+                    <def />”הפרקליט הממונה“ – פרקליט בכיר מפרקליטות המדינה, שמונה בידי פרקליט המדינה לעניין חוק זה;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_קצין_המשטרה">
+                <content>
+                  <p>
+                    <def />”קצין המשטרה“ – ראש האגף לחקירות ולמודיעין במשטרה;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_הרשות">
+                <content>
+                  <p>
+                    <def />”הרשות“ – הרשות להגנה על עדים;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_השר">
+                <content>
+                  <p>
+                    <def />”השר“ – השר לביטחון הפנים;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_תכנית_הגנה">
+                <content>
+                  <p>
+                    <def />”תכנית הגנה“ – תכנית של הרשות להגנה על עד, לפי <ref href="#chp_ג">פרק ג׳</ref>.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+        </list>
+      </chapter>
+      <chapter eId="chp_ב">
+        <num>פרק ב׳:</num>
+        <title>
+          <content>
+            <p>הרשות להגנה על עדים</p>
+          </content>
+        </title>
+        <section eId="chp_ב__sec_א">
+          <num>סימן א׳:</num>
+          <title>
+            <content>
+              <p>ארגון וניהול</p>
+            </content>
+          </title>
+          <list>
+            <point eId="point_2">
+              <heading>
+                <authorialNote placement="side">
+                  <p>הקמת הרשות ותפקידיה</p>
+                </authorialNote>
+              </heading>
+              <num>2.</num>
+              <list>
+                <point eId="point_2__point_א">
+                  <num>(א)</num>
+                  <content>
+                    <p>מוקמת בזה במשרד לביטחון הפנים, הרשות להגנה על עדים.</p>
+                  </content>
+                </point>
+                <point eId="point_2__point_ב">
+                  <num>(ב)</num>
+                  <list>
+                    <intro>
+                      <p>תפקידי הרשות הם:</p>
+                    </intro>
+                    <point eId="point_2__point_ב__point_1">
+                      <num>(1)</num>
+                      <content>
+                        <p>להחליט אם לכלול עד מאוים בתכנית הגנה, לקבוע את פרטי תכנית ההגנה המתאימה לעד מוגן, לספק הגנה וסיוע לעד מוגן בהתאם לתכנית ההגנה שנקבעה בעבורו ולערוך הערכת סכנה מעודכנת בקשר לעד מוגן, והכל לפי הוראות חוק זה;</p>
+                      </content>
+                    </point>
+                    <point eId="point_2__point_ב__point_2">
+                      <num>(2)</num>
+                      <content>
+                        <p>לפתח, בהתייעצות עם המשטרה, תורה מקצועית כוללת להגנה על עדים מאוימים (בחוק זה – התורה המקצועית), לרבות אמות מידה להערכת הסיכון הנשקף להם, וכן שיטות ואמצעים להגנה על עדים מאוימים ועל בני משפחותיהם לפי הצורך;</p>
+                      </content>
+                    </point>
+                    <point eId="point_2__point_ב__point_3">
+                      <num>(3)</num>
+                      <content>
+                        <p>לקבוע, יחד עם משרדי הממשלה הנוגעים בדבר, מנגנונים לשיתוף פעולה לשם הבטחת התאמתה של תכנית הגנה לעד מוגן וביצועה;</p>
+                      </content>
+                    </point>
+                    <point eId="point_2__point_ב__point_4">
+                      <num>(4)</num>
+                      <content>
+                        <p>לקבוע, יחד עם המשטרה, נוהלי שיתוף פעולה לעניין אבטחת עדים מאוימים וחלוקת האחריות להגנה על עדים כאמור בין המשטרה לבין הרשות וכן הגדרת רמות אבטחה שונות לעדים מוגנים לעומת עדים מאוימים שלא נכללו בתכנית הגנה (בחוק זה – נוהלי שיתוף הפעולה);</p>
+                      </content>
+                    </point>
+                    <point eId="point_2__point_ב__point_5">
+                      <num>(5)</num>
+                      <content>
+                        <p>לפעול, בשיתוף עם ועדת ההיגוי והמשטרה, להגברת ביטחונם של עדים, לחיזוק החובה האזרחית של שיתוף פעולה וסיוע לרשויות אכיפת החוק בגילוי עבריינים והבאתם לדין, ולקידום יוזמות חקיקה והסדרים הנדרשים לצורך המטרות האמורות;</p>
+                      </content>
+                    </point>
+                    <point eId="point_2__point_ב__point_6">
+                      <num>(6)</num>
+                      <content>
+                        <p>לקדם, בתיאום עם משרדי הממשלה הנוגעים בדבר, שיתוף פעולה עם מדינות אחרות או עם רשויות מוסמכות זרות בתחום ההגנה על עדים, ובכלל זה ליזום ולסייע ככל הנדרש בקידום התקשרויות והסכמים בנושא;</p>
+                      </content>
+                    </point>
+                    <point eId="point_2__point_ב__point_7">
+                      <num>(7)</num>
+                      <content>
+                        <p>כל תפקיד נוסף בתחום ההגנה על עדים שיטיל עליה השר.</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+                <point eId="point_2__point_ג">
+                  <num>(ג)</num>
+                  <list>
+                    <intro>
+                      <p>הרשות תפעל לביצוע תפקידיה לפי סעיף קטן (ב), ובכלל זה –</p>
+                    </intro>
+                    <point eId="point_2__point_ג__point_1">
+                      <num>(1)</num>
+                      <content>
+                        <p>תעסיק מאבטחים בהתאם להוראות <ref href="#point_11">סעיף 11</ref>;</p>
+                      </content>
+                    </point>
+                    <point eId="point_2__point_ג__point_2">
+                      <num>(2)</num>
+                      <content>
+                        <p>תפעל להכשרת מקומות מתאימים בישראל או מחוץ לישראל, לשם שמירה על עדים מוגנים ואבטחתם;</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+                <point eId="point_2__point_3">
+                  <num>(3)</num>
+                  <content>
+                    <p>תקבע, בכפוף להוראות חוק זה ולתקנות שהותקנו לפיו, נוהלי עבודה ליישום תכניות הגנה, נהלים לאבטחת מידע ולכל עניין אחר שבתחום תפקידי הרשות; נוהלי הרשות אינם טעונים פרסום ברשומות או פרסום פומבי אחר, ואופן שמירתם, לרבות הגדרת סיווגם והפצתם, ייקבע בנהלים.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_3">
+              <heading>
+                <authorialNote placement="side">
+                  <p>תקציב הרשות</p>
+                </authorialNote>
+              </heading>
+              <num>3.</num>
+              <content>
+                <p>תקציב הרשות ייקבע בחוק התקציב השנתי, בתחום פעולה נפרד במסגרת תקציב המשרד לביטחון הפנים.</p>
+              </content>
+            </point>
+            <point eId="point_4">
+              <heading>
+                <authorialNote placement="side">
+                  <p>עסקאות הרשות</p>
+                </authorialNote>
+              </heading>
+              <num>4.</num>
+              <list>
+                <point eId="point_4__point_א">
+                  <num>(א)</num>
+                  <content>
+                    <p>לצורך ביצוע הוראות חוק זה מורשה המנהל, יחד עם חשב המשרד לביטחון הפנים, לייצג את הממשלה בעסקאות כאמור <ref href="/akn/il/act/PrimaryLegislation/1951-02-15/150179#point_4">בסעיפים 4</ref><ref href="/akn/il/act/PrimaryLegislation/1951-02-15/150179#point_5">ו־5 לחוק נכסי המדינה, התשי"א–1951</ref>, למעט עסקאות במקרקעין, ולחתום בשם המדינה על מסמכים הנוגעים לעסקאות כאמור.</p>
+                  </content>
+                </point>
+                <point eId="point_4__point_ב">
+                  <num>(ב)</num>
+                  <list>
+                    <intro>
+                      <p>על אף האמור בסעיף קטן (א) יהיו המנהל וחשב המשרד לביטחון הפנים מורשים לייצג את הממשלה בעסקאות שכירות של מקרקעין ולחתום בשם המדינה על מסמכים הנוגעים לעסקאות אלה, אם התקיימו כל אלה:</p>
+                    </intro>
+                    <point eId="point_4__point_ב__point_1">
+                      <num>(1)</num>
+                      <content>
+                        <p>תקופת השכירות אינה עולה על חמש שנים;</p>
+                      </content>
+                    </point>
+                    <point eId="point_4__point_ב__point_2">
+                      <num>(2)</num>
+                      <content>
+                        <p>השכירות דרושה לצורך מגורים של עד מוגן, לצורך מטרה מבצעית אחרת הקשורה להגנת עד מוגן או לצורך מטרה אחרת במסגרת שיקום עד מוגן כחלק מתכנית הגנה;</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+                <point eId="point_4__point_3">
+                  <num>(3)</num>
+                  <content>
+                    <p>סכום העסקה אינו עולה על 240,000 שקלים חדשים לתקופה של שנה או על סכום יחסי לתקופה קצרה יותר; שר האוצר בהסכמת השר רשאי, בצו, לשנות את גובה הסכום האמור.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_5">
+              <heading>
+                <authorialNote placement="side">
+                  <p>מינוי מנהל הרשות ותפקידיו</p>
+                </authorialNote>
+              </heading>
+              <num>5.</num>
+              <list>
+                <point eId="point_5__point_א">
+                  <num>(א)</num>
+                  <content>
+                    <p>השר, באישור הממשלה, ימנה מנהל לרשות אשר יהיה אחראי על ניהול הרשות ועל ביצוע תפקידיה כאמור בחוק זה; המנהל יהיה עובד המדינה.</p>
+                  </content>
+                </point>
+                <point eId="point_5__point_ב">
+                  <num>(ב)</num>
+                  <list>
+                    <intro>
+                      <p>לא ימונה מנהל לרשות אלא אם כן התמלאו לגביו כל אלה:</p>
+                    </intro>
+                    <point eId="point_5__point_ב__point_1">
+                      <num>(1)</num>
+                      <content>
+                        <p>הוא בעל ניסיון של עשר שנים לפחות בתחומי אכיפת החוק, הביטחון או האבטחה, המקנה לו את הכשירות הנדרשת לצורך מילוי התפקיד;</p>
+                      </content>
+                    </point>
+                    <point eId="point_5__point_ב__point_2">
+                      <num>(2)</num>
+                      <content>
+                        <p>ניתן אישור כדין להתאמתו הביטחונית לתפקיד, בהתאם לסיווג הביטחוני שנקבע לתפקיד;</p>
+                      </content>
+                    </point>
+                    <point eId="point_5__point_ב__point_3">
+                      <num>(3)</num>
+                      <content>
+                        <p>המשטרה אישרה כי אין מניעה למנותו לתפקיד מטעמים של שלום הציבור וביטחונו, לרבות מפאת עברו הפלילי;</p>
+                      </content>
+                    </point>
+                    <point eId="point_5__point_ב__point_4">
+                      <num>(4)</num>
+                      <content>
+                        <p>הוא בעל תואר אקדמי מאת מוסד להשכלה גבוהה כמשמעותו <ref href="/akn/il/act/PrimaryLegislation/1958-08-14/147288">בחוק המועצה להשכלה גבוהה, התשי"ח–1958</ref>, או בעל תואר אקדמי מוכר כמשמעותו <ref href="/akn/il/act/PrimaryLegislation/1958-08-14/147288">בחוק האמור</ref>;</p>
+                      </content>
+                    </point>
+                    <point eId="point_5__point_ב__point_5">
+                      <num>(5)</num>
+                      <content>
+                        <p>הוא עומד בתנאי כשירות נוספים ככל שנקבעו לעניין זה לפי <ref href="/akn/il/act/PrimaryLegislation/1959-04-15/148670">חוק שירות המדינה (מינויים)</ref>.</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+              </list>
+            </point>
+            <point eId="point_6">
+              <heading>
+                <authorialNote placement="side">
+                  <p>כהונת מנהל הרשות</p>
+                </authorialNote>
+              </heading>
+              <num>6.</num>
+              <list>
+                <point eId="point_6__point_א">
+                  <num>(א)</num>
+                  <content>
+                    <p>תקופת כהונתו של המנהל תהיה חמש שנים מיום מינויו ורשאי השר, לאחר התייעצות עם ועדת ההיגוי ובאישור הממשלה, להאריך תקופה זו לתקופה נוספת של שלוש שנים.</p>
+                  </content>
+                </point>
+                <point eId="point_6__point_ב">
+                  <num>(ב)</num>
+                  <list>
+                    <intro>
+                      <p>המנהל יחדל לכהן לפני תום תקופת כהונתו באחת מאלה:</p>
+                    </intro>
+                    <point eId="point_6__point_ב__point_1">
+                      <num>(1)</num>
+                      <content>
+                        <p>הוא התפטר במסירת כתב התפטרות לשר;</p>
+                      </content>
+                    </point>
+                    <point eId="point_6__point_ב__point_2">
+                      <num>(2)</num>
+                      <content>
+                        <p>חדל להתקיים במנהל תנאי מהתנאים האמורים <ref href="#point_5">בסעיף 5(ב)</ref>;</p>
+                      </content>
+                    </point>
+                    <point eId="point_6__point_ב__point_3">
+                      <num>(3)</num>
+                      <content>
+                        <p>הוא הועבר מתפקידו או פוטר לפי <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/חוק_שירות_המדינה_משמעת">חוק שירות המדינה (משמעת)</ref>;</p>
+                      </content>
+                    </point>
+                    <point eId="point_6__point_ב__point_4">
+                      <num>(4)</num>
+                      <list>
+                        <intro>
+                          <p>השר, לאחר התייעצות עם היועץ המשפטי לממשלה ונציב שירות המדינה, החליט לבטל את מינויו לאחר שהוכח להנחת דעתו אחד מאלה:</p>
+                        </intro>
+                        <point eId="point_6__point_ב__point_4__point_א">
+                          <num>(א)</num>
+                          <content>
+                            <p>הוא אינו ממלא את תפקידו כראוי;</p>
+                          </content>
+                        </point>
+                        <point eId="point_6__point_ב__point_4__point_ב">
+                          <num>(ב)</num>
+                          <content>
+                            <p>נקבעה תקופת ניסיון למינויו ונמצא במהלך אותה תקופה כי אינו מתאים למלא את התפקיד; חלפה תקופת הניסיון או שלא נקבעה תקופה כאמור – נמצא כי אינו מתאים עוד למלא את התפקיד;</p>
+                          </content>
+                        </point>
+                        <point eId="point_6__point_ב__point_4__point_ג">
+                          <num>(ג)</num>
+                          <content>
+                            <p>נבצר ממנו, דרך קבע או לתקופה העולה על שישה חודשים, למלא את תפקידו;</p>
+                          </content>
+                        </point>
+                        <point eId="point_6__point_ב__point_4__point_ד">
+                          <num>(ד)</num>
+                          <content>
+                            <p>הוא הורשע בעבירה אשר מפאת מהותה, חומרתה או נסיבותיה אין הוא ראוי לכהן כמנהל;</p>
+                          </content>
+                        </point>
+                        <point eId="point_6__point_ב__point_4__point_ה">
+                          <num>(ה)</num>
+                          <content>
+                            <p>הוא הושעה מתפקידו בהתאם להוראות <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/חוק_שירות_המדינה_משמעת">חוק שירות המדינה (משמעת)</ref>, לתקופה העולה על שישה חודשים.</p>
+                          </content>
+                        </point>
+                      </list>
+                    </point>
+                  </list>
+                </point>
+              </list>
+            </point>
+            <point eId="point_7">
+              <heading>
+                <authorialNote placement="side">
+                  <p>מילוי מקום המנהל</p>
+                </authorialNote>
+              </heading>
+              <num>7.</num>
+              <list>
+                <point eId="point_7__point_א">
+                  <num>(א)</num>
+                  <content>
+                    <p>נבצר מהמנהל, דרך ארעי, למלא את תפקידיו, או הושעה ממשרתו, או התפנתה משרתו וטרם מונה מנהל אחר במקומו, רשאי השר להטיל על עובד מעובדי הרשות למלא את תפקידי המנהל לתקופה שלא תעלה על שישה חודשים, ורשאי הוא להאריך את התקופה האמורה לתקופה נוספת שלא תעלה על שלושה חודשים, אם מילוי המקום היה בנסיבות כאמור <ref href="#point_6">בסעיף 6(ב)(4)(ג) או (ה)</ref>.</p>
+                  </content>
+                </point>
+                <point eId="point_7__point_ב">
+                  <num>(ב)</num>
+                  <content>
+                    <p>היה המנהל מנוע מלעסוק בעניין מסוים במסגרת תפקידו, רשאי השר להטיל על עובד מעובדי הרשות למלא את תפקידי המנהל לגבי אותו עניין, עד שתוסר המניעה.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_8">
+              <heading>
+                <authorialNote placement="side">
+                  <p>סמכות לעניין כלי יריה</p>
+                </authorialNote>
+              </heading>
+              <num>8.</num>
+              <list>
+                <point eId="point_8__point_א">
+                  <num>(א)</num>
+                  <content>
+                    <p>האחראי על האבטחה ברשות או עובד הכפוף לו שהאחראי הסמיכו לכך יהיה עובד אחראי, כמשמעותו <ref href="/akn/il/act/PrimaryLegislation/1949-08-07/147483#point_10א">בסעיף 10א לחוק כלי היריה</ref>, לעניין הרשאת מאבטחים לשאת כלי יריה שנועדו לצורכי מילוי תפקידי הרשות לפי חוק זה.</p>
+                  </content>
+                </point>
+                <point eId="point_8__point_ב">
+                  <num>(ב)</num>
+                  <content>
+                    <p>מאבטח לפי <ref href="#chp_ב_sec_ג">סימן ג׳</ref>, בין אם הוא עובד המדינה ובין אם אינו עובד המדינה, יראו אותו כעובד המדינה לצורך הוראות <ref href="/akn/il/act/PrimaryLegislation/1949-08-07/147483#point_10א">סעיף 10א לחוק כלי היריה</ref>, והעובד האחראי כאמור בסעיף קטן (א), רשאי להרשותו לשאת כלי יריה בהתאם להוראות <ref href="/akn/il/act/PrimaryLegislation/1949-08-07/147483">אותו חוק</ref>.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_9">
+              <heading>
+                <authorialNote placement="side">
+                  <p>ועדת ההיגוי</p>
+                </authorialNote>
+              </heading>
+              <num>9.</num>
+              <list>
+                <point eId="point_9__point_א">
+                  <num>(א)</num>
+                  <list>
+                    <intro>
+                      <p>מוקמת בזה ועדת היגוי בין־משרדית לנושא ההגנה על עדים, שחבריה הם:</p>
+                    </intro>
+                    <point eId="point_9__point_א__point_1">
+                      <num>(1)</num>
+                      <content>
+                        <p>פרקליט המדינה והוא יהיה היושב ראש;</p>
+                      </content>
+                    </point>
+                    <point eId="point_9__point_א__point_2">
+                      <num>(2)</num>
+                      <content>
+                        <p>המפקח הכללי של המשטרה או סגנו;</p>
+                      </content>
+                    </point>
+                    <point eId="point_9__point_א__point_3">
+                      <num>(3)</num>
+                      <content>
+                        <p>עובד מדינה בכיר בעל ניסיון והשכלה בתחום הקרימינולוגיה, המשפטים או העבודה הסוציאלית, שאינו עובד המשרד לביטחון הפנים או משרד המשפטים, שימנה שר המשפטים בהסכמת השר.</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+                <point eId="point_9__point_ב">
+                  <num>(ב)</num>
+                  <list>
+                    <intro>
+                      <p>תפקידי ועדת ההיגוי הם:</p>
+                    </intro>
+                    <point eId="point_9__point_ב__point_1">
+                      <num>(1)</num>
+                      <content>
+                        <p>ללוות את שלבי ההקמה של הרשות ולסייע בתיאום בין הרשות לבין גורמי אכיפת החוק, תוך הבטחת עצמאותה של הרשות כנדרש לצורך מילוי תפקידיה;</p>
+                      </content>
+                    </point>
+                    <point eId="point_9__point_ב__point_2">
+                      <num>(2)</num>
+                      <content>
+                        <p>להתוות את המדיניות הכוללת בתחום ההגנה על עדים בידי הרשות ובידי המשטרה;</p>
+                      </content>
+                    </point>
+                    <point eId="point_9__point_ב__point_3">
+                      <num>(3)</num>
+                      <content>
+                        <p>לערוך בקרה ומעקב אחר פיתוח הידע והתורה המקצועית בתחום ההגנה על עדים;</p>
+                      </content>
+                    </point>
+                    <point eId="point_9__point_ב__point_4">
+                      <num>(4)</num>
+                      <content>
+                        <p>לייעץ לרשות בתחומי עבודתה ובתפקידיה השונים, בהתאם למפורט בחוק זה;</p>
+                      </content>
+                    </point>
+                    <point eId="point_9__point_ב__point_5">
+                      <num>(5)</num>
+                      <content>
+                        <p>לדון בדין וחשבון שהוגש לה בהתאם להוראות <ref href="#point_34">סעיף 34(א)</ref>.</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+              </list>
+            </point>
+          </list>
+        </section>
+        <section eId="chp_ב__sec_ב">
+          <num>סימן ב׳:</num>
+          <title>
+            <content>
+              <p>עובדי הרשות</p>
+            </content>
+          </title>
+          <list>
+            <point eId="point_10">
+              <heading>
+                <authorialNote placement="side">
+                  <p>עובדי הרשות</p>
+                </authorialNote>
+              </heading>
+              <num>10.</num>
+              <list>
+                <point eId="point_10__point_א">
+                  <num>(א)</num>
+                  <list>
+                    <point eId="point_10__point_א__point_1">
+                      <num>(1)</num>
+                      <content>
+                        <p>עובדי הרשות יהיו עובדי המדינה.</p>
+                      </content>
+                    </point>
+                    <point eId="point_10__point_א__point_2">
+                      <num>(2)</num>
+                      <content>
+                        <p>לא יועסק אדם כעובד הרשות אלא אם כן ניתן, נוסף על כל אישור הנדרש לעניין התאמתו הביטחונית, אישור מאת המשטרה כי אין מניעה למנותו לתפקיד מטעמים של שלום הציבור וביטחונו, לרבות מפאת עברו הפלילי.</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+                <point eId="point_10__point_ב">
+                  <num>(ב)</num>
+                  <content>
+                    <p>על אף האמור <ref href="/akn/il/act/PrimaryLegislation/1959-04-15/148670">בחוק שירות המדינה (מינויים)</ref>, רשאי השר, לאחר התייעצות עם נציב שירות המדינה, לקבוע בתקנות או בכללים הוראות אחרות מאלה החלות בשירות המדינה, לעניין ארגון וניהול כוח האדם ברשות, כולו או חלקו, והכל בכפוף להוראות <ref href="/akn/il/act/PrimaryLegislation/1985-04-03/150399">חוק יסודות התקציב, התשמ"ה–1985</ref>, והוראות חוק התקציב השנתי.</p>
+                  </content>
+                </point>
+                <point eId="point_10__point_ג">
+                  <num>(ג)</num>
+                  <list>
+                    <point eId="point_10__point_ג__point_1">
+                      <num>(1)</num>
+                      <content>
+                        <p>על אף האמור <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/חוק_שירות_המדינה_משמעת">בחוק שירות המדינה (משמעת)</ref>, רשאי השר, לאחר התייעצות עם נציב שירות המדינה ובאישור ועדת הפנים והגנת הסביבה של הכנסת שישיבותיה בעניין זה יהיו חסויות, לקבוע בצו הוראות מיוחדות בדבר המשטר והמשמעת שיחולו ברשות, ובכלל זה הוראות בדבר תחולת הוראותיו של <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/חוק_שירות_המדינה_משמעת">חוק שירות המדינה (משמעת)</ref>, בשינויים כפי שיקבע, לרבות לעניין הרכב בית הדין למשמעת וסדרי הדין בדיון המשמעתי בתחומים שיקבע.</p>
+                      </content>
+                    </point>
+                    <point eId="point_10__point_ג__point_2">
+                      <num>(2)</num>
+                      <content>
+                        <p>צו כאמור בפסקה (1) יכול שיקבע גם את המידה והאופן שבהם יחולו על עובדי הרשות הוראות ארגוניות הכלולות בתקנה, הוראה, נוהג, הסדר ארגוני או הסכם כללי החלים על שאר עובדי המדינה, ובלבד שניתן, לעניין זה, גם לאחר התייעצות עם שר האוצר.</p>
+                      </content>
+                    </point>
+                    <point eId="point_10__point_ג__point_3">
+                      <num>(3)</num>
+                      <content>
+                        <p>צו לפי סעיף זה אינו טעון פרסום ברשומות והוא יובא לידיעת העובדים בדרך שתיקבע בצו.</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+                <point eId="point_10__point_ד">
+                  <num>(ד)</num>
+                  <content>
+                    <p>השר, באישור ועדת הפנים והגנת הסביבה של הכנסת, רשאי לקבוע הגבלות על עובדי הרשות בתקופת עבודתם ולאחריה ככל שהדבר דרוש לשם מילוי תפקידי הרשות, להבטחת טוהר המידות ברשות או לשם שמירה על ביטחונם האישי של עובדי הרשות ועובדיה לשעבר, וכן רשאי הוא לקבוע כאמור הוראות לעניין פיצוי שיינתן לעובדים כאמור בשל הגבלות שיוטלו עליהם לפי סעיף קטן זה; אין בהוראות לפי סעיף קטן זה כדי לגרוע מהוראות <ref href="/akn/il/act/PrimaryLegislation/1969-07-03/148676">חוק שירות הציבור (הגבלות לאחר פרישה), התשכ"ט–1969</ref>.</p>
+                  </content>
+                </point>
+                <point eId="point_10__point_ה">
+                  <num>(ה)</num>
+                  <content>
+                    <p>בלי לגרוע מההוראות לפי סעיף קטן (ד), ההוראות לפי <ref href="/akn/il/act/PrimaryLegislation/1969-07-03/148676#point_5א">סעיפים 5א עד 5ד לחוק שירות הציבור (הגבלות לאחר פרישה), התשכ"ט–1969</ref>, יחולו על מי שפרש מהרשות, בשינויים ובהתאמות שיקבע שר המשפטים, בהתייעצות עם השר לביטחון הפנים; שינויים והתאמות כאמור אינם טעונים פרסום ברשומות; ואולם הודעה על ההגבלות והאיסורים שיחולו על עובדי הרשות לאחר פרישתם בהתאם להוראות לפי הסעיפים האמורים כפי שהוחלו לפי סעיף קטן זה, תינתן לעובדי הרשות עם קבלתם לעבודה ברשות ובסמוך לפני מועד פרישתם ממנה.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+          </list>
+        </section>
+        <section eId="chp_ב__sec_ג">
+          <num>סימן ג׳:</num>
+          <title>
+            <content>
+              <p>מאבטחי הרשות</p>
+            </content>
+          </title>
+          <list>
+            <point eId="point_11">
+              <heading>
+                <authorialNote placement="side">
+                  <p>העסקת מאבטחים וקבלת שירותי אבטחה</p>
+                </authorialNote>
+              </heading>
+              <num>11.</num>
+              <list>
+                <point eId="point_11__point_א">
+                  <num>(א)</num>
+                  <content>
+                    <p>לשם ביצוע משימות אבטחת עדים מוגנים תעסיק הרשות מאבטחים שיהיו עובדי הרשות וכן רשאית היא, בהתאם לצורך ולנסיבות, לקבל שירותי אבטחה ממאבטחים שאינם עובדי הרשות והכל בהתאם לתורה המקצועית.</p>
+                  </content>
+                </point>
+                <point eId="point_11__point_ב">
+                  <num>(ב)</num>
+                  <list>
+                    <intro>
+                      <p>כשיר לשמש מאבטח כאמור בסעיף קטן (א) מי שמתקיימים לגביו כל אלה:</p>
+                    </intro>
+                    <point eId="point_11__point_ב__point_1">
+                      <num>(1)</num>
+                      <content>
+                        <p>הוא אזרח ישראלי ותושב ישראל;</p>
+                      </content>
+                    </point>
+                    <point eId="point_11__point_ב__point_2">
+                      <num>(2)</num>
+                      <content>
+                        <p>ניתן אישור כדין לעניין התאמתו הביטחונית, בהתאם לסיווג הביטחוני שנקבע לתפקיד;</p>
+                      </content>
+                    </point>
+                    <point eId="point_11__point_ב__point_3">
+                      <num>(3)</num>
+                      <content>
+                        <p>המשטרה אישרה כי אין מניעה למנותו לתפקיד מטעמים של שלום הציבור וביטחונו, לרבות מפאת עברו הפלילי;</p>
+                      </content>
+                    </point>
+                    <point eId="point_11__point_ב__point_4">
+                      <num>(4)</num>
+                      <content>
+                        <p>הוא בעל רישיון לנשיאת כלי יריה לפי <ref href="/akn/il/act/PrimaryLegislation/1949-08-07/147483">חוק כלי היריה</ref>, או שמנהל משרד הבריאות או מי שהוסמך על ידו לעניין זה, אישר שאין בידו מידע כאמור <ref href="/akn/il/act/PrimaryLegislation/1949-08-07/147483#point_11א">בסעיפים 11א</ref><ref href="/akn/il/act/PrimaryLegislation/1949-08-07/147483#point_11ב">או 11ב לחוק האמור</ref>, בקשר לאותו אדם, אשר בשלו היה ממליץ שלא לתת לו רישיון לנשיאת כלי יריה;</p>
+                      </content>
+                    </point>
+                    <point eId="point_11__point_ב__point_5">
+                      <num>(5)</num>
+                      <content>
+                        <p>הוא בעל תעודת בגרות או תעודה אחרת שאושרה על ידי משרד החינוך כמקבילה לתעודת בגרות;</p>
+                      </content>
+                    </point>
+                    <point eId="point_11__point_ב__point_6">
+                      <num>(6)</num>
+                      <content>
+                        <p>הוא השלים שירות סדיר לפי <ref href="/akn/il/act/PrimaryLegislation/1986-01-30/2002309#chp_ג">פרק ג׳ לחוק שירות ביטחון [נוסח משולב], התשמ"ו–1986</ref>.</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+                <point eId="point_11__point_ג">
+                  <num>(ג)</num>
+                  <content>
+                    <p>המנהל רשאי להורות על תנאי כשירות נוספים, לרבות לעניין השכלה וניסיון, לסוגי מאבטחים שונים בהתאם לאופי התפקיד שיוטל עליהם; אין בהוראות סעיף קטן זה כדי לגרוע, לעניין מאבטחים שהם עובדי המדינה, מהוראות <ref href="/akn/il/act/PrimaryLegislation/1959-04-15/148670">חוק שירות המדינה (מינויים)</ref>.</p>
+                  </content>
+                </point>
+                <point eId="point_11__point_ד">
+                  <num>(ד)</num>
+                  <content>
+                    <p>על אף הוראות סעיף קטן (ב), רשאי המנהל לאשר, מטעמים מיוחדים שיירשמו, הסמכתו של אדם כמאבטח אף אם לא התקיימו לגביו אחד מהתנאים האמורים בסעיף קטן (ב)(5) או (6), ובלבד שהוכח להנחת דעתו, כי הוא מתאים למלא את התפקיד אף שלא מתקיים בו התנאי האמור.</p>
+                  </content>
+                </point>
+                <point eId="point_11__point_ה">
+                  <num>(ה)</num>
+                  <list>
+                    <point eId="point_11__point_ה__point_1">
+                      <num>(1)</num>
+                      <content>
+                        <p>לא ישמש אדם מאבטח אלא לאחר שסיים בהצלחה מסלול הכשרה מקצועית שאישר המנהל, בתחום ההגנה על עדים ובתחום הסמכויות המסורות למאבטח לפי חוק זה.</p>
+                      </content>
+                    </point>
+                    <point eId="point_11__point_ה__point_2">
+                      <num>(2)</num>
+                      <content>
+                        <p>על אישור הכשרה מקצועית כאמור בפסקה (1) יחולו הוראות <ref href="/akn/il/act/PrimaryLegislation/2005-08-08/78361#point_8">סעיף 8(7)(ב) לחוק סמכויות לשם שמירה על ביטחון הציבור</ref>, בשינויים המחויבים.</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+                <point eId="point_11__point_ו">
+                  <num>(ו)</num>
+                  <content>
+                    <p>לא יוסמך אדם למאבטח אלא לאחר שאישר המנהל בכתב כי התקיימו לגביו תנאי הכשירות לפי סעיפים קטנים (ב) ו־(ג) וכי הוא סיים בהצלחה את מסלול ההכשרה לפי סעיף קטן (ה).</p>
+                  </content>
+                </point>
+                <point eId="point_11__point_ז">
+                  <num>(ז)</num>
+                  <content>
+                    <p>אישר המנהל התקיימות התנאים כאמור בסעיף קטן (ו), ייתן למאבטח תעודת מינוי; תוקפה של תעודת מינוי יהיה לשלוש שנים אם המאבטח הוא עובד המדינה, או לשנה אחת אם אינו עובד המדינה, וזאת כל עוד מקבל התעודה משמש בתפקיד מאבטח ברשות; המנהל רשאי להאריך את תוקפה של תעודת מינוי לתקופות נוספות כאמור.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_12">
+              <heading>
+                <authorialNote placement="side">
+                  <p>סמכויות מאבטחים, חובותיהם וזכויותיהם</p>
+                </authorialNote>
+              </heading>
+              <num>12.</num>
+              <list>
+                <point eId="point_12__point_א">
+                  <num>(א)</num>
+                  <list>
+                    <intro>
+                      <p>לשם אבטחה של עד מוגן ולשם מניעת פגיעה בתכנית הגנה רשאי מאבטח, בעת מילוי תפקידו –</p>
+                    </intro>
+                    <point eId="point_12__point_א__point_1">
+                      <num>(1)</num>
+                      <content>
+                        <p>לערוך חיפוש בלא צו של שופט על גופו של אדם, בכלי תחבורה, במטען ובטובין אחרים, בסביבתו הקרובה של בניין או מקום מגודר שהורה המנהל, לרבות בעת כניסה לבניין או למקום כאמור ובעת יציאה ממנו, וכן בעת ליווי עד מוגן מחוץ לבניין או מקום כאמור, במסגרת ביצוע פעולות לאבטחתו;</p>
+                      </content>
+                    </point>
+                    <point eId="point_12__point_א__point_2">
+                      <num>(2)</num>
+                      <content>
+                        <p>לערוך חיפוש על גופו של אדם או בכלי תחבורה, אם היה למאבטח חשד סביר שאותו אדם נושא שלא כדין נשק, או שנשק המוחזק שלא כדין נמצא בכלי התחבורה, או שהאדם עומד לעשות שימוש שלא כדין בנשק, או שהוא מבצע או עומד לבצע עבירה העלולה לסכן את שלומו של עד מוגן או לפגוע בתכנית הגנה;</p>
+                      </content>
+                    </point>
+                    <point eId="point_12__point_א__point_3">
+                      <num>(3)</num>
+                      <content>
+                        <p>לדרוש מאדם, שיש לו סמכות חיפוש לגביו, למסור לו את שמו ומענו ולהציג לפניו תעודת זהות או תעודה רשמית אחרת המעידה על זהותו, שהוא חייב בהחזקתה לפי כל דין;</p>
+                      </content>
+                    </point>
+                    <point eId="point_12__point_א__point_4">
+                      <num>(4)</num>
+                      <content>
+                        <p>לתפוס חפץ שהתגלה אגב החיפוש, העלול לפגוע בשלומו ובביטחונו של עד מוגן או העלול לפגוע בביטחון הציבור; חפץ שנתפס לפי פסקה זו יימסר בהקדם האפשרי למשטרה ויחולו עליו הוראות <ref href="/akn/il/act/PrimaryLegislation/1969-02-16/2001931#chp_4">הפרק הרביעי של פקודת סדר הדין הפלילי (מעצר וחיפוש) [נוסח חדש], התשכ"ט–1969</ref>, בשינויים המחויבים.</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+                <point eId="point_12__point_ב">
+                  <num>(ב)</num>
+                  <content>
+                    <p>סירב אדם לדרישת הזדהות, לחיפוש או לתפיסה לפי הוראות סעיף זה, יהיו למאבטח הסמכויות המפורטות <ref href="/akn/il/act/PrimaryLegislation/2005-08-08/78361#point_5">בסעיף 5 לחוק סמכויות לשם שמירה על ביטחון הציבור</ref>, וכן סמכות להרחיק את אותו אדם מסביבתו הקרובה של העד המוגן ואף להשתמש בכוח סביר לשם כך.</p>
+                  </content>
+                </point>
+                <point eId="point_12__point_ג">
+                  <num>(ג)</num>
+                  <content>
+                    <p>היה למאבטח חשד סביר שאדם נושא שלא כדין נשק או עומד לעשות שימוש שלא כדין בנשק, או שהוא מבצע או עומד לבצע עבירה העלולה לסכן את שלומו של עד מוגן או לפגוע בתכנית הגנה, יהיו למאבטח סמכויות עיכוב כנגד אותו אדם לפי הוראות <ref href="/akn/il/act/PrimaryLegislation/2005-08-08/78361#point_6">סעיף 6 לחוק סמכויות לשם שמירה על ביטחון הציבור</ref>.</p>
+                  </content>
+                </point>
+                <point eId="point_12__point_ג1">
+                  <num>(ג1)</num>
+                  <list>
+                    <intro>
+                      <p>נוסף על הסמכויות הנתונות לו לפי סעיפים קטנים (א) עד (ג), יהיו נתונות למאבטח שהוא עובד המדינה, למטרות המנויות בסעיף קטן (א) רישה ובעת מילוי תפקידו, גם סמכויות אלה:</p>
+                    </intro>
+                    <point eId="point_12__point_ג1__point_1">
+                      <num>(1)</num>
+                      <content>
+                        <p>סמכות מעצר לפי <ref href="/akn/il/act/PrimaryLegislation/1996-05-12/159712#point_23">סעיף 23(ב) לחוק סדר הדין הפלילי (סמכויות אכיפה – מעצרים), התשנ"ו–1996</ref>, בשינויים המחויבים;</p>
+                      </content>
+                    </point>
+                    <point eId="point_12__point_ג1__point_2">
+                      <num>(2)</num>
+                      <content>
+                        <p>סמכות להחזיק עד מוגן שהוא אסיר או עצור במקום משמורת הרשות וללוות עד כאמור מחוץ לבית הסוהר או לבית המעצר, והכל בהתאם לנהלים משותפים שיקבעו הרשות ושירות בתי הסוהר, וסמכות ללוות עד כאמור מחוץ למקום משמורת הרשות; עד מוגן שהוא אסיר או עצור המלווה בידי מאבטח, כאמור בפסקה זו, יראו אותו כמי שנתון במשמורת חוקית;</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+                <point eId="point_12__point_3">
+                  <num>(3)</num>
+                  <content>
+                    <p>סמכות מעצר של עד מוגן שהוא אסיר או עצור, כאשר קיים יסוד סביר לחשש שהעד המוגן נמלט ממשמורת חוקית;</p>
+                  </content>
+                </point>
+                <point eId="point_12__point_4">
+                  <num>(4)</num>
+                  <content>
+                    <p>סמכות כניסה לחצרים, שאינם מבנה פרטי סגור, לשם ביצוע פעולות בדיקה, סריקה, אבטחה ומניעה הדרושות לצורך ליווי עד מוגן או לצורך אבטחת מקום הימצאו של עד מוגן, ובלבד שהכניסה לחצרים כאמור תהא לפרק זמן קצר ככל האפשר.</p>
+                  </content>
+                </point>
+                <point eId="point_12__point_ד">
+                  <num>(ד)</num>
+                  <list>
+                    <point eId="point_12__point_ד__point_1">
+                      <num>(1)</num>
+                      <content>
+                        <p>מאבטח המפעיל כלפי אדם את סמכויותיו לפי סעיף זה, יזהה את עצמו לפני אותו אדם בציון שמו או כינויו הרשמי ותפקידו, וכן יציג לפניו את תעודת המינוי שלו כאמור <ref href="#point_11">בסעיף 11(ז)</ref>.</p>
+                      </content>
+                    </point>
+                    <point eId="point_12__point_ד__point_2">
+                      <num>(2)</num>
+                      <content>
+                        <p>חובת ההזדהות כאמור בפסקה (1), לא תחול אם ההזדהות כמאבטח מטעם הרשות עלולה לגרום לפגיעה בביטחונו של המאבטח או של אדם אחר, או שהיא עלולה לסכן או לשבש את ביצוע הפעילות שלשמה הופעלה הסמכות.</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+                <point eId="point_12__point_ה">
+                  <num>(ה)</num>
+                  <content>
+                    <p>לעניין <ref href="/akn/il/act/PrimaryLegislation/1968-04-17/2002279#point_7א">סעיפים 7א עד 7ו לפקודת הנזיקין [נוסח חדש]</ref>, יראו מאבטח שאינו עובד המדינה כעובד המדינה כהגדרתו <ref href="/akn/il/act/PrimaryLegislation/1968-04-17/2002279#point_7">בסעיף 7 לפקודה האמורה</ref>.</p>
+                  </content>
+                </point>
+                <point eId="point_12__point_ו">
+                  <num>(ו)</num>
+                  <content>
+                    <p>לעניין <ref href="/akn/il/act/PrimaryLegislation/1977-08-04/2002251">חוק העונשין</ref>, יראו מאבטח שאינו עובד המדינה כעובד הציבור כהגדרתו <ref href="/akn/il/act/PrimaryLegislation/1977-08-04/2002251#point_34כד">בסעיף 34כד לחוק העונשין</ref>, במילוי תפקידו.</p>
+                  </content>
+                </point>
+                <point eId="point_12__point_ז">
+                  <num>(ז)</num>
+                  <list>
+                    <intro>
+                      <p>בסעיף זה –</p>
+                    </intro>
+                    <point eId="point_12__point_ז__point_חיפוש_על_גופו_של_אדם">
+                      <content>
+                        <p>
+                          <def />”חיפוש על גופו של אדם“ – חיפוש על פני גופו של אדם, בבגדיו או בכליו, שאינו חיפוש חיצוני או חיפוש פנימי כהגדרתם <ref href="/akn/il/act/PrimaryLegislation/2005-06-19/29221">בחוק סדר הדין הפלילי (סמכויות אכיפה – חיפוש בגוף ונטילת אמצעי זיהוי), התשנ"ו–1996</ref>;</p>
+                      </content>
+                    </point>
+                    <point eId="point_12__point_ז__point_נשק">
+                      <content>
+                        <p>
+                          <def />”נשק“ – כהגדרתו <ref href="/akn/il/act/PrimaryLegislation/2005-08-08/78361">בחוק סמכויות לשם שמירה על ביטחון הציבור</ref>.</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+              </list>
+            </point>
+            <point eId="point_13">
+              <heading>
+                <authorialNote placement="side">
+                  <p>הוראות לעניין הזדהות מאבטח</p>
+                </authorialNote>
+              </heading>
+              <num>13.</num>
+              <content>
+                <p>השר, באישור ועדת הפנים והגנת הסביבה של הכנסת שישיבותיה בעניין זה יהיו חסויות, רשאי לקבוע בכללים הוראות לעניין הזדהות מאבטח בנסיבות כאמור <ref href="#point_12">בסעיף 12(ד)(2)</ref>.</p>
+              </content>
+            </point>
+          </list>
+        </section>
+      </chapter>
+      <chapter eId="chp_ג">
+        <num>פרק ג׳:</num>
+        <title>
+          <content>
+            <p>תכנית הגנה</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_14">
+            <heading>
+              <authorialNote placement="side">
+                <p>הפניית עד לטיפול הרשות</p>
+              </authorialNote>
+            </heading>
+            <num>14.</num>
+            <list>
+              <point eId="point_14__point_א">
+                <num>(א)</num>
+                <list>
+                  <intro>
+                    <p>סבר קצין המשטרה, על דעת הפרקליט הממונה, כי יש מקום לכלול עד מאוים בתכנית הגנה של הרשות, יעביר לרשות המלצה (בסעיף זה – ההמלצה) בצירוף המסמכים והפרטים שלהלן, וכן מסמכים ופרטים נוספים כפי שייקבע בנוהלי שיתוף הפעולה:</p>
+                  </intro>
+                  <point eId="point_14__point_א__point_1">
+                    <num>(1)</num>
+                    <list>
+                      <intro>
+                        <p>דוח של המשטרה שיכלול מידע בנושאים אלה:</p>
+                      </intro>
+                      <point eId="point_14__point_א__point_1__point_א">
+                        <num>(א)</num>
+                        <content>
+                          <p>עברו הפלילי של העד ומידע מודיעיני הקיים לגביו;</p>
+                        </content>
+                      </point>
+                      <point eId="point_14__point_א__point_1__point_ב">
+                        <num>(ב)</num>
+                        <content>
+                          <p>מכלול הפרטים הנוגעים לחקירה שבה מעורב העד ולטיב שיתוף הפעולה שלו עם רשויות אכיפת החוק בהקשר זה, לרבות חשיבות שיתוף הפעולה שלו והאפשרות להשיג ראיות דומות ממקורות אחרים;</p>
+                        </content>
+                      </point>
+                      <point eId="point_14__point_א__point_1__point_ג">
+                        <num>(ג)</num>
+                        <content>
+                          <p>טיבה של הסכנה הנשקפת, לדעת קצין המשטרה, לעד או לבני משפחתו, וכן מכלול הנסיבות והנתונים המצדיקים, לדעת קצין המשטרה, את הכללתו של העד בתכנית הגנה;</p>
+                        </content>
+                      </point>
+                      <point eId="point_14__point_א__point_1__point_ד">
+                        <num>(ד)</num>
+                        <content>
+                          <p>מכלול הפרטים על אודות החשוד בביצוע העבירה שלגביה נחקר העד או שיתף פעולה עם רשויות אכיפת החוק, וכן פרטים על אודות מי שאיים על העד בהקשר זה, מידע מודיעיני הקיים לגביהם, כלי הנשק המצויים ברשותם, והערכת הסכנה הנשקפת מהם לעד;</p>
+                        </content>
+                      </point>
+                      <point eId="point_14__point_א__point_1__point_ה">
+                        <num>(ה)</num>
+                        <content>
+                          <p>פירוט הצעדים שנקטה המשטרה להגנתו של העד;</p>
+                        </content>
+                      </point>
+                      <point eId="point_14__point_א__point_1__point_ו">
+                        <num>(ו)</num>
+                        <content>
+                          <p>המלצה בדבר תכנית ההגנה הנדרשת, לדעת קצין המשטרה, בעבור העד;</p>
+                        </content>
+                      </point>
+                    </list>
+                  </point>
+                  <point eId="point_14__point_א__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>פרטי העד והצהרת העד בהתאם לטופס שייקבע בנוהלי שיתוף הפעולה;</p>
+                    </content>
+                  </point>
+                  <point eId="point_14__point_א__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>חוות דעת של פרקליט המחוז הנוגע בדבר, לעניין האינטרס הציבורי בהכללת העד בתכנית הגנה, לרבות לעניין האינטרס הציבורי שבניהול ההליך הפלילי שבמסגרתו נדרשת עדותו של העד, חשיבותה של עדותו לראיות התביעה בהליך ופרטים נוספים כפי שייקבע בתורה המקצועית.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_14__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>סבר קצין המשטרה, על דעת הפרקליט הממונה, כי יש מקום לכלול בתכנית הגנה של הרשות גם בן משפחה של עד מאוים, יכלול את אותו בן משפחה בהמלצה לפי סעיף קטן (א), ויצרף לה את המסמכים והפרטים כאמור בסעיף קטן (א)(1) ו־(2) לגבי בן המשפחה, בשינויים המחויבים.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_15">
+            <heading>
+              <authorialNote placement="side">
+                <p>החלטה בדבר הכללת עד בתכנית הגנה</p>
+              </authorialNote>
+            </heading>
+            <num>15.</num>
+            <list>
+              <point eId="point_15__point_א">
+                <num>(א)</num>
+                <list>
+                  <point eId="point_15__point_א__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>קיבלה הרשות המלצה לפי <ref href="#point_14">סעיף 14</ref>, יחליט המנהל אם לכלול את העד המאוים בתכנית הגנה; לא יחליט המנהל לכלול עד שהסכנה הנשקפת לו אינה ברמה הגבוהה ביותר, אלא בנסיבות מיוחדות ומטעמים מיוחדים שיירשמו.</p>
+                    </content>
+                  </point>
+                  <point eId="point_15__point_א__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>לא יחליט המנהל שלא לכלול עד מאוים בתכנית הגנה, אלא לאחר שהובאו לפניו עמדות הפרקליט הממונה וקצין המשטרה או מי מטעמם, בנושא, כפי שייקבע בנוהלי שיתוף הפעולה.</p>
+                    </content>
+                  </point>
+                  <point eId="point_15__point_א__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>החלטה לפי סעיף קטן זה תהיה מנומקת.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_15__point_ב">
+                <num>(ב)</num>
+                <list>
+                  <intro>
+                    <p>בבואו להחליט אם לכלול עד מאוים בתכנית הגנה, יבחן המנהל את התאמתו של העד לתכנית הגנה על פי התורה המקצועית, וישקול, בין השאר, את אלה:</p>
+                  </intro>
+                  <point eId="point_15__point_ב__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>הסכנה הנשקפת לעד או לבני משפחתו;</p>
+                    </content>
+                  </point>
+                  <point eId="point_15__point_ב__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>האינטרס הציבורי שבניהול ההליך הפלילי שבמסגרתו נדרשת העדות, ומידת חשיבותה של העדות במסגרת אותו הליך;</p>
+                    </content>
+                  </point>
+                  <point eId="point_15__point_ב__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>קיומם של אמצעי הגנה שניתן לספק לעד על ידי המשטרה;</p>
+                    </content>
+                  </point>
+                  <point eId="point_15__point_ב__point_4">
+                    <num>(4)</num>
+                    <list>
+                      <intro>
+                        <p>מידת התאמתו האישית של העד לתכנית הגנה, לרבות מבחינת –</p>
+                      </intro>
+                      <point eId="point_15__point_ב__point_4__point_א">
+                        <num>(א)</num>
+                        <content>
+                          <p>עברו הפלילי ומעורבותו בהליכים משפטיים נוספים, ובכלל זה הליכים אזרחיים והליכים בעניין מעמד אישי;</p>
+                        </content>
+                      </point>
+                      <point eId="point_15__point_ב__point_4__point_ב">
+                        <num>(ב)</num>
+                        <content>
+                          <p>מצבו המשפחתי;</p>
+                        </content>
+                      </point>
+                      <point eId="point_15__point_ב__point_4__point_ג">
+                        <num>(ג)</num>
+                        <content>
+                          <p>התאמתו הפסיכולוגית והסוציאלית;</p>
+                        </content>
+                      </point>
+                    </list>
+                  </point>
+                  <point eId="point_15__point_ב__point_5">
+                    <num>(5)</num>
+                    <content>
+                      <p>כל שיקול נוסף שהמנהל סבור שהוא נוגע לעניין, בהתאם לתורה המקצועית, ובשים לב לתקציב העומד לרשותה של הרשות לצורך הגנה על עדים.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_15__point_ג">
+                <num>(ג)</num>
+                <list>
+                  <intro>
+                    <p>לצורך קבלת החלטה כאמור בסעיף קטן (א), רשאי המנהל להביא בחשבון, גם חוות דעת נוספות אם הוגשו לו, ובכלל זה –</p>
+                  </intro>
+                  <point eId="point_15__point_ג__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>חוות דעת של שירות הביטחון הכללי;</p>
+                    </content>
+                  </point>
+                  <point eId="point_15__point_ג__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>חוות דעת של שירות בתי הסוהר – לעניין עד המצוי או עתיד להיות מצוי במשמורת של שירות בתי הסוהר;</p>
+                    </content>
+                  </point>
+                  <point eId="point_15__point_ג__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>חוות דעת מקצועית של עובד סוציאלי או פסיכולוג לעניין התאמת העד לתכנית הגנה.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_15__point_ד">
+                <num>(ד)</num>
+                <content>
+                  <p>החליט המנהל שלא לכלול עד בתכנית הגנה, רשאי קצין המשטרה, על דעת הפרקליט הממונה, לפנות אליו בבקשה לעיון חוזר בהחלטתו; לא שינה המנהל את החלטתו כאמור, רשאי קצין המשטרה, על דעת הפרקליט הממונה, לפנות ליועץ המשפטי לממשלה, או למשנה ליועץ המשפטי לממשלה שהיועץ המשפטי לממשלה הסמיכו לכך, בבקשה לבחון מחדש את החלטת המנהל ולהכריע בעניין.</p>
+                </content>
+              </point>
+              <point eId="point_15__point_ה">
+                <num>(ה)</num>
+                <content>
+                  <p>בסעיף זה, ”עד“ או ”עד מאוים“ – לרבות בן משפחה של עד מאוים אשר נכלל בהמלצה לפי <ref href="#point_14">סעיף 14</ref>.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_16">
+            <heading>
+              <authorialNote placement="side">
+                <p>בדיקות ומסירת מידע</p>
+              </authorialNote>
+            </heading>
+            <num>16.</num>
+            <list>
+              <intro>
+                <p>לצורך בחינת התאמת עד או בן משפחתו לתכנית הגנה כאמור <ref href="#point_15">בסעיף 15</ref>, רשאית הרשות לדרוש מהעד או מבן משפחתו –</p>
+              </intro>
+              <point eId="point_16__point_1">
+                <num>(1)</num>
+                <content>
+                  <p>למסור לה כל מידע רפואי שבידו, לחתום על טופס ויתור על סודיות רפואית, לעבור בדיקות רפואיות ובדיקות פסיכולוגיות הנדרשות לדעתה, לצורך קבלת החלטה בעניינו, או כל בדיקה סבירה אחרת שתיראה לה נחוצה, בנסיבות העניין, לצורך קבלת החלטה בעניינו;</p>
+                </content>
+              </point>
+              <point eId="point_16__point_2">
+                <num>(2)</num>
+                <content>
+                  <p>למסור לה כל מידע לעניין מצבו האישי, דתו, עיסוקו, מצבו הכלכלי, נכסיו, התחייבויותיו החוקיות המיוחדות, לרבות התחייבות לעניין משמורת ילדים, התחייבויות כלכליות, תביעות אזרחיות שהוא צד להן וכל מידע סביר אחר הנראה לה נחוץ, בנסיבות העניין, וכן לאפשר לה לקבל מידע כאמור, והכל לצורך קבלת החלטה בעניינו.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_17">
+            <heading>
+              <authorialNote placement="side">
+                <p>קביעת תכנית הגנה לעד</p>
+              </authorialNote>
+            </heading>
+            <num>17.</num>
+            <list>
+              <point eId="point_17__point_א">
+                <num>(א)</num>
+                <list>
+                  <intro>
+                    <p>החליט המנהל לכלול עד בתכנית הגנה, יקבע, בתיאום עם כל הגורמים הנדרשים לשם יישום התכנית, את פרטי תכנית ההגנה המתאימה לעד, בהתאם לתורה המקצועית, ובכלל זה רשאי המנהל לקבוע כי במסגרת תכנית ההגנה ייכללו אמצעים אלה, כולם או חלקם:</p>
+                  </intro>
+                  <point eId="point_17__point_א__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>שינוי זהותו של העד;</p>
+                    </content>
+                  </point>
+                  <point eId="point_17__point_א__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>העתקת מקום מגורי העד, בין בישראל ובין מחוץ לישראל;</p>
+                    </content>
+                  </point>
+                  <point eId="point_17__point_א__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>הסדרים כלכליים להבטחת רמת חיים סבירה של העד בתקופת תכנית ההגנה;</p>
+                    </content>
+                  </point>
+                  <point eId="point_17__point_א__point_4">
+                    <num>(4)</num>
+                    <content>
+                      <p>סיוע לעד במציאת עבודה, או בהשתלבות במסגרת לימודית או חינוכית, לפי העניין;</p>
+                    </content>
+                  </point>
+                  <point eId="point_17__point_א__point_5">
+                    <num>(5)</num>
+                    <content>
+                      <p>אבטחת העד על ידי מאבטחים או באמצעים מתאימים אחרים;</p>
+                    </content>
+                  </point>
+                  <point eId="point_17__point_א__point_6">
+                    <num>(6)</num>
+                    <content>
+                      <p>כל אמצעי אחר הדרוש לדעת המנהל, להבטחת ביטחונו של העד והשתלבותו בקהילה.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_17__point_א1">
+                <num>(א1)</num>
+                <list>
+                  <point eId="point_17__point_א1__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>החליט המנהל לכלול עד בתכנית הגנה, והעד הוא אסיר או עצור, רשאי הוא לקבוע כי העד המוגן יוחזק במקום מחוץ לבית הסוהר או בית המעצר, במקום ולתקופה שיקבע (בחוק זה – מקום משמורת הרשות).</p>
+                    </content>
+                  </point>
+                  <point eId="point_17__point_א1__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>הוצאת עד מוגן מבית סוהר או בית מעצר לפי סעיף קטן זה תיעשה בהתייעצות עם נציב בתי הסוהר או סגנו, ובהתאם לנהלים משותפים שיקבעו הרשות ושירות בתי הסוהר.</p>
+                    </content>
+                  </point>
+                  <point eId="point_17__point_א1__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>עד מוגן המוחזק במקום משמורת הרשות יוחזק בתנאים הולמים שלא יהיה בהם כדי לפגוע בבריאותו ובכבודו, ויהיה זכאי לזכויות שלהן זכאי לפי כל דין אסיר או עצור, לפי העניין, אלא אם כן שוכנע המנהל כי בנסיבות העניין יש בכך כדי לפגוע בעד או בתכנית ההגנה.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_17__point_4">
+                <num>(4)</num>
+                <content>
+                  <p>עד מוגן שמוחזק במקום משמורת הרשות לפי סעיף קטן זה יראו אותו כמי שנתון במשמורת חוקית.</p>
+                </content>
+              </point>
+              <point eId="point_17__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>המנהל רשאי, לאחר גיבוש הערכת סכנה תקופתית בהתאם <ref href="#point_25">לסעיף 25</ref>, בשים לב לתורה המקצועית, לשנות מזמן לזמן את תכנית ההגנה של עד מוגן, ובלבד שנתן לעד הזדמנות סבירה להשמיע את טענותיו ופעל לשם כך בשקידה ראויה; שינה המנהל את תכנית ההגנה של עד כאמור, יביא את השינוי לידיעת העד, ואולם לא יימסרו לעד פרטים על אודות השינוי אשר לפי שיקול דעת המנהל לא ניתן להביאם לידיעת העד.</p>
+                </content>
+              </point>
+              <point eId="point_17__point_ג">
+                <num>(ג)</num>
+                <list>
+                  <point eId="point_17__point_ג__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>פרטי תכנית הגנה שנקבעו כאמור בסעיפים קטנים (א) ו־(ב) לא יכללו טובת הנאה לעד מדינה כמשמעותו <ref href="/akn/il/act/PrimaryLegislation/1971-04-28/2002283#point_54א">בסעיף 54א לפקודת הראיות</ref> או טובת הנאה אחרת בעבור שיתוף פעולה של עד שאינו עד מדינה.</p>
+                    </content>
+                  </point>
+                  <point eId="point_17__point_ג__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>לעניין סעיף קטן זה, לא יראו כטובת הנאה הקצאת כספים או אמצעים שנקבעו בתכנית ההגנה כדי להבטיח את הגנתו של העד ושיועדו למטרה מסוימת שהוגדרה בתכנית לצורך זה, בהתאם לעקרונות שיקבע המנהל בנוהלי הרשות; על כספים או אמצעים שהוקצו בתכנית הגנה ולא נקבעו כדי להבטיח את הגנתו של העד או שלא יועדו למטרה מסוימת שהוגדרה בתכנית לצורך זה, יחולו סדרי הדין ודיני הראיות החלים בהליכים פליליים בבתי המשפט.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_17__point_ד">
+                <num>(ד)</num>
+                <content>
+                  <p>בסעיף זה, ”עד“ – לרבות בן משפחה של עד אשר המנהל החליט לכלול אותו בתכנית הגנה.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_18">
+            <heading>
+              <authorialNote placement="side">
+                <p>כתב התחייבות</p>
+              </authorialNote>
+            </heading>
+            <num>18.</num>
+            <list>
+              <point eId="point_18__point_א">
+                <num>(א)</num>
+                <list>
+                  <intro>
+                    <p>לא ייכלל עד בתכנית הגנה אלא אם כן חתם על כתב התחייבות, הצהרה והסכמה כמפורט בסעיף קטן (ב) (בחוק זה – כתב התחייבות), לאחר שהובהר לו –</p>
+                  </intro>
+                  <point eId="point_18__point_א__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>מהם פרטי תכנית ההגנה, למעט לעניין סוגי מידע אשר המנהל החליט כי לא ניתן לגלותם;</p>
+                    </content>
+                  </point>
+                  <point eId="point_18__point_א__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>כי הפרת התחייבויותיו או מסירת מידע שגוי כאמור <ref href="#point_27">בסעיף 27(א)(2)</ref>, עשויה לשמש עילה להפסקת השתתפותו בתכנית ההגנה;</p>
+                    </content>
+                  </point>
+                  <point eId="point_18__point_א__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>מהן השלכות הפסקת השתתפותו בתכנית;</p>
+                    </content>
+                  </point>
+                  <point eId="point_18__point_א__point_4">
+                    <num>(4)</num>
+                    <content>
+                      <p>כי המנהל רשאי בכל עת, לפי שיקול דעתו, לשנות את תכנית ההגנה, כאמור <ref href="#point_17">בסעיף 17(ב)</ref>.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_18__point_ב">
+                <num>(ב)</num>
+                <list>
+                  <intro>
+                    <p>כתב ההתחייבות יכלול, בין השאר, את כל אלה:</p>
+                  </intro>
+                  <point eId="point_18__point_ב__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>הצהרה בדבר נכונות כל הפרטים שמסר העד;</p>
+                    </content>
+                  </point>
+                  <point eId="point_18__point_ב__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>חובתו של העד לשתף פעולה עם רשויות אכיפת החוק בכל הנוגע להליכי חקירה והעדה בבית המשפט בהליכים שבהם נדרשת עדותו;</p>
+                    </content>
+                  </point>
+                  <point eId="point_18__point_ב__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>חובותיו של העד במסגרת יישום תכנית ההגנה, לרבות לעניין הסדרת ענייניו הכלכליים, נכסיו, זכויות בנכסיו וכן לעניין הסדרת הליכים משפטיים שהוא צד להם, ובכלל זה חתימה על המסמכים הנדרשים להסדרת כל אלה, לרבות לעניין מינוי מיופה כוח בהתאם <ref href="#point_23">לסעיף 23</ref>, לפי הצורך;</p>
+                    </content>
+                  </point>
+                  <point eId="point_18__point_ב__point_4">
+                    <num>(4)</num>
+                    <content>
+                      <p>התחייבות להימנע מכל מעשה עבירה ומכל מעשה שיש בו כדי לסכן את ביטחון העד, ביטחון בן משפחתו או ביטחון אדם אחר, או כדי לפגוע ביעילותה של תכנית ההגנה;</p>
+                    </content>
+                  </point>
+                  <point eId="point_18__point_ב__point_5">
+                    <num>(5)</num>
+                    <content>
+                      <p>הסכמה כי לא תהיה לעד טענה או תביעה נגד המדינה או נגד מי מעובדיה לפיצוי על נזק שנגרם לו מעצם הצטרפותו לתכנית הגנה, אלא כפי שסוכם עמו מראש;</p>
+                    </content>
+                  </point>
+                  <point eId="point_18__point_ב__point_6">
+                    <num>(6)</num>
+                    <content>
+                      <p>התחייבות לשמור בסוד את פרטי תכנית ההגנה, זהות עובדי הרשות וכל אדם אחר שהיה מעורב ביישום תכנית ההגנה, וכן כל עובדה אחרת שהתבקש העד לשמור בסוד, והצהרה כי הובא לידיעתו שגילוי כאמור מהווה עבירה לפי הוראות <ref href="#point_28">סעיף 28</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_18__point_ב__point_7">
+                    <num>(7)</num>
+                    <content>
+                      <p>הצהרה כי ידוע לעד כי הפרת התחייבויותיו או מסירת מידע שגוי כאמור <ref href="#point_26">בסעיף 26(א)(2)</ref>, עשויה לשמש עילה להפסקת השתתפותו בתכנית ההגנה או לשינויה, וכן כי ידועות לעד ההשלכות של הפסקת השתתפותו בתכנית ההגנה, לרבות לעניין רמת ההגנה העשויה להינתן לו על ידי המשטרה ככל שהדבר יתאפשר;</p>
+                    </content>
+                  </point>
+                  <point eId="point_18__point_ב__point_8">
+                    <num>(8)</num>
+                    <content>
+                      <p>כל תנאי, הצהרה או התחייבות אחרת שהמנהל סבור כי הם דרושים לצורך הבטחת הגנתו של העד.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_18__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>בסעיף זה, ”עד“ – לרבות בן משפחה של עד אשר המנהל החליט לכלול אותו בתכנית הגנה.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_19">
+            <heading>
+              <authorialNote placement="side">
+                <p>תכנית הגנה זמנית במקרים דחופים</p>
+              </authorialNote>
+            </heading>
+            <num>19.</num>
+            <list>
+              <point eId="point_19__point_א">
+                <num>(א)</num>
+                <list>
+                  <intro>
+                    <p>המנהל רשאי לאשר את הכללתו של עד מאוים בתכנית הגנה זמנית, אף אם טרם מולאו כל התנאים הנדרשים לפי הוראות <ref href="#chp_ג">פרק זה</ref>, אם נתקיימו כל אלה:</p>
+                  </intro>
+                  <point eId="point_19__point_א__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>הוא מצא כי קיימת אפשרות סבירה שהעד יוכל להיכלל בתכנית הגנה שאינה זמנית;</p>
+                    </content>
+                  </point>
+                  <point eId="point_19__point_א__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>הוא סבור כי יש צורך בכך לשם מתן הגנה דחופה לעד הנמצא בסכנה מיידית לחייו או לשלומו, או מאחר שקיים סיכון לפגיעה ממשית בחקירה אם לא תינתן ההגנה באופן דחוף;</p>
+                    </content>
+                  </point>
+                  <point eId="point_19__point_א__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>נמסר לעד כי מדובר בתכנית הגנה זמנית וכי רק לאחר שימולאו כל התנאים הנדרשים לפי הוראות <ref href="#chp_ג">פרק זה</ref>, תיבחן האפשרות לכלול אותו בתכנית הגנה שאינה זמנית.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_19__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>מילוי התנאים הנדרשים לפי הוראות <ref href="#chp_ג">פרק זה</ref>, שטרם מולאו כאמור בסעיף קטן (א), ייעשה בהקדם האפשרי.</p>
+                </content>
+              </point>
+              <point eId="point_19__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>בסעיף זה, ”עד“ או ”עד מאוים“ – לרבות בן משפחה של עד מאוים.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_20">
+            <heading>
+              <authorialNote placement="side">
+                <p>הוראות מיוחדות לעניין קטין או פסול דין</p>
+              </authorialNote>
+            </heading>
+            <num>20.</num>
+            <list>
+              <point eId="point_20__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>לא ייכלל בתכנית הגנה קטין, פסול דין או אדם שמונה לו אפוטרופוס, אלא אם כן ניתנה לכך הסכמה בכתב של שני הוריו של הקטין, או אם מונה לו אפוטרופוס – אפוטרופסו, ולעניין פסול דין או מי שמונה לו אפוטרופוס – אפוטרופסו.</p>
+                </content>
+              </point>
+              <point eId="point_20__point_ב">
+                <num>(ב)</num>
+                <list>
+                  <point eId="point_20__point_ב__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>על אף האמור בסעיף קטן (א), רשאי המנהל או מי מטעמו, באישור היועץ המשפטי לממשלה או מי שהוא הסמיכו לכך, לבקש את אישורו של בית משפט לענייני משפחה לכלול בתכנית הגנה קטין, פסול דין או אדם שמונה לו אפוטרופוס, אם סבר המנהל כי בשל חשש לפגיעה בשלומו הגופני או הנפשי אין לבקש את הסכמת שני הוריו או אפוטרופסו, לפי העניין, כאמור בסעיף קטן (א).</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_20__point_2">
+                <num>(2)</num>
+                <content>
+                  <p>אישר בית המשפט לענייני משפחה את הבקשה כאמור בפסקה (1), רשאי הוא ליתן כל הוראה בדבר האפוטרופסות הנדרשת לצורך ביצוע תכנית ההגנה ושמירת טובתו של הקטין, פסול הדין או האדם שמונה לו אפוטרופוס, בהתאם להוראות <ref href="/akn/il/act/PrimaryLegislation/1962-08-17/147488">חוק הכשרות המשפטית והאפוטרופסות, התשכ"ב–1962</ref>, לרבות בעניין הרשות להחזיק בקטין ולקבוע את מקום מגוריו.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_21">
+            <heading>
+              <authorialNote placement="side">
+                <p>הגנה מפני עיקול</p>
+              </authorialNote>
+            </heading>
+            <num>21.</num>
+            <content>
+              <p>זכות עד מוגן לקבלת כספים במסגרת תכנית הגנה לפי <ref href="#point_17">סעיף 17</ref> אינה ניתנת להעברה, לשעבוד או לעיקול בכל דרך שהיא.</p>
+            </content>
+          </point>
+          <point eId="point_22">
+            <heading>
+              <authorialNote placement="side">
+                <p>שינוי זהות של עד מוגן</p>
+              </authorialNote>
+            </heading>
+            <num>22.</num>
+            <list>
+              <point eId="point_22__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>קבע המנהל כי במסגרת תכנית הגנה נדרש שינוי זהותו של עד מוגן, רשאי בית משפט מחוזי, לבקשת המנהל או מי מטעמו, לצוות על כל רשות או גוף להנפיק כל מסמך או לבצע כל רישום או פעולה בתחום סמכויותיו או פעילותו, לצורך רישום, ביסוס ותיעוד זהותו החדשה של העד המוגן (בחוק זה – הזהות החדשה), אם שוכנע כי יש בכך צורך לשם הגנה על העד המוגן; בסעיף זה, ”מסמך“ – לרבות ”תעודה ציבורית“ כהגדרתה <ref href="/akn/il/act/PrimaryLegislation/1971-04-28/2002283#point_29">בסעיף 29 לפקודת הראיות</ref> ולרבות ”חומר מחשב“ ו”פלט“ כהגדרתם <ref href="/akn/il/act/PrimaryLegislation/1995-07-25/174481">בחוק המחשבים, התשנ"ה–1995</ref>.</p>
+                </content>
+              </point>
+              <point eId="point_22__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>על אף האמור בסעיף קטן (א), לא יינתן צו המורה על הנפקת מסמך או על ביצוע רישום או פעולה המעידים על קיומם של כישורים, כשרות משפטית, מצב אישי כמשמעותו בחוק מרשם האוכלוסין, דת, מצב בריאותי, השכלה, הסמכה או רישיון של עד מוגן, אשר אינם משקפים את אלה בפועל, וכן לא יינתן צו המורה על הנפקת מסמכים המקנים לעד מוגן זכויות או הטבות שהוא לא זכאי להן על פי דין.</p>
+                </content>
+              </point>
+              <point eId="point_22__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>שינוי זהותו של עד מוגן לפי סעיף זה, הן לעניין שינוי הזהות המקורית והן לעניין שינוי או ביטול הזהות החדשה, אין בו כשלעצמו כדי לשנות את זכויותיו, חובותיו ומעמדו של העד, ובכלל זה מצבו האישי של העד ואין בו כדי לפגוע בזכויותיו של נושה של העד או בזכויות משפטיות אחרות של אדם כלפי העד.</p>
+                </content>
+              </point>
+              <point eId="point_22__point_ד">
+                <num>(ד)</num>
+                <content>
+                  <p>שונתה זהותו של עד מוגן לפי סעיף זה, וכל עוד לא בוטלה לפי סעיף קטן (ו) –<br space="preserve"></br>
+   (1)  רשאי העד להזדהות בזהותו החדשה ולהצהיר לכל דבר ועניין, כי הזהות החדשה היא זהותו היחידה;</p>
+                </content>
+              </point>
+              <point eId="point_22__point_2">
+                <num>(2)</num>
+                <content>
+                  <p>לא יעשה העד שימוש בזהותו הקודמת או במסמך המעיד עליה, ולא ימסור פרטים על אודותיה, אלא לצורך מתן עדות בהליך הפלילי שבקשר אליו נכלל בתכנית ההגנה או על פי אישור מראש ובכתב, בהתאם לסעיף קטן (ה).</p>
+                </content>
+              </point>
+              <point eId="point_22__point_ה">
+                <num>(ה)</num>
+                <content>
+                  <p>המנהל או עובד הרשות שהוא הסמיכו לכך, באישור קצין המשטרה והפרקליט הממונה, רשאי לאשר את גילוים של פרטי הזהות החדשה של העד המוגן או מקום מגוריו החדש, או פרטים הנוגעים לזהותו הקודמת או מקום מגוריו הקודם של העד המוגן, תוך קביעת תנאים לכך, אם מצא כי הצורך לגלות מידע זה חיוני לניהול הליכי חקירה או משפט בעבירות פליליות, או להגנת שלומם או חייהם של אנשים, וכי האינטרס הציבורי שבגילוי המידע גובר על הסיכון שבגילוי; אישר המנהל או עובד הרשות שהוא הסמיכו לכך, גילוי מידע כאמור, יקבע, ככל שהדבר ניתן, הסדרים מתאימים להבטחת ביטחונו של העד המוגן לאחר גילוי המידע.</p>
+                </content>
+              </point>
+              <point eId="point_22__point_ו">
+                <num>(ו)</num>
+                <list>
+                  <point eId="point_22__point_ו__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>שונתה תכנית ההגנה של עד מוגן לפי <ref href="#point_17">סעיף 17(ב)</ref>, או שהסתיימה לפי <ref href="#point_26">סעיף 26</ref>, רשאי בית משפט מחוזי, לבקשת העד או לבקשת המנהל או מי מטעמו, לצוות על שינוי או ביטול הזהות החדשה של העד ולתת כל הוראה הנחוצה בקשר לכך, ובכלל זה הוראות כאמור בסעיף קטן (א), בשינויים המחויבים; ציווה בית משפט כאמור, לא יעשה העד שימוש בזהות חדשה ששונתה או בוטלה או במסמך המעיד עליה, אלא בהתאם להוראות בית המשפט, וכן לא ימסור העד פרטים על אודות זהות חדשה ששונתה או בוטלה, אלא על פי אישור מראש ובכתב של המנהל או של עובד הרשות שהוא הסמיכו לכך.</p>
+                    </content>
+                  </point>
+                  <point eId="point_22__point_ו__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>דיון בבקשה לפי סעיף קטן זה יתקיים במעמד העד והמנהל או מי מטעמו.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_22__point_ז">
+                <num>(ז)</num>
+                <content>
+                  <p>השר, בהסכמת השר הנוגע בדבר, רשאי לקבוע בכללים הוראות לעניין דרכי ביצוע של צווי בית משפט לפי סעיף זה, לרבות קביעת בעל התפקיד שיהיה אחראי לביצוע הצווים, ככל שהדבר נדרש, וקביעת הוראות לעניין רישום העד המוגן במרשם האוכלוסין על פי חוק מרשם האוכלוסין ולעניין מתן דרכון או תעודת מעבר על פי <ref href="/akn/il/act/PrimaryLegislation/1952-07-17/147205">חוק הדרכונים, התשי"ב–1952</ref>, וכן לעניין כל פעולה נדרשת אחרת.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_23">
+            <heading>
+              <authorialNote placement="side">
+                <p>מיופה כוח של עד מוגן</p>
+              </authorialNote>
+            </heading>
+            <num>23.</num>
+            <list>
+              <point eId="point_23__point_א">
+                <num>(א)</num>
+                <list>
+                  <point eId="point_23__point_א__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>הוחלט על שינוי זהותו של עד מוגן לפי <ref href="#point_17">סעיף 17</ref>, ימנה העד המוגן מיופה כוח מטעמו, שזהותו תאושר בידי המנהל, לאחר התייעצות עם קצין המשטרה (בסעיף זה – מיופה הכוח); מיופה הכוח יהיה מוסמך לבצע ככל שהדבר נדרש, כל פעולה בשם העד, לרבות ניהול נכסי העד וביצוע פעולות בהם, ובכלל זה העברת בעלות בנכסים, אם העד המוגן אינו יכול לבצע פעולות כאמור בשל תכנית ההגנה.</p>
+                    </content>
+                  </point>
+                  <point eId="point_23__point_א__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>מיופה הכוח יבקש את אישורו של העד לביצוע פעולות בשמו, ככל שהדבר ניתן ונחוץ בנסיבות העניין ובהתאם לתכנית ההגנה של העד.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_23__point_ב">
+                <num>(ב)</num>
+                <list>
+                  <point eId="point_23__point_ב__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>לא מינה העד המוגן מיופה כוח, או שביטל את מינויו של מיופה הכוח וטרם מינה אחר במקומו, יפנה המנהל או מי מטעמו לבית משפט מחוזי בבקשה למנות מיופה כוח לעד המוגן כפי שיצווה בית המשפט, שיבצע פעולות בשם העד ויחתום בשמו על כל מסמך, בתנאים שיקבע בית המשפט, וזאת ככל שהדבר נדרש לצורך ניהול הליך משפטי שהעד צד לו, לצורך מימוש זכויותיו של העד בנכס או לצורך מילוי חובותיו של העד כלפי צד שלישי, ובלבד שהעד המוגן אינו יכול לבצע את הפעולות כאמור בשל תכנית ההגנה.</p>
+                    </content>
+                  </point>
+                  <point eId="point_23__point_ב__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>המדינה לא תישא באחריות כלפי העד המוגן בשל פעולה שבוצעה באופן סביר בהתאם לסעיף קטן זה.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_23__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>המנהל רשאי להורות כי העד יישא בהוצאות בשל ניהול נכסיו וביצוע הפעולות האחרות בשמו, כאמור בסעיף זה.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_24">
+            <heading>
+              <authorialNote placement="side">
+                <p>מסירת עדכונים בתקופת תכנית ההגנה</p>
+              </authorialNote>
+            </heading>
+            <num>24.</num>
+            <list>
+              <intro>
+                <p>בתקופת תכנית הגנה –</p>
+              </intro>
+              <point eId="point_24__point_1">
+                <num>(1)</num>
+                <content>
+                  <p>ימסור קצין המשטרה למנהל עדכון בכל פרט ומידע הנוגעים לעד המוגן, לחשוד בביצוע העבירה שבקשר אליה נכלל העד בתכנית ההגנה, ולכל אדם שממנו נשקפת סכנה לעד המוגן, וזאת במועדים ובדרך שייקבעו בנוהלי שיתוף הפעולה;</p>
+                </content>
+              </point>
+              <point eId="point_24__point_2">
+                <num>(2)</num>
+                <content>
+                  <p>ימסור פרקליט המחוז הנוגע בדבר למנהל עדכון לגבי התקדמות ההליך הפלילי שבקשר אליו נכלל העד בתכנית ההגנה, וזאת במועדים ובדרך שייקבעו בהנחיית פרקליט המדינה בהסכמת המנהל;</p>
+                </content>
+              </point>
+              <point eId="point_24__point_3">
+                <num>(3)</num>
+                <content>
+                  <p>ימסור המנהל לקצין המשטרה או לפרקליט המחוז הנוגע בדבר, לפי העניין, עדכון בכל עניין אשר עשוי להשפיע על ניהול החקירה או ההליך הפלילי שבקשר אליו נכלל העד בתכנית ההגנה, הכל כפי שייקבע בנוהלי שיתוף הפעולה.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_25">
+            <heading>
+              <authorialNote placement="side">
+                <p>הערכת סכנה תקופתית</p>
+              </authorialNote>
+            </heading>
+            <num>25.</num>
+            <content>
+              <p>בתקופת תכנית ההגנה יערוך המנהל או עובד הרשות שהוא קבע לעניין זה, בשיתוף קצין המשטרה, הערכת סכנה מעודכנת בקשר לעד המוגן, במועדים ובדרך שייקבעו בנוהלי שיתוף הפעולה.</p>
+            </content>
+          </point>
+          <point eId="point_26">
+            <heading>
+              <authorialNote placement="side">
+                <p>סיום תכנית הגנה</p>
+              </authorialNote>
+            </heading>
+            <num>26.</num>
+            <list>
+              <point eId="point_26__point_א">
+                <num>(א)</num>
+                <list>
+                  <intro>
+                    <p>תכנית הגנה תסתיים באחת מאלה:</p>
+                  </intro>
+                  <point eId="point_26__point_א__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>במועד או בנסיבות שנקבעו בתכנית ההגנה;</p>
+                    </content>
+                  </point>
+                  <point eId="point_26__point_א__point_2">
+                    <num>(2)</num>
+                    <list>
+                      <intro>
+                        <p>המנהל, לאחר התייעצות עם קצין המשטרה ועם הפרקליט הממונה, החליט להפסיק את תכנית ההגנה בשל אחד מאלה:</p>
+                      </intro>
+                      <point eId="point_26__point_א__point_2__point_א">
+                        <num>(א)</num>
+                        <content>
+                          <p>הוא מצא שהעד המוגן סיפק מידע שגוי לגבי עניין מהותי שעל בסיסו הוחלט על הכללתו בתכנית ההגנה או על פרטי התכנית; מצא המנהל כי העד המוגן סיפק מידע כאמור במזיד, יהיה העד חייב בתשלום הוצאות שהוצאו בקשר לתכנית ההגנה;</p>
+                        </content>
+                      </point>
+                      <point eId="point_26__point_א__point_2__point_ב">
+                        <num>(ב)</num>
+                        <content>
+                          <p>העד הפר התחייבות שלו על פי כתב ההתחייבות;</p>
+                        </content>
+                      </point>
+                      <point eId="point_26__point_א__point_2__point_ג">
+                        <num>(ג)</num>
+                        <content>
+                          <p>העד עשה פעולה שבשלה סבר המנהל שלא ניתן עוד להגן על העד ביעילות, או שאין הוא ראוי עוד להשתתף בתכנית הגנה;</p>
+                        </content>
+                      </point>
+                    </list>
+                  </point>
+                  <point eId="point_26__point_א__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>המנהל, לאחר התייעצות עם קצין המשטרה ועם הפרקליט הממונה, החליט כי בהתאם להערכת הסכנה הנשקפת לעד, אין עוד צורך בהכללתו בתכנית הגנה; לצורך החלטתו האמורה ישקול המנהל, בין השאר, גם את פרק הזמן שבו נכלל העד בתכנית הגנה, וכן, ככל שהדבר נדרש, את ההגנה שיוכל העד לקבל מן המשטרה;</p>
+                    </content>
+                  </point>
+                  <point eId="point_26__point_א__point_4">
+                    <num>(4)</num>
+                    <content>
+                      <p>העד המוגן הודיע לרשות בכתב כי ברצונו להפסיק את תכנית ההגנה; ואולם לא תופסק התכנית כאמור אלא לאחר שניתנה לעד המוגן הזדמנות סבירה לחזור בו מהודעתו.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_26__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>בכל מקרה של הפסקת תכנית הגנה של עד מוגן, ישקול המנהל את הצורך בהמשך תכנית הגנה של בן משפחה של אותו עד, הכלול בתכנית הגנה.</p>
+                </content>
+              </point>
+              <point eId="point_26__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>לא תופסק תכנית הגנה בשל הטעמים המנויים בסעיף קטן (א)(2) ו־(3), אלא אם כן ניתנה לעד המוגן הזדמנות סבירה לטעון את טענותיו לפני המנהל, ובמקרה של הפסקה עקב הפרת התחייבות של העד – בלי שניתנה לו הזדמנות לתקן את ההפרה, ככל שהדבר ניתן.</p>
+                </content>
+              </point>
+              <point eId="point_26__point_ד">
+                <num>(ד)</num>
+                <list>
+                  <point eId="point_26__point_ד__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>החלטה על הפסקת תכנית הגנה תימסר לעד באופן אישי בכתב, כשהיא חתומה בידי המנהל, ויפורטו בה משמעויות הפסקת התכנית; העתק ההחלטה יימסר לפרקליט הממונה ולקצין המשטרה.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_26__point_2">
+                <num>(2)</num>
+                <content>
+                  <p>ההחלטה לפי פסקה (1) תיכנס לתוקפה במועד שנקבע בה, ובלבד שחלפו עשרה ימים מיום מסירתה, אלא אם כן החליט המנהל, בנסיבות העניין ובהתאם לנוהלי שיתוף הפעולה, כי פרק הזמן האמור הוא בלתי סביר וכי יש לקבוע מועד מוקדם יותר; היה מיקומו של העד בלתי ידוע, תיכנס ההחלטה לתוקפה במועד האמור אף אם לא נמסרה ההחלטה לעד, ובלבד שנעשו ניסיונות סבירים לפני המועד האמור, לאתר אותו ולמסור לו את ההחלטה.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+        </list>
+      </chapter>
+      <chapter eId="chp_ד">
+        <num>פרק ד׳:</num>
+        <title>
+          <content>
+            <p>סודיות ומאגר מידע</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_27" class="definitions">
+            <heading>
+              <authorialNote placement="side">
+                <p>חיסיון חומר תחקיר</p>
+              </authorialNote>
+            </heading>
+            <num>27.</num>
+            <list>
+              <intro>
+                <p>הוראות <ref href="/akn/il/act/PrimaryLegislation/2011-06-30/409950#point_102">סעיף 102(א) ו־(ב)(1) עד (5) לחוק המשטרה, התשס"ו–2006</ref>; יחולו לעניין תחקיר שנערך בידי הרשות, בשינויים המחויבים ובשינויים אלה:</p>
+              </intro>
+              <point eId="point_27__point_1">
+                <num>(1)</num>
+                <content>
+                  <p>
+                    <def />בסעיף קטן (א), במקום ההגדרה ”תחקיר“ יקראו:<br space="preserve"></br>””תחקיר“ – בירור שנערך ברשות בהתאם לנוהלי הרשות, בנוגע לפעילות מבצעית של הרשות, או בקשר אליה.“;</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_2">
+            <num>(2)</num>
+            <list>
+              <intro>
+                <p>בסעיף קטן (ב) –</p>
+              </intro>
+              <point eId="point_2__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>בפסקה (2), במקום ”במשטרת ישראל“ יקראו ”ברשות להגנה על עדים“;</p>
+                </content>
+              </point>
+              <point eId="point_2__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>בפסקה (4)(ב), במקום ”במפקח הכללי“ יקראו ”במנהל הרשות להגנה על עדים“;</p>
+                </content>
+              </point>
+              <point eId="point_2__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>בפסקה (5)(א), במקום ”המפקח הכללי“ יקראו ”מנהל הרשות להגנה על עדים“ ובמקום ”אם קיים חשש כי העברתו תפגע בביטחון המדינה“ יקראו ”אם קיים חשש כי העברתו תפגע בשלומו של אדם או בתכנית הגנה על עדים“.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_28">
+            <heading>
+              <authorialNote placement="side">
+                <p>סודיות</p>
+              </authorialNote>
+            </heading>
+            <num>28.</num>
+            <list>
+              <point eId="point_28__point_א">
+                <num>(א)</num>
+                <list>
+                  <intro>
+                    <p>העניינים המפורטים להלן הם חסויים, וגילוים או פרסומם אסור:</p>
+                  </intro>
+                  <point eId="point_28__point_א__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>התורה המקצועית, נהלים מבצעיים שנכתבו על פיה, נהלים אחרים הנוגעים לפעילות הרשות שהמנהל קבע כי גילוים עלול לפגוע בפעילות הרשות או לסכן עד מוגן, וכן כללים שנקבעו לפי <ref href="#point_10">סעיפים 10(ב)</ref>, <ref href="#point_13">13</ref><ref href="#point_22">ו־22(ז)</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_28__point_א__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>זהות עובדי הרשות למעט המנהל, וזהות הפועלים מטעם הרשות, כפי שייקבע בנוהלי הרשות;</p>
+                    </content>
+                  </point>
+                  <point eId="point_28__point_א__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>מידע הנוגע לפרטי זהותו של עד מוגן או לתכנית הגנה, ומידע ממאגר המידע;</p>
+                    </content>
+                  </point>
+                  <point eId="point_28__point_א__point_4">
+                    <num>(4)</num>
+                    <content>
+                      <p>פרטים אחרים הנוגעים לרשות, שנקבעו בתקנות.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_28__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>עובד הרשות או מי שפועל מטעמה, בעבר או בהווה, וכן כל אדם שנטל חלק בביצוע צו של בית משפט לפי <ref href="#point_22">סעיף 22</ref> במסגרת מילוי תפקידו, לא ימסור מידע שהגיע אליו במסגרת תפקידו למי שאינו מוסמך לקבלו, אלא אם כן נדרש לכך לפי דין או קיבל היתר לכך בכתב בהתאם לחוק זה או לנוהלי הרשות.</p>
+                </content>
+              </point>
+              <point eId="point_28__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>עד מוגן לא יגלה מידע שהתבקש לשמור בסוד במסגרת תכנית הגנה ולא יעשה בו כל שימוש, אלא בהתאם להוראות חוק זה או באישור מראש ובכתב של המנהל.</p>
+                </content>
+              </point>
+              <point eId="point_28__point_ד">
+                <num>(ד)</num>
+                <content>
+                  <p>מי שהגיע לידיו מידע חסוי לפי חוק זה, לא יגלה אותו לאחר ולא יעשה בו כל שימוש, אלא לצורך מילוי תפקידו כדין או באישור מראש ובכתב של המנהל.</p>
+                </content>
+              </point>
+              <point eId="point_28__point_ה">
+                <num>(ה)</num>
+                <list>
+                  <point eId="point_28__point_ה__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>המגלה או המפרסם מידע חסוי לפי חוק זה בלא היתר, דינו – מאסר שלוש שנים; הביא אדם לגילוי או לפרסום כאמור ברשלנות, דינו – מאסר שנה.</p>
+                    </content>
+                  </point>
+                  <point eId="point_28__point_ה__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>היה המידע החסוי כאמור בפסקה (1), מידע אשר גילויו עלול להביא לזיהויו של עד מוגן, לגילוי מקום הימצאו או לגילוי כל מידע אחר בקשר לתכנית הגנה, דינו של המגלה או המפרסם כאמור בפסקה (1) – מאסר חמש שנים, ואם היה הגילוי ברשלנות, דינו – מאסר שנתיים.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_28__point_ו">
+                <num>(ו)</num>
+                <content>
+                  <p>עובד הרשות או מי שפועל מטעמה, בעבר או בהווה, וכן כל אדם שנטל חלק בביצוע צו של בית משפט לפי <ref href="#point_22">סעיף 22</ref> במסגרת מילוי תפקידו, המגלה או המפרסם מידע חסוי לפי חוק זה, דינו – מאסר שבע שנים, ואם עשה כן ברשלנות, דינו – מאסר שלוש שנים.</p>
+                </content>
+              </point>
+              <point eId="point_28__point_ז">
+                <num>(ז)</num>
+                <list>
+                  <point eId="point_28__point_ז__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>אין בהוראות סעיף זה כדי לגרוע מסמכות שר לפי <ref href="/akn/il/act/PrimaryLegislation/1971-04-28/2002283#point_44">סעיפים 44</ref><ref href="/akn/il/act/PrimaryLegislation/1971-04-28/2002283#point_45">ו־45 לפקודת הראיות</ref>, או מסמכויות הצנזור לפי <ref href="/akn/il/act/PrimaryLegislation/1945-09-27/2002068">תקנות ההגנה (שעת חירום), 1945</ref>, או מכל סמכות אחרת למניעת פרסום, לפי כל דין.</p>
+                    </content>
+                  </point>
+                  <point eId="point_28__point_ז__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>אין בהוראות סעיף זה כדי לגרוע מתחולת הוראות <ref href="/akn/il/act/PrimaryLegislation/1977-08-04/2002251#chp_ז_sec_ה">סימן ה׳ בפרק ז׳ לחוק העונשין</ref>.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+            </list>
+          </point>
+          <point eId="point_29">
+            <heading>
+              <authorialNote placement="side">
+                <p>מאגר מידע</p>
+              </authorialNote>
+            </heading>
+            <num>29.</num>
+            <list>
+              <point eId="point_29__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>הרשות רשאית לנהל מאגר מידע שיכלול מידע בדבר תכניות הגנה, פרטי עדים מוגנים וכל מידע נוסף הדרוש לצורך ניהול תכניות הגנה (בחוק זה – מאגר המידע); המאגר יהיה חסוי ולא יימסר ממנו מידע אלא לצורך מילוי תפקידי הרשות על פי חוק זה, ובכלל זה מסירת מידע בהתאם להוראות סעיף קטן (ג), הגשת דין וחשבון כאמור <ref href="#point_34">בסעיף 34(א)</ref> ודיווח כאמור <ref href="#point_35">בסעיף 35</ref>.</p>
+                </content>
+              </point>
+              <point eId="point_29__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>מאגר המידע ינוהל בידי עובד הרשות שהמנהל הסמיכו לכך.</p>
+                </content>
+              </point>
+              <point eId="point_29__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>המנהל, או עובד הרשות שהוא הסמיכו לכך, רשאי, בהתאם לתנאים שייקבעו בנוהלי שיתוף הפעולה, למסור מידע ממאגר המידע, למשטרה ולרשויות התביעה, לצורך חקירת עבירה, ניהול הליך פלילי, מניעת ביצוע עבירות ועריכה של הערכת סכנה לעד.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+        </list>
+      </chapter>
+      <chapter eId="chp_ה">
+        <num>פרק ה׳:</num>
+        <title>
+          <content>
+            <p>הגנה על עדים בידי המשטרה ושירות בתי הסוהר</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_30">
+            <heading>
+              <authorialNote placement="side">
+                <p>אבטחת עד מאוים שאינו עד מוגן</p>
+              </authorialNote>
+            </heading>
+            <num>30.</num>
+            <list>
+              <point eId="point_30__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>לשם אבטחת עד מאוים שאינו עד מוגן, שהמשטרה החליטה כי יש לאבטח אותו, רשאית המשטרה, בהתאם לצורך ולנסיבות, לקבל שירותי אבטחה גם ממי שאינו שוטר או עובד המדינה.</p>
+                </content>
+              </point>
+              <point eId="point_30__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>לא ישמש אדם מאבטח כאמור בסעיף קטן (א), אלא לאחר שאישר קצין משטרה שהוסמך לכך בידי המפקח הכללי של המשטרה (בחוק זה – הקצין המוסמך), כי התקיימו לגביו התנאים האמורים <ref href="#point_11">בסעיף 11(ב) עד (ה)</ref> בשינויים המחויבים, ובשינוי זה: הסמכויות, הנתונות למנהל בסעיף האמור, יהיו נתונות לקצין המוסמך.</p>
+                </content>
+              </point>
+              <point eId="point_30__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>למאבטח לפי סעיף קטן (א), תינתן תעודת מינוי כאמור <ref href="#point_11">בסעיף 11(ז)</ref> שתיחתם בידי הקצין המוסמך, ויהיו לו הסמכויות, החובות והזכויות כאמור <ref href="#point_12">בסעיף 12</ref>, למעט <ref href="#point_12">סעיף קטן (ג1) שבו</ref>, והכל בשינויים המחויבים.</p>
+                </content>
+              </point>
+              <point eId="point_30__point_ד">
+                <num>(ד)</num>
+                <content>
+                  <p>החובות והאיסורים החלים על עובדי הרשות או על הפועלים מטעמה, לפי <ref href="#point_28">סעיף 28</ref>, יחולו על מאבטח לפי סעיף קטן (א), בשינויים המחויבים.</p>
+                </content>
+              </point>
+              <point eId="point_30__point_ד1">
+                <num>(ד1)</num>
+                <content>
+                  <p>בלי לגרוע מהסמכויות הנתונות לשוטר לפי כל דין, לשוטר המאבטח עד מאוים יהיו נתונות, בעת שהוא מאבטח עד כאמור, כל הסמכויות הנתונות לפי חוק זה למאבטח שהוא עובד המדינה, בשינויים המחויבים.</p>
+                </content>
+              </point>
+              <point eId="point_30__point_ד2">
+                <num>(ד2)</num>
+                <list>
+                  <point eId="point_30__point_ד2__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>קצין המשטרה או מי שהוא הסמיך לעניין זה רשאי לקבוע כי עד מאוים שהוא אסיר או עצור יוחזק במקום מחוץ לבית הסוהר או בית המעצר, במקום ולתקופה שיקבע (בסעיף קטן זה – מקום משמורת המשטרה).</p>
+                    </content>
+                  </point>
+                  <point eId="point_30__point_ד2__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>הוצאת עד מאוים מבית סוהר או בית מעצר לפי סעיף קטן זה תיעשה בהתייעצות עם נציב בתי הסוהר או סגנו, בהתאם לנהלים משותפים שיקבעו משטרת ישראל ושירות בתי הסוהר.</p>
+                    </content>
+                  </point>
+                  <point eId="point_30__point_ד2__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>עד מאוים המוחזק במקום משמורת המשטרה יוחזק בתנאים הולמים שלא יהיה בהם כדי לפגוע בבריאותו ובכבודו, ויהיה זכאי לזכויות שלהן זכאי לפי כל דין אסיר או עצור, לפי העניין, אלא אם כן שוכנע קצין המשטרה או מי שהוא הסמיך לעניין זה כי יש בכך כדי לפגוע בעד.</p>
+                    </content>
+                  </point>
+                  <point eId="point_30__point_ד2__point_4">
+                    <num>(4)</num>
+                    <content>
+                      <p>עד מאוים שמוחזק במקום משמורת המשטרה לפי סעיף קטן זה יראו אותו כמי שנתון במשמורת חוקית.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_30__point_ה">
+                <num>(ה)</num>
+                <list>
+                  <point eId="point_30__point_ה__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>מידע הנוגע לפרטי הגנתו של עד מאוים בידי המשטרה יהיה חסוי וגילויו או פרסומו אסור; מידע חסוי כאמור לא יכלול טובת הנאה לעד מדינה כמשמעותו <ref href="/akn/il/act/PrimaryLegislation/1971-04-28/2002283#point_54א">בסעיף 54א לפקודת הראיות</ref> או טובת הנאה אחרת עבור שיתוף פעולה של עד שאינו עד מדינה.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_30__point_2">
+                <num>(2)</num>
+                <content>
+                  <p>לעניין סעיף קטן זה, לא יראו כטובת הנאה הקצאת כספים או אמצעים שנקבעו בפרטי הגנתו של העד כדי להבטיח את הגנתו ושיועדו למטרה מסוימת שהוגדרה בפרטי ההגנה לצורך זה, בהתאם לעקרונות שיקבע קצין המשטרה בנוהלי המשטרה לאחר התייעצות עם המנהל; על כספים או אמצעים שהוקצו בפרטי הגנה ולא נקבעו כדי להבטיח את הגנתו של העד או שלא יועדו למטרה מסוימת שהוגדרה בפרטים לצורך זה, יחולו סדרי הדין ודיני הראיות החלים בהליכים פליליים בבתי המשפט.</p>
+                </content>
+              </point>
+              <point eId="point_30__point_ו">
+                <num>(ו)</num>
+                <content>
+                  <p>בסעיף זה, ”עד מאוים“ – לרבות בן משפחה של עד מאוים אשר על פי הערכה מקצועית של המשטרה נתון או עלול להיות נתון לאיום על חייו, שלומו או בריאותו בקשר עם העדות.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_31">
+            <heading>
+              <authorialNote placement="side">
+                <p>קביעת נוהלי המשטרה ושירות בתי הסוהר</p>
+              </authorialNote>
+            </heading>
+            <num>31.</num>
+            <content>
+              <p>המשטרה ושירות בתי הסוהר, לאחר התייעצות עם הרשות, יקבעו נהלים מבצעיים לעניין הגנה על עדים מאוימים הנמצאים בטיפולם או במשמורתם, לפי העניין.</p>
+            </content>
+          </point>
+        </list>
+      </chapter>
+      <chapter eId="chp_ו">
+        <num>פרק ו׳:</num>
+        <title>
+          <content>
+            <p>הוראות שונות</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_32">
+            <heading>
+              <authorialNote placement="side">
+                <p>שמירת סמכויות</p>
+              </authorialNote>
+            </heading>
+            <num>32.</num>
+            <content>
+              <p>סמכות הנתונה למנהל או למי מעובדי הרשות לפי חוק זה, אינה ניתנת לנטילה לפי <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/חוק_יסוד_הממשלה#point_34">סעיף 34 לחוק־יסוד: הממשלה</ref>.</p>
+            </content>
+          </point>
+          <point eId="point_33">
+            <heading>
+              <authorialNote placement="side">
+                <p>דיון בדלתיים סגורות</p>
+              </authorialNote>
+            </heading>
+            <num>33.</num>
+            <content>
+              <p>הדיון בבתי משפט בהליכים לפי <ref href="#chp_ג">פרק ג׳</ref> או בהליכים שעניינם החלטות שהתקבלו לפי חוק זה לגבי פעילות מבצעית של הרשות, עד מאוים, עד מוגן או תכנית הגנה, יתקיים בדלתיים סגורות, אלא אם כן הורה בית המשפט, מטעמים מיוחדים שיירשמו, לדון בעניין, כולו או מקצתו, בפומבי; כל חומר חסוי שנמסר בידי הרשות במסגרת הליכים כאמור, יסומן ויוחזר לרשות בתום הדיון.</p>
+            </content>
+          </point>
+          <point eId="point_34">
+            <heading>
+              <authorialNote placement="side">
+                <p>הגשת דין וחשבון</p>
+              </authorialNote>
+            </heading>
+            <num>34.</num>
+            <list>
+              <point eId="point_34__point_א">
+                <num>(א)</num>
+                <list>
+                  <point eId="point_34__point_א__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>המנהל יגיש לשר, לוועדת ההיגוי וליועץ המשפטי לממשלה, מדי שנה, או במועדים תכופים יותר שנקבעו בנוהלי הרשות, ככל שנקבעו, דין וחשבון בכתב על פעילות הרשות, ויפרט בו את מספר העדים המוגנים המטופלים בידי הרשות באותה שנה, תיאור כללי של תכניות ההגנה שגובשו בעבורם, הפעולות שננקטו בנושא הגנה על עדים ועלות תכניות ההגנה כאמור.</p>
+                    </content>
+                  </point>
+                  <point eId="point_34__point_א__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>לא יפורטו בדין וחשבון פרטים העלולים להביא לזיהוים של עדים מוגנים או העלולים לפגוע בתכנית הגנה, ובכלל זה פרטי התיקים שבהם העדים מעידים.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_34__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>המפקח הכללי של המשטרה יגיש לשר, לפרקליט המדינה וליועץ המשפטי לממשלה, מדי שנה, או במועדים תכופים יותר שנקבעו בנוהלי שיתוף הפעולה, ככל שנקבעו, דין וחשבון בכתב על הפעולות שננקטו בידי המשטרה בנושא הגנה על עדים וההשלכות שהיו לפעילות הרשות והמשטרה בנושא האמור, לעניין חקירת עבירות והרשעת עבריינים, הכל כפי שייקבע בנהלים האמורים; העתק הדין וחשבון האמור יועבר למנהל.</p>
+                </content>
+              </point>
+              <point eId="point_34__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>הדיווחים לפי סעיף זה יהיו חסויים, ולא יימסר כל פרט לגביהם לגורם אחר מלבד הגורמים האמורים בסעיף זה, או מי שהם הסמיכו לעניין זה.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_35">
+            <heading>
+              <authorialNote placement="side">
+                <p>דיווח לכנסת</p>
+              </authorialNote>
+            </heading>
+            <num>35.</num>
+            <content>
+              <p>המנהל יגיש לוועדת משנה של ועדת הפנים והגנת הסביבה של הכנסת, מדי שנה, דיווח ובו פרטים כאמור <ref href="#point_34">בסעיף 34(א)(1)</ref> וכן פירוט לגבי מידת העסקתם של מאבטחים שאינם עובדי הרשות; הוראות <ref href="#point_34">סעיף 34(א)(2)</ref> יחולו על דיווח לפי סעיף זה; דיווח המנהל וכן דיוני ועדת המשנה בעניין הדיווח יהיו חסויים.</p>
+            </content>
+          </point>
+          <point eId="point_36">
+            <heading>
+              <authorialNote placement="side">
+                <p>הגשת סיוע ומסירת מידע בידי רשות ציבורית</p>
+              </authorialNote>
+            </heading>
+            <num>36.</num>
+            <list>
+              <point eId="point_36__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>בלי לגרוע מהוראות חוק זה, כל רשות ציבורית תגיש לרשות כל סיוע שיידרש לה לשם ביצוע תכנית הגנה, בעניין המצוי בתחום סמכותה, הכל בהתאם להסדרים שיסכימו עליהם הרשות והרשות הציבורית הנוגעת בדבר.</p>
+                </content>
+              </point>
+              <point eId="point_36__point_ב">
+                <num>(ב)</num>
+                <list>
+                  <point eId="point_36__point_ב__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>המנהל או עובד הרשות שהוא הסמיך לכך רשאי לדרוש מרשות ציבורית מידע, הדרוש לו למילוי תפקידו ברשות.</p>
+                    </content>
+                  </point>
+                  <point eId="point_36__point_ב__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>מי שנדרש למסור מידע כאמור בפסקה (1), ימסור לרשות את המידע המלא בלא דיחוי.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+            </list>
+          </point>
+          <point eId="point_37">
+            <heading>
+              <authorialNote placement="side">
+                <p>התקשרות בהסכמים בין־לאומיים</p>
+              </authorialNote>
+            </heading>
+            <num>37.</num>
+            <list>
+              <point eId="point_37__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>הגנה על עדים שמדינת ישראל מבקשת את הגנתם במדינה אחרת או הגנה על עדים אשר מדינה אחרת מבקשת את הגנתם בישראל, תיעשה לפי אמנה דו־צדדית או רב־צדדית שמדינת ישראל והמדינה האחרת צדדים לה, הכוללת הוראות לעניין זה, או לפי הסכם מיוחד שהתקשר בו המנהל עם הגורם המוסמך לכך במדינה אחרת, בידיעת השר ויושב ראש ועדת ההיגוי.</p>
+                </content>
+              </point>
+              <point eId="point_37__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>הוראות חוק זה יחולו, בשינויים המחויבים, על הגנה על עדים שמדינה אחרת מבקשת את הגנתם בישראל, כאמור בסעיף קטן (א), בכפוף להוראות האמנה או ההסכם האמורים באותו סעיף קטן.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_38">
+            <heading>
+              <authorialNote placement="side">
+                <p>ביצוע ותקנות</p>
+              </authorialNote>
+            </heading>
+            <num>38.</num>
+            <list>
+              <point eId="point_38__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>השר ממונה על ביצוע חוק זה, והוא רשאי להתקין תקנות בכל הנוגע לביצועו.</p>
+                </content>
+              </point>
+              <point eId="point_38__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>השר, בהסכמת שר הפנים, שר החוץ ושר המשפטים, רשאי להתקין תקנות לעניין הגנה בישראל על עדים שמדינה אחרת מבקשת את הגנתם בישראל כאמור <ref href="#point_37">בסעיף 37</ref> ולעניין הסדרת שהותם של עדים כאמור בישראל.</p>
+                </content>
+              </point>
+              <point eId="point_38__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>שר המשפטים, לאחר התייעצות עם השר ובאישור ועדת החוקה חוק ומשפט של הכנסת, רשאי לקבוע בתקנות סדרי המצאת מסמכים והליכי הוצאה לפועל בשונה מהוראות כל דין, בקשר עם הליכים שעד מוגן או עד מאוים הוא צד להם או מעיד בהם.</p>
+                </content>
+              </point>
+              <point eId="point_38__point_ד">
+                <num>(ד)</num>
+                <content>
+                  <p>כללים שקבע השר לעניין חוק זה אינם טעונים פרסום ברשומות.</p>
+                </content>
+              </point>
+              <point eId="point_38__point_ה">
+                <num>(ה)</num>
+                <content>
+                  <p>תקנות ראשונות לפי <ref href="#point_10">סעיף 10(ד)</ref> יובאו לאישור ועדת הפנים והגנת הסביבה של הכנסת בתוך שנה מיום פרסומו של חוק זה.</p>
+                </content>
+              </point>
+              <point eId="point_38__point_ו">
+                <num>(ו)</num>
+                <list>
+                  <point eId="point_38__point_ו__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>יושב ראש ועדת הפנים והגנת הסביבה של הכנסת (בסעיף קטן זה – הוועדה), לאחר התייעצות עם יושב ראש הכנסת, רשאי לקבוע כי תקנות, צווים או כללים הטעונים את אישור הוועדה לפי חוק זה, יאושרו על ידי ועדת משנה של הוועדה שישיבותיה חסויות, אם שוכנע כי טעמים של מניעת פגיעה בפעילות הרשות, הגנה על שלומו של אדם או מניעת פגיעה בתכנית הגנה מחייבים כי האישור, או הדיון בקשר אליו, יישמרו בסוד.</p>
+                    </content>
+                  </point>
+                  <point eId="point_38__point_ו__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>הוועדה תבחר את חברי ועדת המשנה; מספרם של חברי ועדת המשנה לא יעלה על חמישה.</p>
+                    </content>
+                  </point>
+                  <point eId="point_38__point_ו__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>דין אישור שניתן על ידי ועדת המשנה לפי סעיף קטן זה, כדין אישור שניתן על ידי הוועדה.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+            </list>
+          </point>
+        </list>
+      </chapter>
+      <chapter eId="chp_ז">
+        <num>פרק ז׳:</num>
+        <title>
+          <content>
+            <p>תיקונים עקיפים</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_39">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>39.</num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryLegislation/1981-03-11/147337">בחוק הגנת הפרטיות, התשמ"א–1981</ref>.</wikicomment>
+              </p>
+            </content>
+          </point>
+          <point eId="point_40">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>40.</num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryLegislation/1981-06-16/171484">בחוק המרשם הפלילי ותקנת השבים, התשמ"א–1981</ref>.</wikicomment>
+              </p>
+            </content>
+          </point>
+          <point eId="point_41">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>41.</num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryLegislation/1984-08-13/2002218">בחוק בתי המשפט [נוסח משולב], התשמ"ד–1984</ref>.</wikicomment>
+              </p>
+            </content>
+          </point>
+          <point eId="point_42">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>42.</num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryLegislation/1991-03-28/174545">בחוק למניעת אלימות במשפחה, התשנ"א–1991</ref>.</wikicomment>
+              </p>
+            </content>
+          </point>
+          <point eId="point_43">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>43.</num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryLegislation/1995-08-07/158629">בחוק בית המשפט לענייני משפחה, התשנ"ה–1995</ref>.</wikicomment>
+              </p>
+            </content>
+          </point>
+          <point eId="point_44">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>44.</num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryLegislation/1998-05-29/163627">בחוק חופש המידע, התשנ"ח–1998</ref>.</wikicomment>
+              </p>
+            </content>
+          </point>
+          <point eId="point_45">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>45.</num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryLegislation/2001-10-30/171255">בחוק מניעת הטרדה מאיימת, התשס"ב–2001</ref>.</wikicomment>
+              </p>
+            </content>
+          </point>
+          <point eId="point_46">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>46.</num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryLegislation/2011-06-30/409950">בחוק המשטרה (דין משמעתי, בירור קבילות שוטרים והוראות שונות), התשס"ו–2006</ref>.</wikicomment>
+              </p>
+            </content>
+          </point>
+        </list>
+      </chapter>
+    </body>
+    <conclusions eId="eId">
+      <p class="signatures">
+        <signature>
+          <p>
+            <person refersTo="אהוד_אולמרט">אהוד אולמרט</person>
+            <role refersTo="ראש_הממשלה">ראש הממשלה</role>
+          </p>
+        </signature>
+        <signature>
+          <p>
+            <person refersTo="אבי_דיכטר">אבי דיכטר</person>
+            <role refersTo="השר_לביטחון_הפנים">השר לביטחון הפנים</role>
+          </p>
+        </signature>
+        <signature>
+          <p>
+            <person refersTo="שמעון_פרס">שמעון פרס</person>
+            <role refersTo="נשיא_המדינה">נשיא המדינה</role>
+          </p>
+        </signature>
+        <signature>
+          <p>
+            <person refersTo="דליה_איציק">דליה איציק</person>
+            <role refersTo="יושבת_ראש_הכנסת">יושבת ראש הכנסת</role>
+          </p>
+        </signature>
+      </p>
+    </conclusions>
+  </act>
+</akomaNtoso>

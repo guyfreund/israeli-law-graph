@@ -1,0 +1,1775 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion" name="publicLaw">
+    <meta>
+      <identification source="#kensset">
+        <FRBRWork>
+          <FRBRthis value="/akn/il/act/PrimaryLegislation/1987-04-05/151445/main" />
+          <FRBRuri value="/akn/il/act/PrimaryLegislation/1987-04-05/151445" />
+          <FRBRdate date="1987-04-05" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRcountry value="israel" />
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/il/act/PrimaryLegislation/1987-04-05/151445/he@/main" />
+          <FRBRuri value="/akn/il/act/PrimaryLegislation/1987-04-05/151445/he@" />
+          <FRBRdate date="1987-04-05" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRlanguage language="hebrew" />
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/il/act/PrimaryLegislation/1987-04-05/151445/he@/main.xml" />
+          <FRBRuri value="/akn/il/act/PrimaryLegislation/1987-04-05/151445/he@" />
+          <FRBRdate date="1987-04-05" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRformat value="xml" />
+        </FRBRManifestation>
+      </identification>
+      <classification source="#kensset">
+        <keyword value="{classificationValue}" showAs="{classificationValue}" dictionary="#classification_dictionary" />
+      </classification>
+      <lifecycle source="#kensset">
+        <eventRef eId="eventRef_1" date="1987-04-05" source="#kensset" type="generation" />
+      </lifecycle>
+      <references source="#kensset">
+        <TLCOrganization eId="kensset" href="/ontology/organization/akn/knesset" showAs="Kensset" type="generation" />
+        <TLCRole eId="author" href="/ontology/role/akn/author" showAs="Author of Document" />
+        <TLCProcess eId="inforce" href="/ontology/process/akn/inforce" showAs="In force" />
+        <TLCTerm eId="term_1" href="/ontology/term/אזור/151445" showAs="אזור" />
+        <TLCTerm eId="term_2" href="/ontology/term/בעל_ציוד/151445" showAs="בעל_ציוד" />
+        <TLCTerm eId="term_3" href="/ontology/term/בעלי_חיים/151445" showAs="בעלי_חיים" />
+        <TLCTerm eId="term_4" href="/ontology/term/הבעל_הרשום_של_ציוד/151445" showAs="הבעל_הרשום_של_ציוד" />
+        <TLCTerm eId="term_5" href="/ontology/term/הפרשי_הצמדה_וריבית/151445" showAs="הפרשי_הצמדה_וריבית" />
+        <TLCTerm eId="term_6" href="/ontology/term/המנהל/151445" showAs="המנהל" />
+        <TLCTerm eId="term_7" href="/ontology/term/חוק_שירות_ביטחון/151445" showAs="חוק_שירות_ביטחון" />
+        <TLCTerm eId="term_8" href="/ontology/term/חוק_השיפוט_הצבאי/151445" showAs="חוק_השיפוט_הצבאי" />
+        <TLCTerm eId="term_9" href="/ontology/term/חלקי_עזר/151445" showAs="חלקי_עזר" />
+        <TLCTerm eId="term_10" href="/ontology/term/כלי_תחבורה/151445" showAs="כלי_תחבורה" />
+        <TLCTerm eId="term_11" href="/ontology/term/מיתקנים/151445" showAs="מיתקנים" />
+        <TLCTerm eId="term_12" href="/ontology/term/מפקד_מוסמך/151445" showAs="מפקד_מוסמך" />
+        <TLCTerm eId="term_13" href="/ontology/term/פוקד/151445" showAs="פוקד" />
+        <TLCTerm eId="term_14" href="/ontology/term/פקודות_הצבא/151445" showAs="פקודות_הצבא" />
+        <TLCTerm eId="term_15" href="/ontology/term/ציוד/151445" showAs="ציוד" />
+        <TLCTerm eId="term_16" href="/ontology/term/ציוד_הנדסי/151445" showAs="ציוד_הנדסי" />
+        <TLCTerm eId="term_17" href="/ontology/term/ציוד_עודף/151445" showAs="ציוד_עודף" />
+        <TLCTerm eId="term_18" href="/ontology/term/ציוד_רשום/151445" showAs="ציוד_רשום" />
+        <TLCTerm eId="term_19" href="/ontology/term/רכב/151445" showAs="רכב" />
+        <TLCPerson eId="יצחק_שמיר" href="/ontology/person/יצחק_שמיר" showAs="יצחק שמיר" />
+        <TLCPerson eId="יצחק_רבין" href="/ontology/person/יצחק_רבין" showAs="יצחק רבין" />
+        <TLCPerson eId="חיים_הרצוג" href="/ontology/person/חיים_הרצוג" showAs="חיים הרצוג" />
+        <TLCRole eId="ראש_הממשלה" href="ontology/role/akn/ראש_הממשלה" showAs="ראש הממשלה" />
+        <TLCRole eId="שר_הבטחון" href="ontology/role/akn/שר_הבטחון" showAs="שר הבטחון" />
+        <TLCRole eId="נשיא_המדינה" href="ontology/role/akn/נשיא_המדינה" showAs="נשיא המדינה" />
+      </references>
+      <temporalData source="#kensset">
+        <temporalGroup eId="tmpg_1" />
+      </temporalData>
+      <Publication></Publication>
+      <proprietary wikiversion="7/22/2020 11:13:03 PM" />
+    </meta>
+    <body period="#tmpg_1">
+      <title eId="title">
+        <content>
+          <p>חוק רישום ציוד וגיוסו לצבא־הגנה לישראל, התשמ"ז–1987</p>
+        </content>
+      </title>
+      <chapter eId="chp_א">
+        <num>פרק א׳:</num>
+        <title>
+          <content>
+            <p>פרשנות ותחולה</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_1" class="definitions">
+            <heading>
+              <authorialNote placement="side">
+                <p>הגדרות</p>
+              </authorialNote>
+            </heading>
+            <num>1.</num>
+            <list>
+              <intro>
+                <p>בחוק זה –</p>
+              </intro>
+              <point eId="point_1__point_אזור">
+                <content>
+                  <p>
+                    <def />”אזור“ – כהגדרתו <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/תקנות_שעת_חירום_יהודה_והשומרון_שיפוט_בעבירות_ועזרה_משפטית">בחוק להארכת תקפן של תקנות שעת חירום (יהודה והשומרון – שיפוט בעבירות ועזרה משפטית), התשכ"ח–1967</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_בעל_ציוד">
+                <content>
+                  <p>
+                    <def />”בעל ציוד“ – לרבות מי שיש לו חזקה או שליטה בציוד;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_בעלי_חיים">
+                <content>
+                  <p>
+                    <def />”בעלי חיים“ – <wikicomment font-size="x-small">(נמחקה);</wikicomment></p>
+                </content>
+              </point>
+              <point eId="point_1__point_הבעל_הרשום_של_ציוד">
+                <content>
+                  <p>
+                    <def />”הבעל הרשום של ציוד“ – מי שהוא הבעל הרשות של הציוד לפי פרטים ומסמכים שנמסרו לפי <ref href="#point_4">סעיף 4</ref>, ובהעדר רישום כאמור – הבעל הרשום של הציוד לפי כל רישום אחר המנוהל לפי דין;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_הפרשי_הצמדה_וריבית">
+                <content>
+                  <p>
+                    <def />”הפרשי הצמדה וריבית“ – כמשמעותם <ref href="/akn/il/act/PrimaryLegislation/1979-01-01/148271">בחוק פסיקת ריבית והצמדה, התשכ"א–1961</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_המנהל">
+                <content>
+                  <p>
+                    <def />”המנהל“ – מי ששר הבטחון הסמיכו לענין <ref href="#chp_ג">פרק ג׳</ref>, לרבות מי שהמנהל אצל לו מסמכויותיו;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_חוק_שירות_ביטחון">
+                <content>
+                  <p>
+                    <def />”חוק שירות ביטחון“ – <ref href="/akn/il/act/PrimaryLegislation/1986-01-30/2002309">חוק שירות ביטחון [נוסח משולב], התשמ"ו–1986</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_חוק_השיפוט_הצבאי">
+                <content>
+                  <p>
+                    <def />”חוק השיפוט הצבאי“ – <ref href="/akn/il/act/PrimaryLegislation/1955-07-20/148698">חוק השיפוט הצבאי, התשט"ו–1955</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_חלקי_עזר">
+                <content>
+                  <p>
+                    <def />”חלקי עזר“ – חלקי ציוד, חלקי חילוף, ציוד עזר, ציוד מחובר ואבזרים אחרים, וכן ספרות מקצועית ומידע אחר להפעלה ואחזקה של כל אחד מאלה;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_כלי_תחבורה">
+                <content>
+                  <p>
+                    <def />”כלי תחבורה“ – כלי רכב, רכבות, כלי טיס, כלי שיט, בין ממונעים ובין שאינם ממונעים, לרבות נגררים וחלקי עזר של כל אחד מאלה;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_מיתקנים">
+                <list>
+                  <intro>
+                    <p>
+                      <def />”מיתקנים“ – נכסים מהמפורטים להלן, ששר הבטחון הכריז על הצורך בגיוסם בצו לפי <ref href="#point_8">סעיף 8</ref> וכל עוד הצו עומד בתקפו:</p>
+                  </intro>
+                  <point eId="point_1__point_מיתקנים__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>מיתקני חשמל, קשר, רפואה, מטאורולוגיה ומחשבים וחלקי חילוף לכל אחד מאלה;</p>
+                    </content>
+                  </point>
+                  <point eId="point_1__point_מיתקנים__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>בתי מלאכה, מוסכים, מעבדות, מחסנים ובתי מסחר לחלפים;</p>
+                    </content>
+                  </point>
+                  <point eId="point_1__point_מיתקנים__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>מכונות, מנועים, משאבות, מכשירים וכלים לייצור ותיקון של כל אחד מאלה;</p>
+                    </content>
+                  </point>
+                  <point eId="point_1__point_מיתקנים__point_4">
+                    <num>(4)</num>
+                    <content>
+                      <p>מוצרים ומצרכים אחרים המשמשים או עשויים לשמש את הצבא;</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_1__point_מפקד_מוסמך">
+                <content>
+                  <p>
+                    <def />”מפקד מוסמך“ – פוקד וכן אדם שפוקד הסמיכו לפי חוק זה להיות מפקד מוסמך;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_פוקד">
+                <content>
+                  <p>
+                    <def />”פוקד“ – אדם שנתמנה פוקד לפי חוק זה;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_פקודות_הצבא">
+                <content>
+                  <p>
+                    <def />”פקודות הצבא“ – כהגדרתן <ref href="/akn/il/act/PrimaryLegislation/1955-07-20/148698">בחוק השיפוט הצבאי</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_ציוד">
+                <content>
+                  <p>
+                    <def />”ציוד“ – כלי תחבורה, ציוד הנדסי ומיתקנים;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_ציוד_הנדסי">
+                <content>
+                  <p>
+                    <def />”ציוד הנדסי“ – טרקטורים, מכונות חפירה, חציבה, בניה, הרמה או העמסה וכן ציוד הנדסי אחר וחלקי עזר של כל אחד מאלה;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_ציוד_עודף">
+                <content>
+                  <p>
+                    <def />”ציוד עודף“ – ציוד שנתקיימו לגביו הוראות <ref href="#point_28">סעיף 28</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_ציוד_רשום">
+                <content>
+                  <p>
+                    <def />”ציוד רשום“ – ציוד שנרשם לפי <ref href="#point_3">סעיף 3(א)</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_רכב">
+                <content>
+                  <p>
+                    <def />”רכב“ – כהגדרתו <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_התעבורה">בפקודת התעבורה</ref>.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_2">
+            <heading>
+              <authorialNote placement="side">
+                <p>תחולה לגבי ציוד באזור</p>
+              </authorialNote>
+            </heading>
+            <num>2.</num>
+            <content>
+              <p>הוראות חוק זה והתקנות שלפיו, לרבות כל צו והוראה אחרת לפיהם, יחולו לגבי ציוד גם כאשר הציוד או בעלו נמצא באזור ובלבד שבעל הציוד הוא תושב ישראל, אזרח ישראלי, תאגיד רשום בישראל או תאגיד שהשליטה בו היא בידי תושב ישראל, בידי אזרח ישראלי או בידי המדינה, אף אם התאגיד אינו רשום בישראל.</p>
+            </content>
+          </point>
+        </list>
+      </chapter>
+      <chapter eId="chp_ב">
+        <num>פרק ב׳:</num>
+        <title>
+          <content>
+            <p>רישום ציוד, הערכתו וגיוסו</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_3">
+            <heading>
+              <authorialNote placement="side">
+                <p>רישום ציוד</p>
+              </authorialNote>
+            </heading>
+            <num>3.</num>
+            <list>
+              <point eId="point_3__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>פוקד רשאי לרשום ציוד ולהציבו ליחידות הצבא השונות לשם גיוסו לצבא־הגנה לישראל; הרישום יכנס לתוקף ביום שנשלחה הודעה עליו לבעל הציוד בדואר רשום.</p>
+                </content>
+              </point>
+              <point eId="point_3__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>שר הבטחון רשאי להתקין תקנות בדבר אופן רישום ציוד וסימונו, הצבתו וגיוסו.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_3א">
+            <heading>
+              <authorialNote placement="side">
+                <p>הודעת בעל ציוד לבעלי זכות בציוד</p>
+              </authorialNote>
+            </heading>
+            <num>3א.</num>
+            <content>
+              <p>עם קבלת ההודעה על רישום ציוד כאמור <ref href="#point_3">בסעיף 3(א)</ref>, יודיע בעל הציוד על הרישום, בהקדם האפשרי, לכל מי שיש לו זכות בעלות או זכות אחרת בציוד.</p>
+            </content>
+          </point>
+          <point eId="point_3ב">
+            <heading>
+              <authorialNote placement="side">
+                <p>מינוי ממונה על ציוד בחבר בני אדם</p>
+              </authorialNote>
+            </heading>
+            <num>3ב.</num>
+            <content>
+              <p>נשלחה הודעה כאמור <ref href="#point_3">בסעיף 3(א)</ref> לבעל ציוד שהוא חבר בני אדם, ימנה חבר בני האדם בעל תפקיד בו שיהיה מוסמך לפעול בשמו בכל עניין לפי חוק זה, ויודיע על המינוי כאמור למפקד מוסמך.</p>
+            </content>
+          </point>
+          <point eId="point_3ג">
+            <heading>
+              <authorialNote placement="side">
+                <p>ועדה לשחרור ציוד</p>
+              </authorialNote>
+            </heading>
+            <num>3ג.</num>
+            <list>
+              <point eId="point_3ג__point_א">
+                <num>(א)</num>
+                <list>
+                  <intro>
+                    <p>מוקמת בזה ועדה לשחרור ציוד (בסעיף זה – הוועדה), וזה הרכבה:</p>
+                  </intro>
+                  <point eId="point_3ג__point_א__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>מפקד המרכז לגיוס אמצעים וריתוק משקי באגף הטכנולוגיה והלוגיסטיקה בצבא־הגנה לישראל (להלן – מרכז לאו"ם) והוא יהיה היושב ראש;</p>
+                    </content>
+                  </point>
+                  <point eId="point_3ג__point_א__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>שישה נציגים של השרים האלה: שר הביטחון, שר התעשיה המסחר והתעסוקה, שר החקלאות ופיתוח הכפר, שר הפנים, שר התחבורה והבטיחות בדרכים ושר הבריאות, שימנה כל שר מקרב עובדי משרדו;</p>
+                    </content>
+                  </point>
+                  <point eId="point_3ג__point_א__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>נציג הוועדה העליונה למשק שעת חירום, שימנה שר הביטחון;</p>
+                    </content>
+                  </point>
+                  <point eId="point_3ג__point_א__point_4">
+                    <num>(4)</num>
+                    <content>
+                      <p>נציג מע"צ – החברה הלאומית לדרכים בע"מ, שימנה המנהל הכללי של החברה;</p>
+                    </content>
+                  </point>
+                  <point eId="point_3ג__point_א__point_5">
+                    <num>(5)</num>
+                    <content>
+                      <p>נציג מפקד מרכז לאו"ם, שימנה מפקד המרכז.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_3ג__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>רשם פוקד ציוד לפי <ref href="#point_3">סעיף 3</ref>, רשאי הבעל הרשום של הציוד לפנות לוועדה בבקשה למחיקת הרישום.</p>
+                </content>
+              </point>
+              <point eId="point_3ג__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>הוועדה רשאית להמליץ לפני ראש אגף הטכנולוגיה והלוגיסטיקה בצבא־הגנה לישראל, או קצין בדרגת תת־אלוף שהוא הסמיך לכך, לאשר את הבקשה, לדחותה או לאשרה בתנאים.</p>
+                </content>
+              </point>
+              <point eId="point_3ג__point_ד">
+                <num>(ד)</num>
+                <content>
+                  <p>סדרי עבודתה של הוועדה וסדרי הדיונים בה ייקבעו בפקודות הצבא.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_4">
+            <heading>
+              <authorialNote placement="side">
+                <p>מסירת פרטים</p>
+              </authorialNote>
+            </heading>
+            <num>4.</num>
+            <list>
+              <point eId="point_4__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>בעל ציוד חייב, מעת לעת, לפי דרישת מפקד מוסמך, למסור לו פרטים ומסמכים לגבי הציוד, לגבי בעל הציוד ולגבי כל מי שנדרש כאמור <ref href="#point_12">בסעיף 12</ref> ליתן פרטים על הציוד ולמסרם בשמו, ככל שפרטים ומסמכים כאמור מצויים או צריכים להימצא ברשותו או בידיעתו, והכל כפי שנקבע בתקנות לפי סעיף קטן (ב).</p>
+                </content>
+              </point>
+              <point eId="point_4__point_ב">
+                <num>(ב)</num>
+                <list>
+                  <intro>
+                    <p>שר הבטחון רשאי להתקין תקנות בדבר –</p>
+                  </intro>
+                  <point eId="point_4__point_ב__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>הפרטים והמסמכים שיש למסרם לפי סעיף קטן (א);</p>
+                    </content>
+                  </point>
+                  <point eId="point_4__point_ב__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>אופן מסירת הפרטים והמסמכים והאחראים למסירתם, לרבות הטלת חובה להתייצב במקום פלוני בזמן פלוני לשם מסירתם;</p>
+                    </content>
+                  </point>
+                  <point eId="point_4__point_ב__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>מתן הודעה על כל מקרה שחל שינוי באחד הפרטים, לרבות שינוי בבעלות על הציוד או בחזקה או בשליטה בו, וכן עדכון של פרטים על פי דרישת מפקד מוסמך;</p>
+                    </content>
+                  </point>
+                  <point eId="point_4__point_ב__point_4">
+                    <num>(4)</num>
+                    <content>
+                      <p>מתן הודעה על החזרת ציוד שהוצא מישראל או מאזור;</p>
+                    </content>
+                  </point>
+                  <point eId="point_4__point_ב__point_5">
+                    <num>(5)</num>
+                    <content>
+                      <p>אופן בירור הנכונות להתנדב לפי <ref href="#point_14">סעיף 14</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_4__point_ב__point_6">
+                    <num>(6)</num>
+                    <content>
+                      <p>חובת דיווח על מקום הימצאו של בעל ציוד ועל מקום הימצא הציוד.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+            </list>
+          </point>
+          <point eId="point_5">
+            <heading>
+              <authorialNote placement="side">
+                <p>איסור הוצאת ציוד אל מחוץ לישראל ולאזור</p>
+              </authorialNote>
+            </heading>
+            <num>5.</num>
+            <list>
+              <point eId="point_5__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>ציוד שניתן עליו צו לפי <ref href="#point_6">סעיפים 6</ref>, <ref href="#point_7">7</ref><ref href="#point_8">או 8</ref> וכן ציוד ששר הביטחון קבע שהוא דרוש לצבא מטעמים של כוננות ביטחונית, לא יוצאו אל מחוץ לישראל ולאזור כל עוד הצו או הקביעה עומדים בתוקפם אלא לפי אישור מאת פוקד; קביעת שר הביטחון לפי סעיף זה תובא, בהקדם האפשרי ולא יאוחר מ־48 שעות מעת שניתנה, לידיעת ועדת החוץ והביטחון של הכנסת.</p>
+                </content>
+              </point>
+              <point eId="point_5__point_א1">
+                <num>(א1)</num>
+                <content>
+                  <p>שר הביטחון רשאי, אם שוכנע שביטחון המדינה מחייב זאת, לקבוע, בצו, באישור ועדת החוץ והביטחון של הכנסת, איסור על הוצאת ציוד רשום מסוים או סוג מסוים של ציוד רשום, כפי שיקבע, אל מחוץ לישראל ולאזור, כל עוד הצו עומד בתוקפו.</p>
+                </content>
+              </point>
+              <point eId="point_5__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>
+                    <wikicomment font-size="x-small">(בוטל).</wikicomment>
+                  </p>
+                </content>
+              </point>
+              <point eId="point_5__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>
+                    <wikicomment font-size="x-small">(בוטל).</wikicomment>
+                  </p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_6">
+            <heading>
+              <authorialNote placement="side">
+                <p>בדיקת ציוד והערכתו</p>
+              </authorialNote>
+            </heading>
+            <num>6.</num>
+            <list>
+              <point eId="point_6__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>מפקד מוסמך רשאי, בצו, לדרוש מבעל ציוד רשום להמציאו לשם בדיקה, הערכה, תיעוד או כל פעולה אחרת הנדרשת לשם הכנת הציוד לשימוש בידי הצבא (בחוק זה – בדיקה והערכה) במקום, בזמן ובאופן שנקבעו בצו, או להרשות את בדיקתו והערכתו במקום הימצאו; צו כאמור יישלח לבעל הציוד הרשום במועד שייקבע בפקודות הצבא.</p>
+                </content>
+              </point>
+              <point eId="point_6__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>בעל ציוד שנדרש להמציאו, או להרשות את בדיקתו והערכתו כאמור, חייב לעשות כן ולהשאירו במקום שנקבע לכך עד תום הבדיקה וההערכה, אך לא יותר מאשר לשתים עשרה שעות; פוקד רשאי להחליט על הארכת משך הבדיקה וההערכה בשתים עשרה שעות נוספות.</p>
+                </content>
+              </point>
+              <point eId="point_6__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>הבדיקה וההערכה ייעשו בידי אדם שפוקד הסמיכו לכך בכתב.</p>
+                </content>
+              </point>
+              <point eId="point_6__point_ד">
+                <num>(ד)</num>
+                <content>
+                  <p>בעל הציוד או בא כוחו רשאי להיות נוכח בשעת הבדיקה וההערכה.</p>
+                </content>
+              </point>
+              <point eId="point_6__point_ה">
+                <num>(ה)</num>
+                <list>
+                  <intro>
+                    <p>שר הבטחון רשאי לקבוע בתקנות פרטים בדבר –</p>
+                  </intro>
+                  <point eId="point_6__point_ה__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>סדרי הבדיקה וההערכה;</p>
+                    </content>
+                  </point>
+                  <point eId="point_6__point_ה__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>התקופות המזעריות והמרביות בין בדיקה לבדיקה;</p>
+                    </content>
+                  </point>
+                  <point eId="point_6__point_ה__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>התנאים שבהם מותרת בדיקה שלא מן המנין;</p>
+                    </content>
+                  </point>
+                  <point eId="point_6__point_ה__point_4">
+                    <num>(4)</num>
+                    <content>
+                      <p>חובות המוטלות על בעל ציוד כדי לאפשר או להקל את בדיקתו או הערכתו של הציוד;</p>
+                    </content>
+                  </point>
+                  <point eId="point_6__point_ה__point_5">
+                    <num>(5)</num>
+                    <content>
+                      <p>דרכי סימון הציוד ודרך ההוכחה בדבר מילוי חובת הבדיקה.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+            </list>
+          </point>
+          <point eId="point_7">
+            <heading>
+              <authorialNote placement="side">
+                <p>גיוס ציוד</p>
+              </authorialNote>
+            </heading>
+            <num>7.</num>
+            <list>
+              <point eId="point_7__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>מפקד מוסמך רשאי, בצו, באישור פוקד, להורות על גיוס ציוד רשום לצרכי תרגיל, כוננות ואימון, בזמן ובאופן שנקבעו בצו; ניתן צו כאמור, חייב בעל הציוד להעמידו לרשות הצבא בהתאם לצו, יחד עם חלקי העזר המקובלים לאותו סוג ציוד וכן עם חלקי עזר אחרים ודלק כפי ששר הבטחון יקבע בתקנות.</p>
+                </content>
+              </point>
+              <point eId="point_7__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>פוקד רשאי, באישור שר הבטחון, להורות על גיוס ציוד רשום לצורך פעילות מבצעית או למטרות אחרות שאינן מפורטות בסעיף קטן (א).</p>
+                </content>
+              </point>
+              <point eId="point_7__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>מפקד מוסמך רשאי, בצו, להורות לבעל ציוד רשום לפנות, בזמן שנקבע בצו, לכל מקום שפורש בצו, כדי לקבל פרטים על המקום שבו על בעל הציוד להעמידו לרשות הצבא.</p>
+                </content>
+              </point>
+              <point eId="point_7__point_ד">
+                <num>(ד)</num>
+                <content>
+                  <p>נבצר מבעל הציוד הרשום להעמיד את הציוד לרשות הצבא בהתאם לצו, יתייצב מיד אישית לפני נותן הצו, או לפני מי שנותן הצו הסמיכו לכך, יודיע לו את הנסיבות המונעות אותו מלקיים את הצו ויפעל על פי הוראותיו; נבצר מבעל הציוד להתייצב אישית, רשאי הוא לשלוח לצורך זה את בא כוחו, ובלבד שבידיו הידיעות והמסמכים הנוגעים לענין.</p>
+                </content>
+              </point>
+              <point eId="point_7__point_ה">
+                <num>(ה)</num>
+                <content>
+                  <p>חל שינוי בזהות בעל הציוד שעליו ניתן צו לפי סעיף קטן (א) או (ב), והצו נמסר למי שהיה בעלו לפני השינוי, חייב הוא למסרו למי שהיה לבעלו לאחר השינוי, ומשעשה כן חייב הבעל החדש בקיום הצו כאילו היה שמו נקוב בו.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_8">
+            <heading>
+              <authorialNote placement="side">
+                <p>גיוס על פי צו שר הבטחון</p>
+              </authorialNote>
+            </heading>
+            <num>8.</num>
+            <list>
+              <point eId="point_8__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>שר הבטחון רשאי, אם הוא משוכנע שבטחון המדינה מחייב זאת, להכריז בצו על הצורך בגיוס ציוד, כולו או מקצתו.</p>
+                </content>
+              </point>
+              <point eId="point_8__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>צו שניתן לפי סעיף קטן (א), יביאו שר הבטחון, בהקדם האפשרי לאחר הינתנו, לידיעת ועדת החוץ והבטחון של הכנסת.</p>
+                </content>
+              </point>
+              <point eId="point_8__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>הועדה רשאית לאשר את הצו בשינויים או בלי שינויים, או לא לאשרו או להביאו לפני הכנסת; תקפו של הצו יפקע כעבור שבעה ימים מיום הינתנו זולת אם אושר, וכפי שאושר, בידי הועדה או הכנסת לפני תום המועד האמור.</p>
+                </content>
+              </point>
+              <point eId="point_8__point_ד">
+                <num>(ד)</num>
+                <content>
+                  <p>נתן שר הבטחון צו לפי סעיף קטן (א) רשאי מפקד מוסמך להשתמש בסמכויות הנתונות לו לפי <ref href="#point_7">סעיף 7</ref> לגבי אותו ציוד ויחולו על גיוס ציוד זה הוראות הנוגעות לגיוס לפי סעיף זה.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_9">
+            <heading>
+              <authorialNote placement="side">
+                <p>תיקון והתקנה של אבזרים</p>
+              </authorialNote>
+            </heading>
+            <num>9.</num>
+            <list>
+              <point eId="point_9__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>הועמד ציוד לפי חוק זה לרשות הצבא, רשאי הצבא לתקן כל קלקול או נזק שנגרם לציוד, להתקין בו אבזרים, אם האבזרים אינם פוגעים בשימוש הסביר באותו ציוד, או להכינו בדרך אחרת לשימוש בידי הצבא, ובלבד שהפגיעה העלולה להיגרם לציוד כתוצאה מהתיקון, ההתקנה או הפעולה האחרת כאמור, היא הפגיעה המזערית האפשרית בנסיבות העניין ואין בה כדי לפגוע בשימוש הסביר באותו ציוד לאחר שיוחזר לבעל הציוד.</p>
+                </content>
+              </point>
+              <point eId="point_9__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>בתום תקופת השירות יוחזר הציוד האמור בסעיף קטן (א) לבעל הציוד ללא האבזרים שהותקנו בו, אולם מפקד מוסמך רשאי להורות שלא יסירו את האבזרים, גם לאחר תום תקופת השירות, ללא היתר מאת מפקד מוסמך, ובלבד שהאבזרים האמורים אינם גורעים מיעילות הציוד ומצורתו ואינם פוגעים בבטיחותו, ואם הוא כלי תחבורה – גם בבטיחות שאר המשתמשים בדרך; ניתנה הוראה כאמור, יהיה בעל הציוד חייב לנהוג באבזרים שהותקנו באותה מידת זהירות שאדם נוהג ברכושו ולהחזירם לצבא בעת שיידרש לכך או כשהציוד עצמו יצא מכלל שימוש.</p>
+                </content>
+              </point>
+              <point eId="point_9__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>על אף האמור בסעיף קטן (ב), מפקד מוסמך לא יורה שלא להסיר אבזרים מכלי רכב בתום תקופת שירות אם יש בהם משום שינוי במבנה הרכב, הסותר הוראות <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_התעבורה">פקודת התעבורה</ref> והתקנות שלפיה.</p>
+                </content>
+              </point>
+              <point eId="point_9__point_ד">
+                <num>(ד)</num>
+                <content>
+                  <p>בסעיף זה, ”התקנת אבזרים“ – לרבות הוספת חלקים, תיאומם ושינוים.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_10">
+            <heading>
+              <authorialNote placement="side">
+                <p>תפיסת ציוד</p>
+              </authorialNote>
+            </heading>
+            <num>10.</num>
+            <list>
+              <point eId="point_10__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>ניתן צו על ציוד לפי <ref href="#point_6">סעיפים 6</ref>, <ref href="#point_7">7</ref><ref href="#point_8">או 8</ref> ובעל הציוד לא קיים את הצו, רשאי מפקד מוסמך או מי שהוא הסמיכו לכך, לתפוס את הציוד למטרה שלשמה ניתן הצו.</p>
+                </content>
+              </point>
+              <point eId="point_10__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>ניתן צו על ציוד, לפי <ref href="#point_8">סעיף 8</ref>, לגבי מיתקן שאינו ניתן להעברה או שאין זה מעשי בנסיבות הענין להעבירו, רשאי מפקד מוסמך להורות על גיוס הציוד במקום הימצאו ולצורך כך רשאי הוא או מי שהוא הסמיכו לכך להיכנס למקרקעין שבהם מצוי הציוד ולהפעילו שם.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_11">
+            <heading>
+              <authorialNote placement="side">
+                <p>התייצבות המחזיק בציוד</p>
+              </authorialNote>
+            </heading>
+            <num>11.</num>
+            <list>
+              <point eId="point_11__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>הוצב כלי תחבורה או ציוד הנדסי ליחידה לפי חוק זה, והאדם שיש לו חזקה או שליטה באותו ציוד נקרא לשירות ביטחון כהגדרתו <ref href="/akn/il/act/PrimaryLegislation/1986-01-30/2002309">בחוק שירות ביטחון</ref> (בסעיף זה – מחזיק ציוד), לא יתייצב אותו אדם לשירות הבטחון עם ציוד כאמור, אלא אם כן הוא משרת כנהג הצמוד לאותו ציוד או כמפעילו הצמוד של אותו ציוד.</p>
+                </content>
+              </point>
+              <point eId="point_11__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>מחזיק ציוד שאינו משרת כנהג צמוד לאותו ציוד או כמפעילו הצמוד של אותו ציוד יציב אותו, לפני התייצבותו לשירות כאמור, במקום שנקבע לכך בפרטים שמסר לאחרונה מכוח חוק זה או התקנות שהותקנו לפיו.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_12">
+            <heading>
+              <authorialNote placement="side">
+                <p>מחזיק ציוד שנעדר בשעות גיוס</p>
+              </authorialNote>
+            </heading>
+            <num>12.</num>
+            <list>
+              <intro>
+                <p>ניתן צו לגיוס ציוד לפי <ref href="#point_8">סעיף 8</ref> ובשעה שיש לקיים את הצו נעדר מחזיק הציוד כמשמעותו <ref href="#point_11">בסעיף 11(א)</ref>, מחמת שירות לפי <ref href="/akn/il/act/PrimaryLegislation/1986-01-30/2002309">חוק שירות בטחון</ref> או מכל סיבה אחרת, יחולו כללים אלה:</p>
+              </intro>
+              <point eId="point_12__point_1">
+                <num>(1)</num>
+                <content>
+                  <p>מחזיק הציוד ימסור את כל הפרטים הנדרשים לפי פסקה (2) לבן משפחה בוגר הגר עמו, ובהעדרו – לאדם שמסר את שמו ומענו בעת רישום הציוד כאמור <ref href="#point_4">בסעיף 4</ref>, וכן ישאיר בידי בן משפחה או אדם כאמור את המפתחות לציוד ואת חלקי העזר האחרים של הציוד הנמצאים ברשותו;</p>
+                </content>
+              </point>
+              <point eId="point_12__point_2">
+                <num>(2)</num>
+                <content>
+                  <p>מי ששמו נמסר כאמור בפסקה (1) ימסור למפקד מוסמך או למי שהוא הסמיכו לכך, לפי דרישתו, פרטים על הציוד, לרבות פרטים על מקום הימצאו אותה שעה, ככל שהם ידועים לו, וכל מסמך ודבר אחר הנמצא ברשותו והנוגע לענין, הכל כדי לאפשר קבלת חזקה בציוד והפעלתו.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_13">
+            <heading>
+              <authorialNote placement="side">
+                <p>תקופת החזקת הציוד בידי הצבא</p>
+              </authorialNote>
+            </heading>
+            <num>13.</num>
+            <list>
+              <point eId="point_13__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>לא יוחזק ציוד שניתן לגביו צו לפי <ref href="#point_7">סעיף 7</ref> לתקופה העולה על ארבעה עשר ימים בשנה; שר הבטחון רשאי להאריך תקופה זו עד לשלושים וחמישה ימים בשנה והוא יודיע על כך לוועדת החוץ והביטחון של הכנסת.</p>
+                </content>
+              </point>
+              <point eId="point_13__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>התקופה האמורה תהיה רצופה, אולם פוקד רשאי להורות כי בשנה פלונית תחולק תקופה זו לשניים או יותר.</p>
+                </content>
+              </point>
+              <point eId="point_13__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>בחישוב תקופת השירות השנתי תובא בחשבון תקופת התייצבות לצורך בדיקה או הערכת הציוד.</p>
+                </content>
+              </point>
+              <point eId="point_13__point_ד">
+                <num>(ד)</num>
+                <content>
+                  <p>ציוד שגוייס לפי <ref href="#point_8">סעיף 8</ref>, לא תחול לגביו הגבלת התקופה כאמור בסעיף קטן (א).</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_14">
+            <heading>
+              <authorialNote placement="side">
+                <p>התנדבות</p>
+              </authorialNote>
+            </heading>
+            <num>14.</num>
+            <list>
+              <point eId="point_14__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>מי שבבעלותו ציוד או רכוש אחר רשאי להתנדב להעמידם, בהסכמת מפקד מוסמך, לרשות הצבא ולשימושו.</p>
+                </content>
+              </point>
+              <point eId="point_14__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>מי שהתנדב כאמור בסעיף קטן (א), יראו את הציוד או הרכוש האחר שהעמיד, לכל דבר וענין, וכל עוד ההתנדבות וההסכמה כאמור לא בוטלו, כציוד שחל עליו חוק זה; הועמדו הציוד או הרכוש האחר בפועל לרשות הצבא, יראו אותם כציוד שגוייס מכוח <ref href="#point_7">סעיף 7</ref>, ואם באותה עת עומד בתוקפו צו לפי <ref href="#point_8">סעיף 8</ref> – כציוד שגויס מכוח <ref href="#point_8">אותו סעיף</ref>.</p>
+                </content>
+              </point>
+              <point eId="point_14__point_ג">
+                <num>(ג)</num>
+                <list>
+                  <intro>
+                    <p>על אף הוראות סעיף קטן (ב) –</p>
+                  </intro>
+                  <point eId="point_14__point_ג__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>רשאי מי שהתנדב כאמור בסעיף קטן (א), בהסכמת מפקד מוסמך, להעמיד את הציוד או את הרכוש האחר שנידב, לרשות הצבא, לתקופה העולה על התקופות המרביות הקבועות בחוק זה לגיוס ציוד או להחזקתו בידי הצבא;</p>
+                    </content>
+                  </point>
+                  <point eId="point_14__point_ג__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>ביטל מי שהתנדב כאמור בסעיף קטן (א) את התנדבותו, יוחזר לו הציוד או הרכוש האחר, בהקדם האפשרי ככל הניתן בנסיבות העניין.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+            </list>
+          </point>
+          <point eId="point_15">
+            <heading>
+              <authorialNote placement="side">
+                <p>החזרת ציוד</p>
+              </authorialNote>
+            </heading>
+            <num>15.</num>
+            <list>
+              <point eId="point_15__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>מפקד מוסמך יודיע לבעל הרשום של ציוד שהועמד לרשות הצבא לפי חוק זה את הזמן, המקום והדרך שבהם יוחזר הציוד לרשותו והבעל הרשום של הציוד או מי שהוא הסמיכו לעניין זה חייב לקבלו בהתאם לכך.</p>
+                </content>
+              </point>
+              <point eId="point_15__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>הבעל הרשום של הציוד זכאי לתשלום בעד ההוצאות הכרוכות בהעמדת הציוד לרשות הצבא ובקבלת הציוד לרשותו, הכל כפי שיקבע שר הביטחון בתקנות; אין הוראה זו באה לגרוע מהאמור <ref href="#chp_ג">בפרק ג׳</ref>.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_16">
+            <heading>
+              <authorialNote placement="side">
+                <p>שמירת זכויות אגב החזקת ציודה</p>
+              </authorialNote>
+            </heading>
+            <num>16.</num>
+            <content>
+              <p>זכויות שהיו קיימות אגב ההחזקה בציוד ערב העמדתו לרשות הצבא או תפיסתו לפי חוק זה, לא ייפגעו מחמת זה בלבד שהציוד הועמד לרשות הצבא או נתפס בידיו כאמור, אולם אין בהוראה זו כדי להגביל את סמכויות הצבא להשתמש בציוד כל עוד הוא ברשותו.</p>
+            </content>
+          </point>
+        </list>
+      </chapter>
+      <chapter eId="chp_ג">
+        <num>פרק ג׳:</num>
+        <title>
+          <content>
+            <p>דמי שימוש ופיצויים</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_17">
+            <heading>
+              <authorialNote placement="side">
+                <p>חובת תשלום דמי שימוש ופיצויים</p>
+              </authorialNote>
+            </heading>
+            <num>17.</num>
+            <list>
+              <point eId="point_17__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>המדינה תשלם דמי שימוש ראויים בעד הציוד שגויס ובעד ציוד שהוצא לגביו צו לפי <ref href="#point_5">סעיף 5</ref> ואם בתקופת הגיוס נגרם לציוד נזק – גם פיצויים בשל הנזק, והכל לפי הוראות חוק זה.</p>
+                </content>
+              </point>
+              <point eId="point_17__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>
+                    <wikicomment font-size="x-small">(בוטל).</wikicomment>
+                  </p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_18">
+            <heading>
+              <authorialNote placement="side">
+                <p>קביעת שיעור דמי שימוש</p>
+              </authorialNote>
+            </heading>
+            <num>18.</num>
+            <list>
+              <point eId="point_18__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>שר הביטחון יקבע, בצו, את שיעור דמי השימוש בעד ציוד שגויס ובעד ציוד שהוצא לגביו צו לפי <ref href="#point_5">סעיף 5</ref>.</p>
+                </content>
+              </point>
+              <point eId="point_18__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>בקביעת שיעור דמי השימוש בצו כאמור יובאו בחשבון, בין השאר, עלות הציוד, הזכות של הבעל הרשום של הציוד לתשואה הוגנת על ההון וכן מכלול הנסיבות הקשורות לגיוס הציוד ולשימוש בו.</p>
+                </content>
+              </point>
+              <point eId="point_18__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>שיעור דמי השימוש בעד ציוד שגויס או בעד ציוד שהוצא לגביו צו לפי <ref href="#point_5">סעיף 5</ref>, ולא נכלל בצו כאמור בסעיף קטן (א), ייקבע על ידי שמאי שמינה המנהל לעניין זה (בחוק זה – שמאי), שיביא בחשבון בקביעה זו, בין השאר, את השיקולים המפורטים בסעיף קטן (ב).</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_19">
+            <heading>
+              <authorialNote placement="side">
+                <p>מועד תשלום דמי שימוש</p>
+              </authorialNote>
+            </heading>
+            <num>19.</num>
+            <list>
+              <intro>
+                <p>דמי השימוש ישולמו –</p>
+              </intro>
+              <point eId="point_19__point_1">
+                <num>(1)</num>
+                <content>
+                  <p>בעד ציוד שגויס לתקופה שאינה עולה על שלושים וחמישה ימים – תוך שלושים ימים מיום שחרור הציוד;</p>
+                </content>
+              </point>
+              <point eId="point_19__point_2">
+                <num>(2)</num>
+                <content>
+                  <p>בעד ציוד שגויס לתקופה העולה על שלושים וחמישה ימים – לא יאוחר מאשר שלושים ימים מיום גיוס הציוד בעד התקופה שחלפה עד מועד התשלום, ומכאן ואילך בתשלומים שוטפים אחת לחודש; תוך שלושים ימים מיום שחרור הציוד תשולם יתרת דמי השימוש המגיעה;</p>
+                </content>
+              </point>
+              <point eId="point_19__point_3">
+                <num>(3)</num>
+                <content>
+                  <p>אבד הציוד שגוייס או נגרם לו נזק ששמאי הגדירו כציוד באבדן גמור, ישולמו דמי השימוש עד למועד תשלום הפיצויים וכן ישולם פיצוי נוסף בשיעור השווה לדמי שימוש בעד פרק הזמן שהשמאי קבע כדרוש, בנסיבות העניין, לרכישת ציוד חלופי מהסוג שאבד או שניזוק – והכל במועד לתשלום פיצויים כאמור <ref href="#point_21">בסעיף 21</ref>; שולמו הפיצויים בחלקם, ישולם פיצוי נוסף חלקי גם בעד התקופה שעד מועד תשלום יתרת הפיצויים, לפי חלקה היחסי של יתרת הפיצויים במלוא הפיצויים; לענין <ref href="#chp_ג">פרק זה</ref>, ”ציוד באבדן גמור“ – ציוד שניזוק באופן שאין זה אפשרי או סביר, בנסיבות הענין, לתקנה.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_20">
+            <heading>
+              <authorialNote placement="side">
+                <p>תיקון נזק ופיצויים בשל נזק</p>
+              </authorialNote>
+            </heading>
+            <num>20.</num>
+            <list>
+              <point eId="point_20__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>נגרם נזק לציוד שגויס, והנזק לא תוקן על ידי הצבא עד למועד שחרור הציוד, תפצה המדינה את בעל הציוד בשל הנזק הישיר שנגרם לציוד, לפי הוראות <ref href="#chp_ג">פרק זה</ref>.</p>
+                </content>
+              </point>
+              <point eId="point_20__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>בנוסף לפיצוי האמור בסעיף קטן (א) ישולם פיצוי נוסף בשיעור השווה לדמי שימוש בעד פרק הזמן שהשמאי קבע כדרוש בנסיבות הענין לתיקונו של ציוד מהסוג שניזוק.</p>
+                </content>
+              </point>
+              <point eId="point_20__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>אבד הציוד שגויס או נגרם לו נזק, והשמאי קבע כי מדובר בציוד באבדן גמור, תשלם המדינה פיצויים בהתאם למצבו של הציוד ערב גיוסו, בהתחשב בערכו של ציוד דוגמתו במועד ביצוע התשלום, והציוד שאבד או שרידיו יקומו לקנין המדינה.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_21">
+            <heading>
+              <authorialNote placement="side">
+                <p>המועד לתשלום פיצויים</p>
+              </authorialNote>
+            </heading>
+            <num>21.</num>
+            <list>
+              <point eId="point_21__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>המועד לתשלום פיצויים כמפורט <ref href="#point_19">בסעיפים 19</ref><ref href="#point_20">או 20</ref> הוא תוך שלושים ימים מהיום שקבע המנהל את סכום הפיצויים ובלבד שקביעתו, על סמך חוות דעת השמאי, תינתן תוך שלושים ימים מיום שקיבל את כל המידע והמסמכים הדרושים לשם כך, מאת בעל הציוד, או תוך ששים ימים מיום שקיבל את המידע והמסמכים כאמור, אם שר הבטחון, באישור ועדת החוץ והבטחון של הכנסת קבע כי בשל טעמים מיוחדים הכרוכים בהיקף הגיוס, לא ניתן לקבוע את סכום הפיצויים קודם לכן.</p>
+                </content>
+              </point>
+              <point eId="point_21__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>על אף האמור בסעיף קטן (א), סכום פיצויים שאינו שנוי במחלוקת, ישולם תוך שלושים ימים מיום שחרור הציוד או תוך ששים ימים מיום שחרור הציוד, אם שר הבטחון, באישור ועדת החוץ והבטחון של הכנסת, קבע כי בשל טעמים מיוחדים הכרוכים בהיקף הגיוס, לא ניתן לשלם פיצויים קודם לכן.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_22">
+            <heading>
+              <authorialNote placement="side">
+                <p>הפרשי הצמדה וריבית</p>
+              </authorialNote>
+            </heading>
+            <num>22.</num>
+            <list>
+              <point eId="point_22__point_א">
+                <num>(א)</num>
+                <list>
+                  <intro>
+                    <p>על דמי שימוש ופיצויים יתווספו עד יום התשלום בפועל, ריבית והפרשי הצמדה מן המועדים כמפורט להלן:</p>
+                  </intro>
+                  <point eId="point_22__point_א__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>דמי שימוש שמועד תשלומם נקבע <ref href="#point_19">בסעיף 19(1) או (2)</ref> – מן המועדים שנקבעו לתשלומם, לפי הענין;</p>
+                    </content>
+                  </point>
+                  <point eId="point_22__point_א__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>דמי שימוש ופיצוי נוסף כאמור <ref href="#point_19">בסעיף 19(3)</ref> – מיום שהציוד היה אמור להשתחרר;</p>
+                    </content>
+                  </point>
+                  <point eId="point_22__point_א__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>פיצויים שמועד תשלומם נקבע <ref href="#point_21">בסעיף 21</ref> – ממועד הערכת השמאי את הנזק.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_22__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>הערכת נזק בידי השמאי תחושב תמיד כערכה ביום מתן ההערכה.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_23">
+            <heading>
+              <authorialNote placement="side">
+                <p>מקבל התשלום</p>
+              </authorialNote>
+            </heading>
+            <num>23.</num>
+            <list>
+              <point eId="point_23__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>תשלום לפי פרק זה יבוצע לידי מי שהוא הבעל הרשום של הציוד.</p>
+                </content>
+              </point>
+              <point eId="point_23__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>בוצע תשלום כאמור בסעיף קטן (א) לא תחול על המדינה כל חובה כלפי בעל ציוד שאינו הבעל הרשום, לבצע כל תשלום נוסף או לתת כל פיצוי לפי <ref href="#chp_ג">פרק זה</ref> בקשר לגיוס אותו ציוד.</p>
+                </content>
+              </point>
+              <point eId="point_23__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>אין בתשלום כאמור כדי לפגוע בזכותו של מי שזכאי לתשלום האמור מכח הסכם או על פי דין, לתבוע את השבתו ממי שקיבלו לפי סעיף קטן (א).</p>
+                </content>
+              </point>
+              <point eId="point_23__point_ד">
+                <num>(ד)</num>
+                <content>
+                  <p>מבלי לגרוע מהאמור <ref href="#point_16">בסעיף 16</ref>, חובת המדינה לבצע תשלום לא תושפע מחמת זכויות שהיו לאדם אחר שאינו הבעל הרשום, זולת אם הוטל עיקול על הכספים המגיעים לבעל הרשום כאמור, בשל השימוש בציוד או בשל נזק שנגרם לציוד או אם הודע למנהל על קיומו של מישכון או שיעבוד אחר על פי דין לגבי הציוד.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_24">
+            <heading>
+              <authorialNote placement="side">
+                <p>חובת מסירת מידע</p>
+              </authorialNote>
+            </heading>
+            <num>24.</num>
+            <list>
+              <point eId="point_24__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>דרש המנהל פרטים ומסמכים מבעלי ציוד לשם קביעת פיצויים לפי חוק זה, ימסור בעל הציוד למנהל, ללא שיהוי, את המידע והמסמכים שבידו הדרושים לבירור שיעור הנזק.</p>
+                </content>
+              </point>
+              <point eId="point_24__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>בעל ציוד שבמתכוון עשה או נמנע מלעשות דבר שהיה בו כדי למנוע מהמדינה את בירור חבותה או להכביד עליה, אין המדינה חייבת בפיצויים אלא במידה שהיתה חייבת בהם אילו לא נעשה, או נמנעה עשיית אותו דבר.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_24א">
+            <heading>
+              <authorialNote placement="side">
+                <p>ועדת ערר לדמי שימוש ולפיצויים</p>
+              </authorialNote>
+            </heading>
+            <num>24א.</num>
+            <list>
+              <point eId="point_24א__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>סבר בעל ציוד כי דמי השימוש או הפיצויים ששולמו לו, בין אם נקבעו על פי צו לפי <ref href="#point_18">סעיף 18(א)</ref> ובין אם נקבעו על ידי שמאי, אינם מכסים את עלות השימוש או את הנזק שנגרם לו, לפי העניין, רשאי הוא להגיש ערר בפני ועדת ערר לדמי שימוש ולפיצויים שימנה שר הביטחון (בסעיף זה – ועדת ערר).</p>
+                </content>
+              </point>
+              <point eId="point_24א__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>בוועדת ערר יכהנו שלושה שמאים, מתוך רשימה שקבע שר הביטחון, ולישיבותיה יוזמן עובד משרד הביטחון שהוא עורך דין; שמאי שמונה לפי <ref href="#point_18">סעיף 18(ג)</ref><ref href="#point_19">או 19(3)</ref> לא יהיה חבר בוועדת ערר שדנה בערר על החלטתו.</p>
+                </content>
+              </point>
+              <point eId="point_24א__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>ועדת ערר רשאית לקבל את הערר, באופן מלא או חלקי, או לדחותו, וכן להקטין את שיעור דמי השימוש או הפיצויים, לפי העניין.</p>
+                </content>
+              </point>
+              <point eId="point_24א__point_ד">
+                <num>(ד)</num>
+                <content>
+                  <p>המנהל הכללי של משרד הביטחון יקבע את סדרי עבודתה של ועדת ערר והדיונים בה בהוראות משרד הביטחון.</p>
+                </content>
+              </point>
+              <point eId="point_24א__point_ה">
+                <num>(ה)</num>
+                <content>
+                  <p>אין בהוראות סעיף זה כדי לגרוע מהוראות <ref href="#point_25">סעיף 25</ref>.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_25">
+            <heading>
+              <authorialNote placement="side">
+                <p>הגשת תביעה</p>
+              </authorialNote>
+            </heading>
+            <num>25.</num>
+            <content>
+              <p>הטוען שהוא זכאי לתשלום לפי <ref href="#chp_ג">פרק זה</ref> שלא קיבל את התשלום, כולו או חלקו, זכאי לתובעו מאת המדינה בבית המשפט המוסמך.</p>
+            </content>
+          </point>
+          <point eId="point_26">
+            <heading>
+              <authorialNote placement="side">
+                <p>ייחוד העילה</p>
+              </authorialNote>
+            </heading>
+            <num>26.</num>
+            <content>
+              <p>לא תהיה לבעל ציוד שגויס כל עילת תביעה על פי כל דין כלפי המדינה או שלוחיה בשל נזק שנגרם לציוד, הוצאות שנגרמו לבעלו או רווח שנמנע ממנו, עקב גיוס הציוד, אלא על פי הוראות חוק זה.</p>
+            </content>
+          </point>
+        </list>
+      </chapter>
+      <chapter eId="chp_ד">
+        <num>פרק ד׳:</num>
+        <title>
+          <content>
+            <p>ציוד עודף</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_27">
+            <heading>
+              <authorialNote placement="side">
+                <p>הגדרה</p>
+              </authorialNote>
+            </heading>
+            <num>27.</num>
+            <list>
+              <intro>
+                <p>
+                  <ref href="#chp_ד">בפרק זה</ref>, ”השר הממונה“ –</p>
+              </intro>
+              <point eId="point_27__point_1">
+                <num>(1)</num>
+                <content>
+                  <p>לענין כלי התחבורה – שר התחבורה;</p>
+                </content>
+              </point>
+              <point eId="point_27__point_2">
+                <num>(2)</num>
+                <content>
+                  <p>לענין ציוד הנדסי – שר הבינוי והשיכון;</p>
+                </content>
+              </point>
+              <point eId="point_27__point_3">
+                <num>(3)</num>
+                <content>
+                  <p>לענין ציוד לייצור חשמל – שר האנרגיה והתשתית;</p>
+                </content>
+              </point>
+              <point eId="point_27__point_4">
+                <num>(4)</num>
+                <content>
+                  <p>לענין ציוד הנדרש במקרה של אירוע חירום אזרחי, כהגדרתו <ref href="/akn/il/act/PrimaryLegislation/1971-03-11/2001806#point_90א">בסעיף 90א לפקודת המשטרה [נוסח חדש], התשל"א–1971</ref> (בחוק זה – אירוע חירום אזרחי) – השר לביטחון הפנים.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_28">
+            <heading>
+              <authorialNote placement="side">
+                <p>קביעת ציוד עודף</p>
+              </authorialNote>
+            </heading>
+            <num>28.</num>
+            <content>
+              <p>שר הבטחון רשאי, אם שוכנע שביטחון המדינה, אספקת שירותים חיוניים לציבור או טיפול באירוע חירום אזרחי, מחייבים זאת, להורות בצו, כי ציוד מסויים או סוגי ציוד, יועמדו לרשותה של הרשות שימנה השר הממונה (להלן – הרשות המוסמכת) כדי לשרת את צרכי האוכלוסיה האזרחית (להלן – ציוד עודף).</p>
+            </content>
+          </point>
+          <point eId="point_29">
+            <heading>
+              <authorialNote placement="side">
+                <p>סמכויות השר הממונה</p>
+              </authorialNote>
+            </heading>
+            <num>29.</num>
+            <list>
+              <point eId="point_29__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>לשר הממונה יהיו, לענין ציוד עודף, כל הסמכויות של שר הבטחון לפי חוק זה.</p>
+                </content>
+              </point>
+              <point eId="point_29__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>הוראות <ref href="#chp_ג">פרק ג׳</ref> יחולו על ציוד עודף ובעלו בשינויים המחוייבים לפי הענין; ולענין זה יהיה המנהל מי שהשר הממונה הסמיכו לכך.</p>
+                </content>
+              </point>
+              <point eId="point_29__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>השר הממונה לא ישתמש בסמכות לפי <ref href="#point_8">סעיף 8</ref> אלא בשעה שעומד בתקפו לגבי אותו ציוד צו של שר הבטחון לפי <ref href="#point_8">אותו סעיף</ref>, ולאחר שקיבל את הסכמת שר הבטחון לכך.</p>
+                </content>
+              </point>
+              <point eId="point_29__point_ד">
+                <num>(ד)</num>
+                <content>
+                  <p>לפוקד שמינה השר הממונה יהיו, בנוסף לסמכויותיו כפוקד לפי חוק זה, גם הסמכויות הנתונות לצבא לפי <ref href="#point_9">סעיף 9</ref>.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_30">
+            <heading>
+              <authorialNote placement="side">
+                <p>גיוס של ציוד עודף</p>
+              </authorialNote>
+            </heading>
+            <num>30.</num>
+            <list>
+              <point eId="point_30__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>לא יגוייס ציוד עודף לפי <ref href="#point_7">סעיף 7</ref> ולא יוחזק כאמור, לתקופה העולה על ארבעים ושמונה שעות, אלא אם כן נתן שר הבטחון, בצו, הסכמתו להארכת התקופה, ובכל מקרה לא תעלה התקופה על שלושים וחמישה ימים; שר הביטחון יודיע על הארכת התקופה לוועדה החוץ והביטחון של הכנסת.</p>
+                </content>
+              </point>
+              <point eId="point_30__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>הסכמת שר הבטחון יכול שתהא מותנית ויכול שייקבעו בה הגבלות לפי שיקול דעתו.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_31">
+            <heading>
+              <authorialNote placement="side">
+                <p>צו להעמדת ציוד עודף לרשות הצבא</p>
+              </authorialNote>
+            </heading>
+            <num>31.</num>
+            <list>
+              <point eId="point_31__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>קבע פוקד שמינהו שר הבטחון לפי <ref href="#point_36">סעיף 36</ref> כי ציוד עודף דרוש לצבא, רשאי מפקד מוסמך להורות בצו כי ציוד כאמור יועמד לרשות הצבא; על ציוד כאמור יחולו הוראות סעיף <ref href="#point_30">30(א)</ref>.</p>
+                </content>
+              </point>
+              <point eId="point_31__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>ציוד עודף שקיימים לגביו צוים לפי <ref href="#point_8">סעיף 8</ref> של שר הבטחון ושל השר הממונה, לא ינתן לגביו צו כאמור בסעיף קטן (א) אלא לקיום צורך צבאי דחוף ובלתי צפוי מראש.</p>
+                </content>
+              </point>
+              <point eId="point_31__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>ניתן צו כאמור בסעיף קטן (א) בנסיבות כאמור בסעיף קטן (ב), יהיה צו זה, עדיף על פני צו אחר לגבי אותו ציוד שנתנו רשות מוסמכת או פוקד שמינהו השר הממונה.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_32">
+            <heading>
+              <authorialNote placement="side">
+                <p>הגבלות שימוש בסמכויות לענין ציוד עודף</p>
+              </authorialNote>
+            </heading>
+            <num>32.</num>
+            <content>
+              <p>שר ממונה, רשות מוסמכת ופוקד שמונה בידי שר ממונה לא ישתמשו בסמכויותיהם לפי חוק זה אלא במידה הנראית להם דרושה לבטחון המדינה או לאספקת שירותים חיוניים לציבור.</p>
+            </content>
+          </point>
+        </list>
+      </chapter>
+      <chapter eId="chp_ה">
+        <num>פרק ה׳:</num>
+        <title>
+          <content>
+            <p>עונשין</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_33">
+            <heading>
+              <authorialNote placement="side">
+                <p>עבירות</p>
+              </authorialNote>
+            </heading>
+            <num>33.</num>
+            <list>
+              <point eId="point_33__point_א">
+                <num>(א)</num>
+                <list>
+                  <intro>
+                    <p>אדם שעשה אחת מאלה, דינו – מאסר שמונה עשר חדשים או קנס כאמור <ref href="/akn/il/act/PrimaryLegislation/1977-08-04/2002251#point_61">בסעיף 61(א)(3) לחוק העונשין, התשל"ז–1977</ref> (להלן – חוק העונשין):</p>
+                  </intro>
+                  <point eId="point_33__point_א__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>לא מילא חובה המוטלת עליו לפי חוק זה;</p>
+                    </content>
+                  </point>
+                  <point eId="point_33__point_א__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>מסר ביודעין, לאדם שהוא חייב למסור לו פרטים לפי חוק זה, ידיעה כוזבת בכל פרט כאמור;</p>
+                    </content>
+                  </point>
+                  <point eId="point_33__point_א__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>חיבל בציוד או גרע ממנו, או הניח לאדם אחר לחבל בציוד או לגרוע ממנו בכוונה לפגוע בכושרו.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_33__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>אדם שעבר עבירה לפי סעיף קטן (א) שעה שצו שר הבטחון לפי <ref href="#point_8">סעיף 8</ref> לגבי אותו ציוד עמד בתקפו, דינו – מאסר שלוש שנים או קנס כאמור <ref href="/akn/il/act/PrimaryLegislation/1977-08-04/2002251#point_61">בסעיף 61(א)(3) לחוק העונשין</ref>.</p>
+                </content>
+              </point>
+              <point eId="point_33__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>הורשע בעל ציוד בעבירה לפי סעיף קטן (א) וכתוצאה מביצוע העבירה לא גוייס הציוד בשעה שעמד בתקפו צו לפי <ref href="#point_8">סעיף 8</ref> לגביו, רשאי בית המשפט – בנוסף לכל עונש אחר – להטיל עליו לשלם לאוצר המדינה סכום שלא יעלה על פי שלושה מהסכום שבעל ציוד דוגמתו היה זכאי לו כדמי שימוש לפי האמור <ref href="#chp_ג">בפרק ג׳</ref>, אילו קיים את הצו שעל פיו היה עליו להעמיד את הציוד לרשות הצבא לתקופה כפי שנקבע בו, ואם לא נקבעה בו תקופה – לתקופה של שלושים וחמישה ימים.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_34">
+            <heading>
+              <authorialNote placement="side">
+                <p>אחריות מנהלים</p>
+              </authorialNote>
+            </heading>
+            <num>34.</num>
+            <content>
+              <p>נעברה עבירה לפי חוק זה בידי חבר־בני־אדם, ייאשם בעבירה גם כל אדם אשר בשעת ביצוע העבירה היה בו מנהל פעיל, בעל תפקיד כאמור <ref href="#point_3ב">בסעיף 3ב</ref>, שותף – למעט שותף מוגבל – או עובד הממונה בו על הציוד, אם לא הוכיח שהעבירה נעברה שלא בידיעתו ושנקט כל האמצעים הסבירים להבטחת שמירתו של חוק זה.</p>
+            </content>
+          </point>
+          <point eId="point_35">
+            <heading>
+              <authorialNote placement="side">
+                <p>עבירות שנעברו באזור</p>
+              </authorialNote>
+            </heading>
+            <num>35.</num>
+            <content>
+              <p>בית המשפט בישראל מוסמך לדון בעבירה על חוק זה אף אם נעברה באזור.</p>
+            </content>
+          </point>
+        </list>
+      </chapter>
+      <chapter eId="chp_ו">
+        <num>פרק ו׳:</num>
+        <title>
+          <content>
+            <p>סמכויות והוראות כלליות</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_36">
+            <heading>
+              <authorialNote placement="side">
+                <p>מינוי פוקדים</p>
+              </authorialNote>
+            </heading>
+            <num>36.</num>
+            <content>
+              <p>שר הבטחון רשאי למנות פוקדים לענין חוק זה.</p>
+            </content>
+          </point>
+          <point eId="point_37">
+            <heading>
+              <authorialNote placement="side">
+                <p>הסמכה בידי פוקד</p>
+              </authorialNote>
+            </heading>
+            <num>37.</num>
+            <list>
+              <point eId="point_37__point_א">
+                <num>(א)</num>
+                <list>
+                  <intro>
+                    <p>פוקד רשאי להסמיך אדם להיות מפקד מוסמך לענין חוק זה ובלבד שלענין ציוד שאינו ציוד עודף, לא יוסמך כאמור –</p>
+                  </intro>
+                  <point eId="point_37__point_א__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>חייל – אלא אם כן הוא קצין, או שהוא בדרגת רב־סמל ראשון לפחות;</p>
+                    </content>
+                  </point>
+                  <point eId="point_37__point_א__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>אדם שאינו חייל – אלא אם כן הוא עובד בשירות הצבא כמשמעותו <ref href="/akn/il/act/PrimaryLegislation/1955-07-20/148698#point_8">בסעיף 8(2) לחוק השיפוט הצבאי</ref>.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_37__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>פוקד רשאי, בכתב, להסמיך מפקד מוסמך להשתמש בסמכויותיו ולמלא את תפקידיו לפי <ref href="#point_3">סעיף 3</ref>.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_38">
+            <heading>
+              <authorialNote placement="side">
+                <p>אצילת סמכויות</p>
+              </authorialNote>
+            </heading>
+            <num>38.</num>
+            <content>
+              <p>שר הבטחון רשאי לאצול לאדם אחר את סמכויותיו לפי חוק זה, כולן או מקצתן, למעט הסמכויות לפי <ref href="#point_5">סעיפים 5</ref>, <ref href="#point_7">7</ref>, <ref href="#point_8">8</ref>, <ref href="#point_18">18(א)</ref>, <ref href="#point_21">21</ref><ref href="#point_30">ו־30</ref> ולמעט הסמכות להתקין תקנות.</p>
+            </content>
+          </point>
+          <point eId="point_39">
+            <heading>
+              <authorialNote placement="side">
+                <p>דרישת ידיעות</p>
+              </authorialNote>
+            </heading>
+            <num>39.</num>
+            <content>
+              <p>כל אדם חייב למסור לפוקד, לפי דרישתו פרטים על ציוד, כפי שייקבעו בצו של פוקד, שניתן באישור שר הבטחון, ככל שאותם הפרטים ידועים לו.</p>
+            </content>
+          </point>
+          <point eId="point_40">
+            <heading>
+              <authorialNote placement="side">
+                <p>צווים</p>
+              </authorialNote>
+            </heading>
+            <num>40.</num>
+            <list>
+              <point eId="point_40__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>צו לפי חוק זה יכול להיות כללי, או לגבי סוג של בני אדם או לגבי סוג של ציוד, או לגבי אדם מסויים או לגבי ציוד מסויים.</p>
+                </content>
+              </point>
+              <point eId="point_40__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>אין חובה לפרסם צו לפי חוק זה, למעט צו לפי <ref href="#point_18">סעיף 18(א)</ref>, ברשומות.</p>
+                </content>
+              </point>
+              <point eId="point_40__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>צו לפי חוק זה מחייב את האדם שעליו הוא חל מן הזמן שהגיע לידיעתו.</p>
+                </content>
+              </point>
+              <point eId="point_40__point_ד">
+                <num>(ד)</num>
+                <list>
+                  <intro>
+                    <p>צו לפי חוק זה –</p>
+                  </intro>
+                  <point eId="point_40__point_ד__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>אם נמסר לאדם שעליו הוא חל או לאחד מבני משפחתו הגרים איתו ושאינו למטה מגיל שמונה עשרה – רואים אותו כאילו נמסר לאותו אדם בזמן המסירה;</p>
+                    </content>
+                  </point>
+                  <point eId="point_40__point_ד__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>אם נשלח אל האדם שעליו הוא חל בדואר רשום לפי מען מקום מגוריו הקבוע או מקום עסקיו, כפי שנמסרו בשעת הרישום – רואים אותו כאילו הגיע לידיעת אותו אדם בתום שבעים ושתיים שעות מזמן שנמסר לדואר למשלוח ואם נשלח אל האדם כאמור בדואר רגיל – רואים אותו כאילו הגיע לידיעת אותו אדם בתום שבעים ושתיים השעות כאמור, אם לא הוכח אחרת;</p>
+                    </content>
+                  </point>
+                  <point eId="point_40__point_ד__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>אם הוצג באופן בולט לעין על פני הדלת של מקום מגוריו הקבוע או של מקום עסקיו של אדם שעליו הוא חל, כפי שנמסר בשעת הרישום – רואים אותו, לענין <ref href="#point_10">סעיף 10</ref> בלבד, כאילו הגיע לידיעת אותו אדם בתום שתים עשרה השעות מזמן ההצגה;</p>
+                    </content>
+                  </point>
+                  <point eId="point_40__point_ד__point_4">
+                    <num>(4)</num>
+                    <content>
+                      <p>אם פורסם ברדיו, או בטלויזיה או בשלושה עתונים יומיים לפחות – חזקה שהגיע לידיעת אותו אדם שעליו הוא חל בתום שש שעות למן הפרסום הראשון ברדיו או בטלויזיה, או בשלושת העתונים;</p>
+                    </content>
+                  </point>
+                  <point eId="point_40__point_ד__point_5">
+                    <num>(5)</num>
+                    <content>
+                      <p>
+                        <wikicomment font-size="x-small">(נמחקה);</wikicomment>
+                      </p>
+                    </content>
+                  </point>
+                  <point eId="point_40__point_ד__point_6">
+                    <num>(6)</num>
+                    <list>
+                      <intro>
+                        <p>אם נשלח אל האדם שעליו הוא חל (בפסקה זו – הנמען) באמצעות פקסימיליה – רואים אותו כאילו הגיע לידיעת הנמען ביום המשלוח, ובלבד שהתקיימו כל אלה:</p>
+                      </intro>
+                      <point eId="point_40__point_ד__point_6__point_א">
+                        <num>(א)</num>
+                        <content>
+                          <p>הצו נשלח בין השעות 8:30 עד 16:00 בימים א׳ עד ה׳ בשבוע, שאינם ימי מנוחה כמשמעותם <ref href="/akn/il/act/PrimaryLegislation/1948-05-21/2002291#point_18א">בסעיף 18א לפקודת סדרי השלטון והמשפט, התש"ח–1948</ref>, או ימי מנוחה שנקבעו בחיקוק; צו שנשלח לאחר השעה 16:00 או שנשלח ביום ו׳ או ביום מנוחה – רואים אותו כאילו נשלח ביום החול שלאחריו;</p>
+                        </content>
+                      </point>
+                      <point eId="point_40__point_ד__point_6__point_ב">
+                        <num>(ב)</num>
+                        <content>
+                          <p>הצו נשלח למספר הפקסימיליה שמסר הנמען לפי <ref href="#point_4">סעיף 4</ref>;</p>
+                        </content>
+                      </point>
+                      <point eId="point_40__point_ד__point_6__point_ג">
+                        <num>(ג)</num>
+                        <content>
+                          <p>לצו צורף דף משלוח בפקסימיליה שבו צוינו פרטי השולח ופרטי הנמען כולל כתובתו, וכן מספר הטלפון ומספר הפקסימיליה של כל אחד מהם ומספר העמודים שנשלחו;</p>
+                        </content>
+                      </point>
+                      <point eId="point_40__point_ד__point_6__point_ד">
+                        <num>(ד)</num>
+                        <content>
+                          <p>נמסרה לנמען הודעה בטלפון, בתוך 24 שעות מעת משלוח הצו, כי נשלח אליו צו בפקסימיליה, ונערכה תרשומת על ההודעה הטלפונית, הכוללת את פרטי הצו, זמן השיחה ושמו של האדם שלו נמסרה ההודעה.</p>
+                        </content>
+                      </point>
+                    </list>
+                  </point>
+                  <point eId="point_40__point_ד__point_ה">
+                    <num>(ה)</num>
+                    <list>
+                      <point eId="point_40__point_ד__point_ה__point_1">
+                        <num>(1)</num>
+                        <content>
+                          <p>הוראה או צו של פוקד לפי חוק זה, ייחתמו בידי הפוקד; ואולם פוקד רשאי להסמיך מפקד מוסמך אחר לחתום בשמו על הוראה או צו לגבי אדם מסוים או לגבי ציוד מסוים, אם ניתנו על פי הוראתו; הוראה או צו כאמור יהיו בציון השם והדרגה של הפוקד ושל המפקד המוסמך החותם;</p>
+                        </content>
+                      </point>
+                      <point eId="point_40__point_ד__point_ה__point_2">
+                        <num>(2)</num>
+                        <content>
+                          <p>דרישה או צו של מפקד מוסמך לפי חוק זה ייחתמו בידי המפקד המוסמך; ואולם מפקד מוסמך רשאי להסמיך חייל או עובד בשירות הצבא כמשמעותו <ref href="/akn/il/act/PrimaryLegislation/1955-07-20/148698#point_8">בסעיף 8(2) לחוק השיפוט הצבאי</ref> לחתום בשמו על דרישה או צו לגבי אדם מסוים או לגבי ציוד מסוים, אם ניתנו על פי הוראתו; דרישה או צו כאמור יהיו בציון השר והדרגה או התפקיד של המפקד המוסמך וכן של החייל או העובד בשירות הצבא, החותם.</p>
+                        </content>
+                      </point>
+                    </list>
+                  </point>
+                </list>
+              </point>
+            </list>
+          </point>
+          <point eId="point_41">
+            <heading>
+              <authorialNote placement="side">
+                <p>סמכויות להורות בדבר רשיונות הציוד</p>
+              </authorialNote>
+            </heading>
+            <num>41.</num>
+            <list>
+              <point eId="point_41__point_א">
+                <num>(א)</num>
+                <list>
+                  <intro>
+                    <p>לא מילא בעל ציוד, ביודעין, חובה מן החובות המוטלות עליו מכוח חוק זה, רשאי ראש אגף הטכנולוגיה והלוגיסטיקה במטה הכללי של צבא־הגנה לישראל או מפקד מרכז לאו"ם בצבא־הגנה לישראל להורות בצו –</p>
+                  </intro>
+                  <point eId="point_41__point_א__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>לרשות הרשוי כמשמעותה <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_התעבורה">בפקודת התעבורה</ref> להימנע מלהוציא או מלחדש רשיון רכב לאותו ציוד;</p>
+                    </content>
+                  </point>
+                  <point eId="point_41__point_א__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>לרשם, כמשמעותו <ref href="/akn/il/act/PrimaryLegislation/1957-07-25/148460">בחוק רישום ציוד הנדסי, התשי"ז–1957</ref>, להימנע מלרשום אותו ציוד.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_41__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>צו כאמור בסעיף קטן (א), טעון אישור מאת שופט של בית משפט שלום; השופט רשאי לאשר את הצו שלא במעמד בעל הציוד שעליו הוצא הצו ובמקרה זה תימסר הודעה על מתן האישור לבעל הציוד.</p>
+                </content>
+              </point>
+              <point eId="point_41__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>אושר צו שלא במעמד בעל הציוד, רשאי הוא לפנות לשופט של בית משפט השלום, תוך ארבעה עשר ימים מיום מסירת ההודעה על האישור, בבקשה לבטל את האישור.</p>
+                </content>
+              </point>
+              <point eId="point_41__point_ד">
+                <num>(ד)</num>
+                <content>
+                  <p>אושר הצו במעמד בעל הציוד, ייכנס הצו לתקפו מיד או החל ביום שקבע השופט; אושר הצו שלא במעמד בעל הציוד, ייכנס הצו לתקפו כעבור ארבעה עשר ימים מיום מסירת ההודעה לפי סעיף קטן (ב), ואם הוגשה בקשה לביטול האישור – כפי שקבע השופט בבקשה.</p>
+                </content>
+              </point>
+              <point eId="point_41__point_ה">
+                <num>(ה)</num>
+                <content>
+                  <p>מולאה החובה שבשל אי מילוייה הוצא הצו – יודיע על כך בעל הציוד למי שהוציא את הצו והוא יבטלו.</p>
+                </content>
+              </point>
+              <point eId="point_41__point_ו">
+                <num>(ו)</num>
+                <content>
+                  <p>הליכים בבית משפט שלום לפי סעיף זה יוגשו ויתבררו בדרך של בקשה בדרך המרצה.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_42">
+            <heading>
+              <authorialNote placement="side">
+                <p>דין המדינה</p>
+              </authorialNote>
+            </heading>
+            <num>42.</num>
+            <content>
+              <p>לענין חוק זה דין המדינה כדין כל בעל ציוד אחר; אולם הוראה זו לא תחול לגבי ציוד שבהחזקת משטרת ישראל ושירות בתי הסוהר.</p>
+            </content>
+          </point>
+          <point eId="point_43">
+            <heading>
+              <authorialNote placement="side">
+                <p>הארכת מועדים</p>
+              </authorialNote>
+            </heading>
+            <num>43.</num>
+            <list>
+              <point eId="point_43__point_א">
+                <num>(א)</num>
+                <list>
+                  <intro>
+                    <p>נקבע בחוזה מועד לעשיית פעולה בציוד שגויס לפי חוק זה, יראו אותו מועד, לגבי פעולה שיש לעשותה באותו ציוד, כאילו הוארך לתקופה שלא תעלה על תקופת הגיוס, ובלבד –</p>
+                  </intro>
+                  <point eId="point_43__point_א__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>שהחוזה נכרת לפני שבעל הציוד קיבל את ההודעה על הגיוס;</p>
+                    </content>
+                  </point>
+                  <point eId="point_43__point_א__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>שבנסיבות הענין ניתן עדיין לבצע את הפעולה במועד הדחוי.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_43__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>בסעיף זה, ”תקופת הגיוס“ – לרבות פרק הזמן שקבע השמאי, לפי <ref href="#point_19">סעיף 19(3)</ref><ref href="#point_20">או 20(ב)</ref>, כנדרש לתיקון הציוד לאחר שחרורו.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_43א">
+            <heading>
+              <authorialNote placement="side">
+                <p>הארכת תוקפו של רישיון לציוד שגויס</p>
+              </authorialNote>
+            </heading>
+            <num>43א.</num>
+            <list>
+              <point eId="point_43א__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>רישיון שניתן לפי דין לציוד, וביום שעמד תוקפו לפקוע או בתוך שבעת הימים שלפני היום האמור היה הציוד מגויס לפי חוק זה, יראו אותו כאילו הוא ממשיך לעמוד בתוקפו עד תום 14 הימים שלאחר המועד שבו הוחזר הציוד לרשותו של הבעל הרשום של הציוד לפי הוראות <ref href="#point_15">סעיף 15(א)</ref>, ובלבד שלעניין רישיונות הניתנים על ידי משרד התחבורה והבטיחות בדרכים יחולו הוראות סעיף זה בכפוף לתקנות שיתקין שר הביטחון, בהתייעצות עם שר התחבורה והבטיחות בדרכים, לצורך ביצוע סעיף זה.</p>
+                </content>
+              </point>
+              <point eId="point_43א__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>אין בהוראות סעיף קטן (א) כדי לגרוע מהוראות <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_התעבורה#point_3">סעיף 3(ב) ו־(ג) לפקודת התעבורה</ref>.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_44">
+            <heading>
+              <authorialNote placement="side">
+                <p>ביצוע ותקנות</p>
+              </authorialNote>
+            </heading>
+            <num>44.</num>
+            <content>
+              <p>שר הבטחון ממונה על ביצוע חוק זה והוא רשאי, באישור ועדת החוץ והבטחון של הכנסת, להתקין תקנות בכל הנוגע לביצועו.</p>
+            </content>
+          </point>
+          <point eId="point_45">
+            <heading>
+              <authorialNote placement="side">
+                <p>תחילה ותוקף</p>
+              </authorialNote>
+            </heading>
+            <num>45.</num>
+            <list>
+              <point eId="point_45__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>תחילתו של חוק זה ביום ט׳ בחשון התשמ"ח (1 בנובמבר 1987) (להלן – יום התחילה).</p>
+                </content>
+              </point>
+              <point eId="point_45__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>תקפן של תקנות שעת חירום (רישום ציוד וגיוסו), התשי"ז–1956 (להלן – התקנות) מוארך בזה עד יום התחילה.</p>
+                </content>
+              </point>
+              <point eId="point_45__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>כל צווים, פקודות וטפסים שהוצאו לפי התקנות <ref href="/akn/il/act/PrimaryLegislation/1958-01-09/148355">ומכוח סעיף 12(ב) לחוק הפיקוח</ref> ושעמדו בתוקפם ערב תחילתו של חוק זה, יראו אותם כאילו ניתנו לפיו.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_46">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>46.</num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">(בוטל).</wikicomment>
+              </p>
+            </content>
+          </point>
+          <point eId="point_47">
+            <heading>
+              <authorialNote placement="side">
+                <p>פרסום</p>
+              </authorialNote>
+            </heading>
+            <num>47.</num>
+            <content>
+              <p>חוק זה יפורסם תוך עשרים ימים מיום קבלתו בכנסת.</p>
+            </content>
+          </point>
+        </list>
+      </chapter>
+    </body>
+    <conclusions eId="eId">
+      <p class="signatures">
+        <signature>
+          <p>
+            <person refersTo="יצחק_שמיר">יצחק שמיר</person>
+            <role refersTo="ראש_הממשלה">ראש הממשלה</role>
+          </p>
+        </signature>
+        <signature>
+          <p>
+            <person refersTo="יצחק_רבין">יצחק רבין</person>
+            <role refersTo="שר_הבטחון">שר הבטחון</role>
+          </p>
+        </signature>
+        <signature>
+          <p>
+            <person refersTo="חיים_הרצוג">חיים הרצוג</person>
+            <role refersTo="נשיא_המדינה">נשיא המדינה</role>
+          </p>
+        </signature>
+      </p>
+    </conclusions>
+  </act>
+</akomaNtoso>

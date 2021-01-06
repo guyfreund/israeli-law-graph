@@ -1,0 +1,3320 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion" name="publicLaw">
+    <meta>
+      <identification source="#kensset">
+        <FRBRWork>
+          <FRBRthis value="/akn/il/act/PrimaryLegislation/2007-11-25/113653/main" />
+          <FRBRuri value="/akn/il/act/PrimaryLegislation/2007-11-25/113653" />
+          <FRBRdate date="2007-11-25" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRcountry value="israel" />
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/il/act/PrimaryLegislation/2007-11-25/113653/he@/main" />
+          <FRBRuri value="/akn/il/act/PrimaryLegislation/2007-11-25/113653/he@" />
+          <FRBRdate date="2007-11-25" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRlanguage language="hebrew" />
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/il/act/PrimaryLegislation/2007-11-25/113653/he@/main.xml" />
+          <FRBRuri value="/akn/il/act/PrimaryLegislation/2007-11-25/113653/he@" />
+          <FRBRdate date="2007-11-25" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRformat value="xml" />
+        </FRBRManifestation>
+      </identification>
+      <classification source="#kensset">
+        <keyword value="{classificationValue}" showAs="{classificationValue}" dictionary="#classification_dictionary" />
+      </classification>
+      <lifecycle source="#kensset">
+        <eventRef eId="eventRef_1" date="2007-11-25" source="#kensset" type="generation" />
+      </lifecycle>
+      <references source="#kensset">
+        <TLCOrganization eId="kensset" href="/ontology/organization/akn/knesset" showAs="Kensset" type="generation" />
+        <TLCRole eId="author" href="/ontology/role/akn/author" showAs="Author of Document" />
+        <TLCProcess eId="inforce" href="/ontology/process/akn/inforce" showAs="In force" />
+        <TLCTerm eId="term_1" href="/ontology/term/זכות_יוצרים/113653" showAs="זכות_יוצרים" />
+        <TLCTerm eId="term_2" href="/ontology/term/זכות_מוסרית/113653" showAs="זכות_מוסרית" />
+        <TLCTerm eId="term_3" href="/ontology/term/טביעה/113653" showAs="טביעה" />
+        <TLCTerm eId="term_4" href="/ontology/term/יצירה_אדריכלית/113653" showAs="יצירה_אדריכלית" />
+        <TLCTerm eId="term_5" href="/ontology/term/יצירה_אמנותית/113653" showAs="יצירה_אמנותית" />
+        <TLCTerm eId="term_6" href="/ontology/term/יצירה_דרמטית/113653" showAs="יצירה_דרמטית" />
+        <TLCTerm eId="term_7" href="/ontology/term/יצירה_משותפת/113653" showAs="יצירה_משותפת" />
+        <TLCTerm eId="term_8" href="/ontology/term/יצירה_ספרותית/113653" showAs="יצירה_ספרותית" />
+        <TLCTerm eId="term_9" href="/ontology/term/יצירת_פיסול/113653" showAs="יצירת_פיסול" />
+        <TLCTerm eId="term_10" href="/ontology/term/יצירת_צילום/113653" showAs="יצירת_צילום" />
+        <TLCTerm eId="term_11" href="/ontology/term/יצירה_קולנועית/113653" showAs="יצירה_קולנועית" />
+        <TLCTerm eId="term_12" href="/ontology/term/לקט/113653" showAs="לקט" />
+        <TLCTerm eId="term_13" href="/ontology/term/מפיק/113653" showAs="מפיק" />
+        <TLCTerm eId="term_14" href="/ontology/term/עותק_מפר/113653" showAs="עותק_מפר" />
+        <TLCTerm eId="term_15" href="/ontology/term/פרסום/113653" showAs="פרסום" />
+        <TLCTerm eId="term_16" href="/ontology/term/רשת_תקשורת_אלקטרונית/113653" showAs="רשת_תקשורת_אלקטרונית" />
+        <TLCTerm eId="term_17" href="/ontology/term/תוכנת_מחשב/113653" showAs="תוכנת_מחשב" />
+        <TLCTerm eId="term_18" href="/ontology/term/תקליט/113653" showAs="תקליט" />
+        <TLCTerm eId="term_19" href="/ontology/term/השר/113653" showAs="השר" />
+        <TLCTerm eId="term_20" href="/ontology/term/אדם_עם_מוגבלות/113653" showAs="אדם_עם_מוגבלות" />
+        <TLCTerm eId="term_21" href="/ontology/term/ארגון/113653" showAs="ארגון" />
+        <TLCTerm eId="term_22" href="/ontology/term/חוק_שוויון_זכויות/113653" showAs="חוק_שוויון_זכויות" />
+        <TLCTerm eId="term_23" href="/ontology/term/יצירה_מותאמת/113653" showAs="יצירה_מותאמת" />
+        <TLCTerm eId="term_24" href="/ontology/term/כמות_מספקת/113653" showAs="כמות_מספקת" />
+        <TLCTerm eId="term_25" href="/ontology/term/מבצע/113653" showAs="מבצע" />
+        <TLCTerm eId="term_26" href="/ontology/term/מקור_תוכן/113653" showAs="מקור_תוכן" />
+        <TLCTerm eId="term_27" href="/ontology/term/בית_משפט/113653" showAs="בית_משפט" />
+        <TLCTerm eId="term_28" href="/ontology/term/ספק_גישה/113653" showAs="ספק_גישה" />
+        <TLCTerm eId="term_29" href="/ontology/term/ספק_שירותי_אחסון/113653" showAs="ספק_שירותי_אחסון" />
+        <TLCTerm eId="term_30" href="/ontology/term/רישיון_ייחודי/113653" showAs="רישיון_ייחודי" />
+        <TLCTerm eId="term_31" href="/ontology/term/בית_משפט/113653" showAs="בית_משפט" />
+        <TLCTerm eId="term_32" href="/ontology/term/מחשב/113653" showAs="מחשב" />
+        <TLCTerm eId="term_33" href="/ontology/term/פרטי_מידע/113653" showAs="פרטי_מידע" />
+        <TLCPerson eId="אהוד_אולמרט" href="/ontology/person/אהוד_אולמרט" showAs="אהוד אולמרט" />
+        <TLCPerson eId="דניאל_פרידמן" href="/ontology/person/דניאל_פרידמן" showAs="דניאל פרידמן" />
+        <TLCPerson eId="שמעון_פרס" href="/ontology/person/שמעון_פרס" showAs="שמעון פרס" />
+        <TLCPerson eId="דליה_איציק" href="/ontology/person/דליה_איציק" showAs="דליה איציק" />
+        <TLCRole eId="ראש_הממשלה" href="ontology/role/akn/ראש_הממשלה" showAs="ראש הממשלה" />
+        <TLCRole eId="שר_המשפטים" href="ontology/role/akn/שר_המשפטים" showAs="שר המשפטים" />
+        <TLCRole eId="נשיא_המדינה" href="ontology/role/akn/נשיא_המדינה" showAs="נשיא המדינה" />
+        <TLCRole eId="יושבת_ראש_הכנסת" href="ontology/role/akn/יושבת_ראש_הכנסת" showAs="יושבת ראש הכנסת" />
+      </references>
+      <temporalData source="#kensset">
+        <temporalGroup eId="tmpg_1" />
+      </temporalData>
+      <Publication></Publication>
+      <proprietary wikiversion="11/30/2020 7:35:06 PM" />
+    </meta>
+    <body period="#tmpg_1">
+      <title eId="title">
+        <content>
+          <p>חוק זכות יוצרים, התשס"ח–2007</p>
+        </content>
+      </title>
+      <chapter eId="chp_א">
+        <num>פרק א׳:</num>
+        <title>
+          <content>
+            <p>פרשנות</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_1" class="definitions">
+            <heading>
+              <authorialNote placement="side">
+                <p>הגדרות</p>
+              </authorialNote>
+            </heading>
+            <num>1.</num>
+            <list>
+              <intro>
+                <p>בחוק זה –</p>
+              </intro>
+              <point eId="point_1__point_זכות_יוצרים">
+                <content>
+                  <p>
+                    <def />”זכות יוצרים“ – כמשמעותה <ref href="#point_11">בסעיף 11</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_זכות_מוסרית">
+                <content>
+                  <p>
+                    <def />”זכות מוסרית“ – כמשמעותה <ref href="#point_46">בסעיף 46</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_טביעה">
+                <content>
+                  <p>
+                    <def />”טביעה“, לעניין צלילים – שימור של צלילים באמצעי המאפשר לשמעם או להעתיקם;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_יצירה_אדריכלית">
+                <content>
+                  <p>
+                    <def />”יצירה אדריכלית“ – בניין או מבנה אחר, וכן מודל לבניין או למבנה כאמור;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_יצירה_אמנותית">
+                <content>
+                  <p>
+                    <def />”יצירה אמנותית“ – לרבות רישום, ציור, יצירת פיסול, תחריט, ליטוגרפיה, מפה, תרשים, יצירה אדריכלית, יצירת צילום ויצירת אמנות שימושית, ובכלל זה גופן (Typeface);</p>
+                </content>
+              </point>
+              <point eId="point_1__point_יצירה_דרמטית">
+                <content>
+                  <p>
+                    <def />”יצירה דרמטית“ – לרבות מחזה, יצירה קולנועית, יצירה דרמטית־מוסיקלית, יצירת מחול ופנטומימה;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_יצירה_משותפת">
+                <content>
+                  <p>
+                    <def />”יצירה משותפת“ – יצירה שנוצרה בידי כמה יוצרים במשותף ולא ניתן להבחין בחלקו של כל אחד מהם ביצירה;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_יצירה_ספרותית">
+                <content>
+                  <p>
+                    <def />”יצירה ספרותית“ – לרבות יצירה המבוטאת בכתב, הרצאה, טבלה, לקט, וכן תוכנת מחשב;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_יצירת_פיסול">
+                <content>
+                  <p>
+                    <def />”יצירת פיסול“ – לרבות תבנית או מודל של פסל;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_יצירת_צילום">
+                <content>
+                  <p>
+                    <def />”יצירת צילום“ – לרבות יצירה המופקת בתהליך הדומה לצילום, ולמעט צילום שהוא חלק מיצירה קולנועית;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_יצירה_קולנועית">
+                <content>
+                  <p>
+                    <def />”יצירה קולנועית“ – לרבות יצירה טלוויזיונית וכל יצירה שדומה במהותה ליצירה קולנועית או ליצירה טלוויזיונית;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_לקט">
+                <content>
+                  <p>
+                    <def />”לקט“ – לקט של יצירות לרבות אנציקלופדיה או אנתולוגיה, וכן לקט של נתונים לרבות מאגר מידע;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_מפיק">
+                <content>
+                  <p>
+                    <def />”מפיק“, לעניין יצירה קולנועית או תקליט – מי שאחראי על ביצוע הפעולות הדרושות לשם יצירת היצירה הקולנועית או התקליט, לפי העניין;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_עותק_מפר">
+                <list>
+                  <intro>
+                    <p>
+                      <def />”עותק מפר“ – עותק של יצירה שיש בה זכות יוצרים, למעט בניין או מבנה אחר, שהוא אחד מאלה:</p>
+                  </intro>
+                  <point eId="point_1__point_עותק_מפר__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>עותק שנעשה בישראל בלא רשותו של בעל זכות היוצרים באופן שמהווה הפרה של זכות היוצרים להעתקה כאמור <ref href="#point_11">בסעיף 11(1)</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_1__point_עותק_מפר__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>עותק שיובא לישראל אשר אילו היה נעשה בישראל, היתה עשייתו מהווה הפרה של זכות היוצרים להעתקה כאמור <ref href="#point_11">בסעיף 11(1)</ref>; ואולם עותק שנעשה מחוץ לישראל ברשותו של בעל זכות היוצרים במדינה שבה נעשה, לא ייחשב לעותק מפר;</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_1__point_פרסום">
+                <content>
+                  <p>
+                    <def />”פרסום“, של יצירה – הוצאה של מספר סביר של עותקים של היצירה, בשים לב לאופייה, לרשות הציבור, ברשותו של בעל זכות היוצרים, למעט ביצוע פומבי של היצירה או שידורה, ולמעט הצגה לציבור של יצירה אמנותית שאינה גופן;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_רשת_תקשורת_אלקטרונית">
+                <content>
+                  <p>
+                    <def />”רשת תקשורת אלקטרונית“ – רשת האינטרנט, וכן כל רשת תקשורת ציבורית אחרת שהשר קבע בצו, באישור ועדת הכלכלה של הכנסת;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_תוכנת_מחשב">
+                <content>
+                  <p>
+                    <def />”תוכנת מחשב“ – תוכנת מחשב בכל צורה שבה היא מבוטאת;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_תקליט">
+                <content>
+                  <p>
+                    <def />”תקליט“ – טביעה של צלילים, למעט טביעה של צלילים ביצירה קולנועית;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_השר">
+                <content>
+                  <p>
+                    <def />”השר“ – שר המשפטים.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_2">
+            <heading>
+              <authorialNote placement="side">
+                <p>מקום הפרסום לראשונה</p>
+              </authorialNote>
+            </heading>
+            <num>2.</num>
+            <list>
+              <intro>
+                <p>בחוק זה יחולו הוראות אלה לעניין המקום שבו פורסמה יצירה לראשונה:</p>
+              </intro>
+              <point eId="point_2__point_1">
+                <num>(1)</num>
+                <content>
+                  <p>יצירה שפורסמה בכמה מדינות בתוך שלושים ימים מיום שפורסמה לראשונה – יראו אותה כאילו פורסמה לראשונה בכולן בו־זמנית;</p>
+                </content>
+              </point>
+              <point eId="point_2__point_2">
+                <num>(2)</num>
+                <content>
+                  <p>יצירה שפורסמה לראשונה בישראל ובמדינות אחרות בו־זמנית – יראו אותה כאילו פורסמה לראשונה בישראל.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+        </list>
+      </chapter>
+      <chapter eId="chp_ב">
+        <num>פרק ב׳:</num>
+        <title>
+          <content>
+            <p>תנאים לקיומה של זכות יוצרים</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_3">
+            <heading>
+              <authorialNote placement="side">
+                <p>ייחוד הוראות החוק</p>
+              </authorialNote>
+            </heading>
+            <num>3.</num>
+            <content>
+              <p>לא תהא זכות יוצרים ביצירה אלא לפי הוראות חוק זה.</p>
+            </content>
+          </point>
+          <point eId="point_4">
+            <heading>
+              <authorialNote placement="side">
+                <p>היצירות שבהן יש זכות יוצרים</p>
+              </authorialNote>
+            </heading>
+            <num>4.</num>
+            <list>
+              <point eId="point_4__point_א">
+                <num>(א)</num>
+                <list>
+                  <intro>
+                    <p>זכות יוצרים תהא ביצירות אלה:</p>
+                  </intro>
+                  <point eId="point_4__point_א__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>יצירה מקורית שהיא יצירה ספרותית, יצירה אמנותית, יצירה דרמטית או יצירה מוסיקלית, המקובעת בצורה כלשהי;</p>
+                    </content>
+                  </point>
+                  <point eId="point_4__point_א__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>תקליט;</p>
+                    </content>
+                  </point>
+                  <wrapup eId="point_4__point_א__wrapup_none">
+                    <content>
+                      <p>ובלבד שהתקיים לגבי היצירות האמורות אחד התנאים הקבועים <ref href="#point_8">בסעיף 8</ref> או שיש בהן זכות יוצרים מכוח צו לפי <ref href="#point_9">סעיף 9</ref>.</p>
+                    </content>
+                  </wrapup>
+                </list>
+              </point>
+              <point eId="point_4__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>לעניין סעיף קטן (א), מקוריות של לקט היא המקוריות בבחירה ובסידור של היצירות או של הנתונים שבו.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_5">
+            <heading>
+              <authorialNote placement="side">
+                <p>היקף זכות היוצרים ביצירה</p>
+              </authorialNote>
+            </heading>
+            <num>5.</num>
+            <list>
+              <intro>
+                <p>זכות יוצרים ביצירה כאמור <ref href="#point_4">בסעיף 4</ref> לא תחול על כל אחד מאלה, ואולם על דרך ביטוים תחול זכות היוצרים:</p>
+              </intro>
+              <point eId="point_5__point_1">
+                <num>(1)</num>
+                <content>
+                  <p>רעיון;</p>
+                </content>
+              </point>
+              <point eId="point_5__point_2">
+                <num>(2)</num>
+                <content>
+                  <p>תהליך ושיטת ביצוע;</p>
+                </content>
+              </point>
+              <point eId="point_5__point_3">
+                <num>(3)</num>
+                <content>
+                  <p>מושג מתמטי;</p>
+                </content>
+              </point>
+              <point eId="point_5__point_4">
+                <num>(4)</num>
+                <content>
+                  <p>עובדה או נתון;</p>
+                </content>
+              </point>
+              <point eId="point_5__point_5">
+                <num>(5)</num>
+                <content>
+                  <p>חדשות היום.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_6">
+            <heading>
+              <authorialNote placement="side">
+                <p>פרסומים רשמיים</p>
+              </authorialNote>
+            </heading>
+            <num>6.</num>
+            <content>
+              <p>על אף הוראות <ref href="#point_4">סעיף 4</ref>, לא תהא זכות יוצרים בחוקים, בתקנות, בדברי הכנסת ובהחלטות שיפוטיות של בית משפט או של כל רשות שלטונית המפעילה סמכות שפיטה על פי דין.</p>
+            </content>
+          </point>
+          <point eId="point_7">
+            <heading>
+              <authorialNote placement="side">
+                <p>מדגמים ועיצובים</p>
+              </authorialNote>
+            </heading>
+            <num>7.</num>
+            <content>
+              <p>על אף הוראות <ref href="#point_4">סעיף 4</ref>, לא תהא זכות יוצרים במדגם כהגדרתו <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_הפטנטים_והמדגמים">בפקודת הפטנטים והמדגמים</ref> או בעיצוב כהגדרתו <ref href="/akn/il/act/PrimaryLegislation/2017-08-07/567248">בחוק העיצובים, התשע"ז–2017</ref>, אלא אם כן המדגם או העיצוב אינו משמש ואינו מכוון לשמש לייצור תעשייתי; השר רשאי לקבוע תנאים שבהתקיימם ייחשב מדגם או עיצוב כמשמש לייצור תעשייתי.</p>
+            </content>
+          </point>
+          <point eId="point_8">
+            <heading>
+              <authorialNote placement="side">
+                <p>זיקה לישראל</p>
+              </authorialNote>
+            </heading>
+            <num>8.</num>
+            <list>
+              <point eId="point_8__point_א">
+                <num>(א)</num>
+                <list>
+                  <intro>
+                    <p>זכות יוצרים תהא ביצירה כאמור <ref href="#point_4">בסעיף 4(א)(1)</ref>, בהתקיים אחד מאלה:</p>
+                  </intro>
+                  <point eId="point_8__point_א__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>היצירה פורסמה לראשונה בישראל;</p>
+                    </content>
+                  </point>
+                  <point eId="point_8__point_א__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>בעת יצירתה של היצירה היה יוצרה אזרח ישראלי, או שמקום מגוריו הרגיל היה בישראל, וזאת בין שהיצירה פורסמה ובין שלא פורסמה.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_8__point_ב">
+                <num>(ב)</num>
+                <list>
+                  <intro>
+                    <p>בלי לגרוע מהוראות סעיף קטן (א), תהא זכות יוצרים –</p>
+                  </intro>
+                  <point eId="point_8__point_ב__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>ביצירה קולנועית – גם אם בעת יצירתה היה מרכז עסקיו של מפיקה, או מקום מגוריו הרגיל, בישראל;</p>
+                    </content>
+                  </point>
+                  <point eId="point_8__point_ב__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>ביצירה אדריכלית וביצירה אמנותית אחרת שהוכללה בבניין או במבנה אחר – גם אם היצירה האדריכלית, הבניין או המבנה, לפי העניין, ממוקמים בישראל.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_8__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>זכות יוצרים תהא בתקליט אם בעת יצירת התקליט מפיק התקליט היה אזרח ישראלי, או שמקום מגוריו הרגיל, ואם הוא תאגיד – מרכז עסקיו, היה בישראל; ואולם זכות יוצרים להעתקה, להעמדה לרשות הציבור ולהשכרה, כאמור <ref href="#point_11">בסעיף 11(1), (5) ו־(7)</ref>, תהא בתקליט, גם אם התקליט פורסם לראשונה בישראל.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_9">
+            <heading>
+              <authorialNote placement="side">
+                <p>זכות יוצרים לפי אמנה בין־לאומית</p>
+              </authorialNote>
+            </heading>
+            <num>9.</num>
+            <content>
+              <p>נחתמה אמנה בין ישראל לבין מדינה אחרת בעניין הגנת זכות יוצרים, או שישראל הצטרפה לאמנה בעניין זה, רשאי השר לקבוע, בצו, כי יצירות כאמור <ref href="#point_4">בסעיף 4(א)</ref>, שהאמנה מחייבת את הגנתן בישראל, יהיו מוגנות על פי ההוראות שבצו; ההגנה על יצירות כאמור לא תהיה יתירה על ההגנה שהיתה ניתנת להן אילו התקיימו לגביהן התנאים <ref href="#point_8">שבסעיף 8</ref>, אלא אם כן הוסכם על כך באמנה, אך לא יותר מכפי שהוסכם.<br space="preserve"></br><wikicomment font-size="x-small">פורסם <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/צו_זכות_יוצרים_אמנת_ברן">צו זכות־יוצרים (אמנת ברן), התשי"ג–1953</ref>.</wikicomment><br space="preserve"></br><wikicomment font-size="x-small">פורסם <ref href="/akn/il/act/SecondaryLegislation/1953-06-11/99991414">צו זכות יוצרים (ארצות הברית), תשי"ג–1953</ref>.</wikicomment><br space="preserve"></br><wikicomment font-size="x-small">פורסם <ref href="/akn/il/act/SecondaryLegislation/1955-08-25/99992591">צו זכות יוצרים (האמנה העולמית), התשט"ו–1955</ref>.</wikicomment><br space="preserve"></br><wikicomment font-size="x-small">פורסם <ref href="/akn/il/act/SecondaryLegislation/1978-06-08/100010625">צו זכות יוצרים (אמנה להגנת יצרני רישמת קול), תשל"ח–1978</ref>.</wikicomment><br space="preserve"></br><wikicomment font-size="x-small">פורסם <ref href="/akn/il/act/SecondaryLegislation/1999-12-30/100028870">צו זכות יוצרים (הסכם טריפס), התש"ס–1999</ref>.</wikicomment></p>
+            </content>
+          </point>
+          <point eId="point_10">
+            <heading>
+              <authorialNote placement="side">
+                <p>שמירה על הדדיות</p>
+              </authorialNote>
+            </heading>
+            <num>10.</num>
+            <content>
+              <p>מצא השר שמדינה מסוימת אינה מעניקה הגנה ראויה ליצירות של יוצרים שהם אזרחים ישראליים, רשאי הוא, באישור הממשלה, להגביל בצו את הזכויות הקבועות לפי חוק זה, כולן או חלקן, ביחס ליצירות של יוצרים שהם אזרחי אותה מדינה; קבע השר כאמור, יחול הצו על יצירות שנוצרו לאחר כניסתו לתוקף.</p>
+            </content>
+          </point>
+        </list>
+      </chapter>
+      <chapter eId="chp_ג">
+        <num>פרק ג׳:</num>
+        <title>
+          <content>
+            <p>מהות זכות היוצרים</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_11">
+            <heading>
+              <authorialNote placement="side">
+                <p>זכות יוצרים מהי</p>
+              </authorialNote>
+            </heading>
+            <num>11.</num>
+            <list>
+              <intro>
+                <p>זכות יוצרים ביצירה היא הזכות הבלעדית לעשות ביצירה, או בחלק מהותי ממנה, פעולה, אחת או יותר, כמפורט להלן, בהתאם לסוג היצירה:</p>
+              </intro>
+              <point eId="point_11__point_1">
+                <num>(1)</num>
+                <content>
+                  <p>העתקה כאמור <ref href="#point_12">בסעיף 12</ref> – לגבי כל סוגי היצירות;</p>
+                </content>
+              </point>
+              <point eId="point_11__point_2">
+                <num>(2)</num>
+                <content>
+                  <p>פרסום – לגבי יצירה שלא פורסמה;</p>
+                </content>
+              </point>
+              <point eId="point_11__point_3">
+                <num>(3)</num>
+                <content>
+                  <p>ביצוע פומבי כאמור <ref href="#point_13">בסעיף 13</ref> – לגבי יצירה ספרותית, יצירה דרמטית, יצירה מוסיקלית ותקליט;</p>
+                </content>
+              </point>
+              <point eId="point_11__point_4">
+                <num>(4)</num>
+                <content>
+                  <p>שידור כאמור <ref href="#point_14">בסעיף 14</ref> – לגבי כל סוגי היצירות;</p>
+                </content>
+              </point>
+              <point eId="point_11__point_5">
+                <num>(5)</num>
+                <content>
+                  <p>העמדת היצירה לרשות הציבור כאמור <ref href="#point_15">בסעיף 15</ref> – לגבי כל סוגי היצירות;</p>
+                </content>
+              </point>
+              <point eId="point_11__point_6">
+                <num>(6)</num>
+                <content>
+                  <p>עשיית יצירה נגזרת כאמור <ref href="#point_16">בסעיף 16</ref>, ועשיית הפעולות המנויות בפסקאות (1) עד (5) ביצירה הנגזרת כאמור – לגבי יצירה ספרותית, יצירה אמנותית שאינה גופן, יצירה דרמטית ויצירה מוסיקלית;</p>
+                </content>
+              </point>
+              <point eId="point_11__point_7">
+                <num>(7)</num>
+                <content>
+                  <p>השכרה כאמור <ref href="#point_17">בסעיף 17</ref> – לגבי תקליט, יצירה קולנועית ותוכנת מחשב.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_12">
+            <heading>
+              <authorialNote placement="side">
+                <p>העתקה</p>
+              </authorialNote>
+            </heading>
+            <num>12.</num>
+            <list>
+              <intro>
+                <p>העתקה של יצירה היא עשיית עותק של היצירה בכל צורה מוחשית, לרבות –</p>
+              </intro>
+              <point eId="point_12__point_1">
+                <num>(1)</num>
+                <content>
+                  <p>אחסון של היצירה באמצעי אלקטרוני או באמצעי טכנולוגי אחר;</p>
+                </content>
+              </point>
+              <point eId="point_12__point_2">
+                <num>(2)</num>
+                <content>
+                  <p>עשיית עותק תלת־ממדי של יצירה דו־ממדית;</p>
+                </content>
+              </point>
+              <point eId="point_12__point_3">
+                <num>(3)</num>
+                <content>
+                  <p>עשיית עותק דו־ממדי של יצירה תלת־ממדית;</p>
+                </content>
+              </point>
+              <point eId="point_12__point_4">
+                <num>(4)</num>
+                <content>
+                  <p>העתקה ארעית של היצירה.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_13">
+            <heading>
+              <authorialNote placement="side">
+                <p>ביצוע פומבי</p>
+              </authorialNote>
+            </heading>
+            <num>13.</num>
+            <content>
+              <p>ביצוע פומבי של יצירה הוא השמעתה או הצגתה בציבור, במישרין או באמצעות מכשיר.</p>
+            </content>
+          </point>
+          <point eId="point_14">
+            <heading>
+              <authorialNote placement="side">
+                <p>שידור</p>
+              </authorialNote>
+            </heading>
+            <num>14.</num>
+            <content>
+              <p>שידור של יצירה הוא העברה קווית או אלחוטית, של צלילים, מראות או שילוב של צלילים ומראות, הכלולים ביצירה, לציבור.</p>
+            </content>
+          </point>
+          <point eId="point_15">
+            <heading>
+              <authorialNote placement="side">
+                <p>העמדה לרשות הציבור</p>
+              </authorialNote>
+            </heading>
+            <num>15.</num>
+            <content>
+              <p>העמדה של יצירה לרשות הציבור היא עשיית פעולה ביצירה כך שלאנשים מקרב הציבור תהיה גישה אליה ממקום ובמועד לפי בחירתם.</p>
+            </content>
+          </point>
+          <point eId="point_16">
+            <heading>
+              <authorialNote placement="side">
+                <p>עשיית יצירה נגזרת</p>
+              </authorialNote>
+            </heading>
+            <num>16.</num>
+            <content>
+              <p>עשיית יצירה נגזרת היא עשיית יצירה מקורית המבוססת באופן מהותי על יצירה אחרת, כגון תרגום או עיבוד.</p>
+            </content>
+          </point>
+          <point eId="point_17">
+            <heading>
+              <authorialNote placement="side">
+                <p>השכרה</p>
+              </authorialNote>
+            </heading>
+            <num>17.</num>
+            <list>
+              <point eId="point_17__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>השכרה של יצירה היא השכרת עותקים פיזיים של היצירה לציבור, לצורכי מסחר, למעט השכרה של תוכנת מחשב או של תקליט המהווים חלק בלתי נפרד מחפץ אחר שהוא המושכר העיקרי.</p>
+                </content>
+              </point>
+              <point eId="point_17__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>לעניין סעיף קטן (א), השכרה על ידי ספריה ציבורית או ספריה של מוסד חינוך, אינה בגדר השכרה לצורכי מסחר; השר רשאי לקבוע סוגי ספריות ציבוריות וסוגי מוסדות חינוך, שהוראות סעיף קטן זה יחולו עליהם.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+        </list>
+      </chapter>
+      <chapter eId="chp_ד">
+        <num>פרק ד׳:</num>
+        <title>
+          <content>
+            <p>שימושים מותרים</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_18">
+            <heading>
+              <authorialNote placement="side">
+                <p>שימושים מותרים</p>
+              </authorialNote>
+            </heading>
+            <num>18.</num>
+            <content>
+              <p>על אף הוראות <ref href="#point_11">סעיף 11</ref>, עשיית הפעולות המפורטות <ref href="#point_19">בסעיפים 19 עד 30</ref> מותרת בתנאים המפורטים <ref href="#point_19">באותם סעיפים</ref> ולשם השגת המטרות המפורטות בהם, אף בלא קבלת רשות מבעל זכות היוצרים ובלא תשלום תמורה, ולעניין הפעולות המפורטות <ref href="#point_32">בסעיף 32</ref> – בתמורה ובהתאם להוראות <ref href="#point_32">אותו סעיף</ref>.</p>
+            </content>
+          </point>
+          <point eId="point_19">
+            <heading>
+              <authorialNote placement="side">
+                <p>שימוש הוגן</p>
+              </authorialNote>
+            </heading>
+            <num>19.</num>
+            <list>
+              <point eId="point_19__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>שימוש הוגן ביצירה מותר למטרות כגון אלה: לימוד עצמי, מחקר, ביקורת, סקירה, דיווח עיתונאי, הבאת מובאות, או הוראה ובחינה על ידי מוסד חינוך.</p>
+                </content>
+              </point>
+              <point eId="point_19__point_ב">
+                <num>(ב)</num>
+                <list>
+                  <intro>
+                    <p>לצורך בחינה של הוגנות השימוש ביצירה לעניין סעיף זה, יישקלו, בין השאר, כל אלה:</p>
+                  </intro>
+                  <point eId="point_19__point_ב__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>מטרת השימוש ואופיו;</p>
+                    </content>
+                  </point>
+                  <point eId="point_19__point_ב__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>אופי היצירה שבה נעשה השימוש;</p>
+                    </content>
+                  </point>
+                  <point eId="point_19__point_ב__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>היקף השימוש, מבחינה איכותית וכמותית, ביחס ליצירה בשלמותה;</p>
+                    </content>
+                  </point>
+                  <point eId="point_19__point_ב__point_4">
+                    <num>(4)</num>
+                    <content>
+                      <p>השפעת השימוש על ערכה של היצירה ועל השוק הפוטנציאלי שלה.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_19__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>השר רשאי לקבוע תנאים שבהתקיימם ייחשב שימוש לשימוש הוגן.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_20">
+            <heading>
+              <authorialNote placement="side">
+                <p>שימוש ביצירה בהליכים משפטיים או מינהליים</p>
+              </authorialNote>
+            </heading>
+            <num>20.</num>
+            <content>
+              <p>שימוש ביצירה בהליכים משפטיים או בהליכים מינהליים לפי דין, לרבות דיווח על הליכים אלה, מותר בהיקף המוצדק בשים לב למטרת השימוש כאמור.</p>
+            </content>
+          </point>
+          <point eId="point_21">
+            <heading>
+              <authorialNote placement="side">
+                <p>העתקה של יצירה המופקדת לעיון הציבור</p>
+              </authorialNote>
+            </heading>
+            <num>21.</num>
+            <list>
+              <point eId="point_21__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>העתקה של יצירה המופקדת לעיון הציבור לפי חיקוק, מותרת למטרה שלשמה הועמדה לעיון הציבור, ובהיקף המוצדק בשים לב למטרה האמורה.</p>
+                </content>
+              </point>
+              <point eId="point_21__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>הוראות סעיף קטן (א) לא יחולו לגבי יצירות שנמסרו לפי <ref href="/akn/il/act/PrimaryLegislation/2000-12-27/169947">חוק הספרים (חובת מסירה וציון הפרטים), התשס"א–2000</ref>.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_22">
+            <heading>
+              <authorialNote placement="side">
+                <p>שימוש אגבי ביצירה</p>
+              </authorialNote>
+            </heading>
+            <num>22.</num>
+            <content>
+              <p>שימוש אגבי ביצירה בדרך של הכללתה ביצירת צילום, ביצירה קולנועית או בתקליט, וכן שימוש ביצירה שבה הוכללה היצירה כאמור, מותר; לעניין זה, הכללה במתכוון של יצירה מוסיקלית, לרבות המילים הנלוות אליה, או של תקליט שבו היא טבועה, ביצירה אחרת, לא תיחשב לשימוש אגבי.</p>
+            </content>
+          </point>
+          <point eId="point_23">
+            <heading>
+              <authorialNote placement="side">
+                <p>שידור או העתקה של יצירה הממוקמת במקום ציבורי</p>
+              </authorialNote>
+            </heading>
+            <num>23.</num>
+            <content>
+              <p>שידור, או העתקה בדרך של צילום, ציור, שרטוט או תיאור חזותי דומה, של יצירה אדריכלית, יצירת פיסול או יצירת אמנות שימושית, מותרים אם היצירה ממוקמת בקביעות במקום ציבורי.</p>
+            </content>
+          </point>
+          <point eId="point_24">
+            <heading>
+              <authorialNote placement="side">
+                <p>העתקה של תוכנת מחשב או עשיית יצירה נגזרת ממנה</p>
+              </authorialNote>
+            </heading>
+            <num>24.</num>
+            <list>
+              <point eId="point_24__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>העתקה של תוכנת מחשב לצורכי גיבוי, מותרת למי שמחזיק עותק מורשה של תוכנת המחשב; מי שמחזיק עותק כאמור ישמידו עם חלוף הצורך שלשמו נוצר.</p>
+                </content>
+              </point>
+              <point eId="point_24__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>העתקה של תוכנת מחשב לצורך תחזוקה של עותק מורשה של התוכנה או של מערכת מחשב, או לצורך מתן שירות למי שמחזיק עותק מורשה של תוכנת המחשב, מותרת, אם הדבר נחוץ לשם שימוש בתוכנה.</p>
+                </content>
+              </point>
+              <point eId="point_24__point_ג">
+                <num>(ג)</num>
+                <list>
+                  <intro>
+                    <p>העתקה של תוכנת מחשב או עשיית יצירה נגזרת ממנה, מותרת למי שמחזיק עותק מורשה של תוכנת המחשב, למטרות אלה ובהיקף הדרוש לכך:</p>
+                  </intro>
+                  <point eId="point_24__point_ג__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>שימוש בתוכנת המחשב למטרות שלשמן נועדה, ובכלל זה תיקון שגיאות בתוכנת המחשב או התאמתה למערכת מחשב או לתוכנת מחשב אחרת;</p>
+                    </content>
+                  </point>
+                  <point eId="point_24__point_ג__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>בדיקה של אבטחת המידע בתוכנת המחשב, תיקון פרצות באבטחת המידע והגנה מפניהן;</p>
+                    </content>
+                  </point>
+                  <point eId="point_24__point_ג__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>השגת מידע הדרוש לצורך התאמת מערכת מחשב או תוכנת מחשב אחרת, המפותחת באופן עצמאי, כך שתוכל לפעול עם תוכנת מחשב זו.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_24__point_ד">
+                <num>(ד)</num>
+                <list>
+                  <intro>
+                    <p>הוראות סעיף קטן (ג) לא יחולו על העתקה של תוכנת מחשב או עשיית יצירה נגזרת ממנה, כאמור באותו סעיף קטן, אם במידע שהושג במהלכה נעשה שימוש כמפורט להלן, או שהיה אפשר לגלותו, בנקל, גם בלעדיהן:</p>
+                  </intro>
+                  <point eId="point_24__point_ד__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>המידע הועבר לאדם אחר, למטרה שונה מהמטרות האמורות בסעיף קטן (ג);</p>
+                    </content>
+                  </point>
+                  <point eId="point_24__point_ד__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>המידע שימש לצורך יצירת תוכנת מחשב אחרת המפרה את זכות היוצרים בתוכנת המחשב.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_24__point_ה">
+                <num>(ה)</num>
+                <content>
+                  <p>בסעיף זה, ”עותק מורשה“, של תוכנת המחשב – עותק של תוכנת המחשב שנעשה על ידי בעל זכות היוצרים בה או ברשותו.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_25">
+            <heading>
+              <authorialNote placement="side">
+                <p>הקלטה לצורכי שידור</p>
+              </authorialNote>
+            </heading>
+            <num>25.</num>
+            <list>
+              <point eId="point_25__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>הקלטה של יצירה בידי מי שרשאי לשדרה, מותרת אם היא נעשית לצורך שימוש בשידוריו בלבד.</p>
+                </content>
+              </point>
+              <point eId="point_25__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>מי שהקליט יצירה לפי הוראות סעיף קטן (א) ישמיד את ההקלטה עד תום שישה חודשים מיום שידורה הראשון או עד למועד מאוחר יותר הקבוע לפי כל דין, או עד למועד מאוחר יותר שעליו הסכים עם בעל זכות היוצרים ביצירה שהוקלטה כאמור.</p>
+                </content>
+              </point>
+              <point eId="point_25__point_ג">
+                <num>(ג)</num>
+                <list>
+                  <intro>
+                    <p>על אף הוראות סעיף קטן (ב), שמירת הקלטה מותרת –</p>
+                  </intro>
+                  <point eId="point_25__point_ג__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>למטרות ארכיון;</p>
+                    </content>
+                  </point>
+                  <point eId="point_25__point_ג__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>לעניין מי שרשאי לשדר את היצירה – כל עוד הוא רשאי לעשות כן.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+            </list>
+          </point>
+          <point eId="point_26">
+            <heading>
+              <authorialNote placement="side">
+                <p>העתקה זמנית</p>
+              </authorialNote>
+            </heading>
+            <num>26.</num>
+            <content>
+              <p>העתקה זמנית, לרבות העתקה כאמור שנעשתה בדרך אגבית, של יצירה, מותרת אם היא מהווה חלק בלתי נפרד מהליך טכנולוגי שמטרתו היחידה היא לאפשר העברה של היצירה בין צדדים ברשת תקשורת, על ידי גורם ביניים, או לאפשר שימוש אחר כדין ביצירה, ובלבד שאין לעותק האמור ערך כלכלי משמעותי משל עצמו.</p>
+            </content>
+          </point>
+          <point eId="point_27">
+            <heading>
+              <authorialNote placement="side">
+                <p>יצירה אמנותית נוספת על ידי היוצר</p>
+              </authorialNote>
+            </heading>
+            <num>27.</num>
+            <content>
+              <p>עשיית יצירה אמנותית חדשה שיש בה העתקה חלקית של יצירה קודמת או שהיא יצירה נגזרת של יצירה אמנותית קודמת, וכן כל שימוש ביצירה החדשה כאמור, מותרים ליוצר של היצירה האמנותית הקודמת, גם אם אינו בעל זכות היוצרים בה, ובלבד שהיצירה החדשה אינה מהווה חזרה על עיקרה של היצירה הקודמת או חיקוי שלה.</p>
+            </content>
+          </point>
+          <point eId="point_27א">
+            <heading>
+              <authorialNote placement="side">
+                <p>יצירות שבעל זכות היוצרים בהן אינו ידוע או לא אותר</p>
+              </authorialNote>
+            </heading>
+            <num>27א.</num>
+            <list>
+              <point eId="point_27א__point_א">
+                <num>(א)</num>
+                <list>
+                  <intro>
+                    <p>שימוש ביצירה שבעל זכות היוצרים בה אינו ידוע או לא אותר, מותר בתנאים אלה:</p>
+                  </intro>
+                  <point eId="point_27א__point_א__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>המשתמש פעל בשקידה סבירה לגילוי או לאיתור בעל זכות היוצרים ביצירה, לפי העניין, לפני השימוש;</p>
+                    </content>
+                  </point>
+                  <point eId="point_27א__point_א__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>המשתמש ציין באופן ברור באותה דרך שבה הוא עושה שימוש ביצירה, כי השימוש נעשה על פי סעיף זה וכי בעל זכות יוצרים זכאי לבקש שהמשתמש יחדל מהשימוש וכן פרטים ליצירת קשר עמו;</p>
+                    </content>
+                  </point>
+                  <point eId="point_27א__point_א__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>המשתמש הפסיק את השימוש או קיבל רישיון לשימוש עתידי לאחר שקיבל הודעה מבעל זכות היוצרים.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_27א__point_ב">
+                <num>(ב)</num>
+                <list>
+                  <intro>
+                    <p>היה השימוש ביצירה כאמור בסעיף קטן (א) מסחרי, יחולו הוראות אלה נוסף על האמור באותו סעיף קטן:</p>
+                  </intro>
+                  <point eId="point_27א__point_ב__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>המשתמש פרסם הודעה באינטרנט או בעיתון יומי זמן סביר לפני השימוש;</p>
+                    </content>
+                  </point>
+                  <point eId="point_27א__point_ב__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>המשתמש שילם לבעל זכות היוצרים תמלוג ראוי לאחר שקיבל הודעה מבעל זכות היוצרים; תמלוג ראוי כאמור ישולם בעד התקופה שתחילתה במועד תחילת השימוש ביצירה.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_27א__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>שקידה סבירה תיבחן בין השאר בהתחשב באופי היצירה ובמועד יצירתה.</p>
+                </content>
+              </point>
+              <point eId="point_27א__point_ד">
+                <num>(ד)</num>
+                <content>
+                  <p>השר רשאי לקבוע בתקנות פעולות שייחשבו שקידה סבירה ופרטים ליצירת קשר כאמור בסעיף קטן (א)(2).</p>
+                </content>
+              </point>
+              <point eId="point_27א__point_ה">
+                <num>(ה)</num>
+                <content>
+                  <p>אין בהוראות סעיף זה כדי לגרוע מסמכויות האפוטרופוס הכללי לפי <ref href="/akn/il/act/PrimaryLegislation/1978-01-18/146879">חוק האפוטרופוס הכללי, התשל"ח–1978</ref>.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_28">
+            <heading>
+              <authorialNote placement="side">
+                <p>שיקום והקמה מחדש של בניינים</p>
+              </authorialNote>
+            </heading>
+            <num>28.</num>
+            <list>
+              <intro>
+                <p>שימוש ביצירות אלה מותר לצורך שיקום או הקמה מחדש של בניין או של מבנה אחר:</p>
+              </intro>
+              <point eId="point_28__point_1">
+                <num>(1)</num>
+                <content>
+                  <p>היצירה האדריכלית שהיא הבניין או המבנה האמורים, או המודל שלהם;</p>
+                </content>
+              </point>
+              <point eId="point_28__point_2">
+                <num>(2)</num>
+                <content>
+                  <p>השרטוטים והתכניות ששימשו, ברשות בעל זכות היוצרים בהם, להקמת הבניין או המבנה האמורים, בעת שהוקמו.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_28א">
+            <heading>
+              <authorialNote placement="side">
+                <p>התאמת יצירה לאדם עם מוגבלות</p>
+              </authorialNote>
+            </heading>
+            <num>28א.</num>
+            <list>
+              <point eId="point_28א__point_א">
+                <num>(א)</num>
+                <list>
+                  <intro>
+                    <p>בסעיף זה –</p>
+                  </intro>
+                  <point eId="point_28א__point_א__point_אדם_עם_מוגבלות">
+                    <content>
+                      <p>
+                        <def />”אדם עם מוגבלות“ ו”הנציב“ – כהגדרתם <ref href="/akn/il/act/PrimaryLegislation/1998-03-05/165017#point_5">בסעיף 5 לחוק שוויון זכויות</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_28א__point_א__point_ארגון">
+                    <list>
+                      <intro>
+                        <p>
+                          <def />”ארגון“ – כל אחד מאלה:</p>
+                      </intro>
+                      <point eId="point_28א__point_א__point_ארגון__point_1">
+                        <num>(1)</num>
+                        <content>
+                          <p>מוסד ללא כוונת רווח כהגדרתו <ref href="/akn/il/act/PrimaryLegislation/1976-01-06/147931">בחוק מס ערך מוסף, התשל"ו–1975</ref>, שאחת ממטרותיו או אחת מפעילויותיו העיקריות היא חינוך או הכשרה של אנשים עם מוגבלות, מתן שירותי רווחה לאנשים כאמור או הנגשת מידע בעבורם;</p>
+                        </content>
+                      </point>
+                      <point eId="point_28א__point_א__point_ארגון__point_2">
+                        <num>(2)</num>
+                        <content>
+                          <p>משרד ממשרדי הממשלה;</p>
+                        </content>
+                      </point>
+                      <point eId="point_28א__point_א__point_ארגון__point_3">
+                        <num>(3)</num>
+                        <content>
+                          <p>מוסד חינוך מסוג שקבע השר לפי <ref href="#point_29">סעיף 29</ref>;</p>
+                        </content>
+                      </point>
+                    </list>
+                  </point>
+                  <point eId="point_28א__point_א__point_חוק_שוויון_זכויות">
+                    <content>
+                      <p>
+                        <def />”חוק שוויון זכויות“ – <ref href="/akn/il/act/PrimaryLegislation/1998-03-05/165017">חוק שוויון זכויות לאנשים עם מוגבלות, התשנ"ח–1998</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_28א__point_א__point_יצירה_מותאמת">
+                    <content>
+                      <p>
+                        <def />”יצירה מותאמת“ – יצירה במתכונת המותאמת לשימושו של אדם עם מוגבלות;</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_28א__point_ב">
+                <num>(ב)</num>
+                <list>
+                  <intro>
+                    <p>עשיית פעולה ביצירה שאינה נגישה באופן הולם לאדם עם מוגבלות מחמת מוגבלותו, או בעותק של יצירה כאמור, לשם הפיכתה ליצירה מותאמת, מותרת בתנאים אלה:</p>
+                  </intro>
+                  <point eId="point_28א__point_ב__point_1">
+                    <num>(1)</num>
+                    <list>
+                      <intro>
+                        <p>עושה הפעולה, בעצמו או באמצעות אחר, הוא אחד מהמנויים בפסקאות שלהלן ומתקיימים התנאים כמפורט באותן פסקאות:</p>
+                      </intro>
+                      <point eId="point_28א__point_ב__point_1__point_א">
+                        <num>(א)</num>
+                        <content>
+                          <p>ארגון, ובלבד שהפעולה נעשית שלא למטרת רווח, ובכל אחד מהעותקים של היצירה המותאמת (בסעיף זה – עותק מותאם) מצוין כי העתקה או העברה של העותק המותאם בניגוד להוראות חוק זה מהווה הפרה של זכות היוצרים;</p>
+                        </content>
+                      </point>
+                      <point eId="point_28א__point_ב__point_1__point_ב">
+                        <num>(ב)</num>
+                        <content>
+                          <p>אדם עם מוגבלות או מי מטעמו, ובלבד שהפעולה נעשית לשימושו הפרטי של אדם עם מוגבלות;</p>
+                        </content>
+                      </point>
+                      <point eId="point_28א__point_ב__point_1__point_ג">
+                        <num>(ג)</num>
+                        <content>
+                          <p>מי שמוטלת עליו חובה לפי חיקוק לבצע התאמות נגישות ביצירה, ובלבד שהפעולה ביצירה נעשית בהיקף במידה המתחייבים מהוראות החיקוק ומתקיימים התנאים שבפסקת משנה (א);</p>
+                        </content>
+                      </point>
+                    </list>
+                  </point>
+                  <point eId="point_28א__point_ב__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>לעושה הפעולה יש גישה חוקית ליצירה או לעותק שלה;</p>
+                    </content>
+                  </point>
+                  <point eId="point_28א__point_ב__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>השינויים ביצירה אינם עולים על הנדרש לשם התאמתה לאנשים עם מוגבלות;</p>
+                    </content>
+                  </point>
+                  <point eId="point_28א__point_ב__point_4">
+                    <num>(4)</num>
+                    <content>
+                      <p>לא ניתן להשיג עותק מותאם בתנאים סבירים; בחינת תנאים סבירים לעניין זה תיעשה בהתחשב, בין השאר, במחיר השוק של עותק חוקי של היצירה, שעשייתו מותרת לפי הוראות חוק זה, במקום הימצאו של עותק מותאם ובכמות העותקים הזמינים שלו.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_28א__point_ג">
+                <num>(ג)</num>
+                <list>
+                  <intro>
+                    <p>העתקה של יצירה מותאמת שנעשתה לפי הוראות סעיף זה מותרת לארגון בלבד; ארגון רשאי להעביר עותק מותאם, ללא כוונת רווח, לכל אחד מאלה:</p>
+                  </intro>
+                  <point eId="point_28א__point_ג__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>אדם עם מוגבלות בישראל או ארגון אחר;</p>
+                    </content>
+                  </point>
+                  <point eId="point_28א__point_ג__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>אדם עם מוגבלות מחוץ לישראל או ארגון חוץ; ואולם לא יעביר ארגון עותק מותאם לאדם או לארגון כאמור אם ידע או היה עליו לדעת כי לאחר העברת העותק המותאם ייעשה בו שימוש בעבור מי שאינו אדם עם מוגבלות; לעניין זה, ”ארגון חוץ“ – גוף הפועל ללא כוונת רווח מחוץ לישראל, שאחת ממטרותיו או אחת מפעילויותיו העיקריות היא חינוך או הכשרה של אנשים עם מוגבלות או הנגשת מידע בעבורם.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_28א__point_ד">
+                <num>(ד)</num>
+                <content>
+                  <p>יישום הוראות סעיף זה ייעשה תוך הגנה על פרטיותם של אנשים עם מוגבלות.</p>
+                </content>
+              </point>
+              <point eId="point_28א__point_ה">
+                <num>(ה)</num>
+                <content>
+                  <p>הנציב רשאי לפרסם מידע לציבור בדבר פעילותם של כל אחד מהגופים המנויים בפסקאות משנה (א) ו־(ג) שבסעיף קטן (ב)(1).</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_28ב">
+            <heading>
+              <authorialNote placement="side">
+                <p>שימוש מותר בגופן</p>
+              </authorialNote>
+            </heading>
+            <num>28ב.</num>
+            <content>
+              <p>שימוש בגופן בהקלדה, בעיבוד תמלילים, בסדר דפוס, בדפוס או בהדפסה, וכן החזקת מוצר לשם שימוש כאמור – מותרים, אף אם נעשו תוך שימוש בתוכנת מחשב או במוצר אחר שמפר את הזכות בגופן.</p>
+            </content>
+          </point>
+          <point eId="point_29">
+            <heading>
+              <authorialNote placement="side">
+                <p>ביצוע פומבי במוסדות חינוך</p>
+              </authorialNote>
+            </heading>
+            <num>29.</num>
+            <content>
+              <p>ביצוע פומבי של יצירה מותר במהלך פעילותו החינוכית של מוסד חינוך מסוג שקבע השר, על ידי העובדים במוסד החינוך או על ידי התלמידים הלומדים בו, ובלבד שהביצוע הפומבי הוא לפני ציבור הכולל את העובדים או את התלמידים כאמור, קרוביהם של התלמידים או אנשים אחרים הקשורים במישרין עם פעילותו של מוסד החינוך, והם בלבד; ואולם, הצגת יצירה קולנועית מותרת לפי סעיף זה רק אם היא נעשית למטרות הוראה או בחינה, על ידי מוסד החינוך.</p>
+            </content>
+          </point>
+          <point eId="point_30">
+            <heading>
+              <authorialNote placement="side">
+                <p>שימושים מותרים בספריות, בארכיונים ובגופים אחרים</p>
+              </authorialNote>
+            </heading>
+            <num>30.</num>
+            <list>
+              <point eId="point_30__point_א">
+                <num>(א)</num>
+                <list>
+                  <intro>
+                    <p>העתקה של יצירה, שעותק ממנה מצוי באוסף הקבוע של ספריה או של ארכיון, מסוג שקבע השר, מותרת למטרות אלה, ובלבד שלא ניתן לרכוש עותק נוסף של היצירה בתוך פרק זמן סביר ובתנאים סבירים:</p>
+                  </intro>
+                  <point eId="point_30__point_א__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>שימור, בכל דרך שהיא, של יצירה שעותק ממנה מצוי בידי הספריה או הארכיון, ובלבד שלא ייעשה בעותק לשימור שימוש כעותק נוסף על העותקים שבספריה;</p>
+                    </content>
+                  </point>
+                  <point eId="point_30__point_א__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>החלפת עותק של היצירה, שהיה בידי הספריה או הארכיון ואבד, הושמד או נעשה בלתי ראוי לשימוש;</p>
+                    </content>
+                  </point>
+                  <point eId="point_30__point_א__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>החלפת עותק של היצירה, שהיה באוסף הקבוע של ספריה אחרת או של ארכיון אחר, ואבד, הושמד או נעשה בלתי ראוי לשימוש.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_30__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>העתקה של יצירה שעותק ממנה מצוי בספריה או בארכיון שנקבעו כאמור בסעיף קטן (א), בעבור אדם המבקש זאת, מותרת, ובלבד שההעתקה המבוקשת, אילו נעשתה על ידי אותו אדם, היתה מותרת לפי דין; השר רשאי לקבוע טופס בקשה מספריה או מארכיון לעניין סעיף קטן זה.</p>
+                </content>
+              </point>
+              <point eId="point_30__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>העתקה של יצירה על ידי גופים מסוג שקבע השר, לצורכי שימור, מותרת; השר רשאי לקבוע סוגי יצירות שסעיף קטן זה יחול עליהם, תנאים לביצוע העתקה וכן תנאים למתן גישה לציבור לעותקים שנעשו לפי סעיף קטן זה.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_31">
+            <heading>
+              <authorialNote placement="side">
+                <p>תקנות לעניין מוסדות חינוך, ספריות וארכיונים</p>
+              </authorialNote>
+            </heading>
+            <num>31.</num>
+            <content>
+              <p>השר רשאי לקבוע תנאים אחרים לתחולת הוראות <ref href="#point_29">סעיפים 29</ref><ref href="#point_30">ו־30</ref>, דרך כלל או לעניין סוגים מסוימים של מוסדות חינוך, ספריות או ארכיונים, בשים לב למאפייני פעילותם.</p>
+            </content>
+          </point>
+          <point eId="point_32">
+            <heading>
+              <authorialNote placement="side">
+                <p>ייצור תקליטים תמורת תמלוגים</p>
+              </authorialNote>
+            </heading>
+            <num>32.</num>
+            <list>
+              <point eId="point_32__point_א">
+                <num>(א)</num>
+                <list>
+                  <intro>
+                    <p>על אף הוראות <ref href="#point_11">סעיף 11</ref>, העתקה של יצירה מוסיקלית, בתקליט, מותרת בהתקיים תנאים אלה, אף בלא רשותו של בעל זכות היוצרים:</p>
+                  </intro>
+                  <point eId="point_32__point_א__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>היצירה המוסיקלית נטבעה קודם לכן, ברשותו של בעל זכות היוצרים, בתקליט אחר שפורסם לצורכי מסחר (בסעיף זה – התקליט הקודם);</p>
+                    </content>
+                  </point>
+                  <point eId="point_32__point_א__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>היצירה המוסיקלית הועתקה בתקליט בשלמותה למעט שינויים הנובעים מעיבוד היצירה, ולמעט שינויים הדרושים לצורך ההעתקה או שינויים שכבר נעשו בתקליט הקודם;</p>
+                    </content>
+                  </point>
+                  <point eId="point_32__point_א__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>עושה ההעתקה הודיע על כך מראש לבעל זכות היוצרים;</p>
+                    </content>
+                  </point>
+                  <point eId="point_32__point_א__point_4">
+                    <num>(4)</num>
+                    <content>
+                      <p>עושה ההעתקה שילם תמלוגים ראויים כפי שהסכים עם בעל זכות היוצרים, ובהעדר הסכמה – כפי שקבע בית המשפט;</p>
+                    </content>
+                  </point>
+                  <point eId="point_32__point_א__point_5">
+                    <num>(5)</num>
+                    <content>
+                      <p>ההעתקה אינה משמשת ואינה מכוונת לשמש לפרסומת מסחרית.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_32__point_ב">
+                <num>(ב)</num>
+                <list>
+                  <intro>
+                    <p>השר רשאי לקבוע הוראות בעניינים אלה:</p>
+                  </intro>
+                  <point eId="point_32__point_ב__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>דרכי ההודעה לבעל זכות היוצרים כאמור בסעיף קטן (א)(3);</p>
+                    </content>
+                  </point>
+                  <point eId="point_32__point_ב__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>שיקולים ואמות מידה לקביעת התמלוגים הראויים על ידי בית המשפט כאמור בסעיף קטן (א)(4).</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_32__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>בסעיף זה, ”יצירה מוסיקלית“ – לרבות המילים הנלוות אליה, אם נלוו אליה גם בתקליט הקודם.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+        </list>
+      </chapter>
+      <chapter eId="chp_ה">
+        <num>פרק ה׳:</num>
+        <title>
+          <content>
+            <p>בעלות בזכות יוצרים</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_33">
+            <heading>
+              <authorialNote placement="side">
+                <p>הבעלים הראשון של זכות היוצרים</p>
+              </authorialNote>
+            </heading>
+            <num>33.</num>
+            <list>
+              <intro>
+                <p>בכפוף להוראות <ref href="#chp_ה">פרק זה</ref> –</p>
+              </intro>
+              <point eId="point_33__point_1">
+                <num>(1)</num>
+                <content>
+                  <p>היוצר של יצירה הוא הבעלים הראשון של זכות היוצרים ביצירה;</p>
+                </content>
+              </point>
+              <point eId="point_33__point_2">
+                <num>(2)</num>
+                <content>
+                  <p>המפיק של תקליט הוא הבעלים הראשון של זכות היוצרים בתקליט.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_34">
+            <heading>
+              <authorialNote placement="side">
+                <p>יצירה שנוצרה בידי עובד</p>
+              </authorialNote>
+            </heading>
+            <num>34.</num>
+            <content>
+              <p>מעביד הוא הבעלים הראשון של זכות היוצרים ביצירה שנוצרה על ידי עובדו לצורך עבודתו ובמהלכה, אלא אם כן הוסכם אחרת.</p>
+            </content>
+          </point>
+          <point eId="point_35">
+            <heading>
+              <authorialNote placement="side">
+                <p>יצירה מוזמנת</p>
+              </authorialNote>
+            </heading>
+            <num>35.</num>
+            <list>
+              <point eId="point_35__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>ביצירה שנוצרה לפי הזמנה, הבעלים הראשון של זכות היוצרים בה, כולה או חלקה, הוא היוצר, אלא אם כן הוסכם אחרת בין המזמין והיוצר, במפורש או במשתמע.</p>
+                </content>
+              </point>
+              <point eId="point_35__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>ביצירה שהיא דיוקן או צילום של אירוע משפחתי או של אירוע פרטי אחר, שנוצרה לפי הזמנה, הבעלים הראשון של זכות היוצרים בה הוא המזמין, אלא אם כן הוסכם אחרת.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_36">
+            <heading>
+              <authorialNote placement="side">
+                <p>בעלות המדינה ביצירה</p>
+              </authorialNote>
+            </heading>
+            <num>36.</num>
+            <content>
+              <p>המדינה היא הבעלים הראשון של זכות היוצרים ביצירה שנוצרה או שהוזמנה על ידה או על ידי עובד המדינה עקב עבודתו ובמהלכה, אלא אם כן הוסכם אחרת; לעניין זה, ”עובד המדינה“ – לרבות חייל, שוטר, וכל נושא משרה או בעל תפקיד על פי חיקוק במוסד ממוסדות המדינה.</p>
+            </content>
+          </point>
+          <point eId="point_37">
+            <heading>
+              <authorialNote placement="side">
+                <p>העברת זכות יוצרים והענקת רישיון</p>
+              </authorialNote>
+            </heading>
+            <num>37.</num>
+            <list>
+              <point eId="point_37__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>זכות יוצרים ניתנת להעברה בחוזה או על פי דין, ורשאי בעל הזכות לתת לגביה רישיון ייחודי או רישיון שאינו ייחודי.</p>
+                </content>
+              </point>
+              <point eId="point_37__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>העברת זכות היוצרים או מתן הרישיון, כאמור בסעיף קטן (א), יכול שיהיו לגבי זכות היוצרים, כולה או חלקה, וניתן להגבילם למקום מסוים, לתקופה מסוימת או לעשיית פעולה מסוימת ביצירה.</p>
+                </content>
+              </point>
+              <point eId="point_37__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>חוזה להעברת זכות יוצרים או למתן רישיון ייחודי לגביה, טעון מסמך בכתב.</p>
+                </content>
+              </point>
+              <point eId="point_37__point_ד">
+                <num>(ד)</num>
+                <content>
+                  <p>בסעיף זה, ”רישיון ייחודי“ – רישיון המעניק לבעליו זכות ייחודית לעשות פעולה מהפעולות המפורטות <ref href="#point_11">בסעיף 11</ref>, כפי שנקבע בו, ומגביל את בעל זכות היוצרים מלעשות ומלהרשות לאחר לעשות פעולה כאמור.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+        </list>
+      </chapter>
+      <chapter eId="chp_ו">
+        <num>פרק ו׳:</num>
+        <title>
+          <content>
+            <p>תקופת זכות יוצרים</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_38">
+            <heading>
+              <authorialNote placement="side">
+                <p>תקופת זכות יוצרים</p>
+              </authorialNote>
+            </heading>
+            <num>38.</num>
+            <content>
+              <p>זכות יוצרים ביצירה תהא למשך חייו של היוצר וכן שבעים שנים לאחר מותו, בכפוף להוראות <ref href="#chp_ו">פרק זה</ref>.</p>
+            </content>
+          </point>
+          <point eId="point_39">
+            <heading>
+              <authorialNote placement="side">
+                <p>תקופת זכות יוצרים ביצירה משותפת</p>
+              </authorialNote>
+            </heading>
+            <num>39.</num>
+            <content>
+              <p>זכות יוצרים ביצירה משותפת תהא למשך חייו של היוצר האחרון שנותר בחיים, מבין היוצרים במשותף של היצירה, וכן שבעים שנים לאחר מותו.</p>
+            </content>
+          </point>
+          <point eId="point_40">
+            <heading>
+              <authorialNote placement="side">
+                <p>תקופת זכות יוצרים ביצירה שפורסמה בעילום שם</p>
+              </authorialNote>
+            </heading>
+            <num>40.</num>
+            <content>
+              <p>לא מופיע על יצירה שמו של אדם כיוצר היצירה ויוצרה אינו ידוע בציבור, או שמופיע עליה שם בדוי של אדם שזהותו אינה ידועה בציבור, תהא זכות יוצרים ביצירה לתקופה של שבעים שנים מהמועד שבו פורסמה לראשונה; לא פורסמה היצירה עד תום שבעים שנים ממועד יצירתה, תהא זכות היוצרים בה לתקופה של שבעים שנים ממועד יצירתה; ואולם אם גילה יוצר היצירה את זהותו לציבור, במהלך תקופת זכות היוצרים כאמור, יחולו הוראות <ref href="#point_38">סעיפים 38</ref><ref href="#point_39">או 39</ref>, לפי העניין.</p>
+            </content>
+          </point>
+          <point eId="point_41">
+            <heading>
+              <authorialNote placement="side">
+                <p>תקופת זכות יוצרים בתקליט</p>
+              </authorialNote>
+            </heading>
+            <num>41.</num>
+            <list>
+              <point eId="point_41__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>זכות יוצרים בתקליט תהא לתקופה של שבעים שנים ממועד יצירתו; ואם פורסם בתוך שנתיים ממועד יצירתו – לתקופה של שבעים שנים ממועד פרסומו כאמור, והכול בכפוף להוראות סעיפים קטנים (ב) עד (ז).<br space="preserve"></br><wikicomment font-size="x-small">לפי <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/http_fs_knesset_gov_il_20_law_20_lsr_382347_pdf#point_3">סעיף 3 לחוק הארכת תקופת זכות יוצרים בתקליט וזכויות מבצעים (תיקוני חקיקה), התשע"ז–2017</ref>, זכות יוצרים בתקליט שבשנת 2017 חלפו חמישים שנים ממועד יצירתו תהא לתקופה של חמישים שנים ממועד יצירתו.</wikicomment></p>
+                </content>
+              </point>
+              <point eId="point_41__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>לא הוציא מפיק התקליט, או מי מטעמו, כמות מספקת של עותקים של התקליט לרשות הציבור, או לא העמיד אותו לרשות הציבור, תפקע זכות היוצרים בתקליט בתום חמישים שנים ממועד יצירתו של התקליט, ולגבי תקליט שפורסם בתוך שנתיים ממועד יצירתו – בתום חמישים שנים ממועד פרסומו כאמור (בסעיף זה – תקופת ההגנה הראשונה).</p>
+                </content>
+              </point>
+              <point eId="point_41__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>לא הוציא מפיק התקליט, או מי מטעמו, מתום תקופת ההגנה הראשונה ועד תום התקופה האמורה בסעיף קטן (א) (בסעיף זה – תקופת ההגנה הנוספת), במשך שנה, כמות מספקת של עותקים של התקליט לרשות הציבור, או לא העמיד אותו לרשות הציבור, תפקע זכות היוצרים בתקליט בתום אותה שנה.</p>
+                </content>
+              </point>
+              <point eId="point_41__point_ד">
+                <num>(ד)</num>
+                <list>
+                  <intro>
+                    <p>לעניין תקליט שהבעלות בזכויות המבצעים לפי <ref href="/akn/il/act/PrimaryLegislation/1996-02-23/159515#point_2">סעיף 2(2) לחוק זכויות מבצעים ומשדרים, התשמ"ד–1984</ref> (להלן – חוק זכויות מבצעים ומשדרים), המגולמות בו, כולן או חלקן, הועברו למפיק התקליט, בין אם ישירות בידי המבצע ובין באמצעות צד שלישי, יחולו הוראות אלה:</p>
+                  </intro>
+                  <point eId="point_41__point_ד__point_1">
+                    <num>(1)</num>
+                    <list>
+                      <intro>
+                        <p>פקעה זכותו של מפיק התקליט כאמור בסעיפים קטנים (ב) או (ג), וטרם פקעה הזכות בביצוע שהבעלות בזכויות המבצעים בו לפי <ref href="/akn/il/act/PrimaryLegislation/1996-02-23/159515#point_2">סעיף 2(2) לחוק זכויות מבצעים ומשדרים</ref> הועברה למפיק התקליט, רשאי מבצע הביצוע, בעצמו או באמצעות מי מטעמו, על אף אותה העברה, לעשות כל אחד מאלה, והכול בלא תשלום תמורה למפיק התקליט:</p>
+                      </intro>
+                      <point eId="point_41__point_ד__point_1__point_א">
+                        <num>(א)</num>
+                        <content>
+                          <p>לשעתק את אותו ביצוע כאמור <ref href="/akn/il/act/PrimaryLegislation/1996-02-23/159515#point_2">בסעיף 2(2) לחוק זכויות מבצעים ומשדרים</ref>;</p>
+                        </content>
+                      </point>
+                      <point eId="point_41__point_ד__point_1__point_ב">
+                        <num>(ב)</num>
+                        <list>
+                          <intro>
+                            <p>לעשות בעותקים כאמור בפסקת משנה (א) –</p>
+                          </intro>
+                          <point eId="point_41__point_ד__point_1__point_ב__point_1">
+                            <num>(1)</num>
+                            <content>
+                              <p>כל אחת מהפעולות המנויות <ref href="/akn/il/act/PrimaryLegislation/1996-02-23/159515#point_2">בסעיף 2(4) לחוק זכויות מבצעים ומשדרים</ref>;</p>
+                            </content>
+                          </point>
+                          <point eId="point_41__point_ד__point_1__point_ב__point_2">
+                            <num>(2)</num>
+                            <content>
+                              <p>כל שימוש המותר לפי כל דין;</p>
+                            </content>
+                          </point>
+                        </list>
+                      </point>
+                    </list>
+                  </point>
+                  <point eId="point_41__point_ד__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>אין באמור בסעיף קטן זה כדי לגרוע מזכויות יוצרים ומבצעים של גורם אחר לפי כל דין.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_41__point_ה">
+                <num>(ה)</num>
+                <content>
+                  <p>הועברה בעלות בזכויות מבצעים לפי <ref href="/akn/il/act/PrimaryLegislation/1996-02-23/159515">חוק זכויות מבצעים ומשדרים</ref>, כולן או חלקן, למפיק התקליט תמורת תשלום חד־פעמי, בין אם ישירות בידי המבצע ובין באמצעות צד שלישי, זכאי המבצע שהבעלות בזכותו הועברה, לתשלום ראוי נוסף מאת מפיק התקליט, בעד השימוש בזכויות המבצעים בתקופת ההגנה הנוספת.</p>
+                </content>
+              </point>
+              <point eId="point_41__point_ו">
+                <num>(ו)</num>
+                <content>
+                  <p>כל הסכם, תניה או תנאי בנוגע לזכויות לפי <ref href="/akn/il/act/PrimaryLegislation/1996-02-23/159515">חוק זכויות מבצעים ומשדרים</ref>, בין מבצע או צד שלישי לבין מפיק, או ויתור של מבצע על זכויות כאמור, יחולו גם בתקופת ההגנה הנוספת, אלא אם כן הוסכם בין הצדדים אחרת, ובלבד שאין בהם כדי לגרוע מהאמור בסעיפים קטנים (ד) ו־(ה).</p>
+                </content>
+              </point>
+              <point eId="point_41__point_ז">
+                <num>(ז)</num>
+                <list>
+                  <intro>
+                    <p>בסעיף זה –</p>
+                  </intro>
+                  <point eId="point_41__point_ז__point_כמות_מספקת">
+                    <content>
+                      <p>
+                        <def />”כמות מספקת“ – כמות שיש בה כדי לספק באופן סביר את דרישת הציבור לעותקים של תקליט;</p>
+                    </content>
+                  </point>
+                  <point eId="point_41__point_ז__point_מבצע">
+                    <content>
+                      <p>
+                        <def />”מבצע“ ו”ביצוע“ – כהגדרתם <ref href="/akn/il/act/PrimaryLegislation/1996-02-23/159515">בחוק זכויות מבצעים ומשדרים</ref>.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+            </list>
+          </point>
+          <point eId="point_41א">
+            <heading>
+              <authorialNote placement="side">
+                <p>תקופת זכות יוצרים בגופן</p>
+              </authorialNote>
+            </heading>
+            <num>41א.</num>
+            <content>
+              <p>זכות יוצרים בגופן תהא לתקופה של שבעים שנים ממועד פרסומו של הגופן.</p>
+            </content>
+          </point>
+          <point eId="point_42">
+            <heading>
+              <authorialNote placement="side">
+                <p>תקופת זכות יוצרים ביצירה של המדינה</p>
+              </authorialNote>
+            </heading>
+            <num>42.</num>
+            <content>
+              <p>זכות יוצרים ביצירה שהמדינה היא הבעלים הראשון של זכות היוצרים בה לפי הוראות <ref href="#chp_ה">פרק ה׳</ref>, תהא לתקופה של חמישים שנים ממועד יצירתה.</p>
+            </content>
+          </point>
+          <point eId="point_43">
+            <heading>
+              <authorialNote placement="side">
+                <p>סיום תקופת זכות יוצרים</p>
+              </authorialNote>
+            </heading>
+            <num>43.</num>
+            <content>
+              <p>תקופת זכות היוצרים ביצירה תסתיים ב־31 בדצמבר של השנה שבמהלכה אמורה לפקוע הזכות לפי הוראות <ref href="#chp_ו">פרק זה</ref>.</p>
+            </content>
+          </point>
+          <point eId="point_44">
+            <heading>
+              <authorialNote placement="side">
+                <p>תקופת זכות היוצרים בארץ המוצא</p>
+              </authorialNote>
+            </heading>
+            <num>44.</num>
+            <list>
+              <point eId="point_44__point_א">
+                <num>(א)</num>
+                <list>
+                  <intro>
+                    <p>תקופת זכות היוצרים ביצירה כמפורט להלן לא תהא ארוכה מתקופת זכות היוצרים הקבועה לאותה יצירה בדין החל בארץ המוצא שלה:</p>
+                  </intro>
+                  <point eId="point_44__point_א__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>יצירה שפורסמה לראשונה בישראל ובמדינות אחרות בו־זמנית, כאמור <ref href="#point_2">בסעיף 2</ref>, שיש בה זכות יוצרים רק בשל כך שמתקיים בה התנאי האמור <ref href="#point_8">בסעיף 8(א)(1)</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_44__point_א__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>יצירה שיש בה זכות יוצרים מכוח צו לפי <ref href="#point_9">סעיף 9</ref>, אלא אם כן נקבע אחרת בצו כאמור.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_44__point_ב">
+                <num>(ב)</num>
+                <list>
+                  <intro>
+                    <p>בסעיף זה –</p>
+                  </intro>
+                  <point eId="point_44__point_ב__point_none">
+                    <list>
+                      <intro>
+                        <p>”ארץ המוצא“, של יצירה –</p>
+                      </intro>
+                      <point eId="point_44__point_ב__point_none__point_1">
+                        <num>(1)</num>
+                        <content>
+                          <p>ביצירה שפורסמה לראשונה במדינה חברה אחת – המדינה החברה;</p>
+                        </content>
+                      </point>
+                      <point eId="point_44__point_ב__point_none__point_2">
+                        <num>(2)</num>
+                        <content>
+                          <p>ביצירה שפורסמה לראשונה, בו־זמנית, בכמה מדינות חברות שבהן תקופות שונות של זכות יוצרים – המדינה שבה תקופת זכות היוצרים הקצרה ביותר;</p>
+                        </content>
+                      </point>
+                      <point eId="point_44__point_ב__point_none__point_3">
+                        <num>(3)</num>
+                        <content>
+                          <p>ביצירה שפורסמה לראשונה בו־זמנית במדינה חברה ובמדינה שאינה מדינה חברה – המדינה החברה;</p>
+                        </content>
+                      </point>
+                      <point eId="point_44__point_ב__point_none__point_4">
+                        <num>(4)</num>
+                        <list>
+                          <intro>
+                            <p>ביצירה שלא פורסמה, או שפורסמה לראשונה במדינה שאינה מדינה חברה בלי שפורסמה בו־זמנית במדינה חברה – המדינה החברה שהיוצר הוא אזרח שלה או שבה נמצא מקום מגוריו הרגיל; ואולם –</p>
+                          </intro>
+                          <point eId="point_44__point_ב__point_none__point_4__point_א">
+                            <num>(א)</num>
+                            <content>
+                              <p>ביצירה כאמור שהיא יצירה קולנועית תהא ארץ המוצא, המדינה החברה שבה נמצא מרכז עסקיו של מפיקה או מקום מגוריו הרגיל;</p>
+                            </content>
+                          </point>
+                          <point eId="point_44__point_ב__point_none__point_4__point_ב">
+                            <num>(ב)</num>
+                            <content>
+                              <p>ביצירה כאמור שהיא יצירה אדריכלית הממוקמת במדינה חברה אושהיא יצירה אמנותית אחרת שהוכללה בבניין או במבנה אחר הממוקמים במדינה חברה, תהא ארץ המוצא, המדינה שבה ממוקמים היצירה האדריכלית, הבניין או המבנה, לפי העניין;</p>
+                            </content>
+                          </point>
+                        </list>
+                      </point>
+                      <wrapup eId="point_44__point_ב__point_none__wrapup_none">
+                        <content>
+                          <p>”יצירה“ – יצירה כאמור <ref href="#point_4">בסעיף 4(א)(1)</ref>;<br space="preserve"></br>”מדינה חברה“ – מדינה שהיא צד לאמנה, שנקבע לגביה צו לפי הוראות <ref href="#point_9">סעיף 9</ref>.</p>
+                        </content>
+                      </wrapup>
+                    </list>
+                  </point>
+                </list>
+              </point>
+            </list>
+          </point>
+        </list>
+      </chapter>
+      <chapter eId="chp_ז">
+        <num>פרק ז׳:</num>
+        <title>
+          <content>
+            <p>זכות מוסרית</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_45">
+            <heading>
+              <authorialNote placement="side">
+                <p>הזכות המוסרית – זכות אישית</p>
+              </authorialNote>
+            </heading>
+            <num>45.</num>
+            <list>
+              <point eId="point_45__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>ליוצר של יצירה אמנותית, יצירה דרמטית, יצירה מוסיקלית או יצירה ספרותית, למעט תוכנת מחשב, שיש בה זכות יוצרים, תהיה ביחס ליצירתו זכות מוסרית, למשך תקופת זכות היוצרים באותה יצירה; ואולם, לעניין יצירה שהיא גופן לא תחול הזכות כאמור <ref href="#point_46">בסעיף 46(1)</ref>.</p>
+                </content>
+              </point>
+              <point eId="point_45__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>הזכות המוסרית היא אישית ואינה ניתנת להעברה, והיא תעמוד ליוצר אף אם אין לו ביצירה זכות יוצרים או אם העביר את זכות היוצרים ביצירה, כולה או חלקה, לאחר.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_46">
+            <heading>
+              <authorialNote placement="side">
+                <p>זכות מוסרית מהי</p>
+              </authorialNote>
+            </heading>
+            <num>46.</num>
+            <list>
+              <intro>
+                <p>זכות מוסרית ביחס ליצירה היא זכות היוצר –</p>
+              </intro>
+              <point eId="point_46__point_1">
+                <num>(1)</num>
+                <content>
+                  <p>כי שמו ייקרא על יצירתו בהיקף ובמידה הראויים בנסיבות העניין;</p>
+                </content>
+              </point>
+              <point eId="point_46__point_2">
+                <num>(2)</num>
+                <content>
+                  <p>כי לא יוטל פגם ביצירתו ולא ייעשה בה סילוף או שינוי צורה אחר, וכן כי לא תיעשה פעולה פוגענית ביחס לאותה יצירה, והכל אם יש באילו מהם כדי לפגוע בכבודו או בשמו של היוצר.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+        </list>
+      </chapter>
+      <chapter eId="chp_ח">
+        <num>פרק ח׳:</num>
+        <title>
+          <content>
+            <p>הפרה ותרופות</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_47">
+            <heading>
+              <authorialNote placement="side">
+                <p>הפרת זכות יוצרים</p>
+              </authorialNote>
+            </heading>
+            <num>47.</num>
+            <list>
+              <point eId="point_47__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>העושה ביצירה פעולה מהפעולות המפורטות <ref href="#point_11">בסעיף 11</ref>, או מרשה לאחר לעשות פעולה כאמור, בלא רשותו של בעל זכות היוצרים, מפר את זכות היוצרים, אלא אם כן עשיית הפעולה מותרת לפי הוראות <ref href="#chp_ד">פרק ד׳</ref>.</p>
+                </content>
+              </point>
+              <point eId="point_47__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>בבחינת טענה להפרה כאמור בסעיף קטן (א) לגבי יצירה שהיא גופן יובא בחשבון, בין היתר, מגוון האפשרויות הקיים לעיצוב אותיות, ספרות וסימני שפה אחרים.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_48">
+            <heading>
+              <authorialNote placement="side">
+                <p>הפרה עקיפה של זכות היוצרים להעתקה</p>
+              </authorialNote>
+            </heading>
+            <num>48.</num>
+            <list>
+              <point eId="point_48__point_א">
+                <num>(א)</num>
+                <list>
+                  <intro>
+                    <p>העושה אחת מהפעולות האלה בעותק מפר של יצירה, מפר את זכות היוצרים, אם בעת ביצוע הפעולה, ידע או היה עליו לדעת כי העותק הוא עותק מפר:</p>
+                  </intro>
+                  <point eId="point_48__point_א__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>מכירה או השכרה, לרבות הצעה או העמדה למכירה או להשכרה;</p>
+                    </content>
+                  </point>
+                  <point eId="point_48__point_א__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>החזקה למטרה עסקית;</p>
+                    </content>
+                  </point>
+                  <point eId="point_48__point_א__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>הפצה בהיקף מסחרי;</p>
+                    </content>
+                  </point>
+                  <point eId="point_48__point_א__point_4">
+                    <num>(4)</num>
+                    <content>
+                      <p>הצגה לציבור בדרך מסחרית;</p>
+                    </content>
+                  </point>
+                  <point eId="point_48__point_א__point_5">
+                    <num>(5)</num>
+                    <content>
+                      <p>ייבוא לישראל שלא לשימוש עצמי כהגדרתו <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_המכס#point_129">בסעיף 129 לפקודת המכס</ref>.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_48__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>הוראות סעיף קטן (א) יחולו, בשינויים המחויבים, על עותק של יצירה, אף אם נעשה בהתאם להוראות <ref href="#point_28ב">סעיף 28ב</ref>, ובלבד שנעשה בלא רשותו של בעל זכות היוצרים בגופן.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_48א">
+            <heading>
+              <authorialNote placement="side">
+                <p>הפרה עקיפה של זכות היוצרים להעמדה לרשות הציבור</p>
+              </authorialNote>
+            </heading>
+            <num>48א.</num>
+            <content>
+              <p>הועמדה יצירה שיש בה זכות יוצרים לרשות הציבור, כאמור <ref href="#point_15">בסעיף 15</ref>, בלא שניתנה רשותו של בעל זכות היוצרים, לרבות לאחר העמדתה כאמור לראשונה, באופן שמהווה הפרה של זכות היוצרים להעמדה לרשות הציבור כאמור <ref href="#point_11">בסעיף 11(5)</ref> (בסעיף זה – העמדה בהפרה), ועשה אדם, על דרך עיסוק, פעולה שיש בה כדי להקל את הגישה של הציבור ליצירה שהועמדה בהפרה או להרחיב את הגישה של הציבור אליה, במטרה להפיק רווח מעשיית פעולה כאמור ומקיומה של גישה ליצירה שהועמדה בהפרה, מפר הוא בכך את זכות היוצרים, אם בעת ביצוע הפעולה ידע או היה עליו לדעת כי היצירה הועמדה בהפרה; לעניין זה, אדם המפעיל אמצעים טכנולוגיים למניעת גישה ליצירה שהועמדה בהפרה לא יוחזק מחמת זה בלבד כמי שהיה עליו לדעת כי היצירה הועמדה בהפרה.</p>
+            </content>
+          </point>
+          <point eId="point_49">
+            <heading>
+              <authorialNote placement="side">
+                <p>ביצוע פומבי במקום בידור ציבורי</p>
+              </authorialNote>
+            </heading>
+            <num>49.</num>
+            <content>
+              <p>המרשה לאחר, למטרת רווח, שימוש במקום בידור ציבורי לשם ביצוע פומבי של יצירה, בלא רשותו של בעל זכות היוצרים, מפר את זכות היוצרים, אלא אם כן לא ידע ולא היה עליו לדעת שהביצוע מהווה הפרה כאמור; לעניין זה, ”מקום בידור ציבורי“ – מקום המשמש למופעי בידור ותרבות, לרבות אולם שמחות, גן אירועים, מסעדה, בית קפה או מועדון.</p>
+            </content>
+          </point>
+          <point eId="point_50">
+            <heading>
+              <authorialNote placement="side">
+                <p>הפרת זכות מוסרית</p>
+              </authorialNote>
+            </heading>
+            <num>50.</num>
+            <list>
+              <point eId="point_50__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>העושה ביצירה פעולה הפוגעת בזכות המוסרית של היוצר, מפר את הזכות האמורה.</p>
+                </content>
+              </point>
+              <point eId="point_50__point_א1">
+                <num>(א1)</num>
+                <list>
+                  <intro>
+                    <p>על אף האמור בסעיף קטן (א), ובלי לגרוע מהוראות <ref href="#point_46">סעיף 46(1)</ref>, עשיית פעולה ביצירה הפוגעת בזכות המוסרית האמורה <ref href="#point_46">בסעיף 46(1)</ref>, אינה מהווה הפרה של הזכות האמורה, אם התקיימו תנאים אלה:</p>
+                  </intro>
+                  <point eId="point_50__point_א1__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>המשתמש פעל בשקידה סבירה לגילוי היוצר, לפני השימוש;</p>
+                    </content>
+                  </point>
+                  <point eId="point_50__point_א1__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>המשתמש ציין באופן ברור באותה דרך שבה הוא עושה שימוש ביצירה, כי השימוש נעשה על פי סעיף זה ופרטים ליצירת קשר שנקבעו לפי <ref href="#point_27א">סעיף 27א(ד)</ref> לשם עדכונו בדבר זהות היוצר;</p>
+                    </content>
+                  </point>
+                  <point eId="point_50__point_א1__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>היה השימוש ביצירה מסחרי, המשתמש פרסם הודעה באינטרנט או בעיתון יומי זמן סביר לפני השימוש.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_50__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>על אף הוראות סעיף קטן (א), עשיית פעולה ביצירה הפוגעת בזכות המוסרית האמורה <ref href="#point_46">בסעיף 46(2)</ref> אינה מהווה הפרה של הזכות האמורה, אם הפעולה היתה סבירה בנסיבות העניין; ולעניין גופן – גם אם הפעולה נעשתה בהתאם להוראות <ref href="#point_28ב">סעיף 28ב</ref>.</p>
+                </content>
+              </point>
+              <point eId="point_50__point_ג">
+                <num>(ג)</num>
+                <list>
+                  <intro>
+                    <p>לעניין סעיף קטן (ב), רשאי בית המשפט להתחשב, בין השאר, באלה:</p>
+                  </intro>
+                  <point eId="point_50__point_ג__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>אופי היצירה שביחס אליה נעשתה הפעולה;</p>
+                    </content>
+                  </point>
+                  <point eId="point_50__point_ג__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>אופי הפעולה ומטרתה;</p>
+                    </content>
+                  </point>
+                  <point eId="point_50__point_ג__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>יצירתה של היצירה על ידי העובד במסגרת עבודתו או לפי הזמנה;</p>
+                    </content>
+                  </point>
+                  <point eId="point_50__point_ג__point_4">
+                    <num>(4)</num>
+                    <content>
+                      <p>המקובל בענף;</p>
+                    </content>
+                  </point>
+                  <point eId="point_50__point_ג__point_5">
+                    <num>(5)</num>
+                    <content>
+                      <p>הצורך בעשיית הפעולה לעומת הפגיעה שנגרמה ליוצר כתוצאה ממנה.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+            </list>
+          </point>
+          <point eId="point_51">
+            <heading>
+              <authorialNote placement="side">
+                <p>הפרה עקיפה של זכות מוסרית</p>
+              </authorialNote>
+            </heading>
+            <num>51.</num>
+            <list>
+              <intro>
+                <p>העושה אחת מהפעולות האלה בעותק של יצירה, שיש בו משום הפרה של הזכות המוסרית האמורה <ref href="#point_46">בסעיף 46(2)</ref>, למעט בבניין או במבנה אחר, מפר את הזכות המוסרית, אם בעת ביצוע הפעולה ידע או היה עליו לדעת כי יש בעותק משום הפרה כאמור:</p>
+              </intro>
+              <point eId="point_51__point_1">
+                <num>(1)</num>
+                <content>
+                  <p>מכירה או השכרה, לרבות הצעה או העמדה למכירה או להשכרה;</p>
+                </content>
+              </point>
+              <point eId="point_51__point_2">
+                <num>(2)</num>
+                <content>
+                  <p>החזקה למטרה עסקית;</p>
+                </content>
+              </point>
+              <point eId="point_51__point_3">
+                <num>(3)</num>
+                <content>
+                  <p>הפצה בהיקף מסחרי;</p>
+                </content>
+              </point>
+              <point eId="point_51__point_4">
+                <num>(4)</num>
+                <content>
+                  <p>הצגה לציבור בדרך מסחרית.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_52">
+            <heading>
+              <authorialNote placement="side">
+                <p>הפרה של זכות יוצרים או זכות מוסרית – עוולה אזרחית</p>
+              </authorialNote>
+            </heading>
+            <num>52.</num>
+            <content>
+              <p>הפרה של זכות יוצרים או זכות מוסרית היא עוולה אזרחית, והוראות <ref href="/akn/il/act/PrimaryLegislation/1968-04-17/2002279">פקודת הנזיקין [נוסח חדש]</ref>, יחולו עליה, בשינויים המחויבים ובכפוף להוראות חוק זה.</p>
+            </content>
+          </point>
+          <point eId="point_53">
+            <heading>
+              <authorialNote placement="side">
+                <p>צו מניעה בשל הפרת זכות יוצרים</p>
+              </authorialNote>
+            </heading>
+            <num>53.</num>
+            <content>
+              <p>בתביעה בשל הפרת זכות יוצרים זכאי התובע לסעד בדרך של צו מניעה, אלא אם כן מצא בית המשפט כי קיימים טעמים המצדיקים שלא להורות כן.</p>
+            </content>
+          </point>
+          <point eId="point_53א">
+            <heading>
+              <authorialNote placement="side">
+                <p>צו הגבלת גישה למקור תוכן</p>
+              </authorialNote>
+            </heading>
+            <num>53א.</num>
+            <list>
+              <point eId="point_53א__point_א">
+                <num>(א)</num>
+                <list>
+                  <intro>
+                    <p>בסעיף זה –</p>
+                  </intro>
+                  <point eId="point_53א__point_א__point_מקור_תוכן">
+                    <content>
+                      <p>
+                        <def />”מקור תוכן“ – אמצעי מבוסס תוכנת מחשב הפועל על גבי רשת תקשורת אלקטרונית, לרבות אתר אינטרנט, בין שהשרת שהתוכן או מקור התוכן מאוחסן בו נמצא בישראל ובין מחוץ לישראל;</p>
+                    </content>
+                  </point>
+                  <point eId="point_53א__point_א__point_בית_משפט">
+                    <content>
+                      <p>
+                        <def />”בית משפט“ – בית משפט מחוזי;</p>
+                    </content>
+                  </point>
+                  <point eId="point_53א__point_א__point_ספק_גישה">
+                    <content>
+                      <p>
+                        <def />”ספק גישה“ – מי שמספק שירות שמהותו מתן גישה לאדם לרשת תקשורת אלקטרונית, ובכלל זה ספק גישה לאינטרנט כהגדרתו <ref href="/akn/il/act/PrimaryLegislation/2001-08-09/171095#point_4ט">בסעיף 4ט(א) לחוק התקשורת (בזק ושידורים), התשמ"ב–1982</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_53א__point_א__point_ספק_שירותי_אחסון">
+                    <content>
+                      <p>
+                        <def />”ספק שירותי אחסון“ – מי שמספק שירותי אחסון של תוכן שנמסר לו לשם העלאתו לרשת תקשורת אלקטרונית;</p>
+                    </content>
+                  </point>
+                  <point eId="point_53א__point_א__point_רישיון_ייחודי">
+                    <content>
+                      <p>
+                        <def />”רישיון ייחודי“ – כהגדרתו <ref href="#point_37">בסעיף 37(ד)</ref>.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_53א__point_ב">
+                <num>(ב)</num>
+                <list>
+                  <intro>
+                    <p>בית המשפט רשאי, על פי בקשה של בעל זכות יוצרים או בעל רישיון ייחודי (בסעיף זה – המבקש), לתת צו המופנה כלפי ספק גישה ומורה לו להגביל את הגישה למקור תוכן, כולו או חלקו (בסעיף זה – צו הגבלת גישה), אם שוכנע כי מתקיים לגבי עיקר התוכן שבאותו מקור תוכן אחד מאלה:</p>
+                  </intro>
+                  <point eId="point_53א__point_ב__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>שידורו או העמדתו לרשות הציבור, כאמור <ref href="#point_11">בסעיף 11(2)</ref>, (4) או (5), באמצעות מקור התוכן, מהווים הפרה של זכות יוצרים לפי <ref href="#point_47">סעיף 47</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_53א__point_ב__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>פעולה בו מהווה הפרה של זכות יוצרים לפי <ref href="#point_48">סעיפים 48</ref><ref href="#point_48א">או 48א</ref>.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_53א__point_ג">
+                <num>(ג)</num>
+                <list>
+                  <intro>
+                    <p>בצו הגבלת גישה יורה בית המשפט לספק הגישה לנקוט אמצעים סבירים להגבלת הגישה למקור התוכן, כולו או חלקו, והכול בתנאים ובמידה שאינה עולה על הנדרש, כפי שיורה בית המשפט, כדי למנוע, ככל האפשר בנסיבות העניין, את הפגיעה בבעל זכות היוצרים או בבעל הרישיון הייחודי; בצו כאמור ייכללו בין השאר כל אלה:</p>
+                  </intro>
+                  <point eId="point_53א__point_ג__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>פרטי מקור התוכן שהגישה אליו תוגבל;</p>
+                    </content>
+                  </point>
+                  <point eId="point_53א__point_ג__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>הוראות לעניין היקף הגבלת הגישה למקור התוכן;</p>
+                    </content>
+                  </point>
+                  <point eId="point_53א__point_ג__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>התקופה שבה תוגבל הגישה למקור התוכן.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_53א__point_ד">
+                <num>(ד)</num>
+                <list>
+                  <intro>
+                    <p>במתן צו הגבלת גישה ובכלל זה בקביעת תנאיו ישקול בית המשפט, בין השאר, את כל אלה, אף אם לא הוגשה התנגדות לבקשה:</p>
+                  </intro>
+                  <point eId="point_53א__point_ד__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>ההשפעה על הציבור כתוצאה מהגבלת הגישה לפי הצו או מהחלטת בית המשפט שלא לתת צו;</p>
+                    </content>
+                  </point>
+                  <point eId="point_53א__point_ד__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>חומרת ההפרה הנטענת;</p>
+                    </content>
+                  </point>
+                  <point eId="point_53א__point_ד__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>חיוניות הצו למניעת הפרה, ככל האפשר, של זכות יוצרים;</p>
+                    </content>
+                  </point>
+                  <point eId="point_53א__point_ד__point_4">
+                    <num>(4)</num>
+                    <content>
+                      <p>יעילותם של סעדים אחרים העומדים לרשות בעל זכות היוצרים או בעל הרישיון הייחודי, ובכלל זה פנייה למפר או למשיב, אם זהותו ידועה או אם ניתן לאתרו בשקידה סבירה;</p>
+                    </content>
+                  </point>
+                  <point eId="point_53א__point_ד__point_5">
+                    <num>(5)</num>
+                    <content>
+                      <p>מידת הפגיעה הצפויה בגישה למקורות תוכן אחרים;</p>
+                    </content>
+                  </point>
+                  <point eId="point_53א__point_ד__point_6">
+                    <num>(6)</num>
+                    <content>
+                      <p>מידת הפגיעה הצפויה בפרטיות של משתמשי האינטרנט.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_53א__point_ה">
+                <num>(ה)</num>
+                <content>
+                  <p>לא יינתן צו הגבלת גישה שיש בשיטת ביצועו משום האזנת סתר לפי <ref href="/akn/il/act/PrimaryLegislation/1979-07-12/147333">חוק האזנת סתר, התשל"ט–1979</ref>.</p>
+                </content>
+              </point>
+              <point eId="point_53א__point_ו">
+                <num>(ו)</num>
+                <list>
+                  <point eId="point_53א__point_ו__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>המבקש יצרף להליך הבקשה לצו הגבלת גישה (בסעיף זה – בקשה לצו), כמשיב, את הבעלים של מקור התוכן, את המפעיל של מקור התוכן או של חלק ממנו ואת מי שלדעת המבקש הוא המפר, אם אינו אחד מהם; ואולם בית המשפט רשאי לפטור את המבקש מצירופו של מי מהם, אם שוכנע כי לא היה ניתן לאתרו בשקידה סבירה.</p>
+                    </content>
+                  </point>
+                  <point eId="point_53א__point_ו__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>אם השרת שבו מאוחסן מקור התוכן נמצא בישראל או שהוא בשליטת אדם הנמצא בישראל או בשליטת תאגיד הרשום בישראל – יצורף להליך הבקשה לצו גם ספק שירות האחסון.</p>
+                    </content>
+                  </point>
+                  <point eId="point_53א__point_ו__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>כל אדם רשאי לבקש מבית המשפט להצטרף כצד להליך הבקשה לצו.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_53א__point_ז">
+                <num>(ז)</num>
+                <content>
+                  <p>הוגשה בקשה לצו, יציג ספק הגישה הודעה על כך, שתוצג במקום בולט באתר האינטרנט שלו; ההודעה תכלול את פרטי הליך הבקשה ובכלל זה את מספר ההליך, שמות הצדדים ובית המשפט הדן בבקשה; בהודעה יצוין כי הגבלת הגישה התבקשה בשל הפרת זכות יוצרים וכי כל אדם רשאי לבקש מבית המשפט להצטרף כצד להליך.</p>
+                </content>
+              </point>
+              <point eId="point_53א__point_ח">
+                <num>(ח)</num>
+                <content>
+                  <p>מצא בית המשפט כי התקיימה עילה למתן צו הגבלת גישה למקור תוכן או לחלקו, והשרת שעליו מאוחסן התוכן או מקור התוכן נמצא בישראל או שהוא בשליטת אדם הנמצא בישראל או בשליטת תאגיד הרשום בישראל, לא יורה על מתן צו הגבלת גישה ויורה כי התוכן או מקור התוכן, לפי העניין, יוסר מהשרת בתנאים שיקבע, אלא אם כן מצא שהסרת התוכן או מקור התוכן מהשרת אינה אפשרית בנסיבות העניין או כי יש טעמים מיוחדים אחרים להימנע מהסרה כאמור.</p>
+                </content>
+              </point>
+              <point eId="point_53א__point_ט">
+                <num>(ט)</num>
+                <list>
+                  <intro>
+                    <p>ניתן צו הגבלת גישה, לרבות צו זמני להגבלת גישה –</p>
+                  </intro>
+                  <point eId="point_53א__point_ט__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>יציג ספק הגישה הודעה על כך שהגישה למקור התוכן הוגבלה והיא תוצג לכל אדם המנסה לגשת אליו, אלא אם כן הדבר אינו אפשרי מסיבות טכניות, והוא רשאי לעשות כן בדרך של הפניה לאתר האינטרנט שלו כאמור בסעיף קטן (ז); הודעה לפי סעיף קטן זה תכלול את פרטי הליך הבקשה לצו ויצוין בה כי כל אדם רשאי להגיש לבית המשפט בקשה לביטול הצו או לשינוי תנאיו, ויכול שתכלול כל פרט אחר שקבע בית המשפט ובנוסח שקבע;</p>
+                    </content>
+                  </point>
+                  <point eId="point_53א__point_ט__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>רשאי כל אדם להגיש לבית המשפט בקשה לביטול הצו או לשינוי תנאיו, ובית המשפט רשאי לבטל או לשנות את הצו בהתאם לבקשה, או בתנאים אחרים שיורה; ואולם מי שהיה צד להליך הבקשה לצו רשאי להגיש בקשה לביטול הצו או לשינוי תנאיו רק על בסיס עובדות חדשות שהתגלו או נסיבות שהשתנו לאחר מתן הצו; על החלטת בית המשפט לפי פסקה זו יחולו הוראות סעיפים קטנים (ב) עד (ו).</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_53א__point_י">
+                <num>(י)</num>
+                <content>
+                  <p>אין בהוראות סעיף זה כדי לגרוע מסמכות בית המשפט לתת לבעל זכות יוצרים או לבעל רישיון ייחודי כל סעד אחר שהוא זכאי לו מהמשיבים האמורים בסעיף קטן (ו)(1), לפי כל דין, בשל הפרת הזכות האמורה.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_54">
+            <heading>
+              <authorialNote placement="side">
+                <p>תובענה בשל הפרת זכות יוצרים</p>
+              </authorialNote>
+            </heading>
+            <num>54.</num>
+            <list>
+              <point eId="point_54__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>תובענה בשל הפרת זכות יוצרים רשאי להגיש בעל זכות היוצרים, ואם ניתן לגביה רישיון ייחודי כהגדרתו <ref href="#point_37">בסעיף 37(ד)</ref> – גם בעל הרישיון.</p>
+                </content>
+              </point>
+              <point eId="point_54__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>תובע המגיש תובענה כאמור בסעיף קטן (א), יצרף כבעל דין כל אדם שזכאי לתבוע לפי הוראות הסעיף הקטן האמור, ואולם רשאי בית המשפט, לבקשת התובע, לפטור מצירוף בעל דין כאמור.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_55">
+            <heading>
+              <authorialNote placement="side">
+                <p>תובענה בשל הפרת זכות מוסרית</p>
+              </authorialNote>
+            </heading>
+            <num>55.</num>
+            <content>
+              <p>תובענה בשל הפרת זכות מוסרית רשאי להגיש היוצר, ואם נעשתה ההפרה לאחר מותו – קרובי משפחתו; לעניין זה, ”קרוב משפחה“ – בן זוג, צאצא, הורה או אח.</p>
+            </content>
+          </point>
+          <point eId="point_56">
+            <heading>
+              <authorialNote placement="side">
+                <p>פיצויים בלא הוכחת נזק</p>
+              </authorialNote>
+            </heading>
+            <num>56.</num>
+            <list>
+              <point eId="point_56__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>הופרה זכות יוצרים או זכות מוסרית, רשאי בית המשפט, על פי בקשת התובע, לפסוק לתובע, בשל כל הפרה, פיצויים בלא הוכחת נזק בסכום שלא יעלה על 100,000 שקלים חדשים.</p>
+                </content>
+              </point>
+              <point eId="point_56__point_ב">
+                <num>(ב)</num>
+                <list>
+                  <intro>
+                    <p>בקביעת פיצויים לפי הוראות סעיף קטן (א), רשאי בית המשפט לשקול, בין השאר, שיקולים אלה:</p>
+                  </intro>
+                  <point eId="point_56__point_ב__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>היקף ההפרה;</p>
+                    </content>
+                  </point>
+                  <point eId="point_56__point_ב__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>משך הזמן שבו בוצעה ההפרה;</p>
+                    </content>
+                  </point>
+                  <point eId="point_56__point_ב__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>חומרת ההפרה;</p>
+                    </content>
+                  </point>
+                  <point eId="point_56__point_ב__point_4">
+                    <num>(4)</num>
+                    <content>
+                      <p>הנזק הממשי שנגרם לתובע, להערכת בית המשפט;</p>
+                    </content>
+                  </point>
+                  <point eId="point_56__point_ב__point_5">
+                    <num>(5)</num>
+                    <content>
+                      <p>הרווח שצמח לנתבע בשל ההפרה, להערכת בית המשפט;</p>
+                    </content>
+                  </point>
+                  <point eId="point_56__point_ב__point_6">
+                    <num>(6)</num>
+                    <content>
+                      <p>מאפייני פעילותו של הנתבע;</p>
+                    </content>
+                  </point>
+                  <point eId="point_56__point_ב__point_7">
+                    <num>(7)</num>
+                    <content>
+                      <p>טיב היחסים שבין הנתבע לתובע;</p>
+                    </content>
+                  </point>
+                  <point eId="point_56__point_ב__point_8">
+                    <num>(8)</num>
+                    <content>
+                      <p>תום לבו של הנתבע.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_56__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>לעניין סעיף זה יראו הפרות המתבצעות במסכת אחת של מעשים, כהפרה אחת.</p>
+                </content>
+              </point>
+              <point eId="point_56__point_ד">
+                <num>(ד)</num>
+                <content>
+                  <p>השר רשאי, בצו, לשנות את הסכום הקבוע בסעיף קטן (א).</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_56א">
+            <heading>
+              <authorialNote placement="side">
+                <p>סייגים לתחולה לעניין פיצויים בלא הוכחת נזק</p>
+              </authorialNote>
+            </heading>
+            <num>56א.</num>
+            <list>
+              <point eId="point_56א__point_א">
+                <num>(א)</num>
+                <list>
+                  <intro>
+                    <p>הוראות <ref href="#point_56">סעיף 56</ref> לא יחולו על אדם שהעמיד לרשות הציבור ברשת האינטרנט יצירה אמנותית שהועמדה קודם לכן לרשות הציבור או שהרשה לאחר להעמיד לרשות הציבור יצירה כאמור, ובלבד שהתקיימו כל אלה:</p>
+                  </intro>
+                  <point eId="point_56א__point_א__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>המפר חדל מההפרה בתוך זמן סביר לאחר שקיבל הודעה מבעל הזכות או מי מטעמו בדבר ההפרה;</p>
+                    </content>
+                  </point>
+                  <point eId="point_56א__point_א__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>היצירה לא הועתקה מקטלוג, שמטרתו מכירה של היצירות הכלולות בו או מתן רישיון לשימוש ביצירות הכלולות בו, שהועמד לרשות הציבור ברשת האינטרנט;</p>
+                    </content>
+                  </point>
+                  <point eId="point_56א__point_א__point_3">
+                    <num>(3)</num>
+                    <list>
+                      <intro>
+                        <p>התקיים אחד מאלה:</p>
+                      </intro>
+                      <point eId="point_56א__point_א__point_3__point_א">
+                        <num>(א)</num>
+                        <content>
+                          <p>הפרת הזכות כאמור לא היתה למטרה מסחרית;</p>
+                        </content>
+                      </point>
+                      <point eId="point_56א__point_א__point_3__point_ב">
+                        <num>(ב)</num>
+                        <content>
+                          <p>המפר הוא עמותה כמשמעותה <ref href="/akn/il/act/PrimaryLegislation/1980-08-12/148260">בחוק העמותות, התש"ם–1980</ref>, מוסד ללא כוונת רווח כהגדרתו <ref href="/akn/il/act/PrimaryLegislation/1976-01-06/147931">בחוק מס ערך מוסף, התשל"ו–1975</ref>, חברה לתועלת הציבור כמשמעותה <ref href="/akn/il/act/PrimaryLegislation/1999-05-27/165159">בחוק החברות, התשנ"ט–1999</ref>, הקדש כמשמעותו <ref href="/akn/il/act/PrimaryLegislation/1979-08-03/150259">בחוק הנאמנות, התשל"ט–1979</ref>, ואגודה עותמנית כמשמעותה <ref href="/akn/il/act/PrimaryLegislation/1914-05-11/2002137">בחוק העותומני על האגודות</ref>, ובלבד שמחזורם אינו עולה על 1,200,000 שקלים חדשים; לעניין זה, ”מחזור“ – סכום התקבולים מכל מקור וסוג שהתקבלו בשנה האחרונה שחלפה, ולעניין הקדש – סכום ההוצאות השנתי לכל מקור או סוג שהוצאו בשנה האחרונה שחלפה.</p>
+                        </content>
+                      </point>
+                    </list>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_56א__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>על אף האמור בסעיף קטן (א), הוראות אותו סעיף קטן לא יחולו על מוסד ממוסדות המדינה, רשות מקומית, חברה ממשלתית או חברה בת ממשלתית כהגדרתן <ref href="/akn/il/act/PrimaryLegislation/1975-07-04/169605">בחוק החברות הממשלתיות, התשל"ה–1975</ref>, תאגיד שהוקם לפי חוק או על גופים המנויים בסעיף קטן (א)(3)(ב) שמחזורם עולה על הסכום האמור באותו סעיף קטן.</p>
+                </content>
+              </point>
+              <point eId="point_56א__point_ג">
+                <num>(ג)</num>
+                <list>
+                  <intro>
+                    <p>הוראות <ref href="#point_56">סעיף 56</ref> לא יחולו על אלה, ובלבד שהשימוש נעשה במסגרת פעילותם הרגילה, לשם מימוש מטרותיהם ולא למטרה מסחרית:</p>
+                  </intro>
+                  <point eId="point_56א__point_ג__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>מוסדות חינוך מסוג שקבע השר לפי <ref href="#point_29">סעיף 29</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_56א__point_ג__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>ספריות, ארכיונים וגופים אחרים מסוג שקבע השר לפי <ref href="#point_30">סעיף 30(א) או (ג)</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_56א__point_ג__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>מוזאונים מסוג שקבע השר;</p>
+                    </content>
+                  </point>
+                  <point eId="point_56א__point_ג__point_4">
+                    <num>(4)</num>
+                    <content>
+                      <p>גופים נוספים כגון אלה המנויים בפסקאות (1) עד (3) שקבע השר באישור ועדת הכלכלה של הכנסת.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+            </list>
+          </point>
+          <point eId="point_57">
+            <heading>
+              <authorialNote placement="side">
+                <p>דין וחשבון</p>
+              </authorialNote>
+            </heading>
+            <num>57.</num>
+            <content>
+              <p>בתובענה בשל הפרה של זכות יוצרים או זכות מוסרית, רשאי בית המשפט לחייב את הנתבע במתן דין וחשבון לתובע לגבי פרטי ההפרה; השר רשאי לקבוע דרך למתן דין וחשבון לפי סעיף זה.</p>
+            </content>
+          </point>
+          <point eId="point_58">
+            <heading>
+              <authorialNote placement="side">
+                <p>מפר תמים</p>
+              </authorialNote>
+            </heading>
+            <num>58.</num>
+            <content>
+              <p>הופרה זכות יוצרים או זכות מוסרית, ואולם המפר לא ידע ולא היה עליו לדעת, במועד ההפרה, כי קיימת זכות יוצרים ביצירה, לא יחויב בתשלום פיצויים עקב ההפרה.</p>
+            </content>
+          </point>
+          <point eId="point_59">
+            <heading>
+              <authorialNote placement="side">
+                <p>הפרה של זכות יוצרים או זכות מוסרית בבניין או במבנה אחר</p>
+              </authorialNote>
+            </heading>
+            <num>59.</num>
+            <content>
+              <p>הוחל בבנייתו של בניין או מבנה אחר, שיש בו, או שתהיה בו לכשיושלם, משום הפרה של זכות יוצרים או זכות מוסרית, לא יהיה התובע זכאי בשל כך לצו המונע את הבניה או לצו הריסה.</p>
+            </content>
+          </point>
+          <point eId="point_60">
+            <heading>
+              <authorialNote placement="side">
+                <p>טיפול בעותקים מפרים</p>
+              </authorialNote>
+            </heading>
+            <num>60.</num>
+            <list>
+              <point eId="point_60__point_א">
+                <num>(א)</num>
+                <list>
+                  <intro>
+                    <p>בסיום הדיון בתובענה בשל הפרת זכות יוצרים, רשאי בית המשפט, לאחר ששקל בין השאר את חומרת ההפרה ואת עניינו של אדם אחר הנוגע בדבר שאינו צד לתובענה, להורות על –</p>
+                  </intro>
+                  <point eId="point_60__point_א__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>עשיית פעולה לגבי עותקים מפרים שמטרתה למנוע נזק מבעל זכות היוצרים, ובכלל זה העברת הבעלות באותם עותקים לידי התובע אם ביקש זאת, או השמדתם; ואולם הורה בית המשפט על העברת הבעלות כאמור, רשאי הוא, אם מצא כי התובע עשוי לעשות שימוש בעותקים המפרים, לחייבו בתשלום כפי שיקבע;</p>
+                    </content>
+                  </point>
+                  <point eId="point_60__point_א__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>עשיית פעולה בנכסים ששימושם העיקרי והמרכזי היה לייצורם של העותקים המפרים שמטרתה למנוע את המשך הפרתה של זכות היוצרים שבה דן בית המשפט או הפרה אחרת של זכות יוצרים.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_60__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>בעל דין המגיש בקשה לבית המשפט להורות כאמור בסעיף קטן (א), יודיע על כך למשטרת ישראל, בדרך שקבע השר, ובית המשפט לא ידון בבקשה בלי שנתן למשטרת ישראל הזדמנות לטעון את טענותיה.</p>
+                </content>
+              </point>
+              <point eId="point_60__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>הוראות סעיף קטן (א) יחולו גם לעניין עותק מפר המצוי בידי אדם שלא הפר בעצמו את זכות היוצרים, והכל בכפוף להוראות <ref href="/akn/il/act/PrimaryLegislation/1968-06-28/147583#point_34">סעיף 34 לחוק המכר, התשכ"ח–1968</ref>, ואולם אם הוראות <ref href="/akn/il/act/PrimaryLegislation/1968-06-28/147583#point_34">הסעיף האמור</ref> חלות עליו, לא ישתמש אותו אדם בעותק המפר לשם מסחר בו.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+        </list>
+      </chapter>
+      <chapter eId="chp_ח1">
+        <num>פרק ח׳1:</num>
+        <title>
+          <content>
+            <p>חשיפת זהותו של עושה פעולה בתוכן ברשת תקשורת אלקטרונית</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_60א" class="definitions">
+            <heading>
+              <authorialNote placement="side">
+                <p>הגדרות – פרק ח׳1</p>
+              </authorialNote>
+            </heading>
+            <num>60א.</num>
+            <list>
+              <intro>
+                <p>
+                  <ref href="#chp_ח1">בפרק זה</ref> –</p>
+              </intro>
+              <point eId="point_60א__point_בית_משפט">
+                <content>
+                  <p>
+                    <def />”בית משפט“ – בית משפט מחוזי;</p>
+                </content>
+              </point>
+              <point eId="point_60א__point_מחשב">
+                <content>
+                  <p>
+                    <def />”מחשב“ – כהגדרתו <ref href="/akn/il/act/PrimaryLegislation/1995-07-25/174481">בחוק המחשבים, התשנ"ה–1995</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_60א__point_פרטי_מידע">
+                <content>
+                  <p>
+                    <def />”פרטי מידע“ – לרבות נתון טכנולוגי שהוא חלק מפרוטוקול התקשורת בין מחשבים, המסייע לאיתור של מחשב או של רשת מחשבים שבאמצעותם ניתן פומבי לתוכן, ברשת תקשורת אלקטרונית.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_60ב">
+            <heading>
+              <authorialNote placement="side">
+                <p>בקשה לחשיפת זהות</p>
+              </authorialNote>
+            </heading>
+            <num>60ב.</num>
+            <content>
+              <p>אדם הטוען כי הופרה זכות יוצרים שלו באמצעות רשת תקשורת אלקטרונית, וזהותו של מי שעשה את הפעולה שעשייתה מהווה את ההפרה כאמור (<ref href="#chp_ח1">בפרק זה</ref> – עושה הפעולה) אינה ידועה לו, רשאי לבקש מבית משפט להורות לאדם ששמו נקוב בבקשה (<ref href="#chp_ח1">בפרק זה</ref> – המשיב) למסור לבית המשפט פרטי מידע שברשותו לגבי עושה הפעולה הנדרשים לשם בירור זהותו של עושה הפעולה ונקיטת הליכים משפטיים נגדו בשל אותה הפרה (<ref href="#chp_ח1">בפרק זה</ref> – בקשה לחשיפת זהות).</p>
+            </content>
+          </point>
+          <point eId="point_60ג">
+            <heading>
+              <authorialNote placement="side">
+                <p>הוראה למשיב למסור פרטי מידע העשויים להביא לזיהויו של עושה הפעולה</p>
+              </authorialNote>
+            </heading>
+            <num>60ג.</num>
+            <list>
+              <point eId="point_60ג__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>סבר בית המשפט כי בקשה לחשיפת זהות מגלה עילה, אינה טורדנית או קנטרנית והוגשה כדי לאפשר למגיש הבקשה (<ref href="#chp_ח1">בפרק זה</ref> – המבקש) לנקוט בהליכים משפטיים נגד עושה הפעולה, רשאי הוא להורות למשיב למסור לבית המשפט פרטי מידע שברשותו, העשויים להביא לזיהויו של עושה הפעולה.</p>
+                </content>
+              </point>
+              <point eId="point_60ג__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>הורה בית המשפט כאמור בסעיף קטן (א), ימסור המשיב לבית המשפט, בלבד, פרטי מידע כאמור באותו סעיף קטן שדי בהם כדי להביא לזיהויו של עושה הפעולה, ויודיע לבית המשפט אם ידועים לו פרטים נוספים כאמור בסעיף קטן (א) וכן אם ידוע לו על אדם נוסף שברשותו פרטי מידע העשויים להביא לזיהויו של עושה הפעולה.</p>
+                </content>
+              </point>
+              <point eId="point_60ג__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>הודיע המשיב על פרטים נוספים או על אדם נוסף כאמור בסעיף קטן (ב), רשאי בית המשפט, אם ראה שיש בכך צורך לשם זיהוי עושה הפעולה ולאחר שהביאו הצדדים את טענותיהם לפניו, להורות על מסירת פרטים נוספים או על מסירת פרטיו של אותו אדם לבית המשפט, וכן רשאי הוא להורות לאותו אדם (בסעיף קטן זה – משיב נוסף) כאמור בסעיף קטן (א); הורה בית המשפט כאמור, יחולו הוראות סעיף קטן (ב) על המשיב הנוסף.</p>
+                </content>
+              </point>
+              <point eId="point_60ג__point_ד">
+                <num>(ד)</num>
+                <content>
+                  <p>בית המשפט רשאי למנות מומחה שיסייע לו בבירור זהותו של עושה הפעולה לפי הוראות סעיפים קטנים (א) עד (ג) (<ref href="#chp_ח1">בפרק זה</ref> – מומחה); המבקש יישא בשכר טרחת המומחה ובהוצאותיו הכרוכות בביצוע בירור זהותו של עושה הפעולה, אלא אם כן הורה בית המשפט אחרת.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_60ד">
+            <heading>
+              <authorialNote placement="side">
+                <p>המצאת הבקשה לחשיפת זהות לעושה הפעולה וקבלת עמדתו</p>
+              </authorialNote>
+            </heading>
+            <num>60ד.</num>
+            <list>
+              <point eId="point_60ד__point_א">
+                <num>(א)</num>
+                <list>
+                  <intro>
+                    <p>סבר בית המשפט, על בסיס פרטי המידע שנמסרו לפי הוראות <ref href="#point_60ג">סעיף 60ג</ref>, כי ידועה לו זהותו של עושה הפעולה בסבירות גבוהה, רשאי הוא, לפני שייתן החלטה בבקשה לחשיפת זהות, להורות על המצאת הבקשה לעושה הפעולה; בקבלת החלטה לפי סעיף קטן זה ישקול בית המשפט בין השאר את כל אלה:</p>
+                  </intro>
+                  <point eId="point_60ד__point_א__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>מידת הוודאות לגבי זהותו של עושה הפעולה;</p>
+                    </content>
+                  </point>
+                  <point eId="point_60ד__point_א__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>עוצמת הפגיעה בזכויותיו של עושה הפעולה אם לא תינתן לו הזדמנות להשמיע את טענותיו טרם מתן ההחלטה בבקשה;</p>
+                    </content>
+                  </point>
+                  <point eId="point_60ד__point_א__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>הנזק שעלול להיגרם למבקש כתוצאה מהמצאת הבקשה לעושה הפעולה;</p>
+                    </content>
+                  </point>
+                  <point eId="point_60ד__point_א__point_4">
+                    <num>(4)</num>
+                    <content>
+                      <p>החשש לסיכול חשיפת זהותו של עושה הפעולה;</p>
+                    </content>
+                  </point>
+                  <point eId="point_60ד__point_א__point_5">
+                    <num>(5)</num>
+                    <content>
+                      <p>אם יש בהמצאת הבקשה לעושה הפעולה כדי לגרום עיוות דין לאחד הצדדים להליך.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_60ד__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>החליט בית המשפט, לפי הוראות סעיף קטן (א), להורות על המצאת הבקשה לעושה הפעולה, תומצא לו הבקשה כפי שיורה בית המשפט, בלי לגלות למבקש את שמו של עושה הפעולה וכל פרט אחר שיש בו כדי לזהותו.</p>
+                </content>
+              </point>
+              <point eId="point_60ד__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>עושה הפעולה רשאי למסור לבית המשפט, בכתב, את עמדתו לגבי הבקשה לחשיפת זהותו; עמדת עושה הפעולה כאמור תומצא גם למבקש, בלי לגלות לו את שמו וכל פרט אחר שיש בו כדי לזהותו, אלא אם כן הסכים עושה הפעולה לגלותם.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_60ה">
+            <heading>
+              <authorialNote placement="side">
+                <p>החלטת בית המשפט בבקשה לחשיפת זהות</p>
+              </authorialNote>
+            </heading>
+            <num>60ה.</num>
+            <list>
+              <point eId="point_60ה__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>החליט בית המשפט שלא להורות על המצאת הבקשה לחשיפת זהות לעושה הפעולה, כאמור <ref href="#point_60ד">בסעיף 60ד(א)</ref>, או שעושה הפעולה לא הודיע לפי <ref href="#point_60ד">סעיף 60ד(ג)</ref> על הסכמתו לחשיפת זהותו, יחליט בית המשפט בבקשה לחשיפת זהות על יסוד כתבי הטענות בהליך בלבד, ואם ראה צורך בכך – לאחר שהתקיים דיון בבקשה; ואולם בית המשפט לא יקבל טענת התנגדות של עושה הפעולה לחשיפת זהותו, אם שוכנע כי זכותו של המבקש לטעון נגד טענת ההתנגדות כאמור, בלא חשיפת זהותו של עושה הפעולה, נפגעת, בין השאר, בשל העדר חקירה נגדית.</p>
+                </content>
+              </point>
+              <point eId="point_60ה__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>הוכח להנחת דעתו של בית המשפט, בהתבסס על ראיות לכאורה שהציג המבקש, כי קיים חשש ממשי שעושה הפעולה ביצע כלפיו הפרה, וכי קיימת אפשרות סבירה שתביעה נגד עושה הפעולה בשל אותה הפרה תוכרע לטובת המבקש, רשאי בית המשפט להורות על מסירה למבקש של פרטי המידע לגבי עושה הפעולה הנדרשים לו לשם נקיטת הליכים משפטיים נגדו, כפי שיורה בית המשפט.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_60ו">
+            <heading>
+              <authorialNote placement="side">
+                <p>מינוי מומחה נוסף או מסירת פרטי מידע למבקש</p>
+              </authorialNote>
+            </heading>
+            <num>60ו.</num>
+            <list>
+              <intro>
+                <p>סבר בית המשפט כי לא די בפרטי המידע שנמסרו לפי הוראות <ref href="#point_60ג">סעיף 60ג</ref> (בסעיף זה – פרטי המידע הקיימים) כדי לזהות את עושה הפעולה בסבירות גבוהה, רשאי הוא לפעול באחת מאלה:</p>
+              </intro>
+              <point eId="point_60ו__point_1">
+                <num>(1)</num>
+                <content>
+                  <p>למנות מומחה נוסף לשם המשך בירור הזהות, כאמור <ref href="#point_60ג">בסעיף 60ג</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_60ו__point_2">
+                <num>(2)</num>
+                <content>
+                  <p>להורות על מסירת פרטי המידע הקיימים למבקש, כולם או חלקם, כפי שיורה, ובלבד שהם נדרשים לשם בירור זהותו של עושה הפעולה ושאין במסירתם למבקש כדי לפגוע במידה העולה על הנדרש בפרטיותו של אדם, בשים לב למידת הפגיעה בזכויות המבקש ולחומרת ההפרה; על החלטה לפי פסקה זו יחולו הוראות <ref href="#point_60ה">סעיף 60ה(ב)</ref>; בית המשפט ייתן החלטה לפי פסקה זו על יסוד כתבי הטענות בלבד, ואם ראה צורך בכך – לאחר שהתקיים דיון בבקשה.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_60ז">
+            <heading>
+              <authorialNote placement="side">
+                <p>איסור שימוש במידע על עושה הפעולה למטרה אחרת</p>
+              </authorialNote>
+            </heading>
+            <num>60ז.</num>
+            <content>
+              <p>מי שהגיע אליו מידע על עושה פעולה לפי הוראות <ref href="#chp_ח1">פרק זה</ref>, לא יעשה בו שימוש אלא לצורך בירור זהותו של עושה הפעולה לשם נקיטת הליכים משפטיים נגדו בשל הפרה, ולמטרה זו בלבד.</p>
+            </content>
+          </point>
+          <point eId="point_60ח">
+            <heading>
+              <authorialNote placement="side">
+                <p>סדרי דין בבקשה לחשיפת זהות</p>
+              </authorialNote>
+            </heading>
+            <num>60ח.</num>
+            <content>
+              <p>השר רשאי לקבוע הוראות לעניין סדרי הדין בבקשה לחשיפת זהות.<br space="preserve"></br><wikicomment font-size="x-small">פורסמו <ref href="/akn/il/act/SecondaryLegislation/2019-10-07/100043056">תקנות זכות יוצרים (סדרי דין בבקשה לחשיפת זהותו של עושה פעולה בתוכן ברשת תקשורת אלקטרונית), התש"ף–2019</ref>.</wikicomment></p>
+            </content>
+          </point>
+        </list>
+      </chapter>
+      <chapter eId="chp_ט">
+        <num>פרק ט׳:</num>
+        <title>
+          <content>
+            <p>עונשין</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_61">
+            <heading>
+              <authorialNote placement="side">
+                <p>עבירות</p>
+              </authorialNote>
+            </heading>
+            <num>61.</num>
+            <list>
+              <point eId="point_61__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>לא יעשה אדם עותק מפר של יצירה לשם מסחר בו.</p>
+                </content>
+              </point>
+              <point eId="point_61__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>לא ייבא אדם לישראל עותק מפר של יצירה לשם מסחר בו.</p>
+                </content>
+              </point>
+              <point eId="point_61__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>לא יעסוק אדם במכירה, בהשכרה או בהפצה של עותק מפר של יצירה.</p>
+                </content>
+              </point>
+              <point eId="point_61__point_ד">
+                <num>(ד)</num>
+                <content>
+                  <p>לא ימכור אדם, לא ישכיר ולא יפיץ עותקים מפרים של יצירה בהיקף מסחרי.</p>
+                </content>
+              </point>
+              <point eId="point_61__point_ה">
+                <num>(ה)</num>
+                <content>
+                  <p>לא יחזיק אדם עותק מפר של יצירה לשם מסחר בו.</p>
+                </content>
+              </point>
+              <point eId="point_61__point_ו">
+                <num>(ו)</num>
+                <content>
+                  <p>לא ייצר אדם ולא יחזיק חפץ שייעודו עשיית עותקים של יצירה, כדי לעבור עבירה לפי סעיף קטן (א).</p>
+                </content>
+              </point>
+              <point eId="point_61__point_ז">
+                <num>(ז)</num>
+                <content>
+                  <p>לא ישדר אדם יצירה בהיקף מסחרי, על דרך עיסוק, בלא רשותו של בעל זכות היוצרים, במטרה להפיק רווח מעיסוקו בשידור כאמור, באופן שמהווה הפרה של זכות היוצרים לשידור כאמור <ref href="#point_11">בסעיף 11(4)</ref>.</p>
+                </content>
+              </point>
+              <point eId="point_61__point_ח">
+                <num>(ח)</num>
+                <content>
+                  <p>לא יעמיד אדם יצירה לרשות הציבור בהיקף מסחרי, על דרך עיסוק, בלא רשותו של בעל זכות היוצרים, במטרה להפיק רווח מעיסוקו בהעמדה לרשות הציבור כאמור, באופן שמהווה הפרה של זכות היוצרים להעמדה לרשות הציבור כאמור <ref href="#point_11">בסעיף 11(5)</ref>.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_62">
+            <heading>
+              <authorialNote placement="side">
+                <p>עונשין</p>
+              </authorialNote>
+            </heading>
+            <num>62.</num>
+            <list>
+              <point eId="point_62__point_א">
+                <num>(א)</num>
+                <list>
+                  <intro>
+                    <p>העושה אחת מאלה, דינו – מאסר חמש שנים או קנס פי עשרה מהקנס הקבוע <ref href="/akn/il/act/PrimaryLegislation/1977-08-04/2002251#point_61">בסעיף 61(א)(4) לחוק העונשין, התשל"ז–1977</ref> (להלן – חוק העונשין):</p>
+                  </intro>
+                  <point eId="point_62__point_א__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>עושה עותק מפר של יצירה לשם מסחר בו;</p>
+                    </content>
+                  </point>
+                  <point eId="point_62__point_א__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>מייבא לישראל עותק מפר של יצירה לשם מסחר בו.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_62__point_ב">
+                <num>(ב)</num>
+                <list>
+                  <intro>
+                    <p>העושה אחת מאלה, דינו – מאסר שלוש שנים או קנס פי שבעה מהקנס הקבוע <ref href="/akn/il/act/PrimaryLegislation/1977-08-04/2002251#point_61">בסעיף 61(א)(4) לחוק העונשין</ref>:</p>
+                  </intro>
+                  <point eId="point_62__point_ב__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>עוסק במכירה, בהשכרה או בהפצה של עותק מפר של יצירה;</p>
+                    </content>
+                  </point>
+                  <point eId="point_62__point_ב__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>מוכר, משכיר או מפיץ עותקים מפרים של יצירה בהיקף מסחרי;</p>
+                    </content>
+                  </point>
+                  <point eId="point_62__point_ב__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>מחזיק עותק מפר של יצירה לשם מסחר בו;</p>
+                    </content>
+                  </point>
+                  <point eId="point_62__point_ב__point_4">
+                    <num>(4)</num>
+                    <content>
+                      <p>משדר יצירה כאמור <ref href="#point_61">בסעיף 61(ז)</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_62__point_ב__point_5">
+                    <num>(5)</num>
+                    <content>
+                      <p>מעמיד יצירה לרשות הציבור כאמור <ref href="#point_61">בסעיף 61(ח)</ref>.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_62__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>המייצר או המחזיק חפץ שייעודו עשיית עותקים של יצירה, כדי לעבור עבירה לפי סעיף קטן (א)(1), דינו – מאסר שנה או כפל הקנס הקבוע <ref href="/akn/il/act/PrimaryLegislation/1977-08-04/2002251#point_61">בסעיף 61(א)(4) לחוק העונשין</ref>.</p>
+                </content>
+              </point>
+              <point eId="point_62__point_ד">
+                <num>(ד)</num>
+                <content>
+                  <p>נעברה עבירה לפי סעיף זה בידי תאגיד, דינו – כפל הקנס הקבוע לאותה עבירה.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_63">
+            <heading>
+              <authorialNote placement="side">
+                <p>אחריות נושא משרה בתאגיד</p>
+              </authorialNote>
+            </heading>
+            <num>63.</num>
+            <list>
+              <point eId="point_63__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>נושא משרה בתאגיד חייב לפקח ולעשות כל שניתן למניעת עבירה מהעבירות המפורטות <ref href="#point_61">בסעיף 61</ref> (בסעיף זה – עבירה) בידי התאגיד או בידי עובד מעובדיו; הפר את חובתו האמורה, דינו – הקנס הקבוע <ref href="/akn/il/act/PrimaryLegislation/1977-08-04/2002251#point_61">בסעיף 61(א)(4) לחוק העונשין</ref>.</p>
+                </content>
+              </point>
+              <point eId="point_63__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>נעברה עבירה בידי תאגיד או עובד מעובדיו, חזקה היא כי נושא המשרה הפר את חובתו לפי סעיף קטן (א), אלא אם כן הוכיח כי עשה כל שניתן כדי למלא את חובתו האמורה.</p>
+                </content>
+              </point>
+              <point eId="point_63__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>בסעיף זה, ”נושא משרה“ – מנהל פעיל בתאגיד, שותף, למעט שותף מוגבל, ופקיד האחראי מטעם התאגיד על התחום שבו בוצעה העבירה.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+        </list>
+      </chapter>
+      <chapter eId="chp_י">
+        <num>פרק י׳:</num>
+        <title>
+          <content>
+            <p>הוראות שונות</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_64">
+            <heading>
+              <authorialNote placement="side">
+                <p>חזקות</p>
+              </authorialNote>
+            </heading>
+            <num>64.</num>
+            <list>
+              <intro>
+                <p>החזקות המפורטות להלן יחולו בכל הליך משפטי, אזרחי או פלילי, שעניינו הפרה של זכות יוצרים או זכות מוסרית, אלא אם כן הוכח אחרת:</p>
+              </intro>
+              <point eId="point_64__point_1">
+                <num>(1)</num>
+                <content>
+                  <p>מופיע על היצירה בדרך המקובלת שמו של אדם כיוצר היצירה, חזקה היא שאותו אדם הוא יוצר היצירה; החזקה האמורה בפסקה זו תחול גם לעניין שמו הבדוי של אדם, ובלבד שזהותו של בעל השם הבדוי ידועה בציבור;</p>
+                </content>
+              </point>
+              <point eId="point_64__point_2">
+                <num>(2)</num>
+                <content>
+                  <p>לא מופיע על יצירה שמו של אדם כיוצר היצירה ויוצרה אינו ידוע בציבור, או שמופיע עליה שם בדוי של אדם שזהותו אינה ידועה בציבור, חזקה היא כי אדם ששמו מופיע על היצירה בדרך המקובלת כמפרסם היצירה, הוא בעל זכות היוצרים בה;</p>
+                </content>
+              </point>
+              <point eId="point_64__point_3">
+                <num>(3)</num>
+                <content>
+                  <p>מופיע על יצירה קולנועית בדרך המקובלת שמו של אדם כמפיק היצירה, חזקה כי אותו אדם הוא מפיק היצירה;</p>
+                </content>
+              </point>
+              <point eId="point_64__point_4">
+                <num>(4)</num>
+                <content>
+                  <p>מופיע על תקליט בדרך המקובלת שמו של אדם כמפיק התקליט, חזקה כי אותו אדם הוא בעל זכות היוצרים בתקליט; החזקה האמורה בפסקה זו תחול גם לעניין שמו הבדוי של אדם, ובלבד שזהותו של בעל השם הבדוי ידועה בציבור, והיא לא תחול בין צדדים הטוענים לזכות יוצרים בתקליט.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_65">
+            <heading>
+              <authorialNote placement="side">
+                <p>עיכוב בידי המכס</p>
+              </authorialNote>
+            </heading>
+            <num>65.</num>
+            <list>
+              <point eId="point_65__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>בעל זכות היוצרים ביצירה, שזכותו הופרה או שקיים חשש סביר שתופר, רשאי למסור למנהל המכס הודעה בכתב שהוא בעל זכות היוצרים ביצירה, ולבקש ממנו לעכב את שחרור הטובין שלטענתו הם עותקים מפרים של היצירה, ולנהוג בהם כטובין שייבואם אסור על פי <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_המכס">פקודת המכס</ref>.</p>
+                </content>
+              </point>
+              <point eId="point_65__point_ב">
+                <num>(ב)</num>
+                <list>
+                  <intro>
+                    <p>ההודעה לפי סעיף קטן (א) תכלול אחד מאלה:</p>
+                  </intro>
+                  <point eId="point_65__point_ב__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>דוגמה של עותק לא מפר של היצירה שיש למבקש זכות יוצרים בה ושלגביה הוא מודיע על ייבוא עותקים מפרים;</p>
+                    </content>
+                  </point>
+                  <point eId="point_65__point_ב__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>קטלוג או כל מסמך אחר המאפשר למנהל המכס להשוות בין היצירה לבין העותקים המפרים.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_65__point_ג">
+                <num>(ג)</num>
+                <list>
+                  <intro>
+                    <p>בעל זכות היוצרים ימסור למנהל המכס, בהודעה, את הפרטים שלהלן, ככל הידוע לו:</p>
+                  </intro>
+                  <point eId="point_65__point_ג__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>מספר החבילות העומדות להתקבל;</p>
+                    </content>
+                  </point>
+                  <point eId="point_65__point_ג__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>ציון מספיק של אמצעי הייבוא או שם האוניה, שבהם מובאים העותקים המפרים;</p>
+                    </content>
+                  </point>
+                  <point eId="point_65__point_ג__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>היום שבו עומדים העותקים המפרים להגיע לישראל.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_65__point_ד">
+                <num>(ד)</num>
+                <content>
+                  <p>בעל זכות היוצרים ימציא למנהל המכס ראיות ראשוניות, וכן ערבות עצמית בסכום שקבע מנהל המכס, כדי לכסות כל הוצאה הקשורה לעיכוב או כדי לפצות על כל נזק שייגרם על ידי העיכוב, אם יתברר שהעיכוב לא היה מוצדק, וכן לשלם כל אגרה שנקבעה לעניין זה לפי <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_המכס">פקודת המכס</ref>.</p>
+                </content>
+              </point>
+              <point eId="point_65__point_ה">
+                <num>(ה)</num>
+                <content>
+                  <p>הוראות סעיף זה לא יחולו על עותקים מפרים שיובאו לשימוש עצמי כהגדרתו <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_המכס#point_129">בסעיף 129 לפקודת המכס</ref>.</p>
+                </content>
+              </point>
+              <point eId="point_65__point_ו">
+                <num>(ו)</num>
+                <content>
+                  <p>בסעיף זה, ”מנהל המכס“ – המנהל כהגדרתו <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_המכס">בפקודת המכס</ref>.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_66">
+            <heading>
+              <authorialNote placement="side">
+                <p>תחולה על המדינה</p>
+              </authorialNote>
+            </heading>
+            <num>66.</num>
+            <content>
+              <p>חוק זה יחול גם על המדינה.</p>
+            </content>
+          </point>
+          <point eId="point_67">
+            <heading>
+              <authorialNote placement="side">
+                <p>ביצוע ותקנות</p>
+              </authorialNote>
+            </heading>
+            <num>67.</num>
+            <list>
+              <point eId="point_67__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>השר ממונה על ביצוע הוראות חוק זה והוא רשאי להתקין תקנות לביצועו.</p>
+                </content>
+              </point>
+              <point eId="point_67__point_ב">
+                <num>(ב)</num>
+                <list>
+                  <intro>
+                    <p>תקנות לפי <ref href="#point_17">סעיפים 17</ref>, <ref href="#point_29">29</ref>, <ref href="#point_30">30(א) ו־(ב)</ref><ref href="#point_31">31</ref><ref href="#point_56א">ו־56א(ג)</ref> יותקנו בהסכמת אלה:</p>
+                  </intro>
+                  <point eId="point_67__point_ב__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>לעניין מוסדות חינוך – שר החינוך;</p>
+                    </content>
+                  </point>
+                  <point eId="point_67__point_ב__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>לעניין ספריות – השר הממונה על <ref href="/akn/il/act/PrimaryLegislation/1975-08-08/148053">חוק הספריות הציבוריות, התשל"ה–1975</ref>, ושר החינוך;</p>
+                    </content>
+                  </point>
+                  <point eId="point_67__point_ב__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>לעניין ארכיונים – השר הממונה על <ref href="/akn/il/act/PrimaryLegislation/1955-01-27/146894">חוק הארכיונים, התשט"ו–1955</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_67__point_ב__point_4">
+                    <num>(4)</num>
+                    <content>
+                      <p>לעניין מוזאונים – השר הממונה על <ref href="/akn/il/act/PrimaryLegislation/1983-06-30/148892">חוק המוזאונים, התשמ"ג–1983</ref>.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_67__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>תקנות וצווים לפי <ref href="#point_7">סעיפים 7</ref>, <ref href="#point_9">9</ref>, <ref href="#point_17">17</ref>, <ref href="#point_19">19</ref>, <ref href="#point_30">30(ג)</ref>, <ref href="#point_31">31</ref><ref href="#point_56">ו־56(ד)</ref>, יותקנו באישור ועדת הכלכלה של הכנסת.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+        </list>
+      </chapter>
+      <chapter eId="chp_יא">
+        <num>פרק י"א:</num>
+        <title>
+          <content>
+            <p>תיקונים עקיפים</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_68">
+            <heading>
+              <authorialNote placement="side">
+                <p>ביטול דבר המלך על חוק זכות יוצרים 1911 (הטלתו על ארץ ישראל)</p>
+              </authorialNote>
+            </heading>
+            <num>68.</num>
+            <content>
+              <p>
+                <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/דבר_המלך_על_חוק_זכות_יוצרים_1911_הטלתו_על_ארץ_ישראל">דבר המלך על חוק זכות יוצרים, 1911 (הטלתו על ארץ ישראל), 1924</ref> – בטל, <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/חוק_זכות_יוצרים_1911">וחוק זכות יוצרים, 1911</ref>, לא יחול עוד בישראל.</p>
+            </content>
+          </point>
+          <point eId="point_69">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>69.</num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryLegislation/1953-02-12/147344">בפקודת זכות יוצרים</ref>.</wikicomment>
+              </p>
+            </content>
+          </point>
+          <point eId="point_70">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>70.</num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_הפטנטים_והמדגמים">בפקודת הפטנטים והמדגמים</ref>.</wikicomment>
+              </p>
+            </content>
+          </point>
+          <point eId="point_71">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>71.</num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_המכס">בפקודת המכס</ref>.</wikicomment>
+              </p>
+            </content>
+          </point>
+          <point eId="point_72">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>72.</num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryLegislation/1982-03-01/2002215">בחוק סדר הדין הפלילי [נוסח משולב], התשמ"ב–1982</ref>.</wikicomment>
+              </p>
+            </content>
+          </point>
+          <point eId="point_73">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>73.</num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryLegislation/1984-08-13/2002218">בחוק בתי המשפט [נוסח משולב], התשמ"ד–1984</ref>.</wikicomment>
+              </p>
+            </content>
+          </point>
+          <point eId="point_74">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>74.</num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryLegislation/2000-08-17/169027">בחוק איסור הלבנת הון, התש"ס–2000</ref>.</wikicomment>
+              </p>
+            </content>
+          </point>
+          <point eId="point_75">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>75.</num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryLegislation/2003-06-17/75160">בחוק מאבק בארגוני פשיעה, התשס"ג–2003</ref>.</wikicomment>
+              </p>
+            </content>
+          </point>
+          <point eId="point_76">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>76.</num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryLegislation/2016-08-11/2004964">בחוק שידורי טלוויזיה מהכנסת, התשס"ד–2003</ref>.</wikicomment>
+              </p>
+            </content>
+          </point>
+        </list>
+      </chapter>
+      <chapter eId="chp_יב">
+        <num>פרק י"ב:</num>
+        <title>
+          <content>
+            <p>תחילה, תחולה והוראות מעבר</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_77">
+            <heading>
+              <authorialNote placement="side">
+                <p>תחילה</p>
+              </authorialNote>
+            </heading>
+            <num>77.</num>
+            <content>
+              <p>תחילתו של חוק זה שישה חודשים מיום פרסומו (להלן – יום התחילה).</p>
+            </content>
+          </point>
+          <point eId="point_78">
+            <heading>
+              <authorialNote placement="side">
+                <p>תחולה והוראות מעבר</p>
+              </authorialNote>
+            </heading>
+            <num>78.</num>
+            <list>
+              <point eId="point_78__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>הוראות חוק זה יחולו גם לגבי יצירה שנוצרה לפני יום התחילה, בכפוף להוראות סעיפים קטנים (ב) עד (י).</p>
+                </content>
+              </point>
+              <point eId="point_78__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>זכות יוצרים לפי הוראות <ref href="#chp_ב">פרק ב׳ לחוק זה</ref> לא תהא ביצירה שערב יום התחילה לא היתה בה זכות יוצרים לפי הוראות הדין שחלו לגביה ערב היום האמור (בסעיף זה – הדין הקודם), ואולם אין בהוראות סעיף קטן זה כדי למנוע את קיומה של זכות יוצרים לפי הוראות חוק זה ביצירה כאמור, בשל כך שביום התחילה ואילך יתקיימו לגביה התנאים הקבועים <ref href="#point_8">בסעיף 8</ref>, או מכוח צו לפי <ref href="#point_9">סעיף 9</ref>.</p>
+                </content>
+              </point>
+              <point eId="point_78__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>על פעולה ביצירה שנעשתה לפני יום התחילה לא יחולו הוראות <ref href="#chp_ח">פרק ח׳</ref> לעניין הפרה של זכות יוצרים או זכות מוסרית ולעניין תרופות, וימשיכו לחול לגביה, לעניינים אלה, <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/חוק_זכות_יוצרים_1911">הוראות הדין הקודם</ref>; ואולם, פעולה כאמור שאינה מהווה הפרה של זכות יוצרים או זכות מוסרית לפי הוראות חוק זה, לא תהיה לגביה זכות תביעה לפי <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/חוק_זכות_יוצרים_1911">הוראות הדין הקודם</ref>.</p>
+                </content>
+              </point>
+              <point eId="point_78__point_ד">
+                <num>(ד)</num>
+                <content>
+                  <p>עותק של יצירה שנעשה או שיובא לישראל לפני יום התחילה, יהווה עותק מפר לעניין חוק זה, אם ערב יום התחילה היווה עותק מפר כהגדרתו <ref href="/akn/il/act/PrimaryLegislation/1953-02-12/147344#point_10">בסעיף 10(ה) לפקודת זכות יוצרים</ref> כנוסחו ערב יום התחילה.</p>
+                </content>
+              </point>
+              <point eId="point_78__point_ה">
+                <num>(ה)</num>
+                <content>
+                  <p>הוראות <ref href="#point_33">סעיפים 33 עד 36</ref> לא יחולו על יצירה שנוצרה לפני יום התחילה, וימשיכו לחול לגביה לעניין זה <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/חוק_זכות_יוצרים_1911">הוראות הדין הקודם</ref>.</p>
+                </content>
+              </point>
+              <point eId="point_78__point_ו">
+                <num>(ו)</num>
+                <content>
+                  <p>הוראות <ref href="#point_37">סעיף 37</ref> לא יחולו על העברת זכות יוצרים שנעשתה לפני יום התחילה או על רישיון שניתן לגבי זכות יוצרים לפני היום האמור, וימשיכו לחול לגביהם לעניין זה <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/חוק_זכות_יוצרים_1911">הוראות הדין הקודם</ref>.</p>
+                </content>
+              </point>
+              <point eId="point_78__point_ז">
+                <num>(ז)</num>
+                <content>
+                  <p>הוראות <ref href="#point_54">סעיף 54</ref> לא יחולו על הליכים שהיו תלויים ועומדים ערב יום התחילה וימשיכו לחול על הליכים כאמור לעניין זה <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/חוק_זכות_יוצרים_1911">הוראות הדין הקודם</ref>.</p>
+                </content>
+              </point>
+              <point eId="point_78__point_ח">
+                <num>(ח)</num>
+                <content>
+                  <p>זכות יוצרים להשכרה כאמור <ref href="#point_11">בסעיף 11(7)</ref>, ביחס לתוכנת מחשב, לא תחול לגבי עותק של תוכנת מחשב שנרכש לפני יום כ"ג בטבת התש"ס (1 בינואר 2000).</p>
+                </content>
+              </point>
+              <point eId="point_78__point_ט">
+                <num>(ט)</num>
+                <content>
+                  <p>לעניין זהות מחבר היצירה של יצירת צילום לפי <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/חוק_זכות_יוצרים_1911#point_21">סעיף 21 לחוק זכות יוצרים, 1911</ref>, שנוצרה לפני יום התחילה וכן לעניין תקופת זכות היוצרים ביצירת צילום כאמור, ימשיכו לחול <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/חוק_זכות_יוצרים_1911">הוראות הדין הקודם</ref>.</p>
+                </content>
+              </point>
+              <point eId="point_78__point_י">
+                <num>(י)</num>
+                <content>
+                  <p>לעניין תקליט שנעשה לפני יום התחילה, לא תחול ההגדרה ”מפיק“ <ref href="#point_1">שבסעיף 1</ref>, ויראו כמפיק את מי שדינו היה כדין מחבר היצירה לפי <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/חוק_זכות_יוצרים_1911#point_19">סעיף 19(1) לחוק זכות יוצרים, 1911</ref>.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+        </list>
+      </chapter>
+    </body>
+    <conclusions eId="eId">
+      <p class="signatures">
+        <signature>
+          <p>
+            <person refersTo="אהוד_אולמרט">אהוד אולמרט</person>
+            <role refersTo="ראש_הממשלה">ראש הממשלה</role>
+          </p>
+        </signature>
+        <signature>
+          <p>
+            <person refersTo="דניאל_פרידמן">דניאל פרידמן</person>
+            <role refersTo="שר_המשפטים">שר המשפטים</role>
+          </p>
+        </signature>
+        <signature>
+          <p>
+            <person refersTo="שמעון_פרס">שמעון פרס</person>
+            <role refersTo="נשיא_המדינה">נשיא המדינה</role>
+          </p>
+        </signature>
+        <signature>
+          <p>
+            <person refersTo="דליה_איציק">דליה איציק</person>
+            <role refersTo="יושבת_ראש_הכנסת">יושבת ראש הכנסת</role>
+          </p>
+        </signature>
+      </p>
+    </conclusions>
+  </act>
+</akomaNtoso>

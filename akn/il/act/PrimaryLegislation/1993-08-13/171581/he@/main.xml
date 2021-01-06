@@ -1,0 +1,1728 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion" name="publicLaw">
+    <meta>
+      <identification source="#kensset">
+        <FRBRWork>
+          <FRBRthis value="/akn/il/act/PrimaryLegislation/1993-08-13/171581/main" />
+          <FRBRuri value="/akn/il/act/PrimaryLegislation/1993-08-13/171581" />
+          <FRBRdate date="1993-08-13" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRcountry value="israel" />
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/il/act/PrimaryLegislation/1993-08-13/171581/he@/main" />
+          <FRBRuri value="/akn/il/act/PrimaryLegislation/1993-08-13/171581/he@" />
+          <FRBRdate date="1993-08-13" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRlanguage language="hebrew" />
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/il/act/PrimaryLegislation/1993-08-13/171581/he@/main.xml" />
+          <FRBRuri value="/akn/il/act/PrimaryLegislation/1993-08-13/171581/he@" />
+          <FRBRdate date="1993-08-13" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRformat value="xml" />
+        </FRBRManifestation>
+      </identification>
+      <classification source="#kensset">
+        <keyword value="{classificationValue}" showAs="{classificationValue}" dictionary="#classification_dictionary" />
+      </classification>
+      <lifecycle source="#kensset">
+        <eventRef eId="eventRef_1" date="1993-08-13" source="#kensset" type="generation" />
+      </lifecycle>
+      <references source="#kensset">
+        <TLCOrganization eId="kensset" href="/ontology/organization/akn/knesset" showAs="Kensset" type="generation" />
+        <TLCRole eId="author" href="/ontology/role/akn/author" showAs="Author of Document" />
+        <TLCProcess eId="inforce" href="/ontology/process/akn/inforce" showAs="In force" />
+        <TLCTerm eId="term_1" href="/ontology/term/בעל_רישיון_להפעלת_מערכת_לתיווך_באשראי/171581" showAs="בעל_רישיון_להפעלת_מערכת_לתיווך_באשראי" />
+        <TLCTerm eId="term_2" href="/ontology/term/הלוואה/171581" showAs="הלוואה" />
+        <TLCTerm eId="term_3" href="/ontology/term/ועדת_החוקה_חוק_ומשפט/171581" showAs="ועדת_החוקה_חוק_ומשפט" />
+        <TLCTerm eId="term_4" href="/ontology/term/חברה_מנהלת/171581" showAs="חברה_מנהלת" />
+        <TLCTerm eId="term_5" href="/ontology/term/חוק_הבנקאות_(רישוי)/171581" showAs="חוק_הבנקאות_(רישוי)" />
+        <TLCTerm eId="term_6" href="/ontology/term/חוק_הפיקוח_על_הביטוח/171581" showAs="חוק_הפיקוח_על_הביטוח" />
+        <TLCTerm eId="term_7" href="/ontology/term/חוק_קופות_גמל/171581" showAs="חוק_קופות_גמל" />
+        <TLCTerm eId="term_8" href="/ontology/term/חוק_שירותים_פיננסיים_מוסדרים/171581" showAs="חוק_שירותים_פיננסיים_מוסדרים" />
+        <TLCTerm eId="term_9" href="/ontology/term/לווה/171581" showAs="לווה" />
+        <TLCTerm eId="term_10" href="/ontology/term/מבטח/171581" showAs="מבטח" />
+        <TLCTerm eId="term_11" href="/ontology/term/מלווה/171581" showAs="מלווה" />
+        <TLCTerm eId="term_12" href="/ontology/term/מלווה_מוסדי/171581" showAs="מלווה_מוסדי" />
+        <TLCTerm eId="term_13" href="/ontology/term/הממונה_על_שוק_ההון,_ביטוח_וחיסכון/171581" showAs="הממונה_על_שוק_ההון,_ביטוח_וחיסכון" />
+        <TLCTerm eId="term_14" href="/ontology/term/מסגרת_אשראי/171581" showAs="מסגרת_אשראי" />
+        <TLCTerm eId="term_15" href="/ontology/term/מערכת_לתיווך_באשראי/171581" showAs="מערכת_לתיווך_באשראי" />
+        <TLCTerm eId="term_16" href="/ontology/term/המפקח_על_הבנקים/171581" showAs="המפקח_על_הבנקים" />
+        <TLCTerm eId="term_17" href="/ontology/term/המפקח_על_נותני_שירותים_פיננסיים/171581" showAs="המפקח_על_נותני_שירותים_פיננסיים" />
+        <TLCTerm eId="term_18" href="/ontology/term/סולק/171581" showAs="סולק" />
+        <TLCTerm eId="term_19" href="/ontology/term/סכום_ההלוואה/171581" showAs="סכום_ההלוואה" />
+        <TLCTerm eId="term_20" href="/ontology/term/ריבית/171581" showAs="ריבית" />
+        <TLCTerm eId="term_21" href="/ontology/term/ריבית_פיגורים/171581" showAs="ריבית_פיגורים" />
+        <TLCTerm eId="term_22" href="/ontology/term/שיעור_העלות_הממשית_של_האשראי/171581" showAs="שיעור_העלות_הממשית_של_האשראי" />
+        <TLCTerm eId="term_23" href="/ontology/term/שיעור_העלות_המרבית_של_האשראי/171581" showAs="שיעור_העלות_המרבית_של_האשראי" />
+        <TLCTerm eId="term_24" href="/ontology/term/שיעור_ריבית_הפיגורים_המרבי/171581" showAs="שיעור_ריבית_הפיגורים_המרבי" />
+        <TLCTerm eId="term_25" href="/ontology/term/תאגיד_בנקאי/171581" showAs="תאגיד_בנקאי" />
+        <TLCTerm eId="term_26" href="/ontology/term/תוספת/171581" showAs="תוספת" />
+        <TLCTerm eId="term_27" href="/ontology/term/יתרת_החוב/171581" showAs="יתרת_החוב" />
+        <TLCTerm eId="term_28" href="/ontology/term/שיעור_העלות_הממשית_של_האשראי/171581" showAs="שיעור_העלות_הממשית_של_האשראי" />
+        <TLCTerm eId="term_29" href="/ontology/term/הסכום_הקובע/171581" showAs="הסכום_הקובע" />
+        <TLCPerson eId="יצחק_רבין" href="/ontology/person/יצחק_רבין" showAs="יצחק רבין" />
+        <TLCPerson eId="דוד_ליבאי" href="/ontology/person/דוד_ליבאי" showAs="דוד ליבאי" />
+        <TLCPerson eId="עזר_וייצמן" href="/ontology/person/עזר_וייצמן" showAs="עזר וייצמן" />
+        <TLCPerson eId="שבח_וייס" href="/ontology/person/שבח_וייס" showAs="שבח וייס" />
+        <TLCRole eId="ראש_הממשלה" href="ontology/role/akn/ראש_הממשלה" showAs="ראש הממשלה" />
+        <TLCRole eId="שר_המשפטים" href="ontology/role/akn/שר_המשפטים" showAs="שר המשפטים" />
+        <TLCRole eId="נשיא_המדינה" href="ontology/role/akn/נשיא_המדינה" showAs="נשיא המדינה" />
+        <TLCRole eId="יושב_ראש_הכנסת" href="ontology/role/akn/יושב_ראש_הכנסת" showAs="יושב ראש הכנסת" />
+      </references>
+      <temporalData source="#kensset">
+        <temporalGroup eId="tmpg_1" />
+      </temporalData>
+      <Publication></Publication>
+      <proprietary wikiversion="9/23/2020 8:32:18 PM" />
+    </meta>
+    <body period="#tmpg_1">
+      <title eId="title">
+        <content>
+          <p>חוק אשראי הוגן, התשנ"ג–1993</p>
+        </content>
+      </title>
+      <list>
+        <point eId="point_1" class="definitions">
+          <heading>
+            <authorialNote placement="side">
+              <p>הגדרות</p>
+            </authorialNote>
+          </heading>
+          <num>1.</num>
+          <list>
+            <intro>
+              <p>בחוק זה –</p>
+            </intro>
+            <point eId="point_1__point_בעל_רישיון_להפעלת_מערכת_לתיווך_באשראי">
+              <content>
+                <p>
+                  <def />”בעל רישיון להפעלת מערכת לתיווך באשראי“, ”בעל רישיון למתן אשראי“ ו”בעל רישיון למתן שירותי פיקדון ואשראי“ – כמשמעותם <ref href="/akn/il/act/PrimaryLegislation/2016-08-01/571496">בחוק שירותים פיננסיים מוסדרים</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_הלוואה">
+              <content>
+                <p>
+                  <def />”הלוואה“ – כל עסקת אשראי, לרבות ניכיון שטר, ולמעט סוגי עסקאות אשראי ששר המשפטים, בהסכמת שר האוצר ונגיד בנק ישראל ובאישור ועדת החוקה חוק ומשפט קבע לגביהן כי הוראות חוק זה, כולן או חלקן, לא יחולו עליהן בשל כך שהן לא מקיימות את תכליות החוק;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_ועדת_החוקה_חוק_ומשפט">
+              <content>
+                <p>
+                  <def />”ועדת החוקה חוק ומשפט“ – ועדת החוקה חוק ומשפט של הכנסת;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_חברה_מנהלת">
+              <content>
+                <p>
+                  <def />”חברה מנהלת“ – כהגדרתה <ref href="/akn/il/act/PrimaryLegislation/2005-08-10/100899">בחוק קופות גמל</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_חוק_הבנקאות_רישוי">
+              <content>
+                <p>
+                  <def />”חוק הבנקאות (רישוי)“ – <ref href="/akn/il/act/PrimaryLegislation/1981-04-26/147066">חוק הבנקאות (רישוי), התשמ"א–1981</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_חוק_הפיקוח_על_הביטוח">
+              <content>
+                <p>
+                  <def />”חוק הפיקוח על הביטוח“ – <ref href="/akn/il/act/PrimaryLegislation/1981-04-23/148363">חוק הפיקוח על שירותים פיננסיים (ביטוח), התשמ"א–1981</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_חוק_קופות_גמל">
+              <content>
+                <p>
+                  <def />”חוק קופות גמל“ – <ref href="/akn/il/act/PrimaryLegislation/2005-08-10/100899">חוק הפיקוח על שירותים פיננסיים (קופות גמל), התשס"ה–2005</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_חוק_שירותים_פיננסיים_מוסדרים">
+              <content>
+                <p>
+                  <def />”חוק שירותים פיננסיים מוסדרים“ – <ref href="/akn/il/act/PrimaryLegislation/2016-08-01/571496">חוק הפיקוח על שירותים פיננסיים (שירותים פיננסיים מוסדרים), התשע"ו–2016</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_לווה">
+              <content>
+                <p>
+                  <def />”לווה“ – יחיד המקבל הלוואה, וכן תאגיד מסוג התאגידים שקבע שר המשפטים לפי <ref href="#point_15ג">סעיף 15ג</ref> המקבל הלוואה;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_מבטח">
+              <content>
+                <p>
+                  <def />”מבטח“ – כהגדרתו <ref href="/akn/il/act/PrimaryLegislation/1981-04-23/148363">בחוק הפיקוח על הביטוח</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_מלווה">
+              <content>
+                <p>
+                  <def />”מלווה“ – מי שנותן הלוואה, וכן מי שעוסק בהפעלת מערכת לתיווך באשראי;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_מלווה_מוסדי">
+              <list>
+                <intro>
+                  <p>
+                    <def />”מלווה מוסדי“ – מלווה שהוא אחד מאלה:</p>
+                </intro>
+                <point eId="point_1__point_מלווה_מוסדי__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>תאגיד בנקאי, תאגיד עזר או סולק;</p>
+                  </content>
+                </point>
+                <point eId="point_1__point_מלווה_מוסדי__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>מבטח;</p>
+                  </content>
+                </point>
+                <point eId="point_1__point_מלווה_מוסדי__point_3">
+                  <num>(3)</num>
+                  <content>
+                    <p>חברה מנהלת;</p>
+                  </content>
+                </point>
+                <point eId="point_1__point_מלווה_מוסדי__point_4">
+                  <num>(4)</num>
+                  <content>
+                    <p>בעל רישיון למתן אשראי;</p>
+                  </content>
+                </point>
+                <point eId="point_1__point_מלווה_מוסדי__point_5">
+                  <num>(5)</num>
+                  <content>
+                    <p>בעל רישיון למתן שירותי פיקדון ואשראי;</p>
+                  </content>
+                </point>
+                <point eId="point_1__point_מלווה_מוסדי__point_6">
+                  <num>(6)</num>
+                  <content>
+                    <p>בעל רישיון להפעלת מערכת לתיווך באשראי;</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_1__point_הממונה_על_שוק_ההון,_ביטוח_וחיסכון">
+              <content>
+                <p>
+                  <def />”הממונה על שוק ההון, ביטוח וחיסכון“ – כמשמעותו <ref href="/akn/il/act/PrimaryLegislation/1981-04-23/148363">בחוק הפיקוח על הביטוח</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_מסגרת_אשראי">
+              <content>
+                <p>
+                  <def />”מסגרת אשראי“ – התחייבות של מלווה להעמדת אשראי עד סכום מסוים, אשר מימושו בפועל ומועדי פירעונו, בתוך תקופת חוזה ההלוואה, נתון בידי הלווה;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_מערכת_לתיווך_באשראי">
+              <content>
+                <p>
+                  <def />”מערכת לתיווך באשראי“ – כהגדרתה <ref href="/akn/il/act/PrimaryLegislation/2016-08-01/571496#point_25יז">בסעיף 25יז לחוק שירותים פיננסיים מוסדרים</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_המפקח_על_הבנקים">
+              <content>
+                <p>
+                  <def />”המפקח על הבנקים“ – כמשמעותו <ref href="/akn/il/act/PrimaryLegislation/1941-10-09/2001750#point_5">בסעיף 5 לפקודת הבנקאות, 1941</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_המפקח_על_נותני_שירותים_פיננסיים">
+              <content>
+                <p>
+                  <def />”המפקח על נותני שירותים פיננסיים“ – כמשמעותו <ref href="/akn/il/act/PrimaryLegislation/2016-08-01/571496#point_2">בסעיף 2 לחוק שירותים פיננסיים מוסדרים</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_סולק">
+              <content>
+                <p>
+                  <def />”סולק“ – כהגדרתו <ref href="/akn/il/act/PrimaryLegislation/1981-04-26/147066#point_36ט">בסעיף 36ט לחוק הבנקאות (רישוי)</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_סכום_ההלוואה">
+              <content>
+                <p>
+                  <def />”סכום ההלוואה“ – הסכום שבו מחוייב הלווה לפי חוזה ההלוואה, או כל חלק ממנו, לפי הענין, למעט ריבית וריבית פיגורים;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_ריבית">
+              <content>
+                <p>
+                  <def />”ריבית“ – ריבית או הפרשי הצמדה, לפי הענין;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_ריבית_פיגורים">
+              <content>
+                <p>
+                  <def />”ריבית פיגורים“ – ריבית שנדרש לווה לשלם בשל פיגור בתשלום לפי חוזה ההלוואה, חלף הריבית, בין שנקראת ריבית פיגורים ובין שנקראת בשם אחר; ולעניין ניכיון שטר – ריבית שדורש המלווה, מהלווה או ממושך שטר, בשל אי־פירעון של השטר; לעניין הגדרה זו לא יובאו בחשבון הוצאות שהוציא המלווה לשם גביית התשלום שהלווה פיגר בתשלומו כאמור <ref href="#point_7א">בסעיף 7א</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_שיעור_העלות_הממשית_של_האשראי">
+              <content>
+                <p>
+                  <def />”שיעור העלות הממשית של האשראי“ – היחס שבין סך כל התוספות לבין הסכום שקיבל הלווה בפועל, בחישוב שנתי;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_שיעור_העלות_המרבית_של_האשראי">
+              <content>
+                <p>
+                  <def />”שיעור העלות המרבית של האשראי“ – שיעור העלות הממשית של האשראי המרבי שניתן לקבוע בחוזה הלוואה ולגבות מלווה, והכול כמפורט <ref href="#appendix_1">בתוספת הראשונה</ref>, לפי העניין;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_שיעור_ריבית_הפיגורים_המרבי">
+              <content>
+                <p>
+                  <def />”שיעור ריבית הפיגורים המרבי“ – השיעור המרבי של ריבית פיגורים שניתן לקבוע בחוזה הלוואה ולגבות מלווה, והכול כמפורט <ref href="#appendix_2">בתוספת השנייה</ref>, לפי העניין;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_תאגיד_בנקאי">
+              <content>
+                <p>
+                  <def />”תאגיד בנקאי“ ו”תאגיד עזר“ – כהגדרתם <ref href="/akn/il/act/PrimaryLegislation/1981-04-26/147066">בחוק הבנקאות (רישוי)</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_תוספת">
+              <list>
+                <intro>
+                  <p>
+                    <def />”תוספת“ – כל סכום שנדרש לווה לשלם בקשר לחוזה ההלוואה מעבר לסכום שקיבל בפועל מן המלווה, למעט אלה:</p>
+                </intro>
+                <point eId="point_1__point_תוספת__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>ריבית פיגורים;</p>
+                  </content>
+                </point>
+                <point eId="point_1__point_תוספת__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>הוצאות שהוציא המלווה לשם גביית התשלום שהלווה פיגר בתשלומו כאמור <ref href="#point_7א">בסעיף 7א</ref>;</p>
+                  </content>
+                </point>
+                <point eId="point_1__point_תוספת__point_3">
+                  <num>(3)</num>
+                  <content>
+                    <p>הוצאות שנדרשות לשם העמדת ההלוואה במועד העמדתה, מסוג ובסכום שקבע שר המשפטים, ובכלל זה, סכום כולל, לפי הצעת המפקח על הבנקים, המפקח על נותני שירותים פיננסיים או הממונה על שוק ההון, ביטוח וחיסכון, לפי העניין, בהסכמת שר האוצר ונגיד בנק ישראל ובאישור ועדת החוקה חוק ומשפט, ורשאי שר המשפטים לקבוע הוראות שונות כאמור לגבי סוגי הלוואות ובתנאים שיקבע;</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_1__point_יתרת_החוב">
+              <content>
+                <p>
+                  <def />”יתרת החוב“ – הסכום שהלווה חייב למלווה בנקודת זמן מסוימת, כשהוא מורכב מסכום ההלוואה, מהתוספת ומריבית הפיגורים ובהפחתת הסכומים ששולמו בפועל על ידי הלווה למלווה, והכל כפי שהוא עד אותה נקודת זמן.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_2">
+          <heading>
+            <authorialNote placement="side">
+              <p>עריכת חוזה בכתב ותיעוד הסכמת הלקוח</p>
+            </authorialNote>
+          </heading>
+          <num>2.</num>
+          <content>
+            <p>חוזה הלוואה בין מלווה ללווה טעון מסמך בכתב; הסכמת הלקוח לכריתת חוזה ההלוואה תינתן במפורש ותתועד בידי המלווה, ויכול שתינתן בדרך של חתימת הלקוח על חוזה ההלוואה; שר המשפטים רשאי לקבוע הוראות לעניין אופן תיעוד ההסכמה כאמור.</p>
+          </content>
+        </point>
+        <point eId="point_3">
+          <heading>
+            <authorialNote placement="side">
+              <p>חובת גילוי</p>
+            </authorialNote>
+          </heading>
+          <num>3.</num>
+          <list>
+            <point eId="point_3__point_א">
+              <num>(א)</num>
+              <content>
+                <p>מלווה העומד לכרות חוזה הלוואה עם לווה, ימסור לו עותק ממנו והזדמנות סבירה לעיין בו לפני כריתתו, וכן ימסור לו, לאחר כריתת החוזה, עותק מהחוזה שנכרת ומתיעוד הסכמת הלווה, והכל בהתאם לפרטי ההתקשרות שמסר הלווה למלווה; לעניין זה, ”מסירה“ – לרבות באמצעים אלקטרוניים.</p>
+              </content>
+            </point>
+            <point eId="point_3__point_ב">
+              <num>(ב)</num>
+              <list>
+                <intro>
+                  <p>מלווה יכלול בחוזה ההלוואה גילוי מלא של הפרטים האלה:</p>
+                </intro>
+                <point eId="point_3__point_ב__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>שמות המלווה, הלווה והערב להלוואה, מספרי הזהות שלהם, ומעניהם המלאים;</p>
+                  </content>
+                </point>
+                <point eId="point_3__point_ב__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>סכום ההלוואה;</p>
+                  </content>
+                </point>
+                <point eId="point_3__point_ב__point_3">
+                  <num>(3)</num>
+                  <content>
+                    <p>הסכום שקיבל הלווה בפועל, לפי הידוע במועד כריתת חוזה ההלוואה;</p>
+                  </content>
+                </point>
+                <point eId="point_3__point_ב__point_4">
+                  <num>(4)</num>
+                  <content>
+                    <p>שיעור הריבית, ביחס לסכום ההלוואה, בחישוב שנתי המביא בחשבון גם ריבית דריבית, בהתאם למועדי פרעון ההלוואה;</p>
+                  </content>
+                </point>
+                <point eId="point_3__point_ב__point_5">
+                  <num>(5)</num>
+                  <content>
+                    <p>בהלוואה בריבית משתנה – בסיס הריבית, מרכיבי הריבית המשתנה, העקרונות לשינוי שיעור הריבית, מועד השינוי או האירועים שבעקבותיהם ישונו השיעורים;</p>
+                  </content>
+                </point>
+                <point eId="point_3__point_ב__point_6">
+                  <num>(6)</num>
+                  <list>
+                    <intro>
+                      <p>בהלוואה צמודה למדד או לבסיס אחר –</p>
+                    </intro>
+                    <point eId="point_3__point_ב__point_6__point_א">
+                      <num>(א)</num>
+                      <content>
+                        <p>סוג ההצמדה ושיעורה, ובסיס ההצמדה ומועדו;</p>
+                      </content>
+                    </point>
+                    <point eId="point_3__point_ב__point_6__point_ב">
+                      <num>(ב)</num>
+                      <content>
+                        <p>הרכיבים שעליהם חלה ההצמדה;</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+                <point eId="point_3__point_ב__point_7">
+                  <num>(7)</num>
+                  <content>
+                    <p>ציון כל התוספות שאינן מנויות בפסקאות (4) עד (6), תוך פירוט סכומיהן;</p>
+                  </content>
+                </point>
+                <point eId="point_3__point_ב__point_7א">
+                  <num>(7א)</num>
+                  <content>
+                    <p>ציון כל ההוצאות לפי <ref href="#point_1">פסקה (3) להגדרה ”תוספת“</ref>, וכן פירוט הסכומים של אותן הוצאות, ככל שהם ידועים למלווה;</p>
+                  </content>
+                </point>
+                <point eId="point_3__point_ב__point_8">
+                  <num>(8)</num>
+                  <content>
+                    <p>שיעור העלות הממשית של האשראי;</p>
+                  </content>
+                </point>
+                <point eId="point_3__point_ב__point_8א">
+                  <num>(8א)</num>
+                  <content>
+                    <p>שיעור העלות המרבית של האשראי החל לגבי ההלוואה;</p>
+                  </content>
+                </point>
+                <point eId="point_3__point_ב__point_8ב">
+                  <num>(8ב)</num>
+                  <content>
+                    <p>שיעור ריבית הפיגורים המרבי החל לגבי ההלוואה;</p>
+                  </content>
+                </point>
+                <point eId="point_3__point_ב__point_9">
+                  <num>(9)</num>
+                  <content>
+                    <p>תקופת ההלוואה, וסכומי התשלומים לפרעון ההלוואה ומועדיהם, בפירוט סכום ההלוואה והריבית בכל תשלום לפי הידוע בעת כריתת חוזה ההלוואה; ולעניין הלוואה בריבית משתנה או הלוואה צמודה למדד או לבסיס אחר – גם הבהרה כי הסכום עשוי להשתנות במהלך תקופת ההלוואה עקב שינוי שיעור הריבית או עקב ההצמדה;</p>
+                  </content>
+                </point>
+                <point eId="point_3__point_ב__point_10">
+                  <num>(10)</num>
+                  <content>
+                    <p>הצעדים, על פי הדין ועל פי החוזה, שרשאי המלווה לנקוט בשל אי־תשלום במועד והתנאים לנקיטת צעדים אלה, וכן התנאים להעמדת הלוואה לפירעון מיידי;</p>
+                  </content>
+                </point>
+                <point eId="point_3__point_ב__point_11">
+                  <num>(11)</num>
+                  <content>
+                    <p>שיעור ריבית הפיגורים בחישוב שנתי המביא בחשבון גם ריבית דריבית, לפי הידוע בעת כריתת חוזה ההלוואה;</p>
+                  </content>
+                </point>
+                <point eId="point_3__point_ב__point_11א">
+                  <num>(11א)</num>
+                  <content>
+                    <p>קיומה של זכות לפירעון מוקדם של ההלוואה ותנאיה כמפורט להלן: המועד למתן הודעה על הקדמת הפירעון ואופן מתן ההודעה, העמלות הכרוכות בפירעון המוקדם ואופן היוון יתרת ההלוואה או הפניה לנוסחה להיוון כאמור המתפרסמת באתר האינטרנט של המלווה;</p>
+                  </content>
+                </point>
+                <point eId="point_3__point_ב__point_11ב">
+                  <num>(11ב)</num>
+                  <content>
+                    <p>סך התוספת וההוצאות כאמור <ref href="#point_1">בפסקה (3) להגדרה "תוספת"</ref> שייווספו לקרן ההלוואה, אם כל תשלום ישולם במועדו, לפי תנאי הריבית והתוספת הידועים במועד כריתת חוזה ההלוואה, ולעניין הלוואה בריבית משתנה או הלוואה צמודה למדד או לבסיס אחר – גם הבהרה כי הסכום עשוי להשתנות במהלך תקופת ההלוואה עקב שינוי שיעור הריבית או עקב ההצמדה;</p>
+                  </content>
+                </point>
+                <point eId="point_3__point_ב__point_11ג">
+                  <num>(11ג)</num>
+                  <content>
+                    <p>זהות הגורם המפקח על פעילותו של המלווה;</p>
+                  </content>
+                </point>
+                <point eId="point_3__point_ב__point_12">
+                  <num>(12)</num>
+                  <content>
+                    <p>כל פרט אחר שיקבע שר המשפטים, בהתייעצות עם שר האוצר ונגיד בנק ישראל ובאישור ועדת החוקה, חוק ומשפט.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_3__point_ב1">
+              <num>(ב1)</num>
+              <content>
+                <p>שר המשפטים, בהתייעצות עם שר האוצר ונגיד בנק ישראל ובאישור ועדת החוקה חוק ומשפט, רשאי לפטור מלווים מהחובות כאמור בסעיפים קטנים (א) ו־(ב), כולן או חלקן, לגבי סוגי הלוואות ובתנאים שיקבע.</p>
+              </content>
+            </point>
+            <point eId="point_3__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>שר המשפטים רשאי, בהתייעצות עם שר האוצר ונגיד בנק ישראל, לקבוע את העקרונות או השיטות לחישוב הפרטים האמורים בסעיף קטן (ב).</p>
+              </content>
+            </point>
+            <point eId="point_3__point_ד">
+              <num>(ד)</num>
+              <content>
+                <p>המפקח על הבנקים, המפקח על נותני שירותים פיננסיים או הממונה על שוק ההון, ביטוח וחיסכון, לפי העניין, יקבעו טפסים לגילוי הפרטים לפי סעיף קטן (ב).</p>
+              </content>
+            </point>
+            <point eId="point_3__point_ד1">
+              <num>(ד1)</num>
+              <content>
+                <p>מלווה יאפשר ללווה גישה סבירה לחוזה ההלוואה ולתנאיו במהלך תקופת החוזה וזמן סביר לאחריה.</p>
+              </content>
+            </point>
+            <point eId="point_3__point_ה">
+              <num>(ה)</num>
+              <content>
+                <p>לא יפרסם מלווה פרסומת אף אם היא פרסומת המותרת לפי דין ולא ינקוט דרך שיווק אחרת, המעודדות נטילת הלוואה על ידי לווה, אלא אם כן הן כוללות את שם המלווה וצורפה להן אזהרה בנוסח זה: ”אי־עמידה בפירעון ההלוואה עלול לגרור חיוב בריבית פיגורים והליכי הוצאה לפועל“; ואולם החובה לכלול את שם המלווה כאמור לא תחול על מפעיל מערכת מקוונת המיועדת למתן הלוואות ולקבלתן או לביצוע תשלומים לאחר, אם מפעיל המערכת אינו נותן ההלוואה או מקבלה.</p>
+              </content>
+            </point>
+            <point eId="point_3__point_ו">
+              <num>(ו)</num>
+              <content>
+                <p>נתן המלווה את ההלוואה שלא במועד כריתת חוזה ההלוואה, ימסור ללווה מסמך, לרבות באמצעים אלקטרוניים, המציין את הסכום שקיבל הלווה בפועל ואת הפרטים הקבועים בסעיף קטן (ב)(9), ככל שחל בהם שינוי לאחר כריתת חוזה ההלוואה; שר המשפטים, בהתייעצות עם שר האוצר ונגיד בנק ישראל, רשאי לקבוע חובות גילוי נוספות שיחולו על המלווה לאחר כריתת חוזה ההלוואה.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_4">
+          <heading>
+            <authorialNote placement="side">
+              <p>אי קיום חובת הגילוי</p>
+            </authorialNote>
+          </heading>
+          <num>4.</num>
+          <content>
+            <p>מבלי לגרוע מזכותו של הלווה לסעדים לפי חוק זה או לפי כל דין אחר, יחולו הוראות <ref href="/akn/il/act/PrimaryLegislation/1973-04-19/147391#point_12">סעיפים 12(ב)</ref><ref href="/akn/il/act/PrimaryLegislation/1973-04-19/147391#point_15">ו־15 לחוק החוזים (חלק כללי), התשל"ג–1973</ref>, לפי הענין, אם לא קיים המלווה את חובת הגילוי לפי <ref href="#point_3">סעיף 3</ref>.</p>
+          </content>
+        </point>
+        <point eId="point_4א">
+          <heading>
+            <authorialNote placement="side">
+              <p>בסיס ההצמדה או בסיס הריבית</p>
+            </authorialNote>
+          </heading>
+          <num>4א.</num>
+          <content>
+            <p>בהלוואה צמודה למדד או לבסיס אחר או בהלוואה בריבית משתנה, ובכלל זה ריבית פיגורים משתנה, יהיו בסיס ההצמדה או בסיס הריבית, לפי העניין, מדד, ריבית או בסיס אחר, שאין למלווה שליטה על קביעתם ומפורסמים לציבור לפי דין או נוהג.</p>
+          </content>
+        </point>
+        <point eId="point_5">
+          <heading>
+            <authorialNote placement="side">
+              <p>הגבלת שיעור העלות הממשית של האשראי</p>
+            </authorialNote>
+          </heading>
+          <num>5.</num>
+          <list>
+            <point eId="point_5__point_א">
+              <num>(א)</num>
+              <content>
+                <p>לא יכרות מלווה חוזה הלוואה שבו שיעור העלות הממשית של האשראי הידוע במועד כריתת החוזה עולה על שיעור העלות המרבית של האשראי הידוע באותו מועד, ולא יקבל תשלום לפי חוזה כאמור.</p>
+              </content>
+            </point>
+            <point eId="point_5__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>מלווה יכלול בחוזה הלוואה תנאי שלפיו שיעור העלות הממשית של האשראי הידוע במועד כריתת החוזה לא יעלה על שיעור העלות המרבית של האשראי הידוע באותו מועד, כאמור בסעיף קטן (א).</p>
+              </content>
+            </point>
+            <point eId="point_5__point_ג">
+              <num>(ג)</num>
+              <list>
+                <intro>
+                  <p>נכרת חוזה הלוואה ומתקיים אחד מהתנאים המפורטים להלן, יחושב שיעור העלות הממשית של האשראי לעניין סעיף קטן (א), כאילו נקבעה בחוזה ההלוואה ריבית קבועה בשיעור הריבית הגבוה ביותר מבין הריביות שגבה המלווה מהלווה במסגרת אותו חוזה:</p>
+                </intro>
+                <point eId="point_5__point_ג__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>החוזה נערך בלא מסמך בכתב בניגוד להוראות <ref href="#point_2">סעיף 2</ref>;</p>
+                  </content>
+                </point>
+                <point eId="point_5__point_ג__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>החוזה אינו כולל את הפרטים הקבועים <ref href="#point_3">בסעיף 3(ב)(2) עד (8) ו־(9)</ref>, לרבות כפי שהוחל <ref href="#point_15א">בסעיפים 15א</ref><ref href="#point_15ב">ו־15ב</ref>;</p>
+                  </content>
+                </point>
+                <point eId="point_5__point_ג__point_3">
+                  <num>(3)</num>
+                  <content>
+                    <p>נקבע בחוזה בסיס הצמדה או בסיס ריבית שאינו כאמור <ref href="#point_4א">בסעיף 4א</ref>.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+          </list>
+        </point>
+        <point eId="point_6">
+          <heading>
+            <authorialNote placement="side">
+              <p>הגבלת ריבית הפיגורים</p>
+            </authorialNote>
+          </heading>
+          <num>6.</num>
+          <list>
+            <point eId="point_6__point_א">
+              <num>(א)</num>
+              <content>
+                <p>לא יכרות מלווה חוזה הלוואה שבו שיעור ריבית הפיגורים הידוע במועד כריתת החוזה עולה על שיעור ריבית הפיגורים המרבי הידוע באותו מועד, ולא יקבל תשלום לפי חוזה כאמור.</p>
+              </content>
+            </point>
+            <point eId="point_6__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>מלווה יכלול בחוזה הלוואה תנאי שלפיו שיעור ריבית הפיגורים הידוע במועד כריתת החוזה לא יעלה על שיעור ריבית הפיגורים המרבי הידוע באותו מועד, כאמור בסעיף קטן (א).</p>
+              </content>
+            </point>
+            <point eId="point_6__point_ג">
+              <num>(ג)</num>
+              <list>
+                <intro>
+                  <p>נכרת חוזה הלוואה ומתקיים אחד מהתנאים המפורטים להלן, יחושב שיעור ריבית הפיגורים לעניין סעיף קטן (א), כאילו נקבעה בחוזה ההלוואה ריבית פיגורים קבועה בשיעור ריבית הפיגורים הגבוה ביותר מבין הריביות שגבה המלווה מהלווה במסגרת אותו חוזה:</p>
+                </intro>
+                <point eId="point_6__point_ג__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>החוזה נערך בלא מסמך בכתב בניגוד להוראות <ref href="#point_2">סעיף 2</ref>;</p>
+                  </content>
+                </point>
+                <point eId="point_6__point_ג__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>החוזה אינו כולל את הפרטים הקבועים <ref href="#point_3">בסעיף 3(ב)(2) עד (8), (9) ו־(11)</ref>, לרבות כפי שהוחל <ref href="#point_15א">בסעיפים 15א</ref><ref href="#point_15ב">ו־15ב</ref>;</p>
+                  </content>
+                </point>
+                <point eId="point_6__point_ג__point_3">
+                  <num>(3)</num>
+                  <content>
+                    <p>נקבע בחוזה בסיס הצמדה או בסיס ריבית, לעניין ריבית פיגורים, שאינו כאמור <ref href="#point_4א">בסעיף 4א</ref>.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+          </list>
+        </point>
+        <point eId="point_7">
+          <heading>
+            <authorialNote placement="side">
+              <p>הקדמת מועד הפרעון</p>
+            </authorialNote>
+          </heading>
+          <num>7.</num>
+          <list>
+            <point eId="point_7__point_א">
+              <num>(א)</num>
+              <content>
+                <p>בלי לגרוע מהוראות כל דין, מלווה זכאי להקדים את מועד הפירעון של ההלוואה, כולה או חלקה, אם היה חשש ממשי לאי־פירעון ההלוואה, אם הסיכון לאי־פירעון ההלוואה גדל בשיעור ניכר, אם היתה הפרה יסודית של חוזה ההלוואה או אם התקיימו תנאים אחרים המחייבים ביצוע מיידי של פעולה כאמור לגבי ההלוואה.</p>
+              </content>
+            </point>
+            <point eId="point_7__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>
+                  <wikicomment font-size="x-small">(בוטל).</wikicomment>
+                </p>
+              </content>
+            </point>
+            <point eId="point_7__point_ג">
+              <num>(ג)</num>
+              <list>
+                <point eId="point_7__point_ג__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>ביקש המלווה להקדים את מועד הפרעון של יתרת ההלוואה, ישלח ללווה התראה בדבר הקדמת מועד הפירעון, שבה יפרט, בין השאר, פעולות שהלווה יכול לנקוט כדי למנוע את הקדמת מועד הפירעון, ככל שישנן, תוך תקופה שלא תפחת מ־21 ימי עסקים מיום משלוח ההתראה, וכי אם לא יעשה כן, תעמוד יתרת ההלוואה לפרעון מיידי ותיווסף עליה ריבית פיגורים ממועד ההעמדה לפרעון מיידי ועד למועד התשלום בפועל.</p>
+                  </content>
+                </point>
+                <point eId="point_7__point_ג__point_2">
+                  <num>(2)</num>
+                  <list>
+                    <intro>
+                      <p>מלווה לא חייב למסור התראה כאמור בפסקה (1), אם קיימות נסיבות מיוחדות שבהן יש חשש ממשי שעמידה בהוראות אותה פסקה תוביל לפגיעה ביכולת הגבייה של המלווה בשל אחד מאלה, ובלבד שניתנה התראה ללווה בהקדם האפשרי לאחר שהוסר החשש:</p>
+                    </intro>
+                    <point eId="point_7__point_ג__point_2__point_א">
+                      <num>(א)</num>
+                      <content>
+                        <p>שינוי לרעה בכושר הפירעון של הלקוח;</p>
+                      </content>
+                    </point>
+                    <point eId="point_7__point_ג__point_2__point_ב">
+                      <num>(ב)</num>
+                      <content>
+                        <p>תנאים אחרים המחייבים ביצוע מיידי של פעולה לגבי הלוואה.</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+              </list>
+            </point>
+            <point eId="point_7__point_ד">
+              <num>(ד)</num>
+              <content>
+                <p>המלווה יפרט בהתראה את הסכום של כל תשלום שבפיגור ואת סכום ריבית הפיגורים שנצבר עד ליום משלוח ההתראה, ככל שישנם, וכל סכום מיתרת ההלוואה שיוקדם מועד פרעונו בהתאם לאמור בסעיף קטן (ה); לגבי חוזה הלוואה שעניינו מסגרת אשראי, יראו בקיומה של יתרת חוב העולה על מסגרת האשראי שאושרה על ידי המלווה כתשלום שבפיגור; שר המשפטים רשאי לקבוע דרך למשלוח ההתראה, ופרטים נוספים שייכללו בה.</p>
+              </content>
+            </point>
+            <point eId="point_7__point_ה">
+              <num>(ה)</num>
+              <content>
+                <p>הסתיימה התקופה הקבועה בהתראה ולא פעל הלווה למניעת הקדמת מועד הפירעון כאמור בהתראה, רשאי המלווה להעמיד לפרעון מיידי כל סכום מיתרת ההלוואה כפי שפורט בהתראה, ותיווסף עליה ריבית פיגורים ממועד ההעמדה לפרעון מיידי ועד למועד התשלום בפועל.</p>
+              </content>
+            </point>
+            <point eId="point_7__point_ו">
+              <num>(ו)</num>
+              <content>
+                <p>לענין זה, ”יתרת ההלוואה“ – יתרת סכום ההלוואה, במלואה או בחלקה, בצירוף הריבית שנצברה עד למועד ההעמדה לפרעון מיידי.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_7א">
+          <heading>
+            <authorialNote placement="side">
+              <p>הוצאות לגביית תשלום שבפיגור</p>
+            </authorialNote>
+          </heading>
+          <num>7א.</num>
+          <content>
+            <p>מלווה רשאי לגבות מלווה רק הוצאות סבירות שהוציא לשם גביית תשלום שהלווה פיגר בתשלומו לפי חוזה ההלוואה, ושנקבע בחוזה ההלוואה שהוא רשאי לגבותן מהלווה; שר המשפטים רשאי לקבוע את סוג ההוצאות שרשאי המלווה לגבות מהלווה כאמור, את הסכום המרבי שלהן, ואת התנאים לגבייתן.</p>
+          </content>
+        </point>
+        <point eId="point_8">
+          <heading>
+            <authorialNote placement="side">
+              <p>סדרי דין</p>
+            </authorialNote>
+          </heading>
+          <num>8.</num>
+          <list>
+            <point eId="point_8__point_א">
+              <num>(א)</num>
+              <content>
+                <p>הגיש מלווה תובענה בבית משפט נגד לווה, או הגיש נגדו בקשה ללשכת הוצאה לפועל לביצוע פסק דין, לביצוע שטר או לביצוע תביעה על סכום קצוב, והכל בקשר לחוזה הלוואה, יצרף לכתב התביעה או לבקשה העתק של חוזה ההלוואה וכן העתק של פסק הדין או את השטר, לפי העניין; ואולם מלווה מוסדי יהיה רשאי לצרף לכתב התביעה או לבקשה כאמור, במקום העתק של חוזה ההלוואה, רשומה מוסדית כהגדרתה <ref href="/akn/il/act/PrimaryLegislation/1971-04-28/2002283#point_35">בסעיף 35 לפקודת הראיות [נוסח חדש], התשל"א–1971</ref>, בקשר לחוזה ההלוואה, בהתאם להוראות הדין, ובלבד שהיא כוללת את כל הפרטים שיש לגלותם במסגרת חוזה ההלוואה לפי <ref href="#point_3">סעיף 3(ב)</ref>.</p>
+              </content>
+            </point>
+            <point eId="point_8__point_ב">
+              <num>(ב)</num>
+              <list>
+                <intro>
+                  <p>בתובענה או בקשה כאמור בסעיף קטן (א) יציין המלווה את הסכום שתשלומו נדרש ואת אופן חישובו, וכן פרטים אלה:</p>
+                </intro>
+                <point eId="point_8__point_ב__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>כל הפרטים שיש לגלותם לפי <ref href="#point_3">סעיף 3(ב)</ref>, לרבות כפי שהוחל <ref href="#point_15א">בסעיפים 15א</ref><ref href="#point_15ב">ו־15ב</ref>, ולעניין מלווה מוסדי – גם הפרטים שעליו לגלותם לפי חוק אחר החל בעניין כאמור <ref href="#point_16">בסעיף 16</ref>, וכן קיומן של התראות בשל הפיגור בתשלומים;</p>
+                  </content>
+                </point>
+                <point eId="point_8__point_ב__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>התשלומים ששילם הלווה לפרעון ההלוואה ומועדיהם, בפירוט סכום ההלוואה והריבית בכל תשלום;</p>
+                  </content>
+                </point>
+                <point eId="point_8__point_ב__point_3">
+                  <num>(3)</num>
+                  <content>
+                    <p>יתרת החוב במועד הגשת התובענה;</p>
+                  </content>
+                </point>
+                <point eId="point_8__point_ב__point_4">
+                  <num>(4)</num>
+                  <content>
+                    <p>התשלומים שבפיגור, בחלוקה לפי קרן, הצמדה, ריבית וריבית הפיגורים ביחס אליהם שנצברו עד למועד הגשת התובענה;</p>
+                  </content>
+                </point>
+                <point eId="point_8__point_ב__point_5">
+                  <num>(5)</num>
+                  <content>
+                    <p>כל סכום שמועד פרעונו הוקדם, וסכום הריבית וריבית הפיגורים ביחס אליו שנצבר עד למועד הגשת התובענה;</p>
+                  </content>
+                </point>
+                <point eId="point_8__point_ב__point_5א">
+                  <num>(5א)</num>
+                  <content>
+                    <p>הסכום שהמלווה דורש מהלווה בשל הוצאות שהוציא לגביית תשלום שהלווה פיגר בתשלומו, כאמור <ref href="#point_7א">בסעיף 7א</ref>;</p>
+                  </content>
+                </point>
+                <point eId="point_8__point_ב__point_6">
+                  <num>(6)</num>
+                  <content>
+                    <p>כל פרט אחר שיקבע שר המשפטים, בהתייעצות עם שר האוצר ונגיד בנק ישראל.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+          </list>
+        </point>
+        <point eId="point_9">
+          <heading>
+            <authorialNote placement="side">
+              <p>ביטול או שינוי תנאי בבית משפט</p>
+            </authorialNote>
+          </heading>
+          <num>9.</num>
+          <list>
+            <point eId="point_9__point_א">
+              <num>(א)</num>
+              <content>
+                <p>ראה בית המשפט בתובענה בקשר לחוזה הלוואה, כי חוזה ההלוואה או תנאי בו אינם מתאימים לדרישות לפי חוק זה, ולגבי מלווה מוסדי – לדרישות לפי חוק זה או לפי חוק אחר החל בעניין כאמור <ref href="#point_16">בסעיף 16</ref>, יורה בית המשפט, ביוזמתו או על פי בקשה, ולאחר שנתן הזדמנות לצדדים להשמיע טענותיהם, לבטל את החוזה או את התנאי או לשנותו, הכל במידה הנדרשת כדי להתאימו לדרישות החוק, ולפי הענין.</p>
+              </content>
+            </point>
+            <point eId="point_9__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>מבלי לגרוע מכלליות האמור בסעיף קטן (א) או מכל תרופה אחרת שבדין, רשאי בית המשפט להתאים את שיעור העלות הממשית של האשראי ואת שיעור ריבית הפיגורים לשיעורים המרביים המותרים על פי <ref href="#point_5">סעיפים 5</ref><ref href="#point_6">ו־6</ref>, או לקבוע שיעור נמוך יותר, לצוות על השבה של כל סכום שקיבל המלווה מן הלווה שלא בהתאם להוראות חוק זה, לחייב את המלווה בהוצאות שנגרמו ללווה, וליתן כל הוראה אחרת שתיראה צודקת בנסיבות הענין.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_10">
+          <heading>
+            <authorialNote placement="side">
+              <p>אי־נקיטה של הליכי הוצאה לפועל</p>
+            </authorialNote>
+          </heading>
+          <num>10.</num>
+          <list>
+            <point eId="point_10__point_א">
+              <num>(א)</num>
+              <list>
+                <point eId="point_10__point_א__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>ביקש מלווה לנקוט הליכים נגד לווה בתיק הוצאה לפועל לביצוע פסק דין שניתן במעמד צד אחד, לביצוע שטר או לביצוע תביעה על סכום קצוב, בקשר לחוזה ההלוואה, רשאי רשם ההוצאה לפועל, ביוזמתו או על פי בקשה, לסרב לנקוט את ההליכים המבוקשים, ובכלל זה להורות על אי־פתיחת תיק הוצאה לפועל או סגירתו, אם היה לו יסוד להניח כי חוזה ההלוואה או תנאי בו אינם מתאימים לדרישות לפי חוק זה, ולגבי מלווה מוסדי – לדרישות לפי חוק זה או לפי חוק אחר החל בעניין כאמור <ref href="#point_16">בסעיף 16</ref>; ואולם לא יורה רשם ההוצאה לפועל על אי־פתיחת תיק ביוזמתו אלא לאחר שנתן לצדדים הזדמנות לטעון את טענותיהם.</p>
+                  </content>
+                </point>
+                <point eId="point_10__point_א__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>מנהל לשכת ההוצאה לפועל רשאי לסרב לנקוט הליכים בתיק הוצאה לפועל לביצוע שטר או לביצוע תביעה על סכום קצוב כאמור בפסקה (1), בנסיבות המנויות בצו שקבע שר המשפטים, באישור ועדת החוקה חוק ומשפט.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_10__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>
+                  <wikicomment font-size="x-small">(בוטל).</wikicomment>
+                </p>
+              </content>
+            </point>
+            <point eId="point_10__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>ביקש מלווה נקיטת הליכים כאמור בסעיף קטן (א), והשהה את ההליכים ללא טעם סביר, רשאי רשם ההוצאה לפועל, ביוזמתו או על פי בקשה, לסרב לנקוט את ההליכים המבוקשים כאמור באותו סעיף קטן, וכן רשאי הוא לקבוע ריבית פיגורים בשיעור נמוך מן השיעור של חוזה ההלוואה לתקופת השיהוי.</p>
+              </content>
+            </point>
+            <point eId="point_10__point_ד">
+              <num>(ד)</num>
+              <content>
+                <p>הוגש לבית המשפט המוסמך ערעור על החלטה של רשם ההוצאה לפועל לסרב לנקוט הליכים של הוצאה לפועל לפי סעיף זה, ידון בית המשפט בעניין כאילו הגיש הלווה בקשה לבית המשפט לביטול חוזה ההלוואה או תנאי בו, או לשינוים, כאמור <ref href="#point_9">בסעיף 9</ref>.</p>
+              </content>
+            </point>
+            <point eId="point_10__point_ה">
+              <num>(ה)</num>
+              <content>
+                <p>
+                  <wikicomment font-size="x-small">(בוטל).</wikicomment>
+                </p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_11">
+          <heading>
+            <authorialNote placement="side">
+              <p>הגנה נגד אוחז בשטר</p>
+            </authorialNote>
+          </heading>
+          <num>11.</num>
+          <content>
+            <p>נפתח נגד הלווה הליך בבית משפט או בהוצאה לפועל לביצוע שטר שחתם הלווה בקשר לחוזה הלוואה, יהיו זכויות האוחז בשטר כפופות להוראות חוק זה כאילו היה המלווה, אלא אם כן הוכיח האוחז בשטר כי הוא אוחז בו בתום לב ובעד תמורה, וכי הוא לא ידע שמקור השטר בחוזה הלוואה כאמור.</p>
+          </content>
+        </point>
+        <point eId="point_12">
+          <heading>
+            <authorialNote placement="side">
+              <p>הגנה על ערב להלוואה</p>
+            </authorialNote>
+          </heading>
+          <num>12.</num>
+          <content>
+            <p>כל טענה העומדת ללווה לפי חוק זה, תעמוד גם לערב להלוואה.</p>
+          </content>
+        </point>
+        <point eId="point_13">
+          <heading>
+            <authorialNote placement="side">
+              <p>ראיות</p>
+            </authorialNote>
+          </heading>
+          <num>13.</num>
+          <content>
+            <p>על אף האמור בכל דין, רשאי בית המשפט בהליכים לפי <ref href="#point_9">סעיף 9</ref> לקבל כראיה עדות בעל־פה.</p>
+          </content>
+        </point>
+        <point eId="point_14">
+          <heading>
+            <authorialNote placement="side">
+              <p>ערעור על החלטת רשם ההוצאה לפועל</p>
+            </authorialNote>
+          </heading>
+          <num>14.</num>
+          <content>
+            <p>החלטת רשם ההוצאה לפועל לפי חוק זה ניתנת לערעור בזכות לפני בית משפט השלום.</p>
+          </content>
+        </point>
+        <point eId="point_15">
+          <heading>
+            <authorialNote placement="side">
+              <p>סייג לתחולה</p>
+            </authorialNote>
+          </heading>
+          <num>15.</num>
+          <list>
+            <point eId="point_15__point_א">
+              <num>(א)</num>
+              <content>
+                <p>הוראות <ref href="#point_2">סעיפים 2</ref>, <ref href="#point_3">3</ref>, <ref href="#point_5">5(ב) ו־(ג)(1) ו־(2)</ref>, <ref href="#point_6">6(ב) ו־(ג)(1) ו־(2)</ref><ref href="#point_7">ו־7</ref>, לא יחולו על מלווה יחיד שנתן הלוואה שלא דרך עיסוק; לעניין זה יראו מלווה שנתן הלוואה למי שאינו קרוב משפחתו כמי שנתן הלוואה דרך עיסוק, אלא אם כן הוכיח המלווה אחרת; לעניין סעיף קטן זה, ”קרוב משפחה“ – בן זוג, הורה, הורה הורה, בן או בת ובני זוגם, אח או אחות וילדיהם, גיס, גיסה, דוד או דודה וילדיהם, חותן, חותנת, חם, חמות, חתן, כלה, נכד או נכדה, לרבות חורגים.</p>
+              </content>
+            </point>
+            <point eId="point_15__point_ב">
+              <num>(ב)</num>
+              <list>
+                <intro>
+                  <p>הוראות <ref href="#point_5">סעיפים 5</ref>, <ref href="#point_6">6</ref><ref href="#point_15ד">ו־15ד(א)(2) עד (4)</ref> לא יחולו על –</p>
+                </intro>
+                <point eId="point_15__point_ב__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>הלוואה שהסכום שקיבל הלווה בפועל עולה על 1,000,000 שקלים חדשים <wikicomment font-size="x-small">(מתואם לשנת 2007; החל משנת 2014, 1,197,707.36 ש"ח)</wikicomment>, או על כל סכום אחר שקבע שר המשפטים, בהתייעצות עם שר האוצר ונגיד בנק ישראל, ובאישור ועדת החוקה, חוק ומשפט;</p>
+                  </content>
+                </point>
+                <point eId="point_15__point_ב__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>הלוואה שחל עליה צו לענין שיעור הריבית המרבי לפי <ref href="/akn/il/act/PrimaryLegislation/1957-02-06/148445">חוק הריבית, התשי"ז–1957</ref>.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_15__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>הסכום האמור בפסקה (ב)(1) ישתנה ב־1 בינואר של כל שנה, לפי שיעור עליית מדד המחירים לצרכן שמפרסמת הלשכה המרכזית לסטטיסטיקה. הודעה על השינוי תפורסם ברשומות.</p>
+              </content>
+            </point>
+            <point eId="point_15__point_ד">
+              <num>(ד)</num>
+              <content>
+                <p>הוראות <ref href="#point_2">סעיפים 2 עד 7</ref>, <ref href="#point_15ד">15ד</ref><ref href="#point_15ה">ו־15ה</ref> לא יחולו על מלווה שנותן הלוואה באמצעות בעל רישיון להפעלת מערכת לתיווך באשראי.</p>
+              </content>
+            </point>
+            <point eId="point_15__point_ה">
+              <num>(ה)</num>
+              <content>
+                <p>הוראות חוק זה לא יחולו על הלוואה שבה הלווה אינו נדרש לשלם כל תמורה מעבר לסכום שקיבל בפועל וכן לא יחולו על הלוואה שבה הלווה נדרש לשלם תמורה כאמור שהיא הצמדה לשער החליפין למטבע הישראלי או למדד המחירים לצרכן שמפרסמת הלשכה המרכזית לסטטיסטיקה.</p>
+              </content>
+            </point>
+            <point eId="point_15__point_ו">
+              <num>(ו)</num>
+              <content>
+                <p>הוראות חוק זה לא יחולו על מי שעיסוקו במתן אשראי שאינו נושא ריבית, ליחיד, או לאחר שעיסוקו במתן אשראי כאמור – לעניין עיסוק כאמור, שלא למטרת רווח, שפטור מחובת קבלת רישיון למתן אשראי בהתאם <ref href="/akn/il/act/PrimaryLegislation/2016-08-01/571496#point_13">לסעיף 13(א)(15) לחוק שירותים פיננסיים מוסדרים</ref>; לעניין סעיף קטן זה, ”ריבית“ – כהגדרתה <ref href="/akn/il/act/PrimaryLegislation/2016-08-01/571496#point_25א">בסעיף 25א לחוק שירותים פיננסיים מוסדרים</ref>.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_15א" class="definitions">
+          <heading>
+            <authorialNote placement="side">
+              <p>החלת הוראות על חוזה הלוואה שעניינו מסגרת אשראי</p>
+            </authorialNote>
+          </heading>
+          <num>15א.</num>
+          <list>
+            <intro>
+              <p>בחוזה הלוואה בין לווה למלווה שעניינו מסגרת אשראי, יחולו לעניין מסגרת האשראי הוראות חוק זה, בשינויים המחויבים ובשינויים אלה:</p>
+            </intro>
+            <point eId="point_15א__point_1">
+              <num>(1)</num>
+              <content>
+                <p>
+                  <def />במקום <ref href="#point_1">ההגדרה ”שיעור העלות הממשית של האשראי“</ref> יקראו:<br space="preserve"></br>””שיעור העלות הממשית של האשראי“ – היחס שבין סך כל הסכומים שלווה נדרש לשלם בקשר לחוזה ההלוואה, מעבר לסכום שהמלווה התחייב להעמיד ללווה, למעט סכומים כאמור <ref href="#point_1">בפסקאות (1) עד (3) להגדרה ”תוספת“</ref>, ובין הסכום שהמלווה התחייב להעמיד ללווה;“;</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_2">
+          <num>(2)</num>
+          <list>
+            <intro>
+              <p>יקראו את <ref href="#point_3">סעיף 3(ב)</ref>, לעניין חוזה ההלוואה שקובע את התנאים הכלליים של מסגרת האשראי, כמפורט להלן, ויראו מלווה שכלל בחוזה הלוואה כאמור את התנאים <ref href="#point_3">שבסעיף 3(ב)</ref> כפי שהוא מוחל בפסקה זו כמי שמילא אחר חובת הגילוי לפי <ref href="#point_3">אותו סעיף</ref>:</p>
+            </intro>
+            <point eId="point_2__point_א">
+              <num>(א)</num>
+              <content>
+                <p>סכום ההלוואה לפי פסקה (2) של אותו סעיף קטן יהיה הסכום שהמלווה התחייב להעמיד ללווה;</p>
+              </content>
+            </point>
+            <point eId="point_2__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>פסקה (3) – לא תיקרא;</p>
+              </content>
+            </point>
+            <point eId="point_2__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>בפסקה (4), הסיפה החל במילים ”המביא בחשבון“ – לא תיקרא;</p>
+              </content>
+            </point>
+            <point eId="point_2__point_ד">
+              <num>(ד)</num>
+              <content>
+                <p>אחרי פסקה (4) יקראו:<br space="preserve"></br>
+   ”(4א)  ציון כי הריבית תחול על כל סכום של ניצול יתרת מסגרת האשראי, לרבות סכומי הריבית שטרם נפרעו ושנצברו בשל תקופות קודמות;“;</p>
+              </content>
+            </point>
+            <point eId="point_2__point_ה">
+              <num>(ה)</num>
+              <content>
+                <p>בפסקה (11), המילים ”המביא בחשבון גם ריבית דריבית“ – לא ייקראו;</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_3">
+          <num>(3)</num>
+          <content>
+            <p>מלווה ימסור ללווה דוח תקופתי הכולל פרטים על מימוש מסגרת האשראי והסכומים שהוא נדרש לשלם בשל המימוש; שר המשפטים רשאי לקבוע הוראות לעניין תדירות מסירת הדוח וכן רשאי הוא לקבוע את הפרטים שייכללו בו;</p>
+          </content>
+        </point>
+        <point eId="point_4">
+          <num>(4)</num>
+          <content>
+            <p>הוגדלה מסגרת האשראי באותם תנאים שבחוזה ההלוואה, לא יחולו החובות לפי <ref href="#point_2">סעיפים 2</ref><ref href="#point_3">ו־3(א) ו־(ב)</ref> במועד הגדלת מסגרת האשראי, והמלווה ימסור ללווה, לאחר המועד האמור, מסמך המתעד את הגדלת מסגרת האשראי ואת מסגרת האשראי החדשה, ובכלל זה את שיעור הריבית שיחול לגבי המסגרת החדשה.</p>
+          </content>
+        </point>
+        <point eId="point_15ב">
+          <heading>
+            <authorialNote placement="side">
+              <p>החלת חובת הגילוי על חוזה הלוואה שעניינו ניכיון שטר או חוזה הלוואה שעניינו שירותי ניכיון בעסקאות בכרטיסי חיוב</p>
+            </authorialNote>
+          </heading>
+          <num>15ב.</num>
+          <list>
+            <point eId="point_15ב__point_א">
+              <num>(א)</num>
+              <list>
+                <intro>
+                  <p>בחוזה הלוואה בין לווה ומלווה שעניינו ניכיון שטר שמשך מי שאינו הלווה, יראו במלווה שכלל במסמכים המפורטים להלן את הפרטים שלהלן כמי שמילא אחר חובת הגילוי לפי <ref href="#point_3">סעיף 3(ב)</ref>:</p>
+                </intro>
+                <point eId="point_15ב__point_א__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>חוזה הלוואה הקובע את התנאים הכלליים של ניכיון השטר, ובו הפרטים הקבועים <ref href="#point_3">בסעיף 3(ב)(1), (8ב), (10), (11), (11א) ו־(11ג)</ref>, בשינויים המחויבים;</p>
+                  </content>
+                </point>
+                <point eId="point_15ב__point_א__point_2">
+                  <num>(2)</num>
+                  <list>
+                    <intro>
+                      <p>מסמך משלים, שנמסר ללווה טרם ביצוע ניכיון השטר, ובו פרטים אלה:</p>
+                    </intro>
+                    <point eId="point_15ב__point_א__point_2__point_א">
+                      <num>(א)</num>
+                      <content>
+                        <p>הפרטים הקבועים <ref href="#point_3">בסעיף 3(ב)(1)</ref> וכן הפרטים כאמור לעניין מושך השיק, ולעניין מסב השיק ככל שהם ידועים למלווה;</p>
+                      </content>
+                    </point>
+                    <point eId="point_15ב__point_א__point_2__point_ב">
+                      <num>(ב)</num>
+                      <content>
+                        <p>סכום השטר;</p>
+                      </content>
+                    </point>
+                    <point eId="point_15ב__point_א__point_2__point_ג">
+                      <num>(ג)</num>
+                      <content>
+                        <p>כל סכום שינוכה מהשטר;</p>
+                      </content>
+                    </point>
+                    <point eId="point_15ב__point_א__point_2__point_ד">
+                      <num>(ד)</num>
+                      <content>
+                        <p>הסכום שקיבל הלווה בפועל;</p>
+                      </content>
+                    </point>
+                    <point eId="point_15ב__point_א__point_2__point_ה">
+                      <num>(ה)</num>
+                      <content>
+                        <p>שיעור העלות הממשית של האשראי;</p>
+                      </content>
+                    </point>
+                    <point eId="point_15ב__point_א__point_2__point_ו">
+                      <num>(ו)</num>
+                      <content>
+                        <p>שיעור העלות המרבית של האשראי החל לגבי ההלוואה.</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+              </list>
+            </point>
+            <point eId="point_15ב__point_ב">
+              <num>(ב)</num>
+              <list>
+                <point eId="point_15ב__point_ב__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>בחוזה הלוואה בין לווה למלווה שעניינו שירותי ניכיון בעסקאות בכרטיסי חיוב כמשמעותם <ref href="/akn/il/act/PrimaryLegislation/1981-04-26/149825#point_7א">בסעיף 7א לחוק הבנקאות (שירות ללקוח), התשמ"א–1981</ref>, יראו מלווה שכלל בחוזה הלוואה הקובע את התנאים הכלליים של השירותים כאמור את הפרטים הקבועים <ref href="#point_3">בסעיף 3(ב)(1), (4) עד (8ב), (10) עד (11א) ו־(11ג)</ref>, בשינויים המחויבים, כמי שמילא אחר חובת הגילוי לפי <ref href="#point_3">סעיף 3(ב)</ref>.</p>
+                  </content>
+                </point>
+                <point eId="point_15ב__point_ב__point_2">
+                  <num>(2)</num>
+                  <list>
+                    <intro>
+                      <p>בחוזה הלוואה כאמור בפסקה (1), ימסור המלווה ללווה דוח תקופתי, במועדים כפי שקבע שר המשפטים, אם קבע, הכולל פרטים אלה:</p>
+                    </intro>
+                    <point eId="point_15ב__point_ב__point_2__point_א">
+                      <num>(א)</num>
+                      <content>
+                        <p>סכום התקבולים שהומחו למלווה;</p>
+                      </content>
+                    </point>
+                    <point eId="point_15ב__point_ב__point_2__point_ב">
+                      <num>(ב)</num>
+                      <content>
+                        <p>כל סכום שנוכה מהתקבולים כאמור בפסקת משנה (א);</p>
+                      </content>
+                    </point>
+                    <point eId="point_15ב__point_ב__point_2__point_ג">
+                      <num>(ג)</num>
+                      <content>
+                        <p>הסכום שקיבל הלווה בפועל;</p>
+                      </content>
+                    </point>
+                    <point eId="point_15ב__point_ב__point_2__point_ד">
+                      <num>(ד)</num>
+                      <content>
+                        <p>שיעור העלות הממשית של האשראי;</p>
+                      </content>
+                    </point>
+                    <point eId="point_15ב__point_ב__point_2__point_ה">
+                      <num>(ה)</num>
+                      <content>
+                        <p>שיעור ריבית הפיגורים בחישוב שנתי, המביא בחשבון גם ריבית דריבית, אם שולמה בעד התקופה שאליה מתייחס הדוח.</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+              </list>
+            </point>
+          </list>
+        </point>
+        <point eId="point_15ג">
+          <heading>
+            <authorialNote placement="side">
+              <p>החלת הוראות על תאגידים</p>
+            </authorialNote>
+          </heading>
+          <num>15ג.</num>
+          <content>
+            <p>שר המשפטים, בהסכמת שר האוצר ונגיד בנק ישראל ובאישור ועדת החוקה חוק ומשפט, רשאי לקבוע כי הוראות החוק, כולן או חלקן, החלות על לווים יחולו על סוגי תאגידים כפי שיקבע; קבע השר כאמור לא יראו כהלוואה, לעניין חוק זה, רכישה של תעודות התחייבות שהוצעו לציבור על פי תשקיף כמשמעותו <ref href="/akn/il/act/PrimaryLegislation/1968-08-22/150242">בחוק ניירות ערך, התשכ"ח–1968</ref>, רכישה של תעודות התחייבות <ref href="/akn/il/act/PrimaryLegislation/1968-08-22/150242#chp_ה3">שפרק ה׳3 לחוק האמור</ref> חל עליהן, או רכישה של תעודות התחייבות הרשומות או המיועדות להירשם למסחר בבורסה בהתאם לתקנון הבורסה כמשמעותו <ref href="/akn/il/act/PrimaryLegislation/1968-08-22/150242#point_46">בסעיף 46 לאותו חוק</ref>.</p>
+          </content>
+        </point>
+        <point eId="point_15ד">
+          <heading>
+            <authorialNote placement="side">
+              <p>עונשין</p>
+            </authorialNote>
+          </heading>
+          <num>15ד.</num>
+          <list>
+            <point eId="point_15ד__point_א">
+              <num>(א)</num>
+              <list>
+                <intro>
+                  <p>מלווה שעשה אחד מאלה, דינו – מאסר שלוש שנים:</p>
+                </intro>
+                <point eId="point_15ד__point_א__point_1">
+                  <num>(1)</num>
+                  <list>
+                    <intro>
+                      <p>עשה אחד מהמפורטים בפסקאות משנה (א) עד (ה) שלהלן במטרה להתחמק מהחובות או מהאיסורים הקבועים בחוק זה:</p>
+                    </intro>
+                    <point eId="point_15ד__point_א__point_1__point_א">
+                      <num>(א)</num>
+                      <content>
+                        <p>כרת חוזה הלוואה בלא מסמך בכתב בניגוד להוראות <ref href="#point_2">סעיף 2</ref>;</p>
+                      </content>
+                    </point>
+                    <point eId="point_15ד__point_א__point_1__point_ב">
+                      <num>(ב)</num>
+                      <content>
+                        <p>כרת חוזה הלוואה בלי שכלל בו את כל הפרטים הקבועים <ref href="#point_3">בסעיף 3(ב)(2) עד (9) ו־(11)</ref>;</p>
+                      </content>
+                    </point>
+                    <point eId="point_15ד__point_א__point_1__point_ג">
+                      <num>(ג)</num>
+                      <content>
+                        <p>כרת חוזה הלוואה שעניינו מסגרת אשראי בלי שכלל בו את הפרטים הקבועים <ref href="#point_3">בסעיף 3(ב)</ref>, כפי שהוא מוחל <ref href="#point_15א">בסעיף 15א</ref>;</p>
+                      </content>
+                    </point>
+                    <point eId="point_15ד__point_א__point_1__point_ד">
+                      <num>(ד)</num>
+                      <content>
+                        <p>כרת חוזה הלוואה שעניינו ניכיון שטר בלי שכלל בו את הפרטים הקבועים <ref href="#point_3">בסעיף 3(ב)</ref>, כפי שהוא מוחל <ref href="#point_15ב">בסעיף 15ב(א)(1)</ref>, או בלי שכלל במסמך משלים את הפרטים הקבועים <ref href="#point_15ב">בסעיף 15ב(א)(2)</ref>, למעט פסקת משנה (א) שבו;</p>
+                      </content>
+                    </point>
+                    <point eId="point_15ד__point_א__point_1__point_ה">
+                      <num>(ה)</num>
+                      <content>
+                        <p>כרת חוזה הלוואה שעניינו שירותי ניכיון בעסקאות בכרטיסי חיוב בלי שכלל בו את הפרטים הקבועים <ref href="#point_3">בסעיף 3(ב)</ref>, כפי שהוא מוחל <ref href="#point_15ב">בסעיף 15ב(ב)(1)</ref>;</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+                <point eId="point_15ד__point_א__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>כרת חוזה הלוואה שבו שיעור העלות הממשית של האשראי הידוע במועד כריתת החוזה עולה על שיעור הריבית הקבוע <ref href="#appendix_3">בתוספת השלישית</ref> הידוע באותו המועד;</p>
+                  </content>
+                </point>
+                <point eId="point_15ד__point_א__point_3">
+                  <num>(3)</num>
+                  <content>
+                    <p>כרת חוזה הלוואה שבו שיעור ריבית הפיגורים הידוע במועד כריתת החוזה עולה על שיעור הריבית הקבוע <ref href="#appendix_3">בתוספת השלישית</ref> הידוע באותו המועד;</p>
+                  </content>
+                </point>
+                <point eId="point_15ד__point_א__point_4">
+                  <num>(4)</num>
+                  <content>
+                    <p>קיבל תשלום לפי חוזה הלוואה שמתקיים בו האמור בפסקה (2) או (3).</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_15ד__point_ב">
+              <num>(ב)</num>
+              <list>
+                <intro>
+                  <p>מלווה שעשה אחד מאלה, דינו – קנס כאמור <ref href="/akn/il/act/PrimaryLegislation/1977-08-04/2002251#point_61">בסעיף 61(א)(2) לחוק העונשין, התשל"ז–1977</ref>:</p>
+                </intro>
+                <point eId="point_15ד__point_ב__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>כרת חוזה הלוואה בלא מסמך בכתב בניגוד להוראות <ref href="#point_2">סעיף 2</ref>;</p>
+                  </content>
+                </point>
+                <point eId="point_15ד__point_ב__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>כרת חוזה הלוואה בלי שכלל בו את כל הפרטים הקבועים <ref href="#point_3">בסעיף 3(ב)(2) עד (9) ו־(11)</ref>;</p>
+                  </content>
+                </point>
+                <point eId="point_15ד__point_ב__point_3">
+                  <num>(3)</num>
+                  <content>
+                    <p>כרת חוזה הלוואה שעניינו מסגרת אשראי בלי שכלל בו את הפרטים הקבועים <ref href="#point_3">בסעיף 3(ב)</ref>, כפי שהוא מוחל <ref href="#point_15א">בסעיף 15א</ref>;</p>
+                  </content>
+                </point>
+                <point eId="point_15ד__point_ב__point_4">
+                  <num>(4)</num>
+                  <content>
+                    <p>כרת חוזה הלוואה שעניינו ניכיון שטר בלי שכלל בו את הפרטים הקבועים <ref href="#point_3">בסעיף 3(ב)</ref>, כפי שהוא מוחל <ref href="#point_15ב">בסעיף 15ב(א)(1)</ref>, או בלי שכלל במסמך משלים את הפרטים הקבועים <ref href="#point_15ב">בסעיף 15ב(א)(2)</ref>, למעט פסקת משנה (א) שבו;</p>
+                  </content>
+                </point>
+                <point eId="point_15ד__point_ב__point_5">
+                  <num>(5)</num>
+                  <content>
+                    <p>כרת חוזה הלוואה שעניינו שירותי ניכיון בעסקאות בכרטיסי חיוב בלי שכלל בו את הפרטים הקבועים <ref href="#point_3">בסעיף 3(ב)</ref>, כפי שהוא מוחל <ref href="#point_15ב">בסעיף 15ב(ב)(1)</ref>;</p>
+                  </content>
+                </point>
+                <point eId="point_15ד__point_ב__point_6">
+                  <num>(6)</num>
+                  <content>
+                    <p>קבע בחוזה הלוואה, שעניינו הלוואה צמודה למדד או לבסיס אחר או בהלוואה בריבית משתנה, בסיס הצמדה או בסיס ריבית שאינו כאמור <ref href="#point_4א">בסעיף 4א</ref>;</p>
+                  </content>
+                </point>
+                <point eId="point_15ד__point_ב__point_7">
+                  <num>(7)</num>
+                  <content>
+                    <p>לא כלל בחוזה הלוואה תנאי שלפיו שיעור העלות הממשית של האשראי הידוע במועד כריתת החוזה לא יעלה על שיעור העלות המרבית של האשראי הידוע באותו מועד, בניגוד להוראות <ref href="#point_5">סעיף 5(ב)</ref>;</p>
+                  </content>
+                </point>
+                <point eId="point_15ד__point_ב__point_8">
+                  <num>(8)</num>
+                  <content>
+                    <p>לא כלל בחוזה הלוואה תנאי שלפיו שיעור ריבית הפיגורים הידוע במועד כריתת החוזה לא יעלה על שיעור ריבית הפיגורים המרבי הידוע באותו מועד, בניגוד להוראות <ref href="#point_6">סעיף 6(ב)</ref>.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+          </list>
+        </point>
+        <point eId="point_15ה">
+          <heading>
+            <authorialNote placement="side">
+              <p>עיצום כספי על מלווה מוסדי</p>
+            </authorialNote>
+          </heading>
+          <num>15ה.</num>
+          <list>
+            <point eId="point_15ה__point_א">
+              <num>(א)</num>
+              <list>
+                <intro>
+                  <p>בסעיף זה –</p>
+                </intro>
+                <point eId="point_15ה__point_א__point_הסכום_הקובע">
+                  <list>
+                    <intro>
+                      <p>
+                        <def />”הסכום הקובע“ – כמפורט להלן, לפי העניין:</p>
+                    </intro>
+                    <point eId="point_15ה__point_א__point_הסכום_הקובע__point_1">
+                      <num>(1)</num>
+                      <content>
+                        <p>לעניין תאגיד בנקאי, תאגיד עזר או סולק – סכום העיצום הכספי שהיה מוטל על תאגיד בנקאי, תאגיד עזר או סולק בשל הפרת הוראה מהוראות ניהול בנקאי תקין כאמור <ref href="/akn/il/act/PrimaryLegislation/1941-10-09/2001750#point_14ח">בסעיף 14ח(א)(1) לפקודת הבנקאות, 1941</ref>;</p>
+                      </content>
+                    </point>
+                    <point eId="point_15ה__point_א__point_הסכום_הקובע__point_2">
+                      <num>(2)</num>
+                      <content>
+                        <p>לעניין מבטח – סכום העיצום הכספי שהיה מוטל על המבטח בשל הפרת הוראה המנויה <ref href="/akn/il/act/PrimaryLegislation/1981-04-23/148363#appendix_3_part_ג">בחלק ג׳ בתוספת השלישית לחוק הפיקוח על הביטוח</ref>;</p>
+                      </content>
+                    </point>
+                    <point eId="point_15ה__point_א__point_הסכום_הקובע__point_3">
+                      <num>(3)</num>
+                      <content>
+                        <p>לעניין חברה מנהלת – סכום העיצום הכספי שהיה מוטל על החברה המנהלת בשל הפרת הוראה המנויה <ref href="/akn/il/act/PrimaryLegislation/2005-08-10/100899#appendix_1_part_ג">בחלק ג׳ בתוספת הראשונה לחוק קופות גמל</ref>;</p>
+                      </content>
+                    </point>
+                    <point eId="point_15ה__point_א__point_הסכום_הקובע__point_4">
+                      <num>(4)</num>
+                      <content>
+                        <p>לעניין בעל רישיון למתן אשראי, בעל רישיון למתן שירותי פיקדון ואשראי או בעל רישיון להפעלת מערכת לתיווך באשראי – סכום העיצום הכספי שהיה מוטל על בעל רישיון כאמור בשל הפרת הוראה המנויה <ref href="/akn/il/act/PrimaryLegislation/2016-08-01/571496#point_72">בסעיף 72(ב) לחוק שירותים פיננסיים מוסדרים</ref>.</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+              </list>
+            </point>
+            <point eId="point_15ה__point_ב">
+              <num>(ב)</num>
+              <list>
+                <intro>
+                  <p>הפר מלווה מוסדי הוראה מההוראות לפי חוק זה, כמפורט להלן, רשאי המפקח על הבנקים, הממונה על שוק ההון, ביטוח וחיסכון או המפקח על נותני שירותים פיננסיים, לפי העניין, להטיל עליו עיצום כספי לפי הוראות סעיף זה, בסכום הקובע:</p>
+                </intro>
+                <point eId="point_15ה__point_ב__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>כרת חוזה הלוואה בלא מסמך בכתב או לא תיעד את הסכמת הלקוח לכריתת חוזה ההלוואה, בניגוד להוראות לפי <ref href="#point_2">סעיף 2</ref>;</p>
+                  </content>
+                </point>
+                <point eId="point_15ה__point_ב__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>כרת חוזה הלוואה בלי שכלל בו את כל הפרטים הקבועים <ref href="#point_3">בסעיף 3(ב)</ref>;</p>
+                  </content>
+                </point>
+                <point eId="point_15ה__point_ב__point_3">
+                  <num>(3)</num>
+                  <content>
+                    <p>כרת חוזה הלוואה שעניינו מסגרת אשראי בלי שכלל בו את הפרטים הקבועים <ref href="#point_3">בסעיף 3(ב)</ref>, כפי שהוא מוחל <ref href="#point_15א">בסעיף 15א</ref>;</p>
+                  </content>
+                </point>
+                <point eId="point_15ה__point_ב__point_4">
+                  <num>(4)</num>
+                  <content>
+                    <p>כרת חוזה הלוואה שעניינו ניכיון שטר בלי שכלל בו את הפרטים הקבועים <ref href="#point_3">בסעיף 3(ב)</ref>, כפי שהוא מוחל <ref href="#point_15ב">בסעיף 15ב(א)(1)</ref>, או בלי שכלל במסמך משלים את הפרטים הקבועים <ref href="#point_15ב">בסעיף 15ב(א)(2)</ref>;</p>
+                  </content>
+                </point>
+                <point eId="point_15ה__point_ב__point_5">
+                  <num>(5)</num>
+                  <content>
+                    <p>כרת חוזה הלוואה שעניינו שירותי ניכיון בעסקאות בכרטיסי חיוב בלי שכלל בו את הפרטים הקבועים <ref href="#point_3">בסעיף 3(ב)</ref>, כפי שהוא מוחל <ref href="#point_15ב">בסעיף 15ב(ב)(1)</ref>;</p>
+                  </content>
+                </point>
+                <point eId="point_15ה__point_ב__point_6">
+                  <num>(6)</num>
+                  <content>
+                    <p>קבע בחוזה הלוואה, שעניינו הלוואה צמודה למדד או לבסיס אחר או הלוואה בריבית משתנה, בסיס הצמדה או בסיס ריבית שאינו כאמור <ref href="#point_4א">בסעיף 4א</ref>;</p>
+                  </content>
+                </point>
+                <point eId="point_15ה__point_ב__point_7">
+                  <num>(7)</num>
+                  <content>
+                    <p>כרת חוזה הלוואה שבו שיעור העלות הממשית של האשראי הידוע במועד כריתת החוזה עולה על שיעור העלות המרבית של האשראי הידוע באותו מועד, בניגוד להוראות <ref href="#point_5">סעיף 5(א)</ref>;</p>
+                  </content>
+                </point>
+                <point eId="point_15ה__point_ב__point_8">
+                  <num>(8)</num>
+                  <content>
+                    <p>לא כלל בחוזה הלוואה תנאי שלפיו שיעור העלות הממשית של האשראי הידוע במועד כריתת החוזה לא יעלה על שיעור העלות המרבית של האשראי הידוע באותו מועד, בניגוד להוראות <ref href="#point_5">סעיף 5(ב)</ref>;</p>
+                  </content>
+                </point>
+                <point eId="point_15ה__point_ב__point_9">
+                  <num>(9)</num>
+                  <content>
+                    <p>כרת חוזה הלוואה שבו שיעור ריבית הפיגורים הידוע במועד כריתת החוזה עולה על שיעור ריבית הפיגורים המרבי הידוע באותו מועד, בניגוד להוראות <ref href="#point_6">סעיף 6(א)</ref>;</p>
+                  </content>
+                </point>
+                <point eId="point_15ה__point_ב__point_10">
+                  <num>(10)</num>
+                  <content>
+                    <p>לא כלל בחוזה הלוואה תנאי שלפיו שיעור ריבית הפיגורים הידוע במועד כריתת החוזה לא יעלה על שירות ריבית הפיגורים המרבי הידוע באותו מועד, בניגוד להוראות <ref href="#point_6">סעיף 6(ב)</ref>;</p>
+                  </content>
+                </point>
+                <point eId="point_15ה__point_ב__point_11">
+                  <num>(11)</num>
+                  <list>
+                    <intro>
+                      <p>לעניין חוזה הלוואה שעניינו מסגרת אשראי –</p>
+                    </intro>
+                    <point eId="point_15ה__point_ב__point_11__point_א">
+                      <num>(א)</num>
+                      <content>
+                        <p>לא מסר דוח תקופתי או לא כלל בו את הפרטים הנדרשים, בניגוד להוראות לפי <ref href="#point_15א">סעיף 15א(3)</ref>;</p>
+                      </content>
+                    </point>
+                    <point eId="point_15ה__point_ב__point_11__point_ב">
+                      <num>(ב)</num>
+                      <content>
+                        <p>לא מסר מסמך המתעד את הגדלת מסגרת האשראי ואת מסגרת האשראי החדשה, בניגוד להוראות <ref href="#point_15א">סעיף 15א(4)</ref>;</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+                <point eId="point_15ה__point_ב__point_12">
+                  <num>(12)</num>
+                  <content>
+                    <p>לעניין חוזה הלוואה שעניינו שירותי ניכיון בעסקאות בכרטיסי חיוב – לא מסר דוח תקופתי או לא כלל בו את הפרטים הנדרשים בניגוד להוראות לפי <ref href="#point_15ב">סעיף 15ב(ב)(2)</ref>.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_15ה__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>כרת מלווה מוסדי חוזה הלוואה כאמור <ref href="#point_15ד">בסעיף 15ד(א)(2) עד (4)</ref>, רשאי המפקח על הבנקים, הממונה על שוק ההון, ביטוח וחיסכון או המפקח על נותני שירותים פיננסיים, לפי העניין, להטיל עליו עיצום כספי לפי הוראות סעיף זה, בשיעור כפל הסכום הקובע.</p>
+              </content>
+            </point>
+            <point eId="point_15ה__point_ד">
+              <num>(ד)</num>
+              <content>
+                <p>על עיצום כספי לפי סעיף זה לגבי תאגיד בנקאי יחולו ההוראות לפי <ref href="/akn/il/act/PrimaryLegislation/1941-10-09/2001750#point_14ט">סעיפים 14ט עד 14טו לפקודת הבנקאות, 1941</ref>, בשינויים המחויבים.</p>
+              </content>
+            </point>
+            <point eId="point_15ה__point_ה">
+              <num>(ה)</num>
+              <content>
+                <p>על עיצום כספי לפי סעיף זה לגבי מבטח יחולו ההוראות לפי <ref href="/akn/il/act/PrimaryLegislation/1981-04-23/148363#point_92א1">סעיפים 92א1 עד 92יד</ref>, <ref href="/akn/il/act/PrimaryLegislation/1981-04-23/148363#point_92טז">92טז(א)</ref><ref href="/akn/il/act/PrimaryLegislation/1981-04-23/148363#point_92יז">ו־92יז עד 92כב לחוק הפיקוח על הביטוח</ref>, בשינויים המחויבים.</p>
+              </content>
+            </point>
+            <point eId="point_15ה__point_ו">
+              <num>(ו)</num>
+              <content>
+                <p>על עיצום כספי לפי סעיף זה לגבי חברה מנהלת יחולו ההוראות לפי <ref href="/akn/il/act/PrimaryLegislation/2005-08-10/100899#point_44">סעיפים 44</ref><ref href="/akn/il/act/PrimaryLegislation/2005-08-10/100899#point_47">ו־47 לחוק קופות גמל</ref>, למעט הוראות <ref href="/akn/il/act/PrimaryLegislation/1981-04-23/148363#point_92טז">סעיפים 92טז(ב)</ref><ref href="/akn/il/act/PrimaryLegislation/1981-04-23/148363#point_92כג">ו־92כג לחוק הפיקוח על הביטוח</ref>, כפי שהוא מוחל <ref href="/akn/il/act/PrimaryLegislation/2005-08-10/100899#point_47">בסעיף 47 לחוק קופות גמל</ref>, בשינויים המחויבים.</p>
+              </content>
+            </point>
+            <point eId="point_15ה__point_ז">
+              <num>(ז)</num>
+              <content>
+                <p>על עיצום כספי לפי סעיף זה לגבי בעל רישיון למתן אשראי, בעל רישיון למתן שירותי פיקדון ואשראי או בעל רישיון להפעלת מערכת לתיווך באשראי יחולו ההוראות לפי <ref href="/akn/il/act/PrimaryLegislation/2016-08-01/571496#point_72">סעיפים 72(ד)</ref><ref href="/akn/il/act/PrimaryLegislation/2016-08-01/571496#point_74">ו־74 עד 93 לחוק שירותים פיננסיים מוסדרים</ref>, בשינויים המחויבים, ובכלל זה הסמכות להמציא למפר, במקום הודעה על כוונת חיוב, הודעה על אפשרות להגיש התחייבות וערבון.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_16">
+          <heading>
+            <authorialNote placement="side">
+              <p>שמירת דינים</p>
+            </authorialNote>
+          </heading>
+          <num>16.</num>
+          <content>
+            <p>חוק זה בא להוסיף על זכויות הלווה על פי כל דין ועל חובותיו של מלווה מוסדי על פי כל דין ולא לגרוע מהן.</p>
+          </content>
+        </point>
+        <point eId="point_17">
+          <heading>
+            <authorialNote placement="side">
+              <p>החוק מחייב</p>
+            </authorialNote>
+          </heading>
+          <num>17.</num>
+          <content>
+            <p>הוראות חוק זה יחולו על אף כל ויתור או הסכם נוגד, אלא אם כן הותנה עליהן לטובת הלווה.</p>
+          </content>
+        </point>
+        <point eId="point_18">
+          <heading>
+            <authorialNote placement="side">
+              <p>ביצוע ותקנות</p>
+            </authorialNote>
+          </heading>
+          <num>18.</num>
+          <content>
+            <p>שר המשפטים ממונה על ביצוע חוק זה, והוא רשאי להתקין תקנות לביצועו,</p>
+          </content>
+        </point>
+        <point eId="point_18א">
+          <heading>
+            <authorialNote placement="side">
+              <p>שינוי התוספות</p>
+            </authorialNote>
+          </heading>
+          <num>18א.</num>
+          <content>
+            <p>שר האוצר, בהסכמת נגיד בנק ישראל ושר המשפטים ובאישור ועדת החוקה חוק ומשפט, רשאי, בצו, לשנות את <ref href="#appendix_1">התוספת הראשונה</ref>, את <ref href="#appendix_2">התוספת השנייה</ref> ואת <ref href="#appendix_3">התוספת השלישית</ref>.</p>
+          </content>
+        </point>
+        <point eId="point_19">
+          <heading>
+            <authorialNote placement="side">
+              <p>תחילה ותחולה</p>
+            </authorialNote>
+          </heading>
+          <num>19.</num>
+          <list>
+            <point eId="point_19__point_א">
+              <num>(א)</num>
+              <content>
+                <p>תחילתו של חוק זה ארבעה חודשים מיום פרסומו.</p>
+              </content>
+            </point>
+            <point eId="point_19__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>על אף האמור בסעיף קטן (א), הוראות <ref href="#point_7">סעיפים 7 עד 14</ref> יחולו גם על חוזה הלוואה שנחתם לפני תחילתו של חוק זה ושלא חלות לגביו הוראות <ref href="#point_15">סעיף 15</ref>, ושעל פיו עולה שיעור העלות הממשית של האשראי או שיעור ריבית הפיגורים על כפליים השיעור המרבי המותר על פי <ref href="#point_5">סעיפים 5</ref><ref href="#point_6">או 6</ref>.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+      </list>
+      <appendix eId="appendix_ראשונה">
+        <num></num>
+        <title>
+          <content>
+            <p>תוספת ראשונה</p>
+          </content>
+        </title>
+        <subtitle eId="eId">
+          <num></num>
+          <content>
+            <p>
+              <wikicomment font-size="x-small">(<ref href="#point_1">סעיף 1</ref>, ההגדרה ”שיעור העלות המרבית של האשראי“)</wikicomment>
+            </p>
+          </content>
+        </subtitle>
+        <subtitle eId="eId">
+          <num></num>
+          <content>
+            <p>שיעור העלות המרבית של האשראי</p>
+          </content>
+        </subtitle>
+        <list>
+          <point eId="appendix_ראשונה__point_1">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>(1)</num>
+            <content>
+              <p>לגבי הלוואה הניתנת בשקלים חדשים – ריבית בנק ישראל בתוספת 15 נקודות האחוז; לעניין זה, ”ריבית בנק ישראל“ – הריבית שקובע בנק ישראל במסגרת ההחלטות המוניטריות התקופתיות, המשמשת את הבנק לצורך מתן הלוואות לתאגידים הבנקאיים או לצורך קבלת הלוואות מתאגידים בנקאיים, כשיעורה מזמן לזמן, המתפרסמת באתר האינטרנט של בנק ישראל, והידועה במועד כריתת חוזה ההלוואה;</p>
+            </content>
+          </point>
+          <point eId="appendix_ראשונה__point_2">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>(2)</num>
+            <content>
+              <p>לגבי הלוואה הניתנת במטבע חוץ – ריבית הליבור בתוספת 15 נקודות האחוז, ואם ההלוואה ניתנת במטבע של מדינת חוץ שלגביו לא מפורסם מדד הליבור – ריבית הבנק המרכזי באותה מדינה בתוספת 15 נקודות האחוז; לעניין זה, ”ריבית הליבור“ – ריבית סמן יומית להלוואות בין־בנקאיות לפרק זמן של שנה בין הבנקים בלונדון (London Inter-Bank Offered Rate) המתפרסמת לידיעת הציבור;</p>
+            </content>
+          </point>
+          <point eId="appendix_ראשונה__point_3">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>(3)</num>
+            <list>
+              <intro>
+                <p>לגבי הלוואה לתקופה שאינה עולה על שלושה חודשים ושאין לצדדים אפשרות להאריכה או לחדשה בתנאים דומים, שנותן מלווה מוסדי, בין שהיא ניתנת בשקלים חדשים ובין במטבע חוץ –</p>
+              </intro>
+              <point eId="appendix_ראשונה__point_3__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>לגבי תאגיד בנקאי, תאגיד עזר וסולק – ריבית כאמור <ref href="#appendix_1_פרט_1">בפרט (1)</ref><ref href="#appendix_1_פרט_2">או (2)</ref>, לפי העניין, בתוספת 5 נקודות האחוז, אלא אם כן קבע המפקח על הבנקים, בהתייעצות עם המפקח על נותני שירותים פיננסיים, ריבית אחרת והיא פורסמה בדרך האמורה <ref href="/akn/il/act/PrimaryLegislation/1941-10-09/2001750#point_5">בסעיף 5(ג2) לפקודת הבנקאות, 1941</ref>; המפקח רשאי לקבוע לעניין זה ריביות שונות לסוגי הלוואות;</p>
+                </content>
+              </point>
+              <point eId="appendix_ראשונה__point_3__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>לגבי חברה מנהלת, מבטח, בעל רישיון למתן אשראי, בעל רישיון למתן שירותי פיקדון ואשראי או בעל רישיון להפעלת מערכת לתיווך באשראי – ריבית כאמור <ref href="#appendix_1_פרט_1">בפרט (1)</ref><ref href="#appendix_1_פרט_2">או (2)</ref>, לפי העניין, בתוספת 5 נקודות האחוז, אלא אם כן קבע המפקח על נותני שירותים פיננסיים או הממונה על שוק ההון, ביטוח וחיסכון, לפי העניין, בהתייעצות עם המפקח על הבנקים, ריבית אחרת והיא פורסמה בדרך האמורה <ref href="/akn/il/act/PrimaryLegislation/2016-08-01/571496#point_5">בסעיף 5 לחוק שירותים פיננסיים מוסדרים</ref>; המפקח על נותני שירותים פיננסיים או הממונה על שוק ההון, ביטוח וחיסכון, לפי העניין, רשאי לקבוע לעניין זה ריביות שונות לסוגי הלוואות;</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="appendix_ראשונה__point_4">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>(4)</num>
+            <content>
+              <p>
+                <ref href="#appendix_1">בתוספת זו</ref>, ”הלוואה“ – כהגדרתה <ref href="#point_1">בסעיף 1</ref>, למעט הלוואה שניתנה לעוסק שלא לשימוש אישי, ביתי או משפחתי, שעניינה ניכיון שטר, שמשך מי שאינו הלווה, ולמעט הלוואה שניתנה כנגד המחאה של זכות לקבלת תשלום שאינה ניכיון שטר.</p>
+            </content>
+          </point>
+        </list>
+      </appendix>
+      <appendix eId="appendix_שנייה">
+        <num></num>
+        <title>
+          <content>
+            <p>תוספת שנייה</p>
+          </content>
+        </title>
+        <subtitle eId="eId">
+          <num></num>
+          <content>
+            <p>
+              <wikicomment font-size="x-small">(<ref href="#point_1">סעיף 1</ref>, ההגדרה ”שיעור ריבית הפיגורים המרבי“)</wikicomment>
+            </p>
+          </content>
+        </subtitle>
+        <subtitle eId="eId">
+          <num></num>
+          <content>
+            <p>שיעור ריבית הפיגורים המרבי</p>
+          </content>
+        </subtitle>
+        <list>
+          <point eId="appendix_שנייה__point_none">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num></num>
+            <content>
+              <p>שיעור ריבית הפיגורים המרבי לעניין הלוואה כהגדרתה <ref href="#appendix_1_פרט_4">בפרט (4) לתוספת הראשונה</ref> – שיעור העלות המרבית של האשראי כשהוא מוכפל ב־1.2, בחישוב שנתי.</p>
+            </content>
+          </point>
+        </list>
+      </appendix>
+      <appendix eId="appendix_שלישית">
+        <num></num>
+        <title>
+          <content>
+            <p>תוספת שלישית</p>
+          </content>
+        </title>
+        <subtitle eId="eId">
+          <num></num>
+          <content>
+            <p>
+              <wikicomment font-size="x-small">(<ref href="#point_15ד">סעיף 15ד(א)(2) עד (4)</ref>)</wikicomment>
+            </p>
+          </content>
+        </subtitle>
+        <subtitle eId="eId">
+          <num></num>
+          <content>
+            <p>שיעור הריבית לעניין עונשין</p>
+          </content>
+        </subtitle>
+        <list>
+          <point eId="appendix_שלישית__point_1">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>(1)</num>
+            <content>
+              <p>לגבי הלוואה הניתנת בשקלים חדשים – ריבית בנק ישראל כהגדרתה <ref href="#appendix_1_פרט_1">בפרט (1) לתוספת הראשונה</ref>, בתוספת 30 נקודות האחוז;</p>
+            </content>
+          </point>
+          <point eId="appendix_שלישית__point_2">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>(2)</num>
+            <content>
+              <p>לגבי הלוואה הניתנת במטבע חוץ – ריבית הליבור כהגדרתה <ref href="#appendix_1_פרט_2">בפרט (2) לתוספת הראשונה</ref>, בתוספת 30 נקודות האחוז, ואם ההלוואה ניתנת במטבע של מדינת חוץ שלגביו לא מפורסם מדד הליבור – ריבית הבנק המרכזי באותה מדינה בתוספת 30 נקודות האחוז.</p>
+            </content>
+          </point>
+        </list>
+      </appendix>
+    </body>
+    <conclusions eId="eId">
+      <p class="signatures">
+        <signature>
+          <p>
+            <person refersTo="יצחק_רבין">יצחק רבין</person>
+            <role refersTo="ראש_הממשלה">ראש הממשלה</role>
+          </p>
+        </signature>
+        <signature>
+          <p>
+            <person refersTo="דוד_ליבאי">דוד ליבאי</person>
+            <role refersTo="שר_המשפטים">שר המשפטים</role>
+          </p>
+        </signature>
+        <signature>
+          <p>
+            <person refersTo="עזר_וייצמן">עזר וייצמן</person>
+            <role refersTo="נשיא_המדינה">נשיא המדינה</role>
+          </p>
+        </signature>
+        <signature>
+          <p>
+            <person refersTo="שבח_וייס">שבח וייס</person>
+            <role refersTo="יושב_ראש_הכנסת">יושב ראש הכנסת</role>
+          </p>
+        </signature>
+      </p>
+    </conclusions>
+  </act>
+</akomaNtoso>

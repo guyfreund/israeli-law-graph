@@ -1,0 +1,2695 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion" name="publicLaw">
+    <meta>
+      <identification source="#kensset">
+        <FRBRWork>
+          <FRBRthis value="/akn/il/act/PrimaryLegislation/1941-10-09/2001750/main" />
+          <FRBRuri value="/akn/il/act/PrimaryLegislation/1941-10-09/2001750" />
+          <FRBRdate date="1941-10-09" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRcountry value="israel" />
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/il/act/PrimaryLegislation/1941-10-09/2001750/he@/main" />
+          <FRBRuri value="/akn/il/act/PrimaryLegislation/1941-10-09/2001750/he@" />
+          <FRBRdate date="1941-10-09" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRlanguage language="hebrew" />
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/il/act/PrimaryLegislation/1941-10-09/2001750/he@/main.xml" />
+          <FRBRuri value="/akn/il/act/PrimaryLegislation/1941-10-09/2001750/he@" />
+          <FRBRdate date="1941-10-09" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRformat value="xml" />
+        </FRBRManifestation>
+      </identification>
+      <classification source="#kensset">
+        <keyword value="{classificationValue}" showAs="{classificationValue}" dictionary="#classification_dictionary" />
+      </classification>
+      <lifecycle source="#kensset">
+        <eventRef eId="eventRef_1" date="1941-10-09" source="#kensset" type="generation" />
+      </lifecycle>
+      <references source="#kensset">
+        <TLCOrganization eId="kensset" href="/ontology/organization/akn/knesset" showAs="Kensset" type="generation" />
+        <TLCRole eId="author" href="/ontology/role/akn/author" showAs="Author of Document" />
+        <TLCProcess eId="inforce" href="/ontology/process/akn/inforce" showAs="In force" />
+        <TLCTerm eId="term_1" href="/ontology/term/בנק/2001750" showAs="בנק" />
+        <TLCTerm eId="term_2" href="/ontology/term/עסקי_בנק/2001750" showAs="עסקי_בנק" />
+        <TLCTerm eId="term_3" href="/ontology/term/בנקנוט/2001750" showAs="בנקנוט" />
+        <TLCTerm eId="term_4" href="/ontology/term/חברה/2001750" showAs="חברה" />
+        <TLCTerm eId="term_5" href="/ontology/term/הועדה/2001750" showAs="הועדה" />
+        <TLCTerm eId="term_6" href="/ontology/term/המועצה/2001750" showAs="המועצה" />
+        <TLCTerm eId="term_7" href="/ontology/term/מוסד_בנקאי/2001750" showAs="מוסד_בנקאי" />
+        <TLCTerm eId="term_8" href="/ontology/term/הנגיד/2001750" showAs="הנגיד" />
+        <TLCTerm eId="term_9" href="/ontology/term/חוק_בנק_ישראל/2001750" showAs="חוק_בנק_ישראל" />
+        <TLCTerm eId="term_10" href="/ontology/term/חוק_הבנקאות_(רישוי)/2001750" showAs="חוק_הבנקאות_(רישוי)" />
+        <TLCTerm eId="term_11" href="/ontology/term/שביתה/2001750" showAs="שביתה" />
+        <TLCTerm eId="term_12" href="/ontology/term/פקדון_ללא_תנועה/2001750" showAs="פקדון_ללא_תנועה" />
+        <TLCTerm eId="term_13" href="/ontology/term/מעילה/2001750" showAs="מעילה" />
+        <TLCTerm eId="term_14" href="/ontology/term/אדם_הקשור_לשולט/2001750" showAs="אדם_הקשור_לשולט" />
+        <TLCTerm eId="term_15" href="/ontology/term/גוף_פיננסי/2001750" showAs="גוף_פיננסי" />
+        <TLCTerm eId="term_16" href="/ontology/term/גוף_פיננסי_משמעותי/2001750" showAs="גוף_פיננסי_משמעותי" />
+        <TLCTerm eId="term_17" href="/ontology/term/חוק_לקידום_התחרות_ולצמצום_הריכוזיות/2001750" showAs="חוק_לקידום_התחרות_ולצמצום_הריכוזיות" />
+        <TLCTerm eId="term_18" href="/ontology/term/שולט/2001750" showAs="שולט" />
+        <TLCTerm eId="term_19" href="/ontology/term/תאגיד_ריאלי_משמעותי/2001750" showAs="תאגיד_ריאלי_משמעותי" />
+        <TLCTerm eId="term_20" href="/ontology/term/אסיפה_כללית/2001750" showAs="אסיפה_כללית" />
+        <TLCTerm eId="term_21" href="/ontology/term/קשר_קרוב/2001750" showAs="קשר_קרוב" />
+        <TLCTerm eId="term_22" href="/ontology/term/זיקה/2001750" showAs="זיקה" />
+        <TLCTerm eId="term_23" href="/ontology/term/מחזיק_מהותי/2001750" showAs="מחזיק_מהותי" />
+        <TLCTerm eId="term_24" href="/ontology/term/שטר/2001750" showAs="שטר" />
+        <TLCTerm eId="term_25" href="/ontology/term/חברה־בת/2001750" showAs="חברה־בת" />
+        <TLCPerson eId="הרולד_מקמיכאל" href="/ontology/person/הרולד_מקמיכאל" showAs="הרולד מקמיכאל" />
+        <TLCRole eId="נציב_עליון." href="ontology/role/akn/נציב_עליון." showAs="נציב עליון." />
+      </references>
+      <temporalData source="#kensset">
+        <temporalGroup eId="tmpg_1" />
+      </temporalData>
+      <proprietary wikiversion="11/8/2020 10:33:30 AM" />
+    </meta>
+    <body period="#tmpg_1">
+      <title eId="title">
+        <content>
+          <p>פקודת הבנקאות, 1941</p>
+        </content>
+      </title>
+      <subtitle eId="eId">
+        <num></num>
+        <content>
+          <p>פקודה הבאה לאחד ולתקן את החוק המסדיר את עסקי הבנקאות.</p>
+        </content>
+      </subtitle>
+      <preamble eId="eId">
+        <p>הנציב העליון לפלשתינה (א"י) מחוקק בזה בעצתה של המועצה הפלשתינאית (א"י) לאמור:–
+
+<מפריד /><wikicomment font-size="x-small">מכוח האמור <ref href="/akn/il/act/PrimaryLegislation/1948-05-21/2002291#point_14">בסעיפים 14</ref><ref href="/akn/il/act/PrimaryLegislation/1948-05-21/2002291#point_15">ו־15 לפקודת סדרי השלטון והמשפט, תש"ח–1948</ref>, כל סמכות שהיתה נתונה על פי החוק בידי הנציב העליון תהא נתונה לממשלה, וכל מקום בו נאמר בחוק ”פלשתינה (א"י)“ ייקרא מעתה ”ישראל“. פורסמה הודעה על הענקת סמכויות הנציב העליון לשר האוצר (ע"ר תש"ח, 22). לפי <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/http_fs_knesset_gov_il_0_law_0_lsr_312686_pdf#point_2">סעיף 2 לפקודת המטבע, תש"ח–1948</ref>, כל מקום בו נאמר ”פונט“ הכוונה היא ללירה ישראלית. סמכויות הממשלה הוענקו לנגיד בנק ישראל שנתמנה לפי <ref href="/akn/il/act/PrimaryLegislation/2010-03-24/336425#point_6">סעיף 6 לחוק בנק ישראל</ref> (לפי <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/http_fs_knesset_gov_il_6_law_6_lsr_208069_pdf#point_11">סעיף 11 לחוק לתיקון פקודת הבנקאות (מס׳ 9), תשכ"ט–1969</ref>).</wikicomment></p>
+      </preamble>
+      <list>
+        <point eId="point_1">
+          <heading>
+            <authorialNote placement="side">
+              <p>השם הקצר</p>
+            </authorialNote>
+          </heading>
+          <num>1.</num>
+          <content>
+            <p>פקודה זו תקרא <wikicomment font-size="x-small">"</wikicomment>פקודת הבנקאות, 1941<wikicomment font-size="x-small">"</wikicomment>.</p>
+          </content>
+        </point>
+        <point eId="point_2">
+          <heading>
+            <authorialNote placement="side">
+              <p>פירוש</p>
+            </authorialNote>
+          </heading>
+          <num>2.</num>
+          <list>
+            <point eId="point_2__point_1">
+              <num>(1)</num>
+              <list>
+                <intro>
+                  <p>בפקודה זו יהיו למונחים הבאים הפרושים דלקמן, חוץ אם ענין הכתוב יחייב פירוש אחר:–</p>
+                </intro>
+                <point eId="point_2__point_1__point_בנק">
+                  <content>
+                    <p>
+                      <def />”בנק“ – <wikicomment font-size="x-small">(נמחקה);</wikicomment></p>
+                  </content>
+                </point>
+                <point eId="point_2__point_1__point_עסקי_בנק">
+                  <content>
+                    <p>
+                      <def />”עסקי בנק“ – <wikicomment font-size="x-small">(נמחקה);</wikicomment></p>
+                  </content>
+                </point>
+                <point eId="point_2__point_1__point_בנקנוט">
+                  <content>
+                    <p>
+                      <def />”בנקנוט“ – <wikicomment font-size="x-small">(נמחקה);</wikicomment></p>
+                  </content>
+                </point>
+                <point eId="point_2__point_1__point_חברה">
+                  <content>
+                    <p>
+                      <def />”חברה“ – <wikicomment font-size="x-small">(נמחקה);</wikicomment></p>
+                  </content>
+                </point>
+                <point eId="point_2__point_1__point_הועדה">
+                  <content>
+                    <p>
+                      <def />”הועדה“ – הועדה המייעצת שנתמנתה לפי <ref href="#point_6">סעיף 6</ref>;</p>
+                  </content>
+                </point>
+                <point eId="point_2__point_1__point_המועצה">
+                  <content>
+                    <p>
+                      <def />”המועצה“ – <wikicomment font-size="x-small">(נמחקה);</wikicomment></p>
+                  </content>
+                </point>
+                <point eId="point_2__point_1__point_מוסד_בנקאי">
+                  <content>
+                    <p>
+                      <def />”מוסד בנקאי“ – <wikicomment font-size="x-small">(נמחקה);</wikicomment></p>
+                  </content>
+                </point>
+                <point eId="point_2__point_1__point_הנגיד">
+                  <content>
+                    <p>
+                      <def />”הנגיד“ – נגיד בנק ישראל שנתמנה לפי <ref href="/akn/il/act/PrimaryLegislation/2010-03-24/336425#point_6">סעיף 6 לחוק בנק ישראל</ref>;</p>
+                  </content>
+                </point>
+                <point eId="point_2__point_1__point_חוק_בנק_ישראל">
+                  <content>
+                    <p>
+                      <def />”חוק בנק ישראל“ – <ref href="/akn/il/act/PrimaryLegislation/2010-03-24/336425">חוק בנק ישראל, התש"ע–2010</ref>;</p>
+                  </content>
+                </point>
+                <point eId="point_2__point_1__point_חוק_הבנקאות_רישוי">
+                  <content>
+                    <p>
+                      <def />”חוק הבנקאות (רישוי)“ – <ref href="/akn/il/act/PrimaryLegislation/1981-04-26/147066">חוק הבנקאות (רישוי), התשמ"א–1981</ref>;</p>
+                  </content>
+                </point>
+                <point eId="point_2__point_1__point_שביתה">
+                  <content>
+                    <p>
+                      <def />”שביתה“ – הפסקת עבודה מאורגנת, מלאה או חלקית, של קבוצת עובדים, לרבות שביתת האטה והפרעה מאורגנת אחרת של מהלך העבודה התקין;</p>
+                  </content>
+                </point>
+                <point eId="point_2__point_1__point_פקדון_ללא_תנועה">
+                  <content>
+                    <p>
+                      <def />”פקדון ללא תנועה“ – פקדון, בין במטבע ישראלי ובין במטבע חוץ, שלגביו עברו עשרה חדשים מהיום שנתקבלה ההוראה האחרונה מבעל הפקדון.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_2__point_2">
+              <num>(2)</num>
+              <content>
+                <p>משמעות כל מונח אחר בפקודה זו תהא כהגדרתו <ref href="/akn/il/act/PrimaryLegislation/1981-04-26/147066">בחוק הבנקאות (רישוי)</ref>.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_2א">
+          <heading>
+            <authorialNote placement="side">
+              <p xml:space="preserve"> </p>
+            </authorialNote>
+          </heading>
+          <num>2א.</num>
+          <content>
+            <p>
+              <wikicomment font-size="x-small">(בוטל).</wikicomment>
+            </p>
+          </content>
+        </point>
+        <point eId="point_2ב">
+          <heading>
+            <authorialNote placement="side">
+              <p xml:space="preserve"> </p>
+            </authorialNote>
+          </heading>
+          <num>2ב.</num>
+          <content>
+            <p>
+              <wikicomment font-size="x-small">(בוטל).</wikicomment>
+            </p>
+          </content>
+        </point>
+        <point eId="point_3">
+          <heading>
+            <authorialNote placement="side">
+              <p xml:space="preserve"> </p>
+            </authorialNote>
+          </heading>
+          <num>3.</num>
+          <content>
+            <p>
+              <wikicomment font-size="x-small">(בוטל).</wikicomment>
+            </p>
+          </content>
+        </point>
+        <point eId="point_3א">
+          <heading>
+            <authorialNote placement="side">
+              <p xml:space="preserve"> </p>
+            </authorialNote>
+          </heading>
+          <num>3א.</num>
+          <content>
+            <p>
+              <wikicomment font-size="x-small">(בוטל).</wikicomment>
+            </p>
+          </content>
+        </point>
+        <point eId="point_4">
+          <heading>
+            <authorialNote placement="side">
+              <p>הגבלת השמוש בתואר ”בנק“</p>
+            </authorialNote>
+          </heading>
+          <num>4.</num>
+          <list>
+            <point eId="point_4__point_1">
+              <num>(1)</num>
+              <content>
+                <p>אסור לכל אדם או לחבר אנשים, בין שהם מאוגדים ובין שאינם מאוגדים, פרט לבנק, לבנק חוץ, לבנק למשכנתאות, לבנק למימון השקעות, ולבנק לקידום עסקים, להשתמש או להוסיף ולהשתמש בלא הסכמת הנגיד, במלה ”בנק“ או בכל מלה הגזורה הימנה בשם שבו הם מנהלים עסקים.</p>
+              </content>
+            </point>
+            <point eId="point_4__point_2">
+              <num>(2)</num>
+              <content>
+                <p>כל אדם או חבר אנשים בין שהם מאוגדים ובין שאינם מאוגדים, שיעברו על הוראות סעיף זה יהיו צפויים לקנס לא יותר מחמש מאות שקלים לכל יום שבו הם ממשיכים בעברה.</p>
+              </content>
+            </point>
+            <point eId="point_4__point_3">
+              <num>(3)</num>
+              <content>
+                <p>הנגיד רשאי להורות לכל אדם, לאחר התייעצות בועדה ולאחר שנתן לאותו אדם הזדמנות להשמיע את טענותיו, כי תוך מועד שיקבע הנגיד, ימחק מתוך השם שבו הוא מנהל עסקים את המלה ”בנק“ או כל מלה הגזורה הימנה.</p>
+              </content>
+            </point>
+            <point eId="point_4__point_4">
+              <num>(4)</num>
+              <content>
+                <p>הנגיד לא ישתמש בסמכותו לפי סעיף קטן (3) לגבי בנק, בנק חוץ, בנק למשכנתאות, בנק למימון השקעות או בנק לקידום עסקים כל עוד לא ניתנה לגביו הוראה לפי <ref href="#point_8ד">סעיפים 8ד</ref><ref href="#point_8יד">או 8יד</ref>.</p>
+              </content>
+            </point>
+            <point eId="point_4__point_5">
+              <num>(5)</num>
+              <content>
+                <p>
+                  <wikicomment font-size="x-small">(בוטל).</wikicomment>
+                </p>
+              </content>
+            </point>
+            <point eId="point_4__point_6">
+              <num>(6)</num>
+              <content>
+                <p>לא מילא תאגיד הוראה שניתנה לו לפי סעיף קטן (3) ולא בחר לו שם אחר תוך התקופה שקבע הנגיד, יבחר לו הנגיד שם ויודיע על כך לרשם אותם תאגידים, ודין הודעת הנגיד כדין הודעת התאגיד על שינוי שמו שנתקבלה ונמסרה כדין, והוראות הדינים החלות על שינוי שם יחולו על הודעת הנגיד בשינויים המחוייבים.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_4א">
+          <heading>
+            <authorialNote placement="side">
+              <p>שמות העלולים להטעות</p>
+            </authorialNote>
+          </heading>
+          <num>4א.</num>
+          <list>
+            <point eId="point_4א__point_א">
+              <num>(א)</num>
+              <content>
+                <p>ניהל אדם, שאינו תאגיד בנקאי, עסקים בשם שאינו כולל את המלה ”בנק“ או מלה הגזורה ממנה, אך יש בו כדי להשמיע שאותו אדם עוסק בעיסוק שנתייחד לתאגיד בנקאי לפי <ref href="/akn/il/act/PrimaryLegislation/1981-04-26/147066#point_13">סעיפים 13</ref><ref href="/akn/il/act/PrimaryLegislation/1981-04-26/147066#point_21">או 21 לחוק הבנקאות (רישוי)</ref>, רשאי הנגיד – לאחר התייעצות בועדה ולאחר שנתן לאותו אדם הזדמנות להשמיע את טענותיו – בנוסף לסמכויותיו לפי <ref href="#point_4">סעיף 4</ref>, להורות לאותו אדם כי תוך המועד שיקבע הנגיד ושלא יפחת מ־28 ימים ימחק מתוך השם שבו הוא מנהל עסקים כל מלה או ביטוי אחרים שיש בהם כדי להשמיע שאותו אדם עוסק בעיסוק שנתייחד לתאגיד בנקאי לפי <ref href="/akn/il/act/PrimaryLegislation/1981-04-26/147066#point_13">סעיפים 13</ref><ref href="/akn/il/act/PrimaryLegislation/1981-04-26/147066#point_21">או 21 לחוק הבנקאות (רישוי)</ref>.</p>
+              </content>
+            </point>
+            <point eId="point_4א__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>הוראה לפי סעיף קטן (א) דינה כדין הוראה לפי <ref href="#point_4">סעיף 4(3)</ref> ומי שלא מילא אחריה דינו כדין מי שממשיך להשתמש במלה ”בנק“ כחלק משמו ללא היתר.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_5">
+          <heading>
+            <authorialNote placement="side">
+              <p>המפקח על הבנקים וסמכויותיו</p>
+            </authorialNote>
+          </heading>
+          <num>5.</num>
+          <list>
+            <point eId="point_5__point_א">
+              <num>(א)</num>
+              <content>
+                <p>הנגיד רשאי למנות מפקח על הבנקים (להלן – המפקח), ומשנתמנה יהיה עובד בנק ישראל ובידיו יהיו הפיקוח הכללי והבקורת על כל תאגיד בנקאי ותהא לו או לבאים מטעמו הסמכות לדרוש מתאגיד בנקאי וכן מדירקטור, מעובד או מרואה החשבון של תאגיד בנקאי, למסור לו ידיעות ומסמכים שבידיהם הנוגעים לעסקי התאגיד הבנקאי וכל תאגיד שבשליטתו, או לאפשר לו לעיין בכל מסמך כאמור, להעתיקו או לצלמו; נדרשה ידיעה המאוחסנת במחשב תומצא הידיעה בדרך שתידרש.</p>
+              </content>
+            </point>
+            <point eId="point_5__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>המסרב להיענות לדרישה לפי סעיף קטן (א), דינו – מאסר שנה.</p>
+              </content>
+            </point>
+            <point eId="point_5__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>שר המשטרה רשאי להסמיך כל עובד מעובדי בנק ישראל, המוסמך על פי סעיף קטן (א) לבוא מטעמו של המפקח, לערוך חקירות בענין עבירות על פקודה זו, על <ref href="/akn/il/act/PrimaryLegislation/1981-04-26/147066">חוק הבנקאות (רישוי)</ref> או על <ref href="/akn/il/act/PrimaryLegislation/2010-03-24/336425">חוק בנק ישראל</ref>, או בענין עבירות בנכסי לקוחותיו של תאגיד בנקאי; עובד שהוסמך כאמור יהיו לו כל הסמכויות הנתונות לקצין משטרה בדרגת מפקח ומעלה על פי <ref href="/akn/il/act/PrimaryLegislation/1933-12-31/2001433">פקודת הפרוצדורה הפלילית (עדות)</ref>, והוראות <ref href="/akn/il/act/PrimaryLegislation/1933-12-31/2001433">אותה פקודה</ref> יחולו על חקירות כאמור.</p>
+              </content>
+            </point>
+            <point eId="point_5__point_ג1">
+              <num>(ג1)</num>
+              <content>
+                <p>המפקח רשאי, לצורך הפיקוח כאמור בסעיף קטן (א), לאחר התייעצות עם הוועדה ובאישור הנגיד, ליתן הוראות הנוגעות לדרכי פעולתו וניהולו של תאגיד בנקאי, של נושא משרה בו ושל כל מי שמועסק על ידיו, והכל כדי להבטיח את ניהולו התקין ואת השמירה על ענינם של לקוחותיו, כדי למנוע פגיעה ביכולתו לקיים את התחייבויותיו וכדי לתמוך ביציבותה של המערכת הפיננסית ובפעילותה הסדירה (בפקודה זו – הוראות ניהול בנקאי תקין); הוראות כאמור יכול שיינתנו לכלל התאגידים הבנקאיים או לסוג מסוים מהם.</p>
+              </content>
+            </point>
+            <point eId="point_5__point_ג2">
+              <num>(ג2)</num>
+              <list>
+                <point eId="point_5__point_ג2__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>הוראות ניהול בנקאי תקין אין חובה לפרסמן ברשומות, ואולם המפקח יפרסם ברשומות הודעה על מתן הוראות כאמור ועל מועד תחילתן.</p>
+                  </content>
+                </point>
+                <point eId="point_5__point_ג2__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>הוראות ניהול בנקאי תקין וכל שינוי בהן, יועמדו לעיון הציבור במשרדי המפקח ויפורסמו באתר האינטרנט של בנק ישראל, ורשאי הנגיד לקבוע דרכים נוספות לפרסומן.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_5__point_ד">
+              <num>(ד)</num>
+              <content>
+                <p>הנגיד רשאי ליטול לעצמו כל סמכות הנתונה למפקח.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_6">
+          <heading>
+            <authorialNote placement="side">
+              <p>הקמת ועדה מיעצת</p>
+            </authorialNote>
+          </heading>
+          <num>6.</num>
+          <list>
+            <point eId="point_6__point_1">
+              <num>(1)</num>
+              <content>
+                <p>יכול הנגיד למנות ועדה מיעצת ליעץ אותו בענינים הנוגעים לעסקי בנקאות; ועדה זו תהא מורכבת מאותם האנשים ותתמנה לפי אותם התנאים אשר יישרו בעיני הנגיד, והנגיד רשאי בכל עת שהיא להביא לידי גמר כל מינוי כזה.</p>
+              </content>
+            </point>
+            <point eId="point_6__point_2">
+              <num>(2)</num>
+              <content>
+                <p>יכול הנגיד להתקין תקנות הקובעות את הפרוצידורה שיש לנהוג בה בכל אסיפה של הועדה שתוקם בהתאם לסעיף זה.</p>
+              </content>
+            </point>
+            <point eId="point_6__point_3">
+              <num>(3)</num>
+              <content>
+                <p>אחד מחברי הועדה יהיה מי ששר האוצר מינהו לכך.</p>
+              </content>
+            </point>
+            <point eId="point_6__point_4">
+              <num>(4)</num>
+              <content>
+                <p>הועדה רשאית למנות מבין חבריה ועדות משנה של אחד או יותר לקבוע את תפקידן ולאצול להן מסמכויותיה; חבר הועדה על פי סעיף קטן (3) יהיה, בתוקף מינויו, חבר בכל ועדת משנה שתמונה לפי סעיף קטן זה,</p>
+              </content>
+            </point>
+            <point eId="point_6__point_5">
+              <num>(5)</num>
+              <content>
+                <p>דיוניה של הועדה או כל ועדת משנה שלה הם סודיים, ולא יגלה אדם אותם או כל ידיעה מהם, אלא באישור הנגיד.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_7">
+          <heading>
+            <authorialNote placement="side">
+              <p xml:space="preserve"> </p>
+            </authorialNote>
+          </heading>
+          <num>7.</num>
+          <content>
+            <p>
+              <wikicomment font-size="x-small">(בוטל).</wikicomment>
+            </p>
+          </content>
+        </point>
+        <point eId="point_8">
+          <heading>
+            <authorialNote placement="side">
+              <p>אשראי להבטחת יציבותו של תאגיד בנקאי</p>
+            </authorialNote>
+          </heading>
+          <num>8.</num>
+          <list>
+            <point eId="point_8__point_א">
+              <num>(א)</num>
+              <content>
+                <p>היה הנגיד סבור כי להבטחת יציבותו של תאגיד בנקאי דרושים לתאגיד הבנקאי אמצעים כספיים נוספים, רשאי בנק ישראל לספק לו כספים על ידי נכיון שטרי חליפין, שטר חוב או מסמכים סחירים אחרים או על ידי הלוואות מובטחות להנחת דעתו של הנגיד.</p>
+              </content>
+            </point>
+            <point eId="point_8__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>אשראי לפי סעיף קטן (א) יהיה בתנאים שייראו לנגיד, והוא יקבע את הבטוחות שעל מקבל האשראי לתיתן.</p>
+              </content>
+            </point>
+            <point eId="point_8__point_ב1">
+              <num>(ב1)</num>
+              <content>
+                <p>על שעבוד של ניירות ערך או כספים, של זכות לניירות ערך או לכספים, או של חשבון ניירות ערך כנגד מתן אשראי לתאגיד בנקאי כאמור בסעיף קטן (א) יחולו הוראות <ref href="/akn/il/act/PrimaryLegislation/2010-03-24/336425#point_37">סעיף 37 לחוק בנק ישראל, התש"ע–2010</ref>, בשינויים המחויבים.</p>
+              </content>
+            </point>
+            <point eId="point_8__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>אין בסמכות הנגיד לפי סעיף קטן (א) כדי לגרוע מסמכותו לפי <ref href="/akn/il/act/PrimaryLegislation/2010-03-24/336425#point_36">סעיף 36(4) לחוק בנק ישראל</ref>.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_8א">
+          <heading>
+            <authorialNote placement="side">
+              <p>הודעה לתאגיד בנקאי על פגמים</p>
+            </authorialNote>
+          </heading>
+          <num>8א.</num>
+          <list>
+            <point eId="point_8א__point_א">
+              <num>(א)</num>
+              <content>
+                <p>היה המפקח סבור, שתאגיד בנקאי פלוני עשה בעסקיו בדרך העלולה לפגוע ביכלתו לקיים את התחייבויותיו או בניהולם התקין של עסקיו, ישלח לתאגיד הבנקאי הודעה בכתב ובה יפרט את הפגמים, ידרוש תיקונם או מניעת פגיעתם תוך תקופה שיפרש בהודעה, ויתן לו הזדמנות להגיש תוך אותה תקופה, או תוך תקופה קצרה מזו, כפי שיפרש בהודעה, הערותיו והשגותיו לגבי הפגמים או הדרישות לתיקונם.</p>
+              </content>
+            </point>
+            <point eId="point_8א__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>הגיש תאגיד בנקאי הערות והשגות כאמור בסעיף קטן (א) יחליט בהן המפקח סמוך ככל האפשר לאחר שקיבל אותן ויודיע על החלטתו לתאגיד הבנקאי, ואם דרש את תיקונם של הפגמים או את מניעת פגיעתם יקבע את התקופה בה על התאגיד הבנקאי לעשות כאמור.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_8ב">
+          <heading>
+            <authorialNote placement="side">
+              <p>סמכות המפקח בקביעת חובות רעים</p>
+            </authorialNote>
+          </heading>
+          <num>8ב.</num>
+          <list>
+            <point eId="point_8ב__point_א">
+              <num>(א)</num>
+              <content>
+                <p>היה המפקח סבור כי חוב מסויים, כולו או מקצתו, שחייבים לתאגיד בנקאי הוא חוב רע, או כי נכס של תאגיד בנקאי רשום בספריו בסכום העולה על ערכו אותה שעה במכירה ממוכר מרצון לקונה מרצון, רשאי הוא להורות לתאגיד הבנקאי להפריש לקרן מתאימה סכום כנדרש לאותו ענין.</p>
+              </content>
+            </point>
+            <point eId="point_8ב__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>דין הודעה כאמור בסעיף קטן (א) כדין הודעה לפי <ref href="#point_8א">סעיף 8א</ref>.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_8ג">
+          <heading>
+            <authorialNote placement="side">
+              <p>אמצעים למניעת פגיעה</p>
+            </authorialNote>
+          </heading>
+          <num>8ג.</num>
+          <list>
+            <point eId="point_8ג__point_א">
+              <num>(א)</num>
+              <list>
+                <intro>
+                  <p>היה המפקח סבור, לאחר תום התקופה שפירש בהודעה לפי <ref href="#point_8א">סעיף 8א</ref>, שתאגיד בנקאי לא תיקן הפגמים שעליהם הודיעו לו לפי <ref href="#point_8א">סעיף 8א</ref> או לא מנע את פגיעתם, או היה סבור, לאחר שנתן הזדמנות לתאגיד בנקאי להשמיע או להגיש הערותיו והשגותיו, שיש צורך לנקוט אמצעים כדי למנוע שתאגיד בנקאי לא יוכל לקיים התחייבויותיו או יפגע בלקוחותיו או בבעלי זכויות בו, רשאי הוא, לאחר התייעצות בועדת הרשיונות –</p>
+                </intro>
+                <point eId="point_8ג__point_א__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>להורות לתאגיד הבנקאי שיימנע מסוגי פעולות שפורשו באותה הוראה, למעט קיום התחייבות;</p>
+                  </content>
+                </point>
+                <point eId="point_8ג__point_א__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>לאסור על חלוקת דיבידנד או רווחים לבעלי מניותיו של התאגיד הבנקאי ועל מתן הטבות לחברי הדירקטוריון, למנהלים ולבעלי זכות חתימה של התאגיד הבנקאי;</p>
+                  </content>
+                </point>
+                <point eId="point_8ג__point_א__point_3">
+                  <num>(3)</num>
+                  <content>
+                    <p>להתלות או להגביל סמכותו של חבר דירקטוריון, מנהל עסקים או בעל זכות חתימה, ואם מצא שאין די בכך, רשאי הוא להעבירו מתפקידו; מי שנפגע מהחלטת המפקח לענין העברה מתפקידו, רשאי לערער עליה לפני הנגיד.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_8ג__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>הוראה לפי סעיף זה לא תפורסם ברשומות, ולא תישמע הטענה כי פעולה שנעשתה בתום לב עם מי שלא הוסמך לעשותה בניגוד להוראה כאמור בטלה מטעם זה בלבד שנעשתה בניגוד להוראה.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_8ד">
+          <heading>
+            <authorialNote placement="side">
+              <p>סמכויות לשמירת יציבותו של תאגיד בנקאי</p>
+            </authorialNote>
+          </heading>
+          <num>8ד.</num>
+          <list>
+            <point eId="point_8ד__point_א">
+              <num>(א)</num>
+              <list>
+                <intro>
+                  <p>היה הנגיד סבור, לאחר התייעצות במפקח, כי תאגיד בנקאי פלוני אינו יכול לקיים התחייבויותיו או שאין בידיו, מפני שניהל את עסקיו בדרך הסוטה מנוהל בנקאי תקין, להשיב נכס שהופקד בידיו, או שחברי דירקטוריון שלו או מנהלי עסקיו נהגו בדרך העלולה לפגוע בניהול העסקים התקין של התאגיד הבנקאי, רשאי הנגיד, לאחר שנתן לתאגיד הבנקאי הזדמנות נאותה לפי הנסיבות להשמיע או להגיש טענותיו, ולאחר התייעצות בועדת הרשיונות, ליתן לתאגיד הבנקאי כל הוראה מהוראות <ref href="#point_8ג">סעיף 8ג(א)</ref> ורשאי הוא, באישור הוועדה כהגדרתה <ref href="/akn/il/act/PrimaryLegislation/2010-03-24/336425">בחוק בנק ישראל</ref> –</p>
+                </intro>
+                <point eId="point_8ד__point_א__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>
+                      <wikicomment font-size="x-small">(נמחקה);</wikicomment>
+                    </p>
+                  </content>
+                </point>
+                <point eId="point_8ד__point_א__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>למנות מנהל מורשה שינהל את התאגיד הבנקאי כאמור <ref href="#point_8ו">בסעיף 8ו</ref>;</p>
+                  </content>
+                </point>
+                <point eId="point_8ד__point_א__point_3">
+                  <num>(3)</num>
+                  <content>
+                    <p>למנות מפקח מיוחד לתאגיד הבנקאי שיפקח על הנהלתו כאמור <ref href="#point_8ז">בסעיף 8ז</ref>;</p>
+                  </content>
+                </point>
+                <point eId="point_8ד__point_א__point_4">
+                  <num>(4)</num>
+                  <content>
+                    <p>למנות ועדת הנהלה לתאגיד הבנקאי שתייעץ למנהל המורשה.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_8ד__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>מינוי כאמור בפסקאות (2) ו־(3) לסעיף קטן (א) יכול להינתן גם לעובד המדינה או לעובד בנק ישראל.</p>
+              </content>
+            </point>
+            <point eId="point_8ד__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>היה הנגיד סבור שנסיבות הענין וטובת הציבור מחייבות עשיית פעולה לפי סעיף קטן (א) ללא דיחוי, רשאי הוא לפעול בלי התייעצות בועדת הרשיונות ובלי שנתן הזדמנות לתאגיד הבנקאי להגיש או להשמיע טענותיו; ובלבד שישמע את התאגיד הבנקאי סמוך ככל האפשר לאחר שפעל לפי סעיף קטן (א) ויביא את הענין לפני ועדת הרשיונות.</p>
+              </content>
+            </point>
+            <point eId="point_8ד__point_ד">
+              <num>(ד)</num>
+              <content>
+                <p>
+                  <wikicomment font-size="x-small">(בוטל).</wikicomment>
+                </p>
+              </content>
+            </point>
+            <point eId="point_8ד__point_ה">
+              <num>(ה)</num>
+              <content>
+                <p>
+                  <wikicomment font-size="x-small">(בוטל).</wikicomment>
+                </p>
+              </content>
+            </point>
+            <point eId="point_8ד__point_ו">
+              <num>(ו)</num>
+              <content>
+                <p>דבר המינוי המפקח כאמור בסעיף קטן (א)(3) לא יפורסם ברשומות, ולא תישמע הטענה כי פעולה שנעשתה בתום לב עם מי שלא הוסמך לעשותה או בניגוד להוראה שניתנה, בטלה מטעם זה בלבד שנעשתה בידי מי שלא היה מוסמך לעשותה או בניגוד להוראה שניתנה לתאגיד הבנקאי.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_8ד1">
+          <heading>
+            <authorialNote placement="side">
+              <p>דיווח תאגיד בנקאי על מעילה</p>
+            </authorialNote>
+          </heading>
+          <num>8ד1.</num>
+          <list>
+            <point eId="point_8ד1__point_א">
+              <num>(א)</num>
+              <content>
+                <p>נודע לתאגיד בנקאי כי קיים חשש סביר שעובד מעובדיו או נושא משרה בו, היה מעורב במעילה, שסכומה עולה על סכום שקבע המפקח, ידווח בהקדם האפשרי על המעילה למבקר הפנימי כמשמעותו <ref href="#point_14ה">בסעיף 14ה</ref>, ולמפקח.</p>
+              </content>
+            </point>
+            <point eId="point_8ד1__point_ב">
+              <num>(ב)</num>
+              <list>
+                <intro>
+                  <p>הדיווח למפקח יכלול פרטים כפי שקבע המפקח; כן יקבע המפקח את אופן הדיווח, את מועדו וכל פרט אחר שימצא לנכון.</p>
+                </intro>
+                <point eId="point_8ד1__point_ב__point_ג">
+                  <num>(ג)</num>
+                  <content>
+                    <p>
+                      <def />לענין סעיף זה –<br space="preserve"></br>”מעילה“ – עבירה על אחת מהעבירות המנויות <ref href="/akn/il/act/PrimaryLegislation/1977-08-04/2002251#chp_יא_sec_א">בסימנים א׳</ref>, <ref href="/akn/il/act/PrimaryLegislation/1977-08-04/2002251#chp_יא_sec_ו">ו׳</ref><ref href="/akn/il/act/PrimaryLegislation/1977-08-04/2002251#chp_יא_sec_ז">וז׳ של פרק י"א לחוק העונשין, התשל"ז–1977</ref> (בפקודה זו – חוק העונשין), והכל לגבי נכסי התאגיד הבנקאי ונכסים המוחזקים בו או המנוהלים על ידו.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+          </list>
+        </point>
+        <point eId="point_8ד2">
+          <heading>
+            <authorialNote placement="side">
+              <p>דין וחשבון של המפקח</p>
+            </authorialNote>
+          </heading>
+          <num>8ד2.</num>
+          <content>
+            <p>אחת לשנה יגיש המפקח דין וחשבון לועדת הכספים של הכנסת, ובו יפורט מספר המעילות שדווח לגביהן כאמור <ref href="#point_8ד1">בסעיף 8ד1</ref>, ולגבי מעילות שהמפקח סיים את טיפולו בהן – יפורטו גם אופן הטיפול בהן, והממצאים שהתגלו, למעט דרכי השגת המידע; המפקח יביא את הדין וחשבון לידיעת הציבור בדרך שיקבע, לרבות בדרך של פרסום באתר האינטרנט של בנק ישראל.</p>
+          </content>
+        </point>
+        <point eId="point_8ה">
+          <heading>
+            <authorialNote placement="side">
+              <p>עבירה על הוראות הסעיפים 8גו־8ד</p>
+            </authorialNote>
+          </heading>
+          <num>8ה.</num>
+          <list>
+            <point eId="point_8ה__point_א">
+              <num>(א)</num>
+              <content>
+                <p>תאגיד בנקאי שעבר על הוראה מהוראות שנתן לו המפקח לפי <ref href="#point_8ג">סעיף 8ג</ref> או שעבר על הוראה מהוראות שנתן לו הנגיד לפי <ref href="#point_8ג">הסעיף האמור</ref> או מכוח סמכותו לפי <ref href="#point_8ד">סעיף 8ד(א)</ref>, דינו – קנס 100,000 לירות.</p>
+              </content>
+            </point>
+            <point eId="point_8ה__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>מי שפעל כחבר דירקטוריון, כמנהל עסקים או כבעל זכות חתימה על אף שהותלתה או הוגבלה סמכותו או בעת השעייתו, דינו – מאסר ארבע שנים או קנס 100,000 לירות.</p>
+              </content>
+            </point>
+            <point eId="point_8ה__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>בעל זכות חתימה של התאגיד הבנקאי שהשתתף בפועל בביצוע עבירה שסעיף קטן (א) דן בה, דינו – מאסר שלוש שנים או קנס 50,000 לירות.</p>
+              </content>
+            </point>
+            <point eId="point_8ה__point_ד">
+              <num>(ד)</num>
+              <list>
+                <intro>
+                  <p>מי שהיה בשעת ביצוע עבירה שסעיף קטן (א) דן בה חבר דירקטוריון פעיל, מנהל עסקים, בא כוח או חשב ראשי או יחיד של תאגד בנקאי, דינו – מאסר שלוש שנים או קנס 50,000 לירות, אם לא הוכיח אחת משתי אלה –</p>
+                </intro>
+                <point eId="point_8ה__point_ד__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>העבירה נעברה שלא בידיעתו ותפקידו לא חייבו לדעת על המעשה;</p>
+                  </content>
+                </point>
+                <point eId="point_8ה__point_ד__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>הוא נקט בכל האמצעים הסבירים לשמירתן של ההוראות שניתנו.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+          </list>
+        </point>
+        <point eId="point_8ה1">
+          <heading>
+            <authorialNote placement="side">
+              <p>עבירה על הוראות סעיף 8ד1</p>
+            </authorialNote>
+          </heading>
+          <num>8ה1.</num>
+          <list>
+            <point eId="point_8ה1__point_א">
+              <num>(א)</num>
+              <content>
+                <p>נעברה עבירת מעילה כהגדרתה <ref href="#point_8ד1">בסעיף 8ד1(ג)</ref>, בתאגיד בנקאי, והתאגיד הבנקאי לא דיווח עליה כאמור <ref href="#point_8ד1">בסעיף 8ד1</ref>, דינו של התאגיד הבנקאי – קנס כקבוע <ref href="/akn/il/act/PrimaryLegislation/1977-08-04/2002251#point_61">בסעיף 61(א)(2) לחוק העונשין</ref>.</p>
+              </content>
+            </point>
+            <point eId="point_8ה1__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>המנהל הכללי של התאגיד הבנקאי חייב לפקח ולעשות כל שניתן לקיום הוראות <ref href="#point_8ד1">סעיף 8ד1</ref>; המפר את חובתו האמורה, דינו – קנס כקבוע <ref href="/akn/il/act/PrimaryLegislation/1977-08-04/2002251#point_61">בסעיף 61(א)(1) לחוק העונשין</ref>.</p>
+              </content>
+            </point>
+            <point eId="point_8ה1__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>נעברה עבירת מעילה כהגדרתה <ref href="#point_8ד1">בסעיף 8ד1(ג)</ref> בתאגיד בנקאי, והתאגיד הבנקאי הפר את חובתו לדווח כאמור בסעיף קטן (א), חזקה היא שהמנהל הכללי של התאגיד הבנקאי הפר את חובתו כאמור בסעיף קטן (ב), אלא אם כן הוא הוכיח כי עשה כל שניתן כדי למלא את חובתו.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_8ו">
+          <heading>
+            <authorialNote placement="side">
+              <p>סמכויות מנהל מורשה</p>
+            </authorialNote>
+          </heading>
+          <num>8ו.</num>
+          <list>
+            <point eId="point_8ו__point_א">
+              <num>(א)</num>
+              <content>
+                <p>מנהל מורשה שנתמנה לפי <ref href="#point_8ד">סעיף 8ד(א)(2)</ref> ינהל את התאגיד הבנקאי לפי הוראות שיקבל מאת הנגיד, או מאת המפקח על הבנקים אם הסמיך אותו הנגיד לתת הוראות.</p>
+              </content>
+            </point>
+            <point eId="point_8ו__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>מנהל מורשה דינו כדין מנהל עסקים בתאגיד בנקאי, ובנוסף לכך חייבים כל מנהל עסקים שלא הושעה וכל עובד בתאגיד הבנקאי למלא אחר הוראותיו.</p>
+              </content>
+            </point>
+            <point eId="point_8ו__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>בנוסף לאמור בסעיפים קטנים (א) ו־(ב) ימלא המנהל המורשה את תפקידי הדירקטוריון של התאגיד הבנקאי וועדותיו ויהיו לו, בכפוף לאמור <ref href="#point_8ח">בסעיף 8ח(ה)</ref> כל הסמכויות שהוענקו והתפקידים שהוטלו על הדירקטוריון ועל חבריו בתזכיר ההתאגדות של התאגיד הבנקאי ובתקנותיו.</p>
+              </content>
+            </point>
+            <point eId="point_8ו__point_ד">
+              <num>(ד)</num>
+              <content>
+                <p>התאגיד הבנקאי ישלם למנהל המורשה משכורת כפי שיקבע הנגיד.</p>
+              </content>
+            </point>
+            <point eId="point_8ו__point_ה">
+              <num>(ה)</num>
+              <content>
+                <p>המנהל המורשה מוסמך, לאחר התייעצות בועדת ההנהלה ובאישור הנגיד, להעביר את נכסיו של התאגיד הבנקאי, כולם או מקצתם, לתאגיד בנקאי אחר המקבל על עצמו את כל התחייבויותיו של התאגיד הבנקאי.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_8ז">
+          <heading>
+            <authorialNote placement="side">
+              <p>מפקח מיוחד</p>
+            </authorialNote>
+          </heading>
+          <num>8ז.</num>
+          <list>
+            <point eId="point_8ז__point_א">
+              <num>(א)</num>
+              <content>
+                <p>מפקח מיוחד שנתמנה לפי <ref href="#point_8ד">סעיף 8ד(א)(3)</ref> יפקח על פעולות דירקטוריון התאגיד הבנקאי ועל הנהלת עסקיו לפי הוראות שיקבל מאת הנגיד, וכן מאת המפקח על הבנקים – אם הסמיך אותו הנגיד לתת הוראות.</p>
+              </content>
+            </point>
+            <point eId="point_8ז__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>הנגיד רשאי להתיר למפקח המיוחד להעסיק בני אדם אחרים לשם מילוי תפקידיו.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_8ח">
+          <heading>
+            <authorialNote placement="side">
+              <p>ועדת ההנהלה</p>
+            </authorialNote>
+          </heading>
+          <num>8ח.</num>
+          <list>
+            <point eId="point_8ח__point_א">
+              <num>(א)</num>
+              <content>
+                <p>ועדת הנהלה שנתמנתה לתאגיד הבנקאי לפי <ref href="#point_8ד">סעיף 8ד(א)(4)</ref> תייעץ למנהל המורשה במילוי תפקידיו לפי <ref href="#point_8">סעיף 8(ו)</ref>.</p>
+              </content>
+            </point>
+            <point eId="point_8ח__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>כל עוד ממלאת ועדת ההנהלה את תפקידה לא ימלאו הדירקטוריון וחבריו את תפקידיהם ולא ישתמשו בסמכויותיהם.</p>
+              </content>
+            </point>
+            <point eId="point_8ח__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>המנהל המורשה יהיה יושב ראש ועדת ההנהלה.</p>
+              </content>
+            </point>
+            <point eId="point_8ח__point_ד">
+              <num>(ד)</num>
+              <content>
+                <p>התאגיד הבנקאי ישלם לחברי ועדת ההנהלה משכורת בשיעור שיקבע הנגיד.</p>
+              </content>
+            </point>
+            <point eId="point_8ח__point_ה">
+              <num>(ה)</num>
+              <content>
+                <p>ועדת ההנהלה תאשר את מאזן התאגיד הבנקאי כאילו היתה אסיפה כללית ותמנה לתאגיד הבנקאי רואה חשבון, ואולם אין בכך כדי לגרוע מהחובה לקרוא לאסיפה כללית.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_8ט">
+          <heading>
+            <authorialNote placement="side">
+              <p>מתן ידיעות</p>
+            </authorialNote>
+          </heading>
+          <num>8ט.</num>
+          <list>
+            <point eId="point_8ט__point_א">
+              <num>(א)</num>
+              <content>
+                <p>ניתנה הוראה לפי <ref href="#point_8ד">סעיף 8ד</ref>, יהיו כל חבר דירקטוריון או מנהל עסקים של התאגיד הבנקאי, בין שניתנה לגביו הוראת השעייה ובין אם לאו, וכל אדם אחר המועסק בתאגיד הבנקאי חייבים, לפי דרישת הנגיד, המנהל המורשה, המפקח המיוחד או מי שהם הסמיכו לכך, למסור להם או לשליחיהם את הידיעות, הפנקסים, התעודות או כל מסמך אחר שלדעת הדורש יש בהם כדי להבטיח או להקל את ביצועה של הוראה לפי <ref href="#point_8ד">סעיף 8ד</ref>.</p>
+              </content>
+            </point>
+            <point eId="point_8ט__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>אדם שלא מילא אחר דרישה שניתנה לו לפי סעיף קטן (א), דינו – מאסר שנתיים או קנס 10,000 לירות.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_8י">
+          <heading>
+            <authorialNote placement="side">
+              <p>הפסקת מילוי התחייבויות</p>
+            </authorialNote>
+          </heading>
+          <num>8י.</num>
+          <list>
+            <point eId="point_8י__point_א">
+              <num>(א)</num>
+              <content>
+                <p>המנהל המורשה רשאי, באישור הנגיד, להורות כי תוך תקופה שלא תעלה על עשרה ימים מיום מתן הוראה לפי <ref href="#point_8ד">סעיף 8ד(א)(2)</ref> לא יקיים התאגיד הבנקאי את התחייבויותיו שמועד קיומם חל באותה תקופה או קודם לכן.</p>
+              </content>
+            </point>
+            <point eId="point_8י__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>הנגיד רשאי להאריך את התקופה האמורה בסעיף קטן (א) בעשרה ימים נוספים, אם מסר הודעה לפי <ref href="#point_8יד">סעיף 8יד</ref> על כוונתו לבטל את רשיונו של התאגיד הבנקאי, ועדיין לא חלפה התקופה שבה רשאים מנהליו להגיש טענותיהם, או לא ניתן על ידי בית המשפט צו לפירוק התאגיד הבנקאי או לכינוס נכסיו.</p>
+              </content>
+            </point>
+            <point eId="point_8י__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>המנהל המורשה יביא לידיעת הציבור כל הוראה שניתנה לפי סעיפים קטנים (א) ו־(ב) סמוך ככל האפשר לאחר נתינתן.</p>
+              </content>
+            </point>
+            <point eId="point_8י__point_ד">
+              <num>(ד)</num>
+              <content>
+                <p>התאגיד הבנקאי, המנהל המורשה או הנגיד לא ישאו בכל אחריות בשל מתן ההוראה לפי סעיף קטן (א) או בשל אי מילוי התחייבות לפיה.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_8יא">
+          <heading>
+            <authorialNote placement="side">
+              <p>סמכות לערוב</p>
+            </authorialNote>
+          </heading>
+          <num>8יא.</num>
+          <list>
+            <point eId="point_8יא__point_א">
+              <num>(א)</num>
+              <list>
+                <intro>
+                  <p>רשאי הנגיד, באישור הממשלה, להודיע ברשומות כי בנק ישראל, או תאגיד בנקאי אחר שהסכים לכך ושהנגיד הסמיכו לכך, יהיה ערב –</p>
+                </intro>
+                <point eId="point_8יא__point_א__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>לפקדונות שהופקדו בתאגיד הבנקאי שניתנה עליו הוראה לפי <ref href="#point_8ד">סעיף 8ד</ref>, בין למלוא סכום הפקדונות ובין עד לסכום מסויים לגבי כל פקדון מסוגי הפקדונות שייקבעו;</p>
+                  </content>
+                </point>
+                <point eId="point_8יא__point_א__point_2">
+                  <num>(2)</num>
+                  <list>
+                    <intro>
+                      <p>לסוגי התחייבויות אחרים של תאגיד בנקאי כאמור בפסקה (1), כולן או מקצתן, ובלבד –</p>
+                    </intro>
+                    <point eId="point_8יא__point_א__point_2__point_א">
+                      <num>(א)</num>
+                      <content>
+                        <p>שראה שטובת הציבור מחייבת לעשות כן;</p>
+                      </content>
+                    </point>
+                    <point eId="point_8יא__point_א__point_2__point_ב">
+                      <num>(ב)</num>
+                      <content>
+                        <p>שלא תינתן ערבות לפי סעיף זה לכלל התחייבויותיו של תאגיד בנקאי, אלא אם לדעת הנגיד קיים סיכוי סביר שיהיה במתן ערבות כזו כדי לאפשר לתאגיד הבנקאי להמשיך ולנהל את עסקיו באופן סדיר.</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+              </list>
+            </point>
+            <point eId="point_8יא__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>ערבות לפי סעיף קטן (א) יכולה שתהיה לזמן בלתי מוגבל, מותנית או בלתי מותנית, הכל כפי שיפורט בהודעה.</p>
+              </content>
+            </point>
+            <point eId="point_8יא__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>משפורסמה הודעה כאמור תהיה הערבות בת־תוקף לפי האמור בהודעה אף אם הנערב לא הסכים למתן הערבות, והתאגיד הבנקאי הערב יהיה רשאי בכל עת להיפרע מהתאגיד הבנקאי הנערב כל סכום ששילם מכוח הערבות.</p>
+              </content>
+            </point>
+            <point eId="point_8יא__point_ד">
+              <num>(ד)</num>
+              <content>
+                <p>התאגיד הבנקאי הנערב יהיה רשאי, על אף כל תנאי סותר, להתחייב כלפי התאגיד הבנקאי הערב בקשר למתן הערבות שניתנה על פי סעיף קטן (א) ותנאיה.</p>
+              </content>
+            </point>
+            <point eId="point_8יא__point_ה">
+              <num>(ה)</num>
+              <content>
+                <p>ראה הנגיד, באישור הממשלה, לבטל את הערבות שניתנה לפי סעיף קטן (א), יודיע ברשומות ובשני עתונים יומיים לפחות על הביטול ועל מועדו, שלא יפחת מתשעים יום מיום פרסום ההודעה, ומאותו מועד ואילך לא יהיה אדם זכאי לתבוע מהערב פרעון ההתחייבות; אולם מי שזכאי למילוי התחייבותו של התאגיד הבנקאי הנערכת במועד מאוחר ממועד הביטול, ואותה התחייבות היתה קיימת בעת שהערבות היתה בתקפה, יהיה זכאי להיפרע מן הערב עד תום שלושים יום מהיום שנקבע למילוי אותה התחייבות, ואם שילם הערב יחולו הוראות סעיף קטן (ג).</p>
+              </content>
+            </point>
+            <point eId="point_8יא__point_ו">
+              <num>(ו)</num>
+              <content>
+                <p>הנגיד לא יבטל ערבות שנתן תאגיד בנקאי אחר אלא בהסכמתו של התאגיד הבנקאי הערב.</p>
+              </content>
+            </point>
+            <point eId="point_8יא__point_ז">
+              <num>(ז)</num>
+              <content>
+                <p>דין ערבות שניתנה לפי סעיף זה כדין מתן ערבות לפי <ref href="/akn/il/act/PrimaryLegislation/1967-04-21/148150">חוק הערבות, תשכ"ז–1967</ref>.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_8יב">
+          <heading>
+            <authorialNote placement="side">
+              <p>הגבלת פירוק ומינוי כונס נכסים</p>
+            </authorialNote>
+          </heading>
+          <num>8יב.</num>
+          <list>
+            <point eId="point_8יב__point_א">
+              <num>(א)</num>
+              <content>
+                <p>הורה המנהל המורשה הוראה לפי <ref href="#point_8י">סעיף 8י</ref>, לא יתן בית משפט צו לפירוק, או לכינוס נכסים של התאגיד הבנקאי שלגביו ניתנה ההוראה, ולא יקבל התאגיד הבנקאי או כל אסיפה של בעלי מניותיו או בעלי זכויות אחרים בו החלטה על פירוקו מרצון, ולא יתמנה עליו כונס נכסים בין מטעם בעלי איגרות חוב ובין מטעם כל אדם אחר, ולא יוטל עיקול על נכסיו או על זכויות שיש לו בידי אדם אחר, ולא יתחילו ולא ימשיכו נגדו בכל הליכי הוצאה לפועל אחרים, כל עוד ההוראה לפי <ref href="#point_8י">סעיף 8י</ref> בתקפה, אלא על פי בקשה שתוגש מטעם היועץ המשפטי לממשלה או בהסכמתו בכתב.</p>
+              </content>
+            </point>
+            <point eId="point_8יב__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>נתמנה מנהל מורשה לפי <ref href="#point_8ד">סעיף 8ד(א)(2)</ref>, לא יתן בית המשפט, כל עוד מינוי המנהל המורשה בתקפו, צו לפירוק או לקבלת נכסים של התאגיד הבנקאי לפי בקשה של אחד מבעלי מניותיו, ולא יקבל התאגיד הבנקאי או כל אסיפה של בעלי מניותיו או בעלי זכויות אחרות בו החלטה על פירוקו מרצון.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_8יג">
+          <heading>
+            <authorialNote placement="side">
+              <p>סייג להחלטות אסיפת בעלי מניות</p>
+            </authorialNote>
+          </heading>
+          <num>8יג.</num>
+          <content>
+            <p>לא יהיה תוקף להחלטה של אסיפת בעלי המניות של התאגיד הבנקאי, או של בעלי זכויות אחרות בו, שאינה מתיישבת עם האמור <ref href="#point_8ג">בסעיפים 8ג עד 8יא</ref> או עם פעולה שנעשתה או הוראה שניתנה על פיהם.</p>
+          </content>
+        </point>
+        <point eId="point_8יד">
+          <heading>
+            <authorialNote placement="side">
+              <p xml:space="preserve"> </p>
+            </authorialNote>
+          </heading>
+          <num>8יד.</num>
+          <content>
+            <p>
+              <wikicomment font-size="x-small">(בוטל).</wikicomment>
+            </p>
+          </content>
+        </point>
+        <point eId="point_8טו">
+          <heading>
+            <authorialNote placement="side">
+              <p>אכרזה על הפסקה במתן שירותים</p>
+            </authorialNote>
+          </heading>
+          <num>8טו.</num>
+          <list>
+            <point eId="point_8טו__point_א">
+              <num>(א)</num>
+              <content>
+                <p>נוכח המפקח שתאגיד בנקאי פלוני אינו יכול לנהל את עסקיו באורח תקין מחמת שביתה באותו תאגיד בנקאי או בתאגיד בנקאי אחר, רשאי הוא להכריז כי התאגיד הבנקאי הפסיק לתת שירותים (להלן – הפסקה), ומותר לקבוע באכרזה כי היא תחול על כלל שירותי התאגיד הבנקאי או על חלק מהם.</p>
+              </content>
+            </point>
+            <point eId="point_8טו__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>האכרזה תפורסם ברשומות ולפחות בארבעה עתונים יומיים היוצאים לאור בישראל.</p>
+              </content>
+            </point>
+            <point eId="point_8טו__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>באכרזה ייקבע המועד שבו הפסיק התאגיד הבנקאי לתת שירותים ומותר לקבוע בה מועדי הפסקה שונים לשירותים שונים.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_8טז">
+          <heading>
+            <authorialNote placement="side">
+              <p>ביטול</p>
+            </authorialNote>
+          </heading>
+          <num>8טז.</num>
+          <content>
+            <p>בביטול האכרזה מותר לקבוע מועדי ביטול שונים לשירותים שונים.</p>
+          </content>
+        </point>
+        <point eId="point_8יז">
+          <heading>
+            <authorialNote placement="side">
+              <p>דחיית מועדים</p>
+            </authorialNote>
+          </heading>
+          <num>8יז.</num>
+          <list>
+            <point eId="point_8יז__point_א">
+              <num>(א)</num>
+              <content>
+                <p>הוסכם בין התאגיד הבנקאי שבהפסקה לבין אדם על עשיית פעולה או מילוי התחייבות שהתאגיד הבנקאי או האדם חייבים או רשאים לעשותם בתוך התקופה שבין האכרזה לבין ביטולה, יידחה המועד עד לתום שלושה ימי עסקים מיום ביטול האכרזה, ובלבד שהפעולה או מילוי ההתחייבות הם בגדר השירותים שעליהם חלה האכרזה.</p>
+              </content>
+            </point>
+            <point eId="point_8יז__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>דחיית מועד לפי סעיף זה תחול גם לגבי מועד שנקבע בפסק דין או בהחלטה אחרת של בית משפט או של רשות שיפוטית או מעין שיפוטית אחרת על פי דין.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_8יח">
+          <heading>
+            <authorialNote placement="side">
+              <p>ריבית והפרשי הצמדה</p>
+            </authorialNote>
+          </heading>
+          <num>8יח.</num>
+          <list>
+            <point eId="point_8יח__point_א">
+              <num>(א)</num>
+              <content>
+                <p>נשאה התחייבות שמועד פרעונה נדחה לפי <ref href="#point_8יז">סעיף 8יז</ref> ריבית לפני ההפסקה, תוסיף ההתחייבות לשאת ריבית עד למועד פרעונה החדש, בשיעור שחל בתקופה שלפני ההפסקה.</p>
+              </content>
+            </point>
+            <point eId="point_8יח__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>היתה התחייבות שמועד פרעונה נדחה לפי <ref href="#point_8יז">סעיף 8יז</ref> צמודת ערך, תוסיף לחול החובה לשלם הפרשי הצמדה כמוסכם במשך תקופת ההפסקה; לענין זה, ”התחייבות צמודת ערך“ – התחייבות שסכומה, כולו או מקצתו, צמוד לשער החליפין של המטבע הישראלי, למדד יוקר המחיה או לעליית מחירו של כל דבר אחר.</p>
+              </content>
+            </point>
+            <point eId="point_8יח__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>נגיד בנק ישראל רשאי להורות שבתקופת ההפסקה יהיה אדם רשאי או חייב לשלם לבנק ישראל כל סכום שהוא חב לתאגיד הבנקאי שבהפסקה ודין התשלום כדין תשלום לתאגיד הבנקאי שבהפסקה; הוראה לפי סעיף קטן זה תובא לידיעת החייבים בדרך שיורה עליה הנגיד.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_8יט">
+          <heading>
+            <authorialNote placement="side">
+              <p>ביצוע הוראת תשלום</p>
+            </authorialNote>
+          </heading>
+          <num>8יט.</num>
+          <content>
+            <p>מי שלפני מועד ההפסקה נתן שיק משוך על התאגיד הבנקאי, או הוראה אחרת בכתב לבצע תשלום מחשבונו בתאגיד הבנקאי וקיום ההוראה הוא בגדר השירותים שעליהם חלה האכרזה, רואים את הסכום שבהוראה כנפרע במועדו אם שילם אותו התאגיד הבנקאי תוך שלושה ימי עסקים שלאחר ביטול האכרזה.</p>
+          </content>
+        </point>
+        <point eId="point_8כ">
+          <heading>
+            <authorialNote placement="side">
+              <p>הגבלת אחריות התאגיד הבנקאי</p>
+            </authorialNote>
+          </heading>
+          <num>8כ.</num>
+          <content>
+            <p>תאגיד בנקאי שבהפסקה לא ישא באחריות פלילית או אזרחית בשל מעשה או מחדל הנובעים מהפסקת השירותים שעליהם חלה האכרזה.</p>
+          </content>
+        </point>
+        <point eId="point_8כא">
+          <heading>
+            <authorialNote placement="side">
+              <p>הגנה בדיני עונשין</p>
+            </authorialNote>
+          </heading>
+          <num>8כא.</num>
+          <list>
+            <point eId="point_8כא__point_א">
+              <num>(א)</num>
+              <content>
+                <p>המושך שיק על תאגיד בנקאי שבהפסקה לא ישא באחריות פלילית לפי <ref href="/akn/il/act/PrimaryLegislation/1977-08-04/2002251#point_432">סעיף 14 לחוק לתיקון דיני העונשין (עבירות מרמה, סחיטה ועושק), תשכ"ג–1963</ref> (להלן – חוק העונשין), אם העדר החובה על התאגיד הבנקאי לפרוע את השיק במועד הנקוב בו כמועד משיכתו נבע רק מדחיית המועד לפי <ref href="#point_8יז">סעיף 8יז</ref>.</p>
+              </content>
+            </point>
+            <point eId="point_8כא__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>לענין <ref href="/akn/il/act/PrimaryLegislation/1977-08-04/2002251#point_433">סעיף 15(ג) לחוק העונשין</ref> לא תובא במנין ששים הימים התקופה שבין האכרזה לבין ביטולה לגבי שיק שנמשך על התאגיד הבנקאי שבהפסקה ופרעון השיק הוא בגדר השירותים שעליהם חלה האכרזה.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_9">
+          <heading>
+            <authorialNote placement="side">
+              <p>הגשת דוחו"ת למפקח על הבנקים</p>
+            </authorialNote>
+          </heading>
+          <num>9.</num>
+          <list>
+            <point eId="point_9__point_1">
+              <num>(1)</num>
+              <list>
+                <intro>
+                  <p>כל תאגיד בנקאי חייב להגיש למפקח על הבנקים:–</p>
+                </intro>
+                <point eId="point_9__point_1__point_א">
+                  <num>(א)</num>
+                  <content>
+                    <p>לא יאוחר מעשרים ואחד יום לאחר היום האחרון שבכל חודש, דו"ח ערוך בטופס המוזכר <ref href="#appendix_1">בתוספת הראשונה לפקודה זו</ref>, המפרט את האקטיב והפסיב של התאגיד הבנקאי עם סיום העסקים ביום האחרון של החודש החולף;</p>
+                  </content>
+                </point>
+                <point eId="point_9__point_1__point_ב">
+                  <num>(ב)</num>
+                  <list>
+                    <intro>
+                      <p>לא יאוחר מעשרים ושמונה ימים לאחר היום האחרון בחדש מרץ ובחדש ספטמבר, דו"ח ערוך בטופס המובא <ref href="#appendix_2">בתוספת השניה לפקודה זו</ref> המוסר ניתוח של הלואות שוטפות ושל שטרות שהובאו לנכיון עד יום 31 במרץ, ו־30 בספטמבר:</p>
+                    </intro>
+                    <point eId="point_9__point_1__point_ב__point_none">
+                      <content>
+                        <p>בתנאי שלגבי בנק חוץ, הרי הדו"חות המוזכרים בפסקא (א) ו־(ב) מסעיף זה לא יכילו אלא פרטים בנוגע למשרדים ולסניפים (או סניפים) של בנק החוץ המצויים בישראל:<br space="preserve"></br>בתנאי שהנגיד רשאי לשנות בצו מזמן לזמן את טופס <ref href="#appendix_1">התוספת הראשונה</ref><ref href="#appendix_2">והתוספת השניה</ref> והתאריכים שבהם צריך לסכם את החומר הדרוש <ref href="#appendix_2">בתוספת השניה</ref> ולשלחו למפקח על הבנקים.</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+              </list>
+            </point>
+            <point eId="point_9__point_2">
+              <num>(2)</num>
+              <content>
+                <p>תאגיד בנקאי שאינו מקיים את הדרישות המפורטות בפסקא (א) ו־(ב) של סעיף קטן (1) מסעיף זה יהא צפוי לקנס לא יותר מחמש מאות שקלים ליום במשך אותם הימים שבהם הוא ממשיך בעברה.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_10">
+          <heading>
+            <authorialNote placement="side">
+              <p>הצגת המאזן ופרסומו</p>
+            </authorialNote>
+          </heading>
+          <num>10.</num>
+          <list>
+            <point eId="point_10__point_1">
+              <num>(1)</num>
+              <content>
+                <p>תאגיד בנקאי יפרסם את הדין וחשבון הכספי השנתי המבוקר שלו, או תמצית ממנו, במועד, בצורה ובהיקף שהורה המפקח.</p>
+              </content>
+            </point>
+            <point eId="point_10__point_2">
+              <num>(2)</num>
+              <content>
+                <p>המפקח על הבנקים רשאי, אחת לשנה, לדרוש בכתב מכל תאגיד בנקאי לערוך, להציג ולפרסם, תוך הזמן שנקבע בדרישה, דין וחשבון על נכסיו והתחייבויותיו לתאריך שנקבע בדרישה; הדין וחשבון יכלול מאזן השוואתי של נכסי התאגיד הבנקאי והתחייבויותיו בתאריך האמור עם נכסיו והתחייבויותיו שפורטו במאזן המבוקר האחרון של התאגיד הבנקאי ובדרך שבה נערך המאזן המבוקר.</p>
+              </content>
+            </point>
+            <point eId="point_10__point_3">
+              <num>(3)</num>
+              <content>
+                <p>כל תאגיד בנקאי שחל עליו סעיף זה ולא מלא אחרי דרישותיו יהא צפוי בצאתו חייב בדין לקנס לא יותר מעשרים וחמישה אלף שקלים.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_11">
+          <heading>
+            <authorialNote placement="side">
+              <p>אנשים שאינם ראויים להשתתף בהנהלת בנקים</p>
+            </authorialNote>
+          </heading>
+          <num>11.</num>
+          <list>
+            <point eId="point_11__point_1">
+              <num>(1)</num>
+              <list>
+                <intro>
+                  <p>מבלי לפגוע בכל דבר האמור <ref href="/akn/il/act/PrimaryLegislation/1983-08-19/2002274#point_84">בסעיף 73 מפקודת החברות</ref>, הרי כל אדם –</p>
+                </intro>
+                <point eId="point_11__point_1__point_א">
+                  <num>(א)</num>
+                  <content>
+                    <p>שהיה מנהל תאגיד בנקאי שפורק ע"י בית משפט, או שהיה קשור במישרין או בעקיפין בהנהלתו של תאגיד בנקאי כזה, או –<br space="preserve"></br>
+   (ב)  שנידון ע"י בית משפט לתקופת מאסר על עברה שיש בה משום שחיתות מוסרית ולא קבל חנינה מלאה בעד העברה שעליה נידון –<br space="preserve"></br>אסור לו, בלא הרשאה מפורשת מאת הנגיד, לכהן או להוסיף ולכהן כמנהל של כל תאגיד בנקאי או להיות קשור בהנהלתו של כל תאגיד בנקאי כזה בין במישרין ובין בעקיפין.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_11__point_2">
+              <num>(2)</num>
+              <content>
+                <p>כל העובר על סעיף־קטן (1) מסעיף זה יהא צפוי בצאתו חייב בדין למאסר לתקופה של לא יותר משתי שנים או לקנס לא יותר מעשרים וחמישה אלף שקלים, או לשני העונשין כאחד.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_11א">
+          <heading>
+            <authorialNote placement="side">
+              <p>אישור מינוי נושא משרה</p>
+            </authorialNote>
+          </heading>
+          <num>11א.</num>
+          <list>
+            <point eId="point_11א__point_א">
+              <num>(א)</num>
+              <content>
+                <p>לא יכהן אדם כנושא משרה בתאגיד בנקאי אלא אם כן נמסרה למפקח הודעה, שישים ימים לפחות לפני תחילת הכהונה, והמפקח לא הודיע בתוך התקופה האמורה על התנגדותו למינוי האמור, או שהודיע על הסכמתו לכך.</p>
+              </content>
+            </point>
+            <point eId="point_11א__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>החלטת המפקח להתנגד למינוי תהיה מנומקת בכתב ותינתן לאחר שנתן למועמד הזדמנות להשמיע את טענותיו ולאחר התייעצות עם ועדת הרישיונות, והוא יביא בחשבון לענין זה בשים לב, בין השאר, לצרכיו המיוחדים של התאגיד הבנקאי, את התאמתו של המועמד לתפקיד המוצע, לרבות ניסיונו העסקי, יושרו, יושרתו, וקשריו, מכל סוג שהוא, עם התאגיד הבנקאי או עם נושא משרה בתאגיד הבנקאי; ואם המועמד כיהן בעבר כנושא משרה בתאגיד בנקאי – גם את תפקודו בתקופת כהונתו כאמור; לענין מועמד לכהונת דירקטור, יביא המפקח בחשבון גם את עיסוקיו ועסקיו האחרים של המועמד ואת התאמתו של הרכב הדירקטוריון לתחומי פעולתו של התאגיד הבנקאי.</p>
+              </content>
+            </point>
+            <point eId="point_11א__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>
+                  <wikicomment font-size="x-small">(בוטל).</wikicomment>
+                </p>
+              </content>
+            </point>
+            <point eId="point_11א__point_ד">
+              <num>(ד)</num>
+              <content>
+                <p>
+                  <wikicomment font-size="x-small">(בוטל).</wikicomment>
+                </p>
+              </content>
+            </point>
+            <point eId="point_11א__point_ה">
+              <num>(ה)</num>
+              <content>
+                <p>מונה נושא משרה, ולאחר מינויו התבררו פרטים נוספים או חדשים לענין השיקולים האמורים בסעף קטן (ב), רשאי המפקח, לאחר שנתן לו הזדמנות להשמיע את טענותיו, ולאחר התייעצות עם ועדת הרישיונות, להורות על הפסקת כהונתו, בשל הפרטים הנוספים או החדשים כאמור.</p>
+              </content>
+            </point>
+            <point eId="point_11א__point_ו">
+              <num>(ו)</num>
+              <content>
+                <p>הודיע המפקח על התנגדותו למינוי כאמור בסעיף קטן (א) או הורה המפקח על הפסקת כהונה כאמור בסעיף קטן (ה), רשאי האדם שמועמדותו נפסלה, או נושא המשרה שהופסקה כהונתו, לפי הענין, לערער על החלטת המפקח לפני הנגיד.</p>
+              </content>
+            </point>
+            <point eId="point_11א__point_ז">
+              <num>(ז)</num>
+              <content>
+                <p>הוראות סעיף זה יחולו גם על כהונת דירקטור של תאגיד בנקאי כיושב ראש הדירקטוריון שלו, בשינויים המחויבים.</p>
+              </content>
+            </point>
+            <point eId="point_11א__point_ח">
+              <num>(ח)</num>
+              <list>
+                <point eId="point_11א__point_ח__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>לענין סעיפים קטנים (א), (ה) ו־(ו), ”נושא משרה“ – דירקטור, מנהל כללי, מבקר פנימי ויועץ משפטי, וכן מי שהמפקח יקבע; המפקח יקבע לכל תאגיד בנקאי מי מבעלי התפקידים באותו תאגיד בנקאי חייב באישור המינוי ובלבד שקביעתו לא תכלול יותר משבעה בעלי תפקידים בתאגיד הבנקאי;</p>
+                  </content>
+                </point>
+                <point eId="point_11א__point_ח__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>
+                      <wikicomment font-size="x-small">(נמחקה).</wikicomment>
+                    </p>
+                  </content>
+                </point>
+              </list>
+            </point>
+          </list>
+        </point>
+        <point eId="point_11א1" class="definitions">
+          <heading>
+            <authorialNote placement="side">
+              <p>מניעת ניגוד עניינים</p>
+            </authorialNote>
+          </heading>
+          <num>11א1.</num>
+          <list>
+            <intro>
+              <p>לא ימונה ולא יכהן כדירקטור בתאגיד בנקאי שהוא גוף פיננסי משמעותי אדם השולט בתאגיד ריאלי משמעותי, אדם הקשור לשולט כאמור או נושא משרה בתאגיד ריאלי משמעותי; המפקח רשאי לתת הוראות לעניין המשך כהונה של דירקטור במהלך הליכי מכירה כאמור <ref href="/akn/il/act/PrimaryLegislation/1981-04-26/147066#point_35ב">בסעיף 35ב(ה) לחוק הבנקאות (רישוי)</ref>; בסעיף זה –</p>
+            </intro>
+            <point eId="point_11א1__point_אדם_הקשור_לשולט">
+              <content>
+                <p>
+                  <def />”אדם הקשור לשולט“ – קרובו או שותפו של שולט, או אדם בעל זיקה כהגדרתה <ref href="/akn/il/act/PrimaryLegislation/1999-05-27/165159#point_240">בסעיף 240(ב) לחוק החברות</ref>, לשולט;</p>
+              </content>
+            </point>
+            <point eId="point_11א1__point_גוף_פיננסי">
+              <content>
+                <p>
+                  <def />”גוף פיננסי“ ו”תאגיד ריאלי“ – כהגדרתם <ref href="/akn/il/act/PrimaryLegislation/2013-12-11/473244#point_28">בסעיף 28 לחוק לקידום התחרות ולצמצום הריכוזיות</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_11א1__point_גוף_פיננסי_משמעותי">
+              <content>
+                <p>
+                  <def />”גוף פיננסי משמעותי“ – גוף פיננסי המנוי ברשימת הגופים הפיננסיים המשמעותיים שפורסמה לפי <ref href="/akn/il/act/PrimaryLegislation/2013-12-11/473244#point_29">סעיף 29 לחוק לקידום התחרות ולצמצום הריכוזיות</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_11א1__point_חוק_לקידום_התחרות_ולצמצום_הריכוזיות">
+              <content>
+                <p>
+                  <def />”חוק לקידום התחרות ולצמצום הריכוזיות“ – <ref href="/akn/il/act/PrimaryLegislation/2013-12-11/473244">חוק לקידום התחרות ולצמצום הריכוזיות, התשע"ד–2013</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_11א1__point_שולט">
+              <content>
+                <p>
+                  <def />”שולט“, בתאגיד ריאלי משמעותי – לרבות מחזיק בדבוקת שליטה כהגדרתה <ref href="/akn/il/act/PrimaryLegislation/1999-05-27/165159">בחוק החברות</ref>, בתאגיד ריאלי משמעותי שבו אין בעל שליטה אחר;</p>
+              </content>
+            </point>
+            <point eId="point_11א1__point_תאגיד_ריאלי_משמעותי">
+              <content>
+                <p>
+                  <def />”תאגיד ריאלי משמעותי“ – תאגיד ריאלי המנוי ברשימת התאגידים הריאליים המשמעותיים שפורסמה לפי <ref href="/akn/il/act/PrimaryLegislation/2013-12-11/473244#point_30">סעיף 30 לחוק לקידום התחרות ולצמצום הריכוזיות</ref>.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_11ב">
+          <heading>
+            <authorialNote placement="side">
+              <p>מידע מבעלי מניות</p>
+            </authorialNote>
+          </heading>
+          <num>11ב.</num>
+          <list>
+            <point eId="point_11ב__point_א">
+              <num>(א)</num>
+              <list>
+                <intro>
+                  <p>בפרוטוקול האסיפה הכללית של תאגיד בנקאי, בהחלטותיה בענינים המנויים להלן, יפורטו שמות הנוכחים באסיפה, שמות המצביעים, שיעור ההחזקות בזכויות ההצבעה שמכוחו הצביעו, ואופן הצבעתם:</p>
+                </intro>
+                <point eId="point_11ב__point_א__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>שינוי התזכיר או התקנון;</p>
+                  </content>
+                </point>
+                <point eId="point_11ב__point_א__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>מינוי או הפסקת כהונה של דירקטור;</p>
+                  </content>
+                </point>
+                <point eId="point_11ב__point_א__point_3">
+                  <num>(3)</num>
+                  <content>
+                    <p>אישור פעולות או עסקאות הטעונות אישור האסיפה הכללית לפי הוראות <ref href="/akn/il/act/PrimaryLegislation/1999-05-27/165159#point_255">סעיפים 255</ref><ref href="/akn/il/act/PrimaryLegislation/1999-05-27/165159#point_268">ו־268 עד 275 לחוק החברות, התשנ"ט–1999</ref> (בפקודה זו – חוק החברות);</p>
+                  </content>
+                </point>
+                <point eId="point_11ב__point_א__point_4">
+                  <num>(4)</num>
+                  <content>
+                    <p>חלוקה לפי <ref href="/akn/il/act/PrimaryLegislation/1999-05-27/165159#part_7_chp_2">הפרק השני בחלק השביעי לחוק החברות</ref>;</p>
+                  </content>
+                </point>
+                <point eId="point_11ב__point_א__point_5">
+                  <num>(5)</num>
+                  <content>
+                    <p>אישור מיזוג לפי <ref href="/akn/il/act/PrimaryLegislation/1999-05-27/165159#point_320">סעיף 320 לחוק החברות</ref>.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_11ב__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>המפקח רשאי לדרוש ממי שנכח או ממי שהצביע באסיפה כללית מסוימת של תאגיד בנקאי, פרטים בדבר זהותו, פרטים בדבר זהותו של מי שהוא פועל כשלוח או כנאמן בעבורו, ואם הוא תאגיד – פרטים בדבר השולטים בו.</p>
+              </content>
+            </point>
+            <point eId="point_11ב__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>תאגיד בנקאי שכל מחזיקי אמצעי השליטה בו אינם חייבים בהיתר לפי הוראות <ref href="/akn/il/act/PrimaryLegislation/1981-04-26/147066#point_34">סעיף 34(ב) לחוק הבנקאות (רישוי)</ref>, או תאגיד בנקאי שחלות עליו הוראות <ref href="/akn/il/act/PrimaryLegislation/1993-10-31/155115">חוק המניות הבנקאיות שבהסדר (הוראת שעה), התשנ"ד–1993</ref>, ולא מכהנת לגביו ועדת מניות לפי <ref href="/akn/il/act/PrimaryLegislation/1993-10-31/155115">החוק האמור</ref> (בפקודה זו – תאגיד בנקאי בלא גרעין שליטה), ישלח למפקח את פרוטוקול האסיפה הכללית בהחלטה שענינה מינוי או הפסקת כהונה של דירקטור, בתוך עשרה ימים ממועד האסיפה.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_11ג">
+          <heading>
+            <authorialNote placement="side">
+              <p>מינוי, כהונה והפסקת כהונה של דירקטורים בתאגיד בנקאי שהוא חברה ציבורית</p>
+            </authorialNote>
+          </heading>
+          <num>11ג.</num>
+          <list>
+            <point eId="point_11ג__point_א">
+              <num>(א)</num>
+              <list>
+                <intro>
+                  <p>בתאגיד בנקאי שהוא חברה ציבורית כהגדרתה <ref href="/akn/il/act/PrimaryLegislation/1999-05-27/165159">בחוק החברות</ref>, יחולו לעניין מינוי דירקטורים, כהונתם והפסקת כהונתם, הוראות אלה:</p>
+                </intro>
+                <point eId="point_11ג__point_א__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>ההצבעה באסיפה הכללית על מינוי דירקטורים ועל הפסקת כהונתם תהיה לכל מועמד לכהונה או לכל דירקטור, לפי העניין, בנפרד;</p>
+                  </content>
+                </point>
+                <point eId="point_11ג__point_א__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>הדירקטוריון לא יהיה רשאי למנות דירקטורים לתאגיד הבנקאי, ולא יהיה רשאי להציע מועמדים לכהונת דירקטור לוועדה למינוי דירקטורים בתאגידים בנקאיים שמונתה לפי <ref href="/akn/il/act/PrimaryLegislation/1981-04-26/147066#point_36א">סעיף 36א לחוק הבנקאות (רישוי)</ref>;</p>
+                  </content>
+                </point>
+                <point eId="point_11ג__point_א__point_3">
+                  <num>(3)</num>
+                  <content>
+                    <p>על אף האמור בפסקה (2), הדירקטוריון יהיה רשאי למנות דירקטורים לתאגיד הבנקאי, אם התפנה מקום בדירקטוריון לאחר האסיפה השנתית הקודמת, או באישור המפקח, ובלבד שתקופת הכהונה של דירקטור שמונה כאמור תסתיים לא יאוחר מהאסיפה השנתית הקרובה, והכל אלא אם כן תקנון התאגיד הבנקאי אינו מאפשר זאת;</p>
+                  </content>
+                </point>
+                <point eId="point_11ג__point_א__point_4">
+                  <num>(4)</num>
+                  <content>
+                    <p>לא תזומן אסיפה כללית שעל סדר יומה מינוי דירקטורים או הפסקת כהונתם, אלא אם כן פרסם התאגיד הבנקאי הודעה מקדימה על כך באופן שבו מפורסמת ההודעה על זימון אסיפה כללית, 21 ימים לפחות לפני פרסום ההודעה בדבר זימון האסיפה הכללית, וההודעה המקדימה נמסרה באותו מועד גם למפקח;</p>
+                  </content>
+                </point>
+                <point eId="point_11ג__point_א__point_5">
+                  <num>(5)</num>
+                  <content>
+                    <p>החלטות האסיפה הכללית על מינוי דירקטור או על הפסקת כהונתו יתקבלו ברוב קולות של המשתתפים בהצבעה; במניין קולות המשתתפים בהצבעה לא יובאו בחשבון קולות הנמנעים, אלא אם כן נקבע אחרת בתקנון התאגיד הבנקאי;</p>
+                  </content>
+                </point>
+                <point eId="point_11ג__point_א__point_6">
+                  <num>(6)</num>
+                  <content>
+                    <p>עלה מספר המועמדים לכהונה כדירקטורים שזכו ברוב קולות המשתתפים בהצבעה באסיפה הכללית, על מספר המשרות הפנויות לכהונה כאמור, ייבחרו המועמדים שזכו למספר הגבוה ביותר של תומכים בהצבעה באסיפה הכללית, אלא אם כן נקבע בתקנון התאגיד הבנקאי מנגנון שוויוני אחר שאישר המפקח.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_11ג__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>הוראות סעיף זה גוברות על כל הוראה סותרת בדין.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_11ד">
+          <heading>
+            <authorialNote placement="side">
+              <p>הצעת מועמדים לכהונת דירקטור בתאגיד בנקאי בלא גרעין שליטה</p>
+            </authorialNote>
+          </heading>
+          <num>11ד.</num>
+          <list>
+            <point eId="point_11ד__point_א">
+              <num>(א)</num>
+              <list>
+                <intro>
+                  <p>בתאגיד בנקאי בלא גרעין שליטה, יחולו לעניין הצעת מועמדים לכהונת דירקטורים, הוראות אלה:</p>
+                </intro>
+                <point eId="point_11ד__point_א__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>הוועדה למינוי דירקטורים בתאגידים בנקאיים שמונתה לפי <ref href="/akn/il/act/PrimaryLegislation/1981-04-26/147066#point_36א">סעיף 36א לחוק הבנקאות (רישוי)</ref> (בסעיף זה – הוועדה), תציע לאסיפה הכללית של התאגיד הבנקאי מועמדים לכהונת דירקטורים;</p>
+                  </content>
+                </point>
+                <point eId="point_11ד__point_א__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>הוועדה תציע, לפי הוראות פסקה (1), מועמדים לכהונת דירקטורים, כמספר המשרות הפנויות הדרוש לשם השלמת המספר המרבי של דירקטורים לפי הוראות ניהול בנקאי תקין בעניין דירקטוריון, שנתן המפקח לפי <ref href="#point_5">סעיף 5(ג1)</ref> (בסעיף קטן זה – ההוראה בעניין הדירקטוריון), ועוד מועמד אחד נוסף לכל אחד מסוגי הכשירות שיש למנות: דירקטור חיצוני לפי <ref href="/akn/il/act/PrimaryLegislation/1999-05-27/165159">חוק החברות</ref>, דירקטור חיצוני לפי ההוראה בעניין הדירקטוריון, ודירקטור אחר – שיתקיימו בכולם התנאים האמורים <ref href="#point_11ה">בסעיף 11ה(ב)</ref>;</p>
+                  </content>
+                </point>
+                <point eId="point_11ד__point_א__point_3">
+                  <num>(3)</num>
+                  <list>
+                    <intro>
+                      <p>נוסף על הוועדה, יהיו רשאים להציע לאסיפה הכללית של התאגיד הבנקאי, מועמדים לכהונת דירקטורים, רק אלה:</p>
+                    </intro>
+                    <point eId="point_11ד__point_א__point_3__point_א">
+                      <num>(א)</num>
+                      <content>
+                        <p>המחזיק יותר משניים וחצי אחוזים מסוג מסוים של אמצעי שליטה בתאגיד הבנקאי (בסעיף זה – מחזיק);</p>
+                      </content>
+                    </point>
+                    <point eId="point_11ד__point_א__point_3__point_ב">
+                      <num>(ב)</num>
+                      <content>
+                        <p>שניים או שלושה מחזיקים באמצעי שליטה בתאגיד הבנקאי, שכל אחד מהם מחזיק יותר מאחוז אחד ולא יותר משני אחוזים וחצי, מסוג מסוים של אמצעי שליטה בתאגיד הבנקאי, המחזיקים יחד לא פחות משני אחוזים וחצי ולא יותר מחמישה אחוזים, מסוג מסוים של אמצעי שליטה כאמור (בסעיף זה – חבר־מחזיקים), ובלבד שכל חבר בחבר־המחזיקים מסר לתאגיד הבנקאי דין וחשבון על החזקותיו כאמור <ref href="/akn/il/act/PrimaryLegislation/1981-04-26/147066#point_36">בסעיף 36(ב)(1) לחוק הבנקאות (רישוי)</ref>, ובמשך שלושה חודשים לפחות לפני ההודעה בדבר זימון האסיפה הכללית לא היתה בתוקף התנגדות של אותו חבר בחבר־מחזיקים לגילוי כאמור <ref href="/akn/il/act/PrimaryLegislation/1981-04-26/147066#point_36">בסעיף 36(ב)(1)(ג)</ref>;</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+                <point eId="point_11ד__point_א__point_4">
+                  <num>(4)</num>
+                  <content>
+                    <p>מחזיק או חבר־מחזיקים, לרבות כל חבר בחבר־המחזיקים, לא יציעו לפי הוראות פסקה (3) יותר ממועמד אחד לכהונה כדירקטור, ולא יציעו מועמדים נוספים לכהונת דירקטור כל עוד מכהן דירקטור שמונה על פי הצעתם, אלא על פי היתר שנתן הנגיד לאחר התייעצות עם ועדת הרישיונות; הוראת פסקה זו לא תחול על הצעת מועמד שיחליף דירקטור מכהן אשר נבחר על פי הצעת המחזיק או חבר־המחזיקים, לפי העניין;</p>
+                  </content>
+                </point>
+                <point eId="point_11ד__point_א__point_5">
+                  <num>(5)</num>
+                  <content>
+                    <p>חישוב שיעורי ההחזקה של מחזיקים כאמור בפסקה (3) יהיה במועד משלוח הצעת המועמד לכהונת דירקטור, ואולם לשם העלאת ההצעה באסיפה הכללית, על המחזיקים כאמור להחזיק בשיעורי ההחזקה האמורים גם במועד הקובע כמשמעותו <ref href="/akn/il/act/PrimaryLegislation/1999-05-27/165159#point_182">בסעיף 182(ב) ו־(ג) לחוק החברות</ref>.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_11ד__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>הוראות סעיף זה גוברות על כל הוראה סותרת בדין.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_11ה">
+          <heading>
+            <authorialNote placement="side">
+              <p>מינוי, כהונה והפסקת כהונה של דירקטורים בתאגיד בנקאי בלא גרעין שליטה</p>
+            </authorialNote>
+          </heading>
+          <num>11ה.</num>
+          <list>
+            <point eId="point_11ה__point_א">
+              <num>(א)</num>
+              <list>
+                <intro>
+                  <p>על מינוי דירקטורים בתאגיד בנקאי בלא גרעין שליטה, כהונתם והפסקת כהונתם, יחולו הוראות <ref href="#point_11ג">סעיף 11ג(א), למעט פסקה (3)</ref>, וכן הוראות אלה:</p>
+                </intro>
+                <point eId="point_11ה__point_א__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>הצבעה על מינוי דירקטורים או על הפסקת כהונתם תהיה רק באסיפה השנתית או באסיפה שכונסה לפי <ref href="/akn/il/act/PrimaryLegislation/1981-04-26/147066#point_35א">סעיף 35א לחוק הבנקאות (רישוי)</ref>, אלא אם כן אישר המפקח הצבעה כאמור באסיפה מיוחדת;</p>
+                  </content>
+                </point>
+                <point eId="point_11ה__point_א__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>ההודעה המקדימה כאמור <ref href="#point_11ג">בסעיף 11ג(א)(4)</ref> תימסר, במועד האמור <ref href="#point_11ג">באותו סעיף</ref>, גם לוועדה למינוי דירקטורים בתאגידים בנקאיים שמונתה לפי <ref href="/akn/il/act/PrimaryLegislation/1981-04-26/147066#point_36א">סעיף 36א לחוק הבנקאות (רישוי)</ref> (בסעיף זה – הוועדה);</p>
+                  </content>
+                </point>
+                <point eId="point_11ה__point_א__point_3">
+                  <num>(3)</num>
+                  <content>
+                    <p>נושא משרה בתאגיד הבנקאי, למעט דירקטור חיצוני במסגרת כהונתו בוועדה למינוי דירקטורים לפי <ref href="/akn/il/act/PrimaryLegislation/1981-04-26/147066#point_36א">סעיף 36א לחוק הבנקאות (רישוי)</ref>, לא יפעל למינוי דירקטור מסוים או למניעת מינויו, ואולם דירקטור יהיה רשאי להציע לוועדה את מועמדותו לכהונת דירקטור;</p>
+                  </content>
+                </point>
+                <point eId="point_11ה__point_א__point_4">
+                  <num>(4)</num>
+                  <list>
+                    <point eId="point_11ה__point_א__point_4__point_א">
+                      <num>(א)</num>
+                      <content>
+                        <p>תקופת כהונתו של דירקטור, שאינו דירקטור חיצוני כהגדרתו <ref href="/akn/il/act/PrimaryLegislation/1981-04-26/147066#point_36א">בסעיף 36א(ב)(3) לחוק הבנקאות (רישוי)</ref>, תהיה לא יותר משלוש שנים, וניתן לשוב ולמנותו לתקופות נוספות שלא יעלו על שלוש שנים כל אחת, ובלבד שתקופות כהונתו המצטברות לא יעלו על תשע שנים;</p>
+                      </content>
+                    </point>
+                    <point eId="point_11ה__point_א__point_4__point_ב">
+                      <num>(ב)</num>
+                      <content>
+                        <p>על אף האמור בפסקת משנה (א), הפך התאגיד הבנקאי לתאגיד בנקאי בלא גרעין שליטה, רשאי דירקטור המכהן בו ערב הפיכתו לתאגיד בנקאי בלא גרעין שליטה, להמשיך בכהונה עד לאסיפה השנתית הקרובה גם אם תקופות כהונתו המצטברות יעלו בשל כך על תשע שנים;</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+                <point eId="point_11ה__point_א__point_5">
+                  <num>(5)</num>
+                  <content>
+                    <p>באסיפה כללית של התאגיד הבנקאי לא יוחלפו מעל מחצית מהדירקטורים שכיהנו סמוך לאחר האסיפה השנתית הקודמת, אלא אם כן ניתן לכך אישור המפקח; עלה על מחצית מספר הדירקטורים שיש להחליפם באסיפה כללית כאמור, בשל הוראות פסקה (4), יפרשו באותה אסיפה כללית מחצית הדירקטורים המכהנים את התקופה הארוכה ביותר, ושאר הדירקטורים יהיו רשאים להמשיך בכהונה עד לאסיפה השנתית הקרובה; כיהנו שני דירקטורים או יותר מבין הדירקטורים כאמור תקופת כהונה שווה, יפרשו אלה מהם שתקבע האסיפה הכללית;</p>
+                  </content>
+                </point>
+                <point eId="point_11ה__point_א__point_6">
+                  <num>(6)</num>
+                  <content>
+                    <p>דירקטור, למעט דירקטור חיצוני כהגדרתו <ref href="/akn/il/act/PrimaryLegislation/1999-05-27/165159">בחוק החברות</ref>, שתקופת כהונתו הסתיימה, ובשל כך פחת מספר הדירקטורים בתאגיד הבנקאי ממספר הדירקטורים הראוי שקבע המפקח לפי <ref href="/akn/il/act/PrimaryLegislation/1981-04-26/147066#point_35א">סעיף 35א לחוק הבנקאות (רישוי)</ref>, או שבשל כך הרכב הדירקטוריון אינו עומד בכל דרישות הדין, כאמור <ref href="/akn/il/act/PrimaryLegislation/1981-04-26/147066#point_35א">באותו סעיף</ref>, רשאי, באישור המפקח, להמשיך בתפקידו למשך תקופה של שישה חודשים, או עד השלמת מספר הדירקטורים למספר הראוי כאמור או עד השלמת הרכב הדירקטוריון כך שיעמוד בדרישות הדין, לפי העניין, הכל לפי המוקדם; החליט דירקטור להמשיך בתפקידו לפי הוראות פסקה זו, וניתן אישורו של המפקח להמשך כהונתו, יודיע על כך הדירקטור לתאגיד הבנקאי, ואולם על אף המשך כהונתו כאמור יראו אותו לעניין <ref href="/akn/il/act/PrimaryLegislation/1981-04-26/147066#point_35א">סעיף 35א לחוק הבנקאות (רישוי)</ref>, כדירקטור שפסקה כהונתו.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_11ה__point_ב">
+              <num>(ב)</num>
+              <list>
+                <point eId="point_11ה__point_ב__point_1">
+                  <num>(1)</num>
+                  <list>
+                    <intro>
+                      <p>בתאגיד בנקאי בלא גרעין שליטה, לא ימונה ולא יכהן כדירקטור מי שמתקיים בו אחד מאלה:</p>
+                    </intro>
+                    <point eId="point_11ה__point_ב__point_1__point_א">
+                      <num>(א)</num>
+                      <content>
+                        <p>הוא או קרובו מחזיקים באמצעי שליטה מכל סוג שהוא, בתאגיד הבנקאי, בתאגיד הנשלט בידי התאגיד הבנקאי או במחזיק מהותי למעט החזקה במניות סחירות בשיעור שאינו עולה על רבע אחוז מההון המונפק והנפרע של מי מהם;</p>
+                      </content>
+                    </point>
+                    <point eId="point_11ה__point_ב__point_1__point_ב">
+                      <num>(ב)</num>
+                      <content>
+                        <p>מי שבשנתיים שקדמו למועד המינוי או ממועד המינוי ואילך, יש לו, או למי שהוא בקשר קרוב עמו, זיקה לתאגיד הבנקאי או לתאגיד שבשליטתו של התאגיד הבנקאי, לנושא משרה בתאגיד הבנקאי או למחזיק מהותי וכן מי שממועד המינוי ואילך, יש לו זיקה לקרוב של נושא משרה בתאגיד הבנקאי, לקרוב של מחזיק מהותי או לשותף של מחזיק מהותי; לעניין זה, כהונה כדירקטור בתאגיד בנקאי בלא גרעין שליטה של מועמד לכהונה נוספת כאמור, לא תיחשב זיקה.</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+                <point eId="point_11ה__point_ב__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>בלי לגרוע מהוראות פסקה (1)(ב), לא יכהן כדירקטור יחיד שיש לו, או למי שהוא בקשר קרוב עמו, קשרים עסקיים או מקצועיים עם התאגיד הבנקאי או עם תאגיד שבשליטתו של התאגיד הבנקאי, עם נושא משרה בתאגיד הבנקאי, או עם מחזיק מהותי שהציע את אותו מועמד לכהונת דירקטור, גם אם הקשרים כאמור אינם דרך כלל, למעט קשרים זניחים.</p>
+                  </content>
+                </point>
+                <point eId="point_11ה__point_ב__point_3">
+                  <num>(3)</num>
+                  <list>
+                    <intro>
+                      <p>בלי לגרוע מהוראות פסקאות (1) ו־(2), לא ימונה ולא יכהן דירקטור שמועמדותו הוצעה בידי הוועדה לפי <ref href="#point_11ד">סעיף 11ד(א)(1)</ref>, אם מתקיים בו אחד מאלה:</p>
+                    </intro>
+                    <point eId="point_11ה__point_ב__point_3__point_א">
+                      <num>(א)</num>
+                      <content>
+                        <p>יש לו זיקה לחבר הוועדה במועד המינוי;</p>
+                      </content>
+                    </point>
+                    <point eId="point_11ה__point_ב__point_3__point_ב">
+                      <num>(ב)</num>
+                      <content>
+                        <p>מתקיים בו האמור <ref href="/akn/il/act/PrimaryLegislation/1981-04-26/147066#point_36ב">בסעיף 36ב(ב)(3) לחוק הבנקאות (רישוי)</ref>;</p>
+                      </content>
+                    </point>
+                    <point eId="point_11ה__point_ב__point_3__point_ג">
+                      <num>(ג)</num>
+                      <content>
+                        <p>הורשע בעבירה שמפאת מהותה, חומרתה או נסיבותיה אין הוא ראוי לכהן בתפקיד, או תלוי ועומד נגדו כתב אישום בעבירה כאמור;</p>
+                      </content>
+                    </point>
+                    <point eId="point_11ה__point_ב__point_3__point_ד">
+                      <num>(ד)</num>
+                      <content>
+                        <p>מתקיים בו האמור <ref href="/akn/il/act/PrimaryLegislation/1999-05-27/165159#point_240">בסעיף 240(ג) לחוק החברות</ref>.</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+                <point eId="point_11ה__point_ב__point_4">
+                  <num>(4)</num>
+                  <content>
+                    <p>דירקטור שמועמדותו הוצעה בידי הוועדה לפי <ref href="#point_11ד">סעיף 11ד(א)(1)</ref>, יהיה בעל כשירות מקצועית או בעל מומחיות חשבונאית ופיננסית, בהתאם להוראות לפי <ref href="/akn/il/act/PrimaryLegislation/1999-05-27/165159#point_240">סעיף 240(א1) לחוק החברות</ref>.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_11ה__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>על אף הוראות סעיף קטן (ב), דירקטור המכהן בתאגיד בנקאי ערב הפיכתו לתאגיד בנקאי בלא גרעין שליטה, רשאי להמשיך ולכהן עד תום תקופת כהונתו גם אם לא מתקיימים בו התנאים הקבועים בסעיף הקטן האמור, אך לא יותר משלוש שנים ממועד הפיכתו של התאגיד הבנקאי לתאגיד בנקאי בלא גרעין שליטה, לפי המוקדם.</p>
+              </content>
+            </point>
+            <point eId="point_11ה__point_ג1">
+              <num>(ג1)</num>
+              <content>
+                <p>המפקח רשאי לאשר מינויו או כהונתו כדירקטור של מי שבשנתיים שקדמו למועד המינוי או ממועד המינוי ואילך יש לו, או למי שהוא בקשר קרוב עמו, זיקה למחזיק מהותי, לקרוב של מחזיק מהותי או לשותף של מחזיק מהותי, אף אם זיקה זו אינה זניחה, אם מצא כי בנסיבות העניין זיקה זו אינה מעוררת חשש לניגוד עניינים בכהונה.</p>
+              </content>
+            </point>
+            <point eId="point_11ה__point_ד">
+              <num>(ד)</num>
+              <content>
+                <p>הוראות סעיף זה גוברות על כל הוראה סותרת בדין.</p>
+              </content>
+            </point>
+            <point eId="point_11ה__point_ה">
+              <num>(ה)</num>
+              <list>
+                <intro>
+                  <p>בסעיף זה –</p>
+                </intro>
+                <point eId="point_11ה__point_ה__point_אסיפה_כללית">
+                  <content>
+                    <p>
+                      <def />”אסיפה כללית“, ”אסיפה מיוחדת“ ו”אסיפה שנתית“ – כהגדרתן <ref href="/akn/il/act/PrimaryLegislation/1999-05-27/165159">בחוק החברות</ref>;</p>
+                  </content>
+                </point>
+                <point eId="point_11ה__point_ה__point_קשר_קרוב">
+                  <content>
+                    <p>
+                      <def />”קשר קרוב“ – כהגדרתו <ref href="/akn/il/act/PrimaryLegislation/1981-04-26/147066#point_36ב">בסעיף 36ב(א) לחוק הבנקאות (רישוי)</ref>;</p>
+                  </content>
+                </point>
+                <point eId="point_11ה__point_ה__point_זיקה">
+                  <content>
+                    <p>
+                      <def />”זיקה“ – קיום יחסי עבודה, קיום קשרים עסקיים או מקצועיים דרך כלל, למעט קשרים זניחים, וכן כהונה כנושא משרה, ואולם קשרים עסקיים קמעונאיים שבין תאגיד ללקוח לא ייחשבו כזיקה;</p>
+                  </content>
+                </point>
+                <point eId="point_11ה__point_ה__point_מחזיק_מהותי">
+                  <content>
+                    <p>
+                      <def />”מחזיק מהותי“ – מי שמחזיק יותר משני אחוזים וחצי מסוג מסוים של אמצעי שליטה בתאגיד הבנקאי, מי ששולט במחזיק כאמור, מי שנשלט בידי מי מהם, חבר בחבר־מחזיקים כמשמעותו <ref href="#point_11ד">בסעיף 11ד(א)(3)(ב)</ref>, מי ששולט בחבר בחבר־מחזיקים כאמור, ומי שנשלט בידי מי מהם.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+          </list>
+        </point>
+        <point eId="point_12">
+          <heading>
+            <authorialNote placement="side">
+              <p>אגרות שנתיות</p>
+            </authorialNote>
+          </heading>
+          <num>12.</num>
+          <list>
+            <point eId="point_12__point_1">
+              <num>(1)</num>
+              <content>
+                <p>תאגיד בנקאי ישלם לאוצר המדינה כל שנה אגרת רשיון ובעד כל סניף אגרה נוספת; שר האוצר יקבע בצו, באישור ועדת הכספים של הכנסת, את שיעורי האגרות ומועדי תשלומן, ומותר לקבוע שיעורי אגרה מופחתים לבנק חוץ בהתחשב בהיקף פעילותו בישראל.</p>
+              </content>
+            </point>
+            <point eId="point_12__point_2">
+              <num>(2)</num>
+              <content>
+                <p>שר האוצר רשאי לקבוע בתקנות הוראות בדבר דינים וחשבונות שתאגיד בנקאי חייב להגיש לשם חישוב האגרות ובדבר סדרי תשלומן.</p>
+              </content>
+            </point>
+            <point eId="point_12__point_3">
+              <num>(3)</num>
+              <content>
+                <p>תאגיד בנקאי שלא שילם אגרה במועדה, דינו – קנס חמש מאות שקלים לכל יום פיגור.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_12א">
+          <heading>
+            <authorialNote placement="side">
+              <p xml:space="preserve"> </p>
+            </authorialNote>
+          </heading>
+          <num>12א.</num>
+          <content>
+            <p>
+              <wikicomment font-size="x-small">(בוטל).</wikicomment>
+            </p>
+          </content>
+        </point>
+        <point eId="point_13">
+          <heading>
+            <authorialNote placement="side">
+              <p>פדיון מוקדם של הלוואה</p>
+            </authorialNote>
+          </heading>
+          <num>13.</num>
+          <list>
+            <point eId="point_13__point_א">
+              <num>(א)</num>
+              <list>
+                <intro>
+                  <p>מי שקיבל מתאגיד בנקאי הלוואה לשם רכישת דירת מגורים או במישכון של דירת מגורים, רשאי, על אף כל הסכם הקובע אחרת, לפרעה לפני המועד שנקבע לפרעונה בתנאים אלה:</p>
+                </intro>
+                <point eId="point_13__point_א__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>סכום הפרעון המוקדם לא יפחת מעשרה אחוזים מהסכום המקורי של ההלוואה או מעשרה אחוזים מיתרת ההלוואה בצירוף הריבית והפרשי ההצמדה שנצברו ולא נפרעו עד יום הפרעון בפועל, לפי הגבוה;</p>
+                  </content>
+                </point>
+                <point eId="point_13__point_א__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>התאגיד הבנקאי רשאי להתנות פרעון מוקדם כאמור בתשלום עמלה בתנאים ובשיעור שקבע הנגיד בצו לאחר התייעצות עם הועדה ובאישור שר האוצר וועדת הכספים של הכנסת.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_13__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>הוראות סעיף קטן (א) יחולו גם על הלוואה כאמור בו שלגביה המחה התאגיד הבנקאי את זכויותיו כלפי הלווה למי שאינו תאגיד בנקאי.</p>
+              </content>
+            </point>
+            <point eId="point_13__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>תאגיד בנקאי לא ימחה הלוואה מן הסוג האמור בסעיף קטן (א) אלא אם כן נעשו הסדרים עם התאגיד הבנקאי הממחה או עם תאגיד אחר המבטיחים כי השירות ללקוח לא ייפגע פגיעה של ממש.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_13א">
+          <heading>
+            <authorialNote placement="side">
+              <p>חשבון משותף וכספת משותפת</p>
+            </authorialNote>
+          </heading>
+          <num>13א.</num>
+          <list>
+            <point eId="point_13א__point_א">
+              <num>(א)</num>
+              <content>
+                <p>קיבל תאגיד בנקאי כספים, ניירות ערך או מסמכים סחירים אחרים בחשבון משותף שלגביו הותנה עם התאגיד הבנקאי, כי בפטירת אחד מבעלי החשבון יהיה בעל החשבון הנותר בחיים או מי שפועל מכוחו כדין, זכאי להמשיך לעשות פעולות בחשבון האמור, יעמוד התנאי בתקפו, לענין היחסים שבין התאגיד הבנקאי לבין בעלי החשבון, גם לאחר הפטירה.</p>
+              </content>
+            </point>
+            <point eId="point_13א__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>הוראות סעיף קטן (א) יחולו בשינויים המחוייבים לפי הענין ובלי לגרוע מהוראת <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/חוק_מס_עזבון#point_13">סעיף 13(ב) לחוק מס עזבון, תש"ט–1949</ref>, על כספת שתאגיד בנקאי השכיר לשני אנשים או יותר בתנאי האמור.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_13ב">
+          <heading>
+            <authorialNote placement="side">
+              <p>פקדונות ללא תנועה</p>
+            </authorialNote>
+          </heading>
+          <num>13ב.</num>
+          <list>
+            <point eId="point_13ב__point_א">
+              <num>(א)</num>
+              <content>
+                <p>תאגיד בנקאי ינסה ליצור קשר עם בעל פקדון ללא תנועה סמוך למועד פרעונו של הפקדון; לגבי פקדון בר פרעון עם דרישה, יראו כמועד הפרעון את היום שבו הפך הפקדון לפקדון ללא תנועה.</p>
+              </content>
+            </point>
+            <point eId="point_13ב__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>סעיף זה יחול גם על כספים שנתקבלו בשל ניירות ערך שהוחזקו במשמרת אצל תאגיד בנקאי, והחובה לנסות וליצור קשר עם בעל הפקדון תחול סמוך למועד קבלת הכספים.</p>
+              </content>
+            </point>
+            <point eId="point_13ב__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>לא הצליח תאגיד בנקאי ליצור קשר עם בעל הפקדון תוך חדשיים, ישקיע את הכספים לזכותו באופן שקבע הנגיד באישור שר האוצר וועדת הכספים של הכנסת.</p>
+              </content>
+            </point>
+            <point eId="point_13ב__point_ד">
+              <num>(ד)</num>
+              <content>
+                <p>סעיף זה לא יחול על פקדון ללא תנועה בסכום שאינו עולה על מאה שקלים או על סכום אחר שקבע הנגיד באישור שר האוצר וועדת הכספים של הכנסת, ואולם רשאי תאגיד בנקאי לפעול על פי הוראות סעיף זה גם לגבי פקדון בסכום קטן מהסכום האמור.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_14">
+          <heading>
+            <authorialNote placement="side">
+              <p>הוצאת בנקנוטים</p>
+            </authorialNote>
+          </heading>
+          <num>14.</num>
+          <content>
+            <p>תאגיד בנקאי לא יוציא שטר למוכ"ז בר פרעון לפי דרישה.</p>
+          </content>
+        </point>
+        <point eId="point_14א">
+          <heading>
+            <authorialNote placement="side">
+              <p>יחס בין פריטים שונים</p>
+            </authorialNote>
+          </heading>
+          <num>14א.</num>
+          <list>
+            <point eId="point_14א__point_א">
+              <num>(א)</num>
+              <list>
+                <intro>
+                  <p>היה הנגיד סבור שהדבר דרוש לשם שמירה על יציבות התאגידים הבנקאיים, רשאי הוא, לאחר התייעצות עם הועדה, לקבוע בצו שיעורים יחסיים שתאגידים בנקאיים חייבים לקיים אותם – החל מהמועד שנקבע בצו – בפריטים, או בסוגים של פריטים, שבפסקאות (1) עד (5) וכהגדרתם בצו, לעומת פריטים, או סוגים של פריטים, שבפסקאות (6) עד (9) וכהגדרתם בצו; ואלה הפריטים:</p>
+                </intro>
+                <point eId="point_14א__point_א__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>ערבויות שערב להבטחת אשראי;</p>
+                  </content>
+                </point>
+                <point eId="point_14א__point_א__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>ערבויות שערב שלא להבטחת אשראי;</p>
+                  </content>
+                </point>
+                <point eId="point_14א__point_א__point_3">
+                  <num>(3)</num>
+                  <content>
+                    <p>התחייבויות שנתן לרגל אשראי תעודות;</p>
+                  </content>
+                </point>
+                <point eId="point_14א__point_א__point_4">
+                  <num>(4)</num>
+                  <content>
+                    <p>התחייבויות שנתן לרגל קיבולים, הסבים ונכיון משנה;</p>
+                  </content>
+                </point>
+                <point eId="point_14א__point_א__point_5">
+                  <num>(5)</num>
+                  <content>
+                    <p>התחייבויות תלויות שאינן מפורשות בפסקאות (1) עד (4);</p>
+                  </content>
+                </point>
+                <point eId="point_14א__point_א__point_6">
+                  <num>(6)</num>
+                  <content>
+                    <p>פקדונות המופקדים אצלו;</p>
+                  </content>
+                </point>
+                <point eId="point_14א__point_א__point_7">
+                  <num>(7)</num>
+                  <content>
+                    <p>הלוואות שקיבל;</p>
+                  </content>
+                </point>
+                <point eId="point_14א__point_א__point_8">
+                  <num>(8)</num>
+                  <content>
+                    <p>הון נפרע, קרנות הון וקרנות שמורות, לרבות יתרת רווחים נקיים שלא חולקו;</p>
+                  </content>
+                </point>
+                <point eId="point_14א__point_א__point_9">
+                  <num>(9)</num>
+                  <content>
+                    <p>נכסים, לרבות חובות המגיעים לו.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_14א__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>תאגיד בנקאי שהפר הוראה שנקבעה בצו לפי סעיף קטן (א), יהא חייב לשלם לבנק ישראל, לכל יום שבו נמשכת ההפרה, אחוז מסויים של הסכום שבו עלו הערבויות או ההתחייבויות על השיעור שנקבע בצו; האחוז ייקבע על־ידי הנגיד בצו, לאחר התייעצות עם הועדה ולא יעלה על 10% לשנה.</p>
+              </content>
+            </point>
+            <point eId="point_14א__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>תאגיד בנקאי שהפר הוראה שנקבעה בצו לפי סעיף קטן (א), רשאי הנגיד להורות לו כי עד להודעה חדשה לא יוסיף להתחייב בהתחייבויות ולתת ערבויות כאמור בפסקאות (1) עד (5) לסעיף קטן (א), לתת אשראי, להשקיע כספים ולחלק רווחים, ובלבד שהנגיד לא יעשה כן אלא לאחר מתן אזהרה. הוראה כאמור יכול שתחול על כל הפעולות האמורות או על מקצתן, ויכול שתהיה מותנית.</p>
+              </content>
+            </point>
+            <point eId="point_14א__point_ד">
+              <num>(ד)</num>
+              <content>
+                <p>תאגיד בנקאי שהפר הוראה שניתנה על פי סעיף קטן (ג), דינו – קנס 10,000 לירות, וכל מנהל או פקיד אחראי שביודעין עשה את הפעולה המהווה הפרת ההוראה או לא נקט אמצעים סבירים כדי למנוע הפרתה, דינו – מאסר שנתיים.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_14ב">
+          <heading>
+            <authorialNote placement="side">
+              <p>עבירות מנהלי התאגיד הבנקאי</p>
+            </authorialNote>
+          </heading>
+          <num>14ב.</num>
+          <list>
+            <point eId="point_14ב__point_א">
+              <num>(א)</num>
+              <content>
+                <p>חבר דירקטוריון או מנהל עסקים של תאגיד בנקאי אשר ביודעין עשה בעסקי התאגיד הבנקאי בדרך שפגעה ביכלתו לקיים את התחייבויותיו, דינו – מאסר ארבע שנים או קנס של 100,000 לירות.</p>
+              </content>
+            </point>
+            <point eId="point_14ב__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>חבר דירקטוריון או מנהל עסקים של תאגיד בנקאי אשר ביודעין עשה בעסקי התאגיד הבנקאי בדרך שפגעה בניהול תקין של עסקיו, דינו – מאסר שנה או קנס 20,000 לירות.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_14ג">
+          <heading>
+            <authorialNote placement="side">
+              <p>עבירות לגבי רישומים בספרים</p>
+            </authorialNote>
+          </heading>
+          <num>14ג.</num>
+          <list>
+            <intro>
+              <p>תאגיד בנקאי שעבר על הוראות <ref href="/akn/il/act/PrimaryLegislation/1999-05-27/165159">פקודת החברות</ref> לענין ניהול ספרים ופנקסים על ידי חברה, דינו – קנס 100,000 לירות, וכל בעל זכות חתימה שהשתתף בפועל בביצוע העבירה וכל מי שהיה אותה שעה חבר דירקטוריון, מנהל עסקים, חשב ראשי או יחיד של התאגיד הבנקאי, דינו – מאסר שנתיים או קנס 25,000 לירות, אם לא הוכיח אחד משני אלה:</p>
+            </intro>
+            <point eId="point_14ג__point_1">
+              <num>(1)</num>
+              <content>
+                <p>העבירה נעברה שלא בידיעתו ותפקידו לא חייבו לדעת על המעשה;</p>
+              </content>
+            </point>
+            <point eId="point_14ג__point_2">
+              <num>(2)</num>
+              <content>
+                <p>הוא נקט בכל האמצעים הסבירים לשמירתן של ההוראות האמורות.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_14ד">
+          <heading>
+            <authorialNote placement="side">
+              <p>ערבות תאגיד בנקאי לתיווך שטרות</p>
+            </authorialNote>
+          </heading>
+          <num>14ד.</num>
+          <list>
+            <point eId="point_14ד__point_א">
+              <num>(א)</num>
+              <list>
+                <intro>
+                  <p>לענין סעיף זה –</p>
+                </intro>
+                <point eId="point_14ד__point_א__point_שטר">
+                  <content>
+                    <p>
+                      <def />”שטר“ – שטר חליפין או שטר חוב כמשמעותם <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_השטרות">בפקודת השטרות</ref>;</p>
+                  </content>
+                </point>
+                <point eId="point_14ד__point_א__point_חברה־בת">
+                  <content>
+                    <p>
+                      <def />”חברה־בת“ – כמשמעותה <ref href="/akn/il/act/PrimaryLegislation/1968-08-22/150242">בחוק ניירות ערך, תשכ"ח–1968</ref>, למעט חברה־בת שהיא מוסד בנקאי.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_14ד__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>תאגיד בנקאי המתווך שטר בין מוכר לבין קונה, או מוכר שטר שנעשה בידי אדם אחר, יהיה ערב כלפי הקונה לפרעון השטר עד תום 12 חודש מתאריך פרעון השטר, זולת אם הועבר השטר מידי הקונה שלא מכוח דין; הוראה זו באה להוסיף על כל חובה לפי דין אחר ולא לגרוע ממנה, ורואים תמיד ערבות לפי סעיף זה כערבות להבטחת אשראי <ref href="#point_14א">שסעיף 14א(א)(1)</ref> דן בה.</p>
+              </content>
+            </point>
+            <point eId="point_14ד__point_ג">
+              <num>(ג)</num>
+              <list>
+                <intro>
+                  <p>פרע תאגיד בנקאי שטר לפי הוראות סעיף קטן (ב), הרי אם –</p>
+                </intro>
+                <point eId="point_14ד__point_ג__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>היה התאגיד הבנקאי אחראי לפרעון בשל תיווך בשטר בין מוכר לבין קונה – זכאי הוא לחזור על המוכר ועל כל הצדדים החבים על פי השטר כלפי המוכר ולהיפרע מהם;</p>
+                  </content>
+                </point>
+                <point eId="point_14ד__point_ג__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>היה התאגיד הבנקאי אחראי לפרעון בשל מכירת השטר שאחז בו – יהיו לו כל הזכויות שהיו לו נגד כל הצדדים על פי השטר לפני שמכר אותו.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_14ד__point_ד">
+              <num>(ד)</num>
+              <list>
+                <intro>
+                  <p>בתביעה נגד תאגיד בנקאי על פי סעיף קטן (ב), יהיה תאגיד בנקאי מנוע מלטעון שלא תיווך או לא מכר שטר אם יוכח אחת מאלה:</p>
+                </intro>
+                <point eId="point_14ד__point_ד__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>הקונה מסר לתאגיד הבנקאי או לחברה־בת את הכספים ששימשו לקניית שטר לשם ביצוע הקניה או לשם השקעה אחרת על ידי המקבל;</p>
+                  </content>
+                </point>
+                <point eId="point_14ד__point_ד__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>הקונה מסר את הכספים כאמור בפסקה (1) במשרדי התאגיד הבנקאי לפקיד התאגיד הבנקאי או לאדם אחר בנסיבות שבהן אפשר היה להניח כי הוא פועל כפקיד התאגיד הבנקאי בתחום תפקידו בתאגיד הבנקאי.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_14ד__point_ה">
+              <num>(ה)</num>
+              <content>
+                <p>הוראות סעיפים קטנים (ד) ו־(ז) לא יחולו אם הכסף נמסר מחוץ לישראל לחברה־בת המנהלת את עסקיה בחוץ לארץ והכסף נמסר לשם קניית שטר שמקום פרעונו אינו בישראל.</p>
+              </content>
+            </point>
+            <point eId="point_14ד__point_ו">
+              <num>(ו)</num>
+              <content>
+                <p>הוראות סעיף זה לא יחולו על שטר המדינה, שטר הסוכנות היהודית או שטר שנעשה בידי מוסד לאומי שקבע הנגיד באישור ועדת הכספים של הכנסת.</p>
+              </content>
+            </point>
+            <point eId="point_14ד__point_ז">
+              <num>(ז)</num>
+              <content>
+                <p>סעיף זה יחול על אף כל הסכם הקובע הוראה אחרת, זולת אם ההסכם נעשה בכתב וקונה השטר הוא תאגיד בנקאי או קונה אחר אשר לגביו נתן המפקח אישור כללי או מיוחד לכך.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_14ה">
+          <heading>
+            <authorialNote placement="side">
+              <p>מבקר פנימי</p>
+            </authorialNote>
+          </heading>
+          <num>14ה.</num>
+          <list>
+            <point eId="point_14ה__point_א">
+              <num>(א)</num>
+              <content>
+                <p>דירקטוריון של תאגיד בנקאי ימנה מבקר פנימי לתאגיד על פי הצעת ועדת הביקורת של הדירקטוריון (להלן – ועדת הביקורת).</p>
+              </content>
+            </point>
+            <point eId="point_14ה__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>המבקר הפנימי יבדוק, בין היתר, את תקינות הפעולות של התאגיד הבנקאי מבחינת השמירה על החוק, השמירה על טוהר המידות, השמירה על החסכון והיעילות והשמירה על נוהל בנקאי תקין, וכן יבדוק האם מקויימות הוראות המפקח על הבנקים.</p>
+              </content>
+            </point>
+            <point eId="point_14ה__point_ג">
+              <num>(ג)</num>
+              <list>
+                <intro>
+                  <p>על המבקר הפנימי יחולו, בכפוף ליתר הוראות סעיף זה ובשינויים המחוייבים לפי הענין, הוראות סעיפים אלה של <ref href="/akn/il/act/PrimaryLegislation/1992-04-09/153135">חוק הביקורת הפנימית, התשנ"ב–1992</ref> (בסעיף זה – חוק הביקורת הפנימית): <ref href="/akn/il/act/PrimaryLegislation/1992-04-09/153135#point_3">3(א) למעט פסקה (2)</ref>, <ref href="/akn/il/act/PrimaryLegislation/1992-04-09/153135#point_7">7 עד 10</ref>, <ref href="/akn/il/act/PrimaryLegislation/1992-04-09/153135#point_14">14(ב) ו־(ג)</ref><ref href="/akn/il/act/PrimaryLegislation/1992-04-09/153135#point_24">ו־24(ג)</ref>; ואולם –</p>
+                </intro>
+                <point eId="point_14ה__point_ג__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>על אף האמור <ref href="/akn/il/act/PrimaryLegislation/1992-04-09/153135#point_3">בפסקה (5) של סעיף 3(א) לחוק הביקורת הפנימית</ref>, רשאי המפקח, במקרים חריגים, לאשר מינוי מבקר פנימי שלא מתקיים בו האמור <ref href="/akn/il/act/PrimaryLegislation/1999-05-27/165159#point_147">בסעיף 147 לחוק החברות</ref>, אם מצא שהוא בעל ניסיון משמעותי בתפקידים בכירים בתחומי פעילותו של תאגיד בנקאי, והוא התחייב להשתתף בהשתלמות כאמור <ref href="/akn/il/act/PrimaryLegislation/1999-05-27/165159#point_147">בסעיף 147 לחוק החברות</ref> בסמוך ככל הניתן לאחר מינויו; הוראות פסקה זו יחולו על אף האמור <ref href="/akn/il/act/PrimaryLegislation/1999-05-27/165159#point_147">בסעיף 147 לחוק החברות</ref> לעניין תאגיד בנקאי שהוא חברה ציבורית;</p>
+                  </content>
+                </point>
+                <point eId="point_14ה__point_ג__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>
+                      <ref href="/akn/il/act/PrimaryLegislation/1992-04-09/153135#point_7">בסעיף 7 לחוק הביקורת הפנימית</ref>, בכל מקום, במקום ”הממונה“ יקראו ”הדירקטוריון“.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_14ה__point_ד">
+              <num>(ד)</num>
+              <content>
+                <p>המבקר הפנימי יפעל על פי תקנים מקצועיים מקובלים ובהנחיית ועדות הביקורת וידווח על ממצאיו ליושב ראש הדירקטוריון, למנהל הכללי וליושב ראש ועדת הביקורת.</p>
+              </content>
+            </point>
+            <point eId="point_14ה__point_ה">
+              <num>(ה)</num>
+              <content>
+                <p>מינוי המבקר הפנימי והפסקת כהונתו או השעייתו מתפקידו ייעשו בידי הדירקטוריון על פי הצעת ועדת הביקורת.</p>
+              </content>
+            </point>
+            <point eId="point_14ה__point_ו">
+              <num>(ו)</num>
+              <content>
+                <p>המפקח רשאי, לאחר התייעצות בועדה המייעצת, לקבוע כללים לביצוע הוראות סעיף זה.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_14ו">
+          <heading>
+            <authorialNote placement="side">
+              <p xml:space="preserve"> </p>
+            </authorialNote>
+          </heading>
+          <num>14ו.</num>
+          <content>
+            <p>
+              <wikicomment font-size="x-small">(בוטל).</wikicomment>
+            </p>
+          </content>
+        </point>
+        <point eId="point_14ז">
+          <heading>
+            <authorialNote placement="side">
+              <p xml:space="preserve"> </p>
+            </authorialNote>
+          </heading>
+          <num>14ז.</num>
+          <content>
+            <p>
+              <wikicomment font-size="x-small">(בוטל).</wikicomment>
+            </p>
+          </content>
+        </point>
+        <point eId="point_14ח">
+          <heading>
+            <authorialNote placement="side">
+              <p>עיצום כספי</p>
+            </authorialNote>
+          </heading>
+          <num>14ח.</num>
+          <list>
+            <point eId="point_14ח__point_א">
+              <num>(א)</num>
+              <list>
+                <intro>
+                  <p>היה למפקח יסוד סביר להניח כי תאגיד בנקאי עשה אחת מאלה, רשאי הוא להטיל עליו עיצום כספי בסך מיליון שקלים חדשים:</p>
+                </intro>
+                <point eId="point_14ח__point_א__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>הפר הוראה מהוראות ניהול בנקאי תקין;</p>
+                  </content>
+                </point>
+                <point eId="point_14ח__point_א__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>הפר הוראה מהוראות שקבע הנגיד בצו לפי <ref href="#point_13">סעיף 13(א)(2)</ref>;</p>
+                  </content>
+                </point>
+                <point eId="point_14ח__point_א__point_3">
+                  <num>(3)</num>
+                  <content>
+                    <p>הפר הוראה מהוראות שקבע הנגיד לפי <ref href="#point_13ב">סעיף 13ב(ג)</ref>.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_14ח__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>היה למפקח יסוד סביר להניח כי דירקטור מונה או כיהן בתאגיד בנקאי בניגוד להוראות <ref href="#point_11א1">סעיפים 11א1</ref><ref href="#point_11ה">או 11ה</ref>, רשאי הוא להטיל עליו עיצום כספי בסך 60,000 שקלים חדשים.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_14ט">
+          <heading>
+            <authorialNote placement="side">
+              <p>עיצום כספי מופחת</p>
+            </authorialNote>
+          </heading>
+          <num>14ט.</num>
+          <list>
+            <point eId="point_14ט__point_א">
+              <num>(א)</num>
+              <content>
+                <p>המפקח אינו רשאי להטיל עיצום כספי הנמוך מן העיצום הכספי הקבוע <קישור סוג="1" עוגן="">בפרק זה</קישור>, אלא לפי הוראות סעיף קטן (ב).</p>
+              </content>
+            </point>
+            <point eId="point_14ט__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>הנגיד, בהתייעצות עם שר המשפטים, רשאי לקבוע סוגי מקרים, נסיבות ושיקולים שבשלהם רשאי המפקח להטיל עיצום כספי הנמוך מהעיצום הכספי הקבוע <ref href="#point_14ח">בסעיף 14ח</ref>, ובשיעורי הפחתה מרביים שיקבע.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_14י">
+          <heading>
+            <authorialNote placement="side">
+              <p>הפרה נמשכת והפרה חוזרת</p>
+            </authorialNote>
+          </heading>
+          <num>14י.</num>
+          <list>
+            <point eId="point_14י__point_א">
+              <num>(א)</num>
+              <content>
+                <p>בהפרה נמשכת ייווסף על העיצום הכספי הקבוע לאותה הפרה, עיצום כספי בשיעור החלק החמישים שלו לכל יום שבו נמשכת ההפרה.</p>
+              </content>
+            </point>
+            <point eId="point_14י__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>בהפרה חוזרת ייווסף על העיצום הכספי שניתן היה להטיל בשלה אילו היתה הפרה ראשונה, סכום השווה למחצית העיצום הכספי כאמור; לענין זה, ”הפרה חוזרת“ – הפרת הוראה מההוראות המפורטות <ref href="#point_14ח">בסעיף 14ח</ref>, בתוך שנתיים מהפרה קודמת של אותה הוראה שבשלה הוטל על המפר עיצום כספי.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_14יא">
+          <heading>
+            <authorialNote placement="side">
+              <p>דרישת העיצום</p>
+            </authorialNote>
+          </heading>
+          <num>14יא.</num>
+          <content>
+            <p>עיצום כספי ישולם לפי דרישת המפקח, בתוך שלושים ימים מיום מסירתה; הדרישה תוצא לאחר שנמסרה הודעה למי שאליו נועדה על הכוונה להוציאה וניתנה לו הזדמנות להשמיע את טענותיו; בהודעה כאמור יצוין כי בשל הפרה נמשכת יחויב המפר בעיצום כספי נוסף לפי הוראות <ref href="#point_14י">סעיף 14י(א)</ref>.</p>
+          </content>
+        </point>
+        <point eId="point_14יב">
+          <heading>
+            <authorialNote placement="side">
+              <p>הפרשי הצמדה וריבית</p>
+            </authorialNote>
+          </heading>
+          <num>14יב.</num>
+          <content>
+            <p>לא שולם עיצום כספי במועד, ייווספו עליו לתקופת הפיגור הפרשי הצמדה וריבית לפי <ref href="/akn/il/act/PrimaryLegislation/1979-01-01/148271">חוק פסיקת ריבית והצמדה, התשכ"א–1961</ref> (בחוק זה – הפרשי הצמדה וריבית), עד תשלומו.</p>
+          </content>
+        </point>
+        <point eId="point_14יג">
+          <heading>
+            <authorialNote placement="side">
+              <p>גביה</p>
+            </authorialNote>
+          </heading>
+          <num>14יג.</num>
+          <content>
+            <p>העיצום הכספי ייגבה לאוצר המדינה, ועל גבייתו תחול <ref href="/akn/il/act/PrimaryLegislation/1933-12-31/2001803">פקודת המסים (גביה)</ref>.</p>
+          </content>
+        </point>
+        <point eId="point_14יד">
+          <heading>
+            <authorialNote placement="side">
+              <p>פרסום על הטלת עיצום כספי</p>
+            </authorialNote>
+          </heading>
+          <num>14יד.</num>
+          <content>
+            <p>הוטל עיצום כספי לפי <ref href="#point_14ח">סעיף 14ח</ref>, רשאי המפקח להורות למי שחייב בתשלומו להודיע ללקוחות או לפרסם בעיתון או בכל דרך אחרת שיורה המפקח, את דבר הטלת העיצום, את שמו של מי שחייב בתשלום, את מהות ההפרה שבשלה הוטל ונסיבותיה, ואת סכום העיצום.</p>
+          </content>
+        </point>
+        <point eId="point_14טו">
+          <heading>
+            <authorialNote placement="side">
+              <p>ערעור</p>
+            </authorialNote>
+          </heading>
+          <num>14טו.</num>
+          <list>
+            <point eId="point_14טו__point_א">
+              <num>(א)</num>
+              <content>
+                <p>על דרישה לתשלום עיצום כספי ניתן לערער לפני בית משפט השלום בירושלים בתוך שלושים ימים מיום שנמסרה הדרישה.</p>
+              </content>
+            </point>
+            <point eId="point_14טו__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>אין בהגשת הערעור כדי לעכב תשלום עיצום כספי, אלא אם כן הסכים לכך המפקח או הורה בית המשפט אחרת.</p>
+              </content>
+            </point>
+            <point eId="point_14טו__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>התקבל הערעור, יוחזר העיצום הכספי בתוספת הפרשי הצמדה וריבית מיום תשלומו עד יום החזרתו.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_15">
+          <heading>
+            <authorialNote placement="side">
+              <p>ענשים</p>
+            </authorialNote>
+          </heading>
+          <num>15.</num>
+          <list>
+            <point eId="point_15__point_א">
+              <num>(א)</num>
+              <list>
+                <point eId="point_15__point_א__point_1">
+                  <num>(1)</num>
+                  <list>
+                    <intro>
+                      <p>כל תאגיד בנקאי אשר:–</p>
+                    </intro>
+                    <point eId="point_15__point_א__point_1__point_א">
+                      <num>(א)</num>
+                      <content>
+                        <p>במזיד אינו מקיים הוראות פקודה זו, או</p>
+                      </content>
+                    </point>
+                    <point eId="point_15__point_א__point_1__point_ב">
+                      <num>(ב)</num>
+                      <content>
+                        <p>מוציא בנקנוטים בארץ או מפיץ או מרשה להפיץ בה בנקנוטים שהוצאו על ידו או בנקנוטים אחרים שהוצאתם לא הותרה ע"י הנגיד,</p>
+                      </content>
+                    </point>
+                    <wrapup eId="point_15__point_א__point_1__wrapup_none">
+                      <content>
+                        <p>הרי עפ"י בקשתו של היועץ המשפטי לממשלה שתוגש לרושם החברות יימחק שמו של התאגיד הבנקאי מפנקס החברות.</p>
+                      </content>
+                    </wrapup>
+                  </list>
+                </point>
+                <point eId="point_15__point_א__point_2">
+                  <num>(2)</num>
+                  <list>
+                    <intro>
+                      <p>כל אדם שהוא מנהל או מנהל עסקים של תאגיד בנקאי והוא –</p>
+                    </intro>
+                    <point eId="point_15__point_א__point_2__point_א">
+                      <num>(א)</num>
+                      <content>
+                        <p>אינו נוקט בכל הפעולות המתאימות כדי שהתאגיד הבנקאי ימלא אחרי דרישותיה של פקודה זו, או</p>
+                      </content>
+                    </point>
+                    <point eId="point_15__point_א__point_2__point_ב">
+                      <num>(ב)</num>
+                      <content>
+                        <p>אינו נוקט בכל הפעולות המתאימות כדי להבטיח את נכונותו של כל דו"ח המוגש בהתאם להוראות פקודה זו,</p>
+                      </content>
+                    </point>
+                    <wrapup eId="point_15__point_א__point_2__wrapup_none">
+                      <content>
+                        <p>הרי בצאתו חייב בדין יהא צפוי על כל עברה ועברה למאסר לא יותר משתי שנים או לקנס לא יותר משלש מאות לירות או לשני העונשין כאחד.</p>
+                      </content>
+                    </wrapup>
+                  </list>
+                </point>
+              </list>
+            </point>
+            <point eId="point_15__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>מי שהפר הוראה מהוראות <ref href="#point_11א">סעיף 11א</ref>, או שאינו מוסר מידע לאחר שנדרש למסרו לפי הוראות <ref href="#point_11ב">סעיף 11ב</ref>, או שפעל בניגוד להוראות <ref href="#point_11ג">סעיף 11ג</ref>, דינו – מאסר שנה או כפל הקנס הקבוע <ref href="/akn/il/act/PrimaryLegislation/1977-08-04/2002251#point_61">בסעיף 61(א)(3) לחוק העונשין</ref>.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_15א">
+          <heading>
+            <authorialNote placement="side">
+              <p>סודיות</p>
+            </authorialNote>
+          </heading>
+          <num>15א.</num>
+          <list>
+            <point eId="point_15א__point_א">
+              <num>(א)</num>
+              <content>
+                <p>לא יגלה אדם ידיעה שנמסרה לו ולא יראה מסמך שהוגש לו לפי פקודה זו או לפי <ref href="/akn/il/act/PrimaryLegislation/1981-04-26/147066">חוק הבנקאות (רישוי)</ref> אולם מותר לגלות ידיעה אם הנגיד יראה צורך בכך לצרכי תביעה פלילית, או אם הידיעה או המסמך נתקבלו מתאגיד בנקאי – בהסכמתו.</p>
+              </content>
+            </point>
+            <point eId="point_15א__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>לענין גילוי מסמכים וידיעות שנתקבלו לפי פקודה זו או לפי <ref href="/akn/il/act/PrimaryLegislation/1981-04-26/147066">חוק הבנקאות (רישוי)</ref> לבית המשפט, דין בנק ישראל או המפקח ועובדיו כדין המדינה ועובדיה.</p>
+              </content>
+            </point>
+            <point eId="point_15א__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>העובר על סעיף זה או על הוראת <ref href="#point_6">סעיף 6(5)</ref>, דינו – מאסר שנה או קנס 10,000 לירות.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_15א1">
+          <heading>
+            <authorialNote placement="side">
+              <p>מסירת מידע לרשות פיקוח במדינת חוץ</p>
+            </authorialNote>
+          </heading>
+          <num>15א1.</num>
+          <list>
+            <point eId="point_15א1__point_א">
+              <num>(א)</num>
+              <content>
+                <p>על אף הוראות <ref href="#point_15א">סעיף 15א</ref>, רשאי המפקח למסור ידיעה שבידיו לרשות מוסמכת במדינת חוץ שתפקידה לפקח על סניף של תאגיד בנקאי באותה מדינה, על מוסד בנקאי שהואגד באותה מדינה, הנשלט בידי תאגיד בנקאי, או על תאגיד זר שהוא בנק חוץ הפועל בישראל או שהוא שולט בתאגיד בנקאי.</p>
+              </content>
+            </point>
+            <point eId="point_15א1__point_ב">
+              <num>(ב)</num>
+              <list>
+                <intro>
+                  <p>המפקח לא ימסור ידיעה לפי הוראות סעיף קטן (א) אלא אם כן נוכח כי התמלאו שניים אלה:</p>
+                </intro>
+                <point eId="point_15א1__point_ב__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>הידיעה נתבקשה לצורך מילוי תפקידיה של הרשות המוסמכת, בפיקוח על יציבות הסניף, המוסד הבנקאי או התאגיד הזר, כאמור בסעיף קטן (א), לפי הענין;</p>
+                  </content>
+                </point>
+                <point eId="point_15א1__point_ב__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>הרשות המפקחת אישרה שחלה עליה חובת סודיות בדומה להוראות <ref href="#point_15א">סעיף 15א</ref>, או שהתחייבה שלא להעביר את הידיעה לאחר.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_15א1__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>המפקח לא ימסור ידיעה כאמור אם נקבע לגביה כי היא עלולה לפגוע בחקירה תלויה ועומדת או בביטחון המדינה.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_15א2">
+          <heading>
+            <authorialNote placement="side">
+              <p>מסירת מידע לרשות פיקוח בישראל</p>
+            </authorialNote>
+          </heading>
+          <num>15א2.</num>
+          <list>
+            <point eId="point_15א2__point_א">
+              <num>(א)</num>
+              <content>
+                <p>על אף הוראות <ref href="#point_15א">סעיף 15א</ref>, רשאי המפקח לגלות ידיעה או להראות מסמך לעובד בנק ישראל, לוועדה ליציבות פיננסית כהגדרתה <ref href="/akn/il/act/PrimaryLegislation/2010-03-24/336425">בחוק בנק ישראל</ref> וכן לרשות ניירות ערך כמשמעותה <ref href="/akn/il/act/PrimaryLegislation/1968-08-22/150242#point_2">בסעיף 2 לחוק ניירות ערך, התשכ"ח–1968</ref>, למפקח על נותני שירותים פיננסיים שמונה לפי <ref href="/akn/il/act/PrimaryLegislation/2016-08-01/571496">חוק הפיקוח על שירותים פיננסיים (שירותים פיננסיים מוסדרים), התשע"ו–2016</ref>, או לממונה על שוק ההון, ביטוח וחיסכון כמשמעותו <ref href="/akn/il/act/PrimaryLegislation/1981-04-23/148363">בחוק הפיקוח על שירותים פיננסיים (ביטוח), התשמ"א–1981</ref> (בסעיף זה – הגוף הנעבר), ובלבד שנוכח כי הידיעה או המסמך מתבקשים לצורך מילוי תפקידיו של הגוף הנעבר.</p>
+              </content>
+            </point>
+            <point eId="point_15א2__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>לא יגלה אדם ידיעה ולא יראה מסמך שנמסרו לו לפי הוראות סעיף זה; העובר על הוראת סעיף קטן זה, דינו – מאסר שנה או קנס כאמור <ref href="#point_15א">בסעיף 15א(ג)</ref>.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_15ב">
+          <heading>
+            <authorialNote placement="side">
+              <p>תחולת הוראות על אגודות שיתופיות</p>
+            </authorialNote>
+          </heading>
+          <num>15ב.</num>
+          <list>
+            <intro>
+              <p>בהפעלת הוראות פקודה זו לגבי אגודה שיתופית שהיא תאגיד בנקאי יחולו הוראותיה בשינויים המחוייבים לפי הענין, ובמיוחד לענין זה –</p>
+            </intro>
+            <point eId="point_15ב__point_1">
+              <num>(1)</num>
+              <content>
+                <p>מקום שמדובר בדירקטוריון יראו כאילו מדובר ב”ועד“ כמשמעותו <ref href="/akn/il/act/PrimaryLegislation/1933-12-31/2001743">בפקודת האגודות השיתופיות</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_15ב__point_2">
+              <num>(2)</num>
+              <content>
+                <p>מקום שמדובר בחבר דירקטוריון, מנהל עסקים, בעל זכות חתימה או חשב, יראו כאילו מדובר ב”פקיד“, כמשמעותו <ref href="/akn/il/act/PrimaryLegislation/1933-12-31/2001743">בפקודת האגודות השיתופיות</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_15ב__point_3">
+              <num>(3)</num>
+              <content>
+                <p>
+                  <wikicomment font-size="x-small">(בוטל).</wikicomment>
+                </p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_15ג">
+          <heading>
+            <authorialNote placement="side">
+              <p>תאגידים שדינם כדין תאגיד בנקאי</p>
+            </authorialNote>
+          </heading>
+          <num>15ג.</num>
+          <list>
+            <point eId="point_15ג__point_א">
+              <num>(א)</num>
+              <content>
+                <p>לענין <ref href="#point_5">סעיפים 5</ref>, <ref href="#point_8א">8א</ref>, <ref href="#point_8ג">8ג</ref>, <ref href="#point_8טו">8טו עד 8כא</ref>, <ref href="#point_13">13</ref>, <ref href="#point_13א">13א</ref>, <ref href="#point_14ח">14ח(א)(1) ו־(2)</ref><ref href="#point_14ט">ו־14ט עד 14טו</ref>, דין תאגיד כאמור <ref href="/akn/il/act/PrimaryLegislation/1981-04-26/147066#point_11">בסעיפים 11(א)(3א) עד (3ג) ו־11(ב) לחוק הבנקאות (רישוי)</ref> כדין תאגיד בנקאי.</p>
+              </content>
+            </point>
+            <point eId="point_15ג__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>לעניין <ref href="#point_5">סעיפים 5</ref>, <ref href="#point_8א">8א</ref>, <ref href="#point_8ג">8ג</ref>, <ref href="#point_8ד1">8ד1 עד 8ה1</ref>, <ref href="#point_9">9 עד 11א1</ref>, <ref href="#point_12">12</ref>, <ref href="#point_14ב">14ב</ref>, <ref href="#point_14ג">14ג</ref>, <ref href="#point_14ה">14ה</ref>, <ref href="#point_14ח">14ח(א)(1)</ref>, <ref href="#point_14ט">14ט עד 14טו</ref>, <ref href="#point_15">ו־15 עד 15א2</ref>, דין סולק כהגדרתו <ref href="/akn/il/act/PrimaryLegislation/1981-04-26/147066#point_36ט">בסעיף 36ט לחוק הבנקאות (רישוי)</ref>, כדין תאגיד בנקאי.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_15ג1">
+          <heading>
+            <authorialNote placement="side">
+              <p>שמירת דינים</p>
+            </authorialNote>
+          </heading>
+          <num>15ג1.</num>
+          <content>
+            <p>הוראות <ref href="#point_8ד1">סעיפים 8ד1</ref>, <ref href="#point_8ד2">8ד2</ref><ref href="#point_8ה1">ו־8ה1</ref> באות להוסיף על הוראות כל דין, לרבות נהלים והוראות של המפקח.</p>
+          </content>
+        </point>
+        <point eId="point_15ד">
+          <heading>
+            <authorialNote placement="side">
+              <p>ביצוע</p>
+            </authorialNote>
+          </heading>
+          <num>15ד.</num>
+          <content>
+            <p>שר האוצר ממונה על ביצוע פקודה זו.</p>
+          </content>
+        </point>
+        <point eId="point_16">
+          <heading>
+            <authorialNote placement="side">
+              <p>ביטול</p>
+            </authorialNote>
+          </heading>
+          <num>16.</num>
+          <content>
+            <p>פקודת הבנקאות, פקודת הבנקים (תקונים והוראות נוספות), 1936, ופקודת הבנקים (תקונים והוראות נוספות), 1937, מבוטלות בזה.</p>
+          </content>
+        </point>
+      </list>
+      <appendix eId="appendix_הראשונה">
+        <num></num>
+        <title>
+          <content>
+            <p>התוספת הראשונה</p>
+          </content>
+        </title>
+        <list>
+          <point eId="appendix_הראשונה__point_none">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num></num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">(הטופס הושמט).</wikicomment>
+              </p>
+            </content>
+          </point>
+        </list>
+      </appendix>
+      <appendix eId="appendix_השניה">
+        <num></num>
+        <title>
+          <content>
+            <p>התוספת השניה</p>
+          </content>
+        </title>
+        <list>
+          <point eId="appendix_השניה__point_none">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num></num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">(הטופס הושמט).</wikicomment>
+              </p>
+            </content>
+          </point>
+        </list>
+      </appendix>
+    </body>
+    <conclusions eId="eId">
+      <p class="signatures">
+        <signature>
+          <p>
+            <person refersTo="הרולד_מקמיכאל">הרולד מקמיכאל</person>
+            <role refersTo="נציב_עליון.">נציב עליון.</role>
+          </p>
+        </signature>
+      </p>
+    </conclusions>
+  </act>
+</akomaNtoso>

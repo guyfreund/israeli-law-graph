@@ -1,0 +1,620 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion" name="publicLaw">
+    <meta>
+      <identification source="#kensset">
+        <FRBRWork>
+          <FRBRthis value="/akn/il/act/SecondaryLegislation/1990-02-27/100021751/main" />
+          <FRBRuri value="/akn/il/act/SecondaryLegislation/1990-02-27/100021751" />
+          <FRBRdate date="1990-02-27" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRcountry value="israel" />
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/il/act/SecondaryLegislation/1990-02-27/100021751/he@/main" />
+          <FRBRuri value="/akn/il/act/SecondaryLegislation/1990-02-27/100021751/he@" />
+          <FRBRdate date="1990-02-27" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRlanguage language="hebrew" />
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/il/act/SecondaryLegislation/1990-02-27/100021751/he@/main.xml" />
+          <FRBRuri value="/akn/il/act/SecondaryLegislation/1990-02-27/100021751/he@" />
+          <FRBRdate date="1990-02-27" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRformat value="xml" />
+        </FRBRManifestation>
+      </identification>
+      <classification source="#kensset">
+        <keyword value="{classificationValue}" showAs="{classificationValue}" dictionary="#classification_dictionary" />
+      </classification>
+      <lifecycle source="#kensset">
+        <eventRef eId="eventRef_1" date="1990-02-27" source="#kensset" type="generation" />
+      </lifecycle>
+      <references source="#kensset">
+        <TLCOrganization eId="kensset" href="/ontology/organization/akn/knesset" showAs="Kensset" type="generation" />
+        <TLCRole eId="author" href="/ontology/role/akn/author" showAs="Author of Document" />
+        <TLCProcess eId="inforce" href="/ontology/process/akn/inforce" showAs="In force" />
+        <TLCTerm eId="term_1" href="/ontology/term/אבזר/100021751" showAs="אבזר" />
+        <TLCTerm eId="term_2" href="/ontology/term/זרם_דלף/100021751" showAs="זרם_דלף" />
+        <TLCTerm eId="term_3" href="/ontology/term/חי/100021751" showAs="חי" />
+        <TLCTerm eId="term_4" href="/ontology/term/חשמלאי/100021751" showAs="חשמלאי" />
+        <TLCTerm eId="term_5" href="/ontology/term/כבל/100021751" showAs="כבל" />
+        <TLCTerm eId="term_6" href="/ontology/term/לוח_חשמל/100021751" showAs="לוח_חשמל" />
+        <TLCTerm eId="term_7" href="/ontology/term/לוח_ראשי/100021751" showAs="לוח_ראשי" />
+        <TLCTerm eId="term_8" href="/ontology/term/מבודד/100021751" showAs="מבודד" />
+        <TLCTerm eId="term_9" href="/ontology/term/מבטח/100021751" showAs="מבטח" />
+        <TLCTerm eId="term_10" href="/ontology/term/מוליך/100021751" showAs="מוליך" />
+        <TLCTerm eId="term_11" href="/ontology/term/מכשיר_חשמלי/100021751" showAs="מכשיר_חשמלי" />
+        <TLCTerm eId="term_12" href="/ontology/term/מעגל_סופי/100021751" showAs="מעגל_סופי" />
+        <TLCTerm eId="term_13" href="/ontology/term/מפסק/100021751" showAs="מפסק" />
+        <TLCTerm eId="term_14" href="/ontology/term/מפסק_אוטומטי/100021751" showAs="מפסק_אוטומטי" />
+        <TLCTerm eId="term_15" href="/ontology/term/מפסק_מגן_הפועל_בזרם_דלף/100021751" showAs="מפסק_מגן_הפועל_בזרם_דלף" />
+        <TLCTerm eId="term_16" href="/ontology/term/מפסק_ראשי/100021751" showAs="מפסק_ראשי" />
+        <TLCTerm eId="term_17" href="/ontology/term/מתח_גבוה/100021751" showAs="מתח_גבוה" />
+        <TLCTerm eId="term_18" href="/ontology/term/מתח_נמוך/100021751" showAs="מתח_נמוך" />
+        <TLCTerm eId="term_19" href="/ontology/term/מתח_נמוך_מאוד/100021751" showAs="מתח_נמוך_מאוד" />
+        <TLCTerm eId="term_20" href="/ontology/term/מיתקן_חשמלי/100021751" showAs="מיתקן_חשמלי" />
+        <TLCTerm eId="term_21" href="/ontology/term/מיתקן_משוחרר_ממתח/100021751" showAs="מיתקן_משוחרר_ממתח" />
+        <TLCTerm eId="term_22" href="/ontology/term/נתיך/100021751" showAs="נתיך" />
+        <TLCTerm eId="term_23" href="/ontology/term/סוג_I/100021751" showAs="סוג_I" />
+        <TLCTerm eId="term_24" href="/ontology/term/סוג_II/100021751" showAs="סוג_II" />
+        <TLCTerm eId="term_25" href="/ontology/term/סוג_III/100021751" showAs="סוג_III" />
+        <TLCTerm eId="term_26" href="/ontology/term/פתיל/100021751" showAs="פתיל" />
+        <TLCTerm eId="term_27" href="/ontology/term/קו_תקשורת/100021751" showAs="קו_תקשורת" />
+        <TLCTerm eId="term_28" href="/ontology/term/קו_בזק/100021751" showAs="קו_בזק" />
+        <TLCPerson eId="יצחק_שמיר" href="/ontology/person/יצחק_שמיר" showAs="יצחק שמיר" />
+        <TLCRole eId="ראש_הממשלה_ושר_העבודה_והרווחה" href="ontology/role/akn/ראש_הממשלה_ושר_העבודה_והרווחה" showAs="ראש הממשלה ושר העבודה והרווחה" />
+      </references>
+      <temporalData source="#kensset">
+        <temporalGroup eId="tmpg_1" />
+      </temporalData>
+      <Publication></Publication>
+      <proprietary wikiversion="9/11/2020 2:01:23 PM" />
+    </meta>
+    <body period="#tmpg_1">
+      <title eId="title">
+        <content>
+          <p>תקנות הבטיחות בעבודה (חשמל), התש"ן–1990</p>
+        </content>
+      </title>
+      <preamble eId="eId">
+        <p>בתוקף סמכותי לפי <ref href="/akn/il/act/PrimaryLegislation/1970-08-30/2002270#point_173">סעיפים 173</ref>, <ref href="/akn/il/act/PrimaryLegislation/1970-08-30/2002270#point_180">180</ref>, <ref href="/akn/il/act/PrimaryLegislation/1970-08-30/2002270#point_181">181</ref>, <ref href="/akn/il/act/PrimaryLegislation/1970-08-30/2002270#point_182">182</ref>, <ref href="/akn/il/act/PrimaryLegislation/1970-08-30/2002270#point_216">ו־216</ref><ref href="/akn/il/act/PrimaryLegislation/1970-08-30/2002270">לפקודת הבטיחות בעבודה [נוסח חדש], התש"ל–1970</ref>, אני מתקין תקנות אלה:</p>
+      </preamble>
+      <list>
+        <point eId="point_1" class="definitions">
+          <heading>
+            <authorialNote placement="side">
+              <p>הגדרות</p>
+            </authorialNote>
+          </heading>
+          <num>1.</num>
+          <list>
+            <intro>
+              <p>בתקנות אלה –</p>
+            </intro>
+            <point eId="point_1__point_אבזר">
+              <content>
+                <p>
+                  <def />”אבזר“ – פריט של ציוד חשמלי המשמש לתמסורת או לחלוקה של אנרגיה חשמלית;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_זרם_דלף">
+              <content>
+                <p>
+                  <def />”זרם דלף“ – זרם הדולף דרך בידוד או על פניו בהשפעת המתח;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_חי">
+              <content>
+                <p>
+                  <def />”חי“ – מצב של מוליך כשהוא מחובר למקור של מתח חשמלי באופן גלווני, השראתי או כשהוא טעון חשמל, לרבות מוליך האפס;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_חשמלאי">
+              <content>
+                <p>
+                  <def />”חשמלאי“ – בעל רשיון לעסוק בביצוע עבודות חשמל לפי <ref href="/akn/il/act/PrimaryLegislation/1954-09-03/147403">חוק החשמל, התשי"ד–1954</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_כבל">
+              <content>
+                <p>
+                  <def />”כבל“ – מוליך יחיד מתכתי מבודד בעל עטיפה, או מספר מוליכים מבודדים מאוגדים תוך ייצורם, כשהם בעלי עטיפה משותפת בהתאם לתנאי התקן;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_לוח_חשמל">
+              <content>
+                <p>
+                  <def />”לוח חשמל“ – מסד והציוד החשמלי המורכב עליו לפיקוד ולפיקוח על מיתקן חשמלי;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_לוח_ראשי">
+              <content>
+                <p>
+                  <def />”לוח ראשי“ – לוח חשמל הניזון במישרין ממקור ההספקה של מיתקן לפיקוד ולפיקוח על מיתקן המחובר אליו בשלמותו;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_מבודד">
+              <content>
+                <p>
+                  <def />”מבודד“ – מופרד באופן גלווני על ידי חומר בידוד;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_מבטח">
+              <content>
+                <p>
+                  <def />”מבטח“ – אבזר לניתוק אוטומטי של זרם חשמלי במיתקן כאשר עצמתו גדולה מעצמת הזרם הנקוב שלו; מבטח יכול להיות משני סוגים: נתיך או מפסק אוטומטי;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_מוליך">
+              <content>
+                <p>
+                  <def />”מוליך“ – גוף המיועד להעביר זרם חשמלי;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_מכשיר_חשמלי">
+              <content>
+                <p>
+                  <def />”מכשיר חשמלי“ – ציוד חשמלי המיועד להמרה במתכוון של אנרגיה חשמלית, באנרגיה חשמלית אחרת או באנרגיה מסוג אחר;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_מעגל_סופי">
+              <content>
+                <p>
+                  <def />”מעגל סופי“ – מעגל הניזון דרך מבטח והמיועד להולכת זרם חשמלי במישרין למכשירים צורכי זרם, או לציוד חשמלי אחר, המותקנים באותו מעגל;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_מפסק">
+              <content>
+                <p>
+                  <def />”מפסק“ – מכשיר המיועד להפסקה ולחיבור במתכוון של זרם חשמלי במיתקן;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_מפסק_אוטומטי">
+              <content>
+                <p>
+                  <def />”מפסק אוטומטי“ – מבטח בעל מנגנון מכני לניתוק זרם, במקרה של זרם יתר;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_מפסק_מגן_הפועל_בזרם_דלף">
+              <content>
+                <p>
+                  <def />”מפסק מגן הפועל בזרם דלף“ – התקן מיתוג המיועד לנתק אוטומטית את המיתקן המוגן על ידו ממקור הזינה במקרה של הופעת זרם דלף במיתקן;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_מפסק_ראשי">
+              <content>
+                <p>
+                  <def />”מפסק ראשי“ – מכשיר המיועד להפסקה ולחיבור במתכוון של זרם חשמלי במיתקן בשלמותו, כאשר העומס מחובר בו;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_מתח_גבוה">
+              <content>
+                <p>
+                  <def />”מתח גבוה“ – מתח בין מוליכים העולה על 1000 וולט;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_מתח_נמוך">
+              <content>
+                <p>
+                  <def />”מתח נמוך“ – מתח בין מוליכים העולה על 50 וולט ואינו עולה על 1000 וולט, ולמעט רשת כבלים כמשמעותה <ref href="/akn/il/act/PrimaryLegislation/2001-08-09/171095#point_6א">בסעיף 6א לחוק הבזק, התשמ"ב–1982</ref> (להלן – חוק הבזק) שמתחה אינו עולה על 65 וולט;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_מתח_נמוך_מאוד">
+              <content>
+                <p>
+                  <def />”מתח נמוך מאוד“ – מתח בין מוליכים שאינו עולה על 50 וולט;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_מיתקן_חשמלי">
+              <content>
+                <p>
+                  <def />”מיתקן חשמלי“ – מיתקן המשמש לשם ייצור חשמל, הולכתו, הפצתו, צריכתו, צבירתו או שינויו (טרנספורמציה), לרבות מבנים, מכונות, מכשירים, מצברים, מוליכים, אבזרים, וציוד חשמלי קבוע או מיטלטל הקשורים במיתקן;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_מיתקן_משוחרר_ממתח">
+              <content>
+                <p>
+                  <def />”מיתקן משוחרר ממתח“ – מיתקן חשמלי מופסק מנותק ומקוצר;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_נתיך">
+              <content>
+                <p>
+                  <def />”נתיך“ – מבטח הפועל על ידי אלמנט ניתך;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_סוג_I">
+              <content>
+                <p>
+                  <def />”סוג I“ – ציוד חשמלי שלכל חלקיו החיים יש לפחות בידוד תפעולי ושמותקן בו הדק או מגע לחיבור הארקת מגן;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_סוג_II">
+              <content>
+                <p>
+                  <def />”סוג II“ – ציוד חשמלי המיועד לזינה במתח נמוך שחלקיו החיים מבודדים בבידוד כפול או בבידוד מוגבר;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_סוג_III">
+              <content>
+                <p>
+                  <def />”סוג III“ – ציוד חשמלי המיועד לזינה במתח נמוך מאוד ושאינו כולל מעגלים פנימיים או חיצוניים הפועלים במתח שונה ממתח זה;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_פתיל">
+              <content>
+                <p>
+                  <def />”פתיל“ – כבל כפיף;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_קו_תקשורת">
+              <content>
+                <p>
+                  <def />”קו תקשורת“ – כבל המותקן בעיקרו למטרת תקשורת, לרבות קו בזק;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_קו_בזק">
+              <content>
+                <p>
+                  <def />”קו בזק“ – כבל המותקן בעיקרו למטרות בזק כמשמעותו <ref href="/akn/il/act/PrimaryLegislation/2001-08-09/171095#point_1">בסעיף 1 לחוק הבזק</ref>, או לרשת כבלים כמשמעותה <ref href="/akn/il/act/PrimaryLegislation/2001-08-09/171095#point_6א">בסעיף 6א לחוק הבזק</ref>.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_2">
+          <heading>
+            <authorialNote placement="side">
+              <p>מוליכי חשמל על־קרקעיים</p>
+            </authorialNote>
+          </heading>
+          <num>2.</num>
+          <list>
+            <point eId="point_2__point_א">
+              <num>(א)</num>
+              <content>
+                <p>לא יימצאו במפעל מוליכים חשופים חיים (תחת מתח).</p>
+              </content>
+            </point>
+            <point eId="point_2__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>על אף האמור בתקנת משנה (א), ניתן להתקין מוליך חשוף בהתקנה גלויה במקום שבו תנאי הסביבה מביאים לידי קלקול או לבלאי מהיר של הבידוד, או אם אין אפשרות אחרת לתת זינה למיתקן; ואולם לא יותקן מוליך חשוף בהתקנה גלויה אלא כשהגישה אליו היא לחשמלאי בלבד, וגישה באקראי אליו או נגיעה בו בלתי אפשריים.</p>
+              </content>
+            </point>
+            <point eId="point_2__point_ג">
+              <num>(ג)</num>
+              <list>
+                <intro>
+                  <p>כבלים או פתילי חשמל מבודדים, זמניים, המיועדים להזנת כלים חשמליים או מכשירים חשמליים מיטלטלים, יותקנו באופן המונע פגיעה בהם או היפגעות מהם. חיבורם יהיה באחד האופנים הבאים:</p>
+                </intro>
+                <point eId="point_2__point_ג__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>לרשת החשמל דרך מפסק מגן המופעל בזרם דלף ברגישות של 0.03 אמפר;</p>
+                  </content>
+                </point>
+                <point eId="point_2__point_ג__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>למקור זינה במתח נמוך מאוד.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_2__point_ד">
+              <num>(ד)</num>
+              <content>
+                <p>על אף האמור בתקנת משנה (א), במקום בו עובדים כלי תחבורה או כלי הרמה, יתקין תופס המפעל כבלים, פתילי חשמל, או מוליכים חשופים, בגובה ובאופן שלא תהיה אפשרות של היתקלות הכלים בהם.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_3">
+          <heading>
+            <authorialNote placement="side">
+              <p>חציית קווי חשמל או קווי תקשורת</p>
+            </authorialNote>
+          </heading>
+          <num>3.</num>
+          <list>
+            <point eId="point_3__point_א">
+              <num>(א)</num>
+              <content>
+                <p>כבלים או פתילי חשמל זמניים המיועדים לזינת כלים או מכשירים מיטלטלים לא יעברו מעל קווי חשמל קבועים או קווי תקשורת ולא יגעו בהם.</p>
+              </content>
+            </point>
+            <point eId="point_3__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>כבלים או פתילי חשמל זמניים המיועדים לזינת כלים או מכשירים מיטלטלים, העוברים מתחת קווי חשמל או תקשורת לא יתקרבו לקווים האמורים ויותקנו בהתאם <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/תקנות_הבזק_והחשמל_התקרבויות_והצטלבויות_בין_קווי_בזק_לבין_קווי_חשמל">לתקנות הבזק והחשמל (התקרבויות והצטלבויות בין קווי בזק לבין קווי חשמל), התשמ"ו–1989</ref>.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_4">
+          <heading>
+            <authorialNote placement="side">
+              <p>לוח חשמל קבוע</p>
+            </authorialNote>
+          </heading>
+          <num>4.</num>
+          <list>
+            <point eId="point_4__point_א">
+              <num>(א)</num>
+              <content>
+                <p>לוח חשמל יהיה עשוי חומר בלתי דליק או כבה מאליו.</p>
+              </content>
+            </point>
+            <point eId="point_4__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>הלוח יותקן במקום נוח לגישה ולטיפול, עם מעברים נאותים; המקום יהיה מואר ומאוורר; בחדר חשמל או בארון בו הותקן לוח חשמל, לא יאוחסנו חמרים או חפצים כלשהם, לרבות ציוד או כלים.</p>
+              </content>
+            </point>
+            <point eId="point_4__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>הלוח יהיה מוגן במיוחד מפני פגיעות מכניות במקומות שסכנה כזאת קיימת.</p>
+              </content>
+            </point>
+            <point eId="point_4__point_ד">
+              <num>(ד)</num>
+              <content>
+                <p>חלקים חשופים חיים של הלוח יהיו מוגנים מפני נגיעה מקרית.</p>
+              </content>
+            </point>
+            <point eId="point_4__point_ה">
+              <num>(ה)</num>
+              <content>
+                <p>הלוח יהיה מוגן מפני התזת מים, הצטברות לחות, אבק ולכלוך, במקומות שסכנה כזאת קיימת.</p>
+              </content>
+            </point>
+            <point eId="point_4__point_ו">
+              <num>(ו)</num>
+              <content>
+                <p>הלוח יהיה מוגן מפני השפעה קורוזיבית של חמרים כימיים, במקומות שסכנה כזאת קיימת.</p>
+              </content>
+            </point>
+            <point eId="point_4__point_ז">
+              <num>(ז)</num>
+              <content>
+                <p>המבטחים והמפסקים של כל מעגל יסומנו בסימון ברור ובר־קיימא לשם זיהוי השתייכות לחלקי המיתקן שעליהם הם מפקחים.</p>
+              </content>
+            </point>
+            <point eId="point_4__point_ח">
+              <num>(ח)</num>
+              <content>
+                <p>לכל לוח ראשי יותקן מפסק ראשי.</p>
+              </content>
+            </point>
+            <point eId="point_4__point_ט">
+              <num>(ט)</num>
+              <content>
+                <p>לוח ייקבע ביציבות לקיר או למבנה תומך אחר על ידי חיזוק בלתי מתפרק או המתפרק באמצעות כלים בלבד.</p>
+              </content>
+            </point>
+            <point eId="point_4__point_י">
+              <num>(י)</num>
+              <content>
+                <p>לוח מתח נמוך המיועד לטיפול גם מצדו האחורי, יהיה מרוחק מהקיר 70 סנטימטרים לפחות.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_5">
+          <heading>
+            <authorialNote placement="side">
+              <p>לוח חשמל לזינת מכשירים חשמליים מיטלטלים המוחזקים ביד</p>
+            </authorialNote>
+          </heading>
+          <num>5.</num>
+          <list>
+            <point eId="point_5__point_א">
+              <num>(א)</num>
+              <content>
+                <p>לוח חשמל המיועד לזינת מכשירים חשמליים מיטלטלים המוחזקים ביד, יצוייד במפסק מגן המופעל בזרם דלף, ברגישות של 0.03 אמפר לכל היותר; מפסק זה יופעל לניסוי אחת לחודש באמצעות לחיץ הביקורת שלו.</p>
+              </content>
+            </point>
+            <point eId="point_5__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>בתי תקע הניזונים ממעגל סופי והמשמשים להפעלת מכשירים חשמליים מיטלטלים המוחזקים ביד יוגנו על ידי מפסק מגן המופעל בזרם דלף ברגישות של 0.03 אמפר.</p>
+              </content>
+            </point>
+            <point eId="point_5__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>לוח חשמל לזינת מכשירים חשמליים מיטלטלים המוחזקים ביד יכול להיות מיטלטל או קבוע.</p>
+              </content>
+            </point>
+            <point eId="point_5__point_ד">
+              <num>(ד)</num>
+              <content>
+                <p>לוח חשמל מיטלטל יהיה מסוג II.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_6">
+          <heading>
+            <authorialNote placement="side">
+              <p>מכשיר חשמלי מיטלטל המוחזק ביד</p>
+            </authorialNote>
+          </heading>
+          <num>6.</num>
+          <list>
+            <point eId="point_6__point_א">
+              <num>(א)</num>
+              <content>
+                <p>מכשיר חשמלי מיטלטל המוחזק ביד בעת השימוש בו, יהיה מסוג II או מסוג III.</p>
+              </content>
+            </point>
+            <point eId="point_6__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>על אף האמור בתקנת משנה (א), מותר להשתמש במכשיר חשמלי מיטלטל ידני כבד מסוג I, המוחזק ביד (כגון מקדחה שקוטר המקדח שלה מעל ל־16 מ"מ) ובלבד שיוזן דרך מפסק מגן לזרם דלף ברגישות של 0.03 אמפר לכל היותר, או דרך שנאי מבדל.</p>
+              </content>
+            </point>
+            <point eId="point_6__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>ציוד חשמלי של מעגל סופי יתאים לתנאים הקיימים במקום ההתקנה, כגון: רטיבות, סכנה של פגיעות מכניות, השפעה כימית, אש, התפוצצות, הצטברות אבק או לכלוך העלולים לפגוע באוורור התקין.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_7">
+          <heading>
+            <authorialNote placement="side">
+              <p>מנורות חשמל</p>
+            </authorialNote>
+          </heading>
+          <num>7.</num>
+          <list>
+            <point eId="point_7__point_א">
+              <num>(א)</num>
+              <content>
+                <p>מנורות חשמל ואבזריהן יותקנו בגובה של 2 מטרים לפחות מעל פני הקרקע, הרצפה, או משטח קבוע שמיועד להימצאות בני אדם.</p>
+              </content>
+            </point>
+            <point eId="point_7__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>מנורות חשמל ואבזריהן יהיו מוגנים בפני פגיעה מכנית וחדירת נוזלים במקומות שסכנה כזאת קיימת.</p>
+              </content>
+            </point>
+            <point eId="point_7__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>מנורות חשמל מיטלטלות המוחזקות ביד יופעלו במתח נמוך מאוד.</p>
+              </content>
+            </point>
+            <point eId="point_7__point_ד">
+              <num>(ד)</num>
+              <content>
+                <p>מנורות חשמל מיטלטלות המורכבות על כנים (זרקורים) יופעלו במתח נמוך מאוד, או יוזנו דרך מפסק מגן המופעל בזרם דלף ברגישות של 0.03 אמפר לכל היותר.</p>
+              </content>
+            </point>
+            <point eId="point_7__point_ה">
+              <num>(ה)</num>
+              <content>
+                <p>על אף האמור בתקנת משנה (א), יכול שמנורות המורכבות על מכונות ועל ציוד תעשייתי אחר יהיו בגובה של פחות מ־2 מטרים; במקרה כזה יהיו המנורות מסוג II או מסוג III, או יוזנו דרך מפסק מגן המופעל בזרם דלף ברגישות של 0.03 אמפר לכל היותר.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_8">
+          <heading>
+            <authorialNote placement="side">
+              <p>ביצוע עבודות במיתקן משוחרר ממתח גבוה</p>
+            </authorialNote>
+          </heading>
+          <num>8.</num>
+          <list>
+            <intro>
+              <p>עבודות בהעדר מתח יש לבצע בדרך הבאה:</p>
+            </intro>
+            <point eId="point_8__point_א">
+              <num>(א)</num>
+              <content>
+                <p>פעולות מתוכננות של ניתוק מיתקן חשמלי, בדיקת העדר מתח, התקנת מקצרים וחיבורו מחדש למתח חייבות להיעשות לפי הוראה בכתב מאת חשמלאי.</p>
+              </content>
+            </point>
+            <point eId="point_8__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>החלק של המיתקן החשמלי שבו אמורה להתבצע העבודה יופסק וינותק ממקור המתח באופן גלוי לעין ויובטח בידי חשמלאי על ידי התקן נעילה אמין ושלט אזהרה מתאים.</p>
+              </content>
+            </point>
+            <point eId="point_8__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>החשמלאי יבחן העדר מתח באמצעות בוחן מתח מתאים; נוכח החשמלאי בהעדר מתח, יקצר את כל מוליכי המופעים ואת מוליך האפס להארקה.</p>
+              </content>
+            </point>
+            <point eId="point_8__point_ד">
+              <num>(ד)</num>
+              <content>
+                <p>רק לאחר השלמת כל הפעולות האמורות יורשה האחראי לביצוע העבודה להתחיל בביצועה.</p>
+              </content>
+            </point>
+            <point eId="point_8__point_ה">
+              <num>(ה)</num>
+              <content>
+                <p>העבודות במיתקן חשמלי למתח גבוה יבוצעו בהשגחתו של חשמלאי.</p>
+              </content>
+            </point>
+            <point eId="point_8__point_ו">
+              <num>(ו)</num>
+              <content>
+                <p>חיבור מחדש של מתח למיתקן החשמלי יבוצע בידי חשמלאי ורק לאחר קבלת הודעה, בכתב, מהאחראי על ביצוע העבודה, שכל העובדים עזבו את מקום העבודה, רוכזו במקום מוסכם או שוחררו ושאפשר לחבר מתח.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_9">
+          <heading>
+            <authorialNote placement="side">
+              <p>ביצוע עבודות תיקון ותחזוקה בציוד אשר מופעל באנרגיה חשמלית</p>
+            </authorialNote>
+          </heading>
+          <num>9.</num>
+          <list>
+            <point eId="point_9__point_א">
+              <num>(א)</num>
+              <content>
+                <p>בכל מקרה של עבודת תיקון ותחזוקה ינותק ציוד ממקור אנרגיה חשמלית; הניתוק יתבצע באמצעות מפסק של הציוד באופן גלוי לעין ויישמר על ידי התקן נעילה אמין אשר בשליטת מבצע עבודות התיקון או התחזוקה; המפסק יסומן בשלט נראה לעין שבו ייאמר: ”אין להפעיל – המכונה בטיפול“.</p>
+              </content>
+            </point>
+            <point eId="point_9__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>במקרים בהם הציוד הקיים אינו מאפשר נעילה, חייב תופס המפעל להבטיח באופן אחר ניתוק המתח ואי חיבורו מחדש עד לסיום העבודות.</p>
+              </content>
+            </point>
+            <point eId="point_9__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>לפני פירוק חלקים אשר מהווים רצף של הארקה, לרבות צנרת מים מתכתית, מד־מים או פס הארקה, יותקן גשר אשר יבטיח את רציפות ההארקה.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_10">
+          <heading>
+            <authorialNote placement="side">
+              <p>מיתקן חשמל הפועל באטמוספירה נפיצה</p>
+            </authorialNote>
+          </heading>
+          <num>10.</num>
+          <content>
+            <p>מיתקן חשמלי הפועל באטמוספירה נפיצה חייב להיות מהסוג המונע התפוצצות; המיתקן יהיה מותאם לתקן ישראלי ת"י 786.</p>
+          </content>
+        </point>
+        <point eId="point_11">
+          <heading>
+            <authorialNote placement="side">
+              <p>ביטול</p>
+            </authorialNote>
+          </heading>
+          <num>11.</num>
+          <content>
+            <p>תקנות הבטיחות בעבודה (חשמל), התשמ"ו–1986 – בטלות.</p>
+          </content>
+        </point>
+      </list>
+    </body>
+    <conclusions eId="eId">
+      <p class="signatures">
+        <signature>
+          <p>
+            <person refersTo="יצחק_שמיר">יצחק שמיר</person>
+            <role refersTo="ראש_הממשלה_ושר_העבודה_והרווחה">ראש הממשלה ושר העבודה והרווחה</role>
+          </p>
+        </signature>
+      </p>
+    </conclusions>
+  </act>
+</akomaNtoso>

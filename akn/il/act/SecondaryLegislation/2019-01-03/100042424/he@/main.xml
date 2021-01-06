@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion" name="publicLaw">
+    <meta>
+      <identification source="#kensset">
+        <FRBRWork>
+          <FRBRthis value="/akn/il/act/SecondaryLegislation/2019-01-03/100042424/main" />
+          <FRBRuri value="/akn/il/act/SecondaryLegislation/2019-01-03/100042424" />
+          <FRBRdate date="2019-01-03" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRcountry value="israel" />
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/il/act/SecondaryLegislation/2019-01-03/100042424/he@/main" />
+          <FRBRuri value="/akn/il/act/SecondaryLegislation/2019-01-03/100042424/he@" />
+          <FRBRdate date="2019-01-03" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRlanguage language="hebrew" />
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/il/act/SecondaryLegislation/2019-01-03/100042424/he@/main.xml" />
+          <FRBRuri value="/akn/il/act/SecondaryLegislation/2019-01-03/100042424/he@" />
+          <FRBRdate date="2019-01-03" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRformat value="xml" />
+        </FRBRManifestation>
+      </identification>
+      <classification source="#kensset">
+        <keyword value="{classificationValue}" showAs="{classificationValue}" dictionary="#classification_dictionary" />
+      </classification>
+      <lifecycle source="#kensset">
+        <eventRef eId="eventRef_1" date="2019-01-03" source="#kensset" type="generation" />
+      </lifecycle>
+      <references source="#kensset">
+        <TLCOrganization eId="kensset" href="/ontology/organization/akn/knesset" showAs="Kensset" type="generation" />
+        <TLCRole eId="author" href="/ontology/role/akn/author" showAs="Author of Document" />
+        <TLCProcess eId="inforce" href="/ontology/process/akn/inforce" showAs="In force" />
+        <TLCPerson eId="גלעד_ארדן" href="/ontology/person/גלעד_ארדן" showAs="גלעד ארדן" />
+        <TLCRole eId="השר_לביטחון_הפנים" href="ontology/role/akn/השר_לביטחון_הפנים" showAs="השר לביטחון הפנים" />
+      </references>
+      <temporalData source="#kensset">
+        <temporalGroup eId="tmpg_1" />
+      </temporalData>
+      <Publication></Publication>
+      <proprietary wikiversion="9/1/2020 8:31:07 AM" />
+    </meta>
+    <body period="#tmpg_1">
+      <title eId="title">
+        <content>
+          <p>תקנות הרשות הארצית לכבאות והצלה (סמל הרשות), התשע"ט–2019</p>
+        </content>
+      </title>
+      <preamble eId="eId">
+        <p>בתוקף סמכותי לפי <ref href="/akn/il/act/PrimaryLegislation/2012-08-08/433692#point_3">סעיפים 3(ג)</ref><ref href="/akn/il/act/PrimaryLegislation/2012-08-08/433692#point_128">ו־128</ref><ref href="/akn/il/act/PrimaryLegislation/2012-08-08/433692">לחוק הרשות הארצית לכבאות והצלה, התשע"ב–2012</ref>, אני מתקין תקנות אלה:</p>
+      </preamble>
+      <list>
+        <point eId="point_1">
+          <heading>
+            <authorialNote placement="side">
+              <p>קביעת הסמל</p>
+            </authorialNote>
+          </heading>
+          <num>1.</num>
+          <content>
+            <p>סמל הרשות הארצית לכבאות והצלה יהיה כמתואר <ref href="#appendix">בתוספת</ref>.</p>
+          </content>
+        </point>
+      </list>
+      <appendix eId="appendix">
+        <num></num>
+        <title>
+          <content>
+            <p>תוספת</p>
+          </content>
+        </title>
+        <subtitle eId="eId">
+          <num></num>
+          <content>
+            <p>
+              <wikicomment font-size="x-small">(<ref href="#point_1">תקנה 1</ref>)</wikicomment>
+            </p>
+          </content>
+        </subtitle>
+        <list>
+          <point eId="appendix__point_none">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num></num>
+            <content>
+              <p>
+                <img eId="eId" alt="Israel Fire and Rescue Services.png" src="//upload.wikimedia.org/wikipedia/commons/0/01/Israel_Fire_and_Rescue_Services.png" />
+              </p>
+            </content>
+          </point>
+        </list>
+      </appendix>
+    </body>
+    <conclusions eId="eId">
+      <p class="signatures">
+        <signature>
+          <p>
+            <person refersTo="גלעד_ארדן">גלעד ארדן</person>
+            <role refersTo="השר_לביטחון_הפנים">השר לביטחון הפנים</role>
+          </p>
+        </signature>
+      </p>
+    </conclusions>
+  </act>
+</akomaNtoso>

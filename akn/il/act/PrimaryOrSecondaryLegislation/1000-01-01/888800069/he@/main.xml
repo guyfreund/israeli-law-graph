@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion" name="publicLaw">
+    <meta>
+      <identification source="#kensset">
+        <FRBRWork>
+          <FRBRthis value="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/888800069/main" />
+          <FRBRuri value="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/888800069" />
+          <FRBRdate date="1000-01-01" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRcountry value="israel" />
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/888800069/he@/main" />
+          <FRBRuri value="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/888800069/he@" />
+          <FRBRdate date="1000-01-01" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRlanguage language="hebrew" />
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/888800069/he@/main.xml" />
+          <FRBRuri value="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/888800069/he@" />
+          <FRBRdate date="1000-01-01" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRformat value="xml" />
+        </FRBRManifestation>
+      </identification>
+      <classification source="#kensset">
+        <keyword value="{classificationValue}" showAs="{classificationValue}" dictionary="#classification_dictionary" />
+      </classification>
+      <lifecycle source="#kensset">
+        <eventRef eId="eventRef_1" date="1000-01-01" source="#kensset" type="generation" />
+      </lifecycle>
+      <references source="#kensset">
+        <TLCOrganization eId="kensset" href="/ontology/organization/akn/knesset" showAs="Kensset" type="generation" />
+        <TLCRole eId="author" href="/ontology/role/akn/author" showAs="Author of Document" />
+        <TLCProcess eId="inforce" href="/ontology/process/akn/inforce" showAs="In force" />
+        <TLCPerson eId="בצלאל_סמוטריץ׳" href="/ontology/person/בצלאל_סמוטריץ׳" showAs="בצלאל סמוטריץ׳" />
+        <TLCRole eId="שר_התחבורה_והבטיחות_בדרכים" href="ontology/role/akn/שר_התחבורה_והבטיחות_בדרכים" showAs="שר התחבורה והבטיחות בדרכים" />
+      </references>
+      <temporalData source="#kensset">
+        <temporalGroup eId="tmpg_1" />
+      </temporalData>
+      <Publication></Publication>
+      <proprietary wikiversion="8/3/2020 1:01:35 PM" />
+    </meta>
+    <body period="#tmpg_1">
+      <title eId="title">
+        <content>
+          <p>צו התעבורה (הארכת תקופת תוקף רישיון רכב), התש"ף–2020</p>
+        </content>
+      </title>
+      <preamble eId="eId">
+        <p>בתוקף סמכותי לפי <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_התעבורה#point_3">סעיף 3(א1)</ref><ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_התעבורה">לפקודת התעבורה</ref>, אני מצווה לאמור:</p>
+      </preamble>
+      <list>
+        <point eId="point_1">
+          <heading>
+            <authorialNote placement="side">
+              <p>הארכת תקופת תוקף רישיון רכב</p>
+            </authorialNote>
+          </heading>
+          <num>1.</num>
+          <content>
+            <p>רישיון רכב אשר תקופת תוקפו מסתיימת בתקופה שמיום פרסומו של צו זה <wikicomment font-size="x-small">(הצו פורסם ביום 16.3.2020)</wikicomment> עד יום כ"ב בניסן התש"ף (16 באפריל 2020), תקופת תוקפו תוארך ב־76 ימים.</p>
+          </content>
+        </point>
+        <point eId="point_2">
+          <heading>
+            <authorialNote placement="side">
+              <p>הארכת תקופת תוקף רישיון רכב לכלי רכב נוספים</p>
+            </authorialNote>
+          </heading>
+          <num>2.</num>
+          <content>
+            <p>רישיון רכב אשר תקופת תוקפו מסתיימת בתקופה שמיום כ"ב בניסן התש"ף (17 באפריל 2020) עד יום כ"ג באייר התש"ף (17 במאי 2020), תקופת תוקפו תוארך ב־44 ימים.</p>
+          </content>
+        </point>
+      </list>
+    </body>
+    <conclusions eId="eId">
+      <p class="signatures">
+        <signature>
+          <p>
+            <person refersTo="בצלאל_סמוטריץ׳">בצלאל סמוטריץ׳</person>
+            <role refersTo="שר_התחבורה_והבטיחות_בדרכים">שר התחבורה והבטיחות בדרכים</role>
+          </p>
+        </signature>
+      </p>
+    </conclusions>
+  </act>
+</akomaNtoso>

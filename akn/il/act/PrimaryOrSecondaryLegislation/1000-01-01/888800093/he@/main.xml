@@ -1,0 +1,848 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion" name="publicLaw">
+    <meta>
+      <identification source="#kensset">
+        <FRBRWork>
+          <FRBRthis value="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/888800093/main" />
+          <FRBRuri value="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/888800093" />
+          <FRBRdate date="1000-01-01" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRcountry value="israel" />
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/888800093/he@/main" />
+          <FRBRuri value="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/888800093/he@" />
+          <FRBRdate date="1000-01-01" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRlanguage language="hebrew" />
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/888800093/he@/main.xml" />
+          <FRBRuri value="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/888800093/he@" />
+          <FRBRdate date="1000-01-01" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRformat value="xml" />
+        </FRBRManifestation>
+      </identification>
+      <classification source="#kensset">
+        <keyword value="{classificationValue}" showAs="{classificationValue}" dictionary="#classification_dictionary" />
+      </classification>
+      <lifecycle source="#kensset">
+        <eventRef eId="eventRef_1" date="1000-01-01" source="#kensset" type="generation" />
+      </lifecycle>
+      <references source="#kensset">
+        <TLCOrganization eId="kensset" href="/ontology/organization/akn/knesset" showAs="Kensset" type="generation" />
+        <TLCRole eId="author" href="/ontology/role/akn/author" showAs="Author of Document" />
+        <TLCProcess eId="inforce" href="/ontology/process/akn/inforce" showAs="In force" />
+        <TLCTerm eId="term_1" href="/ontology/term/בית_סוהר/888800093" showAs="בית_סוהר" />
+        <TLCTerm eId="term_2" href="/ontology/term/מקום_מעצר/888800093" showAs="מקום_מעצר" />
+        <TLCTerm eId="term_3" href="/ontology/term/בית_דין_צבאי/888800093" showAs="בית_דין_צבאי" />
+        <TLCTerm eId="term_4" href="/ontology/term/כלוא/888800093" showAs="כלוא" />
+        <TLCTerm eId="term_5" href="/ontology/term/חדר_משמר/888800093" showAs="חדר_משמר" />
+        <TLCTerm eId="term_6" href="/ontology/term/חוק_המעצרים/888800093" showAs="חוק_המעצרים" />
+        <TLCTerm eId="term_7" href="/ontology/term/חוק_סמכויות_שעת_חירום/888800093" showAs="חוק_סמכויות_שעת_חירום" />
+        <TLCTerm eId="term_8" href="/ontology/term/חוק_שחרור_על־תנאי_ממאסר/888800093" showAs="חוק_שחרור_על־תנאי_ממאסר" />
+        <TLCTerm eId="term_9" href="/ontology/term/חוק_השיפוט_הצבאי/888800093" showAs="חוק_השיפוט_הצבאי" />
+        <TLCTerm eId="term_10" href="/ontology/term/עצור/888800093" showAs="עצור" />
+        <TLCTerm eId="term_11" href="/ontology/term/עתירת_אסיר/888800093" showAs="עתירת_אסיר" />
+        <TLCTerm eId="term_12" href="/ontology/term/פקודת_בתי_הסוהר/888800093" showAs="פקודת_בתי_הסוהר" />
+        <TLCTerm eId="term_13" href="/ontology/term/צו_בידוד_בית/888800093" showAs="צו_בידוד_בית" />
+        <TLCTerm eId="term_14" href="/ontology/term/צו_בידוד_בבית_חולים/888800093" showAs="צו_בידוד_בבית_חולים" />
+        <TLCTerm eId="term_15" href="/ontology/term/תקנות_בתי_סוהר_צבאיים/888800093" showAs="תקנות_בתי_סוהר_צבאיים" />
+        <TLCTerm eId="term_16" href="/ontology/term/תקנות_שעת_חירום_(קיום_דיונים_בהליכים_פליליים_באמצעים_טכנולוגיים)/888800093" showAs="תקנות_שעת_חירום_(קיום_דיונים_בהליכים_פליליים_באמצעים_טכנולוגיים)" />
+        <TLCPerson eId="בנימין_נתניהו" href="/ontology/person/בנימין_נתניהו" showAs="בנימין נתניהו" />
+        <TLCRole eId="ראש_הממשלה" href="ontology/role/akn/ראש_הממשלה" showAs="ראש הממשלה" />
+      </references>
+      <temporalData source="#kensset">
+        <temporalGroup eId="tmpg_1" />
+      </temporalData>
+      <Publication></Publication>
+      <proprietary wikiversion="8/13/2020 3:31:01 PM" />
+    </meta>
+    <body period="#tmpg_1">
+      <title eId="title">
+        <content>
+          <p>תקנות שעת חירום (נגיף הקורונה החדש) (נוכחות עצורים ואסירים בדיונים בבתי המשפט ובבתי הדין), התש"ף–2020</p>
+        </content>
+      </title>
+      <preamble eId="eId">
+        <p>בתוקף סמכותה לפי <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/חוק_יסוד_הממשלה#point_39">סעיף 39</ref><ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/חוק_יסוד_הממשלה">לחוק־יסוד: הממשלה</ref>, מתקינה הממשלה תקנות שעת חירום אלה:
+
+<מפריד /><wikicomment font-size="x-small">בהתאם <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/http_fs_knesset_gov_il_23_law_23_lsr_573786_pdf#point_1">לסעיף 1(א)(1) לחוק לתיקון ולהארכת תוקפן של תקנות שעת חירום (נגיף הקורונה החדש – דיונים בהשתתפות עצורים, אסירים וכלואים), התש"ף–2020</ref>, ובהתאם להחלטה בדבר הארכת תוקפו של חוק לתיקון ולהארכת תוקפן של תקנות שעת חירום (נגיף הקורונה החדש – דיונים בהשתתפות עצורים, אסירים וכלואים), התש"ף–2020, תוקפן של תקנות שעת חירום (נגיף הקורונה החדש) (נוכחות עצורים ואסירים בדיונים בבתי המשפט ובבתי הדין), התש"ף–2020, בנוסח שלהלן, הוארך עד יום עד יום כ"ה באב התש"ף (15 באוגוסט 2020). <span style="font-weight: bold">התקנות פקעו ביום 12.8.2020</span> עם ביטול <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/http_fs_knesset_gov_il_23_law_23_lsr_573786_pdf">חוק לתיקון ולהארכת תוקפן של תקנות שעת חירום (נגיף הקורונה החדש – דיונים בהשתתפות עצורים, אסירים וכלואים), התש"ף–2020</ref>. התקנות הוחלפו <ref href="/akn/il/act/PrimaryLegislation/2020-08-12/2142860">בחוק קיום דיונים בהיוועדות חזותית בהשתתפות עצורים, אסירים וכלואים בתקופת התפשטות נגיף הקורונה החדש (הוראת שעה), התש"ף–2020</ref>.</wikicomment></p>
+      </preamble>
+      <list>
+        <point eId="point_1" class="definitions">
+          <heading>
+            <authorialNote placement="side">
+              <p>הגדרות</p>
+            </authorialNote>
+          </heading>
+          <num>1.</num>
+          <list>
+            <intro>
+              <p>בתקנות אלה:</p>
+            </intro>
+            <point eId="point_1__point_בית_סוהר">
+              <content>
+                <p>
+                  <def />”בית סוהר“ – כמשמעותו <ref href="/akn/il/act/PrimaryLegislation/1971-10-20/2002271">בפקודת בתי הסוהר</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_מקום_מעצר">
+              <content>
+                <p>
+                  <def />”מקום מעצר“ – כמשמעותו <ref href="/akn/il/act/PrimaryLegislation/1996-05-12/159712#point_7">בסעיף 7(1) לחוק המעצרים</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_בית_דין_צבאי">
+              <content>
+                <p>
+                  <def />”בית דין צבאי“ – כמשמעותו <ref href="/akn/il/act/PrimaryLegislation/1955-07-20/148698#point_183">בסעיף 183 לחוק השיפוט הצבאי</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_כלוא">
+              <content>
+                <p>
+                  <def />”כלוא“ – כהגדרתו <ref href="/akn/il/act/SecondaryLegislation/1987-01-13/100019055">בתקנות בתי סוהר צבאיים</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_חדר_משמר">
+              <content>
+                <p>
+                  <def />”חדר משמר“ – חדר משמר צבאי כמשמעותו <ref href="/akn/il/act/PrimaryLegislation/1955-07-20/148698">בחוק השיפוט הצבאי</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_חוק_המעצרים">
+              <content>
+                <p>
+                  <def />”חוק המעצרים“ – <ref href="/akn/il/act/PrimaryLegislation/1996-05-12/159712">חוק סדר הדין הפלילי (סמכויות אכיפה – מעצרים), התשנ"ו–1996</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_חוק_סמכויות_שעת_חירום">
+              <content>
+                <p>
+                  <def />”חוק סמכויות שעת חירום“ – <ref href="/akn/il/act/PrimaryLegislation/1979-03-13/150272">חוק סמכויות שעת חירום (מעצרים), התשל"ט–1979</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_חוק_שחרור_על־תנאי_ממאסר">
+              <content>
+                <p>
+                  <def />”חוק שחרור על־תנאי ממאסר“ – <ref href="/akn/il/act/PrimaryLegislation/2001-06-20/170684">חוק שחרור על־תנאי ממאסר, התשס"א–2001</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_חוק_השיפוט_הצבאי">
+              <content>
+                <p>
+                  <def />”חוק השיפוט הצבאי“ – <ref href="/akn/il/act/PrimaryLegislation/1955-07-20/148698">חוק השיפוט הצבאי, התשט"ו–1955</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_עצור">
+              <content>
+                <p>
+                  <def />”עצור“ – בין שהוא חשוד או נאשם, ולמעט עצור הנתון במעצר בפיקוח אלקטרוני כמשמעותו <ref href="/akn/il/act/PrimaryLegislation/1996-05-12/159712#point_22ב">בסעיף 22ב לחוק המעצרים</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_עתירת_אסיר">
+              <content>
+                <p>
+                  <def />”עתירת אסיר“ – עתירת אסיר לפי <ref href="/akn/il/act/PrimaryLegislation/1971-10-20/2002271#point_62א">סעיף 62א לפקודת בתי הסוהר</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_פקודת_בתי_הסוהר">
+              <content>
+                <p>
+                  <def />”פקודת בתי הסוהר“ – <ref href="/akn/il/act/PrimaryLegislation/1971-10-20/2002271">פקודת בתי הסוהר [נוסח חדש], התשל"ב–1971</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_צו_בידוד_בית">
+              <content>
+                <p>
+                  <def />”צו בידוד בית“ – <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/צו_בריאות_העם_נגיף_הקורונה_החדש_בידוד_בית_והוראות_שונות_הוראת_שעה">צו בריאות העם (נגיף הקורונה החדש) (בידוד בית והוראות שונות) (הוראת שעה), התש"ף–2020</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_צו_בידוד_בבית_חולים">
+              <content>
+                <p>
+                  <def />”צו בידוד בבית חולים“ – <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/צו_בריאות_העם_נגיף_הקורונה_החדש_2019_בידוד_בבית_חולים_הוראת_שעה">צו בריאות העם (נגיף הקורונה החדש 2019) (בידוד בבית חולים) (הוראת שעה), התש"ף–2020</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_תקנות_בתי_סוהר_צבאיים">
+              <content>
+                <p>
+                  <def />”תקנות בתי סוהר צבאיים“ – <ref href="/akn/il/act/SecondaryLegislation/1987-01-13/100019055">תקנות השיפוט הצבאי (בתי סוהר צבאיים), התשמ"ז–1987</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_תקנות_שעת_חירום_קיום_דיונים_בהליכים_פליליים_באמצעים_טכנולוגיים">
+              <content>
+                <p>
+                  <def />”תקנות שעת חירום (קיום דיונים בהליכים פליליים באמצעים טכנולוגיים)“ – <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/תקנות_שעת_חירום_נגיף_הקורונה_החדש_קיום_דיונים_בהליכים_פליליים_באמצעים_טכנולוגיים">תקנות שעת חירום (נגיף הקורונה החדש) (קיום דיונים בהליכים פליליים באמצעים טכנולוגיים), התש"ף–2020</ref>.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_2">
+          <heading>
+            <authorialNote placement="side">
+              <p>נוכחות עצורים ואסירים בדיונים בבתי משפט ובבתי דין</p>
+            </authorialNote>
+          </heading>
+          <num>2.</num>
+          <list>
+            <point eId="point_2__point_א">
+              <num>(א)</num>
+              <list>
+                <intro>
+                  <p>בכל יום יובאו לבתי המשפט ולבתי הדין מספר העצורים והאסירים המרבי שניתן להביא תוך עמידה בהמלצות משרד הבריאות לשירות בתי הסוהר ולהנהלת בתי המשפט, בשל החשש להתפשטות נגיף הקורונה בבתי הכלא ומחוצה להם, לעניין אופן הסעת אסירים ועצורים לבית המשפט ושמירה על הוראות הבריאות בבתי משפט, לצורך השתתפותם בדיונים שיורה נשיא בית המשפט או בית הדין על קיומם בנוכחות העצור או האסיר; נשיא בית המשפט או בית הדין, לפי העניין, מוסמך להורות כי דיון יתקיים בנוכחות עצור או אסיר כאמור לפי סדר העדיפות הזה:</p>
+                </intro>
+                <point eId="point_2__point_א__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>דיון שבו מובאות ראיות לבירור האשמה לפי <ref href="/akn/il/act/PrimaryLegislation/1982-03-01/2002215#chp_ה_sec_ה">סימן ה׳ לפרק ה׳ לחוק סדר הדין הפלילי [נוסח משולב], התשמ"ב–1982</ref>, של נאשם עצור; לעניין זה תינתן עדיפות לדיון בעניינו של נאשם השוהה במעצר זמן רב יותר;</p>
+                  </content>
+                </point>
+                <point eId="point_2__point_א__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>דיון ראשון לפי <ref href="/akn/il/act/PrimaryLegislation/1996-05-12/159712#point_15">סעיף 15 לחוק המעצרים</ref>, ודיון לפי <ref href="/akn/il/act/PrimaryLegislation/1996-05-12/159712#point_21">סעיף 21 לחוק האמור</ref> שלגביו הודיע בא כוח הנאשם מבעוד מועד כי בכוונתו להעלות טענות לעניין דיות הראיות, עילת המעצר או חלופת המעצר וכן דיון לפי <ref href="/akn/il/act/PrimaryLegislation/1979-03-13/150272#point_4">סעיף 4 לחוק סמכויות שעת חירום</ref>, ודיון לפי <ref href="/akn/il/act/PrimaryLegislation/2002-03-14/172565#point_5">סעיף 5 לחוק כליאתם של לוחמים בלתי חוקיים, התשס"ב–2002</ref>;</p>
+                  </content>
+                </point>
+                <point eId="point_2__point_א__point_3">
+                  <num>(3)</num>
+                  <content>
+                    <p>דיון בעניינו של עצור לפי <ref href="/akn/il/act/PrimaryLegislation/1996-05-12/159712#point_15">סעיפים 15</ref>, <ref href="/akn/il/act/PrimaryLegislation/1996-05-12/159712#point_17">17</ref>, <ref href="/akn/il/act/PrimaryLegislation/1996-05-12/159712#point_21">21</ref>, <ref href="/akn/il/act/PrimaryLegislation/1996-05-12/159712#point_47">47</ref>, <ref href="/akn/il/act/PrimaryLegislation/1996-05-12/159712#point_52">52</ref>, <ref href="/akn/il/act/PrimaryLegislation/1996-05-12/159712#point_53">53</ref>, <ref href="/akn/il/act/PrimaryLegislation/1996-05-12/159712#point_62">62</ref><ref href="/akn/il/act/PrimaryLegislation/1996-05-12/159712#point_62א">או 62א לחוק המעצרים</ref>, שאינו כלול בפסקה (2) ודיון לפי <ref href="/akn/il/act/PrimaryLegislation/1979-03-13/150272#point_5">סעיפים 5</ref><ref href="/akn/il/act/PrimaryLegislation/1979-03-13/150272#point_7">ו־7 לחוק סמכויות שעת חירום</ref>;</p>
+                  </content>
+                </point>
+                <point eId="point_2__point_א__point_4">
+                  <num>(4)</num>
+                  <content>
+                    <p>דיון בהליך פלילי שאינו מנוי בפסקאות (1) עד (3);</p>
+                  </content>
+                </point>
+                <point eId="point_2__point_א__point_5">
+                  <num>(5)</num>
+                  <content>
+                    <p>דיון בעתירת אסיר, דיון לפי <ref href="/akn/il/act/PrimaryLegislation/2001-06-20/170684">חוק שחרור על־תנאי ממאסר</ref> או דיון בעניין החזקת אסיר בהפרדה לפי <ref href="/akn/il/act/PrimaryLegislation/1971-10-20/2002271#point_19ה">סעיפים 19ה עד 19ז לפקודת בתי הסוהר</ref>;</p>
+                  </content>
+                </point>
+                <point eId="point_2__point_א__point_6">
+                  <num>(6)</num>
+                  <content>
+                    <p>דיון שאינו מנוי בפסקאות (1) עד (5) שעצור או אסיר צד לו.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_2__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>בכל דיון לפי תקנת משנה (א), תינתן עדיפות לדיון בעניינם של עצור, אסיר או נפגע עבירה קטין, או של עצור או אסיר עם מוגבלות שמקשה באופן ממשי על השתתפותו בדיון.</p>
+              </content>
+            </point>
+            <point eId="point_2__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>על אף האמור בתקנת משנה (א), אם מתקיימים דיונים בעניין עתירת אסיר או לפני ועדת שחרורים לפי <ref href="/akn/il/act/PrimaryLegislation/2001-06-20/170684">חוק שחרור על־תנאי ממאסר</ref> באולמות הסמוכים לבתי הסוהר, ולא מתקיימים בהם דיונים אחרים בהליכים פליליים, יובאו לדיונים אלה בכל יום מספר העצורים והאסירים המרבי שניתן להביא תוך עמידה בהמלצות משרד הבריאות לשירות בתי הסוהר לעניין אופן הבאת אסירים ועצורים לבית המשפט ושמירה על הוראות הבריאות בבתי משפט.</p>
+              </content>
+            </point>
+            <point eId="point_2__point_ד">
+              <num>(ד)</num>
+              <content>
+                <p>זהות העצורים והאסירים שיובאו לדיון בעניינם בבית המשפט מידי יום בהתאם להוראות תקנות משנה (א) ו־(ב), ייקבע בתיאום בין שירות בתי הסוהר להנהלת בתי המשפט.</p>
+              </content>
+            </point>
+            <point eId="point_2__point_ה">
+              <num>(ה)</num>
+              <content>
+                <p>על אף האמור בתקנות משנה (א) ו־(ב), לעניין סדר העדיפות הקבוע בהן, נשיא בית משפט או בית דין רשאי להורות, מטעמים שיירשמו, כי הליך מסוים יתקיים בנוכחות העצור או האסיר גם אם יש בכך משום סטייה מסדר העדיפות הקבוע באותן תקנות משנה, ובלבד שהמספר הכולל של העצורים והאסירים שיובאו באותו יום לא יעלה על המספר המרבי שאפשר להביא באותו יום לפי הוראות תקנת משנה (א) רישה.</p>
+              </content>
+            </point>
+            <point eId="point_2__point_ו">
+              <num>(ו)</num>
+              <list>
+                <point eId="point_2__point_ו__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>דיון שבו נשמעת עדות לפי <ref href="/akn/il/act/PrimaryLegislation/1982-03-01/2002215#chp_ה_sec_ה">סימן ה׳ לפרק ה׳ לחוק סדר הדין הפלילי</ref>, יתקיים בנוכחות העצור או האסיר כאמור <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/תקנות_שעת_חירום_נגיף_הקורונה_החדש_קיום_דיונים_בהליכים_פליליים_באמצעים_טכנולוגיים">בתקנות שעת חירום (קיום דיונים בהליכים פליליים באמצעים טכנולוגיים)</ref>;</p>
+                  </content>
+                </point>
+                <point eId="point_2__point_ו__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>החל מיום ל׳ בסיון התש"ף (22 ביוני 2020) דיון ראשון לפי <ref href="/akn/il/act/PrimaryLegislation/1996-05-12/159712#point_15">סעיף 15 לחוק המעצרים</ref> יתקיים רק בנוכחות עצור, אלא אם כן העצור ביקש לקיימו באמצעות מכשיר טכנולוגי המאפשר העברת תמונה וקול בזמן אמת.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_2__point_ז">
+              <num>(ז)</num>
+              <list>
+                <point eId="point_2__point_ז__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>עצור או אסיר ישתתף בדיון באמצעות מכשיר טכנולוגי המאפשר העברת תמונה וקול בזמן אמת כאמור בתקנות שעת חירום החלות לעניין דיון מסוג זה, אם חלה לגביו חובת בידוד מכוח <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/צו_בריאות_העם_נגיף_הקורונה_החדש_בידוד_בית_והוראות_שונות_הוראת_שעה">צו בידוד בית</ref> או מכוח <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/צו_בריאות_העם_נגיף_הקורונה_החדש_2019_בידוד_בבית_חולים_הוראת_שעה">צו בידוד בבית חולים</ref>, והוא שוהה בבידוד במקום מעצר או בבית סוהר בהתאם להוראת רופא לפי <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/צו_כאמור#point_2">סעיף 2(ג) לצו כאמור</ref>;</p>
+                  </content>
+                </point>
+                <point eId="point_2__point_ז__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>שוכנע נציב שירות בתי הסוהר או קצין בכיר בדרגת גונדר, על יסוד חוות דעת של קצין רפואה בשירות בתי הסוהר שניתנה בכתב, כי יש חשש ממשי שעצור או אסיר השוהה במקום מעצר או בבית סוהר נדבק בנגיף הקורונה או כי יש חשש ממשי שהוא בא במגע עם חולה מאומת, רשאי הוא להורות כי העצור או האסיר לא יובא לבית המשפט לדיון בעניינו עד תום ביצוע כל הפעולות הדרושות להסרת החשש האמור או למשך 96 שעות מעת שהחשש התגבש, לפי המוקדם, והעצור או האסיר ישתתף בדיון באמצעות מכשיר טכנולוגי המאפשר העברת תמונה וקול בזמן אמת, כאמור בתקנות שעת חירום החלות לעניין דיון מסוג זה.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+          </list>
+        </point>
+        <point eId="point_2א">
+          <heading>
+            <authorialNote placement="side">
+              <p>הכרזה על אי־קיום דיונים בנוכחות עצורים או אסירים</p>
+            </authorialNote>
+          </heading>
+          <num>2א.</num>
+          <list>
+            <point eId="point_2א__point_א">
+              <num>(א)</num>
+              <content>
+                <p>על אף האמור <ref href="#point_2">בתקנה 2</ref>, שר המשפטים והשר לביטחון הפנים (בתקנה זו – השרים) רשאים להכריז יחד כי לא ניתן לקיים דיונים בבתי המשפט בנוכחות עצורים ואסירים, במדינה כולה או בחלק ממנה, ובכלל זה עצורים או אסירים ממקום מעצר או מבית סוהר מסוים (בתקנות שעת חירום אלה – הכרזה על הגבלה מלאה), לאחר ששוכנעו כי אין דרך לקיים את הדיונים בנוכחות עצורים ואסירים ללא סיכון מוגבר להתפשטות נגיף הקורונה כאמור בסעיף קטן (ב).</p>
+              </content>
+            </point>
+            <point eId="point_2א__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>השרים לא יכריזו הכרזה על הגבלה מלאה אלא אם כן קיבלו חוות דעת מטעם משרד הבריאות כי נגיף הקורונה התפשט בהיקף נרחב במדינה ובשל כך קיים סיכון מוגבר להתפשטותו במקומות מעצר ובבתי סוהר או שהנגיף התפשט כאמור במקומות מעצר ובבתי סוהר; חוות הדעת תתייחס למידת הסכנה לבריאות הציבור הנגרמת מנגיף הקורונה באותה העת, למצב התחלואה בשל נגיף הקורונה באותה העת, ובפרט לסיכון הבריאותי הטמון בהבאת עצורים ואסירים לבתי משפט ובשהייתם בהם.</p>
+              </content>
+            </point>
+            <point eId="point_2א__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>בבואם להכריז הכרזה על הגבלה מלאה יביאו השרים בחשבון את ההגבלות שהוטלו על הציבור לפי חיקוק שתכליתו התמודדות עם התפשטות נגיף הקורונה, וישקלו את הצורך בהכרזה מול הפגיעה בזכויותיהם של העצורים והאסירים הנובעת ממנה.</p>
+              </content>
+            </point>
+            <point eId="point_2א__point_ד">
+              <num>(ד)</num>
+              <content>
+                <p>הכרזה על הגבלה מלאה תהיה לתקופה שלא תעלה על 14 ימים; השרים רשאים להאריך יחד את תקופת תוקפה של ההכרזה לתקופות נוספות שלא יעלו על 14 ימים כל אחת, אם שוכנעו כי ממשיכות להתקיים הנסיבות המפורטות בתקנה זו, וקיבלו חוות דעת עדכנית ממשרד הבריאות לעניין זה.</p>
+              </content>
+            </point>
+            <point eId="point_2א__point_ה">
+              <num>(ה)</num>
+              <content>
+                <p>הכרזה על הגבלה מלאה או החלטה על הארכתה תובא לוועדת החוקה, חוק ומשפט של הכנסת מיד עם הינתנה לשם אישורה או ביטולה בתוך שבעה ימים מיום שניתנה; לא החליטה הוועדה כאמור, תעמוד ההכרזה בתוקף; הוועדה רשאית לבטל את ההכרזה בכל עת.</p>
+              </content>
+            </point>
+            <point eId="point_2א__point_ו">
+              <num>(ו)</num>
+              <content>
+                <p>שוכנעו השרים כי חדלו להתקיים הנסיבות המצדיקות את ההכרזה על הגבלה מלאה, יבטלו את ההכרזה בלא דיחוי.</p>
+              </content>
+            </point>
+            <point eId="point_2א__point_ז">
+              <num>(ז)</num>
+              <content>
+                <p>הכרזה על הגבלה מלאה תיכנס לתוקף עם מתן ההכרזה ותתפרסם ברשומות בהקדם האפשרי; בוטלה ההכרזה, ייכנס הביטול לתוקף ב־07:00 בבוקר שלאחר הביטול, והודעה על הביטול תפורסם ברשומות בהקדם האפשרי.</p>
+              </content>
+            </point>
+            <point eId="point_2א__point_ח">
+              <num>(ח)</num>
+              <content>
+                <p>שר המשפטים יודיע בהקדם האפשרי על מתן הכרזה על הגבלה מלאה או על ביטולה, להנהלת בתי המשפט, למשטרת ישראל, לשירות בתי הסוהר, לפרקליטות המדינה, לסניגוריה הציבורית, ללשכת עורכי הדין ולאגף לסיוע משפטי במשרד המשפטים.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_2ב">
+          <heading>
+            <authorialNote placement="side">
+              <p>השתתפות עצור או אסיר בדיון שאינו דיון מעצר באמצעי טכנולוגי</p>
+            </authorialNote>
+          </heading>
+          <num>2ב.</num>
+          <list>
+            <point eId="point_2ב__point_א">
+              <num>(א)</num>
+              <content>
+                <p>נדרשה לפי דין נוכחותו בדיון של עצור או אסיר, לרבות לפי החלטת בית משפט, בתקופת תוקפה של הכרזה על הגבלה מלאה, יתקיים הדיון שלא בנוכחותו אלא בהשתתפותו באמצעות מכשיר טכנולוגי שיקצה שירות בתי הסוהר המאפשר העברת קול ותמונה בזמן אמת.</p>
+              </content>
+            </point>
+            <point eId="point_2ב__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>לא היה בעת קיום דיון בעניינו של עצור או אסיר מכשיר טכנולוגי זמין כאמור בתקנת משנה (א), ישתתף העצור או האסיר בדיון באמצעות מכשיר טכנולוגי שמאפשר העברת קול בלבד, ובלבד שהדיון דחוף ואין אפשרות לדחותו; היה הדיון כאמור דיון בהליך פלילי או דיון שהמדינה צד לו, יתקיים הדיון באמצעות מכשיר טכנולוגי המאפשר העברת קול בלבד, רק אם העצור או האסיר הסכים לכך.</p>
+              </content>
+            </point>
+            <point eId="point_2ב__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>על אף האמור בתקנת משנה (א), בתקופת תוקפה של הכרזה על הגבלה מלאה, בדיון בהליך פלילי, בדיון בענייני משפחה או בדיון בעניין ילדו של עצור או אסיר בהליך לפי <ref href="/akn/il/act/PrimaryLegislation/1960-07-14/150256">חוק הנוער (טיפול והשגחה), התש"ך–1960</ref>, רשאי נשיא בית המשפט או סגנו להורות, במקרים חריגים, כי על אף הסיכון המוגבר כאמור <ref href="#point_2א">בתקנה 2א</ref>, יתקיים הדיון בנוכחות העצור או האסיר, ובלבד שקיבל את עמדת הצדדים ועמדה בכתב מטעם שירות בתי הסוהר, אם מצא כי יש צורך חיוני לקיים את הדיון בנוכחות העצור או האסיר, כי קיומו של הדיון לפי הוראות תקנת משנה (א) או דחייתו יגרמו לפגיעה ממשית ובלתי מידתית בעצור או באסיר, וכי על בית המשפט להתרשם מהעצור או מהאסיר פנים אל פנים, לרבות אם הוא אדם עם מוגבלות ולא ניתן לערוך את התאמות הנגישות הנדרשות באולם בית המשפט באופן שיאפשר את השתתפותו בדיון באמצעות מכשיר טכנולוגי; בתקנת משנה זו, ”ענייני משפחה“ – כהגדרתם <ref href="/akn/il/act/PrimaryLegislation/1995-08-07/158629">בחוק בית המשפט לענייני משפחה, התשנ"ה–1995</ref>, ובכלל זה בעניין ילדו של עצור או אסיר.</p>
+              </content>
+            </point>
+            <point eId="point_2ב__point_ד">
+              <num>(ד)</num>
+              <content>
+                <p>הוראות תקנת משנה (ג) לא יחולו לעניין עצור או אסיר שחלה לגביו חובת בידוד מכוח <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/צו_בריאות_העם_נגיף_הקורונה_החדש_בידוד_בית_והוראות_שונות_הוראת_שעה">צו בידוד בית</ref> או מכוח <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/צו_בריאות_העם_נגיף_הקורונה_החדש_2019_בידוד_בבית_חולים_הוראת_שעה">צו בידוד בבית חולים</ref>.</p>
+              </content>
+            </point>
+            <point eId="point_2ב__point_ה">
+              <num>(ה)</num>
+              <content>
+                <p>הוראות סעיף זה לא יחולו לעניין דיוני מעצר שהוראות <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/תקנות_שעת_חירום_דיוני_מעצרים">תקנות שעת חירום (דיוני מעצרים), התש"ף–2020</ref>, חלות לגביהם.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_3">
+          <heading>
+            <authorialNote placement="side">
+              <p>דיווח לפי תקנה 2</p>
+            </authorialNote>
+          </heading>
+          <num>3.</num>
+          <content>
+            <p>אחת לשבועיים, יעביר השר לביטחון הפנים לממשלה עמדה, לאחר קבלת עמדת משרד הבריאות, באשר לצורך בהמשך המתווה המפורט <ref href="#point_2">בתקנה 2</ref>, בשינויו או בביטולו.</p>
+          </content>
+        </point>
+        <point eId="point_4">
+          <heading>
+            <authorialNote placement="side">
+              <p>נוכחות כלואים בדיונים בבתי דין צבאיים</p>
+            </authorialNote>
+          </heading>
+          <num>4.</num>
+          <list>
+            <point eId="point_4__point_א">
+              <num>(א)</num>
+              <list>
+                <intro>
+                  <p>בכל יום יובאו לבתי הדין הצבאיים מספר הכלואים המרבי שניתן להביא תוך עמידה בהמלצות חיל הרפואה למשטרה הצבאית וליחידת בתי הדין הצבאיים בשל החשש להתפשטות נגיף הקורונה בבתי הסוהר ומחוצה להם, לעניין אופן הסעת כלואים לבתי הדין הצבאיים ושמירה על הוראות הבריאות בבתי הדין, לצורך השתתפותם בדיונים שיורה נשיא בית הדין על קיומם בנוכחות הכלוא; נשיא בית הדין הצבאי, מוסמך להורות כי דיון יתקיים בנוכחות כלוא כאמור לפי סדר העדיפות הזה:</p>
+                </intro>
+                <point eId="point_4__point_א__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>דיון שבו מובאות ראיות לבירור האשמה לפי <ref href="/akn/il/act/PrimaryLegislation/1955-07-20/148698#point_364">סעיפים 364 עד 371</ref>, <ref href="/akn/il/act/PrimaryLegislation/1955-07-20/148698#point_384">384</ref><ref href="/akn/il/act/PrimaryLegislation/1955-07-20/148698#point_386">ו־386 לחוק השיפוט הצבאי</ref> של נאשם עצור; לעניין זה תינתן עדיפות לדיון בעניינו של נאשם השוהה במעצר זמן רב יותר;</p>
+                  </content>
+                </point>
+                <point eId="point_4__point_א__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>דיון ראשון לפי <ref href="/akn/il/act/PrimaryLegislation/1955-07-20/148698#point_240">סעיף 240 לחוק השיפוט הצבאי</ref> ודיון לפי <ref href="/akn/il/act/PrimaryLegislation/1955-07-20/148698#point_243">סעיף 243 לחוק האמור</ref>, שלגביו הודיע בא כוח הנאשם מבעוד מועד כי בכוונתו להעלות טענות לעניין דיות הראיות או עילת המעצר או חלופת מעצר;</p>
+                  </content>
+                </point>
+                <point eId="point_4__point_א__point_3">
+                  <num>(3)</num>
+                  <content>
+                    <p>דיון בעניינו של עצור לפי <ref href="/akn/il/act/PrimaryLegislation/1955-07-20/148698#point_240">סעיפים 240</ref>, <ref href="/akn/il/act/PrimaryLegislation/1955-07-20/148698#point_241">241</ref>, <ref href="/akn/il/act/PrimaryLegislation/1955-07-20/148698#point_243">243</ref>, <ref href="/akn/il/act/PrimaryLegislation/1955-07-20/148698#point_243ב">ו־243ב לחוק השיפוט הצבאי</ref>, וכן דיונים לפי <ref href="/akn/il/act/PrimaryLegislation/1996-05-12/159712#point_47">סעיפים 47</ref>, <ref href="/akn/il/act/PrimaryLegislation/1996-05-12/159712#point_52">52</ref>, <ref href="/akn/il/act/PrimaryLegislation/1996-05-12/159712#point_62">62</ref><ref href="/akn/il/act/PrimaryLegislation/1996-05-12/159712#point_62א">ו־62א לחוק המעצרים</ref>, שאינם כלולים בפסקה (2);</p>
+                  </content>
+                </point>
+                <point eId="point_4__point_א__point_4">
+                  <num>(4)</num>
+                  <content>
+                    <p>דיון בהליך פלילי שאינו מנוי בפסקאות (1) עד (3);</p>
+                  </content>
+                </point>
+                <point eId="point_4__point_א__point_5">
+                  <num>(5)</num>
+                  <content>
+                    <p>דיון בוועדה לעיון בעונש לפי <ref href="/akn/il/act/PrimaryLegislation/1955-07-20/148698">חוק השיפוט הצבאי</ref>;</p>
+                  </content>
+                </point>
+                <point eId="point_4__point_א__point_6">
+                  <num>(6)</num>
+                  <content>
+                    <p>דיון שאינו כלול בפסקאות (1) עד (5) שהכלוא הוא צד לו.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_4__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>בכל דיון לפי תקנת משנה (א) תינתן עדיפות לדיון בעניינו של כלוא או נפגע עבירה שהוא קטין, או של עצור או אסיר עם מוגבלות שמקשה באופן ממשי על השתתפותו בדיון באמצעות מכשיר טכנולוגי.</p>
+              </content>
+            </point>
+            <point eId="point_4__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>זהות הכלואים שיובאו לדיון בעניינם בבית הדין הצבאי מידי יום בהתאם להוראות תקנות משנה (א) ו־(ב), ייקבע בתיאום בין המשטרה הצבאית ליחידת בתי הדין הצבאיים.</p>
+              </content>
+            </point>
+            <point eId="point_4__point_ד">
+              <num>(ד)</num>
+              <content>
+                <p>על אף האמור בתקנות משנה (א) ו־(ב) לעניין סדר העדיפות הקבוע בהן, נשיא בית הדין הצבאי רשאי להורות, מטעמים שיירשמו, כי הליך מסוים יתקיים בנוכחות הכלוא גם אם יש בכך משום סטייה מסדר העדיפות הקבוע באותן תקנות משנה, ובלבד שהמספר הכולל של כלואים שיובאו באותו יום לא יעלה על המספר המרבי שניתן להביא באותו יום לפי הוראות תקנת משנה (א) רישה.</p>
+              </content>
+            </point>
+            <point eId="point_4__point_ה">
+              <num>(ה)</num>
+              <content>
+                <p>חייל המוחזק במעצר פתוח לפי <ref href="/akn/il/act/PrimaryLegislation/1955-07-20/148698#point_244">סעיף 244 לחוק השיפוט הצבאי</ref> לא ייחשב עצור לעניין סעיף זה.</p>
+              </content>
+            </point>
+            <point eId="point_4__point_ה1">
+              <num>(ה1)</num>
+              <list>
+                <point eId="point_4__point_ה1__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>דיון שבו נשמעת עדות לפי <ref href="/akn/il/act/PrimaryLegislation/1955-07-20/148698#point_364">סעיפים 364 עד 371</ref>, <ref href="/akn/il/act/PrimaryLegislation/1955-07-20/148698#point_384">384</ref><ref href="/akn/il/act/PrimaryLegislation/1955-07-20/148698#point_386">ו־386 לחוק השיפוט הצבאי</ref>, יתקיים בנוכחות העצור או האסיר כאמור <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/תקנות_שעת_חירום_נגיף_הקורונה_החדש_קיום_דיונים_בהליכים_פליליים_באמצעים_טכנולוגיים_בבתי_הדין_הצבאיים">בתקנות שעת חירום (נגיף הקורונה החדש) (קיום דיונים בהליכים פליליים באמצעים טכנולוגיים בבתי הדין הצבאיים), התש"ף–2020</ref>;</p>
+                  </content>
+                </point>
+                <point eId="point_4__point_ה1__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>החל מיום ל׳ בסיוון התש"ף (22 ביוני 2020), דיון ראשון לפי <ref href="/akn/il/act/PrimaryLegislation/1955-07-20/148698#point_240">סעיף 240 לחוק השיפוט הצבאי</ref> יתקיים רק בנוכחות עצור, אלא אם כן העצור ביקש לקיימו באמצעות מכשיר טכנולוגי המאפשר העברת תמונה וקול בזמן אמת.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_4__point_ו">
+              <num>(ו)</num>
+              <content>
+                <p>בסעיף זה, ”עצור“ – עציר כהגדרתו <ref href="/akn/il/act/SecondaryLegislation/1987-01-13/100019055">בתקנות בתי סוהר צבאיים</ref>, בין שהוא חשוד או נאשם.</p>
+              </content>
+            </point>
+            <point eId="point_4__point_ז">
+              <num>(ז)</num>
+              <list>
+                <intro>
+                  <p>על אף האמור בתקנה זו –</p>
+                </intro>
+                <point eId="point_4__point_ז__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>כלוא ישתתף בדיון באמצעות מכשיר טכנולוגי המאפשר העברת תמונה וקול בזמן אמת כאמור בתקנות שעת חירום החלות לעניין דיון מסוג זה אם חלה לגביו חובת בידוד מכוח <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/צו_בריאות_העם_נגיף_הקורונה_החדש_בידוד_בית_והוראות_שונות_הוראת_שעה">צו בידוד בית</ref> או מכוח <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/צו_בריאות_העם_נגיף_הקורונה_החדש_2019_בידוד_בבית_חולים_הוראת_שעה">צו בידוד בבית חולים</ref>, והוא שוהה בבידוד בחדר משמר או בבית סוהר צבאי בהתאם להוראת רופא לפי <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/צו_כאמור#point_2">סעיף 2(ג) לצו כאמור</ref>;</p>
+                  </content>
+                </point>
+                <point eId="point_4__point_ז__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>שוכנע קצין משטרה צבאית ראשי או קצין בדרגת אלוף משנה ממפקדת קצין משטרה צבאית ראשי, על יסוד חוות דעת של קצין רפואה בחיל הרפואה שניתנה בכתב, כי יש חשש ממשי שכלוא השוהה בחדר משמר או בבית סוהר צבאי נדבק בנגיף הקורונה או כי יש חשש ממשי שהוא בא במגע עם חולה מאומת, רשאי הוא להורות כי הכלוא לא יובא לבית הדין הצבאי לדיון בעניינו עד תום ביצוע כל הפעולות הדרושות להסרת החשש האמור או למשך 96 שעות מעת שהחשש התגבש, לפי המוקדם, והכלוא ישתתף בדיון באמצעות מכשיר טכנולוגי המאפשר העברת תמונה וקול בזמן אמת, כאמור בתקנות שעת חירום החלות לעניין דיון מסוג זה.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+          </list>
+        </point>
+        <point eId="point_4א">
+          <heading>
+            <authorialNote placement="side">
+              <p>הכרזה על אי־קיום דיונים בנוכחות כלואים</p>
+            </authorialNote>
+          </heading>
+          <num>4א.</num>
+          <list>
+            <point eId="point_4א__point_א">
+              <num>(א)</num>
+              <content>
+                <p>על אף האמור <ref href="#point_4">בתקנה 4</ref>, שר הביטחון, לאחר התייעצות עם שר המשפטים רשאי להכריז כי לא ניתן לקיים דיונים בבתי דין צבאיים בנוכחות כלואים, במדינה כולה או בחלק ממנה, ובכלל זה כלואים מחדר משמר או מבית סוהר צבאי מסוים (בתקנות שעת חירום אלה – הכרזה על הגבלה מלאה), לאחר ששוכנע כי אין דרך לקיים את הדיונים בנוכחות כלואים ללא סיכון מוגבר להתפשטות נגיף הקורונה כאמור בסעיף קטן (ב).</p>
+              </content>
+            </point>
+            <point eId="point_4א__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>שר הביטחון לא יכריז הכרזה על הגבלה מלאה אלא אם כן קיבל חוות דעת מטעם חיל הרפואה כי נגיף הקורונה התפשט בהיקף נרחב במדינה או בצבא ההגנה לישראל ובשל כך קיים סיכון מוגבר להתפשטותו בחדרי משמר ובבתי סוהר צבאיים או שהנגיף התפשט כאמור בחדרי משמר ובבתי סוהר צבאיים; חוות הדעת תתייחס למידת הסכנה לבריאות הציבור הנגרמת מנגיף הקורונה באותה העת, למצב התחלואה בשל נגיף הקורונה באותה העת במדינה כולה ובצבא ההגנה לישראל, ובפרט לסיכון הבריאותי הטמון בהבאת כלואים לבתי דין צבאיים ובשהייתם בהם.</p>
+              </content>
+            </point>
+            <point eId="point_4א__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>בבואו להכריז הכרזה על הגבלה מלאה יביא שר הביטחון בחשבון את ההגבלות שהוטלו על הציבור לפי חיקוק שתכליתו התמודדות עם התפשטות נגיף הקורונה, וישקול את הצורך בהכרזה מול הפגיעה בזכויותיהם של הכלואים הנובעת ממנה.</p>
+              </content>
+            </point>
+            <point eId="point_4א__point_ד">
+              <num>(ד)</num>
+              <content>
+                <p>הכרזה על הגבלה מלאה תהיה לתקופה שלא תעלה על 14 ימים; שר הביטחון רשאי להאריך את תקופת תוקפה של ההכרזה לתקופות נוספות שלא יעלו על 14 ימים כל אחת, אם שוכנע כי ממשיכות להתקיים הנסיבות המפורטות בתקנה זו, וקיבל חוות דעת עדכנית מחיל הרפואה לעניין זה.</p>
+              </content>
+            </point>
+            <point eId="point_4א__point_ה">
+              <num>(ה)</num>
+              <content>
+                <p>הכרזה על הגבלה מלאה או החלטה על הארכתה תובא לוועדת החוקה, חוק ומשפט של הכנסת מיד עם הינתנה לשם אישורה או ביטולה בתוך שבעה ימים מיום שניתנה; לא החליטה הוועדה כאמור, תעמוד ההכרזה בתוקף; הוועדה רשאית לבטל את ההכרזה בכל עת.</p>
+              </content>
+            </point>
+            <point eId="point_4א__point_ו">
+              <num>(ו)</num>
+              <content>
+                <p>שוכנע שר הביטחון כי חדלו להתקיים הנסיבות המצדיקות את ההכרזה על הגבלה מלאה, יבטל את ההכרזה בלא דיחוי.</p>
+              </content>
+            </point>
+            <point eId="point_4א__point_ז">
+              <num>(ז)</num>
+              <content>
+                <p>הכרזה על הגבלה מלאה תיכנס לתוקף עם מתן ההכרזה ותתפרסם ברשומות בהקדם האפשרי; בוטלה ההכרזה, ייכנס הביטול לתוקף ב־07:00 בבוקר שלאחר הביטול, והודעה על הביטול תפורסם ברשומות בהקדם האפשרי.</p>
+              </content>
+            </point>
+            <point eId="point_4א__point_ח">
+              <num>(ח)</num>
+              <content>
+                <p>שר הביטחון יודיע בהקדם האפשרי על מתן הכרזה על הגבלה מלאה או על ביטולה לנשיא בית הדין הצבאי לערעורים, למשטרה הצבאית, לפרקליטות הצבאית, לסניגוריה הצבאית וללשכת עורכי הדין.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_4ב">
+          <heading>
+            <authorialNote placement="side">
+              <p>השתתפות כלוא בדיון שאינו דיון מעצר באמצעי טכנולוגי</p>
+            </authorialNote>
+          </heading>
+          <num>4ב.</num>
+          <list>
+            <point eId="point_4ב__point_א">
+              <num>(א)</num>
+              <content>
+                <p>נדרשה לפי דין נוכחותו בדיון של כלוא, לרבות לפי החלטת בית דין צבאי, בתקופת תוקפה של הכרזה על הגבלה מלאה, יתקיים הדיון שלא בנוכחותו אלא בהשתתפותו באמצעות מכשיר טכנולוגי שתקצה המשטרה הצבאית המאפשר העברת קול ותמונה בזמן אמת.</p>
+              </content>
+            </point>
+            <point eId="point_4ב__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>לא היה בעת קיום דיון בעניינו של כלוא מכשיר טכנולוגי זמין כאמור בתקנת משנה (א), ישתתף הכלוא בדיון באמצעות מכשיר טכנולוגי שמאפשר העברת קול בלבד, ובלבד שהדיון דחוף ואין אפשרות לדחותו; היה הדיון כאמור דיון בהליך פלילי או דיון שהמדינה צד לו, יתקיים הדיון באמצעות מכשיר טכנולוגי המאפשר העברת קול בלבד, רק אם הכלוא הסכים לכך.</p>
+              </content>
+            </point>
+            <point eId="point_4ב__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>על אף האמור בתקנת משנה (א), בתקופת תוקפה של הכרזה על הגבלה מלאה, בדיון בהליך פלילי, רשאי נשיא בית הדין הצבאי או סגנו להורות, במקרים חריגים, כי על אף הסיכון המוגבר כאמור <ref href="#point_4א">בתקנה 4א</ref>, יתקיים הדיון בנוכחות הכלוא, ובלבד שקיבל את עמדת הצדדים ועמדה בכתב מטעם המשטרה הצבאית, אם מצא כי יש צורך חיוני לקיים את הדיון בנוכחות הכלוא, כי קיומו של הדיון לפי הוראות תקנת משנה (א) או דחייתו יגרמו לפגיעה ממשית ובלתי מידתית בכלוא, וכי על בית הדין הצבאי להתרשם מהכלוא פנים אל פנים, לרבות אם הוא אדם עם מוגבלות ולא ניתן לערוך את התאמות הנגישות הנדרשות באולם בית הדין הצבאי באופן שיאפשר את השתתפותו בדיון באמצעות מכשיר טכנולוגי.</p>
+              </content>
+            </point>
+            <point eId="point_4ב__point_ד">
+              <num>(ד)</num>
+              <content>
+                <p>הוראות תקנת משנה (ג) לא יחולו לעניין כלוא שחלה לגביו חובת בידוד מכוח <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/צו_בריאות_העם_נגיף_הקורונה_החדש_בידוד_בית_והוראות_שונות_הוראת_שעה">צו בידוד בית</ref> או מכוח <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/צו_בריאות_העם_נגיף_הקורונה_החדש_2019_בידוד_בבית_חולים_הוראת_שעה">צו בידוד בבית חולים</ref>.</p>
+              </content>
+            </point>
+            <point eId="point_4ב__point_ה">
+              <num>(ה)</num>
+              <content>
+                <p>הוראות סעיף זה לא יחולו לעניין דיוני מעצר שהוראות <ref href="/akn/il/act/PrimaryLegislation/1955-07-20/148698">תקנות שעת חירום (דיוני מעצר בבתי הדין הצבאיים), התש"ף–2020</ref>, חלות לגביהם.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_5">
+          <heading>
+            <authorialNote placement="side">
+              <p>דיווח לפי תקנה 4</p>
+            </authorialNote>
+          </heading>
+          <num>5.</num>
+          <content>
+            <p>אחת לשבועיים, יעביר שר הביטחון לממשלה עמדה, לאחר קבלת עמדת חיל הרפואה, באשר לצורך בהמשך המתווה המפורט <ref href="#point_4">בתקנה 4</ref>, בשינויו או בביטולו.</p>
+          </content>
+        </point>
+        <point eId="point_6">
+          <heading>
+            <authorialNote placement="side">
+              <p>קיום דיון בעתירת אסיר בלא נוכחותו</p>
+            </authorialNote>
+          </heading>
+          <num>6.</num>
+          <list>
+            <point eId="point_6__point_א">
+              <num>(א)</num>
+              <list>
+                <intro>
+                  <p>על אף האמור <ref href="#point_2ב">בתקנה 2ב</ref><ref href="/akn/il/act/SecondaryLegislation/1980-08-29/100012639#point_4">ובתקנה 4 לתקנות עתירות אסירים</ref>, בתקופת תוקפן של תקנות שעת חירום אלה, תחול <ref href="#point_2">תקנה 2</ref> לעניין האפשרות לקיים דיון בעתירת אסיר בנוכחות העותר; נדרשה נוכחותו של העותר בדיון ולא התאפשרה לפי <ref href="#point_2">התקנה האמורה</ref>, לרבות בשל הכרזה על הגבלה מלאה או בשל כך שלא ניתן להביאו לאולם בית משפט הסמוך לבית סוהר, כאמור <ref href="#point_2">בתקנה 2(ג)</ref>, יחולו הוראות אלה:</p>
+                </intro>
+                <point eId="point_6__point_א__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>השתתפותו של העותר בדיון תהיה באמצעות מכשיר טכנולוגי המאפשר העברת קול ותמונה בזמן אמת, ואם אין מכשיר טכנולוגי זמין מסוג זה בעת קיום הדיון, והעותר הסכים לכך – באמצעות מכשיר כאמור המאפשר העברת קול בלבד, והכול באופן שימזער ככל האפשר את הפגיעה בעותר;</p>
+                  </content>
+                </point>
+                <point eId="point_6__point_א__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>הדיון יתקיים בנוכחות באי כוח הצדדים, ואם העותר אינו מיוצג – ימנה לו בית המשפט סניגור;</p>
+                  </content>
+                </point>
+                <point eId="point_6__point_א__point_3">
+                  <num>(3)</num>
+                  <content>
+                    <p>על דיון כאמור תחול <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/תקנות_שעת_חירום_נגיף_הקורונה_החדש_קיום_דיונים_בהליכים_פליליים_באמצעים_טכנולוגיים#point_2">תקנה 2(2) לתקנות שעת חירום (קיום דיונים בהליכים פליליים באמצעים טכנולוגיים)</ref>, בשינויים המחויבים;</p>
+                  </content>
+                </point>
+                <point eId="point_6__point_א__point_4">
+                  <num>(4)</num>
+                  <content>
+                    <p>הוראות פסקה (1) יחולו גם על עותר שחלה לגביו חובת בידוד מכוח <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/צו_בריאות_העם_נגיף_הקורונה_החדש_בידוד_בית_והוראות_שונות_הוראת_שעה">צו בידוד בית</ref> או מכוח <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/צו_בריאות_העם_נגיף_הקורונה_החדש_2019_בידוד_בבית_חולים_הוראת_שעה">צו בידוד בבית חולים</ref> ושוהה בבידוד במקום מעצר או בבית סוהר בהתאם להוראת רופא לפי <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/צו_כאמור#point_2">סעיף 2(ג) לצו כאמור</ref>.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_6__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>תקנה זו תחול, בשינויים המחויבים, גם על דיון בעניין החזקת אסיר בהפרדה, לפי <ref href="/akn/il/act/PrimaryLegislation/1971-10-20/2002271#point_19ה">סעיפים 19ה עד 19ז לפקודת בתי הסוהר</ref>.</p>
+              </content>
+            </point>
+            <point eId="point_6__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>בסעיף זה, ”תקנות עתירות אסירים“ – <ref href="/akn/il/act/SecondaryLegislation/1980-08-29/100012639">תקנות סדרי דין (עתירות אסירים), התש"ם–1980</ref>.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_7">
+          <heading>
+            <authorialNote placement="side">
+              <p>קיום דיון בעתירה נגד החלטת היחידה לשחרור ממאסרים קצרים או ועדת השחרורים</p>
+            </authorialNote>
+          </heading>
+          <num>7.</num>
+          <list>
+            <intro>
+              <p>על אף האמור <ref href="#point_2ב">בתקנה 2ב</ref><ref href="/akn/il/act/SecondaryLegislation/2000-12-07/100029399#point_21ח">ובתקנה 21ח לתקנות בתי משפט לעניינים מינהליים</ref>, בתקופת תוקפן של תקנות שעת חירום אלה, תחול <ref href="#point_2">תקנה 2</ref> לעניין האפשרות לקיים דיון בעתירה נגד החלטת היחידה לשחרור ממאסרים קצרים או ועדת השחרורים לפי <ref href="/akn/il/act/PrimaryLegislation/2001-06-20/170684#point_25">סעיף 25 לחוק שחרור על תנאי ממאסר</ref>, בנוכחות האסיר; נדרשה נוכחותו של האסיר בדיון ולא התאפשרה לפי <ref href="#point_2">התקנה האמורה</ref> או בשל כך שחלה הכרזה על הגבלה מלאה, יחולו הוראות אלה:</p>
+            </intro>
+            <point eId="point_7__point_1">
+              <num>(1)</num>
+              <content>
+                <p>השתתפותו של האסיר בדיון תהיה באמצעות אמצעי טכנולוגי המאפשר העברת קול ותמונה בזמן אמת, ואם אין מכשיר טכנולוגי זמין מסוג זה בעת קיום הדיון והאסיר הסכים לכך – באמצעות מכשיר כאמור המאפשר העברת קול בלבד;</p>
+              </content>
+            </point>
+            <point eId="point_7__point_2">
+              <num>(2)</num>
+              <content>
+                <p>הדיון יתקיים באופן שימזער ככל האפשר את הפגיעה באסיר, בשל כך שהדיון מתקיים שלא בנוכחותו;</p>
+              </content>
+            </point>
+            <point eId="point_7__point_3">
+              <num>(3)</num>
+              <content>
+                <p>על דיון המתקיים בהשתתפות האסיר לפי פסקה (1) תחול <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/תקנות_שעת_חירום_נגיף_הקורונה_החדש_קיום_דיונים_בהליכים_פליליים_באמצעים_טכנולוגיים#point_2">תקנה 2(2) לתקנות שעת חירום (קיום דיונים בהליכים פליליים באמצעים טכנולוגיים)</ref>, בשינויים המחויבים;</p>
+              </content>
+            </point>
+            <point eId="point_7__point_4">
+              <num>(4)</num>
+              <content>
+                <p>הוראות פסקה (1) יחולו גם על אסיר שחלה לגביו חובת בידוד מכוח <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/צו_בריאות_העם_נגיף_הקורונה_החדש_בידוד_בית_והוראות_שונות_הוראת_שעה">צו בידוד בית</ref> או מכוח <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/צו_בריאות_העם_נגיף_הקורונה_החדש_2019_בידוד_בבית_חולים_הוראת_שעה">צו בידוד בבית חולים</ref> ושוהה בבידוד בבית סוהר בהתאם להוראת רופא לפי <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/צו_כאמור#point_2">סעיף 2(ג) לצו כאמור</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_7__point_5">
+              <num>(5)</num>
+              <content>
+                <p>בסעיף זה, ”תקנות בתי משפט לעניינים מינהליים“ – <ref href="/akn/il/act/SecondaryLegislation/2000-12-07/100029399">תקנות בתי משפט לעניינים מינהליים (סדרי דין), התשס"א–2000</ref>.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_8">
+          <heading>
+            <authorialNote placement="side">
+              <p xml:space="preserve"> </p>
+            </authorialNote>
+          </heading>
+          <num>8.</num>
+          <content>
+            <p>
+              <wikicomment font-size="x-small">
+                <s>הנוסח שולב <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/תקנות_שעת_חירום_דיוני_מעצרים">בתקנות שעת חירום (דיוני מעצרים), התש"ף–2020</ref>.</s>
+              </wikicomment>
+            </p>
+          </content>
+        </point>
+        <point eId="point_9">
+          <heading>
+            <authorialNote placement="side">
+              <p xml:space="preserve"> </p>
+            </authorialNote>
+          </heading>
+          <num>9.</num>
+          <content>
+            <p>
+              <wikicomment font-size="x-small">
+                <s>הנוסח שולב <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/תקנות_שעת_חירום_נגיף_הקורונה_החדש_קיום_דיונים_בהליכים_פליליים_באמצעים_טכנולוגיים">תקנות שעת חירום (נגיף הקורונה החדש) (קיום דיונים בהליכים פליליים באמצעים טכנולוגיים), התש"ף–2020</ref>.</s>
+              </wikicomment>
+            </p>
+          </content>
+        </point>
+        <point eId="point_10">
+          <heading>
+            <authorialNote placement="side">
+              <p xml:space="preserve"> </p>
+            </authorialNote>
+          </heading>
+          <num>10.</num>
+          <content>
+            <p>
+              <wikicomment font-size="x-small">
+                <s>הנוסח שולב <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/תקנות_שעת_חירום_דיוני_ועדות_שחרורים">בתקנות שעת חירום (דיוני ועדות שחרורים), התש"ף–2020</ref>.</s>
+              </wikicomment>
+            </p>
+          </content>
+        </point>
+        <point eId="point_11">
+          <heading>
+            <authorialNote placement="side">
+              <p xml:space="preserve"> </p>
+            </authorialNote>
+          </heading>
+          <num>11.</num>
+          <content>
+            <p>
+              <wikicomment font-size="x-small">
+                <s>הנוסח שולב <ref href="/akn/il/act/PrimaryLegislation/1955-07-20/148698">בתקנות שעת חירום (דיוני מעצר בבתי הדין הצבאיים), התש"ף–2020</ref>.</s>
+              </wikicomment>
+            </p>
+          </content>
+        </point>
+        <point eId="point_12">
+          <heading>
+            <authorialNote placement="side">
+              <p xml:space="preserve"> </p>
+            </authorialNote>
+          </heading>
+          <num>12.</num>
+          <content>
+            <p>
+              <wikicomment font-size="x-small">
+                <s>הנוסח שולב <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/תקנות_שעת_חירום_נגיף_הקורונה_החדש_קיום_דיונים_בהליכים_פליליים_באמצעים_טכנולוגיים_בבתי_הדין_הצבאיים">בתקנות שעת חירום (נגיף הקורונה החדש) (קיום דיונים בהליכים פליליים באמצעים טכנולוגיים בבתי הדין הצבאיים), התש"ף–2020</ref>.</s>
+              </wikicomment>
+            </p>
+          </content>
+        </point>
+        <point eId="point_13">
+          <heading>
+            <authorialNote placement="side">
+              <p xml:space="preserve"> </p>
+            </authorialNote>
+          </heading>
+          <num>13.</num>
+          <content>
+            <p>
+              <wikicomment font-size="x-small">
+                <s>הנוסח שולב <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/תקנות_שעת_חירום_נגיף_הקורונה_החדש_דיוני_הוועדה_לעיון_בעונש">בתקנות שעת חירום (נגיף הקורונה החדש) (דיוני הוועדה לעיון בעונש), התש"ף–2020</ref>.</s>
+              </wikicomment>
+            </p>
+          </content>
+        </point>
+        <point eId="point_14">
+          <heading>
+            <authorialNote placement="side">
+              <p>תוקף</p>
+            </authorialNote>
+          </heading>
+          <num>14.</num>
+          <content>
+            <p>
+              <s>תוקפן של תקנות אלה עד יום ב׳ בתמוז התש"ף (24 ביוני 2020).</s>
+            </p>
+          </content>
+        </point>
+      </list>
+    </body>
+    <conclusions eId="eId">
+      <p class="signatures">
+        <signature>
+          <p>
+            <person refersTo="בנימין_נתניהו">בנימין נתניהו</person>
+            <role refersTo="ראש_הממשלה">ראש הממשלה</role>
+          </p>
+        </signature>
+      </p>
+    </conclusions>
+  </act>
+</akomaNtoso>

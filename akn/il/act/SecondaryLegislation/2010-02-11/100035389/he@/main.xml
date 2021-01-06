@@ -1,0 +1,3217 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion" name="publicLaw">
+    <meta>
+      <identification source="#kensset">
+        <FRBRWork>
+          <FRBRthis value="/akn/il/act/SecondaryLegislation/2010-02-11/100035389/main" />
+          <FRBRuri value="/akn/il/act/SecondaryLegislation/2010-02-11/100035389" />
+          <FRBRdate date="2010-02-11" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRcountry value="israel" />
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/il/act/SecondaryLegislation/2010-02-11/100035389/he@/main" />
+          <FRBRuri value="/akn/il/act/SecondaryLegislation/2010-02-11/100035389/he@" />
+          <FRBRdate date="2010-02-11" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRlanguage language="hebrew" />
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/il/act/SecondaryLegislation/2010-02-11/100035389/he@/main.xml" />
+          <FRBRuri value="/akn/il/act/SecondaryLegislation/2010-02-11/100035389/he@" />
+          <FRBRdate date="2010-02-11" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRformat value="xml" />
+        </FRBRManifestation>
+      </identification>
+      <classification source="#kensset">
+        <keyword value="{classificationValue}" showAs="{classificationValue}" dictionary="#classification_dictionary" />
+      </classification>
+      <lifecycle source="#kensset">
+        <eventRef eId="eventRef_1" date="2010-02-11" source="#kensset" type="generation" />
+      </lifecycle>
+      <references source="#kensset">
+        <TLCOrganization eId="kensset" href="/ontology/organization/akn/knesset" showAs="Kensset" type="generation" />
+        <TLCRole eId="author" href="/ontology/role/akn/author" showAs="Author of Document" />
+        <TLCProcess eId="inforce" href="/ontology/process/akn/inforce" showAs="In force" />
+        <TLCTerm eId="term_1" href="/ontology/term/אתר_האינטרנט/100035389" showAs="אתר_האינטרנט" />
+        <TLCTerm eId="term_2" href="/ontology/term/דיני_עבודה/100035389" showAs="דיני_עבודה" />
+        <TLCTerm eId="term_3" href="/ontology/term/הזדהות/100035389" showAs="הזדהות" />
+        <TLCTerm eId="term_4" href="/ontology/term/החשב/100035389" showAs="החשב" />
+        <TLCTerm eId="term_5" href="/ontology/term/החשב_הכללי/100035389" showAs="החשב_הכללי" />
+        <TLCTerm eId="term_6" href="/ontology/term/המנהל_הכללי/100035389" showAs="המנהל_הכללי" />
+        <TLCTerm eId="term_7" href="/ontology/term/הנהלה_של_מוסד_להשכלה_גבוהה/100035389" showAs="הנהלה_של_מוסד_להשכלה_גבוהה" />
+        <TLCTerm eId="term_8" href="/ontology/term/הצעה_אלקטרונית/100035389" showAs="הצעה_אלקטרונית" />
+        <TLCTerm eId="term_9" href="/ontology/term/התקשרות/100035389" showAs="התקשרות" />
+        <TLCTerm eId="term_10" href="/ontology/term/ועדת_מכרזים/100035389" showAs="ועדת_מכרזים" />
+        <TLCTerm eId="term_11" href="/ontology/term/ועדת_הפטור/100035389" showAs="ועדת_הפטור" />
+        <TLCTerm eId="term_12" href="/ontology/term/זכות_ברירה/100035389" showAs="זכות_ברירה" />
+        <TLCTerm eId="term_13" href="/ontology/term/חתימה_אלקטרונית_מאובטחת/100035389" showAs="חתימה_אלקטרונית_מאובטחת" />
+        <TLCTerm eId="term_14" href="/ontology/term/יום_עבודה/100035389" showAs="יום_עבודה" />
+        <TLCTerm eId="term_15" href="/ontology/term/מוסד_להשכלה_גבוהה/100035389" showAs="מוסד_להשכלה_גבוהה" />
+        <TLCTerm eId="term_16" href="/ontology/term/מכרז/100035389" showAs="מכרז" />
+        <TLCTerm eId="term_17" href="/ontology/term/מכרז_ממוכן/100035389" showAs="מכרז_ממוכן" />
+        <TLCTerm eId="term_18" href="/ontology/term/מכרז_ממוכן_מהיר/100035389" showAs="מכרז_ממוכן_מהיר" />
+        <TLCTerm eId="term_19" href="/ontology/term/מכרז_ממוכן_מתפתח/100035389" showAs="מכרז_ממוכן_מתפתח" />
+        <TLCTerm eId="term_20" href="/ontology/term/מכרז_מסגרת/100035389" showAs="מכרז_מסגרת" />
+        <TLCTerm eId="term_21" href="/ontology/term/מכרז_מרכזי/100035389" showAs="מכרז_מרכזי" />
+        <TLCTerm eId="term_22" href="/ontology/term/מכרז_משותף/100035389" showAs="מכרז_משותף" />
+        <TLCTerm eId="term_23" href="/ontology/term/מכרז_סגור/100035389" showAs="מכרז_סגור" />
+        <TLCTerm eId="term_24" href="/ontology/term/מכרז_עם_בחינה_דו־שלבית/100035389" showAs="מכרז_עם_בחינה_דו־שלבית" />
+        <TLCTerm eId="term_25" href="/ontology/term/מכרז_עם_שלב_מיון_מוקדם/100035389" showAs="מכרז_עם_שלב_מיון_מוקדם" />
+        <TLCTerm eId="term_26" href="/ontology/term/מכרז_פומבי/100035389" showAs="מכרז_פומבי" />
+        <TLCTerm eId="term_27" href="/ontology/term/מכרז_פומבי_מוגבל/100035389" showAs="מכרז_פומבי_מוגבל" />
+        <TLCTerm eId="term_28" href="/ontology/term/מכרז_פומבי_עם_הליך_תחרותי_נוסף/100035389" showAs="מכרז_פומבי_עם_הליך_תחרותי_נוסף" />
+        <TLCTerm eId="term_29" href="/ontology/term/מכרז_פומבי_רגיל/100035389" showAs="מכרז_פומבי_רגיל" />
+        <TLCTerm eId="term_30" href="/ontology/term/ניקוד_איכות/100035389" showAs="ניקוד_איכות" />
+        <TLCTerm eId="term_31" href="/ontology/term/ניקוד_איכות_מזערי/100035389" showAs="ניקוד_איכות_מזערי" />
+        <TLCTerm eId="term_32" href="/ontology/term/ספק/100035389" showAs="ספק" />
+        <TLCTerm eId="term_33" href="/ontology/term/עבודה_או_שירותים_עתירי_כוח_אדם/100035389" showAs="עבודה_או_שירותים_עתירי_כוח_אדם" />
+        <TLCTerm eId="term_34" href="/ontology/term/עיתון_בשפה_הערבית/100035389" showAs="עיתון_בשפה_הערבית" />
+        <TLCTerm eId="term_35" href="/ontology/term/עיתון_נפוץ/100035389" showAs="עיתון_נפוץ" />
+        <TLCTerm eId="term_36" href="/ontology/term/פנייה_מוקדמת_לקבלת_מידע/100035389" showAs="פנייה_מוקדמת_לקבלת_מידע" />
+        <TLCTerm eId="term_37" href="/ontology/term/פנייה_תחרותית_לקבלת_הצעות/100035389" showAs="פנייה_תחרותית_לקבלת_הצעות" />
+        <TLCTerm eId="term_38" href="/ontology/term/קבוצת_מציעים_סופית/100035389" showAs="קבוצת_מציעים_סופית" />
+        <TLCTerm eId="term_39" href="/ontology/term/שווי_ההתקשרות/100035389" showAs="שווי_ההתקשרות" />
+        <TLCTerm eId="term_40" href="/ontology/term/תיבת_מכרזים_אלקטרונית/100035389" showAs="תיבת_מכרזים_אלקטרונית" />
+        <TLCTerm eId="term_41" href="/ontology/term/תקנון_כספים_ומשק/100035389" showAs="תקנון_כספים_ומשק" />
+        <TLCTerm eId="term_42" href="/ontology/term/התקשרות_ראשונה/100035389" showAs="התקשרות_ראשונה" />
+        <TLCTerm eId="term_43" href="/ontology/term/הרחבת_התקשרות_ראשונה/100035389" showAs="הרחבת_התקשרות_ראשונה" />
+        <TLCTerm eId="term_44" href="/ontology/term/הארכת_התקשרות_ראשונה/100035389" showAs="הארכת_התקשרות_ראשונה" />
+        <TLCTerm eId="term_45" href="/ontology/term/התקשרות_המשך/100035389" showAs="התקשרות_המשך" />
+        <TLCTerm eId="term_46" href="/ontology/term/התקשרות_המשך_בלא_עלות_נוספת/100035389" showAs="התקשרות_המשך_בלא_עלות_נוספת" />
+        <TLCTerm eId="term_47" href="/ontology/term/בעל_שליטה/100035389" showAs="בעל_שליטה" />
+        <TLCTerm eId="term_48" href="/ontology/term/תצהיר_בכתב/100035389" showAs="תצהיר_בכתב" />
+        <TLCTerm eId="term_49" href="/ontology/term/קרוב/100035389" showAs="קרוב" />
+        <TLCTerm eId="term_50" href="/ontology/term/בעל_עניין/100035389" showAs="בעל_עניין" />
+        <TLCPerson eId="יובל_שטייניץ" href="/ontology/person/יובל_שטייניץ" showAs="יובל שטייניץ" />
+        <TLCPerson eId="גדעון_סער" href="/ontology/person/גדעון_סער" showAs="גדעון סער" />
+        <TLCRole eId="שר_האוצר" href="ontology/role/akn/שר_האוצר" showAs="שר האוצר" />
+        <TLCRole eId="שר_החינוך" href="ontology/role/akn/שר_החינוך" showAs="שר החינוך" />
+      </references>
+      <temporalData source="#kensset">
+        <temporalGroup eId="tmpg_1" />
+      </temporalData>
+      <Publication></Publication>
+      <proprietary wikiversion="4/7/2020 11:29:54 PM" />
+    </meta>
+    <body period="#tmpg_1">
+      <title eId="title">
+        <content>
+          <p>תקנות חובת המכרזים (התקשרויות של מוסד להשכלה גבוהה), התש"ע–2010</p>
+        </content>
+      </title>
+      <preamble eId="eId">
+        <p>בתוקף סמכותנו לפי <ref href="/akn/il/act/PrimaryLegislation/1992-03-12/174451#point_3">סעיפים 3</ref>, <ref href="/akn/il/act/PrimaryLegislation/1992-03-12/174451#point_4">4</ref>, <ref href="/akn/il/act/PrimaryLegislation/1992-03-12/174451#point_5">ו־5</ref><ref href="/akn/il/act/PrimaryLegislation/1992-03-12/174451">לחוק חובת המכרזים, התשנ"ב–1992</ref> (להלן – החוק), בהתייעצות עם המועצה להשכלה גבוהה, ובאישור ועדת החינוך והתרבות של הכנסת, אנו מתקינים תקנות אלה:</p>
+      </preamble>
+      <chapter eId="chp_א">
+        <num>פרק א׳:</num>
+        <title>
+          <content>
+            <p>פרשנות</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_1" class="definitions">
+            <heading>
+              <authorialNote placement="side">
+                <p>הגדרות</p>
+              </authorialNote>
+            </heading>
+            <num>1.</num>
+            <list>
+              <intro>
+                <p>בתקנות אלה –</p>
+              </intro>
+              <point eId="point_1__point_אתר_האינטרנט">
+                <content>
+                  <p>
+                    <def />”אתר האינטרנט“ – אתר האינטרנט של המוסד להשכלה גבוהה;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_דיני_עבודה">
+                <content>
+                  <p>
+                    <def />”דיני עבודה“ – החיקוקים המפורטים <ref href="/akn/il/act/PrimaryLegislation/1969-03-27/165789#appendix_2">בתוספת השניה לחוק בית הדין לעבודה, התשכ"ט–1969</ref>, ששר התעשייה המסחר והתעסוקה ממונה על ביצועם וכן <ref href="/akn/il/act/PrimaryLegislation/1995-05-15/158093">חוק הביטוח הלאומי [נוסח משולב], התשנ"ה–1995</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_הזדהות">
+                <content>
+                  <p>
+                    <def />”הזדהות“ – התחברות למערכת אלקטרונית באופן המבטיח כי אדם מסוים, והוא בלבד, התחבר למערכת או ביצע בה פעולות;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_החשב">
+                <content>
+                  <p>
+                    <def />”החשב“ או ”חשב המוסד להשכלה גבוהה“ – לרבות סמנכ"ל הכספים של המוסד, או מנהל יחידת הכספים של המוסד, הכל לפי העניין, ואם במוסד יותר מבעל תפקיד אחד כאמור – מי שקבע המנהל הכללי;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_החשב_הכללי">
+                <content>
+                  <p>
+                    <def />”החשב הכללי“ – החשב הכללי במשרד האוצר;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_המנהל_הכללי">
+                <content>
+                  <p>
+                    <def />”המנהל הכללי“ – המנהל הכללי של המוסד להשכלה גבוהה, אף אם תוארו שונה;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_הנהלה_של_מוסד_להשכלה_גבוהה">
+                <content>
+                  <p>
+                    <def />”הנהלה של מוסד להשכלה גבוהה“ – הדירקטוריון של המוסד להשכלה גבוהה, הוועד המנהל שלו או גוף בעל סמכויות מקבילות, יהיה כינויו אשר יהיה;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_הצעה_אלקטרונית">
+                <content>
+                  <p>
+                    <def />”הצעה אלקטרונית“ – הצעה המוגשת כמסר אלקטרוני לתיבת מכרזים אלקטרונית;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_התקשרות">
+                <content>
+                  <p>
+                    <def />”התקשרות“ – למעט חוזה שעניינו קבלת תרומה לטובת המוסד לשם פעילותו של המוסד;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_ועדת_מכרזים">
+                <content>
+                  <p>
+                    <def />”ועדת מכרזים“ – ועדת מכרזים שמונתה לפי <ref href="#point_13">תקנה 13</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_ועדת_הפטור">
+                <content>
+                  <p>
+                    <def />”ועדת הפטור“ – ועדה שמונתה לפי <ref href="#point_17">תקנה 17</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_זכות_ברירה">
+                <content>
+                  <p>
+                    <def />”זכות ברירה“ – זכות הנתונה למוסד, להארכת ההתקשרות או להרחבתה, הכלולה בחוזה ההתקשרות;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_חתימה_אלקטרונית_מאובטחת">
+                <content>
+                  <p>
+                    <def />”חתימה אלקטרונית מאובטחת“, ”חתימה אלקטרונית מאושרת“ ו”מסר אלקטרוני“ – כהגדרתם <ref href="/akn/il/act/PrimaryLegislation/2001-04-04/170284">בחוק חתימה אלקטרונית, התשס"א–2001</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_יום_עבודה">
+                <content>
+                  <p>
+                    <def />”יום עבודה“ – כל יום מימי השבוע זולת אם הוא יום שישי, יום שבת, ימי שבתון, מועד ממועדי ישראל, המפורטים <ref href="/akn/il/act/PrimaryLegislation/1948-05-21/2002291#point_18א">בסעיף 18א(א) לפקודת סדרי השלטון והמשפט, התש"ח–1948</ref>, וערביהם, חול המועד ויום העצמאות;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_מוסד_להשכלה_גבוהה">
+                <content>
+                  <p>
+                    <def />”מוסד להשכלה גבוהה“ או ”מוסד“ – לרבות יחידה במוסד להשכלה גבוהה אשר לה תקציב הוצאות סגור;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_מכרז">
+                <content>
+                  <p>
+                    <def />”מכרז“ – מכרז פומבי רגיל, מכרז פומבי מוגבל או מכרז סגור;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_מכרז_ממוכן">
+                <content>
+                  <p>
+                    <def />”מכרז ממוכן“ – כמשמעותו <ref href="#point_34">בתקנה 34</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_מכרז_ממוכן_מהיר">
+                <content>
+                  <p>
+                    <def />”מכרז ממוכן מהיר“ – כמשמעותו <ref href="#point_36">בתקנה 36</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_מכרז_ממוכן_מתפתח">
+                <content>
+                  <p>
+                    <def />”מכרז ממוכן מתפתח“ – כמשמעותו <ref href="#point_35">בתקנה 35</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_מכרז_מסגרת">
+                <content>
+                  <p>
+                    <def />”מכרז מסגרת“ – כמשמעותו <ref href="#point_29">בתקנה 29</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_מכרז_מרכזי">
+                <content>
+                  <p>
+                    <def />”מכרז מרכזי“ – מכרז הנערך מטעם החשב הכללי בעבור משרדי הממשלה או יחידות הסמך שלהם;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_מכרז_משותף">
+                <content>
+                  <p>
+                    <def />”מכרז משותף“ – מכרז לביצוע עסקה בטובין או במקרקעין, לביצוע עבודה או לרכישת שירותים, הנערך לכמה מוסדות להשכלה גבוהה;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_מכרז_סגור">
+                <content>
+                  <p>
+                    <def />”מכרז סגור“ – מכרז שבו הפנייה לקבלת הצעות מופנית לספקים מסוימים בלבד, לפי <ref href="#point_7">תקנה 7</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_מכרז_עם_בחינה_דו־שלבית">
+                <content>
+                  <p>
+                    <def />”מכרז עם בחינה דו־שלבית“ – כמשמעותו <ref href="#point_27">בתקנה 27</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_מכרז_עם_שלב_מיון_מוקדם">
+                <content>
+                  <p>
+                    <def />”מכרז עם שלב מיון מוקדם“ – כמשמעותו <ref href="#point_26">בתקנה 26</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_מכרז_פומבי">
+                <content>
+                  <p>
+                    <def />”מכרז פומבי“ – מכרז שבו הפנייה לקבלת הצעות נעשית בהודעה לציבור המתפרסמת לפי <ref href="#point_19">תקנה 19</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_מכרז_פומבי_מוגבל">
+                <content>
+                  <p>
+                    <def />”מכרז פומבי מוגבל“ – מכרז ממוכן מהיר או מכרז פומבי שמנוהל בו משא ומתן עם מציעים במכרז;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_מכרז_פומבי_עם_הליך_תחרותי_נוסף">
+                <content>
+                  <p>
+                    <def />”מכרז פומבי עם הליך תחרותי נוסף“ – כמשמעותו <ref href="#point_28">בתקנה 28</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_מכרז_פומבי_רגיל">
+                <content>
+                  <p>
+                    <def />”מכרז פומבי רגיל“ – מכרז פומבי שאינו מכרז פומבי מוגבל;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_ניקוד_איכות">
+                <content>
+                  <p>
+                    <def />”ניקוד איכות“ – הניקוד שנתנה ועדת מכרזים להצעה, בהתאם לאמות המידה המפורטות <ref href="#point_39">בתקנה 39(א)(2) עד (5)</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_ניקוד_איכות_מזערי">
+                <content>
+                  <p>
+                    <def />”ניקוד איכות מזערי“ – ניקוד איכות שנקבע במסמכי המכרז כי הצעה שניקוד האיכות שלה נמוך ממנו, תידחה;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_ספק">
+                <content>
+                  <p>
+                    <def />”ספק“ – ספק טובין, מבצע עבודה או נותן שירותים;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_עבודה_או_שירותים_עתירי_כוח_אדם">
+                <content>
+                  <p>
+                    <def />”עבודה או שירותים עתירי כוח אדם“ – שירותי שמירה, אבטחה וניקיון וכן כל תחום או ענף נוסף שיורה המנהל הכללי של המוסד בשים לב להוראתו של החשב הכללי;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_עיתון_בשפה_הערבית">
+                <content>
+                  <p>
+                    <def />”עיתון בשפה הערבית“ – עיתון יומי או עיתון המתפרסם מדי שבוע לפחות, בעל תפוצה רחבה, היוצא לאור בשפה הערבית;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_עיתון_נפוץ">
+                <content>
+                  <p>
+                    <def />”עיתון נפוץ“ – עיתון יומי או עיתון המתפרסם מדי שבוע לפחות, בשפה העברית, בעל תפוצה רחבה, בהתחשב בנושא המכרז ולפי שיקול דעתה של ועדת המכרזים;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_פנייה_מוקדמת_לקבלת_מידע">
+                <content>
+                  <p>
+                    <def />”פנייה מוקדמת לקבלת מידע“ – כמשמעותה <ref href="#point_18">בתקנה 18</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_פנייה_תחרותית_לקבלת_הצעות">
+                <content>
+                  <p>
+                    <def />”פנייה תחרותית לקבלת הצעות“ – כמשמעותה <ref href="#point_9">בתקנה 9(ד)</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_קבוצת_מציעים_סופית">
+                <content>
+                  <p>
+                    <def />”קבוצת מציעים סופית“ – כל המציעים שעמדו בתנאי הסף, ובניקוד האיכות המזערי – ככל שנקבע במסמכי המכרז;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_שווי_ההתקשרות">
+                <list>
+                  <intro>
+                    <p>
+                      <def />”שווי ההתקשרות“ – סך כל התשלומים, לרבות מסים, הכלולים בהתקשרות, ובכלל זה –</p>
+                  </intro>
+                  <point eId="point_1__point_שווי_ההתקשרות__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>כל תשלום שעל המוסד לשלם למי שהוא צד להתקשרות עם המוסד, ואשר על פי ההתקשרות על אותו צד להתקשרות להעבירו לאחר;</p>
+                    </content>
+                  </point>
+                  <point eId="point_1__point_שווי_ההתקשרות__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>אומדן סך כל התשלומים שכל צד שלישי ישלם למי שהוא צד להתקשרות עם המוסד, מכוח ההתקשרות;</p>
+                    </content>
+                  </point>
+                  <point eId="point_1__point_שווי_ההתקשרות__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>סך כל התשלומים, לרבות תשלומים כאמור בפסקה (1) או (2), הכלולים בזכות ברירה של המוסד לפי אותה התקשרות;</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_1__point_תיבת_מכרזים_אלקטרונית">
+                <content>
+                  <p>
+                    <def />”תיבת מכרזים אלקטרונית“ – מערכת ממוכנת שמוגשות אליה הצעות אלקטרוניות במכרז;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_תקנון_כספים_ומשק">
+                <content>
+                  <p>
+                    <def />”תקנון כספים ומשק“ – הוראות מינהל שקובע החשב הכללי.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+        </list>
+      </chapter>
+      <chapter eId="chp_ב">
+        <num>פרק ב׳:</num>
+        <title>
+          <content>
+            <p>התקשרויות של מוסדות להשכלה גבוהה</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_2">
+            <heading>
+              <authorialNote placement="side">
+                <p>עקרונות המכרז, עדיפות המכרז הפומבי ופרסום החלטות פטור חובת מכרז</p>
+              </authorialNote>
+            </heading>
+            <num>2.</num>
+            <list>
+              <point eId="point_2__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>מוסד להשכלה גבוהה יערוך מכרז, או פנייה פרטנית בעקבות מכרז מסגרת, באופן שקוף ככל הניתן בנסיבות העניין, הוגן ושוויוני, המבטיח את מרב היתרונות למוסד.</p>
+                </content>
+              </point>
+              <point eId="point_2__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>מוסד שהחליט לבצע התקשרות שלא באמצעות מכרז לפי תקנות אלה, ינהל את ההליכים לקראת ההתקשרות האמורה ככל הניתן לפי העקרונות כאמור בתקנת משנה (א).</p>
+                </content>
+              </point>
+              <point eId="point_2__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>מוסד יעדיף, לבצע התקשרויות בדרך של מכרז פומבי רגיל גם מקום שהותר לו לפי תקנות אלה לבצע התקשרויות שלא בדרך של מכרז פומבי רגיל.</p>
+                </content>
+              </point>
+              <point eId="point_2__point_ד">
+                <num>(ד)</num>
+                <content>
+                  <p>החלטה של מוסד לבצע התקשרות בדרך של מכרז פומבי מוגבל תיעשה לפי תקנות אלה, לאחר בחינת האפשרות לערוך מכרז פומבי רגיל, וככל שמוצדק וסביר בנסיבות העניין לבצע את ההתקשרות שלא בדרך של מכרז פומבי רגיל.</p>
+                </content>
+              </point>
+              <point eId="point_2__point_ה">
+                <num>(ה)</num>
+                <content>
+                  <p>החלטה של מוסד לבצע התקשרות בדרך של מכרז סגור תיעשה לפי תקנות אלה, לאחר בחינת האפשרות לערוך מכרז פומבי, וככל שמוצדק וסביר בנסיבות העניין לבצע את ההתקשרות שלא בדרך של מכרז פומבי.</p>
+                </content>
+              </point>
+              <point eId="point_2__point_ו">
+                <num>(ו)</num>
+                <content>
+                  <p>החלטה של מוסד לבצע התקשרות שלא בדרך של מכרז, תתקבל לפי תקנות אלה לאחר בחינת האפשרות לערוך את ההתקשרות בדרך של מכרז, וככל שהדבר מוצדק וסביר בנסיבות העניין.</p>
+                </content>
+              </point>
+              <point eId="point_2__point_ז">
+                <num>(ז)</num>
+                <content>
+                  <p>מוסד יעשה כל שניתן כדי שהתקשרות לא תהפוך דחופה, באופן המצריך התקשרות בפטור ממכרז לפי <ref href="#point_3">תקנה 3(2)</ref> או באופן המצריך עריכת מכרז ממוכן מהיר לפי <ref href="#point_36">תקנה 36</ref>.</p>
+                </content>
+              </point>
+              <point eId="point_2__point_ח">
+                <num>(ח)</num>
+                <content>
+                  <p>מוסד שהחליט לבצע התקשרות שלא באמצעות מכרז לפי תקנות אלה, למעט התקשרויות כאמור <ref href="#point_3">בתקנות 3(1)</ref><ref href="#point_8">ו־8</ref> כאשר שווי ההתקשרות אינו עולה על סכום הפטור כאמור <ref href="#point_3">בתקנה 3(1)</ref>, יפרסם את החלטתו המונמקת באתר האינטרנט בתוך חמישה ימי עבודה ממועד קבלת ההחלטה האמורה.</p>
+                </content>
+              </point>
+              <point eId="point_2__point_ט">
+                <num>(ט)</num>
+                <content>
+                  <p>מוסד רשאי שלא לפרסם או לפרסם באופן חלקי את החלטתו כאמור בתקנת משנה (ח) מטעמים של ביטחון המדינה, יחסי החוץ שלה, קשרי מסחר בין־לאומיים או לפרסם באופן שאינו מגלה סוד מסחרי או מקצועי של המוסד.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_3">
+            <heading>
+              <authorialNote placement="side">
+                <p>פטור מחובת מכרז</p>
+              </authorialNote>
+            </heading>
+            <num>3.</num>
+            <list>
+              <intro>
+                <p>התקשרות מוסד להשכלה גבוהה בחוזה לביצוע עסקה בטובין או במקרקעין, לביצוע עבודה או לרכישת שירותים, אינה טעונה מכרז, אם היא אחת מאלה:</p>
+              </intro>
+              <point eId="point_3__point_1">
+                <num>(1)</num>
+                <content>
+                  <p>התקשרות ששווייה אינו עולה על 100,000 שקלים חדשים; ואולם בכל תקופה רצופה של שנים עשר חודשים לא יתקשר המוסד עם מתקשר מסוים, בלא מכרז, לפי פסקה זו בהתקשרויות בסכום כולל העולה על 300,000 שקלים חדשים, ובמניין זה יבואו גם התקשרויות שנכרתו בתקופה האמורה כהתקשרות המשך כהגדרתה בפסקה (4), להתקשרות שנעשתה במקורה לפי פסקה זו; אין באמור כדי למנוע מוועדת הפטור של מוסד לאשר לפי פסקה (4)(ב)(3) התקשרות המשך בסכום העולה על 300,000 שקלים חדשים להתקשרות שנעשתה במקורה לפי פסקה זו;</p>
+                </content>
+              </point>
+              <point eId="point_3__point_2">
+                <num>(2)</num>
+                <content>
+                  <p>התקשרות הנדרשת בדחיפות למניעת נזק של ממש, אשר יש להתחיל בביצועה בתוך שני ימי עבודה או פחות, בהיקף ולתקופה המזעריים הנדרשים בנסיבות כאמור, אם המנהל הכללי של המוסד המתקשר ובהעדרו – מי שהוא הסמיכו לכך, אישר זאת ונימק את החלטתו בכתב;</p>
+                </content>
+              </point>
+              <point eId="point_3__point_3">
+                <num>(3)</num>
+                <content>
+                  <p>התקשרות בעסקה אשר עריכת מכרז לגביה עלולה לפגוע פגיעה מהותית בסוד מסחרי או מקצועי של המוסד, ובלבד שהמנהל הכללי של המוסד, ובהעדרו – מי שהוא הסמיכו לכך, אישר זאת;</p>
+                </content>
+              </point>
+              <point eId="point_3__point_4">
+                <num>(4)</num>
+                <list>
+                  <point eId="point_3__point_4__point_א">
+                    <num>(א)</num>
+                    <list>
+                      <intro>
+                        <p>בפסקה זו –</p>
+                      </intro>
+                      <point eId="point_3__point_4__point_א__point_התקשרות_ראשונה">
+                        <content>
+                          <p>
+                            <def />”התקשרות ראשונה“ – התקשרות של מוסד, לרבות כל זכות ברירה הנתונה למוסד הכלולה באותה התקשרות;</p>
+                        </content>
+                      </point>
+                      <point eId="point_3__point_4__point_א__point_הרחבת_התקשרות_ראשונה">
+                        <content>
+                          <p>
+                            <def />”הרחבת התקשרות ראשונה“ – הגדלה של כמות הטובין, העבודה, המקרקעין או השירותים שיספק ספק מכוח התקשרות ראשונה;</p>
+                        </content>
+                      </point>
+                      <point eId="point_3__point_4__point_א__point_הארכת_התקשרות_ראשונה">
+                        <content>
+                          <p>
+                            <def />”הארכת התקשרות ראשונה“ – הארכת משך תוקפה של התקשרות ראשונה;</p>
+                        </content>
+                      </point>
+                      <point eId="point_3__point_4__point_א__point_התקשרות_המשך">
+                        <content>
+                          <p>
+                            <def />”התקשרות המשך“ – התקשרות הנעשית להרחבת התקשרות ראשונה או להארכת התקשרות ראשונה, שלא מכוח זכות ברירה הנתונה למוסד הכלולה בהתקשרות הראשונה;</p>
+                        </content>
+                      </point>
+                      <point eId="point_3__point_4__point_א__point_התקשרות_המשך_בלא_עלות_נוספת">
+                        <content>
+                          <p>
+                            <def />”התקשרות המשך בלא עלות נוספת“ – התקשרות המשך כאשר שווי ההתקשרות הראשונה בתוספת התקשרות ההמשך אינה עולה על שווי ההתקשרות הראשונה.</p>
+                        </content>
+                      </point>
+                    </list>
+                  </point>
+                  <point eId="point_3__point_4__point_ב">
+                    <num>(ב)</num>
+                    <list>
+                      <intro>
+                        <p>התקשרות המשך בתנאים זהים לתנאי ההתקשרות הראשונה או מטיבים עם המוסד, בנסיבות שבהן השמירה על האחידות נדרשת מטעמי חיסכון ויעילות:</p>
+                      </intro>
+                      <point eId="point_3__point_4__point_ב__point_1">
+                        <num>(1)</num>
+                        <list>
+                          <intro>
+                            <p>באישור ועדת המכרזים אם נתקיימו בה כל אלה:</p>
+                          </intro>
+                          <point eId="point_3__point_4__point_ב__point_1__point_א">
+                            <num>(א)</num>
+                            <content>
+                              <p>היא נעשית במהלך תקופת ההתקשרות הראשונה או סמוך לאחריה;</p>
+                            </content>
+                          </point>
+                          <point eId="point_3__point_4__point_ב__point_1__point_ב">
+                            <num>(ב)</num>
+                            <content>
+                              <p>היא התקשרות המשך בלא עלות נוספת, או אם שוויין המצטבר של כל התקשרויות ההמשך שנעשו לאותה התקשרות ראשונה לרבות התקשרות ההמשך הנוכחית, אינו עולה על 50,000 שקלים חדשים;</p>
+                            </content>
+                          </point>
+                        </list>
+                      </point>
+                      <point eId="point_3__point_4__point_ב__point_2">
+                        <num>(2)</num>
+                        <list>
+                          <intro>
+                            <p>על פי החלטת ועדת המכרזים ובאישור המנהל הכללי, אם אינה התקשרות כאמור בפסקת משנה (1)(א), או אם אינה התקשרות כאמור בפסקת משנה (1)(ב) ונתקיימו בה כל אלה:</p>
+                          </intro>
+                          <point eId="point_3__point_4__point_ב__point_2__point_א">
+                            <num>(א)</num>
+                            <content>
+                              <p>ההתקשרות הראשונה נעשתה בעקבות מכרז או בעקבות פנייה תחרותית לקבלת הצעות;</p>
+                            </content>
+                          </point>
+                          <point eId="point_3__point_4__point_ב__point_2__point_ב">
+                            <num>(ב)</num>
+                            <content>
+                              <p>התקשרות ההמשך נעשתה בתוך חמש שנים ממועד עריכתה של ההתקשרותה הראשונה;</p>
+                            </content>
+                          </point>
+                          <point eId="point_3__point_4__point_ב__point_2__point_ג">
+                            <num>(ג)</num>
+                            <content>
+                              <p>שוויין המצטבר של כל התקשרויות ההמשך שנעשו לאותה התקשרות ראשונה אינו עולה על שווי ההתקשרות הראשונה;</p>
+                            </content>
+                          </point>
+                          <point eId="point_3__point_4__point_ב__point_2__point_ד">
+                            <num>(ד)</num>
+                            <content>
+                              <p>שוויין המצטבר של כל התקשרויות ההמשך שנעשו לאותה התקשרות ראשונה, לרבות התקשרות ההמשך הנוכחית, אינו עולה על 2,500,000 שקלים חדשים;</p>
+                            </content>
+                          </point>
+                          <point eId="point_3__point_4__point_ב__point_2__point_ה">
+                            <num>(ה)</num>
+                            <content>
+                              <p>בשנים עשר החודשים שקדמו למועד עריכת התקשרות ההמשך לא בוצעה התקשרות המשך להתקשרות הראשונה, או התקשרות המשך להתקשרות אחרת עם אותו ספק באותו עניין וכן לא פוצלה התקשרות ההמשך מהתקשרות ראשונה או מהתקשרות אחרת עם אותו ספק כאמור, אם הסיבה לפיצול היא הימנעות מעריכת מכרז;</p>
+                            </content>
+                          </point>
+                        </list>
+                      </point>
+                      <point eId="point_3__point_4__point_ב__point_3">
+                        <num>(3)</num>
+                        <content>
+                          <p>באישור ועדת הפטור, בנסיבות מיוחדות ומטעמים מיוחדים שיירשמו, אם אינה התקשרות כאמור בפסקת משנה (1) או שלא התקיימו בה התנאים הנוספים לפי פסקת משנה (2);</p>
+                        </content>
+                      </point>
+                    </list>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_3__point_5">
+                <num>(5)</num>
+                <list>
+                  <intro>
+                    <p>התקשרות עם חברה ממשלתית, חברת בת ממשלתית או חברה מעורבת כמשמעותן <ref href="/akn/il/act/PrimaryLegislation/1975-07-04/169605">בחוק החברות הממשלתיות, התשל"ה–1975</ref>, או תאגיד אחר כאמור <ref href="/akn/il/act/PrimaryLegislation/1975-07-04/169605#point_60">בסעיף 60 לחוק האמור</ref> (להלן בתקנת משנה זו – החברה הממשלתית), באישור המנהל הכללי, ובלבד שנתקיימו כל אלה:</p>
+                  </intro>
+                  <point eId="point_3__point_5__point_א">
+                    <num>(א)</num>
+                    <content>
+                      <p>החברה הממשלתית מהווה על פי מסמכי היסוד שלה ועל פי החלטת הממשלה שהקימה אותה, זרוע לביצוע מטלות ישירות ומוגדרות של הממשלה וההתקשרות נעשית לשם ביצוע מטלות אלה; או – החברה מבצעת מטלה או שירות שהוטלו עליה לפי דין, או מספקת שירות או מצרך חיוניים לציבור, וההתקשרות נעשית לשם ביצוע מטלה או שירות אלה;</p>
+                    </content>
+                  </point>
+                  <point eId="point_3__point_5__point_ב">
+                    <num>(ב)</num>
+                    <content>
+                      <p>התקשרות למטרה ייחודית אשר תושג באופן הטוב והמתאים ביותר אם ההתקשרות תבוצע בידי החברה הממשלתית עקב שליטת המדינה בחברה; לעניין זה, שליטה כהגדרתה <ref href="/akn/il/act/PrimaryLegislation/1968-08-22/150242">בחוק ניירות ערך, התשכ"ח–1968</ref> (להלן – חוק ניירות ערך);</p>
+                    </content>
+                  </point>
+                  <point eId="point_3__point_5__point_ג">
+                    <num>(ג)</num>
+                    <content>
+                      <p>קיימת חברה ממשלתית אחת בלבד לביצוע המטלות האמורות בפסקת משנה (א); קיימות כמה חברות לעניין זה – ייערך מכרז סגור ביניהן;</p>
+                    </content>
+                  </point>
+                  <point eId="point_3__point_5__point_ד">
+                    <num>(ד)</num>
+                    <content>
+                      <p>החברה הממשלתית התחייבה כי התקשרויותיה עם צדדים נוספים, ככל שהן נובעות מן ההתקשרות עם המוסד, ייעשו במכרז פומבי, למעט אם נתקיימו התנאים האמורים בתקנה זו <ref href="#point_7">ובתקנות 7</ref><ref href="#point_9">ו־9</ref>, ואם נתקיימו, ההתקשרויות ייעשו בהתאם לתקנות האמורות לפי העניין;</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_3__point_6">
+                <num>(6)</num>
+                <content>
+                  <p>התקשרות עם תאגיד שהוקם בחוק או לפיו במסגרת תפקידי התאגיד על פי החוק שהקימו, ובלבד שההתקשרות היא באישור המנהל הכללי ונתקיימו התנאים האמורים בפסקה (5)(ב) עד (ד) בשינויים המחויבים;</p>
+                </content>
+              </point>
+              <point eId="point_3__point_7">
+                <num>(7)</num>
+                <content>
+                  <p>התקשרות שעניינה שיווק תוצרת חקלאית אשר ייצורה נובע ממחקר חקלאי שנערך במוסד; התקשרות כאמור תיעשה, ככל הניתן, לאחר הליך של בדיקת כמה הצעות הבאות בחשבון ובלבד שניתן לכך ביטוי בפרסום פומבי;</p>
+                </content>
+              </point>
+              <point eId="point_3__point_8">
+                <num>(8)</num>
+                <content>
+                  <p>התקשרות לרכישת שירותים או טובין ייחודיים שעניינם תרבות, אמנות, בידור או הווי;</p>
+                </content>
+              </point>
+              <point eId="point_3__point_9">
+                <num>(9)</num>
+                <content>
+                  <p>התקשרות לרכישת תרופות, נסיובים או תרכיבים, שהם ייחודיים;</p>
+                </content>
+              </point>
+              <point eId="point_3__point_10">
+                <num>(10)</num>
+                <content>
+                  <p>התקשרות לרכישת בעלי חיים בעלי אפיונים מיוחדים, לצורכי מחקר, הוראה או רפואת בעלי חיים;</p>
+                </content>
+              </point>
+              <point eId="point_3__point_11">
+                <num>(11)</num>
+                <content>
+                  <p>התקשרות בעסקה שעניינה מתן אשראי או קבלתו, השקעת כספים, קבלת שירותים בנקאיים, מכירה או רכישה של ניירות ערך, או פעולות אחרות בשוק ההון ובלבד שהמנהל הכללי או מי שהוא הסמיך לכך אישר זאת;</p>
+                </content>
+              </point>
+              <point eId="point_3__point_12">
+                <num>(12)</num>
+                <content>
+                  <p>התקשרות לרכישת זכויות במקרקעין, אם המקרקעין המסוימים דרושים לשימוש המוסד מפאת מיקומם המיוחד או בשל תכונה ייחודית אחרת, וכן התקשרות שעניינה מכירת זכויות במקרקעין של דייר מוגן לפי <ref href="/akn/il/act/PrimaryLegislation/1972-08-13/2002226">חוק הגנת הדייר [נוסח משולב], התשל"ב–1972</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_3__point_13">
+                <num>(13)</num>
+                <content>
+                  <p>התקשרות לשכירת מקרקעין או להרשאה לשימוש במקרקעין לתקופה של פחות מחמש שנים ובלבד ששטח המקרקעין אינו עולה על 1,000 מ"ר ודמי השכירות אינם עולים על מה שקבע שמאי מוסמך;</p>
+                </content>
+              </point>
+              <point eId="point_3__point_14">
+                <num>(14)</num>
+                <content>
+                  <p>התקשרות עם רשות מקומית לקבלת שירותים במסגרת תפקידי הרשות על פי דין;</p>
+                </content>
+              </point>
+              <point eId="point_3__point_15">
+                <num>(15)</num>
+                <list>
+                  <intro>
+                    <p>התקשרות לביצוע מטרות ציבוריות עם הקרן הקיימת לישראל או ג׳וינט ישראל (להלן – מוסד לאומי), או תאגיד בשליטת ג׳וינט ישראל, ובלבד שנתקיימו כל אלה:</p>
+                  </intro>
+                  <point eId="point_3__point_15__point_א">
+                    <num>(א)</num>
+                    <content>
+                      <p>המוסד הלאומי מממן עשרים וחמישה אחוזים או יותר ולעניין תאגיד בשליטת ג׳וינט ישראל – חמישים אחוזים או יותר מערך ההתקשרות, לפי מחירי השוק ממקורות שאינם תקציב המדינה;</p>
+                    </content>
+                  </point>
+                  <point eId="point_3__point_15__point_ב">
+                    <num>(ב)</num>
+                    <content>
+                      <p>המוסד הלאומי או התאגיד בשליטת ג׳וינט ישראל התחייבו כי התקשרויותיהם עם צדדים נוספים, ככל שהן נובעות מן ההתקשרות עם המוסד, ייעשו במכרז פומבי, למעט אם התקיימו התנאים האמורים בתקנה זו <ref href="#point_7">ובתקנות 7</ref><ref href="#point_9">ו־9</ref> ואם התקיימו – ייעשו ההתקשרויות בהתאם לתקנות האמורות לפי העניין; בפסקה זו, ”שליטה“ – כהגדרתה <ref href="/akn/il/act/PrimaryLegislation/1968-08-22/150242">בחוק ניירות ערך</ref>;</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_3__point_16">
+                <num>(16)</num>
+                <list>
+                  <point eId="point_3__point_16__point_א">
+                    <num>(א)</num>
+                    <content>
+                      <p>התקשרות עם הסוכנות היהודית או ההסתדרות הציונית לביצוע מטרות ציבוריות;</p>
+                    </content>
+                  </point>
+                  <point eId="point_3__point_16__point_ב">
+                    <num>(ב)</num>
+                    <content>
+                      <p>התקשרות עם קרן היסוד – המגבית המאוחדת לישראל, עם המגבית המאוחדת לישראל או עם המגבית המאוחדת לישראל בקנדה, לביצוע מטרות ציבוריות;</p>
+                    </content>
+                  </point>
+                  <point eId="point_3__point_16__point_ג">
+                    <num>(ג)</num>
+                    <content>
+                      <p>התקשרות לביצוע מטרות ציבוריות עם קרנות ומוסדות הנשלטים בלעדית בידי הסוכנות היהודית, ההסתדרות הציונית או קרן היסוד – המגבית המאוחדת לישראל; לעניין זה, ”קרנות ומוסדות“ – כמשמעם בהגדרה ”קרנותיה ושאר מוסדותיה של הסוכנות היהודית“ בנספח לאמנה בין ממשלת ישראל לבין הסוכנות היהודית לארץ ישראל, ובהגדרה ”קרנותיה ושאר מוסדותיה של ההסתדרות הציונית“ בנספח לאמנה בין ממשלת ישראל לבין ההסתדרות הציונית העולמית, למעט קרן קיימת לישראל והתאגידים הנשלטים בידיה;</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_3__point_17">
+                <num>(17)</num>
+                <content>
+                  <p>התקשרות שלגביה נתקיימו נסיבות מיוחדות ונדירות המצדיקות עשייתה בלא מכרז ובלבד שוועדת הפטור, באישור שר האוצר, החליטה מטעמים מיוחדים שיירשמו, לפטור אותה מחובת מכרז;</p>
+                </content>
+              </point>
+              <point eId="point_3__point_18">
+                <num>(18)</num>
+                <content>
+                  <p>התקשרות עם מי שלפי זכויות מכוח דין או בהתאם למצב הדברים בפועל הוא היחיד המסוגל לבצע את נושא ההתקשרות (בתקנות אלה – ספק יחיד), לאחר בחינת קיומם של ספקים לפי <ref href="#point_4">תקנה 4</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_3__point_19">
+                <num>(19)</num>
+                <list>
+                  <intro>
+                    <p>התקשרות לביצוע מיזם אשר יפעל ללא כוונת רווח, למטרה של חינוך, תרבות, דת, מדע, אמנות, רווחה, בריאות, ספורט, התיישבות, עלייה, מחקר או למטרה דומה, לאחר בחינת קיומם של מיזמים כאמור <ref href="#point_5">בתקנה 5</ref> ובכפוף לתנאים הנזכרים בה, ובלבד שהתקיימו שני אלה:</p>
+                  </intro>
+                  <point eId="point_3__point_19__point_א">
+                    <num>(א)</num>
+                    <content>
+                      <p>ההתקשרות נעשית עם מי שתורם ממקורותיו סכום שאינו נמוך ממחצית עלות ביצוע המיזם;</p>
+                    </content>
+                  </point>
+                  <point eId="point_3__point_19__point_ב">
+                    <num>(ב)</num>
+                    <content>
+                      <p>התקשרויות עם צדדים נוספים, ככל שהן נובעות מן ההתקשרות עם המוסד, ייעשו במכרז, ובלבד שאינן פטורות ממכרז לפי תקנות אלה;</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_3__point_20">
+                <num>(20)</num>
+                <list>
+                  <intro>
+                    <p>התקשרות בעסקה עם תושב מדינת חוץ או התקשרות בעסקה שביצועה נעשה במדינת חוץ (בתקנות אלה – ספק חוץ), והכל אם היא אחת מאלה:</p>
+                  </intro>
+                  <point eId="point_3__point_20__point_א">
+                    <num>(א)</num>
+                    <content>
+                      <p>עסקה לרכישת טובין או שירותים אשר מנהל היחידה המזמינה חיווה דעתו כי למיטב ידיעתו אין בנמצא בישראל טובין או שירותים מן הסוג הנדרש (בתקנות אלה – טובי חוץ), לאחר בחינת קיומם של ספקים לפי <ref href="#point_4">תקנה 4</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_3__point_20__point_ב">
+                    <num>(ב)</num>
+                    <content>
+                      <p>התקשרות של נציגות או של סניף של המוסד במדינת חוץ, לשימושם העצמי; ועדת המכרזים תערוך התקשרות כאמור בפסקה זו לאחר בדיקת כמה הצעות הבאות בחשבון; נימוקי ההחלטה יירשמו בפרוטוקול;</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_3__point_21">
+                <num>(21)</num>
+                <content>
+                  <p>התקשרות שהמנהל הכללי של המוסד, באישור ועדת הפטור, אישר לגביה כי עריכת מכרז עלולה לפגוע בצורה מהותית ביכולתו של המוסד לקיים פעילות מהפעילויות שהוא מקיים כמוסד להשכלה גבוהה לפי <ref href="/akn/il/act/PrimaryLegislation/1958-08-14/147288">חוק המועצה להשכלה גבוהה, התשי"ח–1958</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_3__point_22">
+                <num>(22)</num>
+                <content>
+                  <p>התקשרות הנעשית עם עורך מכרז בעקבות זכייתו של המוסד באותו מכרז;</p>
+                </content>
+              </point>
+              <point eId="point_3__point_23">
+                <num>(23)</num>
+                <content>
+                  <p>התקשרות הנעשית עם מי שזכה במכרז מרכזי, בתנאים זהים לתנאי החשב הכללי באותו מכרז, או בתנאים המטיבים עם המוסד;</p>
+                </content>
+              </point>
+              <point eId="point_3__point_24">
+                <num>(24)</num>
+                <content>
+                  <p>התקשרות עם מוסד אחר להשכלה גבוהה בישראל או מחוצה לה;</p>
+                </content>
+              </point>
+              <point eId="point_3__point_25">
+                <num>(25)</num>
+                <content>
+                  <p>התקשרות לשיתוף פעולה בתחומי המחקר, הפיתוח וההוראה ובלבד שהתקשרות כאמור עם תאגיד שאינו תאגיד שלא למטרות רווח, תיעשה, ככל הניתן, לאחר בחינה של כמה חלופות הבאות בחשבון;</p>
+                </content>
+              </point>
+              <point eId="point_3__point_26">
+                <num>(26)</num>
+                <content>
+                  <p>התקשרות להענקת זכויות במקרקעין לעובד של המוסד להשכלה גבוהה, למעט זכות בעלות, בהתאם לכללים פנימיים ושוויוניים שקבע המוסד;</p>
+                </content>
+              </point>
+              <point eId="point_3__point_27">
+                <num>(27)</num>
+                <list>
+                  <intro>
+                    <p>התקשרות עם תאגיד בת של המוסד להשכלה גבוהה, שמתקיים בה אחד מאלה:</p>
+                  </intro>
+                  <point eId="point_3__point_27__point_א">
+                    <num>(א)</num>
+                    <content>
+                      <p>התקשרויות עם תאגיד בת של המוסד להשכלה גבוהה, ובלבד שהתקשרויות של התאגיד האמור, עם גורם אחר, לביצוע אותה התקשרות נעשו בהתאם להוראות תקנות אלה;</p>
+                    </content>
+                  </point>
+                  <point eId="point_3__point_27__point_ב">
+                    <num>(ב)</num>
+                    <content>
+                      <p>התקשרויות עם תאגיד בת של המוסד להשכלה גבוהה העוסק בפיתוח, ברישום, ברישוי, במכירה, בשיווק או באכיפה של תוצרי ידע, או בפעילות נלווית לפעילות האמורה (בפסקה זו – מסחור וקניין רוחני) – אם התקשרויות של התאגיד נעשו לפי תקנות אלה, או אם נעשו באופן הנותן, במידת האפשר בנסיבות העניין, לגופים הבאים בחשבון הזדמנות לבצע את ההתקשרות, ובאופן המשיא את מרב היתרונות לתאגיד ולמוסד, ולעניין זה רשאי התאגיד לשקול גם שיקולים ציבוריים הנוגעים לעניין, לרבות שיקולים הקשורים באופיו של התאגיד כתאגיד בת של מוסד להשכלה גבוהה;</p>
+                    </content>
+                  </point>
+                  <point eId="point_3__point_27__point_ג">
+                    <num>(ג)</num>
+                    <list>
+                      <intro>
+                        <p>לעניין פסקה זו, ”תאגיד בת“, של מוסד להשכלה גבוהה – אחד מאלה:</p>
+                      </intro>
+                      <point eId="point_3__point_27__point_ג__point_1">
+                        <num>(1)</num>
+                        <content>
+                          <p>תאגיד שבשליטת המוסד להשכלה גבוהה;</p>
+                        </content>
+                      </point>
+                      <point eId="point_3__point_27__point_ג__point_2">
+                        <num>(2)</num>
+                        <content>
+                          <p>תאגיד שלא למטרת רווח, שעל פי מסמכי היסוד שלו מטרותיו הן רק קידום פעילות המוסד להשכלה גבוהה או קידום מטרות המוסד, והמוסד, בעלי תפקיד בו או מי שנתמנה בידי מי מאלה, משתתפים בהנהלתו;</p>
+                        </content>
+                      </point>
+                      <point eId="point_3__point_27__point_ג__point_3">
+                        <num>(3)</num>
+                        <content>
+                          <p>תאגיד העוסק במסחור קניין רוחני בעבור המוסד, והמוסד, בעלי תפקיד בו או מי שנתמנה בידי מי מאלה, משתתפים בהנהלתו;</p>
+                        </content>
+                      </point>
+                    </list>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_3__point_28">
+                <num>(28)</num>
+                <content>
+                  <p>התקשרות עם אגודת סטודנטים, ובלבד שהתקשרויות של אגודת הסטודנטים, עם גורם אחר, לביצוע אותה התקשרות בעבור המוסד נעשתה בהתאם לתקנות אלה;</p>
+                </content>
+              </point>
+              <point eId="point_3__point_29">
+                <num>(29)</num>
+                <content>
+                  <p>התקשרות לפעילות תקשורת יזומה המיועדת להעביר מסר לציבור באמצעות אמצעי תקשורת, ובלבד שהתקשרות כאמור תיעשה לאחר בדיקת כמה הצעות הבאות בחשבון.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_4">
+            <heading>
+              <authorialNote placement="side">
+                <p>בחינת קיומם של ספקים</p>
+              </authorialNote>
+            </heading>
+            <num>4.</num>
+            <list>
+              <point eId="point_4__point_א">
+                <num>(א)</num>
+                <list>
+                  <intro>
+                    <p>ביקשה יחידה מזמינה (להלן – יחידה) להתקשר עם ספק יחיד לפי <ref href="#point_3">תקנה 3(18)</ref>, או עם ספק חוץ לרכישת טובי חוץ, לפי <ref href="#point_3">תקנה 3(20)</ref>, תובא הבקשה לאישור ועדת המכרזים לאחר שנעשו כל אלה:</p>
+                  </intro>
+                  <point eId="point_4__point_א__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>בעל הסמכות המקצועית במוסד, חיווה את דעתו בכתב לעניין ההתקשרות כי המתקשר הוא ספק יחיד או כי הטובין הם טובי חוץ;</p>
+                    </content>
+                  </point>
+                  <point eId="point_4__point_א__point_2">
+                    <num>(2)</num>
+                    <list>
+                      <intro>
+                        <p>פרסמה היחידה באתר האינטרנט של המוסד לתקופה של שבעה ימי עבודה לפחות:</p>
+                      </intro>
+                      <point eId="point_4__point_א__point_2__point_א">
+                        <num>(א)</num>
+                        <content>
+                          <p>הודעה על כוונתה להתקשר עם מי שלפי דעתה הוא ספק יחיד, או עם ספק חוץ לרכישת טובי חוץ, לפי העניין, ואת עיקרי ההתקשרות;</p>
+                        </content>
+                      </point>
+                      <point eId="point_4__point_א__point_2__point_ב">
+                        <num>(ב)</num>
+                        <content>
+                          <p>את חוות הדעת לפי פסקת משנה (1) או את עיקריה;</p>
+                        </content>
+                      </point>
+                      <point eId="point_4__point_א__point_2__point_ג">
+                        <num>(ג)</num>
+                        <content>
+                          <p>הודעה על האפשרות לפנות אליה כאמור בתקנת משנה (ב), והתקופה שבה ניתן לפנות כאמור.</p>
+                        </content>
+                      </point>
+                    </list>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_4__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>אדם הסבור כי קיים ספק אחר המסוגל לבצע את ההתקשרות, רשאי לפנות ליחידה המזמינה או לוועדת המכרזים, כפי שייקבע בהודעה שתפורסם באתר האינטרנט של המוסד, בתוך התקופה שנקבעה בהודעה ושלא תפחת מעשרה ימי עבודה, ולהודיע לה כי קיים ספק אחר או ספק ישראלי, לפי העניין, המסוגל לבצע את ההתקשרות.</p>
+                </content>
+              </point>
+              <point eId="point_4__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>פנה אדם כאמור בתקנת משנה (ב) בתוך התקופה שנקבעה בה כאמור, יחווה בעל הסמכות המקצועית במוסד את דעתו ביחס לאותה פנייה.</p>
+                </content>
+              </point>
+              <point eId="point_4__point_ד">
+                <num>(ד)</num>
+                <content>
+                  <p>יחידה מזמינה תצרף לבקשתה להתקשר עם ספק יחיד או עם ספק חוץ לרכישת טובי חוץ, לפי העניין, את חוות הדעת האמורה בתקנת משנה (א)(1), את הפניות שנשלחו כאמור בתקנת משנה (ב), ואת חוות הדעת שניתנה ביחס אליהן כאמור בתקנת משנה (ג).</p>
+                </content>
+              </point>
+              <point eId="point_4__point_ה">
+                <num>(ה)</num>
+                <content>
+                  <p>ועדת המכרזים תשלח עותק מהחלטתה לכל מי שפנה אליה כאמור בתקנת משנה (ב).</p>
+                </content>
+              </point>
+              <point eId="point_4__point_ו">
+                <num>(ו)</num>
+                <content>
+                  <p>ועדת המכרזים רשאית מטעמים מיוחדים שיירשמו, לאשר התקשרות עם ספק יחיד או עם ספק חוץ, בלא פרסום הודעה כאמור בתקנת משנה (א)(2) או בלא קיום אחד מהתנאים הנוגעים לפרסום כאמור, ובלבד שדיווחה על החלטתה לוועדת הפטור; עלה שווי ההתקשרות על 1,000,000 שקלים חדשים, טעונה ההתקשרות את אישור ועדת הפטור.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_5">
+            <heading>
+              <authorialNote placement="side">
+                <p>בחינת קיומם של מיזמים</p>
+              </authorialNote>
+            </heading>
+            <num>5.</num>
+            <list>
+              <point eId="point_5__point_א">
+                <num>(א)</num>
+                <list>
+                  <intro>
+                    <p>החליטה ועדת המכרזים על ביצוע מיזם כאמור <ref href="#point_3">בתקנה 3(19)</ref>, יפרסם המוסד את דבר ההתקשרות באתר האינטרנט לתקופה שלא תפחת מ־14 ימי עבודה, ותשלח לכל מי שהוא מנוי על קבלת הודעות לפי <ref href="#point_19">תקנה 19(ה)</ref> –</p>
+                  </intro>
+                  <point eId="point_5__point_א__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>הודעה על כוונתה להתקשר לביצוע מיזם משותף ואת עיקרי ההתקשרות;</p>
+                    </content>
+                  </point>
+                  <point eId="point_5__point_א__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>הודעה על האפשרות לפנות אליה כאמור בתקנת משנה (ב).</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_5__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>אדם המבקש לבצע מיזם דומה למיזם שעליו פורסמה הודעה כאמור בתקנת משנה (א), רשאי לפנות ליחידה המזמינה או לוועדת המכרזים במהלך התקופה שנקבעה בתקנת משנה (א), כפי שייקבע בהודעה שתפורסם באתר האינטרנט של המוסד, באותה שנת תקציב או בשנת התקציב שלאחריה בבקשה לביצוע מיזם הדומה למיזם שאושר כאמור.</p>
+                </content>
+              </point>
+              <point eId="point_5__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>פנה גורם נוסף, כאמור בתקנת משנה (ב), תשקול ועדת המכרזים את הפנייה, בשים לב לצורך לשמור על השוויון בין שותפים שונים לביצוע מיזמים ובין נהנים שונים ממיזמים.</p>
+                </content>
+              </point>
+              <point eId="point_5__point_ד">
+                <num>(ד)</num>
+                <content>
+                  <p>יחידה מזמינה המבקשת כי ועדת מכרזים תאשר ביצוע מיזם נוסף עם מי שהמוסד התקשר עמו לפי <ref href="#point_3">תקנה 3(19)</ref>, באותה שנת תקציב או בשנת התקציב שלאחריה, תביא את הבקשה לפני הוועדה בצירוף כל פנייה שהתקבלה כאמור בתקנת משנה (ב); הודעה על החלטה של ועדת המכרזים בנוגע לבקשה כאמור תישלח גם לכל פונה כאמור.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_6">
+            <heading>
+              <authorialNote placement="side">
+                <p>מימוש זכות ברירה</p>
+              </authorialNote>
+            </heading>
+            <num>6.</num>
+            <list>
+              <point eId="point_6__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>התקשרות למימוש זכות ברירה של מוסד הכלולה בחוזה טעונה את אישור ועדת המכרזים.</p>
+                </content>
+              </point>
+              <point eId="point_6__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>
+                    <wikicomment font-size="x-small">(נמחקה).</wikicomment>
+                  </p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_7">
+            <heading>
+              <authorialNote placement="side">
+                <p>מכרז סגור</p>
+              </authorialNote>
+            </heading>
+            <num>7.</num>
+            <list>
+              <intro>
+                <p>התקשרות מוסד בחוזה לביצוע עסקה בטובין או במקרקעין, לביצוע עבודה או לרכישת שירותים, אינה טעונה מכרז פומבי אלא מכרז סגור, אם היא אחת מאלה:</p>
+              </intro>
+              <point eId="point_7__point_1">
+                <num>(1)</num>
+                <content>
+                  <p>התקשרות לרכישת טובין או שירותים בעלי תכונות מיוחדות ואפיונים בלתי נפוצים לרבות ציוד רפואי, תרופות, נסיובים או תרכיבים, עסקה שעניינה ביטוח ועסקה שעניינה פרסום או יחסי ציבור בעלי תכונות ואפיונים כאמור ובלבד שקיים מספר מצומצם של ספקים מתאימים לגבי אותה התקשרות ויראו את כל הספקים כאמור כרשימת המציעים למכרז סגור, ותחול <ref href="#point_20">תקנה 20(ד) ו־(ה)</ref> בשינויים המחויבים;</p>
+                </content>
+              </point>
+              <point eId="point_7__point_2">
+                <num>(2)</num>
+                <content>
+                  <p>התקשרות כאמור <ref href="#point_3">בתקנה 3(5)(ג)</ref>, סיפה;</p>
+                </content>
+              </point>
+              <point eId="point_7__point_3">
+                <num>(3)</num>
+                <content>
+                  <p>התקשרות כאמור <ref href="#point_8">בתקנה 8</ref> לרכישת ספרות מקצועית או להזמנה בודדת של חומרים, בסכום העולה על הנקוב <ref href="#point_8">באותה תקנה</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_7__point_4">
+                <num>(4)</num>
+                <content>
+                  <p>התקשרות ששווייה אינו עולה על 600,000 שקלים חדשים אם היא נעשית בהתאם לנהלים שאישר היועץ המשפטי של המוסד.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_8">
+            <heading>
+              <authorialNote placement="side">
+                <p>תשומות השכלה גבוהה</p>
+              </authorialNote>
+            </heading>
+            <num>8.</num>
+            <content>
+              <p>התקשרות מוסד בחוזה לביצוע עסקה בטובין, לביצוע עבודה או לרכישת שירותים, אינה טעונה מכרז, אם היא התקשרות לרכישת מכשור מדעי, ספרות מדעית, ציוד מדעי וחומרים המשמשים לפעילות השכלה גבוהה ושירותים החיוניים למחקר (בפסקה זו – תשומות השכלה גבוהה), הנדרשים בשל מאפייניהם הרלוונטיים לצורך פעילות ההשכלה הגבוהה, לרבות בשל צורך לשמור על אמינות, אחידות או רציפות במחקר ואם נערכה בהתאם לכללים שקבעו היועץ המשפטי של המוסד להשכלה גבוהה וחשב המוסד, או שקבעה הנהלת המוסד באישור ועדת הביקורת שלה, הכוללים, בין השאר, הוראות המונעות תלות בספק של מי שעושה שימוש בפועל באותן תשומות השכלה גבוהה, ובלבד ששווייה של התקשרות כאמור לרכישת ספרות מדעית או של הזמנה בודדת של חומרים אינו עולה על 500,000 שקלים חדשים.</p>
+            </content>
+          </point>
+          <point eId="point_9">
+            <heading>
+              <authorialNote placement="side">
+                <p>התקשרות עם בעל מקצוע מומחה</p>
+              </authorialNote>
+            </heading>
+            <num>9.</num>
+            <list>
+              <point eId="point_9__point_א">
+                <num>(א)</num>
+                <list>
+                  <intro>
+                    <p>התקשרות מוסד לביצוע עבודה או לרכישת שירותים אינה טעונה מכרז אם היא אחת מאלה:</p>
+                  </intro>
+                  <point eId="point_9__point_א__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>התקשרות לביצוע עבודה מקצועית הדורשת ידע ומומחיות מיוחדים, במקצועות התכנון, העיצוב, הגרפיקה, ההנדסה, האדריכלות, המדידה, הרפואה או שמאות המקרקעין, למעט התקשרות עם אדריכל לתכנון מבנה ציבור אשר יש בתכנונו עניין אדריכלי–ציבורי;</p>
+                    </content>
+                  </point>
+                  <point eId="point_9__point_א__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>התקשרות לביצוע עבודה הדורשת יחסי אמון מיוחדים, לרבות עריכת דין, ראיית חשבון, בוררות, ייעוץ או ביצוע מחקר;</p>
+                    </content>
+                  </point>
+                  <point eId="point_9__point_א__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>התקשרות לביצוע עבודה מדעית או ספרותית או עבודה שעניינה מחקר או פיתוח;</p>
+                    </content>
+                  </point>
+                  <point eId="point_9__point_א__point_4">
+                    <num>(4)</num>
+                    <content>
+                      <p>התקשרות בתחום רכישת השכלה או הכשרה מקצועית.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_9__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>מכרז להתקשרות עם אדריכל לתכנון מבנה ציבור אשר יש בתכנונו עניין אדריכלי–ציבורי, יכול שייעשה לפי סדרים וכללים שייקבעו בידי ועדת המכרזים, על אף האמור בתקנות אלה.</p>
+                </content>
+              </point>
+              <point eId="point_9__point_ג">
+                <num>(ג)</num>
+                <list>
+                  <intro>
+                    <p>על התקשרות לפי תקנת משנה (א) יחולו ההוראות האלה:</p>
+                  </intro>
+                  <point eId="point_9__point_ג__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>התקשרות כאמור בתקנת משנה (א) תיעשה, ככל הניתן, בדרך של פנייה תחרותית לקבלת הצעות, לפי תקנת משנה (ד);</p>
+                    </content>
+                  </point>
+                  <point eId="point_9__point_ג__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>קבעה ועדת המכרזים, לאחר שבחנה את האפשרות לערוך את ההתקשרות בדרך של פנייה תחרותית לקבלת הצעות, כי בנסיבות העניין אין זה אפשרי ומוצדק לערוך את ההתקשרות בדרך זו, תערוך ועדת המכרזים את ההתקשרות לאחר בדיקת כמה הצעות הבאות בחשבון, כאמור בתקנת משנה (ה);</p>
+                    </content>
+                  </point>
+                  <point eId="point_9__point_ג__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>קביעה של ועדת המכרזים כאמור בפסקה (2) – אם קיימת רשימת מציעים של המוסד לאותו עניין, תתקבל מטעמים מיוחדים שיירשמו;</p>
+                    </content>
+                  </point>
+                  <point eId="point_9__point_ג__point_4">
+                    <num>(4)</num>
+                    <content>
+                      <p>תקנת משנה זו לא תחול על התקשרות עם בורר שמתמנה להכריע במחלוקת עם צד ג׳, מגשר או מומחה שהתמנה מטעם בית המשפט ובלבד שהבורר, המגשר או המומחה הם בעלי כישורים, ניסיון ומוניטין מובהקים בתחומם.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_9__point_ד">
+                <num>(ד)</num>
+                <list>
+                  <intro>
+                    <p>פנייה תחרותית לקבלת הצעות תיערך כך:</p>
+                  </intro>
+                  <point eId="point_9__point_ד__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>ועדת המכרזים תבדוק כמה הצעות הבאות בחשבון מתוך רשימת המציעים, לפי <ref href="#point_20">תקנה 20</ref>, ועל פי אמות מידה כאמור <ref href="#point_39">בתקנה 39</ref>, לרבות מחיר ההצעה; פנייה תחרותית לקבלת הצעות אפשר שתיעשה כהליך עם בחינה דו־שלבית, ויחולו בהתאמה, הוראות <ref href="#point_27">תקנה 27</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_9__point_ד__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>אם בעקבות הפנייה לקבלת הצעות הוגשו פחות משלוש הצעות, ועדת המכרזים לא תפתח את ההצעות אלא תשיבן למציעים, ותערוך פנייה נוספת לכל המציעים שאליהם פנו מלכתחילה או לכל המציעים שהשיבו לפנייה הראשונה, כפי שתחליט ועדת המכרזים, וכן לחמישה מציעים נוספים לפחות או לכל המציעים ברשימת המציעים לאותו סוג של התקשרויות, לפי הנמוך מביניהם; ועדת המכרזים רשאית שלא לערוך פנייה נוספת אם הפנייה המקורית היתה לעשרה ספקים לפחות, או באישור ועדת הפטור אם ראתה שאין בכך תועלת בנסיבות העניין.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_9__point_ה">
+                <num>(ה)</num>
+                <list>
+                  <intro>
+                    <p>בדיקת כמה הצעות הבאות בחשבון תיערך כך:</p>
+                  </intro>
+                  <point eId="point_9__point_ה__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>ועדת המכרזים תערוך פנייה לקבלת הצעות, ככל הניתן, בסבב מחזורי, באופן הוגן והמעניק את מרב היתרונות למוסד;</p>
+                    </content>
+                  </point>
+                  <point eId="point_9__point_ה__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>בפנייה יצוינו פרטים לעניין אמות המידה המנויות <ref href="#point_39">בתקנה 39</ref>, כולן או חלקן, שלפיהן תיבחר ההצעה הזוכה.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_9__point_ו">
+                <num>(ו)</num>
+                <list>
+                  <intro>
+                    <p>ועדת המכרזים רשאית לערוך הסכם מסגרת עם בעל מקצוע מומחה, כאמור בתקנת משנה (א), שלא בעקבות מכרז, אם נעשה בעקבות פנייה תחרותית לקבלת הצעות, ונתקיימו בהסכם המסגרת כל אלה:</p>
+                  </intro>
+                  <point eId="point_9__point_ו__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>ההסכם הוא לתקופה מצטברת שלא תעלה על 5 שנים, ובשווי התקשרות מצטבר שלא יעלה על 4,000,000 שקלים חדשים;</p>
+                    </content>
+                  </point>
+                  <point eId="point_9__point_ו__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>ההסכם נערך לתחומי פעילות מוגדרים;</p>
+                    </content>
+                  </point>
+                  <wrapup eId="point_9__point_ו__wrapup_none">
+                    <content>
+                      <p>לעניין זה, ”תקופה מצטברת“ ו”שווי התקשרות מצטבר“ – לרבות כל זכות ברירה וכל הארכה לפי <ref href="#point_3">תקנה 3(4)</ref>;</p>
+                    </content>
+                  </wrapup>
+                </list>
+              </point>
+              <wrapup eId="point_9__wrapup_none">
+                <content>
+                  <p>על כל הזמנה של עבודה או שירותים במסגרת התקשרות המסגרת, תדווח היחידה המזמינה לוועדת המכרזים.</p>
+                </content>
+              </wrapup>
+            </list>
+          </point>
+          <point eId="point_9א">
+            <heading>
+              <authorialNote placement="side">
+                <p>התקשרות עם מתכננים</p>
+              </authorialNote>
+            </heading>
+            <num>9א.</num>
+            <list>
+              <point eId="point_9א__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>בתקנה זו, ”מתכנן“ – בעל מקצוע בענף התכנון שהוא אחד מאלה: אדריכל, מהנדס, מתכנן, יועץ, מנהל פרויקט, מפקח, שמאי מקרקעין ומודד.</p>
+                </content>
+              </point>
+              <point eId="point_9א__point_ב">
+                <num>(ב)</num>
+                <list>
+                  <intro>
+                    <p>על אף האמור <ref href="#point_9">בתקנה 9</ref>, התקשרות מוסד עם מתכנן לביצוע עבודה מקצועית הדורשת ידע ומומחיות מיוחדים בענף התכנון תיעשה באופן זה:</p>
+                  </intro>
+                  <point eId="point_9א__point_ב__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>התקשרות עד להיקף של מיליון וחצי שקלים חדשים – בדרך של בחירה ממאגר מתכננים ועל פי אמות מידה כאמור <ref href="#point_39">בתקנה 39</ref>, למעט לפי תקנת משנה (א)(1) שבה;</p>
+                    </content>
+                  </point>
+                  <point eId="point_9א__point_ב__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>התקשרות מהיקף של מיליון וחצי שקלים חדשים ועד 3 מיליון שקלים חדשים או בעד פרויקט בלתי מוגדר – בדרך של פנייה תחרותית לקבלת הצעות;</p>
+                    </content>
+                  </point>
+                  <point eId="point_9א__point_ב__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>התקשרות מהיקף של 3 מיליון שקלים חדשים ומעלה – בדרך של מכרז פומבי.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_9א__point_ג">
+                <num>(ג)</num>
+                <list>
+                  <point eId="point_9א__point_ג__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>בכל התקשרות כאמור בתקנת משנה (ב)(2) ו־(3) ייקבע כי 80% מהניקוד להצעות המוגשות יינתן לאמות המידה המפורטות <ref href="#point_39">בתקנה 39(א)(2) עד (5)</ref> ו־20% מהניקוד להצעות יינתן לאמת המידה המפורטת <ref href="#point_39">בתקנה 39(א)(1)</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_9א__point_ג__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>הצעות החורגות בלמעלה מ־15% מחציון הצעות המחיר, אם הוגשו חמש הצעות לפחות, ייפסלו ובלבד שלא נפסלו מחצית מן ההצעות הכשרות שהוגשו למכרז.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+            </list>
+          </point>
+          <point eId="point_10">
+            <heading>
+              <authorialNote placement="side">
+                <p>תנאים מוקדמים להשתתפות במכרז</p>
+              </authorialNote>
+            </heading>
+            <num>10.</num>
+            <list>
+              <point eId="point_10__point_א">
+                <num>(א)</num>
+                <list>
+                  <intro>
+                    <p>השתתפות במכרז תהיה מותנית בתנאים האלה:</p>
+                  </intro>
+                  <point eId="point_10__point_א__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>רישום בכל מרשם המתנהל על פי דין הצריך לעניין נושא ההתקשרות וכן קיומם של הרישיונות הנדרשים על פי דין;</p>
+                    </content>
+                  </point>
+                  <point eId="point_10__point_א__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>אם קיים לעניין נושא ההתקשרות תקן ישראלי רשמי כמשמעותו <ref href="/akn/il/act/PrimaryLegislation/1953-01-29/148964">בחוק התקנים, התשי"ג–1953</ref> – עמידה בדרישות התקן;</p>
+                    </content>
+                  </point>
+                  <point eId="point_10__point_א__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>קיומם של כל האישורים והתצהירים הנדרשים לפי <ref href="/akn/il/act/PrimaryLegislation/2002-07-24/173874">חוק עסקאות גופים ציבוריים, התשל"ו–1976</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_10__point_א__point_4">
+                    <num>(4)</num>
+                    <list>
+                      <intro>
+                        <p>במכרז לרכישת עבודה או שירותים עתירי כוח אדם – המצאת תצהיר בכתב של המציע ושל בעלי השליטה בו, בדבר קיום חובותיו של המציע בעניין שמירת זכויות עובדים, לפי דיני העבודה, צווי ההרחבה וההסכמים הקיבוציים החלים על המציע כמעסיק לצורך אספקת העבודה או השירותים; לעניין זה,</p>
+                      </intro>
+                      <point eId="point_10__point_א__point_4__point_בעל_שליטה">
+                        <content>
+                          <p>
+                            <def />”בעל שליטה“ – כהגדרתו <ref href="#point_11">בתקנה 11(א)(2)</ref>;</p>
+                        </content>
+                      </point>
+                      <point eId="point_10__point_א__point_4__point_תצהיר_בכתב">
+                        <content>
+                          <p>
+                            <def />”תצהיר בכתב“ – כמשמעותו <ref href="/akn/il/act/PrimaryLegislation/1971-04-28/2002283#chp_ב_sec_א">בסימן א׳ לפרק ב׳ לפקודת הראיות [נוסח חדש], התשל"א–1971</ref>.</p>
+                        </content>
+                      </point>
+                    </list>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_10__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>ניתן להתנות את ההשתתפות במכרז בתנאים ענייניים נוספים, לרבות תנאים בדבר ניסיונו של המעוניין להשתתף במכרז, כישוריו, היקף פעילותו, עמידה בדרישות תקן ישראלי לא רשמי, חשיבות המקום שבו מתנהלים עסקיו, וקיומן של המלצות על אודותיו.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_11">
+            <heading>
+              <authorialNote placement="side">
+                <p>תנאים לדחיית הצעה</p>
+              </authorialNote>
+            </heading>
+            <num>11.</num>
+            <list>
+              <point eId="point_11__point_א">
+                <num>(א)</num>
+                <list>
+                  <intro>
+                    <p>בלי לגרוע מכלליות האמור בתקנות אלה במכרז לרכישת עבודה או שירותים עתירי כוח אדם תדחה ועדת המכרזים הצעה בהתקיים אחד מאלה:</p>
+                  </intro>
+                  <point eId="point_11__point_א__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>המציע או מי מבעלי השליטה בו הורשע בשלוש השנים שקדמו למועד האחרון להגשת ההצעות במכרז בשל הפרת דיני העבודה;</p>
+                    </content>
+                  </point>
+                  <point eId="point_11__point_א__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>המציע או מי מבעלי השליטה בו נקנסו על ידי מפקח עבודה שמונה לפי <ref href="/akn/il/act/PrimaryLegislation/1985-10-24/151096#point_5">סעיף 5 לחוק העבירות המינהליות, התשמ"ו–1985</ref>, בשנה שקדמה למועד האחרון להגשת ההצעות במכרז ביותר משני קנסות בשל הפרת דיני העבודה; לעניין תקנת משנה זו, ”בעל שליטה“ – כמשמעותו <ref href="/akn/il/act/PrimaryLegislation/1981-04-26/147066">בחוק הבנקאות (רישוי), התשמ"א–1981</ref>.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_11__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>על אף האמור בתקנת משנה (א), רשאית ועדת מכרזים להחליט מטעמים מיוחדים שיירשמו שלא לדחות הצעה במכרז אף אם התקיים לגביה אחד התנאים כאמור; בהחלטה כאמור רשאית הוועדה להתחשב, בין השאר, בהתנהלותו של המציע, בדרך כלל, בכל הקשור לשמירת זכויות עובדים וכן ביחס שבין היקף פעילות המציע שבשלה הורשע או נקנס בשל הפרת דיני העבודה לבין היקף פעילותו הכולל.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_12">
+            <heading>
+              <authorialNote placement="side">
+                <p>ניהול משא ומתן עם מציעים במכרז</p>
+              </authorialNote>
+            </heading>
+            <num>12.</num>
+            <list>
+              <point eId="point_12__point_א">
+                <num>(א)</num>
+                <list>
+                  <intro>
+                    <p>התקשרות מוסד בחוזה לביצוע עסקה בטובין או במקרקעין, לביצוע עבודה או לרכישת שירותים, יכול שתיעשה באמצעות ניהול משא ומתן עם המתמודדים במכרז שהצעותיהם נמצאו מתאימות, אם היא אחת מאלה:</p>
+                  </intro>
+                  <point eId="point_12__point_א__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>התקשרות לביצוע מיזם בעל מורכבות טכנולוגית מיוחדת, או מיזם הדורש איתנות פיננסית משמעותית;</p>
+                    </content>
+                  </point>
+                  <point eId="point_12__point_א__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>התקשרות לביצוע מיזם משולב של בנייה ועיסקה לרכישת זכויות במקרקעין;</p>
+                    </content>
+                  </point>
+                  <point eId="point_12__point_א__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>התקשרות המנויה <ref href="#point_7">בתקנה 7</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_12__point_א__point_4">
+                    <num>(4)</num>
+                    <content>
+                      <p>התקשרות המנויה <ref href="#point_3">בפסקאות (11) או (12) בתקנה 3</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_12__point_א__point_5">
+                    <num>(5)</num>
+                    <content>
+                      <p>התקשרות לרכישת זכות במקרקעין לשימושו של המוסד;</p>
+                    </content>
+                  </point>
+                  <point eId="point_12__point_א__point_6">
+                    <num>(6)</num>
+                    <content>
+                      <p>התקשרות המנויה <ref href="#point_9">בתקנה 9(א)</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_12__point_א__point_7">
+                    <num>(7)</num>
+                    <content>
+                      <p>התקשרות לרכישת טובין או שירותים בעלי תכונות מיוחדות ואפיונים בלתי נפוצים, לרבות ציוד רפואי, תרופות, נסיובים או תרכיבים, עסקה שעניינה ביטוח ועסקה שעניינה פרסום או יחסי ציבור בעלי תכונות ואפיונים כאמור;</p>
+                    </content>
+                  </point>
+                  <point eId="point_12__point_א__point_8">
+                    <num>(8)</num>
+                    <content>
+                      <p>התקשרות לרכישת תשומות להשכלה גבוהה, כאמור <ref href="#point_8">בתקנה 8</ref>.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_12__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>החלטת ועדת המכרזים בדבר ניהול משא ומתן, לרבות האפשרות שלא לנהל משא ומתן לפי תקנת משנה (ה), טעונה הודעה במסמכי המכרז, ובמכרז פומבי – גם פרסום בהודעה על עריכת המכרז הפומבי, כאמור <ref href="#point_19">בתקנה 19</ref>.</p>
+                </content>
+              </point>
+              <point eId="point_12__point_ג">
+                <num>(ג)</num>
+                <list>
+                  <intro>
+                    <p>ועדת המכרזים תנהל מכרז לפי תקנה זו, באופן הזה:</p>
+                  </intro>
+                  <point eId="point_12__point_ג__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>ועדת המכרזים תקבע את קבוצת המציעים הסופית;</p>
+                    </content>
+                  </point>
+                  <point eId="point_12__point_ג__point_2">
+                    <num>(2)</num>
+                    <list>
+                      <intro>
+                        <p>ועדת המכרזים תנהל משא ומתן עם כל מציע מקבוצת המציעים הסופית, תוך הקפדה על מתן הזדמנות הוגנת לכל המציעים שעמם מנוהל המשא ומתן כמפורט להלן:</p>
+                      </intro>
+                      <point eId="point_12__point_ג__point_2__point_א">
+                        <num>(א)</num>
+                        <content>
+                          <p>בדרך שתבטיח רישום פרוטוקול אשר ישקף את תוכנו של המשא ומתן;</p>
+                        </content>
+                      </point>
+                      <point eId="point_12__point_ג__point_2__point_ב">
+                        <num>(ב)</num>
+                        <content>
+                          <p>בנוכחות היועץ המשפטי שהוא חבר הוועדה או נציגו;</p>
+                        </content>
+                      </point>
+                      <point eId="point_12__point_ג__point_2__point_ג">
+                        <num>(ג)</num>
+                        <content>
+                          <p>בלא שיהיה מגע כלשהו בין חבר ועדת המכרזים או מי מטעמו לבין מי מהמציעים אלא בדרך של משא ומתן מתועד;</p>
+                        </content>
+                      </point>
+                    </list>
+                  </point>
+                  <point eId="point_12__point_ג__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>כל פעולה שנעשתה במסגרת המשא ומתן, לרבות הפנייה למציע, חילופי הדברים והמסמכים ותוכנו של המשא ומתן, יירשמו בפרוטוקול;</p>
+                    </content>
+                  </point>
+                  <point eId="point_12__point_ג__point_4">
+                    <num>(4)</num>
+                    <content>
+                      <p>בסיום המשא ומתן יהיה כל מציע מקבוצת המציעים הסופית רשאי, במועד שתקבע ועדת המכרזים, להגיש לתיבת המכרזים הצעה סופית; לא הגיש מציע הצעה נוספת, תהיה הצעתו הראשונה הצעה סופית;</p>
+                    </content>
+                  </point>
+                  <point eId="point_12__point_ג__point_5">
+                    <num>(5)</num>
+                    <content>
+                      <p>לאחר הגשת ההצעות הסופיות, לא ינוהל עוד משא ומתן עם המציעים;</p>
+                    </content>
+                  </point>
+                  <point eId="point_12__point_ג__point_6">
+                    <num>(6)</num>
+                    <content>
+                      <p>ועדת המכרזים תבדוק את כל ההצעות של המציעים, לרבות הצעותיהם הראשונות ותיתן את החלטתה לפי <ref href="#point_38">תקנה 38</ref>.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_12__point_ד">
+                <num>(ד)</num>
+                <list>
+                  <intro>
+                    <p>כללה קבוצת המציעים הסופית רק מציע אחד –</p>
+                  </intro>
+                  <point eId="point_12__point_ד__point_1">
+                    <num>(1)</num>
+                    <list>
+                      <intro>
+                        <p>רשאית ועדת המכרזים –</p>
+                      </intro>
+                      <point eId="point_12__point_ד__point_1__point_א">
+                        <num>(א)</num>
+                        <content>
+                          <p>לנהל משא ומתן עם המציע, ורשאית היא להחליט כי המציע לא יהיה חייב להגיש הצעה סופית לתיבת המכרזים, אלא להגישה בכתב באופן שתקבע;</p>
+                        </content>
+                      </point>
+                      <point eId="point_12__point_ד__point_1__point_ב">
+                        <num>(ב)</num>
+                        <content>
+                          <p>להחליט כי לא ינוהל משא ומתן עם המציע;</p>
+                        </content>
+                      </point>
+                    </list>
+                  </point>
+                  <point eId="point_12__point_ד__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>תחול <ref href="#point_40">תקנה 40</ref>.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_12__point_ה">
+                <num>(ה)</num>
+                <list>
+                  <intro>
+                    <p>ועדת המכרזים רשאית להחליט שלא לנהל משא ומתן עם המציעים, בהתקיים אחד מאלה:</p>
+                  </intro>
+                  <point eId="point_12__point_ה__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>טרם החלו בניהול משא ומתן עם מי מהמציעים;</p>
+                    </content>
+                  </point>
+                  <point eId="point_12__point_ה__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>אם כל המציעים הסכימו לוותר על ניהול משא ומתן.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_12__point_ו">
+                <num>(ו)</num>
+                <content>
+                  <p>ועדת המכרזים רשאית להחליט שלא לקבל הצעה נוספת אחרי שנוהל משא ומתן עם כל המציעים, אם כל המציעים הסכימו לוותר על הגשת הצעה כאמור.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_13">
+            <heading>
+              <authorialNote placement="side">
+                <p>ועדת מכרזים</p>
+              </authorialNote>
+            </heading>
+            <num>13.</num>
+            <list>
+              <point eId="point_13__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>המנהל הכללי, באישור ההנהלה של המוסד להשכלה גבוהה או באישור ועדת משנה שתסמיך ההנהלה לעניין זה, ימנה למוסד להשכלה גבוהה ועדת מכרזים אחת או יותר, בת שלושה חברים לפחות, ובכללם היועץ המשפטי של המוסד או עורך דין שהוא מינה לנציגו וחשב המוסד או מי שהוא מינה לנציגו (להלן – ועדת מכרזים).</p>
+                </content>
+              </point>
+              <point eId="point_13__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>מונו למוסד להשכלה גבוהה שתי ועדות מכרזים או יותר, יקבע המנהל הכללי, באישור ההנהלה של המוסד להשכלה גבוהה או באישור ועדת משנה שתסמיך ההנהלה לעניין זה, את חלוקת הסמכויות בין הוועדות.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_14">
+            <heading>
+              <authorialNote placement="side">
+                <p>תפקידי ועדת המכרזים</p>
+              </authorialNote>
+            </heading>
+            <num>14.</num>
+            <list>
+              <point eId="point_14__point_א">
+                <num>(א)</num>
+                <list>
+                  <intro>
+                    <p>אלה תפקידי ועדת המכרזים:</p>
+                  </intro>
+                  <point eId="point_14__point_א__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>להחליט על כל התקשרות לביצוע עסקה בטובין או במקרקעין, לביצוע עבודה או לרכישת שירותים, שמבצע מוסד למעט התקשרות כאמור <ref href="#point_3">בתקנות 3(1), (2)</ref><ref href="#point_8">ו־8</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_14__point_א__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>להחליט על הליך של פנייה מוקדמת לקבלת מידע, ולבצע הליך כאמור, לפי <ref href="#point_18">תקנה 18</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_14__point_א__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>להחליט על סוג המכרז, לפי <ref href="#point_25">תקנות 25 עד 29</ref>, <ref href="#point_34">ו־34 עד 36</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_14__point_א__point_4">
+                    <num>(4)</num>
+                    <content>
+                      <p>להחליט על עריכת מכרז ולאשר את מסמכי המכרז;</p>
+                    </content>
+                  </point>
+                  <point eId="point_14__point_א__point_5">
+                    <num>(5)</num>
+                    <content>
+                      <p>לבדוק הצעות שהוגשו במכרז או בעקבות פנייה לקבלת הצעות, לפסול או לדחות הצעה שהוגשה למכרז או להחליט שלא לפסול או לדחות הצעה שהוגשה כאמור, להזמין מציע כדי לברר פרטים בהצעה ופרטים אחרים הדרושים לה לצורך קבלת החלטה ולבחור את ההצעה המתאימה ביותר, או לבחור כמה הצעות מתאימות, או להחליט שלא לבחור כל הצעה שהיא, הכל כאמור בתקנות אלה;</p>
+                    </content>
+                  </point>
+                  <point eId="point_14__point_א__point_6">
+                    <num>(6)</num>
+                    <content>
+                      <p>לנהל משא ומתן עם מציעים במכרז, לפי <ref href="#point_12">תקנה 12</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_14__point_א__point_7">
+                    <num>(7)</num>
+                    <content>
+                      <p>לסווג התקשרות כאמור <ref href="#point_15">בתקנה 15</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_14__point_א__point_8">
+                    <num>(8)</num>
+                    <content>
+                      <p>להחליט על חילוט ערבות מכרז, לפי <ref href="#point_22">תקנה 22</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_14__point_א__point_9">
+                    <num>(9)</num>
+                    <content>
+                      <p>להחליט על מימוש זכות ברירה של מוסד הכלולה בחוזה, לפי <ref href="#point_6">תקנה 6</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_14__point_א__point_10">
+                    <num>(10)</num>
+                    <content>
+                      <p>להיוועץ במי שאינו חבר בוועדת המכרזים לרבות במי שאינו עובד של עורך המכרז;</p>
+                    </content>
+                  </point>
+                  <point eId="point_14__point_א__point_11">
+                    <num>(11)</num>
+                    <content>
+                      <p>לאשר שינוי מהותי בתנאי חוזה שנכרת בעקבות מכרז;</p>
+                    </content>
+                  </point>
+                  <point eId="point_14__point_א__point_12">
+                    <num>(12)</num>
+                    <content>
+                      <p>לקבל כל החלטה הנדרשת לצורך ביצוע תפקידיה;</p>
+                    </content>
+                  </point>
+                  <point eId="point_14__point_א__point_13">
+                    <num>(13)</num>
+                    <content>
+                      <p>כל תפקיד אחר שנקבע לה לפי תקנות אלה ולפי כל חיקוק.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_14__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>ועדת המכרזים אינה רשאית לאצול את תפקידיה לפי תקנת משנה (א)(1) עד (12), ואולם רשאית היא למנות ועדת משנה שתביא לפניה המלצה בכל אחד מהנושאים כאמור, ואפשר כי החברים בוועדת המשנה, כולם או חלקם, לא יהיו חברים בוועדת המכרזים.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_15">
+            <heading>
+              <authorialNote placement="side">
+                <p>סיווג התקשרויות</p>
+              </authorialNote>
+            </heading>
+            <num>15.</num>
+            <list>
+              <point eId="point_15__point_א">
+                <num>(א)</num>
+                <list>
+                  <point eId="point_15__point_א__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>יחידה או גורם במוסד, המבקשים לבצע התקשרות שלא בדרך של מכרז פומבי רגיל, יביאו את בקשתם לפני ועדת המכרזים; הוראה זו לא תחול על התקשרות כאמור <ref href="#point_3">בתקנות 3(1), (2)</ref><ref href="#point_8">ו־8</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_15__point_א__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>החליטה ועדת המכרזים לאשר התקשרות שלא בדרך של מכרז פומבי רגיל, תסווג את ההתקשרות לפי <ref href="#point_3">תקנות 3</ref>, <ref href="#point_7">7</ref>, <ref href="#point_9">9</ref>, <ref href="#point_12">12</ref><ref href="#point_36">או 36</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_15__point_א__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>ועדת המכרזים תדון בבקשה כאמור בפסקה (1) בשים לב להוראות <ref href="#point_2">תקנה 2(ג) עד (ז)</ref>, ואם החליטה כאמור בפסקה (2), תנמק את ההחלטה ואת הסיווג בשים לב להוראות <ref href="#point_2">התקנה האמורה</ref>.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_15__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>ועדת המכרזים רשאית להתנות אישור לפי תקנת משנה (א) בתנאים, לרבות בדבר דרישה לפרסום פומבי או אחר של ההליך לבחירת המתקשר, ובדבר ניהול משא ומתן במסגרת אותו הליך.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_16">
+            <heading>
+              <authorialNote placement="side">
+                <p>עבודת ועדת המכרזים</p>
+              </authorialNote>
+            </heading>
+            <num>16.</num>
+            <list>
+              <point eId="point_16__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>החלטות ועדת המכרזים יתקבלו ברוב קולות חברי הוועדה, יהיו מנומקות ויירשמו בפרוטוקול שייחתם בידי חברי הוועדה הנוכחים בישיבה; רוב חברי ועדת המכרזים יהיו מניין חוקי בישיבות הוועדה ובלבד שנכחו בישיבות המנויים <ref href="#point_13">בתקנה 13(א)</ref>.</p>
+                </content>
+              </point>
+              <point eId="point_16__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>עמדת היועץ המשפטי של המוסד, או נציגו בוועדה, תכריע בעניינים משפטיים; עמדת החשב, או נציגו בוועדה, תכריע בעניינים תקציביים.</p>
+                </content>
+              </point>
+              <point eId="point_16__point_ג">
+                <num>(ג)</num>
+                <list>
+                  <intro>
+                    <p>היה לחבר ועדת המכרזים, לקרובו, או לתאגיד שהוא בעל עניין בו, או ליועץ או לחבר ועדת משנה עניין אישי או מוסדי בנושא הנדון בוועדה, לא ישתתף בדיון, ובמקומו ימונה חבר אחר לאותו נושא; לעניין זה –</p>
+                  </intro>
+                  <point eId="point_16__point_ג__point_קרוב">
+                    <content>
+                      <p>
+                        <def />”קרוב“ – בן זוג, אח, הורה, צאצא, וכן הורה או בן זוג של כל אחד מאלה;</p>
+                    </content>
+                  </point>
+                  <point eId="point_16__point_ג__point_בעל_עניין">
+                    <content>
+                      <p>
+                        <def />”בעל עניין“ – כמשמעותו <ref href="/akn/il/act/PrimaryLegislation/1968-08-22/150242">בחוק ניירות ערך</ref>.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_16__point_ד">
+                <num>(ד)</num>
+                <content>
+                  <p>נעדר חבר מבין חברי ועדת המכרזים משלוש ישיבות רצופות של ועדת המכרזים או מחמש ישיבות בתקופה של שנה, בלא שמונה לו ממלא מקום לישיבות אלה, יודיע על כך יושב ראש ועדת המכרזים למנהל הכללי של המוסד, ואם החבר הוא נציגו של אחד מהמנויים <ref href="#point_13">בתקנה 13</ref> – גם למי שהוא משמש נציגו; המנהל הכללי רשאי להעביר אותו חבר מחברותו בוועדה, זולת אם אותו חבר הוא המנהל הכללי של המוסד, היועץ המשפטי של המוסד או חשב המוסד; חבר שהועבר מתפקידו כאמור, ניתן לשוב ולמנותו, מטעמים שיירשמו, תוך ציון העובדה שהוא מתמנה אף שהועבר מתפקידו כאמור.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_17">
+            <heading>
+              <authorialNote placement="side">
+                <p>ועדת הפטור</p>
+              </authorialNote>
+            </heading>
+            <num>17.</num>
+            <list>
+              <point eId="point_17__point_א">
+                <num>(א)</num>
+                <list>
+                  <intro>
+                    <p>הנהלת המוסד להשכלה גבוהה או ועדת הביקורת של המוסד אם הוסמכה לכך בידי הנהלת המוסד, תמנה ועדת פטור בת שלושה חברים, שמתקיים בה אחד מאלה:</p>
+                  </intro>
+                  <point eId="point_17__point_א__point_1">
+                    <num>(1)</num>
+                    <list>
+                      <intro>
+                        <p>חבריה הם:</p>
+                      </intro>
+                      <point eId="point_17__point_א__point_1__point_א">
+                        <num>(א)</num>
+                        <content>
+                          <p>יושב ראש הנהלת המוסד או יושב ראש ועדת הביקורת, או נציגו של מי מאלה, והוא יהיה יושב הראש;</p>
+                        </content>
+                      </point>
+                      <point eId="point_17__point_א__point_1__point_ב">
+                        <num>(ב)</num>
+                        <content>
+                          <p>מי שאינו עובד המוסד להשכלה גבוהה;</p>
+                        </content>
+                      </point>
+                      <point eId="point_17__point_א__point_1__point_ג">
+                        <num>(ג)</num>
+                        <content>
+                          <p>היועץ המשפטי של המוסד או נציגו של היועץ המשפטי שהוא עורך דין, ובלבד שאם מינה היועץ המשפטי נציג, הוא לא יכהן כחבר ועדת הפטור בדיונים על החלטות ועדת המכרזים שהתקבלו בהשתתפותו;</p>
+                        </content>
+                      </point>
+                    </list>
+                  </point>
+                  <point eId="point_17__point_א__point_2">
+                    <num>(2)</num>
+                    <list>
+                      <intro>
+                        <p>חבריה הם:</p>
+                      </intro>
+                      <point eId="point_17__point_א__point_2__point_א">
+                        <num>(א)</num>
+                        <content>
+                          <p>שני חברים שאינם עובדי המוסד להשכלה גבוהה ואינם בעלי עניין במוסד להשכלה גבוהה ואחד מהם יהיה יושב הראש;</p>
+                        </content>
+                      </point>
+                      <point eId="point_17__point_א__point_2__point_ב">
+                        <num>(ב)</num>
+                        <content>
+                          <p>היועץ המשפטי של המוסד או נציגו של היועץ המשפטי שהוא עורך דין, ובלבד שאם מינה היועץ המשפטי נציג, הוא לא יכהן כחבר ועדת הפטור בדיונים על החלטות ועדת המכרזים שהתקבלו בהשתתפותו; לעניין זה, ”בעל עניין“ – כהגדרתו <ref href="/akn/il/act/PrimaryLegislation/1968-08-22/150242">בחוק ניירות ערך</ref>, אך לעניין זה לא יראו אדם כבעל עניין רק משום כך שהוא חבר בהנהלת המוסד.</p>
+                        </content>
+                      </point>
+                    </list>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_17__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>
+                    <ref href="#point_15">תקנות 15(ב)</ref>
+                    <ref href="#point_16">ו־16</ref> יחולו לעניין ועדת הפטור, בשינויים המחויבים.</p>
+                </content>
+              </point>
+              <point eId="point_17__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>החלטות ועדת המכרזים על מתן פטור ממכרז, בסכום העולה על 1,500,000 שקלים חדשים, ולעניין זכויות במקרקעין בסכום העולה על 2,500,000 שקלים חדשים, יהיו טעונות את אישור ועדת הפטור.</p>
+                </content>
+              </point>
+              <point eId="point_17__point_ד">
+                <num>(ד)</num>
+                <content>
+                  <p>החליטה ועדת המכרזים על מתן פטור ממכרז או על עריכת התקשרות בדרך של מכרז סגור, תדווח ועדת המכרזים לוועדת הפטור על החלטותיה, אחת לרבעון, ככל שאינן טעונות את אישור ועדת הפטור.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_18">
+            <heading>
+              <authorialNote placement="side">
+                <p>פנייה מוקדמת לקבלת מידע</p>
+              </authorialNote>
+            </heading>
+            <num>18.</num>
+            <list>
+              <point eId="point_18__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>ועדת מכרזים רשאית להחליט על עריכת פנייה מוקדמת לקבלת מידע, הדרוש לה לעניין התקשרות.</p>
+                </content>
+              </point>
+              <point eId="point_18__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>פנייה מוקדמת לקבלת מידע תיעשה באופן פומבי.</p>
+                </content>
+              </point>
+              <point eId="point_18__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>קבלת המידע וקיום דיון עם מי שנענה לפנייה ייעשו תוך שמירה על השוויון בין הפונים.</p>
+                </content>
+              </point>
+              <point eId="point_18__point_ד">
+                <num>(ד)</num>
+                <content>
+                  <p>ועדת המכרזים תתעד כל מידע שהתקבל וכל דיון שהתקיים עם מי שנענו לפנייה מוקדמת לקבלת מידע.</p>
+                </content>
+              </point>
+              <point eId="point_18__point_ה">
+                <num>(ה)</num>
+                <content>
+                  <p>מענה לפנייה מוקדמת לקבלת מידע לא יהווה תנאי להשתתפות במכרז שייערך בעקבותיו, לא יקנה יתרון במכרז למי שנענה לפנייה רק בשל כך שנענה לפנייה, ולא יחייב את שיתופו במכרז או התקשרות עמו בכל דרך אחרת.</p>
+                </content>
+              </point>
+              <point eId="point_18__point_ו">
+                <num>(ו)</num>
+                <content>
+                  <p>על מידע כאמור בתקנת משנה (ד) אשר בהסתמך עליו נערך מכרז שבו זכה מוסר המידע, תחול <ref href="#point_38">תקנה 38(ו)</ref> בשינויים המחויבים.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_19">
+            <heading>
+              <authorialNote placement="side">
+                <p>פרסום מכרז פומבי</p>
+              </authorialNote>
+            </heading>
+            <num>19.</num>
+            <list>
+              <point eId="point_19__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>רצה מוסד להתקשר בחוזה הטעון מכרז פומבי, תפרסם ועדת המכרזים הודעה על דבר קיומו בעיתון נפוץ, בעיתון בשפה הערבית ובאתר האינטרנט; ההודעה באתר האינטרנט תפורסם בשפה העברית ובשפה הערבית; ההודעה תפורסם זמן סביר לפני המועד האחרון להגשת הצעות.</p>
+                </content>
+              </point>
+              <point eId="point_19__point_ב">
+                <num>(ב)</num>
+                <list>
+                  <intro>
+                    <p>בהודעה על עריכת מכרז פומבי באתר האינטרנט יפורטו בין השאר:</p>
+                  </intro>
+                  <point eId="point_19__point_ב__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>מהות ההתקשרות המוצעת ותיאור נושאה, לרבות כל זכות ברירה להרחבת ההתקשרות;</p>
+                    </content>
+                  </point>
+                  <point eId="point_19__point_ב__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>תקופת ההתקשרות המוצעת, לרבות כל זכות ברירה להארכתה;</p>
+                    </content>
+                  </point>
+                  <point eId="point_19__point_ב__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>תנאים מוקדמים להשתתפות במכרז לפי <ref href="#point_10">תקנה 10</ref>, אם ישנם; תנאים לדחיית הצעה במכרז לרכישת עבודה או שירותים עתירי כוח אדם לפי <ref href="#point_11">תקנה 11</ref>, אם ישנם;</p>
+                    </content>
+                  </point>
+                  <point eId="point_19__point_ב__point_4">
+                    <num>(4)</num>
+                    <content>
+                      <p>המקום והמועד שבהם ניתן לקבל פרטים נוספים ואת מסמכי המכרז, והתשלום בעד מסמכי המכרז, אם נדרש;</p>
+                    </content>
+                  </point>
+                  <point eId="point_19__point_ב__point_5">
+                    <num>(5)</num>
+                    <content>
+                      <p>המועד האחרון להגשת ההצעות והמקום להגשתן;</p>
+                    </content>
+                  </point>
+                  <point eId="point_19__point_ב__point_6">
+                    <num>(6)</num>
+                    <content>
+                      <p>היות המכרז מכרז עם משא ומתן, מכרז עם שלב מיון מוקדם, מכרז עם בחינה דו־שלבית, מכרז פומבי עם הליך תחרותי נוסף, מכרז ממוכן מתפתח או מכרז ממוכן מהיר, לפי העניין.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_19__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>בהודעה על עריכת מכרז פומבי בעיתון נפוץ ובעיתון בשפה הערבית יפורטו: שם המוסד, שם המכרז, המועד האחרון להגשת הצעות למכרז וכתובת אתר האינטרנט.</p>
+                </content>
+              </point>
+              <point eId="point_19__point_ד">
+                <num>(ד)</num>
+                <content>
+                  <p>פורסמה ההודעה על עריכת המכרז הפומבי כאמור בתקנה זו, רשאית ועדת המכרזים לפרסם את תוכן ההודעה ברבים גם במדינת חוץ, אחת או יותר, או באמצעות משלוח לשני מציעים לפחות שמקום מושבם במדינת חוץ.</p>
+                </content>
+              </point>
+              <point eId="point_19__point_ה">
+                <num>(ה)</num>
+                <content>
+                  <p>נוסף על האמור בתקנת משנה (א), הודעה על עריכת מכרז פומבי תופץ בדואר אלקטרוני לכל אדם אשר ביקש להיכלל ברשימת המנויים על קבלת הודעה לפי תקנה זו.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_20">
+            <heading>
+              <authorialNote placement="side">
+                <p>רשימת מציעים למכרז סגור</p>
+              </authorialNote>
+            </heading>
+            <num>20.</num>
+            <list>
+              <point eId="point_20__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>לצורך מכרז סגור תנהל ועדת המכרזים רשימות, הערוכות לפי סוגי התקשרות, של ספקים מתאימים.</p>
+                </content>
+              </point>
+              <point eId="point_20__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>רשימת המציעים תעודכן אחת לשנה לפחות, תנוהל באופן ממוכן, תפורסם ותהיה פתוחה לעיון הציבור באתר האינטרנט.</p>
+                </content>
+              </point>
+              <point eId="point_20__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>ועדת המכרזים תפרסם הודעה בדבר כוונתה לערוך רשימת מציעים; כל הרוצה להיכלל ברשימת המציעים לסוג מסוים של התקשרויות יגיש בקשה בכתב לוועדת המכרזים בצירוף כל הפרטים והמסמכים הצריכים לעניין, והוא ייכלל ברשימה אם תמצא אותו ועדת המכרזים מתאים; ועדת המכרזים תודיע למבקש על החלטתה ונימוקיה.</p>
+                </content>
+              </point>
+              <point eId="point_20__point_ד">
+                <num>(ד)</num>
+                <content>
+                  <p>ועדת המכרזים רשאית שלא לכלול אדם ברשימת המציעים למכרז לרכישת עבודה או שירותים עתירי כוח אדם, או להורות על מחיקתו מרשימה כאמור מנימוקים מיוחדים שיירשמו לאחר שנתנה לו הזדמנות לטעון לפניה את טענותיו, בשים לב להתנהלותו בנוגע לשמירת זכויות עובדים; נכלל אדם ברשימת המציעים ונתקיימו בו התנאים המפורטים <ref href="#point_11">בתקנה 11</ref>, יימחק אותו אדם מרשימת המציעים זולת אם אישרה ועדת המכרזים שלא למחקו מן הרשימה מנימוקים מיוחדים שיירשמו.</p>
+                </content>
+              </point>
+              <point eId="point_20__point_ה">
+                <num>(ה)</num>
+                <content>
+                  <p>ועדת המכרזים תקבע, באישור היועץ המשפטי של המוסד וחשב המוסד, נוהל כתוב לבחירת הספקים שאליהם תבוצע הפנייה מתוך רשימת המציעים, באופן המבטיח קיומו של סבב מחזורי שוויוני והוגן ביניהם והמעניק את מרב היתרונות לעורך המכרז.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_21">
+            <heading>
+              <authorialNote placement="side">
+                <p>עריכת מכרז סגור</p>
+              </authorialNote>
+            </heading>
+            <num>21.</num>
+            <list>
+              <intro>
+                <p>ביקשה ועדת המכרזים להתקשר עם ספק מתוך רשימת מציעים במסגרת מכרז סגור או במסגרת פנייה תחרותית לקבלת הצעות, תפנה ועדת המכרזים לספקים מתוך רשימת המציעים כלהלן:</p>
+              </intro>
+              <point eId="point_21__point_1">
+                <num>(1)</num>
+                <content>
+                  <p>כללה רשימת המציעים לסוג מסוים לא יותר מעשרה מציעים, תפנה ועדת המכרזים לכולם;</p>
+                </content>
+              </point>
+              <point eId="point_21__point_2">
+                <num>(2)</num>
+                <content>
+                  <p>כללה רשימת המציעים יותר מעשרה מציעים – תפנה ועדת המכרזים לחמישה מציעים לפחות;</p>
+                </content>
+              </point>
+              <point eId="point_21__point_3">
+                <num>(3)</num>
+                <content>
+                  <p>הספקים שאליהם מופנות ההזמנות להציע הצעות ייבחרו ככל הניתן בסבב מחזורי לפי נוהל כאמור <ref href="#point_20">בתקנה 20(ה)</ref>.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_22">
+            <heading>
+              <authorialNote placement="side">
+                <p>ערבות מכרז</p>
+              </authorialNote>
+            </heading>
+            <num>22.</num>
+            <list>
+              <point eId="point_22__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>ועדת מכרזים רשאית לקבוע כי ההשתתפות במכרז פומבי או סגור, או בהליך תחרותי אחר, תהיה מותנית בהפקדת ערבות בתנאים שתקבע שעניינם סוג הערבות, תנאיה, גובהה ומשכה (בתקנה זו – ערבות מכרז).</p>
+                </content>
+              </point>
+              <point eId="point_22__point_ב">
+                <num>(ב)</num>
+                <list>
+                  <intro>
+                    <p>ועדת המכרזים תהיה רשאית להורות על חילוט ערבות מכרז של מציע, כולה או חלקה, אחרי שנתנה למציע הזדמנות להשמיע את טענותיו, אם התקיים בו אחד מאלה:</p>
+                  </intro>
+                  <point eId="point_22__point_ב__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>הוא נהג במהלך המכרז בערמה, בתכסיסנות או בחוסר ניקיון כפיים;</p>
+                    </content>
+                  </point>
+                  <point eId="point_22__point_ב__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>הוא מסר לוועדת המכרזים מידע מטעה או מידע מהותי בלתי מדויק;</p>
+                    </content>
+                  </point>
+                  <point eId="point_22__point_ב__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>הוא חזר בו מההצעה שהגיש למכרז לאחר חלוף המועד האחרון להגשת ההצעות במכרז;</p>
+                    </content>
+                  </point>
+                  <point eId="point_22__point_ב__point_4">
+                    <num>(4)</num>
+                    <content>
+                      <p>אחרי שנבחר כזוכה במכרז הוא לא פעל לפי ההוראות הקבועות במכרז שהן תנאי מוקדם ליצירת ההתקשרות של המוסד עם הזוכה במכרז.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+            </list>
+          </point>
+          <point eId="point_23">
+            <heading>
+              <authorialNote placement="side">
+                <p>מסמכי מכרז</p>
+              </authorialNote>
+            </heading>
+            <num>23.</num>
+            <list>
+              <point eId="point_23__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>מסמכי המכרז יומצאו לעיון לכל דורש בלא תשלום במשרדי המוסד וככל הניתן באמצעות אתר האינטרנט; לא ניתן להמציא את המסמכים באמצעות אתר האינטרנט, ניתן לקבוע כי המסמכים יומצאו תמורת תשלום סביר, לפי עלות הדפסתם.</p>
+                </content>
+              </point>
+              <point eId="point_23__point_ב">
+                <num>(ב)</num>
+                <list>
+                  <intro>
+                    <p>מסמכי המכרז יכללו בין השאר את כל אלה:</p>
+                  </intro>
+                  <point eId="point_23__point_ב__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>תנאי המכרז, לרבות תנאים להשתתפות במכרז;</p>
+                    </content>
+                  </point>
+                  <point eId="point_23__point_ב__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>נוסח להצעת המשתתף במכרז, למעט אם החליטה ועדת המכרזים כי בנסיבות העניין אין מקום לכלול נוסח כאמור, מנימוקים שיירשמו;</p>
+                    </content>
+                  </point>
+                  <point eId="point_23__point_ב__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>נוסח החוזה לרבות לוח זמנים ותנאי תשלום, וכן התכניות והמפרטים הנוגעים לביצוע החוזה;</p>
+                    </content>
+                  </point>
+                  <point eId="point_23__point_ב__point_4">
+                    <num>(4)</num>
+                    <content>
+                      <p>אם נדרשת ערבות – סוג הערבות, תנאיה, גובהה ומשכה;</p>
+                    </content>
+                  </point>
+                  <point eId="point_23__point_ב__point_5">
+                    <num>(5)</num>
+                    <content>
+                      <p>אמות המידה כאמור <ref href="#point_39">בתקנה 39</ref> שלפיהן תיבחר ההצעה הזוכה;</p>
+                    </content>
+                  </point>
+                  <point eId="point_23__point_ב__point_6">
+                    <num>(6)</num>
+                    <content>
+                      <p>כל מסמך או מידע אחר הדרושים לדעת ועדת המכרזים לשם ניהול תקין והוגן של המכרז, וכדי להבטיח את קבלת ההצעה המעניקה את מרב היתרונות למוסד, לרבות דרישה לקבלת כל מסמך או מידע בדבר כישוריו, ניסיונו או יכולתו של המציע;</p>
+                    </content>
+                  </point>
+                  <point eId="point_23__point_ב__point_7">
+                    <num>(7)</num>
+                    <content>
+                      <p>אם יש כוונה לערוך אומדן שווי ההתקשרות – קיומו של אומדן והנפקויות להליך המכרז של האומדן האמור.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_23__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>ועדת המכרזים רשאית להחליט שלא להמציא את כל מסמכי המכרז אלא להציג את כולם או את חלקם לעיון במקום שתקבע בנסיבות מיוחדות ומנימוקים שיירשמו; החליטה כאמור – יצוינו בהודעה על עריכת המכרז, המקום והמועד לעיון במסמכים.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_24">
+            <heading>
+              <authorialNote placement="side">
+                <p>אומדן שווי ההתקשרות</p>
+              </authorialNote>
+            </heading>
+            <num>24.</num>
+            <list>
+              <point eId="point_24__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>אומדן שווי ההתקשרות ייערך בידי גורם מקצועי שהוסמך לכך בידי ועדת המכרזים, וייחתם בידיו ובידי יושב ראש ועדת המכרזים.</p>
+                </content>
+              </point>
+              <point eId="point_24__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>אומדן שווי ההתקשרות ייערך ויופקד בתיבת המכרזים לפני המועד האחרון להגשת ההצעות במכרז ויישמר בתיבה עד לפתיחתה כאמור <ref href="#point_31">בתקנה 31</ref>; היה המכרז מכרז עם בחינה דו־שלבית, יופקד אומדן שווי ההתקשרות בתיבת המכרזים ויישמר בה עד לפתיחת הצעות המחיר.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_25">
+            <heading>
+              <authorialNote placement="side">
+                <p>סוגי הליכים תחרותיים</p>
+              </authorialNote>
+            </heading>
+            <num>25.</num>
+            <content>
+              <p>ועדת המכרזים רשאית לקבוע כי מכרז ייערך כמכרז עם שלב מיון מוקדם, כמכרז עם בחינה דו־שלבית, כמכרז פומבי עם הליך תחרותי נוסף, או כמכרז מסגרת, או בשילוב של דרכי המכרז האמורות.</p>
+            </content>
+          </point>
+          <point eId="point_26">
+            <heading>
+              <authorialNote placement="side">
+                <p>מכרז עם שלב מיון מוקדם</p>
+              </authorialNote>
+            </heading>
+            <num>26.</num>
+            <list>
+              <intro>
+                <p>מכרז עם שלב מיון מוקדם ייערך כך:</p>
+              </intro>
+              <point eId="point_26__point_1">
+                <num>(1)</num>
+                <content>
+                  <p>ועדת המכרזים תזמין מציעים להגיש במועד שתקבע (בתקנה זו – המועד הראשון) מסמכים לשם בחינת עמידת המציע בתנאי סף ובניקוד איכות מזערי, ככל שנקבעו, לצורך קביעת קבוצת המציעים הסופית;</p>
+                </content>
+              </point>
+              <point eId="point_26__point_2">
+                <num>(2)</num>
+                <content>
+                  <p>ועדת המכרזים תקבע את קבוצת המציעים הסופית, ותודיע לכל מי שהגיש מסמכים כאמור בפסקה (1) על הכללתו או אי־הכללתו בקבוצת המציעים הסופית סמוך לקבלת ההחלטה בוועדת המכרזים;</p>
+                </content>
+              </point>
+              <point eId="point_26__point_3">
+                <num>(3)</num>
+                <content>
+                  <p>ועדת המכרזים תזמין את כל מי שכלול בקבוצת המציעים הסופית, להגיש במועד שתקבע (בתקנה זו – המועד השני), את הצעתו למכרז;</p>
+                </content>
+              </point>
+              <point eId="point_26__point_4">
+                <num>(4)</num>
+                <content>
+                  <p>ועדת המכרזים רשאית לקבוע במסמכי המכרז כי לאחר הגשת ההצעות במועד השני ייבחנו תנאי סף נוספים וניקוד איכות מזערי נוסף, שלא נבחנו בקביעת קבוצת המציעים הסופית במועד הראשון.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_27">
+            <heading>
+              <authorialNote placement="side">
+                <p>מכרז עם בחינה דו־שלבית</p>
+              </authorialNote>
+            </heading>
+            <num>27.</num>
+            <list>
+              <intro>
+                <p>מכרז עם בחינה דו־שלבית ייערך כך:</p>
+              </intro>
+              <point eId="point_27__point_1">
+                <num>(1)</num>
+                <content>
+                  <p>במסמכי המכרז ייקבע כי הצעות המחיר יוגשו בנפרד מחלקי ההצעה האחרים ויסומנו כהצעת מחיר; הוגשו ההצעות לתיבת מכרזים שאינה תיבת מכרזים אלקטרונית, יחתמו מי שפתחו את תיבת המכרזים בהתאם <ref href="#point_31">לתקנה 31(ב)</ref> על המעטפות המכילות את הצעות המחיר, כשהן סגורות, ויפקידו את הצעות המחיר בתיבת המכרזים עד למועד פתיחתן כאמור בפסקה (3);</p>
+                </content>
+              </point>
+              <point eId="point_27__point_2">
+                <num>(2)</num>
+                <content>
+                  <p>לאחר פתיחת תיבת המכרזים תקבע ועדת המכרזים את קבוצת המציעים הסופית ואת ניקוד האיכות של כל מציע;</p>
+                </content>
+              </point>
+              <point eId="point_27__point_3">
+                <num>(3)</num>
+                <content>
+                  <p>הצעות המחיר ייפתחו רק לאחר שוועדת המכרזים קבעה את ניקוד האיכות; לאחר פתיחת הצעות המחיר תיקבע ועדת המכרזים ניקוד סופי להצעות המשקלל את ניקוד האיכות שנקבע כאמור בפסקה (2) עם הניקוד בשל המחיר.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_28">
+            <heading>
+              <authorialNote placement="side">
+                <p>מכרז פומבי עם הליך תחרותי נוסף</p>
+              </authorialNote>
+            </heading>
+            <num>28.</num>
+            <list>
+              <intro>
+                <p>מכרז פומבי רגיל עם הליך תחרותי נוסף ייערך כך:</p>
+              </intro>
+              <point eId="point_28__point_1">
+                <num>(1)</num>
+                <content>
+                  <p>במסמכי המכרז ייקבעו תנאים שבהתקיימם ייערך הליך תחרותי נוסף;</p>
+                </content>
+              </point>
+              <point eId="point_28__point_2">
+                <num>(2)</num>
+                <content>
+                  <p>התקיימו התנאים כאמור בפסקת משנה (1), תודיע ועדת המכרזים למציעים שנקבעו על פי תנאים אלה, כי הם רשאים להגיש, במועד שתורה הוועדה, הצעה סופית, ביחס למחיר הצעתם בתנאים מטיבים עם עורך המכרז לעומת הצעתם המקורית; לא הגיש מציע הצעה נוספת, תהיה הצעתו הראשונה הצעה סופית.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_29">
+            <heading>
+              <authorialNote placement="side">
+                <p>מכרז מסגרת</p>
+              </authorialNote>
+            </heading>
+            <num>29.</num>
+            <list>
+              <point eId="point_29__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>מכרז מסגרת הוא מכרז פומבי שבו נבחר יותר מספק אחד (כל אחד מהם ייקרא להלן בתקנה זו – ספק מכרז מסגרת), אשר על פי תנאי המכרז ייכרתו בעקבותיו הסכמי מסגרת עם כל ספק מכרז מסגרת, וזהות הספק שממנו תבוצע בפועל כל הזמנה של טובין, עבודה או שירותים תיקבע מפעם לפעם במהלך תקופת הסכם המסגרת, לפי תנאי מכרז המסגרת; לעניין זה, ”הסכם מסגרת“ – הסכם לרכישת טובין, עבודה או שירותים, שנכרת עם ספק מסוים בנושא מסוים ולתקופה מוגדרת, כאשר פירוט הטובין, העבודה או השירותים שיסופקו במסגרתו, כמותם או היקפם, אינו ידוע במועד כריתת ההסכם, והוא נקבע בידי המזמין, בדרך של ביצוע הזמנות מפעם לפעם, בתקופת ההסכם.</p>
+                </content>
+              </point>
+              <point eId="point_29__point_ב">
+                <num>(ב)</num>
+                <list>
+                  <intro>
+                    <p>ועדת מכרזים רשאית לערוך מכרז מסגרת, לתקופה המזערית הנדרשת בנסיבות העניין אשר לא תעלה על 5 שנים, אם יש בו יתרון ממשי לעורך המכרז בתנאי רכישת הטובין, העבודה או השירותים, או שיש בעריכת מכרז כאמור כדי לייעל באופן ממשי את עבודת המוסד, ובלבד שהתקיים אחד מאלה:</p>
+                  </intro>
+                  <point eId="point_29__point_ב__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>ההתקשרות עניינה אספקת טובין, עבודה או שירותים סטנדרטיים, הניתנים לתיאור מדויק;</p>
+                    </content>
+                  </point>
+                  <point eId="point_29__point_ב__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>ההתקשרות עניינה אספקת טובין, עבודה או שירותים מורכבים, הניתנים לתיאור כללי בלבד של מאפייניהם או תכונותיהם.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_29__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>ועדת המכרזים תפרט בהחלטתה לערוך מכרז מסגרת את הנימוקים כאמור בתקנת משנה (ב).</p>
+                </content>
+              </point>
+              <point eId="point_29__point_ד">
+                <num>(ד)</num>
+                <list>
+                  <intro>
+                    <p>נערך מכרז כמכרז מסגרת, תבוצע כל הזמנה של טובין, עבודה או שירותים בעקבותיו, כך:</p>
+                  </intro>
+                  <point eId="point_29__point_ד__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>ועדת המכרזים תפנה לקבלת הצעות מכל ספקי מכרז המסגרת, בדרך שנקבעה לכך במכרז המסגרת, ככל שנקבעו בו הוראות כאמור (בתקנה זו – פנייה פרטנית);</p>
+                    </content>
+                  </point>
+                  <point eId="point_29__point_ד__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>ספקי מכרז המסגרת יגישו את הצעותיהם במענה לפנייה הפרטנית על פי תנאי ההתקשרות שנקבעו במכרז המסגרת; מחיר ההצעה לכל פריט או יחידה שהוזמנה, לא יעלה על מחיר ההצעה לפריט או ליחידה, כאמור במכרז המסגרת, אם נקבע מחיר כאמור;</p>
+                    </content>
+                  </point>
+                  <point eId="point_29__point_ד__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>ועדת המכרזים תבחר בספק שיספק את ההזמנה הפרטנית בהתאם לתנאי מכרז המסגרת;</p>
+                    </content>
+                  </point>
+                  <point eId="point_29__point_ד__point_4">
+                    <num>(4)</num>
+                    <content>
+                      <p>ועדת המכרזים לא תנהל משא ומתן עם ספקי מכרז המסגרת בעקבות הפנייה הפרטנית;</p>
+                    </content>
+                  </point>
+                  <point eId="point_29__point_ד__point_5">
+                    <num>(5)</num>
+                    <content>
+                      <p>נערך מכרז מסגרת תהיה ועדת המכרזים רשאית לפנות בפנייה פרטנית לספק מכרז המסגרת שנבחר כאמור;</p>
+                    </content>
+                  </point>
+                  <point eId="point_29__point_ד__point_6">
+                    <num>(6)</num>
+                    <list>
+                      <intro>
+                        <p>חשב המוסד באישור היועץ המשפטי של המוסד יהיה רשאי לקבוע –</p>
+                      </intro>
+                      <point eId="point_29__point_ד__point_6__point_א">
+                        <num>(א)</num>
+                        <content>
+                          <p>הוראות, בדבר אופן ביצוע הפנייה הפרטנית, אופן הגשת המענה לפנייה הפרטנית, ודרך קביעת הספק שיספק את הטובין, העבודה או השירותים בעקבות הפנייה הפרטנית;</p>
+                        </content>
+                      </point>
+                      <point eId="point_29__point_ד__point_6__point_ב">
+                        <num>(ב)</num>
+                        <content>
+                          <p>הוראות בדבר תנאים לביצוע פנייה פרטנית להתקשרות ששווייה אינו עולה על 60,000 שקלים חדשים, ורשאי הוא לקבוע כי פנייה כאמור תבוצע שלא בידי ועדת המכרזים, או כי פנייה כאמור לא תהיה לכל ספקי מכרז המסגרת.</p>
+                        </content>
+                      </point>
+                    </list>
+                  </point>
+                </list>
+              </point>
+            </list>
+          </point>
+          <point eId="point_30">
+            <heading>
+              <authorialNote placement="side">
+                <p>הגשת הצעות</p>
+              </authorialNote>
+            </heading>
+            <num>30.</num>
+            <list>
+              <point eId="point_30__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>המעוניין להשתתף במכרז שאינו מכרז ממוכן, יגיש לוועדת המכרזים את הצעתו חתומה, מלאה ושלמה, בתוך מעטפה סגורה היטב (להלן – מעטפת המכרז), וזאת בדרך, במועד, במקום ובמספר עותקים כפי שנקבע בתנאי המכרז; לא צוין בתנאי המכרז מספר עותקים – תומצא ההצעה בשני עותקים.</p>
+                </content>
+              </point>
+              <point eId="point_30__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>ניתן להתנות את ההשתתפות במכרז בתשלום סביר בעבור עלות הפקת המכרז.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_31">
+            <heading>
+              <authorialNote placement="side">
+                <p>תיבת המכרזים</p>
+              </authorialNote>
+            </heading>
+            <num>31.</num>
+            <list>
+              <point eId="point_31__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>ההצעות למכרז יישמרו עד לפתיחתן, במועד האחרון להגשת ההצעות או אחריו, בתוך תיבה נעולה, אחת או יותר, אשר תיועד לשמירת מסמכי מכרזים (בתקנות אלה – תיבת המכרז).</p>
+                </content>
+              </point>
+              <point eId="point_31__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>מנהל כללי של מוסד ימנה מבין עובדי מוסדו עובדים שיהיו כשירים לפתוח תיבת מכרז; תיבת המכרז תיפתח בנוכחות ועדת המכרזים או בנוכחות שלושה אנשים לפחות מבין הכשירים כאמור או מבין חברי ועדת המכרזים.</p>
+                </content>
+              </point>
+              <point eId="point_31__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>במעמד פתיחת תיבת המכרז ייערך פרוטוקול שבו יירשמו, בין השאר, מספר ההצעות שנמצאו בתיבה, תכולתן, זיהוין, האומדן אם נעשה כזה, וככל הניתן גם המחיר המוצע או המבוקש, לפי העניין.</p>
+                </content>
+              </point>
+              <point eId="point_31__point_ד">
+                <num>(ד)</num>
+                <content>
+                  <p>במכרז שאינו מכרז ממוכן תיפתח תיבת המכרז לא יאוחר מסוף יום העבודה שאחרי המועד האחרון להגשת ההצעות במכרז זולת אם נימקה ועדת המכרזים את הצורך בפתיחת התיבה במועד מאוחר מן המועד האמור.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_32">
+            <heading>
+              <authorialNote placement="side">
+                <p>סוגי מכרזים ממוכנים</p>
+              </authorialNote>
+            </heading>
+            <num>32.</num>
+            <content>
+              <p>ועדת המכרזים רשאית לקבוע כי מכרז ייערך בדרך של מכרז ממוכן, בדרך של מכרז ממוכן מתפתח, ובהתקיים התנאים לכך, בדרך של מכרז ממוכן מהיר.</p>
+            </content>
+          </point>
+          <point eId="point_33">
+            <heading>
+              <authorialNote placement="side">
+                <p>ניהול המערכת הממוכנת</p>
+              </authorialNote>
+            </heading>
+            <num>33.</num>
+            <list>
+              <point eId="point_33__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>ועדת המכרזים תבצע פעולות במערכת הממוכנת באמצעות שני עובדי המוסד לפחות שהוסמכו בידי הוועדה, ולאחר שהזדהו לשם ביצוע הפעולה.</p>
+                </content>
+              </point>
+              <point eId="point_33__point_ב">
+                <num>(ב)</num>
+                <list>
+                  <intro>
+                    <p>יהיה ניתן לעשות שימוש במערכת ממוכנת רק אם התקיימו כל אלה:</p>
+                  </intro>
+                  <point eId="point_33__point_ב__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>המערכת מתעדת כל פעולה שבוצעה וכל מסר אלקטרוני הנשלח אליה וממנה, לרבות מועדם וזהות מי שביצע אותם; על תיעוד כאמור תחול <ref href="#point_38">תקנה 38(ו)</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_33__point_ב__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>למערכת שעון פנימי מדויק, המכויל על פי כללים מקובלים;</p>
+                    </content>
+                  </point>
+                  <point eId="point_33__point_ב__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>המערכת נוקטת, באורח סדיר, אמצעי הגנה סבירים מפני חדירה ומפני שיבוש בעבודתה, העלולים לפגום במהימנות המידע שבה;</p>
+                    </content>
+                  </point>
+                  <point eId="point_33__point_ב__point_4">
+                    <num>(4)</num>
+                    <content>
+                      <p>המערכת מגובה באמצעים מוגנים ומובטחים, והגיבוי נשמר בנפרד מהמערכת.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+            </list>
+          </point>
+          <point eId="point_34">
+            <heading>
+              <authorialNote placement="side">
+                <p>מכרז ממוכן</p>
+              </authorialNote>
+            </heading>
+            <num>34.</num>
+            <list>
+              <point eId="point_34__point_א">
+                <num>(א)</num>
+                <list>
+                  <intro>
+                    <p>מכרז ממוכן ייערך בדרך של הגשת הצעות אלקטרוניות לתיבת מכרזים אלקטרונית, כך:</p>
+                  </intro>
+                  <point eId="point_34__point_א__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>הצעה אלקטרונית תוגש בידי מגיש הצעה שהזדהה לשם כך, כשהיא חתומה בחתימה אלקטרונית מאובטחת או מאושרת;</p>
+                    </content>
+                  </point>
+                  <point eId="point_34__point_א__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>לא תהיה אפשרות לכל אדם לראות הצעה שהוגשה לתיבת המכרזים האלקטרונית או לשנותה, למעט היכולת לראות את ההצעות במועד פתיחת תיבת המכרזים האלקטרונית בידי המוסמכים לכך;</p>
+                    </content>
+                  </point>
+                  <point eId="point_34__point_א__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>פתיחת תיבת המכרזים האלקטרונית תיעשה באמצעות מי שמוסמך לעשות כן, לפי <ref href="#point_31">תקנה 31(ב)</ref>, לאחר שהזדהו לשם כך.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_34__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>ועדת המכרזים רשאית להחליט כי חלק מההצעה יוגש כהצעה אלקטרונית וחלק יוגש שלא כהצעה אלקטרונית.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_35">
+            <heading>
+              <authorialNote placement="side">
+                <p>מכרז ממוכן מתפתח</p>
+              </authorialNote>
+            </heading>
+            <num>35.</num>
+            <list>
+              <intro>
+                <p>מכרז ממוכן מתפתח ינוהל כך:</p>
+              </intro>
+              <point eId="point_35__point_1">
+                <num>(1)</num>
+                <content>
+                  <p>נקבע במסמכי המכרז כי תיבחן עמידת המציע בתנאי סף או בניקוד איכות מזערי, תקבע ועדת המכרזים את קבוצת המציעים הסופית בהתאם <ref href="#point_26">לתקנה 26(1) ו־(2)</ref> או <ref href="#point_27">תקנה 27(1) ו־(2)</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_35__point_2">
+                <num>(2)</num>
+                <content>
+                  <p>לאחר קביעת קבוצת המציעים הסופית, תקבע ועדת המכרזים מועד ראשון שבו כל המציעים שבקבוצת המציעים הסופית רשאים להגיש הצעות, וכן מועדים נוספים, ככל שיידרש, שבהם המציעים יהיו רשאים להגיש הצעה נוספת לעומת ההצעה האחרונה והכול בהתאם לקבוע במסמכי המכרז;</p>
+                </content>
+              </point>
+              <point eId="point_35__point_3">
+                <num>(3)</num>
+                <content>
+                  <p>הגשת הצעות כאמור בפסקה (2), תיעשה בנוכחות שניים לפחות מחברי ועדת המכרזים.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_36">
+            <heading>
+              <authorialNote placement="side">
+                <p>מכרז ממוכן מהיר</p>
+              </authorialNote>
+            </heading>
+            <num>36.</num>
+            <list>
+              <point eId="point_36__point_א">
+                <num>(א)</num>
+                <list>
+                  <intro>
+                    <p>ועדת המכרזים רשאית להחליט על עריכת מכרז ממוכן מהיר לצורך התקשרות שהתקיים בה אחד מאלה:</p>
+                  </intro>
+                  <point eId="point_36__point_א__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>ההתקשרות נדרשת בדחיפות למניעת נזק של ממש, בהיקף ולתקופה המזעריים הנדרשים בנסיבות כאמור;</p>
+                    </content>
+                  </point>
+                  <point eId="point_36__point_א__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>שווייה של ההתקשרות אינו עולה על 1,235,000 שקלים חדשים.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_36__point_ב">
+                <num>(ב)</num>
+                <list>
+                  <intro>
+                    <p>מכרז ממוכן מהיר ינוהל כך:</p>
+                  </intro>
+                  <point eId="point_36__point_ב__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>בהודעה באתר האינטרנט יצוין באופן בולט לעין כי המכרז הוא מכרז ממוכן מהיר והמועד האחרון להגשת ההצעות;</p>
+                    </content>
+                  </point>
+                  <point eId="point_36__point_ב__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>על אף האמור <ref href="#point_19">בתקנה 19(א) סיפה</ref>, המועד האחרון להגשת הצעות במכרז ממוכן מהיר יכול שיהיה לאחר חמישה ימי עבודה ממועד פרסום ההודעה על עריכת המכרז; במכרז להתקשרות אשר נדרשת בדחיפות למניעת נזק של ממש, המועד האחרון להגשת הצעות יהיה המועד שתקבע ועדת המכרזים, בהתחשב במועד הנדרש לעריכת ההתקשרות ובדחיפותה, ואשר לא יפחת מארבע שעות ממועד פרסום ההודעה על עריכת המכרז;</p>
+                    </content>
+                  </point>
+                  <point eId="point_36__point_ב__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>ועדת המכרזים רשאית לקבוע כי מכרז ממוכן מהיר ייערך בדרך של מכרז ממוכן מתפתח.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+            </list>
+          </point>
+          <point eId="point_36א">
+            <heading>
+              <authorialNote placement="side">
+                <p>מכרזים משותפים</p>
+              </authorialNote>
+            </heading>
+            <num>36א.</num>
+            <list>
+              <point eId="point_36א__point_א">
+                <num>(א)</num>
+                <list>
+                  <intro>
+                    <p>מוסדות להשכלה גבוהה רשאים לערוך מכרז משותף, בהתקיים אחד מאלה:</p>
+                  </intro>
+                  <point eId="point_36א__point_א__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>לעניין הטובין, העבודה או השירותים שכל מוסד מעוניין לרכוש קיים מספר מצומצם של ספקים מתאימים ואין יעילות כלכלית בעריכת מכרז נפרד לכל מוסד;</p>
+                    </content>
+                  </point>
+                  <point eId="point_36א__point_א__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>הטובין, המקרקעין, העבודה או השירותים נדרשים לצורך פעילות משותפת שמקיימים המוסדות להשכלה גבוהה שלהם נערך המכרז המשותף.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_36א__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>ועדת מכרזים משותפת שימנו המנהלים הכלליים של המוסדות שעורכים את המכרז, תנהל את הליכי המכרז המשותף.</p>
+                </content>
+              </point>
+              <point eId="point_36א__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>ועדת המכרזים המשותפת תמנה שלושה חברים לפחות, ובכללם החשב והיועץ המשפטי של אחד המוסדות; חברי הוועדה האמורה יכול שיהיו ממוסדות שונים.</p>
+                </content>
+              </point>
+              <point eId="point_36א__point_ד">
+                <num>(ד)</num>
+                <content>
+                  <p>במסגרת מסמכי המכרז המשותף יצוינו שמות המוסדות שעורכים את המכרז.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_37">
+            <heading>
+              <authorialNote placement="side">
+                <p>בדיקת ההצעות</p>
+              </authorialNote>
+            </heading>
+            <num>37.</num>
+            <list>
+              <point eId="point_37__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>בדיקת ההצעות תיעשה בידי ועדת המכרזים בתוך זמן סביר ממועד פתיחת תיבת המכרז.</p>
+                </content>
+              </point>
+              <point eId="point_37__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>ועדת המכרזים לא תדון בהצעות אשר לא נמצאו בתיבת המכרז במועד האחרון להגשת הצעות.</p>
+                </content>
+              </point>
+              <point eId="point_37__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>נתגלו בהצעות טעויות סופר או טעויות חשבוניות, רשאי יושב ראש ועדת המכרזים לתקנן; התיקון ייעשה במהלך בדיקת ההצעות בידי הוועדה ויירשם בפרוטוקול; הודעה על התיקון תימסר למציע.</p>
+                </content>
+              </point>
+              <point eId="point_37__point_ד">
+                <num>(ד)</num>
+                <content>
+                  <p>ועדת המכרזים תפסול הצעות אם הן חסרות, מוטעות או מבוססות על הנחות בלתי נכונות או על הבנה מוטעית של נושא המכרז, וכן הצעות שעולה מהן שבקיום ההתקשרות ייפגעו זכויות עובדים, זולת אם החליטה הוועדה אחרת מטעמים מיוחדים שיירשמו; ועדת המכרזים תדחה הצעות שלא מתקיימים בהן התנאים לפי <ref href="#point_11">תקנה 11(א)</ref>, זולת אם החליטה אחרת לפי <ref href="#point_11">תקנה 11(ב)</ref>.</p>
+                </content>
+              </point>
+              <point eId="point_37__point_ה">
+                <num>(ה)</num>
+                <content>
+                  <p>הוועדה רשאית, מטעמים שיירשמו בפרוטוקול, להזמין מציע כדי לברר פרטים בהצעה וכן פרטים אחרים הדרושים לה לצורך קבלת החלטתה; פרטי הבירור יירשמו אף הם בפרוטוקול.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_38">
+            <heading>
+              <authorialNote placement="side">
+                <p>החלטות ועדת המכרזים</p>
+              </authorialNote>
+            </heading>
+            <num>38.</num>
+            <list>
+              <point eId="point_38__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>לאחר סיום בדיקת כל ההצעות ובירור שאר הפרטים הנדרשים תיתן ועדת המכרזים את החלטתה; הוועדה רשאית להחליט על בחירת ההצעה המתאימה ביותר או להחליט שלא לבחור כל הצעה שהיא, והכל במטרה להבטיח את מרב היתרונות לעורך המכרז.</p>
+                </content>
+              </point>
+              <point eId="point_38__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>נעשה אומדן של שווי ההתקשרות, כאמור <ref href="#point_24">בתקנה 24</ref>, וכל ההצעות שהוגשו למכרז מרעות עם עורך המכרז לעומת האומדן, רשאית ועדת המכרזים לקבוע כי כל המשתתפים במכרז שבקבוצת המציעים הסופית יגישו הצעת מחיר חוזרת ומשופרת, לפי <ref href="#point_28">תקנה 28(2)</ref>.</p>
+                </content>
+              </point>
+              <point eId="point_38__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>ועדת המכרזים תבחר את ההצעה הזולה או היקרה ביותר, לפי העניין, זולת אם החליטה שלא לעשות כן בנסיבות מיוחדות ומטעמים מיוחדים שיירשמו ולאחר שנתנה לבעל ההצעה הזולה או היקרה ביותר, לפי העניין, הזדמנות להביא את טענותיו לפניה; נכללו במסמכי המכרז פרטים לעניין אמות המידה שלפיהן תיבחר ההצעה הזוכה, תבחר ועדת המכרזים את ההצעה המעניקה את מרב היתרונות לעורך המכרז בהתאם לאמות המידה כאמור, זולת אם החליטה שלא לעשות כן בנסיבות מיוחדות ומטעמים מיוחדים שיירשמו, ולאחר שנתנה לבעל ההצעה המעניקה את מרב היתרונות לעורך המכרז לפי אמות המידה כאמור, הזדמנות להביא את טענותיו לפניה.</p>
+                </content>
+              </point>
+              <point eId="point_38__point_ד">
+                <num>(ד)</num>
+                <content>
+                  <p>הוועדה רשאית להחליט על בחירת כמה הצעות מתאימות תוך פיצול ההתקשרות ביניהן או על בחירת חלק מהצעה ובלבד שניתנה על אפשרות זו הודעה במסמכי המכרז.</p>
+                </content>
+              </point>
+              <point eId="point_38__point_ה">
+                <num>(ה)</num>
+                <content>
+                  <p>לכל משתתף במכרז תימסר הודעה על תוצאות ההחלטה הסופית של ועדת המכרזים.</p>
+                </content>
+              </point>
+              <point eId="point_38__point_ו">
+                <num>(ו)</num>
+                <list>
+                  <intro>
+                    <p>המשתתף יהיה רשאי בתוך 30 ימים ממועד מסירת ההודעה לעיין בפרוטוקול ועדת המכרזים, בהתכתבויותיה עם המציעים, בחוות דעת מקצועיות שהוכנו לבקשתה, בעמדת היועץ המשפטי בוועדה ובהצעת הזוכה במכרז, ולקבל עותק ממסמכים אלה, למעט –</p>
+                  </intro>
+                  <point eId="point_38__point_ו__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>בחלקים של ההחלטה או ההצעה אשר העיון בהם עלול לדעת ועדת המכרזים לחשוף סוד מסחרי או סוד מקצועי, או לפגוע בביטחון המדינה, ביחסי החוץ שלה, בכלכלתה או בביטחון הציבור;</p>
+                    </content>
+                  </point>
+                  <point eId="point_38__point_ו__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>בחוות דעת משפטית שנערכה במסגרת ייעוץ משפטי לוועדה, לרבות בחינת חלופות אפשריות שונות לפעולה או להחלטה של ועדת המכרזים, או הערכת סיכויים וסיכונים הנובעים מקבלת החלטות כאמור בהליכים משפטיים עתידיים; אין באמור בתקנת משנה זו כדי לגרוע מהוראות <ref href="/akn/il/act/PrimaryLegislation/1998-05-29/163627">חוק חופש המידע, התשנ"ח–1998</ref>.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_38__point_ז">
+                <num>(ז)</num>
+                <content>
+                  <p>ניתן לקבוע במסמכי המכרז כי עיון של משתתף כאמור ייעשה תמורת תשלום לכיסוי העלות הכרוכה בקיום הוראות תקנת משנה (ו).</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_39">
+            <heading>
+              <authorialNote placement="side">
+                <p>אמות מידה</p>
+              </authorialNote>
+            </heading>
+            <num>39.</num>
+            <list>
+              <point eId="point_39__point_א">
+                <num>(א)</num>
+                <list>
+                  <intro>
+                    <p>אמות המידה לבחירת ההצעה המעניקה את מרב היתרונות לעורך המכרז הן אחת או יותר מהמפורטות להלן:</p>
+                  </intro>
+                  <point eId="point_39__point_א__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>המחיר המוצע או המבוקש, לפי העניין;</p>
+                    </content>
+                  </point>
+                  <point eId="point_39__point_א__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>איכות הטובין או המקרקעין, העבודה או השירות המוצעים, או נתונים מיוחדים שלהם, והתאמתם לעורך המכרז;</p>
+                    </content>
+                  </point>
+                  <point eId="point_39__point_א__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>אמינותו של המציע, כישוריו, ניסיונו, מומחיותו ותחומי התמחותו;</p>
+                    </content>
+                  </point>
+                  <point eId="point_39__point_א__point_4">
+                    <num>(4)</num>
+                    <content>
+                      <p>המלצות על אודות המציע, אם נדרשו לפי תנאי המכרז, ומידת שביעות הרצון מאופן ביצוע התקשרויות קודמות;</p>
+                    </content>
+                  </point>
+                  <point eId="point_39__point_א__point_5">
+                    <num>(5)</num>
+                    <content>
+                      <p>דרישות מיוחדות של עורך המכרז;</p>
+                    </content>
+                  </point>
+                  <point eId="point_39__point_א__point_6">
+                    <num>(6)</num>
+                    <content>
+                      <p>התנהלותו של המציע בנוגע לשמירת זכויות עובדים, לרבות קיומה של חוות דעת שלילית בכתב או דוח ביקורת שלילי בעניין זה, מאת מוסד שאתו התקשר המציע במהלך שלוש השנים שקדמו למועד האחרון להגשת ההצעות במכרז.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_39__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>ועדת המכרזים תכלול במסמכי המכרז את פירוט כל אמות המידה, מבחני המשנה, את המשקל היחסי שיינתן לבחירת ההצעה המעניקה את מרב היתרונות לעורך המכרז ואופן שקלולם.</p>
+                </content>
+              </point>
+              <point eId="point_39__point_ג">
+                <num>(ג)</num>
+                <list>
+                  <intro>
+                    <p>קבעה ועדת המכרזים משקל יחסי לאמות המידה –</p>
+                  </intro>
+                  <point eId="point_39__point_ג__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>תפרט הוועדה במסמכי המכרז את המשקל היחסי שיינתן להצעות בשל המחיר המוצע או המבוקש, לפי העניין, לעומת ניקוד האיכות ואת אופן שקלולם;</p>
+                    </content>
+                  </point>
+                  <point eId="point_39__point_ג__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>תפרט הוועדה במסמכי המכרז את המשקל היחסי של כל אחת מאמות המידה, ושל מבחני המשנה לאמות המידה, ככל שנקבעו; ועדת המכרזים תהא רשאית במקרים חריגים שלא לפרסם את השיעורים היחסיים של אמות המידה לפי פסקה זו, את מבחני המשנה כאמור ואת אופן השקלול, אם השתכנעה כי יש בפרסום כאמור כדי לפגוע בניהול התקין של הליך המכרז, מנימוקים שיירשמו.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_39__point_ד">
+                <num>(ד)</num>
+                <content>
+                  <p>ועדת המכרזים רשאית לכלול במסמכי המכרז ניקוד איכות מזערי, ורשאית היא לציין במסמכי המכרז, אם הדבר דרוש בנסיבות העניין, כי אם יעלה או ירד מספר ההצעות שבקבוצת המציעים הסופית על מספר מסוים, יהיה ניקוד האיכות המזערי שונה.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_40">
+            <heading>
+              <authorialNote placement="side">
+                <p>הצעה יחידה</p>
+              </authorialNote>
+            </heading>
+            <num>40.</num>
+            <list>
+              <point eId="point_40__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>הוגשה במכרז פומבי הצעה יחידה, או שנותרה הצעה יחידה לדיון לפני ועדת המכרזים, במחיר המרע עם עורך המכרז לעומת אומדן שווי ההתקשרות, רשאית ועדת המכרזים להודיע על כך למגיש ההצעה, ולאפשר לו להגיש הצעת מחיר בתנאים המיטיבים עם עורך המכרז, במועד שתקבע.</p>
+                </content>
+              </point>
+              <point eId="point_40__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>הוגשה במכרז פומבי הצעה יחידה, או שנותרה הצעה יחידה לדיון לפני ועדת המכרזים רשאית ועדת המכרזים להחליט על בחירת ההצעה בהתאם לתנאי המכרז או על ביטול המכרז, ואם החליטה כאמור רשאית היא להחליט על עריכת מכרז חדש.</p>
+                </content>
+              </point>
+              <point eId="point_40__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>ועדת המכרזים אינה רשאית לבחור בהצעה יחידה מקום שנתקיים מכרז סגור, אלא באישור המנהל הכללי אם זה נוכח לדעת שעריכת מכרז נוסף לא תביא תועלת; עלה שווי ההתקשרות על 1,500,000 שקלים חדשים – טעונה ההתקשרות את אישור ועדת הפטור.</p>
+                </content>
+              </point>
+              <point eId="point_40__point_ד">
+                <num>(ד)</num>
+                <content>
+                  <p>לא הוגשה כל הצעה למכרז או לא המליצה ועדת המכרזים על הצעה כלשהי, רשאי המוסד לפרסם מכרז חדש, פומבי או סגור, לפי העניין, או להתקשר בלא מכרז באישור המנהל הכללי, אם זה נוכח לדעת שעריכת מכרז נוסף לא תביא תועלת; עלה שווי ההתקשרות בלא מכרז על 4,000,000 שקלים חדשים – טעונה ההתקשרות את אישור ועדת הפטור.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+        </list>
+      </chapter>
+      <chapter eId="chp_ג">
+        <num>פרק ג׳:</num>
+        <title>
+          <content>
+            <p>אתר אינטרנט ומערכת לעריכת מכרזים ממוכנים</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_41">
+            <heading>
+              <authorialNote placement="side">
+                <p>אתר האינטרנט</p>
+              </authorialNote>
+            </heading>
+            <num>41.</num>
+            <list>
+              <point eId="point_41__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>מוסד להשכלה גבוהה יפרסם הודעות לפי תקנות אלה גם באתר האינטרנט.</p>
+                </content>
+              </point>
+              <point eId="point_41__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>כל מוסד להשכלה גבוהה יפרסם את כתובת אתר האינטרנט שלו בהודעה ברשומות ובתדירות סבירה גם בשני עיתונים נפוצים ובעיתון בשפה הערבית.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_42">
+            <heading>
+              <authorialNote placement="side">
+                <p>ניהול אתר האינטרנט</p>
+              </authorialNote>
+            </heading>
+            <num>42.</num>
+            <list>
+              <point eId="point_42__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>כל מוסד להשכלה גבוהה ימנה מורשים לניהול אתר האינטרנט (בתקנה זו – מורשים לניהול האתר).</p>
+                </content>
+              </point>
+              <point eId="point_42__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>המורשים לניהול האתר, והם בלבד, יפרסמו הודעות באתר האינטרנט לפי תקנות אלה, וכל שינוי בהודעה כאמור, לאחר שהזדהו לשם כך; הודעה כאמור, בצירוף מועד הפרסום, תיחתם בידי המורשים לניהול האתר באמצעות חתימה אלקטרונית מאובטחת או מאושרת.</p>
+                </content>
+              </point>
+              <point eId="point_42__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>כל הודעה שפורסמה באתר האינטרנט תהיה זמינה לציבור באתר האינטרנט לתקופה של שנה לפחות ממועד פרסומה.</p>
+                </content>
+              </point>
+              <point eId="point_42__point_ד">
+                <num>(ד)</num>
+                <content>
+                  <p>מוסד יעמיד סיוע לציבור בהיבטים המיכוניים הדרושים לצורך קריאת ההודעות שפורסמו באתר האינטרנט כאמור.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+        </list>
+      </chapter>
+      <chapter eId="chp_ד">
+        <num>פרק ד׳:</num>
+        <title>
+          <content>
+            <p>שונות</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_43">
+            <heading>
+              <authorialNote placement="side">
+                <p>קביעת נהלים פנימיים</p>
+              </authorialNote>
+            </heading>
+            <num>43.</num>
+            <list>
+              <point eId="point_43__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>מוסד יפעל בשים לב להוראות תקנון כספים ומשק או על פי נוהל פנימי כתוב שקבע המוסד.</p>
+                </content>
+              </point>
+              <point eId="point_43__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>המנהל הכללי של המוסד יקבע בשים לב להוראות תקנון כספים ומשק, הוראות לעניין שמירת זכויות עובדים והבטחת קיום דיני העבודה בידי משתתפים במכרז, זוכים בו או בידי מתקשרים עם המוסד, לרבות התחומים או הענפים שלגביהם יחולו הוראות לעניין הבטחת קיום דיני העבודה ובלבד שלא יגרע מן ההוראות שנקבעו לעניין זה בהוראות תקנון כספים ומשק ובהתאמה למוסד.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_44">
+            <heading>
+              <authorialNote placement="side">
+                <p>הכשרה לחברי ועדה</p>
+              </authorialNote>
+            </heading>
+            <num>44.</num>
+            <list>
+              <point eId="point_44__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>חברי ועדת מכרזים של מוסד וחברי ועדת הפטור יהיו מי שעברו הכשרה לפי תכנית שאושרה בידי המנהל הכללי זולת אם אישר המנהל הכללי כי אותו חבר פטור מהכשרה כאמור, מנימוקים שיירשמו.</p>
+                </content>
+              </point>
+              <point eId="point_44__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>חבר ועדת מכרזים שלא פטר אותו המנהל הכללי מהכשרה כאמור, יועבר מכהונתו בתום שנה ממועד שמונה אם עד אותו מועד לא עבר הכשרה כאמור.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_45">
+            <heading>
+              <authorialNote placement="side">
+                <p>שמירת סודות</p>
+              </authorialNote>
+            </heading>
+            <num>45.</num>
+            <content>
+              <p>לא ימסור אדם כל ידיעה שהגיעה לידיו בתוקף תפקידו בעניין מכרז העומד להתפרסם או שפורסם, אלא למי שרשאי לקבל את הידיעה.</p>
+            </content>
+          </point>
+          <point eId="point_46">
+            <heading>
+              <authorialNote placement="side">
+                <p>אמנה בין־לאומית</p>
+              </authorialNote>
+            </heading>
+            <num>46.</num>
+            <content>
+              <p>תקנות אלה יחולו ככל שאינן סותרות התחייבות של המדינה באמנה בין־לאומית.</p>
+            </content>
+          </point>
+          <point eId="point_47">
+            <heading>
+              <authorialNote placement="side">
+                <p>שמירת דינים</p>
+              </authorialNote>
+            </heading>
+            <num>47.</num>
+            <content>
+              <p>הוראות תקנות אלה באות להוסיף על הוראות כל דין ולא לגרוע מהן.</p>
+            </content>
+          </point>
+          <point eId="point_48">
+            <heading>
+              <authorialNote placement="side">
+                <p>ביטול</p>
+              </authorialNote>
+            </heading>
+            <num>48.</num>
+            <content>
+              <p>תקנות חובת המכרזים (התקשרויות של מוסד להשכלה גבוהה), התשס"ט–2008 – בטלות ביום פרסומן של תקנות אלה.</p>
+            </content>
+          </point>
+          <point eId="point_49">
+            <heading>
+              <authorialNote placement="side">
+                <p>תחילה</p>
+              </authorialNote>
+            </heading>
+            <num>49.</num>
+            <list>
+              <point eId="point_49__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>תחילתן של תקנות אלה שישה חודשים מיום פרסומן (להלן – יום התחילה).</p>
+                </content>
+              </point>
+              <point eId="point_49__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>על אף האמור בתקנת משנה (א), תחילתן של <ref href="#point_2">תקנות 2(ח)</ref>, <ref href="#point_34">34 עד 36</ref> ושל <ref href="#chp_ג">פרק ג׳</ref> בתום שנה מיום פרסומן של תקנות אלה ולגבי מוסד אשר החליט לפרסם הודעות לפי תקנות אלה גם באתר האינטרנט לפני תום שנה מיום פרסומן של תקנות אלה – תחילתו של <ref href="#chp_ג">פרק ג׳</ref> ביום בו התקיימו התנאים כאמור.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_50">
+            <heading>
+              <authorialNote placement="side">
+                <p>הוראת שעה</p>
+              </authorialNote>
+            </heading>
+            <num>50.</num>
+            <list>
+              <point eId="point_50__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>
+                    <wikicomment font-size="x-small">(פקעה).</wikicomment>
+                  </p>
+                </content>
+              </point>
+              <point eId="point_50__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>האמור בתקנת משנה (א) לא יחול על מוסד אשר החליט לפרסם הודעות לפי תקנות אלה גם באתר האינטרנט לפני תום שנה מיום פרסומן של תקנות אלה.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_51">
+            <heading>
+              <authorialNote placement="side">
+                <p>הוראות מעבר</p>
+              </authorialNote>
+            </heading>
+            <num>51.</num>
+            <list>
+              <point eId="point_51__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>התקשרות של מוסד להשכלה גבוהה אינה טעונה מכרז אם היא התקשרות שנערכה כתוצאה ממכרז, מפנייה לקבלת הצעות או ממתן התחייבות, והכל אם נעשו ערב יום התחילה, בהתאם לכללים ולנהלים שהיו נהוגים במוסד ערב יום התחילה.</p>
+                </content>
+              </point>
+              <point eId="point_51__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>התקשרות של מוסד להשכלה גבוהה אינה טעונה מכרז אם היא התקשרות למימוש זכות ברירה הכלולה בחוזה שנכרת ערב יום התחילה.</p>
+                </content>
+              </point>
+              <point eId="point_51__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>על אף האמור <ref href="#point_20">בתקנה 20</ref>, עד יום י"ח בטבת התשע"ג (31 בדצמבר 2012), תהיה ועדת המכרזים רשאית לעשות שימוש ברשימת ספקים, אף אם לא עודכנה במשך שנה, אינה ממוכנת ואינה פתוחה לעיון הציבור באתר האינטרנט.</p>
+                </content>
+              </point>
+              <point eId="point_51__point_ד">
+                <num>(ד)</num>
+                <content>
+                  <p>על מאגר ספקים שהיה קיים ערב תחילתן של תקנות אלה, תפרסם ועדת המכרזים הודעה עד יום י"ח בטבת התשע"ג (31 בדצמבר 2012), ותחול <ref href="#point_20">תקנה 20 האמורה</ref>, בהתאמה.</p>
+                </content>
+              </point>
+              <point eId="point_51__point_ה">
+                <num>(ה)</num>
+                <content>
+                  <p>על אף האמור <ref href="#point_7">בתקנה 7</ref>, לתקופה שמיום התחילה ועד ליום ו׳ בטבת התשע"ב (1 בינואר 2012) תהיה ועדת המכרזים רשאית לערוך מכרז סגור להתקשרות ששווייה אינו עולה על 1,200,000 שקלים חדשים.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+        </list>
+      </chapter>
+    </body>
+    <conclusions eId="eId">
+      <p class="signatures">
+        <signature>
+          <p>
+            <person refersTo="יובל_שטייניץ">יובל שטייניץ</person>
+            <role refersTo="שר_האוצר">שר האוצר</role>
+          </p>
+        </signature>
+        <signature>
+          <p>
+            <person refersTo="גדעון_סער">גדעון סער</person>
+            <role refersTo="שר_החינוך">שר החינוך</role>
+          </p>
+        </signature>
+      </p>
+    </conclusions>
+  </act>
+</akomaNtoso>

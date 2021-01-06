@@ -1,0 +1,3625 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion" name="publicLaw">
+    <meta>
+      <identification source="#kensset">
+        <FRBRWork>
+          <FRBRthis value="/akn/il/act/PrimaryLegislation/1971-07-23/150253/main" />
+          <FRBRuri value="/akn/il/act/PrimaryLegislation/1971-07-23/150253" />
+          <FRBRdate date="1971-07-23" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRcountry value="israel" />
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/il/act/PrimaryLegislation/1971-07-23/150253/he@/main" />
+          <FRBRuri value="/akn/il/act/PrimaryLegislation/1971-07-23/150253/he@" />
+          <FRBRdate date="1971-07-23" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRlanguage language="hebrew" />
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/il/act/PrimaryLegislation/1971-07-23/150253/he@/main.xml" />
+          <FRBRuri value="/akn/il/act/PrimaryLegislation/1971-07-23/150253/he@" />
+          <FRBRdate date="1971-07-23" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRformat value="xml" />
+        </FRBRManifestation>
+      </identification>
+      <classification source="#kensset">
+        <keyword value="{classificationValue}" showAs="{classificationValue}" dictionary="#classification_dictionary" />
+      </classification>
+      <lifecycle source="#kensset">
+        <eventRef eId="eventRef_1" date="1971-07-23" source="#kensset" type="generation" />
+      </lifecycle>
+      <references source="#kensset">
+        <TLCOrganization eId="kensset" href="/ontology/organization/akn/knesset" showAs="Kensset" type="generation" />
+        <TLCRole eId="author" href="/ontology/role/akn/author" showAs="Author of Document" />
+        <TLCProcess eId="inforce" href="/ontology/process/akn/inforce" showAs="In force" />
+        <TLCTerm eId="term_1" href="/ontology/term/בית_משפט_לנוער/150253" showAs="בית_משפט_לנוער" />
+        <TLCTerm eId="term_2" href="/ontology/term/שופט_נוער/150253" showAs="שופט_נוער" />
+        <TLCTerm eId="term_3" href="/ontology/term/קטין/150253" showAs="קטין" />
+        <TLCTerm eId="term_4" href="/ontology/term/הורה/150253" showAs="הורה" />
+        <TLCTerm eId="term_5" href="/ontology/term/מעון/150253" showAs="מעון" />
+        <TLCTerm eId="term_6" href="/ontology/term/מעון_נעול/150253" showAs="מעון_נעול" />
+        <TLCTerm eId="term_7" href="/ontology/term/הממונה_על_המעונות/150253" showAs="הממונה_על_המעונות" />
+        <TLCTerm eId="term_8" href="/ontology/term/קצין_מבחן/150253" showAs="קצין_מבחן" />
+        <TLCTerm eId="term_9" href="/ontology/term/קצין_מעקב/150253" showAs="קצין_מעקב" />
+        <TLCTerm eId="term_10" href="/ontology/term/חוק_הגנת_ילדים/150253" showAs="חוק_הגנת_ילדים" />
+        <TLCTerm eId="term_11" href="/ontology/term/חוקר_נוער/150253" showAs="חוקר_נוער" />
+        <TLCTerm eId="term_12" href="/ontology/term/עובד_סוציאלי_שמונה_לפי_חוק/150253" showAs="עובד_סוציאלי_שמונה_לפי_חוק" />
+        <TLCTerm eId="term_13" href="/ontology/term/חוק_בתי_המשפט/150253" showAs="חוק_בתי_המשפט" />
+        <TLCTerm eId="term_14" href="/ontology/term/חוק_חקירת_חשודים/150253" showAs="חוק_חקירת_חשודים" />
+        <TLCTerm eId="term_15" href="/ontology/term/חוק_המעצרים/150253" showAs="חוק_המעצרים" />
+        <TLCTerm eId="term_16" href="/ontology/term/חוק_הנוער_(טיפול_והשגחה)/150253" showAs="חוק_הנוער_(טיפול_והשגחה)" />
+        <TLCTerm eId="term_17" href="/ontology/term/חוק_הסניגוריה_הציבורית/150253" showAs="חוק_הסניגוריה_הציבורית" />
+        <TLCTerm eId="term_18" href="/ontology/term/חוק_העונשין/150253" showAs="חוק_העונשין" />
+        <TLCTerm eId="term_19" href="/ontology/term/חקירה/150253" showAs="חקירה" />
+        <TLCTerm eId="term_20" href="/ontology/term/פקודת_בתי_הסוהר/150253" showAs="פקודת_בתי_הסוהר" />
+        <TLCTerm eId="term_21" href="/ontology/term/פקודת_המבחן/150253" showAs="פקודת_המבחן" />
+        <TLCTerm eId="term_22" href="/ontology/term/קצין_מוסמך/150253" showAs="קצין_מוסמך" />
+        <TLCTerm eId="term_23" href="/ontology/term/קצין_ממונה/150253" showAs="קצין_ממונה" />
+        <TLCTerm eId="term_24" href="/ontology/term/תיעוד_חזותי/150253" showAs="תיעוד_חזותי" />
+        <TLCTerm eId="term_25" href="/ontology/term/הליך_חלופי/150253" showAs="הליך_חלופי" />
+        <TLCTerm eId="term_26" href="/ontology/term/נוהל/150253" showAs="נוהל" />
+        <TLCTerm eId="term_27" href="/ontology/term/תובע/150253" showAs="תובע" />
+        <TLCPerson eId="גולדה_מאיר" href="/ontology/person/גולדה_מאיר" showAs="גולדה מאיר" />
+        <TLCPerson eId="מיכאל_חזני" href="/ontology/person/מיכאל_חזני" showAs="מיכאל חזני" />
+        <TLCPerson eId="שניאור_זלמן_שזר" href="/ontology/person/שניאור_זלמן_שזר" showAs="שניאור זלמן שזר" />
+        <TLCRole eId="ראש_הממשלה" href="ontology/role/akn/ראש_הממשלה" showAs="ראש הממשלה" />
+        <TLCRole eId="שר_הסעד" href="ontology/role/akn/שר_הסעד" showAs="שר הסעד" />
+        <TLCRole eId="נשיא_המדינה" href="ontology/role/akn/נשיא_המדינה" showAs="נשיא המדינה" />
+      </references>
+      <temporalData source="#kensset">
+        <temporalGroup eId="tmpg_1" />
+      </temporalData>
+      <Publication></Publication>
+      <proprietary wikiversion="11/18/2020 10:05:37 AM" />
+    </meta>
+    <body period="#tmpg_1">
+      <title eId="title">
+        <content>
+          <p>חוק הנוער (שפיטה, ענישה ודרכי טיפול), תשל"א–1971</p>
+        </content>
+      </title>
+      <chapter eId="chp_א">
+        <num>פרק א׳ –</num>
+        <title>
+          <content>
+            <p>עקרונות כלליים</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_1" class="definitions">
+            <heading>
+              <authorialNote placement="side">
+                <p>הגדרות</p>
+              </authorialNote>
+            </heading>
+            <num>1.</num>
+            <list>
+              <intro>
+                <p>בחוק זה –</p>
+              </intro>
+              <point eId="point_1__point_בית_משפט_לנוער">
+                <content>
+                  <p>
+                    <def />”בית משפט לנוער“ – בית משפט שלום או בית משפט מחוזי כשיושב בהם שופט נוער;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_שופט_נוער">
+                <content>
+                  <p>
+                    <def />”שופט נוער“ – שופט שהוטל עליו התפקיד של שופט נוער כאמור <ref href="#point_2">בסעיף 2</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_קטין">
+                <content>
+                  <p>
+                    <def />”קטין“ – מי שטרם מלאו לו שמונה עשרה שנים, ולענין חשוד ונאשם לרבות בגיר שביום הגשת כתב האישום נגדו לא מלאו לו שמונה עשרה שנה;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_הורה">
+                <content>
+                  <p>
+                    <def />”הורה“ – לרבות הורה חורג, מאמץ ואפוטרופוס;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_מעון">
+                <content>
+                  <p>
+                    <def />”מעון“ – מקום המשמש למגורים או למשמורת של קטינים מחוץ למשפחתם, שהממונה על המעונות הפנה אליו קטין לאחר שבית־משפט לנוער ציווה לפי חוק זה על החזקתו במעון;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_מעון_נעול">
+                <content>
+                  <p>
+                    <def />”מעון נעול“ – מקום המשמש למגורים או למשמורת של קטינים מחוץ למשפחתם וחופש המוחזקים בו מוגבל, ושר הרווחה והשירותים החברתיים הכריז כי הוא מעון נעול לענין חוק זה;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_הממונה_על_המעונות">
+                <content>
+                  <p>
+                    <def />”הממונה על המעונות“ – מי שמונה לפי הוראות <ref href="#point_43א">סעיף 43א</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_קצין_מבחן">
+                <content>
+                  <p>
+                    <def />”קצין מבחן“ – מי שנתמנה כך לפי <ref href="/akn/il/act/PrimaryLegislation/1969-08-01/2001784">פקודת המבחן</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_קצין_מעקב">
+                <content>
+                  <p>
+                    <def />”קצין מעקב“ – מי ששר הרווחה והשירותים החברתיים מינהו לביצוע טיפול עוקב לפי הוראות <ref href="#chp_ז">פרק ז׳</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_חוק_הגנת_ילדים">
+                <content>
+                  <p>
+                    <def />”חוק הגנת ילדים“ – <ref href="/akn/il/act/PrimaryLegislation/1955-06-16/148415">חוק לתיקון דיני הראיות (הגנת ילדים), התשט"ו–1955</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_חוקר_נוער">
+                <content>
+                  <p>
+                    <def />”חוקר נוער“ – שוטר, שהמפקח הכללי של משטרת ישראל או מי שהוא הסמיך לענין זה, הסמיך לחקור נוער; לא יוסמך שוטר כחוקר נוער אלא לאחר שקיבל הכשרה לצורך כך, כפי שיקבע המפקח הכללי של משטרת ישראל;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_עובד_סוציאלי_שמונה_לפי_חוק">
+                <content>
+                  <p>
+                    <def />”עובד סוציאלי שמונה לפי חוק“ – עובד סוציאלי שמונה לפי <ref href="/akn/il/act/PrimaryLegislation/1960-07-14/150256">חוק הנוער (טיפול והשגחה), התש"ך–1960</ref>, או לפי <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/חוק_הסעד_טיפול_באנשים_עם_מוגבלות_שכלית_התפתחותית">חוק הסעד (טיפול באנשים עם מוגבלות שכלית–התפתחותית), התשכ"ט–1969</ref>, לפי העניין;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_חוק_בתי_המשפט">
+                <content>
+                  <p>
+                    <def />”חוק בתי המשפט“ – <ref href="/akn/il/act/PrimaryLegislation/1984-08-13/2002218">חוק בתי המשפט [נוסח משולב], התשמ"ד–1984</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_חוק_חקירת_חשודים">
+                <content>
+                  <p>
+                    <def />”חוק חקירת חשודים“ – <ref href="/akn/il/act/PrimaryLegislation/2002-07-04/173782">חוק סדר הדין הפלילי (חקירת חשודים), התשס"ב–2002</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_חוק_המעצרים">
+                <content>
+                  <p>
+                    <def />”חוק המעצרים“ – <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/חוק_סדר_הדין_הפלילי_סמכויות_אכיפה_מעצרים_נוער">חוק סדר הדין הפלילי (סמכויות אכיפה – מעצרים), התשנ"ו–1996</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_חוק_הנוער_טיפול_והשגחה">
+                <content>
+                  <p>
+                    <def />”חוק הנוער (טיפול והשגחה)“ – <ref href="/akn/il/act/PrimaryLegislation/1960-07-14/150256">חוק הנוער (טיפול והשגחה), התש"ך–1960</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_חוק_הסניגוריה_הציבורית">
+                <content>
+                  <p>
+                    <def />”חוק הסניגוריה הציבורית“ – <ref href="/akn/il/act/PrimaryLegislation/1995-11-30/159539">חוק הסניגוריה הציבורית, התשנ"ו–1995</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_חוק_העונשין">
+                <content>
+                  <p>
+                    <def />”חוק העונשין“ – <ref href="/akn/il/act/PrimaryLegislation/1977-08-04/2002251">חוק העונשין, התשל"ז–1977</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_חקירה">
+                <list>
+                  <intro>
+                    <p>
+                      <def />”חקירה“ – תשאול או גביית הודעה בקשר לעבירה, בידי שוטר, למעט באחד מאלה:</p>
+                  </intro>
+                  <point eId="point_1__point_חקירה__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>חקירה שהתנהלה מחוץ לתחנת משטרה בעבירות כאמור <ref href="/akn/il/act/PrimaryLegislation/1982-03-01/2002215#point_239">בסעיף 239 לחוק סדר הדין הפלילי [נוסח משולב], התשמ"ב–1982</ref>, ששר המשפטים קבע לגביהן בתקנות סדרי אישום והמצאת מסמכים בסטייה מהוראות <ref href="/akn/il/act/PrimaryLegislation/1982-03-01/2002215">אותו חוק</ref>, או בעבירות שנקבעו כעבירות מינהליות לפי <ref href="/akn/il/act/PrimaryLegislation/1985-10-24/151096">חוק העבירות המינהליות, התשמ"ו–1985</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_1__point_חקירה__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>חקירה שהתנהלה מחוץ לתחנה כאמור <ref href="/akn/il/act/PrimaryLegislation/2002-07-04/173782#point_3">בסעיף 3(א) לחוק חקירת חשודים</ref>;</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_1__point_פקודת_בתי_הסוהר">
+                <content>
+                  <p>
+                    <def />”פקודת בתי הסוהר“ – <ref href="/akn/il/act/PrimaryLegislation/1971-10-20/2002271">פקודת בתי הסוהר [נוסח חדש], התשל"ב–1971</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_פקודת_המבחן">
+                <content>
+                  <p>
+                    <def />”פקודת המבחן“ – <ref href="/akn/il/act/PrimaryLegislation/1969-08-01/2001784">פקודת המבחן [נוסח חדש], התשכ"ט–1969</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_קצין_מוסמך">
+                <content>
+                  <p>
+                    <def />”קצין מוסמך“, בתחנת משטרה – קצין הנוער בתחנת המשטרה, ובהעדרו – הקצין הממונה על החקירות בתחנת המשטרה; ולעניין חקירה בעבירות לפי <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_התעבורה">פקודת התעבורה</ref> – ראש מחלק תאונות דרכים במרחב ובהעדרו קצין הבוחנים המחוזי, ובלבד שקיבלו הכשרה לצורך תפקידם לעניין חוק זה, כפי שיקבע המפקח הכללי של משטרת ישראל;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_קצין_ממונה">
+                <content>
+                  <p>
+                    <def />”קצין ממונה“ – כהגדרתו <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/חוק_סדר_הדין_הפלילי_סמכויות_אכיפה_מעצרים_נוער#point_25">בסעיף 25 לחוק המעצרים</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_תיעוד_חזותי">
+                <content>
+                  <p>
+                    <def />”תיעוד חזותי“ ו”תיעוד קולי“ – כהגדרתם <ref href="/akn/il/act/PrimaryLegislation/2002-07-04/173782">בחוק חקירת חשודים</ref>.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_1א">
+            <heading>
+              <authorialNote placement="side">
+                <p>עקרונות כלליים</p>
+              </authorialNote>
+            </heading>
+            <num>1א.</num>
+            <list>
+              <point eId="point_1א__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>מימוש זכויות של קטין, הפעלת סמכויות ונקיטת הליכים כלפיו ייעשו תוך שמירה על כבודו של הקטין, ומתן משקל ראוי לשיקולים של שיקומו, הטיפול בו, שילובו בחברה ותקנת השבים, וכן בהתחשב בגילו ובמידת בגרותו.</p>
+                </content>
+              </point>
+              <point eId="point_1א__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>חוק זה בא להוסיף על זכויות הנתונות לקטין לפי כל דין, ולא לגרוע מהן.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_1ב">
+            <heading>
+              <authorialNote placement="side">
+                <p>זכות ההשתתפות של קטין לעניין החלטה לגביו</p>
+              </authorialNote>
+            </heading>
+            <num>1ב.</num>
+            <list>
+              <point eId="point_1ב__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>נקבע על פי הוראות כל דין, כי תינתן לאדם הזדמנות להביע את עמדתו או כי תידרש הסכמתו לעניין מתן החלטה בעניינו, זכאי קטין שתינתן לו הזדמנות להביע את עמדתו, רצונו ורגשותיו בעצמו, ובדרך המותאמת לגילו, למידת בגרותו ולצרכיו (בחוק זה – הזדמנות להביע עמדה); לעמדתו של הקטין וכן לרצונו ולרגשותיו, יינתן משקל ראוי בקבלת החלטה בעניינו, בהתחשב בגילו ובמידת בגרותו.</p>
+                </content>
+              </point>
+              <point eId="point_1ב__point_ב">
+                <num>(ב)</num>
+                <list>
+                  <intro>
+                    <p>לצורך מימוש זכותו של קטין להזדמנות להביע עמדה, יימסר לקטין מידע, בשפה ובאופן המובנים לו, בהתחשב בגילו ובמידת בגרותו, אלא אם כן התקיים אחד מאלה:</p>
+                  </intro>
+                  <point eId="point_1ב__point_ב__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>מסירת המידע לקטין אסורה לפי כל דין;</p>
+                    </content>
+                  </point>
+                  <point eId="point_1ב__point_ב__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>מקבל ההחלטה בעניינו של הקטין שוכנע שמסירת המידע תגרום לו פגיעה ממשית.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_1ב__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>על אף הוראות סעיף קטן (א), רשאי מי שמקבל החלטה לפי חוק זה בעניינו של קטין, שלא לתת לקטין הזדמנות להביע עמדה לפני קבלת ההחלטה בעניינו, אם שוכנע, מנימוקים מיוחדים שיירשמו, כי מתן ההזדמנות להביע עמדה יגרום לפגיעה ממשית בקטין.</p>
+                </content>
+              </point>
+              <point eId="point_1ב__point_ד">
+                <num>(ד)</num>
+                <content>
+                  <p>לא ניתנה לקטין הזדמנות להביע עמדה לפני קבלת החלטה בעניינו כאמור בסעיף קטן (ג), תינתן לקטין, ככל הניתן, הזדמנות להביע את עמדתו לאחר קבלת ההחלטה, ובלבד שיישום ההחלטה עדיין לא החל או עדיין נמשך, וחדל להתקיים הטעם שמנע מתן הזדמנות לקטין להביע עמדה כאמור בסעיף קטן (ג).</p>
+                </content>
+              </point>
+              <point eId="point_1ב__point_ה">
+                <num>(ה)</num>
+                <content>
+                  <p>התקבלה החלטה לפי חוק זה בעניינו של קטין בניגוד לעמדתו, יסביר מי שקיבל את ההחלטה או אדם מטעמו, לקטין, בשפה ובאופן המובנים לו בהתחשב בגילו ובמידת בגרותו, ככל הניתן, את הנימוקים להחלטתו, אלא אם כן התקיימו לגבי הנימוקים האמורים הוראות פסקאות (1) או (2) של סעיף קטן (ב).</p>
+                </content>
+              </point>
+              <point eId="point_1ב__point_ו">
+                <num>(ו)</num>
+                <content>
+                  <p>על אף הוראות סעיף זה, על החלטה של בית משפט לפי חוק זה בעניינו של קטין יחולו הוראות <ref href="#point_17א">סעיפים 17א</ref><ref href="#point_17ב">ו־17ב</ref>.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_1ג">
+            <heading>
+              <authorialNote placement="side">
+                <p>קיום הליכים בשפתו של הקטין</p>
+              </authorialNote>
+            </heading>
+            <num>1ג.</num>
+            <content>
+              <p>הליכים לפי חוק זה שמתקיימים בנוכחות הקטין, יתנהלו בשפתו של הקטין או בשפה שהקטין מבין ודובר אותה, לרבות שפת סימנים, או בתרגום לשפה כאמור.</p>
+            </content>
+          </point>
+        </list>
+      </chapter>
+      <chapter eId="chp_ב">
+        <num>פרק ב׳ –</num>
+        <title>
+          <content>
+            <p>בית משפט לנוער</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_2">
+            <heading>
+              <authorialNote placement="side">
+                <p>שופט נוער</p>
+              </authorialNote>
+            </heading>
+            <num>2.</num>
+            <list>
+              <point eId="point_2__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>נשיא בית המשפט העליון, בהסכמת שר המשפטים, יטיל על שופטים מבין שופטי בית משפט מחוזי ושופטי בית משפט שלום לשמש כשופטי נוער במשך התקופה שיקבע ורשאי הוא להטיל על שופטים כאמור לדון במעצרם ושחרורם של קטינים ובהליכים מקדמיים שלפני המשפט (בסעיף זה – הליכים אחרים הקשורים לנוער), ובלבד ששופטים כאמור יעברו הכשרה מיוחדת לשמש שופטי נוער או הכשרה מתאימה לשמש שופטי נוער לצורך דיון בהליכים אחרים הקשורים לנוער, לפי העניין.</p>
+                </content>
+              </point>
+              <point eId="point_2__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>נשיא בית המשפט העליון רשאי למנות, בהסכמת שר המשפטים, שופט מבין שופטי נוער לנשיא בתי המשפט לנוער לתקופה שיקבע.</p>
+                </content>
+              </point>
+              <point eId="point_2__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>שופט בית משפט מחוזי שהתמנה לנשיא בתי המשפט לנוער יהיה מסומך לדון בענינים שבסמכותו של בית משפט שלום לנוער.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_3">
+            <heading>
+              <authorialNote placement="side">
+                <p>שפיטת קטין</p>
+              </authorialNote>
+            </heading>
+            <num>3.</num>
+            <list>
+              <point eId="point_3__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>בבית משפט שלום ובבית משפט מחוזי יהיה הדיון בעבירה שהואשם בה קטין, לרבות הדיון בערעור, לפני בית משפט לנוער.</p>
+                </content>
+              </point>
+              <point eId="point_3__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>על אף האמור בכל דין, רשאי שר המשפטים בצו להסמיך בית משפט שלום לנוער לדון קטינים על פשעים לפי הסעיפים המפורטים בצו.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_4">
+            <heading>
+              <authorialNote placement="side">
+                <p>שפיטת קטין ובגיר יחד</p>
+              </authorialNote>
+            </heading>
+            <num>4.</num>
+            <list>
+              <point eId="point_4__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>אין להעמיד לדין קטין יחד עם אדם שאינו קטין אלא בהסכמת היועץ המשפטי לממשלה.</p>
+                </content>
+              </point>
+              <point eId="point_4__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>הואשם קטין יחד עם אדם שאינו קטין, רשאי בית משפט שאינו לנוער, לאחר שמיעת בעלי הדין, לדון בענין; החליט בית המשפט לעשות כן, ינהג כלפי הקטין כאילו היה בית משפט לנוער ויהיו לו הסמכויות של בית משפט לנוער לפי חוק זה; החליט בית המשפט לא לדון בענין, יצווה על הפרדת משפטו של הקטין ויעבירו לבית משפט לנוער.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_5">
+            <heading>
+              <authorialNote placement="side">
+                <p>קטין שהובא לבית־משפט שאינו לנוער</p>
+              </authorialNote>
+            </heading>
+            <num>5.</num>
+            <list>
+              <point eId="point_5__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>מצא בית משפט שאינו לנוער, בכל שלב שלפני הכרעת הדין, כי הנאשם הוא קטין, יעביר את הענין לבית משפט לנוער והלה ידון בו כאילו הובא מלכתחילה לפניו ורשאי הוא לדון בו מן השלב שאליו הגיע בית המשפט הקודם.</p>
+                </content>
+              </point>
+              <point eId="point_5__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>ראה בית המשפט נסיבות מיוחדות המצדיקות שלא להעביר את הענין לבית משפט לנוער כאמור בסעיף קטן (א), רשאי הוא להמשיך ולדון בו, אך מכאן ואילך ינהג כאילו היה בית משפט לנוער ויהיו לו כל הסמכויות של בית משפט לנוער לפי חוק זה.</p>
+                </content>
+              </point>
+              <point eId="point_5__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>מצא בית משפט שאינו לנוער, לאחר הכרעת הדין, כי הנאשם הוא קטין, ימשיך לדון בענין כאילו היה בית משפט לנוער ויהיו לו כל הסמכויות של בית משפט לנוער לפי חוק זה; החליט בית המשפט כי יש לפעול כאמור <ref href="#point_24">בסעיף 24(2) או (3)</ref>, יחליף את ההרשעה בקביעה שהקטין ביצע את העבירה.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_5א">
+            <heading>
+              <authorialNote placement="side">
+                <p>שפיטת בגיר בעבירה שביצע בהיותו קטין</p>
+              </authorialNote>
+            </heading>
+            <num>5א.</num>
+            <list>
+              <point eId="point_5א__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>הדיון בבית משפט שלום ובבית משפט מחוזי, לרבות הדיון בערעור, בעניינו של נאשם שביום הגשת כתב האישום נגדו מלאו לו 18 שנים וטרם מלאו לו 19 שנים וביום ביצוע העבירה היה קטין, יהיה בפני בית משפט לנוער, ואולם <ref href="#point_26">פסקאות (1), (4) ו־(5) שבסעיף 26</ref> לא יחולו.</p>
+                </content>
+              </point>
+              <point eId="point_5א__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>הדיון בעניינו של נאשם שביום הגשת כתב האישום נגדו מלאו לו 19 שנים וביום ביצוע העבירה היה קטין, יהיה בפני בית משפט שאינו לנוער, ואולם הוראות <ref href="#point_9">סעיפים 9</ref>, <ref href="#point_21">21</ref>, <ref href="#point_22">22</ref>, <ref href="#point_24">24</ref>, <ref href="#point_26">26 למעט פסקאות (1), (4) ו־(5) שבו</ref>, <ref href="#point_27">ו־27</ref>, יחולו, בשינויים המחויבים.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_6">
+            <heading>
+              <authorialNote placement="side">
+                <p>בגיר שהובא לפני בית־משפט לנוער</p>
+              </authorialNote>
+            </heading>
+            <num>6.</num>
+            <content>
+              <p>מצא בית משפט לנוער במהלך הדיון כי הנאשם אינו קטין והוראות <ref href="#point_5א">סעיף 5א(א)</ref> אינן חלות עליו, רשאי הוא להמשיך ולדון בענין כאילו לא היה בית משפט לנוער או להעבירו לבית משפט שאינו לנוער, והלה ידון בו כאילו הובא לפניו מלכתחילה ורשאי הוא לדון בו מן השלב שאליו הגיע בית המשפט לנוער.</p>
+            </content>
+          </point>
+          <point eId="point_7">
+            <heading>
+              <authorialNote placement="side">
+                <p>שמירת תקפם של צווים ופסקי דין</p>
+              </authorialNote>
+            </heading>
+            <num>7.</num>
+            <content>
+              <p>צו סופי או פסק דין סופי של בית משפט לא יהיה פסול מחמת זאת בלבד, שבגלל גיל הנאשם צריך היה להעמידו לדין לפני בית משפט אחר; אולם אם נגרם עיוות דין חמור כתוצאה מהעמדת נאשם לדין לפני בית משפט שאינו מתאים לגילו, רשאי נשיא בית המשפט העליון להורות כי בית משפט שיקבע לכך יקיים משפט חוזר בענין, והוראות <ref href="/akn/il/act/PrimaryLegislation/1984-08-13/2002218#point_31">סעיף 9(ב) עד (ד) לחוק בתי המשפט, תשי"ז–1957</ref>, יחולו בשינויים המחוייבים לפי הענין.</p>
+            </content>
+          </point>
+          <point eId="point_8">
+            <heading>
+              <authorialNote placement="side">
+                <p>הפרדת קטינים</p>
+              </authorialNote>
+            </heading>
+            <num>8.</num>
+            <list>
+              <point eId="point_8__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>בית משפט לנוער יקיים, ככל האפשר, את דיוניו במקום שלא מתנהלים בו משפטים אחרים, או באותו מקום אך לא באותו זמן.</p>
+                </content>
+              </point>
+              <point eId="point_8__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>ככל האפשר, לא יובאו נאשמים קטינים יחד עם נאשמים שאינם קטינים לבית המשפט או ממנו ולא יוחזקו בו יחד.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_9">
+            <heading>
+              <authorialNote placement="side">
+                <p>דלתיים סגורות</p>
+              </authorialNote>
+            </heading>
+            <num>9.</num>
+            <content>
+              <p>בית משפט לנוער ידון בדלתיים סגורות, אולם רשאי הוא להרשות לאדם או לסוגי בני אדם לרבות לנפגע העבירה להיות נוכחים בשעת הדיון, כולו או מקצתו; לעניין זה, ”נפגע עבירה“ – כהגדרתו <ref href="/akn/il/act/PrimaryLegislation/2001-03-21/171104">בחוק זכויות נפגעי עבירה, התשס"א–2001</ref>.</p>
+            </content>
+          </point>
+        </list>
+      </chapter>
+      <chapter eId="chp_ב1">
+        <num>פרק ב׳1:</num>
+        <title>
+          <content>
+            <p>חקירת עדים קטינים</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_9א">
+            <heading>
+              <authorialNote placement="side">
+                <p>חקירת עד קטין</p>
+              </authorialNote>
+            </heading>
+            <num>9א.</num>
+            <list>
+              <point eId="point_9א__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>בסעיף זה, ”בן משפחה“ – הורה, הורה של הורה, אח, גיס, דוד, או צאצא של כל אחד מאלה.</p>
+                </content>
+              </point>
+              <point eId="point_9א__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>קטין שיש לחקרו בעבירה <ref href="/akn/il/act/PrimaryLegislation/1955-06-16/148415">שחוק הגנת ילדים</ref> לא חל על חקירתה, שאין הוא חשוד בביצועה, יוזמן לחקירה וייחקר בידיעת הורהו.</p>
+                </content>
+              </point>
+              <point eId="point_9א__point_ג">
+                <num>(ג)</num>
+                <list>
+                  <intro>
+                    <p>על אף הוראת סעיף קטן (ב), מותר להזמין קטין לחקירה כאמור באותו סעיף קטן ומותר לחקרו, אף בלא ידיעת ההורה, אם מתקיים אחד מאלה:</p>
+                  </intro>
+                  <point eId="point_9א__point_ג__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>הקטין ביקש כי לא תימסר להורהו הודעה על חקירתו; הודעה על החקירה תימסר לעובד סוציאלי שמונה לפי חוק, לכל המאוחר עם תום החקירה, והוא רשאי להורות, על אף בקשת הקטין, כי תימסר הודעה להורה, אם סבר כי טובת הקטין מחייבת זאת;</p>
+                    </content>
+                  </point>
+                  <point eId="point_9א__point_ג__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>לדעת הקצין הממונה על חקירת העבירה, לאחר שהתייעץ עם חוקר הנוער, הזמנת הקטין בהודעה להורהו תעכב את חקירת העבירה, בשל קושי להודיע להורה במאמץ סביר, ויש יסוד סביר להניח שהעיכוב יסכל את חקירת העבירה או יסכל מניעה של פשע; ואולם, בכפוף להוראות סעיף זה, הודעה על החקירה תימסר לבגיר האחראי על הקטין באותה העת או לקרוב בגיר של הקטין, ככל הניתן בנסיבות הענין, וכן תימסר הודעה להורהו מוקדם ככל האפשר;</p>
+                    </content>
+                  </point>
+                  <point eId="point_9א__point_ג__point_3">
+                    <num>(3)</num>
+                    <list>
+                      <intro>
+                        <p>לדעת הקצין הממונה על חקירת העבירה, לאחר שהתייעץ עם עובד סוציאלי שמונה לפי חוק, נכון לעשות כן על יסוד אחד מאלה:</p>
+                      </intro>
+                      <point eId="point_9א__point_ג__point_3__point_א">
+                        <num>(א)</num>
+                        <content>
+                          <p>טעמים של טובת הקטין או טעמים של טובת החקירה שאין בהם פגיעה בטובת הקטין, בשל היות החשוד בביצוע העבירה בן משפחתו של הקטין;</p>
+                        </content>
+                      </point>
+                      <point eId="point_9א__point_ג__point_3__point_ב">
+                        <num>(ב)</num>
+                        <content>
+                          <p>חשש לפגיעה בשלומו הגופני או הנפשי של הקטין.</p>
+                        </content>
+                      </point>
+                    </list>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_9א__point_ד">
+                <num>(ד)</num>
+                <content>
+                  <p>חדל להתקיים הטעם שהצדיק חקירת קטין בלא ידיעת הורהו כאמור בסעיף קטן (ג), יודיע הקצין הממונה על חקירת העבירה להורה על חקירת הקטין, אם אין מניעה אחרת להודיע עליה לפי סעיף זה.</p>
+                </content>
+              </point>
+              <point eId="point_9א__point_ה">
+                <num>(ה)</num>
+                <content>
+                  <p>הוראות סעיף זה יחולו גם על זימון קטין לתחנת המשטרה לפי <ref href="/akn/il/act/PrimaryLegislation/1996-05-12/159712#point_68">סעיף 68(א) בחוק סדר הדין הפלילי (סמכויות אכיפה – מעצרים), התשנ"ו–1996</ref>.</p>
+                </content>
+              </point>
+              <point eId="point_9א__point_ו">
+                <num>(ו)</num>
+                <content>
+                  <p>הוראות פסקאות (1) ו־(3) של סעיף קטן (ג) הנוגעות לעובד סוציאלי שמונה לפי חוק יחולו רק לגבי חקירה בעבירה המנויה <ref href="/akn/il/act/PrimaryLegislation/1955-06-16/148415#appendix">בתוספת לחוק הגנת ילדים</ref> של קטין שהוא נפגע העבירה; לענין פסקה (1) האמורה הסמכות הנתונה לעובד סוציאלי שמונה לפי חוק באותה פסקה תהיה נתונה לחוקר נוער.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_9ב">
+            <heading>
+              <authorialNote placement="side">
+                <p>הוצאת קטין ממקום שהותו לצורך חקירה</p>
+              </authorialNote>
+            </heading>
+            <num>9ב.</num>
+            <list>
+              <point eId="point_9ב__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>בסעיף זה, ”מקום שהות“ – מקום שבו שוהה ילד לצורך חינוכי או טיפולי, שאינו טיפול רפואי, לרבות בית ספר, גן ילדים או קייטנה.</p>
+                </content>
+              </point>
+              <point eId="point_9ב__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>התקיים תנאי המצדיק חקירת קטין בעבירה, <ref href="/akn/il/act/PrimaryLegislation/1955-06-16/148415">שחוק הגנת ילדים</ref> לא חל על חקירתה ושאין הוא חשוד בביצועה, בלא ידיעת הורהו כאמור <ref href="#point_9א">בסעיף 9א</ref>, רשאי חוקר נוער, בכפוף להוראת סעיף קטן (ג), להוציא את הקטין ממקום שהותו, אף בלא ידיעת ההורה, לצורך החקירה, ובלבד שהקטין לא יוצא ממקום שהותו בניגוד לרצונו.</p>
+                </content>
+              </point>
+              <point eId="point_9ב__point_ג">
+                <num>(ג)</num>
+                <list>
+                  <intro>
+                    <p>חוקר נוער לא יוציא קטין ממקום שהותו לפי הוראות סעיף זה, אלא אם כן סבר כי חקירת הקטין מחוץ למקום שהותו עדיפה בנסיבות הענין על חקירתו במקום שהותו ולאחר שעשה את כל אלה:</p>
+                  </intro>
+                  <point eId="point_9ב__point_ג__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>הזדהה לפני מנהל מקום שהותו של הקטין או לפני האדם האחראי על ניהול המקום באותה עת, הודיע לו כי הוא עומד להוציא את הקטין מהמקום ומסר לו את פרטיו;</p>
+                    </content>
+                  </point>
+                  <point eId="point_9ב__point_ג__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>התייעץ עם עובדי חינוך או טיפול במקום שהותו של הקטין המכירים את הקטין;</p>
+                    </content>
+                  </point>
+                  <point eId="point_9ב__point_ג__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>הסביר לקטין, בלשון המובנת לו בהתאם לגילו וליכולותיו, את מטרת הוצאתו ממקום שהותו והצורך בביצועה.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_9ב__point_ד">
+                <num>(ד)</num>
+                <content>
+                  <p>הוציא חוקר נוער קטין ממקום שהותו כאמור בסעיף זה, ילווה הקטין, ככל שהדבר אפשרי בנסיבות הענין, במהלך שהותו מחוץ למקום, גם בידי עובד חינוך או אדם אחר המוכר לו מאותו מקום (בסעיף זה – המלווה).</p>
+                </content>
+              </point>
+              <point eId="point_9ב__point_ה">
+                <num>(ה)</num>
+                <content>
+                  <p>בלי לגרוע מהוראות כל דין, חוקר נוער שהוציא קטין ממקום שהותו כאמור בסעיף זה יחזיר את הקטין בתום החקירה לביתו, לאחר שהתייעץ עם הקצין הממונה על חקירת העבירה, או למקום שממנו הוצא הקטין, או יוודא כי המלווה יחזיר את הקטין אל אותו המקום.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_9ג">
+            <heading>
+              <authorialNote placement="side">
+                <p>עיכוב עד קטין</p>
+              </authorialNote>
+            </heading>
+            <num>9ג.</num>
+            <content>
+              <p>עוכב עד קטין במקום ונתבקש להילוות לשוטר אל תחנת המשטרה לפי <ref href="/akn/il/act/PrimaryLegislation/1996-05-12/159712#point_68">סעיף 68(ב) לחוק סדר הדין הפלילי (סמכויות אכיפה – מעצרים), התשנ"ו–1996</ref>, תימסר על כך בהקדם האפשרי הודעה להורהו, ואם לא ניתן להודיע להורה כאמור – לאדם הקרוב לקטין, אלא אם כן סבר הממונה על תחנת המשטרה שאליה הובא הקטין כי הודעה כאמור עשויה לפגוע בשלום הקטין או אם ביקש זאת הקטין.</p>
+            </content>
+          </point>
+          <point eId="point_9ד">
+            <heading>
+              <authorialNote placement="side">
+                <p>חקירת עד קטין בשעות הלילה</p>
+              </authorialNote>
+            </heading>
+            <num>9ד.</num>
+            <list>
+              <point eId="point_9ד__point_א">
+                <num>(א)</num>
+                <list>
+                  <intro>
+                    <p>בסעיף זה, ”שעות הלילה“ –</p>
+                  </intro>
+                  <point eId="point_9ד__point_א__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>לגבי קטין שטרם מלאו לו 14 שנים – השעות שבין 20:00 ל־07:00;</p>
+                    </content>
+                  </point>
+                  <point eId="point_9ד__point_א__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>לגבי קטין שמלאו לו 14 שנים – השעות שבין 22:00 ל־07:00.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_9ד__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>קטין לא ייחקר בשעות הלילה בתחנת המשטרה ולא תימשך חקירתו בתחנה בשעות כאמור, בעבירה שהוא אינו חשוד בביצועה.</p>
+                </content>
+              </point>
+              <point eId="point_9ד__point_ג">
+                <num>(ג)</num>
+                <list>
+                  <intro>
+                    <p>על אף האמור בסעיף קטן (ב), ניתן לחקור קטין בעבירה שהוא אינו חשוד בביצועה בשעות הלילה, באחד מאלה:</p>
+                  </intro>
+                  <point eId="point_9ד__point_ג__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>הקטין הגיע מיוזמתו או לבקשתו לתחנת המשטרה בשעות כאמור כדי להגיש תלונה או למסור עדות על עבירה שבוצעה;</p>
+                    </content>
+                  </point>
+                  <point eId="point_9ד__point_ג__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>אם העבירה שהוא היה עד לביצועה נעברה בסמוך למועד החקירה, והוא נדרש להילוות לשוטר אל תחנת המשטרה לפי <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/חוק_סדר_הדין_הפלילי_סמכויות_אכיפה_מעצרים_נוער#point_68">סעיף 68(ב) לחוק המעצרים</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_9ד__point_ג__point_3">
+                    <num>(3)</num>
+                    <list>
+                      <intro>
+                        <p>הקצין הממונה על חקירת העבירה, לאחר שהתייעץ עם חוקר נוער, הורה, בהחלטה מנומקת בכתב, כי קטין ייחקר בעבירה כאמור בשעות הלילה, אם שוכנע כי דחיית החקירה עלולה להביא לאחד מאלה:</p>
+                      </intro>
+                      <point eId="point_9ד__point_ג__point_3__point_א">
+                        <num>(א)</num>
+                        <content>
+                          <p>שיבוש או סיכול חקירתם או מעצרם של חשודים בעבירה מסוג פשע, או בעבירה מסוג עוון המנויה <ref href="#appendix_part_א">בחלק א׳ לתוספת</ref>, שבקשר אליה הוא נחקר כעד;</p>
+                        </content>
+                      </point>
+                      <point eId="point_9ד__point_ג__point_3__point_ב">
+                        <num>(ב)</num>
+                        <content>
+                          <p>מניעת גילוי ראיה או תפיסת חפץ הקשור לאותה עבירה;</p>
+                        </content>
+                      </point>
+                      <point eId="point_9ד__point_ג__point_3__point_ג">
+                        <num>(ג)</num>
+                        <content>
+                          <p>מניעת שחרורם של חשודים ממעצר;</p>
+                        </content>
+                      </point>
+                      <point eId="point_9ד__point_ג__point_3__point_ד">
+                        <num>(ד)</num>
+                        <content>
+                          <p>פגיעה בשלומו הגופני או הנפשי של הקטין;</p>
+                        </content>
+                      </point>
+                    </list>
+                  </point>
+                  <point eId="point_9ד__point_ג__point_4">
+                    <num>(4)</num>
+                    <content>
+                      <p>הקטין והורהו נתנו את הסכמתם לחקירה בשעות הלילה ובלבד שלא תתאפשר חקירתו של הקטין בשל הסכמתם כאמור אחרי השעה 00:00.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+            </list>
+          </point>
+          <point eId="point_9ה">
+            <heading>
+              <authorialNote placement="side">
+                <p>עד קטין שהפך לחשוד</p>
+              </authorialNote>
+            </heading>
+            <num>9ה.</num>
+            <content>
+              <p>התעורר חשד, במהלך חקירת קטין בעבירה שהוא אינו חשוד בביצועה, שהקטין היה מעורב בביצוע העבירה, יחולו עליו הוראות כל דין לעניין חקירת חשודים, וחקירתו לא תחודש אלא לאחר שקוימו לגביו הוראות <ref href="#point_9ו">סעיפים 9ו עד 9ט</ref>.</p>
+            </content>
+          </point>
+        </list>
+      </chapter>
+      <chapter eId="chp_ג">
+        <num>פרק ג׳ –</num>
+        <title>
+          <content>
+            <p>חקירת חשודים, מעצר, שחרור והליכים שלפני המשפט</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_9ו">
+            <heading>
+              <authorialNote placement="side">
+                <p>הודעה על חקירת קטין חשוד או על מעצרו</p>
+              </authorialNote>
+            </heading>
+            <num>9ו.</num>
+            <list>
+              <point eId="point_9ו__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>קטין החשוד בביצוע עבירה (בחוק זה – קטין חשוד), יוזמן לחקירה וייחקר בידיעת הורהו, ואם לא ניתן לאתר את הורה הקטין במאמץ סביר – בידיעת קרוב משפחה בגיר או אדם בגיר אחר המוכר לקטין, ובלבד שנשמעה עמדת הקטין לעניין זהות אותו בגיר (בחוק זה – קרוב אחר), אלא אם כן אין אפשרות לאתר מי מהם במאמץ סביר בנסיבות העניין.</p>
+                </content>
+              </point>
+              <point eId="point_9ו__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>קטין חשוד השוהה במעון יוזמן לחקירה וייחקר בידיעת מנהל המעון וכן בידיעת הורהו, ואם לא ניתן לאתר את הורה הקטין במאמץ סביר – בידיעת קרוב אחר, אלא אם כן אין אפשרות לאתר מי מהם במאמץ סביר בנסיבות העניין.</p>
+                </content>
+              </point>
+              <point eId="point_9ו__point_ג">
+                <num>(ג)</num>
+                <list>
+                  <point eId="point_9ו__point_ג__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>הגיע קטין חשוד לתחנת המשטרה או הובא אליה, כשאינו עצור, לפי הוראות <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/חוק_סדר_הדין_הפלילי_סמכויות_אכיפה_מעצרים_נוער#point_67">סעיף 67(ב) לחוק המעצרים</ref>, או נעצר קטין חשוד, יודיע על כך הקצין הממונה, בלא דיחוי ולאחר שיידע את הקטין כי בכוונתו לעשות כן, להורהו, ואם לא ניתן לאתר את הורה הקטין במאמץ סביר – לקרוב אחר, אלא אם כן אין אפשרות לאתר מי מהם במאמץ סביר בנסיבות העניין.</p>
+                    </content>
+                  </point>
+                  <point eId="point_9ו__point_ג__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>על אף הוראות פסקה (1), לא תימסר הודעה כאמור באותה הפסקה לעניין קטין שהגיע לתחנת המשטרה או שהובא אליה, כשאינו עצור, אם הקטין הביע התנגדות, מנימוק סביר, למסירתה; היה הקטין עצור, יינתן לרצונו בעניין מסירת ההודעה משקל ראוי, בהתחשב בגילו ובמידת בגרותו, ובלבד שתימסר הודעה כאמור לקרוב אחר.</p>
+                    </content>
+                  </point>
+                  <point eId="point_9ו__point_ג__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>החליט הקצין הממונה על מעצרו של קטין חשוד לפי הוראות <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/חוק_סדר_הדין_הפלילי_סמכויות_אכיפה_מעצרים_נוער#point_27">סעיף 27 לחוק המעצרים</ref>, יודיע על כך גם לקצין מבחן.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_9ו__point_ד">
+                <num>(ד)</num>
+                <content>
+                  <p>לא נמסרה הודעה להורה של קטין חשוד כאמור בסעיפים קטנים (א) עד (ג) מחמת העדר אפשרות לאתרו כאמור באותם סעיפים קטנים, תודיע המשטרה להורה, כל עוד הקטין נתון בחקירה או במעצר, לפי המאוחר, בלא דיחוי, עם היווצרות האפשרות לאתרו.</p>
+                </content>
+              </point>
+              <point eId="point_9ו__point_ה">
+                <num>(ה)</num>
+                <list>
+                  <point eId="point_9ו__point_ה__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>אי מסירת הודעה להורה של קטין חשוד ולקרוב אחר מחמת העדר אפשרות לאתר מי מהם במאמץ סביר בנסיבות העניין כאמור בסעיפים קטנים (א) עד (ג), תתועד בכתב.</p>
+                    </content>
+                  </point>
+                  <point eId="point_9ו__point_ה__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>יידוע הקטין, תגובתו וכן התנגדותו ככל שהיתה, וכן החלטת הקצין הממונה ונימוקיה, כאמור בסעיף קטן (ג), יתועדו על ידי הקצין הממונה בתיעוד חזותי, בתיעוד קולי או בכתב.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+            </list>
+          </point>
+          <point eId="point_9ז">
+            <heading>
+              <authorialNote placement="side">
+                <p>חקירת קטין חשוד בלא הודעה להורהו או לקרוב אחר</p>
+              </authorialNote>
+            </heading>
+            <num>9ז.</num>
+            <list>
+              <point eId="point_9ז__point_א">
+                <num>(א)</num>
+                <list>
+                  <intro>
+                    <p>על אף הוראות <ref href="#point_9ו">סעיף 9ו</ref>, רשאי קצין מוסמך, בהחלטה מנומקת בכתב, להורות על הזמנת קטין חשוד שאינו עצור לחקירה או על חקירתו, בלי להודיע על כך להורהו, לקרוב אחר או למנהל מעון, לפי העניין, אם שוכנע כי הודעה כאמור עלולה –</p>
+                  </intro>
+                  <point eId="point_9ז__point_א__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>לפגוע בשלומו הגופני או הנפשי של הקטין או של אדם אחר;</p>
+                    </content>
+                  </point>
+                  <point eId="point_9ז__point_א__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>להביא לשיבוש הליכי החקירה בשל חשד סביר כי אחד מהמנויים ברישה, או בן משפחתו של הורה הקטין או הקרוב האחר, היה צד לעבירה שבה חשוד הקטין;</p>
+                    </content>
+                  </point>
+                  <point eId="point_9ז__point_א__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>לגבי קטין שהוא חשוד בעבירת ביטחון כמשמעותו <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/חוק_סדר_הדין_הפלילי_סמכויות_אכיפה_מעצרים_נוער#point_35">בסעיף 35(ב) לחוק המעצרים</ref> – לפגוע בביטחון המדינה.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_9ז__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>לצורך קבלת החלטה לעניין פסקה (1) שבסעיף קטן (א), רשאי קצין מוסמך להביא בחשבון הודעה מנומקת בכתב של מנהל מעון, כי יש חשש שהודעה להורה או לקרוב אחר תביא לפגיעה בשלומו הגופני או הנפשי של הקטין.</p>
+                </content>
+              </point>
+              <point eId="point_9ז__point_ג">
+                <num>(ג)</num>
+                <list>
+                  <point eId="point_9ז__point_ג__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>הורה קצין מוסמך כאמור בסעיף קטן (א), בלא שהודיע להורה של הקטין, וחלפו שמונה שעות מהגעתו של הקטין לתחנת המשטרה או חדל להתקיים הטעם שהצדיק הזמנה לחקירה או חקירה בלי להודיע להורה, לפי המוקדם, תימסר להורה הקטין בלא דיחוי, הודעה על הימצאותו של הקטין בתחנת המשטרה ועל חקירתו.</p>
+                    </content>
+                  </point>
+                  <point eId="point_9ז__point_ג__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>הורה קצין מוסמך כאמור בסעיף קטן (א), בלא שהודיע אף לקרוב אחר או למנהל המעון, לפי העניין, יחולו הוראות פסקה (1) אם חלפו שש שעות מהגעתו של הקטין לתחנת המשטרה או חדל להתקיים הטעם שהצדיק הזמנה לחקירה או חקירה שלא בידיעתם, לפי המוקדם.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_9ז__point_ד">
+                <num>(ד)</num>
+                <list>
+                  <intro>
+                    <p>החליט קצין מוסמך כאמור בסעיף קטן (א), וחלף פרק הזמן כאמור בסעיף קטן (ג)(2), רשאי קצין נוער מרחבי, ובהעדרו – קצין נוער מחוזי, להאריך את פרק הזמן האמור אם שוכנע כי מתקיים אחד מאלה, ובלבד שפרק הזמן המרבי מהגעתו של הקטין לתחנת המשטרה לא יעלה על שמונה שעות:</p>
+                  </intro>
+                  <point eId="point_9ז__point_ד__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>סכנה ממשית לשלומו של הקטין או לביטחונו;</p>
+                    </content>
+                  </point>
+                  <point eId="point_9ז__point_ד__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>חשש לשיבוש הליכי החקירה בעבירה מסוג פשע בשל חשד סביר כי ההורה או הקרוב האחר או בן משפחתו של מי מהם, היו צד לעבירה שבה חשוד הקטין;</p>
+                    </content>
+                  </point>
+                  <point eId="point_9ז__point_ד__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>פגיעה ממשית בביטחון המדינה.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_9ז__point_ה">
+                <num>(ה)</num>
+                <content>
+                  <p>חדל להתקיים הטעם שבשלו לא נמסרה ההודעה להורה הקטין או לקרוב אחר, תימסר ההודעה בלא דיחוי, אלא אם כן הופעלה סמכות כאמור <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/חוק_סדר_הדין_הפלילי_סמכויות_אכיפה_מעצרים_נוער#point_36">בסעיף 36 לחוק המעצרים</ref>, או שעובד סוציאלי שמונה לפי חוק הפעיל את סמכותו לפי <ref href="/akn/il/act/PrimaryLegislation/1960-07-14/150256#point_11">סעיף 11 לחוק הנוער (טיפול והשגחה)</ref>.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_9ח">
+            <heading>
+              <authorialNote placement="side">
+                <p>נוכחות הורה או קרוב אחר בחקירת קטין חשוד</p>
+              </authorialNote>
+            </heading>
+            <num>9ח.</num>
+            <list>
+              <point eId="point_9ח__point_א">
+                <num>(א)</num>
+                <list>
+                  <intro>
+                    <p>קטין חשוד שהוזמן לחקירה בידיעת הורהו או קרוב אחר או שנמסרה הודעה על חקירתו לאחד מהם, לפי הוראות <ref href="#point_9ו">סעיף 9ו(א) עד (ג)</ref>, זכאי שהורהו או קרוב אחר יהיה נוכח בחקירתו וכן זכאי הוא להיוועץ במי מהם, ככל הניתן לפני תחילת החקירה, אלא אם כן הביע הקטין התנגדות לכך מנימוק סביר או אם היה מוחזק במעצר, והכל, אם סבר קצין מוסמך כי אין במתן אפשרות לנוכחות ההורה או הקרוב האחר כאמור כדי להביא לאחד מאלה:</p>
+                  </intro>
+                  <point eId="point_9ח__point_א__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>פגיעה בטובת החקירה או בטובת הקטין;</p>
+                    </content>
+                  </point>
+                  <point eId="point_9ח__point_א__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>אחד הטעמים המנויים <ref href="#point_9ז">בסעיף 9ז(א)</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_9ח__point_א__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>אחד הטעמים המנויים בסעיף קטן (ג)(2)(א) עד (ה);</p>
+                    </content>
+                  </point>
+                  <point eId="point_9ח__point_א__point_4">
+                    <num>(4)</num>
+                    <content>
+                      <p>חשיפת עניין הנוגע לצנעת חייו של קטין אחר.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_9ח__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>הורה או קרוב אחר של קטין חשוד שהתקיימו לגביו הוראות סעיף קטן (א), יוזמן להיות נוכח בחקירה והחקירה תעוכב עד להגעתו.</p>
+                </content>
+              </point>
+              <point eId="point_9ח__point_ג">
+                <num>(ג)</num>
+                <list>
+                  <intro>
+                    <p>על אף הוראות סעיף קטן (ב), רשאי קצין מוסמך להורות, בהחלטה מנומקת בכתב, על התחלת חקירתו של קטין כאמור באותו סעיף קטן בלי להמתין לנוכחות הורהו או קרוב אחר –</p>
+                  </intro>
+                  <point eId="point_9ח__point_ג__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>אם ההורה או הקרוב האחר לא הגיע לחקירה בתוך זמן סביר בנסיבות העניין מהמועד שבו הוזמן;</p>
+                    </content>
+                  </point>
+                  <point eId="point_9ח__point_ג__point_2">
+                    <num>(2)</num>
+                    <list>
+                      <intro>
+                        <p>אם שוכנע כי המתנה כאמור עלולה להביא לאחד מאלה, ובלבד שחקירת הקטין בלא נוכחות הורהו או קרוב אחר תימשך רק כל עוד מתקיים הטעם שהצדיק את אי־ההמתנה כאמור:</p>
+                      </intro>
+                      <point eId="point_9ח__point_ג__point_2__point_א">
+                        <num>(א)</num>
+                        <content>
+                          <p>פגיעה בשלומו הגופני או הנפשי של הקטין;</p>
+                        </content>
+                      </point>
+                      <point eId="point_9ח__point_ג__point_2__point_ב">
+                        <num>(ב)</num>
+                        <content>
+                          <p>סיכול או שיבוש של החקירה או של חקירתם או מעצרם של חשודים נוספים בקשר לאירוע שלגביו נחקר הקטין;</p>
+                        </content>
+                      </point>
+                      <point eId="point_9ח__point_ג__point_2__point_ג">
+                        <num>(ג)</num>
+                        <content>
+                          <p>מניעת גילוי ראיה או תפיסת חפץ הקשור לעבירה שהקטין חשוד בביצועה;</p>
+                        </content>
+                      </point>
+                      <point eId="point_9ח__point_ג__point_2__point_ד">
+                        <num>(ד)</num>
+                        <content>
+                          <p>סיכול של מניעת עבירות נוספות;</p>
+                        </content>
+                      </point>
+                      <point eId="point_9ח__point_ג__point_2__point_ה">
+                        <num>(ה)</num>
+                        <content>
+                          <p>מניעת שחרורם ממעצר של הקטין או של חשודים אחרים;</p>
+                        </content>
+                      </point>
+                    </list>
+                  </point>
+                  <point eId="point_9ח__point_ג__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>לא ניתן לאתר מי מהם במאמץ סביר.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_9ח__point_ד">
+                <num>(ד)</num>
+                <content>
+                  <p>הורה קצין מוסמך על חקירת קטין חשוד בלא הזמנת הורהו או קרוב אחר להיות נוכח עמו בחקירה כאמור בסעיף קטן (א), ינמק את החלטתו והיא תתועד בכתב.</p>
+                </content>
+              </point>
+              <point eId="point_9ח__point_ה">
+                <num>(ה)</num>
+                <content>
+                  <p>הוחל בחקירתו של קטין חשוד בלי להמתין לנוכחותו של הורהו או של קרוב אחר, מאחד הטעמים האמורים בסעיף קטן (ג), והגיע הורהו של הקטין או קרוב אחר לתחנת המשטרה במהלך החקירה, יורשה אותו אדם להיות נוכח בהמשך חקירת הקטין והחוקר ייתן לקטין הזדמנות להיוועץ באותו אדם במועד האפשרי הראשון בהתאם למהלך החקירה.</p>
+                </content>
+              </point>
+              <point eId="point_9ח__point_ו">
+                <num>(ו)</num>
+                <content>
+                  <p>נכח הורהו של קטין או קרוב אחר בחקירת הקטין, לא יתערב במהלך החקירה ולא יצא מחדר החקירה, אלא אם כן התיר לו החוקר לעשות כן ובתנאים שיקבע; בטרם תחל חקירת קטין בנוכחות הורהו או קרוב אחר, יודיע החוקר להורה או לקרוב האחר, לפי העניין, על המגבלות החלות עליו כאמור.</p>
+                </content>
+              </point>
+              <point eId="point_9ח__point_ז">
+                <num>(ז)</num>
+                <content>
+                  <p>ראה חוקר כי הורהו של קטין או קרוב אחר הנוכח בחקירת הקטין מפריע לחקירה באופן שאינו מאפשר לנהלה, מתערב בחקירה אף שהוזהר שלא לעשות כן או מאיים על הקטין באופן ישיר או מרומז, רשאי החוקר, בהחלטה מנומקת בכתב, להרחיק את ההורה או הקרוב האחר מן החקירה.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_9ט">
+            <heading>
+              <authorialNote placement="side">
+                <p>הודעה לקטין חשוד על זכויותיו בטרם חקירתו</p>
+              </authorialNote>
+            </heading>
+            <num>9ט.</num>
+            <list>
+              <point eId="point_9ט__point_א">
+                <num>(א)</num>
+                <list>
+                  <intro>
+                    <p>בטרם ייחקר קטין חשוד, יודיע חוקר לקטין, בלשון המובנת לו בהתחשב בגילו ובמידת בגרותו, על זכויותיו המפורטות להלן, נוסף על חובותיו לפי כל דין כלפי הקטין בהיותו חשוד:</p>
+                  </intro>
+                  <point eId="point_9ט__point_א__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>זכותו להיוועץ בעורך דין ביחידות ולהיות מיוצג על ידי סניגור, וכן זכאות לפי <ref href="/akn/il/act/PrimaryLegislation/1995-11-30/159539">חוק הסניגוריה הציבורית</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_9ט__point_א__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>זכותו לנוכחות הורהו או קרוב אחר בחקירתו, כאמור <ref href="#point_9ח">בסעיף 9ח</ref>.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_9ט__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>בטרם ייחקר קטין חשוד עצור שהובא לתחנה או קטין חשוד העצור בהתאם להוראות <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/חוק_סדר_הדין_הפלילי_סמכויות_אכיפה_מעצרים_נוער#point_32">סעיף 32 לחוק המעצרים</ref>, שהובא לתחנה כשהוא עצור, יודיע חוקר לסניגורו של הקטין על חקירתו, ואם אין לו סניגור יודיע כאמור לסניגוריה הציבורית כדי שתבחן את זכאותו לייצוג; בלי לגרוע מהוראות כל דין, אין בהודעה לסניגורו של הקטין או לסניגוריה הציבורית כאמור, כדי לעכב את החקירה.</p>
+                </content>
+              </point>
+              <point eId="point_9ט__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>שר המשפטים, בהסכמת השר לביטחון הפנים, יקבע הוראות בדבר נוסח הודעה כאמור בסעיף קטן (א).</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_9י">
+            <heading>
+              <authorialNote placement="side">
+                <p>חקירת קטין חשוד בשעות הלילה</p>
+              </authorialNote>
+            </heading>
+            <num>9י.</num>
+            <list>
+              <intro>
+                <p>קטין חשוד לא ייחקר בתחנת המשטרה בשעות הלילה, כהגדרתן <ref href="#point_9ד">בסעיף 9ד(א)</ref>, ואולם רשאי קצין מוסמך להורות, בהחלטה מנומקת בכתב, כי קטין חשוד ייחקר בשעות הלילה באחד מאלה:</p>
+              </intro>
+              <point eId="point_9י__point_1">
+                <num>(1)</num>
+                <content>
+                  <p>העבירה שהוא חשוד בביצועה נעברה בסמוך למועד עיכוב הקטין או מעצרו;</p>
+                </content>
+              </point>
+              <point eId="point_9י__point_2">
+                <num>(2)</num>
+                <content>
+                  <p>העבירה שהוא חשוד בביצועה היא עבירה מסוג פשע, או עבירה מסוג עוון המנויה <ref href="#appendix">בתוספת</ref>, והקצין המוסמך שוכנע כי דחיית החקירה עלולה להביא לאחד מהמקרים המנויים <ref href="#point_9ח">בסעיף 9ח(ג)(2)</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_9י__point_3">
+                <num>(3)</num>
+                <content>
+                  <p>הקטין והורהו נתנו את הסכמתם לחקירה בשעות הלילה, ובלבד שלא תתאפשר חקירתו של הקטין בשל הסכמתם כאמור אחרי השעה 00:00.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_9יא">
+            <heading>
+              <authorialNote placement="side">
+                <p>תקנות לעניין סעיפים 9ו עד 9י</p>
+              </authorialNote>
+            </heading>
+            <num>9יא.</num>
+            <content>
+              <p>השר לביטחון הפנים, בהסכמת שר המשפטים ובאישור ועדת החוקה חוק ומשפט של הכנסת (בחוק זה – ועדת החוקה), יקבע הוראות לעניין יישום <ref href="#point_9ו">סעיפים 9ו עד 9י</ref>.</p>
+            </content>
+          </point>
+          <point eId="point_9יב">
+            <heading>
+              <authorialNote placement="side">
+                <p>שמירת דינים לעניין חקירת חשודים</p>
+              </authorialNote>
+            </heading>
+            <num>9יב.</num>
+            <content>
+              <p>הוראות <ref href="#point_9ו">סעיפים 9ו עד 9י</ref> באות להוסיף על הוראה לפי כל דין בדבר חקירה כהגדרתה בחוק זה.</p>
+            </content>
+          </point>
+          <point eId="point_10">
+            <heading>
+              <authorialNote placement="side">
+                <p>שינויים בתחולת חוק המעצרים לעניין קטינים</p>
+              </authorialNote>
+            </heading>
+            <num>10.</num>
+            <content>
+              <p>הוראות <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/חוק_סדר_הדין_הפלילי_סמכויות_אכיפה_מעצרים_נוער">חוק המעצרים</ref> יחולו, לעניין קטין, בשינויים המפורטים <ref href="#chp_ג">בפרק זה</ref>.<br space="preserve"></br><wikicomment font-size="x-small">ראו <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/חוק_סדר_הדין_הפלילי_סמכויות_אכיפה_מעצרים_נוער">חוק סדר הדין הפלילי (סמכויות אכיפה – מעצרים) (התאמות לפי חוק הנוער (שפיטה, ענישה ודרכי טיפול), תשל"א–1971)</ref></wikicomment></p>
+            </content>
+          </point>
+          <point eId="point_10א">
+            <heading>
+              <authorialNote placement="side">
+                <p>מעצר קטינים כאמצעי אחרון ושיקולים למעצר</p>
+              </authorialNote>
+            </heading>
+            <num>10א.</num>
+            <content>
+              <p>לא יוחלט על מעצרו של קטין אם ניתן להשיג את מטרת המעצר בדרך שפגיעתה בחירותו פחותה, והמעצר יהיה לפרק הזמן הקצר ביותר הנדרש לשם השגת המטרה כאמור; בקבלת החלטה על מעצרו של קטין, יובאו בחשבון גילו והשפעת המעצר על שלומו הגופני והנפשי ועל התפתחותו.</p>
+            </content>
+          </point>
+          <point eId="point_10ב">
+            <heading>
+              <authorialNote placement="side">
+                <p>כבילת קטין עצור במקום ציבורי</p>
+              </authorialNote>
+            </heading>
+            <num>10ב.</num>
+            <list>
+              <intro>
+                <p>
+                  <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/חוק_סדר_הדין_הפלילי_סמכויות_אכיפה_מעצרים_נוער#point_9א">בסעיף 9א לחוק המעצרים</ref>, לעניין קטין, האמור בו יסומן ”(א)“ ואחריו יבוא:</p>
+              </intro>
+              <point eId="point_10ב__point_&amp;quotב">
+                <num>&amp;quot;(ב)</num>
+                <content>
+                  <p>בלי לגרוע מהוראות סעיף קטן (א), לא יוחלט על כבילת קטין עצור אם ניתן להשיג את מטרת הכבילה בדרך שפגיעתה בקטין פחותה, וכבילתו תהיה לפרק הזמן הקצר ביותר הנדרש לשם השגת המטרה כאמור; בקבלת החלטה על כבילתו של קטין יובאו בחשבון גילו והשפעת הכבילה על שלומו הגופני והנפשי.</p>
+                </content>
+              </point>
+              <point eId="point_10ב__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>בטרם ייכבל קטין לפי הוראות סעיף קטן (א), יודיע לו השוטר כי הוא עומד לכבול אותו, אלא אם כן סבר כי מתן הודעה כאמור תסכל את מטרת הכבילה."</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_10ג">
+            <heading>
+              <authorialNote placement="side">
+                <p>הבאת קטין עצור לפני שופט</p>
+              </authorialNote>
+            </heading>
+            <num>10ג.</num>
+            <list>
+              <intro>
+                <p>
+                  <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/חוק_סדר_הדין_הפלילי_סמכויות_אכיפה_מעצרים_נוער#point_29">סעיף 29 לחוק המעצרים</ref> יחול, לעניין קטין, בשינויים אלה:</p>
+              </intro>
+              <point eId="point_10ג__point_1">
+                <num>(1)</num>
+                <content>
+                  <p>בסעיף קטן (ג), במקום ”קצין משטרה בדרגת סגן־ניצב“ יקראו ”קצין משטרה המשמש באותה עת כקצין נוער מרחבי או מחוזי“;</p>
+                </content>
+              </point>
+              <point eId="point_10ג__point_2">
+                <num>(2)</num>
+                <list>
+                  <intro>
+                    <p>לעניין קטין שטרם מלאו לו 14 שנים –</p>
+                  </intro>
+                  <point eId="point_10ג__point_2__point_א">
+                    <num>(א)</num>
+                    <content>
+                      <p>בסעיף קטן (א), במקום ”ולא יאוחר מ־24 שעות“ יקראו ”ולא יאוחר מ־12 שעות“;</p>
+                    </content>
+                  </point>
+                  <point eId="point_10ג__point_2__point_ב">
+                    <num>(ב)</num>
+                    <content>
+                      <p>בסעיפים קטנים (ד) ו־(ה)(1), בכל מקום, במקום ”בתום 24 שעות“ יקראו ”בתום 12 שעות“, והחלטה על החזקת הקטין במעצר במהלך השבת או החג כאמור בסעיפים הקטנים האמורים טעונה אישור מאת קצין המשטרה המשמש באותה עת כקצין נוער מרחבי או מחוזי.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+            </list>
+          </point>
+          <point eId="point_10ד">
+            <heading>
+              <authorialNote placement="side">
+                <p>השהיית הבאת קטין עצור שטרם מלאו לו 14 שנים, לפני שופט</p>
+              </authorialNote>
+            </heading>
+            <num>10ד.</num>
+            <list>
+              <point eId="point_10ד__point_א">
+                <num>(א)</num>
+                <list>
+                  <intro>
+                    <p>על אף הוראות <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/חוק_סדר_הדין_הפלילי_סמכויות_אכיפה_מעצרים_נוער#point_29">סעיפים 29</ref><ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/חוק_סדר_הדין_הפלילי_סמכויות_אכיפה_מעצרים_נוער#point_30">ו־30 לחוק המעצרים</ref>, <ref href="#point_10ב">וסעיף 10ב</ref>, רשאי הקצין הממונה להשהות הבאת קטין עצור שטרם מלאו לו 14 שנים לפני שופט, לתקופה שלא תעלה על 24 שעות מתחילת המעצר, בכל אחד מאלה:</p>
+                  </intro>
+                  <point eId="point_10ד__point_א__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>אם מצא כי התקיימה עילה מהעילות המפורטות <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/חוק_סדר_הדין_הפלילי_סמכויות_אכיפה_מעצרים_נוער#point_30">בסעיף 30 לחוק המעצרים</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_10ד__point_א__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>ההחלטה לבקש את הארכת מעצרו של קטין היתה יכולה להתקבל, בנסיבות העניין, רק לאחר חצות הלילה, והמועד שבו היה הקטין אמור להיות מובא לפני שופט לפי הוראות <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/חוק_סדר_הדין_הפלילי_סמכויות_אכיפה_מעצרים_נוער#point_29">סעיף 29 לחוק המעצרים</ref> כנוסחו <ref href="#point_10ג">בסעיף 10ג</ref>, חל שלא בשעות הפעילות של בית המשפט; הוארך המעצר לפי פסקה זו, יובא הקטין לפני שופט מיד עם תחילת פעילותו של בית המשפט.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_10ד__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>הקצין הממונה ירשום את הנימוק להארכת המעצר לפי סעיף זה, והנימוק יובא לתשומת לב השופט אשר לפניו יובא הקטין.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_10ה">
+            <heading>
+              <authorialNote placement="side">
+                <p>הפעלת סמכויות לפי חוק הנוער (טיפול והשגחה) במקום מעצר</p>
+              </authorialNote>
+            </heading>
+            <num>10ה.</num>
+            <list>
+              <point eId="point_10ה__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>בית משפט הדן בבקשה למעצרו של קטין רשאי, נוסף על סמכויותיו לפי כל דין, אם מצא כי קיימת עילה למעצרו, לנקוט פעולה מהפעולות האמורות <ref href="/akn/il/act/PrimaryLegislation/1960-07-14/150256#point_3">בפסקאות (1) עד (6) של סעיף 3 לחוק הנוער (טיפול והשגחה)</ref>, במקום להורות על מעצרו של הקטין, אם סבר שהדבר דרוש לשלומו הגופני או הנפשי של הקטין; ואולם לא ינקוט בית המשפט פעולה כאמור אלא לאחר שהובאה בפניו עמדתו של עובד סוציאלי שמונה לפי חוק לעניין זה.</p>
+                </content>
+              </point>
+              <point eId="point_10ה__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>אי־הבאת עמדתו של עובד סוציאלי שמונה לפי חוק בפני בית המשפט כאמור בסעיף קטן (א), לא תשמש עילה להמשך מעצרו של הקטין.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_10ו">
+            <heading>
+              <authorialNote placement="side">
+                <p>מינוי סניגור לקטין לצורך דיון במעצרו</p>
+              </authorialNote>
+            </heading>
+            <num>10ו.</num>
+            <content>
+              <p>הוגשה לבית משפט בקשה למעצרו של קטין שאין לו סניגור, ימנה לו בית המשפט סניגור ויחולו לעניין זה הוראות <ref href="/akn/il/act/PrimaryLegislation/1995-11-30/159539">חוק הסניגוריה הציבורית</ref>.</p>
+            </content>
+          </point>
+          <point eId="point_10ז">
+            <heading>
+              <authorialNote placement="side">
+                <p>תסקיר מעצר וחוות דעת הממונה על המעונות</p>
+              </authorialNote>
+            </heading>
+            <num>10ז.</num>
+            <list>
+              <point eId="point_10ז__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>בלי לגרוע מסמכותו של בית המשפט לפי <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/חוק_סדר_הדין_הפלילי_סמכויות_אכיפה_מעצרים_נוער#point_21א">סעיף 21א לחוק המעצרים</ref>, הוגשה בקשה למעצרו של קטין, רשאי קצין מבחן, ביוזמתו, להגיש לבית המשפט תסקיר מעצר כמשמעותו <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/חוק_סדר_הדין_הפלילי_סמכויות_אכיפה_מעצרים_נוער#point_21א">באותו סעיף</ref>, או להשמיע לפניו את עמדתו בעניין המעצר.</p>
+                </content>
+              </point>
+              <point eId="point_10ז__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>בלי לגרוע מהוראות סעיף קטן (א), הוגשה בקשה למעצרו של קטין שהוגש נגדו כתב אישום, יורה בית המשפט על הגשת תסקיר מעצר כמשמעותו <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/חוק_סדר_הדין_הפלילי_סמכויות_אכיפה_מעצרים_נוער#point_21א">בסעיף 21א לחוק המעצרים</ref>, או יאפשר לקצין המבחן להשמיע לפניו את עמדתו בעניין המעצר.</p>
+                </content>
+              </point>
+              <point eId="point_10ז__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>היתה הבקשה כאמור בסעיף קטן (א) או (ב) בקשה למעצרו של קטין המוחזק במעון או במעון נעול, רשאי גם הממונה על המעונות או מי מטעמו, באמצעות קצין המבחן, להגיש לבית המשפט חוות דעת לעניין המעצר או להשמיע לפניו את עמדתו בעניין זה.</p>
+                </content>
+              </point>
+              <point eId="point_10ז__point_ד">
+                <num>(ד)</num>
+                <content>
+                  <p>אי־הגשת תסקיר מעצר כאמור בסעיף זה, לא תשמש עילה להמשך מעצרו של הקטין.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_10ח">
+            <heading>
+              <authorialNote placement="side">
+                <p>הזמנת הורה או קרוב אחר לדיון במעצרו של קטין</p>
+              </authorialNote>
+            </heading>
+            <num>10ח.</num>
+            <list>
+              <point eId="point_10ח__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>לדיון בבית משפט בעניין מעצרו של קטין יודיע החוקר או התובע, לפי העניין, להורהו של הקטין על הזמנת ההורה לדיון כאמור, ואם לא ניתן לאתר את הורה הקטין במאמץ סביר – יודיע לקרוב אחר, אלא אם כן אין אפשרות לאתר מי מהם במאמץ סביר בנסיבות העניין; להורה או לקרוב האחר תינתן הזדמנות להביע את עמדתו לעניין נוכחותו בדיון.</p>
+                </content>
+              </point>
+              <point eId="point_10ח__point_ב">
+                <num>(ב)</num>
+                <list>
+                  <intro>
+                    <p>על אף הוראות סעיף קטן (א) –</p>
+                  </intro>
+                  <point eId="point_10ח__point_ב__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>רשאי חוקר או תובע, לפי העניין, שלא להודיע להורה של קטין או לקרוב אחר על הזמנתו לדיון במעצרו של הקטין, אם הקטין הביע התנגדות, מנימוק סביר, להזמנת ההורה או הקרוב האחר כאמור;</p>
+                    </content>
+                  </point>
+                  <point eId="point_10ח__point_ב__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>לא יוזמן הורה של קטין או קרוב אחר לדיון במעצרו של הקטין אם החוקר או התובע, לפי העניין, סבר כי יש בכך כדי לפגוע בשלומו הגופני או הנפשי של הקטין, לסכל את המטרה שלשמה מתבקש מעצרו או לסכן את ביטחון המדינה.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_10ח__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>החלטה שלא להודיע להורה של קטין או לקרוב אחר על הזמנתו כאמור בסעיף קטן (ב), תובא לאישור בית המשפט בעת הדיון במעצרו של הקטין.</p>
+                </content>
+              </point>
+              <point eId="point_10ח__point_ד">
+                <num>(ד)</num>
+                <list>
+                  <intro>
+                    <p>לא הגיע הורה של קטין או קרוב אחר לדיון בעניין מעצרו של הקטין, אף שהוזמן אליו לפי הוראות סעיף קטן (א), או שלא אותר במאמץ סביר כאמור באותו סעיף קטן, יחולו הוראות אלה:</p>
+                  </intro>
+                  <point eId="point_10ח__point_ד__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>מצא בית המשפט כי קיימת עילה למעצרו של הקטין, רשאי הוא לצוות על מעצרו לתקופה שלא תעלה על 24 שעות; ציווה בית המשפט כאמור, יזמין את הורהו של הקטין או קרוב אחר לדיון בהמשך המעצר, שיתקיים בתום התקופה האמורה;</p>
+                    </content>
+                  </point>
+                  <point eId="point_10ח__point_ד__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>מצא בית המשפט כי קיימת עילה למעצרו של הקטין, אך סבר כי הורהו של הקטין או קרוב אחר לא יגיע לדיון בהמשך מעצרו אף אם יוזמן לפי הוראות פסקה (1), רשאי הוא לצוות על מעצרו של הקטין לתקופה שלא תעלה על 24 שעות, ורשאי הוא להורות על הזמנתו של עובד סוציאלי שמונה לפי חוק או קצין מבחן לדיון בהמשך המעצר שיתקיים בתום התקופה האמורה.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_10ח__point_ה">
+                <num>(ה)</num>
+                <content>
+                  <p>לא הגיע הורה של קטין או קרוב אחר, או עובד סוציאלי שמונה לפי חוק או קצין מבחן, לפי העניין, לדיון בהמשך מעצרו של הקטין אף שהוזמן לפי הוראות סעיף זה, רשאי בית המשפט לדון בהמשך מעצרו של הקטין בלא נוכחותם, ואי־נוכחותם לא תשמש עילה למעצרו של הקטין.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_10ט">
+            <heading>
+              <authorialNote placement="side">
+                <p>משך מעצר קטין לפני הגשת כתב אישום</p>
+              </authorialNote>
+            </heading>
+            <num>10ט.</num>
+            <content>
+              <p>
+                <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/חוק_סדר_הדין_הפלילי_סמכויות_אכיפה_מעצרים_נוער#point_17">בסעיף 17 לחוק המעצרים</ref>, לעניין קטין, בסעיף קטן (א), בכל מקום, במקום ”15 ימים“ יקראו ”10 ימים“ ובסעיף קטן (ב), במקום ”30 ימים“ יקראו ”20 ימים“.</p>
+            </content>
+          </point>
+          <point eId="point_10י">
+            <heading>
+              <authorialNote placement="side">
+                <p>מעצר קטין לאחר הגשת כתב אישום</p>
+              </authorialNote>
+            </heading>
+            <num>10י.</num>
+            <list>
+              <intro>
+                <p>
+                  <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/חוק_סדר_הדין_הפלילי_סמכויות_אכיפה_מעצרים_נוער#point_21">סעיף 21 לחוק המעצרים</ref> יחול, לעניין קטין, בשינויים אלה:</p>
+              </intro>
+              <point eId="point_10י__point_1">
+                <num>(1)</num>
+                <content>
+                  <p>אחרי סעיף קטן (א) יקראו:<br space="preserve"></br>
+   ”(א1)  סעיף קטן (א) לא יחול על נאשם שהוא קטין שטרם מלאו לו 14 שנים; אין בהוראות סעיף קטן זה כדי לגרוע מסמכותו של בית המשפט להורות על שחרור הנאשם בערובה או בתנאי שחרור אחרים.“;</p>
+                </content>
+              </point>
+              <point eId="point_10י__point_2">
+                <num>(2)</num>
+                <content>
+                  <p>בסעיף קטן (ד), במקום ”30 ימים“ יקראו ”15 ימים“.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_10יא">
+            <heading>
+              <authorialNote placement="side">
+                <p>שחרור קטין ממעצר באין אישום</p>
+              </authorialNote>
+            </heading>
+            <num>10יא.</num>
+            <content>
+              <p>
+                <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/חוק_סדר_הדין_הפלילי_סמכויות_אכיפה_מעצרים_נוער#point_59">בסעיף 59 לחוק המעצרים</ref>, לעניין קטין, במקום ”75 ימים“ יקראו ”40 ימים“.</p>
+            </content>
+          </point>
+          <point eId="point_10יב">
+            <heading>
+              <authorialNote placement="side">
+                <p>שחרור קטין ממעצר באין הכרעת דין או גזר דין</p>
+              </authorialNote>
+            </heading>
+            <num>10יב.</num>
+            <list>
+              <intro>
+                <p>
+                  <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/חוק_סדר_הדין_הפלילי_סמכויות_אכיפה_מעצרים_נוער#point_61">סעיף 61 לחוק המעצרים</ref> ייקרא, לעניין קטין, כך:</p>
+              </intro>
+              <point eId="point_10יב__point_1">
+                <num>(1)</num>
+                <content>
+                  <p>בסעיף קטן (א), במקום ”תשעה חודשים“ יקראו ”שישה חודשים“;</p>
+                </content>
+              </point>
+              <point eId="point_10יב__point_2">
+                <num>(2)</num>
+                <content>
+                  <p>סעיף קטן (ג) ייקרא כך: ”בלי לגרוע מהוראות <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/חוק_סדר_הדין_הפלילי_סמכויות_אכיפה_מעצרים_נוער#point_62">סעיף 62</ref>, ניתנה הכרעת דין שלפיה נקבע כי נאשם ביצע את העבירה לאחר שהיה נתון במעצר לתקופה המצטרפת כדי שישה חודשים בשל אותו כתב אישום, רשאי בית המשפט שהכריע את דינו לצוות על הארכת מעצרו או על מעצרו מחדש, לתקופה של 45 ימים, ומטעמים מיוחדים, לתקופה נוספת של 30 ימים, אם מצא כי יש עילה למעצרו; לא ניתן גזר דין בתוך 75 ימים מיום שציווה בית המשפט כאמור לראשונה, ישוחרר הנאשם מן המעצר.“</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_10יג">
+            <heading>
+              <authorialNote placement="side">
+                <p>הארכת מעצר קטין או חידושו</p>
+              </authorialNote>
+            </heading>
+            <num>10יג.</num>
+            <list>
+              <intro>
+                <p>
+                  <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/חוק_סדר_הדין_הפלילי_סמכויות_אכיפה_מעצרים_נוער#point_62">סעיף 62 לחוק המעצרים</ref> ייקרא, לעניין קטין, כך:</p>
+              </intro>
+              <point eId="point_10יג__point_1">
+                <num>(1)</num>
+                <content>
+                  <p>בסעיף קטן (א), במקום ”90 ימים“ יקראו ”45 ימים“;</p>
+                </content>
+              </point>
+              <point eId="point_10יג__point_2">
+                <num>(2)</num>
+                <content>
+                  <p>הוראות סעיף קטן (ב) לא יחולו.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_none">
+            <heading>
+              <authorialNote placement="side">
+                <p>10יג1 סמכות מעצר לבית משפט עד לדיון בבקשה למעצר מחדש</p>
+              </authorialNote>
+            </heading>
+            <num></num>
+            <content>
+              <p>
+                <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/חוק_סדר_הדין_הפלילי_סמכויות_אכיפה_מעצרים_נוער#point_62א">בסעיף 62א לחוק המעצרים</ref>, לעניין קטין, במקום ”תשעה חודשים“ יקראו ”שישה חודשים“.</p>
+            </content>
+          </point>
+          <point eId="point_10יד">
+            <heading>
+              <authorialNote placement="side">
+                <p>איסור יציאה של קטין ממקום מגורים</p>
+              </authorialNote>
+            </heading>
+            <num>10יד.</num>
+            <list>
+              <point eId="point_10יד__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>קטין שבית משפט הורה על שחרורו בערובה בתנאי כאמור <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/חוק_סדר_הדין_הפלילי_סמכויות_אכיפה_מעצרים_נוער#point_48">בסעיף 48(א)(9) לחוק המעצרים</ref>, לא יהיה נתון בתנאי כאמור לתקופה העולה על תשעה חודשים; ואולם רשאי בית המשפט להורות על הארכת התנאי לתקופה שלא תעלה על 90 ימים, ולחזור ולצוות כך מעת לעת.</p>
+                </content>
+              </point>
+              <point eId="point_10יד__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>הורה בית משפט על שחרור קטין בערובה בתנאי כאמור <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/חוק_סדר_הדין_הפלילי_סמכויות_אכיפה_מעצרים_נוער#point_48">בסעיף 48(א)(9) לחוק המעצרים</ref> לפרק זמן מצטבר העולה על 16 שעות ביום או הורה בית המשפט על מעצרו של קטין בפיקוח אלקטרוני, לפי הוראות <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/חוק_סדר_הדין_הפלילי_סמכויות_אכיפה_מעצרים_נוער#chp_ב_sec_ג1">סימן ג׳1 בפרק ב׳ לחוק המעצרים</ref>, יורה על קיום דיון בעניינו של הקטין אחת לשלושה חודשים במהלך תקופת תוקפו של התנאי או של המעצר האמורים, לפי העניין.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_11">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>11.</num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">(בוטל).</wikicomment>
+              </p>
+            </content>
+          </point>
+          <point eId="point_12">
+            <heading>
+              <authorialNote placement="side">
+                <p>תפקידו של קצין מבחן</p>
+              </authorialNote>
+            </heading>
+            <num>12.</num>
+            <list>
+              <point eId="point_12__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>נעצר קטין או נתגלה בחקירה פלילית כי קיים יסוד להעמיד לדין קטין, תודיע על כך המשטרה לקצין מבחן והוא יהיה רשאי להשתמש בסמכויותיו של עובד סוציאלי לפי <ref href="/akn/il/act/PrimaryLegislation/1955-07-06/148049">חוק הסעד (סדרי דין בעניני קטינים, חולי נפש ונעדרים), תשט"ו–1955</ref>, אף שלא לפי צו בית משפט.</p>
+                </content>
+              </point>
+              <point eId="point_12__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>אין להעמיד לדין קטין שטרם מלאו לו שלוש עשרה שנים ביום הגשת כתב האישום נגדו, אלא לאחר התייעצות עם קצין מבחן.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_12א">
+            <heading>
+              <authorialNote placement="side">
+                <p>הליך חלופי</p>
+              </authorialNote>
+            </heading>
+            <num>12א.</num>
+            <list>
+              <point eId="point_12א__point_א">
+                <num>(א)</num>
+                <list>
+                  <intro>
+                    <p>בסעיף זה –</p>
+                  </intro>
+                  <point eId="point_12א__point_א__point_הליך_חלופי">
+                    <content>
+                      <p>
+                        <def />”הליך חלופי“ – הליך חלופי להליך פלילי או לחלקו, שנקבע בנוהל, אשר מתנהל שלא בפני בית משפט, בהשתתפות נפגע עבירה או שלא בהשתתפותו – אם נתן את הסכמתו לקיום ההליך בלעדיו, ומטרתו, בין היתר, להביא לפעולה שתבטא את קבלת האחריות של הקטין למעשה הפלילי, לרבות באמצעות תיקון כלפי נפגע העבירה, הקהילה או החברה;</p>
+                    </content>
+                  </point>
+                  <point eId="point_12א__point_א__point_נוהל">
+                    <content>
+                      <p>
+                        <def />”נוהל“ – נוהל שנקבע לפי הוראות סעיף קטן (ד);</p>
+                    </content>
+                  </point>
+                  <point eId="point_12א__point_א__point_תובע">
+                    <list>
+                      <intro>
+                        <p>
+                          <def />”תובע“ – כל אחד מאלה:</p>
+                      </intro>
+                      <point eId="point_12א__point_א__point_תובע__point_1">
+                        <num>(1)</num>
+                        <content>
+                          <p>פרקליט מחוז או פרקליט בכיר שהוסמך לפי <ref href="/akn/il/act/PrimaryLegislation/1982-03-01/2002215#point_62">סעיף 62(א)(1) לחוק סדר הדין הפלילי [נוסח משולב], התשמ"ב–1982</ref>, לפי העניין;</p>
+                        </content>
+                      </point>
+                      <point eId="point_12א__point_א__point_תובע__point_2">
+                        <num>(2)</num>
+                        <content>
+                          <p>תובע שהוא קצין משטרה המכהן כראש יחידת תביעות או תובע משטרתי שהוא הסמיך לעניין זה.</p>
+                        </content>
+                      </point>
+                    </list>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_12א__point_ב">
+                <num>(ב)</num>
+                <list>
+                  <intro>
+                    <p>קצין מבחן שקיבל הודעה כי נתגלה בחקירה פלילית שקיים יסוד להעמיד לדין קטין, כאמור <ref href="#point_12">בסעיף 12(א)</ref>, יבדוק אם להפנות את הקטין להליך חלופי בהתאם לתנאי הסף המפורטים בנוהל, ויעביר את תוצאות בדיקתו לקצין המוסמך או לתובע; מצא הקצין המוסמך או התובע כי ניתן להפנות את הקטין להליך חלופי, יודיע לקצין המבחן, וקצין המבחן יהיה רשאי להפנות את הקטין להליך כאמור שיתנהל בהתאם להוראות הנוהל, ובלבד שהתקיימו כל אלה:</p>
+                  </intro>
+                  <point eId="point_12א__point_ב__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>הקטין הסכים בכתב להשתתף בהליך החלופי, לאחר שקצין המבחן מסר לו את המידע הדרוש בדבר מהות ההליך, לרבות משמעות הסכמתו להשתתף בהליך וההשלכות הצפויות מההליך על מצבו המשפטי, בשפה ובאופן המובנים לו בהתחשב בגילו ובמידת בגרותו;</p>
+                    </content>
+                  </point>
+                  <point eId="point_12א__point_ב__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>הקטין מכיר במעורבותו באירוע המיוחס לו.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_12א__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>הסתיים הליך חלופי, בין שהושלם בהתאם להוראות הנוהל ובין שלא הושלם, יעביר קצין המבחן למשטרה את המלצתו בעניינו של הקטין; השלמת ההליך החלופי תהיה שיקול מרכזי ומכריע בכל החלטה לגבי המשך ההליך הפלילי בעניינו של הקטין, ואם טרם הועמד לדין, לא יוחלט על העמדתו לדין, אלא אם כן מוצדק לעשות כן מנימוקים מיוחדים שיירשמו.</p>
+                </content>
+              </point>
+              <point eId="point_12א__point_ד">
+                <num>(ד)</num>
+                <list>
+                  <intro>
+                    <p>משטרת ישראל, משרד הרווחה והשירותים החברתיים באמצעות שירות המבחן לנוער ומשרד המשפטים יקבעו נוהל שיפורסם באתרי האינטרנט של משטרת ישראל ושל משרד הרווחה והשירותים החברתיים, המסדיר סוגי הליכים חלופיים, שיכלול, בין השאר, הוראות בעניינים אלה:</p>
+                  </intro>
+                  <point eId="point_12א__point_ד__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>השיקולים והתנאים להפניית קטין להליך חלופי;</p>
+                    </content>
+                  </point>
+                  <point eId="point_12א__point_ד__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>תנאי הסף לקיומו של ההליך החלופי;</p>
+                    </content>
+                  </point>
+                  <point eId="point_12א__point_ד__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>מעמד נפגע העבירה;</p>
+                    </content>
+                  </point>
+                  <point eId="point_12א__point_ד__point_4">
+                    <num>(4)</num>
+                    <content>
+                      <p>סודיות הדברים שנאמרו ונמסרו בהליך החלופי;</p>
+                    </content>
+                  </point>
+                  <point eId="point_12א__point_ד__point_5">
+                    <num>(5)</num>
+                    <content>
+                      <p>תוצאות השלמת ההליך החלופי או אי־השלמתו;</p>
+                    </content>
+                  </point>
+                  <point eId="point_12א__point_ד__point_6">
+                    <num>(6)</num>
+                    <content>
+                      <p>הגורם האחראי לביצוע ההליך החלופי.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_12א__point_ה">
+                <num>(ה)</num>
+                <content>
+                  <p>על אף האמור בסעיף קטן (ד), עד לקביעת נוהל כאמור באותו סעיף קטן, רשאים משטרת ישראל ומשרד הרווחה והשירותים החברתיים באמצעות שירות המבחן לנוער, בהתייעצות עם משרד המשפטים, לקבוע נוהל זמני שתוקפו לא יעלה על שלוש שנים; נוהל זמני יכול שיהיה מוגבל לאזור מסוים, לתקופה מסוימת ולעניין מסוים, ואינו טעון פרסום.</p>
+                </content>
+              </point>
+              <point eId="point_12א__point_ו">
+                <num>(ו)</num>
+                <content>
+                  <p>אין בהוראות סעיף זה כדי לגרוע מסמכותו של קצין מוסמך או של תובע להפנות קטין להליך אחר שאינו הליך חלופי כהגדרתו בסעיף קטן (א) ואינו מחייב השתתפות נפגע העבירה או הסכמתו להליך, ובלבד שההליך יוסדר בנוהל שיקבעו משטרת ישראל ומשרד הרווחה והשירותים החברתיים באמצעות שירות המבחן לנוער, בהתייעצות עם משרד המשפטים, ויפורסם באתרי האינטרנט כאמור בסעיף קטן (ד); הוראות סעיף קטן (ה) יחולו לעניין נוהל כאמור בשינויים המחויבים.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_13">
+            <heading>
+              <authorialNote placement="side">
+                <p>בתי מעצר לקטינים</p>
+              </authorialNote>
+            </heading>
+            <num>13.</num>
+            <list>
+              <point eId="point_13__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>לא יוחזק קטין במעצר אלא בבית מעצר נפרד לקטינים או באגף בבית מעצר כללי, ובלבד שאותו אגף יהיה מופרד לחלוטין, ייועד לקטינים בלבד ולא יהיו גישה או קשר ראיה בינו לבין אגפיו האחרים של בית המעצר או שוכניו.</p>
+                </content>
+              </point>
+              <point eId="point_13__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>על אף האמור בסעיף קטן (א) מותר להחזיק קטין לצורך חקירה בלבד בתחנת משטרה, ובלבד שיוחזק בנפרד ולא יהיה מגע בינו לבין חשודים או עצירים בגירים; היתה תחנת המשטרה במקום ישוב אשר בו או בקרבתו יש בית מעצר לקטינים – אין להלין את הקטין אלא בבית המעצר.</p>
+                </content>
+              </point>
+              <point eId="point_13__point_ב1">
+                <num>(ב1)</num>
+                <list>
+                  <point eId="point_13__point_ב1__point_1">
+                    <num>(1)</num>
+                    <list>
+                      <intro>
+                        <p>על אף הוראות סעיף קטן (א), <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/חוק_סדר_הדין_הפלילי_סמכויות_אכיפה_מעצרים_נוער#point_34ב">סעיף 34ב</ref><ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/חוק_סדר_הדין_הפלילי_סמכויות_אכיפה_מעצרים_נוער#point_8">וסעיף 8(א) ו־(ב) לחוק המעצרים</ref>, ניתן להחזיק קטינה עצורה בתא מעצר יחד עם עצורה או אסירה שאינה קטינה, אם הקטינה הסכימה לכך והגורם המוסמך סבר כי התקיימו כל אלה:</p>
+                      </intro>
+                      <point eId="point_13__point_ב1__point_1__point_א">
+                        <num>(א)</num>
+                        <content>
+                          <p>טובת הקטינה דורשת שהיא לא תוחזק בתא כשהיא לבדה;</p>
+                        </content>
+                      </point>
+                      <point eId="point_13__point_ב1__point_1__point_ב">
+                        <num>(ב)</num>
+                        <content>
+                          <p>טובת הקטינה דורשת שהיא תוחזק בתא יחד עם מי שאינה קטינה, או אין אפשרות שהקטינה תוחזק בתא עם קטינה אחרת;</p>
+                        </content>
+                      </point>
+                      <point eId="point_13__point_ב1__point_1__point_ג">
+                        <num>(ג)</num>
+                        <content>
+                          <p>אין בהחזקת הקטינה בתא מעצר יחד עם העצורה או האסירה שאינה קטינה כדי לסכן את שלומה הגופני או הנפשי של הקטינה.</p>
+                        </content>
+                      </point>
+                    </list>
+                  </point>
+                  <point eId="point_13__point_ב1__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>החלטה על החזקת קטינה יחד עם מי שאינה קטינה כאמור בפסקה (1), תובא לאישור בית המשפט בתוך 24 שעות ממועד תחילת ההחזקה כאמור.</p>
+                    </content>
+                  </point>
+                  <point eId="point_13__point_ב1__point_3">
+                    <num>(3)</num>
+                    <list>
+                      <intro>
+                        <p>בסעיף קטן זה, ”הגורם המוסמך“ –</p>
+                      </intro>
+                      <point eId="point_13__point_ב1__point_3__point_א">
+                        <num>(א)</num>
+                        <content>
+                          <p>לעניין קטינה עצורה הנתונה במשמורת שירות בתי הסוהר – מנהל בית הסוהר;</p>
+                        </content>
+                      </point>
+                      <point eId="point_13__point_ב1__point_3__point_ב">
+                        <num>(ב)</num>
+                        <content>
+                          <p>לעניין קטינה עצורה אחרת – הקצין האחראי על הקטינות העצורות במקום המעצר.</p>
+                        </content>
+                      </point>
+                    </list>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_13__point_ב2">
+                <num>(ב2)</num>
+                <content>
+                  <p>קטין עצור הנתון במשמורת שירות בתי הסוהר, זכאי כי עובד סוציאלי יראה אותו בתוך 24 שעות ממועד שהתקבל למשמורת שירות בתי הסוהר, אלא אם כן התקבל למשמורת כאמור בשבת או בחג; התקבל הקטין למשמורת שירות בתי הסוהר בשבת או בחג, זכאי הקטין כי עובד סוציאלי יראה אותו בהקדם האפשרי לאחר תום השבת או החג.</p>
+                </content>
+              </point>
+              <point eId="point_13__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>שר הרווחה והשירותים החברתיים רשאי להכריז על מעון נעול כבית מעצר לקטינים.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_13א">
+            <heading>
+              <authorialNote placement="side">
+                <p>החזקת קטינים עצורים בתא לבד</p>
+              </authorialNote>
+            </heading>
+            <num>13א.</num>
+            <content>
+              <p>סבר הקצין האחראי על הקטינים העצורים במקום המעצר, שהחזקתו של קטין בתא מעצר יחד עם קטינים נוספים תסכן את שלומו הגופני או הנפשי של הקטין או את שלומם הגופני או הנפשי של אחרים או שטובתו של הקטין דורשת את החזקתו בתא כשהוא לבדו, רשאי הוא להורות על החזקת הקטין בתא כאמור; לעניין זה, ”עצור“ – למעט עצור הנתון במשמורת שירות בתי הסוהר; קטין זכאי שתינתן לו הזדמנות להביע את עמדתו לעניין זה.</p>
+            </content>
+          </point>
+          <point eId="point_13ב">
+            <heading>
+              <authorialNote placement="side">
+                <p>תנאי החזקת קטינים במעצר</p>
+              </authorialNote>
+            </heading>
+            <num>13ב.</num>
+            <list>
+              <point eId="point_13ב__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>בלי לגרוע מהוראות <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/חוק_סדר_הדין_הפלילי_סמכויות_אכיפה_מעצרים_נוער#point_9">סעיף 9(א) לחוק המעצרים</ref>, קטין עצור יוחזק בתנאים ההולמים את גילו ואת צרכיו ותוך השגחה מיוחדת על שלומו הגופני והנפשי, ובכלל זה יינתנו לקטין שירותי חינוך ופנאי, כפי שיקבע השר לביטחון הפנים, לאחר התייעצות עם שר הרווחה והשירותים החברתיים ושר החינוך.</p>
+                </content>
+              </point>
+              <point eId="point_13ב__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>על אף הוראות <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/חוק_סדר_הדין_הפלילי_סמכויות_אכיפה_מעצרים_נוער#point_9">סעיף 9(ב)(6) ו־(7) לחוק המעצרים</ref>, קטין עצור שטרם הוגש נגדו כתב אישום יהיה זכאי לקבל מבקרים שהם בני משפחתו מדרגה ראשונה ולקיים קשר טלפוני עמם, וכן לשלוח מכתבים אליהם ולקבל מכתבים מהם בהתאם להוראות <ref href="/akn/il/act/PrimaryLegislation/1971-10-20/2002271#point_47א">סעיפים 47א עד 47ד לפקודת בתי הסוהר</ref>, אלא אם כן שוכנע הקצין הממונה, כי קיימות נסיבות שיירשמו שבשלהן מתן זכויות כאמור עלול לפגוע בחקירה, לרבות נסיבות שנקבעו לפי סעיף קטן (ד).</p>
+                </content>
+              </point>
+              <point eId="point_13ב__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>החלטה על החזקת קטין עצור בתא מעצר יחד עם קטינים אחרים תינתן בהתחשב בשלומו של הקטין, וכן בין השאר, בהפרש הגיל בין הקטינים, סוג העבירות שהם חשודים בביצוען, עברם הפלילי, מעצרים קודמים שלהם והחשש למעשי אלימות או התעללות ביניהם; לעניין זה, ”קטין עצור“ – קטין עצור הנתון במשמורת שירות בתי הסוהר.</p>
+                </content>
+              </point>
+              <point eId="point_13ב__point_ד">
+                <num>(ד)</num>
+                <content>
+                  <p>השר לביטחון הפנים, לאחר התייעצות עם שר המשפטים, יקבע הוראות לעניין סעיף זה, לרבות בדבר דרכי פיקוח סדירות על תנאי החזקתם של קטינים במעצר ונסיבות כאמור בסעיף קטן (ב) שבשלהן רשאי הקצין הממונה להגביל את הזכויות הקבועות באותו סעיף קטן.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_13ג">
+            <heading>
+              <authorialNote placement="side">
+                <p>הודעה על שחרור קטין ממעצר וקביעת תנאי השחרור</p>
+              </authorialNote>
+            </heading>
+            <num>13ג.</num>
+            <list>
+              <point eId="point_13ג__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>החליט שוטר או בית משפט לשחרר קטין ממעצר, בערובה או בלא ערובה, ימסור להורה הקטין, ואם לא ניתן למסור להורהו – לקרוב אחר, הודעה על שחרורו, אלא אם כן אין אפשרות לאתר מי מהם במאמץ סביר בנסיבות העניין או אם מסירת הודעה כאמור עלולה לפגוע בשלומו הגופני או הנפשי של הקטין.</p>
+                </content>
+              </point>
+              <point eId="point_13ג__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>תנאי שחרורו בערובה של קטין לפי <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/חוק_סדר_הדין_הפלילי_סמכויות_אכיפה_מעצרים_נוער#point_42">סעיפים 42</ref><ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/חוק_סדר_הדין_הפלילי_סמכויות_אכיפה_מעצרים_נוער#point_48">או 48 לחוק המעצרים</ref>, ייקבעו בהתחשב בצרכיו המיוחדים כקטין.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+        </list>
+      </chapter>
+      <chapter eId="chp_ד">
+        <num>פרק ד׳ –</num>
+        <title>
+          <content>
+            <p>סדרי הדין</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_14">
+            <heading>
+              <authorialNote placement="side">
+                <p>התקופה להעמדה לדין של מי שביצע עבירה בהיותו קטין</p>
+              </authorialNote>
+            </heading>
+            <num>14.</num>
+            <content>
+              <p>אין להעמיד אדם לדין בשל עבירה שביצע בהיותו קטין אם עברה שנה מיום ביצועה אלא בהסכמת היועץ המשפטי לממשלה.</p>
+            </content>
+          </point>
+          <point eId="point_15">
+            <heading>
+              <authorialNote placement="side">
+                <p>קובלנה פרטית</p>
+              </authorialNote>
+            </heading>
+            <num>15.</num>
+            <content>
+              <p>לא תוגש קובלנה לפי <ref href="/akn/il/act/PrimaryLegislation/1982-03-01/2002215#chp_ד_sec_ב">סימן ב׳ לפרק ד׳ לחוק סדר הדין הפלילי, תשכ"ה–1965</ref>, נגד קטין בשל עבירה שבשעת ביצועה לא מלאו לו ארבע עשרה שנה.</p>
+            </content>
+          </point>
+          <point eId="point_16">
+            <heading>
+              <authorialNote placement="side">
+                <p>ציון גיל הקטין</p>
+              </authorialNote>
+            </heading>
+            <num>16.</num>
+            <content>
+              <p>כתב אישום נגד קטין יציין, במידה שהדבר ניתן לבירור, את תאריך לידתו של הקטין.</p>
+            </content>
+          </point>
+          <point eId="point_17">
+            <heading>
+              <authorialNote placement="side">
+                <p>דיון שלא בפני הקטין</p>
+              </authorialNote>
+            </heading>
+            <num>17.</num>
+            <content>
+              <p>בית משפט לנוער רשאי, להורות כי נאשם שהוא קטין לא יהיה נוכח בשלב משלבי הדיון למעט בעת מתן פסק דין או החלטה אחרת לפי חוק זה בעניינו של הקטין, ובלבד שטובת הקטין דורשת זאת, מטעמים מיוחדים שיירשמו, ושהקטין מיוצג על ידי סניגור.</p>
+            </content>
+          </point>
+          <point eId="point_17א">
+            <heading>
+              <authorialNote placement="side">
+                <p>מתן הזדמנות לקטין להביע את עמדתו לפני בית משפט</p>
+              </authorialNote>
+            </heading>
+            <num>17א.</num>
+            <content>
+              <p>החלטה של בית משפט לפי חוק זה בעניינו של קטין, תינתן לאחר שניתנה לקטין הזדמנות להביע את עמדתו לפני בית המשפט, ובקבלת ההחלטה יינתן משקל ראוי לעמדתו של הקטין, בהתחשב בגילו ובמידת בגרותו; בית המשפט יסביר לקטין את החלטתו בשפה ובאופן המובנים לו בהתחשב בגילו ובמידת בגרותו; בסעיף זה, ”הזדמנות להביע עמדה“ – כמשמעותה <ref href="#point_1ב">בסעיף 1ב</ref>.</p>
+            </content>
+          </point>
+          <point eId="point_17ב">
+            <heading>
+              <authorialNote placement="side">
+                <p>סייג לתחולת סעיפים 17ו־17א</p>
+              </authorialNote>
+            </heading>
+            <num>17ב.</num>
+            <content>
+              <p>הוראות <ref href="#point_17">סעיפים 17</ref><ref href="#point_17א">ו־17א</ref> לא יחולו לעניין החלטה על מתן צו הבאה לקטין בהתאם להוראות <ref href="/akn/il/act/PrimaryLegislation/1984-08-13/2002218#point_73א">סעיף 73א לחוק בתי המשפט</ref> או על מתן צו מעצר או צו חיפוש בנוגע לקטין, או צו אחר שניתן על פי כל דין במעמד צד אחד או שלא בנוכחות הקטין, שהוחלט לתתה שלא בנוכחות הקטין בהתאם להוראות כל דין.</p>
+            </content>
+          </point>
+          <point eId="point_18">
+            <heading>
+              <authorialNote placement="side">
+                <p>סנגוריה</p>
+              </authorialNote>
+            </heading>
+            <num>18.</num>
+            <list>
+              <point eId="point_18__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>קטין שהוגש נגדו כתב אישום, למעט אישום שהוגש פני שופט תעבורה בעבירה שאינה פשע, זכאי לייצוג על ידי סניגור לפי <ref href="/akn/il/act/PrimaryLegislation/1995-11-30/159539">חוק הסניגוריה הציבורית</ref>.</p>
+                </content>
+              </point>
+              <point eId="point_18__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>בלי לגרוע מהוראות סעיף קטן (א), רשאי בית משפט למנות לקטין סניגור, אף אם לא הוגש נגדו כתב אישום כאמור באותו סעיף קטן, אם הוא סבור כי טובת הקטין דורשת זאת; החליט בית המשפט למנות לקטין סניגור כאמור, יפנה את הקטין ללשכת הסניגוריה הציבורית הנמצאת במחוז שיפוטו של בית המשפט לצורך מינוי הסניגור.</p>
+                </content>
+              </point>
+              <point eId="point_18__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>באין לקטין סניגור, יעזור לו בית המשפט לחקור את העדים.</p>
+                </content>
+              </point>
+              <point eId="point_18__point_ד">
+                <num>(ד)</num>
+                <content>
+                  <p>אין בהוראות סעיף זה כדי לגרוע מזכותו של הקטין להיות מיוצג על ידי עורך דין בהתאם להוראות <ref href="/akn/il/act/PrimaryLegislation/1961-06-22/148084">חוק לשכת עורכי הדין, תשכ"א–1961</ref>.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_19">
+            <heading>
+              <authorialNote placement="side">
+                <p>מעמדו של הורה</p>
+              </authorialNote>
+            </heading>
+            <num>19.</num>
+            <list>
+              <point eId="point_19__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>בית משפט לנוער ימציא להורה הקטין העתקים של ההזמנה לדין ושל כתב האישום עם הודעה שהוא רשאי להיות נוכח בשעת הדיון, זולת אם קבע בית המשפט, מטעמים מיוחדים שיירשמו, שאין להזמין את ההורה או שאין להמציא לו את ההעתקים האמורים או אחד מהם.</p>
+                </content>
+              </point>
+              <point eId="point_19__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>רשאי בית משפט לנוער בכל עת לצוות שהורה הקטין יהיה נוכח בבית המשפט.</p>
+                </content>
+              </point>
+              <point eId="point_19__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>כל בקשה שנאשם רשאי להגיש לבית המשפט, רשאי גם הורה הקטין, או אדם שבית המשפט הרשהו לכך, להגיש במקומו, ורשאים הם לחקור עדים ולהשמיע טענות במקום הקטין או יחד אתו.</p>
+                </content>
+              </point>
+              <point eId="point_19__point_ד">
+                <num>(ד)</num>
+                <content>
+                  <p>להורה של קטין תינתן הזדמנות להביע את עמדתו בדיון בבית משפט לנוער בעניין החלטה לפי <ref href="#point_20">סעיפים 20</ref>, <ref href="#point_20א">20א</ref>, <ref href="#point_24">24</ref>, <ref href="#point_25א">25א</ref>, <ref href="#point_26">26</ref>, <ref href="#point_30">30</ref>, <ref href="#point_31">31(ד)</ref><ref href="#point_33">ו־33</ref> הנוגעת לקטין, לפני קבלת ההחלטה; לא היה הקטין מיוצג על ידי עורך דין בדיון כאמור, רשאי בית המשפט למנות לקטין אפוטרופוס לדין, אם סבר שיש לעשות כן בשל העדרו של הורה הקטין מהדיון או מסיבה אחרת; אין בהוראות סעיף קטן זה כדי לגרוע מסמכותו של בית משפט לתת להורה הקטין הזדמנות להביע את עמדתו בדיונים שלפניו בעניינו של הקטין.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_20">
+            <heading>
+              <authorialNote placement="side">
+                <p>צו להשגחה זמנית</p>
+              </authorialNote>
+            </heading>
+            <num>20.</num>
+            <list>
+              <point eId="point_20__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>הוגש כתב אישום נגד קטין, רשאי בית משפט לנוער לצוות שהקטין יימסר להשגחתו של קצין מבחן עד למתן החלטת בית המשפט לפי <ref href="#point_24">סעיף 24</ref> או לתקופה קצרה יותר כפי שקבע בית המשפט (בחוק זה – צו להשגחה זמנית), אם סבר, לאחר שהובאה לפניו חוות דעתו של קצין מבחן, שטובת הקטין דורשת זאת ושלא ניתן להשיג את המטרה שבמתן צו כאמור בדרך שפגיעתה בחירותו של הקטין פחותה.</p>
+                </content>
+              </point>
+              <point eId="point_20__point_ב">
+                <num>(ב)</num>
+                <list>
+                  <intro>
+                    <p>השגחת קצין מבחן כאמור בסעיף קטן (א) תכלול אחד או יותר מאלה, כפי שיפורט בצו להשגחה זמנית בהתאם לנדרש לצורך קידום טובת הקטין וטיפול בו:</p>
+                  </intro>
+                  <point eId="point_20__point_ב__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>קיום קשר טיפולי עם הקטין בתקופת תוקפו של הצו;</p>
+                    </content>
+                  </point>
+                  <point eId="point_20__point_ב__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>עריכת אבחונים בקהילה לקטין, לרבות אבחון פסיכולוגי, פסיכיאטרי, תעסוקתי, לימודי, סוציאלי, התפתחותי ורפואי, וכן עריכת בדיקות לשם גילוי שימוש בסמים מסוכנים ובאלכוהול; מצא בית המשפט כי יש לערוך אבחון פסיכיאטרי כאמור, יחולו הוראות <ref href="/akn/il/act/PrimaryLegislation/1991-01-08/152284">חוק טיפול בחולי נפש, התשנ"א–1991</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_20__point_ב__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>בדיקת תפקודו של הקטין במשפחה ובקהילה;</p>
+                    </content>
+                  </point>
+                  <point eId="point_20__point_ב__point_4">
+                    <num>(4)</num>
+                    <content>
+                      <p>גיבוש ממצאים והמלצות מפעולות שננקטו לפי פסקאות (1) עד (3).</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_20__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>בית משפט לנוער רשאי, לבקשת קטין שלגביו ניתן צו להשגחה זמנית, או לבקשת קצין המבחן שהקטין נמסר להשגחתו אשר הוגשה בהסכמת הקטין, אם סבר שטובת הקטין דורשת זאת, להורות כי במהלך תקופת תוקפו של הצו להשגחה זמנית יתגורר הקטין במקום מחוץ לביתו כפי שיחליט קצין המבחן; ניתן צו להשגחה זמנית בתנאים כאמור בסעיף קטן זה, יקיים בית המשפט דיון בעניין ביצוע הצו אחת לשלושה חודשים.</p>
+                </content>
+              </point>
+              <point eId="point_20__point_ד">
+                <num>(ד)</num>
+                <content>
+                  <p>קצין המבחן שהקטין נמסר להשגחתו בהתאם לצו להשגחה זמנית יעביר לבית המשפט לנוער, אחת לשלושה חודשים, דיווח בכתב על ביצוע הצו כאמור, ובית המשפט רשאי להורות על קיום דיון בעניין, לבקשת קצין המבחן או הקטין או מיוזמתו.</p>
+                </content>
+              </point>
+              <point eId="point_20__point_ה">
+                <num>(ה)</num>
+                <content>
+                  <p>בלי לגרוע מהוראות סעיף קטן (ד), חלפו שישה חודשים מיום מתן הצו להשגחה זמנית או מיום קיומו של דיון בעניין ביצוע צו כאמור, ולא קיים בית המשפט לנוער דיון בעניין בפרק זמן זה, יקיים בית המשפט דיון בעניין ביצוע הצו.</p>
+                </content>
+              </point>
+              <point eId="point_20__point_ו">
+                <num>(ו)</num>
+                <content>
+                  <p>ממצאים שהתקבלו לפי סעיף זה ולפי <ref href="#point_20א">סעיף 20א</ref>, לא ישמשו ראיה נגד הקטין בכל הליך פלילי בדבר ביצוע עבירות נוספות או אחרות על ידו, או בהליך הפלילי שבו נדון כתב האישום באותה עבירה נגד הקטין, למעט לשם קביעת דרכי הטיפול בו; אין באמור כדי לגרוע מהוראות <ref href="/akn/il/act/PrimaryLegislation/1977-08-04/2002251#point_368ד">סעיף 368ד לחוק העונשין</ref>.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_20א">
+            <heading>
+              <authorialNote placement="side">
+                <p>צו להחזקה במעון לצורכי הסתכלות</p>
+              </authorialNote>
+            </heading>
+            <num>20א.</num>
+            <list>
+              <point eId="point_20א__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>הוגש כתב אישום נגד קטין וסבר בית משפט לנוער, לאחר שהובאה לפניו חוות דעתו של קצין מבחן, כי מתן צו להשגחה זמנית אינו מספק בנסיבות העניין וכי טובת הקטין דורשת זאת, רשאי הוא לצוות שהקטין יוחזק לצורכי הסתכלות במעון, ואם לא ניתן להחזיקו שם למטרה כאמור – במעון נעול, לתקופה שלא תעלה על 70 ימים; היה הקטין עצור, רשאי בית המשפט לנוער, על אף הוראות <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/חוק_סדר_הדין_הפלילי_סמכויות_אכיפה_מעצרים_נוער#point_7">סעיף 7 לחוק המעצרים</ref><ref href="#point_13">וסעיף 13 לחוק זה</ref>, לצוות על החזקת הקטין במעון נעול לצורכי הסתכלות, במסגרת מעצרו ולתקופה שלא תעלה על 70 ימים.</p>
+                </content>
+              </point>
+              <point eId="point_20א__point_ב">
+                <num>(ב)</num>
+                <list>
+                  <intro>
+                    <p>לא ייתן בית המשפט לנוער צו כאמור בסעיף קטן (א), אלא אם כן התקיימו שניים אלה:</p>
+                  </intro>
+                  <point eId="point_20א__point_ב__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>הקטין מיוצג על ידי סניגור, ולגבי קטין שמלאו לו 14 שנים, אף אם אינו מיוצג על ידי סניגור ובלבד שבית המשפט ראה, מטעמים שיירשמו, שלא ייגרם לו אי־צדק במתן הצו בשל כך;</p>
+                    </content>
+                  </point>
+                  <point eId="point_20א__point_ב__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>הקטין הסכים למתן הצו, או שהתקיימו נסיבות מיוחדות המצדיקות הוצאת הצו בלא הסכמתו, ובלבד שאם לא הסכים כאמור, היה הקטין מיוצג על ידי סניגור.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_20א__point_ג">
+                <num>(ג)</num>
+                <list>
+                  <intro>
+                    <p>החזקת קטין במעון או במעון נעול לצורכי הסתכלות כאמור בסעיף קטן (א), תכלול אחד או יותר מאלה:</p>
+                  </intro>
+                  <point eId="point_20א__point_ג__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>עריכת אבחונים לקטין במעון כמפורט <ref href="#point_20">בסעיף 20(ב)(2)</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_20א__point_ג__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>בדיקת תפקודו ההתנהגותי והחברתי במעון;</p>
+                    </content>
+                  </point>
+                  <point eId="point_20א__point_ג__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>גיבוש ממצאים והמלצות מפעולות שננקטו לפי פסקאות (1) ו־(2).</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_20א__point_ד">
+                <num>(ד)</num>
+                <content>
+                  <p>ניתן צו כאמור בסעיף קטן (א) לגבי קטין עצור, לא תינתן לקטין חופשה מהמעצר במהלך תקופת תוקפו של הצו, אלא באישורו של בית המשפט לנוער שניתן לבקשת הממונה על המעונות או מי שהוא הסמיכו לכך.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_20ב">
+            <heading>
+              <authorialNote placement="side">
+                <p>בדיקת קיום ראיות לכאורה</p>
+              </authorialNote>
+            </heading>
+            <num>20ב.</num>
+            <list>
+              <point eId="point_20ב__point_א">
+                <num>(א)</num>
+                <list>
+                  <intro>
+                    <p>לא ייתן בית המשפט צו להשגחה זמנית לפי <ref href="#point_20">סעיף 20(ג)</ref> או צו להחזקה במעון לצורכי הסתכלות לפי <ref href="#point_20א">סעיף 20א</ref>, אלא אם כן התקיים אחד מאלה:</p>
+                  </intro>
+                  <point eId="point_20ב__point_א__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>בית המשפט נוכח שיש ראיות לכאורה להוכחת אשמתו של הקטין; קביעה כי יש ראיות כאמור בפסקה זו תיעשה בידי שופט שאינו דן באישום;</p>
+                    </content>
+                  </point>
+                  <point eId="point_20ב__point_א__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>הוגשה בקשה למעצרו של קטין כאמור <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/חוק_סדר_הדין_הפלילי_סמכויות_אכיפה_מעצרים_נוער#point_21">בסעיף 21 לחוק המעצרים</ref>, ובית המשפט שדן בבקשת המעצר קבע כי התקיימו ראיות לכאורה להוכחת האשמה;</p>
+                    </content>
+                  </point>
+                  <point eId="point_20ב__point_א__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>הקטין הודה בבית המשפט או שאין מחלוקת לגבי קיומן של ראיות לכאורה.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_20ב__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>על אף האמור בסעיף קטן (א), רשאי בית המשפט לתת צו כאמור באותו סעיף קטן אף אם לא התקיים האמור בו, ובלבד שהקטין מיוצג על ידי סניגור, והוא וסניגורו הסכימו למתן צו כאמור.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_20ג">
+            <heading>
+              <authorialNote placement="side">
+                <p>שינוי או ביטול של צו להשגחה זמנית או צו להחזקה במעון לצורכי הסתכלות, וערעור</p>
+              </authorialNote>
+            </heading>
+            <num>20ג.</num>
+            <list>
+              <point eId="point_20ג__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>בית משפט לנוער רשאי, לבקשת קצין מבחן, הממונה על המעונות או הקטין שלגביו ניתן צו להשגחה זמנית, או צו להחזקה במעון לצורכי הסתכלות לפי <ref href="#point_20א">סעיף 20א</ref>, לשנות או לבטל צו כאמור או לתת כל הוראה הדרושה לביצועו, ולעניין צו לפי <ref href="#point_20א">סעיף 20א</ref> – גם להאריכו לתקופה נוספת שלא תעלה על שלושים ימים.</p>
+                </content>
+              </point>
+              <point eId="point_20ג__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>על החלטת בית משפט לנוער לפי <ref href="#point_20">סעיפים 20</ref>, <ref href="#point_20א">20א</ref> או סעיף קטן (א), ניתן לערער לפני בית משפט שלערעור, שידון בערעור בשופט אחד; על החלטת בית המשפט שלערעור לפי סעיף זה ניתן לערער לפני בית המשפט העליון, שידון בערעור בשופט אחד.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_21">
+            <heading>
+              <authorialNote placement="side">
+                <p>הכרעת הדין</p>
+              </authorialNote>
+            </heading>
+            <num>21.</num>
+            <content>
+              <p>בהכרעת הדין יחליט בית משפט לנוער על זיכוי הקטין או יקבע שהקטין ביצע את העבירה.</p>
+            </content>
+          </point>
+          <point eId="point_22">
+            <heading>
+              <authorialNote placement="side">
+                <p>תסקיר קצין מבחן ובדיקות אחרות</p>
+              </authorialNote>
+            </heading>
+            <num>22.</num>
+            <content>
+              <p>קבע בית משפט לנוער שהקטין ביצע את העבירה, יורה על הגשת תסקיר קצין מבחן לפי <ref href="/akn/il/act/PrimaryLegislation/1977-08-04/2002251#point_37">סעיף 37 לחוק העונשין</ref>, ורשאי בית־המשפט להורות על עריכת בדיקות וחקירות כאמור <ref href="/akn/il/act/PrimaryLegislation/1982-03-01/2002215#point_190">בסעיף 190 לחוק סדר הדין הפלילי [נוסח משולב], תשמ"ד–1984</ref>.</p>
+            </content>
+          </point>
+          <point eId="point_23">
+            <heading>
+              <authorialNote placement="side">
+                <p>חסיון</p>
+              </authorialNote>
+            </heading>
+            <num>23.</num>
+            <content>
+              <p>העתק התסקיר של קצין המבחן והתוצאות של ההשגחה הזמנית או ההסתכלות לפי <ref href="#point_20">סעיפים 20</ref><ref href="#point_20א">או 20א</ref> ושל הבדיקות והחקירות שנערכו לפי <ref href="#point_22">סעיף 22</ref> לא יימסרו לבעלי הדין ולבאי כוחם אלא אם בית המשפט הורה הוראה אחרת, אולם רשאים התובע והסניגור של הנאשם לעיין במסמכים האמורים בתיק בית המשפט.</p>
+            </content>
+          </point>
+        </list>
+      </chapter>
+      <chapter eId="chp_ה">
+        <num>פרק ה׳ –</num>
+        <title>
+          <content>
+            <p>ענשים ודרכי טיפול</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_24">
+            <heading>
+              <authorialNote placement="side">
+                <p>החלטת בית המשפט לגבי קטין שביצע עבירה</p>
+              </authorialNote>
+            </heading>
+            <num>24.</num>
+            <list>
+              <intro>
+                <p>קבע בית משפט לנוער שהקטין ביצע את העבירה והוגשו לו תסקיר של קצין המבחן ותוצאות הבדיקות והחקירות שעליהם הורה לפי <ref href="#point_22">סעיף 22</ref>, יחליט על אחד מאלה:</p>
+              </intro>
+              <point eId="point_24__point_1">
+                <num>(1)</num>
+                <content>
+                  <p>להרשיע את הקטין ולגזור את דינו;</p>
+                </content>
+              </point>
+              <point eId="point_24__point_2">
+                <num>(2)</num>
+                <content>
+                  <p>לצוות על אחד או יותר מהאמצעים ודרכי הטיפול המנויים <ref href="#point_26">בסעיף 26</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_24__point_3">
+                <num>(3)</num>
+                <content>
+                  <p>לפטור את הקטין בלא צו כאמור.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_24א">
+            <heading>
+              <authorialNote placement="side">
+                <p>החלטת בית המשפט על אמצעים ודרכי טיפול לאחר הרשעה</p>
+              </authorialNote>
+            </heading>
+            <num>24א.</num>
+            <content>
+              <p>על אף האמור <ref href="#point_24">בסעיף 24 רישה</ref>, רשאי בית משפט לנוער, לאחר שהרשיע את הקטין וגזר את דינו כאמור <ref href="#point_24">בפסקה (1) לסעיף האמור</ref>, לצוות, נוסף על העונש שהטיל, על קבלת התחייבות מאת הורהו של הקטין או על חיוב ההורה בתשלום קנס, הוצאות משפט או פיצוי, לפי <ref href="#point_26">פסקאות (3), (7) או (8) של סעיף 26</ref>, והכול אם מצא כי קיימות נסיבות המצדיקות לעשות כן.</p>
+            </content>
+          </point>
+          <point eId="point_25">
+            <heading>
+              <authorialNote placement="side">
+                <p>דרכי ענישה</p>
+              </authorialNote>
+            </heading>
+            <num>25.</num>
+            <list>
+              <point eId="point_25__point_א">
+                <num>(א)</num>
+                <list>
+                  <point eId="point_25__point_א__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>קטין שהורשע, רשאי בית משפט לנוער, במקום להטיל עליו מאסר לצוות על החזקתו במעון נעול לתקופה שיקבע ובלבד שלא תעלה על תקופת המאסר המרבית הקבועה לעבירה שבה הורשע הקטין.</p>
+                    </content>
+                  </point>
+                  <point eId="point_25__point_א__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>בית משפט לנוער, המצווה על הפעלת מאסר על־תנאי לפי <ref href="/akn/il/act/PrimaryLegislation/1977-08-04/2002251#point_55">סעיף 55 לחוק העונשין</ref>, רשאי, במקום להטיל על הקטין מאסר, לצוות על החזקתו במעון נעול.</p>
+                    </content>
+                  </point>
+                  <point eId="point_25__point_א__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>בית משפט לנוער שהחליט על החזקת קטין במעון נעול לפי פסקאות (1) או (2), יסביר לקטין, בשפה ובאופן המובנים לו בהתחשב בגילו ובמידת בגרותו, באילו נסיבות יהיה ניתן להעבירו מהמעון הנעול למאסר, לפי הוראות <ref href="#point_25א">סעיפים 25א</ref><ref href="#point_25ב">או 25ב(ג)</ref>, ואת ההשפעה של מעבר כאמור על תנאי החזקתו ועל שחרורו.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_25__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>אדם שהיה קטין ביום ביצוע העבירה, לא יוטל עליט עונש מוות, ועל אף האמור בכל דין אין חובה להטיל עליו מאסר עולם, מאסר חובה או עונש מינימום.</p>
+                </content>
+              </point>
+              <point eId="point_25__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>בקביעת ענשו של קטין יתחשב בית המשפט לנוער, בין השאר, בגילו בשעת ביצוע העבירה.</p>
+                </content>
+              </point>
+              <point eId="point_25__point_ד">
+                <num>(ד)</num>
+                <content>
+                  <p>קטין שבשעת גזירת דינו טרם מלאו לו ארבע עשרה שנה, לא יוטל עליו מאסר.</p>
+                </content>
+              </point>
+              <point eId="point_25__point_ה">
+                <num>(ה)</num>
+                <content>
+                  <p>
+                    <wikicomment font-size="x-small">(בוטל).</wikicomment>
+                  </p>
+                </content>
+              </point>
+              <point eId="point_25__point_ו">
+                <num>(ו)</num>
+                <content>
+                  <p>
+                    <wikicomment font-size="x-small">(פקע).</wikicomment>
+                  </p>
+                </content>
+              </point>
+              <point eId="point_25__point_ז">
+                <num>(ז)</num>
+                <content>
+                  <p>
+                    <wikicomment font-size="x-small">(פקע).</wikicomment>
+                  </p>
+                </content>
+              </point>
+              <point eId="point_25__point_ח">
+                <num>(ח)</num>
+                <content>
+                  <p>
+                    <wikicomment font-size="x-small">(פקע).</wikicomment>
+                  </p>
+                </content>
+              </point>
+              <point eId="point_25__point_ט">
+                <num>(ט)</num>
+                <content>
+                  <p>
+                    <wikicomment font-size="x-small">(פקע).</wikicomment>
+                  </p>
+                </content>
+              </point>
+              <point eId="point_25__point_י">
+                <num>(י)</num>
+                <content>
+                  <p>
+                    <wikicomment font-size="x-small">(פקע).</wikicomment>
+                  </p>
+                </content>
+              </point>
+              <point eId="point_25__point_יא">
+                <num>(יא)</num>
+                <content>
+                  <p>
+                    <wikicomment font-size="x-small">(פקע).</wikicomment>
+                  </p>
+                </content>
+              </point>
+              <point eId="point_25__point_יב">
+                <num>(יב)</num>
+                <content>
+                  <p>
+                    <wikicomment font-size="x-small">(פקע).</wikicomment>
+                  </p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_25א">
+            <heading>
+              <authorialNote placement="side">
+                <p>העברת קטין ממעון נעול למאסר</p>
+              </authorialNote>
+            </heading>
+            <num>25א.</num>
+            <list>
+              <point eId="point_25א__point_א">
+                <num>(א)</num>
+                <list>
+                  <intro>
+                    <p>ציווה בית משפט לנוער על החזקתו של קטין במעון נעול במקום על מאסרו לפי הוראות <ref href="#point_25">סעיף 25(א)(1) או (2)</ref>, רשאי הוא, לבקשת הממונה על המעונות, לאחר שהוגש לו תסקיר קצין מבחן לעניין זה, להמיר את הצו האמור במאסר לתקופה שלא תעלה על יתרת התקופה שנותרה להשלמת הצו המקורי, אם שוכנע כי התקיים אחד מאלה:</p>
+                  </intro>
+                  <point eId="point_25א__point_א__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>הקטין מסכן או עלול לסכן את עצמו או אחרים;</p>
+                    </content>
+                  </point>
+                  <point eId="point_25א__point_א__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>הקטין גורם נזק חמור ומתמשך לרכוש;</p>
+                    </content>
+                  </point>
+                  <point eId="point_25א__point_א__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>התנהגות הקטין במעון באופן מתמשך, לרבות בריחה חוזרת ונשנית של הקטין מהמעון, לא מאפשרת לקיים את הצו במעון.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_25א__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>ציווה בית המשפט כאמור בסעיף קטן (א), רשאי הוא להורות על קיום דיון בתקופת המאסר שמטרתו בחינת האפשרות להמיר את המאסר בצו להחזקתו של הקטין במעון נעול, לתקופה שלא תעלה על יתרת התקופה שנותרה להשלמת תקופת המאסר כאמור בסעיף קטן (א).</p>
+                </content>
+              </point>
+              <point eId="point_25א__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>לא ייתן בית משפט לנוער צו לפי סעיף קטן (א) אלא לאחר שניתנה לקטין הזדמנות להביא ראיות ולטעון את טענותיו לעניין זה.</p>
+                </content>
+              </point>
+              <point eId="point_25א__point_ד">
+                <num>(ד)</num>
+                <content>
+                  <p>בהליך לפני בית משפט לנוער לפי סעיף זה, ימנה בית המשפט סניגור לקטין שאין לו סניגור, ויחולו לעניין זה הוראות <ref href="/akn/il/act/PrimaryLegislation/1995-11-30/159539">חוק הסניגוריה הציבורית</ref>.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_25ב">
+            <heading>
+              <authorialNote placement="side">
+                <p>נשיאת מאסר בתקופת תוקפו של צו בדבר דרכי טיפול</p>
+              </authorialNote>
+            </heading>
+            <num>25ב.</num>
+            <list>
+              <point eId="point_25ב__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>ניתן צו לפי <ref href="#point_24">סעיף 24(2)</ref> (בחוק זה – צו בדבר דרכי טיפול), והטיל בית משפט לנוער עונש מאסר על קטין בתקופת תוקפו של הצו האמור, יישא הקטין תחילה את עונש המאסר ובית המשפט ייתן, בעת הטלת עונש המאסר, הוראות לעניין המשך ביצוע הצו בדבר דרכי טיפול לאחר נשיאת המאסר, ורשאי הוא להורות על שינוי הצו האמור או על ביטולו.</p>
+                </content>
+              </point>
+              <point eId="point_25ב__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>הוראות בית המשפט כאמור בסעיף קטן (א) יינתנו לאחר שהובאה לפניו חוות דעתו של קצין מבחן לעניין זה, ואם היה הקטין מוחזק במעון או במעון נעול – גם לאחר שהובאה לפניו חוות דעתו של הממונה על המעונות.</p>
+                </content>
+              </point>
+              <point eId="point_25ב__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>היה הקטין מוחזק במעון נעול לפי צו כאמור <ref href="#point_25">בסעיף 25(א)(1) או (2)</ref>, והטיל עליו בית משפט לנוער עונש מאסר בתקופת תוקפו של הצו, יישא הקטין תחילה את עונש המאסר.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_26">
+            <heading>
+              <authorialNote placement="side">
+                <p>דרכי טיפול</p>
+              </authorialNote>
+            </heading>
+            <num>26.</num>
+            <list>
+              <intro>
+                <p>ואלה דרכי הטיפול שעליהן רשאי בית משפט לנוער לצוות לפי <ref href="#point_24">סעיף 24(2)</ref>:</p>
+              </intro>
+              <point eId="point_26__point_1">
+                <num>(1)</num>
+                <content>
+                  <p>מסירת הקטין לטיפולו והשגחתו של אדם הראוי לכך שאינו הורה הקטין, לתקופה שיקבע בית המשפט, והגבלת זכויותיהם של הורי הקטין כאפוטרופסיו במשך התקופה האמורה;</p>
+                </content>
+              </point>
+              <point eId="point_26__point_2">
+                <num>(2)</num>
+                <content>
+                  <p>העמדת הקטין במבחן;</p>
+                </content>
+              </point>
+              <point eId="point_26__point_3">
+                <num>(3)</num>
+                <content>
+                  <p>קבלת התחייבות, בערובה או בלי ערובה, מאת הקטין או הורהו בדבר התנהגותו של הקטין בעתיד;</p>
+                </content>
+              </point>
+              <point eId="point_26__point_4">
+                <num>(4)</num>
+                <content>
+                  <p>שהייה של הקטין במעון יומי במשך תקופה שיקבע בית המשפט;</p>
+                </content>
+              </point>
+              <point eId="point_26__point_5">
+                <num>(5)</num>
+                <content>
+                  <p>החזקת הקטין במעון לתקופה שיקבע בית המשפט או החזקת קטין במעון נעול לתקופה שלא תעלה על תקופת המאסר המרבית הקבועה לעבירה שביצע הקטין;</p>
+                </content>
+              </point>
+              <point eId="point_26__point_6">
+                <num>(6)</num>
+                <content>
+                  <p>מתן כל הוראה אחרת בדבר התנהגותו של הקטין אם הדבר דרוש, לדעת בית המשפט, לטיפול בו;</p>
+                </content>
+              </point>
+              <point eId="point_26__point_7">
+                <num>(7)</num>
+                <content>
+                  <p>חיוב הקטין או הורהו בתשלום קנס או הוצאות המשפט;</p>
+                </content>
+              </point>
+              <point eId="point_26__point_8">
+                <num>(8)</num>
+                <content>
+                  <p>חיוב הקטין או הורהו בתשלום פיצוי לאדם שניזוק באותה עבירה.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_27">
+            <heading>
+              <authorialNote placement="side">
+                <p>תחולת חוקים בעניני מבחן ודרכי ענישה</p>
+              </authorialNote>
+            </heading>
+            <num>27.</num>
+            <list>
+              <point eId="point_27__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>מבחן שהוטל על קטין לפי <ref href="#point_26">סעיף 26(2)</ref> יחולו עליו, בשינויים המחוייבים, הוראות <ref href="/akn/il/act/PrimaryLegislation/1969-08-01/2001784">פקודת המבחן</ref>; אולם אם הקטין לא מילא אחרי הוראה מהוראות צו המבחן, רשאי בית המשפט לצוות על אחת מדרכי הטיפול המנויות <ref href="#point_26">בסעיף 26</ref> או לנקוט את אחת מהפעולות המנויות <ref href="/akn/il/act/PrimaryLegislation/1969-08-01/2001784#point_20">בסעיף 20 לפקודת המבחן</ref>.</p>
+                </content>
+              </point>
+              <point eId="point_27__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>על דרכי הטיפול המנויות <ref href="#point_26">בפסקאות (3), (7) ו־(8) לסעיף 26(2)</ref> שנקבעו לקטין יחולו, בשינויים המחוייבים, הוראות <ref href="/akn/il/act/PrimaryLegislation/1977-08-04/2002251#chp_ו_sec_ד">סימנים ד׳</ref><ref href="/akn/il/act/PrimaryLegislation/1977-08-04/2002251#chp_ו_sec_ה">ו־ה׳</ref><ref href="/akn/il/act/PrimaryLegislation/1977-08-04/2002251#point_77">וסעיפים 77 עד 79</ref><ref href="/akn/il/act/PrimaryLegislation/1977-08-04/2002251#chp_ו">בפרק ו׳ לחוק העונשין</ref>, למעט הוראות <ref href="/akn/il/act/PrimaryLegislation/1977-08-04/2002251#point_71">סעיף 71 לחוק האמור</ref>.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_28">
+            <heading>
+              <authorialNote placement="side">
+                <p>הוצאות טיפול</p>
+              </authorialNote>
+            </heading>
+            <num>28.</num>
+            <list>
+              <point eId="point_28__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>הורה בית משפט לנוער על דרך טיפול כאמור <ref href="#point_26">בפסקאות (1), (4), (5) או (6) לסעיף 26</ref>, רשאי הוא לצוות כי הקטין או הורהו ישאו בהוצאות הטיפול, כולן או מקצתן, אם נוכח שיש להם האמצעים הדרושים לכך.</p>
+                </content>
+              </point>
+              <point eId="point_28__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>דין צו שניתן לפי סעיף קטן (א) כדין חיוב בהוצאות טיפול שניתן לפי <ref href="/akn/il/act/PrimaryLegislation/1960-07-14/150256#point_10">סעיף 10 לחוק הנוער (טיפול והשגחה)</ref>, והוראות <ref href="/akn/il/act/PrimaryLegislation/1960-07-14/150256">החוק האמור</ref> בדבר גביית הוצאות הטיפול, שינוי החיוב וביטולו יחולו על הצו בשינויים המחוייבים.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_29">
+            <heading>
+              <authorialNote placement="side">
+                <p>חיוב הורה הקטין</p>
+              </authorialNote>
+            </heading>
+            <num>29.</num>
+            <list>
+              <point eId="point_29__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>לא יתן בית משפט לנוער צו לפי <ref href="#point_24א">סעיפים 24א</ref>, <ref href="#point_26">26</ref><ref href="#point_28">או 28</ref> שיש בו כדי לחייב את הורה הקטין, אלא לאחר שניתנה לו הזדמנות נאותה להשמיע טענותיו.</p>
+                </content>
+              </point>
+              <point eId="point_29__point_א1">
+                <num>(א1)</num>
+                <list>
+                  <point eId="point_29__point_א1__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>חיוב שהוטל על הורה הקטין לפי <ref href="#point_26">פסקאות (3), (7) ו־(8) של סעיף 26</ref>, לא יעלה על 10,000 שקלים חדשים.</p>
+                    </content>
+                  </point>
+                  <point eId="point_29__point_א1__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>הורה בית המשפט על חיוב כאמור, יקבע את מועד תשלומו ורשאי הוא לקבוע כי החיוב ישולם לשיעורין; לא קבע בית המשפט מועד כאמור, ישולם החיוב מיד.</p>
+                    </content>
+                  </point>
+                  <point eId="point_29__point_א1__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>על גביית חיוב כאמור יחול <ref href="/akn/il/act/PrimaryLegislation/1995-04-06/174310">חוק המרכז לגביית קנסות, אגרות והוצאות, התשנ"ה–1995</ref>.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_29__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>לעניין ערעור, צו כאמור בסעיף קטן (א), דינו כדין פסק דין בהליכים פליליים שניתן נגד הורה הקטין.</p>
+                </content>
+              </point>
+              <point eId="point_29__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>הוגש ערעור מטעם הקטין בלבד, רשאי בית המשפט הדן בערעור לדון גם בכל צו של בית המשפט לנוער המחייב את הורה הקטין.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_30">
+            <heading>
+              <authorialNote placement="side">
+                <p>החלפת דרך טיפול והארכת תקופת טיפול</p>
+              </authorialNote>
+            </heading>
+            <num>30.</num>
+            <list>
+              <point eId="point_30__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>בית משפט לנוער שציווה על דרך טיפול כאמור <ref href="#point_26">בסעיף 26</ref>, רשאי, לפי בקשת קצין מבחן או הממונה על המעונות וכל עוד לא בוצע הצו במלואו, להחליפה ולצוות על דרך טיפול אחרת ובלבד שתקופת תוקפה של דרך הטיפול האחרת יחד עם תקופת הטיפול שחלפה לא תעלה על התקופה שנקבעה בצו בדבר דרכי הטיפול, אלא בהסכמת הקטין שלגביו ניתן הצו.</p>
+                </content>
+              </point>
+              <point eId="point_30__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>החלטת בית המשפט לנוער לפי סעיף קטן (א), וכן החלטת בית משפט לנוער בעניין המשך ביצוע צו בדבר דרכי טיפול לפי <ref href="#point_25ב">סעיף 25ב(א)</ref>, ניתנת לערעור כאילו היתה פסק דין.</p>
+                </content>
+              </point>
+              <point eId="point_30__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>בית משפט לנוער רשאי, לבקשת קצין מבחן ובהסכמת הקטין לעניין זה, להאריך את תקופת הטיפול בקטין שנקבעה בצו בדבר דרכי טיפול, בתקופה נוספת שלא תעלה על שנה; ואולם לעניין הארכת תקופת תוקפה של דרך טיפול כאמור <ref href="#point_26">בסעיף 26(2) או (5)</ref> יחולו הוראות <ref href="/akn/il/act/PrimaryLegislation/1969-08-01/2001784#point_22">סעיף 22 לפקודת המבחן</ref> או <ref href="#point_33">סעיף 33</ref>, לפי העניין.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_31">
+            <heading>
+              <authorialNote placement="side">
+                <p>העברה</p>
+              </authorialNote>
+            </heading>
+            <num>31.</num>
+            <list>
+              <point eId="point_31__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>ציווה בית משפט לנוער על החזקת קטין במעון נעול, רשאי הממונה על המעונות להעביר את הקטין מהמעון הנעול ולהחזיקו במעון, ובלבד שהקטין הוחזק במעון נעול במשך תקופה סבירה וקיימות נסיבות המצדיקות את העברתו כאמור.</p>
+                </content>
+              </point>
+              <point eId="point_31__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>ציווה בית משפט לנוער על החזקת קטין במעון, לא יוחזק הקטין במעון נעול אלא באישור בית המשפט.</p>
+                </content>
+              </point>
+              <point eId="point_31__point_ג">
+                <num>(ג)</num>
+                <list>
+                  <intro>
+                    <p>על אף הוראות סעיף קטן (ב), רשאי הממונה על המעונות, לאחר שנתן לקטין הזדמנות להביע את עמדתו לעניין זה, להעביר קטין שבית משפט לנוער ציווה על החזקתו במעון, להחזקה זמנית במעון נעול, אף בלא אישור בית המשפט, לתקופה הקצרה ביותר האפשרית בנסיבות העניין אשר לא תעלה על שבעה ימים, אם שוכנע שהתקיימו שניים אלה:</p>
+                  </intro>
+                  <point eId="point_31__point_ג__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>הקטין מסכן או עלול לסכן את עצמו או אחרים, או גורם נזק חמור ומתמשך לרכוש;</p>
+                    </content>
+                  </point>
+                  <point eId="point_31__point_ג__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>לא ניתן להשיג את המטרה שבהעברת הקטין להחזקה במעון נעול בדרך שפגיעתה בחירותו של הקטין פחותה.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_31__point_ד">
+                <num>(ד)</num>
+                <content>
+                  <p>על החלטת הממונה על המעונות לפי סעיף קטן (ג) ניתן לערור לפני בית משפט לנוער.</p>
+                </content>
+              </point>
+              <point eId="point_31__point_ה">
+                <num>(ה)</num>
+                <content>
+                  <p>בית משפט לנוער שציווה על החזקת קטין במעון רשאי, לבקשת הממונה על המעונות או מי שהוא הסמיכו לכך, ולאחר ששמע את טענות הצדדים במעמד הצדדים, להאריך את תקופת ההחזקה הזמנית במעון נעול כאמור בסעיף קטן (ג) בתקופה נוספת שלא תעלה על 30 ימים, אם שוכנע כי התנאים האמורים בפסקאות (1) ו־(2) של אותו סעיף קטן ממשיכים להתקיים.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_32">
+            <heading>
+              <authorialNote placement="side">
+                <p>החזקת קטין בידי משפחה אומנת</p>
+              </authorialNote>
+            </heading>
+            <num>32.</num>
+            <content>
+              <p>הממונה על המעונות רשאי להורות כי קטין המוחזק במעון, או שניתן עליו צו להחזיקו במעון לפי חוק זה, יושם במשפחת אומנה כהגדרתה <ref href="/akn/il/act/PrimaryLegislation/2016-03-06/482355">בחוק אומנה לילדים, התשע"ו–2016</ref>, ולענין חוק זה יראו את הקטין כאילו הוחזק במעון. קטין זכאי שתינתן לו הזדמנות להביע את עמדתו לעניין זה.</p>
+            </content>
+          </point>
+          <point eId="point_33">
+            <heading>
+              <authorialNote placement="side">
+                <p>הארכת החזקה במעון</p>
+              </authorialNote>
+            </heading>
+            <num>33.</num>
+            <list>
+              <point eId="point_33__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>בית משפט לנוער רשאי, על פי בקשת הממונה על המעונות ובהסכמת הקטין, או על פי בקשת הקטין, להאריך לתקופה שלא תעלה על שנה אחת את התקופה שבה יוחזק הקטין במעון אם ראה בית המשפט שהדבר דרוש לטובת הקטין וכדי להשלים את הטיפול בו או להכשירו למקצוע.</p>
+                </content>
+              </point>
+              <point eId="point_33__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>בית משפט לנוער שהאריך את תקופת החזקתו של קטין במעון לפי סעיף קטן (א), יבטל את ההארכה כאמור לבקשת הקטין, ורשאי הוא לבטל את ההארכה כאמור על פי בקשת הממונה על המעונות.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_34">
+            <heading>
+              <authorialNote placement="side">
+                <p>משך החזקה</p>
+              </authorialNote>
+            </heading>
+            <num>34.</num>
+            <content>
+              <p>על אף הוראות <ref href="#chp_ד">פרקים ד׳</ref><ref href="#chp_ה">ו־ה׳</ref>, לא יוחזק אדם במעון או במעון נעול ולא יהיה חייב לשהות במעון יומי לאחר שמלאו לו עשרים שנה.</p>
+            </content>
+          </point>
+          <point eId="point_34א">
+            <heading>
+              <authorialNote placement="side">
+                <p>הודעה לקטין על זכויותיו במעון</p>
+              </authorialNote>
+            </heading>
+            <num>34א.</num>
+            <content>
+              <p>מנהל מעון או מעון נעול יפרט בפני קטין, עם כניסתו למעון או למעון הנעול על פי צו לפי <ref href="#chp_ד">פרק ד׳</ref> או לפי <ref href="#chp_ה">פרק זה</ref>, את זכויותיו בקשר להחזקתו במעון או במעון הנעול, לפי העניין, באופן שקבע שר הרווחה והשירותים החברתיים; כן ישוב ויודיע מנהל המעון או המעון הנעול לקטין, זמן סביר לפני תום שנה מיום כניסתו למעון, על זכותו שעניינו יובא לפני ועדת שחרורים בהתאם להוראות <ref href="#point_36">סעיף 36</ref>.</p>
+            </content>
+          </point>
+        </list>
+      </chapter>
+      <chapter eId="chp_ה1">
+        <num>פרק ה׳1:</num>
+        <title>
+          <content>
+            <p>החזקת קטינים במאסר</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_34ב">
+            <heading>
+              <authorialNote placement="side">
+                <p>בתי סוהר לקטינים</p>
+              </authorialNote>
+            </heading>
+            <num>34ב.</num>
+            <list>
+              <point eId="point_34ב__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>לא יוחזק קטין במאסר אלא בבית סוהר נפרד לקטינים, או באגף בבית סוהר כללי, ובלבד שאותו אגף יהיה מופרד לחלוטין, ייועד לקטינים בלבד ולא יהיו גישה או קשר ראיה בינו לבין אגפיו האחרים של בית הסוהר או שוכניו.</p>
+                </content>
+              </point>
+              <point eId="point_34ב__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>לא יוחזק קטין במאסר בתא יחד עם מי שאינו קטין, ואולם ניתן להחזיק אסיר שבמהלך נשיאת מאסרו מלאו לו 18 שנים וטרם מלאו לו 21 שנים, במאסר בתא יחד עם קטין, ובלבד שמלאו לקטין 17 שנים ואין בכך כדי לפגוע בטובת הקטין; קטין זכאי שתינתן לו הזדמנות להביע עמדה לעניין זה; הוראות סעיפים קטנים (ג) ו־(ד) יחולו בכפוף להוראות סעיף קטן זה.</p>
+                </content>
+              </point>
+              <point eId="point_34ב__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>על אף הוראות סעיף קטן (א), ניתן להחזיק קטין במאסר בבית סוהר או באגף שאינו כאמור באותו סעיף קטן, אם ההחזקה כאמור היא לצורך הבאת הקטין לדיון בבית משפט, ובלבד שהחזקתו תהיה לפרק זמן שלא יעלה על 24 שעות; בסעיף קטן זה ובסעיף קטן (ד), ההחזקה תהיה ככל הניתן בנסיבות העניין, כך שלא יהיה קשר ישיר בין קטין ובין מי שאינו קטין, לרבות מגע פיזי, קשר ראייה או שמיעה.</p>
+                </content>
+              </point>
+              <point eId="point_34ב__point_ד">
+                <num>(ד)</num>
+                <list>
+                  <intro>
+                    <p>על אף הוראות סעיף קטן (ג), ניתן להחזיק קטין כאמור באותו סעיף קטן לפרק זמן שלא יעלה על 72 שעות במקרים אלה:</p>
+                  </intro>
+                  <point eId="point_34ב__point_ד__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>חל מועד הדיון בבית המשפט בשבת או בחג, או בסמוך לתום שבת או חג;</p>
+                    </content>
+                  </point>
+                  <point eId="point_34ב__point_ד__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>הקטין הוא עצור שטרם ניתנה החלטה בדבר מעצרו או שטרם הוגש נגדו כתב אישום.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_34ב__point_ה">
+                <num>(ה)</num>
+                <list>
+                  <point eId="point_34ב__point_ה__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>על אף הוראות סעיפים קטנים (א) ו־(ב) <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/חוק_סדר_הדין_הפלילי_סמכויות_אכיפה_מעצרים_נוער#point_8">וסעיף 8 לחוק המעצרים</ref>, ניתן להחזיק קטינה במאסר בבית סוהר שאינו בית סוהר נפרד לקטינים או באגף בבית סוהר כללי שאינו עומד בתנאים המנויים בסעיף קטן (א), ואולם לא תוחזק קטינה במאסר בתא יחד עם עצורה או אסירה שאינה קטינה, אלא אם כן הקטינה הסכימה לכך ומנהל בית הסוהר סבר כי התקיימו התנאים <ref href="#point_13">שבסעיף 13(ב1)(1)(א) עד (ג)</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_34ב__point_ה__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>החלטה על החזקת קטינה יחד עם מי שאינה קטינה כאמור בפסקה (1), תובא לאישור בית המשפט בתוך 24 שעות מתחילת ההחזקה.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+            </list>
+          </point>
+          <point eId="point_34ג">
+            <heading>
+              <authorialNote placement="side">
+                <p>תנאי החזקת קטין במאסר</p>
+              </authorialNote>
+            </heading>
+            <num>34ג.</num>
+            <content>
+              <p>קטין יוחזק במאסר בתנאים ההולמים את גילו ואת צרכיו, שלא יהיה בהם כדי לפגוע בכבודו, ותוך השגחה מיוחדת על שלומו הגופני והנפשי, ובכלל זה יינתנו לקטין שירותי חינוך ופנאי, כפי שיקבע השר לביטחון הפנים, לאחר התייעצות עם שר החינוך.</p>
+            </content>
+          </point>
+          <point eId="point_34ד">
+            <heading>
+              <authorialNote placement="side">
+                <p>שמירת הוראות</p>
+              </authorialNote>
+            </heading>
+            <num>34ד.</num>
+            <content>
+              <p>הוראות <ref href="#chp_ה1">פרק זה</ref> באות להוסיף על הוראות לפי כל דין בדבר החזקה במאסר.</p>
+            </content>
+          </point>
+        </list>
+      </chapter>
+      <chapter eId="chp_ו">
+        <num>פרק ו׳ –</num>
+        <title>
+          <content>
+            <p>שחרור מוקדם ממעון</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_35">
+            <heading>
+              <authorialNote placement="side">
+                <p>ועדת שחרורים</p>
+              </authorialNote>
+            </heading>
+            <num>35.</num>
+            <list>
+              <point eId="point_35__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>שר הרווחה והשירותים החברתיים יקים ועדות שחרורים לענין חוק זה ויקבע את אזורי פעולתן.</p>
+                </content>
+              </point>
+              <point eId="point_35__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>ועדת שחרורים תהיה של חמישה; יושב ראש הועדה יהיה שופט שמינה שר המשפטים ושאר חבריה יהיו קצין מבחן, רופא, מחנך ואדם אחר שמינה שר הרווחה והשירותים החברתיים.</p>
+                </content>
+              </point>
+              <point eId="point_35__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>הודעה בדבר הקמת ועדת שחרורים ובדבר הרכבה תפורסם ברשומות.</p>
+                </content>
+              </point>
+              <point eId="point_35__point_ד">
+                <num>(ד)</num>
+                <content>
+                  <p>המנין החוקי בישיבות של ועדת השחרורים יהיה שלושה וביניהם היושב ראש.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_36">
+            <heading>
+              <authorialNote placement="side">
+                <p>שחרור ממעון</p>
+              </authorialNote>
+            </heading>
+            <num>36.</num>
+            <list>
+              <point eId="point_36__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>קטין המוחזק במעון או במעון נעול על־פי צו לפי הוראות <ref href="#chp_ה">פרק ה׳</ref> ועברה שנה מיום כניסתו, זכאי לפנות לוועדת שחרורים בבקשה כי תורה על שחרורו, וועדת השחרורים רשאית לצוות על שחרורו קטין כאמור זכאי שתינתן לו הזדמנות להביע עמדה לעניין זה; אם קיימים טעמים מיוחדים המצדיקים זאת, רשאית הועדה לצוות על שחרור הקטין אף לפני תום שנה מיום כניסתו.</p>
+                </content>
+              </point>
+              <point eId="point_36__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>ועדת שחרורים רשאית להתנות את השחרור בתנאים, ורשאית היא לשנות מפעם לפעם את התנאים.</p>
+                </content>
+              </point>
+              <point eId="point_36__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>הפר משוחרר תנאי שנקבע לפי סעיף קטן (ב) או הוראת קצין מעקב לפי <ref href="#point_39">סעיף 39(ב)</ref>, רשאית ועדת השחרורים לבטל את שחרורו ולצוות על החזרתו למקום שבו הוחזק עד תום התקופה שקבע בית המשפט להחזקתו בו.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_37">
+            <heading>
+              <authorialNote placement="side">
+                <p>חופשה</p>
+              </authorialNote>
+            </heading>
+            <num>37.</num>
+            <list>
+              <point eId="point_37__point_א">
+                <num>(א)</num>
+                <list>
+                  <intro>
+                    <p>הממונה על המעונות רשאי להרשות לאדם המוחזק לפי חוק זה במעון או במעון נעול לצאת ממנו לחופשה מטעמים ובפרקי זמן אלה:</p>
+                  </intro>
+                  <point eId="point_37__point_א__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>בימי מנוחה כמשמעותם <ref href="/akn/il/act/PrimaryLegislation/1948-05-21/2002291#point_18א">בסעיף 18א לפקודת סדרי השלטון והמשפט, התש"ח–1948</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_37__point_א__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>בימי חופשה שיינתנו מעת לעת, במניין כולל שלא יעלה על 15 ימים בשנה;</p>
+                    </content>
+                  </point>
+                  <point eId="point_37__point_א__point_3">
+                    <num>(3)</num>
+                    <list>
+                      <point eId="point_37__point_א__point_3__point_א">
+                        <num>(א)</num>
+                        <content>
+                          <p>בימי חופשה מיוחדת במניין כולל שלא יעלה על 30 ימים בשנה – מטעמים מיוחדים, לרבות בשל אבל או שמחה, לצורך השתלבות הקטין במסגרות חינוכיות או תעסוקתיות, או כדי לבחון את אפשרות שילובו של הקטין בקהילה בטרם גיבוש המלצות לבית המשפט בדבר החלפת דרכי טיפול;</p>
+                        </content>
+                      </point>
+                      <point eId="point_37__point_א__point_3__point_ב">
+                        <num>(ב)</num>
+                        <content>
+                          <p>להוסיף, באישור יושב ראש ועדת השחרורים, 30 ימים נוספים לכל היותר לחופשה המיוחדת כאמור בפסקת משנה (א), ובאישור ועדת השחרורים – 30 ימים נוספים לכל היותר בכל פעם.</p>
+                        </content>
+                      </point>
+                    </list>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_37__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>חופשה כאמור יכול שתינתן בתנאים והממונה על המעונות רשאי לבטלה בכל עת אם קיימת, לדעתו, הצדקה לכך.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+        </list>
+      </chapter>
+      <chapter eId="chp_ז">
+        <num>פרק ז׳ –</num>
+        <title>
+          <content>
+            <p>טיפול עוקב</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_38">
+            <heading>
+              <authorialNote placement="side">
+                <p>טיפול עוקב</p>
+              </authorialNote>
+            </heading>
+            <num>38.</num>
+            <list>
+              <point eId="point_38__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>מי ששוחרר ממעון או ממעון נעול בתום התקופה שקבע בית המשפט לנוער לפי הוראות <ref href="#chp_ה">פרק ה׳</ref>, יעמוד תחת השגחתו של קצין מעקב שנה אחת מיום שחרורו או במשך תקופה ארוכה יותר שקבע הממונה על המעונות.</p>
+                </content>
+              </point>
+              <point eId="point_38__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>מי ששוחרר ממעון או ממעון נעול לפי החלטת ועדת שחרורים לפי <ref href="#point_36">סעיף 36</ref> יעמוד תחת השגחה כאמור שנה אחת או עד תום התקופה שקבע בית המשפט להחזקתו, הכל לפי התקופה הארוכה יותר.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_39">
+            <heading>
+              <authorialNote placement="side">
+                <p>תפקיד קצין מעקב וציות להוראותיו</p>
+              </authorialNote>
+            </heading>
+            <num>39.</num>
+            <list>
+              <point eId="point_39__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>קצין מעקב ישמור על הקשר עם כל מי שנמצא בטיפולו, ויתן את דעתו, בין השאר, למקום ולתנאים של מגוריו, ללימודיו, לעבודתו ולבילוי זמנו הפנוי.</p>
+                </content>
+              </point>
+              <point eId="point_39__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>מי ששוחרר ממעון או ממעון נעול לפי <ref href="#point_38">סעיף 38(ב)</ref> חייב לציית להוראות קצין המעקב בענינים האמורים בסעיף קטן (א) עד תום התקופה שקבע בית המשפט להחזקתו.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_40">
+            <heading>
+              <authorialNote placement="side">
+                <p>משך טיפול עוקב</p>
+              </authorialNote>
+            </heading>
+            <num>40.</num>
+            <list>
+              <point eId="point_40__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>על אף האמור <ref href="#point_38">בסעיף 38</ref>, טיפול עוקב ייפסק לאחר שמלאו לאדם עשרים ואחת שנה.</p>
+                </content>
+              </point>
+              <point eId="point_40__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>טיפול עוקב במי שמשרת שירות סדיר בצבא־הגנה לישראל יהיה בהתאם לפקודות הצבא, כמשמעותן <ref href="/akn/il/act/PrimaryLegislation/1955-07-20/148698">בחוק השיפוט הצבאי, תשט"ו–1955</ref>.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_41">
+            <heading>
+              <authorialNote placement="side">
+                <p>ביטל טיפול עוקב</p>
+              </authorialNote>
+            </heading>
+            <num>41.</num>
+            <content>
+              <p>מי שנמצא בטיפול עוקב, רשאי בית משפט לנוער, על־פי בקשתו או בקשת קצין מעקב, לקצר את תקופת הטיפול העוקב או להפסיקו אם נוכח כי אין צורך בטיפול או שהוא אינו ניתן לביצוע.
+.</p>
+            </content>
+          </point>
+        </list>
+      </chapter>
+      <chapter eId="chp_ח">
+        <num>פרק ח׳ –</num>
+        <title>
+          <content>
+            <p>שונות</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_41א">
+            <heading>
+              <authorialNote placement="side">
+                <p>שימוש באמצעי ריסון</p>
+              </authorialNote>
+            </heading>
+            <num>41א.</num>
+            <list>
+              <point eId="point_41א__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>עובד הנמנה עם צוות במעון או במעון נעול, רשאי לנקוט אמצעי ריסון סבירים כלפי קטין המוחזק בו, למעט כבילתו של הקטין, לשם מניעת בריחתו, או לשם מניעת פגיעה בגופו של הקטין או בגופו של אחר, או לשם מניעת פגיעה ממשית ברכוש; נקיטה של אמצעי ריסון לפי סעיף זה תהא במידה שאינה עולה על הנדרש לצורך השגת המטרות האמורות.</p>
+                </content>
+              </point>
+              <point eId="point_41א__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>עובד צוות כאמור בסעיף קטן (א), שנקט אמצעי ריסון כאמור באותו סעיף קטן, ידווח על כך בכתב, סמוך לנקיטת האמצעי, למנהל המעון או המעון הנעול.</p>
+                </content>
+              </point>
+              <point eId="point_41א__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>שר הרווחה והשירותים החברתיים, לאחר התייעצות עם שר המשפטים ובאישור ועדת החוקה, יקבע הוראות לעניין סעיף זה, לרבות לעניין בעלי התפקידים הרשאים לנקוט אמצעים לריסון כאמור.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_41ב">
+            <heading>
+              <authorialNote placement="side">
+                <p>החזקה בחדר נעול</p>
+              </authorialNote>
+            </heading>
+            <num>41ב.</num>
+            <list>
+              <point eId="point_41ב__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>עובד הנמנה עם צוות במעון נעול רשאי, באישור האחראי על המשמרת, להחזיק קטין הנתון להשגחתו בחדר נעול לאחת המטרות המנויות <ref href="#point_41א">בסעיף 41א(א)</ref>, לפרק זמן של 20 דקות, ורשאי הוא, באישור מנהל המעון הנעול או הרכז החינוכי שלו, להאריך את פרק הזמן האמור להחזקה בחדר הנעול לפרקי זמן נוספים של 20 דקות בכל פעם עד לפרק זמן כולל של שעתיים.</p>
+                </content>
+              </point>
+              <point eId="point_41ב__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>לא יוחלט על החזקת קטין בחדר נעול כאמור בסעיף זה, או על המשך החזקתו בחדר כאמור, אם ניתן להשיג את מטרת ההחזקה בחדר הנעול בדרך שפגיעתה בקטין פחותה.</p>
+                </content>
+              </point>
+              <point eId="point_41ב__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>עובד כאמור בסעיף קטן (א), המחזיק קטין בחדר נעול לפי הוראות אותו סעיף קטן, יבדוק, לעתים תכופות ולפחות אחת ל־20 דקות, את מצבו של הקטין ואת הצורך בהמשך החזקתו בחדר כאמור, והוא יערוך דוח בכתב שבו יפרט את נסיבות ההחזקה בחדר הנעול והעילה להחזקה כאמור, לרבות קבלת האישור להמשך ההחזקה ככל שניתן.</p>
+                </content>
+              </point>
+              <point eId="point_41ב__point_ד">
+                <num>(ד)</num>
+                <content>
+                  <p>שר הרווחה והשירותים החברתיים, לאחר התייעצות עם שר המשפטים ובאישור ועדת החוקה, יקבע הוראות לעניין סעיף זה, לרבות לעניין תנאי ההחזקה בחדר נעול, התנאים למתן אישור להמשך ההחזקה, וכן לעניין אופן התיעוד והדיווח בדבר הפעלת הסמכות לפי סעיף זה.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_42">
+            <heading>
+              <authorialNote placement="side">
+                <p>היעדרות קטין ממעון והחזרה אליו</p>
+              </authorialNote>
+            </heading>
+            <num>42.</num>
+            <list>
+              <point eId="point_42__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>מי שמוחזק במעון או במעון נעול על־פי הוראות <ref href="#chp_ד">פרקים ד׳</ref><ref href="#chp_ה">או ה׳</ref>, רואים אותו כמי שנתון במשמורת חוקית, ואם נמלט ממנו, או שבוטל שחרורו ממנו או שנסתיימה או בוטלה חופשתו ממנו, רשאי שוטר לעצרו ללא צו מעצר ולהחזיקו במעצר עד להחזרתו למעון או למעון הנעול שממנו נמלט או שוחרר.</p>
+                </content>
+              </point>
+              <point eId="point_42__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>נעצר אדם כאמור בסעיף קטן (א), תודיע המשטרה על כך מיד לממונה על המעונות; הממונה על המעונות ידאג להחזרתו למעון או למעון נעול בהקדם האפשרי ולשם כך יהיה רשאי, בשעת הצורך, לקבל עזרה מתאימה מאת המשטרה.</p>
+                </content>
+              </point>
+              <point eId="point_42__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>נמלט קטין ממעון או ממעון נעול, בוטל שחרורו ממעון כאמור או שהסתיימה או בוטלה חופשתו ממנו והוא לא שב אליו, לא תיחשב תקופת היעדרותו זו במניין תקופת החזקתו במעון או במעון הנעול, למעט תקופת היעדרותו בשל החזקתו במעצר עד להחזרתו כאמור בסעיף קטן (א), אלא אם כן הורה בית המשפט אחרת, לבקשת הממונה על המעונות או הקטין.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_43">
+            <heading>
+              <authorialNote placement="side">
+                <p>שוטטות ליד מעון</p>
+              </authorialNote>
+            </heading>
+            <num>43.</num>
+            <content>
+              <p>מי שמשוטט, או שנמצא ללא מטרה חוקית, בקרבת מעון או מעון נעול ואינו עוזב את המקום לפי דרישת האחראי על המעון או המעון הנעול או מי שהאחראי הסמיכו לכך, או שוטר, דינו – מאסר ששה חדשים.</p>
+            </content>
+          </point>
+          <point eId="point_43א">
+            <heading>
+              <authorialNote placement="side">
+                <p>מינוי ממונה על מעונות, סגן לממונה ומפקחים, ואצילת סמכויות</p>
+              </authorialNote>
+            </heading>
+            <num>43א.</num>
+            <list>
+              <point eId="point_43א__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>שר הרווחה והשירותים החברתיים ימנה, מבין עובדי משרדו, ממונה על המעונות, שיהיו לו הסמכויות כמפורט בחוק זה; כן רשאי שר הרווחה והשירותים החברתיים למנות, מבין עובדי משרדו, סגן לממונה על המעונות ומפקחים ארציים ואזוריים על מעונות.</p>
+                </content>
+              </point>
+              <point eId="point_43א__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>הממונה על המעונות רשאי לאצול מסמכויותיו לפי חוק זה, למעט סמכויותיו לפי <ref href="#point_31">סעיף 31(ב)</ref>, לסגנו ולמפקחים כאמור בסעיף קטן (א).</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_44">
+            <heading>
+              <authorialNote placement="side">
+                <p>ביצוע ותקנות</p>
+              </authorialNote>
+            </heading>
+            <num>44.</num>
+            <list>
+              <point eId="point_44__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>שר הרווחה והשירותים החברתיים ממונה על ביצוע חוק זה והוא רשאי להתקין תקנות בכל ענין הנוגע לביצועו, לרבות התנאים שבהם יוחזקו קטינים במעונות ובמעונות נעולים.</p>
+                </content>
+              </point>
+              <point eId="point_44__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>שר המשפטים רשאי להתקין תקנות סדרי דין לבתי המשפט לנוער במידה שלא נקבעו בחוק, ורשאי הוא, בהתייעצות עם שר הרווחה והשירותים החברתיים, להתקין תקנות סדרי דין להליכים לפני ועדת שחרורים.</p>
+                </content>
+              </point>
+              <point eId="point_44__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>תקנות לפי <ref href="/akn/il/act/PrimaryLegislation/1933-12-31/2001433">פקודת הפרוצדורה הפלילית (עדות)</ref> בדבר טביעת אצבעות של קטינים טעונות התייעצות עם שר הרווחה והשירותים החברתיים וועדת העבודה הרווחה והבריאות של הכנסת.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_44א">
+            <heading>
+              <authorialNote placement="side">
+                <p>שינוי התוספת</p>
+              </authorialNote>
+            </heading>
+            <num>44א.</num>
+            <content>
+              <p>השר לביטחון הפנים, באישור ועדת החוקה, רשאי לשנות בצו את <ref href="#appendix">התוספת</ref>.</p>
+            </content>
+          </point>
+          <point eId="point_45">
+            <heading>
+              <authorialNote placement="side">
+                <p>אי תחולה על חיילים</p>
+              </authorialNote>
+            </heading>
+            <num>45.</num>
+            <content>
+              <p>חוק זה לא יחול על הליכים לפי <ref href="/akn/il/act/PrimaryLegislation/1955-07-20/148698">חוק השיפוט הצבאי, תשט"ו–1955</ref> – לרבות הליכים לפני המשפט בבית דין צבאי והליכים בדין משמעתי לפי <ref href="/akn/il/act/PrimaryLegislation/1955-07-20/148698">החוק האמור</ref>.</p>
+            </content>
+          </point>
+          <point eId="point_45א">
+            <heading>
+              <authorialNote placement="side">
+                <p>תחולה על בית משפט צבאי</p>
+              </authorialNote>
+            </heading>
+            <num>45א.</num>
+            <list>
+              <intro>
+                <p>על אף האמור בחוק זה, ניתן להעמיד לדין קטין שמלאו לו שש עשרה שנים לפני בית משפט צבאי לפי <ref href="/akn/il/act/PrimaryLegislation/1945-09-27/2002068">תקנות ההגנה (שעת־חירום), 1945</ref>; לענין זה יחולו הוראות חוק זה למעט הוראות <ref href="#point_3">סעיפים 3</ref><ref href="#point_6">ו־6</ref> ויהיו לבית המשפט הצבאי הסמכויות האמורות <ref href="#chp_ה">בפרק ה׳</ref> והכל בשינויים אלה:</p>
+              </intro>
+              <point eId="point_45א__point_1">
+                <num>(1)</num>
+                <content>
+                  <p>בכל מקום, במקום ”בית משפט לנוער“ יבוא "בית משפט צבאי שכל שופטיו שופטי נוער, שימונו על ידי ראש המטה הכללי של צבא ההגנה לישראל בהמלצת נשיא בית הדין הצבאי לערעורים, ושקיבלו הכשרה כאמור <ref href="#point_2">בסעיף 2(א)</ref> במתכונת שתאושר על ידי נשיא בית הדין הצבאי לערעורים;</p>
+                </content>
+              </point>
+              <point eId="point_45א__point_2">
+                <num>(2)</num>
+                <content>
+                  <p>
+                    <ref href="#point_4">בסעיף 4(א)</ref>, במקום ”היועץ המשפטי לממשלה“ יבוא ”הפרקליט הצבאי הראשי“;</p>
+                </content>
+              </point>
+              <point eId="point_45א__point_3">
+                <num>(3)</num>
+                <content>
+                  <p>
+                    <ref href="#point_7">בסעיף 7</ref>, במקום ”נשיא בית המשפט העליון“ יבוא ”נשיא בית הדין הצבאי לערעורים“ ובמקום ”והוראות <ref href="/akn/il/act/PrimaryLegislation/1984-08-13/2002218#point_31">סעיף 9(ב) עד (ד) לחוק בתי המשפט, התשי"ז–1957</ref>“ יבוא ”והוראות <ref href="/akn/il/act/PrimaryLegislation/1955-07-20/148698#point_440ח">סעיף 440ח לחוק השיפוט הצבאי, התשט"ו–1955</ref>“.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_45ב">
+            <heading>
+              <authorialNote placement="side">
+                <p>סייג לתחולה על עבירות תעבורה</p>
+              </authorialNote>
+            </heading>
+            <num>45ב.</num>
+            <list>
+              <point eId="point_45ב__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>על אף הוראות חוק זה, קטין שעבר עבירת תעבורה כמשמעותה <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_התעבורה">בפקודת התעבורה</ref>, הכרוכה בנהיגת רכב מנועי או עבירה על <ref href="/akn/il/act/PrimaryLegislation/1975-08-08/148291">פקודת ביטוח רכב מנועי [נוסח חדש], התש"ל–1970</ref>, הכרוכה בשימוש ברכב מנועי, יועמד לדין לפני שופט תעבורה, אם הוא היה כשיר מבחינת גילו, לקבל רשיון נהיגה לרכב המנועי שבו נעברה העבירה.</p>
+                </content>
+              </point>
+              <point eId="point_45ב__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>הוראות סעיף קטן (א) לא יחולו על קטין שעבר עבירת תעבורה שבה הוא נהג בהיותו שיכור כאמור <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_התעבורה#point_64ב">בסעיף 64ב לפקודת התעבורה</ref>, או שעבר עבירה לפי <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_התעבורה#point_10">סעיף 10(א) לפקודת התעבורה</ref>, למעט עבירה של נהיגת רכב שנעברה בידי מי שהיה בעל רישיון נהיגה שלא חודש.</p>
+                </content>
+              </point>
+              <point eId="point_45ב__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>על הליכים כאמור בסעיף קטן (א) לא יחולו הוראות חוק זה למעט <ref href="#point_10">סעיפים 10</ref>, <ref href="#point_11">11</ref>, <ref href="#point_13">13 עד 19</ref>, <ref href="#point_35">35 עד 37</ref>, ויהיו לשופט תעבורה הסמכויות האמורות <ref href="#chp_ה">בפרק ה׳</ref> ואולם לא יתן בית המשפט צו לפי <ref href="#point_26">סעיף 26(1) עד (6)</ref> אלא לאחר שקיבל תסקיר של קצין מבחן לפי <ref href="#point_22">סעיף 22</ref>.</p>
+                </content>
+              </point>
+              <point eId="point_45ב__point_ד">
+                <num>(ד)</num>
+                <content>
+                  <p>שופט תעבורה רשאי, מטעמים מיוחדים שיירשמו, לרבות נסיבות העבירה ותוצאותיה, ואם ראה צורך בכך לטובת הקטין, להעביר את הדיון לבית המשפט לנוער, ומשהועבר הדיון כאמור, רשאי הוא לדון בו מן השלב שאליו הגיע שופט התעבורה.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_46">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>46.</num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryLegislation/1960-07-14/150256">בחוק הנוער (טיפול והשגחה), תש"ך–1960</ref>.</wikicomment>
+              </p>
+            </content>
+          </point>
+          <point eId="point_47">
+            <heading>
+              <authorialNote placement="side">
+                <p>הוראות מעבר</p>
+              </authorialNote>
+            </heading>
+            <num>47.</num>
+            <list>
+              <point eId="point_47__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>הוגש לבית משפט כתב אישום לפני תחילתו של חוק זה, יימשכו הליכי המשפט, לרבות הדיון בערעור, כאילו לא נכנס חוק זה לתקפו, אולם יהיו לבית המשפט כל הסמכויות של בית משפט לנוער לפי <ref href="#chp_ה">פרק ה׳</ref>.</p>
+                </content>
+              </point>
+              <point eId="point_47__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>הוראות <ref href="#point_30">סעיפים 30 עד 34</ref><ref href="#chp_ו">ופרקים ו׳</ref><ref href="#chp_ז">ו־ז׳ לחוק זה</ref> יחולו, בשינויים המחוייבים, על ענשים ודרכי טיפול שציווה עליהם בית המשפט לעבריינים צעירים בתוקף סמכותו לפי פקודת העבריינים הצעירים, 1937.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_48">
+            <heading>
+              <authorialNote placement="side">
+                <p>ביטול</p>
+              </authorialNote>
+            </heading>
+            <num>48.</num>
+            <content>
+              <p>פקודת העבריינים הצעירים, 1937 – בטלה.</p>
+            </content>
+          </point>
+          <point eId="point_49">
+            <heading>
+              <authorialNote placement="side">
+                <p>תחילה</p>
+              </authorialNote>
+            </heading>
+            <num>49.</num>
+            <list>
+              <point eId="point_49__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>תחילתו של חוק זה בתום חודש מיום פרסומו ברשומות, בכפוף לאמור להלן.</p>
+                </content>
+              </point>
+              <point eId="point_49__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>לגבי קטינים ממין זכר שמלאו להם שש עשרה שנה, תחילתו של חוק זה ביום שנקבע בצו של שר הסעד בהסכמת שר המשפטים, אולם לא יאוחר מהיום הקובע האמור בסעיף קטן(ה).</p>
+                </content>
+              </point>
+              <point eId="point_49__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>תחילתו של <ref href="#point_13">סעיף 13(א)</ref> – לגבי מחוז הדרום – למעט נפת אשקלון – ביום ל׳ בכסלו התשמ"ז (1 בינואר 1987) ובלבד שעד למועד האמור לא יוחזק קטין במעצר יחד עם אדם שאינו קטין.</p>
+                </content>
+              </point>
+              <point eId="point_49__point_ד">
+                <num>(ד)</num>
+                <content>
+                  <p>צווים לפי סעיפים קטנים (ב) או (ג) יכול שיהיו מסווגים לפי עבירות או לפי גיל הקטינים; צווים לפי סעיף קטן (ב) יכול שיהיו מסווגים אף לפי סעיפי חוק זה או לפי דרכי טיפול.</p>
+                </content>
+              </point>
+              <point eId="point_49__point_ה">
+                <num>(ה)</num>
+                <content>
+                  <p>”היום הקובע“, לענין סעיף זה – יום כ׳ בניסן תשל"ה (1 באפריל 1975), אולם שר הסעד, בהתייעצות עם ועדת השירותים הציבוריים של הכנסת, רשאי, לפני המועד האמור, לקבוע לכך יום אחר, שאינו יותר משנתיים אחריו</p>
+                </content>
+              </point>
+            </list>
+          </point>
+        </list>
+      </chapter>
+      <appendix eId="appendix">
+        <num></num>
+        <title>
+          <content>
+            <p>תוספת</p>
+          </content>
+        </title>
+        <subtitle eId="eId">
+          <num></num>
+          <content>
+            <p>
+              <wikicomment font-size="x-small">(<ref href="#point_9ד">סעיפים 9ד</ref><ref href="#point_9י">ו־9י</ref>)</wikicomment>
+            </p>
+          </content>
+        </subtitle>
+        <subtitle eId="eId">
+          <num></num>
+          <content>
+            <p>חקירת קטינים בשעות הלילה</p>
+          </content>
+        </subtitle>
+        <part eId="part_א">
+          <num>חלק א׳</num>
+          <title>
+            <content>
+              <p />
+            </content>
+          </title>
+          <subtitle eId="eId">
+            <num></num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">לעניין <ref href="#point_9ד">סעיפים 9ד(ג)(3)(א)</ref><ref href="#point_9י">ו־9י(2)</ref></wikicomment>
+              </p>
+            </content>
+          </subtitle>
+          <list>
+            <point eId="appendix__point_none">
+              <heading>
+                <authorialNote placement="side">
+                  <p xml:space="preserve"> </p>
+                </authorialNote>
+              </heading>
+              <num></num>
+              <content>
+                <p>
+                  <span style="font-weight: bold">עבירות <ref href="/akn/il/act/PrimaryLegislation/1977-08-04/2002251">בחוק העונשין</ref>:</span> עבירות לפי <ref href="/akn/il/act/PrimaryLegislation/1977-08-04/2002251#point_170">סעיפים 170</ref>, <ref href="/akn/il/act/PrimaryLegislation/1977-08-04/2002251#point_244">244</ref>, <ref href="/akn/il/act/PrimaryLegislation/1977-08-04/2002251#point_273">273</ref>, <ref href="/akn/il/act/PrimaryLegislation/1977-08-04/2002251#point_304">304</ref>, <ref href="/akn/il/act/PrimaryLegislation/1977-08-04/2002251#point_334">334</ref>, <ref href="/akn/il/act/PrimaryLegislation/1977-08-04/2002251#point_348">348(ג)</ref>, <ref href="/akn/il/act/PrimaryLegislation/1977-08-04/2002251#point_349">349</ref>, <ref href="/akn/il/act/PrimaryLegislation/1977-08-04/2002251#point_380">380</ref>, <ref href="/akn/il/act/PrimaryLegislation/1977-08-04/2002251#point_497">497</ref><ref href="/akn/il/act/PrimaryLegislation/1977-08-04/2002251#point_498">או 498(א)</ref>.</p>
+              </content>
+            </point>
+            <point eId="appendix__point_none">
+              <heading>
+                <authorialNote placement="side">
+                  <p xml:space="preserve"> </p>
+                </authorialNote>
+              </heading>
+              <num></num>
+              <content>
+                <p>
+                  <span style="font-weight: bold">עבירות <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_התעבורה">בפקודת התעבורה</ref></span>: עבירות לפי <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_התעבורה#point_10">סעיפים 10(א)</ref>, למעט נהיגה בידי מי שהיה בעל רישיון נהיגה ולא חידשו, <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_התעבורה#point_62">62(3)</ref>, או <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_התעבורה#point_64ד">64ד</ref>, או עבירה אחרת לפי <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_התעבורה">פקודת התעבורה</ref> שגרמה לתאונת דרכים שתוצאתה נזק לגוף או נזק חמור לרכוש; ובלבד שהקצין המוסמך או הקצין הממונה על חקירת העבירה, לפי העניין, סבר כי העבירה בוצעה בסמוך למועד חקירת הקטין.</p>
+              </content>
+            </point>
+          </list>
+        </part>
+        <part eId="part_ב">
+          <num>חלק ב׳</num>
+          <title>
+            <content>
+              <p />
+            </content>
+          </title>
+          <subtitle eId="eId">
+            <num></num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">לעניין <ref href="#point_9י">סעיף 9י(2)</ref></wikicomment>
+              </p>
+            </content>
+          </subtitle>
+          <list>
+            <point eId="appendix__point_none">
+              <heading>
+                <authorialNote placement="side">
+                  <p xml:space="preserve"> </p>
+                </authorialNote>
+              </heading>
+              <num></num>
+              <content>
+                <p>
+                  <span style="font-weight: bold">עבירות <ref href="/akn/il/act/PrimaryLegislation/1977-08-04/2002251">בחוק העונשין</ref></span>: עבירות לפי <ref href="/akn/il/act/PrimaryLegislation/1977-08-04/2002251#point_191">סעיפים 191</ref>, <ref href="/akn/il/act/PrimaryLegislation/1977-08-04/2002251#point_192">192</ref><ref href="/akn/il/act/PrimaryLegislation/1977-08-04/2002251#point_381">או 381</ref>; ובלבד שהקצין המוסמך סבר כי העבירה בוצעה בסמוך למועד חקירת הקטין.</p>
+              </content>
+            </point>
+            <point eId="appendix__point_none">
+              <heading>
+                <authorialNote placement="side">
+                  <p xml:space="preserve"> </p>
+                </authorialNote>
+              </heading>
+              <num></num>
+              <content>
+                <p>
+                  <span style="font-weight: bold">עבירות <ref href="/akn/il/act/PrimaryLegislation/1973-07-10/2002282">בפקודת הסמים המסוכנים [נוסח חדש], התשל"ג–1973</ref></span>: עבירות לפי <ref href="/akn/il/act/PrimaryLegislation/1973-07-10/2002282#point_7">סעיף 7(ג)</ref>; ובלבד שהקצין המוסמך סבר כי העבירה בוצעה בסמוך למועד חקירת הקטין.</p>
+              </content>
+            </point>
+          </list>
+        </part>
+      </appendix>
+    </body>
+    <conclusions eId="eId">
+      <p class="signatures">
+        <signature>
+          <p>
+            <person refersTo="גולדה_מאיר">גולדה מאיר</person>
+            <role refersTo="ראש_הממשלה">ראש הממשלה</role>
+          </p>
+        </signature>
+        <signature>
+          <p>
+            <person refersTo="מיכאל_חזני">מיכאל חזני</person>
+            <role refersTo="שר_הסעד">שר הסעד</role>
+          </p>
+        </signature>
+        <signature>
+          <p>
+            <person refersTo="שניאור_זלמן_שזר">שניאור זלמן שזר</person>
+            <role refersTo="נשיא_המדינה">נשיא המדינה</role>
+          </p>
+        </signature>
+      </p>
+    </conclusions>
+  </act>
+</akomaNtoso>

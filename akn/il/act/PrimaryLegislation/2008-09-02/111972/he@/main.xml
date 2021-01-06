@@ -1,0 +1,908 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion" name="publicLaw">
+    <meta>
+      <identification source="#kensset">
+        <FRBRWork>
+          <FRBRthis value="/akn/il/act/PrimaryLegislation/2008-09-02/111972/main" />
+          <FRBRuri value="/akn/il/act/PrimaryLegislation/2008-09-02/111972" />
+          <FRBRdate date="2008-09-02" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRcountry value="israel" />
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/il/act/PrimaryLegislation/2008-09-02/111972/he@/main" />
+          <FRBRuri value="/akn/il/act/PrimaryLegislation/2008-09-02/111972/he@" />
+          <FRBRdate date="2008-09-02" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRlanguage language="hebrew" />
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/il/act/PrimaryLegislation/2008-09-02/111972/he@/main.xml" />
+          <FRBRuri value="/akn/il/act/PrimaryLegislation/2008-09-02/111972/he@" />
+          <FRBRdate date="2008-09-02" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRformat value="xml" />
+        </FRBRManifestation>
+      </identification>
+      <classification source="#kensset">
+        <keyword value="{classificationValue}" showAs="{classificationValue}" dictionary="#classification_dictionary" />
+      </classification>
+      <lifecycle source="#kensset">
+        <eventRef eId="eventRef_1" date="2008-09-02" source="#kensset" type="generation" />
+      </lifecycle>
+      <references source="#kensset">
+        <TLCOrganization eId="kensset" href="/ontology/organization/akn/knesset" showAs="Kensset" type="generation" />
+        <TLCRole eId="author" href="/ontology/role/akn/author" showAs="Author of Document" />
+        <TLCProcess eId="inforce" href="/ontology/process/akn/inforce" showAs="In force" />
+        <TLCTerm eId="term_1" href="/ontology/term/איש_צוות/111972" showAs="איש_צוות" />
+        <TLCTerm eId="term_2" href="/ontology/term/בעל_כלי_שיט/111972" showAs="בעל_כלי_שיט" />
+        <TLCTerm eId="term_3" href="/ontology/term/האמנה/111972" showAs="האמנה" />
+        <TLCTerm eId="term_4" href="/ontology/term/חוק_המעצרים/111972" showAs="חוק_המעצרים" />
+        <TLCTerm eId="term_5" href="/ontology/term/כלי_שיט/111972" showAs="כלי_שיט" />
+        <TLCTerm eId="term_6" href="/ontology/term/כלי_שיט_ישראלי/111972" showAs="כלי_שיט_ישראלי" />
+        <TLCTerm eId="term_7" href="/ontology/term/כלי_שיט_צבאי/111972" showAs="כלי_שיט_צבאי" />
+        <TLCTerm eId="term_8" href="/ontology/term/מדינה_חברה/111972" showAs="מדינה_חברה" />
+        <TLCTerm eId="term_9" href="/ontology/term/מדף_יבשתי/111972" showAs="מדף_יבשתי" />
+        <TLCTerm eId="term_10" href="/ontology/term/מיתקן_ימי/111972" showAs="מיתקן_ימי" />
+        <TLCTerm eId="term_11" href="/ontology/term/המרשם_הישראלי/111972" showAs="המרשם_הישראלי" />
+        <TLCTerm eId="term_12" href="/ontology/term/נמל/111972" showAs="נמל" />
+        <TLCTerm eId="term_13" href="/ontology/term/נציג_ישראלי/111972" showAs="נציג_ישראלי" />
+        <TLCTerm eId="term_14" href="/ontology/term/נציג_משרד_החוץ/111972" showAs="נציג_משרד_החוץ" />
+        <TLCTerm eId="term_15" href="/ontology/term/פקודת_סדר_הדין_הפלילי/111972" showAs="פקודת_סדר_הדין_הפלילי" />
+        <TLCTerm eId="term_16" href="/ontology/term/קברניט/111972" showAs="קברניט" />
+        <TLCTerm eId="term_17" href="/ontology/term/קצין_משטרה_ממונה/111972" showAs="קצין_משטרה_ממונה" />
+        <TLCTerm eId="term_18" href="/ontology/term/קצין_צבא_ממונה/111972" showAs="קצין_צבא_ממונה" />
+        <TLCPerson eId="אהוד_אולמרט" href="/ontology/person/אהוד_אולמרט" showAs="אהוד אולמרט" />
+        <TLCPerson eId="שאול_מופז" href="/ontology/person/שאול_מופז" showAs="שאול מופז" />
+        <TLCPerson eId="שמעון_פרס" href="/ontology/person/שמעון_פרס" showAs="שמעון פרס" />
+        <TLCPerson eId="דליה_איציק" href="/ontology/person/דליה_איציק" showAs="דליה איציק" />
+        <TLCRole eId="ראש_הממשלה" href="ontology/role/akn/ראש_הממשלה" showAs="ראש הממשלה" />
+        <TLCRole eId="שר_התחבורה_והבטיחות_בדרכים" href="ontology/role/akn/שר_התחבורה_והבטיחות_בדרכים" showAs="שר התחבורה והבטיחות בדרכים" />
+        <TLCRole eId="נשיא_המדינה" href="ontology/role/akn/נשיא_המדינה" showAs="נשיא המדינה" />
+        <TLCRole eId="יושבת_ראש_הכנסת" href="ontology/role/akn/יושבת_ראש_הכנסת" showAs="יושבת ראש הכנסת" />
+      </references>
+      <temporalData source="#kensset">
+        <temporalGroup eId="tmpg_1" />
+      </temporalData>
+      <Publication></Publication>
+      <proprietary wikiversion="7/22/2020 10:26:31 PM" />
+    </meta>
+    <body period="#tmpg_1">
+      <title eId="title">
+        <content>
+          <p>חוק הספנות (עבירות נגד ביטחון השיט הבין־לאומי ומיתקנים ימיים), התשס"ח–2008</p>
+        </content>
+      </title>
+      <chapter eId="chp_א">
+        <num>פרק א׳:</num>
+        <title>
+          <content>
+            <p>הגדרות ותחולה</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_1" class="definitions">
+            <heading>
+              <authorialNote placement="side">
+                <p>הגדרות</p>
+              </authorialNote>
+            </heading>
+            <num>1.</num>
+            <list>
+              <intro>
+                <p>בחוק זה –</p>
+              </intro>
+              <point eId="point_1__point_איש_צוות">
+                <content>
+                  <p>
+                    <def />”איש צוות“ – עובד של בעל כלי שיט הממלא תפקיד בכלי השיט, לרבות חייל בכלי שיט צבאי;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_בעל_כלי_שיט">
+                <list>
+                  <intro>
+                    <p>
+                      <def />”בעל כלי שיט“, לגבי כלי שיט ישראלי –</p>
+                  </intro>
+                  <point eId="point_1__point_בעל_כלי_שיט__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>לפסקה (1) בהגדרה ”כלי שיט ישראלי“ – מי שרשום במרשם הישראלי לכלי שיט כבעל כלי שיט;</p>
+                    </content>
+                  </point>
+                  <point eId="point_1__point_בעל_כלי_שיט__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>לפסקה (2) בהגדרה ”כלי שיט ישראלי“ – הגורם הישראלי בעל השליטה בכלי השיט כמשמעותו <ref href="/akn/il/act/PrimaryLegislation/2005-08-21/79554">בחוק הספנות (כלי שיט זר בשליטה של גורם ישראלי), התשס"ה–2005</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_1__point_בעל_כלי_שיט__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>לפסקה (3) בהגדרה ”כלי שיט ישראלי“ – צבא הגנה לישראל;</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_1__point_האמנה">
+                <list>
+                  <intro>
+                    <p>
+                      <def />”האמנה“ – אחד מאלה:</p>
+                  </intro>
+                  <point eId="point_1__point_האמנה__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>
+                        <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/http_www_un_org_en_sc_ctc_docs_conventions_Conv8_pdf">אמנת רומא בדבר דיכוי פעולות בלתי חוקיות נגד ביטחון השיט, משנת 1988</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_1__point_האמנה__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>
+                        <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/http_www_un_org_en_sc_ctc_docs_conventions_Conv8_pdf">הפרוטוקול בדבר דיכוי פעולות בלתי חוקיות נגד ביטחון מיתקנים ימיים המוצבים במדף היבשת, שנערך ברומא בשנת 1988</ref>;</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_1__point_חוק_המעצרים">
+                <content>
+                  <p>
+                    <def />”חוק המעצרים“ – <ref href="/akn/il/act/PrimaryLegislation/1996-05-12/159712">חוק סדר הדין הפלילי (סמכויות אכיפה – מעצרים), התשנ"ו–1996</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_כלי_שיט">
+                <content>
+                  <p>
+                    <def />”כלי שיט“ – כהגדרתו <ref href="/akn/il/act/PrimaryLegislation/1960-08-14/148043">בחוק הספנות (כלי שיט), התש"ך–1960</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_כלי_שיט_ישראלי">
+                <list>
+                  <intro>
+                    <p>
+                      <def />”כלי שיט ישראלי“ – אחד מאלה:</p>
+                  </intro>
+                  <point eId="point_1__point_כלי_שיט_ישראלי__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>כלי שיט ישראלי כהגדרתו <ref href="/akn/il/act/PrimaryLegislation/1960-08-14/148043">בחוק הספנות (כלי שיט), התש"ך–1960</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_1__point_כלי_שיט_ישראלי__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>כלי שיט המצוות באנשי צוות ישראלים כהגדרתם <ref href="/akn/il/act/PrimaryLegislation/1973-08-24/148044">בחוק הספנות (ימאים), התשל"ג–1973</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_1__point_כלי_שיט_ישראלי__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>כלי שיט צבאי;</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_1__point_כלי_שיט_צבאי">
+                <content>
+                  <p>
+                    <def />”כלי שיט צבאי“ – כלי שיט של צבא הגנה לישראל או כלי שיט המסור לשליטתו של אדם בשירות צבא הגנה לישראל, המופקד עליו;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_מדינה_חברה">
+                <content>
+                  <p>
+                    <def />”מדינה חברה“ – מדינה שהיא צד לאמנה;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_מדף_יבשתי">
+                <content>
+                  <p>
+                    <def />”מדף יבשתי“ – קרקע הים ותת־קרקע הים של השטחים התת־ימיים שמעבר לשטח המים הטריטוריאליים של מדינה, שהם ההמשך הטבעי של שטח אותה מדינה, עד לקצה שולי היבשת;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_מיתקן_ימי">
+                <content>
+                  <p>
+                    <def />”מיתקן ימי“ – אי מלאכותי וכן כל מיתקן או מבנה המחובר לקרקעית הים באופן קבוע, המשמש למטרת מחקר או ניצול משאבים או למטרה כלכלית אחרת;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_המרשם_הישראלי">
+                <content>
+                  <p>
+                    <def />”המרשם הישראלי“ – כהגדרתו <ref href="/akn/il/act/PrimaryLegislation/1960-08-14/148043">בחוק הספנות (כלי שיט), התש"ך–1960</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_נמל">
+                <content>
+                  <p>
+                    <def />”נמל“ – כהגדרתו <ref href="/akn/il/act/PrimaryLegislation/1971-07-28/2002280">בפקודת הנמלים [נוסח חדש], התשל"א–1971</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_נציג_ישראלי">
+                <content>
+                  <p>
+                    <def />”נציג ישראלי“ – נציג דיפלומטי או קונסולרי של ישראל במדינת חוץ;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_נציג_משרד_החוץ">
+                <content>
+                  <p>
+                    <def />”נציג משרד החוץ“ – ראש החטיבה הקונסולרית במשרד החוץ;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_פקודת_סדר_הדין_הפלילי">
+                <content>
+                  <p>
+                    <def />”פקודת סדר הדין הפלילי“ – <ref href="/akn/il/act/PrimaryLegislation/1969-02-16/2001931">פקודת סדר הדין הפלילי (מעצר וחיפוש) [נוסח חדש], התשכ"ט–1969</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_קברניט">
+                <content>
+                  <p>
+                    <def />”קברניט“ – מי שבידו הפיקוד החוקי על כלי השיט;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_קצין_משטרה_ממונה">
+                <content>
+                  <p>
+                    <def />”קצין משטרה ממונה“ – קצין ממונה כמשמעותו <ref href="/akn/il/act/PrimaryLegislation/1996-05-12/159712#point_25">בסעיף 25(א) לחוק המעצרים</ref>, בתחנת המשטרה שבתחום אחריותה מצוי הנמל שאותו עתיד כלי השיט לפקוד;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_קצין_צבא_ממונה">
+                <content>
+                  <p>
+                    <def />”קצין צבא ממונה“ – קצין בצבא הגנה לישראל בדרגת סגן אלוף ומעלה, שראש המטה הכללי בצבא הגנה לישראל מינהו לעניין חוק זה.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_2">
+            <heading>
+              <authorialNote placement="side">
+                <p>תחולה</p>
+              </authorialNote>
+            </heading>
+            <num>2.</num>
+            <list>
+              <point eId="point_2__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>הוראות חוק זה יחולו לגבי כלי שיט ישראלי המפליג או המתוכנן להפליג בהפלגה שאינה מוגבלת לשטח המים הטריטוריאליים של מדינה אחת.</p>
+                </content>
+              </point>
+              <point eId="point_2__point_ב">
+                <num>(ב)</num>
+                <list>
+                  <intro>
+                    <p>בלי לגרוע מהוראות סעיף קטן (א), הוראות <ref href="#chp_ב">פרקים ב׳</ref><ref href="#chp_ה">ו־ה׳</ref> יחולו גם על כלי שיט שאינו כלי שיט ישראלי ועל מיתקן ימי כמפורט להלן:</p>
+                  </intro>
+                  <point eId="point_2__point_ב__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>כלי שיט המפליג או המתוכנן להפליג בהפלגה שאינה מוגבלת לשטח המים הטריטוריאליים של מדינה אחת;</p>
+                    </content>
+                  </point>
+                  <point eId="point_2__point_ב__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>מיתקן ימי הנמצא במדף היבשתי של ישראל או של מדינה חברה אחרת.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+            </list>
+          </point>
+        </list>
+      </chapter>
+      <chapter eId="chp_ב">
+        <num>פרק ב׳:</num>
+        <title>
+          <content>
+            <p>עבירות</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_3">
+            <heading>
+              <authorialNote placement="side">
+                <p>השתלטות על כלי שיט או מיתקן ימי</p>
+              </authorialNote>
+            </heading>
+            <num>3.</num>
+            <list>
+              <intro>
+                <p>העושה אחד מאלה, דינו – מאסר עשרים שנים:</p>
+              </intro>
+              <point eId="point_3__point_1">
+                <num>(1)</num>
+                <content>
+                  <p>משתלט בכוח או תוך איום להפעיל כוח על כלי שיט או על מיתקן ימי;</p>
+                </content>
+              </point>
+              <point eId="point_3__point_2">
+                <num>(2)</num>
+                <content>
+                  <p>תופס בכוח או תוך איום להפעיל כוח כלי שיט או מיתקן ימי.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_4">
+            <heading>
+              <authorialNote placement="side">
+                <p>סיכון כלי שיט</p>
+              </authorialNote>
+            </heading>
+            <num>4.</num>
+            <list>
+              <point eId="point_4__point_א">
+                <num>(א)</num>
+                <list>
+                  <intro>
+                    <p>העושה אחד מאלה ומסכן בכך או עלול לסכן בכך את ביטחון הפלגת כלי השיט או את ביטחון כלי השיט, דינו – מאסר 15 שנים:</p>
+                  </intro>
+                  <point eId="point_4__point_א__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>תוקף אדם הנמצא על כלי השיט;</p>
+                    </content>
+                  </point>
+                  <point eId="point_4__point_א__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>גורם נזק לכלי שיט או למטענו;</p>
+                    </content>
+                  </point>
+                  <point eId="point_4__point_א__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>מכניס לכלי השיט, בדרך כל שהיא, מכשיר או חומר העלול לגרום נזק לכלי השיט או למטענו;</p>
+                    </content>
+                  </point>
+                  <point eId="point_4__point_א__point_4">
+                    <num>(4)</num>
+                    <content>
+                      <p>גורם נזק לעזרי ניווט או משבש את פעולתם התקינה;</p>
+                    </content>
+                  </point>
+                  <point eId="point_4__point_א__point_5">
+                    <num>(5)</num>
+                    <content>
+                      <p>מוסר מידע כוזב.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_4__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>עשה כאמור בסעיף קטן (א) וגרם למותו של אדם או גרם לאדם חבלה חמורה, דינו – מאסר עשרים שנים.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_5">
+            <heading>
+              <authorialNote placement="side">
+                <p>סיכון מיתקן ימי</p>
+              </authorialNote>
+            </heading>
+            <num>5.</num>
+            <list>
+              <point eId="point_5__point_א">
+                <num>(א)</num>
+                <list>
+                  <intro>
+                    <p>העושה אחד מאלה ומסכן בכך או עלול לסכן בכך את ביטחונו של מיתקן ימי, דינו – מאסר 15 שנים:</p>
+                  </intro>
+                  <point eId="point_5__point_א__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>תוקף אדם הנמצא על המיתקן הימי;</p>
+                    </content>
+                  </point>
+                  <point eId="point_5__point_א__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>גורם נזק למיתקן הימי;</p>
+                    </content>
+                  </point>
+                  <point eId="point_5__point_א__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>מכניס למיתקן הימי, בכל דרך שהיא, מכשיר או חומר העלול לגרום נזק למיתקן הימי.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_5__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>עשה כאמור בסעיף קטן (א) וגרם למותו של אדם או גרם לאדם חבלה חמורה, דינו – מאסר עשרים שנים.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+        </list>
+      </chapter>
+      <chapter eId="chp_ג">
+        <num>פרק ג׳:</num>
+        <title>
+          <content>
+            <p>סמכויות אכיפה בכלי שיט ישראלי</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_6">
+            <heading>
+              <authorialNote placement="side">
+                <p>סמכויות הקברניט כלפי מי שמסכן את כלי השיט</p>
+              </authorialNote>
+            </heading>
+            <num>6.</num>
+            <list>
+              <point eId="point_6__point_א">
+                <num>(א)</num>
+                <list>
+                  <intro>
+                    <p>היה לקברניט כלי שיט יסוד סביר לחשד כי אדם הנמצא בכלי השיט עבר עבירה לפי הוראות <ref href="#chp_ב">פרק ב׳</ref> או כי הוא עומד לעבור עבירה כאמור, או כי הוא מסכן או עלול לסכן את ביטחון כלי השיט, בני האדם או הרכוש שבו, רשאי הקברניט:</p>
+                  </intro>
+                  <point eId="point_6__point_א__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>לדרוש מאותו אדם למסור לו את שמו ומענו ולהציג לפניו תעודה מזהה;</p>
+                    </content>
+                  </point>
+                  <point eId="point_6__point_א__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>לחקור את אותו אדם; לשם חקירה כאמור יהיו לקברניט הסמכויות הנתונות לקצין משטרה לפי <ref href="/akn/il/act/PrimaryLegislation/1933-12-31/2001433#point_2">סעיף 2 לפקודת הפרוצדורה הפלילית (עדות)</ref>, והוראות <ref href="/akn/il/act/PrimaryLegislation/1933-12-31/2001433#point_2">הסעיף האמור</ref><ref href="/akn/il/act/PrimaryLegislation/1933-12-31/2001433#point_3">וסעיף 3 לאותה פקודה</ref> יחולו על החקירה;</p>
+                    </content>
+                  </point>
+                  <point eId="point_6__point_א__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>לעכב את אותו אדם כדי לברר את זהותו ומענו, כדי לחקור אותו במקום הימצאו או כדי למנוע סכנה לשלומו או לביטחונו של אדם; על עיכוב כאמור יחולו הוראות <ref href="/akn/il/act/PrimaryLegislation/1996-05-12/159712#point_73">סעיפים 73</ref><ref href="/akn/il/act/PrimaryLegislation/1996-05-12/159712#point_74">ו־74 לחוק המעצרים</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_6__point_א__point_4">
+                    <num>(4)</num>
+                    <list>
+                      <intro>
+                        <p>לעצור את אותו אדם, ולהחזיקו במעצר בכלי השיט במקום שיקבע לכך, ובלבד שסבר כי המעצר דרוש לשם מסירתו לקצין משטרה ממונה או לנציג ישראלי לפי הוראות <ref href="#chp_ד">פרק ד׳</ref> וכי לא ניתן להסתפק בעיכוב, ואם התקיים אחד מאלה:</p>
+                      </intro>
+                      <point eId="point_6__point_א__point_4__point_1">
+                        <num>(1)</num>
+                        <content>
+                          <p>יש לו יסוד סביר לחשש שאותו אדם יסכן את ביטחון כלי השיט או את ביטחונו של אדם בכלי השיט;</p>
+                        </content>
+                      </point>
+                      <point eId="point_6__point_א__point_4__point_2">
+                        <num>(2)</num>
+                        <content>
+                          <p>יש לו יסוד סביר לחשש שאותו אדם ינסה להימלט מכלי השיט;</p>
+                        </content>
+                      </point>
+                    </list>
+                  </point>
+                  <point eId="point_6__point_א__point_5">
+                    <num>(5)</num>
+                    <list>
+                      <point eId="point_6__point_א__point_5__point_1">
+                        <num>(1)</num>
+                        <content>
+                          <p>לערוך חיפוש על גופו של אותו אדם; בסעיף זה, ”חיפוש על גוף האדם“ – כהגדרתו <ref href="/akn/il/act/PrimaryLegislation/1969-02-16/2001931#point_22">בסעיף 22 לפקודת סדר הדין הפלילי</ref>; על חיפוש כאמור יחולו הוראות <ref href="/akn/il/act/PrimaryLegislation/1969-02-16/2001931#point_22">סעיף 22(ג) לפקודת סדר הדין הפלילי</ref>, והוא ייערך, במידת האפשר, על ידי בן מינו של אותו אדם ובדרך שתבטיח שמירה מרבית על כבודו ופרטיותו;</p>
+                        </content>
+                      </point>
+                      <point eId="point_6__point_א__point_5__point_2">
+                        <num>(2)</num>
+                        <content>
+                          <p>אם סבר כי נשקפת סכנה לפגיעה בביטחון כלי השיט או בני אדם שבו, או אם הדבר נחוץ כדי להבטיח הצגת חפץ לצורך כל חקירה, משפט או הליך אחר – להיכנס ולחפש בכל מקום בכלי השיט; על חיפוש כאמור יחולו הוראות <ref href="/akn/il/act/PrimaryLegislation/1969-02-16/2001931#point_27">סעיפים 27</ref><ref href="/akn/il/act/PrimaryLegislation/1969-02-16/2001931#point_28">ו־28 לפקודת סדר הדין הפלילי</ref>;</p>
+                        </content>
+                      </point>
+                    </list>
+                  </point>
+                  <point eId="point_6__point_א__point_6">
+                    <num>(6)</num>
+                    <content>
+                      <p>לתפוס חפץ העלול לפגוע בביטחון כלי השיט, או חפץ שנתגלה בחיפוש כאמור בפסקה (5) הקשור בביצוע עבירה לפי חוק זה;</p>
+                    </content>
+                  </point>
+                  <point eId="point_6__point_א__point_7">
+                    <num>(7)</num>
+                    <content>
+                      <p>למנוע את בריחתו של אדם ממשמורת חוקית בכלי השיט, שבה הוא נתון לפי הוראות סעיף זה.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_6__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>היה לקברניט כלי שיט יסוד סביר לחשד כי אדם העומד להיכנס לכלי השיט או להכניס אליו מטען, עומד לעבור עבירה לפי הוראות <ref href="#chp_ב">פרק ב׳</ref>, או עומד לסכן את ביטחון כלי השיט, בני האדם או הרכוש שבו, רשאי הוא למנוע את כניסתו של אותו אדם או את הכנסת המטען לכלי השיט; מנע הקברניט כניסה כאמור יודיע על כך מיד לרשויות המוסמכות בנמל שבו עוגן כלי השיט.</p>
+                </content>
+              </point>
+              <point eId="point_6__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>סירב אדם להפעלת סמכויות הקברניט לפי סעיף זה, רשאי הקברניט להשתמש בכוח סביר במידה הדרושה לשם הפעלת סמכויותיו.</p>
+                </content>
+              </point>
+              <point eId="point_6__point_ד">
+                <num>(ד)</num>
+                <content>
+                  <p>הסמכויות לפי סעיף זה לא יהיו נתונות לקברניט לגבי כלי שיט העוגן בנמל בישראל.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_7">
+            <heading>
+              <authorialNote placement="side">
+                <p>חובות הקברניט כלפי מעוכב או עצור</p>
+              </authorialNote>
+            </heading>
+            <num>7.</num>
+            <list>
+              <point eId="point_7__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>קברניט המעכב או עוצר אדם לפי הוראות <ref href="#point_6">סעיף 6(א)(3) או (4)</ref>, יזהה את עצמו תחילה לפני החשוד בציון שמו או כינויו הרשמי והיותו קברניט כלי השיט, יודיע לו מיד שהוא מעוכב או עצור, לפי העניין, ויבהיר לו את סיבת העיכוב או המעצר בהקדם האפשרי במהלך ביצועם.</p>
+                </content>
+              </point>
+              <point eId="point_7__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>עצר הקברניט אדם לפי הוראות <ref href="#point_6">סעיף 6(א)(4)</ref>, יעשה כל שביכולתו כדי להבטיח שתנאי המעצר יהיו כאמור <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/תקנות_שעת_חירום_פיקוח_על_כלי_שיט#point_9">בסעיף 9(א) ו־(ב) לחוק המעצרים</ref>.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_8">
+            <heading>
+              <authorialNote placement="side">
+                <p>סיוע של אנשי צוות ואחרים</p>
+              </authorialNote>
+            </heading>
+            <num>8.</num>
+            <list>
+              <point eId="point_8__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>כל איש צוות חייב לסייע לקברניט בהפעלת סמכויותיו לפי הוראות <ref href="#point_6">סעיף 6</ref>, לפי דרישתו, וכן לפעול לפי הוראות מחייבות אחרות, לרבות הוראות קבע, תוך ציות להוראות הקברניט.</p>
+                </content>
+              </point>
+              <point eId="point_8__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>כל אדם בכלי השיט, אף שאינו איש צוות, חייב לסייע לקברניט או לאיש צוות הדורש באופן סביר את עזרתו לצורך הפעלת הסמכויות לפי <ref href="#point_6">סעיף 6</ref>.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_9">
+            <heading>
+              <authorialNote placement="side">
+                <p>שמירת סמכויות הקברניט</p>
+              </authorialNote>
+            </heading>
+            <num>9.</num>
+            <content>
+              <p>סמכויות הקברניט לפי הוראות <ref href="#chp_ג">פרק זה</ref> אינן גורעות מסמכויות אחרות הנתונות לו לפי הוראות כל דין אחר.</p>
+            </content>
+          </point>
+        </list>
+      </chapter>
+      <chapter eId="chp_ד">
+        <num>פרק ד׳:</num>
+        <title>
+          <content>
+            <p>מסירת חשוד העצור בכלי שיט ישראלי</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_10">
+            <heading>
+              <authorialNote placement="side">
+                <p>הוראות קצין משטרה ממונה</p>
+              </authorialNote>
+            </heading>
+            <num>10.</num>
+            <list>
+              <point eId="point_10__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>הפעיל קברניט כלי שיט סמכויות לפי הוראות <ref href="#chp_ג">פרק ג׳</ref>, יודיע על כך ועל הסיבות להפעלת הסמכויות, בהקדם האפשרי, לבעל כלי השיט; הודיע הקברניט לבעל כלי השיט כי עצר אדם לפי הוראות <ref href="#point_6">סעיף 6(א)(4)</ref>, יודיע בעל כלי השיט על כך ועל סיבת המעצר, בהקדם האפשרי, לקצין משטרה ממונה.</p>
+                </content>
+              </point>
+              <point eId="point_10__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>סבר קצין משטרה ממונה שנמסרה לו הודעה על מעצר אדם לפי הוראות סעיף קטן (א) כי לא התקיים האמור <ref href="#point_6">בסעיף 6(א)(4)(1) או (2)</ref> יורה על שחרורו ממעצר; סבר קצין המשטרה הממונה כי התקיים האמור <ref href="#point_6">באותו סעיף</ref>, ייתן כל הוראה הנחוצה לדעתו להסדרת מעצר החשוד ובכלל זה הוראות לעניין תנאי המעצר.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_11">
+            <heading>
+              <authorialNote placement="side">
+                <p>הוראות נציג משרד החוץ</p>
+              </authorialNote>
+            </heading>
+            <num>11.</num>
+            <list>
+              <point eId="point_11__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>הורה קצין משטרה ממונה על המשך מעצרו של חשוד לפי הוראות <ref href="#point_10">סעיף 10(ב)</ref>, יודיע בעל כלי השיט על המעצר ועל סיבת המעצר, בהקדם האפשרי, לנציג משרד החוץ.</p>
+                </content>
+              </point>
+              <point eId="point_11__point_ב">
+                <num>(ב)</num>
+                <list>
+                  <intro>
+                    <p>נציג משרד החוץ שנמסרה לו הודעה על מעצר חשוד לפי הוראות סעיף קטן (א) –</p>
+                  </intro>
+                  <point eId="point_11__point_ב__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>יודיע על המעצר כאמור, בהקדם האפשרי, למדינת אזרחותו של החשוד, ואם אין לו אזרחות – למדינה שבה הוא תושב, ובלבד שהיא מדינה חברה, וכן לכל מדינה חברה אחרת שהיא בעלת סמכות שיפוט כלפי החשוד;</p>
+                    </content>
+                  </point>
+                  <point eId="point_11__point_ב__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>יורה לבעל כלי השיט למסור את החשוד למדינה חברה או להביא את החשוד לישראל ולמוסרו לקצין משטרה ממונה; בבואו להורות כאמור יעשה נציג משרד החוץ כל שניתן כדי לקצר את תקופת מעצרו של החשוד בכלי השיט ולמנוע סטייה ניכרת של כלי השיט מנתיב הפלגתו המתוכנן.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+            </list>
+          </point>
+          <point eId="point_12">
+            <heading>
+              <authorialNote placement="side">
+                <p>ציות להוראות</p>
+              </authorialNote>
+            </heading>
+            <num>12.</num>
+            <content>
+              <p>קברניט שעצר אדם לפי <ref href="#point_6">סעיף 6(א)(4)</ref>, ינהג בהתאם להוראות שניתנו בידי קצין משטרה ממונה ונציג משרד החוץ לפי <ref href="#point_10">סעיפים 10</ref><ref href="#point_11">ו־11</ref>; כל עוד לא ניתנו הוראות כאמור רשאי הוא להמשיך במעצרו של אותו אדם.</p>
+            </content>
+          </point>
+          <point eId="point_13">
+            <heading>
+              <authorialNote placement="side">
+                <p>מסירת חשוד למדינה חברה</p>
+              </authorialNote>
+            </heading>
+            <num>13.</num>
+            <content>
+              <p>הורה נציג משרד החוץ לפי הוראות <ref href="#point_11">סעיף 11</ref>, למסור חשוד למדינה חברה, יתאם הנציג הישראלי במדינה האמורה עם רשות האכיפה המוסמכת לעניין זה באותה מדינה, את מסירת החשוד לידיה בנמל השטח אותה מדינה.</p>
+            </content>
+          </point>
+          <point eId="point_14">
+            <heading>
+              <authorialNote placement="side">
+                <p>מסירת ראיות</p>
+              </authorialNote>
+            </heading>
+            <num>14.</num>
+            <content>
+              <p>בעת מסירת חשוד למדינה חברה או בעת הבאתו לישראל ומסירתו לקצין המשטרה הממונה, ימסור קברניט כלי השיט הישראלי לרשויות האכיפה המוסמכות באותה מדינה, או לקצין המשטרה הממונה או לפי הוראותיו, לפי העניין, את מלוא הראיות המצויות בידו הקשורות לביצוע עבירה לפי הוראות <ref href="#chp_ב">פרק ב׳</ref>, לרבות חפצים שנתפסו לפי הוראות <ref href="#point_6">סעיף 6(א)(6)</ref>.</p>
+            </content>
+          </point>
+          <point eId="point_15">
+            <heading>
+              <authorialNote placement="side">
+                <p>סייג לעניין מעצר בכלי שיט צבאי</p>
+              </authorialNote>
+            </heading>
+            <num>15.</num>
+            <list>
+              <intro>
+                <p>על אף הוראות <ref href="#point_10">סעיפים 10 עד 12</ref>, על מעצר לפי <ref href="#point_6">סעיף 6(א)(4)</ref> בכלי שיט צבאי יחולו הוראות אלה:</p>
+              </intro>
+              <point eId="point_15__point_1">
+                <num>(1)</num>
+                <content>
+                  <p>קברניט כלי שיט צבאי שעצר אדם לפי <ref href="#point_6">סעיף 6(א)(4)</ref> יודיע על כך ועל סיבת המעצר, בהקדם האפשרי, לקצין צבא ממונה, וינהג לפי הוראותיו;</p>
+                </content>
+              </point>
+              <point eId="point_15__point_2">
+                <num>(2)</num>
+                <content>
+                  <p>קצין צבא ממונה שנמסרה לו הודעה על מעצר לפי פסקה (1) יודיע על כך, בהקדם האפשרי, לקצין משטרה ממונה ולנציג משרד החוץ;</p>
+                </content>
+              </point>
+              <point eId="point_15__point_3">
+                <num>(3)</num>
+                <content>
+                  <p>הסמכות לתת הוראות כאמור <ref href="#point_10">בסעיף 10(ב)</ref> תהיה נתונה לקצין הצבא הממונה, בתיאום עם קצין משטרה ממונה;</p>
+                </content>
+              </point>
+              <point eId="point_15__point_4">
+                <num>(4)</num>
+                <content>
+                  <p>נציג משרד החוץ ייתן את הוראותיו לפי <ref href="#point_11">סעיף 11</ref> בהסכמת קצין הצבא הממונה ובאמצעותו.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+        </list>
+      </chapter>
+      <chapter eId="chp_ה">
+        <num>פרק ה׳:</num>
+        <title>
+          <content>
+            <p>סמכויות לגבי אדם שנמסר לישראל</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_16">
+            <heading>
+              <authorialNote placement="side">
+                <p>מסירת חשוד לישראל</p>
+              </authorialNote>
+            </heading>
+            <num>16.</num>
+            <list>
+              <point eId="point_16__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>נמסרה הודעה על כוונת קברניט של כלי שיט שאינו כלי שיט ישראלי למסור לישראל חשוד שאינו אזרח ישראלי או תושב ישראל, שנעצר בכלי השיט בהתאם להוראות האמנה, רשאי שר הפנים לסרב לכניסת אותו חשוד לישראל, אם לדעתו המעשה שבשלו נעצר החשוד אינו מהווה עבירה לפי הוראות <ref href="#chp_ב">פרק ב׳</ref>.</p>
+                </content>
+              </point>
+              <point eId="point_16__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>נמסר חשוד שנעצר בכלי שיט ישראלי למדינה חברה לפי הוראת <ref href="#chp_ד">פרק ד׳</ref>, ואותה מדינה מבקשת, בהתאם להוראות האמנה, למסור את החשוד לישראל, ישקול שר המשפטים את הבקשה; סירב שר המשפטים כי יימסר לישראל חשוד כאמור שאינו אזרח ישראלי או תושב ישראל, יודיע על כך למדינה החברה בצירוף נימוקיו.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_17">
+            <heading>
+              <authorialNote placement="side">
+                <p>סמכות גירוש והרחקה</p>
+              </authorialNote>
+            </heading>
+            <num>17.</num>
+            <content>
+              <p>מסירת חשוד לישראל לפי הוראות <ref href="#point_16">סעיף 16</ref> לא תגרע מהסמכות לגרשו או להרחיקו מישראל לפי כל דין אחר.</p>
+            </content>
+          </point>
+          <point eId="point_18">
+            <heading>
+              <authorialNote placement="side">
+                <p>סייגים לעיכוב יציאה של אדם שנמסר לישראל</p>
+              </authorialNote>
+            </heading>
+            <num>18.</num>
+            <list>
+              <intro>
+                <p>אדם שנמסר לישראל לפי הוראות <ref href="#point_16">סעיף 16(א)</ref>, לא ייעצר, לא יובא לדין ולא יוסגר בשל עבירה שעבר לפני מסירתו, אלא אם כן מתקיים אחד מאלה:</p>
+              </intro>
+              <point eId="point_18__point_1">
+                <num>(1)</num>
+                <content>
+                  <p>המדינה החברה, שהיא מדינת הרישום של כלי השיט שממנו נמסר אותו אדם לישראל, הסכימה לכך בכתב;</p>
+                </content>
+              </point>
+              <point eId="point_18__point_2">
+                <num>(2)</num>
+                <content>
+                  <p>ניתנה לאותו אדם, לאחר מסירתו לישראל, אפשרות לצאת מישראל והוא לא עשה כן בתוך 30 ימים מיום שניתנה לו האפשרות כאמור;</p>
+                </content>
+              </point>
+              <point eId="point_18__point_3">
+                <num>(3)</num>
+                <content>
+                  <p>אותו אדם יצא מישראל לאחר מסירתו לחזר לישראל מרצונו.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+        </list>
+      </chapter>
+      <chapter eId="chp_ו">
+        <num>פרק ו׳:</num>
+        <title>
+          <content>
+            <p>הוראות שונות</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_19">
+            <heading>
+              <authorialNote placement="side">
+                <p>סמכויות שוטר</p>
+              </authorialNote>
+            </heading>
+            <num>19.</num>
+            <content>
+              <p>סמכויות שוטר לפי דין יהיו נתונות לו לעניין חוק זה גם לגבי עבירות שבוצעו לפיו במיתקן ימי הנמצא במדף היבשתי של ישראל.</p>
+            </content>
+          </point>
+          <point eId="point_20">
+            <heading>
+              <authorialNote placement="side">
+                <p>חסינות</p>
+              </authorialNote>
+            </heading>
+            <num>20.</num>
+            <content>
+              <p>בעל כלי השיט, הקברניט, איש צוות וכל אדם אחר בכלי השיט, לא יישאו באחריות אזרחית בשל מעשה שנעשה בהתאם להוראות לפי חוק זה.</p>
+            </content>
+          </point>
+          <point eId="point_21">
+            <heading>
+              <authorialNote placement="side">
+                <p>שמירת דינים</p>
+              </authorialNote>
+            </heading>
+            <num>21.</num>
+            <content>
+              <p>הוראות חוק זה באות להוסיף על הוראות כל דין ולא לגרוע מהן.</p>
+            </content>
+          </point>
+          <point eId="point_22">
+            <heading>
+              <authorialNote placement="side">
+                <p>ביצוע ותקנות</p>
+              </authorialNote>
+            </heading>
+            <num>22.</num>
+            <content>
+              <p>שר התחבורה והבטיחות בדרכים ממונה על ביצוע הוראות חוק זה והוא רשאי, לאחר התייעצות עם שר המשפטים ובאישור ועדת החוקה חוק ומשפט של הכנסת, להתקין תקנות בכל עניין הנוגע לביצועו.</p>
+            </content>
+          </point>
+          <point eId="point_23">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>23.</num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/תקנות_שעת_חירום_פיקוח_על_כלי_שיט">בחוק הארכת תוקף של תקנות שעת חירום (פיקוח על כלי שיט) [נוסח משולב], התשל"ג–1973</ref>.</wikicomment>
+              </p>
+            </content>
+          </point>
+        </list>
+      </chapter>
+    </body>
+    <conclusions eId="eId">
+      <p class="signatures">
+        <signature>
+          <p>
+            <person refersTo="אהוד_אולמרט">אהוד אולמרט</person>
+            <role refersTo="ראש_הממשלה">ראש הממשלה</role>
+          </p>
+        </signature>
+        <signature>
+          <p>
+            <person refersTo="שאול_מופז">שאול מופז</person>
+            <role refersTo="שר_התחבורה_והבטיחות_בדרכים">שר התחבורה והבטיחות בדרכים</role>
+          </p>
+        </signature>
+        <signature>
+          <p>
+            <person refersTo="שמעון_פרס">שמעון פרס</person>
+            <role refersTo="נשיא_המדינה">נשיא המדינה</role>
+          </p>
+        </signature>
+        <signature>
+          <p>
+            <person refersTo="דליה_איציק">דליה איציק</person>
+            <role refersTo="יושבת_ראש_הכנסת">יושבת ראש הכנסת</role>
+          </p>
+        </signature>
+      </p>
+    </conclusions>
+  </act>
+</akomaNtoso>

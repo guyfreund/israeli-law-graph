@@ -1,0 +1,686 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion" name="publicLaw">
+    <meta>
+      <identification source="#kensset">
+        <FRBRWork>
+          <FRBRthis value="/akn/il/act/PrimaryLegislation/2007-08-02/93995/main" />
+          <FRBRuri value="/akn/il/act/PrimaryLegislation/2007-08-02/93995" />
+          <FRBRdate date="2007-08-02" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRcountry value="israel" />
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/il/act/PrimaryLegislation/2007-08-02/93995/he@/main" />
+          <FRBRuri value="/akn/il/act/PrimaryLegislation/2007-08-02/93995/he@" />
+          <FRBRdate date="2007-08-02" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRlanguage language="hebrew" />
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/il/act/PrimaryLegislation/2007-08-02/93995/he@/main.xml" />
+          <FRBRuri value="/akn/il/act/PrimaryLegislation/2007-08-02/93995/he@" />
+          <FRBRdate date="2007-08-02" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRformat value="xml" />
+        </FRBRManifestation>
+      </identification>
+      <classification source="#kensset">
+        <keyword value="{classificationValue}" showAs="{classificationValue}" dictionary="#classification_dictionary" />
+      </classification>
+      <lifecycle source="#kensset">
+        <eventRef eId="eventRef_1" date="2007-08-02" source="#kensset" type="generation" />
+      </lifecycle>
+      <references source="#kensset">
+        <TLCOrganization eId="kensset" href="/ontology/organization/akn/knesset" showAs="Kensset" type="generation" />
+        <TLCRole eId="author" href="/ontology/role/akn/author" showAs="Author of Document" />
+        <TLCProcess eId="inforce" href="/ontology/process/akn/inforce" showAs="In force" />
+        <TLCTerm eId="term_1" href="/ontology/term/בית_חולים/93995" showAs="בית_חולים" />
+        <TLCTerm eId="term_2" href="/ontology/term/בנק_דם_טבורי/93995" showAs="בנק_דם_טבורי" />
+        <TLCTerm eId="term_3" href="/ontology/term/בנק_דם_טבורי_פרטי/93995" showAs="בנק_דם_טבורי_פרטי" />
+        <TLCTerm eId="term_4" href="/ontology/term/בנק_דם_טבורי_ציבורי/93995" showAs="בנק_דם_טבורי_ציבורי" />
+        <TLCTerm eId="term_5" href="/ontology/term/דם_טבורי/93995" showAs="דם_טבורי" />
+        <TLCTerm eId="term_6" href="/ontology/term/היתר/93995" showAs="היתר" />
+        <TLCTerm eId="term_7" href="/ontology/term/המנהל/93995" showAs="המנהל" />
+        <TLCTerm eId="term_8" href="/ontology/term/הסכמה_מדעת/93995" showAs="הסכמה_מדעת" />
+        <TLCTerm eId="term_9" href="/ontology/term/השתלה_עצמית/93995" showAs="השתלה_עצמית" />
+        <TLCTerm eId="term_10" href="/ontology/term/טיפול/93995" showAs="טיפול" />
+        <TLCTerm eId="term_11" href="/ontology/term/מגן_דוד_אדום/93995" showAs="מגן_דוד_אדום" />
+        <TLCTerm eId="term_12" href="/ontology/term/מכון_גנטי/93995" showAs="מכון_גנטי" />
+        <TLCTerm eId="term_13" href="/ontology/term/מעבדה_רפואית/93995" showAs="מעבדה_רפואית" />
+        <TLCTerm eId="term_14" href="/ontology/term/סיווג_רקמות/93995" showAs="סיווג_רקמות" />
+        <TLCTerm eId="term_15" href="/ontology/term/פקודת_בריאות_העם/93995" showAs="פקודת_בריאות_העם" />
+        <TLCTerm eId="term_16" href="/ontology/term/תאי־אב/93995" showAs="תאי־אב" />
+        <TLCTerm eId="term_17" href="/ontology/term/השר/93995" showAs="השר" />
+        <TLCPerson eId="אהוד_אולמרט" href="/ontology/person/אהוד_אולמרט" showAs="אהוד אולמרט" />
+        <TLCPerson eId="יעקב_בן־יזרי" href="/ontology/person/יעקב_בן־יזרי" showAs="יעקב בן־יזרי" />
+        <TLCPerson eId="שמעון_פרס" href="/ontology/person/שמעון_פרס" showAs="שמעון פרס" />
+        <TLCPerson eId="דליה_איציק" href="/ontology/person/דליה_איציק" showAs="דליה איציק" />
+        <TLCRole eId="ראש_הממשלה" href="ontology/role/akn/ראש_הממשלה" showAs="ראש הממשלה" />
+        <TLCRole eId="שר_הבריאות" href="ontology/role/akn/שר_הבריאות" showAs="שר הבריאות" />
+        <TLCRole eId="נשיא_המדינה" href="ontology/role/akn/נשיא_המדינה" showAs="נשיא המדינה" />
+        <TLCRole eId="יושבת_ראש_הכנסת" href="ontology/role/akn/יושבת_ראש_הכנסת" showAs="יושבת ראש הכנסת" />
+      </references>
+      <temporalData source="#kensset">
+        <temporalGroup eId="tmpg_1" />
+      </temporalData>
+      <Publication></Publication>
+      <proprietary wikiversion="7/22/2020 10:01:10 PM" />
+    </meta>
+    <body period="#tmpg_1">
+      <title eId="title">
+        <content>
+          <p>חוק דם טבורי, התשס"ז–2007</p>
+        </content>
+      </title>
+      <list>
+        <point eId="point_1" class="definitions">
+          <heading>
+            <authorialNote placement="side">
+              <p>הגדרות</p>
+            </authorialNote>
+          </heading>
+          <num>1.</num>
+          <list>
+            <intro>
+              <p>בחוק זה –</p>
+            </intro>
+            <point eId="point_1__point_בית_חולים">
+              <content>
+                <p>
+                  <def />”בית חולים“ – מוסד רפואי הרשום כבית חולים לפי <ref href="/akn/il/act/PrimaryLegislation/1940-12-20/2001729">פקודת בריאות העם</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_בנק_דם_טבורי">
+              <content>
+                <p>
+                  <def />”בנק דם טבורי“ – מקום להקפאה, לאחסון ולניפוק של מנות דם טבורי, המיועדות לשימור לשם השתלה באדם או לשם מחקר רפואי;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_בנק_דם_טבורי_פרטי">
+              <content>
+                <p>
+                  <def />”בנק דם טבורי פרטי“ – בנק דם טבורי שמנות הדם הטבורי בו נשמרות לטובת השתלה עצמית או לטובת השתלה בהתאם להוראות האדם שהדם הטבורי נאסף לאחר לידתו, או בהתאם להוראות אפוטרופסו של אותו אדם, בלבד;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_בנק_דם_טבורי_ציבורי">
+              <content>
+                <p>
+                  <def />”בנק דם טבורי ציבורי“ – בנק דם טבורי שמנות הדם הטבורי בו נתרמו לטובת הכלל והן זמינות לכל אדם הזקוק להשתלת תאי־אב, ולצורכי מחקר רפואי;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_דם_טבורי">
+              <content>
+                <p>
+                  <def />”דם טבורי“ – דם חבל הטבור הנאסף מהשליה לאחר ניתוק חבל הטבור מיילוד לאחר לידתו, לרבות תאי־אב שהופקו מדם טבורי;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_היתר">
+              <content>
+                <p>
+                  <def />”היתר“ – היתר להפעלה ולהקמה של בנק דם טבורי שניתן לפי הוראות <ref href="#point_6">סעיף 6</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_המנהל">
+              <content>
+                <p>
+                  <def />”המנהל“ – המנהל הכללי של משרד הבריאות או מי שהוא הסמיך לעניין חוק זה;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_הסכמה_מדעת">
+              <content>
+                <p>
+                  <def />”הסכמה מדעת“ – כמשמעותה <ref href="/akn/il/act/PrimaryLegislation/1996-05-12/174478#point_13">בסעיף 13 לחוק זכויות החולה, התשנ"ו–1996</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_השתלה_עצמית">
+              <content>
+                <p>
+                  <def />”השתלה עצמית“ – השתלה של תאי־אב ממנת דם טבורי באדם שהדם הטבורי נאסף לאחר לידתו;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_טיפול">
+              <content>
+                <p>
+                  <def />”טיפול“, במנת דם טבורי – איסוף מנת דם טבורי, בדיקתה, הפקת תאי־אב המצויים בה, הקפאתה, שימורה וניפוקה;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_מגן_דוד_אדום">
+              <content>
+                <p>
+                  <def />”מגן דוד אדום“ – האגודה ”מגן דוד אדום בישראל“ שהוקמה לפי <ref href="/akn/il/act/PrimaryLegislation/1950-07-21/147542">חוק מגן דוד אדום, התש"י–1950</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_מכון_גנטי">
+              <content>
+                <p>
+                  <def />”מכון גנטי“ ו”מעבדה לבדיקות גנטיות“ – כהגדרתם <ref href="/akn/il/act/PrimaryLegislation/2000-12-25/169942#point_2">בסעיף 2 לחוק מידע גנטי, התשס"א–2000</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_מעבדה_רפואית">
+              <content>
+                <p>
+                  <def />”מעבדה רפואית“ – מעבדה רפואית הרשומה לפי <ref href="/akn/il/act/PrimaryLegislation/1940-12-20/2001729">פקודת בריאות העם</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_סיווג_רקמות">
+              <content>
+                <p>
+                  <def />”סיווג רקמות“ – סדרת בדיקות המבוצעות לצורך קביעת ההתאמה הגנטית בין שתי רקמות (Tissue typing);</p>
+              </content>
+            </point>
+            <point eId="point_1__point_פקודת_בריאות_העם">
+              <content>
+                <p>
+                  <def />”פקודת בריאות העם“ – <ref href="/akn/il/act/PrimaryLegislation/1940-12-20/2001729">פקודת בריאות העם, 1940</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_תאי־אב">
+              <content>
+                <p>
+                  <def />”תאי־אב“ – תאים המסוגלים לייצר את כל סוגי תאי הדם בגוף האדם (Hematopoietic Stem Cells);</p>
+              </content>
+            </point>
+            <point eId="point_1__point_השר">
+              <content>
+                <p>
+                  <def />”השר“ – שר הבריאות.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_2">
+          <heading>
+            <authorialNote placement="side">
+              <p>פעולות לעניין מנת דם טבורי</p>
+            </authorialNote>
+          </heading>
+          <num>2.</num>
+          <content>
+            <p>לא יאסוף אדם דם טבורי לשם הפקדה בבנק דם טבורי, לא יבצע בו כל טיפול ולא יבצע סיווג רקמות במנת דם טבורי שנאספה, אלא בהתאם להוראות חוק זה.</p>
+          </content>
+        </point>
+        <point eId="point_3">
+          <heading>
+            <authorialNote placement="side">
+              <p>איסוף מנת דם טבורי</p>
+            </authorialNote>
+          </heading>
+          <num>3.</num>
+          <list>
+            <point eId="point_3__point_א">
+              <num>(א)</num>
+              <content>
+                <p>איסוף דם טבורי יבוצע רק בבית חולים שלפי תנאי רישומו יש בו מחלקת יולדות.</p>
+              </content>
+            </point>
+            <point eId="point_3__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>המנהל רשאי לקבוע את התנאים והתשלומים למתן שירות לאיסוף דם טבורי על ידי בתי חולים ציבוריים לשם הפקדתו בבנק דם טבורי, ויכול שיקבע תנאים ותשלומים שונים לעניין בנק דם טבורי פרטי ולעניין בנק דם טבורי ציבורי.</p>
+              </content>
+            </point>
+            <point eId="point_3__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>בסעיף זה, ”בית חולים ציבורי“ – בית חולים ממשלתי, בית חולים שבבעלות קופת חולים, בית חולים שבבעלות רשות מקומית וכל בית חולים שהוא תאגיד שהוא מוסד ציבורי כמשמעותו <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_מס_הכנסה">בפקודת מס הכנסה</ref>; לעניין סעיף קטן זה, ”בית חולים ממשלתי“ – לרבות פעילות המתבצעת בו בידי תאגיד בריאות כהגדרתו <ref href="/akn/il/act/PrimaryLegislation/1985-04-03/150399#point_21">בסעיף 21 לחוק יסודות התקציב, התשמ"ה–1985</ref> (בחוק זה – חוק יסודות התקציב).</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_4">
+          <heading>
+            <authorialNote placement="side">
+              <p>הסכמה מדעת לאיסוף מנת דם טבורי ולטיפול בה</p>
+            </authorialNote>
+          </heading>
+          <num>4.</num>
+          <list>
+            <point eId="point_4__point_א">
+              <num>(א)</num>
+              <content>
+                <p>לא יאסוף אדם דם טבורי ולא יבצע בו כל טיפול, אלא אם כן ניתנה לכך הסכמה מדעת של היולדת ושל אבי היילוד, ככל שיש אפשרות סבירה לזהותו, למצאו או לברר את דעתו.</p>
+              </content>
+            </point>
+            <point eId="point_4__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>הסכמה מדעת לעניין סעיף זה תינתן בכתב, לפני הלידה; השר יקבע הוראות לעניין זה, לרבות לעניין המידע שיש למסור ליולדת ולאבי היילוד לשם קבלת הסכמתם ולעניין טופס ההסכמה.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_5">
+          <heading>
+            <authorialNote placement="side">
+              <p>טיפול במנת דם טבורי</p>
+            </authorialNote>
+          </heading>
+          <num>5.</num>
+          <list>
+            <point eId="point_5__point_א">
+              <num>(א)</num>
+              <content>
+                <p>מנת דם טבורי תיבדק לשם הקפאתה בבדיקות לסיווג רקמות ובבדיקות נוספות הדרושות לשם הבטחת איכות מנת הדם הטבורי ובטיחותה ולשם התאמתה להשתלה, כפי שיקבע המנהל בנוהלי משרד הבריאות, ובלבד שבנק דם טבורי פרטי לא יחויב לבצע בדיקות לסיווג רקמות; המנהל רשאי לקבוע נהלים שונים לעניין זה לגבי בנק דם טבורי פרטי ובנק דם טבורי ציבורי.</p>
+              </content>
+            </point>
+            <point eId="point_5__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>בדיקות לסיווג רקמות לא יבוצעו אלא במכון גנטי או במעבדה לבדיקות גנטיות; בדיקות אחרות לא יבוצעו אלא במעבדה רפואית המתאימה לביצוען על פי תנאי רישומה, או בשירות אגירת דם של מגן דוד אדום.</p>
+              </content>
+            </point>
+            <point eId="point_5__point_ג">
+              <num>(ג)</num>
+              <list>
+                <intro>
+                  <p>המנהל יקבע בנוהלי משרד הבריאות הוראות בעניינים אלה:</p>
+                </intro>
+                <point eId="point_5__point_ג__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>מידע רפואי שיש לקבל מיולדת בקשר לאיסוף דם טבורי ומצבים שבהם אין לאסוף דם טבורי מיולדת;</p>
+                  </content>
+                </point>
+                <point eId="point_5__point_ג__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>כמות התאים המזערית ותנאים נוספים הנחוצים כדי להבטיח כי מנת הדם הטבורי שנאספה מתאימה להשתלה, וכן הוראות לעניין דרכי הטיפול במנת דם טבורי שאינה עומדת בדרישות שנקבעו כאמור, לרבות לעניין העברתה לצורכי מחקר רפואי, בהתאם לתנאים שקבע השר לפי <ref href="#point_14">סעיף 14(א)(2)</ref>;</p>
+                  </content>
+                </point>
+                <point eId="point_5__point_ג__point_3">
+                  <num>(3)</num>
+                  <content>
+                    <p>הבטחת הטיפול במנת דם טבורי, לרבות הוראות לעניין סוג הבדיקות שיש לבצע ואיכותן, תהליכי ההקפאה והשימור של מנת דם טבורי ובטיחות שימורה, ופרקי הזמן המזערי והמרבי לשמירת מנת דם טבורי;</p>
+                  </content>
+                </point>
+                <point eId="point_5__point_ג__point_4">
+                  <num>(4)</num>
+                  <content>
+                    <p>הבטחת איכות מנת דם טבורי או תאי־אב ובטיחותם;</p>
+                  </content>
+                </point>
+                <point eId="point_5__point_ג__point_5">
+                  <num>(5)</num>
+                  <content>
+                    <p>מידע שיש לקבל אודות היילוד שהדם הטבורי נאסף לאחר לידתו ובדיקות שיש לבצע במנת הדם הטבורי או בתאי־האב לפני העברתם להשתלה באדם.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+          </list>
+        </point>
+        <point eId="point_6">
+          <heading>
+            <authorialNote placement="side">
+              <p>היתר הקמה והפעלה</p>
+            </authorialNote>
+          </heading>
+          <num>6.</num>
+          <list>
+            <point eId="point_6__point_א">
+              <num>(א)</num>
+              <content>
+                <p>הקמה והפעלה של בנק דם טבורי טעונות היתר מאת המנהל.</p>
+              </content>
+            </point>
+            <point eId="point_6__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>בקשה להיתר תוגש למנהל בכתב; המנהל רשאי לקבוע נהלים להגשת בקשה להיתר, לרבות לעניין מסמכים שעל מבקש ההיתר לצרף לבקשתו.</p>
+              </content>
+            </point>
+            <point eId="point_6__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>לא יינתן היתר אם מבקש ההיתר או מי שמיועד לנהל את בנק הדם הטבורי הורשע בעבירה שמפאת חומרתה, מהותה או נסיבותיה, אין זה ראוי שיפעיל או ינהל, לפי העניין, בנק דם טבורי.</p>
+              </content>
+            </point>
+            <point eId="point_6__point_ד">
+              <num>(ד)</num>
+              <list>
+                <intro>
+                  <p>המנהל רשאי שלא לתת היתר בהתחשב, בין השאר, בשיקולים האלה:</p>
+                </intro>
+                <point eId="point_6__point_ד__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>הצורך בבנק דם טבורי ציבורי נוסף בהתאם לצורכי האוכלוסייה בישראל;</p>
+                  </content>
+                </point>
+                <point eId="point_6__point_ד__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>הוצאות ההפעלה השוטפות של בנק דם טבורי ציבורי והשלכתן על ההוצאה הלאומית והציבורית לבריאות בישראל.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_6__point_ה">
+              <num>(ה)</num>
+              <content>
+                <p>המנהל רשאי לפטור בנק דם טבורי ציבורי המופעל בידי תאגיד שהוקם בחוק, מחובת קבלת היתר, אך אין במתן פטור כאמור כדי לפטור בנק דם טבורי כאמור מחובתו לפעול בהתאם להוראות לפי חוק זה, לרבות לפי נוהלי משרד הבריאות.</p>
+              </content>
+            </point>
+            <point eId="point_6__point_ו">
+              <num>(ו)</num>
+              <list>
+                <intro>
+                  <p>השר יקבע הוראות לעניין דרישות ותנאים לקבלת היתר, לרבות לעניין –</p>
+                </intro>
+                <point eId="point_6__point_ו__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>ציוד ומכשור רפואי הנדרשים לצורך הפעלת בנק דם טבורי;</p>
+                  </content>
+                </point>
+                <point eId="point_6__point_ו__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>קיומם של ערבויות ותנאים להבטחת המשכיות השירות על ידי בנק דם טבורי פרטי.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_6__point_ז">
+              <num>(ז)</num>
+              <content>
+                <p>השר רשאי לקבוע חובת ביטוח שתחול על בנק דם טבורי פרטי, כתנאי לקבלת היתר, לרבות ביטוח אחריות בית החולים שבו נאסף הדם הטבורי, ביטוח מנות הדם הטבורי המופקדות בבנק הדם הטבורי, ביטוח נזקים לצד שלישי ולהבטחת כספם של לקוחות, וכל ביטוח נוסף שיראה השר לנכון.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_7">
+          <heading>
+            <authorialNote placement="side">
+              <p>ביטול היתר, הגבלתו או התלייתו</p>
+            </authorialNote>
+          </heading>
+          <num>7.</num>
+          <list>
+            <intro>
+              <p>המנהל רשאי לבטל היתר, להגבילו או להתלותו, לפי העניין, לאחר שניתנה לבעל ההיתר הזדמנות להשמיע את טענותיו, בהתקיים אחד מאלה:</p>
+            </intro>
+            <point eId="point_7__point_1">
+              <num>(1)</num>
+              <content>
+                <p>בעל ההיתר ביקש לבטל את ההיתר שניתן לו, בכפוף להוראות <ref href="#point_11">סעיף 11</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_7__point_2">
+              <num>(2)</num>
+              <content>
+                <p>בעל ההיתר הפר תנאי מהותי מתנאי ההיתר;</p>
+              </content>
+            </point>
+            <point eId="point_7__point_3">
+              <num>(3)</num>
+              <content>
+                <p>בעל ההיתר הורשע בעבירה שמפאת חומרתה, מהותה, או נסיבותיה, אין זה ראוי שיפעיל בנק דם טבורי;</p>
+              </content>
+            </point>
+            <point eId="point_7__point_4">
+              <num>(4)</num>
+              <content>
+                <p>אם מצא כי הדבר נדרש מטעמים של שמירה על בריאות הציבור.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_8">
+          <heading>
+            <authorialNote placement="side">
+              <p>איסור העברת היתר</p>
+            </authorialNote>
+          </heading>
+          <num>8.</num>
+          <content>
+            <p>היתר שניתן לפי <ref href="#point_6">סעיף 6</ref> הוא אישי ואינו ניתן להעברה אלא באישור מראש ובכתב של המנהל, ורשאי המנהל לקבוע כי העברה כאמור טעונה קבלת היתר חדש.</p>
+          </content>
+        </point>
+        <point eId="point_9">
+          <heading>
+            <authorialNote placement="side">
+              <p>זכויות קניין במנת דם טבורי</p>
+            </authorialNote>
+          </heading>
+          <num>9.</num>
+          <list>
+            <point eId="point_9__point_א">
+              <num>(א)</num>
+              <content>
+                <p>מנת דם טבורי שהופקדה בבנק דם טבורי פרטי שייכת לאדם שהדם הטבורי נאסף לאחר לידתו, ולא תועבר להשתלה אלא לפי הוראותיו או לפי הוראות אפוטרופסו, לפי העניין.</p>
+              </content>
+            </point>
+            <point eId="point_9__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>מנת דם טבורי אינה ניתנת לעיקול או לשעבוד.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_10">
+          <heading>
+            <authorialNote placement="side">
+              <p>שמירת מנת דם טבורי בבנק דם טבורי ציבורי לצורכי השתלה במטופל מסוים</p>
+            </authorialNote>
+          </heading>
+          <num>10.</num>
+          <list>
+            <intro>
+              <p>בנק דם טבורי ציבורי רשאי לבדוק, להקפיא ולשמור מנת דם טבורי שלא נתרמה לטובת הכלל או לצורכי מחקר רפואי, בהתקיים כל אלה:</p>
+            </intro>
+            <point eId="point_10__point_1">
+              <num>(1)</num>
+              <content>
+                <p>מנת הדם הטבורי נשמרת לשם השתלת תאי־אב במטופל מסוים שזהותו ידועה בעת איסוף הדם הטבורי;</p>
+              </content>
+            </point>
+            <point eId="point_10__point_2">
+              <num>(2)</num>
+              <content>
+                <p>רופא מומחה קבע כי המטופל כאמור בפסקה (1) חולה במחלה שהטיפול בה דורש השתלת תאי־אב שהופקו מדם טבורי; בפסקה זו, ”רופא מומחה“ – בעל תואר מומחה לפי <ref href="/akn/il/act/PrimaryLegislation/1976-12-16/2002278">פקודת הרופאים [נוסח חדש], התשל"ז–1976</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_10__point_3">
+              <num>(3)</num>
+              <content>
+                <p>היילוד, שהדם הטבורי נאסף לאחר לידתו ונשמר כאמור, הוא בן משפחה מדרגה ראשונה של המטופל כאמור בפסקה (1).</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_11">
+          <heading>
+            <authorialNote placement="side">
+              <p>הפסקת הפעלתו של בנק דם טבורי</p>
+            </authorialNote>
+          </heading>
+          <num>11.</num>
+          <list>
+            <point eId="point_11__point_א">
+              <num>(א)</num>
+              <content>
+                <p>אדם המחזיק, מפעיל או מנהל בנק דם טבורי יודיע למנהל לפחות שלושה חודשים מראש על כוונתו להפסיק את הפעלתו של הבנק, ויעביר את מנות הדם הטבורי המופקדות באותו בנק לבנק דם טבורי אחר, באישור המנהל; במתן אישור להעברת המנות יתחשב המנהל, בין השאר, בהסכם בין בנק הדם הטבורי שיש כוונה להפסיק את פעילותו לבין מפקידי מנות הדם הטבורי, ובמידת הצורך – גם בשימושים האפשריים במנות הדם הטבורי המופקדות באותו בנק.</p>
+              </content>
+            </point>
+            <point eId="point_11__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>אין בהוראות סעיף קטן (א) כדי להקנות למדינה זכות קניינית או אחרת במנות הדם הטבורי המופקדות בבנק דם טבורי שהפעלתו הופסקה.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_12">
+          <heading>
+            <authorialNote placement="side">
+              <p>שמירת סודיות</p>
+            </authorialNote>
+          </heading>
+          <num>12.</num>
+          <content>
+            <p>בעל היתר וכל מי שמועסק על ידו ישמרו בסוד ולא יעבירו לאחר כל מידע או מסמך שהגיע אליהם תוך כדי מילוי תפקידם או במהלך עבודתם, אלא במידה הנדרשת לביצוע הוראות חוק זה ובכפוף להוראות כל דין או על פי צו בית משפט.</p>
+          </content>
+        </point>
+        <point eId="point_13">
+          <heading>
+            <authorialNote placement="side">
+              <p>מימון</p>
+            </authorialNote>
+          </heading>
+          <num>13.</num>
+          <list>
+            <intro>
+              <p>בחוק תקציב שנתי, בסעיף תקציב משרד הבריאות, ייקבע, בתכנית נפרדת –</p>
+            </intro>
+            <point eId="point_13__point_א">
+              <num>(א)</num>
+              <list>
+                <point eId="point_13__point_א__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>תקציב שנתי למימון ההוצאות הדרושות לטיפול ב־1000 מנות דם טבורי, לכל היותר, המתאימות להשתלה בבנק דם טבורי ציבורי;</p>
+                  </content>
+                </point>
+                <point eId="point_13__point_א__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>הוצאות משרד הבריאות ליישום חוק זה ולפיקוח על פעילות בנקי דם טבורי, לרבות באמצעות הקצאת תקן כוח אדם לשם כך;</p>
+                  </content>
+                </point>
+                <point eId="point_13__point_א__point_ב">
+                  <num>(ב)</num>
+                  <content>
+                    <p>המנהל רשאי להורות כי מנות דם טבורי שיטופלו במימון אוצר המדינה כאמור בסעיף זה ייאספו מקבוצות מוגדרות באוכלוסייה, בתמהיל ובסדרי קדימות כפי שיורה; בהוראות כאמור יתחשב המנהל בהרכב האוכלוסייה בישראל ובמידת הזמינות של פתרונות חלופיים בעבור קבוצות אוכלוסייה בישראל.</p>
+                  </content>
+                </point>
+                <point eId="point_13__point_א__point_ג">
+                  <num>(ג)</num>
+                  <content>
+                    <p>המנהל יקבע את הכמות המרבית ואת התמהיל הרצוי של מנות דם טבורי בבנקי דם טבורי ציבוריים, הדרושים לצורכי האוכלוסייה בישראל; נאספה הכמות המרבית בתמהיל הרצוי כאמור, ימומנו מאוצר המדינה רק ההוצאות לטיפול במנות דם טבורי, הדרושות לשמירה על הכמות והתמהיל האמורים.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <wrapup eId="point_13__wrapup_none">
+              <content>
+                <p>בסעיף קטן זה, ”תכנית“ ו”סעיף תקציב“ – כהגדרתם בחוק תקציב שנתי, כמשמעותו <ref href="/akn/il/act/PrimaryLegislation/1985-04-03/150399">בחוק יסודות התקציב</ref>.</p>
+              </content>
+            </wrapup>
+          </list>
+        </point>
+        <point eId="point_14">
+          <heading>
+            <authorialNote placement="side">
+              <p>ביצוע ותקנות</p>
+            </authorialNote>
+          </heading>
+          <num>14.</num>
+          <list>
+            <point eId="point_14__point_א">
+              <num>(א)</num>
+              <list>
+                <intro>
+                  <p>השר ממונה על ביצוע חוק זה והוא רשאי להתקין תקנות בכל הנוגע לביצועו, לרבות הוראות לעניין –</p>
+                </intro>
+                <point eId="point_14__point_א__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>השבת כספם של לקוחות לגבי מנת דם טבורי שנמצאה בלתי מתאימה להקפאה, לשימור או לשימוש;</p>
+                  </content>
+                </point>
+                <point eId="point_14__point_א__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>התנאים להעברת מנות דם טבורי המופקדות בבנק דם טבורי ציבורי, לצורכי מחקר רפואי.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_14__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>הוראות <ref href="/akn/il/act/PrimaryLegislation/1940-12-20/2001729#point_29">סעיפים 29</ref>, <ref href="/akn/il/act/PrimaryLegislation/1940-12-20/2001729#point_29א">29א</ref><ref href="/akn/il/act/PrimaryLegislation/1940-12-20/2001729#point_30">ו־30 לפקודת בריאות העם</ref> יחולו גם על בנק דם טבורי ציבורי, בשינויים המחויבים.</p>
+              </content>
+            </point>
+            <point eId="point_14__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>נהלים שקבע המנהל לפי חוק זה יפורסמו באתר האינטרנט של משרד הבריאות.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_15">
+          <heading>
+            <authorialNote placement="side">
+              <p>תחילה</p>
+            </authorialNote>
+          </heading>
+          <num>15.</num>
+          <content>
+            <p>תחילתו של חוק זה שנה מיום פרסומו (להלן – יום התחילה).</p>
+          </content>
+        </point>
+        <point eId="point_16">
+          <heading>
+            <authorialNote placement="side">
+              <p>הוראות מעבר</p>
+            </authorialNote>
+          </heading>
+          <num>16.</num>
+          <list>
+            <point eId="point_16__point_א">
+              <num>(א)</num>
+              <content>
+                <p>בנק דם טבורי שהיה קיים ערב יום התחילה (בסעיף זה – בנק דם טבורי קיים) והגיש בקשה להיתר לפי <ref href="#point_6">סעיף 6</ref> בתוך שישים ימים מיום שקבע השר הוראות לעניין קבלת היתר כאמור <ref href="#point_6">בסעיף 6</ref>, רשאי להמשיך ולפעול עד להחלטת המנהל בבקשתו; המנהל רשאי לקבוע הוראות לעניין מתן פטור לבנק דם טבורי קיים, מקיום אחד או יותר מהדרישות או מהתנאים שקבע לקבלת היתר, אם שוכנע שאין בכך כדי לפגוע באיכות מנות הדם הטבורי המופקדות באותו בנק ובבטיחותן.</p>
+              </content>
+            </point>
+            <point eId="point_16__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>תקנות ראשונות לפי <ref href="#point_6">סעיף 6(ו)</ref> יותקנו בתוך 180 ימים מיום התחילה.</p>
+              </content>
+            </point>
+            <point eId="point_16__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>בנק דם טבורי קיים לא יחויב לבצע בדיקות לפי <ref href="#point_5">סעיף 5</ref> במנות דם טבורי המופקדות אצלו ושנאספו לפני יום התחילה, למעט בדיקות לפי <ref href="#point_5">סעיף 5(ג)(4) ו־(5)</ref>.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+      </list>
+    </body>
+    <conclusions eId="eId">
+      <p class="signatures">
+        <signature>
+          <p>
+            <person refersTo="אהוד_אולמרט">אהוד אולמרט</person>
+            <role refersTo="ראש_הממשלה">ראש הממשלה</role>
+          </p>
+        </signature>
+        <signature>
+          <p>
+            <person refersTo="יעקב_בן־יזרי">יעקב בן־יזרי</person>
+            <role refersTo="שר_הבריאות">שר הבריאות</role>
+          </p>
+        </signature>
+        <signature>
+          <p>
+            <person refersTo="שמעון_פרס">שמעון פרס</person>
+            <role refersTo="נשיא_המדינה">נשיא המדינה</role>
+          </p>
+        </signature>
+        <signature>
+          <p>
+            <person refersTo="דליה_איציק">דליה איציק</person>
+            <role refersTo="יושבת_ראש_הכנסת">יושבת ראש הכנסת</role>
+          </p>
+        </signature>
+      </p>
+    </conclusions>
+  </act>
+</akomaNtoso>

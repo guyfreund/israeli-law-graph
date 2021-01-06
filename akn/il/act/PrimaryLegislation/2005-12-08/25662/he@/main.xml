@@ -1,0 +1,1520 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion" name="publicLaw">
+    <meta>
+      <identification source="#kensset">
+        <FRBRWork>
+          <FRBRthis value="/akn/il/act/PrimaryLegislation/2005-12-08/25662/main" />
+          <FRBRuri value="/akn/il/act/PrimaryLegislation/2005-12-08/25662" />
+          <FRBRdate date="2005-12-08" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRcountry value="israel" />
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/il/act/PrimaryLegislation/2005-12-08/25662/he@/main" />
+          <FRBRuri value="/akn/il/act/PrimaryLegislation/2005-12-08/25662/he@" />
+          <FRBRdate date="2005-12-08" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRlanguage language="hebrew" />
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/il/act/PrimaryLegislation/2005-12-08/25662/he@/main.xml" />
+          <FRBRuri value="/akn/il/act/PrimaryLegislation/2005-12-08/25662/he@" />
+          <FRBRdate date="2005-12-08" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRformat value="xml" />
+        </FRBRManifestation>
+      </identification>
+      <classification source="#kensset">
+        <keyword value="{classificationValue}" showAs="{classificationValue}" dictionary="#classification_dictionary" />
+      </classification>
+      <lifecycle source="#kensset">
+        <eventRef eId="eventRef_1" date="2005-12-08" source="#kensset" type="generation" />
+      </lifecycle>
+      <references source="#kensset">
+        <TLCOrganization eId="kensset" href="/ontology/organization/akn/knesset" showAs="Kensset" type="generation" />
+        <TLCRole eId="author" href="/ontology/role/akn/author" showAs="Author of Document" />
+        <TLCProcess eId="inforce" href="/ontology/process/akn/inforce" showAs="In force" />
+        <TLCTerm eId="term_1" href="/ontology/term/אדם_עם_מוגבלות_נפשית/25662" showAs="אדם_עם_מוגבלות_נפשית" />
+        <TLCTerm eId="term_2" href="/ontology/term/אדם_עם_מוגבלות_שכלית/25662" showAs="אדם_עם_מוגבלות_שכלית" />
+        <TLCTerm eId="term_3" href="/ontology/term/אדם_עם_מוגבלות_שכלית–התפתחותית/25662" showAs="אדם_עם_מוגבלות_שכלית–התפתחותית" />
+        <TLCTerm eId="term_4" href="/ontology/term/אחראי_על_קטין_או_חסר_ישע/25662" showAs="אחראי_על_קטין_או_חסר_ישע" />
+        <TLCTerm eId="term_5" href="/ontology/term/בן_משפחה/25662" showAs="בן_משפחה" />
+        <TLCTerm eId="term_6" href="/ontology/term/חוות_דעת/25662" showAs="חוות_דעת" />
+        <TLCTerm eId="term_7" href="/ontology/term/חוק_בתי_המשפט/25662" showAs="חוק_בתי_המשפט" />
+        <TLCTerm eId="term_8" href="/ontology/term/חוק_הגנת_ילדים/25662" showAs="חוק_הגנת_ילדים" />
+        <TLCTerm eId="term_9" href="/ontology/term/חוק_זכויות_נפגעי_עבירה/25662" showAs="חוק_זכויות_נפגעי_עבירה" />
+        <TLCTerm eId="term_10" href="/ontology/term/חוק_חקירת_חשודים/25662" showAs="חוק_חקירת_חשודים" />
+        <TLCTerm eId="term_11" href="/ontology/term/חוק_חקירת_עדים/25662" showAs="חוק_חקירת_עדים" />
+        <TLCTerm eId="term_12" href="/ontology/term/חוק_טיפול_בחולי_נפש/25662" showAs="חוק_טיפול_בחולי_נפש" />
+        <TLCTerm eId="term_13" href="/ontology/term/חוק_סדר_הדין_הפלילי/25662" showAs="חוק_סדר_הדין_הפלילי" />
+        <TLCTerm eId="term_14" href="/ontology/term/חוק_הסעד_טיפול_במפגרים/25662" showAs="חוק_הסעד_טיפול_במפגרים" />
+        <TLCTerm eId="term_15" href="/ontology/term/חוק_העונשין/25662" showAs="חוק_העונשין" />
+        <TLCTerm eId="term_16" href="/ontology/term/חוקר_מיוחד/25662" showAs="חוקר_מיוחד" />
+        <TLCTerm eId="term_17" href="/ontology/term/חוקר_משטרה/25662" showAs="חוקר_משטרה" />
+        <TLCTerm eId="term_18" href="/ontology/term/חקירה_משטרתית/25662" showAs="חקירה_משטרתית" />
+        <TLCTerm eId="term_19" href="/ontology/term/פסיכיאטר_מחוזי/25662" showAs="פסיכיאטר_מחוזי" />
+        <TLCTerm eId="term_20" href="/ontology/term/פקודת_הפרוצדורה_הפלילית/25662" showAs="פקודת_הפרוצדורה_הפלילית" />
+        <TLCTerm eId="term_21" href="/ontology/term/פקודת_הראיות/25662" showAs="פקודת_הראיות" />
+        <TLCTerm eId="term_22" href="/ontology/term/פקיד_סעד/25662" showAs="פקיד_סעד" />
+        <TLCTerm eId="term_23" href="/ontology/term/קלטת_חקירה/25662" showAs="קלטת_חקירה" />
+        <TLCTerm eId="term_24" href="/ontology/term/תיעוד_חזותי/25662" showAs="תיעוד_חזותי" />
+        <TLCTerm eId="term_25" href="/ontology/term/תיעוד_קולי/25662" showAs="תיעוד_קולי" />
+        <TLCTerm eId="term_26" href="/ontology/term/תמליל/25662" showAs="תמליל" />
+        <TLCTerm eId="term_27" href="/ontology/term/השר/25662" showAs="השר" />
+        <TLCPerson eId="אריאל_שרון" href="/ontology/person/אריאל_שרון" showAs="אריאל שרון" />
+        <TLCPerson eId="ציפי_לבני" href="/ontology/person/ציפי_לבני" showAs="ציפי לבני" />
+        <TLCPerson eId="משה_קצב" href="/ontology/person/משה_קצב" showAs="משה קצב" />
+        <TLCPerson eId="ראובן_ריבלין" href="/ontology/person/ראובן_ריבלין" showAs="ראובן ריבלין" />
+        <TLCRole eId="ראש_הממשלה" href="ontology/role/akn/ראש_הממשלה" showAs="ראש הממשלה" />
+        <TLCRole eId="שרת_המשפטים" href="ontology/role/akn/שרת_המשפטים" showAs="שרת המשפטים" />
+        <TLCRole eId="נשיא_המדינה" href="ontology/role/akn/נשיא_המדינה" showAs="נשיא המדינה" />
+        <TLCRole eId="יושב_ראש_הכנסת" href="ontology/role/akn/יושב_ראש_הכנסת" showAs="יושב ראש הכנסת" />
+      </references>
+      <temporalData source="#kensset">
+        <temporalGroup eId="tmpg_1" />
+      </temporalData>
+      <Publication></Publication>
+      <proprietary wikiversion="12/2/2020 9:34:35 AM" />
+    </meta>
+    <body period="#tmpg_1">
+      <title eId="title">
+        <content>
+          <p>חוק הליכי חקירה והעדה (התאמה לאנשים עם מוגבלות שכלית או נפשית), התשס"ו–2005</p>
+        </content>
+      </title>
+      <chapter eId="chp_א">
+        <num>פרק א׳:</num>
+        <title>
+          <content>
+            <p>הוראות כלליות</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_1" class="definitions">
+            <heading>
+              <authorialNote placement="side">
+                <p>הגדרות</p>
+              </authorialNote>
+            </heading>
+            <num>1.</num>
+            <list>
+              <intro>
+                <p>בחוק זה –</p>
+              </intro>
+              <point eId="point_1__point_אדם_עם_מוגבלות_נפשית">
+                <content>
+                  <p>
+                    <def />”אדם עם מוגבלות נפשית“ – אדם עם לקות נפשית שבשלה מוגבלת יכולתו להיחקר או למסור עדות;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_אדם_עם_מוגבלות_שכלית">
+                <list>
+                  <intro>
+                    <p>
+                      <def />”אדם עם מוגבלות שכלית“ – כל אחד מאלה:</p>
+                  </intro>
+                  <point eId="point_1__point_אדם_עם_מוגבלות_שכלית__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>אדם עם מוגבלות שכלית–התפתחותית;</p>
+                    </content>
+                  </point>
+                  <point eId="point_1__point_אדם_עם_מוגבלות_שכלית__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>אדם עם לקות שכלית אחרת שבשלה מוגבלת יכולתו להיחקר או למסור עדות;</p>
+                    </content>
+                  </point>
+                  <point eId="point_1__point_אדם_עם_מוגבלות_שכלית__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>אדם עם הפרעה התפתחותית מורחבת, לרבות אדם עם אוטיזם, שבשלה מוגבלת יכולתו להיחקר או למסור עדות;</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_1__point_אדם_עם_מוגבלות_שכלית–התפתחותית">
+                <content>
+                  <p>
+                    <def />”אדם עם מוגבלות שכלית–התפתחותית“ – מי שאובחן כאדם עם מוגבלות שכלית–התפתחותית בידי ועדת אבחון, שהוקמה לפי <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/חוק_הסעד_טיפול_במפגרים">חוק הסעד טיפול במפגרים</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_אחראי_על_קטין_או_חסר_ישע">
+                <content>
+                  <p>
+                    <def />”אחראי על קטין או חסר ישע“ – כהגדרתו <ref href="/akn/il/act/PrimaryLegislation/1977-08-04/2002251#point_368א">בסעיף 368א לחוק העונשין</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_בן_משפחה">
+                <content>
+                  <p>
+                    <def />”בן משפחה“, שלא לענין אחראי על קטין או חסר ישע – הורה או אח כהגדרתם <ref href="/akn/il/act/PrimaryLegislation/1955-06-16/148415">בחוק הגנת הילדים</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_חוות_דעת">
+                <content>
+                  <p>
+                    <def />”חוות דעת“ – חוות דעת של מומחה לפי <ref href="/akn/il/act/PrimaryLegislation/1971-04-28/2002283">פקודת הראיות</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_חוק_בתי_המשפט">
+                <content>
+                  <p>
+                    <def />”חוק בתי המשפט“ – <ref href="/akn/il/act/PrimaryLegislation/1984-08-13/2002218">חוק בתי המשפט [נוסח משולב], התשמ"ד–1984</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_חוק_הגנת_ילדים">
+                <content>
+                  <p>
+                    <def />”חוק הגנת ילדים“ – <ref href="/akn/il/act/PrimaryLegislation/1955-06-16/148415">חוק לתיקון דיני הראיות (הגנת הילדים), התשט"ו–1955</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_חוק_זכויות_נפגעי_עבירה">
+                <content>
+                  <p>
+                    <def />”חוק זכויות נפגעי עבירה“ – <ref href="/akn/il/act/PrimaryLegislation/2001-03-21/171104">חוק זכויות נפגעי עבירה, התשס"א–2001</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_חוק_חקירת_חשודים">
+                <content>
+                  <p>
+                    <def />”חוק חקירת חשודים“ – <ref href="/akn/il/act/PrimaryLegislation/2002-07-04/173782">חוק סדר הדין הפלילי (חקירת חשודים), התשס"ב–2002</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_חוק_חקירת_עדים">
+                <content>
+                  <p>
+                    <def />”חוק חקירת עדים“ – <ref href="/akn/il/act/PrimaryLegislation/1957-12-12/148335">חוק לתיקון סדרי הדין (חקירת עדים), התשי"ח–1957</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_חוק_טיפול_בחולי_נפש">
+                <content>
+                  <p>
+                    <def />”חוק טיפול בחולי נפש“ – <ref href="/akn/il/act/PrimaryLegislation/1991-01-08/152284">חוק טיפול בחולי נפש, התשנ"א–1991</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_חוק_סדר_הדין_הפלילי">
+                <content>
+                  <p>
+                    <def />”חוק סדר הדין הפלילי“ – <ref href="/akn/il/act/PrimaryLegislation/1982-03-01/2002215">חוק סדר הדין הפלילי [נוסח משולב], התשמ"ב–1982</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_חוק_הסעד_טיפול_במפגרים">
+                <content>
+                  <p>
+                    <def />”חוק הסעד טיפול במפגרים“ – <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/חוק_הסעד_טיפול_במפגרים">חוק הסעד (טיפול במפגרים), התשכ"ט–1969</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_חוק_העונשין">
+                <content>
+                  <p>
+                    <def />”חוק העונשין“ – <ref href="/akn/il/act/PrimaryLegislation/1977-08-04/2002251">חוק העונשין, התשל"ז–1977</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_חוקר_מיוחד">
+                <content>
+                  <p>
+                    <def />”חוקר מיוחד“ – חוקר שמינה שר הרווחה לפי <ref href="#point_6">סעיף 6</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_חוקר_משטרה">
+                <list>
+                  <intro>
+                    <p>
+                      <def />”חוקר משטרה“ – כל אחד מאלה:</p>
+                  </intro>
+                  <point eId="point_1__point_חוקר_משטרה__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>שוטר שמוסמך לחקור לפי <ref href="/akn/il/act/PrimaryLegislation/1933-12-31/2001433#point_2">סעיף 2 לפקודת הפרוצדורה הפלילית</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_1__point_חוקר_משטרה__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>חוקר במחלקה לחקירות שוטרים במשרד המשפטים;</p>
+                    </content>
+                  </point>
+                  <point eId="point_1__point_חוקר_משטרה__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>מי שרשאי לערוך חקירות מטעם רשות אחרת שקבע השר בצו לפי <ref href="#point_30">סעיף 30</ref>;</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_1__point_חקירה_משטרתית">
+                <content>
+                  <p>
+                    <def />”חקירה משטרתית“ – חקירה בידי חוקר משטרה;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_פסיכיאטר_מחוזי">
+                <content>
+                  <p>
+                    <def />”פסיכיאטר מחוזי“ – כהגדרתו <ref href="/akn/il/act/PrimaryLegislation/1991-01-08/152284#point_1">בסעיף 1 בחוק טיפול בחולי נפש</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_פקודת_הפרוצדורה_הפלילית">
+                <content>
+                  <p>
+                    <def />”פקודת הפרוצדורה הפלילית“ – <ref href="/akn/il/act/PrimaryLegislation/1933-12-31/2001433">פקודת הפרוצדורה הפלילית (עדות)</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_פקודת_הראיות">
+                <content>
+                  <p>
+                    <def />”פקודת הראיות“ – <ref href="/akn/il/act/PrimaryLegislation/1971-04-28/2002283">פקודת הראיות [נוסח חדש], התשל"א–1971</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_פקיד_סעד">
+                <content>
+                  <p>
+                    <def />”פקיד סעד“ – <wikicomment font-size="x-small">(נמחקה);</wikicomment></p>
+                </content>
+              </point>
+              <point eId="point_1__point_קלטת_חקירה">
+                <content>
+                  <p>
+                    <def />”קלטת חקירה“ – דיסקט, תקליטור וכל אמצעי אחר לאגירה ואחסון של מידע המופק ממכשיר תיעוד חזותי או קולי, שבהם תועדה חקירת אדם עם מוגבלות שכלית או אדם עם מוגבלות נפשית;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_תיעוד_חזותי">
+                <content>
+                  <p>
+                    <def />”תיעוד חזותי“ – תיעוד בהקלטת תמונה וקול, בשילוב;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_תיעוד_קולי">
+                <content>
+                  <p>
+                    <def />”תיעוד קולי“ – תיעוד בהקלטת קול;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_תמליל">
+                <content>
+                  <p>
+                    <def />”תמליל“ – תמליל מודפס של קלטת חקירה;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_השר">
+                <content>
+                  <p>
+                    <def />”השר“ – שר המשפטים.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_2">
+            <heading>
+              <authorialNote placement="side">
+                <p>היקף תחולת החוק</p>
+              </authorialNote>
+            </heading>
+            <num>2.</num>
+            <list>
+              <point eId="point_2__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>הוראות חוק זה יחולו, לפי הענין, על חקירה והעדה של אדם עם מוגבלות שכלית או אדם עם מוגבלות נפשית, לגבי עבירה כאמור <ref href="#appendix">בתוספת</ref>.</p>
+                </content>
+              </point>
+              <point eId="point_2__point_ב">
+                <num>(ב)</num>
+                <list>
+                  <intro>
+                    <p>הוראות חוק זה לענין חקירת אדם עם מוגבלות שכלית בידי חוקר מיוחד יחולו גם במקרים המפורטים בסעיף קטן זה, ואלה הם:</p>
+                  </intro>
+                  <point eId="point_2__point_ב__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>לגבי עבירה שאינה מנויה <ref href="#appendix">בתוספת</ref>, ובלבד שהאדם עם המוגבלות השכלית נחקר כחשוד באותה עבירה;</p>
+                    </content>
+                  </point>
+                  <point eId="point_2__point_ב__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>לגבי עבירה נלווית, ובלבד שהאדם עם המוגבלות השכלית נחקר גם בעבירה כאמור <ref href="#appendix">בתוספת</ref>.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_2__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>בסעיף זה, ”עבירה נלווית“ – עבירה נוספת לעבירה המנויה <ref href="#appendix">בתוספת</ref>, שנעברה במהלך ביצוע עבירה המנויה <ref href="#appendix">בתוספת</ref> או בקשר אליה, בין אם על ידי האדם החשוד בביצוע עבירה המנויה <ref href="#appendix">בתוספת</ref> ובין אם על ידי אדם אחר.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+        </list>
+      </chapter>
+      <chapter eId="chp_ב">
+        <num>פרק ב׳:</num>
+        <title>
+          <content>
+            <p>הליכי חקירה</p>
+          </content>
+        </title>
+        <section eId="chp_ב__sec_א">
+          <num>סימן א׳:</num>
+          <title>
+            <content>
+              <p>חקירת אדם עם מוגבלות שכלית</p>
+            </content>
+          </title>
+          <list>
+            <point eId="point_3">
+              <heading>
+                <authorialNote placement="side">
+                  <p>חקירה של אדם עם מוגבלות שכלית</p>
+                </authorialNote>
+              </heading>
+              <num>3.</num>
+              <list>
+                <point eId="point_3__point_א">
+                  <num>(א)</num>
+                  <content>
+                    <p>בסעיף זה, ”נחקר“ – כל אדם שנגבית ממנו הודעה כמתלונן, כעד או כחשוד.</p>
+                  </content>
+                </point>
+                <point eId="point_3__point_ב">
+                  <num>(ב)</num>
+                  <content>
+                    <p>סבר חוקר משטרה, לפני תחילת חקירה או במהלכה, כי אדם העומד להיחקר בפניו או הנחקר בפניו הוא אדם עם מוגבלות שכלית, יפנה החוקר את אותו אדם לחוקר מיוחד ולא ימשיך בחקירה.</p>
+                  </content>
+                </point>
+                <point eId="point_3__point_ג">
+                  <num>(ג)</num>
+                  <content>
+                    <p>טען נחקר שהוא חשוד (בסעיף זה – החשוד), או מי מטעמו, כי הוראות סעיף קטן (ב) חלות עליו, וסבר חוקר משטרה כי אין מקום להפנות את החשוד לחקירה בידי חוקר מיוחד, רשאי החשוד לערור לבית משפט השלום שבאזור שיפוטו מתנהלת החקירה; הדיון בערר יתקיים בתוך 24 שעות מהגשת הערר והחלטת בית המשפט תהיה סופית; לענין זה לא יובאו שבתות ומועדים במנין השעות.</p>
+                  </content>
+                </point>
+                <point eId="point_3__point_ד">
+                  <num>(ד)</num>
+                  <content>
+                    <p>אין בפניה לבית משפט כאמור בסעיף קטן (ג) כדי להוות עילה לעיכוב חקירתו של אדם כאמור באותו סעיף קטן, שנעשית שלא בידי חוקר מיוחד.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_4">
+              <heading>
+                <authorialNote placement="side">
+                  <p>חקירה דחופה של אדם עם מוגבלות שכלית</p>
+                </authorialNote>
+              </heading>
+              <num>4.</num>
+              <list>
+                <point eId="point_4__point_א">
+                  <num>(א)</num>
+                  <content>
+                    <p>על אף הוראות <ref href="#point_3">סעיף 3</ref>, רשאי חוקר משטרה לחקור אדם עם מוגבלות שכלית אם הדבר נדרש באופן מיידי כדי למנוע את סיכול החקירה או את שיבושה, סיכון לחיי אדם או לשלומו, לאפשר את מעצרם של חשודים נוספים או לשם גילוי ראיה.</p>
+                  </content>
+                </point>
+                <point eId="point_4__point_ב">
+                  <num>(ב)</num>
+                  <content>
+                    <p>חוקר המשטרה יתעד בכתב את החקירה לפי סעיף קטן (א) וירשום את הסיבות לעריכתה.</p>
+                  </content>
+                </point>
+                <point eId="point_4__point_ג">
+                  <num>(ג)</num>
+                  <content>
+                    <p>הוראות סעיף זה והוראות <ref href="#chp_ב_sec_ב">סימן ב׳ לפרק זה</ref> באות להוסיף על הוראות <ref href="/akn/il/act/PrimaryLegislation/2002-07-04/173782">חוק חקירת חשודים</ref>, ולא לגרוע מהן.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_5">
+              <heading>
+                <authorialNote placement="side">
+                  <p>הודעה על חקירה של אדם עם מוגבלות שכלית</p>
+                </authorialNote>
+              </heading>
+              <num>5.</num>
+              <list>
+                <point eId="point_5__point_א">
+                  <num>(א)</num>
+                  <content>
+                    <p>בסעיף זה, ”בן משפחה“ – הורה, הורה של הורה, בן זוגו של כל אחד מאלה, אף אם אינו נשוי לו, אח או אחות, לרבות אח או אחות חורגים, וצאצאיהם של כל אחד מאלה, דוד או דודה וצאצאיהם, גיס או גיסה.</p>
+                  </content>
+                </point>
+                <point eId="point_5__point_ב">
+                  <num>(ב)</num>
+                  <content>
+                    <p>אדם עם מוגבלות שכלית שמונה לו אפוטרופוס ויש לחקרו בידי חוקר מיוחד כאמור <ref href="#point_3">בסעיף 3</ref> (בסעיף זה – אדם עם מוגבלות שכלית), ייחקר בידיעת אפוטרופסו.</p>
+                  </content>
+                </point>
+                <point eId="point_5__point_ג">
+                  <num>(ג)</num>
+                  <list>
+                    <intro>
+                      <p>על אף הוראות סעיף קטן (ב), מותר לחקור אדם עם מוגבלות שכלית כאמור באותו סעיף קטן, אף בלא ידיעת אפוטרופסו, אם מתקיים אחד מאלה:</p>
+                    </intro>
+                    <point eId="point_5__point_ג__point_1">
+                      <num>(1)</num>
+                      <content>
+                        <p>האדם עם המוגבלות השכלית ביקש כי לא תימסר לאפוטרופסו הודעה על חקירתו; ואולם רשאי הממונה על החקירה, לאחר שנועץ בחוקר המיוחד, להורות, על אף בקשת האדם עם המוגבלות השכלית, כי תימסר הודעה לאפוטרופסו, אם סבר כי טובתו מחייבת זאת;</p>
+                      </content>
+                    </point>
+                    <point eId="point_5__point_ג__point_2">
+                      <num>(2)</num>
+                      <content>
+                        <p>לדעת הממונה על החקירה, לאחר שנועץ בחוקר המיוחד, חקירת האדם עם המוגבלות השכלית בידיעת אפוטרופסו תעכב את חקירת העבירה, בשל קושי להודיע לאפוטרופוס במאמץ סביר, ויש יסוד סביר להניח שהעיכוב יסכל את חקירת העבירה או ישבשה, יסכל מניעה של פשע, ייצור סיכון לחיי אדם או לשלומו, או ימנע מעצרם של חשודים נוספים או גילוי ראיה; ואולם בכפוף להוראות סעיף זה, הודעה על החקירה תימסר לאפוטרופסו של האדם עם המוגבלות השכלית מוקדם ככל האפשר;</p>
+                      </content>
+                    </point>
+                    <point eId="point_5__point_ג__point_3">
+                      <num>(3)</num>
+                      <list>
+                        <intro>
+                          <p>לדעת הממונה על החקירה, לאחר שנועץ בחוקר המיוחד, נכון לעשות כן על יסוד אחד מאלה:</p>
+                        </intro>
+                        <point eId="point_5__point_ג__point_3__point_א">
+                          <num>(א)</num>
+                          <content>
+                            <p>טעמים של טובת האדם עם המוגבלות השכלית או טעמים של טובת החקירה, שאין בהם פגיעה בטובת האדם כאמור, מחמת היות החשוד בביצוע העבירה בן משפחתו של האדם עם המוגבלות השכלית, אפוטרופסו או בן משפחתו של אפוטרופסו;</p>
+                          </content>
+                        </point>
+                        <point eId="point_5__point_ג__point_3__point_ב">
+                          <num>(ב)</num>
+                          <content>
+                            <p>חשש לפגיעה בשלומו הגופני או הנפשי של האדם עם המוגבלות השכלית.</p>
+                          </content>
+                        </point>
+                      </list>
+                    </point>
+                  </list>
+                </point>
+                <point eId="point_5__point_ד">
+                  <num>(ד)</num>
+                  <content>
+                    <p>חדל להתקיים הטעם שהצדיק חקירת אדם עם מוגבלות שכלית בלא ידיעת אפוטרופסו כאמור בסעיף קטן (ג), יודיע החוקר המיוחד על חקירת העבירה לאפוטרופוס אם אין מניעה אחרת להודיע עליה לפי סעיף זה.</p>
+                  </content>
+                </point>
+                <point eId="point_5__point_ה">
+                  <num>(ה)</num>
+                  <content>
+                    <p>הוראות סעיף זה יחולו גם על זימון אדם עם מוגבלות שכלית לפי <ref href="/akn/il/act/PrimaryLegislation/1996-05-12/159712#point_68">סעיף 68(א) בחוק סדר הדין הפלילי (סמכויות אכיפה – מעצרים), התשנ"ו–1996</ref>, לחקירה בידי חוקר מיוחד כאמור <ref href="#point_3">בסעיף 3</ref>.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_6">
+              <heading>
+                <authorialNote placement="side">
+                  <p>מינוי והכשרת חוקרים מיוחדים</p>
+                </authorialNote>
+              </heading>
+              <num>6.</num>
+              <content>
+                <p>שר הרווחה ימנה לענין חקירת אנשים עם מוגבלויות שכליות לפי חוק זה, חוקרים מיוחדים שהם פסיכולוגים, עובדים סוציאליים, קרימינולוגים קליניים או בעלי הכשרה בתחום החינוך המיוחד; החוקרים המיוחדים יקבלו הכשרה לצורך תפקידם, כפי שיקבע שר הרווחה בהתייעצות עם השר לביטחון הפנים.</p>
+              </content>
+            </point>
+            <point eId="point_7">
+              <heading>
+                <authorialNote placement="side">
+                  <p>חקירה בידי חוקר מיוחד</p>
+                </authorialNote>
+              </heading>
+              <num>7.</num>
+              <list>
+                <point eId="point_7__point_א">
+                  <num>(א)</num>
+                  <content>
+                    <p>חוקר מיוחד רשאי לחקור אדם עם מוגבלות שכלית שהפנה אליו חוקר משטרה כאמור <ref href="#point_3">בסעיף 3</ref>; לחוקר מיוחד יהיו כל הסמכויות הנתונות לקצין משטרה בדרגת מפקח ומעלה לפי <ref href="/akn/il/act/PrimaryLegislation/1933-12-31/2001433#point_2">סעיף 2 לפקודת הפרוצדורה הפלילית</ref>, והוראות <ref href="/akn/il/act/PrimaryLegislation/1933-12-31/2001433#point_2">סעיפים 2</ref><ref href="/akn/il/act/PrimaryLegislation/1933-12-31/2001433#point_3">ו־3 לפקודה האמורה</ref> יחולו על החקירה, בשינויים המחויבים; החוקר המיוחד יסביר לנחקר, בלשון המובנת לו, את האמור <ref href="/akn/il/act/PrimaryLegislation/1933-12-31/2001433#point_2">בסעיף 2(2) לפקודת הפרוצדורה הפלילית</ref>.</p>
+                  </content>
+                </point>
+                <point eId="point_7__point_ב">
+                  <num>(ב)</num>
+                  <content>
+                    <p>חוקר מיוחד רשאי להיעזר באיש מקצוע המומחה בתחום המוגבלות של הנחקר, או באדם אחר שעשוי, לדעת החוקר המיוחד, לסייע לו בגביית העדות.</p>
+                  </content>
+                </point>
+                <point eId="point_7__point_ג">
+                  <num>(ג)</num>
+                  <content>
+                    <p>החוקר המיוחד יכתוב, עם סיום החקירה, חוות דעת שבה יתאר את מהלך החקירה, את קשיי התקשורת עם הנחקר ואם הסתייע באיש מקצוע כאמור בסעיף זה – גם את פרטי איש המקצוע והסיוע; החוקר רשאי להוסיף לחוות הדעת המלצות בדבר אמצעי העדה רצויים אם יעיד הנחקר בבית המשפט; הוספת ההמלצות תיעשה, במידת האפשר, לאחר שמיעת עמדת הנחקר.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_8">
+              <heading>
+                <authorialNote placement="side">
+                  <p>ליווי בחקירה של אדם עם מוגבלות שכלית</p>
+                </authorialNote>
+              </heading>
+              <num>8.</num>
+              <list>
+                <point eId="point_8__point_א">
+                  <num>(א)</num>
+                  <content>
+                    <p>אדם עם מוגבלות שכלית זכאי לכך שאדם המלווה אותו, לפי בחירתו, יהיה נוכח בחקירה, אלא אם כן, לדעת החוקר המיוחד או החוקר, לפי הענין, מטעמים שיירשמו, עלול הדבר לפגוע בחקירה.</p>
+                  </content>
+                </point>
+                <point eId="point_8__point_ב">
+                  <num>(ב)</num>
+                  <content>
+                    <p>אין בסעיף זה כדי לפגוע בזכות נפגע עבירת מין או אלימות, לנוכחות מלווה בחקירה כאמור <ref href="/akn/il/act/PrimaryLegislation/2001-03-21/171104#point_14">בסעיף 14 לחוק זכויות נפגעי עבירה</ref>.</p>
+                  </content>
+                </point>
+                <point eId="point_8__point_ג">
+                  <num>(ג)</num>
+                  <content>
+                    <p>בסעיף זה <ref href="#point_16">ובסעיף 16</ref>, ”אדם המלווה אותו“, ”המלווה בחקירה“ – למעט עורך דינו.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_9">
+              <heading>
+                <authorialNote placement="side">
+                  <p>חקירת חשוד עם מוגבלות</p>
+                </authorialNote>
+              </heading>
+              <num>9.</num>
+              <content>
+                <p>הופנה חשוד המצוי במעצר לחוקר מיוחד לפי חוק זה, יסביר החוקר המיוחד לחשוד, בלשון המובנת לו, את זכויותיו לפי <ref href="/akn/il/act/PrimaryLegislation/1996-05-12/159712">חוק סדר הדין הפלילי (סמכויות אכיפה – מעצרים), התשנ"ו–1996</ref>.</p>
+              </content>
+            </point>
+            <point eId="point_10">
+              <heading>
+                <authorialNote placement="side">
+                  <p>תיעוד חקירת אדם עם מוגבלות שכלית</p>
+                </authorialNote>
+              </heading>
+              <num>10.</num>
+              <list>
+                <point eId="point_10__point_א">
+                  <num>(א)</num>
+                  <list>
+                    <intro>
+                      <p>החוקר המיוחד יתעד חקירה הנעשית על ידו, במלואה, לרבות כל חילופי הדברים עם הנחקר או עם אחרים בנוכחותו, כדלקמן:</p>
+                    </intro>
+                    <point eId="point_10__point_א__point_1">
+                      <num>(1)</num>
+                      <content>
+                        <p>בתיעוד חזותי;</p>
+                      </content>
+                    </point>
+                    <point eId="point_10__point_א__point_2">
+                      <num>(2)</num>
+                      <content>
+                        <p>בתיעוד קולי – אם אין אפשרות סבירה, בנסיבות הענין, לתיעוד חזותי, או אם סירב הנחקר להשיב לשאלות החוקר המיוחד בשל השימוש בתיעוד החזותי וסירובו תועד בתיעוד החזותי;</p>
+                      </content>
+                    </point>
+                    <point eId="point_10__point_א__point_3">
+                      <num>(3)</num>
+                      <content>
+                        <p>בכתב – אם אין אפשרות סבירה לתיעוד קולי, או אם סירב הנחקר להשיב לשאלות החוקר המיוחד בשל התיעוד הקולי וסירובו תועד בתיעוד הקולי.</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+                <point eId="point_10__point_ב">
+                  <num>(ב)</num>
+                  <content>
+                    <p>תועדה החקירה בתיעוד קולי בלבד, יפרט החוקר המיוחד בכתב את הטעמים לאי התיעוד החזותי; תועדה החקירה בכתב בלבד, יפרט החוקר המיוחד את הטעמים לאי התיעוד החזותי או הקולי.</p>
+                  </content>
+                </point>
+                <point eId="point_10__point_ג">
+                  <num>(ג)</num>
+                  <content>
+                    <p>לא ייעשה כל שינוי בקלטת החקירה.</p>
+                  </content>
+                </point>
+                <point eId="point_10__point_ד">
+                  <num>(ד)</num>
+                  <list>
+                    <intro>
+                      <p>תמליל יוכן בכל אחד מאלה:</p>
+                    </intro>
+                    <point eId="point_10__point_ד__point_1">
+                      <num>(1)</num>
+                      <content>
+                        <p>משהוגש כתב אישום בעבירה נושא החקירה;</p>
+                      </content>
+                    </point>
+                    <point eId="point_10__point_ד__point_2">
+                      <num>(2)</num>
+                      <content>
+                        <p>לפי דרישת תובע, לצורך מילוי תפקידו.</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+                <point eId="point_10__point_ה">
+                  <num>(ה)</num>
+                  <content>
+                    <p>החוקר המיוחד אחראי להכנתו של התמליל במקרים האמורים בסעיף קטן (ד).</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_11">
+              <heading>
+                <authorialNote placement="side">
+                  <p>דרכי העיון בהקלטה</p>
+                </authorialNote>
+              </heading>
+              <num>11.</num>
+              <list>
+                <intro>
+                  <p>הוראות <ref href="/akn/il/act/PrimaryLegislation/1982-03-01/2002215#point_74">סעיפים 74</ref><ref href="/akn/il/act/PrimaryLegislation/1982-03-01/2002215#point_75">ו־75 לחוק סדר הדין הפלילי</ref> יחולו על תמליל ועל קלטת חקירה, בשינויים אלה:</p>
+                </intro>
+                <point eId="point_11__point_1">
+                  <num>(1)</num>
+                  <list>
+                    <point eId="point_11__point_1__point_א">
+                      <num>(א)</num>
+                      <content>
+                        <p>התובע יעביר לידי הנאשם את התמליל;</p>
+                      </content>
+                    </point>
+                    <point eId="point_11__point_1__point_ב">
+                      <num>(ב)</num>
+                      <content>
+                        <p>הנאשם זכאי להאזין לקלטת החקירה, לצפות בה ולהשוות את תוכנה לאמור בתמליל;</p>
+                      </content>
+                    </point>
+                    <point eId="point_11__point_1__point_ג">
+                      <num>(ג)</num>
+                      <content>
+                        <p>הנאשם אינו זכאי להעתיק את קלטת החקירה, להוציאה ממקום המצאה הקבוע או לקבל לידיו את העתקה, אלא אם כן הורה בית המשפט אחרת, מטעמים מיוחדים שיפרט; הורה בית המשפט כאמור, חייב הנאשם להחזיר את קלטת החקירה וכל העתק שלה, וכן את התמליל, לתיק בית המשפט בתום ההליך המשפטי, אלא אם כן קבע בית המשפט מועד אחר להחזרתם כאמור; לענין סעיף זה, ”הנאשם“ – לרבות מי שפועל מטעמו כמפורט <ref href="/akn/il/act/PrimaryLegislation/1982-03-01/2002215#point_74">בסעיף 74(א) לחוק סדר הדין הפלילי</ref>;</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+                <point eId="point_11__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>היה הנאשם מיוצג, זכאי סניגורו, לצורך ניהול ההליך המשפטי בענינו של הנאשם, להעתיק את קלטת החקירה ולקבל לידיו את העתקה, ובלבד שלא יעבירנה לנאשם או לאדם אחר.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_12">
+              <heading>
+                <authorialNote placement="side">
+                  <p>נוכחות אדם עם מוגבלות שכלית בפעולות חקירה</p>
+                </authorialNote>
+              </heading>
+              <num>12.</num>
+              <content>
+                <p>התגלה הצורך, תוך כדי חקירה משטרתית, לעשות פעולה המצריכה נוכחותו של אדם עם מוגבלות שכלית שהופנה לחקירה בידי חוקר מיוחד, או השתתפותו בה, לא תיעשה הפעולה אלא בהתאם להוראותיו של החוקר המיוחד.</p>
+              </content>
+            </point>
+            <point eId="point_13">
+              <heading>
+                <authorialNote placement="side">
+                  <p>העברת חומר החקירה ליחידה החוקרת</p>
+                </authorialNote>
+              </heading>
+              <num>13.</num>
+              <content>
+                <p>עם סיום החקירה, יעביר החוקר המיוחד את חומר החקירה, במלואו, ליחידה החוקרת שהפנתה את הנחקר לחוקר המיוחד.</p>
+              </content>
+            </point>
+            <point eId="point_14">
+              <heading>
+                <authorialNote placement="side">
+                  <p>תוקף חקירה</p>
+                </authorialNote>
+              </heading>
+              <num>14.</num>
+              <list>
+                <intro>
+                  <p>אין בהוראות חוק זה כדי לפגוע בחוקיותה של חקירה כאמור בפסקאות (1) או (2) –</p>
+                </intro>
+                <point eId="point_14__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>של אדם כאמור <ref href="#point_3">בסעיף 3</ref>, שנעשתה שלא בידי חוקר מיוחד;</p>
+                  </content>
+                </point>
+                <point eId="point_14__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>שנעשתה בידי חוקר מיוחד, אף אם בדיעבד הסתבר כי הנחקר לא היה אדם עם מוגבלות שכלית.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_15">
+              <heading>
+                <authorialNote placement="side">
+                  <p>קבילות הודאת אדם עם מוגבלות שכלית</p>
+                </authorialNote>
+              </heading>
+              <num>15.</num>
+              <content>
+                <p>הודה אדם עם מוגבלות שכלית בעבירה במהלך חקירה שלא על ידי חוקר מיוחד, על התביעה להוכיח מעל לכל ספק סביר שההודאה היתה חופשית ומרצון, אף אם לא העלה הנאשם טענה בענין זה.</p>
+              </content>
+            </point>
+          </list>
+        </section>
+        <section eId="chp_ב__sec_ב">
+          <num>סימן ב׳:</num>
+          <title>
+            <content>
+              <p>חקירת אדם עם מוגבלות נפשית</p>
+            </content>
+          </title>
+          <list>
+            <point eId="point_16">
+              <heading>
+                <authorialNote placement="side">
+                  <p>ליווי בחקירה של אדם עם מוגבלות נפשית</p>
+                </authorialNote>
+              </heading>
+              <num>16.</num>
+              <list>
+                <point eId="point_16__point_א">
+                  <num>(א)</num>
+                  <content>
+                    <p>הוראות <ref href="#point_8">סעיף 8</ref> יחולו גם לגבי חקירת אדם עם מוגבלות נפשית שיש לגביו ראיה, בכתב או בעל־פה, בדבר לקותו הנפשית, ושחוקר משטרה סבר כי הוא אדם עם מוגבלות נפשית או שדבר מוגבלותו הובא לידיעת חוקר המשטרה; ואולם לא תיאסר נוכחות המלווה בחקירה כאמור <ref href="#point_8">בסעיף 8(א)</ref>, אלא באישור הקצין הממונה על החקירה.</p>
+                  </content>
+                </point>
+                <point eId="point_16__point_ב">
+                  <num>(ב)</num>
+                  <content>
+                    <p>בלי לגרוע מהוראות סעיף קטן (א), אדם כאמור באותו סעיף קטן זכאי לבקש מחוקר המשטרה כי דבר חקירתו יובא לידיעת מטפלו, והוא זכאי לבקש כי מטפלו ילווה אותו בחקירתו כאמור; בסעיף זה, ”מטפלו“ – מטפל כמשמעותו <ref href="/akn/il/act/PrimaryLegislation/1996-05-12/174478">בחוק זכויות החולה, התשנ"ו–1996</ref>, המטפל בו.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_17">
+              <heading>
+                <authorialNote placement="side">
+                  <p>תיעוד חקירת אדם עם מוגבלות נפשית</p>
+                </authorialNote>
+              </heading>
+              <num>17.</num>
+              <list>
+                <point eId="point_17__point_א">
+                  <num>(א)</num>
+                  <content>
+                    <p>חוקר משטרה יתעד חקירת אדם עם מוגבלות נפשית שדבר מוגבלותו הובא לידיעתו, והוראות <ref href="#point_10">סעיף 10(א) עד (ד)</ref> יחולו, בשינויים המחויבים.</p>
+                  </content>
+                </point>
+                <point eId="point_17__point_ב">
+                  <num>(ב)</num>
+                  <content>
+                    <p>הוראות <ref href="#point_11">סעיף 11</ref> יחולו על קלטת החקירה ועל התמליל; ואולם להכנת התמליל במקרים האמורים <ref href="#point_10">בסעיף 10(ד)</ref> תהיה אחראית היחידה החוקרת.</p>
+                  </content>
+                </point>
+                <point eId="point_17__point_ג">
+                  <num>(ג)</num>
+                  <content>
+                    <p>הנשיאה בעלויות הכנת התמליל כאמור בסעיף קטן (ב) תהיה בהתאם להחלטת השר לביטחון הפנים יחד עם השר.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+          </list>
+        </section>
+      </chapter>
+      <chapter eId="chp_ג">
+        <num>פרק ג׳:</num>
+        <title>
+          <content>
+            <p>ההליך המשפטי</p>
+          </content>
+        </title>
+        <section eId="chp_ג__sec_א">
+          <num>סימן א׳:</num>
+          <title>
+            <content>
+              <p>הוראות לענין אנשים עם מוגבלות שכלית</p>
+            </content>
+          </title>
+          <list>
+            <point eId="point_18">
+              <heading>
+                <authorialNote placement="side">
+                  <p>אזהרת עד עם מוגבלות שכלית</p>
+                </authorialNote>
+              </heading>
+              <num>18.</num>
+              <list>
+                <point eId="point_18__point_א">
+                  <num>(א)</num>
+                  <content>
+                    <p>מצא בית המשפט כי לא ניתן להזהיר עד כאמור <ref href="/akn/il/act/PrimaryLegislation/1980-08-08/148408#point_2">בסעיף 2 בחוק לתיקון דיני הראיות (אזהרת עדים וביטול שבועה), התש"ם–1980</ref>, מחמת שהעד אינו מסוגל, בשל מוגבלותו השכלית, להבין את החובה להגיד אמת, רשאי בית המשפט, אם מצא כי אין בכך כדי לסייע לגילוי האמת, שלא להזהיר עד העומד להעיד בפניו שהוא אדם עם מוגבלות שכלית.</p>
+                  </content>
+                </point>
+                <point eId="point_18__point_ב">
+                  <num>(ב)</num>
+                  <content>
+                    <p>לא יורשע אדם על סמך עדות יחידה שהתקבלה בלא אזהרה כאמור בסעיף קטן (א), אלא אם כן נמצא בחומר הראיות דבר לחיזוקה.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_19">
+              <heading>
+                <authorialNote placement="side">
+                  <p>איסור חקירה נגדית של אדם עם מוגבלות שכלית בידי הנאשם, ומינוי סניגור</p>
+                </authorialNote>
+              </heading>
+              <num>19.</num>
+              <list>
+                <point eId="point_19__point_א">
+                  <num>(א)</num>
+                  <list>
+                    <point eId="point_19__point_א__point_1">
+                      <num>(1)</num>
+                      <content>
+                        <p>ראה בית המשפט כי עד שעומד להעיד בפניו או המעיד בפניו הוא אדם עם מוגבלות שכלית (בסעיף זה – העד), רשאי הוא להורות, בין ביזמתו ובין לבקשת בעל דין, לפני מתן העדות או במהלכה, שהנאשם לא יחקור את העד בעצמו.</p>
+                      </content>
+                    </point>
+                    <point eId="point_19__point_א__point_2">
+                      <num>(2)</num>
+                      <content>
+                        <p>בית משפט לא יחליט כאמור בפסקה (1) אלא לאחר שנתן הזדמנות לבעלי הדין להשמיע את טענותיהם ובהתחשב, בין השאר, ברצונו של העד, התנהגות הנאשם בהליך, קיומה של היכרות מוקדמת בין העד לנאשם, ומידת הפגיעה שתגרם לנאשם אם יורה בית המשפט כי לא יחקור את העד בעצמו.</p>
+                      </content>
+                    </point>
+                    <point eId="point_19__point_א__point_3">
+                      <num>(3)</num>
+                      <content>
+                        <p>לא היה הנאשם מיוצג, לא יחליט בית המשפט כאמור בפסקה (1) בטרם מינה לו, בהסכמתו, סניגור לייצגו לצורך המשך ההליך המשפטי.</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+                <point eId="point_19__point_ב">
+                  <num>(ב)</num>
+                  <list>
+                    <point eId="point_19__point_ב__point_1">
+                      <num>(1)</num>
+                      <content>
+                        <p>על אף האמור בסעיף קטן (א)(1), הובא לידיעת בית המשפט כי במשפט פלילי בשל עבירה המפורטת בפרט (1) עד (3) בתוספת, עד העומד להעיד בפניו או המעיד בפניו הוא נפגע העבירה שבקשר אליה מתנהל ההליך המשפטי, לא יחקור הנאשם את אותו אדם בעצמו.</p>
+                      </content>
+                    </point>
+                    <point eId="point_19__point_ב__point_2">
+                      <num>(2)</num>
+                      <content>
+                        <p>במשפט שבו צפוי להעיד עד כאמור בסעיף קטן (ב)(1) או שצפויה להיות מוגשת בו אמרת עד כאמור והנאשם אינו מיוצג, ימנה בית המשפט לנאשם, בהסכמתו, סניגור.</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+                <point eId="point_19__point_ג">
+                  <num>(ג)</num>
+                  <content>
+                    <p>סירב הנאשם למינוי סניגור כאמור בסעיף קטן (א)(3) או (ב)(2), תיעשה חקירת העד האמור בסעיף קטן (א)(1) או (ב)(1), לפי הענין, באמצעות מתווך; בסעיף זה, ”מתווך“ – אדם בעל הכשרה כחוקר מיוחד לענין חוק זה, או אדם בעל הכשרה מתאימה אחרת, למעט החוקר המיוחד שחקר את העד; השר רשאי לקבוע הוראות לענין אופן מינוי המתווך, ההכשרה הנדרשת ואופן החקירה באמצעותו.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+          </list>
+        </section>
+        <section eId="chp_ג__sec_ב">
+          <num>סימן ב׳:</num>
+          <title>
+            <content>
+              <p>הוראות לענין אנשים עם מוגבלות שכלית או נפשית</p>
+            </content>
+          </title>
+          <list>
+            <point eId="point_20">
+              <heading>
+                <authorialNote placement="side">
+                  <p>שימוש באמרת אדם עם מוגבלות שכלית או נפשית</p>
+                </authorialNote>
+              </heading>
+              <num>20.</num>
+              <list>
+                <point eId="point_20__point_א">
+                  <num>(א)</num>
+                  <content>
+                    <p>
+                      <ref href="#chp_ג_sec_ב">בסימן זה</ref>
+                      <ref href="#point_24">ובסעיף 24</ref>, ”אדם עם מוגבלות“ – אדם עם מוגבלות שכלית או מוגבלות נפשית.</p>
+                  </content>
+                </point>
+                <point eId="point_20__point_ב">
+                  <num>(ב)</num>
+                  <list>
+                    <intro>
+                      <p>אמרה שנגבתה מאדם עם מוגבלות (בסעיף זה – העד) תהא קבילה כראיה, אם תועדה בהקלטה חזותית, התקבלה חוות דעת מומחה ולפיה העד הוא אדם עם מוגבלות (בסעיף זה – חוות הדעת של המומחה), החוקר המיוחד או חוקר המשטרה, לפי הענין, שגבה את האמרה, העיד על נתינתה, והתקיים אחד מאלה:</p>
+                    </intro>
+                    <point eId="point_20__point_ב__point_1">
+                      <num>(1)</num>
+                      <content>
+                        <p>האדם שנתן את האמרה מעיד במשפט וניתנה לצדדים הזדמנות לחקרו; הוראות הדין החל בישראל לענין <ref href="/akn/il/act/PrimaryLegislation/1971-04-28/2002283#point_10א">פסקה (2) של סעיף 10א(א) לפקודת הראיות</ref> יחולו, לפי הענין, גם על עדות כאמור בפסקה זו; בפסקה זו, ”דין“ – לרבות הלכה פסוקה;</p>
+                      </content>
+                    </point>
+                    <point eId="point_20__point_ב__point_2">
+                      <num>(2)</num>
+                      <list>
+                        <intro>
+                          <p>בית המשפט פטר את האדם ממסירת עדותו, לפני תחילת עדותו או במהלכה, בשל התקיימות כל אלה:</p>
+                        </intro>
+                        <point eId="point_20__point_ב__point_2__point_א">
+                          <num>(א)</num>
+                          <list>
+                            <intro>
+                              <p>לפי חוות הדעת של המומחה, מתקיים אחד מאלה:</p>
+                            </intro>
+                            <point eId="point_20__point_ב__point_2__point_א__point_1">
+                              <num>(1)</num>
+                              <content>
+                                <p>מתן העדות עלול לפגוע בעד;</p>
+                              </content>
+                            </point>
+                            <point eId="point_20__point_ב__point_2__point_א__point_2">
+                              <num>(2)</num>
+                              <content>
+                                <p>העד אינו מסוגל להעיד מחמת מוגבלותו השכלית או הנפשית;</p>
+                              </content>
+                            </point>
+                          </list>
+                        </point>
+                        <point eId="point_20__point_ב__point_2__point_ב">
+                          <num>(ב)</num>
+                          <content>
+                            <p>בית המשפט שוכנע כי אין בגביית העדות באחת או יותר מהדרכים המפורטות <ref href="#point_22">בסעיף 22</ref>, או בדחיית מועד מתן עדותו של העד בזמן סביר, כדי למנוע את הפגיעה בעד או כדי לאפשר את העדתו על אף מוגבלותו השכלית או הנפשית.</p>
+                          </content>
+                        </point>
+                      </list>
+                    </point>
+                  </list>
+                </point>
+                <point eId="point_20__point_ג">
+                  <num>(ג)</num>
+                  <content>
+                    <p>החלטה בענין פטור ממסירת עדות כאמור בסעיף קטן (ב)(2), תינתן במסגרת הליך שיתקיים בדלתיים סגורות ובו תישמע עדותו של המומחה שנתן את חוות הדעת כאמור באותו סעיף קטן, וכן טענות הצדדים.</p>
+                  </content>
+                </point>
+                <point eId="point_20__point_ד">
+                  <num>(ד)</num>
+                  <content>
+                    <p>אין להרשיע אדם על סמך אמרת אדם שבית המשפט פטר אותו ממסירת עדות כאמור בסעיף זה, אלא אם כן יש לה סיוע בראיה אחרת.</p>
+                  </content>
+                </point>
+                <point eId="point_20__point_ה">
+                  <num>(ה)</num>
+                  <list>
+                    <intro>
+                      <p>אין בסעיף זה –</p>
+                    </intro>
+                    <point eId="point_20__point_ה__point_1">
+                      <num>(1)</num>
+                      <content>
+                        <p>כדי להכשיר ראיה שאינה קבילה מטעם אחר, שאינו הכלל האוסר עדות שמיעה;</p>
+                      </content>
+                    </point>
+                    <point eId="point_20__point_ה__point_2">
+                      <num>(2)</num>
+                      <content>
+                        <p>כדי לפסול או להגביל הגשת ראיה שהיא כשרה לפי הכלל האמור בפסקה (1) או לפי דין אחר.</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+              </list>
+            </point>
+            <point eId="point_21">
+              <heading>
+                <authorialNote placement="side">
+                  <p>חוות דעת מומחה</p>
+                </authorialNote>
+              </heading>
+              <num>21.</num>
+              <list>
+                <point eId="point_21__point_א">
+                  <num>(א)</num>
+                  <list>
+                    <intro>
+                      <p>בלי לגרוע מהוראות כל דין, רשאים הצדדים בהליך פלילי שעד שהוא אדם עם מוגבלות מעיד בו, להגיש חוות דעת כראיה בענין מהענינים המפורטים בפסקאות (1) עד (3):</p>
+                    </intro>
+                    <point eId="point_21__point_א__point_1">
+                      <num>(1)</num>
+                      <content>
+                        <p>היות העד אדם עם מוגבלות;</p>
+                      </content>
+                    </point>
+                    <point eId="point_21__point_א__point_2">
+                      <num>(2)</num>
+                      <content>
+                        <p>סוג מוגבלותו של העד;</p>
+                      </content>
+                    </point>
+                    <point eId="point_21__point_א__point_3">
+                      <num>(3)</num>
+                      <content>
+                        <p>השפעתה האפשרית של המוגבלות על מסירת עדות או על העד.</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+                <point eId="point_21__point_ב">
+                  <num>(ב)</num>
+                  <content>
+                    <p>חוות דעת שהתקבלה בענינים האמורים בסעיף זה, לא תשמש סיוע, חיזוק או כל תוספת ראייתית אחרת הנדרשת לפי דין, לרבות לפי ההלכה הפסוקה.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_22">
+              <heading>
+                <authorialNote placement="side">
+                  <p>עדות בבית משפט של אדם עם מוגבלות שכלית או נפשית</p>
+                </authorialNote>
+              </heading>
+              <num>22.</num>
+              <list>
+                <point eId="point_22__point_א">
+                  <num>(א)</num>
+                  <list>
+                    <intro>
+                      <p>ראה בית המשפט כי עד העומד להעיד בפניו או המעיד בפניו (בסעיף זה – העד) הוא אדם עם מוגבלות, וכי מסירת עדותו בדרך הרגילה עלולה לפגוע בו או לפגום בעדותו, רשאי בית המשפט להורות, מיזמתו או לבקשת בעל דין, בשים לב לרצונו של העד ובכפוף להוראות <ref href="/akn/il/act/PrimaryLegislation/1982-03-01/2002215#point_172">סעיף 172 לחוק סדר הדין הפלילי</ref>, על גביית העדות באחת או יותר מהדרכים המפורטות בפסקאות (1) עד (10) (בסעיף זה – אמצעי התאמה):</p>
+                    </intro>
+                    <point eId="point_22__point_א__point_1">
+                      <num>(1)</num>
+                      <content>
+                        <p>שלא בנוכחות הנאשם, אלא בנוכחות סניגורו; על עדות לפי פסקה זו יחולו ההוראות לפי <ref href="/akn/il/act/PrimaryLegislation/1957-12-12/148335#point_2ב">סעיף 2ב(ב) עד (ד) לחוק חקירת עדים</ref>;</p>
+                      </content>
+                    </point>
+                    <point eId="point_22__point_א__point_2">
+                      <num>(2)</num>
+                      <content>
+                        <p>כשהעד מאחורי פרגוד;</p>
+                      </content>
+                    </point>
+                    <point eId="point_22__point_א__point_3">
+                      <num>(3)</num>
+                      <content>
+                        <p>כשהעד לא על דוכן העדים;</p>
+                      </content>
+                    </point>
+                    <point eId="point_22__point_א__point_4">
+                      <num>(4)</num>
+                      <content>
+                        <p>כשהשופט ועורכי הדין אינם לבושים מדי משפט;</p>
+                      </content>
+                    </point>
+                    <point eId="point_22__point_א__point_5">
+                      <num>(5)</num>
+                      <content>
+                        <p>בלשכת השופט;</p>
+                      </content>
+                    </point>
+                    <point eId="point_22__point_א__point_6">
+                      <num>(6)</num>
+                      <content>
+                        <p>במקום שיקבע בית המשפט לפי סמכותו מכוח <ref href="/akn/il/act/PrimaryLegislation/1984-08-13/2002218#point_34">סעיפים 34(ב)</ref><ref href="/akn/il/act/PrimaryLegislation/1984-08-13/2002218#point_44">או 44(ב) לחוק בתי המשפט</ref>, ובלבד שלא יקבע מקום מחוץ לכותלי בית המשפט שלא בהסכמת המחזיק באותו מקום;</p>
+                      </content>
+                    </point>
+                    <point eId="point_22__point_א__point_7">
+                      <num>(7)</num>
+                      <content>
+                        <p>הסתייעות באמצעים של תקשורת חלופית או תקשורת תומכת, לרבות הסתייעות בבני אדם, בעזרים ממוחשבים, בלוחות תקשורת, בתמונות, בסמלים, באותיות או במילים;</p>
+                      </content>
+                    </point>
+                    <point eId="point_22__point_א__point_8">
+                      <num>(8)</num>
+                      <content>
+                        <p>בנוכחות אדם המלווה את העד לצדו אף אם הוא מעיד בדלתיים סגורות לפי <ref href="/akn/il/act/PrimaryLegislation/1984-08-13/2002218#point_68">סעיף 68 לחוק בתי המשפט</ref>; אין בהוראות סעיף זה כדי לפגוע בזכות נפגע עבירת מין או אלימות לנוכחות מלווה בדיון בבית משפט כאמור <ref href="/akn/il/act/PrimaryLegislation/2001-03-21/171104#point_15">בסעיף 15 לחוק זכויות נפגעי עבירה</ref>;</p>
+                      </content>
+                    </point>
+                    <point eId="point_22__point_א__point_9">
+                      <num>(9)</num>
+                      <content>
+                        <p>הסתייעות בעל דין ביועץ אף אם העדות נגבית בדלתיים סגורות לפי <ref href="/akn/il/act/PrimaryLegislation/1984-08-13/2002218#point_68">סעיף 68 לחוק בתי המשפט</ref>; היועץ רשאי לסייע לבעל הדין בניהול חקירתו של העד, ויהיה רשאי, בין השאר, להציע לבעל הדין נוסח חלופי לשאלה, ולהתריע לפני בעל הדין על פגיעה אפשרית בעד; בפסקה זו, ”יועץ“ – מי שבית המשפט אישר, לאור הכשרתו, לענין פסקה זו;</p>
+                      </content>
+                    </point>
+                    <point eId="point_22__point_א__point_10">
+                      <num>(10)</num>
+                      <content>
+                        <p>בדרך אחרת שקבע בית המשפט, ביזמתו או בהמלצת החוקר המיוחד לפי <ref href="#point_7">סעיף 7(ד)</ref>, ובלבד שבית המשפט הדן בענין פלילי שוכנע מעל לכל ספק סביר כי אין בדרך שקבע כדי לגרום עיוות דין לנאשם.</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+                <point eId="point_22__point_ב">
+                  <num>(ב)</num>
+                  <content>
+                    <p>על אף האמור <ref href="#point_2">בסעיף 2</ref>, האמצעים להתאמת עדותם של אנשים עם מוגבלות המנויים בסעיף זה, יחולו בהליכים פליליים וכן, לפי הענין ובשינויים המחויבים, בהליכים שאינם פליליים, בהליכים המתנהלים לפני בית דין ובהליכים לגביית עדות מוקדמת לפי <ref href="/akn/il/act/PrimaryLegislation/1982-03-01/2002215#point_117">סעיף 117</ref>, <ref href="/akn/il/act/PrimaryLegislation/1982-03-01/2002215#point_117א">117א</ref><ref href="/akn/il/act/PrimaryLegislation/1982-03-01/2002215#point_117ב">או 117ב לחוק סדר הדין הפלילי</ref>.</p>
+                  </content>
+                </point>
+                <point eId="point_22__point_ג">
+                  <num>(ג)</num>
+                  <content>
+                    <p>שימוש באמצעי התאמה כאמור בסעיף קטן (א)(10), ייעשה רק אם הוגשה לבית המשפט תעודת עובד ציבור בדבר היות העד אדם עם מוגבלות שכלית–התפתחותית, או חוות דעת ולפיה העד הוא אדם עם מוגבלות ועדותו בדרך הרגילה עלולה לפגוע בעד או לפגום בעדות; אין בהוראות סעיף קטן זה כדי לגרוע מהוראת כל דין אחר המאפשרת שימוש באמצעי התאמה כאמור.</p>
+                  </content>
+                </point>
+                <point eId="point_22__point_ד">
+                  <num>(ד)</num>
+                  <content>
+                    <p>בחקירתו של אדם עם מוגבלות יביא בית המשפט בחשבון, לענין <ref href="/akn/il/act/PrimaryLegislation/1957-12-12/148335#point_2">סעיף 2 לחוק חקירת עדים</ref>, את מוגבלותו של אותו אדם.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_23">
+              <heading>
+                <authorialNote placement="side">
+                  <p>שימוש נוסף באמצעי תקשורת</p>
+                </authorialNote>
+              </heading>
+              <num>23.</num>
+              <content>
+                <p>אין בחוק זה כדי למנוע שימוש באמצעים של תקשורת חלופית או של תקשורת תומכת, כמפורט <ref href="#point_22">בסעיף 22(א)(7)</ref>, לגבי אדם שאינו אדם עם מוגבלות שכלית או עם מוגבלות נפשית כאמור בחוק זה.</p>
+              </content>
+            </point>
+          </list>
+        </section>
+      </chapter>
+      <chapter eId="chp_ד">
+        <num>פרק ד׳:</num>
+        <title>
+          <content>
+            <p>הוראות שונות</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_24">
+            <heading>
+              <authorialNote placement="side">
+                <p>סודיות</p>
+              </authorialNote>
+            </heading>
+            <num>24.</num>
+            <list>
+              <point eId="point_24__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>לא יפרסם אדם קלטת חקירה או תמליל חקירה, או העתק של כל אחד מאלה, אלא ברשות בית המשפט.</p>
+                </content>
+              </point>
+              <point eId="point_24__point_ב">
+                <num>(ב)</num>
+                <list>
+                  <intro>
+                    <p>בסעיף זה, ”פרסום“ – הצגה, השמעה, הפצה או העברה מחוץ לבית המשפט, למעט לידי כל אחד מאלה או בפניו:</p>
+                  </intro>
+                  <point eId="point_24__point_ב__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>הנאשם, סניגורו והמתמחה בעריכת דין תחת פיקוחו של הסניגור, או אדם אחר שהוסמך לעיין בחומר החקירה לפי <ref href="/akn/il/act/PrimaryLegislation/1982-03-01/2002215#point_74">סעיף 74(א) לחוק סדר הדין הפלילי</ref>, והכל בכפוף להוראות <ref href="#point_11">סעיף 11</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_24__point_ב__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>תובע כמשמעותו <ref href="/akn/il/act/PrimaryLegislation/1982-03-01/2002215#point_12">בסעיף 12 לחוק סדר הדין הפלילי</ref>, ומי שמתמחה בעריכת דין תחת פיקוחו;</p>
+                    </content>
+                  </point>
+                  <point eId="point_24__point_ב__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>אדם, הנזקק לקלטת החקירה או לתמליל על פי סעיף קטן (א), לצורך מתן חוות דעת בקשר להליך הפלילי;</p>
+                    </content>
+                  </point>
+                  <point eId="point_24__point_ב__point_4">
+                    <num>(4)</num>
+                    <content>
+                      <p>חוקר מיוחד;</p>
+                    </content>
+                  </point>
+                  <point eId="point_24__point_ב__point_5">
+                    <num>(5)</num>
+                    <content>
+                      <p>שוטר או חוקר אחר הנזקק לקלטת החקירה או לתמליל לצורך מילוי תפקידו בחקירת העבירה;</p>
+                    </content>
+                  </point>
+                  <point eId="point_24__point_ב__point_6">
+                    <num>(6)</num>
+                    <content>
+                      <p>עובד סוציאלי, שמונה לפי <ref href="/akn/il/act/PrimaryLegislation/1960-07-14/150256">חוק הנוער (טיפול והשגחה), התש"ך–1960</ref>, או לפי <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/חוק_הסעד_טיפול_במפגרים">חוק הסעד (טיפול במפגרים)</ref>, לפי העניין או פסיכיאטר מחוזי הנזקק לקלטת החקירה או לתמליל לצורך מילוי תפקידו על פי חוק;</p>
+                    </content>
+                  </point>
+                  <point eId="point_24__point_ב__point_7">
+                    <num>(7)</num>
+                    <content>
+                      <p>מי שחוקר מיוחד העביר אליו את קלטת החקירה, ובכלל זה את העתקה, לשם תמלול, או מי שחוקר מיוחד, באישור מנהל השירות לחקירות ילדים וחקירות מיוחדות במשרד העבודה, הרווחה והשירותים החברתיים, העביר אליו את קלטת החקירה כאמור, או את התמליל, לשם מחקר שמטרתו הכשרת חוקרים מיוחדים או פיתוח מקצועי לסיוע בעבודת חוקרים מיוחדים והכשרתם, והכול ובלבד שלא יועברו פרטים מעבר לאלו הנכללים בקלטת או בתמליל.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_24__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>כל אדם שהגיע אליו מידע לפי הוראות חוק זה או שנאסף אגב ביצוע חוק זה לגבי מוגבלותו של אדם ישמרנו בסוד, לא יעשה בו כל שימוש ולא יגלה אותו לאחר, אלא במידה הנדרשת לביצוע הוראות חוק זה, ובכפוף להוראות כל דין, או על פי צו בית משפט.</p>
+                </content>
+              </point>
+              <point eId="point_24__point_ד">
+                <num>(ד)</num>
+                <content>
+                  <p>בלי לגרוע מהוראות סעיף קטן (ב) רשאי בית המשפט, מיזמתו, לבקשת בעל דין או לבקשת אדם עם מוגבלות, להורות, בצו, כי כל מידע לגבי אדם עם מוגבלות שנמסר אגב חקירה וכן כל מסמך או פרט הקשור לחקירה, יישמר בסוד ויהיה אסור בפרסום.</p>
+                </content>
+              </point>
+              <point eId="point_24__point_ה">
+                <num>(ה)</num>
+                <content>
+                  <p>העובר על הוראות סעיף זה, דינו – מאסר 3 שנים.</p>
+                </content>
+              </point>
+              <point eId="point_24__point_ו">
+                <num>(ו)</num>
+                <list>
+                  <intro>
+                    <p>בסעיף זה, ”בית המשפט“ –</p>
+                  </intro>
+                  <point eId="point_24__point_ו__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>בטרם הוגש כתב אישום – בית משפט השלום שבאזור שיפוטו מתנהלת החקירה;</p>
+                    </content>
+                  </point>
+                  <point eId="point_24__point_ו__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>לאחר שהוגש כתב אישום – בית המשפט שאליו הוגש כתב האישום.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+            </list>
+          </point>
+          <point eId="point_25">
+            <heading>
+              <authorialNote placement="side">
+                <p>שינוי התוספת</p>
+              </authorialNote>
+            </heading>
+            <num>25.</num>
+            <content>
+              <p>השר, בהסכמת שר האוצר, בהתייעצות עם השר לביטחון הפנים ושר הרווחה, ובאישור ועדת החוקה חוק ומשפט של הכנסת, רשאי בצו לשנות את <ref href="#appendix">התוספת</ref>.</p>
+            </content>
+          </point>
+          <point eId="point_26">
+            <heading>
+              <authorialNote placement="side">
+                <p>ביצוע ותקנות</p>
+              </authorialNote>
+            </heading>
+            <num>26.</num>
+            <content>
+              <p>השר ממונה על ביצוע חוק זה והוא רשאי, באישור ועדת החוקה חוק ומשפט של הכנסת, ולאחר התייעצות עם נציבות שוויון זכויות לאנשים עם מוגבלות כמשמעותה <ref href="/akn/il/act/PrimaryLegislation/1998-03-05/165017">בחוק שוויון זכויות לאנשים עם מוגבלות, התשנ"ח–1998</ref>, ולענין תקנות הנוגעות גם למשרד ממשלתי אחר – גם עם השר הממונה על אותו משרד, להתקין תקנות לביצועו.</p>
+            </content>
+          </point>
+          <point eId="point_27">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>27.</num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryLegislation/1955-06-16/148415">בחוק לתיקון דיני הראיות (הגנת ילדים), התשט"ו–1955</ref>.</wikicomment>
+              </p>
+            </content>
+          </point>
+          <point eId="point_28">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>28.</num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryLegislation/1982-03-01/2002215">בחוק סדר הדין הפלילי [נוסח משולב], התשמ"ב–1982</ref>.</wikicomment>
+              </p>
+            </content>
+          </point>
+          <point eId="point_29">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>29.</num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryLegislation/1984-08-13/2002218">בחוק בתי המשפט [נוסח משולב], התשמ"ד–1984</ref>.</wikicomment>
+              </p>
+            </content>
+          </point>
+          <point eId="point_30">
+            <heading>
+              <authorialNote placement="side">
+                <p>החלת הוראות החוק על חקירות מטעם רשות חוקרת</p>
+              </authorialNote>
+            </heading>
+            <num>30.</num>
+            <list>
+              <point eId="point_30__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>השר רשאי, בצו, באישור השר הממונה ושר הרווחה, ובאישור ועדת החוקה חוק ומשפט של הכנסת, להחיל את הוראות חוק זה, כולן או מקצתן, על רשות אחרת המוסמכת לחקור על פי דין (בסעיף זה – הרשות החוקרת); בצו כאמור ייקבעו גם בעלי התפקידים ברשות החוקרת המוסמכים לאשר פעולות הדורשות אישור קצין משטרה לפי חוק זה; בסעיף זה, ”השר הממונה“ – השר הממונה על הרשות החוקרת.</p>
+                </content>
+              </point>
+              <point eId="point_30__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>הוראות חוק זה לענין חקירה בידי חוקר מיוחד יחולו, על אף האמור <ref href="/akn/il/act/PrimaryLegislation/2002-07-04/173782">בחוק חקירת חשודים</ref>, בכפוף לכל צו שיותקן לפי <ref href="/akn/il/act/PrimaryLegislation/2002-07-04/173782#point_16">סעיף 16(ג) לאותו חוק</ref>, לגבי חוקרים מיוחדים.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_31">
+            <heading>
+              <authorialNote placement="side">
+                <p>תחולה הדרגתית</p>
+              </authorialNote>
+            </heading>
+            <num>31.</num>
+            <list>
+              <point eId="point_31__point_א">
+                <num>(א)</num>
+                <list>
+                  <intro>
+                    <p>חוק זה יחול בהדרגה לגבי העבירות כמפורט בפסקאות (1) עד (3), החל במועדים הקבועים באותן פסקאות ובכפוף להוראות סעיף קטן (ב):</p>
+                  </intro>
+                  <point eId="point_31__point_א__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>לגבי עבירות כאמור <ref href="#point_2">בסעיף 2(ב)(1)</ref> או המפורטות <ref href="#appendix_פרט_1">בפרט 1 בתוספת</ref> – בתום שנה מיום פרסומו של חוק זה;</p>
+                    </content>
+                  </point>
+                  <point eId="point_31__point_א__point_2">
+                    <num>(2)</num>
+                    <list>
+                      <intro>
+                        <p>לגבי עבירות כאמור להלן – בתום שנתיים מיום פרסומו של חוק זה:</p>
+                      </intro>
+                      <point eId="point_31__point_א__point_2__point_א">
+                        <num>(א)</num>
+                        <content>
+                          <p>עבירה המפורטת <ref href="#appendix_פרט_2">בפרט 2 בתוספת</ref>, כשהחשוד והנפגע הם בני משפחה של האדם עם המוגבלות או כשהחשוד הוא בן משפחה והנפגע הוא האדם עם המוגבלות;</p>
+                        </content>
+                      </point>
+                      <point eId="point_31__point_א__point_2__point_ב">
+                        <num>(ב)</num>
+                        <content>
+                          <p>עבירה כאמור <ref href="#appendix_פרט_3">בפרט 3 בתוספת</ref>, לפי <ref href="/akn/il/act/PrimaryLegislation/1977-08-04/2002251#point_337">סעיפים 337</ref>, <ref href="/akn/il/act/PrimaryLegislation/1977-08-04/2002251#point_368ב">368ב</ref><ref href="/akn/il/act/PrimaryLegislation/1977-08-04/2002251#point_368ג">ו־368ג לחוק העונשין</ref>;</p>
+                        </content>
+                      </point>
+                    </list>
+                  </point>
+                  <point eId="point_31__point_א__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>לגבי עבירות כאמור <ref href="#appendix_פרט_2">בפרט 2</ref><ref href="#appendix_פרט_3">או 3 בתוספת</ref> שהוראות פסקה (2) לא חלות לגביהן – בתום ארבע שנים מיום פרסומו של חוק זה.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_31__point_ב">
+                <num>(ב)</num>
+                <list>
+                  <intro>
+                    <p>על אף הוראות סעיף קטן (א), תחולתו של <ref href="#point_10">סעיף 10(א)(1)</ref> לענין <ref href="#point_17">סעיף 17</ref> תהיה –</p>
+                  </intro>
+                  <point eId="point_31__point_ב__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>לגבי חקירת חשודים בעבירות כאמור בפסקאות (1) עד (3) של סעיף קטן (א) – במועד שלא יקדם מתום שלוש שנים מיום פרסומו של חוק זה;</p>
+                    </content>
+                  </point>
+                  <point eId="point_31__point_ב__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>לגבי חקירת עדים ומתלוננים בעבירות כאמור בפסקה (1) – במועד שלא יקדם מתום חמש שנים מיום פרסומו של חוק זה.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+            </list>
+          </point>
+        </list>
+      </chapter>
+      <appendix eId="appendix">
+        <num></num>
+        <title>
+          <content>
+            <p>תוספת</p>
+          </content>
+        </title>
+        <subtitle eId="eId">
+          <num></num>
+          <content>
+            <p>
+              <wikicomment font-size="x-small">(<ref href="#point_3">סעיף 3</ref>)</wikicomment>
+            </p>
+          </content>
+        </subtitle>
+        <list>
+          <point eId="appendix__point_1">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>1.</num>
+            <content>
+              <p>עבירות לפי <ref href="/akn/il/act/PrimaryLegislation/1977-08-04/2002251#point_199">סעיפים 199 עד 205</ref>, <ref href="/akn/il/act/PrimaryLegislation/1977-08-04/2002251#point_208">208</ref>, <ref href="/akn/il/act/PrimaryLegislation/1977-08-04/2002251#point_214">214</ref>, <ref href="/akn/il/act/PrimaryLegislation/1977-08-04/2002251#point_300">300 עד 301ג</ref>, <ref href="/akn/il/act/PrimaryLegislation/1977-08-04/2002251#point_305">305</ref><ref href="/akn/il/act/PrimaryLegislation/1977-08-04/2002251#point_345">ו־345 עד 351 לחוק העונשין</ref>.</p>
+            </content>
+          </point>
+          <point eId="appendix__point_2">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>2.</num>
+            <content>
+              <p>עבירות לפי <ref href="/akn/il/act/PrimaryLegislation/1977-08-04/2002251#point_329">סעיפים 329(א)(1)</ref><ref href="/akn/il/act/PrimaryLegislation/1977-08-04/2002251#point_333">ו־333 לחוק העונשין</ref>.</p>
+            </content>
+          </point>
+          <point eId="appendix__point_3">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>3.</num>
+            <content>
+              <p>עבירה, לפי כל דין, של אחראי על קטין או חסר ישע, שנעברה כלפי האדם שעליו הוא אחראי.</p>
+            </content>
+          </point>
+        </list>
+      </appendix>
+    </body>
+    <conclusions eId="eId">
+      <p class="signatures">
+        <signature>
+          <p>
+            <person refersTo="אריאל_שרון">אריאל שרון</person>
+            <role refersTo="ראש_הממשלה">ראש הממשלה</role>
+          </p>
+        </signature>
+        <signature>
+          <p>
+            <person refersTo="ציפי_לבני">ציפי לבני</person>
+            <role refersTo="שרת_המשפטים">שרת המשפטים</role>
+          </p>
+        </signature>
+        <signature>
+          <p>
+            <person refersTo="משה_קצב">משה קצב</person>
+            <role refersTo="נשיא_המדינה">נשיא המדינה</role>
+          </p>
+        </signature>
+        <signature>
+          <p>
+            <person refersTo="ראובן_ריבלין">ראובן ריבלין</person>
+            <role refersTo="יושב_ראש_הכנסת">יושב ראש הכנסת</role>
+          </p>
+        </signature>
+      </p>
+    </conclusions>
+  </act>
+</akomaNtoso>

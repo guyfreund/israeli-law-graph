@@ -1,0 +1,739 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion" name="publicLaw">
+    <meta>
+      <identification source="#kensset">
+        <FRBRWork>
+          <FRBRthis value="/akn/il/act/PrimaryLegislation/2020-07-29/2143631/main" />
+          <FRBRuri value="/akn/il/act/PrimaryLegislation/2020-07-29/2143631" />
+          <FRBRdate date="2020-07-29" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRcountry value="israel" />
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/il/act/PrimaryLegislation/2020-07-29/2143631/he@/main" />
+          <FRBRuri value="/akn/il/act/PrimaryLegislation/2020-07-29/2143631/he@" />
+          <FRBRdate date="2020-07-29" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRlanguage language="hebrew" />
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/il/act/PrimaryLegislation/2020-07-29/2143631/he@/main.xml" />
+          <FRBRuri value="/akn/il/act/PrimaryLegislation/2020-07-29/2143631/he@" />
+          <FRBRdate date="2020-07-29" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRformat value="xml" />
+        </FRBRManifestation>
+      </identification>
+      <classification source="#kensset">
+        <keyword value="{classificationValue}" showAs="{classificationValue}" dictionary="#classification_dictionary" />
+      </classification>
+      <lifecycle source="#kensset">
+        <eventRef eId="eventRef_1" date="2020-07-29" source="#kensset" type="generation" />
+      </lifecycle>
+      <references source="#kensset">
+        <TLCOrganization eId="kensset" href="/ontology/organization/akn/knesset" showAs="Kensset" type="generation" />
+        <TLCRole eId="author" href="/ontology/role/akn/author" showAs="Author of Document" />
+        <TLCProcess eId="inforce" href="/ontology/process/akn/inforce" showAs="In force" />
+        <TLCTerm eId="term_1" href="/ontology/term/בני_זוג/2143631" showAs="בני_זוג" />
+        <TLCTerm eId="term_2" href="/ontology/term/גמלת_הבטחת_הכנסה/2143631" showAs="גמלת_הבטחת_הכנסה" />
+        <TLCTerm eId="term_3" href="/ontology/term/גמלת_נכה_לפי_הכנסה/2143631" showAs="גמלת_נכה_לפי_הכנסה" />
+        <TLCTerm eId="term_4" href="/ontology/term/גמלת_סיעוד/2143631" showAs="גמלת_סיעוד" />
+        <TLCTerm eId="term_5" href="/ontology/term/חוק_הביטוח_הלאומי/2143631" showAs="חוק_הביטוח_הלאומי" />
+        <TLCTerm eId="term_6" href="/ontology/term/חוק_הבטחת_הכנסה/2143631" showAs="חוק_הבטחת_הכנסה" />
+        <TLCTerm eId="term_7" href="/ontology/term/חוק_המזונות/2143631" showAs="חוק_המזונות" />
+        <TLCTerm eId="term_8" href="/ontology/term/חוק_נכי_המלחמה_בנאצים/2143631" showAs="חוק_נכי_המלחמה_בנאצים" />
+        <TLCTerm eId="term_9" href="/ontology/term/חוק_נכי_רדיפות_הנאצים/2143631" showAs="חוק_נכי_רדיפות_הנאצים" />
+        <TLCTerm eId="term_10" href="/ontology/term/המוסד/2143631" showAs="המוסד" />
+        <TLCTerm eId="term_11" href="/ontology/term/עולה/2143631" showAs="עולה" />
+        <TLCTerm eId="term_12" href="/ontology/term/עולה_נזקק/2143631" showAs="עולה_נזקק" />
+        <TLCTerm eId="term_13" href="/ontology/term/קצבת_ילדים/2143631" showAs="קצבת_ילדים" />
+        <TLCTerm eId="term_14" href="/ontology/term/תושב_חוזר/2143631" showAs="תושב_חוזר" />
+        <TLCTerm eId="term_15" href="/ontology/term/תושב_חוזר_נזקק/2143631" showAs="תושב_חוזר_נזקק" />
+        <TLCTerm eId="term_16" href="/ontology/term/תושב_ישראל/2143631" showAs="תושב_ישראל" />
+        <TLCPerson eId="בנימין_נתניהו" href="/ontology/person/בנימין_נתניהו" showAs="בנימין נתניהו" />
+        <TLCPerson eId="ישראל_כץ" href="/ontology/person/ישראל_כץ" showAs="ישראל כץ" />
+        <TLCPerson eId="ראובן_ריבלין" href="/ontology/person/ראובן_ריבלין" showAs="ראובן ריבלין" />
+        <TLCPerson eId="יריב_לוין" href="/ontology/person/יריב_לוין" showAs="יריב לוין" />
+        <TLCRole eId="ראש_הממשלה" href="ontology/role/akn/ראש_הממשלה" showAs="ראש הממשלה" />
+        <TLCRole eId="שר_האוצר" href="ontology/role/akn/שר_האוצר" showAs="שר האוצר" />
+        <TLCRole eId="נשיא_המדינה" href="ontology/role/akn/נשיא_המדינה" showAs="נשיא המדינה" />
+        <TLCRole eId="יושב_ראש_הכנסת" href="ontology/role/akn/יושב_ראש_הכנסת" showAs="יושב ראש הכנסת" />
+      </references>
+      <temporalData source="#kensset">
+        <temporalGroup eId="tmpg_1" />
+      </temporalData>
+      <Publication></Publication>
+      <proprietary wikiversion="10/27/2020 2:35:53 PM" />
+    </meta>
+    <body period="#tmpg_1">
+      <title eId="title">
+        <content>
+          <p>חוק התכנית לסיוע כלכלי (נגיף הקורונה החדש – מענק חד־פעמי) (הוראת שעה ותיקוני חקיקה), התש"ף–2020</p>
+        </content>
+      </title>
+      <list>
+        <point eId="point_1" class="definitions">
+          <heading>
+            <authorialNote placement="side">
+              <p>הגדרות</p>
+            </authorialNote>
+          </heading>
+          <num>1.</num>
+          <list>
+            <intro>
+              <p>בחוק זה –</p>
+            </intro>
+            <point eId="point_1__point_בני_זוג">
+              <content>
+                <p>
+                  <def />”בני זוג“ – כהגדרתם <ref href="/akn/il/act/PrimaryLegislation/1980-12-01/147335">בחוק הבטחת הכנסה</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_גמלת_הבטחת_הכנסה">
+              <list>
+                <intro>
+                  <p>
+                    <def />”גמלת הבטחת הכנסה“ – כל אחד מאלה:</p>
+                </intro>
+                <point eId="point_1__point_גמלת_הבטחת_הכנסה__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>גמלה כהגדרתה <ref href="/akn/il/act/PrimaryLegislation/1980-12-01/147335">בחוק הבטחת הכנסה</ref>;</p>
+                  </content>
+                </point>
+                <point eId="point_1__point_גמלת_הבטחת_הכנסה__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>תוספת לגמלה, לפי סעיף 9 להסכם בדבר מתן גמלאות זקנה ושאירים מיוחדות;</p>
+                  </content>
+                </point>
+                <point eId="point_1__point_גמלת_הבטחת_הכנסה__point_3">
+                  <num>(3)</num>
+                  <content>
+                    <p>תשלום לפי <ref href="/akn/il/act/PrimaryLegislation/1972-04-02/147580">חוק המזונות</ref>;</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_1__point_גמלת_נכה_לפי_הכנסה">
+              <list>
+                <intro>
+                  <p>
+                    <def />”גמלת נכה לפי הכנסה“ – כל אחת מאלה:</p>
+                </intro>
+                <point eId="point_1__point_גמלת_נכה_לפי_הכנסה__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>קצבה חודשית המשתלמת לפי <ref href="/akn/il/act/PrimaryLegislation/1995-05-15/158093#point_200">סעיפים 200</ref>, <ref href="/akn/il/act/PrimaryLegislation/1995-05-15/158093#point_201">201</ref><ref href="/akn/il/act/PrimaryLegislation/1995-05-15/158093#point_251">או 251 לחוק הביטוח הלאומי</ref>;</p>
+                  </content>
+                </point>
+                <point eId="point_1__point_גמלת_נכה_לפי_הכנסה__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>תגמול מוגדל לפי הכנסה המשתלם לפי <ref href="/akn/il/act/PrimaryLegislation/1957-04-19/150221#point_4א">סעיף 4א לחוק נכי רדיפות הנאצים</ref> או תגמול לפי הכנסה המשתלם לפי <ref href="/akn/il/act/PrimaryLegislation/1957-04-19/150221#point_4ג1">סעיף 4ג1 לחוק האמור</ref>;</p>
+                  </content>
+                </point>
+                <point eId="point_1__point_גמלת_נכה_לפי_הכנסה__point_3">
+                  <num>(3)</num>
+                  <content>
+                    <p>תגמול מוגדל לפי הכנסה המשתלם לפי <ref href="/akn/il/act/PrimaryLegislation/1954-03-04/150220#point_4ג">סעיף 4ג לחוק נכי המלחמה בנאצים</ref> או תגמול לפי הכנסה המשתלם לפי <ref href="/akn/il/act/PrimaryLegislation/1954-03-04/150220#point_4ד">סעיף 4ד לחוק האמור</ref>;</p>
+                  </content>
+                </point>
+                <point eId="point_1__point_גמלת_נכה_לפי_הכנסה__point_4">
+                  <num>(4)</num>
+                  <content>
+                    <p>תגמול המשתלם לפי <ref href="/akn/il/act/PrimaryLegislation/1957-04-19/150221#point_11א">סעיף 11א(א)(2) או (3) לחוק נכי רדיפות הנאצים</ref> או תגמול המשתלם לפי <ref href="/akn/il/act/PrimaryLegislation/1954-03-04/150220#point_13א">סעיף 13א(ב) או (ב1) לחוק נכי המלחמה בנאצים</ref>;</p>
+                  </content>
+                </point>
+                <point eId="point_1__point_גמלת_נכה_לפי_הכנסה__point_5">
+                  <num>(5)</num>
+                  <content>
+                    <p>תגמול המשתלם לנכה או לנכה נפגע פעולת איבה לפי <ref href="/akn/il/act/PrimaryLegislation/1959-09-23/2002247#point_6">סעיפים 6</ref>, <ref href="/akn/il/act/PrimaryLegislation/1959-09-23/2002247#point_7">7</ref><ref href="/akn/il/act/PrimaryLegislation/1959-09-23/2002247#point_7ד">או 7ד לחוק הנכים (תגמולים ושיקום), התשי"ט–1959 [נוסח משולב]</ref>, או תגמול לפי <ref href="/akn/il/act/PrimaryLegislation/1970-07-30/148919#point_4">סעיף 4 לחוק התגמולים לנפגעי פעולות איבה, התש"ל–1970</ref>, המשתלם בשל החלת <ref href="/akn/il/act/PrimaryLegislation/1959-09-23/2002247#point_6">סעיפים 6</ref>, <ref href="/akn/il/act/PrimaryLegislation/1959-09-23/2002247#point_7">7</ref><ref href="/akn/il/act/PrimaryLegislation/1959-09-23/2002247#point_7ד">ו־7ד האמורים</ref> בלבד, וכן תשלום לפי הוראות מס׳ 85.01 ו־85.02 של אגף שיקום נכים במשרד הביטחון לנכים שנקבע לגביהם כי איבדו את כושר עבודתם עקב הנכות וכי הם מחוסרי הכנסה;</p>
+                  </content>
+                </point>
+                <point eId="point_1__point_גמלת_נכה_לפי_הכנסה__point_6">
+                  <num>(6)</num>
+                  <content>
+                    <p>גמלת נכות לעולה המשתלמת לפי הסכם בדבר מתן גמלאות מיוחדות לעולים התלויים בעזרת הזולת;</p>
+                  </content>
+                </point>
+                <point eId="point_1__point_גמלת_נכה_לפי_הכנסה__point_7">
+                  <num>(7)</num>
+                  <content>
+                    <p>תגמול לפי הכנסה שאסיר ציון זכאי לו לפי <ref href="/akn/il/act/PrimaryLegislation/1992-04-09/174461#point_11">סעיף 11 לחוק תגמולים לאסירי ציון ולבני משפחותיהם, התשנ"ב–1992</ref>;</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_1__point_גמלת_סיעוד">
+              <list>
+                <intro>
+                  <p>
+                    <def />”גמלת סיעוד“ – כל אחת מאלה:</p>
+                </intro>
+                <point eId="point_1__point_גמלת_סיעוד__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>גמלת סיעוד חודשית לפי <ref href="/akn/il/act/PrimaryLegislation/1995-05-15/158093#point_224">סעיף 224 לחוק הביטוח הלאומי</ref>;</p>
+                  </content>
+                </point>
+                <point eId="point_1__point_גמלת_סיעוד__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>גמלה למי שבחר בקצבה לשירותים מיוחדים מכוח <ref href="/akn/il/act/PrimaryLegislation/1995-05-15/158093#point_228">סעיף 228(א) לחוק הביטוח הלאומי</ref> חלף גמלת הסיעוד לפי <ref href="/akn/il/act/PrimaryLegislation/1995-05-15/158093#point_224">סעיף 224 לחוק האמור</ref>;</p>
+                  </content>
+                </point>
+                <point eId="point_1__point_גמלת_סיעוד__point_3">
+                  <num>(3)</num>
+                  <content>
+                    <p>גמלת סיעוד לעולה המשתלמת לפי הסכם בדבר מתן גמלאות מיוחדות לעולים התלויים בעזרת הזולת;</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_1__point_חוק_הביטוח_הלאומי">
+              <content>
+                <p>
+                  <def />”חוק הביטוח הלאומי“ – <ref href="/akn/il/act/PrimaryLegislation/1995-05-15/158093">חוק הביטוח הלאומי [נוסח משולב], התשנ"ה–1995</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_חוק_הבטחת_הכנסה">
+              <content>
+                <p>
+                  <def />”חוק הבטחת הכנסה“ – <ref href="/akn/il/act/PrimaryLegislation/1980-12-01/147335">חוק הבטחת הכנסה, התשמ"א–1980</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_חוק_המזונות">
+              <content>
+                <p>
+                  <def />”חוק המזונות“ – <ref href="/akn/il/act/PrimaryLegislation/1972-04-02/147580">חוק המזונות (הבטחת תשלום), התשל"ב–1972</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_חוק_נכי_המלחמה_בנאצים">
+              <content>
+                <p>
+                  <def />”חוק נכי המלחמה בנאצים“ – <ref href="/akn/il/act/PrimaryLegislation/1954-03-04/150220">חוק נכי המלחמה בנאצים, התשי"ד–1954</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_חוק_נכי_רדיפות_הנאצים">
+              <content>
+                <p>
+                  <def />”חוק נכי רדיפות הנאצים“ – <ref href="/akn/il/act/PrimaryLegislation/1957-04-19/150221">חוק נכי רדיפות הנאצים, התשי"ז–1957</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_המוסד">
+              <content>
+                <p>
+                  <def />”המוסד“ – המוסד לביטוח לאומי;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_עולה">
+              <content>
+                <p>
+                  <def />”עולה“ – מי שנמצא בישראל פחות מ־12 חודשים בתכוף לפני יום ט׳ בתמוז התש"ף (1 ביולי 2020), ומתקיים לגביו תנאי מהתנאים <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/תקנות_הבטחת_הכנסה#point_5">שבפסקאות משנה (א) עד (ד) לתקנה 5(4) לתקנות הבטחת הכנסה, התשמ"ב–1982</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_עולה_נזקק">
+              <content>
+                <p>
+                  <def />”עולה נזקק“ – עולה שמשרד העלייה והקליטה נותן לו סיוע חלף הבטחת הכנסה;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_קצבת_ילדים">
+              <list>
+                <intro>
+                  <p>
+                    <def />”קצבת ילדים“ – אחת מאלה:</p>
+                </intro>
+                <point eId="point_1__point_קצבת_ילדים__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>קצבת ילדים לפי <ref href="/akn/il/act/PrimaryLegislation/1995-05-15/158093#chp_ד_sec_ב">סימן ב׳ לפרק ד׳ לחוק הביטוח הלאומי</ref>;</p>
+                  </content>
+                </point>
+                <point eId="point_1__point_קצבת_ילדים__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>קצבה המשתלמת לפי סעיף 3 להסכם בדבר תשלום קצבה לילד עולה;</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_1__point_תושב_חוזר">
+              <content>
+                <p>
+                  <def />”תושב חוזר“ – מי שטרם חלפו שלושה חודשים מהיום שבו החלה זכאותו כתושב חוזר לפי תעודה שהנפיק לו משרד העלייה והקליטה;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_תושב_חוזר_נזקק">
+              <content>
+                <p>
+                  <def />”תושב חוזר נזקק“ – תושב חוזר שמשרד העלייה והקליטה נותן לו סיוע חלף הבטחת הכנסה;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_תושב_ישראל">
+              <content>
+                <p>
+                  <def />”תושב ישראל“ – כמשמעותו לעניין <ref href="/akn/il/act/PrimaryLegislation/1995-05-15/158093">חוק הביטוח הלאומי</ref> ובכלל זה תושב חוזר.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_2">
+          <heading>
+            <authorialNote placement="side">
+              <p>זכאות למענק חד־פעמי בעד ילד</p>
+            </authorialNote>
+          </heading>
+          <num>2.</num>
+          <list>
+            <point eId="point_2__point_א">
+              <num>(א)</num>
+              <list>
+                <intro>
+                  <p>מי שמשתלמת בעדו קצבת ילדים בעד חודש יולי 2020 וכן מי שנולד בחודש יולי 2020 ואינו זכאי לקצבת ילדים בשל הוראות <ref href="/akn/il/act/PrimaryLegislation/1995-05-15/158093#point_72">סעיף 72(א) לחוק הביטוח הלאומי</ref>, ישתלם בעדם מענק חד־פעמי בסכומים המפורטים להלן, בהתאם למניין ילדיו של ההורה שקצבת הילדים משתלמת לו או שהייתה משתלמת לו לולא <ref href="/akn/il/act/PrimaryLegislation/1995-05-15/158093#point_72">סעיף 72(א) האמור</ref>:</p>
+                </intro>
+                <point eId="point_2__point_א__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>אם הוא הילד הראשון, השני, השלישי או הרביעי במניין הילדים – 500 שקלים חדשים;</p>
+                  </content>
+                </point>
+                <point eId="point_2__point_א__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>אם הוא הילד החמישי ואילך במניין הילדים – 300 שקלים חדשים.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_2__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>על מענק לפי סעיף זה יחולו הוראות <ref href="/akn/il/act/PrimaryLegislation/1995-05-15/158093#chp_ד">פרק ד׳ לחוק הביטוח הלאומי</ref>, בשינויים המחויבים, והוא ייחשב, לעניין כל דין, כקצבת ילדים.</p>
+              </content>
+            </point>
+            <point eId="point_2__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>מענק לפי סעיף זה ישולם באמצעות חשבון הבנק שאליו משתלמת קצבת הילדים בעד אותו ילד, אולם אין בהעברת התשלום לחשבון הבנק כדי לשלול את זכותו של הורה פרוד או גרוש, שחשבון הבנק שאליו מועבר התשלום שייך להורה האחר לקבל את חלקו במענק מאותו הורה, בהעברה או בקיזוז, בהתאם לחלקו היחסי לפי פסק דין או הסכם בין ההורים לעניין החזקתם הכלכלית של הילדים שבעדם ניתן המענק.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_3">
+          <heading>
+            <authorialNote placement="side">
+              <p>זכאות למענק חד־פעמי לבגיר ולנער ונערה שנישאו</p>
+            </authorialNote>
+          </heading>
+          <num>3.</num>
+          <content>
+            <p>תושב ישראל, שלפני יום ט׳ בתמוז התש"ף (1 ביולי 2020) מלאו לו 18 שנים, ונער או נערה נשואים זכאים למענק חד־פעמי בסכום של 750 שקלים חדשים, ובלבד שלא משתלם בעדם מענק לפי <ref href="#point_2">סעיף 2(א)</ref>.</p>
+          </content>
+        </point>
+        <point eId="point_4">
+          <heading>
+            <authorialNote placement="side">
+              <p>תוספת למענק</p>
+            </authorialNote>
+          </heading>
+          <num>4.</num>
+          <list>
+            <point eId="point_4__point_א">
+              <num>(א)</num>
+              <list>
+                <intro>
+                  <p>תושב ישראל, שמשתלמים לו בעד חודש יולי 2020, גמלה או תשלום מהמפורטים להלן, זכאי לתוספת למענק האמור <ref href="#point_3">בסעיף 3</ref> בסכום של 750 שקלים חדשים:</p>
+                </intro>
+                <point eId="point_4__point_א__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>גמלת סיעוד;</p>
+                  </content>
+                </point>
+                <point eId="point_4__point_א__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>גמלת נכה לפי הכנסה;</p>
+                  </content>
+                </point>
+                <point eId="point_4__point_א__point_3">
+                  <num>(3)</num>
+                  <content>
+                    <p>גמלת הבטחת הכנסה;</p>
+                  </content>
+                </point>
+                <point eId="point_4__point_א__point_4">
+                  <num>(4)</num>
+                  <content>
+                    <p>תשלום לתושב חוזר נזקק;</p>
+                  </content>
+                </point>
+                <point eId="point_4__point_א__point_5">
+                  <num>(5)</num>
+                  <content>
+                    <p>תשלום לעולה נזקק.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_4__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>לא תשולם בעד אותו אדם יותר מתוספת אחת למענק.</p>
+              </content>
+            </point>
+            <point eId="point_4__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>בני זוג הזכאים שניהם לתוספת למענק לפי פסקה (3), (4) או (5) בסעיף קטן (א), תשולם להם תוספת אחת למענק בלבד.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_5">
+          <heading>
+            <authorialNote placement="side">
+              <p>סייג לזכאות למענק ולתוספת למענק</p>
+            </authorialNote>
+          </heading>
+          <num>5.</num>
+          <list>
+            <point eId="point_5__point_א">
+              <num>(א)</num>
+              <list>
+                <intro>
+                  <p>על אף האמור <ref href="#point_3">בסעיפים 3</ref><ref href="#point_4">ו־4</ref>, יחיד כמפורט להלן, לא זכאי למענק ולתוספת למענק כאמור באותם סעיפים:</p>
+                </intro>
+                <point eId="point_5__point_א__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>יחיד שבשנת המס 2018 היה חייב במס נוסף בהתאם <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_מס_הכנסה#point_121ב">לסעיף 121ב לפקודת מס הכנסה</ref> (בסעיף זה – הפקודה);</p>
+                  </content>
+                </point>
+                <point eId="point_5__point_א__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>יחיד שבשנת המס 2018 היה חייב בהגשת דוח לפי <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_מס_הכנסה#point_131">סעיף 131 לפקודה</ref>, אך לא הגישו לפי <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_מס_הכנסה#point_131">אותו סעיף</ref> עד מועד הגשת הבקשה לפי <ref href="#point_6">סעיף 6</ref>; למעט אם היה זכאי בעד חודש יולי 2020 לגמלה או לתשלום מהמפורטים <ref href="#point_4">בפסקאות (1) עד (5) לסעיף 4(א)</ref>.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_5__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>על אף האמור בסעיף קטן (א)(1), יחיד כאמור באותה פסקה יהיה זכאי למענק אם בשנת המס 2019 לא היה חייב במס נוסף לפי <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_מס_הכנסה#point_121ב">סעיף 121ב לפקודה</ref>, ובלבד שעד מועד הגשת הבקשה לפי <ref href="#point_6">סעיף 6</ref> הגיש דוח לפי <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_מס_הכנסה#point_131">סעיף 131 לפקודה</ref> לשנת המס 2019 ובבקשתו למוסד הצהיר שמתקיים בו האמור בסעיף קטן זה; מענק ליחיד כאמור ישולם שבעה ימים לאחר המועד האחרון להגשת בקשה למענק כאמור <ref href="#point_7">בסעיף 7</ref>.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_6">
+          <heading>
+            <authorialNote placement="side">
+              <p>תשלום המענקים והתוספת למענקים</p>
+            </authorialNote>
+          </heading>
+          <num>6.</num>
+          <list>
+            <point eId="point_6__point_א">
+              <num>(א)</num>
+              <list>
+                <intro>
+                  <p>המוסד ישלם את המענקים החד־פעמיים והתוספת להם לפי <ref href="#point_2">סעיפים 2 עד 4</ref> בהתאם למידע שברשותו לעניין הפרטים שבפסקאות (1) עד (6) שלהלן, ללא צורך בהגשת בקשה; לא היה בידי המוסד מידע המאפשר לו לבצע את התשלום, ישולמו המענק או התוספת לאחר שתוגש בקשה שתכלול את כל הפרטים שלהלן לגבי מגיש הבקשה והאדם שבעדו מבוקש התשלום:</p>
+                </intro>
+                <point eId="point_6__point_א__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>שם פרטי ושם משפחה;</p>
+                  </content>
+                </point>
+                <point eId="point_6__point_א__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>מספר זהות ותאריך הנפקת תעודת הזהות;</p>
+                  </content>
+                </point>
+                <point eId="point_6__point_א__point_3">
+                  <num>(3)</num>
+                  <content>
+                    <p>תאריך לידה;</p>
+                  </content>
+                </point>
+                <point eId="point_6__point_א__point_4">
+                  <num>(4)</num>
+                  <content>
+                    <p>מספר טלפון;</p>
+                  </content>
+                </point>
+                <point eId="point_6__point_א__point_5">
+                  <num>(5)</num>
+                  <content>
+                    <p>כתובת מגורים, וכתובת הדואר האלקטרוני אם ישנה;</p>
+                  </content>
+                </point>
+                <point eId="point_6__point_א__point_6">
+                  <num>(6)</num>
+                  <content>
+                    <p>פרטי חשבון בנק.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_6__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>בקשה למענק או לתוספת כאמור בסעיף קטן (א) תוגש באופן מקוון באמצעות אתר האינטרנט של המוסד או באופן ידני אם הדבר מתאפשר לפי דין, או בפקסימיליה, ואם באפשרות המוסד לקבל את הבקשה גם בדרך של שיחת טלפון או מסרון – יכול שתוגש באמצעות שיחה או מסרון כאמור; המוסד יודיע באתר האינטרנט שלו על האפשרות להגיש בקשה למענק או לתוספת למענק באמצעות שיחת טלפון או מסרון.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_7">
+          <heading>
+            <authorialNote placement="side">
+              <p>המועד האחרון להגשת בקשה למענק או לתוספת</p>
+            </authorialNote>
+          </heading>
+          <num>7.</num>
+          <content>
+            <p>בקשה לפי <ref href="#point_6">סעיף 6</ref> תוגש עד תום 24 חודשים מיום תחילתו של חוק זה.</p>
+          </content>
+        </point>
+        <point eId="point_8">
+          <heading>
+            <authorialNote placement="side">
+              <p>החלת הוראות פרק י"ד לחוק הביטוח הלאומי על המענק ועל התוספת למענק</p>
+            </authorialNote>
+          </heading>
+          <num>8.</num>
+          <content>
+            <p>על תשלום המענקים והתוספות למענקים לפי חוק זה יחולו הוראות לפי <ref href="/akn/il/act/PrimaryLegislation/1995-05-15/158093#chp_יד">פרק י"ד לחוק הביטוח הלאומי</ref>, למעט הסיפה של <ref href="/akn/il/act/PrimaryLegislation/1995-05-15/158093#point_303">סעיף 303(ב)</ref> לעניין ניכוי מגמלה <ref href="/akn/il/act/PrimaryLegislation/1995-05-15/158093#point_312">וסעיף 312</ref>, בשינויים המחויבים.</p>
+          </content>
+        </point>
+        <point eId="point_9">
+          <heading>
+            <authorialNote placement="side">
+              <p>דין מענק ותוספת למענק</p>
+            </authorialNote>
+          </heading>
+          <num>9.</num>
+          <content>
+            <p>על אף האמור <ref href="#point_2">בסעיף 2(ב)</ref>, לא יראו את המענק והתוספת למענק לפי חוק זה כהכנסה לפי כל דין.</p>
+          </content>
+        </point>
+        <point eId="point_10">
+          <heading>
+            <authorialNote placement="side">
+              <p>קבלת מידע ושמירתו</p>
+            </authorialNote>
+          </heading>
+          <num>10.</num>
+          <list>
+            <point eId="point_10__point_א">
+              <num>(א)</num>
+              <list>
+                <intro>
+                  <p>בלי לגרוע מהוראות <ref href="/akn/il/act/PrimaryLegislation/1981-03-11/147337#chp_ד">פרק ד׳ לחוק הגנת הפרטיות, התשמ"א–1981</ref>, מנהל המוסד או מי שהוא הסמיכו לעניין זה מבין עובדי המוסד (בסעיף זה – המנהל), יקבל מהגורמים שלהלן את פרטי המידע המנויים לצידם:</p>
+                </intro>
+                <point eId="point_10__point_א__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>ממשרד העלייה והקליטה, ממשרד הביטחון ומהרשות לזכויות ניצולי השואה במשרד האוצר – את פרטי המידע המנויים <ref href="#point_6">בסעיף 6(א)</ref>, של הזכאים לתוספת למענק כאמור <ref href="#point_4">בסעיף 4(א)</ref>;</p>
+                  </content>
+                </point>
+                <point eId="point_10__point_א__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>מרשות המסים בישראל – את פרטי המידע המנויים <ref href="#point_5">בסעיף 5</ref>;</p>
+                  </content>
+                </point>
+                <point eId="point_10__point_א__point_3">
+                  <num>(3)</num>
+                  <content>
+                    <p>ממשרדי הממשלה וממינהלת הגמלאות במשרד האוצר – את פרטי חשבונות הבנק של עובדי המדינה לרבות מי שפרשו משירות המדינה לפי מספרי זהות; ואולם, יחידות ויחידות סמך במשרדי הממשלה, שעיקר פעילותן בתחום ביטחון המדינה ומטעמים של ביטחון המדינה זהות עובדיהן חסויה או שאין למסור מידע לגבי זהותם לפי כל דין, רשאיות מהטעמים האמורים שלא למסור את המידע.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_10__point_ב">
+              <num>(ב)</num>
+              <list>
+                <intro>
+                  <p>המוסד ישמור מידע שהתקבל לפי סעיף קטן (א) לפי הוראות אלה:</p>
+                </intro>
+                <point eId="point_10__point_ב__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>המידע יישמר במחשבי המוסד בנפרד מכל מידע אחר, ולא יועבר או יחובר לכל מאגר מידע אחר;</p>
+                  </content>
+                </point>
+                <point eId="point_10__point_ב__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>המידע יישמר לפרק הזמן המזערי הדרוש, ולכל היותר לתקופה שלא תעלה על 18 חודשים, ובתום התקופה – ימחק המוסד את המידע, אלא אם כן המידע דרוש לשם ניהול הליך משפטי הקשור לביצוע חוק זה או הנובע ממנו;</p>
+                  </content>
+                </point>
+                <point eId="point_10__point_ב__point_3">
+                  <num>(3)</num>
+                  <content>
+                    <p>המוסד יעשה שימוש במידע שהתקבל לפי סעיף זה לשם תשלום תוספת למענק כאמור <ref href="#point_4">בסעיף 4</ref>, ולשם בחינת שלילת הזכאות למענק לפי <ref href="#point_5">סעיף 5</ref>, בלבד;</p>
+                  </content>
+                </point>
+                <point eId="point_10__point_ב__point_4">
+                  <num>(4)</num>
+                  <content>
+                    <p>לא יתאפשרו עיבוד, שימוש או צפייה בפרטי המידע שהתקבלו לפי סעיף זה אלא בידי בעלי תפקידים במוסד שהמנהל נתן להם אישור פרטני ושחתמו על התחייבות לשמירה על סודיות המידע;</p>
+                  </content>
+                </point>
+                <point eId="point_10__point_ב__point_5">
+                  <num>(5)</num>
+                  <content>
+                    <p>לבעלי התפקידים במוסד כאמור בפסקה (4), ולהם בלבד, תהיה גישה לפרטי המידע הדרושים;</p>
+                  </content>
+                </point>
+                <point eId="point_10__point_ב__point_6">
+                  <num>(6)</num>
+                  <content>
+                    <p>פרטי המידע יישמרו בדרך שתבטיח את אבטחת המידע ואת סודיותו;</p>
+                  </content>
+                </point>
+                <point eId="point_10__point_ב__point_7">
+                  <num>(7)</num>
+                  <content>
+                    <p>על אף האמור <ref href="/akn/il/act/PrimaryLegislation/1981-03-11/147337#chp_ד">בפרק ד׳ לחוק הגנת הפרטיות, התשמ"א–1981</ref>, והוראות כל דין אחר למעט <ref href="/akn/il/act/PrimaryLegislation/1972-04-09/2002281">פקודת הסטטיסטיקה [נוסח חדש], התשל"ב–1972</ref>, המוסד לא יעביר כל מידע שהתקבל או שנוצר לפי סעיף זה, אלא לשם ביצוע חוק זה ובמידה שנדרש.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+          </list>
+        </point>
+        <point eId="point_11">
+          <heading>
+            <authorialNote placement="side">
+              <p>סמכות שיפוט</p>
+            </authorialNote>
+          </heading>
+          <num>11.</num>
+          <content>
+            <p>לבית דין אזורי לעבודה כמשמעותו <ref href="/akn/il/act/PrimaryLegislation/1969-03-27/165789">בחוק בית הדין לעבודה, התשכ"ט–1969</ref>, תהיה סמכות ייחודית לדון בכל תביעה למענק או לתוספת למענק לפי חוק זה.</p>
+          </content>
+        </point>
+        <point eId="point_12">
+          <heading>
+            <authorialNote placement="side">
+              <p>שיפוי</p>
+            </authorialNote>
+          </heading>
+          <num>12.</num>
+          <content>
+            <p>אוצר המדינה ישפה את המוסד לגבי כל סכום שהוציא לתשלום מענקים ותוספות למענקים שניתנו לפי חוק זה, וכן לגבי החלק היחסי מההוצאות המינהליות של המוסד הנובעות מביצוע חוק זה.</p>
+          </content>
+        </point>
+        <point eId="point_13">
+          <heading>
+            <authorialNote placement="side">
+              <p>ביצוע ותקנות</p>
+            </authorialNote>
+          </heading>
+          <num>13.</num>
+          <content>
+            <p>שר האוצר ממונה על חוק זה והוא רשאי להתקין תקנות לביצועו.</p>
+          </content>
+        </point>
+        <point eId="point_14">
+          <heading>
+            <authorialNote placement="side">
+              <p xml:space="preserve"> </p>
+            </authorialNote>
+          </heading>
+          <num>14.</num>
+          <content>
+            <p>
+              <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_מס_הכנסה">בפקודת מס הכנסה</ref> כהוראת שעה בתקופה שמיום 29.7.2020 ועד יום 28.2.2022.</wikicomment>
+            </p>
+          </content>
+        </point>
+        <point eId="point_15">
+          <heading>
+            <authorialNote placement="side">
+              <p xml:space="preserve"> </p>
+            </authorialNote>
+          </heading>
+          <num>15.</num>
+          <content>
+            <p>
+              <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryLegislation/1992-01-08/153721">בחוק הפחתת הגירעון והגבלת ההוצאה התקציבית, התשנ"ב–1992</ref>.</wikicomment>
+            </p>
+          </content>
+        </point>
+        <point eId="point_16">
+          <heading>
+            <authorialNote placement="side">
+              <p xml:space="preserve"> </p>
+            </authorialNote>
+          </heading>
+          <num>16.</num>
+          <content>
+            <p>
+              <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryLegislation/1994-04-28/154135">בחוק קליטת חיילים משוחררים, התשנ"ד–1994</ref>.</wikicomment>
+            </p>
+          </content>
+        </point>
+        <point eId="point_17">
+          <heading>
+            <authorialNote placement="side">
+              <p xml:space="preserve"> </p>
+            </authorialNote>
+          </heading>
+          <num>17.</num>
+          <list>
+            <point eId="point_17__point_א">
+              <num>(א)</num>
+              <content>
+                <p>
+                  <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryLegislation/2008-02-18/262875">בחוק מיסוי מקרקעין (שבח ורכישה), התשכ"ג–1963</ref> (להלן – חוק מיסוי מקרקעין).</wikicomment>
+                </p>
+              </content>
+            </point>
+            <point eId="point_17__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>
+                  <ref href="/akn/il/act/PrimaryLegislation/2008-02-18/262875">חוק מיסוי מקרקעין</ref> כנוסחו בסעיף קטן (א) יחול על מכירת בניין או חלק ממנו שהוא דירת מגורים מיום תחילתו של חוק זה ואילך.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+      </list>
+    </body>
+    <conclusions eId="eId">
+      <p class="signatures">
+        <signature>
+          <p>
+            <person refersTo="בנימין_נתניהו">בנימין נתניהו</person>
+            <role refersTo="ראש_הממשלה">ראש הממשלה</role>
+          </p>
+        </signature>
+        <signature>
+          <p>
+            <person refersTo="ישראל_כץ">ישראל כץ</person>
+            <role refersTo="שר_האוצר">שר האוצר</role>
+          </p>
+        </signature>
+        <signature>
+          <p>
+            <person refersTo="ראובן_ריבלין">ראובן ריבלין</person>
+            <role refersTo="נשיא_המדינה">נשיא המדינה</role>
+          </p>
+        </signature>
+        <signature>
+          <p>
+            <person refersTo="יריב_לוין">יריב לוין</person>
+            <role refersTo="יושב_ראש_הכנסת">יושב ראש הכנסת</role>
+          </p>
+        </signature>
+      </p>
+    </conclusions>
+  </act>
+</akomaNtoso>

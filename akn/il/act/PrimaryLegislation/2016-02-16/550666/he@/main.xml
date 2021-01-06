@@ -1,0 +1,3299 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion" name="publicLaw">
+    <meta>
+      <identification source="#kensset">
+        <FRBRWork>
+          <FRBRthis value="/akn/il/act/PrimaryLegislation/2016-02-16/550666/main" />
+          <FRBRuri value="/akn/il/act/PrimaryLegislation/2016-02-16/550666" />
+          <FRBRdate date="2016-02-16" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRcountry value="israel" />
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/il/act/PrimaryLegislation/2016-02-16/550666/he@/main" />
+          <FRBRuri value="/akn/il/act/PrimaryLegislation/2016-02-16/550666/he@" />
+          <FRBRdate date="2016-02-16" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRlanguage language="hebrew" />
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/il/act/PrimaryLegislation/2016-02-16/550666/he@/main.xml" />
+          <FRBRuri value="/akn/il/act/PrimaryLegislation/2016-02-16/550666/he@" />
+          <FRBRdate date="2016-02-16" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRformat value="xml" />
+        </FRBRManifestation>
+      </identification>
+      <classification source="#kensset">
+        <keyword value="{classificationValue}" showAs="{classificationValue}" dictionary="#classification_dictionary" />
+      </classification>
+      <lifecycle source="#kensset">
+        <eventRef eId="eventRef_1" date="2016-02-16" source="#kensset" type="generation" />
+      </lifecycle>
+      <references source="#kensset">
+        <TLCOrganization eId="kensset" href="/ontology/organization/akn/knesset" showAs="Kensset" type="generation" />
+        <TLCRole eId="author" href="/ontology/role/akn/author" showAs="Author of Document" />
+        <TLCProcess eId="inforce" href="/ontology/process/akn/inforce" showAs="In force" />
+        <TLCTerm eId="term_1" href="/ontology/term/אמצעי_טיפול/550666" showAs="אמצעי_טיפול" />
+        <TLCTerm eId="term_2" href="/ontology/term/בית_גידול_למזיקים/550666" showAs="בית_גידול_למזיקים" />
+        <TLCTerm eId="term_3" href="/ontology/term/גן_לאומי/550666" showAs="גן_לאומי" />
+        <TLCTerm eId="term_4" href="/ontology/term/הדברה/550666" showAs="הדברה" />
+        <TLCTerm eId="term_5" href="/ontology/term/הדברה_באיוד/550666" showAs="הדברה_באיוד" />
+        <TLCTerm eId="term_6" href="/ontology/term/הוועדה_המייעצת/550666" showAs="הוועדה_המייעצת" />
+        <TLCTerm eId="term_7" href="/ontology/term/חוק_גנים_לאומיים/550666" showAs="חוק_גנים_לאומיים" />
+        <TLCTerm eId="term_8" href="/ontology/term/חוק_הגנת_הסביבה/550666" showAs="חוק_הגנת_הסביבה" />
+        <TLCTerm eId="term_9" href="/ontology/term/חוק_החומרים_המסוכנים/550666" showAs="חוק_החומרים_המסוכנים" />
+        <TLCTerm eId="term_10" href="/ontology/term/חוק_העונשין/550666" showAs="חוק_העונשין" />
+        <TLCTerm eId="term_11" href="/ontology/term/חוק_להגנת_חיית_הבר/550666" showAs="חוק_להגנת_חיית_הבר" />
+        <TLCTerm eId="term_12" href="/ontology/term/חיית_בר_מוגנת/550666" showAs="חיית_בר_מוגנת" />
+        <TLCTerm eId="term_13" href="/ontology/term/מדביר/550666" showAs="מדביר" />
+        <TLCTerm eId="term_14" href="/ontology/term/מדביר_מסייע/550666" showAs="מדביר_מסייע" />
+        <TLCTerm eId="term_15" href="/ontology/term/מוצרים_מעובדים/550666" showAs="מוצרים_מעובדים" />
+        <TLCTerm eId="term_16" href="/ontology/term/מזיקים/550666" showAs="מזיקים" />
+        <TLCTerm eId="term_17" href="/ontology/term/מטרד/550666" showAs="מטרד" />
+        <TLCTerm eId="term_18" href="/ontology/term/המנהל/550666" showAs="המנהל" />
+        <TLCTerm eId="term_19" href="/ontology/term/מפגע/550666" showAs="מפגע" />
+        <TLCTerm eId="term_20" href="/ontology/term/מפעיל/550666" showAs="מפעיל" />
+        <TLCTerm eId="term_21" href="/ontology/term/המשרד/550666" showAs="המשרד" />
+        <TLCTerm eId="term_22" href="/ontology/term/סביבה_טבעית/550666" showAs="סביבה_טבעית" />
+        <TLCTerm eId="term_23" href="/ontology/term/פעולות_מניעה/550666" showAs="פעולות_מניעה" />
+        <TLCTerm eId="term_24" href="/ontology/term/רישיון_מדביר/550666" showAs="רישיון_מדביר" />
+        <TLCTerm eId="term_25" href="/ontology/term/רישיון_מדביר_בדירות/550666" showAs="רישיון_מדביר_בדירות" />
+        <TLCTerm eId="term_26" href="/ontology/term/הרשם/550666" showAs="הרשם" />
+        <TLCTerm eId="term_27" href="/ontology/term/תכשיר_הדברה/550666" showAs="תכשיר_הדברה" />
+        <TLCTerm eId="term_28" href="/ontology/term/תכשיר_הדברה_רשום/550666" showAs="תכשיר_הדברה_רשום" />
+        <TLCTerm eId="term_29" href="/ontology/term/השר/550666" showAs="השר" />
+        <TLCTerm eId="term_30" href="/ontology/term/עניין_אישי/550666" showAs="עניין_אישי" />
+        <TLCTerm eId="term_31" href="/ontology/term/קרוב/550666" showAs="קרוב" />
+        <TLCTerm eId="term_32" href="/ontology/term/חרקים/550666" showAs="חרקים" />
+        <TLCTerm eId="term_33" href="/ontology/term/מכרסמים/550666" showAs="מכרסמים" />
+        <TLCTerm eId="term_34" href="/ontology/term/תקנות_הדברת_מזיקים/550666" showAs="תקנות_הדברת_מזיקים" />
+        <TLCTerm eId="term_35" href="/ontology/term/מבנה/550666" showAs="מבנה" />
+        <TLCTerm eId="term_36" href="/ontology/term/תחום_יישוב/550666" showAs="תחום_יישוב" />
+        <TLCPerson eId="בנימין_נתניהו" href="/ontology/person/בנימין_נתניהו" showAs="בנימין נתניהו" />
+        <TLCPerson eId="אבי_גבאי" href="/ontology/person/אבי_גבאי" showAs="אבי גבאי" />
+        <TLCPerson eId="ראובן_ריבלין" href="/ontology/person/ראובן_ריבלין" showAs="ראובן ריבלין" />
+        <TLCPerson eId="יולי_יואל_אדלשטיין" href="/ontology/person/יולי_יואל_אדלשטיין" showAs="יולי יואל אדלשטיין" />
+        <TLCRole eId="ראש_הממשלה" href="ontology/role/akn/ראש_הממשלה" showAs="ראש הממשלה" />
+        <TLCRole eId="השר_להגנת_הסביבה" href="ontology/role/akn/השר_להגנת_הסביבה" showAs="השר להגנת הסביבה" />
+        <TLCRole eId="נשיא_המדינה" href="ontology/role/akn/נשיא_המדינה" showAs="נשיא המדינה" />
+        <TLCRole eId="יושב_ראש_הכנסת" href="ontology/role/akn/יושב_ראש_הכנסת" showAs="יושב ראש הכנסת" />
+      </references>
+      <temporalData source="#kensset">
+        <temporalGroup eId="tmpg_1" />
+      </temporalData>
+      <Publication></Publication>
+      <proprietary wikiversion="10/22/2020 1:32:47 PM" />
+    </meta>
+    <body period="#tmpg_1">
+      <title eId="title">
+        <content>
+          <p>חוק הסדרת העיסוק בהדברה תברואית, התשע"ו–2016</p>
+        </content>
+      </title>
+      <chapter eId="chp_א">
+        <num>פרק א׳:</num>
+        <title>
+          <content>
+            <p>מטרה והגדרות</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_1">
+            <heading>
+              <authorialNote placement="side">
+                <p>מטרה</p>
+              </authorialNote>
+            </heading>
+            <num>1.</num>
+            <content>
+              <p>חוק זה מטרתו להסדיר את העיסוק בהדברת מזיקים לאדם ולרכוש, שאינה לצרכים חקלאיים, ובכלל זה לקבוע הוראות לעניין הכשרתם ואופן פעולתם של העוסקים בהדברה כאמור, הליכי הרישוי לעיסוק בהדברה והפיקוח על העיסוק כאמור, בין השאר על ידי קביעת איסורים וחובות בהתאם לעקרון הזהירות המונעת, והכול לשם הגנה על חיי אדם, בריאותם ואיכות חייהם של בני אדם, מניעת מפגעים תברואיים וסביבתיים, והגנה על הסביבה לרבות משאבי הטבע, המערכות האקולוגיות והמגוון הביולוגי, למען הציבור ולמען הדורות הבאים ובהתחשב בצורכיהם.</p>
+            </content>
+          </point>
+          <point eId="point_2" class="definitions">
+            <heading>
+              <authorialNote placement="side">
+                <p>הגדרות</p>
+              </authorialNote>
+            </heading>
+            <num>2.</num>
+            <list>
+              <intro>
+                <p>בחוק זה –</p>
+              </intro>
+              <point eId="point_2__point_אמצעי_טיפול">
+                <content>
+                  <p>
+                    <def />”אמצעי טיפול“ – אמצעים מכניים, פיסיקליים או ביולוגיים להשמדה, למשיכה, ללכידה, לעיכוב התפתחות, לדחייה, להרחקה או לצמצום אוכלוסייה של מזיקים, או אמצעים כימיים למשיכה או ללכידה של מזיקים;</p>
+                </content>
+              </point>
+              <point eId="point_2__point_בית_גידול_למזיקים">
+                <content>
+                  <p>
+                    <def />”בית גידול למזיקים“ – כל מצע לרבות מבנה, כלי תחבורה, מקווה מים, צמח, מכל, שטח פתוח, מיתקן, חפץ או חומר, שמצבו, אופן החזקתו או אופן השימוש בו מאפשרים התפתחות מפגע או מטרד, למעט מצע כאמור בסביבה טבעית ולמעט אדם או בעלי חיים שאינם מזיקים;</p>
+                </content>
+              </point>
+              <point eId="point_2__point_גן_לאומי">
+                <content>
+                  <p>
+                    <def />”גן לאומי“, ”ערך טבע מוגן“ ו”שמורת טבע“ – כהגדרתם <ref href="/akn/il/act/PrimaryLegislation/1998-04-05/164212">בחוק גנים לאומיים</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_2__point_הדברה">
+                <content>
+                  <p>
+                    <def />”הדברה“ – שימוש באמצעים כימיים להשמדה, לעיכוב התפתחות, לדחייה, להרחקה או לצמצום אוכלוסייה של מזיקים;</p>
+                </content>
+              </point>
+              <point eId="point_2__point_הדברה_באיוד">
+                <content>
+                  <p>
+                    <def />”הדברה באיוד“ – הדברה באמצעות גז;</p>
+                </content>
+              </point>
+              <point eId="point_2__point_הוועדה_המייעצת">
+                <content>
+                  <p>
+                    <def />”הוועדה המייעצת“ – הוועדה המייעצת לענייני מדבירים שמונתה לפי <ref href="#point_24">סעיף 24</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_2__point_חוק_גנים_לאומיים">
+                <content>
+                  <p>
+                    <def />”חוק גנים לאומיים“ – <ref href="/akn/il/act/PrimaryLegislation/1998-04-05/164212">חוק גנים לאומיים, שמורות טבע, אתרים לאומיים ואתרי הנצחה, התשנ"ח–1998</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_2__point_חוק_הגנת_הסביבה">
+                <content>
+                  <p>
+                    <def />”חוק הגנת הסביבה“ – <ref href="/akn/il/act/PrimaryLegislation/2011-04-05/336239">חוק הגנת הסביבה (סמכויות פיקוח ואכיפה), התשע"א–2011</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_2__point_חוק_החומרים_המסוכנים">
+                <content>
+                  <p>
+                    <def />”חוק החומרים המסוכנים“ – <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/חוק_החומרים_המסוכנים">חוק החומרים המסוכנים, התשנ"ג–1993</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_2__point_חוק_העונשין">
+                <content>
+                  <p>
+                    <def />”חוק העונשין“ – <ref href="/akn/il/act/PrimaryLegislation/1977-08-04/2002251">חוק העונשין, התשל"ז–1977</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_2__point_חוק_להגנת_חיית_הבר">
+                <content>
+                  <p>
+                    <def />”חוק להגנת חיית הבר“ – <ref href="/akn/il/act/PrimaryLegislation/1955-01-20/147325">חוק להגנת חיית הבר, התשט"ו–1955</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_2__point_חיית_בר_מוגנת">
+                <content>
+                  <p>
+                    <def />”חיית בר מוגנת“ – כהגדרתה <ref href="/akn/il/act/PrimaryLegislation/1955-01-20/147325">בחוק להגנת חיית הבר</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_2__point_מדביר">
+                <content>
+                  <p>
+                    <def />”מדביר“ – מי שיש בידו רישיון מדביר, הרשום במרשם המדבירים לפי <ref href="#point_13">סעיף 13</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_2__point_מדביר_מסייע">
+                <content>
+                  <p>
+                    <def />”מדביר מסייע“ – כמשמעותו <ref href="#point_6">בסעיף 6</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_2__point_מוצרים_מעובדים">
+                <content>
+                  <p>
+                    <def />”מוצרים מעובדים“ – תוצרים של תעשייה או מלאכה, ובכלל זה, מוצרי מזון, למעט תוצרת חקלאית לא מעובדת, ולרבות אריזות של תוצרים כאמור;</p>
+                </content>
+              </point>
+              <point eId="point_2__point_מזיקים">
+                <content>
+                  <p>
+                    <def />”מזיקים“ – בעלי חיים שאינם ערך טבע מוגן או חיית בר מוגנת, העלולים לגרום למפגע או למטרד, ומנויים <ref href="#appendix_1">בתוספת הראשונה</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_2__point_מטרד">
+                <content>
+                  <p>
+                    <def />”מטרד“ – נוכחות או פעילות של מזיקים הגורמת נזק לרכוש, ובכלל זה למוצרים מעובדים, או אי־נוחות חמורה לאדם, או שיש חשש ממשי שתגרום לנזק או לאי־נוחות כאמור;</p>
+                </content>
+              </point>
+              <point eId="point_2__point_המנהל">
+                <content>
+                  <p>
+                    <def />”המנהל“ – עובד המשרד הכפוף במישרין למנהל הכללי של המשרד, שהשר הסמיכו לעניין <ref href="#chp_ו">פרק ו׳</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_2__point_מפגע">
+                <list>
+                  <intro>
+                    <p>
+                      <def />”מפגע“ – נוכחות או פעילות של מזיקים הגורמת לפגיעה בגוף האדם או בבריאותו או שיש חשש ממשי שתגרום לפגיעה כאמור, והכול באחת מדרכים אלה:</p>
+                  </intro>
+                  <point eId="point_2__point_מפגע__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>עקיצה, נשיכה, התזה, מגע או השפעה של מזיקים, העלולה לגרום לתגובה פיזית באדם;</p>
+                    </content>
+                  </point>
+                  <point eId="point_2__point_מפגע__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>העברת מחוללי מחלה לאדם;</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_2__point_מפעיל">
+                <content>
+                  <p>
+                    <def />”מפעיל“ – מי שמפעיל, דרך קבע, אדם אחר בביצוע הדברה, בין שהמפעיל הוא מדביר ובין שאינו מדביר, ובכלל זה מי שהוא בעלים או מנהל של עסק המציע לציבור שירותי הדברה;</p>
+                </content>
+              </point>
+              <point eId="point_2__point_המשרד">
+                <content>
+                  <p>
+                    <def />”המשרד“ – המשרד להגנת הסביבה;</p>
+                </content>
+              </point>
+              <point eId="point_2__point_סביבה_טבעית">
+                <list>
+                  <intro>
+                    <p>
+                      <def />”סביבה טבעית“ – כל אחד מאלה:</p>
+                  </intro>
+                  <point eId="point_2__point_סביבה_טבעית__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>מקום שהוא בצורתו הטבעית או שלא עבר שינויים משמעותיים על ידי אדם, או שצורתו הטבעית שוחזרה או שהוא מיועד לשחזור כאמור;</p>
+                    </content>
+                  </point>
+                  <point eId="point_2__point_סביבה_טבעית__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>שמורת טבע, גן לאומי או מקום שיועד בתכנית כהגדרתה <ref href="/akn/il/act/PrimaryLegislation/1965-08-12/148917">בחוק התכנון והבנייה, התשכ"ה–1965</ref>, לשמורת טבע, לגן לאומי או ליער;</p>
+                    </content>
+                  </point>
+                  <point eId="point_2__point_סביבה_טבעית__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>מקום שאינו בצורתו הטבעית אך מתקיימת בו מערכת אקולוגית טבעית או שמטרתו יצירה של תנאים המדמים מערכת אקולוגית טבעית;</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_2__point_פעולות_מניעה">
+                <content>
+                  <p>
+                    <def />”פעולות מניעה“ – פעולות מכניות או טכניות המופעלות לגבי בית גידול למזיקים לשם מניעת התפתחות של מזיקים, מפגע או מטרד, ובכלל זה סילוק, ייבוש, ניקוז, כיסוי, בנייה וסתימה;</p>
+                </content>
+              </point>
+              <point eId="point_2__point_רישיון_מדביר">
+                <content>
+                  <p>
+                    <def />”רישיון מדביר“, ”רישיון“ – כל אחד מאלה: רישיון מדביר בדירות, רישיון מדביר במבנים ובשטח פתוח, רישיון מדביר באיוד או רישיון מדביר צבאי;</p>
+                </content>
+              </point>
+              <point eId="point_2__point_רישיון_מדביר_בדירות">
+                <content>
+                  <p>
+                    <def />”רישיון מדביר בדירות“, ”רישיון מדביר במבנים ובשטח פתוח“, ”רישיון מדביר באיוד“ ו”רישיון מדביר צבאי“ – כמשמעותם <ref href="#point_4">בסעיף 4</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_2__point_הרשם">
+                <content>
+                  <p>
+                    <def />”הרשם“ – רשם לענייני מדבירים שמונה לפי <ref href="#point_23">סעיף 23</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_2__point_תכשיר_הדברה">
+                <content>
+                  <p>
+                    <def />”תכשיר הדברה“ – חומר או תערובת של חומרים כימיים, בכל מצב צבירה, המיועדים להדברה;</p>
+                </content>
+              </point>
+              <point eId="point_2__point_תכשיר_הדברה_רשום">
+                <content>
+                  <p>
+                    <def />”תכשיר הדברה רשום“ – תכשיר הדברה שנרשם לפי <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/חוק_החומרים_המסוכנים">חוק החומרים המסוכנים</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_2__point_השר">
+                <content>
+                  <p>
+                    <def />”השר“ – השר להגנת הסביבה.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+        </list>
+      </chapter>
+      <chapter eId="chp_ב">
+        <num>פרק ב׳:</num>
+        <title>
+          <content>
+            <p>רישוי מדבירים</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_3">
+            <heading>
+              <authorialNote placement="side">
+                <p>חובת רישוי</p>
+              </authorialNote>
+            </heading>
+            <num>3.</num>
+            <list>
+              <point eId="point_3__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>לא יעסוק אדם בהדברה אלא אם כן יש בידו רישיון מדביר שניתן לו לפי חוק זה מסוג המתאים לביצוע ההדברה, ובהתאם לתנאי הרישיון ולהוראות לפי חוק זה.</p>
+                </content>
+              </point>
+              <point eId="point_3__point_ב">
+                <num>(ב)</num>
+                <list>
+                  <intro>
+                    <p>לעניין חוק זה, ”עיסוק בהדברה“ – כל אחד מאלה, בין שהוא נעשה בתמורה ובין שלא בתמורה:</p>
+                  </intro>
+                  <point eId="point_3__point_ב__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>ביצוע הדברה דרך עיסוק, לרבות באמצעות תכשיר הדברה המיועד לפי דין לשימוש הציבור הרחב;</p>
+                    </content>
+                  </point>
+                  <point eId="point_3__point_ב__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>ביצוע הדברה בתכשיר הדברה שאינו מיועד לפי דין לשימוש הציבור הרחב, אף אם הוא נעשה באופן אקראי;</p>
+                    </content>
+                  </point>
+                  <point eId="point_3__point_ב__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>ביצוע פעולות מניעה או שימוש באמצעי טיפול שקבע השר, לאחר התייעצות עם שר הבריאות ועם הוועדה המייעצת ובאישור ועדת הפנים והגנת הסביבה של הכנסת.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+            </list>
+          </point>
+          <point eId="point_4">
+            <heading>
+              <authorialNote placement="side">
+                <p>סוגי רישיונות מדביר</p>
+              </authorialNote>
+            </heading>
+            <num>4.</num>
+            <list>
+              <point eId="point_4__point_א">
+                <num>(א)</num>
+                <list>
+                  <intro>
+                    <p>אלה סוגי רישיונות מדביר והפעולות המותרות למדביר לפי כל סוג של רישיון:</p>
+                  </intro>
+                  <point eId="point_4__point_א__point_1">
+                    <num>(1)</num>
+                    <list>
+                      <intro>
+                        <p>רישיון מדביר בדירות – רישיון לבצע הדברה, למעט הדברה באיוד, הדברה במוצרים מעובדים והדברת מזיקים המפורטים <ref href="#appendix_2">בתוספת השנייה</ref> בכל אחד מאלה:</p>
+                      </intro>
+                      <point eId="point_4__point_א__point_1__point_א">
+                        <num>(א)</num>
+                        <content>
+                          <p>דירה המשמשת למגורים או משרד ששטחו אינו עולה על 500 מ"ר, לרבות חצרים הצמודים להם;</p>
+                        </content>
+                      </point>
+                      <point eId="point_4__point_א__point_1__point_ב">
+                        <num>(ב)</num>
+                        <content>
+                          <p>רכוש משותף בבניין שיש בו לכל היותר 16 דירות או משרדים כאמור בפסקת משנה (א);</p>
+                        </content>
+                      </point>
+                    </list>
+                  </point>
+                  <point eId="point_4__point_א__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>רישיון מדביר במבנים ובשטח פתוח – רישיון לבצע כל הדברה, למעט הדברה באיוד;</p>
+                    </content>
+                  </point>
+                  <point eId="point_4__point_א__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>רישיון מדביר באיוד – רישיון לבצע כל הדברה;</p>
+                    </content>
+                  </point>
+                  <point eId="point_4__point_א__point_4">
+                    <num>(4)</num>
+                    <content>
+                      <p>רישיון מדביר צבאי – רישיון לבצע פעולות הדברה המותרות למי שיש בידו רישיון מדביר בדירות, במקומות המנויים בפסקה (1) ובמקומות נוספים שנקבעו ברישיון, והכול בשטחי מחנות צבא הגנה לישראל.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_4__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>השר רשאי לקבוע כי הדברה של מזיקים מסוימים, שימוש בתכשיר הדברה מסוים, או ביצוע פעולות מניעה או שימוש באמצעי טיפול מסוימים שנקבעו כעיסוק בהדברה לפי <ref href="#point_3">סעיף 3(ב)(3)</ref>, יותרו רק למי שבידם רישיון מדביר מסוגים שיקבע, או יותנו בתנאים מסוימים לרבות הכשרה ייעודית.</p>
+                </content>
+              </point>
+              <point eId="point_4__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>השר, לאחר התייעצות עם שר הבריאות והוועדה המייעצת ובאישור ועדת הפנים והגנת הסביבה של הכנסת, רשאי לקבוע כי פעולות הדברה נוספות שהן בעלות סיכון נמוך לבריאות הציבור ולסביבה או פעולות הדברה המתבצעות בסוגי מבנים ומקומות שאין בהם סיכון גבוה לבריאות הציבור או לסביבה, הן פעולות שמדביר בדירות רשאי לעסוק בהן, או פעולות שמדביר בדירות רשאי לעסוק בהן בהנחיה של מדביר במבנים ובשטח פתוח ובהתאם לתנאים ולהוראות שיקבע השר.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_5">
+            <heading>
+              <authorialNote placement="side">
+                <p>ייחוד התואר ואיסור התחזות</p>
+              </authorialNote>
+            </heading>
+            <num>5.</num>
+            <list>
+              <point eId="point_5__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>לא ישתמש אדם בתואר או בכינוי שמשתמע מהם שהוא מדביר או שיש בידו רישיון מדביר מסוג מסוים, אלא אם כן יש בידו רישיון מדביר תקף המתאים לעיסוקו בהתאם להוראות לפי חוק זה.</p>
+                </content>
+              </point>
+              <point eId="point_5__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>לא יציג אדם את עצמו או את מי שפועל מטעמו כמדביר או כמי שיש בידו רישיון מדביר מסוג מסוים, אלא אם כן יש בידו רישיון מדביר תקף המתאים לעיסוקו בהתאם להוראות לפי חוק זה.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_6">
+            <heading>
+              <authorialNote placement="side">
+                <p>סיוע בביצוע הדברה</p>
+              </authorialNote>
+            </heading>
+            <num>6.</num>
+            <list>
+              <point eId="point_6__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>על אף האמור <ref href="#point_3">בסעיף 3</ref>, מדביר רשאי לסייע למדביר אחר בביצוע הדברה, למעט הדברה באיוד, גם אם אין בידו רישיון מדביר מהסוג המתאים לביצועה, ובלבד שיש בידי המדביר המסתייע רישיון לבצע את ההדברה והמדביר המסייע פועל בנוכחותו ובהשגחתו של המדביר המסתייע בעת ביצוע ההדברה, ובהתאם להנחיותיו.</p>
+                </content>
+              </point>
+              <point eId="point_6__point_ב">
+                <num>(ב)</num>
+                <list>
+                  <intro>
+                    <p>מדביר רשאי להסתייע במדביר מסייע בביצוע הדברה, למעט הדברה באיוד, ובלבד שמתקיימים שניים אלה:</p>
+                  </intro>
+                  <point eId="point_6__point_ב__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>המדביר המסייע מסר לו, לפני תחילת ביצוע ההדברה, העתק מרישיון המדביר שלו התקף בעת ביצוע ההדברה, והמדביר המסתייע שמר את העתק הרישיון האמור לתקופה של שלוש שנים מיום ביצוע ההדברה או לתקופה אחרת שקבע השר לפי <ref href="#point_16">סעיף 16</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_6__point_ב__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>המדביר המסתייע נוכח ומשגיח על המדביר המסייע בעת ביצוע ההדברה ונותן לו הנחיות מתאימות לביצועה.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+            </list>
+          </point>
+          <point eId="point_7">
+            <heading>
+              <authorialNote placement="side">
+                <p>תנאים למתן רישיון</p>
+              </authorialNote>
+            </heading>
+            <num>7.</num>
+            <list>
+              <point eId="point_7__point_א">
+                <num>(א)</num>
+                <list>
+                  <intro>
+                    <p>הרשם ייתן רישיון מדביר למבקש שמתקיימים לגביו כל אלה, לפי העניין:</p>
+                  </intro>
+                  <point eId="point_7__point_א__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>הוא יחיד, בגיר ותושב קבע בישראל;</p>
+                    </content>
+                  </point>
+                  <point eId="point_7__point_א__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>הוא אינו פסול דין;</p>
+                    </content>
+                  </point>
+                  <point eId="point_7__point_א__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>לעניין מבקש רישיון מדביר בדירות, רישיון מדביר במבנים ובשטח פתוח או רישיון מדביר באיוד – הוא לא הורשע בעבירה פלילית אשר מפאת מהותה, חומרתה או נסיבותיה אין הוא ראוי לשמש מדביר;</p>
+                    </content>
+                  </point>
+                  <point eId="point_7__point_א__point_4">
+                    <num>(4)</num>
+                    <list>
+                      <point eId="point_7__point_א__point_4__point_א">
+                        <num>(א)</num>
+                        <content>
+                          <p>הוא השלים השתתפות בתכנית הכשרה מתאימה לסוג הרישיון המבוקש, הכוללת הכשרה מעשית, שהרשם הכיר בה לפי הוראות פסקת משנה (ב), ובסיומה עמד בהצלחה בבחינה שערך הרשם לפי הוראות אותה פסקת משנה, ולעניין מבקש רישיון מדביר צבאי – הוא השתתף בהכשרה ועמד בבחינה כאמור, הכוללות לפחות את ההכשרה והבחינה של מבקש רישיון מדביר בדירות; ואולם, מבקש רישיון מדביר בדירות שהיה בידו רישיון מדביר צבאי במשך שנה לפחות שבה עסק בפועל בהדברה בהתאם לרישיונו, לא תחול עליו חובת הכשרה ועמידה בבחינה כאמור, ובלבד שהגיש את הבקשה למתן רישיון בטרם חלפו שלוש שנים ממועד סיום שירותו בצבא הגנה לישראל.</p>
+                        </content>
+                      </point>
+                      <point eId="point_7__point_א__point_4__point_ב">
+                        <num>(ב)</num>
+                        <content>
+                          <p>השר, לאחר התייעצות עם הוועדה המייעצת ובאישור ועדת הפנים והגנת הסביבה של הכנסת, יקבע הוראות לעניין הכרה בתכנית הכשרה כאמור בפסקת משנה (א), ובכלל זה הוראות לעניין אופן הגשת בקשה להכרה כאמור, התנאים למתן ההכרה לרבות לעניין הכשרה שנערכה מחוץ לישראל, תוכן ההכשרות העיונית והמעשית והיקפן, דרכי ההכשרה, וכן הוראות לעניין עריכת בחינות בסיום תכנית ההכשרה;</p>
+                        </content>
+                      </point>
+                    </list>
+                  </point>
+                  <point eId="point_7__point_א__point_5">
+                    <num>(5)</num>
+                    <list>
+                      <intro>
+                        <p>לעניין מבקש רישיון מדביר במבנים ובשטח פתוח או רישיון מדביר באיוד – הוא בעל כשירות וניסיון בעיסוק בהדברה כמפורט להלן:</p>
+                      </intro>
+                      <point eId="point_7__point_א__point_5__point_א">
+                        <num>(א)</num>
+                        <content>
+                          <p>לעניין רישיון מדביר במבנים ובשטח פתוח – היה בידו רישיון מדביר בדירות, במשך שנה לפחות שבה עסק בפועל בהדברה בהתאם לרישיונו;</p>
+                        </content>
+                      </point>
+                      <point eId="point_7__point_א__point_5__point_ב">
+                        <num>(ב)</num>
+                        <content>
+                          <p>לעניין רישיון מדביר באיוד – היה בידו רישיון מדביר במבנים ובשטח פתוח, במשך שנה לפחות שבה עסק בפועל בהדברה בהתאם לרישיונו;</p>
+                        </content>
+                      </point>
+                    </list>
+                  </point>
+                  <point eId="point_7__point_א__point_6">
+                    <num>(6)</num>
+                    <content>
+                      <p>לעניין מבקש רישיון מדביר צבאי – הוא משרת בשירות סדיר כהגדרתו <ref href="/akn/il/act/PrimaryLegislation/1986-01-30/2002309">בחוק שירות ביטחון [נוסח משולב], התשמ"ו–1986</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_7__point_א__point_7">
+                    <num>(7)</num>
+                    <content>
+                      <p>מתקיימים בו תנאים נוספים שנקבעו לפי סעיף קטן (ד).</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_7__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>השר רשאי לקבוע הוראות לעניין אופן הגשת בקשה לרישיון מדביר או לחידושו, ובכלל זה מסמכים ומידע הדרושים לרשם לשם קבלת החלטה בבקשה למתן רישיון.<br space="preserve"></br><wikicomment font-size="x-small">פורסמו <ref href="/akn/il/act/SecondaryLegislation/2018-06-20/100041857">תקנות הסדרת העיסוק בהדברה תברואית (בקשה לרישיון מדביר), התשע"ח–2018</ref>.</wikicomment></p>
+                </content>
+              </point>
+              <point eId="point_7__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>הרשם יפרסם באתר האינטרנט של המשרד טופסי בקשה ורשימת מסמכים שיש לצרף לבקשה; טפסים ומידע כאמור יועמדו לרשות הציבור גם בלשכות המחוזיות של המשרד.</p>
+                </content>
+              </point>
+              <point eId="point_7__point_ד">
+                <num>(ד)</num>
+                <content>
+                  <p>השר, לאחר התייעצות עם הוועדה המייעצת ובאישור ועדת הפנים והגנת הסביבה של הכנסת, רשאי לקבוע תנאים נוספים למתן רישיון או לחידושו, בין השאר כדי להבטיח את מקצועיותו של המדביר וכדי למנוע פגיעה בסביבה או בבריאות הציבור, ובכלל זה חובת ביצוע התמחות מעשית בביצוע הדברה אצל מדביר, תקופת ההתמחות, התנאים לביצוע ההתמחות וכן פטור מהתמחות באופן מלא או חלקי, ורשאי הוא לקבוע תנאים שונים לסוגי רישיונות שונים.</p>
+                </content>
+              </point>
+              <point eId="point_7__point_ה">
+                <num>(ה)</num>
+                <content>
+                  <p>אין בהוראות לפי סעיף קטן (ד) כדי לגרוע מחובת השתתפות בהשתלמויות לפי <ref href="#point_17">סעיף 17</ref>.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_8">
+            <heading>
+              <authorialNote placement="side">
+                <p>סירוב למתן רישיון</p>
+              </authorialNote>
+            </heading>
+            <num>8.</num>
+            <content>
+              <p>על אף האמור <ref href="#point_7">בסעיף 7</ref>, הרשם, לאחר התייעצות עם הוועדה המייעצת ולאחר שנתן למבקש הרישיון הזדמנות לטעון את טענותיו, רשאי לסרב לתת רישיון למבקש שמתקיימים בו התנאים לפי הסעיף האמור, אם מצא כי קיימות נסיבות שבשלהן אין לתת למבקש רישיון, לרבות מטעמים הנוגעים למהימנותו.</p>
+            </content>
+          </point>
+          <point eId="point_9">
+            <heading>
+              <authorialNote placement="side">
+                <p>תקופת הרישיון וחידושו</p>
+              </authorialNote>
+            </heading>
+            <num>9.</num>
+            <list>
+              <point eId="point_9__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>תוקפו של רישיון מדביר יהיה לחמש שנים, וניתן לחדשו לתקופות נוספות של חמש שנים בכל פעם.</p>
+                </content>
+              </point>
+              <point eId="point_9__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>מדביר המבקש לחדש רישיון שניתן לו לתקופה נוספת, יגיש לרשם, 60 ימים לפחות לפני תום תקופת תוקפו של הרישיון, בקשה לחידושו; הרשם רשאי להתיר הגשת בקשה לחידוש רישיון לאחר המועד האמור מטעמים שיירשמו; הרישיון יחודש בהתקיים התנאים לפי חוק זה למתן רישיון, ואולם מדביר כאמור לא יידרש להשתתף בתכנית הכשרה ולעמוד בבחינה כאמור <ref href="#point_7">בסעיף 7(א)(4)</ref> לשם חידוש הרישיון, אלא אם כן הורה על כך הרשם לפי <ref href="#point_10">סעיף 10</ref> או שמתקיימים תנאים אחרים שקבע השר לפי <ref href="#point_7">סעיף 7(ד)</ref>.</p>
+                </content>
+              </point>
+              <point eId="point_9__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>על אף האמור בסעיף זה, הרשם רשאי, לאחר שנתן למבקש הזדמנות לטעון את טענותיו, לתת רישיון או לחדשו לתקופות קצרות מהתקופה האמורה בסעיף קטן (א), מטעמים מיוחדים שיירשמו, ובלבד שהודיע למבקש הרישיון בכתב את נימוקיו.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_10">
+            <heading>
+              <authorialNote placement="side">
+                <p>סירוב לחדש רישיון, ביטול רישיון, הגבלתו או התלייתו</p>
+              </authorialNote>
+            </heading>
+            <num>10.</num>
+            <list>
+              <point eId="point_10__point_א">
+                <num>(א)</num>
+                <list>
+                  <intro>
+                    <p>הרשם, לאחר התייעצות עם הוועדה המייעצת, רשאי לסרב לחדש רישיון, להתנות את חידוש הרישיון בהשתתפות בתכנית הכשרה או בעמידה בבחינה כאמור <ref href="#point_7">בסעיף 7(א)(4)</ref>, לבטל רישיון, להגבילו, או להתלותו לתקופה שלא תעלה על שנה, והכול לאחר שנתן למדביר הזדמנות לטעון את טענותיו בכתב, בהתקיים לגביו אחד מאלה:</p>
+                  </intro>
+                  <point eId="point_10__point_א__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>הרישיון ניתן לו על יסוד מידע כוזב, שגוי, מטעה או חלקי;</p>
+                    </content>
+                  </point>
+                  <point eId="point_10__point_א__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>הוא חדל לעסוק בהדברה;</p>
+                    </content>
+                  </point>
+                  <point eId="point_10__point_א__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>חדל להתקיים בו תנאי מהתנאים למתן הרישיון לפי חוק זה;</p>
+                    </content>
+                  </point>
+                  <point eId="point_10__point_א__point_4">
+                    <num>(4)</num>
+                    <content>
+                      <p>הוא הפר תנאי מתנאי הרישיון או הוראה מההוראות לפי חוק זה, או הוראת חיקוק אחר בקשר עם עיסוקו כמדביר;</p>
+                    </content>
+                  </point>
+                  <point eId="point_10__point_א__point_5">
+                    <num>(5)</num>
+                    <content>
+                      <p>הוא הורשע בעבירה פלילית אשר מפאת מהותה, חומרתה או נסיבותיה אין הוא ראוי לדעת הרשם לשמש מדביר;</p>
+                    </content>
+                  </point>
+                  <point eId="point_10__point_א__point_6">
+                    <num>(6)</num>
+                    <content>
+                      <p>הוא מסר לרשם, לעובד אחר של המשרד להגנת הסביבה או למפקח שהוסמך לפי <ref href="#point_29">סעיף 29</ref> שדרש ממנו מידע לשם מילוי תפקידו מידע כוזב, מטעה, שגוי או חלקי בקשר לעבודתו כמדביר;</p>
+                    </content>
+                  </point>
+                  <point eId="point_10__point_א__point_7">
+                    <num>(7)</num>
+                    <content>
+                      <p>הוא גילה חוסר מקצועיות או רשלנות במסגרת עבודתו כמדביר.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_10__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>בלי לגרוע מהוראות סעיף קטן (א), הרשם, לאחר התייעצות עם הוועדה המייעצת, רשאי להתלות רישיון שניתן למדביר אם הוגש נגדו כתב אישום בשל ביצוע עבירה כאמור בסעיף קטן (א)(5), עד למתן פסק דין סופי בעניין, והכול אם ראה שחומרת העניין או טובת הציבור מחייבים זאת ולאחר שנתן למדביר הזדמנות לטעון את טענותיו בכתב.</p>
+                </content>
+              </point>
+              <point eId="point_10__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>היה לרשם יסוד סביר להניח כי מתקיימת לגבי מדביר עילה מהעילות האמורות בסעיף קטן (א) או (ב), וסבר כי קיים צורך דחוף להתלות או להגביל את רישיונו של המדביר לשם הגנה מיידית על הסביבה או על בריאות הציבור, רשאי הוא להתלות או להגביל את הרישיון לאלתר לתקופה שלא תעלה על שלושים ימים, ובלבד שנתן למדביר הזדמנות לטעון את טענותיו בכתב, בהקדם האפשרי לאחר ההתליה או ההגבלה.</p>
+                </content>
+              </point>
+              <point eId="point_10__point_ד">
+                <num>(ד)</num>
+                <content>
+                  <p>סבר הרשם כי הפגם כאמור בסעיף קטן (א) ניתן לתיקון, רשאי הוא להורות למדביר לתקנו ורשאי הוא להורות על אופן התיקון ועל המועד לתיקון, וכן רשאי הוא להורות כי עד לביצוע התיקון לא יבצע המדביר פעולות הדברה שעליהן יורה; חלפה התקופה שקבע הרשם והפגם לא תוקן להנחת דעתו, רשאי הוא, לאחר שנתן למדביר הזדמנות לטעון את טענותיו בכתב, לנקוט אמצעים כאמור בסעיף קטן (א).</p>
+                </content>
+              </point>
+              <point eId="point_10__point_ה">
+                <num>(ה)</num>
+                <content>
+                  <p>בוטל רישיון מדביר לפי סעיף קטן (א)(1), (4), (5), (6) או (7), לא יהיה אותו אדם רשאי להגיש בקשה לרישיון מדביר בטרם חלפו שנתיים ממועד ביטול הרישיון כאמור, אלא אם כן סבר הרשם, לאחר התייעצות עם הוועדה המייעצת, כי קיימים טעמים מיוחדים שיירשמו, המצדיקים מתן רישיון לאותו אדם בטרם חלפה התקופה האמורה.</p>
+                </content>
+              </point>
+              <point eId="point_10__point_ו">
+                <num>(ו)</num>
+                <content>
+                  <p>ניתנה למדביר הזדמנות לטעון את טענותיו לפי סעיף זה בכתב, רשאית הוועדה המייעצת, לפי בקשת המדביר או מיוזמתה, להזמינו להשמיע את טענותיו לפניה בעל פה.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_11">
+            <heading>
+              <authorialNote placement="side">
+                <p>איסור העברת רישיון</p>
+              </authorialNote>
+            </heading>
+            <num>11.</num>
+            <content>
+              <p>רישיון מדביר הוא אישי; מדביר לא יעביר לאדם אחר את הרישיון שבידו ולא יתיר לאדם אחר לעשות שימוש ברישיונו.</p>
+            </content>
+          </point>
+          <point eId="point_12">
+            <heading>
+              <authorialNote placement="side">
+                <p>חובת עדכון פרטים</p>
+              </authorialNote>
+            </heading>
+            <num>12.</num>
+            <content>
+              <p>מדביר יודיע לרשם לאלתר על כל שינוי בפרטים שמסר בבקשה למתן רישיון או לחידושו, באופן שעליו יורה הרשם.</p>
+            </content>
+          </point>
+          <point eId="point_13">
+            <heading>
+              <authorialNote placement="side">
+                <p>מרשם מדבירים</p>
+              </authorialNote>
+            </heading>
+            <num>13.</num>
+            <list>
+              <point eId="point_13__point_א">
+                <num>(א)</num>
+                <list>
+                  <intro>
+                    <p>הרשם ינהל מרשם של בעלי רישיונות מדביר שיכלול, בין השאר, פרטים אלה:</p>
+                  </intro>
+                  <point eId="point_13__point_א__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>פרטי המדביר, סוג הרישיון שבידו ותקופת תוקפו;</p>
+                    </content>
+                  </point>
+                  <point eId="point_13__point_א__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>ביטול או התליה של רישיון מדביר;</p>
+                    </content>
+                  </point>
+                  <point eId="point_13__point_א__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>פרסום בדבר עיצום כספי שהוטל על המדביר כאמור <ref href="#point_45">בסעיף 45</ref>.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_13__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>המרשם יהיה פתוח לעיון הציבור במשרד הראשי של המשרד, ויפורסם באתר האינטרנט של המשרד, ואולם לא יפורסם מידע כאמור בסעיף קטן (א) לעניין מדביר צבאי.</p>
+                </content>
+              </point>
+              <point eId="point_13__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>על פרסום הפרטים האמורים בפסקאות (2) ו־(3) שבסעיף קטן (א), יחולו הוראות <ref href="#point_45">סעיף 45</ref>, בשינויים המחויבים.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+        </list>
+      </chapter>
+      <chapter eId="chp_ג">
+        <num>פרק ג׳:</num>
+        <title>
+          <content>
+            <p>חובות מדביר, מפעיל ומזמין הדברה</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_14">
+            <heading>
+              <authorialNote placement="side">
+                <p>חובות מדביר</p>
+              </authorialNote>
+            </heading>
+            <num>14.</num>
+            <list>
+              <point eId="point_14__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>מדביר לא יבצע הדברה אלא אם כן בחן ומצא כי קיים חשש למפגע או למטרד המצדיק את ביצוע ההדברה.</p>
+                </content>
+              </point>
+              <point eId="point_14__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>בטרם ביצוע הדברה יבחן מדביר אם ניתן, בנסיבות העניין, לבצע פעולות מניעה או לעשות שימוש באמצעי טיפול, אשר לא נקבעו לפי <ref href="#point_3">סעיף 3(ב)(3)</ref>, לשם מניעת המפגע או המטרד או סילוקו; מצא מדביר כי אפשר לנקוט את הפעולות או את האמצעים כאמור, יביא את העניין לידיעת מזמין ההדברה ולא יבצע את ההדברה, אלא אם כן מצא כי לא ניתן בנסיבות העניין לנקוט את אותן פעולות או את אותם אמצעים.</p>
+                </content>
+              </point>
+              <point eId="point_14__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>מדביר לא יבצע הדברה של מזיק אלא אם כן התקיימו הנסיבות המנויות <ref href="#appendix_1">בתוספת הראשונה</ref> לעניין אותו מזיק, אם נקבעו, או אם ניתן אישור להדברת אותו מזיק לפי <ref href="#point_22">סעיף 22</ref>.</p>
+                </content>
+              </point>
+              <point eId="point_14__point_ד">
+                <num>(ד)</num>
+                <list>
+                  <intro>
+                    <p>בביצוע הדברה יפעל מדביר בהתאם להוראות כל דין החל עליו לעניין ביצוע ההדברה ובהתאם להוראות אלה:</p>
+                  </intro>
+                  <point eId="point_14__point_ד__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>יישא עמו את רישיונו בעת ביצוע ההדברה, ויציגו למזמין ההדברה, לפי דרישתו;</p>
+                    </content>
+                  </point>
+                  <point eId="point_14__point_ד__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>ימסור למזמין ההדברה לפני ביצועה מידע לעניין טיבה של ההדברה, ובכלל זה שם תכשיר ההדברה שנעשה בו שימוש, הסיכונים הכרוכים בהדברה, יעילותה והפעולות הנדרשות טרם ביצועה, במהלכה ובסיומה, בין השאר לפי ההוראות הקבועות בתווית התכשיר;</p>
+                    </content>
+                  </point>
+                  <point eId="point_14__point_ד__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>לא יבצע הדברה אלא בתכשיר הדברה רשום, ובהתאם למטרות השימוש ולהוראות הקבועות בתווית התכשיר;</p>
+                    </content>
+                  </point>
+                  <point eId="point_14__point_ד__point_4">
+                    <num>(4)</num>
+                    <content>
+                      <p>יעשה שימוש באמצעים המתאימים ביותר להצלחת ההדברה, אשר פגיעתם באדם, בבעלי חיים אחרים ובסביבה קטנה ככל האפשר ואשר אין בהם כדי לגרום סבל מיותר למזיקים;</p>
+                    </content>
+                  </point>
+                  <point eId="point_14__point_ד__point_5">
+                    <num>(5)</num>
+                    <content>
+                      <p>ינקוט את כל האמצעים הדרושים למניעת פגיעה באדם ובסביבה, ובכלל זה בסביבה טבעית, במגוון הביולוגי, בבעלי חיים אחרים ובצומח, לרבות בערך טבע מוגן ובחיית בר מוגנת, טרם ביצוע ההדברה, במהלכה ובסיומה;</p>
+                    </content>
+                  </point>
+                  <point eId="point_14__point_ד__point_6">
+                    <num>(6)</num>
+                    <content>
+                      <p>לא יבצע הדברה בתחום גן לאומי או שמורת טבע בלא היתר לכך מאת מנהל הרשות לשמירת הטבע והגנים הלאומיים, לפי <ref href="/akn/il/act/PrimaryLegislation/1998-04-05/164212">חוק גנים לאומיים</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_14__point_ד__point_7">
+                    <num>(7)</num>
+                    <content>
+                      <p>לאחר ביצוע ההדברה יבדוק נוכחות מזיקים ואת הצלחת פעולת ההדברה, בין השאר באמצעות ניטור אם נדרש, ויבצע ככל הנדרש פעולות נוספות להשלמת ההדברה;</p>
+                    </content>
+                  </point>
+                  <point eId="point_14__point_ד__point_8">
+                    <num>(8)</num>
+                    <content>
+                      <p>יתעד את הפעולות שביצע טרם ביצוע ההדברה, במהלכה ובסיומה, ובכלל זה את פעולות הניטור לפי פסקה (7), ימסור העתק מהתיעוד למזמין ההדברה וישמור את התיעוד.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_14__point_ה">
+                <num>(ה)</num>
+                <content>
+                  <p>הדברה באיוד תבוצע בידי שני מדבירים; על אף האמור <ref href="#point_3">בסעיף 3</ref>, די בכך שאחד מהם הוא מדביר שיש בידו רישיון מדביר באיוד.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_15">
+            <heading>
+              <authorialNote placement="side">
+                <p>חובות מפעיל</p>
+              </authorialNote>
+            </heading>
+            <num>15.</num>
+            <content>
+              <p>מפעיל לא יפעיל אדם בביצוע הדברה, אלא אם כן יש בידי אותו אדם רישיון מדביר שניתן לו לפי חוק זה מסוג המתאים לביצוע אותה הדברה.</p>
+            </content>
+          </point>
+          <point eId="point_16">
+            <heading>
+              <authorialNote placement="side">
+                <p>חובות, הגבלות ותנאים נוספים החלים על מדביר או על מפעיל</p>
+              </authorialNote>
+            </heading>
+            <num>16.</num>
+            <list>
+              <point eId="point_16__point_א">
+                <num>(א)</num>
+                <list>
+                  <intro>
+                    <p>השר, לאחר התייעצות עם הוועדה המייעצת ובאישור ועדת הפנים והגנת הסביבה של הכנסת, רשאי לקבוע חובות, הגבלות ותנאים נוספים שיחולו על מדביר או על מפעיל, ורשאי הוא לקבוע הוראות שונות לסוגים שונים של מדבירים או מפעילים, והכול כדי להבטיח את מקצועיות המדביר ואת ביצוע פעולות ההדברה בהתאם למטרות חוק זה ולהוראות לפיו, וכדי למנוע פגיעה בסביבה או בבריאות הציבור, ובכלל זה בעניינים אלה:</p>
+                  </intro>
+                  <point eId="point_16__point_א__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>החובה להחזיק ולהשתמש, במסגרת פעילותו כמדביר או כמפעיל, במיתקנים ובציוד מתאימים; תקנות לפי פסקה זו יכול שיכללו הוראות לעניין אחסון והובלה של תכשירי הדברה ולעניין טיפול בפסולת;</p>
+                    </content>
+                  </point>
+                  <point eId="point_16__point_א__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>החובה למסור למזמין ההדברה מידע נוסף על המידע האמור <ref href="#point_14">בסעיף 14(ד)(2)</ref> וכן החובה ליידע את הציבור העלול להיות מושפע מביצוע ההדברה, על ביצועה, במועד ובאופן שיקבע ולפי הפרטים שיקבע;</p>
+                    </content>
+                  </point>
+                  <point eId="point_16__point_א__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>אמצעים ופעולות שעל המדביר לנקוט טרם ביצוע ההדברה, במהלכה או בסיומה, כאמור <ref href="#point_14">בסעיף 14</ref> או נוסף עליהם, ובכלל זה הוראות לעניין בחירת האמצעים שפגיעתם בסביבה, בבעלי חיים או בבריאות הציבור פחותה, לעניין אמצעים ופעולות שעל המדביר לנקוט כאשר פעולות ההדברה מתבצעות בקרבת אוכלוסיות רגישות ובכלל זה ילדים, קשישים וחולים, לעניין אופן ביצוע פעולות מניעה או שימוש באמצעי טיפול שנקבעו לפי <ref href="#point_3">סעיף 3(ב)(3)</ref>, ולעניין אופן הבדיקה והניטור שעל מדביר לבצע לאחר ביצוע ההדברה;</p>
+                    </content>
+                  </point>
+                  <point eId="point_16__point_א__point_4">
+                    <num>(4)</num>
+                    <content>
+                      <p>אופן תיעוד פעולות המדביר והפרטים שעליו לכלול בתיעוד כאמור, החובה לשמור מסמכים, לדווח לרשם ולמסור לו מידע או מסמכים הדרושים לו לשם ביצוע תפקידיו לפי חוק זה.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_16__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>תקנות לפי סעיף קטן (א)(2) ו־(3) יותקנו לאחר התייעצות עם שר הבריאות.</p>
+                </content>
+              </point>
+              <point eId="point_16__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>הרשם רשאי לקבוע ברישיון מדביר חובות, הגבלות ותנאים נוספים שיחולו על המדביר, כדי להבטיח את האמור בסעיף קטן (א), רישה, ובכלל זה הוראות בעניינים המנויים בפסקאות (1) עד (4) של הסעיף הקטן האמור, אם התקיימו נסיבות המצדיקות זאת.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_17">
+            <heading>
+              <authorialNote placement="side">
+                <p>חובת השתתפות בהשתלמויות</p>
+              </authorialNote>
+            </heading>
+            <num>17.</num>
+            <list>
+              <point eId="point_17__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>מדביר ישתתף בתקופת רישיונו בשתי השתלמויות שהרשם ערך או הכיר בהן, בתחום עיסוקו לפי רישיונו, ויעמוד בדרישות אותן השתלמויות; הרשם רשאי להורות למדביר כי עליו להשתתף בהשתלמויות מסוימות; השתתפות בהשתלמויות ועמידה בדרישותיהן כאמור תהיה תנאי ברישיון מדביר וכן תנאי לחידושו.</p>
+                </content>
+              </point>
+              <point eId="point_17__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>השר, לאחר התייעצות עם הוועדה המייעצת ובאישור ועדת הפנים והגנת הסביבה של הכנסת, רשאי להוסיף השתלמויות נדרשות ולקבוע את היקפן וכן לקבוע דרישות נוספות לעניין זה ולקבוע הוראות לעניין הכרה בהשתלמות.</p>
+                </content>
+              </point>
+              <point eId="point_17__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>בלי לגרוע מהוראות סעיף קטן (א), הרשם רשאי להודיע למדביר כי השתתפות בהשתלמות מסוימת, נוסף על ההשתלמויות לפי סעיף זה, תהיה תנאי ברישיונו או תנאי לחידושו, אם מצא כי מתקיימות נסיבות המצדיקות זאת וכי השתתפותו של המדביר באותה השתלמות נדרשת לשם הכשרתו ולשם מימוש מטרות חוק זה; הודעה לפי סעיף קטן זה תינתן למדביר זמן סביר לפני מועד ההשתלמות.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_18">
+            <heading>
+              <authorialNote placement="side">
+                <p>חובות דיווח של מדביר ומפעיל</p>
+              </authorialNote>
+            </heading>
+            <num>18.</num>
+            <list>
+              <point eId="point_18__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>נודע למדביר על עניין הקשור בהדברה שביצע, העלול לגרום לפגיעה בציבור או בסביבה, ידווח למפעיל, לרשם ולמזמין ההדברה על אותו עניין לאלתר, ויבצע את הוראות הרשם ככל שניתנו.</p>
+                </content>
+              </point>
+              <point eId="point_18__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>נודע למפעיל על עניין הקשור בהדברה שבוצעה על ידי מדביר הפועל מטעמו, העלול לגרום לפגיעה בציבור או בסביבה, ידווח לרשם ולמזמין ההדברה על אותו עניין לאלתר, ויבצע את הוראות הרשם ככל שניתנו.</p>
+                </content>
+              </point>
+              <point eId="point_18__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>הרשם רשאי לדרוש ממדביר וממפעיל לדווח לו על פרטים שהורה ולמסור לו כל מידע או מסמכים הדרושים לו להשגת המטרות לפי חוק זה, לרבות כתנאי לחידוש רישיון מדביר, והמדביר או המפעיל לפי העניין ימסור לו את המידע או המסמכים כאמור.</p>
+                </content>
+              </point>
+              <point eId="point_18__point_ד">
+                <num>(ד)</num>
+                <content>
+                  <p>אין בהוראות סעיף זה כדי לגרוע מחובת הדיווח שנקבעה לפי הוראות <ref href="#point_16">סעיף 16(א)(4)</ref>.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_19">
+            <heading>
+              <authorialNote placement="side">
+                <p>סמכות הרשם לתת הוראות</p>
+              </authorialNote>
+            </heading>
+            <num>19.</num>
+            <list>
+              <point eId="point_19__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>הרשם רשאי לתת למדביר או למפעיל הוראות לביצוע פעולות מסוימות בעניין מזיקים מסוימים, ובכלל זה שימוש באמצעי הדברה או הימנעות משימוש בהם, פעולות שיש לבצע טרם ביצוע הדברה, במהלכה ובסיומה.</p>
+                </content>
+              </point>
+              <point eId="point_19__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>הוראות כאמור בסעיף קטן (א) יכול שיינתנו, לאחר התייעצות עם הוועדה המייעצת ובאישור המנהל הכללי של המשרד, גם לכלל המדבירים או המפעילים או לסוג מסוים של מדבירים או של מפעילים; הוראות שניתנו כאמור יועמדו לעיון הציבור במשרדי הרשם, בלשכות המחוזיות של המשרד ובאתר האינטרנט של המשרד, וכן יישלחו בדואר האלקטרוני למדביר, למפעיל או למי מהציבור שנרשם באתר האינטרנט של המשרד לקבלת עדכונים על הנחיות הרשם בדואר אלקטרוני, ואולם אי־משלוח ההוראות בדואר האלקטרוני כאמור לא יפגע בתוקפן; הודעה על מתן הוראות כאמור, על מועד כניסתן לתוקף ועל כל שינוי בהן תפורסם ברשומות, והשר רשאי לקבוע דרכים נוספות לפרסומן.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_20">
+            <heading>
+              <authorialNote placement="side">
+                <p>איסור הטעיה וחובות לעניין פרסומת</p>
+              </authorialNote>
+            </heading>
+            <num>20.</num>
+            <list>
+              <point eId="point_20__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>לא יעשה מדביר או מפעיל, במישרין או בעקיפין, פרסומת לעיסוקו שיש בה כדי להטעות.</p>
+                </content>
+              </point>
+              <point eId="point_20__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>מדביר יכלול בכל מודעת פרסומת לעיסוקו את פרטי רישיונו; מפעיל יכלול בכל מודעת פרסומת לעיסוקו את פרטי הרישיונות של המדבירים שהוא מפעיל; לעניין זה, ”פרטי רישיון“ – שם המדביר, סוג הרישיון ומספר הרישיון.</p>
+                </content>
+              </point>
+              <point eId="point_20__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>השר רשאי לקבוע הוראות נוספות לעניין פרטים שחייב מדביר או מפעיל לכלול בפרסומת כאמור בסעיפים קטנים (א) או (ב) במטרה למנוע הטעיה, וכן סוגים, צורות או דרכים של פרסומת שיש בהן כדי להטעות.</p>
+                </content>
+              </point>
+              <point eId="point_20__point_ד">
+                <num>(ד)</num>
+                <content>
+                  <p>לא ימסור מדביר או מפעיל למזמין הדברה מידע שיש בו כדי להטעות לעניין רישיונו, הכשרתו או כשירותו של המדביר שיבצע את ההדברה או לעניין טיבה של ההדברה, ובכלל זה על הסיכונים הכרוכים בה, יעילותה והפעולות הנדרשות טרם ביצועה, במהלכה ובסיומה.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_21">
+            <heading>
+              <authorialNote placement="side">
+                <p>חובות של מזמין הדברה</p>
+              </authorialNote>
+            </heading>
+            <num>21.</num>
+            <content>
+              <p>מי שהזמין הדברה במקום שהוא בעליו, מחזיק בו או שהוא אחראי להזמנת פעולות הדברה באותו מקום מכוח תפקידו או לפי דין, ידרוש ממבצע ההדברה להציג לפניו, טרם ביצוע ההדברה, את רישיונו, ולא יקבל שירות ממי שלא הציג לפניו רישיון כאמור; הוראות סעיף זה לא יחולו על הדברה במקום המנוי <ref href="#point_4">בסעיף 4(א)(1)</ref>.</p>
+            </content>
+          </point>
+          <point eId="point_22">
+            <heading>
+              <authorialNote placement="side">
+                <p>אישור חריג להדברה</p>
+              </authorialNote>
+            </heading>
+            <num>22.</num>
+            <list>
+              <point eId="point_22__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>מזמין הדברה או מדביר המבקש לבצע הדברה של מזיק, שלא בנסיבות הקבועות <ref href="#appendix_1">בתוספת הראשונה</ref>, אם נקבעו, רשאי לבקש מהרשם לבצע הדברה כאמור, והרשם רשאי לתת אישור לכך אם התקיימו נסיבות חריגות המצדיקות זאת, ובכלל זה חשש ממשי להעברת מחלות, ובהתאם לאמות מידה שקבע לעניין זה לפי סעיף קטן (ב) (בחוק זה – אישור חריג); לעניין סביבה טבעית שהיא שמורת טבע או גן לאומי, רשאי הרשם לתת אישור חריג רק בהסכמת מנהל הרשות לשמירת הטבע והגנים הלאומיים לפי <ref href="/akn/il/act/PrimaryLegislation/1998-04-05/164212">חוק גנים לאומיים</ref> למתן האישור.</p>
+                </content>
+              </point>
+              <point eId="point_22__point_ב">
+                <num>(ב)</num>
+                <list>
+                  <intro>
+                    <p>הרשם יקבע את אמות המידה למתן אישור חריג לפי הוראות סעיף זה ויעמידן לעיון הציבור במשרדי הרשם ובאתר האינטרנט של המשרד; אמות המידה ייקבעו לאחר התייעצות עם אלה:</p>
+                  </intro>
+                  <point eId="point_22__point_ב__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>נציג משרד הבריאות, כפי שהורה שר הבריאות;</p>
+                    </content>
+                  </point>
+                  <point eId="point_22__point_ב__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>חברי סגל אקדמי במוסדות מוכרים להשכלה גבוהה כמשמעותם <ref href="/akn/il/act/PrimaryLegislation/1958-08-14/147288">בחוק המועצה להשכלה גבוהה, התשי"ח–1958</ref>, בעלי מומחיות בתחום מדעי החיים או מדעי הסביבה;</p>
+                    </content>
+                  </point>
+                  <point eId="point_22__point_ב__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>נציגי הגופים הציבוריים המנויים <ref href="/akn/il/act/PrimaryLegislation/2002-11-25/174376#appendix">בתוספת לחוק ייצוג גופים ציבוריים שעניינם בשמירת איכות הסביבה (תיקוני חקיקה), התשס"ג–2002</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_22__point_ב__point_4">
+                    <num>(4)</num>
+                    <content>
+                      <p>מדבירים.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_22__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>הרשם יקבע בכל אישור חריג את תקופת תוקפו של האישור ואת גבולות המקום שבו יחול, ורשאי הוא לקבוע באישור תנאים נוספים לעניין אופן ביצוע ההדברה באותו מקום; הודעה על מתן אישור חריג ועל פרטי האישור תפורסם באתר האינטרנט של המשרד.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+        </list>
+      </chapter>
+      <chapter eId="chp_ד">
+        <num>פרק ד׳:</num>
+        <title>
+          <content>
+            <p>הרשם, הוועדה המייעצת לענייני מדבירים ומפקחים</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_23">
+            <heading>
+              <authorialNote placement="side">
+                <p>הרשם לענייני מדבירים</p>
+              </authorialNote>
+            </heading>
+            <num>23.</num>
+            <content>
+              <p>השר ימנה, מבין עובדי משרדו, רשם לענייני מדבירים, שימלא את התפקידים שניתנו לו לפי חוק זה; השר רשאי למנות ממלאי מקום לרשם מבין עובדי המשרד למילוי תפקידו של הרשם בהעדרו.</p>
+            </content>
+          </point>
+          <point eId="point_24">
+            <heading>
+              <authorialNote placement="side">
+                <p>הוועדה המייעצת לענייני מדבירים</p>
+              </authorialNote>
+            </heading>
+            <num>24.</num>
+            <list>
+              <point eId="point_24__point_א">
+                <num>(א)</num>
+                <list>
+                  <intro>
+                    <p>השר ימנה ועדה מייעצת לענייני מדבירים, למילוי התפקידים שנקבעו לה לפי חוק זה, וזה הרכבה:</p>
+                  </intro>
+                  <point eId="point_24__point_א__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>שני עובדי המשרד, ואחד מהם יהיה היושב ראש;</p>
+                    </content>
+                  </point>
+                  <point eId="point_24__point_א__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>עובד משרד הבריאות, לפי הצעת שר הבריאות;</p>
+                    </content>
+                  </point>
+                  <point eId="point_24__point_א__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>עובד משרד הכלכלה והתעשייה, לפי הצעת שר הכלכלה והתעשייה;</p>
+                    </content>
+                  </point>
+                  <point eId="point_24__point_א__point_4">
+                    <num>(4)</num>
+                    <content>
+                      <p>נציג ציבור בעל מומחיות בתחום ההדברה, שאינו מדביר (<ref href="#chp_ד">בפרק זה</ref> – נציג ציבור).</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_24__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>השר ימנה לוועדה שני משקיפים לכל היותר, בעלי מומחיות בתחום ההדברה; לא ימונה יותר ממדביר אחד כמשקיף, ובלבד שיש בידי מדביר כאמור רישיון מדביר במבנים ובשטח פתוח או רישיון מדביר באיוד.</p>
+                </content>
+              </point>
+              <point eId="point_24__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>הודעה על הרכב הוועדה המייעצת ועל זהות המשקיפים תפורסם באתר האינטרנט של המשרד.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_25">
+            <heading>
+              <authorialNote placement="side">
+                <p>סייגים למינוי נציג ציבור ומשקיף ותקופת כהונתם</p>
+              </authorialNote>
+            </heading>
+            <num>25.</num>
+            <list>
+              <point eId="point_25__point_א">
+                <num>(א)</num>
+                <list>
+                  <intro>
+                    <p>לא ימונה ולא יכהן כנציג ציבור או כמשקיף בוועדה המייעצת –</p>
+                  </intro>
+                  <point eId="point_25__point_א__point_1">
+                    <num>(1)</num>
+                    <list>
+                      <intro>
+                        <p>מי שעלול להימצא, במישרין או בעקיפין, באופן תדיר, במצב של ניגוד עניינים בין תפקידו בוועדה המייעצת, לבין עניין אישי שלו או תפקיד אחר שלו, למעט התפקיד שבשלו התמנה; בפסקה זו –</p>
+                      </intro>
+                      <point eId="point_25__point_א__point_1__point_עניין_אישי">
+                        <content>
+                          <p>
+                            <def />”עניין אישי“ – לרבות עניין אישי של קרובו או עניין של גוף שהוא או קרובו מנהלים או עובדים אחראים בו, או עניין של גוף שיש להם חלק בהון המניות שלו, בזכות לקבל רווחים, בזכות למנות מנהל או בזכות הצבעה;</p>
+                        </content>
+                      </point>
+                      <point eId="point_25__point_א__point_1__point_קרוב">
+                        <content>
+                          <p>
+                            <def />”קרוב“ – בן זוג, הורה, ילד, אח או אדם אחר הסמוך על שולחנו, וכן צאצא או בן זוג של כל אחד מהם, וכן שותף, מעביד או עובד שלו;</p>
+                        </content>
+                      </point>
+                    </list>
+                  </point>
+                  <point eId="point_25__point_א__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>מי שהורשע בעבירה פלילית שמפאת מהותה, חומרתה או נסיבותיה אין הוא ראוי לדעת השר לכהן כנציג ציבור או כמשקיף בוועדה המייעצת.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_25__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>נציג ציבור או משקיף ימונה לתקופה של שלוש שנים, וניתן לשוב ולמנותו לתקופות כהונה נוספות, ובלבד שלא יכהן יותר מתשע שנים ברציפות.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_26">
+            <heading>
+              <authorialNote placement="side">
+                <p>ניגוד עניינים</p>
+              </authorialNote>
+            </heading>
+            <num>26.</num>
+            <list>
+              <point eId="point_26__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>חבר הוועדה המייעצת ומשקיף לא יטפלו בנושא העלול לגרום להם להימצא, במישרין או בעקיפין, במצב של ניגוד עניינים בין תפקידם בוועדה ובין עניין אישי שלהם או תפקיד אחר שלהם; בסעיף זה, ”עניין אישי“ ו”קרוב“ – כהגדרתם <ref href="#point_25">בסעיף 25</ref>.</p>
+                </content>
+              </point>
+              <point eId="point_26__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>נודע לחבר הוועדה המייעצת או למשקיף שהוא עלול להימצא במצב של ניגוד עניינים כאמור בסעיף קטן (א), יודיע על כך ליושב ראש הוועדה, ימסור לו את המידע הנוגע לעניין ולא יטפל בנושא האמור; לעניין זה, ”טיפול“ – לרבות קבלת החלטה, העלאת נושא לדיון, נוכחות בדיון, השתתפות בדיון או בהצבעה, או עיסוק בנושא מחוץ לישיבות הוועדה.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_27">
+            <heading>
+              <authorialNote placement="side">
+                <p>סדרי עבודה</p>
+              </authorialNote>
+            </heading>
+            <num>27.</num>
+            <list>
+              <point eId="point_27__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>רוב חברי הוועדה המייעצת הם מניין חוקי בישיבותיה.</p>
+                </content>
+              </point>
+              <point eId="point_27__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>החלטות הוועדה המייעצת יתקבלו ברוב קולות המשתתפים בהצבעה; למשקיף לא תהיה זכות הצבעה.</p>
+                </content>
+              </point>
+              <point eId="point_27__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>הוועדה המייעצת תקבע את סדרי עבודתה, ככל שלא נקבעו לפי חוק זה.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_28">
+            <heading>
+              <authorialNote placement="side">
+                <p>תוקף החלטות</p>
+              </authorialNote>
+            </heading>
+            <num>28.</num>
+            <content>
+              <p>החלטות הוועדה המייעצת לא ייפגעו מחמת שהתפנה מקומו של חבר בה או מחמת פגם במינויו או בהמשך כהונתו.</p>
+            </content>
+          </point>
+          <point eId="point_29">
+            <heading>
+              <authorialNote placement="side">
+                <p>הסמכת מפקחים שלא מקרב עובדי המשרד</p>
+              </authorialNote>
+            </heading>
+            <num>29.</num>
+            <list>
+              <point eId="point_29__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>בלי לגרוע מסמכות השר למנות מפקחים או ממוני הגנת הסביבה מבין עובדי משרדו לפי <ref href="/akn/il/act/PrimaryLegislation/2011-04-05/336239">חוק הגנת הסביבה</ref>, רשאי השר להסמיך מפקח, שיהיו נתונות לו הסמכויות לפי <ref href="/akn/il/act/PrimaryLegislation/2011-04-05/336239#point_5">סעיף 5 לחוק האמור</ref>, כולן או חלקן, לשם פיקוח על ביצוע הוראות לפי חוק זה, מקרב עובדי המדינה שאינם עובדי המשרד בהסכמת השר הממונה על אותו עובד, ומקרב עובדי הרשות לשמירת הטבע והגנים הלאומיים.</p>
+                </content>
+              </point>
+              <point eId="point_29__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>לא יוסמך מפקח לפי הוראות סעיף זה אלא אם כן מתקיימים בו התנאים המנויים <ref href="/akn/il/act/PrimaryLegislation/2011-04-05/336239#point_4ב">בסעיף 4ב לחוק הגנת הסביבה</ref>.</p>
+                </content>
+              </point>
+              <point eId="point_29__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>מפקח שהוסמך לפי הוראות סעיף זה יפעיל את סמכויותיו כלפי מערכת הביטחון כהגדרתה <ref href="/akn/il/act/PrimaryLegislation/2011-04-05/336239">בחוק הגנת הסביבה</ref> בכפוף להוראות לפי <ref href="/akn/il/act/PrimaryLegislation/2011-04-05/336239#chp_ד">פרק ד׳ לחוק האמור</ref> ולהוראות <ref href="#point_53">סעיף 53(ב)</ref>.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+        </list>
+      </chapter>
+      <chapter eId="chp_ה">
+        <num>פרק ה׳:</num>
+        <title>
+          <content>
+            <p>עונשין</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_30">
+            <heading>
+              <authorialNote placement="side">
+                <p>עונשין</p>
+              </authorialNote>
+            </heading>
+            <num>30.</num>
+            <list>
+              <point eId="point_30__point_א">
+                <num>(א)</num>
+                <list>
+                  <intro>
+                    <p>העושה אחד מאלה, דינו – מאסר 18 חודשים או קנס כאמור <ref href="/akn/il/act/PrimaryLegislation/1977-08-04/2002251#point_61">בסעיף 61(א)(4) לחוק העונשין</ref>, ואם הוא תאגיד – דינו כפל הקנס האמור:</p>
+                  </intro>
+                  <point eId="point_30__point_א__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>עוסק בהדברה בלא רישיון מדביר מהסוג המתאים לביצוע ההדברה או שלא בהתאם לתנאי הרישיון, בניגוד להוראות לפי <ref href="#point_3">סעיף 3</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_30__point_א__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>מדביר המסתייע באחר בביצוע ההדברה, בלא שמתקיימים התנאים <ref href="#point_6">שבסעיף 6(ב)</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_30__point_א__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>מדביר המעביר לאחר את רישיונו או מתיר לאחר לעשות שימוש ברישיונו, בניגוד להוראות <ref href="#point_11">סעיף 11</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_30__point_א__point_4">
+                    <num>(4)</num>
+                    <content>
+                      <p>מפעיל המפעיל אדם בביצוע הדברה בלא שמתקיימים התנאים הקבועים <ref href="#point_15">בסעיף 15</ref>.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_30__point_ב">
+                <num>(ב)</num>
+                <list>
+                  <intro>
+                    <p>העושה אחד מאלה, דינו – מאסר שישה חודשים או קנס כאמור <ref href="/akn/il/act/PrimaryLegislation/1977-08-04/2002251#point_61">בסעיף 61(א)(3) לחוק העונשין</ref>, ואם הוא תאגיד – דינו כפל הקנס האמור:</p>
+                  </intro>
+                  <point eId="point_30__point_ב__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>משתמש בתואר או בכינוי שמשתמע מהם שהוא מדביר או שיש בידו רישיון מדביר מסוג מסוים, או מציג את עצמו או את מי שפועל מטעמו כמדביר או כמי שיש בידו רישיון מדביר מסוג מסוים, כשאין בידו רישיון כאמור, בניגוד להוראות <ref href="#point_5">סעיף 5</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_30__point_ב__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>מדביר המבצע הדברה בלא שבחן ומצא כי קיים חשש לקיומו של מפגע או מטרד, בניגוד להוראות <ref href="#point_14">סעיף 14(א)</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_30__point_ב__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>מדביר המבצע הדברה בלא שבחן אם ניתן, בנסיבות העניין, לבצע פעולות מניעה או לעשות שימוש באמצעי טיפול, בלא שהביא לידיעת מזמין ההדברה כי ניתן בנסיבות העניין לבצע פעולות או לעשות שימוש באמצעים כאמור, או אף אם מצא כי ניתן בנסיבות העניין לבצע פעולות או לעשות שימוש באמצעים כאמור, והכול בניגוד להוראות <ref href="#point_14">סעיף 14(ב)</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_30__point_ב__point_4">
+                    <num>(4)</num>
+                    <content>
+                      <p>מדביר המבצע הדברה של מזיק כשלא התקיימו הנסיבות המנויות <ref href="#appendix_1">בתוספת הראשונה</ref> או בלא אישור לפי <ref href="#point_22">סעיף 22</ref>, בניגוד להוראות <ref href="#point_14">סעיף 14(ג)</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_30__point_ב__point_5">
+                    <num>(5)</num>
+                    <content>
+                      <p>מדביר שאינו מוסר למזמין ההדברה לפני ביצועה מידע לעניין טיבה של ההדברה, בניגוד להוראות <ref href="#point_14">סעיף 14(ד)(2)</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_30__point_ב__point_6">
+                    <num>(6)</num>
+                    <content>
+                      <p>מדביר המבצע הדברה שלא בתכשיר הדברה רשום או שלא בהתאם למטרות השימוש ולהוראות הקבועות בתווית התכשיר, בניגוד להוראות <ref href="#point_14">סעיף 14(ד)(3)</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_30__point_ב__point_7">
+                    <num>(7)</num>
+                    <content>
+                      <p>מדביר שאינו עושה שימוש באמצעי מתאים להצלחת ההדברה בניגוד להוראות <ref href="#point_14">סעיף 14(ד)(4)</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_30__point_ב__point_8">
+                    <num>(8)</num>
+                    <content>
+                      <p>מדביר שאינו נוקט את האמצעים הדרושים למניעת פגיעה טרם ביצוע ההדברה, במהלכה או בסיומה, בניגוד להוראות <ref href="#point_14">סעיף 14(ד)(5)</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_30__point_ב__point_9">
+                    <num>(9)</num>
+                    <content>
+                      <p>מדביר שאינו בודק נוכחות מזיקים או את הצלחת פעולת ההדברה לאחר ביצוע ההדברה, בניגוד להוראות <ref href="#point_14">סעיף 14(ד)(7)</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_30__point_ב__point_10">
+                    <num>(10)</num>
+                    <content>
+                      <p>מדביר המבצע הדברה באיוד, בניגוד להוראות <ref href="#point_14">סעיף 14(ה)</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_30__point_ב__point_11">
+                    <num>(11)</num>
+                    <content>
+                      <p>מדביר או מפעיל שאינו ממלא חובות, הגבלות ותנאים נוספים שנקבעו לפי <ref href="#point_16">סעיף 16(א)(1) עד (3)</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_30__point_ב__point_12">
+                    <num>(12)</num>
+                    <content>
+                      <p>מדביר או מפעיל שאינו מדווח למי שהוא חייב לדווח לו על עניין הקשור בהדברה שבוצעה על ידו או מטעמו, העלול לגרום לפגיעה בציבור או בסביבה, או שאינו מבצע את הוראות הרשם לאחר הדיווח, בניגוד להוראות <ref href="#point_18">סעיף 18(א) או (ב)</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_30__point_ב__point_13">
+                    <num>(13)</num>
+                    <content>
+                      <p>מדביר או מפעיל שאינו פועל לפי הוראות שנתן לו הרשם, בניגוד להוראות <ref href="#point_19">סעיף 19(א)</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_30__point_ב__point_14">
+                    <num>(14)</num>
+                    <content>
+                      <p>מדביר או מפעיל העושה פרסומת לעיסוקו שיש בה כדי להטעות או המוסר למזמין הדברה מידע שיש בו כדי להטעות, בניגוד להוראות לפי <ref href="#point_20">סעיף 20</ref>.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_30__point_ג">
+                <num>(ג)</num>
+                <list>
+                  <intro>
+                    <p>העושה אחד מאלה, דינו – מאסר שישה חודשים או קנס כאמור <ref href="/akn/il/act/PrimaryLegislation/1977-08-04/2002251#point_61">בסעיף 61(א)(2) לחוק העונשין</ref>, ואם הוא תאגיד – דינו כפל הקנס האמור:</p>
+                  </intro>
+                  <point eId="point_30__point_ג__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>מדביר שאינו מודיע לרשם על שינוי בפרט שמסר לרשם בבקשה למתן רישיון או לחידושו, בניגוד להוראות <ref href="#point_12">סעיף 12</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_30__point_ג__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>מדביר שאינו נושא עמו את רישיונו בעת ביצוע הדברה או לא מציגו למזמין ההדברה לפי דרישתו, בניגוד להוראות <ref href="#point_14">סעיף 14(ד)(1)</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_30__point_ג__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>מדביר שאינו מבצע תיעוד או אינו שומר אותו, בניגוד להוראות <ref href="#point_14">סעיף 14(ד)(8)</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_30__point_ג__point_4">
+                    <num>(4)</num>
+                    <content>
+                      <p>מדביר או מפעיל שאינו מקיים את חובותיו לעניין תיעוד, שמירת מסמכים ודיווח לפי <ref href="#point_16">סעיף 16(א)(4)</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_30__point_ג__point_5">
+                    <num>(5)</num>
+                    <content>
+                      <p>מדביר או מפעיל שאינו מקיים את דרישת הרשם לדווח לו על פרטים או למסור לו מידע או מסמכים, בניגוד להוראות <ref href="#point_18">סעיף 18(ג)</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_30__point_ג__point_6">
+                    <num>(6)</num>
+                    <content>
+                      <p>מדביר או מפעיל שלא כולל במודעת פרסומת את הפרטים הנדרשים לפי הוראות <ref href="#point_20">סעיף 20(ב) או (ג)</ref>.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_30__point_ד">
+                <num>(ד)</num>
+                <content>
+                  <p>מזמין הדברה המקבל שירות ממי שלא הציג לפניו רישיון מדביר, בניגוד להוראות <ref href="#point_21">סעיף 21</ref>, דינו – קנס כאמור <ref href="/akn/il/act/PrimaryLegislation/1977-08-04/2002251#point_61">בסעיף 61(א)(2) לחוק העונשין</ref>, ואם הוא תאגיד – דינו כפל הקנס האמור.</p>
+                </content>
+              </point>
+              <point eId="point_30__point_ה">
+                <num>(ה)</num>
+                <content>
+                  <p>על אף האמור בסעיפים קטנים (א) עד (ג), השר רשאי לקבוע בתקנות כי עונשו של מי שהפר הוראה הקבועה בהן יהיה מאסר עד שישה חודשים או קנס כאמור <ref href="/akn/il/act/PrimaryLegislation/1977-08-04/2002251#point_61">בסעיף 61(א)(1) לחוק העונשין</ref>.</p>
+                </content>
+              </point>
+              <point eId="point_30__point_ו">
+                <num>(ו)</num>
+                <content>
+                  <p>העובר עבירה כאמור בסעיף קטן (א) או (ב)(2) עד (14), באופן או בנסיבות מחמירות שכתוצאה מהם נגרמה או עלולה להיגרם פגיעה ממשית בסביבה או בבריאות הציבור, דינו – מאסר שלוש שנים או כפל הקנס שבית משפט היה רשאי להטיל עליו לפי הוראות אותו סעיף קטן.</p>
+                </content>
+              </point>
+              <point eId="point_30__point_ז">
+                <num>(ז)</num>
+                <content>
+                  <p>היתה העבירה עבירה נמשכת, רשאי בית המשפט להטיל קנס נוסף, בשיעור של חמישה אחוזים מסכום הקנס הקבוע לאותה עבירה, לכל יום שבו נמשכת העבירה.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_31">
+            <heading>
+              <authorialNote placement="side">
+                <p>אחריות נושא משרה בתאגיד</p>
+              </authorialNote>
+            </heading>
+            <num>31.</num>
+            <list>
+              <point eId="point_31__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>נושא משרה בתאגיד חייב לפקח ולעשות כל שניתן למניעת עבירה לפי חוק זה בידי התאגיד או בידי עובד מעובדיו; המפר הוראה זו, דינו – מחצית הקנס הקבוע לאותה עבירה.</p>
+                </content>
+              </point>
+              <point eId="point_31__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>נעברה עבירה לפי חוק זה בידי תאגיד או בידי עובד מעובדיו, חזקה היא כי נושא משרה בתאגיד הפר את חובתו לפי סעיף קטן (א), אלא אם כן הוא הוכיח כי עשה כל שניתן כדי למלא את חובתו.</p>
+                </content>
+              </point>
+              <point eId="point_31__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>בסעיף זה, ”נושא משרה“ – מנהל פעיל בתאגיד, שותף, למעט שותף מוגבל, או פקיד האחראי מטעם התאגיד על התחום שבו בוצעה העבירה.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_32">
+            <heading>
+              <authorialNote placement="side">
+                <p>שיעורי קנסות</p>
+              </authorialNote>
+            </heading>
+            <num>32.</num>
+            <content>
+              <p>על אף האמור <ref href="/akn/il/act/PrimaryLegislation/1982-03-01/2002215#point_221">בסעיף 221(ב) לחוק סדר הדין הפלילי [נוסח משולב], התשמ"ב–1982</ref>, שר המשפטים, בהסכמת השר, רשאי לקבוע שיעור קנס העולה על סכום הקנס הקבוע בסעיף האמור, לעבירה שנקבעה לפי חוק זה כעבירת קנס וכן לעבירת קנס חוזרת, נמשכת או נוספת שעבר אותו אדם, בהתחשב בסוג העבירה ובנסיבות ביצועה, ובלבד שסכום הקנס לא יעלה על עשרה אחוזים מסכום הקנס המרבי הקבוע לאותה עבירה.</p>
+            </content>
+          </point>
+          <point eId="point_33">
+            <heading>
+              <authorialNote placement="side">
+                <p>סמכויות בית משפט</p>
+              </authorialNote>
+            </heading>
+            <num>33.</num>
+            <list>
+              <point eId="point_33__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>הוגש כתב אישום בשל עבירה לפי חוק זה, רשאי בית משפט לתת צו עשה, צו אל תעשה, וכל סעד אחר, ככל שיראה לנכון בנסיבות שלפניו, לרבות התליית רישיון מדביר, או הגבלתו, והכול כדי למנוע, להפסיק או לצמצם את העבירה.</p>
+                </content>
+              </point>
+              <point eId="point_33__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>לא יצווה בית משפט כאמור בסעיף קטן (א) אלא לאחר שנתן לנאשם הזדמנות להשמיע את טענותיו; לא התייצב הנאשם לדיון בעניין כאמור על אף שהוזמן כדין, רשאי בית המשפט להחליט בבקשה בהעדרו.</p>
+                </content>
+              </point>
+              <point eId="point_33__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>תוקפו של צו שניתן כאמור בסעיף קטן (א) יהיה לתקופה שיורה בית המשפט ולכל המאוחר עד לגמר ההליכים.</p>
+                </content>
+              </point>
+              <point eId="point_33__point_ד">
+                <num>(ד)</num>
+                <content>
+                  <p>נאשם או תובע רשאים לפנות לבית המשפט בבקשה לעיון חוזר בהחלטה שנתן בעניין בקשה לצו כאמור בסעיף קטן (א), אם התגלו עובדות חדשות או השתנו הנסיבות והדבר עשוי לשנות את החלטתו הקודמת של בית המשפט.</p>
+                </content>
+              </point>
+              <point eId="point_33__point_ה">
+                <num>(ה)</num>
+                <content>
+                  <p>נאשם או תובע רשאים לערער על החלטה בעניין בקשה לצו כאמור בסעיף קטן (א), או על החלטת בית המשפט בבקשה לעיון חוזר; בית המשפט שלערעור ידון בערעור בשופט אחד.</p>
+                </content>
+              </point>
+              <point eId="point_33__point_ו">
+                <num>(ו)</num>
+                <content>
+                  <p>בעיון חוזר ובערעור רשאי בית המשפט לקיים, לשנות או לבטל החלטה שעליה עוררים או לתת החלטה אחרת במקומה.</p>
+                </content>
+              </point>
+              <point eId="point_33__point_ז">
+                <num>(ז)</num>
+                <content>
+                  <p>בית משפט שהרשיע אדם בעבירה לפי חוק זה רשאי בגזר הדין, נוסף על כל עונש שיטיל, להורות על התליית רישיון מדביר, הגבלתו או ביטולו.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+        </list>
+      </chapter>
+      <chapter eId="chp_ו">
+        <num>פרק ו׳:</num>
+        <title>
+          <content>
+            <p>עיצום כספי</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_34">
+            <heading>
+              <authorialNote placement="side">
+                <p>עיצום כספי</p>
+              </authorialNote>
+            </heading>
+            <num>34.</num>
+            <list>
+              <point eId="point_34__point_א">
+                <num>(א)</num>
+                <list>
+                  <intro>
+                    <p>הפר אדם הוראה מההוראות לפי חוק זה כמפורט להלן, רשאי המנהל להטיל עליו עיצום כספי לפי הוראות <ref href="#chp_ו">פרק זה</ref>, בסכום של 10,000 שקלים חדשים <wikicomment font-size="x-small">(מתואם לשנת 2016; בשנת 2020, 10,220 ש"ח)</wikicomment>, ואם הוא תאגיד – בסכום של 50,000 שקלים חדשים <wikicomment font-size="x-small">(מתואם לשנת 2016; בשנת 2020, 51,110 ש"ח)</wikicomment>:</p>
+                  </intro>
+                  <point eId="point_34__point_א__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>עוסק בהדברה בלא רישיון מדביר מהסוג המתאים לביצוע ההדברה או שלא בהתאם לתנאי הרישיון, בניגוד להוראות <ref href="#point_3">סעיף 3</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_34__point_א__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>מדביר המסתייע באחר בביצוע ההדברה, בלא שמתקיימים התנאים <ref href="#point_6">שבסעיף 6(ב)</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_34__point_א__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>מדביר המעביר לאחר את רישיונו או מתיר לאחר לעשות שימוש ברישיונו, בניגוד להוראות <ref href="#point_11">סעיף 11</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_34__point_א__point_4">
+                    <num>(4)</num>
+                    <content>
+                      <p>מדביר המבצע הדברה בלא שבחן ומצא כי קיים חשש לקיומו של מפגע או מטרד, בניגוד להוראות <ref href="#point_14">סעיף 14(א)</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_34__point_א__point_5">
+                    <num>(5)</num>
+                    <content>
+                      <p>מדביר המבצע הדברה בלא שבחן אם ניתן, בנסיבות העניין, לבצע פעולות מניעה או לעשות שימוש באמצעי טיפול, בלא שהביא לידיעת מזמין ההדברה כי ניתן לבצע פעולות או לעשות שימוש באמצעים כאמור, או אף אם מצא כי ניתן בנסיבות העניין לבצע פעולות או לעשות שימוש באמצעים כאמור, והכול בניגוד להוראות <ref href="#point_14">סעיף 14(ב)</ref>, ובלבד שקבועות תקנות בעניין, או הוראות שנתן הרשם בעניין לפי <ref href="#point_19">סעיף 19</ref> והמדביר פעל בניגוד להן;</p>
+                    </content>
+                  </point>
+                  <point eId="point_34__point_א__point_6">
+                    <num>(6)</num>
+                    <content>
+                      <p>מדביר המבצע הדברה של מזיק כשלא התקיימו הנסיבות המנויות <ref href="#appendix_1">בתוספת הראשונה</ref> או בלא אישור לפי <ref href="#point_22">סעיף 22</ref>, בניגוד להוראות <ref href="#point_14">סעיף 14(ג)</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_34__point_א__point_7">
+                    <num>(7)</num>
+                    <content>
+                      <p>מדביר המבצע הדברה שלא בתכשיר הדברה רשום או שלא בהתאם למטרות השימוש ולהוראות הקבועות בתווית התכשיר, בניגוד להוראות <ref href="#point_14">סעיף 14(ד)(3)</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_34__point_א__point_8">
+                    <num>(8)</num>
+                    <content>
+                      <p>מדביר שאינו עושה שימוש באמצעי המתאים ביותר להצלחת ההדברה אשר פגיעתו באדם, בבעלי חיים אחרים ובסביבה קטנה ככל האפשר, בניגוד להוראות <ref href="#point_14">סעיף 14(ד)(4)</ref>, ובלבד שקבועות תקנות בעניין, או הוראות שנתן הרשם בעניין לפי <ref href="#point_19">סעיף 19</ref> והמדביר פעל בניגוד להן;</p>
+                    </content>
+                  </point>
+                  <point eId="point_34__point_א__point_9">
+                    <num>(9)</num>
+                    <content>
+                      <p>מדביר שאינו נוקט את כל האמצעים הדרושים למניעת פגיעה, טרם ביצוע ההדברה, במהלכה או בסיומה, בניגוד להוראות <ref href="#point_14">סעיף 14(ד)(5)</ref>, ובלבד שקבועות תקנות בעניין, או הוראות שנתן הרשם בעניין לפי <ref href="#point_19">סעיף 19</ref> והמדביר פעל בניגוד להן;</p>
+                    </content>
+                  </point>
+                  <point eId="point_34__point_א__point_10">
+                    <num>(10)</num>
+                    <content>
+                      <p>מדביר שאינו בודק נוכחות מזיקים או את הצלחת פעולת ההדברה לאחר ביצוע ההדברה, בניגוד להוראות <ref href="#point_14">סעיף 14(ד)(7)</ref>, ובלבד שקבועות תקנות בעניין, או הוראות שנתן הרשם בעניין לפי <ref href="#point_19">סעיף 19</ref> והמדביר פעל בניגוד להן;</p>
+                    </content>
+                  </point>
+                  <point eId="point_34__point_א__point_11">
+                    <num>(11)</num>
+                    <content>
+                      <p>מדביר המבצע הדברה באיוד בניגוד להוראות <ref href="#point_14">סעיף 14(ה)</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_34__point_א__point_12">
+                    <num>(12)</num>
+                    <content>
+                      <p>מפעיל המפעיל אדם בביצוע הדברה בלא שמתקיימים התנאים הקבועים <ref href="#point_15">בסעיף 15</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_34__point_א__point_13">
+                    <num>(13)</num>
+                    <content>
+                      <p>מדביר או מפעיל שאינו מדווח למי שהוא חייב לדווח לו על עניין הקשור בהדברה שבוצעה על ידו או מטעמו, העלול לגרום לפגיעה בציבור או בסביבה, או שאינו מבצע את הוראות הרשם לאחר הדיווח, בניגוד להוראות <ref href="#point_18">סעיף 18(א) או (ב)</ref>;</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_34__point_14">
+                <num>(14)</num>
+                <content>
+                  <p>מדביר או מפעיל שאינו פועל לפי הוראות שנתן הרשם בניגוד להוראות <ref href="#point_19">סעיף 19(א) או (ב)</ref>.</p>
+                </content>
+              </point>
+              <point eId="point_34__point_ב">
+                <num>(ב)</num>
+                <list>
+                  <intro>
+                    <p>הפר אדם הוראה מההוראות לפי חוק זה כמפורט להלן, רשאי המנהל להטיל עליו עיצום כספי לפי הוראות <ref href="#chp_ו">פרק זה</ref>, בסכום של 5,000 שקלים חדשים <wikicomment font-size="x-small">(מתואם לשנת 2016; בשנת 2020, 5,110 ש"ח)</wikicomment>, ואם הוא תאגיד – בסכום של 25,000 שקלים חדשים <wikicomment font-size="x-small">(מתואם לשנת 2016; בשנת 2020, 25,560 ש"ח)</wikicomment>:</p>
+                  </intro>
+                  <point eId="point_34__point_ב__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>משתמש בתואר או בכינוי שמשתמע מהם שהוא מדביר או שיש בידו רישיון מדביר מסוג מסוים, או מציג את עצמו או מי שפועל מטעמו כמדביר או כמי שיש בידו רישיון מדביר מסוג מסוים, כשאין בידו רישיון כאמור, בניגוד להוראות <ref href="#point_5">סעיף 5</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_34__point_ב__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>מדביר שאינו מוסר למזמין ההדברה לפני ביצועה מידע לעניין טיבה של ההדברה, בניגוד להוראות <ref href="#point_14">סעיף 14(ד)(2)</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_34__point_ב__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>מדביר או מפעיל שאינו ממלא חובות, הגבלות ותנאים נוספים שנקבעו לפי <ref href="#point_16">סעיף 16(א)(1) עד (3)</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_34__point_ב__point_4">
+                    <num>(4)</num>
+                    <content>
+                      <p>מדביר או מפעיל העושה פרסומת לעיסוקו שיש בה כדי להטעות, או המוסר למזמין הדברה מידע שיש בו כדי להטעות, בניגוד להוראות לפי <ref href="#point_20">סעיף 20</ref>.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_34__point_ג">
+                <num>(ג)</num>
+                <list>
+                  <intro>
+                    <p>הפר אדם הוראה מההוראות לפי חוק זה כמפורט להלן, רשאי המנהל להטיל עליו עיצום כספי לפי הוראות <ref href="#chp_ו">פרק זה</ref>, בסכום של 2,000 שקלים חדשים <wikicomment font-size="x-small">(מתואם לשנת 2016; בשנת 2020, 2,040 ש"ח)</wikicomment>, ואם הוא תאגיד – בסכום של 5,000 שקלים חדשים <wikicomment font-size="x-small">(מתואם לשנת 2016; בשנת 2020, 5,110 ש"ח)</wikicomment>:</p>
+                  </intro>
+                  <point eId="point_34__point_ג__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>מדביר שאינו מודיע לרשם על שינוי בפרט שמסר לרשם בבקשה למתן רישיון או לחידושו, בניגוד להוראות <ref href="#point_12">סעיף 12</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_34__point_ג__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>מדביר שאינו נושא עמו את רישיונו בעת ביצוע הדברה או לא מציגו למזמין ההדברה לפי דרישתו, בניגוד להוראות <ref href="#point_14">סעיף 14(ד)(1)</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_34__point_ג__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>מדביר שאינו מבצע תיעוד או אינו שומר אותו, בניגוד להוראות <ref href="#point_14">סעיף 14(ד)(8)</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_34__point_ג__point_4">
+                    <num>(4)</num>
+                    <content>
+                      <p>מדביר או מפעיל שאינו מקיים את חובותיו לעניין תיעוד, שמירת מסמכים ודיווח לפי הוראות <ref href="#point_16">סעיף 16(א)(4)</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_34__point_ג__point_5">
+                    <num>(5)</num>
+                    <content>
+                      <p>מדביר או מפעיל שאינו מקיים את דרישת הרשם לדווח לו על פרטים או למסור לו מידע או מסמכים בניגוד להוראות <ref href="#point_18">סעיף 18(ג)</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_34__point_ג__point_6">
+                    <num>(6)</num>
+                    <content>
+                      <p>מדביר או מפעיל שלא כולל במודעת פרסומת את הפרטים הנדרשים לפי הוראות <ref href="#point_20">סעיף 20(ב) או (ג)</ref>.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+            </list>
+          </point>
+          <point eId="point_35">
+            <heading>
+              <authorialNote placement="side">
+                <p>הודעה על כוונת חיוב</p>
+              </authorialNote>
+            </heading>
+            <num>35.</num>
+            <list>
+              <point eId="point_35__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>היה למנהל יסוד סביר להניח כי אדם הפר הוראה מההוראות לפי חוק זה, כאמור <ref href="#point_34">בסעיף 34</ref> (<ref href="#chp_ו">בפרק זה</ref> – המפר), ובכוונתו להטיל עליו עיצום כספי לפי אותו סעיף, ימסור למפר הודעה על הכוונה להטיל עליו עיצום כספי (<ref href="#chp_ו">בפרק זה</ref> – הודעה על כוונת חיוב).</p>
+                </content>
+              </point>
+              <point eId="point_35__point_ב">
+                <num>(ב)</num>
+                <list>
+                  <intro>
+                    <p>בהודעה על כוונת חיוב יציין המנהל, בין השאר, את אלה:</p>
+                  </intro>
+                  <point eId="point_35__point_ב__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>המעשה או המחדל (<ref href="#chp_ו">בפרק זה</ref> – המעשה) המהווה את ההפרה;</p>
+                    </content>
+                  </point>
+                  <point eId="point_35__point_ב__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>סכום העיצום הכספי והתקופה לתשלומו;</p>
+                    </content>
+                  </point>
+                  <point eId="point_35__point_ב__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>זכותו של המפר לטעון את טענותיו לפני המנהל לפי הוראות <ref href="#point_36">סעיף 36</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_35__point_ב__point_4">
+                    <num>(4)</num>
+                    <content>
+                      <p>הסמכות להוסיף על סכום העיצום הכספי בשל הפרה נמשכת או הפרה חוזרת, לפי הוראות <ref href="#point_38">סעיף 38</ref>, והמועד שממנו יראו הפרה כהפרה נמשכת לעניין הסעיף האמור.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+            </list>
+          </point>
+          <point eId="point_36">
+            <heading>
+              <authorialNote placement="side">
+                <p>זכות טיעון</p>
+              </authorialNote>
+            </heading>
+            <num>36.</num>
+            <content>
+              <p>מפר שנמסרה לו הודעה על כוונת חיוב לפי הוראות <ref href="#point_35">סעיף 35</ref> רשאי לטעון את טענותיו, בכתב, לפני המנהל, לעניין הכוונה להטיל עליו עיצום כספי ולעניין סכומו, בתוך 30 ימים ממועד מסירת ההודעה.</p>
+            </content>
+          </point>
+          <point eId="point_37">
+            <heading>
+              <authorialNote placement="side">
+                <p>החלטת המנהל ודרישת תשלום</p>
+              </authorialNote>
+            </heading>
+            <num>37.</num>
+            <list>
+              <point eId="point_37__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>המנהל יחליט, לאחר ששקל את הטענות שנטענו לפי <ref href="#point_36">סעיף 36</ref>, אם להטיל על המפר עיצום כספי, ורשאי הוא להפחית את סכום העיצום הכספי לפי הוראות <ref href="#point_39">סעיף 39</ref>.</p>
+                </content>
+              </point>
+              <point eId="point_37__point_ב">
+                <num>(ב)</num>
+                <list>
+                  <intro>
+                    <p>החליט המנהל לפי הוראות סעיף קטן (א) –</p>
+                  </intro>
+                  <point eId="point_37__point_ב__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>להטיל על המפר עיצום כספי – ימסור לו דרישה בכתב לשלם את העיצום הכספי (<ref href="#chp_ו">בפרק זה</ref> – דרישת תשלום), שבה יציין, בין השאר, את סכום העיצום הכספי המעודכן ואת התקופה לתשלומו;</p>
+                    </content>
+                  </point>
+                  <point eId="point_37__point_ב__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>שלא להטיל על המפר עיצום כספי – ימסור לו הודעה על כך, בכתב.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_37__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>בדרישת התשלום או בהודעה לפי סעיף קטן (ב) יפרט המנהל את נימוקי החלטתו.</p>
+                </content>
+              </point>
+              <point eId="point_37__point_ד">
+                <num>(ד)</num>
+                <content>
+                  <p>לא טען המפר את טענותיו לפי הוראות <ref href="#point_36">סעיף 36</ref>, בתוך התקופה האמורה באותו סעיף, יראו את ההודעה על כוונת חיוב, בתום אותה תקופה, כדרישת תשלום שנמסרה למפר במועד האמור.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_38">
+            <heading>
+              <authorialNote placement="side">
+                <p>הפרה נמשכת והפרה חוזרת</p>
+              </authorialNote>
+            </heading>
+            <num>38.</num>
+            <list>
+              <point eId="point_38__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>בהפרה נמשכת ייווסף על העיצום הכספי הקבוע לאותה הפרה, החלק החמישים שלו לכל יום שבו נמשכת ההפרה.</p>
+                </content>
+              </point>
+              <point eId="point_38__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>בהפרה חוזרת ייווסף על העיצום הכספי הקבוע לאותה הפרה סכום השווה לעיצום הכספי כאמור; לעניין זה, ”הפרה חוזרת“ – הפרת הוראה מההוראות לפי חוק זה כאמור <ref href="#point_34">בסעיף 34</ref>, בתוך שנתיים מהפרה קודמת של אותה הוראה שבשלה הוטל על המפר עיצום כספי או שבשלה הורשע.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_39">
+            <heading>
+              <authorialNote placement="side">
+                <p>סכומים מופחתים</p>
+              </authorialNote>
+            </heading>
+            <num>39.</num>
+            <list>
+              <point eId="point_39__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>המנהל אינו רשאי להטיל עיצום כספי בסכום הנמוך מהסכומים הקבועים <ref href="#chp_ו">בפרק זה</ref>, אלא לפי הוראות סעיף קטן (ב).</p>
+                </content>
+              </point>
+              <point eId="point_39__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>השר, בהסכמת שר המשפטים ובאישור ועדת הפנים והגנת הסביבה של הכנסת, רשאי לקבוע מקרים, נסיבות ושיקולים שבשלהם יהיה ניתן להטיל עיצום כספי בסכום הנמוך מהסכומים הקבועים <ref href="#point_34">בסעיף 34</ref>, ובשיעורים שיקבע.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_40">
+            <heading>
+              <authorialNote placement="side">
+                <p>סכום מעודכן של העיצום הכספי</p>
+              </authorialNote>
+            </heading>
+            <num>40.</num>
+            <list>
+              <point eId="point_40__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>העיצום הכספי יהיה לפי סכומו המעודכן ביום מסירת דרישת התשלום, ולגבי מפר שלא טען את טענותיו לפני המנהל, כאמור <ref href="#point_37">בסעיף 37(ד)</ref> – ביום מסירת ההודעה על כוונת החיוב; הוגש ערעור על דרישת התשלום לפי <ref href="#point_44">סעיף 44</ref> ועוכב תשלומו של העיצום הכספי בידי המנהל או בית המשפט, יהיה העיצום הכספי לפי הסכום המעודכן ביום ההחלטה בערעור.</p>
+                </content>
+              </point>
+              <point eId="point_40__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>סכומי העיצום הכספי הקבועים <ref href="#point_34">בסעיף 34</ref> יתעדכנו ב־1 בינואר בכל שנה (בסעיף קטן זה – יום העדכון), בהתאם לשיעור עליית המדד הידוע ביום העדכון לעומת המדד שהיה ידוע ב־1 בינואר של השנה הקודמת; הסכום האמור יעוגל לסכום הקרוב שהוא מכפלה של עשרה שקלים חדשים; לעניין זה, ”מדד“ – מדד המחירים לצרכן שמפרסמת הלשכה המרכזית לסטטיסטיקה.</p>
+                </content>
+              </point>
+              <point eId="point_40__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>המנהל יפרסם ברשומות הודעה על סכומי העיצום הכספי המעודכנים לפי סעיף קטן (ב).</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_41">
+            <heading>
+              <authorialNote placement="side">
+                <p>המועד לתשלום</p>
+              </authorialNote>
+            </heading>
+            <num>41.</num>
+            <content>
+              <p>העיצום הכספי המפר ישלם את העיצום הכספי בתוך 30 ימים מיום מסירת דרישת התשלום כאמור <ref href="#point_37">בסעיף 37</ref>.</p>
+            </content>
+          </point>
+          <point eId="point_42">
+            <heading>
+              <authorialNote placement="side">
+                <p>פריסת תשלום העיצום הכספי</p>
+              </authorialNote>
+            </heading>
+            <num>42.</num>
+            <list>
+              <point eId="point_42__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>המנהל רשאי, על פי בקשתו של המפר, להחליט על פריסת התשלום של העיצום הכספי, ובלבד שמספר התשלומים לא יעלה על עשרה תשלומים חודשיים.</p>
+                </content>
+              </point>
+              <point eId="point_42__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>לא שילם המפר תשלום חודשי במועדו, יראו את החלטת המנהל על פריסת התשלום כאמור בסעיף קטן (א) כבטלה, ועל יתרת התשלום של העיצום הכספי יחולו הוראות <ref href="#point_43">סעיף 43</ref>.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_43">
+            <heading>
+              <authorialNote placement="side">
+                <p>הפרשי הצמדה וריבית</p>
+              </authorialNote>
+            </heading>
+            <num>43.</num>
+            <content>
+              <p>לא שילם המפר עיצום כספי במועד, ייווספו על העיצום הכספי, לתקופת הפיגור, הפרשי הצמדה וריבית כהגדרתם <ref href="/akn/il/act/PrimaryLegislation/1979-01-01/148271">בחוק פסיקת ריבית והצמדה, תשכ"א–1961</ref> (<ref href="#chp_ו">בפרק זה</ref> – הפרשי הצמדה וריבית), עד לתשלומו.</p>
+            </content>
+          </point>
+          <point eId="point_44">
+            <heading>
+              <authorialNote placement="side">
+                <p>ערעור</p>
+              </authorialNote>
+            </heading>
+            <num>44.</num>
+            <list>
+              <point eId="point_44__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>על החלטת המנהל לפי <ref href="#chp_ו">פרק זה</ref> ניתן לערער לבית משפט השלום שבו יושב נשיא בית משפט השלום; ערעור כאמור יוגש בתוך 30 ימים מיום שנמסרה למפר החלטת המנהל.</p>
+                </content>
+              </point>
+              <point eId="point_44__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>אין בהגשת ערעור לפי סעיף קטן (א) כדי לעכב את תשלום העיצום הכספי, אלא אם כן הסכים לכך המנהל או שבית המשפט הורה על כך.</p>
+                </content>
+              </point>
+              <point eId="point_44__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>החליט בית המשפט לקבל ערעור שהוגש לפי סעיף קטן (א), לאחר ששולם העיצום הכספי לפי הוראות <ref href="#chp_ו">פרק זה</ref>, והורה על החזרת סכום העיצום הכספי ששולם או על הפחתת העיצום הכספי, יוחזר הסכום ששולם או כל חלק ממנו אשר הופחת, בתוספת הפרשי הצמדה וריבית מיום תשלומו עד יום החזרתו.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_45">
+            <heading>
+              <authorialNote placement="side">
+                <p>פרסום</p>
+              </authorialNote>
+            </heading>
+            <num>45.</num>
+            <list>
+              <point eId="point_45__point_א">
+                <num>(א)</num>
+                <list>
+                  <intro>
+                    <p>הטיל המנהל עיצום כספי לפי <ref href="#chp_ו">פרק זה</ref>, יפרסם המנהל באתר האינטרנט של המשרד, את הפרטים שלהלן, בדרך שתבטיח שקיפות לגבי הפעלת שיקול דעתו בקבלת ההחלטה להטיל עיצום כספי:</p>
+                  </intro>
+                  <point eId="point_45__point_א__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>דבר הטלת העיצום הכספי;</p>
+                    </content>
+                  </point>
+                  <point eId="point_45__point_א__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>מהות ההפרה שבשלה הוטל העיצום הכספי ונסיבות ההפרה;</p>
+                    </content>
+                  </point>
+                  <point eId="point_45__point_א__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>אם הופחת העיצום הכספי – הנסיבות שבשלהן הופחת סכום העיצום הכספי ושיעור ההפחתה;</p>
+                    </content>
+                  </point>
+                  <point eId="point_45__point_א__point_4">
+                    <num>(4)</num>
+                    <content>
+                      <p>פרטים על אודות המפר, הנוגעים לעניין;</p>
+                    </content>
+                  </point>
+                  <point eId="point_45__point_א__point_5">
+                    <num>(5)</num>
+                    <content>
+                      <p>שמו של המפר – אם הוא תאגיד.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_45__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>הוגש ערעור לפי <ref href="#point_44">סעיף 44</ref>, יפרסם המנהל את דבר הגשת הערעור ואת תוצאותיו.</p>
+                </content>
+              </point>
+              <point eId="point_45__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>על אף האמור בסעיף קטן (א)(5), המנהל רשאי לפרסם את שמו של מפר שהוא יחיד, אם סבר שהדבר נחוץ לצורך אזהרת הציבור.</p>
+                </content>
+              </point>
+              <point eId="point_45__point_ד">
+                <num>(ד)</num>
+                <content>
+                  <p>על אף האמור בסעיף זה, לא יפרסם המנהל פרטים שהם בגדר מידע שרשות ציבורית מנועה מלמסור לפי <ref href="/akn/il/act/PrimaryLegislation/1998-05-29/163627#point_9">סעיף 9(א) לחוק חופש המידע, התשנ"ח–1998</ref>, וכן רשאי הוא שלא לפרסם פרטים לפי סעיף זה, שהם בגדר מידע שרשות ציבורית אינה חייבת למסור לפי <ref href="/akn/il/act/PrimaryLegislation/1998-05-29/163627#point_9">סעיף 9(ב) לחוק האמור</ref>.</p>
+                </content>
+              </point>
+              <point eId="point_45__point_ה">
+                <num>(ה)</num>
+                <content>
+                  <p>פרסום כאמור בסעיף קטן (א) בעניין עיצום כספי שהוטל על תאגיד יהיה לתקופה של ארבע שנים, ובעניין עיצום כספי שהוטל על יחיד – לתקופה של שנתיים.</p>
+                </content>
+              </point>
+              <point eId="point_45__point_ו">
+                <num>(ו)</num>
+                <content>
+                  <p>השר רשאי לקבוע דרכים נוספות לפרסום הפרטים האמורים בסעיף קטן (א).</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_46">
+            <heading>
+              <authorialNote placement="side">
+                <p>עיצום כספי בשל הפרה לפי חוק זה ולפי חוק אחר</p>
+              </authorialNote>
+            </heading>
+            <num>46.</num>
+            <content>
+              <p>על מעשה אחד המהווה הפרה של הוראה מההוראות לפי חוק זה המנויות <ref href="#point_34">בסעיף 34</ref> ושל הוראה מההוראות לפי חוק אחר, לא יוטל יותר מעיצום כספי אחד.</p>
+            </content>
+          </point>
+          <point eId="point_47">
+            <heading>
+              <authorialNote placement="side">
+                <p>שמירת אחריות פלילית</p>
+              </authorialNote>
+            </heading>
+            <num>47.</num>
+            <list>
+              <point eId="point_47__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>תשלום עיצום כספי לפי <ref href="#chp_ו">פרק זה</ref> לא יגרע מאחריותו הפלילית של אדם בשל הפרת הוראה מההוראות לפי חוק זה, המנויות <ref href="#point_34">בסעיף 34</ref>, המהווה עבירה.</p>
+                </content>
+              </point>
+              <point eId="point_47__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>שלח המנהל למפר הודעה על כוונת חיוב, בשל הפרה המהווה עבירה כאמור בסעיף קטן (א), לא יוגש נגדו כתב אישום בשל אותה הפרה, אלא אם כן התגלו עובדות חדשות, המצדיקות זאת.</p>
+                </content>
+              </point>
+              <point eId="point_47__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>הוגש נגד אדם כתב אישום בשל הפרה המהווה עבירה כאמור בסעיף קטן (א), לא ינקוט נגדו המנהל הליכים לפי <ref href="#chp_ו">פרק זה</ref> בשל אותה הפרה, ואם הוגש כתב האישום בנסיבות האמורות בסעיף קטן (ב) לאחר שהמפר שילם עיצום כספי, יוחזר לו הסכום ששולם, בתוספת הפרשי הצמדה וריבית מיום תשלום הסכום עד יום החזרתו.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+        </list>
+      </chapter>
+      <chapter eId="chp_ז">
+        <num>פרק ז׳:</num>
+        <title>
+          <content>
+            <p>הוראות שונות</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_48">
+            <heading>
+              <authorialNote placement="side">
+                <p>ביצוע ותקנות</p>
+              </authorialNote>
+            </heading>
+            <num>48.</num>
+            <content>
+              <p>השר ממונה על ביצוע הוראות חוק זה והוא רשאי, באישור ועדת הפנים והגנת הסביבה של הכנסת, להתקין תקנות לביצועו.</p>
+            </content>
+          </point>
+          <point eId="point_49">
+            <heading>
+              <authorialNote placement="side">
+                <p>שינוי התוספות</p>
+              </authorialNote>
+            </heading>
+            <num>49.</num>
+            <content>
+              <p>השר, לאחר התייעצות עם שר הבריאות ושר החקלאות ופיתוח הכפר ובאישור ועדת הפנים והגנת הסביבה של הכנסת, רשאי, בצו, לשנות את התוספות, ובלבד שלא יכלול בתוספות בעלי חיים שהם חיית בר מוגנת או ערך טבע מוגן.</p>
+            </content>
+          </point>
+          <point eId="point_50">
+            <heading>
+              <authorialNote placement="side">
+                <p>אגרות</p>
+              </authorialNote>
+            </heading>
+            <num>50.</num>
+            <content>
+              <p>השר, באישור ועדת הפנים והגנת הסביבה של הכנסת, רשאי לקבוע אגרות בעד בחינות, בעד הגשת בקשה להכרה בתכנית הכשרה או בהשתלמות, בעד הגשת בקשה לרישיון או להיתר מיוחד לפי <ref href="#point_58">סעיף 58</ref> או לחידושו, בעד השתתפות בהשתלמויות לפי הוראות <ref href="#point_17">סעיף 17</ref> או לפי הוראות <ref href="#point_58">סעיף 58(ד)(3)</ref>, ואגרת רישיון או אגרת היתר מיוחד.</p>
+            </content>
+          </point>
+          <point eId="point_51">
+            <heading>
+              <authorialNote placement="side">
+                <p>גביית קנסות ועיצומים כספיים והעברתם לקרן לשמירת הניקיון</p>
+              </authorialNote>
+            </heading>
+            <num>51.</num>
+            <list>
+              <point eId="point_51__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>על גביית קנסות ועיצומים כספיים לפי חוק זה יחול <ref href="/akn/il/act/PrimaryLegislation/1995-04-06/174310">חוק המרכז לגביית קנסות, אגרות והוצאות, התשנ"ה–1995</ref>.</p>
+                </content>
+              </point>
+              <point eId="point_51__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>קנס ועיצום כספי שהוטלו לפי חוק זה ישולמו לקרן לשמירת הניקיון כמשמעותה <ref href="/akn/il/act/PrimaryLegislation/1984-06-07/149942">בחוק שמירת הניקיון, התשמ"ד–1984</ref>.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_52">
+            <heading>
+              <authorialNote placement="side">
+                <p>אי־תחולה ושמירת דינים</p>
+              </authorialNote>
+            </heading>
+            <num>52.</num>
+            <list>
+              <point eId="point_52__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>הוראות חוק זה לא יחולו על הדברה של מזיקים על גופם של בני אדם או של בעלי חיים, על הדברה לצרכים חקלאיים בצמחים המיוצרים לצורך הפקת תוצרתם לשיווק ובמיתקנים שבהם נעשית בצמחים כאמור פעילות טיפול בתוצרת חקלאית, ועל הדברה במיתקנים המשמשים לגידול בעלי חיים; לעניין זה, ”פעילות טיפול בתוצרת חקלאית“ – גידול, קטיף ואיסוף של תוצרת חקלאית מן הצומח וכן אחסון במיתקני החקלאי, מיון, אריזה וסימון של תוצרת כאמור, כשהיא טרייה לאחר הקטיף או האיסוף ובלא עיבוד, וכן פעולות הבחלה או חיתוך שמתבצעות בבית אריזה של ירקות או פירות לפי <ref href="/akn/il/act/PrimaryLegislation/2011-08-15/359929">חוק לפיקוח על ייצור הצמח ושיווקו, התשע"א–2011</ref>.</p>
+                </content>
+              </point>
+              <point eId="point_52__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>על אף האמור בסעיף קטן (א), נקבע בהוראה לפי דין כי פעולה מסוימת שהוראות לפי אותו סעיף קטן חלות עליה, תבוצע בידי מדביר בלבד, יחולו הוראות חוק זה על אותה פעולה, בשינויים המחויבים.</p>
+                </content>
+              </point>
+              <point eId="point_52__point_ג">
+                <num>(ג)</num>
+                <list>
+                  <intro>
+                    <p>אין בהוראות חוק זה כדי לגרוע מהוראות כל דין אחר, לרבות כל דין שעניינו שמירת הטבע, הגנה על בעלי חיים, עיסוק בחומרי הדברה, הדברה לצורך מניעת הפצה של מחלות, ובכלל זה מחלות מבעלי חיים במקום החזקתם, או בטיחות בעבודה, ובכלל זה דינים אלה:</p>
+                  </intro>
+                  <point eId="point_52__point_ג__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>
+                        <ref href="/akn/il/act/PrimaryLegislation/1954-09-03/148170">חוק ארגון הפיקוח על העבודה, התשי"ד–1954</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_52__point_ג__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>
+                        <ref href="/akn/il/act/PrimaryLegislation/1934-12-20/2001783">פקודת הכלבת, 1934</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_52__point_ג__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>
+                        <ref href="/akn/il/act/PrimaryLegislation/1940-12-20/2001729">פקודת בריאות העם, 1940</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_52__point_ג__point_4">
+                    <num>(4)</num>
+                    <content>
+                      <p>
+                        <ref href="/akn/il/act/PrimaryLegislation/1955-01-20/147325">חוק להגנת חיית הבר</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_52__point_ג__point_5">
+                    <num>(5)</num>
+                    <content>
+                      <p>
+                        <ref href="/akn/il/act/PrimaryLegislation/1956-07-27/147249">חוק הגנת הצומח, התשט"ז–1957</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_52__point_ג__point_6">
+                    <num>(6)</num>
+                    <content>
+                      <p>
+                        <ref href="/akn/il/act/PrimaryLegislation/1968-08-16/148450">חוק רישוי עסקים, התשכ"ח–1968</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_52__point_ג__point_7">
+                    <num>(7)</num>
+                    <content>
+                      <p>
+                        <ref href="/akn/il/act/PrimaryLegislation/1970-08-30/2002270">פקודת הבטיחות בעבודה [נוסח חדש], התש"ל–1970</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_52__point_ג__point_8">
+                    <num>(8)</num>
+                    <content>
+                      <p>
+                        <ref href="/akn/il/act/PrimaryLegislation/1985-04-08/2002289">פקודת מחלות בעלי חיים [נוסח חדש], התשמ"ה–1985</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_52__point_ג__point_9">
+                    <num>(9)</num>
+                    <content>
+                      <p>
+                        <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/חוק_החומרים_המסוכנים">חוק החומרים המסוכנים</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_52__point_ג__point_10">
+                    <num>(10)</num>
+                    <content>
+                      <p>
+                        <ref href="/akn/il/act/PrimaryLegislation/1994-08-15/157612">חוק צער בעלי חיים (הגנה על בעלי חיים), התשנ"ד–1994</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_52__point_ג__point_11">
+                    <num>(11)</num>
+                    <content>
+                      <p>
+                        <ref href="/akn/il/act/PrimaryLegislation/1998-04-05/164212">חוק גנים לאומיים</ref>.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+            </list>
+          </point>
+          <point eId="point_53">
+            <heading>
+              <authorialNote placement="side">
+                <p>תחולה על המדינה</p>
+              </authorialNote>
+            </heading>
+            <num>53.</num>
+            <list>
+              <point eId="point_53__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>חוק זה יחול על המדינה.</p>
+                </content>
+              </point>
+              <point eId="point_53__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>הוראות <ref href="/akn/il/act/PrimaryLegislation/2011-04-05/336239#point_19">סעיף 19 לחוק הגנת הסביבה</ref> יחולו לעניין חוק זה, בשינויים אלה: הנוהל כמשמעותו באותו סעיף ייקבע לאחר התייעצות עם השר הממונה כהגדרתו <ref href="/akn/il/act/PrimaryLegislation/2011-04-05/336239#point_10">בסעיף 10 לאותו חוק</ref>; נוהל ראשון כאמור ייקבע בתוך 90 ימים מיום פרסומו של חוק זה.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_54">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>54.</num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryLegislation/2000-06-11/169660">בחוק בתי משפט לעניינים מינהליים, התש"ס–2000</ref>.</wikicomment>
+              </p>
+            </content>
+          </point>
+          <point eId="point_55">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>55.</num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryLegislation/2011-04-05/336239">בחוק הגנת הסביבה (סמכויות פיקוח ואכיפה), התשע"א–2011</ref>.</wikicomment>
+              </p>
+            </content>
+          </point>
+        </list>
+      </chapter>
+      <chapter eId="chp_ח">
+        <num>פרק ח׳:</num>
+        <title>
+          <content>
+            <p>תחילה והוראות מעבר</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_56">
+            <heading>
+              <authorialNote placement="side">
+                <p>תחילה</p>
+              </authorialNote>
+            </heading>
+            <num>56.</num>
+            <content>
+              <p>תחילתו של חוק זה ביום כ"ד באייר התשע"ו (1 ביוני 2016) (להלן – יום התחילה).</p>
+            </content>
+          </point>
+          <point eId="point_57">
+            <heading>
+              <authorialNote placement="side">
+                <p>הוראות מעבר לעניין חובת רישוי</p>
+              </authorialNote>
+            </heading>
+            <num>57.</num>
+            <list>
+              <point eId="point_57__point_א">
+                <num>(א)</num>
+                <list>
+                  <intro>
+                    <p>
+                      <ref href="#chp_ח">בפרק זה</ref> –</p>
+                  </intro>
+                  <point eId="point_57__point_א__point_חרקים">
+                    <content>
+                      <p>
+                        <def />”חרקים“ – חרקים המנויים <ref href="#appendix_1">בתוספת הראשונה</ref><ref href="#appendix_2">ובתוספת השנייה</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_57__point_א__point_מכרסמים">
+                    <content>
+                      <p>
+                        <def />”מכרסמים“ – מכרסמים המנויים <ref href="#appendix_1">בתוספת הראשונה</ref><ref href="#appendix_2">ובתוספת השנייה</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_57__point_א__point_תקנות_הדברת_מזיקים">
+                    <content>
+                      <p>
+                        <def />”תקנות הדברת מזיקים“ – <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/תקנות_רישוי_עסקים_הדברת_מזיקים">תקנות רישוי עסקים (הדברת מזיקים), התשל"ה–1975</ref>, כנוסחן ערב יום התחילה.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_57__point_ב">
+                <num>(ב)</num>
+                <list>
+                  <intro>
+                    <p>מי שערב יום התחילה היה בידו היתר לפי <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/תקנות_רישוי_עסקים_הדברת_מזיקים">תקנות הדברת מזיקים</ref> כמפורט בפסקאות שלהלן, יראו אותו כמי שיש בידו רישיון מדביר המנוי לצד אותו היתר, עד תום תקופת ההיתר שבידו או עד תום שלוש שנים מיום התחילה, לפי המאוחר, אלא אם כן הרישיון בוטל או הותלה קודם לכן לפי הוראות חוק זה:</p>
+                  </intro>
+                  <point eId="point_57__point_ב__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>היתר קטילת חרקים בלבד – רישיון מדביר במבנים ובשטח פתוח המוגבל להדברת מזיקים שהם חרקים;</p>
+                    </content>
+                  </point>
+                  <point eId="point_57__point_ב__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>היתר קטילת מכרסמים בלבד – רישיון מדביר במבנים ובשטח פתוח המוגבל להדברת מזיקים שהם מכרסמים;</p>
+                    </content>
+                  </point>
+                  <point eId="point_57__point_ב__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>היתר קטילת חרקים והיתר קטילת מכרסמים – רישיון מדביר במבנים ובשטח פתוח;</p>
+                    </content>
+                  </point>
+                  <point eId="point_57__point_ב__point_4">
+                    <num>(4)</num>
+                    <content>
+                      <p>היתר איוד – רישיון מדביר באיוד.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_57__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>על חידוש רישיון של מי שרואים אותו כמי שיש בידו רישיון מדביר לפי הוראות סעיף קטן (ב), יחולו ההוראות לפי חוק זה; ואולם חידוש הרישיון של מי שרואים אותו כמי שיש בידו רישיון מדביר כאמור בפסקאות (1) או (2) שבסעיף קטן (ב) יהיה רק לרישיונות כמפורט באותן פסקאות, לפי העניין, אלא אם כן התקיימו במבקש חידוש הרישיון התנאים לפי חוק זה לקבלת רישיון אחר.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_58">
+            <heading>
+              <authorialNote placement="side">
+                <p>הוראות מעבר לעניין עובדי הדברה</p>
+              </authorialNote>
+            </heading>
+            <num>58.</num>
+            <list>
+              <point eId="point_58__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>על אף האמור <ref href="#point_3">בסעיפים 3</ref><ref href="#point_6">ו־6</ref>, מי שערב יום התחילה עבד כעובד הדברה כהגדרתו <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/תקנות_רישוי_עסקים_הדברת_מזיקים">בתקנות הדברת מזיקים</ref> (<ref href="#chp_ח">בפרק זה</ref> – עובד הדברה) רשאי לסייע למדביר בביצוע הדברה ומדביר רשאי להסתייע בעובד הדברה כאמור, גם אם לא מתקיימים התנאים <ref href="#point_6">שבסעיף 6</ref>, עד תום שלוש שנים מיום התחילה, וימשיכו לחול לגבי המדביר המסתייע ועובד ההדברה הוראות <ref href="#chp_ג_sec_ה">סימן ה׳ לפרק ג׳ לאותן תקנות</ref> בשינויים המחויבים ובשינוי זה: הסמכויות הנתונות למנהל לפי <ref href="#point_40">תקנה 40</ref> יהיו נתונות לרשם לאחר התייעצות עם הוועדה המייעצת.</p>
+                </content>
+              </point>
+              <point eId="point_58__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>על אף האמור <ref href="#point_7">בסעיף 7(א)(5)(א)</ref>, הרשם רשאי להכיר בתקופת עבודה של עובד הדברה לעניין עיסוק בפועל בהדברה כאילו היה בידו רישיון, ובלבד שהוכיח, להנחת דעתו של הרשם, כי עבד כדין ערב יום התחילה במשך חמש שנים לפחות, באופן מקצועי מספק.</p>
+                </content>
+              </point>
+              <point eId="point_58__point_ג">
+                <num>(ג)</num>
+                <list>
+                  <intro>
+                    <p>על אף האמור <ref href="#point_3">בסעיפים 3</ref><ref href="#point_6">ו־6</ref>, הרשם רשאי לתת היתר מיוחד לביצוע פעולות הדברה מסוימות כמפורט להלן, גם אם לא מתקיימים התנאים לפי <ref href="#point_6">סעיף 6</ref>, ובלבד שהתקיימו התנאים בסעיף קטן (ד)(1):</p>
+                  </intro>
+                  <point eId="point_58__point_ג__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>למי שהועסק ערב יום התחילה ברשות מקומית כעובד הדברה במשך עשר שנים לפחות – היתר מיוחד לביצוע פעולות הדברה מסוימות במסגרת עבודתו ברשות המקומית; תוקפו של ההיתר המיוחד יהיה עד ליום שבו יחדל עובד ההדברה שניתן לו ההיתר לעבוד ברשות המקומית שבה עבד בעת קבלת ההיתר, אלא אם כן בוטל קודם לכן;</p>
+                    </content>
+                  </point>
+                  <point eId="point_58__point_ג__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>למי שהועסק ערב יום התחילה כעובד הדברה במשך עשר שנים לפחות, ובתוך שבע שנים מיום התחילה הוא עשוי להגיע לגיל הפרישה כהגדרתו <ref href="/akn/il/act/PrimaryLegislation/2004-01-18/16634">בחוק גיל פרישה, התשס"ד–2004</ref> – היתר מיוחד שתוקפו יהיה לתקופה שיקבע בו הרשם, אשר לא תפחת משנה, ויהיה ניתן לחדשו לתקופות נוספות, ובלבד שסך כל התקופות לא יעלה על שבע שנים מיום שניתן ההיתר לראשונה;</p>
+                    </content>
+                  </point>
+                  <wrapup eId="point_58__point_ג__wrapup_none">
+                    <content>
+                      <p>הרשם יכלול בהיתר המיוחד פעולות בעלות סיכון נמוך לציבור ולסביבה, ולעניין עובדי הדברה ברשויות מקומיות – פעולות הנעשות על ידי הרשות המקומית לשם מילוי תפקידיה על פי דין, והכול כפי שקבע השר בצו לעניין זה.</p>
+                    </content>
+                  </wrapup>
+                </list>
+              </point>
+              <point eId="point_58__point_ד">
+                <num>(ד)</num>
+                <list>
+                  <point eId="point_58__point_ד__point_1">
+                    <num>(1)</num>
+                    <list>
+                      <intro>
+                        <p>היתר מיוחד כאמור בסעיף קטן (ג) יינתן אם התקיימו כל אלה:</p>
+                      </intro>
+                      <point eId="point_58__point_ד__point_1__point_א">
+                        <num>(א)</num>
+                        <content>
+                          <p>עובד ההדברה הגיש לרשם בתוך שנה מפרסום הצו כאמור בסעיף קטן (ג) בקשה להיתר מיוחד, שתכלול מידע ומסמכים המעידים על עבודתו וניסיונו בביצוע הפעולות, ורשאי הרשם לבחון את בקיאותו בביצוע עבודות כאמור טרם מתן ההיתר המיוחד;</p>
+                        </content>
+                      </point>
+                      <point eId="point_58__point_ד__point_1__point_ב">
+                        <num>(ב)</num>
+                        <content>
+                          <p>עובד ההדברה לא הורשע בעבירה פלילית אשר מפאת מהותה, חומרתה או נסיבותיה אין הוא ראוי לקבל היתר מיוחד;</p>
+                        </content>
+                      </point>
+                      <point eId="point_58__point_ד__point_1__point_ג">
+                        <num>(ג)</num>
+                        <content>
+                          <p>עובד ההדברה מקבל הנחיות לביצוע העבודות ממדביר בעל רישיון מתאים לפי חוק זה.</p>
+                        </content>
+                      </point>
+                    </list>
+                  </point>
+                  <point eId="point_58__point_ד__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>הרשם ירשום במרשם לפי <ref href="#point_13">סעיף 13</ref> עובד הדברה שניתן לו היתר מיוחד לפי סעיף זה.</p>
+                    </content>
+                  </point>
+                  <point eId="point_58__point_ד__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>הרשם יהיה רשאי להתנות את ההיתר המיוחד בתנאים, לרבות לעניין השתתפות בהשתלמויות.</p>
+                    </content>
+                  </point>
+                  <point eId="point_58__point_ד__point_4">
+                    <num>(4)</num>
+                    <content>
+                      <p>הוראות חוק זה, למעט הוראות <ref href="#point_3">סעיפים 3</ref>, <ref href="#point_4">4</ref>, <ref href="#point_6">6 עד 9</ref>, <ref href="#point_17">17</ref>, <ref href="#point_21">21</ref><ref href="#point_22">ו־22</ref>, יחולו על מי שבידו היתר מיוחד לעניין פעולות ההדברה שנקבעו בהיתר המיוחד שניתן לו, כאילו היה בידו רישיון מדביר, בשינויים המחויבים ולפי העניין.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+            </list>
+          </point>
+          <point eId="point_59">
+            <heading>
+              <authorialNote placement="side">
+                <p>הוראת מעבר לעניין בחינות</p>
+              </authorialNote>
+            </heading>
+            <num>59.</num>
+            <list>
+              <point eId="point_59__point_א">
+                <num>(א)</num>
+                <list>
+                  <intro>
+                    <p>על אף האמור <ref href="#point_7">בסעיף 7(א)(4)</ref> –</p>
+                  </intro>
+                  <point eId="point_59__point_א__point_1">
+                    <num>(1)</num>
+                    <list>
+                      <intro>
+                        <p>עד תום שישה חודשים מיום התחילה, רשאי הרשם לתת רישיון מדביר למבקש אף אם לא קיבל הכשרה כאמור <ref href="#point_7">בסעיף 7(א)(4)</ref>, ובלבד שעמד בבחינות שערך הרשם, כמפורט להלן:</p>
+                      </intro>
+                      <point eId="point_59__point_א__point_1__point_א">
+                        <num>(א)</num>
+                        <content>
+                          <p>רישיון מדביר במבנים ובשטח פתוח המוגבל להדברת מזיקים שהם חרקים בלבד – מי שעמד בבחינות שנערכו לפי הוראות <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/תקנות_רישוי_עסקים_הדברת_מזיקים#point_22">תקנה 22 לתקנות הדברת מזיקים</ref><ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/תקנות_רישוי_עסקים_הדברת_מזיקים#appendix_2">והתוספת השנייה לאותן תקנות</ref>;</p>
+                        </content>
+                      </point>
+                      <point eId="point_59__point_א__point_1__point_ב">
+                        <num>(ב)</num>
+                        <content>
+                          <p>רישיון מדביר במבנים ובשטח פתוח המוגבל להדברת מזיקים שהם מכרסמים בלבד – מי שעמד בבחינות שנערכו לפי הוראות <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/תקנות_רישוי_עסקים_הדברת_מזיקים#point_22">תקנה 22 לתקנות הדברת מזיקים</ref><ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/תקנות_רישוי_עסקים_הדברת_מזיקים#appendix_3">והתוספת השלישית לאותן תקנות</ref>;</p>
+                        </content>
+                      </point>
+                      <point eId="point_59__point_א__point_1__point_ג">
+                        <num>(ג)</num>
+                        <content>
+                          <p>רישיון מדביר במבנים ובשטח פתוח – מי שעמד בבחינות שנערכו לפי הוראות <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/תקנות_רישוי_עסקים_הדברת_מזיקים#point_22">תקנה 22 לתקנות הדברת מזיקים</ref>, <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/תקנות_רישוי_עסקים_הדברת_מזיקים#appendix_2">התוספת השנייה</ref><ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/תקנות_רישוי_עסקים_הדברת_מזיקים#appendix_3">והתוספת השלישית לאותן תקנות</ref>;</p>
+                        </content>
+                      </point>
+                      <point eId="point_59__point_א__point_1__point_ד">
+                        <num>(ד)</num>
+                        <content>
+                          <p>רישיון מדביר באיוד – מי שעמד בבחינות שנערכו לפי הוראות <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/תקנות_רישוי_עסקים_הדברת_מזיקים#point_22">תקנה 22 לתקנות הדברת מזיקים</ref><ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/תקנות_רישוי_עסקים_הדברת_מזיקים#appendix_4">והתוספת הרביעית לאותן תקנות</ref>;</p>
+                        </content>
+                      </point>
+                    </list>
+                  </point>
+                  <point eId="point_59__point_א__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>כל עוד לא הותקנו תקנות לפי <ref href="#point_7">סעיף 7(א)(4)</ref>, אך לא יאוחר מתום שלוש שנים מיום התחילה, רשאי הרשם לתת רישיון מדביר למבקש, אף אם לא קיבל הכשרה כאמור <ref href="#point_7">בסעיף 7(א)(4)</ref>, ובלבד שעמד בבחינות שערך הרשם לעניין הרישיון שביקש, בהתאם לרשימת נושאי הבחינות ומתכונתן שיפרסם הרשם באתר האינטרנט של המשרד, ואשר יועמדו לעיון הציבור במשרד לא יאוחר מארבעה חודשים מיום התחילה; הודעה על פרסום הרשימה תפורסם ברשומות.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_59__point_ב">
+                <num>(ב)</num>
+                <list>
+                  <intro>
+                    <p>כל עוד לא הותקנו תקנות לפי <ref href="#point_50">סעיף 50</ref>, תשולם אגרה בעבור השתתפות בבחינות כמפורט להלן:</p>
+                  </intro>
+                  <point eId="point_59__point_ב__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>בעבור בחינות לרישיון מדביר בדירות, לרישיון מדביר צבאי ולהיתר מיוחד כאמור <ref href="#point_58">בסעיף 58</ref> – 150 שקלים חדשים;</p>
+                    </content>
+                  </point>
+                  <point eId="point_59__point_ב__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>בעבור בחינות לרישיון מדביר במבנים ובשטח פתוח ולרישיון מדביר באיוד – 300 שקלים חדשים.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_59__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>מי שקיבל רישיון לאחר שעמד בבחינות לפי פסקאות משנה (א) או (ב) שבסעיף קטן (א)(1), וביקש לחדש את רישיונו, יחודש רישיונו כמפורט באותן פסקאות משנה, לפי העניין, אלא אם כן התקיימו בו התנאים לפי חוק זה לקבלת רישיון אחר.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_60">
+            <heading>
+              <authorialNote placement="side">
+                <p>הוראות מעבר לעניין הגשת בקשה ואגרות</p>
+              </authorialNote>
+            </heading>
+            <num>60.</num>
+            <list>
+              <point eId="point_60__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>כל עוד לא הותקנו תקנות לפי <ref href="#point_7">סעיף 7(ב)</ref> אך לא יאוחר מתום שלוש שנים מיום התחילה, תוגש בקשה לרישיון מדביר או לחידושו לרשם, בטופס בקשה שיפרסם הרשם באתר האינטרנט של המשרד ואשר יועמד לרשות הציבור גם בלשכות המחוזיות של המשרד; הבקשה תוגש בשני עותקים ויצורפו אליה כל המסמכים הנדרשים.</p>
+                </content>
+              </point>
+              <point eId="point_60__point_ב">
+                <num>(ב)</num>
+                <list>
+                  <intro>
+                    <p>כל עוד לא הותקנו תקנות לפי <ref href="#point_50">סעיף 50</ref> בעבור הגשת בקשה למתן רישיון או לחידושו, תשולם אגרה כמפורט להלן:</p>
+                  </intro>
+                  <point eId="point_60__point_ב__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>בעבור רישיון מדביר בדירות, רישיון מדביר צבאי והיתר מיוחד כאמור <ref href="#point_58">בסעיף 58</ref> – 250 שקלים חדשים;</p>
+                    </content>
+                  </point>
+                  <point eId="point_60__point_ב__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>בעבור רישיון מדביר במבנים ובשטח פתוח ורישיון מדביר באיוד – 500 שקלים חדשים.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+            </list>
+          </point>
+          <point eId="point_61">
+            <heading>
+              <authorialNote placement="side">
+                <p>שמירת תוקף תקנות הדברת מזיקים</p>
+              </authorialNote>
+            </heading>
+            <num>61.</num>
+            <content>
+              <p>החובות, ההגבלות והתנאים שנקבעו <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/תקנות_רישוי_עסקים_הדברת_מזיקים#point_6">בתקנות 6 עד 13</ref><ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/תקנות_רישוי_עסקים_הדברת_מזיקים#point_14">ו־14(א) עד (ג) ו־(ו)</ref>, <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/תקנות_רישוי_עסקים_הדברת_מזיקים#point_41">41</ref>, <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/תקנות_רישוי_עסקים_הדברת_מזיקים#point_42">42</ref><ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/תקנות_רישוי_עסקים_הדברת_מזיקים#point_44">ו־44 לתקנות הדברת מזיקים</ref>, יראו אותם, בשינויים המחויבים, לעניין חוק זה, לרבות לעניין <ref href="#chp_ה">פרקים ה׳</ref><ref href="#chp_ו">ו־ו׳</ref>, כחובות, הגבלות ותנאים החלים על מדביר ועל מפעיל שנקבעו לפי <ref href="#point_16">סעיף 16(א) לחוק זה</ref>, כל עוד לא שונו או בוטלו לפי חוק זה, אך לא יאוחר מתום שלוש שנים מיום התחילה.</p>
+            </content>
+          </point>
+          <point eId="point_62">
+            <heading>
+              <authorialNote placement="side">
+                <p>תקנות ראשונות</p>
+              </authorialNote>
+            </heading>
+            <num>62.</num>
+            <content>
+              <p>תקנות ראשונות לפי <ref href="#point_16">סעיף 16(א)</ref>, בעניינים המפורטים בו, יותקנו בתוך שלוש שנים מיום התחילה.</p>
+            </content>
+          </point>
+        </list>
+      </chapter>
+      <appendix eId="appendix_ראשונה">
+        <num></num>
+        <title>
+          <content>
+            <p>תוספת ראשונה</p>
+          </content>
+        </title>
+        <subtitle eId="eId">
+          <num></num>
+          <content>
+            <p>
+              <wikicomment font-size="x-small">(ההגדרה ”מזיקים“ <ref href="#point_2">שבסעיף 2</ref> וההגדרות ”חרקים“ ו”מכרסמים“ <ref href="#point_57">שבסעיף 57</ref>)</wikicomment>
+            </p>
+          </content>
+        </subtitle>
+        <list>
+          <point eId="appendix_ראשונה__point_none" class="definitions">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num></num>
+            <list>
+              <intro>
+                <p>
+                  <ref href="#appendix_1">בתוספת זו</ref> –</p>
+              </intro>
+              <point eId="appendix_ראשונה__point_none__point_מבנה">
+                <content>
+                  <p>
+                    <def />”מבנה“ – מבנה מכל סוג שהוא, לרבות בית מגורים, מחסן ומבנה זמני וכן חצר הצמודה להם שאינה מיועדת לשימוש הציבור, מערכות ביוב ציבוריות, כלי תחבורה ומכולה לאחסון;</p>
+                </content>
+              </point>
+              <point eId="appendix_ראשונה__point_none__point_תחום_יישוב">
+                <content>
+                  <p>
+                    <def />”תחום יישוב“ – מבנים ושטחים פתוחים המצויים באזור בנוי המשמש בני אדם, דרך קבע, למגורים, תעסוקה, מסחר או פנאי, לרבות שטח פתוח במרחק של עד 25 מטרים מהמבנה הקיצון באותו אזור, וכן אזורים המשמשים את הציבור דרך קבע לפעילות פנאי, כגון חניוני נופש ופארקים, גם אם הם מחוץ לתחום האזור הבנוי כאמור, והכול למעט סביבה טבעית.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+        </list>
+        <part eId="part_א">
+          <num>חלק א׳ –</num>
+          <title>
+            <content>
+              <p>חסרי חוליות</p>
+            </content>
+          </title>
+          <list>
+            <point eId="appendix_ראשונה__point_1">
+              <heading>
+                <authorialNote placement="side">
+                  <p xml:space="preserve"> </p>
+                </authorialNote>
+              </heading>
+              <num>1.</num>
+              <list>
+                <intro>
+                  <p>
+                    <span style="font-weight: bold">חרקים הגורמים למפגע – מעבירי מחלות ומוצצי דם</span>
+                  </p>
+                </intro>
+                <point eId="appendix_ראשונה__point_1__point_א">
+                  <num>(א)</num>
+                  <content>
+                    <p>זבוב הבית;</p>
+                  </content>
+                </point>
+                <point eId="appendix_ראשונה__point_1__point_ב">
+                  <num>(ב)</num>
+                  <content>
+                    <p>זבובי חול;</p>
+                  </content>
+                </point>
+                <point eId="appendix_ראשונה__point_1__point_ג">
+                  <num>(ג)</num>
+                  <content>
+                    <p>יתושים מוצצי דם;</p>
+                  </content>
+                </point>
+                <point eId="appendix_ראשונה__point_1__point_ד">
+                  <num>(ד)</num>
+                  <content>
+                    <p>פרעושים – כשהם בתחום יישוב;</p>
+                  </content>
+                </point>
+                <point eId="appendix_ראשונה__point_1__point_ה">
+                  <num>(ה)</num>
+                  <content>
+                    <p>פשפש המיטה – כשהוא במבנה;</p>
+                  </content>
+                </point>
+                <point eId="appendix_ראשונה__point_1__point_ו">
+                  <num>(ו)</num>
+                  <content>
+                    <p>קרציות וקרציונים – כשהם בתחום יישוב.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="appendix_ראשונה__point_2">
+              <heading>
+                <authorialNote placement="side">
+                  <p xml:space="preserve"> </p>
+                </authorialNote>
+              </heading>
+              <num>2.</num>
+              <list>
+                <intro>
+                  <p>
+                    <span style="font-weight: bold">חרקים הגורמים למפגע – עוקצים וארסיים</span>
+                  </p>
+                </intro>
+                <point eId="appendix_ראשונה__point_2__point_א">
+                  <num>(א)</num>
+                  <content>
+                    <p>דבורת הדבש הננסית;</p>
+                  </content>
+                </point>
+                <point eId="appendix_ראשונה__point_2__point_ב">
+                  <num>(ב)</num>
+                  <content>
+                    <p>נמלי אש;</p>
+                  </content>
+                </point>
+                <point eId="appendix_ראשונה__point_2__point_ג">
+                  <num>(ג)</num>
+                  <content>
+                    <p>נמלים נוודיות;</p>
+                  </content>
+                </point>
+                <point eId="appendix_ראשונה__point_2__point_ד">
+                  <num>(ד)</num>
+                  <content>
+                    <p>צרעה מזרחית, צרעה גרמנית וצרעת פלך – כשהן בתחום יישוב;</p>
+                  </content>
+                </point>
+                <point eId="appendix_ראשונה__point_2__point_ה">
+                  <num>(ה)</num>
+                  <content>
+                    <p>תהלוכן האורן.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="appendix_ראשונה__point_3">
+              <heading>
+                <authorialNote placement="side">
+                  <p xml:space="preserve"> </p>
+                </authorialNote>
+              </heading>
+              <num>3.</num>
+              <list>
+                <intro>
+                  <p>
+                    <span style="font-weight: bold">מזיקים הגורמים לאי־נוחות – חרקים</span>
+                  </p>
+                </intro>
+                <point eId="appendix_ראשונה__point_3__point_א">
+                  <num>(א)</num>
+                  <content>
+                    <p>זבובי בשר, כגון בוהקן כחול – כשהם בתחום יישוב;</p>
+                  </content>
+                </point>
+                <point eId="appendix_ראשונה__point_3__point_ב">
+                  <num>(ב)</num>
+                  <content>
+                    <p>זבובי רפש, כגון זבוב הבית הקטן – כשהם בתחום יישוב;</p>
+                  </content>
+                </point>
+                <point eId="appendix_ראשונה__point_3__point_ג">
+                  <num>(ג)</num>
+                  <content>
+                    <p>נמלים – כשהן במבנה;</p>
+                  </content>
+                </point>
+                <point eId="appendix_ראשונה__point_3__point_ד">
+                  <num>(ד)</num>
+                  <content>
+                    <p>פסוקאים – כשהם במבנה;</p>
+                  </content>
+                </point>
+                <point eId="appendix_ראשונה__point_3__point_ה">
+                  <num>(ה)</num>
+                  <content>
+                    <p>תיקן אמריקני, תיקן גרמני ותיקן בתים (תיקן פסים חום) – כשהם במבנה.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="appendix_ראשונה__point_4">
+              <heading>
+                <authorialNote placement="side">
+                  <p xml:space="preserve"> </p>
+                </authorialNote>
+              </heading>
+              <num>4.</num>
+              <list>
+                <intro>
+                  <p>
+                    <span style="font-weight: bold">מזיקים אחרים הגורמים לאי־נוחות</span>
+                  </p>
+                </intro>
+                <point eId="appendix_ראשונה__point_4__point_א">
+                  <num>(א)</num>
+                  <content>
+                    <p>חילזון אפריקני ענק.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="appendix_ראשונה__point_5">
+              <heading>
+                <authorialNote placement="side">
+                  <p xml:space="preserve"> </p>
+                </authorialNote>
+              </heading>
+              <num>5.</num>
+              <list>
+                <intro>
+                  <p>
+                    <span style="font-weight: bold">חרקים הגורמים למטרד – מזיקים לרכוש</span>
+                  </p>
+                </intro>
+                <point eId="appendix_ראשונה__point_5__point_א">
+                  <num>(א)</num>
+                  <content>
+                    <p>חיפושיות מזיקות לרכוש כגון חיפושיות עץ, נייר בד ועור – כשהן במבנה;</p>
+                  </content>
+                </point>
+                <point eId="appendix_ראשונה__point_5__point_ב">
+                  <num>(ב)</num>
+                  <content>
+                    <p>טרמיטים – כשהם בתחום יישוב;</p>
+                  </content>
+                </point>
+                <point eId="appendix_ראשונה__point_5__point_ג">
+                  <num>(ג)</num>
+                  <content>
+                    <p>עשי בגדים – כשהם במבנה.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="appendix_ראשונה__point_6">
+              <heading>
+                <authorialNote placement="side">
+                  <p xml:space="preserve"> </p>
+                </authorialNote>
+              </heading>
+              <num>6.</num>
+              <list>
+                <intro>
+                  <p>
+                    <span style="font-weight: bold">חרקים הגורמים למטרד – מזיקים למוצרים מעובדים שהם מזון</span>
+                  </p>
+                </intro>
+                <point eId="appendix_ראשונה__point_6__point_א">
+                  <num>(א)</num>
+                  <content>
+                    <p>אקריות ופסוקאים – כשהם במבנה וכשהם נלווים למזיקים אחרים;</p>
+                  </content>
+                </point>
+                <point eId="appendix_ראשונה__point_6__point_ב">
+                  <num>(ב)</num>
+                  <content>
+                    <p>חיפושיות מחסן – כשהן במבנה;</p>
+                  </content>
+                </point>
+                <point eId="appendix_ראשונה__point_6__point_ג">
+                  <num>(ג)</num>
+                  <content>
+                    <p>עשי מזון – כשהם במבנה.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+          </list>
+        </part>
+        <part eId="part_ב">
+          <num>חלק ב׳ –</num>
+          <title>
+            <content>
+              <p>חולייתנים הגורמים למפגע או למטרד</p>
+            </content>
+          </title>
+          <list>
+            <point eId="appendix_ראשונה__point_7">
+              <heading>
+                <authorialNote placement="side">
+                  <p xml:space="preserve"> </p>
+                </authorialNote>
+              </heading>
+              <num>7.</num>
+              <list>
+                <intro>
+                  <p>
+                    <span style="font-weight: bold">מכרסמים הגורמים למפגע או למטרד</span>
+                  </p>
+                </intro>
+                <point eId="appendix_ראשונה__point_7__point_א">
+                  <num>(א)</num>
+                  <content>
+                    <p>חולדת החוף וחולדה מצויה – כשהן בתחום יישוב;</p>
+                  </content>
+                </point>
+                <point eId="appendix_ראשונה__point_7__point_ב">
+                  <num>(ב)</num>
+                  <content>
+                    <p>עכבר מצוי – כשהוא בתחום יישוב.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="appendix_ראשונה__point_8">
+              <heading>
+                <authorialNote placement="side">
+                  <p xml:space="preserve"> </p>
+                </authorialNote>
+              </heading>
+              <num>8.</num>
+              <list>
+                <intro>
+                  <p>
+                    <span style="font-weight: bold">חולייתנים אחרים הגורמים למפגע או למטרד</span>
+                  </p>
+                </intro>
+                <point eId="appendix_ראשונה__point_8__point_א">
+                  <num>(א)</num>
+                  <content>
+                    <p>דרור הבית – כשהוא בתחום יישוב;</p>
+                  </content>
+                </point>
+                <point eId="appendix_ראשונה__point_8__point_ב">
+                  <num>(ב)</num>
+                  <content>
+                    <p>יונת הבית – כשהיא בתחום יישוב;</p>
+                  </content>
+                </point>
+                <point eId="appendix_ראשונה__point_8__point_ג">
+                  <num>(ג)</num>
+                  <content>
+                    <p>עורב הודי ועורב אפור – כשהם בתחום יישוב.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+          </list>
+        </part>
+        <part eId="part_ג">
+          <num>חלק ג׳ –</num>
+          <title>
+            <content>
+              <p>מזיקים בתנאים מיוחדים</p>
+            </content>
+          </title>
+          <list>
+            <point eId="appendix_ראשונה__point_9">
+              <heading>
+                <authorialNote placement="side">
+                  <p xml:space="preserve"> </p>
+                </authorialNote>
+              </heading>
+              <num>9.</num>
+              <list>
+                <intro>
+                  <p>
+                    <span style="font-weight: bold">חרקים</span>
+                  </p>
+                </intro>
+                <point eId="appendix_ראשונה__point_9__point_א">
+                  <num>(א)</num>
+                  <content>
+                    <p>פרוקי רגליים ארסיים או עוקצים כגון עקרבים, עכבישים ונדלים – כשהם בבית מגורים ובחצרים הצמודים לו או כשהם מופיעים במופע חריג והמוני בשטחים פתוחים בתחום יישוב;</p>
+                  </content>
+                </point>
+                <point eId="appendix_ראשונה__point_9__point_ב">
+                  <num>(ב)</num>
+                  <content>
+                    <p>דבורת הדבש – כאשר נחיל שלה מתנחל במבנה ולא ניתן לנקוט אמצעים לסילוקו לפי דין אחר;</p>
+                  </content>
+                </point>
+                <point eId="appendix_ראשונה__point_9__point_ג">
+                  <num>(ג)</num>
+                  <content>
+                    <p>אוכלוסייה של פרוקי רגליים מאותו המין כגון טחביות, רבי רגל, פשפשים, או סרחן חום – כשהיא מופיעה במופע חריג והמוני בתחום יישוב, במקום שבו היא גורמת בפועל למטרד.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="appendix_ראשונה__point_10">
+              <heading>
+                <authorialNote placement="side">
+                  <p xml:space="preserve"> </p>
+                </authorialNote>
+              </heading>
+              <num>10.</num>
+              <list>
+                <intro>
+                  <p>
+                    <span style="font-weight: bold">מכרסמים</span>
+                  </p>
+                </intro>
+                <point eId="appendix_ראשונה__point_10__point_א">
+                  <num>(א)</num>
+                  <content>
+                    <p>אוכלוסייה של מכרסמים מהמינים מריון מצוי, נברן, חולד או נוטריה – כשהיא מופיעה בתחום יישוב.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+          </list>
+        </part>
+      </appendix>
+      <appendix eId="appendix_שנייה">
+        <num></num>
+        <title>
+          <content>
+            <p>תוספת שנייה</p>
+          </content>
+        </title>
+        <subtitle eId="eId">
+          <num></num>
+          <content>
+            <p>
+              <wikicomment font-size="x-small">(<ref href="#point_4">סעיף 4</ref>)</wikicomment>
+            </p>
+          </content>
+        </subtitle>
+        <list>
+          <point eId="appendix_שנייה__point_1">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>1.</num>
+            <list>
+              <intro>
+                <p>
+                  <span style="font-weight: bold">חרקים</span>
+                </p>
+              </intro>
+              <point eId="appendix_שנייה__point_1__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>דבורת הדבש;</p>
+                </content>
+              </point>
+              <point eId="appendix_שנייה__point_1__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>טרמיטים;</p>
+                </content>
+              </point>
+              <point eId="appendix_שנייה__point_1__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>פשפש המיטה;</p>
+                </content>
+              </point>
+              <point eId="appendix_שנייה__point_1__point_ד">
+                <num>(ד)</num>
+                <content>
+                  <p>תהלוכן האורן.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+        </list>
+      </appendix>
+    </body>
+    <conclusions eId="eId">
+      <p class="signatures">
+        <signature>
+          <p>
+            <person refersTo="בנימין_נתניהו">בנימין נתניהו</person>
+            <role refersTo="ראש_הממשלה">ראש הממשלה</role>
+          </p>
+        </signature>
+        <signature>
+          <p>
+            <person refersTo="אבי_גבאי">אבי גבאי</person>
+            <role refersTo="השר_להגנת_הסביבה">השר להגנת הסביבה</role>
+          </p>
+        </signature>
+        <signature>
+          <p>
+            <person refersTo="ראובן_ריבלין">ראובן ריבלין</person>
+            <role refersTo="נשיא_המדינה">נשיא המדינה</role>
+          </p>
+        </signature>
+        <signature>
+          <p>
+            <person refersTo="יולי_יואל_אדלשטיין">יולי יואל אדלשטיין</person>
+            <role refersTo="יושב_ראש_הכנסת">יושב ראש הכנסת</role>
+          </p>
+        </signature>
+      </p>
+    </conclusions>
+  </act>
+</akomaNtoso>

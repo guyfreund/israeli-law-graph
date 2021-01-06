@@ -1,0 +1,967 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion" name="publicLaw">
+    <meta>
+      <identification source="#kensset">
+        <FRBRWork>
+          <FRBRthis value="/akn/il/act/PrimaryLegislation/2010-03-22/327858/main" />
+          <FRBRuri value="/akn/il/act/PrimaryLegislation/2010-03-22/327858" />
+          <FRBRdate date="2010-03-22" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRcountry value="israel" />
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/il/act/PrimaryLegislation/2010-03-22/327858/he@/main" />
+          <FRBRuri value="/akn/il/act/PrimaryLegislation/2010-03-22/327858/he@" />
+          <FRBRdate date="2010-03-22" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRlanguage language="hebrew" />
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/il/act/PrimaryLegislation/2010-03-22/327858/he@/main.xml" />
+          <FRBRuri value="/akn/il/act/PrimaryLegislation/2010-03-22/327858/he@" />
+          <FRBRdate date="2010-03-22" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRformat value="xml" />
+        </FRBRManifestation>
+      </identification>
+      <classification source="#kensset">
+        <keyword value="{classificationValue}" showAs="{classificationValue}" dictionary="#classification_dictionary" />
+      </classification>
+      <lifecycle source="#kensset">
+        <eventRef eId="eventRef_1" date="2010-03-22" source="#kensset" type="generation" />
+      </lifecycle>
+      <references source="#kensset">
+        <TLCOrganization eId="kensset" href="/ontology/organization/akn/knesset" showAs="Kensset" type="generation" />
+        <TLCRole eId="author" href="/ontology/role/akn/author" showAs="Author of Document" />
+        <TLCProcess eId="inforce" href="/ontology/process/akn/inforce" showAs="In force" />
+        <TLCTerm eId="term_1" href="/ontology/term/בית_דין_דתי/327858" showAs="בית_דין_דתי" />
+        <TLCTerm eId="term_2" href="/ontology/term/בית_המשפט/327858" showAs="בית_המשפט" />
+        <TLCTerm eId="term_3" href="/ontology/term/בני_זוג/327858" showAs="בני_זוג" />
+        <TLCTerm eId="term_4" href="/ontology/term/בקשה_ליישוב_סכסוך/327858" showAs="בקשה_ליישוב_סכסוך" />
+        <TLCTerm eId="term_5" href="/ontology/term/ברית_זוגיות/327858" showAs="ברית_זוגיות" />
+        <TLCTerm eId="term_6" href="/ontology/term/דיין/327858" showAs="דיין" />
+        <TLCTerm eId="term_7" href="/ontology/term/חוק_מרשם_האוכלוסין/327858" showAs="חוק_מרשם_האוכלוסין" />
+        <TLCTerm eId="term_8" href="/ontology/term/חסר_דת/327858" showAs="חסר_דת" />
+        <TLCTerm eId="term_9" href="/ontology/term/מרשם_האוכלוסין/327858" showAs="מרשם_האוכלוסין" />
+        <TLCTerm eId="term_10" href="/ontology/term/מרשם_הזוגיות/327858" showAs="מרשם_הזוגיות" />
+        <TLCTerm eId="term_11" href="/ontology/term/עדה_נוצרית/327858" showAs="עדה_נוצרית" />
+        <TLCTerm eId="term_12" href="/ontology/term/ראש_בית_דין_דתי/327858" showAs="ראש_בית_דין_דתי" />
+        <TLCTerm eId="term_13" href="/ontology/term/רושם_נישואין/327858" showAs="רושם_נישואין" />
+        <TLCTerm eId="term_14" href="/ontology/term/רשם_הזוגיות/327858" showAs="רשם_הזוגיות" />
+        <TLCTerm eId="term_15" href="/ontology/term/תושב_ישראל/327858" showAs="תושב_ישראל" />
+        <TLCTerm eId="term_16" href="/ontology/term/השר/327858" showAs="השר" />
+        <TLCTerm eId="term_17" href="/ontology/term/קרוב_משפחה/327858" showAs="קרוב_משפחה" />
+        <TLCTerm eId="term_18" href="/ontology/term/בן_זוג/327858" showAs="בן_זוג" />
+        <TLCPerson eId="בנימין_נתניהו" href="/ontology/person/בנימין_נתניהו" showAs="בנימין נתניהו" />
+        <TLCPerson eId="יעקב_נאמן" href="/ontology/person/יעקב_נאמן" showAs="יעקב נאמן" />
+        <TLCPerson eId="שמעון_פרס" href="/ontology/person/שמעון_פרס" showAs="שמעון פרס" />
+        <TLCPerson eId="ראובן_ריבלין" href="/ontology/person/ראובן_ריבלין" showAs="ראובן ריבלין" />
+        <TLCRole eId="ראש_הממשלה" href="ontology/role/akn/ראש_הממשלה" showAs="ראש הממשלה" />
+        <TLCRole eId="שר_המשפטים" href="ontology/role/akn/שר_המשפטים" showAs="שר המשפטים" />
+        <TLCRole eId="נשיא_המדינה" href="ontology/role/akn/נשיא_המדינה" showAs="נשיא המדינה" />
+        <TLCRole eId="יושב_ראש_הכנסת" href="ontology/role/akn/יושב_ראש_הכנסת" showAs="יושב ראש הכנסת" />
+      </references>
+      <temporalData source="#kensset">
+        <temporalGroup eId="tmpg_1" />
+      </temporalData>
+      <Publication></Publication>
+      <proprietary wikiversion="7/22/2020 9:59:14 PM" />
+    </meta>
+    <body period="#tmpg_1">
+      <title eId="title">
+        <content>
+          <p>חוק ברית הזוגיות לחסרי דת, התש"ע–2010</p>
+        </content>
+      </title>
+      <list>
+        <point eId="point_1" class="definitions">
+          <heading>
+            <authorialNote placement="side">
+              <p>הגדרות</p>
+            </authorialNote>
+          </heading>
+          <num>1.</num>
+          <list>
+            <intro>
+              <p>בחוק זה –</p>
+            </intro>
+            <point eId="point_1__point_בית_דין_דתי">
+              <content>
+                <p>
+                  <def />”בית דין דתי“ – בית דין רבני, בית דין שרעי, בית דין של עדה נוצרית ובית דין דתי דרוזי;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_בית_המשפט">
+              <content>
+                <p>
+                  <def />”בית המשפט“ – בית המשפט לענייני משפחה;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_בני_זוג">
+              <content>
+                <p>
+                  <def />”בני זוג“ – בני זוג שהם איש ואישה;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_בקשה_ליישוב_סכסוך">
+              <content>
+                <p>
+                  <def />”בקשה ליישוב סכסוך“ – פתיחת הליך בבית המשפט בבקשה ליישוב סכסוך בין בני זוג לפי <ref href="/akn/il/act/SecondaryLegislation/1984-08-12/100016713#chp_כד2">תקנות סדר הדין האזרחי, התשמ"ד–1984</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_ברית_זוגיות">
+              <content>
+                <p>
+                  <def />”ברית זוגיות“ – הסכם בין בני זוג לחיות יחד ולקיים חיי משפחה ומשק בית משותף;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_דיין">
+              <list>
+                <intro>
+                  <p>
+                    <def />”דיין“ – כל אחד מאלה, לפי העניין:</p>
+                </intro>
+                <point eId="point_1__point_דיין__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>לעניין יהודים – דיין כהגדרתו <ref href="/akn/il/act/PrimaryLegislation/1955-05-25/147193">בחוק הדיינים, התשט"ו–1955</ref>, המכהן בבית הדין הרבני הגדול;</p>
+                  </content>
+                </point>
+                <point eId="point_1__point_דיין__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>לעניין דרוזים – קאדי–מד׳הב כהגדרתו <ref href="/akn/il/act/PrimaryLegislation/1963-01-03/147092">בחוק בתי הדין הדתיים הדרוזיים, התשכ"ג–1962</ref>, המכהן בבית הדין הדתי הדרוזי לערעורים;</p>
+                  </content>
+                </point>
+                <point eId="point_1__point_דיין__point_3">
+                  <num>(3)</num>
+                  <content>
+                    <p>לעניין מוסלמים – קאדי כהגדרתו <ref href="/akn/il/act/PrimaryLegislation/1961-05-31/148402">בחוק הקאדים, התשכ"א–1961</ref>, המכהן בבית הדין השרעי לערעורים;</p>
+                  </content>
+                </point>
+                <point eId="point_1__point_דיין__point_4">
+                  <num>(4)</num>
+                  <content>
+                    <p>לעניין בני עדה נוצרית – דיין של ערכאת הערעור בישראל של אותה עדה נוצרית;</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_1__point_חוק_מרשם_האוכלוסין">
+              <content>
+                <p>
+                  <def />”חוק מרשם האוכלוסין“ – <ref href="/akn/il/act/PrimaryLegislation/1965-08-01/147973">חוק מרשם האוכלוסין, התשכ"ה–1965</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_חסר_דת">
+              <content>
+                <p>
+                  <def />”חסר דת“ – מי שאינו יהודי, מוסלמי, דרוזי או בן עדה נוצרית, ובית דין דתי לא קיבל החלטה אחרת בעניינו בהתאם להוראות <ref href="#point_6">סעיף 6</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_מרשם_האוכלוסין">
+              <content>
+                <p>
+                  <def />”מרשם האוכלוסין“ – מרשם האוכלוסין המתנהל לפי <ref href="/akn/il/act/PrimaryLegislation/1965-08-01/147973">חוק מרשם האוכלוסין</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_מרשם_הזוגיות">
+              <content>
+                <p>
+                  <def />”מרשם הזוגיות“ – מרשם של בני זוג שבאו בברית הזוגיות, הנערך לפי הוראות חוק זה;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_עדה_נוצרית">
+              <content>
+                <p>
+                  <def />”עדה נוצרית“ – עדה דתית נוצרית כמשמעותה <ref href="/akn/il/act/PrimaryLegislation/1948-01-19/2069628#point_54">בסימן 54 לדבר המלך במועצה על ארץ ישראל, 1922 עד 1947</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_ראש_בית_דין_דתי">
+              <list>
+                <intro>
+                  <p>
+                    <def />”ראש בית דין דתי“ – כל אחד מאלה, לפי העניין:</p>
+                </intro>
+                <point eId="point_1__point_ראש_בית_דין_דתי__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>לעניין יהודים – נשיא בית הדין הרבני הגדול;</p>
+                  </content>
+                </point>
+                <point eId="point_1__point_ראש_בית_דין_דתי__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>לעניין דרוזים – ראש בית הדין הדתי הדרוזי לערעורים;</p>
+                  </content>
+                </point>
+                <point eId="point_1__point_ראש_בית_דין_דתי__point_3">
+                  <num>(3)</num>
+                  <content>
+                    <p>לעניין מוסלמים – נשיא בית הדין השרעי לערעורים;</p>
+                  </content>
+                </point>
+                <point eId="point_1__point_ראש_בית_דין_דתי__point_4">
+                  <num>(4)</num>
+                  <content>
+                    <p>לעניין בני עדה נוצרית – ראש ערכאת הערעור בישראל של אותה עדה נוצרית;</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_1__point_רושם_נישואין">
+              <content>
+                <p>
+                  <def />”רושם נישואין“ – הרשות הרושמת כהגדרתה <ref href="/akn/il/act/PrimaryLegislation/1933-12-31/2001428">בפקודת הנישואין והגירושין (רישום)</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_רשם_הזוגיות">
+              <content>
+                <p>
+                  <def />”רשם הזוגיות“ – מי שמונה לפי הוראות <ref href="#point_4">סעיף 4</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_תושב_ישראל">
+              <list>
+                <intro>
+                  <p>
+                    <def />”תושב ישראל“ – מי שהתגורר בישראל במשך תקופה של שלוש שנים מתוך חמש השנים שקדמו ליום הגשת הבקשה לרישום במרשם הזוגיות לפי <ref href="#point_5">סעיף 5</ref>, שהוא אחד מאלה:</p>
+                </intro>
+                <point eId="point_1__point_תושב_ישראל__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>אזרח ישראלי;</p>
+                  </content>
+                </point>
+                <point eId="point_1__point_תושב_ישראל__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>מי שניתנה לו אשרת עולה או תעודת עולה לפי <ref href="/akn/il/act/PrimaryLegislation/1950-07-06/148721">חוק השבות, התש"י–1950</ref>;</p>
+                  </content>
+                </point>
+                <point eId="point_1__point_תושב_ישראל__point_3">
+                  <num>(3)</num>
+                  <content>
+                    <p>מי שניתן לו רישיון לישיבת קבע לפי <ref href="/akn/il/act/PrimaryLegislation/1952-09-05/174477">חוק הכניסה לישראל, התשי"ב–1952</ref>;</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_1__point_השר">
+              <content>
+                <p>
+                  <def />”השר“ – שר המשפטים.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_2">
+          <heading>
+            <authorialNote placement="side">
+              <p>הזכאים לערוך ברית זוגיות ולהירשם במרשם הזוגיות</p>
+            </authorialNote>
+          </heading>
+          <num>2.</num>
+          <list>
+            <intro>
+              <p>בני זוג חסרי דת, המסכימים לבוא בברית הזוגיות, רשאים לערוך ברית זוגיות בפני רשם הזוגיות ולהירשם במרשם הזוגיות, בהתקיים התנאים המפורטים להלן, ובכפוף להוראות <ref href="#point_5">סעיפים 5 עד 8</ref>:</p>
+            </intro>
+            <point eId="point_2__point_1">
+              <num>(1)</num>
+              <content>
+                <p>הם בני 18 שנים לפחות;</p>
+              </content>
+            </point>
+            <point eId="point_2__point_2">
+              <num>(2)</num>
+              <content>
+                <p>הם תושבי ישראל;</p>
+              </content>
+            </point>
+            <point eId="point_2__point_3">
+              <num>(3)</num>
+              <content>
+                <p>הם רשומים במרשם האוכלוסין כחסרי דת;</p>
+              </content>
+            </point>
+            <point eId="point_2__point_4">
+              <num>(4)</num>
+              <list>
+                <intro>
+                  <p>הם אינם קרובי משפחה; לעניין זה –</p>
+                </intro>
+                <point eId="point_2__point_4__point_קרוב_משפחה">
+                  <content>
+                    <p>
+                      <def />”קרוב משפחה“ – הורה, הורה של הורה, צאצא, בן זוג או מי שהיה בן זוג של כל אחד מהם, וכן אח או אחות ובני זוגם;</p>
+                  </content>
+                </point>
+                <point eId="point_2__point_4__point_בן_זוג">
+                  <content>
+                    <p>
+                      <def />”בן זוג“, של אדם – מי שנשוי לאותו אדם וכן מי שרשום כבן זוגו של אותו אדם במרשם הזוגיות;</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_2__point_5">
+              <num>(5)</num>
+              <content>
+                <p>הם אינם נשואים זה לזו ואינם רשומים במרשם האוכלוסין כנשואים זה לזו;</p>
+              </content>
+            </point>
+            <point eId="point_2__point_6">
+              <num>(6)</num>
+              <content>
+                <p>אף אחד מהם אינו נשוי לאחר, אינו רשום במרשם האוכלוסין כנשוי לאחר ואינו רשום כבן זוגו של אחר במרשם הזוגיות או במרשם דומה המתנהל על פי דין במדינה אחרת;</p>
+              </content>
+            </point>
+            <point eId="point_2__point_7">
+              <num>(7)</num>
+              <content>
+                <p>היה אחד מהם פסול דין או מי שמונה לו אפוטרופוס – בית המשפט אישר שהוא מסוגל לתת הסכמה מדעת לבוא בברית הזוגיות.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_3">
+          <heading>
+            <authorialNote placement="side">
+              <p>סמכות ייחודית של בית המשפט</p>
+            </authorialNote>
+          </heading>
+          <num>3.</num>
+          <content>
+            <p>לבית המשפט סמכות ייחודית לדון בעניינים שבחוק זה, למעט קביעת היותו של אדם חסר דת לעניין חוק זה.</p>
+          </content>
+        </point>
+        <point eId="point_4">
+          <heading>
+            <authorialNote placement="side">
+              <p>רשם זוגיות</p>
+            </authorialNote>
+          </heading>
+          <num>4.</num>
+          <list>
+            <point eId="point_4__point_א">
+              <num>(א)</num>
+              <content>
+                <p>השר ימנה אדם הכשיר להתמנות לשופט בבית המשפט, לרשם זוגיות, ורשאי הוא למנות כמה רשמי זוגיות אם מצא לנכון לעשות כן; מינה השר כמה רשמי זוגיות, ימנה אחד מהם לרשם זוגיות ראשי.</p>
+              </content>
+            </point>
+            <point eId="point_4__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>רשם הזוגיות ינהל את מרשם הזוגיות; מינה השר כמה רשמי זוגיות, יפקח רשם הזוגיות הראשי על פעולתם של רשמי הזוגיות ויהיה אחראי על ניהולו התקין של המרשם.</p>
+              </content>
+            </point>
+            <point eId="point_4__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>לצורך מילוי תפקידו יהיו לרשם הזוגיות סמכויות חקירה לפי <ref href="/akn/il/act/PrimaryLegislation/1969-01-08/147339#point_9">סעיפים 9 עד 11 לחוק ועדות חקירה, התשכ"ט–1968</ref>.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_5">
+          <heading>
+            <authorialNote placement="side">
+              <p>בקשה לעריכת ברית זוגיות ולרישום במרשם הזוגיות</p>
+            </authorialNote>
+          </heading>
+          <num>5.</num>
+          <list>
+            <point eId="point_5__point_א">
+              <num>(א)</num>
+              <content>
+                <p>בני הזוג המבקשים לערוך ברית זוגיות בפני רשם הזוגיות ולהירשם במרשם הזוגיות, יגישו לרשם הזוגיות בקשה לכך (להלן – הבקשה לרישום); בקשה כאמור תוגש בטופס שקבע השר, בצירוף תצהיר של בני הזוג כי מתקיימים בהם התנאים <ref href="#point_2">שבסעיף 2</ref> ובצירוף מסמכים אחרים שקבע השר.</p>
+              </content>
+            </point>
+            <point eId="point_5__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>הוגשה בקשה לרישום לפי הוראות סעיף קטן (א) ומצא רשם הזוגיות כי מתקיימים בבני הזוג התנאים <ref href="#point_2">שבסעיף 2</ref>, לאחר שבדק את פרטי הרישום של בני הזוג במרשם האוכלוסין, לרבות פרטי הרישום לעניין הדת והמצב האישי, יפרסם הודעה לציבור על הגשת הבקשה לרישום ויעביר העתק מן הבקשה לכל ראש בית דין דתי או למי שראש בית הדין הדתי הסמיך לכך לפי הוראות <ref href="#point_6">סעיף 6(ה)</ref>; מצא רשם הזוגיות כי לא מתקיים אחד מהתנאים <ref href="#point_2">שבסעיף 2</ref>, ידחה את הבקשה לרישום וימסור הודעה על כך לבני הזוג.</p>
+              </content>
+            </point>
+            <point eId="point_5__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>ראש בית דין דתי רשאי להודיע לרשם הזוגיות, בהודעה כללית, כי אין צורך להעביר אליו את העתקי הבקשות לרישום, לפי הוראות סעיף קטן (ב), לשם רישום במרשם הזוגיות.</p>
+              </content>
+            </point>
+            <point eId="point_5__point_ד">
+              <num>(ד)</num>
+              <content>
+                <p>השר יקבע הוראות לעניין אופן פרסום ההודעה על הגשת בקשה לרישום לפי סעיף קטן (ב) והפרטים שייכללו בה.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_6">
+          <heading>
+            <authorialNote placement="side">
+              <p>התנגדות בית דין דתי לרישום במרשם הזוגיות</p>
+            </authorialNote>
+          </heading>
+          <num>6.</num>
+          <list>
+            <point eId="point_6__point_א">
+              <num>(א)</num>
+              <content>
+                <p>סבר ראש בית דין דתי כי אחד מבני הזוג שהגיש בקשה לרישום הוא בן העדה הדתית שענייני הנישואין שלה בסמכות השיפוט של בית הדין הדתי, או התעורר אצלו ספק ביחס להשתייכותו של אחד מבני הזוג לעדה הדתית האמורה, יעביר את העניין להכרעתו של בית הדין הדתי ויודיע על כך לרשם הזוגיות בתוך 60 ימים מיום קבלת העתק הבקשה; הודיע ראש בית דין דתי כאמור, ישהה רשם הזוגיות את החלטתו בבקשה לרישום עד להחלטת בית הדין הדתי בעניין לפי הוראות סעיף זה.</p>
+              </content>
+            </point>
+            <point eId="point_6__point_ב">
+              <num>(ב)</num>
+              <list>
+                <intro>
+                  <p>בית דין דתי שבקשה הועברה להכרעתו לפי הוראות סעיף קטן (א) רשאי להחליט על אחד מאלה, לאחר שנתן לבן הזוג שעניינו נדון לפניו הזדמנות לטעון את טענותיו:</p>
+                </intro>
+                <point eId="point_6__point_ב__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>העדר התנגדות לרישום במרשם הזוגיות;</p>
+                  </content>
+                </point>
+                <point eId="point_6__point_ב__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>התנגדות לרישום במרשם הזוגיות בשל כך שבן הזוג הוא בן העדה הדתית שענייני הנישואין שלה בסמכות השיפוט של בית הדין הדתי או בשל קיומו של ספק ביחס להשתייכותו של בן הזוג לעדה הדתית האמורה.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_6__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>ראש בית הדין הדתי יודיע לרשם הזוגיות על החלטת בית הדין הדתי כאמור בסעיף קטן (ב), מיד עם קבלתה; לא הודיע כאמור בתוך שלושה חודשים מהיום שבו התקבל העתק הבקשה לרישום לפי הוראות <ref href="#point_5">סעיף 5</ref>, יראו את בית הדין כאילו קיבל החלטה על העדר התנגדות כאמור בסעיף קטן (ב)(1).</p>
+              </content>
+            </point>
+            <point eId="point_6__point_ד">
+              <num>(ד)</num>
+              <content>
+                <p>קיבל רשם הזוגיות הודעה על החלטת בית דין דתי כאמור בסעיף קטן (ב)(1), ימשיך בהליכי הרישום במרשם הזוגיות לפי הוראות <ref href="#point_8">סעיף 8</ref>; קיבל רשם הזוגיות הודעה על החלטת בית דין דתי כאמור בסעיף קטן (ב)(2), ידחה את הבקשה לרישום ויודיע על כך לבני הזוג.</p>
+              </content>
+            </point>
+            <point eId="point_6__point_ה">
+              <num>(ה)</num>
+              <content>
+                <p>ראש בית דין דתי רשאי להסמיך דיין מבית הדין הדתי שהוא עומד בראשו או רושם נישואין של העדה הדתית שענייני הנישואין שלה בסמכות השיפוט של בית הדין האמור, לשם ביצוע סמכויותיו לפי סעיף זה; הסמיך ראש בית דין דתי דיין או רושם נישואין כאמור יודיע על כך לרשם הזוגיות.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_7">
+          <heading>
+            <authorialNote placement="side">
+              <p>התנגדות הציבור לרישום במרשם הזוגיות</p>
+            </authorialNote>
+          </heading>
+          <num>7.</num>
+          <list>
+            <point eId="point_7__point_א">
+              <num>(א)</num>
+              <content>
+                <p>כל אדם רשאי להגיש לרשם הזוגיות, בתוך 30 ימים מהיום שבו פורסמה הודעה לציבור לפי <ref href="#point_5">סעיף 5(ב)</ref>, התנגדות לבקשה לרישום בשל כך שלא התקיים תנאי מהתנאים האמורים <ref href="#point_2">בסעיף 2</ref>; הוגשה לרשם הזוגיות התנגדות כאמור, ימציא הרשם העתק ממנה לבני הזוג, ורשאים בני הזוג להשיב להתנגדות, בתוך תקופה שקבע השר.</p>
+              </content>
+            </point>
+            <point eId="point_7__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>הוגשה התנגדות לפי הוראות סעיף קטן (א), יבחן רשם הזוגיות את ההתנגדות ויחליט אם לדחותה או לקבלה; החליט רשם הזוגיות לדחות את ההתנגדות ימשיך בהליכי הרישום במרשם הזוגיות לפי הוראות <ref href="#point_8">סעיף 8</ref>; קיבל רשם הזוגיות את ההתנגדות ידחה את הבקשה לרישום ויודיע על כך לבני הזוג.</p>
+              </content>
+            </point>
+            <point eId="point_7__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>על אף הוראות סעיף קטן (ב), הוגשה התנגדות לבקשה לרישום לפי הוראות סעיף קטן (א) שבה נטען כי אחד משני הזוג הוא יהודי, מוסלמי, דרוזי או בן עדה נוצרית, יעביר רשם הזוגיות העתק מההתנגדות לראש בית הדין הדתי הנוגע בדבר או למי שראש בית הדין הדתי הסמיך לכך לפי הוראות <ref href="#point_6">סעיף 6(ה)</ref>; הועבר העתק מההתנגדות כאמור, יחולו לעניין זה הוראות <ref href="#point_6">סעיף 6</ref>, בשינויים המחויבים ובשינוי זה: מניינן של התקופות המנויות <ref href="#point_6">בסעיפים קטנים (א) ו־(ג) של הסעיף האמור</ref> יחל במועד שבו התקבל העתק ההתנגדות.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_8">
+          <heading>
+            <authorialNote placement="side">
+              <p>עריכת ברית הזוגיות ורישום במרשם הזוגיות</p>
+            </authorialNote>
+          </heading>
+          <num>8.</num>
+          <list>
+            <point eId="point_8__point_א">
+              <num>(א)</num>
+              <content>
+                <p>לא הוגשה או נדחתה התנגדות לפי <ref href="#point_6">סעיפים 6</ref><ref href="#point_7">או 7</ref>, יזמין רשם הזוגיות את בני הזוג להתייצב לפניו לבוא בברית הזוגיות.</p>
+              </content>
+            </point>
+            <point eId="point_8__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>התייצבו בני הזוג לפני רשם הזוגיות, יסביר להם את משמעות ברית הזוגיות; בני הזוג יצהירו לפני רשם הזוגיות כי מתקיימים בהם התנאים האמורים <ref href="#point_2">בסעיף 2</ref>, וכי הם מסכימים לבוא בברית הזוגיות.</p>
+              </content>
+            </point>
+            <point eId="point_8__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>נוכח רשם הזוגיות כי מתקיימים התנאים <ref href="#point_2">שבסעיף 2</ref> וכי כל אחד מבני הזוג מסכים לבוא בברית הזוגיות בהסכמה חופשית ובהבינו את משמעותה ותוצאותיה, יחתמו בפניו בני הזוג על ברית הזוגיות ורשם הזוגיות יאמת את ההסכם בחתימתו.</p>
+              </content>
+            </point>
+            <point eId="point_8__point_ד">
+              <num>(ד)</num>
+              <content>
+                <p>רשם הזוגיות ירשום במרשם הזוגיות את פרטי בני הזוג כפי שקבע השר; העתק מן הרישום יישלח לבני הזוג ולפקיד הרישום לפי <ref href="/akn/il/act/PrimaryLegislation/1965-08-01/147973#point_15">סעיף 15 לחוק מרשם האוכלוסין</ref>.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_9">
+          <heading>
+            <authorialNote placement="side">
+              <p>עיון במרשם וקבלת ידיעות מהמרשם</p>
+            </authorialNote>
+          </heading>
+          <num>9.</num>
+          <list>
+            <point eId="point_9__point_א">
+              <num>(א)</num>
+              <list>
+                <intro>
+                  <p>המרשם לא יהיה פתוח לעיון אלא למפורטים להלן ולצורך מילוי תפקידם:</p>
+                </intro>
+                <point eId="point_9__point_א__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>שר הפנים או מי שהשר הסמיכו לכך;</p>
+                  </content>
+                </point>
+                <point eId="point_9__point_א__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>מי שבית משפט או בית דין דתי הסמיכו לכך לעניין מסוים התלוי ועומד לפניהם;</p>
+                  </content>
+                </point>
+                <point eId="point_9__point_א__point_3">
+                  <num>(3)</num>
+                  <content>
+                    <p>רושם נישואין או מי שהרושם הסמיכו לכך;</p>
+                  </content>
+                </point>
+                <point eId="point_9__point_א__point_4">
+                  <num>(4)</num>
+                  <content>
+                    <p>בעל תפקיד אחר שקבע השר.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_9__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>כל אדם רשאי לקבל ידיעה בנוגע לרישום לגביו במרשם הזוגיות וכן העתק או תמצית מן הרישום.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_10">
+          <heading>
+            <authorialNote placement="side">
+              <p>מחיקה ממרשם הזוגיות בידי הרשם</p>
+            </authorialNote>
+          </heading>
+          <num>10.</num>
+          <list>
+            <point eId="point_10__point_א">
+              <num>(א)</num>
+              <content>
+                <p>בני זוג שהסכימו להתיר את ברית הזוגיות ביניהם רשאים להגיש לרשם הזוגיות בקשה למחקם ממרשם הזוגיות, בטופס ובצירוף מסמכים שקבע השר; היה אחד מבני הזוג פסול דין או מי שמונה לו אפוטרופוס, תוגש הבקשה לבית משפט לפי הוראות <ref href="#point_11">סעיף 11(ג)</ref>.</p>
+              </content>
+            </point>
+            <point eId="point_10__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>הוגשה בקשה לפי הוראות סעיף קטן (א), יתייצבו בני הזוג לפני הרשם ויצהירו לפניו כי הם מסכימים להתיר את ברית הזוגיות.</p>
+              </content>
+            </point>
+            <point eId="point_10__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>נוכח רשם הזוגיות כי כל אחד מבני הזוג נתן את הצהרתו בהסכמה חופשית ובהבינו את משמעותה ותוצאותיה, יחתמו לפניו בני הזוג על הצהרתם והוא יאשר את הצהרתם בחתימתו וימחק את רישומם ממרשם הזוגיות.</p>
+              </content>
+            </point>
+            <point eId="point_10__point_ד">
+              <num>(ד)</num>
+              <list>
+                <intro>
+                  <p>בלי לגרוע מהוראות סעיפים קטנים (א) עד (ג), ימחק רשם הזוגיות בני זוג ממרשם הזוגיות גם בהתקיים אחד מאלה:</p>
+                </intro>
+                <point eId="point_10__point_ד__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>אחד מבני הזוג נפטר;</p>
+                  </content>
+                </point>
+                <point eId="point_10__point_ד__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>בית משפט נתן פסק דין חלוט המתיר את ברית הזוגיות לפי הוראות <ref href="#point_11">סעיף 11</ref>; לעניין זה יראו את המועד שבו פסק הדין הפך לחלוט, כמועד המחיקה;</p>
+                  </content>
+                </point>
+                <point eId="point_10__point_ד__point_3">
+                  <num>(3)</num>
+                  <content>
+                    <p>התקבלה הודעה לפי <ref href="/akn/il/act/PrimaryLegislation/1933-12-31/2001428#point_4א">סעיף 4א לפקודת הנישואין והגירושין (רישום)</ref>, ולפיה בני הזוג נישאו זה לזו.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_10__point_ה">
+              <num>(ה)</num>
+              <content>
+                <p>מחק רשם הזוגיות את בני הזוג ממרשם הזוגיות לפי הוראות סעיף זה, ישלח אישור על המחיקה לבני הזוג ולפקיד הרישום לפי <ref href="/akn/il/act/PrimaryLegislation/1965-08-01/147973#point_15">סעיף 15 לחוק מרשם האוכלוסין</ref>.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_11">
+          <heading>
+            <authorialNote placement="side">
+              <p>התרת ברית הזוגיות בידי בית המשפט</p>
+            </authorialNote>
+          </heading>
+          <num>11.</num>
+          <list>
+            <point eId="point_11__point_א">
+              <num>(א)</num>
+              <content>
+                <p>לא הושגה הסכמה בין בני זוג הרשומים במרשם הזוגיות, הנדרשת לצורך הגשת בקשה למחיקתם מהמרשם לפי הוראות <ref href="#point_10">סעיף 10(א)</ref>, רשאי בן זוג המעוניין בהתרת ברית הזוגיות להגיש לבית המשפט בקשה ליישוב סכסוך.</p>
+              </content>
+            </point>
+            <point eId="point_11__point_ב">
+              <num>(ב)</num>
+              <list>
+                <intro>
+                  <p>הוגשה לבית משפט בקשה ליישוב סכסוך לפי הוראות סעיף קטן (א), ייתן בית המשפט פסק דין המתיר את ברית הזוגיות באחת מאלה:</p>
+                </intro>
+                <point eId="point_11__point_ב__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>בני הזוג הגיעו להסכם בדבר הסדר הסכסוך, הכולל הסכמה להתיר את ברית הזוגיות;</p>
+                  </content>
+                </point>
+                <point eId="point_11__point_ב__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>בני הזוג לא הגיעו להסדר כאמור בפסקה (1) בתוך שישה חודשים מיום שהוגשה הבקשה ליישוב סכסוך ואחד מבני הזוג הודיע לבית המשפט כי הוא מעוניין בהתרת ברית הזוגיות; ואולם רשאי בית המשפט לעכב את מתן פסק הדין עד שיסתיימו ההליכים הקשורים ליחסי הממון בין בני הזוג או ההליכים הקשורות לאפוטרופסות ולהחזקת הילדים;</p>
+                  </content>
+                </point>
+                <point eId="point_11__point_ב__point_3">
+                  <num>(3)</num>
+                  <content>
+                    <p>חלפה שנה מיום הגשת הבקשה ליישוב סכסוך ולא היה ניתן לאתר את בן הזוג ולהמציא לו את הבקשה.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_11__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>הסכימו בני זוג להתיר את ברית הזוגיות ביניהם והיה אחד מהם פסול דין או מי שמונה לו אפוטרופוס, יגישו בקשה כאמור <ref href="#point_10">בסעיף 10(א)</ref> לבית המשפט, ויצהירו לפני בית המשפט כי הם מסכימים להתיר את ברית הזוגיות; בית המשפט ייתן פסק דין המתיר את ברית הזוגיות לאחר שנוכח כי פסול הדין או מי שמונה לו אפוטרופוס מסוגל להבין בדבר וכי כל אחד מבני הזוג הסכים להתרת ברית הזוגיות בהסכמה חופשית ובהבינו את משמעותה ותוצאותיה.</p>
+              </content>
+            </point>
+            <point eId="point_11__point_ד">
+              <num>(ד)</num>
+              <list>
+                <intro>
+                  <p>בלי לגרוע מהוראות סעיפים קטנים (א) עד (ג), רשאי בית המשפט לתת פסק דין המתיר את ברית הזוגיות גם בהתקיים אחד מאלה:</p>
+                </intro>
+                <point eId="point_11__point_ד__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>ברית הזוגיות נעשתה למראית עין;</p>
+                  </content>
+                </point>
+                <point eId="point_11__point_ד__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>הרישום במרשם הזוגיות נעשה על יסוד מידע כוזב או שגוי;</p>
+                  </content>
+                </point>
+                <point eId="point_11__point_ד__point_3">
+                  <num>(3)</num>
+                  <content>
+                    <p>בית המשפט נוכח כי לא ניתן לקבל את הסכמת בן הזוג להתרת ברית הזוגיות מחמת ליקוי נפשי או שכלי שבשלו בן הזוג אינו מסוגל להבין את משמעות התרת ברית הזוגיות ותוצאותיה;</p>
+                  </content>
+                </point>
+                <point eId="point_11__point_ד__point_4">
+                  <num>(4)</num>
+                  <content>
+                    <p>בן זוגו של המבקש נישא לאחר או נרשם כבן זוגו של אחר במרשם הזוגיות או במרשם דומה המתנהל על פי דין במדינה אחרת.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+          </list>
+        </point>
+        <point eId="point_12">
+          <heading>
+            <authorialNote placement="side">
+              <p>ערעור על החלטות הרשם</p>
+            </authorialNote>
+          </heading>
+          <num>12.</num>
+          <list>
+            <intro>
+              <p>כל אחד מהמפורטים בפסקאות שלהלן רשאי לערער לבית המשפט על החלטת הרשם כמפורט באותן פסקאות:</p>
+            </intro>
+            <point eId="point_12__point_1">
+              <num>(1)</num>
+              <content>
+                <p>בן זוג שהגיש בקשה לרישום – על החלטת הרשם לדחות את בקשתו לפי <ref href="#point_5">סעיפים 5(ב)</ref><ref href="#point_7">או 7(ב)</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_12__point_2">
+              <num>(2)</num>
+              <content>
+                <p>אדם שהגיש התנגדות לפי <ref href="#point_7">סעיף 7</ref> – על החלטת הרשם לרשום את בני הזוג במרשם הזוגיות לפי <ref href="#point_8">סעיף 8</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_12__point_3">
+              <num>(3)</num>
+              <content>
+                <p>בן הזוג הרשום במרשם הזוגיות או שנמחק ממרשם הזוגיות – על החלטת הרשם שניתנה לגביו לפי <ref href="#point_10">סעיף 10</ref>.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_13">
+          <heading>
+            <authorialNote placement="side">
+              <p>הדין החל על בני זוג הרשומים במרשם הזוגיות</p>
+            </authorialNote>
+          </heading>
+          <num>13.</num>
+          <list>
+            <point eId="point_13__point_א">
+              <num>(א)</num>
+              <list>
+                <intro>
+                  <p>בכפוף להוראות סעיף זה –</p>
+                </intro>
+                <point eId="point_13__point_א__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>דין בני זוג הרשומים במרשם הזוגיות לפי הוראות חוק זה, כדין בני זוג נשואים;</p>
+                  </content>
+                </point>
+                <point eId="point_13__point_א__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>דין בני זוג שרישומם במרשם הזוגיות נמחק, כדין בני זוג שנישואיהם הותרו;</p>
+                  </content>
+                </point>
+                <point eId="point_13__point_א__point_3">
+                  <num>(3)</num>
+                  <content>
+                    <p>דין אדם שבן זוגו נפטר בעת שהיה רשום כבן זוגו במרשם הזוגיות, כדין אלמן.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_13__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>הוראות <ref href="/akn/il/act/PrimaryLegislation/1973-08-03/147075">חוק יחסי ממון בין בני זוג, התשל"ג–1973</ref> (בסעיף זה – חוק יחסי ממון), יחולו על בני זוג הרשומים במרשם הזוגיות, בשינויים המחויבים ובשינוי זה: בלי לגרוע מהוראות <ref href="/akn/il/act/PrimaryLegislation/1973-08-03/147075#point_2">סעיף 2 לחוק יחסי ממון</ref>, הסכם ממון בין בני זוג הבאים בברית הזוגיות יכול שיאומת גם בידי רשם הזוגיות בעת הרישום במרשם הזוגיות לפי הוראות <ref href="#point_8">סעיף 8</ref> או בעת מחיקת הרישום כאמור בידי הרשם לפי הוראות <ref href="#point_10">סעיף 10(ג)</ref>, וזאת לאחר שנוכח כי בני הזוג עשו את ההסכם בהסכמה חופשית וכי הם מבינים את משמעותו ותוצאותיו; אומת הסכם ממון בידי רשם הזוגיות, דינו לכל דבר ועניין, פרט לערעור, כדין פסק דין של בית המשפט.</p>
+              </content>
+            </point>
+            <point eId="point_13__point_ג">
+              <num>(ג)</num>
+              <list>
+                <intro>
+                  <p>על אף הוראות סעיף קטן (א) –</p>
+                </intro>
+                <point eId="point_13__point_ג__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>ההוראות לפי <ref href="/akn/il/act/PrimaryLegislation/1952-04-08/174505">חוק האזרחות, התשי"ב–1952</ref>, <ref href="/akn/il/act/PrimaryLegislation/1950-07-06/148721">חוק השבות, התש"י–1950</ref>, <ref href="/akn/il/act/PrimaryLegislation/1952-09-05/174477">וחוק הכניסה לישראל, התשי"ב–1952</ref>, החלות על בני זוג נשואים, לא יחולו על בני זוג הרשומים במרשם הזוגיות;</p>
+                  </content>
+                </point>
+                <point eId="point_13__point_ג__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>הוראות החיקוקים המנויים <ref href="#appendix">בתוספת</ref> החלות על בני זוג נשואים, יחולו על בני זוג הרשומים במרשם הזוגיות רק לאחר שחלפו 18 חודשים מיום שבני הזוג נרשמו במרשם הזוגיות; השר, באישור ועדת החוקה חוק ומשפט של הכנסת, רשאי, בצו, לשנות את <ref href="#appendix">התוספת</ref>.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_13__point_ד">
+              <num>(ד)</num>
+              <content>
+                <p>הוראות סעיף זה לא יחולו לעניין זכויות וחובות על פי הדין האישי ולעניין רישום לפי <ref href="/akn/il/act/PrimaryLegislation/1965-08-01/147973">חוק מרשם האוכלוסין</ref>.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_14">
+          <heading>
+            <authorialNote placement="side">
+              <p>שמירת דינים</p>
+            </authorialNote>
+          </heading>
+          <num>14.</num>
+          <content>
+            <p>אין הוראות חוק זה כדי לפגוע בדיני נישואין וגירושין ובסמכות השיפוט של בתי הדין הדתיים לפי כל דין.</p>
+          </content>
+        </point>
+        <point eId="point_15">
+          <heading>
+            <authorialNote placement="side">
+              <p>ביצוע ותקנות</p>
+            </authorialNote>
+          </heading>
+          <num>15.</num>
+          <list>
+            <point eId="point_15__point_א">
+              <num>(א)</num>
+              <list>
+                <intro>
+                  <p>השר ממונה על ביצוע חוק זה, והוא רשאי להתקין תקנות לביצועו, ובכלל זה בעניינים אלה:</p>
+                </intro>
+                <point eId="point_15__point_א__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>ההליכים בפני רשם הזוגיות;</p>
+                  </content>
+                </point>
+                <point eId="point_15__point_א__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>סדרי הדין בפני בית המשפט;</p>
+                  </content>
+                </point>
+                <point eId="point_15__point_א__point_3">
+                  <num>(3)</num>
+                  <content>
+                    <p>אגרות בעד הגשת בקשה לרישום במרשם הזוגיות או בקשה למחיקת רישום כאמור.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_15__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>תקנות לפי סעיף קטן (א)(3) יותקנו באישור ועדת החוקה חוק ומשפט של הכנסת.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_16">
+          <heading>
+            <authorialNote placement="side">
+              <p xml:space="preserve"> </p>
+            </authorialNote>
+          </heading>
+          <num>16.</num>
+          <content>
+            <p>
+              <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryLegislation/1965-08-01/147973">בחוק מרשם האוכלוסין, התשכ"ה–1965</ref>.</wikicomment>
+            </p>
+          </content>
+        </point>
+        <point eId="point_17">
+          <heading>
+            <authorialNote placement="side">
+              <p xml:space="preserve"> </p>
+            </authorialNote>
+          </heading>
+          <num>17.</num>
+          <content>
+            <p>
+              <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryLegislation/1933-12-31/2001428">בפקודת הנישואין והגירושין (רישום)</ref>.</wikicomment>
+            </p>
+          </content>
+        </point>
+        <point eId="point_18">
+          <heading>
+            <authorialNote placement="side">
+              <p>תחילה</p>
+            </authorialNote>
+          </heading>
+          <num>18.</num>
+          <content>
+            <p>תחילתו של חוק זה שישה חודשים מיום פרסומו.</p>
+          </content>
+        </point>
+      </list>
+      <appendix eId="appendix">
+        <num></num>
+        <title>
+          <content>
+            <p>תוספת</p>
+          </content>
+        </title>
+        <subtitle eId="eId">
+          <num></num>
+          <content>
+            <p>
+              <wikicomment font-size="x-small">(<ref href="#point_13">סעיף 13(ג)(2)</ref>)</wikicomment>
+            </p>
+          </content>
+        </subtitle>
+        <list>
+          <point eId="appendix__point_1">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>1.</num>
+            <content>
+              <p>
+                <ref href="/akn/il/act/PrimaryLegislation/1981-05-28/146875">חוק אימוץ ילדים, התשמ"א–1981</ref>.</p>
+            </content>
+          </point>
+          <point eId="appendix__point_2">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>2.</num>
+            <content>
+              <p>
+                <ref href="/akn/il/act/PrimaryLegislation/1996-03-17/174449">חוק הסכמים לנשיאת עוברים (אישור הסכם ומעמד היילוד), התשנ"ו–1996</ref>.</p>
+            </content>
+          </point>
+        </list>
+      </appendix>
+    </body>
+    <conclusions eId="eId">
+      <p class="signatures">
+        <signature>
+          <p>
+            <person refersTo="בנימין_נתניהו">בנימין נתניהו</person>
+            <role refersTo="ראש_הממשלה">ראש הממשלה</role>
+          </p>
+        </signature>
+        <signature>
+          <p>
+            <person refersTo="יעקב_נאמן">יעקב נאמן</person>
+            <role refersTo="שר_המשפטים">שר המשפטים</role>
+          </p>
+        </signature>
+        <signature>
+          <p>
+            <person refersTo="שמעון_פרס">שמעון פרס</person>
+            <role refersTo="נשיא_המדינה">נשיא המדינה</role>
+          </p>
+        </signature>
+        <signature>
+          <p>
+            <person refersTo="ראובן_ריבלין">ראובן ריבלין</person>
+            <role refersTo="יושב_ראש_הכנסת">יושב ראש הכנסת</role>
+          </p>
+        </signature>
+      </p>
+    </conclusions>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,2736 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion" name="publicLaw">
+    <meta>
+      <identification source="#kensset">
+        <FRBRWork>
+          <FRBRthis value="/akn/il/act/SecondaryLegislation/2009-12-10/100035141/main" />
+          <FRBRuri value="/akn/il/act/SecondaryLegislation/2009-12-10/100035141" />
+          <FRBRdate date="2009-12-10" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRcountry value="israel" />
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/il/act/SecondaryLegislation/2009-12-10/100035141/he@/main" />
+          <FRBRuri value="/akn/il/act/SecondaryLegislation/2009-12-10/100035141/he@" />
+          <FRBRdate date="2009-12-10" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRlanguage language="hebrew" />
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/il/act/SecondaryLegislation/2009-12-10/100035141/he@/main.xml" />
+          <FRBRuri value="/akn/il/act/SecondaryLegislation/2009-12-10/100035141/he@" />
+          <FRBRdate date="2009-12-10" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRformat value="xml" />
+        </FRBRManifestation>
+      </identification>
+      <classification source="#kensset">
+        <keyword value="{classificationValue}" showAs="{classificationValue}" dictionary="#classification_dictionary" />
+      </classification>
+      <lifecycle source="#kensset">
+        <eventRef eId="eventRef_1" date="2009-12-10" source="#kensset" type="generation" />
+      </lifecycle>
+      <references source="#kensset">
+        <TLCOrganization eId="kensset" href="/ontology/organization/akn/knesset" showAs="Kensset" type="generation" />
+        <TLCRole eId="author" href="/ontology/role/akn/author" showAs="Author of Document" />
+        <TLCProcess eId="inforce" href="/ontology/process/akn/inforce" showAs="In force" />
+        <TLCTerm eId="term_1" href="/ontology/term/אגד/100035141" showAs="אגד" />
+        <TLCTerm eId="term_2" href="/ontology/term/איגרות_חוב/100035141" showAs="איגרות_חוב" />
+        <TLCTerm eId="term_3" href="/ontology/term/אופציה/100035141" showAs="אופציה" />
+        <TLCTerm eId="term_4" href="/ontology/term/גורם_מקורב/100035141" showAs="גורם_מקורב" />
+        <TLCTerm eId="term_5" href="/ontology/term/הוספה/100035141" showAs="הוספה" />
+        <TLCTerm eId="term_6" href="/ontology/term/הפסד_הון/100035141" showAs="הפסד_הון" />
+        <TLCTerm eId="term_7" href="/ontology/term/ועדת_השקעות/100035141" showAs="ועדת_השקעות" />
+        <TLCTerm eId="term_8" href="/ontology/term/חוק_הסדרת_העיסוק/100035141" showAs="חוק_הסדרת_העיסוק" />
+        <TLCTerm eId="term_9" href="/ontology/term/טווח/100035141" showAs="טווח" />
+        <TLCTerm eId="term_10" href="/ontology/term/טווח_חשיפה/100035141" showAs="טווח_חשיפה" />
+        <TLCTerm eId="term_11" href="/ontology/term/אגד_ישראלי_בלתי_מוגבל/100035141" showAs="אגד_ישראלי_בלתי_מוגבל" />
+        <TLCTerm eId="term_12" href="/ontology/term/כותרת_ראשית/100035141" showAs="כותרת_ראשית" />
+        <TLCTerm eId="term_13" href="/ontology/term/מדד_המחירים_לצרכן/100035141" showAs="מדד_המחירים_לצרכן" />
+        <TLCTerm eId="term_14" href="/ontology/term/מדד_המק''מ/100035141" showAs="מדד_המק''מ" />
+        <TLCTerm eId="term_15" href="/ontology/term/מוסד_אקדמי/100035141" showAs="מוסד_אקדמי" />
+        <TLCTerm eId="term_16" href="/ontology/term/מכירה_בחסר/100035141" showAs="מכירה_בחסר" />
+        <TLCTerm eId="term_17" href="/ontology/term/ממוצע/100035141" showAs="ממוצע" />
+        <TLCTerm eId="term_18" href="/ontology/term/מנהל_השקעות_חיצוני/100035141" showAs="מנהל_השקעות_חיצוני" />
+        <TLCTerm eId="term_19" href="/ontology/term/מנהל_קרן_חדש/100035141" showAs="מנהל_קרן_חדש" />
+        <TLCTerm eId="term_20" href="/ontology/term/מנהל_תיקי_השקעות/100035141" showAs="מנהל_תיקי_השקעות" />
+        <TLCTerm eId="term_21" href="/ontology/term/נייר_ערך/100035141" showAs="נייר_ערך" />
+        <TLCTerm eId="term_22" href="/ontology/term/נכס_בסיס/100035141" showAs="נכס_בסיס" />
+        <TLCTerm eId="term_23" href="/ontology/term/נכס_ייחוס_של_קרן/100035141" showAs="נכס_ייחוס_של_קרן" />
+        <TLCTerm eId="term_24" href="/ontology/term/סוג_הקרן/100035141" showAs="סוג_הקרן" />
+        <TLCTerm eId="term_25" href="/ontology/term/סוג_הקרן_לצורך_עמלת_הפצה/100035141" showAs="סוג_הקרן_לצורך_עמלת_הפצה" />
+        <TLCTerm eId="term_26" href="/ontology/term/סיווג_קרן/100035141" showAs="סיווג_קרן" />
+        <TLCTerm eId="term_27" href="/ontology/term/עמלות/100035141" showAs="עמלות" />
+        <TLCTerm eId="term_28" href="/ontology/term/עמלת_הפצה/100035141" showAs="עמלת_הפצה" />
+        <TLCTerm eId="term_29" href="/ontology/term/פקודת_מס_הכנסה/100035141" showAs="פקודת_מס_הכנסה" />
+        <TLCTerm eId="term_30" href="/ontology/term/קרן_גמישה/100035141" showAs="קרן_גמישה" />
+        <TLCTerm eId="term_31" href="/ontology/term/קרן_חדשה/100035141" showAs="קרן_חדשה" />
+        <TLCTerm eId="term_32" href="/ontology/term/קרן_חייבת/100035141" showAs="קרן_חייבת" />
+        <TLCTerm eId="term_33" href="/ontology/term/קרן_פטורה/100035141" showAs="קרן_פטורה" />
+        <TLCTerm eId="term_34" href="/ontology/term/קרן_להשקעות_חוץ_(מטבע_עיקרי)/100035141" showAs="קרן_להשקעות_חוץ_(מטבע_עיקרי)" />
+        <TLCTerm eId="term_35" href="/ontology/term/קרן_להשקעות_חוץ_(פטור_ממס_לתושב_חוץ)/100035141" showAs="קרן_להשקעות_חוץ_(פטור_ממס_לתושב_חוץ)" />
+        <TLCTerm eId="term_36" href="/ontology/term/קרן_מועדים_קבועים/100035141" showAs="קרן_מועדים_קבועים" />
+        <TLCTerm eId="term_37" href="/ontology/term/קרן_ממונפת/100035141" showAs="קרן_ממונפת" />
+        <TLCTerm eId="term_38" href="/ontology/term/שווי_נקי_ממוצע_של_נכסי_קרן/100035141" showAs="שווי_נקי_ממוצע_של_נכסי_קרן" />
+        <TLCTerm eId="term_39" href="/ontology/term/שיעור_חשיפה_ממוצע/100035141" showAs="שיעור_חשיפה_ממוצע" />
+        <TLCTerm eId="term_40" href="/ontology/term/שיעור_השכר/100035141" showAs="שיעור_השכר" />
+        <TLCTerm eId="term_41" href="/ontology/term/שנת_תשקיף/100035141" showAs="שנת_תשקיף" />
+        <TLCTerm eId="term_42" href="/ontology/term/שעה_ייעודה/100035141" showAs="שעה_ייעודה" />
+        <TLCTerm eId="term_43" href="/ontology/term/תאריך_התשקיף/100035141" showAs="תאריך_התשקיף" />
+        <TLCTerm eId="term_44" href="/ontology/term/תואר_אקדמי/100035141" showAs="תואר_אקדמי" />
+        <TLCTerm eId="term_45" href="/ontology/term/תושב_חוץ/100035141" showAs="תושב_חוץ" />
+        <TLCTerm eId="term_46" href="/ontology/term/תקופת_התשקיף/100035141" showAs="תקופת_התשקיף" />
+        <TLCTerm eId="term_47" href="/ontology/term/תקופת_חלק_ב׳_של_תשקיף/100035141" showAs="תקופת_חלק_ב׳_של_תשקיף" />
+        <TLCTerm eId="term_48" href="/ontology/term/תקנות_האופציות/100035141" showAs="תקנות_האופציות" />
+        <TLCTerm eId="term_49" href="/ontology/term/תקנות_האשראי/100035141" showAs="תקנות_האשראי" />
+        <TLCTerm eId="term_50" href="/ontology/term/תקנות_דוחות_כספיים/100035141" showAs="תקנות_דוחות_כספיים" />
+        <TLCTerm eId="term_51" href="/ontology/term/תקנות_הון_עצמי_וביטוח/100035141" showAs="תקנות_הון_עצמי_וביטוח" />
+        <TLCTerm eId="term_52" href="/ontology/term/תקנות_חישוב_תשואה/100035141" showAs="תקנות_חישוב_תשואה" />
+        <TLCTerm eId="term_53" href="/ontology/term/תקנות_המחירים/100035141" showAs="תקנות_המחירים" />
+        <TLCTerm eId="term_54" href="/ontology/term/תקנות_הנכסים/100035141" showAs="תקנות_הנכסים" />
+        <TLCTerm eId="term_55" href="/ontology/term/תקנות_הסיווג/100035141" showAs="תקנות_הסיווג" />
+        <TLCTerm eId="term_56" href="/ontology/term/תקנות_עמלת_הפצה/100035141" showAs="תקנות_עמלת_הפצה" />
+        <TLCTerm eId="term_57" href="/ontology/term/תשקיף/100035141" showAs="תשקיף" />
+        <TLCTerm eId="term_58" href="/ontology/term/תשקיף_חוזר/100035141" showAs="תשקיף_חוזר" />
+        <TLCTerm eId="term_59" href="/ontology/term/מפיץ/100035141" showAs="מפיץ" />
+        <TLCTerm eId="term_60" href="/ontology/term/הסכם_הפצה/100035141" showAs="הסכם_הפצה" />
+        <TLCTerm eId="term_61" href="/ontology/term/מנהל_הקרן/100035141" showAs="מנהל_הקרן" />
+        <TLCTerm eId="term_62" href="/ontology/term/נושא_משרה/100035141" showAs="נושא_משרה" />
+        <TLCTerm eId="term_63" href="/ontology/term/השקעות_עיקריות/100035141" showAs="השקעות_עיקריות" />
+        <TLCTerm eId="term_64" href="/ontology/term/ממוצע/100035141" showAs="ממוצע" />
+        <TLCPerson eId="יובל_שטייניץ" href="/ontology/person/יובל_שטייניץ" showAs="יובל שטייניץ" />
+        <TLCRole eId="שר_האוצר" href="ontology/role/akn/שר_האוצר" showAs="שר האוצר" />
+      </references>
+      <temporalData source="#kensset">
+        <temporalGroup eId="tmpg_1" />
+      </temporalData>
+      <Publication></Publication>
+      <proprietary wikiversion="9/17/2020 6:01:49 AM" />
+    </meta>
+    <body period="#tmpg_1">
+      <title eId="title">
+        <content>
+          <p>תקנות השקעות משותפות בנאמנות (פרטי תשקיף של קרן, מבנהו וצורתו), התש"ע–2009</p>
+        </content>
+      </title>
+      <preamble eId="eId">
+        <p>בתוקף סמכותי לפי <ref href="/akn/il/act/PrimaryLegislation/1994-08-23/155776#point_26">סעיפים 26(א) ו־(ג)</ref><ref href="/akn/il/act/PrimaryLegislation/1994-08-23/155776#point_131">ו־131(א)</ref><ref href="/akn/il/act/PrimaryLegislation/1994-08-23/155776">לחוק השקעות משותפות בנאמנות, התשנ"ד–1994</ref> (להלן – החוק), לפי הצעת הרשות ובאישור ועדת הכספים של הכנסת, אני מתקין תקנות אלה:</p>
+      </preamble>
+      <chapter eId="chp_א">
+        <num>פרק א׳:</num>
+        <title>
+          <content>
+            <p>פרשנות</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_1" class="definitions">
+            <heading>
+              <authorialNote placement="side">
+                <p>הגדרות</p>
+              </authorialNote>
+            </heading>
+            <num>1.</num>
+            <list>
+              <intro>
+                <p>בתקנות אלה –</p>
+              </intro>
+              <point eId="point_1__point_אגד">
+                <content>
+                  <p>
+                    <def />”אגד“, ”אגד חוץ“, ”אגד ישראלי“, ו”קרן כספית“ – כהגדרתם <ref href="/akn/il/act/SecondaryLegislation/1994-11-10/100025287">בתקנות הנכסים</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_איגרות_חוב">
+                <content>
+                  <p>
+                    <def />”איגרות חוב“ – <wikicomment font-size="x-small">(נמחקה);</wikicomment></p>
+                </content>
+              </point>
+              <point eId="point_1__point_אופציה">
+                <content>
+                  <p>
+                    <def />”אופציה“ ו”חוזה עתידי“ – <wikicomment font-size="x-small">(נמחקה);</wikicomment></p>
+                </content>
+              </point>
+              <point eId="point_1__point_גורם_מקורב">
+                <content>
+                  <p>
+                    <def />”גורם מקורב“ ו”שיעור יחידות מוחזקות“ – כהגדרתם <ref href="/akn/il/act/PrimaryLegislation/1994-08-23/155776#point_49">בסעיף 49 לחוק</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_הוספה">
+                <content>
+                  <p>
+                    <def />”הוספה“ – כהגדרתה <ref href="/akn/il/act/PrimaryLegislation/1994-08-23/155776#point_42">בסעיף 42(ג) לחוק</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_הפסד_הון">
+                <content>
+                  <p>
+                    <def />”הפסד הון“, ”קרן חייבת“ ו”קרן פטורה“ – <wikicomment font-size="x-small">(נמחקה);</wikicomment></p>
+                </content>
+              </point>
+              <point eId="point_1__point_ועדת_השקעות">
+                <content>
+                  <p>
+                    <def />”ועדת השקעות“ – כהגדרתה <ref href="/akn/il/act/PrimaryLegislation/1994-08-23/155776#point_20">בסעיף 20(א) לחוק</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_חוק_הסדרת_העיסוק">
+                <content>
+                  <p>
+                    <def />”חוק הסדרת העיסוק“ – <ref href="/akn/il/act/PrimaryLegislation/2005-08-10/100898">חוק הסדרת העיסוק בייעוץ השקעות, בשיווק השקעות ובניהול תיקי השקעות, התשנ"ה–1995</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_טווח">
+                <content>
+                  <p>
+                    <def />”טווח“ – <wikicomment font-size="x-small">(נמחקה);</wikicomment></p>
+                </content>
+              </point>
+              <point eId="point_1__point_טווח_חשיפה">
+                <content>
+                  <p>
+                    <def />”טווח חשיפה“ – <wikicomment font-size="x-small">(נמחקה);</wikicomment></p>
+                </content>
+              </point>
+              <point eId="point_1__point_אגד_ישראלי_בלתי_מוגבל">
+                <content>
+                  <p>
+                    <def />”אגד ישראלי בלתי מוגבל“, ”אגד ישראלי מוגבל“, ”יום מסחר“, ”קרן בלתי מוגבלת בניירות ערך חוץ“ ו”קרן מוגבלת בניירות ערך חוץ“ – כהגדרתם <ref href="/akn/il/act/SecondaryLegislation/1994-11-10/100025290">בתקנות המחירים</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_כותרת_ראשית">
+                <content>
+                  <p>
+                    <def />”כותרת ראשית“, ”מטבע חוץ“, ”מניות“, ”פרופיל חשיפה“, ”קרן חשיפה הפוכה“ ו”קרן מחקה“ – כהגדרתם <ref href="/akn/il/act/SecondaryLegislation/2007-11-28/100033748">בתקנות הסיווג</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_מדד_המחירים_לצרכן">
+                <content>
+                  <p>
+                    <def />”מדד המחירים לצרכן“ – <wikicomment font-size="x-small">(נמחקה);</wikicomment></p>
+                </content>
+              </point>
+              <point eId="point_1__point_מדד_המקמ">
+                <content>
+                  <p>
+                    <def />”מדד המק"מ“, ”מדד ת"א 100“ – <wikicomment font-size="x-small">(נמחקה);</wikicomment></p>
+                </content>
+              </point>
+              <point eId="point_1__point_מוסד_אקדמי">
+                <content>
+                  <p>
+                    <def />”מוסד אקדמי“ – כהגדרתו <ref href="/akn/il/act/SecondaryLegislation/1995-11-21/100026089#point_11">בתקנה 11 לתקנות הון עצמי וביטוח</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_מכירה_בחסר">
+                <content>
+                  <p>
+                    <def />”מכירה בחסר“ – <wikicomment font-size="x-small">(נמחקה);</wikicomment></p>
+                </content>
+              </point>
+              <point eId="point_1__point_ממוצע">
+                <content>
+                  <p>
+                    <def />”ממוצע“ – <wikicomment font-size="x-small">(נמחקה);</wikicomment></p>
+                </content>
+              </point>
+              <point eId="point_1__point_מנהל_השקעות_חיצוני">
+                <content>
+                  <p>
+                    <def />”מנהל השקעות חיצוני“ – מי שמועסק על ידי מנהל הקרן בניהול תיק השקעות של קרן ואינו עובד מנהל הקרן;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_מנהל_קרן_חדש">
+                <content>
+                  <p>
+                    <def />”מנהל קרן חדש“ – מנהל קרן שבמועד פרסום התשקיף טרם ניהל קרן במשך שנה רציפה או חלפו למעלה משנתיים מיום שניהל קרן כלשהי;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_מנהל_תיקי_השקעות">
+                <content>
+                  <p>
+                    <def />”מנהל תיקי השקעות“, ”ניהול תיקי השקעות“ – כהגדרתם <ref href="/akn/il/act/PrimaryLegislation/2005-08-10/100898">בחוק הסדרת העיסוק</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_נייר_ערך">
+                <content>
+                  <p>
+                    <def />”נייר ערך“ – לרבות נייר ערך חוץ;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_נכס_בסיס">
+                <content>
+                  <p>
+                    <def />”נכס בסיס“ – <wikicomment font-size="x-small">(נמחקה);</wikicomment></p>
+                </content>
+              </point>
+              <point eId="point_1__point_נכס_ייחוס_של_קרן">
+                <content>
+                  <p>
+                    <def />”נכס ייחוס של קרן“ – מדד או נכס, שלהערכת מנהל הקרן צפוי כי לשינויים בו או בערכו, בהתאמה, תהיה ההשפעה הגדולה ביותר על תשואתה של הקרן;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_סוג_הקרן">
+                <content>
+                  <p>
+                    <def />”סוג הקרן“ – לרבות קרן פתוחה, קרן סגורה, אגד ישראלי, אגד חוץ, קרן ממונפת, קרן מועדים קבועים, קרן ייחודית או קרן כספית, לפי העניין;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_סוג_הקרן_לצורך_עמלת_הפצה">
+                <content>
+                  <p>
+                    <def />”סוג הקרן לצורך עמלת הפצה“ – ”סוג הקרן“ כהגדרתו <ref href="/akn/il/act/SecondaryLegislation/2006-02-26/100032635">בתקנות עמלת הפצה</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_סיווג_קרן">
+                <content>
+                  <p>
+                    <def />”סיווג קרן“ – הכותרת המאפיינת תחתה סווגה הקרן, בהתאם <ref href="/akn/il/act/SecondaryLegislation/2007-11-28/100033748#point_2">לתקנה 2(ב) לתקנות הסיווג</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_עמלות">
+                <content>
+                  <p>
+                    <def />”עמלות“ – עמלות הכרוכות בקנייה, מכירה או החזקה של נכסי הקרן, לרבות עמלות בשל פדיון או מימוש נכסים מנכסי הקרן;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_עמלת_הפצה">
+                <content>
+                  <p>
+                    <def />”עמלת הפצה“ – כהגדרתה <ref href="/akn/il/act/SecondaryLegislation/2006-02-26/100032635#point_2">בתקנה 2(א) לתקנות עמלת הפצה</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_פקודת_מס_הכנסה">
+                <content>
+                  <p>
+                    <def />”פקודת מס הכנסה“ – <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_מס_הכנסה">פקודת מס הכנסה</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_קרן_גמישה">
+                <content>
+                  <p>
+                    <def />”קרן גמישה“ – קרן שבמדיניות ההשקעות שלה לא נכללת התחייבות לחשיפה מזערית שהיא גבוהה מ־0% לאפיק או נכס כלשהו ולא נכללת התחייבות לחשיפה מרבית של פחות מ־100% לכל אפיק או נכס, למעט הגבלות שמטרתן להקנות לקרן מעמד של קרן מוגבלת בניירות ערך חוץ;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_קרן_חדשה">
+                <content>
+                  <p>
+                    <def />”קרן חדשה“ – קרן שיחידותיה מוצעות לציבור לראשונה;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_קרן_חייבת">
+                <content>
+                  <p>
+                    <def />”קרן חייבת“ – קרן נאמנות חייבת כהגדרתה <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_מס_הכנסה#point_88">בסעיף 88 לפקודת מס הכנסה</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_קרן_פטורה">
+                <content>
+                  <p>
+                    <def />”קרן פטורה“ – קרן נאמנות פטורה כהגדרתה <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_מס_הכנסה#point_88">בסעיף 88 לפקודת מס הכנסה</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_קרן_להשקעות_חוץ_מטבע_עיקרי">
+                <content>
+                  <p>
+                    <def />”קרן להשקעות חוץ (מטבע עיקרי)“ – ”קרן נאמנות להשקעות חוץ“, כהגדרתה <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/תקנות_מס_הכנסה_חישוב_סכום_אינפלציוני_במכירת_יחידה_בקרן_נאמנות">בתקנות מס הכנסה (חישוב סכום אינפלציוני במכירת יחידה בקרן נאמנות), התשס"ג–2003</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_קרן_להשקעות_חוץ_פטור_ממס_לתושב_חוץ">
+                <content>
+                  <p>
+                    <def />”קרן להשקעות חוץ (פטור ממס לתושב חוץ)“ – ”קרן נאמנות להשקעות חוץ“, כהגדרתה <ref href="/akn/il/act/SecondaryLegislation/2003-01-30/100030868">בתקנות מס הכנסה (פטור ממס לתושב חוץ על הכנסה מיחידה בקרן נאמנות פטורה), התשס"ג–2003</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_קרן_מועדים_קבועים">
+                <content>
+                  <p>
+                    <def />”קרן מועדים קבועים“ – כהגדרתה <ref href="/akn/il/act/PrimaryLegislation/1994-08-23/155776#point_47">בסעיף 47(א) לחוק</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_קרן_ממונפת">
+                <content>
+                  <p>
+                    <def />”קרן ממונפת“, ”שיעור חשיפה“ – כהגדרתה <ref href="/akn/il/act/SecondaryLegislation/2001-02-01/100029526">בתקנות האופציות</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_שווי_נקי_ממוצע_של_נכסי_קרן">
+                <content>
+                  <p>
+                    <def />”שווי נקי ממוצע של נכסי קרן“ – <wikicomment font-size="x-small">(נמחקה);</wikicomment></p>
+                </content>
+              </point>
+              <point eId="point_1__point_שיעור_חשיפה_ממוצע">
+                <content>
+                  <p>
+                    <def />”שיעור חשיפה ממוצע“ – <wikicomment font-size="x-small">(נמחקה);</wikicomment></p>
+                </content>
+              </point>
+              <point eId="point_1__point_שיעור_השכר">
+                <content>
+                  <p>
+                    <def />”שיעור השכר“ – כהגדרתו <ref href="/akn/il/act/PrimaryLegislation/1994-08-23/155776#point_105">בסעיף 105(א2) לחוק</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_שנת_תשקיף">
+                <content>
+                  <p>
+                    <def />”שנת תשקיף“ – השנה המצוינת בתאריך התשקיף;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_שעה_ייעודה">
+                <content>
+                  <p>
+                    <def />”שעה ייעודה“ – כהגדרתה <ref href="/akn/il/act/PrimaryLegislation/1994-08-23/155776#point_46">בסעיף 46(ג)(1) לחוק</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_תאריך_התשקיף">
+                <content>
+                  <p>
+                    <def />”תאריך התשקיף“ – <wikicomment font-size="x-small">(נמחקה);</wikicomment></p>
+                </content>
+              </point>
+              <point eId="point_1__point_תואר_אקדמי">
+                <content>
+                  <p>
+                    <def />”תואר אקדמי“ – תואר שהוענק בידי מוסד אקדמי;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_תושב_חוץ">
+                <content>
+                  <p>
+                    <def />”תושב חוץ“ – כהגדרתו <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_מס_הכנסה">בפקודת מס הכנסה</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_תקופת_התשקיף">
+                <content>
+                  <p>
+                    <def />”תקופת התשקיף“ – התקופה שתחילתה בתאריך התשקיף האמור <ref href="#point_22">בתקנה 22(1)</ref>, וסיומה בתום 12 חודשים מאותו תאריך או ביום הקודם לתאריך תשקיף חדש שפורסם, המוקדם מביניהם;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_תקופת_חלק_ב_של_תשקיף">
+                <content>
+                  <p>
+                    <def />”תקופת חלק ב׳ של תשקיף“ – <wikicomment font-size="x-small">(נמחקה);</wikicomment></p>
+                </content>
+              </point>
+              <point eId="point_1__point_תקנות_האופציות">
+                <content>
+                  <p>
+                    <def />”תקנות האופציות“ – <ref href="/akn/il/act/SecondaryLegislation/2001-02-01/100029526">תקנות השקעות משותפות בנאמנות (אופציות, חוזים עתידיים ומכירות בחסר), התשס"א–2001</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_תקנות_האשראי">
+                <content>
+                  <p>
+                    <def />”תקנות האשראי“ – <wikicomment font-size="x-small">(נמחקה);</wikicomment></p>
+                </content>
+              </point>
+              <point eId="point_1__point_תקנות_דוחות_כספיים">
+                <content>
+                  <p>
+                    <def />”תקנות דוחות כספיים“ – <wikicomment font-size="x-small">(נמחקה);</wikicomment></p>
+                </content>
+              </point>
+              <point eId="point_1__point_תקנות_הון_עצמי_וביטוח">
+                <content>
+                  <p>
+                    <def />”תקנות הון עצמי וביטוח“ – <ref href="/akn/il/act/SecondaryLegislation/1995-11-21/100026089">תקנות השקעות משותפות בנאמנות (הון עצמי וביטוח של מנהל קרן ונאמן ותנאי כשירות של דירקטורים וחברי ועדת ההשקעות), התשנ"ו–1995</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_תקנות_חישוב_תשואה">
+                <content>
+                  <p>
+                    <def />”תקנות חישוב תשואה“ – <wikicomment font-size="x-small">(נמחקה);</wikicomment></p>
+                </content>
+              </point>
+              <point eId="point_1__point_תקנות_המחירים">
+                <content>
+                  <p>
+                    <def />”תקנות המחירים“ – <ref href="/akn/il/act/SecondaryLegislation/1994-11-10/100025290">תקנות השקעות משותפות בנאמנות (מחירי קניה ומכירה של נכסי קרן ושווי נכסי קרן), התשנ"ה–1994</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_תקנות_הנכסים">
+                <content>
+                  <p>
+                    <def />”תקנות הנכסים“ – <ref href="/akn/il/act/SecondaryLegislation/1994-11-10/100025287">תקנות השקעות משותפות בנאמנות (נכסים שמותר לקנות ולהחזיק בקרן ושיעוריהם המרביים), התשנ"ה–1994</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_תקנות_הסיווג">
+                <content>
+                  <p>
+                    <def />”תקנות הסיווג“ – <ref href="/akn/il/act/SecondaryLegislation/2007-11-28/100033748">תקנות השקעות משותפות בנאמנות (סיווג קרנות לצורך פרסום), התשס"ח–2007</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_תקנות_עמלת_הפצה">
+                <content>
+                  <p>
+                    <def />”תקנות עמלת הפצה“ – <ref href="/akn/il/act/SecondaryLegislation/2006-02-26/100032635">תקנות השקעות משותפות בנאמנות (עמלת הפצה), התשס"ו–2006</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_תשקיף">
+                <list>
+                  <intro>
+                    <p>
+                      <def />”תשקיף“ – כל אחד מאלה:</p>
+                  </intro>
+                  <point eId="point_1__point_תשקיף__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>”תשקיף עיקרי“ – תשקיף המכיל פרטים בדבר מנהל הקרן והקרנות שבניהולו שמפרסם מנהל הקרן, בהיתר הרשות, אחת לשנה;</p>
+                    </content>
+                  </point>
+                  <point eId="point_1__point_תשקיף__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>”תשקיף קרן חדשה“ – תשקיף של קרן שיחידותיה מוצעות לציבור לראשונה, ושהמידע לגביה לא נכלל בתשקיף עיקרי שפרסם מנהל הקרן;</p>
+                    </content>
+                  </point>
+                  <point eId="point_1__point_תשקיף__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>”תשקיף מכרז“ – תשקיף הצעה אחרת בקרן סגורה, כמשמעותה <ref href="/akn/il/act/PrimaryLegislation/1994-08-23/155776#point_50">בסעיף 50(א)(2) לחוק</ref>;</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_1__point_תשקיף_חוזר">
+                <content>
+                  <p>
+                    <def />”תשקיף חוזר“ – <wikicomment font-size="x-small">(נמחקה).</wikicomment></p>
+                </content>
+              </point>
+            </list>
+          </point>
+        </list>
+      </chapter>
+      <chapter eId="chp_ב">
+        <num>פרק ב׳:</num>
+        <title>
+          <content>
+            <p>עריכת התשקיף</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_2">
+            <heading>
+              <authorialNote placement="side">
+                <p>הוראות כלליות</p>
+              </authorialNote>
+            </heading>
+            <num>2.</num>
+            <list>
+              <point eId="point_2__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>תשקיף יכלול את הפרטים המפורטים להלן בתקנות אלה, וכן כל פרט או עניין נוספים העשויים להיות חשובים למשקיע סביר השוקל רכישת היחידות על פיו, ובקרן סגורה – גם קנייתן בבורסה; אין חובה לציין העדר קיומו של פרט פלוני, אלא אם כן נקבע כך במפורש בתקנות אלה.</p>
+                </content>
+              </point>
+              <point eId="point_2__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>הפרטים הכלולים בתשקיף יהיו עדכניים למועד שלא יקדם ביותר מחמישה עשר ימי עסקים למועד הגשת התשקיף לרשות ובלבד שעניינים מהותיים יהיו עדכניים לתאריך פרסום התשקיף, אלא אם כן נאמר אחרת בתקנות אלה.</p>
+                </content>
+              </point>
+              <point eId="point_2__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>פרט או עניין נוספים שאינם מפורטים בתקנות אלה, העשויים להיות חשובים למשקיע סביר השוקל רכישת היחידות על פי התשקיף, ובקרן סגורה – גם קנייתן בבורסה, ייכללו בפסקה הדנה בעניין שאליה שייכים הפרט או העניין, ובהעדר פסקה כאמור, ייכללו בפסקה נפרדת, מתחת לכותרת מתאימה; כותרת זו תבוא לאחר הפרטים המפורטים בתקנות אלה אך לפני הפסקה שכותרתה ”היתרים להצעת היחידות“.</p>
+                </content>
+              </point>
+              <point eId="point_2__point_ד">
+                <num>(ד)</num>
+                <content>
+                  <p>יושב ראש הרשות או עובד שהוסמך על ידו לעניין זה, רשאים להורות למנהל הקרן להעביר פרט או עניין כלשהם מפסקה שבה נכללו לפסקה שעליה יורו, להציגם באופן שונה או להבליטם בדרך שיורו, וכן להורות על אופן יישום הוראות התקנות בתשקיף של קרנות מסוגים שונים, אם לדעתם הדבר ראוי בנסיבות העניין.</p>
+                </content>
+              </point>
+              <point eId="point_2__point_ה">
+                <num>(ה)</num>
+                <content>
+                  <p>לא ייכללו בתשקיף הוראות דין, אלא אם כן נקבע אחרת בתקנות אלה או אם הורו על כך או אישרו זאת יושב ראש הרשות או עובד שהוסמך על ידו לעניין זה.</p>
+                </content>
+              </point>
+              <point eId="point_2__point_ו">
+                <num>(ו)</num>
+                <content>
+                  <p>מנהל קרן רשאי לכלול בפסקה כלשהי הפניה למיקומו של פרט בתשקיף או למיקומן של הוראות דין בתשקיף או מחוצה לו.</p>
+                </content>
+              </point>
+              <point eId="point_2__point_ז">
+                <num>(ז)</num>
+                <content>
+                  <p>
+                    <wikicomment font-size="x-small">(נמחקה).</wikicomment>
+                  </p>
+                </content>
+              </point>
+              <point eId="point_2__point_ח">
+                <num>(ח)</num>
+                <content>
+                  <p>תשקיף יהיה ערוך בצורה ברורה ונוחה לקריאה, כתוב בשפה פשוטה, בהירה ותמציתית ככל האפשר, ועמודיו ממוספרים, ויכול שיכלול בראשו את סמלו המסחרי של מנהל הקרן.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_3">
+            <heading>
+              <authorialNote placement="side">
+                <p>שפת התשקיף ותרגום לתשקיף</p>
+              </authorialNote>
+            </heading>
+            <num>3.</num>
+            <list>
+              <point eId="point_3__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>התשקיף ייכתב בשפה העברית.</p>
+                </content>
+              </point>
+              <point eId="point_3__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>לא יצורף לתשקיף תרגומו לשפה זרה; על אף האמור, רשאי מנהל הקרן לפרסם תרגום באתר ההפצה באמצעות הגשת דוח לרשות.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_4">
+            <heading>
+              <authorialNote placement="side">
+                <p>מבנה התשקיף</p>
+              </authorialNote>
+            </heading>
+            <num>4.</num>
+            <content>
+              <p>תשקיף יכלול פרטים ועניינים הנוגעים למנהל הקרן ולנאמן ופרטים מסוימים הנוגעים לקרנות שמנהל מנהל הקרן, כמפורט בתקנות אלה ובסדר המצוין בהם.</p>
+            </content>
+          </point>
+          <point eId="point_5">
+            <heading>
+              <authorialNote placement="side">
+                <p>חתימה על התשקיף</p>
+              </authorialNote>
+            </heading>
+            <num>5.</num>
+            <list>
+              <point eId="point_5__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>התשקיף יהיה חתום לפי <ref href="/akn/il/act/PrimaryLegislation/1994-08-23/155776#point_30">סעיף 30 לחוק</ref>; לצד חתימת הנאמן על התשקיף רשאי הוא לציין כי בחתימתו זו הוא מאשר את המידע הנוגע לקרנות להן הוא משמש נאמן בלבד.</p>
+                </content>
+              </point>
+              <point eId="point_5__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>בתשקיף יצוינו שמות הדירקטורים של מנהל הקרן שחתמו על התשקיף; נעשתה חתימה בידי אדם שדירקטור הרשה אותו לחתום במקומו על התשקיף – יצוין הדבר, לרבות שם החותם והדירקטור שבשמו חתם.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+        </list>
+      </chapter>
+      <chapter eId="chp_ג">
+        <num>פרק ג׳:</num>
+        <title>
+          <content>
+            <p>חלק א׳ של תשקיף קרן <wikicomment font-size="x-small">(בוטל)</wikicomment></p>
+          </content>
+        </title>
+        <section eId="chp_ג__sec_א">
+          <num>סימן א׳:</num>
+          <title>
+            <content>
+              <p>כריכתו הקדמית של חלק א׳ <wikicomment font-size="x-small">(בוטל)</wikicomment></p>
+            </content>
+          </title>
+          <list>
+            <point eId="point_6">
+              <heading>
+                <authorialNote placement="side">
+                  <p xml:space="preserve"> </p>
+                </authorialNote>
+              </heading>
+              <num>6.</num>
+              <content>
+                <p>
+                  <wikicomment font-size="x-small">(בוטלה).</wikicomment>
+                </p>
+              </content>
+            </point>
+            <point eId="point_7">
+              <heading>
+                <authorialNote placement="side">
+                  <p xml:space="preserve"> </p>
+                </authorialNote>
+              </heading>
+              <num>7.</num>
+              <content>
+                <p>
+                  <wikicomment font-size="x-small">(בוטלה).</wikicomment>
+                </p>
+              </content>
+            </point>
+          </list>
+        </section>
+        <section eId="chp_ג__sec_ב">
+          <num>סימן ב׳:</num>
+          <title>
+            <content>
+              <p>הפרטים שיש לכלול בחלק א׳ <wikicomment font-size="x-small">(בוטל)</wikicomment></p>
+            </content>
+          </title>
+          <list>
+            <point eId="point_8">
+              <heading>
+                <authorialNote placement="side">
+                  <p xml:space="preserve"> </p>
+                </authorialNote>
+              </heading>
+              <num>8.</num>
+              <content>
+                <p>
+                  <wikicomment font-size="x-small">(בוטלה).</wikicomment>
+                </p>
+              </content>
+            </point>
+            <point eId="point_9">
+              <heading>
+                <authorialNote placement="side">
+                  <p xml:space="preserve"> </p>
+                </authorialNote>
+              </heading>
+              <num>9.</num>
+              <content>
+                <p>
+                  <wikicomment font-size="x-small">(בוטלה).</wikicomment>
+                </p>
+              </content>
+            </point>
+            <point eId="point_10">
+              <heading>
+                <authorialNote placement="side">
+                  <p xml:space="preserve"> </p>
+                </authorialNote>
+              </heading>
+              <num>10.</num>
+              <content>
+                <p>
+                  <wikicomment font-size="x-small">(בוטלה).</wikicomment>
+                </p>
+              </content>
+            </point>
+            <point eId="point_11">
+              <heading>
+                <authorialNote placement="side">
+                  <p xml:space="preserve"> </p>
+                </authorialNote>
+              </heading>
+              <num>11.</num>
+              <content>
+                <p>
+                  <wikicomment font-size="x-small">(בוטלה).</wikicomment>
+                </p>
+              </content>
+            </point>
+            <point eId="point_12">
+              <heading>
+                <authorialNote placement="side">
+                  <p xml:space="preserve"> </p>
+                </authorialNote>
+              </heading>
+              <num>12.</num>
+              <content>
+                <p>
+                  <wikicomment font-size="x-small">(בוטלה).</wikicomment>
+                </p>
+              </content>
+            </point>
+            <point eId="point_13">
+              <heading>
+                <authorialNote placement="side">
+                  <p xml:space="preserve"> </p>
+                </authorialNote>
+              </heading>
+              <num>13.</num>
+              <content>
+                <p>
+                  <wikicomment font-size="x-small">(בוטלה).</wikicomment>
+                </p>
+              </content>
+            </point>
+            <point eId="point_14">
+              <heading>
+                <authorialNote placement="side">
+                  <p xml:space="preserve"> </p>
+                </authorialNote>
+              </heading>
+              <num>14.</num>
+              <content>
+                <p>
+                  <wikicomment font-size="x-small">(בוטלה).</wikicomment>
+                </p>
+              </content>
+            </point>
+            <point eId="point_15">
+              <heading>
+                <authorialNote placement="side">
+                  <p xml:space="preserve"> </p>
+                </authorialNote>
+              </heading>
+              <num>15.</num>
+              <content>
+                <p>
+                  <wikicomment font-size="x-small">(בוטלה).</wikicomment>
+                </p>
+              </content>
+            </point>
+            <point eId="point_16">
+              <heading>
+                <authorialNote placement="side">
+                  <p xml:space="preserve"> </p>
+                </authorialNote>
+              </heading>
+              <num>16.</num>
+              <content>
+                <p>
+                  <wikicomment font-size="x-small">(בוטלה).</wikicomment>
+                </p>
+              </content>
+            </point>
+            <point eId="point_17">
+              <heading>
+                <authorialNote placement="side">
+                  <p xml:space="preserve"> </p>
+                </authorialNote>
+              </heading>
+              <num>17.</num>
+              <content>
+                <p>
+                  <wikicomment font-size="x-small">(בוטלה).</wikicomment>
+                </p>
+              </content>
+            </point>
+            <point eId="point_18">
+              <heading>
+                <authorialNote placement="side">
+                  <p xml:space="preserve"> </p>
+                </authorialNote>
+              </heading>
+              <num>18.</num>
+              <content>
+                <p>
+                  <wikicomment font-size="x-small">(בוטלה).</wikicomment>
+                </p>
+              </content>
+            </point>
+            <point eId="point_19">
+              <heading>
+                <authorialNote placement="side">
+                  <p xml:space="preserve"> </p>
+                </authorialNote>
+              </heading>
+              <num>19.</num>
+              <content>
+                <p>
+                  <wikicomment font-size="x-small">(בוטלה).</wikicomment>
+                </p>
+              </content>
+            </point>
+            <point eId="point_20">
+              <heading>
+                <authorialNote placement="side">
+                  <p xml:space="preserve"> </p>
+                </authorialNote>
+              </heading>
+              <num>20.</num>
+              <content>
+                <p>
+                  <wikicomment font-size="x-small">(בוטלה).</wikicomment>
+                </p>
+              </content>
+            </point>
+            <point eId="point_21">
+              <heading>
+                <authorialNote placement="side">
+                  <p xml:space="preserve"> </p>
+                </authorialNote>
+              </heading>
+              <num>21.</num>
+              <content>
+                <p>
+                  <wikicomment font-size="x-small">(בוטלה).</wikicomment>
+                </p>
+              </content>
+            </point>
+          </list>
+        </section>
+      </chapter>
+      <chapter eId="chp_ד">
+        <num>פרק ד׳:</num>
+        <title>
+          <content>
+            <p>תשקיף עיקרי</p>
+          </content>
+        </title>
+        <section eId="chp_ד__sec_א">
+          <num>סימן א׳:</num>
+          <title>
+            <content>
+              <p>כריכתו הקדמית של תשקיף עיקרי</p>
+            </content>
+          </title>
+          <list>
+            <point eId="point_22">
+              <heading>
+                <authorialNote placement="side">
+                  <p>פרטים על כריכתו הקדמית של תשקיף עיקרי</p>
+                </authorialNote>
+              </heading>
+              <num>22.</num>
+              <list>
+                <intro>
+                  <p>על גבי כריכתו הקדמית של תשקיף עיקרי יבואו, בסדר המפורט, הפרטים האלה:</p>
+                </intro>
+                <point eId="point_22__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>תאריך התשקיף, מצד שמאל; בהערת שוליים – ההודעה כי המידע המוצג בתשקיף נכון ליום שצוין, בציון תאריך זה, תוך הפרדה בין מועדים שונים לפי <ref href="#point_2">תקנה 2(ב)</ref> אם קיימים, וכן כי יש להתעדכן באופן שוטף בדוחות על אירועים הנוגעים למנהל הקרן, לנאמן, ולקרנות שבניהול מנהל הקרן, בדוחות השנתיים שמפרסם מנהל הקרן לגבי כל קרן שבניהולו, ובמידע נוסף המתפרסם באתר האינטרנט של רשות ניירות ערך, שכתובתו www.magna.isa.gov.il (להלן – אתר ההפצה);</p>
+                  </content>
+                </point>
+                <point eId="point_22__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>הכותרת ”תשקיף עיקרי“;</p>
+                  </content>
+                </point>
+                <point eId="point_22__point_3">
+                  <num>(3)</num>
+                  <content>
+                    <p>בהערת שוליים, יבוא ”תשקיף זה משותף לכל הקרנות שבניהול מנהל הקרן ונכלל בו מידע על מנהל הקרן, על הנאמן ועל הקרנות שבניהול מנהל הקרן; מסמך זה משמש תשקיף הצעת יחידות של כל הקרנות שבניהול מנהל הקרן שנזכרות בו וזאת עד יום“, בציון מועד שלא יאוחר משנים עשר חודשים מתאריך התשקיף; ”מנהל הקרן עשוי להציע יחידות של קרנות נוספות על אלה הנזכרות בתשקיף העיקרי, במהלך תקופת התשקיף באמצעות תשקיף קרן חדשה שיפרסם“; כמו כן, יבוא ”התשקיפים והדוחות הכספיים מתפרסמים באתר ההפצה“;</p>
+                  </content>
+                </point>
+                <point eId="point_22__point_4">
+                  <num>(4)</num>
+                  <content>
+                    <p>המילים ”מנהל הקרן“, ופרטי מנהל הקרן, לרבות שמו, מספרו ברשם החברות, כתובתו, מענו לקבלת דברי דואר לרבות כתבי בי־דין, מספרי הטלפון, הפקסימילה, כתובת הדואר האלקטרוני, שבאמצעותם יכול הציבור לפנות אליו; שונה שם מנהל הקרן מאז פרסם מנהל הקרן לאחרונה תשקיף עיקרי, יצוין הדבר בהערת שוליים, בציון שמו של מנהל הקרן לפני ששונה, ותאריך השינוי;</p>
+                  </content>
+                </point>
+                <point eId="point_22__point_5">
+                  <num>(5)</num>
+                  <content>
+                    <p>השנה שבה החל מנהל הקרן בניהול קרנות; אם מנהל הקרן מנהל קרן חדש – המילים ”מנהל קרן חדש“ באותיות מודגשות, ובהערת שוליים ההודעה כי ”מנהל קרן חדש הוא מנהל קרן שבמועד פרסום התשקיף טרם ניהל קרן במשך שנה מלאה או חלפו למעלה משנתיים מיום שניהל קרן כלשהי“ והנסיבות שבשלהן מנהל הקרן הוא בבחינת מנהל קרן חדש;</p>
+                  </content>
+                </point>
+                <point eId="point_22__point_6">
+                  <num>(6)</num>
+                  <content>
+                    <p>מספר הקרנות שבניהול מנהל הקרן והשווי הנקי הכולל של הנכסים המוחזקים בקרנות כאמור.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+          </list>
+        </section>
+        <section eId="chp_ד__sec_ב">
+          <num>סימן ב׳:</num>
+          <title>
+            <content>
+              <p>הפרטים שיש לכלול בתשקיף עיקרי</p>
+            </content>
+          </title>
+          <list>
+            <point eId="point_23">
+              <heading>
+                <authorialNote placement="side">
+                  <p>הוראה כללית</p>
+                </authorialNote>
+              </heading>
+              <num>23.</num>
+              <content>
+                <p>לא היה המידע שיש לכלול <ref href="#chp_ד_sec_ב">בסימן זה</ref>, משותף לכלל הקרנות שבניהול מנהל הקרן, יצוין המידע בנפרד לכל קרן או קבוצת קרנות, לפי העניין.</p>
+              </content>
+            </point>
+            <point eId="point_24">
+              <heading>
+                <authorialNote placement="side">
+                  <p>מחזיקים במנהל הקרן</p>
+                </authorialNote>
+              </heading>
+              <num>24.</num>
+              <content>
+                <p>תחת הכותרת ”מחזיקים במנהל הקרן“ יבוא תרשים החזקות במנהל הקרן, שבו יפורטו המחזיקים בו במישרין ובעקיפין, לרבות שיעורי ההחזקה, עד מחזיקים שהם יחידים; חלה על מי מהמחזיקים חובת דיווח לפי <ref href="/akn/il/act/PrimaryLegislation/1968-08-22/150242">חוק ניירות ערך</ref>, אין חובה לציין את המחזיקים בו, למעט כאלה המחזיקים למעלה משלושים אחוזים מסוג מסוים של אמצעי שליטה במנהל הקרן, או בשיעור נמוך יותר המקנה שליטה במנהל הקרן; היו בשליטת מחזיק כאמור חברת ניהול השקעות כהגדרתה <ref href="/akn/il/act/PrimaryLegislation/1994-08-23/155776#point_16">בסעיף 16(ב) לחוק</ref>, נאמן או חבר בורסה, ייכללו אף הם בתרשים ההחזקות.</p>
+              </content>
+            </point>
+            <point eId="point_25">
+              <heading>
+                <authorialNote placement="side">
+                  <p>מנהל הקרן</p>
+                </authorialNote>
+              </heading>
+              <num>25.</num>
+              <list>
+                <intro>
+                  <p>תחת הכותרת ”מנהל הקרן“ יצוינו הפרטים האלה:</p>
+                </intro>
+                <point eId="point_25__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>העובדה כי מנהל הקרן הוא חברה שעיסוקה הבלעדי הוא ניהול קרנות;</p>
+                  </content>
+                </point>
+                <point eId="point_25__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>
+                      <wikicomment font-size="x-small">(נמחק);</wikicomment>
+                    </p>
+                  </content>
+                </point>
+                <point eId="point_25__point_3">
+                  <num>(3)</num>
+                  <content>
+                    <p>
+                      <wikicomment font-size="x-small">(נמחק);</wikicomment>
+                    </p>
+                  </content>
+                </point>
+                <point eId="point_25__point_4">
+                  <num>(4)</num>
+                  <content>
+                    <p>תיאור המבנה הארגוני של מנהל הקרן, לרבות התייחסות ליחידות חברה הנמנית עם קבוצת מנהל הקרן המשתתפות בניהול השוטף של הקרנות בהתאם להוראות הדין ולהתחייבויות על פי התשקיף, תוך ציון מספר העובדים בכל יחידה; לעניין זה, חברה הנמנית עם קבוצת מנהל הקרן – למעט נותני השירותים המפורטים <ref href="#point_31">בתקנה 31</ref> ומנהל השקעות חיצוני;</p>
+                  </content>
+                </point>
+                <point eId="point_25__point_5">
+                  <num>(5)</num>
+                  <content>
+                    <p>האופן שבו מוקצים תיקי ההשקעה של הקרנות שבניהול מנהל הקרן בין עובדיו, אם נוהג מנהל הקרן להקצותם בדרך כלשהי.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_25א">
+              <heading>
+                <authorialNote placement="side">
+                  <p>הצעת יחידות הקרנות שבניהול מנהל הקרן</p>
+                </authorialNote>
+              </heading>
+              <num>25א.</num>
+              <list>
+                <intro>
+                  <p>תחת הכותרת ”הצעת יחידות הקרנות שבניהול מנהל הקרן“, תבוא הודעה כי יחידות כל הקרנות שבניהול מנהל הקרן מוצעות לפי תשקיף זה ולגבי כל אחת מהן ניתן היתר הרשות לפרסום התשקיף; כמו כן יצוינו בלוח הפרטים האלה לגבי כל אחת מהקרנות הפתוחות שבניהול מנהל הקרן:</p>
+                </intro>
+                <point eId="point_25א__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>שם הקרן ומספרה בבורסה וכן הסבר על פרופיל החשיפה, הכולל מקרא של דרגות החשיפה המרביות למניות ולמטבע חוץ; אם שונה שם קרן במהלך שנים עשר החודשים שקדמו למועד פרסום התשקיף, יצוין בהערת שוליים, שם הקרן טרם השינוי ותאריך השינוי;</p>
+                  </content>
+                </point>
+                <point eId="point_25א__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>סוג הקרן, לרבות אם הקרן היא קרן מחקה או קרן חשיפה הפוכה;</p>
+                  </content>
+                </point>
+                <point eId="point_25א__point_3">
+                  <num>(3)</num>
+                  <content>
+                    <p>סיווג הקרן;</p>
+                  </content>
+                </point>
+                <point eId="point_25א__point_4">
+                  <num>(4)</num>
+                  <content>
+                    <p>שיעור שכר המנהל, שיעור ההוספה שתשולם או שתנוכה ושיעור שכר הנאמן;</p>
+                  </content>
+                </point>
+                <point eId="point_25א__point_5">
+                  <num>(5)</num>
+                  <content>
+                    <p>המטבע שבו נקובות יחידות הקרן והערך הנקוב שלהן;</p>
+                  </content>
+                </point>
+                <point eId="point_25א__point_6">
+                  <num>(6)</num>
+                  <content>
+                    <p>הנאמן לקרן;</p>
+                  </content>
+                </point>
+                <point eId="point_25א__point_7">
+                  <num>(7)</num>
+                  <content>
+                    <p>מנהל ההשקעות בקרן והמועד שבו החל לנהל את תיק ההשקעות של הקרן;</p>
+                  </content>
+                </point>
+                <point eId="point_25א__point_8">
+                  <num>(8)</num>
+                  <content>
+                    <p>ימי המסחר של הקרן;</p>
+                  </content>
+                </point>
+                <point eId="point_25א__point_9">
+                  <num>(9)</num>
+                  <content>
+                    <p>האם הקרן היא קרן ”חייבת“ או ”פטורה“; אם הקרן קרן להשקעות חוץ (מטבע עיקרי) – יצוין הדבר; אם הקרן קרן להשקעות חוץ (פטור ממס לתושב חוץ) – יצוין הדבר;</p>
+                  </content>
+                </point>
+                <point eId="point_25א__point_10">
+                  <num>(10)</num>
+                  <content>
+                    <p>אם הקרן קרן חייבת לתושבי חוץ בלבד – יצוין הדבר;</p>
+                  </content>
+                </point>
+                <point eId="point_25א__point_11">
+                  <num>(11)</num>
+                  <content>
+                    <p>האם משולמות עמלות מנכסי הקרן, בצירוף הפניה לעמוד בתשקיף שבו צוינו הפרטים;</p>
+                  </content>
+                </point>
+                <point eId="point_25א__point_12">
+                  <num>(12)</num>
+                  <content>
+                    <p>אם תקופת קיום הקרן מוגבלת – תחת כותרת ”תקופת קיום הקרן“, יצוין הדבר, וכן תקופת קיום הקרן והודעה כי עם סיום התקופה תפורק הקרן;</p>
+                  </content>
+                </point>
+                <point eId="point_25א__point_13">
+                  <num>(13)</num>
+                  <content>
+                    <p>נקבע בקרן כי יינתנו הנחות מהוספה, יצוין הדבר בציון התנאים שבהתקיימם הן ניתנות;</p>
+                  </content>
+                </point>
+                <point eId="point_25א__point_14">
+                  <num>(14)</num>
+                  <content>
+                    <p>השעה הייעודה להגשת הזמנות;</p>
+                  </content>
+                </point>
+                <point eId="point_25א__point_15">
+                  <num>(15)</num>
+                  <content>
+                    <p>אם מספר היחידות המוצעות מוגבל – יצוינו ההגבלה ומספר היחידות שבמחזור;</p>
+                  </content>
+                </point>
+                <point eId="point_25א__point_16">
+                  <num>(16)</num>
+                  <list>
+                    <intro>
+                      <p>שיעור עמלת ההפצה שגובים המפיצים שעמם התקשר מנהל הקרן בהסכם הפצה, בציון סוג הקרן לצורך עמלת הפצה ושמות המפיצים; לעניין זה:</p>
+                    </intro>
+                    <point eId="point_25א__point_16__point_מפיץ">
+                      <content>
+                        <p>
+                          <def />”מפיץ“ – כהגדרתו <ref href="/akn/il/act/SecondaryLegislation/2006-02-26/100032635">בתקנות עמלת הפצה</ref>;</p>
+                      </content>
+                    </point>
+                    <point eId="point_25א__point_16__point_הסכם_הפצה">
+                      <content>
+                        <p>
+                          <def />”הסכם הפצה“ – כמשמעותו <ref href="/akn/il/act/SecondaryLegislation/2006-02-26/100032635#point_2">בתקנה 2(א) לאותן תקנות</ref>;</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+                <point eId="point_25א__point_17">
+                  <num>(17)</num>
+                  <content>
+                    <p>נקבע בקרן גודל פקודה מזערי להזמנת יחידות – יצוין הדבר.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_25ב">
+              <heading>
+                <authorialNote placement="side">
+                  <p>קרנות סגורות שבניהול מנהל הקרן</p>
+                </authorialNote>
+              </heading>
+              <num>25ב.</num>
+              <content>
+                <p>תחת הכותרת ”קרנות סגורות שבניהול מנהל הקרן“, יצוינו הפרטים המנויים <ref href="#point_25א">בתקנה 25א(1) עד (13)</ref> לגבי כל קרן סגורה שבניהול מנהל הקרן.</p>
+              </content>
+            </point>
+            <point eId="point_25ג">
+              <heading>
+                <authorialNote placement="side">
+                  <p>קרנות שהצעת יחידותיהן לא חודשה</p>
+                </authorialNote>
+              </heading>
+              <num>25ג.</num>
+              <content>
+                <p>תחת הכותרת ”קרנות שהצעת יחידותיהן לא חודשה“ יבואו שמות הקרנות שיחידותיהן לא הוצעו לפי תשקיף זה ומספרן בבורסה; העריך מנהל הקרן כי במהלך תקופת התשקיף תחודש הצעת יחידות קרן המנויה תחת הכותרת האמורה, יציין עובדה זו.</p>
+              </content>
+            </point>
+            <point eId="point_26">
+              <heading>
+                <authorialNote placement="side">
+                  <p>המנהל הכללי של מנהל הקרן</p>
+                </authorialNote>
+              </heading>
+              <num>26.</num>
+              <list>
+                <intro>
+                  <p>תחת הכותרת ”המנהל הכללי של מנהל הקרן“ יצוינו הפרטים האלה:</p>
+                </intro>
+                <point eId="point_26__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>שמו של המנהל הכללי של מנהל הקרן, מספר תעודת הזהות שלו או מספר הדרכון שלו אם הוא תושב חוץ, שנת לידתו, כתובת מגוריו ומענו להמצאת דברי דואר, לרבות כתבי בי־דין;</p>
+                  </content>
+                </point>
+                <point eId="point_26__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>אם הוא בעל תואר אקדמי – תוארו האקדמי, התחום שבו ניתן ושם המוסד שהעניק את התואר;</p>
+                  </content>
+                </point>
+                <point eId="point_26__point_3">
+                  <num>(3)</num>
+                  <content>
+                    <p>האם הוא בעל רישיון מנהל תיקים, ומספר הרישיון, ככל שישנו;</p>
+                  </content>
+                </point>
+                <point eId="point_26__point_4">
+                  <num>(4)</num>
+                  <content>
+                    <p>מועד תחילת כהונתו כמנהל כללי של מנהל הקרן;</p>
+                  </content>
+                </point>
+                <point eId="point_26__point_5">
+                  <num>(5)</num>
+                  <content>
+                    <p>עיסוקיו העיקריים בחמש השנים האחרונות, עיסוקיו הנוכחיים הנוספים, התאגידים או המוסדות שהועסק בהם בשנים האמורות, ותקופת כל עיסוק כאמור – החודש והשנה של תחילת כל תקופה והחודש והשנה של סיומה;</p>
+                  </content>
+                </point>
+                <point eId="point_26__point_6">
+                  <num>(6)</num>
+                  <content>
+                    <p>מספר המנהלים הכלליים שחדלו לכהן במנהל הקרן ושמותיהם, בשנים עשר החודשים שקדמו למועד פרסום התשקיף.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_27">
+              <heading>
+                <authorialNote placement="side">
+                  <p>דירקטוריון מנהל הקרן</p>
+                </authorialNote>
+              </heading>
+              <num>27.</num>
+              <list>
+                <intro>
+                  <p>תחת הכותרת ”דירקטוריון מנהל הקרן“ יצוינו הפרטים האלה:</p>
+                </intro>
+                <point eId="point_27__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>שמות חברי הדירקטוריון; שמו שליושב ראש הדירקטוריון, אם מונה, יצוין ראשון ברשימה וליד שמו התואר יושב ראש; ליד שמותיהם של הדירקטורים החיצוניים יצוין ”דירקטור חיצוני“;</p>
+                  </content>
+                </point>
+                <point eId="point_27__point_2">
+                  <num>(2)</num>
+                  <list>
+                    <intro>
+                      <p>לגבי כל אחד מן הדירקטורים:</p>
+                    </intro>
+                    <point eId="point_27__point_2__point_א">
+                      <num>(א)</num>
+                      <content>
+                        <p>מספר תעודת הזהות שלו או מספר הדרכון שלו אם הוא תושב חוץ, שנת לידתו, כתובת מגוריו ומענו להמצאת דברי דואר, לרבות כתבי בי־דין.</p>
+                      </content>
+                    </point>
+                    <point eId="point_27__point_2__point_ב">
+                      <num>(ב)</num>
+                      <content>
+                        <p>אם הוא בעל תואר אקדמי – תוארו האקדמי, התחום שבו ניתן ושם המוסד שהעניק את התואר;</p>
+                      </content>
+                    </point>
+                    <point eId="point_27__point_2__point_ג">
+                      <num>(ג)</num>
+                      <content>
+                        <p>מועד תחילת כהונתו כדירקטור במנהל הקרן;</p>
+                      </content>
+                    </point>
+                    <point eId="point_27__point_2__point_ד">
+                      <num>(ד)</num>
+                      <content>
+                        <p>עיסוקיו העיקריים בחמש השנים האחרונות ועיסוקיו הנוכחיים הנוספים, התאגידים או המוסדות שהועסק בהם בשנים האמורות, ותקופת כל עיסוק כאמור – החודש והשנה של תחילת כל תקופה והחודש והשנה של סיומה;</p>
+                      </content>
+                    </point>
+                    <point eId="point_27__point_2__point_ה">
+                      <num>(ה)</num>
+                      <content>
+                        <p>תפקיד נוסף שממלא במנהל הקרן, לרבות אם הוא עובד של מנהל הקרן;</p>
+                      </content>
+                    </point>
+                    <point eId="point_27__point_2__point_ו">
+                      <num>(ו)</num>
+                      <content>
+                        <p>האם הוא בעל ידע מקצועי כהגדרתו <ref href="/akn/il/act/SecondaryLegislation/1995-11-21/100026089#point_11">בתקנה 11 לתקנות הון עצמי וביטוח</ref>, ואם כן – התואר ותיאור העיסוק שהקנו לו את הידע המקצועי כאמור;</p>
+                      </content>
+                    </point>
+                    <point eId="point_27__point_2__point_ז">
+                      <num>(ז)</num>
+                      <content>
+                        <p>נוסף על מנהל הקרן, מספר חברות ניהול השקעות כמשמעותן <ref href="/akn/il/act/PrimaryLegislation/1994-08-23/155776#point_16">בסעיף 16(ב) לחוק</ref>, שבהן הוא מכהן כדירקטור ושמותיהן, ואם אינו מכהן בחברות כאמור – יצוין הדבר;</p>
+                      </content>
+                    </point>
+                    <point eId="point_27__point_2__point_ח">
+                      <num>(ח)</num>
+                      <content>
+                        <p>היה דירקטור בן משפחה של דירקטור אחר, של חבר ועדת השקעות, של המנהל הכללי, או של בעל עניין במנהל הקרן – יצוין הדבר; לעניין זה, ”בן משפחה“ – כהגדרתו <ref href="/akn/il/act/PrimaryLegislation/1968-08-22/150242">בחוק ניירות ערך</ref>;</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+                <point eId="point_27__point_3">
+                  <num>(3)</num>
+                  <content>
+                    <p>מספר הדירקטורים שחדלו לכהן בדירקטוריון מנהל הקרן בשנים עשר החודשים שקדמו למועד פרסום התשקיף; הסתיימה כהונתו של דירקטור בנסיבות שיש בהן עניין לציבור – שם הדירקטור, מועד סיום כהונתו ונסיבות סיום הכהונה.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_28">
+              <heading>
+                <authorialNote placement="side">
+                  <p>ועדת השקעות</p>
+                </authorialNote>
+              </heading>
+              <num>28.</num>
+              <list>
+                <intro>
+                  <p>תחת הכותרת ”ועדת ההשקעות של מנהל הקרן“ יצוינו הפרטים האלה:</p>
+                </intro>
+                <point eId="point_28__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>שמות חברי ועדת ההשקעות;</p>
+                  </content>
+                </point>
+                <point eId="point_28__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>הפרטים המצוינים <ref href="#point_27">בתקנה 27(2)</ref> בשינויים המחויבים, ובמקום הפרטים המצוינים <ref href="#point_27">בתקנה 27(2)(ז)</ref> – נוסף על מנהל הקרן, מספר חברות ניהול השקעות כמשמעותן <ref href="/akn/il/act/PrimaryLegislation/1994-08-23/155776#point_16">בסעיף 16(ב) לחוק</ref>, שבהן הוא מכהן כחבר ועדת השקעות ושמותיהן, ואם אינו מכהן בחברות כאמור – יצוין הדבר; נכלל פרט מהפרטים הנדרשים בתקנה זו במסגרת הגילוי הנדרש לעניין דירקטוריון מנהל הקרן לפי <ref href="#point_27">תקנה 27(2)</ref>, תבוא הפניה לעמוד בתשקיף שבו צוינו הפרטים;</p>
+                  </content>
+                </point>
+                <point eId="point_28__point_3">
+                  <num>(3)</num>
+                  <content>
+                    <p>מספר חברי ועדת השקעות שחדלו לכהן בוועדת ההשקעות של מנהל הקרן בשנים עשר החודשים שקדמו למועד פרסום התשקיף; הסתיימה כהונתו של חבר ועדת השקעות בנסיבות שיש בהן עניין לציבור – שמו, מועד סיום כהונתו ונסיבות סיום הכהונה.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_29">
+              <heading>
+                <authorialNote placement="side">
+                  <p>מנהלי ההשקעות של מנהל הקרן</p>
+                </authorialNote>
+              </heading>
+              <num>29.</num>
+              <list>
+                <intro>
+                  <p>תחת הכותרת ”מנהלי ההשקעות של מנהל הקרן“ יצוינו הפרטים האלה:</p>
+                </intro>
+                <point eId="point_29__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>מספרם הכולל של המשתתפים בקבלת החלטות שעניינן ניהול תיקי ההשקעות של הקרנות שבניהול מנהל הקרן (להלן – מנהלי השקעות), למעט עובדים של מנהל השקעות חיצוני של אחת מהקרנות שבניהול מנהל הקרן אך לרבות עובדים מקבוצת מנהל הקרן;</p>
+                  </content>
+                </point>
+                <point eId="point_29__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>לגבי מנהל השקעות שהוא דירקטור או חבר ועדת השקעות – שמו, מספר תעודת הזהות שלו או מספר הדרכון שלו אם הוא תושב חוץ;</p>
+                  </content>
+                </point>
+                <point eId="point_29__point_3">
+                  <num>(3)</num>
+                  <list>
+                    <intro>
+                      <p>לגבי כל אחד ממנהלי ההשקעות –</p>
+                    </intro>
+                    <point eId="point_29__point_3__point_א">
+                      <num>(א)</num>
+                      <content>
+                        <p>שנת לידתו;</p>
+                      </content>
+                    </point>
+                    <point eId="point_29__point_3__point_ב">
+                      <num>(ב)</num>
+                      <content>
+                        <p>תפקידו במנהל הקרן;</p>
+                      </content>
+                    </point>
+                    <point eId="point_29__point_3__point_ג">
+                      <num>(ג)</num>
+                      <content>
+                        <p>האם הוא בעל רישיון מנהל תיקים ישראלי, ומספר הרישיון, ככל שישנו;</p>
+                      </content>
+                    </point>
+                    <point eId="point_29__point_3__point_ד">
+                      <num>(ד)</num>
+                      <content>
+                        <p>אם הוא בעל תואר אקדמי – תוארו האקדמי, התחום שבו ניתן ושם המוסד שהעניק את התואר;</p>
+                      </content>
+                    </point>
+                    <point eId="point_29__point_3__point_ה">
+                      <num>(ה)</num>
+                      <content>
+                        <p>השנה שבה החל בניהול השקעות בכלל ובניהול השקעות בעבור קרנות נאמנות בפרט; היה הוותק של העובד בתאריך התשקיף קצר מחמש שנים, יצוינו החודש והשנה שבהם החל בניהול השקעות;</p>
+                      </content>
+                    </point>
+                    <point eId="point_29__point_3__point_ו">
+                      <num>(ו)</num>
+                      <content>
+                        <p>ניסיונו בניהול השקעות בחמש השנים האחרונות, התאגידים או המוסדות שהועסק בהם בשנים האמורות, ותקופת כל עיסוק כאמור – החודש והשנה של תחילת כל תקופה והחודש והשנה של סיומה;</p>
+                      </content>
+                    </point>
+                    <point eId="point_29__point_3__point_ז">
+                      <num>(ז)</num>
+                      <content>
+                        <p>שמות הקרנות שאת השקעותיהן הוא מנהל, והמועד שבו החל בניהול השקעות כל קרן.</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+              </list>
+            </point>
+            <point eId="point_30">
+              <heading>
+                <authorialNote placement="side">
+                  <p>מנהל השקעות חיצוני לניהול תיק השקעות של קרן</p>
+                </authorialNote>
+              </heading>
+              <num>30.</num>
+              <list>
+                <point eId="point_30__point_א">
+                  <num>(א)</num>
+                  <list>
+                    <intro>
+                      <p>התקשר מנהל קרן עם מנהל השקעות חיצוני, תחת הכותרת ”מנהל השקעות חיצוני לניהול תיק השקעות של קרן“, יצוינו הפרטים האלה:</p>
+                    </intro>
+                    <point eId="point_30__point_א__point_1">
+                      <num>(1)</num>
+                      <content>
+                        <p>שם מנהל ההשקעות החיצוני;</p>
+                      </content>
+                    </point>
+                    <point eId="point_30__point_א__point_2">
+                      <num>(2)</num>
+                      <content>
+                        <p>כתובתו ומענו לקבלת דברי דואר, לרבות כתבי בי־דין;</p>
+                      </content>
+                    </point>
+                    <point eId="point_30__point_א__point_3">
+                      <num>(3)</num>
+                      <content>
+                        <p>שמות בעלי השליטה במנהל ההשקעות החיצוני והאם נמנה עם קבוצת מנהל הקרן;</p>
+                      </content>
+                    </point>
+                    <point eId="point_30__point_א__point_4">
+                      <num>(4)</num>
+                      <content>
+                        <p>השנה שבה החל מנהל ההשקעות החיצוני בניהול תיקי השקעות; היה הוותק של מנהל ההשקעות החיצוני בתאריך התשקיף קצר מחמש שנים, יצוינו החודש והשנה שבהם החל בניהול תיקי השקעות;</p>
+                      </content>
+                    </point>
+                    <point eId="point_30__point_א__point_5">
+                      <num>(5)</num>
+                      <content>
+                        <p>היקף ההשקעות שבניהול מנהל ההשקעות החיצוני;</p>
+                      </content>
+                    </point>
+                    <point eId="point_30__point_א__point_6">
+                      <num>(6)</num>
+                      <content>
+                        <p>הקרן שאת השקעותיה ינהל, לרבות החודש והשנה שבה החל לנהל את תיק ההשקעות של הקרן וחלק התיק שינוהל על ידי מנהל ההשקעות החיצוני, אם נקבע חלק מסוים;</p>
+                      </content>
+                    </point>
+                    <point eId="point_30__point_א__point_7">
+                      <num>(7)</num>
+                      <list>
+                        <intro>
+                          <p>אם מונה עובד שינהל אתתיק ההשקעות, כולו או חלקו, מטעם מנהל ההשקעות החיצוני –</p>
+                        </intro>
+                        <point eId="point_30__point_א__point_7__point_א">
+                          <num>(א)</num>
+                          <content>
+                            <p>שמו ושנת לידתו;</p>
+                          </content>
+                        </point>
+                        <point eId="point_30__point_א__point_7__point_ב">
+                          <num>(ב)</num>
+                          <content>
+                            <p>האם הוא בעל רישיון מנהל תיקים ישראלי, ומספר הרישיון, ככל שישנו;</p>
+                          </content>
+                        </point>
+                        <point eId="point_30__point_א__point_7__point_ג">
+                          <num>(ג)</num>
+                          <content>
+                            <p>אם הוא בעל תואר אקדמי – תוארו האקדמי, התחום שבו ניתן ושם המוסד שהעניק את התואר;</p>
+                          </content>
+                        </point>
+                        <point eId="point_30__point_א__point_7__point_ד">
+                          <num>(ד)</num>
+                          <content>
+                            <p>השנה שבה החל לנהל תיקי השקעות; היה הוותק של העובד בתאריך התשקיף קצר מחמש שנים – החודש והשנה שבהם החל בניהול תיקי השקעות;</p>
+                          </content>
+                        </point>
+                        <point eId="point_30__point_א__point_7__point_ה">
+                          <num>(ה)</num>
+                          <content>
+                            <p>ניסיונו בניהול השקעות בחמש השנים האחרונות, התאגידים או המוסדות שהועסק בהם בשנים האמורות, ותקופת כלעיסוק כאמור – החודש והשנה של תחילת כל תקופה והחודש והשנה של סיומה;</p>
+                          </content>
+                        </point>
+                        <point eId="point_30__point_א__point_7__point_ו">
+                          <num>(ו)</num>
+                          <content>
+                            <p>האם מנהל תיק השקעות, כולו או חלקו, של קרן שבניהול מנהל קרן אחר, ושמות מנהל הקרן והקרן, ככל שישנם כאלה;</p>
+                          </content>
+                        </point>
+                      </list>
+                    </point>
+                    <point eId="point_30__point_א__point_8">
+                      <num>(8)</num>
+                      <content>
+                        <p>היקף הסמכות ושיקול הדעת המוקנים למנהל ההשקעות החיצוני והאופן שבו מנהל הקרן מפקח על ניהול ההשקעות על ידו;</p>
+                      </content>
+                    </point>
+                    <point eId="point_30__point_א__point_9">
+                      <num>(9)</num>
+                      <content>
+                        <p>ההסדר להמשך ניהול השקעות הקרן עם סיום ההתקשרות עם מנהל ההשקעות החיצוני.</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+                <point eId="point_30__point_ב">
+                  <num>(ב)</num>
+                  <content>
+                    <p>הודעה כי לפי <ref href="/akn/il/act/PrimaryLegislation/1994-08-23/155776">החוק</ref>, העסקת מנהל השקעות חיצוני על ידי מנהל הקרן לצורך ניהול תיק ההשקעות של הקרן אינה גורעת מאחריותו של מנהל הקרן והנאמן כלפי בעלי היחידות.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_31">
+              <heading>
+                <authorialNote placement="side">
+                  <p>נותני שירותים למנהל הקרן</p>
+                </authorialNote>
+              </heading>
+              <num>31.</num>
+              <list>
+                <intro>
+                  <p>תחת הכותרת ”נותני שירותים למנהל הקרן“ יצוינו הפרטים האלה:</p>
+                </intro>
+                <point eId="point_31__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>סוכני ניירות הערך בישראל ומחוץ לישראל, שבאמצעותם מתבצעות עסקאות בעבור הקרנות שבניהולו; היה מי מסוכני ניירות הערך בעל עניין במנהל הקרן או בנאמן – יצוין הדבר;</p>
+                  </content>
+                </point>
+                <point eId="point_31__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>הבנק בישראל או מחוץ לישראל, או התאגיד, שאצלו מופקדים נכסי הקרנות למשמורת; היה מי מהם בעל עניין במנהל הקרן או בנאמן – יצוין הדבר;</p>
+                  </content>
+                </point>
+                <point eId="point_31__point_3">
+                  <num>(3)</num>
+                  <content>
+                    <p>השירותים הנדרשים לניהול השוטף של הקרנות שבניהול מנהל הקרן, בהתאם להוראות הדין ולהתחייבויות על פי התשקיף, שאותם קונה או מקבל מנהל הקרן מגורמים חיצוניים והגופים המספקים אותם למנהל הקרן, למעט שירותים המפורטים בתקנות משנה (1), (2), (4) ו־(5) <ref href="#point_34">ובתקנה 34</ref>; היה מי מן הגופים המספקים שירותים כאמור למנהל הקרן בעל עניין במנהל הקרן או בנאמן – יצוין הדבר;</p>
+                  </content>
+                </point>
+                <point eId="point_31__point_4">
+                  <num>(4)</num>
+                  <content>
+                    <p>שמו של משרד רואה החשבון של הקרנות, כתובתו ומענו להמצאת דברי דואר, לרבות כתבי בי־דין;</p>
+                  </content>
+                </point>
+                <point eId="point_31__point_5">
+                  <num>(5)</num>
+                  <content>
+                    <p>שמו של משרד עורכי הדין שערך את התשקיף ומענו להמצאת דברי דואר, לרבות כתבי בי־דין.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_32">
+              <heading>
+                <authorialNote placement="side">
+                  <p>הנאמן</p>
+                </authorialNote>
+              </heading>
+              <num>32.</num>
+              <list>
+                <intro>
+                  <p>תחת הכותרת ”הנאמן“ יצוינו הפרטים האלה:</p>
+                </intro>
+                <point eId="point_32__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>שם החברה לנאמנות; שונה שם הנאמן מאז פרסם מנהל הקרן לאחרונה תשקיף, יצוין הדבר בהערת שוליים, בציון שמו של הנאמן לפני ששונה, ותאריך השינוי;</p>
+                  </content>
+                </point>
+                <point eId="point_32__point_1א">
+                  <num>(1א)</num>
+                  <content>
+                    <p>פרטי ההתקשרות עם הנאמן, לרבות שמו, כתובתו, מענו לקבלת דברי דואר לרבות כתבי בי־דין, מספרי הטלפון, הפקסימילה, כתובת הדואר האלקטרוני, שבאמצעותם יכול הציבור לפנות אליו;</p>
+                  </content>
+                </point>
+                <point eId="point_32__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>הקרן שלה מספק הנאמן שירותי נאמנות;</p>
+                  </content>
+                </point>
+                <point eId="point_32__point_3">
+                  <num>(3)</num>
+                  <content>
+                    <p>שמות בעלי השליטה בחברה;</p>
+                  </content>
+                </point>
+                <point eId="point_32__point_4">
+                  <num>(4)</num>
+                  <content>
+                    <p>השנה שבה החלה החברה במתן שירותי נאמנות לקרנות נאמנות; היה הוותק של החברה בתאריך התשקיף קצר מחמש שנים, יצוינו החודש והשנה שבהם החלה במתן שירותי נאמנות כאמור;</p>
+                  </content>
+                </point>
+                <point eId="point_32__point_5">
+                  <num>(5)</num>
+                  <content>
+                    <p>שמות הדירקטורים; שמו של יושב ראש הדירקטוריון יצוין ראשון ברשימה וליד שמו התואר יושב ראש, ולגבי כל אחד מהדירקטורים יצוינו שנת לידתו, כתובת מגוריו ומענו לקבלת דברי דואר לרבות כתבי בי־דין ועיסוקיו העיקריים;</p>
+                  </content>
+                </point>
+                <point eId="point_32__point_6">
+                  <num>(6)</num>
+                  <content>
+                    <p>שמו של המנהל הכללי, שנת לידתו, כתובת מגוריו ומענו לקבלת דברי דואר לרבות כתבי בי־דין ועיסוקיו העיקריים;</p>
+                  </content>
+                </point>
+                <point eId="point_32__point_7">
+                  <num>(7)</num>
+                  <list>
+                    <intro>
+                      <p>הפרטים כמפורט להלן על עובד הנאמן הממונה על מילוי חובות הנאמן ותפקידיו לפי <ref href="/akn/il/act/PrimaryLegislation/1994-08-23/155776#point_78">סעיף 78 לחוק</ref>:</p>
+                    </intro>
+                    <point eId="point_32__point_7__point_א">
+                      <num>(א)</num>
+                      <content>
+                        <p>שמו ושנת לידתו;</p>
+                      </content>
+                    </point>
+                    <point eId="point_32__point_7__point_ב">
+                      <num>(ב)</num>
+                      <content>
+                        <p>המועד שבו החל לשמש כאחראי על מילוי חובות הנאמן ותפקידיו;</p>
+                      </content>
+                    </point>
+                    <point eId="point_32__point_7__point_ג">
+                      <num>(ג)</num>
+                      <content>
+                        <p>אם הוא בעל תואר אקדמי – תוארו האקדמי, התחום שבו ניתן ושם המוסד שהעניק את התואר;</p>
+                      </content>
+                    </point>
+                    <point eId="point_32__point_7__point_ד">
+                      <num>(ד)</num>
+                      <content>
+                        <p>עיסוקיו העיקריים בחמש השנים האחרונות ועיסוקיו הנוכחיים הנוספים, התאגידים או המוסדות שהועסק בהם בשנים האמורות, ותקופת כל עיסוק כאמור – החודש והשנה של תחילת כל תקופה והחודש והשנה של סיומה;</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+                <point eId="point_32__point_8">
+                  <num>(8)</num>
+                  <content>
+                    <p>הצהרת הנאמן כי למיטב ידיעתו לא קיים כל פגם בכשירותו, לפי <ref href="/akn/il/act/PrimaryLegislation/1994-08-23/155776#point_9">סעיף 9 לחוק</ref>.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_33">
+              <heading>
+                <authorialNote placement="side">
+                  <p>עניין במנהל ובנאמן</p>
+                </authorialNote>
+              </heading>
+              <num>33.</num>
+              <content>
+                <p>תחת הכותרת ”עניין במנהל ובנאמן“ יפורט כל עניין במנהל הקרן שיש לנאמן, או לבעל עניין בנאמן, וכל עניין בנאמן שיש למנהל הקרן, או לבעל עניין במנהל הקרן.</p>
+              </content>
+            </point>
+            <point eId="point_34">
+              <heading>
+                <authorialNote placement="side">
+                  <p>מבקר פנימי</p>
+                </authorialNote>
+              </heading>
+              <num>34.</num>
+              <list>
+                <intro>
+                  <p>תחת הכותרת ”מבקר פנימי“ יצוינו הפרטים האלה:</p>
+                </intro>
+                <point eId="point_34__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>שמו של המבקר הפנימי של מנהל הקרן, מספר תעודת הזהות שלו או מספר הדרכון שלו אם אינו אזרח ישראל, שנת לידתו, כתובת מגוריו ומענו להמצאת דברי דואר, לרבות כתבי בי־דין;</p>
+                  </content>
+                </point>
+                <point eId="point_34__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>אם הוא בעל רישיון רואה חשבון או עורך דין, ואם אינו בעל רישיון כאמור, והוא בעל תואר אקדמי – גם תוארו האקדמי, התחום שבו ניתן התואר, ושם המוסד שהעניקו;</p>
+                  </content>
+                </point>
+                <point eId="point_34__point_3">
+                  <num>(3)</num>
+                  <content>
+                    <p>עיסוקיו העיקריים בחמש השנים האחרונות ועיסוקיו הנוכחיים הנוספים, התאגידים או המוסדות שהועסק בהם בשנים האמורות, ותקופת כל עיסוק כאמור – החודש והשנה של תחילת כל תקופה והחודש והשנה של סיומה;</p>
+                  </content>
+                </point>
+                <point eId="point_34__point_4">
+                  <num>(4)</num>
+                  <content>
+                    <p>הצהרת מנהל הקרן כי למיטב ידיעתו ובדיקתו, עומד המבקר בתנאים הקבועים <ref href="/akn/il/act/PrimaryLegislation/1992-04-09/153135#point_3">בסעיפים 3(א)</ref><ref href="/akn/il/act/PrimaryLegislation/1992-04-09/153135#point_8">ו־8 לחוק הביקורת הפנימית, התשנ"ב–1992</ref>;</p>
+                  </content>
+                </point>
+                <point eId="point_34__point_5">
+                  <num>(5)</num>
+                  <content>
+                    <p>מועד תחילת כהונתו כמבקר פנימי של מנהל הקרן;</p>
+                  </content>
+                </point>
+                <point eId="point_34__point_6">
+                  <num>(6)</num>
+                  <content>
+                    <p>היו למבקר הפנימי קשרים מהותיים, עסקיים או אחרים עם מנהל הקרן, אדם השולט במנהל הקרן או חברה בשליטת אדם כאמור, יצוינו קשרים אלה והאם יש בהם כדי ליצור ניגוד עניינים עם תפקידו כמבקר פנימי; כיהן האדם כמבקר פנימי בחברה השולטת במנהל הקרן או בחברה בשליטת חברה כאמור – גם שם החברה שבה הוא מכהן כאמור;</p>
+                  </content>
+                </point>
+                <point eId="point_34__point_7">
+                  <num>(7)</num>
+                  <content>
+                    <p>היקף העסקת המבקר הפנימי לפי מספר שעות עבודה בשנה ומידת גמישותו; לא נקבע היקף העסקת המבקר הפנימי לפי מספר שעות עבודה בשנה – יפורטו דרך תגמולו של המבקר וגובה התגמול;</p>
+                  </content>
+                </point>
+                <point eId="point_34__point_8">
+                  <num>(8)</num>
+                  <content>
+                    <p>זהות הגורם המאשר את תכנית עבודתו של המבקר ותפקידו;</p>
+                  </content>
+                </point>
+                <point eId="point_34__point_9">
+                  <num>(9)</num>
+                  <content>
+                    <p>אישור הדירקטוריון לכך שהיקף, אופי ורציפות פעילות המבקר ותכנית עבודתו הם סבירים בנסיבות העניין וכי יש בהם כדי להגשים את מטרות הביקורת הפנימית במנהל הקרן;</p>
+                  </content>
+                </point>
+                <point eId="point_34__point_10">
+                  <num>(10)</num>
+                  <content>
+                    <p>המועדים שבהם הוגשו דוחות המבקר הפנימי בשנת התשקיף ובשנה שקדמה לה והמועדים שבהם התקיים דיון בדירקטוריון בממצאי המבקר הפנימי בתקופה זו.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_35">
+              <heading>
+                <authorialNote placement="side">
+                  <p>ועדת הביקורת של מנהל הקרן</p>
+                </authorialNote>
+              </heading>
+              <num>35.</num>
+              <list>
+                <intro>
+                  <p>תחת הכותרת ”ועדת הביקורת של מנהל הקרן“ יצוינו הפרטים האלה:</p>
+                </intro>
+                <point eId="point_35__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>שמות חברי הוועדה;</p>
+                  </content>
+                </point>
+                <point eId="point_35__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>מספר חברי ועדת הביקורת שחדלו לכהן בוועדת הביקורת של מנהל הקרן בשנים עשר החודשים שקדמו למועד פרסום התשקיף; הסתיימה כהונתו של חבר ועדת הביקורת בנסיבות שיש בהן עניין לציבור – שמו, מועד סיום כהונתו ונסיבות סיום הכהונה.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_36">
+              <heading>
+                <authorialNote placement="side">
+                  <p>הממונה על האכיפה הפנימית</p>
+                </authorialNote>
+              </heading>
+              <num>36.</num>
+              <list>
+                <intro>
+                  <p>מונה ממונה על האכיפה הפנימית במנהל הקרן, יפורטו תחת כותרת ”הממונה על האכיפה הפנימית“ הפרטים האלה:</p>
+                </intro>
+                <point eId="point_36__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>שמו, מספר תעודת הזהות שלו או מספר הדרכון שלו אם אינו אזרח ישראל, שנת לידתו, כתובת מגוריו ומענו להמצאת דברי דואר, לרבות כתבי בי־דין;</p>
+                  </content>
+                </point>
+                <point eId="point_36__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>היותו בעל רישיון רואה חשבון או עורך דין; ואם אינו בעל רישיון כאמור, והוא בעל תואר אקדמי – תוארו האקדמי, התחום שבו ניתן התואר, ושם המוסד שהעניקו;</p>
+                  </content>
+                </point>
+                <point eId="point_36__point_3">
+                  <num>(3)</num>
+                  <content>
+                    <p>עיסוקיו העיקריים בחמש השנים האחרונות ועיסוקיו הנוכחיים הנוספים, התאגידים או המוסדות שהועסק בהם בשנים האמורות, ותקופת כל עיסוק כאמור – החודש והשנה של תחילת כל תקופה והחודש והשנה של סיומה;</p>
+                  </content>
+                </point>
+                <point eId="point_36__point_4">
+                  <num>(4)</num>
+                  <content>
+                    <p>מועד תחילת העסקתו בתפקיד זה במנהל הקרן.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_37">
+              <heading>
+                <authorialNote placement="side">
+                  <p>הודעות מיוחדות</p>
+                </authorialNote>
+              </heading>
+              <num>37.</num>
+              <list>
+                <point eId="point_37__point_א">
+                  <num>(א)</num>
+                  <list>
+                    <intro>
+                      <p>אירע אירוע מהמנויים בתקנת משנה זו, תבוא הודעה במסגרת אשר תכלול את הפרטים כמפורט להלן, ובסופה הפניה לדוח המיידי שהוגש לרשות באותו עניין והמתפרסם באתר ההפצה של הרשות, בציון התאריך שבו פורסם ומספר האסמכתה של הדוח:</p>
+                    </intro>
+                    <point eId="point_37__point_א__point_1">
+                      <num>(1)</num>
+                      <content>
+                        <p>קיבלו מנהל הקרן, הנאמן או מנהל ההשקעות החיצוני, בתקופת שלושים ושישה החודשים שקדמו לתאריך פרסום התשקיף, דרישה לתשלום עיצום כספי לפי <ref href="/akn/il/act/PrimaryLegislation/1994-08-23/155776#point_114">סעיף 114 לחוק</ref> או לפי <ref href="/akn/il/act/PrimaryLegislation/2005-08-10/100898#point_38א">סעיף 38א לחוק הסדרת העיסוק</ref>, יפורטו תחת הכותרת ”עיצום כספי“ סעיף ההפרה שבשלה הוטל העיצום ומהות ההפרה, ויצוין תאריך הדרישה; הוגש ערעור על דרישת העיצום ובית המשפט טרם פסק בערעור, יצוין הדבר; הוראות פסקה זו אינן חלות על מי שהגיש ערעור על דרישת העיצום ובית המשפט ביטל את הקנס;</p>
+                      </content>
+                    </point>
+                    <point eId="point_37__point_א__point_1א">
+                      <num>(1א)</num>
+                      <content>
+                        <p>החליט המותב לפי <ref href="/akn/il/act/PrimaryLegislation/1968-08-22/150242#point_52נא">סעיף 52נא לחוק ניירות ערך</ref> כי מנהל הקרן, הנאמן, מנהל ההשקעות החיצוני, נושא משרה באחד מהם, בעל שליטה באחד מהם או נושא משרה בו – ביצע הפרה מינהלית בתקופת שלושים ושישה החודשים שקדמו לתאריך פרסום התשקיף, יפורטו תחת הכותרת ”אכיפה מינהלית“ סעיף ההפרה לפי <ref href="/akn/il/act/PrimaryLegislation/1994-08-23/155776#point_97א">סעיף 97א(א) לחוק</ref> או לפי <ref href="/akn/il/act/PrimaryLegislation/2005-08-10/100898#point_38ו">סעיף 38ו לחוק הסדרת העיסוק</ref>, מהות ההפרה ותמצית החלטת המותב כאמור בסעיף זה; הוגשה עתירה מינהלית מכוח <ref href="/akn/il/act/PrimaryLegislation/1984-08-13/2002218#point_42ה">סעיף 42ה(א)(1) לחוק בתי המשפט [נוסח משולב], התשמ"ד–1984</ref>, נגד החלטת המותב כאמור ובית המשפט טרם פסק בה, יצוין הדבר; הוראות פסקה זו אינן חלות אם בית המשפט שדן בערעור החלטת המותב, ביטל אותה;</p>
+                      </content>
+                    </point>
+                    <point eId="point_37__point_א__point_1ב">
+                      <num>(1ב)</num>
+                      <content>
+                        <p>התקשרו יושב ראש הרשות או פרקליט מחוז בהסדר עם מנהל הקרן, הנאמן, מנהל ההשקעות החיצוני או נושא משרה באחד מהם לפי <ref href="/akn/il/act/PrimaryLegislation/1994-08-23/155776#point_128ב">סעיף 128ב לחוק</ref>, יתוארו דבר ההתקשרות בהסדר ותוכן ההסדר, אלא אם כן החליט יושב ראש הרשות שלא לפרסם את דבר ההתקשרות לפי <ref href="/akn/il/act/PrimaryLegislation/1968-08-22/150242#point_54ג">סעיף 54ג(ב) לחוק ניירות ערך</ref>;</p>
+                      </content>
+                    </point>
+                    <point eId="point_37__point_א__point_2">
+                      <num>(2)</num>
+                      <content>
+                        <p>תלויה ועומדת נגד מנהל הקרן, הנאמן או מנהל ההשקעות החיצוני תובענה שאושרה על ידיבית המשפט כתובענה ייצוגית, יתואר בתמצית תחת הכותרת ”תובענה ייצוגית“, מי שנגדו הוגשה התובענה הייצוגית והעניין שבשלו הוגשה;</p>
+                      </content>
+                    </point>
+                    <point eId="point_37__point_א__point_3">
+                      <num>(3)</num>
+                      <content>
+                        <p>ניתן בתקופת שלושים ושישה החודשים שקדמו לתאריך פרסום התשקיף, פסק דין לטובת בעלי יחידות בתובענה ייצוגית שהוגשה נגד מנהל הקרן, הנאמן או מנהל ההשקעות החיצוני, תחת הכותרת ”פסק דין בתובענה ייצוגית“ יצוין מי שנגדו הוגשה התובענה הייצוגית, יתואר העניין שבשלו הוגשה התובענה הייצוגית, ותובא תמציתו של פסק הדין בלא הנימוקים;</p>
+                      </content>
+                    </point>
+                    <point eId="point_37__point_א__point_4">
+                      <num>(4)</num>
+                      <content>
+                        <p>הוגש כתב אישום בעבירה לפי <ref href="/akn/il/act/PrimaryLegislation/1994-08-23/155776#point_9א">סעיף 9א לחוק</ref>, נגד מנהל הקרן, הנאמן, נושא משרה באחד מהם, בעל שליטה באחד מהם או נושא משרה בו, חברה שמונתה לבצע תפקיד מתפקידי מנהל הקרן או מתפקידי הנאמן או נושא משרה בהן, מי שמשתתף בניהול השקעות בקרן או יועץ חיצוני למנהל הקרן, ובית המשפט טרם הכריע את דינו, יצוינו תחת הכותרת ”הגשת כתב אישום“, שמו ותפקידו של מי שנגדו הוגש כתב האישום ואם הוא העובד הממונה על מילוי חובות הנאמן ותפקידיו לפי <ref href="/akn/il/act/PrimaryLegislation/1994-08-23/155776#point_78">סעיף 78 לחוק</ref>, תאריך הגשת כתב האישום ומהות העבירה שבה הוא מואשם, ויובאו בתמצית העובדות העיקריות הנטענות בכתב האישום; הוראות פסקה זו אינן חלות אם מי שהוגש נגדו כתב אישום, זוכה, והוגש בעניינו פסק דין חלוט;</p>
+                      </content>
+                    </point>
+                    <point eId="point_37__point_א__point_5">
+                      <num>(5)</num>
+                      <content>
+                        <p>הורשע מי מהמנויים בפסקה (4) בעבירה המפורטת <ref href="/akn/il/act/PrimaryLegislation/1994-08-23/155776#point_9א">בסעיף 9א לחוק</ref>, תחת הכותרת ”הרשעה“ יצוין הדבר, תוך ציון תאריך ההרשעה, שמו של האדם שהורשע ותפקידו ואם הוא העובד הממונה על מילוי חובות הנאמן ותפקידיו לפי <ref href="/akn/il/act/PrimaryLegislation/1994-08-23/155776#point_78">סעיף 78 לחוק</ref>, ויובאו בתמצית העובדות העיקריות שנקבעו בפסק הדין; ניתן גזר דין בגין ההרשעה, יצוין גם גזר הדין והתאריך שבו ניתן;</p>
+                      </content>
+                    </point>
+                    <point eId="point_37__point_א__point_6">
+                      <num>(6)</num>
+                      <content>
+                        <p>זוכה מי מהמנויים בפסקה (4) מעבירה, רשאי מנהל הקרן לציין עובדה זו, תוך ציון תאריך פסק הדין, שמו של האדם שזוכה, תפקידו ואם הוא העובד הממונה על מילוי חובות הנאמן ותפקידיו לפי <ref href="/akn/il/act/PrimaryLegislation/1994-08-23/155776#point_78">סעיף 78 לחוק</ref>, והעבירה שממנה זוכה.</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+                <point eId="point_37__point_ב">
+                  <num>(ב)</num>
+                  <list>
+                    <intro>
+                      <p>לעניין תקנה זו –</p>
+                    </intro>
+                    <point eId="point_37__point_ב__point_מנהל_הקרן">
+                      <content>
+                        <p>
+                          <def />”מנהל הקרן“, ”הנאמן“, ”מנהל ההשקעות החיצוני“ – מנהל הקרן, הנאמן או מנהל ההשקעות החיצוני במועד פרסום התשקיף; ביחס לנאמן – לרבות בתקופה שבה כיהן כנאמן לקרנות שאינן בניהול מנהל הקרן, וביחס למנהל ההשקעות החיצוני – לרבות בתקופה שבה לא כיהן כמנהל תיקי השקעות לקרנות בניהול מנהל הקרן;</p>
+                      </content>
+                    </point>
+                    <point eId="point_37__point_ב__point_נושא_משרה">
+                      <content>
+                        <p>
+                          <def />”נושא משרה“ – <wikicomment font-size="x-small">(נמחקה).</wikicomment></p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+              </list>
+            </point>
+            <point eId="point_38">
+              <heading>
+                <authorialNote placement="side">
+                  <p>שיעורי עמלה נהוגים בעסקאות בעד קרן</p>
+                </authorialNote>
+              </heading>
+              <num>38.</num>
+              <list>
+                <intro>
+                  <p>תחת הכותרת ”שיעורי עמל הנהוגים ואשר צפויים להיפרע בעסקאות בעד קרן“ –</p>
+                </intro>
+                <point eId="point_38__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>יפורטו שיעורי העמלות הנהוגים ואשר צפויים להיפרע מנכסי הקרנות שבניהול מנהל הקרן וזהות הגורם שלו הן משולמות, לפי סוגי העסקאות הנעשות בישראל ומחוץ לישראל, התקפים במועד הכנת התשקיף;</p>
+                  </content>
+                </point>
+                <point eId="point_38__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>נקבע שיעור עמלה שונה בעסקה מסוג מסוים בעד קרן מסוימת, יצוינו שם הקרן, סוג העסקה ושיעור העמלה;</p>
+                  </content>
+                </point>
+                <point eId="point_38__point_3">
+                  <num>(3)</num>
+                  <content>
+                    <p>ישולמו עמלות כאמור שלא מנכסי הקרנות, יצוין שם הגורם המשלם אותן והתקופה שבמהלכה הוא ישלמן, אם נקצבה;</p>
+                  </content>
+                </point>
+                <point eId="point_38__point_4">
+                  <num>(4)</num>
+                  <content>
+                    <p>היתה הקרן פטורה מתשלום עמלות – יצוין הדבר.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_39">
+              <heading>
+                <authorialNote placement="side">
+                  <p>עמלות הפצה</p>
+                </authorialNote>
+              </heading>
+              <num>39.</num>
+              <content>
+                <p>
+                  <wikicomment font-size="x-small">(בוטלה).</wikicomment>
+                </p>
+              </content>
+            </point>
+            <point eId="point_40">
+              <heading>
+                <authorialNote placement="side">
+                  <p>החזקות גורמים מקורבים</p>
+                </authorialNote>
+              </heading>
+              <num>40.</num>
+              <content>
+                <p>תחת הכותרת ”החזקות מקורבים“ יוצגו החזקות כל הגורמים המקורבים בכל אחת מהקרנות שבניהול מנהל הקרן, בציון שיעור ההחזקה, מהגבוה לנמוך, ומספר המקורבים המחזיקים בשיעור זה.</p>
+              </content>
+            </point>
+            <point eId="point_41">
+              <heading>
+                <authorialNote placement="side">
+                  <p>הזמנת יחידות ומתן הוראות פדיון</p>
+                </authorialNote>
+              </heading>
+              <num>41.</num>
+              <list>
+                <intro>
+                  <p>תחת הכותרת ”הזמנת יחידות ומתן הוראות פדיון“ –</p>
+                </intro>
+                <point eId="point_41__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>לגבי קרנות פתוחות שבניהול מנהל הקרן, ההודעה ”הזמנות ליחידות או הוראות לפדיון יחידות של קרן פתוחה ניתן להגיש אצל כל אחד מחברי הבורסה; הזמנה ליחידה או הוראה לפדיון שתוגש עד השעה הייעודה של יום מסחר, שהוא גם יום שבו ניתן להציע יחידות או לפדותן, תבוצע באותו יום; הזמנה או הוראה שתוגש ביום מסחר לאחר השעה הייעודה, או תוגש ביום שאינו יום מסחר, תבוצע ביום המסחר הראשון לאחר היום שבו הוגשה; השעה הייעודה לגבי כל קרן מצוינת בלוח שכותרתו קרנות שבניהול מנהל הקרן והצעת יחידות של כל הקרנות שבניהולו; חברי הבורסה יהיו אחראים וחייבים לתשלום מלוא התמורה בשל הזמנות שהוגשו באמצעותם, אשר ייענו במלואן או בחלקן; כל הזמנה תיחשב כהתחייבות בלתי חוזרת של המזמין לקבל את כל היחידות שיוקצו לו על פי הזמנתו, בין אם בקשתו תתקבל במלואה ובין אם תתקבל רק בחלקה; חברי בורסה עשויים לגבות עמלה בשל מכירת היחידות או פדיונן“; נקבעה לקרן יותר משעה ייעודה אחת – יבוא האמור מעלה, בשינויים המחויבים;</p>
+                  </content>
+                </point>
+                <point eId="point_41__point_2">
+                  <num>(2)</num>
+                  <list>
+                    <intro>
+                      <p>אם בניהולו של מנהל הקרן קרנות סגורות יבוא:</p>
+                    </intro>
+                    <point eId="point_41__point_2__point_א">
+                      <num>(א)</num>
+                      <list>
+                        <intro>
+                          <p>ההודעה ”הזמנות ליחידות או הוראות לפדיון יחידות של קרן סגורה, בקרן שיחידותיה ניתנות לפדיון, ניתן להגיש אצל כל אחד מחברי הבורסה; הזמנות לרכישת היחידות המוצעות יוגשו בתקופה להגשת בקשות לרכישת היחידות המוצעות; חברי הבורסה יהיו אחראי וחייבים לתשלום מלוא התמורה בשל הזמנות שהוגשו באמצעותם, אשר ייענו במלואן או בחלקן; כל הזמנה תיחשב כהתחייבות בלתי חוזרת של המזמין לקבל את כל היחידות שיוקצו לו לפי הזמנתו, בין אם בקשתו תתקבל במלואה ובין אם תתקבל רק בחלקה; חברי בורסה עשויים לגבות עמלה בשל מכירת היחידות או בשל פדיונן.“;</p>
+                        </intro>
+                        <point eId="point_41__point_2__point_א__point_ב">
+                          <num>(ב)</num>
+                          <content>
+                            <p>אם יחידות הקרן ניתנות לפדיון אם לאו ומועדי הפדיון של יחידות הקרן; אם פדיון היחידות מותנה במתן הודעה מוקדמת של בעל יחידה – יצוין הדבר והמועד למתן ההודעה המוקדמת שעל בעל יחידה לתת לצורך פדיון יחידות הקרן;</p>
+                          </content>
+                        </point>
+                      </list>
+                    </point>
+                    <point eId="point_41__point_2__point_ג">
+                      <num>(ג)</num>
+                      <content>
+                        <p>אם פדיון היחידות מוגבל למספר מרבי של יחידות בידי כל בעל יחידה – יצוין הדבר והמספר המרבי של יחידות לפדיון.</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+              </list>
+            </point>
+            <point eId="point_42">
+              <heading>
+                <authorialNote placement="side">
+                  <p>הנחות מהוספה או תשלומים המוצעים בקשר עם רכישה, פדיון, מכירה או החזקה של יחידות</p>
+                </authorialNote>
+              </heading>
+              <num>42.</num>
+              <content>
+                <p>תחת הכותרת ”הנחות מהוספה או תשלומים המוצעים בקשר עם רכישה, פדיון, מכירה או החזקה של יחידות“, לגבי כל הקרנות שבניהול מנהל קרן, יפורטו הנחות מהוספה או תשלומים המוצעים לבעל יחידה בקשר עם רכישה, פדיון, מכירה או החזקה של יחידות, כאמור <ref href="/akn/il/act/PrimaryLegislation/1994-08-23/155776#point_82">בסעיף 82(א) לחוק</ref>, אם ישנם כאלה, בציון שמות הקרנות והתנאי או התנאים שבהתקיימם הם ניתנים, ככל שקיימים תנאים כאלה.</p>
+              </content>
+            </point>
+            <point eId="point_43">
+              <heading>
+                <authorialNote placement="side">
+                  <p>נכסים ששוויים נקבע על פי הנחיות דירקטוריון מנהל הקרן</p>
+                </authorialNote>
+              </heading>
+              <num>43.</num>
+              <list>
+                <intro>
+                  <p>תחת הכותרת ”נכס ששוויו נקבע על פי הנחיות דירקטוריון מנהל הקרן“, יפורטו הפרטים האלה:</p>
+                </intro>
+                <point eId="point_43__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>הנחיות דירקטוריון מנהל הקרן לקביעת שוויו של נכס במקרים מיוחדים לפי <ref href="/akn/il/act/SecondaryLegislation/1994-11-10/100025290">תקנות המחירים</ref>;</p>
+                  </content>
+                </point>
+                <point eId="point_43__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>הקרנות שבהן שיעור ההחזקה בנכסים ששוויים מחושב על פי הנחיות הדירקטוריון עולה על חמישה אחוזים מהשווי הנקי של נכסי הקרן; בכל אחת מהקרנות האמורות – הנכסים ששוויים מחושב על פי הנחיות הדירקטוריון ושיעור ההחזקה בהם מהשווי הנקי של נכסי הקרן; לעניין זה יחושב שיעור החזקה לפי שווי הנכסים כפי שנקבעו בהתאם להנחיות הדירקטוריון.</p>
+                  </content>
+                </point>
+                <point eId="point_43__point_3">
+                  <num>(3)</num>
+                  <content>
+                    <p>המחיר שנקבע בבורסה לכל אחד מהנכסים כאמור בתקנת משנה (2) והשווי שנקבע לו על פי הנחיות הדירקטוריון.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_44">
+              <heading>
+                <authorialNote placement="side">
+                  <p>הצבעה באסיפת מחזיקים</p>
+                </authorialNote>
+              </heading>
+              <num>44.</num>
+              <content>
+                <p>תחת הכותרת ”הצבעה באסיפת מחזיקים“ יפרט מנהל הקרן את עיקרי תהליך גיבוש אופן ההצבעה שלו בהצעות החלטה המובאות לאישור אסיפת מחזיקים לפי <ref href="/akn/il/act/PrimaryLegislation/1994-08-23/155776#point_77">סעיף 77 לחוק</ref>, לרבות הליכי הבדיקה לצורך גיבוש עמדה לגבי הצעות ההחלטה, לרבות לעניין ההצעות שלגביהן קיים חשש לניגוד עניינים, וכן לעניין הסתייעות בגורם חיצוני מקצועי והיקפה.</p>
+              </content>
+            </point>
+            <point eId="point_45">
+              <heading>
+                <authorialNote placement="side">
+                  <p>מיסוי</p>
+                </authorialNote>
+              </heading>
+              <num>45.</num>
+              <content>
+                <p>תחת הכותרת ”מיסוי הקרן ומיסוי בעל יחידה בקרן“ יפורטו, בכל אחד ממסלולי המס הקיימים, הוראות הדין העיקריות, הנוגעות לחבות המס של קרן ולחבות המס של בעל יחידות, והמתייחסות למשקיע יחיד ואשר אין עיסוקו בניירות ערך, או שניירות ערך אינם רשומים בספרי החשבונות שלו.</p>
+              </content>
+            </point>
+            <point eId="point_45א">
+              <heading>
+                <authorialNote placement="side">
+                  <p>היתרים להצעת יחידות</p>
+                </authorialNote>
+              </heading>
+              <num>45א.</num>
+              <content>
+                <p>תחת הכותרת ”היתרים להצעת היחידות“ תבוא הודעה כי מנהל הקרן קיבל את כל ההיתרים, האישורים והרישיונות הדרושים לפי כל דין להצעת היחידות, להנפקתן ולפרסום התשקיף, ובתשקיף של קרן סגורה – גם הודעה כי מנהל הקרן קיבל את אישור הבורסה לרישום למסחר של היחידות שיונפקו לפי התשקיף, וכי אין בהיתר רשות ניירות ערך משום אימות הפרטים המובאים בתשקיף או אישור מהימנותם או שלמותם או הבעת דעה על טיבן של היחידות המוצעות.</p>
+              </content>
+            </point>
+          </list>
+        </section>
+      </chapter>
+      <chapter eId="chp_ד1">
+        <num>פרק ד׳1:</num>
+        <title>
+          <content>
+            <p>תשקיף קרן חדשה ותשקיף מכרז</p>
+          </content>
+        </title>
+        <section eId="chp_ד1__sec_א">
+          <num>סימן א׳:</num>
+          <title>
+            <content>
+              <p>כריכתו הקדמית של תשקיף קרן חדשה</p>
+            </content>
+          </title>
+          <list>
+            <point eId="point_45ב">
+              <heading>
+                <authorialNote placement="side">
+                  <p>הגדרה</p>
+                </authorialNote>
+              </heading>
+              <num>45ב.</num>
+              <content>
+                <p>על אף האמור <ref href="#chp_ד">בפרק ד׳</ref> יחולו על תשקיף קרן חדשה הוראות <ref href="#chp_ד1">פרק זה</ref>.</p>
+              </content>
+            </point>
+            <point eId="point_45ג">
+              <heading>
+                <authorialNote placement="side">
+                  <p>פרטים על כריכתו הקדמית של תשקיף קרן חדשה</p>
+                </authorialNote>
+              </heading>
+              <num>45ג.</num>
+              <list>
+                <intro>
+                  <p>על גבי כריכתו הקדמית של תשקיף קרן חדשה יבואו הפרטים האלה:</p>
+                </intro>
+                <point eId="point_45ג__point_1">
+                  <num>(1)</num>
+                  <list>
+                    <intro>
+                      <p>לגבי מנהל הקרן והנאמן –</p>
+                    </intro>
+                    <point eId="point_45ג__point_1__point_א">
+                      <num>(א)</num>
+                      <content>
+                        <p>המילים ”מנהל הקרן“, ופרטי מנהל הקרן, לרבות שמו, כתובתו ומענו לקבלת דברי דואר לרבות כתבי בי־דין, מספרי הטלפון, הפקסימילה וכתובת הדואר האלקטרוני שלו, שבאמצעותם יכול הציבור לפנות אליו; אם המציע אינו מנהל הקרן הסגורה – גם שמו של המציע ופרטיו כאמור;</p>
+                      </content>
+                    </point>
+                    <point eId="point_45ג__point_1__point_ב">
+                      <num>(ב)</num>
+                      <content>
+                        <p>לצד פרטי מנהל הקרן, תבוא המילה ”הנאמן“, ופרטי הנאמן, לרבות שמו, כתובתו ומענו לקבלת דברי דואר לרבות כתבי בי־דין, מספרי הטלפון, הפקסימילה וכתובת הדואר האלקטרוני שלו, שבאמצעותם יכול הציבור לפנות אליו;</p>
+                      </content>
+                    </point>
+                    <point eId="point_45ג__point_1__point_ג">
+                      <num>(ג)</num>
+                      <content>
+                        <p>שונה שם מנהל הקרן או הנאמן מאז פרסם מנהל הקרן תשקיף, יצוין הדבר בהערת שוליים, בציון שמו של מנהל הקרן או של הנאמן לפני ששונה, ותאריך השינוי;</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+                <point eId="point_45ג__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>תאריך תשקיף הקרן החדשה, מצד שמאל; בהערת שוליים – ההודעה, ”יש להתעדכן באופן שוטף בדוחות על אירועים הנוגעים לקרן, למנהל הקרן ולנאמן, וכן במידע נוסף, המתפרסמים באתר האינטרנט של רשות ניירות ערך שכתובתו www.magna.isa.gov.il (להלן – אתר ההפצה); כמו כן, רצוי לעקוב באופן שוטף אחר השינויים במחירי יחידות הקרן המבטאים את תשואתה של הקרן“;</p>
+                  </content>
+                </point>
+                <point eId="point_45ג__point_3">
+                  <num>(3)</num>
+                  <content>
+                    <p>הכותרת ”תשקיף קרן חדשה“ ובהערת שוליים המילים ”קרן חדשה שיחידותיה מוצעות לראשונה לציבור“;</p>
+                  </content>
+                </point>
+                <point eId="point_45ג__point_4">
+                  <num>(4)</num>
+                  <content>
+                    <p>הפרטים שנדרש מנהל הקרן לכלול לפי <ref href="#chp_ד">פרק ד׳</ref> וההודעה ”לגבי כל קרן יש להתעדכן במידע ובנתונים נוספים המפורסמים בדוח השנתי; הדוחות מתפרסמים באתר ההפצה“; כלל מנהל הקרן את הפרטים שנדרש לכלול לפי <ref href="#chp_ד">פרק ד׳</ref> בדרך של הפניה לתשקיף העיקרי האחרון שהוגש – נוסף על ההודעה האמורה תבוא ההודעה ”בתשקיף העיקרי המשותף לכלל הקרנות שבניהול מנהל הקרן, נכלל מידע על מנהל הקרן והנאמן וכן מידע על כל הקרנות שבניהולו של מנהל הקרן; התשקיף פורסם באתר ההפצה“, ויצוין בהודעה התאריך שבו פורסם התשקיף האמור ומספר האסמכתה של הדיווח ופרסומו;</p>
+                  </content>
+                </point>
+                <point eId="point_45ג__point_5">
+                  <num>(5)</num>
+                  <content>
+                    <p>שם הקרן, המילים ”קרן נאמנות“, ובסוגריים המילים ”מספר בורסה“ ו”מספר הקרן בבורסה“;</p>
+                  </content>
+                </point>
+                <point eId="point_45ג__point_6">
+                  <num>(6)</num>
+                  <content>
+                    <p>היו היחידות המוצעות של קרן בניהול מנהל קרן חדש – המילים ”מנהל קרן חדש“ ובהערת שוליים ההודעה כי ”מנהל קרן חדש הוא מנהל קרן שבמועד פרסום תשקיף הקרן החדשה טרם ניהל קרן במשך שנה רציפה או חלפו למעלה משנתיים מיום שניהל קרן כלשהי“ והנסיבות שבשלהן מנהל הקרן הוא בבחינת מנהל קרן חדש;</p>
+                  </content>
+                </point>
+                <point eId="point_45ג__point_7">
+                  <num>(7)</num>
+                  <list>
+                    <intro>
+                      <p>לגבי המאפיינים העיקריים של הקרן –</p>
+                    </intro>
+                    <point eId="point_45ג__point_7__point_א">
+                      <num>(א)</num>
+                      <content>
+                        <p>הכותרת ”מאפיינים עיקריים של הקרן“;</p>
+                      </content>
+                    </point>
+                    <point eId="point_45ג__point_7__point_ב">
+                      <num>(ב)</num>
+                      <content>
+                        <p>המילים ”סוג הקרן“ ו”סוג הקרן, כפי שנקבע בהסכם הקרן“;</p>
+                      </content>
+                    </point>
+                    <point eId="point_45ג__point_7__point_ג">
+                      <num>(ג)</num>
+                      <content>
+                        <p>בתשקיף של קרן סגורה חדשה יבוא ”קרן סגורה היא קרן שיחידותיה נסחרות בבורסה ובה, בשונה מקרן פתוחה, נקבעים מחירי יחידות הקרן במהלך המסחר בבורסה ולא לפי השווי הנקי של נכסיה; עובדה זו עשויה להביא לקיומו של הפרש, חיובי או שלילי, בין שווי היחידה ומחירה, וכן גורמת לכך שהיכולת לרכוש ולמכור את יחידות הקרן תלויה בסחירות היחידות בבורסה“;</p>
+                      </content>
+                    </point>
+                    <point eId="point_45ג__point_7__point_ד">
+                      <num>(ד)</num>
+                      <content>
+                        <p>המילים ”סיווג הקרן בפרסום“ וסיווג הקרן;</p>
+                      </content>
+                    </point>
+                    <point eId="point_45ג__point_7__point_ה">
+                      <num>(ה)</num>
+                      <content>
+                        <p>אם הקרן קרן מחקה – יצוין הדבר;</p>
+                      </content>
+                    </point>
+                    <point eId="point_45ג__point_7__point_ו">
+                      <num>(ו)</num>
+                      <content>
+                        <p>אם הקרן קרן חשיפה הפוכה – יצוין הדבר;</p>
+                      </content>
+                    </point>
+                    <point eId="point_45ג__point_7__point_ז">
+                      <num>(ז)</num>
+                      <content>
+                        <p>יצוין אם הקרן היא קרן מוגבלת בניירות ערך חוץ או קרן בלתי מוגבלת בניירות ערך חוץ או אם היא אגד ישראלי בלתי מוגבל או אגד ישראלי מוגבל;</p>
+                      </content>
+                    </point>
+                    <point eId="point_45ג__point_7__point_ח">
+                      <num>(ח)</num>
+                      <content>
+                        <p>המילים ”מסלול המס“ והמילים ”חייבת“ או ”פטורה“, בקרן חייבת או בקרן פטורה, לפי העניין;</p>
+                      </content>
+                    </point>
+                    <point eId="point_45ג__point_7__point_ט">
+                      <num>(ט)</num>
+                      <content>
+                        <p>אם הקרן קרן לתושבי חוץ בלבד – יצוין הדבר;</p>
+                      </content>
+                    </point>
+                    <point eId="point_45ג__point_7__point_י">
+                      <num>(י)</num>
+                      <content>
+                        <p>אם הקרן קרן להשקעות חוץ (מטבע עיקרי) – יצוין הדבר, בציון המטבע העיקרי של הקרן;</p>
+                      </content>
+                    </point>
+                    <point eId="point_45ג__point_7__point_יא">
+                      <num>(יא)</num>
+                      <content>
+                        <p>אם הקרן קרן להשקעות חוץ (פטור ממס לתושב חוץ) – יצוין הדבר;</p>
+                      </content>
+                    </point>
+                    <point eId="point_45ג__point_7__point_יב">
+                      <num>(יב)</num>
+                      <content>
+                        <p>המילים ”סוג הקרן לצורך עמלת הפצה“ וסוג הקרן לצורך עמלת הפצה;</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+                <point eId="point_45ג__point_8">
+                  <num>(8)</num>
+                  <content>
+                    <p>הכותרת ”שכר מנהל הקרן“, ושיעור השכר השנתי שישולם למנהל הקרן; באגד חוץ תבוא הודעה בזו הלשון: ”נוסף על השכר השנתי של מנהל הקרן הנפרע מנכסי האגד, ייפרעו מנכסי הקרנות המוחזקות דמי ניהול למנהלי הקרנות האמורות“; באגד ישראלי – בהערת שוליים יבוא ”לפי הוראת <ref href="/akn/il/act/SecondaryLegislation/1994-11-10/100025287#point_12א">תקנה 12א(א) לתקנות הנכסים</ref>, מנהל אגד ישראלי אינו רשאי לגבות שכר בעד ניהול האגד מאחר שמנכסי הקרנות המוחזקות בו כבר נפרע השכר שנקבע בכל אחת מהן“;</p>
+                  </content>
+                </point>
+                <point eId="point_45ג__point_9">
+                  <num>(9)</num>
+                  <content>
+                    <p>הכותרת ”שכר הנאמן“, ושיעור השכר השנתי שישולם לנאמן;</p>
+                  </content>
+                </point>
+                <point eId="point_45ג__point_10">
+                  <num>(10)</num>
+                  <content>
+                    <p>אם מנהל השקעות חיצוני מנהל תיק השקעות של קרן – הכותרת ”מנהל השקעות חיצוני לניהול תיק ההשקעות של הקרן“, ושם מנהל ההשקעות החיצוני של הקרן ההודעה כי העובדה שמנהל השקעות חיצוני מנהל הקרן לצורך ניהול תיק השקעות של קרן, אינה גורעת לפי <ref href="/akn/il/act/PrimaryLegislation/1994-08-23/155776">החוק</ref> מאחריותו של מנהל הקרן והנאמן כלפי בעלי היחידות; הסתיימה התקשרות עם מנהל השקעות חיצוני בשנים עשר החודשים שקדמו למועד פרסום תשקיף הקרן החדשה – בהערת שוליים יצוינו שמו ומועד סיום ההתקשרות עמו;</p>
+                  </content>
+                </point>
+                <point eId="point_45ג__point_11">
+                  <num>(11)</num>
+                  <list>
+                    <intro>
+                      <p>הכותרת ”פרטי ההצעה לציבור“ וכן הפרטים האלה:</p>
+                    </intro>
+                    <point eId="point_45ג__point_11__point_א">
+                      <num>(א)</num>
+                      <list>
+                        <intro>
+                          <p>בתשקיף קרן פתוחה חדשה –</p>
+                        </intro>
+                        <point eId="point_45ג__point_11__point_א__point_1">
+                          <num>(1)</num>
+                          <content>
+                            <p>הודעה על הצעת היחידות בציון התקופה שבה הן מוצעות לפי תקופת התשקיף וימי המסחר של הקרן;</p>
+                          </content>
+                        </point>
+                        <point eId="point_45ג__point_11__point_א__point_2">
+                          <num>(2)</num>
+                          <content>
+                            <p>שיעור ההוספה שתשולם או שתנוכה;</p>
+                          </content>
+                        </point>
+                        <point eId="point_45ג__point_11__point_א__point_3">
+                          <num>(3)</num>
+                          <content>
+                            <p>הכותרת ”השעה הייעודה להגשת הזמנות“ והשעה הייעודה;</p>
+                          </content>
+                        </point>
+                        <point eId="point_45ג__point_11__point_א__point_4">
+                          <num>(4)</num>
+                          <content>
+                            <p>אם מספר היחידות המוצעות מוגבל – תבוא כותרת ”הגבלת מספר יחידות הקרן“, בציון ההגבלה ומספר היחידות שבמחזור;</p>
+                          </content>
+                        </point>
+                        <point eId="point_45ג__point_11__point_א__point_5">
+                          <num>(5)</num>
+                          <content>
+                            <p>המילים ”המטבע שבו נקובות יחידות הקרן“, המטבע שבו נקובות יחידות הקרן והערך הנקוב שלהן;</p>
+                          </content>
+                        </point>
+                      </list>
+                    </point>
+                    <point eId="point_45ג__point_11__point_ב">
+                      <num>(ב)</num>
+                      <list>
+                        <intro>
+                          <p>בתשקיף קרן סגורה –</p>
+                        </intro>
+                        <point eId="point_45ג__point_11__point_ב__point_1">
+                          <num>(1)</num>
+                          <content>
+                            <p>הודעה על הצעת היחידות ומספר היחידות המרבי שיוצעו לציבור, בציון התקופה שבה הן מוצעות וימי המסחר של הקרן;</p>
+                          </content>
+                        </point>
+                        <point eId="point_45ג__point_11__point_ב__point_2">
+                          <num>(2)</num>
+                          <content>
+                            <p>נקבעו תנאים להגשת הצעות לרכישת היחידות – יצוין הדבר ויפורטו תנאים אלה;</p>
+                          </content>
+                        </point>
+                        <point eId="point_45ג__point_11__point_ב__point_3">
+                          <num>(3)</num>
+                          <content>
+                            <p>אם היחידות מוצעות בדרך של מכרז – יצוין הדבר, יפורטו התנאים להזמנת היחידות במכרז והאופן להזמנתן, לרבות המקומות שבהם ניתן להזמינן;</p>
+                          </content>
+                        </point>
+                        <point eId="point_45ג__point_11__point_ב__point_4">
+                          <num>(4)</num>
+                          <content>
+                            <p>שיעור ההוספה שתשולם או שתנוכה;</p>
+                          </content>
+                        </point>
+                        <point eId="point_45ג__point_11__point_ב__point_5">
+                          <num>(5)</num>
+                          <content>
+                            <p>המילים ”המטבע שבו נקובות יחידות הקרן“, המטבע שבו נקובות יחידות הקרן והערך הנקוב שלהן;</p>
+                          </content>
+                        </point>
+                        <point eId="point_45ג__point_11__point_ב__point_6">
+                          <num>(6)</num>
+                          <list>
+                            <intro>
+                              <p>תחת הכותרת ”חיתום“, הפרטים האלה:</p>
+                            </intro>
+                            <point eId="point_45ג__point_11__point_ב__point_6__point_א">
+                              <num>(א)</num>
+                              <content>
+                                <p>אם ההנפקה מובטחת בחיתום אם לאו;</p>
+                              </content>
+                            </point>
+                            <point eId="point_45ג__point_11__point_ב__point_6__point_ב">
+                              <num>(ב)</num>
+                              <content>
+                                <p>אם ההנפקה מובטחת בחיתום – שמו של החתם, אם ההתחייבות החיתומית היא לרכישת כל היחידות שהוצעו או חלקן, המחיר שבו התחייב לרכשן והעמלות והתשלומים האחרים שהמציע התחייב לשלם לפי ההסכם בינו לבין החתם או בקשר עם ביצוע הסכם כאמור; אם ההתחייבות לרכישת חלק מהיחידות כאמור – שיעור ההנפקה המובטח בחיתום; נקבע להצעה חתם מתמחר – הודעה כי נקבע להצעה חתם מתמחר, בציון שמו; לעניין זה, ”התחייבות חיתומית“, ”חתם“ ו”חתם מתמחר“ – כהגדרתם <ref href="/akn/il/act/PrimaryLegislation/1968-08-22/150242">בחוק ניירות ערך</ref>, בשינויים המחויבים;</p>
+                              </content>
+                            </point>
+                          </list>
+                        </point>
+                        <point eId="point_45ג__point_11__point_ב__point_7">
+                          <num>(7)</num>
+                          <content>
+                            <p>הנסיבות שבהתקיימן תבוטל ההצעה;</p>
+                          </content>
+                        </point>
+                        <point eId="point_45ג__point_11__point_ב__point_8">
+                          <num>(8)</num>
+                          <content>
+                            <p>הודעה באיזה אופן יקצה מנהל הקרן יחידות אם ביום מסחר כלשהו במהלך התקופה להגשת בקשות לרכישת יחידות הקרן יעלה מספר היחידות, שבקשות לרכישתן הוגשו, על מספרן המרבי של היחידות המוצעות;</p>
+                          </content>
+                        </point>
+                      </list>
+                    </point>
+                  </list>
+                </point>
+                <point eId="point_45ג__point_12">
+                  <num>(12)</num>
+                  <content>
+                    <p>אם תקופת קיום הקרן מוגבלת – תחת הכותרת ”תקופת קיום הקרן“, יצוין הדבר, וכן תקופת קיום הקרן והודעה כי עם סיום התקופה תפורק הקרן;</p>
+                  </content>
+                </point>
+                <point eId="point_45ג__point_13">
+                  <num>(13)</num>
+                  <content>
+                    <p>הכותרת ”מטרת הקרן“ ותיאור תמציתי של המטרה שאליה שואף מנהל הקרן להגיע בניהול ההשקעות של הקרן, בהתחשב בנכס הייחוס שלה;</p>
+                  </content>
+                </point>
+                <point eId="point_45ג__point_14">
+                  <num>(14)</num>
+                  <list>
+                    <intro>
+                      <p>הכותרת ”הדרך להשגת המטרה – מדיניות ההשקעות של הקרן“, ומדיניות ההשקעות של הקרן, לרבות לעניינים אלה:</p>
+                    </intro>
+                    <point eId="point_45ג__point_14__point_א">
+                      <num>(א)</num>
+                      <content>
+                        <p>הנכסים שמנהל הקרן מתחייב כי הקרן תהיה חשופה אליהם וכן נכסים שמנהל הקרן מתחייב שהקרן לא תהיה חשופה אליהם, והשיעורים המזעריים והמרביים, אם נקבעו;</p>
+                      </content>
+                    </point>
+                    <point eId="point_45ג__point_14__point_ב">
+                      <num>(ב)</num>
+                      <content>
+                        <p>אם הקרן מוגבלת או בלתי מוגבלת בניירות ערך חוץ;</p>
+                      </content>
+                    </point>
+                    <point eId="point_45ג__point_14__point_ג">
+                      <num>(ג)</num>
+                      <content>
+                        <p>הדרך שבה הקרן תנוהל – אם מנהל הקרן מתעתד לנהלה בדרך מיוחדת;</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+                <point eId="point_45ג__point_15">
+                  <num>(15)</num>
+                  <content>
+                    <p>למעט בקרן גמישה, הכותרת ”נכס הייחוס של הקרן“ ו”נכס הייחוס של הקרן“; בהערת שוליים יבוא ”נכס הייחוס של הקרן הוא מדד או נכס, שלהערכת מנהל הקרן צפוי כי לשינויים בו או בערכו, בהתאמה, תהיה ההשפעה הגדולה ביותר על תשואתה של הקרן“;</p>
+                  </content>
+                </point>
+                <point eId="point_45ג__point_16">
+                  <num>(16)</num>
+                  <content>
+                    <p>הכותרת ”פרופיל החשיפה“, פרופיל החשיפה של הקרן, שיעור החשיפה המרבי של הקרן למניות ולמטבע חוץ כעולה מפרופיל החשיפה, ובהערת שוליים יבוא ”פרופיל החשיפה של הקרן הוא צירוף של שני תווים המייצגים את שיעור החשיפה המרבי של הקרן למניות (בסולם דרגות המורכב מהמספרים 0 עד 6) ולמטבע חוץ (בסולם דרגות המורכב מהספרה 0 והאותיות A עד F); אם הספרה או האות בסולם גבוהים יותר החשיפה המרבית גבוהה יותר“;</p>
+                  </content>
+                </point>
+                <point eId="point_45ג__point_17">
+                  <num>(17)</num>
+                  <content>
+                    <p>הכותרת ”גורמי סיכון ייחודיים להשקעות הקרן ולאופן ניהולה“ גורמי הסיכון הייחודיים להשקעות הקרן, כפי שעולים ממדיניות ההשקעות של הקרן, ממאפייני נכסיה והשווקים שבהם נסחרים הנכסים או מאופן ניהול השקעות הקרן; לעניין זה, ”סיכון“, למעט לעניין אופן ניהול השקעות הקרן – לגבי סיכון המאפיין את הנכס העולה מהכותרת הראשית שתחתה מסווגת הקרן; לא ניתן להסיק מהו הנכס העולה מהכותרת הראשית, יימדד הסיכון לעומת הסיכון המאפיין את הנכסים העולים מהכותרות המשניות המאופיינות באמצעות אותה כותרת ראשית; לעניין זה, ”נכס העולה מכותרת ראשית או משנית“ – מדד או נכס, שלהערכת מנהל הקרן צפוי כי לשינויים בו או בערכו, בהתאמה, תהיה ההשפעה הגדולה ביותר על תשואתן של קרנות שעשויות להיות מסווגות תחת כותרת זו.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+          </list>
+        </section>
+        <section eId="chp_ד1__sec_ב">
+          <num>סימן ב׳:</num>
+          <title>
+            <content>
+              <p>הפרטים שיש לכלול בתשקיף קרן חדשה</p>
+            </content>
+          </title>
+          <list>
+            <point eId="point_45ד">
+              <heading>
+                <authorialNote placement="side">
+                  <p>הסדרים עם עושה שוק</p>
+                </authorialNote>
+              </heading>
+              <num>45ד.</num>
+              <content>
+                <p>בתשקיף של קרן סגורה חדשה, יפורטו תחת הכותרת ”הסדרים עם עושה שוק“, פרטים על הסדרי עשיית השוק, לרבות זהות עושה השוק, מאפייני פעילותו ואופן תגמולו; לעניין זה, ”עושה שוק“ – אדם שהתחייב לפרסם במהלך כל יום שבו מתקיים מסחר בבורסה, מחיר שבו הוא מתחייב לקנות את יחידות הקרן הסגורה ומחיר שבו הוא מתחייב למכרן.</p>
+              </content>
+            </point>
+            <point eId="point_45ה">
+              <heading>
+                <authorialNote placement="side">
+                  <p>תשלומים לבעלי היחידות</p>
+                </authorialNote>
+              </heading>
+              <num>45ה.</num>
+              <content>
+                <p>קבע מנהל קרן כי ישולמו לבעלי היחידות תשלומים מנכסי הקרן, יפורטו, תחת כותרת ”תשלומים לבעלי היחידות“, המועדים שבהם ישולמו התשלומים, השיעור מהערך הנקוב שישולם והמועד הקובע לעניין הזכאות לתשלום.</p>
+              </content>
+            </point>
+            <point eId="point_45ו">
+              <heading>
+                <authorialNote placement="side">
+                  <p>היתרים להצעת היחידות</p>
+                </authorialNote>
+              </heading>
+              <num>45ו.</num>
+              <content>
+                <p>תחת הכותרת ”היתרים להצעת היחידות“ תבוא הודעה כי מנהל הקרן קיבל את כל ההיתרים, האישורים והרישיונות הדרושים לפי כל דין להצעת היחידות, להנפקתן ולפרסום תשקיף הקרן החדשה, ובתשקיף של קרן סגורה חדשה – גם הודעה כי מנהל הקרן קיבל את אישור הבורסה לרישום למסחר של היחידות שיונפקו לפי התשקיף, וכי אין בהיתר רשות ניירות ערך משום אימות הפרטים המובאים בתשקיף או אישור מהימנותם או שלמותם או הבעת דעה על טיבן של היחידות המוצעות.</p>
+              </content>
+            </point>
+            <point eId="point_45ז">
+              <heading>
+                <authorialNote placement="side">
+                  <p>חתימה על תשקיף הקרן החדשה</p>
+                </authorialNote>
+              </heading>
+              <num>45ז.</num>
+              <content>
+                <p>תחת הכותרת ”שמות הדירקטורים של מנהל הקרן החתומים על התשקיף“ יפורטו שמות הדירקטורים החתומים על תשקיף הקרן החדשה; תחת הכותרת ”חתום בשם מנהל הקרן“ יפורט שמו של מורשה החתימה מטעמו של מנהל הקרן, ותחת הכותרת ”חתום בשם הנאמן“ יפורט שמו של מורשה החתימה מטעמו של הנאמן.</p>
+              </content>
+            </point>
+            <point eId="point_45ח">
+              <heading>
+                <authorialNote placement="side">
+                  <p>הזמנת יחידות ומתן הוראות פדיון</p>
+                </authorialNote>
+              </heading>
+              <num>45ח.</num>
+              <list>
+                <intro>
+                  <p>תחת הכותרת ”הזמנת יחידות ומתן הוראות פדיון“ –</p>
+                </intro>
+                <point eId="point_45ח__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>בתשקיף של קרן פתוחה חדשה יבוא ”הזמנות ליחידות או הוראות לפדיון יחידות ניתן להגיש אצל כל אחד מחברי הבורסה; הזמנה ליחידה או הוראה לפדיון שתוגש עד השעה הייעודה של יום מסחר, שהוא גם יום שבו ניתן להציע יחידות או לפדותן, תבוצע באותו יום ותסלק לפי כללים שקבעה הבורסה לפי <ref href="/akn/il/act/PrimaryLegislation/1968-08-22/150242#point_46">סעיף 46 לחוק ניירות ערך</ref>; הזמנה או הוראה שתוגש ביום מסחר לאחר השעה הייעודה, או תוגש ביום שאינו יום מסחר, תבוצע ביום המסחר הראשון לאחר היום שבו הוגשה ותסלק בהתאם לכללים שקבעה הבורסה; חברי הבורסה יהיו אחראים וחייבים לתשלום מלוא התמורה בשל הזמנות שהוגשו באמצעותם ונענו; כל הזמנה תיחשב כהתחייבות בלתי חוזרת של המזמין לקבל את כל היחידות שיוקצו לו לפי הזמנתו, בין אם בקשתו תתקבל במלואה ובין אם תתקבל רק בחלקה; חברי בורסה עשויים לגבות עמלה בשל מכירת היחידות או פדיונן“; נקבעה לקרן יותר משעה ייעודה אחת – יבוא האמור מעלה, בשינויים המחויבים;</p>
+                  </content>
+                </point>
+                <point eId="point_45ח__point_2">
+                  <num>(2)</num>
+                  <list>
+                    <intro>
+                      <p>בתשקיף של קרן סגורה חדשה יצוינו כל אלה:</p>
+                    </intro>
+                    <point eId="point_45ח__point_2__point_א">
+                      <num>(א)</num>
+                      <content>
+                        <p>האם יחידות הקרן ניתנות לפדיון אם לאו ומועדי הפדיון של יחידות הקרן; אם פדיון היחידות מותנה במתן הודעה מוקדמת של בעל יחידה – יצוין הדבר והמועד למתן ההודעה המוקדמת שעל בעל יחידה לתת לצורך פדיון יחידות הקרן;</p>
+                      </content>
+                    </point>
+                    <point eId="point_45ח__point_2__point_ב">
+                      <num>(ב)</num>
+                      <content>
+                        <p>אם פדיון היחידות מוגבל למספר מרבי של יחידות בידי כל בעל יחידה – יצוין הדבר והמספר המרבי של יחידות לפדיון;</p>
+                      </content>
+                    </point>
+                    <point eId="point_45ח__point_2__point_ג">
+                      <num>(ג)</num>
+                      <content>
+                        <p>המילים ”הזמנות ליחידות או הוראות לפדיון יחידות, בקרן שיחידותיה ניתנות לפדיון, ניתן להגיש אצל כל אחד מחברי הבורסה; הזמנות לרכישת היחידות המוצעות יוגשו בתקופה להגשת בקשות לרכישת היחידות המוצעות, כפי שמפורטת בתשקיף; חבר הבורסה יהיה אחראי וחייב לתשלום מלוא התמורה בשל הזמנות שהוגשו באמצעותו ונענו; כל הזמנה תיחשב כהתחייבות בלתי חוזרת של המזמין לקבל את כל היחידות שיוקצו לו לפי הזמנתו, בין אם בקשתו תתקבל במלואה ובין אם תתקבל רק בחלקה; חבר בורסה עשוי לגבות עמלה בשל מכירת היחידות או פדיונן.“</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+              </list>
+            </point>
+            <point eId="point_45ט">
+              <heading>
+                <authorialNote placement="side">
+                  <p>תשקיף מכרז</p>
+                </authorialNote>
+              </heading>
+              <num>45ט.</num>
+              <list>
+                <intro>
+                  <p>תשקיף מכרז ייערך במתכונת תשקיף קרן סגורה חדשה, בשינויים אלה:</p>
+                </intro>
+                <point eId="point_45ט__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>בכל מקום בתשקיף, במקום ”תשקיף קרן חדשה“ יבוא ”תשקיף מכרז“;</p>
+                  </content>
+                </point>
+                <point eId="point_45ט__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>בכריכת התשקיף, בהפניה מכותרת התשקיף תבוא הערת שוליים בזו הלשון "תשקיף הצעת יחידות לציבור, שאינה הצעה לראשונה.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+          </list>
+        </section>
+      </chapter>
+      <chapter eId="chp_ה">
+        <num>פרק ה׳:</num>
+        <title>
+          <content>
+            <p>ביטול תקנות, תחילה והוראות מעבר</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_46">
+            <heading>
+              <authorialNote placement="side">
+                <p>ביטול תקנות</p>
+              </authorialNote>
+            </heading>
+            <num>46.</num>
+            <content>
+              <p>תקנות ניירות ערך (פרטי תשקיף של קרן להשקעות בנאמנות, מבנהו וצורתו), התש"ל–1969 – בטלות.</p>
+            </content>
+          </point>
+          <point eId="point_47">
+            <heading>
+              <authorialNote placement="side">
+                <p>תחילה ותחולה</p>
+              </authorialNote>
+            </heading>
+            <num>47.</num>
+            <content>
+              <p>תחילתן של תקנות אלה ביום י"ח באייר התש"ע (2 במאי 2010) (להלן – יום התחילה) והן יחולו על תשקיפים שתאריכיהם לא לפני שישה חודשים מיום פרסומן.</p>
+            </content>
+          </point>
+          <point eId="point_48">
+            <heading>
+              <authorialNote placement="side">
+                <p>הוראות מעבר</p>
+              </authorialNote>
+            </heading>
+            <num>48.</num>
+            <list>
+              <point eId="point_48__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>יושב ראש הרשות או עובד שהסמיך לכך, רשאים להאריך את תקופתו של חלק ב׳ של תשקיף שהגיש מנהל קרן לראשונה לפי תקנות אלה.</p>
+                </content>
+              </point>
+              <point eId="point_48__point_ב">
+                <num>(ב)</num>
+                <list>
+                  <intro>
+                    <p>על אף האמור <ref href="#point_8">בתקנה 8</ref>, ביחס לתקופות שקדמו למועד התחילה, יוצגו מהגבוה לנמוך, השיעורים הממוצעים של ההשקעות העיקריות של הקרן באחוזים מהשווי הנקי הממוצע של נכסי הקרן; לעניין זה –</p>
+                  </intro>
+                  <point eId="point_48__point_ב__point_השקעות_עיקריות">
+                    <content>
+                      <p>
+                        <def />”השקעות עיקריות“ – סוגי נכסים ששיעור ההשקעה הממוצע בהם אינו נמוך מעשר האחוזים;</p>
+                    </content>
+                  </point>
+                  <point eId="point_48__point_ב__point_ממוצע">
+                    <content>
+                      <p>
+                        <def />”ממוצע“, לעניין ”השקעות עיקריות“ – מחושב על פי הנתונים בימי המסחר האחרונים בכל חודש בתקופה כלשהי.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_48__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>על אף האמור <ref href="#point_9">בתקנה 9(ה)</ref>, לא יפורטו הפרטים המצוינים בה, אם בתשקיף הקרן הקודם לא חלה החובה לציין את נכס הייחוס של הקרן, כנדרש <ref href="#point_7">בתקנה 7(17)</ref>.</p>
+                </content>
+              </point>
+              <point eId="point_48__point_ד">
+                <num>(ד)</num>
+                <list>
+                  <intro>
+                    <p>על אף האמור <ref href="#point_10">בתקנה 10</ref>, לגבי התקופות שקדמו ליום כ"ג בטבת התשס"ח (1 בינואר 2008) (להלן – ינואר 2008) –</p>
+                  </intro>
+                  <point eId="point_48__point_ד__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>במקום מספר השינויים שנעשו בסיווג הקרן ובפרופיל החשיפה שלה, יפורטו מספר השינויים המהותיים שנערכו במדיניות ההשקעות של הקרן;</p>
+                    </content>
+                  </point>
+                  <point eId="point_48__point_ד__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>היו שינויים מהותיים במדיניות ההשקעות של הקרן – במקום הסיווג לפני השינוי ואחריו ובמקום פרופיל החשיפה לפני השינוי ואחריו, יפורטו עיקרי מדיניות ההשקעות של הקרן לפני השינוי ואחריו.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_48__point_ה">
+                <num>(ה)</num>
+                <content>
+                  <p>היו שינויים מהותיים במדיניות ההשקעות של הקרן בתקופות שקדמו לינואר 2008 תחת הלוח ”שינויים במאפייני הקרן“, יצוין כי ביום 31 בדצמבר 2007 נכנסו לתוקפן <ref href="/akn/il/act/SecondaryLegislation/2007-11-28/100033748">תקנות הסיווג</ref>, אשר הסדירו את האופן שבו על מנהל קרן לסווג את הקרנות שבניהולו וקבעו כי על מנהל קרן לקבוע את פרופיל החשיפה שלהן, בהתאם לשיעורי החשיפה המרביים של הקרן למניות ולמטבע חוץ; כמו כן יצוין כי בתקופות שלפני תחילתן של <ref href="/akn/il/act/SecondaryLegislation/2007-11-28/100033748">תקנות הסיווג</ref>, במקום שינויים בפרופיל החשיפה ובסיווג הקרן, מפורטים עיקרי השינויים המהותיים במדיניות ההשקעות של הקרן ומספר השינויים; הוראות תקנת משנה זו לא יחולו מעת ששנת 2007 לא תוצג עוד בלוח זה.</p>
+                </content>
+              </point>
+              <point eId="point_48__point_ו">
+                <num>(ו)</num>
+                <content>
+                  <p>על אף האמור <ref href="#point_11">בתקנה 11</ref>, לגבי התקופות שקדמו לינואר 2008, יוצגו בלוח ”הוצאות שנפרעו מנכסי הקרן כשיעור מהשווי הנקי הממוצע של נכסי הקרן“ שכר מנהל הקרן, שכר הנאמן, העמלות והוצאות המס בלבד.</p>
+                </content>
+              </point>
+              <point eId="point_48__point_ז">
+                <num>(ז)</num>
+                <list>
+                  <intro>
+                    <p>על אף האמור <ref href="#point_12">בתקנה 12</ref>, לגבי התקופות שקדמו לינואר 2008, יוצגו בלוח ”נתונים שונים“ הנתונים האלה בלבד:</p>
+                  </intro>
+                  <point eId="point_48__point_ז__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>”השווי הנקי של נכסי הקרן ליום המסחר האחרון של התקופה (במיליוני שקלים חדשים)“;</p>
+                    </content>
+                  </point>
+                  <point eId="point_48__point_ז__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>”תקבולים מצטברים ממכירת יחידות (במיליוני שקלים חדשים)“;</p>
+                    </content>
+                  </point>
+                  <point eId="point_48__point_ז__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>”תשלומים מצטברים לפדיון יחידות (במיליוני שקלים חדשים)“;</p>
+                    </content>
+                  </point>
+                  <point eId="point_48__point_ז__point_4">
+                    <num>(4)</num>
+                    <content>
+                      <p>”מחיר הפדיון ליום המסחר אחרון של התקופה“;</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_48__point_ח">
+                <num>(ח)</num>
+                <content>
+                  <p>לעניין תקנה זו, ”שינוי מהותי במדיניות ההשקעות“ – שינוי במדיניות ההשקעות של קרן, אשר חייב שינוי מהותי בסוגי הנכסים שהוחזקו בה, או שהיה בו כדי להשפיע באופן מהותי על תנודתיות מחירי היחידה ומחירי הפדיון.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+        </list>
+      </chapter>
+      <appendix eId="appendix_ראשונה">
+        <num></num>
+        <title>
+          <content>
+            <p>תוספת ראשונה <wikicomment font-size="x-small">(בוטלה)</wikicomment></p>
+          </content>
+        </title>
+      </appendix>
+      <appendix eId="appendix_שניה">
+        <num></num>
+        <title>
+          <content>
+            <p>תוספת שניה <wikicomment font-size="x-small">(בוטלה)</wikicomment></p>
+          </content>
+        </title>
+      </appendix>
+    </body>
+    <conclusions eId="eId">
+      <p class="signatures">
+        <signature>
+          <p>
+            <person refersTo="יובל_שטייניץ">יובל שטייניץ</person>
+            <role refersTo="שר_האוצר">שר האוצר</role>
+          </p>
+        </signature>
+      </p>
+    </conclusions>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,1729 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion" name="publicLaw">
+    <meta>
+      <identification source="#kensset">
+        <FRBRWork>
+          <FRBRthis value="/akn/il/act/PrimaryLegislation/1967-08-16/167231/main" />
+          <FRBRuri value="/akn/il/act/PrimaryLegislation/1967-08-16/167231" />
+          <FRBRdate date="1967-08-16" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRcountry value="israel" />
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/il/act/PrimaryLegislation/1967-08-16/167231/he@/main" />
+          <FRBRuri value="/akn/il/act/PrimaryLegislation/1967-08-16/167231/he@" />
+          <FRBRdate date="1967-08-16" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRlanguage language="hebrew" />
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/il/act/PrimaryLegislation/1967-08-16/167231/he@/main.xml" />
+          <FRBRuri value="/akn/il/act/PrimaryLegislation/1967-08-16/167231/he@" />
+          <FRBRdate date="1967-08-16" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRformat value="xml" />
+        </FRBRManifestation>
+      </identification>
+      <classification source="#kensset">
+        <keyword value="{classificationValue}" showAs="{classificationValue}" dictionary="#classification_dictionary" />
+      </classification>
+      <lifecycle source="#kensset">
+        <eventRef eId="eventRef_1" date="1967-08-16" source="#kensset" type="generation" />
+      </lifecycle>
+      <references source="#kensset">
+        <TLCOrganization eId="kensset" href="/ontology/organization/akn/knesset" showAs="Kensset" type="generation" />
+        <TLCRole eId="author" href="/ontology/role/akn/author" showAs="Author of Document" />
+        <TLCProcess eId="inforce" href="/ontology/process/akn/inforce" showAs="In force" />
+        <TLCTerm eId="term_1" href="/ontology/term/אגודת_ספורט/167231" showAs="אגודת_ספורט" />
+        <TLCTerm eId="term_2" href="/ontology/term/גופי_ספורט/167231" showAs="גופי_ספורט" />
+        <TLCTerm eId="term_3" href="/ontology/term/דוחות_כספיים/167231" showAs="דוחות_כספיים" />
+        <TLCTerm eId="term_4" href="/ontology/term/הוצאות_פרסום/167231" showAs="הוצאות_פרסום" />
+        <TLCTerm eId="term_5" href="/ontology/term/הכנסות_אחרות/167231" showAs="הכנסות_אחרות" />
+        <TLCTerm eId="term_6" href="/ontology/term/הכנסות_מימון/167231" showAs="הכנסות_מימון" />
+        <TLCTerm eId="term_7" href="/ontology/term/הסכמים_עם_גופי_ספורט/167231" showAs="הסכמים_עם_גופי_ספורט" />
+        <TLCTerm eId="term_8" href="/ontology/term/הצעת_תקציב/167231" showAs="הצעת_תקציב" />
+        <TLCTerm eId="term_9" href="/ontology/term/חוק_הספורט/167231" showAs="חוק_הספורט" />
+        <TLCTerm eId="term_10" href="/ontology/term/יתרת_הכנסות/167231" showAs="יתרת_הכנסות" />
+        <TLCTerm eId="term_11" href="/ontology/term/המועצה_הלאומית_לספורט/167231" showAs="המועצה_הלאומית_לספורט" />
+        <TLCTerm eId="term_12" href="/ontology/term/מחזור_המועצה/167231" showAs="מחזור_המועצה" />
+        <TLCTerm eId="term_13" href="/ontology/term/מינהלת_ספורט/167231" showAs="מינהלת_ספורט" />
+        <TLCTerm eId="term_14" href="/ontology/term/סך_הכספים_לציבור/167231" showAs="סך_הכספים_לציבור" />
+        <TLCTerm eId="term_15" href="/ontology/term/פרסומת/167231" showAs="פרסומת" />
+        <TLCTerm eId="term_16" href="/ontology/term/שידור/167231" showAs="שידור" />
+        <TLCTerm eId="term_17" href="/ontology/term/תשלומים_לזוכים/167231" showAs="תשלומים_לזוכים" />
+        <TLCTerm eId="term_18" href="/ontology/term/אגודת_ספורט/167231" showAs="אגודת_ספורט" />
+        <TLCTerm eId="term_19" href="/ontology/term/ארגון_ספורט_נתמך/167231" showAs="ארגון_ספורט_נתמך" />
+        <TLCTerm eId="term_20" href="/ontology/term/גוף_ספורט/167231" showAs="גוף_ספורט" />
+        <TLCTerm eId="term_21" href="/ontology/term/חוק_יסודות_התקציב/167231" showAs="חוק_יסודות_התקציב" />
+        <TLCTerm eId="term_22" href="/ontology/term/המועצה_הלאומית_לספורט/167231" showAs="המועצה_הלאומית_לספורט" />
+        <TLCTerm eId="term_23" href="/ontology/term/תיקון_מס׳_14/167231" showAs="תיקון_מס׳_14" />
+        <TLCTerm eId="term_24" href="/ontology/term/תקנון_כספים_ומשק/167231" showAs="תקנון_כספים_ומשק" />
+        <TLCTerm eId="term_25" href="/ontology/term/פרטי_המשתתף/167231" showAs="פרטי_המשתתף" />
+        <TLCTerm eId="term_26" href="/ontology/term/רישום_באופן_מקודד/167231" showAs="רישום_באופן_מקודד" />
+        <TLCTerm eId="term_27" href="/ontology/term/תושב/167231" showAs="תושב" />
+        <TLCPerson eId="לוי_אשכול" href="/ontology/person/לוי_אשכול" showAs="לוי אשכול" />
+        <TLCPerson eId="פנחס_ספיר" href="/ontology/person/פנחס_ספיר" showAs="פנחס ספיר" />
+        <TLCPerson eId="זלמן_ארן" href="/ontology/person/זלמן_ארן" showAs="זלמן ארן" />
+        <TLCPerson eId="שניאור_זלמן_שזר" href="/ontology/person/שניאור_זלמן_שזר" showAs="שניאור זלמן שזר" />
+        <TLCRole eId="ראש_הממשלה" href="ontology/role/akn/ראש_הממשלה" showAs="ראש הממשלה" />
+        <TLCRole eId="שר_האוצר" href="ontology/role/akn/שר_האוצר" showAs="שר האוצר" />
+        <TLCRole eId="שר_החינוך_והתרבות" href="ontology/role/akn/שר_החינוך_והתרבות" showAs="שר החינוך והתרבות" />
+        <TLCRole eId="נשיא_המדינה" href="ontology/role/akn/נשיא_המדינה" showAs="נשיא המדינה" />
+      </references>
+      <temporalData source="#kensset">
+        <temporalGroup eId="tmpg_1" />
+      </temporalData>
+      <Publication></Publication>
+      <proprietary wikiversion="11/2/2020 11:03:12 AM" />
+    </meta>
+    <body period="#tmpg_1">
+      <title eId="title">
+        <content>
+          <p>חוק להסדר ההימורים בספורט, תשכ"ז–1967</p>
+        </content>
+      </title>
+      <list>
+        <point eId="point_1">
+          <heading>
+            <authorialNote placement="side">
+              <p>הקמת המועצה</p>
+            </authorialNote>
+          </heading>
+          <num>1.</num>
+          <content>
+            <p>תקום מועצה להסדר ההימורים בספורט (להלן – המועצה) שתהיה מוסמכת לארגן ולערוך הימורים על תוצאות של משחקים ותחרויות בספורט.</p>
+          </content>
+        </point>
+        <point eId="point_1א" class="definitions">
+          <heading>
+            <authorialNote placement="side">
+              <p>הגדרות</p>
+            </authorialNote>
+          </heading>
+          <num>1א.</num>
+          <list>
+            <intro>
+              <p>בחוק זה –</p>
+            </intro>
+            <point eId="point_1א__point_אגודת_ספורט">
+              <content>
+                <p>
+                  <def />”אגודת ספורט“ – כהגדרתה <ref href="/akn/il/act/PrimaryLegislation/1988-07-21/151582">בחוק הספורט</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_1א__point_גופי_ספורט">
+              <content>
+                <p>
+                  <def />”גופי ספורט“ – התאחדות או איגוד ספורט, כהגדרתם <ref href="/akn/il/act/PrimaryLegislation/1988-07-21/151582">בחוק הספורט</ref> או מינהלת ספורט;</p>
+              </content>
+            </point>
+            <point eId="point_1א__point_דוחות_כספיים">
+              <content>
+                <p>
+                  <def />”דוחות כספיים“ – מאזן, דוח רווח והפסד ודוח על תזרימי מזומנים, לרבות הביאורים להם;</p>
+              </content>
+            </point>
+            <point eId="point_1א__point_הוצאות_פרסום">
+              <content>
+                <p>
+                  <def />”הוצאות פרסום“ – כל הוצאה שמוציאה המועצה על פרסום, יחסי ציבור, תדמית, דוברות ושיווק, בכל אמצעי שהוא, למעט הוצאות שמוציאה המועצה במסגרת הסכמים עם גופי ספורט ולמעט הוצאות על שכר עובדי המועצה;</p>
+              </content>
+            </point>
+            <point eId="point_1א__point_הכנסות_אחרות">
+              <content>
+                <p>
+                  <def />”הכנסות אחרות“ – כל סכום שהמועצה מדווחת עליו כהכנסה בדוחות הכספיים, שאינו כלול במחזור המועצה או בהכנסות מימון;</p>
+              </content>
+            </point>
+            <point eId="point_1א__point_הכנסות_מימון">
+              <content>
+                <p>
+                  <def />”הכנסות מימון“ – הכנסות מריבית או מהפרשי הצמדה וכן רווח מהשקעות;</p>
+              </content>
+            </point>
+            <point eId="point_1א__point_הסכמים_עם_גופי_ספורט">
+              <content>
+                <p>
+                  <def />”הסכמים עם גופי ספורט“ – הסכמים בין המועצה לבין גוף ספורט;</p>
+              </content>
+            </point>
+            <point eId="point_1א__point_הצעת_תקציב">
+              <content>
+                <p>
+                  <def />”הצעת תקציב“ – כמשמעותה <ref href="#point_7">בסעיף 7(ב)</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_1א__point_חוק_הספורט">
+              <content>
+                <p>
+                  <def />”חוק הספורט“ – <ref href="/akn/il/act/PrimaryLegislation/1988-07-21/151582">חוק הספורט, התשמ"ח–1988</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_1א__point_יתרת_הכנסות">
+              <content>
+                <p>
+                  <def />”יתרת הכנסות“ – מחזור המועצה, בניכוי התשלומים לזוכים והוצאות המועצה ובתוספת הרזרבה להתייקרויות, הכנסות מימון והכנסות אחרות;</p>
+              </content>
+            </point>
+            <point eId="point_1א__point_המועצה_הלאומית_לספורט">
+              <content>
+                <p>
+                  <def />”המועצה הלאומית לספורט“ – <wikicomment font-size="x-small">(נמחקה);</wikicomment></p>
+              </content>
+            </point>
+            <point eId="point_1א__point_מחזור_המועצה">
+              <content>
+                <p>
+                  <def />”מחזור המועצה“ – כלל תקבולי המועצה בשנה מעריכת הימורים לפי חוק זה;</p>
+              </content>
+            </point>
+            <point eId="point_1א__point_מינהלת_ספורט">
+              <content>
+                <p>
+                  <def />”מינהלת ספורט“ – גוף האמון על הסדרת הארגון, הפיתוח והניהול של הליגות הבכירות בענף ספורט, כליגה תחרותית מקצוענית ומסחרית;</p>
+              </content>
+            </point>
+            <point eId="point_1א__point_סך_הכספים_לציבור">
+              <content>
+                <p>
+                  <def />”סך הכספים לציבור“ – הסכום המתקבל מצירוף יתרת ההכנסות והתשלומים לזוכים;</p>
+              </content>
+            </point>
+            <point eId="point_1א__point_פרסומת">
+              <content>
+                <p>
+                  <def />”פרסומת“ – פרסומת בעל פה, בכתב, בדפוס או באמצעים אלקטורנים, המיועדת או הזמינה לציבור;</p>
+              </content>
+            </point>
+            <point eId="point_1א__point_שידור">
+              <content>
+                <p>
+                  <def />”שידור“ – העברה קווית או אלחוטית, של תכנים, לציבור, ובכלל זה אספקה על גבי רשת האינטרנט;</p>
+              </content>
+            </point>
+            <point eId="point_1א__point_תשלומים_לזוכים">
+              <content>
+                <p>
+                  <def />”תשלומים לזוכים“ – סך הכספים המיועדים לתשלום לזוכים בתכנית הימורים.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_2">
+          <heading>
+            <authorialNote placement="side">
+              <p>המועצה – תאגיד</p>
+            </authorialNote>
+          </heading>
+          <num>2.</num>
+          <content>
+            <p>המועצה תהיה תאגיד כשר לכל חובה, זכות ופעולה משפטית.</p>
+          </content>
+        </point>
+        <point eId="point_3">
+          <heading>
+            <authorialNote placement="side">
+              <p>המועצה – גוף מבוקר</p>
+            </authorialNote>
+          </heading>
+          <num>3.</num>
+          <content>
+            <p>המועצה תהיה גוף מבוקר כמשמעותו <ref href="/akn/il/act/PrimaryLegislation/1958-03-20/2001957#point_9">בסעיף 9(2) לחוק מבקר המדינה, תשי"ח–1958 [נוסח משולב]</ref>.</p>
+          </content>
+        </point>
+        <point eId="point_4">
+          <heading>
+            <authorialNote placement="side">
+              <p>הרכב המועצה</p>
+            </authorialNote>
+          </heading>
+          <num>4.</num>
+          <list>
+            <point eId="point_4__point_א">
+              <num>(א)</num>
+              <list>
+                <intro>
+                  <p>במועצה יהיו שבעה חברים שימנו שר האוצר ושר התרבות והספורט (בחוק זה – השרים), והם:</p>
+                </intro>
+                <point eId="point_4__point_א__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>שני עובדי משרד התרבות והספורט;</p>
+                  </content>
+                </point>
+                <point eId="point_4__point_א__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>שני עובדי משרד האוצר;</p>
+                  </content>
+                </point>
+                <point eId="point_4__point_א__point_3">
+                  <num>(3)</num>
+                  <content>
+                    <p>שלושה נציגי ציבור;</p>
+                  </content>
+                </point>
+                <point eId="point_4__point_א__point_4">
+                  <num>(4)</num>
+                  <content>
+                    <p>
+                      <wikicomment font-size="x-small">(נמחקה);</wikicomment>
+                    </p>
+                  </content>
+                </point>
+                <point eId="point_4__point_א__point_5">
+                  <num>(5)</num>
+                  <content>
+                    <p>
+                      <wikicomment font-size="x-small">(נמחקה);</wikicomment>
+                    </p>
+                  </content>
+                </point>
+                <point eId="point_4__point_א__point_6">
+                  <num>(6)</num>
+                  <content>
+                    <p>
+                      <wikicomment font-size="x-small">(נמחקה);</wikicomment>
+                    </p>
+                  </content>
+                </point>
+                <point eId="point_4__point_א__point_7">
+                  <num>(7)</num>
+                  <content>
+                    <p>
+                      <wikicomment font-size="x-small">(נמחקה).</wikicomment>
+                    </p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_4__point_א1">
+              <num>(א1)</num>
+              <content>
+                <p>חברי המועצה שמונו לפי פסקאות (1) עד (3) שבסעיף קטן (א) לא יהיו חברים בהנהלה הפעילה של אגודת ספורט, ארגון ספורט, התאחדות או איגוד ספורט, כהגדרתם <ref href="/akn/il/act/PrimaryLegislation/1988-07-21/151582">בחוק הספורט</ref>, או בהנהלה הפעילה של התאחדות שקיבלה הכרה לפי <ref href="/akn/il/act/PrimaryLegislation/2005-12-29/37656#point_4">סעיף 4 לחוק הנהיגה הספורטיבית, התשס"ו–2005</ref> (בחוק זה – חוק הנהיגה הספורטיבית); במינוי חברים לפי אותן פסקאות תמונה לפחות אישה אחת לפי הוראות כל פסקה כאמור.</p>
+              </content>
+            </point>
+            <point eId="point_4__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>השרים ימנו אחד מחברי המועצה ליושב ראש המועצה ואחד לסגן יושב ראש.</p>
+              </content>
+            </point>
+            <point eId="point_4__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>דרכי מינוי חברי המועצה ותקופת כהונתם ייקבעו בתקנות; הודעה על מינוי המועצה והרכבה תפורסם ברשומות.</p>
+              </content>
+            </point>
+            <point eId="point_4__point_ד">
+              <num>(ד)</num>
+              <content>
+                <p>חבר המועצה לא יקבל מהמועצה שכר בעד שירותיו, אולם רשאית המועצה לשלם לו את הוצאותיו הכרוכות בישיבות המועצה.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_5">
+          <heading>
+            <authorialNote placement="side">
+              <p>נוהל המועצה</p>
+            </authorialNote>
+          </heading>
+          <num>5.</num>
+          <list>
+            <point eId="point_5__point_א">
+              <num>(א)</num>
+              <content>
+                <p>רוב חברי המועצה, וביניהם היושב ראש או סגנו, יהיה מנין חוקי בישיבותיה.</p>
+              </content>
+            </point>
+            <point eId="point_5__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>החלטות המועצה יתקבלו ברוב דעות המצביעים הנוכחים, כשהנמנעים אינם באים במנין המשתתפים בהצבעה; היו הדעות שקולות, תידחה ההצבעה לישיבה נוספת, ואם היו גם בה הדעות שקולות – יכריעו השרים.</p>
+              </content>
+            </point>
+            <point eId="point_5__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>המועצה תקבע את סדרי עבודתה בעצמה, במידה שלא נקבעו בתקנות.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_5א">
+          <heading>
+            <authorialNote placement="side">
+              <p>ועדת הביקורת</p>
+            </authorialNote>
+          </heading>
+          <num>5א.</num>
+          <list>
+            <point eId="point_5א__point_א">
+              <num>(א)</num>
+              <content>
+                <p>המועצה תמנה, מבין חבריה, ועדת ביקורת.</p>
+              </content>
+            </point>
+            <point eId="point_5א__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>ועדת הביקורת תמנה שלושה חברים; לפחות אחד מהחברים בה יהיה עובד המדינה ולפחות אחד יהיה נציג ציבור; יושב ראש המועצה לא יהיה חבר בוועדת הביקורת.</p>
+              </content>
+            </point>
+            <point eId="point_5א__point_ג">
+              <num>(ג)</num>
+              <list>
+                <intro>
+                  <p>ועדת הביקורת –</p>
+                </intro>
+                <point eId="point_5א__point_ג__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>תעמוד על ליקויים בניהול המועצה, בין השאר תוך התייעצות עם המבקר הפנימי של המועצה או עם רואה החשבון המבקר של המועצה, ותציע למועצה דרכים לתיקונם; מצאה ועדת הביקורת ליקוי כאמור שהוא ליקוי מהותי, תקיים ישיבה אחת לפחות לעניין הליקוי הנדון, בנוכחות המבקר הפנימי של המועצה או רואה החשבון המבקר של המועצה, לפי העניין, ובלא נוכחות של עובדי המועצה שנושא הדיון נמצא בתחום טיפולם או חברי המועצה שאינם חברי ועדת הביקורת; על אף האמור בפסקה זו, עובד המועצה או חבר המועצה רשאי להיות נוכח לשם הצגת עמדה בנושא שבתחומי אחריותו;</p>
+                  </content>
+                </point>
+                <point eId="point_5א__point_ג__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>תבחן את מערך הביקורת הפנימית של המועצה ואת תפקודו של המבקר הפנימי של המועצה וכן אם עומדים לרשותו המשאבים והכלים הנחוצים לו לשם מילוי תפקידו, בשים לב, בין השאר, לצרכיה המיוחדים של המועצה ולגודלה;</p>
+                  </content>
+                </point>
+                <point eId="point_5א__point_ג__point_3">
+                  <num>(3)</num>
+                  <content>
+                    <p>תבחן את תכנית העבודה של המבקר הפנימי של המועצה ותעבירה לאישור המועצה בצירוף הערותיה והמלצותיה;</p>
+                  </content>
+                </point>
+                <point eId="point_5א__point_ג__point_4">
+                  <num>(4)</num>
+                  <content>
+                    <p>תדון בדוחות של המבקר הפנימי של המועצה ובדוחות מבקר המדינה;</p>
+                  </content>
+                </point>
+                <point eId="point_5א__point_ג__point_5">
+                  <num>(5)</num>
+                  <content>
+                    <p>
+                      <wikicomment font-size="x-small">(נמחקה);</wikicomment>
+                    </p>
+                  </content>
+                </point>
+                <point eId="point_5א__point_ג__point_6">
+                  <num>(6)</num>
+                  <content>
+                    <p>תקבע הסדרים לגבי אופן הטיפול בתלונות של עובדי המועצה בקשר לליקויים בניהולה ולגבי ההגנה שתינתן לעובדים שהתלוננו כאמור; הסדרים כאמור יפורסמו באתר האינטרנט של המועצה.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_5א__point_ד">
+              <num>(ד)</num>
+              <content>
+                <p>מי שאינו חבר בוועדת הביקורת לא יהיה נוכח בישיבות הוועדה בעת הדיון ובעת קבלת החלטות הוועדה, אלא אם כן קבעו יושב ראש הוועדה או הוועדה כי הוא נדרש לשם הצגת נושא מסוים או לשם ניהולה התקין של הישיבה; על אף האמור, המבקר הפנימי והיועץ המשפטי של המועצה יקבלו הודעות על קיום ישיבות ועדת הביקורת ויהיו רשאים להשתתף בהן.</p>
+              </content>
+            </point>
+            <point eId="point_5א__point_ה">
+              <num>(ה)</num>
+              <content>
+                <p>הודעה על ישיבת ועדת ביקורת שבה עולה נושא הנוגע לביקורת הדוחות הכספיים תומצא לרואה החשבון המבקר של המועצה, שיהיה רשאי להשתתף בה.</p>
+              </content>
+            </point>
+            <point eId="point_5א__point_ו">
+              <num>(ו)</num>
+              <content>
+                <p>יושב ראש ועדת הביקורת יכנס את ועדת הביקורת לדיון בנושאים שיועמדו על סדר יומה על ידו או על ידי חבר ועדה אחר או על ידי המועצה, המנהל הכללי או המבקר הפנימי של המועצה.</p>
+              </content>
+            </point>
+            <point eId="point_5א__point_ז">
+              <num>(ז)</num>
+              <content>
+                <p>ועדת הביקורת תמסור דין וחשבון למועצה ולשרים לפי דרישתם ולפחות אחת לשנה.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_6">
+          <heading>
+            <authorialNote placement="side">
+              <p>עובדים</p>
+            </authorialNote>
+          </heading>
+          <num>6.</num>
+          <list>
+            <point eId="point_6__point_א">
+              <num>(א)</num>
+              <content>
+                <p>דרכי קבלת עובדים למועצה ותנאי עבודתם, לרבות תחולת השיפוט המשמעתי, יהיו כשל עובדי המדינה, בתיאומים שיקבעו השרים בתקנות, באישור ועדת העבודה של הכנסת.</p>
+              </content>
+            </point>
+            <point eId="point_6__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>לענין <ref href="/akn/il/act/PrimaryLegislation/1977-08-04/2002251#point_34כד">חוק לתיקון דיני העונשין (עובדי הציבור), תשי"ז–1957</ref>, <ref href="/akn/il/act/PrimaryLegislation/1971-04-28/2002283">פקודת העדות</ref>, <ref href="/akn/il/act/PrimaryLegislation/1968-04-17/2002279">פקודת הנזיקים האזרחיים, 1944</ref>, <ref href="/akn/il/act/PrimaryLegislation/1959-08-14/148673">וחוק שירות המדינה (סיוג פעילות מפלגתית ומגבית כספים), תשי"ט–1959</ref>, דין עובדי המועצה כדין עובדי המדינה.</p>
+              </content>
+            </point>
+            <point eId="point_6__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>המועצה, באישור השרים, תמנה מנהל כללי למועצה.</p>
+              </content>
+            </point>
+            <point eId="point_6__point_ד">
+              <num>(ד)</num>
+              <content>
+                <p>תקופת כהונתו של המנהל הכללי תהיה חמש שנים, וניתן לשוב ולמנותו, בדרך האמורה בסעיף קטן (ג), לתקופת כהונה נוספת אחת בלבד.</p>
+              </content>
+            </point>
+            <point eId="point_6__point_ה">
+              <num>(ה)</num>
+              <content>
+                <p>המועצה תקבע את הכישורים המקצועיים הנדרשים מסגן מנהל כללי לענייני כספים התואמים את פעילות המועצה, ותאשר את מינויו של סגן המנהל הכללי לענייני כספים שימנה המנהל הכללי, בהתאם לכישורים שנקבעו.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_7">
+          <heading>
+            <authorialNote placement="side">
+              <p>תקציב</p>
+            </authorialNote>
+          </heading>
+          <num>7.</num>
+          <list>
+            <point eId="point_7__point_א">
+              <num>(א)</num>
+              <content>
+                <p>המועצה לא תוציא כספים אלא בהתאם לתקציב שיאושר על ידי השרים ועל ידי ועדת הכספים של הכנסת.</p>
+              </content>
+            </point>
+            <point eId="point_7__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>מועד הגשת הצעת התקציב לאישור כאמור, צורת עריכתו, לרבות הפרטים שייכללו בו ודרך הצגתם, ודרכי הגשתו ייקבעו על ידי השרים בתקנות.</p>
+              </content>
+            </point>
+            <point eId="point_7__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>בלי לגרוע מהאמור בסעיף זה <ref href="#point_8ג">ובסעיפים 8ג</ref><ref href="#point_9">ו־9</ref>, שר האוצר רשאי לאשר השתתפות מתקציב המדינה בתקציבה של המועצה.</p>
+              </content>
+            </point>
+            <point eId="point_7__point_ד">
+              <num>(ד)</num>
+              <list>
+                <intro>
+                  <p>המועצה תגיש לשרים הודעות, דיווחים ודוחות כמפורט להלן:</p>
+                </intro>
+                <point eId="point_7__point_ד__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>דוחות כספיים שנתיים שיהיו מלאים ומבוקרים בידי רואה החשבון המבקר של המועצה ולפי עקרונות חשבונאיים וכללי הדיווח המקובלים לא יאוחר משלושה חודשים מתום כל שנת כספים (להלן – דוחות כספיים שנתיים);</p>
+                  </content>
+                </point>
+                <point eId="point_7__point_ד__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>דוחות כספיים תקופתיים סקורים ותחזית ליתרת הכנסות מעודכנת עד תום שנת הכספים, לא יאוחר מ־60 ימים מתום כל אחד משלושת הרבעונים הראשונים של שנת הכספים (להלן – דוחות כספיים רבעוניים); לעניין זה, ”רבעון“ – תקופה של שלושה חודשים רצופים, שתחילתה ב־1 בינואר, ב־1 באפריל, וב־1 ביולי של כל שנה;</p>
+                  </content>
+                </point>
+                <point eId="point_7__point_ד__point_3">
+                  <num>(3)</num>
+                  <content>
+                    <p>הודעות, דיווחים ודוחות שנתיים, תקופתיים ומיידיים, כפי שקבעו השרים בתקנות.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_7__point_ה">
+              <num>(ה)</num>
+              <content>
+                <p>מנהל המועצה, סגן המנהל הכללי לענייני כספים, יושב ראש המועצה וחבר מועצה נוסף שהמועצה תסמיך לכך, יחתמו על הדוחות הכספיים השנתיים ועל הדוחות הכספיים הרבעוניים של המועצה ויצרפו לדוחות כאמור טופס הצהרה חתום על ידם, בנוסח הקבוע <ref href="#appendix_1">בתוספת הראשונה</ref>.</p>
+              </content>
+            </point>
+            <point eId="point_7__point_ו">
+              <num>(ו)</num>
+              <content>
+                <p>השרים יקבעו הוראות בדבר אופן הגשת דיווחים שאינם הדוחות הכספיים או ההודעות לפי סעיף זה, לרבות פרסומם לציבור, מתכנתם, תכנם, מידת פירוטם ובכלל זה הביאורים הנוספים שיש לצרף אליהם, וכן הוראות בדבר מועדי עריכתם והגשתם של דיווחים והודעות כאמור והוראות בדבר פרסום הדוחות הכספיים לציבור.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_8">
+          <heading>
+            <authorialNote placement="side">
+              <p>עריכת הימורים</p>
+            </authorialNote>
+          </heading>
+          <num>8.</num>
+          <content>
+            <p>ההימורים שתארגן המועצה ייערכו לפי תכנית שקבעה המועצה בתקנות באישור השרים ובאישור ועדת החינוך, התרבות והספורט של הכנסת.</p>
+          </content>
+        </point>
+        <point eId="point_8א">
+          <heading>
+            <authorialNote placement="side">
+              <p>ביצוע עבודות</p>
+            </authorialNote>
+          </heading>
+          <num>8א.</num>
+          <list>
+            <point eId="point_8א__point_א">
+              <num>(א)</num>
+              <content>
+                <p>המועצה רשאית לבצע את העבודות הכרוכות בתכנית הימורים באמצעות אחר, על פי הסכם בכתב אתו; הסכם כאמור יהיה לתקופה שלא תעלה על שתי שנים בכל פעם.</p>
+              </content>
+            </point>
+            <point eId="point_8א__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>בהסכם כאמור תטיל המועצה על מי שבאמצעותו מתבצעת העבודה לדווח לה על הביצוע בהתאם לכללים שנקבעו בתקנות.</p>
+              </content>
+            </point>
+            <point eId="point_8א__point_ג">
+              <num>(ג)</num>
+              <list>
+                <intro>
+                  <p>סך כל התשלומים שתשלם המועצה בשנה למי שרשאי למכור זכות להשתתף בתכנית הימורים כאמור בסעיף קטן (א) (להלן – בעל תחנה), הכוללים עמלת מכירה או כל תשלום אחר לבעל התחנה והמחושבים ביחס למחזור המכירות השנתי של מוצרי המועצה הנמכרים באמצעות בעל התחנה (להלן – מחזור בעל התחנה), יהיו בשיעורים המפורטים להלן, לא כולל תשלום שרשאית המועצה לשלם בגובה סכום השווה למס ערך מוסף:</p>
+                </intro>
+                <point eId="point_8א__point_ג__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>על כל שקל חדש מ־1,286,000 השקלים החדשים הראשונים של מחזור בעל התחנה – לא יותר מ־7%;</p>
+                  </content>
+                </point>
+                <point eId="point_8א__point_ג__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>על כל שקל חדש מסכום העולה על 1,286,000 שקלים חדשים אך לא עולה על 2,040,000 שקלים חדשים של מחזור בעל התחנה – לא יותר מ־6.25%;</p>
+                  </content>
+                </point>
+                <point eId="point_8א__point_ג__point_3">
+                  <num>(3)</num>
+                  <content>
+                    <p>על כל שקל חדש מסכום העולה על 2,040,000 שקלים חדשים של מחזור בעל התחנה – לא יותר מ־5%.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_8א__point_ד">
+              <num>(ד)</num>
+              <content>
+                <p>על אף האמור בסעיף קטן (ג), המועצה רשאית לשלם לבעל תחנה תשלומים קבועים במקום עמלת מכירה או כל תשלום אחר כאמור באותו סעיף קטן, כולם או חלקם.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_8א1">
+          <heading>
+            <authorialNote placement="side">
+              <p>הגבלת פרסומות</p>
+            </authorialNote>
+          </heading>
+          <num>8א1.</num>
+          <list>
+            <point eId="point_8א1__point_א">
+              <num>(א)</num>
+              <list>
+                <intro>
+                  <p>המועצה לא תעשה בשעות האסורות לפרסום, כאמור <ref href="#appendix_2">בתוספת השנייה</ref>, פרסומת להימורים, לרבות בציור, בדמות, בצליל, בתמונה, בתנועה או בכל אמצעי אחר, באחד מאמצעי השידור המפורטים להלן, למעט במהלך שידור של תחרות ספורט, של משחק ספורט או של תכנית אחרת ובלבד שהיא עוסקת ברובה בספורט:</p>
+                </intro>
+                <point eId="point_8א1__point_א__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>שידורי רדיו בישראל;</p>
+                  </content>
+                </point>
+                <point eId="point_8א1__point_א__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>שידורי טלוויזיה בישראל.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_8א1__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>השרים רשאים, בצו, באישור ועדת החינוך, התרבות והספורט של הכנסת, לשנות את <ref href="#appendix_2">התוספת השנייה</ref>.</p>
+              </content>
+            </point>
+            <point eId="point_8א1__point_ג">
+              <num>(ג)</num>
+              <list>
+                <point eId="point_8א1__point_ג__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>השרים, בהסכמת שר המשפטים, יקבעו בתקנות כללים להגבלת פרסומות, לרבות איסור על הצגת קשר ישיר בין הימורים לשינוי משמעותי בחיים, איסור על פרסום בשבח הימורים כשלעצמם, הגבלת פרסום לקטינים, וכן כללים בדבר הוראות לעניין הסרת פרסום אסור.</p>
+                  </content>
+                </point>
+                <point eId="point_8א1__point_ג__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>הוראות סעיף קטן זה יעמדו בתוקפן עד יום ט"ז בטבת התשפ"א (31 בדצמבר 2020).</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+          </list>
+        </point>
+        <point eId="point_8ב">
+          <heading>
+            <authorialNote placement="side">
+              <p xml:space="preserve"> </p>
+            </authorialNote>
+          </heading>
+          <num>8ב.</num>
+          <content>
+            <p>
+              <wikicomment font-size="x-small">(בוטל).</wikicomment>
+            </p>
+          </content>
+        </point>
+        <point eId="point_8ג">
+          <heading>
+            <authorialNote placement="side">
+              <p>הכספים לציבור</p>
+            </authorialNote>
+          </heading>
+          <num>8ג.</num>
+          <list>
+            <point eId="point_8ג__point_א">
+              <num>(א)</num>
+              <content>
+                <p>בסעיף זה, ”הוצאה חד־פעמית“ – הוצאה שאינה כלולה בתקציב שאושר על ידי השרים לפי <ref href="#point_7">סעיף 7(א)</ref> ואינה צפויה להיכלל בשנות התקציב שלאחר אותה שנה שלגביה מתוכננת ההוצאה, ובלבד שאינה הוצאה במסגרת הסכם עם גוף ספורט.</p>
+              </content>
+            </point>
+            <point eId="point_8ג__point_ב">
+              <num>(ב)</num>
+              <list>
+                <intro>
+                  <p>סך הכספים לציבור, במסגרת הצעת תקציב, יהיה בשיעורים אלו:</p>
+                </intro>
+                <point eId="point_8ג__point_ב__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>עמד מחזור המועצה על לפחות 1,500 מיליון שקלים חדשים אך לא יותר מ־2,000 מיליון שקלים חדשים, סך הכספים לציבור לא יפחת מ־82% ממחזור המועצה, ובלבד שיתרת ההכנסות לא תפחת מ־17.5% ממחזור המועצה;</p>
+                  </content>
+                </point>
+                <point eId="point_8ג__point_ב__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>עמד מחזור המועצה על סכום העולה על 2,000 מיליון שקלים חדשים אך לא יותר מ־2,600 מיליון שקלים חדשים, סך הכספים לציבור לא יפחת מ־85% ממחזור המועצה, ובלבד שיתרת ההכנסות לא תפחת מ־20.9% ממחזור המועצה;</p>
+                  </content>
+                </point>
+                <point eId="point_8ג__point_ב__point_3">
+                  <num>(3)</num>
+                  <list>
+                    <intro>
+                      <p>עלה מחזור המועצה על 2,600 מיליון שקלים חדשים –</p>
+                    </intro>
+                    <point eId="point_8ג__point_ב__point_3__point_א">
+                      <num>(א)</num>
+                      <content>
+                        <p>על כל שקל חדש מ־2,600 מיליון השקלים החדשים הראשונים של מחזור המועצה – לא פחות מ־85%, ובלבד שיתרת ההכנסות לא תפחת מ־20.9% ממחזור המועצה;</p>
+                      </content>
+                    </point>
+                    <point eId="point_8ג__point_ב__point_3__point_ב">
+                      <num>(ב)</num>
+                      <content>
+                        <p>על כל שקל חדש מסכום העולה על 2,600 מיליון שקלים חדשים אך אינו עולה על 3,500 מיליון שקלים חדשים של מחזור המועצה – לא פחות מ־90%, ובלבד שיתרת ההכנסות לא תפחת מ־23% ממחזור המועצה;</p>
+                      </content>
+                    </point>
+                    <point eId="point_8ג__point_ב__point_3__point_ג">
+                      <num>(ג)</num>
+                      <content>
+                        <p>על כל שקל חדש מסכום העולה על 3,500 מיליון שקלים חדשים של מחזור המועצה – לא פחות מ־91.25%, ובלבד שיתרת ההכנסות לא תפחת מ־24.25% ממחזור המועצה.</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+              </list>
+            </point>
+            <point eId="point_8ג__point_ג">
+              <num>(ג)</num>
+              <list>
+                <intro>
+                  <p>בלי לגרוע מהאמור בסעיף קטן (ב), עלה מחזור המועצה על סכום של 1,500 מיליון שקלים חדשים, המועצה תהיה רשאית –</p>
+                </intro>
+                <point eId="point_8ג__point_ג__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>לעשות שימוש, במסגרת הצעת התקציב, ב־0.5% <wikicomment font-size="x-small">(בשנים 2017 ו־2018: 0.7%)</wikicomment> ממחזור המועצה מתוך סך הכספים לציבור לצורך הוצאה חד־פעמית או לצורך הוצאות הסדרה שהוציאה המועצה בהתאם להוראות חוק זה או בהתאם לדין אחר שעניינו הסדרת פעילות הימורים חוקיים;</p>
+                  </content>
+                </point>
+                <point eId="point_8ג__point_ג__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>במסגרת הצעת התקציב או במהלך שנת כספים, לאחר אישור מראש ובכתב מאת השרים, להעביר סכומים בין יתרת ההכנסות לבין התשלומים לזוכים, או להיפך, בשיעור של עד לגובה ההפרש בין השיעור שנעשה בו שימוש לפי פסקה (1) לבין 3% ממחזור המועצה;</p>
+                  </content>
+                </point>
+                <point eId="point_8ג__point_ג__point_3">
+                  <num>(3)</num>
+                  <content>
+                    <p>במהלך שנת כספים, לאחר אישור מראש ובכתב מאת השרים, לעשות שימוש בשיעור מסוים מתוך סך הכספים לציבור לצורך הוצאה חריגה שלא היתה צפויה ומתוכננת בעת אישור הצעת התקציב.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_8ג__point_ד">
+              <num>(ד)</num>
+              <list>
+                <intro>
+                  <p>בלי לגרוע מהאמור בסעיף זה, המועצה רשאית לקבוע שיעורי תשלום שונים לתכניות הימורים שונות, ובלבד –</p>
+                </intro>
+                <point eId="point_8ג__point_ד__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>ששיעור התשלומים לזוכים לא יפחת מ־60% ממחזור המועצה;</p>
+                  </content>
+                </point>
+                <point eId="point_8ג__point_ד__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>שהתשלומים לזוכים בתכנית הימורים מסוימת לא יפחתו משיעור של 42% מהתקבולים לאותה תכנית הימורים.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_8ג__point_ה">
+              <num>(ה)</num>
+              <content>
+                <p>השרים יקבעו את השיעורים של סך הכספים לציבור עבור תכנית הימורים חדשה כהגדרתה <ref href="#point_8ד">בסעיף 8ד</ref> במסגרת התכנית שקבעה המועצה בתקנות לפי הוראות <ref href="#point_8">סעיף 8</ref>.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_8ד">
+          <heading>
+            <authorialNote placement="side">
+              <p>הוצאות שיווק ופרסום</p>
+            </authorialNote>
+          </heading>
+          <num>8ד.</num>
+          <list>
+            <point eId="point_8ד__point_א">
+              <num>(א)</num>
+              <content>
+                <p>בסעיף זה, ”תכנית הימורים חדשה“ – תכנית הימורים הנקבעת לראשונה בתקנות לפי הוראות <ref href="#point_8">סעיף 8</ref> וכן כל חידוש של תכנית הימורים קיימת או סוג נוסף של תכנית הימורים קיימת שלא היה קיים.</p>
+              </content>
+            </point>
+            <point eId="point_8ד__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>הוצאות הפרסום של המועצה בשנה לא יעלו על 52 מיליון שקלים חדשים או על שיעור של 1.75% ממחזור המועצה באותה שנה בניכוי הסכום הקבוע בסעיף קטן (ג), לפי הגבוה, ובלבד שסך הוצאות הפרסום האמורות לא יעלו על 60 מיליון שקלים חדשים בשנה.</p>
+              </content>
+            </point>
+            <point eId="point_8ד__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>הסכמים עם גופי ספורט יכללו הוצאות שיווק ותפעול בלבד; סך הוצאות המועצה בשל הסכמים כאמור לא יעלה על 46 מיליון שקלים חדשים בשנה.</p>
+              </content>
+            </point>
+            <point eId="point_8ד__point_ד">
+              <num>(ד)</num>
+              <content>
+                <p>על אף האמור בסעיפים קטנים (ב) ו־(ג), המועצה תהיה רשאית להעביר סכום של עד 2 מיליון שקלים חדשים מהוצאות הפרסום כאמור בסעיף קטן (ב) להסכמים עם גופי ספורט כאמור בסעיף קטן (ג), ולהיפך.</p>
+              </content>
+            </point>
+            <point eId="point_8ד__point_ה">
+              <num>(ה)</num>
+              <content>
+                <p>עמד מחזור המועצה על לא יותר מ־1,500 מיליון שקלים חדשים, יראו בסכומים ובשיעורים האמורים בסעיפים קטנים (ב) ו־(ג) כאילו היו נמוכים בשיעור של 50%.</p>
+              </content>
+            </point>
+            <point eId="point_8ד__point_ו">
+              <num>(ו)</num>
+              <list>
+                <intro>
+                  <p>על אף האמור בסעיף קטן (ב), הוצאות פרסום של המועצה להשקת תכנית הימורים חדשה, לא יבואו בגדר המגבלה האמורה באותו סעיף קטן, ובלבד שיתמלאו תנאים אלה:</p>
+                </intro>
+                <point eId="point_8ד__point_ו__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>סך הוצאות הפרסום לפי סעיף קטן זה יובא לאישור השרים מראש ובכתב;</p>
+                  </content>
+                </point>
+                <point eId="point_8ד__point_ו__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>תקופת הפרסום בהתאם לסעיף קטן זה לא תעלה על 18 חודשים;</p>
+                  </content>
+                </point>
+                <point eId="point_8ד__point_ו__point_3">
+                  <num>(3)</num>
+                  <content>
+                    <p>סך הוצאות הפרסום לפי סעיף קטן זה לא יעלה על 3 מיליון שקלים חדשים במצטבר לתכנית הימורים חדשה, ובלבד שסך הוצאות הפרסום בשנה לכלל תכניות ההימורים החדשות לא יעלה על 6 מיליון שקלים חדשים.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+          </list>
+        </point>
+        <point eId="point_9">
+          <heading>
+            <authorialNote placement="side">
+              <p>יתרת ההכנסות</p>
+            </authorialNote>
+          </heading>
+          <num>9.</num>
+          <list>
+            <point eId="point_9__point_א">
+              <num>(א)</num>
+              <content>
+                <p>יתרת ההכנסות לא תפחת מהשיעורים האמורים <ref href="#point_8ג">בסעיף 8ג</ref>.</p>
+              </content>
+            </point>
+            <point eId="point_9__point_א1">
+              <num>(א1)</num>
+              <list>
+                <intro>
+                  <p>המועצה תעביר למדינה את יתרת ההכנסות החיובית שנצברה, כמפורט להלן:</p>
+                </intro>
+                <point eId="point_9__point_א1__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>לא יאוחר מ־15 ימים מחלוף המועד להגשת כל דוח כספי שנתי לפי <ref href="#point_7">סעיף 7(ד)(1)</ref> – את יתרת ההכנסות לפי הדוח הכספי השנתי, בניכוי הסכומים ששולמו לפי פסקה (2) באותה שנת כספים;</p>
+                  </content>
+                </point>
+                <point eId="point_9__point_א1__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>לא יאוחר מ־15 ימים מחלוף המועדים הקבועים להגשת כל דוח כספי רבעוני לפי <ref href="#point_7">סעיף 7(ד)(2)</ref> – את יתרת ההכנסות שנצברו ברבעון לפי אותו דוח;</p>
+                  </content>
+                </point>
+                <point eId="point_9__point_א1__point_3">
+                  <num>(3)</num>
+                  <content>
+                    <p>על אף האמור בפסקה (2), המועצה רשאית לפנות בכתב לממונה על התקציבים במשרד האוצר, באחד מהמועדים הקבועים <ref href="#point_7">בסעיף 7(ד)(2)</ref>, בבקשה לאשר לה לדחות העברת סכום שלא יעלה על 20 מיליון שקלים חדשים מיתרת ההכנסות באותו רבעון, למועד ההעברה הבא; העברה דחויה כאמור תיעשה רק לאחר אישור מראש ובכתב של הממונה על התקציבים במשרד האוצר ובהתאם לתנאים שיקבע באישור.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_9__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>
+                  <wikicomment font-size="x-small">(בוטל).</wikicomment>
+                </p>
+              </content>
+            </point>
+            <point eId="point_9__point_ב1">
+              <num>(ב1)</num>
+              <content>
+                <p>
+                  <wikicomment font-size="x-small">(בוטל).</wikicomment>
+                </p>
+              </content>
+            </point>
+            <point eId="point_9__point_ב1א">
+              <num>(ב1א)</num>
+              <content>
+                <p>
+                  <wikicomment font-size="x-small">(בוטל).</wikicomment>
+                </p>
+              </content>
+            </point>
+            <point eId="point_9__point_ב2">
+              <num>(ב2)</num>
+              <content>
+                <p>
+                  <wikicomment font-size="x-small">(בוטל).</wikicomment>
+                </p>
+              </content>
+            </point>
+            <point eId="point_9__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>המועצה תפרסם ברשומות ובאתר האינטרנט של המועצה, תוך שלושה חדשים לאחר תום כל שנת כספים, דין וחשבון על ההכנסות וההוצאות באותה שנה.</p>
+              </content>
+            </point>
+            <point eId="point_9__point_ג1">
+              <num>(ג1)</num>
+              <content>
+                <p>
+                  <wikicomment font-size="x-small">(בוטל).</wikicomment>
+                </p>
+              </content>
+            </point>
+            <point eId="point_9__point_ד">
+              <num>(ד)</num>
+              <content>
+                <p>
+                  <wikicomment font-size="x-small">(בוטל).</wikicomment>
+                </p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_9א">
+          <heading>
+            <authorialNote placement="side">
+              <p>העברת יתרת מזומנים למדינה</p>
+            </authorialNote>
+          </heading>
+          <num>9א.</num>
+          <list>
+            <point eId="point_9א__point_א">
+              <num>(א)</num>
+              <list>
+                <intro>
+                  <p>בכל אחד מהמועדים המפורטים להלן תעביר הממועצה למדינה סכום של 300 מיליון שקלים חדשים מתוך כספי יתרות המזומנים שהצטברו עד לשנת 2016:</p>
+                </intro>
+                <point eId="point_9א__point_א__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>ביום ג׳ בטבת התשע"ז (1 בינואר 2017);</p>
+                  </content>
+                </point>
+                <point eId="point_9א__point_א__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>ביום י"ד בטבת התשע"ח (1 בינואר 2018).</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_9א__point_א1">
+              <num>(א1)</num>
+              <list>
+                <intro>
+                  <p>נוסף על הסכומים האמורים בסעיף קטן (א), תעביר המועצה למדינה סכומים בשיעורים ובמועדים כמפורט להלן:</p>
+                </intro>
+                <point eId="point_9א__point_א1__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>עד יום ז׳ בתמוז התשע"ז (1 ביולי 2017) – סכום של 28 מיליון שקלים חדשים;</p>
+                  </content>
+                </point>
+                <point eId="point_9א__point_א1__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>עד יום י"ח בתמוז התשע"ח (1 ביולי 2018) – סכום של 14 מיליון שקלים חדשים.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_9א__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>
+                  <wikicomment font-size="x-small">(בוטל).</wikicomment>
+                </p>
+              </content>
+            </point>
+            <point eId="point_9א__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>בסעיף זה, ”יתרות המזומנים“ – סך הסכומים שהמועצה הקצתה לחלוקה כתמיכה בהקמה ובשדרוג של מיתקני ספורט כאמור <ref href="#point_9">בסעיף 9(ב1)(1) ו־(6)</ref> אך טרם הועברו בפועל למקבלי התמיכה.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_9ב">
+          <heading>
+            <authorialNote placement="side">
+              <p>תמיכה בגופי ספורט – הוראת שעה</p>
+            </authorialNote>
+          </heading>
+          <num>9ב.</num>
+          <list>
+            <point eId="point_9ב__point_א">
+              <num>(א)</num>
+              <list>
+                <intro>
+                  <p>בסעיף זה –</p>
+                </intro>
+                <point eId="point_9ב__point_א__point_אגודת_ספורט">
+                  <content>
+                    <p>
+                      <def />”אגודת ספורט“, ”ארגון ספורט“ ו”מועדון ספורט“ – כהגדרתם <ref href="/akn/il/act/PrimaryLegislation/1988-07-21/151582">בחוק הספורט</ref>;</p>
+                  </content>
+                </point>
+                <point eId="point_9ב__point_א__point_ארגון_ספורט_נתמך">
+                  <content>
+                    <p>
+                      <def />”ארגון ספורט נתמך“ – ארגון ספורט, ש־50% מהיקף פעילותו לפחות מיועד לתמיכה בספורט העממי–חובבני ולקידומו; לעניין הגדרה זו, ”ספורט עממי–חובבני“ – פעילות ספורט שאינה במסגרת ליגות מקצועניות;</p>
+                  </content>
+                </point>
+                <point eId="point_9ב__point_א__point_גוף_ספורט">
+                  <content>
+                    <p>
+                      <def />”גוף ספורט“ – ארגון ספורט נתמך, אגודת ספורט או מועדון ספורט;</p>
+                  </content>
+                </point>
+                <point eId="point_9ב__point_א__point_חוק_יסודות_התקציב">
+                  <content>
+                    <p>
+                      <def />”חוק יסודות התקציב“ – <ref href="/akn/il/act/PrimaryLegislation/1985-04-03/150399">חוק יסודות התקציב, התשמ"ה–1985</ref>;</p>
+                  </content>
+                </point>
+                <point eId="point_9ב__point_א__point_המועצה_הלאומית_לספורט">
+                  <content>
+                    <p>
+                      <def />”המועצה הלאומית לספורט“ – המועצה שהוקמה לפי <ref href="/akn/il/act/PrimaryLegislation/1988-07-21/151582#point_17א">סעיף 17א לחוק הספורט</ref>;</p>
+                  </content>
+                </point>
+                <point eId="point_9ב__point_א__point_תיקון_מס_14">
+                  <content>
+                    <p>
+                      <def />”תיקון מס׳ 14“ – <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/http_fs_knesset_gov_il_20_law_20_lsr_528242_pdf">חוק להסדר ההימורים בספורט (תיקון מס׳ 14 והוראת שעה), התשע"ט–2019</ref>;</p>
+                  </content>
+                </point>
+                <point eId="point_9ב__point_א__point_תקנון_כספים_ומשק">
+                  <content>
+                    <p>
+                      <def />”תקנון כספים ומשק“ (תכ"ם) – הוראות מינהל שקבע החשב הכללי במשרד האוצר.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_9ב__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>על אף האמור <ref href="/akn/il/act/PrimaryLegislation/1985-04-03/150399#point_3א">בסעיף 3א לחוק יסודות התקציב</ref>, הוצאות משרד התרבות והספורט לתמיכה בגופי ספורט לעניין פעילות נתמכת ערב יום הפרסום, בסכום שנקבע בחוק התקציב השנתי (בסעיף זה – סכום התמיכה), יחולקו בהתאם להוראות סעיף זה; לעניין זה, ”פעילות נתמכת ערב יום הפרסום“ – פעילות בתחומים שערב יום פרסומו של <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/http_fs_knesset_gov_il_20_law_20_lsr_528242_pdf">תיקון מס׳ 14</ref> הוקצו בעבורם סכומים לחלוקה כתמיכה לפי <ref href="#point_9">סעיף 9(ב1)(3) עד (5) לחוק זה</ref>, כנוסחו לפני ביטולו <ref href="/akn/il/act/PrimaryLegislation/2018-03-22/2065305#point_11">בסעיף 11(7)(ד) לחוק ההתייעלות הכלכלית (תיקוני חקיקה להשגת יעדי התקציב לשנת התקציב 2019), התשע"ח–2018</ref>.</p>
+              </content>
+            </point>
+            <point eId="point_9ב__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>סכום התמיכה יחולק בין גופי הספורט לפי מבחנים שוויוניים שיקבע שר התרבות והספורט (בסעיף זה – מבחנים), בהתייעצות עם היועץ המשפטי לממשלה ועם המועצה הלאומית לספורט.</p>
+              </content>
+            </point>
+            <point eId="point_9ב__point_ד">
+              <num>(ד)</num>
+              <list>
+                <intro>
+                  <p>על תמיכות לגופי ספורט לפי סעיף זה, ובכלל זה על הגשת בקשות לקבלת תמיכה ועל הדיון בבקשות כאמור, יחולו ההוראות כמפורט להלן, לפי העניין:</p>
+                </intro>
+                <point eId="point_9ב__point_ד__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>לעניין גוף ספורט שהוא מוסד ציבור כהגדרתו <ref href="/akn/il/act/PrimaryLegislation/1985-04-03/150399#point_3א">בסעיף 3א לחוק יסודות התקציב</ref> – הוראות הנוהל שקבע שר האוצר לפי <ref href="/akn/il/act/PrimaryLegislation/1985-04-03/150399#point_3א">סעיף 3א(ו) לחוק יסודות התקציב</ref>, בשינויים שקבע, אם קבע (בסעיף זה – הוראות שר האוצר);</p>
+                  </content>
+                </point>
+                <point eId="point_9ב__point_ד__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>לעניין גוף ספורט שאינו מוסד ציבור כאמור בפסקה (1) – הוראות תקנון כספים ומשק.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_9ב__point_ה">
+              <num>(ה)</num>
+              <list>
+                <intro>
+                  <p>על אף האמור בסעיף קטן (ד) –</p>
+                </intro>
+                <point eId="point_9ב__point_ה__point_1">
+                  <num>(1)</num>
+                  <list>
+                    <intro>
+                      <p>בקשות לקבלת תמיכה לפי סעיף זה יידונו לפני ועדה שאלה חבריה (בסעיף זה – ועדת תמיכות משותפת):</p>
+                    </intro>
+                    <point eId="point_9ב__point_ה__point_1__point_א">
+                      <num>(א)</num>
+                      <content>
+                        <p>ראש מינהל הספורט במשרד התרבות והספורט או נציגו, והוא יהיה היושב ראש;</p>
+                      </content>
+                    </point>
+                    <point eId="point_9ב__point_ה__point_1__point_ב">
+                      <num>(ב)</num>
+                      <content>
+                        <p>חשב משרד התרבות והספורט או נציגו;</p>
+                      </content>
+                    </point>
+                    <point eId="point_9ב__point_ה__point_1__point_ג">
+                      <num>(ג)</num>
+                      <content>
+                        <p>היועץ המשפטי למשרד התרבות והספורט או נציגו;</p>
+                      </content>
+                    </point>
+                    <point eId="point_9ב__point_ה__point_1__point_ד">
+                      <num>(ד)</num>
+                      <content>
+                        <p>ראש אגף בכיר תקציבים ותכנון במשרד התרבות והספורט או נציגו;</p>
+                      </content>
+                    </point>
+                    <point eId="point_9ב__point_ה__point_1__point_ה">
+                      <num>(ה)</num>
+                      <content>
+                        <p>עובד משרד התרבות והספורט שימנה שר התרבות והספורט;</p>
+                      </content>
+                    </point>
+                    <point eId="point_9ב__point_ה__point_1__point_ו">
+                      <num>(ו)</num>
+                      <content>
+                        <p>שני נציגים שמינתה המועצה מקרב עובדיה;</p>
+                      </content>
+                    </point>
+                    <point eId="point_9ב__point_ה__point_1__point_ז">
+                      <num>(ז)</num>
+                      <content>
+                        <p>שני נציגי ציבור שהם ספורטאי עבר, שימנה שר התרבות והספורט;</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+                <point eId="point_9ב__point_ה__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>נציגי הציבור המנויים בפסקה (1)(ז) ימונו לא יאוחר מיום כ"ט בתמוז התשע"ט (1 באוגוסט 2019);</p>
+                  </content>
+                </point>
+                <point eId="point_9ב__point_ה__point_3">
+                  <num>(3)</num>
+                  <content>
+                    <p>החלטת ועדת התמיכות המשותפת תתקבל ברוב דעות חבריה המשתתפים בישיבה, ובלבד שבקרב המשתתפים יש רוב לעובדי המדינה וכי החברים המנויים בפסקה (1)(ב) ו־(ג) משתתפים בישיבה;</p>
+                  </content>
+                </point>
+                <point eId="point_9ב__point_ה__point_4">
+                  <num>(4)</num>
+                  <content>
+                    <p>החליטה ועדת התמיכות המשותפת על מתן תמיכה לגוף ספורט לפי סעיף זה, תעביר המועצה את כספי התמיכה לגוף המבקש בהתאם להוראות שר האוצר או להוראות תקנון כספים ומשק, לפי העניין.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_9ב__point_ו">
+              <num>(ו)</num>
+              <content>
+                <p>המבחנים והוראות שר האוצר יפורסמו ברשומות.</p>
+              </content>
+            </point>
+            <point eId="point_9ב__point_ז">
+              <num>(ז)</num>
+              <content>
+                <p>על קבלת תמיכה לפי סעיף זה יחולו ההוראות לפי <ref href="/akn/il/act/PrimaryLegislation/1985-04-03/150399#point_3א">סעיף 3א(ח1) לחוק יסודות התקציב</ref>; לעניין זה יראו את התמיכה לפי סעיף זה כתמיכה ממשרד התרבות והספורט.</p>
+              </content>
+            </point>
+            <point eId="point_9ב__point_ח">
+              <num>(ח)</num>
+              <content>
+                <p>לא יעביר משרד התרבות והספורט את סכום התמיכה למועצה, לשם העברתו לגופי הספורט לפי הוראות סעיף זה, אלא לפי הוראות החשב הכללי במשרד האוצר לעניין בקרה ופיקוח של המדינה על העברת סכום התמיכה כאמור, בידי המועצה, לאותם גופים, ועל הפיקוח שתקיים המועצה על אותם גופים בקשר לסכומים שהעבירה להם.</p>
+              </content>
+            </point>
+            <point eId="point_9ב__point_ט">
+              <num>(ט)</num>
+              <content>
+                <p>הוראות סעיף זה יעמדו בתוקפן מיום כ"ד בטבת התשע"ט (1 בינואר 2019) עד יום ז׳ בטבת התשפ"ג (31 בדצמבר 2022).</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_10">
+          <heading>
+            <authorialNote placement="side">
+              <p>פטור מתשלומי חובה</p>
+            </authorialNote>
+          </heading>
+          <num>10.</num>
+          <content>
+            <p>המועצה תהא פטורה מתשלום מסים, ארנונות ותשלומי חובה אחרים במידה שהמדינה פטורה מהם.</p>
+          </content>
+        </point>
+        <point eId="point_10א">
+          <heading>
+            <authorialNote placement="side">
+              <p xml:space="preserve"> </p>
+            </authorialNote>
+          </heading>
+          <num>10א.</num>
+          <list>
+            <point eId="point_10א__point_א">
+              <num>(א)</num>
+              <content>
+                <p>המציע, מוכר או מפיץ כרטיסים או כל דבר אחר, הבאים להעיד על זכות להשתתף בהימור לפי חוק זה (בסעיף זה – כרטיסים), לקטין, דינו – מאסר שישה חודשים.</p>
+              </content>
+            </point>
+            <point eId="point_10א__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>המציע, מוכר או מפיץ כרטיסים רשאי לדרוש מאדם המבקש לקנות או לקבל כרטיסים שיציג לו תעודה שבה ניתן לוודא את גילו.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_10ב">
+          <heading>
+            <authorialNote placement="side">
+              <p>אמצעי זיהוי ומניעת הלבנת הון</p>
+            </authorialNote>
+          </heading>
+          <num>10ב.</num>
+          <list>
+            <point eId="point_10ב__point_א">
+              <num>(א)</num>
+              <list>
+                <intro>
+                  <p>בסעיף זה –</p>
+                </intro>
+                <point eId="point_10ב__point_א__point_פרטי_המשתתף">
+                  <list>
+                    <intro>
+                      <p>
+                        <def />”פרטי המשתתף“ – ארבע הספרות האחרונות של אחד מאלה:</p>
+                    </intro>
+                    <point eId="point_10ב__point_א__point_פרטי_המשתתף__point_1">
+                      <num>(1)</num>
+                      <content>
+                        <p>ביחיד שהוא תושב – מספר תעודת הזהות, כולל ספרת הביקורת;</p>
+                      </content>
+                    </point>
+                    <point eId="point_10ב__point_א__point_פרטי_המשתתף__point_2">
+                      <num>(2)</num>
+                      <content>
+                        <p>ביחיד שאינו תושב – מספר דרכון או מספר תעודת מסע ושם המדינה שבה הם הונפקו;</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+                <point eId="point_10ב__point_א__point_רישום_באופן_מקודד">
+                  <content>
+                    <p>
+                      <def />”רישום באופן מקודד“ – רישום באמצעי דיגיטלי אשר יקדד את הנתונים טרם רישומם על גבי כרטיס ההשתתפות, באמצעות שיטה מקובלת שמונעת באופן סביר את זיהוי פרטי המשתתף ואינה מאפשרת חזרה לפרטי המשתתף;</p>
+                  </content>
+                </point>
+                <point eId="point_10ב__point_א__point_תושב">
+                  <content>
+                    <p>
+                      <def />”תושב“ – כהגדרתו <ref href="/akn/il/act/PrimaryLegislation/1965-08-01/147973">בחוק מרשם האוכלוסין, התשכ"ה–1965</ref>.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_10ב__point_ב">
+              <num>(ב)</num>
+              <list>
+                <point eId="point_10ב__point_ב__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>לא יונפק כרטיס השתתפות בתכנית הימורים אשר סכום הזכייה האפשרית לפיו, אם המשתתף יצדק בניחושיו, עולה על סכום שיקבע שר האוצר בצו (בסעיף זה – משחק דורש זיהוי), אלא אם כן המשתתף ביצע רישום באופן מקודד של פרטיו ותוצאת הקידוד כאמור הודפסה על גבי קבלת ההשתתפות.</p>
+                  </content>
+                </point>
+                <point eId="point_10ב__point_ב__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>הסכום שיקבע שר האוצר בצו לפי פסקה (1) לא יפחת מ־5,000 שקלים חדשים ולא יעלה על 30,000 שקלים חדשים ויקבע לאחר התייעצות עם שר המשפטים, ואם פחת מ־20,000 שקלים חדשים – גם בהסכמת שר התרבות והספורט.</p>
+                  </content>
+                </point>
+                <point eId="point_10ב__point_ב__point_3">
+                  <num>(3)</num>
+                  <content>
+                    <p>הסכום שייקבע לפי פסקה (2) יחול גם על הוראות לעניין זה שניתנו לפי <ref href="/akn/il/act/PrimaryLegislation/1977-08-04/2002251#point_231">סעיף 231(א) לחוק העונשין, התשל"ז–1977</ref>.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_10ב__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>פרטי המשתתף כאמור בסעיף קטן (ב)(1) שהגיעו לידי המועצה, בעל תחנה או כל גורם אחר מטעמם, לא יישמרו במאגר מידע, זמני או קבוע.</p>
+              </content>
+            </point>
+            <point eId="point_10ב__point_ד">
+              <num>(ד)</num>
+              <list>
+                <point eId="point_10ב__point_ד__point_1">
+                  <num>(1)</num>
+                  <list>
+                    <intro>
+                      <p>המועצה, בעל תחנה או כל גורם אחר מטעמם, לא יגלו את פרטי המשתתף אשר נרשמו או קודדו לפי סעיף זה, לא יעבירו אותם לכל גורם אחר ולא יעשו בהם כל שימוש, אלא לצורך אחת מאלה:</p>
+                    </intro>
+                    <point eId="point_10ב__point_ד__point_1__point_א">
+                      <num>(א)</num>
+                      <content>
+                        <p>בדיקת התאמה של זהות המחזיק בקבלת השתתפות המעידה על זכייה בניחוש במשחק דורש זיהוי (בסעיף זה – קבלת השתתפות מזכה) כאמור בסעיף קטן (ה);</p>
+                      </content>
+                    </point>
+                    <point eId="point_10ב__point_ד__point_1__point_ב">
+                      <num>(ב)</num>
+                      <content>
+                        <p>מסירת מידע למשטרת ישראל לגבי ניסיון לקבלת זכייה בניגוד להוראות סעיף זה או חשד לניסיון כאמור או מסירת מידע לשר האוצר או מי שהוא הסמיך לעניין זה, לצורך תשלום זכייה לפי סעיף קטן (ו).</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+                <point eId="point_10ב__point_ד__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>בלי לגרוע מכלליות האמור בפסקה (1), לא ייעשה כל שימוש בפרטי המשתתף כאמור באותה פסקה לצורך איסוף מידע, מעקב אחר משתתפים בתכניות הימורים או קידום ושיווק.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_10ב__point_ה">
+              <num>(ה)</num>
+              <content>
+                <p>טרם תשלום זכייה למחזיק בקבלת ההשתתפות מזכה, אשר סכום הזכייה לפיה עולה על הסכום הקבוע לפי סעיף קטן (ב)(2), תיבדק התאמה בין זהות המחזיק לבין זהות מי שהונפקה לו קבלת ההשתתפות כאמור, באמצעות בדיקה של התאמת תוצאת קידוד פרטי המשתתף המופיעים על גבי קבלת ההשתתפות, לפרטיו של המחזיק המקודדים בקבלת ההשתתפות, בהתאם לתעודת הזהות, הדרכון או תעודת המסע של המחזיק, לפי העניין.</p>
+              </content>
+            </point>
+            <point eId="point_10ב__point_ו">
+              <num>(ו)</num>
+              <list>
+                <point eId="point_10ב__point_ו__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>לא תשולם זכייה אם קיימת אי התאמה בזהות או אם התעורר ספק באשר להתאמת הזהות של המחזיק כאמור בסעיף קטן (ה).</p>
+                  </content>
+                </point>
+                <point eId="point_10ב__point_ו__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>על אף האמור בפסקה (1), רשאית המועצה, באישור שר המשפטים, לגבש נהלים לגבי הנסיבות שבהן יתאפשר תשלום זכייה במקרה של אי התאמה לעניין זהות המחזיק כאמור בסעיף קטן (ה).</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_10ב__point_ז">
+              <num>(ז)</num>
+              <list>
+                <point eId="point_10ב__point_ז__point_1">
+                  <num>(1)</num>
+                  <list>
+                    <intro>
+                      <p>זכייה במשחק דורש זיהוי תשולם באמצעות אחד מאלה:</p>
+                    </intro>
+                    <point eId="point_10ב__point_ז__point_1__point_א">
+                      <num>(א)</num>
+                      <content>
+                        <p>שיק משורטט בתוספת המילים ”למוטב בלבד, לא סחיר ולא עביר“ לפקודת הזוכה המזוהה לפי סעיף קטן (ה);</p>
+                      </content>
+                    </point>
+                    <point eId="point_10ב__point_ז__point_1__point_ב">
+                      <num>(ב)</num>
+                      <content>
+                        <p>העברה בנקאית לחשבון בנק בישראל המתנהל על שם הזוכה המזוהה לפי סעיף קטן (ה).</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+                <point eId="point_10ב__point_ז__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>זכייה במשחק שאינו דורש זיהוי שבו המועצה משלמת לזוכה באמצעות שיק, תשולם באמצעות שיק משורטט בתוספת המילים ”למוטב בלבד, לא סחיר ולא עביר“ לפקודת המחזיק בקבלת ההשתתפות.</p>
+                  </content>
+                </point>
+                <point eId="point_10ב__point_ז__point_3">
+                  <num>(3)</num>
+                  <content>
+                    <p>על אף האמור בפסקאות (1) ו־(2), המועצה רשאית לשלם במזומן זכייה במשחק דורש זיהוי או זכייה במשחק שאינו דורש זיהוי רק אם סכום הזכייה נמוך מהסכום הנקוב <ref href="/akn/il/act/PrimaryLegislation/2018-03-18/568297#appendix_1_פרט_1">בפרט (1) לתוספת הראשונה לחוק לצמצום השימוש במזומן, התשע"ח–2018</ref>.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_10ב__point_ח">
+              <num>(ח)</num>
+              <content>
+                <p>הוראות סעיפים קטנים (ה) עד (ז) יחולו גם לעניין פדיון חלק מכרטיס השתתפות שהוא צירוף הימורים נפרד, בהתאם לסכום הזכייה שמבוקש לפדותה, ובלבד ששאר חלקי כרטיס ההשתתפות עדיין אינם עומדים לפדיון והזכייה לגביהם טרם נקבעה.</p>
+              </content>
+            </point>
+            <point eId="point_10ב__point_ט">
+              <num>(ט)</num>
+              <list>
+                <point eId="point_10ב__point_ט__point_1">
+                  <num>(1)</num>
+                  <list>
+                    <intro>
+                      <p>המועצה, בעל תחנה או כל גורם אחר מטעמם, ימחקו תוצאות קידוד של פרטי משתתף מכל מאגר מידע שברשותם, לרבות תוצאות קידוד המופיעות על גבי כרטיס השתתפות או קבלת השתתפות, בהתאם להוראות שלהלן:</p>
+                    </intro>
+                    <point eId="point_10ב__point_ט__point_1__point_א">
+                      <num>(א)</num>
+                      <content>
+                        <p>לעניין קבלת השתתפות מזכה שנמצאה לגביה התאמה בין זהות המחזיק בה לבין זהות פרטי המשתתף המופיעים על גביה – בתוך יום עבודה אחד מהמועד שבו נפדתה;</p>
+                      </content>
+                    </point>
+                    <point eId="point_10ב__point_ט__point_1__point_ב">
+                      <num>(ב)</num>
+                      <content>
+                        <p>לעניין קבלת השתתפות מזכה אשר לא נדרשה לתשלום – בתוך שנה מיום קיום המשחק דורש הזיהוי או מיד עם פקיעת האפשרות לפדות את הזכייה, לפי המאוחר; שר האוצר רשאי לקבוע תקופה קצרה יותר לעניין זכיות בסכומים נמוכים, ובלבד שלא תפחת מחצי שנה;</p>
+                      </content>
+                    </point>
+                    <point eId="point_10ב__point_ט__point_1__point_ג">
+                      <num>(ג)</num>
+                      <content>
+                        <p>לעניין קבלות השתתפות של מי שלא צדקו בניחושם – בתוך 14 ימים מיום קיום המשחק דורש הזיהוי.</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+                <point eId="point_10ב__point_ט__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>על אף האמור בסעיף קטן (ה), אין בהוראות סעיף זה כדי למנוע תשלום למי שהתקבל ערעורו ביחס לצדקת ניחושו, או שנתקבל פסק דין חלוט המחייב את המועצה בתשלום בגין קבלת השתתפות שבידו, וכן למי שניחושו היה זהה לניחושם של אלה, והכל אף אם נמחקו כבר תוצאות קידוד פרטיו של המחזיק בקבלת ההשתתפות.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_10ב__point_י">
+              <num>(י)</num>
+              <list>
+                <point eId="point_10ב__point_י__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>שר האוצר, בהתייעצות עם שר המשפטים ושר התרבות והספורט, רשאי לקבוע הוראות לעניין יישום הוראות סעיף זה, ובכלל זה לקבוע הוראות לעניין פעולות בעלי התפקידים כאמור <ref href="#point_10ג">בסעיף 10ג</ref>; הוראות לפי סעיף זה, לעניין אבטחת מידע והגנה על הפרטיות, ייקבעו בהסכמת שר המשפטים.</p>
+                  </content>
+                </point>
+                <point eId="point_10ב__point_י__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>בלי לגרוע מכלליות האמור בפסקה (1), רשאי שר האוצר, בהתייעצות עם שר המשפטים ושר התרבות והספורט, להורות כי שיטה שנקבעה לצורך קידוד פרטי משתתף אינה שיטה שמונעת באופן סביר את זיהוי פרטי המשתתף ואת החזרה לפרטי המשתתף, וכי על המועצה להנהיג שיטה מקובלת אחרת שתקיים את התנאים האמורים באופן סביר.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_10ב__point_יא">
+              <num>(יא)</num>
+              <content>
+                <p>הוראות סעיף זה לא יחולו על תכניות הימורים שמקיימת המועצה, שבמסגרתן המשתתף מזוהה בזיהוי מלא, והכל בכפוף לכך שיובטח כי התשלום משולם לאותו משתתף ובכפוף להוראות כל דין.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_10ג">
+          <heading>
+            <authorialNote placement="side">
+              <p>מינוי אחראי איסור הלבנת הון וממונה אבטחת מידע</p>
+            </authorialNote>
+          </heading>
+          <num>10ג.</num>
+          <list>
+            <intro>
+              <p>המועצה תמנה את אלה:</p>
+            </intro>
+            <point eId="point_10ג__point_1">
+              <num>(1)</num>
+              <content>
+                <p>אחראי איסור הלבנת הון, שיהיה אחראי, בין השאר, למניעת סיכוני הלבנת הון ומזעור סיכוני פשיעה, ובכלל זה לגיבוש נהלים בעניין זה שיובאו לאישור המועצה, עדכונם מעת לעת ופיקוח על יישומם, הדרכת עובדים ובעלי תחנות בדבר זיהוי והתמודדות עם סיכוני הלבנת הון וכן גיבוש נהלים לעניין אופן מסירת מידע לגורמים מוסמכים לפי <ref href="#point_10ב">סעיף 10ב(ד)(1)(ב)</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_10ג__point_2">
+              <num>(2)</num>
+              <content>
+                <p>ממונה אבטחת מידע, שיהיה אחראי, בין השאר, לאבטחת המידע ולהצפנת פרטי המשתתף, ובכלל זה גיבוש נהלים לעניין אבטחת המידע וקידודו שיובאו לאישור המועצה, עדכונם מעת לעת ופיקוח על יישומם, והדרכת עובדים ובעלי תחנות בדבר מניעת סיכונים באיסוף מידע או כל שימוש בו שאינו לפי הוראות חוק זה.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_11">
+          <heading>
+            <authorialNote placement="side">
+              <p>אי־תחולה</p>
+            </authorialNote>
+          </heading>
+          <num>11.</num>
+          <content>
+            <p>על הימורים לפי חוק זה לא יחולו הוראות <ref href="/akn/il/act/PrimaryLegislation/1977-08-04/2002251#point_225">סעיפים 2</ref>, <ref href="/akn/il/act/PrimaryLegislation/1977-08-04/2002251#point_227">4</ref><ref href="/akn/il/act/PrimaryLegislation/1977-08-04/2002251#point_228">ו־5 לחוק לתיקון דיני העונשין (משחקים אסורים, הגרלות והימורים), תשכ"ד–1964</ref> (להלן – חוק העונשין).</p>
+          </content>
+        </point>
+        <point eId="point_12">
+          <heading>
+            <authorialNote placement="side">
+              <p xml:space="preserve"> </p>
+            </authorialNote>
+          </heading>
+          <num>12.</num>
+          <content>
+            <p>
+              <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryLegislation/1977-08-04/2002251">בחוק לתיקון דיני העונשין (משחקים אסורים, הגרלות והימורים), תשכ"ד–1964</ref>.</wikicomment>
+            </p>
+          </content>
+        </point>
+        <point eId="point_13">
+          <heading>
+            <authorialNote placement="side">
+              <p xml:space="preserve"> </p>
+            </authorialNote>
+          </heading>
+          <num>13.</num>
+          <content>
+            <p>
+              <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryLegislation/1977-08-04/2002251">בחוק לתיקון דיני העונשין (משחקים אסורים, הגרלות והימורים), תשכ"ד–1964</ref>.</wikicomment>
+            </p>
+          </content>
+        </point>
+        <point eId="point_14">
+          <heading>
+            <authorialNote placement="side">
+              <p xml:space="preserve"> </p>
+            </authorialNote>
+          </heading>
+          <num>14.</num>
+          <content>
+            <p>
+              <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryLegislation/1977-08-04/2002251">בחוק לתיקון דיני העונשין (משחקים אסורים, הגרלות והימורים), תשכ"ד–1964</ref>.</wikicomment>
+            </p>
+          </content>
+        </point>
+        <point eId="point_15">
+          <heading>
+            <authorialNote placement="side">
+              <p>ביטול תקפם של היתרים</p>
+            </authorialNote>
+          </heading>
+          <num>15.</num>
+          <content>
+            <p>על אף האמור בחוק זה, כל היתר לעריכת הימור שניתן על פי <ref href="/akn/il/act/PrimaryLegislation/1977-08-04/2002251#point_231">סעיף 7 לחוק העונשין</ref>, תקפו יהיה עד כ"ט בכסלו תשכ"ח (31 בדצמבר 1967) ולא יחודש עוד.</p>
+          </content>
+        </point>
+        <point eId="point_16">
+          <heading>
+            <authorialNote placement="side">
+              <p xml:space="preserve"> </p>
+            </authorialNote>
+          </heading>
+          <num>16.</num>
+          <content>
+            <p>
+              <wikicomment font-size="x-small">(בוטל).</wikicomment>
+            </p>
+          </content>
+        </point>
+        <point eId="point_17">
+          <heading>
+            <authorialNote placement="side">
+              <p>ביצוע ותקנות</p>
+            </authorialNote>
+          </heading>
+          <num>17.</num>
+          <list>
+            <point eId="point_17__point_א">
+              <num>(א)</num>
+              <content>
+                <p>השרים ממונים על ביצוע חוק זה והם רשאים להתקין תקנות לביצועו.</p>
+              </content>
+            </point>
+            <point eId="point_17__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>התקנות לפי חוק זה, למעט תקנות לפי <ref href="#point_5">סעיפים 5(ג)</ref><ref href="#point_6">ו־6(א)</ref>, טעונות אישור ועדת הכספים של הכנסת.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+      </list>
+      <appendix eId="appendix_ראשונה">
+        <num></num>
+        <title>
+          <content>
+            <p>תוספת ראשונה</p>
+          </content>
+        </title>
+        <subtitle eId="eId">
+          <num></num>
+          <content>
+            <p>
+              <wikicomment font-size="x-small">(<ref href="#point_7">סעיף 7(ה)</ref>)</wikicomment>
+            </p>
+          </content>
+        </subtitle>
+        <list>
+          <point eId="appendix_ראשונה__point_none">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num></num>
+            <list>
+              <intro>
+                <p>
+                  <span style="text-align: center">הצהרת ________ (בעל התפקיד)</span>
+                  <br space="preserve"></br>____________ (שם החותם) מצהיר כי:</p>
+              </intro>
+              <point eId="appendix_ראשונה__point_none__point_1">
+                <num>(1)</num>
+                <content>
+                  <p>בחנתי את הדוח הכספי השנתי/הדוח הכספי הרבעוני (מחק את המיותר) של המועצה (להלן – הדוח) לתקופה ______;</p>
+                </content>
+              </point>
+              <point eId="appendix_ראשונה__point_none__point_2">
+                <num>(2)</num>
+                <content>
+                  <p>לפי ידיעתי, הדוח והמידע הכספי האחר הכלול בדוח אינם כוללים כל מצג לא נכון של עובדה מהותית ולא חסר בהם מצג של עובדה מהותית הנחוץ כדי שהמצגים שנכללו בהם, לאור הנסיבות שבהן נכללו אותם מצגים, לא יהיו מטעים בהתייחס לתקופת הדוח;</p>
+                </content>
+              </point>
+              <point eId="appendix_ראשונה__point_none__point_3">
+                <num>(3)</num>
+                <content>
+                  <p>לפי ידיעתי, הדוח ומידע כספי אחר הכלול בו משקפים באופן נאות, מכל הבחינות המהותיות, את המצב הכספי, תוצאות הפעולות ותזרימי המזומנים של המועצה לתאריכים ולתקופות שאליהם מתייחס הדוח;</p>
+                </content>
+              </point>
+              <point eId="appendix_ראשונה__point_none__point_4">
+                <num>(4)</num>
+                <content>
+                  <p>גיליתי לרואה החשבון המבקר של המועצה, לחברי המועצה ולוועדת הביקורת של המועצה את כל המידע והמסמכים הרלוונטיים לביצוע תפקידם באופן מלא, ביחס לדוח.<br space="preserve"></br><span style="margin:0 0.1em -0.3em 0.1em; display:block">____________|תאריך</span><span style="margin:0 0.1em -0.3em 0.1em; display:block">_________________|חתימה, שם ותפקיד</span></p>
+                </content>
+              </point>
+            </list>
+          </point>
+        </list>
+      </appendix>
+      <appendix eId="appendix_שנייה">
+        <num></num>
+        <title>
+          <content>
+            <p>תוספת שנייה</p>
+          </content>
+        </title>
+        <subtitle eId="eId">
+          <num></num>
+          <content>
+            <p>
+              <wikicomment font-size="x-small">(<ref href="#point_8א1">סעיף 8א1</ref>)</wikicomment>
+            </p>
+          </content>
+        </subtitle>
+        <subtitle eId="eId">
+          <num></num>
+          <content>
+            <p>שעות האסורות לפרסום</p>
+          </content>
+        </subtitle>
+        <list>
+          <point eId="appendix_שנייה__point_none">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num></num>
+            <content>
+              <p>בין 15:00 ל־21:00</p>
+            </content>
+          </point>
+        </list>
+      </appendix>
+    </body>
+    <conclusions eId="eId">
+      <p class="signatures">
+        <signature>
+          <p>
+            <person refersTo="לוי_אשכול">לוי אשכול</person>
+            <role refersTo="ראש_הממשלה">ראש הממשלה</role>
+          </p>
+        </signature>
+        <signature>
+          <p>
+            <person refersTo="פנחס_ספיר">פנחס ספיר</person>
+            <role refersTo="שר_האוצר">שר האוצר</role>
+          </p>
+        </signature>
+        <signature>
+          <p>
+            <person refersTo="זלמן_ארן">זלמן ארן</person>
+            <role refersTo="שר_החינוך_והתרבות">שר החינוך והתרבות</role>
+          </p>
+        </signature>
+        <signature>
+          <p>
+            <person refersTo="שניאור_זלמן_שזר">שניאור זלמן שזר</person>
+            <role refersTo="נשיא_המדינה">נשיא המדינה</role>
+          </p>
+        </signature>
+      </p>
+    </conclusions>
+  </act>
+</akomaNtoso>

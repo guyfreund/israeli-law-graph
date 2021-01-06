@@ -1,0 +1,1282 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion" name="publicLaw">
+    <meta>
+      <identification source="#kensset">
+        <FRBRWork>
+          <FRBRthis value="/akn/il/act/PrimaryLegislation/2005-08-10/78081/main" />
+          <FRBRuri value="/akn/il/act/PrimaryLegislation/2005-08-10/78081" />
+          <FRBRdate date="2005-08-10" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRcountry value="israel" />
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/il/act/PrimaryLegislation/2005-08-10/78081/he@/main" />
+          <FRBRuri value="/akn/il/act/PrimaryLegislation/2005-08-10/78081/he@" />
+          <FRBRdate date="2005-08-10" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRlanguage language="hebrew" />
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/il/act/PrimaryLegislation/2005-08-10/78081/he@/main.xml" />
+          <FRBRuri value="/akn/il/act/PrimaryLegislation/2005-08-10/78081/he@" />
+          <FRBRdate date="2005-08-10" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRformat value="xml" />
+        </FRBRManifestation>
+      </identification>
+      <classification source="#kensset">
+        <keyword value="{classificationValue}" showAs="{classificationValue}" dictionary="#classification_dictionary" />
+      </classification>
+      <lifecycle source="#kensset">
+        <eventRef eId="eventRef_1" date="2005-08-10" source="#kensset" type="generation" />
+      </lifecycle>
+      <references source="#kensset">
+        <TLCOrganization eId="kensset" href="/ontology/organization/akn/knesset" showAs="Kensset" type="generation" />
+        <TLCRole eId="author" href="/ontology/role/akn/author" showAs="Author of Document" />
+        <TLCProcess eId="inforce" href="/ontology/process/akn/inforce" showAs="In force" />
+        <TLCTerm eId="term_1" href="/ontology/term/בועת_תרגום/78081" showAs="בועת_תרגום" />
+        <TLCTerm eId="term_2" href="/ontology/term/גוף_מפקח/78081" showAs="גוף_מפקח" />
+        <TLCTerm eId="term_3" href="/ontology/term/הודעת_חירום/78081" showAs="הודעת_חירום" />
+        <TLCTerm eId="term_4" href="/ontology/term/ועדת_התיאום/78081" showAs="ועדת_התיאום" />
+        <TLCTerm eId="term_5" href="/ontology/term/חוק_הפצת_שידורים/78081" showAs="חוק_הפצת_שידורים" />
+        <TLCTerm eId="term_6" href="/ontology/term/חוק_רשות_השידור/78081" showAs="חוק_רשות_השידור" />
+        <TLCTerm eId="term_7" href="/ontology/term/חוק_הרשות_השניה/78081" showAs="חוק_הרשות_השניה" />
+        <TLCTerm eId="term_8" href="/ontology/term/חוק_השוויון/78081" showAs="חוק_השוויון" />
+        <TLCTerm eId="term_9" href="/ontology/term/חוק_השידור_הציבורי/78081" showAs="חוק_השידור_הציבורי" />
+        <TLCTerm eId="term_10" href="/ontology/term/חוק_שידורי_ערוץ_הכנסת/78081" showAs="חוק_שידורי_ערוץ_הכנסת" />
+        <TLCTerm eId="term_11" href="/ontology/term/חוק_התקשורת/78081" showAs="חוק_התקשורת" />
+        <TLCTerm eId="term_12" href="/ontology/term/כתוביות/78081" showAs="כתוביות" />
+        <TLCTerm eId="term_13" href="/ontology/term/משדר_טלוויזיה/78081" showAs="משדר_טלוויזיה" />
+        <TLCTerm eId="term_14" href="/ontology/term/משדר_פרטי/78081" showAs="משדר_פרטי" />
+        <TLCTerm eId="term_15" href="/ontology/term/נציבות/78081" showAs="נציבות" />
+        <TLCTerm eId="term_16" href="/ontology/term/ערוץ_טלוויזיה/78081" showAs="ערוץ_טלוויזיה" />
+        <TLCTerm eId="term_17" href="/ontology/term/שעות_שיא/78081" showAs="שעות_שיא" />
+        <TLCTerm eId="term_18" href="/ontology/term/תכנית/78081" showAs="תכנית" />
+        <TLCTerm eId="term_19" href="/ontology/term/תכנית_המשודרת_בשידור_חי/78081" showAs="תכנית_המשודרת_בשידור_חי" />
+        <TLCTerm eId="term_20" href="/ontology/term/תכנית_מוקלטת/78081" showAs="תכנית_מוקלטת" />
+        <TLCTerm eId="term_21" href="/ontology/term/תכנית_לגיל_הרך/78081" showAs="תכנית_לגיל_הרך" />
+        <TLCTerm eId="term_22" href="/ontology/term/תרגום_לשפת_סימנים/78081" showAs="תרגום_לשפת_סימנים" />
+        <TLCTerm eId="term_23" href="/ontology/term/הודעת_חירום/78081" showAs="הודעת_חירום" />
+        <TLCTerm eId="term_24" href="/ontology/term/אירוע_חירום_אזרחי/78081" showAs="אירוע_חירום_אזרחי" />
+        <TLCTerm eId="term_25" href="/ontology/term/אירוע_חומרים_מסוכנים/78081" showAs="אירוע_חומרים_מסוכנים" />
+        <TLCTerm eId="term_26" href="/ontology/term/אירוע_כימי_או_ביולוגי/78081" showAs="אירוע_כימי_או_ביולוגי" />
+        <TLCTerm eId="term_27" href="/ontology/term/אירוע_קרינה_רדיולוגי/78081" showAs="אירוע_קרינה_רדיולוגי" />
+        <TLCTerm eId="term_28" href="/ontology/term/חומר_מסוכן/78081" showAs="חומר_מסוכן" />
+        <TLCPerson eId="אריאל_שרון" href="/ontology/person/אריאל_שרון" showAs="אריאל שרון" />
+        <TLCPerson eId="משה_קצב" href="/ontology/person/משה_קצב" showAs="משה קצב" />
+        <TLCPerson eId="ראובן_ריבלין" href="/ontology/person/ראובן_ריבלין" showAs="ראובן ריבלין" />
+        <TLCRole eId="ראש_הממשלה" href="ontology/role/akn/ראש_הממשלה" showAs="ראש הממשלה" />
+        <TLCRole eId="נשיא_המדינה" href="ontology/role/akn/נשיא_המדינה" showAs="נשיא המדינה" />
+        <TLCRole eId="יושב_ראש_הכנסת" href="ontology/role/akn/יושב_ראש_הכנסת" showAs="יושב ראש הכנסת" />
+      </references>
+      <temporalData source="#kensset">
+        <temporalGroup eId="tmpg_1" />
+      </temporalData>
+      <Publication></Publication>
+      <proprietary wikiversion="9/30/2020 8:32:40 PM" />
+    </meta>
+    <body period="#tmpg_1">
+      <title eId="title">
+        <content>
+          <p>חוק שידורי טלוויזיה (כתוביות ושפת סימנים), התשס"ה–2005</p>
+        </content>
+      </title>
+      <list>
+        <point eId="point_1" class="definitions">
+          <heading>
+            <authorialNote placement="side">
+              <p>הגדרות</p>
+            </authorialNote>
+          </heading>
+          <num>1.</num>
+          <list>
+            <intro>
+              <p>בחוק זה –</p>
+            </intro>
+            <point eId="point_1__point_בועת_תרגום">
+              <content>
+                <p>
+                  <def />”בועת תרגום“ – תחום המשולב בתמונת המרקע, ובו מופיעים אדם או דמות המתרגמים לשפת סימנים;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_גוף_מפקח">
+              <list>
+                <intro>
+                  <p>
+                    <def />”גוף מפקח“ – אחד מאלה, לפי הענין:</p>
+                </intro>
+                <point eId="point_1__point_גוף_מפקח__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>לענין שידורי הטלוויזיה המשודרים מכוח הוראות <ref href="/akn/il/act/PrimaryLegislation/2014-08-11/552728">חוק השידור הציבורי</ref> – מועצת תאגיד השידור הישראלי;</p>
+                  </content>
+                </point>
+                <point eId="point_1__point_גוף_מפקח__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>לענין שידורי הטלוויזיה המשודרים מכוח הוראות <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/חוק_הרשות_השניה_לטלוויזיה_ורדיו">חוק הרשות השניה</ref> – מועצת הרשות השניה לטלוויזיה ורדיו;</p>
+                  </content>
+                </point>
+                <point eId="point_1__point_גוף_מפקח__point_3">
+                  <num>(3)</num>
+                  <content>
+                    <p>לענין שידורים המשודרים מכוח <ref href="/akn/il/act/PrimaryLegislation/2001-08-09/171095">חוק התקשורת</ref> – המועצה לשידורי כבלים ולשידורי לווין;</p>
+                  </content>
+                </point>
+                <point eId="point_1__point_גוף_מפקח__point_4">
+                  <num>(4)</num>
+                  <content>
+                    <p>
+                      <wikicomment font-size="x-small">(נמחקה);</wikicomment>
+                    </p>
+                  </content>
+                </point>
+                <point eId="point_1__point_גוף_מפקח__point_5">
+                  <num>(5)</num>
+                  <content>
+                    <p>לענין שידורי הטלוויזיה המשודרים מכוח הוראות <ref href="/akn/il/act/PrimaryLegislation/2016-08-11/2004964">חוק שידורי ערוץ הכנסת</ref> – המועצה לשידורי כבלים ולשידורי לווין.</p>
+                  </content>
+                </point>
+                <point eId="point_1__point_גוף_מפקח__point_6">
+                  <num>(6)</num>
+                  <content>
+                    <p>לעניין שידורי הטלוויזיה של משדר ערוץ נושאי המשודרים מכוח הוראות <ref href="/akn/il/act/PrimaryLegislation/2012-04-01/419715">חוק הפצת שידורים</ref> ולעניין שידורי טלוויזיה שמשדר בעל רישיון לשידורים באמצעות תחנות השידור הספרתיות, כהגדרתו באותו חוק, בהתאם לרישיונו כאמור – המועצה לשידורי כבלים ולשידורי לווין;</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_1__point_הודעת_חירום">
+              <content>
+                <p>
+                  <def />”הודעת חירום“ – כהגדרתה <ref href="#point_9">בסעיף 9</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_ועדת_התיאום">
+              <content>
+                <p>
+                  <def />”ועדת התיאום“ – ועדת התיאום שהתמנתה בהתאם <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/חוק_הרשות_השניה_לטלוויזיה_ורדיו#chp_ט_sec_ב">לסימן ב׳ בפרק ט׳ לחוק הרשות השניה</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_חוק_הפצת_שידורים">
+              <content>
+                <p>
+                  <def />”חוק הפצת שידורים“ – <ref href="/akn/il/act/PrimaryLegislation/2012-04-01/419715">חוק הפצת שידורים באמצעות תחנות שידור ספרתיות, התשע"ב–2012</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_חוק_רשות_השידור">
+              <content>
+                <p>
+                  <def />”חוק רשות השידור“ – <wikicomment font-size="x-small">(נמחקה);</wikicomment></p>
+              </content>
+            </point>
+            <point eId="point_1__point_חוק_הרשות_השניה">
+              <content>
+                <p>
+                  <def />”חוק הרשות השניה“ – <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/חוק_הרשות_השניה_לטלוויזיה_ורדיו">חוק הרשות השניה לטלוויזיה ורדיו, התש"ן–1990</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_חוק_השוויון">
+              <content>
+                <p>
+                  <def />”חוק השוויון“ – <ref href="/akn/il/act/PrimaryLegislation/1998-03-05/165017">חוק שוויון זכויות לאנשים עם מוגבלות, התשנ"ח–1998</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_חוק_השידור_הציבורי">
+              <content>
+                <p>
+                  <def />”חוק השידור הציבורי“ – <ref href="/akn/il/act/PrimaryLegislation/2014-08-11/552728">חוק השידור הציבורי הישראלי, התשע"ד–2014</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_חוק_שידורי_ערוץ_הכנסת">
+              <content>
+                <p>
+                  <def />”חוק שידורי ערוץ הכנסת“ – <ref href="/akn/il/act/PrimaryLegislation/2016-08-11/2004964">חוק שידורי ערוץ הכנסת, התשס"ד–2003</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_חוק_התקשורת">
+              <content>
+                <p>
+                  <def />”חוק התקשורת“ – <ref href="/akn/il/act/PrimaryLegislation/2001-08-09/171095">חוק התקשורת (בזק ושידורים), התשמ"ב–1982</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_כתוביות">
+              <content>
+                <p>
+                  <def />”כתוביות“ – כתוביות בעברית, בערבית או ברוסית, המביאות בכתב את הנאמר בתכנית או בהודעת חירום, לפי הענין ולפי הוראות חוק זה, בשפת התכנית או הודעת החירום, למעט תכנית לגיל הרך, בין שהכתוביות גלויות לכלל הצופים ובין שהן ניתנות לצפיה לפי בחירת הצופה ובלבד שיהיו זמינות לכלל הציבור, והכל בתנאי ששירות הכתוביות יינתן בלא תשלום נוסף;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_משדר_טלוויזיה">
+              <list>
+                <intro>
+                  <p>
+                    <def />”משדר טלוויזיה“ –</p>
+                </intro>
+                <point eId="point_1__point_משדר_טלוויזיה__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>לענין שידור על פי <ref href="/akn/il/act/PrimaryLegislation/2014-08-11/552728">חוק השידור הציבורי</ref> – תאגיד השידור הישראלי כהגדרתו <ref href="/akn/il/act/PrimaryLegislation/2014-08-11/552728">בחוק האמור</ref>;</p>
+                  </content>
+                </point>
+                <point eId="point_1__point_משדר_טלוויזיה__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>לענין שידור על פי <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/חוק_הרשות_השניה_לטלוויזיה_ורדיו">חוק הרשות השניה</ref> – בעל זיכיון לשידורי טלוויזיה ובעל רישיון לשידורי טלוויזיה כהגדרתם <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/חוק_הרשות_השניה_לטלוויזיה_ורדיו">בחוק האמור</ref>, ולענין שידורי הרשות בהתאם <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/חוק_הרשות_השניה_לטלוויזיה_ורדיו#point_48">לסעיף 48 לחוק האמור</ref> – הרשות כהגדרתה <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/חוק_הרשות_השניה_לטלוויזיה_ורדיו">בחוק האמור</ref>;</p>
+                  </content>
+                </point>
+                <point eId="point_1__point_משדר_טלוויזיה__point_3">
+                  <num>(3)</num>
+                  <list>
+                    <point eId="point_1__point_משדר_טלוויזיה__point_3__point_א">
+                      <num>(א)</num>
+                      <content>
+                        <p>לענין שידור על פי <ref href="/akn/il/act/PrimaryLegislation/2001-08-09/171095#chp_ב1">פרק ב׳1 לחוק התקשורת</ref> – בעל רישיון לשידורי כבלים כהגדרתו <ref href="/akn/il/act/PrimaryLegislation/2001-08-09/171095#point_6א">בסעיף 6א</ref> ובעל זיכיון כהגדרתו <ref href="/akn/il/act/PrimaryLegislation/2001-08-09/171095#point_6יב1">בסעיף 6יב1</ref>, <ref href="/akn/il/act/PrimaryLegislation/2001-08-09/171095">בחוק האמור</ref>;</p>
+                      </content>
+                    </point>
+                    <point eId="point_1__point_משדר_טלוויזיה__point_3__point_ב">
+                      <num>(ב)</num>
+                      <content>
+                        <p>לענין שידור על פי <ref href="/akn/il/act/PrimaryLegislation/2001-08-09/171095#chp_ב2">פרק ב׳2 לחוק התקשורת</ref> – בעל רישיון לשידורי לווין כהגדרתו <ref href="/akn/il/act/PrimaryLegislation/2001-08-09/171095#point_6מג">בסעיף 6מג בחוק האמור</ref>;</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+                <point eId="point_1__point_משדר_טלוויזיה__point_4">
+                  <num>(4)</num>
+                  <content>
+                    <p>
+                      <wikicomment font-size="x-small">(נמחקה);</wikicomment>
+                    </p>
+                  </content>
+                </point>
+                <point eId="point_1__point_משדר_טלוויזיה__point_5">
+                  <num>(5)</num>
+                  <content>
+                    <p>לענין שידור על פי <ref href="/akn/il/act/PrimaryLegislation/2016-08-11/2004964">חוק שידורי ערוץ הכנסת</ref> – הגוף המשדר כהגדרתו <ref href="/akn/il/act/PrimaryLegislation/2016-08-11/2004964#point_1">בסעיף 1 בחוק האמור</ref>;</p>
+                  </content>
+                </point>
+                <point eId="point_1__point_משדר_טלוויזיה__point_6">
+                  <num>(6)</num>
+                  <content>
+                    <p>לעניין שידוריו של משדר ערוץ נושאי על פי <ref href="/akn/il/act/PrimaryLegislation/2012-04-01/419715">חוק הפצת שידורים</ref> – משדר ערוץ נושאי כהגדרתו <ref href="/akn/il/act/PrimaryLegislation/2012-04-01/419715">בחוק האמור</ref>;</p>
+                  </content>
+                </point>
+                <point eId="point_1__point_משדר_טלוויזיה__point_7">
+                  <num>(7)</num>
+                  <content>
+                    <p>לעניין השידורים שמשדר בעל רישיון לשידורים באמצעות תחנות השידור הספרתיות כהגדרתו <ref href="/akn/il/act/PrimaryLegislation/2012-04-01/419715">חוק הפצת שידורים</ref>, בהתאם לרישיונו כאמור – בעל הרישיון;</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_1__point_משדר_פרטי">
+              <content>
+                <p>
+                  <def />”משדר פרטי“ – משדר טלוויזיה שאינו תאגיד השידור הישראלי או הרשות השניה כאשר היא בעצמה מפיקה שידורים;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_נציבות">
+              <content>
+                <p>
+                  <def />”נציבות“, ”הנציב“ – כהגדרתם <ref href="/akn/il/act/PrimaryLegislation/1998-03-05/165017">בחוק השוויון</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_ערוץ_טלוויזיה">
+              <content>
+                <p>
+                  <def />”ערוץ טלוויזיה“ – ערוץ טלוויזיה המשודר על ידי משדר טלוויזיה והמיועד בעיקרו לציבור בישראל, או לחלק ממנו;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_שעות_שיא">
+              <content>
+                <p>
+                  <def />”שעות שיא“ – כמשמעותן <ref href="#point_2">בסעיף 2</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_תכנית">
+              <list>
+                <intro>
+                  <p>
+                    <def />”תכנית“ – תכנית המשודרת בערוץ טלוויזיה שהדיבור בה הוא בשפה העברית או הערבית, או תכנית טלוויזיה שהדיבוב בה הוא בעברית או בערבית, ולמעט תכנית שהיא אחת מאלה:</p>
+                </intro>
+                <point eId="point_1__point_תכנית__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>תכנית אשר תוכנה המילולי שולי;</p>
+                  </content>
+                </point>
+                <point eId="point_1__point_תכנית__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>תכנית המיועדת לילדים שהדיבוב בה הוא בעברית או בערבית;</p>
+                  </content>
+                </point>
+                <point eId="point_1__point_תכנית__point_3">
+                  <num>(3)</num>
+                  <content>
+                    <p>תכנית מוזיקה;</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_1__point_תכנית_המשודרת_בשידור_חי">
+              <content>
+                <p>
+                  <def />”תכנית המשודרת בשידור חי“ – תכנית המשודרת בלא השהיות בין רגע הצילום לרגע השידור בפועל, וכן תכנית שהפקתה הושלמה 12 שעות או פחות לפני שידורה ולמעט מהדורת חדשות ותכנית לגיל הרך;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_תכנית_מוקלטת">
+              <content>
+                <p>
+                  <def />”תכנית מוקלטת“ – תכנית שאינה משודרת בשידור חי, למעט מהדורת חדשות ולמעט תכנית לגיל הרך;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_תכנית_לגיל_הרך">
+              <content>
+                <p>
+                  <def />”תכנית לגיל הרך“ – תכנית המיועדת או המופנית בעיקרה לצופים שגילם מעל גיל 3 ופחות מ־7 שנים;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_תרגום_לשפת_סימנים">
+              <content>
+                <p>
+                  <def />”תרגום לשפת סימנים“ – תרגום לשפת סימנים, המופיע בבועת תרגום או המופיע בחלק מוגדר נפרד של המסך, של מה שנאמר בתכנית או בהודעת חירום, בין אם הבועה והתרגום גלויים לכלל הצופים ובין אם הבועה והתרגום ניתנים לצפיה לפי בחירת הצופה, ובלבד שהתרגום הוא זמין לכלל הציבור והכל בתנאי ששירות התרגום לשפת הסימנים יינתן בלא תשלום נוסף.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_2">
+          <heading>
+            <authorialNote placement="side">
+              <p>שעות שיא</p>
+            </authorialNote>
+          </heading>
+          <num>2.</num>
+          <list>
+            <point eId="point_2__point_א">
+              <num>(א)</num>
+              <content>
+                <p>שעות השיא של תכניות הן שעות השידור בין 19:00 ל־23:00 ולגבי תכניות לגיל הרך בין 7:00 ל־8:00 ובין 14:00 ל־17:00, אלא אם כן קבע הגוף המפקח אחרת בהתאם להוראות סעיף קטן (ב).</p>
+              </content>
+            </point>
+            <point eId="point_2__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>נוכח הגוף המפקח, לאחר בדיקת נתוני הצפיה בשידוריו של ערוץ טלוויזיה מסוים, כי השעות שבהן שיעור הצפיה בערוץ טלוויזיה הוא הגבוה ביותר שונות משעות השיא כאמור בסעיף קטן (א), יקבע לאותו ערוץ שעות שיא אחרות שלא יפחתו מארבע שעות ביום.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_3">
+          <heading>
+            <authorialNote placement="side">
+              <p>כתוביות בתכניות מוקלטות בתשדירי פרסומת ובתשדירים לשירות הציבור</p>
+            </authorialNote>
+          </heading>
+          <num>3.</num>
+          <list>
+            <point eId="point_3__point_א">
+              <num>(א)</num>
+              <list>
+                <intro>
+                  <p>משדר טלוויזיה ילווה בכתוביות בשיעורים המפורטים בפסקאות (1) עד (7), לפחות, מסך זמן שידורן של כלל התכניות המוקלטות המשודרות במשך חצי שנה, בכל ערוץ טלוויזיה שבו הוא משדר:</p>
+                </intro>
+                <point eId="point_3__point_א__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>החל ביום א׳ בטבת התשס"ו (1 בינואר 2006) – 40%;</p>
+                  </content>
+                </point>
+                <point eId="point_3__point_א__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>החל ביום י"א בטבת התשס"ז (1 בינואר 2007) – 50%;</p>
+                  </content>
+                </point>
+                <point eId="point_3__point_א__point_3">
+                  <num>(3)</num>
+                  <content>
+                    <p>החל ביום כ"ג בטבת התשס"ח (1 בינואר 2008) – 60%;</p>
+                  </content>
+                </point>
+                <point eId="point_3__point_א__point_4">
+                  <num>(4)</num>
+                  <content>
+                    <p>החל ביום ה׳ בטבת התשס"ט (1 בינואר 2009) – 70%;</p>
+                  </content>
+                </point>
+                <point eId="point_3__point_א__point_5">
+                  <num>(5)</num>
+                  <content>
+                    <p>החל ביום ט"ו בטבת התש"ע (1 בינואר 2010) – 80%;</p>
+                  </content>
+                </point>
+                <point eId="point_3__point_א__point_6">
+                  <num>(6)</num>
+                  <content>
+                    <p>החל ביום כ"ה בטבת התשע"א (1 בינואר 2011) – 90%;</p>
+                  </content>
+                </point>
+                <point eId="point_3__point_א__point_7">
+                  <num>(7)</num>
+                  <content>
+                    <p>החל ביום י"ט בטבת התשע"ג (1 בינואר 2013) – 100%.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_3__point_ב">
+              <num>(ב)</num>
+              <list>
+                <intro>
+                  <p>משדר טלוויזיה ילווה בכתוביות בשיעורים המפורטים בפסקאות (1) עד (5), לפחות, מסך זמן שידורן של כלל התכניות המוקלטות המשודרות במשך חצי שנה, בשעות השיא, בכל ערוץ טלוויזיה שבו הוא משדר:</p>
+                </intro>
+                <point eId="point_3__point_ב__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>החל ביום א׳ בטבת התשס"ו (1 בינואר 2006) – 50%;</p>
+                  </content>
+                </point>
+                <point eId="point_3__point_ב__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>החל ביום י"א בטבת התשס"ז (1 בינואר 2007) – 60%;</p>
+                  </content>
+                </point>
+                <point eId="point_3__point_ב__point_3">
+                  <num>(3)</num>
+                  <content>
+                    <p>החל ביום כ"ג בטבת התשס"ח (1 בינואר 2008) – 80%;</p>
+                  </content>
+                </point>
+                <point eId="point_3__point_ב__point_4">
+                  <num>(4)</num>
+                  <content>
+                    <p>החל ביום ה׳ בטבת התשס"ט (1 בינואר 2009) – 90%;</p>
+                  </content>
+                </point>
+                <point eId="point_3__point_ב__point_5">
+                  <num>(5)</num>
+                  <content>
+                    <p>החל ביום ט"ו בטבת התש"ע (1 בינואר 2010) – 100%.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_3__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>אין בהוראות סעיף קטן (ב) כדי לחייב ליווי תכניות בכתוביות בהיקף העולה על המכסות הנקובות בסעיף קטן (א).</p>
+              </content>
+            </point>
+            <point eId="point_3__point_ד">
+              <num>(ד)</num>
+              <content>
+                <p>על אף הוראות סעיפים קטנים (א) ו־(ב), יחולו על משדר טלוויזיה, החל ביום א׳ בטבת התשס"ו (1 בינואר 2006), החובות לפי הוראות <ref href="#point_3">סעיפים 3</ref><ref href="#point_4">ו־4</ref> בשיעור של 50%, מהשיעורים האמורים <ref href="#point_3">באותם סעיפים</ref>, ובמועדים הקבועים <ref href="#point_3">באותם סעיפים</ref>, בכל הנוגע לתכנית מדובבת המיועדת לילדים; בסעיף קטן זה, ”תכנית מדובבת“ – תכנית שהדיבוב בה הוא בעברית או בערבית.</p>
+              </content>
+            </point>
+            <point eId="point_3__point_ה">
+              <num>(ה)</num>
+              <content>
+                <p>בלי לגרוע מהוראות סעיפים קטנים (א) עד (ד), משדר טלוויזיה ילווה בכתוביות תשדירי פרסומת ותשדירים לשירות הציבור המשודרים על ידו.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_4">
+          <heading>
+            <authorialNote placement="side">
+              <p>כתוביות בתכניות המשודרות בשידור חי</p>
+            </authorialNote>
+          </heading>
+          <num>4.</num>
+          <list>
+            <point eId="point_4__point_א">
+              <num>(א)</num>
+              <list>
+                <intro>
+                  <p>משדר טלוויזיה ילווה בכתוביות בשיעורים המפורטים בפסקאות (1) עד (4), לפחות, מסך זמן שידורן של כלל התכניות המשודרות במשך חצי שנה, בשידור חי, בכל ערוץ טלוויזיה שבו הוא משדר:</p>
+                </intro>
+                <point eId="point_4__point_א__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>החל ביום ה׳ בטבת התשס"ט (1 בינואר 2009) – 25%;</p>
+                  </content>
+                </point>
+                <point eId="point_4__point_א__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>החל ביום כ"ה בטבת התשע"א (1 בינואר 2011) – 50%;</p>
+                  </content>
+                </point>
+                <point eId="point_4__point_א__point_3">
+                  <num>(3)</num>
+                  <content>
+                    <p>החל ביום י"ט בטבת התשע"ג (1 בינואר 2013) – 75%;</p>
+                  </content>
+                </point>
+                <point eId="point_4__point_א__point_4">
+                  <num>(4)</num>
+                  <content>
+                    <p>החל ביום י׳ בטבת התשע"ה (1 בינואר 2015) – 100%.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_4__point_ב">
+              <num>(ב)</num>
+              <list>
+                <intro>
+                  <p>משדר טלוויזיה ילווה בכתוביות בשיעורים המפורטים בפסקאות (1) עד (3), לפחות, מסך זמן שידורן של כלל התכניות המשודרות במשך חצי שנה, בשידור חי, בשעות השיא, בכל ערוץ טלוויזיה שבו הוא משדר:</p>
+                </intro>
+                <point eId="point_4__point_ב__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>החל ביום ה׳ בטבת התשס"ט (1 בינואר 2009) – 25%;</p>
+                  </content>
+                </point>
+                <point eId="point_4__point_ב__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>החל ביום כ"ה בטבת התשע"א (1 בינואר 2011) – 50%;</p>
+                  </content>
+                </point>
+                <point eId="point_4__point_ב__point_3">
+                  <num>(3)</num>
+                  <content>
+                    <p>החל ביום י"ט בטבת התשע"ג (1 בינואר 2013) – 75%.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_4__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>אין בהוראות סעיף קטן (ב) כדי לחייב ליווי תכניות בכתוביות בהיקף העולה על המכסות הנקובות בסעיף קטן (א).</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_5">
+          <heading>
+            <authorialNote placement="side">
+              <p>כתוביות במהדורות חדשות</p>
+            </authorialNote>
+          </heading>
+          <num>5.</num>
+          <list>
+            <point eId="point_5__point_א">
+              <num>(א)</num>
+              <content>
+                <p>החל ביום י"א בטבת תשס"ז (1 בינואר 2007), משדר טלוויזיה ילווה בכותרות : מהדורת חדשות מרכזית יומית אחת לפחות, המשודרת בשעות השיא, באחד מערוצי הטלוויזיה שמשודרת בו מהדורת חדשות כאמור בעברית או בערבית; ועדת התיאום תקבע הוראות בדבר ימי השידור בעבור כל ערוץ טלוויזיה; בסעיף קטן זה, ”כותרות“ – כתוביות בעברית או בערבית, לפי הענין, הכוללות את עיקר התוכן של מהדורת החדשות.</p>
+              </content>
+            </point>
+            <point eId="point_5__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>החל ביום כ"ג בטבת התשס"ח (1 בינואר 2008), משדר טלוויזיה ילווה בכתוביות מהדורת חדשות מרכזית יומית אחת לפחות, המשודרת בשעות השיא, באחד מערוצי הטלוויזיה שמשודרת בו מהדורת חדשות כאמור בעברית או בערבית; ועדת התיאום תקבע הוראות בדבר ימי השידור בעבור כל ערוץ טלוויזיה.</p>
+              </content>
+            </point>
+            <point eId="point_5__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>החל ביום ה׳ בטבת התשס"ט (1 בינואר 2009), משדר טלוויזיה ילווה בכתוביות מהדורת חדשות מרכזית יומית אחת לפחות בשעות השיא, בכל ערוץ טלוויזיה שבו הוא משדר מהדורת חדשות כאמור.</p>
+              </content>
+            </point>
+            <point eId="point_5__point_ד">
+              <num>(ד)</num>
+              <content>
+                <p>החל ביום י"ט בטבת התשע"ג (1 בינואר 2013), משדר טלוויזיה ילווה בכתוביות את כל מהדורות החדשות, בכל ערוץ טלוויזיה שבו הוא משדר מהדורת חדשות.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_6">
+          <heading>
+            <authorialNote placement="side">
+              <p>הנגשת שידורי טלווזיה לפי חוק התקשורת</p>
+            </authorialNote>
+          </heading>
+          <num>6.</num>
+          <list>
+            <intro>
+              <p>על אף האמור <ref href="#point_3">בסעיפים 3</ref>, <ref href="#point_4">4</ref><ref href="#point_5">ו־5</ref>, משדר טלוויזיה לפי <ref href="/akn/il/act/PrimaryLegislation/2001-08-09/171095">חוק התקשורת</ref> או לפי <ref href="/akn/il/act/PrimaryLegislation/2012-04-01/419715">חוק הפצת שידורים</ref> ילווה בכתוביות תכניות טלוויזיה בהתאם להוראות אלה:</p>
+            </intro>
+            <point eId="point_6__point_א">
+              <num>(א)</num>
+              <content>
+                <p>בחמישה ערוצי טלוויזיה שעליהם תורה המועצה לשידורי כבלים ולשידורי לווין, יחולו על משדר טלוויזיה החובות האמורות <ref href="#point_3">בסעיפים 3</ref>, <ref href="#point_4">4</ref><ref href="#point_5">ו־5</ref>, במועדים הקבועים <ref href="#point_3">באותם סעיפים</ref>; המועצה תורה על הערוצים כאמור לאחר בחינת מרכזיותם, וזאת בהתחשב, בין השאר, בבחינת גובה שיעורי הצפיה של הערוצים והיקף שידורי המקור, ולאחר התייעצות עם הנציבות ועם ארגונים העוסקים בקידום זכויותיהם של אנשים בעלי לקות שמיעה, ובלבד שהערוצים לא יהיו ערוצי טלוויזיה שעיקרם שידורי ספורט, שידורים לילדים, או שידורי סרטים זרים;</p>
+              </content>
+            </point>
+            <point eId="point_6__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>בשלושה ערוצי טלוויזיה נוספים, מהם ערוץ אחד בשפה הרוסית, ערוץ חדשות אחד וערוץ מורשת אחד, שעליהם תורה המועצה לשידורי כבלים ולשידורי לווין, יחולו על משדר טלוויזיה החובות האמורות <ref href="#point_3">בסעיפים 3</ref>, <ref href="#point_4">4</ref><ref href="#point_5">ו־5</ref>, ובמועדים הקבועים <ref href="#point_3">באותם סעיפים</ref>; המועצה תורה על הערוצים כאמור לאחר בחינת מרכזיותם, וזאת בהתחשב, בין השאר, בבחינת שיעורי הצפיה של הערוצים, ולאחר התייעצות עם הנציבות ועם ארגונים העוסקים בקידום זכויותיהם של אנשים בעלי לקות שמיעה.</p>
+              </content>
+            </point>
+            <point eId="point_6__point_ג">
+              <num>(ג)</num>
+              <list>
+                <intro>
+                  <p>ביתרת ערוצי הטלוויזיה –</p>
+                </intro>
+                <point eId="point_6__point_ג__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>בערוצי טלוויזיה שעיקרם שידורי דרמה ותעודה – יחולו על משדר טלוויזיה, החל ביום י"א בטבת התשס"ז (1 בינואר 2007), החובות לפי הוראות <ref href="#point_3">סעיפים 3</ref>, <ref href="#point_4">4</ref><ref href="#point_5">ו־5</ref> בשיעור של 70% מהשיעורים המפורטים <ref href="#point_3">באותם סעיפים</ref>, ובמועדים הקבועים <ref href="#point_3">באותם סעיפים</ref>;</p>
+                  </content>
+                </point>
+                <point eId="point_6__point_ג__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>בערוצי טלוויזיה שעיקרם שידורים לילדים – יחולו על משדר טלוויזיה, החל ביום י"א בטבת התשס"ז (1 בינואר 2007), החובות לפי הוראות <ref href="#point_3">סעיפים 3</ref>, <ref href="#point_4">4</ref><ref href="#point_5">ו־5</ref> בשיעור של 50%, מהשיעורים המפורטים <ref href="#point_3">באותם סעיפים</ref>, ובמועדים הקבועים <ref href="#point_3">באותם סעיפים</ref>, ובלבד שבשיעור זה ייכללו גם תכניות מרכזיות שתקבע המועצה לשידורי כבלים ולשידורי לווין; לענין סעיף קטן זה, ”תכנית“ – לרבות תכנית המיועדת לילדים, שדובבה לעברית או לערבית;</p>
+                  </content>
+                </point>
+                <point eId="point_6__point_ג__point_3">
+                  <num>(3)</num>
+                  <content>
+                    <p>בערוצי טלוויזיה שעיקרם שידורי ספורט – יחולו על משדר טלוויזיה, החל ביום י"א בטבת התשס"ז (1 בינואר 2007), החובות לפי הוראות <ref href="#point_3">סעיפים 3</ref>, <ref href="#point_4">4</ref>, <ref href="#point_5">ו־5</ref>, במלוא השיעורים המפורטים <ref href="#point_3">באותם סעיפים</ref>, ובמועדים הקבועים <ref href="#point_3">באותם סעיפים</ref>, על תכניות שבהן משודרות תחרויות ארציות ובין־לאומיות המפורטות בתוספת;</p>
+                  </content>
+                </point>
+                <point eId="point_6__point_ג__point_4">
+                  <num>(4)</num>
+                  <content>
+                    <p>ביתרת ערוצי הטלוויזיה – יחולו על משדר טלוויזיה, החל ביום י"א בטבת התשס"ז (1 בינואר 2007), החובות לפי הוראות <ref href="#point_3">סעיפים 3</ref>, <ref href="#point_4">4</ref>, <ref href="#point_5">ו־5</ref> בשיעור של 30% מהשיעורים המפורטים <ref href="#point_3">באותם סעיפים</ref>, ובמועדים הקבועים <ref href="#point_3">באותם סעיפים</ref>.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_6__point_ד">
+              <num>(ד)</num>
+              <content>
+                <p>על אף הוראות סעיף קטן (ג), המועצה לשידורי כבלים ולשידורי לווין, לאחר התייעצות עם משדרי טלוויזיה לפי <ref href="/akn/il/act/PrimaryLegislation/2001-08-09/171095">חוק התקשורת</ref> או לפי <ref href="/akn/il/act/PrimaryLegislation/2012-04-01/419715">חוק הפצת שידורים</ref>, לפי העניין, עם הנציבות וארגונים העוסקים בקידום זכויותיהם של אנשים בעלי לקות שמיעה, ובאישור ועדת העבודה הרווחה והבריאות של הכנסת, רשאית לקבוע כי הוראות <ref href="#point_3">סעיפים 3</ref>, <ref href="#point_4">4</ref><ref href="#point_5">ו־5</ref>, יחולו במלוא שיעורן על ערוצי טלוויזיה נוספים על אלה המנויים בסעיפים קטנים (א) ו־(ב), בשים לב, בין השאר, להיקף השידורים, היקף הערוצים, מרכזיותם וייעודם.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_7">
+          <heading>
+            <authorialNote placement="side">
+              <p>תרגום לשפת סימנים בשידורי טלוויזיה ובתשדירי פרסומת</p>
+            </authorialNote>
+          </heading>
+          <num>7.</num>
+          <list>
+            <point eId="point_7__point_א">
+              <num>(א)</num>
+              <list>
+                <intro>
+                  <p>משדר טלוויזיה ילווה תכנית בתרגום לשפת סימנים, למעט מהדורת חדשות, בשיעורים המפורטים להלן, לפחות, מסך זמן שידורן של כלל התכניות המשודרות בשעות השיא, בכל ערוץ טלוויזיה שבו הוא משדר:</p>
+                </intro>
+                <point eId="point_7__point_א__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>החל ביום א׳ בטבת התשס"ו (1 בינואר 2006) – 2.5%;</p>
+                  </content>
+                </point>
+                <point eId="point_7__point_א__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>החל ביום י"א בטבת התשס"ז (1 בינואר 2007) – 5%.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_7__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>החל ביום א׳ בטבת התשס"ו (1 בינואר 2006), יתורגמו לשפת סימנים, מדי ערב בשעות השיא מהדורת חדשות אחת לפחות המשודרת בערוץ טלוויזיה המשדר חדשות בעברית; ועדת התיאום תקבע הוראות בדבר ימי השידור בעבור כל ערוץ.</p>
+              </content>
+            </point>
+            <point eId="point_7__point_ג">
+              <num>(ג)</num>
+              <list>
+                <intro>
+                  <p>החל ביום א׳ בטבת התשס"ו (1 בינואר 2006) –</p>
+                </intro>
+                <point eId="point_7__point_ג__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>משדר טלוויזיה ילווה בתרגום לשפת סימנים תכנית יומית, אחת או יותר בהיקף של חצי שעה לפחות, לגיל הרך; התכנית וזמן השידור ייקבעו בהתייעצות עם הגוף המפקח ועם ארגונים העוסקים בקידום זכויותיהם של ילדים בגיל הרך, בעלי לקות שמיעה;</p>
+                  </content>
+                </point>
+                <point eId="point_7__point_ג__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>הוראות סעיף קטן זה לא יחולו, אם משדר טלוויזיה הקצה ערוץ טלוויזיה נפרד שישדר תכניות לילדים בגיל הרך, בתרגום לשפת הסימנים.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_7__point_ד">
+              <num>(ד)</num>
+              <content>
+                <p>על אף הוראות <ref href="#point_3">סעיפים 3</ref>, <ref href="#point_4">4</ref><ref href="#point_5">ו־5</ref>, תכנית ותשדיר פרסומת שלוו בתרגום לשפת סימנים, לא תחול לגביהם החובה ללוותם בכתוביות.</p>
+              </content>
+            </point>
+            <point eId="point_7__point_ה">
+              <num>(ה)</num>
+              <content>
+                <p>בלי לגרוע מהוראות סעיפים קטנים (א) עד (ד), משדר טלוויזיה ילווה 5% מתשדירי הפרסומת המשודרים על ידו בתרגום לשפת סימנים.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_8">
+          <heading>
+            <authorialNote placement="side">
+              <p>החלת השיעורים</p>
+            </authorialNote>
+          </heading>
+          <num>8.</num>
+          <content>
+            <p>השיעורים המפורטים <ref href="#point_3">בסעיפים 3 עד 6</ref> יחולו על תכניות בעברית לחוד ועל תכניות בערבית לחוד.</p>
+          </content>
+        </point>
+        <point eId="point_9">
+          <heading>
+            <authorialNote placement="side">
+              <p>הודעות חירום</p>
+            </authorialNote>
+          </heading>
+          <num>9.</num>
+          <list>
+            <point eId="point_9__point_א">
+              <num>(א)</num>
+              <content>
+                <p>בתקופה שמיום א׳ בטבת התשס"ו (1 בינואר 2006) ועד ליום י׳ בטבת התשס"ז (31 בדצמבר 2006), כל הודעת חירום שמשדרת רשות השידור תהיה מלווה, באופן סביר, בכותרות ובתרגום לשפת סימנים; בסעיף קטן זה, ”כותרות“ – כתוביות בעברית או בערבית, לפי הענין, הכוללות את עיקר התוכן של הודעת החירום.</p>
+              </content>
+            </point>
+            <point eId="point_9__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>החל מיום י"א בטבת התשס"ז (1 בינואר 2007) כל הודעת חירום שמשדר תאגיד השידור הישראלי תהיה מלווה, באופן סביר, בכתוביות ובתרגום לשפת סימנים.</p>
+              </content>
+            </point>
+            <point eId="point_9__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>הודיע משדר טלוויזיה שאינו תאגיד השידור הישראלי הודעת חירום, ילווה את ההודעה בכותרת המפנה צופים שהם בעלי לקות שמיעה להודעת החירום המשודרת בתאגיד השידור הישראלי; קיים משדר הטלוויזיה כאמור את כל החיובים החלים על תאגיד השידור הישראלי על פי הוראות סעיפים קטנים (א) ו־(ב), יהיה פטור מהפניית הצופים לתאגיד השידור הישראלי.</p>
+              </content>
+            </point>
+            <point eId="point_9__point_ד">
+              <num>(ד)</num>
+              <list>
+                <intro>
+                  <p>בחוק זה –</p>
+                </intro>
+                <point eId="point_9__point_ד__point_הודעת_חירום">
+                  <list>
+                    <intro>
+                      <p>
+                        <def />”הודעת חירום“ – הודעה מתפרצת המשודרת בערוץ טלוויזיה, על אחד מאלה:</p>
+                    </intro>
+                    <point eId="point_9__point_ד__point_הודעת_חירום__point_1">
+                      <num>(1)</num>
+                      <content>
+                        <p>אירוע חירום אזרחי;</p>
+                      </content>
+                    </point>
+                    <point eId="point_9__point_ד__point_הודעת_חירום__point_2">
+                      <num>(2)</num>
+                      <content>
+                        <p>אירוע קרינה רדיולוגי;</p>
+                      </content>
+                    </point>
+                    <point eId="point_9__point_ד__point_הודעת_חירום__point_3">
+                      <num>(3)</num>
+                      <content>
+                        <p>אירוע חומרים מסוכנים;</p>
+                      </content>
+                    </point>
+                    <point eId="point_9__point_ד__point_הודעת_חירום__point_4">
+                      <num>(4)</num>
+                      <content>
+                        <p>תאונה או פעילות חבלנית עוינת;</p>
+                      </content>
+                    </point>
+                    <point eId="point_9__point_ד__point_הודעת_חירום__point_5">
+                      <num>(5)</num>
+                      <content>
+                        <p>מלחמה;</p>
+                      </content>
+                    </point>
+                    <point eId="point_9__point_ד__point_הודעת_חירום__point_6">
+                      <num>(6)</num>
+                      <content>
+                        <p>מבצע צבאי;</p>
+                      </content>
+                    </point>
+                    <point eId="point_9__point_ד__point_הודעת_חירום__point_7">
+                      <num>(7)</num>
+                      <content>
+                        <p>תאונה או אסון המוני במהלך פעולה צבאית;</p>
+                      </content>
+                    </point>
+                    <point eId="point_9__point_ד__point_הודעת_חירום__point_8">
+                      <num>(8)</num>
+                      <content>
+                        <p>תנאי מזג אוויר קיצוניים, המהווים סכנה;</p>
+                      </content>
+                    </point>
+                    <point eId="point_9__point_ד__point_הודעת_חירום__point_9">
+                      <num>(9)</num>
+                      <content>
+                        <p>אירוע אחר בעל חשיבות מיוחדת לציבור שקבעה ועדת התיאום, בהתייעצות עם הנציבות ועם ארגונים העוסקים בקידום זכויותיהם של אנשים בעלי לקות שמיעה;</p>
+                      </content>
+                    </point>
+                  </list>
+                </point>
+                <point eId="point_9__point_ד__point_אירוע_חירום_אזרחי">
+                  <content>
+                    <p>
+                      <def />”אירוע חירום אזרחי“ – אירוע הגורם לפגיעה חמורה בשלום הציבור, בביטחון הנפש, או ברכוש, המתייחס לציבור גדול או לשטח גדול, או אירוע שיש בו חשש לפגיעה כאמור, לרבות מחמת פגע טבע, מפגע סביבתי, אירוע חומרים מסוכנים, אירוע כימי או ביולוגי, אירוע קרינה רדיולוגי, תאונה או פעילות חבלנית עוינת;</p>
+                  </content>
+                </point>
+                <point eId="point_9__point_ד__point_אירוע_חומרים_מסוכנים">
+                  <content>
+                    <p>
+                      <def />”אירוע חומרים מסוכנים“ – התרחשות בלתי מבוקרת או תאונה, שמעורב בה חומר מסוכן, הגורמת או העלולה לגרום סיכון לאדם ולסביבה, לרבות שפך, דליפה, פיזור, פיצוץ, התאיידות, דליקה;</p>
+                  </content>
+                </point>
+                <point eId="point_9__point_ד__point_אירוע_כימי_או_ביולוגי">
+                  <content>
+                    <p>
+                      <def />”אירוע כימי או ביולוגי“ – אירוע שנגרם כתוצאה מפעילות חבלנית עוינת, אשר בעקבותיו נחשף או עלול הציבור להיחשף לחומרים כימיים או ביולוגיים שעלולים לגרום לפגיעה בשלום הציבור או בבריאותו;</p>
+                  </content>
+                </point>
+                <point eId="point_9__point_ד__point_אירוע_קרינה_רדיולוגי">
+                  <content>
+                    <p>
+                      <def />”אירוע קרינה רדיולוגי“ – אירוע שבעקבותיו נחשף או עלול הציבור להיחשף לקרינה מיננת במנה החורגת מרמת ההתערבות הנמוכה ביותר שנקבעה לאוכלוסיה בלוח V של המהדורה האחרונה של התקן הבין־לאומי להגנה מפני קרינה (International Basic Safety Standards for Protection against Ionizing Radiation and for Safety of Radiation Sources – IAEA); התקן האמור יפורסם באתר האינטרנט של הוועדה לאנרגיה אטומית ויופקד לעיון הציבור באגף הרישוי של הוועדה לאנרגיה אטומית האמורה;</p>
+                  </content>
+                </point>
+                <point eId="point_9__point_ד__point_חומר_מסוכן">
+                  <content>
+                    <p>
+                      <def />”חומר מסוכן“ – כהגדרתו <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/חוק_החומרים_המסוכנים">בחוק החומרים המסוכנים, התשנ"ג–1993</ref>.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+          </list>
+        </point>
+        <point eId="point_10">
+          <heading>
+            <authorialNote placement="side">
+              <p>פטורים ודרישות מופחתות</p>
+            </authorialNote>
+          </heading>
+          <num>10.</num>
+          <list>
+            <point eId="point_10__point_א">
+              <num>(א)</num>
+              <content>
+                <p>הוכיח משדר טלוויזיה להנחת דעתו של הגוף המפקח כי ביצוע הוראה לפי חוק זה, לגביו, מטיל נטל כבד מדי, רשאי הגוף המפקח להורות בהחלטה מנומקת בכתב כי ההוראה לא תחול באופן מלא או חלקי, בין השאר לגבי ערוץ מסוים או תכנית מסוימת.</p>
+              </content>
+            </point>
+            <point eId="point_10__point_ב">
+              <num>(ב)</num>
+              <list>
+                <intro>
+                  <p>החלטת הגוף המפקח על פי סעיף קטן (א) –</p>
+                </intro>
+                <point eId="point_10__point_ב__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>תהיה לתקופה שתיקבע בהחלטה ואשר לא תעלה על שלוש שנים כל פעם;</p>
+                  </content>
+                </point>
+                <point eId="point_10__point_ב__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>תתקבל לאחר התייעצות עם הנציבות ועם ארגונים העוסקים בקידום זכויותיהם של אנשים בעלי לקות שמיעה.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_10__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>עתירה נגד החלטת הגוף המפקח על פי סעיף קטן (א) יכול שתוגש בידי משדר טלוויזיה, אדם בעל לקות שמיעה, הנציבות או ארגון העוסק בקידום זכויותיהם של אנשים בעלי לקות שמיעה.</p>
+              </content>
+            </point>
+            <point eId="point_10__point_ד">
+              <num>(ד)</num>
+              <content>
+                <p>הגוף המפקח רשאי, בדרך האמורה <ref href="#point_16">בסעיף 16</ref>, לקבוע בכללים מקרים שבהם הוראה לפי חוק זה לא תחול באופן מלא או חלקי בשל כך שביצוע ההוראה באותם מקרים יטיל נטל כבד מדי.</p>
+              </content>
+            </point>
+            <point eId="point_10__point_ה">
+              <num>(ה)</num>
+              <list>
+                <intro>
+                  <p>לענין סעיף זה, ”נטל כבד מדי“ – נטל בלתי סביר על משדר טלוויזיה בהתחשב, בין השאר, באלה:</p>
+                </intro>
+                <point eId="point_10__point_ה__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>הקשיים הטכניים הכרוכים בביצוע;</p>
+                  </content>
+                </point>
+                <point eId="point_10__point_ה__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>מצבו הכלכלי של משדר הטלוויזיה, ולענין ערוץ טלוויזיה מסוים, בשים לב גם למצבו הכלכלי של הערוץ;</p>
+                  </content>
+                </point>
+                <point eId="point_10__point_ה__point_3">
+                  <num>(3)</num>
+                  <content>
+                    <p>עלות הביצוע;</p>
+                  </content>
+                </point>
+                <point eId="point_10__point_ה__point_4">
+                  <num>(4)</num>
+                  <content>
+                    <p>הכנסות משדר הטלוויזיה וערוץ הטלוויזיה;</p>
+                  </content>
+                </point>
+                <point eId="point_10__point_ה__point_5">
+                  <num>(5)</num>
+                  <content>
+                    <p>קיומם של מקורות מימון חיצוניים וממלכתיים;</p>
+                  </content>
+                </point>
+                <point eId="point_10__point_ה__point_6">
+                  <num>(6)</num>
+                  <content>
+                    <p>מידת הפגיעה שתיגרם לציבור לקויי השמיעה כתוצאה ממתן הפטור, בהתחשב בין השאר, בהיקף הצפיה בערוץ או בתכנית הנדונים.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_10__point_ו">
+              <num>(ו)</num>
+              <list>
+                <intro>
+                  <p>לענין סעיפים קטנים (א) ו־(ד) לא יראו כנטל כבד מדי –</p>
+                </intro>
+                <point eId="point_10__point_ו__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>חובה על פי חוק זה שהיתה חובה לקיימה על פי חוק הקלות לחרש, התשנ"ב–1992, ערב ביטולו;</p>
+                  </content>
+                </point>
+                <point eId="point_10__point_ו__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>חובה החלה על משדר טלוויזיה שעליו חלות הוראות <ref href="#point_6">סעיף 6(א)</ref>, אלא אם כן אישר הגוף המפקח, בהתייעצות עם הנציב, כי ביצוע החובה עלול להביא להתמוטטות כלכלית של המשדר.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_10__point_ז">
+              <num>(ז)</num>
+              <list>
+                <intro>
+                  <p>הוראות חוק זה, ככל שהן מוסיפות חיובים על הקבוע בחוק הקלות לחרש, התשנ"ב–1992, ערב ביטולו, לא יחולו –</p>
+                </intro>
+                <point eId="point_10__point_ז__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>על משדר פרטי, אלא בתום שלוש שנים מהמועד שבו החל לשדר לראשונה;</p>
+                  </content>
+                </point>
+                <point eId="point_10__point_ז__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>על משדר פרטי, בכל הנוגע לערוץ טלוויזיה חדש, אלא בתום שלוש שנים מהמועד שבו החל לשדר את הערוץ לראשונה.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_10__point_ח">
+              <num>(ח)</num>
+              <content>
+                <p>
+                  <wikicomment font-size="x-small">(בוטל).</wikicomment>
+                </p>
+              </content>
+            </point>
+            <point eId="point_10__point_ט">
+              <num>(ט)</num>
+              <content>
+                <p>תכניות המשודרות בין השעות 1:00 עד 6:00 תהיינה פטורות מחובת ליווי בכתוביות, למעט הודעות חרום ולמעט תכניות ספורט שבהן משודרות תחרויות ארציות ובין־לאומיות המפורטות בתוספת.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_11">
+          <heading>
+            <authorialNote placement="side">
+              <p>מידע, פרסום ודיווח</p>
+            </authorialNote>
+          </heading>
+          <num>11.</num>
+          <list>
+            <point eId="point_11__point_א">
+              <num>(א)</num>
+              <content>
+                <p>משדר טלוויזיה יעביר לפרסום בלוחות המשדרים המופצים על ידו ובכל מדריך שידורים המתפרסם ברבים, מידע לגבי כל התכניות המלוות בכתוביות ובתרגום לשפת הסימנים; פרסם גוף לוח משדרים, יפרסם בו את התכניות המלוות בכתוביות ובתרגום לשפת סימנים.</p>
+              </content>
+            </point>
+            <point eId="point_11__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>הגוף המפקח ימסור, מדי שנה, לנציבות דוח המפרט את הפעולות שנקט לשם ביצוע הוראות חוק זה בידי משדרי הטלוויזיה הכפופים לו; בדוח כאמור יפורטו, בין השאר, התכניות המלוות בכתוביות ובשפת סימנים, זמן השידור, וחלקן היחסי של התכניות שלוו בכתוביות ובשפת סימנים; החל במועד שבו חלות החובות, לפי <ref href="#point_3">סעיפים 3</ref>, <ref href="#point_4">4</ref><ref href="#point_5">ו־5</ref>, במלוא שיעורן, ימסור הגוף המפקח מדי שנה, לנציבות, דוח כאמור המתייחס לשפת הסימנים בלבד ולחובות לפי <ref href="#point_6">סעיף 6(ג)</ref>.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_12">
+          <heading>
+            <authorialNote placement="side">
+              <p>החלת הוראות מחוק שוויון זכויות לאנשים עם מוגבלות</p>
+            </authorialNote>
+          </heading>
+          <num>12.</num>
+          <list>
+            <point eId="point_12__point_א">
+              <num>(א)</num>
+              <content>
+                <p>הוראות <ref href="/akn/il/act/PrimaryLegislation/1998-03-05/165017#point_19מג">סעיף 19מג לחוק השוויון</ref> יחולו לענין ביצוע הוראות חוק זה, בשינויים המחויבים, ובלבד שבטרם יוציא הנציב צו נגישות, יקיים התייעצות עם הגוף המפקח, לפי הענין.</p>
+              </content>
+            </point>
+            <point eId="point_12__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>הוראות <ref href="/akn/il/act/PrimaryLegislation/1998-03-05/165017#point_19נא">סעיפים 19נא עד 19נג לחוק השוויון</ref>, <ref href="/akn/il/act/PrimaryLegislation/1998-03-05/165017#point_19מח">סעיפים קטנים (ג), (ד) ו־(ה) בסעיף 19מח</ref><ref href="/akn/il/act/PrimaryLegislation/1998-03-05/165017#point_19מה">וסעיפים 19מה</ref><ref href="/akn/il/act/PrimaryLegislation/1998-03-05/165017#point_19מט">ו־19מט לחוק השוויון</ref>, יחולו על הפרת חובות שלפי חוק זה, בשינויים המחויבים; לענין זה, הוראות החלות לענין תאגיד יחולו על גוף שחובת הביצוע הוטלה עליו לפי חוק זה.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_13">
+          <heading>
+            <authorialNote placement="side">
+              <p>דין המדינה</p>
+            </authorialNote>
+          </heading>
+          <num>13.</num>
+          <content>
+            <p>לענין חוק זה, דין המדינה כדין כל אדם.</p>
+          </content>
+        </point>
+        <point eId="point_14">
+          <heading>
+            <authorialNote placement="side">
+              <p>סמכויות גוף מפקח</p>
+            </authorialNote>
+          </heading>
+          <num>14.</num>
+          <content>
+            <p>סמכויות לפי חוק זה, אינן גורעות מסמכויות שהוענקו לגוף מפקח לפי חיקוק אחר.</p>
+          </content>
+        </point>
+        <point eId="point_15">
+          <heading>
+            <authorialNote placement="side">
+              <p>שמירת דינים</p>
+            </authorialNote>
+          </heading>
+          <num>15.</num>
+          <content>
+            <p>הוראות לפי חוק זה לא יגרעו מהוראות החלות לפי חוק הקלות לחרש, התשנ"ב–1992.</p>
+          </content>
+        </point>
+        <point eId="point_16">
+          <heading>
+            <authorialNote placement="side">
+              <p>כללי גוף מפקח</p>
+            </authorialNote>
+          </heading>
+          <num>16.</num>
+          <content>
+            <p>גוף מפקח רשאי, באישור ועדת העבודה הרווחה והבריאות של הכנסת ובהתייעצות עם הנציבות ועם ארגונים העוסקים בקידום זכויותיהם של אנשים בעלי לקות שמיעה, ועם משדרי טלוויזיה, לפי הענין, לקבוע כללים לפי חוק זה, שיחולו על משדר טלוויזיה בתחום סמכותו, בכל הנוגע לליווי בכתוביות, כותרות ותרגום לשפת סימנים.</p>
+          </content>
+        </point>
+        <point eId="point_17">
+          <heading>
+            <authorialNote placement="side">
+              <p>ביטול חוק הקלות לחרש</p>
+            </authorialNote>
+          </heading>
+          <num>17.</num>
+          <content>
+            <p>חוק הקלות לחרש, התשנ"ב–1992 – בטל החל ביום י׳ בטבת תשע"ה (1 בינואר 2015).</p>
+          </content>
+        </point>
+        <point eId="point_18">
+          <heading>
+            <authorialNote placement="side">
+              <p xml:space="preserve"> </p>
+            </authorialNote>
+          </heading>
+          <num>18.</num>
+          <content>
+            <p>
+              <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryLegislation/2000-06-11/169660">בחוק בתי משפט לענינים מינהליים, התש"ס–2000</ref>.</wikicomment>
+            </p>
+          </content>
+        </point>
+        <point eId="point_19">
+          <heading>
+            <authorialNote placement="side">
+              <p xml:space="preserve"> </p>
+            </authorialNote>
+          </heading>
+          <num>19.</num>
+          <content>
+            <p>
+              <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryLegislation/2001-08-09/171095">בחוק התקשורת (בזק ושידורים), התשמ"ב–1982</ref>.</wikicomment>
+            </p>
+          </content>
+        </point>
+        <point eId="point_20">
+          <heading>
+            <authorialNote placement="side">
+              <p xml:space="preserve"> </p>
+            </authorialNote>
+          </heading>
+          <num>20.</num>
+          <content>
+            <p>
+              <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/חוק_הרשות_השניה_לטלוויזיה_ורדיו">בחוק הרשות השניה לטלוויזיה ורדיו, התש"ן–1990</ref>.</wikicomment>
+            </p>
+          </content>
+        </point>
+        <point eId="point_21">
+          <heading>
+            <authorialNote placement="side">
+              <p>תחילה</p>
+            </authorialNote>
+          </heading>
+          <num>21.</num>
+          <content>
+            <p>תחילתו של חוק זה ביום א׳ בטבת התשס"ו (1 בינואר 2006).</p>
+          </content>
+        </point>
+      </list>
+      <appendix eId="appendix">
+        <num></num>
+        <title>
+          <content>
+            <p>תוספת <wikicomment font-size="x-small">(<קישור סוג="1" עוגן="סעיף 6">סעיפים 6(ג)(3)</קישור>, <קישור סוג="1" עוגן="סעיף 10">10(ט)</קישור>)</wikicomment></p>
+          </content>
+        </title>
+        <list>
+          <point eId="appendix__point_1">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>1.</num>
+            <content>
+              <p>תכניות ספורט שבהן משודרות תחרויות ארציות ובין־לאומיות כל המשחקים הרשמיים של נבחרת ישראל בכדורגל;</p>
+            </content>
+          </point>
+          <point eId="appendix__point_2">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>2.</num>
+            <content>
+              <p>משחקי כדורסל של קבוצות ישראליות בגביע אירופה לאלופות וכן תחרויות היורוליג וכל התחרויות שתחת חסות היורוליג;</p>
+            </content>
+          </point>
+          <point eId="appendix__point_3">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>3.</num>
+            <content>
+              <p>המשחק המרכזי השבועי של ליגת העל בכדורגל;</p>
+            </content>
+          </point>
+          <point eId="appendix__point_4">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>4.</num>
+            <content>
+              <p>משחקי האולימפיאדה;</p>
+            </content>
+          </point>
+          <point eId="appendix__point_5">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>5.</num>
+            <content>
+              <p>משחקי המונדיאל;</p>
+            </content>
+          </point>
+          <point eId="appendix__point_6">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>6.</num>
+            <content>
+              <p>משחקי גביע אירופה לאלופות בכדורגל, בהשתתפות קבוצה ישראלית;</p>
+            </content>
+          </point>
+          <point eId="appendix__point_7">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>7.</num>
+            <content>
+              <p>כל משחקי מפעל גביע המדינה בכדורגל;</p>
+            </content>
+          </point>
+          <point eId="appendix__point_8">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>8.</num>
+            <content>
+              <p>חדשות הספורט.</p>
+            </content>
+          </point>
+        </list>
+      </appendix>
+    </body>
+    <conclusions eId="eId">
+      <p class="signatures">
+        <signature>
+          <p>
+            <person refersTo="אריאל_שרון">אריאל שרון</person>
+            <role refersTo="ראש_הממשלה">ראש הממשלה</role>
+          </p>
+        </signature>
+        <signature>
+          <p>
+            <person refersTo="משה_קצב">משה קצב</person>
+            <role refersTo="נשיא_המדינה">נשיא המדינה</role>
+          </p>
+        </signature>
+        <signature>
+          <p>
+            <person refersTo="ראובן_ריבלין">ראובן ריבלין</person>
+            <role refersTo="יושב_ראש_הכנסת">יושב ראש הכנסת</role>
+          </p>
+        </signature>
+      </p>
+    </conclusions>
+  </act>
+</akomaNtoso>

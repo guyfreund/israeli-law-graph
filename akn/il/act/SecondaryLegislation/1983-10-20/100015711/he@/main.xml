@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion" name="publicLaw">
+    <meta>
+      <identification source="#kensset">
+        <FRBRWork>
+          <FRBRthis value="/akn/il/act/SecondaryLegislation/1983-10-20/100015711/main" />
+          <FRBRuri value="/akn/il/act/SecondaryLegislation/1983-10-20/100015711" />
+          <FRBRdate date="1983-10-20" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRcountry value="israel" />
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/il/act/SecondaryLegislation/1983-10-20/100015711/he@/main" />
+          <FRBRuri value="/akn/il/act/SecondaryLegislation/1983-10-20/100015711/he@" />
+          <FRBRdate date="1983-10-20" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRlanguage language="hebrew" />
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/il/act/SecondaryLegislation/1983-10-20/100015711/he@/main.xml" />
+          <FRBRuri value="/akn/il/act/SecondaryLegislation/1983-10-20/100015711/he@" />
+          <FRBRdate date="1983-10-20" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRformat value="xml" />
+        </FRBRManifestation>
+      </identification>
+      <classification source="#kensset">
+        <keyword value="{classificationValue}" showAs="{classificationValue}" dictionary="#classification_dictionary" />
+      </classification>
+      <lifecycle source="#kensset">
+        <eventRef eId="eventRef_1" date="1983-10-20" source="#kensset" type="generation" />
+      </lifecycle>
+      <references source="#kensset">
+        <TLCOrganization eId="kensset" href="/ontology/organization/akn/knesset" showAs="Kensset" type="generation" />
+        <TLCRole eId="author" href="/ontology/role/akn/author" showAs="Author of Document" />
+        <TLCProcess eId="inforce" href="/ontology/process/akn/inforce" showAs="In force" />
+        <TLCPerson eId="מרדכי_צפורי" href="/ontology/person/מרדכי_צפורי" showAs="מרדכי צפורי" />
+        <TLCRole eId="שר_התקשורת" href="ontology/role/akn/שר_התקשורת" showAs="שר התקשורת" />
+      </references>
+      <temporalData source="#kensset">
+        <temporalGroup eId="tmpg_1" />
+      </temporalData>
+      <Publication></Publication>
+      <proprietary wikiversion="12/29/2020 8:36:02 AM" />
+    </meta>
+    <body period="#tmpg_1">
+      <title eId="title">
+        <content>
+          <p>צו הטלגרף האלחוטי (אי תחולת הפקודה), התשמ"ד–1983</p>
+        </content>
+      </title>
+      <preamble eId="eId">
+        <p>בתוקף סמכותי לפי <ref href="/akn/il/act/PrimaryLegislation/1972-05-25/2002275#point_4יט">סעיף 4</ref><ref href="/akn/il/act/PrimaryLegislation/1972-05-25/2002275">לפקודת הטלגרף האלחוטי [נוסח חדש], התשל"ב–1972</ref> (להלן – הפקודה), אני מצווה לאמור:</p>
+      </preamble>
+      <list>
+        <point eId="point_1">
+          <heading>
+            <authorialNote placement="side">
+              <p>הגדרה</p>
+            </authorialNote>
+          </heading>
+          <num>1.</num>
+          <content>
+            <p>בצו זה, ”משושה פרבולית“ – לרבות ציוד הלוואי המשמש אותה.</p>
+          </content>
+        </point>
+        <point eId="point_2">
+          <heading>
+            <authorialNote placement="side">
+              <p>אי־תחולה</p>
+            </authorialNote>
+          </heading>
+          <num>2.</num>
+          <content>
+            <p>הוראות <ref href="/akn/il/act/PrimaryLegislation/1972-05-25/2002275">הפקודה</ref> לא יחולו על משושה פרבולית שקטרה אינו עולה על 244 סנטימטר, אם היא מיועדת רק לקליטה של תכניות טלויזיה המשודרות, באמצעות לווין, לקליטה ישירה על ידי הציבור וכל עוד היא משמשת כאמור.</p>
+          </content>
+        </point>
+        <point eId="point_3">
+          <heading>
+            <authorialNote placement="side">
+              <p>סייג</p>
+            </authorialNote>
+          </heading>
+          <num>3.</num>
+          <content>
+            <p>הוראות <ref href="#point_2">סעיף 2</ref> לא יחולו על משושה פרבולית המשמשת לצרכי עסק של קליטת תכניות טלויזיה כאמור <ref href="#point_2">בסעיף 2</ref> ושיווקן ללקוחות.</p>
+          </content>
+        </point>
+      </list>
+    </body>
+    <conclusions eId="eId">
+      <p class="signatures">
+        <signature>
+          <p>
+            <person refersTo="מרדכי_צפורי">מרדכי צפורי</person>
+            <role refersTo="שר_התקשורת">שר התקשורת</role>
+          </p>
+        </signature>
+      </p>
+    </conclusions>
+  </act>
+</akomaNtoso>

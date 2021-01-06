@@ -1,0 +1,929 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion" name="publicLaw">
+    <meta>
+      <identification source="#kensset">
+        <FRBRWork>
+          <FRBRthis value="/akn/il/act/SecondaryLegislation/2005-12-13/100032418/main" />
+          <FRBRuri value="/akn/il/act/SecondaryLegislation/2005-12-13/100032418" />
+          <FRBRdate date="2005-12-13" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRcountry value="israel" />
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/il/act/SecondaryLegislation/2005-12-13/100032418/he@/main" />
+          <FRBRuri value="/akn/il/act/SecondaryLegislation/2005-12-13/100032418/he@" />
+          <FRBRdate date="2005-12-13" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRlanguage language="hebrew" />
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/il/act/SecondaryLegislation/2005-12-13/100032418/he@/main.xml" />
+          <FRBRuri value="/akn/il/act/SecondaryLegislation/2005-12-13/100032418/he@" />
+          <FRBRdate date="2005-12-13" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRformat value="xml" />
+        </FRBRManifestation>
+      </identification>
+      <classification source="#kensset">
+        <keyword value="{classificationValue}" showAs="{classificationValue}" dictionary="#classification_dictionary" />
+      </classification>
+      <lifecycle source="#kensset">
+        <eventRef eId="eventRef_1" date="2005-12-13" source="#kensset" type="generation" />
+      </lifecycle>
+      <references source="#kensset">
+        <TLCOrganization eId="kensset" href="/ontology/organization/akn/knesset" showAs="Kensset" type="generation" />
+        <TLCRole eId="author" href="/ontology/role/akn/author" showAs="Author of Document" />
+        <TLCProcess eId="inforce" href="/ontology/process/akn/inforce" showAs="In force" />
+        <TLCTerm eId="term_1" href="/ontology/term/אישור_בעלות/100032418" showAs="אישור_בעלות" />
+        <TLCTerm eId="term_2" href="/ontology/term/אסיפה_כללית/100032418" showAs="אסיפה_כללית" />
+        <TLCTerm eId="term_3" href="/ontology/term/אתר_ההפצה/100032418" showAs="אתר_ההפצה" />
+        <TLCTerm eId="term_4" href="/ontology/term/בורסה/100032418" showAs="בורסה" />
+        <TLCTerm eId="term_5" href="/ontology/term/בעל_מניות_לא_רשום/100032418" showAs="בעל_מניות_לא_רשום" />
+        <TLCTerm eId="term_6" href="/ontology/term/הודעת_עמדה/100032418" showAs="הודעת_עמדה" />
+        <TLCTerm eId="term_7" href="/ontology/term/החלטה_על_כינוס_אסיפה_כללית/100032418" showAs="החלטה_על_כינוס_אסיפה_כללית" />
+        <TLCTerm eId="term_8" href="/ontology/term/המועד_הקובע/100032418" showAs="המועד_הקובע" />
+        <TLCTerm eId="term_9" href="/ontology/term/הצבעה_אלקטרונית/100032418" showAs="הצבעה_אלקטרונית" />
+        <TLCTerm eId="term_10" href="/ontology/term/כתב_הצבעה/100032418" showAs="כתב_הצבעה" />
+        <TLCTerm eId="term_11" href="/ontology/term/מניות/100032418" showAs="מניות" />
+        <TLCTerm eId="term_12" href="/ontology/term/מערכת_ההצבעה_האלקטרונית/100032418" showAs="מערכת_ההצבעה_האלקטרונית" />
+        <TLCTerm eId="term_13" href="/ontology/term/מרשם_בעלי_המניות/100032418" showAs="מרשם_בעלי_המניות" />
+        <TLCTerm eId="term_14" href="/ontology/term/משקיע_מוסדי/100032418" showAs="משקיע_מוסדי" />
+        <TLCTerm eId="term_15" href="/ontology/term/נושא_משרה_בכירה/100032418" showAs="נושא_משרה_בכירה" />
+        <TLCTerm eId="term_16" href="/ontology/term/נתוני_המשתמשים_במערכת_ההצבעה_האלקטרונית/100032418" showAs="נתוני_המשתמשים_במערכת_ההצבעה_האלקטרונית" />
+        <TLCTerm eId="term_17" href="/ontology/term/פרט_מזהה_נוסף/100032418" showAs="פרט_מזהה_נוסף" />
+        <TLCTerm eId="term_18" href="/ontology/term/קוד_בקרה/100032418" showAs="קוד_בקרה" />
+        <TLCTerm eId="term_19" href="/ontology/term/קוד_זיהוי/100032418" showAs="קוד_זיהוי" />
+        <TLCTerm eId="term_20" href="/ontology/term/שער_נעילה/100032418" showAs="שער_נעילה" />
+        <TLCTerm eId="term_21" href="/ontology/term/תקנות_הדיווח_האלקטרוני/100032418" showAs="תקנות_הדיווח_האלקטרוני" />
+        <TLCTerm eId="term_22" href="/ontology/term/תקנות_הדיווח_המיידי/100032418" showAs="תקנות_הדיווח_המיידי" />
+        <TLCTerm eId="term_23" href="/ontology/term/תקנות_הודעה_ומודעה/100032418" showAs="תקנות_הודעה_ומודעה" />
+        <TLCTerm eId="term_24" href="/ontology/term/מדד/100032418" showAs="מדד" />
+        <TLCTerm eId="term_25" href="/ontology/term/המדד_החדש/100032418" showAs="המדד_החדש" />
+        <TLCTerm eId="term_26" href="/ontology/term/המדד_היסודי/100032418" showAs="המדד_היסודי" />
+        <TLCTerm eId="term_27" href="/ontology/term/מועד_ההמצאה/100032418" showAs="מועד_ההמצאה" />
+        <TLCTerm eId="term_28" href="/ontology/term/מועד_משלוח/100032418" showAs="מועד_משלוח" />
+        <TLCPerson eId="ציפי_לבני" href="/ontology/person/ציפי_לבני" showAs="ציפי לבני" />
+        <TLCRole eId="שרת_המשפטים" href="ontology/role/akn/שרת_המשפטים" showAs="שרת המשפטים" />
+      </references>
+      <temporalData source="#kensset">
+        <temporalGroup eId="tmpg_1" />
+      </temporalData>
+      <Publication></Publication>
+      <proprietary wikiversion="11/2/2020 9:03:31 AM" />
+    </meta>
+    <body period="#tmpg_1">
+      <title eId="title">
+        <content>
+          <p>תקנות החברות (הצבעה בכתב והודעות עמדה), התשס"ו–2005</p>
+        </content>
+      </title>
+      <preamble eId="eId">
+        <p>בתוקף סמכותי לפי <ref href="/akn/il/act/PrimaryLegislation/1999-05-27/165159#point_89">סעיפים 89</ref>, <ref href="/akn/il/act/PrimaryLegislation/1999-05-27/165159#point_182">182(ג)</ref><ref href="/akn/il/act/PrimaryLegislation/1999-05-27/165159#point_366">ו־366</ref><ref href="/akn/il/act/PrimaryLegislation/1999-05-27/165159">לחוק החברות, התשנ"ט–1999</ref> (להלן – החוק), בהתייעצות עם שר האוצר ועם רשות ניירות ערך, ובאישור ועדת החוקה חוק ומשפט של הכנסת, אני מתקינה תקנות אלה:</p>
+      </preamble>
+      <list>
+        <point eId="point_1" class="definitions">
+          <heading>
+            <authorialNote placement="side">
+              <p>הגדרות</p>
+            </authorialNote>
+          </heading>
+          <num>1.</num>
+          <list>
+            <intro>
+              <p>בתקנות אלה –</p>
+            </intro>
+            <point eId="point_1__point_אישור_בעלות">
+              <content>
+                <p>
+                  <def />”אישור בעלות“ – כהגדרתו <ref href="/akn/il/act/PrimaryLegislation/1999-05-27/165159#point_71">בסעיף 71 לחוק</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_אסיפה_כללית">
+              <content>
+                <p>
+                  <def />”אסיפה כללית“ – לרבות אסיפת סוג;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_אתר_ההפצה">
+              <content>
+                <p>
+                  <def />”אתר ההפצה“ – כהגדרתו <ref href="/akn/il/act/SecondaryLegislation/2003-04-07/100031000">בתקנות הדיווח האלקטרוני</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_בורסה">
+              <content>
+                <p>
+                  <def />”בורסה“ – הבורסה לניירות ערך בתל אביב בע"מ;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_בעל_מניות_לא_רשום">
+              <content>
+                <p>
+                  <def />”בעל מניות לא רשום“ – בעל מניות לפי <ref href="/akn/il/act/PrimaryLegislation/1999-05-27/165159#point_177">סעיף 177(1) לחוק</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_הודעת_עמדה">
+              <content>
+                <p>
+                  <def />”הודעת עמדה“ – כמשמעותה <ref href="/akn/il/act/PrimaryLegislation/1999-05-27/165159#point_88">בסעיף 88 לחוק</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_החלטה_על_כינוס_אסיפה_כללית">
+              <content>
+                <p>
+                  <def />”החלטה על כינוס אסיפה כללית“ – בין לפי החלטת דירקטוריון החברה, בין כתוצאה מדרישה כאמור <ref href="/akn/il/act/PrimaryLegislation/1999-05-27/165159#point_63">בסעיף 63 לחוק</ref> ובין לפי הוראת בית המשפט כאמור <ref href="/akn/il/act/PrimaryLegislation/1999-05-27/165159#point_62">בסעיף 62</ref><ref href="/akn/il/act/PrimaryLegislation/1999-05-27/165159#point_65">או 65 לחוק</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_המועד_הקובע">
+              <content>
+                <p>
+                  <def />”המועד הקובע“ – כמשמעותו <ref href="/akn/il/act/PrimaryLegislation/1999-05-27/165159#point_182">בסעיף 182(ב) או (ג) לחוק</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_הצבעה_אלקטרונית">
+              <content>
+                <p>
+                  <def />”הצבעה אלקטרונית“ – הצבעה בכתב הצבעה באמצעות מערכת ההצבעה האלקטרונית;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_כתב_הצבעה">
+              <content>
+                <p>
+                  <def />”כתב הצבעה“ – כמשמעותו <ref href="/akn/il/act/PrimaryLegislation/1999-05-27/165159#point_87">בסעיף 87 לחוק</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_מניות">
+              <content>
+                <p>
+                  <def />”מניות“ – מניות המקנות זכות הצבעה באסיפה הכללית של החברה או באסיפת סוג;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_מערכת_ההצבעה_האלקטרונית">
+              <content>
+                <p>
+                  <def />”מערכת ההצבעה האלקטרונית“ או ”המערכת“ – המערכת הפועלת לפי <ref href="/akn/il/act/PrimaryLegislation/1968-08-22/150242#chp_ז2_sec_ב">סימן ב׳ לפרק ז׳2 לחוק ניירות ערך</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_מרשם_בעלי_המניות">
+              <content>
+                <p>
+                  <def />”מרשם בעלי המניות“ – לרבות המרשם הנוסף כהגדרתו <ref href="/akn/il/act/PrimaryLegislation/1999-05-27/165159#point_138">בסעיף 138(א) לחוק</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_משקיע_מוסדי">
+              <content>
+                <p>
+                  <def />”משקיע מוסדי“ – כהגדרתו <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/תקנות_הפיקוח_על_שירותים_פיננסיים_קופות_גמל_השתתפות_חברה_מנהלת_באסיפה_כללית#point_1">בתקנה 1 לתקנות הפיקוח על שירותים פיננסיים (קופות גמל) (השתתפות חברה מנהלת באסיפה כללית), התשס"ט–2009</ref>, וכן מנהל קרן להשקעות משותפות בנאמנות כמשמעותו <ref href="/akn/il/act/PrimaryLegislation/1994-08-23/155776">בחוק השקעות משותפות בנאמנות, התשנ"ד–1994</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_נושא_משרה_בכירה">
+              <content>
+                <p>
+                  <def />”נושא משרה בכירה“ – כהגדרתו <ref href="/akn/il/act/PrimaryLegislation/1968-08-22/150242#point_37">בסעיף 37(ד) לחוק ניירות ערך</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_נתוני_המשתמשים_במערכת_ההצבעה_האלקטרונית">
+              <content>
+                <p>
+                  <def />”נתוני המשתמשים במערכת ההצבעה האלקטרונית“ – כמשמעותם <ref href="/akn/il/act/PrimaryLegislation/1968-08-22/150242#point_44יא5">בסעיף 44יא5(א) לחוק ניירות ערך</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_פרט_מזהה_נוסף">
+              <content>
+                <p>
+                  <def />”פרט מזהה נוסף“ – <wikicomment font-size="x-small">(נמחקה);</wikicomment></p>
+              </content>
+            </point>
+            <point eId="point_1__point_קוד_בקרה">
+              <content>
+                <p>
+                  <def />”קוד בקרה“ – <wikicomment font-size="x-small">(נמחקה);</wikicomment></p>
+              </content>
+            </point>
+            <point eId="point_1__point_קוד_זיהוי">
+              <content>
+                <p>
+                  <def />”קוד זיהוי“ – <wikicomment font-size="x-small">(נמחקה);</wikicomment></p>
+              </content>
+            </point>
+            <point eId="point_1__point_שער_נעילה">
+              <content>
+                <p>
+                  <def />”שער נעילה“ – שער שקבעה הבורסה;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_תקנות_הדיווח_האלקטרוני">
+              <content>
+                <p>
+                  <def />”תקנות הדיווח האלקטרוני“ – <ref href="/akn/il/act/SecondaryLegislation/2003-04-07/100031000">תקנות ניירות ערך (חתימה ודיווח אלקטרוני), התשס"ג–2003</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_תקנות_הדיווח_המיידי">
+              <content>
+                <p>
+                  <def />”תקנות הדיווח המיידי“ – <ref href="/akn/il/act/SecondaryLegislation/2019-11-24/100043425">תקנות ניירות ערך (דוחות תקופתיים ומיידיים), התש"ל–1970</ref>;</p>
+              </content>
+            </point>
+            <point eId="point_1__point_תקנות_הודעה_ומודעה">
+              <content>
+                <p>
+                  <def />”תקנות הודעה ומודעה“ – <ref href="/akn/il/act/SecondaryLegislation/2000-05-18/100029100">תקנות החברות (הודעה ומודעה על אסיפה כללית ואסיפת סוג בחברה ציבורית והוספת נושא לסדר היום), התש"ס–2000</ref>.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_2">
+          <heading>
+            <authorialNote placement="side">
+              <p>הנושאים להצבעה בכתב</p>
+            </authorialNote>
+          </heading>
+          <num>2.</num>
+          <list>
+            <point eId="point_2__point_א">
+              <num>(א)</num>
+              <content>
+                <p>בחברה ציבורית רשאים בעלי מניות להצביע באסיפה כללית באמצעות כתב הצבעה אם נתקבלה החלטה על כינוס אסיפה כללית, שעל סדר יומה נושא מן הנושאים המנויים <ref href="/akn/il/act/PrimaryLegislation/1999-05-27/165159#point_87">בסעיף 87(א)(1) עד (5) לחוק</ref> וכן אם התקבלה החלטה על כינוס אסיפה כללית בחברה ציבורית, לפי <ref href="/akn/il/act/PrimaryLegislation/1999-05-27/165159#point_267א">סעיפים 267א</ref><ref href="/akn/il/act/PrimaryLegislation/1999-05-27/165159#point_350">ו־350 לחוק</ref>, אלא אם כן למיטב ידיעת החברה בעת ההחלטה על כינוס האסיפה הכללית, יחזיק בעל השליטה בחברה, במועד הקובע לכינוס האסיפה הכללית, מניות המקנות את השיעור הנדרש לקבלת ההחלטה שעל סדר יומה של האסיפה הכללית, בהנחה שכל שאר בעלי המניות ישתתפו בהצבעה ויצביעו נגדה.</p>
+              </content>
+            </point>
+            <point eId="point_2__point_א1">
+              <num>(א1)</num>
+              <content>
+                <p>נוסף על האמור בתקנת משנה (א), רשאי בעל מניה לפי <ref href="/akn/il/act/PrimaryLegislation/1999-05-27/165159#point_177">סעיף 177(1) לחוק</ref> להצביע בכל אסיפה כללית באמצעות כתב הצבעה שיועבר לחברה במערכת ההצבעה האלקטרונית.</p>
+              </content>
+            </point>
+            <point eId="point_2__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>חובות ההמצאה לרשות ניירות ערך ולבורסה לפי תקנות אלה לא יחולו על חברה שמניותיה הוצעו לציבור מחוץ לישראל בלבד או שהן רשומות בבורסה מחוץ לישראל בלבד.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_3">
+          <heading>
+            <authorialNote placement="side">
+              <p>המועד הקובע</p>
+            </authorialNote>
+          </heading>
+          <num>3.</num>
+          <content>
+            <p>התקבלה החלטה על כינוס אסיפה כאמור <ref href="#point_2">בתקנה 2(א)</ref>, תקבע החברה את המועד הקובע בהחלטה לזימון האסיפה הכללית, ובלבד שמועד זה יחול לא יותר מארבעים ימים ולא פחות מעשרים ושמונה ימים לפני מועד כינוס האסיפה הכללית.</p>
+          </content>
+        </point>
+        <point eId="point_4">
+          <heading>
+            <authorialNote placement="side">
+              <p>המצאת כתבי הצבעה ואישורי בעלות לבעלי המניות וחובות חבר בורסה</p>
+            </authorialNote>
+          </heading>
+          <num>4.</num>
+          <list>
+            <point eId="point_4__point_א">
+              <num>(א)</num>
+              <content>
+                <p>כונסה האסיפה הכללית לפי דרישה כאמור <ref href="/akn/il/act/PrimaryLegislation/1999-05-27/165159#point_63">בסעיף 63(ב) לחוק</ref>, יגישו לחברה, מי שלפי דרישתם כונסה האסיפה, נוסח של כתב הצבעה, במועד הגשת הדרישה.</p>
+              </content>
+            </point>
+            <point eId="point_4__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>חברה תמציא לרשות ניירות ערך ולבורסה, בהתאם <ref href="/akn/il/act/SecondaryLegislation/2003-04-07/100031000">לתקנות הדיווח האלקטרוני</ref>, נוסח של כתב הצבעה ביום פרסום ההודעה על כינוס אסיפה כללית. פרסמה החברה הודעה מתוקנת כאמור <ref href="/akn/il/act/SecondaryLegislation/2000-05-18/100029100#point_5ב">בתקנה 5ב לתקנות הודעה ומודעה</ref>, תמציא החברה נוסח מתוקן של כתב הצבעה לפי תקנה זו ביום פרסום ההודעה המתוקנת.</p>
+              </content>
+            </point>
+            <point eId="point_4__point_ב1">
+              <num>(ב1)</num>
+              <content>
+                <p>על אף האמור בתקנת משנה (ב), כתב הצבעה לאסיפה שחלה עליה <ref href="#point_2">תקנה 2(א1)</ref> יוזן למערכת ההצבעה האלקטרונית בלבד.</p>
+              </content>
+            </point>
+            <point eId="point_4__point_ג">
+              <num>(ג)</num>
+              <list>
+                <intro>
+                  <p>חבר הבורסה –</p>
+                </intro>
+                <point eId="point_4__point_ג__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>יזין למערכת ההצבעה האלקטרונית רשימה ובה הפרטים הנדרשים לפי <ref href="/akn/il/act/PrimaryLegislation/1968-08-22/150242#point_44יא4">סעיף 44יא4(א)(3) לחוק ניירות ערך</ref> לגבי כל אחד מבעלי המניות הלא רשומים המחזיקים ניירות ערך באמצעותו במועד הקובע (להלן בתקנות אלה – רשימת הזכאים להצביע במערכת); רשימת הזכאים להצביע במערכת תוזן במועד ובאופן שייקבעו לפי <ref href="/akn/il/act/PrimaryLegislation/1968-08-22/150242#point_44יא4">סעיף 44יא4(א)(1) לחוק ניירות ערך</ref>; ואולם חבר בורסה לא יכלול ברשימת הזכאים להצביע במערכת בעל מניות שהעביר לו עד השעה 12:00 בצהריים של המועד הקובע הודעה כי אינו מעוניין להיכלל ברשימת הזכאים להצביע במערכת, לפי <ref href="#point_13">תקנה 13(ד)</ref>;</p>
+                  </content>
+                </point>
+                <point eId="point_4__point_ג__point_1א">
+                  <num>(1א)</num>
+                  <content>
+                    <p>יעביר, סמוך ככל האפשר לאחר קבלת אישור מסירת הרשימה, לכל אחד מבעלי המניות המנויים ברשימת הזכאים להצביע במערכת ואשר מקבלים מחבר הבורסה הודעות באמצעים אלקטרוניים או באמצעות מערכות התקשורת המקושרות למחשב חבר הבורסה את הפרטים הנדרשים לשם הצבעה במערכת; בפסקה זו, ”אישור מסירת הרשימה“ – אישור מאת מערכת ההצבעה האלקטרונית על קבלה תקינה של רשימת הזכאים להצביע במערכת;</p>
+                  </content>
+                </point>
+                <point eId="point_4__point_ג__point_1ב">
+                  <num>(1ב)</num>
+                  <content>
+                    <p>חבר בורסה אשר מצא כי נפלה טעות ברשימה שהעביר למערכת ההצבעה האלקטרונית לפי פסקה (1), יעביר בהקדם האפשרי רשימה מתוקנת לפי הפסקה האמורה;</p>
+                  </content>
+                </point>
+                <point eId="point_4__point_ג__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>ישלח לא יאוחר מחמישה ימים לאחר המועד הקובע, בדואר אלקטרוני, בלא תמורה, קישורית לנוסח כתב ההצבעה, באתר ההפצה, לכל בעל מניות לא רשום המחזיק ניירות ערך באמצעותו, אלא אם כן הודיע בעל המניות לחבר הבורסה כי אין הוא מעוניין לקבל קישורית כאמור או שהודיע כי הוא מעוניין לקבל כתבי הצבעה בדואר תמורת דמי משלוח בלבד.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_4__point_ד">
+              <num>(ד)</num>
+              <content>
+                <p>בעל מניות רשאי לפנות לחברה ישירות ולקבל ממנה, בלא תמורה, את נוסח כתב ההצבעה, או בהסכמתו, קישורית לנוסח כתב ההצבעה באתר ההפצה.</p>
+              </content>
+            </point>
+            <point eId="point_4__point_ה">
+              <num>(ה)</num>
+              <content>
+                <p>בעל מניות לא רשום זכאי לקבל את אישור הבעלות לשם הצבעה באסיפה לפי <ref href="#point_2">תקנה 2</ref>, בסניף של חבר הבורסה או באמצעות הדואר אל מענו תמורת דמי משלוח בלבד, אם ביקש זאת.</p>
+              </content>
+            </point>
+            <point eId="point_4__point_ו">
+              <num>(ו)</num>
+              <content>
+                <p>חברה תשלח, בלא תמורה, לבעלי המניות הרשומים במרשם בעלי המניות כתב הצבעה ביום פרסום ההודעה על האסיפה הכללית.</p>
+              </content>
+            </point>
+            <point eId="point_4__point_ז">
+              <num>(ז)</num>
+              <content>
+                <p>חברה המפרסמת לגבי אסיפה כללית מסוימת, כתב הצבעה או הודעת עמדה, באמצעים נוספים על הקבועים בתקנות אלה, חייבת לפרסם באותם אמצעים את כל הודעות העמדה שקיבלה בקשר לאותה אסיפה.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_5">
+          <heading>
+            <authorialNote placement="side">
+              <p>אופן ההצבעה באמצעות כתב הצבעה</p>
+            </authorialNote>
+          </heading>
+          <num>5.</num>
+          <list>
+            <point eId="point_5__point_א">
+              <num>(א)</num>
+              <content>
+                <p>בעל מניות לא רשום המעוניין להצביע באסיפה הכללית בלי להגיע לאסיפה הכללית ובלי לשלוח מיופה כוח, רשאי להצביע בכתב בהתאם לתקנת משנה (ב), במערכת ההצבעה האלקטרונית, בהתאם לתקנת משנה (ג).</p>
+              </content>
+            </point>
+            <point eId="point_5__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>בהצבעה בכתב יציין בעל המניות על גבי החלק השני של כתב ההצבעה האמור <ref href="#point_7">בתקנה 7</ref>, אשר ייערך לפי הטופס <ref href="#appendix">שבתוספת</ref> (להלן – הטופס) את אופן הצבעתו וימסור אותו לחברה או ישלח לה אותו בדואר רשום בצירוף אישור בעלות, כך שכתב ההצבעה יגיע למשרדה הרשום של החברה לא יאוחר מארבע שעות לפני מועד כינוס האסיפה הכללית.</p>
+              </content>
+            </point>
+            <point eId="point_5__point_ג">
+              <num>(ג)</num>
+              <list>
+                <intro>
+                  <p>בעל מניות המופיע ברשימת הזכאים להצביע במערכת, רשאי לציין את אופן הצבעתו ולהעביר אותה לחברה באמצעות מערכת ההצבעה האלקטרונית, באופן שייקבע לפי <ref href="/akn/il/act/PrimaryLegislation/1968-08-22/150242#point_44יא4">סעיף 44יא4(א) לחוק ניירות ערך</ref> ובתנאים האלה:</p>
+                </intro>
+                <point eId="point_5__point_ג__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>ההצבעה תתאפשר החל ממועד אישור מסירת הרשימה ועד ארבע שעות לפני מועד כינוס האסיפה הכללית, או עד מועד מוקדם יותר שייקבע על ידי רשות ניירות ערך, ובלבד שלא יעלה על 12 שעות לפני כינוס האסיפה הכללית (בתקנה זו – מועד נעילת המערכת);</p>
+                  </content>
+                </point>
+                <point eId="point_5__point_ג__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>כתב הצבעה במערכת ההצבעה האלקטרונית יכלול את כל הפרטים הנדרשים לפי תקנות אלה, בהתאמות הנדרשות לשם תפעול המערכת שייקבעו לפי <ref href="/akn/il/act/PrimaryLegislation/1968-08-22/150242#point_44יא4">סעיף 44יא4(א) לחוק ניירות ערך</ref>;</p>
+                  </content>
+                </point>
+                <point eId="point_5__point_ג__point_3">
+                  <num>(3)</num>
+                  <content>
+                    <p>ההצבעה האלקטרונית תהיה ניתנת לשינוי או לביטול עד מועד נעילת המערכת, ולא יהיה ניתן לשנותה באמצעות המערכת אחרי מועד זה.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+            <point eId="point_5__point_ד">
+              <num>(ד)</num>
+              <content>
+                <p>בעל מניות הרשום במרשם בעלי המניות והמעוניין להצביע בכתב, יציין בטופס את אופן הצבעתו וימסור אותו לחברה או ישלח לה אותו בדואר רשום, בצירוף צילום תעודת הזהות שלו או צילום דרכונו או צילום תעודת ההתאגדות, כך שכתב ההצבעה יגיע למשרדה הרשום של החברה עד ארבע שעות לפני מועד כינוס האסיפה הכללית או מועד מוקדם יותר שנקבע כאמור בתקנת משנה (ג)(1).</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_6">
+          <heading>
+            <authorialNote placement="side">
+              <p>הודעות עמדה</p>
+            </authorialNote>
+          </heading>
+          <num>6.</num>
+          <list>
+            <point eId="point_6__point_א">
+              <num>(א)</num>
+              <content>
+                <p>החברה רשאית לצרף הודעת עמדה של הדירקטוריון לנוסח כתב ההצבעה המומצא לרשות ניירות ערך, לבורסה ולבעלי המניות הרשומים במרשם בעלי המניות לגבי נושא מן הנושאים המנויים <ref href="#point_2">בתקנה 2(א)</ref> אשר על סדר יומה של אסיפה כללית.</p>
+              </content>
+            </point>
+            <point eId="point_6__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>מי שהדירקטוריון מכנס לדרישתו אסיפה כללית, רשאי להמציא לחברה, יחד עם הדרישה, נוסח של הודעת עמדה; החברה תצרף נוסח של הודעת עמדה שהומצא לה כאמור, לנוסח כתב ההצבעה המומצא לרשות ניירות ערך, לבורסה ולבעלי המניות הרשומים במרשם בעלי המניות.</p>
+              </content>
+            </point>
+            <point eId="point_6__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>הודעת עמדה של בעל מניות תוגש עד עשרה ימים לפני מועד האסיפה (להלן – המועד האחרון למשלוח הודעות עמדה); החברה תמציא לרשות ניירות ערך ולבורסה, בהתאם <ref href="/akn/il/act/SecondaryLegislation/2003-04-07/100031000">לתקנות הדיווח האלקטרוני</ref>, את נוסח הודעת העמדה, עד חמישה ימים לפני מועד האסיפה.</p>
+              </content>
+            </point>
+            <point eId="point_6__point_ד">
+              <num>(ד)</num>
+              <content>
+                <p>בעל מניות רשאי לפנות לחברה ולקבל ממנה, בלא תמורה, את הודעות העמדה שהגיעו אליה.</p>
+              </content>
+            </point>
+            <point eId="point_6__point_ה">
+              <num>(ה)</num>
+              <content>
+                <p>חבר בורסה ישלח בדואר אלקטרוני, בלא תמורה, קישורית לנוסח הודעות העמדה, באתר ההפצה, לכל בעל מניות לא רשום המחזיק מניות באמצעותו, לא יאוחר מתום יום העסקים שלאחר יום פרסומו באתר ההפצה או שלאחר המועד הקובע, לפי המאוחר, אלא אם כן הודיע בעל המניות כאמור <ref href="#point_4">בתקנה 4(ג)(2)</ref>, כי אין הוא מעוניין בקבלת קישורית או שהוא מעוניין בקבלת כתבי הצבעה בדואר תמורת תשלום דמי משלוח בלבד; הודיע בעל המניות כי הוא מעוניין לקבל את כתבי ההצבעה תמורת דמי משלוח, ישלח חבר הבורסה גם את הודעות העמדה תמורת דמי משלוח בלבד.</p>
+              </content>
+            </point>
+            <point eId="point_6__point_ו">
+              <num>(ו)</num>
+              <content>
+                <p>חברה תשלח לבעלי המניות הרשומים במרשם בעלי המניות נוסח של כל הודעת עמדה, לא יאוחר מתום יום העסקים שלאחר קבלתו; הודעת עמדה הכוללת את תגובת הדירקטוריון כאמור <ref href="/akn/il/act/PrimaryLegislation/1999-05-27/165159#point_88">בסעיף 88(ג) לחוק</ref>, תישלח לבעלי מניות כאמור, ביום המצאתה לרשות ניירות ערך ולבורסה.</p>
+              </content>
+            </point>
+            <point eId="point_6__point_ז">
+              <num>(ז)</num>
+              <content>
+                <p>חברה רשאית לגבות תמורה סבירה, בשים לב לעלויות ההפצה, מבעל מניות שהגיש לה הודעת עמדה; הוגשה הודעת העמדה בידי בעל מניות אחד או יותר שיש להם במועד הקובע מניות בשווי עשרת אלפים שקלים חדשים <wikicomment font-size="x-small">(מתואם לשנת 2006; החל משנת 2018, 11,926.92 ש"ח)</wikicomment> או יותר, לפי שער הנעילה בבורסה ביום שקדם למועד הקובע – לא יעלה הסכום שתגבה החברה על 200 שקלים חדשים <wikicomment font-size="x-small">(מתואם לשנת 2006; החל משנת 2018, 238.56 ש"ח)</wikicomment>.</p>
+              </content>
+            </point>
+            <point eId="point_6__point_ח">
+              <num>(ח)</num>
+              <list>
+                <intro>
+                  <p>הסכומים הקבועים בתקנת משנה (ז) ישתנו ב־1 בינואר של כל שנה (להלן – יום השינוי), לפי שיעור השינוי של המדד החדש לעומת המדד היסודי; לענין זה –</p>
+                </intro>
+                <point eId="point_6__point_ח__point_מדד">
+                  <content>
+                    <p>
+                      <def />”מדד“ – מדד המחירים לצרכן שמפרסמת הלשכה המרכזית לסטטיסטיקה;</p>
+                  </content>
+                </point>
+                <point eId="point_6__point_ח__point_המדד_החדש">
+                  <content>
+                    <p>
+                      <def />”המדד החדש“ – המדד שפורסם לאחרונה לפני יום השינוי;</p>
+                  </content>
+                </point>
+                <point eId="point_6__point_ח__point_המדד_היסודי">
+                  <content>
+                    <p>
+                      <def />”המדד היסודי“ – המדד שפורסם לאחרונה לפני יום תחילתן של תקנות אלה.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+          </list>
+        </point>
+        <point eId="point_7">
+          <heading>
+            <authorialNote placement="side">
+              <p>נוסח כתב הצבעה</p>
+            </authorialNote>
+          </heading>
+          <num>7.</num>
+          <list>
+            <point eId="point_7__point_א">
+              <num>(א)</num>
+              <list>
+                <intro>
+                  <p>כתב הצבעה יהא מורכב משני חלקים; חלקו הראשון יכלול פרטים אלה כסדרם:</p>
+                </intro>
+                <point eId="point_7__point_א__point_1">
+                  <num>(1)</num>
+                  <content>
+                    <p>שמה של החברה;</p>
+                  </content>
+                </point>
+                <point eId="point_7__point_א__point_2">
+                  <num>(2)</num>
+                  <content>
+                    <p>סוג האסיפה הכללית, המועד והמקום לכינוסה;</p>
+                  </content>
+                </point>
+                <point eId="point_7__point_א__point_3">
+                  <num>(3)</num>
+                  <content>
+                    <p>פירוט סביר של כל נושא שבסדר היום, למעט מינוי דירקטורים, שחלות לגביו הוראות תקנות אלה; לצד כל אחד מן הנושאים יינתן תיאור טבעו של הנושא, תוך פירוט העובדות העיקריות הדרושות כדי להבין לאשורו כל ענין הטעון הצבעה באסיפה הכללית, ויובא נוסח של כל החלטה מוצעת או תיאור תמציתי של עיקריה; הפירוט הנדרש על פי פסקה זו יכלול לא יותר מ־500 מילים לגבי כל נושא שבסדר היום;</p>
+                  </content>
+                </point>
+                <point eId="point_7__point_א__point_4">
+                  <num>(4)</num>
+                  <content>
+                    <p>המקום והשעות שניתן לעיין בהם בנוסח המלא של ההחלטות המוצעות;</p>
+                  </content>
+                </point>
+                <point eId="point_7__point_א__point_5">
+                  <num>(5)</num>
+                  <list>
+                    <intro>
+                      <p>פרטים, למיטב ידיעת החברה, לגבי מועמד לכהונת דירקטור –</p>
+                    </intro>
+                    <point eId="point_7__point_א__point_5__point_א">
+                      <num>(א)</num>
+                      <content>
+                        <p>שאינו מכהן כדירקטור בחברה במועד כינוס האסיפה כמפורט <ref href="/akn/il/act/SecondaryLegislation/2019-11-24/100043425#point_26">בתקנה 26 לתקנות הדיווח המיידי</ref>;</p>
+                      </content>
+                    </point>
+                    <point eId="point_7__point_א__point_5__point_ב">
+                      <num>(ב)</num>
+                      <list>
+                        <intro>
+                          <p>המכהן כדירקטור בחברה:</p>
+                        </intro>
+                        <point eId="point_7__point_א__point_5__point_ב__point_1">
+                          <num>(1)</num>
+                          <content>
+                            <p>שמו;</p>
+                          </content>
+                        </point>
+                        <point eId="point_7__point_א__point_5__point_ב__point_2">
+                          <num>(2)</num>
+                          <content>
+                            <p>חברותו בוועדה או בוועדות של הדירקטוריון;</p>
+                          </content>
+                        </point>
+                        <point eId="point_7__point_א__point_5__point_ב__point_3">
+                          <num>(3)</num>
+                          <content>
+                            <p>השנה שהחלה בה כהונתו כדירקטור של החברה;</p>
+                          </content>
+                        </point>
+                        <point eId="point_7__point_א__point_5__point_ב__point_4">
+                          <num>(4)</num>
+                          <content>
+                            <p>כל פרט מן הפרטים הנדרשים לפי <ref href="/akn/il/act/SecondaryLegislation/2019-11-24/100043425#point_26">תקנה 26 לתקנות הדיווח המיידי</ref> אם חל בו שינוי מאז הגשת הדוח התקופתי האחרון של החברה; בפסקה זו, ”דוח תקופתי“ – כמשמעותו <ref href="/akn/il/act/SecondaryLegislation/2019-11-24/100043425">בתקנות הדיווח המיידי</ref>;</p>
+                          </content>
+                        </point>
+                      </list>
+                    </point>
+                  </list>
+                </point>
+                <point eId="point_7__point_א__point_6">
+                  <num>(6)</num>
+                  <content>
+                    <p>ציון כי ההצבעה לגבי כל מועמד לכהונת דירקטור תיעשה בנפרד, אלא אם כן נקבע אחרת בתקנון;</p>
+                  </content>
+                </point>
+                <point eId="point_7__point_א__point_7">
+                  <num>(7)</num>
+                  <content>
+                    <p>הרוב הדרוש לקבלת החלטה באסיפה הכללית בכל אחד מן הנושאים שעל סדר היום;</p>
+                  </content>
+                </point>
+                <point eId="point_7__point_א__point_8">
+                  <num>(8)</num>
+                  <content>
+                    <p>נכלל בסדר היום נושא המחייב גילוי הזיקה או מאפיין אחר של בעל המניות כאמור בחלק השני של כתב ההצבעה לפי הטופס <ref href="#appendix">שבתוספת</ref> – פירוט אותו נושא והסימון הנדרש לגביו, וכן ציון כי בחלק השני של כתב ההצבעה מוקצה מקום לסימון קיומה או העדרה של זיקה או מאפיין אחר של בעל המניות כאמור, וכן לתיאור שלהם, והבהרה שמי שלא סימן, או סימן ”כן“ ולא תיאר כאמור – לא תבוא הצבעתו במניין;</p>
+                  </content>
+                </point>
+                <point eId="point_7__point_א__point_9">
+                  <num>(9)</num>
+                  <content>
+                    <p>ציון שלכתב ההצבעה יהיה תוקף לגבי בעל מניות לא רשום רק אם צורף לו אישור בעלות או אם נשלח לחברה אישור בעלות באמצעות מערכת ההצבעה האלקטרונית;</p>
+                  </content>
+                </point>
+                <point eId="point_7__point_א__point_9א">
+                  <num>(9א)</num>
+                  <content>
+                    <p>ציון שלכתב ההצבעה יהיה תוקף לגבי בעל מניות לפי <ref href="/akn/il/act/PrimaryLegislation/1999-05-27/165159#point_177">סעיף 177(2) לחוק</ref> רק אם צורף לו צילום תעודת זהות, דרכון או תעודת התאגדות;</p>
+                  </content>
+                </point>
+                <point eId="point_7__point_א__point_9ב">
+                  <num>(9ב)</num>
+                  <content>
+                    <p>ציון מועד נעילת המערכת וכי יש להמציא את כתב ההצבעה לחברה עד מועד זה;</p>
+                  </content>
+                </point>
+                <point eId="point_7__point_א__point_10">
+                  <num>(10)</num>
+                  <content>
+                    <p>ציון כי בעל מניות לא רשום רשאי להצביע באמצעות מערכת ההצבעה האלקטרונית;</p>
+                  </content>
+                </point>
+                <point eId="point_7__point_א__point_11">
+                  <num>(11)</num>
+                  <content>
+                    <p>מען מדויק של החברה למסירת כתבי ההצבעה והודעות העמדה;</p>
+                  </content>
+                </point>
+                <point eId="point_7__point_א__point_12">
+                  <num>(12)</num>
+                  <content>
+                    <p>המועד האחרון להמצאת הודעות עמדה לחברה והמועד האחרון להמצאת תגובת הדירקטוריון להודעות העמדה;</p>
+                  </content>
+                </point>
+                <point eId="point_7__point_א__point_13">
+                  <num>(13)</num>
+                  <content>
+                    <p>כתובות אתר ההפצה ואתר האינטרנט של הבורסה שמצויים בהם כתבי ההצבעה והודעות העמדה;</p>
+                  </content>
+                </point>
+                <point eId="point_7__point_א__point_14">
+                  <num>(14)</num>
+                  <content>
+                    <p>ציון כי בעל מניות זכאי לקבל את אישור הבעלות בסניף של חבר הבורסה או במשלוח בדואר, אם ביקש זאת, וכי בקשה לענין זה תינתן מראש לחשבון ניירות ערך מסוים וכן כי בעל מניות לא רשום רשאי להורות שאישור הבעלות שלו יועבר לחברה באמצעות מערכת ההצבעה האלקטרונית;</p>
+                  </content>
+                </point>
+                <point eId="point_7__point_א__point_15">
+                  <num>(15)</num>
+                  <content>
+                    <p>ציון כי בעל מניות לא רשום זכאי לקבל בדואר אלקטרוני בלא תמורה קישורית לנוסח כתב ההצבעה והודעות העמדה באתר ההפצה, מאת חבר הבורסה שבאמצעותו הוא מחזיק במניותיו, אלא אם כן הודיע לחבר הבורסה כי אין הוא מעוניין לקבל קישורית כאמור או שהוא מעוניין לקבל כתבי הצבעה בדואר תמורת תשלום; הודעתו לענין כתבי ההצבעה תחול גם לענין קבלת הודעות העמדה;</p>
+                  </content>
+                </point>
+                <point eId="point_7__point_א__point_16">
+                  <num>(16)</num>
+                  <content>
+                    <p>ציון כי בעל מניות אחד או יותר המחזיק מניות בשיעור המהווה חמישה אחוזים או יותר מסך כל זכויות ההצבעה בחברה, וכן מי שמחזיק בשיעור כאמור מתוך סך כל זכויות ההצבעה שאינן מוחזקות בידי בעל השליטה בחברה כהגדרתו <ref href="/akn/il/act/PrimaryLegislation/1999-05-27/165159#point_268">בסעיף 268 לחוק</ref>, זכאי לעיין בכתבי ההצבעה כמפורט <ref href="#point_10">בתקנה 10</ref>, וכן ציון כמות המניות המהווה חמישה אחוזים כאמור; בעל מניות יציין את אופן הצבעתו לגבי כל נושא שעל סדר היום בטופס שהוא חלקו השני של כתב ההצבעה האמור <ref href="#point_5">בתקנה 5(ב)</ref>;</p>
+                  </content>
+                </point>
+                <point eId="point_7__point_א__point_17">
+                  <num>(17)</num>
+                  <content>
+                    <p>ציון כי לאחר פרסום כתב ההצבעה ייתכן שיהיו שינויים בסדר היום, לרבות הוספת נושא לסדר היום, עשויות להתפרסם הודעות עמדה, ויהיה ניתן לעיין בסדר היום העדכני ובהודעות עמדה שהתפרסמו בדיווחי החברה שבאתר ההפצה;</p>
+                  </content>
+                </point>
+                <point eId="point_7__point_א__point_18">
+                  <num>(18)</num>
+                  <content>
+                    <p>ציון המועד האחרון שבו החברה תמציא כתב הצבעה מתוקן בהתאם לאמור בסיפה של <ref href="#point_4">תקנה 4(ב)</ref>, אם תתבקש הוספת נושא לסדר היום.</p>
+                  </content>
+                </point>
+              </list>
+            </point>
+          </list>
+        </point>
+        <point eId="point_8">
+          <heading>
+            <authorialNote placement="side">
+              <p>נוסח הודעת עמדה</p>
+            </authorialNote>
+          </heading>
+          <num>8.</num>
+          <list>
+            <point eId="point_8__point_א">
+              <num>(א)</num>
+              <content>
+                <p>הודעת העמדה תיערך בשפה בהירה תמציתית פשוטה ומובנת, היא תכלול לא יותר מ־500 מילים לכל נושא שעל סדר היום.</p>
+              </content>
+            </point>
+            <point eId="point_8__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>אם היא הודעת עמדה של בעל מניות, היא תכלול את זהותו של בעל המניות ואת שיעור החזקותיו במניות החברה; היה בעל מניות תאגיד, יפורטו גם זהות בעל שליטה בו והחזקות נוספות של אותו בעל שליטה במניות החברה, למיטב ידיעתו של בעל המניות.</p>
+              </content>
+            </point>
+            <point eId="point_8__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>בעל מניות המגיש הודעת עמדה, הפועל בשיתוף פעולה עם אחרים לענין ההצבעה באסיפה הכללית, דרך כלל או לגבי נושא מן הנושאים שעל סדר היום, יציין זאת בהודעת העמדה ויפרט את הסדרי שיתוף הפעולה וזהותם של בעלי המניות הפועלים בשיתוף פעולה; היה לבעל המניות או לאדם אחר הפועל עמו בשיתוף פעולה, ענין אישי בתוצאות ההצבעה באסיפה כללית, יצוין טיבו של הענין האישי.</p>
+              </content>
+            </point>
+            <point eId="point_8__point_ד">
+              <num>(ד)</num>
+              <content>
+                <p>הודעת עמדה של בעלי מניות אשר לבקשתם זומנה אסיפה כללית בהתאם <ref href="/akn/il/act/PrimaryLegislation/1999-05-27/165159#point_63">לסעיף 63(ב)(2) לחוק</ref>, תכלול גם את העובדה כי האסיפה זומנה לדרישתם.</p>
+              </content>
+            </point>
+            <point eId="point_8__point_ה">
+              <num>(ה)</num>
+              <content>
+                <p>הכללת פרטים בהודעת עמדה אין בה כדי לגרוע מחובות הדיווח לפי <ref href="/akn/il/act/PrimaryLegislation/1968-08-22/150242">חוק ניירות ערך</ref> ולפי כל דין.</p>
+              </content>
+            </point>
+            <point eId="point_8__point_ו">
+              <num>(ו)</num>
+              <content>
+                <p>האחריות לתוכן הודעת העמדה, לפי כל דין תהיה על מגיש הודעת העמדה בלבד.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_9">
+          <heading>
+            <authorialNote placement="side">
+              <p>אפשרות ביטול כתב הצבעה</p>
+            </authorialNote>
+          </heading>
+          <num>9.</num>
+          <content>
+            <p>בעל מניות רשאי, עד 24 שעות לפני מועד כינוס האסיפה הכללית, לפנות למשרדה הרשום של החברה ולאחר שהוכיח את זהותו להנחת דעתו של מזכיר החברה, או עובד אחר שמונה לענין זה, למשוך את כתב ההצבעה ואישור הבעלות שלו.</p>
+          </content>
+        </point>
+        <point eId="point_10">
+          <heading>
+            <authorialNote placement="side">
+              <p>עיון בכתבי ההצבעה</p>
+            </authorialNote>
+          </heading>
+          <num>10.</num>
+          <list>
+            <point eId="point_10__point_א">
+              <num>(א)</num>
+              <content>
+                <p>בעל מניות אחד או יותר המחזיק במועד הקובע מניות בשיעור המהווה חמישה אחוזים או יותר מסך כל זכויות ההצבעה בחברה, וכן מי שמחזיק בשיעור כאמור מתוך סך כל זכויות ההצבעה אשר אינן מוחזקות בידי בעל שליטה בחברה כהגדרתו <ref href="/akn/il/act/PrimaryLegislation/1999-05-27/165159#point_268">בסעיף 268 לחוק</ref>, זכאי בעצמו או באמצעות שלוח מטעמו, לאחר כינוס האסיפה הכללית, לעיין במשרדה הרשום של החברה, בשעות העבודה המקובלות, בכתבי ההצבעה וברישומי ההצבעה באמצעות מערכת ההצבעה האלקטרונית שהגיעו לחברה.</p>
+              </content>
+            </point>
+            <point eId="point_10__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>רשאי בית המשפט, לבקשת בעל מניות שאינו מחזיק במועד הקובע מניות בשיעור האמור בתקנת משנה (א), להורות לחברה לאפשר לבעל המניות לעיין במסמכים וברישומים המפורטים בתקנת משנה (א) כולם או חלקם בתנאים שיקבע.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_11">
+          <heading>
+            <authorialNote placement="side">
+              <p>תוצאות ההצבעה בכתב</p>
+            </authorialNote>
+          </heading>
+          <num>11.</num>
+          <list>
+            <point eId="point_11__point_א">
+              <num>(א)</num>
+              <content>
+                <p>הדירקטוריון ימנה אדם מטעמו (להלן – הממונה) לספירת קולותיהם של בעלי המניות שהצביעו באמצעות כתבי הצבעה ובהצבעה אלקטרונית.</p>
+              </content>
+            </point>
+            <point eId="point_11__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>הממונה יערוך דין וחשבון שבו יפורט אופן הצבעתם של בעלי המניות בהתייחס לקיומה של זיקה כאמור <ref href="#point_7">בתקנה 7(א)(8)</ref>, כאשר נדרש הפירוט.</p>
+              </content>
+            </point>
+            <point eId="point_11__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>הממונה יצהיר, בחתימתו על גבי הדין וחשבון, כי אלה הן תוצאות ההצבעה בכתב וההצבעה האלקטרונית; זהותו תאומת על גבי הדין וחשבון בידי עורך דין.</p>
+              </content>
+            </point>
+            <point eId="point_11__point_ד">
+              <num>(ד)</num>
+              <content>
+                <p>הדין וחשבון יוצג לפני האסיפה הכללית.</p>
+              </content>
+            </point>
+            <point eId="point_11__point_ה">
+              <num>(ה)</num>
+              <content>
+                <p>כתבי ההצבעה, נתוני המשתמשים במערכת ההצבעה האלקטרונית והדין וחשבון יישמרו במשרדה הרשום של החברה למשך שבע שנים מן המועד שבו התכנסה האסיפה הכללית.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_12" class="definitions">
+          <heading>
+            <authorialNote placement="side">
+              <p>מועדים</p>
+            </authorialNote>
+          </heading>
+          <num>12.</num>
+          <list>
+            <intro>
+              <p>בתקנות אלה –</p>
+            </intro>
+            <point eId="point_12__point_מועד_ההמצאה">
+              <content>
+                <p>
+                  <def />”מועד ההמצאה“ – המועד שהגיעו בו כתבי ההצבעה, הודעות העמדה ואישור הבעלות אל יעדם;</p>
+              </content>
+            </point>
+            <point eId="point_12__point_מועד_משלוח">
+              <content>
+                <p>
+                  <def />”מועד משלוח“ – המועד שיצאו בו כתבי ההצבעה, הודעות העמדה ואישורי הבעלות, מידי השולח.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_13">
+          <heading>
+            <authorialNote placement="side">
+              <p>חובות חבר בורסה</p>
+            </authorialNote>
+          </heading>
+          <num>13.</num>
+          <list>
+            <point eId="point_13__point_א">
+              <num>(א)</num>
+              <content>
+                <p>בעת פתיחת חשבון ניירות ערך ירשום חבר הבורסה אם בעל המניות מעוניין לקבל קישורית לנוסח כתבי הצבעה והודעות עמדה באתר ההפצה בדואר אלקטרוני בלא תמורה, או כתבי הצבעה והודעות עמדה בדואר תמורת דמי משלוח, או שאינו מעוניין כלל כי יישלחו לו קישוריות או כתבי הצבעה והודעות עמדה כאמור, כמו כן ירשום חבר הבורסה אם בעל המניות מעוניין לקבל את אישורי הבעלות למענו באמצעות הדואר תמורת תשלום דמי משלוח בלבד; הוראות בעל המניות כאמור יינתנו לגבי חשבון ניירות הערך ולא לגבי ניירות ערך מסוימים המוחזקים בחשבון; בעל המניות יאשר בחתימתו על גבי טופס מיוחד את בחירתו וכי הובאו לידיעתו האפשרויות המפורטות בתקנת משנה זו.</p>
+              </content>
+            </point>
+            <point eId="point_13__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>בעל מניות רשאי, בכל עת, לשנות מן ההוראות שנתן בעת פתיחת החשבון וחבר הבורסה יפעל לפי ההוראות החדשות לגבי אסיפות כלליות שהמועד הקובע שלהן מאוחר למועד השינוי.</p>
+              </content>
+            </point>
+            <point eId="point_13__point_ג">
+              <num>(ג)</num>
+              <content>
+                <p>חבר בורסה לא יימנע משליחת המידע לפי <ref href="#point_4">תקנה 4(ג)</ref> לבעל מניות לא רשום ולמערכת אלא אם כן קיבל מבעל המניה הודעה לפי תקנת משנה (ד).</p>
+              </content>
+            </point>
+            <point eId="point_13__point_ד">
+              <num>(ד)</num>
+              <content>
+                <p>בעל מניות לא רשום רשאי, בכל עת, להודיע בכתב לחבר הבורסה שבאמצעותו הוא מחזיק במניות כי הוא אינו מעוניין להיכלל ברשימת הזכאים להצביע במערכת; עשה כן, לא יעביר חבר הבורסה מידע לגביו בהתאם לתקנות אלה, כל עוד לא קיבל הודעה אחרת ממנו, והכול בכפוף להוראות <ref href="#point_4">תקנה 4(ג)(1)</ref>;
+הוראות בעל מניות כאמור יינתנו לגבי חשבון ניירות הערך ולא לגבי ניירות ערך מסוימים המוחזקים בחשבון.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+        <point eId="point_14">
+          <heading>
+            <authorialNote placement="side">
+              <p>תחילה</p>
+            </authorialNote>
+          </heading>
+          <num>14.</num>
+          <content>
+            <p>תחילתן של תקנות אלה, למעט <ref href="#point_13">תקנה 13</ref>, ביום ד׳ בניסן התשס"ו (2 באפריל 2006) (להלן – יום התחילה) והן יחולו על אסיפה כללית שההודעה עליה פורסמה ביום התחילה או אחריו; תחילתה של <ref href="#point_13">תקנה 13</ref>, שלושים ימים מיום פרסומה.</p>
+          </content>
+        </point>
+        <point eId="point_15">
+          <heading>
+            <authorialNote placement="side">
+              <p>הוראת מעבר</p>
+            </authorialNote>
+          </heading>
+          <num>15.</num>
+          <list>
+            <point eId="point_15__point_א">
+              <num>(א)</num>
+              <content>
+                <p>חבר בורסה ישלח, בתוך שלושים ימים מיום פרסומן של תקנות אלה, לבעלי מניות שחשבונות ניירות הערך שלהם נפתחו לפני יום פרסומן של תקנות אלה, הודעה בדואר שהוא מבקש בה מבעל המניות להורות כמפורט <ref href="#point_13">בתקנה 13</ref>; לא השיב בעל המניות לפניה, ישלח חבר הבורסה קישורית לנוסח כתבי העמדה וההצבעה באתר הפצה, לכתובת הדואר האלקטרוני המצויה בידיו; אין בידי חבר הבורסה כתובת דואר אלקטרוני של בעל המניות, יראו כאילו הודיע בעל המניות ביחס לאותו חשבון ניירות ערך, כי אין הוא מעוניין דרך כלל, לקבל קישורית כאמור, כל עוד לא הודיע אחרת לחבר הבורסה.</p>
+              </content>
+            </point>
+            <point eId="point_15__point_ב">
+              <num>(ב)</num>
+              <content>
+                <p>על אף האמור בתקנת משנה (א), חברה רשאית לבקש מחבר הבורסה לשלוח בדואר, בתמורה שתיקבע מראש בין הצדדים, ולא יאוחר מעשרה ימים מיום הבקשה, לבעל מניות שלא השיב לפניית חבר הבורסה כתב הצבעה והודעות עמדה; ביקשה החברה כאמור – יישלחו לבעל המניות כל הודעות העמדה.</p>
+              </content>
+            </point>
+          </list>
+        </point>
+      </list>
+      <subtitle eId="eId">
+        <num></num>
+        <content>
+          <p>תוספת</p>
+        </content>
+      </subtitle>
+      <subtitle eId="eId">
+        <num></num>
+        <content>
+          <p>
+            <wikicomment font-size="x-small">(<ref href="#point_5">תקנה 5(א)</ref>)</wikicomment>
+          </p>
+        </content>
+      </subtitle>
+      <subtitle eId="eId">
+        <num>חלק שני</num>
+        <content>
+          <p>כתב הצבעה – </p>
+        </content>
+      </subtitle>
+      <list>
+        <point eId="point_none">
+          <heading>
+            <authorialNote placement="side">
+              <p xml:space="preserve"> </p>
+            </authorialNote>
+          </heading>
+          <num></num>
+          <content>
+            <p>
+              <wikicomment font-size="x-small">(הטופס הושמט)</wikicomment>
+            </p>
+          </content>
+        </point>
+      </list>
+    </body>
+    <conclusions eId="eId">
+      <p class="signatures">
+        <signature>
+          <p>
+            <person refersTo="ציפי_לבני">ציפי לבני</person>
+            <role refersTo="שרת_המשפטים">שרת המשפטים</role>
+          </p>
+        </signature>
+      </p>
+    </conclusions>
+  </act>
+</akomaNtoso>

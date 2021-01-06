@@ -1,0 +1,3603 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion" name="publicLaw">
+    <meta>
+      <identification source="#kensset">
+        <FRBRWork>
+          <FRBRthis value="/akn/il/act/PrimaryLegislation/2011-04-10/407876/main" />
+          <FRBRuri value="/akn/il/act/PrimaryLegislation/2011-04-10/407876" />
+          <FRBRdate date="2011-04-10" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRcountry value="israel" />
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/il/act/PrimaryLegislation/2011-04-10/407876/he@/main" />
+          <FRBRuri value="/akn/il/act/PrimaryLegislation/2011-04-10/407876/he@" />
+          <FRBRdate date="2011-04-10" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRlanguage language="hebrew" />
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/il/act/PrimaryLegislation/2011-04-10/407876/he@/main.xml" />
+          <FRBRuri value="/akn/il/act/PrimaryLegislation/2011-04-10/407876/he@" />
+          <FRBRdate date="2011-04-10" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRformat value="xml" />
+        </FRBRManifestation>
+      </identification>
+      <classification source="#kensset">
+        <keyword value="{classificationValue}" showAs="{classificationValue}" dictionary="#classification_dictionary" />
+      </classification>
+      <lifecycle source="#kensset">
+        <eventRef eId="eventRef_1" date="2011-04-10" source="#kensset" type="generation" />
+      </lifecycle>
+      <references source="#kensset">
+        <TLCOrganization eId="kensset" href="/ontology/organization/akn/knesset" showAs="Kensset" type="generation" />
+        <TLCRole eId="author" href="/ontology/role/akn/author" showAs="Author of Document" />
+        <TLCProcess eId="inforce" href="/ontology/process/akn/inforce" showAs="In force" />
+        <TLCTerm eId="term_1" href="/ontology/term/דולר/407876" showAs="דולר" />
+        <TLCTerm eId="term_2" href="/ontology/term/היטל/407876" showAs="היטל" />
+        <TLCTerm eId="term_3" href="/ontology/term/היתר_מוקדם/407876" showAs="היתר_מוקדם" />
+        <TLCTerm eId="term_4" href="/ontology/term/הוועדה/407876" showAs="הוועדה" />
+        <TLCTerm eId="term_5" href="/ontology/term/זכות_נפט/407876" showAs="זכות_נפט" />
+        <TLCTerm eId="term_6" href="/ontology/term/זכות_נפט_של_מיזם_נפט/407876" showAs="זכות_נפט_של_מיזם_נפט" />
+        <TLCTerm eId="term_7" href="/ontology/term/חוק_הנפט/407876" showAs="חוק_הנפט" />
+        <TLCTerm eId="term_8" href="/ontology/term/יחסים_מיוחדים/407876" showAs="יחסים_מיוחדים" />
+        <TLCTerm eId="term_9" href="/ontology/term/מדד/407876" showAs="מדד" />
+        <TLCTerm eId="term_10" href="/ontology/term/מועד_תחילת_ההפקה_המסחרית/407876" showAs="מועד_תחילת_ההפקה_המסחרית" />
+        <TLCTerm eId="term_11" href="/ontology/term/מיזם_נפט/407876" showAs="מיזם_נפט" />
+        <TLCTerm eId="term_12" href="/ontology/term/מכירה/407876" showAs="מכירה" />
+        <TLCTerm eId="term_13" href="/ontology/term/המנהל/407876" showAs="המנהל" />
+        <TLCTerm eId="term_14" href="/ontology/term/מקדם_ההיטל/407876" showAs="מקדם_ההיטל" />
+        <TLCTerm eId="term_15" href="/ontology/term/מקדם_היטל_יחסי/407876" showAs="מקדם_היטל_יחסי" />
+        <TLCTerm eId="term_16" href="/ontology/term/הפקודה/407876" showAs="הפקודה" />
+        <TLCTerm eId="term_17" href="/ontology/term/הפרשי_הצמדה/407876" showAs="הפרשי_הצמדה" />
+        <TLCTerm eId="term_18" href="/ontology/term/הפרשי_הצמדה_וריבית/407876" showAs="הפרשי_הצמדה_וריבית" />
+        <TLCTerm eId="term_19" href="/ontology/term/רווחי_נפט/407876" showAs="רווחי_נפט" />
+        <TLCTerm eId="term_20" href="/ontology/term/שותף_מנהל/407876" showAs="שותף_מנהל" />
+        <TLCTerm eId="term_21" href="/ontology/term/שיעור_עליית_המדד/407876" showAs="שיעור_עליית_המדד" />
+        <TLCTerm eId="term_22" href="/ontology/term/תקבול/407876" showAs="תקבול" />
+        <TLCTerm eId="term_23" href="/ontology/term/מועד_ההעברה/407876" showAs="מועד_ההעברה" />
+        <TLCTerm eId="term_24" href="/ontology/term/מחיר_הממוצע_המקומי/407876" showAs="מחיר_הממוצע_המקומי" />
+        <TLCTerm eId="term_25" href="/ontology/term/תקופת_ההקמה/407876" showAs="תקופת_ההקמה" />
+        <TLCTerm eId="term_26" href="/ontology/term/תקופת_ההרצה/407876" showAs="תקופת_ההרצה" />
+        <TLCTerm eId="term_27" href="/ontology/term/תקופת_החיפוש/407876" showAs="תקופת_החיפוש" />
+        <TLCTerm eId="term_28" href="/ontology/term/תשלום/407876" showAs="תשלום" />
+        <TLCTerm eId="term_29" href="/ontology/term/השר/407876" showAs="השר" />
+        <TLCTerm eId="term_30" href="/ontology/term/שיעור_היטל_יחסי/407876" showAs="שיעור_היטל_יחסי" />
+        <TLCTerm eId="term_31" href="/ontology/term/תקבולים_שוטפים/407876" showAs="תקבולים_שוטפים" />
+        <TLCTerm eId="term_32" href="/ontology/term/תשלומים_שוטפים/407876" showAs="תשלומים_שוטפים" />
+        <TLCTerm eId="term_33" href="/ontology/term/תקבולים_מצטברים/407876" showAs="תקבולים_מצטברים" />
+        <TLCTerm eId="term_34" href="/ontology/term/תשלומים_מצטברים/407876" showAs="תשלומים_מצטברים" />
+        <TLCTerm eId="term_35" href="/ontology/term/השקעות_חיפוש_נטו_בתקופת_החיפוש/407876" showAs="השקעות_חיפוש_נטו_בתקופת_החיפוש" />
+        <TLCTerm eId="term_36" href="/ontology/term/השקעות_החיפוש/407876" showAs="השקעות_החיפוש" />
+        <TLCTerm eId="term_37" href="/ontology/term/תקבולי_החיפוש/407876" showAs="תקבולי_החיפוש" />
+        <TLCTerm eId="term_38" href="/ontology/term/מקדם_החיפוש/407876" showAs="מקדם_החיפוש" />
+        <TLCTerm eId="term_39" href="/ontology/term/השקעות_הקמה_נטו_בתקופת_ההקמה/407876" showAs="השקעות_הקמה_נטו_בתקופת_ההקמה" />
+        <TLCTerm eId="term_40" href="/ontology/term/השקעות_ההקמה/407876" showAs="השקעות_ההקמה" />
+        <TLCTerm eId="term_41" href="/ontology/term/תקבולי_הקמה/407876" showAs="תקבולי_הקמה" />
+        <TLCTerm eId="term_42" href="/ontology/term/מקדם_ההקמה/407876" showAs="מקדם_ההקמה" />
+        <TLCTerm eId="term_43" href="/ontology/term/יחסים_מיוחדים/407876" showAs="יחסים_מיוחדים" />
+        <TLCTerm eId="term_44" href="/ontology/term/מחיר_השוק/407876" showAs="מחיר_השוק" />
+        <TLCTerm eId="term_45" href="/ontology/term/שותפות_נפט/407876" showAs="שותפות_נפט" />
+        <TLCTerm eId="term_46" href="/ontology/term/שותף_כללי/407876" showAs="שותף_כללי" />
+        <TLCTerm eId="term_47" href="/ontology/term/נכס_בר_ניכוי/407876" showAs="נכס_בר_ניכוי" />
+        <TLCTerm eId="term_48" href="/ontology/term/הוצאות_חיפוש_ופיתוח/407876" showAs="הוצאות_חיפוש_ופיתוח" />
+        <TLCTerm eId="term_49" href="/ontology/term/נכס_נפט/407876" showAs="נכס_נפט" />
+        <TLCTerm eId="term_50" href="/ontology/term/בעל_זכות_לניצול_משאב_טבע/407876" showAs="בעל_זכות_לניצול_משאב_טבע" />
+        <TLCTerm eId="term_51" href="/ontology/term/דולר/407876" showAs="דולר" />
+        <TLCTerm eId="term_52" href="/ontology/term/היטל_רווחי_יתר/407876" showAs="היטל_רווחי_יתר" />
+        <TLCTerm eId="term_53" href="/ontology/term/הפקה/407876" showAs="הפקה" />
+        <TLCTerm eId="term_54" href="/ontology/term/חוק_זיכיון_ים_המלח/407876" showAs="חוק_זיכיון_ים_המלח" />
+        <TLCTerm eId="term_55" href="/ontology/term/חוק_ניירות_ערך/407876" showAs="חוק_ניירות_ערך" />
+        <TLCTerm eId="term_56" href="/ontology/term/כללי_החשבונאות_המקובלים/407876" showAs="כללי_החשבונאות_המקובלים" />
+        <TLCTerm eId="term_57" href="/ontology/term/מחצב/407876" showAs="מחצב" />
+        <TLCTerm eId="term_58" href="/ontology/term/מחצב_גולמי/407876" showAs="מחצב_גולמי" />
+        <TLCTerm eId="term_59" href="/ontology/term/משאב_טבע/407876" showAs="משאב_טבע" />
+        <TLCTerm eId="term_60" href="/ontology/term/נכסים_בלתי_מוחשיים/407876" showAs="נכסים_בלתי_מוחשיים" />
+        <TLCTerm eId="term_61" href="/ontology/term/העלות_המופחתת_של_הרכוש_הקבוע/407876" showAs="העלות_המופחתת_של_הרכוש_הקבוע" />
+        <TLCTerm eId="term_62" href="/ontology/term/רווחי_יתר/407876" showAs="רווחי_יתר" />
+        <TLCTerm eId="term_63" href="/ontology/term/רווח_תפעולי_מתואם/407876" showAs="רווח_תפעולי_מתואם" />
+        <TLCTerm eId="term_64" href="/ontology/term/רכוש_קבוע/407876" showAs="רכוש_קבוע" />
+        <TLCTerm eId="term_65" href="/ontology/term/רווח_תפעולי/407876" showAs="רווח_תפעולי" />
+        <TLCTerm eId="term_66" href="/ontology/term/הוצאות_פחת/407876" showAs="הוצאות_פחת" />
+        <TLCTerm eId="term_67" href="/ontology/term/הון_חוזר/407876" showAs="הון_חוזר" />
+        <TLCTerm eId="term_68" href="/ontology/term/הון_חוזר_ממוצע/407876" showAs="הון_חוזר_ממוצע" />
+        <TLCTerm eId="term_69" href="/ontology/term/יחידת_ברום/407876" showAs="יחידת_ברום" />
+        <TLCTerm eId="term_70" href="/ontology/term/מוצרי_המשך/407876" showAs="מוצרי_המשך" />
+        <TLCTerm eId="term_71" href="/ontology/term/פעילות_המשך/407876" showAs="פעילות_המשך" />
+        <TLCTerm eId="term_72" href="/ontology/term/יחידת_פוספט/407876" showAs="יחידת_פוספט" />
+        <TLCTerm eId="term_73" href="/ontology/term/מוצרי_המשך/407876" showAs="מוצרי_המשך" />
+        <TLCTerm eId="term_74" href="/ontology/term/פעילות_המשך/407876" showAs="פעילות_המשך" />
+        <TLCTerm eId="term_75" href="/ontology/term/שיעור_היטל_יחסי/407876" showAs="שיעור_היטל_יחסי" />
+        <TLCTerm eId="term_76" href="/ontology/term/הכנסות_מצטברות/407876" showAs="הכנסות_מצטברות" />
+        <TLCTerm eId="term_77" href="/ontology/term/סכום_ההפחתה/407876" showAs="סכום_ההפחתה" />
+        <TLCPerson eId="בנימין_נתניהו" href="/ontology/person/בנימין_נתניהו" showAs="בנימין נתניהו" />
+        <TLCPerson eId="יובל_שטייניץ" href="/ontology/person/יובל_שטייניץ" showAs="יובל שטייניץ" />
+        <TLCPerson eId="שמעון_פרס" href="/ontology/person/שמעון_פרס" showAs="שמעון פרס" />
+        <TLCPerson eId="ראובן_ריבלין" href="/ontology/person/ראובן_ריבלין" showAs="ראובן ריבלין" />
+        <TLCRole eId="ראש_הממשלה" href="ontology/role/akn/ראש_הממשלה" showAs="ראש הממשלה" />
+        <TLCRole eId="שר_האוצר" href="ontology/role/akn/שר_האוצר" showAs="שר האוצר" />
+        <TLCRole eId="נשיא_המדינה" href="ontology/role/akn/נשיא_המדינה" showAs="נשיא המדינה" />
+        <TLCRole eId="יושב_ראש_הכנסת" href="ontology/role/akn/יושב_ראש_הכנסת" showAs="יושב ראש הכנסת" />
+      </references>
+      <temporalData source="#kensset">
+        <temporalGroup eId="tmpg_1" />
+      </temporalData>
+      <Publication></Publication>
+      <proprietary wikiversion="12/30/2020 7:06:08 PM" />
+    </meta>
+    <body period="#tmpg_1">
+      <title eId="title">
+        <content>
+          <p>חוק מיסוי רווחים ממשאבי טבע, התשע"א–2011</p>
+        </content>
+      </title>
+      <chapter eId="chp_none">
+        <num></num>
+        <title>
+          <content>
+            <p>חלק א׳: מיסוי רווחי נפט וגז</p>
+          </content>
+        </title>
+      </chapter>
+      <chapter eId="chp_א">
+        <num>פרק א׳:</num>
+        <title>
+          <content>
+            <p>הגדרות</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_1" class="definitions">
+            <heading>
+              <authorialNote placement="side">
+                <p>הגדרות</p>
+              </authorialNote>
+            </heading>
+            <num>1.</num>
+            <list>
+              <intro>
+                <p>
+                  <ref href="#part_א">בחלק זה</ref>, וכן <ref href="#part_ג">בחלקים ג׳ עד ח׳</ref> בהוראות שעניינן מיסוי רווחי נפט –</p>
+              </intro>
+              <point eId="point_1__point_דולר">
+                <content>
+                  <p>
+                    <def />”דולר“ – דולר של ארצות הברית של אמריקה;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_היטל">
+                <content>
+                  <p>
+                    <def />”היטל“, ”היטל רווחי נפט“ – היטל על רווחי נפט, כמשמעותו <ref href="#point_2">בסעיף 2</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_היתר_מוקדם">
+                <content>
+                  <p>
+                    <def />”היתר מוקדם“, ”הממונה“, ”הפקת נפט“, ”חזקה“, ”חיפוש נפט“, ”כמויות מסחריות“, ”נפט“, ”רישיון“, ”שדה נפט“ ו”תגלית“ – כמשמעותם <ref href="/akn/il/act/PrimaryLegislation/1952-08-31/150155">בחוק הנפט</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_הוועדה">
+                <content>
+                  <p>
+                    <def />”הוועדה“ – ועדת הכספים של הכנסת;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_זכות_נפט">
+                <content>
+                  <p>
+                    <def />”זכות נפט“ – היתר מוקדם, רישיון או חזקה;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_זכות_נפט_של_מיזם_נפט">
+                <content>
+                  <p>
+                    <def />”זכות נפט של מיזם נפט“ – זכות נפט שבמסגרתה נעשית פעילות של מיזם נפט;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_חוק_הנפט">
+                <content>
+                  <p>
+                    <def />”חוק הנפט“ – <ref href="/akn/il/act/PrimaryLegislation/1952-08-31/150155">חוק הנפט, התשי"ב–1952</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_יחסים_מיוחדים">
+                <content>
+                  <p>
+                    <def />”יחסים מיוחדים“ – כהגדרתם <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_מס_הכנסה#point_85א">בסעיף 85א(ב) לפקודה</ref>, בשינוי זה: לעניין ההגדרה ”שליטה“ כאמור <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_מס_הכנסה#point_85א">באותו סעיף</ref>, במקום ”ב־50% או יותר“ יקראו ”בלמעלה מ־20%“;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_מדד">
+                <content>
+                  <p>
+                    <def />”מדד“ – מדד המחירים לצרכן שמפרסמת הלשכה המרכזית לסטטיסטיקה, ולגבי בעל זכות נפט שבחר לדווח בדולרים לפי הוראות <ref href="#point_13">סעיף 13(ב)</ref> – מדד המחירים לצרכן המפורסם מטעם ממשלת ארצות הברית (Consumer Price Index – CPI);</p>
+                </content>
+              </point>
+              <point eId="point_1__point_מועד_תחילת_ההפקה_המסחרית">
+                <list>
+                  <intro>
+                    <p>
+                      <def />”מועד תחילת ההפקה המסחרית“ – המועד המוקדם מבין אלה:</p>
+                  </intro>
+                  <point eId="point_1__point_מועד_תחילת_ההפקה_המסחרית__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>המועד שבו הופק נפט בשווי מצטבר של 250 מיליון שקלים חדשים;</p>
+                    </content>
+                  </point>
+                  <point eId="point_1__point_מועד_תחילת_ההפקה_המסחרית__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>המועד שבו הופק נפט בשווי מצטבר השווה לשיעור של 5% מסכום השקעות החיפוש והשקעות ההקמה כהגדרתן <ref href="#point_4">בסעיף 4</ref> שהוצאו עד לאותו מועד, ובלבד ששווי זה הוא לפחות 10 מיליון שקלים חדשים;</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_1__point_מיזם_נפט">
+                <content>
+                  <p>
+                    <def />”מיזם נפט“ – מיזם לצורך הפקת נפט במסגרת זכות נפט אחת בלבד;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_מכירה">
+                <list>
+                  <intro>
+                    <p>
+                      <def />”מכירה“, של נפט – לרבות כל אחד מאלה:</p>
+                  </intro>
+                  <point eId="point_1__point_מכירה__point_1">
+                    <num>(1)</num>
+                    <list>
+                      <intro>
+                        <p>העברת נפט למיתקן לצורך עיבודו או שימוש בו כמפורט להלן:</p>
+                      </intro>
+                      <point eId="point_1__point_מכירה__point_1__point_א">
+                        <num>(א)</num>
+                        <content>
+                          <p>זיקוק או שינוי הרכב כימי של נפט, למעט טיפול ראשוני הנדרש לצורך הזרמתו למערכת ההולכה כהגדרתה <ref href="/akn/il/act/PrimaryLegislation/2002-01-03/171866">בחוק משק הגז הטבעי, התשס"ב–2002</ref>;</p>
+                        </content>
+                      </point>
+                      <point eId="point_1__point_מכירה__point_1__point_ב">
+                        <num>(ב)</num>
+                        <content>
+                          <p>הפקת אנרגיה;</p>
+                        </content>
+                      </point>
+                      <point eId="point_1__point_מכירה__point_1__point_ג">
+                        <num>(ג)</num>
+                        <content>
+                          <p>לעניין גז טבעי – הנזלתו של הגז;</p>
+                        </content>
+                      </point>
+                      <point eId="point_1__point_מכירה__point_1__point_ד">
+                        <num>(ד)</num>
+                        <content>
+                          <p>עיבוד או שימוש אחר שקבע השר באישור הוועדה;</p>
+                        </content>
+                      </point>
+                    </list>
+                  </point>
+                  <point eId="point_1__point_מכירה__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>העברת הנפט לצינור או לכלי שיט אשר נועדו לייצאו למדינה אחרת;</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_1__point_המנהל">
+                <content>
+                  <p>
+                    <def />”המנהל“, ”פקיד שומה“ ו”שנת מס“ – כהגדרתם <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_מס_הכנסה">בפקודה</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_מקדם_ההיטל">
+                <content>
+                  <p>
+                    <def />”מקדם ההיטל“ – כמשמעותו <ref href="#point_4">בסעיף 4</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_מקדם_היטל_יחסי">
+                <content>
+                  <p>
+                    <def />”מקדם היטל יחסי“ – כמשמעותו <ref href="#point_5">בסעיף 5</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_הפקודה">
+                <content>
+                  <p>
+                    <def />”הפקודה“ – <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_מס_הכנסה">פקודת מס הכנסה</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_הפרשי_הצמדה">
+                <content>
+                  <p>
+                    <def />”הפרשי הצמדה“ – תוספת לסכום שבו מדובר השווה לסכום האמור כשהוא מוכפל בשיעור עליית המדד בתקופה נדונה;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_הפרשי_הצמדה_וריבית">
+                <content>
+                  <p>
+                    <def />”הפרשי הצמדה וריבית“ – כהגדרתם <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_מס_הכנסה#point_159א">בסעיף 159א(א) לפקודה</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_רווחי_נפט">
+                <content>
+                  <p>
+                    <def />”רווחי נפט“ – כמשמעותם <ref href="#point_3">בסעיף 3</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_שותף_מנהל">
+                <content>
+                  <p>
+                    <def />”שותף מנהל“ – אחד מבעלי זכות נפט של מיזם נפט בבעלות משותפת, שהמנהל אישר כשותף המנהל של המיזם, לבקשת בעלי זכות הנפט שתוגש בתוך 90 ימים ממועד קבלת זכות הנפט;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_שיעור_עליית_המדד">
+                <content>
+                  <p>
+                    <def />”שיעור עליית המדד“, בתקופה פלונית – ההפרש שבין המדד שפורסם לאחרונה לפני סוף התקופה לבין המדד שפורסם לאחרונה לפני תחילת התקופה, מחולק במדד שפורסם לאחרונה לפני תחילת התקופה;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_תקבול">
+                <list>
+                  <intro>
+                    <p>
+                      <def />”תקבול“ – תקבול, בכסף או בשווה כסף, מכל אחד מאלה:</p>
+                  </intro>
+                  <point eId="point_1__point_תקבול__point_1">
+                    <num>(1)</num>
+                    <list>
+                      <intro>
+                        <p>מכירה של נפט שהופק בשטח זכות הנפט של מיזם הנפט; לעניין מכירה של נפט כאמור בפסקאות (1) ו־(2) להגדרה ”מכירה“, יראו כתקבול שהתקבל בפועל את הסכום שהיה מתקבל במכירה ממוכר מרצון לקונה מרצון אילו היה הנפט נמכר במועד ההעברה, בצורתו עובר לאותו מועד (בהגדרה זו – מחיר השוק), ולא פחות ממחיר הממוצע המקומי; ואולם פקיד השומה רשאי לקבוע לעניין זה מחיר נמוך ממחיר הממוצע המקומי אם בעל זכות הנפט הוכיח להנחת דעתו כי התקיים אחד מאלה:</p>
+                      </intro>
+                      <point eId="point_1__point_תקבול__point_1__point_א">
+                        <num>(א)</num>
+                        <content>
+                          <p>הוא ביצע עסקה למכירת נפט כאמור בישראל באותה שנת מס בכמות שלא תפחת ממחצית הכמות שהועברה כאמור במחיר נמוך ממחיר הממוצע המקומי;</p>
+                        </content>
+                      </point>
+                      <point eId="point_1__point_תקבול__point_1__point_ב">
+                        <num>(ב)</num>
+                        <content>
+                          <p>הוא פעל בשקידה ראויה למכור נפט בישראל במחיר נמוך ממחיר הממוצע המקומי ולא הצליח למכור נפט בישראל במחיר האמור;</p>
+                        </content>
+                      </point>
+                      <wrapup eId="point_1__point_תקבול__point_1__wrapup_none">
+                        <list>
+                          <intro>
+                            <p>לעניין הגדרה זו –</p>
+                          </intro>
+                          <point eId="point_1__point_תקבול__point_1__wrapup_none__point_מועד_ההעברה">
+                            <content>
+                              <p>
+                                <def />”מועד ההעברה“ – המועד שבו הועבר הנפט למיתקן, לצינור או לכלי השיט כאמור בפסקאות (1) או (2) להגדרה ”מכירה“, לפי העניין, ואם המיתקן, הצינור או כלי השיט נמצאים מחוץ לשטח זכות הנפט של המיזם – המועד שבו הנפט הוצא משטח זכות הנפט, לצורך העברתו למיתקן, לצינור או לכלי שיט כאמור;</p>
+                            </content>
+                          </point>
+                          <point eId="point_1__point_תקבול__point_1__wrapup_none__point_מחיר_הממוצע_המקומי">
+                            <content>
+                              <p>
+                                <def />”מחיר הממוצע המקומי“ – המחיר הממוצע של נפט מהסוג שלגביו מחושב מחיר השוק בצורתו עובר למועד ההעברה בהתאם לנתוני עסקאות למכירת נפט כאמור שנעשו בישראל בשנתיים שקדמו למועד ההעברה;</p>
+                            </content>
+                          </point>
+                        </list>
+                      </wrapup>
+                    </list>
+                  </point>
+                  <point eId="point_1__point_תקבול__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>מכירה של נכס שהתשלום בעדו מובא בחשבון לצורך חישוב מקדם ההיטל של מיזם הנפט עד גובה התשלום שהובא בחשבון כאמור בתוספת הפרשי הצמדה מתום שנת המס שבה שולם התשלום ועד לתום שנת המס שבה שולם התקבול;</p>
+                    </content>
+                  </point>
+                  <point eId="point_1__point_תקבול__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>מתן זכות שימוש בנכס כאמור בפסקה (2), לרבות אחסון בשטח זכות הנפט של מיזם הנפט, עד גובה התשלום שהובא בחשבון כאמור בתוספת הפרשי הצמדה מתום שנת המס שבה שולם התשלום ועד לתום שנת המס שבה שולם התקבול;</p>
+                    </content>
+                  </point>
+                  <point eId="point_1__point_תקבול__point_4">
+                    <num>(4)</num>
+                    <content>
+                      <p>תקבול נוסף שקבע שר האוצר באישור הוועדה;</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_1__point_תקופת_ההקמה">
+                <content>
+                  <p>
+                    <def />”תקופת ההקמה“ – תקופה שתחילתה ביום שלאחר תום תקופת החיפוש וסופה ביום שקדם למועד תחילת ההפקה המסחרית;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_תקופת_ההרצה">
+                <content>
+                  <p>
+                    <def />”תקופת ההרצה“ – תקופה של 24 חודשים שתחילתה ביום שלאחר תום תקופת ההקמה;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_תקופת_החיפוש">
+                <content>
+                  <p>
+                    <def />”תקופת החיפוש“ – התקופה שמיום קבלת ההיתר המוקדם עד היום שקדם למועד שבו הגיש בעל זכות נפט של מיזם בקשה לחזקה; ואולם שוכנע המנהל, בהתייעצות עם הממונה, כי בעל זכות הנפט דחה את הגשת בקשתו מטעמים של הימנעות מתשלום ההיטל או הפחתת היטל בלתי נאותה, רשאי הוא, בהתייעצות עם הממונה, לקבוע מועד מוקדם יותר שלא יקדם מהמועד שבו יכול היה בעל זכות הנפט להגיש את הבקשה כאמור;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_תשלום">
+                <list>
+                  <intro>
+                    <p>
+                      <def />”תשלום“ – תשלום, בכסף או בשווה כסף, למעט אלה:</p>
+                  </intro>
+                  <point eId="point_1__point_תשלום__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>תשלום המשולם לבעלים, במישרין או בעקיפין, של זכות הנפט של מיזם הנפט, למעט תשלום לשותף המנהל בעבור ניהול פעולות חיפוש והפקה של נפט במסגרת המיזם בניכוי תשלומים שהם שיפוי בעבור הוצאות השותף המנהל שהוכרו לצורך ההיטל (בהגדרה זו – תשלום לשותף המנהל);</p>
+                    </content>
+                  </point>
+                  <point eId="point_1__point_תשלום__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>תשלום שאינו משמש במישרין לצורך מיזם הנפט;</p>
+                    </content>
+                  </point>
+                  <point eId="point_1__point_תשלום__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>תשלום, המחושב, במישרין או בעקיפין, כשיעור מהנפט שהופק בשטח זכות הנפט של מיזם הנפט, מהתקבולים של המיזם, כולם או חלקם, או מרווחי הנפט של המיזם, למעט תשלום לשותף המנהל;</p>
+                    </content>
+                  </point>
+                  <point eId="point_1__point_תשלום__point_4">
+                    <num>(4)</num>
+                    <content>
+                      <p>תשלום בעד רכישת זכות נפט או בעד רכישת זכות לקבל תשלום כאמור בפסקה (3);</p>
+                    </content>
+                  </point>
+                  <point eId="point_1__point_תשלום__point_5">
+                    <num>(5)</num>
+                    <content>
+                      <p>תשלום בעד הוצאות מימון;</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_1__point_השר">
+                <content>
+                  <p>
+                    <def />”השר“ – שר האוצר.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+        </list>
+      </chapter>
+      <chapter eId="chp_ב">
+        <num>פרק ב׳:</num>
+        <title>
+          <content>
+            <p>היטל רווחי נפט ושיעורו</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_2">
+            <heading>
+              <authorialNote placement="side">
+                <p>היטל רווחי נפט</p>
+              </authorialNote>
+            </heading>
+            <num>2.</num>
+            <list>
+              <point eId="point_2__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>על רווחי נפט ממיזם נפט, בשנת מס, ישולם היטל לפי הוראות <ref href="#part_א">חלק זה</ref>; ההיטל יהיה בשיעור כאמור בסעיף קטן (ב), מתוך רווחי הנפט.</p>
+                </content>
+              </point>
+              <point eId="point_2__point_ב">
+                <num>(ב)</num>
+                <list>
+                  <intro>
+                    <p>שיעור ההיטל יהיה בגובה סכום כל שיעורי ההיטל היחסיים בשנת המס מחולק ב־12.</p>
+                  </intro>
+                  <point eId="point_2__point_ב__point_ג">
+                    <num>(ג)</num>
+                    <list>
+                      <intro>
+                        <p>
+                          <def />בסעיף זה –<br space="preserve"></br>”שיעור היטל יחסי“ – שיעור כמפורט להלן, המחושב לגבי כל חודש בשנת המס, בהתאם למקדם ההיטל היחסי באותו חודש;</p>
+                      </intro>
+                      <point eId="point_2__point_ב__point_ג__point_1">
+                        <num>(1)</num>
+                        <content>
+                          <p>היה מקדם ההיטל היחסי נמוך מ־1.5 – 0%;</p>
+                        </content>
+                      </point>
+                      <point eId="point_2__point_ב__point_ג__point_2">
+                        <num>(2)</num>
+                        <content>
+                          <p>היה מקדם ההיטל היחסי בגובה 1.5 או יותר, אך נמוך מ־2.3 – 20% בתוספת 37.5% מההפרש שבין מקדם ההיטל היחסי לבין 1.5, ובכל מקרה לא יעלה על 50% פחות המכפלה של 0.64 בהפרש שבין שיעור מס החברות הקבוע <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_מס_הכנסה#point_126">בסעיף 126 לפקודה</ref> לגבי שנת המס שלגביה מחושב ההיטל לבין 18% (בהגדרה זו – ההפרש ממס החברות);</p>
+                        </content>
+                      </point>
+                      <point eId="point_2__point_ב__point_ג__point_3">
+                        <num>(3)</num>
+                        <content>
+                          <p>היה מקדם ההיטל היחסי בגובה 2.3 או יותר – 50% פחות המכפלה של 0.64 בהפרש ממס החברות.</p>
+                        </content>
+                      </point>
+                    </list>
+                  </point>
+                </list>
+              </point>
+            </list>
+          </point>
+          <point eId="point_3">
+            <heading>
+              <authorialNote placement="side">
+                <p>חישוב רווחי הנפט של מיזם נפט</p>
+              </authorialNote>
+            </heading>
+            <num>3.</num>
+            <list>
+              <point eId="point_3__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>רווחי הנפט ממיזם נפט יחושבו, לגבי כל שנת מס, בסוף אותה שנה, כסכום ההפרש שבין סך התקבולים השוטפים בשנת המס, לבין סך התשלומים השוטפים בשנה האמורה.</p>
+                </content>
+              </point>
+              <point eId="point_3__point_ב">
+                <num>(ב)</num>
+                <list>
+                  <intro>
+                    <p>בסעיף זה –</p>
+                  </intro>
+                  <point eId="point_3__point_ב__point_תקבולים_שוטפים">
+                    <content>
+                      <p>
+                        <def />”תקבולים שוטפים“ – תקבולים שהתקבלו בפועל בשנת המס, למעט תקבולי חיפוש ותקבולי הקמה כהגדרתם <ref href="#point_4">בסעיף 4(ב)(2)</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_3__point_ב__point_תשלומים_שוטפים">
+                    <list>
+                      <intro>
+                        <p>
+                          <def />”תשלומים שוטפים“ – תשלומים כמפורט להלן, ששולמו בפועל בשנת המס:</p>
+                      </intro>
+                      <point eId="point_3__point_ב__point_תשלומים_שוטפים__point_1">
+                        <num>(1)</num>
+                        <content>
+                          <p>תשלומים ששולמו במישרין לצורך יצירת תקבולים;</p>
+                        </content>
+                      </point>
+                      <point eId="point_3__point_ב__point_תשלומים_שוטפים__point_2">
+                        <num>(2)</num>
+                        <content>
+                          <p>השקעות ההקמה, כהגדרתן <ref href="#point_4">בסעיף 4(ב)(2)</ref>, לאחר תקופת ההרצה;</p>
+                        </content>
+                      </point>
+                      <point eId="point_3__point_ב__point_תשלומים_שוטפים__point_3">
+                        <num>(3)</num>
+                        <content>
+                          <p>תמלוג לפי <ref href="/akn/il/act/PrimaryLegislation/1952-08-31/150155#point_32">סעיף 32 לחוק הנפט</ref> בעד נפט שהופק בשטח זכות הנפט של מיזם הנפט;</p>
+                        </content>
+                      </point>
+                      <point eId="point_3__point_ב__point_תשלומים_שוטפים__point_4">
+                        <num>(4)</num>
+                        <content>
+                          <p>תשלום ששימש במישרין לצורך פעילות חיפוש של שדה נפט אחר בשטח זכות הנפט של מיזם הנפט, למעט תשלום שנכלל בהשקעות חיפוש, כהגדרתן <ref href="#point_4">בסעיף 4(ב)(2)</ref>, בתקופת החיפוש, ובלבד שבעל זכות הנפט ביקש מפקיד השומה, בתוך שנתיים ממועד התשלום, לכלול אותו במסגרת התשלומים השוטפים ופקיד השומה לא ייחס תשלום כאמור למיזם נפט אחר; יראו תשלום כאמור כאילו שולם בפועל במועד שבו הוגשה בקשת בעל זכות הנפט לפקיד השומה.</p>
+                        </content>
+                      </point>
+                    </list>
+                  </point>
+                </list>
+              </point>
+            </list>
+          </point>
+          <point eId="point_4">
+            <heading>
+              <authorialNote placement="side">
+                <p>חישוב מקדם ההיטל של מיזם נפט</p>
+              </authorialNote>
+            </heading>
+            <num>4.</num>
+            <list>
+              <point eId="point_4__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>מקדם ההיטל של מיזם נפט יחושב לגבי כל שנת מס, בתום אותה שנה, כסכום המתקבל מחלוקת ההכנסות המצטברות בהשקעות המצטברות.</p>
+                </content>
+              </point>
+              <point eId="point_4__point_ב">
+                <num>(ב)</num>
+                <list>
+                  <intro>
+                    <p>בסעיף זה –</p>
+                  </intro>
+                  <point eId="point_4__point_ב__point_1">
+                    <num>(1)</num>
+                    <list>
+                      <intro>
+                        <p>”הכנסות מצטברות“ – ההפרש שבין התקבולים המצטברים לבין התשלומים המצטברים; לעניין הגדרה זו –</p>
+                      </intro>
+                      <point eId="point_4__point_ב__point_1__point_תקבולים_מצטברים">
+                        <list>
+                          <intro>
+                            <p>
+                              <def />”תקבולים מצטברים“ – הסכום הכולל של אלה:</p>
+                          </intro>
+                          <point eId="point_4__point_ב__point_1__point_תקבולים_מצטברים__point_א">
+                            <num>(א)</num>
+                            <content>
+                              <p>סך התקבולים השוטפים כהגדרתם <ref href="#point_3">בסעיף 3(ב)</ref> מתום תקופת ההקמה עד תום שנת המס שלגביה מחושב מקדם ההיטל, בתוספת הפרשי הצמדה מתום שנת המס שבה התקבל כל תקבול עד תום שנת המס שלגביה מחושב מקדם ההיטל;</p>
+                            </content>
+                          </point>
+                          <point eId="point_4__point_ב__point_1__point_תקבולים_מצטברים__point_ב">
+                            <num>(ב)</num>
+                            <content>
+                              <p>עלו תקבולי החיפוש כהגדרתם בפסקה (2) על השקעות החיפוש כהגדרתן באותה פסקה, בתקופת החיפוש – סכום ההפרש שבין תקבולי החיפוש לבין השקעות החיפוש כאמור, בתוספת הפרשי הצמדה מתום שנת המס שבה חל מועד תחילת ההפקה המסחרית עד תום שנת המס שלגביה מחושב מקדם ההיטל;</p>
+                            </content>
+                          </point>
+                          <point eId="point_4__point_ב__point_1__point_תקבולים_מצטברים__point_ג">
+                            <num>(ג)</num>
+                            <content>
+                              <p>עלו תקבולי ההקמה כהגדרתם בפסקה (2) על השקעות ההקמה כהגדרתן באותה פסקה, בתקופת ההקמה – סכום ההפרש שבין תקבולי ההקמה לבין השקעות ההקמה כאמור, בתוספת הפרשי הצמדה מתום תקופת ההקמה עד תום שנת המס שלגביה מחושב מקדם ההיטל;</p>
+                            </content>
+                          </point>
+                        </list>
+                      </point>
+                      <point eId="point_4__point_ב__point_1__point_תשלומים_מצטברים">
+                        <list>
+                          <intro>
+                            <p>
+                              <def />”תשלומים מצטברים“ – הסכום הכולל של אלה, בתוספת הפרשי הצמדה מתום שנת המס שבה שולמו עד תום שנת המס שלגביה מחושב מקדם ההיטל:</p>
+                          </intro>
+                          <point eId="point_4__point_ב__point_1__point_תשלומים_מצטברים__point_א">
+                            <num>(א)</num>
+                            <content>
+                              <p>סך התשלומים השוטפים כהגדרתם <ref href="#point_3">בסעיף 3(ב)</ref> מתום תקופת ההקמה עד תום שנת המס שלגביה מחושב מקדם ההיטל;</p>
+                            </content>
+                          </point>
+                          <point eId="point_4__point_ב__point_1__point_תשלומים_מצטברים__point_ב">
+                            <num>(ב)</num>
+                            <content>
+                              <p>סך ההיטלים ששולמו לפי <ref href="#part_א">חלק זה</ref> בשל אותו מיזם בעבור התקופה שקדמה לשנת המס שלגביה מחושב מקדם ההיטל;</p>
+                            </content>
+                          </point>
+                          <point eId="point_4__point_ב__point_1__point_תשלומים_מצטברים__point_ג">
+                            <num>(ג)</num>
+                            <content>
+                              <p>תשלום ששולם בפועל ושימש במישרין לצורך פעילות חיפוש של שדה נפט אחר בשטח זכות הנפט של מיזם הנפט, בתקופת ההקמה, ובלבד שבעל זכות הנפט ביקש מפקיד השומה, בתוך שנתיים ממועד התשלום, לכלול אותו במסגרת התשלומים המצטברים ופקיד השומה לא ייחס את התשלום האמור למיזם נפט אחר; יראו תשלום כאמור כאילו שולם בפועל במועד שבו הוגשה בקשת בעל זכות הנפט לפקיד השומה;</p>
+                            </content>
+                          </point>
+                        </list>
+                      </point>
+                    </list>
+                  </point>
+                  <point eId="point_4__point_ב__point_2">
+                    <num>(2)</num>
+                    <list>
+                      <intro>
+                        <p>”השקעות מצטברות“ – הסכום הכולל של כל אלה:</p>
+                      </intro>
+                      <point eId="point_4__point_ב__point_2__point_א">
+                        <num>(א)</num>
+                        <content>
+                          <p>השקעות חיפוש נטו בתקופת החיפוש בתוספת מקדם החיפוש, והכל בתוספת הפרשי הצמדה מתום שנת המס שבה חל מועד תחילת ההפקה המסחרית עד תום שנת המס שלגביה מחושב מקדם ההיטל;</p>
+                        </content>
+                      </point>
+                      <point eId="point_4__point_ב__point_2__point_ב">
+                        <num>(ב)</num>
+                        <content>
+                          <p>השקעות הקמה נטו בתקופת ההקמה בתוספת מקדם ההקמה, והכל בתוספת הפרשי הצמדה מתום שנת המס שבה חל מועד תחילת ההפקה המסחרית עד תום שנת המס שלגביה מחושב מקדם ההיטל;</p>
+                        </content>
+                      </point>
+                      <point eId="point_4__point_ב__point_2__point_ג">
+                        <num>(ג)</num>
+                        <content>
+                          <p>השקעות ההקמה בתקופת ההרצה בתוספת הפרשי הצמדה מתום שנת המס שבה שולמו עד תום שנת המס שלגביה מחושב מקדם ההיטל;</p>
+                        </content>
+                      </point>
+                      <wrapup eId="point_4__point_ב__point_2__wrapup_none">
+                        <list>
+                          <intro>
+                            <p>לעניין הגדרה זו –</p>
+                          </intro>
+                          <point eId="point_4__point_ב__point_2__wrapup_none__point_השקעות_חיפוש_נטו_בתקופת_החיפוש">
+                            <content>
+                              <p>
+                                <def />”השקעות חיפוש נטו בתקופת החיפוש“ – סכום ההפרש שבין השקעות החיפוש בתקופת החיפוש לבין תקבולי החיפוש, ואם היה סכום ההפרש שלילי – סכום השווה אפס;</p>
+                            </content>
+                          </point>
+                          <point eId="point_4__point_ב__point_2__wrapup_none__point_השקעות_החיפוש">
+                            <content>
+                              <p>
+                                <def />”השקעות החיפוש“ – תשלומים ששולמו בפועל ושימשו במישרין לצורך פעילות חיפוש נפט בשטח זכות הנפט של מיזם הנפט, בתוספת הפרשי הצמדה לגבי כל תשלום כאמור מתום שנת המס שבה שולם עד תום שנת המס שבה חל מועד תחילת ההפקה המסחרית;</p>
+                            </content>
+                          </point>
+                          <point eId="point_4__point_ב__point_2__wrapup_none__point_תקבולי_החיפוש">
+                            <content>
+                              <p>
+                                <def />”תקבולי החיפוש“ – תקבולים שהתקבלו בפועל בתקופת החיפוש, בתוספת הפרשי הצמדה לגבי כל תקבול מתום שנת המס שבה התקבל עד תום שנת המס שבה חל מועד תחילת ההפקה המסחרית;</p>
+                            </content>
+                          </point>
+                          <point eId="point_4__point_ב__point_2__wrapup_none__point_מקדם_החיפוש">
+                            <list>
+                              <intro>
+                                <p>
+                                  <def />”מקדם החיפוש“ – הסכום הנמוך מבין אלה בתום שנת המס שבה חל מועד תחילת ההפקה המסחרית:</p>
+                              </intro>
+                              <point eId="point_4__point_ב__point_2__wrapup_none__point_1">
+                                <num>(1)</num>
+                                <content>
+                                  <p>השקעות חיפוש נטו בתקופת החיפוש;</p>
+                                </content>
+                              </point>
+                            </list>
+                          </point>
+                          <point eId="point_4__point_ב__point_2__wrapup_none__point_השקעות_הקמה_נטו_בתקופת_ההקמה">
+                            <content>
+                              <p>
+                                <def />”השקעות הקמה נטו בתקופת ההקמה“ – סכום ההפרש שבין השקעות ההקמה בתקופת ההקמה לבין תקבולי ההקמה, ואם היה סכום ההפרש שלילי – סכום השווה אפס;</p>
+                            </content>
+                          </point>
+                          <point eId="point_4__point_ב__point_2__wrapup_none__point_השקעות_ההקמה">
+                            <content>
+                              <p>
+                                <def />”השקעות ההקמה“ – תשלומים ששולמו בפועל ושימשו במישרין לצורך תכנונה, יצירתה והקמתה של התשתית הנדרשת להפקת נפט בשטח זכות הנפט של מיזם הנפט או של התשתית הנדרשת לצורך אחסונו של הנפט או לצורך הובלתו משטח הים לשטח היבשה בישראל, לרבות קידוח ומיתקן קבלה, ובלבד שהתשתיות כאמור נמצאות בשלמותן בשטח מדינת ישראל, לרבות השטחים התת־ימיים כמשמעותם <ref href="/akn/il/act/PrimaryLegislation/1953-02-20/147474">בחוק השטחים התת־ימיים, התשי"ג–1953</ref>, והמים שמעליהם;</p>
+                            </content>
+                          </point>
+                          <point eId="point_4__point_ב__point_2__wrapup_none__point_תקבולי_הקמה">
+                            <content>
+                              <p>
+                                <def />”תקבולי הקמה“ – תקבולים שהתקבלו בפועל בתקופת ההקמה;</p>
+                            </content>
+                          </point>
+                          <point eId="point_4__point_ב__point_2__wrapup_none__point_מקדם_ההקמה">
+                            <list>
+                              <intro>
+                                <p>
+                                  <def />”מקדם ההקמה“ – הסכום הגבוה מבין אלה בתום שנת המס שבה חל מועד תחילת ההפקה המסחרית:</p>
+                              </intro>
+                              <point eId="point_4__point_ב__point_2__wrapup_none__point_א">
+                                <num>(א)</num>
+                                <content>
+                                  <p>370 מיליון שקלים חדשים <wikicomment font-size="x-small">(מתואם לשנת 2011; בשנת 2020, 394,184,000 ש"ח; בשנת 2021, 391,838,000 ש"ח)</wikicomment> בניכוי מקדם הקמה שהוכר למיזם אחר באותו שטח רישיון;</p>
+                                </content>
+                              </point>
+                            </list>
+                          </point>
+                        </list>
+                      </wrapup>
+                    </list>
+                  </point>
+                </list>
+              </point>
+            </list>
+          </point>
+          <point eId="point_5">
+            <heading>
+              <authorialNote placement="side">
+                <p>חישוב מקדמי ההיטל היחסיים של מיזם נפט</p>
+              </authorialNote>
+            </heading>
+            <num>5.</num>
+            <list>
+              <point eId="point_5__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>בתום שנת המס יחושבו מקדמי ההיטל היחסיים של מיזם נפט.</p>
+                </content>
+              </point>
+              <point eId="point_5__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>מקדם היטל יחסי, לגבי כל חודש בשנת המס, יהיה בסכום השווה למקדם ההיטל של מיזם הנפט בתום שנת המס הקודמת, בתוספת מקדם ההפרש כשהוא מוכפל במספר החודשים שחלפו מתום שנת המס הקודמת עד תום החודש שלגביו מחושב מקדם ההיטל היחסי; לעניין זה, ”מקדם ההפרש“ – סכום השווה להפרש שבין מקדם ההיטל של מיזם הנפט בתום שנת המס לבין מקדם ההיטל של מיזם הנפט בתום שנת המס הקודמת, כשהוא מחולק ב־12.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_6">
+            <heading>
+              <authorialNote placement="side">
+                <p>העברת רווחי נפט לשנות מס עוקבות</p>
+              </authorialNote>
+            </heading>
+            <num>6.</num>
+            <list>
+              <point eId="point_6__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>היו רווחי הנפט של מיזם נפט בשנת מס כלשהי נמוכים מאפס, יופחת סכומם מרווחי הנפט של המיזם בשנות המס הבאות, בזו אחר זו, ובלבד שאם ניתן להפחית את הסכום האמור באחת השנים הבאות כאמור, לא תותר הפחתה בשנה שלאחריה.</p>
+                </content>
+              </point>
+              <point eId="point_6__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>הועבר סכום כאמור בסעיף קטן (א) משנה לשנה תיווסף לו ריבית ליבור בתוספת 3%; בסעיף זה, ”ריבית ליבור“ – ממוצע שנתי לשנת המס שבה הועבר הסכום, של ריבית סמן יומית דולרית להלוואות בין־בנקאיות לפרק זמן של שנה בין הבנקים בלונדון (London Inter-bank Offered Rate), המתפרסמת לידיעת הציבור באמצעות מפיץ המידע ”רויטרס“.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_7">
+            <heading>
+              <authorialNote placement="side">
+                <p>ייחוס רכיבי מקדם ההיטל</p>
+              </authorialNote>
+            </heading>
+            <num>7.</num>
+            <list>
+              <point eId="point_7__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>ניתן רישיון בשטח של היתר מוקדם מסוים, יובאו בחשבון במסגרת מקדם ההיטל של מיזם הנפט שבשטח הרישיון רכיבי המקדם שהתקבלו או שהוצאו, לפי העניין, בשטח אותו היתר מוקדם בטרם ניתן הרישיון (בסעיף קטן זה – רכיבי ההיתר המוקדם) ולא יובאו בחשבון רכיבים כאמור שהתקבלו או שהוצאו, לפי העניין, בשטח של היתר מוקדם אחר; ניתנו כמה רישיונות בשטח היתר מוקדם אחד, רשאי המנהל, בהתייעצות עם הממונה, לקבוע את אופן ייחוס רכיבי ההיתר המוקדם לכל אחד ממיזמי הנפט שבשטחי הרישיונות כאמור.</p>
+                </content>
+              </point>
+              <point eId="point_7__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>ניתנה חזקה בשטח רישיון מסוים, יובאו בחשבון במסגרת מקדם ההיטל של מיזם הנפט שבשטח החזקה רכיבי מקדם שהתקבלו או שהוצאו בשטח אותו רישיון בטרם ניתנה החזקה, ולא יובאו בחשבון רכיבים כאמור שהתקבלו או שהוצאו, לפי העניין, בשטח רישיון אחר.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_8">
+            <heading>
+              <authorialNote placement="side">
+                <p>כללים לאיחוד או להפרדה של מיזמי נפט</p>
+              </authorialNote>
+            </heading>
+            <num>8.</num>
+            <list>
+              <point eId="point_8__point_א">
+                <num>(א)</num>
+                <list>
+                  <intro>
+                    <p>המנהל רשאי להורות, בהתייעצות עם הממונה, במסגרת קביעת שומה לפי מיטב השפיטה לפי <ref href="#point_14">סעיף 14(ב)</ref>, או במסגרת החלטת מיסוי לפי <ref href="#point_44">סעיף 44</ref> שניתנה לבקשת בעל זכות נפט של מיזם נפט, כי כמה מיזמי נפט ייחשבו לעניין <ref href="#part_א">חלק זה</ref> כמיזם נפט אחד, ובלבד שטרם הגיע מועד תחילת ההפקה המסחרית ושמתקיימים, בין השאר, כל אלה:</p>
+                  </intro>
+                  <point eId="point_8__point_א__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>זכויות הנפט של מיזמי הנפט נמצאות בתחומי אותו שדה נפט;</p>
+                    </content>
+                  </point>
+                  <point eId="point_8__point_א__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>זכויות הנפט של מיזמי הנפט הן בבעלות אותם גורמים ובאותם שיעורי החזקה;</p>
+                    </content>
+                  </point>
+                  <point eId="point_8__point_א__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>מרבית המיתקנים שישמשו כל אחד ממיזמי הנפט הם משותפים;</p>
+                    </content>
+                  </point>
+                  <point eId="point_8__point_א__point_4">
+                    <num>(4)</num>
+                    <content>
+                      <p>המנהל שוכנע כי הטעם העיקרי להגשת הבקשה אינו הימנעות מתשלום ההיטל או הפחתת היטל בלתי נאותה.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_8__point_ב">
+                <num>(ב)</num>
+                <list>
+                  <intro>
+                    <p>המנהל רשאי להורות, בהתייעצות עם הממונה, במסגרת קביעת שומה לפי מיטב השפיטה לפי <ref href="#point_14">סעיף 14(ב)</ref>, או במסגרת החלטת מיסוי לפי <ref href="#point_44">סעיף 44</ref> שניתנה לבקשת בעל זכות נפט של מיזם נפט, כי מיזם נפט אחד ייחשב לעניין <ref href="#part_א">חלק זה</ref> לכמה מיזמי נפט, בהתאם לחלוקת שדות הנפט שבשטח זכות הנפט של אותו מיזם או בהתאם לחלוקת השכבות הגאולוגיות שבהן מצויים סוגי נפט שונים באותו שטח, לפי העניין, ובלבד שמתקיימים, בין השאר, כל אלה:</p>
+                  </intro>
+                  <point eId="point_8__point_ב__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>בשטח זכות הנפט של מיזם הנפט מצויים כמה שדות נפט, או קיימים כמה סוגי נפט בשכבות גאולוגיות נפרדות, הניתנים להפקה בכמויות מסחריות;</p>
+                    </content>
+                  </point>
+                  <point eId="point_8__point_ב__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>מרבית המיתקנים שישמשו כל אחד ממיזמי הנפט לאחר ההפרדה, הם נפרדים;</p>
+                    </content>
+                  </point>
+                  <point eId="point_8__point_ב__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>מכירת הנפט מכל שדה נפט או של כל סוג מסוגי הנפט, לפי העניין, מתבצעת בנפרד;</p>
+                    </content>
+                  </point>
+                  <point eId="point_8__point_ב__point_4">
+                    <num>(4)</num>
+                    <content>
+                      <p>המנהל שוכנע כי הטעם העיקרי להגשת הבקשה אינו הימנעות מתשלום ההיטל או הפחתת היטל בלתי נאותה.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+            </list>
+          </point>
+        </list>
+      </chapter>
+      <chapter eId="chp_ג">
+        <num>פרק ג׳:</num>
+        <title>
+          <content>
+            <p>תשלום ההיטל</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_9">
+            <heading>
+              <authorialNote placement="side">
+                <p>חיוב בתשלום ההיטל</p>
+              </authorialNote>
+            </heading>
+            <num>9.</num>
+            <list>
+              <point eId="point_9__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>כל אחד מבעלי זכות נפט של מיזם נפט חייב בתשלום ההיטל בהתאם לחלקו היחסי בזכות הנפט.</p>
+                </content>
+              </point>
+              <point eId="point_9__point_ב">
+                <num>(ב)</num>
+                <list>
+                  <point eId="point_9__point_ב__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>על אף האמור בסעיף קטן (א), שילם בעל זכות נפט של מיזם נפט תשלום המחושב, במישרין או בעקיפין, כשיעור מהנפט שהופק בשטח זכות הנפט של מיזם הנפט, מהתקבולים של המיזם, כולם או חלקם, או מרווחי הנפט של המיזם (בסעיף קטן זה – התשלום הנגזר), יהיה חייב מקבל התשלום הנגזר בתשלום היטל בסכום השווה למכפלת התשלום הנגזר בשיעור ההיטל החל לגבי מיזם הנפט באותה שנת מס שבה התקבל התשלום ולא יותר מסכום ההיטל שבעל זכות הנפט ששילם את התשלום הנגזר היה חייב בו אילולא הוראות פסקה זו (בסעיף קטן זה – סכום ההשתתפות); סכום ההשתתפות יופחת מסכום ההיטל שבעל זכות הנפט ששילם את התשלום הנגזר חב בו; לעניין זה, ”תשלום“ – לרבות תשלום כאמור בפסקאות (1) עד (5) להגדרה ”תשלום“.</p>
+                    </content>
+                  </point>
+                  <point eId="point_9__point_ב__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>היה מקדם ההיטל של מיזם נפט, בשנת המס שקדמה לתשלום התשלום הנגזר, בגובה 1 או יותר, ינכה בעל זכות הנפט המשלם את התשלום הנגזר כאמור בפסקה (1), מהתשלום כאמור, לפני העברתו, סכום המהווה 50% ממנו, על חשבון ההיטל שמקבל התשלום חייב בו, ויעבירו לפקיד השומה בתוך שבעה ימים מיום הניכוי, בצירוף דוח כפי שקבע המנהל; פקיד השומה רשאי להפחית את השיעור האמור בפסקה זו אם שוכנע כי שיעור ההיטל שיחול לגבי מיזם הנפט באותה שנת מס יהיה נמוך מ־50%.</p>
+                    </content>
+                  </point>
+                  <point eId="point_9__point_ב__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>היה שיעור ההיטל החל לגבי מיזם הנפט בשנת המס שבה התקבל התשלום הנגזר נמוך מ־50%, ואם קבע פקיד השומה שיעור אחר לפי הוראות פסקה (2) – נמוך מהשיעור שקבע, או שהסכום שנוכה לפי פסקה (2) היה גבוה מסכום ההיטל שמשלם התשלום הנגזר היה חייב בו, יוחזר עודף סכום ההשתתפות שנוכה למקבל התשלום לפי פסקה (2), בצירוף הפרשי הצמדה וריבית ממועד הניכוי ועד למועד ההשבה.</p>
+                    </content>
+                  </point>
+                  <point eId="point_9__point_ב__point_4">
+                    <num>(4)</num>
+                    <content>
+                      <p>לא ניכה בעל זכות נפט סכום כאמור בפסקה (2), כולו או חלקו, ולא שילם מקבל התשלום הנגזר את סכום ההשתתפות שהוא חב בו לפי פסקה (1) עד המועד הקבוע <ref href="#point_10">בסעיף 10(א)</ref>, לא יופחת סכום ההשתתפות לפי הוראות פסקה (1) מסכום ההיטל שבעל זכות הנפט ששילם את התשלום הנגזר חב בו.</p>
+                    </content>
+                  </point>
+                  <point eId="point_9__point_ב__point_5">
+                    <num>(5)</num>
+                    <content>
+                      <p>המנהל רשאי לקבוע כללים לעניין ניכוי לפי סעיף קטן זה.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_9__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>בחר בעל זכות נפט של מיזם נפט, לפי הוראות <ref href="#point_13">סעיף 13(ב)</ref>, לדווח בדולרים, ישולם ההיטל בשקלים חדשים לפי השער היציג של הדולר שקבע בנק ישראל, הידוע ביום האחרון של שנת המס שלגביה מחושב ההיטל.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_10">
+            <heading>
+              <authorialNote placement="side">
+                <p>מועד התשלום ומקדמות</p>
+              </authorialNote>
+            </heading>
+            <num>10.</num>
+            <list>
+              <point eId="point_10__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>ההיטל ישולם עד תום 30 ימים שלאחר המועד להגשת דוח מקדם ההיטל ודוח רווחי הנפט לפי <ref href="#point_13">סעיף 13</ref>.</p>
+                </content>
+              </point>
+              <point eId="point_10__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>השר רשאי לקבוע הוראות לעניין תשלום מקדמות על חשבון ההיטל.<br space="preserve"></br><wikicomment font-size="x-small">פורסמו <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/תקנות_מיסוי_רווחים_ממשאבי_טבע_מקדמות_בשל_היטל_רווחי_נפט">תקנות מיסוי רווחים ממשאבי טבע (מקדמות בשל היטל רווחי נפט), התשפ"א–2020</ref>.</wikicomment></p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_11">
+            <heading>
+              <authorialNote placement="side">
+                <p>תשלום היטל לאחר שומה, השגה, וערעור</p>
+              </authorialNote>
+            </heading>
+            <num>11.</num>
+            <list>
+              <point eId="point_11__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>נמסרה לחייב בתשלום היטל הודעת שומה לפי <ref href="#point_14">סעיף 14(ב)(2)</ref>, חייב הוא, בתוך 15 ימים מיום מסירת ההודעה, לשלם את יתרת ההיטל הנובעת ממנה, ואם הוגשה השגה לפי הוראות <ref href="#point_15">סעיף 15</ref> – את יתרת ההיטל שאינה שנויה במחלוקת.</p>
+                </content>
+              </point>
+              <point eId="point_11__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>נמסרה לחייב בתשלום היטל החלטת פקיד השומה לפי הוראות <ref href="#point_15">סעיף 15(ד)</ref>, חייב הוא, בתוך 15 ימים מיום מסירת ההודעה, לשלם את יתרת ההיטל הנובעת ממנה, ואם הוגש ערעור לפי הוראות <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_מס_הכנסה#point_153">סעיף 153 לפקודה</ref> – את יתרת ההיטל שאינה שנויה במחלוקת.</p>
+                </content>
+              </point>
+              <point eId="point_11__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>נמסרה לחייב בתשלום היטל החלטת בית המשפט בערעור לפי <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_מס_הכנסה#point_156">סעיפים 156</ref><ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_מס_הכנסה#point_157">או 157 לפקודה</ref>, יחולו לגביו הוראות <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_מס_הכנסה#point_185">סעיף 185 לפקודה</ref> כאילו היה הנישום.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_12">
+            <heading>
+              <authorialNote placement="side">
+                <p>דחיית תשלום והפרשי הצמדה וריבית</p>
+              </authorialNote>
+            </heading>
+            <num>12.</num>
+            <content>
+              <p>הוראות <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_מס_הכנסה#point_186">סעיפים 186</ref><ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_מס_הכנסה#point_187">ו־187 לפקודה</ref> יחולו על תשלום היטל לפי <ref href="#part_א_chp_ג">פרק זה</ref> בשינויים המחויבים.</p>
+            </content>
+          </point>
+        </list>
+      </chapter>
+      <chapter eId="chp_ד">
+        <num>פרק ד׳:</num>
+        <title>
+          <content>
+            <p>חובות דיווח ושומת ההיטל</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_13">
+            <heading>
+              <authorialNote placement="side">
+                <p>חובת דיווח</p>
+              </authorialNote>
+            </heading>
+            <num>13.</num>
+            <list>
+              <point eId="point_13__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>בעל זכות נפט של מיזם נפט יגיש, לגבי כל שנת מס החל בשנת המס הראשונה שבתקופת החיפוש, דיווח לגבי רכיבי מקדם ההיטל של המיזם בשנת המס שלגביה מוגש הדיווח (בחוק זה – דוח מקדם היטל) ודיווח לגבי רווחי הנפט של המיזם באותה שנה (בחוק זה – דוח רווחי נפט).</p>
+                </content>
+              </point>
+              <point eId="point_13__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>בעל זכות נפט של מיזם נפט יודיע לפקיד השומה, עד תום תקופת החיפוש, במסגרת דוח מקדם ההיטל שיגיש ולא יאוחר ממועד הגשת דוח מקדם ההיטל שעליו להגיש לגבי שנת המס שבה חל היום האחרון של תקופת החיפוש, אם ברצונו לדווח בשקלים חדשים או בדולרים; הודעה כאמור תחייב את בעל זכות הנפט לגבי כל דוחות מקדם ההיטל ודוחות רווחי נפט שעליו להגיש במסגרת מיזם הנפט; לא הודיע בעל זכות הנפט כאמור, יראוהו כמי שבחר לדווח בשקלים חדשים.</p>
+                </content>
+              </point>
+              <point eId="point_13__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>דוח מקדם ההיטל ודוח רווחי הנפט יוגשו לפקיד השומה בתוך 120 ימים מתום שנת המס שלגביה הם מוגשים, בטופס שקבע המנהל; פקיד השומה רשאי, אם הוכח להנחת דעתו שקיימת סיבה מספקת לכך, לדחות את הגשת הדוחות, כולם או חלקם, למועד שיקבע, ובלבד שמי שקיבל דחייה כאמור יגיש במועד הקבוע בסעיף זה דוחות משוערים על מקדם ההיטל ורווחי הנפט כאמור, שייערכו לפי מיטב אומדנו.</p>
+                </content>
+              </point>
+              <point eId="point_13__point_ד">
+                <num>(ד)</num>
+                <content>
+                  <p>המנהל רשאי לקבוע כללים לעניין ניהול פנקסים וכללי המרה לגבי מי שבחר לדווח בדולרים.</p>
+                </content>
+              </point>
+              <point eId="point_13__point_ה">
+                <num>(ה)</num>
+                <content>
+                  <p>ביקש בעל זכות של מיזם נפט לדווח בדולרים כאמור בסעיף (ב) במסגרת דוח מקדם היטל שאינו הדוח הראשון שהגיש, יקבע פקיד השומה הוראות לתיאום ולהמרה של הדוחות שהוגשו לפני המועד האמור.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_14">
+            <heading>
+              <authorialNote placement="side">
+                <p>שומת ההיטל</p>
+              </authorialNote>
+            </heading>
+            <num>14.</num>
+            <list>
+              <point eId="point_14__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>מסר בעל זכות נפט של מיזם נפט דוח מקדם היטל ודוח רווחי נפט לפי הוראות <ref href="#point_13">סעיף 13</ref>, יראו את הדוחות כשומה עצמית לעניין מקדם ההיטל של המיזם, רווחי הנפט של המיזם וההיטל החל לגביו.</p>
+                </content>
+              </point>
+              <point eId="point_14__point_ב">
+                <num>(ב)</num>
+                <list>
+                  <intro>
+                    <p>בתוך 12 חודשים ממועד הגשת דוח מקדם ההיטל ודוח רווחי הנפט רשאי פקיד השומה לעשות אחת מאלה:</p>
+                  </intro>
+                  <point eId="point_14__point_ב__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>לאשר את השומה העצמית;</p>
+                    </content>
+                  </point>
+                  <point eId="point_14__point_ב__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>לקבוע לפי מיטב שפיטתו את רכיבי מקדם ההיטל של מיזם הנפט בשנת המס, את רווחי הנפט של המיזם באותה שנה או את ההיטל החל לגביו, אם יש לו טעמים סבירים להניח שהדוחות אינם נכונים.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_14__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>לא הוגש דוח רווחי נפט לגבי שנת מס כלשהי, רשאי פקיד השומה לקבוע את רווחי הנפט של מיזם הנפט באותה שנה לפי מיטב שפיטתו ולהטיל לגבי המיזם היטל בהתאם.</p>
+                </content>
+              </point>
+              <point eId="point_14__point_ד">
+                <num>(ד)</num>
+                <content>
+                  <p>לא הוגש דוח מקדם היטל לגבי שנת מס כלשהי בתקופת החיפוש, בתקופת ההקמה או בתקופת ההרצה – יראו את השקעות החיפוש בתקופת החיפוש, את השקעות ההקמה בתקופת ההקמה או את השקעות ההקמה בתקופת ההרצה, לפי העניין, כאילו היו בסכום אפס באותה שנה; בסעיף קטן זה, ”השקעות ההקמה“ ו”השקעות החיפוש“ – כהגדרתן <ref href="#point_4">בסעיף 4(ב)(2)</ref>.</p>
+                </content>
+              </point>
+              <point eId="point_14__point_ה">
+                <num>(ה)</num>
+                <content>
+                  <p>לא הוגש דוח מקדם היטל לגבי שנת מס כלשהי מתום תקופת ההקמה, יראו את כל מקדמי ההיטל היחסיים לגבי אותה שנת מס, כאילו היו בגובה 2.3.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_15">
+            <heading>
+              <authorialNote placement="side">
+                <p>השגה לפני פקיד שומה</p>
+              </authorialNote>
+            </heading>
+            <num>15.</num>
+            <list>
+              <point eId="point_15__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>קבע פקיד שומה, לפי מיטב שפיטתו, את רכיבי מקדם ההיטל של מיזם נפט בשנת המס, את רווחי הנפט של המיזם באותה שנה או את ההיטל החל לגביו, לפי הוראות <ref href="#point_14">סעיף 14(ב)(2) או (ג)</ref> (<ref href="#part_א_chp_ד">בפרק זה</ref> – הודעת שומה לפי מיטב השפיטה), רשאי בעל זכות הנפט של מיזם הנפט לבקש מפקיד השומה, בהודעת השגה מנומקת בכתב, לחזור ולשנות את השומה, בתוך 30 ימים מיום המצאת הודעת השומה לפי מיטב השפיטה; לעניין זה יראו כהשגה על שומה לפי מיטב השפיטה לפי <ref href="#point_14">סעיף 14(ג)</ref>, רק דוח מקדם היטל או דוח רווחי נפט, לפי העניין, שיוגש לגביה.</p>
+                </content>
+              </point>
+              <point eId="point_15__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>מי שערך את שומת ההיטל לא ידון בהשגה עליה.</p>
+                </content>
+              </point>
+              <point eId="point_15__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>קיבל פקיד השומה הודעת השגה לפי הוראות סעיף קטן (א), רשאי הוא לדרוש מהמשיג למסור לו את כל הפרטים הנראים לו דרושים לעניין מקדם ההיטל של מיזם הנפט, רווחי הנפט של המיזם וההיטל החל לגביו, ויחולו לעניין זה הוראות <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_מס_הכנסה#point_151">סעיף 151 לפקודה</ref>, בשינויים המחויבים.</p>
+                </content>
+              </point>
+              <point eId="point_15__point_ד">
+                <num>(ד)</num>
+                <content>
+                  <p>בתוך שישה חודשים ממועד קבלת הודעת השגה לפי הוראות סעיף קטן (א), יחליט פקיד השומה על קבלת ההשגה או על דחייתה, כולה או חלקה, בהודעה מנומקת, ורשאי הוא לערוך הסכם לעניין זה עם בעל זכות הנפט של מיזם הנפט; דחה פקיד השומה את ההשגה, כולה או חלקה, יקבע בכתב את רכיבי מקדם ההיטל של מיזם הנפט בשנת המס, את רווחי הנפט של המיזם באותה שנה או את ההיטל החל לגביו, לפי העניין, ורשאי הוא להגדיל את הרכיבים, הרווחים או ההיטל כאמור מעבר לסכומים שקבע בהודעת השומה לפי מיטב השפיטה.</p>
+                </content>
+              </point>
+              <point eId="point_15__point_ה">
+                <num>(ה)</num>
+                <content>
+                  <p>לא השתמש פקיד השומה בסמכויותיו לפי סעיף זה בתוך התקופה הקבועה בסעיף קטן (ד), יראו את ההשגה כאילו התקבלה.</p>
+                </content>
+              </point>
+              <point eId="point_15__point_ו">
+                <num>(ו)</num>
+                <content>
+                  <p>על החלטת פקיד השומה בהשגה לפי הוראות סעיף קטן (ד), רשאי בעל זכות הנפט של מיזם הנפט לערער, ויחולו לעניין ערעור כאמור הוראות <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_מס_הכנסה#point_153">סעיפים 153 עד 158 לפקודה</ref>, בשינויים המחויבים.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_16">
+            <heading>
+              <authorialNote placement="side">
+                <p>קביעת מחיר שוק בידי פקיד השומה</p>
+              </authorialNote>
+            </heading>
+            <num>16.</num>
+            <list>
+              <point eId="point_16__point_א">
+                <num>(א)</num>
+                <list>
+                  <intro>
+                    <p>פקיד השומה רשאי, לצורך קביעת מקדם ההיטל של מיזם נפט או רווחי הנפט של מיזם נפט, בשנת מס, במסגרת הודעת שומה לפי מיטב השפיטה –</p>
+                  </intro>
+                  <point eId="point_16__point_א__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>לקבוע כי סכום תשלום ששולם או סכום תקבול שהתקבל אינו משקף את מחיר השוק וכי סכום התקבול או התשלום כאמור, לפי העניין, יחושב בהתאם למחיר השוק, אלא אם כן שוכנע פקיד השומה כי סכום התשלום או התקבול, לפי העניין, נקבע בתום לב ובלי שהושפע, במישרין או בעקיפין, מקיום יחסים מיוחדים;</p>
+                    </content>
+                  </point>
+                  <point eId="point_16__point_א__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>לקבוע כי תשלום שהיה צריך להיות משולם או תקבול שהיה צריך להתקבל, ולא שולם או התקבל, לפי העניין, יראו אותו כאילו שולם או התקבל לפי מחיר השוק, אלא אם כן שוכנע פקיד השומה כי אי־התשלום או אי־התקבול, לפי העניין, היה בתום לב ולא הושפע, במישרין או בעקיפין, מקיום יחסים מיוחדים.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_16__point_ב">
+                <num>(ב)</num>
+                <list>
+                  <intro>
+                    <p>בסעיף זה –</p>
+                  </intro>
+                  <point eId="point_16__point_ב__point_יחסים_מיוחדים">
+                    <content>
+                      <p>
+                        <def />”יחסים מיוחדים“ – <wikicomment font-size="x-small">(נמחקה);</wikicomment></p>
+                    </content>
+                  </point>
+                  <point eId="point_16__point_ב__point_מחיר_השוק">
+                    <content>
+                      <p>
+                        <def />”מחיר השוק“ – מחיר שיש לצפות לו במכירה ממוכר מרצון לקונה מרצון.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+            </list>
+          </point>
+          <point eId="point_17">
+            <heading>
+              <authorialNote placement="side">
+                <p>שותף מדווח</p>
+              </authorialNote>
+            </heading>
+            <num>17.</num>
+            <list>
+              <point eId="point_17__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>היתה זכות נפט של מיזם נפט בבעלות משותפת, יבקשו בעלי זכות הנפט מפקיד השומה, בתוך 30 ימים ממועד קבלת הזכות, להכיר באחד מהם כשותף המדווח לעניין <ref href="#part_א_chp_ד">פרק זה</ref>, ובלבד שהוא תושב ישראל כהגדרתו <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_מס_הכנסה">בפקודה</ref>, ואולם רשאי פקיד השומה להכיר בבעל זכות נפט שאינו תושב ישראל כשותף מדווח, מטעמים מיוחדים שיירשמו.</p>
+                </content>
+              </point>
+              <point eId="point_17__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>לא הוגשה בקשה לפי הוראות סעיף קטן (א), רשאי פקיד השומה להודיע לבעלי זכות הנפט על זהות השותף המדווח.</p>
+                </content>
+              </point>
+              <point eId="point_17__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>הכיר פקיד השומה בשותף מדווח על פי בקשה שהוגשה לו לפי סעיף קטן (א) או קבע שותף מדווח לפי סעיף קטן (ב), ייחשב השותף המדווח לעניין <ref href="#part_א_chp_ד">פרק זה</ref>, כבעל זכות הנפט היחיד של מיזם הנפט לצורך <ref href="#part_א_chp_ד">פרק זה</ref>, ויראו בדיווחיו של השותף המדווח, בהשגתו על השומה או בערעור שיגיש, לפי העניין, כאילו היו דיווחיו, השגתו או ערעורו של כל אחד מבעלי זכות הנפט של מיזם הנפט.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+        </list>
+      </chapter>
+      <chapter eId="chp_ה">
+        <num>פרק ה׳:</num>
+        <title>
+          <content>
+            <p>מכירת נפט בנפרד במיזמים בבעלות משותפת</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_18">
+            <heading>
+              <authorialNote placement="side">
+                <p>מכירת נפט בנפרד במיזמים בבעלות משותפת</p>
+              </authorialNote>
+            </heading>
+            <num>18.</num>
+            <list>
+              <intro>
+                <p>נוכח פקיד השומה, כי מכירת נפט שהופק בשטח זכות נפט של מיזם נפט בבעלות משותפת, מתבצעת בנפרד על ידי השותפים, כולם או חלקם, בתנאי עסקה שונים, לרבות מחירי מכירה שונים (בסעיף זה – מכירה בנפרד), יחולו הוראות אלה:</p>
+              </intro>
+              <point eId="point_18__point_1">
+                <num>(1)</num>
+                <content>
+                  <p>מקדם ההיטל יחושב בעבור כל שותף בנפרד, וההיטל שיוטל על כל שותף לפי <ref href="#point_2">סעיף 2</ref>, יחושב בהתאם למקדמי ההיטל היחסיים של אותו שותף;</p>
+                </content>
+              </point>
+              <point eId="point_18__point_2">
+                <num>(2)</num>
+                <content>
+                  <p>על אף הוראות <ref href="#point_17">סעיף 17</ref>, כל אחד מהשותפים יגיש דוח מקדם היטל ודוח רווחי נפט כאמור <ref href="#point_13">בסעיף 13</ref>, בשינויים הקבועים בפסקה (3), ויחולו לגבי כל שותף כאמור הוראות <ref href="#part_א_chp_ד">פרק ד׳</ref> החלות על בעל זכות נפט.</p>
+                </content>
+              </point>
+              <point eId="point_18__point_3">
+                <num>(3)</num>
+                <content>
+                  <p>דוח מקדם היטל ודוח רווחי היטל של כל אחד מהשותפים כאמור בפסקה (2) יכלול את חלקו בדוח מקדם ההיטל ודוח רווחי הנפט שהגיש השותף המדווח כאמור בפסקה (4) בהתאם לחלקו היחסי בזכות הנפט, בתוספת התקבולים מהמכירה בנפרד והתשלומים שנדרש היה לשלמם במישרין לצורך המכירה בנפרד (בסעיף זה – תשלומי המכירה בנפרד);</p>
+                </content>
+              </point>
+              <point eId="point_18__point_4">
+                <num>(4)</num>
+                <list>
+                  <intro>
+                    <p>על אף האמור בפסקה (2) –</p>
+                  </intro>
+                  <point eId="point_18__point_4__point_א">
+                    <num>(א)</num>
+                    <content>
+                      <p>השותף המדווח יגיש דוח מקדם היטל ודוח רווחי נפט; דוחות כאמור לא יכללו את התקבולים של כל אחד מהשותפים מהמכירה בנפרד ואת תשלומי המכירה בנפרד;</p>
+                    </content>
+                  </point>
+                  <point eId="point_18__point_4__point_ב">
+                    <num>(ב)</num>
+                    <content>
+                      <p>השותף המפעיל יצרף לדוחות האמורים בפסקת משנה (א) דיווח בנוגע לכמויות הנפט שיוחסו לכל אחד מהשותפים לצורך המכירה הנפרדת;</p>
+                    </content>
+                  </point>
+                  <point eId="point_18__point_4__point_ג">
+                    <num>(ג)</num>
+                    <content>
+                      <p>הודעה כאמור <ref href="#point_13">בסעיף 13(ב)</ref> תוגש רק על ידי השותף המדווח ותחייב את כל אחד מהשותפים;</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_18__point_5">
+                <num>(5)</num>
+                <content>
+                  <p>על אף האמור <ref href="#point_9">בסעיף 9(א)</ref>, כל אחד מבעלי זכות הנפט של מיזם הנפט יהיה חייב בתשלום בהתאם לשומת רווחי הנפט כפי שנקבעה לו.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+        </list>
+      </chapter>
+      <chapter eId="chp_ו">
+        <num>פרק ו׳:</num>
+        <title>
+          <content>
+            <p>מיסוי שותפות נפט</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_19">
+            <heading>
+              <authorialNote placement="side">
+                <p>מיסוי שותפות נפט</p>
+              </authorialNote>
+            </heading>
+            <num>19.</num>
+            <list>
+              <point eId="point_19__point_א">
+                <num>(א)</num>
+                <list>
+                  <intro>
+                    <p>על שותפות נפט יחולו הוראות <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_מס_הכנסה">הפקודה</ref>, בשינויים אלה:</p>
+                  </intro>
+                  <point eId="point_19__point_א__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>לעניין <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_מס_הכנסה#point_63">סעיף 63(א)(1) לפקודה</ref> יחושב חלקו של כל שותף בשנת המס מההכנסה החייבת של שותפות הנפט או מהפסדיה, שעליהם דווח לפי הוראות פסקה (2);</p>
+                    </content>
+                  </point>
+                  <point eId="point_19__point_א__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>על אף הוראות <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_מס_הכנסה#point_63">סעיף 63(א)(2) ו־(3) לפקודה</ref>, השותף הכללי יהיה חייב בהגשת דוח על הכנסתה החייבת של שותפות הנפט או הפסדיה, בהתאם להוראות שקבע המנהל, ובכלל זה הוראות לעניין הגשת דוח מאושר בידי רואה חשבון ומתואם בידיו לצורכי מס; יראו דוח לפי פסקה זו כדוח לפי <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_מס_הכנסה#point_131">סעיף 131 לפקודה</ref> בשינויים המחויבים;</p>
+                    </content>
+                  </point>
+                  <point eId="point_19__point_א__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>הוגש דוח כאמור בפסקה (2) יחולו, לעניין קביעת הכנסתה החייבת של שותפות הנפט או הפסדיה, הוראות <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_מס_הכנסה#part_ט">חלק ט׳ לפקודה</ref>, בכפוף לאמור בפסקה (5) ובשינויים המחויבים;</p>
+                    </content>
+                  </point>
+                  <point eId="point_19__point_א__point_4">
+                    <num>(4)</num>
+                    <content>
+                      <p>לא הוגש דוח כאמור בפסקה (2) רשאי פקיד השומה לקבוע לפי מיטב שפיטתו את סכום הכנסתה החייבת של שותפות הנפט או הפסדיה, ויחולו הוראות <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_מס_הכנסה#part_ט">חלק ט׳ לפקודה</ref>, בכפוף לאמור בפסקה (5) ובשינויים המחויבים;</p>
+                    </content>
+                  </point>
+                  <point eId="point_19__point_א__point_5">
+                    <num>(5)</num>
+                    <content>
+                      <p>השותף הכללי, והוא בלבד, רשאי להשיג או לערער על שומת ההכנסה החייבת של שותפות הנפט או הפסדיה, שקבע פקיד השומה, לפי הוראות <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_מס_הכנסה#point_150">סעיפים 150</ref>, <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_מס_הכנסה#point_153">153</ref><ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_מס_הכנסה#point_157">ו־157 לפקודה</ref>; השותפים האחרים רשאים להשיג או לערער על השפעת השומה האמורה על הכנסתם, אך לא על השומה עצמה;</p>
+                    </content>
+                  </point>
+                  <point eId="point_19__point_א__point_6">
+                    <num>(6)</num>
+                    <content>
+                      <p>השותף הכללי ישלם בעת הגשת הדוח לפי הוראות פסקה (2) את המס הנובע ממנו, על חשבון המס שחייבים בו השותפים בשותפות הנפט בשנת המס שלגביה הוגש הדוח, לפי שיעור חלקם של השותפים שהם חבר בני אדם, בשותפות הנפט, ושיעור חלקם של השותפים שהם יחידים, באותה שותפות, בתום שנת המס שלגביה הוגש הדוח, ובלבד שלעניין זה יראו את הכנסתם החייבת של היחידים מהשותפות כאילו חל עליה שיעור המס המרבי לפי הוראות <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_מס_הכנסה#point_121">סעיף 121 לפקודה</ref>, למעט אם הוכח לפקיד השומה כי שיעור המס החל על אותו יחיד נמוך מהשיעור האמור; לעניין פסקה זו יחולו הוראות <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_מס_הכנסה#point_187">סעיף 187(א) לפקודה</ref>, בשינויים המחויבים;</p>
+                    </content>
+                  </point>
+                  <point eId="point_19__point_א__point_7">
+                    <num>(7)</num>
+                    <list>
+                      <point eId="point_19__point_א__point_7__point_א">
+                        <num>(א)</num>
+                        <content>
+                          <p>פקיד השומה ימסור לשותף הכללי את הודעות השומה על ההכנסה החייבת של שותפות הנפט או הפסדיה, לפי הוראות <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_מס_הכנסה">הפקודה</ref>;</p>
+                        </content>
+                      </point>
+                      <point eId="point_19__point_א__point_7__point_ב">
+                        <num>(ב)</num>
+                        <content>
+                          <p>נמסרה לשותף הכללי הודעת שומה לפי <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_מס_הכנסה#point_149">סעיף 149 לפקודה</ref>, חייב הוא, בתוך 15 ימים מיום מסירת ההודעה, לשלם את יתרת המס הנובעת ממנה, ואם הגיש השגה לפי הוראות <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_מס_הכנסה#point_150">סעיף 150 לפקודה</ref> – את יתרת המס שאינה שנויה במחלוקת;</p>
+                        </content>
+                      </point>
+                      <point eId="point_19__point_א__point_7__point_ג">
+                        <num>(ג)</num>
+                        <content>
+                          <p>נמסרה לשותף הכללי הודעת שומה מתוקנת לפי <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_מס_הכנסה#point_152">סעיף 152(א) לפקודה</ref>, או צו לפי <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_מס_הכנסה#point_152">סעיף 152(ב) לפקודה</ref>, חייב הוא בתוך 15 ימים מיום מסירת ההודעה או הצו לשלם את יתרת המס הנובעת מהם, ואם הגיש ערעור לפי הוראות <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_מס_הכנסה#point_153">סעיף 153 לפקודה</ref> – את יתרת המס שאינה שנויה במחלוקת;</p>
+                        </content>
+                      </point>
+                      <point eId="point_19__point_א__point_7__point_ד">
+                        <num>(ד)</num>
+                        <content>
+                          <p>נמסרה לשותף הכללי החלטת בית המשפט בערעור לפי <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_מס_הכנסה#point_156">סעיפים 156</ref><ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_מס_הכנסה#point_157">או 157 לפקודה</ref>, יחולו לגביו הוראות <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_מס_הכנסה#point_185">סעיף 185 לפקודה</ref> כאילו היה הנישום;</p>
+                        </content>
+                      </point>
+                    </list>
+                  </point>
+                  <point eId="point_19__point_א__point_8">
+                    <num>(8)</num>
+                    <list>
+                      <point eId="point_19__point_א__point_8__point_א">
+                        <num>(א)</num>
+                        <content>
+                          <p>פקיד השומה רשאי לקבוע מקדמות על חשבון המס שהשותפים בשותפות נפט יהיו חייבים בו באותה שנת מס; שיעור המקדמות יהיה בשיעור מס החברות הקבוע <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_מס_הכנסה#point_126">בסעיף 126 לפקודה</ref>; מקדמות כאמור ישולמו על ידי השותף הכללי; מקדמות לפי פסקת משנה זו יראו אותן כמקדמות שנקבעו לפי <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_מס_הכנסה#point_175">סעיף 175 לפקודה</ref>, בשינויים המחויבים.</p>
+                        </content>
+                      </point>
+                      <point eId="point_19__point_א__point_8__point_ב">
+                        <num>(ב)</num>
+                        <content>
+                          <p>שולם מס לפי הוראות פסקת משנה (א) יתר על סכום המס הנובע מהדוח לפי פסקה (6), תוחזר היתרה לשותף הכללי, ויחולו לעניין זה הוראות <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_מס_הכנסה#point_159א">סעיף 159א לפקודה</ref>, בשינויים המחויבים.</p>
+                        </content>
+                      </point>
+                    </list>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_19__point_ב">
+                <num>(ב)</num>
+                <list>
+                  <point eId="point_19__point_ב__point_1">
+                    <num>(1)</num>
+                    <list>
+                      <intro>
+                        <p>בסעיף זה –</p>
+                      </intro>
+                      <point eId="point_19__point_ב__point_1__point_שותפות_נפט">
+                        <content>
+                          <p>
+                            <def />”שותפות נפט“ – שותפות כהגדרתה <ref href="/akn/il/act/SecondaryLegislation/1988-12-30/100020744">בתקנות מס הכנסה (כללים לחישוב המס בשל החזקה ומכירה של יחידות השתתפות בשותפות לחיפושי נפט), תשמ"ט–1988</ref>;</p>
+                        </content>
+                      </point>
+                      <point eId="point_19__point_ב__point_1__point_שותף_כללי">
+                        <content>
+                          <p>
+                            <def />”שותף כללי“ – כהגדרתו <ref href="/akn/il/act/PrimaryLegislation/1975-07-07/2002288">בפקודת השותפויות [נוסח חדש], התשל"ה–1975</ref>.</p>
+                        </content>
+                      </point>
+                    </list>
+                  </point>
+                  <point eId="point_19__point_ב__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>לכל מונח בסעיף זה תהיה המשמעות הנודעת לו <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_מס_הכנסה">בפקודה</ref>, אלא אם כן נקבע במפורש אחרת.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+            </list>
+          </point>
+        </list>
+      </chapter>
+      <chapter eId="chp_ז">
+        <num>פרק ז׳:</num>
+        <title>
+          <content>
+            <p>ניכוי מיוחד חלף פחת</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_20">
+            <heading>
+              <authorialNote placement="side">
+                <p>ניכוי מיוחד חלף פחת</p>
+              </authorialNote>
+            </heading>
+            <num>20.</num>
+            <list>
+              <point eId="point_20__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>לשם בירור ההכנסה החייבת של בעל זכות נפט של מיזם נפט, על פי <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_מס_הכנסה">הפקודה</ref>, בכל שנת מס החל בשנת המס שבה חל מועד תחילת ההפקה המסחרית, יוכר לבעל זכות הנפט ניכוי בשיעור כאמור בסעיף קטן (ב), לפי בחירתו מראש כאמור בסעיף קטן (ג), מהמחיר המקורי של נכס בר ניכוי שבבעלותו, ובלבד שסך הניכוי שיותר בשל כל נכס כאמור לא יעלה על המחיר המקורי שלו.</p>
+                </content>
+              </point>
+              <point eId="point_20__point_ב">
+                <num>(ב)</num>
+                <list>
+                  <intro>
+                    <p>שיעור הניכוי יהיה אחד מאלה לפי בחירת בעל זכות הנפט:</p>
+                  </intro>
+                  <point eId="point_20__point_ב__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>שיעור קבוע שלא יעלה על 10% (בסעיף זה – ניכוי בשיעור קבוע);</p>
+                    </content>
+                  </point>
+                  <point eId="point_20__point_ב__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>שיעור משתנה, כך שבכל שנת מס גובה הניכוי הכולל בעד כל נכס בר ניכוי שלגביו נבחר ניכוי בשיעור לפי פסקה זו, יהיה בגובה ההכנסה החייבת של בעל זכות הנפט לפני הניכויים לפי פסקה זו ואחרי הניכויים לפי פסקה (1), ובלבד שהניכוי לפי פסקה זו המיוחס לכל נכס בר ניכוי לא יעלה על 10% ממחירו המקורי; המנהל רשאי לקבוע הוראות לעניין ייחוס הניכוי כאמור לכל נכס בר ניכוי.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_20__point_ג">
+                <num>(ג)</num>
+                <list>
+                  <intro>
+                    <p>בעל זכות נפט של מיזם הנפט יודיע למנהל, בטופס שקבע המנהל, על סוג הניכוי כאמור בסעיף קטן (ב) שהוא בוחר בו לגבי כל נכס בר ניכוי, ואם בחר בניכוי בשיעור קבוע – על שיעור הניכוי, והכל במועד כמפורט להלן, לפי העניין:</p>
+                  </intro>
+                  <point eId="point_20__point_ג__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>לגבי נכס בר ניכוי שנרכש עד תום שנת המס שבה חל מועד תחילת ההפקה המסחרית – עם הגשת דוח לפי <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_מס_הכנסה#point_131">סעיף 131 לפקודה</ref> לגבי שנת המס שבה חל המועד האמור;</p>
+                    </content>
+                  </point>
+                  <point eId="point_20__point_ג__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>לגבי נכס בר ניכוי שנרכש בשנת מס כלשהי אחרי שנת המס שבה חל מועד תחילת ההפקה המסחרית – עם הגשת דוח לפי <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_מס_הכנסה#point_131">סעיף 131 לפקודה</ref> לגבי אותה שנת מס.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_20__point_ד">
+                <num>(ד)</num>
+                <content>
+                  <p>הודיע בעל זכות נפט של מיזם נפט על בחירתו כאמור בסעיף קטן (ג), לא יוכל לחזור ממנה.</p>
+                </content>
+              </point>
+              <point eId="point_20__point_ה">
+                <num>(ה)</num>
+                <content>
+                  <p>היה בעל זכות נפט של מיזם נפט, שותפות נפט כהגדרתה <ref href="#point_19">בסעיף 19(ב)</ref>, יודיע השותף הכללי כהגדרתו <ref href="#point_19">באותו סעיף</ref> על בחירת השותפות כאמור בסעיף קטן (ג), ובחירתו תחייב את כל השותפים; לעניין זה, בפסקה (2) של סעיף קטן (ב), במקום ”ההכנסה החייבת של בעל זכות הנפט“ יקראו ”ההכנסה החייבת של שותפות הנפט שעליה דווח לפי <ref href="#point_19">סעיף 19(א)(2)</ref>“.</p>
+                </content>
+              </point>
+              <point eId="point_20__point_ו">
+                <num>(ו)</num>
+                <content>
+                  <p>ניכוי לפי סעיף זה יבוא במקום פחת לפי <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_מס_הכנסה#point_21">סעיף 21 לפקודה</ref> ובעל זכות נפט של מיזם נפט לא יהיה זכאי לפחת על פי <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_מס_הכנסה">הפקודה</ref>; ההוראות לעניין פחת לפי <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_מס_הכנסה">הפקודה</ref> יחולו על ניכוי כאמור כאילו היה פחת, בשינויים המחויבים.</p>
+                </content>
+              </point>
+              <point eId="point_20__point_ז">
+                <num>(ז)</num>
+                <list>
+                  <point eId="point_20__point_ז__point_1">
+                    <num>(1)</num>
+                    <list>
+                      <intro>
+                        <p>בסעיף זה –</p>
+                      </intro>
+                      <point eId="point_20__point_ז__point_1__point_נכס_בר_ניכוי">
+                        <content>
+                          <p>
+                            <def />”נכס בר ניכוי“ – מכונה או ציוד שבבעלותו של בעל זכות נפט של מיזם נפט, המשמשים לצורכי ייצור הכנסתו מהפקת נפט בשטח זכות הנפט של מיזם הנפט וכן הוצאות חיפוש ופיתוח, והכל בלבד שלא נחשבו כהוצאה המותרת בניכוי לפי <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/תקנות_מס_הכנסה_ניכויים_מהכנסת_בעלי_זכות_נפט">תקנות מס הכנסה (ניכויים מהכנסת בעלי זכות נפט), התשט"ז–1956</ref>;</p>
+                        </content>
+                      </point>
+                      <point eId="point_20__point_ז__point_1__point_הוצאות_חיפוש_ופיתוח">
+                        <content>
+                          <p>
+                            <def />”הוצאות חיפוש ופיתוח“ – כל ההוצאות שהוצאו בחיפוש ובפיתוח נכס נפט, כולו או מקצתו, לרבות הוצאות לבדיקות ולניסויים גאולוגיים, גאופיסיים, גאוכימיים וכיוצא באלה, למעט מקרקעין;</p>
+                        </content>
+                      </point>
+                      <point eId="point_20__point_ז__point_1__point_נכס_נפט">
+                        <content>
+                          <p>
+                            <def />”נכס נפט“ – מצבר נפט נפרד, המצוי מתחת לשטח שעליו ניתנה זכות נפט, והשטח שעל פני הקרקע הדרוש להפקת הנפט, ובלבד שבעל זכות נפט רשאי לבחור שמספר מצברי נפט נפרדים יחושבו כנכס נפט אחד, אם הם מצויים מתחת לשטח שעליו ניתנה אותה זכות נפט, או שעליו ניתנו זכויות נפט אחדות רצופות, או שאינן רצופות אך מופעלות כיחידה אחת.</p>
+                        </content>
+                      </point>
+                    </list>
+                  </point>
+                  <point eId="point_20__point_ז__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>לכל מונח בסעיף זה תהיה המשמעות הנודעת לו <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_מס_הכנסה">בפקודה</ref>, אלא אם כן נקבע במפורש אחרת.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+            </list>
+          </point>
+        </list>
+      </chapter>
+      <chapter eId="chp_none">
+        <num></num>
+        <title>
+          <content>
+            <p>חלק ב׳: מיסוי רווחים ממשאבי טבע נוספים</p>
+          </content>
+        </title>
+      </chapter>
+      <chapter eId="chp_א">
+        <num>פרק א׳:</num>
+        <title>
+          <content>
+            <p>הגדרות</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_20א">
+            <heading>
+              <authorialNote placement="side">
+                <p>הגדרות</p>
+              </authorialNote>
+            </heading>
+            <num>20א.</num>
+            <list>
+              <intro>
+                <p>
+                  <ref href="#part_ב">בחלק זה</ref>, וכן <ref href="#part_ג">בחלקים ג׳ עד ו׳</ref> בהוראות שעניינן מיסוי רווחים ממשאבי טבע שאינם נפט –</p>
+              </intro>
+              <point eId="point_20א__point_בעל_זכות_לניצול_משאב_טבע">
+                <list>
+                  <intro>
+                    <p>
+                      <def />”בעל זכות לניצול משאב טבע“ – כל אחד מאלה:</p>
+                  </intro>
+                  <point eId="point_20א__point_בעל_זכות_לניצול_משאב_טבע__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>בעל זכות כרייה לפי <ref href="/akn/il/act/PrimaryLegislation/1933-12-31/2001801">פקודת המכרות</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_20א__point_בעל_זכות_לניצול_משאב_טבע__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>בעל זיכיון, זיכיון משנה או חכירת משנה לפי <ref href="/akn/il/act/PrimaryLegislation/1961-06-11/147353">חוק זיכיון ים המלח</ref>, ואולם אם ניתנו זיכיון משנה או חכירת משנה כאמור, יראו את בעל זיכיון המשנה או חוכר המשנה בלבד כבעל הזכות לניצול משאב הטבע;</p>
+                    </content>
+                  </point>
+                  <point eId="point_20א__point_בעל_זכות_לניצול_משאב_טבע__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>בעל זכות לניצול משאב טבע שאינו מנוי בפסקאות (1) או (2), לפי כל דין או הסכם;</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_20א__point_דולר">
+                <content>
+                  <p>
+                    <def />”דולר“, ”נפט“, ”הוועדה“, ”יחסים מיוחדים“, ””המנהל“, ”פקיד שומה“ ו”שנת מס““, ”הפקודה“ ו”השר“ – כהגדרתם <ref href="#point_1">בסעיף 1</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_20א__point_היטל_רווחי_יתר">
+                <content>
+                  <p>
+                    <def />”היטל רווחי יתר“ – היטל על רווחי יתר, כמשמעותו <ref href="#point_20ב">בסעיף 20ב</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_20א__point_הפקה">
+                <content>
+                  <p>
+                    <def />”הפקה“, של משאב טבע – כל פעולה הנעשית לשם הפקת משאב טבע משלב הפקת המחצב הגולמי שממנו מעובד משאב הטבע עד להשלמת עיבודו של משאב הטבע;</p>
+                </content>
+              </point>
+              <point eId="point_20א__point_חוק_זיכיון_ים_המלח">
+                <content>
+                  <p>
+                    <def />”חוק זיכיון ים המלח“ – <ref href="/akn/il/act/PrimaryLegislation/1961-06-11/147353">חוק זיכיון ים המלח, התשכ"א–1961</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_20א__point_חוק_ניירות_ערך">
+                <content>
+                  <p>
+                    <def />”חוק ניירות ערך“ – <ref href="/akn/il/act/PrimaryLegislation/1968-08-22/150242">חוק ניירות ערך, התשכ"ח–1968</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_20א__point_כללי_החשבונאות_המקובלים">
+                <list>
+                  <intro>
+                    <p>
+                      <def />”כללי החשבונאות המקובלים“ – כמפורט להלן, לפי העניין:</p>
+                  </intro>
+                  <point eId="point_20א__point_כללי_החשבונאות_המקובלים__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>לעניין תאגיד מדווח כהגדרתו <ref href="/akn/il/act/PrimaryLegislation/1968-08-22/150242">בחוק ניירות ערך</ref> – כללי החשבונאות החלים עליו בהתאם לתקנות לפי <ref href="/akn/il/act/PrimaryLegislation/1968-08-22/150242#point_17">סעיפים 17</ref><ref href="/akn/il/act/PrimaryLegislation/1968-08-22/150242#point_36">ו־36 לחוק ניירות ערך</ref> (בהגדרה זו – תקנות הדיווח);</p>
+                    </content>
+                  </point>
+                  <point eId="point_20א__point_כללי_החשבונאות_המקובלים__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>לעניין חברה מוחזקת בידי תאגיד מדווח, כמשמעותה בתקנות הדיווח – כללי החשבונאות החלים על התאגיד המדווח, כאמור בפסקה (1);</p>
+                    </content>
+                  </point>
+                  <point eId="point_20א__point_כללי_החשבונאות_המקובלים__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>לעניין תאגיד שניירות הערך שלו רשומים למסחר בבורסה מחוץ לישראל, שהוראות פסקאות (1) ו־(2) אינן חלות עליו, והוא חייב, לפי כללי אותה בורסה, בדיווח בהתאם לתקני דיווח כספי בין־לאומיים או בהתאם לכללי חשבונאות מקובלים בארצות הברית, כמשמעותם בתקנות הדיווח (בהגדרה זו – תאגיד מדווח בבורסה בחו"ל) – תקני הדיווח או כללי החשבונאות כאמור, החלים עליו;</p>
+                    </content>
+                  </point>
+                  <point eId="point_20א__point_כללי_החשבונאות_המקובלים__point_4">
+                    <num>(4)</num>
+                    <content>
+                      <p>לעניין תאגיד שדוחותיו מאוחדים עם דוחות תאגיד מדווח בבורסה בחו"ל או שנתוניו הכספיים כלולים בדוח של תאגיד מדווח כאמור, והוראות פסקאות (1) ו־(2) אינן חלות עליו – תקני הדיווח או כללי החשבונאות החלים על התאגיד המדווח, כאמור בפסקה (3);</p>
+                    </content>
+                  </point>
+                  <point eId="point_20א__point_כללי_החשבונאות_המקובלים__point_5">
+                    <num>(5)</num>
+                    <content>
+                      <p>לעניין בעל זכות לניצול משאב טבע שפסקאות (1) עד (4) אינן חלות עליו – תקני חשבונאות שקבע המוסד הישראלי לתקינה בחשבונאות;</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_20א__point_מחצב">
+                <content>
+                  <p>
+                    <def />”מחצב“ – מחצבים כהגדרתם <ref href="/akn/il/act/PrimaryLegislation/1933-12-31/2001801">בפקודת המכרות</ref> או מחצב <ref href="/akn/il/act/PrimaryLegislation/1961-06-11/147353">שחוק זיכיון ים המלח</ref> חל לגביו, למעט נפט שאינו מופק מפצלי שמן;</p>
+                </content>
+              </point>
+              <point eId="point_20א__point_מחצב_גולמי">
+                <content>
+                  <p>
+                    <def />”מחצב גולמי“ – כל מחצב עד להפיכתו למשאב טבע;</p>
+                </content>
+              </point>
+              <point eId="point_20א__point_משאב_טבע">
+                <content>
+                  <p>
+                    <def />”משאב טבע“ – מחצב שהוא המוצר הסחיר הראשון, המפורט <ref href="#appendix">בתוספת</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_20א__point_נכסים_בלתי_מוחשיים">
+                <list>
+                  <intro>
+                    <p>
+                      <def />”נכסים בלתי מוחשיים“ – נכסים בלתי מוחשיים המנויים בפסקאות (1) עד (3) להלן:</p>
+                  </intro>
+                  <point eId="point_20א__point_נכסים_בלתי_מוחשיים__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>תוכנות מחשב;</p>
+                    </content>
+                  </point>
+                  <point eId="point_20א__point_נכסים_בלתי_מוחשיים__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>ידע וטכנולוגיה;</p>
+                    </content>
+                  </point>
+                  <point eId="point_20א__point_נכסים_בלתי_מוחשיים__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>נכסים בלתי מוחשיים הנובעים מפיתוח;</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_20א__point_העלות_המופחתת_של_הרכוש_הקבוע">
+                <content>
+                  <p>
+                    <def />”העלות המופחתת של הרכוש הקבוע“ – כמשמעותה <ref href="#point_20ה">בסעיף 20ה</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_20א__point_רווחי_יתר">
+                <content>
+                  <p>
+                    <def />”רווחי יתר“ – כמשמעותם <ref href="#point_20ג">בסעיף 20ג</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_20א__point_רווח_תפעולי_מתואם">
+                <content>
+                  <p>
+                    <def />”רווח תפעולי מתואם“ – כמשמעותו <ref href="#point_20ד">בסעיף 20ד</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_20א__point_רכוש_קבוע">
+                <content>
+                  <p>
+                    <def />”רכוש קבוע“ – רכוש קבוע ונכסים בלתי מוחשיים המשמשים לפעילות של מכירה או הפקה של משאב הטבע.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+        </list>
+      </chapter>
+      <chapter eId="chp_ב">
+        <num>פרק ב׳:</num>
+        <title>
+          <content>
+            <p>היטל רווחי יתר ושיעורו</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_20ב">
+            <heading>
+              <authorialNote placement="side">
+                <p>היטל רווחי יתר</p>
+              </authorialNote>
+            </heading>
+            <num>20ב.</num>
+            <list>
+              <point eId="point_20ב__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>בעל זכות לניצול משאב טבע חייב בתשלום היטל על רווחי יתר ממכירה של משאב הטבע, בהתאם להוראות <ref href="#part_ב">חלק זה</ref>.</p>
+                </content>
+              </point>
+              <point eId="point_20ב__point_ב">
+                <num>(ב)</num>
+                <list>
+                  <intro>
+                    <p>ההיטל יהיה בשיעור מרווחי היתר כמפורט להלן:</p>
+                  </intro>
+                  <point eId="point_20ב__point_ב__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>על רווחי היתר עד לסכום השווה ל־6% מהעלות המופחתת של הרכוש הקבוע – 25%;</p>
+                    </content>
+                  </point>
+                  <point eId="point_20ב__point_ב__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>על רווחי היתר העולים על הסכום האמור בפסקה (1) – 42%.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_20ב__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>היטל רווחי יתר יחושב בעד כל זכות לניצול משאב טבע, בנפרד, ואם היתה הזכות לניצול כמה משאבי טבע – בעד כל משאב טבע בנפרד.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_20ג">
+            <heading>
+              <authorialNote placement="side">
+                <p>חישוב רווחי יתר ממכירה של משאב טבע</p>
+              </authorialNote>
+            </heading>
+            <num>20ג.</num>
+            <content>
+              <p>רווחי יתר ממכירה של משאב טבע יחושבו, לגבי כל שנת מס, בסוף אותה שנה, כסכום ההפרש בין הרווח התפעולי המתואם באותה שנה לבין 14% מהעלות המופחתת של הרכוש הקבוע באותה שנה.</p>
+            </content>
+          </point>
+          <point eId="point_20ד">
+            <heading>
+              <authorialNote placement="side">
+                <p>חישוב הרווח התפעולי המתואם</p>
+              </authorialNote>
+            </heading>
+            <num>20ד.</num>
+            <list>
+              <point eId="point_20ד__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>הרווח התפעולי המתואם יחושב, לגבי כל שנת מס, בתום אותה שנה, כרווח התפעולי באותה שנת מס ממכירת משאב הטבע, בניכוי הוצאות הפחת באותה שנה ובניכוי 5% מההון החוזר הממוצע בשנה האמורה.</p>
+                </content>
+              </point>
+              <point eId="point_20ד__point_ב">
+                <num>(ב)</num>
+                <list>
+                  <intro>
+                    <p>בסעיף זה –</p>
+                  </intro>
+                  <point eId="point_20ד__point_ב__point_רווח_תפעולי">
+                    <list>
+                      <intro>
+                        <p>
+                          <def />”רווח תפעולי“ – מחזור המכירות של משאב הטבע בהפחתת כל ההוצאות להפקה ולמכירה של משאב הטבע, המפורטות להלן, למעט פחת והפחתות ולמעט הוצאות בשל הפחתה הנובעת מירידת ערך הרכוש הקבוע שאינה הפחתה כאמור <ref href="#point_20ה">בסעיף 20ה(ב)</ref>:</p>
+                      </intro>
+                      <point eId="point_20ד__point_ב__point_רווח_תפעולי__point_1">
+                        <num>(1)</num>
+                        <content>
+                          <p>עלות המכר, לרבות תמלוגים, ושכר;</p>
+                        </content>
+                      </point>
+                      <point eId="point_20ד__point_ב__point_רווח_תפעולי__point_2">
+                        <num>(2)</num>
+                        <content>
+                          <p>עלויות הובלה ושיווק;</p>
+                        </content>
+                      </point>
+                      <point eId="point_20ד__point_ב__point_רווח_תפעולי__point_3">
+                        <num>(3)</num>
+                        <content>
+                          <p>הוצאות מכירה והוצאות הנהלה וכלליות;</p>
+                        </content>
+                      </point>
+                      <point eId="point_20ד__point_ב__point_רווח_תפעולי__point_4">
+                        <num>(4)</num>
+                        <content>
+                          <p>הוצאות מחקר ופיתוח בניכוי מענקים שניתנו בקשר אליהן;</p>
+                        </content>
+                      </point>
+                      <point eId="point_20ד__point_ב__point_רווח_תפעולי__point_5">
+                        <num>(5)</num>
+                        <content>
+                          <p>הוצאות לפירוק ופינוי הרכוש הקבוע ושיקום האתר שבו הוא ממוקם, בשנת המס שבה שולמו בפועל, למעט אם שולמו אגב מכירת הרכוש הקבוע האמור (להלן – הוצאות פירוק ופינוי), ויחולו לעניין זה הוראות סעיף קטן (ג);</p>
+                        </content>
+                      </point>
+                    </list>
+                  </point>
+                  <point eId="point_20ד__point_ב__point_הוצאות_פחת">
+                    <content>
+                      <p>
+                        <def />”הוצאות פחת“ – הוצאות הפחת וההפחתה בשל הרכוש הקבוע המחושבות על בסיס עלות הרכוש הקבוע כהגדרתה <ref href="#point_20ה">בסעיף 20ה(א)</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_20ד__point_ב__point_הון_חוזר">
+                    <content>
+                      <p>
+                        <def />”הון חוזר“ – סך הנכסים השוטפים שיש לכלול בסעיפי ”מלאי“, ”לקוחות“ ו”חייבים ויתרות חובה“, המתייחסים לפעילות הפקה או מכירה של משאב הטבע, בניכוי סך ההתחייבויות השוטפות שיש לכלול בסעיפי ”ספקים“, ”נותני שירותים“ ו”זכאים ויתרות זכות“, המתייחסים לפעילות כאמור;</p>
+                    </content>
+                  </point>
+                  <point eId="point_20ד__point_ב__point_הון_חוזר_ממוצע">
+                    <content>
+                      <p>
+                        <def />”הון חוזר ממוצע“ – סכום השווה להון החוזר בשנת המס בתוספת ההון החוזר בשנת המס שקדמה לה, כשהוא מחולק לשניים.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_20ד__point_ג">
+                <num>(ג)</num>
+                <list>
+                  <point eId="point_20ד__point_ג__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>הוצאו הוצאות הפירוק והפינוי כאמור בסעיף (ב)(5) בשנת המס האחרונה שבה היו לבעל הזכות לניצו למשאב הטבע הכנסות הנובעות מזכות אחת להפקת משאב טבע, ואם אוחדו זיכיונות לפי <ref href="#point_20ט">סעיף 20ט</ref>, הכנסות מהזיכיונות שאוחדו, בשל סיומם של זכות הכרייה, הזיכיון או זיכיון המשנה, או בשל סיום עתודות ההפקה של המשאב, והיה לבעל הזכות לניצול משאב הטבע רווח יתר שלילי כהגדרתו <ref href="#point_20ח">בסעיף 20ח</ref> ממשאב הטבע באותה שנת מס, יופחת רווחה יתר השלילי עד לגובה הוצאות הפירוק והפינוי (בסעיף קטן זה – הפרש לקיזוז) מהרווח התפעולי המתואם ממכירת אותו משאב טבע בשנות המס הקודמות עד לאיפוס רווחי היתר באותן שנות מס, ויראו את השומות לשנים האמורות כמתוקנות בהתאם לכך, ואולם לא תחול בשל כך חובת תשלום ריבית והפרשי הצמדה על פי <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_מס_הכנסה#point_159א">סעיף 159א לפקודה</ref>.</p>
+                    </content>
+                  </point>
+                  <point eId="point_20ד__point_ג__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>היה ניתן להפחית את ההפרש לקיזוז בשנה המאוחרת יותר – לא תותר הפחתה בשנה שקדמה לה.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+            </list>
+          </point>
+          <point eId="point_20ה">
+            <heading>
+              <authorialNote placement="side">
+                <p>חישוב העלות המופחתת של הרכוש הקבוע</p>
+              </authorialNote>
+            </heading>
+            <num>20ה.</num>
+            <list>
+              <point eId="point_20ה__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>העלות המופחתת של הרכוש הקבוע תחושב, בכל שנת מס, בסוף אותה שנה, כעלות הרכוש הקבוע שהחל לשמש לפעילות של מכירה או הפקה של משאב הטבע במהלך שנת המס, בתוספת עלות הרכוש הקבוע בשנת המס הקודמת ובניכוי הוצאות הפחת, כהגדרתן <ref href="#point_20ד">בסעיף 20ד(ב)</ref>, שנצברו בשל אותו רכוש עד תום שנת המס; לעניין זה, ”עלות הרכוש הקבוע“ – למעט אומדן עלויות פירוק ופינוי הרכוש הקבוע ושיקום האתר שבו הוא ממוקם, ובניכוי מענקים המתייחסים לרכוש הקבוע.</p>
+                </content>
+              </point>
+              <point eId="point_20ה__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>כלל הרכוש הקבוע נכסים בלתי מוחשיים בעלי אורך חיים בלתי מוגדר, תחושב העלות המופחתת שלהם כאמור בסעיף קטן (א), ובניכוי הפסדים מירידת ערך שנצברו בשלהם.</p>
+                </content>
+              </point>
+              <point eId="point_20ה__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>שימש רכוש קבוע לפעילות של הפקה או מכירה של משאב הטבע בחלק משנת המס, תובא בחשבון, לצורך חישוב העלות המופחתת של הרכוש הקבוע, רק העלות המופחתת היחסית של אותו רכוש; לעניין זה, ”העלות המופחתת היחסית“, של רכוש קבוע – עלות הרכוש הקבוע האמור, בניכוי הוצאות הפחת, כהגדרתן <ref href="#point_20ד">בסעיף 20ד(ב)</ref>, שנצברו בשלו עד תום שנת המס, כשהתוצאה מוכפלת בחלק היחסי משנת המס שבמהלכו שימש הרכוש הקבוע האמור להפקה או למכירה של משאב הטבע.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_20ו">
+            <heading>
+              <authorialNote placement="side">
+                <p>ייחוס נכסים, הוצאות והתחייבויות הקשורים לפעילויות משותפות</p>
+              </authorialNote>
+            </heading>
+            <num>20ו.</num>
+            <list>
+              <point eId="point_20ו__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>עשה בעל זכות לניצול משאב טבע שימוש ברכוש קבוע או בנכסים שוטפים כאמור בהגדרה ”הון חוזר“ <ref href="#point_20ד">שבסעיף 20ד(ב)</ref>, להפקה או למכירה של משאב הטבע וכן לפעילות נוספת (בסעיף קטן זה – פעילויות משותפות), או היו לו הוצאות בשל פעילויות משותפות או התחייבויות שוטפות הנובעות מפעילויות כאמור, ייוחסו הנכסים, ההוצאות או ההתחייבויות האמורות להפקה או למכירה של משאב הטבע לצורך חישוב רווחי היתר, בהתאם ליחס שבין מחזור המכירות הכלול בחישוב הרווח התפעולי המתואם של משאב הטבע בשנת המס לבין מחזור ההכנסות של בעל הזכות לניצול משאב הטבע באותה שנה מהפעילויות המשותפות (בסעיף זה – מחזור ההוצאות המשותפות), ויחולו הוראות סעיפים קטנים (ב) ו־(ג).</p>
+                </content>
+              </point>
+              <point eId="point_20ו__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>כללה הפעילות הנוספת כאמור בסעיף קטן (א) פעילות להפקה ומכירה של משאב טבע נוסף (בסעיף זה – המשאב הנוסף), יחושב מחזור ההכנסות המשותפות לגבי המשאב הנוסף בהתאם למחזור המכירות הכולל בחישוב הרווח התפעולי המתואם של המשאב הנוסף.</p>
+                </content>
+              </point>
+              <point eId="point_20ו__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>כלל חישוב הרווח התפעולי של משאב הטבע או של משאב הטבע הנוסף מכירות לפי <ref href="#point_20כ">סעיף 20כ(ב)(2)</ref>, יחושבו ההכנסות מאותן מכירות לפי מחירן בפועל, בכפוף להוראות <ref href="#point_20כא">סעיף 20כא</ref>.</p>
+                </content>
+              </point>
+              <point eId="point_20ו__point_ד">
+                <num>(ד)</num>
+                <content>
+                  <p>על אף האמור בסעיף קטן (א), שימש רכוש קבוע להפקה או למכירה של משאבי טבע בידי כמה בעלי זכות לניצול משאב טבע, שמתקיימים ביניהם יחסים מיוחדים, ייוחס הרכוש הקבוע להפקה או למכירה של כל משאב טבע, לצורך חישוב רווחי היתר, בהתאם ליחס שבין מחזור המכירות הכלול בחישוב הרווח התפעולי המתואם של כל אחד ממשאבי הטבע בשנת המס לבין סך כל מחזורי המכירות הכלולים בחישוב הרווח התפעולי המתואם של משאבי הטבע יחד באותה שנה; כלל חישוב הרווח התפעולי של משאב טבע מכירות לפי <ref href="#point_20כ">סעיף 20כ(ב)(2)</ref>, יחושבו ההכנסות מאותן מכירות לפי מחירן בפועל, בכפוף להוראות <ref href="#point_20כא">סעיף 20כא</ref>.</p>
+                </content>
+              </point>
+              <point eId="point_20ו__point_ה">
+                <num>(ה)</num>
+                <content>
+                  <p>על אף האמור בסעיף קטן (ב), יראו רכוש קבוע ששימש להפקה או למכירה של כלוריד האשלג וכן להפקה או למכירה של כלוריד המגנזיום, כרכוש קבוע ששימש להפקה או למכירה של כלוריד האשלג, בלבד.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_20ז">
+            <heading>
+              <authorialNote placement="side">
+                <p>חישוב בהתאם לכללי החשבונאות המקובלים</p>
+              </authorialNote>
+            </heading>
+            <num>20ז.</num>
+            <content>
+              <p>חישוב רכיבי רווחי היתר והיטל רווחי היתר לפי <ref href="#part_ב_chp_ב">פרק זה</ref> יהיה בהתאם לכללי החשבונאות המקובלים, אלא אם כן נקבע אחרת בחוק זה, ובכפוף להוראות <ref href="#part_ב_chp_ה">פרק ה׳</ref>.</p>
+            </content>
+          </point>
+          <point eId="point_20ח">
+            <heading>
+              <authorialNote placement="side">
+                <p>העברת רווחי יתר שליליים לשנות מס עוקבות</p>
+              </authorialNote>
+            </heading>
+            <num>20ח.</num>
+            <content>
+              <p>היה הרווח התפעולי המתואם של בעל זכות לניצול משאב טבע ממכירת משאב הטבע נמוך מ־14% מהעלות המופחתת של הרכוש הקבוע בשנת המס, יופחת ההפרש ביניהם (להלן – רווח יתר שלילי) מהרווח התפעולי המתואם ממכירת אותו משאב טבע בשנות המס הבאות, בזו אחר זו, ובלבד שאם היה ניתן להפחיתו באחת השנים הבאות כאמור, לא תותר הפחתה בשנה שלאחריה.</p>
+            </content>
+          </point>
+          <point eId="point_20ט">
+            <heading>
+              <authorialNote placement="side">
+                <p>כללים לאיחוד זכויות לניצול משאב טבע</p>
+              </authorialNote>
+            </heading>
+            <num>20ט.</num>
+            <list>
+              <intro>
+                <p>המנהל רשאי להורות, במסגרת קביעת שומה לפי מיטב השפיטה לפי <ref href="#point_20טו">סעיף 20טו(ב)(2)</ref>, או במסגרת החלטת מיסוי לפי <ref href="#point_44">סעיף 44</ref> שניתנה לבקשת בעל זכות לניצול משאב טבע, כי כמה זכויות לניצול אותו משאב טבע שבידי אותו בעל זכות, ייחשבו לעניין חלק זה כזכות אחת לניצול משאב טבע, ובלבד שמתקיימים, בין השאר, כל אלה:</p>
+              </intro>
+              <point eId="point_20ט__point_1">
+                <num>(1)</num>
+                <content>
+                  <p>מרבית הרכוש הקבוע המשמש להפקה של משאב הטבע ומרבית העובדים העוסקים בהפקת משאב הטבע משותפים לכל הזכויות;</p>
+                </content>
+              </point>
+              <point eId="point_20ט__point_2">
+                <num>(2)</num>
+                <content>
+                  <p>המנהל שוכנע כי הטעם העיקרי להגשת הבקשה אינו הימנעות מתשלום ההיטל או הפחתת היטל בלתי נאותה.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+        </list>
+      </chapter>
+      <chapter eId="chp_ג">
+        <num>פרק ג׳:</num>
+        <title>
+          <content>
+            <p>תשלום ההיטל</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_20י">
+            <heading>
+              <authorialNote placement="side">
+                <p>מועד התשלום</p>
+              </authorialNote>
+            </heading>
+            <num>20י.</num>
+            <content>
+              <p>בעל זכות לניצול משאב טבע ישלם את היטל רווחי היתר במועד הגשת דוח רווחי היתר.</p>
+            </content>
+          </point>
+          <point eId="point_20יא">
+            <heading>
+              <authorialNote placement="side">
+                <p>מקדמות</p>
+              </authorialNote>
+            </heading>
+            <num>20יא.</num>
+            <content>
+              <p>השר רשאי לקבוע הוראות לעניין תשלום מקדמות על חשבון היטל רווחי יתר; הוראות <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_מס_הכנסה#point_180">סעיפים 180</ref><ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_מס_הכנסה#point_190">ו־190 לפקודה</ref>, יחולו על מקדמות לפי סעיף זה, בשינויים המחויבים.</p>
+            </content>
+          </point>
+          <point eId="point_20יב">
+            <heading>
+              <authorialNote placement="side">
+                <p>תשלום היטל לאחר שומה, השגה וערעור</p>
+              </authorialNote>
+            </heading>
+            <num>20יב.</num>
+            <list>
+              <point eId="point_20יב__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>נמסרה לחייב בתשלום היטל רווחי יתר החלטת פקיד השומה לפי הוראות <ref href="#point_20טו">סעיף 20טו(ב)(2)</ref>, חייב הוא, בתוך 15 ימים מיום מסירת ההודעה, לשלם את יתרת היטל רווחי היתר הנובעת ממנה, ואם הוגשה השגה לפי <ref href="#point_20טז">סעיף 20טז</ref> – את יתרת ההיטל שאינה שנויה במחלוקת.</p>
+                </content>
+              </point>
+              <point eId="point_20יב__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>נמסרה לחייב בתשלום היטל רווחי יתר החלטת פקיד השומה לפי הוראות <ref href="#point_20טז">סעיף 20טז(ד)</ref>, חייב הוא, בתוך 15 ימים מיום מסירת ההודעה, לשלם את יתרת היטל רווחי היתר הנובעת ממנה, ואם הוגש ערעור לפי הוראות <ref href="#point_20טז">סעיף 20טז(ו)</ref> – את יתרת ההיטל שאינה שנויה במחלוקת.</p>
+                </content>
+              </point>
+              <point eId="point_20יב__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>נמסרה לחייב בתשלום היטל רווחי יתר החלטת בית המשפט בערעור לפי <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_מס_הכנסה#point_156">סעיפים 156</ref><ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_מס_הכנסה#point_157">או 157 לפקודה</ref>, יחולו לגביו הוראות <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_מס_הכנסה#point_185">סעיף 185 לפקודה</ref> כאילו היה הנישום.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_20יג">
+            <heading>
+              <authorialNote placement="side">
+                <p>דחיית תשלום והפרשי הצמדה וריבית</p>
+              </authorialNote>
+            </heading>
+            <num>20יג.</num>
+            <content>
+              <p>הוראות <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_מס_הכנסה#point_186">סעיפים 186</ref><ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_מס_הכנסה#point_187">ו־187 לפקודה</ref> יחולו על תשלום היטל רווחי יתר לפי <ref href="#part_ב_chp_ג">פרק זה</ref>, בשינויים המחויבים.</p>
+            </content>
+          </point>
+        </list>
+      </chapter>
+      <chapter eId="chp_ד">
+        <num>פרק ד׳:</num>
+        <title>
+          <content>
+            <p>חובות דיווח ושומה</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_20יד">
+            <heading>
+              <authorialNote placement="side">
+                <p>דוח רווחי יתר</p>
+              </authorialNote>
+            </heading>
+            <num>20יד.</num>
+            <list>
+              <point eId="point_20יד__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>בעל זכות לניצול משאב טבע יגיש לפקיד השומה, לגבי כל שנת מס, דיווח לגבי רווחי היתר ממכירת משאב הטבע בשנת המס שלגביה מוגש הדיווח (בחוק זה – דוח רווחי יתר); דוח רווחי יתר יפרט את כל הרכיבים לחישוב רווחי היתר כאמור <ref href="#part_ב_chp_ב">בפרק ב׳</ref>, ויאושר בידי רואה חשבון כהגדרתו <ref href="/akn/il/act/PrimaryLegislation/1955-02-10/148433">בחוק רואי חשבון, התשט"ו–1955</ref> (בסעיף זה – רואה חשבון).</p>
+                </content>
+              </point>
+              <point eId="point_20יד__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>לדוח רווחי יתר יצרף בעל הזכות לניצול משאב טבע דוח המשמש בסיס להכנת דוח רווחי היתר, המפרט את נתוניו הכספיים והכולל דוח על המצב הכספי, דוח על רווח או הפסד, דוח על שינויים בהון העצמי, דוח על תזרימי מזומנים וכן ביאורים; דוח כאמור יהיה דוח כספי נפרד (סולו) הערוך לפי כללי החשבונאות המקובלים ומבוקר בידי רואה חשבון.</p>
+                </content>
+              </point>
+              <point eId="point_20יד__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>היה הדוח הכספי הנפרד כאמור בסעיף קטן (ב) מוצג במטבע חוץ בהתאם לכללי החשבונאות המקובלים, יוצג דוח רווחי היתר באותו מטבע, ואולם הסך המתקבל במטבע חוץ של רווחי היתר, יתורגם לשקלים חדשים לפי השער היציג של אותו מטבע ביום האחרון של שנת המס.</p>
+                </content>
+              </point>
+              <point eId="point_20יד__point_ד">
+                <num>(ד)</num>
+                <content>
+                  <p>דוח רווחי יתר יוגש לפקיד השומה בתוך 120 ימים מתום שנת המס שלגביה הוא מוגש, בטופס שקבע המנהל; פקיד השומה רשאי, אם הוכח להנחת דעתו שקיימת סיבה מספקת לכך, לדחות את הגשת הדוח, למועד שיקבע, ובלבד שמי שקיבל דחייה כאמור יגיש במועד הקבוע בסעיף קטן זה דוח משוער על רווחי היתר, שייערך לפי מיטב אומדנו.</p>
+                </content>
+              </point>
+              <point eId="point_20יד__point_ה">
+                <num>(ה)</num>
+                <content>
+                  <p>לא צירף בעל זכות לניצול משאב טבע את הדוח הכספי הנפרד כאמור בסעיף קטן (ב) לדוח רווחי היתר, יראו אותו כמי שלא הגיש את דוח רווחי היתר.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_20טו">
+            <heading>
+              <authorialNote placement="side">
+                <p>שומת ההיטל</p>
+              </authorialNote>
+            </heading>
+            <num>20טו.</num>
+            <list>
+              <point eId="point_20טו__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>מסר בעל זכות לניצול משאב טבע דוח רווחי יתר לפי הוראות <ref href="#point_20יד">סעיף 20יד</ref>, יראו את הדוח כשומה עצמית לעניין רווחי היתר; פקיד השומה ישלח לבעל הזכות הודעה בדבר סכום ההיטל שהוא חייב בו על פי השומה העצמית.</p>
+                </content>
+              </point>
+              <point eId="point_20טו__point_ב">
+                <num>(ב)</num>
+                <list>
+                  <intro>
+                    <p>בתוך התקופה הקבועה <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_מס_הכנסה#point_145">בסעיף 145(א)(2) לפקודה</ref> מתום שנת המס שבה נמסר לו דוח רווחי יתר, רשאי פקיד השומה לעשות אחת מאלה:</p>
+                  </intro>
+                  <point eId="point_20טו__point_ב__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>לאשר את השומה העצמית;</p>
+                    </content>
+                  </point>
+                  <point eId="point_20טו__point_ב__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>לקבוע לפי מיטב שפיטתו את רווחי היתר של בעל הזכות לניצול משאב הטבע בשנת המס ואת היטל רווחי היתר החל לגביו, אם יש לו טעמים סבירים להניח שהדוח אינו נכון; שומה לפי פסקה זו יכול שתיעשה בהתאם להסכם שנערך עם בעל הזכות.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_20טו__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>לא הוגש דוח רווחי יתר לגבי שנת מס כלשהי, רשאי פקיד השומה לקבוע את רווחי היתר של בעל זכות לניצול משאב טבע באותה שנה לפי מיטב שפיטתו ולקבוע את היטל רווחי היתר החל לגביו, בהתאם.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_20טז">
+            <heading>
+              <authorialNote placement="side">
+                <p>השגה לפני פקיד שומה</p>
+              </authorialNote>
+            </heading>
+            <num>20טז.</num>
+            <list>
+              <point eId="point_20טז__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>קבע פקיד שומה, לפי מיטב שפיטתו, את רווחי היתר של בעל זכות לניצול משאב טבע בשנת המס או את היטל רווחי היתר החל לגביו, לפי הוראות <ref href="#point_20טו">סעיף 20טו(ב)(2) או (ג)</ref> (<ref href="#part_ב_chp_ד">בפרק זה</ref> – הודעת שומה לפי מיטב השפיטה), רשאי בעל הזכות לבקש מפקיד השומה, בהודעת השגה מנומקת בכתב, לחזור ולשנות את השומה, בתוך 30 ימים מיום המצאת הודעת השומה לפי מיטב השפיטה; לעניין זה יראו כהשגה על שומה לפי מיטב השפיטה לפי <ref href="#point_20טו">סעיף 20טו(ג)</ref>, רק דוח רווחי יתר שיוגש לגביה.</p>
+                </content>
+              </point>
+              <point eId="point_20טז__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>מי שערך את שומת היטל רווחי היתר לא ידון בהשגה עליה.</p>
+                </content>
+              </point>
+              <point eId="point_20טז__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>קיבל פקיד השומה הודעת השגה לפי הוראות סעיף קטן (א), רשאי הוא לדרוש מהמשיג למסור לו את כל הפרטים הנראים לו דרושים לעניין רווחי היתר של בעל הזכות לניצול משאב טבע והיטל רווחי יתר החל לגביו, ויחולו לעניין זה הוראות <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_מס_הכנסה#point_151">סעיף 151 לפקודה</ref>, בשינויים המחויבים.</p>
+                </content>
+              </point>
+              <point eId="point_20טז__point_ד">
+                <num>(ד)</num>
+                <content>
+                  <p>בתוך התקופה האמורה <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_מס_הכנסה#point_152">בסעיף 152(ג) לפקודה</ref> יחליט פקיד השומה על קבלת ההשגה או על דחייתה, כולה או חלקה, בהודעה מנומקת, ורשאי הוא לערוך הסכם לעניין זה עם בעל הזכות לניצול משאב הטבע; דחה פקיד השומה את ההשגה, כולה או חלקה, יקבע בצו שבכתב את רווחי היתר של בעל הזכות לניצול משאב הטבע בשנת המס, או את היטל רווחי היתר החל לגביו, ורשאי הוא להגדיל את הרכיבים, הרווחים או ההיטל מעבר לסכומים שקבע בהודעת השומה לפי מיטב השפיטה.</p>
+                </content>
+              </point>
+              <point eId="point_20טז__point_ה">
+                <num>(ה)</num>
+                <content>
+                  <p>לא השתמש פקיד השומה בסמכויותיו לפי סעיף זה בתוך התקופה כאמור בסעיף קטן (ד), יראו את ההשגה כאילו התקבלה.</p>
+                </content>
+              </point>
+              <point eId="point_20טז__point_ו">
+                <num>(ו)</num>
+                <content>
+                  <p>על החלטת פקיד השומה בהשגה לפי הוראות סעיף קטן (ד), רשאי בעל זכות לניצול משאב טבע לערער, ויחולו לעניין ערעור כאמור הוראות <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_מס_הכנסה#point_153">סעיפים 153 עד 158 לפקודה</ref>, בשינויים המחויבים.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_20יז">
+            <heading>
+              <authorialNote placement="side">
+                <p>סמכות המנהל לעיין בשומה ולתקנה</p>
+              </authorialNote>
+            </heading>
+            <num>20יז.</num>
+            <content>
+              <p>הוראות <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_מס_הכנסה#point_147">סעיף 147 לפקודה</ref> יחולו, בשינויים המחויבים, על שומה לפי <ref href="#part_ב_chp_ד">פרק זה</ref>.</p>
+            </content>
+          </point>
+          <point eId="point_20יח">
+            <heading>
+              <authorialNote placement="side">
+                <p>שמיעת טענות ומתן נימוקים</p>
+              </authorialNote>
+            </heading>
+            <num>20יח.</num>
+            <list>
+              <point eId="point_20יח__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>לא תיעשה שומה לפי מיטב השפיטה על פי <ref href="#point_20טו">סעיף 20טו</ref> ולא יינתן צו לפי <ref href="#point_20טז">סעיף 20טז(ד)</ref>, בלי שניתנה לבעל זכות לניצול משאב טבע הזדמנות סבירה להשמיע את טענותיו.</p>
+                </content>
+              </point>
+              <point eId="point_20יח__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>בהודעה על שומה או בצו כאמור בסעיף קטן (א), יפרט פקיד השומה, נוסף על הנימוקים לאי־קבלת הדוח או ההשגה, גם את הדרך שלפיה נעשתה השומה.</p>
+                </content>
+              </point>
+              <point eId="point_20יח__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>האמור בסעיפים קטנים (א) ו־(ב) לא יחול אם בעל הזכות לניצול משאב טבע לא הגיש דוח רווחי יתר.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_20יט">
+            <heading>
+              <authorialNote placement="side">
+                <p>החזר היטל רווחי יתר בעקבות דוח</p>
+              </authorialNote>
+            </heading>
+            <num>20יט.</num>
+            <content>
+              <p>שולם היטל רווחי יתר, יתר על הסכום הנובע מהדוח לפי <ref href="#point_20יד">סעיף 20יד</ref>, תוחזר היתרה לבעל הזכות לניצול משאב טבע ששילם את ההיטל, ויחולו לעניין זה הוראות <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_מס_הכנסה#point_159א">סעיף 159א לפקודה</ref>, בשינויים המחויבים.</p>
+            </content>
+          </point>
+        </list>
+      </chapter>
+      <chapter eId="chp_ה">
+        <num>פרק ה׳:</num>
+        <title>
+          <content>
+            <p>עסקאות מיוחדות</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_20כ">
+            <heading>
+              <authorialNote placement="side">
+                <p>פעולות שרואים אותן כמכירה של משאב טבע</p>
+              </authorialNote>
+            </heading>
+            <num>20כ.</num>
+            <list>
+              <point eId="point_20כ__point_א">
+                <num>(א)</num>
+                <list>
+                  <intro>
+                    <p>לעניין <ref href="#part_ב">חלק זה</ref> יראו גם את הפעולות האלה כמכירה של משאב הטבע:</p>
+                  </intro>
+                  <point eId="point_20כ__point_א__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>העברת משאב הטבע למיתקן לצורך שימוש בו לאחר השלמת הפקת המשאב;</p>
+                    </content>
+                  </point>
+                  <point eId="point_20כ__point_א__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>מכירת מחצב גולמי המשמש להפקת משאב הטבע לפני השלמת הפקת משאב הטבע.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_20כ__point_ב">
+                <num>(ב)</num>
+                <list>
+                  <intro>
+                    <p>בחישוב הרווח התפעולי המתואם מפעולה המנויה בסעיף קטן (א), יובאו בחשבון, לצורך חישוב מחזור המכירות, הסכומים כמפורט להלן, לפי העניין:</p>
+                  </intro>
+                  <point eId="point_20כ__point_ב__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>לעניין העברה כאמור בסעיף קטן (א)(1) – הסכום שהיה מתקבל אם משאב הטבע היה נמכר במועד ההעברה בהתאם לתנאי השוק;</p>
+                    </content>
+                  </point>
+                  <point eId="point_20כ__point_ב__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>לעניין מכירת מחצב גולמי כאמור בסעיף קטן (א)(2) – הסכום שהיה מתקבל אם משאב הטבע המופק מאותו מחצב גולמי היה נמכר לאחר השלמת הפקתו, במועד מכירת המחצב הגולמי, בניכוי הוצאות רעיוניות שהיו נדרשות לשם השלמת ההפקה של משאב הטבע מאותו מחצב גולמי, והכול בהתאם לתנאי השוק; השר רשאי לקבוע הוראות לעניין חישוב ההוצאות הרעיוניות לפי פסקה זו.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_20כ__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>לעניין חישוב הסכומים לפי סעיף קטן (ב) יחולו הוראות <ref href="#point_20כא">סעיף 20כא</ref>, גם אם אין בין הצדדים לעסקה יחסים מיוחדים.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_20כא">
+            <heading>
+              <authorialNote placement="side">
+                <p>עסקאות בין צדדים שמתקיימים ביניהם יחסים מיוחדים</p>
+              </authorialNote>
+            </heading>
+            <num>20כא.</num>
+            <list>
+              <point eId="point_20כא__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>בעסקאות בין צדדים שמתקיימים ביניהם יחסים מיוחדים יחולו, לעניין קביעת רווחי יתר של בעל זכות לניצול משאב טבע ולעניין חישוב כל רכיב בהם כאמור <ref href="#part_ב_chp_ב">בפרק ב׳</ref> והיטל רווחי היתר, ההוראות לפי <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_מס_הכנסה#point_85א">סעיף 85א לפקודה</ref>, בשינויים המחויבים, והכול בין שהן עסקאות בין־לאומיות ובין שאינן עסקאות כאמור, ובין שהן עסקאות למכירת משאב טבע ובין שהן עסקאות אחרות המשפיעות על רכיב מרכיבי רווחי היתר.</p>
+                </content>
+              </point>
+              <point eId="point_20כא__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>מכר בעל זכות לניצול משאב טבע רכוש קבוע לבעל זכות אחר והתקיימו ביניהם יחסים מיוחדים, תחושב עלות הרכוש הקבוע האמור בידי בעל הזכות הרוכש, כאמור <ref href="#point_20ה">בסעיף 20ה</ref>, לצורך חישוב רווחי היתר שלו והיטל רווחי היתר, לפי המחיר שבו רכש את הרכוש הקבוע כאמור או לפי העלות המופחתת של הרכוש הקבוע ביום המכירה בידי בעל הזכות המוכר, לפי הנמוך.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_20כב">
+            <heading>
+              <authorialNote placement="side">
+                <p>הוראות מיוחדות לעניין משאב טבע מסוג ברום</p>
+              </authorialNote>
+            </heading>
+            <num>20כב.</num>
+            <list>
+              <point eId="point_20כב__point_א">
+                <num>(א)</num>
+                <list>
+                  <intro>
+                    <p>בסעיף זה –</p>
+                  </intro>
+                  <point eId="point_20כב__point_א__point_יחידת_ברום">
+                    <content>
+                      <p>
+                        <def />”יחידת ברום“ – טון ברום או יחידה אחרת שקבע המנהל;</p>
+                    </content>
+                  </point>
+                  <point eId="point_20כב__point_א__point_מוצרי_המשך">
+                    <content>
+                      <p>
+                        <def />”מוצרי המשך“ – מוצרים שהברום הוא מרכיב בהם;</p>
+                    </content>
+                  </point>
+                  <point eId="point_20כב__point_א__point_פעילות_המשך">
+                    <content>
+                      <p>
+                        <def />”פעילות המשך“ – פעילות שבמסגרתה נעשה שימוש בברום לייצור מוצרי המשך.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_20כב__point_ב">
+                <num>(ב)</num>
+                <list>
+                  <intro>
+                    <p>על אף האמור <ref href="#point_20כ">בסעיפים 20כ(ב) ו־(ג)</ref><ref href="#point_20כא">ו־20כא</ref>, במכירת משאב טבע מסוג ברום לשם פעילות המשך, בעסקה שבה מתקיימים בין הצדדים יחסים מיוחדים או בייצור מוצרי המשך על ידי בעל הזכות לניצול משאב הטבע מסוג ברום, יובא בחשבון, לצורך חישוב מחזור המכירות של משאב הברום שנמכר לשם פעילות ההמשך וקביעת רווחי היתר, בכל שנת מס, המחיר הגבוה מבין אלה:</p>
+                  </intro>
+                  <point eId="point_20כב__point_ב__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>המחיר ליחידת ברום שנקבע בעסקה;</p>
+                    </content>
+                  </point>
+                  <point eId="point_20כב__point_ב__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>המחיר הנורמטיבי המשוקלל של יחידת ברום, בישראל או מחוץ לישראל, לפי העניין, שיחושב בהתאם להוראות סעיפים קטנים (ג) ו־(ד) ולפי כללי החשבונאות המקובלים.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_20כב__point_ג">
+                <num>(ג)</num>
+                <list>
+                  <intro>
+                    <p>המחיר הנורמטיבי המשוקלל של יחידת ברום יחושב כממוצע המשוקלל של המחיר הנורמטיבי של כל יחידות הברום שנמכרו לשם פעילות המשך בכל שנת מס; לעניין זה, ”המחיר הנורמטיבי“, של יחידת ברום – מחזור המכירות של מוצרי המשך המיוצרים במסגרת פעילות ההמשך, בניכוי ההוצאות והסכום המפורטים להלן, כשהתוצאה המתקבלת מחולקת במספר יחידות הברום ששימשו לייצור מוצרי ההמשך שנמכרו:</p>
+                  </intro>
+                  <point eId="point_20כב__point_ג__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>הוצאות המיוחסות לפעילות ההמשך כאמור בפסקאות (1) עד (4) להגדרה ”רווח תפעולי“ <ref href="#point_20ד">שבסעיף 20ד(ב)</ref>, לרבות פחת, לשם מכירת מוצרי המשך, למעט עלות רכישת ברום;</p>
+                    </content>
+                  </point>
+                  <point eId="point_20כב__point_ג__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>סכום השווה ל־12% ממחזור המכירות של מוצרי ההמשך המיוצרים במסגרת פעילות ההמשך.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_20כב__point_ד">
+                <num>(ד)</num>
+                <content>
+                  <p>המחיר הנורמטיבי המשוקלל יחושב בנפרד, לפי הוראות סעיף קטן (ג), לעניין יחידות הברום הנמכרות לשם פעילות המשך בישראל (בסעיף זה – מחיר נורמטיבי משוקלל בישראל) ולעניין יחידות הברום הנמכרות לשם פעילות המשך מחוץ לישראל (בסעיף זה – מחיר נורמטיבי משוקלל מחוץ לישראל).</p>
+                </content>
+              </point>
+              <point eId="point_20כב__point_ה">
+                <num>(ה)</num>
+                <content>
+                  <p>המחיר הנורמטיבי של יחידת ברום יהיה מחזור המכירות של מוצרי המשך המיוצרים במסגרת פעילות ההמשך, בניכוי ההוצאות והסכום המפורטים בפסקאות (1) ו־(2) שבסעיף קטן (ג), כשהתוצאה המתקבלת מחולקת במספר יחידות הברום ששימשו לייצור מוצרי ההמשך שנמכרו.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_20כג">
+            <heading>
+              <authorialNote placement="side">
+                <p>הוראות מיוחדות לעניין משאב טבע מסוג סלע פוספט</p>
+              </authorialNote>
+            </heading>
+            <num>20כג.</num>
+            <list>
+              <point eId="point_20כג__point_א">
+                <num>(א)</num>
+                <list>
+                  <intro>
+                    <p>בסעיף זה –</p>
+                  </intro>
+                  <point eId="point_20כג__point_א__point_יחידת_פוספט">
+                    <content>
+                      <p>
+                        <def />”יחידת פוספט“ – טון סלע פוספט;</p>
+                    </content>
+                  </point>
+                  <point eId="point_20כג__point_א__point_מוצרי_המשך">
+                    <content>
+                      <p>
+                        <def />”מוצרי המשך“ – מוצרים שסלע פוספט הוא מרכיב בהם;</p>
+                    </content>
+                  </point>
+                  <point eId="point_20כג__point_א__point_פעילות_המשך">
+                    <content>
+                      <p>
+                        <def />”פעילות המשך“ – פעילות בישראל שבמסגרתה נעשה שימוש בסלע פוספט לייצור מוצרי המשך.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_20כג__point_ב">
+                <num>(ב)</num>
+                <list>
+                  <intro>
+                    <p>על אף האמור <ref href="#point_20כ">בסעיפים 20כ(ב) ו־(ג)</ref><ref href="#point_20כא">ו־20כא</ref>, במכירת משאב טבע מסוג סלע פוספט לשם פעילות המשך, בעסקה שבה מתקיימים בין הצדדים יחסים מיוחדים, או בייצור מוצרי המשך על ידי בעל הזכות לניצול משאב הטבע מסוג סלע פוספט, יובא בחשבון, לצורך חישוב מחזור המכירות של משאב סלע הפוספט שנמכר לשם פעילות ההמשך וקביעת רווחי היתר, בכל שנת מס, המחיר הגבוה מבין אלה:</p>
+                  </intro>
+                  <point eId="point_20כג__point_ב__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>המחיר ליחידת פוספט שנקבע בעסקה;</p>
+                    </content>
+                  </point>
+                  <point eId="point_20כג__point_ב__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>המחיר הנורמטיבי של יחידת פוספט שיחושב בהתאם להוראות סעיף קטן (ג) ולפי כללי החשבונאות המקובלים;</p>
+                    </content>
+                  </point>
+                  <point eId="point_20כג__point_ב__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>עלויות ההפקה והתפעול המיוחסות ליחידת פוספט.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_20כג__point_ג">
+                <num>(ג)</num>
+                <list>
+                  <intro>
+                    <p>המחיר הנורמטיבי של יחידת פוספט יהיה מחזור המכירות של מוצרי המשך המיוצרים במסגרת פעילות ההמשך, בניכוי ההוצאות והסכום המפורטים להלן, כשהתוצאה המתקבלת מחולקת במספר יחידות הפוספט ששימשו לייצור מוצרי ההמשך שנמכרו:</p>
+                  </intro>
+                  <point eId="point_20כג__point_ג__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>הוצאות המיוחסות לפעילות ההמשך כאמור בפסקאות (1) עד (4) להגדרה ”רווח תפעולי“ <ref href="#point_20ד">שבסעיף 20ד(ב)</ref>, לרבות פחת, לשם מכירת מוצרי המשך, למעט עלות רכישת סלע הפוספט;</p>
+                    </content>
+                  </point>
+                  <point eId="point_20כג__point_ג__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>סכום השווה ל־12% ממחזור המכירות של מוצרי ההמשך המיוצרים במסגרת פעילות ההמשך.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+            </list>
+          </point>
+          <point eId="point_20כד">
+            <heading>
+              <authorialNote placement="side">
+                <p>הוראות מיוחדות לעניין סילבניט</p>
+              </authorialNote>
+            </heading>
+            <num>20כד.</num>
+            <list>
+              <point eId="point_20כד__point_א">
+                <num>(א)</num>
+                <list>
+                  <intro>
+                    <p>על אף האמור <ref href="#point_20כ">בסעיפים 20כ(ב) ו־(ג)</ref><ref href="#point_20כא">ו־20כא</ref>, מכר בעל זכות לניצול משאב טבע מסוג כלוריד האשלג (בסעיף זה – בעל זכות לאשלג) קרנליט לבעל זכות לניצול משאב טבע מסוג כלוריד המגנזיום (בסעיף זה – בעל זכות למגנזיום), ורכש ממנו חזרה תוצר לוואי מסוג סילבניט למטרת הפיכתו לכלוריד האשלג, ומתקיימים בין הצדדים לעסקה יחסים מיוחדים, יחולו לעניין העסקאות האמורות הוראות אלה:</p>
+                  </intro>
+                  <point eId="point_20כד__point_א__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>לעניין בעל הזכות לאשלג – יראו, לצורך חישוב הרווח התפעולי המתואם של בעל הזכות, את הערך המוסף המחושב לפי הוראות סעיף קטן (ב) כהוצאות להפקה ולמכירה של משאב טבע כאמור בפסקאות (1) עד (4) להגדרה ”רווח תפעולי“ <ref href="#point_20ד">שבסעיף 20ד</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_20כד__point_א__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>לעניין בעל הזכות למגנזיום – יופחת מעלות המכר כאמור בהגדרה ”רווח תפעולי“ <ref href="#point_20ד">שבסעיף 20ד(ב)</ref>, לצורך חישוב הרווח התפעולי המתואם של בעל הזכות, הערך המוסף המחושב לפי הוראות סעיף קטן (ב).</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_20כד__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>הערך המוסף לשנת 2017 יהיה 100 דולר לטון כלוריד האשלג שמקורו מסילבניט שהוא תוצר לוואי מהפקת כלוריד המגנזיום; הסכום האמור יתואם ב־1 בינואר בכל שנה החל בשנת 2018 לפי השינוי במדד המחירים לצרכן שמפרסמת הלשכה המרכזית לסטטיסטיקה.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_20כה">
+            <heading>
+              <authorialNote placement="side">
+                <p>סמכות להתעלם מעסקאות מסוימות</p>
+              </authorialNote>
+            </heading>
+            <num>20כה.</num>
+            <content>
+              <p>הוראות <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_מס_הכנסה#point_86">סעיף 86 לפקודה</ref> יחולו, בשינויים המחויבים, על עסקאות שהוראות חלק זה חלות עליהן.</p>
+            </content>
+          </point>
+        </list>
+      </chapter>
+      <chapter eId="chp_none">
+        <num></num>
+        <title>
+          <content>
+            <p>חלק ג׳: עונשין</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_21">
+            <heading>
+              <authorialNote placement="side">
+                <p>אי־הגשת דוח, אי־ניהול פנקסי חשבונות והשמדה או הסתרה של מסמכים</p>
+              </authorialNote>
+            </heading>
+            <num>21.</num>
+            <list>
+              <intro>
+                <p>מי שעשה אחד מאלה, דינו – מאסר שנה או קנס כאמור <ref href="/akn/il/act/PrimaryLegislation/1977-08-04/2002251#point_61">בסעיף 61(א)(2) לחוק העונשין, התשל"ז–1977</ref>, (בחוק זה – חוק העונשין):</p>
+              </intro>
+              <point eId="point_21__point_1">
+                <num>(1)</num>
+                <content>
+                  <p>לא הגיש במועדו דוח מקדם היטל או דוח רווחי נפט לפי הוראות <ref href="#point_13">סעיף 13</ref> או דוח רווחי יתר לפי הוראות <ref href="#point_20יד">סעיף 20יד</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_21__point_2">
+                <num>(2)</num>
+                <content>
+                  <p>לא ניהל פנקסי חשבונות בהתאם להוראות המנהל שניתנו לפי <ref href="#point_42">סעיף 42</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_21__point_3">
+                <num>(3)</num>
+                <content>
+                  <p>השמיד או הסתיר מסמכים הדרושים או העשויים להיות דרושים לצורך שומה לפי חוק זה.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_22">
+            <heading>
+              <authorialNote placement="side">
+                <p>העברת נכסים בכוונה למנוע גביית מס</p>
+              </authorialNote>
+            </heading>
+            <num>22.</num>
+            <list>
+              <point eId="point_22__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>אדם שהעביר את נכסיו לאחר בלא שהעביר את השליטה בהם, מתוך כוונה למנוע גביית היטל שהיה חייב בו או שהוא עתיד להתחייב בו לגבי תקופה שקדמה להעברה או בשנת ההעברה, דינו – מאסר שנתיים או קנס כאמור <ref href="/akn/il/act/PrimaryLegislation/1977-08-04/2002251#point_61">בסעיף 61(א)(3) לחוק העונשין</ref>.</p>
+                </content>
+              </point>
+              <point eId="point_22__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>חילק אדם מנכסי חברה, כהגדרתה <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_מס_הכנסה#point_1">בסעיף 1 לפקודה</ref>, בין חבריה, מתוך כוונה למנוע גביית היטל שהחברה חייבת בו או שהיא עתידה להתחייב בו לגבי תקופה שקדמה להעברה או בשנת ההעברה, דינו – מאסר שנתיים או קנס כאמור <ref href="/akn/il/act/PrimaryLegislation/1977-08-04/2002251#point_61">בסעיף 61(א)(3) לחוק העונשין</ref>, ובלבד שלא יעלה סכום הקנס על סכום החוב.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_23">
+            <heading>
+              <authorialNote placement="side">
+                <p>ייצוג שלא כדין</p>
+              </authorialNote>
+            </heading>
+            <num>23.</num>
+            <content>
+              <p>המייצג בעל זכות נפט של מיזם נפט או בעל זכות לניצול משאב טבע, לצורך הוראות חוק זה, והוא אינו אחד מהמנויים <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_מס_הכנסה#point_236">בסעיף 236 לפקודה</ref>, כפי שהוחל <ref href="#point_45">בסעיף 45</ref>, דינו – מאסר שנה או קנס כאמור <ref href="/akn/il/act/PrimaryLegislation/1977-08-04/2002251#point_61">בסעיף 61(א)(4) לחוק העונשין</ref>.</p>
+            </content>
+          </point>
+          <point eId="point_24">
+            <heading>
+              <authorialNote placement="side">
+                <p>דוח וידיעות לא נכונים</p>
+              </authorialNote>
+            </heading>
+            <num>24.</num>
+            <list>
+              <point eId="point_24__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>אדם, אשר בלא הצדק סביר, ערך דוח מקדם רווחי נפט או דוח מקדם היטל לא נכון, מתוך שהשמיט רכיב מרכיבי מקדם ההיטל או מרווחי הנפט של מיזם נפט, או מתוך שרשם אותו בחסר, או אדם שמסר ידיעות לא נכונות בנוגע לכל עניין או דבר המשפיעים על חיובו בהיטל או על חיובו של אדם אחר, דינו – מאסר שנתיים או קנס כאמור <ref href="/akn/il/act/PrimaryLegislation/1977-08-04/2002251#point_61">בסעיף 61(א)(3) לחוק העונשין</ref> וסכום החסר ברווחי הנפט של מיזם הנפט או בהיטל, לפי הגבוה, שנקבע מחמת אותם דוח או ידיעות לא נכונים או שעלול היה להיקבע אילו נתקבלו הדוח או הידיעות כנכונים.</p>
+                </content>
+              </point>
+              <point eId="point_24__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>אדם, אשר בלא הצדק סביר, ערך דוח רווחי יתר לא נכון, מתוך שהשמיט רכיב מרכיבי רווחי היתר של בעל זכות לניצול משאב טבע, או מתוך שרשם אותו בחסר, או אדם שמסר ידיעות לא נכונות בנוגע לכל עניין או דבר המשפיעים על חיובו בהיטל רווחי יתר או על חיובו של אדם אחר, דינו – מאסר שנתיים או קנס כאמור <ref href="/akn/il/act/PrimaryLegislation/1977-08-04/2002251#point_61">בסעיף 61(א)(3) לחוק העונשין</ref> וסכום החסר ברווחי היתר של בעל זכות לניצול משאב הטבע שנקבע מחמת אותם דוח או ידיעות לא נכונים או שעלול היה להיקבע אילו התקבלו הדוח או הידיעות כנכונים.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_25">
+            <heading>
+              <authorialNote placement="side">
+                <p>אי־ניכוי</p>
+              </authorialNote>
+            </heading>
+            <num>25.</num>
+            <content>
+              <p>מי שלא ניכה סכום שהיה עליו לנכות לפי <ref href="#point_9">סעיף 9(ב)</ref>, דינו – מאסר שנה או קנס כאמור <ref href="/akn/il/act/PrimaryLegislation/1977-08-04/2002251#point_61">בסעיף 61(א)(2) לחוק העונשין</ref> ופי שניים מסך כל הסכומים שלא נוכו.</p>
+            </content>
+          </point>
+          <point eId="point_26">
+            <heading>
+              <authorialNote placement="side">
+                <p>אי־העברת סכום שנוכה</p>
+              </authorialNote>
+            </heading>
+            <num>26.</num>
+            <content>
+              <p>מי שניכה סכום לפי <ref href="#point_9">סעיף 9(ב)</ref>, ולא העבירו לפקיד השומה כאמור <ref href="#point_9">באותו סעיף</ref>, בלא הצדק סביר, דינו – מאסר שנתיים או קנס כאמור <ref href="/akn/il/act/PrimaryLegislation/1977-08-04/2002251#point_61">בסעיף 61(א)(3) לחוק העונשין</ref> ופי שניים מסך כל הניכויים האמורים.</p>
+            </content>
+          </point>
+          <point eId="point_27">
+            <heading>
+              <authorialNote placement="side">
+                <p>מרמה</p>
+              </authorialNote>
+            </heading>
+            <num>27.</num>
+            <list>
+              <intro>
+                <p>העושה אחד מאלה במזיד, בכוונה להימנע מתשלום היטל לפי חוק זה, דינו – מאסר חמש שנים או קנס כאמור <ref href="/akn/il/act/PrimaryLegislation/1977-08-04/2002251#point_61">בסעיף 61(א)(4) לחוק העונשין</ref> וכן פי שניים מהסכום מרווחי הנפט של מיזם הנפט או מהיטל רווחי הנפט, לפי הגבוה, שהעלים או שהתכוון להעלים, או פי שניים מהסכום מרווחי היתר שהעלים או שהתכוון להעלים –</p>
+              </intro>
+              <point eId="point_27__point_1">
+                <num>(1)</num>
+                <content>
+                  <p>השמיט מתוך דוח מקדם היטל או דוח רווחי נפט לפי חוק זה רכיב מרכיבי מקדם היטל או מרווחי הנפט של מיזם נפט, שיש לכללו בדוח, או השמיט מתוך דוח רווחי יתר לפי חוק זה רכיב מרווחי היתר של בעל זכות לניצול משאב טבע שיש לכללו בדוח;</p>
+                </content>
+              </point>
+              <point eId="point_27__point_2">
+                <num>(2)</num>
+                <content>
+                  <p>מסר בדוח מקדם היטל בדוח רווחי נפט או בדוח רווחי יתר לפי חוק זה אמרה או תרשומת כוזבות;</p>
+                </content>
+              </point>
+              <point eId="point_27__point_3">
+                <num>(3)</num>
+                <content>
+                  <p>השיב תשובה כוזבת, בעל פה או בכתב, על שאלה שנשאלה, או על דרישת ידיעות שנערכה אליו לפי חוק זה;</p>
+                </content>
+              </point>
+              <point eId="point_27__point_4">
+                <num>(4)</num>
+                <content>
+                  <p>הכין או קיים פנקסי חשבונות כוזבים או רשומות אחרות כוזבות, או שזייף פנקסי חשבונות או רשומות;</p>
+                </content>
+              </point>
+              <point eId="point_27__point_5">
+                <num>(5)</num>
+                <content>
+                  <p>עשה מעשה מרמה כהגדרתו <ref href="/akn/il/act/PrimaryLegislation/1977-08-04/2002251#point_414">בסעיף 414 לחוק העונשין</ref>.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_28">
+            <heading>
+              <authorialNote placement="side">
+                <p>אחריות נושא משרה בתאגיד</p>
+              </authorialNote>
+            </heading>
+            <num>28.</num>
+            <list>
+              <point eId="point_28__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>נושא משרה בתאגיד חייב לפקח ולעשות כל שניתן למניעת עבירות לפי <ref href="#part_ג">חלק זה</ref> על ידי התאגיד או על ידי עובד מעובדיו; המפר הוראה זו, דינו – קנס כאמור <ref href="/akn/il/act/PrimaryLegislation/1977-08-04/2002251#point_61">בסעיף 61(א)(4) לחוק העונשין</ref>; לעניין סעיף זה, ”נושא משרה“ – מנהל פעיל בתאגיד, שותף למעט שותף מוגבל, או פקיד האחראי מטעם התאגיד על התחום שבו בוצעה העבירה.</p>
+                </content>
+              </point>
+              <point eId="point_28__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>נעברה עבירה לפי <ref href="#part_ג">חלק זה</ref> על ידי תאגיד או על ידי עובד מעובדיו, חזקה היא כי נושא משרה בתאגיד הפר את חובתו לפי סעיף קטן (א), אלא אם כן הוכיח כי עשה כל שניתן כדי למלא את חובתו.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_29">
+            <heading>
+              <authorialNote placement="side">
+                <p>הצמדת הסכום שעליו מוטל הקנס</p>
+              </authorialNote>
+            </heading>
+            <num>29.</num>
+            <content>
+              <p>לעניין קנס לפי <ref href="#part_ג">חלק זה</ref>, שבסיסו הוא סכום מרווחי הנפט של מיזם הנפט או מהיטל רווחי הנפט, או שבסיסו הוא סכום מרווחי היתר של בעל זכות לניצול משאב טבע, יוגדל הבסיס לפי שיעור העלייה של מדד המחירים לצרכן שמפרסמת הלשכה המרכזית לסטטיסטיקה בין המדד האחרון שהתפרסם לפני תום שנת המס שאותו בסיס מתייחס אליה לבין המדד האחרון שהתפרסם לפני הטלת הקנס.</p>
+            </content>
+          </point>
+          <point eId="point_30">
+            <heading>
+              <authorialNote placement="side">
+                <p>כופר כסף</p>
+              </authorialNote>
+            </heading>
+            <num>30.</num>
+            <list>
+              <point eId="point_30__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>סמכות המנהל לקחת כופר כסף לפי <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_מס_הכנסה#point_221">סעיף 221 לפקודה</ref> תחול גם לגבי אדם שעבר עבירה לפי <ref href="#point_21">סעיפים 21 עד 27</ref>.</p>
+                </content>
+              </point>
+              <point eId="point_30__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>הוראות <ref href="/akn/il/act/PrimaryLegislation/1977-08-04/2002251#point_252א">סעיף 252א(א) לחוק העונשין</ref> יחולו גם לגבי כופר שהוטל לפי סעיף קטן (א).</p>
+                </content>
+              </point>
+            </list>
+          </point>
+        </list>
+      </chapter>
+      <chapter eId="chp_none">
+        <num></num>
+        <title>
+          <content>
+            <p>חלק ד׳: עיצום כספי</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_31">
+            <heading>
+              <authorialNote placement="side">
+                <p>עיצום כספי</p>
+              </authorialNote>
+            </heading>
+            <num>31.</num>
+            <content>
+              <p>היה למנהל יסוד סביר להניח כי בעל זכות נפט של מיזם נפט לא הגיש דוח מקדם היטל או דוח רווחי נפט עד למועד האמור <ref href="#point_13">בסעיף 13</ref> או כי בעל זכות לניצול משאב טבע לא הגיש דוח רווחי יתר עד למועד האמור <ref href="#point_20יד">בסעיף 20יד</ref> (<ref href="#part_ד">בחלק זה</ref> – הפרה), רשאי הוא להטיל עליו עיצום כספי בסכום של 50,000 שקלים חדשים <wikicomment font-size="x-small">(מתואם לשנת 2011; בשנת 2020, 53,000 ש"ח)</wikicomment>, בשל כל חודש מלא של פיגור בהגשת הדוח.</p>
+            </content>
+          </point>
+          <point eId="point_32">
+            <heading>
+              <authorialNote placement="side">
+                <p>דרישת עיצום כספי ותשלומו</p>
+              </authorialNote>
+            </heading>
+            <num>32.</num>
+            <content>
+              <p>עיצום כספי בשל הפרה לפי <ref href="#point_31">סעיף 31</ref> ישולם לפי דרישה בכתב של המנהל בטופס שקבע (<ref href="#part_ד">בחלק זה</ref> – הודעת החיוב), בתוך 30 ימים מיום משלוח הודעת החיוב; בהודעת החיוב יפורטו, בין השאר, פרטי ההפרה שבשלה הוטל העיצום הכספי ושיעורו, וכן ייכלל בה מידע בדבר הזכות לטעון טענות לפני המנהל, כאמור <ref href="#point_33">בסעיף 33</ref>.</p>
+            </content>
+          </point>
+          <point eId="point_33">
+            <heading>
+              <authorialNote placement="side">
+                <p>כתב טענות</p>
+              </authorialNote>
+            </heading>
+            <num>33.</num>
+            <list>
+              <point eId="point_33__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>בעל זכות נפט של מיזם נפט או בעל זכות לניצול משאב טבע, שנשלחה לו הודעת חיוב רשאי, בתוך 30 ימים מיום משלוח ההודעה כאמור, להגיש למנהל, בכתב, את טענותיו לעניין הטלת העיצום הכספי ושיעורו (בסעיף זה – כתב טענות); לכתב הטענות יצורף תצהיר המאמת את העובדות המפורטות בו.</p>
+                </content>
+              </point>
+              <point eId="point_33__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>הגיש בעל זכות נפט של מיזם נפט או בעל זכות לניצול משאב טבע, כתב טענות למנהל, יחליט המנהל על יסוד כתב הטענות והתצהיר אם להשאיר את הודעת החיוב על כנה, או לבטלה, ורשאי הוא, לשם קבלת החלטה כאמור, לזמן את מגיש כתב הטענות, לדיון לפניו; הודעה על החלטת המנהל לפי סעיף קטן זה תישלח למגיש כתב הטענות.</p>
+                </content>
+              </point>
+              <point eId="point_33__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>אין בהגשת כתב טענות לפי סעיף זה כדי לעכב את תשלום העיצום הכספי במועד האמור <ref href="#point_32">בסעיף 32</ref>.</p>
+                </content>
+              </point>
+              <point eId="point_33__point_ד">
+                <num>(ד)</num>
+                <content>
+                  <p>שולם העיצום הכספי והחליט המנהל לפי סעיף זה לבטל את הודעת החיוב, יוחזר העיצום הכספי בתוספת הפרשי הצמדה וריבית מיום תשלומו ועד יום החזרתו.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_34">
+            <heading>
+              <authorialNote placement="side">
+                <p>עדכון סכום העיצום הכספי</p>
+              </authorialNote>
+            </heading>
+            <num>34.</num>
+            <list>
+              <point eId="point_34__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>עיצום כספי יהיה לפי סכומו המעודכן ביום משלוח הודעת החיוב, ואם הוגש ערעור, ובית המשפט הדן בערעור הורה על עיכוב תשלומו – לפי סכומו המעודכן ביום ההחלטה בערעור.</p>
+                </content>
+              </point>
+              <point eId="point_34__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>סכום העיצום הכספי יתעדכן ב־1 בינואר של כל שנה (בסעיף זה – יום העדכון), לפי שיעור עליית המדד שמפרסמת הלשכה המרכזית לסטטיסטיקה, שהיה ידוע ביום העדכון בשנה שקדמה לו, ולעניין יום העדכון הראשון – לעומת המדד שהיה ידוע ב־1 בינואר 2011; הסכום האמור יעוגל לסכום הקרוב שהוא מכפלה של 1,000 שקלים חדשים.</p>
+                </content>
+              </point>
+              <point eId="point_34__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>המנהל יפרסם, בהודעה ברשומות, את סכום העיצום הכספי המעודכן.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_35">
+            <heading>
+              <authorialNote placement="side">
+                <p>הפרשי הצמדה וריבית</p>
+              </authorialNote>
+            </heading>
+            <num>35.</num>
+            <content>
+              <p>לא שולם עיצום כספי במועד ייווספו עליו, לתקופת הפיגור, הפרשי הצמדה וריבית, עד לתשלומו (<ref href="#part_ד">בחלק זה</ref> – תוספת פיגורים).</p>
+            </content>
+          </point>
+          <point eId="point_36">
+            <heading>
+              <authorialNote placement="side">
+                <p>גבייה</p>
+              </authorialNote>
+            </heading>
+            <num>36.</num>
+            <content>
+              <p>על גביית העיצום הכספי ותוספת הפיגורים תחול <ref href="/akn/il/act/PrimaryLegislation/1933-12-31/2001803">פקודת המסים (גבייה)</ref>.</p>
+            </content>
+          </point>
+          <point eId="point_37">
+            <heading>
+              <authorialNote placement="side">
+                <p>ערעור לבית משפט שלום</p>
+              </authorialNote>
+            </heading>
+            <num>37.</num>
+            <list>
+              <point eId="point_37__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>על החלטת המנהל לפי <ref href="#part_ד">חלק זה</ref> ניתן לערער לבית משפט שלום בתוך 30 ימים מיום מסירת ההחלטה.</p>
+                </content>
+              </point>
+              <point eId="point_37__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>אין בהגשת ערעור לפי סעיף זה, כדי לעכב את תשלום העיצום הכספי אלא בהסכמת המנהל או אם בית המשפט הורה על כך.</p>
+                </content>
+              </point>
+              <point eId="point_37__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>החליט בית המשפט לקבל ערעור שהוגש לפי סעיף זה, לאחר ששולם העיצום הכספי לפי הוראות <ref href="#part_ד">חלק זה</ref>, יוחזר העיצום הכספי, בתוספת הפרשי הצמדה וריבית מיום תשלומו עד יום החזרתו.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_38">
+            <heading>
+              <authorialNote placement="side">
+                <p>שמירת אחריות פלילית</p>
+              </authorialNote>
+            </heading>
+            <num>38.</num>
+            <list>
+              <point eId="point_38__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>תשלום עיצום כספי לא יגרע מאחריותו הפלילית של בעל זכות נפט של מיזם נפט או בעל זכות לניצול משאב טבע בשל ההפרה.</p>
+                </content>
+              </point>
+              <point eId="point_38__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>הוגש נגד בעל זכות נפט של מיזם נפט או בעל זכות לניצול משאב טבע, כתב אישום, בשל הפרת הוראה לפי <ref href="#point_31">סעיף 31</ref>, לא יחויב בשלה בתשלום העיצום הכספי, ואם שילם – יוחזר לו הסכום ששילם, בתוספת הפרשי הצמדה וריבית מיום תשלומו עד יום החזרתו.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+        </list>
+      </chapter>
+      <chapter eId="chp_none">
+        <num></num>
+        <title>
+          <content>
+            <p>חלק ה׳: סמכויות אכיפה</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_39">
+            <heading>
+              <authorialNote placement="side">
+                <p>מינוי פקידי שומה מפקחים</p>
+              </authorialNote>
+            </heading>
+            <num>39.</num>
+            <list>
+              <point eId="point_39__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>השר רשאי למנות, מבין פקידי השומה, פקידי שומה שיהיו נתונות להם הסמכויות לפי <ref href="#point_40">סעיף 40</ref>, כולן או חלקן, לשם ביצוע ההוראות לפי חוק זה (<ref href="#part_ה">בחלק זה</ref> – פקיד שומה מפקח).</p>
+                </content>
+              </point>
+              <point eId="point_39__point_ב">
+                <num>(ב)</num>
+                <list>
+                  <intro>
+                    <p>לא ימונה פקיד שומה מפקח, אלא אם כן מתקיימים לגביו כל אלה:</p>
+                  </intro>
+                  <point eId="point_39__point_ב__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>משטרת ישראל הודיעה, לא יאוחר משלושה חודשים מיום קבלת פרטי פקיד השומה כי היא אינה מתנגדת להסמכתו מטעמים של ביטחון הציבור, לרבות בשל עברו הפלילי;</p>
+                    </content>
+                  </point>
+                  <point eId="point_39__point_ב__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>הוא קיבל הכשרה מתאימה בתחום הסמכויות שיהיו נתונות לו לפי <ref href="#point_40">סעיף 40</ref>, כפי שהורה השר;</p>
+                    </content>
+                  </point>
+                  <point eId="point_39__point_ב__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>הוא עומד בתנאי כשירות נוספים כפי שהורה השר, בהתייעצות עם השר לביטחון הפנים.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+            </list>
+          </point>
+          <point eId="point_40">
+            <heading>
+              <authorialNote placement="side">
+                <p>סמכויות אכיפה</p>
+              </authorialNote>
+            </heading>
+            <num>40.</num>
+            <list>
+              <intro>
+                <p>התעורר חשד לביצוע עבירה לפי חוק זה, רשאי פקיד שומה מפקח –</p>
+              </intro>
+              <point eId="point_40__point_1">
+                <num>(1)</num>
+                <content>
+                  <p>לחקור כל אדם הקשור לעבירה כאמור, או שעשויות להיות לו ידיעות הנוגעות לעבירה כאמור; על חקירה לפי פסקה זו יחולו הוראות <ref href="/akn/il/act/PrimaryLegislation/1933-12-31/2001433#point_2">סעיפים 2</ref><ref href="/akn/il/act/PrimaryLegislation/1933-12-31/2001433#point_3">ו־3 לפקודת הפרוצדורה הפלילית (עדות)</ref>, בשינויים המחויבים;</p>
+                </content>
+              </point>
+              <point eId="point_40__point_2">
+                <num>(2)</num>
+                <content>
+                  <p>לבקש מבית משפט צו חיפוש לפי <ref href="/akn/il/act/PrimaryLegislation/1969-02-16/2001931#point_23">סעיף 23 לפקודת סדר הדין הפלילי (מעצר וחיפוש) [נוסח חדש], התשכ"ט–1969</ref>, ולבצעו; על חיפוש לפי פסקה זו יחולו הוראות <ref href="/akn/il/act/PrimaryLegislation/1969-02-16/2001931#point_24">סעיפים 24(א)(1)</ref>, <ref href="/akn/il/act/PrimaryLegislation/1969-02-16/2001931#point_26">26 עד 28</ref><ref href="/akn/il/act/PrimaryLegislation/1969-02-16/2001931#point_45">ו־45 לפקודה האמורה</ref>, בשינויים המחויבים.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+        </list>
+      </chapter>
+      <chapter eId="chp_none">
+        <num></num>
+        <title>
+          <content>
+            <p>חלק ו׳: הוראות שונות</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_41">
+            <heading>
+              <authorialNote placement="side">
+                <p>קנס על פיגור</p>
+              </authorialNote>
+            </heading>
+            <num>41.</num>
+            <list>
+              <point eId="point_41__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>פיגר אדם יותר משבעה ימים בתשלום היטל רווחי נפט שהוא חייב בו לפי <ref href="#point_9">סעיף 9</ref> או בתשלום היטל רווחי יתר שהוא חייב בו לפי <ref href="#part_ב">חלק ב׳</ref>, או בתשלום חלק מהיטל כאמור, ייווסף לסכום שבפיגור קנס בגובה הפרשי הצמדה וריבית מהמועד שנקבע לתשלום ועד לתשלום הסכום שבפיגור (בסעיף זה – תום תקופת הקנס).</p>
+                </content>
+              </point>
+              <point eId="point_41__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>לקנס כאמור בסעיף קטן (א) ייווספו הפרשי הצמדה וריבית מתום תקופת הקנס ועד למועד תשלום הקנס, ויראו את הקנס כחוב מס לעניין <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_מס_הכנסה#point_195א">סעיף 195א לפקודה</ref>.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_42">
+            <heading>
+              <authorialNote placement="side">
+                <p>סמכות לחייב בניהול פנקסים</p>
+              </authorialNote>
+            </heading>
+            <num>42.</num>
+            <content>
+              <p>סמכויות המנהל לפי <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_מס_הכנסה#point_130">סעיף 130 לפקודה</ref> יוקנו לו לעניין חוק זה, בשינויים המחויבים.</p>
+            </content>
+          </point>
+          <point eId="point_43">
+            <heading>
+              <authorialNote placement="side">
+                <p>סמכויות להשיג ידיעות</p>
+              </authorialNote>
+            </heading>
+            <num>43.</num>
+            <content>
+              <p>סמכויות פקיד השומה לפי <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_מס_הכנסה#part_ח_chp_2">פרק שני לחלק ח׳ לפקודה</ref>, יהיו נתונות לו ככל הנדרש לצורך ביצוע ההוראות לפי חוק זה, בשינויים המחויבים.</p>
+            </content>
+          </point>
+          <point eId="point_44">
+            <heading>
+              <authorialNote placement="side">
+                <p>החלטת מיסוי</p>
+              </authorialNote>
+            </heading>
+            <num>44.</num>
+            <content>
+              <p>לעניין <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_מס_הכנסה#part_ט_chp_2ב">פרק שני־ב׳ בחלק ט׳ לפקודה</ref>, יראו את הוראות חוק זה כאילו היו דיני מס כאמור בפסקה (1) להגדרה ”דיני המס“ <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_מס_הכנסה#point_158ב">שבסעיף 158ב לפקודה</ref>.</p>
+            </content>
+          </point>
+          <point eId="point_45">
+            <heading>
+              <authorialNote placement="side">
+                <p>ייצוג בעל זכות נפט או בעל זכות לניצול משאב טבע</p>
+              </authorialNote>
+            </heading>
+            <num>45.</num>
+            <content>
+              <p>
+                <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_מס_הכנסה#point_236">סעיף 236 לפקודה</ref> יחול על ייצוג בעל זכות נפט של מיזם נפט או בעל זכות לניצול משאב טבע לעניין ההוראות לפי חוק זה, בשינויים המחויבים.</p>
+            </content>
+          </point>
+          <point eId="point_46">
+            <heading>
+              <authorialNote placement="side">
+                <p>המצאת הודעות</p>
+              </authorialNote>
+            </heading>
+            <num>46.</num>
+            <content>
+              <p>על המצאת הודעות לפי חוק זה יחולו הוראות <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_מס_הכנסה#point_238">סעיף 238 לפקודה</ref>.</p>
+            </content>
+          </point>
+          <point eId="point_47">
+            <heading>
+              <authorialNote placement="side">
+                <p>גבייה</p>
+              </authorialNote>
+            </heading>
+            <num>47.</num>
+            <content>
+              <p>על גביית היטל לפי חוק זה יחולו הוראות <ref href="/akn/il/act/PrimaryLegislation/1933-12-31/2001803">פקודת המסים (גבייה)</ref>.</p>
+            </content>
+          </point>
+          <point eId="point_48">
+            <heading>
+              <authorialNote placement="side">
+                <p>עדכון סכומים</p>
+              </authorialNote>
+            </heading>
+            <num>48.</num>
+            <content>
+              <p>הסכום הקבוע בהגדרות ”מקדם החיפוש“ ו”מקדם ההקמה“ <ref href="#point_4">שבסעיף 4(ב)(2)</ref>, יתעדכן ב־1 בינואר של כל שנה (בסעיף זה – יום העדכון), לפי שיעור עליית מדד המחירים לצרכן שמפרסמת הלשכה המרכזית לסטטיסטיקה שהיה ידוע ביום העדכון בשנה שקדמה לו, ולעניין יום העדכון הראשון – לעומת המדד שהיה ידוע ב־1 בינואר 2011; הסכום האמור יעוגל לסכום הקרוב שהוא מכפלה של 1,000 שקלים חדשים; המנהל יפרסם, בהודעה ברשומות, את הסכומים המעודכנים.</p>
+            </content>
+          </point>
+          <point eId="point_49">
+            <heading>
+              <authorialNote placement="side">
+                <p>סמכויות המנהל</p>
+              </authorialNote>
+            </heading>
+            <num>49.</num>
+            <content>
+              <p>סמכויות פקיד השומה לפי חוק זה יהיו נתונות גם למנהל.</p>
+            </content>
+          </point>
+          <point eId="point_50">
+            <heading>
+              <authorialNote placement="side">
+                <p>חובת סודיות</p>
+              </authorialNote>
+            </heading>
+            <num>50.</num>
+            <content>
+              <p>הוראות <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_מס_הכנסה#point_231">סעיפים 231 עד 235ד לפקודה</ref> יחולו בביצוע הוראות חוק זה, בשינויים המחויבים.</p>
+            </content>
+          </point>
+          <point eId="point_51">
+            <heading>
+              <authorialNote placement="side">
+                <p>ביצוע ותקנות</p>
+              </authorialNote>
+            </heading>
+            <num>51.</num>
+            <content>
+              <p>שר האוצר ממונה על ביצוע חוק זה, והוא רשאי להתקין תקנות לביצועו, בין השאר לעניין טפסים, דוחות, הצהרות והודעות שיידרשו לפי הוראות חוק זה.</p>
+            </content>
+          </point>
+          <point eId="point_51א">
+            <heading>
+              <authorialNote placement="side">
+                <p>שינוי התוספת</p>
+              </authorialNote>
+            </heading>
+            <num>51א.</num>
+            <content>
+              <p>שר האוצר, באישור הוועדה, רשאי, בצו, להוסיף משאבי טבע <ref href="#appendix">לתוספת</ref>.</p>
+            </content>
+          </point>
+          <point eId="point_52">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>52.</num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">הנוסח שולב <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_מס_הכנסה">בפקודת מס הכנסה</ref>.</wikicomment>
+              </p>
+            </content>
+          </point>
+        </list>
+      </chapter>
+      <chapter eId="chp_none">
+        <num></num>
+        <title>
+          <content>
+            <p>חלק ז׳: קרן לניהול כספי היטל על רווחי נפט</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_53">
+            <heading>
+              <authorialNote placement="side">
+                <p>קרן לניהול כספי היטל על רווחי נפט</p>
+              </authorialNote>
+            </heading>
+            <num>53.</num>
+            <list>
+              <point eId="point_53__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>הממשלה תקים קרן לניהול כספים שהתקבלו מהיטל על רווחי נפט לפי חוק זה אשר יועברו למטרות חברתיות–כלכליות.</p>
+                </content>
+              </point>
+              <point eId="point_53__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>הקרן תוקם בחוק שיסדיר את אופן פעולתה, אופן הוצאת הכספים שינוהלו בה והמטרות שלשמן יועברו; הצעת חוק כאמור תוגש לכנסת לא יאוחר מיום ד׳ בחשוון התשע"ב (1 בנובמבר 2011).<br space="preserve"></br><wikicomment font-size="x-small">ראו <ref href="/akn/il/act/PrimaryLegislation/2014-07-24/481584">חוק קרן לאזרחי ישראל, התשע"ד–2014</ref>.</wikicomment></p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_53">
+            <heading>
+              <authorialNote placement="side">
+                <p>ניהול כספי היטל על רווחים ממשאבי טבע</p>
+              </authorialNote>
+            </heading>
+            <num>53.</num>
+            <content>
+              <p>
+                <wikicomment font-size="x-small">(לאחר תחילתו של <ref href="/akn/il/act/PrimaryLegislation/2014-07-24/481584#point_7">חוק קרן לאזרחי ישראל, התשע"ד–2014</ref>):</wikicomment>
+                <br space="preserve"></br>הכספים שהתקבלו מהיטל על רווחי ממשאבי טבע ינוהלו בהתאם להוראות <ref href="/akn/il/act/PrimaryLegislation/2014-07-24/481584">חוק קרן לאזרחי ישראל, התשע"ד–2014</ref>.</p>
+            </content>
+          </point>
+        </list>
+      </chapter>
+      <chapter eId="chp_none">
+        <num></num>
+        <title>
+          <content>
+            <p>חלק ח׳: תחולה והוראות מעבר לעניין מיסוי רווחי נפט</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_54">
+            <heading>
+              <authorialNote placement="side">
+                <p>תחולה והוראות מעבר</p>
+              </authorialNote>
+            </heading>
+            <num>54.</num>
+            <list>
+              <point eId="point_54__point_א">
+                <num>(א)</num>
+                <list>
+                  <intro>
+                    <p>
+                      <def />בתקופה שמיום תחילתו של חוק זה (להלן – יום התחילה) ועד יום י"ט בטבת התשע"ו (31 בדצמבר 2015), יקראו את ההגדרה ”שיעור היטל יחסי“ <ref href="#point_2">בסעיף 2(ג)</ref> כך:<br space="preserve"></br>"”שיעור היטל יחסי“ – שיעור כמפורט להלן, המחושב לגבי כל חודש בשנת המס, בהתאם למקדם ההיטל היחסי באותו חודש;</p>
+                  </intro>
+                  <point eId="point_54__point_א__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>היה מקדם ההיטל היחסי נמוך מ־1.5 – 0%;</p>
+                    </content>
+                  </point>
+                  <point eId="point_54__point_א__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>היה מקדם ההיטל היחסי בגובה 1.5 או יותר, אך נמוך מ־2.3 – 20% בתוספת 37.5% מההפרש שבין מקדם ההיטל היחסי לבין 1.5;</p>
+                    </content>
+                  </point>
+                  <point eId="point_54__point_א__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>היה מקדם ההיטל היחסי בגובה 2.3 או יותר – 50%."</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+            </list>
+          </point>
+          <point eId="point_ב">
+            <num>(ב)</num>
+            <content>
+              <p>לצורך חישוב רווחי נפט של מיזם נפט לשנת המס שבה חל יום התחילה, יובאו בחשבון תקבולים שוטפים ותשלומים שוטפים, כהגדרתם <ref href="#point_3">בסעיף 3(ב)</ref>, שהתקבלו או ששולמו, לפי העניין, ביום התחילה או לאחריו.</p>
+            </content>
+          </point>
+          <point eId="point_ג">
+            <num>(ג)</num>
+            <list>
+              <intro>
+                <p>על מיזם נפט שמועד תחילת ההפקה המסחרית חל לגביו לפני יום התחילה, יחולו הוראות חוק זה בשינויים אלה:</p>
+              </intro>
+              <point eId="point_ג__point_1">
+                <num>(1)</num>
+                <content>
+                  <p>חלה לגבי מיזם כאמור חובת תשלום היטל בשנת המס שבה חל יום התחילה, יהיה שיעור ההיטל באותה שנת מס מחצית משיעור ההיטל שהיה מוטל על רווחי הנפט אילולא הוראות פסקה זו, ולא יותר מ־10%;</p>
+                </content>
+              </point>
+              <point eId="point_ג__point_2">
+                <num>(2)</num>
+                <list>
+                  <intro>
+                    <p>עלה מקדם ההיטל בשנת המס שבה חל יום התחילה על 1.5, יופחת, לצורך חישוב מקדם ההיטל בכל שנת מס שלאחריה, מסכום ההכנסות המצטברות של המיזם, בשנת המס שבה חל יום התחילה ובכל שנת מס שלאחריה, סכום ההפחתה בתוספת הפרשי הצמדה מתום שנת המס שבה חל יום התחילה עד תום שנת המס שלגביה מחושב מקדם ההיטל; בפסקה זו –</p>
+                  </intro>
+                  <point eId="point_ג__point_2__point_הכנסות_מצטברות">
+                    <content>
+                      <p>
+                        <def />”הכנסות מצטברות“ – כהגדרתן <ref href="#point_4">בסעיף 4(ב)(1)</ref>;</p>
+                    </content>
+                  </point>
+                  <point eId="point_ג__point_2__point_סכום_ההפחתה">
+                    <content>
+                      <p>
+                        <def />”סכום ההפחתה“ – הסכום שיש להפחיתו מההכנסות המצטברות בשנת המס שבה חל יום התחילה, כדי שמקדם ההיטל באותה שנה יהיה בגובה 1.5;</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_ג__point_3">
+                <num>(3)</num>
+                <content>
+                  <p>שיעור ההיטל שיוטל על רווחי הנפט של המיזם בכל אחת משנות המס 2012 עד 2015 יהיה שווה למחצית משיעור ההיטל שהיה מוטל על רווחי הנפט כאמור אילולא הוראות פסקה זו, לפי הוראות <ref href="#point_2">סעיפים 2 עד 5</ref>, בשינוי הקבוע בפסקה (2);</p>
+                </content>
+              </point>
+              <point eId="point_ג__point_4">
+                <num>(4)</num>
+                <content>
+                  <p>על אף הוראות <ref href="#point_20">סעיף 20(ג)</ref>, בעל זכות נפט של המיזם יודיע על בחירתו כאמור <ref href="#point_20">באותו סעיף</ref>, עם הגשת דוח לפי <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_מס_הכנסה#point_131">סעיף 131 לפקודה</ref> לגבי שנת המס שבה חל יום התחילה;</p>
+                </content>
+              </point>
+              <point eId="point_ג__point_5">
+                <num>(5)</num>
+                <content>
+                  <p>על אף האמור בפסקאות (1) עד (4), מיזם נפט כאמור בסעיף קטן זה רשאי לבחור שיחולו לגביו הוראות פסקאות (1) עד (4) בסעיף קטן זה או הוראות פסקאות (1) עד (3) בסעיף קטן (ד); המיזם יודיע למנהל על בחירתו בתוך 120 ימים מיום התחילה.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_ד">
+            <num>(ד)</num>
+            <list>
+              <intro>
+                <p>על מיזם שמועד תחילת ההפקה המסחרית חל לגביו בתקופה שמיום התחילה עד יום כ"ט בטבת התשע"ד (1 בינואר 2014) יחולו הוראות אלה:</p>
+              </intro>
+              <point eId="point_ד__point_1">
+                <num>(1)</num>
+                <content>
+                  <p>בהגדרה ”תקופת הרצה“, במקום ”24“ יקראו ”48“;</p>
+                </content>
+              </point>
+              <point eId="point_ד__point_2">
+                <num>(2)</num>
+                <content>
+                  <p>בהגדרה ”שיעור ההיטל היחסי“ <ref href="#point_2">שבסעיף 2</ref>, בכל מקום, במקום ”1.5“ יקראו ”2“ ובמקום ”2.3“ יקראו ”2.8“;</p>
+                </content>
+              </point>
+              <point eId="point_ד__point_3">
+                <num>(3)</num>
+                <content>
+                  <p>
+                    <ref href="#point_20">בסעיף 20(ב)</ref>, לגבי נכס בר ניכוי כהגדרתו <ref href="#point_20">באותו סעיף</ref> שנרכש בתקופה שמיום כ"ה בטבת התשע"א (1 בינואר 2011) עד יום כ"ח בטבת התשע"ד (31 בדצמבר 2013), במקום ”10%“ יקראו ”15%“.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_ה">
+            <num>(ה)</num>
+            <content>
+              <p>שר האוצר, בהסכמת שר התשתיות הלאומיות ובאישור הוועדה, רשאי להאריך את המועד הקבוע בסעיף קטן (ד) רישה (להלן – המועד המקורי) לתקופה שלא תעלה על שישה חודשים, אם נוכח כי עד המועד המקורי לא החלה ההפקה המסחרית מנסיבות שאינן תלויות בבעל זכות הנפט ואף שבעל זכות הנפט עשה כמיטב יכולתו שההפקה המסחרית תתחיל במועד המקורי.</p>
+            </content>
+          </point>
+          <point eId="point_ו">
+            <num>(ו)</num>
+            <list>
+              <intro>
+                <p>על אף הוראות <ref href="#point_13">סעיף 13</ref>, לגבי בעל זכות נפט של מיזם נפט שקיבל את זכות הנפט לפני יום התחילה –</p>
+              </intro>
+              <point eId="point_ו__point_1">
+                <num>(1)</num>
+                <content>
+                  <p>יכלול דוח מקדם ההיטל שעליו להגיש לפי <ref href="#point_13">הסעיף האמור</ref>, דיווח לגבי סך רכיבי מקדם ההיטל של המיזם בתקופה שממועד קבלת זכות הנפט עד תום שנת המס שבה חל יום התחילה;</p>
+                </content>
+              </point>
+              <point eId="point_ו__point_2">
+                <num>(2)</num>
+                <content>
+                  <p>יכלול דוח רווחי הנפט שעליו להגיש לפי <ref href="#point_13">הסעיף האמור</ref>, דיווח לגבי סך רווחי הנפט של המיזם בתקופה שממועד קבלת זכות הנפט עד תום שנת המס שקדמה לשנת המס שבה חל יום התחילה, וכן דיווח לגבי רווחי הנפט של המיזם בשנת המס שבה חל יום התחילה.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_ז">
+            <num>(ז)</num>
+            <content>
+              <p>הוראות <ref href="#part_א_chp_ו">פרק ו׳</ref> יחולו על הכנסה חייבת או הפסדים של שותפות נפט בשנת המס 2011 ואילך.</p>
+            </content>
+          </point>
+        </list>
+      </chapter>
+      <appendix eId="appendix">
+        <num></num>
+        <title>
+          <content>
+            <p>תוספת</p>
+          </content>
+        </title>
+        <subtitle eId="eId">
+          <num></num>
+          <content>
+            <p>
+              <wikicomment font-size="x-small">(ההגדרה ”משאב טבע“ <ref href="#point_20א">בסעיף 20א</ref>)</wikicomment>
+            </p>
+          </content>
+        </subtitle>
+        <list>
+          <point eId="appendix__point_1">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>(1)</num>
+            <content>
+              <p>ברום;</p>
+            </content>
+          </point>
+          <point eId="appendix__point_2">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>(2)</num>
+            <content>
+              <p>חשמל המופק מפצלי שמן לאחר שנכרו מהאדמה;</p>
+            </content>
+          </point>
+          <point eId="appendix__point_3">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>(3)</num>
+            <content>
+              <p>כלוריד האשלג;</p>
+            </content>
+          </point>
+          <point eId="appendix__point_4">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>(4)</num>
+            <content>
+              <p>כלוריד המגנזיום;</p>
+            </content>
+          </point>
+          <point eId="appendix__point_5">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>(5)</num>
+            <content>
+              <p>נחושת המופקת מעופרת נחושת;</p>
+            </content>
+          </point>
+          <point eId="appendix__point_6">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>(6)</num>
+            <content>
+              <p>נפט המופק מפצלי שמן לאחר שנכרו מהאדמה;</p>
+            </content>
+          </point>
+          <point eId="appendix__point_7">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num>(7)</num>
+            <content>
+              <p>סלע פוספט המופק מסלע פוספוריט.</p>
+            </content>
+          </point>
+        </list>
+      </appendix>
+    </body>
+    <conclusions eId="eId">
+      <p class="signatures">
+        <signature>
+          <p>
+            <person refersTo="בנימין_נתניהו">בנימין נתניהו</person>
+            <role refersTo="ראש_הממשלה">ראש הממשלה</role>
+          </p>
+        </signature>
+        <signature>
+          <p>
+            <person refersTo="יובל_שטייניץ">יובל שטייניץ</person>
+            <role refersTo="שר_האוצר">שר האוצר</role>
+          </p>
+        </signature>
+        <signature>
+          <p>
+            <person refersTo="שמעון_פרס">שמעון פרס</person>
+            <role refersTo="נשיא_המדינה">נשיא המדינה</role>
+          </p>
+        </signature>
+        <signature>
+          <p>
+            <person refersTo="ראובן_ריבלין">ראובן ריבלין</person>
+            <role refersTo="יושב_ראש_הכנסת">יושב ראש הכנסת</role>
+          </p>
+        </signature>
+      </p>
+    </conclusions>
+  </act>
+</akomaNtoso>

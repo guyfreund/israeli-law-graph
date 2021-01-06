@@ -1,0 +1,2335 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act contains="originalVersion" name="publicLaw">
+    <meta>
+      <identification source="#kensset">
+        <FRBRWork>
+          <FRBRthis value="/akn/il/act/SecondaryLegislation/2016-04-12/100040127/main" />
+          <FRBRuri value="/akn/il/act/SecondaryLegislation/2016-04-12/100040127" />
+          <FRBRdate date="2016-04-12" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRcountry value="israel" />
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/il/act/SecondaryLegislation/2016-04-12/100040127/he@/main" />
+          <FRBRuri value="/akn/il/act/SecondaryLegislation/2016-04-12/100040127/he@" />
+          <FRBRdate date="2016-04-12" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRlanguage language="hebrew" />
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/il/act/SecondaryLegislation/2016-04-12/100040127/he@/main.xml" />
+          <FRBRuri value="/akn/il/act/SecondaryLegislation/2016-04-12/100040127/he@" />
+          <FRBRdate date="2016-04-12" name="Generation" />
+          <FRBRauthor href="#knesset" as="#author" />
+          <FRBRformat value="xml" />
+        </FRBRManifestation>
+      </identification>
+      <classification source="#kensset">
+        <keyword value="{classificationValue}" showAs="{classificationValue}" dictionary="#classification_dictionary" />
+      </classification>
+      <lifecycle source="#kensset">
+        <eventRef eId="eventRef_1" date="2016-04-12" source="#kensset" type="generation" />
+      </lifecycle>
+      <references source="#kensset">
+        <TLCOrganization eId="kensset" href="/ontology/organization/akn/knesset" showAs="Kensset" type="generation" />
+        <TLCRole eId="author" href="/ontology/role/akn/author" showAs="Author of Document" />
+        <TLCProcess eId="inforce" href="/ontology/process/akn/inforce" showAs="In force" />
+        <TLCTerm eId="term_1" href="/ontology/term/אגד/100040127" showAs="אגד" />
+        <TLCTerm eId="term_2" href="/ontology/term/אגד_ישראלי_בלתי_מוגבל/100040127" showAs="אגד_ישראלי_בלתי_מוגבל" />
+        <TLCTerm eId="term_3" href="/ontology/term/איגרת_חוב/100040127" showAs="איגרת_חוב" />
+        <TLCTerm eId="term_4" href="/ontology/term/דוח/100040127" showAs="דוח" />
+        <TLCTerm eId="term_5" href="/ontology/term/הוספה/100040127" showAs="הוספה" />
+        <TLCTerm eId="term_6" href="/ontology/term/הפסד_הון/100040127" showAs="הפסד_הון" />
+        <TLCTerm eId="term_7" href="/ontology/term/טווח/100040127" showAs="טווח" />
+        <TLCTerm eId="term_8" href="/ontology/term/טווח_חשיפה/100040127" showAs="טווח_חשיפה" />
+        <TLCTerm eId="term_9" href="/ontology/term/טופס_דיווח/100040127" showAs="טופס_דיווח" />
+        <TLCTerm eId="term_10" href="/ontology/term/יום_עריכת_הפרטים/100040127" showAs="יום_עריכת_הפרטים" />
+        <TLCTerm eId="term_11" href="/ontology/term/כותרת_ראשית/100040127" showAs="כותרת_ראשית" />
+        <TLCTerm eId="term_12" href="/ontology/term/מדד_המחירים_לצרכן/100040127" showAs="מדד_המחירים_לצרכן" />
+        <TLCTerm eId="term_13" href="/ontology/term/מדד_המק''מ/100040127" showAs="מדד_המק''מ" />
+        <TLCTerm eId="term_14" href="/ontology/term/מועד_הדיווח/100040127" showAs="מועד_הדיווח" />
+        <TLCTerm eId="term_15" href="/ontology/term/מנוף_אשראי_של_קרן/100040127" showAs="מנוף_אשראי_של_קרן" />
+        <TLCTerm eId="term_16" href="/ontology/term/מכירת_ניירות_ערך_בחסר/100040127" showAs="מכירת_ניירות_ערך_בחסר" />
+        <TLCTerm eId="term_17" href="/ontology/term/ממוצע/100040127" showAs="ממוצע" />
+        <TLCTerm eId="term_18" href="/ontology/term/מנהל_השקעות_חיצוני/100040127" showAs="מנהל_השקעות_חיצוני" />
+        <TLCTerm eId="term_19" href="/ontology/term/מנהל_קרן_חדש/100040127" showAs="מנהל_קרן_חדש" />
+        <TLCTerm eId="term_20" href="/ontology/term/מנהל_תיקי_השקעות/100040127" showAs="מנהל_תיקי_השקעות" />
+        <TLCTerm eId="term_21" href="/ontology/term/נייר_ערך/100040127" showAs="נייר_ערך" />
+        <TLCTerm eId="term_22" href="/ontology/term/נכס_בסיס/100040127" showAs="נכס_בסיס" />
+        <TLCTerm eId="term_23" href="/ontology/term/נכס_ייחוס/100040127" showAs="נכס_ייחוס" />
+        <TLCTerm eId="term_24" href="/ontology/term/סוג_הקרן/100040127" showAs="סוג_הקרן" />
+        <TLCTerm eId="term_25" href="/ontology/term/סוג_הקרן_לצורך_עמלת_הפצה/100040127" showAs="סוג_הקרן_לצורך_עמלת_הפצה" />
+        <TLCTerm eId="term_26" href="/ontology/term/סיווג_קרן/100040127" showAs="סיווג_קרן" />
+        <TLCTerm eId="term_27" href="/ontology/term/עמלות/100040127" showAs="עמלות" />
+        <TLCTerm eId="term_28" href="/ontology/term/עמלת_הפצה/100040127" showAs="עמלת_הפצה" />
+        <TLCTerm eId="term_29" href="/ontology/term/פקודת_מס_הכנסה/100040127" showAs="פקודת_מס_הכנסה" />
+        <TLCTerm eId="term_30" href="/ontology/term/קרן/100040127" showAs="קרן" />
+        <TLCTerm eId="term_31" href="/ontology/term/קרן_גמישה/100040127" showAs="קרן_גמישה" />
+        <TLCTerm eId="term_32" href="/ontology/term/קרן_חדשה/100040127" showAs="קרן_חדשה" />
+        <TLCTerm eId="term_33" href="/ontology/term/קרן_חייבת/100040127" showAs="קרן_חייבת" />
+        <TLCTerm eId="term_34" href="/ontology/term/קרן_להשקעות_חוץ_(מטבע_עיקרי)/100040127" showAs="קרן_להשקעות_חוץ_(מטבע_עיקרי)" />
+        <TLCTerm eId="term_35" href="/ontology/term/קרן_להשקעות_חוץ_(פטור_ממס_לתושב_חוץ)/100040127" showAs="קרן_להשקעות_חוץ_(פטור_ממס_לתושב_חוץ)" />
+        <TLCTerm eId="term_36" href="/ontology/term/קרן_מועדים_קבועים/100040127" showAs="קרן_מועדים_קבועים" />
+        <TLCTerm eId="term_37" href="/ontology/term/קרן_ממונפת/100040127" showAs="קרן_ממונפת" />
+        <TLCTerm eId="term_38" href="/ontology/term/קרן_פטורה/100040127" showAs="קרן_פטורה" />
+        <TLCTerm eId="term_39" href="/ontology/term/שווי_נקי_ממוצע_של_נכסי_קרן/100040127" showAs="שווי_נקי_ממוצע_של_נכסי_קרן" />
+        <TLCTerm eId="term_40" href="/ontology/term/שיעור_חשיפה_ממוצע/100040127" showAs="שיעור_חשיפה_ממוצע" />
+        <TLCTerm eId="term_41" href="/ontology/term/שיעור_יחידות_מוחזקות/100040127" showAs="שיעור_יחידות_מוחזקות" />
+        <TLCTerm eId="term_42" href="/ontology/term/שיעור_השכר/100040127" showAs="שיעור_השכר" />
+        <TLCTerm eId="term_43" href="/ontology/term/תקנות_האופציות/100040127" showAs="תקנות_האופציות" />
+        <TLCTerm eId="term_44" href="/ontology/term/תקנות_האשראי/100040127" showAs="תקנות_האשראי" />
+        <TLCTerm eId="term_45" href="/ontology/term/תקנות_דוחות_כספיים/100040127" showAs="תקנות_דוחות_כספיים" />
+        <TLCTerm eId="term_46" href="/ontology/term/תקנות_חישוב_תשואה/100040127" showAs="תקנות_חישוב_תשואה" />
+        <TLCTerm eId="term_47" href="/ontology/term/תקנות_המחירים/100040127" showAs="תקנות_המחירים" />
+        <TLCTerm eId="term_48" href="/ontology/term/תקנות_הנכסים/100040127" showAs="תקנות_הנכסים" />
+        <TLCTerm eId="term_49" href="/ontology/term/תקנות_הסיווג/100040127" showAs="תקנות_הסיווג" />
+        <TLCTerm eId="term_50" href="/ontology/term/תקנות_עמלת_הפצה/100040127" showAs="תקנות_עמלת_הפצה" />
+        <TLCTerm eId="term_51" href="/ontology/term/תקנות_פרטי_תשקיף/100040127" showAs="תקנות_פרטי_תשקיף" />
+        <TLCTerm eId="term_52" href="/ontology/term/תשקיף/100040127" showAs="תשקיף" />
+        <TLCTerm eId="term_53" href="/ontology/term/i_/100040127" showAs="i_" />
+        <TLCTerm eId="term_54" href="/ontology/term/x_i_/100040127" showAs="x_i_" />
+        <TLCTerm eId="term_55" href="/ontology/term/\bar_x_/100040127" showAs="\bar_x_" />
+        <TLCTerm eId="term_56" href="/ontology/term/n_/100040127" showAs="n_" />
+        <TLCTerm eId="term_57" href="/ontology/term/d_/100040127" showAs="d_" />
+        <TLCTerm eId="term_58" href="/ontology/term/I_2_/100040127" showAs="I_2_" />
+        <TLCTerm eId="term_59" href="/ontology/term/I_1_/100040127" showAs="I_1_" />
+        <TLCTerm eId="term_60" href="/ontology/term/R_1_/100040127" showAs="R_1_" />
+        <TLCTerm eId="term_61" href="/ontology/term/i_/100040127" showAs="i_" />
+        <TLCTerm eId="term_62" href="/ontology/term/\bar_x_/100040127" showAs="\bar_x_" />
+        <TLCTerm eId="term_63" href="/ontology/term/m_/100040127" showAs="m_" />
+        <TLCTerm eId="term_64" href="/ontology/term/n_/100040127" showAs="n_" />
+        <TLCTerm eId="term_65" href="/ontology/term/d_/100040127" showAs="d_" />
+        <TLCTerm eId="term_66" href="/ontology/term/E_1_/100040127" showAs="E_1_" />
+        <TLCTerm eId="term_67" href="/ontology/term/F_1_/100040127" showAs="F_1_" />
+        <TLCTerm eId="term_68" href="/ontology/term/F_2_/100040127" showAs="F_2_" />
+        <TLCTerm eId="term_69" href="/ontology/term/P_2_/100040127" showAs="P_2_" />
+        <TLCTerm eId="term_70" href="/ontology/term/P_1_/100040127" showAs="P_1_" />
+        <TLCTerm eId="term_71" href="/ontology/term/P_2_/100040127" showAs="P_2_" />
+        <TLCTerm eId="term_72" href="/ontology/term/P_1_/100040127" showAs="P_1_" />
+        <TLCTerm eId="term_73" href="/ontology/term/C_2_/100040127" showAs="C_2_" />
+        <TLCTerm eId="term_74" href="/ontology/term/C_1_/100040127" showAs="C_1_" />
+        <TLCTerm eId="term_75" href="/ontology/term/A_/100040127" showAs="A_" />
+        <TLCTerm eId="term_76" href="/ontology/term/I_/100040127" showAs="I_" />
+        <TLCTerm eId="term_77" href="/ontology/term/A_ו־I_/100040127" showAs="A_ו־I_" />
+        <TLCTerm eId="term_78" href="/ontology/term/דרגת_חשיפה_מרבית_למניות/100040127" showAs="דרגת_חשיפה_מרבית_למניות" />
+        <TLCTerm eId="term_79" href="/ontology/term/C_/100040127" showAs="C_" />
+        <TLCTerm eId="term_80" href="/ontology/term/I_/100040127" showAs="I_" />
+        <TLCTerm eId="term_81" href="/ontology/term/A_/100040127" showAs="A_" />
+        <TLCTerm eId="term_82" href="/ontology/term/S_/100040127" showAs="S_" />
+        <TLCTerm eId="term_83" href="/ontology/term/C_i_/100040127" showAs="C_i_" />
+        <TLCTerm eId="term_84" href="/ontology/term/V_i_/100040127" showAs="V_i_" />
+        <TLCTerm eId="term_85" href="/ontology/term/i_/100040127" showAs="i_" />
+        <TLCTerm eId="term_86" href="/ontology/term/n_/100040127" showAs="n_" />
+        <TLCTerm eId="term_87" href="/ontology/term/Bi_/100040127" showAs="Bi_" />
+        <TLCTerm eId="term_88" href="/ontology/term/Vi_/100040127" showAs="Vi_" />
+        <TLCTerm eId="term_89" href="/ontology/term/i_/100040127" showAs="i_" />
+        <TLCTerm eId="term_90" href="/ontology/term/n_/100040127" showAs="n_" />
+        <TLCTerm eId="term_91" href="/ontology/term/סולם_דרגות_לטווח_ארוך/100040127" showAs="סולם_דרגות_לטווח_ארוך" />
+        <TLCPerson eId="משה_כחלון" href="/ontology/person/משה_כחלון" showAs="משה כחלון" />
+        <TLCRole eId="שר_האוצר" href="ontology/role/akn/שר_האוצר" showAs="שר האוצר" />
+      </references>
+      <temporalData source="#kensset">
+        <temporalGroup eId="tmpg_1" />
+      </temporalData>
+      <Publication></Publication>
+      <proprietary wikiversion="12/7/2020 5:04:51 PM" />
+    </meta>
+    <body period="#tmpg_1">
+      <title eId="title">
+        <content>
+          <p>תקנות השקעות משותפות בנאמנות (דוח שנתי של קרן), התשע"ו–2016</p>
+        </content>
+      </title>
+      <preamble eId="eId">
+        <p>בתוקף סמכותי לפי <ref href="/akn/il/act/PrimaryLegislation/1994-08-23/155776#point_72">סעיפים 72(א)</ref><ref href="/akn/il/act/PrimaryLegislation/1994-08-23/155776#point_131">ו־131(א)</ref><ref href="/akn/il/act/PrimaryLegislation/1994-08-23/155776">לחוק השקעות משותפות בנאמנות, התשנ"ד–1994</ref> (להלן – החוק), לפי הצעת הרשות ובאישור ועדת הכספים של הכנסת, אני מתקין תקנות אלה:</p>
+      </preamble>
+      <chapter eId="chp_א">
+        <num>פרק א׳:</num>
+        <title>
+          <content>
+            <p>פרשנות</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_1" class="definitions">
+            <heading>
+              <authorialNote placement="side">
+                <p>הגדרות</p>
+              </authorialNote>
+            </heading>
+            <num>1.</num>
+            <list>
+              <intro>
+                <p>בתקנות אלה –</p>
+              </intro>
+              <point eId="point_1__point_אגד">
+                <content>
+                  <p>
+                    <def />”אגד“, ”אגד חוץ“, ”אגד ישראלי“, ו”קרן כספית“ – כהגדרתם <ref href="/akn/il/act/SecondaryLegislation/1994-11-10/100025287">בתקנות הנכסים</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_אגד_ישראלי_בלתי_מוגבל">
+                <content>
+                  <p>
+                    <def />”אגד ישראלי בלתי מוגבל“, ”אגד ישראלי מוגבל“, ”קרן בלתי מוגבלת בניירות ערך חוץ“ ו”קרן מוגבלת בניירות ערך חוץ“ – כהגדרתם <ref href="/akn/il/act/SecondaryLegislation/1994-11-10/100025290">בתקנות המחירים</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_איגרת_חוב">
+                <content>
+                  <p>
+                    <def />”איגרת חוב“ – למעט איגרות חוב היוצרות חשיפה למניות;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_דוח">
+                <content>
+                  <p>
+                    <def />”דוח“ – דוח שנתי;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_הוספה">
+                <content>
+                  <p>
+                    <def />”הוספה“ – כמשמעותה <ref href="/akn/il/act/PrimaryLegislation/1994-08-23/155776#point_42">בסעיף 42(ג) לחוק</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_הפסד_הון">
+                <content>
+                  <p>
+                    <def />”הפסד הון“ – כהגדרתו <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_מס_הכנסה#point_88">בסעיף 88 לפקודת מס הכנסה</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_טווח">
+                <content>
+                  <p>
+                    <def />”טווח“ – ערך מזערי וערך מרבי של נתון כלשהו מתוך הערכים ליום המסחר האחרון בכל שבוע בתקופה מסוימת;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_טווח_חשיפה">
+                <content>
+                  <p>
+                    <def />”טווח חשיפה“ – טווח שיעורי החשיפה של קרן לנכס בסיס בתקופה מסוימת;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_טופס_דיווח">
+                <content>
+                  <p>
+                    <def />”טופס דיווח“ – כהגדרתו <ref href="/akn/il/act/SecondaryLegislation/2003-04-07/100031000">בתקנות ניירות ערך (חתימה ודיווח אלקטרוני), התשס"ג–2003</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_יום_עריכת_הפרטים">
+                <content>
+                  <p>
+                    <def />”יום עריכת הפרטים“ – היום האחרון של הרבעון שקדם למועד הדיווח של הקרן;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_כותרת_ראשית">
+                <content>
+                  <p>
+                    <def />”כותרת ראשית“, ”מטבע חוץ“, ”מניות“, ”פרופיל חשיפה“, ”קרן חשיפה הפוכה“ ו”קרן מחקה“ – כהגדרתם <ref href="/akn/il/act/SecondaryLegislation/2007-11-28/100033748">בתקנות הסיווג</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_מדד_המחירים_לצרכן">
+                <content>
+                  <p>
+                    <def />”מדד המחירים לצרכן“ – מדד המחירים לצרכן שמפרסמת הלשכה המרכזית לסטטיסטיקה;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_מדד_המקמ">
+                <content>
+                  <p>
+                    <def />”מדד המק"מ“, ”מדד ת"א 100“ – המפורסמים באתר האינטרנט של הבורסה;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_מועד_הדיווח">
+                <content>
+                  <p>
+                    <def />”מועד הדיווח“ – אחד מהמועדים האלה: 31 במרס, 30 ביוני, 30 בספטמבר ו־31 בדצמבר, לפי סוג הקרן כפי שפרסמה הרשות באתר האינטרנט שלה, בהתחשב במאפייני הקרן באופן שיאפשר השוואה בין נתוני קרנות דומות, ובהתחשב במספר הקרנות מכל סוג;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_מנוף_אשראי_של_קרן">
+                <content>
+                  <p>
+                    <def />”מנוף אשראי של קרן“, ”מנוף פעילות בנגזרים“ – כהגדרתם <ref href="/akn/il/act/SecondaryLegislation/2001-02-01/100029525">בתקנות השקעות משותפות בנאמנות (עסקאות באשראי ופדיון יחידות באשראי), התשס"א–2001</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_מכירת_ניירות_ערך_בחסר">
+                <content>
+                  <p>
+                    <def />”מכירת ניירות ערך בחסר“ – עסקת מכירה בחסר כהגדרתה <ref href="/akn/il/act/PrimaryLegislation/1994-08-23/155776#point_63">בסעיף 63 לחוק</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_ממוצע">
+                <content>
+                  <p>
+                    <def />”ממוצע“ – מחושב לפי הנתונים ביום המסחר האחרון בכל שבוע בתקופה מסוימת;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_מנהל_השקעות_חיצוני">
+                <content>
+                  <p>
+                    <def />”מנהל השקעות חיצוני“ – מי שמנהל הקרן מעסיק בניהול תיקי השקעות של קרן ואינו עובד מנהל הקרן;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_מנהל_קרן_חדש">
+                <content>
+                  <p>
+                    <def />”מנהל קרן חדש“ – מנהל קרן שבמועד פרסום הדוח טרם ניהל קרן במשך שנה רציפה או שחלפו למעלה משנתיים מיום שניהל קרן כלשהי;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_מנהל_תיקי_השקעות">
+                <content>
+                  <p>
+                    <def />”מנהל תיקי השקעות“, ”ניהול תיקי השקעות“ – כהגדרתם <ref href="/akn/il/act/PrimaryLegislation/2005-08-10/100898">בחוק הסדרת העיסוק</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_נייר_ערך">
+                <content>
+                  <p>
+                    <def />”נייר ערך“ – לרבות נייר ערך חוץ;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_נכס_בסיס">
+                <content>
+                  <p>
+                    <def />”נכס בסיס“ – אחד מאלה: מניה, מטבע חוץ או איגרת חוב;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_נכס_ייחוס">
+                <content>
+                  <p>
+                    <def />”נכס ייחוס“ של קרן – מדד, שלהערכת מנהל הקרן צפוי כי לשינויים בו תהיה ההשפעה הגדולה ביותר על תשואתה של הקרן או נכס שלהערכת מנהל הקרן צפוי כי לשינויים בערכו תהיה ההשפעה הגדולה ביותר על תשואתה של הקרן;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_סוג_הקרן">
+                <content>
+                  <p>
+                    <def />”סוג הקרן“ – לרבות קרן פתוחה, קרן סגורה, אגד ישראלי, אגד חוץ, קרן ממונפת, קרן מועדים קבועים, קרן ייחודית או קרן כספית, לפי העניין;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_סוג_הקרן_לצורך_עמלת_הפצה">
+                <content>
+                  <p>
+                    <def />”סוג הקרן לצורך עמלת הפצה“ – ”סוג הקרן“ כהגדרתו <ref href="/akn/il/act/SecondaryLegislation/2006-02-26/100032635">בתקנות עמלת הפצה</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_סיווג_קרן">
+                <content>
+                  <p>
+                    <def />”סיווג קרן“ – הכותרת המאפיינת תחתה סווגה של הקרן, לפי <ref href="/akn/il/act/SecondaryLegislation/2007-11-28/100033748#point_2">תקנה 2(ב) לתקנות הסיווג</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_עמלות">
+                <content>
+                  <p>
+                    <def />”עמלות“ – עמלות הכרוכות בקנייה, מכירה או החזקה של נכסי הקרן, ובכלל זה עמלות בשל פדיון או מימוש נכסים מנכסי הקרן;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_עמלת_הפצה">
+                <content>
+                  <p>
+                    <def />”עמלת הפצה“ – כמשמעותה <ref href="/akn/il/act/SecondaryLegislation/2006-02-26/100032635#point_2">בתקנה 2(א) לתקנות עמלת הפצה</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_פקודת_מס_הכנסה">
+                <content>
+                  <p>
+                    <def />”פקודת מס הכנסה“ – <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_מס_הכנסה">פקודת מס הכנסה</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_קרן">
+                <content>
+                  <p>
+                    <def />”קרן“ – קרן שאינה קרן חדשה;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_קרן_גמישה">
+                <content>
+                  <p>
+                    <def />”קרן גמישה“ – קרן שבמדיניות ההשקעות שלה לא נכללת התחייבות לחשיפה מזערית שהיא גבוהה מ־0% לאפיק או נכס כלשהו ולא נכללת התחייבות לחשיפה מרבית של פחות מ־100% לכל אפיק או נכס, למעט הגבלות שמטרתן להקנות לקרן מעמד של קרן מוגבלת בניירות ערך חוץ;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_קרן_חדשה">
+                <content>
+                  <p>
+                    <def />”קרן חדשה“ – כהגדרתה <ref href="/akn/il/act/SecondaryLegislation/2009-12-10/100035141">בתקנות פרטי תשקיף</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_קרן_חייבת">
+                <content>
+                  <p>
+                    <def />”קרן חייבת“ – ”קרן נאמנות חייבת“ כהגדרתה <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_מס_הכנסה#point_88">בסעיף 88 לפקודת מס הכנסה</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_קרן_להשקעות_חוץ_מטבע_עיקרי">
+                <content>
+                  <p>
+                    <def />”קרן להשקעות חוץ (מטבע עיקרי)“ – ”קרן נאמנות להשקעות חוץ“, כהגדרתה <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/תקנות_מס_הכנסה_חישוב_סכום_אינפלציוני_במכירת_יחידה_בקרן_נאמנות">בתקנות מס הכנסה (חישוב סכום אינפלציוני במכירת יחידה בקרן נאמנות), התשס"ג–2003</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_קרן_להשקעות_חוץ_פטור_ממס_לתושב_חוץ">
+                <content>
+                  <p>
+                    <def />”קרן להשקעות חוץ (פטור ממס לתושב חוץ)“ – ”קרן לנאמנות להשקעות חוץ“, כהגדרתה <ref href="/akn/il/act/SecondaryLegislation/2003-01-30/100030868">בתקנות מס הכנסה (פטור ממס לתושב חוץ על הכנסה מיחידה בקרן נאמנות פטורה), התשס"ג–2003</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_קרן_מועדים_קבועים">
+                <content>
+                  <p>
+                    <def />”קרן מועדים קבועים“ – כהגדרתה <ref href="/akn/il/act/PrimaryLegislation/1994-08-23/155776#point_47">בסעיף 47(א) לחוק</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_קרן_ממונפת">
+                <content>
+                  <p>
+                    <def />”קרן ממונפת“, ”שיעור חשיפה“ – כהגדרתם <ref href="/akn/il/act/SecondaryLegislation/2001-02-01/100029526">בתקנות האופציות</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_קרן_פטורה">
+                <content>
+                  <p>
+                    <def />”קרן פטורה“ – ”קרן נאמנות פטורה“ כהגדרתה <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/פקודת_מס_הכנסה#point_88">בסעיף 88 לפקודת מס הכנסה</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_שווי_נקי_ממוצע_של_נכסי_קרן">
+                <content>
+                  <p>
+                    <def />”שווי נקי ממוצע של נכסי קרן“ – מחושב לפי השווי הנקי של נכסי הקרן בכל אחד מימי חישוב המחירים בתקופה מסוימת, ולעניין שכר מנהל הקרן ושכר הנאמן כאמור <ref href="#point_8">בתקנות 8</ref><ref href="#point_9">ו־9</ref> – יחושב השכר לפי השווי הנקי של נכסי הקרן בכל אחד מימות השנה;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_שיעור_חשיפה_ממוצע">
+                <content>
+                  <p>
+                    <def />”שיעור חשיפה ממוצע“ – ממוצע של שיעורי החשיפה של קרן לנכס בסיס, המחושבים ליום המסחר האחרון בכל שבוע, בתקופה מסוימת;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_שיעור_יחידות_מוחזקות">
+                <content>
+                  <p>
+                    <def />”שיעור יחידות מוחזקות“ – כהגדרתו <ref href="/akn/il/act/PrimaryLegislation/1994-08-23/155776#point_49">בסעיף 49 לחוק</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_שיעור_השכר">
+                <content>
+                  <p>
+                    <def />”שיעור השכר“ – כהגדרתו <ref href="/akn/il/act/PrimaryLegislation/1994-08-23/155776#point_105">בסעיף 105(א2) לחוק</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_תקנות_האופציות">
+                <content>
+                  <p>
+                    <def />”תקנות האופציות“ – <ref href="/akn/il/act/SecondaryLegislation/2001-02-01/100029526">תקנות השקעות משותפות בנאמנות (אופציות, חוזים עתידיים ומכירות בחסר), התשס"א–2001</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_תקנות_האשראי">
+                <content>
+                  <p>
+                    <def />”תקנות האשראי“ – <ref href="/akn/il/act/SecondaryLegislation/2001-02-01/100029525">תקנות השקעות משותפות בנאמנות (עסקאות באשראי ופדיון יחידות באשראי), התשס"א–2001</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_תקנות_דוחות_כספיים">
+                <content>
+                  <p>
+                    <def />”תקנות דוחות כספיים“ – <ref href="/akn/il/act/SecondaryLegislation/2009-12-10/100035143">תקנות השקעות משותפות בנאמנות (דוחות כספיים של קרן), התש"ע–2009</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_תקנות_חישוב_תשואה">
+                <content>
+                  <p>
+                    <def />”תקנות חישוב תשואה“ – <ref href="/akn/il/act/SecondaryLegislation/1995-02-16/100025564">תקנות השקעות משותפות בנאמנות (חישוב תשואה), התשנ"ה–1995</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_תקנות_המחירים">
+                <content>
+                  <p>
+                    <def />”תקנות המחירים“ – <ref href="/akn/il/act/SecondaryLegislation/1994-11-10/100025290">תקנות השקעות משותפות בנאמנות (מחירי קנייה ומכירה של נכסי קרן ושווי נכסי קרן), התשנ"ה–1994</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_תקנות_הנכסים">
+                <content>
+                  <p>
+                    <def />”תקנות הנכסים“ – <ref href="/akn/il/act/SecondaryLegislation/1994-11-10/100025287">תקנות השקעות משותפות בנאמנות (נכסים שמותר לקנות ולהחזיק בקרן ושיעוריהם המרביים), התשנ"ה–1994</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_תקנות_הסיווג">
+                <content>
+                  <p>
+                    <def />”תקנות הסיווג“ – <ref href="/akn/il/act/SecondaryLegislation/2007-11-28/100033748">תקנות השקעות משותפות בנאמנות (סיווג קרנות לצורך פרסום), התשס"ח–2007</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_תקנות_עמלת_הפצה">
+                <content>
+                  <p>
+                    <def />”תקנות עמלת הפצה“ – <ref href="/akn/il/act/SecondaryLegislation/2006-02-26/100032635">תקנות השקעות משותפות בנאמנות (עמלת הפצה), התשס"ו–2006</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_תקנות_פרטי_תשקיף">
+                <content>
+                  <p>
+                    <def />”תקנות פרטי תשקיף“ – <ref href="/akn/il/act/SecondaryLegislation/2009-12-10/100035141">תקנות השקעות משותפות בנאמנות (פרטי תשקיף של קרן, מבנהו וצורתו), התש"ע–2009</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_1__point_תשקיף">
+                <content>
+                  <p>
+                    <def />”תשקיף“ – כהגדרתו <ref href="/akn/il/act/SecondaryLegislation/2009-12-10/100035141">בתקנות פרטי תשקיף</ref>.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+        </list>
+      </chapter>
+      <chapter eId="chp_ב">
+        <num>פרק ב׳:</num>
+        <title>
+          <content>
+            <p>הוראות כלליות</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_2">
+            <heading>
+              <authorialNote placement="side">
+                <p>הוראות כלליות</p>
+              </authorialNote>
+            </heading>
+            <num>2.</num>
+            <list>
+              <point eId="point_2__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>מנהל קרן יגיש לרשות ולבורסה, בכל שנה, דוח על כל קרן שבניהולו לא יאוחר ממועד הדיווח שנקבע לה; בדוח יצוינו הפרטים הנדרשים בתקנות אלה כמפורט בטופס הדיווח נכון ליום עריכת הפרטים.</p>
+                </content>
+              </point>
+              <point eId="point_2__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>דוח כאמור בתקנת משנה (א) יכלול, נוסף על האמור בה, גם פרט או עניין נוספים שאינם מפורטים בתקנות אלה, העשויים להיות חשובים למשקיע סביר השוקל את רכישת היחידות של הקרן בפסקה הדנה בעניין שאליו שייכים הפרטים, ובהעדר פסקה כאמור, ייכללו בפסקה נפרדת, מתחת לכותרת מתאימה, לאחר הפרטים המפורטים בתקנות אלה.</p>
+                </content>
+              </point>
+              <point eId="point_2__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>הוראת תקנת משנה (א) לא תחול לגבי קרן שלא חלפו שישה חודשים מיום שיחידותיה הוצעו לציבור לראשונה עד יום עריכת הפרטים.</p>
+                </content>
+              </point>
+              <point eId="point_2__point_ד">
+                <num>(ד)</num>
+                <content>
+                  <p>יושב ראש הרשות או עובד שהוא הסמיך לעניין זה, רשאים להורות למנהל קרן להעביר פרט או עניין כלשהם מפסקה שבה נכללו לפסקה שעליה יורו, להציגם באופן שונה או להבליטם בדרך שיורו, אם לדעתם הדבר ראוי בנסיבות העניין.</p>
+                </content>
+              </point>
+              <point eId="point_2__point_ה">
+                <num>(ה)</num>
+                <content>
+                  <p>לא ייכללו בדוח הוראות דין, אלא אם כן נקבע אחרת בתקנות אלה או אם הורו על כך או אישרו זאת יושב ראש הרשות או עובד שהוא הסמיך לעניין זה.</p>
+                </content>
+              </point>
+              <point eId="point_2__point_ו">
+                <num>(ו)</num>
+                <content>
+                  <p>מנהל קרן רשאי לכלול בפסקה כלשהי הפניה למיקומו של פרט בדוח או למיקומן של הוראות דין בדוח או מחוצה לו.</p>
+                </content>
+              </point>
+              <point eId="point_2__point_ז">
+                <num>(ז)</num>
+                <content>
+                  <p>הדוח יהיה ערוך בצורה ברורה ונוחה לקריאה, כתוב בשפה פשוטה, בהירה ותמציתית ככל האפשר, ועמודיו ממוספרים, ויכול שיכלול בראשו את סמלו המסחרי של מנהל הקרן.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_3">
+            <heading>
+              <authorialNote placement="side">
+                <p>חתימה על הדוח</p>
+              </authorialNote>
+            </heading>
+            <num>3.</num>
+            <content>
+              <p>הדוח יישא תאריך, וייחתם ביד מנהל הקרן; בצד החתימה יצוינו שם החותם ותפקידו.</p>
+            </content>
+          </point>
+        </list>
+      </chapter>
+      <chapter eId="chp_ג">
+        <num>פרק ג׳:</num>
+        <title>
+          <content>
+            <p>תוכן הדוח</p>
+          </content>
+        </title>
+        <list>
+          <point eId="point_4">
+            <heading>
+              <authorialNote placement="side">
+                <p>פרטים שיש לכלול בדוח</p>
+              </authorialNote>
+            </heading>
+            <num>4.</num>
+            <content>
+              <p>הדוח יכלול את הפרטים המפורטים בתקנות אלה כסדרם.</p>
+            </content>
+          </point>
+          <point eId="point_5">
+            <heading>
+              <authorialNote placement="side">
+                <p>מנהל הקרן והנאמן</p>
+              </authorialNote>
+            </heading>
+            <num>5.</num>
+            <list>
+              <point eId="point_5__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>המילים ”מנהל הקרן“, ופרטי מנהל הקרן, לרבות שמו, כתובתו, ומענו לקבלת דברי דואר לרבות כתבי בי־דין, מספרי הטלפון, הפקסימילה וכתובת הדואר האלקטרוני שלו, שבאמצעותם יכול הציבור לפנות אליו.</p>
+                </content>
+              </point>
+              <point eId="point_5__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>לצד פרטי מנהל הקרן, תבוא המילה ”הנאמן“, ופרטי הנאמן, לרבות שמו, מספרו ברשם החברות, כתובתו, ומענו לקבלת דברי דואר לרבות כתבי בי־דין, מספרי הטלפון, הפקסימילה וכתובת הדואר האלקטרוני שלו, שבאמצעותם יכול הציבור לפנות אליו.</p>
+                </content>
+              </point>
+              <point eId="point_5__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>החל מנהל הקרן בניהולה של הקרן או שהחל הנאמן בכהונתו לאחר פרסום הדוח השנתי הקודם של הקרן, או שונה שמו של מנהל הקרן או הנאמן מאז פרסום הדוח הקודם של הקרן, יצוין הדבר בהערת שוליים, בציון שמו של מנהל הקרן הקודם או הנאמן הקודם, או בציון שם מנהל הקרן או הנאמן לפני ששונה, לפי העניין, ותאריך השינוי.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_6">
+            <heading>
+              <authorialNote placement="side">
+                <p>פרטים כלליים</p>
+              </authorialNote>
+            </heading>
+            <num>6.</num>
+            <list>
+              <point eId="point_6__point_א">
+                <num>(א)</num>
+                <list>
+                  <intro>
+                    <p>תאריך הדוח, מצד שמאל; בהערת שוליים – ההודעות האלה:</p>
+                  </intro>
+                  <point eId="point_6__point_א__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>”המידע המוצג בדוח זה נכון ליום“, בציון תאריך זה;</p>
+                    </content>
+                  </point>
+                  <point eId="point_6__point_א__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>”יש להתעדכן באופן שוטף בדוחות על אירועים הנוגעים לקרן, למנהל הקרן ולנאמן, וכן במידע נוסף, לרבות בדוחות הכספיים של הקרן, המתפרסמים <ref href="/akn/il/act/PrimaryOrSecondaryLegislation/1000-01-01/http_www_magna_isa_gov_il">באתר האינטרנט של רשות ניירות ערך שכתובתו www.magna.isa.gov.il</ref> (להלן – אתר ההפצה); כמו כן, רצוי לעקוב באופן שוטף אחר השינויים במחירי יחידות הקרן המבטאים את תשואתה של הקרן“.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_6__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>הכותרת דוח שנתי; בהערת שוליים יבוא ”יחידות הקרן מוצעות לציבור לפי תשקיף המתפרסם באתר ההפצה“ ובסופה התאריך שבו פורסם התשקיף האחרון ומספר האסמכתה של הדיווח על פרסומו.</p>
+                </content>
+              </point>
+              <point eId="point_6__point_ג">
+                <num>(ג)</num>
+                <content>
+                  <p>שם הקרן, המילים ”קרן נאמנות“, ובסוגריים המילים ”מספר בורסה“ ומספר הקרן בבורסה; שונה שם הקרן במהלך שנים עשר החודשים שקדמו למועד הדיווח, יצוין בהערת שוליים, שם הקרן טרם השינוי ותאריך השינוי; אם הקרן קרן חדשה שזהו הדוח השנתי הראשון שמגיש מנהל הקרן, לגביה, אחרי ”קרן נאמנות“ יבוא ”חדשה“ ובהערת שוליים תצוין התקופה שמיום הצעת יחידות הקרן לראשונה לציבור עד יום עריכת הפרטים.</p>
+                </content>
+              </point>
+              <point eId="point_6__point_ד">
+                <num>(ד)</num>
+                <content>
+                  <p>פרסם מנהל קרן חדש דוח – המילים ”מנהל קרן חדש“ ובהערת שוליים ההודעה כי ”מנהל קרן חדש הוא מנהל קרן שבמועד פרסום הדוח טרם ניהל קרן במשך שנה רציפה או חלפו למעלה משנתיים מיום שניהל קרן כלשהי“ והנסיבות שבשלהן מנהל הקרן הוא בבחינת מנהל קרן חדש.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_7">
+            <heading>
+              <authorialNote placement="side">
+                <p>המאפיינים העיקריים של הקרן</p>
+              </authorialNote>
+            </heading>
+            <num>7.</num>
+            <list>
+              <intro>
+                <p>תחת הכותרת ”מאפיינים עיקריים של הקרן“ יבואו הפרטים האלה:</p>
+              </intro>
+              <point eId="point_7__point_1">
+                <num>(1)</num>
+                <content>
+                  <p>המילים ”סוג הקרן“ וסוג הקרן, כפי שנקבע בהסכם הקרן;</p>
+                </content>
+              </point>
+              <point eId="point_7__point_2">
+                <num>(2)</num>
+                <content>
+                  <p>המילים ”סיווג הקרן בפרסום“ וסיווג הקרן;</p>
+                </content>
+              </point>
+              <point eId="point_7__point_3">
+                <num>(3)</num>
+                <content>
+                  <p>אם הקרן קרן מחקה – יצוין הדבר;</p>
+                </content>
+              </point>
+              <point eId="point_7__point_4">
+                <num>(4)</num>
+                <content>
+                  <p>אם הקרן קרן חשיפה הפוכה – יצוין הדבר;</p>
+                </content>
+              </point>
+              <point eId="point_7__point_5">
+                <num>(5)</num>
+                <content>
+                  <p>יצוין אם הקרן היא קרן מוגבלת בניירות ערך חוץ או קרן בלתי מוגבלת בניירות ערך חוץ או אם היא אגד ישראלי בלתי מוגבל או אגד ישראלי מוגבל;</p>
+                </content>
+              </point>
+              <point eId="point_7__point_6">
+                <num>(6)</num>
+                <content>
+                  <p>המילים ”מסלול המס“ והמילים ”חייבת“ או ”פטורה“, בקרן חייבת או בקרן פטורה, לפי העניין;</p>
+                </content>
+              </point>
+              <point eId="point_7__point_7">
+                <num>(7)</num>
+                <content>
+                  <p>אם הקרן קרן לתושבי חוץ בלבד – יצוין הדבר;</p>
+                </content>
+              </point>
+              <point eId="point_7__point_8">
+                <num>(8)</num>
+                <content>
+                  <p>אם הקרן קרן להשקעות חוץ (מטבע עיקרי) – יצוין הדבר, בציון המטבע העיקרי של הקרן;</p>
+                </content>
+              </point>
+              <point eId="point_7__point_9">
+                <num>(9)</num>
+                <content>
+                  <p>אם הקרן קרן להשקעות חוץ (פטור ממס לתושב חוץ) – יצוין הדבר;</p>
+                </content>
+              </point>
+              <point eId="point_7__point_10">
+                <num>(10)</num>
+                <content>
+                  <p>המילים ”סוג הקרן לצורך עמלת הפצה“ וסוג הקרן לצורך עמלת הפצה;</p>
+                </content>
+              </point>
+              <point eId="point_7__point_11">
+                <num>(11)</num>
+                <content>
+                  <p>המילים ”המטבע שבו נקובות יחידות הקרן“ והמטבע שבו נקובות יחידות הקרן והערך הנקוב שלהן;</p>
+                </content>
+              </point>
+              <point eId="point_7__point_12">
+                <num>(12)</num>
+                <content>
+                  <p>שיעור ההוספה שתשולם או שתנוכה; בהערת שוליים יצוין, האם מנהל הקרן נותן הנחות מהוספה או תשלומים המוצעים בקשר עם רכישה, פדיון, מכירה או החזקה של יחידות ואם אלה ניתנים – תצורף הפניה לפרטים נוספים בעניין זה בתשקיף;</p>
+                </content>
+              </point>
+              <point eId="point_7__point_13">
+                <num>(13)</num>
+                <content>
+                  <p>אם הקרן קרן סגורה יצוין האם יחידות הקרן ניתנות לפדיון אם לאו ומועדי הפדיון של יחידות הקרן; אם פדיון היחידות מותנה במתן הודעה מוקדמת של בעל יחידה – יצוין הדבר והמועד למתן ההודעה המוקדמת שעל בעל יחידה לתת לצורך פדיון יחידות הקרן;</p>
+                </content>
+              </point>
+              <point eId="point_7__point_14">
+                <num>(14)</num>
+                <content>
+                  <p>אם הקרן קרן סגורה יצוין טווח ההפרשים שבין שווי היחידה למחירה בבורסה, בכל ימי המסחר בתקופה בת שנים עשר חודשים שסיומה ביום עריכת הפרטים וההפרש הממוצע, מחושב לפי הנתונים בכל אחד מימי המסחר של הקרן בתקופה זו.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_8">
+            <heading>
+              <authorialNote placement="side">
+                <p>שכר מנהל הקרן</p>
+              </authorialNote>
+            </heading>
+            <num>8.</num>
+            <content>
+              <p>הכותרת ”שכר מנהל הקרן“ ושיעור השכר השנתי המשולם למנהל הקרן; באגד חוץ תבוא הודעה בזו הלשון: ”נוסף על השכר השנתי של מנהל הקרן הנפרע מנכסי האגד, נפרעים מנכסי הקרנות המוחזקות דמי ניהול למנהלי הקרנות האמורות“; באגד ישראלי – בהערת שוליים יבוא ”לפי הוראת <ref href="/akn/il/act/SecondaryLegislation/1994-11-10/100025287#point_12א">תקנה 12א(א) לתקנות הנכסים</ref>, מנהל אגד ישראלי אינו רשאי לגבות שכר בעד ניהול האגד מאחר ומנכסי הקרנות המוחזקות בו כבר נפרע השכר שנקבע בכל אחת מהן“.</p>
+            </content>
+          </point>
+          <point eId="point_9">
+            <heading>
+              <authorialNote placement="side">
+                <p>שכר הנאמן</p>
+              </authorialNote>
+            </heading>
+            <num>9.</num>
+            <content>
+              <p>הכותרת ”שכר הנאמן“ ושיעור השכר השנתי המשולם לנאמן.</p>
+            </content>
+          </point>
+          <point eId="point_10">
+            <heading>
+              <authorialNote placement="side">
+                <p>מנהל השקעות חיצוני</p>
+              </authorialNote>
+            </heading>
+            <num>10.</num>
+            <content>
+              <p>מנוהל תיק השקעות של קרן בידי מנהל השקעות חיצוני – הכותרת ”מנהל השקעות חיצוני לניהול תיק ההשקעות של הקרן“, שם מנהל ההשקעות החיצוני של הקרן וההודעה כי העסקת מנהל השקעות חיצוני על ידי מנהל הקרן לצורך ניהול תיק השקעות של קרן, אינה גורעת לפי החוק מאחריותו של מנהל הקרן והנאמן כלפי בעלי היחידות; הסתיימה התקשרות עם מנהל השקעות חיצוני בשנים עשר החודשים שקדמו למועד פרסום הדוח – בהערת שוליים, שמו ומועד סיום ההתקשרות עמו.</p>
+            </content>
+          </point>
+          <point eId="point_11">
+            <heading>
+              <authorialNote placement="side">
+                <p>הגבלת תקופת קיום הקרן</p>
+              </authorialNote>
+            </heading>
+            <num>11.</num>
+            <content>
+              <p>אם תקופת קיום הקרן מוגבלת – תחת הכותרת ”תקופת קיום הקרן“ יצוין הדבר, וכן תקופת קיום הקרן והודעה כי עם סיום התקופה תפורק הקרן.</p>
+            </content>
+          </point>
+          <point eId="point_12">
+            <heading>
+              <authorialNote placement="side">
+                <p>מטרת הקרן</p>
+              </authorialNote>
+            </heading>
+            <num>12.</num>
+            <content>
+              <p>הכותרת ”מטרת הקרן“ ותיאור תמציתי של המטרה שאליה שואף מנהל הקרן להגיע בניהול ההשקעות של הקרן, בהתחשב בנכס הייחוס שלה.</p>
+            </content>
+          </point>
+          <point eId="point_13">
+            <heading>
+              <authorialNote placement="side">
+                <p>מדיניות ההשקעות של הקרן</p>
+              </authorialNote>
+            </heading>
+            <num>13.</num>
+            <list>
+              <intro>
+                <p>הכותרת ”הדרך להשגת המטרה – מדיניות ההשקעות של הקרן“, ו”מדיניות ההשקעות של הקרן“, לרבות ציון עמדה לעניינים אלה:</p>
+              </intro>
+              <point eId="point_13__point_1">
+                <num>(1)</num>
+                <content>
+                  <p>הנכסים שמנהל הקרן מתחייב כי הקרן תהיה חשופה אליהם וכן נכסים שמנהל הקרן מתחייב שהקרן לא תהיה חשופה אליהם, והשיעורים המזעריים והמרביים, אם נקבעו;</p>
+                </content>
+              </point>
+              <point eId="point_13__point_2">
+                <num>(2)</num>
+                <content>
+                  <p>אם הקרן מוגבלת או בלתי מוגבלת בניירות ערך חוץ;</p>
+                </content>
+              </point>
+              <point eId="point_13__point_3">
+                <num>(3)</num>
+                <content>
+                  <p>הדרך שבה הקרן תנוהל – אם מנהל הקרן מתעתד לנהלה בדרך מיוחדת.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_14">
+            <heading>
+              <authorialNote placement="side">
+                <p>נכס הייחוס של הקרן</p>
+              </authorialNote>
+            </heading>
+            <num>14.</num>
+            <content>
+              <p>למעט בקרן גמישה, הכותרת ”נכס הייחוס של הקרן“ ו”נכס הייחוס של הקרן“; בהערת שוליים יבוא ”נכס הייחוס של הקרן הוא מדד או נכס, שלהערכת מנהל הקרן צפוי כי לשינויים בו או בערכו, בהתאמה, תהיה ההשפעה הגדולה ביותר על תשואתה של הקרן“.</p>
+            </content>
+          </point>
+          <point eId="point_15">
+            <heading>
+              <authorialNote placement="side">
+                <p>גורמי סיכון ייחודיים להשקעות הקרן ולאופן ניהולה</p>
+              </authorialNote>
+            </heading>
+            <num>15.</num>
+            <content>
+              <p>הכותרת ”גורמי סיכון ייחודיים להשקעות הקרן ולאופן ניהולה“ ו”גורמי הסיכון הייחודיים להשקעות הקרן“, כפי שעולים ממדיניות ההשקעות של הקרן, ממאפייני נכסיה והשווקים שבהם נסחרים הנכסים או מאופן ניהול השקעות הקרן; לעניין זה, ”סיכון“, למעט לעניין אופן ניהול השקעות הקרן – לגבי סיכון המאפיין את הנכס העולה מהכותרת הראשית שתחתה מסווגת הקרן; לא ניתן להסיק מהו הנכס העולה מהכותרת הראשית, יימדד הסיכון לעומת הסיכון המאפיין את הנכסים העולים מהכותרות המשניות המאופיינות באותה כותרת ראשית; לעניין זה, נכס העולה מכותרת ראשית או משנית – מדד או נכס, שלהערכת מנהל הקרן צפוי כי לשינויים בו או בערכו תהיה ההשפעה הגדולה ביותר על תשואתן של קרנות שעשויות להיות מסווגות תחת כותרת זו.</p>
+            </content>
+          </point>
+          <point eId="point_16">
+            <heading>
+              <authorialNote placement="side">
+                <p>סיום התקשרות עם מנהל השקעות חיצוני</p>
+              </authorialNote>
+            </heading>
+            <num>16.</num>
+            <content>
+              <p>הסתיימה בשנים עשר החודשים שקדמו למועד פרסום הדוח התקשרות עם מנהל השקעות חיצוני ותיק ההשקעות של הקרן אינו מנוהל עוד באמצעות מנהל השקעות חיצוני – תחת הכותרת ”סיום התקשרות עם מנהל השקעות חיצוני לניהול תיק ההשקעות של הקרן“, שמו של מנהל ההשקעות החיצוני והתקופה שבה ניהל את השקעות הקרן.</p>
+            </content>
+          </point>
+          <point eId="point_17">
+            <heading>
+              <authorialNote placement="side">
+                <p>נתוני החשיפה של הקרן</p>
+              </authorialNote>
+            </heading>
+            <num>17.</num>
+            <list>
+              <point eId="point_17__point_א">
+                <num>(א)</num>
+                <list>
+                  <intro>
+                    <p>למעט באגד – תחת הכותרת ”נתוני החשיפה של הקרן לנכסי בסיס שונים – לפי תקופות“ יפורטו הנתונים האלה, לכל אחת מהתקופות המפורטות בפסקה (1):</p>
+                  </intro>
+                  <point eId="point_17__point_א__point_1">
+                    <num>(1)</num>
+                    <list>
+                      <intro>
+                        <p>תיאור התקופות בכותרות הלוח, כמפורט להלן:</p>
+                      </intro>
+                      <point eId="point_17__point_א__point_1__point_א">
+                        <num>(א)</num>
+                        <content>
+                          <p>תקופה שתחילתה ביום הראשון בינואר בשנה שבה חל יום עריכת הפרטים או ביום תחילת הצעת יחידות הקרן לציבור, המאוחר מביניהם, וסיומה ביום עריכת הפרטים;</p>
+                        </content>
+                      </point>
+                      <point eId="point_17__point_א__point_1__point_ב">
+                        <num>(ב)</num>
+                        <content>
+                          <p>תקופה, שתחילתה ביום הראשון בינואר של השנה שקדמה לשנה שבה חל יום עריכת הפרטים או ביום תחילת הצעת יחידות הקרן לציבור, המאוחר מביניהם, וסיומה בתום אותה שנה – אם היתה כזאת;</p>
+                        </content>
+                      </point>
+                    </list>
+                  </point>
+                  <point eId="point_17__point_א__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>בכותרת הטורים – הכותרות ”מניות“, ”מטבע חוץ“ ו”איגרות חוב“ ובכותרות משנה, הכותרות ”טווח חשיפה“ ו”ממוצע חשיפה“;</p>
+                    </content>
+                  </point>
+                  <point eId="point_17__point_א__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>טווח החשיפה ושיעור החשיפה הממוצע של הקרן למניות, למטבע חוץ ולאיגרות חוב, מוצגים באחוזים מהשווי הנקי של נכסי הקרן;</p>
+                    </content>
+                  </point>
+                  <point eId="point_17__point_א__point_4">
+                    <num>(4)</num>
+                    <content>
+                      <p>הנכסים העיקריים שאליהם היתה חשופה הקרן, בחלוקה למניות, מטבע חוץ ואיגרות חוב, ושיעור החשיפה הממוצע של הקרן לנכסים אלה, מוצגים באחוזים מהשווי הנקי הממוצע של נכסי הקרן; לעניין זה, ”נכס עיקרי“ – נכס ששיעור החשיפה הממוצע של הקרן אליו עלה על עשרים אחוזים; הנכסים יוצגו לפי שיעור החשיפה הממוצע, מהגבוה לנמוך, ואולם נכס שהוא סוג מסוים של נכס אחר יובא תחת הנכס האחר, בציון העובדה כי נכס זה נכלל בסוג הנכס האחר.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_17__point_ב">
+                <num>(ב)</num>
+                <list>
+                  <intro>
+                    <p>בהערות השוליים תחת הלוח יבוא:</p>
+                  </intro>
+                  <point eId="point_17__point_ב__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>ניתנו הנתונים הנדרשים בתקנה זו בשל תקופה שתחילתה ביום הראשון להצעת יחידות הקרן לציבור – התאריך שבו הוצעו יחידות הקרן לראשונה;</p>
+                    </content>
+                  </point>
+                  <point eId="point_17__point_ב__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>”טווח החשיפה וממוצע החשיפה הם לפי נתוני החשיפה המחושבים ליום המסחר האחרון בכל שבוע“;</p>
+                    </content>
+                  </point>
+                  <point eId="point_17__point_ב__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>”מניות – לרבות סחורות (commodities) ואיגרות חוב היוצרות חשיפה למניות, וכן נכסים נוספים הנכללים בהגדרת ”מניות“ <ref href="/akn/il/act/SecondaryLegislation/2007-11-28/100033748">בתקנות השקעות משותפות בנאמנות (סיווג קרנות לצורך פרסום), התשס"ח–2007</ref>“;</p>
+                    </content>
+                  </point>
+                  <point eId="point_17__point_ב__point_4">
+                    <num>(4)</num>
+                    <content>
+                      <p>”איגרות חוב – למעט איגרות חוב היוצרות חשיפה למניות“;</p>
+                    </content>
+                  </point>
+                  <point eId="point_17__point_ב__point_5">
+                    <num>(5)</num>
+                    <content>
+                      <p>”נכסים שהחשיפה הממוצעת אליהם היתה בשיעור של 20% ומעלה“.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_17__point_ג">
+                <num>(ג)</num>
+                <list>
+                  <intro>
+                    <p>למעט באגד – אם עלה שיעור החשיפה הממוצע של הקרן לאיגרות חוב על חמישים אחוזים, יפורטו בלוח, תחת הכותרת ”מאפייני תיק אגרות החוב של הקרן – לפי תקופות“, הנתונים האלה לכל אחת מהתקופות המפורטות בתקנת משנה (א)(1):</p>
+                  </intro>
+                  <point eId="point_17__point_ג__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>בכותרות הלוח – התקופות המפורטות בתקנת משנה (א)(1);</p>
+                    </content>
+                  </point>
+                  <point eId="point_17__point_ג__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>בכותרות הטורים – הכותרות ”אפיק השקעה“, ”סיכון מנפיק“ ו”טווח השקעה“, ובכותרות משנה – תחת הכותרת ”אפיק השקעה“ הכותרות ”בסיס הצמדה“ ו”ממוצע חשיפה“, תחת הכותרת ”סיכון מנפיק“ הכותרות ”דירוג“ ו”ממוצע חשיפה“ ותחת הכותרת ”טווח השקעה“ הכותרות ”מח"מ (משך חיים ממוצע)“ ו”ממוצע חשיפה“;</p>
+                    </content>
+                  </point>
+                  <point eId="point_17__point_ג__point_3">
+                    <num>(3)</num>
+                    <list>
+                      <intro>
+                        <p>שיעור החשיפה הממוצע של הקרן לאיגרות חוב בעלות כל אחד מהמאפיינים האלה:</p>
+                      </intro>
+                      <point eId="point_17__point_ג__point_3__point_א">
+                        <num>(א)</num>
+                        <content>
+                          <p>בחלוקה לפי בסיס הצמדה – איגרות חוב שאינן צמודות, איגרות חוב צמודות למדד המחירים לצרכן ואיגרות חוב צמודות למטבע חוץ או נסחרות במטבע חוץ;</p>
+                        </content>
+                      </point>
+                      <point eId="point_17__point_ג__point_3__point_ב">
+                        <num>(ב)</num>
+                        <content>
+                          <p>בחלוקה לפי דירוג – איגרות חוב המדורגות בדירוג חוב גבוה לרבות איגרות חוב שהנפיקה המדינה, איגרות חוב המדורגות בדירוג חוב בינוני, איגרות חוב המדורגות בדירוג חוב נמוך ואיגרות חוב שאינן מדורגות, והכול לפי טבלת הדרגות המופיעה <ref href="#appendix">בתוספת</ref>; לעניין זה, ”דירוג“ – דירוג של חברה מדרגת מהחברות המפורטות <ref href="#appendix">בתוספת</ref>, באחת מן הדרגות <ref href="#appendix">שבתוספת</ref>;</p>
+                        </content>
+                      </point>
+                      <point eId="point_17__point_ג__point_3__point_ג">
+                        <num>(ג)</num>
+                        <content>
+                          <p>בחלוקה לפי משך חיים ממוצע, המחושב בדרך המקובלת למדידתו – איגרות חוב שמשך החיים הממוצע שלהן קצר משנתיים, איגרות חוב שמשך החיים הממוצע שלהן בין שנתיים לארבע שנים, איגרות חוב שמשך החיים הממוצע שלהן בין ארבע שנים לעשר שנים ואיגרות חוב שמשך החיים הממוצע שלהן ארוך מעשר שנים;</p>
+                        </content>
+                      </point>
+                    </list>
+                  </point>
+                  <point eId="point_17__point_ג__point_4">
+                    <num>(4)</num>
+                    <content>
+                      <p>משך החיים הממוצע של כלל איגרות החוב שהוחזקו בקרן, המחושב בדרך המקובלת למדידתו;</p>
+                    </content>
+                  </point>
+                  <point eId="point_17__point_ג__point_5">
+                    <num>(5)</num>
+                    <list>
+                      <intro>
+                        <p>תחת הלוח, בהערות השוליים יבוא:</p>
+                      </intro>
+                      <point eId="point_17__point_ג__point_5__point_א">
+                        <num>(א)</num>
+                        <content>
+                          <p>ניתנו הנתונים הנדרשים בתקנה זו לתקופה שתחילתה ביום הראשון להצעת יחידות הקרן לציבור – התאריך שבו הוצעו יחידות הקרן לראשונה;</p>
+                        </content>
+                      </point>
+                      <point eId="point_17__point_ג__point_5__point_ב">
+                        <num>(ב)</num>
+                        <content>
+                          <p>”הנתונים המובאים בטבלה זו אינם כוללים נתונים על איגרות חוב היוצרות חשיפה למניות“;</p>
+                        </content>
+                      </point>
+                      <point eId="point_17__point_ג__point_5__point_ג">
+                        <num>(ג)</num>
+                        <content>
+                          <p>”ככל שדירוג איגרת חוב נמוך יותר כך סיכון המנפיק שלה גבוה יותר; העדר דירוג איגרת חוב שלא הנפיקה המדינה, עלול להצביע על סיכון מנפיק גבוה יותר מסיכון מנפיק של איגרת חוב מדורגת; כמו כן, בדירוג הגבוה נכללות גם איגרות חוב שהונפקו על ידי המדינה“;</p>
+                        </content>
+                      </point>
+                      <point eId="point_17__point_ג__point_5__point_ד">
+                        <num>(ד)</num>
+                        <content>
+                          <p>”מח"מ (משך חיים ממוצע) של איגרת חוב משקף את משך חיי האיגרת; ככל שהמח"מ ארוך יותר, כך רגישות מחיר האיגרת לשינויים בשערי הריבית גבוהה יותר ולפיכך גם הסיכון הכרוך בהשקעה בה עולה“.</p>
+                        </content>
+                      </point>
+                    </list>
+                  </point>
+                </list>
+              </point>
+            </list>
+          </point>
+          <point eId="point_18">
+            <heading>
+              <authorialNote placement="side">
+                <p>התשואה וסטיית התקן</p>
+              </authorialNote>
+            </heading>
+            <num>18.</num>
+            <list>
+              <point eId="point_18__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>בתקנה זו, ”נכס ייחוס של קרן“ – מדד, שלהערכת מנהל הקרן לשינויים שבו היתה ההשפעה הגדולה ביותר על תשואתה של הקרן או נכס שלהערכת מנהל הקרן לשינויים בערכו היתה ההשפעה הגדולה ביותר על תשואתה של הקרן.</p>
+                </content>
+              </point>
+              <point eId="point_18__point_ב">
+                <num>(ב)</num>
+                <list>
+                  <intro>
+                    <p>בלוח שכותרתו ”תשואות, סטיות תקן ונתוני השוואה – לפי תקופות“ יפורטו הנתונים האלה, לכל אחת מהתקופות המפורטות בפסקה (1):</p>
+                  </intro>
+                  <point eId="point_18__point_ב__point_1">
+                    <num>(1)</num>
+                    <list>
+                      <intro>
+                        <p>תיאור התקופות, בכותרות הטורים, כמפורט להלן:</p>
+                      </intro>
+                      <point eId="point_18__point_ב__point_1__point_א">
+                        <num>(א)</num>
+                        <content>
+                          <p>תקופה שתחילתה ביום הראשון בינואר בשנה שבה חל יום עריכת הפרטים או ביום תחילת הצעת יחידות הקרן לציבור, המאוחר מביניהם, וסיומה ביום עריכת הפרטים;</p>
+                        </content>
+                      </point>
+                      <point eId="point_18__point_ב__point_1__point_ב">
+                        <num>(ב)</num>
+                        <content>
+                          <p>כל אחת משלוש השנים האחרונות, שקדמו לשנה שבה חל יום עריכת הפרטים, שתחילתן ביום הראשון בינואר של כל שנה כאמור או ביום תחילת הצעת היחידות הקרן לציבור, המאוחר מביניהם, וסיומה בתום כל שנה כאמור;</p>
+                        </content>
+                      </point>
+                    </list>
+                  </point>
+                  <point eId="point_18__point_ב__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>הכותרות ”תשואה“ ו”סטיית תקן“, בכותרות משנה;</p>
+                    </content>
+                  </point>
+                  <point eId="point_18__point_ב__point_3">
+                    <num>(3)</num>
+                    <list>
+                      <point eId="point_18__point_ב__point_3__point_none">
+                        <content>
+                          <p>התשואה השקלית, שתחושב כאמור <ref href="/akn/il/act/SecondaryLegislation/1995-02-16/100025564#point_4">בתקנה 4 לתקנות חישוב תשואה</ref>;</p>
+                        </content>
+                      </point>
+                      <point eId="point_18__point_ב__point_3__point_none">
+                        <content>
+                          <p>בקרן סגורה שאינה קרן סל – גם התשואה השקלית לפי מחירי יחידות הקרן כפי שנקבעו בבורסה, שתחושב כאמור בשינויים המחויבים; אם מחיר היחידה נקוב במטבע חוץ, יכול שתוצג גם התשואה במטבע חוץ;</p>
+                        </content>
+                      </point>
+                    </list>
+                  </point>
+                  <point eId="point_18__point_ב__point_4">
+                    <num>(4)</num>
+                    <list>
+                      <intro>
+                        <p>סטיית תקן של תשואות הקרן כמפורט בפסקה (3), שתחושב לפי הנוסחה:<br space="preserve"></br><math> \sqrt{\frac{\sum_{i=1}^n \left( x_i - \bar x \right)^2}{n}} \times \sqrt{d}</math></p>
+                      </intro>
+                      <point eId="point_18__point_ב__point_4__point_none">
+                        <list>
+                          <intro>
+                            <p>לעניין זה –</p>
+                          </intro>
+                          <point eId="point_18__point_ב__point_4__point_none__point_i">
+                            <content>
+                              <p>
+                                <def />
+                                <math>i</math> – יום מסחר;</p>
+                            </content>
+                          </point>
+                          <point eId="point_18__point_ב__point_4__point_none__point_x_i">
+                            <content>
+                              <p>
+                                <def />
+                                <math>x_i</math> – תשואת הקרן ליום מסחר <math>i</math> בשנה כלשהי, המחושבת כתשואה השקלית של הקרן, ובקרן שמחיר יחידותיה נקובות במטבע חוץ – המחושבת כתשואה במטבע חוץ, לתקופה שבין יום המסחר <math>i</math> לבין יום המסחר הקודם <math>i-1</math>;</p>
+                            </content>
+                          </point>
+                        </list>
+                      </point>
+                      <point eId="point_18__point_ב__point_4__point_\bar_x">
+                        <content>
+                          <p>
+                            <def />
+                            <math>\bar x</math> – ממוצע התשואות היומיות בתקופה שלגביה מחושבת סטיית התקן;</p>
+                        </content>
+                      </point>
+                      <point eId="point_18__point_ב__point_4__point_n">
+                        <content>
+                          <p>
+                            <def />
+                            <math>n</math> – מספר ימי המסחר בתקופה שלגביה מחושבת סטיית התקן;</p>
+                        </content>
+                      </point>
+                      <point eId="point_18__point_ב__point_4__point_d">
+                        <content>
+                          <p>
+                            <def />
+                            <math>d</math> – מספר ימי המסחר בשנה.</p>
+                        </content>
+                      </point>
+                    </list>
+                  </point>
+                  <point eId="point_18__point_ב__point_5">
+                    <num>(5)</num>
+                    <list>
+                      <intro>
+                        <p>לגבי נכס הייחוס של הקרן –</p>
+                      </intro>
+                      <point eId="point_18__point_ב__point_5__point_א">
+                        <num>(א)</num>
+                        <content>
+                          <p>נכס הייחוס של הקרן, שיעור החשיפה הממוצע של הקרן לנכס הייחוס מוצג באחוזים בהערת שוליים, שיעור השינוי במחירי נכס הייחוס, מחושב כאמור בפסקת משנה (ה), וסטיית התקן של שיעורי השינוי במחירי נכס הייחוס, מחושבת כאמור בפסקת משנה (ו);</p>
+                        </content>
+                      </point>
+                      <point eId="point_18__point_ב__point_5__point_ב">
+                        <num>(ב)</num>
+                        <list>
+                          <intro>
+                            <p>על אף האמור בפסקת משנה (א), השתנה נכס הייחוס של הקרן במהלך אחת מן התקופות המנויות בתקנת משנה (ב)(1) – תבוא כותרת ”נכס ייחוס מאוחד“, בסוגריים יפורטו נכסי הייחוס של הקרן המרכיבים את נכס הייחוס המאוחד ובהערות שוליים:</p>
+                          </intro>
+                          <point eId="point_18__point_ב__point_5__point_ב__point_1">
+                            <num>(1)</num>
+                            <content>
+                              <p>ההודעה כי מאחר שבמהלך התקופה השתנה נכס הייחוס של הקרן, הנתון על שיעור השינוי במחירי נכס הייחוס של הקרן הוא נתון המאחד את שיעור השינוי במחירי נכס הייחוס בתקופה שלפני השינוי ושיעורי השינוי במחירי נכס הייחוס בתקופה שלאחר השינוי, והנתון על סטיית התקן של שיעורי השינוי במחירי נכס הייחוס של הקרן הוא נתון המאחד את סטיית התקן של שיעורי השינוי במחירי נכס הייחוס בתקופה שלפני השינוי וסטיית התקן של שיעורי השינוי במחירי נכס הייחוס בתקופה שלאחר השינוי;</p>
+                            </content>
+                          </point>
+                          <point eId="point_18__point_ב__point_5__point_ב__point_2">
+                            <num>(2)</num>
+                            <content>
+                              <p>יפורטו התקופה שבה היה כל אחד מנכסי הייחוס המרכיבים את נכס הייחוס המאוחד נכס הייחוס של הקרן, שיעור החשיפה הממוצע של הקרן לנכס הייחוס המאוחד, שיעור החשיפה הממוצע של הקרן לכל אחד מנכסי הייחוס המרכיבים את נכס הייחוס המאוחד, מוצגים באחוזים, ושיעור השינוי במחיריו של כל אחד בתקופה זו;</p>
+                            </content>
+                          </point>
+                          <point eId="point_18__point_ב__point_5__point_ב__point_3">
+                            <num>(3)</num>
+                            <content>
+                              <p>בפסקת משנה זו, ”נכס ייחוס מאוחד“ – נכסי הייחוס של הקרן בתקופה כלשהי;</p>
+                            </content>
+                          </point>
+                        </list>
+                      </point>
+                      <point eId="point_18__point_ב__point_5__point_ג">
+                        <num>(ג)</num>
+                        <list>
+                          <intro>
+                            <p>על אף האמור בפסקת משנה (א), אם לקרן יותר מנכס ייחוס אחד באותה עת במהלך אחת מן התקופות המנויות בתקנת משנה (ב)(1) – תבוא הכותרת ”נכס ייחוס משוקלל“, בסוגריים יפורטו נכסי הייחוס של הקרן המרכיבים את נכס הייחוס המשוקלל, ובהערות שוליים:</p>
+                          </intro>
+                          <point eId="point_18__point_ב__point_5__point_ג__point_1">
+                            <num>(1)</num>
+                            <content>
+                              <p>הודעה כי מאחר שלקרן יותר מנכס ייחוס אחד באותה עת, הנתון על שיעור השינוי במחירי נכס הייחוס של הקרן הוא נתון משוקלל, לתקופה המצוינת, את שיעור השינוי במחירי נכסי הייחוס שהיו באותה התקופה, והנתון על סטיית התקן של שיעורי השינוי במחירי נכס הייחוס של הקרן הוא נתון המשקלל, לתקופה המצוינת, את סטיית התקן של שיעורי השינוי במחירי נכסי הייחוס שהיו באותה התקופה;</p>
+                            </content>
+                          </point>
+                          <point eId="point_18__point_ב__point_5__point_ג__point_2">
+                            <num>(2)</num>
+                            <content>
+                              <p>יפורטו התקופה שבה היו לקרן יותר מנכס ייחוס אחד באותה עת, שיעור החשיפה הממוצע של הקרן לנכס הייחוס המשוקלל, שיעור החשיפה הממוצע של הקרן לכל אחד מנכסי הייחוס המרכיבים את נכס הייחוס המשוקלל, מוצגים באחוזים, ושיעור השינוי במחיריו של כל אחד מאלה בתקופה זו;</p>
+                            </content>
+                          </point>
+                          <point eId="point_18__point_ב__point_5__point_ג__point_3">
+                            <num>(3)</num>
+                            <content>
+                              <p>לעניין פסקת משנה זו, ”נכס ייחוס משוקלל“ – נכסי הייחוס שהיו לקרן באותה עת בתקופה מסוימת;</p>
+                            </content>
+                          </point>
+                        </list>
+                      </point>
+                      <point eId="point_18__point_ב__point_5__point_ד">
+                        <num>(ד)</num>
+                        <content>
+                          <p>נכסי הייחוס יופיעו לפי סדר התקופות שבהן היו נכסי הייחוס של הקרן, מהמאוחר למוקדם, ובנכס ייחוס משוקלל – לפי שיעורי החשיפה לכל אחד מנכסי הייחוס המרכיבים את נכס הייחוס המשוקלל, מהגבוה לנמוך;</p>
+                        </content>
+                      </point>
+                      <point eId="point_18__point_ב__point_5__point_ה">
+                        <num>(ה)</num>
+                        <list>
+                          <intro>
+                            <p>שיעור השינוי במחיר נכס הייחוס של הקרן יחושב לפי הנוסחה:<br space="preserve"></br><math> \left( \frac{I_2}{I_1} - 1 \right) \times 100</math></p>
+                          </intro>
+                          <point eId="point_18__point_ב__point_5__point_ה__point_none">
+                            <list>
+                              <intro>
+                                <p>לעניין זה –</p>
+                              </intro>
+                              <point eId="point_18__point_ב__point_5__point_ה__point_none__point_I_2">
+                                <content>
+                                  <p>
+                                    <def />
+                                    <math>I_2</math> – מחיר נכס הייחוס ליום המסחר האחרון של התקופה שלגביה מחושב שיעור השינוי;</p>
+                                </content>
+                              </point>
+                              <point eId="point_18__point_ב__point_5__point_ה__point_none__point_I_1">
+                                <content>
+                                  <p>
+                                    <def />
+                                    <math>I_1</math> – מחיר נכס הייחוס ליום המסחר האחרון שלפני תחילת התקופה שלגביה מחושב שיעור השינוי;</p>
+                                </content>
+                              </point>
+                            </list>
+                          </point>
+                        </list>
+                      </point>
+                      <point eId="point_18__point_ב__point_5__point_ו">
+                        <num>(ו)</num>
+                        <content>
+                          <p>סטיית התקן של שיעורי השינוי במחיר נכס הייחוס של הקרן תחושב לפי הנוסחה בפסקה (4), בשינויים המחויבים;</p>
+                        </content>
+                      </point>
+                      <point eId="point_18__point_ב__point_5__point_ז">
+                        <num>(ז)</num>
+                        <list>
+                          <intro>
+                            <p>על אף האמור בפסקת משנה (א), השתנה נכס הייחוס של הקרן במהלך אחת מן התקופות המנויות בתקנת משנה (ב)(1) – הנתונים האלה:</p>
+                          </intro>
+                          <point eId="point_18__point_ב__point_5__point_ז__point_1">
+                            <num>(1)</num>
+                            <list>
+                              <intro>
+                                <p>נתון המבטא איחוד של שיעור השינוי במחיר נכס הייחוס בתקופה שלפני השינוי ושיעור השינוי במחיר נכס הייחוס בתקופה שלאחר השינוי; שיחושב לפי הנוסחה:<br space="preserve"></br><math>\left[ \left( 1 + \frac{R_1}{100} \right) \times \left( 1 + \frac{R_2}{100} \right) - 1 \right] \times 100</math></p>
+                              </intro>
+                              <point eId="point_18__point_ב__point_5__point_ז__point_1__point_none">
+                                <list>
+                                  <intro>
+                                    <p>לעניין זה –</p>
+                                  </intro>
+                                  <point eId="point_18__point_ב__point_5__point_ז__point_1__point_none__point_R_1">
+                                    <content>
+                                      <p>
+                                        <def />
+                                        <math>R_1</math> – שיעור השינוי במחיר נכס הייחוס של הקרן בתקופה שלפני השינוי;</p>
+                                    </content>
+                                  </point>
+                                </list>
+                              </point>
+                              <wrapup eId="point_18__point_ב__point_5__point_ז__point_1__wrapup_none">
+                                <content>
+                                  <p>לעניין זה, שיעור השינוי במחיר נכס הייחוס – מחושב לפי הנוסחה בפסקת משנה (ה);</p>
+                                </content>
+                              </wrapup>
+                            </list>
+                          </point>
+                          <point eId="point_18__point_ב__point_5__point_ז__point_none">
+                            <content>
+                              <p>חל יותר משינוי אחד בנכס הייחוס של הקרן, יחושב הנתון המבטא איחוד של שיעורי השינוי במחיר נכס הייחוס לפי הנוסחה שבפסקה זו, בשינויים המחויבים; היה יותר מנכס ייחוס אחד באותה העת, יהיה שיעור השינוי במחיר נכס הייחוס נתון המבטא שקלול של שיעורי השינוי במחיר נכסי הייחוס של הקרן באותה העת בתקופה מסוימת, המחושב לפי פסקת משנה (ח)(1);</p>
+                            </content>
+                          </point>
+                          <point eId="point_18__point_ב__point_5__point_ז__point_2">
+                            <num>(2)</num>
+                            <list>
+                              <intro>
+                                <p>סטיית התקן של איחוד שיעורי השינוי במחיר נכס הייחוס של הקרן בתקופות שלפני השינוי ואחריו, שתחושב לפי הנוסחה:<br space="preserve"></br><math> \sqrt{\frac{\sum_{i=1}^m \left( x_i - \bar x \right)^2 + \sum_{i=m+1}^n \left( x_i - \bar x \right)^2}{n}} \times \sqrt{d}</math></p>
+                              </intro>
+                              <point eId="point_18__point_ב__point_5__point_ז__point_2__point_none">
+                                <list>
+                                  <intro>
+                                    <p>לעניין זה –</p>
+                                  </intro>
+                                  <point eId="point_18__point_ב__point_5__point_ז__point_2__point_none__point_i">
+                                    <content>
+                                      <p>
+                                        <def />
+                                        <math>i</math> – יום המסחר;</p>
+                                    </content>
+                                  </point>
+                                </list>
+                              </point>
+                              <point eId="point_18__point_ב__point_5__point_ז__point_2__point_\bar_x">
+                                <content>
+                                  <p>
+                                    <def />
+                                    <math>\bar x</math> – ממוצע שיעורי השינוי במחירי נכס הייחוס היומיים, בתקופה שלגביה מחושבת סטיית התקן;</p>
+                                </content>
+                              </point>
+                              <point eId="point_18__point_ב__point_5__point_ז__point_2__point_m">
+                                <content>
+                                  <p>
+                                    <def />
+                                    <math>m</math> – מספר ימי המסחר עד לשינוי;</p>
+                                </content>
+                              </point>
+                              <point eId="point_18__point_ב__point_5__point_ז__point_2__point_n">
+                                <content>
+                                  <p>
+                                    <def />
+                                    <math>n</math> – מספר ימי המסחר בתקופה שלגביה מחושבת סטיית התקן;</p>
+                                </content>
+                              </point>
+                              <point eId="point_18__point_ב__point_5__point_ז__point_2__point_d">
+                                <content>
+                                  <p>
+                                    <def />
+                                    <math>d</math> – מספר ימי המסחר בשנה;</p>
+                                </content>
+                              </point>
+                              <wrapup eId="point_18__point_ב__point_5__point_ז__point_2__wrapup_none">
+                                <content>
+                                  <p>חל יותר משינוי אחד בנכס הייחוס של הקרן, תחושב סטיית התקן של איחוד שיעורי השינוי במחיר נכס הייחוס בתקופות שלפני השינוי ואחריו, לפי הנוסחה שבפסקה זו, בשינויים המחויבים; היה יותר מנכס ייחוס אחד באותה העת, יהיה שיעור השינוי במחיר נכס הייחוס – נתון המבטא שקלול של שיעורי השינוי במחיר נכסי הייחוס של הקרן באותה העת בתקופה כלשהי, המחושב לפי פסקת משנה (ח)(1);</p>
+                                </content>
+                              </wrapup>
+                            </list>
+                          </point>
+                        </list>
+                      </point>
+                      <point eId="point_18__point_ב__point_5__point_ח">
+                        <num>(ח)</num>
+                        <list>
+                          <intro>
+                            <p>על אף האמור בפסקת משנה (א), היה לקרן יותר מנכס ייחוס אחד באותה עת, באחת מן התקופות המנויות בתקנת משנה (ב)(1) – הנתונים האלה:</p>
+                          </intro>
+                          <point eId="point_18__point_ב__point_5__point_ח__point_1">
+                            <num>(1)</num>
+                            <list>
+                              <intro>
+                                <p>נתון המבטא שקלול של שיעורי השינוי במחירי נכסי הייחוס של הקרן בתקופה כלשהי, שיחושב לפי הנוסחה:<br space="preserve"></br><math> \frac{E_1}{E_1+E_2} \times F_1 + \frac{E_2}{E_1+E_2} \times F_2</math></p>
+                              </intro>
+                              <point eId="point_18__point_ב__point_5__point_ח__point_1__point_none">
+                                <list>
+                                  <intro>
+                                    <p>לעניין זה –</p>
+                                  </intro>
+                                  <point eId="point_18__point_ב__point_5__point_ח__point_1__point_none__point_E_1">
+                                    <content>
+                                      <p>
+                                        <def />
+                                        <math>E_1</math> – שיעור החשיפה לנכס ייחוס 1 של הקרן, שהוא אחד המרכיבים של נכס הייחוס המשוקלל;</p>
+                                    </content>
+                                  </point>
+                                </list>
+                              </point>
+                              <point eId="point_18__point_ב__point_5__point_ח__point_1__point_F_1">
+                                <content>
+                                  <p>
+                                    <def />
+                                    <math>F_1</math> – שיעור השינוי במחיר נכס ייחוס 1 של הקרן, שהוא אחד המרכיבים של נכס הייחוס המשוקלל;</p>
+                                </content>
+                              </point>
+                              <point eId="point_18__point_ב__point_5__point_ח__point_1__point_F_2">
+                                <content>
+                                  <p>
+                                    <def />
+                                    <math>F_2</math> – שיעור השינוי במחיר נכס ייחוס 2 של הקרן, שהוא אחד המרכיבים של נכס הייחוס המשוקלל;</p>
+                                </content>
+                              </point>
+                              <wrapup eId="point_18__point_ב__point_5__point_ח__point_1__wrapup_none">
+                                <content>
+                                  <p>לעניין זה, שיעור השינוי במחיר נכס הייחוס – מחושב לפי הנוסחה בפסקת משנה (ה);</p>
+                                </content>
+                              </wrapup>
+                              <wrapup eId="point_18__point_ב__point_5__point_ח__point_1__wrapup_none">
+                                <content>
+                                  <p>היו לקרן יותר משני נכסי ייחוס באותה עת בתקופה מסוימת, יחושב הנתון המבטא שקלול של שיעור השינוי במחיר נכסי הייחוס של הקרן לפי הנוסחה שבפסקת משנה זו, בשינויים המחויבים;</p>
+                                </content>
+                              </wrapup>
+                            </list>
+                          </point>
+                          <point eId="point_18__point_ב__point_5__point_ח__point_2">
+                            <num>(2)</num>
+                            <content>
+                              <p>סטיית התקן של שקלול שיעורי השינוי במחירי נכסי הייחוס של הקרן בתקופה מסוימת, שתחושב לפי הנוסחה שבפסקה (4), בשינויים המחויבים; היו לקרן יותר משני נכסי ייחוס באותה עת בתקופה מסוימת, תחושב סטיית התקן של שקלול שיעורי השינוי במחירי נכסי הייחוס של הקרן בתקופה מסוימת, לפי הנוסחה שבפסקה (4), בשינויים המחויבים;</p>
+                            </content>
+                          </point>
+                        </list>
+                      </point>
+                    </list>
+                  </point>
+                  <point eId="point_18__point_ב__point_6">
+                    <num>(6)</num>
+                    <content>
+                      <p>שיעורי השינוי במדדי השוואה הנוגעים לעניין זה והחשובים למשקיע סביר השוקל רכישת יחידות הקרן, ובקרן סגורה – גם קנייתן בבורסה, מחושבים לפי הנוסחה שבפסקה (7), וסטיית התקן של מדדים אלה, שתחושב לפי הנוסחה שבפסקה (4), בשינויים המחויבים; בהערת שוליים שיעור החשיפה הממוצע של הקרן לכל אחד ממדדי ההשוואה, מוצג באחוזים;</p>
+                    </content>
+                  </point>
+                  <point eId="point_18__point_ב__point_7">
+                    <num>(7)</num>
+                    <list>
+                      <intro>
+                        <p>שיעור השינוי במדד ת"א 100, שיחושב לפי הנוסחה:<br space="preserve"></br><math> \left( \frac{P_2}{P_1} - 1 \right) \times 100</math></p>
+                      </intro>
+                      <point eId="point_18__point_ב__point_7__point_none">
+                        <list>
+                          <intro>
+                            <p>לעניין זה –</p>
+                          </intro>
+                          <point eId="point_18__point_ב__point_7__point_none__point_P_2">
+                            <content>
+                              <p>
+                                <def />
+                                <math>P_2</math> – המדד שהתפרסם ליום המסחר האחרון של התקופה שלגביה מחושב השינוי;</p>
+                            </content>
+                          </point>
+                          <point eId="point_18__point_ב__point_7__point_none__point_P_1">
+                            <content>
+                              <p>
+                                <def />
+                                <math>P_1</math> – המדד שהתפרסם ליום המסחר האחרון שלפני תחילת התקופה שלגביה מחושב השינוי;</p>
+                            </content>
+                          </point>
+                        </list>
+                      </point>
+                      <wrapup eId="point_18__point_ב__point_7__wrapup_none">
+                        <content>
+                          <p>וסטיית התקן של מדד ת"א 100, שתחושב לפי הנוסחה שבפסקה (4), בשינויים המחויבים;</p>
+                        </content>
+                      </wrapup>
+                    </list>
+                  </point>
+                  <point eId="point_18__point_ב__point_8">
+                    <num>(8)</num>
+                    <content>
+                      <p>שיעור השינוי במדד המק"מ שיחושב לפי הנוסחה שבפסקה (7), וסטיית התקן של מדד המק"מ, שתחושב לפי הנוסחה בפסקה (4), בשינויים המחויבים;</p>
+                    </content>
+                  </point>
+                  <point eId="point_18__point_ב__point_9">
+                    <num>(9)</num>
+                    <list>
+                      <intro>
+                        <p>שיעור השינוי במדד במחירים לצרכן, שיחושב לפי הנוסחה שבפסקה (7);</p>
+                      </intro>
+                      <point eId="point_18__point_ב__point_9__point_none">
+                        <list>
+                          <intro>
+                            <p>לעניין זה –</p>
+                          </intro>
+                          <point eId="point_18__point_ב__point_9__point_none__point_P_2">
+                            <content>
+                              <p>
+                                <def />
+                                <math>P_2</math> – המדד שהתפרסם לחודש האחרון של התקופה שלגביה מחושב השינוי;</p>
+                            </content>
+                          </point>
+                          <point eId="point_18__point_ב__point_9__point_none__point_P_1">
+                            <content>
+                              <p>
+                                <def />
+                                <math>P_1</math> – המדד שהתפרסם לחודש האחרון שלפני תחילת התקופה שלגביה מחושב השינוי;</p>
+                            </content>
+                          </point>
+                        </list>
+                      </point>
+                    </list>
+                  </point>
+                  <point eId="point_18__point_ב__point_10">
+                    <num>(10)</num>
+                    <list>
+                      <intro>
+                        <p>אם נכס הייחוס של הקרן נקוב במטבע חוץ או צמוד לו, לכל אחת מהתקופות המוצגות בלוח שיעור השינוי בשער מטבע החוץ, שיחושב לפי הנוסחה:<br space="preserve"></br><math> \left( \frac{C_2}{C_1} - 1 \right) \times 100</math></p>
+                      </intro>
+                      <point eId="point_18__point_ב__point_10__point_none">
+                        <list>
+                          <intro>
+                            <p>לעניין זה –</p>
+                          </intro>
+                          <point eId="point_18__point_ב__point_10__point_none__point_C_2">
+                            <content>
+                              <p>
+                                <def />
+                                <math>C_2</math> – השער היציג ליום המסחר האחרון של התקופה שלגביה מחושב השינוי;</p>
+                            </content>
+                          </point>
+                          <point eId="point_18__point_ב__point_10__point_none__point_C_1">
+                            <content>
+                              <p>
+                                <def />
+                                <math>C_1</math> – השער היציג ליום המסחר האחרון שלפני תחילת התקופה שלגביה מחושב השינוי.</p>
+                            </content>
+                          </point>
+                        </list>
+                      </point>
+                    </list>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_18__point_ג">
+                <num>(ג)</num>
+                <list>
+                  <intro>
+                    <p>תחת הלוח, בהערות שוליים, יפורטו:</p>
+                  </intro>
+                  <point eId="point_18__point_ג__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>התאריך שבו הוצעו יחידות הקרן לראשונה, אם הנתונים הנדרשים בתקנה זו ניתנו לתקופה שתחילתה ביום הראשון להצעת יחידות הקרן לציבור;</p>
+                    </content>
+                  </point>
+                  <point eId="point_18__point_ג__point_2">
+                    <num>(2)</num>
+                    <content>
+                      <p>הודעה כי נכס ייחוס של קרן הוא מדד, שלהערכת מנהל הקרן לשינויים שבו היתה ההשפעה הגדולה ביותר על תשואתה של הקרן או נכס שלהערכת מנהל הקרן לשינויים שבערכו היתה ההשפעה הגדולה ביותר על תשואתה של הקרן;</p>
+                    </content>
+                  </point>
+                  <point eId="point_18__point_ג__point_3">
+                    <num>(3)</num>
+                    <content>
+                      <p>הודעה כי נתוני ההשוואה הנוספים מייצגים נתונים על אפיק השקעה המאופיין בסיכון נמוך לעומת אפיק השקעה המאופיין בסיכון גבוה.</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_18__point_ד">
+                <num>(ד)</num>
+                <content>
+                  <p>יושב ראש הרשות או עובד שהסמיך לכך, רשאים לעדכן מזמן לזמן את המדדים שיש לציין בדוח לפי תקנה זו; עדכון כאמור יפורסם באתר הרשות, וכן תודיע עליו הרשות בהודעה למנהלי הקרנות שתישלח שלושים ימים לפחות לפני המועד שבו ייכנס העדכון לתוקף.</p>
+                </content>
+              </point>
+              <point eId="point_18__point_ה">
+                <num>(ה)</num>
+                <list>
+                  <intro>
+                    <p>למעט בקרן גמישה, תחת הכותרת ”תשואת הקרן בהשוואה לשיעור השינוי בנכס הייחוס כפי שנקבע בתשקיף הקודם של הקרן או בדוח“ יפורטו הפרטים האלה:</p>
+                  </intro>
+                  <point eId="point_18__point_ה__point_1">
+                    <num>(1)</num>
+                    <content>
+                      <p>התשואה השקלית של הקרן ושיעור השינוי במחירי נכס הייחוס של הקרן כפי שנקבע בדוח הקרן הקודם, בציון נכס הייחוס, לתקופה שתחילתה ביום שלאחר היום שקדם בשנים עשר חודשים ליום עריכת הפרטים, או ביום תחילת הצעת יחידות הקרן לציבור, המאוחר מביניהם, וסיומה ביום עריכת הפרטים, בציון התקופה;</p>
+                    </content>
+                  </point>
+                  <point eId="point_18__point_ה__point_2">
+                    <num>(2)</num>
+                    <list>
+                      <intro>
+                        <p>עלה הפער בין התשואה השקלית לשיעור השינוי במחירי נכס הייחוס של הקרן על עשרים אחוזים משיעור השינוי במחירי נכס הייחוס, יפורט ההסבר לכך; בקרן מחקה יינתן הסבר כאמור אם עלה הפער האמור על עשרה אחוזים משיעור השינוי במחירי נכס הייחוס; היחס באחוזים יחושב לפי הנוסחה:<br space="preserve"></br><math> \left| \frac{A}{I} - 1 \right| \times 100</math></p>
+                      </intro>
+                      <point eId="point_18__point_ה__point_2__point_none">
+                        <list>
+                          <intro>
+                            <p>לעניין זה –</p>
+                          </intro>
+                          <point eId="point_18__point_ה__point_2__point_none__point_A">
+                            <content>
+                              <p>
+                                <def />
+                                <math>A</math> – התשואה השקלית כאמור בתקנת משנה (ב)(3);</p>
+                            </content>
+                          </point>
+                          <point eId="point_18__point_ה__point_2__point_none__point_I">
+                            <content>
+                              <p>
+                                <def />
+                                <math>I</math> – שיעור השינוי במחירי נכס הייחוס של הקרן המחושב כאמור בתקנת משנה (ב)(5), בפסקת משנה (ה), (ז)(1) או (ח)(1), לפי העניין;</p>
+                            </content>
+                          </point>
+                        </list>
+                      </point>
+                    </list>
+                  </point>
+                  <point eId="point_18__point_ה__point_3">
+                    <num>(3)</num>
+                    <list>
+                      <intro>
+                        <p>על אף האמור בפסקה (2), למעט בקרן מחקה –</p>
+                      </intro>
+                      <point eId="point_18__point_ה__point_3__point_א">
+                        <num>(א)</num>
+                        <content>
+                          <p>בקרן שדרגת החשיפה המרבית שלה למניות אינה נמוכה מ־4, אין חובה לתת הסבר כאמור, אם ההפרש בין התשואה השקלית לשיעור השינוי במחירי נכס הייחוס של הקרן קטן מחמש נקודות האחוז;</p>
+                        </content>
+                      </point>
+                      <point eId="point_18__point_ה__point_3__point_ב">
+                        <num>(ב)</num>
+                        <content>
+                          <p>בקרן שדרגת החשיפה המרבית שלה למניות נמוכה מ־4 והיא אינה קרן כספית, אין חובה לתת הסבר כאמור, אם ההפרש בין התשואה השקלית לשיעור השינוי במחירי נכס הייחוס של הקרן קטן מנקודת האחוז;</p>
+                        </content>
+                      </point>
+                      <point eId="point_18__point_ה__point_3__point_ג">
+                        <num>(ג)</num>
+                        <list>
+                          <intro>
+                            <p>ההפרש בפסקה זו יחושב לפי הנוסחה:<br space="preserve"></br><math> \left| A - I \right|</math></p>
+                          </intro>
+                          <point eId="point_18__point_ה__point_3__point_ג__point_none">
+                            <list>
+                              <intro>
+                                <p>לעניין זה –</p>
+                              </intro>
+                              <point eId="point_18__point_ה__point_3__point_ג__point_none__point_A_ו־I">
+                                <content>
+                                  <p>
+                                    <def />
+                                    <math>A</math> ו־<math>I</math> – כמפורט בפסקה (2);</p>
+                                </content>
+                              </point>
+                              <point eId="point_18__point_ה__point_3__point_ג__point_none__point_דרגת_חשיפה_מרבית_למניות">
+                                <content>
+                                  <p>
+                                    <def />”דרגת חשיפה מרבית למניות“ – כהגדרתה <ref href="/akn/il/act/SecondaryLegislation/2007-11-28/100033748">בתקנות השקעות משותפות בנאמנות (סיווג קרנות לצורך פרסום), התשס"ח–2007</ref>.</p>
+                                </content>
+                              </point>
+                            </list>
+                          </point>
+                        </list>
+                      </point>
+                    </list>
+                  </point>
+                </list>
+              </point>
+            </list>
+          </point>
+          <point eId="point_19">
+            <heading>
+              <authorialNote placement="side">
+                <p>שינויים במאפייני הקרן</p>
+              </authorialNote>
+            </heading>
+            <num>19.</num>
+            <list>
+              <intro>
+                <p>בלוח שכותרתו ”שינויים במאפייני הקרן“ יצוינו הפרטים האלה:</p>
+              </intro>
+              <point eId="point_19__point_1">
+                <num>(1)</num>
+                <content>
+                  <p>בכותרת הטור הימני – הכותרת ”מהות השינוי“ ובשאר הכותרות – הכותרת ”מספר שינויים“ בצירוף התקופות כאמור <ref href="#point_18">בתקנה 18(ב)(1)</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_19__point_2">
+                <num>(2)</num>
+                <list>
+                  <intro>
+                    <p>מספר השינויים שנעשו במאפייני הקרן יוצג לכל אחת מהתקופות המוצגות בלוח והמפורטות <ref href="#point_18">בתקנה 18(ב)(1)</ref>, לפי התקופה שבה נעשו, לגבי כל אחד מהמאפיינים האלה:</p>
+                  </intro>
+                  <point eId="point_19__point_2__point_א">
+                    <num>(א)</num>
+                    <content>
+                      <p>שם הקרן;</p>
+                    </content>
+                  </point>
+                  <point eId="point_19__point_2__point_ב">
+                    <num>(ב)</num>
+                    <content>
+                      <p>סיווג הקרן;</p>
+                    </content>
+                  </point>
+                  <point eId="point_19__point_2__point_ג">
+                    <num>(ג)</num>
+                    <content>
+                      <p>פרופיל החשיפה של הקרן;</p>
+                    </content>
+                  </point>
+                  <point eId="point_19__point_2__point_ד">
+                    <num>(ד)</num>
+                    <content>
+                      <p>למעט באגד ישראלי, שכר מנהל הקרן בפועל;</p>
+                    </content>
+                  </point>
+                  <point eId="point_19__point_2__point_ה">
+                    <num>(ה)</num>
+                    <content>
+                      <p>שכר הנאמן בפועל;</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_19__point_3">
+                <num>(3)</num>
+                <content>
+                  <p>מאפייני הקרן לפני השינוי ואחריו יפורטו בהערת שוליים, בציון המועד שבו נערך כל שינוי.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_20">
+            <heading>
+              <authorialNote placement="side">
+                <p>הוצאות שנפרעו מנכסי הקרן</p>
+              </authorialNote>
+            </heading>
+            <num>20.</num>
+            <list>
+              <intro>
+                <p>בלוח שכותרתו ”הוצאות שנפרעו מנכסי הקרן כשיעור מהשווי הנקי הממוצע של נכסי הקרן“ יצוינו הפרטים האלה:</p>
+              </intro>
+              <point eId="point_20__point_1">
+                <num>(1)</num>
+                <content>
+                  <p>בכותרת הטור הימני תצוין הכותרת ”סוג ההוצאה“, ובשאר הכותרות יצוינו התקופות כאמור <ref href="#point_18">בתקנה 18(ב)(1)</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_20__point_2">
+                <num>(2)</num>
+                <list>
+                  <intro>
+                    <p>ההוצאות שלהלן שנפרעו מנכסי הקרן או שהופרשו, כשיעור מהשווי הנקי הממוצע של נכסי הקרן, לכל אחת מהתקופות המוצגות בלוח והמפורטות <ref href="#point_18">בתקנה 18(ב)(1)</ref>, לפי התקופה שבה הוצאו:</p>
+                  </intro>
+                  <point eId="point_20__point_2__point_א">
+                    <num>(א)</num>
+                    <content>
+                      <p>שכר מנהל הקרן; באגד ישראלי – ממוצע שיעורי שכר מנהל הקרן שנגבה בכל אחת מהקרנות המוחזקות באגד הישראלי; באגד חוץ – נוסף על השכר ששולם למנהל אגד החוץ, גם ממוצע שיעורי שכר מנהל קרן החוץ שנגבה בכל אחת מהקרנות המוחזקות באגד החוץ; בחישוב ממוצע שכר מנהל הקרן שנגבה בקרנות המוחזקות באגד יילקח בחשבון שווי נכסי כל קרן מוחזקת מסך כל שווי נכסי האגד, ומספר הימים שהוחזקה כל קרן;</p>
+                    </content>
+                  </point>
+                  <point eId="point_20__point_2__point_ב">
+                    <num>(ב)</num>
+                    <content>
+                      <p>שכר הנאמן;</p>
+                    </content>
+                  </point>
+                  <point eId="point_20__point_2__point_ג">
+                    <num>(ג)</num>
+                    <content>
+                      <p>עמלות והוצאות אחרות הכרוכות בביצוע עסקאות בעד הקרן; אם מי מסוכני ניירות הערך, שבאמצעותם מתבצעות עסקאות לקרן, בעל עניין במנהל הקרן או בנאמן – יצוין הדבר בהערת שוליים;</p>
+                    </content>
+                  </point>
+                  <point eId="point_20__point_2__point_ד">
+                    <num>(ד)</num>
+                    <content>
+                      <p>הוצאת מס; לעניין זה, ”הוצאות מס“ – בשל מסים שוטפים ובשל מסים נדחים; בקרן פטורה תבוא בהערת שוליים ההודעה כי קרן פטורה אינה חייבת בתשלום מסים, למעט חריגים המפורטים בתשקיף, בפסקה על מיסוי הקרן ומיסוי בעל יחידה בקרן, וכן כי בעת פדיון, יהיה חייב המשקיע בתשלום מס שינוכה מהרווח הריאלי שנצבר על היחידות שפדה, ויצוין שיעורו; בקרן חייבת תבוא בהערת שוליים ההודעה ”לרבות הפרשה למסים נדחים ליום המסחר האחרון בתקופה“;</p>
+                    </content>
+                  </point>
+                  <point eId="point_20__point_2__point_ה">
+                    <num>(ה)</num>
+                    <content>
+                      <p>סך כל ההוצאות בשל שכר מנהל הקרן, שכר הנאמן, העמלות, והוצאות המס;</p>
+                    </content>
+                  </point>
+                  <point eId="point_20__point_2__point_ו">
+                    <num>(ו)</num>
+                    <list>
+                      <intro>
+                        <p>פירוט העמלות וההוצאות האחרות הכרוכות בביצוע עסקאות אלה בעד הקרן, למעט אם לא נפרעו עמלות והוצאות הכרוכות בביצוע עסקאות בעד הקרן:</p>
+                      </intro>
+                      <point eId="point_20__point_2__point_ו__point_1">
+                        <num>(1)</num>
+                        <content>
+                          <p>עסקאות בניירות ערך הנסחרים בישראל;</p>
+                        </content>
+                      </point>
+                      <point eId="point_20__point_2__point_ו__point_2">
+                        <num>(2)</num>
+                        <content>
+                          <p>עסקאות בניירות ערך חוץ;</p>
+                        </content>
+                      </point>
+                      <point eId="point_20__point_2__point_ו__point_3">
+                        <num>(3)</num>
+                        <content>
+                          <p>עסקאות באופציות ובחוזים עתידיים בישראל ומחוץ לישראל;</p>
+                        </content>
+                      </point>
+                      <point eId="point_20__point_2__point_ו__point_4">
+                        <num>(4)</num>
+                        <content>
+                          <p>עסקאות ביחידות של קרנות, לרבות של קרנות חוץ;</p>
+                        </content>
+                      </point>
+                      <point eId="point_20__point_2__point_ו__point_5">
+                        <num>(5)</num>
+                        <content>
+                          <p>עסקאות אחרות שאינן מפורטות בפסקאות משנה (1) עד (4), בציון סוג העסקה שבשלה נפרעה העמלה;</p>
+                        </content>
+                      </point>
+                    </list>
+                  </point>
+                  <point eId="point_20__point_2__point_ז">
+                    <num>(ז)</num>
+                    <list>
+                      <intro>
+                        <p>הוצאה שהוצאה שלא במהלך הרגיל של ניהול הקרן, כאמור <ref href="/akn/il/act/PrimaryLegislation/1994-08-23/155776#point_80">בסעיף 80(ב) לחוק</ref>; מתחת ללוח תפורט מהות ההוצאה שנפרעה מנכסי הקרן; לעניין תקנת משנה זו, שיעור הוצאות מהשווי הנקי הממוצע של נכסי הקרן בתקופה כלשהי יחושב לפי הנוסחה:<br space="preserve"></br><math>\frac{C}{I} \times 100</math></p>
+                      </intro>
+                      <point eId="point_20__point_2__point_ז__point_none">
+                        <list>
+                          <intro>
+                            <p>לעניין זה –</p>
+                          </intro>
+                          <point eId="point_20__point_2__point_ז__point_none__point_C">
+                            <content>
+                              <p>
+                                <def />
+                                <math>C</math> – סך כל ההוצאות מסוג מסוים כמפורט בתקנת משנה זו, שהוצאו או שהופרשו בתקופה שלגביה מחושב השיעור;</p>
+                            </content>
+                          </point>
+                          <point eId="point_20__point_2__point_ז__point_none__point_I">
+                            <content>
+                              <p>
+                                <def />
+                                <math>I</math> – השווי הנקי הממוצע של נכסי הקרן בתקופה שלגביה מחושב השיעור;</p>
+                            </content>
+                          </point>
+                        </list>
+                      </point>
+                    </list>
+                  </point>
+                </list>
+              </point>
+            </list>
+          </point>
+          <point eId="point_3">
+            <num>(3)</num>
+            <content>
+              <p>מתחת ללוח תובא הודעה כי לפי <ref href="/akn/il/act/PrimaryLegislation/1994-08-23/155776">החוק</ref> רשאי מנהל הקרן לפרוע מנכסי הקרן עמלות והוצאות אחרות הכרוכות בביצוע עסקאות בעד הקרן, וכי בתשקיף מפורטות העמלות שמשלם מנהל הקרן בשל העסקאות הנעשות בעד הקרן לבנקאי הקרן ולסוכן ניירות הערך של הקרן.</p>
+            </content>
+          </point>
+          <point eId="point_21">
+            <heading>
+              <authorialNote placement="side">
+                <p>נתונים שונים</p>
+              </authorialNote>
+            </heading>
+            <num>21.</num>
+            <list>
+              <intro>
+                <p>בלוח שכותרתו ”נתונים שונים“ יצוינו הפרטים האלה, לכל אחת מהתקופות כאמור <ref href="#point_18">בתקנה 18(ב)(1)</ref>:</p>
+              </intro>
+              <point eId="point_21__point_1">
+                <num>(1)</num>
+                <content>
+                  <p>בכותרות הטורים – התקופות כאמור <ref href="#point_18">בתקנה 18(ב)(1)</ref>;</p>
+                </content>
+              </point>
+              <point eId="point_21__point_2">
+                <num>(2)</num>
+                <content>
+                  <p>השווי הנקי של נכסי הקרן ליום המסחר האחרון של התקופה, התקבולים המצטברים ממכירת יחידות והתשלומים המצטברים מפדיון יחידות ליום המסחר האחרון של התקופה, במיליוני שקלים חדשים;</p>
+                </content>
+              </point>
+              <point eId="point_21__point_3">
+                <num>(3)</num>
+                <content>
+                  <p>מחיר הפדיון של יחידה ליום המסחר האחרון של התקופה, באחוזים מהערך הנקוב, כפי שפורסם באתר הבורסה בישראל שכתובתו tase.co.il; תוקן מחיר הפדיון לאחר הפרסום – המחיר המתוקן, ובהערה מתחת ללוח תצוין העובדה כי תוקן; אם מחיר הפדיון נקוב במטבע חוץ – יצוין המטבע שבו הוא נקוב בהערה מתחת ללוח;</p>
+                </content>
+              </point>
+              <point eId="point_21__point_4">
+                <num>(4)</num>
+                <list>
+                  <intro>
+                    <p>למעט באגד, לגבי תחלופת נכסי הקרן –</p>
+                  </intro>
+                  <point eId="point_21__point_4__point_א">
+                    <num>(א)</num>
+                    <list>
+                      <intro>
+                        <p>התחלופה בנכסי הקרן; מחושבת לפי הנוסחה:<br space="preserve"></br><math>\frac{A}{S}</math></p>
+                      </intro>
+                      <point eId="point_21__point_4__point_א__point_none">
+                        <list>
+                          <intro>
+                            <p>לעניין זה –</p>
+                          </intro>
+                          <point eId="point_21__point_4__point_א__point_none__point_A">
+                            <content>
+                              <p>
+                                <def />
+                                <math>A</math> – סך כל הסכומים שהוצאו לרכישת נכסים בעד הקרן באותה תקופה, למעט עמלות קנייה, או סך כל הסכומים שהתקבלו ממכירת נכסים מנכסי הקרן באותה תקופה, בלא ניכוי עמלות המכירה, הנמוך מביניהם;</p>
+                            </content>
+                          </point>
+                          <point eId="point_21__point_4__point_א__point_none__point_S">
+                            <content>
+                              <p>
+                                <def />
+                                <math>S</math> – השווי הנקי הממוצע של נכסי הקרן באותה תקופה;</p>
+                            </content>
+                          </point>
+                        </list>
+                      </point>
+                    </list>
+                  </point>
+                  <point eId="point_21__point_4__point_ב">
+                    <num>(ב)</num>
+                    <content>
+                      <p>בהערה מתחת ללוח יצוין כי התחלופה משקפת את היחס שבין היקף העסקאות שנעשו בעד הקרן לשווי הנקי הממוצע של נכסי הקרן; כמו כן, יצוין כי ככל שהמספר גבוה יותר כך תחלופת הנכסים בקרן גדולה יותר;</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_21__point_5">
+                <num>(5)</num>
+                <list>
+                  <intro>
+                    <p>לגבי מנוף האשראי של הקרן כהגדרתו <ref href="/akn/il/act/SecondaryLegislation/2001-02-01/100029525">בתקנות האשראי</ref> –</p>
+                  </intro>
+                  <point eId="point_21__point_5__point_א">
+                    <num>(א)</num>
+                    <list>
+                      <intro>
+                        <p>השיעור הממוצע של מנוף האשראי של הקרן, מוצג באחוזים מהשווי הנקי של נכסי הקרן, ומחושב לפי הנוסחה שלהלן:<br space="preserve"></br><math> \frac{\sum_{i=1}^n \left( \tfrac{C_i}{V_i} \right) }{n} \times 100</math></p>
+                      </intro>
+                      <point eId="point_21__point_5__point_א__point_none">
+                        <list>
+                          <intro>
+                            <p>לעניין זה –</p>
+                          </intro>
+                          <point eId="point_21__point_5__point_א__point_none__point_C_i">
+                            <content>
+                              <p>
+                                <def />
+                                <math>C_i</math> – מנוף האשראי של הקרן ליום מסחר <math>i</math>;</p>
+                            </content>
+                          </point>
+                          <point eId="point_21__point_5__point_א__point_none__point_V_i">
+                            <content>
+                              <p>
+                                <def />
+                                <math>V_i</math> – השווי הנקי של נכסי הקרן ליום מסחר <math>i</math>;</p>
+                            </content>
+                          </point>
+                        </list>
+                      </point>
+                      <point eId="point_21__point_5__point_א__point_i">
+                        <content>
+                          <p>
+                            <def />
+                            <math>i</math> – יום המסחר האחרון בשבוע;</p>
+                        </content>
+                      </point>
+                      <point eId="point_21__point_5__point_א__point_n">
+                        <content>
+                          <p>
+                            <def />
+                            <math>n</math> – מספר השבועות שבהם יש יום מסחר אחד בשבוע לפחות, באותה תקופה;</p>
+                        </content>
+                      </point>
+                    </list>
+                  </point>
+                  <point eId="point_21__point_5__point_ב">
+                    <num>(ב)</num>
+                    <content>
+                      <p>בהערה מתחת ללוח יצוין כי ”מנוף אשראי של קרן משקף את היקף המינוף של הקרן כתוצאה מנטילת אשראי ופעילות בנגזרים; מנוף אשראי של קרן לא יעלה, בכל עת, על 20% מהשווי הנקי של נכסי הקרן, ובקרן ממונפת – על 40% מהשווי האמור“;</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_21__point_6">
+                <num>(6)</num>
+                <list>
+                  <intro>
+                    <p>לגבי מנוף הפעילות בנגזרים כהגדרתו <ref href="/akn/il/act/SecondaryLegislation/2001-02-01/100029525">בתקנות האשראי</ref> –</p>
+                  </intro>
+                  <point eId="point_21__point_6__point_א">
+                    <num>(א)</num>
+                    <list>
+                      <intro>
+                        <p>השיעור הממוצע של מנוף הפעילות בנגזרים של הקרן, מוצג באחוזים מהשווי הנקי של נכסי הקרן, ומחושב לפי הנוסחה שלהלן:<br space="preserve"></br><math> \frac{\sum_{i=1}^n \left( \tfrac{B_i}{V_i} \right) }{n} \times 100</math></p>
+                      </intro>
+                      <point eId="point_21__point_6__point_א__point_none">
+                        <list>
+                          <intro>
+                            <p>לעניין זה –</p>
+                          </intro>
+                          <point eId="point_21__point_6__point_א__point_none__point_Bi">
+                            <content>
+                              <p>
+                                <def />
+                                <math>Bi</math> – מנוף הפעילות בנגזרים של הקרן ליום מסחר <math>i</math>;</p>
+                            </content>
+                          </point>
+                          <point eId="point_21__point_6__point_א__point_none__point_Vi">
+                            <content>
+                              <p>
+                                <def />
+                                <math>Vi</math> – השווי הנקי של נכסי הקרן ליום מסחר <math>i</math>;</p>
+                            </content>
+                          </point>
+                        </list>
+                      </point>
+                      <point eId="point_21__point_6__point_א__point_i">
+                        <content>
+                          <p>
+                            <def />
+                            <math>i</math> – יום המסחר האחרון בשבוע;</p>
+                        </content>
+                      </point>
+                      <point eId="point_21__point_6__point_א__point_n">
+                        <content>
+                          <p>
+                            <def />
+                            <math>n</math> – מספר השבועות שבהם יש יום מסחר אחד בשבוע לפחות, באותה תקופה;</p>
+                        </content>
+                      </point>
+                    </list>
+                  </point>
+                  <point eId="point_21__point_6__point_ב">
+                    <num>(ב)</num>
+                    <content>
+                      <p>בהערה מתחת ללוח יצוין כי ”מנוף הפעילות בנגזרים משקף את היקף פעילות הקרן בקנייה ויצירה של אופציות ושל חוזים עתידיים, לרבות התחייבות למכור או לרכוש נכס במסגרת עסקת מכר חוזר, ומכירת ניירות ערך בחסר ושיעורו מצביע על מידת הסיכון הטמון בפעילות הקרן“;</p>
+                    </content>
+                  </point>
+                </list>
+              </point>
+              <point eId="point_21__point_7">
+                <num>(7)</num>
+                <content>
+                  <p>אם לקרן חייבת הפסד הון נצבר לצורכי מס לסוף תקופה מהתקופות המוצגות בלוח – סכום הפסד ההון באלפי שקלים חדשים, ובהערה מתחת ללוח יצוין כי ”לרוב הפסד ההון ניתן לקיזוז כנגד רווחי הון אם יהיו בקרן; קיזוז כאמור עשוי להביא להקטנת חבות המס של הקרן בשל רווחי הון שיהיו בה“.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_22">
+            <heading>
+              <authorialNote placement="side">
+                <p>השקעות משותפות בנאמנות הסדרים עם עושה שוק</p>
+              </authorialNote>
+            </heading>
+            <num>22.</num>
+            <content>
+              <p>אם הקרן קרן סגורה, יפורטו תחת הכותרת ”הסדרים עם עושה שוק“, פרטים על הסדרי עשיית השוק, לרבות זהות עושה השוק, מאפייני פעילותו ואופן תגמולו; לעניין זה, ”עושה שוק“ – אדם שהתחייב לפרסם במהלך כל יום שבו מתקיים מסחר בבורסה, מחיר שבו הוא מתחייב לקנות את יחידות הקרן הסגורה ומחיר שבו הוא מתחייב למכרן.</p>
+            </content>
+          </point>
+          <point eId="point_23">
+            <heading>
+              <authorialNote placement="side">
+                <p>תשלומים לבעלי היחידות</p>
+              </authorialNote>
+            </heading>
+            <num>23.</num>
+            <list>
+              <point eId="point_23__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>קבע מנהל קרן כי ישולמו לבעלי היחידות תשלומים מנכסי הקרן, יפורטו, תחת כותרת ”תשלומים לבעלי היחידות“, המועדים שבהם ישולמו התשלומים, השיעור מהערך הנקוב שישולם והמועד הקובע לעניין הזכאות לתשלום.</p>
+                </content>
+              </point>
+              <point eId="point_23__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>שולם תשלום מנכסי הקרן לבעלי היחידות בתקופה בת שנים עשר חודשים שסיומה ביום עריכת הפרטים, יצוין שיעורו מהערך הנקוב של היחידה ושיעור המס שנוכה מהתשלום, ככל שנוכה.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_24">
+            <heading>
+              <authorialNote placement="side">
+                <p>החזקות הקרן בניירות ערך שהנפיקו בעלי עניין</p>
+              </authorialNote>
+            </heading>
+            <num>24.</num>
+            <content>
+              <p>עלה בקרן שיעור ההחזקה הממוצע של ניירות ערך שהנפיקו בעלי עניין במנהל הקרן או בידי בעלי עניין בנאמן, מהשווי הנקי של נכסי הקרן על עשרים וחמישה אחוזים, בתקופה בת שנים עשר חודשים שסיומה ביום עריכת הפרטים, יצוין תחת הכותרת ”החזקות הקרן בניירות ערך שהנפיקו בעלי עניין“, דבר ההחזקה ושיעור ההחזקה הממוצע בתקופה זו; לעניין זה, ”ממוצע“ – מחושב לפי הנתונים ביום המסחר האחרון בכל חודש בתקופה מסוימת.</p>
+            </content>
+          </point>
+          <point eId="point_25">
+            <heading>
+              <authorialNote placement="side">
+                <p>החזקות גורמים מקורבים</p>
+              </authorialNote>
+            </heading>
+            <num>25.</num>
+            <content>
+              <p>אם השיעור הכולל של יחידות הקרן המוחזקות בידי כל הגורמים המקורבים גבוה מעשרים וחמישה אחוזים, יצוין תחת הכותרת ”החזקות מקורבים בקרן בשיעור העולה על 25% מיחידות הקרן“, שיעור ההחזקה ומספר הגורמים המקורבים המחזיקים ביחידות הקרן.</p>
+            </content>
+          </point>
+          <point eId="point_26">
+            <heading>
+              <authorialNote placement="side">
+                <p>דוחות כספיים</p>
+              </authorialNote>
+            </heading>
+            <num>26.</num>
+            <list>
+              <point eId="point_26__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>תחת הכותרת ”דוחות כספיים“ תבוא הודעה כי מנהל הקרן פרסם דוחות כספיים ערוכים לפי <ref href="/akn/il/act/SecondaryLegislation/2009-12-10/100035143">תקנות דוחות כספיים</ref>, בציון המועד שאליו הם מתייחסים והמועד שבו פורסמו וכי ניתן לעיין בהם באתר ההפצה, בציון מספר האסמכתה.</p>
+                </content>
+              </point>
+              <point eId="point_26__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>אם הדוחות ערוכים למועד שקדם לתום התקופה להצעת היחידות, כפי שצוינה בתשקיף, ביותר מחמישה עשר חודשים, תבוא הודעה כי מנהל הקרן יפרסם באתר ההפצה דוחות כספיים שיהיו ערוכים למועד שיקדם בלא יותר מחמישה עשר חודשים מהמועד האחרון להצעת יחידות לפי התשקיף.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_27">
+            <heading>
+              <authorialNote placement="side">
+                <p>נתוני האגד והקרנות המוחזקות</p>
+              </authorialNote>
+            </heading>
+            <num>27.</num>
+            <list>
+              <intro>
+                <p>אם הקרן אגד, יפורטו, לפני הנתונים הנדרשים לפי <ref href="#point_17">תקנות 17 עד 26</ref>, לתקופות המצוינות <ref href="#point_17">בתקנה 17(א)(1)</ref>, תחת הכותרת ”נתוני האגד והקרנות המוחזקות בו – לפי תקופות“, הנתונים האלה:</p>
+              </intro>
+              <point eId="point_27__point_1">
+                <num>(1)</num>
+                <content>
+                  <p>טווח מספר הקרנות שהוחזק באגד והמספר הממוצע של הקרנות שהוחזקו בו;</p>
+                </content>
+              </point>
+              <point eId="point_27__point_2">
+                <num>(2)</num>
+                <content>
+                  <p>שמות הקרנות שהוחזקו באגד בשיעור החזקה ממוצע של עשרה אחוזים ומעלה מסך כל נכסי האגד, שיעור ההחזקה הממוצע של האגד בכל אחת מהן והתחלופה בנכסי האגד, מחושבת בהתאם לפי הנוסחה <ref href="#point_21">בתקנה 21(4)(א)</ref> בשינויים המחויבים, ובאגד ישראלי – גם פרופיל החשיפה של כל אחת מהקרנות המוחזקות באגד; הקרנות יוצגו לפי שיעור ההחזקה מהגבוה לנמוך;</p>
+                </content>
+              </point>
+              <point eId="point_27__point_3">
+                <num>(3)</num>
+                <content>
+                  <p>יצוין בהערה מתחת ללוח כי התחלופה משקפת את היחס שבין היקף העסקאות שנעשו בעד האגד לשווי הנקי הממוצע של נכסי האגד; כמו כן, יצוין כי ככל שהמספר הנתון גבוה יותר כך תחלופת הנכסים באגד גדולה יותר.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+          <point eId="point_28">
+            <heading>
+              <authorialNote placement="side">
+                <p>תחילה</p>
+              </authorialNote>
+            </heading>
+            <num>28.</num>
+            <content>
+              <p>תחילתן של תקנות אלה שישה חודשים מיום פרסומן ברשומות (להלן – יום התחילה).</p>
+            </content>
+          </point>
+          <point eId="point_29">
+            <heading>
+              <authorialNote placement="side">
+                <p>הוראת מעבר</p>
+              </authorialNote>
+            </heading>
+            <num>29.</num>
+            <list>
+              <point eId="point_29__point_א">
+                <num>(א)</num>
+                <content>
+                  <p>מנהל קרן שפרסם, בהיתר הרשות, תשקיף עיקרי כהגדרתו בפסקה (1) להגדרת תשקיף בתקנות השקעות משותפות בנאמנות (פרטי תשקיף של קרן, מבנהו וצורתו) (תיקון), התשע"ו–2016, מיום פרסומן של תקנות אלה ולפני יום התחילה (להלן – תקופת המעבר), יגיש לרשות ולבורסה דוח שנתי של כל קרן שבניהולו, שהתקופה להצעת היחידות שלה, לפי תשקיף חלק א׳ כהגדרתו <ref href="/akn/il/act/SecondaryLegislation/2009-12-10/100035141#point_4">בתקנה 4(א) לתקנות פרטי תשקיף</ref> כנוסחן ערב יום התחילה (להלן – התקנות הקודמות) האחרון שפורסם לה, הסתיימה במהלך תקופת המעבר; דוח כאמור יוגש לפי תקנות אלה, ואולם הפרטים הנדרשים בו יהיו לתקופות המנויות <ref href="/akn/il/act/SecondaryLegislation/2009-12-10/100035141#point_8">בתקנות 8</ref><ref href="/akn/il/act/SecondaryLegislation/2009-12-10/100035141#point_9">ו־9 לתקנות הקודמות</ref>, לפי העניין.</p>
+                </content>
+              </point>
+              <point eId="point_29__point_ב">
+                <num>(ב)</num>
+                <content>
+                  <p>הגיש מנהל קרן דוח שנתי של קרן כאמור בתקנת משנה (א) או פרסם, בהיתר הרשות, תשקיף חוזר של קרן שבניהולו כהגדרתו בתקנות הקודמות שהתקופה להצעת היחידות שלה, לפי תשקיף חלק א׳ כהגדרתו <ref href="/akn/il/act/SecondaryLegislation/2009-12-10/100035141#point_4">בתקנה 4(א) לתקנות הקודמות</ref> האחרון שפורסם לה, הסתיימה במהלך תקופת המעבר, ויום עריכת הפרטים לפי תקנות אלה חל טרם חלפו 6 חודשים מהגשת דוח או פרסום תשקיף כאמור – יגיש לראשונה דוח שנתי של הקרן לפי תקנות אלה רק ליום עריכת הפרטים החל בשנה הבאה.</p>
+                </content>
+              </point>
+            </list>
+          </point>
+        </list>
+      </chapter>
+      <appendix eId="appendix">
+        <num></num>
+        <title>
+          <content>
+            <p>תוספת</p>
+          </content>
+        </title>
+        <subtitle eId="eId">
+          <num></num>
+          <content>
+            <p>
+              <wikicomment font-size="x-small">(<ref href="#point_17">תקנה 17(ג)(3)(ב)</ref>)</wikicomment>
+            </p>
+          </content>
+        </subtitle>
+        <subtitle eId="eId">
+          <num></num>
+          <content>
+            <p>טבלת דרגות</p>
+          </content>
+        </subtitle>
+        <list>
+          <point eId="appendix__point__ההגדרות_שלהן_מופיעות_כהערות_שוליים_בקובץ_התקנות”סולם_דרגות_לטווח_ארוך" class="definitions">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num></num>
+            <content>
+              <p>
+                <def />
+                <wikicomment font-size="x-small">(ההגדרות שלהן מופיעות כהערות שוליים בקובץ התקנות):</wikicomment>
+                <br space="preserve"></br>
+                <wikicomment font-size="x-small">”סולם דרגות לטווח ארוך“ ו”סולם דרגות לטווח קצר“ – כהגדרתם <ref href="/akn/il/act/SecondaryLegislation/1994-11-10/100025287">בתקנות הנכסים</ref>.</wikicomment>
+                <br space="preserve"></br>סוג="הגדרה"&gt;
+  <wikicomment font-size="x-small">”מעלות“ – Standard &amp; Poors Maalot בע"מ.</wikicomment><br space="preserve"></br>סוג="הגדרה"&gt;
+  <wikicomment font-size="x-small">”מדרוג“ – מדרוג בע"מ.</wikicomment><br space="preserve"></br>סוג="הגדרה"&gt;
+  <wikicomment font-size="x-small">"MOODYS"‏ – Moodys Investor Services.</wikicomment><br space="preserve"></br>סוג="הגדרה"&gt;
+  <wikicomment font-size="x-small">"FITCH"‏ – Fitch IBCA International Rating Agency.</wikicomment><br space="preserve"></br>סוג="הגדרה"&gt;
+  <wikicomment font-size="x-small">"S&amp;amp;P"‏ – Standard &amp;amp; Poors Corporation (S&amp;amp;P)‎.</wikicomment></p>
+            </content>
+          </point>
+        </list>
+        <subtitle eId="eId">
+          <num></num>
+          <content>
+            <p>בסולם דרגות לטווח ארוך</p>
+          </content>
+        </subtitle>
+        <list>
+          <point eId="appendix__point_none">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num></num>
+            <content>
+              <p>
+                <table style="table-layout: fixed; width: 100%;" eId="" class="table table-bordered">
+                  <tr>
+                    <th>חברה מדרגת:</th>
+                    <th>מעלות</th>
+                    <th>מידרוג</th>
+                    <th>MOODYS</th>
+                    <th>FITCH</th>
+                    <th>S&amp;P</th>
+                  </tr>
+                  <tr>
+                    <td>דירוג חוב גבוה</td>
+                    <td>AA או דרגה גבוהה יותר</td>
+                    <td>Aa2 או דרגה גבוהה יותר</td>
+                    <td>Aa2 או דרגה גבוהה יותר</td>
+                    <td>AA או דרגה גבוהה יותר</td>
+                    <td>AA או דרגה גבוהה יותר</td>
+                  </tr>
+                  <tr>
+                    <td>דירוג חוב בינוני</td>
+                    <td>דרגה נמוכה מ־AA אך לא נמוכה מ־</td>
+                    <td>BBB דרגה נמוכה מ־Aa2 אך לא נמוכה מ־Baa2</td>
+                    <td>דרגה נמוכה מ־Aa2 אך לא נמוכה מ־Baa2</td>
+                    <td>דרגה נמוכה מ־AA אך לא נמוכה מ־BBB</td>
+                    <td>דרגה נמוכה מ־AA אך לא נמוכה מ־BBB</td>
+                  </tr>
+                  <tr>
+                    <td>דירוג חוב נמוך</td>
+                    <td>דרגה נמוכה מ־BBB</td>
+                    <td>דרגה נמוכה מ־Baa2</td>
+                    <td>דרגה נמוכה מ־Baa2</td>
+                    <td>דרגה נמוכה מ־BBB</td>
+                    <td>דרגה נמוכה מ־BBB</td>
+                  </tr>
+                </table>
+              </p>
+            </content>
+          </point>
+        </list>
+        <subtitle eId="eId">
+          <num></num>
+          <content>
+            <p>בסולם דרגות לטווח קצר</p>
+          </content>
+        </subtitle>
+        <list>
+          <point eId="appendix__point_none">
+            <heading>
+              <authorialNote placement="side">
+                <p xml:space="preserve"> </p>
+              </authorialNote>
+            </heading>
+            <num></num>
+            <content>
+              <p>
+                <table style="table-layout: fixed; width: 100%;" eId="" class="table table-bordered">
+                  <tr>
+                    <td>דירוג חוב גבוה</td>
+                    <td>A-1 או דרגה גבוהה יותר</td>
+                    <td>P1</td>
+                    <td>P-1</td>
+                    <td>F1</td>
+                    <td>A-1 או דרגה גבוהה יותר</td>
+                  </tr>
+                  <tr>
+                    <td>דירוג חוב בינוני</td>
+                    <td>דרגה נמוכה מ־A-1 אך לא נמוכה מ־A-2</td>
+                    <td>דרגה נמוכה מ־P1 אך לא נמוכה מ־P2</td>
+                    <td>דרגה נמוכה מ־P-1 אך לא נמוכה מ־P-2</td>
+                    <td>דרגה נמוכה מ־F1 אך לא נמוכה מ־F2</td>
+                    <td>דרגה נמוכה מ־A-1 אך לא נמוכה מ־A-2</td>
+                  </tr>
+                  <tr>
+                    <td>דירוג חוב נמוך</td>
+                    <td>דרגה נמוכה מ־A-2</td>
+                    <td>דרגה נמוכה מ־P2</td>
+                    <td>דרגה נמוכה מ־P-2</td>
+                    <td>דרגה נמוכה מ־F2</td>
+                    <td>דרגה נמוכה מ־A-2</td>
+                  </tr>
+                </table>
+              </p>
+            </content>
+          </point>
+        </list>
+      </appendix>
+    </body>
+    <conclusions eId="eId">
+      <p class="signatures">
+        <signature>
+          <p>
+            <person refersTo="משה_כחלון">משה כחלון</person>
+            <role refersTo="שר_האוצר">שר האוצר</role>
+          </p>
+        </signature>
+      </p>
+    </conclusions>
+  </act>
+</akomaNtoso>
