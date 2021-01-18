@@ -8,7 +8,7 @@ ERRORS_FILE_PATH = 'errors.json'
 
 class Error(enum.Enum):
     PATH_DOES_NOT_EXISTS = "Path {} does not exists in database"
-    NO_LAW_FOUND = "No law found. Assuming law path is: {}/he@/main.xml"
+    NO_LAW_FOUND = "No law found in database. Assuming law path is: {}"
     FOUND_MORE_THAN_ONE_EID = "Found more than one element {} with eid {} in to_law {}"
     DID_NOT_FIND_ELEMENT = "Didn't find element {} with the following possible eid's {} in to_law {}"
     DID_NOT_SUCCEED_TO_CLASSIFY_EID = "Didn't succeed to classify tag to eid {} in from_law {}"

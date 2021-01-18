@@ -1,4 +1,5 @@
-from constants import ANCESTOR_TAGS, LAW_SUFFIX, Suffix, Tag, SUFFIX_TO_TAG, HREF, APPENDIX_NUM_TO_HEB, CHAPTER_NUM_TO_HEB, FULL_TO_SHORT_TAG
+from constants import ANCESTOR_TAGS, LAW_SUFFIX, Suffix, Tag, SUFFIX_TO_TAG, HREF, APPENDIX_NUM_TO_HEB, \
+    CHAPTER_NUM_TO_HEB, FULL_TO_SHORT_TAG
 from classes import Chapter, Part, Point, Preamble, Appendix, Section, Law, Subtitle, WrapUp
 from error import Error, add_error_entry
 
@@ -22,18 +23,24 @@ def parse_ref(ref_element, law, errors_dict):
     if not os.path.exists(frbr_work_uri):
         error_msg = Error.PATH_DOES_NOT_EXISTS.value.format(frbr_work_uri)
         logging.error(error_msg)
-        add_error_entry(errors_dict=errors_dict, error_msg=error_msg, from_law=law, error_type=Error.PATH_DOES_NOT_EXISTS.name, from_element=ref_element)
+        add_error_entry(
+            errors_dict=errors_dict, error_msg=error_msg, from_law=law, error_type=Error.PATH_DOES_NOT_EXISTS.name,
+            from_element=ref_element
+        )
         return str(), str()
     if not os.path.exists(os.path.join(frbr_work_uri, LAW_SUFFIX)):
-        error_msg = Error.NO_LAW_FOUND.value.format(frbr_work_uri)
+        error_msg = Error.NO_LAW_FOUND.value.format(os.path.join(frbr_work_uri, LAW_SUFFIX))
         logging.error(error_msg)
-        add_error_entry(errors_dict=errors_dict, error_msg=error_msg, from_law=law, error_type=Error.NO_LAW_FOUND.name, from_element=ref_element)
+        add_error_entry(
+            errors_dict=errors_dict, error_msg=error_msg, from_law=law, error_type=Error.NO_LAW_FOUND.name, 
+            from_element=ref_element
+        )
         return str(), str()
 
     return frbr_work_uri, eid
 
 
-def get_ref_ancestor_element(law, element):
+def get_ref_ancestor_element(law, element, vertexes_map):
     parent = law.parent_map.get(element)
     while parent and parent.tag not in ANCESTOR_TAGS:
         last_ancestor = parent
@@ -43,54 +50,69 @@ def get_ref_ancestor_element(law, element):
                         f'last ancestor found is: {last_ancestor.tag}:{last_ancestor.text}'
             logging.debug(error_msg)
             raise Exception(error_msg)
-    return classify_vertex_by_tag(parent.tag, parent, law)
+    return classify_vertex_by_tag(parent.tag, parent, law, vertexes_map)
 
 
-def classify_vertex_by_tag_and_eid(tag, eids, to_law, from_law, from_element, errors_dict):
+def classify_vertex_by_tag_and_eid(tag, eids, to_law, from_law, from_element, errors_dict, vertexes_map):
     if tag:
         for eid in eids:
             element = to_law.root.findall(f'.//{tag}[@eId="{eid}"]')
             if len(element) > 1:
                 error_msg = Error.FOUND_MORE_THAN_ONE_EID.value.format(FULL_TO_SHORT_TAG[tag], eid, to_law.path)
                 logging.error(error_msg)
-                add_error_entry(errors_dict=errors_dict, error_msg=error_msg, error_type=Error.FOUND_MORE_THAN_ONE_EID.name, from_law=from_law, to_law=to_law, from_element=from_element, to_elements=element)
-                return classify_vertex_by_tag(tag=Tag.Law, element=to_law.root, law=to_law)  # if we didn't find the element, we return a law vertex
+                add_error_entry(
+                    errors_dict=errors_dict, error_msg=error_msg, error_type=Error.FOUND_MORE_THAN_ONE_EID.name,
+                    from_law=from_law, to_law=to_law, from_element=from_element, to_elements=element
+                )
+                # if we didn't find the element, we return a law vertex
+                return classify_vertex_by_tag(tag=Tag.Law, element=to_law.root, law=to_law, vertexes_map=vertexes_map)
             if element:
                 element = element[0]
-                return classify_vertex_by_tag(tag=tag, element=element, law=to_law)
+                return classify_vertex_by_tag(tag=tag, element=element, law=to_law, vertexes_map=vertexes_map)
 
         # unsuccessful classification
         error_msg = Error.DID_NOT_FIND_ELEMENT.value.format(FULL_TO_SHORT_TAG[tag], eids, to_law.path)
         logging.error(error_msg)
-        add_error_entry(errors_dict=errors_dict, error_msg=error_msg, error_type=Error.DID_NOT_FIND_ELEMENT.name, from_law=from_law, to_law=to_law, from_element=from_element)
-        return classify_vertex_by_tag(Tag.Law, to_law.root, to_law)  # if we didn't find the element, we return a law vertex
+        add_error_entry(
+            errors_dict=errors_dict, error_msg=error_msg, error_type=Error.DID_NOT_FIND_ELEMENT.name, from_law=from_law,
+            to_law=to_law, from_element=from_element
+        )
+        # if we didn't find the element, we return a law vertex
+        return classify_vertex_by_tag(Tag.Law, to_law.root, to_law, vertexes_map=vertexes_map)
 
     else:
         # tag is empty then it's a law
-        return classify_vertex_by_tag(tag=tag, element=to_law.root, law=to_law)
+        return classify_vertex_by_tag(tag=tag, element=to_law.root, law=to_law, vertexes_map=vertexes_map)
 
 
-def classify_vertex_by_tag(tag, element, law):
+def classify_vertex_by_tag(tag, element, law, vertexes_map):
     if tag == Tag.Chapter:
-        return Chapter(law, element)
+        vertex = Chapter(law, element)
     elif tag == Tag.Point:
-        return Point(law, element)
+        vertex = Point(law, element)
     elif tag == Tag.Section:
-        return Section(law, element)
+        vertex = Section(law, element)
     elif tag == Tag.Part:
-        return Part(law, element)
+        vertex = Part(law, element)
     elif tag == Tag.Appendix:
-        return Appendix(law, element)
+        vertex = Appendix(law, element)
     elif tag == Tag.Preamble:
-        return Preamble(law, element)
+        vertex = Preamble(law, element)
     elif tag == Tag.Subtitle:
-        return Subtitle(law, element)
+        vertex = Subtitle(law, element)
     elif tag == Tag.WrapUp:
-        return WrapUp(law, element)
+        vertex = WrapUp(law, element)
     elif tag == Tag.Law:
-        return law
+        vertex = law
     else:
         raise Exception('Unexpected behavior')
+
+    vertex_hash = hash(vertex)
+    if vertex_hash in vertexes_map:
+        return vertexes_map[vertex_hash]
+    else:
+        vertexes_map[vertex_hash] = vertex
+        return vertex
 
 
 def classify_tag(eid, errors_dict, from_law, ref_element):
@@ -112,7 +134,10 @@ def classify_tag(eid, errors_dict, from_law, ref_element):
     if not potential_suffixes:
         error_msg = Error.DID_NOT_SUCCEED_TO_CLASSIFY_EID.value.format(eid, from_law.path)
         logging.error(error_msg)
-        add_error_entry(errors_dict=errors_dict, error_msg=error_msg, error_type=Error.DID_NOT_SUCCEED_TO_CLASSIFY_EID.name, from_law=from_law, from_element=ref_element)
+        add_error_entry(
+            errors_dict=errors_dict, error_msg=error_msg, error_type=Error.DID_NOT_SUCCEED_TO_CLASSIFY_EID.name,
+            from_law=from_law, from_element=ref_element
+        )
         return Tag.Law  # if didn't succeed to classify node's tag, return law's tag
 
     locations = [eid.find(suffix) for suffix in potential_suffixes]
