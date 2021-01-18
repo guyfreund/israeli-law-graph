@@ -1,6 +1,5 @@
 LAW_SUFFIX = 'he@/main.xml'
 XML_NAMESPACE = '{http://docs.oasis-open.org/legaldocml/ns/akn/3.0}'
-NON_EXISTING_LAWS_PATH = 'non_existing_laws.json'
 HREF = "href"
 
 

@@ -1,4 +1,5 @@
-from constants import XML_NAMESPACE, EdgeType
+from constants import XML_NAMESPACE, EdgeType, ANCESTOR_TAGS
+
 import xml.etree.ElementTree as ET
 
 
@@ -72,6 +73,17 @@ class Law(Vertex):
 
     def get_ref_elements(self):
         return self.root.findall(f'.//{XML_NAMESPACE}ref')
+
+    def get_path_from_root(self, element):
+        path = element.tag.replace(XML_NAMESPACE, '')
+        parent = self.parent_map.get(element)
+        while parent:
+            if parent.tag in ANCESTOR_TAGS:
+                path = f"{parent.tag.replace(XML_NAMESPACE, '')} eId={parent.attrib['eId']}/{path}"
+            else:
+                path = f"{parent.tag.replace(XML_NAMESPACE, '')}/{path}"
+            parent = self.parent_map.get(parent)
+        return path
 
 
 class Chapter(Vertex):
