@@ -1,4 +1,4 @@
-from constants import XML_NAMESPACE, EdgeType, ANCESTOR_TAGS
+from constants import XML_NAMESPACE, EdgeType, ANCESTOR_TAGS, Tag
 
 import xml.etree.ElementTree as ET
 
@@ -10,20 +10,28 @@ class Graph(object):
 
 
 class Edge(object):
-    def __init__(self, from_vertex, to_vertex):
+    def __init__(self, from_vertex, to_vertex, ref):
         self.from_vertex: Vertex = from_vertex
         self.to_vertex: Vertex = to_vertex
+        self.ref = ref
         self.type: str = self.classify_edge_type(self.from_vertex, self.to_vertex)
 
     def __eq__(self, other):
         return all([
             self.type == other.type,
+            self.ref.tag == other.ref.tag,
+            self.ref.attrib == other.ref.attrib,
+            self.ref.text == other.ref.text,
+            self.ref.tail == other.ref.tail,
             self.from_vertex == other.from_vertex,
             self.to_vertex == other.to_vertex
         ])
 
     def __hash__(self):
-        return hash((self.from_vertex, self.to_vertex, self.type))
+        return hash((
+            self.from_vertex, self.to_vertex, self.type, self.ref.tag, str(self.ref.attrib), self.ref.text,
+            self.ref.tail
+        ))
 
     @staticmethod
     def classify_edge_type(from_vertex, to_vertex):
@@ -36,6 +44,10 @@ class Vertex(object):
         self.element: ET.Element = element
         self.in_edges: set[Edge] = set()
         self.out_edges: set[Edge] = set()
+        self.unique = str()
+        self.children_unique = str()
+        self.parent_unique = str()
+        self.tag = 'Vertex'
 
     def __eq__(self, other):
         return all([
@@ -61,6 +73,7 @@ class Law(Vertex):
         tree: ET.ElementTree = ET.parse(path)
         root: ET.Element = tree.getroot()
         super().__init__(law_path=path, element=root)
+        self.tag = Tag.Law
         self.path: str = path
         self.tree: ET.ElementTree = tree
         self.root: ET.Element = root
@@ -90,45 +103,288 @@ class Chapter(Vertex):
     def __init__(self, law, element):
         super().__init__(law_path=law.path, element=element)
         self.law: Law = law
+        self.tag = Tag.Chapter
+
+        # handling hashing
+        self.unique = element.find(f'.//{XML_NAMESPACE}title').find(f'.//{XML_NAMESPACE}content').find(f'.//{XML_NAMESPACE}p').text
+        self.children_unique = [f'{c.attrib}{c.text}{c.tag}{c.tail}' for c in element.iter()]
+        self.parent = law.parent_map.get(element)
+        self.g_parent = law.parent_map.get(self.parent)
+        self.index_in_g_parent = [c for c in self.g_parent].index(self.parent) if self.g_parent else -1
+        self.index_in_parent = [c for c in self.parent].index(element)
+        self.parent_unique = f'{self.parent.attrib}{self.parent.text}{self.parent.tag}{self.parent.tail}' \
+                             f'{self.index_in_parent}{self.index_in_g_parent}'
+
+    def __eq__(self, other):
+        return all([
+            self.law_path == other.law_path,
+            self.parent_unique == other.parent_unique,
+            self.children_unique == other.children_unique,
+            self.unique == other.unique,
+            self.element.attrib == other.element.attrib,
+            self.element.text == other.element.text,
+            self.element.tag == other.element.tag,
+            self.element.tail == other.element.tail
+        ])
+
+    def __hash__(self):
+        return hash((
+            self.law_path, self.unique, self.parent_unique, str(self.children_unique), str(self.element.attrib),
+            self.element.tail, self.element.text, self.element.tag
+        ))
 
 
 class Point(Vertex):
     def __init__(self, law, element):
         super().__init__(law_path=law.path, element=element)
         self.law: Law = law
+        self.tag = Tag.Point
+
+        # handling hashing
+        self.unique = ""
+        self.children_unique = [f'{c.attrib}{c.text}{c.tag}{c.tail}' for c in element.iter()]
+        self.parent = law.parent_map.get(element)
+        self.g_parent = law.parent_map.get(self.parent)
+        self.gg_parent = law.parent_map.get(self.g_parent)
+        self.ggg_parent = law.parent_map.get(self.gg_parent)
+        self.gggg_parent = law.parent_map.get(self.ggg_parent)
+        self.ggggg_parent = law.parent_map.get(self.gggg_parent)
+        self.gggggg_parent = law.parent_map.get(self.ggggg_parent)
+        self.index_in_parent = [c for c in self.parent].index(element)
+        self.index_in_g_parent = [c for c in self.g_parent].index(self.parent) if self.g_parent else -1
+        self.index_in_gg_parent = [c for c in self.gg_parent].index(self.g_parent) if self.gg_parent else -1
+        self.index_in_ggg_parent = [c for c in self.ggg_parent].index(self.gg_parent) if self.ggg_parent else -1
+        self.index_in_gggg_parent = [c for c in self.gggg_parent].index(self.ggg_parent) if self.gggg_parent else -1
+        self.index_in_ggggg_parent = [c for c in self.ggggg_parent].index(self.gggg_parent) if self.ggggg_parent else -1
+        self.index_in_gggggg_parent = [c for c in self.gggggg_parent].index(self.ggggg_parent) if self.gggggg_parent else -1
+        self.parent_unique = f'{self.parent.attrib}{self.parent.text}{self.parent.tag}{self.parent.tail}' \
+                             f'{self.index_in_parent}{self.index_in_g_parent}{self.index_in_gg_parent}' \
+                             f'{self.index_in_ggg_parent}{self.index_in_gggg_parent}{self.index_in_ggggg_parent}' \
+                             f'{self.index_in_gggggg_parent}'
+
+    def __eq__(self, other):
+        return all([
+            self.law_path == other.law_path,
+            self.parent_unique == other.parent_unique,
+            self.children_unique == other.children_unique,
+            self.unique == other.unique,
+            self.element.attrib == other.element.attrib,
+            self.element.text == other.element.text,
+            self.element.tag == other.element.tag,
+            self.element.tail == other.element.tail
+        ])
+
+    def __hash__(self):
+        return hash((
+            self.law_path, self.unique, self.parent_unique, str(self.children_unique), str(self.element.attrib),
+            self.element.tail, self.element.text, self.element.tag
+        ))
 
 
 class Section(Vertex):
     def __init__(self, law, element):
         super().__init__(law_path=law.path, element=element)
         self.law: Law = law
+        self.tag = Tag.Section
+
+        # handling hashing
+        self.unique = ""
+        self.children_unique = [f'{c.attrib}{c.text}{c.tag}{c.tail}' for c in element.iter()]
+        self.parent = law.parent_map.get(element)
+        self.g_parent = law.parent_map.get(self.parent)
+        self.index_in_g_parent = [c for c in self.g_parent].index(self.parent) if self.g_parent else -1
+        self.index_in_parent = [c for c in self.parent].index(element)
+        self.parent_unique = f'{self.parent.attrib}{self.parent.text}{self.parent.tag}{self.parent.tail}' \
+                             f'{self.index_in_parent}{self.index_in_g_parent}'
+
+    def __eq__(self, other):
+        return all([
+            self.law_path == other.law_path,
+            self.parent_unique == other.parent_unique,
+            self.children_unique == other.children_unique,
+            self.unique == other.unique,
+            self.element.attrib == other.element.attrib,
+            self.element.text == other.element.text,
+            self.element.tag == other.element.tag,
+            self.element.tail == other.element.tail
+        ])
+
+    def __hash__(self):
+        return hash((
+                    self.law_path, self.unique, self.parent_unique, str(self.children_unique), str(self.element.attrib),
+                    self.element.tail, self.element.text, self.element.tag))
 
 
 class Part(Vertex):
     def __init__(self, law, element):
         super().__init__(law_path=law.path, element=element)
         self.law: Law = law
+        self.tag = Tag.Part
+
+        # handling hashing
+        self.unique = ""
+        self.children_unique = [f'{c.attrib}{c.text}{c.tag}{c.tail}' for c in element.iter()]
+        self.parent = law.parent_map.get(element)
+        self.g_parent = law.parent_map.get(self.parent)
+        self.index_in_g_parent = [c for c in self.g_parent].index(self.parent) if self.g_parent else -1
+        self.index_in_parent = [c for c in self.parent].index(element)
+        self.parent_unique = f'{self.parent.attrib}{self.parent.text}{self.parent.tag}{self.parent.tail}' \
+                             f'{self.index_in_parent}{self.index_in_g_parent}'
+
+    def __eq__(self, other):
+        return all([
+            self.law_path == other.law_path,
+            self.parent_unique == other.parent_unique,
+            self.children_unique == other.children_unique,
+            self.unique == other.unique,
+            self.element.attrib == other.element.attrib,
+            self.element.text == other.element.text,
+            self.element.tag == other.element.tag,
+            self.element.tail == other.element.tail
+        ])
+
+    def __hash__(self):
+        return hash((
+                    self.law_path, self.unique, self.parent_unique, str(self.children_unique), str(self.element.attrib),
+                    self.element.tail, self.element.text, self.element.tag))
 
 
 class Appendix(Vertex):
     def __init__(self, law, element):
         super().__init__(law_path=law.path, element=element)
         self.law: Law = law
+        self.tag = Tag.Appendix
+
+        # handling hashing
+        self.unique = ""
+        self.children_unique = [f'{c.attrib}{c.text}{c.tag}{c.tail}' for c in element.iter()]
+        self.parent = law.parent_map.get(element)
+        self.g_parent = law.parent_map.get(self.parent)
+        self.index_in_g_parent = [c for c in self.g_parent].index(self.parent) if self.g_parent else -1
+        self.index_in_parent = [c for c in self.parent].index(element)
+        self.parent_unique = f'{self.parent.attrib}{self.parent.text}{self.parent.tag}{self.parent.tail}' \
+                             f'{self.index_in_parent}{self.index_in_g_parent}'
+
+    def __eq__(self, other):
+        return all([
+            self.law_path == other.law_path,
+            self.parent_unique == other.parent_unique,
+            self.children_unique == other.children_unique,
+            self.unique == other.unique,
+            self.element.attrib == other.element.attrib,
+            self.element.text == other.element.text,
+            self.element.tag == other.element.tag,
+            self.element.tail == other.element.tail
+        ])
+
+    def __hash__(self):
+        return hash((
+                    self.law_path, self.unique, self.parent_unique, str(self.children_unique), str(self.element.attrib),
+                    self.element.tail, self.element.text, self.element.tag
+        ))
 
 
 class Preamble(Vertex):
     def __init__(self, law, element):
         super().__init__(law_path=law.path, element=element)
         self.law: Law = law
+        self.tag = Tag.Preamble
+
+        # handling hashing
+        self.unique = ""
+        self.children_unique = [f'{c.attrib}{c.text}{c.tag}{c.tail}' for c in element.iter()]
+        self.parent = law.parent_map.get(element)
+        self.g_parent = law.parent_map.get(self.parent)
+        self.index_in_g_parent = [c for c in self.g_parent].index(self.parent) if self.g_parent else -1
+        self.index_in_parent = [c for c in self.parent].index(element)
+        self.parent_unique = f'{self.parent.attrib}{self.parent.text}{self.parent.tag}{self.parent.tail}' \
+                             f'{self.index_in_parent}{self.index_in_g_parent}'
+
+    def __eq__(self, other):
+        return all([
+            self.law_path == other.law_path,
+            self.parent_unique == other.parent_unique,
+            self.children_unique == other.children_unique,
+            self.unique == other.unique,
+            self.element.attrib == other.element.attrib,
+            self.element.text == other.element.text,
+            self.element.tag == other.element.tag,
+            self.element.tail == other.element.tail
+        ])
+
+    def __hash__(self):
+        return hash((
+                    self.law_path, self.unique, self.parent_unique, str(self.children_unique), str(self.element.attrib),
+                    self.element.tail, self.element.text, self.element.tag
+        ))
 
 
 class Subtitle(Vertex):
     def __init__(self, law, element):
         super().__init__(law_path=law.path, element=element)
         self.law: Law = law
+        self.tag = Tag.Subtitle
+
+        # handling hashing
+        self.unique = ""
+        self.children_unique = [f'{c.attrib}{c.text}{c.tag}{c.tail}' for c in element.iter()]
+        self.parent = law.parent_map.get(element)
+        self.g_parent = law.parent_map.get(self.parent)
+        self.index_in_g_parent = [c for c in self.g_parent].index(self.parent) if self.g_parent else -1
+        self.index_in_parent = [c for c in self.parent].index(element)
+        self.parent_unique = f'{self.parent.attrib}{self.parent.text}{self.parent.tag}{self.parent.tail}' \
+                             f'{self.index_in_parent}{self.index_in_g_parent}'
+
+    def __eq__(self, other):
+        return all([
+            self.law_path == other.law_path,
+            self.parent_unique == other.parent_unique,
+            self.children_unique == other.children_unique,
+            self.unique == other.unique,
+            self.element.attrib == other.element.attrib,
+            self.element.text == other.element.text,
+            self.element.tag == other.element.tag,
+            self.element.tail == other.element.tail
+        ])
+
+    def __hash__(self):
+        return hash((
+                    self.law_path, self.unique, self.parent_unique, str(self.children_unique), str(self.element.attrib),
+                    self.element.tail, self.element.text, self.element.tag
+        ))
 
 
 class WrapUp(Vertex):
     def __init__(self, law, element):
         super().__init__(law_path=law.path, element=element)
         self.law: Law = law
+        self.tag = Tag.WrapUp
+
+        # handling hashing
+        self.unique = ""
+        self.children_unique = [f'{c.attrib}{c.text}{c.tag}{c.tail}' for c in element.iter()]
+        self.parent = law.parent_map.get(element)
+        self.g_parent = law.parent_map.get(self.parent)
+        self.index_in_g_parent = [c for c in self.g_parent].index(self.parent) if self.g_parent else -1
+        self.index_in_parent = [c for c in self.parent].index(element)
+        self.parent_unique = f'{self.parent.attrib}{self.parent.text}{self.parent.tag}{self.parent.tail}' \
+                             f'{self.index_in_parent}{self.index_in_g_parent}'
+
+    def __eq__(self, other):
+        return all([
+            self.law_path == other.law_path,
+            self.parent_unique == other.parent_unique,
+            self.children_unique == other.children_unique,
+            self.unique == other.unique,
+            self.element.attrib == other.element.attrib,
+            self.element.text == other.element.text,
+            self.element.tag == other.element.tag,
+            self.element.tail == other.element.tail
+        ])
+
+    def __hash__(self):
+        return hash((
+                    self.law_path, self.unique, self.parent_unique, str(self.children_unique), str(self.element.attrib),
+                    self.element.tail, self.element.text, self.element.tag
+        ))
+
