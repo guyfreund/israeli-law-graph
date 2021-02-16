@@ -25,10 +25,17 @@ class Tag(object):
     Preamble = f"{XML_NAMESPACE}preamble"
     Subtitle = f"{XML_NAMESPACE}subtitle"
     WrapUp = f"{XML_NAMESPACE}wrapup"
+    Act = f"{XML_NAMESPACE}act"
 
 
 class EdgeType(object):
     Generic = "generic"
+    Section_of_law = "סעיף של חוק"
+    Sub_section_of_section = "תת-סעיף של סעיף"
+    Reference_to_another_law = "הפנייה לחוק אחר"
+    Reference_to_section_of_another_law = "הפנייה לסעיף של חוק אחר"
+    Law_Preamble = "הקדמה לחוק"
+    No_Type = "סתמי"
 
 
 SUFFIX_TO_TAG = {

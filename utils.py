@@ -49,8 +49,27 @@ def get_ref_ancestor_element(law, element, vertexes_map):
             error_msg = f'parent was not found for element {element.tag}:{element.text} in law {law.path}, ' \
                         f'last ancestor found is: {last_ancestor.tag}:{last_ancestor.text}'
             logging.debug(error_msg)
-            raise Exception(error_msg)
+            raise FileNotFoundError(error_msg)
     return classify_vertex_by_tag(parent.tag, parent, law, vertexes_map)
+
+
+def search_ref_ancestor_element(law, element, vertexes_map):
+    parent = law.parent_map.get(element)
+    while parent and parent.tag not in ANCESTOR_TAGS:
+        last_ancestor = parent
+        parent = law.parent_map.get(parent)
+        if not parent:
+            error_msg = f'parent was not found for element {element.tag}:{element.text} in law {law.path}, ' \
+                        f'last ancestor found is: {last_ancestor.tag}:{last_ancestor.text}'
+            logging.debug(error_msg)
+            raise FileNotFoundError(error_msg)
+        if parent.tag == Tag.Act:
+            parent = law
+            break
+    if parent is None:
+        parent = law
+    new_vertex = get_vertex(parent.tag, parent, law)
+    return new_vertex
 
 
 def classify_vertex_by_tag_and_eid(tag, eids, to_law, from_law, from_element, errors_dict, vertexes_map):
@@ -86,6 +105,17 @@ def classify_vertex_by_tag_and_eid(tag, eids, to_law, from_law, from_element, er
 
 
 def classify_vertex_by_tag(tag, element, law, vertexes_map):
+
+    vertex = get_vertex(tag, element, law)
+    vertex_hash = hash(vertex)
+    if vertex_hash in vertexes_map:
+        return vertexes_map[vertex_hash]
+    else:
+        vertexes_map[vertex_hash] = vertex
+        return vertex
+
+
+def get_vertex(tag, element, law):
     if tag == Tag.Chapter:
         vertex = Chapter(law, element)
     elif tag == Tag.Point:
@@ -107,12 +137,7 @@ def classify_vertex_by_tag(tag, element, law, vertexes_map):
     else:
         raise Exception('Unexpected behavior')
 
-    vertex_hash = hash(vertex)
-    if vertex_hash in vertexes_map:
-        return vertexes_map[vertex_hash]
-    else:
-        vertexes_map[vertex_hash] = vertex
-        return vertex
+    return vertex
 
 
 def classify_tag(eid, errors_dict, from_law, ref_element):
