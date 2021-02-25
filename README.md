@@ -49,7 +49,7 @@ TODO: elaborate on how to spin up.
 
 ## Running the Program:
 1. Install Python (version>=3.9.0)
-2. # TODO: Add Neo4j installation insturctions.
+2. TODO: Add Neo4j installation insturctions.
 3. Run: `pip install -r requirements.txt`
-4. # TODO: Add running the program instructions (in the main way out of the 3 possible).
+4. TODO: Add running the program instructions (in the main way out of the 3 possible).
 
