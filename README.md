@@ -18,6 +18,7 @@ This program creates the graph from a law's database. Each law's path is of the 
 
 ## Graph Creation Logic:
 For each reference: from_law, from_vertex, to_law & to_vertex vertexes are created. from_law => from_vertex, from_vertex => to_vertex, to_law => to_vertex edges are created.
+
 <img src=https://github.com/guyfreund/LawGraph/blob/master/graph_logic.jpg width=600>
 
 
