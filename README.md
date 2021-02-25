@@ -13,7 +13,7 @@ Each law is structured as an XML file in [AKN format](http://docs.oasis-open.org
 This program creates the graph from a law's database. Each law's path is of the `$LAW_GRAPH_REPO_ROOT/akn/il/$LEG_TYPE/$DATE/$FRBRWORKURI/he@/main.xml` format, where:
 - `$LAW_GRAPH_REPO_ROOT` is the root of the `LawGraph` repository.
 - `$LEG_TYPE` is the type of legalisation. Currently: PrimaryLegislation, SecondaryLegislation or PrimaryOrSecondaryLegislation.
-- `$DATE` is a date of format YYYY-MONTH-DAY.
+- `$DATE` is a date of format YYYY-MM-DD.
 - `$FRBRWORKURI` the element's value stored in each law in path `akomaNtoso/act/meta/identification/FRBRWork/FRBRthis/FRBRuri`.
 
 ## Graph Creation Logic:
