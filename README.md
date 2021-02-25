@@ -1,8 +1,8 @@
 # LawGraph
 #### A mapping of the Israeli legalisation.
-This repository is the implementation of a final project in Digital Science course taken by Guy Freund & David Ziegler from The department of Computer Science, Ben-Gurion University, Israel.
-This project is in jointly guided by the Ben-Gurion University and the Israeli Ministry of Justice.
-The project's goal is to create a mapping of all the law's in the Israeli legalisation. The data being used is given by the Ministry of Justice.
+This repository is the implementation of a final project in `Digital Sciences` course taken by `Guy Freund & David Ziegler` from `The department of Computer Science, Ben-Gurion University, Israel`.
+This project is in jointly guided by the `Ben-Gurion University` and the `Israeli Ministry of Justice`.
+The project's goal is to create a mapping of all the law's in the Israeli legalisation. The data being used is given by the `Israeli Ministry of Justice`.
 
 ## Database Format
 Each law is structured as an XML file in [AKN format](http://docs.oasis-open.org/legaldocml/ns/akn/3.0) and contains several `ref` elements. Each `ref` element contains a string reference that points to a specific law and to a specific element nested in the this law's XML file. Each such `ref` element represents a connection between law, such as:
