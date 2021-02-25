@@ -11,14 +11,27 @@ logging.basicConfig(filename='law_graph_logs.log', level=logging.INFO)
 
 
 def get_from_vertex(from_law, ref_element, edges, vertexes_map):
+    """ Searches for a to_vertex
+    1. Searches for the first ancestor of the element to be the from_vertex
+    2. Sets up an inner (law and an element in it) edge: from_law => from_vertex
+
+    """
     from_vertex: Vertex = get_ref_ancestor_element(law=from_law, element=ref_element, vertexes_map=vertexes_map)
-    setup_inner_edge(from_law, from_vertex, edges)  # setup an inner edge from_law => from_vertex
+    setup_inner_edge(from_law, from_vertex, edges)
 
     return from_vertex
 
 
 def get_to_vertex(from_law, ref_element, errors_dict, frbr_work_uri_to_law, edges, vertexes_map):
-    frbr_work_uri, eid = parse_ref(ref_element=ref_element, law=from_law, errors_dict=errors_dict)
+    """ Searches for a from_vertex
+    1. Parse the reference text to get frbr_work_uri prefix and element identifier (eid)
+    2. Classify the vertex's tag by the eid
+    3. Classify potential eids
+    4. Get the to_vertex using it's tag and eid
+    5. Sets up an inner (law and an element in it) edge: to_law => to_vertex
+
+    """
+    frbr_work_uri, eid = parse_ref(ref_element=ref_element, from_law=from_law, errors_dict=errors_dict)
     if not frbr_work_uri:
         return None
 
@@ -29,12 +42,13 @@ def get_to_vertex(from_law, ref_element, errors_dict, frbr_work_uri_to_law, edge
         tag=tag, eids=eids, to_law=to_law, errors_dict=errors_dict, from_law=from_law, from_element=ref_element,
         vertexes_map=vertexes_map
     )
-    setup_inner_edge(to_law, to_vertex, edges)  # setup an inner edge to_law => to_vertex
+    setup_inner_edge(to_law, to_vertex, edges)
 
     return to_vertex
 
 
 def setup_inner_edge(law, vertex, edges):
+    """ Sets up an inner (law and an element in it) edge """
     inner_edge = Edge(law, vertex, vertex.element)
     edges.add(inner_edge)
     vertex.add_in_edge(inner_edge)
@@ -42,6 +56,7 @@ def setup_inner_edge(law, vertex, edges):
 
 
 def generate_graph():
+    """ Generate the graph """
     edges: set = set()
     total_refs: int = 0
     successful_refs: int = 0
@@ -78,12 +93,10 @@ def generate_graph():
 def main():
     try:
         graph = generate_graph()
-        print()
     except Exception as e:
         logging.exception(str(e), exc_info=True)
         raise e
 
 
 if __name__ == '__main__':
-    # @TODO: add all laws to the vertexes
     main()

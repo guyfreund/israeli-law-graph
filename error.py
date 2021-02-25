@@ -7,6 +7,7 @@ ERRORS_FILE_PATH = 'errors.json'
 
 
 class Error(enum.Enum):
+    """ An enum class to store all error's values """
     PATH_DOES_NOT_EXISTS = "Path {} does not exists in database"
     NO_LAW_FOUND = "No law found in database. Assuming law path is: {}"
     FOUND_MORE_THAN_ONE_EID = "Found more than one element {} with eid {} in to_law {}"
@@ -15,6 +16,7 @@ class Error(enum.Enum):
 
 
 def init_errors_dict():
+    """ Initiates the errors data-structure """
     return {
         Error.PATH_DOES_NOT_EXISTS.name: [],
         Error.NO_LAW_FOUND.name: [],
@@ -24,7 +26,8 @@ def init_errors_dict():
     }
 
 
-def get_error_object(error_msg, from_law, error_type, from_element, to_elements, to_law):
+def get_error_entry(error_msg, from_law, error_type, from_element, to_elements, to_law):
+    """ Creates and returns error entry """
     if error_type == Error.PATH_DOES_NOT_EXISTS.name:
         return {
                 'error_msg': error_msg,
@@ -68,7 +71,8 @@ def get_error_object(error_msg, from_law, error_type, from_element, to_elements,
 
 
 def add_error_entry(errors_dict, error_msg, from_law, error_type, from_element, to_elements=None, to_law=None):
-    errors_dict[error_type].append(get_error_object(
+    """ Adds an error entry to its type in the errors data-structure """
+    errors_dict[error_type].append(get_error_entry(
         error_msg=error_msg,
         from_law=from_law,
         error_type=error_type,
@@ -79,5 +83,6 @@ def add_error_entry(errors_dict, error_msg, from_law, error_type, from_element, 
 
 
 def write_to_errors_file(errors_dict):
+    """ Writes the errors data-structure to a file """
     with open(ERRORS_FILE_PATH, "w") as f:
         f.write(json.dumps(errors_dict, indent=4, ensure_ascii=False).encode('utf8').decode())

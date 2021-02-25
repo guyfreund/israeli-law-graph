@@ -8,32 +8,34 @@ import glob
 import logging
 
 
-def parse_ref(ref_element, law, errors_dict):
+def parse_ref(ref_element, from_law, errors_dict):
+    """ Parses the raw reference text into FRBRWorkURI prefix and element identifier suffix """
     raw_href = ref_element.attrib[HREF]
 
     if raw_href.startswith('#'):
-        href = f'{law.frbr_work_uri}{raw_href}'
+        href = f'{from_law.frbr_work_uri}{raw_href}'
     elif raw_href.startswith('/'):
         href = raw_href[1:]
     else:
         href = raw_href
 
-    frbr_work_uri, eid = split_ref(href)
+    frbr_work_uri, eid = split_ref(href)  # Get FRBRWorkURI prefix and element identifier suffix
 
-    if not os.path.exists(frbr_work_uri):
+    if not os.path.exists(frbr_work_uri):  # Find out if FRBRWorkURI directory is in database
         error_msg = Error.PATH_DOES_NOT_EXISTS.value.format(frbr_work_uri)
         logging.error(error_msg)
         add_error_entry(
-            errors_dict=errors_dict, error_msg=error_msg, from_law=law, error_type=Error.PATH_DOES_NOT_EXISTS.name,
-            from_element=ref_element
+            errors_dict=errors_dict, error_msg=error_msg, from_law=from_law,
+            error_type=Error.PATH_DOES_NOT_EXISTS.name, from_element=ref_element
         )
         return str(), str()
-    if not os.path.exists(os.path.join(frbr_work_uri, LAW_SUFFIX)):
+
+    if not os.path.exists(os.path.join(frbr_work_uri, LAW_SUFFIX)):  # Find out if law xml file is not in database
         error_msg = Error.NO_LAW_FOUND.value.format(os.path.join(frbr_work_uri, LAW_SUFFIX))
         logging.error(error_msg)
         add_error_entry(
-            errors_dict=errors_dict, error_msg=error_msg, from_law=law, error_type=Error.NO_LAW_FOUND.name, 
-            from_element=ref_element
+            errors_dict=errors_dict, error_msg=error_msg, from_law=from_law,
+            error_type=Error.NO_LAW_FOUND.name, from_element=ref_element
         )
         return str(), str()
 
@@ -41,6 +43,7 @@ def parse_ref(ref_element, law, errors_dict):
 
 
 def get_ref_ancestor_element(law, element, vertexes_map):
+    """ Search for the reference element's ancestor that is tagged by one of ANCESTOR_TAGS """
     parent = law.parent_map.get(element)
     while parent and parent.tag not in ANCESTOR_TAGS:
         last_ancestor = parent
@@ -48,12 +51,13 @@ def get_ref_ancestor_element(law, element, vertexes_map):
         if not parent:
             error_msg = f'parent was not found for element {element.tag}:{element.text} in law {law.path}, ' \
                         f'last ancestor found is: {last_ancestor.tag}:{last_ancestor.text}'
-            logging.debug(error_msg)
+            logging.exception(error_msg)
             raise Exception(error_msg)
-    return classify_vertex_by_tag(parent.tag, parent, law, vertexes_map)
+    return create_vertex_by_tag(parent.tag, parent, law, vertexes_map)
 
 
 def classify_vertex_by_tag_and_eid(tag, eids, to_law, from_law, from_element, errors_dict, vertexes_map):
+    """ Searches for an element tagged by `tag` and one of the potential eids """
     if tag:
         for eid in eids:
             element = to_law.root.findall(f'.//{tag}[@eId="{eid}"]')
@@ -65,10 +69,10 @@ def classify_vertex_by_tag_and_eid(tag, eids, to_law, from_law, from_element, er
                     from_law=from_law, to_law=to_law, from_element=from_element, to_elements=element
                 )
                 # if we didn't find the element, we return a law vertex
-                return classify_vertex_by_tag(tag=Tag.Law, element=to_law.root, law=to_law, vertexes_map=vertexes_map)
+                return create_vertex_by_tag(tag=Tag.Law, element=to_law.root, law=to_law, vertexes_map=vertexes_map)
             if element:
-                element = element[0]
-                return classify_vertex_by_tag(tag=tag, element=element, law=to_law, vertexes_map=vertexes_map)
+                element = element[0]  # Should be only one element due to hashing
+                return create_vertex_by_tag(tag=tag, element=element, law=to_law, vertexes_map=vertexes_map)
 
         # unsuccessful classification
         error_msg = Error.DID_NOT_FIND_ELEMENT.value.format(FULL_TO_SHORT_TAG[tag], eids, to_law.path)
@@ -78,14 +82,15 @@ def classify_vertex_by_tag_and_eid(tag, eids, to_law, from_law, from_element, er
             to_law=to_law, from_element=from_element
         )
         # if we didn't find the element, we return a law vertex
-        return classify_vertex_by_tag(Tag.Law, to_law.root, to_law, vertexes_map=vertexes_map)
+        return create_vertex_by_tag(Tag.Law, to_law.root, to_law, vertexes_map=vertexes_map)
 
     else:
         # tag is empty then it's a law
-        return classify_vertex_by_tag(tag=tag, element=to_law.root, law=to_law, vertexes_map=vertexes_map)
+        return create_vertex_by_tag(tag=tag, element=to_law.root, law=to_law, vertexes_map=vertexes_map)
 
 
-def classify_vertex_by_tag(tag, element, law, vertexes_map):
+def create_vertex_by_tag(tag, element, law, vertexes_map):
+    """ Creates a Vertex inherited object by a Tag """
     if tag == Tag.Chapter:
         vertex = Chapter(law, element)
     elif tag == Tag.Point:
@@ -116,6 +121,10 @@ def classify_vertex_by_tag(tag, element, law, vertexes_map):
 
 
 def classify_tag(eid, errors_dict, from_law, ref_element):
+    """ Classify the vertex's Tag from the reference's element identifier
+    For an example, the string '{Suffix.Chaper}_{Suffix.Point}' will be tagged as Tag.Point
+
+    """
     if eid == Suffix.Law:
         return Tag.Law
 
@@ -147,6 +156,9 @@ def classify_tag(eid, errors_dict, from_law, ref_element):
 
 
 def classify_eid_by_tag(tag, eid):
+    """ There are a lot of eid mistakes. This function tries to deal with them.
+    For Appendix and Chapter eids we try to convert Hebrew characters to numbers.
+    """
     if tag == Tag.Appendix:
         _, suffix = eid.split(Suffix.Appendix)
         if suffix.startswith('_'):
@@ -157,6 +169,7 @@ def classify_eid_by_tag(tag, eid):
                 if isinstance(heb_num_suffix, str):
                     heb_num_suffix = [heb_num_suffix]
                 return [f'{Suffix.Appendix}_{option}' for option in heb_num_suffix]
+
     elif tag == Tag.Chapter:
         _, suffix = eid.split(Suffix.Chapter)
         if suffix.startswith('_'):
@@ -167,6 +180,7 @@ def classify_eid_by_tag(tag, eid):
                 if isinstance(heb_num_suffix, str):
                     heb_num_suffix = [heb_num_suffix]
                 return [f'{Suffix.Chapter}_{option}' for option in heb_num_suffix]
+
     return [eid]
 
 
@@ -179,6 +193,7 @@ def split_ref(ref):
 
 
 def build_laws_mapping():
+    """ Builds a map data-structure that maps a FRBRWorkURI to its Law object """
     laws = []
     frbr_work_uri_to_law = {}
     for law_path in glob.glob(f'akn/**/*.xml', recursive=True):

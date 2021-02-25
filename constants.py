@@ -4,6 +4,7 @@ HREF = "href"
 
 
 class Suffix(object):
+    """ A class to represent a Suffix of an element """
     Law = ""
     Chapter = "chp"
     Point = "point"
@@ -16,6 +17,7 @@ class Suffix(object):
 
 
 class Tag(object):
+    """ A class to represent a Tag of an element """
     Law = ""
     Chapter = f"{XML_NAMESPACE}chapter"
     Point = f"{XML_NAMESPACE}point"
@@ -28,6 +30,7 @@ class Tag(object):
 
 
 class EdgeType(object):
+    """ A class to represent an Edge Type """
     Generic = "generic"
 
 

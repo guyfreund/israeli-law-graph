@@ -4,12 +4,14 @@ import xml.etree.ElementTree as ET
 
 
 class Graph(object):
+    """ A class used to represent a Graph """
     def __init__(self, vertexes, edges):
         self.V: set[Vertex] = vertexes
         self.E: set[Edge] = edges
 
 
 class Edge(object):
+    """ A class used to represent an Edge """
     def __init__(self, from_vertex, to_vertex, ref):
         self.from_vertex: Vertex = from_vertex
         self.to_vertex: Vertex = to_vertex
@@ -39,6 +41,7 @@ class Edge(object):
 
 
 class Vertex(object):
+    """ A class used to represent a Vertex """
     def __init__(self, law_path, element):
         self.law_path: str = law_path
         self.element: ET.Element = element
@@ -69,6 +72,7 @@ class Vertex(object):
 
 
 class Law(Vertex):
+    """ A class used to represent a Law """
     def __init__(self, path):
         tree: ET.ElementTree = ET.parse(path)
         root: ET.Element = tree.getroot()
@@ -100,12 +104,13 @@ class Law(Vertex):
 
 
 class Chapter(Vertex):
+    """ A class used to represent a Chapter in a Law """
     def __init__(self, law, element):
         super().__init__(law_path=law.path, element=element)
         self.law: Law = law
         self.tag = Tag.Chapter
 
-        # handling hashing
+        # hashing fields
         self.unique = element.find(f'.//{XML_NAMESPACE}title').find(f'.//{XML_NAMESPACE}content').find(f'.//{XML_NAMESPACE}p').text
         self.children_unique = [f'{c.attrib}{c.text}{c.tag}{c.tail}' for c in element.iter()]
         self.parent = law.parent_map.get(element)
@@ -135,12 +140,13 @@ class Chapter(Vertex):
 
 
 class Point(Vertex):
+    """ A class used to represent a Point in a Law """
     def __init__(self, law, element):
         super().__init__(law_path=law.path, element=element)
         self.law: Law = law
         self.tag = Tag.Point
 
-        # handling hashing
+        # hashing fields
         self.unique = ""
         self.children_unique = [f'{c.attrib}{c.text}{c.tag}{c.tail}' for c in element.iter()]
         self.parent = law.parent_map.get(element)
@@ -182,12 +188,13 @@ class Point(Vertex):
 
 
 class Section(Vertex):
+    """ A class used to represent a Section in a Law """
     def __init__(self, law, element):
         super().__init__(law_path=law.path, element=element)
         self.law: Law = law
         self.tag = Tag.Section
 
-        # handling hashing
+        # hashing fields
         self.unique = ""
         self.children_unique = [f'{c.attrib}{c.text}{c.tag}{c.tail}' for c in element.iter()]
         self.parent = law.parent_map.get(element)
@@ -216,12 +223,13 @@ class Section(Vertex):
 
 
 class Part(Vertex):
+    """ A class used to represent a Part in a Law """
     def __init__(self, law, element):
         super().__init__(law_path=law.path, element=element)
         self.law: Law = law
         self.tag = Tag.Part
 
-        # handling hashing
+        # hashing fields
         self.unique = ""
         self.children_unique = [f'{c.attrib}{c.text}{c.tag}{c.tail}' for c in element.iter()]
         self.parent = law.parent_map.get(element)
@@ -250,12 +258,13 @@ class Part(Vertex):
 
 
 class Appendix(Vertex):
+    """ A class used to represent an Appendix in a Law """
     def __init__(self, law, element):
         super().__init__(law_path=law.path, element=element)
         self.law: Law = law
         self.tag = Tag.Appendix
 
-        # handling hashing
+        # hashing fields
         self.unique = ""
         self.children_unique = [f'{c.attrib}{c.text}{c.tag}{c.tail}' for c in element.iter()]
         self.parent = law.parent_map.get(element)
@@ -285,12 +294,13 @@ class Appendix(Vertex):
 
 
 class Preamble(Vertex):
+    """ A class used to represent a Preamble in a Law """
     def __init__(self, law, element):
         super().__init__(law_path=law.path, element=element)
         self.law: Law = law
         self.tag = Tag.Preamble
 
-        # handling hashing
+        # hashing fields
         self.unique = ""
         self.children_unique = [f'{c.attrib}{c.text}{c.tag}{c.tail}' for c in element.iter()]
         self.parent = law.parent_map.get(element)
@@ -320,12 +330,13 @@ class Preamble(Vertex):
 
 
 class Subtitle(Vertex):
+    """ A class used to represent a Subtitle in a Law """
     def __init__(self, law, element):
         super().__init__(law_path=law.path, element=element)
         self.law: Law = law
         self.tag = Tag.Subtitle
 
-        # handling hashing
+        # hashing fields
         self.unique = ""
         self.children_unique = [f'{c.attrib}{c.text}{c.tag}{c.tail}' for c in element.iter()]
         self.parent = law.parent_map.get(element)
@@ -355,12 +366,13 @@ class Subtitle(Vertex):
 
 
 class WrapUp(Vertex):
+    """ A class used to represent a WrapUp in a Law """
     def __init__(self, law, element):
         super().__init__(law_path=law.path, element=element)
         self.law: Law = law
         self.tag = Tag.WrapUp
 
-        # handling hashing
+        # hashing fields
         self.unique = ""
         self.children_unique = [f'{c.attrib}{c.text}{c.tag}{c.tail}' for c in element.iter()]
         self.parent = law.parent_map.get(element)
