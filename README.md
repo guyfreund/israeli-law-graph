@@ -1,6 +1,5 @@
 # LawGraph
 #### Generates a Graph that maps laws and their references.
----
 
 ## Database Format
 Each law is structured by an XML file in [AKN format](http://docs.oasis-open.org/legaldocml/ns/akn/3.0) contains several `ref` elements. Each `ref` element contains a string reference that point to a law and to a specific element nested in the law's XML file.
