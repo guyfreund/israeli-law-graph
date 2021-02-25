@@ -12,4 +12,5 @@ This program creates the graph from a law's database. Each law's path is of the 
 - `$FRBRWORKURI` the element's value stored in each law in path `akomaNtoso/act/meta/identification/FRBRWork/FRBRthis/FRBRuri`
 
 #### The logic to create a reference:
+![Alt text](graph_logic.jpg?raw=true "Title")
 
