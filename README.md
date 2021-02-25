@@ -5,12 +5,10 @@ This project is in jointly guided by the Ben-Gurion University and the Israeli M
 The project's goal is to create a mapping of all the law's in the Israeli legalisation. The data being used is given by the Ministry of Justice.
 
 ## Database Format
-Each law is a structured by an XML file in [AKN format](http://docs.oasis-open.org/legaldocml/ns/akn/3.0) and contains several `ref` elements. Each `ref` element (a string reference that point to a law and to a specific element nested in the law's XML file) represents a connection between law, such as:
+Each law is a structured by an XML file in [AKN format](http://docs.oasis-open.org/legaldocml/ns/akn/3.0) and contains several `ref` elements. Each `ref` element (a string reference that points to a specific law and to a specific element nested in the this law's XML file) represents a connection between law, such as:
 - Amendment of a section in another law
 - Reference to a definition contained in another law
 - Reliance on a provision appearing in another law
-
-Each `ref` element contains a string reference that point to a law and to a specific element nested in the law's XML file.
 
 This program creates the graph from a law's database. Each law's path is of the `$LAW_GRAPH_REPO_ROOT/akn/il/$LEG_TYPE/$DATE/$FRBRWORKURI/he@/main.xml` format, where:
 - `$LAW_GRAPH_REPO_ROOT` is the root of the `LawGraph` repository.
