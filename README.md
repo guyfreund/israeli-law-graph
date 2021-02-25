@@ -3,10 +3,8 @@
 This repository is the implementation of a final project in Digital Science course taken by Guy Freund & David Ziegler from Ben-Gurion University.
 This project is in jointly guided by the Ben-Gurion University and the Israeli. Ministry of Justice
 
-```חוקים מפנים פעמים רבות לחוקים אחרים, מסיבות שונות (לעתים סעיף מפנה לחוק אחר באופן כללי, ולעתים```
-```סעיף מפנה ישירות לסעיף מסוים בחוק אחר). המשימה היא יצירת מפת קשרים של כלל ההפניות בין חוקים,```
-```יחד עם מידע על סוג ההפניה (תיקון של סעיף בחוק אחר, הפניה להגדרה שנמצאת בחוק אחר, הסתמכות על```
-```הוראה שמופיעה בחוק אחר וכו').```
+חוקים מפנים פעמים רבות לחוקים אחרים, מסיבות שונות (לעתים סעיף מפנה לחוק אחר באופן כללי, ולעתים סעיף מפנה ישירות לסעיף מסוים בחוק אחר). המשימה היא יצירת מפת קשרים של כלל ההפניות בין חוקים, יחד עם מידע על סוג ההפניה (תיקון של סעיף בחוק אחר, הפניה להגדרה שנמצאת בחוק אחר, הסתמכות על הוראה שמופיעה בחוק אחר וכו').
+
 
 
 The project's goal is to create a mapping of all the law's in the Israeli legalisation. The data being used is given by the Ministry of Justice.
