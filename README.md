@@ -5,13 +5,18 @@ This project is in jointly guided by the Ben-Gurion University and the Israeli M
 The project's goal is to create a mapping of all the law's in the Israeli legalisation. The data being used is given by the Ministry of Justice.
 
 ## Database Format
-Each law is a structured by an XML file in [AKN format](http://docs.oasis-open.org/legaldocml/ns/akn/3.0) contains several `ref` elements. Each `ref` element contains a string reference that point to a law and to a specific element nested in the law's XML file.
+Each law is a structured by an XML file in [AKN format](http://docs.oasis-open.org/legaldocml/ns/akn/3.0) and contains several `ref` elements. Each `ref` elements represents a connection between law, such as:
+- Amendment of a section in another law
+- Reference to a definition contained in another law
+- Reliance on a provision appearing in another law
+
+Each `ref` element contains a string reference that point to a law and to a specific element nested in the law's XML file.
 
 This program creates the graph from a law's database. Each law's path is of the `$LAW_GRAPH_REPO_ROOT/akn/il/$LEG_TYPE/$DATE/$FRBRWORKURI/he@/main.xml` format, where:
 - `$LAW_GRAPH_REPO_ROOT` is the root of the `LawGraph` repository.
 - `$LEG_TYPE` is the type of legalisation. Currently: PrimaryLegislation, SecondaryLegislation or PrimaryOrSecondaryLegislation.
 - `$DATE` is a date of format YYYY-MONTH-DAY.
-- `$FRBRWORKURI` the element's value stored in each law in path `akomaNtoso/act/meta/identification/FRBRWork/FRBRthis/FRBRuri`
+- `$FRBRWORKURI` the element's value stored in each law in path `akomaNtoso/act/meta/identification/FRBRWork/FRBRthis/FRBRuri`.
 
 ## Graph Creation Logic:
 - For each reference: `from_law, from_vertex, to_law & to_vertex` vertexes are created. `from_law => from_vertex, from_vertex => to_vertex, to_law => to_vertex` edges are created.
