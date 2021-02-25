@@ -1,5 +1,5 @@
 # LawGraph
-#### Generates a Graph that maps laws and their references.
+#### A mapping of the Israeli legalisation.
 This repository is the implementation of a final project in Digital Science course taken by Guy Freund & David Ziegler from Ben-Gurion University.
 This project is in jointly guided by the Ben-Gurion University and the Israeli Ministry of Justice.
 The project's goal is to create a mapping of all the law's in the Israeli legalisation. The data being used is given by the Ministry of Justice.
