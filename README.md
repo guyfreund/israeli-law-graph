@@ -11,13 +11,13 @@ Each law is structured as an XML file in [AKN format](http://docs.oasis-open.org
 - Reliance on a provision appearing in another law
 
 This program creates the graph from a law's database. Each law's path is of the `$LAW_GRAPH_REPO_ROOT/akn/il/$LEG_TYPE/$DATE/$FRBRWORKURI/he@/main.xml` format, where:
-- `$LAW_GRAPH_REPO_ROOT` is the root of the `LawGraph` repository.
-- `$LEG_TYPE` is the type of legalisation. Currently: PrimaryLegislation, SecondaryLegislation or PrimaryOrSecondaryLegislation.
-- `$DATE` is a date of format YYYY-MM-DD.
-- `$FRBRWORKURI` the element's value stored in each law in path `akomaNtoso/act/meta/identification/FRBRWork/FRBRthis/FRBRuri`.
+- `$LAW_GRAPH_REPO_ROOT`: The root of the LawGraph repository.
+- `$LEG_TYPE`: The type of legalisation. Currently: PrimaryLegislation, SecondaryLegislation or PrimaryOrSecondaryLegislation.
+- `$DATE`: A date of format YYYY-MM-DD.
+- `$FRBRWORKURI`: The element's value stored in each law in path `akomaNtoso/act/meta/identification/FRBRWork/FRBRthis/FRBRuri`.
 
 ## Graph Creation Logic:
-- For each reference: `from_law, from_vertex, to_law & to_vertex` vertexes are created. `from_law => from_vertex, from_vertex => to_vertex, to_law => to_vertex` edges are created.
+- For each reference: from_law, from_vertex, to_law & to_vertex vertexes are created. from_law => from_vertex, from_vertex => to_vertex, to_law => to_vertex edges are created.
 <img src=https://github.com/guyfreund/LawGraph/blob/master/graph_logic.jpg width=600>
 
 
