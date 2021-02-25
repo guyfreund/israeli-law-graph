@@ -22,16 +22,16 @@ This program creates the graph from a law's database. Each law's path is of the 
 
 
 ## Neo4j Implementation:
-TODO: elaborate on what we did.
+@TODO: elaborate on what we did.
 
 #### Spinning up the database: Method 1
-TODO: elaborate on how to spin up.
+@TODO: elaborate on how to spin up.
 
 #### Spinning up the database: Method 2
-TODO: elaborate on how to spin up.
+@TODO: elaborate on how to spin up.
 
 #### Spinning up the database: Method 3
-TODO: elaborate on how to spin up.
+@TODO: elaborate on how to spin up.
 
 
 ## Repository's Files:
@@ -49,7 +49,7 @@ TODO: elaborate on how to spin up.
 
 ## Running the Program:
 1. Install Python (version>=3.9.0)
-2. TODO: Add Neo4j installation insturctions.
+2. @TODO: Add Neo4j installation insturctions.
 3. Run: `pip install -r requirements.txt`
-4. TODO: Add running the program instructions (in the main way out of the 3 possible).
+4. @TODO: Add running the program instructions (in the main way out of the 3 possible).
 
