@@ -21,6 +21,19 @@ This program creates the graph from a law's database. Each law's path is of the 
 <img src=https://github.com/guyfreund/LawGraph/blob/master/graph_logic.jpg width=600>
 
 
+## Neo4j Implementation:
+TODO: elaborate on what we did.
+
+#### Spinning up the database: Method 1
+TODO: elaborate on how to spin up.
+
+#### Spinning up the database: Method 2
+TODO: elaborate on how to spin up.
+
+#### Spinning up the database: Method 3
+TODO: elaborate on how to spin up.
+
+
 ## Repository's Files:
 - `generate_graph.py`: Generates the Pythonic graph.
 - `classes.py`: Contains all Python Classes used across the program.
@@ -29,6 +42,14 @@ This program creates the graph from a law's database. Each law's path is of the 
 - `error.py`: Contains all error handling functions.
 - `errors.json`: The errors file, contains 5 different types errors and is being built during runtime.
 - `law_graph_logs.log`: The log file. The program logs to this file during runtime.
-- `requirements.txt`: The requirements file. To install all the program's dependencies run: `pip install -r requirements.txt`.
+- `requirements.txt`: The requirements file.
 - `validate_class_uniqueness.py`: Validates that all class's elements can be 1to1 identified. 
 - `validate_graph.py`: Validates the graph correctness.
+
+
+## Running the Program:
+1. Install Python (version>=3.9.0)
+2. # TODO: Add Neo4j installation insturctions.
+3. Run: `pip install -r requirements.txt`
+4. # TODO: Add running the program instructions (in the main way out of the 3 possible).
+
