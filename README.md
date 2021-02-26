@@ -2,7 +2,7 @@
 #### A mapping of the Israeli legalisation.
 This repository is the implementation of a final project in Digital Sciences course taken by Guy Freund & David Ziegler from The department of Computer Science, Ben-Gurion University, Israel.
 This project is jointly guided by the Ben-Gurion University and the Israeli Ministry of Justice.
-The project's goal is to create a mapping of all the law's in the Israeli legalisation. The data being used is given by the Israeli Ministry of Justice.
+The project's goal is to create a mapping of all the laws in the Israeli legalisation. The data being used is given by the Israeli Ministry of Justice.
 
 ## Database Format
 Each law is structured as an XML file in [AKN format](http://docs.oasis-open.org/legaldocml/ns/akn/3.0) and contains several ref elements. Each ref element stores a string reference that points to a specific law and to a specific element nested in the this law's XML file. Each such ref element represents a connection between law, such as:
@@ -10,7 +10,7 @@ Each law is structured as an XML file in [AKN format](http://docs.oasis-open.org
 - Reference to a definition contained in another law
 - Reliance on a provision appearing in another law
 
-This program creates the graph from a law's database. Each law's path is of the `$LAW_GRAPH_REPO_ROOT/akn/il/$LEG_TYPE/$DATE/$FRBRWORKURI/he@/main.xml` format, where:
+This program creates the graph from the Israeli Ministry of Justice's database that contains all the laws. Each law's path is of the `$LAW_GRAPH_REPO_ROOT/akn/il/$LEG_TYPE/$DATE/$FRBRWORKURI/he@/main.xml` format, where:
 - `LAW_GRAPH_REPO_ROOT`: The root of the LawGraph repository.
 - `LEG_TYPE`: The type of legalisation. Currently: PrimaryLegislation, SecondaryLegislation or PrimaryOrSecondaryLegislation.
 - `DATE`: A date of format YYYY-MM-DD.
@@ -46,6 +46,7 @@ For each reference: from_law, from_vertex, to_law & to_vertex vertexes are creat
 - `requirements.txt`: The requirements file.
 - `validate_class_uniqueness.py`: Validates that all class's elements can be 1to1 identified. 
 - `validate_graph.py`: Validates the graph correctness.
+- @TODO: Add the files related to Neo4j,
 
 
 ## Running the Program:
