@@ -51,9 +51,28 @@ def get_ref_ancestor_element(law, element, vertexes_map):
         if not parent:
             error_msg = f'parent was not found for element {element.tag}:{element.text} in law {law.path}, ' \
                         f'last ancestor found is: {last_ancestor.tag}:{last_ancestor.text}'
-            logging.exception(error_msg)
+            logging.debug(error_msg)
             raise Exception(error_msg)
-    return create_vertex_by_tag(parent.tag, parent, law, vertexes_map)
+    return classify_vertex_by_tag(parent.tag, parent, law, vertexes_map)
+
+
+def search_ref_ancestor_element(law, element, vertexes_map):
+    parent = law.parent_map.get(element)
+    while parent and parent.tag not in ANCESTOR_TAGS:
+        last_ancestor = parent
+        parent = law.parent_map.get(parent)
+        if not parent:
+            error_msg = f'parent was not found for element {element.tag}:{element.text} in law {law.path}, ' \
+                        f'last ancestor found is: {last_ancestor.tag}:{last_ancestor.text}'
+            logging.debug(error_msg)
+            raise FileNotFoundError(error_msg)
+        if parent.tag == Tag.Act:
+            parent = law
+            break
+    if parent is None:
+        parent = law
+    new_vertex = get_vertex(parent.tag, parent, law)
+    return new_vertex
 
 
 def classify_vertex_by_tag_and_eid(tag, eids, to_law, from_law, from_element, errors_dict, vertexes_map):
@@ -69,10 +88,10 @@ def classify_vertex_by_tag_and_eid(tag, eids, to_law, from_law, from_element, er
                     from_law=from_law, to_law=to_law, from_element=from_element, to_elements=element
                 )
                 # if we didn't find the element, we return a law vertex
-                return create_vertex_by_tag(tag=Tag.Law, element=to_law.root, law=to_law, vertexes_map=vertexes_map)
+                return classify_vertex_by_tag(tag=Tag.Law, element=to_law.root, law=to_law, vertexes_map=vertexes_map)
             if element:
                 element = element[0]  # Should be only one element due to hashing
-                return create_vertex_by_tag(tag=tag, element=element, law=to_law, vertexes_map=vertexes_map)
+                return classify_vertex_by_tag(tag=tag, element=element, law=to_law, vertexes_map=vertexes_map)
 
         # unsuccessful classification
         error_msg = Error.DID_NOT_FIND_ELEMENT.value.format(FULL_TO_SHORT_TAG[tag], eids, to_law.path)
@@ -82,15 +101,25 @@ def classify_vertex_by_tag_and_eid(tag, eids, to_law, from_law, from_element, er
             to_law=to_law, from_element=from_element
         )
         # if we didn't find the element, we return a law vertex
-        return create_vertex_by_tag(Tag.Law, to_law.root, to_law, vertexes_map=vertexes_map)
+        return classify_vertex_by_tag(Tag.Law, to_law.root, to_law, vertexes_map=vertexes_map)
 
     else:
         # tag is empty then it's a law
-        return create_vertex_by_tag(tag=tag, element=to_law.root, law=to_law, vertexes_map=vertexes_map)
+        return classify_vertex_by_tag(tag=tag, element=to_law.root, law=to_law, vertexes_map=vertexes_map)
 
 
-def create_vertex_by_tag(tag, element, law, vertexes_map):
+def classify_vertex_by_tag(tag, element, law, vertexes_map):
     """ Creates a Vertex inherited object by a Tag """
+    vertex = get_vertex(tag, element, law)
+    vertex_hash = hash(vertex)
+    if vertex_hash in vertexes_map:
+        return vertexes_map[vertex_hash]
+    else:
+        vertexes_map[vertex_hash] = vertex
+        return vertex
+
+
+def get_vertex(tag, element, law):
     if tag == Tag.Chapter:
         vertex = Chapter(law, element)
     elif tag == Tag.Point:
@@ -112,12 +141,7 @@ def create_vertex_by_tag(tag, element, law, vertexes_map):
     else:
         raise Exception('Unexpected behavior')
 
-    vertex_hash = hash(vertex)
-    if vertex_hash in vertexes_map:
-        return vertexes_map[vertex_hash]
-    else:
-        vertexes_map[vertex_hash] = vertex
-        return vertex
+    return vertex
 
 
 def classify_tag(eid, errors_dict, from_law, ref_element):
