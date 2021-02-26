@@ -31,7 +31,7 @@ class Tag(object):
 class EdgeType(object):
     Generic = "generic"
     Section_of_law = "סעיף של חוק"
-    Sub_section_of_section = "תת-סעיף של סעיף"
+    Sub_section_of_section = "תת-סעיף של סעיף"  # Not used
     Reference_to_another_law = "הפנייה לחוק אחר"
     Reference_to_section_of_another_law = "הפנייה לסעיף של חוק אחר"
     Law_Preamble = "הקדמה לחוק"

@@ -1,7 +1,8 @@
 from constants import XML_NAMESPACE, EdgeType, ANCESTOR_TAGS, Tag
 
 import xml.etree.ElementTree as ET
-import uuid
+
+global_id = 0
 
 
 class Graph(object):
@@ -72,7 +73,7 @@ class Vertex(object):
         self.children_unique = str()
         self.parent_unique = str()
         self.tag = 'Vertex'
-        self.id = uuid.uuid4().hex
+        self.id = self.get_id()
         # title and body are used on neo4j browser UI
         self.law: Law = None
         self.title = ''
@@ -96,6 +97,14 @@ class Vertex(object):
     def add_out_edge(self, edge):
         self.out_edges.add(edge)
 
+    @staticmethod
+    def get_id():
+        global global_id
+        global_id += 1
+        if global_id == 70839:
+            print()
+        return global_id
+
 
 class Law(Vertex):
     def __init__(self, path):
@@ -111,7 +120,8 @@ class Law(Vertex):
             'value']
         self.frbr_work_uri: str = frbr_work_uri[1:] if frbr_work_uri.startswith('/') else frbr_work_uri
         self.title: str = self.root.find(f'.//{XML_NAMESPACE}body').find(f'./{XML_NAMESPACE}title') \
-            .find(f'./{XML_NAMESPACE}content').find(f'./{XML_NAMESPACE}p').text
+            .find(f'./{XML_NAMESPACE}content').find(f'./{XML_NAMESPACE}p').text\
+            .replace('"', '""').replace('\n', ' ')
         self.hrefs: list = self.get_ref_elements()
         self.parent_map: dict = {c: p for p in self.tree.iter() for c in p}
         self.body = ''
@@ -137,7 +147,7 @@ class Chapter(Vertex):
         self.law: Law = law
         self.tag = Tag.Chapter
 
-        self.title: str = self.find_title()
+        self.title: str = self.find_title().replace('"', '""') .replace('\n', ' ')
 
         # handling hashing
         self.unique = element.find(f'.//{XML_NAMESPACE}title').find(f'.//{XML_NAMESPACE}content').find(
@@ -192,8 +202,8 @@ class Point(Vertex):
         self.law: Law = law
         self.tag = Tag.Point
 
-        self.title: str = self.find_title()
-        self.body: str = self.find_body().strip()
+        self.title: str = self.find_title().replace('"', '""').replace('\n', ' ')
+        self.body: str = self.find_body().strip().replace('"', '""').replace('\n', ' ')
 
         # handling hashing
         self.unique = ''
@@ -267,15 +277,6 @@ class Point(Vertex):
         final_form = '. '.join(removed_points)
         return final_form
 
-        # if number and heading gave no results, we're probably dealing with a different type of a Point
-        # try to treat it as a 'definition' point
-
-        # try:
-        #     define = self.find_title_rec(self.element.find(f'./{XML_NAMESPACE}content').find(f'./{XML_NAMESPACE}p')).strip()
-        # except AttributeError:
-        #     define = ''
-        # return define
-
     def find_title_rec(self, e: ET.Element):
         text = ''
         if len(e) == 0:
@@ -316,8 +317,8 @@ class Section(Vertex):
         self.law: Law = law
         self.tag = Tag.Section
 
-        self.title = self.find_title()
-        self.body = self.find_body()
+        self.title = self.find_title().replace('"', '""').replace('\n', ' ')
+        self.body = self.find_body().replace('"', '""').replace('\n', ' ')
 
         # handling hashing
         self.unique = ''
@@ -370,7 +371,7 @@ class Part(Vertex):
         self.law: Law = law
         self.tag = Tag.Part
 
-        self.title = self.find_title()
+        self.title = self.find_title().replace('"', '""').replace('\n', ' ')
 
         # handling hashing
         self.unique = ''
@@ -423,7 +424,7 @@ class Appendix(Vertex):
         self.law: Law = law
         self.tag = Tag.Appendix
 
-        self.title = self.find_title()
+        self.title = self.find_title().replace('"', '""').replace('\n', ' ')
 
         # handling hashing
         self.unique = ''
@@ -468,7 +469,8 @@ class Preamble(Vertex):
         self.law: Law = law
         self.tag = Tag.Preamble
 
-        self.title = self.find_title(element).strip()
+        self.title = \
+                     self.find_title(element).strip().replace('"', '""').replace('\n', ' ')
 
         # handling hashing
         self.unique = ''
@@ -518,7 +520,8 @@ class Subtitle(Vertex):
         self.law: Law = law
         self.tag = Tag.Subtitle
 
-        self.title = self.find_title(self.element.find(f'./{XML_NAMESPACE}content').find(f'./{XML_NAMESPACE}p')).strip()
+        self.title = self.find_title(self.element.find(f'./{XML_NAMESPACE}content').find(f'./{XML_NAMESPACE}p'))\
+            .strip().replace('"', '""').replace('\n', ' ')
 
         # handling hashing
         self.unique = ''
@@ -568,8 +571,8 @@ class WrapUp(Vertex):
         self.law: Law = law
         self.tag = Tag.WrapUp
 
-        self.title = self.find_title()
-        self.body = self.find_body()
+        self.title = self.find_title().replace('"', '""').replace('\n', ' ')
+        self.body = self.find_body().replace('"', '""').replace('\n', ' ')
 
         # handling hashing
         self.unique = ''

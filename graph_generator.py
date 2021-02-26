@@ -1,6 +1,7 @@
 from classes import Vertex, Edge, Graph, Law, Section, WrapUp, Appendix
 from db_handler import init_graph
 from datetime import datetime
+import csv
 
 from db_handler_rdf import init_db
 from utils import classify_tag, classify_vertex_by_tag_and_eid, get_ref_ancestor_element, build_laws_mapping, \
@@ -33,7 +34,7 @@ def get_from_vertex(from_law, ref_element, edges, vertexes_map):
     # except FileNotFoundError:
     #     pass
 
-    # setup_inner_edge(from_vertex, from_law, edges)  # setup an inner edge from_law => from_vertex
+    setup_inner_edge(from_vertex, from_law, edges)  # setup an inner edge from_law => from_vertex
     return from_vertex
 
 
@@ -64,7 +65,7 @@ def get_to_vertex(from_law, ref_element, errors_dict, frbr_work_uri_to_law, edge
     #     except FileNotFoundError:
     #         pass
     # if to_vertex != to_law:
-    # setup_inner_edge(to_vertex, to_law, edges)  # setup an inner edge to_law => to_vertex
+    setup_inner_edge(to_vertex, to_law, edges)  # setup an inner edge to_law => to_vertex
 
     return to_vertex
 
@@ -105,15 +106,6 @@ def generate_graph():
             successful_refs += 1
             total_refs += 1
             logging.info(f"{total_refs}. Succeed to handle href {ref_element.attrib[HREF]} in from_law {from_law.path}")
-
-        #  Before moving to the next law, make all nodes reachable from law node by adding least amount of edges
-        rest_subgraphs = get_isolated_subgraphs(law_edges, from_law)
-        for sub in rest_subgraphs:
-            v = next(iter(sub))
-            edge: Edge = Edge(v, from_law, from_law.element)
-            law_edges.add(edge)
-            v.add_out_edge(edge)
-            from_law.add_in_edge(edge)
 
         edges.update(law_edges)
 
@@ -173,9 +165,23 @@ def main():
         graph = generate_graph()
         # init_db(graph)
         print("Finish Graph Time =", datetime.now().strftime("%H:%M:%S"))
-        init_graph(graph)
+        # init_graph(graph)
+
+        with open('Nodes.csv', mode='w') as nodes_file:
+            nodes_writer = csv.writer(nodes_file, delimiter='¡', quotechar='"', quoting=csv.QUOTE_MINIMAL)
+            nodes_writer.writerow([':ID', ':LABEL', 'title', 'body', 'law_uri:string'])
+            for v in graph.V:
+                nodes_writer.writerow([v.id, type(v).__name__, v.title, v.body, v.law.path])
+
+        with open('Edges.csv', mode='w') as edges_file:
+            edges_writer = csv.writer(edges_file, delimiter='¡', quotechar='"', quoting=csv.QUOTE_MINIMAL)
+            edges_writer.writerow([':START_ID', ':TYPE', ':END_ID'])
+            for e in graph.E:
+                edges_writer.writerow([e.from_vertex.id, e.type, e.to_vertex.id])
+
         print('Vertexes = ', len(graph.V))
         print('Edges = ', len(graph.E))
+
         print("End Time =", datetime.now().strftime("%H:%M:%S"))
 
     except Exception as e:
@@ -185,5 +191,6 @@ def main():
 
 if __name__ == '__main__':
     # @TODO: add all laws to the vertexes
+
     print("Start Time =", datetime.now().strftime("%H:%M:%S"))
     main()
