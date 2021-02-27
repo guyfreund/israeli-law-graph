@@ -1,25 +1,25 @@
-from classes import Vertex, Edge, Graph, Law, Section, WrapUp, Appendix
-from db_handler import init_graph
-from datetime import datetime
 import csv
-
-from db_handler_rdf import init_db
-from utils import classify_tag, classify_vertex_by_tag_and_eid, get_ref_ancestor_element, build_laws_mapping, \
-    parse_ref, classify_eid_by_tag, search_ref_ancestor_element
-from error import write_to_errors_file, init_errors_dict
-from constants import HREF, EdgeType
-import pickle
-
 import logging
+import sys
+from datetime import datetime
+
+from classes import Vertex, Edge, Graph, Law
+from constants import HREF, EdgeType
+from db_handler import init_graph
+from error import write_to_errors_file, init_errors_dict
+from utils import classify_tag, classify_vertex_by_tag_and_eid, get_ref_ancestor_element, build_laws_mapping, \
+    parse_ref, classify_eid_by_tag
 
 logging.basicConfig(filename='law_graph_logs.log', level=logging.INFO)
+
+
 # logging.basicConfig(level=logging.INFO)
 
 
 def get_from_vertex(from_law, ref_element, edges, vertexes_map):
     """ Searches for a to_vertex
     1. Searches for the first ancestor of the element to be the from_vertex
-    2. Sets up an inner (law and an element in it) edge: from_law => from_vertex
+    2. Sets up an inner (law and an element in it) edge: to_law => to_vertex
 
     """
     from_vertex: Vertex = get_ref_ancestor_element(law=from_law, element=ref_element, vertexes_map=vertexes_map)
@@ -38,9 +38,8 @@ def get_from_vertex(from_law, ref_element, edges, vertexes_map):
     #         setup_inner_edge(from_vertex, from_vertex_p, edges)  # setup an inner edge from_law => from_vertex
     # except FileNotFoundError:
     #     pass
-    setup_inner_edge(from_law, from_vertex, edges)
+    setup_inner_edge(from_vertex, from_law, edges)  # setup an inner edge from node => law
 
-    setup_inner_edge(from_vertex, from_law, edges)  # setup an inner edge from_law => from_vertex
     return from_vertex
 
 
@@ -78,19 +77,21 @@ def get_to_vertex(from_law, ref_element, errors_dict, frbr_work_uri_to_law, edge
     #         setup_inner_edge(to_vertex, to_vertex_p, edges)  # setup an inner edge from_law => to_vertex
     #     except FileNotFoundError:
     #         pass
-    # if to_vertex != to_law:
-    setup_inner_edge(to_vertex, to_law, edges)  # setup an inner edge to_law => to_vertex
-    setup_inner_edge(to_law, to_vertex, edges)
+    setup_inner_edge(to_vertex, to_law, edges)  # setup an inner edge from node => law
 
     return to_vertex
 
 
-def setup_inner_edge(law, vertex, edges):
+def setup_inner_edge(vertex, law, edges):
     """ Sets up an inner (law and an element in it) edge """
-    inner_edge = Edge(law, vertex, vertex.element)
+    vertex_targets = list(map(lambda edge: edge.to_vertex, vertex.out_edges))
+    if law in vertex_targets:
+        return
+
+    inner_edge = Edge(vertex, law, vertex.element)
     edges.add(inner_edge)
-    vertex.add_in_edge(inner_edge)
-    law.add_out_edge(inner_edge)
+    law.add_in_edge(inner_edge)
+    vertex.add_out_edge(inner_edge)
 
 
 def generate_graph():
@@ -129,75 +130,72 @@ def generate_graph():
     logging.info(f'{total_refs = }, {successful_refs = }, failed_not_handled_refs = {total_refs - successful_refs}')
     write_to_errors_file(errors_dict)
 
+    nodes = set(vertexes_map.values())
+
     edges_cleaned = clean_edges(edges)
-    # return Graph(set(vertexes_map.values()), edges)
-    return Graph(set(vertexes_map.values()), edges_cleaned)
 
-
-def get_isolated_subgraphs(edges: set[Edge], law: Law):
-    checked_nodes: set[Vertex] = set()
-    subgraphs = list()
-    for edge in edges:
-        node = edge.from_vertex
-        subgraph = set()
-        find_subgraph(node, checked_nodes, subgraph)
-        if len(subgraph) != 0:
-            if law not in subgraph:
-                subgraphs.append(subgraph)
-
-    return subgraphs
-
-
-def find_subgraph(node: Vertex, checked_nodes: set[Vertex], subgraph: set):
-    if node in checked_nodes:
-        return
-    neighbors = get_neighbors(node)
-    checked_nodes.add(node)
-    subgraph.add(node)
-    neighbors = neighbors - checked_nodes
-    for n in neighbors:
-        find_subgraph(n, checked_nodes, subgraph)
-    return
-
-
-def get_neighbors(node: Vertex):
-    neighbors_in = set(filter(lambda e1: node.law.id == e1.law.id, map(lambda e: e.from_vertex, node.in_edges)))
-    neighbors_out = set(filter(lambda e1: node.law.id == e1.law.id, map(lambda e: e.to_vertex, node.out_edges)))
-    all_neighbors = neighbors_in.copy()
-    all_neighbors.update(neighbors_out)
-    return all_neighbors
+    return Graph(nodes, edges_cleaned)
 
 
 def clean_edges(edges):
-    no_generics = list(filter(lambda edge: edge.to_vertex.id != edge.from_vertex.id and edge.type != EdgeType.Generic,
+    no_generics = set(filter(lambda edge: edge.to_vertex.id != edge.from_vertex.id and edge.type != EdgeType.Generic,
                               edges))
-    # no_extra_edges = list(filter(lambda edge:
-    #                              len(edge.from_vertex.in_edges) == 0 or edge.type != EdgeType.Section_of_law,
-    #                              no_generics))
+
     return no_generics
 
 
 def main():
+    if len(sys.argv) == 2 and (sys.argv[1] == '-csv' or sys.argv[1] == '--csv-import'):
+        argument = sys.argv[1]
+    elif (len(sys.argv) == 4 or len(sys.argv) == 5) and sys.argv[1] == '-auto':
+        argument = sys.argv[1]
+    else:
+        print('Incorrect execution. \n\n'
+              'Argument options:\n'
+              'For automatic upload to neo4j - "-auto <username> <password> <url:port>"\n'
+              'Url and port are optional, if not specified, "bolt://localhost:7687" will be used.\n\n'
+              'Create Nodes.csv and Edges.csv to'
+              'be used with Cypher - "-csv"\n\n'
+              'Create Nodes.csv and Edges.csv to be imported via terminal - "--csv-import"')
+        return
+
     try:
         graph = generate_graph()
-        # init_db(graph)
         print("Finish Graph Time =", datetime.now().strftime("%H:%M:%S"))
-        # init_graph(graph)
 
-        with open('Nodes.csv', mode='w') as nodes_file:
-            nodes_writer = csv.writer(nodes_file, delimiter='¡', quotechar='"', quoting=csv.QUOTE_MINIMAL)
-            nodes_writer.writerow([':ID', ':LABEL', 'title', 'body', 'law_uri:string'])
-            for v in graph.V:
-                nodes_writer.writerow([v.id, type(v).__name__, v.title, v.body, v.law.path])
+        if argument == '-auto':
+            if len(sys.argv) == 4:
+                init_graph(graph, sys.argv[2], sys.argv[3])
+            else:
+                init_graph(graph, sys.argv[2], sys.argv[3], sys.argv[4])
 
-        with open('Edges.csv', mode='w') as edges_file:
-            edges_writer = csv.writer(edges_file, delimiter='¡', quotechar='"', quoting=csv.QUOTE_MINIMAL)
-            edges_writer.writerow([':START_ID', ':TYPE', ':END_ID'])
-            for e in graph.E:
-                edges_writer.writerow([e.from_vertex.id, e.type, e.to_vertex.id])
+        elif argument == '-csv':
+            with open('Nodes.csv', mode='w') as nodes_file:
+                nodes_writer = csv.writer(nodes_file, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
+                nodes_writer.writerow(['Id', 'type', 'title', 'body', 'law_uri'])
+                for v in graph.V:
+                    nodes_writer.writerow([v.id, type(v).__name__, v.title, v.body, v.law.path])
 
-        print('Vertexes = ', len(graph.V))
-        print('Edges = ', len(graph.E))
+            with open('Edges.csv', mode='w') as edges_file:
+                edges_writer = csv.writer(edges_file, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
+                edges_writer.writerow(['from_id', 'from_title', 'from_law_uri', 'type',
+                                       'to_id', 'to_title', 'to_law_uri'])
+                for e in graph.E:
+                    edges_writer.writerow([e.from_vertex.id, e.from_vertex.title, e.from_vertex.law_path, e.type,
+                                           e.to_vertex.id, e.to_vertex.title, e.to_vertex.law_path])
+
+        else:
+            with open('Nodes.csv', mode='w') as nodes_file:
+                nodes_writer = csv.writer(nodes_file, delimiter='¡', quotechar='"', quoting=csv.QUOTE_MINIMAL)
+                nodes_writer.writerow([':ID', ':LABEL', 'title', 'body', 'law_uri:string'])
+                for v in graph.V:
+                    nodes_writer.writerow([v.id, type(v).__name__, v.title, v.body, v.law.path])
+
+            with open('Edges.csv', mode='w') as edges_file:
+                edges_writer = csv.writer(edges_file, delimiter='¡', quotechar='"', quoting=csv.QUOTE_MINIMAL)
+                edges_writer.writerow([':START_ID', ':TYPE', ':END_ID'])
+                for e in graph.E:
+                    edges_writer.writerow([e.from_vertex.id, e.type, e.to_vertex.id])
 
         print("End Time =", datetime.now().strftime("%H:%M:%S"))
 

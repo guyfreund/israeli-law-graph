@@ -2,8 +2,8 @@ from py2neo import Graph, Node, Relationship
 from classes import Graph as OurGraph, Law, Point, Preamble, Part, Section, Chapter, Appendix, Subtitle, WrapUp
 
 
-def init_graph(our_graph: OurGraph):
-    graph = Graph("bolt://localhost:7687", user="neo4j", password="1234")
+def init_graph(our_graph: OurGraph, user: str, password: str, url: str = 'bolt://localhost:7687'):
+    graph = Graph(f"{url}", user=user, password=password)
     graph.delete_all()
     tx = graph.begin()
 

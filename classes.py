@@ -45,7 +45,9 @@ class Edge(object):
             self.ref.tail
         ))
 
-    def classify_edge_type(self, from_vertex, to_vertex):
+    @staticmethod
+    def classify_edge_type(from_vertex, to_vertex):
+        """ Find and return edge's type """
         if type(from_vertex) is Preamble:
             if hash(to_vertex) == hash(from_vertex.law):
                 return EdgeType.Law_Preamble  # Preamble of a law
@@ -182,6 +184,7 @@ class Chapter(Vertex):
         ))
 
     def find_title(self):
+        """ Try to parse vertex's title """
         try:
             from_num = self.element.find(f'./{XML_NAMESPACE}num').text
             if from_num is None:
@@ -251,7 +254,7 @@ class Point(Vertex):
         ))
 
     def find_title(self):
-
+        """ Try to parse vertex's title """
         try:
             number = self.element.find(f'./{XML_NAMESPACE}num').text
             if number is None:
@@ -282,6 +285,7 @@ class Point(Vertex):
         return final_form
 
     def find_title_rec(self, e: ET.Element):
+        """ Try to parse vertex's title recursively. Necessary when there are refs inside text. """
         text = ''
         if len(e) == 0:
             text += '' if e.text is None else e.text
@@ -295,6 +299,7 @@ class Point(Vertex):
         return text
 
     def find_body(self):
+        """ Try to parse vertex's body. """
         try:
             body = self.find_body_rec(self.element.find(f'./{XML_NAMESPACE}content').find(f'./{XML_NAMESPACE}p'))
         except AttributeError:
@@ -353,6 +358,7 @@ class Section(Vertex):
             self.element.tail, self.element.text, self.element.tag))
 
     def find_title(self):
+        """ Try to parse vertex's title. """
         try:
             from_num = self.element.find(f'./{XML_NAMESPACE}num').text
             return from_num if len(from_num) > 0 else self.element.find(f'./{XML_NAMESPACE}title') \
@@ -362,6 +368,7 @@ class Section(Vertex):
         return ""
 
     def find_body(self):
+        """ Try to parse vertex's body. """
         try:
             return self.element.find(f'./{XML_NAMESPACE}title') \
                 .find(f'./{XML_NAMESPACE}content').find(f'./{XML_NAMESPACE}p').text
@@ -407,6 +414,7 @@ class Part(Vertex):
             self.element.tail, self.element.text, self.element.tag))
 
     def find_title(self):
+        """ Try to parse vertex's title. """
         try:
             from_num = self.element.find(f'./{XML_NAMESPACE}num').text
             if from_num is None:
@@ -462,6 +470,7 @@ class Appendix(Vertex):
         ))
 
     def find_title(self):
+        """ Try to parse vertex's title. """
         try:
             return self.element.find(f'./{XML_NAMESPACE}title') \
                 .find(f'./{XML_NAMESPACE}content').find(f'./{XML_NAMESPACE}p').text
@@ -509,6 +518,7 @@ class Preamble(Vertex):
         ))
 
     def find_title(self, e: ET.Element):
+        """ Try to parse vertex's title recursively. Necessary when there are refs inside text """
         text = ''
         if len(e) == 0:
             text += '' if e.text is None else e.text
@@ -561,6 +571,7 @@ class Subtitle(Vertex):
         ))
 
     def find_title(self, e: ET.Element):
+        """ Try to parse vertex's title recursively. Necessary when there are refs inside text """
         text = ''
         if len(e) == 0:
             text += '' if e.text is None else e.text
@@ -613,6 +624,7 @@ class WrapUp(Vertex):
         ))
 
     def find_title(self):
+        """ Try to parse vertex's title. """
         try:
             number = self.element.find(f'./{XML_NAMESPACE}num').text
             if number is None:
@@ -631,6 +643,7 @@ class WrapUp(Vertex):
         return final_form
 
     def find_body(self):
+        """ Try to parse vertex's body. """
         try:
             body = self.find_body_rec(self.element.find(f'./{XML_NAMESPACE}content').find(f'./{XML_NAMESPACE}p'))
         except AttributeError:
